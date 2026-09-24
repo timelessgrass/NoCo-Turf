@@ -1,0 +1,189 @@
+---
+/**
+ * TownLocator — a town page's map, drawn from the same Census 2024 Gazetteer points and projection as
+ * CorridorMap (territory.mjs), so the two maps agree.
+ *   corridor — the whole corridor, small: where this town sits (the hero visual on pages without a job photo)
+ *   local    — zoomed to this town and its neighbours, with a painted route out to each one
+ * Lines are SVG; the town names are HTML laid over it at percentages, so they stay one size at any width.
+ * The picture is decorative for assistive tech (role="img" + label); the page's nearby list carries the links.
+ * No boundary text here: the one element allowed to name a Denver-metro place lives on /areas/ (data-boundary).
+ */
+interface Town { slug: string; name: string; lat: number; lng: number; tier?: string; county?: string }
+interface Props { towns: Town[]; current: string; mode?: 'corridor' | 'local'; nearby?: string[]; id: string; caption?: boolean }
+const { towns, current, mode = 'local', nearby = [], id, caption = true } = Astro.props;
+
+/* CorridorMap's projection: equirectangular with a cos(latitude) correction, 560 units wide. */
+const box = { latMax: 40.76, latMin: 40.0, lngMin: -105.22, lngMax: -104.64 };
+const K = Math.cos((40.4 * Math.PI) / 180);
+const W = 560;
+const scale = W / ((box.lngMax - box.lngMin) * K);
+const px = (lng: number, lat: number) => [(lng - box.lngMin) * K * scale, (box.latMax - lat) * scale] as const;
+const line = (pts: [number, number][]) => pts.map(([lng, lat], i) => `${i ? 'L' : 'M'}${px(lng, lat).map((n) => n.toFixed(1)).join(' ')}`).join(' ');
+const PX_PER_MILE = scale / 69.05;
+
+const here = towns.find((t) => t.slug === current)!;
+const near = nearby.map((s) => towns.find((t) => t.slug === s)).filter((t): t is Town => !!t);
+const focus = mode === 'local' ? [here, ...near] : towns;
+
+/* viewBox: the towns in focus plus a margin, never tighter than 150 units, aspect kept between 0.8 and 1.5
+   (local) so a town with close neighbours still reads as a place. */
+const pts = focus.map((t) => px(t.lng, t.lat));
+let minX = Math.min(...pts.map((p) => p[0])), maxX = Math.max(...pts.map((p) => p[0]));
+let minY = Math.min(...pts.map((p) => p[1])), maxY = Math.max(...pts.map((p) => p[1]));
+const pad = mode === 'local' ? 58 : 26;
+minX -= pad; maxX += pad; minY -= pad; maxY += pad;
+const grow = (lo: number, hi: number, to: number) => { const c = (lo + hi) / 2; return [c - to / 2, c + to / 2]; };
+if (mode === 'local') {
+  if (maxX - minX < 150) [minX, maxX] = grow(minX, maxX, 150);
+  if (maxY - minY < 150) [minY, maxY] = grow(minY, maxY, 150);
+  const ar = (maxX - minX) / (maxY - minY);
+  if (ar < 0.8) [minX, maxX] = grow(minX, maxX, (maxY - minY) * 0.8);
+  if (ar > 1.5) [minY, maxY] = grow(minY, maxY, (maxX - minX) / 1.5);
+}
+const vbW = maxX - minX, vbH = maxY - minY;
+/* Sizes are written for a nominal rendered width, then converted to user units. */
+const nominal = mode === 'local' ? 560 : 250;
+const u = (pxAtNominal: number) => +((pxAtNominal * vbW) / nominal).toFixed(2);
+
+const i25 = line([[-104.986, 40.76], [-104.99, 40.6], [-104.985, 40.42], [-104.98, 40.3], [-104.985, 40.16], [-104.99, 40.0]]);
+const us34 = line([[-105.22, 40.403], [-105.06, 40.408], [-104.98, 40.41], [-104.78, 40.415], [-104.64, 40.42]]);
+const ridge = line([[-105.2, 40.76], [-105.17, 40.66], [-105.19, 40.58], [-105.16, 40.5], [-105.18, 40.42], [-105.15, 40.33], [-105.17, 40.24], [-105.14, 40.14], [-105.16, 40.0]]);
+
+const [hx, hy] = px(here.lng, here.lat);
+const route = (t: Town) => {
+  const [x, y] = px(t.lng, t.lat);
+  const mx = (hx + x) / 2, my = (hy + y) / 2;
+  const dx = x - hx, dy = y - hy; const len = Math.hypot(dx, dy) || 1;
+  const bend = Math.min(40, len * 0.2);
+  return `M${hx.toFixed(1)} ${hy.toFixed(1)} Q${(mx - (dy / len) * bend).toFixed(1)} ${(my + (dx / len) * bend).toFixed(1)} ${x.toFixed(1)} ${y.toFixed(1)}`;
+};
+
+/* Label side: CorridorMap's tested sides (the tight pairs Johnstown/Milliken, Longmont/Firestone,
+   Fort Collins/Timnath); the current town takes the side with more room in corridor mode. */
+const RIGHT = ['Wellington', 'Timnath', 'Loveland', 'Milliken', 'Berthoud', 'Mead', 'Longmont', 'Firestone', 'Frederick', 'Dacono'];
+const pct = (x: number, y: number) => `left:${(((x - minX) / vbW) * 100).toFixed(2)}%;top:${(((y - minY) / vbH) * 100).toFixed(2)}%`;
+/* Label placement, solved once at phone width (the tightest case — at wider renders the map grows faster
+   than the type). Each label tries its preferred side, then the other side, then above, then below, and takes
+   the first spot that stays on the plan and clears every label and dot already placed. */
+const PW = mode === 'local' ? 340 : 150, PH = (PW * vbH) / vbW;
+const toP = (x: number, y: number) => [((x - minX) / vbW) * PW, ((y - minY) / vbH) * PH] as const;
+type Box = [number, number, number, number];
+const hit = (a: Box, b: Box) => a[0] < b[2] && b[0] < a[2] && a[1] < b[3] && b[1] < a[3];
+const placed: Box[] = (mode === 'local' ? [here, ...near] : [here]).map((t) => { const [x, y] = toP(...px(t.lng, t.lat)); return [x - 7, y - 7, x + 7, y + 7] as Box; });
+const labels = (mode === 'local' ? [here, ...near] : [here]).map((t) => {
+  const [x, y] = toP(...px(t.lng, t.lat));
+  const isHere = t.slug === here.slug;
+  const fs = isHere ? 14 : 11.8;
+  const w = 0.58 * fs * t.name.length + (isHere ? 14 : 10), h = fs + (isHere ? 8 : 6), o = 9;
+  const pref = mode === 'corridor' ? (x > PW * 0.55 ? 'end' : 'start') : RIGHT.includes(t.name) ? 'start' : 'end';
+  const order = [pref, pref === 'start' ? 'end' : 'start', 'above', 'below'];
+  const boxOf = (s: string): Box => s === 'start' ? [x + o, y - h / 2, x + o + w, y + h / 2] : s === 'end' ? [x - o - w, y - h / 2, x - o, y + h / 2]
+    : s === 'above' ? [x - w / 2, y - o - h, x + w / 2, y - o] : [x - w / 2, y + o, x + w / 2, y + o + h];
+  const fits = (b: Box) => b[0] >= 2 && b[1] >= 2 && b[2] <= PW - 2 && b[3] <= PH - 2;
+  const side = order.find((s) => { const b = boxOf(s); return fits(b) && !placed.some((p) => hit(b, p) && !(p[0] === x - 7 && p[1] === y - 7)); }) ?? pref;
+  placed.push(boxOf(side));
+  const [sx, sy] = px(t.lng, t.lat);
+  return { t, style: pct(sx, sy), side, isHere };
+});
+const scaleMiles = mode === 'local' ? (vbW / PX_PER_MILE > 22 ? 5 : 2) : 10;
+const scaleW = ((scaleMiles * PX_PER_MILE) / vbW) * 100;
+const coords = `${here.lat.toFixed(2)}° N · ${Math.abs(here.lng).toFixed(2)}° W`;
+const aria = mode === 'local'
+  ? `Map of ${here.name} and the towns next to it: ${near.map((t) => t.name).join(', ')}`
+  : `Map of the Northern Colorado corridor from Wellington to Dacono, with ${here.name} marked`;
+---
+<figure class:list={['tloc', `tloc--${mode}`]} data-tloc={id}>
+  <div class="tloc__plan" role="img" aria-label={aria} style={`aspect-ratio:${vbW.toFixed(1)}/${vbH.toFixed(1)}`}>
+    <svg viewBox={`${minX.toFixed(1)} ${minY.toFixed(1)} ${vbW.toFixed(1)} ${vbH.toFixed(1)}`} aria-hidden="true" focusable="false">
+      <path class="tloc__ridge" d={ridge} stroke-width={u(1.2)} stroke-dasharray={`${u(2)} ${u(5)}`} />
+      <path class="tloc__road" d={i25} stroke-width={u(mode === 'local' ? 5 : 2.6)} />
+      <path class="tloc__road tloc__road--minor" d={us34} stroke-width={u(mode === 'local' ? 3 : 1.6)} />
+      {mode === 'local' && near.map((t) => <path class="tloc__route" data-route={`${id}-${t.slug}`} d={route(t)} pathLength="1" stroke-width={u(2.6)} />)}
+      {towns.map((t) => {
+        const [x, y] = px(t.lng, t.lat);
+        const isNear = near.some((n) => n.slug === t.slug);
+        if (t.slug === here.slug) return null;
+        return <circle class:list={['tloc__dot', { 'is-near': isNear }]} data-dot={isNear ? `${id}-${t.slug}` : undefined} cx={x.toFixed(1)} cy={y.toFixed(1)} r={u(isNear ? 5.5 : mode === 'corridor' ? 3.4 : 3.6)} stroke-width={u(2)} />;
+      })}
+      <circle class="tloc__ring" cx={hx.toFixed(1)} cy={hy.toFixed(1)} r={u(mode === 'local' ? 17 : 11)} pathLength="1" stroke-width={u(2.6)} />
+      <circle class="tloc__here" cx={hx.toFixed(1)} cy={hy.toFixed(1)} r={u(mode === 'local' ? 7 : 5)} stroke-width={u(2.5)} />
+    </svg>
+    {labels.map((l) => (
+      <span class:list={['tloc__lbl', `tloc__lbl--${l.side}`, { 'is-here': l.isHere }]} style={l.style} data-lbl={l.isHere ? undefined : `${id}-${l.t.slug}`} aria-hidden="true">{l.t.name}</span>
+    ))}
+    <span class="tloc__north" aria-hidden="true"><svg viewBox="0 0 12 18"><path d="M6 1 11 17 6 13 1 17Z" /></svg>N</span>
+    <span class="tloc__scale" style={`--w:${scaleW.toFixed(2)}%`} aria-hidden="true"><span class="tloc__bar"></span>{scaleMiles} mi</span>
+  </div>
+  {caption && (
+    <figcaption class="tloc__cap">
+      {mode === 'corridor'
+        ? <><span class="label">Location</span><span class="tloc__cap-town">{here.name}{here.county && <span>, {here.county.includes('&') ? `${here.county} counties` : `${here.county} County`}</span>}</span><span class="tloc__cap-co num">{coords}</span></>
+        : <><span class="label">Town points: Census 2024 Gazetteer</span><span class="tloc__cap-co">Roads schematic · straight-line miles</span></>}
+    </figcaption>
+  )}
+</figure>
+
+<style>
+  .tloc { margin: 0; view-timeline-name: --tloc; }
+  .tloc__plan { position: relative; width: 100%; background: var(--ground-2); border-radius: var(--r-panel); overflow: hidden;
+    box-shadow: inset 0 0 0 1px var(--line); }
+  .tloc__plan > svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .tloc__ridge { fill: none; stroke: rgb(var(--ink-rgb) / 0.24); }
+  .tloc__road { fill: none; stroke: rgb(var(--ink-rgb) / 0.14); stroke-linecap: round; stroke-linejoin: round; }
+  .tloc__road--minor { stroke: rgb(var(--ink-rgb) / 0.11); }
+  .tloc__route { fill: none; stroke: var(--paint); stroke-linecap: round; stroke-dasharray: 1; stroke-dashoffset: 0; opacity: 0.9;
+    transition: opacity var(--t2) var(--ease), stroke-width var(--t2) var(--ease); }
+  .tloc__dot { fill: rgb(var(--ink-rgb) / 0.3); stroke: var(--ground-2); }
+  .tloc__dot.is-near { fill: var(--ink); transition: fill var(--t2) var(--ease); }
+  .tloc__here { fill: var(--paint); stroke: var(--ink); }
+  .tloc__ring { fill: none; stroke: var(--paint); stroke-dasharray: 1; stroke-dashoffset: 0; opacity: 0.85; }
+
+  .tloc__lbl { position: absolute; translate: 11px -50%; white-space: nowrap; pointer-events: none;
+    font-family: var(--font-display); font-weight: 680; font-stretch: 96%; font-size: 0.84rem; line-height: 1; color: var(--ink);
+    padding: 3px 5px; border-radius: 4px; background: color-mix(in oklab, var(--ground-2) 84%, transparent);
+    transition: background-color var(--t2) var(--ease), color var(--t2) var(--ease); }
+  .tloc__lbl--end { translate: calc(-100% - 11px) -50%; }
+  .tloc__lbl--above { translate: -50% calc(-100% - 11px); }
+  .tloc__lbl--below { translate: -50% 11px; }
+  .tloc__lbl.is-here { font-weight: 820; font-stretch: 110%; font-size: 1.02rem; letter-spacing: -0.02em; padding: 4px 7px; background: var(--ink); color: var(--bone); }
+  .tloc--corridor .tloc__lbl.is-here { font-size: 0.9rem; }
+  @media (max-width: 599px) {
+    .tloc__lbl { font-size: 0.74rem; translate: 9px -50%; }
+    .tloc__lbl--end { translate: calc(-100% - 9px) -50%; }
+    .tloc__lbl--above { translate: -50% calc(-100% - 9px); }
+    .tloc__lbl--below { translate: -50% 9px; }
+    .tloc__lbl.is-here { font-size: 0.88rem; }
+  }
+
+  .tloc__north { position: absolute; top: 10px; right: 12px; display: grid; justify-items: center; gap: 1px;
+    font-family: var(--font-display); font-weight: 700; font-stretch: 80%; font-size: 0.66rem; letter-spacing: 0.1em; color: var(--ink-3); }
+  .tloc__north svg { width: 9px; height: 13px; fill: var(--ink-3); }
+  .tloc__scale { position: absolute; left: 12px; bottom: 10px; display: grid; gap: 3px; width: var(--w);
+    font-family: var(--font-display); font-weight: 650; font-stretch: 80%; font-size: 0.66rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-3); }
+  .tloc__bar { height: 5px; border: 1.5px solid var(--ink-3); border-top: 0; }
+
+  .tloc__cap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 14px; padding-top: 10px; font-size: 0.82rem; color: var(--ink-3); }
+  .tloc__cap .label { font-size: 0.68rem; }
+  .tloc__cap-town { font-family: var(--font-display); font-weight: 720; font-stretch: 104%; color: var(--ink); font-size: 0.95rem; }
+  .tloc__cap-town span { font-weight: 500; color: var(--ink-2); }
+  .tloc__cap-co { font-variant-numeric: tabular-nums; }
+
+  /* corridor mini: a narrow location plan with its caption beside it */
+  .tloc--corridor { display: grid; grid-template-columns: minmax(96px, 150px) 1fr; gap: 16px; align-items: end; }
+  .tloc--corridor .tloc__cap { display: grid; justify-content: start; gap: 6px; padding: 0 0 4px; }
+  .tloc--corridor .tloc__scale { left: 8px; bottom: 8px; font-size: 0.6rem; }
+  .tloc--corridor .tloc__north { top: 8px; right: 8px; }
+  @media (min-width: 900px) {
+    .tloc--corridor { grid-template-columns: minmax(150px, 230px) minmax(0, 1fr); gap: 22px; }
+  }
+
+  /* Motion: the static, fully drawn map is the default. The current town's ring is painted once on load
+     (the corridor mini, in the hero) or as the map scrolls in (local); routes draw out as it scrolls in. */
+  @media (prefers-reduced-motion: no-preference) {
+    @keyframes tloc-paint { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
+    .tloc--corridor .tloc__ring { animation: tloc-paint var(--t5) var(--ease) 0.4s both; }
+    @supports (animation-timeline: --tloc) {
+      .tloc--local .tloc__route, .tloc--local .tloc__ring { animation: tloc-paint linear both; animation-timeline: --tloc; animation-range: entry 20% cover 45%; }
+    }
+  }
+</style>

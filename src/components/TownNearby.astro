@@ -1,0 +1,78 @@
+---
+/**
+ * TownNearby — the town record's nearby[] as real links (hub-and-spoke: siblings link among themselves),
+ * each with its straight-line distance and direction from the Census 2024 town points and the neighbour's
+ * own H1 as its line — the strongest fact on that page, not a teaser. Beside the list, the local
+ * TownLocator; hovering or focusing a row lights that route on the map.
+ */
+import Icon from './Icon.astro';
+import TownLocator from './TownLocator.astro';
+import { miles, compass } from './TownData';
+interface Town { slug: string; name: string; lat: number; lng: number; tier?: string; county?: string; entry: { data: any } }
+interface Props { here: Town; towns: Town[]; nearby: string[] }
+const { here, towns, nearby } = Astro.props;
+const id = 'near';
+const list = nearby.map((s) => towns.find((t) => t.slug === s)).filter((t): t is Town => !!t)
+  .map((t) => ({ t, mi: miles(here, t), dir: compass(here, t) }));
+const css = list.map(({ t }) => {
+  const k = `${id}-${t.slug}`;
+  return `.tnear:has([data-near="${k}"]:is(:hover,:focus-visible)) .tloc__route[data-route="${k}"]{opacity:1}`
+    + `.tnear:has([data-near="${k}"]:is(:hover,:focus-visible)) [data-lbl="${k}"]{background:var(--ink);color:var(--bone)}`
+    + `.tnear:has([data-near="${k}"]:is(:hover,:focus-visible)) [data-dot="${k}"]{fill:var(--paint)}`;
+}).join('') + '.tnear:has(.tnear__row:is(:hover,:focus-visible)) .tloc__route{opacity:.16}';
+---
+{list.length > 0 && (
+  <section class="section tnear" id="nearby" aria-labelledby="nearby-h">
+    <div class="wrap">
+      <header class="tnear__head">
+        <div>
+          <p class="label">Next towns over</p>
+          <h2 id="nearby-h" class="tnear__h">One town over, the rules can change.</h2>
+        </div>
+        <p class="lede tnear__lede">Distances are straight lines between Census town points. Each page opens with that town’s own strongest fact.</p>
+      </header>
+      <div class="tnear__grid">
+        <TownLocator towns={towns} current={here.slug} mode="local" nearby={list.map((x) => x.t.slug)} id={id} />
+        <ol class="tnear__list" role="list">
+          {list.map(({ t, mi, dir }) => (
+            <li>
+              <a class="tnear__row" href={`/areas/${t.slug}/`} data-near={`${id}-${t.slug}`}>
+                <span class="tnear__top">
+                  <span class="tnear__name">{t.name}</span>
+                  <span class="tnear__dist num">{Math.round(mi)} mi {dir}</span>
+                </span>
+                <span class="tnear__claim">{t.entry.data.h1}</span>
+                <span class="tnear__go" aria-hidden="true"><Icon name="arrow" /></span>
+              </a>
+            </li>
+          ))}
+        </ol>
+      </div>
+    </div>
+  </section>
+)}
+<style set:html={css}></style>
+
+<style>
+  .tnear__head { display: grid; grid-template-columns: 1.2fr 1fr; gap: 20px 64px; align-items: end; margin-bottom: clamp(32px, 4vw, 60px); }
+  .tnear__h { margin-top: 14px; font-size: clamp(2rem, 1.2rem + 3vw, 3.8rem); max-width: 14ch; }
+  .tnear__lede { margin: 0; }
+  .tnear__grid { display: grid; grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr); gap: clamp(28px, 5vw, 80px); align-items: start; }
+  .tnear__list { list-style: none; border-top: 2px solid var(--ink); }
+  .tnear__row { display: grid; grid-template-columns: minmax(0, 1fr) 48px; gap: 6px 20px; align-items: center; padding: 18px 0; min-height: 44px;
+    border-bottom: 1px dashed rgb(var(--ink-rgb) / 0.28); text-decoration: none; transition: background-color var(--t2) var(--ease); }
+  .tnear__row:hover { background: linear-gradient(90deg, transparent, rgb(var(--ink-rgb) / 0.035) 10%, rgb(var(--ink-rgb) / 0.035) 90%, transparent); }
+  .tnear__top { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 14px; }
+  .tnear__name { font-family: var(--font-display); font-weight: 800; font-stretch: 114%; font-size: clamp(1.4rem, 1.1rem + 1vw, 1.9rem); letter-spacing: -0.03em; line-height: 1.05; }
+  .tnear__dist { font-family: var(--font-display); font-stretch: 80%; font-weight: 650; font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-3); }
+  .tnear__claim { grid-column: 1; color: var(--ink-2); font-size: var(--fs-small); max-width: 56ch; }
+  .tnear__go { grid-column: 2; grid-row: 1 / span 2; width: 48px; height: 48px; border-radius: 50%; display: grid; place-items: center; box-shadow: inset 0 0 0 1.5px var(--line);
+    transition: background-color var(--t2) var(--ease), box-shadow var(--t2) var(--ease); }
+  .tnear__row:hover .tnear__go, .tnear__row:focus-visible .tnear__go { background: var(--paint); box-shadow: none; }
+  .tnear :global(.tloc__route) { opacity: 0.55; }
+  @media (max-width: 899px) {
+    .tnear__head, .tnear__grid { grid-template-columns: 1fr; }
+    .tnear__go { width: 40px; height: 40px; }
+    .tnear__row { grid-template-columns: minmax(0, 1fr) 40px; gap: 6px 14px; }
+  }
+</style>

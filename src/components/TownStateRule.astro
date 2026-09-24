@@ -1,0 +1,89 @@
+---
+/**
+ * TownStateRule — the Colorado backyard-HOA rule, rendered ONCE per town page from the layer records and in
+ * the same words on every page (docs/CONTRACTS.md "Shared-claim components": identical text is claim-set
+ * consistency; a paraphrase per town is duplication). Linked to /guides/hoa-turf-approval/.
+ *   lead   — co-hoa-backyard-detached: the fact as written, its section, the statute's own words
+ *   limits — attached homes, front yards, special districts, the remedy (the five HOA_CORE records)
+ *   extra  — HB21-1229's history line, only where a town record cites it
+ * `heading` lets a town's own hoa block (own: false) title the band where that block stood; the body never changes.
+ */
+import Icon from './Icon.astro';
+import PaintWord from './PaintWord.astro';
+import { rec, cite, fmtDate, HOA_CORE, type LayerRecord } from './TownData';
+interface Props { heading?: string | null; extra?: string[] }
+const { heading = null, extra = [] } = Astro.props;
+
+const lead = rec('co-hoa-backyard-detached');
+const CLAUSE: Record<string, string> = {
+  'co-hoa-attached-rear-yard': 'Homes that share a wall',
+  'co-hoa-front-yard-designs': 'Front yards',
+  'co-special-district-backyard': 'Special districts',
+  'co-hoa-remedy-notice': 'If an HOA ignores it',
+  'co-hb21-1229-origin': 'Where the rule started',
+};
+const clauses = [...HOA_CORE.slice(1), ...extra].map((id) => rec(id)).filter((r): r is LayerRecord => !!r && !!CLAUSE[r.id]);
+const bill = lead?.source_label.match(/\b(?:added|amended) by ([HS]B\d{2}-\d{3,4})/)?.[1] ?? null;
+---
+{lead && (
+  <section class="tsr on-slab" id="state-rule" aria-labelledby="state-rule-h">
+    <div class="wrap">
+      <div class="tsr__grid">
+        <div class="tsr__copy">
+          <p class="label label--paint">Colorado law · the same in every town</p>
+          {heading
+            ? <h2 id="state-rule-h" class="tsr__h">{heading}</h2>
+            : <h2 id="state-rule-h" class="tsr__h">On a detached home, an HOA can shape backyard turf. <PaintWord text>It can’t ban it.</PaintWord></h2>}
+          <p class="lede tsr__lede">{lead.fact}</p>
+          <p class="tsr__acts">
+            <a class="btn btn--line tsr__btn" href="/guides/hoa-turf-approval/">How HOA approval works <Icon name="arrow" /></a>
+          </p>
+        </div>
+        <figure class="tsr__statute rise">
+          <figcaption class="tsr__cite">
+            <span class="tsr__sec">{cite(lead)}</span>
+            <span class="tsr__eff">{bill && <>Added by {bill} · </>}in force since {fmtDate(lead.effective)}</span>
+          </figcaption>
+          {lead.quote && <blockquote class="tsr__q" cite={lead.source_url}><p>{lead.quote}</p></blockquote>}
+          <p class="tsr__src"><a href={lead.source_url} rel="noopener">Read the signed act<Icon name="external" size={14} /></a><span>Checked {fmtDate(lead.checked)}</span></p>
+        </figure>
+      </div>
+      <ul class="tsr__clauses" role="list">
+        {clauses.map((r) => (
+          <li class="tsr__clause rise">
+            <p class="tsr__ct">{CLAUSE[r.id]}</p>
+            <p class="tsr__cf">{r.fact}</p>
+            <a class="tsr__cc" href={r.source_url} rel="noopener">{cite(r) ?? r.source_label}<Icon name="external" size={12} /></a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+)}
+
+<style>
+  .tsr { padding-block: clamp(64px, 6vw + 32px, 136px); }
+  .tsr__grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 0.95fr); gap: clamp(32px, 6vw, 104px); align-items: start; }
+  .tsr__h { margin: 16px 0 22px; font-size: clamp(2rem, 1.2rem + 3vw, 3.9rem); max-width: 17ch; }
+  .tsr__lede { max-width: 50ch; color: var(--bone-2); }
+  .tsr__acts { margin: 28px 0 0; }
+  .tsr__btn { color: var(--bone); }
+  .tsr__statute { margin: 0; padding: clamp(20px, 2.4vw, 30px); border-radius: var(--r-panel); background: var(--slab-2); box-shadow: inset 0 0 0 1px var(--bone-line); }
+  .tsr__cite { display: grid; gap: 4px; padding-bottom: 16px; margin-bottom: 16px; border-bottom: 1px dashed var(--bone-line); }
+  .tsr__sec, .tsr__cc { overflow-wrap: anywhere; }
+  .tsr__sec { font-family: var(--font-display); font-weight: 820; font-stretch: 108%; font-size: clamp(1.15rem, 1rem + 0.6vw, 1.45rem); letter-spacing: -0.015em; color: var(--bone); font-variant-numeric: tabular-nums; }
+  .tsr__eff { font-family: var(--font-display); font-stretch: 80%; font-weight: 650; font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--bone-3); }
+  .tsr__q { margin: 0; }
+  .tsr__q p { margin: 0; font-family: var(--font-display); font-stretch: 78%; font-weight: 560; font-size: 0.86rem; line-height: 1.6; letter-spacing: 0.05em; color: var(--bone-2); }
+  .tsr__src { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 4px 16px; margin: 18px 0 0; font-size: 0.82rem; color: var(--bone-3); }
+  .tsr__src a { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; color: var(--bone); font-weight: 600; text-decoration-color: var(--paint); }
+  .tsr__clauses { list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1px; margin-top: clamp(40px, 5vw, 72px);
+    background: var(--bone-line); border-radius: var(--r-control); overflow: hidden; box-shadow: 0 0 0 1px var(--bone-line); }
+  .tsr__clause { display: grid; align-content: start; gap: 8px; padding: 20px 20px 10px; background: var(--slab); }
+  .tsr__ct { margin: 0; font-family: var(--font-display); font-weight: 760; font-stretch: 106%; font-size: 1.05rem; letter-spacing: -0.015em; color: var(--bone); }
+  .tsr__ct::before { content: ''; display: block; width: 22px; height: 3px; margin-bottom: 12px; border-radius: 2px; background: var(--paint); }
+  .tsr__cf { margin: 0; font-size: 0.9rem; line-height: 1.55; color: var(--bone-2); }
+  .tsr__cc { display: inline-flex; align-items: center; gap: 5px; min-height: 44px; font-size: 0.76rem; color: var(--bone-3); text-decoration: none; font-variant-numeric: tabular-nums; }
+  .tsr__cc:hover { color: var(--bone); text-decoration: underline; text-decoration-color: var(--paint); }
+  @media (max-width: 899px) { .tsr__grid { grid-template-columns: 1fr; } }
+</style>

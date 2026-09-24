@@ -1,0 +1,70 @@
+---
+/**
+ * TownEvidence — the right-hand panel of a town block: the layer records the block cites, each drawn the way
+ * its layer reads best (code card, rate ladder, dated status strip, rebate stamps, soil bar and weather
+ * tiles, statute rows). The block's kind decides which view leads. A block with no layer records — homes,
+ * golf, districts — shows its sources as a place list instead. The Colorado HOA records are left out here:
+ * TownStateRule prints them once per page.
+ */
+import TownCode from './TownCode.astro';
+import TownStatute from './TownStatute.astro';
+import TownWater from './TownWater.astro';
+import TownStatus from './TownStatus.astro';
+import TownRebate from './TownRebate.astro';
+import TownGround from './TownGround.astro';
+import TownReceipts from './TownReceipts.astro';
+import { recs, HOA_FAMILY, rec, matchSources, fmtDate, PANEL_TITLE, type LayerRecord } from './TownData';
+
+interface Block { kind: string; layerRefs: string[]; sources: string[] }
+interface Props { block: Block; sources: { label: string; url: string; checked: string }[]; town: string; asOf: string }
+const { block, sources, town, asOf } = Astro.props;
+
+const records = recs(block.layerRefs).filter((r) => !HOA_FAMILY.has(r.id));
+const pick = (...layers: string[]) => records.filter((r) => layers.includes(r.layer));
+const groups: Record<string, LayerRecord[]> = {
+  code: pick('ordinance', 'county'),
+  water: pick('utility'),
+  status: pick('drought'),
+  rebate: pick('rebate'),
+  ground: pick('soil', 'climate'),
+  statute: pick('state'),
+};
+const LEAD: Record<string, string> = { ordinance: 'code', hoa: 'code', utility: 'water', drought: 'status', rebate: 'rebate', soil: 'ground', climate: 'ground' };
+/* A water panel with no rate schedule to draw leads with its dated status strip instead, if it has one. */
+const lead = LEAD[block.kind] === 'water' && !groups.water.some((r) => r.rates?.tiers?.length) && groups.status.length ? 'status' : LEAD[block.kind];
+const order = [lead, 'code', 'water', 'status', 'rebate', 'ground', 'statute'].filter((g, i, a) => g && a.indexOf(g) === i && groups[g]?.length);
+const SUB: Record<string, string> = { code: 'The town code', water: 'Who bills the water', status: 'Watering in 2026', rebate: 'Rebates', ground: 'Ground and weather', statute: 'Colorado law underneath' };
+
+/* No layer records: the block's own sources, as receipts (the state HOA statute excepted — it has its band). */
+const hoaUrls = new Set([...HOA_FAMILY].map((id) => rec(id)?.source_url).filter(Boolean));
+const receipts = records.length ? [] : matchSources(block.sources.filter((u) => !hoaUrls.has(u)), sources);
+const dates = [...records.map((r) => r.checked), ...receipts.map((s) => s.checked)].filter(Boolean).sort();
+const checked = dates.length ? dates[dates.length - 1] : asOf;
+const title = PANEL_TITLE[block.kind] ?? 'From the public record';
+---
+{(order.length > 0 || receipts.length > 0) && (
+  <div class="tev">
+    <p class="tev__head"><span class="label">{title}</span><span class="tev__chk">Checked {fmtDate(checked)}</span></p>
+    {order.map((g, i) => (
+      <div class="tev__group">
+        {i > 0 && g !== 'statute' && <p class="label tev__sub">{SUB[g]}</p>}
+        {g === 'code' && <TownCode records={groups.code} asOf={asOf} />}
+        {g === 'water' && <TownWater records={groups.water} />}
+        {g === 'status' && <TownStatus records={groups.status} asOf={asOf} />}
+        {g === 'rebate' && <TownRebate records={groups.rebate} />}
+        {g === 'ground' && <TownGround records={groups.ground} town={town} />}
+        {g === 'statute' && <TownStatute records={groups.statute} asOf={asOf} />}
+      </div>
+    ))}
+    {receipts.length > 0 && <TownReceipts sources={receipts} kind={block.kind} />}
+  </div>
+)}
+
+<style>
+  .tev { display: grid; gap: 16px; padding: clamp(16px, 2.2vw, 24px); border-radius: var(--r-panel); background: var(--ground-2); }
+  .tev__head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 4px 12px; margin: 0; }
+  .tev__head .label { color: var(--ink); }
+  .tev__chk { font-size: 0.76rem; color: var(--ink-3); font-variant-numeric: tabular-nums; }
+  .tev__group + .tev__group { padding-top: 14px; border-top: 1px solid var(--line); }
+  .tev__sub { margin: 0 0 10px; }
+</style>
