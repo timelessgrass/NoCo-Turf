@@ -1,5 +1,6 @@
 /**
- * Photographs — Brian's own phone originals only. Nothing stock, nothing AI (all 53 images on the old
+ * Photographs — camera originals from Brian's own jobs only (several phones: iPhone 16, 15 Pro Max, 13, 11 Pro Max —
+ * never say "Brian's phone"). Nothing stock, nothing AI (all 53 images on the old
  * nocoturf.com were AI-generated and are banned — .site/truth/proof.json photo_banned).
  *
  * PREVIEW STATUS (2026-09-24): every file below is a real job of Brian's whose original EXIF places it in

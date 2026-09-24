@@ -42,8 +42,9 @@ const { label, crumbs, photo, lede, compact = false } = Astro.props;
   .ph__grid { display: grid; gap: clamp(28px, 5vw, 80px); }
   .ph--photo .ph__grid { grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr); align-items: end; }
   .ph__label { margin: 28px 0 16px; }
-  .ph__h1 { font-size: clamp(2.5rem, 1.4rem + 4.4vw, 5.6rem); font-stretch: 116%; letter-spacing: -0.04em; line-height: 0.94; max-width: 15ch; }
-  .ph--compact .ph__h1 { font-size: clamp(2.2rem, 1.3rem + 3.4vw, 4.4rem); max-width: 18ch; }
+  /* Interior H1s run 9–13 words (copy.md), so they sit well below the homepage's display size. */
+  .ph__h1 { font-size: clamp(2.2rem, 1.35rem + 2.9vw, 4.15rem); font-stretch: 114%; letter-spacing: -0.036em; line-height: 0.98; max-width: 17ch; }
+  .ph--compact .ph__h1 { font-size: clamp(2.05rem, 1.3rem + 2.5vw, 3.7rem); max-width: 19ch; }
   .ph__lede { margin-top: 22px; max-width: 52ch; }
   .ph__fig { margin: 0; }
   .ph__fig :global(img) { width: 100%; aspect-ratio: 4 / 3.3; object-fit: cover; border-radius: var(--r-photo); }

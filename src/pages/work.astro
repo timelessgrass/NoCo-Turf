@@ -47,14 +47,14 @@ const crumbs = [{ name: 'Work', path: '/work/' }];
   <PageHero
     label="The work"
     crumbs={crumbs}
-    lede="Every photograph here came off Brian’s phone on a job in Northern Colorado. Each one carries the nearest town and, where the camera kept it, the month. Tap any frame to see it full size."
+    lede="Every photograph here is a camera original from one of Brian’s jobs in Northern Colorado. Each one carries the nearest town and, where the camera kept it, the month. Tap any frame to see it full size."
   >
     {cap(word(sheet.length))} frames from Brian’s own jobs. <PaintWord now>Not one is stock.</PaintWord>
     <dl slot="after" class="wk-roll" aria-label="About this contact sheet">
       <div><dt>Frames</dt><dd class="num">{pad(sheet.length)}</dd></div>
       <div><dt>Places</dt><dd class="num">{pad(places)}</dd></div>
       {span && <div class="wk-roll__wide"><dt>Taken</dt><dd>{span}</dd></div>}
-      <div class="wk-roll__wide"><dt>Camera</dt><dd>Brian’s phone · no stock, no renders</dd></div>
+      <div class="wk-roll__wide"><dt>Camera</dt><dd>Phone originals from the jobs · no stock, no renders</dd></div>
     </dl>
   </PageHero>
 

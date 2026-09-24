@@ -108,4 +108,7 @@ const jsonld = JSON.stringify({ '@context': 'https://schema.org', '@graph': node
   .draft-ribbon { position: fixed; z-index: 60; left: 50%; bottom: calc(var(--bar-h) + 12px); translate: -50% 0; margin: 0;
     padding: 8px 14px; border-radius: var(--r-chip); background: var(--ink); color: var(--bone); font-size: 0.8rem; font-weight: 600;
     box-shadow: 0 0 0 2px var(--paint); white-space: nowrap; pointer-events: none; }
+  @media (max-width: 599px) {
+    .draft-ribbon { white-space: normal; width: max-content; max-width: calc(100% - 24px); text-align: center; font-size: 0.74rem; line-height: 1.3; border-radius: 12px; }
+  }
 </style>
