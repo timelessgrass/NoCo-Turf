@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Checks town, guide and work records before they can ship — or be committed to a public repo.
+ * Checks town, guide, service and work records before they can ship — or be committed to a public repo.
  * Forked from TIMELESS Grass & Greens (scripts/check-local-content.mjs + check-articles.mjs) with the
  * bans inverted: here "Timeless", Denver-metro towns and TIMELESS phones are the leaks.
  *
@@ -8,9 +8,15 @@
  *   node scripts/check-content.mjs <file>...          # just these files (no similarity check)
  *   node scripts/check-content.mjs --root <dir>       # read content/layers/claims under <dir> (fixtures)
  *
- * Reads src/content/{towns/*.json, guides/*.md, work/*.json}, src/data/layers/*.json and
- * .site/truth/claims.json. Code (the collection schemas, territory, the town gate) always comes from
- * this repo, so a fixture root only needs the data it is testing.
+ * Reads src/content/{towns/*.json, guides/*.md, services/*.md, work/*.json}, src/data/layers/*.json and
+ * .site/truth/claims.json. Code (the collection schemas, territory, the town gate, services.ts, photos.ts)
+ * always comes from this repo, so a fixture root only needs the data it is testing.
+ *
+ * Service records (src/content/services/{slug}.md) get the guide rules plus their own: the file is named
+ * for a services.ts slug; photos are photos.ts ids; guides are guide records that exist; the title ends
+ * "| NoCo Turf Co."; the description is 140–160 characters; the answer is at most 60 words; the body has
+ * no H1 (the page prints the one H1). WARN: an H2 that is not a question, fewer than 3 or more than 5 H2s,
+ * fewer than 4 or more than 6 FAQ items.
  *
  * FAIL (exit 1) — for every status, because drafts are committed to a public repo and are the pages
  * that will publish:
@@ -312,6 +318,15 @@ function guideCopy(fm, body) {
   return [fm.title, fm.description, fm.h1, fm.answer?.question, fm.answer?.answer, ...(fm.faq ?? []).flatMap((f) => [f?.q, f?.a]), body]
     .filter((x) => typeof x === 'string').join('\n');
 }
+function serviceCopy(fm, body) {
+  return [fm.title, fm.description, fm.h1, fm.lede, fm.answer?.question, fm.answer?.answer, ...(fm.faq ?? []).flatMap((f) => [f?.q, f?.a]), body]
+    .filter((x) => typeof x === 'string').join('\n');
+}
+/** Markdown headings of a level, outside fenced code. */
+function mdHeadings(body, level) {
+  const re = new RegExp(`^#{${level}}\\s+(.+?)\\s*#*\\s*$`);
+  return String(body).replace(/```[\s\S]*?```/g, '').split(/\r?\n/).map((l) => l.match(re)?.[1]).filter(Boolean);
+}
 function workCopy(d) {
   return [d.title, d.description, d.problem, ...(d.phases ?? []).flatMap((p) => [p?.caption, p?.alt])].filter((x) => typeof x === 'string').join('\n');
 }
@@ -445,6 +460,7 @@ function kindOf(file) {
   const parent = path.basename(path.dirname(file));
   if (parent === 'towns' && file.endsWith('.json')) return 'town';
   if (parent === 'guides' && file.endsWith('.md')) return 'guide';
+  if (parent === 'services' && file.endsWith('.md')) return 'service';
   if (parent === 'work' && file.endsWith('.json')) return 'work';
   return null;
 }
@@ -473,10 +489,13 @@ export async function run({ root = REPO, files = [], log = console.log } = {}) {
   const list = named ? files.map((f) => path.resolve(f)) : [
     ...listDir(path.join(content, 'towns'), '.json'),
     ...listDir(path.join(content, 'guides'), '.md'),
+    ...listDir(path.join(content, 'services'), '.md'),
     ...listDir(path.join(content, 'work'), '.json'),
   ];
   const photosDir = path.join(root, 'src/assets/photos');
   const serviceSlugs = new Set([...read(path.join(REPO, 'src/data/services.ts')).matchAll(/\bslug:\s*'([a-z0-9-]+)'/g)].map((m) => m[1]));
+  const photoIds = new Set([...read(path.join(REPO, 'src/data/photos.ts')).matchAll(/\bid:\s*'([a-z0-9-]+)'/g)].map((m) => m[1]));
+  const guideIds = new Set(listDir(path.join(content, 'guides'), '.md').map((f) => path.basename(f, '.md')));
 
   // publication state of every town record on disk, for nearby links
   const townStatus = {};
@@ -491,15 +510,15 @@ export async function run({ root = REPO, files = [], log = console.log } = {}) {
     const kind = kindOf(file);
     const id = path.basename(file).replace(/\.(json|md)$/, '');
     const out = [];
-    if (!kind) { log(`x FAIL ${id}: not under src/content/{towns,guides,work}/ with the right extension`); fails++; continue; }
+    if (!kind) { log(`x FAIL ${id}: not under src/content/{towns,guides,services,work}/ with the right extension`); fails++; continue; }
 
     let d, body = '';
-    if (kind === 'guide') {
+    if (kind === 'guide' || kind === 'service') {
       const src = read(file);
       const fm = src.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?/);
-      if (!fm) { log(`x FAIL ${id} [guide]: no frontmatter`); fails++; continue; }
-      if (!yaml) { log(`x FAIL ${id} [guide]: js-yaml is not installed, so the frontmatter cannot be read`); fails++; continue; }
-      try { d = yaml.load(fm[1]) ?? {}; } catch (e) { log(`x FAIL ${id} [guide]: frontmatter is not valid YAML (${e.message.split('\n')[0]})`); fails++; continue; }
+      if (!fm) { log(`x FAIL ${id} [${kind}]: no frontmatter`); fails++; continue; }
+      if (!yaml) { log(`x FAIL ${id} [${kind}]: js-yaml is not installed, so the frontmatter cannot be read`); fails++; continue; }
+      try { d = yaml.load(fm[1]) ?? {}; } catch (e) { log(`x FAIL ${id} [${kind}]: frontmatter is not valid YAML (${e.message.split('\n')[0]})`); fails++; continue; }
       body = src.slice(fm[0].length);
     } else {
       try { d = JSON.parse(read(file)); } catch (e) { log(`x FAIL ${id} [${kind}]: not valid JSON (${e.message})`); fails++; continue; }
@@ -509,7 +528,7 @@ export async function run({ root = REPO, files = [], log = console.log } = {}) {
     const published = isPublished(d);
     if (!CONTENT_STATUSES.includes(status)) out.push(['FAIL', `invalid status "${status}" — draft | review | published`]);
 
-    schemaIssues(schemas[kind === 'town' ? 'towns' : kind === 'guide' ? 'guides' : 'work'], d, out);
+    schemaIssues(schemas[{ town: 'towns', guide: 'guides', service: 'services', work: 'work' }[kind]], d, out);
 
     let copy = '', refs = [], sourceUrls = [], ownSourceText = '';
     if (kind === 'town') {
@@ -549,6 +568,29 @@ export async function run({ root = REPO, files = [], log = console.log } = {}) {
       for (const s of d.related?.services ?? []) if (!serviceSlugs.has(s)) out.push(['FAIL', `related service is not in src/data/services.ts: ${s}`]);
       checkSources(d.sources, out);
       if (!published && (d.needsFromBrian ?? []).length) out.push(['WARN', `needs from Brian: ${d.needsFromBrian.join(' | ')}`]);
+    } else if (kind === 'service') {
+      copy = serviceCopy(d, body);
+      refs = d.layerRefs ?? [];
+      sourceUrls = (d.sources ?? []).map((s) => s?.url).filter(Boolean);
+      ownSourceText = (d.sources ?? []).map((s) => `${s?.label ?? ''} ${s?.checked ?? ''}`).join('\n');
+      if (d.slug && id !== d.slug) out.push(['FAIL', `file name should be ${d.slug}.md`]);
+      if (d.slug && !serviceSlugs.has(d.slug)) out.push(['FAIL', `slug is not in src/data/services.ts: ${d.slug}`]);
+      if (!plainText(body).trim()) out.push(['FAIL', 'the service page has no body']);
+      for (const p of d.photos ?? []) if (!photoIds.has(p)) out.push(['FAIL', `photo id is not in src/data/photos.ts: ${p}`]);
+      for (const g of d.guides ?? []) if (!guideIds.has(g)) out.push(['FAIL', `guide is not a record in src/content/guides/: ${g}`]);
+      if (typeof d.title === 'string' && !/\s\|\sNoCo Turf Co\.$/.test(d.title)) out.push(['FAIL', `title must end with "| NoCo Turf Co.": ${d.title}`]);
+      if (typeof d.description === 'string' && d.description.length < 140) out.push(['FAIL', `description is ${d.description.length} characters — write 140–160`]);
+      const answerWords = plainText(d.answer?.answer ?? '').split(/\s+/).filter(Boolean).length;
+      if (answerWords > 60) out.push(['FAIL', `answer is ${answerWords} words — 60 at most (the phone is appended at render time)`]);
+      const h1s = mdHeadings(body, 1);
+      if (h1s.length) out.push(['FAIL', `the body has an H1 ("${h1s[0]}") — the page prints the one H1 from frontmatter; use ## for sections`]);
+      const h2s = mdHeadings(body, 2);
+      if (h2s.length < 3 || h2s.length > 5) out.push(['WARN', `${h2s.length} H2 sections — write 3 to 5`]);
+      for (const h of h2s) if (!/\?$/.test(h.trim())) out.push(['WARN', `H2 is not shaped as a question: "${h}"`]);
+      const nFaq = (d.faq ?? []).length;
+      if (nFaq < 4 || nFaq > 6) out.push(['WARN', `${nFaq} FAQ items — write 4 to 6`]);
+      checkSources(d.sources, out);
+      if (!published && (d.needsFromBrian ?? []).length) out.push(['WARN', `needs from Brian: ${d.needsFromBrian.join(' | ')}`]);
     } else {
       copy = workCopy(d);
       ownSourceText = [JSON.stringify(d.job ?? {}), d.month].join('\n');
@@ -563,6 +605,17 @@ export async function run({ root = REPO, files = [], log = console.log } = {}) {
     }
 
     const recs = checkLayerRefs(refs, layers, out, { slug: kind === 'town' ? d.slug : null, sourceUrls: kind === 'work' ? null : sourceUrls, published });
+    // A service page prints every referenced record's `fact` verbatim (ServiceRules), so a record whose wording
+    // holds an unapproved claims-register phrase would ship that phrase: drop the reference instead.
+    if (kind === 'service') {
+      for (const r of recs) {
+        const ft = ` ${lowerWords(r.fact ?? '')} `;
+        for (const u of claims.unapproved) {
+          const hit = u.texts.find((x) => ft.includes(` ${x} `));
+          if (hit) out.push(['FAIL', `layer ${r.id} would print "${hit}" in the rule sheet, which belongs to an unapproved claim ("${u.claim}") — drop the reference or reword the record`]);
+        }
+      }
+    }
     const traceText = [...recs.map(layerText), ownSourceText].join('\n');
     const traced = numberSet(traceText);
     const layerWords = recs.length ? lowerWords(recs.map(layerText).join('\n')) : '';

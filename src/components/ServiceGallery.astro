@@ -1,0 +1,135 @@
+---
+/**
+ * The service page's photo strip: one row of frames at a common height, each as wide as its photograph,
+ * running off the right edge of the page like a contact strip laid on the table. Every frame keeps its
+ * record line (what · where · when) — the homepage reel's grammar, in a row instead of a sheet.
+ *
+ * Works with nothing: a native horizontal scroller with snap points, keyboard-scrollable (it is a focusable
+ * region). Where scroll-driven animation exists, frames develop in from the side as they scroll into view
+ * and a paint rail tracks how far along the strip you are (JS keeps the rail in step where the scroll timeline
+ * doesn't run); JS also adds prev/next and a frame counter.
+ * Only honest photos of this kind of job come in (src/content/services/*.md `photos`).
+ */
+import Photo from './Photo.astro';
+import ServiceHead from './ServiceHead.astro';
+import Icon from './Icon.astro';
+import { monthLabel, type Photo as P } from '../data/photos';
+
+interface Props { photos: P[]; label: string; title: string; lede?: string; id?: string; }
+const { photos, label, title, lede, id = 'photos' } = Astro.props;
+const pad = (n: number) => String(n).padStart(2, '0');
+---
+<section class="section ground-2 svgal" aria-labelledby={`${id}-h`} id={id} data-svgal>
+  <div class="wrap">
+    <ServiceHead label={label} id={`${id}-h`} lede={lede} split>{title}</ServiceHead>
+  </div>
+  <div class="svgal__viewport" tabindex="0" role="region" aria-label={`${title} — scroll sideways for more`} data-svgal-viewport>
+    <ol class="svgal__track" role="list">
+      {photos.map((p, i) => (
+        <li class="svgal__frame" style={`--ar:${p.src.width}/${p.src.height}`} data-svgal-frame>
+          <figure>
+            <div class="svgal__img"><Photo photo={p} sizes="(max-width: 899px) 84vw, 44vw" widths={[480, 800, 1200]} /></div>
+            <figcaption>
+              <span class="svgal__no num">{pad(i + 1)}</span>
+              <span class="svgal__cap">{p.caption}</span>
+              <span class="svgal__rec">{p.place}{p.month && <> · {monthLabel(p.month)}</>}</span>
+            </figcaption>
+          </figure>
+        </li>
+      ))}
+    </ol>
+  </div>
+  <div class="wrap svgal__ctl">
+    <p class="label svgal__count" aria-hidden="true" data-svgal-count hidden><span data-svgal-now>01</span> / {pad(photos.length)}</p>
+    <div class="svgal__rail" aria-hidden="true"><span></span></div>
+    <div class="svgal__btns" data-svgal-btns hidden>
+      <button type="button" class="svgal__btn" data-svgal-prev aria-label="Previous photo"><Icon name="arrow" class="svgal__back" /></button>
+      <button type="button" class="svgal__btn" data-svgal-next aria-label="Next photo"><Icon name="arrow" /></button>
+    </div>
+  </div>
+</section>
+
+<style>
+  .svgal { overflow: clip; timeline-scope: --svgal; }
+  .svgal__viewport { position: relative; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; scrollbar-width: none;
+    --edge: max(var(--gutter), calc((100% - var(--maxw)) / 2)); scroll-padding-inline: var(--edge); scroll-timeline: --svgal inline; }
+  .svgal__viewport::-webkit-scrollbar { display: none; }
+  .svgal__viewport:focus-visible { outline-offset: -3px; }
+  .svgal__track { list-style: none; display: flex; gap: clamp(12px, 1.6vw, 22px); padding-inline: var(--edge); width: max-content; }
+  .svgal__frame { --h: min(clamp(280px, 40vw, 540px), 62vw); flex: none; width: calc(var(--h) * var(--ar)); scroll-snap-align: start; }
+  .svgal__frame figure { margin: 0; }
+  .svgal__img { height: var(--h); overflow: hidden; border-radius: var(--r-photo); background: var(--ground); }
+  .svgal__img :global(img) { width: 100%; height: 100%; object-fit: cover; transition: scale var(--t4) var(--ease); }
+  .svgal__img:hover :global(img) { scale: 1.03; }
+  .svgal figcaption { display: grid; grid-template-columns: auto 1fr; gap: 2px 12px; padding-top: 10px; font-size: var(--fs-small); }
+  .svgal__no { grid-row: span 2; font-family: var(--font-display); font-weight: 800; font-stretch: 110%; color: var(--ink); padding-top: 1px; }
+  .svgal__no::before { content: ''; display: inline-block; width: 10px; height: 3px; border-radius: 2px; background: var(--paint); vertical-align: middle; margin-right: 6px; }
+  .svgal__cap { font-weight: 600; }
+  .svgal__rec { color: var(--ink-3); font-size: 0.85rem; }
+  .svgal__rec::first-letter { text-transform: uppercase; }
+
+  .svgal__ctl { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 20px; margin-top: clamp(20px, 2.4vw, 32px); }
+  .svgal__count { margin: 0; color: var(--ink-2); min-width: 4.5em; }
+  .svgal__count[hidden] { display: block; visibility: hidden; }
+  .svgal__rail { height: 2px; background: var(--line); border-radius: 2px; overflow: hidden; }
+  .svgal__rail span { display: block; height: 100%; background: var(--paint); transform-origin: left; scale: var(--p, 0) 1; }
+  .svgal__btns { display: flex; gap: 8px; }
+  .svgal__btns[hidden] { display: none; }
+  .svgal__btn { display: grid; place-items: center; width: 48px; height: 48px; border: 0; border-radius: 50%; background: transparent; color: var(--ink); cursor: pointer;
+    box-shadow: inset 0 0 0 1.5px var(--line); transition: background-color var(--t2) var(--ease), box-shadow var(--t2) var(--ease), transform var(--t1) var(--ease), opacity var(--t2) var(--ease); }
+  .svgal__btn:hover { background: var(--paint); box-shadow: none; }
+  .svgal__btn:active { transform: scale(0.95); }
+  .svgal__btn:disabled { opacity: 0.35; pointer-events: none; }
+  .svgal__btn :global(.svgal__back) { rotate: 180deg; }
+
+  @media (prefers-reduced-motion: no-preference) {
+    @supports (animation-timeline: view()) and (timeline-scope: --a) {
+      @keyframes svgal-develop { from { clip-path: inset(0 0 0 14% round var(--r-photo)); opacity: 0.4; } to { clip-path: inset(0 round var(--r-photo)); opacity: 1; } }
+      @keyframes svgal-fill { from { scale: 0 1; } to { scale: 1 1; } }
+      .svgal__img { animation: svgal-develop linear both; animation-timeline: view(inline); animation-range: entry 0% entry 70%; }
+      .svgal__rail span { animation: svgal-fill linear both; animation-timeline: --svgal; }
+    }
+  }
+</style>
+
+<script>
+  /* Prev/next and the frame counter. Without JS the strip is a plain horizontal scroller. */
+  document.querySelectorAll<HTMLElement>('[data-svgal]').forEach((root) => {
+    const vp = root.querySelector<HTMLElement>('[data-svgal-viewport]')!;
+    const frames = [...root.querySelectorAll<HTMLElement>('[data-svgal-frame]')];
+    const now = root.querySelector('[data-svgal-now]');
+    const btns = root.querySelector<HTMLElement>('[data-svgal-btns]');
+    const prev = root.querySelector<HTMLButtonElement>('[data-svgal-prev]')!;
+    const next = root.querySelector<HTMLButtonElement>('[data-svgal-next]')!;
+    if (!frames.length) return;
+    btns?.removeAttribute('hidden');
+    root.querySelector('[data-svgal-count]')?.removeAttribute('hidden');
+    const smooth = () => (matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth') as ScrollBehavior;
+    const current = () => {
+      const left = vp.getBoundingClientRect().left + parseFloat(getComputedStyle(vp).scrollPaddingInlineStart || '0');
+      let best = 0, d = Infinity;
+      frames.forEach((f, i) => { const dd = Math.abs(f.getBoundingClientRect().left - left); if (dd < d) { d = dd; best = i; } });
+      return best;
+    };
+    const go = (i: number) => {
+      const f = frames[Math.max(0, Math.min(frames.length - 1, i))];
+      const pad = parseFloat(getComputedStyle(vp).scrollPaddingInlineStart || '0');
+      vp.scrollTo({ left: f.offsetLeft - pad, behavior: smooth() });
+    };
+    const rail = root.querySelector<HTMLElement>('.svgal__rail span');
+    const sync = () => {
+      const i = current();
+      const max = vp.scrollWidth - vp.clientWidth;
+      rail?.style.setProperty('--p', String(max > 0 ? Math.min(1, vp.scrollLeft / max) : 1));
+      if (now) now.textContent = String(i + 1).padStart(2, '0');
+      prev.disabled = vp.scrollLeft <= 2;
+      next.disabled = vp.scrollLeft + vp.clientWidth >= vp.scrollWidth - 2;
+    };
+    prev.addEventListener('click', () => go(current() - 1));
+    next.addEventListener('click', () => go(current() + 1));
+    let raf = 0;
+    vp.addEventListener('scroll', () => { raf ||= requestAnimationFrame(() => { raf = 0; sync(); }); }, { passive: true });
+    addEventListener('resize', sync, { passive: true });
+    sync();
+  });
+</script>

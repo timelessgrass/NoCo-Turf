@@ -1,0 +1,72 @@
+---
+/**
+ * The receipts under a service page: every layer record the page's copy leans on (frontmatter layerRefs),
+ * printed as the record states it — its `fact`, its source link and the day it was checked. Nothing here is
+ * written by hand, so a changed rule changes every service page at the next build. UNVERIFIED records never
+ * render; a missing id stops the build (check-content.mjs fails it first).
+ *
+ * The place label comes from the source (a Platteville ordinance is labelled Platteville even though its
+ * record is filed under the Greeley page), then from the record's single town, then "Colorado" for
+ * statewide records.
+ */
+import { townBySlug } from '../data/territory.mjs';
+
+interface Props { ids: string[]; id?: string; title?: string; }
+const { ids, id = 'rules-on-file', title = 'The rules this page is built on.' } = Astro.props;
+
+type Rec = { id: string; layer: string; applies_to: string[]; fact: string; source_url: string; source_label: string; checked: string; status: string };
+const files = import.meta.glob<Rec[]>('../data/layers/*.json', { eager: true, import: 'default' });
+const byId = new Map<string, Rec>();
+for (const recs of Object.values(files)) for (const r of recs) byId.set(r.id, r);
+
+const KIND: Record<string, string> = {
+  state: 'State law', county: 'County code', ordinance: 'Town code', utility: 'Water provider', rebate: 'Rebate',
+  drought: 'Watering rules', climate: 'Climate', soil: 'Soil', housing: 'Housing',
+};
+const PLACE = /^(?:City of |Town of )?([A-Z][a-z]+(?: [A-Z][a-z]+)?)(?= (?:Municipal Code|Code of Ordinances|Land Use Code|Land Development Code|Development Code|Planning Commission|City Council))/;
+const place = (r: Rec) => {
+  if (r.applies_to.includes('*')) return 'Colorado';
+  if (r.layer === 'climate') return 'NOAA normals';
+  const m = r.source_label.match(PLACE);
+  if (m) return m[1];
+  if (r.applies_to.length === 1) return (townBySlug as Record<string, { name: string }>)[r.applies_to[0]]?.name ?? 'Northern Colorado';
+  return 'Northern Colorado';
+};
+const fmt = (d: string) => new Date(`${d}T12:00:00Z`).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+
+const recs = [...new Set(ids)].map((i) => {
+  const r = byId.get(i);
+  if (!r) throw new Error(`ServiceRules: layer record "${i}" is not in src/data/layers/*.json`);
+  return r;
+}).filter((r) => r.status === 'VERIFIED' || r.status === 'EXTERNAL_SOURCE');
+---
+{recs.length > 0 && (
+  <section class="svrules" id={id} aria-labelledby={`${id}-h`}>
+    <h2 id={`${id}-h`}>{title}</h2>
+    <p class="svrules__intro">Each rule as it's recorded from its public source, with a link to that source and the day it was last checked. Not legal advice; for your own address, ask the town or a Colorado attorney.</p>
+    <ol class="svrules__list" role="list">
+      {recs.map((r, i) => (
+        <li class="svrules__item rise">
+          <p class="svrules__scope"><span class="svrules__no num">{String(i + 1).padStart(2, '0')}</span><span class="label">{KIND[r.layer] ?? 'Record'}</span><span class="svrules__place">{place(r)}</span></p>
+          <p class="svrules__fact">{r.fact}</p>
+          <p class="svrules__src"><a href={r.source_url} rel="noopener">{r.source_label}</a><span> · checked {fmt(r.checked)}</span></p>
+        </li>
+      ))}
+    </ol>
+  </section>
+)}
+
+<style>
+  .svrules { margin-top: clamp(56px, 7vw, 96px); padding-top: clamp(28px, 3vw, 40px); border-top: 2px solid var(--ink); }
+  .svrules h2 { margin-top: 0; }
+  .svrules__intro { color: var(--ink-2); font-size: var(--fs-small); max-width: 58ch; }
+  .svrules__list { list-style: none; padding: 0; margin: 24px 0 0; display: grid; }
+  .svrules__item { margin: 0; padding: 18px 0; border-bottom: 1px dashed rgb(var(--ink-rgb) / 0.28); }
+  .svrules__item:first-child { border-top: 1px dashed rgb(var(--ink-rgb) / 0.28); }
+  .svrules__scope { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; margin: 0 0 6px; }
+  .svrules__no { font-family: var(--font-display); font-weight: 800; font-stretch: 110%; font-size: 0.85rem; color: var(--ink-3); }
+  .svrules__place { font-family: var(--font-display); font-weight: 700; font-stretch: 104%; font-size: 0.95rem; }
+  .svrules__fact { margin: 0 0 6px; }
+  .svrules__src { margin: 0; font-size: 0.85rem; color: var(--ink-3); overflow-wrap: anywhere; }
+  .svrules__src a { color: var(--ink-2); }
+</style>

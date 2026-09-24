@@ -1,0 +1,337 @@
+---
+/**
+ * /services/{slug}/ — one page per visible service (src/data/services.ts visibleServices), its copy from
+ * src/content/services/{slug}.md. PREVIEW BUILD: every service is unconfirmed, so every page carries the
+ * Draft ribbon; at launch a page exists only when its service is confirmed AND its record is published.
+ *
+ * Spine, each beat named by the buyer question it answers:
+ *   hero        "Do you do this?"             PageHero — a real job photo, or a drawn detail (ServiceGlyph)
+ *   answer      "Give me the short version."  AnswerBox + what decides it (+ Brian's own words, if any)
+ *   photos      "Show me."                    ServiceGallery — only honest photos of this kind of job
+ *   details     "What does the job involve?"  the Markdown body, a sticky contents list whose rail fills
+ *                                             as you read, then every layer record the copy leans on
+ *   the build   (lawn only)                   BuildSection
+ *   where       "Do you come to my town?"     ServiceWhere — chips that paint routes on the corridor map
+ *   questions   "The things I'll ask."        Faq, mirrored verbatim into FAQPage JSON-LD
+ *   read next   "Where can I check this?"     related guides + Sources
+ *   close       "Fine — what now?"            CtaBand with the form, this service preselected
+ */
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import { getImage } from 'astro:assets';
+import Base from '../../layouts/Base.astro';
+import PageHero from '../../components/PageHero.astro';
+import PaintWord from '../../components/PaintWord.astro';
+import Icon from '../../components/Icon.astro';
+import AnswerBox from '../../components/AnswerBox.astro';
+import BuildSection from '../../components/BuildSection.astro';
+import Faq from '../../components/Faq.astro';
+import CtaBand from '../../components/CtaBand.astro';
+import ServiceHead from '../../components/ServiceHead.astro';
+import ServiceGlyph from '../../components/ServiceGlyph.astro';
+import ServiceGallery from '../../components/ServiceGallery.astro';
+import ServiceWhere from '../../components/ServiceWhere.astro';
+import ServiceRules from '../../components/ServiceRules.astro';
+import ServiceRelated from '../../components/ServiceRelated.astro';
+import { visibleServices, type Service } from '../../data/services';
+import { SHOW_DRAFTS } from '../../data/site';
+import { isPublished } from '../../lib/content-policy.mjs';
+import { photo as photoById } from '../../data/photos';
+import { visibleTowns } from '../../lib/visible';
+import { faqGraph, serviceGraph } from '../../lib/schema';
+import brief, { fact, facts, phoneHref, phoneDisplay } from '../../data/brief';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('services');
+  return visibleServices.flatMap((service) => {
+    const entry = entries.find((e) => e.data.slug === service.slug);
+    if (!entry) throw new Error(`/services/${service.slug}/: no record in src/content/services/ — write ${service.slug}.md`);
+    if (!SHOW_DRAFTS && !isPublished(entry.data)) return [];
+    return [{ params: { slug: service.slug }, props: { service, entry } }];
+  });
+}
+
+type Props = { service: Service; entry: CollectionEntry<'services'> };
+const { service, entry } = Astro.props;
+const data = entry.data;
+const { Content, headings } = await render(entry);
+const path = `/services/${service.slug}/`;
+const crumbs = [{ name: 'Services', path: '/services/' }, { name: service.name, path }];
+
+/* Words that belong to the page, not the record: labels, CTA verbs and section heads. Each CTA verb differs
+   from the site-wide "Book a yard walk" and from every other touchpoint on the page. */
+type UI = { label: string; cta: string; gallery?: { label: string; title: string; lede: string }; where: { title: string; lede: string };
+  faq: { title: string; lede: string }; read: string; band: { title: string; payoff: string; lede: string } };
+const lede3 = 'Three short parts, no account, no upload.';
+const UIS: Record<string, UI> = {
+  'artificial-turf-installation': {
+    label: 'Artificial turf · Lawn replacement',
+    cta: 'Ask about your lawn',
+    gallery: { label: 'From the job file', title: 'Lawns, edges and a finish pass.', lede: 'Brian’s own jobs, each labeled with the place and, where the camera recorded it, the month. Look at where the turf meets rock, concrete and curb — that’s where the work shows.' },
+    where: { title: 'Turf lawns from Wellington to Longmont.', lede: 'Each town page covers its own turf rules, water provider and ground. Find yours.' },
+    faq: { title: 'What people ask before the lawn comes out.', lede: 'Answers from Colorado law and each town’s own code, checked September 2026.' },
+    read: 'Rules, rebates, water and cost, in depth.',
+    band: { title: 'Start with the ground', payoff: 'under your lawn.', lede: `Tell us about the yard, the town and how to reach you. ${lede3}` },
+  },
+  'pet-turf': {
+    label: 'Pet turf · Dog runs',
+    cta: 'Ask about your dog run',
+    where: { title: 'Dog runs from Wellington to Longmont.', lede: 'Each town page covers its own turf rules, water provider and ground. Find yours.' },
+    faq: { title: 'What dog owners ask first.', lede: 'Odor, heat, digging and the HOA, with the Colorado rules checked September 2026.' },
+    read: 'Before the dogs get their yard.',
+    band: { title: 'Tell us about the dogs', payoff: 'and the yard.', lede: `How many, how big, and where they run now. ${lede3}` },
+  },
+  'putting-greens': {
+    label: 'Putting greens · Backyard golf',
+    cta: 'Ask about a green',
+    gallery: { label: 'Greens on file', title: 'Two more greens, from the yard and the street.', lede: 'Brian’s own greens near Windsor and Berthoud, each with the month it was photographed. Frames 02 to 04 are one green, seen from the yard, the street and the driveway. Watch the fringe where it meets rock and concrete.' },
+    where: { title: 'Backyard greens from Wellington to Longmont.', lede: 'Each town page covers its own turf rules, water provider and ground. Find yours.' },
+    faq: { title: 'What golfers ask before they build.', lede: 'Roll, speed, break and winter, and whether an HOA can say no.' },
+    read: 'The rules and the numbers behind a green.',
+    band: { title: 'Pick the spot', payoff: 'for the green.', lede: `Tell us about the yard and who’ll be putting on it. ${lede3}` },
+  },
+  'playground-turf': {
+    label: 'Playground turf · Fall zones',
+    cta: 'Ask about your play area',
+    where: { title: 'Play areas from Wellington to Longmont.', lede: 'Each town page covers its own turf rules, water provider and ground. Find yours.' },
+    faq: { title: 'What parents and boards ask first.', lede: 'Falls, heat, HOAs and daycares, with the Colorado rules checked September 2026.' },
+    read: 'The rules behind play turf.',
+    band: { title: 'Show us the playset', payoff: 'and what’s under it.', lede: `Tell us how tall the set is and where it sits. ${lede3}` },
+  },
+  'commercial-turf': {
+    label: 'Common areas · Functional turf',
+    cta: 'Ask about a bid',
+    where: { title: 'Common ground from Wellington to Longmont.', lede: 'Each town page lists that town’s own turf code, so a board can read it before it votes.' },
+    faq: { title: 'What boards and managers ask first.', lede: 'Straight answers from SB24-005, HB25-1113 and each town’s code, checked September 2026.' },
+    read: 'The law and the money, in depth.',
+    band: { title: 'Tell us the site', payoff: 'and what it’s for.', lede: `The property, the town and what the turf is for. ${lede3}` },
+  },
+};
+const ui: UI = UIS[service.slug] ?? {
+  label: service.name, cta: 'Ask about your yard',
+  where: { title: 'Wellington to Longmont.', lede: 'Each town page covers its own turf rules, water provider and ground.' },
+  faq: { title: 'What people ask first.', lede: 'Straight answers, checked September 2026.' },
+  read: 'Go deeper before you decide.', band: { title: 'Tell us about', payoff: 'the yard.', lede: lede3 },
+};
+
+/* H1: a claim in two sentences — the second is the payoff and gets the painted line (copy.md form A). */
+const split = data.h1.match(/^(.+?[.?!])\s+(\S.*)$/);
+const [claim, payoff] = split ? [split[1], split[2]] : [data.h1, ''];
+
+/* Photos: the hero is the service's own photo (services.ts), else the record's first; the strip gets the rest. */
+const heroId = service.photo ?? data.photos[0] ?? null;
+const heroPhoto = heroId ? photoById(heroId) : null;
+const gallery = data.photos.filter((p) => p !== heroId).map(photoById);
+const og = heroPhoto ? (await getImage({ src: heroPhoto.src, width: 1200, format: 'jpg', quality: 76 })).src : undefined;
+
+/* Brian's own words about this service, verbatim, only when the brief can render them. */
+const quote = ((brief.services ?? []) as any[])
+  .filter((s) => s?.kind === 'client_statement' && s?.about === service.slug)
+  .map((s) => fact<string>(s.statement)).find(Boolean) ?? null;
+
+/* Counts for the answer strip — every number is the page's own data. */
+type Rec = { id: string; status: string };
+const layerFiles = import.meta.glob<Rec[]>('../../data/layers/*.json', { eager: true, import: 'default' });
+const liveIds = new Set(Object.values(layerFiles).flat().filter((r) => r.status === 'VERIFIED' || r.status === 'EXTERNAL_SOURCE').map((r) => r.id));
+const rulesCount = new Set(data.layerRefs.filter((id) => liveIds.has(id))).size;
+
+const towns = await visibleTowns();
+const toc = [
+  ...headings.filter((h) => h.depth === 2).map((h) => ({ slug: h.slug, text: h.text })),
+  ...(rulesCount ? [{ slug: 'rules-on-file', text: 'The rules this page is built on' }] : []),
+];
+const pad = (n: number) => String(n).padStart(2, '0');
+
+const areas = facts<string>(((brief.service_areas ?? []) as any[]).map((a) => a?.name));
+const graph = [...serviceGraph(service.name, path, data.description, areas), ...faqGraph(data.faq)];
+const draft = !service.confirmed || !isPublished(data);
+---
+<Base title={data.title} description={data.description} crumbs={crumbs} graph={graph} draft={draft} ogImage={og}>
+  <!-- 1 · Hero — "Do you do this?" -->
+  <div class:list={['svhero', { 'svhero--glyph': !heroPhoto }]}>
+    <PageHero label={ui.label} crumbs={crumbs} photo={heroPhoto} lede={data.lede}>
+      {claim}{payoff && <> <PaintWord now>{payoff}</PaintWord></>}
+      <Fragment slot="after">
+        <div class="svhero__cta">
+          <a class="btn btn--paint" href="#estimate" data-cta="svc-hero-quote">{ui.cta} <Icon name="arrow" /></a>
+          {phoneHref && <a class="btn btn--line" href={phoneHref} data-cta="svc-hero-call"><Icon name="phone" />Call <span class="btn__num">{phoneDisplay}</span></a>}
+        </div>
+        {!heroPhoto && <ServiceGlyph slug={service.slug} class="svhero__glyph" />}
+      </Fragment>
+    </PageHero>
+  </div>
+
+  <!-- 2 · Answer — "Give me the short version." -->
+  <section class="svintro" aria-label="Short answer">
+    <div class="wrap svintro__grid">
+      <AnswerBox question={data.answer.question} answer={data.answer.answer} />
+      <aside class="svnote" aria-label="What decides it">
+        <p class="label">What decides it</p>
+        <p class="svnote__line">{service.underneath}</p>
+        {quote && (
+          <blockquote class="svnote__quote">
+            <p>“{quote}”</p>
+            <footer>Brian, NoCo Turf Co.</footer>
+          </blockquote>
+        )}
+        <dl class="svnote__meta">
+          {rulesCount > 0 && <div><dt class="num">{rulesCount}</dt><dd>rules on file, <a href="#rules-on-file">with sources</a></dd></div>}
+          <div><dt class="num">{data.faq.length}</dt><dd><a href="#faq">questions answered</a></dd></div>
+          {data.photos.length > 0 && <div><dt class="num">{data.photos.length}</dt><dd>{data.photos.length === 1 ? 'job photo' : 'job photos'} from Brian</dd></div>}
+        </dl>
+      </aside>
+    </div>
+  </section>
+
+  <!-- 3 · Photos — "Show me." -->
+  {gallery.length >= 2 && ui.gallery && (
+    <ServiceGallery photos={gallery} label={ui.gallery.label} title={ui.gallery.title} lede={ui.gallery.lede} />
+  )}
+
+  <!-- 4 · Details — "What does the job involve?" -->
+  <section class="section svread" aria-label="What the job involves">
+    <div class="wrap svread__grid">
+      <nav class="svtoc" aria-label="On this page">
+        <p class="label">On this page</p>
+        <div class="svtoc__body">
+          <div class="svtoc__rail" aria-hidden="true"><span></span></div>
+          <ol class="svtoc__list" role="list">
+            {toc.map((h, i) => (
+              <li><a href={`#${h.slug}`} data-toc={h.slug}><span class="svtoc__no num">{pad(i + 1)}</span><span>{h.text}</span></a></li>
+            ))}
+          </ol>
+        </div>
+        <p class="svtoc__more"><a href="#faq">Questions</a><span aria-hidden="true"> · </span><a href="#estimate">Go to the form</a></p>
+      </nav>
+      <article class="prose svprose" data-svread>
+        <Content />
+        <ServiceRules ids={data.layerRefs} />
+      </article>
+    </div>
+  </section>
+
+  <!-- 5 · The build (lawn replacement only) -->
+  {service.slug === 'artificial-turf-installation' && <BuildSection />}
+
+  <!-- 6 · Where — "Do you come to my town?" -->
+  <ServiceWhere towns={towns} title={ui.where.title} lede={ui.where.lede} />
+
+  <!-- 7 · Questions — "The things I'll ask on the phone." -->
+  {data.faq.length > 0 && (
+    <section class="section ground-2 svfaq" id="faq" aria-labelledby="faq-h">
+      <div class="wrap svfaq__grid">
+        <ServiceHead label="Before you call" id="faq-h" lede={ui.faq.lede}>{ui.faq.title}</ServiceHead>
+        <Faq items={data.faq} name={`faq-${service.slug}`} />
+      </div>
+    </section>
+  )}
+
+  <!-- 8 · Read next — "Where can I check this?" -->
+  <ServiceRelated guides={data.guides} sources={data.sources} title={ui.read} />
+
+  <!-- 9 · Close — "Fine — what happens if I ask?" -->
+  <CtaBand title={ui.band.title} payoff={ui.band.payoff} lede={ui.band.lede} use={service.formUse} />
+</Base>
+
+<style>
+  /* ── Hero ── */
+  .svhero__cta { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
+  .svhero :global(.svhero__glyph) { margin-top: clamp(32px, 5vw, 48px); }
+  @media (min-width: 1100px) {
+    .svhero--glyph :global(.ph__copy) { display: grid; grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr); grid-template-rows: repeat(5, auto) 1fr; column-gap: clamp(40px, 5vw, 88px); }
+    .svhero--glyph :global(.ph__copy > *) { grid-column: 1; }
+    .svhero--glyph :global(.svhero__glyph) { grid-column: 2; grid-row: 1 / -1; align-self: end; margin-top: 0; }
+  }
+
+  /* ── Answer strip ── */
+  .svintro { padding-block: clamp(32px, 4vw, 64px) 0; }
+  .svintro__grid { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 0.9fr); gap: clamp(20px, 3vw, 40px); align-items: stretch; }
+  .svnote { display: grid; align-content: start; gap: 10px; padding: clamp(22px, 3vw, 34px); border-radius: var(--r-panel); box-shadow: inset 0 0 0 1.5px var(--line); }
+  .svnote .label { margin: 0; }
+  .svnote__line { margin: 0; font-family: var(--font-display); font-weight: 720; font-stretch: 106%; font-size: clamp(1.1rem, 1rem + 0.4vw, 1.3rem); letter-spacing: -0.015em; line-height: 1.25; }
+  .svnote__quote { margin: 8px 0 0; padding-top: 14px; border-top: 1px solid var(--line); }
+  .svnote__quote p { margin: 0 0 6px; font-family: var(--font-display); font-weight: 760; font-stretch: 112%; font-size: clamp(1.3rem, 1.05rem + 1vw, 1.8rem); letter-spacing: -0.03em; line-height: 1.08; }
+  .svnote__quote footer { font-size: var(--fs-small); color: var(--ink-3); }
+  .svnote__quote footer::before { content: ''; display: inline-block; width: 22px; height: 3px; border-radius: 2px; background: var(--paint); vertical-align: middle; margin-right: 10px; }
+  .svnote__meta { display: flex; flex-wrap: wrap; gap: 14px 26px; margin: auto 0 0; padding-top: 16px; border-top: 1px solid var(--line); }
+  .svnote__meta div { display: flex; align-items: baseline; gap: 8px; }
+  .svnote__meta dt { font-family: var(--font-display); font-weight: 820; font-stretch: 112%; font-size: 1.6rem; letter-spacing: -0.03em; line-height: 1; }
+  .svnote__meta dd { margin: 0; font-size: 0.88rem; color: var(--ink-2); }
+  .svnote__meta a { color: inherit; text-decoration-color: var(--paint); }
+  @media (max-width: 899px) { .svintro__grid { grid-template-columns: 1fr; } }
+
+  /* ── Reading layout ── */
+  .svread__grid { display: grid; grid-template-columns: minmax(200px, 0.34fr) minmax(0, 1fr); gap: clamp(32px, 6vw, 112px); align-items: start; timeline-scope: --svread; }
+  .svtoc { position: sticky; top: calc(var(--header-h) + 28px); display: grid; gap: 14px; }
+  .svtoc .label { margin: 0; }
+  .svtoc__body { position: relative; padding-left: 18px; }
+  .svtoc__rail { position: absolute; left: 0; top: 6px; bottom: 6px; width: 2px; border-radius: 2px;
+    background: repeating-linear-gradient(180deg, rgb(var(--ink-rgb) / 0.22) 0 6px, transparent 6px 11px); overflow: hidden; }
+  .svtoc__rail span { display: block; height: 100%; background: var(--paint); transform-origin: top; scale: 1 0; }
+  .svtoc__list { list-style: none; display: grid; gap: 2px; }
+  .svtoc__list a { display: grid; grid-template-columns: 2.1em minmax(0, 1fr); gap: 4px; padding: 9px 0; min-height: 44px; text-decoration: none; color: var(--ink-2);
+    font-size: 0.95rem; line-height: 1.35; transition: color var(--t2) var(--ease); }
+  .svtoc__list a:hover { color: var(--ink); }
+  .svtoc__list a { position: relative; }
+  .svtoc__list a::before { content: ''; position: absolute; left: -18px; top: 50%; width: 10px; height: 10px; border-radius: 50%; background: var(--paint);
+    box-shadow: 0 0 0 3px var(--ground); translate: -4px -50%; scale: 0; transition: scale var(--t2) var(--ease); }
+  .svtoc__list a[aria-current] { color: var(--ink); font-weight: 600; }
+  .svtoc__list a[aria-current]::before { scale: 1; }
+  .svtoc__no { font-family: var(--font-display); font-weight: 800; font-stretch: 110%; font-size: 0.82rem; color: var(--ink-3); padding-top: 0.12em; transition: color var(--t2) var(--ease); }
+  .svtoc__list a[aria-current] .svtoc__no { color: var(--ink); }
+  .svtoc__more { margin: 6px 0 0; padding-top: 14px; border-top: 1px solid var(--line); font-size: 0.92rem; }
+  .svtoc__more a { display: inline-block; padding: 12px 0; font-family: var(--font-display); font-weight: 700; font-stretch: 104%; text-decoration-color: var(--paint); }
+
+  .svprose { view-timeline: --svread block; }
+  .svprose :global(h2) { position: relative; padding-top: 22px; scroll-margin-top: calc(var(--header-h) + 20px); view-timeline: --svh block; }
+  .svprose :global(h2)::before { content: ''; position: absolute; left: 0; top: 0; width: 56px; height: 4px; border-radius: 2px; transform-origin: left;
+    background: repeating-linear-gradient(90deg, var(--paint) 0 14px, transparent 14px 21px); }
+  .svprose > :global(h2:first-child) { margin-top: 0; }
+  .svprose > :global(ol) { list-style: none; padding-left: 0; counter-reset: step; }
+  .svprose > :global(ol > li) { counter-increment: step; position: relative; padding: 0 0 0 2.8em; margin: 0 0 0.9em; }
+  .svprose > :global(ol > li)::before { content: counter(step, decimal-leading-zero); position: absolute; left: 0; top: 0.08em;
+    font-family: var(--font-display); font-weight: 800; font-stretch: 110%; font-size: 0.92rem; font-variant-numeric: tabular-nums; }
+  .svprose > :global(ol > li)::after { content: ''; position: absolute; left: 0; top: 1.62em; width: 1.6em; height: 3px; border-radius: 2px; background: var(--paint); }
+  .svprose > :global(ul > li)::marker { color: var(--paint); }
+  .svprose :global(table) { margin-top: 1.2em; }
+  .svprose :global(td:first-child) { font-family: var(--font-display); font-weight: 700; font-stretch: 104%; white-space: nowrap; padding-right: 20px; color: var(--ink); }
+  .svprose :global(a) { text-decoration-color: var(--paint); }
+
+  @media (prefers-reduced-motion: no-preference) {
+    @supports (animation-timeline: view()) and (timeline-scope: --a) {
+      @keyframes svread-fill { to { scale: 1 1; } }
+      @keyframes svread-mark { from { scale: 0 1; } to { scale: 1 1; } }
+      .svtoc__rail span { animation: svread-fill linear both; animation-timeline: --svread; animation-range: contain 0% contain 100%; }
+      .svprose :global(h2)::before { animation: svread-mark linear both; animation-timeline: --svh; animation-range: entry 40% cover 30%; }
+    }
+  }
+  @media (max-width: 899px) {
+    .svread__grid { grid-template-columns: 1fr; }
+    .svtoc { position: static; padding: 18px 0 6px; border-block: 1px solid var(--line); }
+    .svtoc__rail, .svtoc__list a::before { display: none; }
+    .svtoc__body { padding-left: 0; }
+  }
+
+  /* ── FAQ ── */
+  .svfaq__grid { display: grid; grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr); gap: 40px 80px; align-items: start; }
+  .svfaq__grid :global(.svhead) { position: sticky; top: calc(var(--header-h) + 32px); }
+  .svfaq__grid :global(.svhead h2) { font-size: clamp(2rem, 1.3rem + 2.4vw, 3.4rem); }
+  @media (max-width: 899px) { .svfaq__grid { grid-template-columns: 1fr; } .svfaq__grid :global(.svhead) { position: static; } }
+</style>
+
+<script>
+  /* Contents: mark the section being read. The fill of the rail is CSS (scroll-driven), not this. */
+  const links = [...document.querySelectorAll<HTMLAnchorElement>('[data-toc]')];
+  const targets = links.map((a) => document.getElementById(a.dataset.toc!)).filter((t): t is HTMLElement => Boolean(t));
+  if (targets.length) {
+    let raf = 0;
+    const sync = () => {
+      raf = 0;
+      const line = innerHeight * 0.32;
+      let on = -1;
+      targets.forEach((t, i) => { if (t.getBoundingClientRect().top <= line) on = i; });
+      links.forEach((a, i) => (i === on ? a.setAttribute('aria-current', 'location') : a.removeAttribute('aria-current')));
+    };
+    addEventListener('scroll', () => { raf ||= requestAnimationFrame(sync); }, { passive: true });
+    sync();
+  }
+</script>

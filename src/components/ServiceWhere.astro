@@ -1,0 +1,59 @@
+---
+/**
+ * "Where we do this" on a service page: every visible town as a chip, grouped by region, beside the
+ * compact corridor map. The Route (motion system M5) is wired to the chips too: hover or focus a chip and
+ * the painted route draws out to that town on the map, exactly as it does from the map's own list on the
+ * homepage. No JS; with reduced motion or on touch the map shows every route faintly (CorridorMap's rules).
+ * The map is the page's one data-boundary element.
+ */
+import CorridorMap from './CorridorMap.astro';
+import ServiceHead from './ServiceHead.astro';
+import { townsByRegion } from '../lib/visible';
+
+interface Town { slug: string; name: string; region: string; tier: string; lat: number; lng: number; draft?: boolean }
+interface Props { towns: Town[]; title: string; lede: string; label?: string; id?: string; }
+const { towns, title, lede, label = 'Where we do this', id = 'where' } = Astro.props;
+const regions = townsByRegion(towns);
+const routeCss = towns.map((t) => `.svwhere:has(.svwhere__town[data-town="${t.slug}"]:is(:hover,:focus-visible)) [data-route="${t.slug}"]{stroke-dashoffset:0;opacity:1}.svwhere:has(.svwhere__town[data-town="${t.slug}"]:is(:hover,:focus-visible)) [data-dot="${t.slug}"]{fill:var(--paint);r:8}`).join('');
+---
+<section class="section svwhere" aria-labelledby={`${id}-h`} id={id}>
+  <div class="wrap svwhere__grid">
+    <div class="svwhere__copy">
+      <ServiceHead label={label} id={`${id}-h`} lede={lede}>{title}</ServiceHead>
+      <div class="svwhere__regions">
+        {regions.map((r) => (
+          <div class="svwhere__region">
+            <p class="label">{r.label}</p>
+            <ul role="list">
+              {r.towns.map((t) => <li><a class="svwhere__town" href={`/areas/${t.slug}/`} data-town={t.slug}>{t.name}</a></li>)}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </div>
+    <div class="svwhere__map">
+      <CorridorMap towns={towns} compact />
+    </div>
+  </div>
+</section>
+<style set:html={routeCss}></style>
+
+<style>
+  .svwhere { border-top: 1px solid var(--line); }
+  .svwhere__grid { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr); gap: clamp(32px, 5vw, 88px); align-items: start; }
+  .svwhere__copy :global(.svhead) { margin-bottom: clamp(24px, 3vw, 40px); }
+  .svwhere__regions { display: grid; gap: 22px; }
+  .svwhere__region ul { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+  .svwhere__town { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 16px; border-radius: var(--r-chip); text-decoration: none;
+    font-family: var(--font-display); font-weight: 680; font-stretch: 104%; font-size: 0.98rem; letter-spacing: -0.01em;
+    box-shadow: inset 0 0 0 1.5px var(--line); transition: background-color var(--t2) var(--ease), box-shadow var(--t2) var(--ease), transform var(--t1) var(--ease); }
+  .svwhere__town::before { content: ''; width: 7px; height: 7px; border-radius: 50%; background: var(--ink-3); transition: background-color var(--t2) var(--ease); }
+  .svwhere__town:hover, .svwhere__town:focus-visible { background: var(--ground-2); box-shadow: inset 0 0 0 1.5px var(--paint); }
+  .svwhere__town:hover::before, .svwhere__town:focus-visible::before { background: var(--paint); }
+  .svwhere__town:active { transform: scale(0.97); }
+  .svwhere__map { position: sticky; top: calc(var(--header-h) + 24px); }
+  @media (max-width: 899px) {
+    .svwhere__grid { grid-template-columns: 1fr; }
+    .svwhere__map { position: static; width: 100%; max-width: 520px; }
+  }
+</style>

@@ -1,0 +1,190 @@
+---
+/**
+ * The /services/ index, drawn as the document this buyer already trusts: a site plan. One Northern
+ * Colorado lot — front lawn, a side-yard dog run, a backyard green, a play area — and, across the street,
+ * an HOA common area with a field. Each zone is outlined with the layout line (paint) and numbered; the
+ * legend beside it is the real index (links, names, what decides each job, what the page holds).
+ *
+ * Interaction without JS: hover or focus a legend row and its zone fills; hover a zone and its row lights
+ * (:has(), generated per service like CorridorMap's routes). The outlines are painted in as the plan
+ * scrolls into view where scroll-driven animation exists; everywhere else they are simply drawn.
+ * Not a card grid, not a numbered photo index.
+ */
+import Icon from './Icon.astro';
+
+interface Item { slug: string; name: string; short: string; underneath: string; photos: number; rules: number; questions: number; }
+interface Props { items: Item[]; }
+const { items } = Astro.props;
+const pad = (n: number) => String(n).padStart(2, '0');
+const no = (slug: string) => pad(items.findIndex((i) => i.slug === slug) + 1);
+const has = (slug: string) => items.some((i) => i.slug === slug);
+
+/* Zone geometry (viewBox 0 0 420 574). Each: outline path, badge position. */
+const ZONES: Record<string, { d: string; bx: number; by: number }> = {
+  'artificial-turf-installation': { d: 'M28 306H262V372H28Z', bx: 58, by: 339 },
+  'pet-turf': { d: 'M28 162H98V296H28Z', bx: 63, by: 188 },
+  'putting-greens': { d: 'M196 62C210 36 300 26 352 42C390 54 394 110 372 132C348 154 262 152 214 132C188 120 184 86 196 62Z', bx: 222, by: 110 },
+  'playground-turf': { d: 'M30 30H160V140H30Z', bx: 52, by: 120 },
+  'commercial-turf': { d: 'M52 460H368V540H52Z', bx: 100, by: 476 },
+};
+const ticks = (x: number, y: number, w: number, h: number, step = 10) => {
+  const out: string[] = [];
+  for (let yy = y + 6; yy < y + h - 2; yy += step) for (let xx = x + 5 + ((yy / step) % 2) * 5; xx < x + w - 3; xx += step) out.push(`M${xx} ${yy}l1.8 -3.8`);
+  return out.join('');
+};
+const css = items.map(({ slug }) => [
+  `.splan:has([data-svc="${slug}"]:is(:hover,:focus-visible)) [data-zone="${slug}"] .splan__tint{opacity:1}`,
+  `.splan:has([data-svc="${slug}"]:is(:hover,:focus-visible)) [data-zone="${slug}"] .splan__outline{stroke-width:3.4}`,
+  `.splan:has([data-svc="${slug}"]:is(:hover,:focus-visible)) [data-zone="${slug}"] .splan__badge circle{fill:var(--paint);stroke:var(--paint)}`,
+  `.splan:has([data-zone="${slug}"]:hover) [data-svc="${slug}"]{background:rgb(var(--ink-rgb) / 0.045)}`,
+  `.splan:has([data-zone="${slug}"]:hover) [data-svc="${slug}"] .splan__go{background:var(--paint);box-shadow:none}`,
+].join('')).join('');
+---
+<div class="splan">
+  <ol class="splan__list" role="list">
+    {items.map((s, i) => (
+      <li>
+        <a class="splan__row rise" href={`/services/${s.slug}/`} data-svc={s.slug}>
+          <span class="splan__no num" aria-hidden="true">{pad(i + 1)}</span>
+          <span class="splan__main">
+            <h3 class="splan__name">{s.name}</h3>
+            <span class="splan__short">{s.short}</span>
+            <span class="splan__under"><span class="label">What decides it</span>{s.underneath}</span>
+            <span class="splan__meta">
+              {s.photos > 0 ? <span>{s.photos} {s.photos === 1 ? 'job photo' : 'job photos'}</span> : <span>Drawn detail</span>}
+              <span>{s.rules} rules on file</span>
+              <span>{s.questions} questions</span>
+            </span>
+          </span>
+          <span class="splan__go" aria-hidden="true"><Icon name="arrow" /></span>
+        </a>
+      </li>
+    ))}
+  </ol>
+
+  <figure class="splan__fig">
+    <svg class="splan__svg" viewBox="0 0 420 574" role="img" aria-labelledby="splan-t">
+      <title id="splan-t">Site plan of a Northern Colorado lot and the common area across the street, numbered to match the list of services: front lawn, side-yard dog run, backyard putting green, play area, and an HOA sports field</title>
+      <defs>
+        <pattern id="splan-stipple" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="0.7" fill="rgb(27 25 21 / 0.28)" /><circle cx="4.5" cy="4.2" r="0.6" fill="rgb(27 25 21 / 0.2)" /></pattern>
+        <pattern id="splan-roof" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><path d="M0 0v8" stroke="rgb(27 25 21 / 0.14)" stroke-width="1.4" /></pattern>
+        <clipPath id="splan-green"><path d={ZONES['putting-greens'].d} /></clipPath>
+      </defs>
+
+      <!-- the lot -->
+      <path class="splan__fence" d="M16 250V16H404V250" />
+      <path class="splan__prop" d="M16 250V380M404 250V380" />
+      <path class="splan__ticks" d={ticks(16, 16, 388, 364, 14)} />
+      <path d="M150 158H290V184H150Z" class="splan__solid" /><path d="M150 158H290V184H150Z" fill="url(#splan-stipple)" class="splan__hard" />
+      <path d="M110 184H392V296H110Z" class="splan__solid" /><path d="M110 184H392V296H110Z" fill="url(#splan-roof)" class="splan__house" />
+      <text class="splan__txt" x="251" y="246" text-anchor="middle">House</text>
+      <path d="M272 296H380V380H272Z" class="splan__solid" /><path d="M272 296H380V380H272Z" fill="url(#splan-stipple)" class="splan__hard" />
+      <text class="splan__txt" x="326" y="350" text-anchor="middle">Drive</text>
+      <path class="splan__gate" d="M28 300H52M74 300H98" />
+
+      <!-- the street -->
+      <path d="M0 380H420V390H0Z" fill="url(#splan-stipple)" class="splan__hard" />
+      <path class="splan__curb" d="M0 390H420M0 440H420" />
+      <path class="splan__lane" d="M0 415H420" />
+      <text class="splan__txt" x="404" y="432" text-anchor="end">Street</text>
+
+      <!-- the common area -->
+      <path class="splan__prop" d="M16 448H404V548H16Z" />
+      <text class="splan__txt" x="16" y="568">HOA common area, across the street</text>
+
+      {items.filter((s) => ZONES[s.slug]).map((s, i) => {
+        const z = ZONES[s.slug];
+        return (
+          <a href={`/services/${s.slug}/`} tabindex="-1" data-zone={s.slug} class="splan__zone">
+            {s.slug === 'putting-greens'
+              ? <path class="splan__turf" d={ticks(184, 26, 212, 130, 8)} clip-path="url(#splan-green)" />
+              : s.slug === 'commercial-turf'
+                ? <path class="splan__ticks" d={ticks(52, 460, 316, 80, 14)} />
+                : null}
+            <path class="splan__tint" d={z.d} />
+            <path class="splan__outline" d={z.d} pathLength="1" style={`animation-range: entry ${4 + i * 6}% entry ${34 + i * 6}%`} />
+            <g class="splan__badge"><circle cx={z.bx} cy={z.by} r="12" /><text x={z.bx} y={z.by + 4.5} text-anchor="middle">{no(s.slug)}</text></g>
+          </a>
+        );
+      })}
+
+      <!-- drawn details inside the zones -->
+      {has('playground-turf') && <path class="splan__detail" d="M72 62h24v24H72zM96 74l26 26M146 50l-10 36M146 50l10 36M139 70h14" />}
+      {has('putting-greens') && <>
+        <circle class="splan__cup" cx="238" cy="84" r="3" /><circle class="splan__cup" cx="344" cy="118" r="3" />
+        <path class="splan__detail" d="M318 72V48" /><path class="splan__flag" d="M318 48l14 5 -14 5Z" /><circle class="splan__cup" cx="318" cy="72" r="3" />
+      </>}
+      {has('pet-turf') && <path class="splan__paw" d="M50 232a4 3.4 0 1 0 8 0a4 3.4 0 1 0 -8 0M47 226.5a1.5 1.9 0 1 0 3 0a1.5 1.9 0 1 0 -3 0M51 223.5a1.5 1.9 0 1 0 3 0a1.5 1.9 0 1 0 -3 0M55 223.5a1.5 1.9 0 1 0 3 0a1.5 1.9 0 1 0 -3 0M59 226.5a1.5 1.9 0 1 0 3 0a1.5 1.9 0 1 0 -3 0M68 262a4 3.4 0 1 0 8 0a4 3.4 0 1 0 -8 0M65 256.5a1.5 1.9 0 1 0 3 0a1.5 1.9 0 1 0 -3 0M69 253.5a1.5 1.9 0 1 0 3 0a1.5 1.9 0 1 0 -3 0M73 253.5a1.5 1.9 0 1 0 3 0a1.5 1.9 0 1 0 -3 0M77 256.5a1.5 1.9 0 1 0 3 0a1.5 1.9 0 1 0 -3 0" />}
+      {has('commercial-turf') && <path class="splan__detail" d="M210 460V540M52 482h26v36H52M368 482h-26v36h26" />}
+      {has('commercial-turf') && <circle class="splan__detail" cx="210" cy="500" r="16" />}
+    </svg>
+    <figcaption class="splan__cap"><span class="label">Plan · not to scale</span><span>The numbers match the list. The paint line is the layout: where the turf goes.</span></figcaption>
+  </figure>
+</div>
+<style set:html={css}></style>
+
+<style>
+  .splan { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr); gap: clamp(32px, 5vw, 96px); align-items: start; }
+  .splan__list { list-style: none; border-top: 2px solid var(--ink); }
+  .splan__row { display: grid; grid-template-columns: 3rem minmax(0, 1fr) 48px; gap: 6px 18px; align-items: start; padding: 22px 12px 22px 0; margin: 0 -12px 0 0;
+    border-bottom: 1px dashed rgb(var(--ink-rgb) / 0.28); text-decoration: none; border-radius: 2px; transition: background-color var(--t2) var(--ease); }
+  .splan__row:hover { background: rgb(var(--ink-rgb) / 0.045); }
+  .splan__no { display: grid; place-items: center; width: 2.4rem; height: 2.4rem; margin-top: 2px; border-radius: 50%; box-shadow: inset 0 0 0 2px var(--paint);
+    font-family: var(--font-display); font-weight: 800; font-stretch: 108%; font-size: 0.9rem; transition: background-color var(--t2) var(--ease); }
+  .splan__row:hover .splan__no, .splan__row:focus-visible .splan__no { background: var(--paint); }
+  .splan__main { display: grid; gap: 6px; }
+  .splan__name { font-size: clamp(1.4rem, 1.1rem + 1.1vw, 2.1rem); font-weight: 790; font-stretch: 112%; letter-spacing: -0.03em; line-height: 1.04; }
+  .splan__row:hover .splan__name { text-decoration: underline; text-decoration-color: var(--paint); text-decoration-thickness: 3px; text-underline-offset: 0.14em; }
+  .splan__short { color: var(--ink-2); }
+  .splan__under { display: block; margin-top: 4px; font-size: var(--fs-small); color: var(--ink-2); max-width: 54ch; }
+  .splan__under .label { display: block; margin-bottom: 2px; }
+  .splan__meta { display: flex; flex-wrap: wrap; gap: 4px 0; margin-top: 6px; font-size: 0.82rem; color: var(--ink-3); }
+  .splan__meta span + span::before { content: '·'; margin: 0 8px; }
+  .splan__go { align-self: center; width: 48px; height: 48px; border-radius: 50%; display: grid; place-items: center; box-shadow: inset 0 0 0 1.5px var(--line);
+    transition: background-color var(--t2) var(--ease), box-shadow var(--t2) var(--ease); }
+  .splan__row:hover .splan__go, .splan__row:focus-visible .splan__go { background: var(--paint); box-shadow: none; }
+
+  .splan__fig { margin: 0; position: sticky; top: calc(var(--header-h) + 24px); padding: clamp(14px, 2vw, 22px); border-radius: var(--r-panel); background: var(--ground-2); view-timeline: --splan block; }
+  .splan__svg { width: 100%; height: auto; max-height: calc(100svh - var(--header-h) - 120px); overflow: visible; }
+  .splan__cap { display: grid; gap: 4px; margin-top: 12px; font-size: 0.85rem; color: var(--ink-2); }
+  .splan__cap .label { margin: 0; }
+
+  .splan text { font-family: var(--font-display); font-stretch: 78%; font-weight: 650; text-transform: uppercase; letter-spacing: 0.12em; }
+  .splan__txt { font-size: 12px; fill: var(--ink-3); }
+  .splan__fence { fill: none; stroke: rgb(var(--ink-rgb) / 0.55); stroke-width: 2; stroke-dasharray: 1 5; stroke-linecap: round; }
+  .splan__prop { fill: none; stroke: rgb(var(--ink-rgb) / 0.3); stroke-width: 1.2; stroke-dasharray: 10 4 2 4; }
+  .splan__ticks { fill: none; stroke: rgb(var(--ink-rgb) / 0.08); stroke-width: 1; stroke-linecap: round; }
+  .splan__solid { fill: var(--ground-2); }
+  .splan__hard { stroke: rgb(var(--ink-rgb) / 0.3); stroke-width: 1; }
+  .splan__house { stroke: rgb(var(--ink-rgb) / 0.55); stroke-width: 1.6; }
+  .splan__gate, .splan__curb { fill: none; stroke: rgb(var(--ink-rgb) / 0.45); stroke-width: 1.4; }
+  .splan__gate { stroke-width: 2.2; }
+  .splan__lane { fill: none; stroke: rgb(var(--ink-rgb) / 0.3); stroke-width: 1.4; stroke-dasharray: 12 10; }
+  .splan__zone { cursor: pointer; }
+  .splan__turf { fill: none; stroke: rgb(var(--ink-rgb) / 0.2); stroke-width: 1; stroke-linecap: round; }
+  .splan__tint { fill: rgb(var(--paint-rgb) / 0.2); opacity: 0; transition: opacity var(--t2) var(--ease); }
+  .splan__outline { fill: none; stroke: var(--paint); stroke-width: 2.4; stroke-linejoin: round; transition: stroke-width var(--t2) var(--ease); }
+  .splan__zone:hover .splan__tint { opacity: 1; }
+  .splan__zone:hover .splan__outline { stroke-width: 3.4; }
+  .splan__badge circle { fill: var(--ground-2); stroke: var(--ink); stroke-width: 1.6; transition: fill var(--t2) var(--ease), stroke var(--t2) var(--ease); }
+  .splan__zone:hover .splan__badge circle { fill: var(--paint); stroke: var(--paint); }
+  .splan__badge text { font-size: 11.5px; font-weight: 800; font-stretch: 100%; letter-spacing: 0; fill: var(--ink); }
+  .splan__detail { fill: none; stroke: rgb(var(--ink-rgb) / 0.6); stroke-width: 1.4; pointer-events: none; }
+  .splan__cup { fill: var(--ink); pointer-events: none; }
+  .splan__flag { fill: var(--paint); pointer-events: none; }
+  .splan__paw { fill: rgb(var(--ink-rgb) / 0.55); pointer-events: none; }
+
+  @media (prefers-reduced-motion: no-preference) {
+    @supports (animation-timeline: view()) and (timeline-scope: --a) {
+      @keyframes splan-draw { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
+      .splan__outline { stroke-dasharray: 1; animation: splan-draw linear both; animation-timeline: --splan; }
+    }
+  }
+  @media (max-width: 899px) {
+    .splan { grid-template-columns: 1fr; }
+    .splan__fig { position: static; order: -1; }
+    .splan__svg { max-height: none; }
+    .splan__row { grid-template-columns: 2.6rem minmax(0, 1fr); padding-right: 0; margin-right: 0; }
+    .splan__go { display: none; }
+  }
+</style>
