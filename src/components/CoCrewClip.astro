@@ -1,0 +1,85 @@
+---
+/**
+ * The crew clip, as the homepage builds it (index.astro "Who shows up"): /media/crew-power-broom.mp4 over the
+ * 'crew' photograph as its poster. The video is preload="none" and plays only while it is on screen — never
+ * under reduced motion, never on Save-Data, and with JS off the photograph simply stays. The frame is Brian's
+ * own (photos.ts 'crew'); the record line is the photo's own caption and place, never a claim.
+ */
+import Photo from './Photo.astro';
+import { photo } from '../data/photos';
+
+interface Props {
+  /** annotation above the record line */
+  label?: string;
+  sizes?: string;
+  class?: string;
+}
+const { label = 'On the job', sizes = '(max-width: 899px) 90vw, 36vw', class: cls } = Astro.props;
+const crew = photo('crew');
+---
+<figure class:list={['co-clip', cls]} data-co-clip-fig>
+  <div class="co-clip__frame">
+    <video class="co-clip__video" muted playsinline loop preload="none" data-co-clip aria-label={crew.alt} width="540" height="960">
+      <source src="/media/crew-power-broom.mp4" type="video/mp4" />
+    </video>
+    <Photo photo={crew} sizes={sizes} widths={[480, 800]} class="co-clip__poster" />
+    <span class="co-clip__tag" aria-hidden="true"><span class="co-clip__dot"></span>Job clip</span>
+    <button class="co-clip__toggle" type="button" data-co-clip-toggle aria-label="Pause the clip" hidden>Pause</button>
+  </div>
+  <figcaption><span class="label">{label}</span>{crew.caption} — {crew.place}</figcaption>
+</figure>
+
+<style>
+  .co-clip { margin: 0; position: relative; }
+  .co-clip__frame { position: relative; border-radius: var(--r-panel); overflow: hidden; background: var(--slab); }
+  .co-clip__video, .co-clip__frame :global(.co-clip__poster) { display: block; width: 100%; aspect-ratio: 9 / 16; max-height: 78vh; object-fit: cover; }
+  .co-clip__video { position: absolute; inset: 0; height: 100%; z-index: 1; opacity: 0; transition: opacity var(--t4) var(--ease); }
+  .co-clip__video[data-playing] { opacity: 1; }
+  .co-clip__tag { position: absolute; z-index: 2; left: 14px; top: 14px; display: inline-flex; align-items: center; gap: 8px; padding: 6px 10px;
+    border-radius: var(--r-chip); background: rgb(19 18 15 / 0.62); color: var(--bone);
+    font-family: var(--font-display); font-stretch: 78%; font-weight: 650; font-size: 0.7rem; letter-spacing: 0.16em; text-transform: uppercase; }
+  @supports (backdrop-filter: blur(1px)) { .co-clip__tag { backdrop-filter: blur(8px); } }
+  .co-clip__dot { width: 7px; height: 7px; border-radius: 50%; background: var(--bone-3); transition: background-color var(--t3) var(--ease); }
+  .co-clip:has([data-playing]) .co-clip__dot { background: var(--paint); }
+  .co-clip__toggle { position: absolute; z-index: 2; right: 12px; bottom: 12px; min-width: 64px; min-height: 44px; padding: 0 16px; border: 0; border-radius: var(--r-chip);
+    background: rgb(19 18 15 / 0.62); color: var(--bone); cursor: pointer; font-family: var(--font-display); font-weight: 700; font-stretch: 100%; font-size: 0.88rem;
+    transition: background-color var(--t2) var(--ease), transform var(--t1) var(--ease); }
+  @supports (backdrop-filter: blur(1px)) { .co-clip__toggle { backdrop-filter: blur(8px); } }
+  .co-clip__toggle:hover { background: rgb(19 18 15 / 0.82); }
+  .co-clip__toggle:active { transform: scale(0.97); }
+  .co-clip__toggle[hidden] { display: none; }
+  .co-clip figcaption { display: grid; gap: 4px; margin-top: 12px; font-size: var(--fs-small); color: var(--ink-2); }
+  :global(.on-slab) .co-clip figcaption { color: var(--bone-2); }
+</style>
+
+<script>
+  /* Plays only while on screen; never under reduced motion or Save-Data. Mirrors the homepage clip, plus a
+     Pause/Play control (it loops, so a visitor must be able to stop it — WCAG 2.2.2). A pause is remembered:
+     scrolling away and back doesn't restart a clip someone stopped. */
+  const conn = (navigator as Navigator & { connection?: { saveData?: boolean } }).connection;
+  const calm = matchMedia('(prefers-reduced-motion: reduce)').matches || conn?.saveData;
+  if ('IntersectionObserver' in window && !calm) {
+    document.querySelectorAll<HTMLElement>('[data-co-clip-fig]').forEach((fig) => {
+      const v = fig.querySelector<HTMLVideoElement>('[data-co-clip]');
+      const btn = fig.querySelector<HTMLButtonElement>('[data-co-clip-toggle]');
+      if (!v) return;
+      let held = false; // the visitor paused it
+      const label = () => {
+        if (!btn) return;
+        const on = !v.paused;
+        btn.textContent = on ? 'Pause' : 'Play';
+        btn.setAttribute('aria-label', on ? 'Pause the clip' : 'Play the clip');
+      };
+      const start = () => {
+        if (v.preload !== 'auto') { v.preload = 'auto'; v.load(); }
+        v.play().then(() => { v.setAttribute('data-playing', ''); if (btn) btn.hidden = false; label(); }).catch(() => {});
+      };
+      new IntersectionObserver(([e]) => {
+        if (e.isIntersecting) { if (!held) start(); } else { v.pause(); label(); }
+      }, { threshold: 0.35 }).observe(v);
+      btn?.addEventListener('click', () => {
+        if (v.paused) { held = false; start(); } else { held = true; v.pause(); label(); }
+      });
+    });
+  }
+</script>

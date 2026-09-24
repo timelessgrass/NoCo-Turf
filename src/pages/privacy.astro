@@ -1,0 +1,152 @@
+---
+/**
+ * /privacy/ — DRAFT FOR OWNER REVIEW. Plain English, and accurate to what the site does TODAY:
+ *   - static Astro site on Netlify (server logs); fonts, photos and the clip are self-hosted — no third-party
+ *     requests while reading (Base.astro loads no outside script, font or embed)
+ *   - no cookies of its own, no advertising cookies, no analytics installed (Plausible is planned —
+ *     decisions/2026-09-24-stack-and-urls.md; this page must name it before it is switched on)
+ *   - the estimate form → POST /.netlify/functions/lead → Make webhook (NOCO_LEAD_WEBHOOK) → email to NoCo +
+ *     a record (the TTM portal). The function stores nothing and logs failures without PII (lead.mjs).
+ *     Fields per docs/CONTRACTS.md "Lead path"; `page` and `elapsed_ms` are added by the page; `company` is
+ *     the honeypot.
+ *   - SMS only when the visitor picks Text as contact_pref.
+ * Lines marked "Owner to confirm" are decisions only NoCo can make (retention, referrals outside the area).
+ * No invented address or email: contact is the phone (brief) and the form.
+ */
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import CoLegal from '../components/CoLegal.astro';
+import CtaBand from '../components/CtaBand.astro';
+import PaintWord from '../components/PaintWord.astro';
+import brief, { fact, businessName, legalName, phoneHref, phoneDisplay } from '../data/brief';
+
+const name = businessName ?? 'NoCo Turf Co.';
+const legal = legalName ?? 'NOCO Turf Co. LLC';
+const reg = fact<{ sos_id: string; lookup_url: string }>(brief.identity?.registration);
+const DATED = 'September 24, 2026';
+
+const sections = [
+  { id: 'who', title: 'Who this covers' },
+  { id: 'reading', title: 'Reading the site' },
+  { id: 'cookies', title: 'Cookies and analytics' },
+  { id: 'form', title: 'The estimate form' },
+  { id: 'texts', title: 'Calls and texts' },
+  { id: 'who-sees', title: 'Who sees your request' },
+  { id: 'keeping', title: 'How long it’s kept' },
+  { id: 'choices', title: 'Seeing or deleting it' },
+  { id: 'links', title: 'Other sites' },
+  { id: 'changes', title: 'Changes to this page' },
+];
+const call = phoneHref ? { href: phoneHref, label: phoneDisplay } : null;
+const crumbs = [{ name: 'Privacy', path: '/privacy/' }];
+---
+<Base
+  title="Privacy: What This Site Collects and Where It Goes | NoCo Turf Co."
+  description="What nocoturf.com collects and why, in plain English: no ad cookies, no analytics yet, and an estimate form that emails your answers to NoCo Turf Co."
+  crumbs={crumbs}
+  draft
+>
+  <PageHero label="Privacy · Draft for owner review" crumbs={crumbs} compact lede={`How ${name}’s website handles what you type into it — written to match what the site actually does today.`}>
+    What happens to what you type into this site, in <PaintWord now>plain English.</PaintWord>
+  </PageHero>
+
+  <CoLegal sections={sections} dated={DATED} what="This privacy page was drafted by the studio that built the site, to describe how the site works today.">
+    <div class="co-tldr">
+      <p class="label">The short version</p>
+      <ul>
+        <li>Reading the site sends only what every browser sends to any website.</li>
+        <li>No advertising cookies, and no analytics installed.</li>
+        <li>The estimate form sends your answers to {name} — nothing is sold.</li>
+        <li>Texts only if you ask for a text.</li>
+        {call && <li>Questions? Call <a href={call.href} data-cta="privacy-tldr-call">{call.label}</a>.</li>}
+      </ul>
+    </div>
+
+    <section id="who" aria-labelledby="who-h">
+      <h2 id="who-h">This page covers this website and its estimate form.</h2>
+      <p>This website, www.nocoturf.com, is run by {name} — the trading name of {legal}, a Colorado limited liability company{reg && <> (<a href={reg.lookup_url} rel="noopener">Colorado Secretary of State ID {reg.sos_id}</a>)</>}. On this page, {name} is “we” and “us”.</p>
+      <p>It covers what happens when you read the site and when you send the estimate form. It doesn’t cover the Google, Facebook or Instagram pages we link to — those companies’ own policies apply there.</p>
+      <p>The site is meant for adults planning work on a property. It isn’t aimed at children under 13, and we don’t knowingly collect their information.</p>
+    </section>
+
+    <section id="reading" aria-labelledby="reading-h">
+      <h2 id="reading-h">Reading the site sends only what every web request sends.</h2>
+      <p>This is a static website hosted by <a href="https://www.netlify.com/privacy/" rel="noopener">Netlify</a>. Like any web host, Netlify’s servers receive the technical details your browser sends with each request — your IP address, browser and device type, the page asked for, the page you came from and the time — and keep them in server logs to deliver the site and protect it from abuse.</p>
+      <p>The fonts, photographs and the job clip are served from this site itself. Reading a page doesn’t load anything from Google, Facebook or an advertising network.</p>
+    </section>
+
+    <section id="cookies" aria-labelledby="cookies-h">
+      <h2 id="cookies-h">No advertising cookies, and no analytics yet.</h2>
+      <p>This site doesn’t set advertising or tracking cookies, and its pages don’t need cookies to work.</p>
+      <p>There are no analytics installed today: nothing counts your visits or follows you from page to page. If {name} adds a visitor-counting tool later, this page will be updated to name it and say what it records.</p>
+    </section>
+
+    <section id="form" aria-labelledby="form-h">
+      <h2 id="form-h">The estimate form sends your answers to {name} by email.</h2>
+      <p>When you press <strong>Book a yard walk</strong> on the form, it sends:</p>
+      <dl>
+        <dt>Your answers</dt>
+        <dd>What the yard is for, your town, your ZIP code if you add it, the rough size, whether there’s an HOA, and the timing.</dd>
+        <dt>How to reach you</dt>
+        <dd>Your name, phone number, email if you add it, whether you’d like a call or a text, and how you heard about us if you say.</dd>
+        <dt>Two things the page adds</dt>
+        <dd>The address of the page you sent it from, and how long the form was open — a simple check that a person, not a program, filled it in.</dd>
+      </dl>
+      <p>There’s also a hidden box that people never see. If something fills it in, the request is treated as spam and isn’t passed on.</p>
+      <h3>How it travels</h3>
+      <p>The form goes to a small program on Netlify’s servers (a Netlify Function), which passes it to <a href="https://www.make.com/en/privacy-notice" rel="noopener">Make</a>, an automation service. Make emails the request to {name} and keeps a record of it so it can be followed up.</p>
+      <p>The Netlify function doesn’t store your answers. If a request can’t be passed on, it logs that the send failed — without your details — and the page asks you to call instead, so nothing is lost without you knowing.</p>
+      <p>There’s no file upload, no account and no payment anywhere on this site.</p>
+    </section>
+
+    <section id="texts" aria-labelledby="texts-h">
+      <h2 id="texts-h">We text you only if you ask for a text.</h2>
+      <p>If you choose <strong>Text</strong> as the way you’d like to be reached, {name} may text the number you gave about your request. Your carrier’s message and data rates may apply. If you’d rather not get texts, say so and we’ll call instead.</p>
+      <p>Your number is used to reach you about the project you asked about. It isn’t added to a marketing list or sold.</p>
+    </section>
+
+    <section id="who-sees" aria-labelledby="who-sees-h">
+      <h2 id="who-sees-h">Your request is seen by {name} and the services that carry it.</h2>
+      <ul>
+        <li><strong>{name}</strong>, to follow up on your project.</li>
+        <li><strong>Netlify and Make</strong>, which carry and store the request as described above, under their own privacy policies.</li>
+        <li><strong>The studio that maintains this website</strong> for {name} and runs its lead system.</li>
+      </ul>
+      <p>{name} doesn’t sell or rent your information and doesn’t share it with advertisers. We may disclose information when the law requires it.</p>
+      <p>If you’re outside the towns {name} works in, we may pass your request to an installer who works where you are, so you still get an answer. <span class="co-confirm">Owner to confirm</span></p>
+    </section>
+
+    <section id="keeping" aria-labelledby="keeping-h">
+      <h2 id="keeping-h">Requests are kept as business records.</h2>
+      <p>{name} keeps estimate requests for as long as it needs them to follow up on your project and keep its business records, then deletes them. <span class="co-confirm">Owner to confirm</span></p>
+      <p>Netlify’s server logs are kept for Netlify’s own retention period, not ours.</p>
+    </section>
+
+    <section id="choices" aria-labelledby="choices-h">
+      <h2 id="choices-h">You can ask what we have, and ask us to delete it.</h2>
+      <p>{call ? <>Call <a href={call.href} data-cta="privacy-call">{call.label}</a></> : <>Contact us</>} to ask what {name} holds about you, to correct it, or to have it deleted. We may need to confirm it’s you first, and we may keep what the law requires us to keep.</p>
+    </section>
+
+    <section id="links" aria-labelledby="links-h">
+      <h2 id="links-h">Other sites have their own rules.</h2>
+      <p>This site links to the Colorado Secretary of State, Google, Facebook, Instagram, and the public sources behind our town pages and guides. Once you follow a link you’re on their site, and their privacy policy applies.</p>
+    </section>
+
+    <section id="changes" aria-labelledby="changes-h">
+      <h2 id="changes-h">If the site changes, this page changes with it.</h2>
+      <p>When the site starts doing something new with information — adding analytics, for example — this page will be updated and re-dated. The rules for using the site itself are on the <a href="/terms/">terms page</a>.</p>
+      <p class="co-legal-dated">Draft of {DATED}.</p>
+    </section>
+  </CoLegal>
+
+  <CtaBand
+    form={false}
+    title="Questions about any of"
+    payoff="this?"
+    lede="The quickest way to ask is a phone call. If you’re here about a yard, book a walk instead."
+  />
+</Base>
+
+<style>
+  .co-legal-dated { margin-top: 1.6em; font-size: 0.88rem; color: var(--ink-3) !important; }
+</style>

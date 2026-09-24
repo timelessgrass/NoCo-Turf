@@ -1,0 +1,127 @@
+---
+/**
+ * /terms/ — DRAFT FOR OWNER REVIEW. Plain-English terms of use for the website only, under Colorado law.
+ * No warranty statement about products or installs: any warranty is between the customer and NoCo, in writing,
+ * for their project (claims.json "NoCo's written warranty" is UNKNOWN — nothing here may imply its terms).
+ * No invented address or email; contact is the phone (brief) and the form. Business name from the brief.
+ */
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import CoLegal from '../components/CoLegal.astro';
+import CtaBand from '../components/CtaBand.astro';
+import PaintWord from '../components/PaintWord.astro';
+import brief, { fact, businessName, legalName, phoneHref, phoneDisplay } from '../data/brief';
+
+const name = businessName ?? 'NoCo Turf Co.';
+const legal = legalName ?? 'NOCO Turf Co. LLC';
+const reg = fact<{ sos_id: string; lookup_url: string }>(brief.identity?.registration);
+const DATED = 'September 24, 2026';
+
+const sections = [
+  { id: 'who', title: 'Who we are' },
+  { id: 'not-a-quote', title: 'Not a quote or a contract' },
+  { id: 'rules', title: 'Local rules and guides' },
+  { id: 'warranty', title: 'Warranties' },
+  { id: 'as-is', title: 'The site as it is' },
+  { id: 'form', title: 'Using the estimate form' },
+  { id: 'content', title: 'Photos and words' },
+  { id: 'links', title: 'Links to other sites' },
+  { id: 'liability', title: 'Limits on liability' },
+  { id: 'law', title: 'Colorado law' },
+  { id: 'changes', title: 'Changes to these terms' },
+];
+const call = phoneHref ? { href: phoneHref, label: phoneDisplay } : null;
+const crumbs = [{ name: 'Terms', path: '/terms/' }];
+---
+<Base
+  title="Terms of Use: Plain-English Rules for This Site | NoCo Turf Co."
+  description="The terms for using nocoturf.com, in plain English: what the site promises and what it doesn't, where warranties live, and why Colorado law applies to it."
+  crumbs={crumbs}
+  draft
+>
+  <PageHero label="Terms · Draft for owner review" crumbs={crumbs} compact lede={`The terms for using ${name}’s website. They cover the site — the pages, the guides and the estimate form — not the work on your yard, which is agreed separately.`}>
+    Using this site: what it promises, and <PaintWord now>what it doesn’t.</PaintWord>
+  </PageHero>
+
+  <CoLegal sections={sections} dated={DATED} what="These terms were drafted by the studio that built the site, to match how the site works today.">
+    <div class="co-tldr">
+      <p class="label">The short version</p>
+      <ul>
+        <li>The site is general information. It isn’t a quote, a contract or legal advice.</li>
+        <li>Prices, schedules and any warranty for your project are agreed with {name} in writing.</li>
+        <li>Local rules change — check with your town or HOA before you rely on a summary.</li>
+        <li>Colorado law applies.</li>
+      </ul>
+    </div>
+
+    <section id="who" aria-labelledby="who-h">
+      <h2 id="who-h">This site is run by {name} in Colorado.</h2>
+      <p>www.nocoturf.com is run by {name} — the trading name of {legal}, a Colorado limited liability company{reg && <> (<a href={reg.lookup_url} rel="noopener">Colorado Secretary of State ID {reg.sos_id}</a>)</>}. “We” and “us” here mean {name}; “you” means anyone using the site. By using the site you agree to these terms.</p>
+    </section>
+
+    <section id="not-a-quote" aria-labelledby="not-a-quote-h">
+      <h2 id="not-a-quote-h">Nothing on this site is a quote or a contract.</h2>
+      <p>The pages describe the kinds of turf work {name} does and how that work generally goes. They are not an offer. Any price, scope, material or schedule for your project is agreed with {name} directly, for your yard.</p>
+      <p>The photographs show past jobs. Your ground, your yard and your materials will differ.</p>
+    </section>
+
+    <section id="rules" aria-labelledby="rules-h">
+      <h2 id="rules-h">Summaries of local rules are a starting point, not legal advice.</h2>
+      <p>Our town pages and guides summarize Colorado law, town codes, water rules and rebates, with a link to each public source and the date it was checked. They are general information. Rules change, HOA covenants differ from one community to the next, and your property may have its own conditions.</p>
+      <p>Before you rely on a summary, confirm it with your town, your water provider or your HOA.</p>
+    </section>
+
+    <section id="warranty" aria-labelledby="warranty-h">
+      <h2 id="warranty-h">Warranties live in writing between you and {name}, not on this site.</h2>
+      <p>This website doesn’t promise anything about a product or an installation. Any warranty on turf or workmanship is a matter between you and {name} — and, for the turf itself, its manufacturer — set out in writing for your project.</p>
+    </section>
+
+    <section id="as-is" aria-labelledby="as-is-h">
+      <h2 id="as-is-h">The site is provided as it is.</h2>
+      <p>We work to keep the site accurate and working: facts about local rules and rates are dated and linked to where they came from. But we can’t promise that every page is current, complete or free of errors, or that the site will always be available. To the extent the law allows, the site is provided “as is”, without promises of any kind.</p>
+    </section>
+
+    <section id="form" aria-labelledby="form-h">
+      <h2 id="form-h">Use the estimate form for real requests.</h2>
+      <p>Please send accurate information about a property you own or are asking about with the owner’s permission. Don’t use the form to send spam, anything unlawful, or anyone else’s details without their say-so.</p>
+      <p>Sending a request doesn’t create a contract or oblige you or {name} to anything. What happens to what you send is on the <a href="/privacy/">privacy page</a>.</p>
+    </section>
+
+    <section id="content" aria-labelledby="content-h">
+      <h2 id="content-h">The photos and words are protected by copyright.</h2>
+      <p>The photographs, writing and drawings on this site are protected by copyright. You’re welcome to link to any page. Please ask before copying photos or text for use elsewhere.</p>
+    </section>
+
+    <section id="links" aria-labelledby="links-h">
+      <h2 id="links-h">Other sites are their own responsibility.</h2>
+      <p>This site links to public records, government pages, Google, Facebook and Instagram. We don’t control those sites and aren’t responsible for what they say or do; their own terms apply once you’re there.</p>
+    </section>
+
+    <section id="liability" aria-labelledby="liability-h">
+      <h2 id="liability-h">Our liability for the website is limited.</h2>
+      <p>To the fullest extent Colorado law allows, {name} isn’t liable for any loss or damage that comes from using this website or relying on its general information. Nothing in these terms limits any responsibility that the law doesn’t allow to be limited, and none of it changes any written agreement for your project.</p>
+    </section>
+
+    <section id="law" aria-labelledby="law-h">
+      <h2 id="law-h">Colorado law applies.</h2>
+      <p>These terms are governed by the laws of the State of Colorado. Any dispute about this website will be handled in the courts of Colorado. <span class="co-confirm">Owner to confirm</span></p>
+    </section>
+
+    <section id="changes" aria-labelledby="changes-h">
+      <h2 id="changes-h">If these terms change, the date changes too.</h2>
+      <p>We may update these terms as the site changes. The version on this page, with its date, is the one that applies.{call && <> Questions? Call <a href={call.href} data-cta="terms-call">{call.label}</a>.</>}</p>
+      <p class="co-legal-dated">Draft of {DATED}.</p>
+    </section>
+  </CoLegal>
+
+  <CtaBand
+    form={false}
+    title="Here about a yard, not the"
+    payoff="fine print?"
+    lede="Book a yard walk and tell us what the yard is for — or call and talk it through."
+  />
+</Base>
+
+<style>
+  .co-legal-dated { margin-top: 1.6em; font-size: 0.88rem; color: var(--ink-3) !important; }
+</style>

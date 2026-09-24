@@ -1,7 +1,113 @@
 ---
+/**
+ * 404 — and, through public/_redirects' 410 lines, the body for retired URLs too (the old Denver-metro ghost
+ * pages). Never indexed. Helpful instead of apologetic: every service, every town (on the corridor map, whose
+ * boundary note is the one place a Denver-metro name may appear), the guides and the company pages, plus the
+ * phone. No search box — the whole site is one tap from here.
+ */
 import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import CorridorMap from '../components/CorridorMap.astro';
+import PaintWord from '../components/PaintWord.astro';
+import Icon from '../components/Icon.astro';
+import { visibleServices } from '../data/services';
+import { visibleTowns, visibleGuides, townsByRegion, guideLabel } from '../lib/visible';
+import { phoneHref, phoneDisplay } from '../data/brief';
+
+const towns = await visibleTowns();
+const regions = townsByRegion(towns);
+const guides = await visibleGuides();
+const company = [
+  { href: '/work/', t: 'The work', d: 'Job photos, each marked with where it was taken' },
+  { href: '/about/', t: 'About', d: 'Who NoCo Turf Co. is, with the records to check' },
+  { href: '/contact/', t: 'Contact', d: 'Book a yard walk, or call' },
+];
 ---
-<Base title="Page not found | NoCo Turf Co." description="That page isn't here." noindex>
-  <h1>That page isn't here.</h1>
-  <p><a href="/">Go to the homepage</a></p>
+<Base
+  title="Page not found | NoCo Turf Co."
+  description="That page isn't on nocoturf.com anymore. From here: turf services, the Northern Colorado towns we cover, the rules and rebate guides, and the contact page."
+  noindex
+>
+  <PageHero label="404 · Page not found" crumbs={[{ name: 'Page not found', path: '/404/' }]} compact lede="Some old addresses changed when this site was rebuilt. Pick up where you were headed below — or call and ask.">
+    That page isn’t here. <PaintWord now>Everything else is.</PaintWord>
+    <div slot="after" class="nf-acts">
+      <a class="btn btn--ink" href="/">Go to the homepage <Icon name="arrow" /></a>
+      {phoneHref && <a class="btn btn--line" href={phoneHref} data-cta="404-call"><Icon name="phone" />Call <span class="btn__num">{phoneDisplay}</span></a>}
+    </div>
+  </PageHero>
+
+  <section class="section nf" aria-label="Where to go from here">
+    <div class="wrap nf__grid">
+      <div class="nf__lists">
+        {visibleServices.length > 0 && (
+          <nav class="nf-group" aria-labelledby="nf-svc">
+            <p class="label" id="nf-svc">Services</p>
+            <ul role="list">
+              {visibleServices.map((s) => (
+                <li><a class="nf-link" href={`/services/${s.slug}/`}><span class="nf-link__t">{s.name}</span><span class="nf-link__d">{s.short}</span><Icon name="arrow" size={18} /></a></li>
+              ))}
+            </ul>
+          </nav>
+        )}
+        {guides.length > 0 && (
+          <nav class="nf-group" aria-labelledby="nf-guides">
+            <p class="label" id="nf-guides">Guides</p>
+            <ul role="list">
+              {guides.map((g) => (
+                <li><a class="nf-link" href={`/guides/${g.id}/`}><span class="nf-link__t">{guideLabel((g.entry.data as any).title)}</span><Icon name="arrow" size={18} /></a></li>
+              ))}
+            </ul>
+          </nav>
+        )}
+        <nav class="nf-group" aria-labelledby="nf-co">
+          <p class="label" id="nf-co">Company</p>
+          <ul role="list">
+            {company.map((c) => (
+              <li><a class="nf-link" href={c.href}><span class="nf-link__t">{c.t}</span><span class="nf-link__d">{c.d}</span><Icon name="arrow" size={18} /></a></li>
+            ))}
+          </ul>
+        </nav>
+      </div>
+
+      {towns.length > 0 && (
+        <nav class="nf-towns" aria-labelledby="nf-towns">
+          <p class="label" id="nf-towns">Towns we cover</p>
+          <CorridorMap towns={towns} compact />
+          <div class="nf-towns__list">
+            {regions.map((r) => (
+              <div>
+                <p class="nf-towns__region">{r.label}</p>
+                <ul role="list">{r.towns.map((t) => <li><a href={`/areas/${t.slug}/`}>{t.name}</a></li>)}</ul>
+              </div>
+            ))}
+          </div>
+        </nav>
+      )}
+    </div>
+  </section>
 </Base>
+
+<style>
+  .nf-acts { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+  .nf__grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 0.85fr); gap: clamp(32px, 6vw, 100px); align-items: start; }
+  .nf__lists { display: grid; gap: clamp(36px, 4vw, 56px); }
+  .nf-group > .label { margin: 0 0 6px; }
+  .nf-group ul { list-style: none; border-top: 2px solid var(--ink); }
+  .nf-link { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 16px; align-items: center; min-height: 56px; padding: 12px 0;
+    border-bottom: 1px dashed rgb(var(--ink-rgb) / 0.26); text-decoration: none; transition: padding var(--t2) var(--ease); }
+  .nf-link__t { font-family: var(--font-display); font-weight: 760; font-stretch: 108%; font-size: clamp(1.15rem, 1rem + 0.6vw, 1.45rem); letter-spacing: -0.02em; line-height: 1.15; }
+  .nf-link__d { grid-column: 1; color: var(--ink-3); font-size: var(--fs-small); }
+  .nf-link :global(svg) { grid-column: 2; grid-row: 1 / span 2; color: var(--ink-3); transition: color var(--t2) var(--ease); }
+  .nf-link:hover, .nf-link:focus-visible { padding-left: 8px; }
+  .nf-link:hover :global(svg) { color: var(--ink); }
+  .nf-link:hover .nf-link__t { text-decoration: underline; text-decoration-color: var(--paint); text-decoration-thickness: 2px; text-underline-offset: 0.2em; }
+
+  .nf-towns > .label { margin: 0 0 12px; }
+  .nf-towns__list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px 24px; margin-top: 24px; }
+  .nf-towns__region { margin: 0 0 4px; font-family: var(--font-display); font-weight: 700; font-size: 0.92rem; }
+  .nf-towns__list ul { list-style: none; display: flex; flex-wrap: wrap; gap: 0 14px; }
+  .nf-towns__list a { display: inline-block; padding: 6px 0; font-size: var(--fs-small); color: var(--ink-2); text-decoration: none; }
+  .nf-towns__list a:hover { color: var(--ink); text-decoration: underline; text-decoration-color: var(--paint); }
+
+  @media (max-width: 899px) { .nf__grid { grid-template-columns: 1fr; } }
+</style>
