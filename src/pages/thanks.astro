@@ -1,15 +1,104 @@
 ---
 /**
- * Where the estimate form lands (the lead function 303s here without JavaScript). Never indexed.
+ * Where the estimate form lands (the lead function 303s here without JavaScript; the script sends people here
+ * only after { ok: true }). Never indexed.
  * The reply-time sentence renders only if Brian commits to one (brief.conversion.response_time) —
  * silence is the complaint that kills this category (research/voc.md), so no promise is invented.
+ * Next steps are limited to what's true: it went through; photos by text help; the phone is there now.
+ * (Whether 720-630-0108 takes texts is pending Brian — see the review page, which also says "call or text".)
  */
 import Base from '../layouts/Base.astro';
-import brief, { fact, phoneHref, phoneDisplay } from '../data/brief';
+import PageHero from '../components/PageHero.astro';
+import CoHead from '../components/CoHead.astro';
+import PaintWord from '../components/PaintWord.astro';
+import Icon from '../components/Icon.astro';
+import { visibleGuides, guideLabel } from '../lib/visible';
+import brief, { fact, businessName, phoneHref, phoneDisplay } from '../data/brief';
+
+const name = businessName ?? 'NoCo Turf Co.';
 const responseTime = fact<string>(brief.conversion?.response_time);
+const guides = await visibleGuides();
+const pick = ['hoa-turf-approval', 'turf-rules-northern-colorado'];
+const reads = [
+  ...pick.map((id) => guides.find((g) => g.id === id)).filter(Boolean).map((g) => ({ href: `/guides/${g!.id}/`, k: 'Guide', t: guideLabel((g!.entry.data as any).title) })),
+  { href: '/work/', k: 'Photos', t: 'The work, job by job' },
+  { href: '/about/', k: 'Company', t: `Who ${name} is` },
+];
+/* Step numbers after the ✓ — the reply-time step exists only when Brian commits to one. */
+const n = { reply: 2, photos: responseTime ? 3 : 2, call: (responseTime ? 3 : 2) + (phoneDisplay ? 1 : 0) };
+const crumbs = [{ name: 'Thanks', path: '/thanks/' }];
 ---
-<Base title="Thanks — we've got your request | NoCo Turf Co." description="Your estimate request was sent." noindex>
-  <h1>Thanks — we've got your request.</h1>
-  {responseTime ? <p>{responseTime}</p> : <Fragment set:html="<!-- reply time not rendered: Brian has not committed to one -->" />}
-  {phoneHref && <p>Rather talk now? <a href={phoneHref} data-cta="thanks-call">{phoneDisplay}</a></p>}
+<Base
+  title="Thanks — we've got your request | NoCo Turf Co."
+  description="Your yard walk request reached NoCo Turf Co. Here's what happens next, how to send photos of the yard by text, and the number to call if you'd rather talk now."
+  noindex
+  crumbs={crumbs}
+>
+  <PageHero label="Request sent" crumbs={crumbs} compact lede={`Your answers went through to ${name}, along with how you’d like to be reached.`}>
+    Thanks — <PaintWord now>we’ve got your request.</PaintWord>
+  </PageHero>
+
+  <section class="section th" aria-labelledby="th-h">
+    <div class="wrap th__grid">
+      <div>
+        <CoHead label="What’s useful now" id="th-h">It’s sent. Here’s what helps from here.</CoHead>
+        <ol class="th-steps" role="list">
+          <li class="th-step th-step--done">
+            <span class="th-step__n" aria-hidden="true"><Icon name="check" size={20} /></span>
+            <div><strong>It’s with {name} now.</strong> Nothing else to fill in — you only reach this page once the request has gone through.</div>
+          </li>
+          {responseTime
+            ? <li class="th-step"><span class="th-step__n num" aria-hidden="true">{n.reply}</span><div><strong>{responseTime}</strong></div></li>
+            : <Fragment set:html="<!-- reply time not rendered: Brian has not committed to one -->" />}
+          {phoneDisplay && (
+            <li class="th-step">
+              <span class="th-step__n num" aria-hidden="true">{n.photos}</span>
+              <div><strong>Photos help.</strong> Text a few pictures of the yard to <span class="num th-num">{phoneDisplay}</span> — the whole space, plus anywhere it meets a fence, patio or driveway. That’s where the edges go.</div>
+            </li>
+          )}
+          {phoneHref && (
+            <li class="th-step">
+              <span class="th-step__n num" aria-hidden="true">{n.call}</span>
+              <div><strong>Rather talk now?</strong> <a href={phoneHref} data-cta="thanks-call">Call {phoneDisplay}</a>.</div>
+            </li>
+          )}
+        </ol>
+      </div>
+
+      <aside class="th-read" aria-labelledby="read-h">
+        <p class="label" id="read-h">While you wait</p>
+        <ul role="list">
+          {reads.map((r) => (
+            <li><a class="th-read__link" href={r.href}><span class="label">{r.k}</span><span class="th-read__t">{r.t}</span><Icon name="arrow" size={18} /></a></li>
+          ))}
+        </ul>
+      </aside>
+    </div>
+  </section>
 </Base>
+
+<style>
+  .th__grid { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(280px, 0.75fr); gap: clamp(32px, 6vw, 110px); align-items: start; }
+  .th-steps { list-style: none; display: grid; gap: 0; max-width: 60ch; }
+  .th-step { display: grid; grid-template-columns: 44px 1fr; gap: 18px; align-items: start; padding: 22px 0; border-top: 1px dashed rgb(var(--ink-rgb) / 0.26); color: var(--ink-2); }
+  .th-step:last-child { border-bottom: 1px dashed rgb(var(--ink-rgb) / 0.26); }
+  .th-step strong { display: block; margin-bottom: 4px; color: var(--ink); font-family: var(--font-display); font-weight: 760; font-stretch: 106%; font-size: 1.2rem; letter-spacing: -0.02em; }
+  .th-step a { color: var(--ink); font-weight: 650; text-decoration-color: var(--paint); text-decoration-thickness: 2px; }
+  .th-step__n { width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center; box-shadow: inset 0 0 0 1.5px var(--line); color: var(--ink);
+    font-family: var(--font-display); font-weight: 800; font-size: 1rem; }
+  .th-step--done .th-step__n { background: var(--paint); box-shadow: none; }
+  .th-num { font-weight: 650; color: var(--ink); white-space: nowrap; }
+
+  .th-read { padding: clamp(20px, 2.4vw, 28px); border-radius: var(--r-panel); background: var(--ground-2); }
+  .th-read > .label { margin: 0 0 8px; }
+  .th-read ul { list-style: none; display: grid; }
+  .th-read__link { display: grid; grid-template-columns: 1fr auto; grid-template-rows: auto auto; gap: 2px 12px; align-items: center; padding: 14px 0; min-height: 44px;
+    border-top: 1px solid var(--line); text-decoration: none; }
+  .th-read li:first-child .th-read__link { border-top: 0; }
+  .th-read__link .label { grid-column: 1; }
+  .th-read__t { grid-column: 1; font-family: var(--font-display); font-weight: 700; font-stretch: 104%; font-size: 1.05rem; letter-spacing: -0.01em; line-height: 1.25; }
+  .th-read__link :global(svg) { grid-column: 2; grid-row: 1 / span 2; transition: color var(--t2) var(--ease); color: var(--ink-3); }
+  .th-read__link:hover .th-read__t { text-decoration: underline; text-decoration-color: var(--paint); text-decoration-thickness: 2px; text-underline-offset: 0.2em; }
+  .th-read__link:hover :global(svg) { color: var(--ink); }
+  @media (max-width: 899px) { .th__grid { grid-template-columns: 1fr; } }
+</style>

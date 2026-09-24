@@ -11,16 +11,67 @@
  *
  * The link renders only when the brief carries the GBP place ID as a renderable fact
  * (identity.gbp_place_id). Custom g.page/<name>/review short links are deprecated — use writereview.
+ *
+ * Restyle 2026-09-24 (build/company): layout and words only — the logic above is unchanged.
  */
 import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import PaintWord from '../components/PaintWord.astro';
+import Icon from '../components/Icon.astro';
 import brief, { fact, businessName, phoneHref, phoneDisplay } from '../data/brief';
 const placeId = fact<string>(brief.identity?.gbp_place_id);
 const reviewUrl = placeId ? `https://search.google.com/local/writereview?placeid=${encodeURIComponent(placeId)}` : null;
+const name = businessName ?? 'NoCo Turf Co.';
+const crumbs = [{ name: 'Leave a review', path: '/review/' }];
 ---
-<Base title={`Leave a review | ${businessName ?? 'NoCo Turf Co.'}`} description="Tell others how your turf project went." noindex>
-  <h1>How did your project go?</h1>
-  {reviewUrl
-    ? <p><a href={reviewUrl} rel="noopener" data-cta="review-google">Leave a review on Google</a></p>
-    : <Fragment set:html="<!-- review link not rendered: identity.gbp_place_id is not a renderable fact in .site/truth/brief.json -->" />}
-  {phoneHref && <p>Questions about your turf, or anything that needs attention? Call or text <a href={phoneHref} data-cta="review-call">{phoneDisplay}</a>.</p>}
+<Base
+  title={`Leave a review | ${businessName ?? 'NoCo Turf Co.'}`}
+  description={`Had turf put in by ${name}? Leave a review on Google with the same link we give everyone, good or bad, and call or text us if anything needs attention.`}
+  noindex
+  crumbs={crumbs}
+>
+  <PageHero label="Reviews" crumbs={crumbs} compact lede={`If ${name} put in your turf, a review on Google helps the next homeowner decide. Good, bad or in between — everyone gets this same link.`}>
+    How did your <PaintWord now>project go?</PaintWord>
+  </PageHero>
+
+  <section class="section rv" aria-label="Leave a review">
+    <div class="wrap rv__grid">
+      <div class="rv-card">
+        <svg class="rv-card__mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 27.5C5 14 12 5.5 27 5" /></svg>
+        <p class="label">On Google</p>
+        {reviewUrl
+          ? <a class="btn btn--paint rv-card__btn" href={reviewUrl} rel="noopener" data-cta="review-google">Leave a review on Google <Icon name="external" /></a>
+          : <Fragment set:html="<!-- review link not rendered: identity.gbp_place_id is not a renderable fact in .site/truth/brief.json -->" />}
+        <p class="rv-card__fine">It opens Google’s own review form for {name} — no star question first, and nobody gets a different link.</p>
+      </div>
+
+      {phoneHref && (
+        <div class="rv-side">
+          <p class="label">Something to fix?</p>
+          <p class="rv-side__txt">Questions about your turf, or anything that needs attention? Call or text <a href={phoneHref} data-cta="review-call">{phoneDisplay}</a>.</p>
+        </div>
+      )}
+    </div>
+  </section>
 </Base>
+
+<style>
+  .rv__grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr); gap: clamp(20px, 4vw, 64px); align-items: start; }
+  .rv-card { position: relative; padding: clamp(28px, 4vw, 56px); border-radius: var(--r-panel); background: var(--slab); color: var(--bone); overflow: hidden; }
+  .rv-card__mark { position: absolute; right: clamp(-40px, -2vw, -12px); bottom: clamp(-60px, -3vw, -20px); width: clamp(180px, 22vw, 300px); height: auto; opacity: 0.9; }
+  .rv-card__mark path { fill: none; stroke: var(--paint); stroke-width: 3; stroke-linecap: round; }
+  .rv-card .label { color: var(--bone-3); margin: 0 0 18px; position: relative; }
+  .rv-card__btn { position: relative; min-height: 60px; font-size: 1.12rem; padding: 0 28px; }
+  .rv-card__fine { position: relative; margin: 22px 0 0; max-width: 40ch; color: var(--bone-2); font-size: var(--fs-small); }
+
+  .rv-side { padding: clamp(22px, 3vw, 36px) 0; border-top: 2px solid var(--ink); }
+  .rv-side .label { margin: 0 0 10px; }
+  .rv-side__txt { margin: 0; color: var(--ink-2); font-size: var(--fs-lede); line-height: 1.5; max-width: 34ch; }
+  .rv-side__txt a { color: var(--ink); font-weight: 650; white-space: nowrap; text-decoration-color: var(--paint); text-decoration-thickness: 2px; }
+
+  @media (max-width: 899px) {
+    .rv__grid { grid-template-columns: 1fr; }
+    .rv-card__btn { width: 100%; white-space: normal; text-align: center; }
+    .rv-card__mark { width: 150px; opacity: 0.5; }
+  }
+</style>

@@ -1,0 +1,315 @@
+---
+/**
+ * /about/ — who NoCo Turf Co. is, built ONLY from renderable brief facts:
+ *   owner         identity.owners[0]                 CLIENT_STATED  ("Brian"; surname not stated — never use the
+ *                                                                   registered agent's name as the owner's)
+ *   Brian's words identity.founder_experience_years  CLIENT_STATED  (the founder's years, never the company's)
+ *                 services[kind=client_statement]    CLIENT_STATED  (verbatim, attributed, dated)
+ *   the company   identity.legal_name + registration VERIFIED       (Colorado SOS, with its lookup link)
+ *   profiles      identity.social_profiles           EXTERNAL_SOURCE
+ *   territory     src/data/territory.mjs (visibleTowns) — the corridor map
+ * Deliberately absent until Brian supplies them: a founding story, crew size, years in business, insurance,
+ * licences, warranty, "based in Windsor" (claims.json — not approved). Each hole ships empty, not filled.
+ */
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import CoHead from '../components/CoHead.astro';
+import CoCrewClip from '../components/CoCrewClip.astro';
+import CorridorMap from '../components/CorridorMap.astro';
+import CtaBand from '../components/CtaBand.astro';
+import Photo from '../components/Photo.astro';
+import PaintWord from '../components/PaintWord.astro';
+import Icon from '../components/Icon.astro';
+import { PHOTOS, photo, monthLabel } from '../data/photos';
+import { visibleTowns } from '../lib/visible';
+import brief, { fact, businessName, legalName, phoneHref, phoneDisplay, socialProfiles } from '../data/brief';
+
+const name = businessName ?? 'NoCo Turf Co.';
+const owner = fact<string>(brief.identity?.owners?.[0]);
+const years = fact<number>(brief.identity?.founder_experience_years);
+const yearsSaid = brief.identity?.founder_experience_years?.date as string | undefined;
+/* The quote itself, verbatim from the fact's own source line — never rebuilt from the number, so a changed
+   number can't put words in Brian's mouth. Split so the payoff ("13 years.") takes the painted line. */
+const curly = (s: string) => s.replace(/'/g, '’');
+const yearsQuote = years ? (String(brief.identity?.founder_experience_years?.source_detail ?? '').match(/[“"]([^”"]+)[”"]/)?.[1] ?? null) : null;
+const yearsParts = yearsQuote?.match(/^(.*?)(\d+ years\.?)$/) ?? null;
+const reg = fact<{ sos_id: string; formed: string; standing: string; lookup_url: string }>(brief.identity?.registration);
+const regChecked = brief.identity?.registration?.date as string | undefined;
+
+/* Brian's own statements, verbatim from the brief (services[].kind === 'client_statement'). */
+const said = ((brief.services ?? []) as any[])
+  .filter((s) => s?.kind === 'client_statement')
+  .map((s) => ({ text: fact<string>(s.statement), date: s.statement?.date as string | undefined }))
+  .filter((q): q is { text: string; date: string | undefined } => Boolean(q.text));
+
+const gbp = socialProfiles.find((p) => p.network === 'Google Business Profile');
+const fb = socialProfiles.find((p) => p.network === 'Facebook');
+const ig = socialProfiles.find((p) => p.network === 'Instagram');
+const igHandle = ig ? `@${ig.url.replace(/\/+$/, '').split('/').pop()}` : null;
+
+const towns = await visibleTowns();
+const WORDS = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty'];
+const word = (n: number) => WORDS[n] ?? String(n);
+const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
+
+const fmtDay = (d?: string) => (d ? new Date(`${d}T12:00:00Z`).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' }) : '');
+const fmtShort = (d?: string) => (d ? new Date(`${d}T12:00:00Z`).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' }) : '');
+const fmtMonth = (d?: string) => (d ? monthLabel(d.slice(0, 7)) : '');
+const formedMonth = reg ? fmtMonth(reg.formed) : '';
+
+const hero = photo('rock-border');
+const jobs = ['fire-pit', 'dusk', 'side-yard'].map(photo);
+const PHOTO_COUNT = PHOTOS.length;
+
+const crumbs = [{ name: 'About', path: '/about/' }];
+const title = owner ? `About ${owner}'s Turf Company in Northern Colorado | NoCo Turf Co.` : 'About Us: Artificial Turf in Northern Colorado | NoCo Turf Co.';
+const description = `${name} is ${owner ? `${owner}'s` : 'a'} turf company: registered in Colorado, working ${towns.length} towns from Wellington to Longmont, with real job photos. Check the record yourself.`;
+---
+<Base
+  title={title}
+  description={description}
+  crumbs={crumbs}
+  draft
+>
+  <PageHero
+    label={`About ${name}`}
+    crumbs={crumbs}
+    photo={hero}
+    lede={`${name} is ${owner ? `${owner}’s` : 'a'} turf company, putting artificial turf into yards across Northern Colorado — ${word(towns.length)} towns from Wellington to Longmont. This page sticks to records you can check and things ${owner ?? 'the owner'} has said himself.`}
+  >
+    A turf company you can <PaintWord now>check</PaintWord> before anyone walks your yard.
+    <div slot="after" class="ab-hero__acts">
+      {phoneHref && <a class="btn btn--ink" href={phoneHref} data-cta="about-call"><Icon name="phone" />Call <span class="btn__num">{phoneDisplay}</span></a>}
+      <a class="btn btn--line" href="/work/">See the work <Icon name="arrow" /></a>
+    </div>
+  </PageHero>
+
+  <!-- The owner, in his own words — verbatim from the brief, attributed and dated. -->
+  {owner && (
+    <section class="section ab-owner" aria-labelledby="owner-h">
+      <div class="wrap ab-owner__grid">
+        <CoHead label="The owner" id="owner-h">{owner}, in his own words.</CoHead>
+        <div class="ab-owner__body">
+          {yearsParts && (
+            <blockquote class="ab-quote rise">
+              <p>“{curly(yearsParts[1])}<PaintWord>{yearsParts[2]}</PaintWord>”</p>
+              <footer><span>{owner}, owner of {name}</span><span class="ab-quote__when">on a call with the studio that builds this site · {fmtMonth(yearsSaid)}</span></footer>
+            </blockquote>
+          )}
+          {yearsParts && reg && (
+            <p class="ab-owner__note">Those years are {owner}’s own, in turf. The company on the state record, {legalName ?? 'NOCO Turf Co. LLC'}, was formed in {formedMonth}.</p>
+          )}
+          {said.length > 0 && (
+            <div class="ab-said">
+              {said.map((q) => (
+                <blockquote class="ab-quote ab-quote--small rise">
+                  <p>“{curly(q.text)}”</p>
+                  <footer><span>{owner}</span>{q.date && <span class="ab-quote__when">{fmtMonth(q.date)}</span>}</footer>
+                </blockquote>
+              ))}
+            </div>
+          )}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- On the job — the crew clip (plays only on screen). -->
+  <section class="section on-slab ab-crew" aria-labelledby="crew-h">
+    <div class="wrap ab-crew__grid">
+      <CoCrewClip label="Filmed on the job" sizes="(max-width: 899px) 90vw, 34vw" />
+      <div class="ab-crew__copy">
+        <CoHead label="On the job" id="crew-h" paint>The last pass on a <PaintWord text>new lawn.</PaintWord></CoHead>
+        <p>That’s a power broom going over a lawn that has just been laid, filmed on a job in the {photo('crew').place}. It is one of the final passes: stiff bristles stand the blades up and work the infill down between them, so the turf reads as grass instead of carpet.</p>
+        <p>What you can’t see in a clip is underneath it — the ground that was dug out, the rock base and how hard it was packed. That part decides whether a yard stays flat on Northern Colorado clay.</p>
+        <a class="btn btn--line ab-crew__btn" href="/services/artificial-turf-installation/">How a turf install goes <Icon name="arrow" /></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Receipts — things a stranger can check without calling. -->
+  <section class="section ab-check" aria-labelledby="check-h">
+    <div class="wrap">
+      <CoHead label="Check us" id="check-h" split lede={`Most of these open somewhere ${name} doesn’t control — a state database, a map listing, a social profile — so you see them as anyone would.`}>
+        Anyone can make a website. <PaintWord>Here are the records.</PaintWord>
+      </CoHead>
+      <ul class="rc" role="list">
+        {reg && (
+          <li class="rc__item rc__item--doc rise">
+            <a class="rc__card" href={reg.lookup_url} rel="noopener">
+              <span class="label">Colorado Secretary of State</span>
+              <strong class="rc__name">{legalName ?? 'NOCO Turf Co. LLC'}</strong>
+              <dl class="rc__rows">
+                <div><dt>ID</dt><dd class="num">{reg.sos_id}</dd></div>
+                <div><dt>Formed</dt><dd>{fmtDay(reg.formed)}</dd></div>
+                <div><dt>Standing</dt><dd>{reg.standing}{regChecked && <span class="rc__dim"> · when checked {fmtShort(regChecked)}</span>}</dd></div>
+              </dl>
+              <span class="rc__go">Look it up yourself<span class="rc__dot"><Icon name="external" size={16} /></span></span>
+            </a>
+          </li>
+        )}
+        {gbp && (
+          <li class="rc__item rise">
+            <a class="rc__card" href={gbp.url} rel="noopener">
+              <span class="label">Google Maps</span>
+              <strong class="rc__name">{name}</strong>
+              <span class="rc__txt">The listing itself — read the reviews where they were written.</span>
+              <span class="rc__go">Open the listing<span class="rc__dot"><Icon name="external" size={16} /></span></span>
+            </a>
+          </li>
+        )}
+        {ig && (
+          <li class="rc__item rise">
+            <a class="rc__card" href={ig.url} rel="noopener">
+              <span class="label">Instagram</span>
+              <strong class="rc__name">{igHandle}</strong>
+              <span class="rc__txt">Posts from the account.</span>
+              <span class="rc__go">See the posts<span class="rc__dot"><Icon name="external" size={16} /></span></span>
+            </a>
+          </li>
+        )}
+        {fb && (
+          <li class="rc__item rise">
+            <a class="rc__card" href={fb.url} rel="noopener">
+              <span class="label">Facebook</span>
+              <strong class="rc__name">{name}</strong>
+              <span class="rc__txt">The business page.</span>
+              <span class="rc__go">Open the page<span class="rc__dot"><Icon name="external" size={16} /></span></span>
+            </a>
+          </li>
+        )}
+        <li class="rc__item rise">
+          <a class="rc__card" href="/work/">
+            <span class="label">On this site</span>
+            <strong class="rc__name">{cap(word(PHOTO_COUNT))} job photos</strong>
+            <span class="rc__txt">From {owner ? `${owner}’s` : 'our'} own jobs, each with its place and, where the camera kept it, the month.</span>
+            <span class="rc__go">See the work<span class="rc__dot"><Icon name="arrow" size={16} /></span></span>
+          </a>
+        </li>
+      </ul>
+      <p class="rc__foot">The phone number, the estimate form and the towns we cover are all on the <a href="/contact/">contact page</a>.</p>
+    </div>
+  </section>
+
+  <!-- A few jobs, each with its record line. -->
+  <section class="section ground-2 ab-jobs" aria-labelledby="jobs-h">
+    <div class="wrap">
+      <CoHead label="The work" id="jobs-h" split lede="A few of the jobs from the work page, each with the nearest town and the month it was taken. Look where the turf meets stone, rock and concrete — that’s where an install shows.">
+        {cap(word(jobs.length))} yards, <PaintWord>{word(new Set(jobs.map((j) => j.place)).size)} places.</PaintWord>
+      </CoHead>
+      <ol class="jobs" role="list">
+        {jobs.map((p, i) => (
+          <li class="jobs__item">
+            <figure>
+              <div class="jobs__frame develop"><Photo photo={p} sizes="(max-width: 899px) 92vw, 30vw" widths={[480, 800, 1200]} /></div>
+              <figcaption>
+                <span class="jobs__no num">{String(i + 1).padStart(2, '0')}</span>
+                <span class="jobs__cap">{p.caption}</span>
+                <span class="jobs__rec">{p.place}{p.month && <> · {monthLabel(p.month)}</>}</span>
+              </figcaption>
+            </figure>
+          </li>
+        ))}
+      </ol>
+      <p class="jobs__all"><a class="btn btn--ink" href="/work/">All {word(PHOTO_COUNT)} photos <Icon name="arrow" /></a></p>
+    </div>
+  </section>
+
+  <!-- Where — the corridor map. -->
+  <section class="section ab-map" aria-labelledby="map-h">
+    <div class="wrap">
+      <CoHead label="Where we work" id="map-h" split lede="From Wellington in the north to Longmont and Dacono in the south, along I-25 and US 34. Every town on the map has its own page.">
+        {cap(word(towns.length))} towns, <PaintWord>one corridor.</PaintWord>
+      </CoHead>
+      <CorridorMap towns={towns} />
+    </div>
+  </section>
+
+  <CtaBand title="Ask about your" payoff="yard." lede="Tell us where the yard is and what it’s for. Three short parts, no account, no upload — or call if you’d rather talk it through." />
+</Base>
+
+<style>
+  .ab-hero__acts { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
+
+  /* ── Owner ── */
+  .ab-owner__grid { display: grid; grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr); gap: 32px clamp(40px, 7vw, 120px); align-items: start; }
+  .ab-owner__grid :global(.co-head) { position: sticky; top: calc(var(--header-h) + 32px); }
+  .ab-quote { margin: 0; }
+  .ab-quote p { margin: 0 0 18px; font-family: var(--font-display); font-weight: 780; font-stretch: 112%; letter-spacing: -0.035em; line-height: 1.02;
+    font-size: clamp(2.2rem, 1.3rem + 3.6vw, 4.6rem); text-wrap: balance; }
+  .ab-quote footer { display: grid; gap: 2px; font-size: var(--fs-small); color: var(--ink-2); }
+  .ab-quote footer > span:first-child::before { content: ''; display: inline-block; width: 22px; height: 3px; border-radius: 2px; background: var(--paint); vertical-align: middle; margin-right: 10px; }
+  .ab-quote__when { color: var(--ink-3); padding-left: 32px; }
+  .ab-owner__note { margin: clamp(28px, 3vw, 40px) 0 0; padding-top: 22px; border-top: 1px solid var(--line); color: var(--ink-2); max-width: 54ch; }
+  .ab-said { display: grid; grid-template-columns: 1fr 1fr; gap: 28px 40px; margin-top: clamp(40px, 5vw, 72px); }
+  .ab-quote--small p { font-size: clamp(1.3rem, 1.05rem + 0.9vw, 1.75rem); font-weight: 720; letter-spacing: -0.025em; line-height: 1.12; margin-bottom: 12px; }
+  .ab-quote--small .ab-quote__when { padding-left: 32px; }
+
+  /* ── Crew ── */
+  .ab-crew__grid { display: grid; grid-template-columns: minmax(0, 0.72fr) minmax(0, 1fr); gap: clamp(32px, 6vw, 110px); align-items: center; }
+  .ab-crew__grid :global(.co-clip) { max-width: 440px; }
+  .ab-crew__copy :global(.co-head) { margin-bottom: 26px; }
+  .ab-crew__copy > p { color: var(--bone-2); max-width: 52ch; }
+  .ab-crew__btn { margin-top: 12px; color: var(--bone); }
+
+  /* ── Receipts ── */
+  .rc { list-style: none; display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: clamp(12px, 1.4vw, 20px); }
+  .rc__item { grid-column: span 3; display: flex; }
+  .rc__item--doc { grid-column: span 6; grid-row: span 2; }
+  .rc__card { position: relative; flex: 1; display: flex; flex-direction: column; gap: 8px; padding: 24px 22px 22px; border-radius: var(--r-panel);
+    background: var(--ground-2); text-decoration: none; overflow: hidden; transition: background-color var(--t2) var(--ease), box-shadow var(--t2) var(--ease); }
+  .rc__card::before { content: ''; position: absolute; left: 22px; right: 22px; top: 0; height: 3px;
+    background: repeating-linear-gradient(90deg, var(--paint) 0 14px, transparent 14px 24px); opacity: 0; transition: opacity var(--t2) var(--ease); }
+  .rc__card:hover { background: var(--ground); box-shadow: var(--shadow-lift), inset 0 0 0 1px var(--line); }
+  .rc__card:hover::before, .rc__card:focus-visible::before { opacity: 1; }
+  .rc__name { font-family: var(--font-display); font-weight: 780; font-stretch: 110%; font-size: clamp(1.25rem, 1.05rem + 0.8vw, 1.6rem); letter-spacing: -0.025em; line-height: 1.1; }
+  .rc__txt { color: var(--ink-2); font-size: var(--fs-small); }
+  .rc__go { margin-top: auto; padding-top: 18px; display: flex; align-items: center; justify-content: space-between; gap: 12px;
+    font-family: var(--font-display); font-weight: 700; font-stretch: 104%; font-size: 0.98rem; }
+  .rc__dot { width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center; flex: none; box-shadow: inset 0 0 0 1.5px var(--line);
+    transition: background-color var(--t2) var(--ease), box-shadow var(--t2) var(--ease); }
+  .rc__card:hover .rc__dot { background: var(--paint); box-shadow: none; }
+
+  .rc__item--doc .rc__card { background: var(--slab); color: var(--bone); padding: clamp(24px, 3vw, 40px); }
+  .rc__item--doc .rc__card:hover { background: var(--slab-2); }
+  .rc__item--doc .label { color: var(--bone-3); }
+  .rc__item--doc .rc__name { font-size: clamp(1.7rem, 1.2rem + 2vw, 2.9rem); font-stretch: 116%; letter-spacing: -0.035em; line-height: 1; margin-top: 6px; }
+  .rc__item--doc .rc__dot { box-shadow: inset 0 0 0 1.5px var(--bone-line); }
+  .rc__rows { margin: 22px 0 0; display: grid; border-top: 1px solid var(--bone-line); }
+  .rc__rows div { display: grid; grid-template-columns: 7.5rem 1fr; gap: 12px; padding: 12px 0; border-bottom: 1px dashed rgb(var(--bone-rgb) / 0.2); }
+  .rc__rows dt { font-family: var(--font-display); font-size: var(--fs-label); font-weight: 640; font-stretch: 76%; letter-spacing: 0.17em; text-transform: uppercase; color: var(--bone-3); padding-top: 3px; }
+  .rc__rows dd { margin: 0; font-weight: 600; color: var(--bone); }
+  .rc__dim { font-weight: 400; color: var(--bone-3); }
+  .rc__foot { margin: clamp(24px, 3vw, 36px) 0 0; color: var(--ink-2); }
+  .rc__foot a { color: var(--ink); font-weight: 650; text-decoration-color: var(--paint); text-decoration-thickness: 2px; }
+  @media (max-width: 1099px) {
+    .rc__item { grid-column: span 6; }
+    .rc__item--doc { grid-column: 1 / -1; grid-row: auto; }
+  }
+  @media (max-width: 599px) { .rc__item { grid-column: 1 / -1; } .rc__rows div { grid-template-columns: 6rem 1fr; } }
+
+  /* ── Jobs ── */
+  .jobs { list-style: none; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(16px, 2vw, 32px); align-items: start; }
+  .jobs__item:nth-child(2) { margin-top: clamp(0px, 7vw, 120px); }
+  .jobs__item:nth-child(3) { margin-top: clamp(0px, 3vw, 48px); }
+  .jobs figure { margin: 0; }
+  .jobs__frame { overflow: hidden; border-radius: var(--r-photo); background: var(--ground); }
+  .jobs__frame :global(img) { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; transition: scale var(--t4) var(--ease); }
+  .jobs__item:hover .jobs__frame :global(img) { scale: 1.03; }
+  .jobs figcaption { display: grid; grid-template-columns: auto 1fr; gap: 2px 12px; padding-top: 12px; font-size: var(--fs-small); }
+  .jobs__no { grid-row: span 2; font-family: var(--font-display); font-weight: 800; font-stretch: 110%; color: var(--ink-3); font-size: 0.95rem; padding-top: 1px; }
+  .jobs__cap { font-weight: 600; }
+  .jobs__rec { color: var(--ink-3); font-size: 0.85rem; }
+  .jobs__rec::first-letter { text-transform: uppercase; }
+  .jobs__all { margin: clamp(32px, 4vw, 56px) 0 0; }
+
+  @media (max-width: 899px) {
+    .ab-owner__grid, .ab-crew__grid { grid-template-columns: 1fr; }
+    .ab-owner__grid :global(.co-head) { position: static; margin-bottom: 8px; }
+    .ab-said { grid-template-columns: 1fr; }
+    .ab-crew__grid :global(.co-clip) { max-width: 360px; }
+    .jobs { grid-template-columns: 1fr; gap: 28px; }
+    .jobs__item:nth-child(n) { margin-top: 0; }
+    .jobs__frame :global(img) { aspect-ratio: 4 / 3.4; }
+  }
+</style>

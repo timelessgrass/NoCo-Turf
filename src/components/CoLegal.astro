@@ -1,0 +1,143 @@
+---
+/**
+ * The legal document frame for /privacy/ and /terms/: the "Draft for owner review" note first, then a
+ * numbered contents list beside the text, like the schedule on a spec sheet. Each <section> in the slot
+ * carries an id and an <h2>; the numbers come from a CSS counter so they can't drift from the contents list.
+ *
+ * Motion: the contents rail fills with a painted line as you read (CSS scroll-driven, named view timeline on
+ * the article). Static by default — without support, or under reduced motion, it's a plain rail. The current
+ * section is marked in the list by a small observer; with JS off every link still works.
+ *
+ * Inline helpers for the slot (styled here):
+ *   <div class="co-tldr">…</div>                     the short version, in a panel
+ *   <span class="co-confirm">Owner to confirm</span>  a line NoCo has not yet approved
+ */
+interface Props {
+  sections: { id: string; title: string }[];
+  /** 'September 24, 2026' — the date of this draft */
+  dated: string;
+  /** what the note says the draft covers */
+  what: string;
+}
+const { sections, dated, what } = Astro.props;
+---
+<div class="co-legal wrap">
+  <div class="co-legal__note" role="note">
+    <svg class="co-legal__mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 27.5C5 14 12 5.5 27 5" /></svg>
+    <div>
+      <p class="label">Draft for owner review · {dated}</p>
+      <p class="co-legal__note-text">{what} NoCo Turf Co. has not yet reviewed or adopted this draft, and it is not legal advice. Lines marked <span class="co-confirm">Owner to confirm</span> are decisions only NoCo can make.</p>
+    </div>
+  </div>
+
+  <div class="co-legal__grid">
+    <nav class="co-legal__toc" aria-label="On this page">
+      <p class="label">On this page</p>
+      <ol class="co-legal__list" role="list">
+        {sections.map((s, i) => (
+          <li><a href={`#${s.id}`} data-toc={s.id}><span class="co-legal__no num">{String(i + 1).padStart(2, '0')}</span><span>{s.title}</span></a></li>
+        ))}
+      </ol>
+      <span class="co-legal__rail" aria-hidden="true"></span>
+    </nav>
+    <article class="co-legal__doc prose" data-legal-doc>
+      <slot />
+    </article>
+  </div>
+</div>
+
+<style>
+  .co-legal { timeline-scope: --co-doc; padding-block: clamp(36px, 5vw, 72px) clamp(72px, 7vw + 40px, 160px); }
+
+  /* The note: a layout line boxed around the one thing a reader must know first. */
+  .co-legal__note { display: grid; grid-template-columns: auto 1fr; gap: 16px; align-items: start; padding: 20px 22px; margin-bottom: clamp(40px, 5vw, 72px);
+    border-radius: var(--r-panel); background: var(--ground-2); box-shadow: inset 0 0 0 1.5px rgb(var(--ink-rgb) / 0.1); position: relative; }
+  .co-legal__note::before { content: ''; position: absolute; inset: 7px; border-radius: calc(var(--r-panel) - 5px); pointer-events: none;
+    background:
+      repeating-linear-gradient(90deg, var(--paint) 0 14px, transparent 14px 24px) top / 100% 2px no-repeat,
+      repeating-linear-gradient(90deg, var(--paint) 0 14px, transparent 14px 24px) bottom / 100% 2px no-repeat; opacity: 0.9; }
+  .co-legal__mark { width: 34px; height: 34px; margin-top: 2px; }
+  .co-legal__mark path { fill: none; stroke: var(--paint); stroke-width: 4.2; stroke-linecap: round; }
+  .co-legal__note .label { color: var(--ink); margin: 0 0 6px; }
+  .co-legal__note-text { margin: 0; max-width: 72ch; color: var(--ink-2); font-size: var(--fs-small); }
+
+  .co-legal__grid { display: grid; grid-template-columns: minmax(200px, 0.36fr) minmax(0, 1fr); gap: clamp(32px, 6vw, 110px); align-items: start; }
+
+  .co-legal__toc { position: sticky; top: calc(var(--header-h) + 28px); padding-left: 18px; }
+  .co-legal__toc .label { margin: 0 0 12px; }
+  .co-legal__list { list-style: none; display: grid; gap: 2px; }
+  .co-legal__list a { display: grid; grid-template-columns: 2.1em 1fr; gap: 6px; align-items: baseline; min-height: 40px; padding: 8px 0; text-decoration: none;
+    font-family: var(--font-display); font-weight: 620; font-stretch: 100%; font-size: 0.95rem; line-height: 1.3; color: var(--ink-2);
+    transition: color var(--t2) var(--ease); }
+  .co-legal__list a:hover { color: var(--ink); }
+  .co-legal__list a[aria-current='true'] { color: var(--ink); font-weight: 720; }
+  .co-legal__no { font-weight: 800; font-stretch: 110%; font-size: 0.8rem; color: var(--ink-3); transition: color var(--t2) var(--ease); }
+  .co-legal__list a[aria-current='true'] .co-legal__no { color: var(--ink); }
+  .co-legal__rail { position: absolute; left: 0; top: 34px; bottom: 0; width: 3px; border-radius: 3px;
+    background: repeating-linear-gradient(180deg, rgb(var(--ink-rgb) / 0.18) 0 8px, transparent 8px 14px); }
+  .co-legal__rail::after { content: ''; display: none; position: absolute; inset: 0; border-radius: 3px; background: var(--paint); transform-origin: top; scale: 1 0; }
+
+  /* The document: numbered sections from one counter. */
+  .co-legal__doc { counter-reset: co-sec; max-width: 68ch; }
+  .co-legal__doc :global(section) { padding-bottom: 8px; }
+  .co-legal__doc :global(section + section) { margin-top: clamp(36px, 4vw, 56px); padding-top: clamp(28px, 3vw, 40px); border-top: 1px solid var(--line); }
+  .co-legal__doc :global(h2) { counter-increment: co-sec; margin: 0 0 0.55em; font-size: clamp(1.55rem, 1.15rem + 1.6vw, 2.35rem); max-width: 22ch; }
+  .co-legal__doc :global(h2)::before { content: counter(co-sec, decimal-leading-zero); display: block; margin-bottom: 12px;
+    font-family: var(--font-display); font-size: var(--fs-label); font-weight: 640; font-stretch: 76%; letter-spacing: 0.17em; color: var(--ink-3); }
+  .co-legal__doc :global(h3) { font-size: 1.15rem; margin: 1.4em 0 0.4em; }
+  .co-legal__doc :global(p), .co-legal__doc :global(li) { color: var(--ink-2); }
+  .co-legal__doc :global(strong) { color: var(--ink); }
+  .co-legal__doc :global(a) { color: var(--ink); text-decoration-color: var(--paint); text-decoration-thickness: 1.5px; overflow-wrap: anywhere; }
+  .co-legal__doc :global(ul) { list-style: none; padding-left: 0; }
+  .co-legal__doc :global(ul > li) { position: relative; padding-left: 22px; }
+  .co-legal__doc :global(ul > li)::before { content: ''; position: absolute; left: 2px; top: 0.78em; width: 10px; height: 2px; border-radius: 2px; background: var(--paint); }
+  .co-legal__doc :global(dl) { display: grid; grid-template-columns: minmax(9rem, auto) 1fr; gap: 10px 20px; margin: 1em 0 1.2em; font-size: var(--fs-small); }
+  .co-legal__doc :global(dt) { font-family: var(--font-display); font-weight: 700; font-stretch: 100%; color: var(--ink); }
+  .co-legal__doc :global(dd) { margin: 0; color: var(--ink-2); }
+
+  .co-legal__doc :global(.co-tldr) { padding: clamp(20px, 2.6vw, 30px); border-radius: var(--r-panel); background: var(--slab); color: var(--bone); margin-bottom: clamp(36px, 4vw, 56px); }
+  .co-legal__doc :global(.co-tldr .label) { color: var(--bone-3); margin: 0 0 14px; }
+  .co-legal__doc :global(.co-tldr ul) { margin: 0; display: grid; gap: 10px; }
+  .co-legal__doc :global(.co-tldr li) { color: var(--bone); font-weight: 500; }
+  .co-legal__doc :global(.co-tldr li)::before { top: 0.72em; }
+  .co-legal__doc :global(.co-tldr a) { color: var(--bone); }
+
+  .co-legal :global(.co-confirm) { display: inline-block; padding: 1px 8px; margin: 0 2px; border-radius: var(--r-chip); border: 1.5px dashed var(--paint);
+    font-family: var(--font-display); font-weight: 650; font-stretch: 80%; font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase;
+    line-height: 1.6; color: var(--ink); white-space: nowrap; vertical-align: 0.12em; }
+
+  @media (prefers-reduced-motion: no-preference) {
+    @supports (animation-timeline: view()) and (timeline-scope: --co-doc) {
+      @keyframes co-read { from { scale: 1 0; } to { scale: 1 1; } }
+      .co-legal__doc { view-timeline-name: --co-doc; }
+      .co-legal__rail::after { display: block; animation: co-read linear both; animation-timeline: --co-doc; animation-range: contain 0% contain 100%; }
+    }
+  }
+
+  @media (max-width: 899px) {
+    .co-legal__grid { grid-template-columns: 1fr; }
+    .co-legal__toc { position: static; padding: 18px 18px 8px; border-radius: var(--r-panel); background: var(--ground-2); }
+    .co-legal__rail { display: none; }
+    .co-legal__list { grid-template-columns: 1fr; }
+    .co-legal__doc :global(dl) { grid-template-columns: 1fr; gap: 2px 0; }
+    .co-legal__doc :global(dd) { margin-bottom: 10px; }
+  }
+</style>
+
+<script>
+  /* Mark the section being read in the contents list. Progressive: without JS the list is plain links. */
+  const doc = document.querySelector<HTMLElement>('[data-legal-doc]');
+  const links = new Map([...document.querySelectorAll<HTMLAnchorElement>('[data-toc]')].map((a) => [a.dataset.toc!, a]));
+  if (doc && links.size && 'IntersectionObserver' in window) {
+    const seen = new Set<string>();
+    const mark = () => {
+      const first = [...links.keys()].find((id) => seen.has(id));
+      links.forEach((a, id) => (id === first ? a.setAttribute('aria-current', 'true') : a.removeAttribute('aria-current')));
+    };
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((e) => (e.isIntersecting ? seen.add(e.target.id) : seen.delete(e.target.id)));
+      mark();
+    }, { rootMargin: '-20% 0px -55% 0px' });
+    links.forEach((_, id) => { const s = document.getElementById(id); if (s) io.observe(s); });
+  }
+</script>

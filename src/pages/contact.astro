@@ -1,0 +1,197 @@
+---
+/**
+ * /contact/ — the one estimate form (EstimateForm, tone 'ground', id 'estimate') as the page's centre, with
+ * the phone at equal weight beside it (WALKTHROUGH: form and phone side by side) and the NAP block.
+ *
+ * "What happens after you send it" says only what the lead path actually does (docs/CONTRACTS.md "Lead path"):
+ * the answers go to NoCo Turf Co.; you pick call or text; a failed send keeps your answers and shows the phone.
+ * NO promised reply time — brief.conversion.response_time is UNKNOWN; it renders here via fact() the day
+ * Brian commits to one. Address, hours and email render via fact() too, so they appear when the brief has them
+ * (a storefront vs service-area decision is still open — Appendix A #1); until then a source comment says why.
+ */
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import CoHead from '../components/CoHead.astro';
+import EstimateForm from '../components/EstimateForm.astro';
+import CorridorMap from '../components/CorridorMap.astro';
+import PaintWord from '../components/PaintWord.astro';
+import Icon from '../components/Icon.astro';
+import { visibleTowns } from '../lib/visible';
+import brief, { fact, location, businessName, legalName, phoneHref, phoneDisplay, email, socialProfiles } from '../data/brief';
+
+const name = businessName ?? 'NoCo Turf Co.';
+const towns = await visibleTowns();
+const reg = fact<{ sos_id: string; lookup_url: string }>(brief.identity?.registration);
+const responseTime = fact<string>(brief.conversion?.response_time);
+
+/* Address and hours: render only when the brief carries them as renderable facts. */
+const address = fact<Record<string, string>>(location.address);
+const addressLines = address
+  ? [address.streetAddress, [address.addressLocality, address.addressRegion].filter(Boolean).join(', ') + (address.postalCode ? ` ${address.postalCode}` : '')].filter((l) => l && l.trim())
+  : [];
+type Hours = { dayOfWeek?: string | string[]; opens?: string; closes?: string };
+const hours = fact<Hours[]>(location.hours);
+const clock = (t?: string) => {
+  if (!t) return '';
+  const [h, m] = t.split(':').map(Number);
+  const ap = h >= 12 ? 'p.m.' : 'a.m.';
+  const hh = ((h + 11) % 12) + 1;
+  return m ? `${hh}:${String(m).padStart(2, '0')} ${ap}` : `${hh} ${ap}`;
+};
+const dayName = (d: string) => d.replace(/^https?:\/\/schema\.org\//, '');
+const hourRows = Array.isArray(hours)
+  ? hours.map((h) => ({ days: [].concat((h.dayOfWeek ?? []) as any).map(dayName).join(', '), time: `${clock(h.opens)} – ${clock(h.closes)}` })).filter((r) => r.days)
+  : [];
+
+const gbp = socialProfiles.find((p) => p.network === 'Google Business Profile');
+const profiles = socialProfiles.map((p) => ({ ...p, label: p.network === 'Google Business Profile' ? 'Google Maps' : p.network }));
+const WORDS = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty'];
+const word = (n: number) => WORDS[n] ?? String(n);
+const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
+
+const crumbs = [{ name: 'Contact', path: '/contact/' }];
+const title = phoneDisplay ? `Contact: Book a Yard Walk or Call ${phoneDisplay} | NoCo Turf Co.` : 'Contact: Book a Yard Walk in Northern Colorado | NoCo Turf Co.';
+const description = phoneDisplay
+  ? `Book a yard walk with ${name}: tell us the town, the rough size and what the yard is for, or call ${phoneDisplay}. ${cap(word(towns.length))} towns, Wellington to Longmont.`
+  : `Book a yard walk with ${name}: tell us the town, the rough size and what the yard is for. ${cap(word(towns.length))} towns across Northern Colorado, Wellington to Longmont.`;
+---
+<Base title={title} description={description} crumbs={crumbs}>
+  <PageHero
+    label="Start here"
+    crumbs={crumbs}
+    compact
+    lede="Three short parts: what the yard is for, the timing, and how to reach you. No account, no upload, and a phone number is the only thing the form needs."
+  >
+    Book a <PaintWord now>yard walk</PaintWord> — or skip the form and call.
+    <div slot="after" class="ct-hero__acts">
+      <a class="btn btn--paint" href="#estimate" data-cta="contact-hero-form">Start the form <Icon name="arrow-down" /></a>
+      {phoneHref && <a class="btn btn--line" href={phoneHref} data-cta="contact-hero-call"><Icon name="phone" />Call <span class="btn__num">{phoneDisplay}</span></a>}
+    </div>
+  </PageHero>
+
+  <section class="section ground-2 ct-desk" aria-labelledby="form-h">
+    <div class="wrap ct-desk__grid">
+      <div class="ct-sheet">
+        <div class="ct-sheet__head">
+          <p class="label">The form</p>
+          <h2 id="form-h" class="ct-sheet__h">Tell us about the yard.</h2>
+          <p class="ct-sheet__sub">Rough answers are fine — “Not sure” is a real option on every question that has it.</p>
+        </div>
+        <EstimateForm tone="ground" id="estimate" />
+        <p class="ct-sheet__legal">What happens to what you send is on the <a href="/privacy/">privacy page</a>; the rules for using this site are in the <a href="/terms/">terms</a>.</p>
+      </div>
+
+      <aside class="ct-side" aria-label="Other ways to reach us">
+        {phoneHref && (
+          <div class="ct-call on-slab">
+            <p class="label label--paint">Rather talk?</p>
+            <a class="ct-call__num num" href={phoneHref} data-cta="contact-call"><Icon name="phone" size={26} /><span>{phoneDisplay}</span></a>
+            <p class="ct-call__txt">Call and describe the yard. You don’t need to have sent the form first.</p>
+          </div>
+        )}
+
+        <div class="ct-after">
+          <p class="label">After you send it</p>
+          <ol class="ct-steps" role="list">
+            <li><span class="ct-steps__n num">1</span><div><strong>It goes to {name} by email.</strong> Your answers arrive together: the yard, the town, the timing and how to reach you.</div></li>
+            {responseTime
+              ? <li><span class="ct-steps__n num">2</span><div><strong>{responseTime}</strong></div></li>
+              : <Fragment set:html="<!-- reply time not rendered: brief.conversion.response_time is not a renderable fact (Brian has not committed to one) -->" />}
+            <li><span class="ct-steps__n num">{responseTime ? 3 : 2}</span><div><strong>You pick call or text.</strong> Part three of the form tells {name} how you’d like to be reached.</div></li>
+            <li><span class="ct-steps__n num">{responseTime ? 4 : 3}</span><div><strong>If it can’t send, you’ll know.</strong> The page says so, keeps everything you typed, and shows the number to call.</div></li>
+          </ol>
+        </div>
+
+        <div class="ct-nap">
+          <p class="label">The business</p>
+          <dl class="ct-nap__list">
+            <div><dt>Name</dt><dd>{name}</dd></div>
+            {legalName && (
+              <div><dt>Registered</dt><dd>{legalName}{reg && <><br /><a href={reg.lookup_url} rel="noopener">Colorado SOS {reg.sos_id}<Icon name="external" size={14} /></a></>}</dd></div>
+            )}
+            {phoneHref && <div><dt>Phone</dt><dd><a class="num" href={phoneHref} data-cta="contact-nap-call">{phoneDisplay}</a></dd></div>}
+            {email && <div><dt>Email</dt><dd><a href={`mailto:${email}`} data-cta="contact-email">{email}</a></dd></div>}
+            {addressLines.length > 0 && <div><dt>Address</dt><dd>{addressLines.map((l, i) => <>{i > 0 && <br />}{l}</>)}</dd></div>}
+            {hourRows.length > 0 && <div><dt>Hours</dt><dd>{hourRows.map((r, i) => <>{i > 0 && <br />}{r.days}: {r.time}</>)}</dd></div>}
+            <div><dt>Area</dt><dd>{cap(word(towns.length))} Northern Colorado towns, Wellington to Longmont</dd></div>
+          </dl>
+          {!email && <Fragment set:html="<!-- email not rendered: location.email is not a renderable fact in .site/truth/brief.json -->" />}
+          {addressLines.length === 0 && <Fragment set:html="<!-- address not rendered: location.address is not a renderable fact (storefront vs service-area decision pending) -->" />}
+          {hourRows.length === 0 && <Fragment set:html="<!-- hours not rendered: location.hours is not a renderable fact in .site/truth/brief.json -->" />}
+          {profiles.length > 0 && (
+            <ul class="ct-nap__profiles" role="list">
+              {profiles.map((p) => <li><a href={p.url} rel="noopener">{p.label}<Icon name="external" size={14} /></a></li>)}
+            </ul>
+          )}
+          {gbp && <p class="ct-nap__rev">Already had turf done? <a href="/review/">Leave a review</a>.</p>}
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section ct-map" aria-labelledby="map-h">
+    <div class="wrap">
+      <CoHead label="Where we work" id="map-h" split lede="From Wellington in the north to Longmont and Dacono in the south. Somewhere close by that isn’t listed? Choose “Somewhere else” in the form and say where.">
+        Check that your town is <PaintWord>on the map.</PaintWord>
+      </CoHead>
+      <CorridorMap towns={towns} />
+    </div>
+  </section>
+</Base>
+
+<style>
+  .ct-hero__acts { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+
+  .ct-desk__grid { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(300px, 0.8fr); gap: clamp(24px, 4vw, 64px); align-items: start; }
+
+  /* The form sits on its own sheet, lifted off the ground like a spec sheet on a clipboard. */
+  .ct-sheet { position: relative; padding: clamp(24px, 4vw, 56px); border-radius: var(--r-panel); background: var(--ground); box-shadow: var(--shadow-lift), inset 0 0 0 1px var(--line); }
+  .ct-sheet::before { content: ''; position: absolute; left: clamp(24px, 4vw, 56px); right: clamp(24px, 4vw, 56px); top: 0; height: 3px; border-radius: 0 0 3px 3px;
+    background: repeating-linear-gradient(90deg, var(--paint) 0 16px, transparent 16px 27px); }
+  .ct-sheet__head { display: grid; gap: 12px; margin-bottom: clamp(24px, 3vw, 36px); padding-bottom: clamp(20px, 2.4vw, 28px); border-bottom: 1px solid var(--line); }
+  .ct-sheet__head .label { margin: 0; }
+  .ct-sheet__h { font-size: clamp(1.9rem, 1.3rem + 2.2vw, 3.1rem); max-width: 18ch; }
+  .ct-sheet__sub { margin: 0; color: var(--ink-2); max-width: 52ch; }
+  .ct-sheet__legal { margin: clamp(24px, 3vw, 32px) 0 0; padding-top: 18px; border-top: 1px solid var(--line); font-size: 0.88rem; color: var(--ink-3); }
+  .ct-sheet__legal a { color: var(--ink-2); }
+
+  .ct-side { display: grid; gap: clamp(16px, 2vw, 24px); }
+
+  .ct-call { padding: clamp(22px, 2.6vw, 32px); border-radius: var(--r-panel); }
+  .ct-call .label { margin: 0 0 10px; }
+  .ct-call__num { display: inline-flex; align-items: center; gap: 12px; min-height: 56px; text-decoration: none; color: var(--bone);
+    font-family: var(--font-display); font-weight: 820; font-stretch: 112%; letter-spacing: -0.035em; font-size: clamp(1.9rem, 1.4rem + 1.6vw, 2.7rem); line-height: 1; }
+  .ct-call__num :global(svg) { color: var(--paint); flex: none; }
+  .ct-call__num span { background: linear-gradient(var(--paint), var(--paint)) 0 100% / 0% 3px no-repeat; transition: background-size var(--t4) var(--ease); padding-bottom: 4px; }
+  .ct-call__num:hover span, .ct-call__num:focus-visible span { background-size: 100% 3px; }
+  .ct-call__txt { margin: 12px 0 0; color: var(--bone-2); font-size: var(--fs-small); max-width: 36ch; }
+
+  .ct-after, .ct-nap { padding: clamp(20px, 2.4vw, 28px); border-radius: var(--r-panel); background: var(--ground); box-shadow: inset 0 0 0 1px var(--line); }
+  .ct-after .label, .ct-nap .label { margin: 0 0 14px; }
+  .ct-steps { list-style: none; display: grid; gap: 14px; }
+  .ct-steps li { display: grid; grid-template-columns: 30px 1fr; gap: 12px; align-items: start; font-size: var(--fs-small); color: var(--ink-2); }
+  .ct-steps strong { display: block; color: var(--ink); font-family: var(--font-display); font-weight: 720; font-stretch: 104%; font-size: 1rem; letter-spacing: -0.01em; margin-bottom: 2px; }
+  .ct-steps__n { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; box-shadow: inset 0 0 0 1.5px var(--ink);
+    font-family: var(--font-display); font-weight: 800; font-size: 0.85rem; color: var(--ink); }
+  .ct-steps li:first-child .ct-steps__n { background: var(--paint); box-shadow: none; }
+
+  .ct-nap__list { display: grid; margin: 0; font-size: var(--fs-small); }
+  .ct-nap__list div { display: grid; grid-template-columns: 6.2rem 1fr; gap: 10px; padding: 10px 0; border-top: 1px dashed rgb(var(--ink-rgb) / 0.2); }
+  .ct-nap__list div:first-child { border-top: 0; padding-top: 0; }
+  .ct-nap__list dt { font-family: var(--font-display); font-size: var(--fs-label); font-weight: 640; font-stretch: 76%; letter-spacing: 0.17em; text-transform: uppercase; color: var(--ink-3); padding-top: 3px; }
+  .ct-nap__list dd { margin: 0; color: var(--ink); font-weight: 550; }
+  .ct-nap__list a { display: inline-flex; align-items: center; gap: 6px; text-decoration-color: var(--paint); }
+  .ct-nap__profiles { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+  .ct-nap__profiles a { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; padding: 0 14px; border-radius: var(--r-chip); text-decoration: none;
+    font-size: 0.9rem; font-weight: 600; box-shadow: inset 0 0 0 1.5px var(--line); transition: box-shadow var(--t2) var(--ease), background-color var(--t2) var(--ease); }
+  .ct-nap__profiles a:hover { box-shadow: inset 0 0 0 1.5px var(--paint); }
+  .ct-nap__rev { margin: 14px 0 0; font-size: 0.88rem; color: var(--ink-3); }
+  .ct-nap__rev a { color: var(--ink-2); }
+
+  @media (max-width: 1099px) { .ct-desk__grid { grid-template-columns: 1fr; } .ct-side { grid-template-columns: 1fr 1fr; } .ct-call { grid-column: 1 / -1; } }
+  @media (max-width: 699px) {
+    .ct-side { grid-template-columns: 1fr; }
+    .ct-sheet { padding: 22px 18px 26px; margin-inline: calc(-1 * var(--gutter) + 8px); }
+    .ct-sheet::before { left: 18px; right: 18px; }
+  }
+</style>
