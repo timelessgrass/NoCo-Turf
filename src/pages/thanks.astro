@@ -1,0 +1,15 @@
+---
+/**
+ * Where the estimate form lands (the lead function 303s here without JavaScript). Never indexed.
+ * The reply-time sentence renders only if Brian commits to one (brief.conversion.response_time) —
+ * silence is the complaint that kills this category (research/voc.md), so no promise is invented.
+ */
+import Base from '../layouts/Base.astro';
+import brief, { fact, phoneHref, phoneDisplay } from '../data/brief';
+const responseTime = fact<string>(brief.conversion?.response_time);
+---
+<Base title="Thanks — we've got your request | NoCo Turf Co." description="Your estimate request was sent." noindex>
+  <h1>Thanks — we've got your request.</h1>
+  {responseTime ? <p>{responseTime}</p> : <Fragment set:html="<!-- reply time not rendered: Brian has not committed to one -->" />}
+  {phoneHref && <p>Rather talk now? <a href={phoneHref} data-cta="thanks-call">{phoneDisplay}</a></p>}
+</Base>

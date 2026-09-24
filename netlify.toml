@@ -1,19 +1,63 @@
-# PRELAUNCH holding state. Netlify deploys public/ as-is (no build step), so a
-# build costs seconds. When the Astro scaffold lands, switch to:
-#   command = "npm run build"
-#   publish = "dist"
-# Content must ship in the raw HTML response — retrieval agents (GPTBot,
-# ClaudeBot, PerplexityBot, Google-Extended) cannot read a hydration-only page.
+# Astro static build. Content ships in the raw HTML response — retrieval agents (OAI-SearchBot,
+# Claude-SearchBot, PerplexityBot, Bingbot) cannot read a hydration-only page.
+# Pushing to main triggers a build on Brian's Netlify account: push only on Ty's explicit go.
 
 [build]
-  publish = "public"
+  command = "npm run build"
+  publish = "dist"
 
 [build.environment]
   NODE_VERSION = "24"
 
-# Keep the netlify.app preview out of every index until launch.
-# Remove at launch, together with public/robots.txt's Disallow.
+[functions]
+  directory = "netlify/functions"
+
+# The apex has been a GoDaddy self-forward loop (https://nocoturf.com → itself). Once DNS points
+# here: every apex URL → www in ONE hop, path kept. The legacy/vendor URL map is public/_redirects
+# (processed before these rules), so an old apex path lands on its new page in a single 301 too.
+[[redirects]]
+  from = "https://nocoturf.com/*"
+  to = "https://www.nocoturf.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://nocoturf.com/*"
+  to = "https://www.nocoturf.com/:splat"
+  status = 301
+  force = true
+
 [[headers]]
   for = "/*"
   [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "SAMEORIGIN"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    # PRELAUNCH — delete this line at launch, in the same commit that sets PRELAUNCH = false in
+    # src/data/site.ts (tests/prelaunch.test.mjs fails if only one of the two changes).
     X-Robots-Tag = "noindex, nofollow"
+
+# Astro fingerprints every file in /_astro/: cache for a year.
+[[headers]]
+  for = "/_astro/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# HTML revalidates — the vendor site served HTML with max-age=2592000 (30 days), which is why stale
+# pages can linger after cutover. Never again.
+[[headers]]
+  for = "/*/"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Markdown mirrors and llms.txt for answer engines: fetchable, never the page that ranks.
+[[headers]]
+  for = "/*.md"
+  [headers.values]
+    Content-Type = "text/markdown; charset=utf-8"
+    X-Robots-Tag = "noindex"
+
+[[headers]]
+  for = "/llms*.txt"
+  [headers.values]
+    Content-Type = "text/plain; charset=utf-8"

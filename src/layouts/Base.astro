@@ -1,0 +1,103 @@
+---
+/**
+ * The one layout. STRUCTURE ONLY until creative direction is approved (gate 5, DESIGN-PENDING.md):
+ * no tokens, no fonts, no accent — system type on a neutral ground so the pipeline (schema, crawl
+ * surface, links, form) can be built and tested before anything is designed.
+ *
+ * Every page gets ONE @graph: WebSite, the single #business node (only when its facts are
+ * renderable — src/data/brief.ts), WebPage (about → #business), BreadcrumbList when the page passes
+ * crumbs, plus whatever page nodes it adds (Service, Article, Dataset, FAQPage mirroring the printed
+ * FAQ). Never aggregateRating, ratingValue, reviewCount or Review — tests/schema.test.mjs fails the
+ * build on any of them.
+ */
+import { SITE, PRELAUNCH } from '../data/site';
+import brief, { fact, businessName, legalName, phone, phoneHref, phoneDisplay, email, socialProfiles, location } from '../data/brief';
+
+interface Props {
+  title: string;
+  description: string;
+  /** Override for pages that must never be indexed (/thanks/, 404). */
+  noindex?: boolean;
+  crumbs?: { name: string; path: string }[];
+  /** Extra JSON-LD nodes for this page; they may reference `${SITE}/#business` by @id. */
+  graph?: Record<string, unknown>[];
+}
+
+const { title, description, noindex = false, crumbs = [], graph = [] } = Astro.props;
+const canonical = new URL(Astro.url.pathname, SITE).href;
+const robots = PRELAUNCH || noindex ? 'noindex, nofollow' : 'index, follow';
+
+const BUSINESS_ID = `${SITE}/#business`;
+const address = fact<Record<string, string>>(location.address);
+const hours = fact<unknown[]>(location.hours);
+const areas = (brief.service_areas ?? []).map((n: any) => fact<string>(n)).filter(Boolean);
+
+/* The #business node exists only when name AND phone are renderable facts — a half-entity with a
+   guessed field is worse than none (check-entity.py compares every field to the brief). */
+const business = businessName && phone ? {
+  '@type': 'HomeAndConstructionBusiness',
+  '@id': BUSINESS_ID,
+  name: businessName,
+  ...(legalName ? { legalName } : {}),
+  url: `${SITE}/`,
+  telephone: phone,
+  ...(email ? { email } : {}),
+  ...(address ? { address: { '@type': 'PostalAddress', ...address } } : {}),
+  ...(areas.length ? { areaServed: areas.map((name: string) => ({ '@type': 'City', name })) } : {}),
+  ...(hours ? { openingHoursSpecification: hours } : {}),
+  ...(socialProfiles.length ? { sameAs: socialProfiles.map((p) => p.url) } : {}),
+} : null;
+
+const nodes: Record<string, unknown>[] = [
+  { '@type': 'WebSite', '@id': `${SITE}/#website`, url: `${SITE}/`, name: businessName ?? 'NoCo Turf Co.' },
+  ...(business ? [business] : []),
+  {
+    '@type': 'WebPage', '@id': `${canonical}#webpage`, url: canonical, name: title, description,
+    isPartOf: { '@id': `${SITE}/#website` },
+    ...(business ? { about: { '@id': BUSINESS_ID } } : {}),
+  },
+  ...(crumbs.length ? [{
+    '@type': 'BreadcrumbList',
+    itemListElement: [{ name: 'Home', path: '/' }, ...crumbs].map((c, i) => ({
+      '@type': 'ListItem', position: i + 1, name: c.name, item: new URL(c.path, SITE).href,
+    })),
+  }] : []),
+  ...graph,
+];
+const jsonld = JSON.stringify({ '@context': 'https://schema.org', '@graph': nodes });
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta name="robots" content={robots} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <script type="application/ld+json" set:html={jsonld} />
+    <style is:global>
+      /* PRE-DESIGN structural styles — replaced wholesale by the approved design system (gate 5/6). */
+      :root { color-scheme: light; }
+      body { margin: 0; font: 400 1rem/1.55 system-ui, -apple-system, 'Segoe UI', sans-serif; background: #f4f2ee; color: #1e1d1a; }
+      main { max-width: 68ch; margin: 0 auto; padding: 2rem 1rem 6rem; }
+      a { color: inherit; }
+      .skip { position: absolute; left: -9999px; }
+      .skip:focus { left: 1rem; top: 1rem; }
+    </style>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <main id="main">
+      <slot />
+    </main>
+    {phoneHref && phoneDisplay
+      ? <footer><p><a href={phoneHref} data-cta="footer-call">{phoneDisplay}</a></p></footer>
+      : <Fragment set:html={`<!-- phone not rendered: ${brief.identity?.locations?.[0]?.phone?.status ?? 'no location in brief'} -->`} />}
+  </body>
+</html>

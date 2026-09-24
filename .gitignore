@@ -36,3 +36,13 @@ public/_design/
 .playwright-mcp/
 playwright-report/
 test-results/
+
+# ── While github.com/timelessgrass/NoCo-Turf is PUBLIC ─────────────────────────
+# Research notes (complaints, competitor notes, addresses), strategy drafts and Brian's verbatim
+# call quotes stay local. The build reads only .site/truth/{brief,claims,proof}.json and src/.
+# Delete these lines once the repo is private.
+.site/research/
+.site/strategy/
+.site/truth/stories.json
+.site/truth/vocabulary.json
+.site/truth/unanswered.json

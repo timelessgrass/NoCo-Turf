@@ -1,0 +1,112 @@
+{
+ "_shape": {
+  "value": null,
+  "status": "UNKNOWN",
+  "source": null,
+  "source_detail": null,
+  "date": null
+ },
+ "intake": {
+  "mode": "discovery_call",
+  "laundering_guard": true
+ },
+ "identity": {
+  "display_name": {
+   "value": null,
+   "status": "UNKNOWN",
+   "source": null,
+   "source_detail": null,
+   "date": null,
+   "note": "Trading name exactly as it appears on GBP — ask, never infer from the domain"
+  },
+  "legal_name": {
+   "value": null,
+   "status": "UNKNOWN",
+   "source": null,
+   "source_detail": null,
+   "date": null,
+   "note": "Legal entity name from the licence or registration"
+  },
+  "founded_year": {
+   "value": null,
+   "status": "UNKNOWN",
+   "source": null,
+   "source_detail": null,
+   "date": null,
+   "note": "Year operations started — must be stated; never sourced from the old site"
+  },
+  "owners": [],
+  "locations": [],
+  "credentials": []
+ },
+ "services": [],
+ "do_not_offer": [],
+ "service_areas": [],
+ "conversion": {
+  "urgency": {
+   "value": null,
+   "status": "UNKNOWN",
+   "source": null,
+   "source_detail": null,
+   "date": null,
+   "note": "emergency | scheduled | contract | one_off — from 'what has usually just happened to them?'"
+  },
+  "buyer_type": {
+   "value": null,
+   "status": "UNKNOWN",
+   "source": null,
+   "source_detail": null,
+   "date": null,
+   "note": "residential | commercial"
+  },
+  "primary_cta": {
+   "value": null,
+   "status": "UNKNOWN",
+   "source": null,
+   "source_detail": null,
+   "date": null,
+   "note": "Decided in strategy/offer.md, never inherited"
+  },
+  "form_fields": [],
+  "lead_destination": {
+   "value": null,
+   "status": "UNKNOWN",
+   "source": null,
+   "source_detail": null,
+   "date": null,
+   "note": "Where leads land and who watches that inbox",
+   "test_lead_confirmed": false,
+   "test_lead": {
+    "form_submits": false,
+    "confirmation_renders": false,
+    "inbox": false,
+    "crm": false,
+    "notification": false,
+    "routing": false,
+    "autoresponder": false,
+    "client_confirmed": false
+   }
+  }
+ },
+ "positioning": {},
+ "faq_harvest": [],
+ "photos": [],
+ "compliance": {},
+ "scope_matrix": {},
+ "brand": {
+  "assets": {}
+ },
+ "launch": {
+  "state": "DRAFT",
+  "approved_by": null,
+  "approved_at": null,
+  "gates": [],
+  "offsite": {
+   "gbp_claimed": false,
+   "gbp_verified": false,
+   "manager_access": false,
+   "nap_byte_match": false,
+   "review_link_handed_over": false
+  }
+ }
+}

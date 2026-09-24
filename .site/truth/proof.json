@@ -1,0 +1,38 @@
+{
+ "_shape": {
+  "photos": {
+   "file": "",
+   "kind": "finished|before|after|team|detail|context|business",
+   "caption": "",
+   "shot_with": "",
+   "source": "client",
+   "date": null,
+   "pair_id": null
+  },
+  "reviews": {
+   "platform": "",
+   "url": "",
+   "author": "",
+   "quote": "",
+   "date": null,
+   "permission": false
+  },
+  "credentials": {
+   "kind": "",
+   "number": "",
+   "issuer": "",
+   "lookup_url": "",
+   "document_on_file": false
+  },
+  "case_studies": {
+   "title": "",
+   "story_ref": null,
+   "photos": [],
+   "client_named": false
+  }
+ },
+ "photos": [],
+ "reviews": [],
+ "credentials": [],
+ "case_studies": []
+}
