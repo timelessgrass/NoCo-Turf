@@ -1,0 +1,306 @@
+---
+/**
+ * /guides/{id}/ — one reference page per guide record (visibleGuides(): published at launch, drafts too
+ * during the PRELAUNCH preview, flagged with the ribbon).
+ *
+ * Reading order: plain hero with the dated record strip → short answer → (tool) → the Markdown body,
+ * re-set by GuideProse (numbered sections, scannable tables, printable templates, uncertainty notes)
+ * beside a sticky table of contents → questions (FAQPage mirrors them verbatim) → related services,
+ * towns and guides → sources with their checked dates → the closing band with the page's one form.
+ *
+ * Every word of the body, the answer and the FAQ comes from the guide record; this template adds only
+ * section furniture and CTAs. Nothing here claims anything about NoCo beyond the brief's phone.
+ */
+import { render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import PageHero from '../../components/PageHero.astro';
+import AnswerBox from '../../components/AnswerBox.astro';
+import Faq from '../../components/Faq.astro';
+import Sources from '../../components/Sources.astro';
+import CtaBand from '../../components/CtaBand.astro';
+import PaintWord from '../../components/PaintWord.astro';
+import Icon from '../../components/Icon.astro';
+import GuideProse from '../../components/GuideProse.astro';
+import GuideToc from '../../components/GuideToc.astro';
+import GuideWaterSavings from '../../components/GuideWaterSavings.astro';
+import GuideHoaLetter from '../../components/GuideHoaLetter.astro';
+import GuideGlyph from '../../components/GuideGlyph.astro';
+import { visibleGuides, visibleTowns, guideLabel } from '../../lib/visible';
+import { visibleServices } from '../../data/services';
+import { faqGraph, BUSINESS_REF } from '../../lib/schema';
+import { SITE } from '../../data/site';
+import { businessName, phone } from '../../data/brief';
+import providers from '../../data/layers/water-providers.json';
+import { buildRows } from '../../../scripts/build-water-rates.mjs';
+
+export async function getStaticPaths() {
+  const guides = await visibleGuides();
+  return guides.map((g) => ({ params: { id: g.id }, props: { id: g.id } }));
+}
+
+const { id } = Astro.props as { id: string };
+const guides = await visibleGuides();
+const g = guides.find((x) => x.id === id)!;
+const d = g.entry.data as any;
+const { Content, headings } = await render(g.entry);
+
+/* Per-guide furniture. Copy rules: H2s are sentences with a period; CTA words vary per page; no claim
+   about NoCo. `paint` is a phrase of the record's own H1 that gets the painted layout mark. */
+type Cfg = { crumb: string; paint?: string; faqH2: string; cta: { title: string; payoff: string; lede?: string } };
+const CFG: Record<string, Cfg> = {
+  'turf-rules-northern-colorado': { crumb: 'Turf rules', paint: 'town by town',
+    faqH2: 'Questions about the rules, answered from the code.',
+    cta: { title: 'The code is one part.', payoff: 'The yard is the other.', lede: 'Tell us the town and the yard. Three short parts, no account, no upload.' } },
+  'hoa-turf-approval': { crumb: 'HOA approval', paint: 'can’t ban it',
+    faqH2: 'Questions about HOAs, answered from the statute.',
+    cta: { title: 'HOA or not,', payoff: 'it starts with a yard walk.', lede: 'Tell us about the yard and whether there’s an HOA. Three short parts, no account, no upload.' } },
+  'turf-rebates-northern-colorado': { crumb: 'Rebates', paint: 'no program we checked',
+    faqH2: 'Questions about rebates, answered from each program.',
+    cta: { title: 'No rebate to wait for.', payoff: 'Walk the yard with us.' } },
+  'water-savings': { crumb: 'Water savings', paint: '14,961 gallons',
+    faqH2: 'Questions about the water math.',
+    cta: { title: 'Gallons counted.', payoff: 'Now price the yard.', lede: 'Tell us the size of the lawn and how to reach you. Three short parts, no account, no upload.' } },
+  'artificial-turf-cost': { crumb: 'Cost', paint: 'different work',
+    faqH2: 'Questions about what a quote covers.',
+    cta: { title: 'Every yard prices differently.', payoff: 'Let’s look at yours.' } },
+};
+const cfg: Cfg = CFG[id] ?? { crumb: guideLabel(d.title), faqH2: 'Questions people ask.', cta: { title: 'Read up, then', payoff: 'walk the yard with us.' } };
+
+/* Display typography only: a straight apostrophe inside a word becomes ’ (the words don't change, and the
+   FAQ JSON-LD gets the same strings the page prints). */
+const smart = (s: string) => s.replace(/(\w)'(\w)/g, '$1’$2');
+const pad = (n: number) => String(n).padStart(2, '0');
+const index = guides.findIndex((x) => x.id === id);
+const kind = d.kind === 'tool' ? 'Tool' : 'Guide';
+const crumbs = [{ name: 'Guides', path: '/guides/' }, { name: cfg.crumb, path: `/guides/${id}/` }];
+const long = (ymd: string) => new Date(`${ymd}T12:00:00Z`).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+
+/* H1: the record's own words. A colon splits headline from deck; the paint phrase, if present, is marked. */
+const h1: string = smart(d.h1);
+const cut = h1.indexOf(': ');
+const main = cut > 0 ? h1.slice(0, cut + 1) : h1;
+const deck = cut > 0 ? h1.slice(cut + 2) : '';
+const split = (s: string) => {
+  const at = cfg.paint ? s.indexOf(cfg.paint) : -1;
+  return at < 0 ? null : [s.slice(0, at), cfg.paint!, s.slice(at + cfg.paint!.length)];
+};
+const mainP = split(main);
+const deckP = mainP ? null : split(deck);
+
+/* Body structure */
+const h2s = headings.filter((h) => h.depth === 2);
+const isWater = id === 'water-savings';
+const letterId = id === 'hoa-turf-approval' ? h2s.find((h) => /letter/i.test(h.text))?.slug : undefined;
+const { body } = g.entry as any;
+const faq = (d.faq as { q: string; a: string }[]).map((f) => ({ q: smart(f.q), a: smart(f.a) }));
+const legal = /not legal advice/i.test(String(body ?? '')) || /not legal advice/i.test(d.answer.answer);
+
+/* Related */
+const services = (d.related?.services ?? []).map((s: string) => visibleServices.find((v) => v.slug === s)).filter(Boolean);
+const townList = await visibleTowns();
+const towns = (d.related?.towns ?? []).map((s: string) => townList.find((t) => t.slug === s)).filter(Boolean) as { slug: string; name: string }[];
+const others = guides.filter((x) => x.id !== id);
+
+const toc = [
+  ...(isWater ? [{ id: 'gws', text: 'Your lawn, worked out' }] : []),
+  ...h2s.map((h, i) => ({ id: h.slug, text: h.text, no: pad(i + 1) })),
+  ...(d.faq.length ? [{ id: 'questions', text: 'Questions' }] : []),
+  { id: 'related', text: 'Related' },
+  { id: 'sources', text: 'Sources' },
+];
+
+/* JSON-LD: the Article (author and publisher are the one #business entity, when it exists), the FAQ
+   mirroring the printed questions, and — on water-savings — the Dataset behind the table and the CSV. */
+const canonical = new URL(Astro.url.pathname, SITE).href;
+const entity = businessName && phone ? { author: BUSINESS_REF, publisher: BUSINESS_REF } : {};
+const article = {
+  '@type': 'Article', '@id': `${canonical}#article`, headline: d.h1, description: d.description,
+  datePublished: d.published, dateModified: d.updated, inLanguage: 'en-US', isAccessibleForFree: true,
+  mainEntityOfPage: { '@id': `${canonical}#webpage` }, ...entity,
+  speakable: { '@type': 'SpeakableSpecification', cssSelector: ['.ab__q', '.ab__a'] },
+  citation: d.sources.map((s: any) => ({ '@type': 'CreativeWork', name: s.label, url: s.url })),
+};
+const CSV = `${SITE}/data/noco-water-rates-2026.csv`;
+let dataset: Record<string, unknown> | null = null;
+if (isWater) {
+  const { rows } = buildRows(new Map((providers as any[]).map((r) => [r.id, r]))) as { rows: any[] };
+  dataset = {
+    '@type': 'Dataset', '@id': `${canonical}#dataset`,
+    name: 'Northern Colorado water rates, 2026',
+    description: `Residential water rates per 1,000 gallons for ${rows.filter((r) => r.low !== null).length} Northern Colorado water-provider rate sets in 2026 (and one provider that does not publish its usage rates online), with the gallons a year that 1,000 square feet of Kentucky bluegrass uses (CSU Extension: 24 inches of supplemental irrigation a year on the Front Range) and what that water is worth at each provider's lowest and top rate. Each row carries its source link and the date it was checked.`,
+    url: canonical, license: 'https://creativecommons.org/licenses/by/4.0/', isAccessibleForFree: true,
+    ...(businessName && phone ? { creator: BUSINESS_REF } : {}),
+    dateModified: rows.map((r) => r.rec.checked).sort().at(-1),
+    temporalCoverage: '2026', spatialCoverage: { '@type': 'Place', name: 'Northern Colorado' },
+    distribution: [{ '@type': 'DataDownload', encodingFormat: 'text/csv', contentUrl: CSV }],
+    isBasedOn: [...new Set(rows.map((r) => r.rec.source_url))],
+  };
+}
+const graph = [article, ...(dataset ? [dataset] : []), ...faqGraph(faq)];
+---
+<Base title={d.title} description={d.description} crumbs={crumbs} graph={graph} draft={g.draft}>
+  <PageHero label={`${kind} · ${pad(index + 1)} of ${pad(guides.length)}`} crumbs={crumbs} lede={smart(d.description)} compact>
+    <span class="gh1__main">{mainP ? <>{mainP[0]}<PaintWord now>{mainP[1]}</PaintWord>{mainP[2]}</> : main}</span>
+    {deck && <>{' '}<span class="gh1__deck">{deckP ? <>{deckP[0]}<PaintWord now>{deckP[1]}</PaintWord>{deckP[2]}</> : deck}</span></>}
+    <div class="grec" slot="after">
+      <p class="grec__c"><span class="grec__k">Checked</span> <time class="grec__v num" datetime={d.updated}>{d.updated}</time></p>
+      <p class="grec__c"><span class="grec__k">First published</span> <time class="grec__v num" datetime={d.published}>{d.published}</time></p>
+      <p class="grec__c"><span class="grec__k">Sources</span> <a class="grec__v" href="#sources">{d.sources.length}, each dated</a></p>
+      {legal && <p class="grec__c"><span class="grec__k">Status</span> <span class="grec__v">Not legal advice</span></p>}
+      {isWater && <p class="grec__c"><span class="grec__k">Data</span> <a class="grec__v" href="/data/noco-water-rates-2026.csv">CSV · CC BY 4.0</a></p>}
+    </div>
+  </PageHero>
+
+  <div class="gread wrap">
+    <div class="gread__grid">
+      <GuideToc items={toc} checked={d.updated} sources={d.sources.length} />
+
+      <div class="gread__body">
+        <AnswerBox question={smart(d.answer.question)} answer={smart(d.answer.answer)} />
+
+        {letterId && (
+          <a class="gjump" href={`#${letterId}`}>
+            <span class="gjump__glyph"><GuideGlyph id={id} /></span>
+            <span class="gjump__txt">
+              <span class="label">Tool · in this guide</span>
+              <strong>Draft your letter to the committee</strong>
+              <span>From this guide’s own template: fill in the brackets, then copy or print it.</span>
+            </span>
+            <span class="gjump__go" aria-hidden="true"><Icon name="arrow-down" /></span>
+          </a>
+        )}
+
+        <GuideProse islandIn={isWater ? ':lead' : letterId}>
+          <Content />
+          {isWater && <GuideWaterSavings slot="island" />}
+          {letterId && <GuideHoaLetter slot="island" />}
+        </GuideProse>
+
+        {d.faq.length > 0 && (
+          <section class="gpart" id="questions" aria-labelledby="questions-h">
+            <p class="label">Questions</p>
+            <h2 id="questions-h" class="gpart__h">{cfg.faqH2}</h2>
+            <Faq items={faq} name="guide-faq" />
+          </section>
+        )}
+
+        <section class="gpart" id="related" aria-labelledby="related-h">
+          <p class="label">Related</p>
+          <h2 id="related-h" class="gpart__h">The services, towns and guides this one touches.</h2>
+          <div class="grel">
+            {services.length > 0 && (
+              <div class="grel__col">
+                <p class="grel__k">Services</p>
+                <ul class="grel__list" role="list">
+                  {services.map((s: any) => (
+                    <li><a class="grel__a" href={`/services/${s.slug}/`}><span><strong>{s.name}</strong><span class="grel__s">{s.short}</span></span><Icon name="arrow" size={18} /></a></li>
+                  ))}
+                </ul>
+              </div>
+            )}
+            {towns.length > 0 && (
+              <div class="grel__col">
+                <p class="grel__k">Town pages</p>
+                <ul class="grel__towns" role="list">
+                  {towns.map((t) => <li><a href={`/areas/${t.slug}/`}>{t.name}</a></li>)}
+                </ul>
+              </div>
+            )}
+            <div class="grel__col">
+              <p class="grel__k">More guides</p>
+              <ul class="grel__list" role="list">
+                {others.map((o) => (
+                  <li><a class="grel__a" href={`/guides/${o.id}/`}><span><span class="grel__kind">{(o.entry.data as any).kind === 'tool' ? 'Tool' : 'Guide'}</span><strong>{guideLabel((o.entry.data as any).title)}</strong></span><Icon name="arrow" size={18} /></a></li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="gpart gpart--src" id="sources" aria-labelledby="sources-h">
+          <p class="label">Receipts</p>
+          <h2 id="sources-h" class="gpart__h">Every source, with the date it was checked.</h2>
+          <p class="gpart__lede">{legal && <strong>Not legal advice. </strong>}This page reflects its sources as they read on {long(d.updated)}. Rules, rates and programs change; each link goes to the public source it came from.</p>
+          <Sources sources={d.sources} title="Show every source" />
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <CtaBand title={cfg.cta.title} payoff={cfg.cta.payoff} lede={cfg.cta.lede} />
+</Base>
+
+<style>
+  /* ── Hero: the record's H1 as headline + deck, and the title block ── */
+  .gh1__main { display: block; }
+  .gh1__deck { display: block; margin-top: 0.42em; max-width: 30ch; font-size: clamp(1.25rem, 0.95rem + 1.35vw, 2.05rem); font-weight: 640; font-stretch: 100%;
+    letter-spacing: -0.022em; line-height: 1.14; color: var(--ink-2); }
+  .gh1__deck::first-letter { text-transform: uppercase; }
+  .grec { display: flex; flex-wrap: wrap; margin-top: 30px; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--line); }
+  .grec__c { display: grid; gap: 2px; margin: 0; padding: 12px 22px 12px 0; margin-right: 22px; border-right: 1px solid var(--line); }
+  .grec__c:last-child { border-right: 0; margin-right: 0; }
+  .grec__k { font-family: var(--font-display); font-size: var(--fs-label); font-weight: 650; font-stretch: 78%; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-3); }
+  .grec__v { font-family: var(--font-display); font-weight: 720; font-stretch: 104%; font-size: 1rem; letter-spacing: -0.01em; }
+  a.grec__v { display: inline-block; padding-block: 10px; margin-block: -10px; text-decoration-color: var(--paint); text-decoration-thickness: 2px; }
+  @media (max-width: 599px) {
+    .grec { display: grid; grid-template-columns: 1fr 1fr; border-bottom: 0; }
+    .grec__c { margin-right: 0; padding: 10px 12px 10px 0; border-right: 0; border-bottom: 1px solid var(--line); }
+  }
+
+  /* ── The reading layout ── */
+  .gread { padding-block: clamp(28px, 4vw, 64px) clamp(72px, 7vw, 128px); }
+  .gread__grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 28px; align-items: start; timeline-scope: --gread; }
+  .gread__body { min-width: 0; view-timeline: --gread block; }
+  .gread__body > :global(.ab) { max-width: 76ch; }
+  .gread__body > :global(.gprose) { margin-top: clamp(32px, 3.4vw, 52px); }
+  @media (min-width: 1200px) { .gread__grid { grid-template-columns: 232px minmax(0, 1fr); gap: 72px; } }
+
+  /* the tool jump on the HOA guide */
+  .gjump { display: grid; grid-template-columns: 76px minmax(0, 1fr) 48px; gap: 18px; align-items: center; margin-top: 18px; padding: 14px 18px 14px 14px; max-width: 76ch;
+    border-radius: var(--r-panel); background: var(--slab); color: var(--bone); text-decoration: none; transition: background-color var(--t2) var(--ease); }
+  .gjump:hover { background: var(--slab-2); }
+  .gjump__glyph { display: block; aspect-ratio: 4 / 3; padding: 6px; border-radius: var(--r-control); background: var(--slab-2); }
+  .gjump__txt { display: grid; gap: 3px; }
+  .gjump__txt .label { color: var(--bone-3); }
+  .gjump__txt strong { font-family: var(--font-display); font-weight: 760; font-stretch: 108%; font-size: 1.15rem; letter-spacing: -0.02em; }
+  .gjump__txt > span:last-child { font-size: 0.9rem; color: var(--bone-2); }
+  .gjump__go { width: 44px; height: 44px; display: grid; place-items: center; border-radius: 50%; background: var(--paint); color: var(--ink); }
+  @media (max-width: 599px) { .gjump { grid-template-columns: 56px minmax(0, 1fr); } .gjump__go { display: none; } }
+
+  /* closing parts inside the reading column */
+  .gpart { padding-top: clamp(64px, 7vw, 112px); max-width: 880px; scroll-margin-top: 24px; }
+  .gpart .label { margin: 0 0 14px; }
+  .gpart__h { font-size: clamp(1.8rem, 1.2rem + 2.2vw, 2.9rem); margin: 0 0 clamp(20px, 2.4vw, 32px); max-width: 20ch; }
+  .gpart__lede { color: var(--ink-2); max-width: 62ch; }
+  .gpart__lede strong { color: var(--ink); font-weight: 680; }
+  @media (max-width: 1199px) { .gpart { scroll-margin-top: 72px; } }
+
+  .grel { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 28px 40px; }
+  .grel__k { margin: 0 0 8px; padding-bottom: 10px; border-bottom: 2px solid var(--ink); font-family: var(--font-display); font-weight: 760; font-stretch: 104%; font-size: 1rem; }
+  .grel__list { list-style: none; }
+  .grel__a { display: flex; align-items: center; justify-content: space-between; gap: 14px; min-height: 56px; padding: 12px 0; border-bottom: 1px dashed rgb(var(--ink-rgb) / 0.28);
+    text-decoration: none; transition: padding var(--t2) var(--ease); }
+  .grel__a > span { display: grid; gap: 2px; }
+  .grel__a strong { font-family: var(--font-display); font-weight: 700; font-stretch: 104%; font-size: 1rem; letter-spacing: -0.01em; line-height: 1.25; }
+  .grel__s { font-size: 0.86rem; color: var(--ink-3); }
+  .grel__kind { font-family: var(--font-display); font-size: var(--fs-label); font-weight: 650; font-stretch: 78%; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-3); }
+  .grel__a :global(svg) { flex: none; color: var(--ink-3); transition: color var(--t2) var(--ease); }
+  .grel__a:hover { padding-left: 6px; }
+  .grel__a:hover strong { text-decoration: underline; text-decoration-color: var(--paint); text-decoration-thickness: 2px; text-underline-offset: 0.2em; }
+  .grel__a:hover :global(svg) { color: var(--ink); }
+  .grel__towns { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; padding-top: 12px; }
+  .grel__towns a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 16px; border-radius: var(--r-chip); box-shadow: inset 0 0 0 1.5px rgb(var(--ink-rgb) / 0.2);
+    text-decoration: none; font-weight: 600; font-size: 0.93rem; transition: box-shadow var(--t2) var(--ease), background-color var(--t2) var(--ease); }
+  .grel__towns a:hover { box-shadow: inset 0 0 0 1.5px var(--paint); background: var(--ground-2); }
+
+  .gpart--src :global(.src) { max-width: 80ch; }
+
+  /* ── Print: the guide as a reference document ── */
+  @media print {
+    :global(.hdr), :global(.abar), :global(.ftr), :global(.cta), :global(.draft-ribbon), :global(.skip), :global(.gtoc), :global(.gws__in), :global(.gjump), :global(.gdoc__acts) { display: none !important; }
+    :global(body) { background: #fff; padding: 0; }
+    :global(.main--under) { padding-top: 0; }
+    :global(.src[open]), :global(.src) { break-inside: auto; }
+    .gread__grid { display: block; }
+  }
+</style>

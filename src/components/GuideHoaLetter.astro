@@ -1,0 +1,148 @@
+---
+/**
+ * HOA request-letter tool (island). Fields for your name, the address, the HOA, what you're installing
+ * and when → the committee letter, drafted from the guide's OWN template: the script reads the static
+ * template on the page (GuideProse marks it data-gdoc-replace), so the words cannot drift from the
+ * Markdown. Copy and Print buttons; nothing is sent or stored anywhere.
+ *
+ * Progressive: the section ships `hidden`. Without JavaScript the reader gets the static template;
+ * with it, the tool appears in the template's place. No <form> element (the page's one form is the
+ * estimate form). Changes are announced in a polite live region, debounced.
+ */
+---
+<section class="ghl" id="letter" aria-labelledby="ghl-h" data-ghl hidden>
+  <header class="ghl__head">
+    <p class="label">Tool · drafts in your browser, nothing is sent</p>
+    <h3 id="ghl-h">Fill in your details. The letter drafts itself.</h3>
+  </header>
+  <div class="ghl__grid">
+    <div class="ghl__in">
+      <label class="ghl__f"><span class="ghl__l">Your name</span><input data-ghl-k="name" autocomplete="name" /></label>
+      <label class="ghl__f"><span class="ghl__l">The home’s address</span><input data-ghl-k="address" autocomplete="street-address" /></label>
+      <label class="ghl__f"><span class="ghl__l">HOA name</span><input data-ghl-k="hoa" autocomplete="off" /></label>
+      <label class="ghl__f"><span class="ghl__l">Phone or email <span>optional</span></span><input data-ghl-k="contact" autocomplete="email" /></label>
+      <label class="ghl__f ghl__f--wide"><span class="ghl__l">What you’re installing</span>
+        <textarea data-ghl-k="project" rows="3" placeholder="e.g. artificial turf in place of about 900 sq ft of backyard lawn, with a river-rock border"></textarea></label>
+      <label class="ghl__f"><span class="ghl__l">Planned start</span><input type="date" data-ghl-k="start" /></label>
+      <label class="ghl__check"><input type="checkbox" data-ghl-k="grading" /><span>The project changes the lot’s grading or drainage</span></label>
+    </div>
+    <div class="ghl__out">
+      <div class="ghl__sheet" data-ghl-sheet aria-labelledby="ghl-sheet-l" role="region"><p class="sr" id="ghl-sheet-l">Your letter</p><div data-ghl-body></div></div>
+      <div class="ghl__acts">
+        <button type="button" class="btn btn--ink" data-ghl-copy>Copy the letter</button>
+        <button type="button" class="btn btn--line" data-ghl-print>Print it</button>
+      </div>
+      <p class="ghl__status" role="status" aria-live="polite" data-ghl-status></p>
+      <p class="ghl__fine">Drafted from the template on this page. It is a starting point, not legal advice, and nothing you type leaves your browser.</p>
+    </div>
+  </div>
+</section>
+
+<style>
+  .ghl { margin: 1.8em 0 2.4em; padding: clamp(22px, 3.6vw, 40px); border-radius: var(--r-panel); background: var(--ground-2); scroll-margin-top: calc(var(--header-h) + 72px); }
+  .ghl[hidden] { display: none; }
+  .ghl__head h3 { margin: 10px 0 0; max-width: 24ch; }
+  .ghl__grid { display: grid; grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr); gap: clamp(22px, 3.4vw, 44px); margin-top: 24px; align-items: start; }
+  .ghl__in { display: grid; grid-template-columns: 1fr; gap: 14px; }
+  .ghl__f { display: grid; gap: 6px; }
+  .ghl__l { font-family: var(--font-display); font-weight: 650; font-stretch: 96%; font-size: 0.95rem; }
+  .ghl__l span { font-family: var(--font-body); font-weight: 400; font-size: 0.84rem; color: var(--ink-3); margin-left: 6px; }
+  .ghl input:not([type='checkbox']), .ghl textarea { width: 100%; min-height: 50px; padding: 12px 14px; border: 0; border-radius: var(--r-control);
+    font: 500 16px/1.35 var(--font-body); color: var(--ink); background: rgb(255 255 255 / 0.5); box-shadow: inset 0 0 0 1.5px rgb(var(--ink-rgb) / 0.2);
+    transition: box-shadow var(--t2) var(--ease); resize: vertical; }
+  .ghl textarea { min-height: 96px; }
+  .ghl input:focus, .ghl textarea:focus { outline: none; box-shadow: inset 0 0 0 2px var(--paint); }
+  .ghl__check { display: flex; align-items: center; gap: 12px; min-height: 44px; font-size: 0.94rem; cursor: pointer; }
+  .ghl__check input { width: 22px; height: 22px; margin: 0; flex: none; accent-color: var(--paint); }
+
+  .ghl__sheet { position: relative; padding: clamp(24px, 3.4vw, 44px) clamp(20px, 3.6vw, 46px); border-radius: var(--r-photo); background: var(--bone);
+    box-shadow: 0 0 0 1px var(--line), var(--shadow-lift); font-size: 0.94rem; line-height: 1.6; min-height: 320px; }
+  .ghl__sheet::before, .ghl__sheet::after { content: ''; position: absolute; left: 0; width: 12px; height: 1.5px; background: rgb(var(--ink-rgb) / 0.3); }
+  .ghl__sheet::before { top: 33.3%; }
+  .ghl__sheet::after { top: 66.6%; }
+  .ghl__sheet :global(p) { margin: 0 0 1em; white-space: pre-line; }
+  .ghl__sheet :global(p:last-child) { margin-bottom: 0; }
+  .ghl__sheet :global(mark) { background: none; color: inherit; box-shadow: inset 0 -2px 0 rgb(var(--ink-rgb) / 0.22); }
+  .ghl__sheet :global(.gfill) { padding: 0 2px; border-radius: 2px; background: rgb(var(--paint-rgb) / 0.13); box-shadow: inset 0 -2px 0 rgb(var(--paint-rgb) / 0.75); }
+  .ghl__acts { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+  .ghl__acts .btn { min-height: 48px; padding: 0 20px; font-size: 0.98rem; }
+  .ghl__status { margin: 10px 0 0; min-height: 1.4em; font-size: var(--fs-small); color: var(--ink-2); }
+  .ghl__fine { margin: 6px 0 0; font-size: 0.84rem; color: var(--ink-3); max-width: 56ch; }
+  @media (max-width: 899px) { .ghl__grid { grid-template-columns: 1fr; } }
+  @media (max-width: 520px) { .ghl { margin-inline: calc(-1 * var(--gutter)); border-radius: 0; padding-inline: var(--gutter); } .ghl__acts .btn { flex: 1; } }
+
+  @media screen { :global(.ghl-print) { display: none; } }
+  @media print {
+    :global(html[data-print='letter'] body > :not(.ghl-print)) { display: none !important; }
+    :global(html[data-print='letter'] body) { padding: 0; background: #fff; }
+    :global(.ghl-print) { display: none; }
+    :global(html[data-print='letter'] .ghl-print) { display: block; color: #000; font: 11.5pt/1.55 var(--font-body); }
+    :global(.ghl-print p) { margin: 0 0 1em; white-space: pre-line; }
+    :global(.ghl-print mark), :global(.ghl-print .gfill) { background: none; box-shadow: none; color: inherit; }
+  }
+</style>
+
+<script>
+  const root = document.querySelector<HTMLElement>('[data-ghl]');
+  const tpl = document.querySelector<HTMLElement>('[data-gdoc-replace]');
+  const src = tpl ? [...tpl.querySelectorAll('blockquote p')].map((p) => p.textContent ?? '') : [];
+  if (root && tpl && src.length) {
+    const body = root.querySelector<HTMLElement>('[data-ghl-body]')!;
+    const status = root.querySelector<HTMLElement>('[data-ghl-status]')!;
+    const fields = [...root.querySelectorAll<HTMLInputElement | HTMLTextAreaElement>('[data-ghl-k]')];
+    const val = (k: string) => {
+      const f = fields.find((x) => x.dataset.ghlK === k);
+      return f instanceof HTMLInputElement && f.type === 'checkbox' ? (f.checked ? 'y' : '') : (f?.value ?? '').trim();
+    };
+    const esc = (s: string) => s.replace(/[&<>"]/g, (c) => `&#${c.charCodeAt(0)};`);
+    const long = (d: Date) => d.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+    let plain = '';
+    let timer = 0;
+
+    const draft = () => {
+      const v: Record<string, string> = {
+        '[Date]': long(new Date()), '[HOA name]': val('hoa'), '[your address]': val('address'),
+        '[Your name]': val('name'), '[Phone or email]': val('contact'),
+      };
+      const start = val('start') ? long(new Date(`${val('start')}T12:00:00`)) : '';
+      const project = val('project').replace(/[.\s]+$/, '');
+      const extra = [project && `The project: ${project}.`, start && `I plan to start work on ${start}, once the committee approves it.`].filter(Boolean).join(' ');
+      const paras: string[] = [];
+      for (let t of src) {
+        if (t.includes('[If it does,')) {
+          t = val('grading')
+            ? t.replace(/does not change (the lot.s existing grading or drainage)\.\s*\[If it does, (describe the change and how water is handled\.)\]/, 'changes $1: [$2]')
+            : t.replace(/\s*\[If it does,[^\]]*\]/, '');
+        }
+        paras.push(t);
+        if (extra && /^I am asking/.test(t)) paras.push(extra);
+      }
+      plain = paras.map((p) => p.replace(/\[[^\]]+\]/g, (m) => v[m] || m)).join('\n\n');
+      body.innerHTML = paras.map((p) => `<p>${esc(p).replace(/\[[^\]]+\]/g, (m) => (v[m] ? `<mark>${esc(v[m])}</mark>` : `<span class="gfill">${m}</span>`))}</p>`).join('');
+      const left = body.querySelectorAll('.gfill').length;
+      clearTimeout(timer);
+      timer = window.setTimeout(() => { status.textContent = left ? `Letter updated. ${left} bracket${left === 1 ? '' : 's'} still to fill.` : 'Letter updated. Every bracket is filled.'; }, 800);
+    };
+
+    fields.forEach((f) => f.addEventListener('input', draft));
+    root.querySelector('[data-ghl-copy]')!.addEventListener('click', async () => {
+      try { await navigator.clipboard.writeText(plain); status.textContent = 'Copied. Paste it into an email or a document, and attach the packet.'; }
+      catch { status.textContent = 'Copying is blocked here. Select the letter and copy it instead.'; }
+    });
+    root.querySelector('[data-ghl-print]')!.addEventListener('click', () => {
+      const sheet = document.createElement('div');
+      sheet.className = 'ghl-print';
+      sheet.innerHTML = body.innerHTML;
+      document.body.append(sheet);
+      document.documentElement.dataset.print = 'letter';
+      const done = () => { sheet.remove(); delete document.documentElement.dataset.print; removeEventListener('afterprint', done); };
+      addEventListener('afterprint', done);
+      print();
+    });
+
+    draft();
+    status.textContent = '';
+    root.hidden = false;
+    tpl.hidden = true;
+  }
+</script>
