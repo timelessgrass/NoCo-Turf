@@ -1,0 +1,114 @@
+{
+  "status": "draft",
+  "slug": "wellington-co",
+  "name": "Wellington",
+  "region": "poudre",
+  "title": "Artificial Turf in Wellington, CO — Backyards First | NoCo Turf Co.",
+  "description": "Wellington's code wants 75% live plants between a new house and the curb, so turf here starts in the backyard. The Town asks for two-day lawn watering.",
+  "h1": "In Wellington, the front yard stays green and turf goes out back",
+  "lede": "Wellington's front-yard rule is short: 75% live materials between the house and the curb on new single-family lots. That makes turf here a backyard project first.",
+  "answer": {
+    "question": "Can I put artificial turf in my front yard in Wellington?",
+    "answer": "On a new subdivision lot, only a small share. NoCo Turf Co. installs artificial turf in Wellington, Colorado, where new single-family subdivision lots must keep at least 75% live materials between the house and the curb, excluding the driveway. For an existing front yard, ask the Town. The code sections read set no such limit on backyards."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Front yards",
+      "h2": "New Wellington lots keep 75% live plants between the house and the curb.",
+      "paras": [
+        "Wellington Municipal Code 15-5-40 requires at least 75% live materials between the front of a single-family house and the curb, excluding the paved driveway, on new single-family subdivision lots. The Town's Landscape and Irrigation Manual repeats it: a minimum of 75% of the front yard in live plant material.",
+        "The same section says building-permit applications for individual single-family houses won't require landscape plans, and it bars nonfunctional artificial turf in new development and redevelopment, while turf installed before January 1, 2026 may be maintained.",
+        "The manual puts standard single-family lots at an average of 6,000 to 8,000 square feet."
+      ],
+      "layerRefs": ["wellington-code-15-5-40-front-yard-75", "wellington-code-15-5-40-nonfunctional"],
+      "sources": [
+        "https://library.municode.com/co/wellington/codes/municipal_code?nodeId=CH15LAUSCO_ART5DEST_S15-5-40LASC",
+        "https://wellingtoncolorado.gov/DocumentCenter/View/3860/Wellington-Landscape-and-Irrigation-Manual_FINAL"
+      ]
+    },
+    {
+      "kind": "utility",
+      "own": true,
+      "kicker": "Town water",
+      "h2": "Wellington runs its own water plant and asks for two-day lawn watering.",
+      "paras": [
+        "The Town treats its own water, at a plant whose expansion from 2 to 4.2 million gallons a day it announced on January 10, 2025.",
+        "Its watering guidelines, adopted as Resolution 15-2025, ask residents to water only between 7 p.m. and 8 a.m. from April through October and to water turf grass no more than 2 days a week. The Town words them as guidelines, not mandates.",
+        "The Town's water-efficiency program offers reduced-cost Garden In A Box kits and free irrigation audits; no turf rebate is listed."
+      ],
+      "layerRefs": ["wellington-water-plant", "wellington-watering-guidelines", "wellington-programs-no-turf-rebate"],
+      "sources": [
+        "https://www.wellingtoncolorado.gov/CivicAlerts.aspx?AID=403&ARC=774",
+        "https://www.wellingtoncolorado.gov/211/Water-Efficiency-Program"
+      ]
+    },
+    {
+      "kind": "housing",
+      "own": true,
+      "kicker": "New subdivisions",
+      "h2": "About 50.3% of Wellington's homes were built in 2010 or later.",
+      "paras": [
+        "The largest plats in the county's parcel map include Wellington Place, Buffalo Creek, Sage Meadows, which recorded plats in 2026, and Sundance at Daubert Farm.",
+        "New lots in subdivisions like these are the ones the 75% front-yard rule governs."
+      ],
+      "layerRefs": [],
+      "sources": [
+        "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B25035,B25003,B25024,B25034&geo_ids=16000US0827425,16000US0846465,16000US0885485,16000US0877510,16000US0883230,16000US0806255,16000US0839855,16000US0825115,16000US0843220,16000US0869150",
+        "https://maps1.larimer.org/arcgis/rest/services/MapServices/Parcels/MapServer"
+      ]
+    },
+    {
+      "kind": "soil",
+      "own": false,
+      "kicker": "Clay and hail",
+      "h2": "About a third of central Wellington is Nunn clay loam.",
+      "paras": [
+        "Soil surveys around central Wellington map Garrett loam and Nunn clay loam, with high shrink-swell Nunn clay loam covering about a third of the area sampled; NRCS rates the Nunn series as limited for building because of shrink-swell.",
+        "The largest hail NOAA logged near Wellington from 2011 through 2025 was 2.75 inches, on August 3, 2013. The Fort Collins station, south of town, averages 51.4 inches of snow and 150 nights at or below freezing a year."
+      ],
+      "layerRefs": ["nrcs-soil-wellington", "nrcs-nunn-weld-shrink-swell", "noaa-hail-max-wellington", "noaa-normals-fort-collins"],
+      "sources": [
+        "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+        "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/",
+        "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053005&format=json"
+      ]
+    }
+  ],
+  "sections": [],
+  "faq": [
+    {
+      "q": "Does Wellington's 75% rule apply to my existing front yard?",
+      "a": "It depends. The code section is written for new single-family subdivision lots, and building permits for individual houses don't require landscape plans, but the Town's manual states the 75% front-yard rule broadly. Ask the Town before you plan front-yard turf."
+    },
+    {
+      "q": "Are Wellington's watering days mandatory?",
+      "a": "No. The Town words its Resolution 15-2025 schedule as guidelines: water between 7 p.m. and 8 a.m. from April through October, and turf grass no more than 2 days a week."
+    },
+    {
+      "q": "Is there a turf rebate in Wellington?",
+      "a": "No. The Town's program offers reduced-cost Garden In A Box kits and free irrigation audits, with no turf rebate listed."
+    }
+  ],
+  "nearby": ["fort-collins-co", "timnath-co", "severance-co", "windsor-co"],
+  "sources": [
+    { "label": "Wellington Municipal Code Sec. 15-5-40 (codified through Ord. No. 07-2026, July 14, 2026)", "url": "https://library.municode.com/co/wellington/codes/municipal_code?nodeId=CH15LAUSCO_ART5DEST_S15-5-40LASC", "checked": "2026-09-24" },
+    { "label": "Town of Wellington, Landscape and Irrigation Manual (April 2022): 75% of the front yard in live plant material; standard single-family lots average 6,000–8,000 sq ft", "url": "https://wellingtoncolorado.gov/DocumentCenter/View/3860/Wellington-Landscape-and-Irrigation-Manual_FINAL", "checked": "2026-09-24" },
+    { "label": "Town of Wellington news release on the water treatment plant and reclamation facility expansions (posted Jan. 10, 2025)", "url": "https://www.wellingtoncolorado.gov/CivicAlerts.aspx?AID=403&ARC=774", "checked": "2026-09-24" },
+    { "label": "Town of Wellington, Water Efficiency Program (Resolution No. 15-2025 guidelines)", "url": "https://www.wellingtoncolorado.gov/211/Water-Efficiency-Program", "checked": "2026-09-24" },
+    { "label": "ACS 2020–2024 via Census Reporter: Wellington housing (50.3% built 2010 or later)", "url": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B25035,B25003,B25024,B25034&geo_ids=16000US0827425,16000US0846465,16000US0885485,16000US0877510,16000US0883230,16000US0806255,16000US0839855,16000US0825115,16000US0843220,16000US0869150", "checked": "2026-09-24" },
+    { "label": "Larimer County parcel GIS: Wellington plats (Wellington Place, Buffalo Creek, Sage Meadows with plats recorded 2026, Sundance at Daubert Farm)", "url": "https://maps1.larimer.org/arcgis/rest/services/MapServices/Parcels/MapServer", "checked": "2026-09-24" },
+    { "label": "USDA-NRCS Soil Data Access (SSURGO), central Wellington sample and Nunn series shrink-swell interpretation", "url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest", "checked": "2026-09-24" },
+    { "label": "NOAA NCEI Storm Events Database, hail reports near Wellington, 2011–2025", "url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/", "checked": "2026-09-24" },
+    { "label": "NOAA NCEI U.S. Climate Normals 1991–2020, station FT COLLINS (USC00053005)", "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053005&format=json", "checked": "2026-09-24" }
+  ],
+  "checked": "2026-09-24",
+  "needsFromBrian": [
+    "Named or described Wellington jobs, backyards especially: subdivision, month, rough size, use",
+    "Whether the Town of Wellington has ever reviewed or refused a front-yard turf plan you worked on",
+    "Camera-original photos of at least one Wellington job, before and after",
+    "Google reviews from Wellington customers that name the town, with consent to quote first name and last initial",
+    "Whether Wellington is the northern edge of the area you serve"
+  ]
+}

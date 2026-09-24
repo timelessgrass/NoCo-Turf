@@ -1,0 +1,134 @@
+{
+  "status": "draft",
+  "slug": "loveland-co",
+  "name": "Loveland",
+  "region": "loveland-berthoud",
+  "title": "Artificial Turf in Loveland, CO — Single-Family Exempt | NoCo Turf Co.",
+  "description": "Loveland's 2026 code applies the state turf law to new commercial and HOA common landscapes, not to single-family lots. Water is a flat $4.27 per 1,000 gallons.",
+  "h1": "Loveland's 2026 turf rules skip single-family lots and land on common areas",
+  "lede": "Loveland rewrote its development code for the state turf law in March 2026, and the city's own summary is the plain-language version: single-family lots aren't covered. What is covered, and what still shapes a Loveland yard, is below.",
+  "answer": {
+    "question": "Is artificial turf allowed on a single-family lot in Loveland?",
+    "answer": "The state turf law doesn't reach it. NoCo Turf Co. installs artificial turf in Loveland, Colorado, where the March 2026 code update applies that law to new development and redevelopment on commercial, HOA common and right-of-way land; the city says it does not apply to single-family lots or private lots in duplex, condo and townhome developments. Your HOA's design rules still apply."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Ordinance 6819",
+      "h2": "Loveland wrote the state turf law into its code and left house lots out.",
+      "paras": [
+        "Loveland updated its Unified Development Code in March 2026 to line up with Senate Bill 24-005, and the change took effect March 17. On its project page the city lists what that law does not apply to: single-family residential lots, and private lots within duplex, condominium and townhome developments.",
+        "The state law, in force since January 1, 2026, bars local governments from allowing nonfunctional artificial turf in new development or redevelopment on commercial, institutional and industrial property, HOA common property, and street rights-of-way, parking lots, medians and transportation corridors. The law also lets a town allow turf installed before that date to be maintained."
+      ],
+      "layerRefs": ["loveland-ord-6819-sb24-005", "co-sb24-005-nonfunctional-ban", "co-sb24-005-applicable-property", "co-sb24-005-maintain-existing"],
+      "sources": [
+        "https://www.letstalkloveland.org/landscape-changes",
+        "https://leg.colorado.gov/bill_files/40673/download",
+        "https://leg.colorado.gov/bill_files/45372/download"
+      ]
+    },
+    {
+      "kind": "housing",
+      "own": true,
+      "kicker": "Where Loveland is building",
+      "h2": "Barnstorm, Millennium East and Kinston are Loveland's big new neighborhoods.",
+      "paras": [
+        "The largest plats in the county's parcel map are Barnstorm at 1,049 acres, Millennium East at 929 acres with plats recorded in 2026, and Mariana Butte, a 690-acre golf community. Boyd Lake North, Lee Farm and Twin Peaks recorded plats in 2025.",
+        "Kinston at Centerra, the McWhinney neighborhood, is planned for about 2,800 homesites across 10 metro districts. Read Kinston's design guidelines before you plan a turf area."
+      ],
+      "layerRefs": [],
+      "sources": [
+        "https://maps1.larimer.org/arcgis/rest/services/MapServices/Parcels/MapServer",
+        "https://bizwest.com/2019/09/06/loveland-leaders-move-mcwhinneys-kinston-development-forward/",
+        "https://www.centerra.com/kinston/metro-districts/"
+      ]
+    },
+    {
+      "kind": "golf",
+      "own": true,
+      "kicker": "City golf",
+      "h2": "Loveland's Cattail Creek keeps a nine-hole putting course on real grass.",
+      "paras": [
+        "Loveland runs three city courses: Mariana Butte, The Olde Course at 6,806 yards, and Cattail Creek, a nine-hole course with a separate nine-hole putting course on real grass.",
+        "A backyard putting green is a different project. It sits on a private lot, where the city says the state turf law does not apply, and under whatever design rules your HOA keeps."
+      ],
+      "layerRefs": [],
+      "sources": ["https://www.golfloveland.com/"]
+    },
+    {
+      "kind": "utility",
+      "own": true,
+      "kicker": "Water and Power",
+      "h2": "Loveland bills water at one flat rate per gallon, with no usage tiers.",
+      "paras": [
+        "Inside the city, a single-family home pays a $21.51 monthly base for a 0.75-inch tap and a flat $4.27 per 1,000 gallons in 2026, whatever the monthly volume.",
+        "In April 2026 the utility was at the voluntary level of its drought plan, asking customers to water no more than 3 days a week and not from 10 a.m. to 6 p.m. North Loveland addresses as far south as 57th Street can be on Fort Collins-Loveland Water District instead.",
+        "Resource Central's lawn-replacement program, which Fort Collins-Loveland and Little Thompson water districts offer, requires the replaced area to be at least half waterwise plants."
+      ],
+      "layerRefs": ["loveland-rates-2026", "loveland-voluntary-2026", "fclwd-service-area", "resource-central-lawn-2026"],
+      "sources": [
+        "https://cilovelandco.civicweb.net/document/493680/",
+        "https://www.reporterherald.com/2026/04/05/loveland-watering-restrictions/",
+        "https://fclwd.com/who-we-are/",
+        "https://resourcecentral.org/lawn/"
+      ]
+    },
+    {
+      "kind": "climate",
+      "own": false,
+      "kicker": "Foothill-edge weather",
+      "h2": "Nunn clay loam and 173.9 freezing nights a year work on a Loveland base.",
+      "paras": [
+        "Soil surveys around central Loveland map mostly Fort Collins loam and Nunn clay loam, with sandier Paoli fine sandy loam near the water. The Loveland 2N station averages 173.9 days with a low at or below freezing, 37.7 days at or above 90°F and 47.0 inches of snow a year (1991–2020 normals).",
+        "NOAA logged 25 hail reports referenced to Loveland from 2011 through 2025, topping out at 1.75 inches on five occasions, most recently August 5, 2023."
+      ],
+      "layerRefs": ["nrcs-soil-loveland", "noaa-normals-loveland-2n", "noaa-hail-max-loveland"],
+      "sources": [
+        "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+        "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00055236&format=json",
+        "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/"
+      ]
+    }
+  ],
+  "sections": [],
+  "faq": [
+    {
+      "q": "Does Loveland's new turf ordinance cover my house?",
+      "a": "No, by the city's own account. Its project page says the state law it wrote into the code in March 2026 does not apply to single-family lots or to private lots in duplex, condo and townhome developments."
+    },
+    {
+      "q": "Is there a Loveland rebate for artificial turf?",
+      "a": "None that could be confirmed. Resource Central's lawn-replacement program, which Fort Collins-Loveland and Little Thompson water districts offer, requires the replaced area to be at least half waterwise plants. Ask Loveland Water and Power about its own programs before you count on a rebate."
+    },
+    {
+      "q": "What does water cost for a Loveland lawn?",
+      "a": "Inside the city, a flat $4.27 per 1,000 gallons in 2026, on top of a $21.51 monthly base for a 0.75-inch tap. There are no usage tiers, so the last gallon costs what the first one did."
+    }
+  ],
+  "nearby": ["berthoud-co", "johnstown-co", "fort-collins-co", "windsor-co"],
+  "sources": [
+    { "label": "City of Loveland, Landscape Changes project page (Ordinance 6819, effective March 17, 2026)", "url": "https://www.letstalkloveland.org/landscape-changes", "checked": "2026-09-24" },
+    { "label": "C.R.S. 37-99-103(1), SB24-005 as amended by HB25-1113 (signed act)", "url": "https://leg.colorado.gov/bill_files/40673/download", "checked": "2026-09-24" },
+    { "label": "C.R.S. 37-99-102(1)(a) and 37-99-103(4)(a), SB24-005 (signed act)", "url": "https://leg.colorado.gov/bill_files/45372/download", "checked": "2026-09-24" },
+    { "label": "Larimer County parcel GIS: Loveland plats (Barnstorm 1,049 ac; Millennium East 929 ac, plats 2026; Mariana Butte 690 ac; Boyd Lake North, Lee Farm and Twin Peaks plats 2025)", "url": "https://maps1.larimer.org/arcgis/rest/services/MapServices/Parcels/MapServer", "checked": "2026-09-24" },
+    { "label": "BizWest, Sept. 6, 2019: Kinston at Centerra (about 2,800 homesites)", "url": "https://bizwest.com/2019/09/06/loveland-leaders-move-mcwhinneys-kinston-development-forward/", "checked": "2026-09-24" },
+    { "label": "Centerra, Kinston metro districts (10 metro districts)", "url": "https://www.centerra.com/kinston/metro-districts/", "checked": "2026-09-24" },
+    { "label": "City of Loveland Golf: Mariana Butte, The Olde Course (6,806 yd), Cattail Creek and its putting course", "url": "https://www.golfloveland.com/", "checked": "2026-09-24" },
+    { "label": "City of Loveland Utilities, 2026 Utility Rates, Charges, and Fees (Attachment C, council packet item 5.3)", "url": "https://cilovelandco.civicweb.net/document/493680/", "checked": "2026-09-24" },
+    { "label": "Loveland Reporter-Herald, April 5, 2026: Loveland watering restrictions", "url": "https://www.reporterherald.com/2026/04/05/loveland-watering-restrictions/", "checked": "2026-09-24" },
+    { "label": "Fort Collins-Loveland Water District, Who We Are", "url": "https://fclwd.com/who-we-are/", "checked": "2026-09-24" },
+    { "label": "Resource Central, Lawn Replacement program page", "url": "https://resourcecentral.org/lawn/", "checked": "2026-09-24" },
+    { "label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Loveland", "url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest", "checked": "2026-09-24" },
+    { "label": "NOAA NCEI U.S. Climate Normals 1991–2020, station LOVELAND 2N (USC00055236)", "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00055236&format=json", "checked": "2026-09-24" },
+    { "label": "NOAA NCEI Storm Events Database, hail reports referenced to Loveland, 2011–2025", "url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/", "checked": "2026-09-24" }
+  ],
+  "checked": "2026-09-24",
+  "needsFromBrian": [
+    "Named or described Loveland jobs (Kinston at Centerra, Mariana Butte, Barnstorm or an older neighborhood): month, rough size, use",
+    "Camera-original photos of at least one Loveland job, before and after",
+    "Google reviews from Loveland customers that name the town, with consent to quote first name and last initial",
+    "Any Kinston or Centerra metro-district design submittals you have prepared",
+    "Any backyard putting greens installed near Mariana Butte or The Olde Course"
+  ]
+}

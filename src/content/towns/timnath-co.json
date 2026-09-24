@@ -1,0 +1,135 @@
+{
+  "status": "draft",
+  "slug": "timnath-co",
+  "name": "Timnath",
+  "region": "windsor-johnstown",
+  "title": "Artificial Turf in Timnath, CO — Metro District Homes | NoCo Turf Co.",
+  "description": "Timnath went from 625 residents in 2010 to about 11,600, so a turf plan there usually starts with a subdivision's design rules, not the town code.",
+  "h1": "Timnath's newest neighborhoods sit in seven named metro-district families",
+  "lede": "Timnath is mostly new houses on new streets, and in a town that young the first stop for a turf plan is usually a subdivision's design rules, not the town code.",
+  "answer": {
+    "question": "Can I install artificial turf in my Timnath backyard?",
+    "answer": "Most likely, for a detached home. NoCo Turf Co. installs artificial turf in Timnath, Colorado, where 85.1% of homes date from 2010 or later, so subdivision design rules usually come first. Colorado law bars an HOA from prohibiting backyard turf on a detached home, though it can review the design. The town's current code couldn't be read, so ask Timnath Planning too."
+  },
+  "blocks": [
+    {
+      "kind": "housing",
+      "own": true,
+      "kicker": "Growth since 2010",
+      "h2": "Timnath went from 625 residents in 2010 to about 11,600 in 2025.",
+      "paras": [
+        "The 2010 Census counted 625 people in Timnath and the 2020 Census 6,487; the Census Bureau's 2025 estimate is about 11,600. The houses follow the same curve: 85.1% were built in 2010 or later.",
+        "The largest plats in the county's parcel map are Timnath Ranch at 557 acres, with plats recorded in 2026, Harmony at 555 acres and Timnath South at 483 acres, followed by Wildwing, Ladera and Serratoga Falls."
+      ],
+      "layerRefs": [],
+      "sources": [
+        "https://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/Colorado/",
+        "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/cities/totals/sub-est2025.csv",
+        "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B25035,B25003,B25024,B25034&geo_ids=16000US0827425,16000US0846465,16000US0885485,16000US0877510,16000US0883230,16000US0806255,16000US0839855,16000US0825115,16000US0843220,16000US0869150",
+        "https://maps1.larimer.org/arcgis/rest/services/MapServices/Parcels/MapServer"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "District boards",
+      "h2": "The Town lists seven metro-district families, each with its own board.",
+      "paras": [
+        "Timnath's metro-district page lists Serratoga Falls 1–3 (No. 3 is Kitchel Lake), South Timnath 1–2, Southwest Timnath 1–4, Timnath Lakes 1–6, Timnath Ranch 1–4, Trailside 1–5 and Wildwing 1–5.",
+        "Colorado law makes any HOA covenant or special-district rule that prohibits artificial turf in the backyard of a residential property unenforceable, except for attached homes and timeshares. Design review is a separate matter, so send the plan to your district or HOA before any sod comes up."
+      ],
+      "layerRefs": ["co-special-district-backyard", "co-hoa-backyard-detached"],
+      "sources": [
+        "https://web.archive.org/web/20260810221013/https://timnath.org/metro-districts/",
+        "https://leg.colorado.gov/bill_files/92307/download"
+      ]
+    },
+    {
+      "kind": "golf",
+      "own": true,
+      "kicker": "Harmony Club",
+      "h2": "Harmony Club is a private Jim Engh course inside Timnath's second-largest plat.",
+      "paras": [
+        "Harmony Club opened in 2007 and plays 7,464 yards; the Harmony plat around it covers 555 acres.",
+        "Colorado's 2025 amendment names putting and chipping greens as functional artificial turf, which the state's nonfunctional-turf ban does not reach; a town code can still be stricter, and Timnath's current code could not be read for this page. A backyard green on a Harmony lot is a private-yard project under your HOA's design rules."
+      ],
+      "layerRefs": ["co-hb25-1113-functional-turf"],
+      "sources": [
+        "https://coloradoavidgolfer.com/golf_course/harmony-club/",
+        "https://leg.colorado.gov/bill_files/40673/download"
+      ]
+    },
+    {
+      "kind": "utility",
+      "own": false,
+      "kicker": "Soldier Canyon water",
+      "h2": "Timnath's treated water comes through the Soldier Canyon Filter Plant.",
+      "paras": [
+        "ELCO, North Weld County Water District and Fort Collins-Loveland Water District jointly own the Soldier Canyon plant, which supplies Timnath. Fort Collins-Loveland, which serves parts of Timnath, charges most homes a $25.54 monthly base plus $2.99 per 1,000 gallons up to 5,000 in 2026, rising by tier to $6.83 above 50,000.",
+        "The district ran a voluntary Water Shortage Watch in 2026 and says its outdoor season has ended. Resource Central's lawn-replacement program, offered through the district, requires the replaced area to be at least half waterwise plants."
+      ],
+      "layerRefs": ["soldier-canyon-filter-plant-towns", "fclwd-service-area", "fclwd-rates-2026-non-city-iga", "fclwd-watch-2026", "resource-central-lawn-2026"],
+      "sources": [
+        "https://www.elcowater.org/source-of-elco-s-water",
+        "https://fclwd.com/who-we-are/",
+        "https://fclwd.com/wp-content/uploads/2026/01/Back-of-Water-Bill-2026.pdf",
+        "https://fclwd.com/watering-restrictions/",
+        "https://resourcecentral.org/lawn/"
+      ]
+    },
+    {
+      "kind": "soil",
+      "own": false,
+      "kicker": "Sandy loam",
+      "h2": "Most of Timnath sits on low shrink-swell sandy loam, with a clay loam pocket.",
+      "paras": [
+        "Soil surveys around central Timnath map mostly Paoli fine sandy loam and Table Mountain loam, both low shrink-swell, with a pocket of Loveland clay loam. The nearest NOAA station, Fort Collins 4E, averages 14.83 inches of precipitation, 48.4 inches of snow and 31.6 days at or above 90°F a year.",
+        "The largest hail NOAA logged near Timnath from 2011 through 2025 was 1.75 inches, on June 12, 2017 and July 29, 2018."
+      ],
+      "layerRefs": ["nrcs-soil-timnath", "noaa-normals-fort-collins-4e", "noaa-hail-max-timnath"],
+      "sources": [
+        "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+        "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053006&format=json",
+        "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/"
+      ]
+    }
+  ],
+  "sections": [],
+  "faq": [
+    {
+      "q": "Which Timnath metro district am I in?",
+      "a": "Check the Town's metro-district page. It lists seven families, each with its own board: Serratoga Falls 1–3 (No. 3 is Kitchel Lake), South Timnath 1–2, Southwest Timnath 1–4, Timnath Lakes 1–6, Timnath Ranch 1–4, Trailside 1–5 and Wildwing 1–5."
+    },
+    {
+      "q": "Is there a rebate for turf in Timnath?",
+      "a": "No program found pays for it. Resource Central's lawn replacement, offered through Fort Collins-Loveland Water District, requires at least half waterwise plants."
+    }
+  ],
+  "nearby": ["windsor-co", "fort-collins-co", "severance-co", "wellington-co"],
+  "sources": [
+    { "label": "U.S. Census Bureau, 2010 Census redistricting file (Timnath: 625)", "url": "https://www2.census.gov/census_2010/01-Redistricting_File--PL_94-171/Colorado/", "checked": "2026-09-24" },
+    { "label": "U.S. Census Bureau, Vintage 2025 city estimates (Timnath about 11,600; 2020 Census 6,487)", "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/cities/totals/sub-est2025.csv", "checked": "2026-09-24" },
+    { "label": "ACS 2020–2024 via Census Reporter: Timnath housing (85.1% built 2010 or later)", "url": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B25035,B25003,B25024,B25034&geo_ids=16000US0827425,16000US0846465,16000US0885485,16000US0877510,16000US0883230,16000US0806255,16000US0839855,16000US0825115,16000US0843220,16000US0869150", "checked": "2026-09-24" },
+    { "label": "Larimer County parcel GIS: Timnath plats (Timnath Ranch 557 ac, plats 2026; Harmony 555 ac; Timnath South 483 ac)", "url": "https://maps1.larimer.org/arcgis/rest/services/MapServices/Parcels/MapServer", "checked": "2026-09-24" },
+    { "label": "Town of Timnath, Metro Districts (Wayback snapshot 2026-08-10)", "url": "https://web.archive.org/web/20260810221013/https://timnath.org/metro-districts/", "checked": "2026-09-24" },
+    { "label": "C.R.S. 37-60-126(11)(a.5) and 38-33.3-106.5(1)(i.5), added by SB23-178 (signed act)", "url": "https://leg.colorado.gov/bill_files/92307/download", "checked": "2026-09-24" },
+    { "label": "Colorado AvidGolfer, Harmony Club (Jim Engh design, opened 2007, 7,464 yd)", "url": "https://coloradoavidgolfer.com/golf_course/harmony-club/", "checked": "2026-09-24" },
+    { "label": "C.R.S. 37-99-102(6.5), added by HB25-1113 (signed act)", "url": "https://leg.colorado.gov/bill_files/40673/download", "checked": "2026-09-24" },
+    { "label": "ELCO Water District, Source of ELCO's Water (Soldier Canyon Filter Plant)", "url": "https://www.elcowater.org/source-of-elco-s-water", "checked": "2026-09-24" },
+    { "label": "Fort Collins-Loveland Water District, Who We Are", "url": "https://fclwd.com/who-we-are/", "checked": "2026-09-24" },
+    { "label": "Fort Collins-Loveland Water District, Back of Water Bill 2026 (rates)", "url": "https://fclwd.com/wp-content/uploads/2026/01/Back-of-Water-Bill-2026.pdf", "checked": "2026-09-24" },
+    { "label": "Fort Collins-Loveland Water District, Watering Restrictions", "url": "https://fclwd.com/watering-restrictions/", "checked": "2026-09-24" },
+    { "label": "Resource Central, Lawn Replacement program page", "url": "https://resourcecentral.org/lawn/", "checked": "2026-09-24" },
+    { "label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Timnath", "url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest", "checked": "2026-09-24" },
+    { "label": "NOAA NCEI U.S. Climate Normals 1991–2020, station FT COLLINS 4E (USC00053006)", "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053006&format=json", "checked": "2026-09-24" },
+    { "label": "NOAA NCEI Storm Events Database, hail reports near Timnath, 2011–2025", "url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/", "checked": "2026-09-24" }
+  ],
+  "checked": "2026-09-24",
+  "needsFromBrian": [
+    "Named or described Timnath jobs (Harmony, Wildwing, Timnath Ranch, Serratoga Falls or another subdivision): month, rough size, use",
+    "Metro-district or HOA design-review submittals you have prepared in Timnath, and how long approval took",
+    "Camera-original photos of at least one Timnath job, before and after",
+    "Google reviews from Timnath customers that name the town, with consent to quote first name and last initial",
+    "Any tree-lawn turf you have installed in Timnath, and whether the Town approved it"
+  ]
+}

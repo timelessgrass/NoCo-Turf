@@ -32,7 +32,408 @@
   }
  },
  "photos": [],
- "reviews": [],
- "credentials": [],
- "case_studies": []
+ "reviews": [
+  {
+   "platform": "Google",
+   "url": "https://www.google.com/maps?cid=1677961776015338447",
+   "author": "Mike T.",
+   "quote": "NoCo Turf did a solid job!",
+   "date": "2026-07-22",
+   "stars": 5,
+   "services": [
+    "lawn replacement"
+   ],
+   "permission": false,
+   "status": "pending_consent",
+   "quote_scope": "first sentence only",
+   "text_source": "Google Maps (limited view), read by research",
+   "verified_on_google": true,
+   "evidence": "archive/research-2026-09-24/wf1/gap-2.md (b); internal-assets.md §7c",
+   "mirror_url": "https://reviews.birdeye.com/noco-turf-co-172508081543990?rsource=2"
+  },
+  {
+   "platform": "Google",
+   "url": "https://www.google.com/maps?cid=1677961776015338447",
+   "author": "Kirk R.",
+   "quote": "We could not be happier.",
+   "date": "2026-03-14",
+   "stars": 5,
+   "services": [
+    "pet turf",
+    "lawn replacement"
+   ],
+   "permission": false,
+   "status": "pending_consent",
+   "quote_scope": "first sentence only",
+   "text_source": "Google Maps (limited view), read by research",
+   "verified_on_google": true,
+   "evidence": "archive/research-2026-09-24/wf1/gap-2.md (b); internal-assets.md §7c"
+  },
+  {
+   "platform": "Google",
+   "url": "https://www.google.com/maps?cid=1677961776015338447",
+   "author": "Kevin A.",
+   "quote": "NOCO Turf Co did a phenomenal job transforming our backyard from a pile of dirt to a backyard escape for our dogs and family.",
+   "date": "2026-03-10",
+   "stars": 5,
+   "services": [
+    "pet turf",
+    "putting green"
+   ],
+   "permission": false,
+   "status": "pending_consent",
+   "quote_scope": "first sentence only",
+   "text_source": "Google Maps (limited view), read by research",
+   "verified_on_google": true,
+   "evidence": "archive/research-2026-09-24/wf1/gap-2.md (b); internal-assets.md §7c"
+  },
+  {
+   "platform": "Google",
+   "url": "https://www.google.com/maps?cid=1677961776015338447",
+   "author": "Bryan J.",
+   "quote": "NOCO did an amazing job installing the turf in our back yard!!",
+   "date": "2026-05-25",
+   "stars": 5,
+   "services": [
+    "sod removal and install"
+   ],
+   "permission": false,
+   "status": "pending_consent",
+   "quote_scope": "first sentence only",
+   "text_source": "Google Maps (limited view), read by research",
+   "verified_on_google": true,
+   "evidence": "archive/research-2026-09-24/wf1/gap-2.md (b); internal-assets.md §7c"
+  },
+  {
+   "platform": "Google",
+   "url": "https://www.google.com/maps?cid=1677961776015338447",
+   "author": "Johnny G.",
+   "quote": "I had three estimates and NoCo turf was a couple thousand dollars less than the other two!",
+   "date": "2026-07-23",
+   "stars": 5,
+   "services": [
+    "yard install"
+   ],
+   "permission": false,
+   "status": "pending_consent",
+   "quote_scope": "first sentence only",
+   "text_source": "Birdeye mirror of the Google review",
+   "verified_on_google": false,
+   "evidence": "archive/research-2026-09-24/wf1/gap-2.md (b); internal-assets.md §7c",
+   "mirror_url": "https://reviews.birdeye.com/noco-turf-co-172508081543990?rsource=2"
+  },
+  {
+   "platform": "Google",
+   "url": "https://www.google.com/maps?cid=1677961776015338447",
+   "author": "Sharon Y.",
+   "quote": "Amazing customer service!",
+   "date": "2026-07-18",
+   "stars": 5,
+   "services": [
+    "dog run"
+   ],
+   "permission": false,
+   "status": "pending_consent",
+   "quote_scope": "first sentence only",
+   "text_source": "Birdeye mirror of the Google review",
+   "verified_on_google": false,
+   "evidence": "archive/research-2026-09-24/wf1/gap-2.md (b); internal-assets.md §7c",
+   "mirror_url": "https://reviews.birdeye.com/noco-turf-co-172508081543990?rsource=2"
+  },
+  {
+   "platform": "Google",
+   "url": "https://www.google.com/maps?cid=1677961776015338447",
+   "author": "Marissa G.",
+   "quote": "STILL IN DISBELIEF Brian and his crew at NoCo Turf showed up with smiles, worked their butt off, and made my dream backyard a reality!!",
+   "date": "2026-07-01",
+   "stars": 5,
+   "services": [
+    "backyard install"
+   ],
+   "permission": false,
+   "status": "pending_consent",
+   "quote_scope": "first sentence only",
+   "text_source": "Birdeye mirror of the Google review",
+   "verified_on_google": false,
+   "evidence": "archive/research-2026-09-24/wf1/gap-2.md (b); internal-assets.md §7c",
+   "mirror_url": "https://reviews.birdeye.com/noco-turf-co-172508081543990?rsource=2"
+  },
+  {
+   "platform": "Google",
+   "url": "https://www.google.com/maps?cid=1677961776015338447",
+   "author": "Jim W.",
+   "quote": "Brian was terrific, No pressure to buy.",
+   "date": "2026-03",
+   "stars": 5,
+   "services": [
+    "install"
+   ],
+   "permission": false,
+   "status": "pending_consent",
+   "quote_scope": "first sentence only",
+   "text_source": "review card on the current nocoturf.com (client site — not independent)",
+   "verified_on_google": false,
+   "evidence": "archive/research-2026-09-24/wf1/gap-2.md (b); internal-assets.md §7c"
+  },
+  {
+   "platform": "Google",
+   "url": "https://www.google.com/maps?cid=1677961776015338447",
+   "author": "Ally P.",
+   "quote": "My husband worked with Brian and we had such a great experience!",
+   "date": "2026-04",
+   "stars": 5,
+   "services": [
+    "pet turf"
+   ],
+   "permission": false,
+   "status": "pending_consent",
+   "quote_scope": "first sentence only",
+   "text_source": "review card on the current nocoturf.com (client site — not independent)",
+   "verified_on_google": false,
+   "evidence": "archive/research-2026-09-24/wf1/gap-2.md (b); internal-assets.md §7c"
+  }
+ ],
+ "credentials": [
+  {
+   "kind": "business registration",
+   "number": "20241237162",
+   "issuer": "Colorado Secretary of State",
+   "lookup_url": "https://www.coloradosos.gov/biz/BusinessEntityDetail.do?masterFileId=20241237162",
+   "document_on_file": false,
+   "checked": "2026-09-24",
+   "note": "Online record: NOCO Turf Co. LLC, Good Standing, formed 2024-02-26. A certificate of good standing can be downloaded from the lookup page if a document is wanted."
+  }
+ ],
+ "case_studies": [],
+ "_note": "Checked 2026-09-24. Zero confirmed NoCo photos: photos[] stays empty until Brian assigns each job to one brand, names the town and supplies camera originals. Candidates, banned sources and reviews awaiting consent are listed below photos[] so `truth.py proof` counts only what can ship.",
+ "photo_candidates": {
+  "_rule": "Brian's own phone originals whose EXIF places them in NoCo territory (nearest town only; GPS withheld and stripped on import). They already ship on the sister brand. Each job goes to ONE brand; never publish the same image on both. Usable for NoCo only after Brian assigns the job, confirms the town and OKs publication — then it moves to photos[] with source \"client\".",
+  "items": [
+   {
+    "file": "~/Downloads/Timless Turf Raw Content/IMG_0834.HEIC",
+    "kind_if_confirmed": "finished",
+    "shows": "backyard putting green with landscaped boulders",
+    "captured_utc": "2025-08-20",
+    "camera": "iPhone 16",
+    "nearest_town": "Windsor area",
+    "job_group": "windsor-2025-08-20",
+    "source": "client",
+    "status": "pending_brand_assignment",
+    "evidence": "archive/research-2026-09-24/wf1/internal-assets.md §7a",
+    "currently_used_by": "sister brand (TIMELESS Grass & Greens site; one is its homepage hero)"
+   },
+   {
+    "file": "~/Downloads/Timless Turf Raw Content/IMG_0835.HEIC",
+    "kind_if_confirmed": "context",
+    "shows": "same putting green, seen from the street",
+    "captured_utc": "2025-08-20",
+    "camera": "iPhone 16",
+    "nearest_town": "Windsor area",
+    "job_group": "windsor-2025-08-20",
+    "source": "client",
+    "status": "pending_brand_assignment",
+    "evidence": "archive/research-2026-09-24/wf1/internal-assets.md §7a",
+    "currently_used_by": "sister brand (TIMELESS Grass & Greens site)"
+   },
+   {
+    "file": "~/Downloads/Timless Turf Raw Content/IMG_0841.HEIC",
+    "kind_if_confirmed": "context",
+    "shows": "same putting green, driveway view",
+    "captured_utc": "2025-08-20",
+    "camera": "iPhone 16",
+    "nearest_town": "Windsor area",
+    "job_group": "windsor-2025-08-20",
+    "source": "client",
+    "status": "pending_brand_assignment",
+    "evidence": "archive/research-2026-09-24/wf1/internal-assets.md §7a",
+    "currently_used_by": "sister brand (TIMELESS Grass & Greens site)"
+   },
+   {
+    "file": "~/Downloads/Timless Turf Raw Content/IMG_3710.HEIC",
+    "kind_if_confirmed": "finished",
+    "shows": "artificial lawn in a fenced yard with rock border",
+    "captured_utc": "2025-08-12",
+    "camera": "iPhone 15 Pro Max",
+    "nearest_town": "Windsor area",
+    "job_group": null,
+    "source": "client",
+    "status": "pending_brand_assignment",
+    "evidence": "archive/research-2026-09-24/wf1/internal-assets.md §7a",
+    "currently_used_by": "sister brand (TIMELESS Grass & Greens site)"
+   },
+   {
+    "file": "~/Downloads/Timless Turf Raw Content/IMG_0794.HEIC",
+    "kind_if_confirmed": "finished",
+    "shows": "artificial lawn with playset",
+    "captured_utc": "2025-08-13",
+    "camera": "iPhone 16",
+    "nearest_town": "Windsor area",
+    "job_group": null,
+    "source": "client",
+    "status": "pending_brand_assignment",
+    "evidence": "archive/research-2026-09-24/wf1/internal-assets.md §7a",
+    "currently_used_by": "sister brand (TIMELESS Grass & Greens site)"
+   },
+   {
+    "file": "~/Downloads/Timless Turf Raw Content/IMG_0934.heic",
+    "kind_if_confirmed": "finished",
+    "shows": "putting green with landscape lighting at dusk",
+    "captured_utc": "2025-09-10",
+    "camera": "iPhone 16",
+    "nearest_town": "Windsor area",
+    "job_group": null,
+    "source": "client",
+    "status": "pending_brand_assignment",
+    "evidence": "archive/research-2026-09-24/wf1/internal-assets.md §7a",
+    "currently_used_by": "sister brand (TIMELESS Grass & Greens site)"
+   },
+   {
+    "file": "~/Downloads/Timless Turf Raw Content/IMG_0769.HEIC",
+    "kind_if_confirmed": "detail",
+    "shows": "side-yard turf against a concrete edge",
+    "captured_utc": "2025-08-08",
+    "camera": "iPhone 16",
+    "nearest_town": "Greeley area",
+    "job_group": null,
+    "source": "client",
+    "status": "pending_brand_assignment",
+    "evidence": "archive/research-2026-09-24/wf1/internal-assets.md §7a",
+    "currently_used_by": "sister brand (TIMELESS Grass & Greens site)"
+   },
+   {
+    "file": "~/Downloads/Timless Turf Raw Content/IMG_4117.HEIC",
+    "kind_if_confirmed": "detail",
+    "shows": "turf edge against a rock border",
+    "captured_utc": "2025-09-08",
+    "camera": "iPhone 15 Pro Max",
+    "nearest_town": "Berthoud area",
+    "job_group": null,
+    "source": "client",
+    "status": "pending_brand_assignment",
+    "evidence": "archive/research-2026-09-24/wf1/internal-assets.md §7a",
+    "currently_used_by": "sister brand (TIMELESS Grass & Greens site)"
+   },
+   {
+    "file": "~/Downloads/Timless Turf Raw Content/IMG_7727.HEIC",
+    "kind_if_confirmed": "finished",
+    "shows": "putting green, fire pit and stone wall, mountains on the horizon",
+    "captured_utc": "2024-04-18",
+    "camera": "iPhone 15 Pro Max",
+    "nearest_town": "Berthoud area",
+    "job_group": null,
+    "source": "client",
+    "status": "pending_brand_assignment",
+    "evidence": "archive/research-2026-09-24/wf1/internal-assets.md §7a",
+    "currently_used_by": "sister brand (TIMELESS Grass & Greens site)"
+   },
+   {
+    "file": "~/Downloads/Timless Turf Raw Content/IMG_1882.MOV",
+    "kind_if_confirmed": "video (not counted toward the photo floor)",
+    "shows": "unreviewed video",
+    "captured_utc": null,
+    "camera": null,
+    "nearest_town": "Mead / Firestone area",
+    "source": "client",
+    "status": "pending_brand_assignment",
+    "evidence": "archive/research-2026-09-24/wf1/internal-assets.md §7a",
+    "currently_used_by": "unused"
+   }
+  ]
+ },
+ "photo_unplaced": {
+  "_rule": "Brian's raw files with no location data — unusable until he names the town and the brand.",
+  "items": [
+   "~/Downloads/Timless Turf Raw Content/IMG_0789.HEIC",
+   "~/Downloads/Timless Turf Raw Content/77577119203__0FB975AC-EB79-44D4-8CD5-0556D496A7C3.heic",
+   "~/Downloads/Timless Turf Raw Content/ME5ef5d5551e67968bf07c5c19b9094fa9.jpeg",
+   "~/Downloads/Timless Turf Raw Content/IMG_7381.jpg",
+   "~/Downloads/Timless Turf Raw Content/IMG_0773.MOV",
+   "~/Downloads/Timless Turf Raw Content/6d1a9be494cf4a74ba29230c2aa2b995.MP4"
+  ],
+  "evidence": "archive/research-2026-09-24/wf1/internal-assets.md §7a"
+ },
+ "photo_banned": [
+  {
+   "what": "All 53 images on the current nocoturf.com",
+   "reason": "Almost certainly AI-generated (generator image sizes, no EXIF, foothills behind plains towns). Never usable.",
+   "evidence": "archive/research-2026-09-24/wf1/content-ux-audit.md; plan \"What research found\" #4"
+  },
+  {
+   "what": "archive/noco-export/*.webp (sister-brand repo)",
+   "reason": "copies of the current site's AI images",
+   "evidence": "archive/research-2026-09-24/wf1/internal-assets.md §7a"
+  },
+  {
+   "what": "The five badge PNGs in the raw-content folder (07D2358A…, 0A7F7CE4…, 4495A26F…, 54CCFD0F…, BF87DDE8….png: \"certified\", \"warranty\" and a registered-mark putting-green badge)",
+   "reason": "AI-generated art; no certification or warranty exists behind them. Never proof.",
+   "evidence": "archive/research-2026-09-24/wf1/internal-assets.md §7a"
+  },
+  {
+   "what": "GBP owner photo uploaded 2026-02-20 (palms and live oaks)",
+   "reason": "Florida-style scene — not a Colorado job; should come off the NoCo GBP",
+   "evidence": "archive/research-2026-09-24/wf1/gap-2.md A1 #1"
+  },
+  {
+   "what": "Old GoDaddy-site DJI_0053.JPG (drone, 2023-03-30)",
+   "reason": "EXIF GPS in north-east Florida",
+   "evidence": "archive/research-2026-09-24/wf1/gap-2.md A1 #2"
+  },
+  {
+   "what": "Old GoDaddy-site blob-b442636.png (aerial with palms)",
+   "reason": "Florida (inference from palms)",
+   "evidence": "archive/research-2026-09-24/wf1/gap-2.md A1 #3"
+  },
+  {
+   "what": "Raw IMG_0725.HEIC (2025-08-01) and IMG_1445.HEIC (2024-03-22)",
+   "reason": "Denver-metro locations (Brighton seam; south metro) — sister-brand territory",
+   "evidence": "archive/research-2026-09-24/wf1/internal-assets.md §7a"
+  },
+  {
+   "what": "Old-site gallery files named for Broomfield, Westminster, Louisville, Denver and Castle Rock; IMG_1975, IMG_1686, IMG_0086, blob-84335f7 (2022)",
+   "reason": "Denver-metro / Boulder County jobs, sister-brand territory and pre-2024 — never NoCo town proof",
+   "evidence": "archive/research-2026-09-24/wf1/gap-2.md A1 #5-6"
+  },
+  {
+   "what": "Stock, supplier and third-party images from the old sites (Envato, Pixabay, supplier lifestyle shots, a 2018 edging photo, a 2016 commercial photo)",
+   "reason": "not NoCo's work",
+   "evidence": "archive/research-2026-09-24/wf1/gap-2.md A1 #9"
+  }
+ ],
+ "photo_leads": {
+  "_rule": "Real, probably NoCo, but only reachable as web copies. Ask Brian for the originals; never publish a download.",
+  "items": [
+   {
+    "what": "Lakeshore putting green (GBP owner photo 2026-05-10; several Facebook angles)",
+    "town": "unstated",
+    "evidence": "archive/research-2026-09-24/wf1/gap-2.md A2"
+   },
+   {
+    "what": "Facebook posts with Windsor and Berthoud check-ins; a video that names Mead (2026)",
+    "town": "Windsor, Berthoud, Mead",
+    "evidence": "archive/research-2026-09-24/wf1/gap-2.md A2"
+   },
+   {
+    "what": "Old GoDaddy-site files named \"80550 PG\" and \"80504 - BY\"",
+    "town": "ZIP 80550 (Windsor); 80504 (Longmont/Firestone/Frederick)",
+    "evidence": "archive/research-2026-09-24/wf1/gap-2.md A2"
+   },
+   {
+    "what": "Process shots: stapling turf to edging (2025-10-17), S-seam with seam tape",
+    "town": "unstated",
+    "evidence": "archive/research-2026-09-24/wf1/gap-2.md A2"
+   },
+   {
+    "what": "Old GoDaddy-site IMG_0649.jpg (2023-05-26, flagstone path through turf)",
+    "town": "Fort Collins area (EXIF) — predates the LLC; ask which company did it",
+    "evidence": "archive/research-2026-09-24/wf1/gap-2.md A1 #8"
+   },
+   {
+    "what": "Customer review photos on the GBP (before/after, dogs, lit putting green)",
+    "town": "unstated",
+    "evidence": "archive/research-2026-09-24/wf1/gap-2.md (b2)",
+    "note": "usable only with each reviewer's permission"
+   }
+  ]
+ },
+ "_reviews_rule": "Reviews render only with the reviewer's consent (permission:true), confirmed on the live GBP, verbatim and linked; zero or three on a page. No review names a town, so none can anchor a town page. Never a rating count or average in markup. Individual permalinks were not readable in the limited Maps view; the listing URL stands in until Brian supplies them (Appendix A #14)."
 }

@@ -1,0 +1,148 @@
+{
+  "status": "draft",
+  "slug": "firestone-co",
+  "name": "Firestone",
+  "region": "carbon-valley-longmont",
+  "title": "Artificial Turf in Firestone, CO — Turf Permit & Spec | NoCo Turf Co.",
+  "description": "Firestone writes its own turf standard: a free permit, a 70-ounce face weight, a 3-inch porous base, no crumb rubber and a 75% cap on the back or side yard.",
+  "h1": "Firestone writes its own turf spec, and every install needs a permit",
+  "lede": "Firestone's development code reaches into the single-family yard: a permit before you install, a cap on how much of the yard turf may cover, and a product spec down to the face weight.",
+  "answer": {
+    "question": "Do I need a permit to install artificial turf in Firestone?",
+    "answer": "Yes. NoCo Turf Co. installs artificial turf in Firestone, Colorado, where the Development Code requires a Town permit before any artificial turf goes in, with no fee for single-family homes. The code also caps turf at 75% of the rear or side yard and sets a 70-ounce minimum face weight and a 3-inch porous base."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "How much yard",
+      "h2": "Turf can cover up to 75% of a Firestone back or side yard, and in practice less.",
+      "paras": [
+        "Firestone Development Code 16.6.4 limits artificial turf on single-family lots to 75% of the rear or side yard area, and at least 25% of the yard has to stay a permeable surface with living and organic landscape once patios and walkways are counted.",
+        "A second rule tightens it: 50% of the combined side and rear yards must be live plant material, 75% of the front yard too, and artificial turf cannot count toward either. Measure the back and side yards together before you size the turf.",
+        "These rules reach single-family lots that existed before the code was adopted, not only new homes."
+      ],
+      "layerRefs": ["firestone-fdc-16.6.4-turf-cap", "firestone-fdc-16.6.4-live-plant-limit"],
+      "sources": ["https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE"]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "The product spec",
+      "h2": "Firestone sets the pile, the weight, the base and the infill.",
+      "paras": [
+        "The code requires a pile height between 1.75 and 3 inches, a face weight of at least 70 ounces, a compacted porous aggregate base at least 3 inches deep, and seams taped or glued, not sewn. Crumb rubber infill is prohibited.",
+        "Blades and backing must be lead-free polyethylene, polypropylene, a vegetable-based product or a blend; nylon or other plastic is not allowed, felt backing is out, and turf may not be laid over existing grass or compacted dirt. Ask for the product's spec sheet and check it against these lines before you sign."
+      ],
+      "layerRefs": ["firestone-fdc-16.6.4-turf-specs"],
+      "sources": [
+        "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+        "https://firestoneco.gov/DocumentCenter/View/6548/Firestone-Development-Code---September-2025"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "The permit",
+      "h2": "Every Firestone turf install starts with a Town permit, free for houses.",
+      "paras": [
+        "Anyone installing artificial turf must first apply for and get a permit from the Town, on the Town's form, and single-family homes pay no fee for it. The permit comes before the old lawn comes out."
+      ],
+      "layerRefs": ["firestone-fdc-16.6.4-permit"],
+      "sources": ["https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE"]
+    },
+    {
+      "kind": "utility",
+      "own": true,
+      "kicker": "Town water or Little Thompson",
+      "h2": "Barefoot Lakes runs on Little Thompson water, not the Town's.",
+      "paras": [
+        "The Town of Firestone buys treated water from Central Weld County Water District and runs its own Gould Well. Barefoot Lakes is different: Little Thompson Water District serves it.",
+        "Little Thompson is at Watch, the lowest level of its shortage plan, with no mandatory restrictions in 2026. A standard 5/8-inch Little Thompson tap on a lot under 17,000 square feet pays a $45.48 monthly base plus tiered rates and an extra $10 per 1,000 gallons above the annual allotment; the district's fee schedule also lists a Firestone in-city surcharge of 6 percent of usage and base fee."
+      ],
+      "layerRefs": ["firestone-water-sources", "ltwd-service-area-mead-barefoot-lakes", "ltwd-watch-2026", "ltwd-rates-2026-standard-tap", "ltwd-allotment-overage-2026"],
+      "sources": [
+        "https://data.epa.gov/efservice/WATER_SYSTEM_FACILITY/PWSID/CO0162476/JSON",
+        "https://www.littlethompsonwd.gov/our-service-area",
+        "https://www.littlethompsonwd.gov/quarterly-news-from-ltwd-summer-2026",
+        "https://www.littlethompsonwd.gov/files/0eba237d7/2026+Section+1502.1+Schedule+B-04162026_02.pdf",
+        "https://www.littlethompsonwd.gov/files/d6e8362ff/2026+Section+1502.2+Schedule+C-04162026.pdf"
+      ]
+    },
+    {
+      "kind": "drought",
+      "own": true,
+      "kicker": "Stage 1",
+      "h2": "Town water customers are under mandatory Stage 1 limits through year-end unless the Town lifts them.",
+      "paras": [
+        "Firestone's mandatory Stage 1 drought watering restrictions took effect April 16, 2026 and stay in place through the end of the year unless lifted. Barefoot Lakes follows Little Thompson's rules instead.",
+        "Firestone residents can get a $750 discount on Resource Central lawn-removal services, but the program is full for 2026, and Resource Central's lawn replacement requires the replaced area to be at least half waterwise plants."
+      ],
+      "layerRefs": ["firestone-stage-1-2026", "firestone-lawn-replacement-2026", "resource-central-lawn-2026"],
+      "sources": [
+        "https://www.firestoneco.gov/1883/Current-Water-Conditions-Stage-1-Drought",
+        "https://www.firestoneco.gov/820/Lawn-Replacement-Program",
+        "https://resourcecentral.org/lawn/"
+      ]
+    },
+    {
+      "kind": "soil",
+      "own": false,
+      "kicker": "Sand and hail",
+      "h2": "Central Firestone sits on Vona loamy sand, a low shrink-swell soil.",
+      "paras": [
+        "Soil surveys around central Firestone map mostly low shrink-swell sands, chiefly Vona loamy sand. Sandy ground drains well under a porous base, and it still needs the compaction Firestone's code asks for.",
+        "NOAA logged 28 hail reports referenced to Firestone from 2011 through 2025, the largest 2 inches on May 9, 2023. The Longmont 2 ESE station averages 48.8 days a year at or above 90°F."
+      ],
+      "layerRefs": ["nrcs-soil-firestone", "noaa-hail-max-firestone", "noaa-normals-longmont-2ese"],
+      "sources": [
+        "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+        "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/",
+        "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00055116&format=json"
+      ]
+    }
+  ],
+  "sections": [],
+  "faq": [
+    {
+      "q": "Can I cover my whole Firestone backyard in turf?",
+      "a": "No. The code caps turf at 75% of the rear or side yard and requires 50% of the combined side and rear yards to be live plants, which turf can't count toward."
+    },
+    {
+      "q": "Does Firestone charge for a turf permit?",
+      "a": "Not for a single-family home. The permit is still required before installation, on the Town's form."
+    },
+    {
+      "q": "Is crumb rubber infill allowed in Firestone?",
+      "a": "No. The code prohibits crumb rubber filler; infill must be a non-toxic, anti-microbial material such as silica or acrylic-coated sand."
+    },
+    {
+      "q": "I live in Barefoot Lakes. Do the Town's Stage 1 rules apply to me?",
+      "a": "No. Little Thompson Water District serves Barefoot Lakes, and it is at Watch, its lowest level, with no mandatory restrictions in 2026."
+    }
+  ],
+  "nearby": ["frederick-co", "dacono-co", "mead-co", "longmont-co"],
+  "sources": [
+    { "label": "Firestone Development Code 16.6.4, subsections E.4 and F.2 (codified through Ord. No. 1072, Dec. 10, 2025)", "url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE", "checked": "2026-09-24" },
+    { "label": "Firestone Development Code, September 2025 PDF (artificial materials standards)", "url": "https://firestoneco.gov/DocumentCenter/View/6548/Firestone-Development-Code---September-2025", "checked": "2026-09-24" },
+    { "label": "EPA SDWIS water-system facilities, Town of Firestone (CO0162476)", "url": "https://data.epa.gov/efservice/WATER_SYSTEM_FACILITY/PWSID/CO0162476/JSON", "checked": "2026-09-24" },
+    { "label": "Little Thompson Water District, Our Service Area", "url": "https://www.littlethompsonwd.gov/our-service-area", "checked": "2026-09-24" },
+    { "label": "Little Thompson Water District, Quarterly News – Summer 2026", "url": "https://www.littlethompsonwd.gov/quarterly-news-from-ltwd-summer-2026", "checked": "2026-09-24" },
+    { "label": "Little Thompson Water District, Section 1502.1 Schedule B – Water Rate Schedule (approved April 16, 2026)", "url": "https://www.littlethompsonwd.gov/files/0eba237d7/2026+Section+1502.1+Schedule+B-04162026_02.pdf", "checked": "2026-09-24" },
+    { "label": "Little Thompson Water District, Section 1502.2 Schedule C – Miscellaneous Fees (April 16, 2026)", "url": "https://www.littlethompsonwd.gov/files/d6e8362ff/2026+Section+1502.2+Schedule+C-04162026.pdf", "checked": "2026-09-24" },
+    { "label": "Town of Firestone, Current Water Conditions: Stage 1 Drought (Resolution 26-34)", "url": "https://www.firestoneco.gov/1883/Current-Water-Conditions-Stage-1-Drought", "checked": "2026-09-24" },
+    { "label": "Town of Firestone, Lawn Replacement Program", "url": "https://www.firestoneco.gov/820/Lawn-Replacement-Program", "checked": "2026-09-24" },
+    { "label": "Resource Central, Lawn Replacement program page", "url": "https://resourcecentral.org/lawn/", "checked": "2026-09-24" },
+    { "label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Firestone", "url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest", "checked": "2026-09-24" },
+    { "label": "NOAA NCEI Storm Events Database, hail reports referenced to Firestone, 2011–2025", "url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/", "checked": "2026-09-24" },
+    { "label": "NOAA NCEI U.S. Climate Normals 1991–2020, station LONGMONT 2 ESE (USC00055116)", "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00055116&format=json", "checked": "2026-09-24" }
+  ],
+  "checked": "2026-09-24",
+  "needsFromBrian": [
+    "Whether NoCo pulls the free Firestone turf permit on its jobs, and a sample permit (address removed) if so",
+    "Spec sheets and written warranty terms for the turf products you install (face weight, pile height, blade and backing material, infill; Firestone 16.6.4.F.2 also requires at least an 8-year warranty) so they can be checked against Firestone 16.6.4 before any page says they comply",
+    "Named or described Firestone or Barefoot Lakes jobs: month, rough size, use",
+    "Camera-original photos of at least one Firestone job, before and after",
+    "Google reviews from Firestone customers that name the town, with consent to quote first name and last initial"
+  ]
+}

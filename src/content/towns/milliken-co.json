@@ -1,0 +1,106 @@
+{
+  "status": "draft",
+  "slug": "milliken-co",
+  "name": "Milliken",
+  "region": "greeley-east-weld",
+  "title": "Artificial Turf in Milliken, CO — Sprinkler Limits | NoCo Turf Co.",
+  "description": "Milliken bars sprinklers on town-treated water from 9 a.m. to 7 p.m. and all day Sunday, and exempts existing houses from most of its landscape standards.",
+  "h1": "Milliken's sprinkler ban runs from 9 to 7 daily and all Sunday",
+  "lede": "Milliken blends its own well water with water bought from Central Weld County Water District and Greeley, and it rations sprinkler hours on town-treated water whether or not a drought is declared.",
+  "answer": {
+    "question": "Are there watering limits on a lawn in Milliken?",
+    "answer": "Yes, every day. NoCo Turf Co. installs artificial turf in Milliken, Colorado, where town-treated water can't run sprinklers between 9 a.m. and 7 p.m. daily or at all on Sunday, and declared drought levels add surcharges. Existing detached homes are exempt from the town's landscape standards, apart from the prohibited-plant, maintenance and fence rules."
+  },
+  "blocks": [
+    {
+      "kind": "utility",
+      "own": true,
+      "kicker": "Sprinkler hours",
+      "h2": "Town-treated water can't run a Milliken sprinkler from 9 a.m. to 7 p.m.",
+      "paras": [
+        "The rule applies every day, and all day on Sunday. Even addresses water Monday, Wednesday and Friday, odd addresses Tuesday, Thursday and Saturday, and when the Town declares drought it sets levels 1 to 4 with added restrictions and conservation surcharges.",
+        "The Town buys treated water from Central Weld County Water District and from Greeley and treats water from its own Wells 1R and 2R. The Town irrigates its greenbelts and all but two small parks with non-potable water from wells and the Hillsborough ditch, and in April 2026 the Town described 'a severe drought situation', its own words rather than a declared level."
+      ],
+      "layerRefs": ["milliken-watering-schedule", "milliken-water-sources"],
+      "sources": [
+        "https://millikenco.gov/194/Watering-Schedule",
+        "https://data.epa.gov/efservice/WATER_SYSTEM_FACILITY/PWSID/CO0162511/JSON",
+        "https://www.millikenco.gov/m/newsflash/home/detail/94"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Landscape code",
+      "h2": "Existing Milliken houses are exempt from the landscape standards.",
+      "paras": [
+        "Milliken Municipal Code 16-3-305(c) exempts existing detached single-unit and two-family dwellings from the Division 3 landscape standards, apart from the prohibited-plant, maintenance and fence rules.",
+        "Section 16-3-303, adopted in December 2025, carries the state's ban on nonfunctional artificial turf into new development and redevelopment on commercial, institutional, industrial, HOA common and right-of-way property."
+      ],
+      "layerRefs": ["milliken-code-16-3-303-nonfunctional"],
+      "sources": ["https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIIGESTAPALDI_DIV3LABUFEWAST_S16-3-303NOTUNOARTUINPLTRSHGRSP"]
+    },
+    {
+      "kind": "housing",
+      "own": true,
+      "kicker": "Where the lots are",
+      "h2": "Settlers Village is Milliken's largest subdivision, with 742 lots.",
+      "paras": [
+        "Of Milliken's 3,077 house lots, Settlers Village has 742, with a median near 6,051 square feet; Wal-Mar, the original town, Frank Farm and Sunfield follow. The big-lot corners are Mad Russian Estates, near 13,772 square feet, and Blehm Waterway Estates, near 18,009.",
+        "The state's district map shows 6 metro districts in Milliken, none formed since 2018."
+      ],
+      "layerRefs": [],
+      "sources": [
+        "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query",
+        "https://data.colorado.gov/resource/szft-nc4z.geojson"
+      ]
+    },
+    {
+      "kind": "soil",
+      "own": false,
+      "kicker": "River soils",
+      "h2": "Milliken's ground mixes river gravel, sandy loam and some Nunn loam.",
+      "paras": [
+        "Soil surveys around central Milliken map a mix of gravelly river-bottom soils, sandy Otero and Olney loams, and some Nunn loam. The Greeley UNC station averages 58.3 days a year at or above 90°F and 6.5 days at or above 100°F."
+      ],
+      "layerRefs": ["nrcs-soil-milliken", "noaa-normals-greeley-unc"],
+      "sources": [
+        "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+        "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053553&format=json"
+      ]
+    }
+  ],
+  "sections": [],
+  "faq": [
+    {
+      "q": "Does Milliken's sprinkler rule apply to non-potable water?",
+      "a": "The rule is written for town-treated water. The Town's non-potable system, fed by wells and the Hillsborough ditch, waters its greenbelts and most parks; if your home has a non-potable tap, ask the Town which schedule applies."
+    },
+    {
+      "q": "Do Milliken's landscape standards apply to my existing house?",
+      "a": "Mostly not. Existing detached single-unit and two-family homes are exempt from the Division 3 standards, except the prohibited-plant, maintenance and fence rules."
+    },
+    {
+      "q": "What happens to watering when Milliken declares drought?",
+      "a": "The Town sets drought levels 1 to 4, each with its own restrictions and conservation surcharges on top of the daily sprinkler hours."
+    }
+  ],
+  "nearby": ["johnstown-co", "greeley-co", "evans-co", "windsor-co"],
+  "sources": [
+    { "label": "Town of Milliken, Watering Schedule", "url": "https://millikenco.gov/194/Watering-Schedule", "checked": "2026-09-24" },
+    { "label": "EPA SDWIS water-system facilities, Town of Milliken (CO0162511)", "url": "https://data.epa.gov/efservice/WATER_SYSTEM_FACILITY/PWSID/CO0162511/JSON", "checked": "2026-09-24" },
+    { "label": "Town of Milliken news update, April 22, 2026 (drought; non-potable water from wells and the Hillsborough ditch)", "url": "https://www.millikenco.gov/m/newsflash/home/detail/94", "checked": "2026-09-24" },
+    { "label": "Milliken Municipal Code Secs. 16-3-303 (Ord. 831, 2025-12-22) and 16-3-305(c) (codified through Ord. No. 838, March 25, 2026)", "url": "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIIGESTAPALDI_DIV3LABUFEWAST_S16-3-303NOTUNOARTUINPLTRSHGRSP", "checked": "2026-09-24" },
+    { "label": "Colorado Public Parcels (statewide parcel file): Milliken 3,077 house lots; Settlers Village 742 (median about 6,051 sq ft); Mad Russian Estates median about 13,772; Blehm Waterway Estates median about 18,009", "url": "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query", "checked": "2026-09-24" },
+    { "label": "Colorado DOLA special-district boundaries: 6 metro districts in Milliken, none formed since 2018", "url": "https://data.colorado.gov/resource/szft-nc4z.geojson", "checked": "2026-09-24" },
+    { "label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Milliken", "url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest", "checked": "2026-09-24" },
+    { "label": "NOAA NCEI U.S. Climate Normals 1991–2020, station GREELEY UNC (USC00053553)", "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053553&format=json", "checked": "2026-09-24" }
+  ],
+  "checked": "2026-09-24",
+  "needsFromBrian": [
+    "Confirmation that NoCo serves Milliken (there is no Milliken page today)",
+    "Named or described Milliken jobs (Settlers Village, Mad Russian Estates or another subdivision): month, rough size, use",
+    "Camera-original photos of at least one Milliken job, before and after",
+    "Google reviews from Milliken customers that name the town, with consent to quote first name and last initial"
+  ]
+}

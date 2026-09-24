@@ -1,0 +1,551 @@
+[
+  {
+    "id": "cgs-expansive-soil",
+    "layer": "soil",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Geological Survey calls expansive soil Colorado's most significant geologic hazard, with clays that can swell up to 20% by volume when wet.",
+    "quote": "Innocuous as it sounds, Colorado's most significant geologic hazard is expansive or swelling soil — that is, soil laced with layers of various clays. … They can expand up to 20% by volume when exposed to water and exert a force of up to 30,000 pounds-per-square-foot, more than enough to break up any structure they encounter.",
+    "source_url": "https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/",
+    "source_label": "Colorado Geological Survey, Expansive Soil & Rock",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "20",
+      "30000"
+    ],
+    "notes": "The same page elsewhere cites 10 percent / 20,000 psf in an older passage — quote the sentence above only."
+  },
+  {
+    "id": "cgs-landscaping-near-foundations",
+    "layer": "soil",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Geological Survey lists poor surface drainage and planting next to foundations, so irrigation water soaks into the soil, among the landscaping problems on expansive soils.",
+    "quote": "Improper landscaping problems include inadequate management of surface drainage and planting vegetation next to the foundation so irrigation water enters the soil.",
+    "source_url": "https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/",
+    "source_label": "Colorado Geological Survey, Expansive Soil & Rock",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Supports base-prep and drainage guidance. Never claim turf fixes foundation or subsidence problems."
+  },
+  {
+    "id": "nrcs-nunn-weld-shrink-swell",
+    "layer": "soil",
+    "applies_to": [
+      "fort-collins-co",
+      "loveland-co",
+      "berthoud-co",
+      "wellington-co",
+      "longmont-co",
+      "frederick-co",
+      "dacono-co",
+      "mead-co",
+      "johnstown-co"
+    ],
+    "fact": "NRCS rates the Nunn and Weld soil series, common around the Larimer foothill towns, Longmont and Frederick–Dacono, as limited for building because of shrink-swell, while the sandy Olney, Otero, Vona and Kim soils are not flagged for it.",
+    "quote": "ENG - Dwellings W/O Basements, survey areas CO644, CO617, CO618 and CO643: Nunn — \"Somewhat limited\" / \"Very limited\", reason \"Shrink-swell\" (18 components); Weld — \"Somewhat limited\", reason \"Shrink-swell\" (11 components); Olney, Vona — \"Not limited\"; Otero, Kim — limitations only for slope.",
+    "source_url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+    "source_label": "USDA-NRCS Soil Data Access (SSURGO) interpretation \"ENG - Dwellings W/O Basements\"",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "18",
+      "11"
+    ],
+    "notes": "Queried 2026-09-24. The interpretation is for small buildings, used here only as the shrink-swell signal NRCS publishes."
+  },
+  {
+    "id": "longmont-clay-soils-city",
+    "layer": "soil",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "The City of Longmont tells residents its clay soils absorb water slowly, so heavy watering runs off instead of soaking in.",
+    "quote": "Longmont's clay soils absorb water slowly. If you water too much at once, the water runs off instead of soaking into the ground.",
+    "source_url": "https://longmontcolorado.gov/water/water-conservation/conserving-water-outdoors/",
+    "source_label": "City of Longmont, Conserving Water Outdoors",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "greeley-hard-clay-city",
+    "layer": "soil",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley's water department says soils in the area tend to be shallow, with a layer of hard clay sometimes just inches below the surface.",
+    "quote": "Our soils in this area tend to be shallow with a layer of hard clay, sometimes just inches below the surface.",
+    "source_url": "https://greeleyco.gov/government/city-administration/city-departments/water-and-sewer/save-water/waterwise-landscapes",
+    "source_label": "City of Greeley Water & Sewer, Waterwise Landscapes",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Sits beside the sandy-loam SSURGO sample for central Greeley (nrcs-soil-greeley) — both can be true (sandy topsoil over calcareous clay subsoil)."
+  },
+  {
+    "id": "nrcs-soil-fort-collins",
+    "layer": "soil",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Soil surveys around central Fort Collins map mostly Fort Collins loam and Nunn clay loam, with high shrink-swell Nunn clay loam covering about 17% of the area sampled.",
+    "quote": "SSURGO map units intersecting a ±0.02° box around central Fort Collins (share of box · max-horizon linear extensibility %): Fort Collins loam 0–3% slopes 25.3% (LEP 5.0) · Nunn clay loam 0–1% 16.5% (LEP 6.8) · Satanta loam 13.0% (LEP 3.8) · Altvan-Satanta loams 10.3% (LEP 4.5)",
+    "source_url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+    "source_label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Fort Collins",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "17",
+      "0.02",
+      "0",
+      "3",
+      "25.3",
+      "5.0",
+      "1",
+      "16.5",
+      "6.8",
+      "13.0",
+      "3.8",
+      "10.3",
+      "4.5"
+    ],
+    "notes": "Queried 2026-09-24 (box ≈ 4.4 × 3.4 km around a town-center point; methodology choice, not an NRCS statement). Linear extensibility (LEP) ≥ 6 is high shrink-swell; ≈1.5 is low. Soils vary lot to lot — present as \"soil surveys map…\", never as a site finding."
+  },
+  {
+    "id": "nrcs-soil-loveland",
+    "layer": "soil",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "Soil surveys around central Loveland map mostly Fort Collins loam and Nunn clay loam, with sandier Paoli fine sandy loam near the water.",
+    "quote": "SSURGO map units intersecting a ±0.02° box around central Loveland (share of box · max-horizon linear extensibility %): Fort Collins loam 25.3% (LEP 5.0) · Nunn clay loam 16.9% (LEP 6.8) · Water 15.8% · Paoli fine sandy loam 13.0% (LEP 1.5)",
+    "source_url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+    "source_label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Loveland",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "0.02",
+      "25.3",
+      "5.0",
+      "16.9",
+      "6.8",
+      "15.8",
+      "13.0",
+      "1.5"
+    ],
+    "notes": "Queried 2026-09-24 (box ≈ 4.4 × 3.4 km around a town-center point; methodology choice, not an NRCS statement). Linear extensibility (LEP) ≥ 6 is high shrink-swell; ≈1.5 is low. Soils vary lot to lot — present as \"soil surveys map…\", never as a site finding."
+  },
+  {
+    "id": "nrcs-soil-berthoud",
+    "layer": "soil",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Soil surveys around central Berthoud map Nunn clay loam, a high shrink-swell soil, over about a third of the area sampled.",
+    "quote": "SSURGO map units intersecting a ±0.02° box around central Berthoud (share of box · max-horizon linear extensibility %): Nunn clay loam 1–3% slopes 23.1% (LEP 6.6) · Fort Collins loam 19.2% (LEP 5.0) · Nunn clay loam 0–1% 10.3% (LEP 6.8) · Wiley silt loam 8.2% (LEP 4.5)",
+    "source_url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+    "source_label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Berthoud",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "0.02",
+      "1",
+      "3",
+      "23.1",
+      "6.6",
+      "19.2",
+      "5.0",
+      "0",
+      "10.3",
+      "6.8",
+      "8.2",
+      "4.5"
+    ],
+    "notes": "Queried 2026-09-24 (box ≈ 4.4 × 3.4 km around a town-center point; methodology choice, not an NRCS statement). Linear extensibility (LEP) ≥ 6 is high shrink-swell; ≈1.5 is low. Soils vary lot to lot — present as \"soil surveys map…\", never as a site finding. Nunn total ≈ 33.4% of the box."
+  },
+  {
+    "id": "nrcs-soil-wellington",
+    "layer": "soil",
+    "applies_to": [
+      "wellington-co"
+    ],
+    "fact": "Soil surveys around central Wellington map Garrett loam and Nunn clay loam, with high shrink-swell Nunn clay loam covering about a third of the area sampled.",
+    "quote": "SSURGO map units intersecting a ±0.02° box around central Wellington (share of box · max-horizon linear extensibility %): Garrett loam 21.8% (LEP 4.5) · Nunn clay loam 0–1% 20.4% (LEP 6.8) · Nunn clay loam 1–3% 11.8% (LEP 6.6) · Fort Collins loam 8.2% (LEP 5.0)",
+    "source_url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+    "source_label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Wellington",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "0.02",
+      "21.8",
+      "4.5",
+      "0",
+      "1",
+      "20.4",
+      "6.8",
+      "3",
+      "11.8",
+      "6.6",
+      "8.2",
+      "5.0"
+    ],
+    "notes": "Queried 2026-09-24 (box ≈ 4.4 × 3.4 km around a town-center point; methodology choice, not an NRCS statement). Linear extensibility (LEP) ≥ 6 is high shrink-swell; ≈1.5 is low. Soils vary lot to lot — present as \"soil surveys map…\", never as a site finding. Nunn total ≈ 32.2% of the box."
+  },
+  {
+    "id": "nrcs-soil-timnath",
+    "layer": "soil",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Soil surveys around central Timnath map mostly low shrink-swell Paoli fine sandy loam and Table Mountain loam, with a pocket of Loveland clay loam.",
+    "quote": "SSURGO map units intersecting a ±0.02° box around central Timnath (share of box · max-horizon linear extensibility %): Paoli fine sandy loam 15.8% (LEP 1.5) · Water 12.5% · Table Mountain loam 11.1% (LEP 1.5) · Loveland clay loam 9.2% (LEP 4.5)",
+    "source_url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+    "source_label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Timnath",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "0.02",
+      "15.8",
+      "1.5",
+      "12.5",
+      "11.1",
+      "9.2",
+      "4.5"
+    ],
+    "notes": "Queried 2026-09-24 (box ≈ 4.4 × 3.4 km around a town-center point; methodology choice, not an NRCS statement). Linear extensibility (LEP) ≥ 6 is high shrink-swell; ≈1.5 is low. Soils vary lot to lot — present as \"soil surveys map…\", never as a site finding."
+  },
+  {
+    "id": "nrcs-soil-windsor",
+    "layer": "soil",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Soil surveys around central Windsor map mostly low shrink-swell Olney fine sandy loam and Kim loam, plus wet, gravelly river-bottom soils.",
+    "quote": "SSURGO map units intersecting a ±0.02° box around central Windsor (share of box · max-horizon linear extensibility %): Olney fine sandy loam 1–3% 22.3% (LEP 1.5) · Kim loam 19.8% (LEP 1.5) · Aquolls and Aquents, gravelly substratum 11.3% (LEP 1.5) · Olney fine sandy loam 0–1% 9.7% (LEP 1.5)",
+    "source_url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+    "source_label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Windsor",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "0.02",
+      "1",
+      "3",
+      "22.3",
+      "1.5",
+      "19.8",
+      "11.3",
+      "0",
+      "9.7"
+    ],
+    "notes": "Queried 2026-09-24 (box ≈ 4.4 × 3.4 km around a town-center point; methodology choice, not an NRCS statement). Linear extensibility (LEP) ≥ 6 is high shrink-swell; ≈1.5 is low. Soils vary lot to lot — present as \"soil surveys map…\", never as a site finding."
+  },
+  {
+    "id": "nrcs-soil-greeley",
+    "layer": "soil",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Soil surveys around central Greeley map mostly low shrink-swell sandy soils, Olney fine sandy loam and Otero sandy loam.",
+    "quote": "SSURGO map units intersecting a ±0.02° box around central Greeley (share of box · max-horizon linear extensibility %): Olney fine sandy loam 32.8% (LEP 1.5) · Otero sandy loam 3–5% 27.5% (LEP 1.5) · Otero sandy loam 1–3% 24.1% (LEP 1.5) · Vona sandy loam 6.1% (LEP 1.5)",
+    "source_url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+    "source_label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Greeley",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "0.02",
+      "32.8",
+      "1.5",
+      "3",
+      "5",
+      "27.5",
+      "1",
+      "24.1",
+      "6.1"
+    ],
+    "notes": "Queried 2026-09-24 (box ≈ 4.4 × 3.4 km around a town-center point; methodology choice, not an NRCS statement). Linear extensibility (LEP) ≥ 6 is high shrink-swell; ≈1.5 is low. Soils vary lot to lot — present as \"soil surveys map…\", never as a site finding."
+  },
+  {
+    "id": "nrcs-soil-johnstown",
+    "layer": "soil",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Soil surveys around central Johnstown map mostly low shrink-swell Olney fine sandy loam and Kim loam, with pockets of Nunn clay loam.",
+    "quote": "SSURGO map units intersecting a ±0.02° box around central Johnstown (share of box · max-horizon linear extensibility %): Olney fine sandy loam 26.1% (LEP 1.5) · Kim loam 15.0% (LEP 1.5) · Nunn clay loam 0–1% 7.1% (LEP 6.8) · Nunn clay loam 1–3% 6.4% (LEP 6.6)",
+    "source_url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+    "source_label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Johnstown",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "0.02",
+      "26.1",
+      "1.5",
+      "15.0",
+      "0",
+      "1",
+      "7.1",
+      "6.8",
+      "3",
+      "6.4",
+      "6.6"
+    ],
+    "notes": "Queried 2026-09-24 (box ≈ 4.4 × 3.4 km around a town-center point; methodology choice, not an NRCS statement). Linear extensibility (LEP) ≥ 6 is high shrink-swell; ≈1.5 is low. Soils vary lot to lot — present as \"soil surveys map…\", never as a site finding."
+  },
+  {
+    "id": "nrcs-soil-severance",
+    "layer": "soil",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "Soil surveys around central Severance map mostly low shrink-swell Kim loam and Otero sandy loam.",
+    "quote": "SSURGO map units intersecting a ±0.02° box around central Severance (share of box · max-horizon linear extensibility %): Kim loam 42.4% (LEP 1.5) · Otero sandy loam 1–3% 10.6% (LEP 1.5) · Otero sandy loam 3–5% 8.2% (LEP 1.5) · Wiley-Colby complex 8.1% (LEP 3.5)",
+    "source_url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+    "source_label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Severance",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "0.02",
+      "42.4",
+      "1.5",
+      "1",
+      "3",
+      "10.6",
+      "5",
+      "8.2",
+      "8.1",
+      "3.5"
+    ],
+    "notes": "Queried 2026-09-24 (box ≈ 4.4 × 3.4 km around a town-center point; methodology choice, not an NRCS statement). Linear extensibility (LEP) ≥ 6 is high shrink-swell; ≈1.5 is low. Soils vary lot to lot — present as \"soil surveys map…\", never as a site finding."
+  },
+  {
+    "id": "nrcs-soil-evans",
+    "layer": "soil",
+    "applies_to": [
+      "evans-co"
+    ],
+    "fact": "Soil surveys around central Evans map wet, gravelly river-bottom soils and low shrink-swell Otero and Vona sandy loams.",
+    "quote": "SSURGO map units intersecting a ±0.02° box around central Evans (share of box · max-horizon linear extensibility %): Aquolls and Aquents, gravelly substratum 20.0% (LEP 1.5) · Otero sandy loam 18.1% (LEP 1.5) · Vona sandy loam 10.7% (LEP 1.5) · Ellicott sandy-skeletal complex, rarely flooded 8.3%",
+    "source_url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+    "source_label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Evans",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "0.02",
+      "20.0",
+      "1.5",
+      "18.1",
+      "10.7",
+      "8.3"
+    ],
+    "notes": "Queried 2026-09-24 (box ≈ 4.4 × 3.4 km around a town-center point; methodology choice, not an NRCS statement). Linear extensibility (LEP) ≥ 6 is high shrink-swell; ≈1.5 is low. Soils vary lot to lot — present as \"soil surveys map…\", never as a site finding."
+  },
+  {
+    "id": "nrcs-soil-eaton",
+    "layer": "soil",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Soil surveys around central Eaton map mostly low shrink-swell Kim loam and Otero sandy loam, with a pocket of high shrink-swell Weld loam.",
+    "quote": "SSURGO map units intersecting a ±0.02° box around central Eaton (share of box · max-horizon linear extensibility %): Kim loam 1–3% 26.7% (LEP 1.5) · Kim loam 0–1% 18.1% (LEP 1.5) · Otero sandy loam 16.8% (LEP 1.5) · Weld loam 0–1% 7.0% (LEP 8.1)",
+    "source_url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+    "source_label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Eaton",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "0.02",
+      "1",
+      "3",
+      "26.7",
+      "1.5",
+      "0",
+      "18.1",
+      "16.8",
+      "7.0",
+      "8.1"
+    ],
+    "notes": "Queried 2026-09-24 (box ≈ 4.4 × 3.4 km around a town-center point; methodology choice, not an NRCS statement). Linear extensibility (LEP) ≥ 6 is high shrink-swell; ≈1.5 is low. Soils vary lot to lot — present as \"soil surveys map…\", never as a site finding."
+  },
+  {
+    "id": "nrcs-soil-milliken",
+    "layer": "soil",
+    "applies_to": [
+      "milliken-co"
+    ],
+    "fact": "Soil surveys around central Milliken map a mix of gravelly river-bottom soils, sandy Otero and Olney loams, and some Nunn loam.",
+    "quote": "SSURGO map units intersecting a ±0.02° box around central Milliken (share of box · max-horizon linear extensibility %): Aquolls and Aquents, gravelly substratum 13.8% (LEP 1.5) · Otero sandy loam 12.3% (LEP 1.5) · Olney fine sandy loam 10.5% (LEP 1.5) · Nunn loam 0–1% 10.3% (LEP 6.8)",
+    "source_url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+    "source_label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Milliken",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "0.02",
+      "13.8",
+      "1.5",
+      "12.3",
+      "10.5",
+      "0",
+      "1",
+      "10.3",
+      "6.8"
+    ],
+    "notes": "Queried 2026-09-24 (box ≈ 4.4 × 3.4 km around a town-center point; methodology choice, not an NRCS statement). Linear extensibility (LEP) ≥ 6 is high shrink-swell; ≈1.5 is low. Soils vary lot to lot — present as \"soil surveys map…\", never as a site finding."
+  },
+  {
+    "id": "nrcs-soil-mead",
+    "layer": "soil",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "Soil surveys around central Mead map mostly the Wiley-Colby complex, a moderate shrink-swell silt loam, with Nunn clay loam in places.",
+    "quote": "SSURGO map units intersecting a ±0.02° box around central Mead (share of box · max-horizon linear extensibility %): Wiley-Colby complex 1–3% 67.8% (LEP 3.5) · Nunn clay loam 1–3% 12.3% (LEP 6.6) · Colby loam 5–9% 7.1% (LEP 1.5) · Aquolls and Aquepts, flooded 3.7%",
+    "source_url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+    "source_label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Mead",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "0.02",
+      "1",
+      "3",
+      "67.8",
+      "3.5",
+      "12.3",
+      "6.6",
+      "5",
+      "9",
+      "7.1",
+      "1.5",
+      "3.7"
+    ],
+    "notes": "Queried 2026-09-24 (box ≈ 4.4 × 3.4 km around a town-center point; methodology choice, not an NRCS statement). Linear extensibility (LEP) ≥ 6 is high shrink-swell; ≈1.5 is low. Soils vary lot to lot — present as \"soil surveys map…\", never as a site finding."
+  },
+  {
+    "id": "nrcs-soil-firestone",
+    "layer": "soil",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Soil surveys around central Firestone map mostly low shrink-swell sands, chiefly Vona loamy sand.",
+    "quote": "SSURGO map units intersecting a ±0.02° box around central Firestone (share of box · max-horizon linear extensibility %): Vona loamy sand 0–3% 30.2% (LEP 1.5) · Vona loamy sand 3–5% 20.8% (LEP 1.3) · Vona sandy loam 15.8% (LEP 1.5) · Olney loamy sand 10.9% (LEP 1.5)",
+    "source_url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+    "source_label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Firestone",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "0.02",
+      "0",
+      "3",
+      "30.2",
+      "1.5",
+      "5",
+      "20.8",
+      "1.3",
+      "15.8",
+      "10.9"
+    ],
+    "notes": "Queried 2026-09-24 (box ≈ 4.4 × 3.4 km around a town-center point; methodology choice, not an NRCS statement). Linear extensibility (LEP) ≥ 6 is high shrink-swell; ≈1.5 is low. Soils vary lot to lot — present as \"soil surveys map…\", never as a site finding."
+  },
+  {
+    "id": "nrcs-soil-frederick",
+    "layer": "soil",
+    "applies_to": [
+      "frederick-co"
+    ],
+    "fact": "Soil surveys around central Frederick map Olney fine sandy loam alongside Weld loam, a high shrink-swell soil covering about a quarter of the area sampled.",
+    "quote": "SSURGO map units intersecting a ±0.02° box around central Frederick (share of box · max-horizon linear extensibility %): Olney fine sandy loam 32.0% (LEP 1.5) · Weld loam 25.9% (LEP 7.7, clay 41.5%) · Nunn loam 10.2% (LEP 6.8) · Vona loamy sand 9.4% (LEP 1.3)",
+    "source_url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+    "source_label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Frederick",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "0.02",
+      "32.0",
+      "1.5",
+      "25.9",
+      "7.7",
+      "41.5",
+      "10.2",
+      "6.8",
+      "9.4",
+      "1.3"
+    ],
+    "notes": "Queried 2026-09-24 (box ≈ 4.4 × 3.4 km around a town-center point; methodology choice, not an NRCS statement). Linear extensibility (LEP) ≥ 6 is high shrink-swell; ≈1.5 is low. Soils vary lot to lot — present as \"soil surveys map…\", never as a site finding."
+  },
+  {
+    "id": "nrcs-soil-dacono",
+    "layer": "soil",
+    "applies_to": [
+      "dacono-co"
+    ],
+    "fact": "Soil surveys around central Dacono map Weld loam, a high shrink-swell soil, over nearly half of the area sampled.",
+    "quote": "SSURGO map units intersecting a ±0.02° box around central Dacono (share of box · max-horizon linear extensibility %): Weld loam 46.5% (LEP 7.7, clay 41.5%) · Olney fine sandy loam 15.3% (LEP 1.5) · Nunn loam 15.0% (LEP 6.8) · Wiley-Colby complex 8.3% (LEP 3.5)",
+    "source_url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+    "source_label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Dacono",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "0.02",
+      "46.5",
+      "7.7",
+      "41.5",
+      "15.3",
+      "1.5",
+      "15.0",
+      "6.8",
+      "8.3",
+      "3.5"
+    ],
+    "notes": "Queried 2026-09-24 (box ≈ 4.4 × 3.4 km around a town-center point; methodology choice, not an NRCS statement). Linear extensibility (LEP) ≥ 6 is high shrink-swell; ≈1.5 is low. Soils vary lot to lot — present as \"soil surveys map…\", never as a site finding."
+  },
+  {
+    "id": "nrcs-soil-longmont",
+    "layer": "soil",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Soil surveys around central Longmont map mostly Nunn clay loam, a high shrink-swell soil, with Ascalon sandy loam and Niwot loam.",
+    "quote": "SSURGO map units intersecting a ±0.02° box around central Longmont (share of box · max-horizon linear extensibility %): Nunn clay loam 26.7% (LEP 6.8) · Ascalon sandy loam 13.0% (LEP 3.1) · Niwot loam 10.9% (LEP 4.1) · McClave clay loam 10.1% (LEP 1.5)",
+    "source_url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+    "source_label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Longmont",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "0.02",
+      "26.7",
+      "6.8",
+      "13.0",
+      "3.1",
+      "10.9",
+      "4.1",
+      "10.1",
+      "1.5"
+    ],
+    "notes": "Queried 2026-09-24 (box ≈ 4.4 × 3.4 km around a town-center point; methodology choice, not an NRCS statement). Linear extensibility (LEP) ≥ 6 is high shrink-swell; ≈1.5 is low. Soils vary lot to lot — present as \"soil surveys map…\", never as a site finding."
+  }
+]

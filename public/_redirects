@@ -1,0 +1,166 @@
+# public/_redirects: the one-hop 301/410 map for nocoturf.com. The table with the reason for every
+# line, the holds and the off-domain work is docs/REDIRECTS.md. tests/redirects.test.mjs checks this file
+# (run it with LAUNCH_CHECK=1 after `npm run build` to also check that every target exists in dist/).
+#
+# How Netlify reads this file (docs.netlify.com/manage/routing/redirects/, checked 2026-09-24):
+# - It reads this file before the netlify.toml rules, top to bottom, and the first match wins.
+# - It matches a path with or without its trailing slash, so ONE line covers /x and /x/. Never write a
+#   rule that only adds or removes a slash: it loops. Pretty URLs (on by default) sends /about to /about/.
+# - A built file at a source path beats a rule without "!", so a real page always wins over its old rule.
+#   The only forced rule is /index.html, which exists as a file.
+# - Paths are case-sensitive. A query string passes through to a 301 target.
+# - A 410 line serves the body of /404.html with status 410, and the URL stays the same.
+#
+# Every 301 goes to an absolute https://www.nocoturf.com/ URL so an old apex (nocoturf.com) URL lands on its
+# new page in ONE hop, without first bouncing to www. Never send an old URL to the homepage in bulk.
+# Service URLs here must match the `legacy` arrays in src/data/services.ts: change that file first.
+
+# ── The homepage duplicate ────────────────────────────────────────────────────────────────────────────
+/index.html                                                                        https://www.nocoturf.com/                                   301!
+
+# ── Current site (sitemap, 2026-07 deploy): 18 service URLs → the flat /services/{slug}/ set ────────────
+# /services/artificial-turf-installation/ keeps its URL (no line).
+/services/artificial-turf-installation/residential-artificial-turf-installation/   https://www.nocoturf.com/services/artificial-turf-installation/  301
+/services/artificial-turf-installation/site-preparation-for-turf/                  https://www.nocoturf.com/services/artificial-turf-installation/  301
+/services/landscape-design-installation/                                           https://www.nocoturf.com/services/artificial-turf-installation/  301
+/services/landscape-design-installation/landscape-turf-installation/               https://www.nocoturf.com/services/artificial-turf-installation/  301
+/services/landscape-design-installation/residential-landscape-design/              https://www.nocoturf.com/services/artificial-turf-installation/  301
+/services/landscape-design-installation/outdoor-space-planning/                    https://www.nocoturf.com/services/artificial-turf-installation/  301
+/services/landscape-design-installation/landscape-consultation/                    https://www.nocoturf.com/services/artificial-turf-installation/  301
+/services/specialty-turf-services/                                                 https://www.nocoturf.com/services/artificial-turf-installation/  301
+/services/specialty-turf-services/custom-turf-design/                              https://www.nocoturf.com/services/artificial-turf-installation/  301
+/services/specialty-turf-services/specialty-turf-consultation/                     https://www.nocoturf.com/services/artificial-turf-installation/  301
+/services/artificial-turf-installation/pet-safe-turf-installation/                 https://www.nocoturf.com/services/pet-turf/                 301
+/services/specialty-turf-services/putting-green-installation/                      https://www.nocoturf.com/services/putting-greens/           301
+/services/specialty-turf-services/playground-turf-installation/                    https://www.nocoturf.com/services/playground-turf/          301
+/services/artificial-turf-installation/commercial-artificial-turf-installation/    https://www.nocoturf.com/services/commercial-turf/          301
+/services/artificial-turf-installation/sports-turf-installation/                   https://www.nocoturf.com/services/commercial-turf/          301
+/services/landscape-design-installation/commercial-landscape-installation/         https://www.nocoturf.com/services/commercial-turf/          301
+/services/specialty-turf-services/indoor-turf-installation/                        https://www.nocoturf.com/services/commercial-turf/          301
+
+# ── Current site: towns that belong to the sister brand → the /areas/ hub (it carries the boundary note) ──
+/areas/erie-co/                                                                    https://www.nocoturf.com/areas/                             301
+/areas/brighton-co/                                                                https://www.nocoturf.com/areas/                             301
+/areas/thornton-co/                                                                https://www.nocoturf.com/areas/                             301
+/areas/broomfield-co/                                                              https://www.nocoturf.com/areas/                             301
+
+# ── Current site: six stale south-metro "ghost" pages (never in the sitemap) → gone ─────────────────────
+/areas/denver-co/                                                                  /404.html                                                   410
+/areas/aurora-co/                                                                  /404.html                                                   410
+/areas/arvada-co/                                                                  /404.html                                                   410
+/areas/englewood-co/                                                               /404.html                                                   410
+/areas/lakewood-co/                                                                /404.html                                                   410
+/areas/westminster-co/                                                             /404.html                                                   410
+
+# ── Current site: utility pages ─────────────────────────────────────────────────────────────────────────
+# /review/ has NO line: it is rebuilt as the ungated review page (src/pages/review.astro).
+/blog/                                                                             https://www.nocoturf.com/guides/                            301
+/projects/                                                                         https://www.nocoturf.com/work/                              301
+/discount/                                                                         https://www.nocoturf.com/contact/                           301
+/thank-you/                                                                        https://www.nocoturf.com/thanks/                            301
+/marketing-form/                                                                   /404.html                                                   410
+/sitemap-index.xml                                                                 https://www.nocoturf.com/sitemap.xml                        301
+/sitemap-0.xml                                                                     https://www.nocoturf.com/sitemap.xml                        301
+
+# ── 2024–25 WordPress town pages (apex) ─────────────────────────────────────────────────────────────────
+/artificial-grass-installation-berthoud-co/                                        https://www.nocoturf.com/areas/berthoud-co/                 301
+/artificial-grass-installation-fort-collins-co/                                    https://www.nocoturf.com/areas/fort-collins-co/             301
+/artificial-grass-installation-johnstown-co/                                       https://www.nocoturf.com/areas/johnstown-co/                301
+/artificial-grass-installation-windsor-co/                                         https://www.nocoturf.com/areas/windsor-co/                  301
+/artificial-grass-installation-evans-co/                                           https://www.nocoturf.com/areas/evans-co/                    301
+/artificial-grass-installation-erie-co/                                            https://www.nocoturf.com/areas/                             301
+/commercial-artificial-turf-berthoud-co/                                           https://www.nocoturf.com/services/commercial-turf/          301
+/commercial-artificial-turf-fort-collins-co/                                       https://www.nocoturf.com/services/commercial-turf/          301
+/commercial-artificial-turf-johnstown-co/                                          https://www.nocoturf.com/services/commercial-turf/          301
+/commercial-artificial-turf-windsor-co/                                            https://www.nocoturf.com/services/commercial-turf/          301
+/commercial-artificial-turf-evans-co/                                              https://www.nocoturf.com/services/commercial-turf/          301
+/commercial-artificial-turf-erie-co/                                               https://www.nocoturf.com/areas/                             301
+
+# ── 2024–26 WordPress and GoDaddy-builder core pages (apex) ─────────────────────────────────────────────
+# /, /about/, /contact/ and /services/ keep their URLs (no line).
+/installation-services/                                                            https://www.nocoturf.com/services/artificial-turf-installation/  301
+/maintenance-services/                                                             https://www.nocoturf.com/services/turf-repair/              301
+/why-noco-turf-co                                                                  https://www.nocoturf.com/about/                             301
+/financing-options                                                                 https://www.nocoturf.com/contact/                           301
+/privacy-policy                                                                    https://www.nocoturf.com/privacy/                           301
+/privacy-policy-2/                                                                 https://www.nocoturf.com/privacy/                           301
+/terms-and-conditions/                                                             https://www.nocoturf.com/terms/                             301
+
+# ── 2024 WordPress blog posts (apex) → the planned guide or service that answers the same question ─────
+/noco-turf-co-breaks-down-residential-synthetic-grass-cost/                        https://www.nocoturf.com/guides/artificial-turf-cost/       301
+/is-artificial-grass-safe-for-cats-what-pet-owners-should-know/                    https://www.nocoturf.com/services/pet-turf/                 301
+/paw-perfect-artificial-grass-the-eco-friendly-lawn-for-pet-lovers/                https://www.nocoturf.com/services/pet-turf/                 301
+/synthetic-grass-safe-for-dogs/                                                    https://www.nocoturf.com/services/pet-turf/                 301
+/how-to-clean-synthetic-grass-noco-turf-co-dives-in-deep/                          https://www.nocoturf.com/services/turf-repair/              301
+/can-you-lay-synthetic-grass-on-concrete/                                          https://www.nocoturf.com/services/artificial-turf-installation/  301
+/get-the-best-artificial-grass-in-colorado/                                        https://www.nocoturf.com/services/artificial-turf-installation/  301
+/how-long-does-synthetic-grass-last-a-guide/                                       https://www.nocoturf.com/services/artificial-turf-installation/  301
+/is-synthetic-grass-hot-in-the-sun-colorado-is-hot/                                https://www.nocoturf.com/services/artificial-turf-installation/  301
+/what-is-synthetic-grass/                                                          https://www.nocoturf.com/services/artificial-turf-installation/  301
+/what-is-synthetic-grass-made-of/                                                  https://www.nocoturf.com/services/artificial-turf-installation/  301
+/where-can-i-buy-synthetic-grass/                                                  https://www.nocoturf.com/turf-supply/                       301
+/where-to-buy-synthetic-grass-the-noco-turf-co-storefront/                         https://www.nocoturf.com/turf-supply/                       301
+/category/*                                                                        https://www.nocoturf.com/guides/                            301
+
+# ── 2024–25 WooCommerce store (apex) → /turf-supply/ ────────────────────────────────────────────────────
+# HOLD: /turf-supply/ exists only if the Windsor store still sells retail (services.ts TURF_SUPPLY). If it
+# does not, every /turf-supply/ target in this file becomes /services/artificial-turf-installation/.
+/shop/                                                                             https://www.nocoturf.com/turf-supply/                       301
+/new-shop/                                                                         https://www.nocoturf.com/turf-supply/                       301
+/product/bayhill-blend/                                                            https://www.nocoturf.com/turf-supply/                       301
+/product/bethpage-blend/                                                           https://www.nocoturf.com/turf-supply/                       301
+/product/broadmoor/                                                                https://www.nocoturf.com/turf-supply/                       301
+/product/cypress/                                                                  https://www.nocoturf.com/turf-supply/                       301
+/product/lakota/                                                                   https://www.nocoturf.com/turf-supply/                       301
+/product/pebble-forest-2/                                                          https://www.nocoturf.com/turf-supply/                       301
+/product/pebble-olive/                                                             https://www.nocoturf.com/turf-supply/                       301
+/product/pebble-spring-2/                                                          https://www.nocoturf.com/turf-supply/                       301
+/product/pinehurst-forest/                                                         https://www.nocoturf.com/turf-supply/                       301
+/product/pinehurst-olive/                                                          https://www.nocoturf.com/turf-supply/                       301
+/product/sawgrass/                                                                 https://www.nocoturf.com/turf-supply/                       301
+/product/scottsdale/                                                               https://www.nocoturf.com/turf-supply/                       301
+/product/spyglass/                                                                 https://www.nocoturf.com/turf-supply/                       301
+/product/t-cool/                                                                   https://www.nocoturf.com/turf-supply/                       301
+/product/torrey/                                                                   https://www.nocoturf.com/turf-supply/                       301
+/product/troon/                                                                    https://www.nocoturf.com/turf-supply/                       301
+/product/turnberry/                                                                https://www.nocoturf.com/turf-supply/                       301
+/product/westmoor/                                                                 https://www.nocoturf.com/turf-supply/                       301
+/product/wonderfill/                                                               https://www.nocoturf.com/turf-supply/                       301
+/product/zeodorizer/                                                               https://www.nocoturf.com/turf-supply/                       301
+/product/*                                                                         https://www.nocoturf.com/turf-supply/                       301
+/product-category/commercial/                                                      https://www.nocoturf.com/turf-supply/                       301
+/product-category/infills/                                                         https://www.nocoturf.com/turf-supply/                       301
+/product-category/landscape/                                                       https://www.nocoturf.com/turf-supply/                       301
+/product-category/pet-friendly/                                                    https://www.nocoturf.com/turf-supply/                       301
+/product-category/putting-green/                                                   https://www.nocoturf.com/turf-supply/                       301
+/product-category/*                                                                https://www.nocoturf.com/turf-supply/                       301
+
+# ── Old platform sitemaps (apex) → the one sitemap ──────────────────────────────────────────────────────
+/sitemap_index.xml                                                                 https://www.nocoturf.com/sitemap.xml                        301
+/page-sitemap.xml                                                                  https://www.nocoturf.com/sitemap.xml                        301
+/post-sitemap.xml                                                                  https://www.nocoturf.com/sitemap.xml                        301
+/product-sitemap.xml                                                               https://www.nocoturf.com/sitemap.xml                        301
+/product_cat-sitemap.xml                                                           https://www.nocoturf.com/sitemap.xml                        301
+/category-sitemap.xml                                                              https://www.nocoturf.com/sitemap.xml                        301
+/post_tag-sitemap.xml                                                              https://www.nocoturf.com/sitemap.xml                        301
+/author-sitemap.xml                                                                https://www.nocoturf.com/sitemap.xml                        301
+/elementskit_template-sitemap.xml                                                  https://www.nocoturf.com/sitemap.xml                        301
+
+# ── Old platform machinery with no equivalent (apex) → gone ─────────────────────────────────────────────
+/cart/                                                                             /404.html                                                   410
+/checkout/                                                                         /404.html                                                   410
+/my-account/*                                                                      /404.html                                                   410
+/sample-page/                                                                      /404.html                                                   410
+/tag/*                                                                             /404.html                                                   410
+/author/*                                                                          /404.html                                                   410
+/feed/*                                                                            /404.html                                                   410
+/comments/feed/*                                                                   /404.html                                                   410
+/wp-admin/*                                                                        /404.html                                                   410
+/wp-content/*                                                                      /404.html                                                   410
+/wp-includes/*                                                                     /404.html                                                   410
+/wp-json/*                                                                         /404.html                                                   410
+/wp-login.php                                                                      /404.html                                                   410
+/xmlrpc.php                                                                        /404.html                                                   410
+/m/*                                                                               /404.html                                                   410
+/f.atom                                                                            /404.html                                                   410
+/f.rss                                                                             /404.html                                                   410

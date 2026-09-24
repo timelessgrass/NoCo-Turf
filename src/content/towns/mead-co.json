@@ -1,0 +1,125 @@
+{
+  "status": "draft",
+  "slug": "mead-co",
+  "name": "Mead",
+  "region": "carbon-valley-longmont",
+  "title": "Artificial Turf in Mead, CO — 57 Metro Districts | NoCo Turf Co.",
+  "description": "No turf rule turned up in Mead's code, so HOA design rules, state law and Little Thompson water shape a yard in a town that grew 47.3% from 2020 to 2025.",
+  "h1": "Mead's new neighborhoods run on metro districts and Little Thompson water",
+  "lede": "Most Mead homes were built after 2000 and most of its metro districts after 2018, and no town turf rule turned up in its code. The rules that shape a Mead yard come from the HOA, the state and the water district.",
+  "answer": {
+    "question": "What rules apply to artificial turf in Mead?",
+    "answer": "Mostly your HOA's and the state's. NoCo Turf Co. installs artificial turf in Mead, Colorado, where no artificial-turf provision turned up in the town code as codified through April 14, 2025. Colorado law bars an HOA from prohibiting backyard turf on a detached home, though it can set design rules, so read your HOA's guidelines first."
+  },
+  "blocks": [
+    {
+      "kind": "housing",
+      "own": true,
+      "kicker": "Growth",
+      "h2": "Mead grew 47.3% from 2020 to 2025.",
+      "paras": [
+        "The 2020 Census counted 4,781 people in Mead; the Census Bureau's 2025 estimate is 7,042. About 70.8% of Mead's homes were built in 2000 or later.",
+        "Sorrento is the largest subdivision with 449 house lots, followed by Mead Western Meadows with 236, Liberty Ranch with 229 and St. Acacius with 221, and the median house lot is about 7,191 square feet. Feather Ridge Estates and North Creek are the big-lot exceptions, with medians near 13,134 and 11,251 square feet."
+      ],
+      "layerRefs": [],
+      "sources": [
+        "https://www2.census.gov/programs-surveys/decennial/2020/data/01-Redistricting_File--PL_94-171/Colorado/co2020.pl.zip",
+        "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/cities/totals/sub-est2025.csv",
+        "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B25003,B25034,B25024&geo_ids=16000US0849600",
+        "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Metro districts",
+      "h2": "38 of Mead's 57 metro districts were formed in 2018 or later.",
+      "paras": [
+        "By the state's district map, 57 metro districts have a representative point inside Mead; the largest families are Mead Place with 12, Turion South with 10 and Westridge with 5.",
+        "Colorado law makes an HOA covenant or special-district rule that prohibits artificial turf in the backyard of a residential property unenforceable, with exceptions for attached homes and timeshares. An HOA can still adopt design and aesthetic guidelines, so those are the document to read first."
+      ],
+      "layerRefs": ["co-special-district-backyard", "co-hoa-backyard-detached"],
+      "sources": [
+        "https://data.colorado.gov/resource/szft-nc4z.geojson",
+        "https://leg.colorado.gov/bill_files/92307/download"
+      ]
+    },
+    {
+      "kind": "utility",
+      "own": true,
+      "kicker": "Little Thompson water",
+      "h2": "Little Thompson Water District has supplied Mead since 2002.",
+      "paras": [
+        "Little Thompson added the Town of Mead to its service area in 2002. Since April 17, 2026, a standard 5/8-inch tap on a lot under 17,000 square feet pays a $45.48 monthly base plus $4.03 per 1,000 gallons up to 6,000, $5.25 to 25,000, $6.18 to 50,000, $8.63 to 70,000 and $10.35 above that.",
+        "Every tap carries an annual allotment, and water above it costs an extra $10 per 1,000 gallons on standard taps and $20 on other residential taps. The district is at Watch, its lowest shortage level, with no mandatory restrictions in 2026. Check your bill to confirm your provider.",
+        "The district's discount on Resource Central lawn removal, up to $750 for at least 200 square feet, is closed for 2026, and Resource Central requires the replaced area to be at least half waterwise plants."
+      ],
+      "layerRefs": ["ltwd-service-area-mead-barefoot-lakes", "ltwd-rates-2026-standard-tap", "ltwd-allotment-overage-2026", "ltwd-watch-2026", "ltwd-lawn-replacement-2026", "resource-central-lawn-2026"],
+      "sources": [
+        "https://www.littlethompsonwd.gov/our-service-area",
+        "https://www.littlethompsonwd.gov/files/0eba237d7/2026+Section+1502.1+Schedule+B-04162026_02.pdf",
+        "https://www.littlethompsonwd.gov/files/d6e8362ff/2026+Section+1502.2+Schedule+C-04162026.pdf",
+        "https://www.littlethompsonwd.gov/quarterly-news-from-ltwd-summer-2026",
+        "https://www.ltwd.org/lawn-replacement",
+        "https://resourcecentral.org/lawn/"
+      ]
+    },
+    {
+      "kind": "soil",
+      "own": false,
+      "kicker": "Silt loam",
+      "h2": "Central Mead sits on Wiley-Colby silt loam, a moderate shrink-swell soil.",
+      "paras": [
+        "Soil surveys around central Mead map mostly the Wiley-Colby complex, a moderate shrink-swell silt loam, with Nunn clay loam in places. NRCS rates the Nunn series as limited for building because of shrink-swell.",
+        "The largest hail NOAA logged near Mead from 2011 through 2025 was 1.75 inches, on June 18, 2018, and the Longmont 2 ESE station averages 177.7 nights a year at or below freezing."
+      ],
+      "layerRefs": ["nrcs-soil-mead", "nrcs-nunn-weld-shrink-swell", "noaa-hail-max-mead", "noaa-normals-longmont-2ese"],
+      "sources": [
+        "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+        "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/",
+        "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00055116&format=json"
+      ]
+    }
+  ],
+  "sections": [],
+  "faq": [
+    {
+      "q": "Does Mead have its own artificial-turf ordinance?",
+      "a": "None turned up. The Mead code as codified through Ord. No. 1075 on April 14, 2025 has no artificial-turf provision, and an ordinance adopted since then would not show there yet, so ask the Town."
+    },
+    {
+      "q": "Is there a lawn-replacement rebate in Mead?",
+      "a": "Not for 2026, and not for turf alone. Little Thompson's discount on Resource Central lawn removal is closed for the season, and Resource Central requires at least half waterwise plants."
+    },
+    {
+      "q": "What happens if my Mead lawn goes over its Little Thompson allotment?",
+      "a": "You pay more for every gallon above it. Every Little Thompson tap carries an annual allotment, and water above it costs an extra $10 per 1,000 gallons on standard taps and $20 on other residential taps."
+    }
+  ],
+  "nearby": ["firestone-co", "frederick-co", "longmont-co", "berthoud-co", "johnstown-co"],
+  "sources": [
+    { "label": "U.S. Census Bureau, 2020 Census redistricting file (Mead: 4,781)", "url": "https://www2.census.gov/programs-surveys/decennial/2020/data/01-Redistricting_File--PL_94-171/Colorado/co2020.pl.zip", "checked": "2026-09-24" },
+    { "label": "U.S. Census Bureau, Vintage 2025 city estimates (Mead 7,042; +47.3% on the 2020 Census count)", "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/cities/totals/sub-est2025.csv", "checked": "2026-09-24" },
+    { "label": "ACS 2020–2024 via Census Reporter: Mead housing (70.8% built 2000 or later)", "url": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B25003,B25034,B25024&geo_ids=16000US0849600", "checked": "2026-09-24" },
+    { "label": "Colorado Public Parcels (statewide parcel file): Mead house lots, median about 7,191 sq ft; Sorrento 449 (median about 6,614), Mead Western Meadows 236, Liberty Ranch 229, St. Acacius 221; Feather Ridge Estates median about 13,134, North Creek about 11,251", "url": "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query", "checked": "2026-09-24" },
+    { "label": "Colorado DOLA special-district boundaries: 57 metro districts inside Mead, 38 formed 2018 or later (Mead Place 12, Turion South 10, Westridge 5)", "url": "https://data.colorado.gov/resource/szft-nc4z.geojson", "checked": "2026-09-24" },
+    { "label": "C.R.S. 37-60-126(11)(a.5) and 38-33.3-106.5(1)(i.5), added by SB23-178 (signed act)", "url": "https://leg.colorado.gov/bill_files/92307/download", "checked": "2026-09-24" },
+    { "label": "Little Thompson Water District, Our Service Area", "url": "https://www.littlethompsonwd.gov/our-service-area", "checked": "2026-09-24" },
+    { "label": "Little Thompson Water District, Section 1502.1 Schedule B – Water Rate Schedule (approved April 16, 2026)", "url": "https://www.littlethompsonwd.gov/files/0eba237d7/2026+Section+1502.1+Schedule+B-04162026_02.pdf", "checked": "2026-09-24" },
+    { "label": "Little Thompson Water District, Section 1502.2 Schedule C – Miscellaneous Fees (April 16, 2026)", "url": "https://www.littlethompsonwd.gov/files/d6e8362ff/2026+Section+1502.2+Schedule+C-04162026.pdf", "checked": "2026-09-24" },
+    { "label": "Little Thompson Water District, Quarterly News – Summer 2026", "url": "https://www.littlethompsonwd.gov/quarterly-news-from-ltwd-summer-2026", "checked": "2026-09-24" },
+    { "label": "Little Thompson Water District, Lawn Replacement", "url": "https://www.ltwd.org/lawn-replacement", "checked": "2026-09-24" },
+    { "label": "Resource Central, Lawn Replacement program page", "url": "https://resourcecentral.org/lawn/", "checked": "2026-09-24" },
+    { "label": "USDA-NRCS Soil Data Access (SSURGO), central Mead sample and Nunn series shrink-swell interpretation", "url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest", "checked": "2026-09-24" },
+    { "label": "NOAA NCEI Storm Events Database, hail reports near Mead, 2011–2025", "url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/", "checked": "2026-09-24" },
+    { "label": "NOAA NCEI U.S. Climate Normals 1991–2020, station LONGMONT 2 ESE (USC00055116)", "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00055116&format=json", "checked": "2026-09-24" },
+    { "label": "Mead Municipal Code on Municode (codified through Ord. No. 1075, April 14, 2025)", "url": "https://library.municode.com/co/mead/codes/municipal_code", "checked": "2026-09-24" }
+  ],
+  "checked": "2026-09-24",
+  "needsFromBrian": [
+    "Named or described Mead jobs (Sorrento, Liberty Ranch, Mead Western Meadows or another subdivision): month, rough size, use",
+    "Metro-district or HOA design-review submittals you have prepared in Mead",
+    "Camera-original photos of at least one Mead job, before and after",
+    "Google reviews from Mead customers that name the town, with consent to quote first name and last initial"
+  ]
+}

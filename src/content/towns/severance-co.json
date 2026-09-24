@@ -1,0 +1,115 @@
+{
+  "status": "draft",
+  "slug": "severance-co",
+  "name": "Severance",
+  "region": "windsor-johnstown",
+  "title": "Artificial Turf in Severance, CO — Watering Schedule | NoCo Turf Co.",
+  "description": "Severance waters on a mandatory schedule every year: 3 days a week by address, none from 11 a.m. to 5 p.m., and no lawn watering December 1 to March 31.",
+  "h1": "Severance's mandatory watering schedule never takes a year off",
+  "lede": "Severance grew from 7,683 residents in 2020 to an estimated 11,841 in 2025, and the Town's water users all follow one mandatory schedule, drought or not.",
+  "answer": {
+    "question": "What are the watering rules for a lawn in Severance?",
+    "answer": "Mandatory, every year. NoCo Turf Co. installs artificial turf in Severance, Colorado, where the Town's standing schedule allows 3 assigned days a week by address, no watering from 11 a.m. to 5 p.m., and no lawn watering from December 1 through March 31. An artificial turf area takes that lawn off the schedule."
+  },
+  "blocks": [
+    {
+      "kind": "drought",
+      "own": true,
+      "kicker": "The schedule",
+      "h2": "Severance's watering schedule is mandatory in every year, not just drought years.",
+      "paras": [
+        "The Town requires all of its water users to follow the schedule: three assigned days a week by address, no watering from 11 a.m. to 5 p.m., and no lawn watering at all from December 1 through March 31.",
+        "A new sod lawn has to establish inside those windows; an artificial turf area doesn't need them."
+      ],
+      "layerRefs": ["severance-mandatory-schedule"],
+      "sources": ["https://www.townofseverance.org/396/Watering-Guidelines-and-Restrictions"]
+    },
+    {
+      "kind": "utility",
+      "own": true,
+      "kicker": "C-BT water",
+      "h2": "Severance owns its C-BT units, and North Weld treats and delivers them.",
+      "paras": [
+        "The Town owns Colorado-Big Thompson water units that North Weld County Water District treats and delivers under a 2003 agreement, and its treated water comes through the Soldier Canyon Filter Plant. Northern Water set the 2026 C-BT quota at 0.8 acre-feet per unit.",
+        "North Weld also serves some subdivisions directly, including Belmont Farms, Bridal Hill and Saddler Ridge, Casa Loma, Hidden Valley Farm and Soaring Eagle Ranch; its 2026 rate is $31.14 for the first 6,000 gallons a month and $5.19 per 1,000 gallons after that."
+      ],
+      "layerRefs": ["severance-water-cbt-nwcwd", "soldier-canyon-filter-plant-towns", "cbt-quota-2026", "nwcwd-rates-2026", "nwcwd-service-area"],
+      "sources": [
+        "https://www.townofseverance.org/431/Where-Does-Severances-Water-Come-From",
+        "https://www.elcowater.org/source-of-elco-s-water",
+        "https://greeleyco.gov/news/2026/20260417-greeley-water-and-sewer-board-declares-adequate-water-year-urges-wise-stewardship/",
+        "https://townofseverance.org/263/Utility-Services-by-Other-Agencies",
+        "https://www.nwcwd.org/files/f055ec287/May+2026+Newsletter.pdf",
+        "https://www.nwcwd.org/service-area"
+      ]
+    },
+    {
+      "kind": "housing",
+      "own": true,
+      "kicker": "New houses",
+      "h2": "97.4% of Severance homes are single-family detached, most built since 2010.",
+      "paras": [
+        "About 69.2% of Severance homes were built in 2010 or later, with a median build year of 2014."
+      ],
+      "layerRefs": [],
+      "sources": [
+        "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/cities/totals/sub-est2025.csv",
+        "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B25035,B25003,B25024,B25034&geo_ids=16000US0827425,16000US0846465,16000US0885485,16000US0877510,16000US0883230,16000US0806255,16000US0839855,16000US0825115,16000US0843220,16000US0869150"
+      ]
+    },
+    {
+      "kind": "soil",
+      "own": false,
+      "kicker": "Ground and hail",
+      "h2": "Kim loam underfoot and 2.75-inch hail overhead.",
+      "paras": [
+        "Soil surveys around central Severance map mostly low shrink-swell Kim loam and Otero sandy loam.",
+        "NOAA logged 2.75-inch hail on June 12, 2017 about 7.6 miles north-northwest of Severance, the largest Severance-referenced report from 2011 through 2025. The Greeley UNC station averages 58.3 days a year at or above 90°F."
+      ],
+      "layerRefs": ["nrcs-soil-severance", "noaa-hail-max-severance", "noaa-normals-greeley-unc"],
+      "sources": [
+        "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+        "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/",
+        "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053553&format=json"
+      ]
+    }
+  ],
+  "sections": [],
+  "faq": [
+    {
+      "q": "Does Severance regulate artificial turf on house lots?",
+      "a": "No such provision turned up in the town code as codified through December 9, 2025; its tree standards only define landscape to exclude artificial turf."
+    },
+    {
+      "q": "Can I water new sod in Severance over the winter?",
+      "a": "No. The Town bars lawn watering from December 1 through March 31 every year."
+    },
+    {
+      "q": "Who supplies water to my Severance subdivision?",
+      "a": "Check your bill. North Weld County Water District serves Belmont Farms, Bridal Hill and Saddler Ridge, Casa Loma, Hidden Valley Farm and Soaring Eagle Ranch directly; Town customers get Severance's own C-BT water, which North Weld treats and delivers."
+    }
+  ],
+  "nearby": ["windsor-co", "eaton-co", "timnath-co", "greeley-co"],
+  "sources": [
+    { "label": "Town of Severance, Watering Guidelines and Restrictions", "url": "https://www.townofseverance.org/396/Watering-Guidelines-and-Restrictions", "checked": "2026-09-24" },
+    { "label": "Town of Severance, Where Does Severance's Water Come From?", "url": "https://www.townofseverance.org/431/Where-Does-Severances-Water-Come-From", "checked": "2026-09-24" },
+    { "label": "ELCO Water District, Source of ELCO's Water (Soldier Canyon Filter Plant)", "url": "https://www.elcowater.org/source-of-elco-s-water", "checked": "2026-09-24" },
+    { "label": "City of Greeley news release, April 17, 2026 (Northern Water's 2026 C-BT quota)", "url": "https://greeleyco.gov/news/2026/20260417-greeley-water-and-sewer-board-declares-adequate-water-year-urges-wise-stewardship/", "checked": "2026-09-24" },
+    { "label": "Town of Severance, Utility Services by Other Agencies (North Weld County Water District subdivisions)", "url": "https://townofseverance.org/263/Utility-Services-by-Other-Agencies", "checked": "2026-09-24" },
+    { "label": "North Weld County Water District, May 2026 Newsletter", "url": "https://www.nwcwd.org/files/f055ec287/May+2026+Newsletter.pdf", "checked": "2026-09-24" },
+    { "label": "North Weld County Water District, Service Area", "url": "https://www.nwcwd.org/service-area", "checked": "2026-09-24" },
+    { "label": "U.S. Census Bureau, Vintage 2025 city estimates (Severance 11,841; 2020 Census 7,683)", "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/cities/totals/sub-est2025.csv", "checked": "2026-09-24" },
+    { "label": "ACS 2020–2024 via Census Reporter: Severance housing (97.4% single-family detached; 69.2% built 2010 or later; median year built 2014)", "url": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B25035,B25003,B25024,B25034&geo_ids=16000US0827425,16000US0846465,16000US0885485,16000US0877510,16000US0883230,16000US0806255,16000US0839855,16000US0825115,16000US0843220,16000US0869150", "checked": "2026-09-24" },
+    { "label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Severance", "url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest", "checked": "2026-09-24" },
+    { "label": "NOAA NCEI Storm Events Database, hail reports referenced to Severance, 2011–2025", "url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/", "checked": "2026-09-24" },
+    { "label": "NOAA NCEI U.S. Climate Normals 1991–2020, station GREELEY UNC (USC00053553)", "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053553&format=json", "checked": "2026-09-24" },
+    { "label": "Severance Municipal Code Sec. 7-5-10 (definitions; codified through Ord. No. 2025-27, Dec. 9, 2025)", "url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH7HESAAN_ART5TRST_S7-5-10DE", "checked": "2026-09-24" }
+  ],
+  "checked": "2026-09-24",
+  "needsFromBrian": [
+    "Confirmation that NoCo serves Severance (there is no Severance page today)",
+    "Named or described Severance jobs: subdivision, month, rough size, use",
+    "Camera-original photos of at least one Severance job, before and after",
+    "Google reviews from Severance customers that name the town, with consent to quote first name and last initial"
+  ]
+}

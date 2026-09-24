@@ -1,0 +1,183 @@
+{
+  "status": "draft",
+  "slug": "windsor-co",
+  "name": "Windsor",
+  "region": "windsor-johnstown",
+  "title": "Artificial Turf in Windsor, CO — Golf Neighborhoods | NoCo Turf Co.",
+  "description": "Windsor's code keeps artificial turf off new-development plans and exempts existing houses, bar a 25% landscaped front yard. Its lawn rebate excludes turf.",
+  "h1": "Windsor's golf neighborhoods can have turf, but the town code draws lines",
+  "lede": "Windsor straddles the Weld–Larimer county line and holds three golf communities, dozens of metro districts and a landscape code that treats an existing house very differently from a new subdivision. Here is what that means for a backyard, a putting green or a front yard in town.",
+  "answer": {
+    "question": "Can I put artificial turf or a putting green in my Windsor yard?",
+    "answer": "On an existing house lot, usually yes. NoCo Turf Co. installs artificial turf in Windsor, Colorado. Windsor's landscape article exempts detached houses and duplexes, except that the tree lawn rule stays and at least 25% of each front yard must be landscaped. New development can't, except for functional turf the Director approves."
+  },
+  "blocks": [
+    {
+      "kind": "golf",
+      "own": true,
+      "kicker": "Golf-course lots",
+      "h2": "Three golf communities put Windsor's backyard greens next to real ones.",
+      "takeaway": "Ptarmigan is split between the town and unincorporated Larimer County.",
+      "paras": [
+        "Highland Meadows Golf Course, Pelican Lakes at Water Valley and RainDance National are all in Windsor. Pelican Lakes runs 27 holes along the Cache la Poudre; Highland Meadows is a public 18 that opened in 2004.",
+        "Ptarmigan is split. Windsor Villages at Ptarmigan, platted between 2019 and 2023, is inside the town. The original Ptarmigan filings and the country club on Vardon Way are unincorporated Larimer County with Fort Collins addresses, so Windsor's landscape code does not govern them; the HOA's rules still do."
+      ],
+      "layerRefs": [],
+      "sources": [
+        "https://www.golfpass.com/travel-advisor/courses/26052-highland-meadows-golf-course",
+        "https://pelicanlakeswindsor.com/",
+        "https://raindancenational.com/",
+        "https://maps1.larimer.org/arcgis/rest/services/MapServices/Parcels/MapServer",
+        "https://www.ptarmigancc.com/about-us"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "The town code",
+      "h2": "Windsor's no-turf rule is written for new development, not your house.",
+      "takeaway": "Existing detached houses and duplexes are exempt, with two strings attached.",
+      "paras": [
+        "Section 15-3-20 of the Windsor code says no artificial turf or artificial plants may be included in any landscape plan or installed, and it covers new development and redevelopment. The Director can approve functional artificial turf as an exception when alternatives are not reasonable.",
+        "Section 15-3-10 exempts detached single-family houses and duplexes from the whole landscape article, except that the tree lawn requirement stays in effect and at least 25% of every front yard must be landscaped.",
+        "The code's definition of landscape leaves artificial turf out, which suggests turf will not count toward that 25%. Windsor Planning makes that call, so ask before you design a front yard around turf."
+      ],
+      "layerRefs": ["windsor-code-15-3-20-no-turf", "windsor-code-15-3-10-single-family-exempt"],
+      "sources": [
+        "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTIIISTLADEAR_S15-3-20LAST",
+        "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTIIISTLADEAR_S15-3-10INAP"
+      ]
+    },
+    {
+      "kind": "housing",
+      "own": true,
+      "kicker": "Plats and districts",
+      "h2": "Windsor's newer neighborhoods come with metro districts and big Larimer-side lots.",
+      "paras": [
+        "By the state's district map, about 80 metro districts have a representative point inside Windsor's limits, 23 of them formed in 2018 or later; that count includes commercial districts.",
+        "On the Larimer County side, the largest plats are the Ranch at Highland Meadows at 644 acres, the Highland Meadows Golf Course plats at 621 acres, Fossil Ridge and Highpointe, and the median residential lot there measured about 10,018 square feet.",
+        "East of the river, the Water Valley master plan takes in Water Valley South, Pelican Farms, Pelican Hills, Hilltop Estates and Pelican Shores."
+      ],
+      "layerRefs": [],
+      "sources": [
+        "https://data.colorado.gov/resource/szft-nc4z.geojson",
+        "https://maps1.larimer.org/arcgis/rest/services/MapServices/Parcels/MapServer",
+        "https://watervalley.com/master-plan/"
+      ]
+    },
+    {
+      "kind": "utility",
+      "own": true,
+      "kicker": "Your water bill",
+      "h2": "Windsor's 2026 utility bill rose about 26%, led by sewer, and RainDance bills irrigation on its own.",
+      "paras": [
+        "The Town buys most of its water from North Weld County Water District, with Greeley and Fort Collins-Loveland Water District as secondary suppliers. On the Larimer County side, Fort Collins-Loveland serves Windsor homes directly, and Harmony Ridge and Alexander Estates are on North Weld.",
+        "Since February 1, 2026, a single-family home on a 3/4-inch meter pays $28.33 a month plus $8.34 per 1,000 gallons up to 16,000 gallons, $12.45 up to 22,500 and $18.57 above that. The Town put the change at about a 26% rise in the total monthly utility bill for an average home using 5,000 gallons.",
+        "RainDance Metropolitan District runs its own non-potable irrigation water at $4.53 per 1,000 gallons plus a $277.68 annual capital fee per unit, so a RainDance lawn's watering cost sits on the district's bill, not the Town's."
+      ],
+      "layerRefs": ["windsor-water-suppliers", "windsor-larimer-side-fclwd", "windsor-rates-2026", "windsor-2026-rate-increase", "raindance-nonpotable-irrigation"],
+      "sources": [
+        "https://www.windsorco.gov/Faq.aspx?QID=209",
+        "https://www.windsorco.gov/998/Utility-Services-by-other-Agencies",
+        "https://www.windsorco.gov/513/Fee-Schedule",
+        "https://www.windsorco.gov/1440/2026-Water-Sewer-and-Stormwater-Rate-Inc",
+        "https://www.raindancemetrodistrict.org/non-potable-irrigation-water"
+      ]
+    },
+    {
+      "kind": "rebate",
+      "own": true,
+      "kicker": "Rebate money",
+      "h2": "Windsor's lawn-replacement rebate pays for plants and never for turf.",
+      "paras": [
+        "The Town's 2026 Lawn Replacement Program paid $1 to $2 per square foot, up to $2,000 per water account, for front-yard lawn replaced with a new design that is at least 50% living plants, and the 2026 application window has passed. The program page is blunt: artificial turf is not eligible.",
+        "Resource Central's lawn-replacement program, offered through several Northern Colorado water providers, also requires the replaced area to be at least half waterwise plants. Neither program says how it treats a yard with turf elsewhere, so confirm with the program in writing before you split a yard between a rebated bed and turf."
+      ],
+      "layerRefs": ["windsor-lawn-replacement-2026", "resource-central-lawn-2026"],
+      "sources": [
+        "https://www.windsorco.gov/1451/Lawn-Replacement-Program",
+        "https://resourcecentral.org/lawn/"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": false,
+      "kicker": "HOA and district rules",
+      "h2": "A Windsor HOA can shape backyard turf but not ban it on a detached home.",
+      "paras": [
+        "Under C.R.S. 37-60-126(11)(a.5), an HOA covenant or a special-district rule that prohibits artificial turf in the backyard of a residential property is unenforceable. The clause does not cover timeshares or single-family homes that share a wall.",
+        "For an attached home, the HOA may restrict turf to rear-yard locations only, so a front-yard plan on a Windsor townhome is the HOA's call."
+      ],
+      "layerRefs": ["co-special-district-backyard", "co-hoa-backyard-detached", "co-hoa-attached-rear-yard"],
+      "sources": ["https://leg.colorado.gov/bill_files/92307/download"]
+    },
+    {
+      "kind": "soil",
+      "own": false,
+      "kicker": "Ground and weather",
+      "h2": "Windsor sits on sandy loam and river gravel, under 2-inch hail.",
+      "paras": [
+        "Soil surveys around central Windsor map mostly low shrink-swell Olney fine sandy loam and Kim loam, plus wet, gravelly river-bottom soils near the Poudre. The sandy ground drains readily under a turf base; the river-bottom pockets are where drainage deserves a closer look.",
+        "NOAA logged 2-inch hail near Windsor on June 12, 2017 and again on July 5, 2019. The Greeley UNC station averages 58.3 days a year at or above 90°F and 6.5 days at or above 100°F."
+      ],
+      "layerRefs": ["nrcs-soil-windsor", "noaa-hail-max-windsor", "noaa-normals-greeley-unc"],
+      "sources": [
+        "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+        "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/",
+        "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053553&format=json"
+      ]
+    }
+  ],
+  "sections": [],
+  "faq": [
+    {
+      "q": "Does turf count toward the 25% of my Windsor front yard that must be landscaped?",
+      "a": "Probably not, but ask the Town. Windsor's code defines landscape to exclude artificial turf, which suggests turf won't count toward that 25%; Windsor Planning makes the final call."
+    },
+    {
+      "q": "Will Windsor's lawn rebate pay for artificial turf?",
+      "a": "No. The 2026 program says artificial turf is not eligible; its money goes to front-yard lawn replaced with at least 50% living plants."
+    },
+    {
+      "q": "I live near Ptarmigan. Does Windsor's code apply to me?",
+      "a": "It depends on the filing. Windsor Villages at Ptarmigan is inside the town; the original Ptarmigan filings and the club are unincorporated Larimer County, where Windsor's landscape code doesn't reach and your HOA's rules still do."
+    },
+    {
+      "q": "Can my Windsor HOA forbid backyard turf?",
+      "a": "Not on a detached home. Colorado law bars an HOA's landscaping rules from prohibiting artificial turf in the backyard of a detached single-family home, though the HOA can still adopt design and aesthetic guidelines, so send it your plan first."
+    }
+  ],
+  "nearby": ["severance-co", "timnath-co", "johnstown-co", "greeley-co", "fort-collins-co"],
+  "sources": [
+    { "label": "GolfPass, Highland Meadows Golf Course (public, 18 holes, opened 2004)", "url": "https://www.golfpass.com/travel-advisor/courses/26052-highland-meadows-golf-course", "checked": "2026-09-24" },
+    { "label": "Pelican Lakes Golf Course at Water Valley (27 holes on the Cache la Poudre)", "url": "https://pelicanlakeswindsor.com/", "checked": "2026-09-24" },
+    { "label": "RainDance National Resort & Golf", "url": "https://raindancenational.com/", "checked": "2026-09-24" },
+    { "label": "Larimer County parcel GIS: Windsor plats (Ranch at Highland Meadows 644 ac; Highland Meadows Golf Course 621 ac; Windsor Villages at Ptarmigan platted 2019–2023; Larimer-side median residential lot about 10,018 sq ft)", "url": "https://maps1.larimer.org/arcgis/rest/services/MapServices/Parcels/MapServer", "checked": "2026-09-24" },
+    { "label": "Ptarmigan Country Club, About Us (Vardon Way, Fort Collins mailing address)", "url": "https://www.ptarmigancc.com/about-us", "checked": "2026-09-24" },
+    { "label": "Windsor Municipal Code Sec. 15-3-20(b)(2) (codified through Ord. No. 2026-1749, July 13, 2026)", "url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTIIISTLADEAR_S15-3-20LAST", "checked": "2026-09-24" },
+    { "label": "Windsor Municipal Code Sec. 15-3-10(b)(1) (codified through Ord. No. 2026-1749, July 13, 2026)", "url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTIIISTLADEAR_S15-3-10INAP", "checked": "2026-09-24" },
+    { "label": "Colorado DOLA special-district boundaries: about 80 metro districts with a representative point inside Windsor, 23 formed 2018 or later", "url": "https://data.colorado.gov/resource/szft-nc4z.geojson", "checked": "2026-09-24" },
+    { "label": "Water Valley master plan (developer site)", "url": "https://watervalley.com/master-plan/", "checked": "2026-09-24" },
+    { "label": "Town of Windsor FAQ: Where does our water come from?", "url": "https://www.windsorco.gov/Faq.aspx?QID=209", "checked": "2026-09-24" },
+    { "label": "Town of Windsor, Utility Services by Other Agencies", "url": "https://www.windsorco.gov/998/Utility-Services-by-other-Agencies", "checked": "2026-09-24" },
+    { "label": "Town of Windsor Fee Schedule, Sec. 13-2-90 monthly water charges (updated 02.01.2026)", "url": "https://www.windsorco.gov/513/Fee-Schedule", "checked": "2026-09-24" },
+    { "label": "Town of Windsor, 2026 Water, Sewer and Stormwater Rate Increase", "url": "https://www.windsorco.gov/1440/2026-Water-Sewer-and-Stormwater-Rate-Inc", "checked": "2026-09-24" },
+    { "label": "Raindance Metropolitan District, Non-Potable Irrigation Water", "url": "https://www.raindancemetrodistrict.org/non-potable-irrigation-water", "checked": "2026-09-24" },
+    { "label": "Town of Windsor, Lawn Replacement Program (2026)", "url": "https://www.windsorco.gov/1451/Lawn-Replacement-Program", "checked": "2026-09-24" },
+    { "label": "Resource Central, Lawn Replacement program page", "url": "https://resourcecentral.org/lawn/", "checked": "2026-09-24" },
+    { "label": "C.R.S. 37-60-126(11)(a.5), 38-33.3-106.5(1)(i)(I)(A) and 38-33.3-106.5(1)(i.5), added or amended by SB23-178 (signed act)", "url": "https://leg.colorado.gov/bill_files/92307/download", "checked": "2026-09-24" },
+    { "label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Windsor", "url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest", "checked": "2026-09-24" },
+    { "label": "NOAA NCEI Storm Events Database, hail reports near Windsor, 2011–2025", "url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/", "checked": "2026-09-24" },
+    { "label": "NOAA NCEI U.S. Climate Normals 1991–2020, station GREELEY UNC (USC00053553)", "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053553&format=json", "checked": "2026-09-24" }
+  ],
+  "checked": "2026-09-24",
+  "needsFromBrian": [
+    "Named or described Windsor jobs: neighborhood (Highland Meadows, Pelican Lakes/Water Valley, RainDance, Windsor Villages at Ptarmigan), month, rough size and use (lawn, pet, putting green)",
+    "Camera-original photos of at least one Windsor job, before and after",
+    "Google reviews from Windsor customers that name the town, with consent to quote first name and last initial",
+    "Any Windsor front yard where the Town ruled on the 25% landscaped requirement, and what it said",
+    "Metro-district or HOA design-review submittals prepared in Windsor (RainDance, Water Valley), if any",
+    "Confirm that NoCo installs backyard putting greens today, with photos (services.ts putting-greens is unconfirmed, and this hub page leads with golf-course lots)",
+    "Confirm the crew and shop operate from Windsor today and whether customers visit (claims.json: Based in Windsor); the hub page's who-turns-up line waits on it"
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "status": "draft",
+  "slug": "dacono-co",
+  "name": "Dacono",
+  "region": "carbon-valley-longmont",
+  "title": "Artificial Turf in Dacono, CO — Clay & Small Lots | NoCo Turf Co.",
+  "description": "Dacono won't count synthetic turf toward required landscaping, its lots run small, and nearly half the ground is Weld loam. What that means for a yard.",
+  "h1": "Dacono won't count synthetic turf toward the landscaping its code requires",
+  "lede": "Dacono's code lets turf onto a house lot but won't count it as required landscaping, nearly half of the town's central ground is high shrink-swell Weld loam, and its median house lot is about 6,218 square feet.",
+  "answer": {
+    "question": "Can artificial turf count toward Dacono's landscaping requirements?",
+    "answer": "No. NoCo Turf Co. installs artificial turf in Dacono, Colorado, where the municipal code says synthetic turf can't meet its landscaping requirements. That is not an outright ban: on a house lot turf can go in, but required landscaping has to be met with something else. State law separately bars nonfunctional turf in new commercial and HOA common landscapes."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Section 16-657(g)",
+      "h2": "Turf can go on a Dacono house lot, but it never counts as required landscaping.",
+      "paras": [
+        "Dacono Municipal Code 16-657(g), from Ordinance No. 787 in 2014, says artificial plants and synthetic turfs may not be used to meet the requirements of the city's landscaping article.",
+        "Where a Dacono project has a required landscape area, plan the plants for that area first and put turf on the rest of the yard."
+      ],
+      "layerRefs": ["dacono-code-16-657g-not-landscaping", "co-sb24-005-nonfunctional-ban", "co-sb24-005-applicable-property"],
+      "sources": [
+        "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH16ZO_ART28LADEST_S16-657LAMARE",
+        "https://leg.colorado.gov/bill_files/40673/download",
+        "https://leg.colorado.gov/bill_files/45372/download"
+      ]
+    },
+    {
+      "kind": "soil",
+      "own": false,
+      "kicker": "Weld loam",
+      "h2": "Nearly half of central Dacono is Weld loam, a high shrink-swell soil.",
+      "paras": [
+        "Soil surveys around central Dacono map Weld loam over nearly half of the area sampled, and NRCS rates the Weld series as limited for building because of shrink-swell.",
+        "The Colorado Geological Survey lists irrigation water soaking into the soil next to foundations among the landscaping problems on expansive ground, so a turf base in Dacono should shed water away from the house.",
+        "The largest hail NOAA logged near Dacono from 2011 through 2025 was 1.75 inches, on August 4, 2020."
+      ],
+      "layerRefs": ["nrcs-soil-dacono", "nrcs-nunn-weld-shrink-swell", "cgs-landscaping-near-foundations", "noaa-hail-max-dacono"],
+      "sources": [
+        "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+        "https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/",
+        "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/"
+      ]
+    },
+    {
+      "kind": "housing",
+      "own": true,
+      "kicker": "Small lots",
+      "h2": "The median Dacono house lot is about 6,218 square feet.",
+      "paras": [
+        "Glens at Dacono, the largest subdivision, has 758 lots with a median near 5,569 square feet; Sweetgrass, Sharpe and Autumn Valley Ranch follow. Eagle Meadow is the acreage exception, with a median lot near 26,894 square feet.",
+        "The state's district map puts 23 metro districts in Dacono, 11 formed in 2018 or later, and 10 of them belong to the Pinnacle Farms family."
+      ],
+      "layerRefs": [],
+      "sources": [
+        "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query",
+        "https://data.colorado.gov/resource/szft-nc4z.geojson"
+      ]
+    },
+    {
+      "kind": "utility",
+      "own": true,
+      "kicker": "C-BT and NISP",
+      "h2": "Dacono's water starts with Colorado-Big Thompson shares and a stake in NISP.",
+      "paras": [
+        "Dacono's primary water source is Colorado-Big Thompson shares, it takes part in the Northern Integrated Supply Project, and it buys treated water from Central Weld County Water District. Northern Water set the 2026 C-BT quota at 0.8 acre-feet per unit.",
+        "The city has no mandatory watering restrictions in place and asks residents to use water efficiently."
+      ],
+      "layerRefs": ["dacono-water-supply", "cwcwd-tri-town-service", "cbt-quota-2026", "dacono-no-mandatory-2026"],
+      "sources": [
+        "https://www.daconoco.gov/324/Water-Supply",
+        "https://www.cwcwd.com/about",
+        "https://greeleyco.gov/news/2026/20260417-greeley-water-and-sewer-board-declares-adequate-water-year-urges-wise-stewardship/",
+        "https://www.daconoco.gov/885/Water-Conservation"
+      ]
+    }
+  ],
+  "sections": [],
+  "faq": [
+    {
+      "q": "Can I turf my whole Dacono yard?",
+      "a": "Only the part that isn't required landscaping. Section 16-657(g) says synthetic turf can't meet the landscaping requirements, so ask the City what landscaping your lot must carry before you size the turf."
+    },
+    {
+      "q": "Are there watering restrictions in Dacono in 2026?",
+      "a": "No mandatory ones. The City asks residents to use water efficiently and avoid unnecessary waste."
+    },
+    {
+      "q": "Is Dacono on clay?",
+      "a": "Much of it is. Weld loam, a high shrink-swell soil, covers nearly half of the area sampled around central Dacono."
+    }
+  ],
+  "nearby": ["frederick-co", "firestone-co", "longmont-co", "mead-co"],
+  "sources": [
+    { "label": "Dacono Municipal Code Sec. 16-657(g) (Ord. No. 787, 2014; codified through Ord. No. 1011, March 9, 2026)", "url": "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH16ZO_ART28LADEST_S16-657LAMARE", "checked": "2026-09-24" },
+    { "label": "USDA-NRCS Soil Data Access (SSURGO), central Dacono sample and Weld series shrink-swell interpretation", "url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest", "checked": "2026-09-24" },
+    { "label": "Colorado Geological Survey, Expansive Soil & Rock", "url": "https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/", "checked": "2026-09-24" },
+    { "label": "NOAA NCEI Storm Events Database, hail reports near Dacono, 2011–2025", "url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/", "checked": "2026-09-24" },
+    { "label": "Colorado Public Parcels (statewide parcel file): Dacono house lots, median about 6,218 sq ft; Glens at Dacono 758 (median about 5,569); Eagle Meadow median about 26,894", "url": "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query", "checked": "2026-09-24" },
+    { "label": "Colorado DOLA special-district boundaries: 23 metro districts in Dacono, 11 formed 2018 or later (Pinnacle Farms 10)", "url": "https://data.colorado.gov/resource/szft-nc4z.geojson", "checked": "2026-09-24" },
+    { "label": "C.R.S. 37-99-103(1), SB24-005 as amended by HB25-1113 (signed act)", "url": "https://leg.colorado.gov/bill_files/40673/download", "checked": "2026-09-24" },
+    { "label": "C.R.S. 37-99-102(1)(a), SB24-005 (signed act)", "url": "https://leg.colorado.gov/bill_files/45372/download", "checked": "2026-09-24" },
+    { "label": "City of Dacono, Water Supply (treated-water purchase: EPA SDWIS CO0162200)", "url": "https://www.daconoco.gov/324/Water-Supply", "checked": "2026-09-24" },
+    { "label": "Central Weld County Water District, About", "url": "https://www.cwcwd.com/about", "checked": "2026-09-24" },
+    { "label": "City of Greeley news release, April 17, 2026 (Northern Water's 2026 C-BT quota)", "url": "https://greeleyco.gov/news/2026/20260417-greeley-water-and-sewer-board-declares-adequate-water-year-urges-wise-stewardship/", "checked": "2026-09-24" },
+    { "label": "City of Dacono, Water Conservation", "url": "https://www.daconoco.gov/885/Water-Conservation", "checked": "2026-09-24" }
+  ],
+  "checked": "2026-09-24",
+  "needsFromBrian": [
+    "Named or described Dacono jobs (Glens at Dacono, Sweetgrass, Pinnacle Farms or another subdivision): month, rough size, use",
+    "Whether a Dacono job has ever run into the rule that synthetic turf can't count toward required landscaping",
+    "Camera-original photos of at least one Dacono job, before and after",
+    "Google reviews from Dacono customers that name the town, with consent to quote first name and last initial"
+  ]
+}

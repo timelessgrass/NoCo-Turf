@@ -1,0 +1,113 @@
+{
+  "status": "draft",
+  "slug": "eaton-co",
+  "name": "Eaton",
+  "region": "greeley-east-weld",
+  "title": "Artificial Turf in Eaton, CO — Large-Lot Yards | NoCo Turf Co.",
+  "description": "Eaton's median house lot is about 8,553 square feet, two neighborhoods irrigate from a town well system, and its turf code targets commercial land.",
+  "h1": "Eaton lots run large, and two neighborhoods water from a town well system",
+  "lede": "Eaton sits about seven miles north of Greeley on US 85, and its turf ordinance, in force since January 1, 2026, reaches new development and redevelopment on commercial, HOA common and larger multifamily land, not house lots. What shapes a yard here is the lot, the water system and the ground.",
+  "answer": {
+    "question": "Can I put artificial turf on my Eaton lot?",
+    "answer": "Most likely, on a house lot. NoCo Turf Co. installs artificial turf in Eaton, Colorado, where the turf ordinance in effect since January 1, 2026 bars nonfunctional artificial turf only in new development and redevelopment on rights-of-way, commercial, institutional, industrial and HOA common property and multifamily properties over 12 units. Nothing in it reaches single-family homes, where HOA design rules still apply."
+  },
+  "blocks": [
+    {
+      "kind": "housing",
+      "own": true,
+      "kicker": "Lot sizes",
+      "h2": "Eaton's median house lot is about 8,553 square feet.",
+      "paras": [
+        "The statewide parcel file puts Eaton's median house lot at about 8,553 square feet, with 30.9% of house lots at 10,000 square feet or more. Governor's Ranch has 266 lots with a median near 10,518 square feet, and Hawkstone 243 near 10,661.",
+        "The state's district map shows no metro districts with a representative point inside Eaton's limits."
+      ],
+      "layerRefs": [],
+      "sources": [
+        "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query",
+        "https://data.colorado.gov/resource/szft-nc4z.geojson"
+      ]
+    },
+    {
+      "kind": "utility",
+      "own": true,
+      "kicker": "Two water systems",
+      "h2": "Governor's Ranch and Aspen Meadows irrigate from a town-run well system.",
+      "paras": [
+        "The Town of Eaton buys its treated drinking water from North Weld County Water District, and that water comes through the Soldier Canyon Filter Plant. Governor's Ranch and Aspen Meadows also have a town-run, well-fed non-potable irrigation system, which a 2022 town notice described along with watering schedules meant to keep demand within what the pumps can supply."
+      ],
+      "layerRefs": ["eaton-buys-nwcwd-water", "soldier-canyon-filter-plant-towns"],
+      "sources": [
+        "https://data.epa.gov/efservice/WATER_SYSTEM_FACILITY/PWSID/CO0162233/JSON",
+        "https://www.elcowater.org/source-of-elco-s-water",
+        "https://web.archive.org/web/20230324065536/https://townofeaton.colorado.gov/news-article/5/18/22-update-on-governors-ranch-and-aspen-meadows-non-potable-irrigation-system"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Town code",
+      "h2": "Eaton's turf ordinance, in force since 2026, is aimed at commercial and common land.",
+      "paras": [
+        "Since January 1, 2026, Eaton Municipal Code 7-13-2 bars nonfunctional artificial turf in new development and redevelopment on rights-of-way, commercial, institutional and industrial property, HOA common property and multifamily properties with more than 12 units. It mirrors the state law and reaches no single-family home.",
+        "Section 7-13-2 and the state law it mirrors don't bar functional turf, such as a playground, a picnic ground or a sports field, in a new or redeveloped HOA common area; the rest of the town's landscape rules still apply."
+      ],
+      "layerRefs": ["eaton-code-7-13-2-nonfunctional", "co-hb25-1113-functional-turf"],
+      "sources": [
+        "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIIPLZORE_SXIIINOTUNOARTUINPLSP_S7-13-2PR",
+        "https://leg.colorado.gov/bill_files/40673/download"
+      ]
+    },
+    {
+      "kind": "soil",
+      "own": false,
+      "kicker": "Ground",
+      "h2": "Kim loam and Otero sandy loam, with a pocket of Weld loam.",
+      "paras": [
+        "Soil surveys around central Eaton map mostly low shrink-swell Kim loam and Otero sandy loam, with a pocket of high shrink-swell Weld loam.",
+        "The largest hail NOAA logged at Eaton from 2011 through 2025 was 2.5 inches, on July 29, 2016. The Greeley UNC station averages 58.3 days a year at or above 90°F."
+      ],
+      "layerRefs": ["nrcs-soil-eaton", "noaa-hail-max-eaton", "noaa-normals-greeley-unc"],
+      "sources": [
+        "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+        "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/",
+        "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053553&format=json"
+      ]
+    }
+  ],
+  "sections": [],
+  "faq": [
+    {
+      "q": "Does Eaton's turf ordinance apply to my house?",
+      "a": "No. Section 7-13-2 covers new development and redevelopment on rights-of-way, commercial, institutional and industrial land, HOA common property and multifamily properties with more than 12 units."
+    },
+    {
+      "q": "Can our Eaton HOA put turf on a new playground or common area?",
+      "a": "Only functional turf, as far as Section 7-13-2 goes. Since January 1, 2026, Eaton Municipal Code 7-13-2 bars nonfunctional artificial turf on new or redeveloped HOA common property; a playground, a picnic ground or a sports field counts as functional turf, which that section doesn't bar. The rest of the town's landscape rules still apply."
+    },
+    {
+      "q": "Is my Eaton neighborhood on the town's irrigation well system?",
+      "a": "Governor's Ranch and Aspen Meadows are: they irrigate from a town-run, well-fed non-potable system. The Town's treated drinking water comes from North Weld County Water District through the Soldier Canyon Filter Plant."
+    }
+  ],
+  "nearby": ["severance-co", "greeley-co", "windsor-co"],
+  "sources": [
+    { "label": "Colorado Public Parcels (statewide parcel file): Eaton house lots, median about 8,553 sq ft, 30.9% at 10,000 sq ft or more; Governor's Ranch 266 (median about 10,518), Hawkstone 243 (about 10,661)", "url": "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query", "checked": "2026-09-24" },
+    { "label": "Colorado DOLA special-district boundaries: no metro districts with a representative point inside Eaton", "url": "https://data.colorado.gov/resource/szft-nc4z.geojson", "checked": "2026-09-24" },
+    { "label": "EPA SDWIS water-system facilities, Town of Eaton (CO0162233)", "url": "https://data.epa.gov/efservice/WATER_SYSTEM_FACILITY/PWSID/CO0162233/JSON", "checked": "2026-09-24" },
+    { "label": "ELCO Water District, Source of ELCO's Water (Soldier Canyon Filter Plant)", "url": "https://www.elcowater.org/source-of-elco-s-water", "checked": "2026-09-24" },
+    { "label": "Town of Eaton news, May 18, 2022: Governor's Ranch and Aspen Meadows non-potable irrigation system (Wayback copy)", "url": "https://web.archive.org/web/20230324065536/https://townofeaton.colorado.gov/news-article/5/18/22-update-on-governors-ranch-and-aspen-meadows-non-potable-irrigation-system", "checked": "2026-09-24" },
+    { "label": "Eaton Municipal Code Sec. 7-13-2 (Ord. 668, 2025; codified through Nov. 20, 2025)", "url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIIPLZORE_SXIIINOTUNOARTUINPLSP_S7-13-2PR", "checked": "2026-09-24" },
+    { "label": "C.R.S. 37-99-102(6.5), added by HB25-1113 (signed act)", "url": "https://leg.colorado.gov/bill_files/40673/download", "checked": "2026-09-24" },
+    { "label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Eaton", "url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest", "checked": "2026-09-24" },
+    { "label": "NOAA NCEI Storm Events Database, hail reports at Eaton, 2011–2025", "url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/", "checked": "2026-09-24" },
+    { "label": "NOAA NCEI U.S. Climate Normals 1991–2020, station GREELEY UNC (USC00053553)", "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053553&format=json", "checked": "2026-09-24" },
+    { "label": "Wikipedia, Eaton, Colorado (on US 85 about 7 mi north of Greeley)", "url": "https://en.wikipedia.org/wiki/Eaton,_Colorado", "checked": "2026-09-24" }
+  ],
+  "checked": "2026-09-24",
+  "needsFromBrian": [
+    "Confirmation that NoCo serves Eaton (there is no Eaton page today)",
+    "Named or described Eaton jobs (Governor's Ranch, Hawkstone, Aspen Meadows or another subdivision): month, rough size, use",
+    "Camera-original photos of at least one Eaton job, before and after",
+    "Google reviews from Eaton customers that name the town, with consent to quote first name and last initial"
+  ]
+}

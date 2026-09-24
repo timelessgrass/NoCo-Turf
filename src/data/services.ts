@@ -25,7 +25,7 @@ export const SERVICES: Service[] = [
     confirmed: false,
     why: 'Head term in Colorado ("artificial turf" Trends avg 24 vs "fake grass" 3) — research/seo.md; carries The Build base cross-section',
     legacy: [
-      '/services/artificial-turf-installation/',
+      // '/services/artificial-turf-installation/' itself keeps its URL — never list a page as its own legacy path.
       '/services/artificial-turf-installation/residential-artificial-turf-installation/',
       '/services/artificial-turf-installation/site-preparation-for-turf/',
       '/services/landscape-design-installation/',

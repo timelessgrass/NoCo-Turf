@@ -1,0 +1,342 @@
+[
+  {
+    "id": "co-hoa-backyard-detached",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado law says an HOA's landscaping rules may not prohibit artificial turf in the backyard of a detached single-family home, although the HOA can still adopt design and aesthetic guidelines.",
+    "quote": "ASSOCIATIONS MAY ADOPT AND ENFORCE DESIGN OR AESTHETIC GUIDELINES OR RULES THAT APPLY TO DROUGHT-TOLERANT VEGETATIVE OR NONVEGETATIVE LANDSCAPES … EXCEPT THAT THE GUIDELINES OR RULES MUST: (A) NOT PROHIBIT THE USE OF NONVEGETATIVE TURF GRASS IN THE BACKYARD OF A UNIT OWNER'S PROPERTY",
+    "source_url": "https://leg.colorado.gov/bill_files/92307/download",
+    "source_label": "C.R.S. 38-33.3-106.5(1)(i.5)(I)(A), added by SB23-178 (signed act)",
+    "effective": "2023-08-07",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [],
+    "notes": "\"Nonvegetative turf grass\" is artificial turf (HB21-1229 bill summary). (1)(i.5)(VI): applies only to single-family detached homes, not attached homes or condominiums. Coverage includes any right-of-way or tree lawn the owner must maintain. Front yards are NOT protected — never write \"HOAs can't stop turf\"."
+  },
+  {
+    "id": "co-hoa-front-yard-designs",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado law requires each HOA to pre-approve at least 3 water-wise garden designs for front yards, while its artificial-turf protection covers backyards only.",
+    "quote": "EACH ASSOCIATION SHALL SELECT AT LEAST THREE PREPLANNED WATER-WISE GARDEN DESIGNS THAT ARE PREAPPROVED FOR INSTALLATION IN FRONT YARDS WITHIN THE COMMON INTEREST COMMUNITY.",
+    "source_url": "https://leg.colorado.gov/bill_files/92307/download",
+    "source_label": "C.R.S. 38-33.3-106.5(1)(i.5)(II), added by SB23-178 (signed act)",
+    "effective": "2023-08-07",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "3"
+    ],
+    "notes": "The designs must follow water-wise landscaping principles (C.R.S. 37-60-135). The statute creates a duty on the HOA, not a homeowner right to front-yard turf."
+  },
+  {
+    "id": "co-hoa-remedy-notice",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "If an HOA knowingly violates these Colorado landscaping protections, the homeowner must give written notice and 45 days to cure before suing for up to $500 or actual damages, whichever is greater.",
+    "quote": "MAY BRING A CIVIL ACTION TO RESTRAIN FURTHER VIOLATION AND TO RECOVER UP TO A MAXIMUM OF FIVE HUNDRED DOLLARS OR THE UNIT OWNER'S ACTUAL DAMAGES, WHICHEVER IS GREATER. … THE UNIT OWNER SHALL NOTIFY THE ASSOCIATION IN WRITING OF THE VIOLATION AND ALLOW THE ASSOCIATION FORTY-FIVE DAYS AFTER RECEIPT OF THE NOTICE TO CURE THE VIOLATION.",
+    "source_url": "https://leg.colorado.gov/bill_files/92307/download",
+    "source_label": "C.R.S. 38-33.3-106.5(1)(i.5)(III)–(IV), added by SB23-178 (signed act)",
+    "effective": "2023-08-07",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "45",
+      "500"
+    ],
+    "notes": "Applies to detached single-family homes. Carve-outs in (V): bona fide safety requirements, fire buffers/defensible space, and changes to existing grading, drainage or structural landscape elements. Not legal advice — label any page that uses this."
+  },
+  {
+    "id": "co-hoa-attached-rear-yard",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "For attached single-family homes that share a wall, such as townhomes, Colorado law lets an HOA restrict artificial turf to rear yards only.",
+    "quote": "An association may restrict the installation of nonvegetative turf grass to rear yard locations only. THIS SUBSECTION (1)(i)(I)(A), AS AMENDED BY SENATE BILL 23-178, ENACTED IN 2023, APPLIES ONLY TO A UNIT THAT IS A SINGLE-FAMILY HOME THAT SHARES ONE OR MORE WALLS WITH ANOTHER UNIT",
+    "source_url": "https://leg.colorado.gov/bill_files/92307/download",
+    "source_label": "C.R.S. 38-33.3-106.5(1)(i)(I)(A), as amended by SB23-178 (signed act)",
+    "effective": "2023-08-07",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "2023"
+    ],
+    "notes": "The rear-yard wording was added by HB21-1229; SB23-178 limited (1)(i)(I)(A) to attached homes and moved detached homes to (1)(i.5)."
+  },
+  {
+    "id": "co-special-district-backyard",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado law makes unenforceable any HOA covenant or special-district rule that prohibits artificial turf in the backyard of a residential property, except for attached homes and timeshare associations.",
+    "quote": "ANY SECTION OF A RESTRICTIVE COVENANT OR OF THE DECLARATION, BYLAWS, OR RULES AND REGULATIONS OF A COMMON INTEREST COMMUNITY … AND ANY RULE OR POLICY OF A SPECIAL DISTRICT … THAT … PROHIBITS THE USE OF NONVEGETATIVE TURF GRASS IN THE BACKYARD OF A RESIDENTIAL PROPERTY IS HEREBY DECLARED CONTRARY TO PUBLIC POLICY AND, ON THAT BASIS, IS UNENFORCEABLE. … THIS SUBSECTION (11)(a.5) DOES NOT APPLY TO: (A) A UNIT OWNERS' ASSOCIATION … THAT INCLUDES TIME SHARE UNITS … OR (B) A UNIT … THAT IS A SINGLE-FAMILY HOME THAT SHARES ONE OR MORE WALLS WITH ANOTHER UNIT.",
+    "source_url": "https://leg.colorado.gov/bill_files/92307/download",
+    "source_label": "C.R.S. 37-60-126(11)(a.5), added by SB23-178 (signed act, Section 2)",
+    "effective": "2023-08-07",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "11"
+    ],
+    "notes": "CORRECTED per layers digest: (11)(a.5)(II) excludes attached homes and timeshare associations; attached homes are covered by (11)(a) instead. \"Special district\" is defined by C.R.S. 32-1-103(20), which includes metropolitan districts (INFERENCE from the definition — have counsel confirm before a page says \"metro districts\" outright)."
+  },
+  {
+    "id": "co-hb21-1229-origin",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado first listed artificial turf among the landscaping an HOA may regulate but not prohibit in a backyard in 2021, through HB21-1229.",
+    "quote": "Section 1 specifically includes nonvegetative turf grass (also known as artificial turf) among the types of drought-tolerant landscaping materials that the HOA may regulate but not prohibit in the backyard area of a unit.",
+    "source_url": "https://leg.colorado.gov/bills/hb21-1229",
+    "source_label": "HB21-1229 bill summary, Colorado General Assembly (signed 2021-07-02)",
+    "effective": "2021-09-07",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "2021"
+    ],
+    "notes": "Signed 2021-07-02; effective 90 days after sine die (2021-09-07)."
+  },
+  {
+    "id": "co-sb24-005-nonfunctional-ban",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Since January 1, 2026, Colorado cities, towns and special and metro districts may not install or allow nonfunctional artificial turf as part of new development or redevelopment on the property types the state law covers.",
+    "quote": "On and after January 1, 2026, a local entity shall not install, plant, or place, or allow any person to install, plant, or place, any nonfunctional turf, NONFUNCTIONAL artificial turf, or invasive plant species, as part of a new development project or redevelopment project, on any portion of applicable property within the local entity's jurisdiction.",
+    "source_url": "https://leg.colorado.gov/bill_files/40673/download",
+    "source_label": "C.R.S. 37-99-103(1), SB24-005 as amended by HB25-1113 (signed act)",
+    "effective": "2026-01-01",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "1",
+      "2026"
+    ],
+    "notes": "\"Local entity\" = city, town, county, special district and metropolitan district (37-99-102(9), SB24-005 signed act). HB25-1113 signed 2025-05-20, effective 2025-08-06; it narrowed \"artificial turf\" to \"nonfunctional artificial turf\". Pair with co-sb24-005-applicable-property for where it applies."
+  },
+  {
+    "id": "co-sb24-005-applicable-property",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado's nonfunctional-turf ban applies to commercial, institutional and industrial property, HOA common property, and street rights-of-way, parking lots, medians and transportation corridors, not to single-family lots.",
+    "quote": "\"APPLICABLE PROPERTY\" MEANS: (I) COMMERCIAL, INSTITUTIONAL, OR INDUSTRIAL PROPERTY; (II) COMMON INTEREST COMMUNITY PROPERTY; OR (III) A STREET RIGHT-OF-WAY, PARKING LOT, MEDIAN, OR TRANSPORTATION CORRIDOR.",
+    "source_url": "https://leg.colorado.gov/bill_files/45372/download",
+    "source_label": "C.R.S. 37-99-102(1)(a), SB24-005 (signed act)",
+    "effective": "2024-08-07",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [],
+    "notes": "HB25-1113 added (IV) \"applicable residential real property\" (multifamily common areas, >12 units, from 2028 — see co-hb25-1113-multifamily-2028) and struck the old \"(b) does not include residential property\" line. Single-family lots remain outside the list; Loveland's city page says the same (loveland-ord-6819-sb24-005)."
+  },
+  {
+    "id": "co-sb24-005-redevelopment",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Under Colorado's turf law, a redevelopment project is one that needs a building or landscaping permit, plan check or design review and disturbs more than 50% of the landscape area.",
+    "quote": "\"REDEVELOPMENT PROJECT\" MEANS A CONSTRUCTION PROJECT THAT: (a) REQUIRES A BUILDING OR LANDSCAPING PERMIT, PLAN CHECK, OR DESIGN REVIEW; AND (b) RESULTS IN A DISTURBANCE OF MORE THAN FIFTY PERCENT OF THE AGGREGATE LANDSCAPE AREA.",
+    "source_url": "https://leg.colorado.gov/bill_files/45372/download",
+    "source_label": "C.R.S. 37-99-102(14), SB24-005 (signed act)",
+    "effective": "2024-08-07",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "50"
+    ],
+    "notes": "Local definitions can differ (Loveland uses its own redevelopment definition — see loveland-ord-6819-sb24-005)."
+  },
+  {
+    "id": "co-sb24-005-maintain-existing",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado's turf law does not stop a local government from letting turf installed before January 1, 2026 be maintained.",
+    "quote": "NOTHING IN THIS SECTION PROHIBITS: (a) A LOCAL ENTITY FROM MAINTAINING, OR ALLOWING ANY PERSON TO MAINTAIN, ANY NONFUNCTIONAL TURF, ARTIFICIAL TURF, OR INVASIVE PLANT SPECIES INSTALLED, PLANTED, OR PLACED BEFORE JANUARY 1, 2026",
+    "source_url": "https://leg.colorado.gov/bill_files/45372/download",
+    "source_label": "C.R.S. 37-99-103(4)(a), SB24-005 (signed act)",
+    "effective": "2024-08-07",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "1",
+      "2026"
+    ],
+    "notes": "Whether \"maintain\" covers full replacement of pre-2026 turf is untested — a lawyer question; never claim it. Locals may be more stringent."
+  },
+  {
+    "id": "co-hb25-1113-functional-turf",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Functional artificial turf stays allowed under Colorado's 2025 amendment, which defines it to include playgrounds, sports fields, picnic grounds, parts of parks and golf playing areas such as putting and chipping greens.",
+    "quote": "\"FUNCTIONAL ARTIFICIAL TURF\" MEANS ARTIFICIAL TURF THAT IS: (a) LOCATED IN A RECREATIONAL USE AREA OR OTHER SPACE THAT IS REGULARLY USED FOR CIVIC, COMMUNITY, OR RECREATIONAL PURPOSES, WHICH MAY INCLUDE A PLAYGROUND, A SPORTS FIELD, A PICNIC GROUND, AN AMPHITHEATER, A PORTION OF A PARK, AND THE PLAYING AREA OF A GOLF COURSE, SUCH AS A DRIVING RANGE, CHIPPING AND PUTTING GREEN, TEE BOX, GREEN, FAIRWAY, AND ROUGH",
+    "source_url": "https://leg.colorado.gov/bill_files/40673/download",
+    "source_label": "C.R.S. 37-99-102(6.5), added by HB25-1113 (signed act)",
+    "effective": "2025-08-06",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "2025"
+    ],
+    "notes": "(6.5)(b) also covers engineered civil-infrastructure products (landfill covers, slope revetments). \"Nonfunctional artificial turf\" = artificial turf that is not functional (12.5). HB25-1113 signed 2025-05-20."
+  },
+  {
+    "id": "co-hb25-1113-multifamily-2028",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "From January 1, 2028, the ban on nonfunctional artificial turf in new development and redevelopment also covers common areas, such as entryways and parks, of multifamily properties with more than 12 dwelling units.",
+    "quote": "ON AND AFTER JANUARY 1, 2028, A LOCAL ENTITY SHALL NOT INSTALL, PLANT, OR PLACE, OR ALLOW A PERSON TO INSTALL, PLANT, OR PLACE, ANY NONFUNCTIONAL TURF, NONFUNCTIONAL ARTIFICIAL TURF, OR INVASIVE PLANT SPECIES, AS PART OF A NEW DEVELOPMENT PROJECT OR REDEVELOPMENT PROJECT, ON ANY PORTION OF APPLICABLE PROPERTIES THAT INCLUDE MULTIFAMILY RESIDENTIAL HOUSING PREMISES PROPERTY.",
+    "source_url": "https://leg.colorado.gov/bill_files/40673/download",
+    "source_label": "C.R.S. 37-99-103(5)(a) and 37-99-102(1.5), (10.5), added by HB25-1113 (signed act)",
+    "effective": "2028-01-01",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "1",
+      "2028",
+      "12"
+    ],
+    "notes": "CORRECTED per layers digest: covers only common-interest property (entryways, parks, common elements) of multifamily properties with more than twelve dwelling units — not private yards, not single-family."
+  },
+  {
+    "id": "co-hb25-1113-residential-live-turf-2028",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "By January 1, 2028, every Colorado local government with land-use and zoning power, counties included, must regulate live turf grass in new residential development and redevelopment to cut irrigation demand, and each may choose its own standard.",
+    "quote": "ON OR BEFORE JANUARY 1, 2028, EACH LOCAL ENTITY WITH LAND USE PLANNING AND ZONING AUTHORITY SHALL ENACT OR AMEND ORDINANCES … TO REGULATE THE INSTALLATION OF TURF TO REDUCE IRRIGATION WATER DEMAND FOR ALL RESIDENTIAL REAL PROPERTY THAT IS NOT APPLICABLE RESIDENTIAL REAL PROPERTY. … EACH LOCAL ENTITY … MAY CHOOSE THE STANDARD OR MECHANISM BY WHICH IT REGULATES TURF",
+    "source_url": "https://leg.colorado.gov/bill_files/40673/download",
+    "source_label": "C.R.S. 37-99-104(1), (3), added by HB25-1113 (signed act)",
+    "effective": "2028-01-01",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "1",
+      "2028"
+    ],
+    "notes": "CORRECTED per layers digest: \"turf\" here is redefined as continuous nonnative/non-arid-hybrid mowed grass (37-99-102(17)) — this mandate is about LIVE turf, not artificial turf. Localities may not restrict native, arid-hybridized or low-water grass seed or sod (37-99-104(4))."
+  },
+  {
+    "id": "co-sb24-081-pfas-turf",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Since January 1, 2026, Colorado law bars anyone from installing artificial turf that contains intentionally added PFAS chemicals anywhere in the state.",
+    "quote": "On and after January 1, 2026, prohibiting a person from installing artificial turf that contains intentionally added PFAS chemicals on any portion of property in the state.",
+    "source_url": "https://leg.colorado.gov/bills/sb24-081",
+    "source_label": "SB24-081 bill summary (as enacted), Colorado General Assembly; approved by the Governor 2024-05-01",
+    "effective": "2026-01-01",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "1",
+      "2026"
+    ],
+    "notes": "Any claim that NoCo installs PFAS-free turf needs Brian's supplier documentation first (needsFromBrian)."
+  },
+  {
+    "id": "co-turf-grant-no-artificial-turf",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado's state turf-replacement grant money may not be used to replace lawn with artificial turf.",
+    "quote": "(IV) THE ELIGIBLE ENTITY WILL NOT ALLOW THE USE OF MONEY FOR THE REPLACEMENT OF TURF WITH ANY OF THE FOLLOWING: (A) IMPERMEABLE CONCRETE; (B) ARTIFICIAL TURF; (C) WATER FEATURES SUCH AS FOUNTAINS; (D) INVASIVE PLANT SPECIES; OR (E) TURF.",
+    "source_url": "https://leg.colorado.gov/bill_files/100490/download",
+    "source_label": "C.R.S. 37-60-135(4)(c)(IV), created by HB22-1151 (signed act, 2022-06-08)",
+    "effective": "2022-06-08",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [],
+    "notes": "The same bar applies to third-party-administered programs (37-60-135(5)(c)(III)(B)). Local rebates co-funded by the state inherit it (INFERENCE)."
+  },
+  {
+    "id": "co-cwcb-turf-grant-closed",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Water Conservation Board's turf-replacement grant last closed on February 28, 2025, and single-family homeowners, HOAs and businesses were never eligible to apply for it directly.",
+    "quote": "The most recent application cycle for CWCB's Turf Replacement Grant Program closed on February 28, 2025. … Single-family homeowners, multifamily properties (such as HOAs), and commercial properties are not eligible entities.",
+    "source_url": "https://engagecwcb.org/turf-replacement-grant-program",
+    "source_label": "Colorado Water Conservation Board, Turf Replacement Grant Program page",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-11-01",
+    "numbers": [
+      "28",
+      "2025"
+    ],
+    "notes": "The page says any future windows would run Aug 31–Oct 31 and Dec 31–Feb 28 \"if and when funding is available\" — re-check after the fall window."
+  },
+  {
+    "id": "co-new-home-soils-report",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado requires builders of new homes to give buyers a soils report summary at least 14 days before closing.",
+    "quote": "At least fourteen days prior to closing the sale of any new residence for human habitation, every developer or builder or their representatives shall provide the purchaser with a copy of a summary report of the analysis and the site recommendations.",
+    "source_url": "https://colorado.public.law/statutes/crs_6-6.5-101",
+    "source_label": "C.R.S. 6-6.5-101(1) (text via Colorado.Public.Law)",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "14"
+    ],
+    "notes": "Public.Law reproduces the statute; not the official publisher, hence EXTERNAL_SOURCE. Also: $500 civil penalty payable to the purchaser; does not apply to someone building their own residence. Useful as \"ask for your soils report\" guidance, never as a claim NoCo reads it."
+  }
+]

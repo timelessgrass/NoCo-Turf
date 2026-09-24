@@ -1,0 +1,134 @@
+{
+  "status": "draft",
+  "slug": "berthoud-co",
+  "name": "Berthoud",
+  "region": "loveland-berthoud",
+  "title": "Artificial Turf in Berthoud, CO — TPC Heron Lakes | NoCo Turf Co.",
+  "description": "Berthoud treats its own Carter Lake water, set no mandatory 2026 limits and sits partly on Nunn clay loam. On a Heron Lakes lot, the HOA's rules come first.",
+  "h1": "Berthoud builds around TPC Colorado on clay that swells when it gets wet",
+  "lede": "Berthoud's largest plat is Heron Lakes, built around TPC Colorado, and about a third of the ground near the town center is Nunn clay loam. For a turf project here, the HOA and the soil matter more than the town code.",
+  "answer": {
+    "question": "Can I put a backyard putting green in Berthoud?",
+    "answer": "Yes, on a detached home, as far as the town code shows. NoCo Turf Co. installs artificial turf in Berthoud, Colorado. On a Heron Lakes or other HOA lot, the HOA's design rules govern a backyard green, and Colorado law bars an HOA from prohibiting backyard turf on a detached home. Berthoud's code, codified through November 10, 2025, has no artificial-turf provision."
+  },
+  "blocks": [
+    {
+      "kind": "golf",
+      "own": true,
+      "kicker": "TPC Colorado",
+      "h2": "Heron Lakes is a 914-acre plat around a Korn Ferry Tour course.",
+      "paras": [
+        "TPC Colorado at Heron Lakes is a par 72 of over 7,991 yards and hosts the Korn Ferry Tour's The Blue Championship. The Heron Lakes plat around it covers 914 acres, the largest in Berthoud on the county's parcel map.",
+        "A practice green behind a house on the course is a private-yard project, so the Heron Lakes HOA's design rules are the document to read before you plan one.",
+        "The next-largest plats show where the rest of Berthoud is growing: Ludlow Farms at 305 acres, platted in 2024, Vantage at 238 acres, and PrairieStar."
+      ],
+      "layerRefs": [],
+      "sources": [
+        "https://tpc.com/colorado/",
+        "https://maps1.larimer.org/arcgis/rest/services/MapServices/Parcels/MapServer"
+      ]
+    },
+    {
+      "kind": "soil",
+      "own": false,
+      "kicker": "Clay",
+      "h2": "About a third of central Berthoud is Nunn clay loam.",
+      "paras": [
+        "Soil surveys around central Berthoud map Nunn clay loam, a high shrink-swell soil, over about a third of the area sampled. The Colorado Geological Survey counts poor surface drainage and irrigation water soaking in next to foundations among the landscaping problems on expansive soils.",
+        "On that ground the base and the slope away from the house carry most of the load under turf; the turf itself is the thin top layer."
+      ],
+      "layerRefs": ["nrcs-soil-berthoud", "cgs-landscaping-near-foundations"],
+      "sources": [
+        "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+        "https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/"
+      ]
+    },
+    {
+      "kind": "utility",
+      "own": true,
+      "kicker": "Carter Lake water",
+      "h2": "Berthoud treats its own Colorado-Big Thompson water, except at Serenity Ridge.",
+      "paras": [
+        "The Town's main supply is Colorado-Big Thompson Project water from Carter Lake, stored in Berthoud Reservoir and treated by the Town. The Serenity Ridge system near I-25 is served by Little Thompson Water District instead.",
+        "Northern Water set the 2026 C-BT quota at 0.8 acre-feet per unit, and Berthoud has no mandatory water restrictions this year; it asks residents, HOAs and businesses to follow voluntary ones. Little Thompson is at Watch, the lowest level of its shortage plan.",
+        "Little Thompson customers on a standard 5/8-inch tap and a lot under 17,000 square feet pay a $45.48 monthly base plus $4.03 per 1,000 gallons up to 6,000, and every tap has an annual allotment with an overage charge above it."
+      ],
+      "layerRefs": ["berthoud-water-supply", "cbt-quota-2026", "berthoud-no-mandatory-2026", "ltwd-watch-2026", "ltwd-rates-2026-standard-tap", "ltwd-allotment-overage-2026"],
+      "sources": [
+        "https://www.berthoud.org/1406/Water-Supply-Distribution",
+        "https://greeleyco.gov/news/2026/20260417-greeley-water-and-sewer-board-declares-adequate-water-year-urges-wise-stewardship/",
+        "https://www.berthoud.org/1639/Drought-Water-Usage",
+        "https://www.littlethompsonwd.gov/quarterly-news-from-ltwd-summer-2026",
+        "https://www.littlethompsonwd.gov/files/0eba237d7/2026+Section+1502.1+Schedule+B-04162026_02.pdf",
+        "https://www.littlethompsonwd.gov/files/d6e8362ff/2026+Section+1502.2+Schedule+C-04162026.pdf"
+      ]
+    },
+    {
+      "kind": "climate",
+      "own": false,
+      "kicker": "Hail",
+      "h2": "Berthoud logged hail again on June 24, 2026.",
+      "paras": [
+        "NOAA recorded hail up to 1.75 inches referenced to Berthoud on June 24, 2026. The largest from 2011 through 2025 was 2 inches, on June 4, 2015.",
+        "The Loveland 2N station, the nearest NOAA normals, averages 47.0 inches of snow and 173.9 nights at or below freezing a year."
+      ],
+      "layerRefs": ["noaa-hail-berthoud-2026-06-24", "noaa-hail-max-berthoud", "noaa-normals-loveland-2n"],
+      "sources": [
+        "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/",
+        "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00055236&format=json"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": false,
+      "kicker": "HOA backyards",
+      "h2": "A Berthoud HOA can shape your turf but not forbid it out back.",
+      "paras": [
+        "Colorado first listed artificial turf among the landscaping an HOA may regulate but not prohibit in a backyard in 2021, through HB21-1229, and SB23-178 later spelled the rule out for detached homes. The HOA can still set design and aesthetic guidelines.",
+        "If an HOA knowingly breaks that rule, you give written notice and 45 days to cure before you can sue for up to $500 or actual damages, whichever is greater."
+      ],
+      "layerRefs": ["co-hb21-1229-origin", "co-hoa-backyard-detached", "co-hoa-remedy-notice"],
+      "sources": [
+        "https://leg.colorado.gov/bills/hb21-1229",
+        "https://leg.colorado.gov/bill_files/92307/download"
+      ]
+    }
+  ],
+  "sections": [],
+  "faq": [
+    {
+      "q": "Does Berthoud have its own artificial-turf ordinance?",
+      "a": "None turned up in the town code as codified through Ord. No. 1367 on November 10, 2025, and an ordinance adopted since then would not show there yet. Your HOA's design rules are the ones to check first."
+    },
+    {
+      "q": "Are there watering restrictions in Berthoud this year?",
+      "a": "No mandatory ones. The Town asks residents, HOAs and businesses to follow voluntary restrictions in 2026, and Little Thompson, which serves Serenity Ridge, is at its lowest shortage level."
+    }
+  ],
+  "nearby": ["loveland-co", "johnstown-co", "mead-co", "longmont-co"],
+  "sources": [
+    { "label": "TPC Colorado at Heron Lakes (par 72, over 7,991 yards; host of the Korn Ferry Tour's The Blue Championship)", "url": "https://tpc.com/colorado/", "checked": "2026-09-24" },
+    { "label": "Larimer County parcel GIS: Berthoud plats (Heron Lakes 914 ac; Ludlow Farms 305 ac, platted 2024; Vantage 238 ac)", "url": "https://maps1.larimer.org/arcgis/rest/services/MapServices/Parcels/MapServer", "checked": "2026-09-24" },
+    { "label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Berthoud", "url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest", "checked": "2026-09-24" },
+    { "label": "Colorado Geological Survey, Expansive Soil & Rock", "url": "https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/", "checked": "2026-09-24" },
+    { "label": "Town of Berthoud, Water Supply & Distribution", "url": "https://www.berthoud.org/1406/Water-Supply-Distribution", "checked": "2026-09-24" },
+    { "label": "City of Greeley news release, April 17, 2026 (Northern Water's 2026 C-BT quota)", "url": "https://greeleyco.gov/news/2026/20260417-greeley-water-and-sewer-board-declares-adequate-water-year-urges-wise-stewardship/", "checked": "2026-09-24" },
+    { "label": "Town of Berthoud, Drought Water Usage", "url": "https://www.berthoud.org/1639/Drought-Water-Usage", "checked": "2026-09-24" },
+    { "label": "Little Thompson Water District, Quarterly News – Summer 2026", "url": "https://www.littlethompsonwd.gov/quarterly-news-from-ltwd-summer-2026", "checked": "2026-09-24" },
+    { "label": "Little Thompson Water District, Section 1502.1 Schedule B – Water Rate Schedule (approved April 16, 2026)", "url": "https://www.littlethompsonwd.gov/files/0eba237d7/2026+Section+1502.1+Schedule+B-04162026_02.pdf", "checked": "2026-09-24" },
+    { "label": "Little Thompson Water District, Section 1502.2 Schedule C – Miscellaneous Fees (April 16, 2026)", "url": "https://www.littlethompsonwd.gov/files/d6e8362ff/2026+Section+1502.2+Schedule+C-04162026.pdf", "checked": "2026-09-24" },
+    { "label": "NOAA NCEI Storm Events Database, hail reports referenced to Berthoud, 2011–2026", "url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/", "checked": "2026-09-24" },
+    { "label": "NOAA NCEI U.S. Climate Normals 1991–2020, station LOVELAND 2N (USC00055236)", "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00055236&format=json", "checked": "2026-09-24" },
+    { "label": "HB21-1229 bill summary, Colorado General Assembly (signed 2021-07-02)", "url": "https://leg.colorado.gov/bills/hb21-1229", "checked": "2026-09-24" },
+    { "label": "C.R.S. 38-33.3-106.5(1)(i.5), added by SB23-178 (signed act)", "url": "https://leg.colorado.gov/bill_files/92307/download", "checked": "2026-09-24" },
+    { "label": "Berthoud Code of Ordinances on Municode (codified through Ord. No. 1367, Nov. 10, 2025)", "url": "https://library.municode.com/co/berthoud/codes/code_of_ordinances", "checked": "2026-09-24" }
+  ],
+  "checked": "2026-09-24",
+  "needsFromBrian": [
+    "Named or described Berthoud jobs, especially putting greens at Heron Lakes: month, rough size, use",
+    "Camera-original photos of at least one Berthoud job, before and after",
+    "Google reviews from Berthoud customers that name the town, with consent to quote first name and last initial",
+    "Whether the Heron Lakes HOA has design rules for backyard greens you have worked under",
+    "Confirmation that Berthoud is a town you serve today, and that NoCo installs backyard putting greens today (services.ts putting-greens is unconfirmed)"
+  ]
+}

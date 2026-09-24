@@ -1,0 +1,135 @@
+{
+  "status": "draft",
+  "slug": "evans-co",
+  "name": "Evans",
+  "region": "greeley-east-weld",
+  "title": "Artificial Turf in Evans, CO — Irrigation Cutover | NoCo Turf Co.",
+  "description": "Evans moved city non-potable irrigation outside The Ridge at Prairie View and Willowbrook to drinking water after August 28, 2026, under a drought emergency.",
+  "h1": "Evans moved city non-potable irrigation outside two neighborhoods to drinking water in August",
+  "lede": "Evans buys its treated drinking water from Greeley, and in 2026 it lost part of its irrigation supply too. Which neighborhood you live in decides whether that reached your yard.",
+  "answer": {
+    "question": "Did the 2026 irrigation cutover in Evans affect my yard?",
+    "answer": "It depends on your neighborhood. NoCo Turf Co. installs artificial turf in Evans, Colorado, where city-run non-potable irrigation outside The Ridge at Prairie View and Willowbrook moved to drinking water billed at potable rates after August 28, 2026. Those two neighborhoods, on the Evans Town Ditch, were not affected, and neither were East Evans customers who take ditch water directly."
+  },
+  "blocks": [
+    {
+      "kind": "utility",
+      "own": true,
+      "kicker": "The cutover",
+      "h2": "After August 28, 2026, city non-potable systems outside two neighborhoods ran on drinking water.",
+      "paras": [
+        "When the Greeley-Loveland Irrigation Company stopped deliveries on August 28, 2026, Evans moved every city-operated non-potable irrigation system not served by the Ridge Pump Station to potable water, billed at potable rates, for the rest of the season.",
+        "The Ridge at Prairie View and Willowbrook were not affected: their non-potable water comes from the Evans Town Ditch, not the irrigation company. East Evans customers who take ditch water directly were not affected either. If you were elsewhere on a city non-potable system, your late-season irrigation was billed at potable rates.",
+        "The city buys its treated drinking water from Greeley."
+      ],
+      "layerRefs": ["evans-glic-cutover-2026", "evans-buys-greeley-water"],
+      "sources": [
+        "https://www.evanscolorado.gov/news/posts/some-city-neighborhoods-to-transition-to-potable-water-for-irrigation-on-aug-28/",
+        "https://data.epa.gov/efservice/WATER_SYSTEM_FACILITY/PWSID/CO0162260/JSON"
+      ]
+    },
+    {
+      "kind": "drought",
+      "own": true,
+      "kicker": "Drought emergency",
+      "h2": "The Evans City Council declared a drought emergency on April 21, 2026.",
+      "paras": [
+        "The vote was unanimous, and outdoor watering restrictions remain in place, enforced under the Evans Municipal Code. No one waters from 10 a.m. to 6 p.m.; even addresses water Sunday, Tuesday and Thursday, odd addresses Monday, Wednesday and Saturday."
+      ],
+      "layerRefs": ["evans-drought-emergency-2026"],
+      "sources": ["https://www.evanscolorado.gov/news/posts/city-of-evans-declares-drought-emergency-expanded-watering-restrictions-now-in-effect/"]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Common areas",
+      "h2": "Evans code says turf is not acceptable for public or common areas.",
+      "paras": [
+        "Section 18.08.020 of the Evans landscape design code says artificial turf is not acceptable for public or common areas. No rule on single-family yards turned up in the code as codified through January 6, 2026.",
+        "For HOA common ground in a new subdivision, site plan or site rehabilitation the city reviews, that rules turf out under the city's landscape design standards. A private backyard is governed by your HOA and state law, which lets an HOA set design rules but not prohibit backyard turf on a detached home."
+      ],
+      "layerRefs": ["evans-code-18.08.020-common-areas", "co-hoa-backyard-detached"],
+      "sources": [
+        "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.08LADE_18.08.020LADE",
+        "https://leg.colorado.gov/bill_files/92307/download"
+      ]
+    },
+    {
+      "kind": "rebate",
+      "own": true,
+      "kicker": "Programs",
+      "h2": "Evans offers $25 garden kits and sprinkler checks, not a turf rebate.",
+      "paras": [
+        "The city's 2026 water-conservation programs are fixture replacement, $25 Garden in a Box kits and sprinkler evaluations; no lawn-replacement or turf rebate is listed."
+      ],
+      "layerRefs": ["evans-programs-no-turf-rebate"],
+      "sources": ["https://www.evanscolorado.gov/living-here/water-and-utilities/water-conservation/water-conservation-programs/"]
+    },
+    {
+      "kind": "housing",
+      "own": true,
+      "kicker": "Neighborhoods",
+      "h2": "Ashcroft Heights and Willowbrook are the largest subdivisions in Evans.",
+      "paras": [
+        "By residential parcels, Ashcroft Heights has 533, Willowbrook 393, the original Evans plats 333 and the Ridge at Prairie View 305, and the median house lot is about 6,768 square feet. The state's district map puts 15 metro districts in Evans, 11 of them formed in 2018 or later."
+      ],
+      "layerRefs": [],
+      "sources": [
+        "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query",
+        "https://data.colorado.gov/resource/szft-nc4z.geojson"
+      ]
+    },
+    {
+      "kind": "soil",
+      "own": false,
+      "kicker": "River-bottom ground",
+      "h2": "Evans sits on river-bottom gravel and sandy loam.",
+      "paras": [
+        "Soil surveys around central Evans map wet, gravelly river-bottom soils and low shrink-swell Otero and Vona sandy loams. The largest hail NOAA logged near Evans from 2011 through 2025 was 2 inches, on July 29, 2018 and May 28, 2024.",
+        "The Greeley UNC station, the nearest NOAA normals, averages 58.3 days a year at or above 90°F."
+      ],
+      "layerRefs": ["nrcs-soil-evans", "noaa-hail-max-evans", "noaa-normals-greeley-unc"],
+      "sources": [
+        "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+        "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/",
+        "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053553&format=json"
+      ]
+    }
+  ],
+  "sections": [],
+  "faq": [
+    {
+      "q": "Is my Evans neighborhood on non-potable irrigation water?",
+      "a": "It depends where you live. The Ridge at Prairie View and Willowbrook draw non-potable water from the Evans Town Ditch; other city-run non-potable systems switched to potable water after August 28, 2026."
+    },
+    {
+      "q": "Can an Evans HOA put artificial turf in its common areas?",
+      "a": "Not in anything the city reviews. The city's landscape design code, which applies to the common areas of new subdivisions, new or amended site plans and site rehabilitation, says artificial turf is not acceptable for public or common areas."
+    },
+    {
+      "q": "Does Evans offer a rebate for replacing a lawn?",
+      "a": "No lawn-replacement or turf rebate is listed. The 2026 programs are fixture replacement, $25 Garden in a Box kits and sprinkler evaluations."
+    }
+  ],
+  "nearby": ["greeley-co", "milliken-co", "johnstown-co"],
+  "sources": [
+    { "label": "City of Evans news post, Aug. 24, 2026: some city neighborhoods to transition to potable water for irrigation on Aug. 28", "url": "https://www.evanscolorado.gov/news/posts/some-city-neighborhoods-to-transition-to-potable-water-for-irrigation-on-aug-28/", "checked": "2026-09-24" },
+    { "label": "EPA SDWIS water-system facilities, City of Evans (CO0162260)", "url": "https://data.epa.gov/efservice/WATER_SYSTEM_FACILITY/PWSID/CO0162260/JSON", "checked": "2026-09-24" },
+    { "label": "City of Evans news post, April 28, 2026: drought emergency and expanded watering restrictions (site-wide alert still shown on 2026-09-24)", "url": "https://www.evanscolorado.gov/news/posts/city-of-evans-declares-drought-emergency-expanded-watering-restrictions-now-in-effect/", "checked": "2026-09-24" },
+    { "label": "Evans Municipal Code Sec. 18.08.020 (codified through Ord. No. 855-26, Jan. 6, 2026)", "url": "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.08LADE_18.08.020LADE", "checked": "2026-09-24" },
+    { "label": "C.R.S. 38-33.3-106.5(1)(i.5), added by SB23-178 (signed act)", "url": "https://leg.colorado.gov/bill_files/92307/download", "checked": "2026-09-24" },
+    { "label": "City of Evans, Water Conservation Programs", "url": "https://www.evanscolorado.gov/living-here/water-and-utilities/water-conservation/water-conservation-programs/", "checked": "2026-09-24" },
+    { "label": "Colorado Public Parcels (statewide parcel file): Evans house lots, median about 6,768 sq ft; Ashcroft Heights 533, Willowbrook 393, original Evans plats 333, Ridge at Prairie View 305", "url": "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query", "checked": "2026-09-24" },
+    { "label": "Colorado DOLA special-district boundaries: 15 metro districts in Evans, 11 formed 2018 or later", "url": "https://data.colorado.gov/resource/szft-nc4z.geojson", "checked": "2026-09-24" },
+    { "label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Evans", "url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest", "checked": "2026-09-24" },
+    { "label": "NOAA NCEI Storm Events Database, hail reports near Evans, 2011–2025", "url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/", "checked": "2026-09-24" },
+    { "label": "NOAA NCEI U.S. Climate Normals 1991–2020, station GREELEY UNC (USC00053553)", "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053553&format=json", "checked": "2026-09-24" }
+  ],
+  "checked": "2026-09-24",
+  "needsFromBrian": [
+    "Confirmation that NoCo serves Evans (there is no Evans page today)",
+    "Named or described Evans jobs (Ashcroft Heights, Willowbrook, The Ridge at Prairie View or another subdivision): month, rough size, use",
+    "Camera-original photos of at least one Evans job, before and after",
+    "Google reviews from Evans customers that name the town, with consent to quote first name and last initial"
+  ]
+}

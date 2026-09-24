@@ -1,0 +1,196 @@
+{
+  "status": "draft",
+  "slug": "frederick-co",
+  "name": "Frederick",
+  "region": "carbon-valley-longmont",
+  "title": "Artificial Turf in Frederick, CO — Front-Yard Code | NoCo Turf Co.",
+  "description": "Frederick's 2024 code dropped a front-yard turfgrass rule; front landscaped areas need 50% living plants, and its draft would bar artificial turf.",
+  "h1": "Frederick's 2024 landscape code wants living front yards, and turf is unsettled",
+  "lede": "Frederick rewrote its landscaping code in November 2024. Owners of existing yards don't have to change anything, but anyone planning new landscaping should read the rules first, and artificial turf is the part that needs a call to Frederick Planning.",
+  "answer": {
+    "question": "Can I install artificial turf in Frederick?",
+    "answer": "It depends, so confirm with Frederick Planning first. NoCo Turf Co. installs artificial turf in Frederick, Colorado, where the landscaping code updated November 16, 2024 requires front-yard landscaped areas to be 50% living plants. The town's 2024 ordinance packet drafted a ban on artificial turf in landscaped areas, and the adopted wording could not be confirmed."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Land Use Code 2.14",
+      "h2": "Frederick's front yards now need 50% living plants, and existing yards can stay.",
+      "takeaway": "The artificial-turf wording is unconfirmed; ask the Town before planning turf.",
+      "paras": [
+        "An update to Land Use Code Section 2.14 took effect November 16, 2024. It dropped the old front-yard turfgrass requirement and now requires landscaped areas in front yards to be covered with 50% living plant material. The Town says existing property owners will not be required to change their landscaping to comply.",
+        "What the update did with artificial turf is the open question. The draft landscape code in the Board of Trustees packet for September 10, 2024, Ordinance No. 1396, read 'Artificial turf is prohibited in landscaped areas,' and said water conservation 'does not include or allow artificial turf.' The adopted, codified wording could not be confirmed for this page.",
+        "Until Frederick Planning confirms it, treat a front-yard turf plan in Frederick as unapproved, and ask how the rule applies to a backyard on an existing lot."
+      ],
+      "layerRefs": [
+        "frederick-luc-2.14-front-yard-plants",
+        "frederick-luc-2.14.2.1b-turf-prohibited"
+      ],
+      "sources": [
+        "https://www.frederickco.gov/1113/Landscaping-Resources",
+        "https://www.frederickco.gov/AgendaCenter/ViewFile/Agenda/_09102024-1313?packet=true"
+      ]
+    },
+    {
+      "kind": "utility",
+      "own": true,
+      "kicker": "East or west of I-25",
+      "h2": "Your side of I-25 decides who supplies your Frederick water.",
+      "paras": [
+        "The Town of Frederick serves homes east of I-25. Homes west of I-25 are Left Hand Water District customers, and the Town's shortage stages don't apply to them.",
+        "The Town declared a Stage 1 (Mild) water shortage on May 20, 2026, recommending no watering from 10 a.m. to 6 p.m. and no more than 3 days a week. Left Hand has declared its own Stage 1 (Mild) shortage and asks customers to cut use voluntarily."
+      ],
+      "layerRefs": [
+        "frederick-two-providers",
+        "frederick-stage-1-mild-2026",
+        "frederick-left-hand-stage-1-2026"
+      ],
+      "sources": [
+        "https://www.frederickco.gov/1260/Water-Use-Guidance-and-Current-Condition"
+      ]
+    },
+    {
+      "kind": "rebate",
+      "own": true,
+      "kicker": "Rebate",
+      "h2": "Frederick's lawn rebate pays $2 a square foot, and never for turf.",
+      "paras": [
+        "The Town's Lawn Replacement Rebate pays $2 per square foot, up to $2,000 per water account per year, for at least 200 square feet of lawn replaced, and it says artificial turf is not eligible. Submissions for 2026 closed September 1. Resource Central's lawn-replacement program, offered through Left Hand Water District, requires the replaced area to be at least half waterwise plants."
+      ],
+      "layerRefs": [
+        "frederick-lawn-replacement-2026",
+        "resource-central-lawn-2026"
+      ],
+      "sources": [
+        "https://www.frederickco.gov/1009/Lawn-Replacement-Rebate-Program",
+        "https://resourcecentral.org/lawn/"
+      ]
+    },
+    {
+      "kind": "housing",
+      "own": true,
+      "kicker": "Subdivisions",
+      "h2": "Wyndham Hill, Savannah and Countryside are Frederick's biggest neighborhoods.",
+      "paras": [
+        "By residential parcels, Wyndham Hill is the largest subdivision, with 507 lots plus 230 in filing B, followed by Savannah with 382, Countryside with 296 and Fox Run with 279. The median house lot is about 6,984 square feet.",
+        "The state's district map puts 41 metro districts inside Frederick, 18 formed in 2018 or later, led by the Shores on Plum Creek family with 10. Under Colorado law an HOA's landscaping rules may not prohibit backyard artificial turf on a detached home, and every HOA must pre-approve at least three water-wise garden designs for front yards."
+      ],
+      "layerRefs": [
+        "co-hoa-backyard-detached",
+        "co-hoa-front-yard-designs"
+      ],
+      "sources": [
+        "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query",
+        "https://data.colorado.gov/resource/szft-nc4z.geojson",
+        "https://leg.colorado.gov/bill_files/92307/download"
+      ]
+    },
+    {
+      "kind": "soil",
+      "own": false,
+      "kicker": "Shrink-swell ground",
+      "h2": "A quarter of central Frederick is Weld loam, a high shrink-swell soil.",
+      "paras": [
+        "Soil surveys around central Frederick map Olney fine sandy loam alongside Weld loam, a high shrink-swell soil covering about a quarter of the area sampled. The Colorado Geological Survey notes that expansive clays can swell up to 20% by volume when wet.",
+        "The largest hail NOAA logged near Frederick from 2011 through 2025 was 2.5 inches, on June 18, 2018."
+      ],
+      "layerRefs": [
+        "nrcs-soil-frederick",
+        "cgs-expansive-soil",
+        "noaa-hail-max-frederick"
+      ],
+      "sources": [
+        "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+        "https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/",
+        "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/"
+      ]
+    }
+  ],
+  "sections": [],
+  "faq": [
+    {
+      "q": "Do I have to replace my existing Frederick lawn?",
+      "a": "No. The Town says existing property owners won't be required to change their landscaping to meet the November 2024 code."
+    },
+    {
+      "q": "Is artificial turf banned in Frederick?",
+      "a": "It may be, for new landscaping. The 2024 draft code said artificial turf is prohibited in landscaped areas; the adopted wording couldn't be confirmed, so ask Frederick Planning about your lot before planning turf."
+    },
+    {
+      "q": "Do Frederick's water restrictions apply west of I-25?",
+      "a": "No. West of I-25 you're a Left Hand Water District customer, and Town shortage stages don't apply; Left Hand's own Stage 1 asks for voluntary cuts."
+    }
+  ],
+  "nearby": [
+    "firestone-co",
+    "dacono-co",
+    "mead-co",
+    "longmont-co"
+  ],
+  "sources": [
+    {
+      "label": "Town of Frederick, Landscaping Resources page (Land Use Code Sec. 2.14 update, effective Nov. 16, 2024)",
+      "url": "https://www.frederickco.gov/1113/Landscaping-Resources",
+      "checked": "2026-09-24"
+    },
+    {
+      "label": "Town of Frederick Board of Trustees agenda packet, Sept. 10, 2024: Ordinance No. 1396 draft landscape code (LUC 2.14.2.1.b and 2.14.2.3.a)",
+      "url": "https://www.frederickco.gov/AgendaCenter/ViewFile/Agenda/_09102024-1313?packet=true",
+      "checked": "2026-09-24"
+    },
+    {
+      "label": "Town of Frederick, Water Use Guidance and Current Conditions",
+      "url": "https://www.frederickco.gov/1260/Water-Use-Guidance-and-Current-Condition",
+      "checked": "2026-09-24"
+    },
+    {
+      "label": "Town of Frederick, Lawn Replacement Rebate Program",
+      "url": "https://www.frederickco.gov/1009/Lawn-Replacement-Rebate-Program",
+      "checked": "2026-09-24"
+    },
+    {
+      "label": "Resource Central, Lawn Replacement program page",
+      "url": "https://resourcecentral.org/lawn/",
+      "checked": "2026-09-24"
+    },
+    {
+      "label": "Colorado Public Parcels (statewide parcel file): Frederick house lots, median about 6,984 sq ft; Wyndham Hill 507 (+230 in filing B), Savannah 382, Countryside 296, Fox Run 279",
+      "url": "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query",
+      "checked": "2026-09-24"
+    },
+    {
+      "label": "Colorado DOLA special-district boundaries: 41 metro districts inside Frederick, 18 formed 2018 or later (Shores on Plum Creek 10)",
+      "url": "https://data.colorado.gov/resource/szft-nc4z.geojson",
+      "checked": "2026-09-24"
+    },
+    {
+      "label": "C.R.S. 38-33.3-106.5(1)(i.5), added by SB23-178 (signed act)",
+      "url": "https://leg.colorado.gov/bill_files/92307/download",
+      "checked": "2026-09-24"
+    },
+    {
+      "label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Frederick",
+      "url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+      "checked": "2026-09-24"
+    },
+    {
+      "label": "Colorado Geological Survey, Expansive Soil & Rock",
+      "url": "https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/",
+      "checked": "2026-09-24"
+    },
+    {
+      "label": "NOAA NCEI Storm Events Database, hail reports near Frederick, 2011–2025",
+      "url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/",
+      "checked": "2026-09-24"
+    }
+  ],
+  "checked": "2026-09-24",
+  "needsFromBrian": [
+    "Whether NoCo has installed turf in Frederick since November 16, 2024, and whether the Town ever raised the landscape code on one of those jobs",
+    "Any written answer from Frederick Planning on artificial turf in backyards of existing homes",
+    "Named or described Frederick jobs (Wyndham Hill, Savannah, Countryside or another subdivision): month, rough size, use",
+    "Camera-original photos of at least one Frederick job, before and after",
+    "Google reviews from Frederick customers that name the town, with consent to quote first name and last initial"
+  ]
+}

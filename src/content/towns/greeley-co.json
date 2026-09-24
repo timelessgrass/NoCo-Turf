@@ -1,0 +1,187 @@
+{
+  "status": "draft",
+  "slug": "greeley-co",
+  "name": "Greeley",
+  "region": "greeley-east-weld",
+  "title": "Artificial Turf in Greeley, CO — Front-Yard Rule | NoCo Turf Co.",
+  "description": "Greeley bars turf from house front yards and from street view in new development; a front-yard permit was still a draft on September 24, 2026.",
+  "h1": "Greeley still keeps turf out of front yards while a permit rule waits",
+  "lede": "Greeley's turf rules are mid-rewrite. As of September 24, 2026, the rule on the books still stands, and it is about what the street can see.",
+  "answer": {
+    "question": "Can I put artificial turf in my front yard in Greeley?",
+    "answer": "Not yet. NoCo Turf Co. installs artificial turf in Greeley, Colorado, where city staff say turf is prohibited in the front yards of houses. A draft change would allow it by permit, but no ordinance had been adopted as of September 24, 2026. Backyards the street can't see are where turf fits today."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "The rule today",
+      "h2": "Greeley keeps artificial turf out of house front yards, and out of street view in new development.",
+      "paras": [
+        "Greeley Municipal Code Section 24-802, adopted as Ordinance No. 36 in 2021, says that in new development artificial turf is only acceptable as ground cover for areas not visible from public rights-of-way and streets, and may be subject to engineering specifications tied to grading or drainage plans. City staff put it plainly for the Planning Commission on July 14, 2026: artificial turf is prohibited in the front yards of houses.",
+        "That makes a fenced backyard the place for turf in Greeley today. A corner lot's side yard, which the street can see, is a question for the city before you design it."
+      ],
+      "layerRefs": ["greeley-code-24-802-not-visible", "greeley-front-yard-ban-city-summary"],
+      "sources": [
+        "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH8LAST_S24-802LADE",
+        "https://greeleyco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=9205,plainText=false)"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "What's pending",
+      "h2": "A front-yard permit path is drafted, not adopted.",
+      "takeaway": "Status checked September 24, 2026.",
+      "paras": [
+        "Council Initiative 11-2023 would let houses put artificial turf in the front yard with a permit, keep trees and live plantings required, and require an installer who is licensed or certified. Staff presented the landscape standards to Council at a work session in July 2026.",
+        "As of September 24, 2026 the initiative's status still read 'Come back to Council with a draft ordinance,' and no ordinance had been adopted. Until one is, the current rules stand, so check the city's current code before you sign for any front-yard design."
+      ],
+      "layerRefs": ["greeley-initiative-11-2023-pending"],
+      "sources": ["https://greeleyco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=9580,plainText=false)"]
+    },
+    {
+      "kind": "utility",
+      "own": true,
+      "kicker": "Water budget",
+      "h2": "Greeley bills by a water budget, and the price climbs once you pass it.",
+      "paras": [
+        "Single-family homes inside the city pay $6.18 per 1,000 gallons within their budget in 2026, $7.16 at 101–130%, $9.76 at 131–150% and $13.01 above 151%, plus a $21.00 fixed monthly charge.",
+        "Greeley declared 2026 an adequate water year on April 15, so normal watering guidelines hold through October 31, backed by Northern Water's 0.8 acre-foot quota per Colorado-Big Thompson unit. Homes in the northern part of the city can be on North Weld County Water District instead, which asked for voluntary limits of three days a week in 2026.",
+        "The city's 2026 residential rebates cover high-efficiency toilets and irrigation equipment only. There is no lawn-replacement or turf rebate."
+      ],
+      "layerRefs": ["greeley-water-budget-rates-2026", "greeley-adequate-water-year-2026", "cbt-quota-2026", "nwcwd-service-area", "nwcwd-voluntary-2026", "greeley-rebates-no-turf-program"],
+      "sources": [
+        "https://cogy-p-001.sitecorecontenthub.cloud/api/public/content/131d971ab9564764b86d4ab2b50679d7?v=2d52460e",
+        "https://greeleyco.gov/news/2026/20260417-greeley-water-and-sewer-board-declares-adequate-water-year-urges-wise-stewardship/",
+        "https://www.nwcwd.org/service-area",
+        "https://www.nwcwd.org/files/f055ec287/May+2026+Newsletter.pdf",
+        "https://greeleyco.gov/water-and-sewer/save-water/residential-rebates/"
+      ]
+    },
+    {
+      "kind": "soil",
+      "own": true,
+      "kicker": "Under the sod",
+      "h2": "Greeley's sandy topsoil can sit just inches above hard clay.",
+      "paras": [
+        "Greeley's water department says soils in the area tend to be shallow, with a layer of hard clay sometimes just inches below the surface. Soil surveys around central Greeley map mostly low shrink-swell sandy soils, Olney fine sandy loam and Otero sandy loam.",
+        "For a turf base, find out which one you have before digging: sand drains through an aggregate base, while a clay layer a few inches down holds water under it."
+      ],
+      "layerRefs": ["greeley-hard-clay-city", "nrcs-soil-greeley"],
+      "sources": [
+        "https://greeleyco.gov/government/city-administration/city-departments/water-and-sewer/save-water/waterwise-landscapes",
+        "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest"
+      ]
+    },
+    {
+      "kind": "housing",
+      "own": true,
+      "kicker": "Two Greeleys",
+      "h2": "48 of Greeley's 53 metro districts were formed in 2018 or later.",
+      "paras": [
+        "By the state's district map, 53 metro districts have a representative point inside Greeley, and 48 of them formed in 2018 or later, led by the Delantero, Cache and Union Colony West families.",
+        "The established half of the city is just as large: Weber West, Rolling Hills, Country Club West and Farr's are among the biggest subdivisions by residential parcels, and the median house lot is about 7,511 square feet."
+      ],
+      "layerRefs": [],
+      "sources": [
+        "https://data.colorado.gov/resource/szft-nc4z.geojson",
+        "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query"
+      ]
+    },
+    {
+      "kind": "climate",
+      "own": false,
+      "kicker": "Heat",
+      "h2": "Greeley averages 58.3 days a year at 90°F or hotter.",
+      "paras": [
+        "The Greeley UNC station averages 58.3 days at or above 90°F and 6.5 days at or above 100°F, with 14.65 inches of precipitation and 34.9 inches of snow (1991–2020 normals). NOAA logged 37 hail reports referenced to Greeley from 2011 through 2025, the largest 2 inches on July 29, 2016."
+      ],
+      "layerRefs": ["noaa-normals-greeley-unc", "noaa-hail-max-greeley"],
+      "sources": [
+        "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053553&format=json",
+        "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "LaSalle",
+      "paras": [
+        "LaSalle, just south of Greeley, sets its own watering rules under Resolution H-2026 through December 31, 2026: no watering on Fridays, none from 11 a.m. to 5 p.m., and new sod or seed only by permit. The Dove Hill subdivision runs a separate non-potable system, scheduled to shut off September 30, 2026.",
+        "LaSalle's municipal code, codified through Ord. 5-2026, has no artificial-turf provision; its one cap on non-living ground cover, 20%, applies to parking-lot setbacks. Treated water comes from Central Weld County Water District, and about 72.8% of LaSalle's homes were built before 1980."
+      ],
+      "sources": [
+        "https://www.lasalletown.com/2159/Watering-Restrictions",
+        "https://www.lasalletown.com/2162/Water",
+        "https://library.municode.com/co/lasalle/codes/municipal_code",
+        "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B25003,B25034,B25024&geo_ids=16000US0843605"
+      ]
+    },
+    {
+      "name": "Platteville",
+      "paras": [
+        "Platteville writes installation quality into its nuisance code. Under Section 7-1-30(s), permitting or maintaining artificial turf that was not installed in a professional manner to the manufacturer's specifications is a public nuisance; the examples are seams that aren't tight, edges that aren't fastened, turf not laid over an aggregate base, and waves.",
+        "Drinking water comes from Central Weld County Water District, and the town's page says watering is not allowed between 9 a.m. and 6 p.m.; even addresses water Sunday, Tuesday and Thursday, odd addresses Saturday, Monday and Wednesday.",
+        "The town sits on the east bank of the South Platte beside Fort Vasquez, and its Harvest Daze festival has run each August since 1910."
+      ],
+      "sources": [
+        "https://library.municode.com/co/platteville/codes/code_of_ordinances?nodeId=CH7HESAAN_ARTINU_S7-1-30ENNU",
+        "https://platteville.colorado.gov/watering-restrictions",
+        "https://en.wikipedia.org/wiki/Platteville,_Colorado"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When will Greeley allow front-yard turf?",
+      "a": "It depends on Council. As of September 24, 2026, Council Initiative 11-2023 was still at 'come back to Council with a draft ordinance,' and nothing had been adopted. Until an ordinance passes, turf in the front yard of a house is not allowed."
+    },
+    {
+      "q": "If Greeley's change passes, who could install front-yard turf?",
+      "a": "The draft calls for a permit, continued trees and live plantings, and an installer who is licensed or certified. The final ordinance language has not been written."
+    },
+    {
+      "q": "Does Greeley offer a rebate for artificial turf?",
+      "a": "No. Greeley's 2026 residential rebates cover high-efficiency toilets and irrigation systems only."
+    },
+    {
+      "q": "What does Platteville require of a turf install?",
+      "a": "That it be done professionally and to the manufacturer's specifications. Under Section 7-1-30(s), loose seams, unfastened edges, no aggregate base or waves can make turf a public nuisance."
+    }
+  ],
+  "nearby": ["evans-co", "windsor-co", "eaton-co", "milliken-co", "severance-co", "johnstown-co"],
+  "sources": [
+    { "label": "Greeley Municipal Code Sec. 24-802 (Ord. No. 36, 2021; codified through Ord. No. 16, 2026)", "url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH8LAST_S24-802LADE", "checked": "2026-09-24" },
+    { "label": "Greeley Planning Commission agenda packet, July 14, 2026: slide Artificial Turf (Council Initiative)", "url": "https://greeleyco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=9205,plainText=false)", "checked": "2026-09-24" },
+    { "label": "Greeley City Council work session packet, Sept. 22, 2026: Status Report of Council Initiatives (11-2023)", "url": "https://greeleyco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=9580,plainText=false)", "checked": "2026-09-24" },
+    { "label": "Greeley Water & Sewer, 2026 Rate Manual", "url": "https://cogy-p-001.sitecorecontenthub.cloud/api/public/content/131d971ab9564764b86d4ab2b50679d7?v=2d52460e", "checked": "2026-09-24" },
+    { "label": "City of Greeley news release, April 17, 2026: adequate water year", "url": "https://greeleyco.gov/news/2026/20260417-greeley-water-and-sewer-board-declares-adequate-water-year-urges-wise-stewardship/", "checked": "2026-09-24" },
+    { "label": "North Weld County Water District, Service Area", "url": "https://www.nwcwd.org/service-area", "checked": "2026-09-24" },
+    { "label": "North Weld County Water District, May 2026 Newsletter", "url": "https://www.nwcwd.org/files/f055ec287/May+2026+Newsletter.pdf", "checked": "2026-09-24" },
+    { "label": "City of Greeley, Residential Water Rebates", "url": "https://greeleyco.gov/water-and-sewer/save-water/residential-rebates/", "checked": "2026-09-24" },
+    { "label": "City of Greeley Water & Sewer, Waterwise Landscapes", "url": "https://greeleyco.gov/government/city-administration/city-departments/water-and-sewer/save-water/waterwise-landscapes", "checked": "2026-09-24" },
+    { "label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Greeley", "url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest", "checked": "2026-09-24" },
+    { "label": "Colorado DOLA special-district boundaries: 53 metro districts inside Greeley, 48 formed 2018 or later", "url": "https://data.colorado.gov/resource/szft-nc4z.geojson", "checked": "2026-09-24" },
+    { "label": "Colorado Public Parcels (statewide parcel file): Greeley house lots, median about 7,511 sq ft; largest subdivisions Weber West, Rolling Hills, Country Club West, Farr's", "url": "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query", "checked": "2026-09-24" },
+    { "label": "NOAA NCEI U.S. Climate Normals 1991–2020, station GREELEY UNC (USC00053553)", "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053553&format=json", "checked": "2026-09-24" },
+    { "label": "NOAA NCEI Storm Events Database, hail reports referenced to Greeley, 2011–2025", "url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/", "checked": "2026-09-24" },
+    { "label": "Town of LaSalle, Watering Restrictions (Resolution H-2026 through Dec. 31, 2026; no watering 11 a.m.–5 p.m.; Dove Hill non-potable system scheduled off Sept. 30, 2026)", "url": "https://www.lasalletown.com/2159/Watering-Restrictions", "checked": "2026-09-24" },
+    { "label": "Town of LaSalle, Water (Central Weld County Water District)", "url": "https://www.lasalletown.com/2162/Water", "checked": "2026-09-24" },
+    { "label": "LaSalle Municipal Code on Municode (codified through Ord. 5-2026; non-living ground cover capped at 20% in parking-lot setbacks)", "url": "https://library.municode.com/co/lasalle/codes/municipal_code", "checked": "2026-09-24" },
+    { "label": "ACS 2020–2024 via Census Reporter: LaSalle housing (72.8% built before 1980)", "url": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B25003,B25034,B25024&geo_ids=16000US0843605", "checked": "2026-09-24" },
+    { "label": "Platteville Code of Ordinances Sec. 7-1-30(s) (codified through Ord. No. 2025-851, Dec. 16, 2025)", "url": "https://library.municode.com/co/platteville/codes/code_of_ordinances?nodeId=CH7HESAAN_ARTINU_S7-1-30ENNU", "checked": "2026-09-24" },
+    { "label": "Town of Platteville, Watering Restrictions", "url": "https://platteville.colorado.gov/watering-restrictions", "checked": "2026-09-24" },
+    { "label": "Wikipedia, Platteville, Colorado (Fort Vasquez; Harvest Daze each August since 1910)", "url": "https://en.wikipedia.org/wiki/Platteville,_Colorado", "checked": "2026-09-24" }
+  ],
+  "checked": "2026-09-24",
+  "needsFromBrian": [
+    "Named or described Greeley jobs (backyards especially): neighborhood, month, rough size, use",
+    "Any Greeley front-yard or street-visible installs, and whether the city ever cited or approved one",
+    "Camera-original photos of at least one Greeley job, before and after",
+    "Google reviews from Greeley, LaSalle or Platteville customers that name the town, with consent to quote first name and last initial",
+    "Any jobs in LaSalle or Platteville (Platteville's nuisance rule makes an install there a strong example)",
+    "Whether you want to comment to the city while the front-yard ordinance, with its licensed-or-certified installer requirement, is drafted",
+    "Any licence or certification NoCo holds that would meet Greeley's proposed installer requirement: issuer, number and a public lookup link (claims.json: Licensed and insured; Certified installer)"
+  ]
+}

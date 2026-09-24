@@ -1,0 +1,323 @@
+/**
+ * Publication policy (src/lib/content-policy.mjs) and the content checker (scripts/check-content.mjs).
+ * The checker tests run the real script against a throwaway root (--root) holding only fixture
+ * records, layers and a claims register; the schemas, territory and town gate come from this repo.
+ */
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import os from 'node:os';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { spawnSync } from 'node:child_process';
+import { CONTENT_STATUSES, isPublished, assertUniqueRoutes } from '../src/lib/content-policy.mjs';
+
+const root = fileURLToPath(new URL('../', import.meta.url));
+const read = (f) => fs.readFileSync(path.join(root, f), 'utf8');
+
+test('unreviewed content stays private by default', () => {
+  for (const status of [undefined, null, 'draft', 'review', 'Published', 'PUBLISHED', 'invalid']) {
+    assert.equal(isPublished({ status }), false, String(status));
+  }
+  assert.equal(isPublished(undefined), false);
+  assert.equal(isPublished({ status: 'published' }), true);
+  assert.equal(isPublished({ status: 'draft', data: { status: 'published' } }), false);
+});
+
+test('the policy statuses are exactly the schema statuses', () => {
+  const m = read('src/content.config.ts').match(/const status = z\.enum\(\[([^\]]*)\]\)/);
+  assert.ok(m, 'content.config.ts no longer defines `const status = z.enum([...])`');
+  assert.deepEqual(m[1].split(',').map((s) => s.trim().replace(/^['"]|['"]$/g, '')), CONTENT_STATUSES);
+});
+
+test('conflicting routes stop generation', () => {
+  assert.throws(() => assertUniqueRoutes(['/areas/windsor-co/', '/areas/windsor-co/']), /Duplicate content route/);
+  assert.doesNotThrow(() => assertUniqueRoutes(['/areas/windsor-co/', '/areas/timnath-co/']));
+});
+
+// ───────────────────────────── scripts/check-content.mjs on fixtures ─────────────────────────────
+
+const LAYERS = [
+  {
+    id: 'fixture-fc-luc', layer: 'ordinance', applies_to: ['fort-collins-co'],
+    fact: 'Fort Collins bars artificial turf in new development plans; existing single-family lots are exempt.',
+    quote: 'Artificial turf shall not be installed as part of a development plan.',
+    source_url: 'https://example.gov/fort-collins/luc-5-10-1', source_label: 'Land Use Code 5.10.1 (Ord. 008, 2025)',
+    checked: '2026-09-24', reachable: true, status: 'VERIFIED', numbers: ['2025', '008'],
+  },
+  {
+    id: 'fixture-co-hoa', layer: 'state', applies_to: ['*'],
+    fact: 'A Colorado HOA must preapprove at least 3 water-wise front-yard designs; the remedy is $500 or actual damages after 45 days to cure.',
+    quote: 'follow best management practices for water use',
+    source_url: 'https://example.gov/colorado/sb23-178', source_label: 'SB23-178',
+    checked: '2026-09-24', reachable: true, status: 'VERIFIED', numbers: ['3', '500', '45'],
+  },
+];
+
+/** A draft town record that passes every copy rule; the gate waits on Brian's photo. */
+function town(slug, overrides = {}) {
+  const name = { 'fort-collins-co': 'Fort Collins', 'loveland-co': 'Loveland', 'windsor-co': 'Windsor' }[slug];
+  const region = { 'fort-collins-co': 'poudre', 'loveland-co': 'loveland-berthoud', 'windsor-co': 'windsor-johnstown' }[slug];
+  return {
+    status: 'draft', slug, name, region,
+    title: `Artificial turf in ${name}, CO`, description: `What ${name} allows, and what an HOA may ask.`,
+    h1: `Artificial turf in ${name}`, lede: `${name} has its own rules for turf.`,
+    answer: { question: `Can I install turf in ${name}?`, answer: `On an existing single-family lot, usually yes.` },
+    blocks: [
+      { kind: 'ordinance', own: true, kicker: 'City code', h2: 'What the code says', paras: ['Ord. 008 of 2025 keeps turf out of new development plans, so follow best management practices.'], layerRefs: ['fixture-fc-luc', 'fixture-co-hoa'], sources: ['https://example.gov/fort-collins/luc-5-10-1'] },
+      { kind: 'hoa', own: false, kicker: 'HOA', h2: 'What your HOA can ask', paras: ['State law gives a $500 remedy after 45 days.'], layerRefs: ['fixture-co-hoa'], sources: ['https://example.gov/colorado/sb23-178'] },
+      { kind: 'soil', own: true, kicker: 'Soil', h2: 'Clay under the lawn', paras: [`Clay soils around ${name} drain slowly after a storm.`], sources: ['https://example.gov/soil'] },
+    ],
+    nearby: slug === 'loveland-co' ? ['fort-collins-co', 'berthoud-co'] : ['loveland-co', 'timnath-co'],
+    sources: [
+      { label: 'Land Use Code 5.10.1', url: 'https://example.gov/fort-collins/luc-5-10-1', checked: '2026-09-24' },
+      { label: 'SB23-178', url: 'https://example.gov/colorado/sb23-178', checked: '2026-09-24' },
+    ],
+    checked: '2026-09-24',
+    needsFromBrian: [`One ${name} job with before and after photos`],
+    ...overrides,
+  };
+}
+
+/** Distinct wording per town, so a pair of fixtures is not a similarity duplicate by accident. */
+const UNIQUE = {
+  'fort-collins-co': ['Poudre River corridors carry their own buffer rules near the water.', 'Older lots near the university often have mature trees shading the yard.'],
+  'windsor-co': ['Golf community lots around the reservoir sit beside greens and fairways.', 'Metro districts maintain many of the streetscapes in newer neighborhoods.'],
+};
+function distinctTown(slug) {
+  const t = town(slug);
+  t.blocks[2].paras = UNIQUE[slug];
+  t.blocks[0].paras = [`${UNIQUE[slug][0]} Ord. 008 of 2025 applies.`];
+  t.blocks[1].paras = [`${UNIQUE[slug][1]} State law gives a $500 remedy after 45 days.`];
+  return t;
+}
+
+function fixture(t) {
+  const dir = fs.realpathSync(fs.mkdtempSync(path.join(os.tmpdir(), 'noco check-content ')));
+  t.after(() => fs.rmSync(dir, { recursive: true, force: true }));
+  const write = (file, value) => {
+    const dest = path.join(dir, file);
+    fs.mkdirSync(path.dirname(dest), { recursive: true });
+    fs.writeFileSync(dest, typeof value === 'string' ? value : JSON.stringify(value, null, 1));
+    return dest;
+  };
+  write('src/data/layers/fixtures.json', LAYERS);
+  for (const d of ['towns', 'guides', 'work']) fs.mkdirSync(path.join(dir, 'src/content', d), { recursive: true });
+  const run = (...args) => {
+    const r = spawnSync(process.execPath, [path.join(root, 'scripts/check-content.mjs'), '--root', dir, ...args], { encoding: 'utf8' });
+    return { ...r, out: r.stdout + r.stderr };
+  };
+  return { dir, write, run };
+}
+
+test('a clean draft passes, and its unmet gate is a warning that prints what Brian must send', (t) => {
+  const { write, run } = fixture(t);
+  write('src/content/towns/fort-collins-co.json', town('fort-collins-co'));
+  const r = run();
+  assert.equal(r.status, 0, r.out);
+  assert.match(r.out, /town gate not met yet \(draft\): no photograph/);
+  assert.match(r.out, /needs from Brian: One Fort Collins job with before and after photos/);
+  assert.match(r.out, /fort-collins-co\s+draft\s+3 blocks · 2 own · no photo — gate not yet/);
+  assert.match(r.out, /windsor-co\s+—\s+no record yet/);
+});
+
+test('a published town that fails the gate fails the check', (t) => {
+  const { write, run } = fixture(t);
+  write('src/content/towns/fort-collins-co.json', town('fort-collins-co', { status: 'published' }));
+  const r = run();
+  assert.equal(r.status, 1, r.out);
+  assert.match(r.out, /published but fails the town gate: no photograph/);
+});
+
+test('"Erie" fails — NoCo never names a TIMELESS town, even hidden behind a soft hyphen', (t) => {
+  const { write, run } = fixture(t);
+  const t1 = town('fort-collins-co');
+  t1.blocks[2].paras.push('We also cover Erie.');
+  write('src/content/towns/fort-collins-co.json', t1);
+  const r = run();
+  assert.equal(r.status, 1, r.out);
+  assert.match(r.out, /TIMELESS town "Erie"/);
+
+  const t2 = town('fort-collins-co');
+  t2.lede = 'Closer to Den&shy;ver than you think.';
+  write('src/content/towns/fort-collins-co.json', t2);
+  const r2 = run();
+  assert.equal(r2.status, 1, r2.out);
+  assert.match(r2.out, /TIMELESS town "Denver"/);
+});
+
+test('a TIMELESS phone fails in any spelling', (t) => {
+  const { write, run } = fixture(t);
+  for (const phone of ['303-349-2368', '(303) 349-2368', '+1 303.349.2368', `303${String.fromCodePoint(0x2011)}349${String.fromCodePoint(0x2011)}2368`, '854-204-9227']) {
+    const rec = town('fort-collins-co');
+    rec.blocks[2].paras.push(`Call ${phone} today.`);
+    write('src/content/towns/fort-collins-co.json', rec);
+    const r = run();
+    assert.equal(r.status, 1, `${phone}\n${r.out}`);
+    assert.match(r.out, /TIMELESS phone/, phone);
+  }
+});
+
+test('"Timeless" and NoCo\'s own typed phone fail', (t) => {
+  const { write, run } = fixture(t);
+  const rec = town('fort-collins-co');
+  rec.lede = 'Ask our friends at TIMELESS, or call 720-630-0108.';
+  write('src/content/towns/fort-collins-co.json', rec);
+  const r = run();
+  assert.equal(r.status, 1, r.out);
+  assert.match(r.out, /"Timeless" — the sister brand/);
+  assert.match(r.out, /NoCo's phone typed into copy/);
+});
+
+test('"licensed" fails unless an approved claims.json entry says exactly that', (t) => {
+  const { write, run } = fixture(t);
+  const rec = town('fort-collins-co');
+  rec.blocks[2].paras.push('Our crews are licensed and insured in Colorado.');
+  write('src/content/towns/fort-collins-co.json', rec);
+  const r = run();
+  assert.equal(r.status, 1, r.out);
+  assert.match(r.out, /unsourced business claim "licensed"/);
+  assert.match(r.out, /unsourced business claim "insured"/);
+
+  const claim = { claim: 'licensed and insured in Colorado', status: 'CLIENT_CONFIRMED', source: 'document', approved: true, approved_by: 'Ty', aliases: [] };
+  write('.site/truth/claims.json', { claims: [claim] });
+  const ok = run();
+  assert.equal(ok.status, 0, ok.out);
+
+  write('.site/truth/claims.json', { claims: [{ ...claim, approved: false }] });
+  const gated = run();
+  assert.equal(gated.status, 1, gated.out);
+  assert.match(gated.out, /claims register: "licensed and insured in colorado" belongs to an unapproved claim/);
+});
+
+test('other unsourced claims, prices and demographics fail; a phrase quoted from a layer does not', (t) => {
+  const { write, run } = fixture(t);
+  for (const [phrase, expect] of [
+    ['The best installer in town.', /unsourced business claim "best"/],
+    ['We have 13 years of experience.', /unsourced business claim "years of experience"/],
+    ['Rated 5 stars by neighbours.', /unsourced business claim "5 stars"/],
+    ['Installs starting at $8 per square foot.', /unsourced business claim "starting at"|a \$ price/],
+    ['A family-owned crew.', /unsourced business claim "family-owned"/],
+    ['Open 24/7.', /unsourced business claim "24\/7"/],
+    ['An affluent neighborhood.', /demographic or wealth language "affluent"/],
+    ['Median income here is high.', /demographic or wealth language "Median income"/],
+    ['Lorem ipsum.', /placeholder or foreign token "lorem"/],
+  ]) {
+    const rec = town('fort-collins-co');
+    rec.blocks[2].paras.push(phrase);
+    write('src/content/towns/fort-collins-co.json', rec);
+    const r = run();
+    assert.equal(r.status, 1, `${phrase}\n${r.out}`);
+    assert.match(r.out, expect, phrase);
+  }
+  // "best management practices" is in the referenced layer's quote; "$500" is in its numbers
+  write('src/content/towns/fort-collins-co.json', town('fort-collins-co'));
+  const clean = run();
+  assert.equal(clean.status, 0, clean.out);
+  assert.doesNotMatch(clean.out, /"best"|\$ price/);
+});
+
+test('numbers must trace to a referenced layer record, and outside links to the sources', (t) => {
+  const { write, run } = fixture(t);
+  const rec = town('fort-collins-co');
+  rec.blocks[2].paras.push('About 12,500 gallons a year, see https://not-a-source.example.com/page.');
+  write('src/content/towns/fort-collins-co.json', rec);
+  const r = run();
+  assert.equal(r.status, 1, r.out);
+  assert.match(r.out, /numbers not found in any referenced layer record or source label: 12500/);
+  assert.match(r.out, /outside link not among this record's sources: https:\/\/not-a-source\.example\.com\/page/);
+
+  const refs = town('fort-collins-co');
+  refs.blocks[0].layerRefs.push('no-such-layer');
+  write('src/content/towns/fort-collins-co.json', refs);
+  const missing = run();
+  assert.equal(missing.status, 1, missing.out);
+  assert.match(missing.out, /layerRefs id "no-such-layer" is not in src\/data\/layers/);
+});
+
+test('an empty layer directory turns tracing into warnings instead of failures', (t) => {
+  const { dir, write, run } = fixture(t);
+  fs.rmSync(path.join(dir, 'src/data/layers'), { recursive: true });
+  const rec = town('fort-collins-co');
+  rec.blocks[0].paras = ['Ord. 008 of 2025 keeps turf out of new development plans.']; // no layer to quote from
+  rec.blocks[2].paras.push('About 12,500 gallons a year.');
+  write('src/content/towns/fort-collins-co.json', rec);
+  const r = run();
+  assert.equal(r.status, 0, r.out);
+  assert.match(r.out, /numbers not yet traceable \(src\/data\/layers\/ is empty\): 2025, 500, 45, 12500/);
+  assert.match(r.out, /a \$ amount not yet traceable/);
+  assert.match(r.out, /layerRefs not checked/);
+});
+
+test('two near-identical town records fail as a similarity pair; distinct ones pass', (t) => {
+  const { write, run } = fixture(t);
+  write('src/content/towns/fort-collins-co.json', distinctTown('fort-collins-co'));
+  write('src/content/towns/windsor-co.json', distinctTown('windsor-co'));
+  const ok = run();
+  assert.equal(ok.status, 0, ok.out);
+  assert.doesNotMatch(ok.out, /FAIL similarity/);
+
+  write('src/content/towns/loveland-co.json', town('loveland-co'));
+  write('src/content/towns/windsor-co.json', town('windsor-co'));
+  const dup = run();
+  assert.equal(dup.status, 1, dup.out);
+  assert.match(dup.out, /FAIL similarity loveland-co ~ windsor-co: \d+\.\d% of five-word runs shared/);
+});
+
+test('territory and schema: a non-NoCo slug, a mismatched file name or region, an overlong title all fail', (t) => {
+  const { dir, write, run } = fixture(t);
+  write('src/content/towns/erie-co.json', { ...town('fort-collins-co'), slug: 'erie-co' });
+  const erie = run();
+  assert.equal(erie.status, 1, erie.out);
+  assert.match(erie.out, /erie-co is not a NoCo town/);
+  assert.match(erie.out, /schema: slug/);
+  fs.rmSync(path.join(dir, 'src/content/towns/erie-co.json'));
+
+  write('src/content/towns/timnath-co.json', town('fort-collins-co'));
+  const named = run();
+  assert.equal(named.status, 1, named.out);
+  assert.match(named.out, /file name should be fort-collins-co\.json/);
+  fs.rmSync(path.join(dir, 'src/content/towns/timnath-co.json'));
+
+  write('src/content/towns/fort-collins-co.json', town('fort-collins-co', { region: 'greeley-east-weld', title: 'x'.repeat(71) }));
+  const r = run();
+  assert.equal(r.status, 1, r.out);
+  assert.match(r.out, /region "greeley-east-weld" disagrees with territory\.mjs/);
+  assert.match(r.out, /schema: title/);
+});
+
+const guide = (fm, body) => `---\n${Object.entries(fm).map(([k, v]) => `${k}: ${JSON.stringify(v)}`).join('\n')}\n---\n${body}\n`;
+const GUIDE = {
+  status: 'draft', title: 'Turf rules in Northern Colorado', description: 'Which towns allow turf where.', h1: 'Turf rules in Northern Colorado',
+  answer: { question: 'Can I install turf?', answer: 'On most existing single-family lots, yes.' },
+  layerRefs: ['fixture-fc-luc'],
+  sources: [{ label: 'Land Use Code 5.10.1', url: 'https://example.gov/fort-collins/luc-5-10-1', checked: '2026-09-24' }, { label: 'SB23-178', url: 'https://example.gov/colorado/sb23-178', checked: '2026-09-24' }],
+  published: '2026-09-24', updated: '2026-09-24', related: { services: ['pet-turf'], towns: ['fort-collins-co'] },
+};
+
+test('guides: frontmatter is validated, links must be sources, related slugs must exist', (t) => {
+  const { write, run } = fixture(t);
+  write('src/content/guides/turf-rules-northern-colorado.md', guide(GUIDE, '## Does Fort Collins allow turf?\n\n[Ord. 008](https://example.gov/fort-collins/luc-5-10-1) of 2025 keeps it out of new plans. See [our areas](/areas/).'));
+  const ok = run();
+  assert.equal(ok.status, 0, ok.out);
+
+  write('src/content/guides/turf-rules-northern-colorado.md', guide({ ...GUIDE, related: { services: ['sod'], towns: ['erie-co'] } },
+    'See [a blog](https://blog.example.com/turf) and [our areas](/areas).'));
+  const bad = run();
+  assert.equal(bad.status, 1, bad.out);
+  assert.match(bad.out, /outside link not among this record's sources: https:\/\/blog\.example\.com\/turf/);
+  assert.match(bad.out, /internal link without its trailing slash: \/areas/);
+  assert.match(bad.out, /related town is not a NoCo town: erie-co/);
+  assert.match(bad.out, /related service is not in src\/data\/services\.ts: sod/);
+
+  write('src/content/guides/turf-rules-northern-colorado.md', guide({ ...GUIDE, sources: GUIDE.sources.slice(0, 1) }, 'Body.'));
+  const schema = run();
+  assert.equal(schema.status, 1, schema.out);
+  assert.match(schema.out, /schema: sources/);
+});
+
+test('the real repo passes (towns, guides and work may not exist yet)', () => {
+  const r = spawnSync(process.execPath, [path.join(root, 'scripts/check-content.mjs')], { encoding: 'utf8' });
+  assert.equal(r.status, 0, r.stdout + r.stderr);
+  assert.match(r.stdout, /Town gate/);
+});

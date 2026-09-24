@@ -1,0 +1,596 @@
+[
+  {
+    "id": "windsor-code-15-3-20-no-turf",
+    "layer": "ordinance",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor's landscape code bars artificial turf from any landscape plan for new development or major redevelopment, allowing only functional artificial turf by the Director's exception.",
+    "quote": "No artificial turf or artificial plants may be included in any landscape plan or installed. The Director may approve an exception to allow artificial turf to be installed if it is classified as functional artificial turf and alternatives are not reasonable.",
+    "source_url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTIIISTLADEAR_S15-3-20LAST",
+    "source_label": "Windsor Municipal Code Sec. 15-3-20(b)(2) (codified through Ord. No. 2026-1749, July 13, 2026)",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [],
+    "notes": "Applies to new development needing a building permit or site plan and redevelopment disturbing more than 50% of landscaped area (15-3-20(b)(3)). Appendix A def. 22: \"Landscape\" does not include artificial turf."
+  },
+  {
+    "id": "windsor-code-15-3-10-single-family-exempt",
+    "layer": "ordinance",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor exempts detached single-family houses and duplexes from its landscape article, except that the tree lawn rule applies and at least 25% of each front yard must be landscaped.",
+    "quote": "Detached single family houses and duplexes are exempt from this Article except that the tree lawn requirement remains in effect and a minimum of twenty-five percent (25%) of all front yards shall be landscaped.",
+    "source_url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTIIISTLADEAR_S15-3-10INAP",
+    "source_label": "Windsor Municipal Code Sec. 15-3-10(b)(1) (codified through Ord. No. 2026-1749, July 13, 2026)",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "25"
+    ],
+    "notes": "INFERENCE: because the code's definition of \"landscape\" excludes artificial turf, the required 25% cannot be met with turf — confirm with Windsor Planning before a page states it. HOA/metro-district covenants may add rules."
+  },
+  {
+    "id": "fc-luc-5.10.1",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins' Land Use Code bars artificial turf from development landscape plans, but development on existing single- and two-unit home lots is exempt from that section.",
+    "quote": "(A) Applicability. This Section applies to all developments that include landscaping … (except for development on existing lots for single- and two-unit detached dwellings and accessory dwelling units) … (d) Artificial Turf and Plants. No artificial turf or artificial plants may be included in any landscape plan or installed.",
+    "source_url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/fortcollco-meet-0538ebaac95447ff8c4f53ebc4c0adf8/ITEM-Attachment-004-785f079234b4438a8e8675d01d6f3bd4.pdf",
+    "source_label": "Fort Collins Land Use Code 5.10.1(A) and (D)(2)(d), Ordinance No. 008, 2025",
+    "effective": "2025-02-14",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [],
+    "notes": "Final passage 2025-02-04; effective 2025-02-14. The Director may allow artificial turf on an athletic field of play only. CORRECTED per towns-larimer digest: the adopted ordinance has no front-yard cap (that was the Oct 2023 draft). Parkways (city-owned strips) are a separate rule — see fc-parkway-live-plants."
+  },
+  {
+    "id": "fc-code-12-120-xeriscape-excludes-turf",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins' city-code protection for xeriscape landscaping does not cover artificial turf, because the code defines xeriscape to exclude it.",
+    "quote": "Xeriscape landscaping shall not include artificial turf or plants",
+    "source_url": "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH12HEEN_ARTVIIRECO_DIV1GE_S12-120DE",
+    "source_label": "Fort Collins City Code Sec. 12-120 (codified through Ord. No. 078, 2026, July 21, 2026)",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [],
+    "notes": "Sec. 12-122 limits covenants that restrict xeriscape; this definition means that city protection does not reach artificial turf. The state law (co-special-district-backyard, co-hoa-backyard-detached) is the operative backyard protection."
+  },
+  {
+    "id": "fc-parkway-live-plants",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins parkway strips between sidewalk and street are city-owned, need a free parkway amendment before re-landscaping, and must reach 50% live plant cover at maturity.",
+    "quote": "Parkway strips are owned by the City and maintained by the adjacent property owner. … There must be 50% live plant ground coverage at plant maturity (tree canopies do not count toward the calculation)",
+    "source_url": "https://www.fortcollins.gov/files/sharedassets/city/v/1/utilities/one-water/xip/xip-for-residential-customers-packet.docx",
+    "source_label": "Fort Collins Utilities, XIP for Residential Customers – Participant Packet (parkway requirements)",
+    "checked": "2026-09-24",
+    "reachable": false,
+    "status": "UNVERIFIED",
+    "recheck": "2026-10-24",
+    "numbers": [
+      "50"
+    ],
+    "notes": "The packet URL returns Akamai \"Access Denied\" to curl; the text above comes from a copy saved in the research scratchpad whose retrieval route is not recorded. The earlier research quote \"No bare dirt or artificial plants or turf\" was NOT found in that copy. Re-read the packet in a browser before rendering anything about parkways."
+  },
+  {
+    "id": "loveland-ord-6819-sb24-005",
+    "layer": "ordinance",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "Loveland updated its development code in March 2026 to apply the state nonfunctional-turf law, and the city says that law does not apply to single-family lots or private lots in duplex, condo and townhome developments.",
+    "quote": "In March 2026, the City of Loveland updated the Unified Development Code (UDC) to align with Senate Bill 24-005 (SB 24-005). … SB 24-005 does not apply to: Single Family Residential lots Private lots within duplex, condominium, and townhome developments",
+    "source_url": "https://www.letstalkloveland.org/landscape-changes",
+    "source_label": "City of Loveland, \"Landscape Changes\" project page (Ordinance 6819)",
+    "effective": "2026-03-17",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "2026"
+    ],
+    "notes": "Timeline on the page: first reading 2026-01-20 (9-0), second reading and adoption 2026-03-03, effective 2026-03-17. Loveland defines redevelopment differently from the state (more than 75% of floor area rebuilt, etc.). The ordinance PDF itself sits behind the engagement platform and was not opened."
+  },
+  {
+    "id": "greeley-code-24-802-not-visible",
+    "layer": "ordinance",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley's development code allows artificial turf as ground cover only in areas not visible from public rights-of-way and streets.",
+    "quote": "Artificial turf is only acceptable as ground cover for areas not visible from public rights-of-way and streets, and may be subject to other engineering specifications subject to grading or drainage plans.",
+    "source_url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH8LAST_S24-802LADE",
+    "source_label": "Greeley Municipal Code Sec. 24-802 (Ord. No. 36, 2021; codified through Ord. No. 16, 2026)",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-14",
+    "numbers": [],
+    "notes": "Municode job 493697 (2026-04-21) is still the latest codification on 2026-09-24. Chapter 8 applies to new development (24-801). The 24-1301 definitions say artificial turf is not \"lawn\" or \"turf-grass\". Pending change: see greeley-initiative-11-2023-pending."
+  },
+  {
+    "id": "greeley-front-yard-ban-city-summary",
+    "layer": "ordinance",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley city staff describe the current rule plainly: artificial turf is prohibited in the front yards of houses.",
+    "quote": "EXISTING • Artificial turf is prohibited in front yards of houses",
+    "source_url": "https://greeleyco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=9205,plainText=false)",
+    "source_label": "Greeley Planning Commission agenda packet, July 14, 2026 — slide \"Artificial Turf (Council Initiative)\"",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-14",
+    "numbers": []
+  },
+  {
+    "id": "greeley-initiative-11-2023-pending",
+    "layer": "ordinance",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley is drafting a code change that would allow front-yard artificial turf on houses with a permit, a licensed or certified installer and continued tree and live-planting requirements, but as of September 24, 2026 no ordinance had been adopted.",
+    "quote": "PROPOSED • Landscape Code Update to allow artificial turf in the front yard of houses • Artificial turf in the front yard would require a permit • Trees and live plantings would still be required • Licensed/certified installer required … 11-2023 Clark/Butler Artificial turf and landscape standards … Come back to Council with a draft ordinance",
+    "source_url": "https://greeleyco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=9580,plainText=false)",
+    "source_label": "Greeley City Council work session packet, Sept. 22, 2026 — Status Report of Council Initiatives (11-2023); proposal text from the July 14, 2026 Planning Commission packet (fileId 9205)",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-14",
+    "numbers": [
+      "24",
+      "2026"
+    ],
+    "notes": "Checked 2026-09-24 via the CivicClerk API: Sept 22 status report still reads \"Come back to Council with a draft ordinance\"; Planning Commission meetings of Aug 25 and Sept 22 were cancelled; the Oct 13, 2026 Planning Commission (event 3467) and Oct 13 Council work session agendas had no published files yet. July 28, 2026 work session: staff recommended the permit path; Council supportive with standards. Re-check the Oct 13 PC agenda, then Council first/second readings."
+  },
+  {
+    "id": "platteville-code-7-1-30-turf-nuisance",
+    "layer": "ordinance",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "In Platteville, artificial turf that was not installed professionally to the manufacturer's specifications, such as loose seams, unfastened edges, no aggregate base or waves, is a public nuisance.",
+    "quote": "(s) Permitting or maintaining artificial turf that has not been installed in a professional manner in compliance with specifications of the manufacturer, including without limitation turf seams that are not tight fitting, turf that is not fastened at the edges, turf that is not laid over an aggregate base, or turf is not laid flat and has waves or turf that is falling apart or is not uniform in color.",
+    "source_url": "https://library.municode.com/co/platteville/codes/code_of_ordinances?nodeId=CH7HESAAN_ARTINU_S7-1-30ENNU",
+    "source_label": "Platteville Code of Ordinances Sec. 7-1-30(s) (codified through Ord. No. 2025-851, Dec. 16, 2025)",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [],
+    "notes": "Section record: Platteville is folded into the Greeley page (territory.mjs sections). Name Platteville in any copy that uses it — this is not a Greeley rule. Platteville Sec. 16-3-90(c)(12) (nonfunctional artificial turf prohibited \"except that nonfunctional turf shall be permitted for single-family and two-family dwellings\") is ambiguous for artificial turf on single-family lots — not recorded as a fact."
+  },
+  {
+    "id": "timnath-luc-5.7-case-by-case",
+    "layer": "ordinance",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Timnath's land use code, as codified in 2025, allows artificial turf that looks like live grass in street landscaping and park play areas only case by case, with Community Development Director approval.",
+    "quote": "Artificial turf similar in appearance to live turf grass may be allowed on a case-by-case basis with review and approval by the Community Development Director (see Section 5.7.8.1 F. below).",
+    "source_url": "https://library.municode.com/co/timnath/codes/municipal_code?nodeId=CD_APXALAUSCO_ART5DEST_S5.7STDE",
+    "source_label": "Timnath Land Use Code Sec. 5.7.8.1(B) (Municode, codified through the Land Use Code effective May 12, 2025)",
+    "effective": "2025-05-12",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "UNVERIFIED",
+    "recheck": "2026-10-24",
+    "numbers": [
+      "2025"
+    ],
+    "notes": "UNVERIFIED because it may be superseded: Timnath adopted Land Use Code V22 on 2026-03-03 (timnath.org/wp-content/uploads/2026/03/V22-FINAL-ADOPTED-3-3-2026.pdf), which returns a Cloudflare 403 to curl and WebFetch; Wayback was offline on 2026-09-24. Municode has not codified V22. Confirm with Timnath Planning (or a browser) before any Timnath page states a turf rule."
+  },
+  {
+    "id": "johnstown-code-13-151-new-lawn-permit",
+    "layer": "ordinance",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Johnstown's municipal code lets newly planted grass be watered only under a permit issued by the Town.",
+    "quote": "Town of Johnstown Municipal Code Sec 13-151.(c)(6) Watering of newly planted grass shall only occur subject to a permit issued by the Town.",
+    "source_url": "https://www.johnstownco.gov/689/New-Lawn-Permit",
+    "source_label": "Town of Johnstown, New Lawn Permit page (quoting Municipal Code Sec. 13-151(c)(6))",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-16",
+    "numbers": [],
+    "notes": "The permit page also says no turf establishment may occur after October 15 regardless of permit. This is a live-lawn rule; it says nothing about artificial turf."
+  },
+  {
+    "id": "johnstown-code-artificial-turf-unsearched",
+    "layer": "ordinance",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Johnstown's online municipal code could not be searched for an artificial-turf provision on September 24, 2026.",
+    "quote": "ecode360.com/JO6992 — HTTP 403 (Cloudflare) to curl and WebFetch, 2026-09-24.",
+    "source_url": "https://ecode360.com/JO6992",
+    "source_label": "Town of Johnstown Municipal Code (ecode360), linked from johnstownco.gov",
+    "checked": "2026-09-24",
+    "reachable": false,
+    "status": "UNVERIFIED",
+    "numbers": [
+      "24",
+      "2026",
+      "2026-09-24",
+      "403"
+    ],
+    "notes": "Not a NOT FOUND — the code was never read. Johnstown is not on Municode. A person needs to search the code in a browser (or ask Johnstown Planning) for \"artificial turf\", \"synthetic\" and \"nonfunctional\"."
+  },
+  {
+    "id": "berthoud-code-no-turf-provision",
+    "layer": "ordinance",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "No artificial-turf provision was found in the Berthoud municipal code (searched September 24, 2026).",
+    "quote": "Municode full-text search of the Berthoud Code of Ordinances (codified through Ord. No. 1367, Nov. 10, 2025): \"artificial turf\" — no provision (1 unrelated hit in 30-1-121 definitions); \"synthetic\" — 0 hits; \"nonfunctional\" — 0 hits.",
+    "source_url": "https://library.municode.com/co/berthoud/codes/code_of_ordinances",
+    "source_label": "Berthoud Code of Ordinances on Municode (codified through Ord. No. 1367, Nov. 10, 2025)",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "24",
+      "2026",
+      "10",
+      "2025",
+      "1",
+      "0"
+    ],
+    "notes": "Honest NOT FOUND. Ordinances adopted after Nov 10, 2025 (for example an SB24-005 implementation) would not be codified yet. Per programmatic.md, a town without an ordinance gets no ordinance section on its page."
+  },
+  {
+    "id": "firestone-fdc-16.6.4-turf-cap",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone limits artificial turf on single-family lots to 75% of the rear or side yard and requires at least 25% of the yard to stay permeable living or organic landscape.",
+    "quote": "For single-family dwellings, artificial turf shall be limited to a maximum of seventy-five (75) percent of the rear or side yard area. … The maximum area of artificial turf shall consider other impervious surfaces such as patios and walkways to ensure a minimum of twenty-five (25) percent of the yard area remains a permeable surface with living and organic landscape material.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+    "source_label": "Firestone Development Code 16.6.4.F.2.b (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "75",
+      "25"
+    ],
+    "notes": "CORRECTED per layers digest: 16.6.4.E.4.b also requires 50% of the combined side and rear yards to be live plant material, and F.2.g says turf cannot count toward live-plant requirements — so in practice the cap may be about 50% of combined side and rear yard (see firestone-fdc-16.6.4-live-plant-limit). Applies to existing single-family lots too (16.6.1.B)."
+  },
+  {
+    "id": "firestone-fdc-16.6.4-live-plant-limit",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone requires 75% of a single-family front yard and 50% of the combined side and rear yards to be live plants, and artificial turf cannot count toward either.",
+    "quote": "There shall be a minimum of seventy-five (75) percent of the gross front yard area, excluding driveways, landscaped with live plant materials. b. Install landscaping within the side and rear yard such that fifty (50) percent of the combined (side and rear) yards is landscaped with live plant material. … Artificial turf or other artificial materials shall not be used as a means of complying with the live plant material landscaping regulations of this section.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+    "source_label": "Firestone Development Code 16.6.4.E.4.a–b and 16.6.4.F.2.g (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "75",
+      "50"
+    ]
+  },
+  {
+    "id": "firestone-fdc-16.6.4-turf-specs",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone's turf standard requires a pile height of 1.75 to 3 inches, a face weight of at least 70 ounces, a compacted porous aggregate base at least 3 inches deep, taped or glued seams, and non-toxic infill with no crumb rubber.",
+    "quote": "Blade pile height shall be between one and three-quarters (1.75) inches and three (3) inches. iii. Pile face weight shall be at least seventy (70) ounces. … Artificial turf shall be installed over a compacted and porous aggregate base material that is a minimum of three (3) inches deep … Artificial turf seams shall be taped or glued and not sewn. … Crumb rubber filler shall be prohibited.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+    "source_label": "Firestone Development Code 16.6.4.F.2.d–f (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "1.75",
+      "3",
+      "70"
+    ],
+    "notes": "Also in F.2: blades and backing of lead-free polyethylene, polypropylene, vegetable-based product or a blend (\"Nylon or other plastic shall be prohibited\"); no felt backing; perforations no more than 4 in by 6 in on center; at least an 8-year warranty; non-flammable; not over existing grass or compacted dirt; anchored at all edges and seams; silica or acrylic-coated sand infill. Never state that NoCo meets this spec without Brian's product sheets."
+  },
+  {
+    "id": "firestone-fdc-16.6.4-permit",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone requires a town permit before artificial turf is installed, with no permit fee for single-family homes.",
+    "quote": "Any person seeking to install artificial turf must first apply for and obtain a permit from the Town. All permit applications shall be submitted on a form supplied by the Town, and for single-family dwellings no fee shall be required to issue a permit under this section.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+    "source_label": "Firestone Development Code 16.6.4.F.2.h (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [],
+    "notes": "Applicability (16.6.1.B): individual single-family lots existing before the FDC are still subject to 16.6.4."
+  },
+  {
+    "id": "mead-code-no-turf-provision",
+    "layer": "ordinance",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "No artificial-turf provision was found in the Mead municipal code (searched September 24, 2026).",
+    "quote": "Municode full-text search of the Mead Municipal Code (codified through Ord. No. 1075, April 14, 2025): \"artificial turf\" — no provision (10 hits for \"artificial\", none about turf); \"synthetic\" — 0 hits; \"nonfunctional\" — 0 hits.",
+    "source_url": "https://library.municode.com/co/mead/codes/municipal_code",
+    "source_label": "Mead Municipal Code on Municode (codified through Ord. No. 1075, April 14, 2025)",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "24",
+      "2026",
+      "14",
+      "2025",
+      "10",
+      "0"
+    ],
+    "notes": "Honest NOT FOUND, but the codification is 17 months old: an SB24-005 ordinance adopted since April 2025 would not show. townofmead.org is behind Cloudflare, so its ordinance list could not be checked."
+  },
+  {
+    "id": "frederick-luc-2.14-front-yard-plants",
+    "layer": "ordinance",
+    "applies_to": [
+      "frederick-co"
+    ],
+    "fact": "Frederick's updated landscaping code, effective November 16, 2024, dropped the old front-yard turfgrass requirement and now requires landscaped areas in front yards to be 50% living plants, without forcing existing owners to change.",
+    "quote": "An update to Town of Frederick Land Use Code Section 2.14 became effective on November 16, 2024. … Existing Frederick property owners will not be required to change their landscaping to comply with the new code. … The update to Land Use Code Section 2.14 requires landscaped areas in front yards to be covered with 50% living plant material.",
+    "source_url": "https://www.frederickco.gov/1113/Landscaping-Resources",
+    "source_label": "Town of Frederick, Landscaping Resources page",
+    "effective": "2024-11-16",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "16",
+      "2024",
+      "50"
+    ]
+  },
+  {
+    "id": "frederick-luc-2.14.2.1b-turf-prohibited",
+    "layer": "ordinance",
+    "applies_to": [
+      "frederick-co"
+    ],
+    "fact": "Frederick's 2024 landscape code draft prohibits artificial turf in landscaped areas, with a Director exception only for private nonresidential property.",
+    "quote": "b. Artificial turf. Artificial turf is prohibited in landscaped areas. The Director may approve the use of artificial turf on private nonresidential property if it is demonstrated that natural turf or alternative groundcover is not a viable alternative due to the nature or intensity of use of the area proposed to be covered by artificial turf.",
+    "source_url": "https://www.frederickco.gov/AgendaCenter/ViewFile/Agenda/_09102024-1313?packet=true",
+    "source_label": "Frederick Board of Trustees packet, Sept. 10, 2024 — Ordinance No. 1396 (Landscape Code Adoption), draft Sec. 2.14.2.1.b",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "UNVERIFIED",
+    "recheck": "2026-10-24",
+    "numbers": [
+      "2024"
+    ],
+    "notes": "UNVERIFIED as adopted law: this is the draft in the adoption packet. The adopted text lives on ecode360/library.qcode.us (Cloudflare 403 to curl and WebFetch on 2026-09-24); codelibrary.amlegal.com 403; Board minutes URL 404; Wayback offline. Staff memo limits the nonresidential exception to \"Until January 1, 2026\". Applicability (draft 2.14.1.2): new development, redevelopment, substantial improvements; single-family landscaping must meet \"applicable requirements\"; renovated landscaping needing irrigation must comply. Ask Frederick Planning (720-382-5612 on the town page) for the adopted wording — the Frederick page ships reframed or not at all until then."
+  },
+  {
+    "id": "longmont-ldc-15.05.040-nonfunctional",
+    "layer": "ordinance",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Longmont's development code bans nonfunctional artificial turf in new development and redevelopment on multifamily, commercial, industrial, institutional and common-interest property and in rights-of-way, medians and transportation corridors, with no rule found for single-family lots.",
+    "quote": "Beginning January 1, 2026, all landscape plans for new development and redevelopment shall comply with Colorado Senate Bill 24-005 and Colorado House Bill 25-1113. Compliance includes the following: i. The installation of nonfunctional turf, nonfunctional artificial turf, and invasive plant species on multifamily residential, commercial, industrial, institutional, and common-interest community properties, as well as within public rights-of-way, medians, and transportation corridors, is prohibited.",
+    "source_url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.05DEST_S15.05.040LACOARST",
+    "source_label": "Longmont Land Development Code Sec. 15.05.040.C.4.a.i (codified through Ord. No. O-2026-39, June 23, 2026)",
+    "effective": "2026-01-01",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "1",
+      "2026"
+    ],
+    "notes": "Municode search: \"artificial turf\" 2 hits (this section and the 15.10.020 definition), \"synthetic turf\" 1. \"No rule found for single-family lots\" is an absence finding, not a city statement."
+  },
+  {
+    "id": "wellington-code-15-5-40-nonfunctional",
+    "layer": "ordinance",
+    "applies_to": [
+      "wellington-co"
+    ],
+    "fact": "Wellington does not permit nonfunctional artificial turf in new development or redevelopment, though turf installed before January 1, 2026 may be maintained.",
+    "quote": "Nonfunctional turf and nonfunctional artificial turf are not permitted for new development and redevelopment. Nonfunctional turf and nonfunctional artificial turf installed prior to January 1, 2026 may be maintained, pursuant to C.R.S. 37-99-103.",
+    "source_url": "https://library.municode.com/co/wellington/codes/municipal_code?nodeId=CH15LAUSCO_ART5DEST_S15-5-40LASC",
+    "source_label": "Wellington Municipal Code Sec. 15-5-40 (codified through Ord. No. 07-2026, July 14, 2026)",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "1",
+      "2026"
+    ],
+    "notes": "The section applies to development subject to site plan review or subdivision application; \"Building permit applications for individual single-family residences will not require landscape plans.\""
+  },
+  {
+    "id": "wellington-code-15-5-40-front-yard-75",
+    "layer": "ordinance",
+    "applies_to": [
+      "wellington-co"
+    ],
+    "fact": "Wellington requires new single-family subdivision lots to keep at least 75% live materials between the front of the house and the curb, excluding the driveway.",
+    "quote": "There shall be a minimum of seventy-five percent (75%) live materials between the front of the single-family residential structure and the curb, excluding paved driveway areas.",
+    "source_url": "https://library.municode.com/co/wellington/codes/municipal_code?nodeId=CH15LAUSCO_ART5DEST_S15-5-40LASC",
+    "source_label": "Wellington Municipal Code Sec. 15-5-40 (single-family residential landscape standards; codified through Ord. No. 07-2026)",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "75"
+    ],
+    "notes": "The Wellington Landscape and Irrigation Manual repeats the 75% front-yard rule; front-yard turf is a weak sale there, backyards are the honest pitch."
+  },
+  {
+    "id": "severance-code-no-turf-provision",
+    "layer": "ordinance",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "No provision regulating artificial turf on private lots was found in the Severance municipal code (searched September 24, 2026), which only defines landscape to exclude artificial turf in its tree standards.",
+    "quote": "\"Landscape\" does not include improving property with artificial trees, shrubs, turf or other artificial plants.",
+    "source_url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH7HESAAN_ART5TRST_S7-5-10DE",
+    "source_label": "Severance Municipal Code Sec. 7-5-10 (definitions; codified through Ord. No. 2025-27, Dec. 9, 2025)",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "24",
+      "2026"
+    ],
+    "notes": "Municode search: \"artificial\" 2 hits (this definition and an unrelated flood definition), \"nonfunctional\" 0 hits — no SB24-005 ordinance codified as of Dec 9, 2025."
+  },
+  {
+    "id": "evans-code-18.08.020-common-areas",
+    "layer": "ordinance",
+    "applies_to": [
+      "evans-co"
+    ],
+    "fact": "Evans' landscape design code says artificial turf is not acceptable for public or common areas.",
+    "quote": "Artificial turf is not acceptable for public or common areas.",
+    "source_url": "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.08LADE_18.08.020LADE",
+    "source_label": "Evans Municipal Code Sec. 18.08.020 (codified through Ord. No. 855-26, Jan. 6, 2026)",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [],
+    "notes": "No single-family turf rule found; \"nonfunctional\" returned 0 hits."
+  },
+  {
+    "id": "eaton-code-7-13-2-nonfunctional",
+    "layer": "ordinance",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Since January 1, 2026, Eaton bars nonfunctional artificial turf in new development and redevelopment on rights-of-way, commercial, institutional and industrial property, HOA common property and multifamily properties with more than 12 units.",
+    "quote": "Commencing on and after January 1, 2026, no person shall install, plant or place as part of a new development or redevelopment project, nonfunctional turf, nonfunctional artificial turf or invasive plant species within: (1) A street right-of-way, parking lot, median, or transportation corridor; (2) Commercial, institutional and industrial property; (3) Common interest community property; or (4) Multifamily residential housing premises property with more than twelve (12) dwelling units.",
+    "source_url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIIPLZORE_SXIIINOTUNOARTUINPLSP_S7-13-2PR",
+    "source_label": "Eaton Municipal Code Sec. 7-13-2 (Ord. 668, 2025; codified through Nov. 20, 2025)",
+    "effective": "2026-01-01",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "1",
+      "2026",
+      "12"
+    ],
+    "notes": "Mirrors state law; nothing here applies to single-family homes."
+  },
+  {
+    "id": "milliken-code-16-3-303-nonfunctional",
+    "layer": "ordinance",
+    "applies_to": [
+      "milliken-co"
+    ],
+    "fact": "Milliken bars nonfunctional artificial turf in new development and redevelopment on commercial, institutional, industrial, HOA common and right-of-way property, and exempts existing detached homes and duplexes from its landscape standards.",
+    "quote": "commencing on and after January 1, 2026, no person shall install, plant or place any nonfunctional turf, nonfunctional artificial turf, or invasive plant species as part of a new development project or redevelopment project … (c) Existing detached single unit dwellings and two-family dwellings shall be exempt from the standards in this Division 3",
+    "source_url": "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIIGESTAPALDI_DIV3LABUFEWAST_S16-3-303NOTUNOARTUINPLTRSHGRSP",
+    "source_label": "Milliken Municipal Code Secs. 16-3-303 (Ord. 831, 2025-12-22) and 16-3-305(c) (codified through Ord. No. 838, March 25, 2026)",
+    "effective": "2026-01-01",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "1",
+      "2026",
+      "3"
+    ],
+    "notes": "The 16-3-305(c) exemption keeps the prohibited-plant, maintenance and fence rules in force for existing homes. 16-3-303 also covers multifamily properties with more than 12 units."
+  },
+  {
+    "id": "dacono-code-16-657g-not-landscaping",
+    "layer": "ordinance",
+    "applies_to": [
+      "dacono-co"
+    ],
+    "fact": "Dacono's code says artificial plants and synthetic turf cannot be used to meet its landscaping requirements.",
+    "quote": "(g) Artificial plants and synthetic turfs may not be used to meet the requirements of this Article.",
+    "source_url": "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH16ZO_ART28LADEST_S16-657LAMARE",
+    "source_label": "Dacono Municipal Code Sec. 16-657(g) (Ord. No. 787, 2014; codified through Ord. No. 1011, March 9, 2026)",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [],
+    "notes": "Not an outright ban: turf simply cannot count toward required landscaping."
+  },
+  {
+    "id": "weld-county-code-no-turf-provision",
+    "layer": "county",
+    "applies_to": [
+      "windsor-co",
+      "greeley-co",
+      "johnstown-co",
+      "berthoud-co",
+      "firestone-co",
+      "mead-co",
+      "frederick-co",
+      "longmont-co",
+      "severance-co",
+      "evans-co",
+      "eaton-co",
+      "milliken-co",
+      "dacono-co"
+    ],
+    "fact": "No artificial-turf provision was found in the Weld County code, which governs unincorporated Weld County (searched September 24, 2026).",
+    "quote": "Municode full-text search of the Weld County Charter and County Code (codified through June 8, 2026): \"artificial turf\", \"synthetic turf\" and \"nonfunctional\" — no provision about turf (hits only for \"artificial waterway\", \"synthetic fertilizer\" and septic components).",
+    "source_url": "https://library.municode.com/co/weld_county/codes/charter_and_county_code",
+    "source_label": "Weld County Charter and County Code on Municode (codified through June 8, 2026)",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "24",
+      "2026",
+      "8"
+    ],
+    "notes": "Only relevant to addresses outside town limits. Inside a town, the town code governs."
+  }
+]

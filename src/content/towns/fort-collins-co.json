@@ -1,0 +1,189 @@
+{
+  "status": "draft",
+  "slug": "fort-collins-co",
+  "name": "Fort Collins",
+  "region": "poudre",
+  "title": "Artificial Turf in Fort Collins, CO — Existing Lots | NoCo Turf Co.",
+  "description": "Fort Collins bars artificial turf from development landscape plans, but existing single- and two-unit lots are exempt. XIP rebates need 50% plant cover.",
+  "h1": "Fort Collins bans turf in development plans, not on your existing lot",
+  "lede": "In Fort Collins, start with the rules: the city rewrote its landscape standards in 2025, and artificial turf is one of the things it changed. For a house that already stands, the answer sits in a single clause.",
+  "answer": {
+    "question": "Can I install artificial turf at my house in Fort Collins?",
+    "answer": "Yes, on an existing single- or two-unit lot. NoCo Turf Co. installs artificial turf in Fort Collins, Colorado, where Land Use Code 5.10.1 bars turf from development landscape plans but exempts development on existing lots for single- and two-unit homes. New subdivisions and commercial projects are where the ban applies."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "The Land Use Code",
+      "h2": "Section 5.10.1 bans turf in landscape plans and exempts existing house lots.",
+      "takeaway": "Retrofitting the yard of a house you already own is outside the ban.",
+      "paras": [
+        "Ordinance No. 008, 2025, took effect on February 14, 2025. Its Section 5.10.1 says no artificial turf or artificial plants may be included in any landscape plan or installed, and the Director may make an exception only for an athletic field of play.",
+        "The same section's applicability clause leaves out development on existing lots for single- and two-unit detached dwellings and accessory dwelling units. That clause is what lets a homeowner replace an existing backyard lawn with turf, and it is why the ban lands on new subdivisions, multifamily and commercial landscape plans instead.",
+        "When Council reviewed the standards in January 2023, it did not support synthetic turf, citing the potential for PFAS to leach into waterways. An October 2023 draft capped high-water live turfgrass in single-unit front yards; that cap was about live grass, not artificial turf, and the adopted ordinance instead limits high-water turfgrass to recreation, civic and community areas in the developments it covers."
+      ],
+      "layerRefs": ["fc-luc-5.10.1"],
+      "sources": [
+        "https://mccmeetingspublic.blob.core.usgovcloudapi.net/fortcollco-meet-0538ebaac95447ff8c4f53ebc4c0adf8/ITEM-Attachment-004-785f079234b4438a8e8675d01d6f3bd4.pdf",
+        "https://ourcity.fcgov.com/xsa"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Covenants",
+      "h2": "The city's xeriscape protection stops short of turf, so state law does the work.",
+      "paras": [
+        "Fort Collins City Code bars covenants that limit xeriscape landscaping, but Section 12-120 defines xeriscape to exclude artificial turf or plants. A Fort Collins HOA can't enforce a covenant that prohibits or limits xeriscape or that requires part of a lot to be turf grass, but a homeowner can't use that section to insist on artificial turf.",
+        "Colorado law covers the gap for detached homes: an HOA's landscaping rules may not prohibit artificial turf in a backyard, though the HOA can still set design and aesthetic guidelines. For a townhome that shares a wall, the HOA may restrict turf to the rear yard.",
+        "Since January 1, 2026, Colorado also bars anyone from installing artificial turf with intentionally added PFAS chemicals, the concern Council raised in 2023."
+      ],
+      "layerRefs": ["fc-code-12-120-xeriscape-excludes-turf", "co-hoa-backyard-detached", "co-hoa-attached-rear-yard", "co-sb24-081-pfas-turf"],
+      "sources": [
+        "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH12HEEN_ARTVIIRECO_DIV1GE_S12-120DE",
+        "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH12HEEN_ARTVIIRECO_DIV1GE_S12-122PRCO",
+        "https://leg.colorado.gov/bill_files/92307/download",
+        "https://leg.colorado.gov/bills/sb24-081"
+      ]
+    },
+    {
+      "kind": "utility",
+      "own": true,
+      "kicker": "Who bills your water",
+      "h2": "Four water providers serve Fort Collins, and Harmony Road is one of the lines.",
+      "paras": [
+        "Fort Collins Utilities serves most of the city and charges a single-family home a $23.10 monthly base plus $3.574 per 1,000 gallons for the first 7,000 gallons, $4.109 up to 13,000 and $4.726 above that in 2026.",
+        "In its area, which starts south of Harmony Road, Fort Collins-Loveland Water District bills most of its homes a $25.54 base plus $2.99 per 1,000 gallons up to 5,000, climbing by tier to $6.83 above 50,000. Taps that fall under the City of Fort Collins IGA, which may include Fossil Lake, Linden Park, Sage Creek, Harvest Park and Westchase, pay $5.04 to $11.50 across the same tiers.",
+        "North and east of the city, East Larimer County Water District doesn't publish its per-gallon residential rates; it adds a conservation charge of $5.61 per 1,000 gallons once a home passes an annual allotment set by lot size. North Weld County Water District also reaches some eastern neighborhoods."
+      ],
+      "layerRefs": ["fcu-residential-rates-2026", "fclwd-service-area", "fclwd-rates-2026-non-city-iga", "fclwd-rates-2026-city-iga", "elco-service-area", "elco-rates-not-published", "nwcwd-service-area"],
+      "sources": [
+        "https://www.fortcollins.gov/Services/Utilities/Pay-My-Bill/Rates",
+        "https://fclwd.com/who-we-are/",
+        "https://fclwd.com/wp-content/uploads/2026/01/Back-of-Water-Bill-2026.pdf",
+        "https://www.elcowater.org/about",
+        "https://www.elcowater.org/rate-information",
+        "https://www.nwcwd.org/service-area"
+      ]
+    },
+    {
+      "kind": "rebate",
+      "own": true,
+      "kicker": "XIP",
+      "h2": "The Xeriscape Incentive Program pays for plant coverage, so turf alone is unlikely to qualify.",
+      "paras": [
+        "Fort Collins Utilities pays homeowners $0.75 per square foot, up to 1,000 square feet or $750, for renovations that reach 50% plant coverage at maturity. The program page names no artificial-turf rule either way, and Resource Central's lawn-replacement program, also offered through Fort Collins Utilities, requires the replaced area to be at least half waterwise plants.",
+        "If a yard mixes the two, ask Utilities how it will draw the renovation area before you commit to a layout."
+      ],
+      "layerRefs": ["fcu-xip-2026", "resource-central-lawn-2026"],
+      "sources": [
+        "https://www.fortcollins.gov/Services/Utilities/Programs-and-Rebates/Water-Programs/XIP",
+        "https://resourcecentral.org/lawn/"
+      ]
+    },
+    {
+      "kind": "drought",
+      "own": true,
+      "kicker": "Watering in 2026",
+      "h2": "Fort Collins asked for two-day lawn watering from May 1.",
+      "paras": [
+        "The city declared a voluntary Water Shortage Watch effective May 1, 2026, asking residents to water lawns no more than 2 days a week and not between 10 a.m. and 6 p.m. Fort Collins-Loveland Water District followed the city's plan and says its 2026 outdoor watering season has ended, and ELCO issued voluntary recommendations of its own."
+      ],
+      "layerRefs": ["fcu-water-shortage-watch-2026", "fclwd-watch-2026", "elco-voluntary-2026"],
+      "sources": [
+        "https://www.fortcollins.gov/News-Articles/News/2026-Q2/Voluntary-Water-Shortage-Watch",
+        "https://fclwd.com/watering-restrictions/",
+        "https://www.elcowater.org/voluntary-watering-restrictions-and-recommendations"
+      ]
+    },
+    {
+      "kind": "soil",
+      "own": false,
+      "kicker": "Clay and snow",
+      "h2": "Nunn clay loam and 51.4 inches of snow are the Fort Collins base-prep problem.",
+      "paras": [
+        "Soil surveys around central Fort Collins map mostly Fort Collins loam and Nunn clay loam, with high shrink-swell Nunn clay loam covering about 17% of the area sampled. The Colorado Geological Survey calls expansive soil the state's most significant geologic hazard, with clays that can swell up to 20% by volume when wet.",
+        "The city's NOAA station averages 51.4 inches of snow and 150 nights at or below freezing a year, against 29.5 days at or above 90°F (1991–2020 normals). The largest hail NOAA logged at its Fort Collins reference point from 2011 through 2025 was 1.75 inches, on June 19, 2018."
+      ],
+      "layerRefs": ["nrcs-soil-fort-collins", "cgs-expansive-soil", "noaa-normals-fort-collins", "noaa-hail-max-fort-collins"],
+      "sources": [
+        "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+        "https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/",
+        "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053005&format=json",
+        "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Laporte",
+      "paras": [
+        "Laporte, up the Poudre from the city, is unincorporated, so the Fort Collins Land Use Code does not govern it; Larimer County does. No county artificial-turf rule was read for this page, so check with Larimer County before planning a large install.",
+        "It is acreage country. The 2020 Census counted 2,409 people in Laporte, the median parcel is about 14,491 square feet, and about 40.8% of parcels are half an acre or more. Laporte was the Larimer County seat from 1861.",
+        "The county's 2017 provider list put Laporte on West Fort Collins Water District; confirm your own provider on your bill."
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Laporte,_Colorado",
+        "https://www2.census.gov/programs-surveys/decennial/2020/data/01-Redistricting_File--PL_94-171/Colorado/co2020.pl.zip",
+        "https://maps1.larimer.org/arcgis/rest/services/MapServices/Parcels/MapServer",
+        "https://www.larimer.org/sites/default/files/uploads/2017/utilityserviceproviders_0.pdf"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does the Fort Collins turf ban apply to my backyard?",
+      "a": "Not if the house already stands on its own lot. Section 5.10.1 exempts development on existing lots for single- and two-unit detached dwellings and accessory dwelling units; it governs landscape plans for new development."
+    },
+    {
+      "q": "Will Fort Collins Utilities give me an XIP rebate for turf?",
+      "a": "Not for turf alone. XIP pays $0.75 per square foot, up to $750, for renovations that reach 50% plant coverage at maturity, and its page names no artificial-turf rule either way."
+    },
+    {
+      "q": "My Fort Collins HOA says no turf. Can it?",
+      "a": "Not in the backyard of a detached home. Colorado law bars HOA rules that prohibit backyard artificial turf while letting the HOA set design guidelines. The city's own covenant protection covers xeriscape, which Fort Collins defines to exclude turf."
+    },
+    {
+      "q": "Do the Fort Collins rules apply in Laporte?",
+      "a": "No. Laporte is unincorporated, so Larimer County governs land use there, not the Fort Collins Land Use Code."
+    }
+  ],
+  "nearby": ["wellington-co", "timnath-co", "windsor-co", "loveland-co"],
+  "sources": [
+    { "label": "Fort Collins Land Use Code 5.10.1(A) and (D)(2)(d), Ordinance No. 008, 2025 (effective Feb. 14, 2025)", "url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/fortcollco-meet-0538ebaac95447ff8c4f53ebc4c0adf8/ITEM-Attachment-004-785f079234b4438a8e8675d01d6f3bd4.pdf", "checked": "2026-09-24" },
+    { "label": "City of Fort Collins, Our City: xeriscape and sustainable landscape standards (Council feedback Jan. 10, 2023; October 2023 draft)", "url": "https://ourcity.fcgov.com/xsa", "checked": "2026-09-24" },
+    { "label": "Fort Collins City Code Sec. 12-120 (codified through Ord. No. 078, 2026, July 21, 2026)", "url": "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH12HEEN_ARTVIIRECO_DIV1GE_S12-120DE", "checked": "2026-09-24" },
+    { "label": "Fort Collins City Code Sec. 12-122, Promotion of conservation (Ord. No. 83, 2003; codified through Ord. No. 078, 2026)", "url": "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH12HEEN_ARTVIIRECO_DIV1GE_S12-122PRCO", "checked": "2026-09-24" },
+    { "label": "C.R.S. 38-33.3-106.5(1)(i) and (1)(i.5), SB23-178 (signed act)", "url": "https://leg.colorado.gov/bill_files/92307/download", "checked": "2026-09-24" },
+    { "label": "SB24-081 bill summary (as enacted), Colorado General Assembly", "url": "https://leg.colorado.gov/bills/sb24-081", "checked": "2026-09-24" },
+    { "label": "Fort Collins Utilities, Rates page (single-family water, 2026)", "url": "https://www.fortcollins.gov/Services/Utilities/Pay-My-Bill/Rates", "checked": "2026-09-24" },
+    { "label": "Fort Collins-Loveland Water District, Who We Are", "url": "https://fclwd.com/who-we-are/", "checked": "2026-09-24" },
+    { "label": "Fort Collins-Loveland Water District, Back of Water Bill 2026 (rates)", "url": "https://fclwd.com/wp-content/uploads/2026/01/Back-of-Water-Bill-2026.pdf", "checked": "2026-09-24" },
+    { "label": "ELCO Water District, About", "url": "https://www.elcowater.org/about", "checked": "2026-09-24" },
+    { "label": "ELCO Water District, Rate Information", "url": "https://www.elcowater.org/rate-information", "checked": "2026-09-24" },
+    { "label": "North Weld County Water District, Service Area", "url": "https://www.nwcwd.org/service-area", "checked": "2026-09-24" },
+    { "label": "Fort Collins Utilities, Xeriscape Incentive Program (XIP)", "url": "https://www.fortcollins.gov/Services/Utilities/Programs-and-Rebates/Water-Programs/XIP", "checked": "2026-09-24" },
+    { "label": "Resource Central, Lawn Replacement program page", "url": "https://resourcecentral.org/lawn/", "checked": "2026-09-24" },
+    { "label": "City of Fort Collins news release, April 30, 2026: Voluntary Water Shortage Watch", "url": "https://www.fortcollins.gov/News-Articles/News/2026-Q2/Voluntary-Water-Shortage-Watch", "checked": "2026-09-24" },
+    { "label": "Fort Collins-Loveland Water District, Watering Restrictions", "url": "https://fclwd.com/watering-restrictions/", "checked": "2026-09-24" },
+    { "label": "ELCO Water District, Voluntary Watering Restrictions and Recommendations", "url": "https://www.elcowater.org/voluntary-watering-restrictions-and-recommendations", "checked": "2026-09-24" },
+    { "label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Fort Collins", "url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest", "checked": "2026-09-24" },
+    { "label": "Colorado Geological Survey, Expansive Soil & Rock", "url": "https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/", "checked": "2026-09-24" },
+    { "label": "NOAA NCEI U.S. Climate Normals 1991–2020, station FT COLLINS (USC00053005)", "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053005&format=json", "checked": "2026-09-24" },
+    { "label": "NOAA NCEI Storm Events Database, hail reports at the Fort Collins reference point, 2011–2025", "url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/", "checked": "2026-09-24" },
+    { "label": "Wikipedia, Laporte, Colorado (unincorporated; Larimer County seat from 1861)", "url": "https://en.wikipedia.org/wiki/Laporte,_Colorado", "checked": "2026-09-24" },
+    { "label": "U.S. Census Bureau, 2020 Census redistricting file (Laporte CDP: 2,409)", "url": "https://www2.census.gov/programs-surveys/decennial/2020/data/01-Redistricting_File--PL_94-171/Colorado/co2020.pl.zip", "checked": "2026-09-24" },
+    { "label": "Larimer County parcel GIS: Laporte parcels (median about 14,491 sq ft; 40.8% half an acre or more)", "url": "https://maps1.larimer.org/arcgis/rest/services/MapServices/Parcels/MapServer", "checked": "2026-09-24" },
+    { "label": "Larimer County, utility service providers list (2017)", "url": "https://www.larimer.org/sites/default/files/uploads/2017/utilityserviceproviders_0.pdf", "checked": "2026-09-24" }
+  ],
+  "checked": "2026-09-24",
+  "needsFromBrian": [
+    "Named or described Fort Collins jobs since February 14, 2025 on existing single- or two-unit lots (neighborhood, month, rough size, use)",
+    "Whether you have been asked to install turf in a new-development landscape plan or an HOA common area in Fort Collins, and what happened",
+    "Camera-original photos of at least one Fort Collins job, before and after",
+    "Google reviews from Fort Collins or Laporte customers that name the town, with consent to quote first name and last initial",
+    "Any Laporte or north Fort Collins acreage jobs, and whether Larimer County asked for anything",
+    "PFAS documentation for each turf product NoCo installs today: this page cites Council's 2023 PFAS concern and Colorado's 2026 ban on turf with intentionally added PFAS, so buyers will ask (claims.json: the PFAS-free claim)"
+  ]
+}

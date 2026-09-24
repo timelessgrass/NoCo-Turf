@@ -1,0 +1,993 @@
+[
+  {
+    "id": "fcu-residential-rates-2026",
+    "layer": "utility",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "provider": "Fort Collins Utilities",
+    "fact": "Fort Collins Utilities charges single-family homes a $23.10 monthly base plus $3.574 per 1,000 gallons for the first 7,000 gallons, $4.109 up to 13,000 and $4.726 above that in 2026.",
+    "quote": "The 2026 rates are listed below. … Base Charge $23.10 · Tier 1 $3.574 for the first 7,000 gallons · Tier 2 $4.109 for 7,001-13,000 gallons · Tier 3 $4.726 for more than 13,000 gallons",
+    "source_url": "https://www.fortcollins.gov/Services/Utilities/Pay-My-Bill/Rates",
+    "source_label": "Fort Collins Utilities, Rates page (single-family water)",
+    "checked": "2026-09-24",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2027-01-05",
+    "numbers": [
+      "23.10",
+      "3.574",
+      "1000",
+      "7000",
+      "4.109",
+      "13000",
+      "4.726",
+      "2026",
+      "7001",
+      "1",
+      "2",
+      "3"
+    ],
+    "rates": {
+      "effective": "2026-01-01",
+      "unit": "per 1,000 gal",
+      "base_monthly": 23.1,
+      "model": "tiered",
+      "tiers": [
+        {
+          "label": "Tier 1",
+          "price": 3.574,
+          "up_to_gal": 7000
+        },
+        {
+          "label": "Tier 2",
+          "price": 4.109,
+          "up_to_gal": 13000
+        },
+        {
+          "label": "Tier 3",
+          "price": 4.726,
+          "up_to_gal": null
+        }
+      ]
+    },
+    "notes": "fortcollins.gov returns Akamai 403 to curl; read twice via WebFetch on 2026-09-24 (\"The 2026 rates are listed below.\"; the page also shows proposed 2027 rates). CORRECTED: earlier research marked the year unconfirmed — the page now labels these 2026 rates. Effective date assumed Jan 1 (INFERENCE from \"2026 rates\"). Duplex rates differ."
+  },
+  {
+    "id": "fclwd-service-area",
+    "layer": "utility",
+    "applies_to": [
+      "fort-collins-co",
+      "loveland-co",
+      "timnath-co",
+      "windsor-co"
+    ],
+    "provider": "Fort Collins-Loveland Water District",
+    "fact": "The Fort Collins-Loveland Water District serves more than 67,000 people across about 60 square miles in parts of Fort Collins, Loveland, Timnath, Windsor and Larimer County.",
+    "quote": "The District serves an area that encompasses approximately 60 square miles with boundaries that range from south of Harmony Rd. to 57th Street in Loveland, then east from the foothills to the Larimer-Weld County line. The 67,000 plus people we serve reside in parts of Fort Collins, Loveland, Timnath, Windsor and Larimer County.",
+    "source_url": "https://fclwd.com/who-we-are/",
+    "source_label": "Fort Collins-Loveland Water District, Who We Are",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "67000",
+      "60"
+    ],
+    "notes": "Which provider serves an address is decided by the bill, not the town name. FCLWD has an interactive system map."
+  },
+  {
+    "id": "fclwd-rates-2026-non-city-iga",
+    "layer": "utility",
+    "applies_to": [
+      "fort-collins-co",
+      "loveland-co",
+      "timnath-co",
+      "windsor-co"
+    ],
+    "provider": "Fort Collins-Loveland Water District",
+    "fact": "Most Fort Collins-Loveland Water District homes pay a $25.54 monthly base plus $2.99 per 1,000 gallons up to 5,000, $4.24 to 15,000, $5.69 to 50,000 and $6.83 above that in 2026.",
+    "quote": "Residential Rate 0 - 5,000 gallons 5,001 –15,000 gallons 15,001-50,000 gallons Over 50,000 gallons … Non-City IGA 2.99 4.24 5.69 6.83 … Base Fees 5/8” & 3/4\" 25.54",
+    "source_url": "https://fclwd.com/wp-content/uploads/2026/01/Back-of-Water-Bill-2026.pdf",
+    "source_label": "Fort Collins-Loveland Water District, Back of Water Bill 2026 (rates)",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-01-05",
+    "numbers": [
+      "25.54",
+      "2.99",
+      "1000",
+      "5000",
+      "4.24",
+      "15000",
+      "5.69",
+      "50000",
+      "6.83",
+      "2026",
+      "0",
+      "15001",
+      "5/8",
+      "3/4",
+      "5001"
+    ],
+    "rates": {
+      "effective": "2026-01-01",
+      "unit": "per 1,000 gal",
+      "base_monthly": 25.54,
+      "model": "tiered",
+      "tiers": [
+        {
+          "label": "Tier 1 (Non-City IGA)",
+          "price": 2.99,
+          "up_to_gal": 5000
+        },
+        {
+          "label": "Tier 2 (Non-City IGA)",
+          "price": 4.24,
+          "up_to_gal": 15000
+        },
+        {
+          "label": "Tier 3 (Non-City IGA)",
+          "price": 5.69,
+          "up_to_gal": 50000
+        },
+        {
+          "label": "Tier 4 (Non-City IGA)",
+          "price": 6.83,
+          "up_to_gal": null
+        }
+      ]
+    },
+    "notes": "Two rate sets depend on where the tap's raw water came from; this is the Non-City IGA set (\"All other customers\"). The effective date is INFERENCE from the 2026 bill insert (uploaded January 2026). Conservation-rate taps differ."
+  },
+  {
+    "id": "fclwd-rates-2026-city-iga",
+    "layer": "utility",
+    "applies_to": [
+      "fort-collins-co",
+      "loveland-co",
+      "timnath-co",
+      "windsor-co"
+    ],
+    "provider": "Fort Collins-Loveland Water District",
+    "fact": "Fort Collins-Loveland Water District homes whose taps fall under the City of Fort Collins IGA, which may include Willow Brook/Observatory Village, Fossil Lake, Linden Park, Sage Creek, Harvest Park and Westchase, pay $5.04, $7.15, $9.58 and $11.50 per 1,000 gallons across the same four tiers in 2026.",
+    "quote": "Areas that fall under the City IGA may include Willow Brook/Observatory Village, Fossil Lake, Linden Park, Sage Creek, Harvest Park and Westchase. … Under City IGA 5.04 7.15 9.58 11.50",
+    "source_url": "https://fclwd.com/wp-content/uploads/2026/01/Back-of-Water-Bill-2026.pdf",
+    "source_label": "Fort Collins-Loveland Water District, Back of Water Bill 2026 (rates)",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-01-05",
+    "numbers": [
+      "5.04",
+      "7.15",
+      "9.58",
+      "11.50",
+      "1000",
+      "2026"
+    ],
+    "rates": {
+      "effective": "2026-01-01",
+      "unit": "per 1,000 gal",
+      "base_monthly": 25.54,
+      "model": "tiered",
+      "tiers": [
+        {
+          "label": "Tier 1 (City IGA)",
+          "price": 5.04,
+          "up_to_gal": 5000
+        },
+        {
+          "label": "Tier 2 (City IGA)",
+          "price": 7.15,
+          "up_to_gal": 15000
+        },
+        {
+          "label": "Tier 3 (City IGA)",
+          "price": 9.58,
+          "up_to_gal": 50000
+        },
+        {
+          "label": "Tier 4 (City IGA)",
+          "price": 11.5,
+          "up_to_gal": null
+        }
+      ]
+    },
+    "notes": "Same $25.54 base for 5/8\" and 3/4\" meters. Subdivision names are the district's own \"may include\" list."
+  },
+  {
+    "id": "elco-service-area",
+    "layer": "utility",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "provider": "East Larimer County Water District (ELCO)",
+    "fact": "East Larimer County Water District provides drinking water to homes and businesses north and east of Fort Collins.",
+    "quote": "East Larimer County (ELCO) Water District provides drinking water to homes and businesses located north and east of Fort Collins, Colorado.",
+    "source_url": "https://www.elcowater.org/about",
+    "source_label": "ELCO Water District, About",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Earlier research guessed ELCO serves Timnath (INFERENCE) — not stated by ELCO, so timnath-co is not listed here."
+  },
+  {
+    "id": "elco-rates-not-published",
+    "layer": "utility",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "provider": "East Larimer County Water District (ELCO)",
+    "fact": "ELCO does not publish its residential per-gallon water rates online; it publishes a conservation charge of an extra $5.61 per 1,000 gallons once a customer passes an annual allotment based on lot size.",
+    "quote": "The conservation charge increases the water rate by an additional $5.61 per 1,000 gallons. The amount of water each customer is allowed to use before the imposition of the conservation charge is called their \"Annual Allotment.\" The annual allotment for single-family customers is based on their lot size.",
+    "source_url": "https://www.elcowater.org/rate-information",
+    "source_label": "ELCO Water District, Rate Information (and 2026 Service Fees & Charges PDF, effective Jan. 1, 2026)",
+    "effective": "2026-01-01",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-01-05",
+    "numbers": [
+      "5.61",
+      "1000"
+    ],
+    "rates": {
+      "effective": "2026-01-01",
+      "unit": "per 1,000 gal",
+      "base_monthly": null,
+      "model": "allotment",
+      "tiers": []
+    },
+    "notes": "The 2026 Service Fees & Charges PDF (elcowater.org/files/1aca5cb2e/...) lists hydrant, tap and misc charges but no residential usage rates. Record kept so the calculator shows \"enter your $/1,000\" for ELCO instead of a guess."
+  },
+  {
+    "id": "soldier-canyon-filter-plant-towns",
+    "layer": "utility",
+    "applies_to": [
+      "windsor-co",
+      "severance-co",
+      "timnath-co",
+      "eaton-co"
+    ],
+    "provider": "Soldier Canyon Filter Plant (ELCO, North Weld County WD and Fort Collins-Loveland WD)",
+    "fact": "Windsor, Severance, Timnath and Eaton get treated water from the Soldier Canyon Filter Plant, which ELCO, North Weld County Water District and Fort Collins-Loveland Water District jointly own.",
+    "quote": "ELCO Water District, North Weld County Water District and the Fort Collins-Loveland Water District jointly own and operate the Soldier Canyon Filter Plant. Through connections with the three Districts that own the Plant, water is also supplied to the towns of Windsor, Ault, Nunn, Severance, Timnath and Eaton, as well as portions of Pierce and the Northern Colorado Water Association.",
+    "source_url": "https://www.elcowater.org/source-of-elco-s-water",
+    "source_label": "ELCO Water District, Source of ELCO's Water",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The plant treats mostly Horsetooth Reservoir (C-BT) water, with about 10% from the Poudre River."
+  },
+  {
+    "id": "nwcwd-service-area",
+    "layer": "utility",
+    "applies_to": [
+      "windsor-co",
+      "greeley-co",
+      "eaton-co",
+      "severance-co",
+      "fort-collins-co"
+    ],
+    "provider": "North Weld County Water District",
+    "fact": "North Weld County Water District serves Eaton, Severance and other north Weld towns, the northern areas of Windsor and Greeley, and some areas of eastern Fort Collins.",
+    "quote": "North Weld County Water District serves the towns of Pierce, Ault, Eaton, Nunn, Severance, Lucerne, Gill, Galeton as well as the northern areas of Windsor and Greeley. Our District also encompasses some areas of eastern Fort Collins.",
+    "source_url": "https://www.nwcwd.org/service-area",
+    "source_label": "North Weld County Water District, Service Area",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "nwcwd-rates-2026",
+    "layer": "utility",
+    "applies_to": [
+      "windsor-co",
+      "greeley-co",
+      "eaton-co",
+      "severance-co",
+      "fort-collins-co"
+    ],
+    "provider": "North Weld County Water District",
+    "fact": "North Weld County Water District's 2026 potable rate is $31.14 for the first 6,000 gallons a month and $5.19 per 1,000 gallons after that.",
+    "quote": "Updated potable water rates are currently in effect and are based on total monthly usage. 0–6 kgal: $31.14 Over 6 kgal: $5.19 per kgal",
+    "source_url": "https://www.nwcwd.org/files/f055ec287/May+2026+Newsletter.pdf",
+    "source_label": "North Weld County Water District, May 2026 Newsletter",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-01-05",
+    "numbers": [
+      "2026",
+      "31.14",
+      "6000",
+      "5.19",
+      "1000",
+      "0",
+      "6"
+    ],
+    "rates": {
+      "effective": "2026-05-01",
+      "unit": "per 1,000 gal",
+      "base_monthly": 31.14,
+      "model": "tiered",
+      "tiers": [
+        {
+          "label": "0–6,000 gal (in the $31.14 charge)",
+          "price": 0,
+          "up_to_gal": 6000
+        },
+        {
+          "label": "Over 6,000 gal",
+          "price": 5.19,
+          "up_to_gal": null
+        }
+      ]
+    },
+    "notes": "Applies only to customers billed by NWCWD directly — town-billed customers (Eaton, Severance town systems) pay their town's rates. The rates.effective date is the newsletter month, not an adoption date (the newsletter says the rates are \"currently in effect\")."
+  },
+  {
+    "id": "greeley-water-budget-rates-2026",
+    "layer": "utility",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "provider": "Greeley Water & Sewer",
+    "fact": "Greeley bills single-family homes inside the city on a water budget in 2026: $6.18 per 1,000 gallons within budget, $7.16 at 101–130%, $9.76 at 131–150% and $13.01 above 151%, plus a $21.00 monthly fixed charge.",
+    "quote": "Single-Family Residential Water Budget (Inside City Limits) Tier 1 (<= 100% of Water Budget) $6.18 Tier 2 (101-130% of Water Budget) $7.16 Tier 3 (131-150% of Water Budget) $9.76 Tier 4 (> 151% of Water Budget) $13.01 … The Fixed Monthly Service Fee for residential customers is $21.00",
+    "source_url": "https://cogy-p-001.sitecorecontenthub.cloud/api/public/content/131d971ab9564764b86d4ab2b50679d7?v=2d52460e",
+    "source_label": "Greeley Water & Sewer, 2026 Rate Manual",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-01-05",
+    "numbers": [
+      "2026",
+      "6.18",
+      "1000",
+      "7.16",
+      "101",
+      "130",
+      "9.76",
+      "131",
+      "150",
+      "13.01",
+      "151",
+      "21.00",
+      "1",
+      "100",
+      "2",
+      "3",
+      "4"
+    ],
+    "rates": {
+      "effective": "2026-01-01",
+      "unit": "per 1,000 gal",
+      "base_monthly": 21,
+      "model": "water-budget",
+      "tiers": [
+        {
+          "label": "Tier 1 (≤100% of budget)",
+          "price": 6.18,
+          "up_to_gal": null
+        },
+        {
+          "label": "Tier 2 (101–130% of budget)",
+          "price": 7.16,
+          "up_to_gal": null
+        },
+        {
+          "label": "Tier 3 (131–150% of budget)",
+          "price": 9.76,
+          "up_to_gal": null
+        },
+        {
+          "label": "Tier 4 (>151% of budget)",
+          "price": 13.01,
+          "up_to_gal": null
+        }
+      ]
+    },
+    "notes": "Also in the manual: residential not on a water budget $6.47; outside city $13.57. The budget formula (household size + irrigable area) is NOT in the manual text — do not model it. rates.effective is INFERENCE from \"2026 Rate Manual\"."
+  },
+  {
+    "id": "evans-buys-greeley-water",
+    "layer": "utility",
+    "applies_to": [
+      "evans-co"
+    ],
+    "provider": "City of Evans (treated water purchased from Greeley)",
+    "fact": "The City of Evans buys its treated drinking water from Greeley.",
+    "quote": "PURCHASED SW FROM GREELEY CO0162321 (seller CO0162321, active)",
+    "source_url": "https://data.epa.gov/efservice/WATER_SYSTEM_FACILITY/PWSID/CO0162260/JSON",
+    "source_label": "EPA SDWIS water-system facilities, City of Evans (CO0162260)",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Evans' 2026 CCR lists the same \"Surface Water-Consecutive Connection\". Evans also runs non-potable irrigation systems (see evans-glic-cutover-2026)."
+  },
+  {
+    "id": "milliken-water-sources",
+    "layer": "utility",
+    "applies_to": [
+      "milliken-co"
+    ],
+    "provider": "Town of Milliken",
+    "fact": "The Town of Milliken buys treated water from Central Weld County Water District and from Greeley and also treats water from its own wells.",
+    "quote": "PURCHASED FROM CENTRAL WELD 162122 SW (active) · PURCHASED FROM GREELEY 162321 SW (active) · WELL NO 1R (active) · WELL NO 2R (active) · TREATMENT FOR WELL (active)",
+    "source_url": "https://data.epa.gov/efservice/WATER_SYSTEM_FACILITY/PWSID/CO0162511/JSON",
+    "source_label": "EPA SDWIS water-system facilities, Town of Milliken (CO0162511)",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "162122",
+      "162321"
+    ]
+  },
+  {
+    "id": "eaton-buys-nwcwd-water",
+    "layer": "utility",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "provider": "Town of Eaton (treated water purchased from North Weld County WD)",
+    "fact": "The Town of Eaton buys its treated water from North Weld County Water District.",
+    "quote": "PURCHASED NORTH WELD COUNTY WD 162553 SW (seller CO0162553, active)",
+    "source_url": "https://data.epa.gov/efservice/WATER_SYSTEM_FACILITY/PWSID/CO0162233/JSON",
+    "source_label": "EPA SDWIS water-system facilities, Town of Eaton (CO0162233)",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "162553"
+    ]
+  },
+  {
+    "id": "johnstown-water-sources",
+    "layer": "utility",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "provider": "Town of Johnstown",
+    "fact": "The Town of Johnstown treats surface water from its own reservoirs and ditch supply and also buys treated water from Little Thompson Water District, Greeley and Central Weld County Water District.",
+    "quote": "JOHNSTOWN RESERVOIR (intake, active) · LONETREE RESERVOIR (intake, active) · HOME SUPPLY DITCH (intake, active) · JOHNSTOWN SWTP01 (treatment plant, active) · PURCHASED WATER FROM LITTLE THOMPSON WD (CO0135477, active) · PURCHASED WATER FROM GREELEY (CO0162321, active) · PURCHASED FROM CENTRAL WELD CO0162122 (active)",
+    "source_url": "https://data.epa.gov/efservice/WATER_SYSTEM_FACILITY/PWSID/CO0162418/JSON",
+    "source_label": "EPA SDWIS water-system facilities, Town of Johnstown (CO0162418)",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "SDWIS lists 27,295 people served. Johnstown's lawn rebate is limited to Town of Johnstown water accounts, so some addresses in town limits may be billed by another provider — check the bill."
+  },
+  {
+    "id": "windsor-water-suppliers",
+    "layer": "utility",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "provider": "Town of Windsor",
+    "fact": "The Town of Windsor buys its water mainly from North Weld County Water District, with Greeley and Fort Collins-Loveland Water District as secondary suppliers.",
+    "quote": "The Town of Windsor purchases water from three sources: Fort Collins-Loveland Water District, North Weld Water District, and the City of Greeley. Our primary water supplier is from North Weld Water District with the City of Greeley and Fort Collins-Loveland Water District as our secondary",
+    "source_url": "https://www.windsorco.gov/Faq.aspx?QID=209",
+    "source_label": "Town of Windsor FAQ, \"Where does our water come from?\"",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "windsor-larimer-side-fclwd",
+    "layer": "utility",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "provider": "Fort Collins-Loveland Water District",
+    "fact": "Windsor residents who live in Larimer County are served by Fort Collins-Loveland Water District, and the Harmony Ridge and Alexander Estates subdivisions by North Weld County Water District.",
+    "quote": "Larimer County, Windsor Residents Fort Collins/Loveland Water District serving Windsor residents living in Larimer County North Weld Water District serving Harmony Ridge & Alexander Estates subdivisions",
+    "source_url": "https://www.windsorco.gov/998/Utility-Services-by-other-Agencies",
+    "source_label": "Town of Windsor, Utility Services by Other Agencies",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "windsor-rates-2026",
+    "layer": "utility",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "provider": "Town of Windsor",
+    "fact": "Since February 1, 2026, Windsor charges a single-family home with a 3/4-inch meter $28.33 a month plus $8.34 per 1,000 gallons up to 16,000, $12.45 up to 22,500 and $18.57 above that.",
+    "quote": "MONTHLY WATER CHARGES (Effective February 1, 2026) … ¾\" Single family residential $28.33 $8.34 16,000 $12.45 22,500 $18.57 > 22,500",
+    "source_url": "https://www.windsorco.gov/513/Fee-Schedule",
+    "source_label": "Town of Windsor Fee Schedule, Sec. 13-2-90 monthly water charges (updated 02.01.2026)",
+    "effective": "2026-02-01",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-01-05",
+    "numbers": [
+      "3/4",
+      "1",
+      "2026",
+      "28.33",
+      "8.34",
+      "1000",
+      "16000",
+      "12.45",
+      "22500",
+      "18.57"
+    ],
+    "rates": {
+      "effective": "2026-02-01",
+      "unit": "per 1,000 gal",
+      "base_monthly": 28.33,
+      "model": "tiered",
+      "tiers": [
+        {
+          "label": "Tier 1",
+          "price": 8.34,
+          "up_to_gal": 16000
+        },
+        {
+          "label": "Tier 2",
+          "price": 12.45,
+          "up_to_gal": 22500
+        },
+        {
+          "label": "Tier 3",
+          "price": 18.57,
+          "up_to_gal": null
+        }
+      ]
+    }
+  },
+  {
+    "id": "windsor-2026-rate-increase",
+    "layer": "utility",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "provider": "Town of Windsor",
+    "fact": "Windsor's 2026 water, sewer and stormwater rate change raised the total monthly utility bill for an average single-family home using 5,000 gallons a month by about 26%.",
+    "quote": "For the average single-family home using 5,000 gallons of water per month, the change represents about a 26% increase in the total monthly utility bill. For example, a $100 monthly bill in 2025 would be about $126 in 2026.",
+    "source_url": "https://www.windsorco.gov/1440/2026-Water-Sewer-and-Stormwater-Rate-Inc",
+    "source_label": "Town of Windsor, 2026 Water, Sewer and Stormwater Rate Increase",
+    "effective": "2026-02-01",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2026",
+      "5000",
+      "26",
+      "100",
+      "2025",
+      "126"
+    ],
+    "notes": "Driven mainly by wastewater-plant upgrades and an unplanned water-line replacement on 15th St."
+  },
+  {
+    "id": "raindance-nonpotable-irrigation",
+    "layer": "utility",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "provider": "Raindance Metropolitan District (non-potable irrigation)",
+    "fact": "RainDance Metropolitan District in Windsor bills non-potable irrigation water at $4.53 per 1,000 gallons plus an annual capital fee of $277.68 per unit.",
+    "quote": "The water rate structure includes an Annual Capital Fee plus a water service fee charged at a rate of per $4.53 per 1,000 gallons of water used. The Annual Capital Fee is $277.68 per unit and is billed at the beginning of the irrigation season.",
+    "source_url": "https://www.raindancemetrodistrict.org/non-potable-irrigation-water",
+    "source_label": "Raindance Metropolitan District, Non-Potable Irrigation Water",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-01-05",
+    "numbers": [
+      "4.53",
+      "1000",
+      "277.68"
+    ],
+    "rates": {
+      "effective": "2026-01-01",
+      "unit": "per 1,000 gal",
+      "base_monthly": null,
+      "model": "flat",
+      "tiers": [
+        {
+          "label": "Non-potable irrigation",
+          "price": 4.53,
+          "up_to_gal": null
+        }
+      ]
+    },
+    "notes": "Irrigation water, not drinking water; the annual capital fee is billed once per season, not monthly. rates.effective is INFERENCE (research tied these to the 2026 fact sheets)."
+  },
+  {
+    "id": "loveland-rates-2026",
+    "layer": "utility",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "provider": "City of Loveland Utilities (Loveland Water & Power)",
+    "fact": "Loveland charges single-family homes inside the city a $21.51 monthly base for a 0.75-inch tap and a flat $4.27 per 1,000 gallons in 2026, with no usage tiers.",
+    "quote": "UTILITY RATES, CHARGES, AND FEES Effective January 1, 2026 … Monthly Water Base Charge by Water Tap Size • Inside City … Single Family* $21.51 … Water Use Fees per 1,000 Gallons Inside City Outside City Single Family (includes Cottage) $4.27 $6.41",
+    "source_url": "https://cilovelandco.civicweb.net/document/493680/",
+    "source_label": "City of Loveland Utilities, 2026 Utility Rates, Charges, and Fees (Attachment C, council packet item 5.3)",
+    "effective": "2026-01-01",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "recheck": "2027-01-05",
+    "numbers": [
+      "21.51",
+      "0.75",
+      "4.27",
+      "1000",
+      "2026",
+      "1",
+      "6.41"
+    ],
+    "rates": {
+      "effective": "2026-01-01",
+      "unit": "per 1,000 gal",
+      "base_monthly": 21.51,
+      "model": "flat",
+      "tiers": [
+        {
+          "label": "Single family, inside city",
+          "price": 4.27,
+          "up_to_gal": null
+        }
+      ]
+    },
+    "notes": "The schedule itself is a primary City document reachable today, but it is the council-packet attachment; the City's adoption statement (lovelandwaterandpower.org rates page; lovgov.org \"Annual rate update\" release) returns 403 to curl and WebFetch. A search-engine snippet of the utility page reads \"Loveland Utilities Commission and Loveland City Council have approved the below rates, charges and fees for 2026\" (not read directly) — hence EXTERNAL_SOURCE. Outside-city: $32.27 base, $6.41/1,000."
+  },
+  {
+    "id": "longmont-rates-2026",
+    "layer": "utility",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "provider": "City of Longmont",
+    "fact": "Longmont charges a home with a 5/8-inch meter inside the city $11.91 a month plus $4.84 per 1,000 gallons up to 5,000, $7.27 up to 15,000, $9.69 up to 35,000 and $13.08 above that in 2026.",
+    "quote": "The rates below became effective January 1, 2026 and shall continue in effect until January 1, 2027. … 5/8 $11.91 $17.87 … Residential Volume Rate per 1,000 gallons Monthly Usage Block (gallons) Inside City Limits Outside City Limits 0 – 5,000 $4.84 $7.26 5,001 – 15,000 $7.27 $10.89 15,001 – 35,000 $9.69 $14.52 All over 35,000 $13.08 $19.61",
+    "source_url": "https://longmontcolorado.gov/water/rates-and-fees-water-storm-sewer/",
+    "source_label": "City of Longmont, Rates and Fees – Water, Storm, Sewer (Municipal Code 14.04)",
+    "effective": "2026-01-01",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-01-02",
+    "numbers": [
+      "5/8",
+      "11.91",
+      "4.84",
+      "1000",
+      "5000",
+      "7.27",
+      "15000",
+      "9.69",
+      "35000",
+      "13.08",
+      "2026",
+      "1",
+      "2027",
+      "17.87",
+      "0",
+      "7.26",
+      "5001",
+      "10.89",
+      "15001",
+      "14.52",
+      "19.61"
+    ],
+    "rates": {
+      "effective": "2026-01-01",
+      "unit": "per 1,000 gal",
+      "base_monthly": 11.91,
+      "model": "tiered",
+      "tiers": [
+        {
+          "label": "Block 1 (inside city)",
+          "price": 4.84,
+          "up_to_gal": 5000
+        },
+        {
+          "label": "Block 2 (inside city)",
+          "price": 7.27,
+          "up_to_gal": 15000
+        },
+        {
+          "label": "Block 3 (inside city)",
+          "price": 9.69,
+          "up_to_gal": 35000
+        },
+        {
+          "label": "Block 4 (inside city)",
+          "price": 13.08,
+          "up_to_gal": null
+        }
+      ]
+    },
+    "notes": "The city's own water system (EPA SDWIS CO0107485) serves Longmont; it has an emergency interconnect with Left Hand Water District."
+  },
+  {
+    "id": "ltwd-service-area-mead-barefoot-lakes",
+    "layer": "utility",
+    "applies_to": [
+      "mead-co",
+      "firestone-co"
+    ],
+    "provider": "Little Thompson Water District",
+    "fact": "Little Thompson Water District added the Town of Mead to its service area in 2002 and also serves the Barefoot Lakes subdivision in Firestone.",
+    "quote": "The District expanded to include the former Arkins Water Association in 2000 and the Town of Mead in 2002. We also serve the Barefoot Lakes Subdivision in Firestone.",
+    "source_url": "https://www.littlethompsonwd.gov/our-service-area",
+    "source_label": "Little Thompson Water District, Our Service Area",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2002",
+      "2000"
+    ],
+    "notes": "Firestone confirms: \"Residents of Barefoot Lakes are not provided water by the Town of Firestone; the Little Thompson Water District serves them.\" (firestoneco.gov/1883)."
+  },
+  {
+    "id": "mead-longs-peak-wd-unverified",
+    "layer": "utility",
+    "applies_to": [
+      "mead-co"
+    ],
+    "provider": "Longs Peak Water District",
+    "fact": "Longs Peak Water District may also serve parts of Mead.",
+    "quote": "Town of Mead \"Local Utility Partners\" page (2016 snapshot) listed Little Thompson Water District and Longs Peak Water District.",
+    "source_url": "https://web.archive.org/web/20160804101006/http://www.townofmead.org/economicdevelopment/page/local-utility-partners",
+    "source_label": "Town of Mead, Local Utility Partners (Wayback snapshot, 2016-08-04)",
+    "checked": "2026-09-24",
+    "reachable": false,
+    "status": "UNVERIFIED",
+    "numbers": [
+      "2016"
+    ],
+    "notes": "CORRECTED per towns-weld-south digest: lpwd.org (checked 2026-09-24: \"about 1300 homes in Northern Colorado\") never mentions Mead; townofmead.org is behind Cloudflare; the only source is a 10-year-old snapshot and the Internet Archive was offline today. Ask Mead or Brian."
+  },
+  {
+    "id": "ltwd-rates-2026-standard-tap",
+    "layer": "utility",
+    "applies_to": [
+      "mead-co",
+      "firestone-co",
+      "berthoud-co"
+    ],
+    "provider": "Little Thompson Water District",
+    "fact": "Since April 17, 2026, a Little Thompson Water District standard 5/8-inch tap on a lot under 17,000 square feet pays a $45.48 monthly base plus $4.03 per 1,000 gallons up to 6,000, $5.25 to 25,000, $6.18 to 50,000, $8.63 to 70,000 and $10.35 above that.",
+    "quote": "Approved by the Board April 16, 2026 Effective April 17, 2026 … 5/8-inch Standard Less Than 17,000 sf $45.48 0 to 6,000 $4.03 6,001 to 25,000 $5.25 25,001 to 50,000 $6.18 50,001 to 70,000 $8.63 Greater Than 70,000 $10.35",
+    "source_url": "https://www.littlethompsonwd.gov/files/0eba237d7/2026+Section+1502.1+Schedule+B-04162026_02.pdf",
+    "source_label": "Little Thompson Water District, Section 1502.1 Schedule B – Water Rate Schedule (approved April 16, 2026)",
+    "effective": "2026-04-17",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-01-05",
+    "numbers": [
+      "5/8",
+      "17",
+      "2026",
+      "17000",
+      "45.48",
+      "4.03",
+      "1000",
+      "6000",
+      "5.25",
+      "25000",
+      "6.18",
+      "50000",
+      "8.63",
+      "70000",
+      "10.35",
+      "16",
+      "0",
+      "6001",
+      "25001",
+      "50001"
+    ],
+    "rates": {
+      "effective": "2026-04-17",
+      "unit": "per 1,000 gal",
+      "base_monthly": 45.48,
+      "model": "allotment",
+      "tiers": [
+        {
+          "label": "Tier 1",
+          "price": 4.03,
+          "up_to_gal": 6000
+        },
+        {
+          "label": "Tier 2",
+          "price": 5.25,
+          "up_to_gal": 25000
+        },
+        {
+          "label": "Tier 3",
+          "price": 6.18,
+          "up_to_gal": 50000
+        },
+        {
+          "label": "Tier 4",
+          "price": 8.63,
+          "up_to_gal": 70000
+        },
+        {
+          "label": "Tier 5",
+          "price": 10.35,
+          "up_to_gal": null
+        }
+      ]
+    },
+    "notes": "Tiers vary by tap type (micro-home, conservation, conservation plus, standard, 3/4\" estate); this is the standard 5/8\" tap. The schedule header reads \"2025 Water Rate Structure – Approved by the Board April 16, 2026\" (apparent typo in the source). Berthoud listed because LTWD serves the Town-owned Serenity Ridge system near I-25 and rural areas — Berthoud town customers pay Berthoud rates."
+  },
+  {
+    "id": "ltwd-allotment-overage-2026",
+    "layer": "utility",
+    "applies_to": [
+      "mead-co",
+      "firestone-co",
+      "berthoud-co"
+    ],
+    "provider": "Little Thompson Water District",
+    "fact": "Every Little Thompson Water District tap has an annual water allotment, and use above it costs an extra $10 per 1,000 gallons on standard 5/8-inch taps and $20 on other residential taps.",
+    "quote": "Overage Water Allotment Charge Residential Standard 5/8-inch Taps $10.00 per Thousand Gallons Overage Water Allotment Charge All Residential Taps - Excluding 5/8-inch Standard Taps $20.00 per Thousand Gallons",
+    "source_url": "https://www.littlethompsonwd.gov/files/d6e8362ff/2026+Section+1502.2+Schedule+C-04162026.pdf",
+    "source_label": "Little Thompson Water District, Section 1502.2 Schedule C – Miscellaneous Fees (April 16, 2026)",
+    "effective": "2026-04-17",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-01-05",
+    "numbers": [
+      "5/8",
+      "10",
+      "1000",
+      "20",
+      "10.00",
+      "20.00"
+    ],
+    "notes": "Schedule B note: \"All Taps have an annual water Allotment.\" Schedule C also lists a Firestone In-City Surcharge (6 percent of usage and base fee)."
+  },
+  {
+    "id": "berthoud-water-supply",
+    "layer": "utility",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "provider": "Town of Berthoud",
+    "fact": "Berthoud treats its own water, mainly Colorado-Big Thompson Project water from Carter Lake with storage in Berthoud Reservoir, and its Serenity Ridge system near I-25 is served by Little Thompson Water District.",
+    "quote": "Our primary water source is the Colorado-Big Thompson Project via Carter Lake, with additional storage at Berthoud Reservoir. … Serenity Ridge is a Town-owned water system near I-25 served by Little Thompson Water District.",
+    "source_url": "https://www.berthoud.org/1406/Water-Supply-Distribution",
+    "source_label": "Town of Berthoud, Water Supply & Distribution",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "25"
+    ]
+  },
+  {
+    "id": "firestone-water-sources",
+    "layer": "utility",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "provider": "Town of Firestone",
+    "fact": "The Town of Firestone buys treated water from Central Weld County Water District and also runs its own Gould Well.",
+    "quote": "PURCHASED FROM CO0162122 (Central Weld County WD, active) · GOULD WELL (active) · PURCHASED FROM ST VRAIN CO0162724 (inactive)",
+    "source_url": "https://data.epa.gov/efservice/WATER_SYSTEM_FACILITY/PWSID/CO0162476/JSON",
+    "source_label": "EPA SDWIS water-system facilities, Town of Firestone (CO0162476)",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "frederick-two-providers",
+    "layer": "utility",
+    "applies_to": [
+      "frederick-co"
+    ],
+    "provider": "Town of Frederick / Left Hand Water District",
+    "fact": "Frederick homes east of I-25 get Town of Frederick water, while those west of I-25 are Left Hand Water District customers.",
+    "quote": "Residents and businesses located west of I-25 are customers of the Left Hand Water District, and water shortage stages declared for Town of Frederick water supplies are not applicable to them. … The Town provides water service to Frederick residents who live east of I-25.",
+    "source_url": "https://www.frederickco.gov/1260/Water-Use-Guidance-and-Current-Condition",
+    "source_label": "Town of Frederick, Water Use Guidance and Current Conditions",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "25"
+    ],
+    "notes": "The Town system buys treated water from the Carter Lake Filter Plant (EPA SDWIS CO0162288 → CO0135476)."
+  },
+  {
+    "id": "cwcwd-tri-town-service",
+    "layer": "utility",
+    "applies_to": [
+      "dacono-co",
+      "firestone-co",
+      "frederick-co"
+    ],
+    "provider": "Central Weld County Water District",
+    "fact": "Central Weld County Water District's domestic service area runs south from Greeley to the Tri-town area of Dacono, Firestone and Frederick.",
+    "quote": "The District's domestic water service area now extends south from Greeley to the Tri-town area of Dacono, Firestone, and Frederick in southwest Weld County, and east from Interstate 25 to Kersey and the Hardin area.",
+    "source_url": "https://www.cwcwd.com/about",
+    "source_label": "Central Weld County Water District, About",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "25"
+    ],
+    "notes": "Also supplies Milliken, LaSalle and Platteville (EPA SDWIS purchase connections)."
+  },
+  {
+    "id": "dacono-water-supply",
+    "layer": "utility",
+    "applies_to": [
+      "dacono-co"
+    ],
+    "provider": "City of Dacono",
+    "fact": "Dacono's primary water source is Colorado-Big Thompson shares, it takes part in the Northern Integrated Supply Project, and it buys treated water from Central Weld County Water District.",
+    "quote": "The City's current primary water source is Colorado-Big Thompson (C-BT) water shares, and the City is also a participant in the Northern Integrated Supply Project (NISP).",
+    "source_url": "https://www.daconoco.gov/324/Water-Supply",
+    "source_label": "City of Dacono, Water Supply (treated-water purchase: EPA SDWIS CO0162200)",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The CWCWD purchase is from EPA SDWIS (CO0162200: \"PURCHASED FROM CENTRAL WELD CO0162122\", active): https://data.epa.gov/efservice/WATER_SYSTEM_FACILITY/PWSID/CO0162200/JSON — cite both URLs if the purchase clause renders."
+  },
+  {
+    "id": "severance-water-cbt-nwcwd",
+    "layer": "utility",
+    "applies_to": [
+      "severance-co"
+    ],
+    "provider": "Town of Severance (treated and delivered by North Weld County WD)",
+    "fact": "Severance owns Colorado-Big Thompson water units that North Weld County Water District treats and delivers under a 2003 agreement.",
+    "quote": "The Town owns units of water in the Colorado-Big Thompson system. That water is treated and delivered by the North Weld County Water District (NWCWD) … In 2003, the Town entered into an Intergovernmental Agreement with the North Weld County Water District to define the water service area for Severance.",
+    "source_url": "https://www.townofseverance.org/431/Where-Does-Severances-Water-Come-From",
+    "source_label": "Town of Severance, Where Does Severance's Water Come From?",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2003"
+    ]
+  },
+  {
+    "id": "wellington-water-plant",
+    "layer": "utility",
+    "applies_to": [
+      "wellington-co"
+    ],
+    "provider": "Town of Wellington",
+    "fact": "Wellington runs its own water treatment plant, expanded from 2 to 4.2 million gallons a day.",
+    "quote": "Water Treatment Plant Old capacity < new capacity: 2 million gallons per day < 4.2 MGD",
+    "source_url": "https://www.wellingtoncolorado.gov/CivicAlerts.aspx?AID=403&ARC=774",
+    "source_label": "Town of Wellington news release on the WTP and WRF expansions (posted Jan. 10, 2025)",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "4.2"
+    ]
+  }
+]

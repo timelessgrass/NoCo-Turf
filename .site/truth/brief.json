@@ -8,24 +8,24 @@
  },
  "intake": {
   "mode": "discovery_call",
-  "laundering_guard": true
+  "laundering_guard": true,
+  "note": "No NoCo discovery call yet. Facts come from the 2026-09-04 sister-brand onboarding call (Whisper transcript, speaker labels derived), public registries read 2026-09-24, and Ty's decisions in .site/decisions/. The gap list for Brian is Appendix A of the rebuild plan."
  },
  "identity": {
   "display_name": {
-   "value": null,
-   "status": "UNKNOWN",
-   "source": null,
-   "source_detail": null,
-   "date": null,
-   "note": "Trading name exactly as it appears on GBP — ask, never infer from the domain"
+   "value": "NoCo Turf Co.",
+   "status": "EXTERNAL_SOURCE",
+   "source": "web",
+   "source_detail": "Google Business Profile display name, place_id ChIJQ554fnGvbocRz-sTVlhRSRc (CID 1677961776015338447), https://www.google.com/maps?cid=1677961776015338447 — read 2026-09-24 (research wf1/gap-1.md). The Facebook page shows the same name.",
+   "date": "2026-09-24",
+   "note": "Trading name exactly as on the GBP. Brian to confirm it is the name he wants on the site."
   },
   "legal_name": {
-   "value": null,
-   "status": "UNKNOWN",
-   "source": null,
-   "source_detail": null,
-   "date": null,
-   "note": "Legal entity name from the licence or registration"
+   "value": "NOCO Turf Co. LLC",
+   "status": "VERIFIED",
+   "source": "document",
+   "source_detail": "Colorado Secretary of State business record 20241237162 (https://www.coloradosos.gov/biz/BusinessEntityDetail.do?masterFileId=20241237162), entityname in Colorado open data dataset 4ykn-tg5h (https://data.colorado.gov/resource/4ykn-tg5h.json?entityid=20241237162) — both checked 2026-09-24",
+   "date": "2026-09-24"
   },
   "founded_year": {
    "value": null,
@@ -33,31 +33,458 @@
    "source": null,
    "source_detail": null,
    "date": null,
-   "note": "Year operations started — must be stated; never sourced from the old site"
+   "note": "LLC formed 2024-02-26 (VERIFIED); when operations began is unstated — ask Brian. His \"2024\" on the 2026-09-04 call answered for the sister brand, not NoCo. Never source a year from the old sites."
   },
-  "owners": [],
-  "locations": [],
-  "credentials": []
+  "owners": [
+   {
+    "value": "Brian",
+    "status": "CLIENT_STATED",
+    "source": "discovery_call",
+    "source_detail": "Brian, 00:40:32–00:40:41 (2026-09-04 TIMELESS onboarding call; speaker label derived by 3/3 model consensus; see provenance.md beside the transcript): says NoCo Turf is \"still me and under me\" and \"it's still us\".",
+    "date": "2026-09-04",
+    "note": "Owner as stated on the call. Surname not stated there. The Colorado SOS registered agent is Brian Richmond — a registered agent is not proof of ownership. Brian to confirm the owner(s) and the name to show; never source another owner from the old vendor sites.",
+    "transcript": "onboarding-2026-09-04-diarized.txt"
+   }
+  ],
+  "locations": [
+   {
+    "phone": {
+     "value": "+1 720-630-0108",
+     "status": "EXTERNAL_SOURCE",
+     "source": "operator_decision",
+     "source_detail": "Ty 2026-09-24 (.site/decisions/2026-09-24-phone.md): the number printed on the current nocoturf.com; Brian to confirm. Also TIMELESS Grand Strand's number until it moves (launch dependency)",
+     "date": "2026-09-24",
+     "note": "tel: href +17206300108; printed 720-630-0108. Gate 11: the other brand must move off this number and the GBP phone must change to it before launch. No call-tracking numbers."
+    },
+    "email": {
+     "value": null,
+     "status": "UNKNOWN",
+     "source": null,
+     "source_detail": null,
+     "date": null,
+     "note": "Which inbox is the business email of record? Two different addresses appear on the current and old sites — Brian names one (Appendix A #11)."
+    },
+    "address": {
+     "value": null,
+     "status": "UNKNOWN",
+     "source": null,
+     "source_detail": null,
+     "date": null,
+     "note": "storefront vs service-area decision pending (Appendix A #1); SOS principal office 9235 Eastman Park Dr Ste 4, Windsor CO 80550"
+    },
+    "hours": {
+     "value": null,
+     "status": "UNKNOWN",
+     "source": null,
+     "source_detail": null,
+     "date": null,
+     "note": "Real hours per day, and who answers the phone after hours? Listings show four different hour sets today (Appendix A #2). Never claim round-the-clock service."
+    }
+   }
+  ],
+  "credentials": [
+   {
+    "value": null,
+    "status": "UNKNOWN",
+    "source": null,
+    "source_detail": null,
+    "date": null,
+    "note": "Send the insurance certificate (COI: liability, workers' comp) and any city contractor licence numbers with issuer and lookup link. Nothing about insurance or licensing renders without a document on file.",
+    "kind": "insurance"
+   },
+   {
+    "value": null,
+    "status": "UNKNOWN",
+    "source": null,
+    "source_detail": null,
+    "date": null,
+    "note": "Any city contractor licence or registration held in the NoCo towns — number, issuer and lookup link. Nothing about licensing renders without a number.",
+    "kind": "licence"
+   }
+  ],
+  "registration": {
+   "value": {
+    "sos_id": "20241237162",
+    "formed": "2024-02-26",
+    "standing": "Good Standing",
+    "lookup_url": "https://www.coloradosos.gov/biz/BusinessEntityDetail.do?masterFileId=20241237162"
+   },
+   "status": "VERIFIED",
+   "source": "https://www.coloradosos.gov/biz/BusinessEntityDetail.do?masterFileId=20241237162",
+   "source_detail": "Colorado SOS detail page (Status \"Good Standing\", Formation date 02/26/2024, Form: Limited Liability Company, Jurisdiction: Colorado) and open data https://data.colorado.gov/resource/4ykn-tg5h.json?entityid=20241237162 (entitystatus \"Good Standing\", entityformdate 2024-02-26) — both checked 2026-09-24",
+   "date": "2026-09-24",
+   "note": "Standing can change: re-check the lookup before launch (periodic report month: August)."
+  },
+  "founder_experience_years": {
+   "value": 13,
+   "status": "CLIENT_STATED",
+   "source": "discovery_call",
+   "source_detail": "Brian, 00:32:38 — \"I've been doing turf for 13 years.\" (2026-09-04 TIMELESS Grass & Greens onboarding call; transcript line 616, segment 611; speaker label derived by 3/3 model consensus; see provenance.md beside the transcript). Repeated inside the mixed-speaker segment at 00:32:45 — cite 00:32:38.",
+   "date": "2026-09-04",
+   "note": "The founder's own years, never the company's (the LLC formed 2024-02-26). What the 13 years were and where is not stated — ask Brian (Appendix A #3). Said on the TIMELESS call, not a NoCo call.",
+   "transcript": "onboarding-2026-09-04-diarized.txt"
+  },
+  "social_profiles": [
+   {
+    "value": {
+     "network": "Google Business Profile",
+     "url": "https://www.google.com/maps?cid=1677961776015338447"
+    },
+    "status": "EXTERNAL_SOURCE",
+    "source": "web",
+    "source_detail": "https://www.google.com/maps?cid=1677961776015338447 resolved 2026-09-24 in a headless browser: listing \"NoCo Turf Co.\", Windsor, CO (place_id ChIJQ554fnGvbocRz-sTVlhRSRc; research wf1/gap-1.md)",
+    "date": "2026-09-24",
+    "note": "The listing NAP is wrong today (address text, phone) — fix it before relying on it (plan Phase 0.3)."
+   },
+   {
+    "value": {
+     "network": "Facebook",
+     "url": "https://www.facebook.com/people/NoCo-Turf-Co/100091772181025/"
+    },
+    "status": "EXTERNAL_SOURCE",
+    "source": "web",
+    "source_detail": "Page id 100091772181025 resolved 2026-09-24 in a headless browser: page \"NoCo Turf Co.\", Windsor, CO, links to nocoturf.com (research wf1/gap-1.md)",
+    "date": "2026-09-24",
+    "note": "Brian to confirm the page is his and add Ty as a manager (plan Phase 0.2)."
+   },
+   {
+    "value": {
+     "network": "Instagram",
+     "url": "https://www.instagram.com/noco_turf/"
+    },
+    "status": "EXTERNAL_SOURCE",
+    "source": "web",
+    "source_detail": "Profile noco_turf resolved 2026-09-24 in a headless browser (research wf1/gap-1.md, gap-2.md)",
+    "date": "2026-09-24",
+    "note": "Brian to confirm the account is his."
+   }
+  ]
  },
- "services": [],
+ "services": [
+  {
+   "slug": "artificial-turf-installation",
+   "name": {
+    "value": "Artificial turf installation",
+    "status": "INFERENCE",
+    "source": "derived",
+    "source_detail": "src/data/services.ts (research-led service plan). Brian's general list on the 2026-09-04 sister-brand call (00:45:51) names putting greens, residential landscape turf, commercial, pet turf and indoor work, not stated for NoCo specifically.",
+    "date": "2026-09-24",
+    "note": "pending Brian (Appendix A #4)",
+    "render": false
+   }
+  },
+  {
+   "slug": "pet-turf",
+   "name": {
+    "value": "Pet turf and dog runs",
+    "status": "INFERENCE",
+    "source": "derived",
+    "source_detail": "src/data/services.ts (research-led service plan). Brian's general list on the 2026-09-04 sister-brand call (00:45:51) names putting greens, residential landscape turf, commercial, pet turf and indoor work, not stated for NoCo specifically.",
+    "date": "2026-09-24",
+    "note": "pending Brian (Appendix A #4)",
+    "render": false
+   }
+  },
+  {
+   "slug": "putting-greens",
+   "name": {
+    "value": "Backyard putting greens",
+    "status": "INFERENCE",
+    "source": "derived",
+    "source_detail": "src/data/services.ts (research-led service plan). Brian's general list on the 2026-09-04 sister-brand call (00:45:51) names putting greens, residential landscape turf, commercial, pet turf and indoor work, not stated for NoCo specifically.",
+    "date": "2026-09-24",
+    "note": "pending Brian (Appendix A #4)",
+    "render": false
+   }
+  },
+  {
+   "slug": "playground-turf",
+   "name": {
+    "value": "Playground turf",
+    "status": "INFERENCE",
+    "source": "derived",
+    "source_detail": "src/data/services.ts (research-led service plan). Brian's general list on the 2026-09-04 sister-brand call (00:45:51) names putting greens, residential landscape turf, commercial, pet turf and indoor work, not stated for NoCo specifically.",
+    "date": "2026-09-24",
+    "note": "pending Brian (Appendix A #4)",
+    "render": false
+   }
+  },
+  {
+   "slug": "commercial-turf",
+   "name": {
+    "value": "Commercial, HOA and sports turf",
+    "status": "INFERENCE",
+    "source": "derived",
+    "source_detail": "src/data/services.ts (research-led service plan). Brian's general list on the 2026-09-04 sister-brand call (00:45:51) names putting greens, residential landscape turf, commercial, pet turf and indoor work, not stated for NoCo specifically.",
+    "date": "2026-09-24",
+    "note": "pending Brian (Appendix A #4)",
+    "render": false
+   }
+  },
+  {
+   "slug": "turf-repair",
+   "name": {
+    "value": "Turf repair, cleaning and infill",
+    "status": "INFERENCE",
+    "source": "derived",
+    "source_detail": "src/data/services.ts (research-led service plan). Brian's general list on the 2026-09-04 sister-brand call (00:45:51) names putting greens, residential landscape turf, commercial, pet turf and indoor work, not stated for NoCo specifically.",
+    "date": "2026-09-24",
+    "note": "pending Brian (Appendix A #4)",
+    "render": false
+   }
+  },
+  {
+   "kind": "client_statement",
+   "about": "turf work generally",
+   "statement": {
+    "value": "So, kind of anything that's turf, we do.",
+    "status": "CLIENT_STATED",
+    "source": "discovery_call",
+    "source_detail": "Brian, 00:46:12 (transcript line 886, segment 881; speaker label derived by 3/3 model consensus; see provenance.md beside the transcript)",
+    "date": "2026-09-04",
+    "note": "Said on the TIMELESS call (2026-09-04), about his installation work across both brands — not a NoCo service list. It names no service; the six above stay pending Brian.",
+    "transcript": "onboarding-2026-09-04-diarized.txt"
+   }
+  },
+  {
+   "kind": "client_statement",
+   "about": "putting-greens",
+   "statement": {
+    "value": "We do putting greens like crazy.",
+    "status": "CLIENT_STATED",
+    "source": "discovery_call",
+    "source_detail": "Brian, 00:42:47 (transcript line 810, segment 805; speaker label derived by 3/3 model consensus; see provenance.md beside the transcript)",
+    "date": "2026-09-04",
+    "note": "Said on the TIMELESS call (2026-09-04) in answer to \"do you do those like putting greens?\" — about his work generally, not NoCo specifically. Not a volume claim.",
+    "transcript": "onboarding-2026-09-04-diarized.txt"
+   }
+  }
+ ],
  "do_not_offer": [],
- "service_areas": [],
+ "service_areas": [
+  {
+   "slug": "windsor-co",
+   "name": {
+    "value": "Windsor",
+    "status": "INFERENCE",
+    "source": "operator_decision",
+    "source_detail": "src/data/territory.mjs NOCO_TOWNS; .site/decisions/2026-09-24-territory.md",
+    "date": "2026-09-24",
+    "note": "territory decided by Ty 2026-09-24; Brian to confirm the towns in his words",
+    "render": false
+   }
+  },
+  {
+   "slug": "fort-collins-co",
+   "name": {
+    "value": "Fort Collins",
+    "status": "INFERENCE",
+    "source": "operator_decision",
+    "source_detail": "src/data/territory.mjs NOCO_TOWNS; .site/decisions/2026-09-24-territory.md",
+    "date": "2026-09-24",
+    "note": "territory decided by Ty 2026-09-24; Brian to confirm the towns in his words",
+    "render": false
+   }
+  },
+  {
+   "slug": "loveland-co",
+   "name": {
+    "value": "Loveland",
+    "status": "INFERENCE",
+    "source": "operator_decision",
+    "source_detail": "src/data/territory.mjs NOCO_TOWNS; .site/decisions/2026-09-24-territory.md",
+    "date": "2026-09-24",
+    "note": "territory decided by Ty 2026-09-24; Brian to confirm the towns in his words",
+    "render": false
+   }
+  },
+  {
+   "slug": "greeley-co",
+   "name": {
+    "value": "Greeley",
+    "status": "INFERENCE",
+    "source": "operator_decision",
+    "source_detail": "src/data/territory.mjs NOCO_TOWNS; .site/decisions/2026-09-24-territory.md",
+    "date": "2026-09-24",
+    "note": "territory decided by Ty 2026-09-24; Brian to confirm the towns in his words",
+    "render": false
+   }
+  },
+  {
+   "slug": "timnath-co",
+   "name": {
+    "value": "Timnath",
+    "status": "INFERENCE",
+    "source": "operator_decision",
+    "source_detail": "src/data/territory.mjs NOCO_TOWNS; .site/decisions/2026-09-24-territory.md",
+    "date": "2026-09-24",
+    "note": "territory decided by Ty 2026-09-24; Brian to confirm the towns in his words",
+    "render": false
+   }
+  },
+  {
+   "slug": "johnstown-co",
+   "name": {
+    "value": "Johnstown",
+    "status": "INFERENCE",
+    "source": "operator_decision",
+    "source_detail": "src/data/territory.mjs NOCO_TOWNS; .site/decisions/2026-09-24-territory.md",
+    "date": "2026-09-24",
+    "note": "territory decided by Ty 2026-09-24; Brian to confirm the towns in his words",
+    "render": false
+   }
+  },
+  {
+   "slug": "berthoud-co",
+   "name": {
+    "value": "Berthoud",
+    "status": "INFERENCE",
+    "source": "operator_decision",
+    "source_detail": "src/data/territory.mjs NOCO_TOWNS; .site/decisions/2026-09-24-territory.md",
+    "date": "2026-09-24",
+    "note": "territory decided by Ty 2026-09-24; Brian to confirm the towns in his words",
+    "render": false
+   }
+  },
+  {
+   "slug": "firestone-co",
+   "name": {
+    "value": "Firestone",
+    "status": "INFERENCE",
+    "source": "operator_decision",
+    "source_detail": "src/data/territory.mjs NOCO_TOWNS; .site/decisions/2026-09-24-territory.md",
+    "date": "2026-09-24",
+    "note": "territory decided by Ty 2026-09-24; Brian to confirm the towns in his words",
+    "render": false
+   }
+  },
+  {
+   "slug": "mead-co",
+   "name": {
+    "value": "Mead",
+    "status": "INFERENCE",
+    "source": "operator_decision",
+    "source_detail": "src/data/territory.mjs NOCO_TOWNS; .site/decisions/2026-09-24-territory.md",
+    "date": "2026-09-24",
+    "note": "territory decided by Ty 2026-09-24; Brian to confirm the towns in his words",
+    "render": false
+   }
+  },
+  {
+   "slug": "frederick-co",
+   "name": {
+    "value": "Frederick",
+    "status": "INFERENCE",
+    "source": "operator_decision",
+    "source_detail": "src/data/territory.mjs NOCO_TOWNS; .site/decisions/2026-09-24-territory.md",
+    "date": "2026-09-24",
+    "note": "territory decided by Ty 2026-09-24; Brian to confirm the towns in his words",
+    "render": false
+   }
+  },
+  {
+   "slug": "longmont-co",
+   "name": {
+    "value": "Longmont",
+    "status": "INFERENCE",
+    "source": "operator_decision",
+    "source_detail": "src/data/territory.mjs NOCO_TOWNS; .site/decisions/2026-09-24-territory.md",
+    "date": "2026-09-24",
+    "note": "territory decided by Ty 2026-09-24; Brian to confirm the towns in his words",
+    "render": false
+   }
+  },
+  {
+   "slug": "wellington-co",
+   "name": {
+    "value": "Wellington",
+    "status": "INFERENCE",
+    "source": "operator_decision",
+    "source_detail": "src/data/territory.mjs NOCO_TOWNS; .site/decisions/2026-09-24-territory.md",
+    "date": "2026-09-24",
+    "note": "territory decided by Ty 2026-09-24; Brian to confirm the towns in his words",
+    "render": false
+   }
+  },
+  {
+   "slug": "severance-co",
+   "name": {
+    "value": "Severance",
+    "status": "INFERENCE",
+    "source": "operator_decision",
+    "source_detail": "src/data/territory.mjs NOCO_TOWNS; .site/decisions/2026-09-24-territory.md",
+    "date": "2026-09-24",
+    "note": "territory decided by Ty 2026-09-24; Brian to confirm the towns in his words",
+    "render": false
+   }
+  },
+  {
+   "slug": "evans-co",
+   "name": {
+    "value": "Evans",
+    "status": "INFERENCE",
+    "source": "operator_decision",
+    "source_detail": "src/data/territory.mjs NOCO_TOWNS; .site/decisions/2026-09-24-territory.md",
+    "date": "2026-09-24",
+    "note": "territory decided by Ty 2026-09-24; Brian to confirm the towns in his words",
+    "render": false
+   }
+  },
+  {
+   "slug": "eaton-co",
+   "name": {
+    "value": "Eaton",
+    "status": "INFERENCE",
+    "source": "operator_decision",
+    "source_detail": "src/data/territory.mjs NOCO_TOWNS; .site/decisions/2026-09-24-territory.md",
+    "date": "2026-09-24",
+    "note": "territory decided by Ty 2026-09-24; Brian to confirm the towns in his words",
+    "render": false
+   }
+  },
+  {
+   "slug": "milliken-co",
+   "name": {
+    "value": "Milliken",
+    "status": "INFERENCE",
+    "source": "operator_decision",
+    "source_detail": "src/data/territory.mjs NOCO_TOWNS; .site/decisions/2026-09-24-territory.md",
+    "date": "2026-09-24",
+    "note": "territory decided by Ty 2026-09-24; Brian to confirm the towns in his words",
+    "render": false
+   }
+  },
+  {
+   "slug": "dacono-co",
+   "name": {
+    "value": "Dacono",
+    "status": "INFERENCE",
+    "source": "operator_decision",
+    "source_detail": "src/data/territory.mjs NOCO_TOWNS; .site/decisions/2026-09-24-territory.md",
+    "date": "2026-09-24",
+    "note": "territory decided by Ty 2026-09-24; Brian to confirm the towns in his words",
+    "render": false
+   }
+  }
+ ],
  "conversion": {
   "urgency": {
-   "value": null,
-   "status": "UNKNOWN",
-   "source": null,
-   "source_detail": null,
-   "date": null,
-   "note": "emergency | scheduled | contract | one_off — from 'what has usually just happened to them?'"
+   "value": "scheduled",
+   "status": "INFERENCE",
+   "source": "derived",
+   "source_detail": "classified from research (plan Phase 2): installs are quoted and scheduled, not dispatched — not stated by the client",
+   "date": "2026-09-24",
+   "note": "emergency | scheduled | contract | one_off — confirm with Brian: when someone calls, what has usually just happened to them?",
+   "render": false
   },
   "buyer_type": {
-   "value": null,
-   "status": "UNKNOWN",
-   "source": null,
-   "source_detail": null,
-   "date": null,
-   "note": "residential | commercial"
+   "value": "residential",
+   "status": "INFERENCE",
+   "source": "derived",
+   "source_detail": "classified from research: every captured review is a homeowner job; commercial work is a stated ambition, not a record",
+   "date": "2026-09-24",
+   "note": "WALKTHROUGH archetype candidate (scheduled x residential) + a PROJECT lane for commercial functional turf (HOA common areas, parks, daycares, sports). Brian confirms the residential/commercial split.",
+   "render": false
   },
   "primary_cta": {
    "value": null,
@@ -74,7 +501,7 @@
    "source": null,
    "source_detail": null,
    "date": null,
-   "note": "Where leads land and who watches that inbox",
+   "note": "Which email and phone receive NoCo leads, and who watches that inbox during what hours? (Appendix A #11). Planned path: form -> /.netlify/functions/lead -> Make webhook (NOCO_LEAD_WEBHOOK) -> Brian's inbox + TTM portal.",
    "test_lead_confirmed": false,
    "test_lead": {
     "form_submits": false,
@@ -86,6 +513,14 @@
     "autoresponder": false,
     "client_confirmed": false
    }
+  },
+  "response_time": {
+   "value": null,
+   "status": "UNKNOWN",
+   "source": null,
+   "source_detail": null,
+   "date": null,
+   "note": "How fast can Brian promise a reply to a form lead or a missed call? The thanks page states a reply time only if he commits to one (Appendix A #11)."
   }
  },
  "positioning": {},

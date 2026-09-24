@@ -1,0 +1,119 @@
+{
+  "status": "draft",
+  "slug": "johnstown-co",
+  "name": "Johnstown",
+  "region": "windsor-johnstown",
+  "title": "Artificial Turf in Johnstown, CO — Level 3 Drought | NoCo Turf Co.",
+  "description": "Johnstown is on a Level 3 drought schedule until October 15, and new grass needs a Town watering permit. Its lawn rebate excludes turf and closed June 15.",
+  "h1": "Johnstown's Level 3 drought schedule makes new sod the hard option this year",
+  "lede": "Johnstown straddles Weld and Larimer counties and treats its own reservoir water, and in 2026 it is rationing it: a Level 3 drought schedule, two watering days a week and a permit to water new grass.",
+  "answer": {
+    "question": "What are Johnstown's 2026 watering rules for a new lawn?",
+    "answer": "Tight. Johnstown is on a Level 3 drought schedule in 2026: two assigned days a week, no watering from 10 a.m. to 6 p.m., and the season ends October 15, with new grass watered only under a Town permit. NoCo Turf Co. installs artificial turf in Johnstown, Colorado, and turf needs none of that watering."
+  },
+  "blocks": [
+    {
+      "kind": "drought",
+      "own": true,
+      "kicker": "Level 3",
+      "h2": "Two watering days a week, and none after October 15.",
+      "paras": [
+        "Johnstown moved to a Level 3 drought watering schedule for 2026. Even addresses, HOAs and greenbelts water Mondays and Thursdays; odd addresses water Tuesdays and Fridays; nobody waters from 10 a.m. to 6 p.m.; and October 15 ends the outdoor season.",
+        "Section 13-151 of the town code lets newly planted grass be watered only under a permit issued by the Town. A new sod lawn this year means an application, an assigned schedule and a hard stop in mid-October; an artificial turf area needs no establishment watering at all."
+      ],
+      "layerRefs": ["johnstown-level-3-2026", "johnstown-code-13-151-new-lawn-permit"],
+      "sources": [
+        "https://www.johnstownco.gov/665/2026-Watering-Schedule",
+        "https://www.johnstownco.gov/689/New-Lawn-Permit"
+      ]
+    },
+    {
+      "kind": "rebate",
+      "own": true,
+      "kicker": "The rebate",
+      "h2": "Johnstown's lawn-replacement rebate excludes turf and closed in June.",
+      "paras": [
+        "The Town's residential lawn-replacement rebate pays up to $2,000 per water account per year, for Town water accounts only, and says artificial turf is not eligible. It stopped taking new 2026 applications on June 15."
+      ],
+      "layerRefs": ["johnstown-lawn-replacement-2026"],
+      "sources": ["https://www.johnstownco.gov/663/Lawn-Replacement-Resources"]
+    },
+    {
+      "kind": "utility",
+      "own": true,
+      "kicker": "Where the water comes from",
+      "h2": "Johnstown treats its own reservoir water and buys the rest from three neighbors.",
+      "paras": [
+        "The Town draws surface water from Johnstown and Lonetree reservoirs and the Home Supply Ditch and treats it at its own plant. It also buys treated water from Little Thompson Water District, Greeley and Central Weld County Water District."
+      ],
+      "layerRefs": ["johnstown-water-sources"],
+      "sources": ["https://data.epa.gov/efservice/WATER_SYSTEM_FACILITY/PWSID/CO0162418/JSON"]
+    },
+    {
+      "kind": "housing",
+      "own": true,
+      "kicker": "Design guides",
+      "h2": "Johnstown publishes a design guide for each big subdivision.",
+      "paras": [
+        "The Town posts planned-unit-development design guidelines for 2534, Thompson River Ranch, Iron Horse, North Ridge, The Ridge, Mountain View West, Johnstown Plaza, Great Plains Village, Encore and Granary. If your home is in one of them, read its landscape section before you pick a turf area.",
+        "On the Larimer County side, Thompson River Ranch is the largest plat at 493 acres, and 2534 covers 380 acres across 51 plats, the newest recorded in 2026. The Larimer-side median lot is about 5,986 square feet."
+      ],
+      "layerRefs": [],
+      "sources": [
+        "https://johnstownco.gov/286/Planned-Unit-Development-PUD-Design-Guid",
+        "https://maps1.larimer.org/arcgis/rest/services/MapServices/Parcels/MapServer"
+      ]
+    },
+    {
+      "kind": "climate",
+      "own": false,
+      "kicker": "Hail and ground",
+      "h2": "Johnstown took 2.75-inch hail on June 17, 2025.",
+      "paras": [
+        "That was the largest hail NOAA logged near Johnstown from 2011 through 2025. The Greeley UNC station, east of town, averages 58.3 days a year at or above 90°F.",
+        "Soil surveys around central Johnstown map mostly low shrink-swell Olney fine sandy loam and Kim loam, with pockets of Nunn clay loam, a series NRCS rates as limited for building because of shrink-swell."
+      ],
+      "layerRefs": ["noaa-hail-max-johnstown", "noaa-normals-greeley-unc", "nrcs-soil-johnstown", "nrcs-nunn-weld-shrink-swell"],
+      "sources": [
+        "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/",
+        "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053553&format=json",
+        "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest"
+      ]
+    }
+  ],
+  "sections": [],
+  "faq": [
+    {
+      "q": "Do I need a permit to water new sod in Johnstown?",
+      "a": "Yes. The town code lets newly planted grass be watered only under a Town permit, and the Level 3 schedule ends outdoor watering on October 15."
+    },
+    {
+      "q": "Will Johnstown's rebate pay for artificial turf?",
+      "a": "No. The program says artificial turf is not eligible, and new 2026 applications closed on June 15."
+    },
+    {
+      "q": "Does the Level 3 schedule apply to my HOA's common areas?",
+      "a": "Yes. Even addresses, HOAs and greenbelts share the Monday and Thursday slot, and no one waters between 10 a.m. and 6 p.m."
+    }
+  ],
+  "nearby": ["windsor-co", "milliken-co", "loveland-co", "berthoud-co", "mead-co"],
+  "sources": [
+    { "label": "Town of Johnstown, 2026 Watering Schedule (site alert: Level 3 Drought Watering Schedule in Effect)", "url": "https://www.johnstownco.gov/665/2026-Watering-Schedule", "checked": "2026-09-24" },
+    { "label": "Town of Johnstown, New Lawn Permit page (quoting Municipal Code Sec. 13-151(c)(6))", "url": "https://www.johnstownco.gov/689/New-Lawn-Permit", "checked": "2026-09-24" },
+    { "label": "Town of Johnstown, Lawn Replacement Resources", "url": "https://www.johnstownco.gov/663/Lawn-Replacement-Resources", "checked": "2026-09-24" },
+    { "label": "EPA SDWIS water-system facilities, Town of Johnstown (CO0162418)", "url": "https://data.epa.gov/efservice/WATER_SYSTEM_FACILITY/PWSID/CO0162418/JSON", "checked": "2026-09-24" },
+    { "label": "Town of Johnstown, Planned Unit Development (PUD) design guidelines, including 2534 and Thompson River Ranch", "url": "https://johnstownco.gov/286/Planned-Unit-Development-PUD-Design-Guid", "checked": "2026-09-24" },
+    { "label": "Larimer County parcel GIS: Johnstown plats (Thompson River Ranch 493 ac; 2534 380 ac in 51 plats, latest 2026; Larimer-side median lot about 5,986 sq ft)", "url": "https://maps1.larimer.org/arcgis/rest/services/MapServices/Parcels/MapServer", "checked": "2026-09-24" },
+    { "label": "NOAA NCEI Storm Events Database, hail reports near Johnstown, 2011–2025", "url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/", "checked": "2026-09-24" },
+    { "label": "NOAA NCEI U.S. Climate Normals 1991–2020, station GREELEY UNC (USC00053553)", "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053553&format=json", "checked": "2026-09-24" },
+    { "label": "USDA-NRCS Soil Data Access (SSURGO), central Johnstown sample and Nunn series shrink-swell interpretation", "url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest", "checked": "2026-09-24" }
+  ],
+  "checked": "2026-09-24",
+  "needsFromBrian": [
+    "Named or described Johnstown jobs (2534, Thompson River Ranch, Iron Horse, The Ridge or another subdivision): month, rough size, use",
+    "Any 2026 Johnstown job where turf replaced a lawn the owner could not establish under the Level 3 schedule",
+    "PUD or HOA design-review submittals you have prepared in Johnstown",
+    "Camera-original photos of at least one Johnstown job, before and after",
+    "Google reviews from Johnstown customers that name the town, with consent to quote first name and last initial"
+  ]
+}

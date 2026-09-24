@@ -1,0 +1,131 @@
+# Build contracts
+
+The shapes every part of the build agrees on. Change a contract here first, then the code.
+
+## Planned routes (the information architecture)
+
+Only `published` records and `confirmed` services generate routes. Everything below is the *plan*;
+the 301 map targets these, and `tests/redirects.test.mjs` checks each target exists in `dist/` at launch.
+
+| Route | Source | Notes |
+|---|---|---|
+| `/` | `src/pages/index.astro` | holding page until gate 6 |
+| `/services/` + `/services/{slug}/` | `src/data/services.ts` | slugs: `artificial-turf-installation`, `pet-turf`, `putting-greens`, `playground-turf`, `commercial-turf`, `turf-repair` |
+| `/turf-supply/` | `TURF_SUPPLY` in services.ts | only if the Windsor store still sells retail |
+| `/areas/` + `/areas/{slug}/` | `src/content/towns/*.json`, slugs in `src/data/territory.mjs` | existing live URLs keep their slugs |
+| `/work/` + `/work/{id}/` | `src/content/work/*.json` | case studies from Brian's job ledger |
+| `/guides/` + `/guides/{id}/` | `src/content/guides/*.md` | launch set: `turf-rules-northern-colorado`, `turf-rebates-northern-colorado`, `hoa-turf-approval`, `water-savings`, `artificial-turf-cost` |
+| `/about/`, `/contact/` | pages | `/contact/` carries the one estimate form + NAP |
+| `/thanks/` | page | noindex |
+| `/privacy/`, `/terms/` | pages | Colorado law; Plausible + SMS disclosures |
+| `/review/` | page | noindex; ONE ungated link to Google's write-review URL, offered to everyone |
+| `/sitemap.xml`, `/robots.txt`, `/llms.txt` | endpoints | PRELAUNCH-aware |
+
+## Data layer — `src/data/layers/*.json`
+
+One file per layer: `state-law.json`, `city-codes.json`, `water-providers.json`, `rebates.json`,
+`drought-2026.json`, `climate.json`, `soil.json`. Each file is a JSON array of records:
+
+```json
+{
+  "id": "fc-luc-5.10.1",                     // unique across ALL layer files, kebab-case
+  "layer": "ordinance",                       // state | county | utility | rebate | ordinance | drought | climate | soil | housing
+  "applies_to": ["fort-collins-co"],          // town slugs from territory.mjs, or ["*"] for every NoCo town
+  "fact": "Plain-English statement, one sentence, exactly as a page may say it.",
+  "quote": "The operative sentence from the source, verbatim.",
+  "source_url": "https://…",
+  "source_label": "Fort Collins Land Use Code 5.10.1 (Ord. 008, 2025)",
+  "effective": "2025-02-14",                  // optional
+  "checked": "2026-09-24",                    // YYYY-MM-DD
+  "reachable": true,                          // false = the source blocks automated fetch → manual re-check
+  "status": "VERIFIED",                       // VERIFIED | EXTERNAL_SOURCE | UNVERIFIED — UNVERIFIED never renders
+  "recheck": "2026-10-14",                    // optional: when this goes stale (drought stages, pending ordinances)
+  "numbers": ["75", "70", "3"],               // every number the fact/quote uses, so copy checks can trace them
+  "notes": "optional, internal"
+}
+```
+
+`water-providers.json` records add `"provider": "Fort Collins Utilities"` and optional `"rates"`:
+`{ "effective": "2026-01-01", "unit": "per 1,000 gal", "base_monthly": 23.10, "tiers": [{ "label": "Tier 1", "price": 3.574, "up_to_gal": 7000 }], "model": "tiered | flat | water-budget | allotment" }`.
+
+`scripts/check-layers.mjs` fails the build on: a missing field, a duplicate id, an `applies_to` slug not in
+territory.mjs, `checked` older than 365 days (warns > 180), a `recheck` date in the past, or a
+`source_url` that is not https.
+
+## Town records — `src/content/towns/{slug}.json`
+
+Schema: `src/content.config.ts` (`towns`). Gate: `src/lib/town-gate.mjs` (≥3 blocks, ≥2 `own`, a photo).
+Rules for writers:
+- Blocks are in the order the page shows them — lead with this town's strongest fact.
+- A layer fact used in a block is referenced by id in `layerRefs`; its source URL also goes in `sources`.
+- Every number ≥ 11 or with a decimal must appear in a referenced layer record's `numbers`, or in the
+  record's `sources` material. No census/wealth language in copy ("median income", "affluent").
+- No claim about NoCo that is not an approved `.site/truth/claims.json` entry: no years, warranty,
+  licensed/insured, "best", prices, review counts. Brian's own jobs and photos go in `job`/`photo`
+  blocks only when his ledger supplies them; until then list what is needed in `needsFromBrian`.
+- Never name a TIMELESS town (territory.mjs `TIMELESS_TOWNS`) as a place NoCo serves.
+- `status` stays `draft` until Brian's material lands and the gate passes.
+
+## Guide records — `src/content/guides/{id}.md`
+
+Schema: `src/content.config.ts` (`guides`). Answer first (the `answer` block is the page's first 60 words
+in substance). Question-shaped H2s. Tables with real, dated numbers from layer records. Where law or a city
+rule is unsettled, hedge with "it depends … ask {the town's} Planning" — NOT "we confirm": that is a NoCo process
+claim and stays out of copy until Brian confirms NoCo checks each address (claims register). Titles carry the
+"| NoCo Turf Co." suffix in the field itself (≤70 chars); routes print them as-is.
+Final routes: `/guides/water-savings/` and `/guides/artificial-turf-cost/` (the plan's `/tools/…` and
+`/artificial-turf-cost/` were superseded 2026-09-24 — one scheme, under /guides/). Labelled not legal advice where
+it touches statute. Summarise Colorado state law in 2–3 sentences with primary links; NoCo owns the
+Northern Colorado layer and does not duplicate TIMELESS's statewide guides.
+
+## Lead path
+
+`POST /.netlify/functions/lead` (Netlify's default function URL — not `/api/*`, which fails preflight LEAD-1).
+Form fields (names are the contract — RED under aftercare):
+`use` (checkbox, multi: values = services.ts `formUse`, plus `Not sure`), `town`, `zip`, `size`
+(`Under 300 sq ft` | `300 to 800 sq ft` | `800 to 1,500 sq ft` | `Over 1,500 sq ft` | `Not sure — measure at the visit`),
+`hoa` (`Yes` | `No` | `Not sure`), `timeline` (`As soon as possible` | `In the next few months` | `Just pricing it out`),
+`name`, `phone` (required), `email` (optional), `contact_pref` (`Call` | `Text`), `heard` (optional),
+`page` (hidden, the path it was sent from), `company` (honeypot, off-screen), `elapsed_ms` (hidden).
+Webhook: env `NOCO_LEAD_WEBHOOK` (never TIMELESS's). One try + 2 retries (3.5 / 2.5 / 2.0 s, inside Netlify's 10 s).
+Unset or failing → the visitor sees the phone number (502 page / `{ ok:false }`), the function logs without PII,
+and nothing is silently dropped. No phone and no email → 422 (`{ ok:false, error:'contact' }`) so the visitor can fix it.
+Accepts urlencoded, multipart and JSON bodies (`use` may be an array in JSON).
+Lanes: `home`, `bid` (commercial/HOA/sports), `timeless` (Denver-metro ZIP → forward note), `check-area`.
+ZIP rules live in `netlify/functions/lib/places.mjs`: 80544 (Niwot) and 80621 (Fort Lupton) are UNASSIGNED → check-area;
+a shared ZIP (80516, 80603, 80621) plus a typed NoCo town the Census places partly inside it → served, with a note to
+confirm the address. The form must send `Accept: application/json` from script, set `elapsed_ms` by script (empty
+without JS = a person), and show the phone on 502 / ask for a phone on 422.
+
+## Checks (wired into npm scripts once present)
+
+- `prebuild`: `node scripts/check-layers.mjs && node scripts/check-content.mjs && node scripts/build-water-rates.mjs --check`
+- `build`: `astro build && node scripts/md-mirrors.mjs dist && node scripts/check-dist.mjs dist && python3 scripts/check-links.py dist`
+- `test:unit`: `node --test "tests/*.test.mjs"` (a bare directory argument fails on Node 24)
+- `test:launch`: `LAUNCH_CHECK=1 node --test tests/redirects.test.mjs` — every 301 target must exist in `dist/`
+- layer records carry `recheck` dates; `check-layers.mjs` FAILS the build once one passes (Greeley 2026-10-14, Johnstown
+  and Evans after 2026-10-15, more by 2026-10-24). That is intended: re-verify the record, then move the date.
+- studio gates (manual, before gates 8/12): `python3 ~/.claude/site-tools/preflight.py .`,
+  `check-uniqueness.py dist/areas`, `score.py audit dist/areas --no-log`, `check-sameness.py`
+
+## The boundary note (Denver-metro visitors)
+
+One component, marked `data-boundary`, is the only place a Denver-metro town may be named. Until Brian confirms
+that the NoCo ↔ TIMELESS relationship may be public (Appendix A), it says only that NoCo works north of the Denver
+metro — no TIMELESS name, no link. Once confirmed, it may name "TIMELESS Grass & Greens" and link timelessgrass.com
+inside that element (check-dist warns there; it fails anywhere else). Avoid "Denver Basin", "Denver International
+Airport", "Superior" at a sentence start and "Parker" as a surname anywhere else — the town matcher is literal.
+
+## Shared-claim components (render once, identical everywhere)
+
+The Colorado backyard-HOA rule (`co-hoa-backyard-detached`) is NOT hand-written into town blocks. The town template
+renders it once per page from the layer record, linked to `/guides/hoa-turf-approval/`. Identical text everywhere is
+claim-set consistency; paraphrases per town are duplication. Same for soil/climate numbers: a compact data strip
+from the layer records, with prose only for a consequence true of that town.
+
+## Banned in shipped HTML (`scripts/check-dist.mjs`)
+
+TIMELESS phones `303-349-2368`, `854-204-9227` (and digit forms) · `Timeless` · `Acme` · `SOURCE TBD` · `cite index` ·
+`(386)` · `Florida` · `Panhandle` · `lorem` · `pexels.com` · `unsplash.com` · `aggregateRating` · `ratingValue` ·
+`reviewCount` · `"@type":"Review"` · `LandscapeService` · `24/7` · `Denver` (except inside the one boundary note
+component, marked `data-boundary`).

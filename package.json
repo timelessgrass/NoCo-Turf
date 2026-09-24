@@ -8,10 +8,12 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "prebuild": "node scripts/check-layers.mjs && node scripts/check-content.mjs && node scripts/build-water-rates.mjs --check",
+    "build": "astro build && node scripts/md-mirrors.mjs dist && node scripts/check-dist.mjs dist && python3 scripts/check-links.py dist",
     "preview": "astro preview",
     "check": "astro check",
-    "test:unit": "node --test tests/",
+    "test:unit": "node --test \"tests/*.test.mjs\"",
+    "test:launch": "LAUNCH_CHECK=1 node --test tests/redirects.test.mjs",
     "test": "npm run check && npm run test:unit"
   },
   "dependencies": {
@@ -20,6 +22,7 @@
   "devDependencies": {
     "@astrojs/check": "^0.9.10",
     "@playwright/test": "^1.63.0",
+    "js-yaml": "^4.3.2",
     "typescript": "^5.9.3"
   }
 }

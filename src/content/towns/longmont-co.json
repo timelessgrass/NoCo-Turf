@@ -1,0 +1,128 @@
+{
+  "status": "draft",
+  "slug": "longmont-co",
+  "name": "Longmont",
+  "region": "carbon-valley-longmont",
+  "title": "Artificial Turf in Longmont, CO — Single-Family Lots | NoCo Turf Co.",
+  "description": "Longmont bans nonfunctional turf only on multifamily, commercial and common land; no single-family rule was found. Top-tier water is $13.08 per 1,000 gallons.",
+  "h1": "Longmont's 2026 turf ban targets multifamily, commercial and common land",
+  "lede": "Longmont sits mostly in Boulder County, on clay soils the city itself warns about, with only three metro districts and a city water system that prices use in four tiers.",
+  "answer": {
+    "question": "Can I put artificial turf on a single-family lot in Longmont?",
+    "answer": "Yes, as far as the city code shows. NoCo Turf Co. installs artificial turf in Longmont, Colorado, where Land Development Code 15.05.040 bans nonfunctional artificial turf only in new development and redevelopment on multifamily, commercial, industrial, institutional and common-interest land and in rights-of-way. No rule for single-family lots turned up."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Section 15.05.040",
+      "h2": "Since January 1, 2026, Longmont's landscape plans follow the state turf laws.",
+      "paras": [
+        "Longmont's Land Development Code says that beginning January 1, 2026, all landscape plans for new development and redevelopment must comply with Senate Bill 24-005 and House Bill 25-1113. That bans nonfunctional live turf, nonfunctional artificial turf and invasive plants on multifamily, commercial, industrial, institutional and common-interest properties and in public rights-of-way, medians and transportation corridors.",
+        "The section is limited to new development and redevelopment, and no rule for existing single-family lots turned up in the code as codified through June 23, 2026. Functional artificial turf, such as a playground or sports field, stays allowed under the 2025 amendment."
+      ],
+      "layerRefs": ["longmont-ldc-15.05.040-nonfunctional", "co-hb25-1113-functional-turf"],
+      "sources": [
+        "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.05DEST_S15.05.040LACOARST",
+        "https://leg.colorado.gov/bill_files/40673/download"
+      ]
+    },
+    {
+      "kind": "soil",
+      "own": true,
+      "kicker": "Slow-draining clay",
+      "h2": "Longmont's own water pages say its clay soils absorb water slowly.",
+      "paras": [
+        "The City of Longmont tells residents its clay soils absorb water slowly, so heavy watering runs off instead of soaking in. Soil surveys around central Longmont map mostly Nunn clay loam, a high shrink-swell soil, with Ascalon sandy loam.",
+        "A turf base on slow-draining clay needs somewhere for water to go, a slope or a drain, or the water sits in the base."
+      ],
+      "layerRefs": ["longmont-clay-soils-city", "nrcs-soil-longmont"],
+      "sources": [
+        "https://longmontcolorado.gov/water/water-conservation/conserving-water-outdoors/",
+        "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest"
+      ]
+    },
+    {
+      "kind": "utility",
+      "own": true,
+      "kicker": "City water",
+      "h2": "Longmont prices water in four tiers, topping out at $13.08 per 1,000 gallons.",
+      "paras": [
+        "A home with a 5/8-inch meter inside the city pays $11.91 a month plus $4.84 per 1,000 gallons up to 5,000, $7.27 up to 15,000, $9.69 up to 35,000 and $13.08 above that in 2026.",
+        "Longmont is under a Mild Drought Response level: the city is cutting watering on its own landscapes by 10% and encouraging residents to do the same, without requiring it.",
+        "The city's Resource Central partnership includes lawn replacement, which needs at least 200 square feet replaced with at least 50% waterwise plants."
+      ],
+      "layerRefs": ["longmont-rates-2026", "longmont-mild-drought-response-2026", "resource-central-lawn-2026"],
+      "sources": [
+        "https://longmontcolorado.gov/water/rates-and-fees-water-storm-sewer/",
+        "https://longmontcolorado.gov/water/water-conservation/conserving-water-outdoors/",
+        "https://resourcecentral.org/lawn/"
+      ]
+    },
+    {
+      "kind": "housing",
+      "own": true,
+      "kicker": "Older neighborhoods",
+      "h2": "Longmont has just three metro districts, and 37.1% of its homes predate 1980.",
+      "paras": [
+        "The state's district map shows only three metro districts in Longmont: Harvest Junction, Mountain Brook and Twin Peaks. The largest subdivisions by house lots are the original town with 919, Meadowlark 909, Renaissance 814, Park Ridge 780 and Longmont Estates 739, and the median house lot is about 7,220 square feet."
+      ],
+      "layerRefs": [],
+      "sources": [
+        "https://maps.bouldercounty.org/arcgis/rest/services/PARCELS/PARCELS_OWNER/MapServer/0/query",
+        "https://data.colorado.gov/resource/szft-nc4z.geojson",
+        "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B25003,B25034,B25024&geo_ids=16000US0845970"
+      ]
+    },
+    {
+      "kind": "climate",
+      "own": false,
+      "kicker": "Weather",
+      "h2": "Longmont averages 177.7 nights a year at or below freezing.",
+      "paras": [
+        "The Longmont 2 ESE station averages 177.7 days with a low at or below 32°F and 48.8 days at or above 90°F, with 15.21 inches of precipitation (1991–2020 normals). The largest hail NOAA logged near Longmont from 2011 through 2025 was 1.75 inches, on June 28, 2013 and May 9, 2023."
+      ],
+      "layerRefs": ["noaa-normals-longmont-2ese", "noaa-hail-max-longmont"],
+      "sources": [
+        "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00055116&format=json",
+        "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/"
+      ]
+    }
+  ],
+  "sections": [],
+  "faq": [
+    {
+      "q": "Does Longmont's turf ban apply to my house?",
+      "a": "Not that the code shows. Section 15.05.040 covers new development and redevelopment on multifamily, commercial, industrial, institutional and common-interest land and public corridors; no single-family rule turned up."
+    },
+    {
+      "q": "How much does Longmont charge for the water a lawn uses?",
+      "a": "Inside the city in 2026, a 5/8-inch meter pays $11.91 a month plus $4.84 per 1,000 gallons up to 5,000, rising by tier to $13.08 above 35,000."
+    },
+    {
+      "q": "Are Longmont's 2026 watering limits mandatory?",
+      "a": "No. Under the Mild Drought Response the city cuts its own landscape watering by 10% and encourages residents to do the same."
+    }
+  ],
+  "nearby": ["mead-co", "firestone-co", "frederick-co", "berthoud-co", "dacono-co"],
+  "sources": [
+    { "label": "Longmont Land Development Code Sec. 15.05.040.C.4.a.i (codified through Ord. No. O-2026-39, June 23, 2026)", "url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.05DEST_S15.05.040LACOARST", "checked": "2026-09-24" },
+    { "label": "C.R.S. 37-99-102(6.5), added by HB25-1113 (signed act)", "url": "https://leg.colorado.gov/bill_files/40673/download", "checked": "2026-09-24" },
+    { "label": "City of Longmont, Conserving Water Outdoors", "url": "https://longmontcolorado.gov/water/water-conservation/conserving-water-outdoors/", "checked": "2026-09-24" },
+    { "label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Longmont", "url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest", "checked": "2026-09-24" },
+    { "label": "City of Longmont, Rates and Fees – Water, Storm, Sewer (Municipal Code 14.04)", "url": "https://longmontcolorado.gov/water/rates-and-fees-water-storm-sewer/", "checked": "2026-09-24" },
+    { "label": "Resource Central, Lawn Replacement program page", "url": "https://resourcecentral.org/lawn/", "checked": "2026-09-24" },
+    { "label": "Boulder County parcels (PARCELS_OWNER): Longmont house lots, median about 7,220 sq ft; original town 919, Meadowlark 909, Renaissance 814, Park Ridge 780, Longmont Estates 739", "url": "https://maps.bouldercounty.org/arcgis/rest/services/PARCELS/PARCELS_OWNER/MapServer/0/query", "checked": "2026-09-24" },
+    { "label": "Colorado DOLA special-district boundaries: 3 metro districts in Longmont (Harvest Junction, Mountain Brook, Twin Peaks)", "url": "https://data.colorado.gov/resource/szft-nc4z.geojson", "checked": "2026-09-24" },
+    { "label": "ACS 2020–2024 via Census Reporter: Longmont housing (37.1% built before 1980)", "url": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B25003,B25034,B25024&geo_ids=16000US0845970", "checked": "2026-09-24" },
+    { "label": "NOAA NCEI U.S. Climate Normals 1991–2020, station LONGMONT 2 ESE (USC00055116)", "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00055116&format=json", "checked": "2026-09-24" },
+    { "label": "NOAA NCEI Storm Events Database, hail reports near Longmont, 2011–2025", "url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/", "checked": "2026-09-24" }
+  ],
+  "checked": "2026-09-24",
+  "needsFromBrian": [
+    "Confirmation that NoCo serves Longmont (it has no page today on either brand's site)",
+    "Named or described Longmont jobs (neighborhood, month, rough size, use)",
+    "Camera-original photos of at least one Longmont job, before and after",
+    "Google reviews from Longmont customers that name the town, with consent to quote first name and last initial"
+  ]
+}
