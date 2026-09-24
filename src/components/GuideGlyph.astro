@@ -1,0 +1,72 @@
+---
+/**
+ * A drawn plan-sheet glyph for each guide — there is no honest photograph of a statute, a rebate form
+ * or a water bill, so the guides use line drawings in the site's plan language instead: bone linework
+ * on the wet-base slab, one paint mark per drawing (the thing the guide answers).
+ *   rules  — a lot plan: property line, house, street; the backyard outlined in paint
+ *   hoa    — the committee packet: a letter with a stamp
+ *   rebate — a water drop with the rebate struck through
+ *   water  — a rain gauge filled to the season's line
+ *   cost   — a section through the ground: turf, base, subgrade, with a paint depth mark
+ */
+interface Props { id: string; class?: string; }
+const { id, class: cls } = Astro.props;
+const kind = ({
+  'turf-rules-northern-colorado': 'rules', 'hoa-turf-approval': 'hoa', 'turf-rebates-northern-colorado': 'rebate',
+  'water-savings': 'water', 'artificial-turf-cost': 'cost',
+} as Record<string, string>)[id] ?? 'doc';
+---
+<svg class:list={['gglyph', cls]} viewBox="0 0 120 90" aria-hidden="true" focusable="false">
+  {kind === 'rules' && <>
+    <rect class="gg-l gg-dash" x="14" y="8" width="92" height="62" rx="1.5" />
+    <rect class="gg-p" x="18" y="12" width="84" height="18" rx="1" />
+    <rect class="gg-l gg-fill" x="42" y="32" width="36" height="20" />
+    <path class="gg-l gg-thin" d="M22 58h76M22 64h76" />
+    <path class="gg-l gg-bold" d="M6 80h108" />
+    <path class="gg-l gg-thin" d="M60 70v10" />
+  </>}
+  {kind === 'hoa' && <>
+    <path class="gg-l gg-fill" d="M32 6h40l14 14v62H32Z" />
+    <path class="gg-l" d="M72 6v14h14" />
+    <path class="gg-l gg-thin" d="M40 30h32M40 38h38M40 46h28M40 54h34" />
+    <circle class="gg-p" cx="78" cy="68" r="12" />
+    <path class="gg-p" d="m72.5 68 4 4 7.5-8" />
+  </>}
+  {kind === 'rebate' && <>
+    <path class="gg-l gg-fill" d="M60 10c9 13 22 26 22 42a22 22 0 0 1-44 0c0-16 13-29 22-42Z" />
+    <path class="gg-l gg-thin" d="M60 40v28M54.5 45.5c0-3 2.4-4.6 5.5-4.6s5.6 1.6 5.6 4.3c0 6.4-11.2 3.6-11.2 10.3 0 2.8 2.5 4.6 5.6 4.6 3.2 0 5.6-1.6 5.6-4.6" />
+    <path class="gg-p" d="M30 78 90 18" />
+  </>}
+  {kind === 'water' && <>
+    <path class="gg-l gg-fill" d="M46 8h28v70a4 4 0 0 1-4 4H50a4 4 0 0 1-4-4Z" />
+    <rect class="gg-pf" x="49" y="36" width="22" height="43" rx="2" />
+    <path class="gg-l gg-thin" d="M46 18h7M46 28h10M46 38h7M46 48h10M46 58h7M46 68h10" />
+    <path class="gg-p" d="M40 36h40" />
+    <path class="gg-l gg-thin gg-dash" d="M84 36h16M84 82h16M92 36v46" />
+  </>}
+  {kind === 'cost' && <>
+    <path class="gg-l gg-thin" d="M16 20v-7M22 20v-9M28 20v-6M34 20v-8M40 20v-7M46 20v-9M52 20v-6M58 20v-8M64 20v-7M70 20v-9M76 20v-6M82 20v-8M88 20v-7" />
+    <rect class="gg-l gg-fill" x="12" y="20" width="84" height="8" />
+    <rect class="gg-l" x="12" y="28" width="84" height="20" />
+    <path class="gg-l gg-dots" d="M20 36h.1M32 42h.1M44 34h.1M56 41h.1M68 36h.1M80 43h.1M26 44h.1M62 33h.1M88 38h.1" />
+    <path class="gg-l gg-thin" d="M12 58l10-6 10 6 10-6 10 6 10-6 10 6 10-6 8 5M12 68l10-6 10 6 10-6 10 6 10-6 10 6 10-6 8 5" />
+    <path class="gg-p" d="M106 20v28M102 20h8M102 48h8" />
+  </>}
+  {kind === 'doc' && <>
+    <path class="gg-l gg-fill" d="M34 8h52v74H34Z" />
+    <path class="gg-l gg-thin" d="M42 24h36M42 32h36M42 40h26" />
+    <path class="gg-p" d="M42 60h24" />
+  </>}
+</svg>
+
+<style>
+  .gglyph { width: 100%; height: 100%; overflow: visible; }
+  .gg-l { fill: none; stroke: var(--bone); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  .gg-thin { stroke-width: 1.4; opacity: 0.7; }
+  .gg-bold { stroke-width: 3; }
+  .gg-dash { stroke-dasharray: 5 4; }
+  .gg-fill { fill: rgb(var(--bone-rgb) / 0.06); }
+  .gg-dots { stroke-width: 3.2; opacity: 0.75; }
+  .gg-p { fill: none; stroke: var(--paint); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+  .gg-pf { fill: rgb(var(--paint-rgb) / 0.3); stroke: none; }
+</style>

@@ -1,0 +1,267 @@
+---
+/**
+ * Water-savings tool (island). Pick the provider named on your bill, enter the lawn's square feet:
+ * gallons a year first, then what that water is worth at the provider's 2026 rates, as an honest range.
+ *
+ * The math is the guide's own: this component calls buildRows() from scripts/build-water-rates.mjs on
+ * the same layer file, so the tool, the static table, the CSV and the dataset label cannot disagree.
+ *   gallons  = sq ft × 24 in × 144 ÷ 231 (CSU Extension; NIST), rounded to a whole gallon
+ *   dollars  = gallons ÷ 1,000 × the provider's lowest and top price per 1,000 gal, rounded
+ * No payback claim (claims.json: INFERENCE, unapproved). No base charge, no sewer. ELCO: not published.
+ *
+ * No <form> (the page's one form is the estimate form). Without JavaScript the panel still shows the
+ * 1,000 sq ft figures and the provider chart; the controls stay disabled and a <noscript> line points
+ * to the static table. Results are announced through a polite live region, debounced.
+ */
+import providers from '../data/layers/water-providers.json';
+import { buildRows, GAL_PER_SQFT_YEAR, GAL_PER_SQFT_INCH, IRRIGATION_IN } from '../../scripts/build-water-rates.mjs';
+
+const byId = new Map((providers as any[]).map((r) => [r.id, r]));
+const { rows, problems } = buildRows(byId) as { rows: any[]; problems: string[] };
+if (problems.length) throw new Error(`GuideWaterSavings: ${problems.join('; ')}`);
+
+const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+const day = (ymd: string) => { const [y, m, d] = ymd.split('-').map(Number); return `${MONTHS[m - 1]} ${d}, ${y}`; };
+const usd = (n: number) => `$${n.toLocaleString('en-US')}`;
+const overFact = (id: string) => byId.get(id)?.fact ?? '';
+/* "Tier 1 (Non-City IGA)" reads as "Tier 1, Non-City IGA" inside a sentence that is already in parentheses */
+const tier = (s: string | null) => (s ? s.replace(/\s*\(([^)]*)\)$/, ', $1') : s);
+
+const data = rows.map((r) => ({
+  id: r.id, name: r.provider, low: r.low, top: r.top, lt: tier(r.lowTier), tt: tier(r.topTier),
+  fact: r.rec.fact, src: r.rec.source_label, url: r.rec.source_url, checked: day(r.rec.checked),
+  eff: r.id === 'nwcwd-rates-2026' ? 'in effect May 2026' : `effective ${day(r.effective)}`,
+  over: r.overage ?? null, overFact: r.overage ? overFact(r.cfg.overage.id) : null,
+}));
+const priced = rows.filter((r) => r.low !== null);
+const lo = Math.min(...priced.map((r) => r.usdLow));
+const hi = Math.max(...priced.map((r) => r.usdTop));
+const axisMax = Math.ceil(hi / 50) * 50;
+const chart = [...priced].sort((a, b) => a.usdTop - b.usdTop || a.usdLow - b.usdLow);
+const unpriced = rows.filter((r) => r.low === null);
+const GPS = GAL_PER_SQFT_YEAR;
+const defaultGal = Math.round(1000 * GPS);
+const WHY0 = `Across the ${priced.length} rate sets in the table below. Choose your provider for its own range; the tier your summer bills reach decides where you land in it.`;
+const SRC0 = 'Rates from each provider’s own 2026 schedule; every source and the date it was checked is listed under <a href="#sources">Sources</a>. Base charges and sewer are not counted.';
+const json = JSON.stringify({ gps: GPS, inch: IRRIGATION_IN, gpi: GAL_PER_SQFT_INCH.toFixed(3), axis: axisMax, why0: WHY0, src0: SRC0, rows: data }).replace(/</g, '\\u003c');
+---
+<section class="gws on-slab" id="gws" aria-labelledby="gws-h" data-gws>
+  <header class="gws__head">
+    <p class="label label--paint">Tool · runs in your browser, nothing is sent</p>
+    <h2 id="gws-h">Your lawn’s water, in gallons first.</h2>
+  </header>
+
+  <div class="gws__grid">
+    <div class="gws__in">
+      <label class="gws__f">
+        <span class="gws__l">Water provider <span>the name on your bill</span></span>
+        <select data-gws-provider disabled>
+          <option value="">Choose your provider</option>
+          {rows.map((r) => <option value={r.id}>{r.provider}</option>)}
+          <option value="other">Not listed, or not sure</option>
+        </select>
+      </label>
+      <label class="gws__f">
+        <span class="gws__l">Lawn area <span>square feet</span></span>
+        <input type="number" inputmode="numeric" min="1" max="200000" step="10" value="1000" data-gws-sqft disabled />
+      </label>
+      <div class="gws__sizes" role="group" aria-label="Common lawn sizes in square feet">
+        {[300, 800, 1000, 1500, 2500].map((n) => <button type="button" class="gws__size" data-gws-size={n} aria-pressed={n === 1000 ? 'true' : 'false'} disabled>{n.toLocaleString('en-US')}</button>)}
+      </div>
+      <p class="gws__tip">Measure length × width in feet and add up the rectangles. Your own bills are the surest check: a July bill’s gallons minus a winter month’s.</p>
+    </div>
+
+    <div class="gws__out">
+      <div class="gws__stat">
+        <p class="label">Water a year</p>
+        <p class="gws__big num"><span data-gws-gal>{defaultGal.toLocaleString('en-US')}</span><span class="gws__u">gallons</span></p>
+        <p class="gws__sub" data-gws-math>{(1000).toLocaleString('en-US')} sq ft × {IRRIGATION_IN} in of irrigation a year × {GAL_PER_SQFT_INCH.toFixed(3)} gal per sq ft per inch</p>
+      </div>
+      <div class="gws__stat">
+        <p class="label">Worth at 2026 rates</p>
+        <p class="gws__big gws__big--usd num"><span data-gws-usd>{usd(lo)} to {usd(hi)}</span><span class="gws__u" data-gws-usd-u>a year</span></p>
+        <p class="gws__sub" data-gws-why>{WHY0}</p>
+      </div>
+    </div>
+  </div>
+
+  <figure class="gws__chart" aria-labelledby="gws-cap">
+    <p class="gws__cap" id="gws-cap"><span class="label">Dollars a year for <span data-gws-cap-sqft>1,000</span> sq ft, lowest to top rate</span></p>
+    <ol class="gws__rows" role="list">
+      {chart.map((r) => (
+        <li class="gws__row" data-gws-row={r.id} style={`--lo:${(r.usdLow / axisMax) * 100}%;--hi:${(r.usdTop / axisMax) * 100}%`}>
+          <span class="gws__name">{r.cfg.short}</span>
+          <span class="gws__track" aria-hidden="true"><span class:list={['gws__bar', { 'gws__bar--dot': r.usdLow === r.usdTop }]}></span></span>
+          <span class="gws__val num" data-gws-val>{r.usdLow === r.usdTop ? usd(r.usdLow) : `${usd(r.usdLow)}–${r.usdTop}`}</span>
+        </li>
+      ))}
+      {unpriced.map((r) => (
+        <li class="gws__row gws__row--none" data-gws-row={r.id}>
+          <span class="gws__name">{r.cfg.short}</span>
+          <span class="gws__track gws__track--none">usage rates not published</span>
+          <span class="gws__val">—</span>
+        </li>
+      ))}
+    </ol>
+    <div class="gws__axis" aria-hidden="true">
+      <span></span>
+      <span class="gws__ticks"><span data-gws-tick="0">$0</span><span data-gws-tick="0.5">{usd(axisMax / 2)}</span><span data-gws-tick="1">{usd(axisMax)}</span></span>
+      <span></span>
+    </div>
+  </figure>
+
+  <p class="gws__src" data-gws-src set:html={SRC0} />
+  <p class="sr" aria-live="polite" data-gws-live></p>
+  <noscript><p class="gws__nojs">The calculator needs JavaScript. The table below has every provider’s figures for 1,000 square feet: multiply by your lawn’s square feet ÷ 1,000.</p></noscript>
+  <script type="application/json" data-gws-data set:html={json} />
+</section>
+
+<style>
+  .gws { position: relative; margin: clamp(36px, 5vw, 64px) 0 0; padding: clamp(24px, 4vw, 48px); border-radius: var(--r-panel); overflow: clip; }
+  .gws::before { content: ''; position: absolute; inset: 0 0 auto; height: 4px; background: repeating-linear-gradient(90deg, var(--paint) 0 22px, transparent 22px 34px); }
+  .gws__head h2 { font-size: clamp(1.8rem, 1.2rem + 2.2vw, 2.8rem); margin: 12px 0 0; max-width: 18ch; }
+  .gws__grid { display: grid; grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr); gap: clamp(24px, 4vw, 56px); margin-top: clamp(24px, 3vw, 40px); align-items: start; }
+  .gws__in { display: grid; gap: 16px; }
+  .gws__f { display: grid; gap: 8px; }
+  .gws__l { font-family: var(--font-display); font-weight: 680; font-stretch: 98%; font-size: 0.98rem; }
+  .gws__l span { font-family: var(--font-body); font-weight: 400; font-size: 0.85rem; color: var(--bone-3); margin-left: 6px; }
+  .gws select, .gws input { width: 100%; min-height: 54px; padding: 0 14px; border: 0; border-radius: var(--r-control); font: 500 16px/1.2 var(--font-body);
+    color: var(--bone); background-color: rgb(var(--bone-rgb) / 0.07); box-shadow: inset 0 0 0 1.5px rgb(var(--bone-rgb) / 0.3);
+    transition: box-shadow var(--t2) var(--ease); appearance: none; -webkit-appearance: none; }
+  .gws select { background-image: linear-gradient(45deg, transparent 50%, currentColor 50%), linear-gradient(135deg, currentColor 50%, transparent 50%);
+    background-position: calc(100% - 20px) 50%, calc(100% - 14px) 50%; background-size: 6px 6px; background-repeat: no-repeat; padding-right: 38px; text-overflow: ellipsis; }
+  .gws select option { color: var(--ink); }
+  .gws input { font-variant-numeric: tabular-nums; font-family: var(--font-display); font-weight: 700; font-size: 1.25rem; }
+  .gws select:focus, .gws input:focus { outline: none; box-shadow: inset 0 0 0 2px var(--paint); }
+  .gws :disabled { opacity: 0.55; cursor: not-allowed; }
+  .gws__sizes { display: flex; flex-wrap: wrap; gap: 8px; }
+  .gws__size { min-height: 44px; padding: 0 14px; border: 0; border-radius: var(--r-chip); cursor: pointer; background: transparent; color: var(--bone);
+    box-shadow: inset 0 0 0 1.5px rgb(var(--bone-rgb) / 0.3); font-variant-numeric: tabular-nums; font-weight: 600; font-size: 0.92rem;
+    transition: background-color var(--t2) var(--ease), color var(--t2) var(--ease), box-shadow var(--t2) var(--ease), transform var(--t1) var(--ease); }
+  .gws__size:not(:disabled):hover { box-shadow: inset 0 0 0 1.5px var(--paint); }
+  .gws__size:active { transform: scale(0.97); }
+  .gws__size[aria-pressed='true'] { background: var(--paint); color: var(--ink); box-shadow: none; }
+  .gws__tip { margin: 0; font-size: 0.86rem; color: var(--bone-3); max-width: 44ch; }
+
+  .gws__out { display: grid; gap: 0; border-top: 1px solid var(--bone-line); }
+  .gws__stat { padding: 18px 0 20px; border-bottom: 1px solid var(--bone-line); }
+  .gws__stat .label { margin: 0 0 6px; }
+  .gws__big { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; margin: 0; font-family: var(--font-display); font-weight: 820; font-stretch: 116%;
+    font-size: clamp(2.4rem, 1.5rem + 3.6vw, 4.4rem); letter-spacing: -0.04em; line-height: 0.95; color: var(--bone); }
+  .gws__big--usd { font-size: clamp(2rem, 1.3rem + 2.6vw, 3.4rem); }
+  .gws__u { font-size: 0.34em; font-weight: 640; font-stretch: 100%; letter-spacing: -0.01em; color: var(--bone-2); }
+  .gws__sub { margin: 10px 0 0; font-size: 0.9rem; color: var(--bone-2); max-width: 58ch; }
+  .gws__sub :global(strong) { color: var(--bone); font-weight: 650; }
+
+  .gws__chart { margin: clamp(28px, 4vw, 44px) 0 0; }
+  .gws__cap { margin: 0 0 12px; }
+  .gws__rows { list-style: none; display: grid; gap: 2px; margin: 0; padding: 0; }
+  .gws__row, .gws__axis { display: grid; grid-template-columns: minmax(96px, 150px) minmax(0, 1fr) 76px; gap: 14px; align-items: center; }
+  .gws__row { margin: 0; min-height: 32px; border-radius: 4px; transition: background-color var(--t2) var(--ease); }
+  .gws__name { font-size: 0.84rem; color: var(--bone-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .gws__track { position: relative; height: 18px; background: linear-gradient(var(--bone-line), var(--bone-line)) 0 50% / 100% 1px no-repeat; }
+  .gws__track--none { height: auto; background: none; font-size: 0.8rem; color: var(--bone-3); font-style: italic; }
+  .gws__bar { position: absolute; top: 50%; left: var(--lo); width: calc(var(--hi) - var(--lo)); height: 8px; min-width: 8px; translate: 0 -50%; border-radius: 4px;
+    background: rgb(var(--bone-rgb) / 0.42); transition: background-color var(--t3) var(--ease), height var(--t3) var(--ease); }
+  .gws__bar--dot { width: 10px; height: 10px; min-width: 0; translate: -50% -50%; border-radius: 50%; }
+  .gws__val { font-size: 0.84rem; color: var(--bone-2); text-align: right; }
+  .gws__row[data-on] { background: rgb(var(--bone-rgb) / 0.06); }
+  .gws__row[data-on] .gws__name, .gws__row[data-on] .gws__val { color: var(--bone); font-weight: 700; }
+  .gws__row[data-on] .gws__bar { background: var(--paint); height: 12px; }
+  .gws__row[data-on] .gws__bar--dot { height: 14px; width: 14px; }
+  .gws__axis { margin-top: 8px; }
+  .gws__ticks { display: flex; justify-content: space-between; font-size: 0.76rem; color: var(--bone-3); font-variant-numeric: tabular-nums; }
+
+  .gws__src { margin: 22px 0 0; padding-top: 16px; border-top: 1px solid var(--bone-line); font-size: 0.86rem; color: var(--bone-2); max-width: 78ch; }
+  .gws__src :global(a) { color: var(--bone); text-decoration-color: rgb(var(--bone-rgb) / 0.5); }
+  .gws__src :global(a:hover) { text-decoration-color: var(--paint); }
+  .gws__nojs { margin: 12px 0 0; font-size: 0.9rem; color: var(--bone); }
+
+  @media (max-width: 899px) { .gws__grid { grid-template-columns: 1fr; } }
+  @media (max-width: 520px) {
+    .gws { margin-inline: calc(-1 * var(--gutter)); border-radius: 0; padding-inline: var(--gutter); }
+    .gws__row, .gws__axis { grid-template-columns: 92px minmax(0, 1fr) 64px; gap: 10px; }
+    .gws__name, .gws__val { font-size: 0.78rem; }
+    .gws__name { white-space: normal; line-height: 1.2; overflow-wrap: anywhere; }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .gws__bar { transition: background-color var(--t3) var(--ease), height var(--t3) var(--ease), left var(--t4) var(--ease), width var(--t4) var(--ease); }
+  }
+</style>
+
+<script>
+  type Row = { id: string; name: string; low: number | null; top: number | null; lt: string | null; tt: string | null; fact: string; src: string; url: string; checked: string; eff: string; over: number | null; overFact: string | null };
+  const root = document.querySelector<HTMLElement>('[data-gws]');
+  if (root) {
+    const D = JSON.parse(root.querySelector('[data-gws-data]')!.textContent || '{}') as { gps: number; inch: number; gpi: string; axis: number; why0: string; src0: string; rows: Row[] };
+    const $ = <T extends HTMLElement>(s: string) => root.querySelector<T>(s)!;
+    const sel = $<HTMLSelectElement>('[data-gws-provider]');
+    const sq = $<HTMLInputElement>('[data-gws-sqft]');
+    const sizes = [...root.querySelectorAll<HTMLButtonElement>('[data-gws-size]')];
+    const live = $('[data-gws-live]');
+    const n = (x: number) => x.toLocaleString('en-US');
+    const money = (x: number) => `$${n(x)}`;
+    const price = (x: number) => `$${x.toFixed(Math.max(2, (String(x).split('.')[1] || '').length))}`;
+    const esc = (s: string) => s.replace(/[&<>"]/g, (c) => `&#${c.charCodeAt(0)};`);
+    const all = D.rows.filter((r) => r.low !== null);
+    let timer = 0;
+
+    const render = () => {
+      const feet = Math.min(200000, Math.max(0, Math.round(Number(sq.value) || 0)));
+      const gal = Math.round(feet * D.gps);
+      const k = gal / 1000;
+      const $$ = (p: number) => Math.round(p * k);
+      const r = D.rows.find((x) => x.id === sel.value);
+      sizes.forEach((b) => b.setAttribute('aria-pressed', String(Number(b.dataset.gwsSize) === feet)));
+      $('[data-gws-gal]').textContent = n(gal);
+      $('[data-gws-math]').textContent = `${n(feet)} sq ft × ${D.inch} in of irrigation a year × ${D.gpi} gal per sq ft per inch`;
+      $('[data-gws-cap-sqft]').textContent = n(feet);
+      root.querySelectorAll<HTMLElement>('[data-gws-tick]').forEach((t) => { t.textContent = money(Math.round(D.axis * Number(t.dataset.gwsTick) * feet / 1000)); });
+      root.querySelectorAll<HTMLElement>('[data-gws-row]').forEach((li) => {
+        const x = D.rows.find((y) => y.id === li.dataset.gwsRow);
+        li.toggleAttribute('data-on', !!r && li.dataset.gwsRow === r.id);
+        const v = li.querySelector('[data-gws-val]');
+        if (x && v && x.low !== null && x.top !== null) v.textContent = $$(x.low) === $$(x.top) ? money($$(x.low)) : `${money($$(x.low))}–${n($$(x.top))}`;
+      });
+
+      let big: string, why: string, src: string, say: string;
+      if (!r) {
+        const lo = Math.min(...all.map((x) => $$(x.low!))), hi = Math.max(...all.map((x) => $$(x.top!)));
+        big = `${money(lo)} to ${money(hi)}`;
+        why = sel.value === 'other'
+          ? `Your provider’s rates aren’t collected here yet. Multiply the rate per 1,000 gallons on your bill by <strong>${k.toFixed(3)}</strong>.`
+          : D.why0;
+        src = D.src0;
+        say = sel.value === 'other' ? `Multiply your bill’s rate per 1,000 gallons by ${k.toFixed(3)}.` : `Between ${money(lo)} and ${money(hi)} a year, depending on the provider.`;
+      } else if (r.low === null || r.top === null) {
+        big = 'Not published';
+        why = `This provider doesn’t publish its per-gallon residential rates online. Multiply the rate per 1,000 gallons on your bill by <strong>${k.toFixed(3)}</strong>. ${esc(r.fact)}`;
+        say = `${r.name} does not publish its rates. Multiply the rate on your bill by ${k.toFixed(3)}.`;
+        src = '';
+      } else {
+        const a = $$(r.low), b = $$(r.top);
+        big = a === b ? money(a) : `${money(a)} to ${money(b)}`;
+        why = r.low === r.top
+          ? `At ${price(r.low)} per 1,000 gallons.`
+          : `At ${price(r.low)} per 1,000 gallons (${esc(r.lt ?? '')}) to ${price(r.top)} (${esc(r.tt ?? '')}), depending on the tier your summer bills reach.`;
+        if (r.over) why += ` <strong>${money($$(r.over))} a year more</strong> above your annual allotment.`;
+        why += ` <br />From the rate sheet: ${esc(r.fact)}${r.overFact ? ` ${esc(r.overFact)}` : ''}`;
+        say = `${a === b ? money(a) : `${money(a)} to ${money(b)}`} a year at ${r.name} rates.`;
+        src = '';
+      }
+      if (r) src = `Source: <a href="${esc(r.url)}" rel="noopener">${esc(r.src)}</a> · checked ${esc(r.checked)} · rates ${esc(r.eff)}. Base charges and sewer are not counted.`;
+      $('[data-gws-usd]').textContent = big;
+      $('[data-gws-usd-u]').hidden = big === 'Not published';
+      $('[data-gws-why]').innerHTML = why;
+      $('[data-gws-src]').innerHTML = src;
+      clearTimeout(timer);
+      timer = window.setTimeout(() => { live.textContent = `${n(gal)} gallons a year for ${n(feet)} square feet. ${say}`; }, 700);
+    };
+
+    [sel, sq, ...sizes].forEach((c) => { c.disabled = false; });
+    sel.addEventListener('change', render);
+    sq.addEventListener('input', render);
+    sizes.forEach((b) => b.addEventListener('click', () => { sq.value = b.dataset.gwsSize!; render(); }));
+    render();
+  }
+</script>

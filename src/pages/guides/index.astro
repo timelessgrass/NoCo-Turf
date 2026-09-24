@@ -1,0 +1,180 @@
+---
+/**
+ * /guides/ — the guide hub: a considered index, not a card grid. Each guide is a numbered entry on the
+ * sheet with its drawn glyph, its name, the buyer's question and the record's own short answer, and the
+ * date it was checked. Then the receipts (how many public sources stand behind the five, the open
+ * water-rate data) and the closing band with the page's one form.
+ */
+import Base from '../../layouts/Base.astro';
+import PageHero from '../../components/PageHero.astro';
+import PaintWord from '../../components/PaintWord.astro';
+import Icon from '../../components/Icon.astro';
+import CtaBand from '../../components/CtaBand.astro';
+import GuideGlyph from '../../components/GuideGlyph.astro';
+import { visibleGuides, guideLabel } from '../../lib/visible';
+import { SITE } from '../../data/site';
+import { phoneHref, phoneDisplay } from '../../data/brief';
+import providers from '../../data/layers/water-providers.json';
+import { buildRows } from '../../../scripts/build-water-rates.mjs';
+
+const guides = await visibleGuides();
+const smart = (s: string) => s.replace(/(\w)'(\w)/g, '$1’$2');
+const pad = (n: number) => String(n).padStart(2, '0');
+const CTA: Record<string, string> = { 'water-savings': 'Work out your lawn', 'hoa-turf-approval': 'Draft your letter' };
+const items = guides.map((g, i) => {
+  const d = g.entry.data as any;
+  return {
+    id: g.id, no: pad(i + 1), kind: d.kind === 'tool' ? 'Tool' : 'Guide', title: guideLabel(d.title),
+    q: smart(d.answer.question), a: smart(d.answer.answer), checked: d.updated as string, sources: d.sources.length as number,
+    cta: CTA[g.id] ?? 'Read the guide',
+  };
+});
+const words = ['No', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten'];
+const count = words[guides.length] ?? String(guides.length);
+/* public sources only: the site's own dataset file is a derived source, not a public one */
+const sources = new Set(guides.flatMap((g) => (g.entry.data as any).sources.map((s: any) => s.url)).filter((u: string) => !u.startsWith(SITE))).size;
+const latest = items.map((i) => i.checked).sort().at(-1) ?? '';
+const { rows } = buildRows(new Map((providers as any[]).map((r) => [r.id, r]))) as { rows: any[] };
+
+const title = 'Northern Colorado Turf Guides: Rules, Rebates, Water | NoCo Turf Co.';
+const description = 'Artificial turf rules town by town, HOA rights, rebates, water savings and what moves a quote in Northern Colorado. Every guide cites its sources, dated.';
+const crumbs = [{ name: 'Guides', path: '/guides/' }];
+const graph = [{
+  '@type': 'ItemList', '@id': `${SITE}/guides/#list`, name: 'Northern Colorado artificial turf guides',
+  itemListElement: items.map((it, i) => ({ '@type': 'ListItem', position: i + 1, name: it.title, url: `${SITE}/guides/${it.id}/` })),
+}];
+---
+<Base title={title} description={description} crumbs={crumbs} graph={graph}>
+  <PageHero label="Guides · Northern Colorado" crumbs={crumbs} compact lede={`${count} guides for Northern Colorado homeowners: what the law and your town allow, what an HOA can still require, which rebates exist, what your lawn’s water is worth, and what moves a quote.`}>
+    Turf rules, rebates and water math, <PaintWord now>checked at the source.</PaintWord>
+    <div class="hrec" slot="after">
+      <div class="hrec__row">
+        <p class="hrec__c"><span class="hrec__k">Checked</span> <time class="hrec__v num" datetime={latest}>{latest}</time></p>
+        <p class="hrec__c"><span class="hrec__k">Public sources</span> <span class="hrec__v num">{sources}</span></p>
+        <p class="hrec__c"><span class="hrec__k">Water data</span> <a class="hrec__v" href="/data/noco-water-rates-2026.csv">CSV · CC BY 4.0</a></p>
+      </div>
+      {phoneHref && <p class="hrec__call">A question these don’t answer? <a href={phoneHref} data-cta="guides-call">Call <span class="num">{phoneDisplay}</span></a></p>}
+    </div>
+  </PageHero>
+
+  <section class="section gidx" aria-labelledby="gidx-h">
+    <div class="wrap">
+      <header class="shead shead--split">
+        <div>
+          <p class="label">The guides</p>
+          <h2 id="gidx-h">{count} questions to settle <PaintWord>before you dig.</PaintWord></h2>
+        </div>
+        <p class="lede">Each guide opens with its short answer, printed here. The rest of the page is the working: the table, the statute, the rate, and the date it was checked.</p>
+      </header>
+
+      <ol class="gidx__list" role="list">
+        {items.map((it) => (
+          <li class="gidx__item">
+            <article class="gidx__card rise" aria-labelledby={`gidx-${it.id}`}>
+              <div class="gidx__side">
+                <span class="gidx__no num" aria-hidden="true">{it.no}</span>
+                <span class="gidx__glyph"><GuideGlyph id={it.id} /></span>
+              </div>
+              <div class="gidx__head">
+                <p class="label">{it.kind}</p>
+                <h3 id={`gidx-${it.id}`}><a class="gidx__link" href={`/guides/${it.id}/`}>{it.title}</a></h3>
+              </div>
+              <div class="gidx__ans">
+                <p class="gidx__q">{it.q}</p>
+                <p class="gidx__a">{it.a}</p>
+                <p class="gidx__meta"><span>Checked <time datetime={it.checked}>{it.checked}</time> · {it.sources} sources</span><span class="gidx__cta" aria-hidden="true">{it.cta}<Icon name="arrow" size={18} /></span></p>
+              </div>
+            </article>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <section class="section ground-2 hsrc" aria-labelledby="hsrc-h">
+    <div class="wrap hsrc__grid">
+      <header class="hsrc__head">
+        <p class="label">How these are built</p>
+        <h2 id="hsrc-h">Each guide names its sources. <PaintWord>Each source carries a date.</PaintWord></h2>
+        <p class="lede">State law from the Colorado General Assembly’s own bill records. Town rules from each town’s published code or its own pages. Water rates from each provider’s 2026 schedule. Rebate programs quoted in their own words. Soil and irrigation figures from the Colorado Geological Survey, USDA soil survey data and CSU Extension.</p>
+      </header>
+      <dl class="hsrc__stats">
+        <div class="rise"><dt class="num">{sources}</dt><dd>public sources behind the {count.toLowerCase()} guides, each listed with the date it was checked</dd></div>
+        <div class="rise"><dt class="num">{rows.length}</dt><dd>water-rate rows, free to reuse as a <a href="/data/noco-water-rates-2026.csv">CSV</a> under CC BY 4.0 with credit and a link</dd></div>
+        <div class="rise"><dt class="num">{latest}</dt><dd>the most recent check, printed at the top of every guide</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <CtaBand title="Read up, then" payoff="walk the yard with us." />
+</Base>
+
+<style>
+  /* hero record strip */
+  .hrec { margin-top: 30px; display: grid; gap: 18px; }
+  .hrec__row { display: flex; flex-wrap: wrap; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--line); }
+  .hrec__c { display: grid; gap: 2px; margin: 0 22px 0 0; padding: 12px 22px 12px 0; border-right: 1px solid var(--line); }
+  .hrec__c:last-child { border-right: 0; margin-right: 0; }
+  .hrec__k { font-family: var(--font-display); font-size: var(--fs-label); font-weight: 650; font-stretch: 78%; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-3); }
+  .hrec__v { font-family: var(--font-display); font-weight: 720; font-stretch: 104%; font-size: 1rem; }
+  a.hrec__v { display: inline-block; padding-block: 10px; margin-block: -10px; text-decoration-color: var(--paint); text-decoration-thickness: 2px; }
+  @media (max-width: 599px) {
+    .hrec__row { display: grid; grid-template-columns: 1fr 1fr; border-bottom: 0; }
+    .hrec__c { margin-right: 0; padding: 10px 12px 10px 0; border-right: 0; border-bottom: 1px solid var(--line); }
+  }
+  .hrec__call { margin: 0; font-size: var(--fs-small); color: var(--ink-2); }
+  .hrec__call a { display: inline-flex; align-items: center; min-height: 44px; font-weight: 700; color: var(--ink); text-decoration-color: var(--paint); text-decoration-thickness: 2px; }
+
+  /* section head (the homepage's .shead, same rhythm) */
+  .shead { display: grid; gap: 16px; margin-bottom: clamp(36px, 5vw, 72px); }
+  .shead h2 { max-width: 16ch; }
+  .shead--split { grid-template-columns: 1.2fr 1fr; align-items: end; gap: 24px 64px; }
+  .shead--split .lede { margin: 0; }
+  @media (max-width: 899px) { .shead--split { grid-template-columns: 1fr; } }
+
+  /* the index */
+  .gidx__list { list-style: none; border-top: 2px solid var(--ink); }
+  .gidx__item { border-bottom: 1px dashed rgb(var(--ink-rgb) / 0.3); }
+  .gidx__card { position: relative; display: grid; grid-template-columns: 188px minmax(0, 0.9fr) minmax(0, 1.1fr); gap: 20px clamp(24px, 3vw, 56px);
+    padding: clamp(24px, 2.6vw, 36px) 0; align-items: start; transition: background-color var(--t2) var(--ease); }
+  .gidx__card:hover { background: linear-gradient(90deg, transparent, rgb(var(--ink-rgb) / 0.03) 10%, rgb(var(--ink-rgb) / 0.03) 90%, transparent); }
+  .gidx__side { display: grid; grid-template-columns: 40px 1fr; gap: 14px; align-items: start; }
+  .gidx__no { font-family: var(--font-display); font-weight: 800; font-stretch: 110%; font-size: 0.95rem; color: var(--ink-3); padding-top: 4px; }
+  .gidx__glyph { display: block; aspect-ratio: 4 / 3; padding: 10px; border-radius: var(--r-control); background: var(--slab); transition: background-color var(--t2) var(--ease); }
+  .gidx__card:hover .gidx__glyph { background: var(--slab-2); }
+  .gidx__head .label { margin: 2px 0 10px; }
+  .gidx__head h3 { font-size: clamp(1.45rem, 1.1rem + 1.3vw, 2.2rem); font-weight: 800; font-stretch: 112%; letter-spacing: -0.03em; line-height: 1.04; max-width: 18ch; }
+  .gidx__link { text-decoration: none; }
+  .gidx__link::after { content: ''; position: absolute; inset: 0; }
+  .gidx__card:hover .gidx__link { text-decoration: underline; text-decoration-color: var(--paint); text-decoration-thickness: 3px; text-underline-offset: 0.14em; }
+  .gidx__link:focus-visible { outline: none; }
+  .gidx__card:has(.gidx__link:focus-visible) { outline: 3px solid var(--paint); outline-offset: 4px; border-radius: 4px; }
+  .gidx__q { margin: 0 0 8px; font-family: var(--font-display); font-weight: 720; font-stretch: 104%; font-size: 1.1rem; letter-spacing: -0.015em; line-height: 1.25; }
+  .gidx__a { margin: 0; color: var(--ink-2); font-size: var(--fs-small); max-width: 60ch; }
+  .gidx__meta { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 20px; margin: 16px 0 0; font-size: 0.84rem; color: var(--ink-3); }
+  .gidx__cta { display: inline-flex; align-items: center; gap: 10px; font-family: var(--font-display); font-weight: 720; font-stretch: 104%; font-size: 0.95rem; color: var(--ink); }
+  .gidx__cta :global(svg) { width: 40px; height: 40px; padding: 11px; border-radius: 50%; box-shadow: inset 0 0 0 1.5px var(--line); transition: background-color var(--t2) var(--ease), box-shadow var(--t2) var(--ease); }
+  .gidx__card:hover .gidx__cta :global(svg) { background: var(--paint); box-shadow: none; }
+  @media (max-width: 1099px) {
+    .gidx__card { grid-template-columns: 120px minmax(0, 1fr); }
+    .gidx__side { grid-row: span 2; grid-template-columns: 1fr; gap: 8px; }
+    .gidx__ans { grid-column: 2; }
+  }
+  @media (max-width: 599px) {
+    .gidx__card { grid-template-columns: 76px minmax(0, 1fr); gap: 14px 16px; }
+    .gidx__glyph { padding: 6px; }
+    .gidx__ans { grid-column: 1 / -1; }
+    .gidx__side { grid-row: auto; }
+  }
+
+  /* receipts */
+  .hsrc__grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(32px, 6vw, 110px); align-items: end; }
+  .hsrc__head h2 { margin: 14px 0 20px; max-width: 16ch; }
+  .hsrc__stats { margin: 0; display: grid; border-top: 2px solid var(--ink); }
+  .hsrc__stats div { display: grid; grid-template-columns: minmax(7.5rem, auto) 1fr; gap: 20px; align-items: baseline; padding: 18px 0; border-bottom: 1px dashed rgb(var(--ink-rgb) / 0.3); }
+  .hsrc__stats dt { font-family: var(--font-display); font-weight: 820; font-stretch: 116%; font-size: clamp(2rem, 1.5rem + 1.8vw, 3.2rem); letter-spacing: -0.04em; line-height: 1; }
+  .hsrc__stats div:last-child dt { font-size: clamp(1.3rem, 1.05rem + 1vw, 1.9rem); letter-spacing: -0.02em; }
+  .hsrc__stats dd { margin: 0; color: var(--ink-2); font-size: var(--fs-small); max-width: 36ch; }
+  .hsrc__stats a { color: var(--ink); text-decoration-color: var(--paint); }
+  @media (max-width: 899px) { .hsrc__grid { grid-template-columns: 1fr; } }
+</style>
