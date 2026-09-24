@@ -170,7 +170,7 @@ and the Timnath, Frederick and Johnstown code hosts.
   the checker even in drafts (for example "water savings alone", "certified installer", "our base spec",
   "per square foot installed"). Greeley's proposal is written as "an installer who is licensed or certified",
   matching the layer record, not the register's banned phrase.
-- Hedge unsettled law with "It depends … we confirm", label anything statutory "Not legal advice", and summarise
+- Hedge unsettled law with "It depends … ask {the town's} Planning" (never "we confirm" — a NoCo process claim the register blocks until Brian confirms it), label anything statutory "Not legal advice", and summarise
   state law briefly with primary links; the statewide guides belong to the sister brand.
 - Never type NoCo's phone number (the template renders it from the brief), never name a Denver-metro town,
   never use wealth or demographic language.

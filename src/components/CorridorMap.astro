@@ -12,8 +12,8 @@
 import { REGIONS } from '../data/territory.mjs';
 
 interface Town { slug: string; name: string; region: string; tier: string; lat: number; lng: number; draft?: boolean }
-interface Props { towns: Town[]; current?: string; compact?: boolean; }
-const { towns, current, compact = false } = Astro.props;
+interface Props { towns: Town[]; current?: string; compact?: boolean; /** false where the page already carries its own boundary note */ boundaryLabel?: boolean; }
+const { towns, current, compact = false, boundaryLabel = true } = Astro.props;
 
 const box = { latMax: 40.76, latMin: 40.0, lngMin: -105.22, lngMax: -104.64 };
 const K = Math.cos((40.4 * Math.PI) / 180);
@@ -51,10 +51,8 @@ const routeCss = towns.map((t) => `.cmap:has([data-town="${t.slug}"]:is(:hover,:
     <text class="cmap__note" x={px(-105.205, 40.63)[0]} y={px(-105.2, 40.63)[1]} transform={`rotate(-90 ${px(-105.205, 40.63).join(' ')})`}>Foothills</text>
     <path class="cmap__road" d={i25} /><text class="cmap__road-label" x={px(-104.982, 40.73)[0] + 6} y={px(-104.982, 40.73)[1]}>I-25</text>
     <path class="cmap__road cmap__road--minor" d={us34} /><text class="cmap__road-label" x={px(-104.68, 40.42)[0] - 30} y={px(-104.68, 40.42)[1] - 8}>US 34</text>
-    <g data-boundary>
-      <line class="cmap__boundary" x1="0" x2={W} y1={by} y2={by} />
-      <text class="cmap__note" x={W / 2} y={by + 22} text-anchor="middle">Denver metro · not covered</text>
-    </g>
+    <line class="cmap__boundary" x1="0" x2={W} y1={by} y2={by} />
+    {boundaryLabel && <g data-boundary><text class="cmap__note" x={W / 2} y={by + 22} text-anchor="middle">Denver metro · not covered</text></g>}
     {towns.map((t) => <path class="cmap__route" data-route={t.slug} d={route(t)} pathLength="1" />)}
     {towns.map((t) => {
       const [x, y] = px(t.lng, t.lat);

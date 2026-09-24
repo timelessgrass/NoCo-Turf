@@ -14,6 +14,7 @@ import BuildSection from '../components/BuildSection.astro';
 import CorridorMap from '../components/CorridorMap.astro';
 import Faq from '../components/Faq.astro';
 import EstimateForm from '../components/EstimateForm.astro';
+import CoCrewClip from '../components/CoCrewClip.astro';
 import { photo, monthLabel } from '../data/photos';
 import { visibleServices } from '../data/services';
 import { visibleTowns } from '../lib/visible';
@@ -147,13 +148,7 @@ const faq = [
   <!-- 6 · Who — "Who is standing in my yard?" -->
   <section class="section crew" aria-labelledby="crew-h">
     <div class="wrap crew__grid">
-      <figure class="crew__clip">
-        <video class="crew__video" muted playsinline loop preload="none" data-clip aria-label={crew.alt} width="540" height="960">
-          <source src="/media/crew-power-broom.mp4" type="video/mp4" />
-        </video>
-        <Photo photo={crew} sizes="(max-width: 899px) 90vw, 36vw" widths={[480, 800]} class="crew__poster" />
-        <figcaption><span class="label">On the job</span>{crew.caption} — {crew.place}</figcaption>
-      </figure>
+      <CoCrewClip label="On the job" sizes="(max-width: 899px) 90vw, 36vw" class="crew__clip" />
       <div class="crew__copy">
         <p class="label">Who shows up</p>
         {years
@@ -307,11 +302,7 @@ const faq = [
 
   /* ── Crew ── */
   .crew__grid { display: grid; grid-template-columns: minmax(0, 0.8fr) minmax(0, 1fr); gap: clamp(32px, 6vw, 110px); align-items: center; }
-  .crew__clip { margin: 0; position: relative; }
-  .crew__video, .crew__clip :global(.crew__poster) { width: 100%; aspect-ratio: 9 / 16; max-height: 78vh; object-fit: cover; border-radius: var(--r-panel); background: var(--slab); }
-  .crew__video { position: absolute; inset: 0 0 auto; z-index: 1; opacity: 0; transition: opacity var(--t4) var(--ease); }
-  .crew__video[data-playing] { opacity: 1; }
-  .crew__clip figcaption { display: grid; gap: 4px; margin-top: 12px; font-size: var(--fs-small); color: var(--ink-2); }
+  .crew__grid :global(.crew__clip) { max-width: 460px; }
   .crew__copy h2 { margin: 14px 0 26px; max-width: 13ch; }
   .crew__copy > p { color: var(--ink-2); max-width: 52ch; }
   .quote { margin: 0 0 24px; }
@@ -333,16 +324,3 @@ const faq = [
   @media (max-width: 899px) { .close__grid { grid-template-columns: 1fr; } .close__photo { display: none; } }
 </style>
 
-<script>
-  /* The crew clip plays only while it's on screen, never under reduced motion, never on Save-Data. */
-  const v = document.querySelector<HTMLVideoElement>('[data-clip]');
-  const conn = (navigator as Navigator & { connection?: { saveData?: boolean } }).connection;
-  if (v && 'IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: reduce)').matches && !conn?.saveData) {
-    new IntersectionObserver(([e]) => {
-      if (e.isIntersecting) {
-        if (v.preload !== 'auto') { v.preload = 'auto'; v.load(); }
-        v.play().then(() => v.setAttribute('data-playing', '')).catch(() => {});
-      } else v.pause();
-    }, { threshold: 0.35 }).observe(v);
-  }
-</script>

@@ -16,12 +16,11 @@ export async function routes(): Promise<string[]> {
   const all = [
     '/',
     ...(confirmedServices.length ? ['/services/', ...confirmedServices.map((s) => `/services/${s.slug}/`)] : []),
-    '/about/', '/contact/', '/privacy/', '/terms/',
+    '/about/', '/contact/', '/privacy/', '/terms/', '/work/',
     ...(towns.length ? ['/areas/'] : []),
     ...towns.map((t) => `/areas/${(t.data as any).slug}/`),
     ...(guides.length ? ['/guides/'] : []),
     ...guides.map((g) => `/guides/${g.id}/`),
-    ...(work.length ? ['/work/'] : []),
     ...work.map((w) => `/work/${w.id}/`),
   ];
   assertUniqueRoutes(all);
