@@ -1,0 +1,81 @@
+/*
+ * NoCo Turf Co. — design tokens.
+ *
+ * OBJECT: THE LAYOUT LINE. (Provisional — Brian has not yet named the thing he touches first on a job;
+ * Ty directed the build to proceed on 2026-09-24. .site/decisions/2026-09-24-creative-direction.md)
+ * Every install starts as an outline marked on the old lawn, becomes a cut edge, and ends as a curve set
+ * against concrete, rock or steel. The line is the brand; the photographs are the green.
+ *
+ *   paint  — inverted marking-paint orange: the layout mark. The ONE accent. Fills, strokes, focus, payoff
+ *            words on dark ground. Never small text on the light ground (2.4:1) — ink sits on paint instead.
+ *   ground — crusher fines / compacted road base: the warm grey-tan under every lawn. Never #fff.
+ *   slab   — a freshly dug, wet base: the dark where every commercial ask sits.
+ *   ink / bone — one text colour per ground, used at several opacities.
+ *   (green) — never in the palette. The turf in the photographs supplies it.
+ *
+ * Type: the document this buyer trusts is the site plan / spec sheet an HOA architectural committee reads.
+ *   Archivo (variable width + weight) — wide and heavy for titles, narrow uppercase for plan annotations.
+ *   Public Sans — the U.S. Web Design System's documentary sans for everything you read.
+ *   Tracking is bimodal: display negative, annotations positive, nothing in between.
+ */
+:root {
+  --ground: #efebe2;
+  --ground-2: #e6e0d4;
+  --slab: #13120f;
+  --slab-2: #1c1a16;
+
+  --ink-rgb: 27 25 21;
+  --ink: rgb(var(--ink-rgb));
+  --ink-2: rgb(var(--ink-rgb) / 0.74);
+  --ink-3: rgb(var(--ink-rgb) / 0.54);
+  --line: rgb(var(--ink-rgb) / 0.14);
+
+  --bone-rgb: 243 239 231;
+  --bone: rgb(var(--bone-rgb));
+  --bone-2: rgb(var(--bone-rgb) / 0.76);
+  --bone-3: rgb(var(--bone-rgb) / 0.54);
+  --bone-line: rgb(var(--bone-rgb) / 0.16);
+
+  --paint-rgb: 255 90 31;
+  --paint: rgb(var(--paint-rgb));
+  --paint-press: color-mix(in oklab, var(--paint) 86%, black);
+
+  --font-display: 'Archivo Variable', 'Archivo', ui-sans-serif, system-ui, sans-serif;
+  --font-body: 'Public Sans Variable', 'Public Sans', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  /* One curve for the whole site: a heavy roll pushed out that lies flat, no overshoot
+     (Vaul / iOS drawer curve). Scroll-linked motion is linear. */
+  --ease: cubic-bezier(0.32, 0.72, 0, 1);
+  --t1: 120ms;
+  --t2: 200ms;
+  --t3: 320ms;
+  --t4: 480ms;
+  --t5: 900ms;
+
+  --fs-hero: clamp(3.1rem, 1.35rem + 7.6vw, 8.6rem);
+  --fs-h2: clamp(2.15rem, 1.25rem + 3.7vw, 4.75rem);
+  --fs-h3: clamp(1.3rem, 1.05rem + 0.95vw, 1.85rem);
+  --fs-lede: clamp(1.1rem, 0.98rem + 0.5vw, 1.4rem);
+  --fs-body: 1.0625rem;
+  --fs-small: 0.9375rem;
+  --fs-label: 0.75rem;
+
+  --gutter: clamp(16px, 4.6vw, 56px);
+  --maxw: 1360px;
+  --measure: 64ch;
+  --header-h: 68px;
+  --bar-h: 0px; /* the mobile action bar's height; set under 900px */
+
+  /* Radius follows the object: photos are prints (crisp), controls are cut stock, chips follow the
+     curve of a finished edge. Never one value everywhere. */
+  --r-photo: 3px;
+  --r-control: 7px;
+  --r-panel: 14px;
+  --r-chip: 999px;
+
+  --shadow-lift: 0 1px 0 rgb(var(--ink-rgb) / 0.05), 0 18px 40px -24px rgb(var(--ink-rgb) / 0.45);
+}
+
+@media (max-width: 899px) {
+  :root { --bar-h: 68px; --header-h: 60px; }
+}

@@ -1,0 +1,238 @@
+---
+/**
+ * Contact chrome + navigation. The phone is the first thing you can tap (spine beat 0).
+ *   desktop: wordmark · Services ▾ · Work · Areas ▾ · Guides ▾ · phone · Book a yard walk
+ *   mobile:  wordmark · call icon (44px) · Menu → a full-height sheet (<dialog>); without JS, Menu is a
+ *            link to the footer's site index.
+ * Top-level items are real hub links; with JS a click opens the panel instead (disclosure pattern:
+ * aria-expanded, Esc and outside-click close). Over a dark hero the header is clear with bone text and
+ * turns solid ground once you scroll (data-tone="photo" → data-scrolled).
+ */
+import Icon from './Icon.astro';
+import { visibleServices } from '../data/services';
+import { visibleTowns, visibleGuides, townsByRegion, guideLabel } from '../lib/visible';
+import { businessName, phoneHref, phoneDisplay } from '../data/brief';
+
+interface Props { tone?: 'photo' | 'ground'; }
+const { tone = 'ground' } = Astro.props;
+const towns = await visibleTowns();
+const regions = townsByRegion(towns);
+const guides = await visibleGuides();
+const path = Astro.url.pathname;
+const here = (p: string) => (path === p || path.startsWith(p) ? 'page' : undefined);
+const name = businessName ?? 'NoCo Turf Co.';
+---
+<header class="hdr" data-tone={tone} data-hdr>
+  <div class="hdr__bar wrap">
+    <a class="brand" href="/" aria-label={`${name} — home`}>
+      <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 27.5C5 14 12 5.5 27 5" pathLength="1" /></svg>
+      <span class="brand__word">NoCo Turf<span class="brand__co"> Co.</span></span>
+    </a>
+
+    <nav class="nav" aria-label="Main">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a class="nav__link" href="/services/" data-panel-btn="p-services" aria-current={here('/services/')}>Services<Icon name="chevron" size={16} class="nav__chev" /></a>
+          <div class="panel" id="p-services" hidden>
+            <div class="panel__inner wrap">
+              <p class="label">What we install</p>
+              <ul class="panel__grid panel__grid--svc">
+                {visibleServices.map((s) => (
+                  <li><a class="panel__svc" href={`/services/${s.slug}/`}><span class="panel__svc-name">{s.name}</span><span class="panel__svc-short">{s.short}</span></a></li>
+                ))}
+              </ul>
+              <a class="panel__all" href="/services/">All services <Icon name="arrow" size={16} /></a>
+            </div>
+          </div>
+        </li>
+        <li class="nav__item"><a class="nav__link" href="/work/" aria-current={here('/work/')}>Work</a></li>
+        <li class="nav__item">
+          <a class="nav__link" href="/areas/" data-panel-btn="p-areas" aria-current={here('/areas/')}>Areas<Icon name="chevron" size={16} class="nav__chev" /></a>
+          <div class="panel" id="p-areas" hidden>
+            <div class="panel__inner wrap">
+              <p class="label">Northern Colorado, Wellington to Longmont</p>
+              <div class="panel__grid panel__grid--areas">
+                {regions.map((r) => (
+                  <div>
+                    <p class="panel__region">{r.label}</p>
+                    <ul>{r.towns.map((t) => <li><a href={`/areas/${t.slug}/`}>{t.name}</a></li>)}</ul>
+                  </div>
+                ))}
+              </div>
+              <a class="panel__all" href="/areas/">Map of every town <Icon name="arrow" size={16} /></a>
+            </div>
+          </div>
+        </li>
+        {guides.length > 0 && (
+          <li class="nav__item">
+            <a class="nav__link" href="/guides/" data-panel-btn="p-guides" aria-current={here('/guides/')}>Guides<Icon name="chevron" size={16} class="nav__chev" /></a>
+            <div class="panel" id="p-guides" hidden>
+              <div class="panel__inner wrap">
+                <p class="label">Rules, rebates, water and cost</p>
+                <ul class="panel__grid panel__grid--guides">
+                  {guides.map((g) => <li><a href={`/guides/${g.id}/`}>{guideLabel((g.entry.data as any).title)}</a></li>)}
+                </ul>
+                <a class="panel__all" href="/guides/">All guides <Icon name="arrow" size={16} /></a>
+              </div>
+            </div>
+          </li>
+        )}
+      </ul>
+    </nav>
+
+    <div class="hdr__acts">
+      {phoneHref && (
+        <a class="hdr__tel" href={phoneHref} data-cta="nav-call" aria-label={`Call ${phoneDisplay}`}>
+          <Icon name="phone" size={18} /><span class="hdr__tel-num num">{phoneDisplay}</span>
+        </a>
+      )}
+      <a class="btn btn--paint hdr__cta" href="/contact/#estimate" data-cta="nav-quote">Book a yard walk</a>
+      <a class="hdr__menu" href="#site-index" data-menu-open aria-haspopup="dialog">
+        <Icon name="menu" size={22} /><span>Menu</span>
+      </a>
+    </div>
+  </div>
+</header>
+
+<dialog class="sheet" data-sheet aria-label="Menu">
+  <div class="sheet__top wrap">
+    <a class="brand" href="/"><svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 27.5C5 14 12 5.5 27 5" /></svg><span class="brand__word">NoCo Turf<span class="brand__co"> Co.</span></span></a>
+    <button class="sheet__close" type="button" data-menu-close aria-label="Close menu"><Icon name="close" size={24} /></button>
+  </div>
+  <nav class="sheet__nav wrap" aria-label="Menu">
+    <p class="label">Services</p>
+    <ul class="sheet__list">{visibleServices.map((s) => <li><a href={`/services/${s.slug}/`}>{s.name}</a></li>)}</ul>
+    <p class="label">More</p>
+    <ul class="sheet__list sheet__list--small">
+      <li><a href="/work/">Work</a></li>
+      <li><a href="/areas/">Areas we cover</a></li>
+      {guides.length > 0 && <li><a href="/guides/">Guides</a></li>}
+      <li><a href="/about/">About</a></li>
+      <li><a href="/contact/">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="sheet__acts wrap">
+    {phoneHref && <a class="btn btn--line" href={phoneHref} data-cta="menu-call"><Icon name="phone" />Call <span class="btn__num">{phoneDisplay}</span></a>}
+    <a class="btn btn--paint" href="/contact/#estimate" data-cta="menu-quote">Book a yard walk</a>
+  </div>
+</dialog>
+
+<style>
+  .hdr { position: fixed; inset: 0 0 auto; z-index: 50; color: var(--ink); background: rgb(239 235 226 / 0.94); box-shadow: 0 1px 0 var(--line);
+    transition: background-color var(--t3) var(--ease), color var(--t3) var(--ease), box-shadow var(--t3) var(--ease); }
+  @supports (backdrop-filter: blur(1px)) { .hdr { background: rgb(239 235 226 / 0.86); backdrop-filter: saturate(1.4) blur(14px); } }
+  .hdr[data-tone='photo']:not([data-scrolled]):not([data-open]) { background: transparent; box-shadow: none; backdrop-filter: none; color: var(--bone); }
+  .hdr__bar { height: var(--header-h); display: flex; align-items: center; gap: 28px; }
+
+  .brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; flex: none; }
+  .brand__mark { width: 30px; height: 30px; }
+  .brand__mark path { fill: none; stroke: var(--paint); stroke-width: 4.2; stroke-linecap: round; }
+  .brand__word { font-family: var(--font-display); font-weight: 830; font-stretch: 120%; font-size: 1.28rem; letter-spacing: -0.04em; line-height: 1; }
+  .brand__co { font-weight: 500; font-stretch: 100%; opacity: 0.7; }
+
+  .nav { flex: 1; }
+  .nav__list { list-style: none; display: flex; gap: 4px; }
+  .nav__link { display: inline-flex; align-items: center; gap: 4px; min-height: 44px; padding: 0 12px; border-radius: var(--r-control);
+    font-family: var(--font-display); font-weight: 620; font-stretch: 104%; font-size: 0.98rem; text-decoration: none; letter-spacing: -0.005em; }
+  .nav__link:hover, .nav__link[aria-expanded='true'] { background: rgb(var(--ink-rgb) / 0.06); }
+  .hdr[data-tone='photo']:not([data-scrolled]):not([data-open]) .nav__link:hover { background: rgb(var(--bone-rgb) / 0.12); }
+  .nav__link[aria-current='page'] { box-shadow: inset 0 -2px 0 var(--paint); border-radius: 0; }
+  :global(.nav__chev) { transition: rotate var(--t2) var(--ease); opacity: 0.6; }
+  .nav__link[aria-expanded='true'] :global(.nav__chev) { rotate: 180deg; }
+
+  .panel { position: absolute; left: 0; right: 0; top: var(--header-h); background: var(--ground); color: var(--ink); box-shadow: 0 1px 0 var(--line), 0 30px 60px -30px rgb(var(--ink-rgb) / 0.4); }
+  .panel__inner { padding-block: 28px 32px; display: grid; gap: 18px; }
+  .panel__grid { list-style: none; display: grid; gap: 6px 28px; }
+  .panel__grid--svc { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
+  .panel__svc { display: grid; gap: 2px; padding: 12px 14px; margin: -2px -14px; border-radius: var(--r-control); text-decoration: none; }
+  .panel__svc:hover { background: var(--ground-2); }
+  .panel__svc-name { font-family: var(--font-display); font-weight: 700; font-stretch: 106%; font-size: 1.05rem; }
+  .panel__svc-short { color: var(--ink-3); font-size: var(--fs-small); }
+  .panel__grid--areas { grid-template-columns: repeat(5, 1fr); }
+  .panel__grid--areas ul { list-style: none; display: grid; gap: 4px; }
+  .panel__grid--areas a { text-decoration: none; font-size: var(--fs-small); display: inline-block; padding: 3px 0; }
+  .panel__grid--areas a:hover { text-decoration: underline; text-decoration-color: var(--paint); }
+  .panel__region { font-family: var(--font-display); font-weight: 700; font-stretch: 100%; font-size: 0.92rem; margin-bottom: 8px; }
+  .panel__grid--guides { grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
+  .panel__grid--guides a { display: block; padding: 8px 0; font-weight: 550; text-decoration: none; border-bottom: 1px solid var(--line); }
+  .panel__grid--guides a:hover { text-decoration: underline; text-decoration-color: var(--paint); }
+  .panel__all { justify-self: start; display: inline-flex; gap: 8px; align-items: center; font-family: var(--font-display); font-weight: 700; font-stretch: 104%; text-decoration: none; }
+  .panel__all:hover { color: var(--ink-2); }
+  @media (prefers-reduced-motion: no-preference) {
+    .panel:not([hidden]) { animation: panel-in var(--t3) var(--ease); }
+    @keyframes panel-in { from { opacity: 0; translate: 0 -8px; } }
+  }
+
+  .hdr__acts { display: flex; align-items: center; gap: 10px; margin-left: auto; }
+  .hdr__tel { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 14px; border-radius: var(--r-chip);
+    text-decoration: none; font-family: var(--font-display); font-weight: 680; font-stretch: 100%; box-shadow: inset 0 0 0 1.5px currentColor; }
+  .hdr__tel:hover { box-shadow: inset 0 0 0 1.5px var(--paint); }
+  .hdr__cta { min-height: 44px; padding: 0 18px; font-size: 0.95rem; }
+  .hdr__menu { display: none; align-items: center; gap: 6px; min-height: 44px; padding: 0 12px; text-decoration: none; font-family: var(--font-display); font-weight: 680; }
+
+  @media (max-width: 1099px) { .hdr__tel-num { display: none; } .hdr__tel { width: 44px; padding: 0; justify-content: center; } }
+  @media (max-width: 899px) {
+    .nav, .hdr__cta { display: none; }
+    .hdr__menu { display: inline-flex; }
+    .hdr__bar { gap: 12px; }
+    .brand__word { font-size: 1.12rem; }
+  }
+
+  .sheet { width: 100%; max-width: none; height: 100dvh; max-height: none; margin: 0; padding: 0; border: 0; background: var(--ground); color: var(--ink); overflow-y: auto; }
+  .sheet::backdrop { background: rgb(var(--ink-rgb) / 0.4); }
+  .sheet__top { height: var(--header-h); display: flex; align-items: center; justify-content: space-between; }
+  .sheet__close { width: 44px; height: 44px; display: grid; place-items: center; border: 0; background: none; cursor: pointer; }
+  .sheet__nav { padding-block: 12px 24px; display: grid; gap: 10px; }
+  .sheet__list { list-style: none; margin-bottom: 18px; }
+  .sheet__list a { display: block; padding: 10px 0; font-family: var(--font-display); font-weight: 780; font-stretch: 112%; font-size: 1.7rem; letter-spacing: -0.03em; text-decoration: none; border-bottom: 1px solid var(--line); }
+  .sheet__list--small a { font-size: 1.2rem; font-weight: 650; }
+  .sheet__acts { display: grid; gap: 10px; padding-bottom: calc(24px + env(safe-area-inset-bottom)); }
+  @media (prefers-reduced-motion: no-preference) {
+    .sheet[open] { animation: sheet-in var(--t4) var(--ease); }
+    @keyframes sheet-in { from { translate: 0 24px; opacity: 0; } }
+  }
+</style>
+
+<script>
+  const hdr = document.querySelector<HTMLElement>('[data-hdr]');
+  if (hdr) {
+    /* solid once the page moves */
+    let raf = 0;
+    const onScroll = () => { raf ||= requestAnimationFrame(() => { raf = 0; hdr.toggleAttribute('data-scrolled', scrollY > 24); }); };
+    addEventListener('scroll', onScroll, { passive: true }); onScroll();
+
+    /* disclosure panels */
+    const btns = [...hdr.querySelectorAll<HTMLAnchorElement>('[data-panel-btn]')];
+    const close = (except?: HTMLElement) => btns.forEach((b) => {
+      if (b === except) return;
+      b.setAttribute('aria-expanded', 'false');
+      document.getElementById(b.dataset.panelBtn!)?.setAttribute('hidden', '');
+    });
+    btns.forEach((b) => {
+      b.setAttribute('aria-expanded', 'false');
+      b.setAttribute('aria-controls', b.dataset.panelBtn!);
+      b.addEventListener('click', (e) => {
+        if (matchMedia('(max-width: 899px)').matches) return;
+        e.preventDefault();
+        const panel = document.getElementById(b.dataset.panelBtn!)!;
+        const open = b.getAttribute('aria-expanded') !== 'true';
+        close(b);
+        b.setAttribute('aria-expanded', String(open));
+        panel.toggleAttribute('hidden', !open);
+        hdr.toggleAttribute('data-open', open);
+      });
+    });
+    const shut = () => { close(); hdr.removeAttribute('data-open'); };
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') shut(); });
+    document.addEventListener('click', (e) => { if (!hdr.contains(e.target as Node)) shut(); });
+
+    /* mobile sheet */
+    const sheet = document.querySelector<HTMLDialogElement>('[data-sheet]');
+    document.querySelectorAll('[data-menu-open]').forEach((a) => a.addEventListener('click', (e) => {
+      if (!sheet?.showModal) return;
+      e.preventDefault(); sheet.showModal();
+    }));
+    sheet?.querySelector('[data-menu-close]')?.addEventListener('click', () => sheet.close());
+    sheet?.addEventListener('click', (e) => { if ((e.target as HTMLElement).closest('a')) sheet.close(); });
+  }
+</script>

@@ -15,6 +15,7 @@
  *   full  — 3+ town-specific blocks found in research
  *   lean  — exactly enough town-specific material; shorter page
  * region groups the /areas/ list and the corridor map; it is how buyers describe where they live.
+ * lat/lng: Census 2024 Gazetteer internal points (www2.census.gov …/2024_gaz_place_08.txt), checked 2026-09-24.
  */
 
 export const REGIONS = {
@@ -27,23 +28,23 @@ export const REGIONS = {
 
 /** slug is the URL segment under /areas/ (existing live URLs keep their slugs). */
 export const NOCO_TOWNS = [
-  { slug: 'windsor-co', name: 'Windsor', county: 'Weld & Larimer', region: 'windsor-johnstown', tier: 'hub', live: true },
-  { slug: 'fort-collins-co', name: 'Fort Collins', county: 'Larimer', region: 'poudre', tier: 'full', live: true, sections: ['Laporte'] },
-  { slug: 'loveland-co', name: 'Loveland', county: 'Larimer', region: 'loveland-berthoud', tier: 'full', live: true },
-  { slug: 'greeley-co', name: 'Greeley', county: 'Weld', region: 'greeley-east-weld', tier: 'full', live: true, sections: ['LaSalle', 'Platteville'] },
-  { slug: 'timnath-co', name: 'Timnath', county: 'Larimer', region: 'windsor-johnstown', tier: 'full', live: true },
-  { slug: 'johnstown-co', name: 'Johnstown', county: 'Weld & Larimer', region: 'windsor-johnstown', tier: 'full', live: true },
-  { slug: 'berthoud-co', name: 'Berthoud', county: 'Larimer & Weld', region: 'loveland-berthoud', tier: 'full', live: true },
-  { slug: 'firestone-co', name: 'Firestone', county: 'Weld', region: 'carbon-valley-longmont', tier: 'full', live: true },
-  { slug: 'mead-co', name: 'Mead', county: 'Weld', region: 'carbon-valley-longmont', tier: 'full', live: true },
-  { slug: 'frederick-co', name: 'Frederick', county: 'Weld', region: 'carbon-valley-longmont', tier: 'full', live: true },
-  { slug: 'longmont-co', name: 'Longmont', county: 'Boulder & Weld', region: 'carbon-valley-longmont', tier: 'full', live: false },
-  { slug: 'wellington-co', name: 'Wellington', county: 'Larimer', region: 'poudre', tier: 'lean', live: true },
-  { slug: 'severance-co', name: 'Severance', county: 'Weld', region: 'windsor-johnstown', tier: 'lean', live: false },
-  { slug: 'evans-co', name: 'Evans', county: 'Weld', region: 'greeley-east-weld', tier: 'lean', live: false },
-  { slug: 'eaton-co', name: 'Eaton', county: 'Weld', region: 'greeley-east-weld', tier: 'lean', live: false },
-  { slug: 'milliken-co', name: 'Milliken', county: 'Weld', region: 'greeley-east-weld', tier: 'lean', live: false },
-  { slug: 'dacono-co', name: 'Dacono', county: 'Weld', region: 'carbon-valley-longmont', tier: 'lean', live: true },
+  { slug: 'windsor-co', name: 'Windsor', county: 'Weld & Larimer', region: 'windsor-johnstown', tier: 'hub', live: true, lat: 40.4783, lng: -104.9151 },
+  { slug: 'fort-collins-co', name: 'Fort Collins', county: 'Larimer', region: 'poudre', tier: 'full', live: true, lat: 40.5482, lng: -105.0648, sections: ['Laporte'] },
+  { slug: 'loveland-co', name: 'Loveland', county: 'Larimer', region: 'loveland-berthoud', tier: 'full', live: true, lat: 40.4169, lng: -105.0631 },
+  { slug: 'greeley-co', name: 'Greeley', county: 'Weld', region: 'greeley-east-weld', tier: 'full', live: true, lat: 40.4166, lng: -104.7733, sections: ['LaSalle', 'Platteville'] },
+  { slug: 'timnath-co', name: 'Timnath', county: 'Larimer', region: 'windsor-johnstown', tier: 'full', live: true, lat: 40.5332, lng: -104.9645 },
+  { slug: 'johnstown-co', name: 'Johnstown', county: 'Weld & Larimer', region: 'windsor-johnstown', tier: 'full', live: true, lat: 40.3072, lng: -104.9112 },
+  { slug: 'berthoud-co', name: 'Berthoud', county: 'Larimer & Weld', region: 'loveland-berthoud', tier: 'full', live: true, lat: 40.2847, lng: -104.9655 },
+  { slug: 'firestone-co', name: 'Firestone', county: 'Weld', region: 'carbon-valley-longmont', tier: 'full', live: true, lat: 40.1557, lng: -104.9486 },
+  { slug: 'mead-co', name: 'Mead', county: 'Weld', region: 'carbon-valley-longmont', tier: 'full', live: true, lat: 40.227, lng: -104.9883 },
+  { slug: 'frederick-co', name: 'Frederick', county: 'Weld', region: 'carbon-valley-longmont', tier: 'full', live: true, lat: 40.1059, lng: -104.9745 },
+  { slug: 'longmont-co', name: 'Longmont', county: 'Boulder & Weld', region: 'carbon-valley-longmont', tier: 'full', live: false, lat: 40.1682, lng: -105.1005 },
+  { slug: 'wellington-co', name: 'Wellington', county: 'Larimer', region: 'poudre', tier: 'lean', live: true, lat: 40.7007, lng: -105.0057 },
+  { slug: 'severance-co', name: 'Severance', county: 'Weld', region: 'windsor-johnstown', tier: 'lean', live: false, lat: 40.5059, lng: -104.8635 },
+  { slug: 'evans-co', name: 'Evans', county: 'Weld', region: 'greeley-east-weld', tier: 'lean', live: false, lat: 40.3502, lng: -104.7484 },
+  { slug: 'eaton-co', name: 'Eaton', county: 'Weld', region: 'greeley-east-weld', tier: 'lean', live: false, lat: 40.5257, lng: -104.713 },
+  { slug: 'milliken-co', name: 'Milliken', county: 'Weld', region: 'greeley-east-weld', tier: 'lean', live: false, lat: 40.3105, lng: -104.8584 },
+  { slug: 'dacono-co', name: 'Dacono', county: 'Weld', region: 'carbon-valley-longmont', tier: 'lean', live: true, lat: 40.0635, lng: -104.9468 },
 ];
 
 /** TIMELESS Grass & Greens territory. NoCo never builds a page for these, and the lead router sends

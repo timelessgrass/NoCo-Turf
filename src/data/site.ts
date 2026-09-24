@@ -13,5 +13,13 @@ export const SITE = 'https://www.nocoturf.com';
  */
 export const PRELAUNCH = true;
 
+/**
+ * PREVIEW: while PRELAUNCH is on, draft towns/guides and unconfirmed-but-previewable services render so Ty and
+ * Brian can review the whole site on the (password-protected, noindex) Netlify preview. The sitemap still lists
+ * only published records, and at launch (PRELAUNCH = false) drafts stop rendering entirely — only records that
+ * pass their gates exist. Preview pages carry a visible "Draft" ribbon.
+ */
+export const SHOW_DRAFTS = PRELAUNCH;
+
 /** The one easing curve and duration scale live in the design tokens once creative direction is
  *  approved (gate 5). Until then there is no design system — see DESIGN-PENDING.md. */

@@ -1,0 +1,20 @@
+---
+/** Visible breadcrumbs (Home → hub → page). The JSON-LD BreadcrumbList comes from Base with the same list. */
+interface Props { crumbs: { name: string; path: string }[]; }
+const { crumbs } = Astro.props;
+const trail = [{ name: 'Home', path: '/' }, ...crumbs];
+---
+<nav class="crumbs" aria-label="Breadcrumb">
+  <ol>
+    {trail.map((c, i) => (
+      <li>{i < trail.length - 1 ? <a href={c.path}>{c.name}</a> : <span aria-current="page">{c.name}</span>}</li>
+    ))}
+  </ol>
+</nav>
+<style>
+  .crumbs ol { list-style: none; display: flex; flex-wrap: wrap; gap: 4px 0; font-size: 0.85rem; color: var(--ink-3); }
+  .crumbs li:not(:last-child)::after { content: '/'; margin: 0 10px; opacity: 0.5; }
+  .crumbs a { text-decoration: none; color: var(--ink-2); display: inline-block; padding: 8px 0; }
+  .crumbs a:hover { text-decoration: underline; text-decoration-color: var(--paint); }
+  .crumbs [aria-current] { display: inline-block; padding: 8px 0; }
+</style>

@@ -6,6 +6,7 @@
 import type { APIRoute } from 'astro';
 import { SITE, PRELAUNCH } from '../data/site';
 import { getPublishedCollection } from '../lib/published-content';
+import { confirmedServices } from '../data/services';
 import { assertUniqueRoutes } from '../lib/content-policy.mjs';
 
 export async function routes(): Promise<string[]> {
@@ -14,6 +15,8 @@ export async function routes(): Promise<string[]> {
   const work = await getPublishedCollection('work');
   const all = [
     '/',
+    ...(confirmedServices.length ? ['/services/', ...confirmedServices.map((s) => `/services/${s.slug}/`)] : []),
+    '/about/', '/contact/', '/privacy/', '/terms/',
     ...(towns.length ? ['/areas/'] : []),
     ...towns.map((t) => `/areas/${(t.data as any).slug}/`),
     ...(guides.length ? ['/guides/'] : []),

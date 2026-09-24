@@ -1,0 +1,11 @@
+---
+/**
+ * The payoff word, with a layout mark sprayed under it. The mark is a background stroke with
+ * box-decoration-break: clone, so a multi-word payoff can wrap and every line gets its own mark
+ * (a nowrap span overflowed at 390px). It sweeps in left→right like a spray pass: once on load for
+ * the hero (`now`), on scroll elsewhere. `text` also colours the word paint (dark slab only).
+ */
+interface Props { now?: boolean; text?: boolean; }
+const { now = false, text = false } = Astro.props;
+---
+<span class:list={['paint-word', { 'paint-word--now': now, 'paint-word--text': text }]}><slot /></span>

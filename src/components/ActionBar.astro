@@ -1,0 +1,23 @@
+---
+/** Spine beat 10: the persistent mobile conversion layer. Visible without JS, 44px+ targets,
+ *  clears the home indicator, and its height is reserved (body padding-bottom: var(--bar-h)). */
+import Icon from './Icon.astro';
+import { phoneHref, phoneDisplay } from '../data/brief';
+---
+<div class="abar" role="region" aria-label="Call or book">
+  {phoneHref && <a class="abar__btn abar__btn--call" href={phoneHref} data-cta="bar-call"><Icon name="phone" size={19} /><span>Call</span></a>}
+  <a class="abar__btn abar__btn--quote" href="/contact/#estimate" data-cta="bar-quote">Book a yard walk</a>
+</div>
+<style>
+  .abar { display: none; }
+  @media (max-width: 899px) {
+    .abar { display: grid; grid-template-columns: auto 1fr; gap: 8px; position: fixed; inset: auto 0 0; z-index: 45;
+      padding: 8px 10px calc(8px + env(safe-area-inset-bottom)); background: rgb(19 18 15 / 0.94); box-shadow: 0 -1px 0 rgb(var(--bone-rgb) / 0.1); }
+    @supports (backdrop-filter: blur(1px)) { .abar { background: rgb(19 18 15 / 0.82); backdrop-filter: blur(14px) saturate(1.3); } }
+    .abar__btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 52px; padding: 0 20px; border-radius: var(--r-control);
+      font-family: var(--font-display); font-weight: 740; font-stretch: 108%; text-decoration: none; transition: transform var(--t1) var(--ease); }
+    .abar__btn:active { transform: scale(0.97); }
+    .abar__btn--call { color: var(--bone); box-shadow: inset 0 0 0 1.5px rgb(var(--bone-rgb) / 0.5); }
+    .abar__btn--quote { background: var(--paint); color: var(--ink); }
+  }
+</style>

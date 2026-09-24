@@ -1,0 +1,42 @@
+---
+/**
+ * FAQ as native <details> (works without JS; exclusive-open via `name`). Answers lead with the direct answer.
+ * The page mirrors the SAME items verbatim into FAQPage JSON-LD via faqGraph() — never different text.
+ * Answers may carry a trailing link (href) rendered after the text; the JSON-LD gets the text only.
+ */
+interface Item { q: string; a: string; href?: string; hrefLabel?: string }
+interface Props { items: Item[]; name?: string; }
+const { items, name = 'faq' } = Astro.props;
+---
+<div class="faq">
+  {items.map((it, i) => (
+    <details class="faq__item" name={name} open={i === 0}>
+      <summary class="faq__q"><span>{it.q}</span><span class="faq__x" aria-hidden="true"></span></summary>
+      <div class="faq__a">
+        <p>{it.a}</p>
+        {it.href && <p class="faq__more"><a href={it.href}>{it.hrefLabel ?? 'Read more'} →</a></p>}
+      </div>
+    </details>
+  ))}
+</div>
+
+<style>
+  .faq { border-top: 1px solid var(--line); }
+  .faq__item { border-bottom: 1px solid var(--line); }
+  .faq__q { list-style: none; display: flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 64px; padding: 18px 0; cursor: pointer;
+    font-family: var(--font-display); font-weight: 700; font-stretch: 106%; font-size: clamp(1.1rem, 1rem + 0.5vw, 1.4rem); letter-spacing: -0.018em; line-height: 1.2; }
+  .faq__q::-webkit-details-marker { display: none; }
+  .faq__q:hover span:first-child { text-decoration: underline; text-decoration-color: var(--paint); text-decoration-thickness: 2px; text-underline-offset: 0.2em; }
+  .faq__x { position: relative; flex: none; width: 34px; height: 34px; border-radius: 50%; box-shadow: inset 0 0 0 1.5px var(--line); transition: background var(--t2) var(--ease), rotate var(--t3) var(--ease); }
+  .faq__x::before, .faq__x::after { content: ''; position: absolute; left: 50%; top: 50%; width: 12px; height: 2px; background: currentColor; translate: -50% -50%; }
+  .faq__x::after { rotate: 90deg; transition: scale var(--t3) var(--ease); }
+  .faq__item[open] .faq__x { background: var(--paint); box-shadow: none; }
+  .faq__item[open] .faq__x::after { scale: 0 1; }
+  .faq__a { padding: 0 0 22px; max-width: 68ch; color: var(--ink-2); }
+  .faq__a p:last-child { margin: 0; }
+  .faq__more a { font-family: var(--font-display); font-weight: 700; font-stretch: 104%; color: var(--ink); text-decoration-color: var(--paint); }
+  @media (prefers-reduced-motion: no-preference) {
+    .faq__item::details-content { block-size: 0; overflow-y: clip; transition: block-size var(--t4) var(--ease), content-visibility var(--t4) allow-discrete; }
+    .faq__item[open]::details-content { block-size: auto; }
+  }
+</style>

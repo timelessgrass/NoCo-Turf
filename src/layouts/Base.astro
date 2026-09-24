@@ -1,39 +1,45 @@
 ---
 /**
- * The one layout. STRUCTURE ONLY until creative direction is approved (gate 5, DESIGN-PENDING.md):
- * no tokens, no fonts, no accent — system type on a neutral ground so the pipeline (schema, crawl
- * surface, links, form) can be built and tested before anything is designed.
- *
- * Every page gets ONE @graph: WebSite, the single #business node (only when its facts are
- * renderable — src/data/brief.ts), WebPage (about → #business), BreadcrumbList when the page passes
- * crumbs, plus whatever page nodes it adds (Service, Article, Dataset, FAQPage mirroring the printed
- * FAQ). Never aggregateRating, ratingValue, reviewCount or Review — tests/schema.test.mjs fails the
- * build on any of them.
+ * The one layout. Every page gets ONE JSON-LD @graph: WebSite, the single #business node (only when its
+ * facts are renderable — src/data/brief.ts), WebPage (about → #business), BreadcrumbList when the page
+ * passes crumbs, plus whatever page nodes it adds (Service, Article, Dataset, FAQPage mirroring the printed
+ * FAQ). Never aggregateRating, ratingValue, reviewCount or Review — check-dist.mjs fails the build on any.
  */
+import '@fontsource-variable/archivo/standard.css';
+import '@fontsource-variable/public-sans';
+import '../styles/global.css';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import ActionBar from '../components/ActionBar.astro';
 import { SITE, PRELAUNCH } from '../data/site';
-import brief, { fact, businessName, legalName, phone, phoneHref, phoneDisplay, email, socialProfiles, location } from '../data/brief';
+import brief, { fact, businessName, legalName, phone, email, socialProfiles, location } from '../data/brief';
 
 interface Props {
   title: string;
   description: string;
-  /** Override for pages that must never be indexed (/thanks/, 404). */
+  /** Pages that must never be indexed (/thanks/, /review/, 404). */
   noindex?: boolean;
   crumbs?: { name: string; path: string }[];
-  /** Extra JSON-LD nodes for this page; they may reference `${SITE}/#business` by @id. */
+  /** Extra JSON-LD nodes; they may reference `${SITE}/#business` by @id. */
   graph?: Record<string, unknown>[];
+  /** 'photo' when the page opens on a full-bleed dark photograph (clear header until scroll). */
+  tone?: 'photo' | 'ground';
+  /** PREVIEW: this page's record is a draft / unconfirmed — show the ribbon. */
+  draft?: boolean;
+  ogImage?: string;
 }
 
-const { title, description, noindex = false, crumbs = [], graph = [] } = Astro.props;
+const { title, description, noindex = false, crumbs = [], graph = [], tone = 'ground', draft = false, ogImage } = Astro.props;
 const canonical = new URL(Astro.url.pathname, SITE).href;
 const robots = PRELAUNCH || noindex ? 'noindex, nofollow' : 'index, follow';
 
 const BUSINESS_ID = `${SITE}/#business`;
 const address = fact<Record<string, string>>(location.address);
 const hours = fact<unknown[]>(location.hours);
-const areas = (brief.service_areas ?? []).map((n: any) => fact<string>(n)).filter(Boolean);
+const areas = (brief.service_areas ?? []).map((n: any) => fact<string>(n?.name ?? n)).filter(Boolean);
 
-/* The #business node exists only when name AND phone are renderable facts — a half-entity with a
-   guessed field is worse than none (check-entity.py compares every field to the brief). */
+/* The #business node exists only when name AND phone are renderable facts — a half-entity with a guessed
+   field is worse than none (check-entity.py compares every field to the brief). */
 const business = businessName && phone ? {
   '@type': 'HomeAndConstructionBusiness',
   '@id': BUSINESS_ID,
@@ -70,34 +76,36 @@ const jsonld = JSON.stringify({ '@context': 'https://schema.org', '@graph': node
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
     <meta name="robots" content={robots} />
+    <meta name="theme-color" content="#13120f" />
     <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={businessName ?? 'NoCo Turf Co.'} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
+    {ogImage && <meta property="og:image" content={new URL(ogImage, SITE).href} />}
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <script type="application/ld+json" set:html={jsonld} />
-    <style is:global>
-      /* PRE-DESIGN structural styles — replaced wholesale by the approved design system (gate 5/6). */
-      :root { color-scheme: light; }
-      body { margin: 0; font: 400 1rem/1.55 system-ui, -apple-system, 'Segoe UI', sans-serif; background: #f4f2ee; color: #1e1d1a; }
-      main { max-width: 68ch; margin: 0 auto; padding: 2rem 1rem 6rem; }
-      a { color: inherit; }
-      .skip { position: absolute; left: -9999px; }
-      .skip:focus { left: 1rem; top: 1rem; }
-    </style>
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>
-    <main id="main">
+    <SiteHeader tone={tone} />
+    {draft && <p class="draft-ribbon" role="note">Draft preview — not published. Facts pending Brian's confirmation.</p>}
+    <main id="main" class:list={{ 'main--under': tone !== 'photo' }}>
       <slot />
     </main>
-    {phoneHref && phoneDisplay
-      ? <footer><p><a href={phoneHref} data-cta="footer-call">{phoneDisplay}</a></p></footer>
-      : <Fragment set:html={`<!-- phone not rendered: ${brief.identity?.locations?.[0]?.phone?.status ?? 'no location in brief'} -->`} />}
+    <SiteFooter />
+    <ActionBar />
   </body>
 </html>
+
+<style is:global>
+  .main--under { padding-top: var(--header-h); }
+  .draft-ribbon { position: fixed; z-index: 60; left: 50%; bottom: calc(var(--bar-h) + 12px); translate: -50% 0; margin: 0;
+    padding: 8px 14px; border-radius: var(--r-chip); background: var(--ink); color: var(--bone); font-size: 0.8rem; font-weight: 600;
+    box-shadow: 0 0 0 2px var(--paint); white-space: nowrap; pointer-events: none; }
+</style>

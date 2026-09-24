@@ -89,6 +89,28 @@ const guides = defineCollection({
   }),
 });
 
+/** Service pages: long-form body in Markdown, the buyer-facing structure in frontmatter. One per slug in
+ *  src/data/services.ts. Same claim rules as towns/guides: trade truth and layer facts, never NoCo claims
+ *  the register hasn't cleared. `photos` are ids from src/data/photos.ts that honestly show this kind of job. */
+const services = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/services' }),
+  schema: z.object({
+    status,
+    slug: z.enum(['artificial-turf-installation', 'pet-turf', 'putting-greens', 'playground-turf', 'commercial-turf', 'turf-repair']),
+    title: z.string().max(70),
+    description: z.string().max(160),
+    h1: z.string(),
+    lede: z.string(),
+    answer: z.object({ question: z.string(), answer: z.string() }),
+    faq: z.array(qa).max(8).default([]),
+    layerRefs: z.array(z.string()).default([]),
+    sources: z.array(source).default([]),
+    photos: z.array(z.string()).default([]),
+    guides: z.array(z.string()).default([]),
+    needsFromBrian: z.array(z.string()).default([]),
+  }),
+});
+
 /** Case studies — the core proof unit. Every field traces to Brian's job ledger and photo originals. */
 const work = defineCollection({
   loader: glob({ pattern: '**/*.json', base: './src/content/work' }),
@@ -114,4 +136,4 @@ const work = defineCollection({
   }),
 });
 
-export const collections = { towns, guides, work };
+export const collections = { towns, guides, work, services };

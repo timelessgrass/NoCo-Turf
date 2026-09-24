@@ -1,0 +1,23 @@
+---
+/** "Sources, checked on" — the receipts under a page built from public records. Each with its check date. */
+interface Props { sources: { label: string; url: string; checked?: string }[]; title?: string; }
+const { sources, title = 'Sources' } = Astro.props;
+const fmt = (d?: string) => (d ? new Date(`${d}T12:00:00Z`).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' }) : '');
+---
+{sources.length > 0 && (
+  <details class="src">
+    <summary><span class="label">{title}</span><span class="src__n num">{sources.length}</span></summary>
+    <ol>
+      {sources.map((s) => <li><a href={s.url} rel="noopener">{s.label}</a>{s.checked && <span class="src__d"> · checked {fmt(s.checked)}</span>}</li>)}
+    </ol>
+  </details>
+)}
+<style>
+  .src { border-top: 1px solid var(--line); padding-top: 14px; }
+  .src summary { list-style: none; display: inline-flex; align-items: center; gap: 10px; min-height: 44px; cursor: pointer; }
+  .src summary::-webkit-details-marker { display: none; }
+  .src__n { display: grid; place-items: center; min-width: 26px; height: 22px; padding: 0 6px; border-radius: var(--r-chip); background: var(--ground-2); font-size: 0.78rem; font-weight: 700; }
+  .src ol { margin: 8px 0 0; padding-left: 1.3em; font-size: 0.88rem; color: var(--ink-2); display: grid; gap: 6px; }
+  .src a { color: var(--ink-2); overflow-wrap: anywhere; }
+  .src__d { color: var(--ink-3); }
+</style>

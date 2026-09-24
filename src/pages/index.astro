@@ -1,12 +1,348 @@
 ---
 /**
- * PRELAUNCH holding page. The real homepage is built only after creative direction (gate 5) and is
- * approved on its own (gate 6) before any other page exists — ~/.claude/skills/site/reference/checklist.md.
- * No NAP, claims or phone here beyond what the brief can render.
+ * Homepage — the spine, each beat named by the buyer question it answers (reference/spine.md).
+ * PREVIEW BUILD (Ty, 2026-09-24): creative direction is provisional (decision record); services and towns
+ * render while unconfirmed; every photo is Brian's own job pending brand assignment. Copy makes NO claim the
+ * claims register hasn't cleared except Brian's own attributed words (flagged in the register as pending).
  */
 import Base from '../layouts/Base.astro';
+import Photo from '../components/Photo.astro';
+import PaintWord from '../components/PaintWord.astro';
+import Icon from '../components/Icon.astro';
+import WorkReel from '../components/WorkReel.astro';
+import BuildSection from '../components/BuildSection.astro';
+import CorridorMap from '../components/CorridorMap.astro';
+import Faq from '../components/Faq.astro';
+import EstimateForm from '../components/EstimateForm.astro';
+import { photo, monthLabel } from '../data/photos';
+import { visibleServices } from '../data/services';
+import { visibleTowns } from '../lib/visible';
+import { faqGraph } from '../lib/schema';
+import brief, { fact, legalName, phoneHref, phoneDisplay, socialProfiles } from '../data/brief';
+
+const hero = photo('fire-pit');
+const reel = ['dusk', 'boulders', 'playset', 'fenced-yard', 'side-yard', 'rock-border', 'street-view', 'driveway'].map(photo);
+const crew = photo('crew');
+const towns = await visibleTowns();
+const reg = fact<{ sos_id: string; lookup_url: string }>(brief.identity?.registration);
+const years = fact<number>(brief.identity?.founder_experience_years);
+const gbp = socialProfiles.find((p) => p.network === 'Google Business Profile');
+const ig = socialProfiles.find((p) => p.network === 'Instagram');
+const svcPhoto = (id: string | null) => (id ? photo(id) : null);
+
+const faq = [
+  { q: 'Can my HOA stop me from putting turf in my backyard?',
+    a: 'Not behind a detached single-family home. Colorado law says an HOA’s landscaping rules may not prohibit artificial turf in that backyard, though the HOA can still adopt design guidelines. Front yards aren’t covered, and on attached homes such as townhomes the HOA may limit turf to rear yards.',
+    href: '/guides/hoa-turf-approval/', hrefLabel: 'How HOA approval works' },
+  { q: 'Is artificial turf banned in Colorado now?',
+    a: 'Not on your house lot. Since January 1, 2026, Colorado cities, towns and special districts may not allow nonfunctional artificial turf in new development or redevelopment on commercial, institutional and industrial property, HOA common areas and street rights-of-way. Single-family lots aren’t covered, functional turf such as playgrounds, sports fields and putting greens stays allowed, and some towns set their own rules.',
+    href: '/guides/turf-rules-northern-colorado/', hrefLabel: 'Turf rules, town by town' },
+  { q: 'Will my water provider give me a rebate for artificial turf?',
+    a: 'No. None of the Northern Colorado water-provider programs checked in September 2026 pays for artificial turf, and state turf-replacement grant money can’t be used for it. A planted bed in the same project may still qualify for a plant-based rebate.',
+    href: '/guides/turf-rebates-northern-colorado/', hrefLabel: 'Every provider’s program' },
+  { q: 'Can artificial turf in Colorado contain PFAS?',
+    a: 'Not if it’s installed now. Since January 1, 2026, Colorado law bars anyone from installing artificial turf that contains intentionally added PFAS chemicals. Ask any installer for the product’s documentation.',
+    href: '/guides/turf-rules-northern-colorado/', hrefLabel: 'What Colorado law says' },
+  { q: 'How much water does replacing a lawn save?',
+    a: 'About 14,961 gallons a year for every 1,000 square feet of Kentucky bluegrass, based on CSU Extension’s 24 inches of supplemental irrigation a year on the Front Range. What that water is worth depends on your provider and your rate tier.',
+    href: '/guides/water-savings/', hrefLabel: 'Savings by water provider' },
+];
 ---
-<Base title="NoCo Turf Co. — new site in progress" description="The new nocoturf.com is being built.">
-  <h1>NoCo Turf Co.</h1>
-  <p>New site in progress.</p>
+<Base
+  title="NoCo Turf Co. — Artificial Turf & Putting Greens in Northern Colorado"
+  description="Artificial lawns, dog runs, putting greens and play yards from Wellington to Longmont. Real job photos, town-by-town turf rules, and a yard walk to start."
+  tone="photo"
+  graph={faqGraph(faq)}
+>
+  <!-- 1 · Hero — "What is this, and can I start now?" -->
+  <section class="hero on-slab" aria-labelledby="hero-h">
+    <div class="hero__media">
+      <Photo photo={hero} eager sizes="100vw" class="hero__img" vt="hero-photo" widths={[640, 960, 1280, 1600, 1920]} />
+    </div>
+    <div class="hero__body wrap">
+      <p class="label hero__kicker">Artificial turf · Northern Colorado</p>
+      <h1 id="hero-h">Turf built from the <PaintWord now>base up.</PaintWord></h1>
+      <p class="lede hero__lede">Artificial lawns, dog runs, putting greens and play yards across Northern Colorado — Wellington to Longmont, Loveland to Eaton.</p>
+      <div class="hero__cta">
+        <a class="btn btn--paint" href="#estimate" data-cta="hero-quote">Book a yard walk <Icon name="arrow" /></a>
+        {phoneHref && <a class="btn btn--line" href={phoneHref} data-cta="hero-call"><Icon name="phone" />Call <span class="btn__num">{phoneDisplay}</span></a>}
+      </div>
+    </div>
+    <aside class="hero__sheet" aria-label="About this photo">
+      <p class="label">Job photo · 01</p>
+      <p class="hero__sheet-cap">{hero.caption}</p>
+      <p class="hero__sheet-rec">{hero.place}{hero.month && <> · {monthLabel(hero.month)}</>}</p>
+    </aside>
+  </section>
+
+  <!-- 2 · Checkable facts — "Prove it before I have to read." -->
+  <section class="facts" aria-label="Things you can check before you call">
+    <div class="wrap facts__grid">
+      <p class="label facts__title">Check us<br />before you call</p>
+      {reg && (
+        <a class="fact" href={reg.lookup_url} rel="noopener">
+          <span class="label">Registered</span><strong>{legalName ?? 'NOCO Turf Co. LLC'}</strong><span class="fact__rcpt">Colorado SOS {reg.sos_id} <Icon name="external" size={14} /></span>
+        </a>
+      )}
+      {gbp && (
+        <a class="fact" href={gbp.url} rel="noopener">
+          <span class="label">Reviews</span><strong>Read them on Google</strong><span class="fact__rcpt">NoCo Turf Co. listing <Icon name="external" size={14} /></span>
+        </a>
+      )}
+      {ig && (
+        <a class="fact" href={ig.url} rel="noopener">
+          <span class="label">Recent jobs</span><strong>@noco_turf</strong><span class="fact__rcpt">on Instagram <Icon name="external" size={14} /></span>
+        </a>
+      )}
+      <a class="fact" href="#work">
+        <span class="label">Photos</span><strong>Brian’s own jobs</strong><span class="fact__rcpt">each placed and dated — no stock</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- 3 · Services — "Do you do the specific thing I need?" -->
+  <section class="section svc" aria-labelledby="svc-h">
+    <div class="wrap">
+      <header class="shead">
+        <p class="label">What we install</p>
+        <h2 id="svc-h">Five kinds of yard. <PaintWord>Each fails differently.</PaintWord></h2>
+        <p class="lede">The turf on top is the easy part. What decides whether it lasts is underneath — and that changes with the job.</p>
+      </header>
+      <ol class="sched" role="list">
+        <li class="sched__head" aria-hidden="true"><span></span><span class="label">Use</span><span class="label">What decides it</span><span></span></li>
+        {visibleServices.map((s, i) => {
+          const ph = svcPhoto(s.photo);
+          return (
+            <li>
+              <a class="sched__row rise" href={`/services/${s.slug}/`}>
+                <span class="sched__thumb">
+                  {ph ? <Photo photo={ph} sizes="160px" widths={[240, 480]} /> : <span class={`sched__glyph sched__glyph--${s.slug}`} aria-hidden="true"></span>}
+                </span>
+                <span class="sched__name"><span class="sched__no num">{String(i + 1).padStart(2, '0')}</span><span><strong>{s.name}</strong><span class="sched__short">{s.short}</span></span></span>
+                <span class="sched__under">{s.underneath}</span>
+                <span class="sched__go" aria-hidden="true"><Icon name="arrow" /></span>
+              </a>
+            </li>
+          );
+        })}
+      </ol>
+    </div>
+  </section>
+
+  <!-- 4 · Proof — "Show me it actually works." -->
+  <section class="section ground-2 work" id="work" aria-labelledby="work-h">
+    <div class="wrap">
+      <header class="shead shead--split">
+        <div>
+          <p class="label">The work</p>
+          <h2 id="work-h">Real yards. <PaintWord>Look at the edges.</PaintWord></h2>
+        </div>
+        <p class="lede">Jobs from Brian’s own phone, each with the place and month it was taken. Turf lies flat easily in the middle — where it meets concrete, rock and curb is where the work shows.</p>
+      </header>
+      <WorkReel photos={reel} />
+      <p class="work__all"><a class="btn btn--ink" href="/work/">All the work <Icon name="arrow" /></a></p>
+    </div>
+  </section>
+
+  <!-- 6 · Who — "Who is standing in my yard?" -->
+  <section class="section crew" aria-labelledby="crew-h">
+    <div class="wrap crew__grid">
+      <figure class="crew__clip">
+        <video class="crew__video" muted playsinline loop preload="none" data-clip aria-label={crew.alt} width="540" height="960">
+          <source src="/media/crew-power-broom.mp4" type="video/mp4" />
+        </video>
+        <Photo photo={crew} sizes="(max-width: 899px) 90vw, 36vw" widths={[480, 800]} class="crew__poster" />
+        <figcaption><span class="label">On the job</span>{crew.caption} — {crew.place}</figcaption>
+      </figure>
+      <div class="crew__copy">
+        <p class="label">Who shows up</p>
+        {years
+          ? <h2 id="crew-h"><span class="num">{years}</span> years of turf, one owner.</h2>
+          : <h2 id="crew-h">One owner, on the job.</h2>}
+        <blockquote class="quote">
+          <p>“I’ve been doing turf for 13 years.”</p>
+          <footer>Brian, owner of NoCo Turf Co.</footer>
+        </blockquote>
+        <p>That’s a power broom in the clip — one of the last passes on a new lawn. It stands the blades up and works the infill down between them, so the turf reads as grass and not as carpet.</p>
+        <blockquote class="quote quote--small">
+          <p>“So, kind of anything that’s turf, we do.”</p>
+          <footer>Brian</footer>
+        </blockquote>
+        <a class="btn btn--line" href="/about/">About Brian and NoCo Turf <Icon name="arrow" /></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5 · The differentiator — "Why you?" -->
+  <BuildSection />
+
+  <!-- 7 · Where — "Do you come to my town?" -->
+  <section class="section areas" aria-labelledby="areas-h">
+    <div class="wrap">
+      <header class="shead shead--split">
+        <div>
+          <p class="label">Where we work</p>
+          <h2 id="areas-h">Wellington to <PaintWord>Longmont.</PaintWord></h2>
+        </div>
+        <p class="lede">Seventeen towns up and down the I-25 corridor. Each town page covers its own turf rules, water provider and ground.</p>
+      </header>
+      <CorridorMap towns={towns} />
+    </div>
+  </section>
+
+  <!-- 8 · Objections — "The things I'll ask on the phone." -->
+  <section class="section ground-2" aria-labelledby="faq-h">
+    <div class="wrap faqwrap">
+      <header class="shead">
+        <p class="label">Before you call</p>
+        <h2 id="faq-h">What Northern Colorado homeowners ask first.</h2>
+        <p class="lede">Straight answers from Colorado law and each water provider’s own rules, checked September 2026.</p>
+      </header>
+      <Faq items={faq} />
+    </div>
+  </section>
+
+  <!-- 9 · Close — "Fine — what happens if I ask?" -->
+  <section class="section on-slab close" aria-labelledby="close-h">
+    <div class="wrap close__grid">
+      <div class="close__copy">
+        <p class="label label--paint">Next step</p>
+        <h2 id="close-h">Book a yard <PaintWord text>walk.</PaintWord></h2>
+        <p class="lede">Tell us about the yard and how to reach you. Three short parts, no account, no upload.</p>
+        <div class="close__photo develop"><Photo photo={photo('dusk')} sizes="(max-width: 899px) 90vw, 40vw" widths={[480, 800, 1200]} /></div>
+      </div>
+      <EstimateForm />
+    </div>
+  </section>
 </Base>
+
+<style>
+  /* ── Hero ── */
+  .hero { position: relative; min-height: max(640px, 100svh); display: grid; align-items: end; overflow: clip; isolation: isolate; }
+  .hero__media { position: absolute; inset: 0; z-index: -1; }
+  .hero__media :global(img) { width: 100%; height: 100%; object-fit: cover; }
+  .hero__media::after { content: ''; position: absolute; inset: 0;
+    background:
+      linear-gradient(180deg, rgb(19 18 15 / 0.62) 0%, rgb(19 18 15 / 0.08) 26%, rgb(19 18 15 / 0.2) 52%, rgb(19 18 15 / 0.92) 100%),
+      linear-gradient(100deg, rgb(19 18 15 / 0.7) 0%, rgb(19 18 15 / 0.1) 58%, transparent 80%); }
+  .hero__body { padding-block: calc(var(--header-h) + 48px) clamp(40px, 7vh, 88px); }
+  .hero__kicker { color: var(--bone-2); margin-bottom: 18px; }
+  .hero h1 { max-width: 11.5ch; color: var(--bone); }
+  .hero__lede { margin-top: 22px; color: var(--bone-2); max-width: 44ch; }
+  .hero__cta { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
+  .hero__cta .btn--line { color: var(--bone); }
+  .hero__sheet { position: absolute; right: var(--gutter); bottom: clamp(40px, 7vh, 88px); width: 260px; padding: 14px 16px; border-radius: var(--r-control);
+    background: rgb(19 18 15 / 0.55); box-shadow: inset 0 0 0 1px var(--bone-line); }
+  @supports (backdrop-filter: blur(1px)) { .hero__sheet { backdrop-filter: blur(10px); } }
+  .hero__sheet p { margin: 0; }
+  .hero__sheet-cap { margin-top: 6px !important; font-weight: 600; font-size: var(--fs-small); color: var(--bone); line-height: 1.35; }
+  .hero__sheet-rec { color: var(--bone-3); font-size: 0.82rem; margin-top: 2px !important; }
+  .hero__sheet-rec::first-letter { text-transform: uppercase; }
+  @media (prefers-reduced-motion: no-preference) {
+    .hero__media :global(img) { animation: hero-settle 1.8s var(--ease) both; }
+    @keyframes hero-settle { from { scale: 1.07; } to { scale: 1; } }
+    @supports (animation-timeline: scroll()) {
+      .hero__media { animation: hero-sink linear both; animation-timeline: scroll(root); animation-range: 0 100vh; }
+      @keyframes hero-sink { to { translate: 0 18vh; } }
+      .hero__body, .hero__sheet { animation: hero-lift linear both; animation-timeline: scroll(root); animation-range: 0 80vh; }
+      @keyframes hero-lift { to { translate: 0 -8vh; opacity: 0.2; } }
+    }
+  }
+  @media (max-width: 899px) {
+    .hero__media::after { background: linear-gradient(180deg, rgb(19 18 15 / 0.6) 0%, rgb(19 18 15 / 0.12) 16%, rgb(19 18 15 / 0.5) 36%, rgb(19 18 15 / 0.88) 62%, rgb(19 18 15 / 0.96) 100%); }
+    .hero { align-items: end; }
+    .hero__sheet { position: static; width: auto; margin: 0 var(--gutter) 28px; background: rgb(19 18 15 / 0.7); }
+    .hero { grid-template-rows: 1fr auto; }
+    .hero__body { padding-bottom: 20px; }
+  }
+
+  /* ── Facts ── */
+  .facts { border-bottom: 1px solid var(--line); }
+  .facts__grid { display: grid; grid-template-columns: 0.8fr repeat(4, 1fr); }
+  .facts__title { align-self: center; color: var(--ink); padding-right: 20px; }
+  .fact { display: grid; gap: 4px; align-content: start; padding: 26px 22px; border-left: 1px solid var(--line); text-decoration: none; transition: background var(--t2) var(--ease); }
+  .fact:hover { background: var(--ground-2); }
+  .fact strong { font-family: var(--font-display); font-weight: 760; font-stretch: 108%; font-size: 1.12rem; letter-spacing: -0.015em; }
+  .fact__rcpt { display: inline-flex; align-items: center; gap: 6px; font-size: 0.86rem; color: var(--ink-3); }
+  .fact:hover .fact__rcpt { color: var(--ink); text-decoration: underline; text-decoration-color: var(--paint); }
+  @media (max-width: 1099px) { .facts__grid { grid-template-columns: repeat(2, 1fr); } .facts__title { grid-column: 1 / -1; padding: 22px 0 6px; } .fact { border-left: 0; border-top: 1px solid var(--line); padding-inline: 0 16px; } }
+
+  /* ── Section heads ── */
+  .shead { display: grid; gap: 16px; margin-bottom: clamp(36px, 5vw, 72px); }
+  .shead h2 { max-width: 16ch; }
+  .shead--split { grid-template-columns: 1.2fr 1fr; align-items: end; gap: 24px 64px; }
+  .shead--split .lede { margin: 0; }
+  @media (max-width: 899px) { .shead--split { grid-template-columns: 1fr; } }
+
+  /* ── Service schedule ── */
+  .sched { list-style: none; }
+  .sched__head { display: grid; grid-template-columns: 120px minmax(0, 1.1fr) minmax(0, 1fr) 48px; gap: 28px; padding-bottom: 12px; border-bottom: 2px solid var(--ink); }
+  .sched__row { display: grid; grid-template-columns: 120px minmax(0, 1.1fr) minmax(0, 1fr) 48px; gap: 28px; align-items: center; padding: 18px 0;
+    border-bottom: 1px dashed rgb(var(--ink-rgb) / 0.28); text-decoration: none; transition: background var(--t2) var(--ease); }
+  .sched__row:hover { background: linear-gradient(90deg, transparent, rgb(var(--ink-rgb) / 0.035) 12%, rgb(var(--ink-rgb) / 0.035) 88%, transparent); }
+  .sched__thumb { width: 120px; aspect-ratio: 4 / 3; border-radius: var(--r-photo); overflow: hidden; background: var(--ground-2); display: block; }
+  .sched__thumb :global(img) { width: 100%; height: 100%; object-fit: cover; transition: scale var(--t4) var(--ease); }
+  .sched__row:hover .sched__thumb :global(img) { scale: 1.08; }
+  .sched__glyph { display: block; width: 100%; height: 100%; background: var(--slab) center / 70% no-repeat; }
+  .sched__glyph--pet-turf { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 60' fill='none' stroke='%23f3efe7' stroke-width='2'%3E%3Cpath d='M8 16h64M8 30h64M8 44h64' stroke-dasharray='5 4'/%3E%3Cpath d='M24 6v48M40 6v48M56 6v48' stroke='%23ff5a1f' stroke-width='2.4' stroke-dasharray='3 6'/%3E%3C/svg%3E"); }
+  .sched__glyph--commercial-turf { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 60' fill='none' stroke='%23f3efe7' stroke-width='2'%3E%3Crect x='6' y='8' width='68' height='44' rx='2'/%3E%3Cpath d='M40 8v44'/%3E%3Ccircle cx='40' cy='30' r='9' stroke='%23ff5a1f' stroke-width='2.4'/%3E%3C/svg%3E"); }
+  .sched__name { display: flex; gap: 16px; align-items: baseline; }
+  .sched__no { font-family: var(--font-display); font-weight: 800; font-stretch: 110%; color: var(--ink-3); font-size: 0.95rem; }
+  .sched__name strong { display: block; font-family: var(--font-display); font-weight: 780; font-stretch: 112%; font-size: clamp(1.3rem, 1.05rem + 1vw, 1.9rem); letter-spacing: -0.03em; line-height: 1.05; }
+  .sched__short { display: block; margin-top: 4px; color: var(--ink-3); font-size: var(--fs-small); }
+  .sched__under { color: var(--ink-2); font-size: var(--fs-small); max-width: 42ch; }
+  .sched__go { width: 48px; height: 48px; border-radius: 50%; display: grid; place-items: center; box-shadow: inset 0 0 0 1.5px var(--line); transition: background var(--t2) var(--ease), box-shadow var(--t2) var(--ease); }
+  .sched__row:hover .sched__go { background: var(--paint); box-shadow: none; }
+  @media (max-width: 899px) {
+    .sched__head { display: none; }
+    .sched__row { grid-template-columns: 88px 1fr; gap: 6px 16px; align-items: start; }
+    .sched__thumb { width: 88px; grid-row: span 2; }
+    .sched__under { grid-column: 2; }
+    .sched__go { display: none; }
+    .sched__no { display: none; }
+  }
+
+  /* ── Work ── */
+  .work__all { margin: clamp(32px, 4vw, 56px) 0 0; }
+
+  /* ── Crew ── */
+  .crew__grid { display: grid; grid-template-columns: minmax(0, 0.8fr) minmax(0, 1fr); gap: clamp(32px, 6vw, 110px); align-items: center; }
+  .crew__clip { margin: 0; position: relative; }
+  .crew__video, .crew__clip :global(.crew__poster) { width: 100%; aspect-ratio: 9 / 16; max-height: 78vh; object-fit: cover; border-radius: var(--r-panel); background: var(--slab); }
+  .crew__video { position: absolute; inset: 0 0 auto; z-index: 1; opacity: 0; transition: opacity var(--t4) var(--ease); }
+  .crew__video[data-playing] { opacity: 1; }
+  .crew__clip figcaption { display: grid; gap: 4px; margin-top: 12px; font-size: var(--fs-small); color: var(--ink-2); }
+  .crew__copy h2 { margin: 14px 0 26px; max-width: 13ch; }
+  .crew__copy > p { color: var(--ink-2); max-width: 52ch; }
+  .quote { margin: 0 0 24px; }
+  .quote p { font-family: var(--font-display); font-weight: 720; font-stretch: 110%; font-size: clamp(1.5rem, 1.1rem + 1.6vw, 2.4rem); letter-spacing: -0.03em; line-height: 1.08; margin: 0 0 10px; }
+  .quote footer { font-size: var(--fs-small); color: var(--ink-3); }
+  .quote footer::before { content: ''; display: inline-block; width: 22px; height: 3px; border-radius: 2px; background: var(--paint); vertical-align: middle; margin-right: 10px; }
+  .quote--small p { font-size: clamp(1.15rem, 1rem + 0.6vw, 1.5rem); }
+  @media (max-width: 899px) { .crew__grid { grid-template-columns: 1fr; } .crew__clip { max-width: 420px; } }
+
+  /* ── FAQ / close ── */
+  .faqwrap { display: grid; grid-template-columns: 0.8fr 1.2fr; gap: 40px 80px; align-items: start; }
+  .faqwrap .shead { position: sticky; top: calc(var(--header-h) + 32px); }
+  .faqwrap h2 { font-size: clamp(2rem, 1.3rem + 2.4vw, 3.4rem); }
+  @media (max-width: 899px) { .faqwrap { grid-template-columns: 1fr; } .faqwrap .shead { position: static; } }
+  .close__grid { display: grid; grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr); gap: clamp(36px, 6vw, 110px); align-items: start; }
+  .close__copy h2 { margin: 14px 0 20px; }
+  .close__photo { margin-top: 36px; border-radius: var(--r-photo); overflow: hidden; }
+  .close__photo :global(img) { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+  @media (max-width: 899px) { .close__grid { grid-template-columns: 1fr; } .close__photo { display: none; } }
+</style>
+
+<script>
+  /* The crew clip plays only while it's on screen, never under reduced motion, never on Save-Data. */
+  const v = document.querySelector<HTMLVideoElement>('[data-clip]');
+  const conn = (navigator as Navigator & { connection?: { saveData?: boolean } }).connection;
+  if (v && 'IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: reduce)').matches && !conn?.saveData) {
+    new IntersectionObserver(([e]) => {
+      if (e.isIntersecting) {
+        if (v.preload !== 'auto') { v.preload = 'auto'; v.load(); }
+        v.play().then(() => v.setAttribute('data-playing', '')).catch(() => {});
+      } else v.pause();
+    }, { threshold: 0.35 }).observe(v);
+  }
+</script>

@@ -1,0 +1,121 @@
+---
+/**
+ * The Build (motion system M2), drawn as a site-plan section. Five steps scroll past; each one lays its
+ * layer into the pinned cross-section (CSS scroll-driven: timeline-scope + named view timelines, no JS).
+ * Unsupported browsers, no-JS and reduced motion get the assembled section by construction.
+ *
+ * Copy rule: this describes how a turf install goes in general — NOT NoCo's spec. Depths, materials and
+ * compaction numbers stay out until Brian supplies his base spec (claims register: "published base spec").
+ * The two numbers are layer facts with their sources: CGS expansive-soil swell, NRCS shrink-swell soils.
+ */
+import { getImage } from 'astro:assets';
+import turfPhoto from '../assets/photos/side-yard-concrete-edge-greeley.jpg';
+import soil from '../data/layers/soil.json';
+
+const rec = (id: string) => { const r = (soil as any[]).find((x) => x.id === id); if (!r || r.status === 'UNVERIFIED') throw new Error(`layer ${id} missing or unverified`); return r; };
+const cgs = rec('cgs-expansive-soil');
+rec('nrcs-nunn-weld-shrink-swell'); // the source is the SSURGO data API; readers get the Web Soil Survey UI over the same data
+
+interface Props { compact?: boolean; }
+const { compact = false } = Astro.props;
+const turf = await getImage({ src: turfPhoto, width: 900, format: 'webp', quality: 70 });
+const steps = [
+  { k: 'Ground', t: 'Northern Colorado clay', d: 'Much of the corridor sits on clay that swells when wet and shrinks when dry. The Colorado Geological Survey counts expansive soil as the state’s most significant geologic hazard.' },
+  { k: 'Excavate', t: 'Lawn out, grade set', d: 'The old lawn and its roots come out, and the ground is shaped to shed water away from the house — on clay, water that pools is water that heaves.' },
+  { k: 'Base', t: 'Crushed rock, compacted', d: 'A layer of crushed rock goes down and is compacted flat. It is the part nobody can see once the turf is on, and the part that decides whether the yard stays flat.' },
+  { k: 'Turf', t: 'Rolled out, seamed, edged', d: 'Rolls go down with the blades running one way, seams are joined, and the edges are secured against concrete, rock or header.' },
+  { k: 'Infill', t: 'Sand in, blades up', d: 'Infill is spread and brushed in with a power broom. It weighs the turf down and stands the blades up.' },
+];
+---
+<section class="build on-slab section" aria-labelledby="build-h">
+  <div class="wrap build__grid">
+    <div class="build__copy">
+      <p class="label label--paint">What's underneath</p>
+      <h2 id="build-h">Every installer says “proper base.” <span class="build__pay">Ask what’s in it.</span></h2>
+      <p class="lede">The turf is the part you see. On Northern Colorado clay, what decides whether a yard stays flat is underneath — and nobody can inspect it once the job is done.</p>
+      <dl class="build__facts">
+        <div><dt class="num">20%</dt><dd>how much Colorado’s expansive clays can swell when wet — <a href={cgs.source_url} rel="noopener">Colorado Geological Survey</a></dd></div>
+        <div><dt>Nunn · Weld</dt><dd>soil series NRCS rates as limited for building because of shrink-swell — common around the Larimer foothill towns, Longmont and Frederick–Dacono — <a href="https://websoilsurvey.nrcs.usda.gov/app/" rel="noopener">NRCS soil survey data</a></dd></div>
+      </dl>
+      {!compact && (
+        <ol class="build__steps" role="list">
+          {steps.map((s, i) => (
+            <li class={`build__step build__step--${i + 1}`}>
+              <p class="label">{String(i + 1).padStart(2, '0')} · {s.k}</p>
+              <h3>{s.t}</h3>
+              <p>{s.d}</p>
+            </li>
+          ))}
+        </ol>
+      )}
+    </div>
+
+    <figure class="build__fig" aria-label="Cross-section of an artificial turf install, from native clay up to the turf">
+      <div class="xs">
+        <div class="xs__layer xs__layer--5" style={`--turf:url(${turf.src})`}><span class="xs__tag">Blades + infill</span></div>
+        <div class="xs__layer xs__layer--4"><span class="xs__tag">Backing · perforated to drain</span></div>
+        <div class="xs__layer xs__layer--3"><span class="xs__tag">Compacted crushed-rock base</span></div>
+        <div class="xs__layer xs__layer--2"><span class="xs__tag">Graded subgrade</span></div>
+        <div class="xs__layer xs__layer--1"><span class="xs__tag">Native clay</span></div>
+        <svg class="xs__dim" viewBox="0 0 20 100" preserveAspectRatio="none" aria-hidden="true"><path d="M10 6V94M5 6h10M5 94h10" /></svg>
+      </div>
+      <figcaption class="label">Section · not to scale · depths are set per yard</figcaption>
+    </figure>
+  </div>
+</section>
+
+<style>
+  .build { overflow: clip; timeline-scope: --b1, --b2, --b3, --b4, --b5; }
+  .build__grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(32px, 6vw, 96px); align-items: start; }
+  .build h2 { margin: 14px 0 22px; max-width: 14ch; }
+  .build__pay { color: var(--paint); }
+  .build__facts { display: grid; gap: 18px; margin: 34px 0 0; padding: 22px 0 0; border-top: 1px solid var(--bone-line); }
+  .build__facts div { display: grid; grid-template-columns: 8.5rem 1fr; gap: 16px; align-items: baseline; }
+  .build__facts dt { font-family: var(--font-display); font-weight: 820; font-stretch: 115%; font-size: 2rem; letter-spacing: -0.03em; color: var(--bone); }
+  .build__facts dt:not(.num) { font-size: 1.15rem; }
+  .build__facts dd { margin: 0; color: var(--bone-2); font-size: var(--fs-small); }
+  .build__steps { list-style: none; margin-top: clamp(40px, 8vw, 120px); display: grid; gap: clamp(64px, 16vh, 180px); padding-bottom: 52vh; }
+  .build__step h3 { margin: 6px 0 10px; color: var(--bone); }
+  .build__step p:last-child { color: var(--bone-2); max-width: 44ch; margin: 0; }
+  .build__step--1 { view-timeline-name: --b1; } .build__step--2 { view-timeline-name: --b2; } .build__step--3 { view-timeline-name: --b3; }
+  .build__step--4 { view-timeline-name: --b4; } .build__step--5 { view-timeline-name: --b5; }
+
+  .build__fig { margin: 0; position: sticky; top: calc(var(--header-h) + 6vh); }
+  .xs { position: relative; display: grid; grid-template-rows: 1.3fr 0.5fr 1.15fr 0.8fr 1.9fr; aspect-ratio: 4 / 4.6; border-radius: var(--r-panel); overflow: hidden; background: #0e0d0b; box-shadow: 0 0 0 1px var(--bone-line); }
+  .xs__layer { position: relative; display: flex; align-items: flex-start; padding: 12px 14px; }
+  .xs__tag { font-family: var(--font-display); font-stretch: 78%; font-weight: 650; font-size: 0.72rem; letter-spacing: 0.16em; text-transform: uppercase;
+    background: rgb(12 11 9 / 0.66); color: var(--bone); padding: 5px 8px; border-radius: 4px; }
+  .xs__layer--5 { background: var(--turf) center 58% / cover; box-shadow: inset 0 -10px 16px -8px rgb(0 0 0 / 0.5); }
+  .xs__layer--4 { background: repeating-radial-gradient(circle at 12px 50%, #0b0a08 0 2px, transparent 2.5px 22px), linear-gradient(#2a2620, #1f1c17); }
+  .xs__layer--3 { background:
+      radial-gradient(circle at 20% 30%, #8f877a 0 3px, transparent 3.5px) 0 0 / 22px 18px,
+      radial-gradient(circle at 70% 60%, #6f685d 0 4px, transparent 4.5px) 0 0 / 27px 23px,
+      radial-gradient(circle at 40% 80%, #a39b8c 0 2px, transparent 2.5px) 0 0 / 15px 14px,
+      linear-gradient(#5d574d, #4b463e); }
+  .xs__layer--2 { background: repeating-linear-gradient(-12deg, #5a4535 0 3px, #4d3a2c 3px 9px); }
+  .xs__layer--1 { background:
+      radial-gradient(ellipse at 30% 40%, rgb(255 255 255 / 0.05), transparent 60%),
+      repeating-linear-gradient(8deg, #6b4b36 0 2px, #5e412e 2px 7px, #684833 7px 12px); }
+  .xs__dim { position: absolute; right: 10px; top: 0; bottom: 0; width: 18px; height: 100%; }
+  .xs__dim path { fill: none; stroke: var(--paint); stroke-width: 1.5; vector-effect: non-scaling-stroke; }
+  .build__fig figcaption { margin-top: 12px; }
+
+  @media (prefers-reduced-motion: no-preference) {
+    @supports (animation-timeline: --b1) and (timeline-scope: --b1) {
+      @keyframes lay { from { translate: 0 -46%; opacity: 0.1; filter: saturate(0.2); } to { translate: 0 0; opacity: 1; filter: none; } }
+      @keyframes lit { from { opacity: 0.35; } to { opacity: 1; } }
+      .xs__layer { animation: lay linear both; animation-range: entry 5% cover 36%; }
+      .xs__layer--1 { animation-timeline: --b1; } .xs__layer--2 { animation-timeline: --b2; } .xs__layer--3 { animation-timeline: --b3; }
+      .xs__layer--4 { animation-timeline: --b4; } .xs__layer--5 { animation-timeline: --b5; }
+      .build__step { animation: lit linear both; animation-timeline: view(); animation-range: entry 10% cover 40%; }
+    }
+  }
+  @media (max-width: 899px) {
+    .build__grid { grid-template-columns: 1fr; }
+    .build__fig { position: sticky; top: calc(var(--header-h) + 8px); order: -1; z-index: 1; }
+    .build__copy { display: contents; }
+    .build__copy > .label, .build h2, .build .lede, .build__facts { order: -2; }
+    .xs { aspect-ratio: 16 / 11; max-height: 38vh; width: 100%; }
+    .build__steps { margin-top: 24px; gap: 40vh; padding-bottom: 40vh; }
+  }
+</style>

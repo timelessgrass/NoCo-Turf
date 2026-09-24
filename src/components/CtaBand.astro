@@ -1,0 +1,37 @@
+---
+/**
+ * Spine beat 8 — the dark closing band. With `form` it carries the page's ONE estimate form (never on a page
+ * that already has one); otherwise it's the two-button close. Each page passes its own H2 (e.g. a town page:
+ * "Planning turf in Greeley?"), so the ask repeats but the words don't.
+ */
+import EstimateForm from './EstimateForm.astro';
+import Icon from './Icon.astro';
+import PaintWord from './PaintWord.astro';
+import { phoneHref, phoneDisplay } from '../data/brief';
+interface Props { title: string; payoff?: string; lede?: string; form?: boolean; town?: string; use?: string; }
+const { title, payoff, lede = 'Tell us about the yard and how to reach you. Three short parts, no account, no upload.', form = true, town, use } = Astro.props;
+---
+<section class="section on-slab cta" aria-labelledby="cta-h">
+  <div class:list={['wrap', 'cta__grid', { 'cta__grid--form': form }]}>
+    <div>
+      <p class="label label--paint">Next step</p>
+      <h2 id="cta-h">{title}{payoff && <> <PaintWord text>{payoff}</PaintWord></>}</h2>
+      <p class="lede">{lede}</p>
+      {!form && (
+        <div class="cta__btns">
+          <a class="btn btn--paint" href="/contact/#estimate" data-cta="band-quote">Book a yard walk <Icon name="arrow" /></a>
+          {phoneHref && <a class="btn btn--line" href={phoneHref} data-cta="band-call"><Icon name="phone" />Call <span class="btn__num">{phoneDisplay}</span></a>}
+        </div>
+      )}
+    </div>
+    {form && <EstimateForm town={town} use={use} />}
+  </div>
+</section>
+<style>
+  .cta__grid { display: grid; gap: clamp(32px, 6vw, 100px); }
+  .cta__grid--form { grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr); align-items: start; }
+  .cta h2 { margin: 14px 0 20px; max-width: 14ch; }
+  .cta__btns { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+  .cta__btns .btn--line { color: var(--bone); }
+  @media (max-width: 899px) { .cta__grid--form { grid-template-columns: 1fr; } }
+</style>

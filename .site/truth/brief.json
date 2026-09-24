@@ -158,7 +158,15 @@
     "date": "2026-09-24",
     "note": "Brian to confirm the account is his."
    }
-  ]
+  ],
+  "gbp_place_id": {
+   "value": "ChIJQ554fnGvbocRz-sTVlhRSRc",
+   "status": "EXTERNAL_SOURCE",
+   "source": "web",
+   "source_detail": "Google place_id embedded by the current nocoturf.com and decoded to CID 1677961776015338447 (research wf1/gap-1.md, verified 2026-09-24); the listing reads \"NoCo Turf Co.\"",
+   "date": "2026-09-24",
+   "note": "Used only to build the ungated write-review link (/review/). Refresh if the listing is ever re-verified or merged."
+  }
  },
  "services": [
   {

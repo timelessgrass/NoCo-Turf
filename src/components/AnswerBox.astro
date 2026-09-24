@@ -1,0 +1,24 @@
+---
+/**
+ * The authored answer (seo.md): the buyer's question as a literal string, then a ~60-word direct answer
+ * naming the business, service, town/state — ending on the phone number, appended here from the brief
+ * (never typed into copy). Quotable by answer engines; placed high on every money page.
+ */
+import { phoneHref, phoneDisplay } from '../data/brief';
+interface Props { question: string; answer: string; }
+const { question, answer } = Astro.props;
+---
+<aside class="ab" aria-label="Short answer">
+  <p class="label ab__label">Short answer</p>
+  <p class="ab__q">{question}</p>
+  <p class="ab__a">{answer}{phoneHref && <> Call <a href={phoneHref} data-cta="answer-call">{phoneDisplay}</a>.</>}</p>
+</aside>
+<style>
+  .ab { position: relative; padding: clamp(22px, 3vw, 34px); padding-left: calc(clamp(22px, 3vw, 34px) + 14px); border-radius: var(--r-panel); background: var(--ground-2); }
+  .ab::before { content: ''; position: absolute; left: clamp(14px, 2vw, 22px); top: 26px; bottom: 26px; width: 4px; border-radius: 4px;
+    background: repeating-linear-gradient(180deg, var(--paint) 0 14px, transparent 14px 24px); }
+  .ab__label { margin: 0 0 8px; }
+  .ab__q { font-family: var(--font-display); font-weight: 760; font-stretch: 108%; font-size: clamp(1.2rem, 1.05rem + 0.6vw, 1.5rem); letter-spacing: -0.02em; line-height: 1.2; margin: 0 0 10px; }
+  .ab__a { margin: 0; max-width: 64ch; color: var(--ink-2); }
+  .ab__a a { color: var(--ink); font-weight: 650; text-decoration-color: var(--paint); }
+</style>

@@ -1,0 +1,36 @@
+---
+/**
+ * One photograph from src/data/photos.ts, emitted as <picture> (AVIF + WebP + JPEG fallback) at
+ * several widths with explicit dimensions. `eager` is for the page's first content image (the LCP):
+ * loading=eager + fetchpriority=high — never lazy (Astro's default lazy trips preflight IMG-4).
+ */
+import { Picture } from 'astro:assets';
+import type { Photo as P } from '../data/photos';
+
+interface Props {
+  photo: P;
+  sizes?: string;
+  eager?: boolean;
+  class?: string;
+  /** override the photo's focal point */
+  focus?: string;
+  widths?: number[];
+  vt?: string; // view-transition-name
+}
+const { photo, sizes = '100vw', eager = false, class: cls, focus, widths = [480, 800, 1200, 1600, 1920], vt } = Astro.props;
+const w = widths.filter((x) => x <= photo.src.width);
+---
+<Picture
+  src={photo.src}
+  alt={photo.alt}
+  widths={w.length ? w : [photo.src.width]}
+  sizes={sizes}
+  formats={['avif', 'webp']}
+  fallbackFormat="jpg"
+  quality={72}
+  loading={eager ? 'eager' : 'lazy'}
+  fetchpriority={eager ? 'high' : 'auto'}
+  decoding={eager ? 'sync' : 'async'}
+  class={cls}
+  style={`object-position:${focus ?? photo.focus ?? '50% 50%'};${vt ? `view-transition-name:${vt};` : ''}`}
+/>
