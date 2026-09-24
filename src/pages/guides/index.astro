@@ -3,7 +3,8 @@
  * /guides/ — the guide hub: a considered index, not a card grid. Each guide is a numbered entry on the
  * sheet with its drawn glyph, its name, the buyer's question and the record's own short answer, and the
  * date it was checked. Then the receipts (how many public sources stand behind the five, the open
- * water-rate data) and the closing band with the page's one form.
+ * water-rate data) and the closing band with the page's one form. With no visible guide (none published
+ * at launch), the page still exists — /blog/ 301s here — and says so plainly instead of listing nothing.
  */
 import Base from '../../layouts/Base.astro';
 import PageHero from '../../components/PageHero.astro';
@@ -39,24 +40,27 @@ const { rows } = buildRows(new Map((providers as any[]).map((r) => [r.id, r]))) 
 const title = 'Northern Colorado Turf Guides: Rules, Rebates, Water | NoCo Turf Co.';
 const description = 'Artificial turf rules town by town, HOA rights, rebates, water savings and what moves a quote in Northern Colorado. Every guide cites its sources, dated.';
 const crumbs = [{ name: 'Guides', path: '/guides/' }];
-const graph = [{
+const graph = items.length === 0 ? [] : [{
   '@type': 'ItemList', '@id': `${SITE}/guides/#list`, name: 'Northern Colorado artificial turf guides',
   itemListElement: items.map((it, i) => ({ '@type': 'ListItem', position: i + 1, name: it.title, url: `${SITE}/guides/${it.id}/` })),
 }];
 ---
 <Base title={title} description={description} crumbs={crumbs} graph={graph}>
-  <PageHero label="Guides · Northern Colorado" crumbs={crumbs} compact lede={`${count} guides for Northern Colorado homeowners: what the law and your town allow, what an HOA can still require, which rebates exist, what your lawn’s water is worth, and what moves a quote.`}>
+  <PageHero label="Guides · Northern Colorado" crumbs={crumbs} compact lede={items.length
+    ? `${count} guides for Northern Colorado homeowners: what the law and your town allow, what an HOA can still require, which rebates exist, what your lawn’s water is worth, and what moves a quote.`
+    : 'The guides to turf rules, HOA approval, rebates, water savings and cost are being checked against their sources before they go up.'}>
     Turf rules, rebates and water math, <PaintWord now>checked at the source.</PaintWord>
     <div class="hrec" slot="after">
-      <div class="hrec__row">
+      {items.length > 0 && <div class="hrec__row">
         <p class="hrec__c"><span class="hrec__k">Checked</span> <time class="hrec__v num" datetime={latest}>{latest}</time></p>
         <p class="hrec__c"><span class="hrec__k">Public sources</span> <span class="hrec__v num">{sources}</span></p>
         <p class="hrec__c"><span class="hrec__k">Water data</span> <a class="hrec__v" href="/data/noco-water-rates-2026.csv">CSV · CC BY 4.0</a></p>
-      </div>
-      {phoneHref && <p class="hrec__call">A question these don’t answer? <a href={phoneHref} data-cta="guides-call">Call <span class="num">{phoneDisplay}</span></a></p>}
+      </div>}
+      {phoneHref && <p class="hrec__call">{items.length ? "A question these don’t answer?" : "A question about your yard?"} <a href={phoneHref} data-cta="guides-call">Call <span class="num">{phoneDisplay}</span></a></p>}
     </div>
   </PageHero>
 
+  {items.length > 0 && <>
   <section class="section gidx" aria-labelledby="gidx-h">
     <div class="wrap">
       <header class="shead shead--split">
@@ -105,6 +109,7 @@ const graph = [{
       </dl>
     </div>
   </section>
+  </>}
 
   <CtaBand title="Read up, then" payoff="walk the yard with us." />
 </Base>
