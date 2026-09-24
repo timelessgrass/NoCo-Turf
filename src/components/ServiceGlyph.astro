@@ -1,0 +1,220 @@
+---
+/**
+ * The drawn hero for a service with no honest photograph (pet turf, commercial turf) — a spec-sheet
+ * detail instead of a stock image. Drawn like BuildSection's cross-section: slab panel, bone linework,
+ * paint only for the layout line (flow arrows, functional-turf outlines).
+ *
+ *   pet-turf         SECTION — liquid passes the backing and the crushed-rock base, then runs off along
+ *                    graded clay. General trade truth; no depths, no products.
+ *   commercial-turf  PLAN — one common-area site: functional turf (field, playground, putting green,
+ *                    picnic ground) outlined in paint; nonfunctional spots (entry bed, parking islands,
+ *                    median) hatched. The legend's wording follows the state-law layer records
+ *                    (co-sb24-005-nonfunctional-ban, co-hb25-1113-functional-turf).
+ *   (anything else)  a plain layout line: an outline marked on an old lawn.
+ *
+ * Motion: CSS scroll-driven on the figure's own view timeline, guarded by @supports and reduced motion.
+ * Visible at rest (desktop hero) = fully drawn; below the fold (mobile) the paint lines draw in, stroke by
+ * stroke, as the drawing scrolls up. Without support, or with reduced motion, everything is simply drawn.
+ */
+interface Props { slug: string; class?: string; }
+const { slug, class: cls } = Astro.props;
+
+/* A small seeded generator so the drawing is identical on every build. */
+let seed = 7;
+const rnd = () => { seed = (seed * 16807) % 2147483647; return (seed - 1) / 2147483646; };
+const r1 = (n: number) => +n.toFixed(1);
+/* Stagger on the glyph's own view timeline: `d` orders the strokes (0.15 first … 1.6 last). */
+const rng = (d: number) => { const a = Math.round(5 + ((d - 0.15) / 1.45) * 55); return `animation-range: entry ${a}% entry ${Math.min(100, a + 40)}%`; };
+
+/* ── pet: section ─────────────────────────────────────────────── */
+const top = 120; // turf surface
+const x0 = 16, x1 = 284;
+const subY = (x: number) => 196 + ((x - x0) / (x1 - x0)) * 12; // graded subgrade, falling to the right
+const blades: string[] = [];
+for (let x = x0 + 1; x < x1; x += 4.2) {
+  const c = (rnd() - 0.5) * 7, h = 17 + rnd() * 8;
+  blades.push(`M${r1(x)} ${top}Q${r1(x + c * 0.4)} ${r1(top - h * 0.6)} ${r1(x + c)} ${r1(top - h)}`);
+}
+const infill = Array.from({ length: 70 }, () => ({ cx: r1(x0 + 3 + rnd() * (x1 - x0 - 6)), cy: r1(top - 2 - rnd() * 8), r: r1(0.8 + rnd() * 0.7) }));
+const stones: { cx: number; cy: number; r: number; f: string }[] = [];
+const tones = ['#8f877a', '#6f685d', '#a39b8c', '#5d574d', '#7b7468'];
+for (let i = 0; i < 150; i++) {
+  const cx = x0 + 3 + rnd() * (x1 - x0 - 6);
+  const cy = top + 9 + rnd() * (subY(cx) - top - 13);
+  stones.push({ cx: r1(cx), cy: r1(cy), r: r1(1.6 + rnd() * 2.8), f: tones[Math.floor(rnd() * tones.length)] });
+}
+const drops = [62, 142, 222];
+const drop = (x: number, y: number) => `M${x} ${y - 9}C${x + 5} ${y - 2} ${x + 6} ${y + 3} ${x} ${y + 6}C${x - 6} ${y + 3} ${x - 5} ${y - 2} ${x} ${y - 9}Z`;
+const paw = (x: number, y: number, rot: number) =>
+  `<g transform="translate(${x} ${y}) rotate(${rot})"><ellipse cx="0" cy="3" rx="4.2" ry="3.4"/><ellipse cx="-4.6" cy="-2.4" rx="1.6" ry="2"/><ellipse cx="-1.6" cy="-4.8" rx="1.6" ry="2"/><ellipse cx="1.8" cy="-4.8" rx="1.6" ry="2"/><ellipse cx="4.8" cy="-2.4" rx="1.6" ry="2"/></g>`;
+const petCallouts = [
+  { y: 98, at: [262, 108], t: 'Turf + infill' },
+  { y: 126, at: [262, 123], t: 'Backing that drains' },
+  { y: 162, at: [262, 160], t: 'Compacted rock' },
+  { y: 230, at: [236, r1(subY(236))], t: 'Sloped to drain' },
+  { y: 262, at: [236, 252], t: 'Native clay' },
+];
+
+/* ── commercial: plan ─────────────────────────────────────────── */
+const ticks = (x: number, y: number, w: number, h: number, step = 9) => {
+  const out: string[] = [];
+  for (let yy = y + 5; yy < y + h - 2; yy += step) for (let xx = x + 4 + ((yy / step) % 2) * 4; xx < x + w - 3; xx += step) out.push(`M${xx} ${yy}l1.6 -3.4`);
+  return out.join('');
+};
+const blob = 'M340 70C352 56 392 54 408 68C422 80 418 110 404 120C388 132 352 130 340 116C328 104 330 82 340 70Z';
+const rectPath = (x: number, y: number, w: number, h: number) => `M${x} ${y}H${x + w}V${y + h}H${x}Z`;
+const stalls = Array.from({ length: 8 }, (_, i) => 300 + 14 * (i + 0.5));
+---
+{slug === 'pet-turf' ? (
+  <figure class:list={['sglyph', cls]}>
+    <svg class="sglyph__svg" viewBox="0 0 440 300" role="img" aria-labelledby={`sg-${slug}-t`}>
+      <title id={`sg-${slug}-t`}>Section drawing of a dog run: urine and rinse water pass down through the turf's backing and a compacted crushed-rock base, then run off along clay graded to drain</title>
+      <defs>
+        <pattern id="sg-clay" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(8)"><rect width="9" height="9" fill="#5e412e" /><path d="M0 2h9M0 6.5h9" stroke="#6b4b36" stroke-width="2" /></pattern>
+        <clipPath id="sg-sec"><rect x={x0} y="92" width={x1 - x0} height="196" rx="6" /></clipPath>
+      </defs>
+      <text class="sglyph__cap" x="16" y="22">Detail · dog run</text>
+      <text class="sglyph__cap" x="424" y="22" text-anchor="end">Not to scale</text>
+      <g clip-path="url(#sg-sec)">
+        <path d={`M${x0} ${top + 6}H${x1}V${subY(x1)}L${x0} ${subY(x0)}Z`} fill="#4b463e" />
+        {stones.map((s) => <circle cx={s.cx} cy={s.cy} r={s.r} fill={s.f} />)}
+        <path d={`M${x0} ${subY(x0)}L${x1} ${subY(x1)}V288H${x0}Z`} fill="url(#sg-clay)" />
+        <path class="sglyph__line" d={`M${x0} ${subY(x0)}L${x1} ${subY(x1)}`} />
+        <path class="sglyph__backing" d={`M${x0} ${top + 3}H${x1}`} />
+        {infill.map((d) => <circle class="sglyph__infill" cx={d.cx} cy={d.cy} r={d.r} />)}
+        <path class="sglyph__blades" d={blades.join('')} />
+      </g>
+      <g class="sglyph__paws sg-fade" style={rng(0.2)} set:html={paw(176, 88, -12) + paw(198, 80, 10)} />
+      {drops.map((x, i) => <path class="sglyph__drop sg-fade" style={rng(0.15 + i * 0.12)} d={drop(x, 50)} />)}
+      {drops.map((x, i) => (
+        <g>
+          <path class="sglyph__flow sg-draw" style={rng(0.35 + i * 0.14)} d={`M${x} 64V${subY(x) - 12}`} pathLength="1" />
+          <path class="sglyph__flow sglyph__head sg-fade" style={rng(0.95 + i * 0.14)} d={`M${x - 5} ${subY(x) - 19}l5 7 5 -7`} />
+        </g>
+      ))}
+      <path class="sglyph__flow sg-draw" style={rng(1.05)} d={`M${x0 + 12} ${subY(x0 + 12) - 4}L${x1 + 6} ${subY(x1 + 6) - 4}`} pathLength="1" />
+      <path class="sglyph__flow sglyph__head sg-fade" style={rng(1.6)} d={`M${x1 - 1} ${subY(x1) - 10}l8 5.6 -8 5`} />
+      {petCallouts.map((c) => (
+        <g class="sglyph__callout">
+          <path d={`M${c.at[0]} ${c.at[1]}L296 ${c.y - 4}H300`} />
+          <circle cx={c.at[0]} cy={c.at[1]} r="2" />
+          <text x="304" y={c.y}>{c.t}</text>
+        </g>
+      ))}
+    </svg>
+    <figcaption class="sglyph__legend">
+      <span><i class="sglyph__key sglyph__key--flow" aria-hidden="true"></i>Where the liquid goes</span>
+      <span>Section · depths are set per yard</span>
+    </figcaption>
+  </figure>
+) : slug === 'commercial-turf' ? (
+  <figure class:list={['sglyph', cls]}>
+    <svg class="sglyph__svg" viewBox="0 0 440 352" role="img" aria-labelledby={`sg-${slug}-t`}>
+      <title id={`sg-${slug}-t`}>Plan drawing of a common-area site: a sports field, a playground, a putting green and a picnic ground outlined as functional turf; an entry bed, parking islands and a street median hatched as places nonfunctional turf is barred in new development</title>
+      <defs>
+        <pattern id="sg-hatch" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><path d="M0 0v7" stroke="rgb(243 239 231 / 0.34)" stroke-width="1.6" /></pattern>
+      </defs>
+      <text class="sglyph__cap" x="16" y="22">Plan · common area</text>
+      <text class="sglyph__cap" x="424" y="22" text-anchor="end">Not to scale</text>
+      <path class="sglyph__prop" d={rectPath(16, 36, 408, 238)} />
+      <path class="sglyph__walk" d="M168 274C170 238 196 212 250 204C318 200 364 192 372 134" />
+
+      <!-- functional: field -->
+      <path class="sglyph__ticks" d={ticks(28, 48, 196, 132)} />
+      <path class="sglyph__mark" d="M126 48V180M28 92h18v48H28M224 92h-18v48h18" />
+      <circle class="sglyph__mark" cx="126" cy="114" r="17" />
+      <path class="sglyph__fn sg-draw" style={rng(0.25)} d={rectPath(28, 48, 196, 132)} pathLength="1" />
+      <text class="sglyph__zone" x="76" y="64" text-anchor="middle">Sports field</text>
+
+      <!-- functional: playground -->
+      <path class="sglyph__ticks" d={ticks(238, 48, 88, 76)} />
+      <path class="sglyph__mark" d="M250 86h20v20h-20zM270 94l22 22M312 80l-8 30M312 80l8 30M306 96h12" />
+      <path class="sglyph__fn sg-draw" style={rng(0.45)} d={rectPath(238, 48, 88, 76)} pathLength="1" />
+      <text class="sglyph__zone" x="282" y="64" text-anchor="middle">Playground</text>
+
+      <!-- functional: putting green -->
+      <path class="sglyph__ticks" d={ticks(336, 60, 82, 68, 8)} clip-path="url(#sg-blob)" />
+      <clipPath id="sg-blob"><path d={blob} /></clipPath>
+      <path class="sglyph__mark" d="M390 88V64" />
+      <path class="sglyph__flag sg-fade" style={rng(1.2)} d="M390 64l12 4 -12 4Z" />
+      <circle class="sglyph__cup" cx="390" cy="88" r="2.6" />
+      <path class="sglyph__fn sg-draw" style={rng(0.65)} d={blob} pathLength="1" />
+      <text class="sglyph__zone" x="368" y="112" text-anchor="middle">Putting</text>
+
+      <!-- functional: picnic ground -->
+      <path class="sglyph__ticks" d={ticks(238, 138, 92, 44)} />
+      <path class="sglyph__mark" d="M250 160h16v8h-16zM248 157h20M248 171h20M276 160h16v8h-16zM274 157h20M274 171h20M302 160h16v8h-16zM300 157h20M300 171h20" />
+      <path class="sglyph__fn sg-draw" style={rng(0.85)} d={rectPath(238, 138, 92, 44)} pathLength="1" />
+      <text class="sglyph__zone" x="284" y="152" text-anchor="middle">Picnic ground</text>
+
+      <!-- nonfunctional -->
+      <path d={rectPath(28, 240, 112, 26)} fill="url(#sg-hatch)" class="sglyph__nf" />
+      <text class="sglyph__zone sglyph__zone--nf" x="84" y="232" text-anchor="middle">Entry bed</text>
+      <path class="sglyph__lot" d={`${rectPath(300, 202, 112, 62)}${stalls.map((x) => `M${x} 202v24M${x} 240v24`).join('')}`} />
+      <path d={rectPath(300, 228, 112, 10)} fill="url(#sg-hatch)" class="sglyph__nf" />
+      <text class="sglyph__zone sglyph__zone--nf" x="356" y="256" text-anchor="middle">Parking islands</text>
+      <path class="sglyph__curb" d="M0 286H440M0 340H440" />
+      <path d="M58 305H382A7 7 0 0 1 382 319H58A7 7 0 0 1 58 305Z" fill="url(#sg-hatch)" class="sglyph__nf" />
+      <text class="sglyph__zone sglyph__zone--nf" x="220" y="334" text-anchor="middle">Street median</text>
+    </svg>
+    <figcaption class="sglyph__legend">
+      <span><i class="sglyph__key sglyph__key--fn" aria-hidden="true"></i>Functional turf · stays allowed</span>
+      <span><i class="sglyph__key sglyph__key--nf" aria-hidden="true"></i>Nonfunctional · barred in new development and redevelopment since Jan. 1, 2026</span>
+    </figcaption>
+  </figure>
+) : (
+  <figure class:list={['sglyph', cls]}>
+    <svg class="sglyph__svg" viewBox="0 0 440 300" role="img" aria-labelledby={`sg-${slug}-t`}>
+      <title id={`sg-${slug}-t`}>A layout line marked on an old lawn: the outline of the new turf area</title>
+      <path class="sglyph__ticks" d={ticks(16, 40, 408, 240)} />
+      <path class="sglyph__fn sg-draw" style={rng(0.2)} d="M60 250C40 170 70 80 170 70C260 60 300 120 360 110C410 102 420 180 396 226C372 272 300 262 220 256C150 250 76 300 60 250Z" pathLength="1" />
+    </svg>
+  </figure>
+)}
+
+<style>
+  .sglyph { margin: 0; padding: clamp(14px, 2vw, 22px); border-radius: var(--r-panel); background: var(--slab); color: var(--bone); box-shadow: 0 0 0 1px var(--bone-line); }
+  .sglyph__svg { width: 100%; height: auto; overflow: visible; }
+  .sglyph text { font-family: var(--font-display); font-stretch: 78%; font-weight: 650; text-transform: uppercase; letter-spacing: 0.12em; }
+  .sglyph__cap { font-size: 11px; fill: var(--bone-3); }
+  .sglyph__line { fill: none; stroke: rgb(var(--bone-rgb) / 0.4); stroke-width: 1; }
+  .sglyph__backing { fill: none; stroke: rgb(var(--bone-rgb) / 0.85); stroke-width: 4; stroke-dasharray: 18 5; }
+  .sglyph__infill { fill: rgb(var(--bone-rgb) / 0.4); }
+  .sglyph__blades { fill: none; stroke: rgb(var(--bone-rgb) / 0.62); stroke-width: 1.3; stroke-linecap: round; }
+  .sglyph__paws { fill: rgb(var(--bone-rgb) / 0.9); }
+  .sglyph__drop { fill: none; stroke: var(--paint); stroke-width: 1.8; }
+  .sglyph__flow { fill: none; stroke: var(--paint); stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+  .sglyph__callout path { fill: none; stroke: rgb(var(--bone-rgb) / 0.55); stroke-width: 1; }
+  .sglyph__callout circle { fill: var(--bone); }
+  .sglyph__callout text { font-size: 12px; fill: var(--bone); }
+
+  .sglyph__prop { fill: none; stroke: rgb(var(--bone-rgb) / 0.32); stroke-width: 1.2; stroke-dasharray: 10 4 2 4; }
+  .sglyph__walk { fill: none; stroke: rgb(var(--bone-rgb) / 0.3); stroke-width: 5; stroke-linecap: round; }
+  .sglyph__ticks { fill: none; stroke: rgb(var(--bone-rgb) / 0.26); stroke-width: 1.1; stroke-linecap: round; }
+  .sglyph__mark { fill: none; stroke: rgb(var(--bone-rgb) / 0.62); stroke-width: 1.3; }
+  .sglyph__fn { fill: none; stroke: var(--paint); stroke-width: 2.6; stroke-linejoin: round; }
+  .sglyph__flag { fill: var(--paint); }
+  .sglyph__cup { fill: var(--slab); stroke: var(--bone); stroke-width: 1.2; }
+  .sglyph__nf { stroke: rgb(var(--bone-rgb) / 0.4); stroke-width: 1; }
+  .sglyph__lot, .sglyph__curb { fill: none; stroke: rgb(var(--bone-rgb) / 0.3); stroke-width: 1.2; }
+  .sglyph__zone { font-size: 11.5px; fill: var(--bone); paint-order: stroke; stroke: var(--slab); stroke-width: 4px; stroke-linejoin: round; }
+  .sglyph__zone--nf { fill: var(--bone-2); }
+
+  .sglyph__legend { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 18px; margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--bone-line);
+    font-size: 0.84rem; line-height: 1.4; color: var(--bone-2); }
+  .sglyph__legend span { display: inline-flex; align-items: center; gap: 10px; }
+  .sglyph__key { flex: none; display: inline-block; width: 22px; height: 12px; border-radius: 2px; }
+  .sglyph__key--flow { height: 3px; border-radius: 2px; background: var(--paint); }
+  .sglyph__key--fn { box-shadow: inset 0 0 0 2px var(--paint); }
+  .sglyph__key--nf { background: repeating-linear-gradient(45deg, rgb(var(--bone-rgb) / 0.5) 0 1.5px, transparent 1.5px 5px); box-shadow: inset 0 0 0 1px rgb(var(--bone-rgb) / 0.4); }
+
+  .sglyph { view-timeline: --sg block; }
+  @media (prefers-reduced-motion: no-preference) {
+    @supports (animation-timeline: view()) {
+      @keyframes sg-draw { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
+      @keyframes sg-fade { from { opacity: 0; } to { opacity: 1; } }
+      .sg-draw { stroke-dasharray: 1; animation: sg-draw linear both; animation-timeline: --sg; }
+      .sg-fade { animation: sg-fade linear both; animation-timeline: --sg; }
+    }
+  }
+</style>

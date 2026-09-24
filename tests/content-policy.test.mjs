@@ -102,7 +102,7 @@ function fixture(t) {
     return dest;
   };
   write('src/data/layers/fixtures.json', LAYERS);
-  for (const d of ['towns', 'guides', 'work']) fs.mkdirSync(path.join(dir, 'src/content', d), { recursive: true });
+  for (const d of ['towns', 'guides', 'services', 'work']) fs.mkdirSync(path.join(dir, 'src/content', d), { recursive: true });
   const run = (...args) => {
     const r = spawnSync(process.execPath, [path.join(root, 'scripts/check-content.mjs'), '--root', dir, ...args], { encoding: 'utf8' });
     return { ...r, out: r.stdout + r.stderr };
@@ -314,6 +314,102 @@ test('guides: frontmatter is validated, links must be sources, related slugs mus
   const schema = run();
   assert.equal(schema.status, 1, schema.out);
   assert.match(schema.out, /schema: sources/);
+});
+
+const SERVICE = {
+  status: 'draft', slug: 'pet-turf',
+  title: 'Pet Turf and Dog Runs in Northern Colorado | NoCo Turf Co.',
+  description: 'Dog runs and pet turf that drain instead of holding odor: what the backing, base and infill decide, and what an HOA can and cannot ask for out back.',
+  h1: 'Dog runs smell when urine cannot drain. Build the drainage first.',
+  lede: 'Dog runs and side yards for dogs.',
+  answer: { question: 'Does pet turf smell?', answer: 'It can, when urine has nowhere to go. Backing and a base that drain keep it down.' },
+  faq: [
+    { q: 'Will it smell?', a: 'It can, if it does not drain.' },
+    { q: 'Will it get hot?', a: 'In full sun, yes.' },
+    { q: 'Can dogs dig it?', a: 'They can scratch at it.' },
+    { q: 'Can my HOA stop it?', a: 'State law gives a $500 remedy after 45 days.' },
+  ],
+  layerRefs: ['fixture-fc-luc', 'fixture-co-hoa'],
+  sources: GUIDE.sources,
+  photos: ['dusk'],
+  guides: ['turf-rules-northern-colorado'],
+  needsFromBrian: ['Photos of two dog runs'],
+};
+const SERVICE_BODY = [
+  '## Why does pet turf smell?', '', 'Urine that stays put breaks down where it sits.', '',
+  '## What goes into a dog run?', '', 'A base that drains, then turf, then infill.', '',
+  '## What can the town say?', '', '[Ord. 008](https://example.gov/fort-collins/luc-5-10-1) of 2025 keeps turf out of new plans. See [the rules](/guides/turf-rules-northern-colorado/).',
+].join('\n');
+
+test('services: a clean record passes; photo, guide, title, description, answer length and an H1 in the body fail', (t) => {
+  const { dir, write, run } = fixture(t);
+  write('src/content/guides/turf-rules-northern-colorado.md', guide(GUIDE, '## Does Fort Collins allow turf?\n\nOn existing lots, yes.'));
+  write('src/content/services/pet-turf.md', guide(SERVICE, SERVICE_BODY));
+  const ok = run();
+  assert.equal(ok.status, 0, ok.out);
+  assert.match(ok.out, /pet-turf \[service · draft\]/);
+  assert.match(ok.out, /needs from Brian: Photos of two dog runs/);
+
+  write('src/content/services/pet-turf.md', guide({
+    ...SERVICE,
+    title: 'Pet Turf and Dog Runs in Northern Colorado',
+    description: 'Dog runs that drain.',
+    photos: ['stock-dog'],
+    guides: ['no-such-guide'],
+    answer: { question: 'Does pet turf smell?', answer: Array.from({ length: 61 }, () => 'word').join(' ') },
+  }, `# A second H1\n\n${SERVICE_BODY}`));
+  const bad = run();
+  assert.equal(bad.status, 1, bad.out);
+  assert.match(bad.out, /title must end with "\| NoCo Turf Co\."/);
+  assert.match(bad.out, /description is 20 characters — write 140–160/);
+  assert.match(bad.out, /photo id is not in src\/data\/photos\.ts: stock-dog/);
+  assert.match(bad.out, /guide is not a record in src\/content\/guides\/: no-such-guide/);
+  assert.match(bad.out, /answer is 61 words — 60 at most/);
+  assert.match(bad.out, /the body has an H1 \("A second H1"\)/);
+
+  fs.rmSync(path.join(dir, 'src/content/services/pet-turf.md'));
+  write('src/content/services/putting-greens.md', guide(SERVICE, SERVICE_BODY));
+  const named = run();
+  assert.equal(named.status, 1, named.out);
+  assert.match(named.out, /file name should be pet-turf\.md/);
+});
+
+test('services: the claim, number and link rules apply; a statement H2 and a short FAQ only warn', (t) => {
+  const { write, run } = fixture(t);
+  write('src/content/guides/turf-rules-northern-colorado.md', guide(GUIDE, '## Does Fort Collins allow turf?\n\nOn existing lots, yes.'));
+  for (const [extra, expect] of [
+    ['The best dog runs in Windsor.', /unsourced business claim "best"/],
+    ['A written warranty on every run.', /unsourced business claim "warranty"/],
+    ['About 12,500 gallons a year.', /numbers not found in any referenced layer record or source label: 12500/],
+    ['We also cover Erie.', /TIMELESS town "Erie"/],
+    ['See [a blog](https://blog.example.com/dogs).', /outside link not among this record's sources: https:\/\/blog\.example\.com\/dogs/],
+  ]) {
+    write('src/content/services/pet-turf.md', guide(SERVICE, `${SERVICE_BODY}\n\n${extra}`));
+    const r = run();
+    assert.equal(r.status, 1, `${extra}\n${r.out}`);
+    assert.match(r.out, expect, extra);
+  }
+  write('src/content/services/pet-turf.md', guide({ ...SERVICE, faq: SERVICE.faq.slice(0, 2) }, `${SERVICE_BODY}\n\n## A statement heading\n\nText.`));
+  const warn = run();
+  assert.equal(warn.status, 0, warn.out);
+  assert.match(warn.out, /H2 is not shaped as a question: "A statement heading"/);
+  assert.match(warn.out, /2 FAQ items — write 4 to 6/);
+});
+
+test('services: a referenced record whose fact holds unapproved claim wording fails (the rule sheet prints facts verbatim)', (t) => {
+  const { write, run } = fixture(t);
+  write('src/content/guides/turf-rules-northern-colorado.md', guide(GUIDE, '## Does Fort Collins allow turf?\n\nOn existing lots, yes.'));
+  write('src/data/layers/extra.json', [{
+    id: 'fixture-greeley-pending', layer: 'ordinance', applies_to: ['greeley-co'],
+    fact: 'Greeley is drafting a change that would require a licensed or certified installer for front-yard turf.',
+    quote: 'Licensed/certified installer required', source_url: 'https://example.gov/greeley/pending', source_label: 'Greeley packet',
+    checked: '2026-09-24', reachable: true, status: 'VERIFIED', numbers: [],
+  }]);
+  write('.site/truth/claims.json', { claims: [{ claim: 'Certified installer', aliases: ['certified installer'], status: 'UNKNOWN', approved: false }] });
+  write('src/content/services/pet-turf.md', guide({ ...SERVICE, layerRefs: [...SERVICE.layerRefs, 'fixture-greeley-pending'], sources: [...SERVICE.sources, { label: 'Greeley packet', url: 'https://example.gov/greeley/pending', checked: '2026-09-24' }] }, SERVICE_BODY));
+  const r = run();
+  assert.equal(r.status, 1, r.out);
+  assert.match(r.out, /layer fixture-greeley-pending would print "certified installer" in the rule sheet/);
 });
 
 test('the real repo passes (towns, guides and work may not exist yet)', () => {

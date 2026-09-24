@@ -1,0 +1,58 @@
+---
+/**
+ * Read next + receipts: the guides a service page points to (frontmatter `guides`, in that order, only
+ * those that exist in this build — visibleGuides()) beside the page's Sources list.
+ */
+import Sources from './Sources.astro';
+import ServiceHead from './ServiceHead.astro';
+import Icon from './Icon.astro';
+import { visibleGuides, guideLabel } from '../lib/visible';
+
+interface Props { guides: string[]; sources: { label: string; url: string; checked?: string }[]; title: string; id?: string; }
+const { guides, sources, title, id = 'read-next' } = Astro.props;
+const all = await visibleGuides();
+const list = guides.map((g) => all.find((x) => x.id === g)).filter((g): g is (typeof all)[number] => Boolean(g));
+---
+<section class="section section--tight svrel" aria-labelledby={`${id}-h`}>
+  <div class="wrap svrel__grid">
+    <div>
+      <ServiceHead label="Read next" id={`${id}-h`}>{title}</ServiceHead>
+      {list.length > 0 && (
+        <ul class="svrel__list" role="list">
+          {list.map((g) => {
+            const d = g.entry.data as { title: string; description: string };
+            return (
+              <li>
+                <a class="svrel__row" href={`/guides/${g.id}/`}>
+                  <span class="svrel__name">{guideLabel(d.title)}</span>
+                  <span class="svrel__desc">{d.description}</span>
+                  <span class="svrel__go" aria-hidden="true"><Icon name="arrow" size={18} /></span>
+                </a>
+              </li>
+            );
+          })}
+        </ul>
+      )}
+    </div>
+    <div class="svrel__src">
+      <Sources sources={sources} title="Sources for this page" />
+    </div>
+  </div>
+</section>
+
+<style>
+  .svrel { border-top: 1px solid var(--line); }
+  .svrel__grid { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 0.65fr); gap: clamp(32px, 5vw, 80px); align-items: start; }
+  .svrel__grid :global(.svhead h2) { font-size: clamp(1.8rem, 1.2rem + 2.2vw, 3rem); }
+  .svrel__list { list-style: none; border-top: 2px solid var(--ink); }
+  .svrel__row { display: grid; grid-template-columns: minmax(0, 1fr) 44px; gap: 4px 20px; align-items: center; padding: 18px 0; border-bottom: 1px dashed rgb(var(--ink-rgb) / 0.28);
+    text-decoration: none; transition: background-color var(--t2) var(--ease); }
+  .svrel__name { font-family: var(--font-display); font-weight: 760; font-stretch: 110%; font-size: clamp(1.15rem, 1rem + 0.6vw, 1.45rem); letter-spacing: -0.02em; line-height: 1.15; }
+  .svrel__desc { grid-column: 1; color: var(--ink-3); font-size: var(--fs-small); max-width: 62ch; }
+  .svrel__go { grid-column: 2; grid-row: 1 / span 2; width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center; box-shadow: inset 0 0 0 1.5px var(--line);
+    transition: background-color var(--t2) var(--ease), box-shadow var(--t2) var(--ease); }
+  .svrel__row:hover .svrel__go, .svrel__row:focus-visible .svrel__go { background: var(--paint); box-shadow: none; }
+  .svrel__row:hover .svrel__name { text-decoration: underline; text-decoration-color: var(--paint); text-decoration-thickness: 2px; text-underline-offset: 0.18em; }
+  .svrel__src { position: sticky; top: calc(var(--header-h) + 24px); padding-top: clamp(0px, 3vw, 48px); }
+  @media (max-width: 899px) { .svrel__grid { grid-template-columns: 1fr; } .svrel__src { position: static; padding-top: 0; } }
+</style>
