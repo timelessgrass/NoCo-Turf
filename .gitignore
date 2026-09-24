@@ -1,0 +1,38 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Dependencies / build output
+node_modules/
+dist/
+build/
+.next/
+.cache/
+
+# Netlify
+.netlify/
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Pulled client assets — unvetted, never commit
+archive/
+.site/truth/transcripts/
+
+# Astro
+.astro/
+
+# design exploration scratch — not part of the site
+public/_design/
+.gstack/
+
+# Playwright MCP page snapshots (test scratch)
+.playwright-mcp/
+playwright-report/
+test-results/

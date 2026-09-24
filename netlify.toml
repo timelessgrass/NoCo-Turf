@@ -1,0 +1,19 @@
+# PRELAUNCH holding state. Netlify deploys public/ as-is (no build step), so a
+# build costs seconds. When the Astro scaffold lands, switch to:
+#   command = "npm run build"
+#   publish = "dist"
+# Content must ship in the raw HTML response — retrieval agents (GPTBot,
+# ClaudeBot, PerplexityBot, Google-Extended) cannot read a hydration-only page.
+
+[build]
+  publish = "public"
+
+[build.environment]
+  NODE_VERSION = "24"
+
+# Keep the netlify.app preview out of every index until launch.
+# Remove at launch, together with public/robots.txt's Disallow.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
