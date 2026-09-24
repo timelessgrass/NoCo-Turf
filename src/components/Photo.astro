@@ -1,7 +1,8 @@
 ---
 /**
- * One photograph from src/data/photos.ts, emitted as <picture> (AVIF + WebP + JPEG fallback) at
- * several widths with explicit dimensions. `eager` is for the page's first content image (the LCP):
+ * One photograph from src/data/photos.ts, emitted as <picture> (WebP + JPEG fallback) at several widths
+ * with explicit dimensions. WebP only, not AVIF: on these turf photos AVIF came out HEAVIER (hero 960w:
+ * 205 KB AVIF vs 172 KB WebP — the TIMELESS build measured the same, 25–35%). `eager` is for the page's first content image (the LCP):
  * loading=eager + fetchpriority=high — never lazy (Astro's default lazy trips preflight IMG-4).
  */
 import { Picture } from 'astro:assets';
@@ -16,8 +17,9 @@ interface Props {
   focus?: string;
   widths?: number[];
   vt?: string; // view-transition-name
+  quality?: number;
 }
-const { photo, sizes = '100vw', eager = false, class: cls, focus, widths = [480, 800, 1200, 1600, 1920], vt } = Astro.props;
+const { photo, sizes = '100vw', eager = false, class: cls, focus, widths = [480, 800, 1200, 1600, 1920], vt, quality = 66 } = Astro.props;
 const w = widths.filter((x) => x <= photo.src.width);
 ---
 <Picture
@@ -25,9 +27,9 @@ const w = widths.filter((x) => x <= photo.src.width);
   alt={photo.alt}
   widths={w.length ? w : [photo.src.width]}
   sizes={sizes}
-  formats={['avif', 'webp']}
+  formats={['webp']}
   fallbackFormat="jpg"
-  quality={72}
+  quality={quality}
   loading={eager ? 'eager' : 'lazy'}
   fetchpriority={eager ? 'high' : 'auto'}
   decoding={eager ? 'sync' : 'async'}

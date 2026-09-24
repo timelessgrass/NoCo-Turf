@@ -27,7 +27,7 @@
   --ink-rgb: 27 25 21;
   --ink: rgb(var(--ink-rgb));
   --ink-2: rgb(var(--ink-rgb) / 0.74);
-  --ink-3: rgb(var(--ink-rgb) / 0.54);
+  --ink-3: rgb(var(--ink-rgb) / 0.66); /* 5.3:1 on ground, 5.0:1 on ground-2 — AA for small text (0.54 was 3.6:1) */
   --line: rgb(var(--ink-rgb) / 0.14);
 
   --bone-rgb: 243 239 231;
