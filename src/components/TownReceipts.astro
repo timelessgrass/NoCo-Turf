@@ -1,0 +1,40 @@
+---
+/**
+ * TownReceipts — for a block built from public records rather than a shared layer (subdivisions, golf,
+ * districts, landmarks): the places and figures its sources vouch for, read straight off each source's
+ * label in the town record, with the date it was checked. A place list that is also the receipt.
+ */
+import Icon from './Icon.astro';
+import { receipt, fmtDate } from './TownData';
+interface Props { sources: { label: string; url: string; checked: string }[]; kind: string }
+const { sources, kind } = Astro.props;
+const rows = sources.map((s) => ({ ...s, ...receipt(s.label) }));
+---
+<ul class:list={['trec', `trec--${kind}`]} role="list">
+  {rows.map((r) => (
+    <li class="trec__row">
+      <a class="trec__pub" href={r.url} rel="noopener"><span>{r.pub}</span><Icon name="external" size={13} /></a>
+      {r.sub && <p class="trec__sub">{r.sub}</p>}
+      {r.items.length > 0 && (
+        <ul class="trec__items" role="list">
+          {r.items.map((it) => <li>{it}</li>)}
+        </ul>
+      )}
+      {r.checked && <p class="trec__chk">Checked {fmtDate(r.checked)}</p>}
+    </li>
+  ))}
+</ul>
+
+<style>
+  .trec { list-style: none; display: grid; gap: 10px; }
+  .trec__row { padding: 4px 16px 12px; border-radius: var(--r-control); background: var(--ground); box-shadow: inset 0 0 0 1px var(--line); }
+  .trec__pub { display: flex; align-items: center; justify-content: space-between; gap: 10px; min-height: 44px; text-decoration: none;
+    font-family: var(--font-display); font-weight: 760; font-stretch: 104%; font-size: 0.98rem; letter-spacing: -0.012em; line-height: 1.25; }
+  .trec__pub :global(svg) { flex: none; color: var(--ink-3); }
+  .trec__pub:hover span { text-decoration: underline; text-decoration-color: var(--paint); text-decoration-thickness: 2px; }
+  .trec__sub { margin: 0 0 6px; font-size: 0.84rem; font-weight: 600; color: var(--ink-2); }
+  .trec__items { list-style: none; display: grid; gap: 0; }
+  .trec__items li { position: relative; padding: 6px 0 6px 18px; font-size: 0.86rem; line-height: 1.45; border-top: 1px dashed rgb(var(--ink-rgb) / 0.18); font-variant-numeric: tabular-nums; }
+  .trec__items li::before { content: ''; position: absolute; left: 2px; top: 0.95em; width: 8px; height: 8px; border-radius: 50%; box-shadow: inset 0 0 0 2px var(--paint); }
+  .trec__chk { margin: 6px 0 0; font-size: 0.74rem; color: var(--ink-3); }
+</style>

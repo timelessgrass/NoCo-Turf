@@ -1,0 +1,94 @@
+---
+/**
+ * TownWater — who bills the water, provider by provider. Where a water-provider record carries its 2026
+ * rate schedule, the tiers are drawn as a ladder (bar length = price per 1,000 gallons, on one scale across
+ * the panel so two providers compare honestly); otherwise the provider's record sentence stands in.
+ */
+import Icon from './Icon.astro';
+import { rateRows, money, fmtDate, type LayerRecord } from './TownData';
+interface Props { records: LayerRecord[] }
+const { records } = Astro.props;
+
+const order: string[] = [];
+const byProvider = new Map<string, LayerRecord[]>();
+for (const r of records) {
+  const p = r.provider ?? 'Water provider';
+  if (!byProvider.has(p)) { byProvider.set(p, []); order.push(p); }
+  byProvider.get(p)!.push(r);
+}
+const ladders = records.filter((r) => r.rates && r.rates.tiers.length);
+const max = Math.max(1, ...ladders.flatMap((r) => r.rates!.tiers.map((t) => t.price)));
+const providers = order.map((name) => {
+  const rs = byProvider.get(name)!;
+  return { name, rates: rs.filter((r) => r.rates && r.rates.tiers.length), notes: rs.filter((r) => !(r.rates && r.rates.tiers.length)) };
+});
+---
+<div class="twat">
+  {providers.map((p) => (
+    <div class="twat__prov">
+      <p class="twat__name">{p.name}</p>
+      {p.rates.map((r) => {
+        const { rows, subtitle, base, model } = rateRows(r);
+        return (
+          <figure class="twat__ladder">
+            <figcaption class="twat__cap">
+              <span class="label">2026 · per 1,000 gallons{subtitle && <> · {subtitle}</>}{model === 'water-budget' && <> · by water budget</>}</span>
+              {base != null && <span class="twat__base num">{money(base)} a month base</span>}
+            </figcaption>
+            <table class="twat__table">
+              <caption class="sr">{p.name}: price per 1,000 gallons, 2026</caption>
+              <tbody>
+                {rows.map((row) => (
+                  <tr>
+                    <th scope="row">{row.label}</th>
+                    <td><span class="twat__cell">
+                      <span class:list={['twat__bar', { 'is-included': row.included }]} style={`--w:${row.included ? 0 : (row.price / max).toFixed(3)}`} aria-hidden="true"></span>
+                      <span class:list={['twat__p', 'num', { 'is-note': row.included }]}>{row.shown}</span>
+                    </span></td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+            <p class="twat__src"><a href={r.source_url} rel="noopener">{r.source_label}<Icon name="external" size={13} /></a>{r.rates?.effective && <span> · effective {fmtDate(r.rates.effective)}</span>}</p>
+          </figure>
+        );
+      })}
+      {p.notes.map((r) => (
+        <p class="twat__note">{r.fact} <a href={r.source_url} rel="noopener">Source<Icon name="external" size={12} /></a></p>
+      ))}
+    </div>
+  ))}
+</div>
+
+<style>
+  .twat { display: grid; gap: 18px; }
+  .twat__prov + .twat__prov { padding-top: 16px; border-top: 1px solid var(--line); }
+  .twat__name { margin: 0 0 10px; font-family: var(--font-display); font-weight: 780; font-stretch: 106%; font-size: 1.08rem; letter-spacing: -0.015em; }
+  .twat__ladder { margin: 0 0 12px; padding: 14px 14px 10px; border-radius: var(--r-control); background: var(--ground); box-shadow: inset 0 0 0 1px var(--line); }
+  .twat__cap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 12px; margin-bottom: 8px; }
+  .twat__cap .label { font-size: 0.66rem; }
+  .twat__base { font-size: 0.8rem; color: var(--ink-2); font-weight: 600; }
+  .twat__table { width: 100%; font-size: 0.84rem; }
+  .twat__table th { width: 42%; text-align: left; font-weight: 500; color: var(--ink-2); padding: 5px 10px 5px 0; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .twat__table td { padding: 5px 0; }
+  .twat__cell { display: flex; align-items: center; gap: 8px; }
+  .twat__bar { display: block; height: 12px; width: calc(var(--w) * (100% - 64px)); min-width: 3px; border-radius: 2px;
+    background: var(--ink); transform-origin: left center; }
+  .twat__bar.is-included { width: 0; min-width: 0; }
+  .twat__table tr:last-child .twat__bar { background: var(--paint); }
+  .twat__p { font-weight: 700; font-family: var(--font-display); font-stretch: 96%; white-space: nowrap; }
+  .twat__p.is-note { font-weight: 500; font-family: var(--font-body); color: var(--ink-3); font-size: 0.8rem; white-space: normal; }
+  .twat__src { margin: 8px 0 0; font-size: 0.76rem; color: var(--ink-3); line-height: 1.4; }
+  .twat__src a, .twat__note a { padding-block: 13px; }
+  .twat__src a { color: var(--ink-3); text-decoration: none; }
+  .twat__src a:hover { color: var(--ink); text-decoration: underline; text-decoration-color: var(--paint); }
+  .twat__src :global(svg), .twat__note :global(svg) { display: inline-block; vertical-align: -1px; margin-left: 3px; }
+  .twat__note { margin: 0 0 8px; font-size: 0.86rem; line-height: 1.5; color: var(--ink-2); }
+  .twat__note a { color: var(--ink-3); font-size: 0.8rem; }
+  @media (prefers-reduced-motion: no-preference) {
+    @supports (animation-timeline: view()) {
+      @keyframes twat-grow { from { scale: 0 1; } to { scale: 1 1; } }
+      .twat__bar { animation: twat-grow linear both; animation-timeline: view(); animation-range: entry 10% cover 35%; }
+    }
+  }
+</style>

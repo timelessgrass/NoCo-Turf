@@ -1,0 +1,75 @@
+---
+/**
+ * TownSheet — the title block in the corner of a site plan, for one town: what this page covers, in the
+ * order it covers it, each line a jump link to its section. Every value is the town record's own kicker or
+ * a figure lifted from the layer record that section cites, so no two towns' sheets read alike.
+ */
+import Icon from './Icon.astro';
+interface Row { label: string; value: string; datum?: string | null; href: string; own?: boolean }
+interface Props { town: string; county: string; region: { label: string; href: string }; rows: Row[]; checked: string; sources: number }
+const { town, county, region, rows, checked, sources } = Astro.props;
+---
+<nav class="tsheet" aria-label={`What this page covers for ${town}`}>
+  <div class="tsheet__top">
+    <p class="label">Sheet · {town}, CO</p>
+    <p class="tsheet__chk">Checked {checked}</p>
+  </div>
+  <dl class="tsheet__meta">
+    <div><dt class="label">County</dt><dd>{county}</dd></div>
+    <div><dt class="label">Part of</dt><dd><a href={region.href}>{region.label}</a></dd></div>
+  </dl>
+  <ol class="tsheet__rows" role="list">
+    {rows.map((r, i) => (
+      <li>
+        <a class="tsheet__row" href={r.href}>
+          <span class="tsheet__no num">{String(i + 1).padStart(2, '0')}</span>
+          <span class="tsheet__label label">{r.label}</span>
+          <span class="tsheet__val">
+            <span class="tsheet__kick">{r.value}{r.own && <span class="tsheet__own" title={`Only in ${town}`}><span class="sr"> (only in {town})</span></span>}</span>
+            {r.datum && !r.value.toLowerCase().includes(r.datum.toLowerCase()) && <span class="tsheet__datum">{r.datum}</span>}
+          </span>
+          <Icon name="arrow-down" size={16} class="tsheet__go" />
+        </a>
+      </li>
+    ))}
+  </ol>
+  <div class="tsheet__foot">
+    <a href="#sources"><span class="num">{sources}</span> sources, each with the date it was read <Icon name="arrow-down" size={14} /></a>
+    {rows.some((r) => r.own) && <span class="tsheet__key" aria-hidden="true"><span class="tsheet__own"></span>only in {town}</span>}
+  </div>
+</nav>
+
+<style>
+  .tsheet { border: 1.5px solid var(--ink); border-radius: var(--r-control); background: var(--ground); font-size: var(--fs-small); }
+  .tsheet__top { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding: 12px 16px; background: var(--ink); color: var(--bone); border-radius: 5px 5px 0 0; }
+  .tsheet__top p { margin: 0; }
+  .tsheet__top .label { color: var(--bone); }
+  .tsheet__chk { font-size: 0.8rem; color: var(--bone-2); font-variant-numeric: tabular-nums; }
+  .tsheet__meta { display: grid; grid-template-columns: 1fr 1fr; margin: 0; border-bottom: 1.5px solid var(--ink); }
+  .tsheet__meta div { padding: 10px 16px 12px; display: grid; gap: 2px; }
+  .tsheet__meta div + div { border-left: 1px solid var(--line); }
+  .tsheet__meta dd { margin: 0; font-family: var(--font-display); font-weight: 700; font-stretch: 102%; letter-spacing: -0.01em; }
+  .tsheet__meta a { text-decoration-color: var(--paint); }
+  .tsheet__rows { list-style: none; }
+  .tsheet__rows li + li { border-top: 1px solid var(--line); }
+  .tsheet__row { display: grid; grid-template-columns: 26px 92px minmax(0, 1fr) 20px; gap: 10px; align-items: center; min-height: 48px; padding: 8px 16px;
+    text-decoration: none; transition: background-color var(--t2) var(--ease); }
+  .tsheet__row:hover { background: var(--ground-2); }
+  .tsheet__no { font-family: var(--font-display); font-weight: 800; font-size: 0.78rem; color: var(--ink-3); }
+  .tsheet__label { font-size: 0.68rem; }
+  .tsheet__val { display: grid; gap: 1px; min-width: 0; }
+  .tsheet__kick { font-family: var(--font-display); font-weight: 700; font-stretch: 102%; letter-spacing: -0.01em; line-height: 1.25; }
+  .tsheet__kick, .tsheet__datum { overflow-wrap: anywhere; }
+  .tsheet__datum { color: var(--ink-3); font-size: 0.82rem; line-height: 1.35; font-variant-numeric: tabular-nums; }
+  .tsheet__own { display: inline-block; width: 8px; height: 8px; margin-left: 7px; border-radius: 50%; background: var(--paint); vertical-align: 0.1em; }
+  .tsheet :global(.tsheet__go) { color: var(--ink-3); transition: color var(--t2) var(--ease); }
+  .tsheet__row:hover :global(.tsheet__go) { color: var(--ink); }
+  .tsheet__foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0 16px; padding: 0 16px; border-top: 1.5px solid var(--ink);
+    font-size: 0.84rem; color: var(--ink-2); }
+  .tsheet__foot a { display: inline-flex; align-items: center; gap: 6px; min-height: 46px; color: inherit; text-decoration: none; }
+  .tsheet__foot a:hover { color: var(--ink); text-decoration: underline; text-decoration-color: var(--paint); }
+  .tsheet__foot .num { font-family: var(--font-display); font-weight: 800; color: var(--ink); }
+  .tsheet__key { display: inline-flex; align-items: center; gap: 0; font-size: 0.78rem; color: var(--ink-3); }
+  .tsheet__key .tsheet__own { margin: 0 6px 0 0; }
+  @media (max-width: 420px) { .tsheet__row { grid-template-columns: 22px 74px minmax(0, 1fr) 16px; gap: 8px; padding-inline: 12px; } }
+</style>

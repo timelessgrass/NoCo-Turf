@@ -1,0 +1,60 @@
+---
+/**
+ * TownFolded — the places a town record folds in (LaSalle and Platteville on Greeley, Laporte on Fort
+ * Collins): each its own short subsection with its own sources, because each answers to its own rules.
+ * Where a section cites a code that is also a layer record (Platteville's turf-nuisance rule), the rule is
+ * quoted beside it as a code card.
+ */
+import Icon from './Icon.astro';
+import TownCode from './TownCode.astro';
+import { matchSources, receipt, recordsFor } from './TownData';
+interface Section { name: string; paras: string[]; sources: string[] }
+interface Props { sections: Section[]; town: string; slug: string; sources: { label: string; url: string; checked: string }[]; asOf: string }
+const { sections, town, slug, sources, asOf } = Astro.props;
+const layer = recordsFor(slug).filter((r) => r.layer === 'ordinance');
+const codeFor = (s: Section) => layer.filter((r) => s.sources.includes(r.source_url));
+const names = sections.map((s) => s.name);
+const joined = names.length > 1 ? `${names.slice(0, -1).join(', ')} and ${names[names.length - 1]}` : names[0];
+---
+{sections.length > 0 && (
+  <section class="section tfold" id="also" aria-labelledby="also-h">
+    <div class="wrap">
+      <header class="tfold__head">
+        <p class="label">Also on this page · {joined}</p>
+        <h2 id="also-h" class="tfold__h">Close to {town}, under different rules.</h2>
+      </header>
+      <div class:list={['tfold__grid', { 'tfold__grid--one': sections.length === 1 }]}>
+        {sections.map((s, i) => (
+          <article class="tfold__place rise" id={`also-${s.name.toLowerCase().replace(/[^a-z]+/g, '-')}`} aria-labelledby={`also-${i}-h`}>
+            <p class="tfold__mark" aria-hidden="true"><span></span></p>
+            <h3 id={`also-${i}-h`} class="tfold__name">{s.name}</h3>
+            <div class="tfold__paras">{s.paras.map((p) => <p>{p}</p>)}</div>
+            {codeFor(s).length > 0 && <div class="tfold__code"><TownCode records={codeFor(s)} asOf={asOf} /></div>}
+            <ul class="tfold__src" role="list">
+              {matchSources(s.sources, sources).map((src) => (
+                <li><a href={src.url} rel="noopener">{receipt(src.label).pub}<Icon name="external" size={12} /></a></li>
+              ))}
+            </ul>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+)}
+
+<style>
+  .tfold__head { display: grid; gap: 14px; margin-bottom: clamp(32px, 4vw, 60px); }
+  .tfold__h { font-size: clamp(2rem, 1.2rem + 3vw, 3.8rem); max-width: 16ch; }
+  .tfold__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(20px, 3vw, 40px); }
+  .tfold__grid--one { grid-template-columns: minmax(0, 760px); }
+  .tfold__place { position: relative; padding: clamp(22px, 3vw, 36px); border-radius: var(--r-panel); background: var(--ground-2); }
+  .tfold__mark { margin: 0 0 14px; }
+  .tfold__mark span { display: block; width: 44px; height: 44px; border-radius: 50%; border: 3px dashed var(--paint); }
+  .tfold__name { font-size: clamp(1.9rem, 1.3rem + 2vw, 2.8rem); font-stretch: 116%; letter-spacing: -0.035em; line-height: 1; }
+  .tfold__paras { margin-top: 18px; color: var(--ink-2); max-width: 62ch; }
+  .tfold__code { margin: 6px 0 12px; }
+  .tfold__src { list-style: none; display: flex; flex-wrap: wrap; gap: 0 16px; margin-top: 8px; padding-top: 10px; border-top: 1px solid var(--line); }
+  .tfold__src a { display: inline-flex; align-items: center; gap: 5px; min-height: 44px; font-size: 0.8rem; color: var(--ink-3); text-decoration: none; }
+  .tfold__src a:hover { color: var(--ink); text-decoration: underline; text-decoration-color: var(--paint); }
+  @media (max-width: 899px) { .tfold__grid { grid-template-columns: 1fr; } }
+</style>

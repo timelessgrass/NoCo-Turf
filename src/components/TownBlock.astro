@@ -1,0 +1,56 @@
+---
+/**
+ * TownBlock — one substantive block of a town record, in the record's order (strongest first).
+ * Left: the plan callout (number + kicker), the H2 claim, the takeaway as the lead sentence, then the paras.
+ * Right: TownEvidence, the records the block stands on. A block true only of this town (own: true) carries
+ * a small "Only in {Town}" mark; inherited blocks (shared soil, climate or water layers) don't.
+ */
+import TownEvidence from './TownEvidence.astro';
+interface Block { kind: string; own: boolean; kicker: string; h2: string; takeaway?: string; paras: string[]; layerRefs: string[]; sources: string[] }
+interface Props { block: Block; no: number; id: string; town: string; sources: { label: string; url: string; checked: string }[]; asOf: string }
+const { block, no, id, town, sources, asOf } = Astro.props;
+---
+<section class="tb" id={id} aria-labelledby={`${id}-h`}>
+  <div class="wrap tb__grid">
+    <div class="tb__copy">
+      <p class="tb__meta">
+        <span class="tb__no num" aria-hidden="true">{String(no).padStart(2, '0')}</span>
+        <span class="label tb__kicker">{block.kicker}</span>
+        {block.own && <span class="tb__own">Only in {town}</span>}
+      </p>
+      <h2 id={`${id}-h`} class="tb__h">{block.h2}</h2>
+      {block.takeaway && <p class="tb__take">{block.takeaway}</p>}
+      <div class="tb__paras">
+        {block.paras.map((p) => <p>{p}</p>)}
+      </div>
+    </div>
+    <aside class="tb__ev rise" aria-label={`${block.kicker}: the record`}>
+      <TownEvidence block={block} sources={sources} town={town} asOf={asOf} />
+    </aside>
+  </div>
+</section>
+
+<style>
+  .tb { padding-block: clamp(52px, 4.5vw + 28px, 112px); }
+  .tb__grid { display: grid; grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr); gap: clamp(32px, 5.5vw, 96px); align-items: start;
+    position: relative; padding-top: clamp(28px, 3vw, 44px); }
+  .tb__grid::before { content: ''; position: absolute; left: 0; right: 0; top: 0; height: 1px; background: var(--line); }
+  .tb__grid::after { content: ''; position: absolute; left: 0; top: -1px; width: 64px; height: 3px;
+    background: repeating-linear-gradient(90deg, var(--paint) 0 16px, transparent 16px 24px); }
+  .tb__meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin: 0 0 18px; }
+  .tb__no { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: var(--paint); color: var(--ink);
+    font-family: var(--font-display); font-weight: 820; font-size: 0.8rem; }
+  .tb__kicker { color: var(--ink); }
+  .tb__own { display: inline-flex; align-items: center; min-height: 26px; padding: 0 10px; border-radius: var(--r-chip); border: 1.5px dashed var(--paint);
+    font-family: var(--font-display); font-weight: 680; font-stretch: 84%; font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink); }
+  .tb__h { font-size: clamp(1.75rem, 1.12rem + 2.35vw, 3.05rem); font-stretch: 110%; letter-spacing: -0.032em; line-height: 1.02; max-width: 21ch; }
+  .tb__take { position: relative; margin: 22px 0 0; padding-left: 18px; max-width: 46ch; font-size: var(--fs-lede); line-height: 1.45; font-weight: 560; color: var(--ink); }
+  .tb__take::before { content: ''; position: absolute; left: 0; top: 0.3em; bottom: 0.3em; width: 3px; border-radius: 2px;
+    background: repeating-linear-gradient(180deg, var(--paint) 0 10px, transparent 10px 16px); }
+  .tb__paras { margin-top: 22px; max-width: var(--measure); color: var(--ink-2); }
+  .tb__paras p:last-child { margin-bottom: 0; }
+  .tb__ev:empty { display: none; }
+  @media (max-width: 899px) {
+    .tb__grid { grid-template-columns: 1fr; }
+  }
+</style>

@@ -1,0 +1,87 @@
+---
+/**
+ * TownStatus — watering status as a dated strip. One row per drought-layer record: its status, and a bar
+ * across the calendar year from the day it took effect to the day the record was read. A record with no
+ * start date gets no bar (a standing rule, or a figure like the C-BT quota). Beneath the strip, each
+ * record's own sentence with its dates and source — the strip is a picture of those, never more.
+ */
+import Icon from './Icon.astro';
+import { droughtPill, fmtDate, yearFrac, yearOf, type LayerRecord } from './TownData';
+interface Props { records: LayerRecord[]; asOf: string }
+const { records, asOf } = Astro.props;
+const year = yearOf(asOf);
+const now = yearFrac(asOf);
+const MONTHS = ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'];
+const rows = records.map((r) => {
+  const pill = droughtPill(r);
+  const eff = r.effective ?? null;
+  const start = eff ? (yearOf(eff) < year ? 0 : yearOf(eff) === year ? yearFrac(eff) : null) : null;
+  return { r, pill, eff, start, before: !!eff && yearOf(eff) < year };
+});
+---
+<div class="tstat">
+  <div class="tstat__chart" aria-hidden="true" style={`--now:${now.toFixed(4)}`}>
+    <div class="tstat__axis"><span class="tstat__yr num">{year}</span><span class="tstat__months">{MONTHS.map((m) => <span>{m}</span>)}</span></div>
+    {rows.map((row) => (
+      <div class="tstat__row">
+        <span class:list={['tstat__pill', { 'is-strong': row.pill.strong }]}>{row.pill.text}</span>
+        <span class="tstat__track">
+          {row.start != null && <span class:list={['tstat__bar', { 'is-before': row.before }]} style={`--s:${row.start.toFixed(4)}`}></span>}
+          {row.start != null && !row.before && <span class="tstat__start" style={`--s:${row.start.toFixed(4)}`}></span>}
+        </span>
+      </div>
+    ))}
+    <span class="tstat__now"><span class="tstat__now-l">Read {fmtDate(asOf).replace(/, \d{4}$/, '')}</span></span>
+  </div>
+  <ul class="tstat__list" role="list">
+    {rows.map((row) => (
+      <li>
+        <p class="tstat__fact"><span class:list={['tstat__tag', { 'is-strong': row.pill.strong }]}>{row.pill.text}</span> {row.r.fact}</p>
+        <p class="tstat__meta">
+          {row.eff && <span>In effect since {fmtDate(row.eff)}</span>}
+          <span>Checked {fmtDate(row.r.checked)}</span>
+          <a href={row.r.source_url} rel="noopener">{row.r.source_label}<Icon name="external" size={12} /></a>
+        </p>
+      </li>
+    ))}
+  </ul>
+</div>
+
+<style>
+  .tstat { display: grid; gap: 16px; }
+  .tstat__chart { position: relative; display: grid; gap: 8px; padding: 30px 14px 12px; border-radius: var(--r-control); background: var(--ground); box-shadow: inset 0 0 0 1px var(--line);
+    --pill: 118px; }
+  .tstat__axis, .tstat__row { display: grid; grid-template-columns: var(--pill) 1fr; gap: 10px; align-items: center; }
+  .tstat__yr { font-family: var(--font-display); font-weight: 800; font-size: 0.78rem; color: var(--ink-3); }
+  .tstat__months { display: grid; grid-template-columns: repeat(12, 1fr); font-family: var(--font-display); font-stretch: 80%; font-weight: 650; font-size: 0.64rem; letter-spacing: 0.1em; color: var(--ink-3); }
+  .tstat__months span { border-left: 1px solid var(--line); padding-left: 3px; }
+  .tstat__pill { font-family: var(--font-display); font-weight: 680; font-stretch: 88%; font-size: 0.72rem; line-height: 1.2; color: var(--ink-2); }
+  .tstat__pill.is-strong { color: var(--ink); font-weight: 780; }
+  .tstat__track { position: relative; height: 14px; border-radius: 3px;
+    background: repeating-linear-gradient(90deg, transparent 0 calc(100% / 12 - 1px), var(--line) calc(100% / 12 - 1px) calc(100% / 12)); }
+  .tstat__bar { position: absolute; top: 2px; bottom: 2px; left: calc(var(--s) * 100%); right: calc((1 - var(--now)) * 100%); border-radius: 2px; background: var(--ink);
+    transform-origin: left center; }
+  .tstat__row:has(.tstat__pill.is-strong) .tstat__bar { background: var(--paint); }
+  .tstat__bar.is-before { border-radius: 0 2px 2px 0; }
+  .tstat__start { position: absolute; top: -2px; bottom: -2px; left: calc(var(--s) * 100%); width: 2px; background: var(--ink); }
+  .tstat__now { position: absolute; top: 25px; bottom: 8px; left: calc(14px + var(--pill) + 10px + var(--now) * (100% - 38px - var(--pill)));
+    width: 0; border-left: 1.5px dashed var(--ink); }
+  .tstat__now-l { position: absolute; bottom: 100%; left: 0; translate: -50% -2px; white-space: nowrap; font-family: var(--font-display); font-stretch: 80%; font-weight: 700;
+    font-size: 0.62rem; letter-spacing: 0.08em; text-transform: uppercase; background: var(--ink); color: var(--bone); padding: 2px 5px; border-radius: 3px; }
+  .tstat__list { list-style: none; display: grid; gap: 12px; }
+  .tstat__fact { margin: 0; font-size: 0.88rem; line-height: 1.5; color: var(--ink-2); }
+  .tstat__tag { display: inline-block; margin-right: 4px; padding: 1px 7px; border-radius: var(--r-chip); box-shadow: inset 0 0 0 1px var(--line);
+    font-family: var(--font-display); font-weight: 700; font-stretch: 88%; font-size: 0.72rem; color: var(--ink); vertical-align: 1px; }
+  .tstat__tag.is-strong { background: var(--ink); color: var(--bone); box-shadow: none; }
+  .tstat__meta { margin: 4px 0 0; display: flex; flex-wrap: wrap; gap: 2px 12px; font-size: 0.76rem; color: var(--ink-3); }
+  .tstat__meta a { color: var(--ink-3); text-decoration: none; padding-block: 13px; }
+  .tstat__meta a:hover { color: var(--ink); text-decoration: underline; text-decoration-color: var(--paint); }
+  .tstat__meta :global(svg) { display: inline-block; vertical-align: -1px; margin-left: 3px; }
+  @media (max-width: 480px) { .tstat__chart { --pill: 92px; } }
+  @media (prefers-reduced-motion: no-preference) {
+    @supports (animation-timeline: view()) {
+      @keyframes tstat-grow { from { scale: 0 1; } to { scale: 1 1; } }
+      .tstat__bar { animation: tstat-grow linear both; animation-timeline: view(); animation-range: entry 15% cover 40%; }
+    }
+  }
+</style>

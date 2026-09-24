@@ -1,0 +1,204 @@
+---
+/**
+ * /areas/{town}-co/ — one page per town record from visibleTowns() (src/content/towns/*.json).
+ *
+ * Nothing on the page is a template sentence with the town's name swapped in: the H1, lede, answer, blocks,
+ * folded-in places and FAQ are the record's own copy, and every chart, card and strip is drawn from the
+ * layer records that copy cites (src/data/layers, VERIFIED or EXTERNAL_SOURCE only). The order is the
+ * record's: strongest fact first. What differs by town is therefore the page's shape as well as its words —
+ * Firestone leads with three code cards, Johnstown with a drought strip, Windsor with golf-course plats.
+ *
+ * The Colorado backyard-HOA rule renders once (TownStateRule): where the town's own hoa block (own: false)
+ * stood, or right after the first block that leans on it, or after the blocks. Job photos appear only on
+ * towns whose camera originals were taken nearby (TownData.townPhotos). Draft records carry Base's ribbon.
+ * JSON-LD: the printed FAQ only — coverage is areaServed on the one #business node, never a per-town entity.
+ */
+import { getImage } from 'astro:assets';
+import Base from '../../layouts/Base.astro';
+import PageHero from '../../components/PageHero.astro';
+import AnswerBox from '../../components/AnswerBox.astro';
+import Faq from '../../components/Faq.astro';
+import Sources from '../../components/Sources.astro';
+import CtaBand from '../../components/CtaBand.astro';
+import PaintWord from '../../components/PaintWord.astro';
+import Icon from '../../components/Icon.astro';
+import TownLocator from '../../components/TownLocator.astro';
+import TownSheet from '../../components/TownSheet.astro';
+import TownBlock from '../../components/TownBlock.astro';
+import TownStateRule from '../../components/TownStateRule.astro';
+import TownJobs from '../../components/TownJobs.astro';
+import TownFolded from '../../components/TownFolded.astro';
+import TownNearby from '../../components/TownNearby.astro';
+import { visibleTowns } from '../../lib/visible';
+import { faqGraph } from '../../lib/schema';
+import { REGIONS } from '../../data/territory.mjs';
+import { phoneHref, phoneDisplay } from '../../data/brief';
+import {
+  rec, recs, cite, droughtPill, rebateVerdicts, soilUnits, hailSize, normals, fmtDate, fmtMonth, townPhotos, countyLine,
+  HOA_FAMILY, HOA_EXTRA, KIND_LABEL,
+} from '../../components/TownData';
+
+export async function getStaticPaths() {
+  const towns = await visibleTowns();
+  return towns.map((t) => ({ params: { slug: t.slug }, props: { slug: t.slug } }));
+}
+
+const { slug } = Astro.props as { slug: string };
+const towns = await visibleTowns();
+const town = towns.find((t) => t.slug === slug)!;
+const d = town.entry.data as any;
+const asOf: string = d.checked;
+const name: string = d.name;
+
+type Block = { kind: string; own: boolean; kicker: string; h2: string; takeaway?: string; paras: string[]; layerRefs: string[]; sources: string[] };
+const blocks = d.blocks as Block[];
+
+/* Where the state HOA rule goes: in place of the town's own hoa block if it is an inherited one, else right
+   after the first block that leans on the HOA records, else after the last block. */
+const leansOnHoa = (b: Block) => b.kind === 'hoa' || b.layerRefs.some((id) => HOA_FAMILY.has(id));
+const replaceAt = blocks.findIndex((b) => b.kind === 'hoa' && !b.own);
+const afterAt = replaceAt >= 0 ? -1 : (() => { const i = blocks.findIndex(leansOnHoa); return i >= 0 ? i : blocks.length - 1; })();
+const extra = HOA_EXTRA.filter((id) => blocks.some((b) => b.layerRefs.includes(id)));
+type Item = { type: 'block'; block: Block; no: number; id: string } | { type: 'state'; heading: string | null; kicker: string };
+const items: Item[] = [];
+let no = 0;
+blocks.forEach((b, i) => {
+  if (i === replaceAt) { items.push({ type: 'state', heading: b.h2, kicker: b.kicker }); return; }
+  no += 1;
+  items.push({ type: 'block', block: b, no, id: `${b.kind}-${no}` });
+  if (i === afterAt) items.push({ type: 'state', heading: null, kicker: 'Backyard HOA rule' });
+});
+
+/* The title block: one row per section, each value the record's own kicker plus one figure from the record it cites. */
+function datum(b: Block): string | null {
+  const rs = recs(b.layerRefs).filter((r) => !HOA_FAMILY.has(r.id));
+  const first = (...layers: string[]) => rs.find((r) => layers.includes(r.layer));
+  switch (b.kind) {
+    case 'ordinance': case 'hoa': { const r = first('ordinance', 'county'); return r ? cite(r) : null; }
+    case 'utility': {
+      const ps = [...new Set(rs.filter((r) => r.provider).map((r) => r.provider!.replace(/\s*\(.*\)$/, '')))];
+      return ps.length ? (ps.length > 1 ? `${ps[0]} + ${ps.length - 1} more` : ps[0]) : null;
+    }
+    case 'drought': { const r = first('drought'); return r ? droughtPill(r).text : null; }
+    case 'rebate': { const r = first('rebate'); return r ? rebateVerdicts(r)[0] ?? null : null; }
+    case 'soil': case 'climate': {
+      const s = rs.find((r) => r.id.startsWith('nrcs-soil-'));
+      const u = s ? soilUnits(s)[0] : null;
+      if (b.kind === 'soil' && u) return `${u.name} · ${u.share}%`;
+      const h = rs.find((r) => r.id.startsWith('noaa-hail-max'));
+      if (h && hailSize(h)) return `Hail to ${hailSize(h)} in`;
+      const n = rs.find((r) => r.id.startsWith('noaa-normals'));
+      const m = n ? normals(n).metrics[0] : null;
+      if (m) return `${m.value} ${m.label}`;
+      return u ? `${u.name} · ${u.share}%` : null;
+    }
+    default: return null;
+  }
+}
+const hoaLead = rec('co-hoa-backyard-detached');
+const rows = items.map((it) => it.type === 'block'
+  ? { label: KIND_LABEL[it.block.kind] ?? it.block.kind, value: it.block.kicker, datum: datum(it.block), href: `#${it.id}`, own: it.block.own }
+  : { label: 'State law', value: it.kicker, datum: hoaLead ? cite(hoaLead) : null, href: '#state-rule', own: false });
+if (d.sections?.length) rows.push({ label: 'Also here', value: d.sections.map((s: any) => s.name).join(' · '), datum: 'Folded into this page', href: '#also', own: false });
+
+/* Photos: only jobs whose originals place them near this town. */
+const { hero, more } = townPhotos(slug, name);
+const og = hero ? (await getImage({ src: hero.src, width: 1200, format: 'jpg', quality: 72 })).src : undefined;
+
+/* H1: the record's claim; the clause after its last comma gets the painted line when it is a short payoff. */
+const h1: string = d.h1;
+const cut = h1.lastIndexOf(', ');
+const tail = cut > 0 ? h1.slice(cut + 2) : '';
+const paint = tail && tail.split(/\s+/).length >= 2 && tail.split(/\s+/).length <= 7;
+const crumbs = [{ name: 'Areas', path: '/areas/' }, { name, path: `/areas/${slug}/` }];
+const nearby = (d.nearby as string[]).filter((s) => towns.some((t) => t.slug === s));
+---
+<Base title={d.title} description={d.description} crumbs={crumbs} graph={faqGraph(d.faq)} draft={town.draft} ogImage={og}>
+  <div class:list={['thero', { 'thero--plain': !hero }]}>
+    <PageHero label={`Artificial turf · ${name}, CO`} crumbs={crumbs} photo={hero} lede={d.lede} compact>
+      {paint ? <>{h1.slice(0, cut + 1)} <PaintWord now>{tail}</PaintWord></> : h1}
+      <div slot="after" class="thero__acts">
+        <a class="btn btn--paint" href="#estimate" data-cta="town-hero-quote">Ask about your {name} yard <Icon name="arrow" /></a>
+        {phoneHref && <a class="btn btn--line" href={phoneHref} data-cta="town-hero-call"><Icon name="phone" />Call <span class="btn__num">{phoneDisplay}</span></a>}
+      </div>
+      {!hero && (
+        <div slot="after" class="thero__loc">
+          <TownLocator towns={towns} current={slug} mode="corridor" nearby={nearby} id="loc" />
+        </div>
+      )}
+    </PageHero>
+  </div>
+
+  <section class="tans" aria-label={`${name} at a glance`}>
+    <div class="wrap tans__grid">
+      <div class="tans__answer">
+        <AnswerBox question={d.answer.question} answer={d.answer.answer} />
+        <p class="tans__note">Every rule, rate and figure below comes from a published source, linked beside it with the date it was read.</p>
+      </div>
+      <TownSheet town={name} county={countyLine(town.county)} region={{ label: REGIONS[town.region as keyof typeof REGIONS], href: `/areas/#region-${town.region}` }}
+        rows={rows} checked={fmtDate(asOf)} sources={d.sources.length} />
+    </div>
+  </section>
+
+  {items.map((it) => it.type === 'block'
+    ? <TownBlock block={it.block} no={it.no} id={it.id} town={name} sources={d.sources} asOf={asOf} />
+    : <TownStateRule heading={it.heading} extra={extra} />)}
+
+  <TownJobs photos={more} town={name} />
+
+  <TownFolded sections={d.sections ?? []} town={name} slug={slug} sources={d.sources} asOf={asOf} />
+
+  {d.faq?.length > 0 && (
+    <section class="section ground-2" id="faq" aria-labelledby="faq-h">
+      <div class="wrap tfaq">
+        <header class="tfaq__head">
+          <p class="label">Before you call</p>
+          <h2 id="faq-h" class="tfaq__h">Settle these before you plan a {name} yard.</h2>
+          <p class="lede">Short answers from the same published sources as the rest of this page, read {fmtMonth(asOf)}.</p>
+        </header>
+        <Faq items={d.faq} name={`faq-${slug}`} />
+      </div>
+    </section>
+  )}
+
+  <TownNearby here={town} towns={towns} nearby={nearby} />
+
+  <section class="tsrc" id="sources" aria-label="Sources">
+    <div class="wrap">
+      <Sources sources={d.sources} title={`Sources for ${name}, each with the date it was read`} />
+    </div>
+  </section>
+
+  <CtaBand title="Planning turf in" payoff={`${name}?`} town={name}
+    lede={`Tell us about the ${name} yard and how to reach you. Three short parts, no account, no upload.`} />
+</Base>
+
+<style>
+  /* Hero without a job photo: the corridor locator takes the right-hand column on desktop. PageHero's copy
+     column is flattened into its grid so the locator can sit beside the title without changing PageHero. */
+  .thero__acts { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
+  /* a long town name must not push a no-wrap button past a phone screen */
+  .thero__acts .btn { max-width: 100%; white-space: normal; text-align: left; line-height: 1.2; padding-block: 10px; }
+  .thero__loc { margin-top: 32px; }
+  @media (min-width: 900px) {
+    /* rows: crumbs · label · title · lede · actions; the last row takes any height the locator adds */
+    .thero--plain :global(.ph__grid) { grid-template-columns: minmax(0, 1.35fr) minmax(0, 0.65fr); grid-template-rows: repeat(4, auto) 1fr;
+      column-gap: clamp(40px, 6vw, 110px); row-gap: 0; }
+    .thero--plain :global(.ph__copy) { display: contents; }
+    .thero--plain :global(.ph__copy > *) { grid-column: 1; }
+    .thero--plain .thero__acts { align-self: start; }
+    .thero--plain .thero__loc { grid-column: 2; grid-row: 1 / -1; align-self: end; margin: 0; }
+  }
+
+  .tans { padding-block: clamp(40px, 4vw, 72px) clamp(8px, 1vw, 16px); }
+  .tans__grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.95fr); gap: clamp(28px, 4.5vw, 72px); align-items: start; }
+  .tans__note { margin: 18px 0 0; max-width: 58ch; font-size: var(--fs-small); color: var(--ink-3); }
+  @media (max-width: 899px) { .tans__grid { grid-template-columns: 1fr; } }
+
+  .tfaq { display: grid; grid-template-columns: 0.8fr 1.2fr; gap: 40px 80px; align-items: start; }
+  .tfaq__head { display: grid; gap: 16px; position: sticky; top: calc(var(--header-h) + 32px); }
+  .tfaq__h { font-size: clamp(2rem, 1.3rem + 2.4vw, 3.4rem); max-width: 14ch; }
+  @media (max-width: 899px) { .tfaq { grid-template-columns: 1fr; } .tfaq__head { position: static; } }
+
+  .tsrc { padding-block: clamp(24px, 3vw, 48px) clamp(48px, 5vw, 88px); }
+</style>

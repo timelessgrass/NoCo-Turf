@@ -1,0 +1,196 @@
+---
+/**
+ * /areas/ — the hub for every town page. Replaces the old site's card grid (truncated neighbour lists,
+ * Denver-metro towns beside Fort Collins) with: the corridor map and its full list, a count of what the town
+ * pages actually hold (computed from the records, so it can't drift), and the corridor's five regions
+ * (territory.mjs) as a ledger where each town row carries that page's own H1 claim.
+ *
+ * The Denver-metro boundary note lives here, high on the page, because the old Erie, Brighton, Thornton and
+ * Broomfield URLs 301 to /areas/ (public/_redirects). It is the one data-boundary element this page writes;
+ * CorridorMap's own map label is the other (check-dist BOUNDARY-2 warns on two — noted for the lead).
+ */
+import Base from '../../layouts/Base.astro';
+import PageHero from '../../components/PageHero.astro';
+import CorridorMap from '../../components/CorridorMap.astro';
+import CtaBand from '../../components/CtaBand.astro';
+import PaintWord from '../../components/PaintWord.astro';
+import Icon from '../../components/Icon.astro';
+import { visibleTowns, townsByRegion } from '../../lib/visible';
+import { phoneHref, phoneDisplay } from '../../data/brief';
+import { recs, recordsFor, HOA_FAMILY, numberWord, cite, droughtPill, rebateVerdicts, soilUnits, SOIL_CLASS } from '../../components/TownData';
+
+const towns = await visibleTowns();
+const regions = townsByRegion(towns);
+const n = towns.length;
+const N = numberWord(n);
+
+/* What the town pages hold, counted from the records they cite. */
+const refsOf = (t: (typeof towns)[number]) => recs((t.entry.data as any).blocks.flatMap((b: any) => b.layerRefs)).filter((r) => !HOA_FAMILY.has(r.id));
+const codeTowns = towns.filter((t) => refsOf(t).some((r) => r.layer === 'ordinance')).length;
+const rateSchedules = new Set(towns.flatMap((t) => refsOf(t).filter((r) => r.rates?.tiers?.length).map((r) => r.id))).size;
+const statusTowns = towns.filter((t) => refsOf(t).some((r) => r.layer === 'drought')).length;
+const sourceCount = new Set(towns.flatMap((t) => (t.entry.data as any).sources.map((s: any) => s.url))).size;
+const stats = [
+  { n: codeTowns, of: n, label: 'town pages quote their own town code word for word' },
+  { n: rateSchedules, label: '2026 water-rate schedules, drawn to one scale' },
+  { n: statusTowns, of: n, label: 'town pages carry a dated 2026 watering status' },
+  { n: sourceCount, label: 'published sources, each with the date it was read' },
+];
+
+/* Each town row's spec line: the same records its page draws, reduced to one value each. */
+function spec(t: (typeof towns)[number]) {
+  const rs = refsOf(t);
+  const codes = [...new Set(rs.filter((r) => r.layer === 'ordinance').map((r) => cite(r)).filter(Boolean))] as string[];
+  const none = recordsFor(t.slug).find((r) => r.id === `${t.slug.replace(/-co$/, '')}-code-no-turf-provision`);
+  const util = rs.filter((r) => r.layer === 'utility' && r.provider).sort((a, b) => Number(!!b.rates?.tiers?.length) - Number(!!a.rates?.tiers?.length));
+  const water = [...new Set(util.map((r) => r.provider!.replace(/\s*\(.*\)$/, '')))];
+  const rank = (s: string) => (/emergency/i.test(s) ? 0 : /^(Level|Stage)/.test(s) ? 1 : /Mandatory|Standing/.test(s) ? 2 : /Switched/.test(s) ? 4 : 3);
+  const status = rs.filter((r) => r.layer === 'drought' && !r.applies_to.includes('*')).map(droughtPill).sort((a, b) => rank(a.text) - rank(b.text))[0];
+  const rebate = rs.filter((r) => r.layer === 'rebate').map((r) => rebateVerdicts(r)[0]).find(Boolean);
+  const soilRec = rs.find((r) => r.id.startsWith('nrcs-soil-'));
+  const top = soilRec ? soilUnits(soilRec)[0] : null;
+  return [
+    { k: 'Town code', v: codes.length ? codes.slice(0, 2).join(' · ') + (codes.length > 2 ? ` +${codes.length - 2}` : '') : none ? 'No turf provision found' : null },
+    { k: 'Water', v: water.length ? water.slice(0, 2).join(' · ') + (water.length > 2 ? ` +${water.length - 2}` : '') : null },
+    { k: 'Watering 2026', v: status?.text ?? null },
+    { k: 'Rebate', v: rebate ?? null },
+    { k: 'Ground', v: top ? `${top.name.replace(/\s+\d+–\d+%.*$/, '')} ${top.share}% · ${SOIL_CLASS[top.cls].toLowerCase()}` : null },
+  ].filter((x) => x.v);
+}
+
+const countiesOf = (ts: typeof towns) => [...new Set(ts.flatMap((t) => t.county.split(/\s*&\s*/)))].map((c) => `${c} County`);
+
+const title = `Artificial Turf in ${n} Northern Colorado Towns | NoCo Turf Co.`;
+const description = `Turf rules, water rates and ground for ${n} towns from Wellington to Dacono, every page sourced and dated. Find your town, then book a yard walk with us.`;
+const crumbs = [{ name: 'Areas', path: '/areas/' }];
+---
+<Base title={title} description={description} crumbs={crumbs}>
+  <PageHero label="Where we work · Northern Colorado" crumbs={crumbs}
+    lede="Each town page lays out that town’s turf rules, who bills its water, its 2026 watering status and the ground under it, every line sourced and dated.">
+    {N} towns up the I-25 corridor, and <PaintWord now>the rules change at the town line.</PaintWord>
+    <div slot="after" class="hub__after">
+      <div class="hub__acts">
+        <a class="btn btn--paint" href="#regions" data-cta="areas-hero-find">Find your town <Icon name="arrow-down" /></a>
+        {phoneHref && <a class="btn btn--line" href={phoneHref} data-cta="areas-hero-call"><Icon name="phone" />Call <span class="btn__num">{phoneDisplay}</span></a>}
+      </div>
+      <p class="hub__edge" data-boundary><Icon name="pin" size={18} /><span>NoCo Turf Co. works north of the Denver metro.</span></p>
+    </div>
+  </PageHero>
+
+  <section class="hub__stats" aria-label="What the town pages hold">
+    <div class="wrap">
+      <dl class="hub__statgrid">
+        {stats.map((s) => (
+          <div class="hub__stat rise">
+            <dt><span class="num">{s.n}</span>{s.of && <span class="hub__of num">/{s.of}</span>}</dt>
+            <dd>{s.label}</dd>
+          </div>
+        ))}
+      </dl>
+    </div>
+  </section>
+
+  <section class="section hub__map" id="map" aria-labelledby="map-h">
+    <div class="wrap">
+      <header class="hub__head hub__head--split">
+        <div>
+          <p class="label">The corridor</p>
+          <h2 id="map-h">Wellington to <PaintWord>Dacono.</PaintWord></h2>
+        </div>
+        <p class="lede">Point at a town, on the map or in the list, and a route draws out to it. Every name opens that town’s page.</p>
+      </header>
+      <CorridorMap towns={towns} />
+    </div>
+  </section>
+
+  <section class="section ground-2 hub__regions" id="regions" aria-labelledby="regions-h">
+    <div class="wrap">
+      <header class="hub__head">
+        <p class="label">How the corridor divides</p>
+        <h2 id="regions-h">The corridor breaks into {numberWord(regions.length).toLowerCase()} stretches.</h2>
+        <p class="lede">Pick the stretch you live in, then your town. Under each name is that page’s headline and the short version of what it covers: the town code it quotes, who bills the water, the 2026 watering status, the rebate and the ground.</p>
+      </header>
+      <ol class="hub__ledger" role="list">
+        {regions.map((r, i) => (
+          <li class="hub__region" id={`region-${r.key}`}>
+            <div class="hub__rhead">
+              <span class="hub__rno num" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
+              <h3 class="hub__rname">{r.label}</h3>
+              <p class="hub__rmeta">{countiesOf(r.towns).join(' · ')}<br />{r.towns.length} {r.towns.length === 1 ? 'town' : 'towns'}</p>
+            </div>
+            <ul class="hub__towns" role="list">
+              {r.towns.map((t) => (
+                <li>
+                  <a class="hub__town" href={`/areas/${t.slug}/`}>
+                    <span class="hub__tname">{t.name}</span>
+                    <span class="hub__tclaim">{(t.entry.data as any).h1}</span>
+                    <span class="hub__spec">{spec(t).map((s) => <span class="hub__sv"><span class="hub__sk">{s.k}</span>{s.v}</span>)}</span>
+                    <span class="hub__go" aria-hidden="true"><Icon name="arrow" /></span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <CtaBand title="Tell us which town" payoff="the yard is in."
+    lede="Pick it in the form, tell us about the yard and how to reach you. Three short parts, no account, no upload." />
+</Base>
+
+<style>
+  .hub__after { display: grid; gap: 22px; margin-top: 30px; }
+  .hub__acts { display: flex; flex-wrap: wrap; gap: 12px; }
+  .hub__edge { display: inline-flex; align-items: center; gap: 10px; justify-self: start; margin: 0; padding: 10px 16px 10px 12px; border-radius: var(--r-chip);
+    background: var(--ground-2); box-shadow: inset 0 0 0 1px var(--line); font-weight: 600; font-size: var(--fs-small); }
+  .hub__edge :global(svg) { flex: none; color: var(--ink); }
+
+  .hub__stats { border-bottom: 1px solid var(--line); }
+  .hub__statgrid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); margin: 0; }
+  .hub__stat { display: grid; align-content: start; gap: 6px; padding: clamp(22px, 2.4vw, 34px) clamp(16px, 2vw, 28px); border-left: 1px solid var(--line); }
+  .hub__stat:first-child { border-left: 0; padding-left: 0; }
+  .hub__stat dt { font-family: var(--font-display); font-weight: 830; font-stretch: 116%; font-size: clamp(2.4rem, 1.6rem + 2.6vw, 3.9rem); letter-spacing: -0.045em; line-height: 0.9; }
+  .hub__of { font-size: 0.42em; font-weight: 700; letter-spacing: -0.01em; color: var(--ink-3); margin-left: 4px; }
+  .hub__stat dd { margin: 0; max-width: 24ch; font-size: var(--fs-small); color: var(--ink-2); line-height: 1.45; }
+  @media (max-width: 899px) {
+    .hub__statgrid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .hub__stat { border-left: 0; border-top: 1px solid var(--line); padding-inline: 0 14px; }
+    .hub__stat:nth-child(-n + 2) { border-top: 0; }
+  }
+
+  .hub__head { display: grid; gap: 16px; margin-bottom: clamp(36px, 5vw, 72px); }
+  .hub__head h2 { max-width: 16ch; }
+  .hub__head--split { grid-template-columns: 1.2fr 1fr; align-items: end; gap: 24px 64px; }
+  .hub__head--split .lede { margin: 0; }
+  @media (max-width: 899px) { .hub__head--split { grid-template-columns: 1fr; } }
+
+  .hub__ledger { list-style: none; border-top: 2px solid var(--ink); }
+  .hub__region { display: grid; grid-template-columns: minmax(0, 0.7fr) minmax(0, 1.3fr); gap: 16px clamp(28px, 5vw, 80px); padding: clamp(28px, 3vw, 44px) 0;
+    border-bottom: 1px solid var(--line); scroll-margin-top: calc(var(--header-h) + 16px); }
+  .hub__rhead { align-self: start; position: sticky; top: calc(var(--header-h) + 24px); display: grid; grid-template-columns: auto 1fr; gap: 6px 14px; align-items: baseline; }
+  .hub__rno { font-family: var(--font-display); font-weight: 800; font-size: 0.95rem; color: var(--ink-3); }
+  .hub__rname { font-size: clamp(1.5rem, 1.1rem + 1.4vw, 2.3rem); font-stretch: 112%; letter-spacing: -0.03em; line-height: 1.02; }
+  .hub__rmeta { grid-column: 2; margin: 4px 0 0; font-size: 0.86rem; color: var(--ink-3); line-height: 1.5; }
+  .hub__towns { list-style: none; }
+  .hub__towns li + li { border-top: 1px dashed rgb(var(--ink-rgb) / 0.28); }
+  .hub__town { display: grid; grid-template-columns: minmax(0, 11rem) minmax(0, 1fr) 44px; gap: 6px 22px; align-items: center; padding: 16px 0; min-height: 44px;
+    text-decoration: none; transition: background-color var(--t2) var(--ease); }
+  .hub__town:hover { background: linear-gradient(90deg, transparent, rgb(var(--ink-rgb) / 0.035) 10%, rgb(var(--ink-rgb) / 0.035) 90%, transparent); }
+  .hub__tname { font-family: var(--font-display); font-weight: 800; font-stretch: 112%; font-size: clamp(1.25rem, 1.05rem + 0.8vw, 1.6rem); letter-spacing: -0.03em; line-height: 1.05; }
+  .hub__tclaim { color: var(--ink-2); font-size: var(--fs-small); line-height: 1.45; }
+  .hub__spec { grid-column: 2; display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 0.8rem; line-height: 1.35; color: var(--ink); font-variant-numeric: tabular-nums; }
+  .hub__sv { display: inline-flex; align-items: baseline; gap: 6px; }
+  .hub__sk { font-family: var(--font-display); font-stretch: 78%; font-weight: 650; font-size: 0.64rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-3); }
+  .hub__go { grid-column: 3; grid-row: 1 / span 2; width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center; box-shadow: inset 0 0 0 1.5px var(--line);
+    transition: background-color var(--t2) var(--ease), box-shadow var(--t2) var(--ease); }
+  .hub__town:hover .hub__go, .hub__town:focus-visible .hub__go { background: var(--paint); box-shadow: none; }
+  @media (max-width: 899px) {
+    .hub__region { grid-template-columns: 1fr; }
+    .hub__rhead { position: static; }
+    .hub__town { grid-template-columns: minmax(0, 1fr) 40px; }
+    .hub__tclaim, .hub__spec { grid-column: 1; }
+    .hub__go { grid-column: 2; grid-row: 1 / span 3; width: 40px; height: 40px; }
+  }
+</style>

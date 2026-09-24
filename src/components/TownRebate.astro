@@ -1,0 +1,42 @@
+---
+/**
+ * TownRebate — each lawn-replacement or water-conservation program a town page cites, stamped with what
+ * its own record says about turf (not eligible, not listed, half must be plants, closed or full for 2026),
+ * then the record's sentence and the program page. A stamp only appears when the record's wording says it.
+ */
+import Icon from './Icon.astro';
+import { rebateVerdicts, programName, type LayerRecord } from './TownData';
+interface Props { records: LayerRecord[] }
+const { records } = Astro.props;
+---
+<ul class="treb" role="list">
+  {records.map((r) => {
+    const stamps = rebateVerdicts(r);
+    return (
+      <li class="treb__item">
+        <p class="treb__name">{programName(r)}</p>
+        {stamps.length > 0 && (
+          <p class="treb__stamps">
+            {stamps.map((s, i) => <span class:list={['treb__stamp', { 'is-first': i === 0 }]}>{i === 0 && <Icon name="close" size={13} />}{s}</span>)}
+          </p>
+        )}
+        <p class="treb__fact">{r.fact}</p>
+        <a class="treb__src" href={r.source_url} rel="noopener">Program page<Icon name="external" size={13} /></a>
+      </li>
+    );
+  })}
+</ul>
+
+<style>
+  .treb { list-style: none; display: grid; gap: 12px; }
+  .treb__item { padding: 16px 16px 6px; border-radius: var(--r-control); background: var(--ground); box-shadow: inset 0 0 0 1px var(--line); }
+  .treb__name { margin: 0 0 10px; font-family: var(--font-display); font-weight: 760; font-stretch: 104%; font-size: 1rem; letter-spacing: -0.012em; line-height: 1.25; }
+  .treb__stamps { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 10px; }
+  .treb__stamp { display: inline-flex; align-items: center; gap: 5px; padding: 4px 9px; border-radius: 4px;
+    font-family: var(--font-display); font-weight: 700; font-stretch: 80%; font-size: 0.7rem; letter-spacing: 0.13em; text-transform: uppercase;
+    box-shadow: inset 0 0 0 1.5px var(--ink-3); color: var(--ink-2); }
+  .treb__stamp.is-first { box-shadow: inset 0 0 0 2px var(--ink); color: var(--ink); background: rgb(var(--paint-rgb) / 0.12); }
+  .treb__fact { margin: 0; font-size: 0.86rem; line-height: 1.5; color: var(--ink-2); }
+  .treb__src { display: inline-flex; align-items: center; gap: 5px; min-height: 44px; font-size: 0.8rem; font-weight: 600; color: var(--ink-2); text-decoration-color: var(--paint); }
+  .treb__src:hover { color: var(--ink); }
+</style>

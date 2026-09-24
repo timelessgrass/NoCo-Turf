@@ -1,0 +1,122 @@
+---
+/**
+ * TownGround — the ground and the weather as a compact data strip (docs/CONTRACTS.md: soil and climate numbers
+ * are a strip from the layer records; prose stays for what they mean in this town).
+ *   soil   — the NRCS SSURGO sample around the town centre as one bar, each map unit coloured by its
+ *            shrink-swell class (linear extensibility: under 3 low, 3–6 moderate, 6 and up high)
+ *   city   — a city's own words about its soil, quoted
+ *   notes  — Colorado Geological Survey and NRCS series facts, as written
+ *   normals / hail — the nearest NOAA station's annual normals (only the values the record's fact states)
+ *            and the largest hail logged, each a tile with its sentence beneath
+ */
+import Icon from './Icon.astro';
+import { soilUnits, SOIL_CLASS, normals, hailSize, type LayerRecord } from './TownData';
+interface Props { records: LayerRecord[]; town: string }
+const { records, town } = Astro.props;
+
+const soilRec = records.find((r) => r.id.startsWith('nrcs-soil-'));
+const units = soilRec ? soilUnits(soilRec) : [];
+const listed = units.reduce((s, u) => s + u.share, 0);
+const rest = Math.max(0, +(100 - listed).toFixed(1));
+const cityQuotes = records.filter((r) => /-city$/.test(r.id) && r.quote);
+const notes = records.filter((r) => r.layer === 'soil' && !r.id.startsWith('nrcs-soil-') && !/-city$/.test(r.id));
+const normalsRec = records.find((r) => r.id.startsWith('noaa-normals'));
+const nm = normalsRec ? normals(normalsRec) : null;
+const hail = records.filter((r) => /^noaa-hail-(max-|[a-z]+-\d{4}-\d{2}-\d{2})/.test(r.id)).map((r) => ({ r, size: hailSize(r) })).filter((h) => h.size);
+const aria = units.map((u) => `${u.name} ${u.share}%${u.lep != null ? `, ${SOIL_CLASS[u.cls].toLowerCase()}` : ''}`).join('; ');
+---
+<div class="tgr">
+  {soilRec && units.length > 0 && (
+    <figure class="tgr__soil">
+      <figcaption class="tgr__cap"><span class="label">Soil map units · sample around central {town}</span></figcaption>
+      <div class="tgr__bar" role="img" aria-label={`Share of the sample: ${aria}; other map units ${rest}%`}>
+        {units.map((u) => <span class:list={['tgr__seg', `is-${u.cls}`]} style={`--w:${u.share}`}></span>)}
+        {rest > 0 && <span class="tgr__seg is-other" style={`--w:${rest}`}></span>}
+      </div>
+      <ol class="tgr__key" role="list">
+        {units.map((u) => (
+          <li>
+            <i class:list={['tgr__sw', `is-${u.cls}`]} aria-hidden="true"></i>
+            <span class="tgr__unit">{u.name}</span>
+            <span class="tgr__share num">{u.share}%</span>
+            <span class="tgr__cls">{SOIL_CLASS[u.cls]}{u.lep != null && <> · LEP {u.lep.toFixed(1)}</>}</span>
+          </li>
+        ))}
+        {rest > 0 && <li><i class="tgr__sw is-other" aria-hidden="true"></i><span class="tgr__unit">Other map units</span><span class="tgr__share num">{rest}%</span><span class="tgr__cls"></span></li>}
+      </ol>
+      <p class="tgr__src"><a href={soilRec.source_url} rel="noopener">{soilRec.source_label}<Icon name="external" size={12} /></a> · soils vary lot to lot</p>
+    </figure>
+  )}
+
+  {cityQuotes.map((r) => (
+    <blockquote class="tgr__city" cite={r.source_url}>
+      <p>“{r.quote}”</p>
+      <footer><a href={r.source_url} rel="noopener">{r.source_label}<Icon name="external" size={12} /></a></footer>
+    </blockquote>
+  ))}
+
+  {(nm && nm.metrics.length > 0 || hail.length > 0) && (
+    <div class="tgr__wx">
+      <dl class="tgr__tiles">
+        {nm?.metrics.map((m) => <div class="tgr__tile"><dt class="num">{m.value}</dt><dd>{m.label}</dd></div>)}
+        {hail.map((h) => <div class="tgr__tile tgr__tile--hail"><dt class="num">{h.size}<span>in</span></dt><dd>{h.r.id.startsWith('noaa-hail-max') ? 'largest hail logged, 2011–2025' : `hail logged in ${h.r.id.match(/(\d{4})-\d{2}-\d{2}$/)?.[1] ?? ''}`}</dd></div>)}
+      </dl>
+      {normalsRec && nm?.station && <p class="tgr__src"><a href={normalsRec.source_url} rel="noopener">NOAA 1991–2020 normals, {nm.station} station<Icon name="external" size={12} /></a></p>}
+      {hail.map((h) => <p class="tgr__hail">{h.r.fact} <a href={h.r.source_url} rel="noopener">NOAA Storm Events<Icon name="external" size={12} /></a></p>)}
+    </div>
+  )}
+
+  {notes.length > 0 && (
+    <ul class="tgr__notes" role="list">
+      {notes.map((r) => <li>{r.fact} <a href={r.source_url} rel="noopener">{r.source_label.split(',')[0]}<Icon name="external" size={12} /></a></li>)}
+    </ul>
+  )}
+</div>
+
+<style>
+  .tgr { display: grid; gap: 16px; }
+  .tgr__soil { margin: 0; padding: 14px; border-radius: var(--r-control); background: var(--ground); box-shadow: inset 0 0 0 1px var(--line); }
+  .tgr__cap { margin-bottom: 10px; }
+  .tgr__cap .label { font-size: 0.66rem; }
+  .tgr__bar { display: flex; height: 34px; border-radius: 4px; overflow: hidden; box-shadow: inset 0 0 0 1px var(--line); }
+  .tgr__seg { flex: var(--w) 0 0; min-width: 2px; transform-origin: left center; }
+  .tgr__seg + .tgr__seg { box-shadow: -1.5px 0 0 var(--ground); }
+  .is-high { background: var(--paint); }
+  .is-moderate { background: repeating-linear-gradient(135deg, var(--ink) 0 2px, rgb(var(--ink-rgb) / 0.55) 2px 6px); }
+  .is-low { background: rgb(var(--ink-rgb) / 0.22); }
+  .is-water { background: repeating-linear-gradient(90deg, rgb(var(--ink-rgb) / 0.08) 0 3px, rgb(var(--ink-rgb) / 0.18) 3px 5px); }
+  .is-unrated { background: repeating-linear-gradient(45deg, rgb(var(--ink-rgb) / 0.1) 0 3px, transparent 3px 7px); }
+  .is-other { background: var(--ground-2); }
+  .tgr__key { list-style: none; display: grid; gap: 7px; margin-top: 12px; }
+  .tgr__key li { display: grid; grid-template-columns: 12px minmax(0, 1fr) auto; gap: 2px 10px; align-items: baseline; font-size: 0.84rem; }
+  .tgr__sw { width: 12px; height: 12px; border-radius: 2px; align-self: center; box-shadow: inset 0 0 0 1px var(--line); }
+  .tgr__unit { font-weight: 600; }
+  .tgr__share { font-family: var(--font-display); font-weight: 760; }
+  .tgr__cls { grid-column: 2 / -1; color: var(--ink-3); font-size: 0.76rem; }
+  .tgr__src { margin: 10px 0 0; font-size: 0.76rem; color: var(--ink-3); line-height: 1.4; }
+  .tgr__src a, .tgr__notes a, .tgr__city a, .tgr__hail a { color: var(--ink-3); text-decoration: none; padding-block: 13px; }
+  .tgr__src a:hover, .tgr__notes a:hover, .tgr__city a:hover { color: var(--ink); text-decoration: underline; text-decoration-color: var(--paint); }
+  .tgr :global(svg) { display: inline-block; vertical-align: -1px; margin-left: 3px; }
+  .tgr__city { margin: 0; padding: 16px 18px; border-radius: var(--r-control); background: var(--ink); color: var(--bone); }
+  .tgr__city p { margin: 0 0 8px; font-family: var(--font-display); font-weight: 680; font-stretch: 104%; font-size: 1.05rem; line-height: 1.35; letter-spacing: -0.01em; }
+  .tgr__city footer { font-size: 0.76rem; }
+  .tgr__city a { color: var(--bone-3); }
+  .tgr__city a:hover { color: var(--bone); }
+  .tgr__tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(118px, 1fr)); gap: 8px; margin: 0; }
+  .tgr__tile { padding: 12px 12px 10px; border-radius: var(--r-control); background: var(--ground); box-shadow: inset 0 0 0 1px var(--line); display: grid; align-content: start; gap: 4px; }
+  .tgr__tile dt { font-family: var(--font-display); font-weight: 820; font-stretch: 112%; font-size: 1.7rem; letter-spacing: -0.03em; line-height: 1; }
+  .tgr__tile dt span { font-size: 0.9rem; font-weight: 700; margin-left: 2px; letter-spacing: 0; }
+  .tgr__tile dd { margin: 0; font-size: 0.76rem; line-height: 1.35; color: var(--ink-2); }
+  .tgr__tile--hail { background: var(--ink); color: var(--bone); box-shadow: none; }
+  .tgr__tile--hail dd { color: var(--bone-2); }
+  .tgr__hail { margin: 6px 0 0; font-size: 0.8rem; line-height: 1.45; color: var(--ink-2); }
+  .tgr__hail a { color: var(--ink-3); }
+  .tgr__notes { list-style: none; display: grid; gap: 8px; font-size: 0.84rem; line-height: 1.5; color: var(--ink-2); }
+  .tgr__notes li { padding-top: 8px; border-top: 1px dashed rgb(var(--ink-rgb) / 0.22); }
+  @media (prefers-reduced-motion: no-preference) {
+    @supports (animation-timeline: view()) {
+      @keyframes tgr-lay { from { scale: 0 1; opacity: 0.2; } to { scale: 1 1; opacity: 1; } }
+      .tgr__seg { animation: tgr-lay linear both; animation-timeline: view(); animation-range: entry 15% cover 40%; }
+    }
+  }
+</style>
