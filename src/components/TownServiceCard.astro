@@ -1,0 +1,95 @@
+---
+/**
+ * TownServiceCard — the job sheet on a town × service page: one service in one town. The two coordinates
+ * come first (the service, linked to its page; the town, linked to its page, with its county), then what the
+ * page covers in the order it covers it, each row a jump link with the block's own kicker, and a paint dot on
+ * the facts true only of this town for this use. Every value is the record's own words or its count, so no
+ * two pages' sheets read alike. On desktop it stands beside the headline and the short answer.
+ */
+import Icon from './Icon.astro';
+interface Row { label: string; value: string; href: string; own?: boolean }
+interface Props {
+  service: { name: string; href: string };
+  town: { name: string; href: string; county: string };
+  rows: Row[];
+  checked: string;
+  sources: number;
+}
+const { service, town, rows, checked, sources } = Astro.props;
+---
+<nav class="tsc" aria-label={`What this page covers: ${service.name} in ${town.name}`}>
+  <div class="tsc__top">
+    <p class="label">Job sheet</p>
+    <p class="tsc__chk">Checked {checked}</p>
+  </div>
+  <dl class="tsc__axes">
+    <div class="tsc__axis">
+      <dt class="label">Service</dt>
+      <dd><a href={service.href}>{service.name}</a></dd>
+    </div>
+    <div class="tsc__axis">
+      <dt class="label">Town</dt>
+      <dd><a href={town.href}>{town.name}, CO</a><span class="tsc__county">{town.county}</span></dd>
+    </div>
+  </dl>
+  <ol class="tsc__rows" role="list">
+    {rows.map((r, i) => (
+      <li>
+        <a class="tsc__row" href={r.href}>
+          <span class="tsc__no num">{String(i + 1).padStart(2, '0')}</span>
+          <span class="tsc__val">
+            <span class="label tsc__label">{r.label}</span>
+            <span class="tsc__kick">{r.value}{r.own && <span class="tsc__own"><span class="sr"> (only in {town.name})</span></span>}</span>
+          </span>
+          <Icon name="arrow-down" size={16} class="tsc__go" />
+        </a>
+      </li>
+    ))}
+  </ol>
+  <div class="tsc__foot">
+    <a href="#sources"><span class="num">{sources}</span> sources, each dated <Icon name="arrow-down" size={14} /></a>
+    {rows.some((r) => r.own) && <span class="tsc__key" aria-hidden="true"><span class="tsc__own"></span>only in {town.name}</span>}
+  </div>
+</nav>
+
+<style>
+  .tsc { border-radius: var(--r-panel); background: var(--ground); box-shadow: inset 0 0 0 1.5px var(--ink); font-size: var(--fs-small); overflow: hidden; }
+  .tsc__top { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding: 12px 18px; background: var(--ink); color: var(--bone); }
+  .tsc__top p { margin: 0; }
+  .tsc__top .label { color: var(--bone); }
+  .tsc__chk { font-size: 0.8rem; color: var(--bone-2); font-variant-numeric: tabular-nums; }
+  /* the two coordinates, split by a dashed layout line with the paint mark where they cross */
+  .tsc__axes { position: relative; display: grid; grid-template-columns: 1fr 1fr; margin: 0; border-bottom: 1.5px solid var(--ink); }
+  .tsc__axis { display: grid; align-content: start; gap: 4px; padding: 14px 18px 16px; min-width: 0; }
+  .tsc__axis + .tsc__axis { border-left: 1.5px dashed rgb(var(--ink-rgb) / 0.3); }
+  .tsc__axes::after { content: ''; position: absolute; left: 50%; bottom: -5px; width: 9px; height: 9px; border-radius: 50%; background: var(--paint);
+    translate: -50% 0; box-shadow: 0 0 0 3px var(--ground); }
+  .tsc__axis dd { margin: 0; display: grid; gap: 2px; font-family: var(--font-display); font-weight: 760; font-stretch: 106%; font-size: 1.08rem; letter-spacing: -0.015em; line-height: 1.2; }
+  .tsc__axis dd a { text-decoration-color: var(--paint); text-underline-offset: 0.2em; overflow-wrap: anywhere; }
+  .tsc__county { font-family: var(--font-body); font-weight: 400; font-stretch: 100%; font-size: 0.82rem; letter-spacing: 0; color: var(--ink-3); }
+  .tsc__rows { list-style: none; }
+  .tsc__rows li + li { border-top: 1px solid var(--line); }
+  .tsc__row { display: grid; grid-template-columns: 26px minmax(0, 1fr) 20px; gap: 12px; align-items: center; min-height: 52px; padding: 9px 18px;
+    text-decoration: none; transition: background-color var(--t2) var(--ease); }
+  .tsc__row:hover { background: var(--ground-2); }
+  .tsc__no { font-family: var(--font-display); font-weight: 800; font-size: 0.78rem; color: var(--ink-3); }
+  .tsc__val { display: grid; gap: 1px; min-width: 0; }
+  .tsc__label { font-size: 0.64rem; }
+  .tsc__kick { font-family: var(--font-display); font-weight: 700; font-stretch: 102%; letter-spacing: -0.01em; line-height: 1.25; overflow-wrap: anywhere; }
+  .tsc__own { display: inline-block; width: 8px; height: 8px; margin-left: 7px; border-radius: 50%; background: var(--paint); vertical-align: 0.1em; }
+  .tsc :global(.tsc__go) { color: var(--ink-3); transition: color var(--t2) var(--ease); }
+  .tsc__row:hover :global(.tsc__go) { color: var(--ink); }
+  .tsc__foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0 16px; padding: 0 18px; border-top: 1.5px solid var(--ink);
+    font-size: 0.84rem; color: var(--ink-2); }
+  .tsc__foot a { display: inline-flex; align-items: center; gap: 6px; min-height: 46px; color: inherit; text-decoration: none; }
+  .tsc__foot a:hover { color: var(--ink); text-decoration: underline; text-decoration-color: var(--paint); }
+  .tsc__foot .num { font-family: var(--font-display); font-weight: 800; color: var(--ink); }
+  .tsc__key { display: inline-flex; align-items: center; font-size: 0.78rem; color: var(--ink-3); }
+  .tsc__key .tsc__own { margin: 0 6px 0 0; }
+  @media (max-width: 420px) {
+    .tsc__axes { grid-template-columns: 1fr; }
+    .tsc__axis + .tsc__axis { border-left: 0; border-top: 1.5px dashed rgb(var(--ink-rgb) / 0.3); }
+    .tsc__axes::after { display: none; }
+    .tsc__row { padding-inline: 14px; gap: 10px; }
+  }
+</style>

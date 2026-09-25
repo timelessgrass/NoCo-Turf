@@ -5,13 +5,16 @@
  */
 import type { APIRoute } from 'astro';
 import { SITE, PRELAUNCH } from '../data/site';
-import { getPublishedCollection } from '../lib/published-content';
+import { getPublishedCollection, publishedTownServices } from '../lib/published-content';
 import { confirmedServices } from '../data/services';
 import { assertUniqueRoutes, assertGuideNamespace } from '../lib/content-policy.mjs';
 import { GUIDE_TOPICS, TOPIC_SLUGS } from '../data/guide-topics';
+import { townServicePath } from '../data/town-services.mjs';
 
 export async function routes(): Promise<string[]> {
   const towns = await getPublishedCollection('towns');
+  /* town × service pages: published, passing their gate, town page published, service confirmed */
+  const townServices = await publishedTownServices();
   const guides = await getPublishedCollection('guides');
   const work = await getPublishedCollection('work');
   /* a topic hub is listed on the same rule as a guide: only when it holds at least one published guide */
@@ -23,6 +26,7 @@ export async function routes(): Promise<string[]> {
     '/about/', '/contact/', '/privacy/', '/terms/', '/work/',
     ...(towns.length ? ['/areas/'] : []),
     ...towns.map((t) => `/areas/${(t.data as any).slug}/`),
+    ...townServices.map((p) => townServicePath((p.data as any).town, (p.data as any).service)),
     ...(guides.length ? ['/guides/'] : []),
     ...topics.map((t) => `/guides/${t.slug}/`),
     ...guides.map((g) => `/guides/${g.id}/`),

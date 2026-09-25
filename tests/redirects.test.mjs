@@ -175,7 +175,8 @@ function parseServices(src) {
 }
 
 /** Planned routes: the table under "## Planned routes" in docs/CONTRACTS.md, with {slug}/{id} expanded
- *  from services.ts (services), territory.mjs (areas) or the backticked ids in the row's Notes cell. */
+ *  from services.ts (services), territory.mjs (areas) or the backticked ids in the row's Notes cell. A second
+ *  placeholder (/areas/{slug}/{service}/, the town × service pages) takes the Notes cell's ids. */
 function plannedRoutes(contracts, services, turfSupply) {
   const section = contracts.split(/^## /m).find((s) => s.startsWith('Planned routes'));
   assert.ok(section, 'docs/CONTRACTS.md has no "## Planned routes" section');
@@ -188,10 +189,14 @@ function plannedRoutes(contracts, services, turfSupply) {
       const ph = r.indexOf('{');
       if (ph === -1) { routes.add(r); continue; }
       const base = r.slice(0, ph);
+      const second = r.slice(r.indexOf('}', ph) + 1).includes('{');
       const ids = base === '/services/' ? services.map((s) => s.slug)
         : base === '/areas/' ? NOCO_TOWNS.map((t) => t.slug)
         : noteIds;
-      for (const id of ids) routes.add(`${base}${id}/`);
+      for (const id of ids) {
+        if (second) for (const sub of noteIds) routes.add(`${base}${id}/${sub}/`);
+        else routes.add(`${base}${id}/`);
+      }
     }
   }
   if (turfSupply) routes.add(`/${turfSupply}/`);
@@ -287,6 +292,15 @@ describe('one hop', () => {
     const chains = MOVED.filter((r) => resolve(toPath(r.to)))
       .map((r) => `line ${r.line}: ${r.from} → ${toPath(r.to)} → line ${resolve(toPath(r.to)).line}`);
     assert.deepEqual(chains, []);
+  });
+
+  test('town × service pages are planned routes (the commercial town lines move onto them as each publishes)', () => {
+    for (const t of ['berthoud-co', 'fort-collins-co', 'johnstown-co', 'windsor-co', 'evans-co']) {
+      assert.ok(PLANNED.has(`/areas/${t}/commercial-turf/`), `/areas/${t}/commercial-turf/ is not a planned route (docs/CONTRACTS.md)`);
+    }
+    for (const s of ['putting-greens', 'pet-turf', 'playground-turf']) assert.ok(PLANNED.has(`/areas/windsor-co/${s}/`), s);
+    assert.ok(!PLANNED.has('/areas/windsor-co/artificial-turf-installation/'), 'installation × town is the town page itself');
+    assert.ok(!PLANNED.has('/areas/windsor-co/turf-repair/'), 'turf-repair has no town pages');
   });
 
   test('every 301 target is a planned route', () => {

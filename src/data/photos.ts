@@ -30,7 +30,9 @@ export type Photo = {
   /** YYYY-MM from the camera original; absent when the file carries no date (never guessed). */
   month?: string;
   alt: string;
-  use: 'putting-green' | 'lawn' | 'pet' | 'play' | 'detail' | 'crew';
+  /** What the job is. A town × service page's photo must carry its service's use (src/lib/town-service-gate.mjs):
+   *  putting-green, pet, play, commercial. No photo is `commercial` yet — it waits for Brian's own commercial job. */
+  use: 'putting-green' | 'lawn' | 'pet' | 'play' | 'commercial' | 'detail' | 'crew';
   /** camera original in Brian's upload (provenance ledger) */
   original: string;
   /** focal point for object-position, e.g. '50% 60%' */

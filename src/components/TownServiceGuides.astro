@@ -1,0 +1,58 @@
+---
+/**
+ * TownServiceGuides — the guide topic behind a town × service page (src/data/town-services.mjs `topic`:
+ * putting-greens → Putting greens, pet-turf → Pets, playground-turf → Safety, commercial-turf → Commercial),
+ * only when its hub is visible (visibleTopics()). The hub's own lede, its first guides as their questions,
+ * and the way through to the hub. A topic with no visible guide draws nothing — never an empty shelf.
+ */
+import Icon from './Icon.astro';
+import { visibleTopics } from '../lib/visible';
+interface Props { topic: string; id?: string }
+const { topic, id = 'read' } = Astro.props;
+const t = (await visibleTopics()).find((x) => x.slug === topic);
+const SHOW = 4;
+const list = t ? t.guides.slice(0, SHOW).map((g) => ({ href: `/guides/${g.id}/`, q: (g.entry.data as any).answer.question as string })) : [];
+const smart = (s: string) => s.replace(/(\w)'(\w)/g, '$1’$2');
+---
+{t && (
+  <section class="section section--tight tsvread" id={id} aria-labelledby={`${id}-h`}>
+    <div class="wrap tsvread__grid">
+      <header class="tsvread__head">
+        <p class="label">Read more · {t.label}</p>
+        <h2 id={`${id}-h`} class="tsvread__h">{t.name}</h2>
+        <p class="tsvread__lede">{t.lede}</p>
+        <a class="btn btn--line tsvread__all" href={`/guides/${t.slug}/`}>{t.guides.length === 1 ? 'The guide' : `All ${t.guides.length} guides`} <Icon name="arrow" /></a>
+      </header>
+      <ol class="tsvread__list" role="list">
+        {list.map((g, i) => (
+          <li>
+            <a class="tsvread__row" href={g.href}>
+              <span class="tsvread__no num">{String(i + 1).padStart(2, '0')}</span>
+              <span class="tsvread__q">{smart(g.q)}</span>
+              <Icon name="arrow" size={18} class="tsvread__go" />
+            </a>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+)}
+
+<style>
+  .tsvread { border-top: 1px solid var(--line); }
+  .tsvread__grid { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); gap: clamp(28px, 5vw, 88px); align-items: start; }
+  .tsvread__head { display: grid; gap: 14px; justify-items: start; }
+  .tsvread__head .label { margin: 0; }
+  .tsvread__h { font-size: clamp(1.7rem, 1.15rem + 2vw, 2.8rem); max-width: 16ch; }
+  .tsvread__lede { margin: 0; max-width: 48ch; color: var(--ink-2); }
+  .tsvread__all { margin-top: 6px; }
+  .tsvread__list { list-style: none; border-top: 2px solid var(--ink); }
+  .tsvread__row { display: grid; grid-template-columns: 32px minmax(0, 1fr) 20px; gap: 12px; align-items: baseline; min-height: 56px; padding: 16px 0;
+    border-bottom: 1px dashed rgb(var(--ink-rgb) / 0.28); text-decoration: none; }
+  .tsvread__no { font-family: var(--font-display); font-weight: 800; font-size: 0.82rem; color: var(--ink-3); }
+  .tsvread__q { font-family: var(--font-display); font-weight: 720; font-stretch: 106%; font-size: clamp(1.05rem, 0.98rem + 0.35vw, 1.25rem); letter-spacing: -0.015em; line-height: 1.25; }
+  .tsvread__row:hover .tsvread__q { text-decoration: underline; text-decoration-color: var(--paint); text-decoration-thickness: 2px; text-underline-offset: 0.18em; }
+  .tsvread :global(.tsvread__go) { align-self: center; color: var(--ink-3); transition: color var(--t2) var(--ease); }
+  .tsvread__row:hover :global(.tsvread__go) { color: var(--ink); }
+  @media (max-width: 899px) { .tsvread__grid { grid-template-columns: 1fr; } }
+</style>

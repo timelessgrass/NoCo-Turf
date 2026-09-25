@@ -4,16 +4,29 @@
  * Forked from TIMELESS Grass & Greens (scripts/check-local-content.mjs + check-articles.mjs) with the
  * bans inverted: here "Timeless", Denver-metro towns and TIMELESS phones are the leaks.
  *
- *   node scripts/check-content.mjs                    # every record, similarity, per-town gate report
+ *   node scripts/check-content.mjs                    # every record, similarity, per-town and per-page gate reports
  *   node scripts/check-content.mjs <file>...          # just these files; a guide is also checked for overlap
  *                                                     # against every other guide on disk, and its own layer
- *                                                     # file (src/data/layers/guides/{id}.json) is gated
+ *                                                     # file (src/data/layers/guides/{id}.json) is gated; a
+ *                                                     # town × service page against every page of its service
+ *                                                     # and its town record on disk, with its town's own layer
+ *                                                     # file (src/data/layers/local/{town}.json) gated
  *   node scripts/check-content.mjs --root <dir>       # read content/layers/claims under <dir> (fixtures)
  *
- * Reads src/content/{towns/*.json, guides/*.md, services/*.md, work/*.json}, src/data/layers/*.json,
- * src/data/layers/guides/*.json and .site/truth/claims.json. Code (the collection schemas, territory, the
- * town gate, the guide topics, services.ts, photos.ts) always comes from this repo, so a fixture root only
- * needs the data it is testing.
+ * Reads src/content/{towns/*.json, town-services/*.json, guides/*.md, services/*.md, work/*.json},
+ * src/data/layers/*.json, src/data/layers/{guides,local}/*.json and .site/truth/claims.json. Code (the
+ * collection schemas, territory, the gates, the guide topics, town-services.mjs, services.ts, photos.ts)
+ * always comes from this repo, so a fixture root only needs the data it is testing.
+ *
+ * Town × service records (src/content/town-services/{town}--{service}.json) get every town rule — leaks,
+ * claims, numbers, links, layerRefs — plus their own: the file name is exactly "{town}--{service}.json"; the
+ * town is a NoCo town and the service one of the four in src/data/town-services.mjs (installation × town is
+ * the town page; turf-repair has no pages); the title ends "| NoCo Turf Co."; display.paint is a phrase of the
+ * H1; the photo is a photos.ts id (WARN when it was taken outside the town); more than 25% of five-word runs
+ * shared with another page of the SAME service, or with its own town record, FAILS (WARN above 15%); a
+ * PUBLISHED page that fails src/lib/town-service-gate.mjs FAILS (a WARN, with needsFromBrian, while it is a
+ * draft); a published page whose town is not published or whose service is not confirmed WARNS (it won't
+ * render until both are).
  *
  * Guide records (src/content/guides/{id}.md) also FAIL on: a `topic` that is not in src/data/guide-topics.ts;
  * an id that equals a topic slug (the two share /guides/); a display.paint phrase that is not in the H1;
@@ -32,7 +45,7 @@
  *   - anything src/content.config.ts would reject (the real schemas are loaded, not a hand copy)
  *   - a town slug outside src/data/territory.mjs NOCO_TOWNS, a region that disagrees with it, a file
  *     name that is not {slug}.json, a town listed as its own neighbour
- *   - a layerRefs id missing from src/data/layers/*.json and guides/*.json (a WARN while both are empty)
+ *   - a layerRefs id missing from src/data/layers/*.json, guides/*.json and local/*.json (a WARN while all are empty)
  *   - the same layer id in two layer files (check-layers.mjs fails it too)
  *   - a number of 11+ or with a decimal that is not in a referenced layer record (numbers, fact, quote,
  *     source label, dates) or the record's own source labels (a WARN while the layers are empty)
@@ -58,9 +71,11 @@ import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { NOCO_TOWNS, TIMELESS_TOWNS, townBySlug, townEligibility } from '../src/data/territory.mjs';
 import { townGate } from '../src/lib/town-gate.mjs';
+import { townServiceGate, blockWords, SUBSTANTIVE_WORDS } from '../src/lib/town-service-gate.mjs';
+import { TOWN_SERVICES, TOWN_SERVICE_SLUGS, townServiceBySlug, NOT_TOWN_SERVICES, townServiceId, parseTownServiceId } from '../src/data/town-services.mjs';
 import { CONTENT_STATUSES, isPublished } from '../src/lib/content-policy.mjs';
 import { GUIDE_TOPICS, topicBySlug } from '../src/data/guide-topics.ts';
-import { checkRecord, checkGuideFile, loadLayerFiles, todayISO, GUIDE_LAYER_DIR } from './check-layers.mjs';
+import { checkRecord, checkOwnedFile, loadLayerFiles, todayISO, GUIDE_LAYER_DIR, LOCAL_LAYER_DIR } from './check-layers.mjs';
 
 export const REPO = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..'); // the repo path has spaces
 
@@ -269,9 +284,10 @@ export async function loadCollections() {
 
 // ───────────────────────────── data the records draw on ─────────────────────────────
 
-/** Every layer record by id: src/data/layers/*.json, then the guide-owned src/data/layers/guides/*.json
- *  (the same reader check-layers.mjs uses). A file that won't parse is check-layers' to fail; an id in two
- *  files fails here too, because a layerRefs lookup would silently pick one of them. */
+/** Every layer record by id: src/data/layers/*.json, then the owner-scoped src/data/layers/guides/*.json and
+ *  src/data/layers/local/*.json (the same reader check-layers.mjs uses). A file that won't parse is
+ *  check-layers' to fail; an id in two files fails here too, because a layerRefs lookup would silently pick
+ *  one of them. */
 function loadLayers(root) {
   const dir = path.join(root, 'src/data/layers');
   const byId = new Map();
@@ -332,6 +348,31 @@ function townBody(d) {
 function townSourceUrls(d) {
   return [...(d.sources ?? []).map((s) => s?.url), ...(d.blocks ?? []).flatMap((b) => b.sources ?? []), ...(d.sections ?? []).flatMap((s) => s.sources ?? [])]
     .filter((u) => typeof u === 'string');
+}
+/** A town × service record: the same shape as a town, less folded-in sections and nearby. */
+function townServiceCopy(d) {
+  return [d.title, d.description, d.h1, d.lede, d.answer?.question, d.answer?.answer,
+    ...(d.blocks ?? []).flatMap((b) => [b.kicker, b.h2, b.takeaway, ...(b.paras ?? [])]),
+    ...(d.faq ?? []).flatMap((f) => [f?.q, f?.a])].filter((x) => typeof x === 'string').join('\n');
+}
+/** What a town × service page says, for the overlap checks (the same parts townBody reads). */
+function townServiceBody(d) {
+  return [d.lede, d.answer?.answer, ...(d.blocks ?? []).flatMap((b) => [b.takeaway, ...(b.paras ?? [])]),
+    ...(d.faq ?? []).map((f) => f?.a)].filter((x) => typeof x === 'string').join('\n');
+}
+/** Overlap between a town × service page and another page (same service) or its own town record. */
+function townServicePair(a, b, { parent = false } = {}) {
+  const sim = jaccard(a.sh, b.sh);
+  if (sim <= 0.15) return [];
+  const shared = [...a.sh].filter((x) => b.sh.has(x));
+  const eg = shared.slice(0, 3).map((x) => `"…${x}…"`).join(', ');
+  const pair = `${a.id} ~ ${parent ? `its town record ${b.id}` : b.id}: ${(sim * 100).toFixed(1)}% of five-word runs shared (${shared.length} runs)`;
+  const fix = parent
+    ? 'Say a town-wide fact once, on the town page, and write what is true of this town for this use here'
+    : 'Rewrite the shared passages in this town\'s own facts — two towns\' pages for one service must not read alike';
+  return sim > 0.25
+    ? [['FAIL', `town-service overlap ${pair} — limit 25%. Shared runs include ${eg}. ${fix}`]]
+    : [['WARN', `town-service overlap ${pair} — warn above 15%. Shared runs include ${eg}`]];
 }
 function guideCopy(fm, body) {
   const dsp = fm.display ?? {};
@@ -457,7 +498,7 @@ function checkLayerRefs(refs, layers, out, { slug, sourceUrls, published }) {
   for (const id of new Set(refs)) {
     if (layers.empty) continue;
     const rec = layers.byId.get(id);
-    if (!rec) { out.push(['FAIL', `layerRefs id "${id}" is not in src/data/layers/*.json or src/data/layers/guides/*.json`]); continue; }
+    if (!rec) { out.push(['FAIL', `layerRefs id "${id}" is not in src/data/layers/*.json, src/data/layers/guides/*.json or src/data/layers/local/*.json`]); continue; }
     recs.push(rec);
     if (rec.status === 'UNVERIFIED') out.push([published ? 'FAIL' : 'WARN', `layer ${id} is UNVERIFIED — it never renders`]);
     if (slug && Array.isArray(rec.applies_to) && !rec.applies_to.includes('*') && !rec.applies_to.includes(slug)) {
@@ -514,6 +555,23 @@ function checkTopics(out, claimsCtx) {
   checkNumbers(copy, new Set(), out, false);
 }
 
+/** The town × service registry (src/data/town-services.mjs) ships words on every page of a service: its crumb,
+ *  noun, hero ask, closing band and law line. The same copy rules, plus a photos.ts use and a guide topic that exist. */
+function checkTownServiceRegistry(out, claimsCtx, photoUseSet) {
+  for (const s of TOWN_SERVICES) {
+    const at = `town service ${s.slug}`;
+    for (const k of ['crumb', 'noun', 'ask']) if (typeof s[k] !== 'string' || !s[k].trim()) out.push(['FAIL', `${at}: ${k} is empty`]);
+    if (!s.band?.title || !s.band?.payoff || !s.band?.lede?.includes('{town}')) out.push(['FAIL', `${at}: band needs a title, a payoff and a lede naming {town}`]);
+    if (!topicBySlug[s.topic]) out.push(['FAIL', `${at}: topic "${s.topic}" is not in src/data/guide-topics.ts`]);
+    if (!photoUseSet.has(s.photoUse)) out.push(['FAIL', `${at}: photo use "${s.photoUse}" is not a Photo use in src/data/photos.ts`]);
+  }
+  const copy = TOWN_SERVICES.flatMap((s) => [s.crumb, s.noun, s.ask, s.band?.title, s.band?.payoff, s.band?.lede, s.lawLine])
+    .filter((x) => typeof x === 'string').join('\n');
+  checkLeaks(copy, out);
+  checkClaims(copy, out, { ...claimsCtx, layerWords: '', layerNumbers: new Set() });
+  checkNumbers(copy, new Set(), out, false);
+}
+
 /** Five-word-run overlap and exact duplicates between two guides. Returns [level, message] or nothing. */
 function guidePair(a, b) {
   const out = [];
@@ -540,6 +598,7 @@ function listDir(dir, ext) {
 function kindOf(file) {
   const parent = path.basename(path.dirname(file));
   if (parent === 'towns' && file.endsWith('.json')) return 'town';
+  if (parent === 'town-services' && file.endsWith('.json')) return 'townService';
   if (parent === 'guides' && file.endsWith('.md')) return 'guide';
   if (parent === 'services' && file.endsWith('.md')) return 'service';
   if (parent === 'work' && file.endsWith('.json')) return 'work';
@@ -570,16 +629,24 @@ export async function run({ root = REPO, files = [], log = console.log } = {}) {
   const named = files.length > 0;
   const list = named ? files.map((f) => path.resolve(f)) : [
     ...listDir(path.join(content, 'towns'), '.json'),
+    ...listDir(path.join(content, 'town-services'), '.json'),
     ...listDir(path.join(content, 'guides'), '.md'),
     ...listDir(path.join(content, 'services'), '.md'),
     ...listDir(path.join(content, 'work'), '.json'),
   ];
   const photosDir = path.join(root, 'src/assets/photos');
-  const serviceSlugs = new Set([...read(path.join(REPO, 'src/data/services.ts')).matchAll(/\bslug:\s*'([a-z0-9-]+)'/g)].map((m) => m[1]));
-  const photoIds = new Set([...read(path.join(REPO, 'src/data/photos.ts')).matchAll(/\bid:\s*'([a-z0-9-]+)'/g)].map((m) => m[1]));
+  const servicesSrc = read(path.join(REPO, 'src/data/services.ts'));
+  const serviceSlugs = new Set([...servicesSrc.matchAll(/\bslug:\s*'([a-z0-9-]+)'/g)].map((m) => m[1]));
+  const serviceConfirmed = new Map([...servicesSrc.matchAll(/\bslug:\s*'([a-z0-9-]+)'[\s\S]*?\bconfirmed:\s*(true|false)/g)].map((m) => [m[1], m[2] === 'true']));
+  const photosSrc = read(path.join(REPO, 'src/data/photos.ts'));
+  const photoIds = new Set([...photosSrc.matchAll(/\bid:\s*'([a-z0-9-]+)'/g)].map((m) => m[1]));
+  /** photos.ts id → its `use` and `place`, read as text (photos.ts imports images, so Node can't load it). */
+  const photoMeta = new Map([...photosSrc.matchAll(/\{\s*id:\s*'([a-z0-9-]+)'([\s\S]*?)\buse:\s*'([a-z-]+)'/g)]
+    .map((m) => [m[1], { use: m[3], place: m[2].match(/\bplace:\s*'([^']*)'/)?.[1] ?? '' }]));
+  const photoUses = new Map([...photoMeta].map(([id, p]) => [id, p.use]));
   const guideIds = new Set(listDir(path.join(content, 'guides'), '.md').map((f) => path.basename(f, '.md')));
 
-  // publication state of every town record on disk, for nearby links
+  // publication state of every town record on disk, for nearby links and town × service pages
   const townStatus = {};
   for (const f of listDir(path.join(content, 'towns'), '.json')) {
     try { townStatus[path.basename(f, '.json')] = JSON.parse(read(f))?.status ?? 'draft'; } catch { /* reported below */ }
@@ -587,7 +654,23 @@ export async function run({ root = REPO, files = [], log = console.log } = {}) {
 
   const bodies = [];
   const guideDocs = [];
+  const tsDocs = []; // town × service pages checked in this run: { id, town, service, sh }
   const gate = {}; // slug → { status, blocks, own, photo, pass, reasons, needs }
+  const tsGate = {}; // town--service → { status, blocks, substantive, own, photo, pass, reasons, needs }
+  const gatedLocal = new Set(); // single-file mode: each town's own layer file is gated once
+
+  /** Single-file mode: every check-layers rule on a town's own layer file, reported with the record. */
+  const gateLocalFile = (town, out) => {
+    const ownFile = `${LOCAL_LAYER_DIR}/${town}.json`;
+    if (!named || gatedLocal.has(ownFile) || !layers.fileRecords.has(ownFile)) return;
+    gatedLocal.add(ownFile);
+    const errors = [], warnings = [];
+    const recs = layers.fileRecords.get(ownFile);
+    checkOwnedFile(ownFile, recs, { errors, warnings });
+    for (const r of recs) checkRecord(r, ownFile, { today: LAYER_TODAY, errors, warnings });
+    for (const e of errors) out.push(['FAIL', `layer file: ${e}`]);
+    for (const w of warnings) out.push(['WARN', `layer file: ${w}`]);
+  };
 
   if (!named) {
     const out = [];
@@ -596,13 +679,21 @@ export async function run({ root = REPO, files = [], log = console.log } = {}) {
     fails += f; warns += out.length - f;
     log(`${f ? 'x FAIL' : out.length ? '! WARN' : 'ok    '} guide-topics [registry] (${GUIDE_TOPICS.length} topics)`);
     for (const [lvl, msg] of out) log(`     ${lvl === 'FAIL' ? 'x' : '!'} ${msg}`);
+
+    const ts = [];
+    const useUnion = photosSrc.match(/\buse:\s*((?:'[a-z-]+'\s*\|?\s*)+);/)?.[1] ?? '';
+    checkTownServiceRegistry(ts, { approved, unapproved: claims.unapproved }, new Set([...useUnion.matchAll(/'([a-z-]+)'/g)].map((m) => m[1])));
+    const tf = ts.filter((o) => o[0] === 'FAIL').length;
+    fails += tf; warns += ts.length - tf;
+    log(`${tf ? 'x FAIL' : ts.length ? '! WARN' : 'ok    '} town-services [registry] (${TOWN_SERVICES.length} services)`);
+    for (const [lvl, msg] of ts) log(`     ${lvl === 'FAIL' ? 'x' : '!'} ${msg}`);
   }
 
   for (const file of list) {
     const kind = kindOf(file);
     const id = path.basename(file).replace(/\.(json|md)$/, '');
     const out = [];
-    if (!kind) { log(`x FAIL ${id}: not under src/content/{towns,guides,services,work}/ with the right extension`); fails++; continue; }
+    if (!kind) { log(`x FAIL ${id}: not under src/content/{towns,town-services,guides,services,work}/ with the right extension`); fails++; continue; }
 
     let d, body = '';
     if (kind === 'guide' || kind === 'service') {
@@ -620,7 +711,7 @@ export async function run({ root = REPO, files = [], log = console.log } = {}) {
     const published = isPublished(d);
     if (!CONTENT_STATUSES.includes(status)) out.push(['FAIL', `invalid status "${status}" — draft | review | published`]);
 
-    schemaIssues(schemas[{ town: 'towns', guide: 'guides', service: 'services', work: 'work' }[kind]], d, out);
+    schemaIssues(schemas[{ town: 'towns', townService: 'townServices', guide: 'guides', service: 'services', work: 'work' }[kind]], d, out);
 
     let copy = '', refs = [], sourceUrls = [], ownSourceText = '';
     if (kind === 'town') {
@@ -650,6 +741,49 @@ export async function run({ root = REPO, files = [], log = console.log } = {}) {
         else out.push(['WARN', `town gate not met yet (${status}): ${g.reasons.join('; ')}${named && (d.needsFromBrian ?? []).length ? ` — needs from Brian: ${(d.needsFromBrian ?? []).join(' | ')}` : named ? '' : ' (needs from Brian: see the gate report)'}`]);
       }
       bodies.push({ id: d.slug ?? id, status, sh: shingles(townBody(d)) });
+      if (townBySlug[d.slug]) gateLocalFile(d.slug, out);
+    } else if (kind === 'townService') {
+      copy = townServiceCopy(d);
+      refs = (d.blocks ?? []).flatMap((b) => b.layerRefs ?? []);
+      sourceUrls = townSourceUrls(d);
+      ownSourceText = (d.sources ?? []).map((s) => `${s?.label ?? ''} ${s?.checked ?? ''}`).join('\n');
+      const town = townBySlug[d.town];
+      const svc = townServiceBySlug[d.service];
+      // the file name is the record's key: {town}--{service}.json
+      const parsed = parseTownServiceId(id);
+      if (!parsed) out.push(['FAIL', `file name must be {town-slug}--{service}.json, two hyphens between (e.g. windsor-co--putting-greens.json)${d.town && d.service ? ` — this record's is ${townServiceId(d.town, d.service)}.json` : ''}`]);
+      else if (d.town && d.service && id !== townServiceId(d.town, d.service)) out.push(['FAIL', `file name should be ${townServiceId(d.town, d.service)}.json (town "${d.town}", service "${d.service}")`]);
+      if (d.town !== undefined && !town) out.push(['FAIL', townEligibility(d.town).reason]);
+      if (d.service !== undefined && !svc) {
+        out.push(['FAIL', NOT_TOWN_SERVICES[d.service]
+          ? `service "${d.service}" gets no town × service page: ${NOT_TOWN_SERVICES[d.service]}`
+          : `service "${d.service}" has no town pages — use one of: ${TOWN_SERVICE_SLUGS.join(', ')}`]);
+      }
+      if (typeof d.title === 'string' && !/\s\|\sNoCo Turf Co\.$/.test(d.title)) out.push(['FAIL', `title must end with "| NoCo Turf Co.": ${d.title}`]);
+      if (typeof d.display?.paint === 'string' && !apos(d.h1 ?? '').includes(apos(d.display.paint))) {
+        out.push(['FAIL', `display.paint "${d.display.paint}" is not in the h1 — the painted mark goes on a phrase of the H1, word for word`]);
+      }
+      if (d.photo) {
+        const p = photoMeta.get(d.photo);
+        if (!photoIds.has(d.photo)) out.push(['FAIL', `photo id is not in src/data/photos.ts: ${d.photo}`]);
+        else if (p && town && !p.place.includes(town.name)) out.push(['WARN', `photo "${d.photo}" was taken ${p.place}, not in ${town.name} — the caption says so; a photo from ${town.name} would be stronger`]);
+      }
+      checkSources(d.sources, out);
+      const g = townServiceGate(d, photoUses);
+      const blocks = d.blocks ?? [];
+      const substantive = blocks.filter((b) => blockWords(b) >= SUBSTANTIVE_WORDS);
+      tsGate[id] = {
+        status, town: d.town, service: d.service, blocks: blocks.length, substantive: substantive.length, own: substantive.filter((b) => b.own).length,
+        photo: d.photo ?? null, pass: g.pass, reasons: g.reasons, needs: d.needsFromBrian ?? [],
+      };
+      if (!g.pass) {
+        if (published) out.push(['FAIL', `published but fails the town × service gate: ${g.reasons.join('; ')}`]);
+        else out.push(['WARN', `town × service gate not met yet (${status}): ${g.reasons.join('; ')}${named && (d.needsFromBrian ?? []).length ? ` — needs from Brian: ${(d.needsFromBrian ?? []).join(' | ')}` : named ? '' : ' (needs from Brian: see the gate report)'}`]);
+      }
+      if (published && town && townStatus[d.town] !== 'published') out.push(['WARN', `its town page ${d.town} is not published — this page renders only once the town page does`]);
+      if (published && svc && serviceConfirmed.get(d.service) !== true) out.push(['WARN', `service ${d.service} is not confirmed in src/data/services.ts — this page renders only once it is`]);
+      if (town && svc) tsDocs.push({ id, town: d.town, service: d.service, sh: shingles(townServiceBody(d)) });
+      if (town) gateLocalFile(d.town, out);
     } else if (kind === 'guide') {
       copy = guideCopy(d, body);
       refs = d.layerRefs ?? [];
@@ -668,7 +802,7 @@ export async function run({ root = REPO, files = [], log = console.log } = {}) {
       if (layers.fileRecords.has(ownFile)) {
         const errors = [], warnings = [];
         const recs = layers.fileRecords.get(ownFile);
-        checkGuideFile(ownFile, recs, { errors, warnings });
+        checkOwnedFile(ownFile, recs, { errors, warnings });
         for (const r of recs) checkRecord(r, ownFile, { today: LAYER_TODAY, errors, warnings });
         for (const e of errors) out.push(['FAIL', `layer file: ${e}`]);
         for (const w of warnings) out.push(['WARN', `layer file: ${w}`]);
@@ -712,7 +846,7 @@ export async function run({ root = REPO, files = [], log = console.log } = {}) {
       if (d.review) checkLeaks(d.review.text ?? '', out, { where: 'review' });
     }
 
-    const recs = checkLayerRefs(refs, layers, out, { slug: kind === 'town' ? d.slug : null, sourceUrls: kind === 'work' ? null : sourceUrls, published });
+    const recs = checkLayerRefs(refs, layers, out, { slug: kind === 'town' ? d.slug : kind === 'townService' ? d.town : null, sourceUrls: kind === 'work' ? null : sourceUrls, published });
     // A service page prints every referenced record's `fact` verbatim (ServiceRules), so a record whose wording
     // holds an unapproved claims-register phrase would ship that phrase: drop the reference instead.
     if (kind === 'service') {
@@ -767,6 +901,54 @@ export async function run({ root = REPO, files = [], log = console.log } = {}) {
     }
   }
 
+  // town × service pages: overlap with every page of the same service, and with the page's own town record —
+  // every pair in a full run, or (naming files) each named page against everything on disk; a named town
+  // record is compared with its own town × service pages
+  const tsPairs = []; // [page, other, parent?]
+  const tsDocFrom = (file) => {
+    try {
+      const d = JSON.parse(read(file));
+      return townBySlug[d?.town] && townServiceBySlug[d?.service]
+        ? { id: path.basename(file, '.json'), town: d.town, service: d.service, sh: shingles(townServiceBody(d)) } : null;
+    } catch { return null; }
+  };
+  const townDocFrom = (slug) => {
+    const f = path.join(content, 'towns', `${slug}.json`);
+    try { return fs.existsSync(f) ? { id: slug, sh: shingles(townBody(JSON.parse(read(f)))) } : null; } catch { return null; }
+  };
+  if (!named) {
+    for (let i = 0; i < tsDocs.length; i++) for (let j = i + 1; j < tsDocs.length; j++) {
+      if (tsDocs[i].service === tsDocs[j].service) tsPairs.push([tsDocs[i], tsDocs[j], false]);
+    }
+    for (const a of tsDocs) { const t = bodies.find((b) => b.id === a.town); if (t) tsPairs.push([a, t, true]); }
+  } else {
+    const namedTowns = bodies.map((b) => b.id);
+    if (tsDocs.length || namedTowns.length) {
+      const corpus = listDir(path.join(content, 'town-services'), '.json').map(tsDocFrom).filter(Boolean);
+      const done = new Set();
+      const add = (a, b, parent) => {
+        const key = `${[a.id, b.id].sort().join(' ~ ')}${parent ? ' (town)' : ''}`;
+        if (a.id === b.id || done.has(key)) return;
+        done.add(key);
+        tsPairs.push([a, b, parent]);
+      };
+      for (const a of tsDocs) {
+        for (const b of corpus) if (b.service === a.service) add(a, b, false);
+        const t = bodies.find((x) => x.id === a.town) ?? townDocFrom(a.town);
+        if (t) add(a, t, true);
+      }
+      for (const t of bodies) for (const c of corpus) if (c.town === t.id) add(c, t, true);
+      const others = new Set(tsPairs.map(([, b, parent]) => (parent ? `town ${b.id}` : b.id)));
+      if (tsDocs.length || tsPairs.length) log(`\nTown × service overlap: ${[...tsDocs.map((x) => x.id), ...namedTowns].join(', ')} against ${others.size} other record(s) on disk`);
+    }
+  }
+  for (const [a, b, parent] of tsPairs) {
+    for (const [lvl, msg] of townServicePair(a, b, { parent })) {
+      if (lvl === 'FAIL') fails++; else warns++;
+      log(`${lvl === 'FAIL' ? 'x FAIL' : '! WARN'} ${msg}`);
+    }
+  }
+
   if (!named) {
     for (let i = 0; i < bodies.length; i++) for (let j = i + 1; j < bodies.length; j++) {
       const s = jaccard(bodies[i].sh, bodies[j].sh);
@@ -785,6 +967,21 @@ export async function run({ root = REPO, files = [], log = console.log } = {}) {
       for (const n of g.needs) log(`      needs from Brian: ${n}`);
     }
     for (const slug of Object.keys(gate)) if (!townBySlug[slug]) log(`  ${slug.padEnd(16)} ${gate[slug].status.padEnd(10)} NOT A NOCO TOWN`);
+
+    log(`\nTown × service gate — src/lib/town-service-gate.mjs: ≥3 substantive blocks (${SUBSTANTIVE_WORDS}+ words), ≥2 own, every block sourced, a photo of this use`);
+    const townRank = new Map(NOCO_TOWNS.map((t, i) => [t.slug, i]));
+    for (const s of TOWN_SERVICES) {
+      const recs = Object.entries(tsGate).filter(([, g]) => g.service === s.slug)
+        .sort(([, a], [, b]) => (townRank.get(a.town) ?? 99) - (townRank.get(b.town) ?? 99));
+      log(`  ${s.slug.padEnd(16)} ${recs.length} of ${NOCO_TOWNS.length} towns written · a photo with use "${s.photoUse}"`);
+      for (const [rid, g] of recs) {
+        const verdict = g.pass ? 'PASS' : g.status === 'published' ? 'FAIL' : 'not yet';
+        log(`    ${rid.padEnd(36)} ${g.status.padEnd(10)} ${g.blocks} blocks (${g.substantive} substantive) · ${g.own} own · ${g.photo ? `photo ${g.photo}` : 'no photo'} — gate ${verdict}`);
+        for (const r of g.reasons) log(`        - ${r}`);
+        for (const n of g.needs) log(`        needs from Brian: ${n}`);
+      }
+    }
+    for (const [rid, g] of Object.entries(tsGate)) if (!townServiceBySlug[g.service]) log(`    ${rid.padEnd(36)} ${g.status.padEnd(10)} NOT A TOWN × SERVICE PAGE`);
   }
 
   log(`\n${list.length} record(s) · ${fails} fail(s) · ${warns} warning(s)`);

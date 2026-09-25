@@ -10,6 +10,13 @@ export const faqGraph = (items: { q: string; a: string }[]) => items.length ? [{
   mainEntity: items.map((it) => ({ '@type': 'Question', name: it.q, acceptedAnswer: { '@type': 'Answer', text: it.a } })),
 }] : [];
 
+/** A town × service page's Service node: one service in one town, served by the one #business. */
+export const townServiceGraph = (name: string, serviceType: string, path: string, description: string, town: string) => [{
+  '@type': 'Service', '@id': `${SITE}${path}#service`, name, serviceType, description, url: `${SITE}${path}`,
+  provider: BUSINESS_REF,
+  areaServed: { '@type': 'City', name: town, containedInPlace: { '@type': 'State', name: 'Colorado' } },
+}];
+
 export const serviceGraph = (name: string, path: string, description: string, areas: string[]) => [{
   '@type': 'Service', '@id': `${SITE}${path}#service`, name, description, url: `${SITE}${path}`,
   provider: BUSINESS_REF,

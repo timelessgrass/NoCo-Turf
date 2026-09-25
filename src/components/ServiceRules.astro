@@ -20,7 +20,7 @@ const byId: Map<string, Rec> = layerById;
 
 const KIND: Record<string, string> = {
   state: 'State law', county: 'County code', ordinance: 'Town code', utility: 'Water provider', rebate: 'Rebate',
-  drought: 'Watering rules', climate: 'Climate', soil: 'Soil', housing: 'Housing',
+  drought: 'Watering rules', climate: 'Climate', soil: 'Soil', housing: 'Housing', place: 'Local place',
   research: 'Research', product: 'Product', standard: 'Standard',
 };
 const PLACE = /^(?:City of |Town of )?([A-Z][a-z]+(?: [A-Z][a-z]+)?)(?= (?:Municipal Code|Code of Ordinances|Land Use Code|Land Development Code|Development Code|Planning Commission|City Council))/;
@@ -36,7 +36,7 @@ const fmt = (d: string) => new Date(`${d}T12:00:00Z`).toLocaleDateString('en-US'
 
 const recs = [...new Set(ids)].map((i) => {
   const r = byId.get(i);
-  if (!r) throw new Error(`ServiceRules: layer record "${i}" is not in src/data/layers/ (*.json or guides/*.json)`);
+  if (!r) throw new Error(`ServiceRules: layer record "${i}" is not in src/data/layers/ (*.json, guides/*.json or local/*.json)`);
   return r;
 }).filter((r) => r.status === 'VERIFIED' || r.status === 'EXTERNAL_SOURCE');
 ---

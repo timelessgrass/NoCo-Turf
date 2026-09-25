@@ -34,9 +34,13 @@ const shipped = () => {
 // ───────────────────────────── the shipped layer ─────────────────────────────
 
 test('the shipped layer passes the gate as of its check date', () => {
-  const { errors, stats } = checkLayers({ today: CHECKED_ON });
+  // Owned files (guides/, local/) are written after the shared layer, so "as of its check date" is the newest
+  // `checked` on disk: a record checked today must not read as dated in the future.
+  const newest = checkLayers({ today: '2099-12-31' }).records.map((r) => r.checked).filter((d) => /^\d{4}-\d{2}-\d{2}$/.test(d ?? '')).sort().at(-1);
+  const asOf = newest && newest > CHECKED_ON ? newest : CHECKED_ON;
+  const { errors, stats } = checkLayers({ today: asOf });
   assert.deepEqual(errors, [], errors.join('\n'));
-  assert.equal(stats.files - stats.guideFiles, LAYER_FILES.length, 'the seven contract files, plus any guide-owned files in guides/');
+  assert.equal(stats.files - stats.guideFiles - stats.localFiles, LAYER_FILES.length, 'the seven contract files, plus any owned files in guides/ and local/');
   assert.ok(stats.records > 100, `only ${stats.records} records`);
 });
 
@@ -270,6 +274,37 @@ test('guide-owned files: ids carry the guide prefix, the file is named for a gui
   const other = run({ 'city-codes.json': [base()], 'misc/extra.json': [base({ id: 'dup' })] });
   warnsWith(other, /misc\/: a subdirectory that is not read/);
   assert.equal(other.stats.records, 1);
+});
+
+test('town-owned files: a record in local/{town}.json is read like any other, under every rule', () => {
+  const l = (over = {}) => base({ id: 'windsor-co.pelican-lakes-golf', layer: 'place', applies_to: ['windsor-co'], ...over });
+  const res = run({ 'city-codes.json': [base()], 'local/windsor-co.json': [l()] });
+  assert.deepEqual(res.errors, [], res.errors.join('\n'));
+  assert.equal(res.stats.records, 2);
+  assert.equal(res.stats.localFiles, 1);
+  assert.equal(res.stats.guideFiles, 0);
+  assert.ok(res.records.some((r) => r.id === 'windsor-co.pelican-lakes-golf' && r._file === 'local/windsor-co.json'), 'the subdirectory record is found');
+  failsWith(run({ 'local/windsor-co.json': [l({ recheck: '2026-09-01' })] }), /local\/windsor-co\.json windsor-co\.pelican-lakes-golf: recheck 2026-09-01 has passed/);
+  failsWith(run({ 'local/windsor-co.json': [l({ source_url: 'http://example.gov/x' })] }), /must be an https URL/);
+  failsWith(run({ 'local/windsor-co.json': [l({ numbers: [] })] }), /not listed in "numbers": 25/);
+  failsWith(run({ 'local/windsor-co.json': [l({ layer: 'opinion' })] }), /layer "opinion"/);
+});
+
+test('town-owned files: ids carry the town prefix, the file is named for a NoCo town, every record applies to that town', () => {
+  failsWith(run({ 'local/windsor-co.json': [base({ id: 'golf-lots' })] }), /ids in a town's own file start with "windsor-co\." \(e\.g\. "windsor-co\.golf-lots"\)/);
+  failsWith(run({ 'local/erie-co.json': [base({ id: 'erie-co.x', applies_to: ['windsor-co'] })] }), /local\/erie-co\.json: the file name must be a NoCo town slug/);
+  failsWith(run({ 'local/windsor-co.json': [base({ id: 'windsor-co.x', applies_to: ['mead-co'] })] }), /a record in windsor-co's own file applies to windsor-co — its applies_to is \["mead-co"\]/);
+  failsWith(run({ 'local/windsor-co.json': [base({ id: 'windsor-co.x', applies_to: ['*'] })] }), /applies to windsor-co/);
+  const shared = run({ 'local/windsor-co.json': [base({ id: 'windsor-co.x', applies_to: ['windsor-co', 'timnath-co'] })] });
+  assert.deepEqual(shared.errors, []);
+  warnsWith(shared, /applies to other towns too — a fact shared between towns belongs in a shared layer file/);
+});
+
+test('owned files: an id is unique across guides/, local/ and the shared files', () => {
+  const both = run({ 'guides/pet-odor.json': [base({ id: 'pet-odor.x' })], 'local/windsor-co.json': [base({ id: 'pet-odor.x' })] });
+  failsWith(both, /duplicate id \(also in guides\/pet-odor\.json\)/);
+  const other = run({ 'city-codes.json': [base()], 'misc/extra.json': [base({ id: 'dup' })] });
+  warnsWith(other, /misc\/: a subdirectory that is not read — only guides\/ and local\/ hold layer files/);
 });
 
 test('every one of the seven contract files must exist', () => {

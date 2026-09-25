@@ -11,6 +11,8 @@
  * The Colorado backyard-HOA rule renders once (TownStateRule): where the town's own hoa block (own: false)
  * stood, or right after the first block that leans on it, or after the blocks. Job photos appear only on
  * towns whose camera originals were taken nearby (TownData.townPhotos). Draft records carry Base's ribbon.
+ * After the FAQ, "{Town}: by service" links the town's own town × service pages (/areas/{town}-co/{service}/,
+ * visibleTownServices()) — this page is the installation page for the town, so it never links to itself there.
  * JSON-LD: the printed FAQ only — coverage is areaServed on the one #business node, never a per-town entity.
  */
 import { getImage } from 'astro:assets';
@@ -29,7 +31,8 @@ import TownStateRule from '../../components/TownStateRule.astro';
 import TownJobs from '../../components/TownJobs.astro';
 import TownFolded from '../../components/TownFolded.astro';
 import TownNearby from '../../components/TownNearby.astro';
-import { visibleTowns } from '../../lib/visible';
+import TownByService from '../../components/TownByService.astro';
+import { visibleTowns, visibleTownServices } from '../../lib/visible';
 import { faqGraph } from '../../lib/schema';
 import { REGIONS } from '../../data/territory.mjs';
 import { phoneHref, phoneDisplay } from '../../data/brief';
@@ -112,6 +115,8 @@ const tail = cut > 0 ? h1.slice(cut + 2) : '';
 const paint = tail && tail.split(/\s+/).length >= 2 && tail.split(/\s+/).length <= 7;
 const crumbs = [{ name: 'Areas', path: '/areas/' }, { name, path: `/areas/${slug}/` }];
 const nearby = (d.nearby as string[]).filter((s) => towns.some((t) => t.slug === s));
+/* This town's town × service pages (putting greens, pet turf, play and commercial) that exist in this build. */
+const byService = (await visibleTownServices()).filter((p) => p.town.slug === slug);
 ---
 <Base title={d.title} description={d.description} crumbs={crumbs} graph={faqGraph(d.faq)} draft={town.draft} ogImage={og}>
   <div class:list={['thero', { 'thero--plain': !hero }]}>
@@ -160,6 +165,8 @@ const nearby = (d.nearby as string[]).filter((s) => towns.some((t) => t.slug ===
       </div>
     </section>
   )}
+
+  <TownByService town={name} pages={byService} />
 
   <TownNearby here={town} towns={towns} nearby={nearby} />
 

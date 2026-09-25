@@ -1,0 +1,56 @@
+---
+/**
+ * TownByService — on a town page, "{Town}: by service": the town's own town × service pages in this build
+ * (visibleTownServices()), each by its service with that page's H1 as its line, so the row says what is
+ * particular to this town for that job. Nothing to link, nothing drawn.
+ */
+import Icon from './Icon.astro';
+interface Page { path: string; service: { name: string; short: string }; entry: { data: any }; draft?: boolean }
+interface Props { town: string; pages: Page[]; id?: string }
+const { town, pages, id = 'by-service' } = Astro.props;
+---
+{pages.length > 0 && (
+  <section class="section tbs" id={id} aria-labelledby={`${id}-h`}>
+    <div class="wrap tbs__grid">
+      <header class="tbs__head">
+        <p class="label">{town}: by service</p>
+        <h2 id={`${id}-h`} class="tbs__h">The same town, one kind of job at a time.</h2>
+        <p class="lede tbs__lede">Each page takes one job in {town} and the rules, places and ground that bear on it.</p>
+      </header>
+      <ol class="tbs__list" role="list">
+        {pages.map((p) => (
+          <li>
+            <a class="tbs__row" href={p.path}>
+              <span class="tbs__name">{p.service.name}</span>
+              <span class="tbs__line">{p.entry.data.h1}</span>
+              <span class="tbs__go" aria-hidden="true"><Icon name="arrow" /></span>
+            </a>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+)}
+
+<style>
+  .tbs { border-top: 1px solid var(--line); }
+  .tbs__grid { display: grid; grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr); gap: clamp(28px, 5vw, 88px); align-items: start; }
+  .tbs__head { display: grid; gap: 14px; }
+  .tbs__head .label { margin: 0; }
+  .tbs__h { font-size: clamp(2rem, 1.2rem + 3vw, 3.4rem); max-width: 14ch; }
+  .tbs__lede { margin: 0; }
+  .tbs__list { list-style: none; border-top: 2px solid var(--ink); }
+  .tbs__row { display: grid; grid-template-columns: minmax(0, 1fr) 48px; gap: 6px 20px; align-items: center; padding: 18px 0; min-height: 44px;
+    border-bottom: 1px dashed rgb(var(--ink-rgb) / 0.28); text-decoration: none; transition: background-color var(--t2) var(--ease); }
+  .tbs__row:hover { background: linear-gradient(90deg, transparent, rgb(var(--ink-rgb) / 0.035) 10%, rgb(var(--ink-rgb) / 0.035) 90%, transparent); }
+  .tbs__name { font-family: var(--font-display); font-weight: 800; font-stretch: 112%; font-size: clamp(1.3rem, 1.08rem + 0.9vw, 1.75rem); letter-spacing: -0.03em; line-height: 1.05; }
+  .tbs__line { grid-column: 1; color: var(--ink-2); font-size: var(--fs-small); max-width: 58ch; }
+  .tbs__go { grid-column: 2; grid-row: 1 / span 2; width: 48px; height: 48px; border-radius: 50%; display: grid; place-items: center; box-shadow: inset 0 0 0 1.5px var(--line);
+    transition: background-color var(--t2) var(--ease), box-shadow var(--t2) var(--ease); }
+  .tbs__row:hover .tbs__go, .tbs__row:focus-visible .tbs__go { background: var(--paint); box-shadow: none; }
+  @media (max-width: 899px) {
+    .tbs__grid { grid-template-columns: 1fr; }
+    .tbs__row { grid-template-columns: minmax(0, 1fr) 40px; gap: 6px 14px; }
+    .tbs__go { width: 40px; height: 40px; }
+  }
+</style>

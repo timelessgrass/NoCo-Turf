@@ -1,0 +1,47 @@
+---
+/**
+ * TownServiceCode — the town's code for this use, where a layer applies: the town's own ordinance records
+ * (shared city-codes and its local/ file) as code cards, word for word, and under them the Colorado records
+ * that decide this use in new development (src/data/town-services.mjs `stateRefs`, e.g. functional turf for a
+ * putting green or a playground). The page passes only records its blocks have not already shown, so a rule
+ * is never printed twice; with none left, the section is not drawn.
+ */
+import TownCode from './TownCode.astro';
+import TownStatute from './TownStatute.astro';
+import type { LayerRecord } from './TownData';
+interface Props { town: string; code: LayerRecord[]; law: LayerRecord[]; lawLine?: string; asOf: string; id?: string }
+const { town, code, law, lawLine = '', asOf, id = 'code' } = Astro.props;
+const heading = code.length && law.length ? `${town}’s turf code, and the Colorado rule under it.`
+  : code.length ? `${town}’s turf code, word for word.`
+  : 'What Colorado law says about this use.';
+---
+{(code.length > 0 || law.length > 0) && (
+  <section class="section section--tight tsvcode" id={id} aria-labelledby={`${id}-h`}>
+    <div class="wrap tsvcode__grid">
+      <header class="tsvcode__head">
+        <p class="label">The code for this use</p>
+        <h2 id={`${id}-h`} class="tsvcode__h">{heading}</h2>
+        <p class="tsvcode__lede">{lawLine && <>{lawLine} </>}Each rule is quoted from its source, with the date it was read. Not legal advice: for your own address, ask {town} Planning.</p>
+      </header>
+      <div class="tsvcode__body rise">
+        {code.length > 0 && <TownCode records={code} asOf={asOf} />}
+        {law.length > 0 && <div class="tsvcode__law"><TownStatute records={law} asOf={asOf} /></div>}
+      </div>
+    </div>
+  </section>
+)}
+
+<style>
+  .tsvcode { border-top: 1px solid var(--line); }
+  .tsvcode__grid { display: grid; grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr); gap: clamp(28px, 5vw, 88px); align-items: start; }
+  .tsvcode__head { display: grid; gap: 14px; position: sticky; top: calc(var(--header-h) + 28px); }
+  .tsvcode__head .label { margin: 0; }
+  .tsvcode__h { font-size: clamp(1.8rem, 1.2rem + 2.2vw, 3rem); max-width: 16ch; }
+  .tsvcode__lede { margin: 0; max-width: 46ch; color: var(--ink-2); }
+  .tsvcode__body { display: grid; gap: 18px; padding: clamp(16px, 2.2vw, 24px); border-radius: var(--r-panel); background: var(--ground-2); }
+  .tsvcode__law { padding-top: 4px; }
+  @media (max-width: 899px) {
+    .tsvcode__grid { grid-template-columns: 1fr; }
+    .tsvcode__head { position: static; }
+  }
+</style>

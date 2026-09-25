@@ -12,6 +12,8 @@
  *                                             as you read, then every layer record the copy leans on
  *   the build   (lawn only)                   BuildSection
  *   where       "Do you come to my town?"     ServiceWhere — chips that paint routes on the corridor map
+ *   by town     "What's different in my town?" ServiceByTown — this service's town × service pages
+ *                                             (/areas/{town}-co/{service}/) by region; absent until one exists
  *   questions   "The things I'll ask."        Faq, mirrored verbatim into FAQPage JSON-LD
  *   read next   "Where can I check this?"     related guides + Sources
  *   close       "Fine — what now?"            CtaBand with the form, this service preselected
@@ -32,11 +34,13 @@ import ServiceGallery from '../../components/ServiceGallery.astro';
 import ServiceWhere from '../../components/ServiceWhere.astro';
 import ServiceRules from '../../components/ServiceRules.astro';
 import ServiceRelated from '../../components/ServiceRelated.astro';
+import ServiceByTown from '../../components/ServiceByTown.astro';
 import { visibleServices, type Service } from '../../data/services';
 import { SHOW_DRAFTS } from '../../data/site';
 import { isPublished } from '../../lib/content-policy.mjs';
 import { photo as photoById } from '../../data/photos';
-import { visibleTowns } from '../../lib/visible';
+import { visibleTowns, visibleTownServices } from '../../lib/visible';
+import { townServiceBySlug } from '../../data/town-services.mjs';
 import { faqGraph, serviceGraph } from '../../lib/schema';
 import brief, { fact, facts, phoneHref, phoneDisplay } from '../../data/brief';
 import { LIVE_LAYER_IDS } from '../../lib/layers';
@@ -134,6 +138,8 @@ const liveIds = LIVE_LAYER_IDS;
 const rulesCount = new Set(data.layerRefs.filter((id) => liveIds.has(id))).size;
 
 const towns = await visibleTowns();
+/* This service's town × service pages in this build (putting greens, pet, play and commercial only). */
+const byTown = townServiceBySlug[service.slug] ? (await visibleTownServices()).filter((p) => p.service.slug === service.slug) : [];
 const toc = [
   ...headings.filter((h) => h.depth === 2).map((h) => ({ slug: h.slug, text: h.text })),
   ...(rulesCount ? [{ slug: 'rules-on-file', text: 'The rules this page is built on' }] : []),
@@ -213,6 +219,9 @@ const draft = !service.confirmed || !isPublished(data);
 
   <!-- 6 · Where — "Do you come to my town?" -->
   <ServiceWhere towns={towns} title={ui.where.title} lede={ui.where.lede} />
+
+  <!-- 6b · By town — "What's different in my town?" (only towns with a page for this job) -->
+  <ServiceByTown service={townServiceBySlug[service.slug]?.crumb ?? service.name} pages={byTown} />
 
   <!-- 7 · Questions — "The things I'll ask on the phone." -->
   {data.faq.length > 0 && (

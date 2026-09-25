@@ -19,7 +19,8 @@
  *
  * Guides are grouped by topic (src/data/guide-topics.ts order): each topic's hub first, then its guides,
  * so a hundred guides read as a dozen short lists. A page's topic is read from its own BreadcrumbList
- * (Home › Guides › {topic hub} › …), the same trail the page prints.
+ * (Home › Guides › {topic hub} › …), the same trail the page prints. Town × service pages
+ * (/areas/{town}-co/{service}/) are listed under their town page, indented.
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -192,6 +193,17 @@ export function buildLlms({ brief, site, prelaunch, pages }) {
       const list = pages.filter((p) => !used.has(p.url) && test(rel(p.url))).sort((a, b) => a.url.localeCompare(b.url));
       list.forEach((p) => used.add(p.url));
       if (!list.length) continue;
+      if (label === 'Towns we serve') {
+        // each town page, then its town × service pages (/areas/{town}/{service}/) indented under it
+        const townOf = (p) => rel(p.url).match(/^\/areas\/([a-z0-9-]+)\/[a-z0-9-]+\/$/)?.[1] ?? null;
+        const children = (slug) => list.filter((p) => townOf(p) === slug);
+        const top = list.filter((p) => !townOf(p) || !list.some((t) => rel(t.url) === `/areas/${townOf(p)}/`));
+        L.push(`## ${label}`, '', ...top.flatMap((p) => {
+          const slug = rel(p.url).match(/^\/areas\/([a-z0-9-]+)\/$/)?.[1];
+          return [line(p), ...(slug ? children(slug).map((c) => `  ${line(c)}`) : [])];
+        }), '');
+        continue;
+      }
       if (label !== 'Guides and tools') { L.push(`## ${label}`, '', ...list.map(line), ''); continue; }
       // guides: the pages outside any topic, then one sub-list per topic — its hub first, then its guides
       const topicOf = (p) => (p.crumbs?.[2] ?? '').slice(site.length).match(/^\/guides\/([a-z0-9-]+)\/$/)?.[1] ?? null;

@@ -5,14 +5,46 @@
  */
 import { getCollection } from 'astro:content';
 import { SHOW_DRAFTS } from '../data/site';
-import { getPublishedCollection } from './published-content';
+import { getPublishedCollection, publishedTownServices, assertTownServiceId } from './published-content';
 import { NOCO_TOWNS, REGIONS } from '../data/territory.mjs';
 import { GUIDE_TOPICS, topicBySlug } from '../data/guide-topics';
+import { SERVICES, visibleServices } from '../data/services';
+import { TOWN_SERVICES, townServiceBySlug, townServicePath } from '../data/town-services.mjs';
+import { townServiceVisibility } from './town-service-gate.mjs';
+import { PHOTOS } from '../data/photos';
 
 export async function visibleTowns() {
   const entries = SHOW_DRAFTS ? await getCollection('towns') : await getPublishedCollection('towns');
   const bySlug = new Map(entries.map((e) => [(e.data as any).slug as string, e]));
   return NOCO_TOWNS.filter((t) => bySlug.has(t.slug)).map((t) => ({ ...t, entry: bySlug.get(t.slug)!, draft: (bySlug.get(t.slug)!.data as any).status !== 'published' }));
+}
+
+/**
+ * Town × service pages (/areas/{town}-co/{service}/) that exist in this build, in corridor order (the town's
+ * order in territory.mjs), then the order of src/data/town-services.mjs. PRELAUNCH preview: every record whose
+ * town page and service are visible, drafts flagged. Launch: published, passing the town × service gate, with
+ * a visible town page and a confirmed service (publishedTownServices). One rule for the route, the town
+ * page's "by service" list, the service page's "by town" list and the sitemap: townServiceVisibility.
+ */
+export async function visibleTownServices() {
+  const towns = await visibleTowns();
+  const townBy = new Map(towns.map((t) => [t.slug, t]));
+  const shown = new Set(visibleServices.map((s) => s.slug));
+  const entries = SHOW_DRAFTS ? await getCollection('townServices') : await publishedTownServices();
+  const TOWN_RANK = new Map(NOCO_TOWNS.map((t, i) => [t.slug, i]));
+  const SERVICE_RANK = new Map(TOWN_SERVICES.map((s, i) => [s.slug, i]));
+  return entries.map((entry) => {
+    const d = entry.data as any;
+    assertTownServiceId(entry.id, d);
+    const town = townBy.get(d.town);
+    const service = SERVICES.find((s) => s.slug === d.service)!;
+    const v = townServiceVisibility(d, {
+      showDrafts: SHOW_DRAFTS, townVisible: !!town, serviceVisible: shown.has(d.service),
+      townPublished: !!town && !town.draft, serviceConfirmed: service.confirmed, photos: PHOTOS,
+    });
+    return { id: entry.id, entry, town: town!, service, meta: townServiceBySlug[d.service], path: townServicePath(d.town, d.service), draft: v.draft, render: v.render };
+  }).filter((p) => p.render)
+    .sort((a, b) => (TOWN_RANK.get(a.town.slug)! - TOWN_RANK.get(b.town.slug)!) || (SERVICE_RANK.get(a.service.slug)! - SERVICE_RANK.get(b.service.slug)!));
 }
 
 /**

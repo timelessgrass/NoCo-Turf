@@ -1,0 +1,55 @@
+---
+/**
+ * TownServiceStrip — "What goes into {a putting green}": the service itself, compact, from src/data/services.ts
+ * (`short`, the job in the buyer's words; `underneath`, what decides whether it lasts — the same lines the
+ * services index prints), with the way through to the full service page. The same strip on every town's
+ * page for one service: it is the service's claim set, so it repeats word for word rather than being
+ * rewritten per town. The town's own substance is everything above it.
+ */
+import Icon from './Icon.astro';
+interface Props { noun: string; name: string; short: string; underneath: string; href: string }
+const { noun, name, short, underneath, href } = Astro.props;
+---
+<section class="tsvstrip" aria-labelledby="tsvstrip-h">
+  <div class="wrap tsvstrip__grid">
+    <h2 id="tsvstrip-h" class="label tsvstrip__h">What goes into {noun}</h2>
+    <dl class="tsvstrip__cells">
+      <div class="tsvstrip__cell"><dt class="label">The job</dt><dd>{short}</dd></div>
+      <div class="tsvstrip__cell"><dt class="label">What decides it</dt><dd>{underneath}</dd></div>
+    </dl>
+    <a class="tsvstrip__go" href={href} data-cta="town-service-to-service">
+      <span class="tsvstrip__go-k label">The service page</span>
+      <span class="tsvstrip__go-v">{name}</span>
+      <span class="tsvstrip__go-i" aria-hidden="true"><Icon name="arrow" /></span>
+    </a>
+  </div>
+</section>
+
+<style>
+  .tsvstrip { background: var(--ground-2); border-block: 1px solid var(--line); }
+  .tsvstrip__grid { display: grid; grid-template-columns: minmax(0, 0.55fr) minmax(0, 1.9fr) minmax(0, 0.9fr); gap: 0; align-items: stretch; }
+  .tsvstrip__h { margin: 0; padding: 22px 24px 22px 0; color: var(--ink); align-self: start; }
+  .tsvstrip__cells { display: grid; grid-template-columns: 1fr 1.25fr; margin: 0; }
+  .tsvstrip__cell { display: grid; align-content: start; gap: 8px; padding: 22px 24px; border-left: 1px solid var(--line); }
+  .tsvstrip__cell dd { margin: 0; font-family: var(--font-display); font-weight: 720; font-stretch: 104%; font-size: clamp(1.02rem, 0.95rem + 0.3vw, 1.18rem); letter-spacing: -0.012em; line-height: 1.3; }
+  .tsvstrip__go { display: grid; grid-template-columns: minmax(0, 1fr) 44px; grid-template-rows: auto auto; gap: 4px 14px; align-content: center; padding: 18px 0 18px 24px;
+    border-left: 1px solid var(--line); text-decoration: none; min-height: 44px; }
+  .tsvstrip__go-k { grid-column: 1; }
+  .tsvstrip__go-v { grid-column: 1; font-family: var(--font-display); font-weight: 780; font-stretch: 108%; font-size: 1.1rem; letter-spacing: -0.015em; line-height: 1.2; }
+  .tsvstrip__go-i { grid-column: 2; grid-row: 1 / span 2; align-self: center; width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center;
+    box-shadow: inset 0 0 0 1.5px var(--ink); transition: background-color var(--t2) var(--ease), box-shadow var(--t2) var(--ease); }
+  .tsvstrip__go:hover .tsvstrip__go-i, .tsvstrip__go:focus-visible .tsvstrip__go-i { background: var(--paint); box-shadow: none; }
+  .tsvstrip__go:hover .tsvstrip__go-v { text-decoration: underline; text-decoration-color: var(--paint); text-decoration-thickness: 2px; text-underline-offset: 0.18em; }
+  @media (max-width: 999px) {
+    .tsvstrip__grid { grid-template-columns: 1fr; }
+    .tsvstrip__h { padding: 22px 0 4px; }
+    .tsvstrip__cells { grid-template-columns: 1fr 1fr; }
+    .tsvstrip__cell { padding: 14px 20px 18px 0; border-left: 0; }
+    .tsvstrip__cell + .tsvstrip__cell { padding-left: 20px; border-left: 1px solid var(--line); }
+    .tsvstrip__go { padding: 16px 0 20px; border-left: 0; border-top: 1px solid var(--line); }
+  }
+  @media (max-width: 560px) {
+    .tsvstrip__cells { grid-template-columns: 1fr; }
+    .tsvstrip__cell + .tsvstrip__cell { padding-left: 0; border-left: 0; border-top: 1px dashed rgb(var(--ink-rgb) / 0.22); padding-top: 14px; }
+  }
+</style>

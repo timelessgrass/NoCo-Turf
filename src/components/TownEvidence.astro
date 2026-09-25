@@ -4,7 +4,9 @@
  * its layer reads best (code card, rate ladder, dated status strip, rebate stamps, soil bar and weather
  * tiles, statute rows). The block's kind decides which view leads. A block with no layer records — homes,
  * golf, districts — shows its sources as a place list instead. The Colorado HOA records are left out here:
- * TownStateRule prints them once per page.
+ * TownStateRule prints them once per page. Records that are neither law, water, weather nor ground (a town's
+ * own place, housing or research records, mostly from src/data/layers/local/) print as dated rows, "On the
+ * public record", the way statutes do.
  */
 import TownCode from './TownCode.astro';
 import TownStatute from './TownStatute.astro';
@@ -28,12 +30,16 @@ const groups: Record<string, LayerRecord[]> = {
   rebate: pick('rebate'),
   ground: pick('soil', 'climate'),
   statute: pick('state'),
+  record: pick('place', 'housing', 'research', 'product', 'standard'),
 };
-const LEAD: Record<string, string> = { ordinance: 'code', hoa: 'code', utility: 'water', drought: 'status', rebate: 'rebate', soil: 'ground', climate: 'ground' };
+const LEAD: Record<string, string> = {
+  ordinance: 'code', hoa: 'code', utility: 'water', drought: 'status', rebate: 'rebate', soil: 'ground', climate: 'ground',
+  housing: 'record', landmark: 'record', golf: 'record', access: 'record', competitor: 'record',
+};
 /* A water panel with no rate schedule to draw leads with its dated status strip instead, if it has one. */
 const lead = LEAD[block.kind] === 'water' && !groups.water.some((r) => r.rates?.tiers?.length) && groups.status.length ? 'status' : LEAD[block.kind];
-const order = [lead, 'code', 'water', 'status', 'rebate', 'ground', 'statute'].filter((g, i, a) => g && a.indexOf(g) === i && groups[g]?.length);
-const SUB: Record<string, string> = { code: 'The town code', water: 'Who bills the water', status: 'Watering in 2026', rebate: 'Rebates', ground: 'Ground and weather', statute: 'Colorado law underneath' };
+const order = [lead, 'code', 'water', 'status', 'rebate', 'ground', 'statute', 'record'].filter((g, i, a) => g && a.indexOf(g) === i && groups[g]?.length);
+const SUB: Record<string, string> = { code: 'The town code', water: 'Who bills the water', status: 'Watering in 2026', rebate: 'Rebates', ground: 'Ground and weather', statute: 'Colorado law underneath', record: 'On the public record' };
 
 /* No layer records: the block's own sources, as receipts (the state HOA statute excepted — it has its band). */
 const hoaUrls = new Set([...HOA_FAMILY].map((id) => rec(id)?.source_url).filter(Boolean));
@@ -47,13 +53,14 @@ const title = PANEL_TITLE[block.kind] ?? 'From the public record';
     <p class="tev__head"><span class="label">{title}</span><span class="tev__chk">Checked {fmtDate(checked)}</span></p>
     {order.map((g, i) => (
       <div class="tev__group">
-        {i > 0 && g !== 'statute' && <p class="label tev__sub">{SUB[g]}</p>}
+        {i > 0 && g !== 'statute' && g !== 'record' && <p class="label tev__sub">{SUB[g]}</p>}
         {g === 'code' && <TownCode records={groups.code} asOf={asOf} />}
         {g === 'water' && <TownWater records={groups.water} />}
         {g === 'status' && <TownStatus records={groups.status} asOf={asOf} />}
         {g === 'rebate' && <TownRebate records={groups.rebate} />}
         {g === 'ground' && <TownGround records={groups.ground} town={town} />}
         {g === 'statute' && <TownStatute records={groups.statute} asOf={asOf} />}
+        {g === 'record' && <TownStatute records={groups.record} asOf={asOf} title={i > 0 ? SUB.record : ''} />}
       </div>
     ))}
     {receipts.length > 0 && <TownReceipts sources={receipts} kind={block.kind} />}

@@ -35,7 +35,11 @@ export type LayerRecord = {
 };
 
 const ALL = [...stateLaw, ...cityCodes, ...water, ...rebates, ...drought, ...climate, ...soil] as unknown as LayerRecord[];
-const BY_ID = new Map(ALL.map((r) => [r.id, r]));
+/* A town's own facts for its town × service pages (src/data/layers/local/{town}.json, ids "{town}.…"). They
+   resolve by id, so a block that cites one shows it as evidence, but they are never swept in by recordsFor():
+   a local record reaches a page only when that page's copy names it. */
+const LOCAL = Object.values(import.meta.glob<LayerRecord[]>('../data/layers/local/*.json', { eager: true, import: 'default' })).flat();
+const BY_ID = new Map([...ALL, ...LOCAL].map((r) => [r.id, r]));
 const RENDERABLE = new Set(['VERIFIED', 'EXTERNAL_SOURCE']);
 
 /** A layer record that may render, or null (missing or UNVERIFIED). */
@@ -45,9 +49,11 @@ export function rec(id: string): LayerRecord | null {
 }
 export const recs = (ids: string[] = []) => [...new Set(ids)].map(rec).filter((r): r is LayerRecord => r !== null);
 
-/** Every renderable record that applies to a town (or to every town). */
+/** Every renderable record in the shared layer files that applies to a town (or to every town). */
 export const recordsFor = (slug: string) =>
   ALL.filter((r) => RENDERABLE.has(r.status) && (r.applies_to.includes(slug) || r.applies_to.includes('*')));
+/** A town's own renderable records from src/data/layers/local/{slug}.json. */
+export const localRecordsFor = (slug: string) => LOCAL.filter((r) => RENDERABLE.has(r.status) && r.id.startsWith(`${slug}.`));
 
 /* ── The Colorado backyard-HOA rule: rendered once per page by TownStateRule, never hand-written into blocks
       (docs/CONTRACTS.md "Shared-claim components"). The five core records render on every town page, in the

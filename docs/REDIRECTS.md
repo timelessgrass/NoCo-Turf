@@ -157,6 +157,16 @@ something unconfirmed; see the next section.
 | `/commercial-artificial-turf-evans-co/` | `/services/commercial-turf/` | 301 | The query is commercial turf, so it goes to the commercial/HOA/sports page. Fallback: the town page |
 | `/commercial-artificial-turf-erie-co/` | `/areas/` | 301 | Sister-brand territory |
 
+**Later: the commercial town lines move to their town × service pages.** The five NoCo
+`/commercial-artificial-turf-{town}-co/` lines (Berthoud, Fort Collins, Johnstown, Windsor, Evans) stay on
+`/services/commercial-turf/` for now. Each should move to `/areas/{town}-co/commercial-turf/` in the commit that
+publishes that page (src/content/town-services/{town}-co--commercial-turf.json, gate passing, town page published,
+commercial-turf confirmed) — not before: `LAUNCH_CHECK=1` fails a 301 whose target isn't built, and a
+town × service page exists at launch only when all four hold (docs/CONTRACTS.md). The route is already planned
+(`tests/redirects.test.mjs` expands `/areas/{slug}/{service}/`), so the move is one line in `public/_redirects` and
+one row here. A commercial-turf page can't pass its gate until Brian supplies a photo of his own commercial job
+(photos.ts `use: 'commercial'`), so expect these to move last. The Erie line stays on `/areas/`.
+
 **2024–26 WordPress and GoDaddy-builder core pages (apex)**
 
 | Source | Target | Status | Why |

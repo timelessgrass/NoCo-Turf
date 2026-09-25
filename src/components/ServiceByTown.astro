@@ -1,0 +1,71 @@
+---
+/**
+ * ServiceByTown — on a service page, "{Service} by town": the service's town × service pages in this build
+ * (visibleTownServices()), grouped by the corridor's regions (territory.mjs REGIONS, in their order) as a
+ * ledger. Each town row carries that page's own H1, so the list reads as what differs town to town, not as a
+ * list of names. Only visible pages are linked; nothing to link, nothing drawn. (ServiceWhere, above it,
+ * links every town page; this links only the towns with a page for this job.)
+ */
+import Icon from './Icon.astro';
+import ServiceHead from './ServiceHead.astro';
+import { townsByRegion } from '../lib/visible';
+interface Page { path: string; town: { slug: string; name: string; region: string }; entry: { data: any } }
+interface Props { service: string; pages: Page[]; id?: string }
+const { service, pages, id = 'by-town' } = Astro.props;
+const regions = townsByRegion(pages.map((p) => ({ ...p, region: p.town.region })));
+const n = pages.length;
+---
+{n > 0 && (
+  <section class="section svbt" id={id} aria-labelledby={`${id}-h`}>
+    <div class="wrap">
+      <ServiceHead label={`${service} by town`} id={`${id}-h`} split
+        lede={`${n === 1 ? 'One town has' : `${n} towns have`} a page of its own for this job: its rules, its places and its ground.`}>
+        Town by town, where the job changes.
+      </ServiceHead>
+      <ol class="svbt__ledger" role="list">
+        {regions.map((r) => (
+          <li class="svbt__region">
+            <p class="svbt__rname">{r.label}</p>
+            <ul class="svbt__towns" role="list">
+              {r.towns.map((p) => (
+                <li>
+                  <a class="svbt__town" href={p.path}>
+                    <span class="svbt__tname">{p.town.name}</span>
+                    <span class="svbt__claim">{p.entry.data.h1}</span>
+                    <span class="svbt__go" aria-hidden="true"><Icon name="arrow" /></span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+)}
+
+<style>
+  .svbt { border-top: 1px solid var(--line); }
+  .svbt__ledger { list-style: none; border-top: 2px solid var(--ink); }
+  .svbt__region { display: grid; grid-template-columns: minmax(0, 0.55fr) minmax(0, 1.45fr); gap: 8px clamp(24px, 4vw, 64px); padding: clamp(18px, 2vw, 28px) 0;
+    border-bottom: 1px solid var(--line); }
+  .svbt__rname { margin: 0; padding-top: 16px; font-family: var(--font-display); font-weight: 780; font-stretch: 110%; font-size: clamp(1.1rem, 0.98rem + 0.5vw, 1.35rem);
+    letter-spacing: -0.02em; line-height: 1.15; }
+  .svbt__towns { list-style: none; }
+  .svbt__towns li + li { border-top: 1px dashed rgb(var(--ink-rgb) / 0.28); }
+  .svbt__town { display: grid; grid-template-columns: minmax(0, 10rem) minmax(0, 1fr) 44px; gap: 6px 22px; align-items: center; padding: 14px 0; min-height: 44px;
+    text-decoration: none; transition: background-color var(--t2) var(--ease); }
+  .svbt__town:hover { background: linear-gradient(90deg, transparent, rgb(var(--ink-rgb) / 0.035) 10%, rgb(var(--ink-rgb) / 0.035) 90%, transparent); }
+  .svbt__tname { font-family: var(--font-display); font-weight: 800; font-stretch: 112%; font-size: clamp(1.2rem, 1.02rem + 0.7vw, 1.5rem); letter-spacing: -0.03em; line-height: 1.05; }
+  .svbt__claim { color: var(--ink-2); font-size: var(--fs-small); line-height: 1.45; }
+  .svbt__go { width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center; box-shadow: inset 0 0 0 1.5px var(--line);
+    transition: background-color var(--t2) var(--ease), box-shadow var(--t2) var(--ease); }
+  .svbt__town:hover .svbt__go, .svbt__town:focus-visible .svbt__go { background: var(--paint); box-shadow: none; }
+  @media (max-width: 899px) {
+    .svbt__region { grid-template-columns: 1fr; }
+    .svbt__rname { padding-top: 0; }
+    .svbt__town { grid-template-columns: minmax(0, 1fr) 40px; }
+    .svbt__claim { grid-column: 1; }
+    .svbt__go { grid-column: 2; grid-row: 1 / span 2; width: 40px; height: 40px; }
+  }
+</style>

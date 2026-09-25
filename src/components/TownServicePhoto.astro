@@ -1,0 +1,44 @@
+---
+/**
+ * TownServicePhoto — the page's one job photograph (the record's `photo`, a src/data/photos.ts id), wide,
+ * with its record line: what it shows, the real place the camera original puts it (which may be the next
+ * town over — the caption says so rather than borrowing this town's name) and the month, when the file
+ * carries one. No photo, no section: nothing stands in for one.
+ */
+import Photo from './Photo.astro';
+import { monthLabel, type Photo as P } from '../data/photos';
+interface Props { photo: P; id?: string }
+const { photo, id = 'photo' } = Astro.props;
+---
+<section class="tsvph" id={id} aria-label={`Job photo: ${photo.caption}`}>
+  <div class="wrap">
+    <figure class="tsvph__fig">
+      <div class="tsvph__frame develop">
+        <Photo photo={photo} sizes="(max-width: 899px) 100vw, 64vw" widths={[640, 960, 1280, 1600, 1920]} />
+      </div>
+      <figcaption class="tsvph__cap">
+        <span class="label">From the job file</span>
+        <span class="tsvph__what">{photo.caption}</span>
+        <span class="tsvph__rec">{photo.place}{photo.month && <> · {monthLabel(photo.month)}</>}</span>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<style>
+  .tsvph { padding-block: clamp(24px, 3vw, 48px) clamp(56px, 6vw, 112px); }
+  .tsvph__fig { margin: 0; display: grid; grid-template-columns: minmax(0, 1fr) minmax(200px, 0.34fr); gap: clamp(20px, 3vw, 44px); align-items: end; }
+  .tsvph__frame { overflow: hidden; border-radius: var(--r-photo); background: var(--ground-2); aspect-ratio: 16 / 10; }
+  .tsvph__frame :global(img) { width: 100%; height: 100%; object-fit: cover; }
+  .tsvph__cap { position: relative; display: grid; gap: 8px; padding-top: 18px; }
+  .tsvph__cap::before { content: ''; position: absolute; left: 0; top: 0; width: 56px; height: 3px; border-radius: 2px;
+    background: repeating-linear-gradient(90deg, var(--paint) 0 14px, transparent 14px 21px); }
+  .tsvph__cap .label { margin: 0; }
+  .tsvph__what { font-family: var(--font-display); font-weight: 760; font-stretch: 106%; font-size: clamp(1.15rem, 1rem + 0.6vw, 1.5rem); letter-spacing: -0.02em; line-height: 1.2; }
+  .tsvph__rec { color: var(--ink-3); font-size: var(--fs-small); }
+  .tsvph__rec::first-letter { text-transform: uppercase; }
+  @media (max-width: 899px) {
+    .tsvph__fig { grid-template-columns: 1fr; }
+    .tsvph__frame { aspect-ratio: 4 / 3.2; }
+  }
+</style>

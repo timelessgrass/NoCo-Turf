@@ -3,6 +3,7 @@ import { z } from 'astro/zod';
 import { glob } from 'astro/loaders';
 import { NOCO_TOWNS, REGIONS } from './data/territory.mjs';
 import { TOPIC_SLUGS } from './data/guide-topics';
+import { TOWN_SERVICE_SLUGS } from './data/town-services.mjs';
 
 /**
  * Content collections. Records carry `status`: draft | review | published (missing = draft).
@@ -64,6 +65,39 @@ const towns = defineCollection({
     photo: z.string().optional(), // a path under src/assets/photos/ — required to publish (≥1 image per leaf)
     sources: z.array(source).min(2),
     checked: z.string(),
+    /** Not rendered: what Brian still has to supply before this page can publish. */
+    needsFromBrian: z.array(z.string()).default([]),
+  }),
+});
+
+/**
+ * Town × service pages: /areas/{town}-co/{service}/ for putting-greens, pet-turf, playground-turf and
+ * commercial-turf (src/data/town-services.mjs; installation × town IS the town page, turf-repair has none).
+ * File: src/content/town-services/{town}--{service}.json — check-content fails any other name.
+ * Same block shape as a town, but `own` means true of THIS town for THIS use. The town's own facts for these
+ * pages go in src/data/layers/local/{town}.json (ids "{town}.…"). Gate: src/lib/town-service-gate.mjs
+ * (≥3 substantive blocks, ≥2 own, every block sourced, a photos.ts photo whose `use` matches the service).
+ * `display.paint` is a phrase of the H1, word for word, that gets the painted layout mark.
+ */
+const townServices = defineCollection({
+  loader: glob({ pattern: '**/*.json', base: './src/content/town-services' }),
+  schema: z.object({
+    status,
+    town: z.enum(TOWN_SLUGS),
+    service: z.enum(TOWN_SERVICE_SLUGS as [string, ...string[]]),
+    title: z.string().max(70).regex(/\s\|\sNoCo Turf Co\.$/, 'the title ends with "| NoCo Turf Co."'),
+    description: z.string().max(160),
+    h1: z.string(),
+    display: z.object({ paint: z.string().optional() }).optional(),
+    lede: z.string(),
+    /** ~60 words naming the business, the service, the town and state. The phone is appended at render. */
+    answer: z.object({ question: z.string(), answer: z.string() }),
+    blocks: z.array(block).min(1).max(7),
+    faq: z.array(qa).max(6).default([]),
+    /** A src/data/photos.ts id — required to publish, and its `use` must match the service (the gate). */
+    photo: z.string().optional(),
+    sources: z.array(source).min(2),
+    checked: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
     /** Not rendered: what Brian still has to supply before this page can publish. */
     needsFromBrian: z.array(z.string()).default([]),
   }),
@@ -153,4 +187,4 @@ const work = defineCollection({
   }),
 });
 
-export const collections = { towns, guides, work, services };
+export const collections = { towns, townServices, guides, work, services };

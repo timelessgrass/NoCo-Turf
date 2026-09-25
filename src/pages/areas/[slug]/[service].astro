@@ -1,0 +1,204 @@
+---
+/**
+ * /areas/{town}-co/{service}/ — one page per town × service record from visibleTownServices()
+ * (src/content/town-services/{town}--{service}.json; services: src/data/town-services.mjs). Artificial turf
+ * installation × town is the town page itself (/areas/{town}-co/), so it has no route here.
+ *
+ * Its own page, built from the town page's parts and the service page's voice but neither one's shape. The
+ * record supplies every sentence of substance; the template only arranges it and adds what the layer
+ * records and services.ts already say:
+ *   top        crumbs, "{Service} · {Town}", the H1 (display.paint gets the painted mark), the lede, the two
+ *              asks; the short answer under them; the job sheet beside both (on a phone, after the answer)
+ *   blocks     the record's blocks in its order, numbered, each with its evidence (TownBlock). The Colorado
+ *              backyard-HOA rule renders once (TownStateRule) after the first block that leans on it — never
+ *              paraphrased in a block (docs/CONTRACTS.md "Shared-claim components")
+ *   code       the town's code for this use, where a layer applies: its ordinance records and the state rule
+ *              for this use that no block has already shown (TownServiceCode)
+ *   photo      the record's photo with its caption and its real place (TownServicePhoto)
+ *   strip      "What goes into {a putting green}" from services.ts, into /services/{service}/
+ *   around     this service one town over (the town record's `nearby`, visible pages only) and the rest of
+ *              the work in this town, the town page first
+ *   read       the service's guide topic, when its hub is visible
+ *   faq, sources, then the closing band with the ONE form, the town and the service's use preselected
+ * JSON-LD: a Service in a City, provided by #business; BreadcrumbList Areas › {Town} › {Service} (Base, from
+ * the crumbs); FAQPage mirroring the printed FAQ.
+ */
+import { getImage } from 'astro:assets';
+import Base from '../../../layouts/Base.astro';
+import Crumbs from '../../../components/Crumbs.astro';
+import AnswerBox from '../../../components/AnswerBox.astro';
+import Faq from '../../../components/Faq.astro';
+import Sources from '../../../components/Sources.astro';
+import CtaBand from '../../../components/CtaBand.astro';
+import PaintWord from '../../../components/PaintWord.astro';
+import Icon from '../../../components/Icon.astro';
+import TownBlock from '../../../components/TownBlock.astro';
+import TownStateRule from '../../../components/TownStateRule.astro';
+import TownServiceCard from '../../../components/TownServiceCard.astro';
+import TownServiceCode from '../../../components/TownServiceCode.astro';
+import TownServicePhoto from '../../../components/TownServicePhoto.astro';
+import TownServiceStrip from '../../../components/TownServiceStrip.astro';
+import TownServiceAround from '../../../components/TownServiceAround.astro';
+import TownServiceGuides from '../../../components/TownServiceGuides.astro';
+import { visibleTownServices } from '../../../lib/visible';
+import { faqGraph, townServiceGraph } from '../../../lib/schema';
+import { photo as photoById } from '../../../data/photos';
+import { phoneHref, phoneDisplay } from '../../../data/brief';
+import {
+  recs, recordsFor, localRecordsFor, fmtDate, fmtMonth, miles, compass, countyLine, HOA_FAMILY, HOA_EXTRA, KIND_LABEL, type LayerRecord,
+} from '../../../components/TownData';
+
+export async function getStaticPaths() {
+  const pages = await visibleTownServices();
+  return pages.map((p) => ({ params: { slug: p.town.slug, service: p.service.slug }, props: { id: p.id } }));
+}
+
+const { id } = Astro.props as { id: string };
+const pages = await visibleTownServices();
+const page = pages.find((p) => p.id === id)!;
+const { town, service, meta } = page;
+const d = page.entry.data as any;
+const townData = town.entry.data as any;
+const name: string = town.name;
+const asOf: string = d.checked;
+const path = page.path;
+
+type Block = { kind: string; own: boolean; kicker: string; h2: string; takeaway?: string; paras: string[]; layerRefs: string[]; sources: string[] };
+const blocks = d.blocks as Block[];
+
+/* The Colorado backyard-HOA rule: once, after the first block that leans on it — and only if one does. */
+const leansOnHoa = (b: Block) => b.kind === 'hoa' || b.layerRefs.some((r) => HOA_FAMILY.has(r));
+const hoaAt = blocks.findIndex(leansOnHoa);
+const extra = HOA_EXTRA.filter((r) => blocks.some((b) => b.layerRefs.includes(r)));
+
+/* The code for this use: the town's own ordinance records (shared and local), and the state records that
+   decide this use in new development — less anything a block's evidence panel already shows. A record filed
+   under this town for a folded-in place (Platteville on Greeley) is that place's rule, not the town's. */
+const cited = new Set(blocks.flatMap((b) => b.layerRefs));
+const folded: string[] = town.sections ?? [];
+const codeRecs = [...recordsFor(town.slug), ...localRecordsFor(town.slug)]
+  .filter((r) => r.layer === 'ordinance' && !cited.has(r.id) && !folded.some((f) => r.source_label.startsWith(f)));
+const lawRecs = recs(meta.stateRefs).filter((r: LayerRecord) => !cited.has(r.id));
+
+/* The photo: the record's own, from photos.ts. */
+const photo = d.photo ? photoById(d.photo) : null;
+const og = photo ? (await getImage({ src: photo.src, width: 1200, format: 'jpg', quality: 72 })).src : undefined;
+
+/* The job sheet: each block by its kind and kicker, then the code and the photo when they're drawn. */
+const numbered = blocks.map((b, i) => ({ b, no: i + 1, id: `${b.kind}-${i + 1}` }));
+const rows = [
+  ...numbered.map(({ b, id: bid }) => ({ label: KIND_LABEL[b.kind] ?? b.kind, value: b.kicker, href: `#${bid}`, own: b.own })),
+  ...(codeRecs.length || lawRecs.length ? [{ label: 'Code', value: codeRecs.length ? `${name}’s turf code, quoted` : 'The Colorado rule', href: '#code', own: false }] : []),
+  ...(photo ? [{ label: 'Photo', value: photo.caption, href: '#photo', own: false }] : []),
+];
+
+/* Around: this service one town over, and the rest of the work in this town. */
+const nearby = (townData.nearby as string[])
+  .map((s) => pages.find((p) => p.town.slug === s && p.service.slug === service.slug))
+  .filter((p): p is (typeof pages)[number] => !!p)
+  .map((p) => ({ href: p.path, name: p.town.name, line: (p.entry.data as any).h1 as string, meta: `${Math.round(miles(town, p.town))} mi ${compass(town, p.town)}` }));
+const others = [
+  { href: `/areas/${town.slug}/`, name: `Artificial turf in ${name}`, line: townData.h1 as string, meta: 'The town page' },
+  ...pages.filter((p) => p.town.slug === town.slug && p.id !== id).map((p) => ({ href: p.path, name: p.service.name, line: (p.entry.data as any).h1 as string })),
+];
+
+/* H1: the record's claim; display.paint, a phrase of it, gets the painted mark (check-content holds it to the H1). */
+const h1: string = d.h1;
+const paint: string | undefined = d.display?.paint;
+const at = paint ? h1.indexOf(paint) : -1;
+const crumbs = [{ name: 'Areas', path: '/areas/' }, { name, path: `/areas/${town.slug}/` }, { name: meta.crumb, path }];
+const graph = [...townServiceGraph(`${service.name} in ${name}, CO`, service.name, path, d.description, name), ...faqGraph(d.faq)];
+const band = { ...meta.band, lede: meta.band.lede.replace('{town}', name) };
+---
+<Base title={d.title} description={d.description} crumbs={crumbs} graph={graph} draft={page.draft} ogImage={og}>
+  <section class="tsvtop" aria-label={`${service.name} in ${name}`}>
+    <div class="wrap tsvtop__grid">
+      <div class="tsvtop__copy">
+        <Crumbs crumbs={crumbs} />
+        <p class="label tsvtop__label">{service.name} · {name}</p>
+        <h1 class="tsvtop__h1">{at >= 0 ? <>{h1.slice(0, at)}<PaintWord now>{paint}</PaintWord>{h1.slice(at + paint!.length)}</> : h1}</h1>
+        <p class="lede tsvtop__lede">{d.lede}</p>
+        <div class="tsvtop__acts">
+          <a class="btn btn--paint" href="#estimate" data-cta="town-service-hero-quote">{meta.ask} in {name} <Icon name="arrow" /></a>
+          {phoneHref && <a class="btn btn--line" href={phoneHref} data-cta="town-service-hero-call"><Icon name="phone" />Call <span class="btn__num">{phoneDisplay}</span></a>}
+        </div>
+      </div>
+      <div class="tsvtop__answer">
+        <AnswerBox question={d.answer.question} answer={d.answer.answer} />
+        <p class="tsvtop__note">Every rule, rate and figure below comes from a published source, linked beside it with the date it was read.</p>
+      </div>
+      <aside class="tsvtop__card">
+        <TownServiceCard service={{ name: service.name, href: `/services/${service.slug}/` }}
+          town={{ name, href: `/areas/${town.slug}/`, county: countyLine(town.county) }}
+          rows={rows} checked={fmtDate(asOf)} sources={d.sources.length} />
+      </aside>
+    </div>
+  </section>
+
+  {numbered.map(({ b, no, id: bid }, i) => (
+    <>
+      <TownBlock block={b} no={no} id={bid} town={name} sources={d.sources} asOf={asOf} />
+      {i === hoaAt && <TownStateRule extra={extra} />}
+    </>
+  ))}
+
+  <TownServiceCode town={name} code={codeRecs} law={lawRecs} lawLine={meta.lawLine} asOf={asOf} />
+
+  {photo && <TownServicePhoto photo={photo} />}
+
+  <TownServiceStrip noun={meta.noun} name={service.name} short={service.short} underneath={service.underneath} href={`/services/${service.slug}/`} />
+
+  <TownServiceAround service={meta.crumb} town={name} nearby={nearby} others={others} />
+
+  <TownServiceGuides topic={meta.topic} />
+
+  {d.faq?.length > 0 && (
+    <section class="section ground-2" id="faq" aria-labelledby="faq-h">
+      <div class="wrap tsvfaq">
+        <header class="tsvfaq__head">
+          <p class="label">Before you call</p>
+          <h2 id="faq-h" class="tsvfaq__h">Questions about {meta.crumb.toLowerCase()} in {name}.</h2>
+          <p class="lede">Short answers from the same published sources as the rest of this page, read {fmtMonth(asOf)}.</p>
+        </header>
+        <Faq items={d.faq} name={`faq-${id}`} />
+      </div>
+    </section>
+  )}
+
+  <section class="tsvsrc" id="sources" aria-label="Sources">
+    <div class="wrap">
+      <Sources sources={d.sources} title={`Sources for ${meta.crumb.toLowerCase()} in ${name}, each with the date it was read`} />
+    </div>
+  </section>
+
+  <CtaBand title={band.title} payoff={band.payoff} lede={band.lede} town={name} use={service.formUse} />
+</Base>
+
+<style>
+  /* The top: headline and answer down the left, the job sheet beside both. On a phone the sheet follows the
+     answer, so the answer stays in the first screens. */
+  .tsvtop { padding-block: clamp(36px, 5vw, 72px) clamp(40px, 4vw, 72px); border-bottom: 1px solid var(--line); }
+  .tsvtop__grid { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(300px, 0.85fr); grid-template-areas: 'copy card' 'answer card';
+    column-gap: clamp(36px, 5vw, 88px); row-gap: clamp(32px, 4vw, 56px); align-items: start; }
+  .tsvtop__copy { grid-area: copy; }
+  .tsvtop__answer { grid-area: answer; }
+  .tsvtop__card { grid-area: card; align-self: end; }
+  .tsvtop__label { margin: 28px 0 16px; }
+  .tsvtop__h1 { font-size: clamp(2.05rem, 1.3rem + 2.5vw, 3.7rem); font-stretch: 114%; letter-spacing: -0.036em; line-height: 0.98; max-width: 19ch; }
+  .tsvtop__lede { margin: 22px 0 0; max-width: 54ch; }
+  .tsvtop__acts { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
+  /* a long town name must not push a no-wrap button past a phone screen */
+  .tsvtop__acts .btn { max-width: 100%; white-space: normal; text-align: left; line-height: 1.2; padding-block: 10px; }
+  .tsvtop__note { margin: 16px 0 0; max-width: 60ch; font-size: var(--fs-small); color: var(--ink-3); }
+  @media (max-width: 999px) {
+    .tsvtop__grid { grid-template-columns: minmax(0, 1fr); grid-template-areas: 'copy' 'answer' 'card'; }
+    .tsvtop__card { align-self: start; }
+  }
+
+  .tsvfaq { display: grid; grid-template-columns: 0.8fr 1.2fr; gap: 40px 80px; align-items: start; }
+  .tsvfaq__head { display: grid; gap: 16px; position: sticky; top: calc(var(--header-h) + 32px); }
+  .tsvfaq__h { font-size: clamp(2rem, 1.3rem + 2.4vw, 3.4rem); max-width: 14ch; }
+  @media (max-width: 899px) { .tsvfaq { grid-template-columns: 1fr; } .tsvfaq__head { position: static; } }
+
+  .tsvsrc { padding-block: clamp(24px, 3vw, 48px) clamp(48px, 5vw, 88px); }
+</style>

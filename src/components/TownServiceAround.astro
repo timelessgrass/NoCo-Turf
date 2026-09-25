@@ -1,0 +1,70 @@
+---
+/**
+ * TownServiceAround — where to go from a town × service page, on two axes:
+ *   the same service one town over — the town record's `nearby` that have this service's page in this build,
+ *     each with its straight-line distance and direction from the Census 2024 town points and that page's own
+ *     H1 as its line (its strongest fact, not a teaser)
+ *   the same town, another job — the town page itself first (it IS the installation page for the town), then
+ *     the town's other visible town × service pages
+ * A column with nothing to link isn't drawn; the town page is always there, so the section always is.
+ */
+import Icon from './Icon.astro';
+interface Link { href: string; name: string; line: string; meta?: string }
+interface Props { service: string; town: string; nearby: Link[]; others: Link[] }
+const { service, town, nearby, others } = Astro.props;
+const cols = [
+  nearby.length ? { id: 'around-near', label: 'One town over', title: `${service} in the next towns.`, links: nearby } : null,
+  others.length ? { id: 'around-town', label: `More in ${town}`, title: `The rest of the work in ${town}.`, links: others } : null,
+].filter((c): c is NonNullable<typeof c> => c !== null);
+---
+{cols.length > 0 && (
+  <section class="section tsvaround" id="around" aria-label="Nearby and related pages">
+    <div class:list={['wrap', 'tsvaround__grid', { 'tsvaround__grid--one': cols.length === 1 }]}>
+      {cols.map((c) => (
+        <div class="tsvaround__col" aria-labelledby={`${c.id}-h`} role="group">
+          <p class="label">{c.label}</p>
+          <h2 id={`${c.id}-h`} class="tsvaround__h">{c.title}</h2>
+          <ol class="tsvaround__list" role="list">
+            {c.links.map((l) => (
+              <li>
+                <a class="tsvaround__row" href={l.href}>
+                  <span class="tsvaround__top">
+                    <span class="tsvaround__name">{l.name}</span>
+                    {l.meta && <span class="tsvaround__meta num">{l.meta}</span>}
+                  </span>
+                  <span class="tsvaround__line">{l.line}</span>
+                  <span class="tsvaround__go" aria-hidden="true"><Icon name="arrow" /></span>
+                </a>
+              </li>
+            ))}
+          </ol>
+        </div>
+      ))}
+    </div>
+  </section>
+)}
+
+<style>
+  .tsvaround { border-top: 1px solid var(--line); }
+  .tsvaround__grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(40px, 6vw, 104px); align-items: start; }
+  .tsvaround__grid--one { grid-template-columns: minmax(0, 1fr) minmax(0, 0.6fr); }
+  .tsvaround__col { display: grid; gap: 14px; }
+  .tsvaround__col .label { margin: 0; }
+  .tsvaround__h { font-size: clamp(1.7rem, 1.15rem + 2vw, 2.8rem); max-width: 17ch; margin-bottom: clamp(10px, 1.5vw, 20px); }
+  .tsvaround__list { list-style: none; border-top: 2px solid var(--ink); }
+  .tsvaround__row { display: grid; grid-template-columns: minmax(0, 1fr) 44px; gap: 6px 20px; align-items: center; padding: 18px 0; min-height: 44px;
+    border-bottom: 1px dashed rgb(var(--ink-rgb) / 0.28); text-decoration: none; transition: background-color var(--t2) var(--ease); }
+  .tsvaround__row:hover { background: linear-gradient(90deg, transparent, rgb(var(--ink-rgb) / 0.035) 10%, rgb(var(--ink-rgb) / 0.035) 90%, transparent); }
+  .tsvaround__top { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 14px; }
+  .tsvaround__name { font-family: var(--font-display); font-weight: 800; font-stretch: 112%; font-size: clamp(1.25rem, 1.05rem + 0.8vw, 1.6rem); letter-spacing: -0.03em; line-height: 1.05; }
+  .tsvaround__meta { font-family: var(--font-display); font-stretch: 80%; font-weight: 650; font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-3); }
+  .tsvaround__line { grid-column: 1; color: var(--ink-2); font-size: var(--fs-small); max-width: 56ch; }
+  .tsvaround__go { grid-column: 2; grid-row: 1 / span 2; width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center; box-shadow: inset 0 0 0 1.5px var(--line);
+    transition: background-color var(--t2) var(--ease), box-shadow var(--t2) var(--ease); }
+  .tsvaround__row:hover .tsvaround__go, .tsvaround__row:focus-visible .tsvaround__go { background: var(--paint); box-shadow: none; }
+  @media (max-width: 899px) {
+    .tsvaround__grid, .tsvaround__grid--one { grid-template-columns: 1fr; }
+    .tsvaround__row { grid-template-columns: minmax(0, 1fr) 40px; gap: 6px 14px; }
+    .tsvaround__go { width: 40px; height: 40px; }
+  }
+</style>

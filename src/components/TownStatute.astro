@@ -1,7 +1,8 @@
 ---
 /**
  * TownStatute — state and county layer records under a town's own rule: citation (linked to its source),
- * when it took or takes effect, and the record's fact sentence as written. Used inside an evidence panel.
+ * when it took or takes effect, and the record's fact sentence as written. Used inside an evidence panel,
+ * and for a town's own place and housing records ("On the public record"). An empty title prints none.
  */
 import Icon from './Icon.astro';
 import { cite, labelHead, fmtDate, type LayerRecord } from './TownData';
@@ -10,7 +11,7 @@ const { records, title = 'Colorado law underneath', asOf } = Astro.props;
 ---
 {records.length > 0 && (
   <div class="tst">
-    <p class="label tst__title">{title}</p>
+    {title && <p class="label tst__title">{title}</p>}
     <ul class="tst__list" role="list">
       {records.map((r) => (
         <li>
