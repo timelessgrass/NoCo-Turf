@@ -45,7 +45,7 @@ import { faqGraph, townServiceGraph } from '../../../lib/schema';
 import { photo as photoById } from '../../../data/photos';
 import { phoneHref, phoneDisplay } from '../../../data/brief';
 import {
-  recs, recordsFor, localRecordsFor, fmtDate, fmtMonth, miles, compass, countyLine, HOA_FAMILY, HOA_EXTRA, KIND_LABEL, type LayerRecord,
+  recs, recordsFor, fmtDate, fmtMonth, miles, compass, countyLine, HOA_FAMILY, HOA_EXTRA, KIND_LABEL, type LayerRecord,
 } from '../../../components/TownData';
 
 export async function getStaticPaths() {
@@ -71,12 +71,14 @@ const leansOnHoa = (b: Block) => b.kind === 'hoa' || b.layerRefs.some((r) => HOA
 const hoaAt = blocks.findIndex(leansOnHoa);
 const extra = HOA_EXTRA.filter((r) => blocks.some((b) => b.layerRefs.includes(r)));
 
-/* The code for this use: the town's own ordinance records (shared and local), and the state records that
-   decide this use in new development — less anything a block's evidence panel already shows. A record filed
-   under this town for a folded-in place (Platteville on Greeley) is that place's rule, not the town's. */
+/* The code for this use: the town's turf ordinance records from the shared city-codes layer, and the state
+   records that decide this use in new development — less anything a block's evidence panel already shows.
+   Local records stay out: an uncited local ordinance is about another use (a dog limit, a fence height), so it
+   would print under this page's turf-code heading. A record filed under this town for a folded-in place
+   (Platteville on Greeley) is that place's rule, not the town's. */
 const cited = new Set(blocks.flatMap((b) => b.layerRefs));
 const folded: string[] = town.sections ?? [];
-const codeRecs = [...recordsFor(town.slug), ...localRecordsFor(town.slug)]
+const codeRecs = recordsFor(town.slug)
   .filter((r) => r.layer === 'ordinance' && !cited.has(r.id) && !folded.some((f) => r.source_label.startsWith(f)));
 const lawRecs = recs(meta.stateRefs).filter((r: LayerRecord) => !cited.has(r.id));
 
