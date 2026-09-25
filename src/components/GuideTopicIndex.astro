@@ -1,0 +1,44 @@
+---
+/**
+ * The guide topics as a drawing set's sheet index: a number, the topic, a dotted leader and how many
+ * guides it holds. /guides/ points each row at the topic's section on the page (and a script there
+ * rewrites the counts as the filter narrows them); a topic hub points each row at the other hubs.
+ * Only topics with a visible guide are passed in, so no row leads to an empty page.
+ */
+interface Topic { slug: string; name: string; no: number; count: number; href: string; }
+interface Props { topics: Topic[]; label?: string; current?: string; }
+const { topics, label = 'Topics', current } = Astro.props;
+const pad = (n: number) => String(n).padStart(2, '0');
+---
+<nav class="gti" aria-label={label}>
+  <ol class="gti__list" role="list">
+    {topics.map((t) => (
+      <li class="gti__i" data-gti={t.slug}>
+        <a class="gti__a" href={t.href} aria-current={t.slug === current ? 'page' : undefined}>
+          <span class="gti__no num" aria-hidden="true">{pad(t.no)}</span>
+          <span class="gti__name">{t.name}</span>
+          <span class="gti__lead" aria-hidden="true"></span>
+          <span class="gti__n num"><span data-gti-count>{t.count}</span><span class="sr"> {t.count === 1 ? 'guide' : 'guides'}</span></span>
+        </a>
+      </li>
+    ))}
+  </ol>
+</nav>
+
+<style>
+  /* read down, then across, like a sheet index */
+  .gti__list { list-style: none; columns: 320px 3; column-gap: clamp(24px, 3vw, 48px); border-top: 2px solid var(--ink); }
+  .gti__i { break-inside: avoid; }
+  .gti__a { display: grid; grid-template-columns: 30px minmax(0, auto) minmax(24px, 1fr) auto; align-items: baseline; gap: 10px; min-height: 48px; padding: 12px 0;
+    border-bottom: 1px dashed rgb(var(--ink-rgb) / 0.3); text-decoration: none; transition: color var(--t2) var(--ease); }
+  .gti__no { font-family: var(--font-display); font-weight: 760; font-stretch: 100%; font-size: 0.8rem; color: var(--ink-3); }
+  .gti__name { font-family: var(--font-display); font-weight: 700; font-stretch: 104%; font-size: 1rem; letter-spacing: -0.01em; line-height: 1.25; }
+  /* the leader: the dotted line an index runs from the sheet name to its number */
+  .gti__lead { align-self: end; height: 1px; margin-bottom: 0.4em; background: radial-gradient(circle, rgb(var(--ink-rgb) / 0.4) 1px, transparent 1.4px) 0 50% / 6px 2px repeat-x; }
+  .gti__n { font-family: var(--font-display); font-weight: 780; font-stretch: 104%; font-size: 1rem; }
+  .gti__a:hover .gti__name { text-decoration: underline; text-decoration-color: var(--paint); text-decoration-thickness: 2px; text-underline-offset: 0.2em; }
+  .gti__a[aria-current] .gti__no { color: var(--ink); }
+  .gti__a[aria-current] .gti__name { box-shadow: inset 0 -0.34em 0 rgb(var(--paint-rgb) / 0.45); }
+  /* the filter on /guides/ empties a topic: its row stays (the index is the map) but greys out */
+  .gti__i[data-empty] .gti__a { color: rgb(var(--ink-rgb) / 0.42); }
+</style>

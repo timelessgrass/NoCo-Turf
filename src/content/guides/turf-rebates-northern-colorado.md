@@ -1,9 +1,17 @@
 ---
 status: draft
+topic: water
 kind: guide
 title: "Artificial Turf Rebates in Northern Colorado (2026) | NoCo Turf Co."
 description: "No Northern Colorado water rebate we checked pays for artificial turf. Each program in its own words, its 2026 status, and what a planted bed can still earn."
 h1: "Artificial turf rebates in Northern Colorado: no program we checked pays for turf"
+display:
+  crumb: "Rebates"
+  paint: "no program we checked"
+  faqH2: "Questions about rebates, answered from each program."
+  cta:
+    title: "No rebate to wait for."
+    payoff: "Walk the yard with us."
 answer:
   question: "Is there a rebate for artificial turf in Northern Colorado?"
   answer: "No. None of the Northern Colorado water-provider programs we checked in September 2026 pays for artificial turf. Windsor, Johnstown and Frederick say in writing it is not eligible, and Resource Central and Fort Collins Utilities require at least 50% plants. State turf-replacement grant money can't fund it either. A planted bed may still earn a plant rebate."

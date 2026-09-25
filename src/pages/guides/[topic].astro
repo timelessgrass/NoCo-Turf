@@ -1,0 +1,225 @@
+---
+/**
+ * /guides/{topic}/ — one hub per guide topic (src/data/guide-topics.ts) that has at least one visible
+ * guide (visibleTopics(): published at launch, drafts too during the PRELAUNCH preview). A topic with none
+ * gets no page, so nothing links to an empty one.
+ *
+ * A considered index, not a card grid: the hero names the topic and its record strip (how many guides,
+ * the latest check, the public sources behind them); then each guide as a numbered entry on the sheet with
+ * its drawn glyph, the buyer's question, the record's own short answer, the questions its sections answer
+ * (its H2s, as its own contents list prints them) and the date it was checked; then the other topics as a
+ * sheet index; then the closing band with the page's one form.
+ *
+ * Topic slugs share /guides/ with guide ids ([id].astro). getStaticPaths stops the build if a guide id
+ * equals a topic slug, and astro.config.mjs makes any route conflict an error rather than a warning.
+ * JSON-LD: BreadcrumbList (Base, from the crumbs), CollectionPage and its ItemList, published by #business.
+ */
+import { render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import PageHero from '../../components/PageHero.astro';
+import PaintWord from '../../components/PaintWord.astro';
+import Icon from '../../components/Icon.astro';
+import CtaBand from '../../components/CtaBand.astro';
+import GuideGlyph from '../../components/GuideGlyph.astro';
+import GuideTopicIndex from '../../components/GuideTopicIndex.astro';
+import { visibleGuides, visibleTopics, guideLabel, GUIDE_FILTER_FROM } from '../../lib/visible';
+import { assertGuideNamespace } from '../../lib/content-policy.mjs';
+import { TOPIC_SLUGS } from '../../data/guide-topics';
+import { BUSINESS_REF } from '../../lib/schema';
+import { SITE } from '../../data/site';
+import { businessName, phone, phoneHref, phoneDisplay } from '../../data/brief';
+
+export async function getStaticPaths() {
+  const guides = await visibleGuides();
+  assertGuideNamespace(guides.map((g) => g.id), TOPIC_SLUGS);
+  return (await visibleTopics()).map((t) => ({ params: { topic: t.slug }, props: { slug: t.slug } }));
+}
+
+const { slug } = Astro.props as { slug: string };
+const topics = await visibleTopics();
+const t = topics.find((x) => x.slug === slug)!;
+
+const smart = (s: string) => s.replace(/(\w)'(\w)/g, '$1’$2');
+const pad = (n: number) => String(n).padStart(2, '0');
+const CTA: Record<string, string> = { 'water-savings': 'Work out your lawn', 'hoa-turf-approval': 'Draft your letter' };
+/** How many of a guide's section questions an entry lists before "and N more". */
+const INSIDE = 5;
+const items = await Promise.all(t.guides.map(async (g, i) => {
+  const d = g.entry.data as any;
+  const h2s = (await render(g.entry)).headings.filter((h) => h.depth === 2).map((h) => smart(h.text));
+  return {
+    id: g.id, no: pad(i + 1), kind: d.kind === 'tool' ? 'Tool' : 'Guide', title: guideLabel(d.title),
+    q: smart(d.answer.question), a: smart(d.answer.answer), checked: d.updated as string, sources: d.sources.length as number,
+    cta: CTA[g.id] ?? 'Read the guide', inside: h2s.slice(0, INSIDE), more: Math.max(0, h2s.length - INSIDE),
+  };
+}));
+const words = ['No', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten'];
+const count = words[items.length] ?? String(items.length);
+const latest = items.map((i) => i.checked).sort().at(-1) ?? '';
+/* public sources only: the site's own dataset file is a derived source, not a public one */
+const sources = new Set(t.guides.flatMap((g) => (g.entry.data as any).sources.map((s: any) => s.url)).filter((u: string) => !u.startsWith(SITE))).size;
+const all = topics.reduce((n, x) => n + x.guides.length, 0);
+const others = topics.filter((x) => x.slug !== slug).map((x) => ({ slug: x.slug, name: x.name, no: x.no, count: x.guides.length, href: `/guides/${x.slug}/` }));
+
+/* H1: the registry's own words; the paint phrase, if present, gets the layout mark. */
+const at = t.paint ? t.h1.indexOf(t.paint) : -1;
+const h1 = at < 0 ? null : [t.h1.slice(0, at), t.paint!, t.h1.slice(at + t.paint!.length)];
+
+const path = `/guides/${slug}/`;
+const canonical = `${SITE}${path}`;
+const crumbs = [{ name: 'Guides', path: '/guides/' }, { name: t.label, path }];
+const entity = businessName && phone ? { publisher: BUSINESS_REF } : {};
+const graph = [
+  {
+    '@type': 'CollectionPage', '@id': `${canonical}#collection`, url: canonical, name: t.name, description: t.description, inLanguage: 'en-US',
+    isPartOf: { '@id': `${SITE}/guides/#collection` }, mainEntity: { '@id': `${canonical}#list` }, ...entity,
+  },
+  {
+    '@type': 'ItemList', '@id': `${canonical}#list`, name: t.name, numberOfItems: items.length,
+    itemListElement: items.map((it, i) => ({ '@type': 'ListItem', position: i + 1, name: it.title, url: `${SITE}/guides/${it.id}/` })),
+  },
+];
+---
+<Base title={t.title} description={t.description} crumbs={crumbs} graph={graph} draft={t.guides.some((g) => g.draft)}>
+  <PageHero label={`Guides · Topic ${pad(t.no)} of ${pad(topics.length)}`} crumbs={crumbs} compact lede={t.lede}>
+    {h1 ? <>{h1[0]}<PaintWord now>{h1[1]}</PaintWord>{h1[2]}</> : t.h1}
+    <div class="hrec" slot="after">
+      <div class="hrec__row">
+        <p class="hrec__c"><span class="hrec__k">Guides</span> <span class="hrec__v num">{items.length}</span></p>
+        <p class="hrec__c"><span class="hrec__k">Checked</span> <time class="hrec__v num" datetime={latest}>{latest}</time></p>
+        <p class="hrec__c"><span class="hrec__k">Public sources</span> <span class="hrec__v num">{sources}</span></p>
+        {slug === 'water' && <p class="hrec__c"><span class="hrec__k">Water data</span> <a class="hrec__v" href="/data/noco-water-rates-2026.csv">CSV · CC BY 4.0</a></p>}
+      </div>
+      {phoneHref && <p class="hrec__call">A question these don’t answer? <a href={phoneHref} data-cta="topic-call">Call <span class="num">{phoneDisplay}</span></a></p>}
+    </div>
+  </PageHero>
+
+  <section class="section gidx" aria-labelledby="gidx-h">
+    <div class="wrap">
+      <header class="shead shead--split">
+        <div>
+          <p class="label">{t.label} · the guides</p>
+          <h2 id="gidx-h">{items.length === 1 ? <>One question, answered <PaintWord>up front.</PaintWord></> : <>{count} questions, each answered <PaintWord>up front.</PaintWord></>}</h2>
+        </div>
+        <p class="lede">The short answer is printed here. Each guide’s page carries the working: the table, the rule or the rate, every source, and the date it was checked.</p>
+      </header>
+
+      <ol class="gidx__list" role="list">
+        {items.map((it) => (
+          <li class="gidx__item">
+            <article class="gidx__card rise" aria-labelledby={`gidx-${it.id}`}>
+              <div class="gidx__side">
+                <span class="gidx__no num" aria-hidden="true">{it.no}</span>
+                <span class="gidx__glyph"><GuideGlyph id={it.id} topic={slug} /></span>
+              </div>
+              <div class="gidx__head">
+                <p class="label">{it.kind}</p>
+                <h3 id={`gidx-${it.id}`}><a class="gidx__link" href={`/guides/${it.id}/`}>{it.title}</a></h3>
+              </div>
+              <div class="gidx__ans">
+                <p class="gidx__q">{it.q}</p>
+                <p class="gidx__a">{it.a}</p>
+                {it.inside.length > 1 && (
+                  <div class="gidx__in">
+                    <p class="label">Inside</p>
+                    <ol role="list">
+                      {it.inside.map((h, k) => <li><span class="num" aria-hidden="true">{pad(k + 1)}</span>{h}</li>)}
+                      {it.more > 0 && <li class="gidx__more"><span aria-hidden="true">+</span>{it.more} more {it.more === 1 ? 'section' : 'sections'}</li>}
+                    </ol>
+                  </div>
+                )}
+                <p class="gidx__meta"><span>Checked <time datetime={it.checked}>{it.checked}</time> · {it.sources} sources</span><span class="gidx__cta" aria-hidden="true">{it.cta}<Icon name="arrow" size={18} /></span></p>
+              </div>
+            </article>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <section class="section ground-2 tother" aria-labelledby="tother-h">
+    <div class="wrap">
+      <header class="shead shead--split">
+        <div>
+          <p class="label">Other topics</p>
+          <h2 id="tother-h">{others.length ? <>More questions, <PaintWord>sorted by topic.</PaintWord></> : <>Every guide is <PaintWord>in this topic,</PaintWord> for now.</>}</h2>
+        </div>
+        <p class="lede">{others.length ? `Each topic has its own page of short answers. All ${all} guides are listed on the guides page${all >= GUIDE_FILTER_FROM ? ', with a box to search them' : ''}.` : 'More topics go up as their guides are checked against their sources.'}</p>
+      </header>
+      {others.length > 0 && <GuideTopicIndex topics={others} label="Other guide topics" />}
+      <a class="tother__all" href="/guides/">Every guide, by topic <Icon name="arrow" size={18} /></a>
+    </div>
+  </section>
+
+  <CtaBand title={t.cta.title} payoff={t.cta.payoff} />
+</Base>
+
+<style>
+  /* hero record strip (the /guides/ hub's, same rhythm) */
+  .hrec { margin-top: 30px; display: grid; gap: 18px; }
+  .hrec__row { display: flex; flex-wrap: wrap; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--line); }
+  .hrec__c { display: grid; gap: 2px; margin: 0 22px 0 0; padding: 12px 22px 12px 0; border-right: 1px solid var(--line); }
+  .hrec__c:last-child { border-right: 0; margin-right: 0; }
+  .hrec__k { font-family: var(--font-display); font-size: var(--fs-label); font-weight: 650; font-stretch: 78%; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-3); }
+  .hrec__v { font-family: var(--font-display); font-weight: 720; font-stretch: 104%; font-size: 1rem; }
+  a.hrec__v { display: inline-block; padding-block: 10px; margin-block: -10px; text-decoration-color: var(--paint); text-decoration-thickness: 2px; }
+  @media (max-width: 599px) {
+    .hrec__row { display: grid; grid-template-columns: 1fr 1fr; border-bottom: 0; }
+    .hrec__c { margin-right: 0; padding: 10px 12px 10px 0; border-right: 0; border-bottom: 1px solid var(--line); }
+  }
+  .hrec__call { margin: 0; font-size: var(--fs-small); color: var(--ink-2); }
+  .hrec__call a { display: inline-flex; align-items: center; gap: 0.3em; min-height: 44px; font-weight: 700; color: var(--ink); text-decoration-color: var(--paint); text-decoration-thickness: 2px; }
+
+  /* section head (the homepage's .shead, same rhythm) */
+  .shead { display: grid; gap: 16px; margin-bottom: clamp(36px, 5vw, 72px); }
+  .shead h2 { max-width: 16ch; }
+  .shead--split { grid-template-columns: 1.2fr 1fr; align-items: end; gap: 24px 64px; }
+  .shead--split .lede { margin: 0; }
+  @media (max-width: 899px) { .shead--split { grid-template-columns: 1fr; } }
+
+  /* the entries: number and glyph, the guide's name, its question and short answer */
+  .gidx__list { list-style: none; border-top: 2px solid var(--ink); }
+  .gidx__item { border-bottom: 1px dashed rgb(var(--ink-rgb) / 0.3); }
+  .gidx__card { position: relative; display: grid; grid-template-columns: 188px minmax(0, 0.9fr) minmax(0, 1.1fr); gap: 20px clamp(24px, 3vw, 56px);
+    padding: clamp(24px, 2.6vw, 36px) 0; align-items: start; transition: background-color var(--t2) var(--ease); }
+  .gidx__card:hover { background: linear-gradient(90deg, transparent, rgb(var(--ink-rgb) / 0.03) 10%, rgb(var(--ink-rgb) / 0.03) 90%, transparent); }
+  .gidx__side { display: grid; grid-template-columns: 40px 1fr; gap: 14px; align-items: start; }
+  .gidx__no { font-family: var(--font-display); font-weight: 800; font-stretch: 110%; font-size: 0.95rem; color: var(--ink-3); padding-top: 4px; }
+  .gidx__glyph { display: block; aspect-ratio: 4 / 3; padding: 10px; border-radius: var(--r-control); background: var(--slab); transition: background-color var(--t2) var(--ease); }
+  .gidx__card:hover .gidx__glyph { background: var(--slab-2); }
+  .gidx__head .label { margin: 2px 0 10px; }
+  .gidx__head h3 { font-size: clamp(1.45rem, 1.1rem + 1.3vw, 2.2rem); font-weight: 800; font-stretch: 112%; letter-spacing: -0.03em; line-height: 1.04; max-width: 18ch; }
+  .gidx__link { text-decoration: none; }
+  .gidx__link::after { content: ''; position: absolute; inset: 0; }
+  .gidx__card:hover .gidx__link { text-decoration: underline; text-decoration-color: var(--paint); text-decoration-thickness: 3px; text-underline-offset: 0.14em; }
+  .gidx__link:focus-visible { outline: none; }
+  .gidx__card:has(.gidx__link:focus-visible) { outline: 3px solid var(--paint); outline-offset: 4px; border-radius: 4px; }
+  .gidx__q { margin: 0 0 8px; font-family: var(--font-display); font-weight: 720; font-stretch: 104%; font-size: 1.1rem; letter-spacing: -0.015em; line-height: 1.25; }
+  .gidx__a { margin: 0; color: var(--ink-2); font-size: var(--fs-small); max-width: 60ch; }
+  .gidx__in { margin-top: 16px; padding-top: 12px; border-top: 1px solid var(--line); max-width: 60ch; }
+  .gidx__in .label { margin: 0 0 6px; }
+  .gidx__in ol { list-style: none; display: grid; gap: 3px; }
+  .gidx__in li { display: grid; grid-template-columns: 26px 1fr; gap: 6px; font-size: 0.88rem; line-height: 1.4; color: var(--ink-2); }
+  .gidx__in .num { font-family: var(--font-display); font-weight: 740; font-size: 0.74rem; color: var(--ink-3); padding-top: 0.15em; }
+  .gidx__more { color: var(--ink-3); }
+  .gidx__meta { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 20px; margin: 16px 0 0; font-size: 0.84rem; color: var(--ink-3); }
+  .gidx__cta { display: inline-flex; align-items: center; gap: 10px; font-family: var(--font-display); font-weight: 720; font-stretch: 104%; font-size: 0.95rem; color: var(--ink); }
+  .gidx__cta :global(svg) { width: 40px; height: 40px; padding: 11px; border-radius: 50%; box-shadow: inset 0 0 0 1.5px var(--line); transition: background-color var(--t2) var(--ease), box-shadow var(--t2) var(--ease); }
+  .gidx__card:hover .gidx__cta :global(svg) { background: var(--paint); box-shadow: none; }
+  @media (max-width: 1099px) {
+    .gidx__card { grid-template-columns: 120px minmax(0, 1fr); }
+    .gidx__side { grid-row: span 2; grid-template-columns: 1fr; gap: 8px; }
+    .gidx__ans { grid-column: 2; }
+  }
+  @media (max-width: 599px) {
+    .gidx__card { grid-template-columns: 76px minmax(0, 1fr); gap: 14px 16px; }
+    .gidx__glyph { padding: 6px; }
+    .gidx__ans { grid-column: 1 / -1; }
+    .gidx__side { grid-row: auto; }
+  }
+
+  /* the other topics */
+  .tother__all { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; margin-top: 28px; font-family: var(--font-display); font-weight: 720; font-stretch: 104%;
+    text-decoration: none; }
+  .tother__all:hover { text-decoration: underline; text-decoration-color: var(--paint); text-decoration-thickness: 2px; text-underline-offset: 0.2em; }
+</style>

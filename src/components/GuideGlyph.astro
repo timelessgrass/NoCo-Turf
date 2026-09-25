@@ -8,13 +8,31 @@
  *   rebate — a water drop with the rebate struck through
  *   water  — a rain gauge filled to the season's line
  *   cost   — a section through the ground: turf, base, subgrade, with a paint depth mark
+ * A guide without a bespoke drawing gets its topic's (src/data/guide-topics.ts), same line language:
+ *   pets           paw  — a paw over turf and base; paint: the water passing down through them
+ *   weather        sky  — sun, a cloud dropping hail; paint: the turf surface that takes it
+ *   installation   cut  — the excavation filled with base below the old grade; paint: compaction
+ *   products       tuft — magnified tufts on their backing; paint: the pile-height dimension
+ *   care-and-repair seam — two pieces meeting at a seam; paint: the stitch across it
+ *   putting-greens flag — the green's contours, ball, roll line and cup; paint: the flag
+ *   safety         fall — a swing set in elevation; paint: the fall zone under it
+ *   comparisons    vs   — turf beside rock and planting; paint: the line between them
+ *   buying         quote — a quote's line items and total; paint: the bracket that sums them
+ *   rules-and-hoa  rules · water water (the launch drawings stand for their topics)
+ *   commercial     site — a building, parking stalls, a walk; paint: the common area
+ *   yard-design    yard — house, patio, a tree's shade; paint: the layout line of the turf edge
  */
-interface Props { id: string; class?: string; }
-const { id, class: cls } = Astro.props;
-const kind = ({
+interface Props { id?: string; topic?: string; class?: string; }
+const { id = '', topic = '', class: cls } = Astro.props;
+const BESPOKE: Record<string, string> = {
   'turf-rules-northern-colorado': 'rules', 'hoa-turf-approval': 'hoa', 'turf-rebates-northern-colorado': 'rebate',
   'water-savings': 'water', 'artificial-turf-cost': 'cost',
-} as Record<string, string>)[id] ?? 'doc';
+};
+const BY_TOPIC: Record<string, string> = {
+  pets: 'paw', weather: 'sky', installation: 'cut', products: 'tuft', 'care-and-repair': 'seam', 'putting-greens': 'flag',
+  safety: 'fall', comparisons: 'vs', buying: 'quote', 'rules-and-hoa': 'rules', water: 'water', commercial: 'site', 'yard-design': 'yard',
+};
+const kind = BESPOKE[id] ?? BY_TOPIC[topic] ?? 'doc';
 ---
 <svg class:list={['gglyph', cls]} viewBox="0 0 120 90" aria-hidden="true" focusable="false">
   {kind === 'rules' && <>
@@ -51,6 +69,93 @@ const kind = ({
     <path class="gg-l gg-dots" d="M20 36h.1M32 42h.1M44 34h.1M56 41h.1M68 36h.1M80 43h.1M26 44h.1M62 33h.1M88 38h.1" />
     <path class="gg-l gg-thin" d="M12 58l10-6 10 6 10-6 10 6 10-6 10 6 10-6 8 5M12 68l10-6 10 6 10-6 10 6 10-6 10 6 10-6 8 5" />
     <path class="gg-p" d="M106 20v28M102 20h8M102 48h8" />
+  </>}
+  {kind === 'paw' && <>
+    <ellipse class="gg-l gg-fill" cx="40" cy="30" rx="10" ry="8" />
+    <circle class="gg-l" cx="26" cy="18" r="4" />
+    <circle class="gg-l" cx="35" cy="10.5" r="4" />
+    <circle class="gg-l" cx="46" cy="10.5" r="4" />
+    <circle class="gg-l" cx="55" cy="18" r="4" />
+    <path class="gg-l gg-thin" d="M14 54v-6M22 54v-8M30 54v-5M38 54v-7M46 54v-6M54 54v-8M62 54v-5M70 54v-7M94 54v-6M102 54v-8" />
+    <rect class="gg-l gg-fill" x="10" y="54" width="100" height="18" />
+    <path class="gg-l gg-dots" d="M18 62h.1M30 67h.1M44 61h.1M58 66h.1M70 61h.1M98 66h.1M104 60h.1" />
+    <path class="gg-p" d="M82 22v58M76 74l6 6 6-6" />
+  </>}
+  {kind === 'sky' && <>
+    <circle class="gg-l" cx="28" cy="24" r="9" />
+    <path class="gg-l gg-thin" d="M28 8v4M28 36v4M12 24h4M40 24h4M16.7 12.7l2.8 2.8M36.5 32.5l2.8 2.8M16.7 35.3l2.8-2.8M36.5 15.5l2.8-2.8" />
+    <path class="gg-l gg-fill" d="M62 42a8 8 0 0 1 0-16 12 12 0 0 1 22-5 10 10 0 0 1 16 5 8.5 8.5 0 0 1 0 16Z" />
+    <path class="gg-l gg-dots" d="M68 50h.1M80 54h.1M92 50h.1M74 60h.1M86 63h.1M98 58h.1" />
+    <path class="gg-l gg-thin" d="M14 74v-5M22 74v-7M30 74v-4M38 74v-6M46 74v-5M54 74v-7M62 74v-4M70 74v-6M78 74v-5M86 74v-7M94 74v-4M102 74v-6" />
+    <path class="gg-p" d="M8 74h104" />
+    <path class="gg-l gg-thin gg-dash" d="M8 82h104" />
+  </>}
+  {kind === 'cut' && <>
+    <path class="gg-l gg-thin gg-dash" d="M6 34h108" />
+    <path class="gg-l gg-fill" d="M20 34l8 22h64l8-22" />
+    <path class="gg-l gg-dots" d="M34 42h.1M46 47h.1M58 41h.1M70 48h.1M84 42h.1M40 52h.1M64 52h.1M52 50h.1M78 52h.1" />
+    <path class="gg-l gg-thin" d="M8 68l10-6 10 6 10-6 10 6 10-6 10 6 10-6 10 6 10-6 10 6" />
+    <path class="gg-p" d="M46 6v18M40 18l6 6 6-6M74 6v18M68 18l6 6 6-6" />
+  </>}
+  {kind === 'tuft' && <>
+    <rect class="gg-l gg-fill" x="12" y="62" width="82" height="8" rx="1" />
+    <path class="gg-l gg-thin" d="M20 62c-1-12-4-22-8-30M20 62c1-14 3-26 7-36M36 62c-1-12-4-22-8-30M36 62c1-14 3-26 7-36M52 62c-1-12-4-22-8-30M52 62c1-14 3-26 7-36M68 62c-1-12-4-22-8-30M68 62c1-14 3-26 7-36M84 62c-1-12-4-22-8-30M84 62c1-14 3-26 7-36" />
+    <path class="gg-l gg-dots" d="M26 58h.1M42 57h.1M58 58h.1M74 57h.1M30 54h.1M62 54h.1" />
+    <path class="gg-l gg-thin gg-dash" d="M12 80h82" />
+    <path class="gg-p" d="M106 26v36M102 26h8M102 62h8" />
+  </>}
+  {kind === 'seam' && <>
+    <rect class="gg-l gg-fill" x="10" y="12" width="46" height="64" rx="1.5" />
+    <rect class="gg-l gg-fill" x="64" y="12" width="46" height="64" rx="1.5" />
+    <path class="gg-l gg-thin" d="M18 24v8M26 22v8M34 26v8M42 22v8M22 44v8M30 42v8M38 46v8M46 42v8M18 62v8M30 60v8M42 62v8M72 24v8M80 22v8M88 26v8M100 22v8M76 44v8M84 42v8M92 46v8M100 42v8M74 62v8M88 60v8M100 62v8" />
+    <path class="gg-p" d="M54 20l12 7-12 7 12 7-12 7 12 7-12 7 12 7" />
+  </>}
+  {kind === 'flag' && <>
+    <ellipse class="gg-l gg-fill" cx="60" cy="64" rx="50" ry="20" />
+    <ellipse class="gg-l gg-thin gg-dash" cx="62" cy="64" rx="34" ry="12" />
+    <circle class="gg-l" cx="30" cy="66" r="2.6" />
+    <path class="gg-l gg-thin gg-dash" d="M34 65c12-3 22-3 34 1" />
+    <ellipse class="gg-l" cx="74" cy="67" rx="4.5" ry="2" />
+    <path class="gg-l" d="M74 67V10" />
+    <path class="gg-p" d="M74 11l26 8-26 8Z" />
+  </>}
+  {kind === 'fall' && <>
+    <path class="gg-l" d="M22 70 34 14 46 70M74 70 86 14 98 70M34 14h52" />
+    <path class="gg-l gg-thin" d="M55 14v34M65 14v34" />
+    <path class="gg-l gg-bold" d="M52 49h16" />
+    <path class="gg-l gg-bold" d="M8 70h104" />
+    <path class="gg-p" d="M12 80h96M12 75v10M108 75v10" />
+  </>}
+  {kind === 'vs' && <>
+    <rect class="gg-l gg-fill" x="10" y="16" width="42" height="58" rx="1.5" />
+    <rect class="gg-l" x="68" y="16" width="42" height="58" rx="1.5" />
+    <path class="gg-l gg-thin" d="M16 70v-9M22 70v-11M28 70v-8M34 70v-10M40 70v-9M46 70v-11M16 44v-9M22 44v-11M28 44v-8M34 44v-10M40 44v-9M46 44v-11" />
+    <circle class="gg-l gg-thin" cx="78" cy="62" r="5" />
+    <circle class="gg-l gg-thin" cx="92" cy="64" r="4" />
+    <circle class="gg-l gg-thin" cx="102" cy="58" r="3.4" />
+    <path class="gg-l gg-thin" d="M88 46V28M88 36c-6-1-9-5-9-10M88 32c5-1 8-4 8-9" />
+    <path class="gg-p" d="M60 8v74" />
+  </>}
+  {kind === 'quote' && <>
+    <path class="gg-l gg-fill" d="M26 8h54v74H26Z" />
+    <path class="gg-l gg-thin" d="M34 22h22M66 22h8M34 32h26M66 32h8M34 42h18M66 42h8M34 52h24M66 52h8" />
+    <path class="gg-l" d="M34 66h40" />
+    <path class="gg-p" d="M88 18h5v38h-5M93 37h10" />
+  </>}
+  {kind === 'site' && <>
+    <rect class="gg-l gg-fill" x="10" y="10" width="40" height="30" />
+    <path class="gg-l gg-thin gg-dash" d="M50 25h14" />
+    <path class="gg-l gg-thin" d="M10 60h100M20 60v18M32 60v18M44 60v18M56 60v18M68 60v18M80 60v18" />
+    <circle class="gg-l gg-thin" cx="87" cy="29" r="7" />
+    <rect class="gg-p" x="64" y="10" width="46" height="38" rx="8" />
+  </>}
+  {kind === 'yard' && <>
+    <rect class="gg-l gg-fill" x="10" y="8" width="100" height="18" />
+    <rect class="gg-l gg-thin" x="18" y="26" width="30" height="16" />
+    <path class="gg-l gg-dash" d="M8 26v56h104V26" />
+    <circle class="gg-l gg-thin gg-dash" cx="92" cy="56" r="14" />
+    <path class="gg-l gg-dots" d="M92 56h.1" />
+    <path class="gg-p" d="M8 62c16-2 24-16 42-15s26 20 32 35" />
   </>}
   {kind === 'doc' && <>
     <path class="gg-l gg-fill" d="M34 8h52v74H34Z" />

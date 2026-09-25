@@ -226,6 +226,23 @@ test('llms.txt says only what the brief can render', () => {
   assert.match(anon, /^# www\.nocoturf\.com/);
 });
 
+test('llms.txt groups guides by topic: registry order, each hub first, then its guides', () => {
+  const g = (route, title, crumbs) => ({ url: `${SITE}${route}`, md: `${SITE}${route}index.html.md`, title, description: `${title}.`, body: '', crumbs: crumbs.map((c) => `${SITE}${c}`) });
+  const pages = [
+    g('/guides/water-savings/', 'Water savings', ['/', '/guides/', '/guides/water/', '/guides/water-savings/']),
+    g('/guides/water/', 'Water hub', ['/', '/guides/', '/guides/water/']),
+    g('/guides/turf-rebates-northern-colorado/', 'Rebates', ['/', '/guides/', '/guides/water/', '/guides/turf-rebates-northern-colorado/']),
+    g('/guides/hoa-turf-approval/', 'HOA approval', ['/', '/guides/', '/guides/rules-and-hoa/', '/guides/hoa-turf-approval/']),
+    g('/guides/rules-and-hoa/', 'Rules hub', ['/', '/guides/', '/guides/rules-and-hoa/']),
+    g('/guides/', 'Guides', ['/', '/guides/']),
+  ];
+  const out = buildLlms({ brief: {}, site: SITE, prelaunch: false, pages });
+  assert.match(out, /## Guides and tools\n\n- \[Guides\]\(https:\/\/www\.nocoturf\.com\/guides\/index\.html\.md\): Guides\.\n\n### Rules, HOAs and permits/);
+  assert.match(out, /### Rules, HOAs and permits\n\n- \[Rules hub\][^\n]*\n- \[HOA approval\]/);
+  assert.match(out, /### Water, drought and rebates\n\n- \[Water hub\][^\n]*\n- \[Rebates\][^\n]*\n- \[Water savings\]/);
+  assert.ok(out.indexOf('### Rules, HOAs and permits') < out.indexOf('### Water, drought and rebates'), 'topics follow src/data/guide-topics.ts order');
+});
+
 test('mirrors: indexable pages only, from <main>, without the boundary note; PRELAUNCH writes none', (t) => {
   const dir = site(t, {
     'index.html': page({ route: '/', body: '<h1>Home</h1><p>Turf for <a href="/services/pet-turf/">dogs</a>.</p><aside data-boundary><p>Denver metro? Not us.</p></aside><table><tr><th>Town</th><th>Rule</th></tr><tr><td>Windsor</td><td>Backyards allowed</td></tr></table><ul><li>One</li><li>Two</li></ul>' }),

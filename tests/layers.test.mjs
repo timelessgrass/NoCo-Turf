@@ -36,7 +36,7 @@ const shipped = () => {
 test('the shipped layer passes the gate as of its check date', () => {
   const { errors, stats } = checkLayers({ today: CHECKED_ON });
   assert.deepEqual(errors, [], errors.join('\n'));
-  assert.equal(stats.files, LAYER_FILES.length);
+  assert.equal(stats.files - stats.guideFiles, LAYER_FILES.length, 'the seven contract files, plus any guide-owned files in guides/');
   assert.ok(stats.records > 100, `only ${stats.records} records`);
 });
 
@@ -134,7 +134,10 @@ const base = (over = {}) => ({
 function run(files, opts = {}) {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'layers-'));
   try {
-    for (const [f, data] of Object.entries(files)) fs.writeFileSync(path.join(dir, f), typeof data === 'string' ? data : JSON.stringify(data));
+    for (const [f, data] of Object.entries(files)) {
+      fs.mkdirSync(path.dirname(path.join(dir, f)), { recursive: true });
+      fs.writeFileSync(path.join(dir, f), typeof data === 'string' ? data : JSON.stringify(data));
+    }
     return checkLayers({ dir, today: TODAY, expectFiles: false, towns: [], ...opts });
   } finally {
     fs.rmSync(dir, { recursive: true, force: true });
@@ -238,6 +241,35 @@ test('coverage: a NoCo town with no ordinance record fails; an all-UNVERIFIED to
   const star = run({ 'state-law.json': [base({ layer: 'state', applies_to: ['*'] })] }, { towns });
   failsWith(star, /windsor-co has no ordinance record/);
   warnsWith(star, /windsor-co has no drought record/);
+});
+
+test('guide-owned files: a record in guides/{guide-id}.json is read like any other, under every rule', () => {
+  const g = (over = {}) => base({ id: 'pet-odor.urine-drains', layer: 'research', applies_to: ['*'], ...over });
+  const res = run({ 'city-codes.json': [base()], 'guides/pet-odor.json': [g()] });
+  assert.deepEqual(res.errors, [], res.errors.join('\n'));
+  assert.equal(res.stats.records, 2);
+  assert.equal(res.stats.guideFiles, 1);
+  assert.ok(res.records.some((r) => r.id === 'pet-odor.urine-drains' && r._file === 'guides/pet-odor.json'), 'the subdirectory record is found');
+  failsWith(run({ 'guides/pet-odor.json': [g({ recheck: '2026-09-01' })] }), /guides\/pet-odor\.json pet-odor\.urine-drains: recheck 2026-09-01 has passed/);
+  failsWith(run({ 'guides/pet-odor.json': [g({ source_url: 'http://example.gov/x' })] }), /must be an https URL/);
+  failsWith(run({ 'guides/pet-odor.json': [g({ checked: '2025-01-01' })] }), /days old \(> 365\)/);
+  failsWith(run({ 'guides/pet-odor.json': [g({ layer: 'opinion' })] }), /layer "opinion"/);
+});
+
+test('guide-owned files: an id already used in another file fails, whichever file it is in', () => {
+  const dup = run({ 'city-codes.json': [base({ id: 'pet-odor.shared' })], 'guides/pet-odor.json': [base({ id: 'pet-odor.shared' })] });
+  failsWith(dup, /guides\/pet-odor\.json pet-odor\.shared: duplicate id \(also in city-codes\.json\)/);
+  const across = run({ 'guides/pet-odor.json': [base({ id: 'pet-odor.x' })], 'guides/pet-heat.json': [base({ id: 'pet-odor.x' })] });
+  failsWith(across, /duplicate id/);
+});
+
+test('guide-owned files: ids carry the guide prefix, the file is named for a guide, other subdirectories are not read', () => {
+  failsWith(run({ 'guides/pet-odor.json': [base({ id: 'urine-drains' })] }), /ids in a guide's own file start with "pet-odor\." \(e\.g\. "pet-odor\.urine-drains"\)/);
+  failsWith(run({ 'guides/Pet_Odor.json': [base({ id: 'Pet_Odor.x' })] }), /file name must be the guide's id/);
+  warnsWith(run({ 'guides/pet-odor.json': [base({ id: 'pet-odor.x' })] }, { guideIds: new Set(['water-savings']) }), /no guide src\/content\/guides\/pet-odor\.md yet/);
+  const other = run({ 'city-codes.json': [base()], 'misc/extra.json': [base({ id: 'dup' })] });
+  warnsWith(other, /misc\/: a subdirectory that is not read/);
+  assert.equal(other.stats.records, 1);
 });
 
 test('every one of the seven contract files must exist', () => {

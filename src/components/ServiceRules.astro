@@ -10,18 +10,18 @@
  * statewide records.
  */
 import { townBySlug } from '../data/territory.mjs';
+import { layerById } from '../lib/layers';
 
 interface Props { ids: string[]; id?: string; title?: string; }
 const { ids, id = 'rules-on-file', title = 'The rules this page is built on.' } = Astro.props;
 
 type Rec = { id: string; layer: string; applies_to: string[]; fact: string; source_url: string; source_label: string; checked: string; status: string };
-const files = import.meta.glob<Rec[]>('../data/layers/*.json', { eager: true, import: 'default' });
-const byId = new Map<string, Rec>();
-for (const recs of Object.values(files)) for (const r of recs) byId.set(r.id, r);
+const byId: Map<string, Rec> = layerById;
 
 const KIND: Record<string, string> = {
   state: 'State law', county: 'County code', ordinance: 'Town code', utility: 'Water provider', rebate: 'Rebate',
   drought: 'Watering rules', climate: 'Climate', soil: 'Soil', housing: 'Housing',
+  research: 'Research', product: 'Product', standard: 'Standard',
 };
 const PLACE = /^(?:City of |Town of )?([A-Z][a-z]+(?: [A-Z][a-z]+)?)(?= (?:Municipal Code|Code of Ordinances|Land Use Code|Land Development Code|Development Code|Planning Commission|City Council))/;
 const place = (r: Rec) => {
@@ -36,7 +36,7 @@ const fmt = (d: string) => new Date(`${d}T12:00:00Z`).toLocaleDateString('en-US'
 
 const recs = [...new Set(ids)].map((i) => {
   const r = byId.get(i);
-  if (!r) throw new Error(`ServiceRules: layer record "${i}" is not in src/data/layers/*.json`);
+  if (!r) throw new Error(`ServiceRules: layer record "${i}" is not in src/data/layers/ (*.json or guides/*.json)`);
   return r;
 }).filter((r) => r.status === 'VERIFIED' || r.status === 'EXTERNAL_SOURCE');
 ---

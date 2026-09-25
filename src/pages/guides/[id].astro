@@ -6,10 +6,16 @@
  * Reading order: plain hero with the dated record strip → short answer → (tool) → the Markdown body,
  * re-set by GuideProse (numbered sections, scannable tables, printable templates, uncertainty notes)
  * beside a sticky table of contents → questions (FAQPage mirrors them verbatim) → related services,
- * towns and guides → sources with their checked dates → the closing band with the page's one form.
+ * towns, up to six more guides in the same topic and the other topics → sources with their checked
+ * dates → previous / next within the topic → the closing band with the page's one form.
+ * Crumbs run Guides › {topic} › {crumb}, so every guide sits under its topic hub (/guides/{topic}/).
  *
- * Every word of the body, the answer and the FAQ comes from the guide record; this template adds only
- * section furniture and CTAs. Nothing here claims anything about NoCo beyond the brief's phone.
+ * Every word of the body, the answer and the FAQ comes from the guide record; the furniture (crumb, painted
+ * phrase, FAQ heading, closing band) comes from its frontmatter `display`, else from its topic's defaults
+ * (src/data/guide-topics.ts). Nothing here claims anything about NoCo beyond the brief's phone.
+ *
+ * Guide ids share /guides/ with the topic hubs ([topic].astro); getStaticPaths stops the build if one
+ * equals a topic slug.
  */
 import { render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
@@ -25,7 +31,9 @@ import GuideToc from '../../components/GuideToc.astro';
 import GuideWaterSavings from '../../components/GuideWaterSavings.astro';
 import GuideHoaLetter from '../../components/GuideHoaLetter.astro';
 import GuideGlyph from '../../components/GuideGlyph.astro';
-import { visibleGuides, visibleTowns, guideLabel } from '../../lib/visible';
+import { visibleGuides, visibleTowns, visibleTopics, guideLabel } from '../../lib/visible';
+import { assertGuideNamespace } from '../../lib/content-policy.mjs';
+import { TOPIC_SLUGS } from '../../data/guide-topics';
 import { visibleServices } from '../../data/services';
 import { faqGraph, BUSINESS_REF } from '../../lib/schema';
 import { SITE } from '../../data/site';
@@ -35,6 +43,7 @@ import { buildRows } from '../../../scripts/build-water-rates.mjs';
 
 export async function getStaticPaths() {
   const guides = await visibleGuides();
+  assertGuideNamespace(guides.map((g) => g.id), TOPIC_SLUGS);
   return guides.map((g) => ({ params: { id: g.id }, props: { id: g.id } }));
 }
 
@@ -44,35 +53,30 @@ const g = guides.find((x) => x.id === id)!;
 const d = g.entry.data as any;
 const { Content, headings } = await render(g.entry);
 
-/* Per-guide furniture. Copy rules: H2s are sentences with a period; CTA words vary per page; no claim
-   about NoCo. `paint` is a phrase of the record's own H1 that gets the painted layout mark. */
-type Cfg = { crumb: string; paint?: string; faqH2: string; cta: { title: string; payoff: string; lede?: string } };
-const CFG: Record<string, Cfg> = {
-  'turf-rules-northern-colorado': { crumb: 'Turf rules', paint: 'town by town',
-    faqH2: 'Questions about the rules, answered from the code.',
-    cta: { title: 'The code is one part.', payoff: 'The yard is the other.', lede: 'Tell us the town and the yard. Three short parts, no account, no upload.' } },
-  'hoa-turf-approval': { crumb: 'HOA approval', paint: 'can’t ban it',
-    faqH2: 'Questions about HOAs, answered from the statute.',
-    cta: { title: 'HOA or not,', payoff: 'it starts with a yard walk.', lede: 'Tell us about the yard and whether there’s an HOA. Three short parts, no account, no upload.' } },
-  'turf-rebates-northern-colorado': { crumb: 'Rebates', paint: 'no program we checked',
-    faqH2: 'Questions about rebates, answered from each program.',
-    cta: { title: 'No rebate to wait for.', payoff: 'Walk the yard with us.' } },
-  'water-savings': { crumb: 'Water savings', paint: '14,961 gallons',
-    faqH2: 'Questions about the water math.',
-    cta: { title: 'Gallons counted.', payoff: 'Now price the yard.', lede: 'Tell us the size of the lawn and how to reach you. Three short parts, no account, no upload.' } },
-  'artificial-turf-cost': { crumb: 'Cost', paint: 'different work',
-    faqH2: 'Questions about what a quote covers.',
-    cta: { title: 'Every yard prices differently.', payoff: 'Let’s look at yours.' } },
-};
-const cfg: Cfg = CFG[id] ?? { crumb: guideLabel(d.title), faqH2: 'Questions people ask.', cta: { title: 'Read up, then', payoff: 'walk the yard with us.' } };
-
 /* Display typography only: a straight apostrophe inside a word becomes ’ (the words don't change, and the
    FAQ JSON-LD gets the same strings the page prints). */
 const smart = (s: string) => s.replace(/(\w)'(\w)/g, '$1’$2');
 const pad = (n: number) => String(n).padStart(2, '0');
-const index = guides.findIndex((x) => x.id === id);
+
+/* The furniture: the record's `display`, else its topic's defaults. Copy rules: H2s are sentences with a
+   period; CTA words vary by topic or page; no claim about NoCo. `paint` is a phrase of the record's own H1. */
+const topic = g.topic;
+const dsp = d.display ?? {};
+const cfg = {
+  crumb: smart(dsp.crumb ?? guideLabel(d.title)),
+  paint: dsp.paint ? smart(dsp.paint) : undefined,
+  faqH2: smart(dsp.faqH2 ?? topic.faqH2),
+  cta: { title: smart(dsp.cta?.title ?? topic.cta.title), payoff: smart(dsp.cta?.payoff ?? topic.cta.payoff), lede: dsp.cta?.lede ? smart(dsp.cta.lede) : undefined },
+};
+
+/* Where it sits: its topic, its number in the topic, the guides either side. */
+const siblings = guides.filter((x) => x.topic.slug === topic.slug);
+const index = siblings.findIndex((x) => x.id === id);
+const prev = siblings[index - 1];
+const next = siblings[index + 1];
+const topicHref = `/guides/${topic.slug}/`;
 const kind = d.kind === 'tool' ? 'Tool' : 'Guide';
-const crumbs = [{ name: 'Guides', path: '/guides/' }, { name: cfg.crumb, path: `/guides/${id}/` }];
+const crumbs = [{ name: 'Guides', path: '/guides/' }, { name: topic.label, path: topicHref }, { name: cfg.crumb, path: `/guides/${id}/` }];
 const long = (ymd: string) => new Date(`${ymd}T12:00:00Z`).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
 
 /* H1: the record's own words. A colon splits headline from deck; the paint phrase, if present, is marked. */
@@ -95,11 +99,15 @@ const { body } = g.entry as any;
 const faq = (d.faq as { q: string; a: string }[]).map((f) => ({ q: smart(f.q), a: smart(f.a) }));
 const legal = /not legal advice/i.test(String(body ?? '')) || /not legal advice/i.test(d.answer.answer);
 
-/* Related */
+/* Related: the services and towns the record names; up to six more guides from its topic, starting after
+   this one and wrapping (so each page in a big topic links a different run of it); every other topic hub. */
 const services = (d.related?.services ?? []).map((s: string) => visibleServices.find((v) => v.slug === s)).filter(Boolean);
 const townList = await visibleTowns();
 const towns = (d.related?.towns ?? []).map((s: string) => townList.find((t) => t.slug === s)).filter(Boolean) as { slug: string; name: string }[];
-const others = guides.filter((x) => x.id !== id);
+const MORE = 6;
+const more = [...siblings.slice(index + 1), ...siblings.slice(0, index)].slice(0, MORE);
+const otherTopics = (await visibleTopics()).filter((t) => t.slug !== topic.slug);
+const gkind = (x: (typeof guides)[number]) => ((x.entry.data as any).kind === 'tool' ? 'Tool' : 'Guide');
 
 const toc = [
   ...(isWater ? [{ id: 'gws', text: 'Your lawn, worked out' }] : []),
@@ -108,6 +116,7 @@ const toc = [
   { id: 'related', text: 'Related' },
   { id: 'sources', text: 'Sources' },
 ];
+const topicWord = siblings.length === 1 ? 'guide' : 'guides';
 
 /* JSON-LD: the Article (author and publisher are the one #business entity, when it exists), the FAQ
    mirroring the printed questions, and — on water-savings — the Dataset behind the table and the CSV. */
@@ -139,7 +148,7 @@ if (isWater) {
 const graph = [article, ...(dataset ? [dataset] : []), ...faqGraph(faq)];
 ---
 <Base title={d.title} description={d.description} crumbs={crumbs} graph={graph} draft={g.draft}>
-  <PageHero label={`${kind} · ${pad(index + 1)} of ${pad(guides.length)}`} crumbs={crumbs} lede={smart(d.description)} compact>
+  <PageHero label={`${kind} · ${topic.label} · ${pad(index + 1)} of ${pad(siblings.length)}`} crumbs={crumbs} lede={smart(d.description)} compact>
     <span class="gh1__main">{mainP ? <>{mainP[0]}<PaintWord now>{mainP[1]}</PaintWord>{mainP[2]}</> : main}</span>
     {deck && <>{' '}<span class="gh1__deck">{deckP ? <>{deckP[0]}<PaintWord now>{deckP[1]}</PaintWord>{deckP[2]}</> : deck}</span></>}
     <div class="grec" slot="after">
@@ -160,7 +169,7 @@ const graph = [article, ...(dataset ? [dataset] : []), ...faqGraph(faq)];
 
         {letterId && (
           <a class="gjump" href={`#${letterId}`}>
-            <span class="gjump__glyph"><GuideGlyph id={id} /></span>
+            <span class="gjump__glyph"><GuideGlyph id={id} topic={topic.slug} /></span>
             <span class="gjump__txt">
               <span class="label">Tool · in this guide</span>
               <strong>Draft your letter to the committee</strong>
@@ -206,14 +215,25 @@ const graph = [article, ...(dataset ? [dataset] : []), ...faqGraph(faq)];
                 </ul>
               </div>
             )}
-            <div class="grel__col">
-              <p class="grel__k">More guides</p>
-              <ul class="grel__list" role="list">
-                {others.map((o) => (
-                  <li><a class="grel__a" href={`/guides/${o.id}/`}><span><span class="grel__kind">{(o.entry.data as any).kind === 'tool' ? 'Tool' : 'Guide'}</span><strong>{guideLabel((o.entry.data as any).title)}</strong></span><Icon name="arrow" size={18} /></a></li>
-                ))}
-              </ul>
-            </div>
+            {more.length > 0 && (
+              <div class="grel__col">
+                <p class="grel__k">More in {topic.label}</p>
+                <ul class="grel__list" role="list">
+                  {more.map((o) => (
+                    <li><a class="grel__a" href={`/guides/${o.id}/`}><span><span class="grel__kind">{gkind(o)}</span><strong>{guideLabel((o.entry.data as any).title)}</strong></span><Icon name="arrow" size={18} /></a></li>
+                  ))}
+                </ul>
+                <a class="grel__all" href={topicHref}>All {siblings.length} {topicWord} in {topic.label}<Icon name="arrow" size={16} /></a>
+              </div>
+            )}
+            {otherTopics.length > 0 && (
+              <div class="grel__col">
+                <p class="grel__k">Other topics</p>
+                <ul class="grel__towns" role="list">
+                  {otherTopics.map((t) => <li><a href={`/guides/${t.slug}/`}>{t.label} <span class="grel__n num">{t.guides.length}</span></a></li>)}
+                </ul>
+              </div>
+            )}
           </div>
         </section>
 
@@ -223,6 +243,23 @@ const graph = [article, ...(dataset ? [dataset] : []), ...faqGraph(faq)];
           <p class="gpart__lede">{legal && <strong>Not legal advice. </strong>}This page reflects its sources as they read on {long(d.updated)}. Rules, rates and programs change; each link goes to the public source it came from.</p>
           <Sources sources={d.sources} title="Show every source" />
         </section>
+
+        {(prev || next) && (
+          <nav class="gpager" aria-label={`More in ${topic.label}`}>
+            {prev ? (
+              <a class="gpager__a gpager__a--prev" href={`/guides/${prev.id}/`} rel="prev">
+                <span class="gpager__k"><Icon name="arrow" size={16} class="gpager__back" />Previous in {topic.label}</span>
+                <strong>{guideLabel((prev.entry.data as any).title)}</strong>
+              </a>
+            ) : <span class="gpager__gap" aria-hidden="true"></span>}
+            {next && (
+              <a class="gpager__a gpager__a--next" href={`/guides/${next.id}/`} rel="next">
+                <span class="gpager__k">Next in {topic.label}<Icon name="arrow" size={16} /></span>
+                <strong>{guideLabel((next.entry.data as any).title)}</strong>
+              </a>
+            )}
+          </nav>
+        )}
       </div>
     </div>
   </div>
@@ -293,11 +330,34 @@ const graph = [article, ...(dataset ? [dataset] : []), ...faqGraph(faq)];
     text-decoration: none; font-weight: 600; font-size: 0.93rem; transition: box-shadow var(--t2) var(--ease), background-color var(--t2) var(--ease); }
   .grel__towns a:hover { box-shadow: inset 0 0 0 1.5px var(--paint); background: var(--ground-2); }
 
+  .grel__all { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; margin-top: 6px; font-family: var(--font-display); font-weight: 700; font-stretch: 104%;
+    font-size: 0.95rem; text-decoration: none; }
+  .grel__all:hover { text-decoration: underline; text-decoration-color: var(--paint); text-decoration-thickness: 2px; text-underline-offset: 0.2em; }
+  .grel__n { margin-left: 8px; font-size: 0.8rem; font-weight: 700; color: var(--ink-3); }
+
   .gpart--src :global(.src) { max-width: 80ch; }
+
+  /* previous / next within the topic: two plan-sheet cells under a ruled line */
+  .gpager { display: grid; grid-template-columns: 1fr 1fr; margin-top: clamp(56px, 6vw, 96px); max-width: 880px; border-top: 2px solid var(--ink); }
+  .gpager__a { display: grid; gap: 6px; align-content: start; min-height: 44px; padding: 20px 0; text-decoration: none; border-bottom: 1px dashed rgb(var(--ink-rgb) / 0.3); }
+  .gpager__a--prev { padding-right: clamp(16px, 3vw, 40px); }
+  .gpager__a--next { grid-column: 2; padding-left: clamp(16px, 3vw, 40px); text-align: right; border-left: 1px solid var(--line); }
+  .gpager__k { display: inline-flex; align-items: center; gap: 8px; font-family: var(--font-display); font-size: var(--fs-label); font-weight: 650; font-stretch: 78%;
+    letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-3); }
+  .gpager__a--next .gpager__k { justify-content: flex-end; }
+  .gpager :global(.gpager__back) { rotate: 180deg; }
+  .gpager strong { font-family: var(--font-display); font-weight: 740; font-stretch: 106%; font-size: clamp(1.05rem, 0.95rem + 0.4vw, 1.3rem); letter-spacing: -0.015em; line-height: 1.2; }
+  .gpager__a:hover strong { text-decoration: underline; text-decoration-color: var(--paint); text-decoration-thickness: 2px; text-underline-offset: 0.18em; }
+  @media (max-width: 599px) {
+    .gpager { grid-template-columns: 1fr; }
+    .gpager__a--next { grid-column: 1; padding-left: 0; text-align: left; border-left: 0; }
+    .gpager__a--next .gpager__k { justify-content: flex-start; }
+    .gpager__gap { display: none; }
+  }
 
   /* ── Print: the guide as a reference document ── */
   @media print {
-    :global(.hdr), :global(.abar), :global(.ftr), :global(.cta), :global(.draft-ribbon), :global(.skip), :global(.gtoc), :global(.gws__in), :global(.gjump), :global(.gdoc__acts) { display: none !important; }
+    :global(.hdr), :global(.abar), :global(.ftr), :global(.cta), :global(.draft-ribbon), :global(.skip), :global(.gtoc), :global(.gws__in), :global(.gjump), :global(.gdoc__acts), .gpager { display: none !important; }
     :global(body) { background: #fff; padding: 0; }
     :global(.main--under) { padding-top: 0; }
     :global(.src[open]), :global(.src) { break-inside: auto; }

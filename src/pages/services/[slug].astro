@@ -39,6 +39,7 @@ import { photo as photoById } from '../../data/photos';
 import { visibleTowns } from '../../lib/visible';
 import { faqGraph, serviceGraph } from '../../lib/schema';
 import brief, { fact, facts, phoneHref, phoneDisplay } from '../../data/brief';
+import { LIVE_LAYER_IDS } from '../../lib/layers';
 
 export async function getStaticPaths() {
   const entries = await getCollection('services');
@@ -129,9 +130,7 @@ const quote = ((brief.services ?? []) as any[])
   .map((s) => fact<string>(s.statement)).find(Boolean) ?? null;
 
 /* Counts for the answer strip — every number is the page's own data. */
-type Rec = { id: string; status: string };
-const layerFiles = import.meta.glob<Rec[]>('../../data/layers/*.json', { eager: true, import: 'default' });
-const liveIds = new Set(Object.values(layerFiles).flat().filter((r) => r.status === 'VERIFIED' || r.status === 'EXTERNAL_SOURCE').map((r) => r.id));
+const liveIds = LIVE_LAYER_IDS;
 const rulesCount = new Set(data.layerRefs.filter((id) => liveIds.has(id))).size;
 
 const towns = await visibleTowns();

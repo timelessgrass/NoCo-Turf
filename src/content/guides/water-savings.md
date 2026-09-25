@@ -1,9 +1,18 @@
 ---
 status: draft
+topic: water
 kind: tool
 title: "Artificial Turf Water Savings in Northern Colorado | NoCo Turf Co."
 description: "How much water 1,000 sq ft of Front Range bluegrass uses, and what it is worth at each Northern Colorado provider's 2026 rates. Sources and a CSV."
 h1: "About 14,961 gallons a year: what artificial turf saves per 1,000 square feet of bluegrass"
+display:
+  crumb: "Water savings"
+  paint: "14,961 gallons"
+  faqH2: "Questions about the water math."
+  cta:
+    title: "Gallons counted."
+    payoff: "Now price the yard."
+    lede: "Tell us the size of the lawn and how to reach you. Three short parts, no account, no upload."
 answer:
   question: "How much water and money does artificial turf save in Northern Colorado?"
   answer: "About 14,961 gallons a year for every 1,000 square feet of Kentucky bluegrass it replaces, based on CSU Extension's 24 inches of supplemental irrigation a year on the Front Range. At 2026 Northern Colorado water rates, that water is worth roughly 45 to 278 US dollars a year, depending on your provider and the tier your summer bills reach."

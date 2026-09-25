@@ -288,7 +288,7 @@ test('territory and schema: a non-NoCo slug, a mismatched file name or region, a
 
 const guide = (fm, body) => `---\n${Object.entries(fm).map(([k, v]) => `${k}: ${JSON.stringify(v)}`).join('\n')}\n---\n${body}\n`;
 const GUIDE = {
-  status: 'draft', title: 'Turf rules in Northern Colorado', description: 'Which towns allow turf where.', h1: 'Turf rules in Northern Colorado',
+  status: 'draft', topic: 'rules-and-hoa', title: 'Turf rules in Northern Colorado', description: 'Which towns allow turf where.', h1: 'Turf rules in Northern Colorado',
   answer: { question: 'Can I install turf?', answer: 'On most existing single-family lots, yes.' },
   layerRefs: ['fixture-fc-luc'],
   sources: [{ label: 'Land Use Code 5.10.1', url: 'https://example.gov/fort-collins/luc-5-10-1', checked: '2026-09-24' }, { label: 'SB23-178', url: 'https://example.gov/colorado/sb23-178', checked: '2026-09-24' }],
@@ -410,6 +410,122 @@ test('services: a referenced record whose fact holds unapproved claim wording fa
   const r = run();
   assert.equal(r.status, 1, r.out);
   assert.match(r.out, /layer fixture-greeley-pending would print "certified installer" in the rule sheet/);
+});
+
+// ───────────────────────────── guides at scale: topics, duplicates, overlap, guide-owned layers ─────────────────────────────
+
+/** Letter-only filler words (a digit would need a source), distinct for every i. */
+const filler = (from, n) => Array.from({ length: n }, (_, i) => {
+  const k = from + i;
+  return `ter${String.fromCharCode(97 + (k % 26))}${String.fromCharCode(97 + (Math.floor(k / 26) % 26))}${String.fromCharCode(97 + (Math.floor(k / 676) % 26))}`;
+}).join(' ');
+/** A guide fixture with its own title, question and answer; `body` is the Markdown after the frontmatter. */
+const own = (n, over = {}) => ({
+  ...GUIDE, title: `Fixture guide ${filler(n * 7, 2)}`, h1: `Fixture guide ${filler(n * 7, 2)}`,
+  answer: { question: `Question ${filler(n * 11, 3)}?`, answer: `Answer ${filler(n * 13, 3)}.` }, ...over,
+});
+
+test('guides: a topic outside the registry fails, a guide id that is a topic slug fails, display.paint must be in the h1', (t) => {
+  const { dir, write, run } = fixture(t);
+  write('src/content/guides/turf-rules-northern-colorado.md', guide({ ...GUIDE, topic: 'lawn' }, 'Body.'));
+  const topic = run();
+  assert.equal(topic.status, 1, topic.out);
+  assert.match(topic.out, /topic "lawn" has no entry in src\/data\/guide-topics\.ts — use one of: pets, weather/);
+
+  write('src/content/guides/turf-rules-northern-colorado.md', guide(GUIDE, 'Body.'));
+  write('src/content/guides/water.md', guide(own(1, { topic: 'water' }), 'Other body.'));
+  const clash = run();
+  assert.equal(clash.status, 1, clash.out);
+  assert.match(clash.out, /the guide id "water" is a topic slug — \/guides\/water\/ is that topic's hub/);
+  fs.rmSync(path.join(dir, 'src/content/guides/water.md'));
+
+  write('src/content/guides/turf-rules-northern-colorado.md', guide({ ...GUIDE, h1: "HOAs can't ban it", display: { paint: 'town by town' } }, 'Body.'));
+  const paint = run();
+  assert.equal(paint.status, 1, paint.out);
+  assert.match(paint.out, /display\.paint "town by town" is not in the h1/);
+  write('src/content/guides/turf-rules-northern-colorado.md', guide({ ...GUIDE, h1: 'HOAs can’t ban it', display: { paint: "can't ban it", crumb: 'Rules' } }, 'Body.'));
+  const curly = run();
+  assert.equal(curly.status, 0, `a straight apostrophe matches the curly one the H1 prints\n${curly.out}`);
+});
+
+test('guides: the same title, or the same answer.question once normalized, as another guide fails', (t) => {
+  const { write, run } = fixture(t);
+  write('src/content/guides/guide-a.md', guide(own(1), filler(1000, 60)));
+  write('src/content/guides/guide-b.md', guide(own(2), filler(2000, 60)));
+  const ok = run();
+  assert.equal(ok.status, 0, ok.out);
+
+  write('src/content/guides/guide-b.md', guide(own(2, { title: own(1).title }), filler(2000, 60)));
+  const title = run();
+  assert.equal(title.status, 1, title.out);
+  assert.match(title.out, /guides guide-a and guide-b have the same title/);
+
+  write('src/content/guides/guide-b.md', guide(own(2, { answer: { question: `  ${own(1).answer.question.toUpperCase().replace('?', ' ?')}`, answer: 'Its own answer.' } }), filler(2000, 60)));
+  const question = run();
+  assert.equal(question.status, 1, question.out);
+  assert.match(question.out, /guides guide-a and guide-b ask the same answer\.question/);
+});
+
+test('guides: more than 25% of five-word runs shared fails with the pair and examples, over 15% warns, distinct guides pass', (t) => {
+  const { write, run } = fixture(t);
+  // 100 words each → 96 runs each. Shared words s: 60 → 56 runs shared (41%); 40 → 36 runs (23%); 0 → none.
+  const pair = (shared) => {
+    write('src/content/guides/guide-a.md', guide(own(1), `${filler(0, shared)} ${filler(3000, 100 - shared)}`));
+    write('src/content/guides/guide-b.md', guide(own(2), `${filler(0, shared)} ${filler(5000, 100 - shared)}`));
+    return run();
+  };
+  const fail = pair(60);
+  assert.equal(fail.status, 1, fail.out);
+  assert.match(fail.out, /x FAIL guide overlap guide-a ~ guide-b: \d+\.\d% of five-word runs shared \(\d+ runs\) — limit 25%\. Shared runs include "…teraaa terbaa/);
+  const warn = pair(40);
+  assert.equal(warn.status, 0, warn.out);
+  assert.match(warn.out, /! WARN guide overlap guide-a ~ guide-b: \d+\.\d% of five-word runs shared \(\d+ runs\) — warn above 15%/);
+  const clean = pair(0);
+  assert.equal(clean.status, 0, clean.out);
+  assert.doesNotMatch(clean.out, /guide overlap/);
+});
+
+test('guides: naming one file still checks its overlap against every other guide on disk', (t) => {
+  const { dir, write, run } = fixture(t);
+  write('src/content/guides/guide-a.md', guide(own(1), `${filler(0, 80)} ${filler(3000, 20)}`));
+  write('src/content/guides/guide-b.md', guide(own(2), `${filler(0, 80)} ${filler(5000, 20)}`));
+  write('src/content/guides/guide-c.md', guide(own(3), filler(7000, 100)));
+  const r = run(path.join(dir, 'src/content/guides/guide-c.md'));
+  assert.equal(r.status, 0, `guide-c is distinct; the a ~ b pair is not guide-c's to report\n${r.out}`);
+  assert.match(r.out, /Guide overlap: guide-c against 2 other guide\(s\) on disk/);
+  assert.doesNotMatch(r.out, /guide overlap guide-a ~ guide-b/);
+  const a = run(path.join(dir, 'src/content/guides/guide-a.md'));
+  assert.equal(a.status, 1, a.out);
+  assert.match(a.out, /x FAIL guide overlap guide-a ~ guide-b/);
+  assert.match(a.out, /1 record\(s\)/, 'only the named file is checked record by record');
+});
+
+test('guide-owned layer files: a record in src/data/layers/guides/ is found; its rules apply; an id in two files fails', (t) => {
+  const { dir, write, run } = fixture(t);
+  const today = new Date().toISOString().slice(0, 10);
+  const rec = (over = {}) => ({
+    id: 'turf-rules-northern-colorado.fixture-cure', layer: 'research', applies_to: ['*'],
+    fact: 'A fixture fact that gives a homeowner 45 days to cure.', quote: 'The owner has 45 days to cure the violation.',
+    source_url: 'https://example.gov/colorado/sb23-178', source_label: 'SB23-178', checked: today, reachable: true, status: 'VERIFIED', numbers: ['45'], ...over,
+  });
+  const body = '## Does Fort Collins allow turf?\n\nOn existing lots, yes, and an owner gets 45 days to cure.';
+  write('src/content/guides/turf-rules-northern-colorado.md', guide({ ...GUIDE, layerRefs: ['turf-rules-northern-colorado.fixture-cure'] }, body));
+  write('src/data/layers/guides/turf-rules-northern-colorado.json', [rec()]);
+  const ok = run();
+  assert.equal(ok.status, 0, ok.out);
+  assert.doesNotMatch(ok.out, /is not in src\/data\/layers/);
+
+  write('src/data/layers/guides/turf-rules-northern-colorado.json', [rec({ source_url: 'http://example.gov/colorado/sb23-178', recheck: '2020-01-01' }), rec({ id: 'fixture-cure' })]);
+  const rules = run(path.join(dir, 'src/content/guides/turf-rules-northern-colorado.md'));
+  assert.equal(rules.status, 1, rules.out);
+  assert.match(rules.out, /layer file: guides\/turf-rules-northern-colorado\.json turf-rules-northern-colorado\.fixture-cure: source_url must be an https URL/);
+  assert.match(rules.out, /layer file: .*recheck 2020-01-01 has passed/);
+  assert.match(rules.out, /layer file: guides\/turf-rules-northern-colorado\.json fixture-cure: ids in a guide's own file start with "turf-rules-northern-colorado\."/);
+
+  write('src/data/layers/guides/turf-rules-northern-colorado.json', [rec(), rec({ id: 'fixture-fc-luc' })]);
+  const dup = run();
+  assert.equal(dup.status, 1, dup.out);
+  assert.match(dup.out, /x FAIL duplicate layer id fixture-fc-luc \(src\/data\/layers\/fixtures\.json and src\/data\/layers\/guides\/turf-rules-northern-colorado\.json\)/);
 });
 
 test('the real repo passes (towns, guides and work may not exist yet)', () => {

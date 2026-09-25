@@ -1,10 +1,18 @@
 ---
 /**
- * /guides/ — the guide hub: a considered index, not a card grid. Each guide is a numbered entry on the
- * sheet with its drawn glyph, its name, the buyer's question and the record's own short answer, and the
- * date it was checked. Then the receipts (how many public sources stand behind the five, the open
- * water-rate data) and the closing band with the page's one form. With no visible guide (none published
- * at launch), the page still exists — /blog/ 301s here — and says so plainly instead of listing nothing.
+ * /guides/ — the guide hub, built to read the same with five guides or a hundred and ten: a considered
+ * index, not a card grid.
+ *   1. the hero with the dated record strip (latest check, public sources, the open water-rate CSV);
+ *   2. the topic index — a drawing set's sheet index, each topic with how many guides it holds, pointing
+ *      at that topic's section below — and, from GUIDE_FILTER_FROM guides up (visible.ts), a filter box;
+ *   3. one section per topic: its glyph, its name linked to the topic hub (/guides/{topic}/), and its
+ *      guides compactly — number, the buyer's question as the link, the guide's name and kind;
+ *   4. the receipts (how the guides are built) and the closing band with the page's one form.
+ * Only topics with a visible guide appear. With no visible guide at all (none published at launch) the
+ * page still exists — /blog/ 301s here — and says so plainly instead of listing nothing.
+ *
+ * The filter is progressive enhancement: the box ships `hidden`, so without JavaScript every guide shows;
+ * a tiny inline script reveals it and hides the rows (and topic sections) that don't match every typed word.
  */
 import Base from '../../layouts/Base.astro';
 import PageHero from '../../components/PageHero.astro';
@@ -12,44 +20,59 @@ import PaintWord from '../../components/PaintWord.astro';
 import Icon from '../../components/Icon.astro';
 import CtaBand from '../../components/CtaBand.astro';
 import GuideGlyph from '../../components/GuideGlyph.astro';
-import { visibleGuides, guideLabel } from '../../lib/visible';
+import GuideTopicIndex from '../../components/GuideTopicIndex.astro';
+import { visibleGuides, visibleTopics, guideLabel, GUIDE_FILTER_FROM } from '../../lib/visible';
+import { BUSINESS_REF } from '../../lib/schema';
 import { SITE } from '../../data/site';
-import { phoneHref, phoneDisplay } from '../../data/brief';
+import { businessName, phone, phoneHref, phoneDisplay } from '../../data/brief';
 import providers from '../../data/layers/water-providers.json';
 import { buildRows } from '../../../scripts/build-water-rates.mjs';
 
 const guides = await visibleGuides();
+const topics = await visibleTopics();
 const smart = (s: string) => s.replace(/(\w)'(\w)/g, '$1’$2');
 const pad = (n: number) => String(n).padStart(2, '0');
-const CTA: Record<string, string> = { 'water-savings': 'Work out your lawn', 'hoa-turf-approval': 'Draft your letter' };
-const items = guides.map((g, i) => {
+const row = (g: (typeof guides)[number], i: number) => {
   const d = g.entry.data as any;
   return {
-    id: g.id, no: pad(i + 1), kind: d.kind === 'tool' ? 'Tool' : 'Guide', title: guideLabel(d.title),
-    q: smart(d.answer.question), a: smart(d.answer.answer), checked: d.updated as string, sources: d.sources.length as number,
-    cta: CTA[g.id] ?? 'Read the guide',
+    id: g.id, no: pad(i + 1), kind: d.kind === 'tool' ? 'Tool' : 'Guide', title: guideLabel(d.title), q: smart(d.answer.question),
+    /* what the filter reads besides the printed words: the page description */
+    find: `${d.description}`.toLowerCase(),
   };
-});
-const words = ['No', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten'];
+};
+const sections = topics.map((t) => ({ ...t, rows: t.guides.map(row) }));
+const items = sections.flatMap((s) => s.rows);
+const words = ['No', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten', 'Eleven', 'Twelve', 'Thirteen'];
 const count = words[guides.length] ?? String(guides.length);
+const topicCount = (words[topics.length] ?? String(topics.length)).toLowerCase();
 /* public sources only: the site's own dataset file is a derived source, not a public one */
 const sources = new Set(guides.flatMap((g) => (g.entry.data as any).sources.map((s: any) => s.url)).filter((u: string) => !u.startsWith(SITE))).size;
-const latest = items.map((i) => i.checked).sort().at(-1) ?? '';
+const latest = guides.map((g) => (g.entry.data as any).updated as string).sort().at(-1) ?? '';
 const { rows } = buildRows(new Map((providers as any[]).map((r) => [r.id, r]))) as { rows: any[] };
+const filter = guides.length >= GUIDE_FILTER_FROM;
+const index = topics.map((t) => ({ slug: t.slug, name: t.name, no: t.no, count: t.guides.length, href: `#t-${t.slug}` }));
 
 const title = 'Northern Colorado Turf Guides: Rules, Rebates, Water | NoCo Turf Co.';
 const description = 'Artificial turf rules town by town, HOA rights, rebates, water savings and what moves a quote in Northern Colorado. Every guide cites its sources, dated.';
 const crumbs = [{ name: 'Guides', path: '/guides/' }];
-const graph = items.length === 0 ? [] : [{
-  '@type': 'ItemList', '@id': `${SITE}/guides/#list`, name: 'Northern Colorado artificial turf guides',
-  itemListElement: items.map((it, i) => ({ '@type': 'ListItem', position: i + 1, name: it.title, url: `${SITE}/guides/${it.id}/` })),
-}];
+const entity = businessName && phone ? { publisher: BUSINESS_REF } : {};
+const graph = items.length === 0 ? [] : [
+  {
+    '@type': 'CollectionPage', '@id': `${SITE}/guides/#collection`, url: `${SITE}/guides/`, name: 'Northern Colorado artificial turf guides',
+    description, inLanguage: 'en-US', mainEntity: { '@id': `${SITE}/guides/#list` },
+    hasPart: topics.map((t) => ({ '@id': `${SITE}/guides/${t.slug}/#collection` })), ...entity,
+  },
+  {
+    '@type': 'ItemList', '@id': `${SITE}/guides/#list`, name: 'Northern Colorado artificial turf guides', numberOfItems: items.length,
+    itemListElement: items.map((it, i) => ({ '@type': 'ListItem', position: i + 1, name: it.title, url: `${SITE}/guides/${it.id}/` })),
+  },
+];
 ---
 <Base title={title} description={description} crumbs={crumbs} graph={graph}>
   <PageHero label="Guides · Northern Colorado" crumbs={crumbs} compact lede={items.length
-    ? `${count} guides for Northern Colorado homeowners: what the law and your town allow, what an HOA can still require, which rebates exist, what your lawn’s water is worth, and what moves a quote.`
+    ? `${count} guides for Northern Colorado homeowners, in ${topicCount} ${topics.length === 1 ? 'topic' : 'topics'}. Each opens with its short answer and lists every source with the date it was checked.`
     : 'The guides to turf rules, HOA approval, rebates, water savings and cost are being checked against their sources before they go up.'}>
-    Turf rules, rebates and water math, <PaintWord now>checked at the source.</PaintWord>
+    Questions about turf, answered from sources <PaintWord now>you can check.</PaintWord>
     <div class="hrec" slot="after">
       {items.length > 0 && <div class="hrec__row">
         <p class="hrec__c"><span class="hrec__k">Checked</span> <time class="hrec__v num" datetime={latest}>{latest}</time></p>
@@ -61,39 +84,86 @@ const graph = items.length === 0 ? [] : [{
   </PageHero>
 
   {items.length > 0 && <>
-  <section class="section gidx" aria-labelledby="gidx-h">
+  <section class="section ghub" aria-labelledby="ghub-h" data-ghub>
     <div class="wrap">
       <header class="shead shead--split">
         <div>
           <p class="label">The guides</p>
-          <h2 id="gidx-h">{count} questions to settle <PaintWord>before you dig.</PaintWord></h2>
+          <h2 id="ghub-h">{count} questions to settle <PaintWord>before you dig.</PaintWord></h2>
         </div>
-        <p class="lede">Each guide opens with its short answer, printed here. The rest of the page is the working: the table, the statute, the rate, and the date it was checked.</p>
+        <p class="lede">{filter
+          ? 'Pick a topic, or type a word to find your question. Each guide opens with its short answer; the rest of its page is the working, with the date it was checked.'
+          : 'Each guide opens with its short answer. The rest of the page is the working: the table, the statute, the rate, and the date it was checked.'}</p>
       </header>
 
-      <ol class="gidx__list" role="list">
-        {items.map((it) => (
-          <li class="gidx__item">
-            <article class="gidx__card rise" aria-labelledby={`gidx-${it.id}`}>
-              <div class="gidx__side">
-                <span class="gidx__no num" aria-hidden="true">{it.no}</span>
-                <span class="gidx__glyph"><GuideGlyph id={it.id} /></span>
+      <div class:list={['ghub__top', { 'ghub__top--find': filter }]} id="topics">
+        {filter && (
+          <div class="gfind" data-gfind hidden>
+            <label class="label" for="gfind-q">Find a guide</label>
+            <div class="gfind__box">
+              <svg class="gfind__icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" /><path d="m15.5 15.5 5 5" /></svg>
+              <input id="gfind-q" class="gfind__in" type="search" autocomplete="off" spellcheck="false" placeholder="hail, dog, HOA, rebate…" aria-describedby="gfind-status" data-gfind-q />
+            </div>
+            <p class="gfind__status" id="gfind-status" role="status" aria-live="polite" data-gfind-status>{guides.length} guides in {topics.length} topics.</p>
+          </div>
+        )}
+        <GuideTopicIndex topics={index} label="Guide topics" />
+      </div>
+
+      <div class="ghub__topics">
+        {sections.map((s) => (
+          <section class="gtopic" id={`t-${s.slug}`} aria-labelledby={`t-${s.slug}-h`} data-gtopic={s.slug}>
+            <header class="gtopic__head">
+              <span class="gtopic__glyph"><GuideGlyph topic={s.slug} /></span>
+              <div>
+                <p class="label">Topic {pad(s.no)} · {s.rows.length} {s.rows.length === 1 ? 'guide' : 'guides'}</p>
+                <h3 id={`t-${s.slug}-h`} class="gtopic__h"><a href={`/guides/${s.slug}/`}>{s.name}</a></h3>
+                <a class="gtopic__all" href={`/guides/${s.slug}/`}>{s.rows.length === 1 ? 'Its short answer' : s.rows.length === 2 ? 'Both short answers' : `All ${s.rows.length} short answers`}<Icon name="arrow" size={16} /></a>
               </div>
-              <div class="gidx__head">
-                <p class="label">{it.kind}</p>
-                <h3 id={`gidx-${it.id}`}><a class="gidx__link" href={`/guides/${it.id}/`}>{it.title}</a></h3>
-              </div>
-              <div class="gidx__ans">
-                <p class="gidx__q">{it.q}</p>
-                <p class="gidx__a">{it.a}</p>
-                <p class="gidx__meta"><span>Checked <time datetime={it.checked}>{it.checked}</time> · {it.sources} sources</span><span class="gidx__cta" aria-hidden="true">{it.cta}<Icon name="arrow" size={18} /></span></p>
-              </div>
-            </article>
-          </li>
+            </header>
+            <ol class="gq" role="list">
+              {s.rows.map((r) => (
+                <li class="gq__i" data-gq={r.find}>
+                  <a class="gq__a" href={`/guides/${r.id}/`}>
+                    <span class="gq__no num" aria-hidden="true">{r.no}</span>
+                    <span class="gq__t"><span class="gq__q">{r.q}</span><span class="gq__meta">{r.kind} · {r.title}</span></span>
+                    <Icon name="arrow" size={18} class="gq__go" />
+                  </a>
+                </li>
+              ))}
+            </ol>
+          </section>
         ))}
-      </ol>
+      </div>
+      {filter && <p class="gfind__none" data-gfind-none hidden>No guide matches that yet. Try one shorter word{phoneHref && <>, or <a href={phoneHref} data-cta="guides-find-call">call <span class="num">{phoneDisplay}</span></a> and ask</>}.</p>}
     </div>
   </section>
+  {filter && (
+    <script is:inline>
+      (function () {
+        var hub = document.querySelector('[data-ghub]'), box = hub && hub.querySelector('[data-gfind]');
+        if (!box) return;
+        var q = box.querySelector('[data-gfind-q]'), status = box.querySelector('[data-gfind-status]'), none = hub.querySelector('[data-gfind-none]');
+        var rows = [].slice.call(hub.querySelectorAll('[data-gq]')), topics = [].slice.call(hub.querySelectorAll('[data-gtopic]'));
+        var text = rows.map(function (r) { return (r.textContent + ' ' + r.getAttribute('data-gq')).toLowerCase(); });
+        var first = status.textContent;
+        box.hidden = false;
+        function run() {
+          var words = q.value.toLowerCase().trim().split(/\s+/).filter(Boolean), shown = 0;
+          rows.forEach(function (r, i) { var hit = words.every(function (w) { return text[i].indexOf(w) >= 0; }); r.hidden = !hit; if (hit) shown++; });
+          topics.forEach(function (t) {
+            var n = t.querySelectorAll('[data-gq]:not([hidden])').length, cell = hub.querySelector('[data-gti="' + t.getAttribute('data-gtopic') + '"]');
+            t.hidden = n === 0;
+            if (cell) { cell.querySelector('[data-gti-count]').textContent = n; cell.toggleAttribute('data-empty', n === 0); }
+          });
+          none.hidden = shown > 0;
+          status.textContent = words.length ? shown + ' of ' + rows.length + ' guides match “' + q.value.trim() + '”.' : first;
+        }
+        q.addEventListener('input', run);
+        q.addEventListener('keydown', function (e) { if (e.key === 'Escape' && q.value) { q.value = ''; run(); } });
+      })();
+    </script>
+  )}
 
   <section class="section ground-2 hsrc" aria-labelledby="hsrc-h">
     <div class="wrap hsrc__grid">
@@ -128,7 +198,7 @@ const graph = items.length === 0 ? [] : [{
     .hrec__c { margin-right: 0; padding: 10px 12px 10px 0; border-right: 0; border-bottom: 1px solid var(--line); }
   }
   .hrec__call { margin: 0; font-size: var(--fs-small); color: var(--ink-2); }
-  .hrec__call a { display: inline-flex; align-items: center; min-height: 44px; font-weight: 700; color: var(--ink); text-decoration-color: var(--paint); text-decoration-thickness: 2px; }
+  .hrec__call a { display: inline-flex; align-items: center; gap: 0.3em; min-height: 44px; font-weight: 700; color: var(--ink); text-decoration-color: var(--paint); text-decoration-thickness: 2px; }
 
   /* section head (the homepage's .shead, same rhythm) */
   .shead { display: grid; gap: 16px; margin-bottom: clamp(36px, 5vw, 72px); }
@@ -137,40 +207,60 @@ const graph = items.length === 0 ? [] : [{
   .shead--split .lede { margin: 0; }
   @media (max-width: 899px) { .shead--split { grid-template-columns: 1fr; } }
 
-  /* the index */
-  .gidx__list { list-style: none; border-top: 2px solid var(--ink); }
-  .gidx__item { border-bottom: 1px dashed rgb(var(--ink-rgb) / 0.3); }
-  .gidx__card { position: relative; display: grid; grid-template-columns: 188px minmax(0, 0.9fr) minmax(0, 1.1fr); gap: 20px clamp(24px, 3vw, 56px);
-    padding: clamp(24px, 2.6vw, 36px) 0; align-items: start; transition: background-color var(--t2) var(--ease); }
-  .gidx__card:hover { background: linear-gradient(90deg, transparent, rgb(var(--ink-rgb) / 0.03) 10%, rgb(var(--ink-rgb) / 0.03) 90%, transparent); }
-  .gidx__side { display: grid; grid-template-columns: 40px 1fr; gap: 14px; align-items: start; }
-  .gidx__no { font-family: var(--font-display); font-weight: 800; font-stretch: 110%; font-size: 0.95rem; color: var(--ink-3); padding-top: 4px; }
-  .gidx__glyph { display: block; aspect-ratio: 4 / 3; padding: 10px; border-radius: var(--r-control); background: var(--slab); transition: background-color var(--t2) var(--ease); }
-  .gidx__card:hover .gidx__glyph { background: var(--slab-2); }
-  .gidx__head .label { margin: 2px 0 10px; }
-  .gidx__head h3 { font-size: clamp(1.45rem, 1.1rem + 1.3vw, 2.2rem); font-weight: 800; font-stretch: 112%; letter-spacing: -0.03em; line-height: 1.04; max-width: 18ch; }
-  .gidx__link { text-decoration: none; }
-  .gidx__link::after { content: ''; position: absolute; inset: 0; }
-  .gidx__card:hover .gidx__link { text-decoration: underline; text-decoration-color: var(--paint); text-decoration-thickness: 3px; text-underline-offset: 0.14em; }
-  .gidx__link:focus-visible { outline: none; }
-  .gidx__card:has(.gidx__link:focus-visible) { outline: 3px solid var(--paint); outline-offset: 4px; border-radius: 4px; }
-  .gidx__q { margin: 0 0 8px; font-family: var(--font-display); font-weight: 720; font-stretch: 104%; font-size: 1.1rem; letter-spacing: -0.015em; line-height: 1.25; }
-  .gidx__a { margin: 0; color: var(--ink-2); font-size: var(--fs-small); max-width: 60ch; }
-  .gidx__meta { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 20px; margin: 16px 0 0; font-size: 0.84rem; color: var(--ink-3); }
-  .gidx__cta { display: inline-flex; align-items: center; gap: 10px; font-family: var(--font-display); font-weight: 720; font-stretch: 104%; font-size: 0.95rem; color: var(--ink); }
-  .gidx__cta :global(svg) { width: 40px; height: 40px; padding: 11px; border-radius: 50%; box-shadow: inset 0 0 0 1.5px var(--line); transition: background-color var(--t2) var(--ease), box-shadow var(--t2) var(--ease); }
-  .gidx__card:hover .gidx__cta :global(svg) { background: var(--paint); box-shadow: none; }
-  @media (max-width: 1099px) {
-    .gidx__card { grid-template-columns: 120px minmax(0, 1fr); }
-    .gidx__side { grid-row: span 2; grid-template-columns: 1fr; gap: 8px; }
-    .gidx__ans { grid-column: 2; }
+  /* the topic index, and the filter beside it */
+  .ghub__top { display: grid; gap: 28px; scroll-margin-top: calc(var(--header-h) + 16px); }
+  @media (min-width: 1100px) { .ghub__top--find { grid-template-columns: minmax(260px, 0.34fr) minmax(0, 1fr); gap: clamp(32px, 4vw, 64px); align-items: start; } }
+  .gfind { display: grid; gap: 10px; align-content: start; }
+  .gfind[hidden] { display: none; }
+  .gfind .label { margin: 0; }
+  .gfind__box { position: relative; }
+  .gfind__icon { position: absolute; left: 14px; top: 50%; translate: 0 -50%; fill: none; stroke: var(--ink-3); stroke-width: 1.8; stroke-linecap: round; pointer-events: none; }
+  .gfind__in { width: 100%; min-height: 52px; padding: 0 16px 0 44px; border: 0; border-radius: var(--r-control); background: var(--ground-2);
+    box-shadow: inset 0 0 0 1.5px rgb(var(--ink-rgb) / 0.22); font: 500 1.02rem/1.2 var(--font-body); color: var(--ink); transition: box-shadow var(--t2) var(--ease); }
+  .gfind__in::placeholder { color: var(--ink-3); }
+  .gfind__in:hover { box-shadow: inset 0 0 0 1.5px rgb(var(--ink-rgb) / 0.4); }
+  .gfind__in:focus-visible { outline: none; box-shadow: inset 0 0 0 2px var(--ink), 0 0 0 3px rgb(var(--paint-rgb) / 0.55); }
+  .gfind__status { margin: 0; font-size: 0.86rem; color: var(--ink-3); }
+  .gfind__none { margin: 40px 0 0; padding: 18px 20px; border-radius: var(--r-panel); background: var(--ground-2); color: var(--ink-2); max-width: 64ch; }
+  .gfind__none[hidden] { display: none; }
+  .gfind__none a { font-weight: 700; color: var(--ink); text-decoration-color: var(--paint); text-decoration-thickness: 2px; }
+
+  /* one section per topic: the head on the left, its questions on the right */
+  .ghub__topics { margin-top: clamp(48px, 6vw, 96px); display: grid; gap: clamp(48px, 5vw, 80px); }
+  .gtopic { display: grid; grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.4fr); gap: 20px clamp(32px, 5vw, 96px); padding-top: 22px; border-top: 2px solid var(--ink);
+    scroll-margin-top: calc(var(--header-h) + 16px); }
+  .gtopic[hidden] { display: none; }
+  .gtopic__head { display: grid; grid-template-columns: 96px minmax(0, 1fr); gap: 18px; align-items: start; align-self: start; }
+  .gtopic__glyph { display: block; aspect-ratio: 4 / 3; padding: 8px; border-radius: var(--r-control); background: var(--slab); }
+  .gtopic__head .label { margin: 0 0 8px; }
+  .gtopic__h { font-size: clamp(1.35rem, 1.1rem + 0.9vw, 1.9rem); font-weight: 800; font-stretch: 112%; letter-spacing: -0.028em; line-height: 1.06; }
+  .gtopic__h a { text-decoration: none; }
+  .gtopic__h a:hover { text-decoration: underline; text-decoration-color: var(--paint); text-decoration-thickness: 3px; text-underline-offset: 0.14em; }
+  .gtopic__all { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; margin-top: 6px; font-family: var(--font-display); font-weight: 700; font-stretch: 104%;
+    font-size: 0.92rem; color: var(--ink-2); text-decoration: none; }
+  .gtopic__all:hover { color: var(--ink); text-decoration: underline; text-decoration-color: var(--paint); text-decoration-thickness: 2px; text-underline-offset: 0.2em; }
+  /* a long topic keeps its name in view while its questions scroll past */
+  @media (min-width: 900px) { .gtopic__head { position: sticky; top: calc(var(--header-h) + 24px); } }
+  @media (max-width: 899px) {
+    .gtopic { grid-template-columns: 1fr; }
+    .gtopic__head { grid-template-columns: 72px minmax(0, 1fr); }
   }
-  @media (max-width: 599px) {
-    .gidx__card { grid-template-columns: 76px minmax(0, 1fr); gap: 14px 16px; }
-    .gidx__glyph { padding: 6px; }
-    .gidx__ans { grid-column: 1 / -1; }
-    .gidx__side { grid-row: auto; }
-  }
+
+  /* a guide, compactly: number, the question as the link, the guide's name and kind */
+  .gq { list-style: none; }
+  .gq__i { border-bottom: 1px dashed rgb(var(--ink-rgb) / 0.3); }
+  .gq__i:first-child { border-top: 1px dashed rgb(var(--ink-rgb) / 0.3); }
+  .gq__i[hidden] { display: none; }
+  .gq__a { display: grid; grid-template-columns: 34px minmax(0, 1fr) 40px; gap: 14px; align-items: center; min-height: 56px; padding: 14px 0; text-decoration: none; }
+  .gq__no { align-self: start; padding-top: 3px; font-family: var(--font-display); font-weight: 760; font-stretch: 100%; font-size: 0.8rem; color: var(--ink-3); }
+  .gq__t { display: grid; gap: 3px; }
+  .gq__q { font-family: var(--font-display); font-weight: 700; font-stretch: 104%; font-size: 1.06rem; letter-spacing: -0.012em; line-height: 1.28; }
+  .gq__meta { font-size: 0.86rem; color: var(--ink-3); }
+  .gq__a :global(.gq__go) { width: 40px; height: 40px; padding: 11px; border-radius: 50%; color: var(--ink-3); box-shadow: inset 0 0 0 1.5px var(--line);
+    transition: background-color var(--t2) var(--ease), box-shadow var(--t2) var(--ease), color var(--t2) var(--ease); }
+  .gq__a:hover .gq__q { text-decoration: underline; text-decoration-color: var(--paint); text-decoration-thickness: 2px; text-underline-offset: 0.18em; }
+  .gq__a:hover :global(.gq__go) { background: var(--paint); color: var(--ink); box-shadow: none; }
+  @media (max-width: 599px) { .gq__a { grid-template-columns: 28px minmax(0, 1fr); } .gq__a :global(.gq__go) { display: none; } }
 
   /* receipts */
   .hsrc__grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(32px, 6vw, 110px); align-items: end; }

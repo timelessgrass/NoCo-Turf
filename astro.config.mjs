@@ -14,4 +14,8 @@ export default defineConfig({
      so the whole declaration is dropped and every scroll-driven animation silently dies in production while
      working in dev (dev doesn't minify). tests/css-timeline.test.mjs guards this in dist/. */
   vite: { build: { cssMinify: 'esbuild' } },
+  /* Topic hubs (/guides/[topic]) and guides (/guides/[id]) share one namespace. Two routes claiming one
+     path is a build error, not a warning that silently drops a page (the routes also throw first, with a
+     plainer message: src/lib/content-policy.mjs assertGuideNamespace). */
+  prerenderConflictBehavior: 'error',
 });

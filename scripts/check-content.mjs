@@ -5,12 +5,21 @@
  * bans inverted: here "Timeless", Denver-metro towns and TIMELESS phones are the leaks.
  *
  *   node scripts/check-content.mjs                    # every record, similarity, per-town gate report
- *   node scripts/check-content.mjs <file>...          # just these files (no similarity check)
+ *   node scripts/check-content.mjs <file>...          # just these files; a guide is also checked for overlap
+ *                                                     # against every other guide on disk, and its own layer
+ *                                                     # file (src/data/layers/guides/{id}.json) is gated
  *   node scripts/check-content.mjs --root <dir>       # read content/layers/claims under <dir> (fixtures)
  *
- * Reads src/content/{towns/*.json, guides/*.md, services/*.md, work/*.json}, src/data/layers/*.json and
- * .site/truth/claims.json. Code (the collection schemas, territory, the town gate, services.ts, photos.ts)
- * always comes from this repo, so a fixture root only needs the data it is testing.
+ * Reads src/content/{towns/*.json, guides/*.md, services/*.md, work/*.json}, src/data/layers/*.json,
+ * src/data/layers/guides/*.json and .site/truth/claims.json. Code (the collection schemas, territory, the
+ * town gate, the guide topics, services.ts, photos.ts) always comes from this repo, so a fixture root only
+ * needs the data it is testing.
+ *
+ * Guide records (src/content/guides/{id}.md) also FAIL on: a `topic` that is not in src/data/guide-topics.ts;
+ * an id that equals a topic slug (the two share /guides/); a display.paint phrase that is not in the H1;
+ * related services or towns that don't exist; the same title or the same answer.question (normalized) as
+ * another guide; more than 25% of five-word runs shared with another guide (WARN above 15%), reported
+ * with the pair and a few of the shared runs; and any check-layers rule broken in the guide's own layer file.
  *
  * Service records (src/content/services/{slug}.md) get the guide rules plus their own: the file is named
  * for a services.ts slug; photos are photos.ts ids; guides are guide records that exist; the title ends
@@ -23,7 +32,8 @@
  *   - anything src/content.config.ts would reject (the real schemas are loaded, not a hand copy)
  *   - a town slug outside src/data/territory.mjs NOCO_TOWNS, a region that disagrees with it, a file
  *     name that is not {slug}.json, a town listed as its own neighbour
- *   - a layerRefs id missing from src/data/layers/*.json (a WARN while that directory is empty)
+ *   - a layerRefs id missing from src/data/layers/*.json and guides/*.json (a WARN while both are empty)
+ *   - the same layer id in two layer files (check-layers.mjs fails it too)
  *   - a number of 11+ or with a decimal that is not in a referenced layer record (numbers, fact, quote,
  *     source label, dates) or the record's own source labels (a WARN while the layers are empty)
  *   - an outside link in the copy that is not among the record's sources; an internal link without
@@ -36,7 +46,7 @@
  *     entry covers the exact wording, or the phrase is quoted from a referenced layer record
  *   - demographic or wealth language (median income, affluent, wealthy, upscale, home values, …),
  *     profanity
- *   - two town records sharing more than 25% of their five-word runs (WARN above 15%)
+ *   - two town records, or two guide records, sharing more than 25% of their five-word runs (WARN above 15%)
  *   - a PUBLISHED town that fails src/lib/town-gate.mjs (≥3 blocks, ≥2 own, a photo); for a draft or
  *     review record the same result is a WARN, printed with its needsFromBrian list
  * WARN: street-address-shaped text, other phone numbers, stale source dates, a layer applied to a
@@ -49,6 +59,8 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 import { NOCO_TOWNS, TIMELESS_TOWNS, townBySlug, townEligibility } from '../src/data/territory.mjs';
 import { townGate } from '../src/lib/town-gate.mjs';
 import { CONTENT_STATUSES, isPublished } from '../src/lib/content-policy.mjs';
+import { GUIDE_TOPICS, topicBySlug } from '../src/data/guide-topics.ts';
+import { checkRecord, checkGuideFile, loadLayerFiles, todayISO, GUIDE_LAYER_DIR } from './check-layers.mjs';
 
 export const REPO = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..'); // the repo path has spaces
 
@@ -222,7 +234,12 @@ export async function loadCollections() {
   src = src.replace(/import\s*\{([^}]*)\}\s*from\s*['"]astro\/loaders['"];?/, (_, names) =>
     names.split(',').map((s) => s.trim()).filter(Boolean).map((raw) => `const ${raw.split(/\s+as\s+/).pop().trim()} = (o) => ({ loaderOptions: o });`).join('\n'));
   src = src.replace(/(from\s*|import\s*)(['"])astro\/zod\2/g, `$1${JSON.stringify(zodUrl)}`);
-  src = src.replace(/(from\s*|import\s*\(?\s*)(['"])(\.{1,2}\/[^'"]+)\2/g, (_, pre, q, rel) => `${pre}${JSON.stringify(pathToFileURL(path.resolve(path.dirname(configPath), rel)).href)}`);
+  // relative imports become absolute URLs; an extensionless one ('./data/guide-topics') resolves the way Vite would
+  const resolveRel = (rel) => {
+    const abs = path.resolve(path.dirname(configPath), rel);
+    return fs.existsSync(abs) ? abs : ['.ts', '.mts', '.mjs', '.js'].map((x) => abs + x).find((p) => fs.existsSync(p)) ?? abs;
+  };
+  src = src.replace(/(from\s*|import\s*\(?\s*)(['"])(\.{1,2}\/[^'"]+)\2/g, (_, pre, q, rel) => `${pre}${JSON.stringify(pathToFileURL(resolveRel(rel)).href)}`);
   src = `import { z as __z } from ${JSON.stringify(zodUrl)};\n${src}`;
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'noco-content-config-'));
   const file = path.join(dir, 'content.config.mts');
@@ -252,22 +269,24 @@ export async function loadCollections() {
 
 // ───────────────────────────── data the records draw on ─────────────────────────────
 
+/** Every layer record by id: src/data/layers/*.json, then the guide-owned src/data/layers/guides/*.json
+ *  (the same reader check-layers.mjs uses). A file that won't parse is check-layers' to fail; an id in two
+ *  files fails here too, because a layerRefs lookup would silently pick one of them. */
 function loadLayers(root) {
   const dir = path.join(root, 'src/data/layers');
-  const files = fs.existsSync(dir) ? fs.readdirSync(dir).filter((f) => f.endsWith('.json')).sort() : [];
   const byId = new Map();
   const problems = [];
-  for (const f of files) {
-    let arr;
-    try { arr = JSON.parse(read(path.join(dir, f))); } catch (e) { problems.push(`src/data/layers/${f} is not valid JSON (${e.message}) — scripts/check-layers.mjs owns this`); continue; }
-    if (!Array.isArray(arr)) { problems.push(`src/data/layers/${f} is not a JSON array`); continue; }
-    for (const rec of arr) {
-      if (!rec || typeof rec.id !== 'string') { problems.push(`src/data/layers/${f}: a record without an id`); continue; }
-      if (byId.has(rec.id)) problems.push(`duplicate layer id ${rec.id} (${byId.get(rec.id)._file} and ${f})`);
-      byId.set(rec.id, { ...rec, _file: f });
+  const dupes = [];
+  const { files, errors } = fs.existsSync(dir) ? loadLayerFiles(dir) : { files: [], errors: [] };
+  for (const e of errors) problems.push(`src/data/layers/${e} — scripts/check-layers.mjs owns this`);
+  for (const { file, records } of files) {
+    for (const rec of records) {
+      if (!rec || typeof rec.id !== 'string') { problems.push(`src/data/layers/${file}: a record without an id`); continue; }
+      if (byId.has(rec.id)) dupes.push(`duplicate layer id ${rec.id} (src/data/layers/${byId.get(rec.id)._file} and src/data/layers/${file}) — ids are unique across every layer file`);
+      else byId.set(rec.id, { ...rec, _file: file });
     }
   }
-  return { byId, files, empty: byId.size === 0, problems };
+  return { byId, files: files.map((f) => f.file), fileRecords: new Map(files.map((f) => [f.file, f.records])), empty: byId.size === 0, problems, dupes };
 }
 
 /**
@@ -315,9 +334,27 @@ function townSourceUrls(d) {
     .filter((u) => typeof u === 'string');
 }
 function guideCopy(fm, body) {
-  return [fm.title, fm.description, fm.h1, fm.answer?.question, fm.answer?.answer, ...(fm.faq ?? []).flatMap((f) => [f?.q, f?.a]), body]
+  const dsp = fm.display ?? {};
+  return [fm.title, fm.description, fm.h1, dsp.crumb, dsp.faqH2, dsp.cta?.title, dsp.cta?.payoff, dsp.cta?.lede,
+    fm.answer?.question, fm.answer?.answer, ...(fm.faq ?? []).flatMap((f) => [f?.q, f?.a]), body]
     .filter((x) => typeof x === 'string').join('\n');
 }
+/** What a guide says, for the overlap check: the answer, the FAQ answers and the body (not the headline). */
+function guideBody(fm, body) {
+  return [fm.answer?.answer, ...(fm.faq ?? []).map((f) => f?.a), body].filter((x) => typeof x === 'string').join('\n');
+}
+/** A title or question as the duplicate check compares it: lower case, punctuation and the brand suffix out. */
+export const sameText = (s) => lowerWords(String(s ?? '').replace(/\s*\|\s*NoCo Turf Co\.?\s*$/, '')).replace(/[$%#.]/g, ' ').replace(/\s+/g, ' ').trim();
+/** One guide file, parsed for the overlap and duplicate checks (null when it can't be read). */
+function guideDoc(file, yaml) {
+  const src = read(file);
+  const fm = src.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?/);
+  if (!fm || !yaml) return null;
+  let d;
+  try { d = yaml.load(fm[1]) ?? {}; } catch { return null; }
+  return docOf(path.basename(file, '.md'), d, src.slice(fm[0].length));
+}
+const docOf = (id, d, body) => ({ id, title: sameText(d.title), question: sameText(d.answer?.question), sh: shingles(guideBody(d, body)) });
 function serviceCopy(fm, body) {
   return [fm.title, fm.description, fm.h1, fm.lede, fm.answer?.question, fm.answer?.answer, ...(fm.faq ?? []).flatMap((f) => [f?.q, f?.a]), body]
     .filter((x) => typeof x === 'string').join('\n');
@@ -420,7 +457,7 @@ function checkLayerRefs(refs, layers, out, { slug, sourceUrls, published }) {
   for (const id of new Set(refs)) {
     if (layers.empty) continue;
     const rec = layers.byId.get(id);
-    if (!rec) { out.push(['FAIL', `layerRefs id "${id}" is not in src/data/layers/*.json`]); continue; }
+    if (!rec) { out.push(['FAIL', `layerRefs id "${id}" is not in src/data/layers/*.json or src/data/layers/guides/*.json`]); continue; }
     recs.push(rec);
     if (rec.status === 'UNVERIFIED') out.push([published ? 'FAIL' : 'WARN', `layer ${id} is UNVERIFIED — it never renders`]);
     if (slug && Array.isArray(rec.applies_to) && !rec.applies_to.includes('*') && !rec.applies_to.includes(slug)) {
@@ -450,6 +487,50 @@ function schemaIssues(schema, data, out) {
   for (const i of r.error.issues.slice(0, 12)) out.push(['FAIL', `schema: ${i.path.join('.') || '(root)'} — ${i.message}`]);
   if (r.error.issues.length > 12) out.push(['FAIL', `schema: …and ${r.error.issues.length - 12} more`]);
 }
+
+/** "It's" and "It’s" read the same: the H1 is set with curly apostrophes, frontmatter is usually typed straight. */
+const apos = (s) => normalise(s);
+const KEBAB = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+
+/** The topic registry (src/data/guide-topics.ts) is copy too: its hub titles, descriptions, H1s and ledes ship. */
+function checkTopics(out, claimsCtx) {
+  const seen = new Set();
+  for (const t of GUIDE_TOPICS) {
+    const at = `topic ${t.slug}`;
+    if (!KEBAB.test(t.slug)) out.push(['FAIL', `${at}: slug must be kebab-case`]);
+    if (seen.has(t.slug)) out.push(['FAIL', `${at}: listed twice`]);
+    seen.add(t.slug);
+    for (const k of ['name', 'label', 'title', 'description', 'h1', 'lede', 'faqH2']) if (typeof t[k] !== 'string' || !t[k].trim()) out.push(['FAIL', `${at}: ${k} is empty`]);
+    if (!t.cta?.title || !t.cta?.payoff) out.push(['FAIL', `${at}: cta needs a title and a payoff`]);
+    if (t.description?.length > 160) out.push(['FAIL', `${at}: description is ${t.description.length} characters — 160 at most`]);
+    if (t.title?.length > 70) out.push(['FAIL', `${at}: title is ${t.title.length} characters — 70 at most`]);
+    if (t.title && !/\s\|\sNoCo Turf Co\.$/.test(t.title)) out.push(['FAIL', `${at}: title must end with "| NoCo Turf Co."`]);
+    if (t.paint && !apos(t.h1).includes(apos(t.paint))) out.push(['FAIL', `${at}: paint "${t.paint}" is not in the h1`]);
+  }
+  const copy = GUIDE_TOPICS.flatMap((t) => [t.name, t.label, t.title, t.description, t.h1, t.lede, t.faqH2, t.cta?.title, t.cta?.payoff])
+    .filter((x) => typeof x === 'string').join('\n');
+  checkLeaks(copy, out);
+  checkClaims(copy, out, { ...claimsCtx, layerWords: '', layerNumbers: new Set() });
+  checkNumbers(copy, new Set(), out, false);
+}
+
+/** Five-word-run overlap and exact duplicates between two guides. Returns [level, message] or nothing. */
+function guidePair(a, b) {
+  const out = [];
+  if (a.title && a.title === b.title) out.push(['FAIL', `guides ${a.id} and ${b.id} have the same title — each guide answers its own question`]);
+  if (a.question && a.question === b.question) out.push(['FAIL', `guides ${a.id} and ${b.id} ask the same answer.question ("${a.question}") — merge them, or make each question its own`]);
+  const sim = jaccard(a.sh, b.sh);
+  if (sim > 0.15) {
+    const shared = [...a.sh].filter((x) => b.sh.has(x));
+    const eg = shared.slice(0, 3).map((x) => `"…${x}…"`).join(', ');
+    const pair = `${a.id} ~ ${b.id}: ${(sim * 100).toFixed(1)}% of five-word runs shared (${shared.length} runs)`;
+    if (sim > 0.25) out.push(['FAIL', `guide overlap ${pair} — limit 25%. Shared runs include ${eg}. Rewrite the shared passages in this guide's own words, or link to the other guide instead of repeating it`]);
+    else out.push(['WARN', `guide overlap ${pair} — warn above 15%. Shared runs include ${eg}`]);
+  }
+  return out;
+}
+
+const LAYER_TODAY = process.env.LAYERS_TODAY || todayISO();
 
 // ───────────────────────────── the run ─────────────────────────────
 
@@ -482,6 +563,7 @@ export async function run({ root = REPO, files = [], log = console.log } = {}) {
   const approved = claims.approved;
   if (claims.problem) { log(`! WARN ${claims.problem}`); warns++; }
   for (const p of layers.problems) { log(`! WARN ${p}`); warns++; }
+  for (const d of layers.dupes) { log(`x FAIL ${d}`); fails++; }
   if (layers.empty) { log('! WARN src/data/layers/ has no records yet — layerRefs and number tracing are warnings until it does'); warns++; }
 
   const content = path.join(root, 'src/content');
@@ -504,7 +586,17 @@ export async function run({ root = REPO, files = [], log = console.log } = {}) {
   }
 
   const bodies = [];
+  const guideDocs = [];
   const gate = {}; // slug → { status, blocks, own, photo, pass, reasons, needs }
+
+  if (!named) {
+    const out = [];
+    checkTopics(out, { approved, unapproved: claims.unapproved });
+    const f = out.filter((o) => o[0] === 'FAIL').length;
+    fails += f; warns += out.length - f;
+    log(`${f ? 'x FAIL' : out.length ? '! WARN' : 'ok    '} guide-topics [registry] (${GUIDE_TOPICS.length} topics)`);
+    for (const [lvl, msg] of out) log(`     ${lvl === 'FAIL' ? 'x' : '!'} ${msg}`);
+  }
 
   for (const file of list) {
     const kind = kindOf(file);
@@ -566,8 +658,24 @@ export async function run({ root = REPO, files = [], log = console.log } = {}) {
       if (!plainText(body).trim()) out.push(['FAIL', 'the guide has no body']);
       for (const s of d.related?.towns ?? []) if (!townBySlug[s]) out.push(['FAIL', `related town is not a NoCo town: ${s}`]);
       for (const s of d.related?.services ?? []) if (!serviceSlugs.has(s)) out.push(['FAIL', `related service is not in src/data/services.ts: ${s}`]);
+      if (d.topic !== undefined && !topicBySlug[d.topic]) out.push(['FAIL', `topic "${d.topic}" has no entry in src/data/guide-topics.ts — use one of: ${GUIDE_TOPICS.map((t) => t.slug).join(', ')}`]);
+      if (topicBySlug[id]) out.push(['FAIL', `the guide id "${id}" is a topic slug — /guides/${id}/ is that topic's hub; rename the file`]);
+      if (typeof d.display?.paint === 'string' && !apos(d.h1 ?? '').includes(apos(d.display.paint))) {
+        out.push(['FAIL', `display.paint "${d.display.paint}" is not in the h1 — the painted mark goes on a phrase of the H1, word for word`]);
+      }
+      // the guide's own layer file: every check-layers rule, reported with the guide
+      const ownFile = `${GUIDE_LAYER_DIR}/${id}.json`;
+      if (layers.fileRecords.has(ownFile)) {
+        const errors = [], warnings = [];
+        const recs = layers.fileRecords.get(ownFile);
+        checkGuideFile(ownFile, recs, { errors, warnings });
+        for (const r of recs) checkRecord(r, ownFile, { today: LAYER_TODAY, errors, warnings });
+        for (const e of errors) out.push(['FAIL', `layer file: ${e}`]);
+        for (const w of warnings) out.push(['WARN', `layer file: ${w}`]);
+      }
       checkSources(d.sources, out);
       if (!published && (d.needsFromBrian ?? []).length) out.push(['WARN', `needs from Brian: ${d.needsFromBrian.join(' | ')}`]);
+      guideDocs.push(docOf(id, d, body));
     } else if (kind === 'service') {
       copy = serviceCopy(d, body);
       refs = d.layerRefs ?? [];
@@ -635,6 +743,28 @@ export async function run({ root = REPO, files = [], log = console.log } = {}) {
     const words = plainText(copy).split(/\s+/).filter(Boolean).length;
     log(`${f ? 'x FAIL' : w ? '! WARN' : 'ok    '} ${id} [${kind} · ${status}] (${words} words)`);
     for (const [lvl, msg] of out) log(`     ${lvl === 'FAIL' ? 'x' : '!'} ${msg}`);
+  }
+
+  // guides: overlap and duplicates — every pair, or (naming files) each named guide against every other on disk
+  const pairs = [];
+  if (!named) {
+    for (let i = 0; i < guideDocs.length; i++) for (let j = i + 1; j < guideDocs.length; j++) pairs.push([guideDocs[i], guideDocs[j]]);
+  } else if (guideDocs.length) {
+    const corpus = listDir(path.join(content, 'guides'), '.md').map((f) => guideDoc(f, yaml)).filter(Boolean);
+    const done = new Set();
+    for (const a of guideDocs) for (const b of corpus) {
+      const key = [a.id, b.id].sort().join(' ~ ');
+      if (a.id === b.id || done.has(key)) continue;
+      done.add(key);
+      pairs.push([a, b]);
+    }
+    log(`\nGuide overlap: ${guideDocs.map((g) => g.id).join(', ')} against ${corpus.filter((c) => !guideDocs.some((g) => g.id === c.id)).length} other guide(s) on disk`);
+  }
+  for (const [a, b] of pairs) {
+    for (const [lvl, msg] of guidePair(a, b)) {
+      if (lvl === 'FAIL') fails++; else warns++;
+      log(`${lvl === 'FAIL' ? 'x FAIL' : '! WARN'} ${msg}`);
+    }
   }
 
   if (!named) {

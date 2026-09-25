@@ -1,9 +1,17 @@
 ---
 status: draft
+topic: buying
 kind: guide
 title: "What Drives Artificial Turf Cost in Northern Colorado | NoCo Turf Co."
 description: "Why artificial turf quotes differ in Northern Colorado: clay and base prep, lawn removal, drainage, access, edging, pet and putting-green work, HOA steps."
 h1: "Artificial turf cost in Northern Colorado: two yards the same size can need different work"
+display:
+  crumb: "Cost"
+  paint: "different work"
+  faqH2: "Questions about what a quote covers."
+  cta:
+    title: "Every yard prices differently."
+    payoff: "Let's look at yours."
 answer:
   question: "How much does artificial turf cost in Northern Colorado?"
   answer: "It depends on the yard, and this page carries no prices until they come from real Northern Colorado jobs. What moves a quote: Northern Colorado's clay soils and the base and drainage they need, how much lawn comes out, access, edging, pet or putting-green features, and any HOA or town permit steps."

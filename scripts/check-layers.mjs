@@ -1,12 +1,15 @@
 #!/usr/bin/env node
 /**
- * check-layers — the gate on the shared data layer (src/data/layers/*.json).
+ * check-layers — the gate on the shared data layer (src/data/layers/*.json) and the guide-owned layer
+ * files (src/data/layers/guides/{guide-id}.json, one per guide, so parallel writers never share a file).
  *
  * The contract lives in docs/CONTRACTS.md ("Data layer"). Every file is a JSON array of records;
  * every record says one thing a page may say, with the verbatim source sentence, a https source,
  * the date it was checked and every number it uses. This script FAILS the build on:
  *   - a file that is not a JSON array, or a record missing a required field / with a wrong type
- *   - a duplicate id (ids are unique across ALL layer files) or an id that is not kebab-case
+ *   - a duplicate id (ids are unique across ALL layer files, guides/ included) or an id that is not kebab-case
+ *   - in guides/{guide-id}.json: a file name that is not a kebab-case guide id, or a record id that does not
+ *     start with "{guide-id}." (the prefix makes a clash between two writers impossible)
  *   - an applies_to slug that is not a NoCo town in src/data/territory.mjs ("*" = every NoCo town)
  *   - checked older than 365 days (WARN over 180), or a checked date in the future
  *   - a recheck date in the past (the fact has gone stale: re-verify it, then move recheck on)
@@ -17,7 +20,8 @@
  *   - a NoCo town with no ordinance record at all (an honest NOT FOUND record counts)
  * and WARNS on: a town whose ordinance records are all UNVERIFIED, a town with no renderable drought,
  * utility, climate or soil record of its own, a TIMELESS town named in a fact, a `numbers` entry that
- * appears nowhere in the record, and a fact longer than one plain sentence.
+ * appears nowhere in the record, a fact longer than one plain sentence, a guides/ file with no guide record
+ * of that id yet, and any other subdirectory (it is not read).
  *
  * Usage:
  *   node scripts/check-layers.mjs                     # checks src/data/layers against today
@@ -35,7 +39,11 @@ export const ROOT = path.resolve(HERE, '..');
 export const LAYER_DIR = path.join(ROOT, 'src/data/layers');
 
 export const LAYER_FILES = ['state-law.json', 'city-codes.json', 'water-providers.json', 'rebates.json', 'drought-2026.json', 'climate.json', 'soil.json'];
-export const LAYERS = ['state', 'county', 'utility', 'rebate', 'ordinance', 'drought', 'climate', 'soil', 'housing'];
+/** research / product / standard carry the guides' non-legal facts: an agency or university finding, a
+ *  manufacturer's published spec, a test standard (ASTM, CPSC). */
+export const LAYERS = ['state', 'county', 'utility', 'rebate', 'ordinance', 'drought', 'climate', 'soil', 'housing', 'research', 'product', 'standard'];
+/** The one subdirectory that is read: guide-owned records, src/data/layers/guides/{guide-id}.json. */
+export const GUIDE_LAYER_DIR = 'guides';
 export const STATUSES = ['VERIFIED', 'EXTERNAL_SOURCE', 'UNVERIFIED'];
 export const RATE_MODELS = ['tiered', 'flat', 'water-budget', 'allotment'];
 export const REQUIRED = ['id', 'layer', 'applies_to', 'fact', 'quote', 'source_url', 'source_label', 'checked', 'reachable', 'status', 'numbers'];
@@ -211,31 +219,64 @@ export function checkRecord(rec, file, { today, errors, warnings }) {
   }
 }
 
-/** Read every *.json in dir. Returns { files: [{file, records}], errors }. */
+/**
+ * Read every *.json in dir, then every *.json in dir/guides/ (named "guides/{file}"). Returns
+ * { files: [{file, records}], errors, warnings }.
+ */
 export function loadLayerFiles(dir = LAYER_DIR) {
   const errors = [];
+  const warnings = [];
   const files = [];
-  if (!fs.existsSync(dir)) { errors.push(`${dir} does not exist`); return { files, errors }; }
-  const names = fs.readdirSync(dir).filter((f) => f.endsWith('.json')).sort();
+  if (!fs.existsSync(dir)) { errors.push(`${dir} does not exist`); return { files, errors, warnings }; }
+  const entries = fs.readdirSync(dir, { withFileTypes: true });
+  const guideDir = path.join(dir, GUIDE_LAYER_DIR);
+  const names = [
+    ...entries.filter((e) => e.isFile() && e.name.endsWith('.json')).map((e) => e.name).sort(),
+    ...(fs.existsSync(guideDir) ? fs.readdirSync(guideDir).filter((f) => f.endsWith('.json')).sort().map((f) => `${GUIDE_LAYER_DIR}/${f}`) : []),
+  ];
+  for (const e of entries) if (e.isDirectory() && e.name !== GUIDE_LAYER_DIR) warnings.push(`${e.name}/: a subdirectory that is not read — only ${GUIDE_LAYER_DIR}/ holds layer files`);
   for (const f of names) {
     let data;
     try { data = JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')); } catch (e) { errors.push(`${f}: not valid JSON (${e.message})`); continue; }
     if (!Array.isArray(data)) { errors.push(`${f}: must be a JSON array of records`); continue; }
     files.push({ file: f, records: data });
   }
-  return { files, errors };
+  return { files, errors, warnings };
+}
+
+/** The guide id a guides/ file belongs to ("guides/pet-turf-odor.json" → "pet-turf-odor"), else null. */
+export const guideOfFile = (file) => (file.startsWith(`${GUIDE_LAYER_DIR}/`) ? path.basename(file, '.json') : null);
+
+/** The rules only a guide-owned file has: its name is the guide id, and every record id starts "{guide-id}.". */
+export function checkGuideFile(file, records, { guideIds = null, errors, warnings }) {
+  const gid = guideOfFile(file);
+  if (!gid) return;
+  if (!KEBAB.test(gid) || gid.includes('.')) { errors.push(`${file}: the file name must be the guide's id (kebab-case, as in src/content/guides/{id}.md)`); return; }
+  if (guideIds && !guideIds.has(gid)) warnings.push(`${file}: no guide src/content/guides/${gid}.md yet — its records are checked, but nothing cites them`);
+  for (const rec of records) {
+    if (rec && typeof rec.id === 'string' && !rec.id.startsWith(`${gid}.`)) {
+      errors.push(`${file} ${rec.id}: ids in a guide's own file start with "${gid}." (e.g. "${gid}.${rec.id}") so two writers can never pick the same id`);
+    }
+  }
+}
+
+/** Guide ids on disk beside a layer directory (src/data/layers → src/content/guides), or null if there are none to compare. */
+function guideIdsNear(dir) {
+  const g = path.resolve(dir, '../../content/guides');
+  return fs.existsSync(g) ? new Set(fs.readdirSync(g).filter((f) => f.endsWith('.md')).map((f) => f.slice(0, -3))) : null;
 }
 
 /**
  * Run every rule. `expectFiles` (default true) fails when one of the seven contract files is missing.
  * Returns { errors, warnings, stats, records } and never exits — the CLI below decides the exit code.
  */
-export function checkLayers({ dir = LAYER_DIR, today = todayISO(), expectFiles = true, towns = NOCO_TOWNS } = {}) {
+export function checkLayers({ dir = LAYER_DIR, today = todayISO(), expectFiles = true, towns = NOCO_TOWNS, guideIds = guideIdsNear(dir) } = {}) {
   const errors = [];
   const warnings = [];
   if (!isValidDate(today)) throw new Error(`today must be YYYY-MM-DD, got ${today}`);
-  const { files, errors: loadErrors } = loadLayerFiles(dir);
+  const { files, errors: loadErrors, warnings: loadWarnings } = loadLayerFiles(dir);
   errors.push(...loadErrors);
+  warnings.push(...loadWarnings);
   if (expectFiles) {
     const present = new Set(fs.existsSync(dir) ? fs.readdirSync(dir) : []);
     for (const f of LAYER_FILES) if (!present.has(f)) errors.push(`${f}: missing (docs/CONTRACTS.md lists seven layer files)`);
@@ -245,6 +286,7 @@ export function checkLayers({ dir = LAYER_DIR, today = todayISO(), expectFiles =
   const seen = new Map();
   const records = [];
   for (const { file, records: recs } of files) {
+    checkGuideFile(file, recs, { guideIds, errors, warnings });
     for (const rec of recs) {
       checkRecord(rec, file, { today, errors, warnings });
       if (rec && typeof rec.id === 'string') {
@@ -275,7 +317,8 @@ export function checkLayers({ dir = LAYER_DIR, today = todayISO(), expectFiles =
   const byStatus = Object.fromEntries(STATUSES.map((s) => [s, records.filter((r) => r.status === s).length]));
   const upcoming = records.filter((r) => isValidDate(r.recheck) && daysBetween(today, r.recheck) <= 30)
     .map((r) => `${r.recheck} ${r.id}`).sort();
-  return { errors, warnings, records, stats: { files: files.length, records: records.length, byStatus, upcoming } };
+  const guideFiles = files.filter((f) => guideOfFile(f.file)).length;
+  return { errors, warnings, records, stats: { files: files.length, guideFiles, records: records.length, byStatus, upcoming } };
 }
 
 function parseArgs(argv) {
@@ -298,7 +341,7 @@ function main() {
   if (!opts.quiet) for (const w of warnings) log(`! WARN ${w}`);
   for (const e of errors) log(`✗ FAIL ${e}`);
   const s = stats.byStatus;
-  log(`check-layers: ${stats.records} records in ${stats.files} files (VERIFIED ${s.VERIFIED}, EXTERNAL_SOURCE ${s.EXTERNAL_SOURCE}, UNVERIFIED ${s.UNVERIFIED}) · today ${opts.today} · ${errors.length} fail, ${warnings.length} warn`);
+  log(`check-layers: ${stats.records} records in ${stats.files} files${stats.guideFiles ? ` (${stats.guideFiles} guide-owned)` : ''} (VERIFIED ${s.VERIFIED}, EXTERNAL_SOURCE ${s.EXTERNAL_SOURCE}, UNVERIFIED ${s.UNVERIFIED}) · today ${opts.today} · ${errors.length} fail, ${warnings.length} warn`);
   if (stats.upcoming.length && !opts.quiet) log(`re-check within 30 days:\n  ${stats.upcoming.join('\n  ')}`);
   process.exit(errors.length ? 1 : 0);
 }

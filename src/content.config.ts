@@ -2,6 +2,7 @@ import { defineCollection } from 'astro:content';
 import { z } from 'astro/zod';
 import { glob } from 'astro/loaders';
 import { NOCO_TOWNS, REGIONS } from './data/territory.mjs';
+import { TOPIC_SLUGS } from './data/guide-topics';
 
 /**
  * Content collections. Records carry `status`: draft | review | published (missing = draft).
@@ -68,14 +69,30 @@ const towns = defineCollection({
   }),
 });
 
-/** Resource guides: answer-first pages built on the shared data layer (src/data/layers/). */
+/**
+ * A guide's page furniture, all optional: `crumb` (the last breadcrumb; default the title before the brand
+ * suffix), `paint` (a phrase of the H1 that gets the painted layout mark; check-content fails one that isn't
+ * in the H1), `faqH2` and the closing band's `cta` (defaults: the topic's own, src/data/guide-topics.ts).
+ * Same copy rules as the body: H2s are sentences with a period, and nothing here claims anything about NoCo.
+ */
+const guideDisplay = z.object({
+  crumb: z.string().max(40).optional(),
+  paint: z.string().optional(),
+  faqH2: z.string().optional(),
+  cta: z.object({ title: z.string(), payoff: z.string(), lede: z.string().optional() }).optional(),
+});
+
+/** Resource guides: answer-first pages built on the shared data layer (src/data/layers/, plus the guide's own
+ *  src/data/layers/guides/{id}.json). Each belongs to one topic, whose hub lists it at /guides/{topic}/. */
 const guides = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/guides' }),
   schema: z.object({
     status,
+    topic: z.enum(TOPIC_SLUGS),
     title: z.string().max(70),
     description: z.string().max(160),
     h1: z.string(),
+    display: guideDisplay.optional(),
     answer: z.object({ question: z.string(), answer: z.string() }),
     faq: z.array(qa).max(8).default([]),
     layerRefs: z.array(z.string()).default([]),

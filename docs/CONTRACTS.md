@@ -14,22 +14,25 @@ the 301 map targets these, and `tests/redirects.test.mjs` checks each target exi
 | `/turf-supply/` | `TURF_SUPPLY` in services.ts | only if the Windsor store still sells retail |
 | `/areas/` + `/areas/{slug}/` | `src/content/towns/*.json`, slugs in `src/data/territory.mjs` | existing live URLs keep their slugs |
 | `/work/` + `/work/{id}/` | `src/content/work/*.json` | case studies from Brian's job ledger |
-| `/guides/` + `/guides/{id}/` | `src/content/guides/*.md` | launch set: `turf-rules-northern-colorado`, `turf-rebates-northern-colorado`, `hoa-turf-approval`, `water-savings`, `artificial-turf-cost` |
+| `/guides/` + `/guides/{id}/` | `src/content/guides/*.md` | launch set: `turf-rules-northern-colorado`, `turf-rebates-northern-colorado`, `hoa-turf-approval`, `water-savings`, `artificial-turf-cost`; about 105 more to come, each in one topic |
+| `/guides/{topic}/` | `src/data/guide-topics.ts` | a hub per topic that has ≥1 visible guide (sitemap: ≥1 published guide). Topic slugs and guide ids share `/guides/`: a guide id never equals a topic slug (check-content fails the record, both routes throw, `prerenderConflictBehavior: 'error'`) |
 | `/about/`, `/contact/` | pages | `/contact/` carries the one estimate form + NAP |
 | `/thanks/` | page | noindex |
 | `/privacy/`, `/terms/` | pages | Colorado law; Plausible + SMS disclosures |
 | `/review/` | page | noindex; ONE ungated link to Google's write-review URL, offered to everyone |
 | `/sitemap.xml`, `/robots.txt`, `/llms.txt` | endpoints | PRELAUNCH-aware |
 
-## Data layer — `src/data/layers/*.json`
+## Data layer — `src/data/layers/*.json` and `src/data/layers/guides/{guide-id}.json`
 
 One file per layer: `state-law.json`, `city-codes.json`, `water-providers.json`, `rebates.json`,
-`drought-2026.json`, `climate.json`, `soil.json`. Each file is a JSON array of records:
+`drought-2026.json`, `climate.json`, `soil.json` — plus one file per guide for the facts only that guide uses,
+`src/data/layers/guides/{guide-id}.json` (below), so parallel guide writers never edit the same file.
+Each file is a JSON array of records:
 
 ```json
 {
   "id": "fc-luc-5.10.1",                     // unique across ALL layer files, kebab-case
-  "layer": "ordinance",                       // state | county | utility | rebate | ordinance | drought | climate | soil | housing
+  "layer": "ordinance",                       // state | county | utility | rebate | ordinance | drought | climate | soil | housing | research | product | standard
   "applies_to": ["fort-collins-co"],          // town slugs from territory.mjs, or ["*"] for every NoCo town
   "fact": "Plain-English statement, one sentence, exactly as a page may say it.",
   "quote": "The operative sentence from the source, verbatim.",
@@ -48,9 +51,21 @@ One file per layer: `state-law.json`, `city-codes.json`, `water-providers.json`,
 `water-providers.json` records add `"provider": "Fort Collins Utilities"` and optional `"rates"`:
 `{ "effective": "2026-01-01", "unit": "per 1,000 gal", "base_monthly": 23.10, "tiers": [{ "label": "Tier 1", "price": 3.574, "up_to_gal": 7000 }], "model": "tiered | flat | water-budget | allotment" }`.
 
-`scripts/check-layers.mjs` fails the build on: a missing field, a duplicate id, an `applies_to` slug not in
-territory.mjs, `checked` older than 365 days (warns > 180), a `recheck` date in the past, or a
-`source_url` that is not https.
+`research` (an agency or university finding), `product` (a manufacturer's published spec) and `standard`
+(ASTM, CPSC and the like) carry the guides' non-legal facts.
+
+`scripts/check-layers.mjs` fails the build on: a missing field, a duplicate id (across every file, `guides/`
+included), an `applies_to` slug not in territory.mjs, `checked` older than 365 days (warns > 180), a `recheck`
+date in the past, or a `source_url` that is not https.
+
+**Guide-owned files — `src/data/layers/guides/{guide-id}.json`.** Same record contract, same gate, one file per
+guide, named for the guide's file (`src/content/guides/{guide-id}.md`). Every id in it starts with
+`{guide-id}.` (for `pet-turf-odor.json`: `"pet-turf-odor.aspca-urine"`), which makes a clash between two writers
+impossible; check-layers fails any other id, and warns when no guide of that id exists yet. `rates` stays in
+water-providers.json. The guide cites its records in `layerRefs` like any other; another guide may cite them
+too. Every reader includes the subdirectory: check-layers.mjs, check-content.mjs (its single-file mode gates the
+guide's own file), and `src/lib/layers.ts` (the one `import.meta.glob` the pages use). Town pages read their
+named layer files only (`src/components/TownData.ts`), so a guide's record never lands on a town page.
 
 ## Town records — `src/content/towns/{slug}.json`
 
@@ -68,7 +83,14 @@ Rules for writers:
 
 ## Guide records — `src/content/guides/{id}.md`
 
-Schema: `src/content.config.ts` (`guides`). Answer first (the `answer` block is the page's first 60 words
+Schema: `src/content.config.ts` (`guides`). Every guide names one `topic` from `src/data/guide-topics.ts`
+(pets | weather | installation | products | care-and-repair | putting-greens | safety | comparisons | buying |
+rules-and-hoa | water | commercial | yard-design); its hub, crumbs (Guides › {topic} › {crumb}), "More in"
+list and previous / next follow from it. An optional `display` object carries the page furniture: `crumb`,
+`paint` (a phrase of the H1, word for word), `faqH2` and `cta` {title, payoff, lede?}; without it the crumb is
+the title and the rest are the topic's defaults. The full field list is in docs/GUIDES.md ("Adding a guide").
+check-content also fails a guide that shares its title or its normalized `answer.question` with another, or
+more than 25% of its five-word runs (WARN above 15%). Answer first (the `answer` block is the page's first 60 words
 in substance). Question-shaped H2s. Tables with real, dated numbers from layer records. Where law or a city
 rule is unsettled, hedge with "it depends … ask {the town's} Planning" — NOT "we confirm": that is a NoCo process
 claim and stays out of copy until Brian confirms NoCo checks each address (claims register). Titles carry the
@@ -100,6 +122,8 @@ without JS = a person), and show the phone on 502 / ask for a phone on 422.
 ## Checks (wired into npm scripts once present)
 
 - `prebuild`: `node scripts/check-layers.mjs && node scripts/check-content.mjs && node scripts/build-water-rates.mjs --check`
+- one guide, while writing it: `node scripts/check-content.mjs src/content/guides/{id}.md` — every record rule,
+  the guide's own layer file, and overlap / duplicate checks against every other guide on disk
 - `build`: `astro build && node scripts/md-mirrors.mjs dist && node scripts/check-dist.mjs dist && python3 scripts/check-links.py dist`
 - `test:unit`: `node --test "tests/*.test.mjs"` (a bare directory argument fails on Node 24)
 - `test:launch`: `LAUNCH_CHECK=1 node --test tests/redirects.test.mjs` — every 301 target must exist in `dist/`

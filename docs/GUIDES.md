@@ -6,6 +6,105 @@ working manual for the guides only.
 
 All five are `status: draft`. Nothing publishes until the items under "Before a guide can publish" are done.
 
+## Topics, hubs and the guide pages
+
+Every guide belongs to one of thirteen topics (`src/data/guide-topics.ts`; the order there is the order
+everywhere). The launch five: `turf-rules-northern-colorado` and `hoa-turf-approval` → `rules-and-hoa`;
+`turf-rebates-northern-colorado` and `water-savings` → `water`; `artificial-turf-cost` → `buying`.
+
+| slug | name | hub |
+|---|---|---|
+| `pets` | Pets and turf | `/guides/pets/` |
+| `weather` | Colorado weather: hail, snow, heat, sun, wind | `/guides/weather/` |
+| `installation` | Installation, base and drainage | `/guides/installation/` |
+| `products` | Turf products and specs | `/guides/products/` |
+| `care-and-repair` | Care, cleaning and repair | `/guides/care-and-repair/` |
+| `putting-greens` | Putting greens | `/guides/putting-greens/` |
+| `safety` | Kids, health and safety | `/guides/safety/` |
+| `comparisons` | Turf vs the alternatives | `/guides/comparisons/` |
+| `buying` | Cost, quotes and choosing an installer | `/guides/buying/` |
+| `rules-and-hoa` | Rules, HOAs and permits | `/guides/rules-and-hoa/` |
+| `water` | Water, drought and rebates | `/guides/water/` |
+| `commercial` | Commercial, HOA common areas and play spaces | `/guides/commercial/` |
+| `yard-design` | Where turf goes: yards, slopes, shade and edges | `/guides/yard-design/` |
+
+- **A hub** (`src/pages/guides/[topic].astro`) exists only while its topic has a visible guide (`visibleTopics()`:
+  published at launch, drafts too in the PRELAUNCH preview) and is in the sitemap only with a published one. It
+  prints each guide as a numbered entry: glyph, question, short answer, the guide's H2s, checked date. JSON-LD:
+  BreadcrumbList, CollectionPage (published by `#business`) and ItemList.
+- **/guides/** prints a sheet index of the topics with their counts, then a compact section per topic (the
+  question as the link). From `GUIDE_FILTER_FROM` (12, `src/lib/visible.ts`) guides it adds a filter box that
+  only exists with JavaScript; without it every guide shows.
+- **A guide page** reads Guides › {topic} › {crumb}; its hero label is `{Guide|Tool} · {topic} · NN of NN`; it
+  lists up to six more guides from its topic (starting after itself, wrapping), the other topics, and
+  previous / next within the topic. Within a topic, the launch five keep their order and later guides follow
+  by title (`visibleGuides()`).
+- **Navigation** lists topics, never every guide: the header's Guides panel, the footer's site index and the
+  404 page link the hubs, and hide a topic with no visible guide.
+- **Glyphs:** a guide without a bespoke drawing in `src/components/GuideGlyph.astro` gets its topic's.
+- **llms.txt** groups guides under one heading per topic, the hub first.
+
+## Adding a guide
+
+The file is `src/content/guides/{id}.md`: `{id}` is kebab-case, becomes `/guides/{id}/`, and may never equal a
+topic slug. The frontmatter, in full (the schema is `src/content.config.ts`):
+
+```yaml
+---
+status: draft                  # draft | review | published — only published renders at launch
+topic: pets                    # REQUIRED: pets | weather | installation | products | care-and-repair | putting-greens |
+                               #   safety | comparisons | buying | rules-and-hoa | water | commercial | yard-design
+kind: guide                    # guide | tool | problem | comparison (default guide)
+title: "… | NoCo Turf Co."     # ≤ 70 characters, suffix included; no other guide may share it
+description: "…"               # ≤ 160 characters: the meta description and the hero lede
+h1: "Headline: deck"           # a colon splits headline from deck
+display:                       # optional, and so is each field in it
+  crumb: "Pet odor"            #   ≤ 40; the last crumb (default: the title before the suffix)
+  paint: "what a dog does"     #   a phrase of the h1, word for word, that gets the painted mark (check-content fails one that isn't)
+  faqH2: "Questions about …."  #   the FAQ heading, a sentence with a period (default: the topic's)
+  cta:                         #   the closing band (default: the topic's); if set, title AND payoff
+    title: "…"
+    payoff: "…"                #   painted
+    lede: "…"                  #   optional
+answer:
+  question: "…?"               # the buyer's question; no other guide may ask the same one (case and punctuation ignored)
+  answer: "…"                  # ~60 words, the page's answer in substance; the phone is appended at render
+faq:                           # ≤ 8 items; FAQPage mirrors them
+  - q: "…"
+    a: "…"
+layerRefs:                     # every layer record the copy draws on: src/data/layers/*.json or layers/guides/*.json
+  - pets-urine-odor.aspca-urine
+sources:                       # ≥ 2: { label, url, checked: YYYY-MM-DD }
+  - label: "…"
+    url: "https://…"
+    checked: "2026-09-25"
+published: "2026-09-25"
+updated: "2026-09-25"          # printed as "Checked"
+related:
+  services: [pet-turf]         # slugs in src/data/services.ts
+  towns: [windsor-co]          # slugs in src/data/territory.mjs NOCO_TOWNS
+needsFromBrian: []             # not rendered
+---
+```
+
+Its own facts go in **`src/data/layers/guides/{id}.json`**: a JSON array of records in the data-layer contract
+(docs/CONTRACTS.md), every id starting `{id}.`, `layer` one of the contract's (use `research`, `product` or
+`standard` for findings, spec sheets and test standards), `applies_to` `["*"]` or NoCo town slugs, an https
+`source_url`, `checked` within a year, `recheck` when the fact will go stale, and every number the fact or quote
+uses in `numbers`. Cite each record in `layerRefs`: numbers of 11 or more, decimals and `$` amounts in the copy
+must trace to a referenced record or a source label.
+
+Check the one file while writing it:
+
+```
+node scripts/check-content.mjs src/content/guides/{id}.md
+```
+
+That runs every record rule on the guide, gates its own layer file (every check-layers rule), and compares it
+with every other guide on disk: FAIL on the same title or question, or more than 25% of five-word runs shared
+with one of them (WARN above 15%; the report names the pair and quotes shared runs). `npm run build` runs the
+whole set before every build.
+
 ## The five guides
 
 | Guide (route) | Kind | What it is for | Main layer files |

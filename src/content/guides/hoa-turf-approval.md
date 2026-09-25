@@ -1,9 +1,18 @@
 ---
 status: draft
+topic: rules-and-hoa
 kind: tool
 title: "Colorado HOA Turf Approval: Your Rights and Packet | NoCo Turf Co."
 description: "Colorado law bars an HOA from banning backyard turf on a detached home. What your HOA can still require, what goes in the ARC packet, and a letter to send."
 h1: "Colorado HOAs can review backyard turf on a detached home, but can't ban it"
+display:
+  crumb: "HOA approval"
+  paint: "can't ban it"
+  faqH2: "Questions about HOAs, answered from the statute."
+  cta:
+    title: "HOA or not,"
+    payoff: "it starts with a yard walk."
+    lede: "Tell us about the yard and whether there's an HOA. Three short parts, no account, no upload."
 answer:
   question: "Can my HOA stop me from installing artificial turf in Colorado?"
   answer: "Not in the backyard of a detached single-family home. Colorado law (C.R.S. 38-33.3-106.5) bars an HOA from prohibiting artificial turf there, though it can still apply design rules and review your plans. Front yards aren't protected, and on an attached home such as a townhome the HOA may limit turf to rear yards. This is general information, not legal advice."

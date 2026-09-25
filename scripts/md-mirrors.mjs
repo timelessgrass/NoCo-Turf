@@ -16,12 +16,17 @@
  * source) plus the published routes — so it cannot say anything the pages don't. While PRELAUNCH is true
  * (src/data/site.ts) it is a minimal file saying the site is in prelaunch, and no mirrors are written.
  * seo.md: it costs ten minutes and may become load-bearing; never spend a second hour on it.
+ *
+ * Guides are grouped by topic (src/data/guide-topics.ts order): each topic's hub first, then its guides,
+ * so a hundred guides read as a dozen short lists. A page's topic is read from its own BreadcrumbList
+ * (Home › Guides › {topic hub} › …), the same trail the page prints.
  */
 import fs from 'node:fs';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { parseHtml, findAll, textOf, readSite } from './check-dist.mjs';
 import { REPO, normalise } from './check-content.mjs';
+import { GUIDE_TOPICS } from '../src/data/guide-topics.ts';
 
 const RENDERABLE = new Set(['VERIFIED', 'CLIENT_STATED', 'CLIENT_CONFIRMED', 'EXTERNAL_SOURCE']);
 /** The value if it may render, else null — mirrors fact() in src/data/brief.ts. */
@@ -129,6 +134,17 @@ const walk = (dir) => fs.readdirSync(dir, { withFileTypes: true }).flatMap((e) =
   return e.isDirectory() ? walk(p) : e.name === 'index.html' ? [p] : [];
 });
 const meta = (root, name) => findAll(root, (el) => el.tag === 'meta' && (el.attrs.name || '').toLowerCase() === name)[0]?.attrs.content ?? '';
+/** The page's BreadcrumbList as absolute URLs in order (Base.astro emits it from the printed crumbs). */
+function breadcrumbs(root) {
+  for (const s of findAll(root, (el) => el.tag === 'script' && (el.attrs.type || '').toLowerCase() === 'application/ld+json')) {
+    try {
+      const data = JSON.parse((s.children[0]?.text ?? '').trim());
+      const bc = [].concat(data['@graph'] ?? data).find((n) => n?.['@type'] === 'BreadcrumbList');
+      if (bc) return [...bc.itemListElement].sort((a, b) => a.position - b.position).map((i) => i.item);
+    } catch { /* check-dist reports JSON-LD that does not parse */ }
+  }
+  return [];
+}
 
 export function buildLlms({ brief, site, prelaunch, pages }) {
   const host = new URL(site).host;
@@ -175,7 +191,19 @@ export function buildLlms({ brief, site, prelaunch, pages }) {
     for (const [label, test] of SECTIONS) {
       const list = pages.filter((p) => !used.has(p.url) && test(rel(p.url))).sort((a, b) => a.url.localeCompare(b.url));
       list.forEach((p) => used.add(p.url));
-      if (list.length) L.push(`## ${label}`, '', ...list.map(line), '');
+      if (!list.length) continue;
+      if (label !== 'Guides and tools') { L.push(`## ${label}`, '', ...list.map(line), ''); continue; }
+      // guides: the pages outside any topic, then one sub-list per topic — its hub first, then its guides
+      const topicOf = (p) => (p.crumbs?.[2] ?? '').slice(site.length).match(/^\/guides\/([a-z0-9-]+)\/$/)?.[1] ?? null;
+      const known = GUIDE_TOPICS.map((t) => t.slug);
+      const found = [...new Set(list.map(topicOf).filter(Boolean))];
+      const order = [...known.filter((s) => found.includes(s)), ...found.filter((s) => !known.includes(s))];
+      L.push(`## ${label}`, '', ...list.filter((p) => !topicOf(p)).map(line), '');
+      for (const slug of order) {
+        const hub = `${site}/guides/${slug}/`;
+        const group = list.filter((p) => topicOf(p) === slug).sort((a, b) => (a.url === hub ? -1 : b.url === hub ? 1 : a.url.localeCompare(b.url)));
+        L.push(`### ${GUIDE_TOPICS.find((t) => t.slug === slug)?.name ?? group[0].title}`, '', ...group.map(line), '');
+      }
     }
     const rest = pages.filter((p) => !used.has(p.url)).sort((a, b) => a.url.localeCompare(b.url));
     if (rest.length) L.push('## Other pages', '', ...rest.map(line), '');
@@ -212,11 +240,12 @@ export function run(distArg = 'dist', { prelaunch: forcePrelaunch, briefFile, lo
     let title = titleEl ? textOf(titleEl).trim() : '';
     title = name ? title.replace(new RegExp(`\\s*[|\\u2014\\u2013-]\\s*${name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}$`), '') : title.replace(/\s+\|\s+[^|]+$/, '');
     const description = normalise(meta(root, 'description'));
+    const crumbs = breadcrumbs(root);
     const body = tidy(toMarkdown(main, canon));
     const stated = (textOf(main).match(/(?:Updated|Last checked|Checked|Verified)\s+(\d{4}-\d{2}-\d{2})/) || [])[1];
     const front = `---\ntitle: ${JSON.stringify(title)}\ndescription: ${JSON.stringify(description)}\nurl: ${canon}\n${stated ? `updated: ${stated}\n` : ''}---\n\n`;
     fs.writeFileSync(mirror, `${front}${body}\n`);
-    pages.push({ url: canon, md: `${canon}index.html.md`, title, description, body });
+    pages.push({ url: canon, md: `${canon}index.html.md`, title, description, body, crumbs });
   }
 
   fs.writeFileSync(path.join(DIST, 'llms.txt'), buildLlms({ brief, site, prelaunch, pages }));

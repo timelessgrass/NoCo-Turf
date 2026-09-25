@@ -18,11 +18,10 @@ import { SITE } from '../../data/site';
 import { isPublished } from '../../lib/content-policy.mjs';
 import { visibleGuides, guideLabel } from '../../lib/visible';
 import { phoneHref, phoneDisplay } from '../../data/brief';
+import { LIVE_LAYER_IDS } from '../../lib/layers';
 
 const entries = await getCollection('services');
-type Rec = { id: string; status: string };
-const layerFiles = import.meta.glob<Rec[]>('../../data/layers/*.json', { eager: true, import: 'default' });
-const liveIds = new Set(Object.values(layerFiles).flat().filter((r) => r.status === 'VERIFIED' || r.status === 'EXTERNAL_SOURCE').map((r) => r.id));
+const liveIds = LIVE_LAYER_IDS;
 
 const items = visibleServices.map((s) => {
   const d = entries.find((e) => e.data.slug === s.slug)?.data;
@@ -33,7 +32,10 @@ const items = visibleServices.map((s) => {
     questions: d?.faq.length ?? 0,
   };
 });
-const guides = await visibleGuides();
+/* "Read first": the rules, rebates and cost guides every service page leans on — at most six, however many
+   guides the site grows to (the rest are a click away on /guides/). */
+const READ_FIRST = ['rules-and-hoa', 'water', 'buying'];
+const guides = (await visibleGuides()).filter((g) => READ_FIRST.includes(g.topic.slug)).slice(0, 6);
 const draft = visibleServices.some((s) => !s.confirmed) || entries.some((e) => !isPublished(e.data));
 const crumbs = [{ name: 'Services', path: '/services/' }];
 const graph = [{
