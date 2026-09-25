@@ -1,0 +1,213 @@
+{
+  "status": "draft",
+  "town": "firestone-co",
+  "service": "pet-turf",
+  "title": "Dog Runs and Pet Turf in Firestone, CO | NoCo Turf Co.",
+  "description": "Firestone's code names odor in its turf standard and pet-waste rule, allows four pets per home and keeps turf 3 feet off the lot line. Barefoot Lakes adds more.",
+  "h1": "Firestone's turf standard and its pet-waste rule both name odor.",
+  "display": {
+    "paint": "both name odor"
+  },
+  "lede": "A dog run in Firestone answers to two sections of Town law that both mention smell, to a four-pet limit, and in Barefoot Lakes to a metro district that sets the run's size and fence.",
+  "answer": {
+    "question": "What rules apply to a dog run in Firestone?",
+    "answer": "Firestone's code says turf areas may not have odors and owners must pick up waste before it bothers neighbors. It allows four pets over four months old per home, keeps turf 3 feet from any property line, and needs a Town turf permit. Ask NoCo Turf Co. about a dog run for a Firestone yard."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Smell",
+      "h2": "Odor shows up in Firestone's turf standard and again in its animal code.",
+      "paras": [
+        "Firestone's turf maintenance rule, Development Code 16.6.4.F.2.f, says artificial turf areas may not contain odors, stains or similar deterioration, and it calls for a non-toxic, anti-microbial infill such as silica sand or acrylic-coated sand to prevent odors and bacteria. Surfaced with artificial turf, a dog run is held to that rule like any other turf in town.",
+        "Municipal Code 6.05.050 comes at it from the owner's side. Waste on your own lot has to be removed often enough that it doesn't create offensive odors that disrupt a neighbor's use of their home, and on common areas, parks, open space and streets it has to be picked up at once. For a turf run, that makes drainage under the turf and regular rinsing part of the plan, not an extra."
+      ],
+      "layerRefs": [
+        "firestone-co.fdc-16.6.4-odor-infill",
+        "firestone-co.code-6.05.050-pet-waste"
+      ],
+      "sources": [
+        "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+        "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT6AN_CH6.05COAN_6.05.050REANEX"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Where it goes",
+      "h2": "Behind the house, and 3 feet short of a fence on the lot line.",
+      "paras": [
+        "Firestone requires at least 3 feet of living, permeable landscape between artificial turf and any property line. Where the yard fence stands on the lot line, the run's turf stops 3 feet short of it and that strip stays planted, so draw the run's edge and the planting together.",
+        "The front yard is mostly off the table: 75% of it, driveways excluded, has to be live plants, and turf doesn't count toward them. Turf is also barred on slopes steeper than 5:1. Any fence that encloses the dogs has to be securely built and kept in good repair under Municipal Code 6.05.020, which also bars dogs from running at large anywhere but their owner's property or a posted Town dog park."
+      ],
+      "layerRefs": [
+        "firestone-co.fdc-16.6.4-buffer-slope",
+        "firestone-fdc-16.6.4-live-plant-limit",
+        "firestone-co.code-6.05.020-at-large-fences",
+        "firestone-fdc-16.6.4-permit",
+        "firestone-co.devcode-page-rear-side-yards"
+      ],
+      "sources": [
+        "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+        "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT6AN_CH6.05COAN_6.05.020RULAPREXFE",
+        "https://firestoneco.gov/175/Development-Code"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "How many",
+      "h2": "Four pets over four months per home, a Town tag for each dog, and no kennel business.",
+      "paras": [
+        "Development Code 16.3.3.G.6 allows household pets in every residential zone as long as no more than four animals over four months old live in any one dwelling unit, and it rules out kennels, boarding and other commercial animal activity as home accessory uses. A backyard run in Firestone is built for the household's own dogs.",
+        "Every dog or cat over six months old also needs an annual license from the Town Clerk, taken out within 30 days of moving to town, getting the animal or its reaching six months, with the tag worn on the collar."
+      ],
+      "layerRefs": [
+        "firestone-co.fdc-16.3.3-household-pets",
+        "firestone-co.code-6.02.010-license",
+        "firestone-co.fdc-16.3.2-kennel-outdoor"
+      ],
+      "sources": [
+        "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH3USRE_16.3.3ACUSST",
+        "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT6AN_CH6.02LI_6.02.010RE",
+        "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH3USRE_16.3.2UECST"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Barefoot Lakes",
+      "h2": "Barefoot Lakes holds a dog run to 200 square feet unless the committee allows more.",
+      "paras": [
+        "The St. Vrain Lakes Metropolitan Districts act as Barefoot Lakes' HOA, and their guidelines require review-committee approval for a dog run. It goes in the rear yard, or in a side yard behind the wing fence against the house; it is screened with trees or shrubs, kept 3 feet from any side lot line and held to 200 square feet unless a variance is granted. Run fences are wood, left natural and sealed, and tarps or other covers are not allowed.",
+        "For the turf, the guidelines name silica sand or Envirofill as infill in kid and pet areas and allow a product with less secondary thatch where the area is only for pets. The amended guidelines hold all artificial turf, run included, to 50% of the combined rear and side yard, though the district's July 2026 guide for residents still prints 75%, so ask the committee which applies. A product off its pre-approved list needs a sample with the request."
+      ],
+      "layerRefs": [
+        "firestone-co.svlmd-rig-dog-runs",
+        "firestone-co.svlmd-rig-turf-install",
+        "firestone-co.svlmd-rig-turf-cap",
+        "firestone-co.svlmd-approved-turf-list",
+        "firestone-co.svlmd-districts",
+        "firestone-co.svlmd-design-review",
+        "firestone-co.svlmd-landscape-guide-75"
+      ],
+      "sources": [
+        "https://www.stvrainmd.live/files/5457a4faf/SVLMD+-+2026+08+07+-+Amended+%26+Restated+Residential+Improvement+Guidelines+%26+Site+Restrictions+for+Barefoot.pdf",
+        "https://www.stvrainmd.live/design-review",
+        "https://www.stvrainmd.live/about",
+        "https://www.stvrainmd.live/files/14212f700/SVLMD+-+2026+07+20+-+Barefoot+Design+Guidelines+for+Residents.pdf"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "The town dog park",
+      "h2": "Firestone moved its dog park out of the detention ponds and into Central Park.",
+      "paras": [
+        "In 2023 the Town permanently closed the Aisiks Dog Park and the dog park in Settlers Park. Both sat in detention ponds, and the Town's state stormwater permit requires it to identify sources of stormwater pollution; the Town named pet waste, with its high bacteria levels, as one of them.",
+        "Its replacement is a 2.5-acre dog park at Central Park beside the disc golf parking lot, now listed by the Town as Aisik's Meadow Dog Park, with separate areas for small and large dogs, shade structures and play amenities."
+      ],
+      "layerRefs": [
+        "firestone-co.dog-parks-detention-ponds",
+        "firestone-co.central-park-dog-park"
+      ],
+      "sources": [
+        "https://www.firestoneco.gov/CivicSend/ViewMessage/message/209671",
+        "https://firestoneco.gov/facilities/facility/details/Central-Park-Disc-Golf-Course-Dog-Park-34"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need Firestone's turf permit for a dog run?",
+      "a": "If the run is surfaced with artificial turf, yes. Firestone requires a Town permit before artificial turf is installed, and a single-family home pays no fee for it."
+    },
+    {
+      "q": "Do young puppies count toward Firestone's four-pet limit?",
+      "a": "The limit counts animals over four months old, so a puppy counts once it passes four months. Tropical fish, small rodents such as gerbils and hamsters, and small birds kept as pets aren't counted."
+    },
+    {
+      "q": "Can I run a dog day care with an outdoor yard in Firestone?",
+      "a": "Not as an add-on to a house: the Town's household-pet rule says kennels, boarding and commercial activities are not a permitted accessory use. As a business, a kennel or dog day care keeps its runs inside a soundproof building unless the zone's use table authorizes outdoor facilities, and an outdoor yard has to be at least 500 feet from any residential zone district."
+    },
+    {
+      "q": "Where can Barefoot Lakes residents see which turf the committee has pre-approved?",
+      "a": "On the St. Vrain Lakes Metropolitan Districts' design review page, which lists the pre-approved artificial turf products. The committee has 60 days from a complete request to rule on it."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Firestone Development Code 16.6.4, Landscaping, screening, and fencing (codified through Ord. No. 1072, Dec. 10, 2025)",
+      "url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Firestone Municipal Code 6.05.050, Removal of animal excrement (codified through Ord. No. 1072, Dec. 10, 2025)",
+      "url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT6AN_CH6.05COAN_6.05.050REANEX",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Firestone Municipal Code 6.05.020, Running at large prohibited; exceptions; fences (codified through Ord. No. 1072, Dec. 10, 2025)",
+      "url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT6AN_CH6.05COAN_6.05.020RULAPREXFE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Firestone Development Code 16.3.3, Accessory uses and structures (codified through Ord. No. 1072, Dec. 10, 2025)",
+      "url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH3USRE_16.3.3ACUSST",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Firestone Municipal Code 6.02.010, Licenses required (codified through Ord. No. 1072, Dec. 10, 2025)",
+      "url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT6AN_CH6.02LI_6.02.010RE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Firestone Development Code 16.3.2, Use-specific standards (codified through Ord. No. 1072, Dec. 10, 2025)",
+      "url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH3USRE_16.3.2UECST",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "St. Vrain Lakes Metropolitan Districts, Amended and Restated Residential Improvement Guidelines and Site Restrictions for Barefoot (as of August 7, 2026)",
+      "url": "https://www.stvrainmd.live/files/5457a4faf/SVLMD+-+2026+08+07+-+Amended+%26+Restated+Residential+Improvement+Guidelines+%26+Site+Restrictions+for+Barefoot.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "St. Vrain Lakes Metropolitan Districts, Design Review page",
+      "url": "https://www.stvrainmd.live/design-review",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "St. Vrain Lakes Metropolitan Districts, About page",
+      "url": "https://www.stvrainmd.live/about",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Firestone, Dog Park Closure Update (CivicSend message, 2023)",
+      "url": "https://www.firestoneco.gov/CivicSend/ViewMessage/message/209671",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Firestone, Central Park Disc Golf Course & Aisik's Meadow Dog Park facility page",
+      "url": "https://firestoneco.gov/facilities/facility/details/Central-Park-Disc-Golf-Course-Dog-Park-34",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "St. Vrain Lakes Metropolitan Districts, Barefoot Lakes Landscape Design Guidelines, Guide for Residents (revised July 20, 2026)",
+      "url": "https://www.stvrainmd.live/files/14212f700/SVLMD+-+2026+07+20+-+Barefoot+Design+Guidelines+for+Residents.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Firestone, Development Code page (artificial turf in rear and side yards; permit required)",
+      "url": "https://firestoneco.gov/175/Development-Code",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Dog runs or pet turf NoCo has installed in Firestone or Barefoot Lakes: month, rough size, number of dogs, and whether the Town permit was pulled",
+    "Camera-original photos of a Firestone dog run (photos.ts use pet, place in or next to Firestone); no pet photo is on file for any town yet",
+    "Whether NoCo has taken a dog run to the Barefoot Lakes review committee, and what it approved (size, fence, infill)",
+    "The pet infill and backing NoCo uses, so the page can say how they relate to Firestone's anti-microbial infill rule once Brian confirms them"
+  ]
+}

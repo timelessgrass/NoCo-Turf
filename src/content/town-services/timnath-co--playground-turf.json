@@ -1,0 +1,187 @@
+{
+  "status": "draft",
+  "town": "timnath-co",
+  "service": "playground-turf",
+  "title": "Playground Turf Under Swing Sets in Timnath, CO | NoCo Turf Co.",
+  "description": "Timnath playsets: Timnath Ranch sets them back by their height, Timnath Lakes caps them at 12 feet, and a 2025 code change bars artificial turf from plans.",
+  "h1": "Timnath Ranch sets a playset back from rear and side lot lines by its own height, at least 5 feet.",
+  "display": {
+    "paint": "by its own height"
+  },
+  "lede": "In Timnath, the rules for a swing set come from the metro district more than from the Town. Timnath Ranch measures the setback by the set itself and asks to see the ground cover under it on your landscaping plan.",
+  "answer": {
+    "question": "What are the rules for a backyard playset in Timnath?",
+    "answer": "Mostly your metro district's. Timnath Ranch wants approval for equipment over 7 feet and a setback from rear and side lot lines at least equal to its height, never under 5 feet. Timnath Lakes caps play structures at 12 feet, and Kitchel Lake keeps play equipment behind the house. NoCo Turf Co. installs turf under backyard playsets in Timnath, Colorado."
+  },
+  "blocks": [
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Timnath Ranch",
+      "h2": "In Timnath Ranch, a 10-foot swing set stands at least 10 feet from the rear and side lot lines.",
+      "takeaway": "Timnath Ranch asks to see what goes under the set, on the plan, before it goes in.",
+      "paras": [
+        "Timnath Ranch's architectural guidelines, last amended in June 2020, require committee approval for play equipment more than 7 feet tall. The set has to stand back from the rear and side lot lines by at least its tallest height, and never less than 5 feet. Swing-set and play-equipment colors go to the committee too.",
+        "The guidelines also ask for a playground area to be marked on the approved landscaping plan, with the ground cover under swing sets, playhouses and forts noted, and they ask owners to secure lightweight play equipment that high winds can move. Turf over a shock pad is one ground cover to name there; the [playground turf page](/services/playground-turf/) covers matching the pad to fall height."
+      ],
+      "layerRefs": [
+        "timnath-co.timnath-ranch-play-equipment",
+        "timnath-co.timnath-ranch-play-colors",
+        "timnath-co.timnath-ranch-playground-ground-cover",
+        "timnath-co.timnath-ranch-wind",
+        "timnath-co.timnath-ranch-review-fee",
+        "co-special-district-backyard"
+      ],
+      "sources": [
+        "https://www.timnathranchmd.live/files/8c91d1751/Timnath-Ranch-ACC-Guidelines-Amended-2020-06-25-Final.pdf",
+        "https://www.timnathranchmd.live/architectural-review",
+        "https://leg.colorado.gov/bill_files/92307/download"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Timnath Lakes and Kitchel Lake",
+      "h2": "Timnath Lakes caps a play structure at 12 feet; Kitchel Lake keeps play equipment behind the house.",
+      "paras": [
+        "Timnath Lakes' 2021 design criteria require approval for play structures and sports equipment, a setback of at least 5 feet from the property line for swing sets, trampolines and forts, and a height of no more than 12 feet. Wood has to be pressure treated or weather resistant, and multi-colored tarps won't be approved. Turf under the set belongs in the rear yard, the only place those criteria permit artificial turf.",
+        "Kitchel Lake's 2023 rules allow play equipment, trampolines and other sports equipment only behind the house, with approval, and with screening from the street if the committee asks. A playhouse there tops out at 8 feet and 120 square feet of floor, in the rear yard."
+      ],
+      "layerRefs": [
+        "timnath-co.timnath-lakes-play-structures",
+        "timnath-co.timnath-lakes-turf-rear-only",
+        "timnath-co.kitchel-lake-play-equipment",
+        "timnath-co.kitchel-lake-playhouses",
+        "timnath-co.timnath-lakes-backyard-deadline",
+        "timnath-co.timnath-lakes-review-period"
+      ],
+      "sources": [
+        "https://web.archive.org/web/20240527033949/https://timnathlakesmetrodistricts1-6.com/uploads/tlmd-rules-and-regs-final-version-ratified-1.28.22-.pdf",
+        "https://www.serratogafallsmd1.org/files/6b86004a3/Rules+and+Regs_SFMD1+-+Approved.pdf"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Common-area play",
+      "h2": "Timnath's code now leaves artificial turf out of new park and common-area landscape plans, playgrounds included.",
+      "takeaway": "State law counts a playground as functional turf; Timnath's December 2025 amendment is stricter.",
+      "paras": [
+        "Ordinance No. 28, adopted December 9, 2025, says no artificial turf may be included in any landscape plan or installed, and the one exception it lets the Community Development Director grant is an athletic field of play. A playground isn't named. The section reaches new construction and any site where more than 50% of the common-area landscape is disturbed, and smaller jobs may not add what it prohibits.",
+        "For a back yard, the same amendment says a detached single-family lot needs no landscape plan for a building permit and is only encouraged to follow the section. It depends how the Town reads that for turf under a playset, so ask Timnath Planning. Not legal advice."
+      ],
+      "layerRefs": [
+        "timnath-co.luc-ord-28-2025-no-artificial-turf",
+        "timnath-co.luc-ord-28-2025-disturbed-sites",
+        "timnath-co.luc-ord-28-2025-single-family-lots",
+        "co-hb25-1113-functional-turf"
+      ],
+      "sources": [
+        "https://library.municode.com/co/timnath/ordinances/municipal_code?nodeId=1412646",
+        "https://leg.colorado.gov/bill_files/40673/download"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "Town playgrounds",
+      "h2": "Timnath Community Park has multi-age equipment, swings and an adventure playground.",
+      "paras": [
+        "The Town's 25-acre Community Park, south of Bethke Elementary, lists multi-age play equipment, climbing structures, swings and an adventure playground among its features, along with a splash pad. WildWing Park lists a playground too, with its dog park and multi-use fields. The Parks and Recreation Department counts playgrounds among the features of more than 1,200 acres of parkland, open space and trails.",
+        "Playgrounds rank high with residents: in a Town PROST Plan survey that the WildWing Metropolitan District reports, 71% named them among the most important amenities for a neighborhood park, behind walking paths at 91% and multi-purpose trails at 77%."
+      ],
+      "layerRefs": [
+        "timnath-co.community-park-play",
+        "timnath-co.community-park-size",
+        "timnath-co.wildwing-park-features",
+        "timnath-co.parks-department-acres",
+        "timnath-co.prost-survey-amenities"
+      ],
+      "sources": [
+        "https://web.archive.org/web/20251115173933/https://timnath.org/timnath-community-park/",
+        "https://web.archive.org/web/20251210230709/https://timnath.org/wildwing-park/",
+        "https://web.archive.org/web/20260810221036/https://timnath.org/parks/",
+        "https://www.wildwingmd.live/parks-open-spaces"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does the Town of Timnath need to approve a backyard playset?",
+      "a": "It depends on the set and its footings; ask Timnath Planning whether a Town building permit applies. The metro district's design approval is a separate step, and in Timnath Ranch it covers the set's colors as well as its height."
+    },
+    {
+      "q": "What does a Timnath Ranch design review cost?",
+      "a": "$150 to review an application and $100 for a minor alteration. The district won't start the review until the application is complete and the fee is paid."
+    },
+    {
+      "q": "When does a new Timnath Lakes owner have to finish the back yard?",
+      "a": "Within 9 months of the lot's first sale, or by the next June after an October-to-April closing. The rules ask owners to allow up to 45 days for the committee's review, so send a play-area plan early."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Timnath Ranch Architectural Guidelines (established 3/13/08, last amended 06/25/20)",
+      "url": "https://www.timnathranchmd.live/files/8c91d1751/Timnath-Ranch-ACC-Guidelines-Amended-2020-06-25-Final.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Timnath Ranch Metropolitan District Nos. 1-4, Architectural Review (review fees)",
+      "url": "https://www.timnathranchmd.live/architectural-review",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Timnath Lakes, Design Criteria and Rules and Regulations (adopted Nov. 8, 2021; Wayback copy 2024-05-27)",
+      "url": "https://web.archive.org/web/20240527033949/https://timnathlakesmetrodistricts1-6.com/uploads/tlmd-rules-and-regs-final-version-ratified-1.28.22-.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Serratoga Falls Metropolitan District #1, Rules and Regulations, Kitchel Lake, Filing 3 (adopted March 30, 2023)",
+      "url": "https://www.serratogafallsmd1.org/files/6b86004a3/Rules+and+Regs_SFMD1+-+Approved.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Timnath, Timnath Community Park (Wayback snapshot 2025-11-15)",
+      "url": "https://web.archive.org/web/20251115173933/https://timnath.org/timnath-community-park/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Timnath, WildWing Park (Wayback snapshot 2025-12-10)",
+      "url": "https://web.archive.org/web/20251210230709/https://timnath.org/wildwing-park/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Timnath, Parks, Trails, and Open Spaces (Wayback snapshot 2026-08-10)",
+      "url": "https://web.archive.org/web/20260810221036/https://timnath.org/parks/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "WildWing Metropolitan District, Parks & Open Spaces (Town PROST Plan survey results)",
+      "url": "https://www.wildwingmd.live/parks-open-spaces",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "C.R.S. 37-60-126(11)(a.5), added by SB23-178 (signed act)",
+      "url": "https://leg.colorado.gov/bill_files/92307/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Timnath Ordinance No. 28, Series 2025 (Land Use Code amendments, adopted Dec. 9, 2025)",
+      "url": "https://library.municode.com/co/timnath/ordinances/municipal_code?nodeId=1412646",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "HB25-1113 signed act: C.R.S. 37-99-102(6.5)",
+      "url": "https://leg.colorado.gov/bill_files/40673/download",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Turf under playsets or play yards you have installed in Timnath: subdivision or district, month, rough size, the set's tallest platform and what pad went under it",
+    "Camera-original photos of a Timnath play area; the only play photo in photos.ts is from south of Windsor, so it cannot stand here",
+    "Any Timnath Ranch landscaping plan you have drawn a playground area and ground cover into, and what the committee asked for",
+    "Home child care or preschool play yards in Timnath, if any, and whether the Town or the district reviewed them (the Town's child care home section, Land Use Code 4.4.8.11, could not be confirmed as current)",
+    "Whether Timnath Planning has told you how Ordinance No. 28, Series 2025 (no artificial turf in landscape plans) applies to turf under a backyard playset or an HOA playground"
+  ]
+}

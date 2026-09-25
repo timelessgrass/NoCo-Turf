@@ -1,0 +1,193 @@
+{
+  "status": "draft",
+  "town": "timnath-co",
+  "service": "putting-greens",
+  "title": "Backyard Putting Greens in Timnath, CO | NoCo Turf Co.",
+  "description": "Timnath putting greens: Harmony Club is private, two town parks ban golf clubs, and a 2025 code change and metro-district rules decide where backyard turf goes.",
+  "h1": "Colorado State's golfers train at Harmony Club, a private club in Timnath.",
+  "display": {
+    "paint": "a private club in Timnath"
+  },
+  "lede": "Timnath has a golf course with practice greens, and it is private: Harmony Club, where Colorado State University's teams train. Two of the Town's parks rule out golf clubs altogether, so a place to putt in Timnath usually means the back yard, drawn to your metro district's rules.",
+  "answer": {
+    "question": "Can I put a putting green in my Timnath backyard?",
+    "answer": "Usually, with your metro district's approval. Timnath Lakes permits artificial turf in rear yards only, and Kitchel Lake caps non-living landscaping at 40% of a yard unless its committee and the Town agree. The Town's December 2025 code change on artificial turf spares single-family lots a landscape plan; ask Timnath Planning how it reads for yours. NoCo Turf Co. builds backyard putting greens in Timnath, Colorado."
+  },
+  "blocks": [
+    {
+      "kind": "golf",
+      "own": true,
+      "kicker": "Harmony Club",
+      "h2": "Colorado State's men's and women's golf teams practice at Harmony Club.",
+      "takeaway": "The short-game ground in Timnath belongs to a private club and a university team.",
+      "paras": [
+        "CSU names Harmony Club in Timnath as the Rams' primary training facility. The team building there has an indoor putting green, and a private short-game area with two greens, bunkers and room to chip and pitch wraps around it.",
+        "The club describes its own short-game facility as an expanded green, a separate pitching green, bunkers and target areas from 25 to 125 yards. Its hole-by-hole guide warns of a hidden tier at the back of the 11th green. A tier like that is shaped into the ground under a backyard green before any turf goes down; the [putting-green page](/services/putting-greens/) explains how."
+      ],
+      "layerRefs": [
+        "timnath-co.csu-golf-harmony",
+        "timnath-co.csu-harmony-short-game-area",
+        "timnath-co.harmony-club-private",
+        "timnath-co.harmony-short-game-facility",
+        "timnath-co.harmony-hole-11-tier"
+      ],
+      "sources": [
+        "https://csurams.com/facilities/harmony-club-golf-course/8",
+        "https://coloradoavidgolfer.com/golf_course/harmony-club/",
+        "https://harmonyclub.info/golf/"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "Town parks",
+      "h2": "Timnath Community Park and WildWing Park both prohibit golf clubs.",
+      "paras": [
+        "Both parks post the same line among their rules: the use of golf clubs is prohibited. Neither park's feature list includes a putting or chipping area. Community Park lists play equipment, pickleball, tennis and basketball courts and a splash pad; WildWing lists multi-use fields, trails and pickleball courts.",
+        "The Town's Parks and Recreation Department runs more than 1,200 acres of parkland, open space and trails, from playgrounds to youth sports fields. Short of a club membership, the back yard is where a Timnath golfer can put a putting surface."
+      ],
+      "layerRefs": [
+        "timnath-co.community-park-golf-clubs",
+        "timnath-co.wildwing-park-golf-clubs",
+        "timnath-co.community-park-play",
+        "timnath-co.wildwing-park-features",
+        "timnath-co.parks-department-acres"
+      ],
+      "sources": [
+        "https://web.archive.org/web/20251115173933/https://timnath.org/timnath-community-park/",
+        "https://web.archive.org/web/20251210230709/https://timnath.org/wildwing-park/",
+        "https://web.archive.org/web/20260810221036/https://timnath.org/parks/"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "The town code",
+      "h2": "Since December 2025, Timnath's code keeps artificial turf out of landscape plans, and says single-family lots need none.",
+      "paras": [
+        "Ordinance No. 28, adopted December 9, 2025, added a line to the land use code's landscaping section: no artificial turf may be included in any landscape plan or installed. The only exception it names is an athletic field of play, approved by the Community Development Director.",
+        "The same amendment says an individual detached single-family lot needs no landscape plan for a building permit, and that landscaping on such lots is encouraged, not required, to follow the section. It depends how the Town applies those two lines to your back yard, so ask Timnath Planning before a green goes in. Not legal advice."
+      ],
+      "layerRefs": [
+        "timnath-co.luc-ord-28-2025-no-artificial-turf",
+        "timnath-co.luc-ord-28-2025-single-family-lots"
+      ],
+      "sources": [
+        "https://library.municode.com/co/timnath/ordinances/municipal_code?nodeId=1412646"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Where turf may go",
+      "h2": "Timnath Lakes keeps artificial turf to rear yards, and Kitchel Lake caps non-living landscaping at 40%.",
+      "paras": [
+        "Timnath Lakes' design criteria, adopted in November 2021, permit artificial turf in rear yards only, and only with approval.",
+        "Kitchel Lake's rules, adopted in 2023 by the Serratoga Falls metro district board, allow no more than 40% of the front-yard landscaping to be non-living materials, apply the same standard to back yards unless the committee and the Town approve otherwise, and rule out artificial turf in place of required front-yard sod. They don't say how the committee counts a turf green against that 40%, so ask the district before a green takes up most of the back yard.",
+        "Timnath Ranch's guidelines ask for front yards to be 50% sod, driveway and walks aside."
+      ],
+      "layerRefs": [
+        "timnath-co.timnath-lakes-turf-rear-only",
+        "timnath-co.kitchel-lake-nonliving-cap",
+        "timnath-co.kitchel-lake-front-sod",
+        "timnath-co.timnath-ranch-front-sod",
+        "timnath-co.timnath-lakes-play-structures",
+        "timnath-co.kitchel-lake-play-equipment",
+        "co-special-district-backyard",
+        "timnath-co.timnath-lakes-review-period",
+        "timnath-co.timnath-ranch-review-fee",
+        "timnath-co.kitchel-lake-plan-approval"
+      ],
+      "sources": [
+        "https://web.archive.org/web/20240527033949/https://timnathlakesmetrodistricts1-6.com/uploads/tlmd-rules-and-regs-final-version-ratified-1.28.22-.pdf",
+        "https://www.serratogafallsmd1.org/files/6b86004a3/Rules+and+Regs_SFMD1+-+Approved.pdf",
+        "https://www.timnathranchmd.live/files/8c91d1751/Timnath-Ranch-ACC-Guidelines-Amended-2020-06-25-Final.pdf",
+        "https://leg.colorado.gov/bill_files/92307/download"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can a putting green go in a Timnath front yard?",
+      "a": "Not in Timnath Lakes, where artificial turf is limited to rear yards, and not in place of required front-yard sod in Kitchel Lake. Other districts write their own front-yard rules, so read yours before drawing a green out front."
+    },
+    {
+      "q": "How long does metro-district review take for a green in Timnath?",
+      "a": "Timnath Lakes tells owners to allow up to 45 days. Timnath Ranch won't start a review until the application is complete and paid: $150 for an application, $100 for a minor alteration. Kitchel Lake needs the landscaping plan approved before anything is installed, and any later change approved too."
+    },
+    {
+      "q": "Does a chipping net need approval in Timnath Lakes or Kitchel Lake?",
+      "a": "It depends on whether the committee counts it as sports equipment. If it does, Timnath Lakes requires approval and caps its height at 12 feet, and Kitchel Lake allows sports equipment only behind the house, with approval."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Colorado State University Athletics, Facilities: Harmony Club Golf Course",
+      "url": "https://csurams.com/facilities/harmony-club-golf-course/8",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Colorado AvidGolfer, Harmony Club (Classification: Private)",
+      "url": "https://coloradoavidgolfer.com/golf_course/harmony-club/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Harmony Club, Golf at Harmony (practice facilities; yardage book)",
+      "url": "https://harmonyclub.info/golf/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Timnath, Timnath Community Park (Wayback snapshot 2025-11-15)",
+      "url": "https://web.archive.org/web/20251115173933/https://timnath.org/timnath-community-park/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Timnath, WildWing Park (Wayback snapshot 2025-12-10)",
+      "url": "https://web.archive.org/web/20251210230709/https://timnath.org/wildwing-park/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Timnath, Parks, Trails, and Open Spaces (Wayback snapshot 2026-08-10)",
+      "url": "https://web.archive.org/web/20260810221036/https://timnath.org/parks/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Timnath Ordinance No. 28, Series 2025 (Land Use Code amendments, adopted Dec. 9, 2025)",
+      "url": "https://library.municode.com/co/timnath/ordinances/municipal_code?nodeId=1412646",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Timnath Lakes, Design Criteria and Rules and Regulations (adopted Nov. 8, 2021; Wayback copy 2024-05-27)",
+      "url": "https://web.archive.org/web/20240527033949/https://timnathlakesmetrodistricts1-6.com/uploads/tlmd-rules-and-regs-final-version-ratified-1.28.22-.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Serratoga Falls Metropolitan District #1, Rules and Regulations, Kitchel Lake, Filing 3 (adopted March 30, 2023)",
+      "url": "https://www.serratogafallsmd1.org/files/6b86004a3/Rules+and+Regs_SFMD1+-+Approved.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Timnath Ranch Architectural Guidelines (last amended 06/25/20)",
+      "url": "https://www.timnathranchmd.live/files/8c91d1751/Timnath-Ranch-ACC-Guidelines-Amended-2020-06-25-Final.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Timnath Ranch Metropolitan District Nos. 1-4, Architectural Review (review fees)",
+      "url": "https://www.timnathranchmd.live/architectural-review",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "C.R.S. 37-60-126(11)(a.5), added by SB23-178 (signed act)",
+      "url": "https://leg.colorado.gov/bill_files/92307/download",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Backyard putting greens you have built in Timnath (Harmony, Timnath Lakes, Timnath Ranch, Kitchel Lake or Serratoga Falls, WildWing, Trailside or another subdivision): month, rough size, and which district or HOA approved it",
+    "Camera-original photos of a Timnath putting green; the greens in photos.ts are from near Windsor and Berthoud, so none can stand on this page",
+    "Any metro-district answer you have had on how artificial turf counts against a non-living or sod requirement (Kitchel Lake's 40% cap, Timnath Ranch's 50% front-yard sod), and anything Timnath Planning has said about backyard turf since Ordinance No. 28, Series 2025",
+    "Harmony Club's HOA design guidelines, if you hold a copy; they are not public",
+    "Whether you have built greens for Harmony Club members or near the CSU short-game area, and whether the club or team can be named"
+  ]
+}

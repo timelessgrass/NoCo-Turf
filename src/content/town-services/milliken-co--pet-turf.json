@@ -1,0 +1,161 @@
+{
+  "status": "draft",
+  "town": "milliken-co",
+  "service": "pet-turf",
+  "title": "Dog Runs and Pet Turf in Milliken, CO | NoCo Turf Co.",
+  "description": "Milliken wants a fence permit, bars chain-link on most lots and allows 3 dogs per home. Dog-run rules from the town code and Settlers Village covenants.",
+  "h1": "Fencing a Milliken dog run takes a permit, and chain-link isn't allowed on most lots",
+  "display": {
+    "paint": "chain-link isn't allowed"
+  },
+  "lede": "Milliken's animal code wants a pet kept securely enclosed, and its fence standards, which still bind houses that are already built, decide what that enclosure can be made of. Settlers Village adds a review of its own, and the only park where a dog may run off leash is on the east side of town.",
+  "answer": {
+    "question": "What are the rules for a dog run in Milliken?",
+    "answer": "A fence permit comes first, and chain-link is out on most lots. Milliken keeps pets securely enclosed in a pen or building and allows 3 dogs per residence without a permit. Settlers Village also wants committee approval and a run hidden from the street. NoCo Turf Co. installs dog runs and pet turf in Milliken, Colorado."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Fence permit",
+      "h2": "Milliken's fence rules reach houses already built, and chain-link is out.",
+      "paras": [
+        "Most of Milliken's landscape standards skip existing houses, but Section 16-3-305(c) keeps the fence and wall rules in force for them. Under Section 16-3-390, a fence permit is required before construction starts, and chain-link, with or without slats, is prohibited except in an industrial zone or as an approved replacement or extension of existing chain-link within the Plat of the Town of Milliken Subdivision.",
+        "A front-yard fence stops at 42 inches and has to be at least half open; a rear privacy fence can reach 7 feet. Whether freestanding kennel panels count as a fence, the code doesn't say. It depends on how the run is built; ask Milliken Planning before ordering panels."
+      ],
+      "layerRefs": [
+        "milliken-co.code-16-3-390-fences",
+        "milliken-code-16-3-303-nonfunctional"
+      ],
+      "sources": [
+        "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIIGESTAPALDI_DIV3LABUFEWAST_S16-3-390FEWA",
+        "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIIGESTAPALDI_DIV3LABUFEWAST_S16-3-303NOTUNOARTUINPLTRSHGRSP"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Pens and odor",
+      "h2": "The animal code wants a pet in a pen or a building, and no foul smell where it lives.",
+      "paras": [
+        "Section 7-5-90(d) says a pet must be kept securely enclosed in a pen or building and may run at will only on its owner's premises. Subsection (f) bars letting the place where animals are kept become foul, noisome, putrid, malodorous or unwholesome. The code never mentions turf; how a turf run is kept clean is on the [pet turf page](/services/pet-turf/).",
+        "Section 7-5-50 caps a residence at 3 dogs 4 months or older. A fourth takes a permit from the Town Administrator, granted only when it isn't likely to create a nuisance or disturb the neighborhood. A dog left alone on a tether has to be on a trolley or cable run at least 10 feet long, mounted 4 to 7 feet up, for no more than 10 hours in 24."
+      ],
+      "layerRefs": [
+        "milliken-co.code-7-5-90-pets-enclosed",
+        "milliken-co.code-7-5-50-dog-limit",
+        "milliken-co.code-7-5-90-tethering"
+      ],
+      "sources": [
+        "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH7HESAAN_ARTVANCO_S7-5-90REAN",
+        "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH7HESAAN_ARTVANCO_S7-5-50VIEN"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Settlers Village",
+      "h2": "Settlers Village wants a dog run approved, and out of sight of the street.",
+      "paras": [
+        "The subdivision's covenants, recorded in 2001, say dog runs must first be approved by the Architectural Review Committee and may not sit anywhere on a lot where they are visible from a street or public view. The same section allows no more than 3 dogs and 3 cats per owner and keeps pets from roaming.",
+        "On a corner lot, or one that backs onto open space, that visibility clause narrows where a run can go before the Town's fence rules come into it."
+      ],
+      "layerRefs": [
+        "milliken-co.settlers-village-dog-runs",
+        "co-hoa-backyard-detached"
+      ],
+      "sources": [
+        "https://www.settlersvillagehoa.net/_files/ugd/98f97b_68fd2c3655784cae946a2f9a2b4e9f23.pdf",
+        "https://leg.colorado.gov/bill_files/92307/download"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "Off leash",
+      "h2": "The Milliken Dog Park is the one park where a dog can run loose.",
+      "paras": [
+        "The Town's park rules allow no off-leash dogs in any park except the Milliken Dog Park, on the east side of town at County Road 25 and Highway 60. It has one grassy area for large dogs and another for smaller dogs, plus water, litter bags and a covered area for people.",
+        "Away from home, Section 7-5-90(e) requires owners to pick up their animal's waste right away on public property and on anyone else's private property."
+      ],
+      "layerRefs": [
+        "milliken-co.parks-off-leash",
+        "milliken-co.dog-park",
+        "milliken-co.code-7-5-90-waste"
+      ],
+      "sources": [
+        "https://www.millikenco.gov/186/Parks-Lakes",
+        "https://www.millikenco.gov/Facilities/Facility/Details/Milliken-Dog-Park-18",
+        "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH7HESAAN_ARTVANCO_S7-5-90REAN"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does my dog need a Milliken license?",
+      "a": "Yes, once it is 6 months old. The license comes from the Town Clerk, lasts one year, and the application needs a current rabies certificate; dogs and cats that age need rabies shots every 3 years."
+    },
+    {
+      "q": "Can I board or train other people's dogs at home in Milliken?",
+      "a": "Not without a permit. Section 7-5-90(b) bars keeping a kennel or any place for training, boarding or breeding animals in town unless the Town grants one under Section 7-5-60."
+    },
+    {
+      "q": "Does the dog limit apply on larger, agricultural parcels?",
+      "a": "Not everywhere. The code says the limit doesn't apply in parts of town where the property's zoning allows more animals. It depends on the zoning district; ask Milliken Planning."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Milliken Municipal Code Secs. 16-3-390(b), Fences and Walls, and 16-3-305(c) (codified through Ord. No. 838, March 25, 2026)",
+      "url": "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIIGESTAPALDI_DIV3LABUFEWAST_S16-3-390FEWA",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Milliken Municipal Code Secs. 16-3-303 and 16-3-305(c) (Ord. 831, Dec. 22, 2025; codified through Ord. No. 838, March 25, 2026)",
+      "url": "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIIGESTAPALDI_DIV3LABUFEWAST_S16-3-303NOTUNOARTUINPLTRSHGRSP",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Milliken Municipal Code Sec. 7-5-90(b), (d)–(f) and (h), Regulation of animals (codified through Ord. No. 838, March 25, 2026)",
+      "url": "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH7HESAAN_ARTVANCO_S7-5-90REAN",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Milliken Municipal Code Secs. 7-5-50(d)–(e) and 7-5-60, Animal Control (codified through Ord. No. 838, March 25, 2026)",
+      "url": "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH7HESAAN_ARTVANCO_S7-5-50VIEN",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Milliken Municipal Code Secs. 7-5-20 and 7-5-30, Rabies vaccination and dog license (codified through Ord. No. 838, March 25, 2026)",
+      "url": "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH7HESAAN_ARTVANCO",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Declaration of Covenants, Conditions, and Restrictions for Settlers Village Subdivision, Art. XI, Sec. 9 (recorded Aug. 27, 2001, Weld County Reception No. 2877827)",
+      "url": "https://www.settlersvillagehoa.net/_files/ugd/98f97b_68fd2c3655784cae946a2f9a2b4e9f23.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "SB23-178 signed act: C.R.S. 38-33.3-106.5(1)(i.5)",
+      "url": "https://leg.colorado.gov/bill_files/92307/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Milliken, Parks & Lakes (Park Use Rules)",
+      "url": "https://www.millikenco.gov/186/Parks-Lakes",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Milliken, Facilities: Milliken Dog Park",
+      "url": "https://www.millikenco.gov/Facilities/Facility/Details/Milliken-Dog-Park-18",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Dog runs or pet turf you have installed in Milliken: subdivision, month, size, number of dogs, and how the run drains",
+    "Camera-original photos of a Milliken dog run: photos.ts has no pet photo yet, from Milliken or anywhere",
+    "How you have fenced Milliken runs given the chain-link ban (Sec. 16-3-390), and whether the Town has ever asked for a fence permit for kennel panels",
+    "Any Settlers Village Architectural Review Committee approvals you have handled for a dog run, and what the committee asked for"
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "status": "draft",
+  "town": "fort-collins-co",
+  "service": "commercial-turf",
+  "title": "Commercial and HOA Turf in Fort Collins, CO | NoCo Turf Co.",
+  "description": "Fort Collins bars artificial turf from development plans except athletic fields, and from streetscapes since 2026. What that leaves HOAs and businesses.",
+  "h1": "Fort Collins allows artificial turf in a development plan only on an athletic field, and only by exception.",
+  "display": {
+    "paint": "only on an athletic field"
+  },
+  "lede": "Colorado's 2026 turf law lets new commercial and HOA sites keep functional turf: playgrounds, picnic grounds, parts of parks, putting greens. Fort Collins wrote a tighter rule the year before. Its Land Use Code leaves artificial turf one narrow opening, and its street standards close medians and parkways to it.",
+  "answer": {
+    "question": "Can a business or HOA install artificial turf in Fort Collins?",
+    "answer": "Rarely, in anything that goes through a landscape plan. Fort Collins' Land Use Code 5.10.1 bars artificial turf from development landscape plans, and the Director's only exception is an athletic field of play that meets set conditions. The city's Streetscape Standards bar it from parkways and medians for applications from January 1, 2026. Not legal advice."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Land Use Code 5.10.1",
+      "h2": "The Director's exception covers one use: an athletic field of play.",
+      "takeaway": "Colorado's list of functional turf is longer than the Fort Collins exception, and inside the city the shorter list governs a development plan.",
+      "paras": [
+        "Fort Collins rewrote its landscape standards in Ordinance No. 008, 2025, citing SB24-005, and the new section took effect on February 14, 2025, ahead of the state's January 1, 2026 date. For the developments it covers, from commercial sites to multifamily and HOA common areas drawn into a landscape plan, section 5.10.1 bars artificial turf. The Director may approve it on an athletic field of play if state law doesn't prohibit it, the use is appropriate, it adds no pollutants that could cause environmental impairment and alternatives are not reasonable, and any exception has to be noted on the landscape plan.",
+        "Colorado's 2025 amendment defines functional artificial turf to include playgrounds, sports fields, picnic grounds, amphitheaters, portions of parks and golf playing areas, and the state ban leaves functional turf alone. Fort Collins names only the athletic field. An HOA pocket park, a day care yard, a clubhouse putting green or an office courtyard in a Fort Collins landscape plan falls outside the exception as written; for anything near the line, it depends on the plan, so ask Fort Collins Planning. Not legal advice."
+      ],
+      "layerRefs": [
+        "fort-collins-co.luc-5-10-1-field-of-play",
+        "fc-luc-5.10.1",
+        "co-hb25-1113-functional-turf",
+        "co-sb24-005-nonfunctional-ban",
+        "fort-collins-co.ord-008-cites-sb24-005"
+      ],
+      "sources": [
+        "https://mccmeetingspublic.blob.core.usgovcloudapi.net/fortcollco-meet-0538ebaac95447ff8c4f53ebc4c0adf8/ITEM-Attachment-004-785f079234b4438a8e8675d01d6f3bd4.pdf",
+        "https://leg.colorado.gov/bill_files/40673/download"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Live cover",
+      "h2": "A landscape area in a Fort Collins plan must be more than half living plants.",
+      "paras": [
+        "The same section requires more than 50% of each landscape area, not counting trees, to be covered with living plants at maturity, with a Director's exception only where an area is too small for plants and irrigation to be feasible. High-water turf grass such as Kentucky bluegrass may go only where it will be used for recreation or civic and community purposes: playgrounds, sports fields, picnic grounds, amphitheaters, portions of parks and golf playing areas, and never parking lots or medians.",
+        "That is the Fort Collins inversion. The uses Colorado lets a developer cover with functional artificial turf are the uses where Fort Collins lets a developer plant thirsty live grass instead. For a board replacing worn common-area lawn under a plan, the code points toward living plants across most of each landscape area and high-water grass only where people actually play or gather."
+      ],
+      "layerRefs": [
+        "fort-collins-co.luc-5-10-1-live-turf-and-cover"
+      ],
+      "sources": [
+        "https://mccmeetingspublic.blob.core.usgovcloudapi.net/fortcollco-meet-0538ebaac95447ff8c4f53ebc4c0adf8/ITEM-Attachment-004-785f079234b4438a8e8675d01d6f3bd4.pdf"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Streetscape Standards",
+      "h2": "Medians and parkways are closed to artificial turf for applications from January 1, 2026.",
+      "paras": [
+        "Council adopted new Streetscape Standards on December 16, 2025; staff described the update as primarily addressing SB24-005. The standards cover parkways, other landscaping along street edges and landscaped medians, and they say no artificial turf or artificial plants may be included in any streetscape. They apply to private development and other renovation projects with applications submitted on or after January 1, 2026, and to City capital projects installed from that date.",
+        "For an HOA or a business, that closes the medians and the strips between sidewalk and curb along its frontage in the city right-of-way. On collector and local streets a parkway takes turf-type grass or mulched beds that reach at least 50% live cover within 3 years, and where a development has an approved landscape plan, changing a parkway takes a Parkway Landscape Amendment, which carries no review fee."
+      ],
+      "layerRefs": [
+        "fort-collins-co.streetscape-no-artificial-turf",
+        "fort-collins-co.streetscape-parkway-choices",
+        "fort-collins-co.streetscape-sb24-005",
+        "fort-collins-co.parkway-amendment-no-fee"
+      ],
+      "sources": [
+        "https://mccmeetingspublic.blob.core.usgovcloudapi.net/fortcollco-meet-9b4e8e099e3f4e9cbeaa4a206b542f9a/ITEM-Attachment-001-c4cbe11e9146456885974472aba7c2ef.pdf",
+        "https://mccmeetings.blob.core.usgovcloudapi.net/fortcollco-pubu/MEET-Packet-9b4e8e099e3f4e9cbeaa4a206b542f9a.pdf",
+        "https://mccmeetings.blob.core.usgovcloudapi.net/fortcollco-pubu/MEET-Packet-14d9c93a88a54e4fb54bdc665f57ee02.pdf",
+        "https://www.fortcollins.gov/files/sharedassets/city/v/5/planning-development-amp-transportation/permitting/parkway-landscape-amendment-application.pdf"
+      ]
+    },
+    {
+      "kind": "rebate",
+      "own": true,
+      "kicker": "XIP Commercial",
+      "h2": "The city pays HOAs and businesses to trade lawn for low-water planting, after a Minor Amendment.",
+      "paras": [
+        "Fort Collins Utilities' commercial Xeriscape Incentive Program pays $1.50 per square foot of converted area, up to $15,000 per project, plus an upfront bonus of $0.30 per square foot up to $3,000, for replacing grass with an eligible low-water landscape. HOAs, multi-unit residential complexes, businesses, faith-based organizations, schools, parks and government entities can apply if they are Utilities water customers.",
+        "Two conditions shape a turf plan. Inside city limits, any change that modifies the site plan on file needs a Minor Amendment before work starts. And the city says XIP rebates are funded by a grant from the state, while Colorado bars state turf-replacement grant money from paying to replace lawn with artificial turf; the program page doesn't list artificial turf as an eligible landscape."
+      ],
+      "layerRefs": [
+        "fort-collins-co.xip-commercial-2026",
+        "fort-collins-co.xip-state-grant",
+        "co-turf-grant-no-artificial-turf"
+      ],
+      "sources": [
+        "https://www.fortcollins.gov/Services/Utilities/Programs-and-Rebates/Water-Programs/XIP",
+        "https://leg.colorado.gov/bill_files/100490/download"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can we keep the artificial turf our Fort Collins property already has?",
+      "a": "Colorado's turf law does not stop a local government from letting turf installed before January 1, 2026 be maintained. A Fort Collins rule on existing artificial turf was not found for this page, and a replacement that changes the site plan needs a Minor Amendment, so it depends on the site: ask Fort Collins Planning."
+    },
+    {
+      "q": "Does the Fort Collins rule reach apartments and condos?",
+      "a": "Yes, where the project goes through a landscape plan. Section 5.10.1 exempts only development on existing lots for single- and two-unit homes and accessory dwelling units, so an apartment or condo project with a landscape plan is covered."
+    },
+    {
+      "q": "How does PFAS figure into a Fort Collins field?",
+      "a": "Two ways. Since January 1, 2026, Colorado law bars installing artificial turf with intentionally added PFAS chemicals anywhere in the state, and the city's athletic-field exception separately asks whether the use adds pollutants that could cause environmental impairment. Ask for the product's documentation before a board votes."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Fort Collins Land Use Code 5.10.1, Ordinance No. 008, 2025, citing SB24-005 (effective Feb. 14, 2025; same text in the current Article 5)",
+      "url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/fortcollco-meet-0538ebaac95447ff8c4f53ebc4c0adf8/ITEM-Attachment-004-785f079234b4438a8e8675d01d6f3bd4.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "HB25-1113 signed act: C.R.S. 37-99-102(6.5) and 37-99-103(1), SB24-005 as amended",
+      "url": "https://leg.colorado.gov/bill_files/40673/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "SB24-005 signed act: C.R.S. 37-99-103(4)(a), turf installed before Jan. 1, 2026",
+      "url": "https://leg.colorado.gov/bill_files/45372/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Fort Collins Streetscape Standards, Exhibit A to Ordinance No. 202, 2025",
+      "url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/fortcollco-meet-9b4e8e099e3f4e9cbeaa4a206b542f9a/ITEM-Attachment-001-c4cbe11e9146456885974472aba7c2ef.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Fort Collins City Council agenda packet, Dec. 16, 2025: Ordinance No. 202, 2025, second reading (item summary on SB24-005)",
+      "url": "https://mccmeetings.blob.core.usgovcloudapi.net/fortcollco-pubu/MEET-Packet-9b4e8e099e3f4e9cbeaa4a206b542f9a.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Fort Collins City Council packet, Jan. 6, 2026: minutes of Dec. 16, 2025 (Ordinance No. 202, 2025 adopted on second reading)",
+      "url": "https://mccmeetings.blob.core.usgovcloudapi.net/fortcollco-pubu/MEET-Packet-14d9c93a88a54e4fb54bdc665f57ee02.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Fort Collins, Parkway Landscape Amendment Application (revised 4/13/2026; no review fee)",
+      "url": "https://www.fortcollins.gov/files/sharedassets/city/v/5/planning-development-amp-transportation/permitting/parkway-landscape-amendment-application.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Fort Collins Utilities, Xeriscape Incentive Program: XIP Commercial",
+      "url": "https://www.fortcollins.gov/Services/Utilities/Programs-and-Rebates/Water-Programs/XIP",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "C.R.S. 37-60-135(4)(c)(IV), created by HB22-1151 (signed act)",
+      "url": "https://leg.colorado.gov/bill_files/100490/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "SB24-081 bill summary (as enacted), Colorado General Assembly",
+      "url": "https://leg.colorado.gov/bills/sb24-081",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Confirm NoCo takes commercial, HOA, school, park or sports-field work in Fort Collins (services.ts has commercial-turf confirmed: false).",
+    "Any Fort Collins commercial, HOA, apartment, school or park job, before or after Feb. 14, 2025, with town, month and photos; a commercial page needs a photo with use 'commercial', and none exists yet.",
+    "Whether NoCo has worked on a Fort Collins athletic field that went through the Director's exception, or seen one refused.",
+    "Whether a Fort Collins board or property manager has asked NoCo about replacing existing artificial turf, and what the city said about the Minor Amendment.",
+    "PFAS documentation and spec sheets for the field and common-area products NoCo would bid in Fort Collins."
+  ]
+}

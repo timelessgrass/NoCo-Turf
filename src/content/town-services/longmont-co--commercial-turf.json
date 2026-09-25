@@ -1,0 +1,177 @@
+{
+  "status": "draft",
+  "town": "longmont-co",
+  "service": "commercial-turf",
+  "title": "Commercial, HOA and Sports Turf in Longmont, CO | NoCo Turf Co.",
+  "description": "Longmont turned Dry Creek's failing grass fields into synthetic turf. What its code allows on HOA, business and park land, and when an older site must upgrade.",
+  "h1": "Longmont put synthetic turf on the Dry Creek fields after grass failed on salty soil and high groundwater.",
+  "display": {
+    "paint": "salty soil and high groundwater"
+  },
+  "lede": "The city's own sports fields are Longmont's clearest example of functional turf. Its development code now keeps turf, grass or artificial, out of medians, streetscapes and parking-lot islands on new commercial and HOA sites, and it spells out when an older site has to catch up.",
+  "answer": {
+    "question": "Can a Longmont business or HOA install artificial turf?",
+    "answer": "In new development and redevelopment, only as functional turf, in areas the landscape plan designates for civic, community or recreational use. Nonfunctional turf, artificial included, is prohibited. An existing site keeps its landscaping until it adds vehicle area, grows its floor area by more than a quarter or changes half or more of its exterior walls."
+  },
+  "blocks": [
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "Dry Creek Community Park",
+      "h2": "Grass didn't hold on the Dry Creek fields, so the city switched them to synthetic.",
+      "takeaway": "The City of Longmont says the natural turf on the Dry Creek sports fields did not thrive because of high-salinity soils and high groundwater, and after many requests it installed roughly 252,670 square feet of synthetic turf.",
+      "paras": [
+        "The city calls Dry Creek its only synthetic turf space and says it built it because access to St. Vrain Valley School District fields had been inconsistent and limited. The fields use antibacterial-coated sand instead of rubber infill, and the city washes them through an irrigation system with quick couplers and spot-cleans them as needed. Its FAQ also warns that synthetic turf on sunny, calm days has typically measured 20 to 40 degrees above the air temperature, enough to change programming from mid-July to mid-September.",
+        "Sports fields are on the code's list of functional turf, so fields like these stay allowed under the landscape standards Longmont applied from January 1, 2026. The FAQ is also the city's own account of why grass failed on that site, which is worth reading before an HOA or school plans irrigated grass on similar ground. Not legal advice."
+      ],
+      "layerRefs": [
+        "longmont-co.dry-creek-synthetic-fields",
+        "longmont-co.dry-creek-only-synthetic",
+        "longmont-co.dry-creek-turf-care",
+        "longmont-co.dry-creek-turf-heat",
+        "longmont-co.ldc-15-10-020-turf-definitions",
+        "longmont-co.planning-landscape-regulations"
+      ],
+      "sources": [
+        "https://longmontcolorado.gov/facility/dry-creek-community-park/",
+        "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.10DE_S15.10.020ALOTTEDE"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Section 15.05.040",
+      "h2": "On a new commercial or HOA plan, turf has to earn a recreational label.",
+      "takeaway": "Longmont's landscape standards require at least 75 percent of landscaped areas in drought-tolerant or native ground cover, prohibit nonfunctional turf, and allow functional turf only where the plan designates civic, community or recreational use.",
+      "paras": [
+        "Narrow and ornamental spaces are named outright: turf stays out of medians, streetscapes, parking-lot islands and parkways unless it qualifies as functional. Longmont Planning says those strips now have to be landscaped with alternative materials, 75% of them living plants, and that the nonfunctional ban includes artificial turf. The city's Design Standards, effective December 2025, add that artificial grass may not be used to fulfill any landscaping requirement, so as written, even functional artificial turf sits beside the landscaping a plan owes rather than counting toward it.",
+        "Two points in the same section fall on HOAs. A new neighborhood of 50 or more homes owes a pocket park with amenities such as playgrounds or playing fields, at least 75 percent lower-water planting and no nonfunctional turf, and a dog park inside it doesn't count toward the required area. Common-interest community land is also on the section's list of properties where new plans may not include nonfunctional artificial turf. Not legal advice."
+      ],
+      "layerRefs": [
+        "longmont-co.ldc-15-05-040-ground-cover",
+        "longmont-co.planning-landscape-regulations",
+        "longmont-co.ldc-15-05-040-pocket-parks",
+        "longmont-ldc-15.05.040-nonfunctional",
+        "longmont-co.design-standards-605-02-q-no-artificial"
+      ],
+      "sources": [
+        "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.05DEST_S15.05.040LACOARST",
+        "https://longmontcolorado.gov/planning-and-development-services/environmental-planning/landscape-regulations/",
+        "https://longmontcolorado.gov/wp-content/uploads/2026/07/Section-600.pdf"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Older sites",
+      "h2": "An existing Longmont site keeps its landscaping until one of three kinds of project.",
+      "takeaway": "Under Section 15.08.100, landscaping that no longer meets the code may stay, but it has to be brought up to the current code when the site adds vehicle area, grows its floor area by more than 25 percent, or changes 50 percent or more of a building's exterior walls.",
+      "paras": [
+        "The same section bars any action that increases the degree or extent of a nonconforming feature, so an older site's lawn strips can't be widened on the old terms. Colorado's turf law separately lets turf installed before January 1, 2026 be maintained.",
+        "Longmont defines redevelopment broadly, as site development where structures or non-vacant, non-agricultural uses already exist, and its 2026 standards apply to landscape plans for redevelopment as well as new development. The state law counts a project as redevelopment only when it needs a permit or design review and disturbs more than 50% of the landscape. How the two definitions meet on a given site isn't written down; it depends on the project, so ask Longmont Planning before a renovation is scoped. Not legal advice."
+      ],
+      "layerRefs": [
+        "longmont-co.ldc-15-08-100-nonconforming-landscaping",
+        "longmont-co.ldc-15-10-020-redevelopment",
+        "co-sb24-005-maintain-existing",
+        "co-sb24-005-redevelopment"
+      ],
+      "sources": [
+        "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.08NO_S15.08.100NOSIFE",
+        "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.10DE_S15.10.020ALOTTEDE",
+        "https://leg.colorado.gov/bill_files/45372/download"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Kennels and dog daycares",
+      "h2": "Outdoor dog yards at Longmont kennels sit at least 500 feet from homes.",
+      "takeaway": "Section 15.04.030 keeps kennels with outdoor activities at least 500 feet from a residential lot in a residential district, fully indoor ones 250 feet, and puts overnight boarding indoors from 7 p.m. to 7 a.m.",
+      "paras": [
+        "Outdoor activity areas have to be placed and designed to limit impacts on surrounding properties. Neither the kennel rules nor the functional-turf definition mentions a dog yard, so whether turf in a boarding or daycare yard counts as functional in a new site plan is an open question. It depends on how the plan designates the yard: ask Longmont Planning. An HOA's off-leash dog park falls under a separate city license in the animal code. Not legal advice."
+      ],
+      "layerRefs": [
+        "longmont-co.ldc-15-04-030-kennels",
+        "longmont-co.code-7-04-200-hoa-dog-parks"
+      ],
+      "sources": [
+        "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.04USRE_S15.04.030UECST",
+        "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT7AN_CH7.04AN_S7.04.200RECO"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does Longmont's turf rule reach metro districts?",
+      "a": "Colorado's law does: since January 1, 2026, cities, towns and special and metro districts may not install or allow nonfunctional artificial turf in new development or redevelopment on the property types it covers. Longmont's own code applies the same ban on common-interest community land."
+    },
+    {
+      "q": "Why did Longmont choose sand infill for its fields?",
+      "a": "The city's Dry Creek FAQ says sand infill generally means less chemical exposure, lower heat retention and easier end-of-life handling than rubber, and that the coating adds antibacterial qualities and reduces abrasiveness."
+    },
+    {
+      "q": "Does the city publish designs for converting an HOA or business turf area?",
+      "a": "Its landscape regulations page links city-approved water-wise landscape designs for homeowners, HOAs and businesses that want to convert a turf area."
+    }
+  ],
+  "sources": [
+    {
+      "label": "City of Longmont, Dry Creek Community Park (Synthetic Turf and Field Lighting FAQs)",
+      "url": "https://longmontcolorado.gov/facility/dry-creek-community-park/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Longmont Land Development Code Sec. 15.10.020, turf and redevelopment definitions (codified through Ord. No. O-2026-39, June 23, 2026)",
+      "url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.10DE_S15.10.020ALOTTEDE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Longmont Land Development Code Sec. 15.05.040, Landscape and common area standards (codified through Ord. No. O-2026-39, June 23, 2026)",
+      "url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.05DEST_S15.05.040LACOARST",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Longmont Planning and Development Services, Landscape Regulations",
+      "url": "https://longmontcolorado.gov/planning-and-development-services/environmental-planning/landscape-regulations/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Longmont Land Development Code Sec. 15.08.100, Nonconforming site features (codified through Ord. No. O-2026-39, June 23, 2026)",
+      "url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.08NO_S15.08.100NOSIFE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "SB24-005 signed act: C.R.S. 37-99-102(14) and 37-99-103(4)(a)",
+      "url": "https://leg.colorado.gov/bill_files/45372/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "HB25-1113 signed act: C.R.S. 37-99-103(1), SB24-005 as amended",
+      "url": "https://leg.colorado.gov/bill_files/40673/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Longmont Land Development Code Sec. 15.04.030.D.2, Kennel (codified through Ord. No. O-2026-39, June 23, 2026)",
+      "url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.04USRE_S15.04.030UECST",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Longmont Design Standards, Section 600 Landscape and Irrigation, 605.02.Q (effective December 2025)",
+      "url": "https://longmontcolorado.gov/wp-content/uploads/2026/07/Section-600.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Longmont Municipal Code Sec. 7.04.200.C, Private dog parks (codified through Ord. No. O-2026-39, June 23, 2026)",
+      "url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT7AN_CH7.04AN_S7.04.200RECO",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Confirmation that NoCo serves Longmont and bids commercial, HOA or sports turf there",
+    "Commercial, HOA, school or sports turf jobs NoCo has done in Longmont: site type, month, rough size",
+    "A camera-original photo of his own commercial, HOA or sports job to add to photos.ts with use \"commercial\" (no photo carries that use yet)",
+    "Any Longmont Planning decision he has seen on turf in a new-development or redevelopment landscape plan, including dog daycare or kennel yards"
+  ]
+}

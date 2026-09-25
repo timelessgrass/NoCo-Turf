@@ -1,0 +1,151 @@
+{
+  "status": "draft",
+  "town": "johnstown-co",
+  "service": "commercial-turf",
+  "title": "Commercial and HOA Turf in Johnstown, CO | NoCo Turf Co.",
+  "description": "Johnstown's Ordinance 2025-279 bars nonfunctional turf, live or artificial, from new commercial and HOA common-area projects since January 1, 2026.",
+  "h1": "Since January 1, 2026, Johnstown's own code bars nonfunctional artificial turf from new commercial and HOA common ground.",
+  "display": {
+    "paint": "nonfunctional artificial turf"
+  },
+  "lede": "Ordinance 2025-279 wrote the state ban into Article 8, the landscape article of Johnstown's Land Use and Development Code, as Sec. 17-8-2(E). It takes its definitions from C.R.S. 37-99-102 as amended from time to time, so what counts as functional turf here moves with the state's definition.",
+  "answer": {
+    "question": "Can a business or HOA in Johnstown still install artificial turf?",
+    "answer": "Yes, where it's functional turf, such as play areas, sports fields and parts of parks. Since January 1, 2026, Sec. 17-8-2(E) bars nonfunctional turf and nonfunctional artificial turf in new development and redevelopment on commercial, institutional, industrial and HOA common property and along streets, medians and parking lots. NoCo Turf Co. installs commercial and HOA turf in Johnstown, Colorado."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Sec. 17-8-2(E)",
+      "h2": "Ordinance 2025-279 put the state ban in the Town's landscape article.",
+      "paras": [
+        "After a public hearing and first reading on November 17, 2025, the Council passed Ordinance 2025-279 unanimously on its December 1 consent agenda. Alongside changes to accessory dwelling units, outdoor lighting and guest parking, it added Sec. 17-8-2(E): on and after January 1, 2026, no person may install, plant or place nonfunctional turf, nonfunctional artificial turf or invasive plant species as part of a new development or redevelopment project on applicable property.",
+        "Applicable property is a street right-of-way, parking lot, median or transportation corridor; commercial, institutional and industrial property; common interest community property; and multifamily property with more than 12 dwelling units, which the section brings in from January 1, 2028. Nonfunctional turf, redevelopment and the other terms carry their meanings from C.R.S. 37-99-102, so a playground, sports field or part of a park that the state counts as functional stays allowed. Not legal advice."
+      ],
+      "layerRefs": [
+        "johnstown-co.ord-2025-279-adopted",
+        "johnstown-co.ludc-17-8-2e-prohibition",
+        "johnstown-co.ludc-17-8-2e-applicable-property",
+        "co-hb25-1113-functional-turf",
+        "co-sb24-005-redevelopment"
+      ],
+      "sources": [
+        "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=863,plainText=false)",
+        "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=874,plainText=false)",
+        "https://leg.colorado.gov/bill_files/40673/download",
+        "https://leg.colorado.gov/bill_files/45372/download"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Existing sites",
+      "h2": "An approved landscape plan binds a site until it redevelops or amends the plan.",
+      "paras": [
+        "Article 8's landscape standards apply to all development, building additions and changes in use, with exceptions that include additions growing a building footprint or impervious surface by 10% or less. For existing development with an approved landscape plan, Sec. 17-8-1(B) requires continued adherence to and maintenance of that plan until the site redevelops, changes use or proceeds with an amendment, and Sec. 17-8-4(G) treats every element of an approved plan, plants included, as a material element the Town can enforce at any point.",
+        "On an existing commercial pad or HOA common area, then, swapping approved grass for synthetic turf is a landscape-plan question before it is a turf question. Whether a given swap is maintenance or an amendment depends on the plan; ask Johnstown Planning."
+      ],
+      "layerRefs": [
+        "johnstown-co.ludc-17-8-1-applicability",
+        "johnstown-co.ludc-17-8-4-g-enforceable"
+      ],
+      "sources": [
+        "https://www.johnstownco.gov/DocumentCenter/View/1403/Land-Use-And-Development-Code"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Where grass may go",
+      "h2": "Johnstown's water guidelines already hold new irrigated turf to play, sport and park ground.",
+      "paras": [
+        "Sec. 17-8-4(E) limits turf and spray-irrigated areas in landscape plans to single-family rear yards; areas designed for play, sports fields and similar common or public park areas; significant gateways and entryways at the Town's discretion; and green courtyards and high-traffic common areas. Native grass may go in low-traffic areas, with a raw water dedication to establish it and a possible water credit once its irrigation is removed or disabled.",
+        "The same section encourages non-potable irrigation for all common landscape areas and requires it where enough is available. With Sec. 17-8-2(E) on top, a common area's turf in Johnstown sits mostly where people play, gather or cross, whichever surface it is. The [commercial turf page](/services/commercial-turf/) covers what the state counts as functional."
+      ],
+      "layerRefs": [
+        "johnstown-co.ludc-17-8-4-turf-areas",
+        "johnstown-co.ludc-17-8-4-native-grass-non-potable"
+      ],
+      "sources": [
+        "https://www.johnstownco.gov/DocumentCenter/View/1403/Land-Use-And-Development-Code"
+      ]
+    },
+    {
+      "kind": "utility",
+      "own": true,
+      "kicker": "Ledge Rock Center",
+      "h2": "One commercial metro district irrigates from a Town water bank that closes at the end of 2027.",
+      "paras": [
+        "When the Council approved Ledge Rock Center's water service agreement on November 7, 2023, it set aside 7.5 of the Town's Consolidated Home Supply Ditch and Reservoir Company shares, up to 60 acre-feet a year, as a bank for irrigating the center's commercial areas and nothing else. On February 2, 2026, it unanimously extended the bank from its December 31, 2025 end to December 31, 2027.",
+        "The Ledge Rock Center Commercial Metropolitan District isn't obliged to buy from the bank, and water not allocated by the end date reverts to the Town. At Ledge Rock, then, the water behind a commercial lawn is a set quantity in an agreement, with an end date."
+      ],
+      "layerRefs": [
+        "johnstown-co.ledge-rock-irrigation-bank",
+        "johnstown-co.ledge-rock-extension-approved"
+      ],
+      "sources": [
+        "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=885,plainText=false)",
+        "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=892,plainText=false)"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does the ban reach turf already on a Johnstown HOA common area?",
+      "a": "Sec. 17-8-2(E) applies to new development and redevelopment projects from January 1, 2026, and doesn't name turf already in place. Whether replacing it counts as redevelopment depends on the project, so ask Johnstown Planning before a board votes."
+    },
+    {
+      "q": "What counts as redevelopment under the ban?",
+      "a": "Johnstown uses the state definition: a project that needs a building or landscaping permit, plan check or design review and disturbs more than 50% of the landscape area. Not legal advice."
+    },
+    {
+      "q": "Does the ban cover single-family yards in Johnstown?",
+      "a": "No. A detached home's own lot isn't on the section's list of applicable property. The [Johnstown page](/areas/johnstown-co/) covers the rules that reach a home lawn."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Town of Johnstown, Town Council packet, December 1, 2025: Ordinance 2025-279, second reading (staff memo and ordinance; Sec. 17-8-2(E) on packet pp. 28-29)",
+      "url": "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=863,plainText=false)",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Johnstown, December 15, 2025 Town Council packet (December 1, 2025 minutes: consent agenda with Ordinance 2025-279 passed unanimously)",
+      "url": "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=874,plainText=false)",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "HB25-1113 signed act: C.R.S. 37-99-102(6.5) and 37-99-103(1)",
+      "url": "https://leg.colorado.gov/bill_files/40673/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "SB24-005 signed act: C.R.S. 37-99-102",
+      "url": "https://leg.colorado.gov/bill_files/45372/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Johnstown Land Use and Development Code, Chapter 17 (Town PDF, effective December 5, 2023; file updated September 3, 2025): Secs. 17-8-1 and 17-8-4",
+      "url": "https://www.johnstownco.gov/DocumentCenter/View/1403/Land-Use-And-Development-Code",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Johnstown, Town Council packet, February 2, 2026: First Amendment to the Ledge Rock Center Commercial Metropolitan District water service agreement",
+      "url": "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=885,plainText=false)",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Johnstown, February 18, 2026 Town Council packet (February 2, 2026 minutes: consent agenda passed unanimously)",
+      "url": "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=892,plainText=false)",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Confirm NoCo takes commercial, HOA or metro-district work in Johnstown today, and the smallest job it will bid",
+    "Any common-area, park, school or business job in Johnstown, with a camera-original photo to add to src/data/photos.ts with use 'commercial'; no photo carries that use yet",
+    "Johnstown metro districts or HOA boards NoCo has bid for or worked with (Ledge Rock Center, 2534, Thompson River Ranch, Podtburg), and the outcome",
+    "Whether NoCo has taken a Johnstown site through a landscape-plan amendment under Sec. 17-8-1(B), and what the Town asked for"
+  ]
+}

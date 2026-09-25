@@ -1,0 +1,275 @@
+{
+  "status": "draft",
+  "town": "evans-co",
+  "service": "pet-turf",
+  "title": "Dog Runs and Pet Turf in Evans, CO | NoCo Turf Co.",
+  "description": "Evans code says an animal area can't create odors, dust, noise or drainage that bother neighbors. Plus the four-pet cap, Liberty Draw's run setback and fences.",
+  "h1": "Evans puts the same rule in two chapters: a dog's area must not create odors, dust, noise or drainage that trouble the neighbors.",
+  "display": {
+    "paint": "odors, dust, noise or drainage"
+  },
+  "lede": "The animal chapter and the zoning chapter both carry it, and a backyard dog run is where it gets tested. The city also caps a household at four pets, and Liberty Draw adds a setback for runs. Chapter 6.04 was amended on July 21, 2026; the online code does not show that change yet. Checked September 25, 2026.",
+  "answer": {
+    "question": "What does Evans require of a backyard dog run?",
+    "answer": "That it not bother the neighbors. Evans's animal and zoning codes both say an area where animals are kept must not create odors, dust, noise or drainage that becomes a nuisance to adjoining properties, and a household may keep no more than four pets in all. NoCo Turf Co. installs dog runs and pet turf in Evans, Colorado."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "The neighbor test",
+      "h2": "Sections 6.04.140 and 18.02.040 hold an animal area to what reaches the next lot.",
+      "takeaway": "On a turf run, that puts the drainage under the dogs, not toward the fence.",
+      "paras": [
+        "The animal chapter says areas where animals are kept must be maintained so they don't create odors, dust, noise or drainage offensive to the senses of smell, hearing or sight. The zoning chapter repeats it under household pets: no odors, dust, noise or drainage that is a hazard or nuisance to adjoining properties or uses. That second copy sits in Title 18, and the July 2026 animal ordinance, by its title, amends only Chapter 6.04.",
+        "A turf run passes or fails the test at its low edge. Solids get picked up; urine and rinse water have to go down through the backing and the base. Soil surveys around central Evans map gravelly river-bottom ground in some places and Otero and Vona sandy loams in others, so the dirt under one yard need not match the next. A run graded toward a shared fence sends its drainage next door, which is the thing both sections name."
+      ],
+      "layerRefs": [
+        "evans-co.code-6-04-140-animal-areas",
+        "evans-co.code-18-02-040-animal-areas",
+        "evans-co.ord-867-26-animal-control",
+        "nrcs-soil-evans"
+      ],
+      "sources": [
+        "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT6AN_CH6.04ANCO_6.04.140NUANDE",
+        "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.02ZO_18.02.040ACUS",
+        "https://www.evanscolorado.gov/media/yjuhcvyg/07212026-ordinance-867-26-2nd-reading.docx",
+        "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "How many animals",
+      "h2": "Evans caps a household at four pets, and a fifth takes a City Council hearing.",
+      "paras": [
+        "The city's licensing page says no household may keep a combined total of more than four pet animals. The code counts fowl in the same four, and its pet list runs from dogs and cats to rabbits, ferrets and pot belly pigs, so two dogs and three cats is already over.",
+        "A household that wants more can ask for a variance. The City Council decides after a public hearing noticed at least 10 days ahead in the newspaper and on the property, may grant fewer animals than asked, and weighs whether the extra animals would bring an unreasonable amount of noise or smell and whether the lot's size, shape and topography suit them. An animal variance was on the council's April 21, 2026 agenda.",
+        "Each dog or cat six months or older needs a City Clerk license with proof of current rabies vaccination, and Evans does not ban specific breeds. Boarding, training or breeding four or more pets at least four months old, for business, makes a property a kennel, which Evans zones only into agricultural, commercial and industrial districts and bars as a home business."
+      ],
+      "layerRefs": [
+        "evans-co.four-pet-limit",
+        "evans-co.code-6-04-010-pet-animals",
+        "evans-co.code-6-04-300-variance",
+        "evans-co.animal-variance-hearing-2026",
+        "evans-co.code-18-02-020-kennel",
+        "evans-co.code-18-02-040-no-home-kennel"
+      ],
+      "sources": [
+        "https://www.evanscolorado.gov/living-here/animal-licensing/",
+        "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT6AN_CH6.04ANCO_6.04.010DE",
+        "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT6AN_CH6.04ANCO_6.04.300ANCANLACDE",
+        "https://www.evanscolorado.gov/news/posts/evans-city-council-meeting-and-work-session-april-21",
+        "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.02ZO_18.02.020ALUS",
+        "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.02ZO_18.02.040ACUS"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Liberty Draw",
+      "h2": "In Liberty Draw, a dog run stays 5 feet off every property line and out of the neighbors' view.",
+      "paras": [
+        "The single-family architectural guidelines for Liberty Draw, the metro-district neighborhood whose service plan was before the council in July 2026, were updated September 25, 2024. They keep a dog run at least 5 feet from any property line and screened with approved materials so neighboring lots can't see it, and the Architectural Review Committee has to approve every screened run.",
+        "The same guidelines say artificial turf may be installed in back yards, and they allow no more than 3 dogs or 3 cats, 4 household pets in all, which sits inside the city's four. The committee can grant variances. Other Evans subdivisions have covenants of their own, so ask your HOA or district for its current rules before digging. Colorado's backyard rule for HOAs is printed below."
+      ],
+      "layerRefs": [
+        "evans-co.liberty-draw-arc-guidelines",
+        "evans-co.liberty-draw-metro-2026",
+        "co-hoa-backyard-detached"
+      ],
+      "sources": [
+        "https://www.libertydrawsmds.com/files/952790d36/Liberty+Draw+ARB+Guidelines+SF+(Final).pdf",
+        "https://www.evanscolorado.gov/news/posts/evans-city-council-meeting-july-21/",
+        "https://leg.colorado.gov/bill_files/92307/download"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "Off leash",
+      "h2": "Freedom Dog Park, the one dog park on the city's list, reopened August 31 after a summer closed for well work.",
+      "paras": [
+        "Freedom Dog Park on 42nd Street has separate areas for large dogs and for small or timid dogs, plus an agility training area. Evans closed it beginning May 25, 2026 while Chevron plugged and abandoned an oil and gas well near the park, and said on August 31 that it had reopened, Chevron having finished ahead of schedule.",
+        "Section 16.40.112 lets dogs off leash only inside designated off-leash dog parks, under voice control and in the owner's sight. Everywhere else off the owner's lot, a dog needs a leash of 10 feet or less, and droppings on public land or a neighbor's lot must be picked up at once. The pickup rule stops at the owner's lot line; inside it, the odor-and-drainage test above is what applies, so a turf run needs a cleaning routine of its own."
+      ],
+      "layerRefs": [
+        "evans-co.freedom-dog-park",
+        "evans-co.freedom-dog-park-closed-2026",
+        "evans-co.freedom-dog-park-reopened-2026",
+        "evans-co.code-16-40-112-off-leash",
+        "evans-co.code-6-04-020-at-large",
+        "evans-co.code-6-04-130-waste"
+      ],
+      "sources": [
+        "https://www.evanscolorado.gov/parks-recreation-and-community/parks/",
+        "https://www.evanscolorado.gov/news/posts/freedom-dog-park-temporarily-closed-beginning-may-25",
+        "https://www.evanscolorado.gov/news/posts/freedom-dog-park-reopens-following-completion-of-chevron-work",
+        "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT16EN_CH16.40PA_16.40.112OASDOPA",
+        "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT6AN_CH6.04ANCO_6.04.020COREUNLAPRWH",
+        "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT6AN_CH6.04ANCO_6.04.130ANDEWNRE"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Where the run goes",
+      "h2": "A run out front meets a 4-foot fence cap and a landscape share Evans hasn't sorted turf into.",
+      "paras": [
+        "Fences in a required front setback stop at 4 feet; other residential fences can reach 6, and chain link is an allowed material. A new or substantially improved front yard must also keep a minimum share in landscape, 50% on the suburban frontage that applies first in R-1, and nothing in the code says whether artificial turf counts as landscape or as hardscape. It depends on Evans's reading, so ask Evans Planning before putting a run out front.",
+        "Apartment complexes are a separate case: a dog relief area is one of the listed features for multifamily common areas, and those areas fall under the sentence on artificial turf. The [Evans commercial turf page](/areas/evans-co/commercial-turf/) covers it."
+      ],
+      "layerRefs": [
+        "evans-co.code-18-02-040-fences",
+        "evans-co.code-18-05-030-front-yard-landscape",
+        "evans-co.code-18-05-050-multifamily-common-areas",
+        "evans-code-18.08.020-common-areas"
+      ],
+      "sources": [
+        "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.02ZO_18.02.040ACUS",
+        "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.05REDE_18.05.030FR",
+        "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.05REDE_18.05.050LOOPSP",
+        "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.08LADE_18.08.020LADE"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does the Evans watering schedule cover hosing down a dog run?",
+      "a": "The posted rules set lawn-watering days by address and bar outdoor watering from 10 a.m. to 6 p.m.; they don't mention rinsing turf, a pen or a patio. Whether a hose on a run counts as outdoor watering depends on how the city reads it, so ask Evans customer service before planning midday rinses in summer."
+    },
+    {
+      "q": "What changed in Evans's animal code in July 2026?",
+      "a": "Ordinance 867-26 amended the animal-control chapter on July 21, 2026. The published notice gives only its title, and the online code, codified through January 6, 2026, doesn't show the new text yet. Ask the Evans City Clerk for the adopted ordinance before relying on a specific section."
+    },
+    {
+      "q": "What if the dog barks at the fence all day?",
+      "a": "Section 6.04.150 makes it unlawful to let an animal kept in a yard bark, howl or make other loud and persistent noise that reasonable people would call excessive or continuous. On a complaint, an officer can impound a dog whose owner is away. A turf surface does nothing about that."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Evans Municipal Code Sec. 6.04.140, nuisance animals (codified through Ord. No. 855-26, Jan. 6, 2026; before Ord. 867-26)",
+      "url": "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT6AN_CH6.04ANCO_6.04.140NUANDE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Evans Municipal Code Sec. 18.02.040, accessory uses: structures, fences, household pets, home occupations (codified through Ord. No. 855-26, Jan. 6, 2026)",
+      "url": "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.02ZO_18.02.040ACUS",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Evans legal notice: Ordinance No. 867-26, amending Chapter 6.04 animal control, passed second reading July 21, 2026",
+      "url": "https://www.evanscolorado.gov/media/yjuhcvyg/07212026-ordinance-867-26-2nd-reading.docx",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Evans",
+      "url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Evans, Animal Licensing",
+      "url": "https://www.evanscolorado.gov/living-here/animal-licensing/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Evans Municipal Code Sec. 6.04.010, animal definitions (codified through Ord. No. 855-26, Jan. 6, 2026; before Ord. 867-26)",
+      "url": "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT6AN_CH6.04ANCO_6.04.010DE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Evans Municipal Code Sec. 6.04.300(K), household animal limit and variance (codified through Ord. No. 855-26, Jan. 6, 2026; before Ord. 867-26)",
+      "url": "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT6AN_CH6.04ANCO_6.04.300ANCANLACDE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Evans news post, April 21, 2026: City Council meeting agenda (animal variance hearing)",
+      "url": "https://www.evanscolorado.gov/news/posts/evans-city-council-meeting-and-work-session-april-21",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Evans Municipal Code Sec. 18.02.020, allowed uses, Table 18-2-1 (codified through Ord. No. 855-26, Jan. 6, 2026)",
+      "url": "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.02ZO_18.02.020ALUS",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Evans, Parks (16 parks and open spaces listed)",
+      "url": "https://www.evanscolorado.gov/parks-recreation-and-community/parks/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Evans news post, May 26, 2026: Freedom Dog Park temporarily closed beginning May 25",
+      "url": "https://www.evanscolorado.gov/news/posts/freedom-dog-park-temporarily-closed-beginning-may-25",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Evans news post, Aug. 31, 2026: Freedom Dog Park reopens",
+      "url": "https://www.evanscolorado.gov/news/posts/freedom-dog-park-reopens-following-completion-of-chevron-work",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Evans Municipal Code Sec. 6.04.020, control required (codified through Ord. No. 855-26, Jan. 6, 2026; before Ord. 867-26)",
+      "url": "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT6AN_CH6.04ANCO_6.04.020COREUNLAPRWH",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Evans Municipal Code Sec. 6.04.130, animal defecation (codified through Ord. No. 855-26, Jan. 6, 2026; before Ord. 867-26)",
+      "url": "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT6AN_CH6.04ANCO_6.04.130ANDEWNRE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Evans Municipal Code Sec. 18.05.030, frontages, Table 18-5-3 (codified through Ord. No. 855-26, Jan. 6, 2026)",
+      "url": "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.05REDE_18.05.030FR",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Evans Municipal Code Sec. 18.05.050, lot open space (codified through Ord. No. 855-26, Jan. 6, 2026)",
+      "url": "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.05REDE_18.05.050LOOPSP",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Evans Municipal Code Sec. 18.08.020, landscape design (codified through Ord. No. 855-26, Jan. 6, 2026)",
+      "url": "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.08LADE_18.08.020LADE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Evans, Watering Restrictions and Seasonal Recommendations",
+      "url": "https://www.evanscolorado.gov/living-here/water-and-utilities/water-conservation/watering-restrictions-and-seasonal-recommendations/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Evans Municipal Code Secs. 16.40.111 and 16.40.112, dogs in parks and off-leash dog park (codified through Ord. No. 855-26, Jan. 6, 2026)",
+      "url": "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT16EN_CH16.40PA_16.40.112OASDOPA",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Evans Municipal Code Sec. 6.04.150, noisy animals (codified through Ord. No. 855-26, Jan. 6, 2026; before Ord. 867-26)",
+      "url": "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT6AN_CH6.04ANCO_6.04.150NOAN",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Liberty Draw Metropolitan District Nos. 1-9: Single Family Detached Home Architectural Guidelines (updated Sept. 25, 2024)",
+      "url": "https://www.libertydrawsmds.com/files/952790d36/Liberty+Draw+ARB+Guidelines+SF+(Final).pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Evans news post, July 21, 2026: City Council meeting agenda (Liberty Draw Metropolitan Districts)",
+      "url": "https://www.evanscolorado.gov/news/posts/evans-city-council-meeting-july-21/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "C.R.S. 38-33.3-106.5(1)(i.5), added by SB23-178 (signed act)",
+      "url": "https://leg.colorado.gov/bill_files/92307/download",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Confirmation that NoCo serves Evans and wants dog-run leads there",
+    "Evans dog-run or pet-turf jobs: subdivision, month, run size, number and size of dogs, how it drains",
+    "Camera-original photos of an Evans dog run: photos.ts has no photo with use 'pet' from any town yet",
+    "Any Liberty Draw ARC approval you have handled for a screened dog run, and what screening the committee accepted",
+    "Any dog relief area you have built or bid for an Evans apartment complex or business, and what Evans Planning said about turf there"
+  ]
+}

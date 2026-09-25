@@ -1,0 +1,148 @@
+{
+  "status": "draft",
+  "town": "wellington-co",
+  "service": "commercial-turf",
+  "title": "Commercial and HOA Turf in Wellington, CO | NoCo Turf Co.",
+  "description": "Wellington bars nonfunctional artificial turf in new development and caps living turf by site: 50% parks, 40% multifamily, 30% commercial, 20% parking lots.",
+  "h1": "Wellington caps living turf by site type on new development, from 50% in parks to 20% in parking lots",
+  "display": {
+    "paint": "from 50% in parks to 20% in parking lots"
+  },
+  "lede": "Section 15-5-40, last amended by Ordinance 13-2025 in October 2025, says each set of landscape standards complies with SB24-005 and HB25-1113. The code defines turf as living grass, so its ceilings don't put a number on functional artificial turf.",
+  "answer": {
+    "question": "Can a business or HOA in Wellington install artificial turf?",
+    "answer": "In new development and redevelopment, only functional turf: Wellington's code bars nonfunctional artificial turf and counts playgrounds, sports fields, picnic grounds, parts of parks and putting greens as functional. Nonfunctional turf put in before January 1, 2026 may be maintained. Ask Wellington Planning how much functional artificial turf a site may carry. NoCo Turf Co. installs commercial turf in Wellington."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Section 15-5-40",
+      "h2": "Each kind of new site in Wellington gets its own ceiling on living turf.",
+      "paras": [
+        "Wellington's landscape standards apply to new development and redevelopment under site plan review or a subdivision application. As amended by Ordinance 13-2025, the section sets how much of a site's landscaped area may be functional turf: no more than 50% in new parks, 40% on multifamily sites, 30% in the C-1 and C-3 commercial districts and on industrial sites, and 20% of the combined landscape areas of a parking lot with 10 or more spaces.",
+        "The purpose statement of each of those subsections says its standards comply with SB24-005, HB25-1113 and Colorado law, and each repeats the Town's ban on nonfunctional artificial turf, covered on the [Wellington page](/areas/wellington-co/).",
+        "Section 15-9-20 defines turf as living, regularly mowed nonnative grass, so the ceilings read as limits on living grass; the code puts no number on functional artificial turf. It depends on the site plan; ask Wellington Planning. Not legal advice."
+      ],
+      "layerRefs": [
+        "wellington-co.code-15-5-40-turf-caps",
+        "wellington-co.code-15-5-40-parks-open-space",
+        "wellington-code-15-5-40-nonfunctional",
+        "wellington-co.code-15-9-20-turf-terms"
+      ],
+      "sources": [
+        "https://library.municode.com/co/wellington/codes/municipal_code?nodeId=CH15LAUSCO_ART5DEST_S15-5-40LASC",
+        "https://library.municode.com/co/wellington/codes/municipal_code?nodeId=CH15LAUSCO_ART9DE_S15-9-20DETE"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "HOA open space",
+      "h2": "New HOA parks and open space keep turf to fields and play space.",
+      "paras": [
+        "The park standard in Section 15-5-40 reaches public parks, pocket parks, detention ponds, trail connections and common open space built for public or HOA use. In those, only high-traffic areas such as sport fields and informal play space adjacent to playgrounds shall contain functional or high-water turf, and park edges and detention ponds go to low-water or native plants and seed mix.",
+        "A developer must also set up a mechanism, such as a homeowners' association and covenants, to maintain those parks, ponds and open spaces for the long term."
+      ],
+      "layerRefs": [
+        "wellington-co.code-15-5-40-parks-open-space"
+      ],
+      "sources": [
+        "https://library.municode.com/co/wellington/codes/municipal_code?nodeId=CH15LAUSCO_ART5DEST_S15-5-40LASC"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Irrigation",
+      "h2": "Living turf on a new Wellington site needs its own irrigation water.",
+      "paras": [
+        "Section 15-5-40 requires new landscaping to be irrigated by an efficient, automated underground system, and requires non-potable water for irrigation where a permanent, suitable supply is available.",
+        "Where it isn't and the Town approves a connection to its domestic system, irrigation taps are installed and metered separately from any other tap, with raw water dedication and billing charges set by the Town's fee schedule.",
+        "How a landscape plan counts functional artificial turf, which needs no irrigation tap, the code doesn't say; ask Wellington Planning."
+      ],
+      "layerRefs": [
+        "wellington-co.code-15-5-40-irrigation"
+      ],
+      "sources": [
+        "https://library.municode.com/co/wellington/codes/municipal_code?nodeId=CH15LAUSCO_ART5DEST_S15-5-40LASC"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "Fields",
+      "h2": "Wellington's parks plan finds the town one rectangular field short.",
+      "paras": [
+        "The 2026 PROST plan counts 3 rectangular fields in Wellington, one for every 4,144 residents against an NRPA median of one per 2,493, and says one more is needed to meet that median. In the plan's focus groups, residents asked for indoor and outdoor multipurpose spaces that feature astroturf, and named water availability as a critical issue.",
+        "The field planned to host games for all Poudre School District schools is in Wellington too: Wellington Middle-High School's athletic complex has a lighted multi-use field with stadium seating and concessions, plus three practice fields. Neither the builder's page nor the district's names the field surface."
+      ],
+      "layerRefs": [
+        "wellington-co.prost-park-metrics",
+        "wellington-co.prost-focus-groups",
+        "wellington-co.prost-adopted",
+        "wellington-co.wmhs-athletic-complex"
+      ],
+      "sources": [
+        "https://www.wellingtoncolorado.gov/DocumentCenter/View/5820/Wellington-Parks-Recreation-Opens-Spaces-Trails-Master-Plan---Appendix",
+        "https://www.wellingtoncolorado.gov/607/Town-Masterplans",
+        "https://www.a-p.com/projects/poudre-school-district-wellington-middle-high-school/",
+        "https://www.psdschools.org/community/mill-and-bond-initiatives/new-schools-and-facility-improvements/new-wellington-middle-high-school"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can we put artificial turf in parking lot islands in Wellington?",
+      "a": "Not as the island's cover. Each interior island needs one shade tree and 75% live plant material cover, and irrigated sod isn't allowed in interior islands either (Section 15-5-40(o))."
+    },
+    {
+      "q": "Does changing an existing HOA common area need Town review?",
+      "a": "It depends. Wellington's landscape standards apply to new development or redevelopment subject to site plan review or a subdivision application. Whether a turf project in an existing common area triggers that review is a question for Wellington Planning before the HOA votes."
+    },
+    {
+      "q": "Is a putting green at a clubhouse functional turf in Wellington?",
+      "a": "By definition, yes: Section 15-9-20 names chipping and putting greens, tee boxes and driving ranges among golf playing areas. In a new park or common open space, the park standard still steers turf to sport fields and play space, so ask Wellington Planning before designing one."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wellington Municipal Code Sec. 15-5-40, Landscaping and screening, as amended by Ord. No. 13-2025, Oct. 28, 2025 (codified through Ord. No. 07-2026, July 14, 2026)",
+      "url": "https://library.municode.com/co/wellington/codes/municipal_code?nodeId=CH15LAUSCO_ART5DEST_S15-5-40LASC",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Wellington Municipal Code Sec. 15-9-20, Land Use Code defined terms (codified through Ord. No. 07-2026, July 14, 2026)",
+      "url": "https://library.municode.com/co/wellington/codes/municipal_code?nodeId=CH15LAUSCO_ART9DE_S15-9-20DETE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Wellington, Parks, Recreation, Open Spaces and Trails (PROST) Master Plan, 2026, full plan with appendices",
+      "url": "https://www.wellingtoncolorado.gov/DocumentCenter/View/5820/Wellington-Parks-Recreation-Opens-Spaces-Trails-Master-Plan---Appendix",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Wellington, Town Master Plans page (PROST plan adopted by the Board of Trustees in 2026)",
+      "url": "https://www.wellingtoncolorado.gov/607/Town-Masterplans",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "AP Construction project page: Poudre School District Wellington Middle-High School",
+      "url": "https://www.a-p.com/projects/poudre-school-district-wellington-middle-high-school/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Poudre School District, New Wellington Middle-High School project page",
+      "url": "https://www.psdschools.org/community/mill-and-bond-initiatives/new-schools-and-facility-improvements/new-wellington-middle-high-school",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Commercial, HOA, school or sports turf jobs in Wellington: property type, month, size, and what the turf is for",
+    "A camera-original photo of your own commercial, HOA or sports job: no photos.ts photo carries use 'commercial' yet",
+    "Any Wellington site plan where Planning ruled on functional artificial turf against the Sec. 15-5-40 caps, and what it decided",
+    "Whether you have bid Poudre School District field work at Wellington Middle-High School, and what surface the stadium field is",
+    "Wellington HOAs or metro districts whose common areas you have worked on (Buffalo Creek, Sundance at Daubert Farm, others)"
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "status": "draft",
+  "town": "johnstown-co",
+  "service": "playground-turf",
+  "title": "Playground Turf and Play Areas in Johnstown, CO | NoCo Turf Co.",
+  "description": "Johnstown's last two park playground rebuilds swapped wood fiber and mulch for poured rubber. What that, and the Town's code, mean for a play area at home.",
+  "h1": "Johnstown's last two playground rebuilds pulled out wood fiber and mulch for poured-in-place rubber.",
+  "display": {
+    "paint": "poured-in-place rubber"
+  },
+  "lede": "In April 2025 the Council picked a Hays Park rebuild that pulls out wood fiber for poured rubber, and in June 2026 it did the same with the mulch at Sunrise Park. A back yard isn't a public park, but the Town's own choices are a fair measure for a play area at home.",
+  "answer": {
+    "question": "What does Johnstown put under its public playgrounds now?",
+    "answer": "Poured-in-place rubber, in its two latest rebuilds. The Hays Park work awarded April 21, 2025 specified it for a variable 4- to 10-foot fall height, and the Sunrise Park contract of June 2026 uses it to replace mulch in both play areas. NoCo Turf Co. installs playground turf under backyard playsets in Johnstown, Colorado."
+  },
+  "blocks": [
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "Hays and Sunrise parks",
+      "h2": "The Town's last two playground rebuilds both went to poured rubber.",
+      "paras": [
+        "Public Works told the Council in April 2025 that the Hays Park playground was the highest priority for replacement, with frequent maintenance and aging equipment. Both options it priced removed about 3,450 square feet of wood fiber surfacing, laid an average 6 inches deep, in favor of poured-in-place rubber rated for a variable 4- to 10-foot fall height. The Council awarded Option 2 on April 21, 2025.",
+        "Sunrise Park came next, in June 2026: two play areas with a rustic fort theme, a 21-foot tower at the center of the south area, and poured-in-place rubber replacing the mulch under the equipment in both. The staff memo counts eight public parks with Letford added, and says the equipment at Aragon, Lake and Hays parks has been replaced in recent years."
+      ],
+      "layerRefs": [
+        "johnstown-co.hays-park-option-2",
+        "johnstown-co.hays-park-surfacing",
+        "johnstown-co.sunrise-park-surfacing",
+        "johnstown-co.parks-eight-public"
+      ],
+      "sources": [
+        "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=657,plainText=false)",
+        "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=816,plainText=false)",
+        "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=976,plainText=false)",
+        "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=983,plainText=false)"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "New neighborhoods",
+      "h2": "New playgrounds have to sit outside Johnstown's oil and gas setbacks.",
+      "paras": [
+        "Sec. 17-3-2 of the Land Use and Development Code requires playgrounds, sport courts and community gathering spaces in new development to sit outside the setbacks for oil and gas wells and facilities in Tables 5-1 and 6-1. For buildings and structures, those setbacks are at least 50 feet from a plugged and abandoned well and 250 feet from an oil and gas facility.",
+        "In a park planned for public dedication, the code asks that 15% to 50% of the ground be designed for active recreation such as ball fields, playgrounds or sport courts, and Sec. 17-8-4 names areas designed for play among the few places irrigated turf may go."
+      ],
+      "layerRefs": [
+        "johnstown-co.ludc-17-3-2-playgrounds-oil-gas",
+        "johnstown-co.ludc-table-5-1-well-setbacks",
+        "johnstown-co.ludc-17-3-2-park-active-share",
+        "johnstown-co.ludc-17-8-4-turf-areas"
+      ],
+      "sources": [
+        "https://www.johnstownco.gov/DocumentCenter/View/1403/Land-Use-And-Development-Code"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Home childcare",
+      "h2": "Johnstown lets in-home care use the whole house and skips the visit caps.",
+      "paras": [
+        "The home-occupation standards in Sec. 17-4-4(C) permit in-home care subject to all required state licensing and operation provisions. Other home businesses may use no more than half the combined floor area and see no more than 8 customers a day, 2 at a time; permitted home care is exempt from both. The same section generally limits visits to between 7 a.m. and 9 p.m., home care included.",
+        "Care in a commercial building is a separate use the code calls dependent care, sized by floor area: limited under 3,000 square feet, general from 3,000 to 8,000 and large above that. A new center, or a change of use to one, generally falls under the Article 8 landscape standards."
+      ],
+      "layerRefs": [
+        "johnstown-co.ludc-17-4-4-c-home-care",
+        "johnstown-co.ludc-dependent-care",
+        "johnstown-co.ludc-17-8-1-applicability"
+      ],
+      "sources": [
+        "https://www.johnstownco.gov/DocumentCenter/View/1403/Land-Use-And-Development-Code"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "Letford and the river park",
+      "h2": "Two new parks are planned, one of them built around a destination playground.",
+      "paras": [
+        "Letford Park, six acres on the former Letford Elementary School site a quarter mile north of Highway 60, has a master plan approved in 2025 with natural play areas and an extensive playground. The plan's site survey shows the existing playground there on pea gravel. The Town is finishing the design through 2026 and aims to build from early 2027 to the end of that year.",
+        "At the 61-acre river park south of downtown, the plan's centerpiece is a destination playground terraced into the Little Thompson River's floodplain bluff, with in-grade slides and climbing elements, beside a smaller playground and a kids' pump track. A destination playground was the most agreed-upon feature in the plan's public survey."
+      ],
+      "layerRefs": [
+        "johnstown-co.letford-park-schedule",
+        "johnstown-co.letford-pea-gravel",
+        "johnstown-co.river-park-destination-playground",
+        "johnstown-co.river-park-survey"
+      ],
+      "sources": [
+        "https://www.johnstownco.gov/566/Letford-Park-Master-Plan",
+        "https://www.johnstownco.gov/DocumentCenter/View/1042/Johnstown-Parks-Master-Plan---FINAL-DRAFT"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is poured rubber the same thing as playground turf?",
+      "a": "No. Poured-in-place is rubber granules and binder cast on site; playground turf is synthetic grass laid over a shock pad. Either one is chosen for the fall height of the equipment above it, and the [playground turf page](/services/playground-turf/) covers how a pad is matched to a set."
+    },
+    {
+      "q": "Does Johnstown's code treat a backyard playset as a structure?",
+      "a": "It may. The code calls a structure of 200 square feet or less, under 10 feet tall and not on a slab a minor accessory structure: it should be movable and must meet easement conditions and the Table 5-2 setbacks, 5 feet from side and rear lot lines. Whether a given set counts depends on its size; ask Johnstown Planning."
+    },
+    {
+      "q": "Which school districts cover Johnstown?",
+      "a": "Two. Weld RE-5J's schools serve about 3,900 students in Johnstown and Milliken, and Thompson School District's territory takes in sections of Johnstown as well. School playgrounds belong to the districts, not the Town."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Town of Johnstown, Town Council packet, April 21, 2025: Hays Park Playground Contract Award (Go Play proposals and staff memo)",
+      "url": "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=657,plainText=false)",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Johnstown, April 21, 2025 Town Council minutes (Hays Park award, Option 2)",
+      "url": "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=816,plainText=false)",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Johnstown, Town Council packet, June 1, 2026: Sunrise Park Playground Equipment Replacement Contract Award",
+      "url": "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=976,plainText=false)",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Johnstown, June 15, 2026 Town Council packet (June 1, 2026 minutes: Sunrise Park award passed unanimously)",
+      "url": "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=983,plainText=false)",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Johnstown Land Use and Development Code, Chapter 17 (Town PDF, effective December 5, 2023; file updated September 3, 2025): Secs. 17-3-2, 17-4-4(C), 17-5-2 and Table 5-2 (minor structures of 200 sq ft or less), 17-8-1 and 17-8-4",
+      "url": "https://www.johnstownco.gov/DocumentCenter/View/1403/Land-Use-And-Development-Code",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Johnstown, Letford Park Master Plan page",
+      "url": "https://www.johnstownco.gov/566/Letford-Park-Master-Plan",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Johnstown, parks master plan by Wenk Associates (the file the Town links as its final master plan)",
+      "url": "https://www.johnstownco.gov/DocumentCenter/View/1042/Johnstown-Parks-Master-Plan---FINAL-DRAFT",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Johnstown, Schools page (Weld RE-5J serves 3,900 students in Johnstown and Milliken; Thompson School District)",
+      "url": "https://www.johnstownco.gov/409/Schools",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Backyard play areas or playset turf NoCo has done in Johnstown: subdivision, month, the set's highest platform and the pad used",
+    "A camera-original play-area photo taken in Johnstown, to add to src/data/photos.ts with use 'play'. The existing 'playset' photo is placed 'south of Windsor'; if its original EXIF puts it inside Johnstown town limits, say so and photos.ts can name Johnstown",
+    "Any Johnstown in-home daycare or childcare-center clients, with consent to describe the job",
+    "Whether NoCo has bid any Town, school or HOA playground in Johnstown; the Town's two latest rebuilds went to poured-in-place rubber"
+  ]
+}

@@ -1,0 +1,818 @@
+[
+  {
+    "id": "severance-co.code-7-6-80-animal-areas",
+    "layer": "ordinance",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "Severance's animal code requires any area where animals are kept to be maintained so it does not create odors, dust, noise or drainage offensive to the neighbors, and makes an animal that damages lawns, plants or fences a public nuisance.",
+    "quote": "(a) Any animal that menaces or attacks persons, vehicles or other animals, goes upon school premises without the permission of the person in charge thereof or damages, destroys or injures any shrubbery, plants, flowers, lawn, fence or other property, either private or public, is hereby declared to be a public nuisance, and the owner shall be deemed to be responsible for the actions of the animal. (b) Areas in which animals are kept shall be maintained in a manner which does not create odors, dust, noise or drainage offensive to the senses of smell, hearing or sight, thereby constituting a hazard or nuisance to the use or enjoyment of adjoining properties.",
+    "source_url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH7HESAAN_ART6AN_S7-6-80MANUAN",
+    "source_label": "Severance Municipal Code Sec. 7-6-80, Maintaining a nuisance animal (codified through Ord. No. 2025-27, Dec. 9, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read 2026-09-25 through the Municode API (api.municode.com CodesContent, productId 18258, jobId 473320, Supp. No. 15); the library page renders by script."
+  },
+  {
+    "id": "severance-co.code-7-6-160-animal-limit",
+    "layer": "ordinance",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "A Severance residence may keep no more than 4 animals of any kind and no more than 3 dogs or 3 cats within that total, a cap that skips family poultry, nursing litters under 12 weeks old and any address holding a Town Council animal permit under Section 7-6-10, the permit the code sets up for animals other than dogs, cats, rodents, fish, birds, reptiles and amphibians.",
+    "quote": "(a) The only animals allowed to be kept by any person within the Town are domesticated dogs, domesticated cats, rodents, fish, birds, reptiles, and amphibians. All other animals are prohibited unless the property where the animal to be kept is specifically zoned for the purpose of keeping that type of animal (such as livestock animals on agriculture land), or as otherwise allowed by permit issued by the Town Council … No residence or address shall be allowed to keep more than four (4) animals of any kind, and not more than three (3) dogs or three (3) cats or any combination thereof not exceeding the total number of four (4). This Section shall not apply to the keeping of family poultry for personal use or to residences or addresses which have otherwise been permitted animals as set forth in Section 7-6-10 above, or to residences where new litters are still nursing and such litters are less than twelve (12) weeks old. … the Town Council shall issue a permit if the location where the animal is to be kept, number of animals, and type of animals is compatible with the size of the lot, zoning, character of the neighborhood, and such other criteria as the Town Council may determine.",
+    "source_url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH7HESAAN_ART6AN",
+    "source_label": "Severance Municipal Code Secs. 7-6-10(a)-(b) (Animals) and 7-6-160 (Animals; limit on number) (codified through Ord. No. 2025-27, Dec. 9, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4",
+      "3",
+      "12"
+    ],
+    "notes": "Read through the Municode API (jobId 473320) on 2026-09-25. Fragments in order: 7-6-10(a), 7-6-160, 7-6-10(b). The 7-6-10 permit is written for animals outside the (a) list; whether it can lift the dog cap is not settled, so pages don't say it can."
+  },
+  {
+    "id": "severance-co.code-7-6-20-running-at-large",
+    "layer": "ordinance",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "Under Severance's code an animal is running at large once it is outside a fence or other enclosure that keeps it on a premises and is not on a leash held by its owner or keeper, and the Town may impound it until a redemption fee and daily care fee are paid.",
+    "quote": "(a) All animals shall be kept under control. No owner, harborer, keeper or other person who has assumed responsibility for an animal shall allow such animal to run at large within the Town. … (b) An animal shall be considered running at large when the animal is outside of a fence or other enclosure which restrains the animal to a particular premise and is not attached to a leash being held by the owner, harborer, or keeper. … It is lawful for the Town Manager or police officer or other designated officer of the Town to impound any animal which has been found running at large or return said animal to the owner, keeper, harborer or other person who has assumed responsibility of the animal … Any animal so impounded shall not be returned to the owner until a redemption fee has been paid and any applicable license is made current, which redemption fee shall consist of the fee contained in the current fee schedule to this Code plus an additional daily fee for the feeding and care of such animal, as contained in the current fee schedule to this Code.",
+    "source_url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH7HESAAN_ART6AN",
+    "source_label": "Severance Municipal Code Secs. 7-6-20 (Control of animals) and 7-6-170 (Impoundment authorized) (codified through Ord. No. 2025-27, Dec. 9, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "severance-co.code-7-6-200-pets-in-parks",
+    "layer": "ordinance",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "Severance lets pets go with their owners into public parks unless posted signs say otherwise, under its control rule and its rule that owners remove their animal's waste from public property right away.",
+    "quote": "Subject to Sections 7-6-20 of this Code regarding control of animals and Section 7-6-90 regarding owner responsibility for cleaning up after their animals, and except as prohibited by posted signage conspicuously displayed, pets may accompany their owners in public parks. … (a) Any owner taking the animal upon any public way or other public property in the Town shall immediately remove or cause to be removed, and lawfully dispose of, all fecal matter left on such property by the animal.",
+    "source_url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH7HESAAN_ART6AN_S7-6-200ANPA",
+    "source_label": "Severance Municipal Code Secs. 7-6-200 (Animals in park) and 7-6-90(a) (Animal defecation) (codified through Ord. No. 2025-27, Dec. 9, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "severance-co.ord-2026-04-dog-licenses",
+    "layer": "ordinance",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "Severance Ordinance No. 2026-04, adopted June 9, 2026, cut the Town's dog and cat license term from 20 years to 3, with licenses expiring December 31 of the second calendar year after issuance, and from July 10, 2026 requires a second tag, fastened to the collar or harness beside the Town tag, with the owner's name, street address and phone number.",
+    "quote": "WHEREAS, Section 7-6-40 of the Severance Municipal Code currently provides for a twenty (20) year dog and cat license term … Licenses issued for dogs and cats in this Town shall be good for a period of three (3) years. All licenses shall expire on December 31 of the second calendar year following the year of issuance. … (b) In addition to the Town-issued tag required under subsection (a) of this Section, each owner, keeper, or harborer shall securely fasten to the animal's collar or harness a tag identifying the animal's owner. This owner identification tag shall contain the following current information: (1) The owner's first and last name; (2) The owner's physical street address (no post office box); and (3) The owner's current telephone number. (c) If any dog or cat is found to be off the premises of its owner without an owner identification tag affixed as required by subsection (c) of this Section, the owner shall be presumed to have violated the provisions of this Section. … New license applications and renewals submitted on or after July 10, 2026, shall be subject to the three (3) year term, with expiration on December 31 of the second year following the year of issuance. The owner identification tag requirement shall apply to all owners of dogs and cats within the Town on or after July 10, 2026.",
+    "source_url": "https://www.townofseverance.org/DocumentCenter/View/1207",
+    "source_label": "Town of Severance Ordinance No. 2026-04, amending Secs. 7-6-40 and 7-6-70 (adopted June 9, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "effective": "2026-07-10",
+    "numbers": [
+      "9",
+      "2026",
+      "20",
+      "3",
+      "31",
+      "10",
+      "1",
+      "2"
+    ],
+    "notes": "Scanned PDF (no text layer); re-read from the page images on 2026-09-25 and the quote checked word for word. Not yet in the Municode supplement (codified through Ord. No. 2025-27), which still shows the 20-year term."
+  },
+  {
+    "id": "severance-co.dog-park-2026",
+    "layer": "place",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "The Town's Parks & Trails map dated April 13, 2026 lists the Severance Dog Park at 2.0 acres among 18 numbered park sites totaling 105.1 acres.",
+    "quote": "Parks (105.1 Acres) … 14. Severance Dog Park (2.0 Acres) … Parks & Trails Severance, Colorado … Project 51-0442 • 4.13.2026",
+    "source_url": "https://www.townofseverance.org/DocumentCenter/View/267/Parks-Map-PDF",
+    "source_label": "Town of Severance, Parks & Trails, Map 12 (Ayres, Project 51-0442, April 13, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "13",
+      "2026",
+      "2.0",
+      "18",
+      "105.1",
+      "14"
+    ],
+    "notes": "The map PDF has no text layer; the legend was read from the rendered image on 2026-09-25 and transcribed word for word. Legend items run 1 to 18."
+  },
+  {
+    "id": "severance-co.parks-map-2026",
+    "layer": "place",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "The Town's April 13, 2026 Parks & Trails map puts Severance Community Park at 37.3 acres, the park system at 105.1 acres and the trail system at 40.9 miles.",
+    "quote": "Trails (40.9 Miles) … Parks (105.1 Acres) … 13. Severance Community Park (37.3 Acres) … Project 51-0442 • 4.13.2026",
+    "source_url": "https://www.townofseverance.org/DocumentCenter/View/267/Parks-Map-PDF",
+    "source_label": "Town of Severance, Parks & Trails, Map 12 (Ayres, Project 51-0442, April 13, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "13",
+      "2026",
+      "37.3",
+      "105.1",
+      "40.9"
+    ],
+    "notes": "Legend transcribed from the rendered map image (no text layer)."
+  },
+  {
+    "id": "severance-co.lakeview-dog-park-2017",
+    "layer": "place",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "Severance's 2017 Parks Master Plan recorded that the dog park south of Lakeview was used heavily, even by neighboring communities, had a single shade tree, and recommended adding benches or shade there.",
+    "quote": "The dog park has a single tree that provides some shade with a plastic bench under it. … Dog Park to the south of Lakeview is used heavily, even by neighboring communities. … Provide amenities such as benches or shaded areas in the dog park.",
+    "source_url": "https://www.townofseverance.org/DocumentCenter/View/250/Parks-Master-Plan-PDF",
+    "source_label": "Town of Severance Parks Master Plan Report (adopted March 2017)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2017"
+    ],
+    "notes": "A 2017 plan: the Parks & Recreation page says an updated Parks Master Plan is coming soon. Pages must date it."
+  },
+  {
+    "id": "severance-co.karen-suman-park",
+    "layer": "place",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "Karen Suman Park, a Town park in the Timber Ridge subdivision, has a Play-On! playground built around sliding, swinging, spinning, climbing, brachiating and balancing.",
+    "quote": "Located at 1108 Pinon Pine Drive in the Timber Ridge subdivision at Timber Ridge Parkway and Pinon Pine Drive. … Karen Suman Park offers open space, picnic tables, benches, trees, flowers, and plenty of grass. Our new Play-On! Playground was designed as a project of excellence, built to meet best practices in youth fitness through sliding, swinging, spinning, climbing, brachiating, and balancing.",
+    "source_url": "https://www.townofseverance.org/Facilities/Facility/Details/Karen-Suman-Park-3",
+    "source_label": "Town of Severance, Facilities: Karen Suman Park",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1108"
+    ]
+  },
+  {
+    "id": "severance-co.lakeview-park",
+    "layer": "place",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "Lakeview Park, at the south end of Severance's Lakeview subdivision, has playground equipment, a skateboard park, basketball courts, covered picnic shelters and restrooms.",
+    "quote": "Located at 513 1/2 Broadview Drive at the south end of the Lakeview subdivision. … This large park offers an open space with trees and grass. Amenities include covered picnic shelters, restrooms, BBQ pits, playground equipment, a skateboard park, and basketball courts.",
+    "source_url": "https://www.townofseverance.org/Facilities/Facility/Details/Lakeview-Park-4",
+    "source_label": "Town of Severance, Facilities: Lakeview Park",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "513",
+      "1/2"
+    ]
+  },
+  {
+    "id": "severance-co.summit-view-park",
+    "layer": "place",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "Summit View Park, in the middle of Severance's Summit View subdivision, has a playground, picnic shelters and picnic tables.",
+    "quote": "Summit View Park … Features Picnic Shelters Picnic Tables Playground Located in the middle of the Summit View Subdivision and can be accessed on all sides from Summit View Dr., Evans Dr., and Audubon Blvd.",
+    "source_url": "https://www.townofseverance.org/Facilities/Facility/Details/Summit-View-Park-5",
+    "source_label": "Town of Severance, Facilities: Summit View Park",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "severance-co.code-16-5-130-amenity-points",
+    "layer": "ordinance",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "Severance's Land Use Code requires 1 to 7 amenity points from residential projects by unit count and scores commercial-grade playgrounds by playground zone area (2 points over 2,500 square feet, 1 point from 1,000 to 2,500, half a point under 1,000), a large dog park at 1 point and a dog run at half a point.",
+    "quote": "The following amenity points shall be required for residential projects, based on the total number of units: Up to ten (10) dwelling units equals one (1) amenity point. From eleven (11) to thirty (30) dwelling units equals three (3) amenity points. From thirty-one (31) to fifty (50) dwelling units equals five (5) amenity points. From fifty-one (51) to one hundred and fifty (150) dwelling units equals six (6) amenity points. More than one hundred and fifty-one (151) dwelling units equals seven (7) amenity points. … Two (2) amenity points each … Multifunctional playgrounds with commercial grade equipment; large (greater than two thousand and five hundred (2,500) square feet playground zone area). … One (1) amenity point each … 4. Dog park—Large. 5. Multifunctional playgrounds with commercial grade equipment; medium (one thousand (1,000) to two thousand and five hundred (2,500) square feet playground zone area). 6. Court games (tennis, volleyball, basketball, etc.) at least one thousand (1,000) square feet in size. c. One-half (0.5) amenity points each. 1. Dog run. … Multifunctional playgrounds with commercial grade equipment; small (less than one thousand (1,000) square feet playground zone area).",
+    "source_url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART5SIDEST_DIV1OPSPBUPECO_S16.5.130AMPO",
+    "source_label": "Severance Land Use Code Sec. 16.5.130, Amenity points (Ord. No. 2025-15, Aug. 12, 2025; codified through Ord. No. 2025-27, Dec. 9, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "7",
+      "2",
+      "2,500",
+      "1,000",
+      "0.5",
+      "10",
+      "11",
+      "30",
+      "3",
+      "31",
+      "50",
+      "5",
+      "51",
+      "150",
+      "6",
+      "151",
+      "4",
+      "6"
+    ],
+    "notes": "Read through the Municode API (jobId 473320). Ord. No. 2025-15 replaced all of Chapter 16 on Aug. 12, 2025."
+  },
+  {
+    "id": "severance-co.code-16-6-130-multifamily-amenities",
+    "layer": "ordinance",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "For multifamily projects Severance sets amenity points by zone district, so a project of 51 to 150 units owes 5 points in the Suburban Perimeter and 6 in the Development Node or Town Core, with the same playground scale by playground zone area.",
+    "quote": "Table 16.6.130.a. Amenity Point Calculations for Multi-family Developments Residential Unit Breakdown SP Zone District DN Zone District TC Zone District Up to 10 Dwelling Units 1 1 1 11 to 30 Units 2 3 2 31 to 50 Units 3 5 5 51 to 150 Units 5 6 6 More than 151 Dwelling Units 7 7 7 … (3) Multifunctional playgrounds with commercial grade equipment—Large (greater than two-thousand and five hundred (2,500) square feet playground zone area).",
+    "source_url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART6DEST_DIV1MUMIREDEST_S16.6.130AMPOMUMIRE",
+    "source_label": "Severance Land Use Code Sec. 16.6.130, Amenity points for multi-family residential (Ord. No. 2025-15, Aug. 12, 2025; codified through Ord. No. 2025-27, Dec. 9, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "51",
+      "150",
+      "5",
+      "6",
+      "10",
+      "1",
+      "11",
+      "30",
+      "2",
+      "3",
+      "31",
+      "50",
+      "151",
+      "7",
+      "2,500"
+    ]
+  },
+  {
+    "id": "severance-co.code-16-1-310-playground-zone",
+    "layer": "ordinance",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "Severance's Land Use Code defines a playground zone area as the safety area around each piece of playground equipment that must be kept clear of other structures and decorations.",
+    "quote": "Playground zone area means a designated safety area surrounding each item of playground equipment that must be kept free and clear if other structures, decorations, or similar devices.",
+    "source_url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART1GEPR_DIV3DE_S16.1.310DE",
+    "source_label": "Severance Land Use Code Sec. 16.1.310, Definitions (Ord. No. 2025-15, Aug. 12, 2025; codified through Ord. No. 2025-27, Dec. 9, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "\"free and clear if other structures\" is the code's own wording (sic)."
+  },
+  {
+    "id": "severance-co.code-16-1-310-landscaping",
+    "layer": "ordinance",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "Severance's 2025 Land Use Code defines landscaping as living plants, such as trees, shrubs, ground cover or turf grasses, plus features like walkways, fences and benches, and says nothing of artificial turf.",
+    "quote": "Landscaping means any combination of living plants, such as trees, shrubs, plants, vegetative ground cover or turf grasses, and may include structural features such as walkways, fences, benches, works of art, reflective pools, fountains, or the like. Landscaping shall also include irrigation systems, mulches, topsoil use, soil preparation, revegetation or the preservation, protection, and replacement of existing trees.",
+    "source_url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART1GEPR_DIV3DE_S16.1.310DE",
+    "source_label": "Severance Land Use Code Sec. 16.1.310, Definitions (Ord. No. 2025-15, Aug. 12, 2025; codified through Ord. No. 2025-27, Dec. 9, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "2025"
+    ],
+    "notes": "Full text of Chapter 16 (Articles 1-6) and Chapters 7, 13 and 18 fetched through the Municode API on 2026-09-25: 'artificial' appears in no Chapter 16 section; 'turf' appears only as turf grass."
+  },
+  {
+    "id": "severance-co.code-16-5-115-open-space",
+    "layer": "ordinance",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "Severance requires residential developments to set aside at least 25% of gross land area as functional open space (15% for nonresidential), a central multifunctional park in projects of 50 or more units, and drought-tolerant turf grass sized to the open space's use.",
+    "quote": "Of the required open space for developments, no more than twenty percent (20%) may be classified as passive open space. … Residential developments shall provide a minimum of twenty-five percent (25%) of the gross land area as functional open space. … Residential developments with fifty (50) or more units shall incorporate a minimum of one (1) centrally located multifunctional park. … Nonresidential developments shall provide a minimum of fifteen percent (15%) of the gross land area as functional open space. … The amount of turf grass shall be determined by the intended use of the open space. a. Turf areas shall be naturalized, avoiding rectangular shapes and forms, unless required for a specific sports activity. Turf grass shall be avoided in heavily shaded areas. b. Turf grasses shall be drought tolerant. … (5) Grass turf areas classified as medium or high water use shall be limited to high use or high visibility areas.",
+    "source_url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART5SIDEST_DIV1OPSPBUPECO_S16.5.115OPSPST",
+    "source_label": "Severance Land Use Code Sec. 16.5.115, Open space standards (Ord. No. 2025-15, Aug. 12, 2025; codified through Ord. No. 2025-27, Dec. 9, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "25",
+      "15",
+      "50",
+      "20",
+      "1",
+      "5"
+    ]
+  },
+  {
+    "id": "severance-co.code-16-1-310-functional-open-space",
+    "layer": "ordinance",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "Severance's Land Use Code counts open space as functional when it is large enough to serve a practical purpose such as recreation or habitat, and excludes parking, loading areas, service driveways and oil and gas setbacks.",
+    "quote": "Functional open space means open space that is large enough to serve a practical purpose, such as recreation, wildlife habitat or preservation of areas of agricultural, archaeological, or historical significance and shall exclude areas used for off-street parking, off-street loading, service driveways and setbacks from oil and gas wells or their appurtenances or other hazards to the public.",
+    "source_url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART1GEPR_DIV3DE_S16.1.310DE",
+    "source_label": "Severance Land Use Code Sec. 16.1.310, Definitions (Ord. No. 2025-15, Aug. 12, 2025; codified through Ord. No. 2025-27, Dec. 9, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "severance-co.code-16-6-120-multifamily-landscape",
+    "layer": "ordinance",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "Severance's multifamily landscape standards require irrigated turf, or an alternative the Town Manager or a designee approves, on active recreation areas in every zone district that allows multifamily housing.",
+    "quote": "Irrigated turf or an alternative as approved by the Town Manager and/or their designee, shall be utilized for active recreation areas, and maintained to appropriate industry standards. X X X Native grass is highly encouraged for areas that will not function as active recreation areas.",
+    "source_url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART6DEST_DIV1MUMIREDEST_S16.6.120MUMILASTST",
+    "source_label": "Severance Land Use Code Sec. 16.6.120, Table 16.6.120.a, Multi-family landscaping and streetscape standards (Ord. No. 2025-15, Aug. 12, 2025; codified through Ord. No. 2025-27, Dec. 9, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The X marks are the table's SP, DN and TC columns; the Rural Residential district does not permit multifamily development."
+  },
+  {
+    "id": "severance-co.code-16-6-230-nonres-landscape",
+    "layer": "ordinance",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "Severance's commercial and office landscape standards require irrigated turf or an approved alternative on active recreation areas, and live, irrigated, lower-water ground cover on at least 75% of the landscape area in the Suburban Perimeter and Development Node districts.",
+    "quote": "Irrigated turf or an alternative as approved, shall be utilized for active recreation areas and maintained to appropriate industry standards. X X X Native grass is highly encouraged for areas that will not function as active recreation areas. Native grass must be weed-free and maintained at a maximum height of eight inches following industry standards for establishment timeframes. X X X Landscaped areas shall be covered with live irrigated, lower water consuming ground cover, except for areas where additional hardscape is allowed or an alternative as approved. Minimum 75% of landscape area Minimum 75% of landscape area Site dependent",
+    "source_url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART6DEST_DIV2NOCOOFDEDEST_S16.6.230NOCOOFLASTDEST",
+    "source_label": "Severance Land Use Code Sec. 16.6.230, Table 16.6.230.a, Nonresidential commercial and office landscaping standards (Ord. No. 2025-15, Aug. 12, 2025; codified through Ord. No. 2025-27, Dec. 9, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "75"
+    ],
+    "notes": "Table columns: SP (Suburban Perimeter), DN (Development Node, incl. Industrial Subzone), TC (Town Core). The 75% minimum applies in SP and DN; TC is site dependent."
+  },
+  {
+    "id": "severance-co.code-16-3-220-accessory-setbacks",
+    "layer": "ordinance",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "In Severance's Suburban Perimeter district an accessory structure must sit at least 25 feet from the front lot line, 5 feet from side and rear lines and 15 feet from a street-side corner line, and may be up to two stories.",
+    "quote": "Table 16.3.220. Suburban Perimeter Lot and Building Standards Minimum Gross Density Minimum Lot Size Minimum Front Setback Minimum Side Setback Minimum Corner Side Setback Minimum Rear Setback Maximum Height … Accessory Structure n/a n/a 25 feet 5 feet 15 feet 5 feet 2 stories … (6) Detached accessory structures shall maintain a minimum separation from the main structure as required by adopted building and fire codes.",
+    "source_url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART3ZO_DIV2SUPE_S16.3.220LOBUST",
+    "source_label": "Severance Land Use Code Sec. 16.3.220, Suburban Perimeter lot and building standards (Ord. No. 2025-15, Aug. 12, 2025; codified through Ord. No. 2025-27, Dec. 9, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "25",
+      "5",
+      "15",
+      "2",
+      "6"
+    ]
+  },
+  {
+    "id": "severance-co.code-16-3-270-master-fence",
+    "layer": "ordinance",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "Every subdivision in Severance's Suburban Perimeter district files a master fence plan, and private fencing visible from a street, greenbelt or common area takes that plan's common fence color.",
+    "quote": "All subdivisions shall submit master fence plans that will include fence locations, details and criteria, including the following items: … (3) Encouraged fence height is six (6) feet. … (5) Rear and side yard fencing (private). … (10) All common area fencing and private fencing that is visible from right-of-way, greenbelt, and/or common areas shall have a common fence color, as identified on the master fence plan.",
+    "source_url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART3ZO_DIV2SUPE_S16.3.270FE",
+    "source_label": "Severance Land Use Code Sec. 16.3.270, Suburban Perimeter fencing (Ord. No. 2025-15, Aug. 12, 2025; codified through Ord. No. 2025-27, Dec. 9, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "6",
+      "5",
+      "10"
+    ]
+  },
+  {
+    "id": "severance-co.code-16-3-520-home-child-care",
+    "layer": "ordinance",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "Severance keeps home-based businesses inside the dwelling or an accessory building except as required for state-licensed in-home family child care, and exempts child drop-offs from the limits of one customer vehicle and 10 client visits a week.",
+    "quote": "The home-based business shall be conducted entirely within the dwelling or designated accessory building, except as required for state-licensed in-home family child care. … (1) No more than one (1) customer vehicle parked at the property at a time, except for drop off of children for child care or instruction. (2) No more than ten (10) client visits per week, except for drop-off of children for child care or instruction.",
+    "source_url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART3ZO_DIV5SUUSRE_S16.3.520HOSEBU",
+    "source_label": "Severance Land Use Code Sec. 16.3.520, Home-based businesses (Ord. No. 2025-15, Aug. 12, 2025; codified through Ord. No. 2025-27, Dec. 9, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "10",
+      "2"
+    ]
+  },
+  {
+    "id": "severance-co.code-16-3-child-care-uses",
+    "layer": "ordinance",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "Child care centers are a use by right in Severance's Suburban Perimeter, Town Core and Development Node districts, and family child care homes are listed by name as a residential use by right in the Town Core and Development Node.",
+    "quote": "(a) Uses by right. … (2) Commercial, retail, or service land uses include the following: Adult day centers. Child care centers. … (1) Residential land uses include the following: •Accessory dwelling. •Adult day centers. •Bed and breakfast establishments. •Family child care homes. … (1) Residential land uses include the following: •Bed and breakfast establishments. •Family child care homes.",
+    "source_url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART3ZO",
+    "source_label": "Severance Land Use Code Secs. 16.3.230, 16.3.330 and 16.3.430, Land uses by zone district (Ord. No. 2025-15, Aug. 12, 2025; codified through Ord. No. 2025-27, Dec. 9, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "1"
+    ],
+    "notes": "Fragments in order: Sec. 16.3.230(a) (Suburban Perimeter), Sec. 16.3.330(a)(1) (Town Core), Sec. 16.3.430(a)(1) (Development Node). The Suburban Perimeter residential list (16.3.230(a)(1)) does not name family child care homes; pages hedge and send readers to Severance Planning."
+  },
+  {
+    "id": "severance-co.code-13-1-120-eru-gallons",
+    "layer": "ordinance",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "In Severance one equivalent residential unit (ERU) of water provides at most 200,000 gallons a year, sized on a household with not more than 2,500 feet of irrigated area, and a property drawing more per ERU can be required to buy more ERUs.",
+    "quote": "Equivalent Residential Unit (ERU) means a number related to the volume of water customarily consumptively used by an average dwelling unit housing two and seven-tenths (2.7) persons having not more than two thousand five hundred (2,500) feet of irrigated area. … (e) ERU/gallon equivalent. An ERU will provide a maximum of two hundred thousand (200,000) gallons to a served property in any calendar year. If at any time any served property draws more than two hundred thousand (200,000) gallons of water per one (1) ERU, the Town may require a change in the ERU requirement pursuant to Subsection (b), (c) or (d) above, including additional plant investment fees or raw water conveyance.",
+    "source_url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH13MUUT_ART1UTSE",
+    "source_label": "Severance Municipal Code Secs. 13-1-20 (ERU definition) and 13-1-120(e) (codified through Ord. No. 2025-27, Dec. 9, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "200,000",
+      "2,500",
+      "2.7",
+      "1"
+    ],
+    "notes": "The code says '2,500 feet of irrigated area' (no 'square'); pages quote it as written."
+  },
+  {
+    "id": "severance-co.code-13-2-270-nonpotable",
+    "layer": "ordinance",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "Where a Severance subdivision has a nonpotable water system, all lot irrigation must use it, and every lot irrigation system other than a house-attached hose bib must connect to the nonpotable tap.",
+    "quote": "In all subdivisions or parts of Town where a nonpotable water system is installed, use of such system shall be required for all lot irrigation. All lot irrigation systems other than house-attached hose bibs must be connected to the nonpotable irrigation tap.",
+    "source_url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH13MUUT_ART2WARE_DIV2NOWASY_S13-2-270NOSYUSRE",
+    "source_label": "Severance Municipal Code Sec. 13-2-270, Nonpotable system use required (codified through Ord. No. 2025-27, Dec. 9, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "severance-co.ordinances-2026",
+    "layer": "ordinance",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "The Town of Severance's 2026 ordinance list, as of September 25, 2026, runs from 2026-01 to 2026-08 (2026-06 marked not adopted), and no title on it names turf or landscape standards.",
+    "quote": "Ordinance: 2026-01, Amending Chapter 16 (Land Use Code) regarding Accessory Dwelling Units … Ordinance: 2026-02, Wildfire Resiliency Code and Map … Ordinance: 2026-03, Amending Solicitor, door-to-door salesperson … Ordinance: 2026-04, Amending Chapter 7, Article 6 - Cat & Dog licensing term and requiring an ID tag … Ordinance: 2026-05, Amending SMC 4-3-70, 6-1-20 & 6-1-40, clarifying Sales Tax collection that no separate license is required & disclosure of CDOR number on Business license … Ordinance: 2026-06 - Mobile Food Vender, not adopted but will come back to a Town Council meeting … Ordinance: 2026-07, Amending the Youth Council composition and membership … Ordinance: 2026-08, Amendments IRC Drainage Systems",
+    "source_url": "https://www.townofseverance.org/255/Ordinances",
+    "source_label": "Town of Severance, Ordinances page (2026 list, read September 25, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "2026",
+      "25",
+      "16",
+      "7",
+      "6",
+      "1",
+      "8"
+    ],
+    "notes": "Titles only. Ord. 2026-02 (DocumentCenter/View/1119, read 2026-09-25) adopts the 2025 Colorado Wildfire Resiliency Code and Map, whose recitals say it covers the vegetation around structures (defensible space), so pages must not say no 2026 ordinance touches landscaping. Re-check the list quarterly."
+  },
+  {
+    "id": "severance-co.hoas-metro-stricter",
+    "layer": "housing",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "The Town of Severance tells residents that both HOAs and metro districts may have stricter standards than the Town's municipal codes.",
+    "quote": "HOAs manage private neighborhood rules and amenities. They may have stricter standards than the Town's municipal codes. Metro Districts handle larger-scale infrastructure and public services funded through taxes and fees. They also manage private neighborhood rules and amenities. They may have stricter standards than the Town's municipal codes.",
+    "source_url": "https://townofseverance.org/385/HOAs-and-Metro-Districts-101",
+    "source_label": "Town of Severance, HOAs and Metro Districts 101",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "severance-co.hidden-valley-farm-turf",
+    "layer": "housing",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "Hidden Valley Farm, a 161-lot Severance subdivision, has design guidelines that prohibit artificial turf unless its Design Review Council expressly approves it, send fences, play structures, retaining walls and landscaping changes to that council, and treat a plan as approved if the council does not act within 45 days of acknowledging receipt.",
+    "quote": "Hidden Valley Farm is a community of 161 total single-family, residential lots. Hidden Valley Farm is located in the Town of Severance, CO. … In accordance with the recorded CC&R's, all improvements to a residential lot must be approved by the DRC prior to beginning construction on the Improvement. This requirement applies to permanent structures only, such as fences, decks, house and garage additions, storage sheds over twenty-five square feet, play structures and equipment, retaining walls and spas. This requirement also applies to the initial landscaping on a residential lot, as well as subsequent material changes to landscaping. It is suggested that plans for an Improvement be submitted at least 45 days prior to the commencement of the work on the Improvement … within forty-five (45) days of acknowledgement of receipt, the plan shall be considered approved. … 5.6 ARTIFICIAL TURF The use of artificial turf is prohibited unless expressly approved by the DRC.",
+    "source_url": "https://www.hiddenvalleyfarmmd.live/files/0e0b82caf/DRC+Guidelines+Final+-+Including+Fence+Detail.pdf",
+    "source_label": "Hidden Valley Farm Design Guidelines, Design Review Council (PDF, last modified Oct. 18, 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "161",
+      "45",
+      "5.6"
+    ],
+    "notes": "Posted on the Hidden Valley Farm metropolitan district's site. The turf prohibition predates the Colorado backyard rules the page renders from co-hoa-backyard-detached and co-special-district-backyard."
+  },
+  {
+    "id": "severance-co.hidden-valley-farm-irrigation",
+    "layer": "housing",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "Hidden Valley Farm's design guidelines recommend no more than 2,500 square feet of spray-irrigated landscape per lot, above which the cost per gallon of water rises substantially.",
+    "quote": "The Hidden Valley Farm Service Metropolitan District may have water restrictions and suggestions on water conservation. The District recommends a maximum of 2,500 square feet of landscaped, spray-irrigated area. The cost per gallon of water substantially increases for areas in excess of 2,500 square feet.",
+    "source_url": "https://www.hiddenvalleyfarmmd.live/files/0e0b82caf/DRC+Guidelines+Final+-+Including+Fence+Detail.pdf",
+    "source_label": "Hidden Valley Farm Design Guidelines, Design Review Council (PDF, last modified Oct. 18, 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2,500"
+    ]
+  },
+  {
+    "id": "severance-co.hidden-valley-farm-play",
+    "layer": "housing",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "Hidden Valley Farm's design guidelines cap play and sports equipment at 8 feet but allow play structures up to 12 feet tall at least 12 feet from the rear property line and outside the side-yard setback, never permanently in the front of a lot.",
+    "quote": "All other play equipment, sports equipment, recreational equipment, play structures, swing sets, and amusement structures shall not be permanently placed in the front portion of any Lot. Temporary use of such other equipment is allowed in the front portion of the Lot only during active play. The maximum height of any play or sports equipment, except basketball backboards, is 8 feet. Play structures up to 12 feet tall, not closer than twelve (12) feet from the rear property line and not within the side yard setback, are allowed.",
+    "source_url": "https://www.hiddenvalleyfarmmd.live/files/0e0b82caf/DRC+Guidelines+Final+-+Including+Fence+Detail.pdf",
+    "source_label": "Hidden Valley Farm Design Guidelines, Design Review Council (PDF, last modified Oct. 18, 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "8",
+      "12"
+    ]
+  },
+  {
+    "id": "severance-co.hidden-valley-farm-fences",
+    "layer": "housing",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "Hidden Valley Farm's design guidelines require a 5-foot stained privacy fence approved by the Design Review Council and prohibit gates into district-owned areas or neighborhood parks.",
+    "quote": "Fencing shall conform to a 5' stained privacy fence and fences and walls (fencing) to be constructed on a Lot will require prior approval of the DRC. All on-lot fencing shall be stained to match the perimeter fence around the subdivision or conform to a similar color. … Gates providing access to District Areas or Neighborhood Parks are prohibited.",
+    "source_url": "https://www.hiddenvalleyfarmmd.live/files/0e0b82caf/DRC+Guidelines+Final+-+Including+Fence+Detail.pdf",
+    "source_label": "Hidden Valley Farm Design Guidelines, Design Review Council (PDF, last modified Oct. 18, 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5"
+    ]
+  },
+  {
+    "id": "severance-co.timber-ridge-structures",
+    "layer": "housing",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "Severance's Timber Ridge HOA handbook sends play structures, pergolas, gazebos and whole-yard landscape changes to its architectural review committee, sets a play structure as far off the property line as it is tall, and notes that a sprinkler system needs a Town building permit.",
+    "quote": "Altering the entire scope of landscaping, such as removing turf and installing xeriscape or radical changes to the current landscape, require ARC approval. … • What each area of the yard will consist of (i.e. rock, mulch, turf, etc.) … Note: Installing automatic sprinkler systems requires a ToS building permit. Miscellaneous Structures Requires ARC approval & may require ToS building permit Includes freestanding wooden or vinyl trellis, pergolas, gazebos, and permanent basketball hoops. Play Structures Requires ARC approval Structure must be as far off the property line as it is tall. Submitted plans must include size, materials, and location.",
+    "source_url": "https://www.timberridge-hoa.com/wp-content/uploads/Timber-Ridge-HOA-Handbook.pdf",
+    "source_label": "Timber Ridge (Severance) Homeowners' Association Handbook, revised October 8, 2016",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "ToS = Town of Severance. The handbook is dated 2016; its line that the Town requires dogs to be licensed annually is out of date (see severance-co.ord-2026-04-dog-licenses) and is not used."
+  },
+  {
+    "id": "severance-co.timber-ridge-animal-pens",
+    "layer": "housing",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "Timber Ridge's HOA handbook requires animal pens to be kept neat and clean, their visible parts to meet its fencing guidelines, and no pen to stand taller than the yard fence.",
+    "quote": "No animals (livestock, fowl, poultry, or insects) except commonly accepted domestic animals may be kept, provided they are not kept or maintained for any commercial purpose. Animal pens shall be maintained to ensure a neat and orderly appearance and a clean and healthy atmosphere; visible portions must meet fencing guidelines and pens may not exceed the height of the yard fence.",
+    "source_url": "https://www.timberridge-hoa.com/wp-content/uploads/Timber-Ridge-HOA-Handbook.pdf",
+    "source_label": "Timber Ridge (Severance) Homeowners' Association Handbook, revised October 8, 2016",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "severance-co.severance-high-school-fields",
+    "layer": "place",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "Severance High School, built for the Weld RE-4 School District as a 168,000-square-foot school on a site of more than 45 acres, has a football stadium with a turf field and track plus baseball, softball, lacrosse and soccer fields and four tennis courts.",
+    "quote": "Sampson Construction was awarded Severance High School - a 168,000 SF new high school … The site includes a fieldhouse with home and visitor locker rooms, concessions, baseball and softball fields, lacrosse and soccer fields, four tennis courts, a football stadium complete with a turf field and track and an area for field events (shot put, discuss, long/triple/high jumps and vault.) Overall, the project footprint is more than 45 acres.",
+    "source_url": "https://www.sampson-construction.com/projects/severance-high-school",
+    "source_label": "Sampson Construction, project page: Severance High School (client: Weld Re-4 School District)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "168,000",
+      "45",
+      "4"
+    ],
+    "notes": "The general contractor's own project page. 'discuss' is the page's spelling. It does not say whether the field is natural or when the turf was last replaced beyond 'turf field'; the district's page gives the school's address only."
+  },
+  {
+    "id": "severance-co.watering-schedule-scope",
+    "layer": "drought",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "Severance's mandatory watering schedule gives HOA common areas, apartments, businesses and institutions on Town water Sunday, Wednesday and Friday, does not apply to approved non-potable systems (Hunters Crossing, The Overlook, Severance Shores, The Reserve, Settler's Landing, Tailholt) or to North Weld County Water District systems (including Hidden Valley Farm), and requires a building permit for every sprinkler system.",
+    "quote": "The schedule below must be followed by all water users served by the Town of Severance. … All others: Homeowner Association common areas, multi-family residences, apartments, businesses, government, non-profit, churches, commercial, industries, and institutions shall be allowed to water on Sunday, Wednesday, and Fridays. … Nothing herein shall apply to any approved non-potable water system or North Weld County Water District systems used by any property owner. Non-potable systems are currently in the subdivisions of Hunters Crossing, The Overlook, Severance Shores, The Reserve, Settler's Landing, and Tailholt. North Weld County Water District presently serves the subdivisions of Belmont Farms, Bridal Hill/Saddler Ridge, Casa Loma, Golden Eagle Acres, Hidden Valley Farm, and Soaring Eagle Ranch. In addition, the Town Manager may grant a variance to these restrictions for the establishment of new lawns or landscaping. … Building permits are required for the installation of all sprinkler systems.",
+    "source_url": "https://www.townofseverance.org/396/Watering-Guidelines-and-Restrictions",
+    "source_label": "Town of Severance, Watering Guidelines and Restrictions (read September 25, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [],
+    "notes": "The same page backs the shared record severance-mandatory-schedule (days and hours); this record carries the scope and exemptions the shared one leaves out."
+  },
+  {
+    "id": "severance-co.howae-2026-restrictions",
+    "layer": "drought",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "For 2026 the Hunters Overlook Water Activity Enterprise, which runs the non-potable irrigation system for the Hunters Overlook metropolitan districts, cut home irrigation to two set days a week, watered parks, open space and tree lawns about 2 days a week and non-essential areas one, shut the pumps down Thursdays, Fridays and Mondays, and set fines of $250, $500 and $1000 before disconnection, citing an April 1 snowpack of 14% of average.",
+    "quote": "Snowpack, as of April 1, is only 14% of average. … Even-numbered homes may be irrigated on Tuesdays and Saturdays only Odd-numbered homes may be irrigated on Wednesdays and Sundays only. Watering times are from midnight to 10 am and 6 pm to midnight on your SPECIFIED day Parks, open space, trees and tree lawns: Irrigation will occur 2 days per week based on water availability and adjusted according to overall system demand. Non-essential areas will be irrigated one day per week. The nonpotable pump system will be shut down on Thursdays, Fridays and Mondays to help stabilize operations and conserve available water resources. … First violation $250 fine. Second violation $500 fine. Third violation $1000 fine. Fourth violation, the nonpotable water service will be disconnected.",
+    "source_url": "https://homd.specialdistrict.org/files/70a8402c2/2026+Seasonal+Water+Correspondence+%26+Restrictions.pdf",
+    "source_label": "Hunters Overlook Water Activity Enterprise, 2026 Seasonal Water Correspondence & Restrictions (posted by Hunters Overlook Metropolitan District Nos. 1-8)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "2026",
+      "1",
+      "14",
+      "2",
+      "250",
+      "500",
+      "1000",
+      "10",
+      "6"
+    ],
+    "notes": "The letter itself carries no date; the year comes from the district's file name and link text. Hunters Overlook's guidelines are prepared for Severance Overlook, Hunters Crossing and SR Severance developers; the letter does not say which subdivisions its system serves, so pages name the district only."
+  },
+  {
+    "id": "severance-co.severance-shores-yards",
+    "layer": "housing",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "The Severance Shores metro districts' residential improvement guidelines (amended September 5, 2024) require committee approval of a landscape plan showing sod, rock, the sprinkler system plan and a drainage and grading plan, prohibit artificial turf in front and side yards, and require ARC approval for any change that affects drainage.",
+    "quote": "Landscaping plans must be submitted and approved prior to commencement of landscaping. Plans must depict proposed fences, patios, decks, sod, seeded areas, retaining walls (generally not permitted pursuant to Section 2.18), rock, railroad ties, sprinkler system plan, sizes and species of nursery material, and include a drainage and grading plan showing compliance with the municipality approved drainage and grading plan. … The total yard will consist of irrigated sod, non-irrigated material such as rock mulch, bark or other non-irrigable materials approved by the ARC. Artificial turf is prohibited within the front/side yard areas. … 2.18. Drainage - ARC approval required for any changes affecting drainage. … 2.21. Entrances (Front) - Synthetic turf/sod is not allowed on walks, front steps or decks.",
+    "source_url": "https://ssmd.specialdistrict.org/files/3cc9774d3/SSMD+-+Amended+RIGSR+09.05.24.pdf",
+    "source_label": "Severance Shores Metropolitan District Nos. 1-4, Residential Improvement Guidelines and Site Restrictions (amended September 5, 2024)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2.18",
+      "2.21",
+      "2024",
+      "5"
+    ],
+    "notes": "Hunters Overlook Metropolitan District Nos. 1-8 posts nearly the same text (severance-co.hunters-overlook-yards)."
+  },
+  {
+    "id": "severance-co.severance-shores-pets",
+    "layer": "housing",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "The Severance Shores metro districts' guidelines require ARC approval for dog houses, runs and pet enclosures, which must be screened from the street and public view and may not be wire or chain-link, and let the board limit pets while guaranteeing each owner up to two household pets.",
+    "quote": "2.17. Dog Houses, Runs and Pet Enclosures - ARC approval required. Must be screened from view of street and/or public view. Wire and/or chain-link enclosures are not permitted. … The Governing Board may, in its sole discretion, limit the number, size and weight of household pets which may be kept upon any lot. However, each homeowner shall have the right to keep a maximum of two (2) household pets on any lot.",
+    "source_url": "https://ssmd.specialdistrict.org/files/3cc9774d3/SSMD+-+Amended+RIGSR+09.05.24.pdf",
+    "source_label": "Severance Shores Metropolitan District Nos. 1-4, Residential Improvement Guidelines and Site Restrictions (amended September 5, 2024)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2.17",
+      "2"
+    ]
+  },
+  {
+    "id": "severance-co.severance-shores-play",
+    "layer": "housing",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "The Severance Shores metro districts' guidelines require ARC approval for play equipment, keep a playhouse or swing set under 12 feet at the peak and under 120 square feet of interior floor space as a general guideline, and want it screened by landscaping and an approved fence.",
+    "quote": "2.39. Playhouses/Play Equipment/Sports Equipment - ARC approval required. General guidelines for playhouses or swing set to be less than twelve feet (12') in height at the peak and less than 120 square feet of interior floor space. Basic design, materials and colors must match the residence, and must be incorporated into, and at least screened by the landscape features and ARC approved fence.",
+    "source_url": "https://ssmd.specialdistrict.org/files/3cc9774d3/SSMD+-+Amended+RIGSR+09.05.24.pdf",
+    "source_label": "Severance Shores Metropolitan District Nos. 1-4, Residential Improvement Guidelines and Site Restrictions (amended September 5, 2024)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2.39",
+      "12",
+      "120"
+    ]
+  },
+  {
+    "id": "severance-co.hunters-overlook-yards",
+    "layer": "housing",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "The Hunters Overlook metro districts' residential improvement guidelines (amended April 1, 2025) require committee approval of a landscape plan showing sod, rock, the sprinkler system plan and a drainage and grading plan, prohibit artificial turf in front and side yards, and require ARC approval for any change that affects drainage.",
+    "quote": "Plans must depict proposed fences, patios, decks, sod, seeded areas, retaining walls … The total yard will consist of irrigated sod, non-irrigated material such as rock mulch, bark or other non-irrigable materials approved by the ARC. Artificial turf is prohibited within the front/side yard areas. … 2.18. Drainage - ARC approval required for any changes affecting drainage. … 2.21. Entrances (Front) - Synthetic turf/sod is not allowed on walks, front steps or decks.",
+    "source_url": "https://homd.specialdistrict.org/files/60183cf34/HOMD+-+RIGSR+Amended+04.01.25.pdf",
+    "source_label": "Hunters Overlook Metropolitan District Nos. 1-8, Residential Improvement Guidelines and Site Restrictions (amended April 1, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2.18",
+      "2.21",
+      "2025",
+      "1"
+    ]
+  },
+  {
+    "id": "severance-co.hunters-overlook-pets",
+    "layer": "housing",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "The Hunters Overlook metro districts' guidelines require ARC approval for dog houses, runs and pet enclosures, which must be screened from the street and public view and may not be wire or chain-link, and let the board limit pets while guaranteeing each owner up to two household pets.",
+    "quote": "2.17. Dog Houses, Runs and Pet Enclosures - ARC approval required. Must be screened from view of street and/or public view. Wire and/or chain-link enclosures are not permitted. … The Governing Board may, in its sole discretion, limit the number, size and weight of household pets which may be kept upon any lot. However, each Owner shall have the right to keep a maximum of two (2) household pets on any lot.",
+    "source_url": "https://homd.specialdistrict.org/files/60183cf34/HOMD+-+RIGSR+Amended+04.01.25.pdf",
+    "source_label": "Hunters Overlook Metropolitan District Nos. 1-8, Residential Improvement Guidelines and Site Restrictions (amended April 1, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2.17",
+      "2"
+    ]
+  },
+  {
+    "id": "severance-co.hunters-overlook-play",
+    "layer": "housing",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "The Hunters Overlook metro districts' guidelines require ARC approval for play equipment, keep a playhouse or swing set under 12 feet at the peak and under 120 square feet of interior floor space as a general guideline, and want it screened by landscaping and an approved fence.",
+    "quote": "General guidelines for play houses or swing set to be less than twelve feet (12’) in height at the peak and less than 120 square feet of interior floor space. Basic design, materials and colors must match the residence, and must be incorporated into, and at least screened by the landscape features and ARC approved fence.",
+    "source_url": "https://homd.specialdistrict.org/files/60183cf34/HOMD+-+RIGSR+Amended+04.01.25.pdf",
+    "source_label": "Hunters Overlook Metropolitan District Nos. 1-8, Residential Improvement Guidelines and Site Restrictions (amended April 1, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2.39",
+      "12",
+      "120"
+    ],
+    "notes": "Section 2.39's heading reads 'Plavhouses/Plav Equipment' in the PDF's text layer (a typo); the quote starts after it."
+  }
+]

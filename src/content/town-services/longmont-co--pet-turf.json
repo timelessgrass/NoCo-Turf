@@ -1,0 +1,172 @@
+{
+  "status": "draft",
+  "town": "longmont-co",
+  "service": "pet-turf",
+  "title": "Dog Runs and Pet Turf in Longmont, CO | NoCo Turf Co.",
+  "description": "Longmont's code bars letting dog waste build up until neighbors smell it, and every fence needs a permit. Dog run rules, HOA dog parks and city dog parks.",
+  "h1": "Longmont's code bars letting dog waste build up until the neighbors can smell it.",
+  "display": {
+    "paint": "until the neighbors can smell it"
+  },
+  "lede": "A dog run in Longmont answers to Title 7 of the city code and to the fence rules in its development code. Neither one mentions turf. Between them they decide where the run can go and how it has to be kept, and the city's own dog parks show what a season of dogs does to grass.",
+  "answer": {
+    "question": "What does Longmont require of a backyard dog run?",
+    "answer": "No turf rule for a backyard dog run turned up. Longmont's animal code makes it unlawful to let feces build up into a health hazard or until the odor is noticeable next door, and its development code requires a building permit for every fence, with tighter limits on any fence in front of the house."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Section 7.04.170",
+      "h2": "The test in Longmont's animal code is what reaches the property next door.",
+      "takeaway": "Section 7.04.170 calls accumulated animal feces a threat to public health and makes it unlawful to let it build into a health hazard or until the odor is noticeable on adjoining property.",
+      "paras": [
+        "The section names no surface and no size, so a gravel pen, a patch of lawn and a turf dog run are held to one standard, and that standard is measured at the property line. A run laid along a shared fence puts any smell closest to the neighbor who would notice it first.",
+        "On turf, solids come up the way they do on grass; what lingers is urine held in the base instead of draining through it. Longmont's clay takes water in slowly (the [Longmont page](/areas/longmont-co/) has the soil record), so drainage under the run and a regular hose-down along the fence line carry more weight here than the turf on top. Not legal advice."
+      ],
+      "layerRefs": [
+        "longmont-co.code-7-04-170-feces-odor",
+        "longmont-clay-soils-city"
+      ],
+      "sources": [
+        "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT7AN_CH7.04AN_S7.04.170OFPR",
+        "https://longmontcolorado.gov/water/water-conservation/conserving-water-outdoors/"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Fences",
+      "h2": "Every dog-run fence in Longmont starts with a building permit.",
+      "takeaway": "Section 15.05.100 says no fence or wall goes up until a plan is presented and a permit issued, the way it would be for a building.",
+      "paras": [
+        "In front of the house, between the front lot line and the facade, a fence may be no taller than 42 inches and must be at least 50 percent transparent, and chain-link is banned from residential front yards. Behind the facade the residential limit is six feet. Those limits push a fenced dog run to the side or back yard.",
+        "The code bans any fence that can carry an electric charge, with one exception: low-voltage, commercially available invisible fences used to contain pets. Whether a buried pet line needs the same permit as a built fence isn't spelled out; it depends on the installation, so ask Longmont Planning before it goes in."
+      ],
+      "layerRefs": [
+        "longmont-co.ldc-15-05-100-fences"
+      ],
+      "sources": [
+        "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.05DEST_S15.05.100FEWA"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "HOA dog parks",
+      "h2": "An HOA dog park in Longmont runs on a city license that lasts one year.",
+      "takeaway": "Section 7.04.200 lets a homeowners' association run an off-leash dog park on its common open space only under a license from the city's parks director, and each license expires a year after it is issued.",
+      "paras": [
+        "The park has to be sited to buffer neighbors from noise and odor. The code's specifications call for at least eight inches of crusher fines over graded soil, compacted to drain readily, security fencing at least four feet high, a double entry gate on an eight-by-eight-foot concrete pad, and two trash receptacles and two bag dispensers.",
+        "The surfacing line says should, not shall, and it names crusher fines, not turf. Whether the city will issue the license for an artificial surface in their place is the director's call on each application, so an HOA should ask the city's parks, open space and public facilities director before budgeting for one. In a new neighborhood, land used as a dog park also doesn't count toward the pocket park the developer owes. Not legal advice."
+      ],
+      "layerRefs": [
+        "longmont-co.code-7-04-200-hoa-dog-parks",
+        "longmont-co.ldc-15-05-040-pocket-parks"
+      ],
+      "sources": [
+        "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT7AN_CH7.04AN_S7.04.200RECO",
+        "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.05DEST_S15.05.040LACOARST"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "City dog parks",
+      "h2": "Longmont closes one of its own dog parks at times to let the grass come back.",
+      "takeaway": "The dog park 0.2 miles west of Airport Road and St. Vrain Road may close for parts of the year so its grass can re-establish, and its water runs only from the third Monday of April to the second Monday of October.",
+      "paras": [
+        "The city's other dedicated dog park is at the corner of 21st and Francis Streets, open from an hour before sunrise to an hour after sunset. The city also lists off-leash areas at Blue Skies, Rough & Ready and Stephen Day Parks and a dog beach at Union Reservoir. When a public dog park needs a rest to regrow, a backyard run used by the same dogs every day faces that wear on a much smaller patch."
+      ],
+      "layerRefs": [
+        "longmont-co.dog-park-2-grass",
+        "longmont-co.dog-park-1",
+        "longmont-co.dog-parks-city"
+      ],
+      "sources": [
+        "https://longmontcolorado.gov/facilities/dog-park-2/",
+        "https://longmontcolorado.gov/facilities/dog-park-1/",
+        "https://longmontcolorado.gov/parks-and-natural-resources/classification-of-parks/"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does Longmont limit how many dogs one household can keep?",
+      "a": "No cap on dogs turned up in Title 7 of the city code. Its per-property counts are for other animals: four chicken hens per parcel, kept in the backyard, and two miniature pot-bellied pigs per residential property. Every dog over six months old needs a city license, which runs to the end of the year and must be renewed by February 1."
+    },
+    {
+      "q": "Do Longmont's 2026 turf limits apply to a dog run in my yard?",
+      "a": "Not to an existing yard, as far as the code shows. The limits in Section 15.05.040 apply to the landscape plans the city reviews for new development and redevelopment, and no rule for an established single-family backyard turned up."
+    },
+    {
+      "q": "How does the city keep its own synthetic turf clean?",
+      "a": "At Dry Creek Community Park, the city washes its synthetic sports fields through an irrigation system with quick couplers, spot-cleans them as needed and uses antibacterial-coated sand instead of rubber infill. Those are sports fields, not a dog area, but a hose connection close to a turf run does the same job."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Longmont Municipal Code Sec. 7.04.170, Offensive premises (codified through Ord. No. O-2026-39, June 23, 2026)",
+      "url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT7AN_CH7.04AN_S7.04.170OFPR",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Longmont, Conserving Water Outdoors (clay soils)",
+      "url": "https://longmontcolorado.gov/water/water-conservation/conserving-water-outdoors/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Longmont Land Development Code Sec. 15.05.100, Fences and walls (codified through Ord. No. O-2026-39, June 23, 2026)",
+      "url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.05DEST_S15.05.100FEWA",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Longmont Municipal Code Sec. 7.04.200.C, Private dog parks (codified through Ord. No. O-2026-39, June 23, 2026)",
+      "url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT7AN_CH7.04AN_S7.04.200RECO",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Longmont Land Development Code Sec. 15.05.040, Landscape and common area standards (codified through Ord. No. O-2026-39, June 23, 2026)",
+      "url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.05DEST_S15.05.040LACOARST",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Longmont, Dog Park #2",
+      "url": "https://longmontcolorado.gov/facilities/dog-park-2/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Longmont, Dog Park #1",
+      "url": "https://longmontcolorado.gov/facilities/dog-park-1/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Longmont Parks and Natural Resources, Classification of Parks",
+      "url": "https://longmontcolorado.gov/parks-and-natural-resources/classification-of-parks/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Longmont Municipal Code Title 7, Animals (Sec. 7.04.020 licenses; Sec. 7.04.130 hens and pot-bellied pigs), read in full",
+      "url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT7AN",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Longmont Municipal Code Sec. 7.04.130, Prohibited keeping of animals (codified through Ord. No. O-2026-39, June 23, 2026)",
+      "url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT7AN_CH7.04AN_S7.04.130PRKEAN",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Longmont, Dry Creek Community Park (Synthetic Turf FAQs)",
+      "url": "https://longmontcolorado.gov/facility/dry-creek-community-park/",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Confirmation that NoCo serves Longmont and installs dog runs and pet turf today",
+    "Dog runs or pet turf NoCo has built in Longmont: neighborhood, month, rough size, number and size of dogs",
+    "Camera-original photos of a Longmont dog run with the month; photos.ts has no photo with use \"pet\" from any town",
+    "Whether he has put turf in a Longmont HOA dog park, and whether the city granted the license with a turf surface instead of crusher fines",
+    "Any Longmont dog daycare or kennel yard he has bid, and what Planning said about turf there"
+  ]
+}

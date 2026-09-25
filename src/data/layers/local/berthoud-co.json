@@ -1,0 +1,665 @@
+[
+  {
+    "id": "berthoud-co.ldg-artificial-turf-backyards",
+    "layer": "ordinance",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Berthoud's Landscape Design Guidelines, updated June 30, 2026, say artificial turf should only be used in private backyards or for sports fields in new projects in the Suburban and Old Town Residential districts.",
+    "quote": "The following suburban and old town residential landscape design guidelines apply to all new projects within the Suburban Residential Character District and the Old Town Residential Character District. … 5. Artificial turf should only be used in private backyards or for sports fields.",
+    "source_url": "https://www.berthoud.org/DocumentCenter/View/7674",
+    "source_label": "Town of Berthoud Landscape Design Guidelines, Suburban & Old Town Residential guideline 5 (updated June 30, 2026, Ordinance 1383)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "30",
+      "2026",
+      "5"
+    ],
+    "notes": "PDF read 2026-09-25 (cover: 'Updated June 30, 2026 - Ordinance 1383'; Ord. 1383 adopted June 30, 2026 for the 2025 Colorado Wildfire Resiliency Code). The guidelines 'will apply to all new construction and substantial building alterations that require approval by the Town of Berthoud Community Development staff in the Planning Department and Building Department' (p. 2). The only artificial-turf line in the document. Guidelines are 'should' language adopted by reference (Code 30-6-101(E)(2)); the municipal code itself has no artificial-turf provision (city-codes berthoud-code-no-turf-provision). The Water Conservation Element (Ord. 1379, April 14, 2026) says the intent is to amend the landscape guidelines in 2026 to align with HB21-1229: recheck."
+  },
+  {
+    "id": "berthoud-co.code-30-6-112-high-water-turf",
+    "layer": "ordinance",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Berthoud's development code lets high-water irrigated turf grass such as Kentucky bluegrass and turf-type tall fescue be planted only for recreation, civic or community uses and never in parking lots or medians, while low-water and native grasses are exempt.",
+    "quote": "Irrigated turf grass with a high water requirement may only be planted according to planned use, only in areas or spaces used for recreation or for civic or community purposes. Such purposes may include playgrounds, sports fields or other athletics programming, picnic grounds, amphitheaters, portions of parks, and playing areas of golf courses. Such purposes do not include, and irrigated turf grass with a high water requirement must not be planted in, parking lots or medians. … Irrigated turf grass with a high water requirement refers to high- or moderate-hydrozone sod forming grasses including species such as Poa pratensis (Kentucky bluegrass), and turf-type tall fescue (Festuca arundinacea) and their varieties and cultivars. … Well-maintained irrigated turf grass with a low or very-low water requirement and that also does not meet the definition of \"turf\" set forth in C.R.S. § 37-60-135(2)(i) and well-maintained regionally adapted or native grass species are not subject to the irrigated turf limits.",
+    "source_url": "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH30BEDECO_S6DEST_30-6-112LADE",
+    "source_label": "Berthoud Municipal Code Sec. 30-6-112(B)(3)(b) (codified through Ord. No. 1367, Nov. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [],
+    "notes": "Read through Municode's content API (api.municode.com CodesContent, product 15678, job 491348 = Supplement 19, codified through Ord. 1367). This is the live-turf half of SB24-005 in Berthoud's code; the code has no artificial-turf provision. Applies to new landscaping in land development applications (30-6-112(B))."
+  },
+  {
+    "id": "berthoud-co.code-30-6-112-landscape-plan",
+    "layer": "ordinance",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Berthoud's development code requires a landscape plan with every land development application except a building permit for an individual single-family home, and applies its site landscape rules to residential common areas, multifamily and non-residential property.",
+    "quote": "All land development applications except for building permits for individual attached or detached single-family residences shall be accompanied by an appropriate landscape plan. New landscaping within the community shall comply with the following regulations as well as those in the most recent version of the Town's Landscape Design Guidelines. 1. Site landscape design regulations. Landscape improvements shall be an integral part of the overall site design for all residential common areas, multi-family developments, and any non-residential development/property.",
+    "source_url": "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH30BEDECO_S6DEST_30-6-112LADE",
+    "source_label": "Berthoud Municipal Code Sec. 30-6-112(B) and (B)(1) (codified through Ord. No. 1367, Nov. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "1"
+    ],
+    "notes": "Read through Municode's content API (job 491348). A single-family building permit carries no landscape-plan requirement; a subdivision of five or more units retains a landscape architect for front-yard plans (30-6-112(B)(2))."
+  },
+  {
+    "id": "berthoud-co.code-30-6-109-parkland-required",
+    "layer": "ordinance",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Berthoud requires developed parkland in a residential subdivision of more than six acres or more than 50 dwelling units, at one acre of park per 100 dwelling units.",
+    "quote": "Developed parks shall be required for a residential subdivision if the subdivision totals more than six acres or has more than 50 dwelling units. The amount of developed park required shall be calculated at a ratio of one acre of parkland per 100 dwelling units, and must satisfy the requirements of the Parks Standards and Requirements Section.",
+    "source_url": "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH30BEDECO_S6DEST_30-6-109PATROPSP",
+    "source_label": "Berthoud Municipal Code Sec. 30-6-109(B)(2)(a) (codified through Ord. No. 1367, Nov. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "50",
+      "100"
+    ],
+    "notes": "Read through Municode's content API (job 491348)."
+  },
+  {
+    "id": "berthoud-co.code-30-6-109-pocket-parks-hoa",
+    "layer": "ordinance",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Berthoud's code requires pocket parks, from one-third of an acre to under two acres, to be owned and maintained by an HOA or metro district and kept open to the public, and lets a neighborhood park stay with an HOA or district or go to the Town.",
+    "quote": "Pocket parks shall be a minimum of one-third acre in size and less than two acres. … Pocket parks shall be owned and maintained by an HOA or Metro District and shall remain open to the public. … Depending upon the types of amenities included, and at the discretion of the Town, neighborhood parks may be owned and maintained by an HOA or Metro District or may be dedicated to the Town upon completion of construction and acceptance by the Town.",
+    "source_url": "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH30BEDECO_S6DEST_30-6-109PATROPSP",
+    "source_label": "Berthoud Municipal Code Sec. 30-6-109(B)(3)(a) and (b) (codified through Ord. No. 1367, Nov. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read through Municode's content API (job 491348)."
+  },
+  {
+    "id": "berthoud-co.code-30-6-109-pocket-park-elements",
+    "layer": "ordinance",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Every Berthoud park needs irrigation and at least two dog waste stations per acre, and a pocket park must include at least three core elements, one option being a 15,000-square-foot minimum turf play area, plus at least three more from a list that includes a commercial-grade or nature-based playground.",
+    "quote": "Required infrastructure (all parks) • Electricity • Irrigation • Trash receptacles (min. two per acre) • Dog waste stations (min. two per acre) … All required infrastructure items, and at least 3 of the following elements: … 15,000 sq. ft. minimum turf play area (one element per 15,000 sq. ft.) … And at least 3 of the following pocket park elements … • Commercial-grade playground or nature-inspired/nature-based playground",
+    "source_url": "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH30BEDECO_S6DEST_30-6-109PATROPSP",
+    "source_label": "Berthoud Municipal Code Sec. 30-6-109(B)(4), park development required elements table (codified through Ord. No. 1367, Nov. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "15000"
+    ],
+    "notes": "Read through Municode's content API (job 491348), table rows parsed from the HTML. The pocket-park core list is: group picnic shelter, two individual shelters, 15,000 sq. ft. minimum turf play area, 10,000 sq. ft. natural area, concrete loop walk. The code does not say whether the turf play area may be artificial turf."
+  },
+  {
+    "id": "berthoud-co.code-30-6-109-dog-area",
+    "layer": "ordinance",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "A Berthoud neighborhood park of two to five acres can count a fully fenced off-leash dog area of at least one acre among its required neighborhood park elements.",
+    "quote": "Neighborhood parks (2-5 acres) must include All required infrastructure items and 6 total pocket park elements, and 3 of the following neighborhood park elements: … • Fully fenced off-leash dog area (minimum size one acre)",
+    "source_url": "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH30BEDECO_S6DEST_30-6-109PATROPSP",
+    "source_label": "Berthoud Municipal Code Sec. 30-6-109(B)(4), neighborhood park elements (codified through Ord. No. 1367, Nov. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6",
+      "3"
+    ],
+    "notes": "Read through Municode's content API (job 491348)."
+  },
+  {
+    "id": "berthoud-co.code-30-4-109-drainage-easements",
+    "layer": "ordinance",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Berthoud's zoning code keeps drainage easements completely clear and bars any structure, fence, sidewalk, pathway or other feature that blocks stormwater flow in one.",
+    "quote": "D. Permanent features prohibited in easements. The following are not allowed in any easement: … 3. Any structure, fence, sidewalk, pathway, or other feature that blocks stormwater flow in a drainage easement or obstructs use of a utility easement. E. Drainage easements. Drainage easements must remain completely clear of obstructions to ensure proper stormwater flow.",
+    "source_url": "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH30BEDECO_S4ZO_30-4-109ENINSEEALLDI",
+    "source_label": "Berthoud Municipal Code Sec. 30-4-109(D)(3) and (E) (Ord. No. 1367, Nov. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3"
+    ],
+    "notes": "Read through Municode's content API (job 491348). The same section lets landscaping, fences and decorative walls encroach into required setbacks (30-4-109(B)(8)-(9)), but never into easements."
+  },
+  {
+    "id": "berthoud-co.code-18-7-1-pet-limit",
+    "layer": "ordinance",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Berthoud bars keeping more than two domesticated pets per genus per adult household member on a dwelling unit or lot, with room for young animals up to four months old and a variance for good cause.",
+    "quote": "No person shall keep, house or maintain, in or upon any dwelling unit or lot more than two domesticated pets per genus per adult household member. Animals up to four months of age which can be properly maintained in a healthy condition without presenting a health or safety hazard to the owner, keeper or others and without constituting a nuisance to the occupants of neighboring properties may be kept as long as the owner of the pet is not breeding the pet more frequently than every two years or maintaining a kennel operation. Any person may petition the Town for a variance to this Section which may be granted by the Town Administrator or designee upon showing of good cause by the applicant. The variance may be revoked for good cause at the discretion of the Town Administrator or designee after notice and hearing.",
+    "source_url": "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH18ANFO_18.7KEAN",
+    "source_label": "Berthoud Municipal Code Sec. 18.7-1, Limitations on the Number of Household Pets",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read through Municode's content API (job 491348)."
+  },
+  {
+    "id": "berthoud-co.code-18-2-1-license",
+    "layer": "ordinance",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Berthoud requires the owner of a dog or cat kept in town to get a Town license within 14 days of acquiring it, keep it current and renew it each year with proof of rabies vaccination.",
+    "quote": "The owner of any dog or cat kept within the Town shall secure from the Town, within 14 days of acquiring possession of the dog or cat, a license to keep the animal, which shall at all times be kept current by the owner. … The applicant for an initial or renewal license under this Section shall apply on forms acceptable to the Town, and provide satisfactory evidence that the dog or cat has been vaccinated against rabies as required by Section 18.3-1. The applicant shall apply for a renewal license each year.",
+    "source_url": "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH18ANFO_18.2LI",
+    "source_label": "Berthoud Municipal Code Secs. 18.2-1(A) and 18.2-2(A), dog and cat licenses",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "14"
+    ],
+    "notes": "Read through Municode's content API (job 491348). Town Pet License page (berthoud.org/1398): licenses at Town Hall, valid for the calendar year."
+  },
+  {
+    "id": "berthoud-co.code-18-5-waste",
+    "layer": "ordinance",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Berthoud's animal code makes a keeper responsible for picking up and disposing of any waste the animal leaves, and requires feces on streets, sidewalks, parks, recreation areas or other people's property to be removed immediately.",
+    "quote": "The keeper of an animal shall be responsible for picking up and disposing of any waste left by the animal(s). … It shall be unlawful for the keeper of any animal to fail to IMMEDIATELY remove any feces deposited by such animal on ANY STREET, SIDEWALK, PARK, OR recreation areas OR private property not owned by the keeper, or in any water immediately after the animal has deposited the fecal matter.",
+    "source_url": "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH18ANFO_18.5CO",
+    "source_label": "Berthoud Municipal Code Secs. 18.5-1(F) and 18.5-5(A), animal waste",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read through Municode's content API (job 491348)."
+  },
+  {
+    "id": "berthoud-co.code-18-5-4-odor-nuisance",
+    "layer": "ordinance",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Berthoud's code counts an animal that creates offensive odors materially interfering with a neighbor's lawful activities at home as a public nuisance, and holds the keeper strictly liable without proof of notice or knowledge.",
+    "quote": "For the purposes of this Section, a public nuisance includes an animal which is a safety or health hazard, unlawfully injures a person or another animal, or destroys public property or the property of another, or creates offensive odors which materially interfere with or disrupt another person in the conduct of lawful activities at such person's home. B. In the prosecution of any charge under this Section, it shall not be necessary to prove notice or knowledge on the part of the animal keeper that such animal was violating any Section of this Chapter at the time and place charged, it being the intent of this Section to impose strict liability upon the animal keeper for the actions, conduct and condition of such animal.",
+    "source_url": "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH18ANFO_18.5CO",
+    "source_label": "Berthoud Municipal Code Sec. 18.5-4, Public Nuisance",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read through Municode's content API (job 491348)."
+  },
+  {
+    "id": "berthoud-co.code-18-1-at-large",
+    "layer": "ordinance",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Berthoud's animal code defines an animal as at large when it is outside a fence or other enclosure that restrains it to a particular premise, or not under its keeper's control.",
+    "quote": "At Large — Shall mean outside of a fence or other enclosure which restrains the animal to a particular premise, whether on public or private property, or not under the control of the keeper.",
+    "source_url": "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH18ANFO_18.1DE",
+    "source_label": "Berthoud Municipal Code Sec. 18.1, Definitions: At Large",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read through Municode's content API (job 491348). Sec. 18.5-1(B) presumes a violation when an animal is found at large anywhere other than its keeper's premises or a designated off-leash area."
+  },
+  {
+    "id": "berthoud-co.code-18-5-1-off-leash",
+    "layer": "ordinance",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "In a designated off-leash area in Berthoud, a dog must stay within sight and command control of its keeper, who remains responsible for any contact with another person or animal.",
+    "quote": "While within designated off-leash areas, any animal shall be within sight and command control of its keeper at all times if not under leash control. The keeper shall remain responsible for such animal if it comes into contact with any other person or animal and regardless of whether the other animal is on a leash or within sight and command control of its keeper.",
+    "source_url": "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH18ANFO_18.5CO",
+    "source_label": "Berthoud Municipal Code Sec. 18.5-1(C), off-leash areas",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read through Municode's content API (job 491348). Off-leash areas are designated by resolution of the Town Board (18.5-1(D))."
+  },
+  {
+    "id": "berthoud-co.code-child-care-home",
+    "layer": "ordinance",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Berthoud's development code defines a child-care home as a residential home providing care to no more than twelve children.",
+    "quote": "Child-care home means a residential home providing care to no more than twelve children.",
+    "source_url": "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH30BEDECO_S1GEPR_30-1-121DE",
+    "source_label": "Berthoud Municipal Code Sec. 30-1-121, Definitions: Child-care home (codified through Ord. No. 1367, Nov. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read through Municode's content API (job 491348). A child-care center takes the definition in C.R.S. 26-6-102(1.5)."
+  },
+  {
+    "id": "berthoud-co.code-land-use-child-care",
+    "layer": "ordinance",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Berthoud's land use table allows a child care home for up to 12 persons with a building permit in the AG, CD, SR, UR and R1 through R4 districts, and a child care center by special review in AG and R1 through R3 or by site plan permit in SC, R4, C1, C2 and M1.",
+    "quote": "Those uses listed on the table with a \"P\" require approval of a Site Plan Permit; with an \"S\" require approval of a Use by Special Review Permit; and with a \"B\" require approval of a Building Permit following land use approval, as may be required. Those land uses not specifically listed on the Land Use Table shall be presumed to be prohibited. … Child care home (up to 12 persons) … Child care center",
+    "source_url": "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH30BEDECO_S4ZO_30-4-107ZOLAUS",
+    "source_label": "Berthoud Municipal Code Sec. 30-4-107, Land Use Table (codified through Ord. No. 1367, Nov. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "12"
+    ],
+    "notes": "Read through Municode's content API (job 491348); table cells parsed from the HTML. Columns AG CD SR SC UR UC R1 R2 R3 R4 R5 C1 C2 M1 M2. Child care home (up to 12 persons): B B B - B - B B B B - - - - -. Child care center: S - - P - - S S S P - P P P -."
+  },
+  {
+    "id": "berthoud-co.code-kennel-outdoor-runs",
+    "layer": "ordinance",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Berthoud's development code allows a small-animal kennel's outdoor runs when they are screened from view of adjacent properties and sound mitigation is established.",
+    "quote": "Kennel (small animal) means a facility licensed to house dogs, cats or other household pets and/or where grooming, boarding or training of animals is conducted as business. Outdoor runs may be allowed when screened from view of adjacent properties and where sound mitigation is established.",
+    "source_url": "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH30BEDECO_S1GEPR_30-1-121DE",
+    "source_label": "Berthoud Municipal Code Sec. 30-1-121, Definitions: Kennel (small animal) (codified through Ord. No. 1367, Nov. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read through Municode's content API (job 491348). Land Use Table 30-4-107, Kennel—Small animal: P in AG, SC, UC, R4, C1, C2; S in M2; not listed in CD, SR, UR, R1-R3, R5, M1."
+  },
+  {
+    "id": "berthoud-co.heron-peninsula-putting-greens",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Heron Lakes' design rules strongly encourage outdoor entertainment areas, putting greens among them, on Peninsula lots with eastern frontage on McNeil Reservoir, where owners also set sandstone boulders along the eastern property line.",
+    "quote": "B. Landscape Requirements for Peninsula Lots with eastern frontage on McNeil Reservoir. … Each yard will be reviewed on a case-by-case basis to ensure quality landscape and a compatible view from the main Clubhouse. Each lot owner is required to install sandstone boulders at each lot corner and shall be responsible for extending the boulders on the eastern property line to define the edge of each yard. These boulders shall extend along the entire property line, except for where beach is approved. Outdoor entertainment areas including fire pits, outdoor kitchens, patios, putting greens, beach, etc. are strongly encouraged.",
+    "source_url": "https://www.berthoudheritagemd.live/s/Heron-Lakes-Design-Rules-and-Regulations-June-1-2026.pdf",
+    "source_label": "Berthoud-Heritage Metropolitan District, Heron Lakes Residential Improvement Rules and Regulations (amended June 1, 2026), Sec. 1.40(B)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "PDF read 2026-09-25 (redirects to static1.squarespace.com). Section 1.40 'AREA I: THE PENINSULA - DESIGN STANDARDS' (requirements subject to change). Rules are prepared by the Heron Lakes Community Architectural Control Committee and published by the Berthoud-Heritage Metropolitan Districts."
+  },
+  {
+    "id": "berthoud-co.heron-xeriscape-artificial-turf",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Heron Lakes' design rules allow xeriscape, including non-irrigated artificial turf, while the rest of the landscape standards, such as required plantings, still apply.",
+    "quote": "Xeriscape is allowed within Heron Lakes, including non-irrigated artificial turf. The rest of these guidelines shall apply including the number of required plantings etc.",
+    "source_url": "https://www.berthoudheritagemd.live/s/Heron-Lakes-Design-Rules-and-Regulations-June-1-2026.pdf",
+    "source_label": "Berthoud-Heritage Metropolitan District, Heron Lakes Residential Improvement Rules and Regulations (amended June 1, 2026), Sec. 4.4, Landscape Intent and Concept",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "PDF read 2026-09-25. Same sentence in the November 28, 2023 version."
+  },
+  {
+    "id": "berthoud-co.heron-landscape-plan-approval",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Heron Lakes requires the Architectural Control Committee's written approval of a professionally designed landscape plan, drawn at 1 inch to 10 feet and showing grading, swales, berms and play areas, within 30 days of occupancy.",
+    "quote": "ACC approval is required for all landscaping. Each builder/owner shall complete a professionally designed landscape plan, complete with a timetable for start and completion, and this plan shall be submitted for written approval by the ACC* within thirty (30) days of occupancy of the home. The landscaping plan shall include a drawing, to a scale of 1” = 10’, showing all grading, swales and keeping in mind location of underground utilities to the home, including adjacent lot landscape and drainage, location of various trees, shrubs, flower beds, walkways, berms, play areas, water features, etc., with types of plants intended for use clearly marked. … All landscape improvements must be completed within ninety (90) days of occupancy or by special approval from the ACC. In the case of occupancy in the winter months, from October 1st to March 1st all landscaping must be completed by June 15th.",
+    "source_url": "https://www.berthoudheritagemd.live/s/Heron-Lakes-Design-Rules-and-Regulations-June-1-2026.pdf",
+    "source_label": "Berthoud-Heritage Metropolitan District, Heron Lakes Residential Improvement Rules and Regulations (amended June 1, 2026), Sec. 4.1, Improvements",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "10",
+      "30",
+      "90",
+      "15"
+    ],
+    "notes": "PDF read 2026-09-25."
+  },
+  {
+    "id": "berthoud-co.heron-berms-drainage",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Heron Lakes requires landscape contractors to get the builder's certificate of drainage and topographical accuracy before starting, and holds berms and mounds to a 3 to 1 slope that may not impede drainage.",
+    "quote": "b. Landscape contractors are not allowed to begin work without obtaining a certificate of drainage/topographical accuracy from the builder. … “Dump truck or elephant under the carpet” landscape mounds are strictly prohibited. Slopes and landscape berms should not exceed a ratio of 3 to 1 horizontal to vertical, or in other words, the base of any mound should be 6 times greater than the height with tops and bottoms less severe than the side slopes. Landscape berms shall not impede drainage.",
+    "source_url": "https://www.berthoudheritagemd.live/s/Heron-Lakes-Design-Rules-and-Regulations-June-1-2026.pdf",
+    "source_label": "Berthoud-Heritage Metropolitan District, Heron Lakes Residential Improvement Rules and Regulations (amended June 1, 2026), Sec. 4.6(b) and (d), Landscape Grading Requirements",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "1",
+      "6"
+    ],
+    "notes": "PDF read 2026-09-25."
+  },
+  {
+    "id": "berthoud-co.heron-lawn-grass-irrigation",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Heron Lakes will not approve Kentucky bluegrass or buffalo grass as lawn grass, recommends turf-type tall fescue, and requires lawns without potable irrigation water to run an automatic non-potable system.",
+    "quote": "Kentucky Blue Grass and/or Buffalo grass will not be approved as lawn grass. The recommended turf grass is Turf Type Tall Fescue. … All lawns, unless provided with potable water for irrigation purposes, shall have an automatic irrigation system set up for non-potable water with inline filter and blow out valve, all approved by the ACC and shall be submitted in conjunction with the landscape plan. Automatic irrigation systems should be set up to run all zones within non-potable watering scheduled times.",
+    "source_url": "https://www.berthoudheritagemd.live/s/Heron-Lakes-Design-Rules-and-Regulations-June-1-2026.pdf",
+    "source_label": "Berthoud-Heritage Metropolitan District, Heron Lakes Residential Improvement Rules and Regulations (amended June 1, 2026), Secs. 4.1 and 2.42",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "PDF read 2026-09-25."
+  },
+  {
+    "id": "berthoud-co.heron-dog-run-250",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Heron Lakes requires committee approval for a dog run, looks for a screened rear or side-yard spot abutting the home, limits the run to 250 square feet and does not allow dog kennels.",
+    "quote": "ACC approval is required. Considerations shall include, but not be limited to, location in “rear” or “side” yard and abutting the home, proximity to neighbor’s residence, “screened” from view, type of cover if utilized, limited in size to 250 square feet maximum, and shall match the style and color of the perimeter fence. If a cover is used, the cover type and materials used must be addressed in the request for approval, generally tarpaulins are not allowed. “Dog kennels” are not allowed. … Dog Kennel: A structure where animals are individualized for purposes of boarding, breeding or training or any type of commercial venture.",
+    "source_url": "https://www.berthoudheritagemd.live/s/Heron-Lakes-Design-Rules-and-Regulations-June-1-2026.pdf",
+    "source_label": "Berthoud-Heritage Metropolitan District, Heron Lakes Residential Improvement Rules and Regulations (amended June 1, 2026), Sec. 2.24, Dog Runs, and Definitions",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "250"
+    ],
+    "notes": "PDF read 2026-09-25. Sec. 2.45 Kennels: 'Not allowed.'"
+  },
+  {
+    "id": "berthoud-co.heron-play-equipment-setback",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Heron Lakes sets playground equipment back from rear and side lot lines by at least its tallest height and never less than 10 feet, requires wood construction, bars metal play equipment and requires a playground area on the approved landscape plan.",
+    "quote": "ACC approval is required. All playground equipment must be located from rear and side home site lines a minimum distance equal to the tallest height of the equipment, but not less than 10 feet. All playground equipment is required to be of wood construction and must be stained with the same color specification as used for the fencing throughout the subdivision. Absolutely no metal play equipment shall be permitted. All slides, canopies, and covering for playsets and swings must be earthtones and compatible with colors of the exterior of the home. A playground area shall be designated on the approved landscape plan for construction of play equipment. (This designation allows neighboring homeowners to plant screening landscape features). Moveable temporary play equipment less than 5 feet in height must be placed/stored out of view from adjacent properties. Consideration shall also be given to securing lightweight play equipment which is subject to movement by high winds. Trampolines must be placed in the backyard of a lot, must be set back a minimum of 10 feet from all property lines, must be buried at ground level, must be screened and hidden from all adjoining properties and must be firmly anchored to the ground for wind protection.",
+    "source_url": "https://www.berthoudheritagemd.live/s/Heron-Lakes-Design-Rules-and-Regulations-June-1-2026.pdf",
+    "source_label": "Berthoud-Heritage Metropolitan District, Heron Lakes Residential Improvement Rules and Regulations (amended June 1, 2026), Sec. 2.59, Play and Sports Equipment",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "10",
+      "5"
+    ],
+    "notes": "PDF read 2026-09-25."
+  },
+  {
+    "id": "berthoud-co.tpc-colorado-practice-facility",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "TPC Colorado's practice facility covers over 18 acres, with a range over 350 yards long, an artificial turf tee, two putting greens and two chipping greens, open full-time to members and to guests before a booked round.",
+    "quote": "The TPC Colorado practice facility is over 18 acres and highlights every aspect of play to improve your game. Our driving range is over 350 yards long with a sand-capped tee, an artificial turf tee and a fairway practice bunker. The facility also features two (2) short game complexes with practice approaches, fairways and rough heights of cut. These short game areas spotlight two (2) putting greens, two (2) chipping greens and two (2) practice bunkers, one of which is a stacked sod bunker to immolate actual on-course play. Our Practice Facility is available full-time to TPC Colorado members and before play for guests with a designated starting time.",
+    "source_url": "https://tpc.com/colorado/practice-facility/",
+    "source_label": "TPC Colorado, Practice Facility page",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "18",
+      "350",
+      "2"
+    ],
+    "notes": "Page read 2026-09-25. TPC Colorado is at 2375 TPC Parkway, Berthoud, inside Heron Lakes."
+  },
+  {
+    "id": "berthoud-co.berthoud-dog-park",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Berthoud Dog Park on 10th Street, established in 2020, has separate small-dog and large-dog sections with dog waste bag posts, water stations and a covered shelter, and no restrooms.",
+    "quote": "Established in 2020, Berthoud Dog Park has two separate sections, one for small dogs, and one for large dogs. This park offers dog waste bag posts, rocks to jump on, water stations, and covered shelter. It's a great gathering place for man's best friend. Restrooms are not available.",
+    "source_url": "https://berthoud.org/facilities/facility/details/Dog-Park-12",
+    "source_label": "Town of Berthoud, Facilities: Dog Park (10th Street)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2020"
+    ],
+    "notes": "Page read 2026-09-25; photos show a fenced area with a pavilion and bench."
+  },
+  {
+    "id": "berthoud-co.town-park-playground",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Berthoud Town Park, the town's oldest park, now has a 12,000-square-foot fully inclusive playground and a 6,000-square-foot natural stone water feature.",
+    "quote": "After almost 100 years of serving the Berthoud Community, the Town's oldest park has been given a facelift. The new park includes a 12,000 square foot, fully inclusive playground that reaches up to the mature trees, and a stunning 6,000-square-foot natural stone water feature with 15 interactive waterspouts and a button-activated waterfall.",
+    "source_url": "https://berthoud.org/1458/Berthoud-Town-Park",
+    "source_label": "Town of Berthoud, Berthoud Town Park page (200 N. 7th St.)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "100",
+      "12000",
+      "6000",
+      "15"
+    ],
+    "notes": "Page read 2026-09-25. Surfacing is not stated on the Town's page."
+  },
+  {
+    "id": "berthoud-co.waggener-farm-park",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Waggener Farm Park, Berthoud's newest park, covers more than 20 acres with large turf fields, multi-age playgrounds, a concrete skate park and a miniature pump track.",
+    "quote": "Berthoud's newest park, this 20+ acre property features large turf fields, a concrete skate park, a pavilion, 4 season restrooms, multi-age level playgrounds, a basketball court, and a miniature pump track.",
+    "source_url": "https://www.berthoud.org/facilities/facility/details/Waggener-Farm-Park-19",
+    "source_label": "Town of Berthoud, Facilities: Waggener Farm Park (1000 N. Berthoud Parkway)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "20",
+      "4"
+    ],
+    "notes": "Page read 2026-09-25. 'Turf fields' is not specified as natural or artificial."
+  },
+  {
+    "id": "berthoud-co.waggener-farm-park-expansion-2026",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "On July 14, 2026, Berthoud approved buying land from Thompson School District R2-J to expand its multi-use community park at Waggener Farm.",
+    "quote": "Whereas, the Town desires to purchase the Property to add to its ownership of Lot 1, Waggener Farm First Subdivision for expansion of its multi-use community park; … Introduced, approved and adopted this 14th day of July, 2026.",
+    "source_url": "https://www.berthoud.org/DocumentCenter/View/7734/Ordinance-1386-Property-Purchase-Thompon-School-District",
+    "source_label": "Town of Berthoud Ordinance No. 1386 (Series 2026), adopted July 14, 2026",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "14",
+      "2026"
+    ],
+    "notes": "Scanned PDF read 2026-09-25 (text layer has OCR errors; quote transcribed from the page)."
+  },
+  {
+    "id": "berthoud-co.smiles-playground",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "S'Miles Playground, a farm-themed inclusive playground in Berthoud designed in part by a boy who uses a wheelchair, opened on September 5, 2026, with solid rubber surfacing he rolled across, KUNC reported.",
+    "quote": "Hundreds of kids and parents came to the grand opening of S'Miles Playground, an accessible playground, on Saturday, Sept. 5th, 2026, in Berthoud, Colo. It was designed in part by nine-year-old Miles Bowling and his parents who wanted to create a place where he and his brothers could play. … The farm-themed playground has several parts that were specifically modified for a wheelchair … He grinned as he rolled his wheelchair over the solid rubber surfacing and made his way out to the middle of the playground.",
+    "source_url": "https://www.kunc.org/news/2026-09-08/more-than-five-years-later-a-childs-dream-of-an-inclusive-playground-in-berthoud-came-true",
+    "source_label": "KUNC, More than five years later, a child's dream of an inclusive playground in Berthoud came true (September 8, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5",
+      "2026"
+    ],
+    "notes": "Article read 2026-09-25. It does not name the park the playground sits in; the article calls it the first inclusive playground in Berthoud, which conflicts with the Town's description of Town Park's playground as fully inclusive, so the page makes neither claim."
+  },
+  {
+    "id": "berthoud-co.max-marr-stadium-field-turf",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "A Musco Lighting project page says Thompson School District was installing new field turf at Berthoud High School's Max Marr Stadium when it added new field lighting.",
+    "quote": "Thompson School District (TSD) in Berthoud, Colorado, was installing new field turf at Berthoud High School’s Max Marr Stadium, and in addition to that upgrade district leaders also decided to install new field lighting.",
+    "source_url": "https://www.musco.com/project/berthoud/",
+    "source_label": "Musco Lighting, project page: Berthoud High School (Max Marr Stadium)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [],
+    "notes": "Vendor case study, undated; read 2026-09-25. Berthoud Weekly Surveyor coverage of the 2020 turf approval returned 403 and was not read. Confirm with Thompson School District before relying on it."
+  },
+  {
+    "id": "berthoud-co.ldg-parks-irrigated-turf",
+    "layer": "ordinance",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Berthoud's Landscape Design Guidelines tell park designers to reserve irrigated turf grass for the areas of parks subject to human activity.",
+    "quote": "PARKS, RECREATION AND TRAILS 1. Design parks to serve the active and passive needs of people on-site and on nearby properties. 2. Amenities such as picnic shelters, playgrounds,amphitheaters, gardens, etc. should be appropriate to the project. 3. Reserve Irrigated turf grass for areas of parks subject to human activity.",
+    "source_url": "https://www.berthoud.org/DocumentCenter/View/7674",
+    "source_label": "Town of Berthoud Landscape Design Guidelines, Open Space & Parks: Parks, Recreation and Trails guideline 3 (updated June 30, 2026, Ordinance 1383)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "1",
+      "2",
+      "3",
+      "30",
+      "2026"
+    ],
+    "notes": "PDF read 2026-09-25 (p. 19). Says irrigated turf grass, not artificial turf."
+  },
+  {
+    "id": "berthoud-co.wce-amend-landscape-guidelines-2026",
+    "layer": "ordinance",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Berthoud's Water Conservation Element, adopted by Ordinance 1379 on April 14, 2026, says the intent is to amend the landscape guidelines in 2026 to align with House Bill 21-1229.",
+    "quote": "Incorporate water efficiency standards into the Town's development code with a focus on outdoor water use/landscaping. … WEP-ALIGNMENT - The intent is to amend the landscape guidelines in 2026 to ensure alignment with House Bill 21-1229",
+    "source_url": "https://www.berthoud.org/DocumentCenter/View/7739",
+    "source_label": "Town of Berthoud Comprehensive Plan Section 5, Water Conservation Element, action 11 (added by Ordinance No. 1379, adopted April 14, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "1379",
+      "14",
+      "2026",
+      "21",
+      "1229",
+      "11"
+    ],
+    "notes": "PDF read 2026-09-25 (table cell text; layout splits the sentence across columns). Ordinance 1379 read 2026-09-25: 'Introduced, approved and adopted this 14th day of April, 2026.' The guidelines were amended again on June 30, 2026 (Ord. 1383) for the Wildfire Resiliency Code; whether that amendment was the HB21-1229 alignment is not stated. Recheck."
+  },
+  {
+    "id": "berthoud-co.ordinances-1360-1390-no-turf-title",
+    "layer": "ordinance",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "None of Berthoud's posted ordinances No. 1360 through No. 1390 is titled as a turf or nonfunctional-turf rule; the landscape items are No. 1379, adding a Water Conservation Element, and No. 1383, amending the Landscape Design Guidelines.",
+    "quote": "Ordinance 1390 Calling for Special Election on November 3 2026 and Certifying Ballot Issue … Ordinance 1383 Amending the Landscape Design Guidelines … Ordinance 1379 Amending Comprehensive Plan to Add Water Conservation Element … Ordinance 1367 Adopting Chapter 30 of the Municipal Code … Ordinance 1360 River Trails Annexation",
+    "source_url": "https://www.berthoud.org/280/Ordinances",
+    "source_label": "Town of Berthoud, Ordinances page (Ord. Nos. 1360 to 1390 posted)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "1360",
+      "1390",
+      "1379",
+      "1383",
+      "1367",
+      "3",
+      "2026"
+    ],
+    "notes": "Page read 2026-09-25; titles only (1375, 1384 and 1389 not listed). A negative finding from titles: an ordinance on another subject could still touch turf. Chapter 30 (Ord. 1367) holds the live-turf limit in 30-6-112(B)(3)(b)."
+  },
+  {
+    "id": "berthoud-co.code-18-5-2-barking",
+    "layer": "ordinance",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Berthoud requires an animal's keeper to prevent loud and persistent barking or other excessive noise on or off the premises, but no one is charged unless the household got a written warning from a police or animal control officer within the preceding 12 months.",
+    "quote": "No keeper of an animal shall fail to prevent it from disturbing the peace and quiet of any other person by loud and persistent barking, baying, howling, yipping, crying, yelping, whining, or making any other noise in an excessive continuous or untimely fashion, whether the animal is on or off the keeper's premises. … No keeper of an animal which is alleged to have disturbed the peace and quiet of another person shall be charged with a violation of Subsection (A) of this Section unless a keeper or a member of said person's household has received a written warning from a police officer or an animal control officer within the preceding 12 months.",
+    "source_url": "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH18ANFO_18.5CO",
+    "source_label": "Berthoud Municipal Code Sec. 18.5-2(A) and (C), Disturbance of Peace and Quiet",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "12"
+    ],
+    "notes": "Read through Municode's content API (job 491348)."
+  },
+  {
+    "id": "berthoud-co.heron-golf-course-screening",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Heron Lakes asks every lot next to TPC Colorado's course for an enhanced landscape as seen from the course, with canopy, ornamental and evergreen trees and shrub screening, and the committee may require added plantings case by case.",
+    "quote": "Care should be taken in the landscape architectural design for any lot that is adjacent to the golf course to provide an enhanced landscape as seen from the golf course. … The quality of the experience on the golf course will be enhanced with quality, well thought out placement of canopy, ornamental, and evergreen trees as well as shrub screening. Views to the golf course and beyond should be maintained but adequate screening of homes adjacent to the golf course is required. Additional plantings for lots adjacent to the golf course may be required and will be evaluated on a case-by-case basis by the ACC.",
+    "source_url": "https://www.berthoudheritagemd.live/s/Heron-Lakes-Design-Rules-and-Regulations-June-1-2026.pdf",
+    "source_label": "Berthoud-Heritage Metropolitan District, Heron Lakes Residential Improvement Rules and Regulations (amended June 1, 2026), Sec. 4.5, Landscape Screening from the Golf Course",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "PDF read 2026-09-25 (p. 78)."
+  }
+]

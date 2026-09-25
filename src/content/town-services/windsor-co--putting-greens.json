@@ -1,0 +1,181 @@
+{
+  "status": "draft",
+  "town": "windsor-co",
+  "service": "putting-greens",
+  "title": "Backyard Putting Greens in Windsor, CO | NoCo Turf Co.",
+  "description": "Windsor putting greens: metro-district limits on backyard turf, the Town's rule for a shared green, and the practice greens at RainDance and Highland Meadows.",
+  "h1": "In Ptarmigan West, a Windsor metro district caps backyard turf, a putting green included, at a quarter of the rear yard.",
+  "display": {
+    "paint": "a quarter of the rear yard"
+  },
+  "lede": "Windsor's landscape code leaves the backyard of a detached house alone, so the rules a green behind one answers to, if any, are a metro district's or an HOA's. Ptarmigan West and New Windsor have theirs in writing. The Town's own rule starts when a green is shared, or sits on a site plan.",
+  "answer": {
+    "question": "How big can a backyard putting green be in Windsor?",
+    "answer": "The Town sets no size for a green behind a detached house. Some metro districts do: Ptarmigan West Metro District No. 2's posted guidelines allow artificial turf in rear yards only, up to 25% of the rear yard, and New Windsor's review committee considers turf in back yards only. Read your district's current guidelines first."
+  },
+  "blocks": [
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Metro district limits",
+      "h2": "Two Windsor metro districts write down where backyard turf can go, and how much.",
+      "takeaway": "Ptarmigan West caps it at a quarter of the rear yard; New Windsor keeps it out of front and side yards.",
+      "paras": [
+        "Ptarmigan West Metro District No. 2, on the Larimer County side of town, posts design guidelines that allow artificial turf \"in rear yards only up to 25% of the rear yard.\" The same guidelines hold non-living materials to 30% of front-yard landscaping and apply that limit to back yards as well, unless the whole back yard is screened by fencing at least 5 feet high. How the district counts a green against either figure is its call.",
+        "New Windsor Metropolitan District, which covers the Brunner Farm subdivision, lets its design review committee consider artificial turf in back yards only. Its guidelines dated May 16, 2024 want that turf professionally installed and \"warranted for a period of 10 years against discoloration and wear,\" with \"a sample of the product and a copy of the warranty\" sent in before installation.",
+        "Whether a percentage cap squares with the Colorado backyard rule printed below hasn't been tested. Not legal advice: ask your district, in writing, before the green is drawn."
+      ],
+      "layerRefs": [
+        "windsor-co.ptarmigan-west-turf-rear-yard",
+        "windsor-co.ptarmigan-west-arc-approval",
+        "windsor-co.ptarmigan-west-nonliving-30",
+        "windsor-co.new-windsor-turf-back-yards",
+        "co-special-district-backyard"
+      ],
+      "sources": [
+        "https://pwmd1.specialdistrict.org/files/3deb93af5/03+PWMD+Rules+and+Regulations+-+Design+Guidelines.pdf",
+        "https://pwmd1.specialdistrict.org/architectural-review",
+        "https://www.newwindsormetro.org/files/72102649d/New+Windsor_Brunner+Farm+Design+Guidelines+-+5-16-24+-+Final.pdf",
+        "https://leg.colorado.gov/bill_files/92307/download"
+      ]
+    },
+    {
+      "kind": "golf",
+      "own": true,
+      "kicker": "Practice greens in town",
+      "h2": "RainDance calls its 61,500-square-foot practice green the largest in Colorado.",
+      "paras": [
+        "RainDance National's G.O.A.T. Ranch measures 61,500 square feet, which the club calls the largest putting green in Colorado, with separate areas for putting, chipping, pitching and bunker play. The course around it, by Fred Funk and Harrison Minchew, plays to 8,463 yards over 250 feet of elevation change and sells public tee times.",
+        "Highland Meadows Golf Course keeps a putting green and a dedicated chipping area beside its full-length range, open every day until sunset except Wednesdays, when it closes for maintenance. At Pelican Lakes, the nine-hole Pelican Falls course, designed by Mike Hines and opened July 12, 2006, finishes on an island 9th green."
+      ],
+      "layerRefs": [
+        "windsor-co.raindance-goat-ranch",
+        "windsor-co.raindance-national-course",
+        "windsor-co.highland-meadows-practice",
+        "windsor-co.pelican-falls-course"
+      ],
+      "sources": [
+        "https://raindancenational.com/practice-facility/",
+        "https://raindancenational.com/",
+        "https://highlandmeadowsgolfcourse.com/practice-facility/",
+        "https://pelicanlakeswindsor.com/pelican-falls-course/"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "A shared green",
+      "h2": "Windsor counts a putting green as functional turf, and still asks for the Director's exception.",
+      "paras": [
+        "The Town's definition of functional artificial turf names \"the playing area of a golf course, such as a driving range, chipping and putting green\". That matters for a green on HOA common ground, beside a clubhouse, or in any project that needs a building permit or site plan approval, and for a redevelopment that disturbs more than 50% of the existing landscaped area.",
+        "Colorado lets functional turf go in; Windsor adds a step. On those sites its code keeps artificial turf off landscape plans unless the Director grants an exception because alternatives are not reasonable, and the exception has to be noted on the plan. A green behind a detached house or duplex sits outside that article altogether. For anything in between, it depends on the plan: ask Windsor Planning."
+      ],
+      "layerRefs": [
+        "windsor-co.code-functional-artificial-turf-definition",
+        "windsor-co.code-15-3-20-b3-applies-to",
+        "windsor-code-15-3-20-no-turf",
+        "windsor-co.code-15-3-20-b2-exception-noted",
+        "windsor-code-15-3-10-single-family-exempt",
+        "co-hb25-1113-functional-turf",
+        "co-sb24-005-applicable-property"
+      ],
+      "sources": [
+        "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTIIISTLADEAR_APXATESP",
+        "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTIIISTLADEAR_S15-3-20LAST",
+        "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTIIISTLADEAR_S15-3-10INAP",
+        "https://leg.colorado.gov/bill_files/40673/download",
+        "https://leg.colorado.gov/bill_files/45372/download"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does a backyard putting green need a Town of Windsor permit?",
+      "a": "Windsor's landscape article exempts detached houses and duplexes, apart from the tree lawn and a landscaped share of the front yard, and nothing in that article calls for a permit for turf behind the house. If the green comes with other construction, ask Windsor Planning what that work needs."
+    },
+    {
+      "q": "Does a small green in Ptarmigan West still need the district's approval?",
+      "a": "Yes. The district's architectural review page says all exterior alterations need its Architectural Review Committee's approval before installation, so a green well under the rear-yard cap still goes to the committee first."
+    },
+    {
+      "q": "Does Colorado's nonfunctional-turf law reach a backyard green?",
+      "a": "No. The state list covers commercial, institutional and industrial property, HOA common property, and streets, medians and parking lots, not single-family lots. It matters for a shared green on common ground, where a putting green counts as functional. Not legal advice."
+    }
+  ],
+  "photo": "boulders",
+  "sources": [
+    {
+      "label": "Ptarmigan West Metro District No. 2, Rules and Regulations/Design Guidelines (posted undated): artificial turf in rear yards up to 25%; non-living materials 30%; 5-foot screening",
+      "url": "https://pwmd1.specialdistrict.org/files/3deb93af5/03+PWMD+Rules+and+Regulations+-+Design+Guidelines.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Ptarmigan West Metropolitan District Nos. 1-3, Architectural Review page",
+      "url": "https://pwmd1.specialdistrict.org/architectural-review",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "New Windsor Metropolitan District (Brunner Farm), Design Guidelines and Architectural Standards, May 16, 2024",
+      "url": "https://www.newwindsormetro.org/files/72102649d/New+Windsor_Brunner+Farm+Design+Guidelines+-+5-16-24+-+Final.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "RainDance National, Practice Facility page (G.O.A.T. Ranch, 61,500 sq ft)",
+      "url": "https://raindancenational.com/practice-facility/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "RainDance National Resort & Golf, home page (8,463 yards, 250 feet of elevation change)",
+      "url": "https://raindancenational.com/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Highland Meadows Golf Course, Practice Facility page",
+      "url": "https://highlandmeadowsgolfcourse.com/practice-facility/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Pelican Lakes Golf Course, Pelican Falls Course page (opened July 12, 2006)",
+      "url": "https://pelicanlakeswindsor.com/pelican-falls-course/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Windsor Municipal Code Ch. 15, Art. III, Appendix A, definition 17 (codified through Ord. No. 2026-1749, July 13, 2026)",
+      "url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTIIISTLADEAR_APXATESP",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Windsor Municipal Code Sec. 15-3-20(b)(2) and (b)(3) (codified through Ord. No. 2026-1749, July 13, 2026)",
+      "url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTIIISTLADEAR_S15-3-20LAST",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Windsor Municipal Code Sec. 15-3-10(b)(1) (codified through Ord. No. 2026-1749, July 13, 2026)",
+      "url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTIIISTLADEAR_S15-3-10INAP",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "C.R.S. 37-60-126(11)(a.5) and 38-33.3-106.5, SB23-178 (signed act)",
+      "url": "https://leg.colorado.gov/bill_files/92307/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "HB25-1113 signed act: C.R.S. 37-99-102(6.5), functional artificial turf",
+      "url": "https://leg.colorado.gov/bill_files/40673/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "SB24-005 signed act: C.R.S. 37-99-102(1)(a), applicable property",
+      "url": "https://leg.colorado.gov/bill_files/45372/download",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Backyard putting greens NoCo has built in Windsor: neighborhood (Ptarmigan West, New Windsor/Brunner Farm, RainDance, Water Valley, Highland Meadows or other), month, rough size, and whether a metro district or HOA reviewed it",
+    "Any Windsor district or HOA approval letter for a green, and the conditions attached (New Windsor asks for a product sample and the product's 10-year paperwork), with the owner's consent to describe it",
+    "Which neighborhoods the 'boulders' and 'dusk' greens south and west of Windsor are in, and permission to name them",
+    "Water Valley's and RainDance's current design guidelines on artificial turf: the public Water Valley PDF now returns 404, and RainDance posts none",
+    "Confirm NoCo builds putting greens today (services.ts putting-greens is unconfirmed)"
+  ]
+}

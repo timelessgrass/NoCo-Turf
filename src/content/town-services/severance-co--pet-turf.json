@@ -1,0 +1,216 @@
+{
+  "status": "draft",
+  "town": "severance-co",
+  "service": "pet-turf",
+  "title": "Pet Turf and Dog Runs in Severance, CO | NoCo Turf Co.",
+  "description": "Severance's code bars dog areas that create odor, dust, noise or drainage offensive to neighbors and caps a home at 3 dogs. What that means for a turf dog run.",
+  "h1": "Severance's code won't let a dog area send odor or drainage next door",
+  "display": {
+    "paint": "odor or drainage next door"
+  },
+  "lede": "Severance puts its dog rules in Chapter 7 of the Town code: how an animal area is kept, how many dogs one address may hold and when a dog counts as loose. Two metro district rulebooks add screening and fence rules for the run itself.",
+  "answer": {
+    "question": "What does Severance's code require of a backyard dog run?",
+    "answer": "That it not bother the neighbors. Section 7-6-80 requires any area where animals are kept to be maintained without odors, dust, noise or drainage offensive to adjoining properties, and Section 7-6-160 allows no more than 3 dogs at one address. NoCo Turf Co. installs pet turf and dog runs in Severance."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Section 7-6-80",
+      "h2": "Severance judges an animal area by what reaches the neighbors, drainage included.",
+      "paras": [
+        "Section 7-6-80(b) says areas where animals are kept must be maintained so they don't create odors, dust, noise or drainage offensive to the senses and a nuisance to the use or enjoyment of adjoining properties. Drainage is named right alongside smell.",
+        "The section never mentions turf. On an artificial-turf run, what can drain is urine rinsed through the backing, so a run graded toward a neighbor's yard, or pushed against a shared fence, is the layout that drainage wording is most likely to reach.",
+        "Subsection (a) of the same section makes an animal a public nuisance if it damages shrubbery, plants, a lawn or a fence, private or public."
+      ],
+      "layerRefs": [
+        "severance-co.code-7-6-80-animal-areas"
+      ],
+      "sources": [
+        "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH7HESAAN_ART6AN_S7-6-80MANUAN"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Three dogs",
+      "h2": "One Severance address may keep 3 dogs, and 4 animals in all.",
+      "paras": [
+        "Section 7-6-160 caps a residence at four animals of any kind, with no more than three dogs or three cats and no mix above four. Nursing litters under 12 weeks old and family poultry don't count. The section also exempts an address holding a Town Council animal permit under Section 7-6-10, but that permit is written for animals other than dogs, cats and small pets. Whether it can lift the dog cap depends on the case; ask Severance Planning.",
+        "The code draws its leash line at the fence. Under Section 7-6-20 an animal is running at large once it is outside a fence or other enclosure that keeps it on the premises and isn't on a leash someone is holding, so on a turf dog yard the gate and the fence base matter as much as the surface."
+      ],
+      "layerRefs": [
+        "severance-co.code-7-6-160-animal-limit",
+        "severance-co.code-7-6-20-running-at-large"
+      ],
+      "sources": [
+        "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH7HESAAN_ART6AN"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Severance Shores · Hunters Overlook",
+      "h2": "In Severance Shores and Hunters Overlook a dog run needs committee approval, screening and no chain-link.",
+      "paras": [
+        "Section 2.17 of the guidelines both metro districts post (Severance Shores, amended September 5, 2024; Hunters Overlook, amended April 1, 2025) sends dog houses, runs and pet enclosures to the architectural review committee. The run must be screened from the street and public view, and wire or chain-link enclosures aren't permitted.",
+        "Their household-pet section lets each district's board limit the number, size and weight of household pets, while guaranteeing every owner the right to keep up to two. The same guidelines prohibit artificial turf in front and side yards, so a turf run in either district belongs out back."
+      ],
+      "layerRefs": [
+        "severance-co.severance-shores-pets",
+        "severance-co.hunters-overlook-pets",
+        "severance-co.severance-shores-yards",
+        "severance-co.hunters-overlook-yards",
+        "co-special-district-backyard"
+      ],
+      "sources": [
+        "https://ssmd.specialdistrict.org/files/3cc9774d3/SSMD+-+Amended+RIGSR+09.05.24.pdf",
+        "https://homd.specialdistrict.org/files/60183cf34/HOMD+-+RIGSR+Amended+04.01.25.pdf",
+        "https://leg.colorado.gov/bill_files/92307/download"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Timber Ridge · Hidden Valley Farm",
+      "h2": "Timber Ridge keeps a dog pen below the yard fence; Hidden Valley Farm fixes the fence itself.",
+      "paras": [
+        "Timber Ridge's HOA handbook, revised October 8, 2016, wants animal pens kept neat, orderly, clean and healthy, their visible parts built to its fencing guidelines, and no pen taller than the yard fence.",
+        "Hidden Valley Farm's guidelines call for a 5-foot stained privacy fence approved by the Design Review Council and ban gates into district-owned areas or neighborhood parks. The same guidelines still list artificial turf as prohibited without the council's express approval.",
+        "In the Suburban Perimeter district, Section 16.3.270 has every subdivision file a master fence plan, and private fencing seen from a street, greenbelt or common area takes that plan's common color."
+      ],
+      "layerRefs": [
+        "severance-co.timber-ridge-animal-pens",
+        "severance-co.hidden-valley-farm-fences",
+        "severance-co.hidden-valley-farm-turf",
+        "severance-co.code-16-3-270-master-fence"
+      ],
+      "sources": [
+        "https://www.timberridge-hoa.com/wp-content/uploads/Timber-Ridge-HOA-Handbook.pdf",
+        "https://www.hiddenvalleyfarmmd.live/files/0e0b82caf/DRC+Guidelines+Final+-+Including+Fence+Detail.pdf",
+        "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART3ZO_DIV2SUPE_S16.3.270FE"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "Off-leash",
+      "h2": "The Severance Dog Park covers 2 acres, and leashed dogs can use the other Town parks.",
+      "paras": [
+        "The Town's Parks & Trails map dated April 13, 2026 lists the Severance Dog Park at 2.0 acres among 18 numbered park sites totaling 105.1 acres. The Town's 2017 Parks Master Plan recorded a public comment that the dog park south of Lakeview was used heavily, even by neighboring communities, and called for benches or shade in that dog park.",
+        "Elsewhere, Section 7-6-200 lets pets go with their owners into public parks unless a posted sign says otherwise, as long as they stay under control and owners pick up waste left on public property right away."
+      ],
+      "layerRefs": [
+        "severance-co.dog-park-2026",
+        "severance-co.lakeview-dog-park-2017",
+        "severance-co.code-7-6-200-pets-in-parks"
+      ],
+      "sources": [
+        "https://www.townofseverance.org/DocumentCenter/View/267/Parks-Map-PDF",
+        "https://www.townofseverance.org/DocumentCenter/View/250/Parks-Master-Plan-PDF",
+        "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH7HESAAN_ART6AN_S7-6-200ANPA"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Ordinance 2026-04",
+      "h2": "Severance cut its dog license from 20 years to 3 in June 2026.",
+      "paras": [
+        "Until this summer a Severance dog or cat license was good for 20 years. Ordinance No. 2026-04, adopted June 9, 2026, cut the term to three years, with every license expiring December 31 of the second calendar year after it is issued; applications and renewals from July 10, 2026 fall under the new term.",
+        "From the same date each dog and cat needs a second tag on its collar or harness with the owner's name, physical street address and current phone number. A dog found off its owner's premises without that tag puts the owner presumptively in violation."
+      ],
+      "layerRefs": [
+        "severance-co.ord-2026-04-dog-licenses"
+      ],
+      "sources": [
+        "https://www.townofseverance.org/DocumentCenter/View/1207"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does a dog run count toward a new Severance neighborhood's amenities?",
+      "a": "In a new residential project, yes. Section 16.5.130 of the Land Use Code scores a dog run at half an amenity point and a large dog park at one point, toward the 1 to 7 points a project owes by its number of homes."
+    },
+    {
+      "q": "Can the Town impound a dog that gets out of the yard?",
+      "a": "Yes. Section 7-6-170 lets the Town Manager, a police officer or another designated officer impound an animal found running at large, and it goes home only after the owner pays a redemption fee plus a daily care fee from the Town's fee schedule and brings any license current."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Severance Municipal Code Sec. 7-6-80, Maintaining a nuisance animal (codified through Ord. No. 2025-27, Dec. 9, 2025)",
+      "url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH7HESAAN_ART6AN_S7-6-80MANUAN",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Severance Municipal Code Ch. 7, Art. 6, Animals: Secs. 7-6-10, 7-6-20, 7-6-160 and 7-6-170 (codified through Ord. No. 2025-27, Dec. 9, 2025)",
+      "url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH7HESAAN_ART6AN",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Severance Shores Metropolitan District Nos. 1-4, Residential Improvement Guidelines and Site Restrictions (amended September 5, 2024)",
+      "url": "https://ssmd.specialdistrict.org/files/3cc9774d3/SSMD+-+Amended+RIGSR+09.05.24.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Hunters Overlook Metropolitan District Nos. 1-8, Residential Improvement Guidelines and Site Restrictions (amended April 1, 2025)",
+      "url": "https://homd.specialdistrict.org/files/60183cf34/HOMD+-+RIGSR+Amended+04.01.25.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "SB23-178 signed act: C.R.S. 38-33.3-106.5(1)(i.5) and 37-60-126(11)(a.5)",
+      "url": "https://leg.colorado.gov/bill_files/92307/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Timber Ridge (Severance) Homeowners' Association Handbook, revised October 8, 2016",
+      "url": "https://www.timberridge-hoa.com/wp-content/uploads/Timber-Ridge-HOA-Handbook.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Hidden Valley Farm Design Guidelines, Design Review Council (PDF, last modified Oct. 18, 2023)",
+      "url": "https://www.hiddenvalleyfarmmd.live/files/0e0b82caf/DRC+Guidelines+Final+-+Including+Fence+Detail.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Severance Land Use Code Sec. 16.3.270, Suburban Perimeter fencing (Ord. No. 2025-15, Aug. 12, 2025)",
+      "url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART3ZO_DIV2SUPE_S16.3.270FE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Severance, Parks & Trails, Map 12 (Ayres, Project 51-0442, April 13, 2026)",
+      "url": "https://www.townofseverance.org/DocumentCenter/View/267/Parks-Map-PDF",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Severance Parks Master Plan Report (adopted March 2017)",
+      "url": "https://www.townofseverance.org/DocumentCenter/View/250/Parks-Master-Plan-PDF",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Severance Municipal Code Secs. 7-6-200 (Animals in park) and 7-6-90 (Animal defecation)",
+      "url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH7HESAAN_ART6AN_S7-6-200ANPA",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Severance Ordinance No. 2026-04, amending Secs. 7-6-40 and 7-6-70 (adopted June 9, 2026)",
+      "url": "https://www.townofseverance.org/DocumentCenter/View/1207",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Severance Land Use Code Sec. 16.5.130, Amenity points (Ord. No. 2025-15, Aug. 12, 2025)",
+      "url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART5SIDEST_DIV1OPSPBUPECO_S16.5.130AMPO",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Dog runs or pet turf you have installed in Severance: subdivision, month, size, number of dogs, and where the run drains relative to the property line",
+    "Camera-original photos of a Severance dog run: photos.ts has no pet photo yet, from Severance or anywhere",
+    "Whether a Severance neighbor, district or code officer has ever raised odor or drainage from a dog area (Sec. 7-6-80) on one of your jobs",
+    "Dog runs you have taken through the Severance Shores or Hunters Overlook review committee (Sec. 2.17), Timber Ridge or Hidden Valley Farm, and what screening or fencing they required"
+  ]
+}

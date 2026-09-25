@@ -1,0 +1,198 @@
+{
+  "status": "draft",
+  "town": "dacono-co",
+  "service": "commercial-turf",
+  "title": "Commercial and HOA Turf in Dacono, CO | NoCo Turf Co.",
+  "description": "Dacono's Ordinance 1016 (May 2026) keeps turf on commercial, HOA and 12-plus-unit land to play, sports and dog areas. The code, the site math, the water plan.",
+  "h1": "Since May 2026, Dacono allows turf on commercial and HOA land only where people play, gather or run their dogs.",
+  "display": {
+    "paint": "only where people play"
+  },
+  "lede": "Ordinance 1016, adopted unanimously on May 11, 2026, rewrote Section 16-656(d) of the landscape article: turf and artificial turf go only in functional recreational use areas, and everywhere else on commercial, institutional, industrial and common-interest land, and on multifamily properties of 12 or more units, they count as nonfunctional and are barred.",
+  "answer": {
+    "question": "Can a Dacono business or HOA install artificial turf?",
+    "answer": "Only in functional recreational areas: playgrounds, sports fields, picnic areas, dog parks and similar spaces used for civic, community or recreational purposes. Anywhere else on commercial, HOA or larger multifamily land, Ordinance 1016 treats turf as nonfunctional and bars it. Not legal advice; ask Dacono Planning. NoCo Turf Co. installs commercial and HOA turf in Dacono, Colorado."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Sec. 16-656(d), as amended",
+      "h2": "Dacono now sorts every commercial or HOA landscape into use areas and everything else.",
+      "paras": [
+        "The definitions Ordinance 1016 added do the sorting. Functional turf serves athletic fields, playgrounds, dog parks or other areas where turf is needed for active recreation or another functional use; nonfunctional turf is kept mainly for looks, as in street rights-of-way, medians, parking lots, transportation corridors and decorative beds. Only the first kind may go on commercial, institutional, industrial and common-interest community property.",
+        "Dacono's text reaches multifamily properties with 12 or more units, while the staff memo in the same packet describes the state amendment as covering developments of more than 12. For a project of exactly 12 units, it depends on how the City reads its own wording, so ask Dacono Planning. Not legal advice."
+      ],
+      "layerRefs": [
+        "dacono-co.ord-1016-adopted",
+        "dacono-co.ord-1016-functional-only",
+        "dacono-co.ord-1016-definitions",
+        "co-sb24-005-applicable-property",
+        "co-sb24-005-maintain-existing",
+        "co-sb24-005-redevelopment"
+      ],
+      "sources": [
+        "https://www.daconoco.gov/AgendaCenter/ViewFile/Minutes/_05112026-528",
+        "https://www.daconoco.gov/AgendaCenter/ViewFile/Agenda/_05112026-528?packet=true",
+        "https://leg.colorado.gov/bill_files/45372/download"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Landscape math",
+      "h2": "A Dacono site plan still needs a fifth of the site landscaped, three-quarters of it living.",
+      "paras": [
+        "Section 16-662 sets the floor for new development: at least 20% of the site landscaped, with 75% of that area living material within three years of planting, plus 10% of any parking lot of 10 or more spaces. Along I-25, State Highway 52 and their frontage roads the landscape setback is 50 feet deep, with a shade or evergreen tree for every 25 feet of frontage.",
+        "Section 16-656 holds high-water-use zones to 35% of the landscaped area and says turf grass should stay under 25% of it, with room for exceptions such as sports fields. Ordinance 1016 reworded the synthetic-turf rule so that artificial turf can't meet the article's requirements except where the article expressly permits it; whether a turfed play area counts toward the 20% is a question for Dacono Planning."
+      ],
+      "layerRefs": [
+        "dacono-co.code-16-662-site-landscape",
+        "dacono-co.code-16-656-turf-share",
+        "dacono-co.ord-1016-subdivisions-irrigation"
+      ],
+      "sources": [
+        "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH16ZO_ART28LADEST_S16-662SICARE",
+        "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH16ZO_ART28LADEST_S16-656WAFILADE",
+        "https://www.daconoco.gov/AgendaCenter/ViewFile/Agenda/_05112026-528?packet=true"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Subdivisions and 2028",
+      "h2": "Dacono's planning area holds another 22 square miles of mostly open land, and no subdivision approval there can authorize nonfunctional turf.",
+      "paras": [
+        "Beyond the current city limits, the Planning Area takes in about 22 square miles of largely undeveloped land, bounded by State Highway 52, Weld County Roads 21 and 6 and I-25, and the City's water plan expects service to grow toward about 70,000 residents. Ordinance 1016 says no subdivision approval authorizes nonfunctional turf where the landscape article bars it, and that non-potable irrigation service doesn't permit it either.",
+        "One step is still open. Colorado's 2025 amendment requires local governments to regulate turf on other residential property by January 1, 2028, and Dacono's planning staff wrote that Ordinance 1016 leaves that for later, to give the Council time to settle an approach."
+      ],
+      "layerRefs": [
+        "dacono-co.wep-2026-planning-area",
+        "dacono-co.ord-1016-subdivisions-irrigation",
+        "dacono-co.ord-1016-staff-memo",
+        "co-hb25-1113-residential-live-turf-2028"
+      ],
+      "sources": [
+        "https://www.daconoco.gov/DocumentCenter/View/8971/2026-Water-Efficiency-Plan-pdf",
+        "https://www.daconoco.gov/AgendaCenter/ViewFile/Agenda/_05112026-528?packet=true",
+        "https://leg.colorado.gov/bill_files/40673/download"
+      ]
+    },
+    {
+      "kind": "utility",
+      "own": true,
+      "kicker": "2026 water plan",
+      "h2": "Every Dacono HOA waters through its own outdoor meter, and the City plans to rank them per acre.",
+      "paras": [
+        "The City's draft 2026 Water Efficiency Plan, dated July 15, 2026 and posted for public comment, notes that all HOAs and parks already have dedicated outdoor meters. It proposes pulling that meter data in the first year, working out each HOA's water applied per acre, and taking outreach first to the heaviest users in the second.",
+        "The plan puts residential customers at about 80% of demand and commercial at roughly 17%, and says the 15 largest users, a mix of homes, businesses and HOAs, account for about 11%. For an HOA board, the per-acre figure is the one the draft tells City staff to calculate."
+      ],
+      "layerRefs": [
+        "dacono-co.wep-2026-hoa-meters",
+        "dacono-co.wep-2026-demand"
+      ],
+      "sources": [
+        "https://www.daconoco.gov/DocumentCenter/View/8971/2026-Water-Efficiency-Plan-pdf"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Sec. 16-813",
+      "h2": "New apartment projects owe recreation amenities, and the City's menu includes tot lots and fenced pet areas.",
+      "paras": [
+        "Dacono's multifamily design standards ask a project of at least 10 units for one recreational amenity, 100 units for two and 200 units for three. The menu: a swimming pool, a clubhouse, two tot lots, a sport court, two picnic areas with grills, fenced off-leash pet areas, or another amenity the Community Development Director accepts.",
+        "Tot lots, sport courts, picnic areas and dog areas are the kinds of use areas where Ordinance 1016 still lets turf go on a property of 12 or more units."
+      ],
+      "layerRefs": [
+        "dacono-co.code-16-813-multifamily-amenities"
+      ],
+      "sources": [
+        "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH16ZO_ART31DESTREDE_S16-813MUDEST"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "City fields",
+      "h2": "The City cares for the fields in its own parks, and the rec district books them.",
+      "paras": [
+        "Under the agreement adopted on December 8, 2025 with the Carbon Valley Parks and Recreation District, Dacono mows, waters and fertilizes the fields in its parks and keeps up their fences, irrigation and lighting, while relying on the District for recreation programs and scheduling. The City keeps first priority on its parks and sets its own use dates twice a year, by November 30 and May 31."
+      ],
+      "layerRefs": [
+        "dacono-co.cvprd-iga-2025"
+      ],
+      "sources": [
+        "https://www.daconoco.gov/AgendaCenter/ViewFile/Item/4035?fileID=8455"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does Ordinance 1016 make existing commercial turf come out?",
+      "a": "The staff memo on Ordinance 1016 says the state law does not apply to existing development; the rules attach to new development and redevelopment. Colorado's law also doesn't stop a city from letting turf installed before January 1, 2026 be maintained. Under the state definition, a project that needs a permit or design review and disturbs more than half of the landscape area is redevelopment, so ask Dacono Planning before a remodel. Not legal advice."
+    },
+    {
+      "q": "Where are Dacono's commercial sites?",
+      "a": "Mostly along the I-25 and State Highway 52 corridors. The City's draft water plan counts about 360 acres of commercial and industrial development on City water."
+    },
+    {
+      "q": "Is Dacono planning more landscape rules?",
+      "a": "Not soon, by its draft water plan. Citing the new landscape code and the state's turf laws, the plan judged further landscape ordinances to have limited potential for added savings right now and did not make them a priority."
+    }
+  ],
+  "sources": [
+    {
+      "label": "City of Dacono City Council minutes, May 11, 2026, item D (Ordinance 1016 adopted on second reading, unanimous)",
+      "url": "https://www.daconoco.gov/AgendaCenter/ViewFile/Minutes/_05112026-528",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Dacono City Council packet, May 11, 2026, item GB-D: Ordinance 1016 text and Planning staff memo (Secs. 13-13, 16-43.5, 16-61.5, 16-656(d), 16-657(g), 17-250(b))",
+      "url": "https://www.daconoco.gov/AgendaCenter/ViewFile/Agenda/_05112026-528?packet=true",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Dacono Municipal Code Sec. 16-662, Site category requirements (Ord. No. 787, 2014)",
+      "url": "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH16ZO_ART28LADEST_S16-662SICARE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Dacono Municipal Code Sec. 16-656, Water-efficient landscape design",
+      "url": "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH16ZO_ART28LADEST_S16-656WAFILADE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Dacono Municipal Code Sec. 16-813(j)(1), multifamily recreational amenities (Ord. No. 963, 2024)",
+      "url": "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH16ZO_ART31DESTREDE_S16-813MUDEST",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Dacono, 2026 Water Efficiency Plan (dated July 15, 2026; draft posted for public comment): planning area, HOA meters, demand by customer class",
+      "url": "https://www.daconoco.gov/DocumentCenter/View/8971/2026-Water-Efficiency-Plan-pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Dacono Resolution 25-74 and Intergovernmental Agreement with the Carbon Valley Parks and Recreation District, December 8, 2025 (City dates set by May 31 and November 30)",
+      "url": "https://www.daconoco.gov/AgendaCenter/ViewFile/Item/4035?fileID=8455",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "C.R.S. 37-99-102 and 37-99-103, SB24-005 (signed act)",
+      "url": "https://leg.colorado.gov/bill_files/45372/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "C.R.S. 37-99-103, as amended by HB25-1113 (signed act)",
+      "url": "https://leg.colorado.gov/bill_files/40673/download",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Commercial, HOA, apartment or sports turf NoCo has installed or bid in Dacono: site type, month, size and what the turf is for (play area, field, dog area)",
+    "Camera-original photos of one of those jobs for src/data/photos.ts with use commercial; no photo carries that use yet",
+    "Which Dacono HOAs or metro districts (Sweetgrass, Sharpe Farms, Legacy Park, Pinnacle Farms or others) NoCo has worked with or bid for",
+    "Whether Dacono Planning has reviewed a turf plan under Ordinance 1016, and how it treated a 12-unit project or a turfed play area in the 20% landscape count"
+  ]
+}

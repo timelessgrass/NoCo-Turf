@@ -1,0 +1,134 @@
+{
+  "status": "draft",
+  "town": "wellington-co",
+  "service": "putting-greens",
+  "title": "Backyard Putting Greens in Wellington, CO | NoCo Turf Co.",
+  "description": "Wellington planned artificial-turf greens for Colorado's first MultiGolfPark. What Buffalo Creek's HOA rules and the Town's code mean for a backyard green.",
+  "h1": "Colorado's first MultiGolfPark is in Wellington, with artificial turf planned for its 9 hole greens",
+  "display": {
+    "paint": "Colorado's first MultiGolfPark"
+  },
+  "lede": "No golf course sits inside Wellington. The Town's planned turf greens are small and public: 9 MultiGolf holes in Knolls Linear Park, where the Town said in June 2026 that artificial turf would cover the concrete hole greens. A backyard green here answers to Buffalo Creek-style HOA guidelines more often than to the Town.",
+  "answer": {
+    "question": "Can I put a putting green in my Wellington backyard?",
+    "answer": "Most likely, but check two things. Wellington's landscape standards skip single-family building permits, yet its code wants a permit for an accessory use added after the house unless exempted, and a green isn't named; ask Wellington Planning. In Buffalo Creek, the 2019 guidelines still say artificial turf is prohibited; Colorado's backyard rule, printed here, applies. NoCo Turf Co. installs backyard putting greens in Wellington."
+  },
+  "blocks": [
+    {
+      "kind": "golf",
+      "own": true,
+      "kicker": "Knolls Linear Park",
+      "h2": "The Town's own artificial-turf greens are on a 9-hole MultiGolf course.",
+      "takeaway": "Wellington's MultiGolfPark, which the Town calls the first in Colorado, mixes disc golf, foot golf and park golf on one compact course.",
+      "paras": [
+        "Crews from the Parks and Recreation and Public Works departments were installing it in Knolls Linear Park in June 2026, with direction from course designer Avery Jenkins. The 9 holes run 1,790 feet in all, from 135 to 235 feet each.",
+        "The Town said finishing the course later that summer would add artificial turf over the concrete bases of all 9 hole greens and tee pads. No Town page checked on September 25, 2026 says the turf is down, so treat it as the plan, not the finished course."
+      ],
+      "layerRefs": [
+        "wellington-co.multigolfpark"
+      ],
+      "sources": [
+        "https://wellingtoncolorado.gov/m/newsflash/home/detail/424"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Buffalo Creek",
+      "h2": "Buffalo Creek's posted guidelines still say artificial turf is prohibited.",
+      "paras": [
+        "Buffalo Creek at Wellington publishes Residential Improvement Guidelines last revised June 13, 2019. Its xeriscaping section, written for areas of a lot where sod is being replaced, says artificial turf or plants are prohibited, and a separate line keeps Astro-turf off walks, front steps and decks.",
+        "The drainage rule reaches a green even where the turf question is settled: any change affecting drainage needs Architectural Review Committee approval, and the committee may ask for a drainage engineer's report. The same guidelines want each yard to keep at least 2,000 square feet of irrigated sod, up to 2,900, or drought-tolerant vegetative landscape, and a turf green is neither.",
+        "The 2019 revision is older than the Colorado rule printed below. The Town's own front-yard rule, which a front green would meet first, is on the [Wellington page](/areas/wellington-co/)."
+      ],
+      "layerRefs": [
+        "wellington-co.buffalo-creek-turf-rules",
+        "wellington-co.buffalo-creek-landscape-plans",
+        "co-hoa-backyard-detached"
+      ],
+      "sources": [
+        "https://www.buffalocreekhoa.com/_files/ugd/393016_c765f78371fa41c08df663199318a09e.pdf",
+        "https://leg.colorado.gov/bill_files/92307/download"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "HOA amenity greens",
+      "h2": "For a green in a new HOA park, Wellington's park standard is the open question.",
+      "takeaway": "Wellington's code names chipping and putting greens as functional artificial turf, then steers turf in new parks to fields and play space.",
+      "paras": [
+        "Section 15-9-20 counts the playing areas of golf courses, putting and chipping greens included, as functional artificial turf, and defines plain turf as living, regularly mowed nonnative grass.",
+        "Section 15-5-40 covers new public parks, pocket parks, detention ponds, trail connections and common open space for public or HOA use. It caps functional turf at 50% of a park's landscaped area and says only high-traffic areas such as sport fields and informal play space next to playgrounds shall contain functional or high-water turf.",
+        "Read together, those lines leave an artificial putting green in a new HOA amenity area unsettled: functional turf by definition, but neither a sport field nor play space. It depends on the site plan; ask Wellington Planning. Not legal advice."
+      ],
+      "layerRefs": [
+        "wellington-co.code-15-9-20-turf-terms",
+        "wellington-co.code-15-5-40-parks-open-space"
+      ],
+      "sources": [
+        "https://library.municode.com/co/wellington/codes/municipal_code?nodeId=CH15LAUSCO_ART9DE_S15-9-20DETE",
+        "https://library.municode.com/co/wellington/codes/municipal_code?nodeId=CH15LAUSCO_ART5DEST_S15-5-40LASC"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does a backyard putting green need a Town permit in Wellington?",
+      "a": "It depends. Section 15-4-40 requires a building permit, unless exempted, for an accessory use or building proposed after the house, and leaves accessory uses it doesn't name to the Planning Director case by case. A putting green isn't named, and retaining walls must be designed for the lateral pressure of the ground they hold (Section 15-5-30). Ask Wellington Planning before you build."
+    },
+    {
+      "q": "Can I put a net or a tall fence behind a chipping area?",
+      "a": "Wellington caps an opaque privacy fence at 6 feet on a rear property line or a side yard line in the rear yard, and lets a fence around a recreation court or a publicly owned recreation area go higher only if it is at least 50% open (Section 15-5-30). A backyard chipping net isn't named, so ask Wellington Planning before putting one up."
+    },
+    {
+      "q": "My subdivision isn't Buffalo Creek. Where do I check?",
+      "a": "Your HOA's covenants and design guidelines first, then the Colorado rule on this page. Town review and HOA review are separate, so a green can clear one and still need the other."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Town of Wellington news release, \"Installation of MultiGolfPark underway at Knolls Linear Park\" (posted June 17, 2026)",
+      "url": "https://wellingtoncolorado.gov/m/newsflash/home/detail/424",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Buffalo Creek at Wellington HOA, Residential Improvement Guidelines and Site Restrictions (revised June 13, 2019)",
+      "url": "https://www.buffalocreekhoa.com/_files/ugd/393016_c765f78371fa41c08df663199318a09e.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "SB23-178 signed act: C.R.S. 38-33.3-106.5(1)(i.5) and 37-60-126(11)(a.5)",
+      "url": "https://leg.colorado.gov/bill_files/92307/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Wellington Municipal Code Sec. 15-9-20, Land Use Code defined terms (codified through Ord. No. 07-2026, July 14, 2026)",
+      "url": "https://library.municode.com/co/wellington/codes/municipal_code?nodeId=CH15LAUSCO_ART9DE_S15-9-20DETE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Wellington Municipal Code Sec. 15-5-40, Landscaping and screening, as amended by Ord. No. 13-2025, Oct. 28, 2025 (codified through Ord. No. 07-2026, July 14, 2026)",
+      "url": "https://library.municode.com/co/wellington/codes/municipal_code?nodeId=CH15LAUSCO_ART5DEST_S15-5-40LASC",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Wellington Municipal Code Sec. 15-4-40(b)(3)a and (c), Accessory uses and structures (codified through Ord. No. 07-2026, July 14, 2026)",
+      "url": "https://library.municode.com/co/wellington/codes/municipal_code?nodeId=CH15LAUSCO_ART4USRE_S15-4-40ACUSST",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Wellington Municipal Code Sec. 15-5-30(c)(4)–(5), Fences and retaining walls (codified through Ord. No. 07-2026, July 14, 2026)",
+      "url": "https://library.municode.com/co/wellington/codes/municipal_code?nodeId=CH15LAUSCO_ART5DEST_S15-5-30FE",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Putting greens you have built in Wellington: subdivision, month, rough size, number of cups, and whether a chipping area went in",
+    "Camera-original photos of a Wellington green: every putting-green photo in photos.ts was taken near Windsor or Berthoud, so this page has none",
+    "Wellington HOAs you have taken a green through (Buffalo Creek or others), and what the review committee asked for, especially on drainage and grade",
+    "Whether the Town has finished the artificial turf on the MultiGolfPark hole greens in Knolls Linear Park, if you have seen it",
+    "Any HOA or developer amenity green you have bid in Wellington, and what Planning said about the park standard in Sec. 15-5-40(h)"
+  ]
+}

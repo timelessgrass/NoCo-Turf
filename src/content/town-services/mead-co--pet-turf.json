@@ -1,0 +1,192 @@
+{
+  "status": "draft",
+  "town": "mead-co",
+  "service": "pet-turf",
+  "title": "Pet Turf and Dog Runs in Mead, CO | NoCo Turf Co.",
+  "description": "Mead caps a household at four dogs and cats, wants dog waste in the yard picked up weekly and listed no town dog park in 2025. A Mead dog run, sized to that.",
+  "h1": "Mead caps a household at four dogs and cats, counted from four months old in one chapter of its code and six in another.",
+  "display": {
+    "paint": "four dogs and cats"
+  },
+  "lede": "Size a Mead dog run for four animals at most. The animal code also wants the waste on your lot cleared at least weekly and the run fenced so nothing gets out, and the Town's 2025 park list had no off-leash area to take the pressure off the yard.",
+  "answer": {
+    "question": "How many dogs can a Mead dog run be built for?",
+    "answer": "Four at most, counting cats: Mead allows four dogs and cats per household, and a larger group needs a zoned and licensed kennel. NoCo Turf Co. installs pet turf in Mead, Colorado. The code also asks for weekly waste pickup and a fence the animals can't escape."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Four-pet cap",
+      "h2": "Four animals per household in Mead, and two sections disagree on when a young one starts to count.",
+      "takeaway": "Section 7-6-300 counts dogs and cats older than six months; the land use code's Section 16-3-60(d)(1) counts any animal over four months.",
+      "paras": [
+        "The animal chapter sets the limit per premises at four dogs, four cats or any mix adding up to four, and lets puppies and kittens under six months, or until weaned, go uncounted. The zoning chapter allows household pets in every district with homes as long as the occupant keeps no more than four animals over four months of age. A litter kept between four and six months old falls in the gap. It depends on which rule the Town applies, so ask Mead Planning before counting on it.",
+        "Lot size doesn't change the number: Section 7-6-70 lets pets be kept on premises of any size, within the same limit and the article's housing and control rules. A zoned and licensed kennel, pet shop or veterinary clinic is exempt from the cap."
+      ],
+      "layerRefs": [
+        "mead-co.code-7-6-300-four-pets",
+        "mead-co.code-16-3-60-four-animals-four-months",
+        "mead-co.code-7-6-70-any-lot-size",
+        "mead-co.code-7-6-210-license"
+      ],
+      "sources": [
+        "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH7HESAAN_ARTVIAN_S7-6-300NUDOCA",
+        "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH16LAUSCO_ARTIIIZO_S16-3-60ACUS",
+        "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH7HESAAN_ARTVIAN_S7-6-70LOARREHOPENUPE",
+        "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH7HESAAN_ARTVIAN_S7-6-210LIDODOCA"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Weekly pickup",
+      "h2": "Waste that lands on your own Mead lot has to be removed at least once a week.",
+      "paras": [
+        "Section 7-6-385 makes a keeper answer for an animal's waste anywhere in town, home lot included, and sets the pace for the yard: removed and properly disposed of no less often than weekly. Letting it pile up into a visible or odorous nuisance is a separate violation.",
+        "Section 7-6-130 adds that any premises where household pets are kept must be clean, sanitary and free of obnoxious odors. Turf doesn't change either rule. A run that drains well and can be hosed down between pickups is simply easier to keep inside them; the [pet guides](/guides/pets/) cover drainage and odor. Water, soil and HOA rules for the rest of the yard are on the [Mead town page](/areas/mead-co/)."
+      ],
+      "layerRefs": [
+        "mead-co.code-7-6-385-weekly-waste",
+        "mead-co.code-7-6-130-sanitation"
+      ],
+      "sources": [
+        "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH7HESAAN_ARTVIAN_S7-6-385REEX",
+        "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH7HESAAN_ARTVIAN_S7-6-130SA"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Fences",
+      "h2": "Out front, a Mead fence stops at 48 inches and must be half open, so the run goes out back.",
+      "takeaway": "Section 7-6-120 says an outdoor containment area for pets has to be fenced so the animal can't escape.",
+      "paras": [
+        "Section 16-2-170 limits what that fence can be. Between the front building line and the front property line, and on a side lot line in the front yard, a fence can be no more than 48 inches high and at least 50% open. On a rear lot line, or a side line in the rear yard, an opaque privacy fence can reach 6 feet. A dog house or other pet shelter has to keep to the zoning setbacks from the neighboring lot.",
+        "Townhome and other attached-home lots carry one more limit: for multi-family, single-family attached and mixed-use residential development, Mead's landscaping standard calls for at least 75% live materials between the front of the house and the curb unless the Town approves otherwise."
+      ],
+      "layerRefs": [
+        "mead-co.code-7-6-120-fenced-containment",
+        "mead-co.code-16-2-170-fences",
+        "mead-co.code-16-2-150-attached-live-75",
+        "co-hoa-attached-rear-yard"
+      ],
+      "sources": [
+        "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH7HESAAN_ARTVIAN_S7-6-120HOPEHOENDI",
+        "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH16LAUSCO_ARTIICODEDEST_S16-2-170FEWA",
+        "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH16LAUSCO_ARTIICODEDEST_S16-2-150LADE",
+        "https://leg.colorado.gov/bill_files/92307/download"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "Leash law",
+      "h2": "Past the property line a Mead dog needs a leash of 6 feet or less, and the 2025 park list had no off-leash area.",
+      "takeaway": "Section 7-6-310 counts a dog as running at large once it is off the premises of its owner or keeper and not held by a leash, cord or chain no longer than 6 feet.",
+      "paras": [
+        "Liability is strict: a conviction doesn't need proof that the owner knew the dog was loose. The Town's park list as archived in April 2025 names nine park sites, and none of their listed amenities is an off-leash area; the live list sits behind a bot check, so confirm with the Town whether one has opened since.",
+        "Residents noticed the gap. In the Town's June to July 2025 park-plan questionnaire, 45 respondents (22.8%) picked off-leash dog areas and waste stations among the amenities Mead most needs, and one wrote that everyone uses the middle school track instead."
+      ],
+      "layerRefs": [
+        "mead-co.code-7-6-310-leash",
+        "mead-co.park-list-2025",
+        "mead-co.park-plan-dog-park-requests"
+      ],
+      "sources": [
+        "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH7HESAAN_ARTVIAN_S7-6-310DORULA",
+        "https://web.archive.org/web/20250409215707/https://www.townofmead.org/parksites",
+        "https://www.meadinmotion.com/Customer/File/Full/fcc4839d-07c8-45b6-b0d0-80b971518ad4"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does a Mead dog need a Town license?",
+      "a": "Yes, once it is six months old, and cats too, under Section 7-6-210. Each license runs from January 1 to December 31 of the year it is bought, and the Board of Trustees sets the fee by resolution."
+    },
+    {
+      "q": "Does a turf dog run need its own permit in Mead?",
+      "a": "Mead's online code, current to Ord. No. 1075 of April 2025, has no artificial-turf section to apply under. A new fence or dog house still has to meet the height and setback rules, and an HOA or metro district may want to see plans. It depends on the lot, so ask Mead Planning."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Mead Municipal Code Sec. 7-6-310, dog running at large (codified through Ord. No. 1075, April 14, 2025)",
+      "url": "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH7HESAAN_ARTVIAN_S7-6-310DORULA",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Mead Municipal Code Sec. 7-6-300, number of dogs and cats (codified through Ord. No. 1075, April 14, 2025)",
+      "url": "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH7HESAAN_ARTVIAN_S7-6-300NUDOCA",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Mead Municipal Code Sec. 7-6-385, removal of excreta (codified through Ord. No. 1075, April 14, 2025)",
+      "url": "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH7HESAAN_ARTVIAN_S7-6-385REEX",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Mead Municipal Code Sec. 7-6-130, sanitation (codified through Ord. No. 1075, April 14, 2025)",
+      "url": "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH7HESAAN_ARTVIAN_S7-6-130SA",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Mead Municipal Code Sec. 7-6-120, household pet housing and enclosures (codified through Ord. No. 1075, April 14, 2025)",
+      "url": "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH7HESAAN_ARTVIAN_S7-6-120HOPEHOENDI",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Mead Municipal Code Sec. 16-2-170, fences and walls (codified through Ord. No. 1075, April 14, 2025)",
+      "url": "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH16LAUSCO_ARTIICODEDEST_S16-2-170FEWA",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Mead Municipal Code Sec. 16-2-150, landscape design (codified through Ord. No. 1075, April 14, 2025)",
+      "url": "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH16LAUSCO_ARTIICODEDEST_S16-2-150LADE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Mead, Park Sites page (Internet Archive copy of April 9, 2025; the live site blocks automated reading)",
+      "url": "https://web.archive.org/web/20250409215707/https://www.townofmead.org/parksites",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Mead, Mead in Motion Phase 1 Engagement Summary and Full Results Appendix (Questionnaire #1, June 2 to July 7, 2025, 197 answers to Question 9)",
+      "url": "https://www.meadinmotion.com/Customer/File/Full/fcc4839d-07c8-45b6-b0d0-80b971518ad4",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Mead Municipal Code on Municode (codified through Ord. No. 1075, April 14, 2025): no artificial-turf provision",
+      "url": "https://library.municode.com/co/mead/codes/municipal_code",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "C.R.S. 38-33.3-106.5(1)(i) and (i.5), as amended and added by SB23-178 (signed act)",
+      "url": "https://leg.colorado.gov/bill_files/92307/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Mead Municipal Code Sec. 7-6-70, household pets on any lot size (codified through Ord. No. 1075, April 14, 2025)",
+      "url": "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH7HESAAN_ARTVIAN_S7-6-70LOARREHOPENUPE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Mead Municipal Code Secs. 7-6-210 and 7-6-230, dog and cat licenses (codified through Ord. No. 1075, April 14, 2025)",
+      "url": "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH7HESAAN_ARTVIAN_S7-6-210LIDODOCA",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Mead Municipal Code Sec. 16-3-60(d)(1), keeping of animals (codified through Ord. No. 1075, April 14, 2025)",
+      "url": "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH16LAUSCO_ARTIIIZO_S16-3-60ACUS",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Dog-run or pet-turf jobs in Mead: subdivision, month, rough size and number of dogs",
+    "Camera-original photos of a Mead dog run, before and after, for src/data/photos.ts with use \"pet\" (no pet photo exists yet, and no photo from another town may stand in)",
+    "Any Mead HOA or metro-district design approval you have handled for a dog run, and what the reviewer asked for",
+    "Whether you have built runs for Mead households at the four-pet limit, and what you changed for them"
+  ]
+}

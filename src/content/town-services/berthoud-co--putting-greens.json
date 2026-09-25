@@ -1,0 +1,140 @@
+{
+  "status": "draft",
+  "town": "berthoud-co",
+  "service": "putting-greens",
+  "title": "Backyard Putting Greens in Berthoud, CO | NoCo Turf Co.",
+  "description": "Heron Lakes' rules encourage putting greens on its Peninsula lots and allow non-irrigated turf; Berthoud's 2026 guidelines keep artificial turf out back.",
+  "h1": "Heron Lakes' design rules strongly encourage putting greens on its Peninsula lots.",
+  "display": {
+    "paint": "strongly encourage putting greens"
+  },
+  "lede": "Berthoud's golf neighborhood writes putting greens into its own rules. The Heron Lakes design rules name them among the outdoor entertainment areas wanted behind the Peninsula lots on McNeil Reservoir. Outside the HOA, the town's June 2026 landscape guidelines keep artificial turf in backyards on new residential projects.",
+  "answer": {
+    "question": "Can I put an artificial putting green in a Berthoud backyard?",
+    "answer": "Usually, yes. Berthoud's municipal code has no artificial-turf provision, and the town's landscape guidelines, which cover new projects in the Suburban and Old Town Residential districts, say artificial turf should only be used in private backyards or for sports fields. In Heron Lakes, the Architectural Control Committee must approve all landscaping in writing, and its rules allow non-irrigated artificial turf."
+  },
+  "blocks": [
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "The Peninsula",
+      "h2": "Behind the McNeil Reservoir lots, a green is on the rules' wish list.",
+      "takeaway": "Heron Lakes' rules, amended June 1, 2026, name putting greens among the outdoor entertainment areas they strongly encourage on Peninsula lots with eastern frontage on McNeil Reservoir.",
+      "paras": [
+        "Section 1.40 lists fire pits, outdoor kitchens, patios and beach alongside the greens. Each of those back yards is reviewed case by case for landscape quality and for a compatible view from the main clubhouse.",
+        "Every Peninsula owner also sets sandstone boulders at each lot corner and carries them along the whole eastern property line, except where a beach is approved, so a green on one of those lots is laid out against a boulder edge."
+      ],
+      "layerRefs": [
+        "berthoud-co.heron-peninsula-putting-greens"
+      ],
+      "sources": [
+        "https://www.berthoudheritagemd.live/s/Heron-Lakes-Design-Rules-and-Regulations-June-1-2026.pdf"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Committee approval",
+      "h2": "Heron Lakes allows non-irrigated artificial turf once the committee signs the plan.",
+      "paras": [
+        "Section 4.4 says xeriscape is allowed within Heron Lakes, including non-irrigated artificial turf, and that the rest of the landscape standards still apply, down to the number of required plantings.",
+        "All landscaping needs the Architectural Control Committee's written approval of a professionally designed plan, drawn at 1 inch to 10 feet with grading and swales shown. Landscape contractors may not start without the builder's certificate of drainage and topographical accuracy.",
+        "Mounds and berms can be no steeper than 3 to 1 and may not impede drainage, and mounds that look dumped in place are strictly prohibited. That is the envelope for any break shaped into a green."
+      ],
+      "layerRefs": [
+        "berthoud-co.heron-xeriscape-artificial-turf",
+        "berthoud-co.heron-landscape-plan-approval",
+        "berthoud-co.heron-berms-drainage"
+      ],
+      "sources": [
+        "https://www.berthoudheritagemd.live/s/Heron-Lakes-Design-Rules-and-Regulations-June-1-2026.pdf"
+      ]
+    },
+    {
+      "kind": "golf",
+      "own": true,
+      "kicker": "TPC Colorado",
+      "h2": "The practice ground at TPC Colorado has two putting greens and a turf tee.",
+      "paras": [
+        "TPC Colorado's practice facility covers over 18 acres. Its range runs over 350 yards with a sand-capped tee, an artificial turf tee and a fairway bunker, and two short-game complexes hold two putting greens, two chipping greens and two practice bunkers, one of them stacked sod.",
+        "Members can use it full-time. A guest gets it only before play, with a designated starting time."
+      ],
+      "layerRefs": [
+        "berthoud-co.tpc-colorado-practice-facility"
+      ],
+      "sources": [
+        "https://tpc.com/colorado/practice-facility/"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Town guidelines",
+      "h2": "On new residential projects, the town's guidelines keep artificial turf out back.",
+      "paras": [
+        "Berthoud's Landscape Design Guidelines, updated June 30, 2026 by Ordinance 1383, say artificial turf should only be used in private backyards or for sports fields. The line covers new projects in the Suburban and Old Town Residential districts, and a backyard green fits inside it.",
+        "The development code asks for a landscape plan with every land development application except a building permit for a single-family home, and the municipal code has no artificial-turf provision of its own. A front-yard green depends on whether the house counts as a new project under the guidelines; ask Berthoud Planning."
+      ],
+      "layerRefs": [
+        "berthoud-co.ldg-artificial-turf-backyards",
+        "berthoud-co.code-30-6-112-landscape-plan",
+        "berthoud-code-no-turf-provision"
+      ],
+      "sources": [
+        "https://www.berthoud.org/DocumentCenter/View/7674",
+        "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH30BEDECO_S6DEST_30-6-112LADE",
+        "https://library.municode.com/co/berthoud/codes/code_of_ordinances"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What lawn can surround a putting green in Heron Lakes?",
+      "a": "Not Kentucky bluegrass or buffalo grass: the Heron Lakes rules won't approve either as lawn grass and recommend turf-type tall fescue. A lawn without potable irrigation water needs an automatic non-potable system, approved by the committee with the landscape plan and set to run within the non-potable watering times."
+    },
+    {
+      "q": "Do Heron Lakes lots on the golf course get extra review?",
+      "a": "They can. Section 4.5 asks any lot next to the course for an enhanced landscape as seen from the golf course, with canopy, ornamental and evergreen trees and shrub screening, while keeping views to the course. The committee may require more plantings on those lots, case by case."
+    },
+    {
+      "q": "When does a new Heron Lakes home have to finish its landscaping?",
+      "a": "The plan goes to the committee within 30 days of occupancy, and the work is done within 90 days. A home occupied between October 1 and March 1 has until June 15 to finish, which is the window for adding a green to a new build."
+    }
+  ],
+  "photo": "fire-pit",
+  "sources": [
+    {
+      "label": "Berthoud-Heritage Metropolitan District, Heron Lakes Residential Improvement Rules and Regulations (amended June 1, 2026), Secs. 1.40, 2.42, 4.1, 4.4, 4.5 and 4.6",
+      "url": "https://www.berthoudheritagemd.live/s/Heron-Lakes-Design-Rules-and-Regulations-June-1-2026.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "TPC Colorado, Practice Facility page (over 18 acres; range over 350 yards)",
+      "url": "https://tpc.com/colorado/practice-facility/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Berthoud Landscape Design Guidelines (updated June 30, 2026, Ordinance 1383)",
+      "url": "https://www.berthoud.org/DocumentCenter/View/7674",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Berthoud Municipal Code Sec. 30-6-112, Landscape design (codified through Ord. No. 1367, Nov. 10, 2025)",
+      "url": "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH30BEDECO_S6DEST_30-6-112LADE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Berthoud Code of Ordinances on Municode (codified through Ord. No. 1367, Nov. 10, 2025)",
+      "url": "https://library.municode.com/co/berthoud/codes/code_of_ordinances",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Putting greens NoCo has built in Berthoud, especially in Heron Lakes: month, rough size, and whether any sat on a Peninsula lot facing McNeil Reservoir",
+    "Where the fire-pit green (photos.ts 'fire-pit', west of Berthoud, April 2024) is, so the caption can say whether it is in Heron Lakes; the page never implies it until you say",
+    "Whether NoCo has built a green under a Heron Lakes Architectural Control Committee approval, and what the committee asked for",
+    "More camera-original photos of Berthoud greens: before, base and finished",
+    "Confirmation that NoCo installs backyard putting greens today (services.ts putting-greens is unconfirmed)"
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "status": "draft",
+  "town": "windsor-co",
+  "service": "commercial-turf",
+  "title": "Commercial and HOA Turf in Windsor, CO | NoCo Turf Co.",
+  "description": "Windsor's 2025 ordinance bars nonfunctional turf from new commercial and HOA landscapes; artificial turf goes in only by the Director's exception.",
+  "h1": "Windsor's code bars nonfunctional turf from new commercial and HOA landscapes and admits artificial turf only by the Director's exception.",
+  "display": {
+    "paint": "only by the Director's exception"
+  },
+  "lede": "Ordinance 2025-1730, passed November 24, 2025, rewrote Windsor's landscape standards to meet the state turf law, and the Town kept a step the state doesn't require: functional artificial turf goes in only by the Director's exception. Meanwhile the Town and Weld RE-4 already play on artificial turf at Chimney Park and Windsor High.",
+  "answer": {
+    "question": "Can a Windsor business or HOA install artificial turf now?",
+    "answer": "On new development, or redevelopment that disturbs more than half the existing landscaped area, only as functional turf, such as a sports field, playground or putting green, and only when the Director grants an exception because alternatives aren't reasonable. Nonfunctional turf is barred on the same sites. Ask Windsor Planning about anything outside those triggers."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Ordinance 2025-1730",
+      "h2": "Windsor rewrote its landscape standards in November 2025 to meet the state turf law.",
+      "paras": [
+        "The ordinance's recitals say the changes were made to comply with SB24-005 and HB25-1113, and the Town Board passed it on second reading November 24, 2025. Section 15-3-20(b)(1) now bars nonfunctional turf on four kinds of property: sites whose main use is public or semi-public, parks and open space, industrial or commercial; common property an owners' association maintains, such as entryways and parks; street rights-of-way, medians, corridors and parking lots; and multi-family property with more than 12 units.",
+        "Those limits apply to new development that needs a building permit or site plan approval, and to redevelopment that disturbs more than 50% of the existing landscaped area. Colorado's own list adds multifamily common areas on January 1, 2028; Windsor's code names multi-family property with more than 12 units already. Not legal advice."
+      ],
+      "layerRefs": [
+        "windsor-co.ord-2025-1730",
+        "windsor-co.ord-2025-1730-local-entities",
+        "windsor-co.code-15-3-20-b1-nonfunctional-turf",
+        "windsor-co.code-15-3-20-b3-applies-to",
+        "co-hb25-1113-multifamily-2028",
+        "co-sb24-005-maintain-existing"
+      ],
+      "sources": [
+        "https://www.windsorco.gov/DocumentCenter/View/29095/Ordinance-No-2025-1730---Amending-Chapter-15-of-the-Land-Use-Code-Adjusting-the-Standards-for-Landscaping-in-Developed-Areas",
+        "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTIIISTLADEAR_S15-3-20LAST",
+        "https://leg.colorado.gov/bill_files/40673/download"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Functional, by exception",
+      "h2": "Fields, playgrounds and putting greens count as functional in Windsor, but still need the Director's yes.",
+      "paras": [
+        "Windsor defines functional artificial turf as turf in a space regularly used for civic, community or recreational purposes: a playground, sports field, picnic ground, amphitheater, part of a park, or the playing area of a golf course. Under Section 15-3-20(b)(2), even that turf reaches a landscape plan only when the Director grants an exception because alternatives are not reasonable, and the exception is noted on the plan.",
+        "The definition doesn't name dog areas or entry lawns. A board weighing turf for a common-area dog run or a clubhouse lawn has to make the case that the space is used for recreation and that other surfaces won't serve. It depends on the site, so bring it to Windsor Planning early."
+      ],
+      "layerRefs": [
+        "windsor-co.code-functional-artificial-turf-definition",
+        "windsor-code-15-3-20-no-turf",
+        "windsor-co.code-15-3-20-b2-exception-noted",
+        "windsor-co.code-15-3-20-rock-beds",
+        "co-hb25-1113-functional-turf"
+      ],
+      "sources": [
+        "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTIIISTLADEAR_APXATESP",
+        "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTIIISTLADEAR_S15-3-20LAST",
+        "https://leg.colorado.gov/bill_files/40673/download"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "Windsor's own fields",
+      "h2": "The Town's Chimney Park ballfields and Windsor High's stadium already play on artificial turf.",
+      "paras": [
+        "In spring 2026 the Town converted Chimney Park's Aaron Cook baseball fields 2 and 3 from grass to artificial turf, citing lower annual maintenance costs and a better playing surface. Field 3's turf was finished April 24, and the project on both fields was complete May 11, on a budget of $2,240,000.",
+        "Weld RE-4 School District replaced Windsor High School's stadium turf field and shock pad between May and August 2023 as a bond repair; the shock-pad supplier lists the field at 77,763 square feet. That job swapped out an existing turf field, a reminder that surface and pad both wear out."
+      ],
+      "layerRefs": [
+        "windsor-co.chimney-park-turf-2026",
+        "windsor-co.whs-stadium-turf-2023",
+        "windsor-co.whs-stadium-turf-size"
+      ],
+      "sources": [
+        "https://windsorprojectconnect.com/chimneyparkturf",
+        "https://bond.weldre4.org/projects/repairs-replacements",
+        "https://www.brockusa.com/projects/weld-re-4-school-district-windsor-high-school/"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What can cover the ground where turf can't on a Windsor commercial site?",
+      "a": "Mostly living ground cover. Rock beds outside planting beds are capped at 20% of the required landscape area, and no single bed may run past 3,000 square feet."
+    },
+    {
+      "q": "Can a Windsor HOA keep the turf it already has?",
+      "a": "Colorado's law doesn't stop a town from letting turf installed before January 1, 2026 be maintained, and Windsor's triggers are new development and larger redevelopment. The law doesn't say outright whether replacing old turf wholesale counts as maintaining it; ask Windsor Planning first. Not legal advice."
+    },
+    {
+      "q": "Do Windsor's metro districts fall under the same rules?",
+      "a": "Windsor reads the state law that way. Ordinance 2025-1730's recitals say HB25-1113 bars local entities, \"including governments, special districts and metropolitan districts,\" from installing or allowing nonfunctional turf on applicable property. That reaches districts such as New Windsor Metropolitan District, which lists landscaping, parks and design review among its services."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Town of Windsor Ordinance No. 2025-1730 (second reading November 24, 2025)",
+      "url": "https://www.windsorco.gov/DocumentCenter/View/29095/Ordinance-No-2025-1730---Amending-Chapter-15-of-the-Land-Use-Code-Adjusting-the-Standards-for-Landscaping-in-Developed-Areas",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Windsor Municipal Code Sec. 15-3-20(b) (codified through Ord. No. 2026-1749, July 13, 2026)",
+      "url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTIIISTLADEAR_S15-3-20LAST",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Windsor Municipal Code Ch. 15, Art. III, Appendix A, definition 17 (codified through Ord. No. 2026-1749, July 13, 2026)",
+      "url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTIIISTLADEAR_APXATESP",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Windsor, Windsor Project Connect: Chimney Park Turf Renovations",
+      "url": "https://windsorprojectconnect.com/chimneyparkturf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Weld RE-4 School District bond program, Repairs & Replacements",
+      "url": "https://bond.weldre4.org/projects/repairs-replacements",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Brock USA project listing, Weld RE-4 School District – Windsor High School",
+      "url": "https://www.brockusa.com/projects/weld-re-4-school-district-windsor-high-school/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "New Windsor Metropolitan District, About (district overview)",
+      "url": "https://www.newwindsormetro.org/about",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "HB25-1113 signed act: C.R.S. 37-99-102 and 37-99-103, SB24-005 as amended",
+      "url": "https://leg.colorado.gov/bill_files/40673/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "SB24-005 signed act: C.R.S. 37-99-102 and 37-99-103",
+      "url": "https://leg.colorado.gov/bill_files/45372/download",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Commercial, HOA, metro-district, school or sports-field turf jobs in Windsor, with photos, month and size: no photo in src/data/photos.ts carries use 'commercial', so this page cannot pass the gate until Brian's own commercial photos are added",
+    "Any Windsor Director's exception for functional artificial turf NoCo took part in, and what the Town asked to see",
+    "Whether NoCo had any role at Chimney Park, Windsor High or a Windsor metro-district common area (the page implies none and must keep it that way unless Brian confirms)",
+    "Confirm NoCo takes commercial and HOA work today"
+  ]
+}

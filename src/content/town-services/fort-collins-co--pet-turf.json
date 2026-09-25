@@ -1,0 +1,222 @@
+{
+  "status": "draft",
+  "town": "fort-collins-co",
+  "service": "pet-turf",
+  "title": "Dog Runs and Pet Turf in Fort Collins, CO | NoCo Turf Co.",
+  "description": "Fort Collins code treats animal odor that disrupts a neighbor at home as a public nuisance. The fence, parkway and dog-park rules a Fort Collins dog run meets.",
+  "h1": "Fort Collins code counts dog odor that disrupts a neighbor at home as a public nuisance.",
+  "display": {
+    "paint": "a public nuisance"
+  },
+  "lede": "A dog run in Fort Collins answers to the city's animal code first: pickup in your own yard is required, and smell that carries over the fence is written into the nuisance section. Fence heights, the parkway strip and the city's off-leash rules settle most of the rest.",
+  "answer": {
+    "question": "What does Fort Collins require of a backyard dog run?",
+    "answer": "That it stays clean enough not to become a nuisance. City Code 4-71 requires periodic waste removal in your own yard, and 4-95 counts animal odors that materially interfere with a neighbor at home as a public nuisance. Fences up to 6 feet need no permit, and artificial turf can't go in the parkway strip. Not legal advice."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "City Code 4-71 and 4-95",
+      "h2": "Pickup in your own yard is the owner's job, and odor is named in the nuisance code.",
+      "takeaway": "Turf doesn't change the pickup rule; it changes whether urine drains away between rinses or sits where a neighbor can smell it.",
+      "paras": [
+        "Two sentences in the Fort Collins animal code matter most for a run. Section 4-71 makes the owner or keeper responsible for removing waste on their own property often enough to prevent a public nuisance, not only on a neighbor's lawn or a trail. Section 4-95 then says a public nuisance includes an animal that creates offensive odors which materially interfere with another person at their home.",
+        "For a run along a shared fence, that puts the smell test on the neighbor's side. Solids still get picked up on turf, and urine has to leave through the backing and the base instead of sitting in them, which is what the drainage and rinse on the [pet turf page](/services/pet-turf/) are for."
+      ],
+      "layerRefs": [
+        "fort-collins-co.code-4-71-4-95-waste-odor"
+      ],
+      "sources": [
+        "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH4ANIN_ARTIIAN_DIV4CATRAN_S4-71REANWARE",
+        "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH4ANIN_ARTIIAN_DIV5COAN_S4-95PUNUPR"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Fences",
+      "h2": "A run's fence can reach 6 feet out back without a permit, but it can't sit in a drainage easement.",
+      "paras": [
+        "The city's fence rules, which summarize Land Use Code 4.3.5(C), need no permit for a fence 6 feet tall or shorter. Rear-yard fences stop at 6 feet and front-yard fences at 4, and every fence stays on private property at least 2 feet from a public sidewalk. Fences and walls are prohibited in access and drainage easements, and electric fences are prohibited in every zoning district, which rules out a hot wire along the bottom for a digger.",
+        "Section 4-93 of the animal code adds a standard of its own: a fence meant to enclose an animal must be securely constructed, adequate for the purpose and kept in good repair. Before a side-yard run's posts go in, find any drainage or access easement on the plat, since no fence may stand in one, and in newer subdivisions read the covenants, which the city notes can limit a fence's size, type, style or location further."
+      ],
+      "layerRefs": [
+        "fort-collins-co.fence-rules",
+        "fort-collins-co.code-4-93-restraint-fences"
+      ],
+      "sources": [
+        "https://www.fortcollins.gov/Government/City-Code-and-Charter/Building-Code/Rules-for-Common-Projects",
+        "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH4ANIN_ARTIIAN_DIV5COAN_S4-93ANLAPR"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "The parkway",
+      "h2": "Turf and fences both stop at the sidewalk, because the parkway strip is the city's.",
+      "paras": [
+        "The strip between sidewalk and curb is city right-of-way that the abutting owner installs and maintains. The Streetscape Standards Council adopted on December 16, 2025 say no artificial turf or artificial plants may be included in any streetscape, for private projects and renovations with applications from January 1, 2026.",
+        "On collector and local streets a parkway takes turf-type grass or mulched planting beds, and an owner may choose either regardless of HOA covenants where no development plan sets it. Planting beds must reach at least 50% live plant cover within 3 years, and no fences are allowed in them. Where a development has an approved landscape plan, changing the parkway takes a Parkway Landscape Amendment, which carries no review fee.",
+        "Behind the sidewalk, an existing single- or two-unit lot is outside the Land Use Code's turf section, front yard included, so a front-yard potty patch is a matter of fence height and HOA design rules rather than city turf law."
+      ],
+      "layerRefs": [
+        "fort-collins-co.streetscape-no-artificial-turf",
+        "fort-collins-co.streetscape-parkway-choices",
+        "fc-luc-5.10.1",
+        "fort-collins-co.parkway-amendment-no-fee"
+      ],
+      "sources": [
+        "https://mccmeetingspublic.blob.core.usgovcloudapi.net/fortcollco-meet-9b4e8e099e3f4e9cbeaa4a206b542f9a/ITEM-Attachment-001-c4cbe11e9146456885974472aba7c2ef.pdf",
+        "https://www.fortcollins.gov/files/sharedassets/city/v/5/planning-development-amp-transportation/permitting/parkway-landscape-amendment-application.pdf",
+        "https://mccmeetingspublic.blob.core.usgovcloudapi.net/fortcollco-meet-0538ebaac95447ff8c4f53ebc4c0adf8/ITEM-Attachment-004-785f079234b4438a8e8675d01d6f3bd4.pdf"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "Off-leash ground",
+      "h2": "Fossil Creek, Spring Canyon, Soft Gold and Twin Silo have dog parks; an unfenced front yard is not off-leash ground.",
+      "paras": [
+        "Section 4-93 requires pets other than birds to be kept under restraint, with an exception for designated areas such as dog parks. City park pages list a dog park at Fossil Creek, around Portner Reservoir in southeast Fort Collins; at Spring Canyon, against the foothills on the west side; at Soft Gold, a neighborhood park in north Fort Collins; and at Twin Silo, the newest community park, on its east side.",
+        "At home, the code defines at large as outside a fence or other enclosure, on public or private property, and not on a leash. A dog loose in an unfenced front yard is at large even on its owner's lot, which is why the run behind the fence is where daily off-leash time happens."
+      ],
+      "layerRefs": [
+        "fort-collins-co.code-4-93-restraint-fences",
+        "fort-collins-co.fossil-creek-dog-park",
+        "fort-collins-co.spring-canyon-dog-park",
+        "fort-collins-co.soft-gold-dog-park",
+        "fort-collins-co.twin-silo-dog-park"
+      ],
+      "sources": [
+        "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH4ANIN_ARTIIAN_DIV5COAN_S4-93ANLAPR",
+        "https://www.fortcollins.gov/Parks-and-Natural-Areas-Directory/Parks/Fossil-Creek-Park",
+        "https://www.fortcollins.gov/Parks-and-Natural-Areas-Directory/Parks/Spring-Canyon-Park",
+        "https://www.fortcollins.gov/Parks-and-Natural-Areas-Directory/Parks/Soft-Gold-Park",
+        "https://www.fortcollins.gov/Parks-and-Natural-Areas-Directory/Parks/Twin-Silo-Park"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "How many dogs",
+      "h2": "Fort Collins sets no number of pets per home, only a health and nuisance test.",
+      "paras": [
+        "Section 4-116 lets a person keep as many pet animals as can be properly maintained in a healthy condition without a health or safety hazard and without a nuisance to neighbors; it names no number. Each dog or cat needs a license from the City or the Humane Society within 14 days of arriving.",
+        "Every added dog puts more waste and urine on the same patch of turf, and the nuisance language in Sections 4-95 and 4-116 is the same test either way. Size the run and the rinse routine to the pack, not to the yard."
+      ],
+      "layerRefs": [
+        "fort-collins-co.code-4-116-4-31-quantity-license"
+      ],
+      "sources": [
+        "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH4ANIN_ARTIIAN_DIV6RE_S4-116QUPEANRE",
+        "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH4ANIN_ARTIIAN_DIV2PELI_S4-31LIRE"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need a city permit for turf in a Fort Collins dog run?",
+      "a": "Not for the turf on an existing single- or two-unit lot: Land Use Code 5.10.1 exempts development on those lots. A lot in a subdivision still being built can be different, since its landscaping may sit in the development's plan. It depends on the lot, so ask Fort Collins Planning."
+    },
+    {
+      "q": "Does Fort Collins Utilities pay a rebate for pet turf?",
+      "a": "Not through the city's program page. The Xeriscape Incentive Program pays to replace grass with an eligible low-water landscape and doesn't list artificial turf as one, and the city says XIP rebates are funded by a grant from the state, which Colorado bars from paying for artificial turf. A run that is all turf doesn't fit it."
+    },
+    {
+      "q": "Who enforces the animal code in Fort Collins?",
+      "a": "NOCO Humane provides Animal Protection and Control for the city under a partnership, and its Fort Collins page lists pet waste and animal noise among the issues its officers handle. Questions about the yard itself, such as fences and parkways, go to City Zoning."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Fort Collins City Code Sec. 4-71, Removal of animal waste required",
+      "url": "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH4ANIN_ARTIIAN_DIV4CATRAN_S4-71REANWARE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Fort Collins City Code Sec. 4-95, Public nuisance prohibited",
+      "url": "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH4ANIN_ARTIIAN_DIV5COAN_S4-95PUNUPR",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Fort Collins City Code Secs. 4-1 and 4-93, Animals at large prohibited",
+      "url": "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH4ANIN_ARTIIAN_DIV5COAN_S4-93ANLAPR",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Fort Collins City Code Sec. 4-116, Quantity of pet animals restricted",
+      "url": "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH4ANIN_ARTIIAN_DIV6RE_S4-116QUPEANRE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Fort Collins City Code Sec. 4-31, License required (within 14 days)",
+      "url": "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH4ANIN_ARTIIAN_DIV2PELI_S4-31LIRE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Fort Collins, Rules for Common Projects: Fences (Land Use Code 4.3.5(C))",
+      "url": "https://www.fortcollins.gov/Government/City-Code-and-Charter/Building-Code/Rules-for-Common-Projects",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Fort Collins Streetscape Standards, Exhibit A to Ordinance No. 202, 2025 (adopted Dec. 16, 2025)",
+      "url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/fortcollco-meet-9b4e8e099e3f4e9cbeaa4a206b542f9a/ITEM-Attachment-001-c4cbe11e9146456885974472aba7c2ef.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Fort Collins, Parkway Landscape Amendment Application (revised 4/13/2026; no review fee)",
+      "url": "https://www.fortcollins.gov/files/sharedassets/city/v/5/planning-development-amp-transportation/permitting/parkway-landscape-amendment-application.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Fort Collins Land Use Code 5.10.1, Ordinance No. 008, 2025 (existing single- and two-unit lots exempt)",
+      "url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/fortcollco-meet-0538ebaac95447ff8c4f53ebc4c0adf8/ITEM-Attachment-004-785f079234b4438a8e8675d01d6f3bd4.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Fort Collins, Fossil Creek Park",
+      "url": "https://www.fortcollins.gov/Parks-and-Natural-Areas-Directory/Parks/Fossil-Creek-Park",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Fort Collins, Spring Canyon Park",
+      "url": "https://www.fortcollins.gov/Parks-and-Natural-Areas-Directory/Parks/Spring-Canyon-Park",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Fort Collins, Soft Gold Park",
+      "url": "https://www.fortcollins.gov/Parks-and-Natural-Areas-Directory/Parks/Soft-Gold-Park",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Fort Collins, Twin Silo Park",
+      "url": "https://www.fortcollins.gov/Parks-and-Natural-Areas-Directory/Parks/Twin-Silo-Park",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Fort Collins Utilities, Xeriscape Incentive Program (XIP)",
+      "url": "https://www.fortcollins.gov/Services/Utilities/Programs-and-Rebates/Water-Programs/XIP",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "NOCO Humane, Animal Protection & Control – Fort Collins (city partnership; key issues include pet waste and animal noise)",
+      "url": "https://www.nocohumane.org/animal-control/fort-collins/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "C.R.S. 37-60-135(4)(c)(IV), created by HB22-1151 (signed act): state turf-replacement grant money may not pay for artificial turf",
+      "url": "https://leg.colorado.gov/bill_files/100490/download",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Confirm NoCo installs pet turf and dog runs today (services.ts has pet-turf confirmed: false).",
+    "Dog runs NoCo has built in Fort Collins: neighborhood, month, rough size, number and size of dogs, side yard or back yard.",
+    "Camera-original photos of a Fort Collins dog run. photos.ts has no photo with use 'pet' anywhere yet, so this page has no photo and can't pass the gate.",
+    "Whether a Fort Collins customer has had a neighbor or animal-control complaint about odor, and what fixed it (for a case study, with consent).",
+    "Side-yard runs that met a drainage easement or swale in Fort Collins, and how the fence and grade were handled.",
+    "The rinse and cleaning routine you give Fort Collins dog owners, in your words."
+  ]
+}

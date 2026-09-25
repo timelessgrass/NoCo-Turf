@@ -1,0 +1,154 @@
+{
+  "status": "draft",
+  "town": "greeley-co",
+  "service": "playground-turf",
+  "title": "Playground Turf and Play Areas in Greeley, CO | NoCo Turf Co.",
+  "description": "Greeley put synthetic turf under its new Twin Rivers playground. What the city's parks show, where a home daycare may run, and what new subdivisions must build.",
+  "h1": "Greeley picked synthetic turf as the main safety surface for its new Twin Rivers playground.",
+  "display": {
+    "paint": "synthetic turf"
+  },
+  "lede": "The city's inclusive playground at Twin Rivers Community Park lists synthetic turf as its primary accessible play safety surfacing, with construction expected to finish by mid-to-late October 2026. At home, Greeley's zoning and subdivision rules decide who may run a play yard and who owns the new ones. Checked September 25, 2026.",
+  "answer": {
+    "question": "Does Greeley use artificial turf on playgrounds?",
+    "answer": "Yes. The city's replacement playground at Twin Rivers Community Park is being built with synthetic turf as its primary accessible play safety surfacing, with construction expected to finish by mid-to-late October 2026. Ask NoCo Turf Co. about turf for a Greeley play area."
+  },
+  "blocks": [
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "City playgrounds",
+      "h2": "Twin Rivers gets synthetic turf; Peak View's old surfacing wore out in the sun.",
+      "takeaway": "Greeley is replacing playgrounds park by park; Twin Rivers and Brentwood were both paid for by the Quality of Life Tax.",
+      "paras": [
+        "The Twin Rivers Community Park playground lists synthetic turf as its primary accessible play safety surfacing, along with shade structures. The city expects construction to be complete by mid-to-late October 2026, after shipping for the equipment ran longer than expected.",
+        "Residents surveyed on the design asked for sun protection over equipment and water play, especially given Greeley's hot summers. The city's page for Peak View Park says that playground's equipment and surfacing, after 15 years of play, no longer meet updated safety standards and suffer from sun degradation, wear and tear.",
+        "Brentwood Park's replacement playground reopened on April 27, 2026. The parks division evaluates playgrounds for age and level of use across more than 40 park locations and renovates several parks each year. Whatever the surface, what protects a child under equipment is the pad or depth rated for its fall height; the [safety guide](/guides/safety/) covers those standards."
+      ],
+      "layerRefs": [
+        "greeley-co.twin-rivers-playground",
+        "greeley-co.peak-view-playground",
+        "greeley-co.brentwood-playground",
+        "greeley-co.parks-system"
+      ],
+      "sources": [
+        "https://speakupgreeley.com/twinrivers",
+        "https://speakupgreeley.com/peakviewplayground",
+        "https://greeleyco.gov/news/2026/20260428-brentwood-park-playground-reopens-with-modern-accessible-equipment/",
+        "https://greeleyco.gov/parks/"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Home daycare",
+      "h2": "A licensed child care home is permitted in every Greeley residential zone, for up to 12 children.",
+      "paras": [
+        "Greeley's zoning table permits a state-licensed child care home as a home occupation in every residential district, for up to 12 children. More than 12 makes it a child care center, which needs special review in the R-E, R-L and R-M districts and is permitted in R-H and the commercial and mixed-use districts.",
+        "Home occupations in Greeley must keep their activity inside the house, an accessory building or the garage, with one exception: what state licensing requires for in-home family child care. A provider planning a turfed play yard works inside that exception, so the state license and the city rule go together; for a specific address, ask Greeley Planning."
+      ],
+      "layerRefs": [
+        "greeley-co.code-24-402-child-care",
+        "greeley-co.code-24-403-home-child-care-outdoors"
+      ],
+      "sources": [
+        "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH4ZODIUS_S24-402ALUS",
+        "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH4ZODIUS_S24-403ACUS"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "New subdivisions",
+      "h2": "New Greeley neighborhoods owe common-area features, and playgrounds count.",
+      "paras": [
+        "Greeley's development code requires neighborhood features by project size: one for 25 to 50 homes, two for 51 to 100, three for 101 to 200, and one more for each further 100. Recreation areas among them include playgrounds and sport courts, platted as outlots under common ownership and reserved to serve the homes around them.",
+        "Colorado counts playgrounds as functional turf, which its ban on nonfunctional turf leaves alone. Greeley's own code still accepts artificial turf in new development only where public streets can't see it, and a pocket park must front a street or connect to one by trail. Whether a turfed play area in that park passes depends on the site plan: ask Greeley Planning."
+      ],
+      "layerRefs": [
+        "greeley-co.code-24-504-neighborhood-features",
+        "greeley-code-24-802-not-visible",
+        "co-hb25-1113-functional-turf"
+      ],
+      "sources": [
+        "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH5REDEST_S24-504NEFECOAR",
+        "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH8LAST_S24-802LADE",
+        "https://leg.colorado.gov/bill_files/40673/download"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When does the new Twin Rivers playground open?",
+      "a": "The city expects construction to be complete by mid-to-late October 2026; a grand opening date had not been posted as of September 25, 2026. The playground area and the nearby restrooms stay closed while the work goes on."
+    },
+    {
+      "q": "Can turf go under a play set in a Greeley front yard?",
+      "a": "No. City staff describe artificial turf as prohibited in the front yards of houses, so a turfed play area at home belongs in a side or back yard the street can't see."
+    },
+    {
+      "q": "What surfacing do Greeley's other new playgrounds use?",
+      "a": "The city doesn't say. The Brentwood Park release from April 2026 names no surfacing, and the Peak View page promises improved safety surfacing without naming the material. Twin Rivers is the one project that names synthetic turf."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Speak Up Greeley, Twin Rivers Playground Replacement (synthetic turf surfacing; complete by mid-to-late October 2026)",
+      "url": "https://speakupgreeley.com/twinrivers",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Speak Up Greeley, Peak View Playground Replacement (15 years of play; surfacing sun-degraded)",
+      "url": "https://speakupgreeley.com/peakviewplayground",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Greeley news release, April 28, 2026: Brentwood Park playground reopens",
+      "url": "https://greeleyco.gov/news/2026/20260428-brentwood-park-playground-reopens-with-modern-accessible-equipment/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Greeley, Parks",
+      "url": "https://greeleyco.gov/parks/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Greeley Municipal Code Sec. 24-402, Table 24-4-2 and use definitions (child care home, child care center)",
+      "url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH4ZODIUS_S24-402ALUS",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Greeley Municipal Code Sec. 24-403.c, home occupations",
+      "url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH4ZODIUS_S24-403ACUS",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Greeley Municipal Code Sec. 24-504, neighborhood features and common areas (Ord. No. 35, 2021)",
+      "url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH5REDEST_S24-504NEFECOAR",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Greeley Municipal Code Sec. 24-802 (Ord. No. 36, 2021; codified through Ord. No. 16, 2026)",
+      "url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH8LAST_S24-802LADE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Greeley Planning Commission agenda packet, July 14, 2026: slide Artificial Turf (Council Initiative)",
+      "url": "https://greeleyco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=9205,plainText=false)",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "HB25-1113 signed act: C.R.S. 37-99-102(6.5), functional artificial turf",
+      "url": "https://leg.colorado.gov/bill_files/40673/download",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Play areas or turf under playsets you have built in Greeley: neighborhood, month, the set's highest platform and the pad used",
+    "Camera-original photos of a Greeley play area; the only photo with use \"play\" (playset) was taken south of Windsor, and this page may not borrow it",
+    "Any Greeley child care home or center, HOA pocket park or metro district playground you have surfaced, and who approved it",
+    "Whether NoCo bid or would bid public playground work like Twin Rivers (do not claim it on the page unless NoCo did the job)",
+    "Confirmation that NoCo installs playground turf today (services.ts: playground-turf is not confirmed yet)"
+  ]
+}

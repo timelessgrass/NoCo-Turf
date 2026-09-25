@@ -1,0 +1,185 @@
+{
+  "status": "draft",
+  "town": "severance-co",
+  "service": "putting-greens",
+  "title": "Backyard Putting Greens in Severance, CO | NoCo Turf Co.",
+  "description": "Severance Shores and Hunters Overlook bar artificial turf from front and side yards, and Hidden Valley Farm reviews it. Where a Severance putting green can go.",
+  "h1": "Two Severance metro districts keep artificial turf out of front and side yards, so a green goes out back",
+  "display": {
+    "paint": "out of front and side yards"
+  },
+  "lede": "The Town's Land Use Code never mentions artificial turf. The rules that place a backyard green in Severance come from metro district and HOA rulebooks, and from whichever system waters the lot.",
+  "answer": {
+    "question": "Where can a putting green go on a Severance lot?",
+    "answer": "In the back yard, in Severance Shores or Hunters Overlook: both districts' guidelines prohibit artificial turf in front and side yards and want a landscape plan with sprinkler and drainage details approved first. In Hidden Valley Farm, artificial turf needs the Design Review Council's express approval. NoCo Turf Co. builds backyard putting greens in Severance."
+  },
+  "blocks": [
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Severance Shores · Hunters Overlook",
+      "h2": "Severance Shores and Hunters Overlook write artificial turf out of the front and side yards.",
+      "paras": [
+        "Severance Shores Metropolitan District Nos. 1-4 (guidelines amended September 5, 2024) and Hunters Overlook Metropolitan District Nos. 1-8 (amended April 1, 2025) post nearly the same residential improvement guidelines. In both, the yard is irrigated sod or non-irrigated material the architectural review committee approves, artificial turf is prohibited within the front and side yard areas, and synthetic turf isn't allowed on walks, front steps or decks.",
+        "Before work starts, the committee wants a landscape plan showing sod, rock, the sprinkler system plan and a drainage and grading plan that matches the one the Town approved. Section 2.18 puts any change affecting drainage in front of the committee too, which reaches a green built up on a mound or cut into a slope."
+      ],
+      "layerRefs": [
+        "severance-co.severance-shores-yards",
+        "severance-co.hunters-overlook-yards",
+        "co-special-district-backyard"
+      ],
+      "sources": [
+        "https://ssmd.specialdistrict.org/files/3cc9774d3/SSMD+-+Amended+RIGSR+09.05.24.pdf",
+        "https://homd.specialdistrict.org/files/60183cf34/HOMD+-+RIGSR+Amended+04.01.25.pdf",
+        "https://leg.colorado.gov/bill_files/92307/download"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Hidden Valley Farm",
+      "h2": "Hidden Valley Farm's council must expressly approve artificial turf, and has 45 days to answer.",
+      "paras": [
+        "Hidden Valley Farm, a 161-lot Severance subdivision, still prints Section 5.6 in its design guidelines: the use of artificial turf is prohibited unless the Design Review Council expressly approves it. The council also reviews a lot's first landscaping, later material changes to it, and permanent structures such as retaining walls and fences.",
+        "The guidelines suggest sending plans at least 45 days before work starts, and a plan the council hasn't approved, denied or asked more about within 45 days of acknowledging receipt counts as approved. They recommend no more than 2,500 square feet of spray-irrigated landscape per lot, because water costs more per gallon past that; a turf green has no spray heads."
+      ],
+      "layerRefs": [
+        "severance-co.hidden-valley-farm-turf",
+        "severance-co.hidden-valley-farm-irrigation",
+        "severance-co.hoas-metro-stricter"
+      ],
+      "sources": [
+        "https://www.hiddenvalleyfarmmd.live/files/0e0b82caf/DRC+Guidelines+Final+-+Including+Fence+Detail.pdf",
+        "https://townofseverance.org/385/HOAs-and-Metro-Districts-101"
+      ]
+    },
+    {
+      "kind": "drought",
+      "own": true,
+      "kicker": "Irrigation water",
+      "h2": "Much of Severance irrigates from non-potable or North Weld systems that the Town schedule doesn't cover.",
+      "paras": [
+        "The Town's own watering schedule, covered on the [Severance page](/areas/severance-co/), does not apply to approved non-potable systems, which the Town lists in Hunters Crossing, The Overlook, Severance Shores, The Reserve, Settler's Landing and Tailholt, or to North Weld County Water District systems such as Hidden Valley Farm's. Where a non-potable system is installed, Section 13-2-270 requires every lot irrigation system other than a hose bib to run off the non-potable tap.",
+        "Those systems set their own rules. For 2026 the Hunters Overlook Water Activity Enterprise cut homes to two set days a week, shut its pumps down Thursdays, Fridays and Mondays and set fines of $250, $500 and $1000 before disconnection, citing an April 1 snowpack of 14% of average. A natural-grass green in that district would have had two watering days this year.",
+        "The Town's watering page also says building permits are required for the installation of all sprinkler systems. Whether moving heads around a new green counts depends on the work; ask Severance Planning."
+      ],
+      "layerRefs": [
+        "severance-co.watering-schedule-scope",
+        "severance-co.code-13-2-270-nonpotable",
+        "severance-co.howae-2026-restrictions"
+      ],
+      "sources": [
+        "https://www.townofseverance.org/396/Watering-Guidelines-and-Restrictions",
+        "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH13MUUT_ART2WARE_DIV2NOWASY_S13-2-270NOSYUSRE",
+        "https://homd.specialdistrict.org/files/70a8402c2/2026+Seasonal+Water+Correspondence+%26+Restrictions.pdf"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Timber Ridge",
+      "h2": "Timber Ridge wants the whole yard on one plan before the turf comes out.",
+      "paras": [
+        "Timber Ridge's HOA handbook, revised October 8, 2016, says altering the entire scope of a yard's landscaping, such as removing turf, needs the architectural review committee's approval, and the plan must show what each area of the yard will be: rock, mulch, turf and so on. Freestanding trellises, pergolas and gazebos beside a green need the same approval and may need a Town building permit."
+      ],
+      "layerRefs": [
+        "severance-co.timber-ridge-structures"
+      ],
+      "sources": [
+        "https://www.timberridge-hoa.com/wp-content/uploads/Timber-Ridge-HOA-Handbook.pdf"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Setbacks",
+      "h2": "Severance's code sets back the pergola beside a green, not the green itself.",
+      "paras": [
+        "The Land Use Code adopted in August 2025 keeps accessory structures in the Suburban Perimeter district at least 25 feet from the front lot line, 5 feet from side and rear lines and 15 feet from a street-side corner line, up to two stories. It defines landscaping by living plants and turf grasses and never names artificial turf or a putting green. A raised green held up by a retaining wall may be read differently. It depends on the design; ask Severance Planning."
+      ],
+      "layerRefs": [
+        "severance-co.code-16-3-220-accessory-setbacks",
+        "severance-co.code-16-1-310-landscaping"
+      ],
+      "sources": [
+        "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART3ZO_DIV2SUPE_S16.3.220LOBUST",
+        "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART1GEPR_DIV3DE_S16.1.310DE"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does Severance issue a permit for a backyard putting green?",
+      "a": "The Town code has no artificial-turf permit for a house lot. A pergola or other accessory structure next to the green, or sprinkler work, can bring in a Town building permit, and a metro district or HOA may want its approval first. It depends on the plan; ask Severance Planning."
+    },
+    {
+      "q": "Which Severance neighborhoods post their design rules online?",
+      "a": "Severance Shores and Hunters Overlook post their residential improvement guidelines on their metro district sites, Hidden Valley Farm posts its Design Review Council guidelines, and Timber Ridge posts a handbook last revised in 2016. For other subdivisions, ask your HOA or district board for the current version."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Severance Shores Metropolitan District Nos. 1-4, Residential Improvement Guidelines and Site Restrictions (amended September 5, 2024)",
+      "url": "https://ssmd.specialdistrict.org/files/3cc9774d3/SSMD+-+Amended+RIGSR+09.05.24.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Hunters Overlook Metropolitan District Nos. 1-8, Residential Improvement Guidelines and Site Restrictions (amended April 1, 2025)",
+      "url": "https://homd.specialdistrict.org/files/60183cf34/HOMD+-+RIGSR+Amended+04.01.25.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "SB23-178 signed act: C.R.S. 38-33.3-106.5(1)(i.5) and 37-60-126(11)(a.5)",
+      "url": "https://leg.colorado.gov/bill_files/92307/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Hidden Valley Farm Design Guidelines, Design Review Council (PDF, last modified Oct. 18, 2023)",
+      "url": "https://www.hiddenvalleyfarmmd.live/files/0e0b82caf/DRC+Guidelines+Final+-+Including+Fence+Detail.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Severance, HOAs and Metro Districts 101",
+      "url": "https://townofseverance.org/385/HOAs-and-Metro-Districts-101",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Severance, Watering Guidelines and Restrictions (read September 25, 2026)",
+      "url": "https://www.townofseverance.org/396/Watering-Guidelines-and-Restrictions",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Severance Municipal Code Sec. 13-2-270, Nonpotable system use required (codified through Ord. No. 2025-27, Dec. 9, 2025)",
+      "url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH13MUUT_ART2WARE_DIV2NOWASY_S13-2-270NOSYUSRE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Hunters Overlook Water Activity Enterprise, 2026 Seasonal Water Correspondence & Restrictions (posted by Hunters Overlook Metropolitan District Nos. 1-8)",
+      "url": "https://homd.specialdistrict.org/files/70a8402c2/2026+Seasonal+Water+Correspondence+%26+Restrictions.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Timber Ridge (Severance) Homeowners' Association Handbook, revised October 8, 2016",
+      "url": "https://www.timberridge-hoa.com/wp-content/uploads/Timber-Ridge-HOA-Handbook.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Severance Land Use Code Sec. 16.3.220, Suburban Perimeter lot and building standards (Ord. No. 2025-15, Aug. 12, 2025)",
+      "url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART3ZO_DIV2SUPE_S16.3.220LOBUST",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Severance Land Use Code Sec. 16.1.310, Definitions (Ord. No. 2025-15, Aug. 12, 2025; codified through Ord. No. 2025-27, Dec. 9, 2025)",
+      "url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART1GEPR_DIV3DE_S16.1.310DE",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Backyard putting greens you have built in Severance: subdivision, month, size, and which committee or district reviewed the plan",
+    "Camera-original photos of a Severance putting green: the photos.ts greens are from west and south of Windsor and west of Berthoud, so none can go on this page",
+    "Whether the Severance Shores or Hunters Overlook review committee, Hidden Valley Farm's Design Review Council or Timber Ridge's committee has approved or questioned a green you proposed, and what they asked for",
+    "Greens on non-potable or North Weld lots where you capped or moved sprinkler heads, and whether the Town asked for a building permit",
+    "Confirmation that NoCo serves Severance (the town page asks the same)"
+  ]
+}

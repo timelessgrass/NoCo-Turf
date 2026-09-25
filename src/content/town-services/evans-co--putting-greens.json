@@ -1,0 +1,210 @@
+{
+  "status": "draft",
+  "town": "evans-co",
+  "service": "putting-greens",
+  "title": "Backyard Putting Greens in Evans, CO | NoCo Turf Co.",
+  "description": "Evans code says artificial turf is not acceptable for public or common areas, and no golf course is on the city's parks list. Greens here are backyard projects.",
+  "h1": "Evans code rules artificial turf out of public and common areas, so a turf putting green in Evans is a backyard project, not a neighborhood one.",
+  "display": {
+    "paint": "a backyard project"
+  },
+  "lede": "Colorado law treats a putting green as functional turf, the kind still allowed on shared ground in new development. Evans's landscape chapter, rewritten in 2023, has no such carve-out in its common-area sentence, and the city has no course on its parks list: its own tournament goes to Eaton Country Club. Checked September 25, 2026.",
+  "answer": {
+    "question": "Can I put a turf putting green in my Evans backyard?",
+    "answer": "Nothing in the Evans code read for this page stands in the way. The landscape chapter reaches common and public areas of new subdivisions, site plans, and multifamily and commercial sites, and does not name the backyard of an existing house, though an HOA's design rules can still apply. NoCo Turf Co. builds backyard putting greens in Evans, Colorado."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Shared greens",
+      "h2": "Evans's common-area sentence makes no exception for a putting green.",
+      "takeaway": "The state calls a green functional turf; the Evans sentence covering shared ground doesn't carve one out.",
+      "paras": [
+        "Section 18.08.020 says artificial turf is not acceptable for public or common areas. It belongs to the landscape chapter Evans adopted through Ord. 804-23 on October 17, 2023, which governs the common and public areas of every new subdivision, new or substantially amended site plans, new or substantially improved multifamily and nonresidential buildings, parking lots, and infill or rehabilitation of existing sites.",
+        "A developer who wanted a community green would meet a second rule. New subdivisions owe neighborhood identity features, one for 12 to 50 units and up to four past 300, chosen from a list of trails, pocket parks, water features or art, playgrounds, picnic areas, courts, plazas, gardens, a community building or a pool. A putting green is not on that list; anything off it needs City Council approval, and features the City does not take over stay common area for the owners association to keep up in perpetuity.",
+        "One change is pending. In April 2026 the council passed Ord. 858-26, adding Section 18.08.080 to implement state landscaping mandates, and the online code does not show its text yet. Whether it reopens shared greens depends on that text; ask Evans Planning before a board or builder designs one."
+      ],
+      "layerRefs": [
+        "evans-code-18.08.020-common-areas",
+        "evans-co.code-18-08-010-applicability",
+        "evans-co.code-18-04-070-identity-features",
+        "evans-co.ord-858-26-state-landscaping",
+        "co-hb25-1113-functional-turf",
+        "co-sb24-005-maintain-existing"
+      ],
+      "sources": [
+        "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.08LADE_18.08.020LADE",
+        "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.08LADE_18.08.010INAPDEOB",
+        "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.04SUDE_18.04.070NEDE",
+        "https://www.evanscolorado.gov/media/g3sokk4j/04212026-ordinance-858-26-2nd-reading.docx",
+        "https://leg.colorado.gov/bill_files/40673/download",
+        "https://leg.colorado.gov/bill_files/45372/download"
+      ]
+    },
+    {
+      "kind": "golf",
+      "own": true,
+      "kicker": "Golf in Evans",
+      "h2": "The city's golf tournament plays at Eaton Country Club; no course is on the Evans parks list.",
+      "paras": [
+        "The City of Evans set its 31st annual tournament, a four-person scramble, for July 24, 2026 at Eaton Country Club. At home, the parks page lists 16 parks and open spaces and not one golf course; the closest thing to golf on it is the nine-hole disc golf course at Pioneer Park in Ashcroft Heights.",
+        "A city course was once on the table. When Evans voters approved a local sales tax on food on November 5, 2002, the capital projects it could fund included a municipal golf course, listed beside the Ashcroft Heights and Hunter's Reserve parks. The parks list has none today. Next door, the City of Greeley runs two courses with practice greens: Highland Hills has two practice putting greens and a short game area, and Boomerang Links has one large practice putting green and a smaller chipping green."
+      ],
+      "layerRefs": [
+        "evans-co.golf-tournament-2026",
+        "evans-co.parks-list",
+        "evans-co.food-tax-2002-golf",
+        "evans-co.greeley-practice-greens"
+      ],
+      "sources": [
+        "https://www.evanscolorado.gov/news/posts/31st-annual-city-of-evans-golf-tournament-set-for-july-24-at-eaton-country-club",
+        "https://www.evanscolorado.gov/parks-recreation-and-community/parks/",
+        "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT3REFI_CH3.04SAUSTA_ARTXAD_3.04.1060ALADLOSATADOFO",
+        "https://greeleyco.gov/golf/courses/highland-hills/",
+        "https://greeleyco.gov/golf/courses/boomerang-links/"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "The backyard",
+      "h2": "The landscape chapter's five categories never name a backyard on an existing Evans lot.",
+      "paras": [
+        "Section 18.08.010 lists five kinds of site, and a house's backyard is not one of them by name; the last, infill and rehabilitation of existing sites, is broad enough that a full yard rebuild is worth a call to Evans Planning. A full-text search of the code through January 6, 2026 found artificial turf in one sentence only, the common-area rule, and putting green nowhere.",
+        "Out front the test changes. A new or substantially improved residential front yard must stay at least half landscape on the suburban frontage Evans applies first in R-1, and the code is silent on whether turf is landscape or hardscape. It depends on how Evans reads that table: ask Evans Planning before putting a green in the front yard.",
+        "A small shed for flags and clubs can skip the city's design standards if it stays at 120 square feet or less, under 10 feet tall, movable and set well back from or hidden from public space; a bigger one has to match the house."
+      ],
+      "layerRefs": [
+        "evans-co.code-18-08-010-applicability",
+        "evans-co.code-search-2026-09-25",
+        "evans-co.code-18-05-030-front-yard-landscape",
+        "evans-co.code-18-02-040-accessory-structures"
+      ],
+      "sources": [
+        "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.08LADE_18.08.010INAPDEOB",
+        "https://library.municode.com/co/evans/codes/municipal_code",
+        "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.05REDE_18.05.030FR",
+        "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.02ZO_18.02.040ACUS"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Liberty Draw",
+      "h2": "Liberty Draw's guidelines say it outright: artificial turf may be installed in back yards.",
+      "paras": [
+        "Liberty Draw, a metro-district neighborhood in Evans, publishes single-family architectural guidelines, last updated September 25, 2024. Its landscaping section lets owners install artificial turf in back yards and requires front yards to be sodded, so a green there belongs behind the house.",
+        "The same document puts play and sports equipment under Architectural Review Committee approval and sends every exterior irrigation line to the non-potable system, which matters for any planting ringing a green. The committee can grant variances. Other Evans subdivisions keep their own covenants; get your HOA's current rules first. Colorado's backyard rule for HOAs is printed below."
+      ],
+      "layerRefs": [
+        "evans-co.liberty-draw-arc-guidelines",
+        "co-hoa-backyard-detached"
+      ],
+      "sources": [
+        "https://www.libertydrawsmds.com/files/952790d36/Liberty+Draw+ARB+Guidelines+SF+(Final).pdf",
+        "https://leg.colorado.gov/bill_files/92307/download"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need a permit to build a putting green in Evans?",
+      "a": "It depends on what comes with it. The Evans code sections read for this page set no permit for laying turf on an existing lot; a retaining wall, a structure or a change in drainage is a separate question. Ask Evans Planning before digging."
+    },
+    {
+      "q": "Can an existing Evans HOA add a putting green to its common area?",
+      "a": "It depends. The landscape chapter also reaches rehabilitation of existing sites, where the Director may prorate the standards, and its common-area sentence rules artificial turf out. Colorado separately lets local governments allow turf installed before January 1, 2026 to be maintained. Ask Evans Planning before the board commits."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Evans Municipal Code Sec. 18.08.020, landscape design (codified through Ord. No. 855-26, Jan. 6, 2026)",
+      "url": "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.08LADE_18.08.020LADE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Evans Municipal Code Sec. 18.08.010.B, landscape applicability; chapter enacted by Ord. 804-23, Oct. 17, 2023 (codified through Ord. No. 855-26, Jan. 6, 2026)",
+      "url": "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.08LADE_18.08.010INAPDEOB",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Evans Municipal Code Sec. 18.04.070, neighborhood design (codified through Ord. No. 855-26, Jan. 6, 2026)",
+      "url": "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.04SUDE_18.04.070NEDE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Evans legal notice: Ordinance No. 858-26, adding Sec. 18.08.080 for state-mandated landscaping, passed second reading April 21, 2026",
+      "url": "https://www.evanscolorado.gov/media/g3sokk4j/04212026-ordinance-858-26-2nd-reading.docx",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "HB25-1113 signed act: C.R.S. 37-99-102(6.5) functional artificial turf and 37-99-103(1)",
+      "url": "https://leg.colorado.gov/bill_files/40673/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "SB24-005 signed act: C.R.S. 37-99-102 and 37-99-103",
+      "url": "https://leg.colorado.gov/bill_files/45372/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Evans news post, June 18, 2026: 31st annual golf tournament set for July 24 at Eaton Country Club",
+      "url": "https://www.evanscolorado.gov/news/posts/31st-annual-city-of-evans-golf-tournament-set-for-july-24-at-eaton-country-club",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Evans, Parks (16 parks and open spaces listed)",
+      "url": "https://www.evanscolorado.gov/parks-recreation-and-community/parks/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Evans Municipal Code Sec. 3.04.1060, local sales tax on domestic food (codified through Ord. No. 855-26, Jan. 6, 2026)",
+      "url": "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT3REFI_CH3.04SAUSTA_ARTXAD_3.04.1060ALADLOSATADOFO",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Evans Municipal Code on Municode, full-text search September 25, 2026 (codified through Ord. No. 855-26, Jan. 6, 2026)",
+      "url": "https://library.municode.com/co/evans/codes/municipal_code",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Evans Municipal Code Sec. 18.05.030, frontages, Table 18-5-3 (codified through Ord. No. 855-26, Jan. 6, 2026)",
+      "url": "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.05REDE_18.05.030FR",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Evans Municipal Code Sec. 18.02.040, accessory uses: structures, fences, household pets, home occupations (codified through Ord. No. 855-26, Jan. 6, 2026)",
+      "url": "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.02ZO_18.02.040ACUS",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "C.R.S. 38-33.3-106.5(1)(i.5), added by SB23-178 (signed act)",
+      "url": "https://leg.colorado.gov/bill_files/92307/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Greeley Golf, Highland Hills course page",
+      "url": "https://greeleyco.gov/golf/courses/highland-hills/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Greeley Golf, Boomerang Links course page",
+      "url": "https://greeleyco.gov/golf/courses/boomerang-links/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Liberty Draw Metropolitan District Nos. 1-9: Single Family Detached Home Architectural Guidelines (updated Sept. 25, 2024)",
+      "url": "https://www.libertydrawsmds.com/files/952790d36/Liberty+Draw+ARB+Guidelines+SF+(Final).pdf",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Confirmation that NoCo serves Evans and wants putting-green leads there",
+    "Evans putting-green jobs: subdivision (Ashcroft Heights, Tuscany, The Ridge at Prairie View, Willowbrook, Hunter's Reserve, Liberty Draw or another), month, rough size",
+    "Camera-original photos of an Evans putting green: the putting-green photos in photos.ts were taken near Windsor and Berthoud, so none can be used here",
+    "Evans HOA or Liberty Draw ARC approvals you have handled for a backyard green, and whether any Evans HOA or builder has asked about a shared green",
+    "Whether you have seen the adopted text of Ord. 858-26 (Sec. 18.08.080) or talked with Evans Planning about turf in common areas"
+  ]
+}

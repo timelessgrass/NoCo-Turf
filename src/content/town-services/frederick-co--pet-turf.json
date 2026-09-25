@@ -1,0 +1,164 @@
+{
+  "status": "draft",
+  "town": "frederick-co",
+  "service": "pet-turf",
+  "title": "Dog Runs and Pet Turf in Frederick, CO | NoCo Turf Co.",
+  "description": "Frederick sets no cap on dogs per home but licenses each one yearly. The 2026 fence and drainage rules that shape a dog run, and the Town's off-leash dog park.",
+  "h1": "Frederick doesn't cap how many dogs a household keeps, but it licenses every one each year.",
+  "display": {
+    "paint": "doesn't cap how many dogs"
+  },
+  "lede": "The Town's code enforcement answers say Frederick does not regulate the number of dogs a resident may have. Each dog and cat still needs a Town license every year, and a run for them sits under the fence and drainage rules of the land use code that took effect June 1, 2026.",
+  "answer": {
+    "question": "How many dogs can I keep in Frederick, and what rules touch a dog run?",
+    "answer": "The Town says it does not regulate the number of dogs a resident may have, but every dog and cat needs a license each year. For a run, the 2026 land use code caps fence heights, allows chain link only in listed cases and says artificial turf cannot change how a lot drains. NoCo Turf Co. answers dog-run questions for Frederick yards."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Municipal Code, Chapter 7",
+      "h2": "No cap on dogs, but a Town license for every dog and cat, renewed each January.",
+      "paras": [
+        "Asked how many dogs a resident may keep, the Town's code enforcement FAQ answers that Frederick does not regulate the number. The municipal code still requires a license each year for the dogs and cats residents own: licenses renew in January, a current rabies vaccination comes first, and the Town tag goes on the collar beside the rabies tag.",
+        "Boarding, grooming, breeding or training four or more pets is a different case. The 2026 land use code calls a facility that does that, with an outdoor component such as dog runs, a kennel or animal day care: a zoned use whose outdoor runs must be secured against escape and whose site sits 300 feet from existing residential zones and uses."
+      ],
+      "layerRefs": [
+        "frederick-co.town-faq-dog-number",
+        "frederick-co.pet-license-7-101",
+        "frederick-co.luc-2026-kennel-defined",
+        "frederick-co.luc-2026-kennel-standards"
+      ],
+      "sources": [
+        "https://www.frederickco.gov/FAQ.aspx?TID=23",
+        "https://www.frederickco.gov/312/Pet-License",
+        "https://www.frederickco.gov/DocumentCenter/View/33088/2026-Land-Use-Code",
+        "https://www.frederickco.gov/DocumentCenter/View/33068/Article-2"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Fences, Sec. 16-4-90",
+      "h2": "A yard that backs onto open space, a park or a trail gets a 4-foot fence there, not a 7-foot one.",
+      "paras": [
+        "Frederick's 2026 code limits fences to 42 inches in the front yard and 7 feet in side and rear yards, but to 4 feet where they abut open space, parks or trails; a fence no more than 50% opaque may go to 5 feet there at the Town's discretion. For a dog that jumps, a run fenced on its own inside the rear yard, back from the trail-side line, may fall under the 7-foot limit instead. It depends on how Frederick Planning reads 'abutting', so ask before building it.",
+        "Chain link is barred as a fence material except in a few listed cases, such as a coated fence around a recreational area. The code does let wire mesh be attached to the inside of an open fence, and on a subdivision's perimeter fence along a busier street, light wire mesh may go on an open three-rail fence to keep pets and children from crossing through."
+      ],
+      "layerRefs": [
+        "frederick-co.luc-2026-fence-heights",
+        "frederick-co.luc-2026-fence-materials"
+      ],
+      "sources": [
+        "https://www.frederickco.gov/DocumentCenter/View/33070/Article-4"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Drainage and the turf rule",
+      "h2": "A dog run gets hosed down, and Frederick's code says turf can't change where that water goes.",
+      "paras": [
+        "The drainage rule in the 2026 landscaping section names artificial turf directly: it may not alter the drainage pattern or the amount of stormwater runoff in a lot's approved grading plan, or the existing pattern where no plan was required. Rinse water from a run has to leave the yard the way rain already did, not toward a neighbor's fence or the foundation.",
+        "The same section permits functional artificial turf only where the code's definition fits, and that definition names playgrounds, sports fields, picnic grounds, amphitheaters, portions of parks and golf playing areas. A dog run is not on the list. It depends on how Frederick Planning applies the section to a backyard, so ask before you build. Not legal advice. Covenants are separate; the Colorado rule for HOAs and metro districts follows."
+      ],
+      "layerRefs": [
+        "frederick-co.luc-2026-turf-drainage",
+        "frederick-co.luc-2026-artificial-turf-rule",
+        "frederick-co.luc-2026-functional-artificial-turf-defined",
+        "co-hoa-backyard-detached"
+      ],
+      "sources": [
+        "https://www.frederickco.gov/DocumentCenter/View/33088/2026-Land-Use-Code",
+        "https://leg.colorado.gov/bill_files/92307/download"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "Frederick Recreation Area",
+      "h2": "The Town's off-leash dog park is at the Frederick Recreation Area, 129 acres around Milavec Reservoir.",
+      "paras": [
+        "The Frederick Recreation Area lists an off-leash dog park among its features, on 129 acres of Town parkland with a 1.26-mile trail around Milavec Reservoir, fishing, a playground and picnic shelters.",
+        "New parks will add more stops for dogs: the Town's park design standards, dated September 11, 2026, require every new pocket, neighborhood and community park to have dog waste stations at two or more pedestrian entrances and a frost-free water station with a pet fountain."
+      ],
+      "layerRefs": [
+        "frederick-co.fra-dog-park",
+        "frederick-co.post-dog-amenities",
+        "frederick-co.post-standards-applicability"
+      ],
+      "sources": [
+        "https://www.frederickco.gov/facilities/facility/details/Frederick-Recreation-Area-FRA-2",
+        "https://www.frederickco.gov/DocumentCenter/View/33243/POST-Design-Standards"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can a dog run go in a Frederick front yard?",
+      "a": "The code makes that hard. Front-yard fences stop at 42 inches, and every distinct landscaped area needs at least 50% living plant coverage, so artificial turf, which is not living plant material, could cover at most half of a landscaped front-yard area. Rear-yard fences may reach 7 feet, or 4 feet along open space, parks and trails."
+    },
+    {
+      "q": "What does the Town need before it releases an impounded dog?",
+      "a": "Proof of a current rabies vaccination and a Town dog license. A dog picked up at large is usually held at the police department for a few hours while the Community Service Unit tries to reach the owner."
+    },
+    {
+      "q": "Can a dog run be fenced with chicken wire or chain link?",
+      "a": "Not where it shows. The 2026 code bars fences built mainly of chicken wire, wafer board, particleboard or plywood along a property line or in a required setback where visible from a street, park, open space or trail, and allows chain link only in listed cases. Wire mesh on the inside of an open fence is allowed."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Town of Frederick FAQ, Code Enforcement: 'How many dogs may I have on my property?'",
+      "url": "https://www.frederickco.gov/FAQ.aspx?TID=23",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Frederick, Pet License page (Municipal Code Sec. 7-101: a license each year for dogs and cats)",
+      "url": "https://www.frederickco.gov/312/Pet-License",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Frederick, Animals at Large page (release needs proof of rabies vaccination and a Town dog license)",
+      "url": "https://www.frederickco.gov/311/Animals-at-Large",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Frederick Land Use Code (2026) Article 2 PDF: Sec. 16-2-30.G.18 kennel or animal day care; definition in Sec. 16-13-30 (four or more household pets)",
+      "url": "https://www.frederickco.gov/DocumentCenter/View/33068/Article-2",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Frederick Land Use Code (2026) Article 4 PDF, Sec. 16-4-90 fences: 42 inches in front yards, 7 feet in side and rear yards, 4 feet next to open space, parks and trails (5 feet if no more than 50% opaque); chain link and wire mesh rules",
+      "url": "https://www.frederickco.gov/DocumentCenter/View/33070/Article-4",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Frederick Land Use Code (2026, effective June 1, 2026), full code PDF: Sec. 16-4-80 Landscaping and Sec. 16-13-30 Terms defined",
+      "url": "https://www.frederickco.gov/DocumentCenter/View/33088/2026-Land-Use-Code",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Frederick facility page, Frederick Recreation Area (FRA)",
+      "url": "https://www.frederickco.gov/facilities/facility/details/Frederick-Recreation-Area-FRA-2",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Frederick, Parks, Open Space, and Trails Design Standards (September 11, 2026)",
+      "url": "https://www.frederickco.gov/DocumentCenter/View/33243/POST-Design-Standards",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "C.R.S. 38-33.3-106.5(1)(i.5), added by SB23-178 (signed act)",
+      "url": "https://leg.colorado.gov/bill_files/92307/download",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Dog runs NoCo has built in Frederick: month, size, number and size of dogs, and how the run drains",
+    "Camera-original photos of a Frederick dog run for src/data/photos.ts (use pet); no photo on file carries that use yet",
+    "Whether Frederick Planning has reviewed or questioned a backyard dog run under the 2026 land use code",
+    "Frederick yards where a run was fenced or turfed against a trail or open-space fence line, and how the 4-foot limit was handled"
+  ]
+}

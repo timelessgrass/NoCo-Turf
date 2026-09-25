@@ -1,0 +1,165 @@
+{
+  "status": "draft",
+  "town": "berthoud-co",
+  "service": "playground-turf",
+  "title": "Playground Turf Under Playsets in Berthoud, CO | NoCo Turf Co.",
+  "description": "Heron Lakes sets playsets back by their own height, 10 feet at least. Berthoud zones home daycares apart from centers; state daycare rules list padded turf.",
+  "h1": "In Heron Lakes, a playset sits back from the side and rear lot lines at least its own height, never under 10 feet.",
+  "display": {
+    "paint": "at least its own height"
+  },
+  "lede": "Two sets of rules in Berthoud reach a backyard play area. The Heron Lakes design rules decide where a playset goes and what it is made of, and the town's land use table decides how a home daycare or a child care center gets approved.",
+  "answer": {
+    "question": "What rules cover a backyard play area in Berthoud?",
+    "answer": "Your HOA's first. In Heron Lakes the Architectural Control Committee approves every playset and requires wood equipment set back at least its own height, and never under 10 feet, from rear and side lot lines. Berthoud's municipal code has no artificial-turf provision, so outside an HOA it depends on your zone district; ask Berthoud Planning."
+  },
+  "blocks": [
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Heron Lakes playsets",
+      "h2": "The setback grows with the playset: its tallest height, and 10 feet at least.",
+      "paras": [
+        "Section 2.59 of the Heron Lakes rules, amended June 1, 2026, requires committee approval for all playground equipment and sets it back from the rear and side lot lines by at least the height of its tallest part, never less than 10 feet. Equipment must be wood stained to the subdivision's fence color, with earth-tone slides, canopies and swing covers; metal play equipment is not permitted.",
+        "The approved landscape plan must mark a playground area, which lets neighbors plant screening, and the plan itself shows grading, swales and play areas at 1 inch to 10 feet. Movable pieces under 5 feet tall are stored out of view, lightweight equipment is secured against high winds, and a trampoline is buried at ground level at least 10 feet from every property line."
+      ],
+      "layerRefs": [
+        "berthoud-co.heron-play-equipment-setback",
+        "berthoud-co.heron-landscape-plan-approval"
+      ],
+      "sources": [
+        "https://www.berthoudheritagemd.live/s/Heron-Lakes-Design-Rules-and-Regulations-June-1-2026.pdf"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Home daycare and centers",
+      "h2": "Berthoud approves a home daycare by building permit and a center by site plan or special review.",
+      "paras": [
+        "Berthoud's development code defines a child-care home as a residential home caring for no more than twelve children. The land use table allows one with a building permit in the AG, CD, SR and UR districts and in R1 through R4.",
+        "A child care center, defined by reference to state law, needs a use-by-special-review permit in AG, R1, R2 and R3 and a site plan permit in SC, R4, C1, C2 and M1. Uses the table doesn't list are presumed prohibited. Which review applies depends on the zone district, so ask Berthoud Planning before drawing the outdoor play space."
+      ],
+      "layerRefs": [
+        "berthoud-co.code-child-care-home",
+        "berthoud-co.code-land-use-child-care"
+      ],
+      "sources": [
+        "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH30BEDECO_S1GEPR_30-1-121DE",
+        "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH30BEDECO_S4ZO_30-4-107ZOLAUS"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "Public playgrounds",
+      "h2": "S'Miles Playground opened on September 5, 2026, on solid rubber.",
+      "paras": [
+        "KUNC reported that S'Miles Playground, a farm-themed inclusive playground in Berthoud, opened on September 5, 2026, and that the boy who helped design it rolled his wheelchair across its solid rubber surfacing to reach the middle of the play area.",
+        "Berthoud Town Park, the town's oldest park, now has a 12,000-square-foot fully inclusive playground beside a 6,000-square-foot natural stone water feature. Waggener Farm Park pairs multi-age playgrounds with large turf fields on more than 20 acres."
+      ],
+      "layerRefs": [
+        "berthoud-co.smiles-playground",
+        "berthoud-co.town-park-playground",
+        "berthoud-co.waggener-farm-park"
+      ],
+      "sources": [
+        "https://www.kunc.org/news/2026-09-08/more-than-five-years-later-a-childs-dream-of-an-inclusive-playground-in-berthoud-came-true",
+        "https://berthoud.org/1458/Berthoud-Town-Park",
+        "https://www.berthoud.org/facilities/facility/details/Waggener-Farm-Park-19"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": false,
+      "kicker": "Colorado child care rule",
+      "h2": "Colorado accepts artificial turf with a built-in pad under a home daycare's equipment.",
+      "paras": [
+        "Colorado's rules for family child care homes require resilient surfacing in the use zone around climbing or sliding equipment and platforms 18 inches or higher, and list artificial turf with built in resilient pad among the approved solid surfaces; a newly installed solid surface needs the maker's written documentation that it meets current federal requirements. The CPSC's public playground handbook does not count grass or dirt as protective surfacing, and accepts carpet or mats only when tested to ASTM F1292. Not legal advice."
+      ],
+      "layerRefs": [],
+      "sources": [
+        "https://www.law.cornell.edu/regulations/colorado/8-CCR-1402-1-2.337",
+        "https://www.cpsc.gov/s3fs-public/325.pdf"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Who owns the playgrounds in new Berthoud subdivisions?",
+      "a": "Often an HOA or metro district. Berthoud's code requires pocket parks to be owned and maintained by an HOA or metro district and kept open to the public, and a commercial-grade or nature-based playground is one of the elements a pocket park can include."
+    },
+    {
+      "q": "Does Berthoud's code say what goes under a backyard playset?",
+      "a": "No. The municipal code, codified through November 10, 2025, has no artificial-turf provision, and the town's landscape guidelines mention artificial turf only to keep it to private backyards and sports fields in new Suburban and Old Town Residential projects. Follow the equipment maker's use-zone instructions and your HOA's rules."
+    },
+    {
+      "q": "Is Waggener Farm Park getting bigger?",
+      "a": "Yes. On July 14, 2026, the Town approved buying land from Thompson School District R2-J to add to Waggener Farm Park, which the ordinance calls its multi-use community park."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Berthoud-Heritage Metropolitan District, Heron Lakes Residential Improvement Rules and Regulations (amended June 1, 2026), Secs. 2.59 and 4.1",
+      "url": "https://www.berthoudheritagemd.live/s/Heron-Lakes-Design-Rules-and-Regulations-June-1-2026.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Berthoud Municipal Code Sec. 30-1-121, Definitions (codified through Ord. No. 1367, Nov. 10, 2025)",
+      "url": "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH30BEDECO_S1GEPR_30-1-121DE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Berthoud Municipal Code Sec. 30-4-107, Land Use Table",
+      "url": "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH30BEDECO_S4ZO_30-4-107ZOLAUS",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Berthoud Municipal Code Sec. 30-6-109, Parks, trails and open space",
+      "url": "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH30BEDECO_S6DEST_30-6-109PATROPSP",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "KUNC, More than five years later, a child's dream of an inclusive playground in Berthoud came true (September 8, 2026)",
+      "url": "https://www.kunc.org/news/2026-09-08/more-than-five-years-later-a-childs-dream-of-an-inclusive-playground-in-berthoud-came-true",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Berthoud, Berthoud Town Park page (12,000 sq ft playground; 6,000 sq ft water feature)",
+      "url": "https://berthoud.org/1458/Berthoud-Town-Park",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Berthoud, Facilities: Waggener Farm Park (20+ acres)",
+      "url": "https://www.berthoud.org/facilities/facility/details/Waggener-Farm-Park-19",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Berthoud Ordinance No. 1386 (Series 2026), adopted July 14, 2026",
+      "url": "https://www.berthoud.org/DocumentCenter/View/7734/Ordinance-1386-Property-Purchase-Thompon-School-District",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Colorado 8 CCR 1402-1, Rule 2.337(B)(1), family child care homes: resilient surfacing under equipment 18 inches or higher (via Cornell LII)",
+      "url": "https://www.law.cornell.edu/regulations/colorado/8-CCR-1402-1-2.337",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "U.S. CPSC, Public Playground Safety Handbook (Pub. No. 325), Sec. 2.4, surfacing tested to ASTM F1292",
+      "url": "https://www.cpsc.gov/s3fs-public/325.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Berthoud Code of Ordinances on Municode (codified through Ord. No. 1367, Nov. 10, 2025)",
+      "url": "https://library.municode.com/co/berthoud/codes/code_of_ordinances",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Play-area or playset turf jobs NoCo has built in Berthoud: month, size, the set's highest platform and the pad used under the turf",
+    "A camera-original photo of a Berthoud play area: photos.ts 'playset' was taken south of Windsor, so this page has no photo that can pass its gate",
+    "Whether NoCo has worked on a Heron Lakes play area under an Architectural Control Committee approval, or for a Berthoud child care home or center",
+    "Confirmation that NoCo installs playground turf today (services.ts playground-turf is unconfirmed)"
+  ]
+}

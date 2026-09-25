@@ -1,0 +1,705 @@
+[
+  {
+    "id": "eaton-co.code-11-1-7-four-dogs",
+    "layer": "ordinance",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Eaton's animal code lets a person or household keep no more than 4 dogs and 1 litter, a litter being a dog's offspring under 6 months old.",
+    "quote": "No person or owner of a household shall keep more than four (4) dogs and one (1) litter. A litter includes the offspring of a dog which are under six (6) months of age. This restriction shall not apply to an animal shelter, veterinary clinic, kennel or pet shop.",
+    "source_url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHXIAN_SIANRURE_S11-1-7NUPEAL",
+    "source_label": "Eaton Municipal Code Sec. 11-1-7, Number of pets allowed (Ord. 648, 2024; codified through Ord. 668, Nov. 20, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4",
+      "1",
+      "6"
+    ],
+    "notes": "Read 2026-09-25 through the Municode API (job 480830, Supp. No. 16). Ord. 648 (Sept. 19, 2024) repealed and re-enacted Chapter XI."
+  },
+  {
+    "id": "eaton-co.code-7-2-48-kennel",
+    "layer": "ordinance",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Eaton's zoning code defines a kennel as any building, structure or open space used wholly or partly to raise, board or harbor 3 or more animals over 6 months old.",
+    "quote": "Kennel. Any building, structure or open space devoted wholly or partly to the raising, boarding or harboring of three (3) or more animals that are over six (6) months old.",
+    "source_url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIIPLZORE_SIIZOOR_ARTVADPR_S7-2-48DE",
+    "source_label": "Eaton Municipal Code Sec. 7-2-48, Zoning definitions (codified through Ord. 668, Nov. 20, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "6"
+    ],
+    "notes": "The animal chapter (Sec. 11-1-1, see eaton-co.code-11-1-animal-terms) defines a kennel as a business instead. No district use list read on 2026-09-25 names kennels. How the zoning definition squares with the four-dog limit is NOT stated: pages hedge and send readers to Eaton Planning."
+  },
+  {
+    "id": "eaton-co.code-11-1-animal-terms",
+    "layer": "ordinance",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Eaton's animal code bars any animal from running at large, meaning off the owner's premises and not under the owner's control, where control means a leash or lead no longer than 6 feet; lets an animal control officer impound an animal at large; requires anyone who takes an animal onto property other than their own to remove its waste at once; and defines a kennel as a boarding, breeding, buying, renting or training business.",
+    "quote": "At large means off the premises of the owner and not under the control of the owner. Control means physical restraint by use of a leash or lead. … Leash and lead mean a thong, cord, rope, chain or similar device which holds an animal in restraint and which is not more than six (6) feet long. Kennel means any premises wherein any person engages in the business of boarding, breeding, buying, letting for hire or training for a fee. … (a) Animals subject to impoundment. Any animal that constitutes a public nuisance or is at large may be taken by the animal control officer and impounded in an animal shelter. … (c) Animals running at large. All animals shall be kept under control. No animal shall run at large within the Town. If any animal is found at large at any place within the Town other than upon the premises of its owner, the owner shall be liable for a violation of this section. … A person taking an animal upon any public or private property, other than such person's own property, shall immediately remove and lawfully dispose of all fecal matter deposited by the animal on such property.",
+    "source_url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHXIAN_SIANRURE",
+    "source_label": "Eaton Municipal Code Secs. 11-1-1, 11-1-3(c) and 11-1-6, Animals (Ord. 648, 2024; codified through Ord. 668, Nov. 20, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6"
+    ],
+    "notes": "Rechecked 2026-09-25 through the Municode API (job 480830). The code does not say how \"All animals shall be kept under control\" applies to an unleashed dog inside its owner's own yard; pages must not resolve it."
+  },
+  {
+    "id": "eaton-co.code-11-1-2-dog-license",
+    "layer": "ordinance",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Eaton requires a license for any dog over 6 months old, applied for within 30 days of becoming its owner with a rabies vaccination certificate valid through December 31 of the licensing year, and the tag must be worn off the owner's premises.",
+    "quote": "Except as otherwise provided herein, the owner of any dog over the age of six (6) months shall obtain a license for such dog. (1) Time for application. An applicant for a dog license shall apply for a license within thirty (30) days after having become the owner of the dog … shall submit a rabies vaccination certificate … that is valid until at least December 31 of the licensing year. … a. Dogs shall wear their license tags at all times while outside of the owner's premises.",
+    "source_url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHXIAN_SIANRURE_S11-1-2LI",
+    "source_label": "Eaton Municipal Code Sec. 11-1-2, Licensing (Ord. 648, 2024; codified through Ord. 668, Nov. 20, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6",
+      "30",
+      "31"
+    ]
+  },
+  {
+    "id": "eaton-co.code-6-2-1-fences",
+    "layer": "ordinance",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Eaton limits fences to 6 feet high, makes it unlawful anywhere in town to put up or keep a fence with barbed wire, spikes or an electrical charge strong enough to shock (apart from a few strands of barbed wire in the C-2 and industrial districts), and needs a revocable permit for a fence within 3 feet of a sidewalk.",
+    "quote": "(a) Fences, walls and other architectural screening devices shall not exceed six (6) feet in height, measured from the ground level immediately adjacent to the fence or wall. (b) Fences in C-2 District and in all Industrial Zoning Districts may exceed six (6) feet in height, but only by the addition of not more than three (3) strands of barbed wire. (c) It shall be unlawful to erect or maintain, anywhere in the Town, a fence equipped with, or having, barbed wire, spikes or similar devices (except as in Section [b]) or any electrical charge sufficient to cause shock. (d) In no case may a fence, wall and other architectural screening be located in, or extended partly into, any public right-of-way or easement, or within three (3) feet of a sidewalk, unless a revocable permit has been issued by the Town Board.",
+    "source_url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIBURE_SIIFE_S6-2-1RE",
+    "source_label": "Eaton Municipal Code Sec. 6-2-1, Fences: restrictions (Ord. 457, 1995; codified through Ord. 668, Nov. 20, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6",
+      "3",
+      "2"
+    ],
+    "notes": "The code does not say whether a buried electronic pet-containment system (collar-based) is a 'fence equipped with … any electrical charge'. Never resolve it on a page."
+  },
+  {
+    "id": "eaton-co.code-6-1-1-permit-exempt",
+    "layer": "ordinance",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Eaton's building code amendments exempt from a building permit fences not over 6 feet high and one-story detached playhouses, sheds and similar structures of up to 120 square feet with a roof no more than 10 feet above grade.",
+    "quote": "IBC Section 105.2 (Work exempt from permit) is amended by: Building Exception #1 is deleted in its entirety and replaced with \"One-Story detached accessory structures used as tool and storage sheds, playhouses and similar uses, provided the floor area does not exceed 120 square feet and the roof height does not exceed 10 feet above grade measured from a point directly outside the exterior walls of the structure.\" Exception #2 is deleted in its entirety and replaced with \"Fences not over 6 feet (2134mm) high. Swimming pool barriers of any height are not exempt from permits.\"",
+    "source_url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIBURE_SIBUCO_S6-1-1INBUCO",
+    "source_label": "Eaton Municipal Code Sec. 6-1-1, International Building Code, 2024 Edition, as amended (codified through Ord. 668, Nov. 20, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "120",
+      "10",
+      "6",
+      "2134"
+    ]
+  },
+  {
+    "id": "eaton-co.code-open-space-minimums",
+    "layer": "ordinance",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Eaton's residential zoning requires livable open space of at least 20% of the lot in the R-1 and R-2 districts, 15% in R-3 and 40% in the R-EH estate half-acre district, where lots start at 21,780 square feet.",
+    "quote": "R-1: (2) Minimum livable open space: 20% of lot area. … R-2: (3) Minimum livable open space: 20% of lot area. … R-3: (3) Minimum livable open space: 15% of lot area. … R-EH: (1) Minimum lot size: 21,780 square feet. (2) Minimum livable open space: 40% of lot area.",
+    "source_url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIIPLZORE_SIIZOOR_ARTIIDIRE",
+    "source_label": "Eaton Municipal Code Secs. 7-2-17, 7-2-18, 7-2-19 and 7-2-19.1, residential district dimensional requirements (codified through Ord. 668, Nov. 20, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "20",
+      "15",
+      "40",
+      "21780",
+      "1",
+      "2",
+      "3"
+    ]
+  },
+  {
+    "id": "eaton-co.code-7-2-48-open-space-def",
+    "layer": "ordinance",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Eaton's zoning code counts as open space the part of a site not covered by buildings, parking, driveways or other impervious surfaces, naming lawn areas and outdoor recreation facilities among its uses, and counts areas covered with materials impervious to water as impervious surface.",
+    "quote": "Open space. That portion of the site not covered by buildings, parking areas, driveways or other impervious surfaces. Open space shall be devoted to the purpose of outdoor living spaces for the residents and may include lawn areas, walkways, sitting areas, courtyards and outdoor recreation facilities and landscaped areas. … Impervious surface area. The area of the lot covered by the following shall be included in impervious surface in all districts: a. The principal building; b. All accessory buildings, parking garages, carports, utility sheds; c. Porches, stairways and elevated walkways, paved areas or areas otherwise covered with materials impervious to water; and d. Parking areas and driveways regardless of surface materials.",
+    "source_url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIIPLZORE_SIIZOOR_ARTVADPR_S7-2-48DE",
+    "source_label": "Eaton Municipal Code Sec. 7-2-48, Zoning definitions: open space, impervious surface area (codified through Ord. 668, Nov. 20, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The code does not say whether artificial turf is a lawn area, an outdoor recreation facility or an impervious material. Pages hedge and send readers to Eaton Planning."
+  },
+  {
+    "id": "eaton-co.code-home-day-care",
+    "layer": "ordinance",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Eaton's R-1, R-2, R-3 and R-EH districts allow home-based day care as an accessory use, capped at the number of children the state's day care home rules allow and exempt from the 35% living-area limit on home businesses, and the zoning code defines a day care home or center as a state-licensed facility caring for more than 2 unrelated children under 18.",
+    "quote": "e. Home-based day care. The number of children cared for at the dwelling unit at any one (1) time shall be limited to the lawful number permitted by the rules and regulations for day care homes then in effect and issued by the Department of Social Services of the State. The home occupation of child care shall not be limited to thirty-five percent (35%) of the finished living area. … Day care home or center. A facility licensed by the State which is maintained for a whole or part of a day for the care of more than two (2) children under the age of eighteen (18) years not related to the owner, operator or the manager thereof, which facility is operated with or without compensation for such care.",
+    "source_url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIIPLZORE_SIIZOOR_ARTIIDIRE",
+    "source_label": "Eaton Municipal Code Secs. 7-2-17, 7-2-18, 7-2-19 and 7-2-19.1 (permitted accessory uses) and 7-2-48 (definitions) (codified through Ord. 668, Nov. 20, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "2",
+      "3",
+      "35",
+      "18"
+    ],
+    "notes": "Wording differs slightly by district (R-1 cross-refers to 'Subparagraph (iii)'); the quote is R-2/R-3/R-EH's."
+  },
+  {
+    "id": "eaton-co.code-7-2-20-rmu-daycare",
+    "layer": "ordinance",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Eaton's R-MU residential mixed-use district permits educational centers, daycare centers included, of less than 5,000 square feet, and limited daycare serving up to 12 children for less than 24 hours a day.",
+    "quote": "j. Educational centers, including daycare centers and cultural complexes less than five thousand (5,000) square feet. … l. Limited daycare serving up to twelve (12) children for less than twenty-four (24) hours per day.",
+    "source_url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIIPLZORE_SIIZOOR_ARTIIDIRE_S7-2-20REMIUSDI",
+    "source_label": "Eaton Municipal Code Sec. 7-2-20, R-MU Residential Mixed Use District (codified through Ord. 668, Nov. 20, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5000",
+      "12",
+      "24"
+    ]
+  },
+  {
+    "id": "eaton-co.code-7-2-33-landscaping",
+    "layer": "ordinance",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Eaton requires every lot not covered by impervious materials to be landscaped, lists plants, rock outcroppings and decorative elements (no more than 20% of a landscaped area) as the allowable landscape materials, and issues no building, construction or grading permit without a landscape plan approved by the Town Board or its designee.",
+    "quote": "(b) Required landscaping. All lots in all zones not covered by impervious materials shall be landscaped to prevent land erosion, improper drainage, damage to properties and unsightliness. … (c) Allowable landscape materials. (1) Planted areas and plant materials, including trees, shrubs, lawns, flower beds and groundcover. Native vegetation or low water usage vegetation on water-conserving design concepts shall be used whenever possible. (2) Natural or significant rock outcroppings. (3) Decorative elements such as walks, decks, terraces, water features and the like shall not occupy more than twenty percent (20%) of a landscaped area. … (g) Maintenance. (1) All landscaping shall be reasonably maintained and any plant material shall be replaced within thirty (30) days of its demise … (4) No building, construction or grading permit shall be issued without a plan for landscaping approved by the Town Board or its authorized designee.",
+    "source_url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIIPLZORE_SIIZOOR_ARTIIIGEDEST_S7-2-33LARE",
+    "source_label": "Eaton Municipal Code Sec. 7-2-33, Landscaping requirements (Ord. 480, 2000; codified through Ord. 668, Nov. 20, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "20",
+      "30"
+    ],
+    "notes": "Artificial turf is not named in the allowable-materials list; whether the Town treats it as groundcover, a decorative element or neither is not stated. Hedge."
+  },
+  {
+    "id": "eaton-co.code-parking-and-coverage",
+    "layer": "ordinance",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Eaton requires at least 5% of every parking lot to be landscaped with 1 tree per 8 spaces, 25% of them mature and the rest at least 15 gallons, caps impervious coverage at 80% in the C-1, C-2, HC and R-MU districts, and requires at least 20% of each C-1 and R-MU site to be landscaped.",
+    "quote": "(a) A minimum of five (5%) percent of all parking lots shall be landscaped. Such landscaping may occur on the perimeter or on parking islands within the lot. (b) A minimum of (1) tree shall be provided for every eight (8) parking spaces. A minimum of twenty-five percent (25%) of required trees shall be mature and the remaining shall be a minimum of fifteen (15) gallons in size. … [C-1, C-2, HC, R-MU] Maximum impervious coverage: 80%. … [C-1 and R-MU] At least twenty percent (20%) of each site shall be landscaped.",
+    "source_url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIIPLZORE_SIIZOOR_ARTIIIGEDEST_S7-2-32PALOLA",
+    "source_label": "Eaton Municipal Code Sec. 7-2-32, Parking lot landscaping, and Secs. 7-2-20 to 7-2-23, commercial district dimensional requirements (codified through Ord. 668, Nov. 20, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5",
+      "1",
+      "8",
+      "25",
+      "15",
+      "80",
+      "20",
+      "2"
+    ],
+    "notes": "The I-1 district caps impervious coverage at 70% (Sec. 7-2-24)."
+  },
+  {
+    "id": "eaton-co.code-7-13-1-by-reference",
+    "layer": "ordinance",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Eaton's turf section takes its definitions of nonfunctional turf, nonfunctional artificial turf, new development and redevelopment from state law as it may be amended, and from January 1, 2028 applies its ban to any portion of covered property that includes multifamily housing.",
+    "quote": "(a) The terms nonfunctional turf, nonfunctional artificial turf, invasive plant species, multifamily residential housing premises property, new development project and redevelopment project shall have the meanings set forth in § 37-99-102, C.R.S., as may be amended from time to time; (b) The term applicable property shall mean, and shall be amended from time to time as amended by state law to mean: … (b) Commencing on and after January 1, 2028, the prohibition set forth in subsection (a) above shall apply to any portion of applicable properties that include multifamily residential housing premises property.",
+    "source_url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIIPLZORE_SXIIINOTUNOARTUINPLSP",
+    "source_label": "Eaton Municipal Code Secs. 7-13-1 and 7-13-2(b) (Ord. 668, 2025; codified through Nov. 20, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "2028"
+    ],
+    "notes": "Because the definitions follow C.R.S. 37-99-102 as amended, HB25-1113's functional-turf definition (layer co-hb25-1113-functional-turf) applies in Eaton without a new ordinance. That is a reading of the incorporation-by-reference wording; label summaries Not legal advice."
+  },
+  {
+    "id": "eaton-co.code-7-2-46-park-land",
+    "layer": "ordinance",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Eaton requires new residential developments to dedicate at least 8% of their gross acreage as public land, to the Town or an HOA, and may require new commercial or industrial developments to dedicate 8% to the Town.",
+    "quote": "(1) New residential developments shall be required to dedicate to the Town (or to a homeowners' association) a portion of the site, which must be devoted to dedicated public land. The minimum dedication shall be eight percent (8%) of gross acreage in the development. (2) All developments shall dedicate land (or payments in lieu thereof) for parks, open space and other public purposes. … (3) New commercial or industrial developments may be required to dedicate a minimum of eight percent (8%) of the gross acreage to be developed to the Town for public purposes.",
+    "source_url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIIPLZORE_SIIZOOR_ARTVADPR_S7-2-46FEDE",
+    "source_label": "Eaton Municipal Code Sec. 7-2-46(d), Public land dedication (Ord. 480, 2000; codified through Ord. 668, Nov. 20, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "8"
+    ],
+    "notes": "The 2024 Parks Master Plan describes a 7% subdivision dedication; the zoning code quoted here says 8%. Pages use the code."
+  },
+  {
+    "id": "eaton-co.code-9-6-8-park-water",
+    "layer": "ordinance",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Eaton's water dedication rules ask developers for 2.5 acre-feet of water per acre of irrigated park, open space or recreational use, and for water rights sufficient to irrigate any park or open-space land dedicated to the Town.",
+    "quote": "(6) Irrigated parks, open spaces, or recreational uses. For irrigated parks, open spaces and recreational uses, the owner shall dedicate 2.5 acre-feet of water per acre. … (1) If land is dedicated to the Town for park, open space or recreation uses, the owner shall dedicate water rights sufficient to irrigate said land.",
+    "source_url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHIXWASE_SVIWARIDE",
+    "source_label": "Eaton Municipal Code Secs. 9-6-8(6) and 9-6-9(1), Water rights dedication (Ord. 635, 2023; codified through Ord. 668, Nov. 20, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2.5"
+    ],
+    "notes": "The code does not say whether a synthetic field on dedicated land counts as an irrigated recreational use. Hedge; ask Eaton Planning."
+  },
+  {
+    "id": "eaton-co.code-9-5-7-nonpotable-required",
+    "layer": "ordinance",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Where a nonpotable water system is installed in Eaton, all lot irrigation other than house-attached hose bibs must connect to it, and no one may use potable water for lot irrigation unless the Town permits it.",
+    "quote": "In all subdivisions or parts of Town where a nonpotable water system is installed, use of such system shall be required for all lot irrigation. All lot irrigation systems other than house-attached hose bibs must be connected to the nonpotable irrigation tap. When a nonpotable water system is installed, no person shall use potable water for lot irrigation unless otherwise permitted by the Town.",
+    "source_url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHIXWASE_SVNOWASE_S9-5-7NOSYUSRE",
+    "source_label": "Eaton Municipal Code Sec. 9-5-7, Nonpotable system use required (Ord. 640, 2024; codified through Ord. 668, Nov. 20, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "eaton-co.watering-rules",
+    "layer": "utility",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Eaton's posted watering rules bar residential customers, potable and non-potable alike, from watering between 10 a.m. and 6 p.m., set even- and odd-address watering days, run the Town's non-potable systems from April 15 to October 15, and have HOAs water common areas every other day unless the Town Administrator approves another schedule, without giving common areas watering hours of their own.",
+    "quote": "Both non-potable irrigation customers and customers on potable water within the Town of Eaton have the following watering restrictions: No watering between the hours of 10 a.m. and 6 p.m. Residences with even-numbered addresses shall water on Mondays, Wednesdays and Fridays of each week and residences with odd-numbered addresses shall water on Tuesdays, Thursdays and Saturdays of each week. … Non-potable systems run from April 15 to October 15 each year. … The homeowners association, whether using potable or non-potable water, shall irrigate the common areas every other day and may alternate the watering schedule for the common areas within a particular development, provided each common area is only watered every other day. Alternatively, the homeowner's association may submit an application to the Town with a preferred watering schedule for the common areas for consideration by the Town Administrator.",
+    "source_url": "https://web.archive.org/web/20260429165559/https://www.eatonco.org/water-restrictions",
+    "source_label": "Town of Eaton, Water Restrictions page (Resolutions 2019-07 and 2019-08), Internet Archive capture of April 29, 2026",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [
+      "10",
+      "6",
+      "15"
+    ],
+    "recheck": "2027-04-01",
+    "notes": "eatonco.org answers automated fetches with a Cloudflare challenge (403 on 2026-09-25), so this is the Internet Archive copy of the Town's page, read verbatim. Same wording as the June 2024 capture. It updates the shared record eaton-2026-status-unverified (drought-2026.json), which this writer does not edit."
+  },
+  {
+    "id": "eaton-co.parks-plan-ten-parks",
+    "layer": "place",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Eaton's 2024 Parks Master Plan, adopted June 13, 2024, counts 10 Town parks covering about 44 acres and says Eaton School District RE-2 school playgrounds are open to residents outside school hours under joint-use scheduling.",
+    "quote": "The Town of Eaton maintains ten (10) public parks covering a total of approximately 44 acres. Other recreation facilities owned by Eaton School District RE-2 provide outdoor recreational opportunities for residents and children on school grounds during non-school hours. … School playgrounds are available for use to the town residents, and the town works with RE-2 Eaton School District to develop joint use schedules for parks and facilities that does not interfere with programmed school events and practices.",
+    "source_url": "https://web.archive.org/web/20240628215425/http://www.eatonco.org/media/6216",
+    "source_label": "Town of Eaton, 2024 Parks Master Plan (adopted June 13, 2024), Internet Archive copy of eatonco.org/media/6216",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "13",
+      "2024",
+      "10",
+      "44",
+      "2"
+    ],
+    "notes": "The live eatonco.org sits behind a Cloudflare challenge; the adopted plan PDF was read in full from the Internet Archive capture of 2024-06-28 (the Town's own document)."
+  },
+  {
+    "id": "eaton-co.parks-plan-preferred",
+    "layer": "place",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Residents surveyed for Eaton's 2024 Parks Master Plan listed shade trees, trails, playground equipment, a dog park and a tot lot among their preferred park improvements, and none of the plan's park descriptions mentions an existing dog park.",
+    "quote": "TOP 10 PREFERRED PARK IMPROVEMENTS Shade Trees Trails Playground Equipment Shelters Seating / Tables Volleyball Dog Park Basketball Court Tot Lot Plaza / Event Space Skate Park Splash Pad",
+    "source_url": "https://web.archive.org/web/20240628215425/http://www.eatonco.org/media/6216",
+    "source_label": "Town of Eaton, 2024 Parks Master Plan (adopted June 13, 2024), Internet Archive copy of eatonco.org/media/6216",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2024",
+      "10"
+    ],
+    "notes": "'None mentions an existing dog park' was checked by reading every park description in the plan on 2026-09-25 (the only other dog references are dog waste stations at Eaton Commons Park). Survey dates: Sept. 26–Oct. 16, 2023 and Dec. 29, 2023–Jan. 26, 2024."
+  },
+  {
+    "id": "eaton-co.parks-plan-playgrounds",
+    "layer": "place",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Eaton's 2024 Parks Master Plan describes the playgrounds at Maplewood Park, Hawkstone Park and the park north of Collins Street, off Walnut Court and 500 feet east of the new Eaton High School, as built for 2- to 10-year-olds, gives no age range for the City Park playground, and recommends an upgraded playground at City Park, the oldest Town park, just north of Eaton Middle School.",
+    "quote": "CITY PARK … Current active uses: Playground, Horseshoe pits, Ball field with all grass, Other grass activities … Recommendations: Upgraded Playground … City Park is the oldest town park … City Park sits directly north of the newest location for Eaton Middle School. … MAPLEWOOD PARK … There is a newer playground (2-10 year olds) … CENTENNIAL PARK … It also includes an outdoor sports court, a playground (for 2- to 10-year-olds) … Context: Located north of Collins Street, Centennial Park can also be accessed by the parking lot off of Walnut Court. … The park is 500 feet east of the new Eaton High School … HAWKSTONE PARK … Current active uses: playground (for 2-10 year olds)",
+    "source_url": "https://web.archive.org/web/20240628215425/http://www.eatonco.org/media/6216",
+    "source_label": "Town of Eaton, 2024 Parks Master Plan (adopted June 13, 2024), Internet Archive copy of eatonco.org/media/6216",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2024",
+      "2",
+      "10",
+      "500"
+    ],
+    "notes": "Rechecked 2026-09-25 against the Internet Archive PDF (pdftotext drops hyphens, e.g. \"(210 year olds)\"). The plan names the Collins Street park after a Denver-metro town, which the site never prints, so pages call it \"the park north of Collins Street\". An earlier draft called it \"the park at Cherry Avenue and Collins Street\"; the plan never names Cherry Avenue, so that label was cut. The plan also lists Eaton Commons Park's playground for 2- to 10-year-olds (eaton-co.eaton-commons-park)."
+  },
+  {
+    "id": "eaton-co.hawkstone-park",
+    "layer": "place",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Hawkstone Park is a 13-acre community park at the center of the Hawkstone neighborhood, with a 2-acre pond and a playground, irrigated from the Town water system and near the Eaton Country Club.",
+    "quote": "Acreage: 13.0 acres Irrigation Source: Town water system (smart remote control) … Hawkstone Park is in the center of the Hawkstone residential community, which began the development of new homes and the new park in 1995. It serves the community and town residents with a 2-acre pond in the middle of the park, a playground, and large amounts of open grass/turf areas. … This park is near the Eaton Country Club and Golf Course, which began its golf course history in 1923.",
+    "source_url": "https://web.archive.org/web/20240628215425/http://www.eatonco.org/media/6216",
+    "source_label": "Town of Eaton, 2024 Parks Master Plan (adopted June 13, 2024), Internet Archive copy of eatonco.org/media/6216",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "13",
+      "13.0",
+      "2",
+      "1995",
+      "1923"
+    ]
+  },
+  {
+    "id": "eaton-co.eaton-commons-park",
+    "layer": "place",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Eaton Commons Park is a 14-acre neighborhood park on the east side of town irrigated with non-potable well water, with two practice ball fields, youth football and soccer practice space, a playground for 2- to 10-year-olds and a dog waste station, and the 2024 plan recommends adding play equipment for ages 13 and up and a second dog station.",
+    "quote": "Acreage: 14 acres Irrigation source: Non-Potable water (well) (smart remote control) … Eaton Commons Park is located on the eastern side of town … It serves the community with a large grass area that is used for children's football, baseball/softball, and soccer practices on two fields and a playground (for 2 to 10-year-olds). … Among these are two practice ball fields complete with backstops and basic team benches, facilitating recreational sports activities. … visitors benefit from convenient amenities such as a designated dog waste station … Playground Equipment (13+): It's recommended to include play equipment for residents aged 13 and above to engage this older demographic effectively. … PHASE ONE RECOMMENDATIONS … Existing Dog Waste Station … Proposed Dog Station",
+    "source_url": "https://web.archive.org/web/20240628215425/http://www.eatonco.org/media/6216",
+    "source_label": "Town of Eaton, 2024 Parks Master Plan (adopted June 13, 2024), Internet Archive copy of eatonco.org/media/6216",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "14",
+      "2",
+      "10",
+      "13",
+      "2024"
+    ]
+  },
+  {
+    "id": "eaton-co.parks-plan-irrigation",
+    "layer": "place",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Eaton's 2024 Parks Master Plan lists non-potable well water as the irrigation source for City Park, Maplewood Park and Eaton Commons Park, non-potable water for the park north of Collins Street, and the Town water system for Hawkstone Park.",
+    "quote": "CITY PARK … Irrigation source: Non-Potable water (well) … MAPLEWOOD PARK … Irrigation source: Non-Potable water (well) (smart remote control) … CENTENNIAL PARK Category: Neighborhood Park Acreage: 3.2 acres Irrigation source: Non-Potable water … HAWKSTONE PARK … Irrigation Source: Town water system (smart remote control) … [EATON COMMONS PARK] Irrigation source: Non-Potable water (well) (smart remote control)",
+    "source_url": "https://web.archive.org/web/20240628215425/http://www.eatonco.org/media/6216",
+    "source_label": "Town of Eaton, 2024 Parks Master Plan (adopted June 13, 2024), Internet Archive copy of eatonco.org/media/6216",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2024",
+      "3.2"
+    ],
+    "notes": "The Collins Street park carries a Denver-metro town's name in the plan; pages call it \"the park north of Collins Street\". An earlier draft placed it at Cherry Avenue, which the plan never names; corrected 2026-09-25."
+  },
+  {
+    "id": "eaton-co.eaprd-athletic-complex",
+    "layer": "place",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "The Eaton Area Park and Recreation District's athletic complex has four baseball fields, two batting cages and one large multipurpose field for rent, and the district allows no dogs on its campus.",
+    "quote": "The Eaton Area Athletic Complex (EAAC) consists of two baseball fields at 375′ fences, two baseball fields at 300′ fences, two batting cages, and one large multipurpose field. Fields and batting cages are available for private and/or tournament rental use. … Please note: no dogs are allowed on the EAPRD Campus.",
+    "source_url": "https://www.eaprd.com/eaton-area-athletic-complex",
+    "source_label": "Eaton Area Park and Recreation District, Eaton Area Athletic Complex",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "375",
+      "300"
+    ],
+    "notes": "The page does not say whether the multipurpose field is grass or synthetic."
+  },
+  {
+    "id": "eaton-co.ehs-synthetic-field",
+    "layer": "place",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Eaton High School's synthetic turf field covers about 89,982 square feet and was installed in 2022 over a shock pad, according to the pad maker's project list.",
+    "quote": "Eaton School District – Eaton High School Eaton, Colorado … Infill: BrockFILL Product: Brockfill + YSR Region: West Size: 89,982 sq ft Installation Date: 2022",
+    "source_url": "https://www.brockusa.com/projects/eaton-school-district-eaton-high-school/",
+    "source_label": "Brock USA project list: Eaton School District, Eaton High School",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [
+      "89982",
+      "2022"
+    ],
+    "notes": "A supplier's project page, not the district's. YSR is the maker's shock-pad line (the site's own menu: 'PowerbaseYSR Shockpad Series'). The page also names the designer, builder and turf maker; pages do not name other installers."
+  },
+  {
+    "id": "eaton-co.country-club-history",
+    "layer": "place",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "The Eaton Country Club began in 1923 as a sand-green course, set aside money for grass greens in 1964 and opened its second nine holes in 1978.",
+    "quote": "Founded in 1923, the Club has evolved first from a dry land farm to a sand green course, and then from a nine hole grass green course to finally the superior 18-hole facility it is today. … The original golf course was located across County Road 39 from our present location. … In 1964, $600 was appropriated to build a course that had grass greens. … In 1978, the course opened the second nine holes to make the 18-hole championship course.",
+    "source_url": "https://eatoncc.net/club-history/",
+    "source_label": "Eaton Country Club, History of ECC",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1923",
+      "18",
+      "39",
+      "1964",
+      "600",
+      "1978"
+    ]
+  },
+  {
+    "id": "eaton-co.country-club-about",
+    "layer": "place",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "The Eaton Country Club at 37661 County Road 39 describes itself as a private club with an 18-hole, par 71 course, a practice range and sand areas.",
+    "quote": "Our members enjoy access to a private club … Eaton Country Club is a full-service facility that offers an 18-hole, 6788-yard, par 71 golf course complete with a practice range and sand areas. … Location 37661 Co Rd 39, Eaton, CO 80615",
+    "source_url": "https://eatoncc.net/about-us/",
+    "source_label": "Eaton Country Club, About Us",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "37661",
+      "39",
+      "18",
+      "6788",
+      "71",
+      "80615"
+    ],
+    "notes": "The club's history page gives 6,440 yards; pages quote neither yardage."
+  },
+  {
+    "id": "eaton-co.country-club-course-notes",
+    "layer": "place",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "The Eaton Country Club's hole notes say its 8th hole normally plays into a prevailing north wind and its 2nd has a tiered green more than 40 yards long.",
+    "quote": "Hole 2 … The green is over 40 yards long. Club selection is important. In order to make par on this hole you must be on the same tier that the pin is on with your tee shot. … Hole 8 … This hole normally plays into the teeth of a prevailing north wind to one of the most difficult greens on the golf course.",
+    "source_url": "https://eatoncc.net/course-tour/",
+    "source_label": "Eaton Country Club, Course Tour",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "40",
+      "8"
+    ]
+  },
+  {
+    "id": "eaton-co.country-club-parcel",
+    "layer": "place",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "The Eaton Country Club's 122-acre parcel lies just outside Eaton's town limits in unincorporated Weld County, and 37 house parcels inside the town border it: 21 in Hawkstone's fifth filing, 10 in Hawkstone and 6 in the Retreat at Hawkstone.",
+    "quote": "Colorado Public Parcels, parcel 070930100004: owner EATON COUNTRY CLUB · situs 37661 CR 39 WELD · landAcres 122.29 · landUseDsc Commercial. TIGERweb Incorporated Places (current) at the parcel's center: no incorporated place; control point at Hawkstone Park: Eaton town (0822860). Parcels intersecting the club parcel within 3 m with situs EATON and land use Residential: 37 (HAWKSTONE SUB 5TH FG 21 · HAWKSTONE SUB 10 · RETREAT AT HAWKSTONE SUB 6).",
+    "source_url": "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query",
+    "source_label": "Colorado Public Parcels (statewide parcel file) with Census TIGERweb Incorporated Places, queried September 25, 2026: Eaton Country Club parcel and the house parcels bordering it",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "122",
+      "37",
+      "21",
+      "10",
+      "6",
+      "5",
+      "070930100004",
+      "37661",
+      "39",
+      "122.29",
+      "0822860",
+      "3"
+    ],
+    "notes": "Computed 2026-09-25: parcel query by owner, a 3 m spatial intersect for neighbours, and https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Current/MapServer/28 point-in-polygon tests. A methodology result, not a county statement; say 'the statewide parcel file shows'."
+  },
+  {
+    "id": "eaton-co.hawkstone-golf-cart",
+    "layer": "housing",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "A builder's listing for Hawkstone says the neighborhood sits next to the Eaton Country Club and offers residents golf cart access.",
+    "quote": "Hawkstone is located in the rural community of Eaton, Colorado. Offering something for everyone, Hawkstone sits adjacent to the Eaton Country Club and offers residents golf cart access.",
+    "source_url": "https://firstwalk.com/community/hawkstone/",
+    "source_label": "FirstWalk community listing for Hawkstone (Baessler Homes)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [],
+    "notes": "A home builder's marketing listing; the terms of any cart access are not stated."
+  },
+  {
+    "id": "eaton-co.governors-ranch-front-sod-acc",
+    "layer": "housing",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Governor's Ranch's 2001 declaration requires each lot's front yard to be sodded with grass, and its design standards require written Architectural Control Committee approval of all landscaping before an owner applies to the Town.",
+    "quote": "Section 8: Sod. The front yard of each Lot shall be sodded with grass sod within the time periods provided in Article XI, Section 2. … Within Governor's Ranch, all exterior improvements made to single family residences, all landscaping, and/or ancillary uses constructed, altered, and/or modified on any Lot shall be designed and built in accordance with the Architectural Design Standards. … If ACC Approval is required, a complete formal submittal to the ACC must be approved in writing by the ACC prior to the applicant's applying to the Town of Eaton for review or approval, and/or building permit issuance and commencement of construction.",
+    "source_url": "https://web.archive.org/web/20150421034928/http://www.eatongovernorsranch.com/covenants/Declarations%20of%20Covenants.pdf",
+    "source_label": "Governor's Ranch Declaration of Covenants (Weld County Reception No. 2844347, recorded April 30, 2001) and First Amendment (Reception No. 2991451, Sept. 30, 2002), Internet Archive copy of the developer's PDF",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [
+      "2001"
+    ],
+    "notes": "Scanned PDF (72 pages, landscape-rotated) read page by page on 2026-09-25 from the Internet Archive capture of the developer's site; the live site no longer answers. The ACC may have amended its standards since 2002, and later filings may carry their own rules. Pages say so and send readers to the HOA."
+  },
+  {
+    "id": "eaton-co.governors-ranch-nonpotable",
+    "layer": "housing",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Governor's Ranch's declaration requires a timed automatic sprinkler system on each lot and common area served by the Town-run nonpotable well-water system, and says no lot owner may abandon use of that water to irrigate the lot.",
+    "quote": "The developer shall design and construct a nonpotable water system (\"System\") to deliver dedicated well water to all Lots and Common Areas. This shall not include the sprinkler system to irrigate the Lot. This System requires each Lot and Common Area to have a timed automatic sprinkler system. … The Town of Eaton shall operate, maintain, repair, and replace the System as reasonably required to deliver nonpotable water to the Lots and shall assess each Lot for the nonpotable water delivery. No Lot shall be exempt from assessment by the Town of Eaton and no Lot Owner may abandon use of the nonpotable water to irrigate the Lot.",
+    "source_url": "https://web.archive.org/web/20150421034928/http://www.eatongovernorsranch.com/covenants/Declarations%20of%20Covenants.pdf",
+    "source_label": "Governor's Ranch Declaration of Covenants (Weld County Reception No. 2844347, recorded April 30, 2001) and First Amendment (Reception No. 2991451, Sept. 30, 2002), Internet Archive copy of the developer's PDF",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [],
+    "notes": "Scanned PDF (72 pages, landscape-rotated) read page by page on 2026-09-25 from the Internet Archive capture of the developer's site; the live site no longer answers. The ACC may have amended its standards since 2002, and later filings may carry their own rules. Pages say so and send readers to the HOA."
+  },
+  {
+    "id": "eaton-co.governors-ranch-dog-runs",
+    "layer": "housing",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Governor's Ranch's recorded fence standards allow no front-yard fencing, limit fences between neighbors to vinyl styles 36 or 48 inches high depending on the lot, and require dog runs of wrought iron or ivory vinyl no more than 4 feet high, with no chain link.",
+    "quote": "Fencing in front yards shall not be allowed. … Two-rail vinyl fencing not exceeding thirty-six (36) inches in height on … will be allowed. Colonial, Dynasty, or Shadowbox fencing, Ivory in color, as offered by Heritage Vinyl Products, not exceeding forty-eight (48) inches in height, will be allowed on … All dog runs shall be constructed of wrought iron or \"Ivory\" vinyl fencing, not to exceed four (4) feet in height as approved by the ACC. No chain link or similar materials may be used.",
+    "source_url": "https://web.archive.org/web/20150421034928/http://www.eatongovernorsranch.com/covenants/Declarations%20of%20Covenants.pdf",
+    "source_label": "Governor's Ranch Declaration of Covenants (Weld County Reception No. 2844347, recorded April 30, 2001) and First Amendment (Reception No. 2991451, Sept. 30, 2002), Internet Archive copy of the developer's PDF",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [
+      "36",
+      "48",
+      "4"
+    ],
+    "notes": "Scanned PDF (72 pages, landscape-rotated) read page by page on 2026-09-25 from the Internet Archive capture of the developer's site; the live site no longer answers. The ACC may have amended its standards since 2002, and later filings may carry their own rules. Pages say so and send readers to the HOA. Quote from Amended Exhibit E (First Amendment, 2002)."
+  },
+  {
+    "id": "eaton-co.governors-ranch-household-pets",
+    "layer": "housing",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Governor's Ranch's declaration permits household pets on any lot if they are leashed, chained, fenced within the lot or under the owner's control, and bars keeping or breeding them for commercial purposes.",
+    "quote": "Section 5: Household Pets. Household pets, such as dogs and cats, shall be permitted on any Lot, provided that said pets are restricted by leash or chain or confined by fence within the Lot or are properly trained and are at all times within the control of and controlled by the Owner. Household pets may not be kept, bred, or maintained on any Lot for commercial purposes.",
+    "source_url": "https://web.archive.org/web/20150421034928/http://www.eatongovernorsranch.com/covenants/Declarations%20of%20Covenants.pdf",
+    "source_label": "Governor's Ranch Declaration of Covenants (Weld County Reception No. 2844347, recorded April 30, 2001) and First Amendment (Reception No. 2991451, Sept. 30, 2002), Internet Archive copy of the developer's PDF",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [],
+    "notes": "Scanned PDF (72 pages, landscape-rotated) read page by page on 2026-09-25 from the Internet Archive capture of the developer's site; the live site no longer answers. The ACC may have amended its standards since 2002, and later filings may carry their own rules. Pages say so and send readers to the HOA."
+  },
+  {
+    "id": "eaton-co.governors-ranch-no-sheds",
+    "layer": "housing",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Governor's Ranch's design standards require at least a two-car garage and bar detached garages, storage sheds, garden houses and other buildings on a lot.",
+    "quote": "Garages A minimum of a two-car garage is required. No detached garages, storage sheds, garden houses, or building shall be constructed on a Lot.",
+    "source_url": "https://web.archive.org/web/20150421034928/http://www.eatongovernorsranch.com/covenants/Declarations%20of%20Covenants.pdf",
+    "source_label": "Governor's Ranch Declaration of Covenants (Weld County Reception No. 2844347, recorded April 30, 2001) and First Amendment (Reception No. 2991451, Sept. 30, 2002), Internet Archive copy of the developer's PDF",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [],
+    "notes": "Scanned PDF (72 pages, landscape-rotated) read page by page on 2026-09-25 from the Internet Archive capture of the developer's site; the live site no longer answers. The ACC may have amended its standards since 2002, and later filings may carry their own rules. Pages say so and send readers to the HOA. Same wording in Exhibit 1 (2001) and Amended Exhibit 1 (2002, Second Filing); the Phase 3 standards (Third Filing) keep the no-detached-buildings sentence and prefer three-car garages."
+  },
+  {
+    "id": "eaton-co.governors-ranch-play-items",
+    "layer": "housing",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Governor's Ranch's design standards list playhouses, swing sets, dog houses and basketball hoops among items allowed with Architectural Control Committee approval, and ask for cut sheets of play equipment with a submittal.",
+    "quote": "Items allowable with approval: Storm doors, basketball hoops, playhouses, dog houses, swing sets, special site lighting, firewood storage, change in color scheme. … Provide the ACC with two sets of plans showing site location and proposed materials, plus cut sheets for lights, play equipment, and solar collectors. Color samples, where appropriate, must accompany the submittal. Plans can be simple as a sketch, or may be professional drawings. … Ancillary Improvements. Any covenant approved ancillary improvements on the Lot, such as dog runs.",
+    "source_url": "https://web.archive.org/web/20150421034928/http://www.eatongovernorsranch.com/covenants/Declarations%20of%20Covenants.pdf",
+    "source_label": "Governor's Ranch Declaration of Covenants (Weld County Reception No. 2844347, recorded April 30, 2001) and First Amendment (Reception No. 2991451, Sept. 30, 2002), Internet Archive copy of the developer's PDF",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [],
+    "notes": "Scanned PDF (72 pages, landscape-rotated) read page by page on 2026-09-25 from the Internet Archive capture of the developer's site; the live site no longer answers. The ACC may have amended its standards since 2002, and later filings may carry their own rules. Pages say so and send readers to the HOA. 'Items allowable with approval' is from Amended Exhibit 1 (2002)."
+  }
+]

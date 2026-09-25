@@ -1,0 +1,181 @@
+{
+  "status": "draft",
+  "town": "eaton-co",
+  "service": "putting-greens",
+  "title": "Backyard Putting Greens in Eaton, CO | NoCo Turf Co.",
+  "description": "37 Eaton house lots border the private Eaton Country Club. What Governor's Ranch covenants and Eaton's open-space rules mean for a backyard green.",
+  "h1": "37 Eaton house lots back onto the Eaton Country Club, a private golf club dating to 1923",
+  "display": {
+    "paint": "back onto the Eaton Country Club"
+  },
+  "lede": "The course sits just outside the town line, and Hawkstone and the Retreat at Hawkstone run right up to it. A green in your own yard answers to other things: your HOA's covenants, the Town's open-space minimums and the Town's watering days for the lawn around the fringe.",
+  "answer": {
+    "question": "Can I put a putting green in my Eaton backyard?",
+    "answer": "Usually, yes. Eaton's zoning code doesn't mention putting greens; what it sets is a minimum share of each house lot kept as livable open space, from 15% to 40% by district. Governor's Ranch keeps front yards in sod and routes landscaping through its design committee. Ask NoCo Turf Co. about a backyard putting green for an Eaton lot."
+  },
+  "blocks": [
+    {
+      "kind": "golf",
+      "own": true,
+      "kicker": "Eaton Country Club",
+      "h2": "The course beside Hawkstone dates to 1923 and is a private club today.",
+      "takeaway": "Eaton's golf course is private, and it shares a boundary with 37 house lots inside the town.",
+      "paras": [
+        "The Eaton Country Club dates to 1923 and played first on sand greens; it set money aside for grass greens in 1964 and opened its second nine in 1978. Today it calls itself a private club, with 18 holes to par 71, a practice range and sand areas, on County Road 39.",
+        "Its 122-acre parcel lies just outside the town limits, in unincorporated Weld County. The statewide parcel file shows 37 house lots inside Eaton bordering it: 21 in Hawkstone's fifth filing, 10 in Hawkstone and 6 in the Retreat at Hawkstone. A builder's listing for Hawkstone mentions golf cart access to the club.",
+        "The Town's 2024 parks plan notes the course sits near Hawkstone Park, the 13-acre park at the middle of that neighborhood."
+      ],
+      "layerRefs": [
+        "eaton-co.country-club-history",
+        "eaton-co.country-club-about",
+        "eaton-co.country-club-parcel",
+        "eaton-co.hawkstone-golf-cart",
+        "eaton-co.hawkstone-park",
+        "eaton-co.country-club-course-notes"
+      ],
+      "sources": [
+        "https://eatoncc.net/club-history/",
+        "https://eatoncc.net/about-us/",
+        "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query",
+        "https://firstwalk.com/community/hawkstone/",
+        "https://web.archive.org/web/20240628215425/http://www.eatonco.org/media/6216",
+        "https://eatoncc.net/course-tour/"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Governor's Ranch",
+      "h2": "Governor's Ranch keeps front yards in sod and every lot on the sprinklers.",
+      "paras": [
+        "The Governor's Ranch declaration, recorded in 2001, says the front yard of each lot is to be sodded with grass. All landscaping on a lot has to follow the neighborhood's design standards, which the Architectural Control Committee administers, and where those standards call for committee approval, the committee has to sign off in writing before the owner applies to the Town for review or a permit.",
+        "The same declaration ties every lot to the Town-run nonpotable well-water system: each lot needs a timed automatic sprinkler system, no lot is exempt from the Town's charge for that water, and no owner may abandon using it to irrigate the lot. Eaton's code backs that from the Town's side, requiring all lot irrigation other than house-attached hose bibs to run on the nonpotable tap wherever one is installed.",
+        "So in Governor's Ranch a green belongs in the back, with the lawn around it still watering on the Town's days. The covenants on file date from 2001 and 2002, and the committee can amend its standards; ask the HOA for the current set before you draw the green."
+      ],
+      "layerRefs": [
+        "eaton-co.governors-ranch-front-sod-acc",
+        "eaton-co.governors-ranch-nonpotable",
+        "eaton-co.code-9-5-7-nonpotable-required",
+        "eaton-co.watering-rules",
+        "co-hoa-backyard-detached"
+      ],
+      "sources": [
+        "https://web.archive.org/web/20150421034928/http://www.eatongovernorsranch.com/covenants/Declarations%20of%20Covenants.pdf",
+        "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHIXWASE_SVNOWASE_S9-5-7NOSYUSRE",
+        "https://web.archive.org/web/20260429165559/https://www.eatonco.org/water-restrictions",
+        "https://leg.colorado.gov/bill_files/92307/download"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Livable open space",
+      "h2": "Eaton reserves a minimum share of every house lot as open space.",
+      "paras": [
+        "Livable open space has to cover at least 20% of the lot in the R-1 and R-2 districts, 15% in R-3 and 40% in R-EH, the estate district where lots start at 21,780 square feet.",
+        "The zoning code defines open space as the part of a site not covered by buildings, parking, driveways or other impervious surfaces, and it names lawn areas and outdoor recreation facilities among what open space may hold. Areas covered with materials impervious to water count as impervious surface instead.",
+        "Where a putting green falls between those two lists, the code doesn't say. A green on a big lot is a small share of the yard; on a tight R-3 lot, or with a green plus a patio and a shed, it depends on the numbers, so ask Eaton Planning."
+      ],
+      "layerRefs": [
+        "eaton-co.code-open-space-minimums",
+        "eaton-co.code-7-2-48-open-space-def",
+        "eaton-co.code-6-1-1-permit-exempt",
+        "eaton-co.governors-ranch-no-sheds"
+      ],
+      "sources": [
+        "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIIPLZORE_SIIZOOR_ARTIIDIRE",
+        "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIIPLZORE_SIIZOOR_ARTVADPR_S7-2-48DE",
+        "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIBURE_SIBUCO_S6-1-1INBUCO",
+        "https://web.archive.org/web/20150421034928/http://www.eatongovernorsranch.com/covenants/Declarations%20of%20Covenants.pdf"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When can the lawn around my green be watered in Eaton?",
+      "a": "Not between 10 a.m. and 6 p.m. Even-numbered addresses water Monday, Wednesday and Friday, odd-numbered addresses Tuesday, Thursday and Saturday, on potable or nonpotable water alike, and the Town's nonpotable systems run from April 15 to October 15. The [Eaton page](/areas/eaton-co/) covers which neighborhoods are on that system."
+    },
+    {
+      "q": "Does wind matter for a green in Eaton?",
+      "a": "It can. The Eaton Country Club's own hole notes say its 8th normally plays into a prevailing north wind. The [weather guides](/guides/weather/) cover gusts and what they do to a backyard green."
+    },
+    {
+      "q": "Can I put a shed beside the green?",
+      "a": "Not in Governor's Ranch, whose design standards bar detached garages, storage sheds, garden houses and other buildings on a lot. Elsewhere in Eaton, a one-story shed of up to 120 square feet with a roof no higher than 10 feet needs no building permit, though an HOA may still review it and the shed counts against open space."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Eaton Country Club, History of ECC (founded 1923; grass greens 1964; second nine 1978)",
+      "url": "https://eatoncc.net/club-history/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Eaton Country Club, About Us (private club, 18 holes, par 71)",
+      "url": "https://eatoncc.net/about-us/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Eaton Country Club, Course Tour (hole 8, prevailing north wind)",
+      "url": "https://eatoncc.net/course-tour/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Colorado Public Parcels (statewide parcel file) with Census TIGERweb Incorporated Places, queried September 25, 2026: the club's parcel and the 37 Eaton house lots bordering it",
+      "url": "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "FirstWalk community listing for Hawkstone (Baessler Homes)",
+      "url": "https://firstwalk.com/community/hawkstone/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Eaton, 2024 Parks Master Plan (adopted June 13, 2024), Internet Archive copy",
+      "url": "https://web.archive.org/web/20240628215425/http://www.eatonco.org/media/6216",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Governor's Ranch Declaration of Covenants (recorded April 30, 2001) and First Amendment (Sept. 30, 2002), Internet Archive copy of the developer's PDF",
+      "url": "https://web.archive.org/web/20150421034928/http://www.eatongovernorsranch.com/covenants/Declarations%20of%20Covenants.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Eaton Municipal Code Sec. 9-5-7, Nonpotable system use required (codified through Ord. 668, Nov. 20, 2025)",
+      "url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHIXWASE_SVNOWASE_S9-5-7NOSYUSRE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Eaton, Water Restrictions page, Internet Archive capture of April 29, 2026",
+      "url": "https://web.archive.org/web/20260429165559/https://www.eatonco.org/water-restrictions",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "SB23-178 signed act: C.R.S. 38-33.3-106.5(1)(i.5)",
+      "url": "https://leg.colorado.gov/bill_files/92307/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Eaton Municipal Code Secs. 7-2-17 to 7-2-19.1, residential district dimensional requirements",
+      "url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIIPLZORE_SIIZOOR_ARTIIDIRE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Eaton Municipal Code Sec. 7-2-48, Zoning definitions: open space, impervious surface area",
+      "url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIIPLZORE_SIIZOOR_ARTVADPR_S7-2-48DE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Eaton Municipal Code Sec. 6-1-1, International Building Code, 2024 Edition, as amended (sheds and playhouses up to 120 sq ft exempt)",
+      "url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIBURE_SIBUCO_S6-1-1INBUCO",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Putting greens you have built in Eaton (Hawkstone, the Retreat at Hawkstone, Governor's Ranch or elsewhere): month, rough size, number of cups, chipping fringe",
+    "Camera-original photos of an Eaton green: photos.ts has putting-green photos only from west and south of Windsor and west of Berthoud, none in or next to Eaton",
+    "Whether you have taken a green through the Governor's Ranch Architectural Control Committee or the Hawkstone HOA, and what their current landscaping rules say about turf",
+    "Confirmation that NoCo serves Eaton (the town page is still a draft)"
+  ]
+}

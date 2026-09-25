@@ -1,0 +1,178 @@
+{
+  "status": "draft",
+  "town": "dacono-co",
+  "service": "pet-turf",
+  "title": "Pet Turf and Dog Runs in Dacono, CO | NoCo Turf Co.",
+  "description": "Dacono limits a home to three dogs, bars dog breeding and boarding businesses, and wants waste picked up in your own yard. The rules a Dacono dog run must fit.",
+  "h1": "Dacono caps a household at three dogs and keeps dog breeding and boarding businesses out of the city.",
+  "display": {
+    "paint": "three dogs"
+  },
+  "lede": "Section 7-82 of the municipal code sets the ceiling at three dogs, three cats, or four of the two together, and Section 7-81 bars breeding, buying, selling or boarding dogs anywhere in Dacono. The same animal article reaches into the backyard: waste has to be picked up right away on private property too.",
+  "answer": {
+    "question": "How many dogs can I keep in Dacono?",
+    "answer": "Three, or four dogs and cats combined, under Section 7-82; a litter doesn't count until the puppies or kittens reach six months. A dog that gets out of the yard on its own is running at large, so the run's fence and gate matter as much as its surface. NoCo Turf Co. builds dog runs in Dacono, Colorado."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Secs. 7-82 and 7-81",
+      "h2": "Three dogs per home, and no kennel business inside city limits.",
+      "paras": [
+        "It is unlawful for the occupant of any Dacono premises to own or harbor more than three dogs, more than three cats, or more than four dogs and cats together. A litter is exempt until the young are six months old, and a feral cat colony at a feeding station approved under the City's trap-neuter-return program isn't counted.",
+        "Section 7-81 goes past a head count: breeding, buying, selling or boarding dogs, or training them for guard or sentry work, is unlawful within the city as a business or activity. The zoning chapter separately calls any premises harboring four or more animals over four months old a kennel. A Dacono dog run is for the household's own dogs."
+      ],
+      "layerRefs": [
+        "dacono-co.code-7-82-dog-limit",
+        "dacono-co.code-7-81-kennels-prohibited",
+        "dacono-co.code-16-51-kennel-defined"
+      ],
+      "sources": [
+        "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH7HESAAN_ART4AN_S7-82MANU",
+        "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH7HESAAN_ART4AN_S7-81KEPR",
+        "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH16ZO_ART2DE_S16-51KE"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Sec. 7-88",
+      "h2": "Dacono's pickup rule applies in your own backyard, and it applies right away.",
+      "paras": [
+        "The code makes it unlawful for an owner to let animal feces stay on any public or private property, and says the owner, or whoever has charge of the animal, picks it up and puts it in a trash receptacle immediately after the dog goes. The Police Department's Animal Control page spells out that the duty holds both on and off the owner's property.",
+        "There is no carve-out for a fenced run or a turf surface: wherever the dog goes, solids come up right away and go in the trash. How a turf run is built to rinse and drain is covered on the [pet turf page](/services/pet-turf/) and in the [pet guides](/guides/pets/)."
+      ],
+      "layerRefs": [
+        "dacono-co.code-7-88-feces",
+        "dacono-co.animal-control-page"
+      ],
+      "sources": [
+        "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH7HESAAN_ART4AN_S7-88FAPIUPDIFE",
+        "https://www.daconoco.gov/1002/Animal-Control"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Running at large",
+      "h2": "A dog may roam its own yard, but one that gets out by itself is running at large.",
+      "paras": [
+        "Section 7-77 lets animals run loose on the owner's premises. The definitions in Section 7-60 set the limit: a dog that leaves through its own efforts is running at large, and owners are responsible for foiling their pets' attempts to get out. Off the property, Section 7-74 requires a leash no longer than six feet, held by someone able to control the dog.",
+        "An owner who made reasonable provision to confine the dog isn't in violation when a third person lets it out. A dog picked up at large goes to an animal-care facility, and one not redeemed within five days is deemed abandoned. For a run, the fence height and the gate latch carry the legal weight."
+      ],
+      "layerRefs": [
+        "dacono-co.code-running-at-large",
+        "dacono-co.code-7-78-impound",
+        "dacono-co.code-7-68-dog-license",
+        "dacono-co.code-7-70-rabies",
+        "dacono-co.code-7-75-disturbing-peace"
+      ],
+      "sources": [
+        "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH7HESAAN_ART4AN"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Dog parks, Ord. 1016",
+      "h2": "Dacono's 2026 turf ordinance counts dog parks as functional turf.",
+      "paras": [
+        "Ordinance 1016, adopted May 11, 2026, wrote a definition of functional turf into Dacono's zoning chapter that names athletic fields, playgrounds and dog parks. On HOA common land, commercial sites and multifamily properties of 12 or more units, turf outside functional areas is now barred, which leaves a fenced dog area among the places turf can still go.",
+        "New apartment projects of 10 or more units must include at least one recreational amenity, and fenced off-leash pet areas are on the City's list. The City's parks page names pocket parks and the Clem Dufour splash park but no dog park, and its Animal Control page allows dogs off leash only in a designated off-leash area."
+      ],
+      "layerRefs": [
+        "dacono-co.ord-1016-definitions",
+        "dacono-co.ord-1016-functional-only",
+        "dacono-co.code-16-813-multifamily-amenities",
+        "dacono-co.city-parks-golf",
+        "dacono-co.animal-control-page"
+      ],
+      "sources": [
+        "https://www.daconoco.gov/AgendaCenter/ViewFile/Agenda/_05112026-528?packet=true",
+        "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH16ZO_ART31DESTREDE_S16-813MUDEST",
+        "https://www.daconoco.gov/942/City-Parks",
+        "https://www.daconoco.gov/1002/Animal-Control"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When does a Dacono dog license run out?",
+      "a": "Every April 30. Anyone who has kept a dog six months or older for four days needs a City license, the fee is paid each year and in full for any part of one, and no dog is licensed without proof of rabies vaccination."
+    },
+    {
+      "q": "Who handles barking and other animal complaints in Dacono?",
+      "a": "The Police Department's animal control officers. The code makes it unlawful to keep an animal that disturbs the neighborhood's peace, and the City's page adds biting, chasing, threatening and howling to the list of things a dog owner must prevent."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Dacono Municipal Code Sec. 7-82, Maximum number (codified through Ord. No. 1011, March 9, 2026)",
+      "url": "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH7HESAAN_ART4AN_S7-82MANU",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Dacono Municipal Code Sec. 7-81, Kennels prohibited",
+      "url": "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH7HESAAN_ART4AN_S7-81KEPR",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Dacono Municipal Code Sec. 16-51, Kennel (definition)",
+      "url": "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH16ZO_ART2DE_S16-51KE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Dacono Municipal Code Sec. 7-88, Failure to pick up and dispose of feces",
+      "url": "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH7HESAAN_ART4AN_S7-88FAPIUPDIFE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Dacono Municipal Code Chapter 7, Article 4, Animals: Secs. 7-60, 7-74, 7-77 to 7-79",
+      "url": "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH7HESAAN_ART4AN",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Dacono Municipal Code Sec. 7-68, dog license required; licenses expire April 30",
+      "url": "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH7HESAAN_ART4AN_S7-68LIEQ",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Dacono Municipal Code Sec. 7-70, proof of rabies vaccination required for a dog license",
+      "url": "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH7HESAAN_ART4AN_S7-70LIROVARE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Dacono Municipal Code Sec. 7-75, Animal disturbing peace prohibited",
+      "url": "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH7HESAAN_ART4AN_S7-75ANDIPEPR",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Dacono Police Department, Animal Control page",
+      "url": "https://www.daconoco.gov/1002/Animal-Control",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Dacono City Council packet, May 11, 2026, item GB-D: Ordinance 1016 (Sec. 16-43.5 functional turf; Sec. 16-656(d))",
+      "url": "https://www.daconoco.gov/AgendaCenter/ViewFile/Agenda/_05112026-528?packet=true",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Dacono Municipal Code Sec. 16-813(j)(1), multifamily recreational amenities",
+      "url": "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH16ZO_ART31DESTREDE_S16-813MUDEST",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Dacono, City Parks page",
+      "url": "https://www.daconoco.gov/942/City-Parks",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Dog runs NoCo has built in Dacono: subdivision, month, rough size, number and size of dogs, and how the run drains",
+    "Camera-original photos of a Dacono dog run for src/data/photos.ts (use pet); no photo on file carries that use",
+    "Any HOA, metro district or apartment dog area in Dacono NoCo has turfed or bid, and whether Dacono Planning reviewed it under Ordinance 1016",
+    "Any City or HOA off-leash area in Dacono Brian knows of; the City's pages name none"
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "status": "draft",
+  "town": "longmont-co",
+  "service": "playground-turf",
+  "title": "Playground Turf and Play Areas in Longmont, CO | NoCo Turf Co.",
+  "description": "New Longmont neighborhoods of 50+ homes must build pocket parks with play amenities, and new daycares face site review. Where playground turf fits in Longmont.",
+  "h1": "New Longmont neighborhoods of 50 or more homes must build pocket parks, with amenities such as playgrounds.",
+  "display": {
+    "paint": "pocket parks"
+  },
+  "lede": "Longmont's development code writes play space into new neighborhoods and, since August 2025, sends every new daycare site through city review before it opens. For a playset in an established backyard the code is silent; what follows are the rules that do reach play areas, and the city's own playgrounds.",
+  "answer": {
+    "question": "Does Longmont regulate turf under a backyard playset?",
+    "answer": "Not on an existing lot, as far as the city code shows. Longmont's turf limits apply to landscape plans for new development and redevelopment, and even there its code counts playgrounds as functional turf, the kind a plan may still include where it designates recreational use. New neighborhoods and daycares carry their own rules."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Pocket parks",
+      "h2": "Longmont asks for an acre of pocket park per 100 new houses, with play built in.",
+      "takeaway": "Section 15.05.040 requires pocket parks in residential developments of 50 or more units, at one acre for every 100 single-family or 200 multifamily units, unless at least half the homes are within a quarter-mile walk (1,320 feet) of an existing, or planned and fully funded, public neighborhood park.",
+      "paras": [
+        "The park has to hold amenities such as playgrounds, tot lots, playing fields, picnic areas or game courts, sized to the residents it serves. At least 75 percent of its landscaped area has to be irrigated, lower-water planting, and nonfunctional turf is prohibited. Playgrounds are on the code's list of functional turf, so turf under a pocket-park play structure is the kind the code still allows.",
+        "The 75 percent figure leaves out approved structures, non-landscaping amenities and hardscape, and the city's Design Standards, effective December 2025, say artificial grass can't be used to fulfill any landscaping requirement. So a turf play surface won't count toward the planted share; whether the site plan books it as an amenity outside the calculation, and how much planting the rest of the park then needs, depends on the plan. A developer should ask Longmont Planning before the park is drawn. Not legal advice."
+      ],
+      "layerRefs": [
+        "longmont-co.ldc-15-05-040-pocket-parks",
+        "longmont-co.ldc-15-10-020-turf-definitions",
+        "longmont-co.design-standards-605-02-q-no-artificial"
+      ],
+      "sources": [
+        "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.05DEST_S15.05.040LACOARST",
+        "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.10DE_S15.10.020ALOTTEDE",
+        "https://longmontcolorado.gov/wp-content/uploads/2026/07/Section-600.pdf"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Daycares",
+      "h2": "Since August 12, 2025, a new daycare site in Longmont goes through city review before it opens.",
+      "takeaway": "A commercial daycare established after that date needs site plan review, or a site plan waiver inside an existing building, and either way an environmental buffer study covering a 500-foot radius.",
+      "paras": [
+        "The study has to come from an environmental consultant, engineer or health specialist, and no daycare may open within 500 feet of a hazard the study finds unmitigated. A center's outdoor play yard sits on the site under review. Whether resurfacing an existing center's yard later calls for a new waiver isn't addressed in the section; it depends on the scope of the work, so ask Longmont Planning.",
+        "Home daycares carry lighter rules: the care has to happen in the provider's permanent residence, for no more than 12 children under 18 or eight adults, counting the household's own residents. Longmont's code sets no play-surface rule for either kind of daycare. Not legal advice."
+      ],
+      "layerRefs": [
+        "longmont-co.ldc-15-04-030-commercial-daycare",
+        "longmont-co.ldc-15-04-030-residential-daycare"
+      ],
+      "sources": [
+        "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.04USRE_S15.04.030UECST"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "City playgrounds",
+      "h2": "Longmont's neighborhood parks hold most of the city's playgrounds.",
+      "takeaway": "The city lists 25 neighborhood parks on 194 acres, which provide playgrounds among other amenities, and 6 community parks on 259 acres.",
+      "paras": [
+        "The Parks, Recreation and Trails Master Plan, accepted in 2014, counted 37 playgrounds, almost all in those two kinds of park. Most were modular play structures like the one at Rothrock Dell Park; the themed ones included an aeronautical playground at Blue Skies Park, and the plan named the Adventure Playground at Sandstone Ranch, with its built-in climbing wall, the most elaborate in the city. The count dates from that plan."
+      ],
+      "layerRefs": [
+        "longmont-co.parks-classification",
+        "longmont-co.prt-plan-playgrounds"
+      ],
+      "sources": [
+        "https://longmontcolorado.gov/parks-and-natural-resources/classification-of-parks/",
+        "https://longmontcolorado.gov/wp-content/uploads/2024/07/5_Ch2_State_of_the_Park_System_2.pdf"
+      ]
+    },
+    {
+      "kind": "climate",
+      "own": false,
+      "kicker": "Summer surface heat",
+      "h2": "Longmont's parks staff expect synthetic turf to run hot from mid-July to mid-September.",
+      "takeaway": "The city's FAQ for its Dry Creek fields says synthetic turf on sunny, calm days has typically measured 20 to 40 degrees above the air temperature at the surface, which could change programming in the hottest weeks.",
+      "paras": [
+        "The same FAQ says the heat falls off with height above the surface and with wind, and that for the rest of the year the turf stays pliable instead of freezing hard like grass. For a play area in full sun, shade and the time of day children use it belong in the plan for July and August; the [safety guide](/guides/safety/) covers fall heights and surfacing."
+      ],
+      "layerRefs": [
+        "longmont-co.dry-creek-turf-heat"
+      ],
+      "sources": [
+        "https://longmontcolorado.gov/facility/dry-creek-community-park/"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Where do Longmont's parks use synthetic turf?",
+      "a": "On the sports fields at Dry Creek Community Park, which the city's FAQ calls its only synthetic turf space. The grass there did not thrive on salty soil and high groundwater, so the city converted the fields."
+    },
+    {
+      "q": "Can a Longmont home daycare put turf under its play equipment?",
+      "a": "Nothing in the city code stops it. The residential day care rules cover where the care happens and how many people are in it, not the yard surface, and no turf rule for an established single-family lot turned up."
+    },
+    {
+      "q": "How tall can a fence be on a lot that backs onto a Longmont pocket park?",
+      "a": "Five feet for rear and side yard fences on a lot that abuts a pocket park, a foot under the six-foot limit for other residential fences. Either way, Longmont requires a building permit before the fence goes up."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Longmont Land Development Code Sec. 15.05.040.G.1, Pocket parks (codified through Ord. No. O-2026-39, June 23, 2026)",
+      "url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.05DEST_S15.05.040LACOARST",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Longmont Land Development Code Sec. 15.10.020, turf definitions (codified through Ord. No. O-2026-39, June 23, 2026)",
+      "url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.10DE_S15.10.020ALOTTEDE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Longmont Land Development Code Sec. 15.05.100, Fences and walls (codified through Ord. No. O-2026-39, June 23, 2026)",
+      "url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.05DEST_S15.05.100FEWA",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Longmont Land Development Code Sec. 15.04.030.C.4 and C.5, day care uses (codified through Ord. No. O-2026-39, June 23, 2026)",
+      "url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.04USRE_S15.04.030UECST",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Longmont Parks and Natural Resources, Classification of Parks",
+      "url": "https://longmontcolorado.gov/parks-and-natural-resources/classification-of-parks/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Longmont Parks, Recreation and Trails Master Plan (accepted April 8, 2014), Chapter 2",
+      "url": "https://longmontcolorado.gov/wp-content/uploads/2024/07/5_Ch2_State_of_the_Park_System_2.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Longmont, Dry Creek Community Park (Synthetic Turf FAQs)",
+      "url": "https://longmontcolorado.gov/facility/dry-creek-community-park/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Longmont Design Standards, Section 600 Landscape and Irrigation, 605.02.Q (effective December 2025)",
+      "url": "https://longmontcolorado.gov/wp-content/uploads/2026/07/Section-600.pdf",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Confirmation that NoCo serves Longmont and installs playground turf today",
+    "Play areas or playset turf NoCo has built in Longmont: neighborhood, month, rough size, pad used and the fall height it was rated for",
+    "Camera-original photos of a Longmont play area; the only photos.ts photo with use \"play\" was taken south of Windsor and cannot be used here",
+    "Any Longmont daycare, HOA pocket park or school play area he has bid or built, and what Planning asked for"
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "status": "draft",
+  "town": "severance-co",
+  "service": "playground-turf",
+  "title": "Playground Turf in Severance, CO | NoCo Turf Co.",
+  "description": "Severance scores a new neighborhood's playground by its playground zone area, and four neighborhood rulebooks cap backyard playsets. The local rules, cited.",
+  "h1": "Severance scores a new neighborhood's playground by the size of its safety zone",
+  "display": {
+    "paint": "by the size of its safety zone"
+  },
+  "lede": "Severance's Land Use Code measures a new neighborhood's playground by the clear ground around its equipment, the Town's parks carry the public play areas, and four neighborhood rulebooks decide how tall and how close a backyard playset may stand.",
+  "answer": {
+    "question": "How does Severance's code size a playground in a new neighborhood?",
+    "answer": "By its playground zone area, the safety area around each piece of equipment that must stay clear of other structures. Section 16.5.130 gives a commercial-grade playground 2 amenity points above 2,500 square feet, 1 point from 1,000 to 2,500 and half a point below 1,000. NoCo Turf Co. installs playground turf in Severance."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Section 16.5.130",
+      "h2": "A new Severance subdivision earns playground points by the square foot of safety zone.",
+      "paras": [
+        "Section 16.5.130 of the Land Use Code the Town adopted in August 2025 makes every residential project earn amenity points by its size: 1 point for up to 10 homes, 3 for 11 to 30, 5 for 31 to 50, 6 for 51 to 150 and 7 for more than 151.",
+        "Multifunctional playgrounds with commercial-grade equipment then score by playground zone area, which the code defines as the safety area around each piece of equipment kept clear of other structures and decorations. Above 2,500 square feet earns 2 points, 1,000 to 2,500 earns 1 and anything smaller earns half a point, so a bigger zone is worth more points.",
+        "The rules measure the zone but don't name a surface for it. For multifamily projects, Section 16.6.120 asks active recreation areas for irrigated turf or an alternative the Town Manager or a designee approves."
+      ],
+      "layerRefs": [
+        "severance-co.code-16-5-130-amenity-points",
+        "severance-co.code-16-1-310-playground-zone",
+        "severance-co.code-16-6-120-multifamily-landscape",
+        "severance-co.code-16-6-130-multifamily-amenities"
+      ],
+      "sources": [
+        "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART5SIDEST_DIV1OPSPBUPECO_S16.5.130AMPO",
+        "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART1GEPR_DIV3DE_S16.1.310DE",
+        "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART6DEST_DIV1MUMIREDEST_S16.6.120MUMILASTST",
+        "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART6DEST_DIV1MUMIREDEST_S16.6.130AMPOMUMIRE"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Playset limits",
+      "h2": "Hidden Valley Farm, Severance Shores and Hunters Overlook hold a playset near 12 feet; Timber Ridge sets it back by its height.",
+      "paras": [
+        "Hidden Valley Farm's design guidelines hold play and sports equipment to 8 feet but allow play structures up to 12 feet tall at least 12 feet from the rear property line and outside the side-yard setback. Swing sets and play structures can't stay in the front part of a lot, and play structures go to the Design Review Council.",
+        "The guidelines the Severance Shores and Hunters Overlook metro districts post (Section 2.39) send play equipment to their architectural review committee and, as a general guideline, keep a playhouse or swing set under 12 feet at the peak and under 120 square feet of interior floor space, screened by landscaping and an approved fence.",
+        "Timber Ridge's HOA handbook, revised October 8, 2016, says a play structure must be as far off the property line as it is tall. On a narrow lot that rule, not the surface, decides where the set and its fall area can go; the [safety guides](/guides/safety/) cover fall heights."
+      ],
+      "layerRefs": [
+        "severance-co.hidden-valley-farm-play",
+        "severance-co.hidden-valley-farm-turf",
+        "severance-co.severance-shores-play",
+        "severance-co.hunters-overlook-play",
+        "severance-co.timber-ridge-structures"
+      ],
+      "sources": [
+        "https://www.hiddenvalleyfarmmd.live/files/0e0b82caf/DRC+Guidelines+Final+-+Including+Fence+Detail.pdf",
+        "https://ssmd.specialdistrict.org/files/3cc9774d3/SSMD+-+Amended+RIGSR+09.05.24.pdf",
+        "https://homd.specialdistrict.org/files/60183cf34/HOMD+-+RIGSR+Amended+04.01.25.pdf",
+        "https://www.timberridge-hoa.com/wp-content/uploads/Timber-Ridge-HOA-Handbook.pdf"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Home child care",
+      "h2": "Severance lets a licensed in-home child care use the yard, which other home businesses can't.",
+      "paras": [
+        "Section 16.3.520 requires a home-based business to run entirely inside the dwelling or a designated accessory building, except as required for state-licensed in-home family child care. Child drop-offs are also exempt from the section's limits of one customer vehicle at a time and ten client visits a week.",
+        "Child care centers are uses by right in the Suburban Perimeter, Town Core and Development Node districts, and family child care homes are listed by name in the Town Core and Development Node; the Suburban Perimeter list doesn't name them. Whether a backyard play yard for a home child care needs anything more depends on the district and the license; ask Severance Planning."
+      ],
+      "layerRefs": [
+        "severance-co.code-16-3-520-home-child-care",
+        "severance-co.code-16-3-child-care-uses"
+      ],
+      "sources": [
+        "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART3ZO_DIV5SUUSRE_S16.3.520HOSEBU",
+        "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART3ZO"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "Town playgrounds",
+      "h2": "Karen Suman, Lakeview and Summit View parks list playgrounds among their features.",
+      "paras": [
+        "Karen Suman Park in the Timber Ridge subdivision has a Play-On! playground the Town describes as built around sliding, swinging, spinning, climbing, brachiating and balancing. Lakeview Park, at the south end of the Lakeview subdivision, puts playground equipment beside a skate park, basketball courts and covered picnic shelters, and Summit View Park has a playground in the middle of its subdivision.",
+        "The Town's April 13, 2026 Parks & Trails map puts Severance Community Park at 37.3 acres and the whole park system at 105.1 acres."
+      ],
+      "layerRefs": [
+        "severance-co.karen-suman-park",
+        "severance-co.lakeview-park",
+        "severance-co.summit-view-park",
+        "severance-co.parks-map-2026"
+      ],
+      "sources": [
+        "https://www.townofseverance.org/Facilities/Facility/Details/Karen-Suman-Park-3",
+        "https://www.townofseverance.org/Facilities/Facility/Details/Lakeview-Park-4",
+        "https://www.townofseverance.org/Facilities/Facility/Details/Summit-View-Park-5",
+        "https://www.townofseverance.org/DocumentCenter/View/267/Parks-Map-PDF"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "How many amenity points does a Severance apartment project need?",
+      "a": "Section 16.6.130 sets them by zone district: a project of 51 to 150 units owes 5 points in the Suburban Perimeter and 6 in the Development Node or Town Core, and its playground scale matches the one in Section 16.5.130."
+    },
+    {
+      "q": "What should go in a playset request to a Severance HOA?",
+      "a": "Timber Ridge asks for the structure's size, materials and location. Hidden Valley Farm suggests submitting at least 45 days before work starts and treats a plan as approved if its council hasn't acted within 45 days of acknowledging receipt."
+    },
+    {
+      "q": "Is a backyard playset an accessory structure under Severance's setbacks?",
+      "a": "The code doesn't say. Its Suburban Perimeter table keeps accessory structures 5 feet from side and rear lot lines, but a freestanding playset isn't named. It depends on the set; ask Severance Planning."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Severance Land Use Code Sec. 16.5.130, Amenity points (Ord. No. 2025-15, Aug. 12, 2025)",
+      "url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART5SIDEST_DIV1OPSPBUPECO_S16.5.130AMPO",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Severance Land Use Code Sec. 16.1.310, Definitions (Ord. No. 2025-15, Aug. 12, 2025; codified through Ord. No. 2025-27, Dec. 9, 2025)",
+      "url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART1GEPR_DIV3DE_S16.1.310DE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Severance Land Use Code Sec. 16.6.120, Multi-family landscaping and streetscape standards (Ord. No. 2025-15, Aug. 12, 2025)",
+      "url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART6DEST_DIV1MUMIREDEST_S16.6.120MUMILASTST",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Severance Land Use Code Sec. 16.6.130, Amenity points for multi-family residential (Ord. No. 2025-15, Aug. 12, 2025)",
+      "url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART6DEST_DIV1MUMIREDEST_S16.6.130AMPOMUMIRE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Hidden Valley Farm Design Guidelines, Design Review Council (PDF, last modified Oct. 18, 2023)",
+      "url": "https://www.hiddenvalleyfarmmd.live/files/0e0b82caf/DRC+Guidelines+Final+-+Including+Fence+Detail.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Severance Shores Metropolitan District Nos. 1-4, Residential Improvement Guidelines and Site Restrictions (amended September 5, 2024)",
+      "url": "https://ssmd.specialdistrict.org/files/3cc9774d3/SSMD+-+Amended+RIGSR+09.05.24.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Hunters Overlook Metropolitan District Nos. 1-8, Residential Improvement Guidelines and Site Restrictions (amended April 1, 2025)",
+      "url": "https://homd.specialdistrict.org/files/60183cf34/HOMD+-+RIGSR+Amended+04.01.25.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Timber Ridge (Severance) Homeowners' Association Handbook, revised October 8, 2016",
+      "url": "https://www.timberridge-hoa.com/wp-content/uploads/Timber-Ridge-HOA-Handbook.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Severance Land Use Code Sec. 16.3.520, Home-based businesses (Ord. No. 2025-15, Aug. 12, 2025)",
+      "url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART3ZO_DIV5SUUSRE_S16.3.520HOSEBU",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Severance Land Use Code Secs. 16.3.230, 16.3.330 and 16.3.430, Land uses by zone district (Ord. No. 2025-15, Aug. 12, 2025)",
+      "url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART3ZO",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Severance, Facilities: Karen Suman Park",
+      "url": "https://www.townofseverance.org/Facilities/Facility/Details/Karen-Suman-Park-3",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Severance, Facilities: Lakeview Park",
+      "url": "https://www.townofseverance.org/Facilities/Facility/Details/Lakeview-Park-4",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Severance, Facilities: Summit View Park",
+      "url": "https://www.townofseverance.org/Facilities/Facility/Details/Summit-View-Park-5",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Severance, Parks & Trails, Map 12 (Ayres, Project 51-0442, April 13, 2026)",
+      "url": "https://www.townofseverance.org/DocumentCenter/View/267/Parks-Map-PDF",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Severance Land Use Code Sec. 16.3.220, Suburban Perimeter lot and building standards (Ord. No. 2025-15, Aug. 12, 2025)",
+      "url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART3ZO_DIV2SUPE_S16.3.220LOBUST",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Turf under backyard playsets or play areas you have installed in Severance: subdivision, month, size, the tallest platform and the pad used",
+    "Camera-original photos of a Severance play area: the one play photo in photos.ts (playset) is from south of Windsor, so it can't go on this page",
+    "Any HOA, metro district, school or child care play area you have surfaced in Severance, and who approved it",
+    "Whether Hidden Valley Farm, Timber Ridge, Severance Shores or Hunters Overlook has reviewed a playset-and-turf plan of yours, and what they asked for"
+  ]
+}

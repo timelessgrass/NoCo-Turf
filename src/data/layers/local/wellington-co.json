@@ -1,0 +1,471 @@
+[
+  {
+    "id": "wellington-co.code-7-4-dog-run",
+    "layer": "ordinance",
+    "applies_to": [
+      "wellington-co"
+    ],
+    "fact": "Wellington's animal code defines a dog run as an area of 144 square feet or less used only to keep dogs, and bars one within 25 feet of another person's residence, a public way other than an alley, or a church, school, hospital, public building or municipal park.",
+    "quote": "Dog run means an area of one's property, one hundred forty-four (144) square feet or less, which is used exclusively to keep dogs. … It is unlawful to maintain any dog house, dog run, hoofed or small livestock or fowl within or about any building, structure, pen or enclosure of any type within twenty-five (25) feet of any building used for residential purposes by anyone other than the person maintaining such dog house, livestock or fowl enclosure; within twenty-five (25) feet of any public way other than an alley; or within twenty-five (25) feet of any church, school, hospital, public building or municipal park.",
+    "source_url": "https://library.municode.com/co/wellington/codes/municipal_code?nodeId=CH7HESAAN_ART4AN",
+    "source_label": "Wellington Municipal Code Secs. 7-4-10 (definitions) and 7-4-220 (Ch. 7, Art. 4, Animals; codified through Ord. No. 07-2026, July 14, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "144",
+      "25"
+    ],
+    "notes": "Read 2026-09-25 through the Municode API (job 500257, Supp. No. 9 Update 2). The 144 sq ft figure defines what the code calls a dog run; the code does not say whether the 25-ft rule reaches a larger dog yard that is not a 'dog run' — hedge, never resolve it."
+  },
+  {
+    "id": "wellington-co.code-7-4-dogs-premises",
+    "layer": "ordinance",
+    "applies_to": [
+      "wellington-co"
+    ],
+    "fact": "Wellington's animal code allows no more than 3 dogs or 3 cats, or 4 of the two combined, over 4 months old on a property, requires the floors of lots, pens and cages where animals are kept to be cleaned daily, and declares a dirty or unsanitary premises a nuisance.",
+    "quote": "Maximum dogs, cats. It is unlawful to keep, house or maintain in or upon any lot, parcel of property or premises more than three (3) dogs or three (3) cats, or an aggregate of four (4) dogs and cats, over the age of four (4) months. … In the event of a hardship, including a property owner's family emergency, a property owner may maintain up to four (4) dogs on the owner's property upon application of the owner to the Town Administrator/Clerk and granting of a permit by the Town Administrator/Clerk allowing up to four (4) dogs on the approved property. No owner shall be granted a permit for more than thirty (30) days … The bases and floors of lots, pens, cages, stables and corrals shall be cleaned daily by removal of manure and other material soiled by animal wastes. Every place, property or premises in the Town where dogs, hoofed and small livestock or fowls are kept shall be clean, sanitary, free of obnoxious odors and maintained in such a manner as will effectively prevent reproduction of flies in or about such places or premises. … If any of the premises described in Section 7-4-240 above are not kept in a clean and sanitary condition or become dangerous or detrimental to human health, it shall be declared a nuisance and abated as such.",
+    "source_url": "https://library.municode.com/co/wellington/codes/municipal_code?nodeId=CH7HESAAN_ART4AN",
+    "source_label": "Wellington Municipal Code Secs. 7-4-210(d)–(e), 7-4-240(a) and 7-4-620 (Ch. 7, Art. 4, Animals; codified through Ord. No. 07-2026, July 14, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "4",
+      "30"
+    ],
+    "notes": "Re-read 2026-09-25 through the Municode API (job 500257). The daily-cleaning line names lots, pens, cages, stables and corrals, not runs by name; 7-4-240(a) then reaches every place where dogs are kept. The hardship permit is renewable for up to five more 30-day periods and needs a fee set by Board resolution (7-4-210(e))."
+  },
+  {
+    "id": "wellington-co.code-15-9-20-turf-terms",
+    "layer": "ordinance",
+    "applies_to": [
+      "wellington-co"
+    ],
+    "fact": "Wellington's Land Use Code defines turf as living, regularly mowed nonnative grass and functional artificial turf as artificial turf in spaces regularly used for civic, community or recreational purposes, such as playgrounds, sports fields, parts of parks and putting greens.",
+    "quote": "Functional Artificial Turf means Artificial Turf that is located in a recreational use area or other space that is regularly used for civic, community, or recreational purposes, which may include playgrounds; sports fields; picnic grounds; amphitheaters; portions of parks; and the playing areas of golf courses, such as driving ranges, chipping and putting greens, tee boxes, greens, fairways, and roughs. … Nonfunctional Artificial Turf means Artificial Turf that is not functional … Turf means continuous plant coverage consisting of nonnative grasses or grasses that have not been hybridized for arid conditions and which, when regularly mowed, form a dense growth of leaf blades and roots (see High-water use plant material).",
+    "source_url": "https://library.municode.com/co/wellington/codes/municipal_code?nodeId=CH15LAUSCO_ART9DE_S15-9-20DETE",
+    "source_label": "Wellington Municipal Code Sec. 15-9-20, Land Use Code defined terms (codified through Ord. No. 07-2026, July 14, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Because 'Turf' is defined as living grass, the functional-turf percentage caps in 15-5-40 read as caps on living turf; the code states no cap for functional artificial turf. That reading is an INFERENCE — pages hedge it and send the reader to Wellington Planning."
+  },
+  {
+    "id": "wellington-co.code-15-5-40-turf-caps",
+    "layer": "ordinance",
+    "applies_to": [
+      "wellington-co"
+    ],
+    "fact": "Wellington's landscape standards for new development cap functional turf at 40% of the landscaped area on multifamily sites, 30% in the C-1 and C-3 commercial districts and on industrial sites and 20% of the landscaping of parking lots with 10 or more spaces, require 75% live plant cover in parking lot islands, and state that each set of standards complies with SB24-005 and HB25-1113.",
+    "quote": "The provisions herein shall apply to all new development or redevelopment subject to site plan review or subdivision application. … Landscape areas shall include no more than forty percent (40%) of the total landscaped area comprised of functional turf. … These standards shall comply with the requirements of SB24-005, HB25-1113 and Colorado Revised Statutes. … All development in Commercial Zone Districts C1 and C3 shall meet the following standards. … Landscape areas shall include no more than thirty percent (30%) of the total landscaped area comprised of functional turf. … All parking lots with ten (10) spaces or more shall be subject to the following requirements. … All combined parking lot landscape areas shall include no more than twenty percent (20%) of the total landscaped area comprised of functional turf. … Each island shall contain one (1) shade tree and seventy-five percent (75%) live plant material cover. … Limit areas of irrigated sod to landscape areas with a minimum width of ten (10') feet. Irrigated sod shall not be located within interior parking lot islands.",
+    "source_url": "https://library.municode.com/co/wellington/codes/municipal_code?nodeId=CH15LAUSCO_ART5DEST_S15-5-40LASC",
+    "source_label": "Wellington Municipal Code Sec. 15-5-40(b), (k), (l), (n), (o), as amended by Ord. No. 13-2025, Oct. 28, 2025 (codified through Ord. No. 07-2026, July 14, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "40",
+      "30",
+      "20",
+      "75",
+      "1",
+      "3",
+      "10"
+    ],
+    "notes": "Re-read 2026-09-25 (Municode API job 500257). The 30% industrial cap is 15-5-40(n)(3)a, worded like the commercial one. The SB24-005/HB25-1113 compliance sentence closes the purpose statement of the park, multifamily, commercial, industrial and parking subsections. Multifamily sites also need at least 30% of the gross site landscaped, commercial sites 15%. The Downtown Core subsection (m) sets no turf cap. Each capped subsection repeats the nonfunctional-artificial-turf ban (see wellington-code-15-5-40-nonfunctional)."
+  },
+  {
+    "id": "wellington-co.code-15-5-40-parks-open-space",
+    "layer": "ordinance",
+    "applies_to": [
+      "wellington-co"
+    ],
+    "fact": "Wellington's standard for new public parks and common open space, including HOA open space, caps functional turf at 50% of the landscaped area, keeps it to high-traffic areas such as sport fields and informal play space next to playgrounds, and requires an HOA or similar mechanism for upkeep.",
+    "quote": "Applicability: The following requirements shall apply to all new development of public parks, pocket parks, detention ponds, trail connections and common open space areas for both public and HOA use. … All parks shall be landscaped and programmed to create a balance of plant material with no more than fifty percent (50%) of the total landscaped area comprised of functional turf. … Only high traffic areas such as sport fields and informal play space adjacent to playgrounds shall contain functional turf or high water turf. … Park periphery and detention pond areas shall consist of low water or native plant material and grass seed mix. … Development shall provide a mechanism such as a homeowners' association and covenants for long-term maintenance of parks, detention ponds, and common open space, in order to ensure the continued upkeep of the property.",
+    "source_url": "https://library.municode.com/co/wellington/codes/municipal_code?nodeId=CH15LAUSCO_ART5DEST_S15-5-40LASC",
+    "source_label": "Wellington Municipal Code Sec. 15-5-40(h), Park and Open Space Landscape Standards, as amended by Ord. No. 13-2025, Oct. 28, 2025 (codified through Ord. No. 07-2026, July 14, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "50"
+    ],
+    "notes": "'Functional turf' here is living turf by the 15-9-20 definition; whether an artificial putting green or play lawn in a new HOA park fits the high-traffic-area line is not stated — hedge to Wellington Planning."
+  },
+  {
+    "id": "wellington-co.code-15-5-40-irrigation",
+    "layer": "ordinance",
+    "applies_to": [
+      "wellington-co"
+    ],
+    "fact": "Wellington requires new landscaping to be irrigated by an efficient automated underground system, on non-potable water where a permanent supply exists and otherwise through separately metered irrigation taps with raw water dedication set by the Town's fee schedule.",
+    "quote": "All landscaping shall be irrigated with an efficient, automated underground irrigation system as required for plant establishment and maintenance. a. Use of nontreated (non-potable) water for irrigation is required if a permanent, suitable supply is available. … Where non-potable irrigation systems are not available and the Town has approved a connection to the Town's domestic water system, all water taps for irrigation purposes shall be required to be installed and metered separately from any other domestic water tap. Raw water dedication requirements and utility billing charges shall be paid in accordance with a fee schedule adopted by the Town.",
+    "source_url": "https://library.municode.com/co/wellington/codes/municipal_code?nodeId=CH15LAUSCO_ART5DEST_S15-5-40LASC",
+    "source_label": "Wellington Municipal Code Sec. 15-5-40(e)(19) and (f)(3) (codified through Ord. No. 07-2026, July 14, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Applies to development under site plan review or subdivision application (15-5-40(b)). No fee amounts quoted: the schedule is set by Board resolution."
+  },
+  {
+    "id": "wellington-co.code-15-4-child-care",
+    "layer": "ordinance",
+    "applies_to": [
+      "wellington-co"
+    ],
+    "fact": "Wellington's Land Use Code permits child care centers in the C-1, C-2 and C-3 commercial districts, allows them as a conditional use in the R-4 Downtown Neighborhood district, and leaves state-defined family child care homes out of its home-occupation rules.",
+    "quote": "Table 4.02-1 Table of Allowable Uses — Use | A | R-1 | R-2 | R-3 | R-4 | MH | C-1 | C-2 | C-3 | LI | I | P — Child Care Center |  |  |  |  | C |  | P | P | P |  |  |  … A Home Occupation, not including a Family Child Care Home as defined by state statute, shall meet the following requirements.",
+    "source_url": "https://library.municode.com/co/wellington/codes/municipal_code?nodeId=CH15LAUSCO_ART4USRE",
+    "source_label": "Wellington Municipal Code Secs. 15-4-20 (Table 4.02-1, Table of Allowable Uses) and 15-4-30(u) (codified through Ord. No. 07-2026, July 14, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "notes": "The table row is quoted cell by cell as printed (P = permitted, C = conditional, blank = not listed). The Land Use Code sections read set where a center may operate, not what surface goes under its play equipment."
+  },
+  {
+    "id": "wellington-co.multigolfpark",
+    "layer": "place",
+    "applies_to": [
+      "wellington-co"
+    ],
+    "fact": "Wellington's 9-hole MultiGolfPark in Knolls Linear Park, which the Town calls the first in Colorado, was being installed in June 2026, and the Town said artificial turf over the concrete bases of its hole greens and tee pads would be added later that summer.",
+    "quote": "The park — which is all on the west side of 3rd Street — features 9 holes of MultiGolf, which combines three different target games on a single compact course: disc golf, foot golf, and park golf. Wellington’s MultiGolfPark has a total course distance of 1,790 feet with an average distance of 195 feet per hole. The longest hole is 235 feet, while the shortest is 135 feet. … Additionally, Wellington’s MultiGolfPark is the first in the state of Colorado. … Installation of the MultiGolfPark at Knolls Linear Park will be completed later in the summer, including the addition of artificial turf to cover the concrete bases of the 9 MultiGolf hole greens and tee pads.",
+    "source_url": "https://wellingtoncolorado.gov/m/newsflash/home/detail/424",
+    "source_label": "Town of Wellington news release, \"Installation of MultiGolfPark underway at Knolls Linear Park\" (posted June 17, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-15",
+    "numbers": [
+      "9",
+      "1790",
+      "195",
+      "235",
+      "135",
+      "2026"
+    ],
+    "notes": "Re-read 2026-09-25: the release (posted June 17, 2026) says installation was done by Parks and Recreation and Public Works crews with designer Avery Jenkins. No Town page found on 2026-09-25 says the turf is in. Recheck: confirm the turf went in (Town Parks page or a site visit); until then pages say the Town said it would. No golf course lies inside Wellington (searched 2026-09-25)."
+  },
+  {
+    "id": "wellington-co.community-park",
+    "layer": "place",
+    "applies_to": [
+      "wellington-co"
+    ],
+    "fact": "Wellington Community Park, a 30-acre Town park that opened in spring 2016, includes a dog park, two playgrounds and a splash pad.",
+    "quote": "Completed and opened in Spring 2016, this 30-acre park provides activities for the whole family. … The park consists of: Trail · Batting cages · 2 softball fields · Dog park · 2 age-appropriate playgrounds · Splash pad · Multi-purpose filed · Irrigated open turf area",
+    "source_url": "https://www.wellingtoncolorado.gov/facilities/facility/details/Wellington-Community-Park-10",
+    "source_label": "Town of Wellington, Facilities: Wellington Community Park",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "30",
+      "2016",
+      "2"
+    ],
+    "notes": "Amenity list quoted as printed, typo included ('filed'). Park is at Washington Avenue and Buffalo Creek Parkway."
+  },
+  {
+    "id": "wellington-co.prost-adopted",
+    "layer": "place",
+    "applies_to": [
+      "wellington-co"
+    ],
+    "fact": "Wellington's Board of Trustees adopted a Parks, Recreation, Open Spaces and Trails (PROST) Master Plan in 2026.",
+    "quote": "This plan, which was adopted by the Board of Trustees in 2026, provides a structured approach for responding to these pressures in a way that is fiscally responsible and aligned with community priorities.",
+    "source_url": "https://www.wellingtoncolorado.gov/607/Town-Masterplans",
+    "source_label": "Town of Wellington, Town Master Plans page: 2026 Parks, Recreation, Open Spaces, and Trails Master Plan",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2026"
+    ],
+    "notes": "The full plan (with appendices) is DocumentCenter/View/5820; the plan was prepared by BerryDunn."
+  },
+  {
+    "id": "wellington-co.prost-playground-surfacing",
+    "layer": "place",
+    "applies_to": [
+      "wellington-co"
+    ],
+    "fact": "Wellington's 2026 PROST plan says the Town should adopt standards for town-led projects, communicated also to developers and schools, and its first playground standard is that all new playgrounds include pour-in-place safety surfacing.",
+    "quote": "To help ensure consistency, quality, and equitable access across all existing and future parks and recreation projects, Wellington should adopt the following standards based on National Recreation and Parks Association (NRPA) best practices, tailoring them to local priorities. These standards apply to town-led projects and should also be communicated to developers, schools, and partner organizations. 1.2.1 Playgrounds — All new playgrounds must include pour-in-place safety surfacing for accessibility and durability.",
+    "source_url": "https://www.wellingtoncolorado.gov/DocumentCenter/View/5820/Wellington-Parks-Recreation-Opens-Spaces-Trails-Master-Plan---Appendix",
+    "source_label": "Town of Wellington, Parks, Recreation, Open Spaces and Trails Master Plan (2026), System Inventory and LOS Analysis, 1.2.1 Playgrounds",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2026"
+    ],
+    "notes": "Re-read 2026-09-25 in the downloaded plan PDF. A plan standard the Town 'should adopt', not Land Use Code: say 'the plan calls for', never 'the code requires'."
+  },
+  {
+    "id": "wellington-co.prost-park-metrics",
+    "layer": "place",
+    "applies_to": [
+      "wellington-co"
+    ],
+    "fact": "Wellington's 2026 PROST plan counts 8 town playgrounds, 3 rectangular fields and 2 dog parks, and finds the town one rectangular field short of the NRPA median.",
+    "quote": "Table 3: Park Metric Analysis — Percentage of Agencies Offering This Facility | NRPA Median Number of Residents per Facility | Wellington Quantity | Wellington Residents Per Facility | Needed to Meet NRPA Median 2025 — Playground 93% | 1,990 | 8 | 1,554 | 0 — Rectangular Field 83% | 2,493 | 3 | 4,144 | 1 — Dog Park 68% | 10,327 | 2 | 6,216 | 0 … Similarly, rectangular fields are underrepresented, with one more needed to meet NRPA’s median. … Although dog parks and disc golf courses exceed national medians, the limited number of tennis courts and rectangular fields suggests uneven distribution of amenities and potential constraints on programming.",
+    "source_url": "https://www.wellingtoncolorado.gov/DocumentCenter/View/5820/Wellington-Parks-Recreation-Opens-Spaces-Trails-Master-Plan---Appendix",
+    "source_label": "Town of Wellington, Parks, Recreation, Open Spaces and Trails Master Plan (2026), System Inventory and LOS Analysis appendix, Table 3: Park Metric Analysis (Table 7 in the plan body)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2026",
+      "8",
+      "3",
+      "2",
+      "2025",
+      "93",
+      "1990",
+      "1554",
+      "0",
+      "83",
+      "2493",
+      "4144",
+      "1",
+      "68",
+      "10327",
+      "6216"
+    ],
+    "notes": "Table rows quoted cell by cell as printed."
+  },
+  {
+    "id": "wellington-co.prost-community-park",
+    "layer": "place",
+    "applies_to": [
+      "wellington-co"
+    ],
+    "fact": "Wellington's 2026 PROST plan describes Wellington Community Park as nearly 30 acres with the town's only destination playground, a splash pad and a large dog park.",
+    "quote": "At nearly 30 acres, this flagship facility combines active recreation with community gathering spaces, featuring the town's only destination playground, a splash pad, and a large dog park.",
+    "source_url": "https://www.wellingtoncolorado.gov/DocumentCenter/View/5820/Wellington-Parks-Recreation-Opens-Spaces-Trails-Master-Plan---Appendix",
+    "source_label": "Town of Wellington, Parks, Recreation, Open Spaces and Trails Master Plan (2026), 1.1 Park Classification System",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2026",
+      "30"
+    ],
+    "notes": "The same section lists the park at 29.90 acres."
+  },
+  {
+    "id": "wellington-co.prost-viewpointe-playground",
+    "layer": "place",
+    "applies_to": [
+      "wellington-co"
+    ],
+    "fact": "Wellington's 2026 PROST plan rates the Viewpointe Park play structure below expectations, very old and at the end of its life.",
+    "quote": "This play structure is very old and at the end of its life. It supports a lot more use than it was designed for and badly needs an upgrade to support the surrounding community.",
+    "source_url": "https://www.wellingtoncolorado.gov/DocumentCenter/View/5820/Wellington-Parks-Recreation-Opens-Spaces-Trails-Master-Plan---Appendix",
+    "source_label": "Town of Wellington, Parks, Recreation, Open Spaces and Trails Master Plan (2026), System Inventory and LOS Analysis appendix, Table 3: Wellington Amenities Not Meeting Expectations (Score of 1) (Table 5 in the plan body)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2026"
+    ],
+    "notes": "Amenities were field-assessed in summer 2025. A second downtown playground is also rated below expectations; its park's name matches a Denver-metro town, so pages leave it out."
+  },
+  {
+    "id": "wellington-co.prost-focus-groups",
+    "layer": "place",
+    "applies_to": [
+      "wellington-co"
+    ],
+    "fact": "In focus groups for Wellington's 2026 PROST plan, residents named water availability as a critical issue and asked for indoor and outdoor multipurpose spaces that feature astroturf.",
+    "quote": "Wellington faces critical issues related to water availability and infrastructure, including concerns about sustainable growth and adequate resources. … Expand and upgrade recreational facilities, including amphitheaters, a community pool, a recreation center, a new library, and both indoor and outdoor multipurpose spaces that feature astroturf, rock climbing walls, and sport courts.",
+    "source_url": "https://www.wellingtoncolorado.gov/DocumentCenter/View/5820/Wellington-Parks-Recreation-Opens-Spaces-Trails-Master-Plan---Appendix",
+    "source_label": "Town of Wellington, Parks, Recreation, Open Spaces and Trails Master Plan (2026), Appendix: Community Conversations, 5.1 Focus Groups Comments",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2026"
+    ],
+    "notes": "Comments summarised by the plan's consultant from in-person focus groups; they are resident input, not Town policy."
+  },
+  {
+    "id": "wellington-co.wmhs-athletic-complex",
+    "layer": "place",
+    "applies_to": [
+      "wellington-co"
+    ],
+    "fact": "Wellington Middle-High School's athletic complex has a lighted multi-use field with stadium seating and concessions planned to host games for all Poudre School District schools, plus three practice fields.",
+    "quote": "Wellington MS/HS also includes a new athletic complex with a lighted multi-use field, stadium seating and concessions planned to host games for all PSD schools. Site amenities include three practice fields, seven tennis courts, an enhanced athletic facility, four parking lots, three baseball/softball fields and a transportation hub.",
+    "source_url": "https://www.a-p.com/projects/poudre-school-district-wellington-middle-high-school/",
+    "source_label": "AP Construction project page: Poudre School District Wellington Middle-High School (design partner RB+B Architects)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The builder's page does not name the field surface, and neither does PSD's project page. Never say the stadium field is artificial turf until a PSD source does."
+  },
+  {
+    "id": "wellington-co.buffalo-creek-turf-rules",
+    "layer": "housing",
+    "applies_to": [
+      "wellington-co"
+    ],
+    "fact": "Buffalo Creek at Wellington's Residential Improvement Guidelines, revised June 13, 2019, say artificial turf or plants are prohibited in areas where sod is replaced and bar Astro-turf on walks, front steps and decks.",
+    "quote": "Entrances (Front) – Astro-turf is not allowed on walks, front steps, or decks. … Xeriscaping - (The following guideline pertains to areas of a lot where sod is being replaced, not hardscapes resultant of the original builds and landscaping.) … Artificial turf or plants are prohibited.",
+    "source_url": "https://www.buffalocreekhoa.com/_files/ugd/393016_c765f78371fa41c08df663199318a09e.pdf",
+    "source_label": "Buffalo Creek at Wellington HOA, Residential Improvement Guidelines and Site Restrictions (revised June 13, 2019), Secs. 2.21 and 2.68.4",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "13",
+      "2019"
+    ],
+    "notes": "The PDF linked from buffalocreekhoa.com (Xeriscaping and Documents pages) on 2026-09-25; the document itself says to check with the ARC for the latest edition. The 2019 revision predates HB21-1229 and SB23-178; pages never say the line is void, they print the state rule (TownStateRule)."
+  },
+  {
+    "id": "wellington-co.buffalo-creek-landscape-plans",
+    "layer": "housing",
+    "applies_to": [
+      "wellington-co"
+    ],
+    "fact": "Buffalo Creek's guidelines require landscaping plans showing sod, rock, retaining walls and drainage and grading, review-committee approval for any change affecting drainage, and at least 2,000 square feet of irrigated sod, up to 2,900, or drought-tolerant vegetative landscape per yard.",
+    "quote": "Landscaping Plans – Landscaping plans must be submitted prior to commencement of landscaping. Plans must depict fences, decks, sod, seeded areas, retaining walls, rock, railroad ties, sprinkler system plan, sizes, and species of nursery material, and include drainage and grading plan showing any drainage improvements. … A minimum of 1200 square feet of the total yard will consist of non-irrigated material such as rock, mulch, bark, or other non-irrigable materials. A minimum of 2000 square feet of the total yard will consist of irrigated sod, not to exceed 2900 square feet, or drought tolerant vegetative landscape. … Drainage – ARC approval is required for any changes affecting drainage. … The ARC may require a report from a drainage engineer as part of the landscaping or improvement plan approval.",
+    "source_url": "https://www.buffalocreekhoa.com/_files/ugd/393016_c765f78371fa41c08df663199318a09e.pdf",
+    "source_label": "Buffalo Creek at Wellington HOA, Residential Improvement Guidelines and Site Restrictions (revised June 13, 2019), Secs. 2.10.4 and 2.18",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "1200",
+      "2000",
+      "2900"
+    ]
+  },
+  {
+    "id": "wellington-co.buffalo-creek-dog-runs",
+    "layer": "housing",
+    "applies_to": [
+      "wellington-co"
+    ],
+    "fact": "Buffalo Creek's guidelines require review-committee approval for dog houses, runs and pet enclosures and for fences, and call for a three-rail western-style fence four feet high on half-acre lots.",
+    "quote": "Dog Houses, Runs, and Pet Enclosures – ARC approval required. … Fences – ARC approval required. … Fence of ½-Acre Lots – The owners of 1/2 acre lots shall install a three-rail, western-style fence that is four feet (4') high.",
+    "source_url": "https://www.buffalocreekhoa.com/_files/ugd/393016_c765f78371fa41c08df663199318a09e.pdf",
+    "source_label": "Buffalo Creek at Wellington HOA, Residential Improvement Guidelines and Site Restrictions (revised June 13, 2019), Secs. 2.17 and 2.24",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "1/2",
+      "4"
+    ]
+  },
+  {
+    "id": "wellington-co.buffalo-creek-play",
+    "layer": "housing",
+    "applies_to": [
+      "wellington-co"
+    ],
+    "fact": "Buffalo Creek's guidelines require review-committee approval for play and sports equipment, keep playhouses under 8 feet tall and 120 square feet inside, and do not allow metal A-frame swing sets.",
+    "quote": "Play and Sports Equipment – ARC approval required. … Playhouses – ARC approval required. General guidelines for Playhouses require that they be less than eight feet (8') in height at the peak and have less than 120 square feet of interior floor space. Basic design, materials, and colors must match the residence and must be incorporated into, and at least partially screened, by the landscape features. Metal “A-frame” swings sets are not allowed. … Swing Sets – See Playhouses.",
+    "source_url": "https://www.buffalocreekhoa.com/_files/ugd/393016_c765f78371fa41c08df663199318a09e.pdf",
+    "source_label": "Buffalo Creek at Wellington HOA, Residential Improvement Guidelines and Site Restrictions (revised June 13, 2019), Secs. 2.39, 2.40 and 2.57",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "8",
+      "120"
+    ]
+  },
+  {
+    "id": "wellington-co.code-7-4-leash-license-waste",
+    "layer": "ordinance",
+    "applies_to": [
+      "wellington-co"
+    ],
+    "fact": "Wellington counts a dog on its owner's property as running at large unless it is in a building, a securely fenced area or under a capable person's control, requires a license for dogs and cats over 6 months (a current county dog license counts), and requires owners to carry a means of removing, and to remove, their animal's excrement on public ways, public places and other people's property.",
+    "quote": "Any such animal shall be deemed to be running at large when it is off the premises of such person and not under the physical control of a person capable of controlling the animal, or on the premises of the owner or keeper but not enclosed in a building or a securely fenced area or under the physical control of a person capable of controlling the animal. … Any person owning, keeping, harboring or having custody of any dog or cat over six (6) months of age within the Town must obtain a license as herein provided. The Town will recognize a current County dog license as fulfilling this requirement for dogs and cats. … No person shall appear with an animal upon the public ways, within public places or upon the property of another, absent that person's consent, without some means for the removal of excrement, nor shall any person fail to remove any excrement deposited by such animal.",
+    "source_url": "https://library.municode.com/co/wellington/codes/municipal_code?nodeId=CH7HESAAN_ART4AN",
+    "source_label": "Wellington Municipal Code Secs. 7-4-160(a), 7-4-310 and 7-4-660 (Ch. 7, Art. 4, Animals; codified through Ord. No. 07-2026, July 14, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6"
+    ],
+    "notes": "Read 2026-09-25 through the Municode API (job 500257, Supp. No. 9 Update 2). 7-4-660 does not apply to a blind person walking a guide dog."
+  },
+  {
+    "id": "wellington-co.code-15-4-40-accessory-permit",
+    "layer": "ordinance",
+    "applies_to": [
+      "wellington-co"
+    ],
+    "fact": "Wellington's Land Use Code requires a building permit, unless exempted, for an accessory use or building proposed after the principal use, and has the Planning Director judge accessory uses the section does not name case by case.",
+    "quote": "Unless exempted, a building permit shall be required in cases where an accessory use or building is proposed subsequent to a principal use. … Interpretation of Unidentified Accessory Uses. The Planning Director shall evaluate applications for accessory uses that are not identified in this section on a case-by-case basis",
+    "source_url": "https://library.municode.com/co/wellington/codes/municipal_code?nodeId=CH15LAUSCO_ART4USRE_S15-4-40ACUSST",
+    "source_label": "Wellington Municipal Code Sec. 15-4-40(b)(3)a and (c), Accessory uses and structures (codified through Ord. No. 07-2026, July 14, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The section does not name putting greens, playsets or dog runs. Whether a backyard green or turf play area is an 'accessory use' needing a permit is not stated: pages hedge to Wellington Planning."
+  },
+  {
+    "id": "wellington-co.code-15-5-30-fences-walls",
+    "layer": "ordinance",
+    "applies_to": [
+      "wellington-co"
+    ],
+    "fact": "Wellington caps an opaque privacy fence on a rear property line or rear side-yard line at 6 feet, lets a fence around a recreation court or publicly owned recreation area exceed 6 feet only if it is at least 50% open, and requires retaining walls to be designed to resist the lateral pressure of retained material.",
+    "quote": "Retaining Walls. Retaining walls are designed to resist loads due to the lateral pressure of retained material in accordance with accepted engineering practice and are not unsightly or detrimental to abutting property. … No more than six (6) feet high for an opaque privacy fence located on a rear property line or on a side yard line in the rear yard. … Fences around a recreation court (e.g., tennis, squash racket, squash tennis or badminton) or around a publicly owned recreation area may exceed six (6) feet in height if the fence is at least fifty percent (50%) open.",
+    "source_url": "https://library.municode.com/co/wellington/codes/municipal_code?nodeId=CH15LAUSCO_ART5DEST_S15-5-30FE",
+    "source_label": "Wellington Municipal Code Sec. 15-5-30(c)(4) and (5)d–e, Fences (codified through Ord. No. 07-2026, July 14, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6",
+      "50"
+    ],
+    "notes": "Read 2026-09-25 through the Municode API (job 500257). A backyard golf net is not named."
+  },
+  {
+    "id": "wellington-co.town-playgrounds",
+    "layer": "place",
+    "applies_to": [
+      "wellington-co"
+    ],
+    "fact": "The Town of Wellington's facility pages list a playground at Viewpointe Park, Winick Park, Park Meadows, Sunrise Park and Harvest Park, besides the two at Wellington Community Park.",
+    "quote": "Viewpointe Park: This park is 8 acres in size and is nestled in the Viewpointe subdivision … Amenities: A playground … Winick Park: This 1.5-acre pirate ship themed park was built in 2015. … Amenities: A playground … Park Meadows: Amenities: A playground area … Sunrise Park: Amenities: A playground … Harvest Park: Amenities: A playground",
+    "source_url": "https://www.wellingtoncolorado.gov/facilities/facility/details/Viewpointe-Park-9",
+    "source_label": "Town of Wellington, Facilities pages: Viewpointe Park, Winick Park, Park Meadows, Sunrise Park and Harvest Park",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "8",
+      "1.5",
+      "2015"
+    ],
+    "notes": "Each park has its own facility page (Winick-Park-11, Park-Meadows-6, Sunrise-Park-17, Harvest-Park-18); all read 2026-09-25. The PROST plan lists Winick Park at 2.33 acres, not 1.5."
+  }
+]

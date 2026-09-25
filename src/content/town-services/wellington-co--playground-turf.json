@@ -1,0 +1,191 @@
+{
+  "status": "draft",
+  "town": "wellington-co",
+  "service": "playground-turf",
+  "title": "Playground Turf in Wellington, CO | NoCo Turf Co.",
+  "description": "Wellington's 2026 parks plan calls for pour-in-place surfacing under new town playgrounds. Where turf still fits: park play space, backyards and Buffalo Creek.",
+  "h1": "Wellington's 2026 parks plan calls for pour-in-place surfacing, not turf, under new town playgrounds",
+  "display": {
+    "paint": "pour-in-place surfacing"
+  },
+  "lede": "The plan aims that standard at town-led projects and asks that developers and schools hear about it too. Turf keeps a place in the Town's code beside playgrounds in new parks, and under backyard playsets, where Buffalo Creek's HOA has rules of its own.",
+  "answer": {
+    "question": "Can I put artificial turf under a backyard playset in Wellington?",
+    "answer": "Yes, as far as the Town code sections read for this page go: none sets a surfacing rule for a home playset, so the pad under the turf should be rated for the set's fall height. Buffalo Creek's HOA requires committee approval for play equipment. The Town's 2026 parks plan calls for pour-in-place surfacing under new town playgrounds. NoCo Turf Co. installs playground turf in Wellington."
+  },
+  "blocks": [
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "Town playgrounds",
+      "h2": "The 2026 PROST plan's first playground standard is pour-in-place surfacing.",
+      "paras": [
+        "Wellington's Board of Trustees adopted a Parks, Recreation, Open Spaces and Trails Master Plan in 2026. The plan says the Town should adopt a set of standards for town-led projects and communicate them to developers, schools and partner organizations. The first one for playgrounds: all new playgrounds must include pour-in-place safety surfacing for accessibility and durability.",
+        "The plan counts 8 town playgrounds, one for every 1,554 residents against an NRPA median of one per 1,990, and calls the one at Wellington Community Park the town's only destination playground. It rates the Viewpointe Park play structure very old and at the end of its life.",
+        "For an HOA or developer planning a park in Wellington, that standard is the first surfacing question to put to the Town. Fall-height and surfacing basics are in the [safety guides](/guides/safety/)."
+      ],
+      "layerRefs": [
+        "wellington-co.prost-adopted",
+        "wellington-co.prost-playground-surfacing",
+        "wellington-co.prost-park-metrics",
+        "wellington-co.prost-community-park",
+        "wellington-co.prost-viewpointe-playground"
+      ],
+      "sources": [
+        "https://www.wellingtoncolorado.gov/607/Town-Masterplans",
+        "https://www.wellingtoncolorado.gov/DocumentCenter/View/5820/Wellington-Parks-Recreation-Opens-Spaces-Trails-Master-Plan---Appendix"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Beside the playground",
+      "h2": "In a new Wellington park, the code puts turf on sport fields and the play space next to playgrounds.",
+      "paras": [
+        "Section 15-5-40's park standard covers new public parks, pocket parks, detention ponds, trail connections and common open space for public or HOA use. Only high-traffic areas, which it names as sport fields and informal play space adjacent to playgrounds, shall contain functional turf or high-water turf, and functional turf is capped at 50% of the landscaped area.",
+        "Section 15-9-20 lists playgrounds as functional artificial turf but defines turf itself as living grass. The park standard is written in the living-grass words, so how an artificial play lawn counts toward the 50% cap is not stated. It depends on the plan; ask Wellington Planning."
+      ],
+      "layerRefs": [
+        "wellington-co.code-15-5-40-parks-open-space",
+        "wellington-co.code-15-9-20-turf-terms"
+      ],
+      "sources": [
+        "https://library.municode.com/co/wellington/codes/municipal_code?nodeId=CH15LAUSCO_ART5DEST_S15-5-40LASC",
+        "https://library.municode.com/co/wellington/codes/municipal_code?nodeId=CH15LAUSCO_ART9DE_S15-9-20DETE"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Buffalo Creek",
+      "h2": "Buffalo Creek reviews play equipment and rules out metal A-frame swing sets.",
+      "paras": [
+        "Buffalo Creek at Wellington's guidelines, revised June 13, 2019, require Architectural Review Committee approval for play and sports equipment. Playhouses stay under 8 feet at the peak and 120 square feet inside, match the house in design, materials and color, and sit at least partly screened by landscaping.",
+        "Swing sets follow the playhouse rules, and metal A-frame swing sets are not allowed. Where sod is replaced, the same document says artificial turf or plants are prohibited, a line older than the Colorado rule printed below."
+      ],
+      "layerRefs": [
+        "wellington-co.buffalo-creek-play",
+        "wellington-co.buffalo-creek-turf-rules",
+        "co-hoa-backyard-detached"
+      ],
+      "sources": [
+        "https://www.buffalocreekhoa.com/_files/ugd/393016_c765f78371fa41c08df663199318a09e.pdf",
+        "https://leg.colorado.gov/bill_files/92307/download"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Child care",
+      "h2": "Child care centers are permitted in Wellington's commercial districts and conditional downtown.",
+      "paras": [
+        "Wellington's table of allowable uses permits a child care center in the C-1, C-2 and C-3 commercial districts and allows one as a conditional use in the R-4 Downtown Neighborhood district. The A, R-1, R-2, R-3 and manufactured-home districts don't list it.",
+        "A family child care home, as state law defines it, is left out of the Town's home-occupation rules. The code sections that place a center say nothing about the surface under its play equipment. The rest of the Town's turf rules are on the [Wellington page](/areas/wellington-co/)."
+      ],
+      "layerRefs": [
+        "wellington-co.code-15-4-child-care"
+      ],
+      "sources": [
+        "https://library.municode.com/co/wellington/codes/municipal_code?nodeId=CH15LAUSCO_ART4USRE"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Who decides what goes under a school playground in Wellington?",
+      "a": "The school district. Poudre School District built and runs Wellington Middle-High School, which opened in fall 2022. The Town's parks plan says its playground standard should be communicated to schools, but school grounds are district projects."
+    },
+    {
+      "q": "Does a backyard playset or playhouse need a Town permit?",
+      "a": "It depends. Wellington requires a building permit, unless exempted, for an accessory use or building added after the house (Section 15-4-40); whether a playset or a small playhouse counts isn't spelled out. Ask Wellington Planning before building anything with a roof."
+    },
+    {
+      "q": "Where are Wellington's town playgrounds?",
+      "a": "The Town's facility pages show playgrounds at Wellington Community Park (two), Viewpointe Park, Winick Park, Park Meadows, Sunrise Park and Harvest Park, and the 2026 parks plan counts 8 in all."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Town of Wellington, Town Master Plans page (PROST plan adopted by the Board of Trustees in 2026)",
+      "url": "https://www.wellingtoncolorado.gov/607/Town-Masterplans",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Wellington, Parks, Recreation, Open Spaces and Trails (PROST) Master Plan, 2026, full plan with appendices",
+      "url": "https://www.wellingtoncolorado.gov/DocumentCenter/View/5820/Wellington-Parks-Recreation-Opens-Spaces-Trails-Master-Plan---Appendix",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Wellington Municipal Code Sec. 15-5-40, Landscaping and screening, as amended by Ord. No. 13-2025, Oct. 28, 2025 (codified through Ord. No. 07-2026, July 14, 2026)",
+      "url": "https://library.municode.com/co/wellington/codes/municipal_code?nodeId=CH15LAUSCO_ART5DEST_S15-5-40LASC",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Wellington Municipal Code Sec. 15-9-20, Land Use Code defined terms (codified through Ord. No. 07-2026, July 14, 2026)",
+      "url": "https://library.municode.com/co/wellington/codes/municipal_code?nodeId=CH15LAUSCO_ART9DE_S15-9-20DETE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Buffalo Creek at Wellington HOA, Residential Improvement Guidelines and Site Restrictions (revised June 13, 2019)",
+      "url": "https://www.buffalocreekhoa.com/_files/ugd/393016_c765f78371fa41c08df663199318a09e.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "SB23-178 signed act: C.R.S. 38-33.3-106.5(1)(i.5) and 37-60-126(11)(a.5)",
+      "url": "https://leg.colorado.gov/bill_files/92307/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Wellington Municipal Code Secs. 15-4-20 (Table 4.02-1, Table of Allowable Uses) and 15-4-30(u) (codified through Ord. No. 07-2026, July 14, 2026)",
+      "url": "https://library.municode.com/co/wellington/codes/municipal_code?nodeId=CH15LAUSCO_ART4USRE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Wellington Municipal Code Sec. 15-4-40(b)(3)a and (c), Accessory uses and structures (codified through Ord. No. 07-2026, July 14, 2026)",
+      "url": "https://library.municode.com/co/wellington/codes/municipal_code?nodeId=CH15LAUSCO_ART4USRE_S15-4-40ACUSST",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Poudre School District, New Wellington Middle-High School project page (opened fall 2022)",
+      "url": "https://www.psdschools.org/community/mill-and-bond-initiatives/new-schools-and-facility-improvements/new-wellington-middle-high-school",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Wellington, Facilities: Wellington Community Park",
+      "url": "https://www.wellingtoncolorado.gov/facilities/facility/details/Wellington-Community-Park-10",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Wellington, Facilities: Viewpointe Park",
+      "url": "https://www.wellingtoncolorado.gov/facilities/facility/details/Viewpointe-Park-9",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Wellington, Facilities: Winick Park",
+      "url": "https://www.wellingtoncolorado.gov/facilities/facility/details/Winick-Park-11",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Wellington, Facilities: Park Meadows",
+      "url": "https://www.wellingtoncolorado.gov/facilities/facility/details/Park-Meadows-6",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Wellington, Facilities: Sunrise Park",
+      "url": "https://www.wellingtoncolorado.gov/facilities/facility/details/Sunrise-Park-17",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Wellington, Facilities: Harvest Park",
+      "url": "https://www.wellingtoncolorado.gov/facilities/facility/details/Harvest-Park-18",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Playground or playset turf jobs in Wellington: subdivision, month, height of the set, and the pad product and its fall-height rating",
+    "Camera-original photos from a Wellington play area: the one photos.ts photo with use 'play' was taken south of Windsor",
+    "Whether you have bid or been asked about a Town of Wellington, HOA or Poudre School District playground in Wellington, and what surfacing the owner specified",
+    "Buffalo Creek or other Wellington HOA approvals you have handled for play equipment"
+  ]
+}

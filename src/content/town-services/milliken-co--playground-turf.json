@@ -1,0 +1,196 @@
+{
+  "status": "draft",
+  "town": "milliken-co",
+  "service": "playground-turf",
+  "title": "Playground and Playset Turf in Milliken, CO | NoCo Turf Co.",
+  "description": "Milliken asks for a one-acre pocket park per 250 new homes, with live ground cover and play equipment. Town playgrounds, home daycare rules and playsets.",
+  "h1": "Milliken asks new subdivisions for a one-acre pocket park per 250 homes",
+  "display": {
+    "paint": "one-acre pocket park"
+  },
+  "lede": "Play areas in Milliken come from three places: the Town's own parks, the pocket parks its code makes developers build, and backyards, home daycares among them. Fall zones and pad ratings work the same in every town, and the [playground turf page](/services/playground-turf/) covers them; this page sticks to Milliken.",
+  "answer": {
+    "question": "Can I put artificial turf under a playset in Milliken?",
+    "answer": "Yes, with HOA review where a subdivision has one. A house already standing is exempt from most of Milliken's landscape standards, so a backyard play area turns mainly on covenants and the pad under the turf. New subdivisions build pocket parks with live ground cover, and a home daycare needs Town zoning approval. NoCo Turf Co. installs playground turf in Milliken, Colorado."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Pocket parks",
+      "h2": "Every 250 new homes in Milliken come with a one-acre pocket park.",
+      "paras": [
+        "Section 16-5-405 has developers build a one-acre pocket park for every 250 homes. At a minimum it needs live ground cover, trees and irrigation, plus playground equipment, a contemplative garden or another amenity the Town approves. A smaller project either builds one or, if it sits within half a mile of a neighborhood park, pays cash in lieu of its share.",
+        "The same section hands pocket parks, landscaped outlots and private recreation facilities to the homeowners' association or the landowner to own and maintain. 'Live ground cover' means living plants around the park; whether turf can go under the play equipment itself, the code doesn't say. It depends on the park's approved plan; ask Milliken Planning."
+      ],
+      "layerRefs": [
+        "milliken-co.code-16-5-405-pocket-parks",
+        "milliken-code-16-3-303-nonfunctional"
+      ],
+      "sources": [
+        "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTVSURE_DIV4LADE_S16-5-405PAOPSPTRRE",
+        "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIIGESTAPALDI_DIV3LABUFEWAST_S16-3-303NOTUNOARTUINPLTRSHGRSP"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "Town playgrounds",
+      "h2": "Milliken's town playgrounds run from Lola Park's 2016 equipment to Florence Park's pea gravel.",
+      "paras": [
+        "Lola Park, which the Town calls its oldest and most used park, got new shelters and playground equipment in 2016. Ada Park, south of Highway 60, has swing sets with 6 swings, a teeter totter and a tot structure, and Ehrlich Park in Colony Point and Kids and Cops Park beside the Police Department have playgrounds too.",
+        "Florence Park in Frank Farms is the one Town park page that names its surface: playground structures on a pea gravel base. Sappington Park, in the middle of Settlers Village beside Knowledge Quest Academy, has soccer fields and a large grassy area the school's students use at recess and in physical education."
+      ],
+      "layerRefs": [
+        "milliken-co.lola-park",
+        "milliken-co.ada-park",
+        "milliken-co.ehrlich-park",
+        "milliken-co.kids-cops-park",
+        "milliken-co.florence-park",
+        "milliken-co.sappington-park"
+      ],
+      "sources": [
+        "https://www.millikenco.gov/Facilities/Facility/Details/Lola-Park-6",
+        "https://www.millikenco.gov/Facilities/Facility/Details/Ada-Park-9",
+        "https://www.millikenco.gov/Facilities/Facility/Details/Ehrlich-Park-Lake-10",
+        "https://www.millikenco.gov/Facilities/Facility/Details/Kids-Cops-Park-17",
+        "https://www.millikenco.gov/Facilities/Facility/Details/Florence-Park-11",
+        "https://www.millikenco.gov/Facilities/Facility/Details/Sappington-Park-13"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Home daycare",
+      "h2": "A Milliken home daycare needs Town zoning approval; a daycare center needs a conditional use.",
+      "paras": [
+        "Section 16-4-210 lets a state-licensed family childcare home run as a home occupation once it has zoning approval from the Town and a business license. The same section says a property's exterior can't be altered for the purpose of a home occupation. Whether turfing the play yard counts as that, the code doesn't say. It depends on the job; ask Milliken Planning before the work starts.",
+        "A childcare center, which the code defines as a facility that isn't a residence and is licensed by the State, is a conditional use in the R-1 single-family district rather than a use by right."
+      ],
+      "layerRefs": [
+        "milliken-co.code-16-4-210-family-childcare",
+        "milliken-co.code-16-2-110-childcare-centers"
+      ],
+      "sources": [
+        "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIVSPRE_DIV2SPUS_S16-4-210HOOC",
+        "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIZODIUS_S16-2-110SIMIRE"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Settlers Village",
+      "h2": "In Settlers Village, the playset and the turf under it both go to the review committee.",
+      "paras": [
+        "The subdivision's recorded covenants require the Architectural Review Committee's written approval before any structure or other improvement, fences and landscaping included, is built or changed. A swing set reads as a structure and the turf beneath it as landscaping, so both belong on the same application."
+      ],
+      "layerRefs": [
+        "milliken-co.settlers-village-arc",
+        "co-hoa-backyard-detached"
+      ],
+      "sources": [
+        "https://www.settlersvillagehoa.net/_files/ugd/98f97b_68fd2c3655784cae946a2f9a2b4e9f23.pdf",
+        "https://leg.colorado.gov/bill_files/92307/download"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does a backyard playset need a building permit in Milliken?",
+      "a": "Maybe not. Milliken lets an accessory building or structure of 120 square feet or less, measured around its perimeter, go up without a building permit. Whether a given playset counts as one, the code doesn't say. It depends on the set; ask the Town's building department."
+    },
+    {
+      "q": "Can an HOA turf its playground under Milliken's turf ban?",
+      "a": "The ban doesn't reach it. Milliken's Section 16-3-303 borrows the state's definitions, and the state counts playgrounds as functional artificial turf. A pocket park's minimum of live ground cover still applies to the park around the play area."
+    },
+    {
+      "q": "Who runs youth sports in Milliken?",
+      "a": "Thompson Rivers Parks and Recreation District. The Town sends residents to the district for youth and adult sports, recreation programs and the Milliken Sports Complex."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Milliken Municipal Code Sec. 16-5-405(e), Park, Open space, and Trail Requirements (codified through Ord. No. 838, March 25, 2026)",
+      "url": "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTVSURE_DIV4LADE_S16-5-405PAOPSPTRRE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Milliken Municipal Code Secs. 16-3-303 and 16-3-305(c) (Ord. 831, Dec. 22, 2025; codified through Ord. No. 838, March 25, 2026)",
+      "url": "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIIGESTAPALDI_DIV3LABUFEWAST_S16-3-303NOTUNOARTUINPLTRSHGRSP",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Milliken, Facilities: Lola Park",
+      "url": "https://www.millikenco.gov/Facilities/Facility/Details/Lola-Park-6",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Milliken, Facilities: Ada Park",
+      "url": "https://www.millikenco.gov/Facilities/Facility/Details/Ada-Park-9",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Milliken, Facilities: Ehrlich Park & Lake",
+      "url": "https://www.millikenco.gov/Facilities/Facility/Details/Ehrlich-Park-Lake-10",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Milliken, Facilities: Kids & Cops Park",
+      "url": "https://www.millikenco.gov/Facilities/Facility/Details/Kids-Cops-Park-17",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Milliken, Facilities: Florence Park",
+      "url": "https://www.millikenco.gov/Facilities/Facility/Details/Florence-Park-11",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Milliken, Facilities: Sappington Park",
+      "url": "https://www.millikenco.gov/Facilities/Facility/Details/Sappington-Park-13",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Milliken Municipal Code Sec. 16-4-210(a), Home Occupations (codified through Ord. No. 838, March 25, 2026)",
+      "url": "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIVSPRE_DIV2SPUS_S16-4-210HOOC",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Milliken Municipal Code Secs. 16-2-110(b)(2) and 16-8-200, \"Childcare center\" (codified through Ord. No. 838, March 25, 2026)",
+      "url": "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIZODIUS_S16-2-110SIMIRE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Declaration of Covenants, Conditions, and Restrictions for Settlers Village Subdivision, Art. XI, Sec. 2 (recorded Aug. 27, 2001, Weld County Reception No. 2877827)",
+      "url": "https://www.settlersvillagehoa.net/_files/ugd/98f97b_68fd2c3655784cae946a2f9a2b4e9f23.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "SB23-178 signed act: C.R.S. 38-33.3-106.5(1)(i.5)",
+      "url": "https://leg.colorado.gov/bill_files/92307/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Milliken Municipal Code Sec. 16-3-500(a), accessory structures of 120 square feet or less (codified through Ord. No. 838, March 25, 2026)",
+      "url": "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIIGESTAPALDI_DIV4BUDEST_S16-3-500ACBUST",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "HB25-1113 signed act: C.R.S. 37-99-102(6.5), functional artificial turf",
+      "url": "https://leg.colorado.gov/bill_files/40673/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Milliken, Parks & Lakes (Thompson River Parks & Recreation)",
+      "url": "https://www.millikenco.gov/186/Parks-Lakes",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Playset or play-area turf you have installed in Milliken: subdivision, month, size, and the fall height of the set",
+    "Camera-original photos of a Milliken play area (the only play photo in photos.ts is from south of Windsor and can't stand in)",
+    "Any Milliken home daycare, childcare center, HOA pocket park or school play area you have turfed or bid, and whether the Town asked for zoning approval or a plan",
+    "Whether a Settlers Village playset-and-turf job has gone through the Architectural Review Committee, and what it asked for",
+    "Where exactly the 'south of Windsor' playset job (photos.ts 'playset') sits: if it is inside Milliken or on its edge, it could be this page's photo"
+  ]
+}

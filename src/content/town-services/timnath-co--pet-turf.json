@@ -1,0 +1,210 @@
+{
+  "status": "draft",
+  "town": "timnath-co",
+  "service": "pet-turf",
+  "title": "Dog Runs and Pet Turf in Timnath, CO | NoCo Turf Co.",
+  "description": "Dog runs in Timnath: two metro districts cap them at 200 sq ft and one requires drainage, while the Town code sets no dog limit but treats odor as a nuisance.",
+  "h1": "Two Timnath metro districts cap a backyard dog run at 200 square feet.",
+  "display": {
+    "paint": "200 square feet"
+  },
+  "lede": "The Town of Timnath doesn't count your dogs. Two of its metro districts measure the run instead: Timnath Lakes and Kitchel Lake both stop a dog run at 200 square feet, and Kitchel Lake says the run has to drain without sending urine next door.",
+  "answer": {
+    "question": "How big can a dog run be in Timnath?",
+    "answer": "In Timnath Lakes and Kitchel Lake, 200 square feet, with district approval first. Kitchel Lake also requires a run to drain without sending urine onto neighboring lots. The Town's code sets no number of dogs but makes owners clear feces before they become a nuisance. NoCo Turf Co. installs dog runs and pet turf in Timnath, Colorado."
+  },
+  "blocks": [
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Timnath Lakes and Kitchel Lake",
+      "h2": "Both districts stop a dog run at 200 square feet, and Kitchel Lake requires it to drain.",
+      "takeaway": "Kitchel Lake's line about urine is a drainage rule: a run that sheds liquid sideways breaks it.",
+      "paras": [
+        "Timnath Lakes' design criteria require approval for a dog run and hold it to 200 square feet unless the committee grants a variance. The run goes in the rear or side yard against the house, screened by trees or shrubs, and in the side yard if the house backs onto common area. Its fence is wood, sealed and left a natural color.",
+        "Kitchel Lake's 2023 rules set the same 200-square-foot limit, keep the fence at 4 feet or lower, rule out tarps and chain-link, and say every dog run must be free-draining and must not discharge urine or diluted waste onto neighboring lots. Under turf, that means the base carries liquid down rather than toward the fence line; the [pet turf page](/services/pet-turf/) covers the layers."
+      ],
+      "layerRefs": [
+        "timnath-co.timnath-lakes-dog-runs",
+        "timnath-co.kitchel-lake-dog-runs",
+        "co-special-district-backyard"
+      ],
+      "sources": [
+        "https://web.archive.org/web/20240527033949/https://timnathlakesmetrodistricts1-6.com/uploads/tlmd-rules-and-regs-final-version-ratified-1.28.22-.pdf",
+        "https://www.serratogafallsmd1.org/files/6b86004a3/Rules+and+Regs_SFMD1+-+Approved.pdf",
+        "https://leg.colorado.gov/bill_files/92307/download"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "How many dogs",
+      "h2": "Timnath's code names no dog limit; the covenants are where numbers appear.",
+      "paras": [
+        "Sec. 7-9-340 of the municipal code bars keeping more pets than can be properly maintained in a healthy condition without a health or safety hazard or a nuisance to neighbors, and stops there: no count. Timnath Lakes' rules allow up to 3 domestic pets per lot. Kitchel Lake allows a reasonable number of household pets, kept without a nuisance and not for any commercial purpose, breeding included.",
+        "Timnath Ranch's guidelines list dog runs, enclosures and electric dog fences among the items its committee has to approve. Under the Town's definitions, a pet inside a fence or enclosure is under restraint, and a yard that relies on an invisible fence must post a sign saying so."
+      ],
+      "layerRefs": [
+        "timnath-co.code-7-9-340-pet-quantity",
+        "timnath-co.timnath-lakes-three-pets",
+        "timnath-co.kitchel-lake-pets",
+        "timnath-co.timnath-ranch-approval-items",
+        "timnath-co.code-7-9-10-restraint",
+        "timnath-co.code-7-9-110-dog-license",
+        "timnath-co.noco-humane-license-annual"
+      ],
+      "sources": [
+        "https://library.municode.com/co/timnath/codes/municipal_code?nodeId=CD_CH7HESAAN_ART9AN_DIV3RE_S7-9-340QUPEANRE",
+        "https://library.municode.com/co/timnath/codes/municipal_code?nodeId=CD_CH7HESAAN_ART9AN_DIV1GEPR_S7-9-10DE",
+        "https://web.archive.org/web/20240527033949/https://timnathlakesmetrodistricts1-6.com/uploads/tlmd-rules-and-regs-final-version-ratified-1.28.22-.pdf",
+        "https://www.serratogafallsmd1.org/files/6b86004a3/Rules+and+Regs_SFMD1+-+Approved.pdf",
+        "https://www.timnathranchmd.live/files/8c91d1751/Timnath-Ranch-ACC-Guidelines-Amended-2020-06-25-Final.pdf"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Waste and odor",
+      "h2": "Timnath's code reaches into your own yard: feces come out before they become a nuisance.",
+      "paras": [
+        "Sec. 7-9-240 asks for two things. Off your property, feces get picked up right away. On your own lot, they come out periodically, so the yard doesn't turn into a public nuisance under Sec. 7-9-320, which counts an animal creating offensive odors that materially interfere with a neighbor at home.",
+        "NOCO Humane provides animal protection and control for the Town, and the Town's own code-violation form says not to use it for animal complaints. On a turf dog run, pickup and rinsing are how an owner stays on the right side of those two sections."
+      ],
+      "layerRefs": [
+        "timnath-co.code-7-9-240-pet-waste",
+        "timnath-co.code-7-9-320-odor-nuisance",
+        "timnath-co.noco-humane-partner",
+        "timnath-co.code-form-not-animal"
+      ],
+      "sources": [
+        "https://library.municode.com/co/timnath/codes/municipal_code?nodeId=CD_CH7HESAAN_ART9AN_DIV3RE_S7-9-240REANWARE",
+        "https://library.municode.com/co/timnath/codes/municipal_code?nodeId=CD_CH7HESAAN_ART9AN_DIV3RE_S7-9-320PUANNUPR",
+        "https://web.archive.org/web/20260810221035/https://timnath.org/code-enforcement/",
+        "https://www.nocohumane.org/animal-control/timnath/"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "Dog parks",
+      "h2": "Off leash in Timnath means a dog park or a fence at home.",
+      "paras": [
+        "Two Town parks have dog parks: one at the east end of Timnath Community Park, about 25 acres south of Bethke Elementary, and one at WildWing Park, which also lists a playground and multi-use fields. The Community Park rules ask for no more than three dogs per visit and ask owners to fill in any holes their dogs dig.",
+        "Elsewhere in the parks, pets stay leashed and owners clean up. Sec. 7-9-300 keeps every pet under restraint but exempts dogs in areas designated or signed for animals at large, such as dog parks, which leaves a fenced yard as the other place a Timnath dog runs loose."
+      ],
+      "layerRefs": [
+        "timnath-co.community-park-dog-park",
+        "timnath-co.community-park-size",
+        "timnath-co.wildwing-park-features",
+        "timnath-co.dog-park-three-dogs",
+        "timnath-co.dog-park-holes",
+        "timnath-co.park-leash-rule",
+        "timnath-co.code-7-9-300-dog-parks"
+      ],
+      "sources": [
+        "https://web.archive.org/web/20251115173933/https://timnath.org/timnath-community-park/",
+        "https://web.archive.org/web/20251210230709/https://timnath.org/wildwing-park/",
+        "https://library.municode.com/co/timnath/codes/municipal_code?nodeId=CD_CH7HESAAN_ART9AN_DIV3RE_S7-9-300ANLAPR"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does my dog need a license in Timnath?",
+      "a": "Yes. Sec. 7-9-110 gives a dog's owner 30 days after getting the dog or moving to town to license it, and the license has to stay current. NOCO Humane's Timnath page says cats and dogs older than four months are licensed every year."
+    },
+    {
+      "q": "Can pet turf go in a Timnath front yard?",
+      "a": "Not in Timnath Lakes, whose criteria allow artificial turf in rear yards only, and not instead of required front-yard sod in Kitchel Lake. Timnath Lakes does allow a dog run in the side yard, so a narrow lot still has a place for one."
+    },
+    {
+      "q": "Does a dog run need a Town permit in Timnath?",
+      "a": "It depends on what you build. The animal article of the municipal code has no dog-run or kennel permit, but a new fence or structure may need one, and the land use code now limits artificial turf in landscape plans. Ask Timnath Planning. In a metro district, the design committee's approval is a separate step."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Timnath Lakes, Design Criteria and Rules and Regulations (adopted Nov. 8, 2021; Wayback copy 2024-05-27)",
+      "url": "https://web.archive.org/web/20240527033949/https://timnathlakesmetrodistricts1-6.com/uploads/tlmd-rules-and-regs-final-version-ratified-1.28.22-.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Serratoga Falls Metropolitan District #1, Rules and Regulations, Kitchel Lake, Filing 3 (adopted March 30, 2023)",
+      "url": "https://www.serratogafallsmd1.org/files/6b86004a3/Rules+and+Regs_SFMD1+-+Approved.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Timnath Ranch Architectural Guidelines (last amended 06/25/20)",
+      "url": "https://www.timnathranchmd.live/files/8c91d1751/Timnath-Ranch-ACC-Guidelines-Amended-2020-06-25-Final.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Timnath Municipal Code Sec. 7-9-340, Quantity of pet animals restricted",
+      "url": "https://library.municode.com/co/timnath/codes/municipal_code?nodeId=CD_CH7HESAAN_ART9AN_DIV3RE_S7-9-340QUPEANRE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Timnath Municipal Code Sec. 7-9-10, Definitions (restraint)",
+      "url": "https://library.municode.com/co/timnath/codes/municipal_code?nodeId=CD_CH7HESAAN_ART9AN_DIV1GEPR_S7-9-10DE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Timnath Municipal Code Sec. 7-9-240, Removal of animal waste required",
+      "url": "https://library.municode.com/co/timnath/codes/municipal_code?nodeId=CD_CH7HESAAN_ART9AN_DIV3RE_S7-9-240REANWARE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Timnath Municipal Code Sec. 7-9-320, Public animal nuisance prohibited",
+      "url": "https://library.municode.com/co/timnath/codes/municipal_code?nodeId=CD_CH7HESAAN_ART9AN_DIV3RE_S7-9-320PUANNUPR",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Timnath Municipal Code Sec. 7-9-300, Animals at large prohibited",
+      "url": "https://library.municode.com/co/timnath/codes/municipal_code?nodeId=CD_CH7HESAAN_ART9AN_DIV3RE_S7-9-300ANLAPR",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Timnath Municipal Code Sec. 7-9-110, License required",
+      "url": "https://library.municode.com/co/timnath/codes/municipal_code?nodeId=CD_CH7HESAAN_ART9AN_DIV2ANLI_S7-9-110LIRE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "NOCO Humane, Animal Protection & Control: Timnath",
+      "url": "https://www.nocohumane.org/animal-control/timnath/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Timnath, Timnath Community Park (Wayback snapshot 2025-11-15)",
+      "url": "https://web.archive.org/web/20251115173933/https://timnath.org/timnath-community-park/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Timnath, WildWing Park (Wayback snapshot 2025-12-10)",
+      "url": "https://web.archive.org/web/20251210230709/https://timnath.org/wildwing-park/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "C.R.S. 37-60-126(11)(a.5), added by SB23-178 (signed act)",
+      "url": "https://leg.colorado.gov/bill_files/92307/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Timnath, Code Enforcement and Animal Control (Wayback snapshot 2026-08-10)",
+      "url": "https://web.archive.org/web/20260810221035/https://timnath.org/code-enforcement/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Timnath Ordinance No. 28, Series 2025 (Land Use Code amendments, adopted Dec. 9, 2025)",
+      "url": "https://library.municode.com/co/timnath/ordinances/municipal_code?nodeId=1412646",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Dog runs or pet turf you have installed in Timnath: subdivision or district, month, rough size, number and size of dogs",
+    "Camera-original photos of a Timnath dog run; photos.ts has no pet photo yet, from Timnath or anywhere else",
+    "Any Timnath Lakes or Kitchel Lake dog-run approval you have handled: did the committee grant more than 200 square feet, and what did it ask to see about drainage",
+    "Whether any Timnath job needed a Town fence permit along with the district approval",
+    "Timnath customers' words on why they moved to turf for their dogs (mud, smell, digging), with consent to quote"
+  ]
+}

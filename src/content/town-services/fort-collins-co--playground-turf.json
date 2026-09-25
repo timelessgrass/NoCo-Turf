@@ -1,0 +1,110 @@
+{
+  "status": "draft",
+  "town": "fort-collins-co",
+  "service": "playground-turf",
+  "title": "Playground and Playset Turf in Fort Collins, CO | NoCo Turf Co.",
+  "description": "Fort Collins lets new developments plant bluegrass at a playground but allows artificial turf only on athletic fields. Backyard sets, day care homes, centers.",
+  "h1": "Fort Collins lets new developments plant real grass at a playground, and artificial turf only on an athletic field.",
+  "display": {
+    "paint": "artificial turf only on an athletic field"
+  },
+  "lede": "For play turf in Fort Collins, the rule turns on whose ground it is. A backyard playset on an existing house lot sits outside the city's development turf section. A new park, a child care center or an HOA play area drawn into a development plan sits inside it, where the uses allowed thirsty live grass start with playgrounds.",
+  "answer": {
+    "question": "Can I put artificial turf under a playset in Fort Collins?",
+    "answer": "On an existing single- or two-unit house lot, yes: the Land Use Code's turf section doesn't apply. In a new development's landscape plan, Fort Collins allows artificial turf only on an athletic field of play, by the Director's exception, while high-water live turf may go at playgrounds. Under any playset, fall height decides the surfacing. Not legal advice."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Land Use Code 5.10.1",
+      "h2": "Where a development plan applies, a playground may get bluegrass but not artificial turf.",
+      "paras": [
+        "In the developments it covers, section 5.10.1 lets high-water turf grass such as Kentucky bluegrass go only where people play or gather, and its list opens with playgrounds, sports fields, picnic grounds and parts of parks. The artificial-turf clause in the same section is narrower: the Director may allow it only on an athletic field of play, and only after deciding the use is appropriate, adds no pollutants that could cause environmental impairment and has no reasonable alternative.",
+        "Colorado's 2025 amendment names playgrounds as functional turf that the state's new-development ban leaves alone, so Fort Collins is stricter than the state here. A play area in a new subdivision, park or apartment plan in the city sits outside the athletic-field exception as written. Whether a tested playground surface counts as artificial turf under the section depends on the plan, so ask Fort Collins Planning before designing one. Not legal advice.",
+        "None of this reaches a backyard playset behind a house that already stands on its own single- or two-unit lot, which the section exempts. The [Fort Collins turf page](/areas/fort-collins-co/) has that clause."
+      ],
+      "layerRefs": [
+        "fort-collins-co.luc-5-10-1-live-turf-and-cover",
+        "fort-collins-co.luc-5-10-1-field-of-play",
+        "co-hb25-1113-functional-turf",
+        "fc-luc-5.10.1"
+      ],
+      "sources": [
+        "https://mccmeetingspublic.blob.core.usgovcloudapi.net/fortcollco-meet-0538ebaac95447ff8c4f53ebc4c0adf8/ITEM-Attachment-004-785f079234b4438a8e8675d01d6f3bd4.pdf",
+        "https://leg.colorado.gov/bill_files/40673/download"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Child care in the Land Use Code",
+      "h2": "A Fort Collins child care center needs at least 1,200 square feet of outdoor play, fenced 6 feet high in or next to a residential district.",
+      "paras": [
+        "Land Use Code 4.3.3(G) sizes a center's outdoor play area at the greater of 1,200 square feet or 75 square feet per child for 33% of the center's capacity. Where the play area is within or next to a residential district, it must be enclosed by a solid wood fence, a masonry wall or a chain link fence screened with dense planting, at least 6 feet tall. Drop-in centers don't need the play area.",
+        "A home day care is treated differently. Section 4.3.1(C)(2) permits state-licensed day care homes as an accessory use of a residence, so the play yard is a house's backyard, and on an existing single- or two-unit lot the development turf section doesn't reach it. A new center built through a development plan falls under section 5.10.1, where the athletic-field-only turf clause governs its landscape areas; how the city counts a surfaced play yard in that plan is a question for Fort Collins Planning before the design is drawn."
+      ],
+      "layerRefs": [
+        "fort-collins-co.luc-4-3-child-care"
+      ],
+      "sources": [
+        "https://www.fortcollins.gov/files/sharedassets/city/v/3/planning-development-amp-transportation/community-development/planning/land-use-code/article-4-use-standards.pdf"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What should be under a playset, turf or not?",
+      "a": "A surface rated for the fall height. The U.S. Consumer Product Safety Commission's handbook says a surface's critical height rating should be greater than or equal to the fall height of the highest equipment, that grass and dirt aren't protective surfacing, and that carpeting and mats aren't appropriate unless tested to ASTM F1292. The build side is on the [playground turf page](/services/playground-turf/)."
+    },
+    {
+      "q": "Can turf under a playset run into the parkway strip in Fort Collins?",
+      "a": "No. The strip between sidewalk and curb is city right-of-way, and the Streetscape Standards adopted in December 2025 say no artificial turf may be included in any streetscape. Keep the play area behind the sidewalk."
+    },
+    {
+      "q": "Does a fence around a backyard play area need a Fort Collins permit?",
+      "a": "Not at 6 feet or under. The city needs no permit for a fence that tall or shorter, holds rear-yard fences to 6 feet and front-yard fences to 4, and keeps fences at least 2 feet from a public sidewalk and out of drainage easements."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Fort Collins Land Use Code 5.10.1, Ordinance No. 008, 2025 (effective Feb. 14, 2025; same text in the current Article 5)",
+      "url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/fortcollco-meet-0538ebaac95447ff8c4f53ebc4c0adf8/ITEM-Attachment-004-785f079234b4438a8e8675d01d6f3bd4.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "HB25-1113 signed act: C.R.S. 37-99-102(6.5), functional artificial turf",
+      "url": "https://leg.colorado.gov/bill_files/40673/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Fort Collins Land Use Code Article 4 Use Standards, 4.3.1(C)(2) Day Care Homes and 4.3.3(G) Child Care Center",
+      "url": "https://www.fortcollins.gov/files/sharedassets/city/v/3/planning-development-amp-transportation/community-development/planning/land-use-code/article-4-use-standards.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "U.S. Consumer Product Safety Commission, Public Playground Safety Handbook (Pub. 325), section 2.4 Surfacing: critical height and ASTM F1292",
+      "url": "https://www.cpsc.gov/s3fs-public/325.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Fort Collins Streetscape Standards, Exhibit A to Ordinance No. 202, 2025 (adopted Dec. 16, 2025)",
+      "url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/fortcollco-meet-9b4e8e099e3f4e9cbeaa4a206b542f9a/ITEM-Attachment-001-c4cbe11e9146456885974472aba7c2ef.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Fort Collins, Rules for Common Projects: Fences",
+      "url": "https://www.fortcollins.gov/Government/City-Code-and-Charter/Building-Code/Rules-for-Common-Projects",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Confirm NoCo installs playground turf today, at home and for HOAs, day care homes, centers or schools (services.ts has playground-turf confirmed: false).",
+    "Any Fort Collins play-area job: neighborhood, month, playset height, pad used, and whether it was a home, a licensed day care home or a center.",
+    "Camera-original photos of a Fort Collins play area. The only photo with use 'play' in photos.ts was taken south of Windsor, so this page has no photo and can't pass the gate.",
+    "The shock pads you install with their manufacturer fall-height ratings (ASTM F1292 test documents); the page makes no fall-height claim for NoCo without them.",
+    "Whether a Fort Collins center, school, HOA or park has asked NoCo for play turf in a development plan, and what the city said about the athletic-field exception.",
+    "This page has two substantive blocks and needs a third honest one: a Fort Collins play-area job of yours would be the strongest candidate."
+  ]
+}

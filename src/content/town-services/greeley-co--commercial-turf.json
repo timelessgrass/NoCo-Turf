@@ -1,0 +1,171 @@
+{
+  "status": "draft",
+  "town": "greeley-co",
+  "service": "commercial-turf",
+  "title": "Commercial and HOA Turf in Greeley, CO | NoCo Turf Co.",
+  "description": "Greeley has no nonfunctional-turf section; Sec. 24-802 keeps turf on new commercial, multifamily and subdivision sites out of street view. Dog daycare runs too.",
+  "h1": "Greeley has no nonfunctional-turf section of its own, but its code keeps new artificial turf out of street view.",
+  "display": {
+    "paint": "out of street view"
+  },
+  "lede": "Colorado's ban on nonfunctional artificial turf has applied to new development since January 1, 2026. Greeley's development code, codified through Ord. No. 16, 2026, adds no section of its own; what it has is an older line: in new development, artificial turf only where streets can't see it. Checked September 25, 2026. Not legal advice.",
+  "answer": {
+    "question": "Can a Greeley business or HOA still install artificial turf?",
+    "answer": "On commercial property and HOA common ground, new development since January 1, 2026 may use only functional turf under Colorado law, such as a playground, sports field, picnic ground or putting green. Greeley's own code adds that artificial turf in new development must not be visible from public streets. For a site in Greeley, ask NoCo Turf Co. about a bid."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "The city's line",
+      "h2": "Greeley's code draws one turf line for new development: out of sight of the street.",
+      "takeaway": "Not legal advice. Read it alongside the state ban, which applies on its own.",
+      "paras": [
+        "Greeley's development code uses the words artificial turf in two places only: Sec. 24-802, which accepts it as ground cover only in areas not visible from public rights-of-way and streets, and the Sec. 24-1301 definitions, which say artificial turf is not lawn or turf-grass. A search of all of Title 24, codified through Ord. No. 16, 2026, found no section on nonfunctional turf.",
+        "The landscape standards apply in full to major development: any new nonresidential or multifamily building, an expansion of more than 25 percent, or a project of more than five new houses, covering the whole site, its streets and frontages, and any common areas. Minor work meets them only to the extent of the work, and development in Downtown Overlay 1 and the Redevelopment District is exempt.",
+        "Separately, since January 1, 2026, Colorado bars cities and special and metro districts from installing or allowing nonfunctional artificial turf in new development or redevelopment of commercial, institutional, industrial and HOA common property; multifamily common areas with more than 12 units join the list on January 1, 2028. Where the state allows functional turf but Greeley's street-view line still applies, it depends on the site plan: ask Greeley Planning."
+      ],
+      "layerRefs": [
+        "greeley-code-24-802-not-visible",
+        "greeley-co.code-24-1301-turf-not-lawn",
+        "greeley-co.code-title-24-no-nonfunctional",
+        "greeley-co.code-24-801-major-development",
+        "co-sb24-005-nonfunctional-ban",
+        "co-sb24-005-applicable-property",
+        "co-sb24-005-redevelopment",
+        "co-sb24-005-maintain-existing",
+        "co-hb25-1113-multifamily-2028"
+      ],
+      "sources": [
+        "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH8LAST_S24-802LADE",
+        "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH13DETE_S24-1301DE",
+        "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO",
+        "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH8LAST_S24-801INAP",
+        "https://leg.colorado.gov/bill_files/40673/download",
+        "https://leg.colorado.gov/bill_files/45372/download"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "Turf already in town",
+      "h2": "UNC's Nottingham Field went from grass to turf in 2021.",
+      "paras": [
+        "UNC Athletics announced in June 2021 that the natural grass at Nottingham Field would be replaced with turf, completed for the September 18 home opener against Lamar. The stadium opened in 1995 and had been one of two Big Sky fields still on grass. Sports fields sit squarely inside Colorado's definition of functional turf.",
+        "The city made the same call for play: its replacement playground at Twin Rivers Community Park lists synthetic turf as the primary accessible play safety surfacing. For an HOA, metro district or business field inside city limits, the street-view line in Sec. 24-802 is the question to settle first."
+      ],
+      "layerRefs": [
+        "greeley-co.unc-nottingham-field-turf",
+        "greeley-co.twin-rivers-playground",
+        "co-hb25-1113-functional-turf"
+      ],
+      "sources": [
+        "https://uncbears.com/news/2021/6/16/football-nottingham-field-to-receive-a-change-of-surface",
+        "https://speakupgreeley.com/twinrivers",
+        "https://leg.colorado.gov/bill_files/40673/download"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Dog daycare yards",
+      "h2": "Greeley keeps outdoor dog daycare yards in two industrial districts and caps a shared yard at 60 dogs.",
+      "paras": [
+        "Greeley's use table puts animal care with significant outdoor activity, including play areas where animals are kept, in its large category, and permits that category only in the I-L and I-M industrial districts. Indoor care with boarding counts as general, permitted in C-H, MU-H, I-L and I-M and by special review in C-L and MU-L. No animal care use is listed for a residential district.",
+        "Once the site is zoned right, Sec. 24-404 sizes the yard: dog runs and exercise areas at any animal care facility must be at least three times the dog's length, nose to base of tail. At a kennel where more than 15 dogs share an area, one adult supervisor is required per 15 dogs, and no enclosure or common area may hold more than 60 at a time."
+      ],
+      "layerRefs": [
+        "greeley-co.code-24-402-animal-care-districts",
+        "greeley-co.code-24-404-animal-care"
+      ],
+      "sources": [
+        "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH4ZODIUS_S24-404SPUSST",
+        "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH4ZODIUS_S24-402ALUS"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can an existing Greeley HOA replace its common-area turf?",
+      "a": "It depends on the scope. Colorado's turf law does not stop a local government from letting turf installed before January 1, 2026 be maintained, but a project that needs a permit or design review and disturbs more than 50% of the landscape area is redevelopment. Ask Greeley Planning before replacing a whole area."
+    },
+    {
+      "q": "Does the state ban reach Greeley's metro districts?",
+      "a": "Yes. The state law binds special and metro districts as well as the city. Greeley's code has a chapter on metropolitan district service plans, but it sets no turf rule of its own."
+    },
+    {
+      "q": "Is Greeley rewriting its landscape code?",
+      "a": "In part. Planning staff took landscape code updates to the Planning Commission on July 14, 2026, and the slides covered the front yards of houses, a permit path for front-yard turf and tree mitigation, not commercial turf. The city's September 22, 2026 status report still listed the turf change as awaiting a draft ordinance."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Greeley Municipal Code Sec. 24-802 (Ord. No. 36, 2021; codified through Ord. No. 16, 2026)",
+      "url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH8LAST_S24-802LADE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Greeley Municipal Code Sec. 24-1301 definitions (artificial turf, lawn, turf-grass)",
+      "url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH13DETE_S24-1301DE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Greeley Municipal Code Title 24 on Municode, full-text search September 25, 2026 (all 14 chapters; Chapter 12, metropolitan districts, has no turf rule)",
+      "url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Greeley Municipal Code Sec. 24-801.b, landscape standards applicability (Ord. No. 36, 2021; Ord. No. 20, 2025)",
+      "url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH8LAST_S24-801INAP",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Greeley Municipal Code Sec. 24-404.c, animal care standards",
+      "url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH4ZODIUS_S24-404SPUSST",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Greeley Municipal Code Sec. 24-402, Table 24-4-2 (animal care: general and large by district)",
+      "url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH4ZODIUS_S24-402ALUS",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "UNC Athletics news, June 16, 2021: Nottingham Field to receive a change of surface",
+      "url": "https://uncbears.com/news/2021/6/16/football-nottingham-field-to-receive-a-change-of-surface",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Speak Up Greeley, Twin Rivers Playground Replacement",
+      "url": "https://speakupgreeley.com/twinrivers",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Greeley Planning Commission agenda packet, July 14, 2026: Landscape & Sign Code Updates slides",
+      "url": "https://greeleyco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=9205,plainText=false)",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Greeley City Council work session packet, Sept. 22, 2026: Status Report of Council Initiatives (11-2023)",
+      "url": "https://greeleyco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=9580,plainText=false)",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "HB25-1113 signed act: C.R.S. 37-99-102(6.5), (10.5) and 37-99-103, SB24-005 as amended",
+      "url": "https://leg.colorado.gov/bill_files/40673/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "SB24-005 signed act: C.R.S. 37-99-102(1)(a), (14) and 37-99-103(4)(a)",
+      "url": "https://leg.colorado.gov/bill_files/45372/download",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Commercial, HOA, metro district, school or sports turf jobs in Greeley: site type, month, size and what the turf is for",
+    "Camera-original photos of your own commercial, HOA or sports job to add to photos.ts with use \"commercial\" (none exists yet, so this page cannot pass the gate)",
+    "The Greeley HOAs, metro districts or property managers you have bid or worked for, and whether any site plan raised the Sec. 24-802 street-view rule",
+    "Whether NoCo bids dog daycare or boarding yards",
+    "Confirmation that NoCo does commercial turf today (services.ts: commercial-turf is not confirmed yet)"
+  ]
+}

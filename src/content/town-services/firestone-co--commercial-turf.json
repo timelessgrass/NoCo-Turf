@@ -1,0 +1,205 @@
+{
+  "status": "draft",
+  "town": "firestone-co",
+  "service": "commercial-turf",
+  "title": "Commercial and HOA Turf in Firestone, CO | NoCo Turf Co.",
+  "description": "Firestone's code, codified through Dec. 2025, still lets turf into common areas with Town approval. State law now bans nonfunctional turf in new development.",
+  "h1": "Firestone's code still lets turf into common areas with Town approval, but in new development state law allows only functional turf.",
+  "display": {
+    "paint": "allows only functional turf"
+  },
+  "lede": "HOA and metro-district common ground, business sites and park fields in Firestone sit between a Town code last codified in December 2025 and Colorado's ban on nonfunctional turf in new development, in force since January 1, 2026.",
+  "answer": {
+    "question": "Can an HOA or business in Firestone install artificial turf?",
+    "answer": "In new development or redevelopment, only functional turf such as playgrounds, sports fields and putting greens, under Colorado law since January 1, 2026. Firestone's code, codified through December 2025, still allows turf in common areas and commercial sites with Town approval, so ask Firestone Planning. Ask NoCo Turf Co. about functional turf for a Firestone site. Not legal advice."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Code and statute",
+      "h2": "Firestone's turf sections predate Colorado's ban and don't mention it.",
+      "paras": [
+        "Firestone's Development Code permits artificial turf in multifamily and non-residential developments under its turf standard, and lets it into common open areas when it fits the landscape design and the Town approves. No nonfunctional-turf provision appears in any title of the code as codified through Ordinance No. 1072 of December 10, 2025 (searched September 25, 2026); a 2026 ordinance may simply not be codified yet.",
+        "Colorado's law applies regardless. Since January 1, 2026, cities, towns and special and metro districts may not install or allow nonfunctional artificial turf in new development or redevelopment on commercial, institutional and industrial property, HOA common property, parking lots, medians and street rights-of-way. Whether a given area is functional, and whether a project is redevelopment, depends on the site, so ask Firestone Planning before the landscape plan is drawn. Not legal advice."
+      ],
+      "layerRefs": [
+        "firestone-co.fdc-16.6.4-nonresidential-turf",
+        "firestone-co.fdc-16.6.4-common-open-area",
+        "firestone-co.code-no-nonfunctional-turf",
+        "co-sb24-005-nonfunctional-ban",
+        "co-sb24-005-applicable-property",
+        "firestone-fdc-16.6.4-permit",
+        "firestone-co.fdc-16.6.4-landscape-plan",
+        "co-sb24-005-maintain-existing",
+        "firestone-co.fdc-16.6.4-right-of-way"
+      ],
+      "sources": [
+        "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+        "https://library.municode.com/co/firestone/codes/municipal_code",
+        "https://leg.colorado.gov/bill_files/40673/download",
+        "https://leg.colorado.gov/bill_files/45372/download"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Pocket and neighborhood parks",
+      "h2": "Pocket parks belong to HOAs and metro districts, and the Town's plan asks for 3,000 square feet of open turf.",
+      "paras": [
+        "Firestone's code makes pocket parks, a quarter acre to 2 acres, the property and upkeep of an HOA or metropolitan district, built to the Town's parks master plan. The plan's design standards require every developed pocket park to include a dog pick-up station, irrigation as applicable and an open turf area of at least 3,000 square feet, which its glossary describes as a grassy area for informal play.",
+        "Neither the plan nor the code says whether artificial turf can stand in for that open turf. It depends on the site plan and the Town's review, so ask Firestone Planning early. Neighborhood parks, at least 7 acres, are built by the developer and owned by the Town, and the developer, HOA or metro district maintains them until the Town accepts the construction."
+      ],
+      "layerRefs": [
+        "firestone-co.fdc-16.6.3-pocket-parks",
+        "firestone-co.post-pocket-park-standards",
+        "firestone-co.fdc-16.6.3-neighborhood-parks"
+      ],
+      "sources": [
+        "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.3PAOPSPTR",
+        "https://www.firestoneco.gov/DocumentCenter/View/9085/2022-07-29-POST_Master_Plan-FINAL-Compressed"
+      ]
+    },
+    {
+      "kind": "utility",
+      "own": true,
+      "kicker": "Park water",
+      "h2": "Town parks and open space take 8% of Firestone's water, and the Town plans to move them to non-potable.",
+      "paras": [
+        "The Town reports that about 8% of the water Firestone uses each year, 60 million gallons, goes on Town parks and open space, and its non-potable irrigation timeline lists converting parks in 2023 and adding more from 2025 on. The code points common ground the same way: common open areas must connect to a non-potable irrigation supply where one is available, and a developer building a neighborhood park ties its irrigation into the Town's reuse water system if one is available."
+      ],
+      "layerRefs": [
+        "firestone-co.parks-water-non-potable",
+        "firestone-co.fdc-16.6.4-common-open-area",
+        "firestone-co.fdc-16.6.3-neighborhood-parks"
+      ],
+      "sources": [
+        "https://firestoneco.gov/621/Non-Potable-Irrigation",
+        "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+        "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.3PAOPSPTR"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Metro districts",
+      "h2": "In Barefoot Lakes the metro district is the HOA, and the state ban names metro districts.",
+      "paras": [
+        "The St. Vrain Lakes Metropolitan Districts finance and run Barefoot Lakes' parks, recreation and landscaping, enforce its covenants and handle design review in place of a separate homeowners' association, and they put 5 mills toward an agreement with the Town to maintain regional parks, trails and streets.",
+        "Colorado's nonfunctional-turf ban applies to special and metro districts as well as towns, so common-area turf in a Firestone metro district answers to the district's board and review, the state rule and the Town's landscape review."
+      ],
+      "layerRefs": [
+        "firestone-co.svlmd-districts",
+        "co-sb24-005-nonfunctional-ban"
+      ],
+      "sources": [
+        "https://www.stvrainmd.live/about",
+        "https://leg.colorado.gov/bill_files/40673/download"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "Fields and schools",
+      "h2": "Firestone's fields are programmed hard, and the Town's plan says they need rest.",
+      "paras": [
+        "The Town's parks master plan found that Carbon Valley Park & Recreation District runs heavy programming in Firestone's parks without maintaining them, and that athletic fields need rest and rotation to keep turf healthy, which limited space makes hard. Colorado's 2025 amendment counts sports fields and playgrounds as functional artificial turf, outside the ban.",
+        "The plan also inventoried four St. Vrain Valley school properties in town, among them Coal Ridge Middle and Prairie Ridge Elementary, and set a goal of opening school grounds to the public outside school hours. Fields on school grounds are the school district's property."
+      ],
+      "layerRefs": [
+        "firestone-co.post-field-rotation",
+        "firestone-co.post-svvsd-schools",
+        "co-hb25-1113-functional-turf"
+      ],
+      "sources": [
+        "https://www.firestoneco.gov/DocumentCenter/View/9085/2022-07-29-POST_Master_Plan-FINAL-Compressed",
+        "https://leg.colorado.gov/bill_files/40673/download"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Dog day care yards",
+      "h2": "A dog day care's outdoor yard in Firestone sits at least 500 feet from residential zoning.",
+      "paras": [
+        "Development Code 16.3.2.C.4 keeps kennel and animal day care runs, pens and training rooms inside a soundproof building unless the zone's use table authorizes outdoor facilities, and an outdoor facility has to sit at least 500 feet from any residential zone district. A turf play yard for dogs is planned inside those limits, and the Town's turf standard governs the turf itself."
+      ],
+      "layerRefs": [
+        "firestone-co.fdc-16.3.2-kennel-outdoor",
+        "firestone-co.fdc-16.6.4-nonresidential-turf"
+      ],
+      "sources": [
+        "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH3USRE_16.3.2UECST",
+        "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can our Firestone HOA keep the artificial turf it already has?",
+      "a": "Colorado's turf law doesn't stop a local government from letting turf installed before January 1, 2026 be maintained. Whether replacing all of it counts as maintenance hasn't been settled, so ask Firestone Planning before planning a replacement. Not legal advice."
+    },
+    {
+      "q": "Does commercial turf in Firestone need a Town permit?",
+      "a": "Yes. Firestone requires a Town permit before anyone installs artificial turf, and the code's no-fee rule covers single-family homes. On a development site the turf is also part of the landscape plan the Town reviews with the Final Development Plan."
+    },
+    {
+      "q": "Can a Firestone business put turf along its street frontage?",
+      "a": "Not in new development or redevelopment: Colorado's ban covers street rights-of-way, parking lots and medians. Firestone's code asks for live groundcover such as grass, trees, flowers or shrubs in the right-of-way beside a property, and lets commercial frontage be paved where it serves as pedestrian access to storefronts. Not legal advice."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Firestone Development Code 16.6.4, Landscaping, screening, and fencing (codified through Ord. No. 1072, Dec. 10, 2025)",
+      "url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Firestone Municipal Code on Municode, Supp. No. 38 (codified through Ord. No. 1072, Dec. 10, 2025)",
+      "url": "https://library.municode.com/co/firestone/codes/municipal_code",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Firestone Development Code 16.6.3, Parks, open space, and trails (codified through Ord. No. 1072, Dec. 10, 2025)",
+      "url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.3PAOPSPTR",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Firestone Development Code 16.3.2, Use-specific standards (codified through Ord. No. 1072, Dec. 10, 2025)",
+      "url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH3USRE_16.3.2UECST",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Firestone Parks, Open Space & Trails (POST) Master Plan 2020 (final PDF dated 2022-07-29)",
+      "url": "https://www.firestoneco.gov/DocumentCenter/View/9085/2022-07-29-POST_Master_Plan-FINAL-Compressed",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Firestone, Non-Potable Irrigation page",
+      "url": "https://firestoneco.gov/621/Non-Potable-Irrigation",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "St. Vrain Lakes Metropolitan Districts, About page",
+      "url": "https://www.stvrainmd.live/about",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "HB25-1113 signed act (2025): C.R.S. 37-99-102(6.5) and 37-99-103(1), SB24-005 as amended",
+      "url": "https://leg.colorado.gov/bill_files/40673/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "SB24-005 signed act: C.R.S. 37-99-102(1)(a), (14) and 37-99-103(4)(a)",
+      "url": "https://leg.colorado.gov/bill_files/45372/download",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Commercial, HOA, metro-district, park or school turf jobs NoCo has done in Firestone: site, month, what the turf is for (field, playground, dog yard, common area) and how the Town and the state rule were handled",
+    "A camera-original photo of Brian's own commercial, HOA or sports job, added to photos.ts with use commercial (none carries that use yet)",
+    "Whether NoCo has bid or built for a Firestone metro district (for example the St. Vrain Lakes Metropolitan Districts in Barefoot Lakes), with permission to name it",
+    "Any word from Firestone Planning on how the Town is applying SB24-005 before its code is amended, so the code block can be updated"
+  ]
+}

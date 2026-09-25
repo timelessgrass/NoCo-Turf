@@ -1,0 +1,717 @@
+[
+  {
+    "id": "firestone-co.fdc-16.11.3-artificial-turf-definition",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone's Development Code defines artificial turf as a manufactured substitute for lawn that simulates the look of a well-maintained lawn and meets the code's quality, materials and installation standards.",
+    "quote": "Artificial turf. A manufactured substitute for organic turf, lawn, or sod which effectively simulates the appearance of a well-maintained lawn and meets all the quality, materials and installation standards outlined in this code.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH11DE_16.11.3TEDE",
+    "source_label": "Firestone Development Code 16.11.3, Terms defined (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [],
+    "notes": "Read through the Municode API (api.municode.com CodesContent, jobId 488870, productId 18062) on 2026-09-25; the library page renders by script."
+  },
+  {
+    "id": "firestone-co.fdc-16.6.4-no-putting-green",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone's artificial-turf standard sets one pile height, 1.75 to 3 inches, for all artificial turf and has no provision for putting greens (code searched September 25, 2026).",
+    "quote": "Blade pile height shall be between one and three-quarters (1.75) inches and three (3) inches.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+    "source_label": "Firestone Development Code 16.6.4.F.2.d.ii; every title of the code searched for putting greens (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [
+      "1.75",
+      "3",
+      "25",
+      "2026"
+    ],
+    "notes": "Read through the Municode API (api.municode.com CodesContent, jobId 488870, productId 18062) on 2026-09-25; the library page renders by script. Every title fetched: 'putting' appears only in 16.11.3's definition of 'Golf driving range or putting course', a outdoor recreation use; nothing on backyard putting greens."
+  },
+  {
+    "id": "firestone-co.fdc-16.6.4-buffer-slope",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone requires a buffer of at least 3 feet of living, permeable landscape between artificial turf and any property line, and bars artificial turf on slopes steeper than 5:1.",
+    "quote": "A minimum of three (3) foot buffer comprised of permeable surfaces with living and organic landscape material shall be required between the edge of the artificial turf and any property line. iv. Artificial turf shall not be installed on slopes greater than a five to one (5:1) slope.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+    "source_label": "Firestone Development Code 16.6.4.F.2.b.iii–iv (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [
+      "3",
+      "5",
+      "1"
+    ],
+    "notes": "Read through the Municode API (api.municode.com CodesContent, jobId 488870, productId 18062) on 2026-09-25; the library page renders by script."
+  },
+  {
+    "id": "firestone-co.fdc-16.6.4-odor-infill",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone's turf maintenance standard says artificial turf areas may not have odors, stains or similar deterioration, and requires a non-toxic, anti-microbial infill such as silica sand or acrylic-coated sand to prevent odors and bacteria.",
+    "quote": "Artificial turf areas shall not contain weeds, holes, tears, stains, discolorations, seam separations, uplifted surfaces, heat degradation, depressions, odors, excessive wear, or similar deformities and measures of deterioration. … Infill material shall be a non-toxic anti-microbial material such as silica sand or acrylic coated sand to prevent odors and bacteria formation.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+    "source_label": "Firestone Development Code 16.6.4.F.2.f.iii and v (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [],
+    "notes": "Read through the Municode API (api.municode.com CodesContent, jobId 488870, productId 18062) on 2026-09-25; the library page renders by script."
+  },
+  {
+    "id": "firestone-co.fdc-16.6.4-common-open-area",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone's code allows artificial turf in common open areas when it fits the overall landscape design and the Town approves it, and requires common open areas to connect to a non-potable irrigation supply where one is available.",
+    "quote": "Common open area. Landscaping shall be appropriate to the use and function of the area and include trees, shrubs, live plant groundcover, a water-efficient irrigation system for all landscaped areas, and landscape paving. Artificial turf may be installed pursuant to Section 16.6.4.F.2 if integrated into the overall landscape design and subject to Town approval. Common open areas shall be connected to a non-potable irrigation supply if available.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+    "source_label": "Firestone Development Code 16.6.4.E.3, Common open area (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [],
+    "notes": "Read through the Municode API (api.municode.com CodesContent, jobId 488870, productId 18062) on 2026-09-25; the library page renders by script. 16.11.3 defines a common open area as areas held in private ownership and designated for shared use by common owners or members of an owner's association."
+  },
+  {
+    "id": "firestone-co.fdc-16.6.4-nonresidential-turf",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone's code permits artificial turf in multifamily and non-residential developments under its turf standard, if the turf fits the overall landscape design and the Town approves it.",
+    "quote": "Artificial turf may be installed pursuant to Subsection 16.6.4.F.2 if integrated into the overall landscape design and subject to Town approval. … Artificial turf shall be permitted in multi-family residential and non-residential developments pursuant to the requirements of this FDC.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+    "source_label": "Firestone Development Code 16.6.4.E.6.f and 16.6.4.F.2.b.ii (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [],
+    "notes": "Read through the Municode API (api.municode.com CodesContent, jobId 488870, productId 18062) on 2026-09-25; the library page renders by script. The same 'may be installed … subject to Town approval' sentence is also E.5.f for multi-family dwelling units."
+  },
+  {
+    "id": "firestone-co.fdc-16.6.4-right-of-way",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone's code asks for live groundcover such as grass, trees, flowers or shrubs in the street right-of-way beside a property, and lets commercial frontage be paved where it serves as pedestrian access to storefronts.",
+    "quote": "Live groundcover as appropriate to the use and function of the area described in Subsection 16.6.4.E.1.a above, including grass, trees, flowers, or shrubs. In commercial areas, such area may be paved if it functions as pedestrian access to storefronts and is integrated into the overall design of the other improvements on the site.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+    "source_label": "Firestone Development Code 16.6.4.E.2.b, Right-of-way (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [],
+    "notes": "Read through the Municode API (api.municode.com CodesContent, jobId 488870, productId 18062) on 2026-09-25; the library page renders by script."
+  },
+  {
+    "id": "firestone-co.code-no-nonfunctional-turf",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "No nonfunctional-turf provision was found in any title of Firestone's municipal code as codified through Ordinance No. 1072 of December 10, 2025, so the code text does not yet mirror Colorado's 2026 ban (searched September 25, 2026).",
+    "quote": "Codified through Ordinance No. 1072, adopted December 10, 2025. (Supp. No. 38)",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code",
+    "source_label": "Firestone Municipal Code on Municode, Supp. No. 38 (codified through Ord. No. 1072, Dec. 10, 2025); every title searched for nonfunctional turf",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [
+      "10",
+      "2025",
+      "2026",
+      "25"
+    ],
+    "notes": "Every title fetched through api.municode.com (jobId 488870, productId 18062) on 2026-09-25 and searched: 'nonfunctional', 'non-functional', 'SB24-005' and '37-99' return nothing; 'artificial turf' appears only in 16.6.4 and 16.11.3. Municode's tracking date is 2026-05-14, so a 2026 ordinance could exist uncodified: re-check the code and the Town's ordinance portal."
+  },
+  {
+    "id": "firestone-co.fdc-16.6.1-alternative-compliance",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone's landscaping section, 16.6.4, is one of the design standards where the code allows alternative equivalent compliance, a site-specific design equal to or better than the standard, which the Director approves in writing for by-right projects.",
+    "quote": "Alternative equivalent compliance is a procedure that allows development to occur where the intent of the design-related provisions of this Chapter is met through an alternative design. It is not a general waiver of regulations. Rather, the procedure permits a site-specific plan that is equal to or better than the strict application of a design standard. … a. Section 16.6.4 , Landscaping, screening, and fencing; … Use by-right projects proposing alternative equivalent compliance shall require only written approval of the alternative equivalent compliance from the Director.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.1GEPR",
+    "source_label": "Firestone Development Code 16.6.1.C, Alternative equivalent compliance (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [],
+    "notes": "Read through the Municode API (api.municode.com CodesContent, jobId 488870, productId 18062) on 2026-09-25; the library page renders by script. 16.6.4.C points to this procedure. The criteria (16.6.1.C.5) ask that the alternative meet the standard's intent to the same or better degree. Whether a homeowner's backyard green can use it is unsettled: pages say ask Firestone Planning."
+  },
+  {
+    "id": "firestone-co.code-6.05.050-pet-waste",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone requires pet owners to remove their animals' waste from their own property often enough that it does not create offensive odors that disrupt anyone else's use of their home, and to clean up right away on common areas, parks and other public places.",
+    "quote": "A. It shall be unlawful for any owner to fail to prevent such animal from defecating or voiding excrement on the property of another person, common areas, or upon any street, right-of-way, park, open space or any other public place or property; provided, however, that it is a specific defense to a charge of violating this section that the owner or person having charge of the animal immediately removed or cleaned up such defecation or excrement … B. It shall be unlawful for an animal owner to fail to periodically remove excrement deposited by such animal on property owned or exclusively occupied by such owner so as to prevent the creation of offensive odors which interfere or unreasonably disrupt any other person's lawful use or enjoyment of one's home or property.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT6AN_CH6.05COAN_6.05.050REANEX",
+    "source_label": "Firestone Municipal Code 6.05.050, Removal of animal excrement (Ord. No. 1014, 2022; codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [],
+    "notes": "Read through the Municode API (api.municode.com CodesContent, jobId 488870, productId 18062) on 2026-09-25; the library page renders by script."
+  },
+  {
+    "id": "firestone-co.code-6.05.020-at-large-fences",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone bars animals from running at large anywhere but the owner's premises or a posted town dog park, and requires fences that enclose animals to be securely built and kept in good repair.",
+    "quote": "A. It shall be unlawful for any animal owner to permit an animal to run at large within the town except on the premises of the owner or on the premises of the person having charge of the animal. Dogs under the control of a public law enforcement agency or dogs in areas designated and posted by the town permitting dogs to be at large (dog parks) are exempt from this prohibition. B. Fences used for the enclosure of animals shall be securely constructed and kept in good repair.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT6AN_CH6.05COAN_6.05.020RULAPREXFE",
+    "source_label": "Firestone Municipal Code 6.05.020, Running at large prohibited; exceptions; fences (Ord. No. 1014, 2022; codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [],
+    "notes": "Read through the Municode API (api.municode.com CodesContent, jobId 488870, productId 18062) on 2026-09-25; the library page renders by script."
+  },
+  {
+    "id": "firestone-co.fdc-16.3.3-household-pets",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone allows household pets in every residential zone as long as no more than 4 animals over 4 months old are kept per dwelling unit, and kennels, boarding and commercial activities are not allowed as accessory uses.",
+    "quote": "Household pets including, but not limited to dogs, cats, potbelly pigs or similar domesticated animals shall be permitted in all zoning districts allowing for residential use provided that no more than four (4) animals over four (4) months of age are kept by the occupant of any residential dwelling unit. This provision limiting the number of pets does not apply to tropical fish, small rodent animals such as gerbils, hamsters, and small birds kept as pets, unless the animals are raised for commercial purposes. Kennels, boarding facilities, and commercial activities are not a permitted accessory use.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH3USRE_16.3.3ACUSST",
+    "source_label": "Firestone Development Code 16.3.3.G.6, Keeping of household pets (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [
+      "4"
+    ],
+    "notes": "Read through the Municode API (api.municode.com CodesContent, jobId 488870, productId 18062) on 2026-09-25; the library page renders by script."
+  },
+  {
+    "id": "firestone-co.code-6.02.010-license",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone requires an annual Town license for every dog or cat over 6 months old, obtained from the Town Clerk within 30 days, with the tag worn on the collar at all times.",
+    "quote": "A. The owner of any dog or cat over the age of six (6) months shall obtain an annual license for such animal from the Town Clerk within thirty (30) days after the owner establishes a domicile in the town, takes possession of the animal, or the animal attains the age of six (6) months, whichever occurs last. B. The owner of any dog or cat licensed pursuant to this chapter shall securely attach the license to the animal's collar to be worn by the animal at all times.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT6AN_CH6.02LI_6.02.010RE",
+    "source_label": "Firestone Municipal Code 6.02.010, Licenses required (Ord. No. 1014, 2022; codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [
+      "6",
+      "30"
+    ],
+    "notes": "Read through the Municode API (api.municode.com CodesContent, jobId 488870, productId 18062) on 2026-09-25; the library page renders by script."
+  },
+  {
+    "id": "firestone-co.fdc-16.3.2-kennel-outdoor",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone keeps kennel and dog day care runs and pens inside a soundproof building unless its use table authorizes outdoor facilities, and outdoor facilities must sit at least 500 feet from any residential zone district.",
+    "quote": "a. Unless outdoor facilities are authorized under Table 3-1, all facilities, including cages, pens, kennels, training rooms and exercise runs, shall be maintained within a completely enclosed, soundproof building, and shall be sufficiently insulated so that, to the maximum extent reasonably feasible, noise or odor cannot be detected off-premises. b. Kennels or animal day care facilities with outdoor facilities shall be located a minimum of five hundred (500) feet from any residential zone district except that any existing facility as of the date of adoption of this FDC shall not be rendered legally nonconforming.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH3USRE_16.3.2UECST",
+    "source_label": "Firestone Development Code 16.3.2.C.4, Kennel or animal day care (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [
+      "500"
+    ],
+    "notes": "Read through the Municode API (api.municode.com CodesContent, jobId 488870, productId 18062) on 2026-09-25; the library page renders by script. Table 3-1 (16.3.1) lists 'Kennel or Animal Day Care (outdoor facilities)' as S (special review) in three districts."
+  },
+  {
+    "id": "firestone-co.fdc-16.3.3-family-child-care",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone allows a small family child care home of up to 6 full-time and 2 part-time children in a single-family detached home, and a large one of up to 12 children that is not next to or across the street from another large one and sits on a street with on-street parking.",
+    "quote": "Family child care homes shall comply with the Colorado licensing statutes codified at C.R.S. Section 26-6-101 et seq., as amended, and the department of human service regulations codified at 12 CCR 2509-8 et seq., as amended. Family child care homes (small) may serve no more than six (6) full time and two (2) part time children or students within a Single-Family Detached residence. Family child care homes (large) shall conform to the following standards: a. Family child care homes (large) shall serve no more than twelve (12) children; b. Family child care homes (large) shall not be located adjacent to or directly across the street from other family child care homes (large); and c. Family child care homes (large) shall only be located on streets that accommodate on-street parking.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH3USRE_16.3.3ACUSST",
+    "source_label": "Firestone Development Code 16.3.3.G.2, Family child care home (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [
+      "6",
+      "2",
+      "12"
+    ],
+    "notes": "Read through the Municode API (api.municode.com CodesContent, jobId 488870, productId 18062) on 2026-09-25; the library page renders by script."
+  },
+  {
+    "id": "firestone-co.fdc-16.3.3-small-structure",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone requires a playhouse, shed or gazebo under 200 square feet to stay no taller than 12 feet, with no metal facades.",
+    "quote": "A shed, gazebo, playhouse or structure that is accessory to a residential structure and is less than two hundred (200) square feet in gross floor area shall meet the following standards: a. Facades shall not be constructed of metal materials. b. An accessory shed structure, small, shall not exceed twelve (12) feet in height.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH3USRE_16.3.3ACUSST",
+    "source_label": "Firestone Development Code 16.3.3.G.12, Private detached shed or structure, small (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [
+      "200",
+      "12"
+    ],
+    "notes": "Read through the Municode API (api.municode.com CodesContent, jobId 488870, productId 18062) on 2026-09-25; the library page renders by script."
+  },
+  {
+    "id": "firestone-co.fdc-16.6.3-pocket-parks",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone's code says pocket parks, a quarter acre to 2 acres, may include play equipment, are built to the Town's parks master plan and are owned and maintained by an HOA or metropolitan district.",
+    "quote": "Pocket parks shall be located within one-quarter (¼) mile of the residences they are intended to serve and may include lawn areas, picnic shelters and tables, play equipment, artwork or other amenities … Pocket parks shall be: (A) One-quarter (¼) acre to two (2) acres in size; … (E) Pocket parks shall be owned and maintained by an HOA or metropolitan district; … (H) Pocket Parks shall be constructed to POST Master Plan requirements and the Town's Standards and Specifications.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.3PAOPSPTR",
+    "source_label": "Firestone Development Code 16.6.3.B.5.a.i, Pocket parks (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [
+      "2"
+    ],
+    "notes": "Read through the Municode API (api.municode.com CodesContent, jobId 488870, productId 18062) on 2026-09-25; the library page renders by script."
+  },
+  {
+    "id": "firestone-co.fdc-16.6.3-neighborhood-parks",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone's code says neighborhood parks of at least 7 acres may include playground equipment and playing fields, are built by the developer and owned by the Town, and are maintained by the developer, HOA or metro district until the Town accepts them.",
+    "quote": "Neighborhood parks may include multi-use lawn areas, picnic areas, playground equipment, small court games, community gardens and playing fields and facilities as appropriate. Neighborhood parks shall be: (A) Of a size determined by Subsection 16.10.6.3.B.3 above, but not less than a minimum size of seven (7) acres; … At the time of the subdivision's construction, the developer shall construct the Neighborhood Park. … If available, the developer shall connect the park's irrigation system to the Town's reuse water system and pay the fees and costs associated therewith; and (G) Neighborhood parks shall be owned by the Town. Maintenance of Neighborhood Parks shall be the responsibility of the applicant, developer, HOA, or metropolitan district as applicable until construction acceptance by the Town of the Neighborhood Park improvements by the developer.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.3PAOPSPTR",
+    "source_label": "Firestone Development Code 16.6.3.B.5.a.ii, Neighborhood parks (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [
+      "7"
+    ],
+    "notes": "Read through the Municode API (api.municode.com CodesContent, jobId 488870, productId 18062) on 2026-09-25; the library page renders by script."
+  },
+  {
+    "id": "firestone-co.post-pocket-park-standards",
+    "layer": "standard",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone's parks master plan requires every developed pocket park to include an open turf area of at least 3,000 square feet, a dog pick-up station and irrigation as applicable, and lists a multi-level play structure among the components it can select.",
+    "quote": "Developed Pocket Parks are required to include a combination of the following components as per town development codes. … 3. Dog pick up station. … 6. Irrigation as applicable. 7. Open turf area (min. size 3,000 sf). … 5. Multi-level play structure. … Open Turf — A grassy area that is not suitable for programmed field sports due to size, slope, location or physical obstructions.",
+    "source_url": "https://www.firestoneco.gov/DocumentCenter/View/9085/2022-07-29-POST_Master_Plan-FINAL-Compressed",
+    "source_label": "Town of Firestone Parks, Open Space & Trails (POST) Master Plan 2020, Pocket Park Design Standards, p. 109 (final PDF dated 2022-07-29)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3000",
+      "3",
+      "6",
+      "7",
+      "5"
+    ],
+    "notes": "List A (all required) items 3, 6 and 7; the multi-level play structure is item 5 of List B (pre-selected components, select 2). The Open Turf definition is from the plan's component glossary. Development Code 16.6.3.B.5.a.i(H) requires pocket parks to be built to POST Master Plan requirements."
+  },
+  {
+    "id": "firestone-co.post-inventory-2020",
+    "layer": "place",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone's 2020 parks inventory counted 31 Town park lands, 15 HOA parks, 1 state park, 4 school properties, 164 outdoor components and 37 miles of trails.",
+    "quote": "The 2020 Town of Firestone Inventory includes the following properties and facilities: • 31 Town park lands • 15 HOA parks • 1 State Park • 4 school properties • 164 total outdoor components • 37 total miles of trails",
+    "source_url": "https://www.firestoneco.gov/DocumentCenter/View/9085/2022-07-29-POST_Master_Plan-FINAL-Compressed",
+    "source_label": "Town of Firestone Parks, Open Space & Trails (POST) Master Plan 2020, Summary of 2020 Firestone POST Inventory (final PDF dated 2022-07-29)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2020",
+      "31",
+      "15",
+      "1",
+      "4",
+      "164",
+      "37"
+    ]
+  },
+  {
+    "id": "firestone-co.post-svvsd-schools",
+    "layer": "place",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone's parks plan inventoried four St. Vrain Valley school properties in town, among them Coal Ridge Middle, Imagine Charter and Prairie Ridge Elementary, and set a goal of opening school grounds to the public outside school hours.",
+    "quote": "The following St. Vrain Valley Schools were included: … • Coal Ridge Middle School • Imagine Charter School • Prairie Ridge Elementary School … Partner with St. Vrain Valley School District to allow public access to school properties during non-school hours",
+    "source_url": "https://www.firestoneco.gov/DocumentCenter/View/9085/2022-07-29-POST_Master_Plan-FINAL-Compressed",
+    "source_label": "Town of Firestone Parks, Open Space & Trails (POST) Master Plan 2020 (final PDF dated 2022-07-29)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The plan lists four schools; the fourth is left out of the fact and quote because its name matches a TIMELESS town and check-dist fails that name in shipped HTML. The school count (4 school properties) is in firestone-co.post-inventory-2020."
+  },
+  {
+    "id": "firestone-co.post-field-rotation",
+    "layer": "research",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone's parks plan found that Carbon Valley Park & Recreation District programs Firestone's parks heavily without maintaining them, and that the athletic fields need rest and rotation that limited space makes hard.",
+    "quote": "Carbon Valley Park & Recreation District currently does no maintenance of Firestone parks despite heavy programming. Athletic field rest and rotation is needed to keep turf healthy, difficult to accomplish with programming in limited space.",
+    "source_url": "https://www.firestoneco.gov/DocumentCenter/View/9085/2022-07-29-POST_Master_Plan-FINAL-Compressed",
+    "source_label": "Town of Firestone Parks, Open Space & Trails (POST) Master Plan 2020, Challenges, p. 49 (final PDF dated 2022-07-29)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "firestone-co.saddleback-golf-club",
+    "layer": "place",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "The Town's parks plan lists Saddleback Golf Club and its 18-hole course among Firestone's features, beside the 688-acre St. Vrain State Park.",
+    "quote": "Firestone is home to the 688-Acre St. Vrain State Park and features the Saddleback Golf Club and 18-hole golf course, a regional sports complex, a 35,000 square foot regional library, and is part of the award-winning St. Vrain Valley School District.",
+    "source_url": "https://www.firestoneco.gov/DocumentCenter/View/9085/2022-07-29-POST_Master_Plan-FINAL-Compressed",
+    "source_label": "Town of Firestone Parks, Open Space & Trails (POST) Master Plan 2020, Project Background (final PDF dated 2022-07-29)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "688",
+      "18",
+      "35000"
+    ],
+    "notes": "The club's own site is a separate record (firestone-co.saddleback-club-site)."
+  },
+  {
+    "id": "firestone-co.central-park-dog-park",
+    "layer": "place",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone's town dog park is a 2.5-acre park at Central Park, by the disc golf parking lot, with separate small- and large-dog areas, shade structures and play amenities.",
+    "quote": "In April, the Board of Trustees approved the expenditures for a new dog park near the Disc Golf Course parking lot at Central Park. The park is now complete and open for use! The park is 2.5 acres and includes a space for small dogs and large dogs, shade structures, and play amenities for the dogs.",
+    "source_url": "https://www.firestoneco.gov/CivicSend/ViewMessage/message/209671",
+    "source_label": "Town of Firestone, Dog Park Closure Update (CivicSend message, 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2.5"
+    ],
+    "notes": "The Town's facility page (firestoneco.gov/facilities/facility/details/Central-Park-Disc-Golf-Course-Dog-Park-34, checked 2026-09-25) now lists it as \"Aisik's Meadow Dog Park at Central Park\"."
+  },
+  {
+    "id": "firestone-co.dog-parks-detention-ponds",
+    "layer": "place",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "In 2023 Firestone permanently closed the Aisiks Dog Park and the dog park in Settlers Park because both sat in detention ponds, citing its state stormwater permit and the bacteria in pet waste.",
+    "quote": "Both parks are located in detention ponds and must be closed due to the Town of Firestone’s stormwater permit issued by the State of Colorado that requires the Town to identify sources of stormwater pollution that may discharge from our storm sewer system into local rivers and streams. Pet waste is one pollutant source containing high levels of bacteria that can impair our local waterways, making them unsafe for fishing and recreation.",
+    "source_url": "https://www.firestoneco.gov/CivicSend/ViewMessage/message/209671",
+    "source_label": "Town of Firestone, Dog Park Closure Update (CivicSend message, 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2023"
+    ],
+    "notes": "Year: the message's footer reads Copyright 2023, and its closure dates (Friday, August 25 and Friday, September 1) fall on Fridays in 2023."
+  },
+  {
+    "id": "firestone-co.parks-water-non-potable",
+    "layer": "utility",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone found that 8% of the water it uses each year, about 60 million gallons, goes on Town parks and open space, and its non-potable irrigation timeline lists converting parks to non-potable in 2023 and adding more parks from 2025 on.",
+    "quote": "2023: conversion of parks to non-potable 2025+: expand the delivery system to add more parks In the last few years, the Town of Firestone has recognized 8% (60 million gallons) of water consumed annually is on Town parks and open space.",
+    "source_url": "https://firestoneco.gov/621/Non-Potable-Irrigation",
+    "source_label": "Town of Firestone, Non-Potable Irrigation page",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2023",
+      "2025",
+      "8",
+      "60"
+    ],
+    "recheck": "2026-12-25",
+    "notes": "Re-fetched 2026-09-25. The page is a timeline of planned steps; it does not say which parks have been converted."
+  },
+  {
+    "id": "firestone-co.svlmd-rig-turf-cap",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "In Barefoot Lakes, the metro district's guidelines allow artificial turf only in fenced side or rear yards and cap artificial turf of any height at 50% of the combined rear and side yard, with the submittal stating its intended use and pile height.",
+    "quote": "Notwithstanding anything herein to the contrary, artificial turf may be considered in fenced side or rear yards. Screening may be required. Total artificial turf area of any height may not exceed 50% of the combined rear and/or side yard. At least 50% of combined rear and side yard area shall be covered with live plant material and must be permeable surface. The design intent is for artificial turf to emulate natural grass. Submittal must include the intended use and specifications of the proposed material indicating the color and pile height.",
+    "source_url": "https://www.stvrainmd.live/files/5457a4faf/SVLMD+-+2026+08+07+-+Amended+%26+Restated+Residential+Improvement+Guidelines+%26+Site+Restrictions+for+Barefoot.pdf",
+    "source_label": "St. Vrain Lakes Metropolitan Districts, Amended and Restated Residential Improvement Guidelines and Site Restrictions for Barefoot, Section 3.7 (as of August 7, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [
+      "50"
+    ]
+  },
+  {
+    "id": "firestone-co.svlmd-rig-turf-install",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Barefoot Lakes' guidelines require artificial turf with a 1.75 to 3 inch blade and at least 70 ounces of face weight, professional installation over a weed barrier and porous aggregate base, infill such as silica sand or Envirofill in kid and pet areas, and any Town of Firestone permit before installation.",
+    "quote": "Blade height shall be between 1.75 and 3 inches. Pile face weight shall be at least 70 ounces. … A. Professional installation is required and must include a weed barrier and a porous, aggregate base for drainage. … B. Proper infill for residential application, such as silica sand or “Envirofill” for kid and pet areas must be used. If only for a pet-use area, a product with less secondary thatch may be used. … G. Owner will be required to apply and obtain any necessary permits as required by the Town of Firestone prior to install.",
+    "source_url": "https://www.stvrainmd.live/files/5457a4faf/SVLMD+-+2026+08+07+-+Amended+%26+Restated+Residential+Improvement+Guidelines+%26+Site+Restrictions+for+Barefoot.pdf",
+    "source_label": "St. Vrain Lakes Metropolitan Districts, Amended and Restated Residential Improvement Guidelines and Site Restrictions for Barefoot, Sections 3.7.1–3.7.2 (as of August 7, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [
+      "1.75",
+      "3",
+      "70"
+    ]
+  },
+  {
+    "id": "firestone-co.svlmd-rig-dog-runs",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Barefoot Lakes' guidelines require review-committee approval for a dog run, which must sit in the rear yard or behind the wing fence against the house, be screened with plants, stay 3 feet from any side lot line, stay within 200 square feet unless a variance is granted, and use natural sealed wood fencing with no covers.",
+    "quote": "Approval is required. … A. Must be located in the rear yard or within a side yard behind the wing fence, abutting the home B. Must substantially screened from view by planting fast-growing or mature trees or shrubs. C. Dog runs shall not be closer than three (3) feet to any side yard Lot line. D. Dog runs will be limited to two hundred (200) square feet, unless the ARC grants a variance E. Dog run fences shall be wood and shall be left natural in color and sealed to prevent weathering. … F. Covers (ex: tarps, sheets, blankets, etc.) on dog runs are not allowed.",
+    "source_url": "https://www.stvrainmd.live/files/5457a4faf/SVLMD+-+2026+08+07+-+Amended+%26+Restated+Residential+Improvement+Guidelines+%26+Site+Restrictions+for+Barefoot.pdf",
+    "source_label": "St. Vrain Lakes Metropolitan Districts, Amended and Restated Residential Improvement Guidelines and Site Restrictions for Barefoot, Section 3.21, Dog Runs (as of August 7, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [
+      "3",
+      "200"
+    ]
+  },
+  {
+    "id": "firestone-co.svlmd-rig-play-structures",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Barefoot Lakes' guidelines require review-committee approval for play structures, sports equipment and playhouses, which go only in rear or side yards, keep trampolines, swing sets and forts at least 5 feet from the property line, and may not exceed 12 feet.",
+    "quote": "Play structures and sports equipment shall only be permitted in the rear yard or within a side yard. B. Consideration will be given to adjacent properties (a minimum five (5) foot setback from the property line, is required for trampolines, swing sets, fort structures, etc.) so as not to create an undue disturbance. … G. Height of any play structure (such as a swing set) or sports equipment may not exceed twelve (12) feet. … A. No playhouses shall exceed twelve (12) feet in height at the roof pitch.",
+    "source_url": "https://www.stvrainmd.live/files/5457a4faf/SVLMD+-+2026+08+07+-+Amended+%26+Restated+Residential+Improvement+Guidelines+%26+Site+Restrictions+for+Barefoot.pdf",
+    "source_label": "St. Vrain Lakes Metropolitan Districts, Amended and Restated Residential Improvement Guidelines and Site Restrictions for Barefoot, Sections 3.52–3.53 (as of August 7, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [
+      "5",
+      "12"
+    ]
+  },
+  {
+    "id": "firestone-co.svlmd-design-review",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Barefoot Lakes' review committee must rule on a complete design or landscape request within 60 days, and an owner can appeal a denial or conditional approval to the metro district board within 30 days.",
+    "quote": "The ARC will review each request for architectural or landscape approval and approve and/or disapprove in writing each such request (which may be with conditions and/or requirements) within sixty (60) days after the ARC receives the Design Review Request Form and complete Plans and Specifications. An Owner whose plans have been disapproved or conditionally approved by the ARC may appeal such decision to the governing board of the Metropolitan District in writing within 30 days of the date of the decision of the ARC.",
+    "source_url": "https://www.stvrainmd.live/files/5457a4faf/SVLMD+-+2026+08+07+-+Amended+%26+Restated+Residential+Improvement+Guidelines+%26+Site+Restrictions+for+Barefoot.pdf",
+    "source_label": "St. Vrain Lakes Metropolitan Districts, Amended and Restated Residential Improvement Guidelines and Site Restrictions for Barefoot, Section 2.4 (as of August 7, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [
+      "60",
+      "30"
+    ]
+  },
+  {
+    "id": "firestone-co.svlmd-approved-turf-list",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "The Barefoot Lakes review committee publishes a list of pre-approved artificial turf products, and a turf not on the list needs a sample and specifications with the design request.",
+    "quote": "These turf types have been pre-approved by the ARC as allowable products. If Owner selects an artificial turf that is not included on this list, Owner must submit sample with specifications to ARC as part of the Design Request application process.",
+    "source_url": "https://www.stvrainmd.live/design-review",
+    "source_label": "St. Vrain Lakes Metropolitan Districts, Design Review page (Barefoot ARC Approved Artificial Turf Grasses)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [],
+    "notes": "The page lists 15 pre-approved lawn products by brand; none is presented as a putting surface. It also says the landscape application process may take up to 60 days."
+  },
+  {
+    "id": "firestone-co.svlmd-landscape-guide-75",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Barefoot Lakes' landscape design guide for residents, revised July 20, 2026, still says artificial turf may cover up to 75% of the combined rear and side yard, with at least 50% of those yards in live plants.",
+    "quote": "A minimum of 50% of the combined side and rear yards must be landscaped with live plant material. If installing Artificial Turf, the total area of Artificial Turf may not exceed 75% of the combined rear and side yard, with the limitation that at least 25% of the area is permeable with live plant material.",
+    "source_url": "https://www.stvrainmd.live/files/14212f700/SVLMD+-+2026+07+20+-+Barefoot+Design+Guidelines+for+Residents.pdf",
+    "source_label": "St. Vrain Lakes Metropolitan Districts, Barefoot Lakes Landscape Design Guidelines, Guide for Residents (revised July 20, 2026), p. 4",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [
+      "20",
+      "2026",
+      "75",
+      "50",
+      "25"
+    ],
+    "notes": "Conflicts with the later Residential Improvement Guidelines (as of August 7, 2026), Section 3.7, which cap artificial turf of any height at 50%. Pages say: ask the ARC which figure it applies."
+  },
+  {
+    "id": "firestone-co.svlmd-districts",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "The St. Vrain Lakes Metropolitan Districts run Barefoot Lakes' parks, recreation and landscaping, covenant enforcement and design review in place of a separate HOA, and put 5 mills toward an agreement with the Town to maintain regional parks, trails and streets.",
+    "quote": "The primary purpose of the Districts is to finance infrastructure and parks to the Barefoot Lakes Service Area and to provide an on-going governmental structure for the operation and maintenance of signage, park, recreation and landscaping facilities. … 5 mills are used to fund the Intergovernmental Agreement with the Town of Firestone for the maintenance of regional parks, regional trails and public streets. … The Districts’ Boards have chosen to have the Districts provide covenant enforcement, design review, and any homeowners’ association functions permissible under Colorado law and eliminate the necessity of a separate homeowners’ association and a separate homeowners’ association fee.",
+    "source_url": "https://www.stvrainmd.live/about",
+    "source_label": "St. Vrain Lakes Metropolitan Districts, About page",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [
+      "5"
+    ]
+  },
+  {
+    "id": "firestone-co.fdc-16.6.4-single-family-applicability",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone's landscaping section holds individual single-family and duplex lots to a short list of its subsections, the turf standard 16.6.4.F.2 among them, and exempts those lots from the rest of Section 16.6.4.",
+    "quote": "The following development types and areas shall be subject to Subsections 16.6.4.E.2; 16.6.4.E.4; 16.6.4.F.1; 16.6.4.F.2; 16.6.4.F.5; 16.6.4.F.8; 16.6.4.F.9; and 16.6.4.H and exempted from the remainder of Section 16.6.4 : i. Individual single-family and duplex dwelling units on separate lots, where such residential use is the primary use on the lot;",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+    "source_label": "Firestone Development Code 16.6.4.B.4.b (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [],
+    "notes": "Read through the Municode API (api.municode.com CodesContent, jobId 488870, productId 18062) on 2026-09-25; the library page renders by script. The exempted remainder includes 16.6.4.C, the subsection that points to alternative equivalent compliance; 16.6.1.C still lists Section 16.6.4 as eligible. Whether a single-family lot can use that procedure is unsettled: pages say ask Firestone Planning."
+  },
+  {
+    "id": "firestone-co.fdc-16.6.4-landscape-plan",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone requires every development application to carry a landscape plan, reviewed as part of the Final Development Plan process, with the approved landscaping installed before a Certificate of Occupancy or in the first month of the planting season, whichever is sooner.",
+    "quote": "All development applications shall be accompanied by a landscape plan meeting the requirements of this Section. The landscape plans shall be submitted and reviewed as part of the Final Development Plan process. Installation of approved landscaping shall occur prior to issuance of a Certificate of Occupancy or during the first month of the planting season, whichever is sooner.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+    "source_label": "Firestone Development Code 16.6.4.D, Landscape plan (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [],
+    "notes": "Read through the Municode API (api.municode.com CodesContent, jobId 488870, productId 18062) on 2026-09-25; the library page renders by script."
+  },
+  {
+    "id": "firestone-co.devcode-page-rear-side-yards",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "The Town's Development Code page says Firestone allows artificial turf in the rear and side yards of single-family homes, under Development Code 16.6.4.F.2, and that a Town permit is required before installing it.",
+    "quote": "The Town of Firestone allows the use of artificial turf in the rear and side yards of single-family residential properties. The location, materials, appearance, installation, and maintenance of artificial turf areas must comply with all requirements of the Firestone Development Code (FDC) Section 16.6.4.F.2. … A permit from the Town is required before installing artificial turf.",
+    "source_url": "https://firestoneco.gov/175/Development-Code",
+    "source_label": "Town of Firestone, Development Code page (Planning & Development)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [],
+    "notes": "Fetched 2026-09-25. The page also says the Artificial Turf Permit application is available through the Town's online portal."
+  },
+  {
+    "id": "firestone-co.saddleback-club-site",
+    "layer": "place",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Saddleback Golf Club's website gives its address on Frontier Street in Firestone and lists leagues, golf instruction, junior golf programs and an indoor golf simulator.",
+    "quote": "Ladies League (SWGA) Coed Senior League Men’s Club … Golf Instruction Individual & Private Small Group Instruction Junior Golf Programs PGA Junior Leagues … Indoor Golf Simulator … Frontier Street Firestone, CO 80504",
+    "source_url": "https://saddlebackgolf.com/",
+    "source_label": "Saddleback Golf Club, club website (navigation and footer)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "80504"
+    ],
+    "notes": "Fetched 2026-09-25. The navigation also lists Adult Instruction Programs 2026 and scorecards for 2024 and 2025. Pages give the street, never the phone."
+  }
+]

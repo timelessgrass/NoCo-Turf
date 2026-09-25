@@ -1,0 +1,630 @@
+[
+  {
+    "id": "frederick-co.luc-2026-artificial-turf-rule",
+    "layer": "ordinance",
+    "applies_to": [
+      "frederick-co"
+    ],
+    "fact": "Frederick's Land Use Code, in effect since June 1, 2026, permits functional artificial turf only in areas that fit the code's definition of it, and says water conservation does not include nonfunctional artificial turf except in residential development of 12 units or fewer.",
+    "quote": "The provisions of this Code shall become effective June 1, 2026. … c. Artificial turf. 1. Functional artificial turf shall only be permitted in areas per the definition of functional artificial turf. … Water conservation does not include or allow nonfunctional artificial turf (except for residential development of twelve (12) units or less) or artificial plants, large mulched (including gravel) beds, or areas without landscape plant material …",
+    "source_url": "https://www.frederickco.gov/DocumentCenter/View/33088/2026-Land-Use-Code",
+    "source_label": "Frederick Land Use Code (2026), Sec. 16-1-100 and Sec. 16-4-80.E.1.c and E.3.a, full code PDF",
+    "effective": "2026-06-01",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "1",
+      "2026",
+      "12"
+    ],
+    "notes": "The 2026 code (Chapter 16, effective June 1, 2026) replaced the old LUC Sec. 2.14 that the shared records frederick-luc-2.14-* cite. The draft line 'Artificial turf is prohibited in landscaped areas' (Ord. 1396 packet, 2024) is NOT in the 2026 code. E.1.c read literally is circular; with E.3.a's twelve-unit carve-out, how the Town applies it to an existing single-family backyard is unsettled: ask Frederick Planning. frederick.municipal.codes is behind a Cloudflare challenge (403, 2026-09-25); the Town's own PDF at frederickco.gov is the source read."
+  },
+  {
+    "id": "frederick-co.luc-2026-functional-artificial-turf-defined",
+    "layer": "ordinance",
+    "applies_to": [
+      "frederick-co"
+    ],
+    "fact": "Frederick's 2026 code defines functional artificial turf as turf in a recreational use area or space regularly used for civic, community or recreational purposes, naming playgrounds, sports fields, picnic grounds, amphitheaters, portions of parks and golf playing areas such as chipping and putting greens.",
+    "quote": "Functional artificial turf means artificial turf that is located in a recreational use area or other space that is regularly used for civic, community, or recreational purposes, which may include a playground, a sports field, a picnic ground, an amphitheater, a portion of a park, and the playing area of a golf course, such as a driving range, chipping and putting green, tee box, green, fairway, and rough; …",
+    "source_url": "https://www.frederickco.gov/DocumentCenter/View/33088/2026-Land-Use-Code",
+    "source_label": "Frederick Land Use Code (2026), Sec. 16-13-30 Terms defined, full code PDF",
+    "effective": "2026-06-01",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "2026"
+    ],
+    "notes": "The same section defines non-functional artificial turf as artificial turf that does not meet this definition. A backyard dog run is not named."
+  },
+  {
+    "id": "frederick-co.luc-2026-landscaping-applicability",
+    "layer": "ordinance",
+    "applies_to": [
+      "frederick-co"
+    ],
+    "fact": "Frederick's landscaping section applies to new development, redevelopment and substantial improvements; a single-family building permit needs no landscape plan, but single-family landscaping must meet the section's applicable requirements, and renovated landscaping that needs irrigation must comply.",
+    "quote": "B. Applicability. The standards of this section apply to all new development, redevelopment, or substantial improvements to existing sites or buildings. … Building permit applications for individual single-family residences will not require landscape plans, hydrozone plans, or irrigation plans, but landscaping on properties designated for single-family residences shall comply with applicable requirements of this section. b. Any portion of existing landscaping that is renovated and requires an irrigation system shall comply with this section.",
+    "source_url": "https://www.frederickco.gov/DocumentCenter/View/33088/2026-Land-Use-Code",
+    "source_label": "Frederick Land Use Code (2026), Sec. 16-4-80.B and C.1, full code PDF",
+    "effective": "2026-06-01",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": []
+  },
+  {
+    "id": "frederick-co.luc-2026-living-coverage-yards",
+    "layer": "ordinance",
+    "applies_to": [
+      "frederick-co"
+    ],
+    "fact": "Frederick's 2026 code requires at least 50% living plant coverage in every distinct landscaped area, and for single-dwelling, paired-home and multi-plex lots it names front yards for landscaping and requires none in side yards.",
+    "quote": "1. All distinct landscaped areas shall be designed with a minimum of fifty (50) percent coverage with living plant material at maturity. Living plant materials may include shrubs, ornamental grasses, perennials, and turfgrass. … 2. No more than fifty (50) percent may be nonliving material, such as wood mulch, and rock. … (1) Front yards of single-dwelling, paired home, and multi-plex properties shall be landscaped according to the requirements set out in Section 16-4-80.E.6.e.2.(a). (2) For corner lots, both yards adjacent to the street shall be defined as front yards and shall meet the minimum landscape requirements. (3) Side yards, no landscaping is required in side yards.",
+    "source_url": "https://www.frederickco.gov/DocumentCenter/View/33088/2026-Land-Use-Code",
+    "source_label": "Frederick Land Use Code (2026), Sec. 16-4-80.E.1.a and E.6.b.2, full code PDF",
+    "effective": "2026-06-01",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "50",
+      "1",
+      "2",
+      "2026"
+    ],
+    "notes": "The single-family list names front yards (both street sides of a corner lot) and side yards; it does not mention backyards."
+  },
+  {
+    "id": "frederick-co.luc-2026-turf-drainage",
+    "layer": "ordinance",
+    "applies_to": [
+      "frederick-co"
+    ],
+    "fact": "Frederick's 2026 code says landscaping, including any artificial turf, may not change the drainage pattern or amount of stormwater runoff set by a lot's approved grading plan, or the existing pattern where no plan was required.",
+    "quote": "e. Drainage. Landscaping improvements, including any artificial turf, shall not alter the drainage pattern or amount of storm water runoff that is set out in the applicable, approved grading plan, or if there is not a grading plan and one was not required, such improvements shall not alter the drainage pattern or amount of storm water runoff.",
+    "source_url": "https://www.frederickco.gov/DocumentCenter/View/33088/2026-Land-Use-Code",
+    "source_label": "Frederick Land Use Code (2026), Sec. 16-4-80.E.1.e, full code PDF",
+    "effective": "2026-06-01",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "2026"
+    ]
+  },
+  {
+    "id": "frederick-co.luc-2026-nonfunctional-turf-property",
+    "layer": "ordinance",
+    "applies_to": [
+      "frederick-co"
+    ],
+    "fact": "Frederick's 2026 code prohibits nonfunctional turf in medians and transportation corridors, on commercial, institutional, industrial and common-interest community property and in multifamily developments of more than 12 units, and bars artificial turf from parking-lot landscaping.",
+    "quote": "b. Non-functional turf. 1. Non-functional turf shall be prohibited in medians and transportation corridor landscaping, commercial, institutional, industrial, or common interest community property and in multi-family developments with over twelve (12) dwelling units. … 4. Turfgrass, native seed, artificial turf, and high hydrozones are prohibited in parking lot landscaping.",
+    "source_url": "https://www.frederickco.gov/DocumentCenter/View/33088/2026-Land-Use-Code",
+    "source_label": "Frederick Land Use Code (2026), Sec. 16-4-80.E.1.b and E.6.f.4, full code PDF",
+    "effective": "2026-06-01",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "12",
+      "1",
+      "4",
+      "2026"
+    ],
+    "notes": "Nonfunctional turf is defined (Sec. 16-13-30) as turf that does not meet the definition of functional turf; artificial turf is a separately defined term. The nonresidential site-landscaping rule repeats the ban: 'Nonfunctional turf is prohibited in commercial, institutional, industrial, and common interest community property.'"
+  },
+  {
+    "id": "frederick-co.luc-2026-gateway-site-landscaping",
+    "layer": "ordinance",
+    "applies_to": [
+      "frederick-co"
+    ],
+    "fact": "Frederick requires gateway landscaping at least 30 feet wide along arterials, with no nonfunctional turf on commercial or common-interest property, and a multi-dwelling or nonresidential lot must landscape at least 15% of its area, not counting ground within 15 feet of plazas, play fields or golf greens.",
+    "quote": "3. Nonfunctional turf. Nonfunctional turf is prohibited in commercial, institutional, industrial, or common interest community property. … 5. Criteria. A minimum gateway landscaping of thirty (30) feet in width shall be provided and measured from the right-of-way line. … (a) The minimum required landscaped area of a given multi-dwelling or nonresidential property shall be fifteen (15) percent of the lot area. … 3. Areas that shall not be included toward required site landscaping. (a) Areas within and extending up to fifteen (15) feet from plazas, play fields, golf greens and fairways, or other outdoor gathering spaces or recreation areas, the use of which would be diminished by the presence of trees;",
+    "source_url": "https://www.frederickco.gov/DocumentCenter/View/33088/2026-Land-Use-Code",
+    "source_label": "Frederick Land Use Code (2026), Sec. 16-4-80.E.6.b and E.6.d, full code PDF",
+    "effective": "2026-06-01",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "30",
+      "15",
+      "3",
+      "5"
+    ]
+  },
+  {
+    "id": "frederick-co.bella-rosa-golf-division",
+    "layer": "place",
+    "applies_to": [
+      "frederick-co"
+    ],
+    "fact": "Bella Rosa Golf Course is run by the Golf Division of Frederick's Parks and Open Space Department, which also runs recreation programming at the course and the Frederick Recreation Area.",
+    "quote": "The Golf Division manages Bella Rosa Golf Course and recreational programming at the Golf Course and Frederick Recreation Area.",
+    "source_url": "https://www.frederickco.gov/972/Parks-and-Open-Space",
+    "source_label": "Town of Frederick, Parks and Open Space Department page",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "frederick-co.bella-rosa-practice-areas",
+    "layer": "place",
+    "applies_to": [
+      "frederick-co"
+    ],
+    "fact": "Bella Rosa Golf Course in Frederick is a 9-hole regulation course with undulating greens, a driving range, a putting green and a chipping area.",
+    "quote": "Bella Rosa Golf Course is a meticulously designed 9-hole regulation course. … Our undulating greens demand precision and finesse. … Each hole presents a unique challenge and an opportunity for you to sharpen your skills at our driving range, putting green, and chipping area.",
+    "source_url": "https://bellarosagolf.com/",
+    "source_label": "Bella Rosa Golf Course home page",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "9"
+    ]
+  },
+  {
+    "id": "frederick-co.fra-dog-park",
+    "layer": "place",
+    "applies_to": [
+      "frederick-co"
+    ],
+    "fact": "The Frederick Recreation Area, 129 acres of Town parkland around Milavec Reservoir, lists an off-leash dog park among its features, with a 1.26-mile trail around the reservoir.",
+    "quote": "Features 129 Acres of Parkland … Dog Park (off-leash) … A 1.26 mile crusher fine trail surrounds Milavec Reservoir and an additional 1.7 miles of paved trails connected to the Reservoir, surround the Area and connect to additional regional neighborhood trails.",
+    "source_url": "https://www.frederickco.gov/facilities/facility/details/Frederick-Recreation-Area-FRA-2",
+    "source_label": "Town of Frederick facility page, Frederick Recreation Area (FRA)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "129",
+      "1.26",
+      "1.7"
+    ],
+    "notes": "Of the Town facility pages read on 2026-09-25 (ids 1-90 of the directory, 17 parks and open spaces), only this one lists a dog park."
+  },
+  {
+    "id": "frederick-co.fra-playground",
+    "layer": "place",
+    "applies_to": [
+      "frederick-co"
+    ],
+    "fact": "The Frederick Recreation Area's playground is for children ages 1 to 12 and sits near the main parking lot.",
+    "quote": "FRA is home to two playgrounds. The first is for youth ages 1-12 and is located near the main parking lot, behind the restroom.",
+    "source_url": "https://www.frederickco.gov/facilities/facility/details/Frederick-Recreation-Area-FRA-2",
+    "source_label": "Town of Frederick facility page, Frederick Recreation Area (FRA)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "12"
+    ],
+    "notes": "The second 'playground' is an outdoor fitness court for adults."
+  },
+  {
+    "id": "frederick-co.crist-park-playground",
+    "layer": "place",
+    "applies_to": [
+      "frederick-co"
+    ],
+    "fact": "Crist Park, at the entrance to Downtown Frederick, has a playground, picnic area, gazebo, sports field and a splash pad that usually runs from early June through late August.",
+    "quote": "Located at the entrance to Downtown Frederick. … Amenities within Crist Park include a playground, picnic area, gazebo, splash pad and a sports field. The Crist Park splash pad is weather dependent and operational during peak summer months. The interactive water feature is typically on from early June through late August.",
+    "source_url": "https://www.frederickco.gov/facilities/facility/details/crist-park-7",
+    "source_label": "Town of Frederick facility page, Crist Park",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "frederick-co.post-standards-applicability",
+    "layer": "standard",
+    "applies_to": [
+      "frederick-co"
+    ],
+    "fact": "Frederick's Parks, Open Space and Trails Design Standards, dated September 11, 2026, apply to every developer-constructed park and to alterations that replace 50% or more of the value of a Town-maintained park's assets.",
+    "quote": "Town of Frederick – Parks, Open Space, and Trails Design Standards – September 11, 2026 … These standards apply to: 1. All developer-constructed parks, open space, and trails. 2. Alterations that replace 50% or more of the total value of the assets in Town-maintained parks.",
+    "source_url": "https://www.frederickco.gov/DocumentCenter/View/33243/POST-Design-Standards",
+    "source_label": "Town of Frederick, Parks, Open Space, and Trails Design Standards (September 11, 2026), Introduction B",
+    "effective": "2026-09-11",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "11",
+      "2026",
+      "50",
+      "1",
+      "2"
+    ]
+  },
+  {
+    "id": "frederick-co.post-playground-turf-system",
+    "layer": "standard",
+    "applies_to": [
+      "frederick-co"
+    ],
+    "fact": "Frederick's park design standards accept artificial turf under playgrounds only as a system of turf, shock pad and infill that meets Head Impact Criteria, uses no rubber infill, drains through an underdrain and suits fall heights up to 12 feet.",
+    "quote": "ii. Artificial turf for playgrounds a) Artificial turf systems designed for playground use shall include turf, shock pad, and infill and meet the following requirements: 1. The complete system (turf, shock pad, and infill) shall meet Head Impact Criteria (HIC) safety requirements. 2. Select turf materials that comply with ADA accessibility standards and are antimicrobial. 3. Rubber infill is not permitted. Use coated silica sand (e.g. Envirofill) or other approved non-toxic, non-flammable infill. … 5. Install an underdrain system in accordance with the turf manufacturer's recommendations. 6. System shall be suitable for fall heights up to twelve (12) feet. 7. Minimum 8-year warranty covering materials and installation.",
+    "source_url": "https://www.frederickco.gov/DocumentCenter/View/33243/POST-Design-Standards",
+    "source_label": "Town of Frederick, Parks, Open Space, and Trails Design Standards (September 11, 2026), Sec. E.2.a.ii",
+    "effective": "2026-09-11",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "12",
+      "1",
+      "2",
+      "3",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "notes": "Item 4 (a product-listing requirement) is left out of the quote. Poured-in-place rubber, by contrast, carries a 10-year minimum in the same section."
+  },
+  {
+    "id": "frederick-co.post-safety-surfacing",
+    "layer": "standard",
+    "applies_to": [
+      "frederick-co"
+    ],
+    "fact": "Frederick's park design standards accept poured-in-place rubber, playground turf and, only at fitness areas or climbing boulders, engineered wood fiber, require a sub-surface drain under each surface, and prohibit rubber tiles, pea gravel, sand and shredded rubber mulch.",
+    "quote": "The protective surfacing within the use zone of each play structure must meet or exceed ASTM F-1292-18e1 and ASTM F-1951-14, where applicable. A sub-surface drainage system shall be installed under each protective surface area. … Acceptable surfacing options include poured-in-place rubber (tiles are not permitted), artificial turf for playgrounds, and engineered wood fiber (EWF). Engineered wood fiber may only be used at fitness equipment areas or beneath climbing boulders and requires approval from the Parks and Open Space Director. … b. Prohibited Protective Surfacing i. Rubber tiles ii. Pea gravel iii. Sand iv. Shredded recycled rubber mulch",
+    "source_url": "https://www.frederickco.gov/DocumentCenter/View/33243/POST-Design-Standards",
+    "source_label": "Town of Frederick, Parks, Open Space, and Trails Design Standards (September 11, 2026), Sec. E.2",
+    "effective": "2026-09-11",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": []
+  },
+  {
+    "id": "frederick-co.post-functional-turf-area",
+    "layer": "standard",
+    "applies_to": [
+      "frederick-co"
+    ],
+    "fact": "Frederick's park design standards require pocket, neighborhood and community parks to include a functional turf area of 3,000 square feet per acre of dedicated park area.",
+    "quote": "Functional Turf Area | 3,000 SF per acre of dedicated park area | Functional Turf, as defined by Colorado Revised Statutes § 37-99-102, means turf that is located in a recreational use area or other space that is regularly used for civic, community, or recreational purposes.",
+    "source_url": "https://www.frederickco.gov/DocumentCenter/View/33243/POST-Design-Standards",
+    "source_label": "Town of Frederick, Parks, Open Space, and Trails Design Standards (September 11, 2026), Tables 1-3, park amenity requirements",
+    "effective": "2026-09-11",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "3000"
+    ],
+    "notes": "The same row appears in the Pocket, Neighborhood and Community Park amenity tables. The standard says functional turf, not artificial turf: living or artificial is the designer's call within the code."
+  },
+  {
+    "id": "frederick-co.post-dog-amenities",
+    "layer": "standard",
+    "applies_to": [
+      "frederick-co"
+    ],
+    "fact": "Frederick's park design standards require new pocket, neighborhood and community parks to have dog waste stations at two or more pedestrian entrances and a frost-free water station with a pet fountain.",
+    "quote": "Dog Waste Station 1 Waste station dispenser shall include sign, dog bag dispenser and receptacle mounted on pole. Waste stations shall be located at a minimum of two (2) pedestrian access points into the park. Water Station 1 Water station shall include drinking fountain, outdoor bottle filler, and pet fountain. Water station shall be frost free.",
+    "source_url": "https://www.frederickco.gov/DocumentCenter/View/33243/POST-Design-Standards",
+    "source_label": "Town of Frederick, Parks, Open Space, and Trails Design Standards (September 11, 2026), Table 1, Pocket Park Amenities",
+    "effective": "2026-09-11",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "1",
+      "2"
+    ],
+    "notes": "Neighborhood parks need 4 dog waste stations and community parks 6 (Tables 2 and 3)."
+  },
+  {
+    "id": "frederick-co.town-faq-dog-number",
+    "layer": "ordinance",
+    "applies_to": [
+      "frederick-co"
+    ],
+    "fact": "The Town of Frederick's code enforcement FAQ says the Town does not regulate the number of dogs a resident may have.",
+    "quote": "How many dogs may I have on my property? The Town of Frederick does not regulate the number of dogs a resident may have.",
+    "source_url": "https://www.frederickco.gov/FAQ.aspx?TID=23",
+    "source_label": "Town of Frederick FAQ, Code Enforcement",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [],
+    "notes": "A Town FAQ answer, not the municipal code text: frederick.municipal.codes returned a Cloudflare challenge (403) on 2026-09-25, so Chapter 7 itself was not read."
+  },
+  {
+    "id": "frederick-co.pet-license-7-101",
+    "layer": "ordinance",
+    "applies_to": [
+      "frederick-co"
+    ],
+    "fact": "Frederick's Municipal Code Section 7-101 requires dogs and cats owned by Town residents to be licensed each year, renewed in January, with a current rabies vaccination first and both tags worn on the collar.",
+    "quote": "Per Frederick Municipal Code Section 7-101 … dogs and cats owned by Town of Frederick residents must be licensed each year. Pet licenses should be renewed annually in January and remain valid through December 31. … A current rabies vaccination is required to license your dog or cat. … The pet license tag and rabies vaccination tag should be attached to the collar worn by your dog or cat at all times.",
+    "source_url": "https://www.frederickco.gov/312/Pet-License",
+    "source_label": "Town of Frederick, Pet License page",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "7",
+      "101",
+      "31"
+    ]
+  },
+  {
+    "id": "frederick-co.impound-release",
+    "layer": "ordinance",
+    "applies_to": [
+      "frederick-co"
+    ],
+    "fact": "A dog picked up in Frederick is often held at the police department for a few hours, and its release needs proof of a current rabies vaccination and a Town dog license.",
+    "quote": "Oftentimes, dogs are held at the police department for a few hours waiting to be claimed by their owners. … Minimal requirements to release an impounded animal: Proof of current rabies vaccination (sec. 7-103). Town of Frederick dog license (sec. 7-101).",
+    "source_url": "https://www.frederickco.gov/311/Animals-at-Large",
+    "source_label": "Town of Frederick, Animals at Large page",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "7",
+      "103",
+      "101"
+    ],
+    "notes": "The page names the Humane Society of Boulder Valley for lost dogs; the Town FAQ names the Longmont Humane Society. Neither shelter is named on a page."
+  },
+  {
+    "id": "frederick-co.luc-2026-kennel-defined",
+    "layer": "ordinance",
+    "applies_to": [
+      "frederick-co"
+    ],
+    "fact": "Frederick's 2026 code defines a kennel or animal day care as a facility where four or more household pets are housed, groomed, bred, boarded or trained and that has an outdoor component such as dog runs.",
+    "quote": "Kennel or animal day care (indoor and outdoor facilities) means a facility in which four or more household pets are temporarily housed, groomed, bred, boarded, or trained, and may also be incidentally treated for medical conditions, which facility includes an outdoor component, such as dog runs.",
+    "source_url": "https://www.frederickco.gov/DocumentCenter/View/33088/2026-Land-Use-Code",
+    "source_label": "Frederick Land Use Code (2026), Sec. 16-13-30 Terms defined, full code PDF",
+    "effective": "2026-06-01",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "2026"
+    ]
+  },
+  {
+    "id": "frederick-co.luc-2026-kennel-standards",
+    "layer": "ordinance",
+    "applies_to": [
+      "frederick-co"
+    ],
+    "fact": "A Frederick kennel or animal day care with outdoor facilities must sit 300 feet from existing residential zones and uses behind a 30-foot landscape buffer and secure its outdoor runs, and in the LI-Flex, HI-Flex and CC districts its outdoor facilities need a 200-foot setback, a fence at least 6 feet tall and 7 a.m. to 7 p.m. hours.",
+    "quote": "a. Within the LI-Flex, HI-Flex, or CC districts. Outdoor facilities shall be set back a minimum of two hundred (200) feet from any adjacent land uses. Outdoor facilities shall be screened by an exterior fence of a minimum of six (6) feet in height. Outdoor facilities shall be limited to operate between the hours of 7AM and 7PM. … c. A kennel or animal day care facility with outdoor facilities shall be set back from any existing residential zone district or any existing residential use by three hundred (300) feet. An additional landscape buffer of thirty (30) feet in width shall be located adjacent to any existing residential zone or district or any existing residential use. … d. Any outdoor facilities (such as dog runs) shall be appropriately secured to prevent animal escape.",
+    "source_url": "https://www.frederickco.gov/DocumentCenter/View/33068/Article-2",
+    "source_label": "Frederick Land Use Code (2026) Article 2 PDF, Sec. 16-2-30.G.18 Kennel or Animal Day Care",
+    "effective": "2026-06-01",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "200",
+      "6",
+      "7",
+      "300",
+      "30",
+      "2026"
+    ]
+  },
+  {
+    "id": "frederick-co.luc-2026-fence-heights",
+    "layer": "ordinance",
+    "applies_to": [
+      "frederick-co"
+    ],
+    "fact": "Frederick's 2026 code limits fences to 42 inches in front yards and 7 feet in side and rear yards, allows 15 feet around a recreational court or similar recreational area, and limits fences abutting open space, parks and trails to 4 feet, or 5 feet if no more than 50% opaque at the Town's discretion.",
+    "quote": "a. Front yard. No more than forty-two (42) inches high between the front building face and the front property line (front yard). … c. Side and rear yards. No more than seven (7) feet high when located in the side or rear yard. … g. Recreational court. Permitted up to fifteen (15) feet in height when around a recreational court (e.g., tennis, squash racket, squash tennis, badminton, etc.) or around any other similar recreational area. h. Open space, parks and trails. Limited to four (4) feet in height when abutting open space, parks, and trails. Fences and walls that are not more than fifty (50) percent opaque may be extended up to five (5) feet in height at the Town's discretion.",
+    "source_url": "https://www.frederickco.gov/DocumentCenter/View/33070/Article-4",
+    "source_label": "Frederick Land Use Code (2026) Article 4 PDF, Sec. 16-4-90.E.4 Height limitations",
+    "effective": "2026-06-01",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "42",
+      "7",
+      "15",
+      "4",
+      "50",
+      "5",
+      "2026"
+    ]
+  },
+  {
+    "id": "frederick-co.luc-2026-fence-materials",
+    "layer": "ordinance",
+    "applies_to": [
+      "frederick-co"
+    ],
+    "fact": "Frederick's 2026 code bars chain link except in listed cases, including a coated fence around a recreational area or under 5 feet around a state-licensed child care center's playground, allows wire mesh on the inside of an open fence, and bars fences built mainly of chicken wire, wafer board, particleboard or plywood where visible from a street, park, open space or trail.",
+    "quote": "e. Chain link, wire mesh, or other similar products shall be prohibited as perimeter fencing. In residential development, light wire mesh may be attached to an open fence such as a wood three rail fence to keep pets and children from crossing through. … d. Open fencing styles may include wire mesh attached to the interior of the fence. e. Chain link fencing is permitted in the following instances: … 2. Around a recreational area with the following restrictions: (a) The chain link is powder or vinyl coated. 3. Around the playground area of a state licensed child care center with the following restrictions: (a) The chain link is powder or vinyl coated. (b) The fence is less than five (5) feet tall. … c. Chain link fencing, with or without slats, shall not be used as a fencing material except as listed above. d. Fences constructed primarily of chicken wire, wafter board, particleboard, or plywood, or other materials determined by the Director, are prohibited along any property line or in any required building setback where visible from a street, park, open space, or trail.",
+    "source_url": "https://www.frederickco.gov/DocumentCenter/View/33070/Article-4",
+    "source_label": "Frederick Land Use Code (2026) Article 4 PDF, Sec. 16-4-90.E.5.e, E.6.d-e and E.7.c-d",
+    "effective": "2026-06-01",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "5",
+      "2",
+      "3",
+      "2026"
+    ],
+    "notes": "E.5.e sits under perimeter fencing around a subdivision or development next to a highway, arterial or collector street. 'wafter board' is the code's spelling."
+  },
+  {
+    "id": "frederick-co.luc-2026-child-care",
+    "layer": "ordinance",
+    "applies_to": [
+      "frederick-co"
+    ],
+    "fact": "Frederick's 2026 code requires child care centers to follow state child care law and Colorado Department of Human Services rules, keeps them off primary streets in MU-1 and MU-2, and treats in-home day care as an accessory use whose area must be smaller than the principal use.",
+    "quote": "a. General. All child-care centers shall comply with state laws, including without limitation C.R.S. § 26-6-101, et seq., as amended, and the Regulations of the Colorado Department of Human Services (12 CCR 2509-9, as amended). b. Within MU-1 and MU-2 districts. Commercial child-care centers shall not be located along a primary street. … 6. In-Home Day Care. In-home day care shall comply with C.R.S. § 26-6-102, et seq., and any applicable state regulations. a. In-Home Day Care shall operate as an accessory use and therefore the area that the day care utilizes shall be smaller in size than the principal use.",
+    "source_url": "https://www.frederickco.gov/DocumentCenter/View/33068/Article-2",
+    "source_label": "Frederick Land Use Code (2026) Article 2 PDF, Sec. 16-2-30.G.10 and Sec. 16-2-40.D.6",
+    "effective": "2026-06-01",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "26",
+      "101",
+      "12",
+      "2509",
+      "9",
+      "1",
+      "2",
+      "102",
+      "6",
+      "2026"
+    ]
+  },
+  {
+    "id": "frederick-co.luc-2026-park-ownership",
+    "layer": "ordinance",
+    "applies_to": [
+      "frederick-co"
+    ],
+    "fact": "Under Frederick's 2026 code, parks dedicated and built under the park section are owned and maintained by a metro district, homeowners or condo association, or the owner of a rental multifamily or commercial project unless the Town decides otherwise, under a maintenance agreement that covers playgrounds and playfields.",
+    "quote": "1. Ownership. Park land and open space and park improvements and trails dedicated and constructed under this section shall be owned and maintained by a metro district, homeowner's or condo association (or property owner in the case of a rental multi-family or commercial development), unless otherwise determined by the Town. … 2. Maintenance Agreement Required. The owner of the park land and/or open space dedication and the park improvements and trails required under this section shall enter into an agreement to maintain said land and improvements in accordance with the approved plans. The level of maintenance of all park land and open space and all park improvements including but not limited to park shelters and structures, playgrounds, sidewalks and trails, parking lots, signage, lighting, fencing, playfields, lawns, and landscaping shall be as determined and provided by this maintenance agreement.",
+    "source_url": "https://www.frederickco.gov/DocumentCenter/View/33088/2026-Land-Use-Code",
+    "source_label": "Frederick Land Use Code (2026), Sec. 16-4-60.I Ownership and Maintenance, full code PDF",
+    "effective": "2026-06-01",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "1",
+      "2",
+      "2026"
+    ]
+  },
+  {
+    "id": "frederick-co.luc-2026-landscape-plan-contents",
+    "layer": "ordinance",
+    "applies_to": [
+      "frederick-co"
+    ],
+    "fact": "In Frederick, development applications need a landscape plan, hydrozone plan and irrigation plan, final landscape plans are stamped by a licensed landscape architect or an equivalent the Director approves, and the plan carries a table of square feet in each landscaping category.",
+    "quote": "a. All land development or redevelopment applications shall be accompanied by an appropriate landscape plan, hydrozone plan, and irrigation plan. … a. All final and approved landscape plans shall be developed and stamped by a professional landscape architect who is licensed by the State Board of Landscape Architects, or an equivalent approved by the Director. … Landscape plans shall delineate areas within the subject property to which each applicable landscaping category applies and shall provide a table showing the number square feet of land within each landscaping category and the proportion of the subject property (expressed as a percentage) occupied by each landscaping category.",
+    "source_url": "https://www.frederickco.gov/DocumentCenter/View/33088/2026-Land-Use-Code",
+    "source_label": "Frederick Land Use Code (2026), Sec. 16-4-80.C.1.a, C.2.a and E.6.a.2, full code PDF",
+    "effective": "2026-06-01",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "2026"
+    ]
+  },
+  {
+    "id": "frederick-co.post-play-equipment-approval",
+    "layer": "standard",
+    "applies_to": [
+      "frederick-co"
+    ],
+    "fact": "Frederick's park design standards require playground equipment, with its plans and specifications, to be submitted to and approved by the Town before installation.",
+    "quote": "Playground equipment with associated plans and specifications shall be submitted to and approved by the Town prior to installation.",
+    "source_url": "https://www.frederickco.gov/DocumentCenter/View/33243/POST-Design-Standards",
+    "source_label": "Town of Frederick, Parks, Open Space, and Trails Design Standards (September 11, 2026), Sec. E.3",
+    "effective": "2026-09-11",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "11",
+      "2026"
+    ]
+  },
+  {
+    "id": "frederick-co.fox-run-park-playground",
+    "layer": "place",
+    "applies_to": [
+      "frederick-co"
+    ],
+    "fact": "Fox Run Park, on Fox Run Blvd. in Frederick, lists a playground and swings among its features on the Town's facility page.",
+    "quote": "Fox Run Park … Frederick, CO 80504 … Fox Run Park Features Basketball Court Benches Picnic Shelters Picnic Tables Playground Sport Court Swings",
+    "source_url": "https://www.frederickco.gov/facilities/facility/details/Fox-Run-Park-21",
+    "source_label": "Town of Frederick facility page, Fox Run Park",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "80504"
+    ]
+  },
+  {
+    "id": "frederick-co.savannah-park-playground",
+    "layer": "place",
+    "applies_to": [
+      "frederick-co"
+    ],
+    "fact": "Savannah Park in Frederick lists a playground and a multi-use field among its features on the Town's facility page.",
+    "quote": "Savannah Park … Frederick, CO 80516 … Savannah Park Features Benches Multi-use Field Picnic Shelters Picnic Tables Playground",
+    "source_url": "https://www.frederickco.gov/facilities/facility/details/Savannah-Park-24",
+    "source_label": "Town of Frederick facility page, Savannah Park",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "80516"
+    ]
+  },
+  {
+    "id": "frederick-co.countryside-park-playground",
+    "layer": "place",
+    "applies_to": [
+      "frederick-co"
+    ],
+    "fact": "Countryside Park in Frederick lists a playground, swings and a multi-use field among its features on the Town's facility page.",
+    "quote": "Countryside Park … Frederick, CO 80530 … Countryside Park Features Benches Multi-use Field Picnic Shelters Picnic Tables Playground Swings",
+    "source_url": "https://www.frederickco.gov/facilities/facility/details/Countryside-Park-18",
+    "source_label": "Town of Frederick facility page, Countryside Park",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "80530"
+    ]
+  }
+]

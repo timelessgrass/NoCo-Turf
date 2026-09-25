@@ -1,0 +1,157 @@
+{
+  "status": "draft",
+  "town": "windsor-co",
+  "service": "playground-turf",
+  "title": "Playground Turf Under Swing Sets in Windsor, CO | NoCo Turf Co.",
+  "description": "Turf under a Windsor playset: the Town exempts existing backyards, holds new play areas to a Director's exception, and metro districts review play equipment.",
+  "h1": "Windsor's landscape code skips the backyard playset but holds turf under new park and HOA play areas to a Director's exception.",
+  "display": {
+    "paint": "a Director's exception"
+  },
+  "lede": "Turf under a swing set behind an existing Windsor house is outside the Town's landscape code. The same turf under a new HOA tot lot, a park playground or a child care center's yard goes through the Director first. Metro districts review the play equipment itself, wherever it sits.",
+  "answer": {
+    "question": "Can I put artificial turf under a playset in Windsor?",
+    "answer": "Behind an existing detached house or duplex, the Town's landscape article doesn't apply, though a metro district may review the playset. For a new park, HOA play area or child care center, Windsor's code counts a playground as functional turf yet still requires the Director's exception, written on the landscape plan."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "New play areas",
+      "h2": "Windsor names playgrounds as functional turf, then asks for an exception anyway.",
+      "paras": [
+        "Windsor's definition of functional artificial turf lists \"a playground, sports field, picnic ground, amphitheater, a portion of a park\". Even so, Section 15-3-20 keeps artificial turf off the landscape plan of any new development needing a building permit or site plan approval, or a redevelopment disturbing more than 50% of existing landscaped area, unless the Director grants an exception because alternatives are not reasonable.",
+        "Public parks carry one more duty: each needs its own landscape plan, built around expected amenities, with \"playground equipment, picnic tables, game courts, playing fields, and swimming pools\" named in the code. Any turf exception has to be noted on that plan, so turf under a new park or HOA playground is settled in writing before anyone orders a pad."
+      ],
+      "layerRefs": [
+        "windsor-co.code-functional-artificial-turf-definition",
+        "windsor-code-15-3-20-no-turf",
+        "windsor-co.code-15-3-20-b2-exception-noted",
+        "windsor-co.code-15-3-20-b3-applies-to",
+        "windsor-co.code-15-3-10-parks-plan",
+        "co-sb24-005-applicable-property"
+      ],
+      "sources": [
+        "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTIIISTLADEAR_APXATESP",
+        "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTIIISTLADEAR_S15-3-20LAST",
+        "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTIIISTLADEAR_S15-3-10INAP",
+        "https://leg.colorado.gov/bill_files/45372/download"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Child care in town",
+      "h2": "A home daycare's yard stays a backyard; a child care center in a single-family zone needs a conditional use grant.",
+      "paras": [
+        "Windsor treats child care in a house as a home occupation, with the number of children held to what the state's day care home rules allow, and exempts it from the home-occupation square-footage limits. In the SF-1 single-family zone, a child care center is a conditional use that needs a grant under Section 14-2-130.",
+        "The play yard follows that split. A home daycare in a detached house keeps a backyard outside the landscape article; a new center's play yard is drawn on a development landscape plan. It depends on the zone and the site, so ask Windsor Planning before turf goes into a center's plans."
+      ],
+      "layerRefs": [
+        "windsor-co.code-16-3-20-home-child-care",
+        "windsor-co.code-16-1-40-child-care-conditional",
+        "windsor-code-15-3-10-single-family-exempt"
+      ],
+      "sources": [
+        "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH16ZO_ARTIIIREUSST_S16-3-20HOOC",
+        "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH16ZO_ARTIZODI_S16-1-40SIFAZODI",
+        "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTIIISTLADEAR_S15-3-10INAP"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "District review",
+      "h2": "Ptarmigan West keeps play equipment behind the house; New Windsor approves it before it goes up.",
+      "paras": [
+        "Ptarmigan West Metro District No. 2 requires its committee's approval for play and sports equipment and generally allows it only at the rear of a residence, with screening from the street if the committee asks. Playhouses there top out at 6 feet at the peak and 100 square feet inside, and stand in the rear yard.",
+        "New Windsor's guidelines put play equipment on the list of additions its design review committee approves before work starts, and they allow artificial turf in back yards only. Ptarmigan West's architectural review page asks for committee approval of every exterior alteration, so in either district the swing set and the turf under it both go to the committee."
+      ],
+      "layerRefs": [
+        "windsor-co.ptarmigan-west-play-equipment",
+        "windsor-co.ptarmigan-west-playhouses",
+        "windsor-co.ptarmigan-west-arc-approval",
+        "windsor-co.new-windsor-drc-ancillary",
+        "windsor-co.new-windsor-turf-back-yards",
+        "co-hoa-backyard-detached"
+      ],
+      "sources": [
+        "https://pwmd1.specialdistrict.org/files/3deb93af5/03+PWMD+Rules+and+Regulations+-+Design+Guidelines.pdf",
+        "https://pwmd1.specialdistrict.org/architectural-review",
+        "https://www.newwindsormetro.org/files/72102649d/New+Windsor_Brunner+Farm+Design+Guidelines+-+5-16-24+-+Final.pdf",
+        "https://leg.colorado.gov/bill_files/92307/download"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does Colorado's nonfunctional-turf law reach a turfed play yard at a Windsor house?",
+      "a": "Not at a single-family home: the state's list stops at commercial, institutional and industrial sites, common-interest property and rights-of-way. A new HOA tot lot is common property, and a playground there counts as functional turf under both the state definition and Windsor's. Not legal advice."
+    },
+    {
+      "q": "Does turf alone make a Windsor playset safe to fall on?",
+      "a": "No. The cushioning comes from a shock pad under the turf, chosen for the highest point a child can fall from and backed by the pad maker's impact testing. The playground-turf service page walks through fall height and use zones."
+    }
+  ],
+  "photo": "playset",
+  "sources": [
+    {
+      "label": "Windsor Municipal Code Ch. 15, Art. III, Appendix A, definition 17 (codified through Ord. No. 2026-1749, July 13, 2026)",
+      "url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTIIISTLADEAR_APXATESP",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Windsor Municipal Code Sec. 15-3-20(b)(2) and (b)(3) (codified through Ord. No. 2026-1749, July 13, 2026)",
+      "url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTIIISTLADEAR_S15-3-20LAST",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Windsor Municipal Code Sec. 15-3-10(b)(1) and (b)(4) (codified through Ord. No. 2026-1749, July 13, 2026)",
+      "url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTIIISTLADEAR_S15-3-10INAP",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Windsor Municipal Code Sec. 16-3-20(b)(10), home occupations involving child care",
+      "url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH16ZO_ARTIIIREUSST_S16-3-20HOOC",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Windsor Municipal Code Sec. 16-1-40, SF-1 conditional uses (conditional use grant under Sec. 14-2-130)",
+      "url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH16ZO_ARTIZODI_S16-1-40SIFAZODI",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Ptarmigan West Metropolitan District Nos. 1-3, Architectural Review page",
+      "url": "https://pwmd1.specialdistrict.org/architectural-review",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Ptarmigan West Metro District No. 2, Rules and Regulations/Design Guidelines (posted undated)",
+      "url": "https://pwmd1.specialdistrict.org/files/3deb93af5/03+PWMD+Rules+and+Regulations+-+Design+Guidelines.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "New Windsor Metropolitan District (Brunner Farm), Design Guidelines and Architectural Standards, May 16, 2024",
+      "url": "https://www.newwindsormetro.org/files/72102649d/New+Windsor_Brunner+Farm+Design+Guidelines+-+5-16-24+-+Final.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "SB24-005 signed act: C.R.S. 37-99-102(1)(a), applicable property",
+      "url": "https://leg.colorado.gov/bill_files/45372/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "C.R.S. 38-33.3-106.5 and 37-60-126(11)(a.5), SB23-178 (signed act)",
+      "url": "https://leg.colorado.gov/bill_files/92307/download",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Whether the pictured playset job south of Windsor (August 2025) has a shock pad under the play area, which neighborhood it is in, and permission to say so in the caption",
+    "Windsor play-area jobs by type (backyard playset, home daycare, HOA tot lot, child care center), with month and rough size",
+    "The shock pads used under Windsor play areas, with the maker's fall-height test documents",
+    "Any Windsor Director's exception or metro-district approval for turf under a play area, with consent to describe it",
+    "Confirm NoCo installs playground turf, at home and for HOAs, daycares or schools"
+  ]
+}

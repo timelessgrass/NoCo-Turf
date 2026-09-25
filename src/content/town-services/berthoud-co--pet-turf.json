@@ -1,0 +1,179 @@
+{
+  "status": "draft",
+  "town": "berthoud-co",
+  "service": "pet-turf",
+  "title": "Dog Runs and Pet Turf in Berthoud, CO | NoCo Turf Co.",
+  "description": "Berthoud allows two pets per genus for each adult, makes keepers answer for waste and odor, and Heron Lakes caps a dog run at 250 square feet.",
+  "h1": "Berthoud counts dogs per adult, and Heron Lakes caps a dog run at 250 square feet.",
+  "display": {
+    "paint": "caps a dog run at 250 square feet"
+  },
+  "lede": "In Berthoud the pet limit follows the number of adults in the house, and the animal code holds the keeper to account for waste and smell. Inside Heron Lakes, the design rules also set how big the run can be and where it sits.",
+  "answer": {
+    "question": "How many dogs can I keep in Berthoud?",
+    "answer": "Two per adult. Berthoud's code bars keeping more than two domesticated pets per genus per adult household member, so two adults can keep four dogs. Healthy animals up to four months old may be kept beyond that unless the owner breeds more often than every two years or runs a kennel, and the Town can grant a variance."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Pet limit",
+      "h2": "Berthoud's limit grows with the number of adults at home.",
+      "paras": [
+        "Section 18.7-1 of the municipal code bars keeping, housing or maintaining more than two domesticated pets per genus per adult household member on any dwelling unit or lot. Dogs and cats are separate genera, so each is counted on its own.",
+        "A household over the limit can petition for a variance, which the Town Administrator or a designee may grant for good cause and may revoke after notice and hearing. Each dog also needs a Town license within 14 days of the owner acquiring it, renewed every year with proof of rabies vaccination."
+      ],
+      "layerRefs": [
+        "berthoud-co.code-18-7-1-pet-limit",
+        "berthoud-co.code-18-2-1-license"
+      ],
+      "sources": [
+        "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH18ANFO_18.7KEAN",
+        "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH18ANFO_18.2LI"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Heron Lakes",
+      "h2": "A Heron Lakes dog run tops out at 250 square feet.",
+      "takeaway": "Section 2.24 of the Heron Lakes rules, amended June 1, 2026, puts every dog run before the Architectural Control Committee and limits it to 250 square feet.",
+      "paras": [
+        "The committee weighs a spot in the rear or side yard abutting the home, the distance to the neighbor's house, screening from view and any cover. The run has to match the style and color of the perimeter fence, and tarps are generally not allowed as a cover.",
+        "A dog kennel, which the rules define as a structure for boarding, breeding, training or any commercial venture, is not allowed at all."
+      ],
+      "layerRefs": [
+        "berthoud-co.heron-dog-run-250"
+      ],
+      "sources": [
+        "https://www.berthoudheritagemd.live/s/Heron-Lakes-Design-Rules-and-Regulations-June-1-2026.pdf"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Waste and odor",
+      "h2": "The code makes the keeper answer for the waste and for the smell.",
+      "paras": [
+        "Berthoud's animal code makes the keeper responsible for picking up and disposing of any waste the animal leaves, and feces on a street, sidewalk, park, recreation area or someone else's property must be removed immediately.",
+        "Section 18.5-4 counts an animal that creates offensive odors which materially interfere with a neighbor's lawful activities at home as a public nuisance, and holds the keeper strictly liable without proof of notice. On a dog run, that puts the weight on drainage and rinsing."
+      ],
+      "layerRefs": [
+        "berthoud-co.code-18-5-waste",
+        "berthoud-co.code-18-5-4-odor-nuisance"
+      ],
+      "sources": [
+        "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH18ANFO_18.5CO"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Fences and easements",
+      "h2": "A run's fence can't block a drainage easement.",
+      "paras": [
+        "Berthoud's zoning code, adopted as Chapter 30 by Ordinance 1367 in November 2025, says drainage easements must remain completely clear of obstructions and bars any structure, fence, sidewalk, pathway or other feature that blocks stormwater flow in one. Read the plat for easements before setting posts.",
+        "The animal code defines at large as outside a fence or other enclosure that restrains the animal to a particular premise, or not under the keeper's control."
+      ],
+      "layerRefs": [
+        "berthoud-co.code-30-4-109-drainage-easements",
+        "berthoud-co.code-18-1-at-large"
+      ],
+      "sources": [
+        "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH30BEDECO_S4ZO_30-4-109ENINSEEALLDI",
+        "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH18ANFO_18.1DE"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "Berthoud Dog Park",
+      "h2": "The town dog park on 10th Street splits small dogs from large.",
+      "paras": [
+        "Berthoud Dog Park, established in 2020 on 10th Street, has separate sections for small and large dogs, dog waste bag posts, rocks to jump on, water stations and a covered shelter. There are no restrooms.",
+        "In a designated off-leash area the code still wants each dog within sight and command control of its keeper, who stays responsible for any contact with another person or animal."
+      ],
+      "layerRefs": [
+        "berthoud-co.berthoud-dog-park",
+        "berthoud-co.code-18-5-1-off-leash"
+      ],
+      "sources": [
+        "https://berthoud.org/facilities/facility/details/Dog-Park-12",
+        "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH18ANFO_18.5CO"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does a house with several dogs need a kennel license in Berthoud?",
+      "a": "The animal code has no kennel license for household pets. Berthoud's development code treats a small-animal kennel as a place that houses pets or runs grooming, boarding or training as a business, and its land use table doesn't list one in the R1 through R3 districts."
+    },
+    {
+      "q": "Does Berthoud limit barking from a dog run?",
+      "a": "Yes. Keepers must prevent loud and persistent barking or other excessive noise, on or off their premises, but no one is charged unless the household got a written warning from a police or animal control officer within the preceding 12 months."
+    },
+    {
+      "q": "Can a dog run go in a front yard?",
+      "a": "In Heron Lakes the committee looks for a rear or side yard next to the house. Outside an HOA, Berthoud's landscape guidelines keep artificial turf to private backyards and sports fields only for new projects in the Suburban and Old Town Residential districts; for an existing front yard it depends, so ask Berthoud Planning."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Berthoud Municipal Code Sec. 18.7-1, Limitations on the Number of Household Pets",
+      "url": "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH18ANFO_18.7KEAN",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Berthoud Municipal Code Secs. 18.2-1 and 18.2-2, dog and cat licenses (within 14 days)",
+      "url": "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH18ANFO_18.2LI",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Berthoud Municipal Code Secs. 18.5-1 to 18.5-5, Control (waste, nuisance, off-leash areas; barking warning within 12 months)",
+      "url": "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH18ANFO_18.5CO",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Berthoud Municipal Code Sec. 30-4-109, Encroachments into setbacks and easements (Ord. No. 1367, Nov. 10, 2025)",
+      "url": "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH30BEDECO_S4ZO_30-4-109ENINSEEALLDI",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Berthoud-Heritage Metropolitan District, Heron Lakes Residential Improvement Rules and Regulations (amended June 1, 2026), Sec. 2.24, Dog Runs",
+      "url": "https://www.berthoudheritagemd.live/s/Heron-Lakes-Design-Rules-and-Regulations-June-1-2026.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Berthoud, Facilities: Dog Park (established 2020)",
+      "url": "https://berthoud.org/facilities/facility/details/Dog-Park-12",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Berthoud Landscape Design Guidelines (updated June 30, 2026, Ordinance 1383)",
+      "url": "https://www.berthoud.org/DocumentCenter/View/7674",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Berthoud Municipal Code Sec. 30-1-121, Definitions: Kennel (small animal)",
+      "url": "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH30BEDECO_S1GEPR_30-1-121DE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Berthoud Municipal Code Sec. 30-4-107, Land Use Table",
+      "url": "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH30BEDECO_S4ZO_30-4-107ZOLAUS",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Berthoud Municipal Code Sec. 18.1, Definitions (at large)",
+      "url": "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH18ANFO_18.1DE",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Dog-run or pet-turf jobs NoCo has built in Berthoud: month, size, number of dogs, and whether any sat inside Heron Lakes under its 250-square-foot cap",
+    "Camera-original photos of a Berthoud dog run: photos.ts has no photo with use 'pet', so this page cannot pass its gate yet",
+    "Whether NoCo has had a Heron Lakes Architectural Control Committee approval for a dog run, and what the committee required for screening and fencing",
+    "Confirmation that NoCo installs pet turf and dog runs today (services.ts pet-turf is unconfirmed)"
+  ]
+}

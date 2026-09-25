@@ -1,0 +1,564 @@
+[
+  {
+    "id": "longmont-co.ldc-15-10-020-turf-definitions",
+    "layer": "ordinance",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Longmont's development code counts turf, artificial turf included, as functional where a space is regularly used for civic, community or recreational purposes, naming playgrounds, sports fields, picnic grounds, parts of parks and golf playing areas such as chipping and putting greens, and as nonfunctional in places like sidewalk strips, medians and parking lots.",
+    "quote": "Turf, functional, means turf, including artificial, areas located in recreational use areas or other spaces that are regularly used for civic, community, or recreational purposes, such as playgrounds, sports fields, picnic grounds, amphitheaters, portions of parks, and the playing areas of golf courses, including driving ranges, chipping and putting greens, tee boxes, greens, fairways, and roughs. Turf, nonfunctional, means turf, including artificial, areas not serving civic, community, or recreational purposes, including, but not limited to, grass strips between sidewalks and curbs, medians, and areas within parking lots or transportation corridors.",
+    "source_url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.10DE_S15.10.020ALOTTEDE",
+    "source_label": "Longmont Land Development Code Sec. 15.10.020, \"Turf, functional\" and \"Turf, nonfunctional\" (history: Ord. No. O-2025-78, Nov. 18, 2025; codified through Ord. No. O-2026-39, June 23, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [],
+    "notes": "Read 2026-09-25 through the Municode API (CodesContent, product 14590, job 494949 = Supplement 9). The section history lists O-2025-78 (11-18-2025) as the latest amendment; that it added these two definitions is an inference from timing, not a statement in the code."
+  },
+  {
+    "id": "longmont-co.ldc-15-05-040-ground-cover",
+    "layer": "ordinance",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "In the landscape plans Longmont reviews, at least 75 percent of landscaped areas must be drought-tolerant vegetation or native ground cover, nonfunctional turf is prohibited, functional turf may go only in areas designated for civic, community or recreational use, and turf stays out of medians, streetscapes, parking-lot islands and parkways unless it is functional.",
+    "quote": "Landscaped areas shall be covered with at least 75 percent of the areas with drought-tolerant vegetation or native ground cover, except for areas where additional hardscape is allowed or as allowed for an alternative landscape plan. Nonfunctional turf is prohibited. Functional turf may be used only in areas designated for civic, community, or recreational use. … No large mulch or bare soil areas are allowed. Turf shall not be used in narrow or ornamental areas such as medians, streetscapes, parking lot islands, or parkways unless it qualifies as functional turf.",
+    "source_url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.05DEST_S15.05.040LACOARST",
+    "source_label": "Longmont Land Development Code Sec. 15.05.040.C.2.a.v and vi (history: Ord. No. O-2025-78, Nov. 18, 2025; codified through Ord. No. O-2026-39, June 23, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "75"
+    ],
+    "notes": "Sec. 15.05.010: chapter 15.05 standards 'apply to applications reviewed under this development code'; 15.05.040.B.1 applies the section to new development or redevelopment. Nothing found that reaches an existing single-family yard with no application."
+  },
+  {
+    "id": "longmont-co.design-standards-605-02-q-no-artificial",
+    "layer": "ordinance",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Longmont's Design Standards for landscape and irrigation, effective December 2025, say artificial grass and other synthetic plant materials may not be used to fulfill any landscaping requirement.",
+    "quote": "Section 600 shall apply to all landscaping and irrigation facilities considered public improvements and other landscape areas as addressed in the City Code or identified in the landscape and irrigation plan notes and checklists of these City Standards. … No artificial or synthetic plant materials such as artificial grass, shrubs, trees, or flowers shall be used to fulfill any landscaping requirement.",
+    "source_url": "https://longmontcolorado.gov/wp-content/uploads/2026/07/Section-600.pdf",
+    "source_label": "City of Longmont Design Standards and Construction Specifications, Section 600 Landscape and Irrigation, 600.01.A and 605.02.Q (effective December 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "2025"
+    ],
+    "notes": "PDF linked from the city's Development and Design Standards page; the ligatures in the PDF text (fi) are written out. The 2024 edition (wp-content/uploads/2024/07/600text.pdf) carried the same sentence as item 13. How it applies to a private lot's landscape plan versus city-maintained areas is not spelled out beyond 600.01.A."
+  },
+  {
+    "id": "longmont-co.ldc-15-05-040-pocket-parks",
+    "layer": "ordinance",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Longmont requires pocket parks in residential developments of 50 or more dwelling units, at one acre per 100 single-family or 200 multifamily units, unless half the units are within a quarter-mile walk of an existing or planned and fully funded public neighborhood park, with amenities such as playgrounds and tot lots, at least 75 percent lower-water planting in the landscaped part, no nonfunctional turf, no credit for dog parks, and a five-foot limit on rear and side fences of lots that abut the park.",
+    "quote": "Pocket parks are required for: i. Single-family detached and attached residential developments with 50 or more dwelling units; and ii. Multifamily residential developments with 50 or more dwelling units. … Pocket parks are not required when at least 50 percent of the dwelling units in a proposed development are within one-quarter mile (1,320 feet) walking distance of an existing public neighborhood park or a planned and fully funded in the approved city capital improvement program public neighborhood park. … Pocket park shall be provided at a ratio of one acre for every 100 single-family detached and attached dwelling units. … Pocket park shall be provided at a ratio of one acre for every 200 multifamily dwelling units. … Pocket parks shall contain amenities such as playgrounds, community gardens, tot lots, picnic areas, game courts, playing fields, plazas and courtyards, swimming pools, clubhouses, rooftop common areas, or other approved common area buildings or similar facilities based on the size of the park and the number of residents it is intended to serve. Areas used as dog parks shall not count toward the required pocket park area. Rear and side yard fences on lots abutting pocket parks shall not exceed five feet in height. … Pocket parks shall contain irrigated, lower water-consuming plant materials over at least 75 percent of the landscaped area, excluding approved structures, non-landscaping amenities, and hardscape areas. Nonfunctional turf is prohibited.",
+    "source_url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.05DEST_S15.05.040LACOARST",
+    "source_label": "Longmont Land Development Code Sec. 15.05.040.G.1, Pocket parks (codified through Ord. No. O-2026-39, June 23, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "50",
+      "1320",
+      "100",
+      "200",
+      "75"
+    ]
+  },
+  {
+    "id": "longmont-co.ldc-15-08-100-nonconforming-landscaping",
+    "layer": "ordinance",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Longmont lets landscaping that no longer meets its code stay until the site adds vehicle area, grows its floor area by more than 25 percent or changes 50 percent or more of a building's exterior walls, at which point the landscaping must be brought up to the current code.",
+    "quote": "A nonconforming site feature may continue to exist even though it does not conform to current applicable standards of this development code, subject to the requirements of this section. No action shall be taken that increases the degree or extent of a nonconforming site feature. … Nonconforming buffers and landscaping shall be upgraded to comply with this development code if the site containing the nonconforming site feature is proposed for any of the following development activities: a. An increase in the total square footage of the vehicular use area, including parking, loading, circulation, and driveway areas; b. A structural addition that increases the combined total gross floor area of all existing structures by more than 25 percent; c. Building elevation changes involving 50 percent or more of the exterior walls of a roofed structure on the property, excluding minor cosmetic maintenance such as painting, replacing lighting fixtures, or replacing awnings or signs.",
+    "source_url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.08NO_S15.08.100NOSIFE",
+    "source_label": "Longmont Land Development Code Sec. 15.08.100.A and B, Nonconforming site features (codified through Ord. No. O-2026-39, June 23, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "25",
+      "50"
+    ]
+  },
+  {
+    "id": "longmont-co.ldc-15-10-020-redevelopment",
+    "layer": "ordinance",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Longmont's development code defines redevelopment as site development where structures or site uses other than vacant or agricultural uses already exist.",
+    "quote": "Redevelopment means site development where there are existing structures or site uses (other than vacant or agricultural uses), or structures existed before the development.",
+    "source_url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.10DE_S15.10.020ALOTTEDE",
+    "source_label": "Longmont Land Development Code Sec. 15.10.020, \"Redevelopment\" (codified through Ord. No. O-2026-39, June 23, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [],
+    "notes": "The code's definition carries no landscape-disturbance threshold; the state law's more-than-50% test is in co-sb24-005-redevelopment. How Longmont reconciles the two for a landscape plan was not found in writing."
+  },
+  {
+    "id": "longmont-co.planning-landscape-regulations",
+    "layer": "ordinance",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Longmont Planning says the landscape standards it changed as of January 1, 2026 cover all landscape plans for new development and redevelopment, that nonfunctional areas such as sidewalk strips, medians and parking-lot areas must now use alternative materials that are still 75% living plants, and that homeowners, HOAs and businesses converting a turf area can use city-approved water-wise designs.",
+    "quote": "As of January 1, 2026, the City of Longmont has implemented changes to Section 15.05.040 Landscape and common area standards to promote water conservation, environmental sustainability, and aesthetic quality in landscaping practices. All landscape plans for new development and redevelopment are subject to these standards. … Nonfunctional turf is prohibited. Nonfunctional turf (including artificial turf) includes turf areas not serving any civic, community, or recreational purpose, including but not limited to grass strips between sidewalks and curbs, medians, and areas within parking lots or transportation corridors. These areas are now required to be landscaped with alternative materials, 75% of which are still living plant materials, including drought tolerant vegetation and native grasses. If you are a homeowner, HOA, or business interested in converting a turf area into a water-wise landscape design, there are City-approved template ideas. View the city approved water-wise landscape designs.",
+    "source_url": "https://longmontcolorado.gov/planning-and-development-services/environmental-planning/landscape-regulations/",
+    "source_label": "City of Longmont Planning and Development Services, Landscape Regulations",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "1",
+      "2026",
+      "75"
+    ]
+  },
+  {
+    "id": "longmont-co.water-efficiency-nonresidential",
+    "layer": "utility",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Longmont's Water Efficiency Plan tracker describes the city's code update under SB24-005 and HB25-1113 as restricting new nonfunctional turf in new and redeveloped non-residential projects.",
+    "quote": "The City of Longmont has updated our development code to be in compliance with Colorado state law (SB24-005 and HB25-1113) to restrict new non-functional turf in new/redeveloped non-residential projects.",
+    "source_url": "https://indicators.longmontcolorado.gov/water/actions/IP.3",
+    "source_label": "Longmont Indicators, Water Efficiency Plan action IP.3",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "longmont-co.drought-response-basis",
+    "layer": "drought",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Longmont sets its drought response level from reservoir storage, snowpack, soil moisture and projected demand, and if conditions worsen it follows its Water Supply and Shortage Implementation Plan.",
+    "quote": "The City of Longmont adjusts its response to drought based on reservoir storage, snowpack, soil moisture, and projected demand. … If conditions worsen, the City follows the Water Supply and Shortage Implementation Plan, reviewed yearly by City staff, Water Advisory Board, and City Council.",
+    "source_url": "https://longmontcolorado.gov/water/water-conservation/conserving-water-outdoors/",
+    "source_label": "City of Longmont, Conserving Water Outdoors",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-24",
+    "numbers": []
+  },
+  {
+    "id": "longmont-co.code-7-04-170-feces-odor",
+    "layer": "ordinance",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Longmont's animal code makes it unlawful to let animal feces build up into a health hazard or until the odor is noticeable on adjoining property.",
+    "quote": "The accumulation of animal feces compromises public health and constitutes a threat to public safety and welfare. It is unlawful for the owner or keeper of an animal to allow animal feces to accumulate so as to be a health hazard or so that the odor is noticeable on adjoining property.",
+    "source_url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT7AN_CH7.04AN_S7.04.170OFPR",
+    "source_label": "Longmont Municipal Code Sec. 7.04.170, Offensive premises (history: Ord. No. O-2024-35, May 28, 2024; codified through Ord. No. O-2026-39, June 23, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": []
+  },
+  {
+    "id": "longmont-co.code-7-04-200-hoa-dog-parks",
+    "layer": "ordinance",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Longmont licenses dog parks on HOA common open space one year at a time, requires them to be sited to buffer neighbors from noise and odor, and specifies at least eight inches of compacted crusher fines that drain readily, fencing at least four feet high, a double entry gate on an eight-by-eight-foot concrete pad, and two trash receptacles and two bag dispensers.",
+    "quote": "The term \"privately owned dog park\" means a designated dog park on private property, designated as common open space that is owned and maintained by a homeowners' association, which has been issued a license for such use pursuant to this section. … The private dog park shall be located in a manner which mitigates any adverse effects on neighboring properties. Locational considerations should include adequate buffer areas to mitigate impacts, including, but not limited to, noise and odor. … Surfacing. With the exception of dog parks in stormwater detention basins, surfacing should be a minimum of eight inches of crusher fines over graded soil. Crusher fines shall be compacted to provide a finished surface that will drain readily. Fencing. All parks will require security fencing, at least four feet in height, to adequately prevent dogs off leash from escaping from the park enclosure. … Gates. A minimum of one entry gate and one vehicle gate shall be installed. The user entry gate shall be a double gate with an eight-foot by eight-foot concrete pad to provide a transition area for dogs to enter and exit the facility. Trash receptacles and dog bag dispensers. A minimum of two trash receptacles, one inside the gate, one outside the gate, shall be required. A minimum of two dog bag dispensers shall be required. … A license issued pursuant to this section shall expire one year from the date of issuance.",
+    "source_url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT7AN_CH7.04AN_S7.04.200RECO",
+    "source_label": "Longmont Municipal Code Sec. 7.04.200.C, Private dog parks (history: Ord. No. O-2024-35, May 28, 2024; codified through Ord. No. O-2026-39, June 23, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [],
+    "notes": "The application goes to the parks, open space and public facilities director (7.04.200.C.1). The surfacing line says 'should', not 'shall'; the code does not mention artificial turf."
+  },
+  {
+    "id": "longmont-co.ldc-15-05-100-fences",
+    "layer": "ordinance",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Longmont requires a building permit for every fence or wall, limits fences in front of a house to 42 inches and at least 50 percent see-through, bans chain-link in residential front yards, caps residential fences at six feet and allows only low-voltage invisible pet fences among electric fences.",
+    "quote": "Except for low-voltage, commercially available \"invisible fences\" used to contain domestic pets, it is a violation of this development code to construct or maintain any fence capable of being charged with electricity. … No fence or wall shall be constructed until a plan has been presented and a permit has been issued in the manner provided for the issuance of building permits. … Fences, barriers, walls, or other obstructions shall not be placed or constructed in the front yard of a lot between the front lot line and any portion of the front facade of the building unless they comply with the following criteria: a. The fence or wall is at least 50 percent transparent (not opaque) and does not exceed 42 inches in height … Chain-link or other woven-wire fences are prohibited in the front yard of a lot or parcel located in a residential zoning district, except for temporary chain-link/woven-wire fences used during construction. … the maximum height for fences and walls shall be six feet for fences/walls located on residential property",
+    "source_url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.05DEST_S15.05.100FEWA",
+    "source_label": "Longmont Land Development Code Sec. 15.05.100.B, C, E and G, Fences and walls (codified through Ord. No. O-2026-39, June 23, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "50",
+      "42"
+    ]
+  },
+  {
+    "id": "longmont-co.code-7-04-020-license",
+    "layer": "ordinance",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Longmont requires a license for every dog or cat over six months old, and every license expires December 31 and must be renewed by February 1.",
+    "quote": "It is unlawful for any person to own, keep, harbor or possess any dog, miniature pot-bellied pig or cat over the age of six months which has not been licensed. … All licenses required by this section expire on December 31 of each year. Licenses must be renewed on or before February 1 of each year.",
+    "source_url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT7AN_CH7.04AN_S7.04.020LIRE",
+    "source_label": "Longmont Municipal Code Sec. 7.04.020, License required (history: Ord. No. O-2024-35, May 28, 2024; codified through Ord. No. O-2026-39, June 23, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "31",
+      "1"
+    ],
+    "notes": "Title 7 (chapters 7.04 and 7.06) read in full 2026-09-25: no cap on the number of dogs per household turned up. The only per-property counts are four chicken hens per parcel (7.04.130.A.5.b) and two miniature pot-bellied pigs per residential property (7.04.130.D). Absence finding, not a city statement."
+  },
+  {
+    "id": "longmont-co.code-7-04-130-animal-counts",
+    "layer": "ordinance",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Longmont's animal code caps chicken hens at four per parcel, kept to the rear or backyard, and miniature pot-bellied pigs at two per residential property; no count limit for dogs turned up in Title 7.",
+    "quote": "No more than four chicken hens are permitted per parcel. … Backyard chicken hens are restricted to the rear or backyard of any lot in a residential zoning district or the rear or backyard of a residential use in all other zoning districts. … No person shall keep more than two miniature pot-bellied pigs on any residential property.",
+    "source_url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT7AN_CH7.04AN_S7.04.130PRKEAN",
+    "source_label": "Longmont Municipal Code Sec. 7.04.130.A.5 and D, Prohibited keeping of animals (codified through Ord. No. O-2026-39, June 23, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [],
+    "notes": "Read 2026-09-25 through the Municode API (Title 7 content, job 494949). The no-dog-cap statement is an absence finding from reading chapters 7.04 and 7.06 in full, not a city statement."
+  },
+  {
+    "id": "longmont-co.ldc-15-04-030-commercial-daycare",
+    "layer": "ordinance",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "A commercial daycare site established in Longmont after August 12, 2025 needs site plan review, or a site plan waiver in an existing building, with an environmental buffer study of a 500-foot radius, and no daycare may open within 500 feet of an unmitigated hazard.",
+    "quote": "All newly developed commercial daycare facility sites established after August 12, 2025, in any zoning district must obtain site plan review approval from the City of Longmont before commencing operations. … Environmental buffer study. Required for sites located in any zoning district. This study must be conducted by an environmental consultant, environmental engineer, or environmental health specialist and assess a 500-foot radius around the property. … All commercial daycare centers or facilities established within existing buildings after August 12, 2025, must obtain a site plan waiver approval from the City of Longmont before commencing operations. … No daycare will be allowed to commence operations within 500 feet of any unmitigated hazard as evaluated and determined by an environmental buffer study.",
+    "source_url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.04USRE_S15.04.030UECST",
+    "source_label": "Longmont Land Development Code Sec. 15.04.030.C.4, Day care, commercial (codified through Ord. No. O-2026-39, June 23, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "12",
+      "2025",
+      "500"
+    ],
+    "notes": "The 15.04.030 history lists Ord. No. O-2025-43 (8-12-2025), which matches the date in the text. Whether resurfacing an existing center's play yard triggers a new waiver is not addressed."
+  },
+  {
+    "id": "longmont-co.ldc-15-04-030-residential-daycare",
+    "layer": "ordinance",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "A residential day care in Longmont must run in the provider's permanent residence and care for no more than 12 children under 18 or eight adults, counting the home's own residents.",
+    "quote": "Day care facilities shall be operated in the permanent residence of the provider. … Day care facilities shall provide care for no more than 12 children under the age of 18 years or eight adults. All residents of the home and all children and adults on the premises who receive care in the facility are included in the total number of children allowed.",
+    "source_url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.04USRE_S15.04.030UECST",
+    "source_label": "Longmont Land Development Code Sec. 15.04.030.C.5, Day care, residential (codified through Ord. No. O-2026-39, June 23, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "12",
+      "18"
+    ]
+  },
+  {
+    "id": "longmont-co.ldc-15-04-030-kennels",
+    "layer": "ordinance",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Longmont keeps kennels with outdoor activities at least 500 feet from a residential lot in a residential district, fully indoor kennels 250 feet, and requires overnight boarding indoors from 7 p.m. to 7 a.m.",
+    "quote": "Location. Kennels with outdoor activities shall not be located within 500 feet of a residential lot in a residential zoning district. Kennels that are entirely enclosed (indoor) shall not be located within 250 feet of a residential lot in a residential zoning district. … Outdoor activity areas of animal care facilities shall be located and designed to minimize impacts on surrounding properties. … Overnight boarding in animal care facilities shall occur indoors between the hours of 7:00 p.m. and 7:00 a.m.",
+    "source_url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.04USRE_S15.04.030UECST",
+    "source_label": "Longmont Land Development Code Sec. 15.04.030.D.2, Kennel (codified through Ord. No. O-2026-39, June 23, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "500",
+      "250",
+      "7"
+    ],
+    "notes": "Kennel (15.10.020): 'any establishment where domestic animals (usually dogs and cats) are boarded (overnight), bred or raised for sale, groomed, or trained, exclusive of veterinary care.'"
+  },
+  {
+    "id": "longmont-co.golf-municipal-courses",
+    "layer": "place",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "The City of Longmont runs three municipal golf courses: Sunset, Twin Peaks and Ute Creek.",
+    "quote": "Strengthen your game and boost your spirit at one of the City of Longmont’s three distinctive municipal golf courses. … you will find historic Sunset Golf Course, breathtaking Twin Peaks, and the Robert Trent Jones II designed Ute Creek.",
+    "source_url": "https://longmontcolorado.gov/golf-services/",
+    "source_label": "City of Longmont, Golf Services",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "longmont-co.ute-creek-golf",
+    "layer": "place",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Ute Creek Golf Course, designed by the Robert Trent Jones II Group and opened in 1997, is an 18-hole, par 72 course playing 5,509 to 7,167 yards.",
+    "quote": "Ute Creek Golf Course, designed by the world-renowned golf course architects of the Robert Trent Jones II Group, opened in 1997. This 18-hole, championship course is a Par 72, ranging in length from 5,509 yards to 7,167 yards.",
+    "source_url": "https://www.golflongmont.com/ute-creek",
+    "source_label": "City of Longmont Golf (golflongmont.com), Ute Creek Golf Course",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1997",
+      "18",
+      "72",
+      "5509",
+      "7167"
+    ]
+  },
+  {
+    "id": "longmont-co.twin-peaks-golf",
+    "layer": "place",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Twin Peaks Golf Course, a City of Longmont course, has a practice facility and a full driving range, and its page says a round there is highlighted by putting greens that challenge even the best golfers.",
+    "quote": "Twin Peaks offers tournament packages for all types of events, restaurant and bar service, PGA Golf Instruction, a practice facility, a full driving range, and a friendliness that will bring you back time and again. Whether you ride or walk while you play, your round of golf will be highlighted by putting greens that challenge even the best golfers.",
+    "source_url": "https://www.golflongmont.com/twin-peaks",
+    "source_label": "City of Longmont Golf (golflongmont.com), Twin Peaks Golf Course",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "longmont-co.sunset-golf",
+    "layer": "place",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Sunset Golf Course is a nine-hole City of Longmont course in historic old Longmont that is celebrating more than 100 years.",
+    "quote": "Celebrating 100+ Years Of Golfing Enjoyment … Sunset is located in historic old Longmont and is one of the most scenic nine-hole courses in Colorado!",
+    "source_url": "https://www.golflongmont.com/sunset",
+    "source_label": "City of Longmont Golf (golflongmont.com), Sunset Golf Course",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "100"
+    ]
+  },
+  {
+    "id": "longmont-co.fox-hill-club",
+    "layer": "place",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "The Fox Hill Club, on Highway 119 in Longmont, is a members' club with an 18-hole championship golf course designed by Frank Hummel.",
+    "quote": "An 18-hole championship golf course designed by Frank Hummel … The Fox Hill Club features a championship golf course, swimming, tennis, pickleball, fitness and a wide range of Member events for the entire family. With its family focus and relaxed atmosphere, Members come to regard the club as their “home away from home.” … 1400 CO-119, Longmont, CO 80504",
+    "source_url": "https://thefoxhillclub.com/",
+    "source_label": "The Fox Hill Club, home page",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "18",
+      "119",
+      "1400",
+      "80504"
+    ],
+    "notes": "The club's directions page puts the entrance on the north side of Highway 119 just past County Line Road. Third-party listings (PGA of America) call it private; the club's own page says Members."
+  },
+  {
+    "id": "longmont-co.dog-parks-city",
+    "layer": "place",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Longmont's park list puts its dog parks at 10 acres and names two dedicated dog parks, plus off-leash areas at Blue Skies, Rough & Ready and Stephen Day Parks and a dog beach at Union Reservoir.",
+    "quote": "Dog Parks (10 acres) Longmont has two dedicated dog parks, Dog Park #1 and Dog Park #2, plus dog off-leash areas at Blue Skies, Rough & Ready and Stephen Day Parks, and a dog beach at Union Reservoir.",
+    "source_url": "https://longmontcolorado.gov/parks-and-natural-resources/classification-of-parks/",
+    "source_label": "City of Longmont Parks and Natural Resources, Classification of Parks",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "10"
+    ],
+    "notes": "The 10 acres likely covers the two dedicated parks only (the 2014 master plan lists 7.0 and 2.7 acres); do not present it as the total of every off-leash area."
+  },
+  {
+    "id": "longmont-co.dog-park-1",
+    "layer": "place",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Longmont's first dedicated dog park sits at the corner of 21st and Francis Streets and is open from an hour before sunrise to an hour after sunset.",
+    "quote": "Dog Park Hours: 1 hour before sunrise to 1 hour after sunset Dog Park #1 is located at the corner of 21st and Francis Streets.",
+    "source_url": "https://longmontcolorado.gov/facilities/dog-park-1/",
+    "source_label": "City of Longmont, Dog Park #1",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "21"
+    ]
+  },
+  {
+    "id": "longmont-co.dog-park-2-grass",
+    "layer": "place",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Longmont's second dog park, 0.2 miles west of Airport Road and St. Vrain Road, has water only from the third Monday of April to the second Monday of October and may close for parts of the year so its grass can re-establish.",
+    "quote": "Dog Park #2 is located 0.2 miles west of the corner of Airport Road and St. Vrain Road. Water will be available during the third Monday of April until the second Monday of October. The park may be closed during parts of the year to allow the grass to re-establish.",
+    "source_url": "https://longmontcolorado.gov/facilities/dog-park-2/",
+    "source_label": "City of Longmont, Dog Park #2",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "0.2"
+    ],
+    "notes": "The page also says the park sits on Public Works Operations Facility land and will be relocated when that facility expands, timing unknown."
+  },
+  {
+    "id": "longmont-co.parks-classification",
+    "layer": "place",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Longmont lists 25 neighborhood parks on 194 acres, which provide playgrounds among other amenities, and 6 community parks on 259 acres.",
+    "quote": "Neighborhood Parks provide close-to-home recreation activities with playgrounds, playing fields, sport courts, shelters, dog off-leash areas and small wheels parks. … Neighborhood Parks (25 parks; 194 acres) … Community Parks (6 parks; 259 acres)",
+    "source_url": "https://longmontcolorado.gov/parks-and-natural-resources/classification-of-parks/",
+    "source_label": "City of Longmont Parks and Natural Resources, Classification of Parks",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "25",
+      "194",
+      "6",
+      "259"
+    ]
+  },
+  {
+    "id": "longmont-co.prt-plan-playgrounds",
+    "layer": "place",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Longmont's Parks, Recreation and Trails Master Plan, accepted in 2014, counted 37 playgrounds, almost all in neighborhood and community parks, the most elaborate being the Adventure Playground at Sandstone Ranch.",
+    "quote": "Playgrounds: Longmont has 37 playgrounds, almost all located in neighborhood and community parks. The predominant type of playground is the modular play structure such as the one found at Rothrock Dell Park. There are also more elaborate, thematic playgrounds such as the aeronautically themed one at Blue Skies Park. The City’s most elaborate and customized play area is the Adventure Playground found at Sandstone Ranch, and includes a modular playground structure, customized details and a built-in climbing wall.",
+    "source_url": "https://longmontcolorado.gov/wp-content/uploads/2024/07/5_Ch2_State_of_the_Park_System_2.pdf",
+    "source_label": "City of Longmont Parks, Recreation and Trails Master Plan (accepted by City Council April 8, 2014), Chapter 2: The State of the Parks, Recreation, and Trails System",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2014",
+      "37"
+    ],
+    "notes": "An inventory from the 2014 plan: say so wherever the count is used. Acceptance date from the plan's page: https://longmontcolorado.gov/parks-and-natural-resources/plans-maps-and-reports/parks-recreation-and-trails-master-plan/"
+  },
+  {
+    "id": "longmont-co.dry-creek-synthetic-fields",
+    "layer": "place",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Longmont replaced the natural-grass sports fields at Dry Creek Community Park with about 252,670 square feet of synthetic turf because the grass did not thrive on high-salinity soils and high groundwater.",
+    "quote": "Why were the original natural turf sports fields replaced with synthetic turf? The fields did not perform well as the natural turf did not thrive due to high salinity soils and high groundwater. The City received many requests to improve performance of the surface of the fields. … There are roughly 252,670 s.f. of turf installed.",
+    "source_url": "https://longmontcolorado.gov/facility/dry-creek-community-park/",
+    "source_label": "City of Longmont, Dry Creek Community Park (Synthetic Turf FAQs)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "252670"
+    ]
+  },
+  {
+    "id": "longmont-co.dry-creek-only-synthetic",
+    "layer": "place",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "The City of Longmont calls Dry Creek its only synthetic turf space and says it built it because access to St. Vrain Valley School District fields had been inconsistent and limited.",
+    "quote": "Access to the St. Vrain Valley School District facilities have been inconsistent and limited. The investment into the City’s only synthetic turf space was made to ensure the community has adequate quality sports field space.",
+    "source_url": "https://longmontcolorado.gov/facility/dry-creek-community-park/",
+    "source_label": "City of Longmont, Dry Creek Community Park (Field Lighting FAQs)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "longmont-co.dry-creek-turf-care",
+    "layer": "place",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Longmont washes the Dry Creek synthetic fields through an irrigation system with quick couplers, spot-cleans them as needed, and uses antibacterial-coated sand infill instead of rubber, which its FAQ says generally means reduced chemical exposure, lower heat retention and better end-of-life management.",
+    "quote": "An irrigation system with quick couplers is installed for cleaning the fields. Additionally, the utilized sand infill has antibacterial coating. … The fields will be spot cleaned on an as-needed basis. … Infill material consists of coated sand in lieu of rubber infill. Sand infill generally offers several environmental benefits over rubber infill, including reduced chemical exposure, lower heat retention and better end-of-life management. Coating provides antibacterial qualities and reduces abrasiveness.",
+    "source_url": "https://longmontcolorado.gov/facility/dry-creek-community-park/",
+    "source_label": "City of Longmont, Dry Creek Community Park (Synthetic Turf FAQs)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "longmont-co.dry-creek-turf-heat",
+    "layer": "research",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Longmont's parks FAQ says synthetic turf on sunny, calm days has typically measured 20 to 40 degrees above the air temperature at the surface, enough to change programming from mid-July to mid-September, while it stays pliable instead of freezing hard the rest of the year.",
+    "quote": "In the Mountain West and Colorado Front Range, synthetic turf temperatures on sunny, calm days have been typically measured at 20-40 degrees above the ambient temperature at points directly on the turf or near the surface. The higher above the surface, the lower the temperature. If wind is present, the temperature will also be lower. These temperatures could prompt changes in programming during the hottest months spanning mid-July to mid-September during the hottest parts of the day. The remaining 9-10 months will benefit from the temperature of the turf as the synthetic turf doesn’t freeze hard like natural turf and stays more pliable all winter.",
+    "source_url": "https://longmontcolorado.gov/facility/dry-creek-community-park/",
+    "source_label": "City of Longmont, Dry Creek Community Park (Synthetic Turf FAQs)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "20",
+      "40"
+    ],
+    "notes": "The city states a Front Range range, not its own measurement at Dry Creek: present it as the city's statement, own: false on any page."
+  }
+]

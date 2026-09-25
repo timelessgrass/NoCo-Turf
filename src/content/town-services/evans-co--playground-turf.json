@@ -1,0 +1,186 @@
+{
+  "status": "draft",
+  "town": "evans-co",
+  "service": "playground-turf",
+  "title": "Playground and Playset Turf in Evans, CO | NoCo Turf Co.",
+  "description": "New Evans parks give 15% to 50% of their area to ball fields, playgrounds or courts, and Evans code says artificial turf is not acceptable in common areas.",
+  "h1": "Every new Evans park must give 15% to 50% of its area to active recreation, and the city's landscape code says artificial turf is not acceptable for public or common areas.",
+  "display": {
+    "paint": "15% to 50% of its area to active recreation"
+  },
+  "lede": "Colorado law counts a playground as functional turf. Evans's subdivision and landscape chapters, rewritten in 2023, draw no such line for shared ground, and a 2026 ordinance on state landscaping rules isn't online yet. A backyard playset is a separate case, and so is a family child care yard. Checked September 25, 2026.",
+  "answer": {
+    "question": "Can a playground in an Evans park or HOA common area use artificial turf?",
+    "answer": "The published code points against it. Evans's landscape chapter, which new parks and common open space must meet, says artificial turf is not acceptable for public or common areas. An April 2026 ordinance adding a section on state landscaping mandates isn't online yet, so ask Evans Planning. NoCo Turf Co. installs playground turf in Evans, Colorado."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "New parks",
+      "h2": "Section 18.04.060 gives 15% to 50% of a new Evans park to ball fields, playgrounds or courts.",
+      "paras": [
+        "The same section makes every park and open space meet Chapter 18.08, and Section 18.08.020 of that chapter says artificial turf is not acceptable for public or common areas. The sentence sits under the chapter's item for unbuilt areas, but its words reach any public or common area, so on the published text a turf play surface in a new Evans park or HOA tract starts from a no. How far Evans applies it to a playground is Evans Planning's call.",
+        "New neighborhoods owe more play space through identity features: one for a subdivision of 12 to 50 units, up to four past 300, and a playground with commercial-grade equipment counts as one. Features the City doesn't accept stay common area, which the owners association maintains in perpetuity. Apartment projects over 12 units owe common areas as well, and a play structure for ages 5 to 12 is one of the features that can fill them.",
+        "Colorado's 2025 amendment calls playground turf functional, and on April 21, 2026 Evans passed Ord. 858-26 adding Section 18.08.080 for state landscaping mandates. Its text isn't in the online code yet, and whether a turf play surface now passes review depends on it. Not legal advice; ask Evans Planning."
+      ],
+      "layerRefs": [
+        "evans-co.code-18-04-060-park-active-recreation",
+        "evans-code-18.08.020-common-areas",
+        "evans-co.code-18-04-070-identity-features",
+        "evans-co.code-18-05-050-multifamily-common-areas",
+        "evans-co.ord-858-26-state-landscaping",
+        "co-hb25-1113-functional-turf"
+      ],
+      "sources": [
+        "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.04SUDE_18.04.060OPSPSYDE",
+        "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.08LADE_18.08.020LADE",
+        "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.04SUDE_18.04.070NEDE",
+        "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.05REDE_18.05.050LOOPSP",
+        "https://www.evanscolorado.gov/media/g3sokk4j/04212026-ordinance-858-26-2nd-reading.docx",
+        "https://leg.colorado.gov/bill_files/40673/download"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "City playgrounds",
+      "h2": "Evans called two of its playgrounds new in fall 2025, at Renaissance Park and Hunter's Reserve.",
+      "paras": [
+        "Renaissance Park in the Tuscany subdivision has an inclusive playground the city describes as brand new as of September 2025. Hunter's Reserve Park opened that October with a small playground structure and a nature play area, its north side kept as a stormwater detention pond. Ridge Park in The Ridge at Prairie View has a custom-designed tower and climbing playground.",
+        "In all, ten of the 16 parks and open spaces on the city's list have playgrounds, with two apiece at Pioneer and Vineyard parks. None of the city's park descriptions says what surface sits under the equipment."
+      ],
+      "layerRefs": [
+        "evans-co.renaissance-park-playground",
+        "evans-co.hunters-reserve-park",
+        "evans-co.ridge-park-playground",
+        "evans-co.parks-list",
+        "evans-co.d6-schools-in-evans"
+      ],
+      "sources": [
+        "https://www.evanscolorado.gov/parks-recreation-and-community/parks/",
+        "https://www.greeleyschools.org/schools"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Child care",
+      "h2": "An Evans family child care home may use its yard; a larger center needs a commercial district or a special use permit.",
+      "paras": [
+        "Evans keeps home businesses inside the house, an accessory building or the garage, except as required for state-licensed in-home family child care, so outdoor play at a family child care home fits the rule. Children being dropped off don't count against the home-business limits of one customer car at a time and ten client visits a week.",
+        "Care that doesn't fit the state's definition of a family child care home is a day care center. Evans allows one by right in the C-1, C-2 and C-3 commercial districts and, in the residential districts, only with a special use permit. Neither section says what goes under a swing set; fall-height padding is covered on the [playground turf page](/services/playground-turf/)."
+      ],
+      "layerRefs": [
+        "evans-co.code-18-02-040-home-child-care",
+        "evans-co.code-18-02-020-day-care-center",
+        "evans-co.code-18-02-040-accessory-structures"
+      ],
+      "sources": [
+        "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.02ZO_18.02.040ACUS",
+        "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.02ZO_18.02.020ALUS"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Liberty Draw",
+      "h2": "Liberty Draw sends swing sets, playhouses and play equipment through its review committee.",
+      "paras": [
+        "Liberty Draw's single-family architectural guidelines, updated September 25, 2024, require Architectural Review Committee approval for swing sets and for play and sports equipment. A playhouse needs approval too, has to match the house in design, materials and colors, and must be at least partly screened by landscaping or approved fencing.",
+        "The same guidelines let owners install artificial turf in back yards, so turf under a Liberty Draw playset is a question of the committee's approval of the set, not of the surface. The committee can grant variances, and other Evans subdivisions keep their own covenants. Colorado's backyard rule for HOAs is printed below."
+      ],
+      "layerRefs": [
+        "evans-co.liberty-draw-arc-guidelines",
+        "co-hoa-backyard-detached"
+      ],
+      "sources": [
+        "https://www.libertydrawsmds.com/files/952790d36/Liberty+Draw+ARB+Guidelines+SF+(Final).pdf",
+        "https://leg.colorado.gov/bill_files/92307/download"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I put turf under a backyard playset in Evans?",
+      "a": "The Evans code sections read for this page set no surfacing rule for a playset at a house, and the landscape chapter's list of covered sites does not name a backyard. An HOA may still review the set itself."
+    },
+    {
+      "q": "Does a playhouse have to match the house in Evans?",
+      "a": "Not if it is small and tucked away. A movable playhouse or shed of 120 square feet or less, under 10 feet tall and not on a slab, skips Evans's residential design standards when it sits well back from public space or can't be seen from it. One over 120 square feet has to meet the standards for the house. Ask Evans Planning about permits."
+    },
+    {
+      "q": "Who decides what goes under a school playground in Evans?",
+      "a": "Greeley-Evans School District 6. Its directory lists six schools with Evans addresses, Heiman, Dos Rios and Union Colony elementaries among them. School grounds are not on the city's parks list, so ask the district about a specific school."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Evans Municipal Code Sec. 18.04.060, open space system design (codified through Ord. No. 855-26, Jan. 6, 2026)",
+      "url": "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.04SUDE_18.04.060OPSPSYDE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Evans Municipal Code Sec. 18.08.020, landscape design (codified through Ord. No. 855-26, Jan. 6, 2026)",
+      "url": "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.08LADE_18.08.020LADE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Evans Municipal Code Sec. 18.04.070, neighborhood design (codified through Ord. No. 855-26, Jan. 6, 2026)",
+      "url": "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.04SUDE_18.04.070NEDE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Evans Municipal Code Sec. 18.05.050, lot open space (codified through Ord. No. 855-26, Jan. 6, 2026)",
+      "url": "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.05REDE_18.05.050LOOPSP",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Evans legal notice: Ordinance No. 858-26, adding Sec. 18.08.080 for state-mandated landscaping, passed second reading April 21, 2026",
+      "url": "https://www.evanscolorado.gov/media/g3sokk4j/04212026-ordinance-858-26-2nd-reading.docx",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "HB25-1113 signed act: C.R.S. 37-99-102(6.5) functional artificial turf and 37-99-103(1)",
+      "url": "https://leg.colorado.gov/bill_files/40673/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Evans, Parks (16 parks and open spaces listed)",
+      "url": "https://www.evanscolorado.gov/parks-recreation-and-community/parks/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Evans Municipal Code Sec. 18.02.040, accessory uses: structures, fences, household pets, home occupations (codified through Ord. No. 855-26, Jan. 6, 2026)",
+      "url": "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.02ZO_18.02.040ACUS",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Evans Municipal Code Sec. 18.02.020, allowed uses, Table 18-2-1 (codified through Ord. No. 855-26, Jan. 6, 2026)",
+      "url": "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.02ZO_18.02.020ALUS",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Greeley-Evans School District 6, Schools directory",
+      "url": "https://www.greeleyschools.org/schools",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Liberty Draw Metropolitan District Nos. 1-9: Single Family Detached Home Architectural Guidelines (updated Sept. 25, 2024)",
+      "url": "https://www.libertydrawsmds.com/files/952790d36/Liberty+Draw+ARB+Guidelines+SF+(Final).pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "C.R.S. 38-33.3-106.5(1)(i.5), added by SB23-178 (signed act)",
+      "url": "https://leg.colorado.gov/bill_files/92307/download",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Confirmation that NoCo serves Evans and wants playground leads there",
+    "Evans playground or playset turf jobs: subdivision, month, height of the set, and the pad product with its fall-height rating",
+    "Camera-original photos of an Evans play area: the one photos.ts photo with use 'play' was taken south of Windsor",
+    "Any Evans HOA, metro district, day care or District 6 play area you have bid, and what surfacing the owner or Evans Planning required"
+  ]
+}

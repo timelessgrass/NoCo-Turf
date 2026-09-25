@@ -1,0 +1,177 @@
+{
+  "status": "draft",
+  "town": "mead-co",
+  "service": "commercial-turf",
+  "title": "Commercial and HOA Turf in Mead, CO | NoCo Turf Co.",
+  "description": "Mead's commercial standard wants 75% live materials between building and street, and its developers build the parks. Where turf still fits on a Mead site.",
+  "h1": "Mead's commercial landscaping standard calls for 75% live materials between building and street.",
+  "display": {
+    "paint": "75% live materials"
+  },
+  "lede": "Mead's online code never mentions artificial turf, but its landscape standards were written around living ground cover: live frontage on commercial and attached-home sites, tall fescue for active recreation, live ground cover in every developer-built pocket park. Colorado's nonfunctional-turf ban for metro districts and HOA common areas sits on top of that.",
+  "answer": {
+    "question": "Can a business or HOA in Mead install artificial turf?",
+    "answer": "For play and sport areas, state law still allows it. Out front it is harder: Mead's commercial standard calls for at least 75% live materials between building and street unless the Town approves otherwise. NoCo Turf Co. installs commercial and HOA turf in Mead, Colorado. It depends on the site plan, so ask Mead Planning first."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Frontage",
+      "h2": "On a Mead commercial site, at least 75% of the ground between building and street has to be live.",
+      "takeaway": "Section 16-2-150(c)(3) adds \"unless approved by the Town,\" and that approval is where any proposal for turf out front would start.",
+      "paras": [
+        "The same standard asks for irrigated grass turf kept to active-recreation standards wherever a business site has active recreation, native grass elsewhere, and names a turf-type tall fescue or a brome/fescue mix for the active areas. Multi-family, single-family attached and mixed-use residential projects carry the same 75% live-materials minimum between the front of the house and the curb.",
+        "Parking lots get their own limits: irrigated turf is to be limited, grass is discouraged in strips under 10 feet wide, and grass in commercial parking lot landscaping has to be drought tolerant. None of these sections mentions artificial turf, and the online code, current to Ord. No. 1075 of April 2025, has no artificial-turf provision."
+      ],
+      "layerRefs": [
+        "mead-co.code-16-2-150-commercial-live-75",
+        "mead-co.code-16-2-150-attached-live-75",
+        "mead-co.code-16-2-150-parking-lot",
+        "mead-code-no-turf-provision"
+      ],
+      "sources": [
+        "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH16LAUSCO_ARTIICODEDEST_S16-2-150LADE",
+        "https://library.municode.com/co/mead/codes/municipal_code"
+      ]
+    },
+    {
+      "kind": "housing",
+      "own": true,
+      "kicker": "Who builds the parks",
+      "h2": "Mead's developers build its parks, and HOAs and metro districts own about half of the public ones.",
+      "paras": [
+        "A Mead developer has to set aside park land and build the park and its amenities; as of August 2025 no developer had chosen to pay the fee in lieu. About half of the town's public parks are owned and maintained by an HOA or metro district, 30 acres in all, and subdivisions planned or platted by September 2025 are projected to add 420 acres of parkland and open space.",
+        "The code sets the floor for what gets built. A community park of at least 30 acres needs an active play area, ballfields and sprinklered landscaping, and storm drainage areas used for active recreation have to be seeded to turf-type tall fescue, a brome/fescue mix or another drought-tolerant grass the Town accepts, with permanent irrigation."
+      ],
+      "layerRefs": [
+        "mead-co.developers-build-parks",
+        "mead-co.parks-ownership-2025",
+        "mead-co.new-parkland-420",
+        "mead-co.code-16-2-120-park-sizes",
+        "mead-co.code-16-2-150-drainage-active-rec",
+        "mead-co.commercial-park-dedication",
+        "mead-co.code-16-2-120-park-ownership"
+      ],
+      "sources": [
+        "https://www.meadinmotion.com/Customer/File/Full/b6d68145-5f69-4b7d-b67d-98ad43cd315b",
+        "https://www.meadinmotion.com/Customer/File/Full/a5313ca1-571f-42c2-9d1a-666d6aedabb7",
+        "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH16LAUSCO_ARTIICODEDEST_S16-2-120PAOPSP",
+        "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH16LAUSCO_ARTIICODEDEST_S16-2-150LADE"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "Fields",
+      "h2": "Mead's youth football and soccer play on grass at Liberty Ranch Park; Mead High's field is artificial turf.",
+      "paras": [
+        "Liberty Ranch Park hosts the Town's youth football and soccer, though as a neighborhood park it was not designed with the parking and restrooms that community-wide leagues need. The Town's joint-use agreement with the St. Vrain Valley School District, which runs an elementary, middle and high school in Mead, has expired, so district recreation facilities are no longer open to the public through it.",
+        "At Mead High School, Mead Maverick Field got new artificial turf in August 2021; the head football coach said they had recorded 130 degrees on the old turf field. Demand for fields is on record too: in the Town's June to July 2025 park-plan questionnaire, 65 respondents (33.0%) picked ball fields for team sports among the amenities Mead most needs."
+      ],
+      "layerRefs": [
+        "mead-co.liberty-ranch-youth-sports",
+        "mead-co.svvsd-joint-use-expired",
+        "mead-co.mead-high-field-2021",
+        "mead-co.ball-fields-questionnaire"
+      ],
+      "sources": [
+        "https://www.meadinmotion.com/Customer/File/Full/b6d68145-5f69-4b7d-b67d-98ad43cd315b",
+        "https://fieldturf.com/en/articles/detail/how-mead-high-school-became-the-coolest-high-school-in-colorado/",
+        "https://www.meadinmotion.com/Customer/File/Full/fcc4839d-07c8-45b6-b0d0-80b971518ad4"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": false,
+      "kicker": "State law",
+      "h2": "Colorado's ban on new nonfunctional turf reaches Mead's metro districts and HOA common ground.",
+      "paras": [
+        "Not legal advice. Since January 1, 2026, a local government or district may not install or allow nonfunctional artificial turf in new development or redevelopment on commercial, institutional or industrial property, HOA common property, or street rights-of-way, parking lots and medians. Turf on a playground, sports field, picnic ground or part of a park counts as functional and stays allowed. Turf installed before January 1, 2026 can be maintained where the local government allows it, and a project that needs a permit or design review and disturbs more than half the landscape counts as redevelopment.",
+        "Mead's own metro-district code leans the same way without naming turf: Section 12-2-10(e) lists water-conserving landscape design among the public benefits petitioners may claim in the letter of intent for a new district. It depends on the district's approved plan, so ask Mead Planning."
+      ],
+      "layerRefs": [
+        "co-sb24-005-nonfunctional-ban",
+        "co-sb24-005-applicable-property",
+        "co-hb25-1113-functional-turf",
+        "co-sb24-005-maintain-existing",
+        "co-sb24-005-redevelopment",
+        "mead-co.code-12-2-10-water-conserving"
+      ],
+      "sources": [
+        "https://leg.colorado.gov/bill_files/40673/download",
+        "https://leg.colorado.gov/bill_files/45372/download",
+        "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH12IMMEDI_ARTIIMEDIFO_S12-2-10FIPRSEPL"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do commercial and industrial projects in Mead have to give land for parks?",
+      "a": "On paper, yes: new commercial and industrial development is asked to dedicate 8% of its gross acreage to park purposes. The town's 2025 park report says many developers reject it because they add no homes, and the requirement has often been waived entirely."
+    },
+    {
+      "q": "Who maintains a park that a Mead developer builds?",
+      "a": "Mead's code leaves it to the Town, case by case, at review. It says the Town generally owns and maintains neighborhood, community and pocket parks and public trails, while landscaped outlots and private recreation facilities stay with an HOA or the landowner."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Mead Municipal Code Sec. 16-2-150, landscape design (codified through Ord. No. 1075, April 14, 2025)",
+      "url": "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH16LAUSCO_ARTIICODEDEST_S16-2-150LADE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Mead Municipal Code on Municode (codified through Ord. No. 1075, April 14, 2025): no artificial-turf provision",
+      "url": "https://library.municode.com/co/mead/codes/municipal_code",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Mead, Mead in Motion Planning Context and Existing Conditions Report (August 21, 2025)",
+      "url": "https://www.meadinmotion.com/Customer/File/Full/b6d68145-5f69-4b7d-b67d-98ad43cd315b",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Mead, Mead in Motion Needs Assessment Summary (October 15, 2025)",
+      "url": "https://www.meadinmotion.com/Customer/File/Full/a5313ca1-571f-42c2-9d1a-666d6aedabb7",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Mead Municipal Code Sec. 16-2-120, parks and open space (codified through Ord. No. 1075, April 14, 2025)",
+      "url": "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH16LAUSCO_ARTIICODEDEST_S16-2-120PAOPSP",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Mead Municipal Code Sec. 12-2-10, filing of a metropolitan district service plan (codified through Ord. No. 1075, April 14, 2025)",
+      "url": "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH12IMMEDI_ARTIIMEDIFO_S12-2-10FIPRSEPL",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "HB25-1113 signed act: C.R.S. 37-99-103(1), SB24-005 as amended",
+      "url": "https://leg.colorado.gov/bill_files/40673/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "SB24-005 signed act: C.R.S. 37-99-102(14) and 37-99-103(4)(a)",
+      "url": "https://leg.colorado.gov/bill_files/45372/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "FieldTurf (the field’s manufacturer), \"How Mead High School Became The Coolest High School In Colorado,\" September 14, 2021",
+      "url": "https://fieldturf.com/en/articles/detail/how-mead-high-school-became-the-coolest-high-school-in-colorado/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Mead, Mead in Motion Phase 1 Engagement Summary and Full Results Appendix (Questionnaire #1, June 2 to July 7, 2025, 197 answers to Question 9)",
+      "url": "https://www.meadinmotion.com/Customer/File/Full/fcc4839d-07c8-45b6-b0d0-80b971518ad4",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Commercial, HOA, metro-district or school turf jobs in or near Mead: site type, month, area and use (play, field, dog area)",
+    "A camera-original photo of your own commercial, HOA or sports job for src/data/photos.ts with use \"commercial\" (none exists; this page cannot pass the gate without it)",
+    "Mead metro districts or HOA managers you have bid for, and whether any asked about SB24-005 or the 75% live-materials standard",
+    "Whether NoCo bids on playground or field turf for developers building Mead pocket and neighborhood parks"
+  ]
+}

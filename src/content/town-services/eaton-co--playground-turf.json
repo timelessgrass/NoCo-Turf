@@ -1,0 +1,169 @@
+{
+  "status": "draft",
+  "town": "eaton-co",
+  "service": "playground-turf",
+  "title": "Playground and Play-Area Turf in Eaton, CO | NoCo Turf Co.",
+  "description": "Four Eaton park playgrounds serve kids 2 to 10, the R-1, R-2, R-3 and R-EH districts allow home day care, and Governor's Ranch reviews swing sets.",
+  "h1": "Four of Eaton's park playgrounds are built for kids 2 to 10",
+  "display": {
+    "paint": "built for kids 2 to 10"
+  },
+  "lede": "The Town's 2024 Parks Master Plan lists playgrounds for 2- to 10-year-olds at Maplewood, Hawkstone and Eaton Commons parks and the park north of Collins Street, and asks for something for older kids at Eaton Commons. Backyard play areas and home daycares fill in around those parks, under zoning that allows day care in the R-1, R-2, R-3 and R-EH districts.",
+  "answer": {
+    "question": "Can I run a home daycare with a turf play yard in Eaton?",
+    "answer": "Eaton's zoning allows home-based day care as an accessory use in the R-1, R-2, R-3 and R-EH districts, with the number of children set by the state's day care home rules. Colorado's family child care rules list artificial turf with a built-in resilient pad as an approved surface. Ask NoCo Turf Co. about playground turf for an Eaton yard."
+  },
+  "blocks": [
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "Town playgrounds",
+      "h2": "Eaton's park playgrounds are mostly sized for 2- to 10-year-olds.",
+      "paras": [
+        "The Town's 2024 Parks Master Plan counts ten parks covering about 44 acres. It lists the playgrounds at Maplewood Park, Hawkstone Park and the park north of Collins Street, 500 feet east of the new Eaton High School, as built for 2- to 10-year-olds. City Park, the oldest Town park, just north of Eaton Middle School, has a playground with no age range given, and the plan recommends upgrading it.",
+        "At Eaton Commons, a 14-acre park watered with nonpotable well water, the playground also serves 2- to 10-year-olds, and the plan recommends adding play equipment for ages 13 and up. Residents surveyed for the plan put playground equipment and a tot lot on their list of preferred improvements.",
+        "School playgrounds count too: the plan says they're open to Eaton residents outside school hours, and the Town works with Eaton School District RE-2 on joint-use schedules that stay clear of school events and practices."
+      ],
+      "layerRefs": [
+        "eaton-co.parks-plan-ten-parks",
+        "eaton-co.parks-plan-playgrounds",
+        "eaton-co.eaton-commons-park",
+        "eaton-co.parks-plan-preferred",
+        "eaton-co.parks-plan-irrigation"
+      ],
+      "sources": [
+        "https://web.archive.org/web/20240628215425/http://www.eatonco.org/media/6216"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Home day care",
+      "h2": "Eaton's R-1, R-2, R-3 and R-EH districts all allow home-based day care.",
+      "paras": [
+        "Home-based day care is a permitted accessory use in the R-1, R-2, R-3 and R-EH districts. The code caps the number of children at whatever the state's day care home rules allow at the time, and it frees child care from the 35% of living area that other home businesses have to stay under.",
+        "The residential mixed-use district, R-MU, goes further: it permits educational centers, daycare centers included, of less than 5,000 square feet, and limited daycare for up to 12 children for less than 24 hours a day.",
+        "In Eaton's zoning, a day care home or center is a facility the State licenses to care for more than two unrelated children under 18, so a home daycare answers to both: the Town's zoning for the use, and the State's child care rules, below, for the yard."
+      ],
+      "layerRefs": [
+        "eaton-co.code-home-day-care",
+        "eaton-co.code-7-2-20-rmu-daycare"
+      ],
+      "sources": [
+        "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIIPLZORE_SIIZOOR_ARTIIDIRE",
+        "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIIPLZORE_SIIZOOR_ARTIIDIRE_S7-2-20REMIUSDI"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Governor's Ranch",
+      "h2": "In Governor's Ranch, a swing set goes to the committee with its cut sheet.",
+      "paras": [
+        "Governor's Ranch's design standards list playhouses, swing sets and basketball hoops among the items allowed with Architectural Control Committee approval. A submittal shows the site location and materials, with cut sheets for any play equipment, and the plans can be as simple as a sketch.",
+        "The Town asks less. Eaton's building-code amendments exempt from a building permit a one-story detached playhouse of up to 120 square feet whose roof stays within 10 feet of grade. The covenants on file date from 2001 and 2002; ask the HOA for the current standards."
+      ],
+      "layerRefs": [
+        "eaton-co.governors-ranch-play-items",
+        "eaton-co.code-6-1-1-permit-exempt",
+        "co-hoa-backyard-detached",
+        "eaton-co.code-open-space-minimums",
+        "eaton-co.code-7-2-48-open-space-def"
+      ],
+      "sources": [
+        "https://web.archive.org/web/20150421034928/http://www.eatongovernorsranch.com/covenants/Declarations%20of%20Covenants.pdf",
+        "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIBURE_SIBUCO_S6-1-1INBUCO",
+        "https://leg.colorado.gov/bill_files/92307/download",
+        "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIIPLZORE_SIIZOOR_ARTIIDIRE",
+        "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIIPLZORE_SIIZOOR_ARTVADPR_S7-2-48DE"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": false,
+      "kicker": "State child care rules",
+      "h2": "Colorado's home child care rules count turf with a built-in pad as a play surface.",
+      "paras": [
+        "Not legal advice. The state's family child care home rules call for at least 75 square feet of usable outdoor play space per child, enclosed by a fence at least 42 inches high or a natural barrier, and they list artificial turf with a built-in resilient pad among the Department-approved solid surfaces. Fall heights, use zones and pad ratings are on the [safety guides](/guides/safety/)."
+      ],
+      "layerRefs": [],
+      "sources": [
+        "https://www.law.cornell.edu/regulations/colorado/8-CCR-1402-1-2.337"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does Eaton's turf ordinance reach a daycare center's play yard?",
+      "a": "Not the play yard itself. Section 7-13-2 bars nonfunctional artificial turf in new or redeveloped commercial, institutional and HOA common property, and the state definitions Eaton adopts count a playground as functional turf. Not legal advice."
+    },
+    {
+      "q": "Does a playhouse count against my lot's open space?",
+      "a": "It can. Eaton's zoning counts accessory buildings as impervious surface, and each house district keeps a minimum share of the lot as livable open space, 20% in R-1 and R-2. A turf play area isn't named either way; ask Eaton Planning if the lot is tight. The [Eaton page](/areas/eaton-co/) has lot sizes by neighborhood."
+    },
+    {
+      "q": "Does a home daycare's play yard need shade?",
+      "a": "Yes. Colorado's family child care home rules say shade must be available in the outdoor play space and metal equipment must sit in the shade. Turf in full sun runs hotter than grass, so plan the shade with the surface; the [playground turf service page](/services/playground-turf/) covers heat."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Town of Eaton, 2024 Parks Master Plan (adopted June 13, 2024), Internet Archive copy",
+      "url": "https://web.archive.org/web/20240628215425/http://www.eatonco.org/media/6216",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Eaton Municipal Code Secs. 7-2-17 to 7-2-19.1, residential districts (home-based day care)",
+      "url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIIPLZORE_SIIZOOR_ARTIIDIRE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Eaton Municipal Code Sec. 7-2-20, R-MU Residential Mixed Use District",
+      "url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIIPLZORE_SIIZOOR_ARTIIDIRE_S7-2-20REMIUSDI",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Governor's Ranch Declaration of Covenants (recorded April 30, 2001) and First Amendment with Amended Exhibit 1 (Sept. 30, 2002), Internet Archive copy of the developer's PDF",
+      "url": "https://web.archive.org/web/20150421034928/http://www.eatongovernorsranch.com/covenants/Declarations%20of%20Covenants.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Eaton Municipal Code Sec. 6-1-1, International Building Code, 2024 Edition, as amended (work exempt from permit)",
+      "url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIBURE_SIBUCO_S6-1-1INBUCO",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "SB23-178 signed act: C.R.S. 38-33.3-106.5(1)(i.5)",
+      "url": "https://leg.colorado.gov/bill_files/92307/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "8 CCR 1402-1, Rule 2.337, family child care home outdoor requirements (75 sq ft of outdoor play space per child; 42-inch fence; artificial turf with built-in resilient pad listed), effective March 16, 2024",
+      "url": "https://www.law.cornell.edu/regulations/colorado/8-CCR-1402-1-2.337",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Eaton Municipal Code Sec. 7-2-48, Zoning definitions: open space, impervious surface area",
+      "url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIIPLZORE_SIIZOOR_ARTVADPR_S7-2-48DE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Eaton Municipal Code Secs. 7-13-1 and 7-13-2 (Ord. 668, 2025)",
+      "url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIIPLZORE_SXIIINOTUNOARTUINPLSP",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "HB25-1113 signed act: C.R.S. 37-99-102(6.5), functional artificial turf",
+      "url": "https://leg.colorado.gov/bill_files/40673/download",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Play areas or turf under playsets you have installed in Eaton: subdivision, month, size, fall height of the set, pad used",
+    "Camera-original photos of an Eaton play area: the one play photo in photos.ts is from south of Windsor, not Eaton",
+    "Any Eaton home daycare or school job, and whether a state licensing visit looked at the surface",
+    "Governor's Ranch swing-set or playhouse submittals you have been part of",
+    "Confirmation that NoCo serves Eaton (the town page is still a draft)"
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "status": "draft",
+  "town": "milliken-co",
+  "service": "putting-greens",
+  "title": "Backyard Putting Greens in Milliken, CO | NoCo Turf Co.",
+  "description": "Milliken's Mad Russian course is public and known for small, demanding greens. What R-1 zoning and Settlers Village covenants say about a green at home.",
+  "h1": "Milliken's Mad Russian course is known for small, demanding greens",
+  "display": {
+    "paint": "small, demanding greens"
+  },
+  "lede": "The Mad Russian Golf Course sits inside Milliken's town limits and is now run by the local parks district. A green at home answers to the Town's zoning code and, in Settlers Village, to a review committee. Watering hours and the landscape exemption for existing houses are on the [Milliken page](/areas/milliken-co/).",
+  "answer": {
+    "question": "Can I put a putting green in my backyard in Milliken?",
+    "answer": "In the rear yard, as a rule. Milliken's R-1 zoning allows sport courts, pools and similar structures by right only behind the house, and its lot-coverage count leaves out flat surfaces such as patios; the code never names a green. Settlers Village also wants its review committee's written approval first. NoCo Turf Co. installs backyard putting greens in Milliken, Colorado."
+  },
+  "blocks": [
+    {
+      "kind": "golf",
+      "own": true,
+      "kicker": "The town course",
+      "h2": "The Mad Russian is a public 18 inside Milliken, run by the parks district.",
+      "takeaway": "Milliken's own course is public, par 71, and built around a short game.",
+      "paras": [
+        "GolfPass lists the Mad Russian Golf Course as a public 18-hole, par-71 course built in 1987 and calls its small and difficult greens demanding, a test of iron play and the short game.",
+        "Since January 1, 2023, Thompson Rivers Parks and Recreation District, an independent district organized in 1994, has held the course under a 25-year agreement, according to the district's audited 2023 statements. The greens a Milliken golfer practices for are run by a public body, not a private club."
+      ],
+      "layerRefs": [
+        "milliken-co.mad-russian-course",
+        "milliken-co.mad-russian-trpr"
+      ],
+      "sources": [
+        "https://www.golfpass.com/travel-advisor/courses/4271-mad-russian-golf-course",
+        "https://s3.us-east-2.amazonaws.com/lg.colorado.gov/published_audits/2023/3467.00%20Thompson%20River%20Park%20and%20Recreation%20District.pdf"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Rear yard, R-1",
+      "h2": "Milliken's R-1 zoning puts sport courts and similar structures in the rear yard.",
+      "paras": [
+        "In the R-1 single-family district, Section 16-2-110 allows sporting courts, tennis courts, swimming pools and other similar structures by right, provided they sit in the rear yard of the lot. The code never names a putting green, so whether a green counts as a similar structure is unsettled. It depends on the design; ask Milliken Planning before siting one beside or in front of the house.",
+        "Lot coverage is the other number. R-1 caps it at 40 percent, and the definition in Section 16-8-200 counts buildings and structures while leaving out flat surfaces such as sidewalks, driveways and uncovered patios. A green laid flat reads more like a patio than a building, but the definition doesn't mention turf."
+      ],
+      "layerRefs": [
+        "milliken-co.code-16-2-110-r1-rear-yard",
+        "milliken-co.code-16-8-lot-coverage"
+      ],
+      "sources": [
+        "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIZODIUS_S16-2-110SIMIRE",
+        "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTVIIIDE_S16-8-200DEWOTEPH"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Settlers Village",
+      "h2": "In Settlers Village, a green goes past the review committee before it goes in.",
+      "paras": [
+        "The subdivision's covenants, recorded in 2001, say no structure or other improvement, fences and landscaping included, may be built, modified or altered without the Architectural Review Committee's written approval.",
+        "The HOA's application asks for at least one of: plans showing location, elevations and dimensions, a manufacturer's brochure, color or material samples, or photographs. The owner signs that no work starts until the association's written approval arrives."
+      ],
+      "layerRefs": [
+        "milliken-co.settlers-village-arc",
+        "milliken-co.settlers-village-arc-application",
+        "co-hoa-backyard-detached"
+      ],
+      "sources": [
+        "https://www.settlersvillagehoa.net/_files/ugd/98f97b_68fd2c3655784cae946a2f9a2b4e9f23.pdf",
+        "https://www.settlersvillagehoa.net/_files/ugd/98f97b_4a782ecf39ca48828a67b995270958bf.pdf",
+        "https://leg.colorado.gov/bill_files/92307/download"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "New houses",
+      "h2": "A newly built Milliken lot facing open space keeps half its yard in live plants.",
+      "paras": [
+        "For new single-family and two-family homes, Table 16-3-3-1 requires at least 50 percent live materials at maturity in the front yard between the house and the curb, and the same share on any side or rear yard that faces a park, open space or a public street.",
+        "Artificial turf is not a live material, so on a new lot backing onto a greenbelt a green shares that yard with planting. The table doesn't say how the half is measured; it depends on the approved plan, so ask Milliken Planning. Houses already standing are mostly outside these standards, as the [Milliken page](/areas/milliken-co/) explains."
+      ],
+      "layerRefs": [
+        "milliken-co.code-16-3-315-residential-live",
+        "milliken-code-16-3-303-nonfunctional"
+      ],
+      "sources": [
+        "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIIGESTAPALDI_DIV3LABUFEWAST_S16-3-315AMLARE",
+        "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIIGESTAPALDI_DIV3LABUFEWAST_S16-3-303NOTUNOARTUINPLTRSHGRSP"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does a tiered green's retaining wall need approval in Milliken?",
+      "a": "Above 48 inches, yes. Milliken's fence and wall standards require any retaining wall taller than that to be engineered and approved in advance by the Town Engineer and Building Official, and those standards apply to existing homes too."
+    },
+    {
+      "q": "Could a Milliken HOA put a putting green on common ground?",
+      "a": "The Town's Section 16-3-303 borrows Colorado's definitions, and the state counts putting and chipping greens and other golf playing areas as functional artificial turf, which the ban on nonfunctional turf in new development leaves alone. It depends on the site plan; ask Milliken Planning."
+    },
+    {
+      "q": "My address says Milliken. Which code applies?",
+      "a": "Inside town limits, Milliken's. Outside them, unincorporated Weld County governs, and a search of the county code on September 24, 2026 found no artificial-turf provision. Ask Milliken Planning whether a parcel is in town."
+    }
+  ],
+  "sources": [
+    {
+      "label": "GolfPass course directory, Mad Russian Golf Course, Milliken, Colorado",
+      "url": "https://www.golfpass.com/travel-advisor/courses/4271-mad-russian-golf-course",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Thompson Rivers Parks and Recreation District, 2023 audited financial statements, Notes 1 and 4 (filed with the Colorado Division of Local Government)",
+      "url": "https://s3.us-east-2.amazonaws.com/lg.colorado.gov/published_audits/2023/3467.00%20Thompson%20River%20Park%20and%20Recreation%20District.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Milliken Municipal Code Sec. 16-2-110, Single-Family Residential (R-1) (codified through Ord. No. 838, March 25, 2026)",
+      "url": "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIZODIUS_S16-2-110SIMIRE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Milliken Municipal Code Sec. 16-8-200, Definitions, \"Lot coverage\" (codified through Ord. No. 838, March 25, 2026)",
+      "url": "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTVIIIDE_S16-8-200DEWOTEPH",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Declaration of Covenants, Conditions, and Restrictions for Settlers Village Subdivision, Art. XI, Sec. 2 (recorded Aug. 27, 2001, Weld County Reception No. 2877827)",
+      "url": "https://www.settlersvillagehoa.net/_files/ugd/98f97b_68fd2c3655784cae946a2f9a2b4e9f23.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Settlers Village HOA, Application for Approval of Architectural Improvement",
+      "url": "https://www.settlersvillagehoa.net/_files/ugd/98f97b_4a782ecf39ca48828a67b995270958bf.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "SB23-178 signed act: C.R.S. 38-33.3-106.5(1)(i.5)",
+      "url": "https://leg.colorado.gov/bill_files/92307/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Milliken Municipal Code Sec. 16-3-315(c), Table 16-3-3-1 (codified through Ord. No. 838, March 25, 2026)",
+      "url": "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIIGESTAPALDI_DIV3LABUFEWAST_S16-3-315AMLARE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Milliken Municipal Code Secs. 16-3-303 and 16-3-305(c) (Ord. 831, Dec. 22, 2025; codified through Ord. No. 838, March 25, 2026)",
+      "url": "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIIGESTAPALDI_DIV3LABUFEWAST_S16-3-303NOTUNOARTUINPLTRSHGRSP",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Milliken Municipal Code Sec. 16-3-390(b)(5), retaining walls over 48 inches (codified through Ord. No. 838, March 25, 2026)",
+      "url": "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIIGESTAPALDI_DIV3LABUFEWAST_S16-3-390FEWA",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "HB25-1113 signed act: C.R.S. 37-99-102(6.5), functional artificial turf",
+      "url": "https://leg.colorado.gov/bill_files/40673/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Weld County Charter and County Code on Municode (codified through June 8, 2026), searched September 24, 2026",
+      "url": "https://library.municode.com/co/weld_county/codes/charter_and_county_code",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Backyard putting greens you have built inside Milliken town limits: subdivision, month, rough size, and whether it sits in the rear yard",
+    "Camera-original photos of a Milliken green (photos.ts has none from Milliken or right next to it; the Windsor and Berthoud greens can't stand in)",
+    "Whether you have taken a green through the Settlers Village Architectural Review Committee, or through the HOA for Mad Russian Estates or another Milliken golf-side neighborhood, and what they asked for",
+    "Whether Milliken Planning or the building department has ever treated a backyard green as a 'similar structure' or counted it toward lot coverage",
+    "Where exactly the 'south of Windsor' greens (photos.ts 'boulders', 'street-view') sit: if one is inside Milliken or on its edge, it could be this page's photo"
+  ]
+}

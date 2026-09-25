@@ -1,0 +1,184 @@
+{
+  "status": "draft",
+  "town": "milliken-co",
+  "service": "commercial-turf",
+  "title": "Commercial and HOA Turf in Milliken, CO | NoCo Turf Co.",
+  "description": "Milliken's turf ban already covers common areas of multifamily sites over 12 units, two years before Colorado's. What its code allows on business and HOA land.",
+  "h1": "Milliken's turf ban reached multifamily common areas in 2026, two years ahead of Colorado",
+  "display": {
+    "paint": "two years ahead of Colorado"
+  },
+  "lede": "Milliken wrote the state's ban on nonfunctional turf into its own code in December 2025 and took the multifamily piece along at once. Its landscape table, parking-lot standards and pocket-park minimums then decide where turf, grass and planting go on business, HOA and park ground. Not legal advice.",
+  "answer": {
+    "question": "Can a business or HOA in Milliken install artificial turf?",
+    "answer": "Only functional turf, in new development or redevelopment. From January 1, 2026, Milliken's Section 16-3-303 bars nonfunctional artificial turf on commercial, HOA common, right-of-way and larger multifamily property, using Colorado's definitions, which leave room for playgrounds, sports fields and parts of parks. Not legal advice. NoCo Turf Co. installs commercial and HOA turf in Milliken, Colorado."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Section 16-3-303",
+      "h2": "Milliken's code reaches multifamily common areas now; the state waits until 2028.",
+      "paras": [
+        "Section 16-3-303 came in with Ordinance 831, dated December 22, 2025. From January 1, 2026, no one may install nonfunctional turf, nonfunctional artificial turf or invasive plants as part of new development or redevelopment on commercial, institutional or industrial property, HOA common property, street rights-of-way, parking lots, medians and transportation corridors, or the common areas of multifamily property with more than 12 units.",
+        "Colorado's own ban reaches multifamily common areas only from January 1, 2028. Milliken's section takes the state's definitions 'as it may be from time to time amended', so the state's functional-turf list, from playgrounds and sports fields to parts of parks, carries over. Not legal advice."
+      ],
+      "layerRefs": [
+        "milliken-co.code-16-3-303-multifamily",
+        "co-hb25-1113-multifamily-2028",
+        "co-hb25-1113-functional-turf"
+      ],
+      "sources": [
+        "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIIGESTAPALDI_DIV3LABUFEWAST_S16-3-303NOTUNOARTUINPLTRSHGRSP",
+        "https://leg.colorado.gov/bill_files/40673/download"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Landscape table",
+      "h2": "For recreation areas on business sites, Milliken's table still says irrigated grass.",
+      "paras": [
+        "Table 16-3-3-1 asks a nonresidential site to landscape at least 15 percent of its gross area, with 75 percent live materials at maturity, native grasses on non-recreation areas and irrigated turf grass on active recreation areas. Section 16-3-335 then caps high-water turf grass at 20 percent of the required landscaping on those sites, and exempts parks and open space.",
+        "The table was written with living grass in mind. Whether functional artificial turf can stand in for 'irrigated turf grass' on a business's recreation area, it doesn't say. It depends on the site plan; ask Milliken Planning early."
+      ],
+      "layerRefs": [
+        "milliken-co.code-16-3-315-nonresidential",
+        "milliken-co.code-16-3-335-turf-grass-caps"
+      ],
+      "sources": [
+        "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIIGESTAPALDI_DIV3LABUFEWAST_S16-3-315AMLARE",
+        "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIIGESTAPALDI_DIV3LABUFEWAST_S16-3-335WAEFLADE"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Parking lots",
+      "h2": "Milliken keeps grass out of parking-lot strips narrower than 8 feet.",
+      "paras": [
+        "On a lot of 25 or more spaces, Section 16-3-365 wants islands at least 8 feet wide and 125 square feet, trees grouped in those islands and irrigated turf kept limited, with turf grass prohibited in any area narrower than 8 feet. Parking lots and medians are also on Section 16-3-303's list, so in new work those strips can't take nonfunctional artificial turf either."
+      ],
+      "layerRefs": [
+        "milliken-co.code-16-3-365-parking-lots",
+        "milliken-co.code-16-3-303-multifamily"
+      ],
+      "sources": [
+        "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIIGESTAPALDI_DIV3LABUFEWAST_S16-3-365PALOLAST",
+        "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIIGESTAPALDI_DIV3LABUFEWAST_S16-3-303NOTUNOARTUINPLTRSHGRSP"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Older sites",
+      "h2": "Changing more than a quarter of an older site's landscaping brings it up to Milliken's standards.",
+      "paras": [
+        "Section 16-3-310 covers legal nonconforming landscaping everywhere except detached homes and duplexes. Once changes reach more than 25 percent of the landscaped area on the most recently approved site plan, the landscaping has to meet current standards, and later permits on the same commercial, industrial or multifamily property add up toward that 25 percent.",
+        "That is a separate test from the state turf law's redevelopment line, which turns on disturbing more than 50 percent of the landscape area."
+      ],
+      "layerRefs": [
+        "milliken-co.code-16-3-310-nonconforming",
+        "co-sb24-005-redevelopment"
+      ],
+      "sources": [
+        "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIIGESTAPALDI_DIV3LABUFEWAST_S16-3-310NOLA",
+        "https://leg.colorado.gov/bill_files/45372/download"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "Who holds the ground",
+      "h2": "In Milliken, the parks district runs the sports ground and HOAs own the pocket parks.",
+      "paras": [
+        "Thompson Rivers Parks and Recreation District, an independent district organized in 1994, offers youth and adult sports and is the Town's contact for the Milliken Sports Complex. Its audited 2023 statements list the Milliken Athletic Complex and a 25-year agreement, from January 1, 2023, for the Mad Russian Golf Course, where the district also runs an event center.",
+        "In newer subdivisions, Section 16-5-405 assigns pocket parks, landscaped outlots and private recreation facilities to the homeowners' association or the landowner, so the decision about turf on that ground sits with the HOA board or the owner."
+      ],
+      "layerRefs": [
+        "milliken-co.mad-russian-trpr",
+        "milliken-co.trpr-athletic-complex",
+        "milliken-co.trpr-programs",
+        "milliken-co.code-16-5-405-pocket-parks"
+      ],
+      "sources": [
+        "https://s3.us-east-2.amazonaws.com/lg.colorado.gov/published_audits/2023/3467.00%20Thompson%20River%20Park%20and%20Recreation%20District.pdf",
+        "https://www.millikenco.gov/186/Parks-Lakes",
+        "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTVSURE_DIV4LADE_S16-5-405PAOPSPTRRE"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does Milliken's ban reach turf a property already has?",
+      "a": "It covers what goes in as part of new development or redevelopment from January 1, 2026. Colorado's law lets a local government allow turf put in before that date to be maintained; whether a full replacement counts as maintenance hasn't been tested. It depends on the project; ask Milliken Planning."
+    },
+    {
+      "q": "Could an HOA put a putting green or a dog area on common ground in Milliken?",
+      "a": "A green, yes in principle: putting and chipping greens and other golf playing areas are named in the state's functional-turf definition, which Milliken's code borrows. A dog area isn't named, so whether it is a space regularly used for community or recreational purposes is unsettled. It depends on the plan; ask Milliken Planning."
+    },
+    {
+      "q": "Does the ban cover a single-family backyard in Milliken?",
+      "a": "No. A house lot isn't among the property types in Section 16-3-303, and the rest of the Town's landscape division exempts existing detached houses from most of its standards. The [Milliken page](/areas/milliken-co/) has the details."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Milliken Municipal Code Sec. 16-3-303 (Ord. 831, Dec. 22, 2025; codified through Ord. No. 838, March 25, 2026)",
+      "url": "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIIGESTAPALDI_DIV3LABUFEWAST_S16-3-303NOTUNOARTUINPLTRSHGRSP",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "HB25-1113 signed act: C.R.S. 37-99-102(6.5) and 37-99-103(5)(a), SB24-005 as amended",
+      "url": "https://leg.colorado.gov/bill_files/40673/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Milliken Municipal Code Sec. 16-3-315(c), Table 16-3-3-1, nonresidential column (codified through Ord. No. 838, March 25, 2026)",
+      "url": "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIIGESTAPALDI_DIV3LABUFEWAST_S16-3-315AMLARE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Milliken Municipal Code Sec. 16-3-335(b), Water Efficiency in Landscape Design (codified through Ord. No. 838, March 25, 2026)",
+      "url": "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIIGESTAPALDI_DIV3LABUFEWAST_S16-3-335WAEFLADE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Milliken Municipal Code Sec. 16-3-365, Parking Lot Landscaping Standards (codified through Ord. No. 838, March 25, 2026)",
+      "url": "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIIGESTAPALDI_DIV3LABUFEWAST_S16-3-365PALOLAST",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Milliken Municipal Code Sec. 16-3-310, Nonconforming Landscaping (codified through Ord. No. 838, March 25, 2026)",
+      "url": "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIIGESTAPALDI_DIV3LABUFEWAST_S16-3-310NOLA",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "SB24-005 signed act: C.R.S. 37-99-102(14) and 37-99-103(4)(a)",
+      "url": "https://leg.colorado.gov/bill_files/45372/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Thompson Rivers Parks and Recreation District, 2023 audited financial statements (filed with the Colorado Division of Local Government)",
+      "url": "https://s3.us-east-2.amazonaws.com/lg.colorado.gov/published_audits/2023/3467.00%20Thompson%20River%20Park%20and%20Recreation%20District.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Milliken, Parks & Lakes (Thompson River Parks & Recreation)",
+      "url": "https://www.millikenco.gov/186/Parks-Lakes",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Milliken Municipal Code Sec. 16-5-405(e), Park, Open space, and Trail Requirements (codified through Ord. No. 838, March 25, 2026)",
+      "url": "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTVSURE_DIV4LADE_S16-5-405PAOPSPTRRE",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Commercial, HOA, metro-district, school or parks-district turf you have installed or bid in Milliken: site, month, size and use",
+    "A camera-original photo of your own commercial, HOA or sports job (photos.ts has no 'commercial' photo yet, so this page cannot pass the gate without one)",
+    "Whether you have worked with Thompson Rivers Parks and Recreation District, Weld RE-5J or a Milliken HOA or metro district, and who signs off on their turf",
+    "Whether Milliken Planning has accepted functional artificial turf in place of the 'irrigated turf grass' its landscape table asks for on a recreation area"
+  ]
+}

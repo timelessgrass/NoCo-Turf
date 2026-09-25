@@ -1,0 +1,200 @@
+{
+  "status": "draft",
+  "town": "berthoud-co",
+  "service": "commercial-turf",
+  "title": "Commercial and HOA Turf in Berthoud, CO | NoCo Turf Co.",
+  "description": "Berthoud bars bluegrass from parking lots and medians, its guidelines keep artificial turf to backyards and fields in new neighborhoods, and HOAs own parks.",
+  "h1": "Berthoud's code saves bluegrass for places people play and keeps it out of parking lots and medians.",
+  "display": {
+    "paint": "saves bluegrass for places people play"
+  },
+  "lede": "On a Berthoud business or HOA site, the ground cover answers to the development code's turf-grass rule, the Landscape Design Guidelines updated June 30, 2026, and the state ban on nonfunctional artificial turf printed further down.",
+  "answer": {
+    "question": "Can an HOA or a business in Berthoud install artificial turf?",
+    "answer": "On new development, only where it is functional, under Colorado's ban on nonfunctional artificial turf. Berthoud's municipal code, codified through November 10, 2025, has no artificial-turf section, and its landscape guidelines mention artificial turf once, keeping it to private backyards or sports fields in new Suburban and Old Town Residential projects. For a particular site it depends; ask Berthoud Planning."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Turf-grass rule",
+      "h2": "Bluegrass is for playgrounds, fields and parks, never parking lots or medians.",
+      "paras": [
+        "Section 30-6-112 of Berthoud's development code lets irrigated turf grass with a high water requirement, such as Kentucky bluegrass and turf-type tall fescue, go only where the space is used for recreation or civic or community purposes: playgrounds, sports fields and athletics, picnic grounds, amphitheaters, portions of parks and golf playing areas. It must not be planted in parking lots or medians, and low-water and native grasses are exempt.",
+        "Landscape plans come with every land development application except a single-family building permit, and the site rules cover residential common areas, multifamily developments and any non-residential development or property. The municipal code itself, as codified through November 10, 2025, has no artificial-turf provision."
+      ],
+      "layerRefs": [
+        "berthoud-co.code-30-6-112-high-water-turf",
+        "berthoud-co.code-30-6-112-landscape-plan",
+        "berthoud-code-no-turf-provision"
+      ],
+      "sources": [
+        "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH30BEDECO_S6DEST_30-6-112LADE",
+        "https://library.municode.com/co/berthoud/codes/code_of_ordinances"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Landscape guidelines",
+      "h2": "In new residential projects, the guidelines say artificial turf belongs in backyards or on sports fields.",
+      "paras": [
+        "Berthoud's Landscape Design Guidelines, updated June 30, 2026 by Ordinance 1383, apply to new construction and substantial building alterations that need approval from the Planning or Building Department. In the Suburban and Old Town Residential districts they say artificial turf should only be used in private backyards or for sports fields, which leaves a common-area lawn out. The parks section says to reserve irrigated turf grass for the areas of parks subject to human activity.",
+        "The Water Conservation Element the Trustees adopted on April 14, 2026 says the intent is to amend the landscape guidelines again in 2026 to align with House Bill 21-1229, so this line may move. It depends on the district and the project; ask Berthoud Planning before a common-area plan counts on turf."
+      ],
+      "layerRefs": [
+        "berthoud-co.ldg-artificial-turf-backyards",
+        "berthoud-co.ldg-parks-irrigated-turf",
+        "berthoud-co.wce-amend-landscape-guidelines-2026"
+      ],
+      "sources": [
+        "https://www.berthoud.org/DocumentCenter/View/7674",
+        "https://www.berthoud.org/DocumentCenter/View/7739"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Pocket parks",
+      "h2": "New subdivisions hand their pocket parks to an HOA or metro district.",
+      "paras": [
+        "Berthoud requires developed parkland in any residential subdivision of more than six acres or more than 50 dwelling units, at one acre per 100 units. Pocket parks, from a third of an acre to under two acres, must be owned and maintained by an HOA or metro district and stay open to the public; a neighborhood park can stay with the HOA or district or go to the Town.",
+        "Every proposed park needs irrigation and at least two dog waste stations per acre. A pocket park includes at least three core elements, one option being a 15,000-square-foot minimum turf play area, plus three or more from a list that includes a commercial-grade or nature-based playground. The code doesn't say whether artificial turf can count as that turf play area; ask Berthoud Planning."
+      ],
+      "layerRefs": [
+        "berthoud-co.code-30-6-109-parkland-required",
+        "berthoud-co.code-30-6-109-pocket-parks-hoa",
+        "berthoud-co.code-30-6-109-pocket-park-elements"
+      ],
+      "sources": [
+        "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH30BEDECO_S6DEST_30-6-109PATROPSP"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "Fields",
+      "h2": "Max Marr Stadium was getting field turf, and Waggener Farm Park is growing.",
+      "paras": [
+        "A Musco Lighting project page says Thompson School District was installing new field turf at Berthoud High School's Max Marr Stadium when it added new field lighting. Waggener Farm Park, the Town's newest park, has large turf fields and multi-age playgrounds on more than 20 acres.",
+        "On July 14, 2026, Ordinance 1386 approved buying land from Thompson School District R2-J to add to the Town's lot in the Waggener Farm First Subdivision, for expansion of what the ordinance calls its multi-use community park."
+      ],
+      "layerRefs": [
+        "berthoud-co.max-marr-stadium-field-turf",
+        "berthoud-co.waggener-farm-park",
+        "berthoud-co.waggener-farm-park-expansion-2026"
+      ],
+      "sources": [
+        "https://www.musco.com/project/berthoud/",
+        "https://www.berthoud.org/facilities/facility/details/Waggener-Farm-Park-19",
+        "https://www.berthoud.org/DocumentCenter/View/7734/Ordinance-1386-Property-Purchase-Thompon-School-District"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Kennels",
+      "h2": "A kennel's outdoor runs have to be screened and sound-mitigated.",
+      "paras": [
+        "Berthoud's development code defines a small-animal kennel as a facility licensed to house dogs, cats or other household pets, or where grooming, boarding or training is run as a business. Outdoor runs may be allowed when they are screened from view of adjacent properties and sound mitigation is established.",
+        "The land use table permits a small-animal kennel with a site plan permit in the AG, SC, UC, R4, C1 and C2 districts and by special review in M2; it is not listed for R1 through R3."
+      ],
+      "layerRefs": [
+        "berthoud-co.code-kennel-outdoor-runs"
+      ],
+      "sources": [
+        "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH30BEDECO_S1GEPR_30-1-121DE",
+        "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH30BEDECO_S4ZO_30-4-107ZOLAUS"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Has Berthoud written its own rule on nonfunctional artificial turf?",
+      "a": "Not as of Ordinance 1367 on November 10, 2025, and none of the ordinances the Town has posted since, through No. 1390, is titled as one; its live-grass limit is the one in Chapter 30. Colorado's rule applies either way: since January 1, 2026, cities, towns and metro districts may not install or allow nonfunctional artificial turf in new development or redevelopment of commercial, institutional, industrial or HOA common property. Not legal advice."
+    },
+    {
+      "q": "Can a Berthoud business use artificial turf for a dog area?",
+      "a": "It depends. Berthoud's code doesn't address it, and Colorado's functional-turf definition names playgrounds, sports fields, picnic grounds, amphitheaters, portions of parks and golf playing areas, not dog areas by name. A neighborhood park can count a fully fenced off-leash dog area of at least one acre as an element; ask Berthoud Planning whether yours counts as functional."
+    },
+    {
+      "q": "Does the turf-grass rule reach an existing parking-lot island?",
+      "a": "The code applies it to new landscaping, and landscape plans come with land development applications. Replacing the grass on an existing island by itself isn't clearly covered, so it depends; ask Berthoud Planning."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Berthoud Municipal Code Sec. 30-6-112, Landscape design (codified through Ord. No. 1367, Nov. 10, 2025)",
+      "url": "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH30BEDECO_S6DEST_30-6-112LADE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Berthoud Code of Ordinances on Municode (codified through Ord. No. 1367, Nov. 10, 2025)",
+      "url": "https://library.municode.com/co/berthoud/codes/code_of_ordinances",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Berthoud Landscape Design Guidelines (updated June 30, 2026, Ordinance 1383)",
+      "url": "https://www.berthoud.org/DocumentCenter/View/7674",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Berthoud Comprehensive Plan Section 5, Water Conservation Element (adopted by Ord. No. 1379, April 14, 2026): intent to amend the landscape guidelines in 2026 to align with House Bill 21-1229",
+      "url": "https://www.berthoud.org/DocumentCenter/View/7739",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Berthoud Municipal Code Sec. 30-6-109, Parks, trails and open space (subdivisions over 50 units; 15,000 sq ft turf play area)",
+      "url": "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH30BEDECO_S6DEST_30-6-109PATROPSP",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Musco Lighting, project page: Berthoud High School (Max Marr Stadium)",
+      "url": "https://www.musco.com/project/berthoud/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Berthoud, Facilities: Waggener Farm Park (20+ acres)",
+      "url": "https://www.berthoud.org/facilities/facility/details/Waggener-Farm-Park-19",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Berthoud Ordinance No. 1386 (Series 2026), adopted July 14, 2026",
+      "url": "https://www.berthoud.org/DocumentCenter/View/7734/Ordinance-1386-Property-Purchase-Thompon-School-District",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Berthoud Municipal Code Sec. 30-1-121, Definitions: Kennel (small animal)",
+      "url": "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH30BEDECO_S1GEPR_30-1-121DE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Berthoud Municipal Code Sec. 30-4-107, Land Use Table",
+      "url": "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH30BEDECO_S4ZO_30-4-107ZOLAUS",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Berthoud, Ordinances page (Ord. Nos. 1360 to 1390 posted)",
+      "url": "https://www.berthoud.org/280/Ordinances",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "HB25-1113 signed act: C.R.S. 37-99-102(6.5), functional artificial turf, and 37-99-103(1)",
+      "url": "https://leg.colorado.gov/bill_files/40673/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "SB24-005 signed act: C.R.S. 37-99-102(1)(a), applicable property",
+      "url": "https://leg.colorado.gov/bill_files/45372/download",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Commercial, HOA, school or metro-district turf jobs NoCo has done in Berthoud: site, month and use (field, playground, dog area, common area)",
+    "A camera-original photo of NoCo's own commercial or HOA job, to add to photos.ts with use 'commercial': no photo carries that use, so no commercial page can pass its gate yet",
+    "HOAs or metro districts in Berthoud NoCo has bid or worked with, such as the Berthoud-Heritage Metropolitan District at Heron Lakes",
+    "Whether Thompson School District's Max Marr Stadium field turf is a job NoCo knows first-hand (the page cites a lighting vendor's account only)",
+    "Confirmation that NoCo does commercial, HOA and sports turf today (services.ts commercial-turf is unconfirmed)"
+  ]
+}

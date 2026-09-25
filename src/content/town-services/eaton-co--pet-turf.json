@@ -1,0 +1,176 @@
+{
+  "status": "draft",
+  "town": "eaton-co",
+  "service": "pet-turf",
+  "title": "Pet Turf and Dog Runs in Eaton, CO | NoCo Turf Co.",
+  "description": "Eaton allows four dogs and a litter per household, bans shock-wire fences, and Governor's Ranch sets its own dog-run rules. What that means for pet turf.",
+  "h1": "An Eaton household can keep four dogs and one litter",
+  "display": {
+    "paint": "four dogs and one litter"
+  },
+  "lede": "Eaton's animal chapter dates from Ordinance 648 of 2024. A dog run here answers to that chapter, to the Town's fence section and, in Governor's Ranch, to fence standards that name dog runs outright.",
+  "answer": {
+    "question": "How many dogs can I keep in Eaton?",
+    "answer": "Four dogs and one litter per person or household, under Section 11-1-7 of the Town code; a litter means a dog's puppies under 6 months old. Animal shelters, veterinary clinics, kennels and pet shops sit outside that limit. For pet turf or a dog run in an Eaton yard, NoCo Turf Co. can talk it through."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Two kennel definitions",
+      "h2": "Four dogs is the household limit; the zoning code's kennel starts at three animals.",
+      "paras": [
+        "Section 11-1-7, part of the animal chapter Ordinance 648 put in place in 2024, lets a person or household keep no more than four dogs and one litter. The animal chapter defines a kennel as a business: premises where someone boards, breeds, buys, lets for hire or trains animals for a fee.",
+        "Eaton's zoning code defines the word more widely. There, a kennel is any building, structure or open space used wholly or partly to raise, board or harbor three or more animals older than six months.",
+        "How those two definitions sit together on a house lot with three or four dogs, the code doesn't spell out. For a family's own dogs it may never come up; for a run that will board, breed or train dogs, it depends on the use, so ask Eaton Planning before building."
+      ],
+      "layerRefs": [
+        "eaton-co.code-11-1-7-four-dogs",
+        "eaton-co.code-11-1-animal-terms",
+        "eaton-co.code-7-2-48-kennel",
+        "eaton-co.code-11-1-2-dog-license"
+      ],
+      "sources": [
+        "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHXIAN_SIANRURE_S11-1-7NUPEAL",
+        "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHXIAN_SIANRURE",
+        "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIIPLZORE_SIIZOOR_ARTVADPR_S7-2-48DE",
+        "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHXIAN_SIANRURE_S11-1-2LI"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Section 6-2-1",
+      "h2": "No shock wire on a dog-run fence, anywhere in Eaton.",
+      "paras": [
+        "Eaton's fence section makes it unlawful anywhere in town to put up or keep a fence with barbed wire, spikes or an electrical charge strong enough to shock. The one exception is a few strands of barbed wire on fences in the C-2 and industrial districts.",
+        "Fences top out at 6 feet, and one within 3 feet of a sidewalk needs a revocable permit from the Town Board. Under the Town's building-code amendments, a fence no taller than 6 feet needs no building permit.",
+        "For a dog that climbs or digs at the edge, that leaves the fence height and the way the turf is fixed along the fence line to do the work. A hot wire along the top or the bottom is off the table."
+      ],
+      "layerRefs": [
+        "eaton-co.code-6-2-1-fences",
+        "eaton-co.code-6-1-1-permit-exempt"
+      ],
+      "sources": [
+        "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIBURE_SIIFE_S6-2-1RE",
+        "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIBURE_SIBUCO_S6-1-1INBUCO"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Governor's Ranch",
+      "h2": "Governor's Ranch writes dog runs into its fence standards.",
+      "paras": [
+        "The fence standards recorded for Governor's Ranch in 2002 say every dog run is to be wrought iron or ivory vinyl, no more than 4 feet high, approved by the Architectural Control Committee, and never chain link. Front-yard fencing isn't allowed at all, and fences between neighbors are vinyl, 36 or 48 inches high depending on the lot.",
+        "The declaration permits dogs on any lot as long as they are leashed, chained, fenced within the lot or under the owner's control, and it bars keeping or breeding them for commercial purposes.",
+        "The committee can amend its standards, so ask the HOA for the current set before ordering panels."
+      ],
+      "layerRefs": [
+        "eaton-co.governors-ranch-dog-runs",
+        "eaton-co.governors-ranch-household-pets",
+        "co-hoa-backyard-detached"
+      ],
+      "sources": [
+        "https://web.archive.org/web/20150421034928/http://www.eatongovernorsranch.com/covenants/Declarations%20of%20Covenants.pdf",
+        "https://leg.colorado.gov/bill_files/92307/download"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "Leash law and parks",
+      "h2": "Off its own lot, an Eaton dog stays on a leash, and the Town has no dog park.",
+      "paras": [
+        "Eaton's animal code calls a dog at large when it is off its owner's premises and not under control, and control there means a leash or lead no longer than 6 feet. No animal may run at large in town, and the animal control officer can impound one that does.",
+        "The Town's 2024 Parks Master Plan describes ten Town parks, about 44 acres in all, and none of the descriptions mentions a dog park, though residents surveyed for the plan listed one among their preferred improvements. Eaton Commons Park, 14 acres on the east side of town, has a dog waste station, and the plan's first-phase drawing proposes another. The Eaton Area Park and Recreation District allows no dogs on its campus, athletic complex included. For most Eaton dogs, the yard is the one place to run loose."
+      ],
+      "layerRefs": [
+        "eaton-co.code-11-1-animal-terms",
+        "eaton-co.parks-plan-ten-parks",
+        "eaton-co.parks-plan-preferred",
+        "eaton-co.eaton-commons-park",
+        "eaton-co.eaprd-athletic-complex"
+      ],
+      "sources": [
+        "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHXIAN_SIANRURE",
+        "https://web.archive.org/web/20240628215425/http://www.eatonco.org/media/6216",
+        "https://www.eaprd.com/eaton-area-athletic-complex"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does my dog need a Town license?",
+      "a": "Yes, once it is over 6 months old. Apply to the Town Clerk within 30 days of becoming the owner, with a rabies vaccination certificate good through December 31 of the licensing year. The tag has to be on the dog whenever it's off your premises."
+    },
+    {
+      "q": "Does my dog have to be leashed in my own unfenced yard?",
+      "a": "The code doesn't settle it. A dog on its owner's premises isn't at large by definition, but the same section says all animals shall be kept under control, which the code defines as a leash or lead. It depends on how the Town reads those two lines together, so ask the Town of Eaton before counting on an open yard; a fenced run avoids the question."
+    },
+    {
+      "q": "Do I have to pick up after my dog in my own yard?",
+      "a": "Eaton's pickup rule, Section 11-1-6, reaches public property and property that isn't yours. On a turf run, solids come up anyway: urine rinses through the backing, solids don't. The [pet guides](/guides/pets/) cover odor and rinsing, and the [Eaton page](/areas/eaton-co/) covers the ground under the yard."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Eaton Municipal Code Sec. 11-1-7, Number of pets allowed (Ord. 648, 2024; codified through Ord. 668, Nov. 20, 2025)",
+      "url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHXIAN_SIANRURE_S11-1-7NUPEAL",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Eaton Municipal Code Chapter XI, Animals, Secs. 11-1-1, 11-1-3 and 11-1-6 (Ord. 648, 2024)",
+      "url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHXIAN_SIANRURE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Eaton Municipal Code Sec. 11-1-2, Licensing",
+      "url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHXIAN_SIANRURE_S11-1-2LI",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Eaton Municipal Code Sec. 7-2-48, Zoning definitions (kennel)",
+      "url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIIPLZORE_SIIZOOR_ARTVADPR_S7-2-48DE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Eaton Municipal Code Sec. 6-2-1, Fences: restrictions",
+      "url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIBURE_SIIFE_S6-2-1RE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Eaton Municipal Code Sec. 6-1-1, International Building Code, 2024 Edition, as amended (work exempt from permit)",
+      "url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIBURE_SIBUCO_S6-1-1INBUCO",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Governor's Ranch Declaration of Covenants (recorded April 30, 2001) and First Amendment with Amended Exhibit E, Fence Standards (Sept. 30, 2002), Internet Archive copy of the developer's PDF",
+      "url": "https://web.archive.org/web/20150421034928/http://www.eatongovernorsranch.com/covenants/Declarations%20of%20Covenants.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "SB23-178 signed act: C.R.S. 38-33.3-106.5(1)(i.5)",
+      "url": "https://leg.colorado.gov/bill_files/92307/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Eaton, 2024 Parks Master Plan (adopted June 13, 2024), Internet Archive copy",
+      "url": "https://web.archive.org/web/20240628215425/http://www.eatonco.org/media/6216",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Eaton Area Park and Recreation District, Eaton Area Athletic Complex (no dogs on campus)",
+      "url": "https://www.eaprd.com/eaton-area-athletic-complex",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Dog runs or pet turf you have installed in Eaton: subdivision, month, size, number of dogs, and where the run drains",
+    "Camera-original photos of an Eaton dog run: photos.ts has no pet photo yet, from Eaton or anywhere",
+    "Governor's Ranch dog runs you have built or quoted, and whether the ACC's current fence standards still call for wrought iron or ivory vinyl at 4 feet",
+    "Whether an Eaton customer with three or more dogs has been asked about the zoning code's kennel definition",
+    "Confirmation that NoCo serves Eaton (the town page is still a draft)"
+  ]
+}

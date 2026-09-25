@@ -1,0 +1,98 @@
+{
+  "status": "draft",
+  "town": "loveland-co",
+  "service": "putting-greens",
+  "title": "Backyard Putting Greens in Loveland, CO | NoCo Turf Co.",
+  "description": "Loveland's city courses went walking-only in the dry winter of 2026, and a Mariana Butte HOA keeps artificial turf to back yards. What that means for a green.",
+  "h1": "Loveland's city golf courses went walking-only in the dry winter of 2026 to spare their turf.",
+  "display": { "paint": "went walking-only" },
+  "lede": "Loveland's municipal greens are real grass, and 2026 showed what a short water year does to them. A green behind a Loveland house answers to different rules: an HOA's design guidelines, and a city code that files golf playing areas under functional turf.",
+  "answer": {
+    "question": "Can I put an artificial putting green in a Loveland backyard?",
+    "answer": "As far as the city goes, yes on a single-family lot: Loveland applies its March 2026 turf rules to commercial, HOA common and right-of-way land, not house lots. HOA guidelines still apply. The Reserve at Mariana Butte, one of the associations around the city's Mariana Butte course, keeps artificial turf to back yards."
+  },
+  "blocks": [
+    {
+      "kind": "golf",
+      "own": true,
+      "kicker": "Golf Loveland, 2026",
+      "h2": "A dry winter put Loveland's three city courses on foot.",
+      "takeaway": "From February 20, 2026, every round on Loveland's municipal courses was walking-only, so carts wouldn't grind down turf the drought had already thinned.",
+      "paras": [
+        "Golf Loveland pulled carts off all three city courses after an unusually dry winter, saying cart traffic would further degrade turf that was already fragile. The course superintendent told the Loveland Reporter-Herald that if water ran short, the greens would be protected first and some fairways left to struggle, and that in past dry years the courses had received as little as 50% of their water shares.",
+        "Carts came back on May 18, though they still keep to the path on the par-3 holes at Mariana Butte and The Olde Course. A synthetic green behind a Loveland house has no water share to lose in a year like that one."
+      ],
+      "layerRefs": ["loveland-co.golf-walking-only-2026", "loveland-co.golf-greens-first", "loveland-co.golf-carts-back-2026"],
+      "sources": [
+        "https://www.golfloveland.com/book-tee-time/dry-conditions",
+        "https://www.reporterherald.com/2026/02/17/loveland-golf-courses-suspend-carts/"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Mariana Butte HOAs",
+      "h2": "At The Reserve at Mariana Butte, artificial turf goes in the back yard only.",
+      "paras": [
+        "Several homeowners associations surround the city's Mariana Butte course. One of them, The Reserve at Mariana Butte, has 91 single-family lots and dates from 1994, when Loveland built the course and the city grew west.",
+        "Its landscape design guidelines, updated February 7, 2024, say artificial or non-vegetative turf is limited to back yards, and any customized plan for any part of the lot needs the HOA's Architectural Review Committee to approve it before work starts. A green behind the house fits that rule; one out front does not. The other associations around the course aren't bound by these guidelines, so read your own before you choose a spot."
+      ],
+      "layerRefs": ["loveland-co.reserve-mariana-butte-hoa", "loveland-co.reserve-mariana-butte-turf-backyards"],
+      "sources": [
+        "https://thereserveatmarianabutte.org/about/",
+        "https://thereserveatmarianabutte.org/wp-content/uploads/2025/01/HOA-Landscape-Design-Guidelines-2-7-2024.pdf"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Ordinance 6819",
+      "h2": "Loveland's code lists a golf playing area as functional artificial turf.",
+      "paras": [
+        "The March 2026 rewrite of Loveland's development code defines functional artificial turfgrass to include the playing area of a golf course or driving range, and it bars nonfunctional artificial turf from the common landscape areas an HOA owns. Colorado's 2025 wording names chipping and putting greens among a golf course's playing areas; Loveland's shorter text does not. Whether a stand-alone green on HOA ground counts as functional depends on the site plan, so ask Loveland Planning before the landscape plan is drawn.",
+        "A green in a private back yard sits outside those rules, since the city leaves single-family lots out of them; the [Loveland page](/areas/loveland-co/) has that exemption."
+      ],
+      "layerRefs": ["loveland-co.udc-functional-artificial-turf", "loveland-co.udc-common-landscape-areas", "co-hb25-1113-functional-turf", "loveland-ord-6819-sb24-005"],
+      "sources": [
+        "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=5933",
+        "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=4058",
+        "https://leg.colorado.gov/bill_files/40673/download",
+        "https://www.letstalkloveland.org/landscape-changes"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Where in Loveland can I putt on a public practice green before sizing one at home?",
+      "a": "Cattail Creek, the city's nine-hole par-3 course, keeps a practice green just west of the clubhouse, across the cart path from the first tee. Its nine-hole Mini-Course is a starter layout played with S.N.A.G. clubs, not a putting course."
+    },
+    {
+      "q": "Who signs off on a putting green on HOA common ground in Loveland?",
+      "a": "The HOA decides whether it wants one. When the green is part of a development or redevelopment, the city reviews the landscape plan, and Loveland's code asks plans for common interest community property to mark each functional turf area and name its use."
+    },
+    {
+      "q": "Is a backyard putting green a structure under Loveland's code?",
+      "a": "The code's definition of a structure names things like fences, gazebos, playground equipment and swimming pools, and leaves out grade changes and hardscapes. A flat green isn't named either way. It depends on what you build with it, such as a raised tee box or a retaining wall; ask Loveland Planning."
+    }
+  ],
+  "sources": [
+    { "label": "Golf Loveland (City of Loveland), Cart Restrictions page, read from Wayback Machine captures of March 5 and June 8, 2026", "url": "https://www.golfloveland.com/book-tee-time/dry-conditions", "checked": "2026-09-25" },
+    { "label": "Loveland Reporter-Herald, Feb. 17, 2026: Loveland golf courses suspend carts", "url": "https://www.reporterherald.com/2026/02/17/loveland-golf-courses-suspend-carts/", "checked": "2026-09-25" },
+    { "label": "The Reserve at Mariana Butte HOA, About page (91 lots, formed 1994)", "url": "https://thereserveatmarianabutte.org/about/", "checked": "2026-09-25" },
+    { "label": "The Reserve at Mariana Butte HOA Landscape Design Guidelines, updated Feb. 7, 2024", "url": "https://thereserveatmarianabutte.org/wp-content/uploads/2025/01/HOA-Landscape-Design-Guidelines-2-7-2024.pdf", "checked": "2026-09-25" },
+    { "label": "Loveland Unified Development Code, Div. 18.19.03, \"Functional Artificial Turfgrass\" (Ord. 6819, effective March 17, 2026)", "url": "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=5933", "checked": "2026-09-25" },
+    { "label": "Loveland Unified Development Code, Sec. 18.08.02.04, Identification of Landscape Areas (Ord. 6819)", "url": "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=4058", "checked": "2026-09-25" },
+    { "label": "Loveland Unified Development Code, Div. 18.19.03, \"Structure\"", "url": "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=4732", "checked": "2026-09-25" },
+    { "label": "City of Loveland, Landscape Changes project page (Ordinance 6819)", "url": "https://www.letstalkloveland.org/landscape-changes", "checked": "2026-09-25" },
+    { "label": "Golf Loveland, Cattail Creek Golf Course page, read from the Wayback Machine capture of Oct. 18, 2025", "url": "https://www.golfloveland.com/city-government/departments/parks-recreation/golf-courses/cattail-creek-golf-course", "checked": "2026-09-25" },
+    { "label": "Golf Loveland, Cattail Creek Mini-Course (S.N.A.G.) page, read from the Wayback Machine capture of Aug. 10, 2025", "url": "https://www.golfloveland.com/city-government/departments/parks-recreation/golf-courses/cattail-creek-golf-course/cattail-creek-mini-course-s-n-a-g", "checked": "2026-09-25" },
+    { "label": "HB25-1113 signed act: C.R.S. 37-99-102, functional artificial turf (chipping and putting greens)", "url": "https://leg.colorado.gov/bill_files/40673/download", "checked": "2026-09-25" }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Any backyard putting greens you have built in Loveland: neighborhood (Mariana Butte area, Kinston, near The Olde Course or elsewhere), month, rough size",
+    "Camera-original photos of a Loveland putting green (photos.ts has none from Loveland; the nearest green is west of Berthoud, so no photo is set)",
+    "Which HOAs around Mariana Butte (The Reserve or others) you have submitted green plans to, and what their review committees asked for",
+    "Any HOA or commercial common-area putting green you have bid in Loveland since the March 17, 2026 code change, and whether Planning asked for it to be labeled as functional turf"
+  ]
+}

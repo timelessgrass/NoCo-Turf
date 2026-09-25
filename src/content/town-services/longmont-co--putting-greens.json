@@ -1,0 +1,160 @@
+{
+  "status": "draft",
+  "town": "longmont-co",
+  "service": "putting-greens",
+  "title": "Backyard Putting Greens in Longmont, CO | NoCo Turf Co.",
+  "description": "Longmont runs Sunset, Twin Peaks and Ute Creek, and Fox Hill adds a members' course. How the city's turf code treats a putting green in a Longmont yard.",
+  "h1": "Longmont runs three city golf courses, and the Fox Hill Club adds a members' 18 on Highway 119.",
+  "display": {
+    "paint": "three city golf courses"
+  },
+  "lede": "Longmont golfers have four courses to point to. The rule that bears on a green at home is a definition in the development code that names chipping and putting greens as functional turf; it matters on a new-build lot and, as far as the code shows, not on an established one.",
+  "answer": {
+    "question": "Can I put a putting green in my Longmont backyard?",
+    "answer": "On an existing lot, yes: Longmont's turf limits apply to landscape plans the city reviews for new development and redevelopment, and no rule for an established backyard turned up. In a new subdivision, turf may go only where the plan designates civic, community or recreational use. Whether a private green qualifies depends on that plan, so ask Longmont Planning."
+  },
+  "blocks": [
+    {
+      "kind": "golf",
+      "own": true,
+      "kicker": "Courses in town",
+      "h2": "Four golf courses carry a Longmont address, and the city runs three of them.",
+      "takeaway": "The city's golf operation runs Sunset, Twin Peaks and Ute Creek, and the Fox Hill Club's members play an 18-hole course designed by Frank Hummel.",
+      "paras": [
+        "Sunset is the nine-hole course in historic old Longmont, now past 100 years. Twin Peaks has a practice facility and a full driving range, and the city's golf site sells a round there on the strength of its putting greens. Ute Creek, designed by the Robert Trent Jones II Group and opened in 1997, is 18 holes, par 72, playing 5,509 to 7,167 yards. Fox Hill sits on Highway 119.",
+        "A backyard green is easiest to describe by the course it should putt like. The practice green you use most is the working brief: how fast the ball releases, how firm the collar is, and whether you chip onto it from the fringe."
+      ],
+      "layerRefs": [
+        "longmont-co.golf-municipal-courses",
+        "longmont-co.sunset-golf",
+        "longmont-co.twin-peaks-golf",
+        "longmont-co.ute-creek-golf",
+        "longmont-co.fox-hill-club"
+      ],
+      "sources": [
+        "https://longmontcolorado.gov/golf-services/",
+        "https://www.golflongmont.com/sunset",
+        "https://www.golflongmont.com/twin-peaks",
+        "https://www.golflongmont.com/ute-creek",
+        "https://thefoxhillclub.com/"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Section 15.10.020",
+      "h2": "Longmont's definition puts putting greens on the functional side of the line.",
+      "takeaway": "The city's code lists chipping and putting greens, driving ranges and tee boxes among the playing areas of golf courses that count as functional turf, artificial turf included.",
+      "paras": [
+        "Two definitions in Longmont's Land Development Code decide where new turf may go. Functional turf is turf in spaces regularly used for civic, community or recreational purposes, and the examples run from playgrounds and sports fields to the playing areas of golf courses: driving ranges, tee boxes, fairways, roughs, and chipping and putting greens. Nonfunctional turf is the rest, such as sidewalk strips, medians and parking-lot areas. Both definitions say they include artificial turf.",
+        "Section 15.05.040 bans nonfunctional turf in the landscape plans the city reviews and lets functional turf go only where a plan designates civic, community or recreational use. The city's water-efficiency tracker describes the change as aimed at new and redeveloped non-residential projects. A green on a golf course is plainly functional; a green behind a new house sits between the definitions, because a private backyard is not a golf course and the code gives no example either way. It depends on how the builder's landscape plan labels that area, so ask Longmont Planning before the plan is final. Not legal advice."
+      ],
+      "layerRefs": [
+        "longmont-co.ldc-15-10-020-turf-definitions",
+        "longmont-co.ldc-15-05-040-ground-cover",
+        "longmont-co.water-efficiency-nonresidential"
+      ],
+      "sources": [
+        "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.10DE_S15.10.020ALOTTEDE",
+        "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.05DEST_S15.05.040LACOARST",
+        "https://indicators.longmontcolorado.gov/water/actions/IP.3"
+      ]
+    },
+    {
+      "kind": "drought",
+      "own": true,
+      "kicker": "Golf water, 2026",
+      "h2": "The city's golf courses are taking a 10% water cut this season.",
+      "takeaway": "Under Longmont's Mild Drought Response, city-owned golf courses, parks and greenways use 10% less water after a dry winter and low snowpack.",
+      "paras": [
+        "Golf courses are named in the city's own cut, alongside parks and greenways. For a household the same level is only a request, so a grass putting green at home faces no required reduction this year; the [Longmont page](/areas/longmont-co/) covers what the level asks of homes. The city sets the level from reservoir storage, snowpack, soil moisture and projected demand, and if conditions worsen it follows its Water Supply and Shortage Implementation Plan."
+      ],
+      "layerRefs": [
+        "longmont-mild-drought-response-2026",
+        "longmont-co.drought-response-basis"
+      ],
+      "sources": [
+        "https://longmontcolorado.gov/water/water-conservation/conserving-water-outdoors/"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need a Longmont permit to put in a backyard putting green?",
+      "a": "No permit for laying turf on an existing lot turned up in the city code. A fence or wall around the green is a different matter: Longmont requires a building permit before any fence goes up, and fences in front of the house have a lower height limit and must be partly see-through."
+    },
+    {
+      "q": "Can an HOA build a putting green on common ground in a new Longmont neighborhood?",
+      "a": "Where the landscape plan designates that ground for recreational use, yes: a putting green is one of the golf playing areas the code names as functional, and functional turf is allowed nowhere else in a new plan. Medians, streetscapes and parking-lot islands can't take turf of either kind unless it qualifies as functional."
+    },
+    {
+      "q": "Does Longmont's code treat an artificial green differently from a grass one?",
+      "a": "Only in one respect. Both of the code's turf definitions include artificial turf, so an artificial green and a grass green land on the same side of the functional line. But the city's Design Standards, effective December 2025, say artificial grass can't be used to fulfill any landscaping requirement, so in a new plan an artificial green doesn't count toward the landscaping the lot owes."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Longmont Land Development Code Sec. 15.10.020, turf definitions (Ord. No. O-2025-78, Nov. 18, 2025; codified through Ord. No. O-2026-39, June 23, 2026)",
+      "url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.10DE_S15.10.020ALOTTEDE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Longmont Land Development Code Sec. 15.05.040, Landscape and common area standards (codified through Ord. No. O-2026-39, June 23, 2026)",
+      "url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.05DEST_S15.05.040LACOARST",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Longmont Indicators, Water Efficiency Plan action IP.3",
+      "url": "https://indicators.longmontcolorado.gov/water/actions/IP.3",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Longmont, Golf Services",
+      "url": "https://longmontcolorado.gov/golf-services/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Longmont Golf, Sunset Golf Course",
+      "url": "https://www.golflongmont.com/sunset",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Longmont Golf, Twin Peaks Golf Course",
+      "url": "https://www.golflongmont.com/twin-peaks",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Longmont Golf, Ute Creek Golf Course",
+      "url": "https://www.golflongmont.com/ute-creek",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "The Fox Hill Club, home page",
+      "url": "https://thefoxhillclub.com/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Longmont, Conserving Water Outdoors (Mild Drought Response)",
+      "url": "https://longmontcolorado.gov/water/water-conservation/conserving-water-outdoors/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Longmont Land Development Code Sec. 15.05.100, Fences and walls (codified through Ord. No. O-2026-39, June 23, 2026)",
+      "url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.05DEST_S15.05.100FEWA",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Longmont Design Standards, Section 600 Landscape and Irrigation, 605.02.Q (effective December 2025)",
+      "url": "https://longmontcolorado.gov/wp-content/uploads/2026/07/Section-600.pdf",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Confirmation that NoCo serves Longmont (the town has no page on either brand's site today)",
+    "Any backyard putting greens NoCo has built in Longmont: neighborhood, month, rough size, and whether the lot was new-build or established",
+    "Camera-original photos of a Longmont green with the month; photos.ts has none from Longmont, and the Windsor and Berthoud greens cannot stand in for it",
+    "Golf-course neighborhoods in Longmont (near Ute Creek, Twin Peaks or Fox Hill) where he has worked with an HOA, and what its design review asked for",
+    "Whether a Longmont builder or Planning reviewer has ever ruled on a green in a new-build landscape plan, and which way"
+  ]
+}

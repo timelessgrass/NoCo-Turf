@@ -1,0 +1,185 @@
+{
+  "status": "draft",
+  "town": "timnath-co",
+  "service": "commercial-turf",
+  "title": "Commercial and HOA Turf in Timnath, CO | NoCo Turf Co.",
+  "description": "Commercial and HOA turf in Timnath: since December 2025 the Town's code keeps artificial turf out of landscape plans, except on athletic fields of play.",
+  "h1": "Timnath's code bars artificial turf from landscape plans; only an athletic field can win an exception.",
+  "display": {
+    "paint": "only an athletic field"
+  },
+  "lede": "Timnath went further than the state. Colorado still allows functional artificial turf on playgrounds and sports fields in new development; Timnath's December 2025 amendment keeps artificial turf out of every landscape plan and lets the Community Development Director allow it only on an athletic field of play.",
+  "answer": {
+    "question": "Can an HOA or business in Timnath install artificial turf?",
+    "answer": "Rarely. Since December 2025, Timnath's land use code says no artificial turf may be included in any landscape plan or installed; the Community Development Director may allow it on an athletic field of play. It depends on the project, so ask Timnath Planning first. Not legal advice. NoCo Turf Co. installs HOA and commercial turf in Timnath, Colorado."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Ordinance No. 28, Series 2025",
+      "h2": "No artificial turf in any landscape plan, unless the Director allows it on an athletic field of play.",
+      "takeaway": "A playground, an entry bed or a dog area on common ground gets no exception under the text; only a field of play does.",
+      "paras": [
+        "The Town Council adopted the amendment on December 9, 2025. The Director's exception needs four things: state law must allow the installation, the use must be appropriate, it must add no pollutants that could cause environmental impairment, and alternatives must not be reasonable. Any exception is noted on the landscape plan.",
+        "The rules reach new construction and any site where more than 50% of the commercial, institutional or common-area landscape is disturbed, and then the whole site comes into compliance. Living turf is limited too: nonfunctional grass is barred from commercial and civic property, association-owned entryways and parks, medians and parking lots. Colorado's own ban on nonfunctional artificial turf in new development and redevelopment has applied since January 1, 2026; Timnath's text is stricter. Not legal advice."
+      ],
+      "layerRefs": [
+        "timnath-co.luc-ord-28-2025-no-artificial-turf",
+        "timnath-co.luc-ord-28-2025-disturbed-sites",
+        "timnath-co.luc-ord-28-2025-nonfunctional-turf",
+        "co-sb24-005-nonfunctional-ban",
+        "co-hb25-1113-functional-turf",
+        "co-sb24-005-maintain-existing"
+      ],
+      "sources": [
+        "https://library.municode.com/co/timnath/ordinances/municipal_code?nodeId=1412646",
+        "https://leg.colorado.gov/bill_files/40673/download"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "Poudre School District",
+      "h2": "Timnath Middle-High already has what the exception describes: an artificial turf practice field.",
+      "paras": [
+        "Poudre School District opened Timnath Middle-High School on August 16, 2022, north of Prospect Road and just east of I-25. Its athletics complex is the district's second stadium, with a lighted multi-use field and 3,500 seats, and like French Field at Rocky Mountain High School it hosts games for every PSD school.",
+        "The Coloradoan reported that the campus's other fields include an artificial turf field for football, soccer, lacrosse and field hockey practice on the east side. PSD's own page doesn't name the stadium field's surface."
+      ],
+      "layerRefs": [
+        "timnath-co.psd-district-stadium",
+        "timnath-co.tmhs-opened-2022",
+        "timnath-co.tmhs-turf-practice-field"
+      ],
+      "sources": [
+        "https://www.psdschools.org/community/new-schools-facility-improvements/new-timnath-middle-high-school",
+        "https://sports.yahoo.com/timnath-wellington-high-schools-field-110227728.html"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Subdivision parks",
+      "h2": "The same amendment struck the clause that let artificial turf count toward a neighborhood park's play area.",
+      "paras": [
+        "A residential development of over 300 dwelling units owes the Town a neighborhood park, and at least 70% of it must be active play areas and irrigated landscaping with at least two of playgrounds, multi-purpose courts, multi-purpose play fields and shaded seating. Until December 2025 the code let lookalike artificial turf count toward that 70% case by case. Ordinance No. 28 deleted that clause.",
+        "Artificial turf on a new Timnath park's play fields now rests on the athletic-field exception, and a playground has none to lean on. Ask Timnath Planning before a park plan is drawn. Not legal advice."
+      ],
+      "layerRefs": [
+        "timnath-co.luc-ord-28-2025-neighborhood-park-threshold",
+        "timnath-co.luc-ord-28-2025-neighborhood-park-turf-struck",
+        "timnath-co.luc-ord-28-2025-high-water-grass"
+      ],
+      "sources": [
+        "https://library.municode.com/co/timnath/ordinances/municipal_code?nodeId=1412646"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "WildWing's common ground",
+      "h2": "WildWing's Town-approved plans hold sod to small areas, streetscapes and parks.",
+      "paras": [
+        "The Town reviewed and approved WildWing's landscape plans, which cover the community's common open space mostly with irrigated and non-irrigated dryland grasses and keep sodded turf to smaller areas of visual interest, streetscapes and parks. The Town Council also reviews and approves each metro district's service plan, though the districts are independent of the Town.",
+        "In a Town PROST Plan survey the district cites, 71% of respondents picked playgrounds as one of the most important neighborhood-park amenities, while a multi-use turf area drew 49% and landed on the list of less important ones."
+      ],
+      "layerRefs": [
+        "timnath-co.wildwing-common-open-space",
+        "timnath-co.metro-district-service-plans",
+        "timnath-co.prost-survey-amenities"
+      ],
+      "sources": [
+        "https://www.wildwingmd.live/parks-open-spaces",
+        "https://web.archive.org/web/20260810221013/https://timnath.org/metro-districts/"
+      ]
+    },
+    {
+      "kind": "utility",
+      "own": true,
+      "kicker": "Who supplies irrigation",
+      "h2": "The Town of Timnath doesn't provide water, so irrigation comes from a provider or a district.",
+      "paras": [
+        "The Town says it does not provide water utility service. In Kitchel Lake, the Serratoga Falls metro district supplies each lot's irrigation water through its own private system, with its own watering rules and a separate irrigation fee.",
+        "The Town's Spring Water Series session on April 30, 2026, Know Your Yard, covered what HOAs and metro districts can and cannot require of landscaping and the non-potable irrigation systems used locally. A board replanning common ground in Timnath starts with whoever supplies its irrigation water, and on what terms."
+      ],
+      "layerRefs": [
+        "timnath-co.town-no-water-utility",
+        "timnath-co.kitchel-lake-irrigation",
+        "timnath-co.know-your-yard-session"
+      ],
+      "sources": [
+        "https://web.archive.org/web/20260427162434/https://timnath.org/events_list/spring-water-series-know-your-yard-your-rights-landscaping-rules/",
+        "https://www.serratogafallsmd1.org/files/6b86004a3/Rules+and+Regs_SFMD1+-+Approved.pdf"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can existing turf on a Timnath common area stay?",
+      "a": "Under the amended section, a project below its thresholds that includes exterior work applies the rules only to the areas it installs, removes, replaces or disturbs; existing required landscaping outside that area may remain, though nothing the section prohibits may be added. Colorado's law also lets a local government allow turf installed before January 1, 2026 to be maintained. Not legal advice."
+    },
+    {
+      "q": "Where may bluegrass go on Timnath common ground?",
+      "a": "In required common open space, including pocket and neighborhood parks, the amended code allows bluegrass or other high-water turf grass only where people play or gather: playgrounds, sports fields and other athletics programming, picnic grounds and amphitheaters."
+    },
+    {
+      "q": "Is the stadium field at Timnath Middle-High artificial turf?",
+      "a": "PSD's project page lists a lighted multi-use field without naming the surface. The artificial turf field named in the Coloradoan's report is the practice field on the east side of campus."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Town of Timnath Ordinance No. 28, Series 2025 (Land Use Code amendments, adopted Dec. 9, 2025)",
+      "url": "https://library.municode.com/co/timnath/ordinances/municipal_code?nodeId=1412646",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Poudre School District, New Timnath Middle-High School (opened Aug. 16, 2022; 3,500-seat district stadium)",
+      "url": "https://www.psdschools.org/community/new-schools-facility-improvements/new-timnath-middle-high-school",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Fort Collins Coloradoan via Yahoo Sports, New Timnath and Wellington high schools will field varsity teams (Aug. 9, 2022)",
+      "url": "https://sports.yahoo.com/timnath-wellington-high-schools-field-110227728.html",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "WildWing Metropolitan District, Parks & Open Spaces",
+      "url": "https://www.wildwingmd.live/parks-open-spaces",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Timnath, Metro Districts (Wayback snapshot 2026-08-10)",
+      "url": "https://web.archive.org/web/20260810221013/https://timnath.org/metro-districts/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Timnath, Spring Water Series: Know Your Yard (Wayback snapshot 2026-04-27)",
+      "url": "https://web.archive.org/web/20260427162434/https://timnath.org/events_list/spring-water-series-know-your-yard-your-rights-landscaping-rules/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Serratoga Falls Metropolitan District #1, Rules and Regulations, Kitchel Lake, Filing 3 (adopted March 30, 2023)",
+      "url": "https://www.serratogafallsmd1.org/files/6b86004a3/Rules+and+Regs_SFMD1+-+Approved.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "HB25-1113 signed act: C.R.S. 37-99-102(6.5) and 37-99-103(1)",
+      "url": "https://leg.colorado.gov/bill_files/40673/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "SB24-005 signed act: C.R.S. 37-99-102(1)(a) and 37-99-103(4)(a)",
+      "url": "https://leg.colorado.gov/bill_files/45372/download",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Commercial, HOA, metro-district or school turf you have installed or bid in Timnath: site, month, size and use (field, playground, dog area, putting green)",
+    "Camera-original photos of your own commercial or HOA job; photos.ts has no commercial photo yet, so no commercial page can pass the gate",
+    "Metro districts or HOA managers in Timnath you have worked with (WildWing, Trailside, Timnath Ranch, Timnath Lakes, Serratoga Falls, South or Southwest Timnath) and whether they can be named",
+    "Anything Timnath Planning has told you about Ordinance No. 28, Series 2025: has the Director granted an athletic-field exception, and does the Town apply the artificial-turf line to HOA playgrounds, dog areas or backyards",
+    "Whether you know the surface of the PSD stadium field at Timnath Middle-High, and who installed the practice field (only if it was your job)"
+  ]
+}

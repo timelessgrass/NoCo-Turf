@@ -1,0 +1,429 @@
+[
+  {
+    "id": "fort-collins-co.luc-5-10-1-field-of-play",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins' Land Use Code lets the Director make an exception to its development turf ban only for artificial turf on an athletic field of play, and only where the use is appropriate, adds no pollutants that could cause environmental impairment and has no reasonable alternative.",
+    "quote": "The Director may approve an exception to allow artificial turf to be installed on an athletic field of play if the installation is not prohibited under C.R.S. 37-99-103 and if the Director determines the use is appropriate, the use does not add pollutants that could cause environmental impairment, and alternatives are not reasonable. Any exception to allow artificial turf must be noted in the landscape plan.",
+    "source_url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/fortcollco-meet-0538ebaac95447ff8c4f53ebc4c0adf8/ITEM-Attachment-004-785f079234b4438a8e8675d01d6f3bd4.pdf",
+    "source_label": "Fort Collins Land Use Code 5.10.1, Artificial Turf and Plants (Ordinance No. 008, 2025; same text in the current Article 5)",
+    "effective": "2025-02-14",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [],
+    "notes": "Read in Ord. 008, 2025 (pdftotext) and again in the current LUC Article 5 PDF on fortcollins.gov (read in a browser; curl gets 403), where the clause now sits under 5.10.1(F)(2)(d). The exception names only an athletic field of play: playgrounds, picnic grounds and putting greens, which HB25-1113 counts as functional turf, are not named. LUC phase 2 (commercial corridors) is in progress: re-read before recheck."
+  },
+  {
+    "id": "fort-collins-co.luc-5-10-1-live-turf-and-cover",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "In the developments its landscape standards cover, Fort Collins requires more than 50% living-plant cover in each landscape area and allows high-water turf grass, such as Kentucky bluegrass, only where people play or gather, such as playgrounds, sports fields, picnic grounds, parts of parks and golf playing areas, never in parking lots or medians.",
+    "quote": "Not counting trees, more than 50% of a landscape area must be covered with living plants at maturity. The Director may approve an exception to this requirement if a determination is made that an area is too small for living landscape material and for irrigation to be reasonably feasible. … Irrigated turf grass with a high water requirement may only be planted according to planned use, only in areas or spaces used for recreation or for civic or community purposes. Such purposes may include playgrounds, sports fields or other athletics programming, picnic grounds, amphitheaters, portions of parks, and playing areas of golf courses. Such purposes do not include, and irrigated turfgrass with a high water requirement must not be planted in, parking lots or medians. … Irrigated turf grass with a high water requirement refers to high- or moderate-hydrozone sod forming grasses including species such as Poa pratensis (Kentucky bluegrass), and turf-type tall fescue (Festuca arundinacea) and their varieties and cultivars.",
+    "source_url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/fortcollco-meet-0538ebaac95447ff8c4f53ebc4c0adf8/ITEM-Attachment-004-785f079234b4438a8e8675d01d6f3bd4.pdf",
+    "source_label": "Fort Collins Land Use Code 5.10.1, Landscape Area Treatment: coverage and irrigated turf grass (Ordinance No. 008, 2025; same text in the current Article 5)",
+    "effective": "2025-02-14",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [
+      "50"
+    ],
+    "notes": "Applies only where 5.10.1 applies (development landscape plans; existing single- and two-unit lots are exempt, see fc-luc-5.10.1). The live-grass list is the same list HB25-1113 uses to define functional artificial turf, which is the Fort Collins contrast: live bluegrass may go where artificial turf may not."
+  },
+  {
+    "id": "fort-collins-co.streetscape-no-artificial-turf",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins' Streetscape Standards, adopted in December 2025, bar artificial turf and artificial plants from every streetscape, including parkways and medians, for private development and renovation applications submitted on or after January 1, 2026 and City capital projects installed from that date.",
+    "quote": "These streetscape standards involve parameters for tree-lined streets and sidewalks, parkways, other landscaping along street edges, and landscaped medians in streets. … These standards apply to all projects involving streetscapes in the City right-of-way including: Private development projects for which an application is submitted on or after January 1, 2026. … City capital projects installed on and after January 1, 2026. … Any other renovation projects and efforts for which an application is submitted on or after January 1, 2026. … 4.2.2 Prohibitions. No artificial turf or artificial plants may be included in any streetscape.",
+    "source_url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/fortcollco-meet-9b4e8e099e3f4e9cbeaa4a206b542f9a/ITEM-Attachment-001-c4cbe11e9146456885974472aba7c2ef.pdf",
+    "source_label": "City of Fort Collins Streetscape Standards (LCUASS Appendix C), Exhibit A to Ordinance No. 202, 2025, adopted on second reading Dec. 16, 2025",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [
+      "2025",
+      "1",
+      "2026"
+    ],
+    "notes": "Adoption confirmed in the Dec. 16, 2025 minutes (Jan. 6, 2026 council packet, consent item 7: 'Adopted on Second Reading'; first reading Dec. 2, 2025, unanimous): https://mccmeetings.blob.core.usgovcloudapi.net/fortcollco-pubu/MEET-Packet-14d9c93a88a54e4fb54bdc665f57ee02.pdf. Staff called it Phase 1 of the update, aimed at SB24-005 compliance; Phase 2 runs through 2026-2027, so re-read before recheck. This supersedes the parkway wording in the UNVERIFIED shared record fc-parkway-live-plants; the current XIP residential packet (read in a browser 2026-09-25) also says of parkways: 'No bare dirt or artificial plants or turf.'"
+  },
+  {
+    "id": "fort-collins-co.streetscape-parkway-choices",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "On Fort Collins collector and local streets, a parkway takes either turf-type grass or mulched planting beds, which the abutting owner may choose regardless of HOA covenants where no development plan sets it and must install and maintain; non-turf plantings must reach 50% live cover within 3 years with no fences; and where an approved landscape plan sets the parkway, changing it takes a Parkway Landscaping Amendment.",
+    "quote": "Two main approaches to landscaping parkways are allowed in collector and local streets: turf-type grasses, and mulched planting beds. … In areas where there is no development plan that specifies parkway landscaping, the owner of the property abutting the parkway may select either approach, regardless of any homeowners association (HOA) covenants that may apply to the development, and shall be responsible for the installation and maintenance of the parkway … 6.1.2 Approved development plans govern. In developments with approved landscape plans, the parkway landscaping must be in accordance with the plan. A HOA, or a property owner with notice to and opportunity for comment from the HOA, may request a Parkway Landscaping Amendment to an approved plan for parkway landscaping. … 6.1.7 Requirements for non-turf ground cover plantings: A. Landscaping must be designed, installed and maintained so that at least 50% of the area is covered with live plant material within 3 years from installation. … D. No fences or thorny/prickly plant material are allowed.",
+    "source_url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/fortcollco-meet-9b4e8e099e3f4e9cbeaa4a206b542f9a/ITEM-Attachment-001-c4cbe11e9146456885974472aba7c2ef.pdf",
+    "source_label": "City of Fort Collins Streetscape Standards 6.1.1, 6.1.2 and 6.1.7, Exhibit A to Ordinance No. 202, 2025, adopted on second reading Dec. 16, 2025",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [
+      "50",
+      "3"
+    ],
+    "notes": "The no-fee point is its own record (fort-collins-co.parkway-amendment-no-fee). The 'no fences' clause sits under 6.1.7, the requirements for non-turf ground cover plantings."
+  },
+  {
+    "id": "fort-collins-co.code-4-71-4-95-waste-odor",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins requires pet owners to remove waste from their own yard often enough to prevent a public nuisance, and its code counts animal odors that materially interfere with a neighbor at home as a public nuisance.",
+    "quote": "The owner or keeper of any animal shall also be responsible for the periodic removal of feces deposited by such animal on property owned or exclusively occupied by such owner or keeper so as to prevent the creation of a public nuisance within the meaning of § 4-95. … For the purposes of this Section, a public nuisance includes an animal that is not a dangerous or vicious animal but is otherwise a safety or health hazard, damages or destroys the property of another or creates offensive odors which materially interfere with or disrupt another person in the conduct of lawful activities at such person's home.",
+    "source_url": "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH4ANIN_ARTIIAN_DIV4CATRAN_S4-71REANWARE",
+    "source_label": "Fort Collins City Code Secs. 4-71 (Removal of animal waste required) and 4-95 (Public nuisance prohibited)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read through the Municode API (CodesContent, productId 18005, jobId 498160), which returns all of Chapter 4. Sec. 4-95 node: CH4ANIN_ARTIIAN_DIV5COAN_S4-95PUNUPR. NOCO Humane (Larimer Humane Society) enforces animal control for the city."
+  },
+  {
+    "id": "fort-collins-co.code-4-116-4-31-quantity-license",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins sets no fixed number of pets per home, only as many as can be kept healthy without a hazard or a nuisance to neighbors, and requires a license within 14 days of getting a dog or cat.",
+    "quote": "In no event shall any person keep at his or her premises more pet animals than can be properly maintained in a healthy condition without presenting a health or safety hazard to the owners, keeper or others and without constituting a nuisance to the occupants of neighboring properties. … The owner or keeper of any dog or cat kept within the City shall secure from the City or the Humane Society, within fourteen (14) days of acquiring possession of said dog or cat, a license for the keeping of the same",
+    "source_url": "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH4ANIN_ARTIIAN_DIV6RE_S4-116QUPEANRE",
+    "source_label": "Fort Collins City Code Secs. 4-116 (Quantity of pet animals restricted) and 4-31 (License required)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "14"
+    ],
+    "notes": "Read through the Municode API (Chapter 4). Sec. 4-31(a) defenses: owner not yet in the City 30 days, or the animal is 4 months old or less. Online summaries claiming a Fort Collins cap of 4 adult dogs were not found in the City Code; the Code sets no number."
+  },
+  {
+    "id": "fort-collins-co.code-4-93-restraint-fences",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins requires pets other than birds to be kept under restraint except in designated areas such as dog parks, and any fence meant to enclose an animal must be securely constructed, adequate for the purpose and kept in good repair.",
+    "quote": "At large shall mean outside of a fence or other enclosure which restrains the animal to a particular premises, whether on public or private property, and not under the control, by leash or lead, of the owner or keeper. … All pet animals, except birds, shall be kept under restraint. … The following shall be exempt from this prohibition: … (4) Animals in areas designated or signed permitting animals to be at large, such as dog parks. … (e) Fences which are intended as enclosures for any animal shall be securely constructed, adequate for the purpose and kept in good repair.",
+    "source_url": "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH4ANIN_ARTIIAN_DIV5COAN_S4-93ANLAPR",
+    "source_label": "Fort Collins City Code Secs. 4-1 (definition of at large) and 4-93, Animals at large prohibited",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read through the Municode API (Chapter 4, productId 18005, jobId 498160)."
+  },
+  {
+    "id": "fort-collins-co.fence-rules",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins needs no permit for a fence 6 feet tall or shorter, holds front-yard fences to 4 feet and rear-yard fences to 6 feet, keeps fences at least 2 feet from a public sidewalk and out of drainage easements, and prohibits electric fences in every zoning district.",
+    "quote": "No permit required for fences 6 feet tall or shorter. Permit required for fences taller than 6 feet. … Front yard: Fences must be no taller than 4 feet. … Rear yard: Fences must be no taller than 6 feet. … Proximity to property lines: Fences must be on private property and no closer than 2 feet to a public sidewalk. … Fences and walls are prohibited within access and drainage easements. Electric fences are prohibited in all zoning districts. … In newer housing developments, restrictions regarding the size, type, style or location of a fence may exist through subdivision covenants or other private agreements.",
+    "source_url": "https://www.fortcollins.gov/Government/City-Code-and-Charter/Building-Code/Rules-for-Common-Projects",
+    "source_label": "City of Fort Collins, Rules for Common Projects: Fences (summarizing Land Use Code 4.3.5(C))",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "6",
+      "4",
+      "2"
+    ],
+    "notes": "fortcollins.gov returns 403 to curl; read in a headless browser 2026-09-25 (accordion text). Side-yard fences: 4 feet if in the front yard, 6 feet if in the rear yard; 42 inches in a visual clearance triangle. The page points to LUC 4.3.5(C) for the full rule; the LUC text itself was not read for this record."
+  },
+  {
+    "id": "fort-collins-co.fossil-creek-dog-park",
+    "layer": "place",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fossil Creek Park, around Portner Reservoir in southeast Fort Collins, has a city dog park beside its parking lot off South Lemay Avenue.",
+    "quote": "Designed as an escape from the urban environment, Fossil Creek Park wraps around the Portner Reservoir in southeast Fort Collins … There are two parking lots: one on the northwest side off Fossil Creek Parkway and the other next to the dog park off South Lemay Avenue.",
+    "source_url": "https://www.fortcollins.gov/Parks-and-Natural-Areas-Directory/Parks/Fossil-Creek-Park",
+    "source_label": "City of Fort Collins, Fossil Creek Park page (features include Dog Park)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "fortcollins.gov returns 403 to curl; read in a headless browser 2026-09-25."
+  },
+  {
+    "id": "fort-collins-co.spring-canyon-dog-park",
+    "layer": "place",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Spring Canyon Park, against the foothills in western Fort Collins, has a city dog park with parking off Horsetooth Road.",
+    "quote": "Nestled against the foothills of western Fort Collins, Spring Canyon Park offers endless options for outdoor activities. Visitors can play games on the spanning grass fields, explore the skate park and bike pump track, let their pooch roam the dog park, or enjoy the wonders of Inspiration Playground. … There are two parking lots located off Horsetooth Road near the playground and dog park",
+    "source_url": "https://www.fortcollins.gov/Parks-and-Natural-Areas-Directory/Parks/Spring-Canyon-Park",
+    "source_label": "City of Fort Collins, Spring Canyon Park page (features include Dog Park)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "fortcollins.gov returns 403 to curl; read in a headless browser 2026-09-25."
+  },
+  {
+    "id": "fort-collins-co.soft-gold-dog-park",
+    "layer": "place",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Soft Gold Park, a neighborhood park in north Fort Collins, has a city dog park.",
+    "quote": "Soft Gold Park brings wide open spaces and a variety of recreation opportunities to North Fort Collins. With natural spaces to the west and residential areas to the east, this neighborhood park features everything from a dog park to a BMX pump track to sand volleyball courts.",
+    "source_url": "https://www.fortcollins.gov/Parks-and-Natural-Areas-Directory/Parks/Soft-Gold-Park",
+    "source_label": "City of Fort Collins, Soft Gold Park page (features include Dog Park)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "fortcollins.gov returns 403 to curl; read in a headless browser 2026-09-25. The city lists an update to Soft Gold Park funded by the 2050 tax on its Park Planning and Maintenance page."
+  },
+  {
+    "id": "fort-collins-co.twin-silo-dog-park",
+    "layer": "place",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Twin Silo Park, the newest Fort Collins community park, has a city dog park on its east side.",
+    "quote": "The newest of Fort Collins’ community parks, Twin Silo Park is inspired by the area’s farming history, leveraging two real silos that are integrated into the park’s playground. … There are two parking areas: One on the west side near the playground and the other on the east side near the dog park and BMX track.",
+    "source_url": "https://www.fortcollins.gov/Parks-and-Natural-Areas-Directory/Parks/Twin-Silo-Park",
+    "source_label": "City of Fort Collins, Twin Silo Park page (features include Dog Park)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "fortcollins.gov returns 403 to curl; read in a headless browser 2026-09-25."
+  },
+  {
+    "id": "fort-collins-co.city-park-nine-golf",
+    "layer": "place",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "City Park Nine, the city's 9-hole course built in 1940 beside City Park, has small greens, a chipping green with a bunker and two practice putting greens.",
+    "quote": "City Park Nine is a regulation-length, 9-hole municipal golf course offering enjoyment and challenges for players of all ages and abilities. Built in 1940 and located next to historic City Park and Grandview Cemetery, the course features tight fairways, small greens and mature trees. … City Park Nine Golf Course offers a driving range, chipping green with bunker and two practice putting greens.",
+    "source_url": "https://www.fortcollins.gov/Venues/City-Park-Nine-Golf-Course",
+    "source_label": "City of Fort Collins Golf, City Park Nine Golf Course page",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "9",
+      "1940"
+    ],
+    "notes": "fortcollins.gov returns 403 to curl; read in a headless browser 2026-09-25 and re-read 2026-09-25 by the fact-check pass. Quote now uses the page's Practice Facilities sentence verbatim instead of the tag list."
+  },
+  {
+    "id": "fort-collins-co.collindale-golf",
+    "layer": "place",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Collindale, the city's 18-hole course on 160 acres in southeast Fort Collins, is recognized, the city says, for some of the fastest greens in the state, hosts local U.S. Open qualifying and has a practice green with a greenside bunker and an oversized putting green.",
+    "quote": "Collindale Golf Course is a championship-length, 18-hole golf course situated on 160 acres in southeast Fort Collins. Consistently recognized as having some of the best (and fastest) greens in the state, it is the home of local U.S. Open Qualifying tournament and a variety of amateur events and leagues. … With a full-length driving range, practice green with a greenside bunker and oversized putting green, you can practice all the shots you'll need to score well anywhere.",
+    "source_url": "https://www.fortcollins.gov/Venues/Collindale-Golf-Course",
+    "source_label": "City of Fort Collins Golf, Collindale Golf Course page",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "18",
+      "160"
+    ],
+    "notes": "fortcollins.gov returns 403 to curl; read in a headless browser 2026-09-25 (re-read by the fact-check pass). 'Best' is the city's word about its own course; page copy should say 'fastest', not 'best'. Quote now uses the Practice Facilities sentence verbatim instead of the tag list."
+  },
+  {
+    "id": "fort-collins-co.southridge-golf",
+    "layer": "place",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Southridge, the city's 18-hole course on 128 acres in southeast Fort Collins, has a driving range, a chipping green and a putting green.",
+    "quote": "Southridge is an 18-hole golf course situated on 128 acres in southeast Fort Collins. Offering scenic views and challenging tee shots from multiple tee boxes, Southridge is ideal for players of all levels and ages. … Southridge Golf Course offers practice facilities for players of all abilities, including a driving range, chipping green and putting green.",
+    "source_url": "https://www.fortcollins.gov/Venues/Southridge-Golf-Course",
+    "source_label": "City of Fort Collins Golf, Southridge Golf Course page",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "18",
+      "128"
+    ],
+    "notes": "fortcollins.gov returns 403 to curl; read in a headless browser 2026-09-25 (re-read by the fact-check pass). The old URL /Venues/SouthRidge-Golf-Course redirects here. Quote now uses the Practice Facilities sentence verbatim instead of the tag list."
+  },
+  {
+    "id": "fort-collins-co.country-club-unincorporated",
+    "layer": "place",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "The Fort Collins Country Club's parcels on Country Club Road are unincorporated Larimer County land, outside Fort Collins city limits.",
+    "quote": "NAME: COUNTRY CLUB OF FTC INC · LOCADDRESS: 1920 COUNTRY CLUB RD · ACCTTYPE: Commercial · IS_INCORPORATED: NO",
+    "source_url": "https://maps1.larimer.org/arcgis/rest/services/MapServices/Parcels/MapServer/3",
+    "source_label": "Larimer County parcel GIS, Tax Parcels layer: the club's two parcels on Country Club Road",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1920"
+    ],
+    "notes": "Query where NAME LIKE '%COUNTRY CLUB%': parcels 8830300008 and 8831100001, both IS_INCORPORATED NO. The club's own site (https://fortcollinscc.com/) gives the same street address and calls it a privately-owned club, established 1959, with an 18-hole course. The Country Club Cove Association parcels nearby are also unincorporated; individual homes around the club were not checked one by one."
+  },
+  {
+    "id": "fort-collins-co.luc-4-3-child-care",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins allows state-licensed day care homes as an accessory use of a house, and requires a child care center to have an outdoor play area of at least 1,200 square feet or 75 square feet per child for 33% of its capacity, fenced at least 6 feet high within or next to a residential district.",
+    "quote": "Day care homes shall be permitted as an accessory use as defined in Article 7 provided that such homes are licensed by the State of Colorado … (G) Child Care Center (1) Outdoor Play Area is required to be the greater of either 1,200 sq. ft. or 75 sq. ft. per child of 33% of the child capacity of the center. (2) An outdoor play area as stated above shall not be required for drop-in child care centers. … Any such play area on the site of the child care center within or abutting any residential district shall be enclosed by a decorative solid wood fence, masonry wall or chain link fence with vegetation screening, densely planted. The height of such fence shall be a minimum of six (6) feet",
+    "source_url": "https://www.fortcollins.gov/files/sharedassets/city/v/3/planning-development-amp-transportation/community-development/planning/land-use-code/article-4-use-standards.pdf",
+    "source_label": "Fort Collins Land Use Code 4.3.1(C)(2) Day Care Homes and 4.3.3(G) Child Care Center, Article 4 Use Standards",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "1200",
+      "75",
+      "33",
+      "6"
+    ],
+    "notes": "The PDF returns 403 to curl; fetched in a headless browser and read with pdftotext 2026-09-25 (spacing artifacts in the extracted text removed). An outdoor play area is not required for drop-in child care centers (4.3.3(G)(2)). Article 7 defines a day care home as a state-licensed family child care home, infant/toddler home or experienced family child care provider home."
+  },
+  {
+    "id": "fort-collins-co.xip-commercial-2026",
+    "layer": "rebate",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins Utilities pays commercial water customers, HOAs, schools and parks among them, $1.50 per square foot up to $15,000 per project for replacing grass with an eligible low-water landscape, and a site inside city limits needs a Minor Amendment before its site plan changes.",
+    "quote": "All approved projects will receive a bonus incentive of $0.30 per square foot, up to $3,000, that is paid upfront. … Commercial water customers can receive $1.50 per square foot of area converted, up to $15,000 per project, for replacing grass with an eligible low-water landscape. … Eligible participants include: HOAs, Multi-unit residential complexes, Businesses, Faith-based organizations, Schools, Parks, Government entities … If your property falls within City limits, any change that results in a modification to the site plan on file with the City will require a Minor Amendment prior to any work being completed.",
+    "source_url": "https://www.fortcollins.gov/Services/Utilities/Programs-and-Rebates/Water-Programs/XIP",
+    "source_label": "Fort Collins Utilities, Xeriscape Incentive Program page, XIP Commercial tab",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "0.30",
+      "3000",
+      "1.50",
+      "15000"
+    ],
+    "notes": "fortcollins.gov returns 403 to curl; read in a headless browser 2026-09-25. The eligible-participants line is a bulleted list on the page; the commas are ours. The page does not name artificial turf as an eligible landscape. Parkway-only changes use the free Parkway Amendment Application instead of a Minor Amendment."
+  },
+  {
+    "id": "fort-collins-co.xip-state-grant",
+    "layer": "rebate",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins Utilities says its Xeriscape Incentive Program rebates are funded by a grant from the state.",
+    "quote": "Please note that XIP rebates are funded by a grant from the state and may take a few months to process due to increased documentation needs and approvals.",
+    "source_url": "https://www.fortcollins.gov/Services/Utilities/Programs-and-Rebates/Water-Programs/XIP",
+    "source_label": "Fort Collins Utilities, Xeriscape Incentive Program page",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read in a headless browser 2026-09-25 (the sentence sits in the residential steps). Pair with co-turf-grant-no-artificial-turf (state turf-replacement grant money may not pay for artificial turf); which state grant funds XIP is not named on the page."
+  },
+  {
+    "id": "fort-collins-co.parkway-amendment-no-fee",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins charges no review fee for a Parkway Landscape Amendment.",
+    "quote": "FEES: Parkway Landscape Amendments do not have an associated review fee",
+    "source_url": "https://www.fortcollins.gov/files/sharedassets/city/v/5/planning-development-amp-transportation/permitting/parkway-landscape-amendment-application.pdf",
+    "source_label": "City of Fort Collins, Parkway Landscape Amendment Application (revised 4/13/2026)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The PDF returns 403 to curl; fetched in a headless browser and read with pdftotext 2026-09-25. Footer: 'Revised 4/13/2026'."
+  },
+  {
+    "id": "fort-collins-co.ord-008-cites-sb24-005",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins' Ordinance No. 008, 2025, which rewrote Land Use Code 5.10.1, cites Colorado Senate Bill 24-005 as a reason for the change.",
+    "quote": "F. Colorado Senate Bill 24-005 prohibits specific landscaping practices and installations as of January 1, 2026. G. For the City to comply with House Bill 24-005 and to comport with its priorities and values, the existing Land Use Code Section 5.10.1 Landscaping and tree protection and related definitions in Section 7.2.2 must b",
+    "source_url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/fortcollco-meet-0538ebaac95447ff8c4f53ebc4c0adf8/ITEM-Attachment-004-785f079234b4438a8e8675d01d6f3bd4.pdf",
+    "source_label": "Fort Collins Ordinance No. 008, 2025, recitals F and G",
+    "effective": "2025-02-14",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [
+      "008",
+      "2025",
+      "24",
+      "005",
+      "1",
+      "2026"
+    ],
+    "notes": "Recital G says 'House Bill 24-005' (the ordinance's own slip; recital F names Senate Bill 24-005). The quote stops where the recital breaks across the page."
+  },
+  {
+    "id": "fort-collins-co.streetscape-sb24-005",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "City staff described the December 2025 Streetscape Standards update as primarily addressing the requirements of Senate Bill 24-005.",
+    "quote": "The Streetscape Standards relate to the treatment of parkways (between the curb and sidewalk), medians, intersections, roundabouts, and key gateway intersections. The update primarily involves addressing requirements of Senate Bill 24-005 (Prohibit Landscaping Practices for Water Conservation), concerns for City maintenance staff and public safety",
+    "source_url": "https://mccmeetings.blob.core.usgovcloudapi.net/fortcollco-pubu/MEET-Packet-9b4e8e099e3f4e9cbeaa4a206b542f9a.pdf",
+    "source_label": "Fort Collins City Council agenda packet, Dec. 16, 2025, Ordinance No. 202, 2025 (second reading), item summary",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [
+      "24",
+      "005",
+      "2025"
+    ],
+    "notes": "Read with pdftotext 2026-09-25. Same summary in the Dec. 2, 2025 first-reading item."
+  },
+  {
+    "id": "fort-collins-co.noco-humane-apc",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "NOCO Humane provides Animal Protection & Control services for the City of Fort Collins, and its Fort Collins page covers pet waste and animal noise complaints.",
+    "quote": "We are proud to partner with the City of Fort Collins to provide Animal Protection & Control services. … Pet waste is smelly, unsightly and, if not disposed of properly, can be health hazard. … Animals making unreasonable noise or disturbing the peace and quiet of any person by barking, whining, howling, yowling, squawking, or making any other noise in an excessive, continuous, or untimely fashion is prohibited under Fort Collins Municipal code 4-94",
+    "source_url": "https://www.nocohumane.org/animal-control/fort-collins/",
+    "source_label": "NOCO Humane, Animal Protection & Control – Fort Collins",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4",
+      "94"
+    ],
+    "notes": "Fetched with curl 2026-09-25. The page quotes the city's waste rule; 'can be health hazard' is sic."
+  }
+]

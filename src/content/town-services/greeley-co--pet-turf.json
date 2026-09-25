@@ -1,0 +1,182 @@
+{
+  "status": "draft",
+  "town": "greeley-co",
+  "service": "pet-turf",
+  "title": "Dog Runs and Pet Turf in Greeley, CO | NoCo Turf Co.",
+  "description": "Greeley's animal code treats a fenced run as restraint and wants it free of feces. Chain link stops at 4 feet; off-leash play is for dog parks like Rover Run.",
+  "h1": "Greeley's animal code counts a fenced dog run as restraint, and expects it kept free of feces.",
+  "display": {
+    "paint": "counts a fenced dog run as restraint"
+  },
+  "lede": "Greeley rewrote its animal code in 2019. Three parts of it shape a backyard dog run: what counts as restrained, what a pen and shelter must provide, and where a dog may run off leash. The fence limits come from the development code. Checked September 25, 2026.",
+  "answer": {
+    "question": "What does Greeley require of a backyard dog run?",
+    "answer": "That it hold the dog and stay clean. Greeley's animal code says containment must give an animal room to exercise, keep it from escaping, and be free of filth, including feces, and it counts a dog kept inside an enclosure on its own premises as restrained. Ask NoCo Turf Co. about a dog run for your Greeley yard."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "The pen",
+      "h2": "Sec. 10-54 gives a dog run three tests: room to move, no way out, no filth.",
+      "takeaway": "A first violation is a misdemeanor infraction, and a dog without adequate shelter and containment can be impounded before any finding.",
+      "paras": [
+        "Greeley's containment standard asks for enough space to meet the animal's exercise needs, a setup suitable to keep it from escaping, and a pen kept clean and free of filth, including feces. The code's definition of restrained includes keeping an animal inside an enclosure on a particular premises, so a fenced run counts as restraint the way a leash does.",
+        "For a dog that spends hours outside, the same section defines adequate shelter: a roof, at least three enclosed sides, a doorway and a solid, level floor, with protection from heat, sun exposure, wind, cold and precipitation. A run in full afternoon sun needs that shade planned in, not added later.",
+        "Turf changes how the clean test gets met. Solids still get picked up by hand; urine has to rinse down through the backing and the base, and on Greeley's shallow soils, with hard clay sometimes a few inches down, that is a drainage question before it is a turf question."
+      ],
+      "layerRefs": [
+        "greeley-co.code-10-54-containment",
+        "greeley-co.code-10-54-shelter",
+        "greeley-co.code-10-1-restrained-premises",
+        "greeley-co.code-10-65-waste",
+        "greeley-hard-clay-city"
+      ],
+      "sources": [
+        "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT10AN_CH3VI_S10-54FAPRADSHCO",
+        "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT10AN",
+        "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT10AN_CH3VI_S10-65ANWARE",
+        "https://greeleyco.gov/government/city-administration/city-departments/water-and-sewer/save-water/waterwise-landscapes"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "The fence line",
+      "h2": "Chain link around a Greeley dog run tops out at 4 feet.",
+      "paras": [
+        "Greeley's residential fence table allows chain link or vinyl-clad chain link only in a side or rear yard, and only 4 feet high. For a dog that clears that, the other allowed materials are wood or vinyl simulating wood, wrought iron or aluminum made to look like it, and stone, brick or concrete, up to 6 feet behind the front building line. Anything over six feet takes a building permit.",
+        "Where the run meets a neighbor's fence, noise is the other rule. Sec. 10-57 bars barking that is plainly audible beyond the property for more than 10 minutes straight between 7 a.m. and 9 p.m., more than 5 minutes at night, or 90 minutes in any 24-hour period.",
+        "A run in the front yard is out for two reasons: city staff describe turf as prohibited in the front yards of houses, and a front fence stops at 3.5 feet unless it is at least 75% open. If an HOA governs the lot, Colorado's rule on HOAs and backyard turf is printed after this section."
+      ],
+      "layerRefs": [
+        "greeley-co.code-24-502-fences",
+        "greeley-co.code-24-502-permits",
+        "greeley-co.code-10-57-noise",
+        "greeley-front-yard-ban-city-summary",
+        "co-hoa-attached-rear-yard"
+      ],
+      "sources": [
+        "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH5REDEST_S24-502REDEST",
+        "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT10AN_CH3VI_S10-57NO",
+        "https://greeleyco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=9205,plainText=false)",
+        "https://leg.colorado.gov/bill_files/92307/download"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "Off leash",
+      "h2": "Greeley keeps leashed dogs on park walkways; off-leash play happens in fenced dog parks.",
+      "paras": [
+        "In a city park that allows animals, Sec. 10-66 requires a dog to be restrained and kept to the public walkway beside the park, so the open grass is not a place to let one run. Off-leash space is in the dog parks.",
+        "Rover Run Dog Park, listed by the Poudre River Trail Corridor, gives dogs a 3-acre fenced area during daylight hours. On June 2, 2026, City Council named the new 27-acre Ferguson Park and its dog park, The Barkyard Dog Park, planned with separate fenced areas for small and large dogs, 4-foot fencing and drainage against mud. Construction is scheduled for 2027.",
+        "Drainage to prevent muddy conditions is on the city's own feature list for The Barkyard. It is the same problem a worn backyard run faces on grass."
+      ],
+      "layerRefs": [
+        "greeley-co.code-10-66-parks",
+        "greeley-co.rover-run-dog-park",
+        "greeley-co.barkyard-dog-park"
+      ],
+      "sources": [
+        "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT10AN_CH3VI_S10-66CIPAREAR",
+        "https://poudretrail.org/rover-run-dog-park/",
+        "https://speakupgreeley.com/ferguson-park-and-dog-run"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What about a dog run at a Greeley townhome or condo?",
+      "a": "Greeley's animal code says premises do not include the common areas of buildings with several households, and a dog off its premises and unrestrained is at large. Feces on a common area must be picked up immediately. A run belongs on ground the owner occupies; for an attached home, read the HOA's rules as well."
+    },
+    {
+      "q": "Does a dog in Greeley need a city license?",
+      "a": "Yes, once it is over six months old. Greeley's code requires a city license tag for each dog or cat, applied for within 14 days of getting the animal, with proof of rabies vaccination, and the tag has to be worn whenever the dog is off your premises."
+    },
+    {
+      "q": "Can I run a dog daycare or boarding yard at my Greeley home?",
+      "a": "Not with an outdoor yard. Greeley's home-occupation rules keep business activity inside the house, an accessory building or the garage, with child care the only exception, and the use table lists no animal care business in a residential district. Outdoor play areas put animal care in the large category, permitted only in the I-L and I-M industrial districts."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Greeley Municipal Code Sec. 10-54, shelter and containment (Ord. No. 33, 2019; amended by Ord. No. 16, 2022)",
+      "url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT10AN_CH3VI_S10-54FAPRADSHCO",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Greeley Municipal Code Title 10, Animals: Sec. 10-1 definitions and Sec. 10-56 animal at large (Ord. No. 33, 2019)",
+      "url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT10AN",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Greeley Municipal Code Sec. 10-65, animal waste removal",
+      "url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT10AN_CH3VI_S10-65ANWARE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Greeley Municipal Code Sec. 10-57, noise",
+      "url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT10AN_CH3VI_S10-57NO",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Greeley Municipal Code Sec. 10-66, city parks or recreational areas",
+      "url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT10AN_CH3VI_S10-66CIPAREAR",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Greeley Municipal Code Secs. 10-141 to 10-144, dog and cat license tags (apply within 14 days; worn off the premises)",
+      "url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT10AN_CH6LI_S10-141LITARE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Greeley Municipal Code Sec. 24-502.e, residential fences and walls (Ord. No. 35, 2021)",
+      "url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH5REDEST_S24-502REDEST",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Greeley Planning Commission agenda packet, July 14, 2026: slide Artificial Turf (Council Initiative)",
+      "url": "https://greeleyco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=9205,plainText=false)",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Greeley Water & Sewer, Waterwise Landscapes (shallow soils over hard clay)",
+      "url": "https://greeleyco.gov/government/city-administration/city-departments/water-and-sewer/save-water/waterwise-landscapes",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Poudre River Trail Corridor, Rover Run Dog Park",
+      "url": "https://poudretrail.org/rover-run-dog-park/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Speak Up Greeley, Ferguson Park and the Barkyard Dog Park",
+      "url": "https://speakupgreeley.com/ferguson-park-and-dog-run",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "SB23-178 signed act: C.R.S. 38-33.3-106.5(1)(i) and (i.5)",
+      "url": "https://leg.colorado.gov/bill_files/92307/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Greeley Municipal Code Sec. 24-402, Table 24-4-2 (animal care rows: large only in I-L and I-M)",
+      "url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH4ZODIUS_S24-402ALUS",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Greeley Municipal Code Sec. 24-403.c, home occupations (activity kept indoors)",
+      "url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH4ZODIUS_S24-403ACUS",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Dog runs or pet-turf yards you have built in Greeley: neighborhood, month, rough size, number and size of dogs",
+    "Camera-original photos of a Greeley dog run; photos.ts has no photo with use \"pet\" yet, so this page cannot pass the gate without one",
+    "Any townhome or condo dog run in Greeley, and what the HOA required",
+    "Whether NoCo bids dog daycare or boarding yards (Greeley's Sec. 24-404 sets run sizes and dog limits for them)",
+    "Confirmation that NoCo installs pet turf today (services.ts: pet-turf is not confirmed yet)"
+  ]
+}

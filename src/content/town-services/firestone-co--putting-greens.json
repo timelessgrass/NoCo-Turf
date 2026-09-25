@@ -1,0 +1,176 @@
+{
+  "status": "draft",
+  "town": "firestone-co",
+  "service": "putting-greens",
+  "title": "Backyard Putting Greens in Firestone, CO | NoCo Turf Co.",
+  "description": "Firestone's turf code sets a 1.75-inch minimum pile and never mentions putting greens. The 3-foot buffer, the 5:1 slope limit and Barefoot Lakes' turf cap.",
+  "h1": "Firestone's turf code sets a 1.75-inch minimum pile and never mentions putting greens.",
+  "display": {
+    "paint": "never mentions putting greens"
+  },
+  "lede": "A backyard green in Firestone answers to a Town turf standard written around lawn-length turf and, in Barefoot Lakes, to a metro district that counts turf of any height. Read both before the first cup goes in.",
+  "answer": {
+    "question": "Can I build a backyard putting green in Firestone?",
+    "answer": "It depends on how the Town reads its turf code, so ask Firestone Planning first. Firestone requires a permit for artificial turf and a 1.75 to 3 inch pile, and has no rule written for short putting surfaces. Barefoot Lakes adds its metro district's review. Ask NoCo Turf Co. about a putting green for a Firestone yard."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "The pile rule",
+      "h2": "Firestone holds every artificial turf to a 1.75- to 3-inch pile.",
+      "takeaway": "A putting surface is cut far shorter than that, and the code has no separate rule for greens.",
+      "paras": [
+        "Development Code 16.6.4.F.2 sets a blade pile height of 1.75 to 3 inches and a face weight of at least 70 ounces for artificial turf, and the code's definitions describe artificial turf as a manufactured substitute for lawn that simulates a well-maintained lawn. The only putting anywhere in the code is a golf driving range or putting course, listed as an outdoor recreation use.",
+        "Single-family lots are named in 16.6.4.B.4.b as subject to that turf standard and exempt from most of the rest of the section. Section 16.6.1.C lists landscaping among the standards open to alternative equivalent compliance, a site-specific design equal to or better than the standard, approved in writing by the Director on by-right projects, but nothing says whether one backyard green can use it. It depends on how the Town reads its definition and that procedure, so ask Firestone Planning before you order turf."
+      ],
+      "layerRefs": [
+        "firestone-co.fdc-16.6.4-no-putting-green",
+        "firestone-co.fdc-16.11.3-artificial-turf-definition",
+        "firestone-fdc-16.6.4-turf-specs",
+        "firestone-co.fdc-16.6.1-alternative-compliance",
+        "firestone-co.fdc-16.6.4-single-family-applicability",
+        "firestone-fdc-16.6.4-permit"
+      ],
+      "sources": [
+        "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+        "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH11DE_16.11.3TEDE",
+        "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.1GEPR"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Where the green sits",
+      "h2": "Keep the green 3 feet off the property line and off slopes steeper than 5:1.",
+      "paras": [
+        "Firestone requires at least 3 feet of living, permeable landscape between the edge of artificial turf and any property line, so a green, its fringe and any chipping area can't run to a back fence that stands on the lot line. The same subsection bars artificial turf on slopes steeper than 5:1. A putting surface rolls far flatter than that, but a chipping mound or a bank beside the green can exceed it.",
+        "The Town's Development Code page places artificial turf in the rear and side yards of single-family homes, and the green shares those yards with the live-plant rule: half of the combined side and rear yards has to be live plants, and turf never counts toward that half. The green, the fringe and any lawn turf are sized together; the yard-wide limits are on the [Firestone page](/areas/firestone-co/)."
+      ],
+      "layerRefs": [
+        "firestone-co.fdc-16.6.4-buffer-slope",
+        "firestone-fdc-16.6.4-live-plant-limit",
+        "firestone-co.devcode-page-rear-side-yards"
+      ],
+      "sources": [
+        "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+        "https://firestoneco.gov/175/Development-Code"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Barefoot Lakes",
+      "h2": "Barefoot Lakes caps artificial turf of any height, so the green counts.",
+      "paras": [
+        "The St. Vrain Lakes Metropolitan Districts run design review for Barefoot Lakes. Their guidelines, as amended August 7, 2026, allow artificial turf only in fenced side or rear yards and cap artificial turf of any height at 50% of the combined rear and side yard. Read plainly, a putting surface falls inside that cap.",
+        "The request has to state the turf's intended use and pile height. The guidelines' product rule is a 1.75 to 3 inch blade and 70 ounces of face weight, and a product missing from the committee's pre-approved list needs a sample and specifications. The committee has 60 days from a complete request to decide, with a 30-day appeal to the district board.",
+        "One snag: the district's landscape guide for residents, revised in July 2026, still prints a 75% cap. Ask the committee which number it applies to your lot before you draw the green."
+      ],
+      "layerRefs": [
+        "firestone-co.svlmd-rig-turf-cap",
+        "firestone-co.svlmd-rig-turf-install",
+        "firestone-co.svlmd-approved-turf-list",
+        "firestone-co.svlmd-design-review",
+        "firestone-co.svlmd-landscape-guide-75"
+      ],
+      "sources": [
+        "https://www.stvrainmd.live/files/5457a4faf/SVLMD+-+2026+08+07+-+Amended+%26+Restated+Residential+Improvement+Guidelines+%26+Site+Restrictions+for+Barefoot.pdf",
+        "https://www.stvrainmd.live/design-review",
+        "https://www.stvrainmd.live/files/14212f700/SVLMD+-+2026+07+20+-+Barefoot+Design+Guidelines+for+Residents.pdf"
+      ]
+    },
+    {
+      "kind": "golf",
+      "own": true,
+      "kicker": "The course in town",
+      "h2": "Saddleback Golf Club is Firestone's own 18-hole course.",
+      "paras": [
+        "The Town's parks master plan lists Saddleback Golf Club and its 18-hole course among Firestone's features, alongside the 688-acre St. Vrain State Park. The club is on Frontier Street, and its website lists leagues, lessons, junior golf programs and an indoor golf simulator.",
+        "A round there is a fair way to decide how fast you want a backyard green to roll, and whether you want a fringe to chip from, before any turf is picked."
+      ],
+      "layerRefs": [
+        "firestone-co.saddleback-golf-club",
+        "firestone-co.saddleback-club-site"
+      ],
+      "sources": [
+        "https://www.firestoneco.gov/DocumentCenter/View/9085/2022-07-29-POST_Master_Plan-FINAL-Compressed",
+        "https://saddlebackgolf.com/"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need a Town permit for a putting green in Firestone?",
+      "a": "Firestone requires a Town permit before any artificial turf goes in, with no fee for a single-family home. Whether the Town treats a putting surface as artificial turf under that section is the open question, so raise it when you apply."
+    },
+    {
+      "q": "Can a putting green go in a Firestone front yard?",
+      "a": "Generally no. At least 75% of a single-family front yard, driveways excluded, has to be live plants that turf can't count toward, and the Town's Development Code page places artificial turf in the rear and side yards of single-family homes."
+    },
+    {
+      "q": "Can an HOA or metro district build a putting green on common ground in Firestone?",
+      "a": "Under Colorado's 2025 amendment, putting and chipping greens count as functional artificial turf, which the state's ban on nonfunctional turf in new development doesn't reach. Firestone's code still lets artificial turf into common open areas only with Town approval. Not legal advice."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Firestone Development Code 16.6.4, Landscaping, screening, and fencing (codified through Ord. No. 1072, Dec. 10, 2025)",
+      "url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Firestone Development Code 16.11.3, Terms defined (codified through Ord. No. 1072, Dec. 10, 2025)",
+      "url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH11DE_16.11.3TEDE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Firestone Development Code 16.6.1.C, Alternative equivalent compliance (codified through Ord. No. 1072, Dec. 10, 2025)",
+      "url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.1GEPR",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Firestone, Development Code page (artificial turf in rear and side yards)",
+      "url": "https://firestoneco.gov/175/Development-Code",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "St. Vrain Lakes Metropolitan Districts, Amended and Restated Residential Improvement Guidelines and Site Restrictions for Barefoot (as of August 7, 2026)",
+      "url": "https://www.stvrainmd.live/files/5457a4faf/SVLMD+-+2026+08+07+-+Amended+%26+Restated+Residential+Improvement+Guidelines+%26+Site+Restrictions+for+Barefoot.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "St. Vrain Lakes Metropolitan Districts, Design Review page",
+      "url": "https://www.stvrainmd.live/design-review",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "St. Vrain Lakes Metropolitan Districts, Barefoot Lakes Landscape Design Guidelines, Guide for Residents (revised July 20, 2026)",
+      "url": "https://www.stvrainmd.live/files/14212f700/SVLMD+-+2026+07+20+-+Barefoot+Design+Guidelines+for+Residents.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Firestone Parks, Open Space & Trails (POST) Master Plan 2020 (final PDF dated 2022-07-29)",
+      "url": "https://www.firestoneco.gov/DocumentCenter/View/9085/2022-07-29-POST_Master_Plan-FINAL-Compressed",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Saddleback Golf Club, club website",
+      "url": "https://saddlebackgolf.com/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "HB25-1113 signed act (2025): C.R.S. 37-99-102(6.5) and 37-99-103(1), SB24-005 as amended",
+      "url": "https://leg.colorado.gov/bill_files/40673/download",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Backyard putting greens NoCo has built in Firestone or Barefoot Lakes: month, rough size, and how the Town handled the putting surface under the 16.6.4.F.2 pile-height rule (permit, exception or alternative equivalent compliance)",
+    "Camera-original photos of a Firestone or Barefoot Lakes putting green (photos.ts use putting-green, place in or next to Firestone); none on file is from Firestone, so the page has no photo",
+    "Whether NoCo has taken a putting green to the Barefoot Lakes review committee (St. Vrain Lakes Metropolitan Districts), what it asked for, and which cap (50% or 75%) it applied",
+    "Pile height and face weight of the putting turf NoCo uses, so Firestone Planning's answer can be matched to a real product",
+    "Any golf-community HOAs or metro districts in Firestone (for example near Saddleback Golf Club) NoCo has worked with, with permission to name them"
+  ]
+}

@@ -1,0 +1,649 @@
+[
+  {
+    "id": "windsor-co.ord-2025-1730",
+    "layer": "ordinance",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor's Ordinance 2025-1730, passed on second reading November 24, 2025, amended the Town's landscape standards to comply with SB24-005 and HB25-1113.",
+    "quote": "WHEREAS, to comply with the requirements set forth in SB 24-005, and HB 25-1113, amendments to the landscaping standards are to be adopted by December 31, 2025 … Introduced, passed on second reading, and ordered published this 24 day of Nov 2025.",
+    "source_url": "https://www.windsorco.gov/DocumentCenter/View/29095/Ordinance-No-2025-1730---Amending-Chapter-15-of-the-Land-Use-Code-Adjusting-the-Standards-for-Landscaping-in-Developed-Areas",
+    "source_label": "Town of Windsor Ordinance No. 2025-1730, amending Chapter 15, Article III (signed scan: recitals p. 1, second reading p. 37)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2025",
+      "1730",
+      "24",
+      "31",
+      "005",
+      "25",
+      "1113"
+    ],
+    "notes": "Scanned PDF with no text layer; read from the page images. First reading Nov. 10, 2025. Codified as Sec. 15-3-20 history note (Ord. 2025-1730 §1)."
+  },
+  {
+    "id": "windsor-co.ord-2025-1730-local-entities",
+    "layer": "ordinance",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor's Ordinance 2025-1730 recites that HB25-1113 bars local entities, including special districts and metropolitan districts, from installing or allowing nonfunctional turf, including nonfunctional artificial turf, on applicable property.",
+    "quote": "WHEREAS, beginning January 1, 2026, House Bill (\"HB\") 25-1113 prohibits local entities, including governments, special districts and metropolitan districts, from installing, planting, placing or allowing others to install, plant, or place, non-functional turf (including non-functional artificial turf) on any \"applicable property\" within the local entities' jurisdiction; and",
+    "source_url": "https://www.windsorco.gov/DocumentCenter/View/29095/Ordinance-No-2025-1730---Amending-Chapter-15-of-the-Land-Use-Code-Adjusting-the-Standards-for-Landscaping-in-Developed-Areas",
+    "source_label": "Town of Windsor Ordinance No. 2025-1730, recitals (signed scan, p. 1)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "2026",
+      "25",
+      "1113",
+      "2025",
+      "1730"
+    ],
+    "notes": "Scanned PDF; read from the page image. The statutory definition is C.R.S. 37-99-102(9) (SB24-005): local entity includes a special district and a metropolitan district."
+  },
+  {
+    "id": "windsor-co.code-15-3-20-b1-nonfunctional-turf",
+    "layer": "ordinance",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor's code bars nonfunctional turf from new public, park, industrial and commercial sites, association-maintained common property, streets, medians, corridors and parking lots, and multi-family property with more than 12 units.",
+    "quote": "Nonfunctional turf shall not be installed on: a. Any property containing a principal use that is characterized as Public/Semi-Public, Parks and Open Space, Industrial, and/or Commercial; or b. Any property within a common interest community … that is owned and maintained by a unit owners association, such as entryways, parks, and other common elements; or c. Any portion of a street right-of-way, median, transportation corridor, or parking lot subject to this Code. d. Any multi-family residential property with more than twelve (12) units.",
+    "source_url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTIIISTLADEAR_S15-3-20LAST",
+    "source_label": "Windsor Municipal Code Sec. 15-3-20(b)(1), as amended by Ord. No. 2025-1730 (codified through Ord. No. 2026-1749, July 13, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [
+      "12"
+    ],
+    "notes": "Appendix A defs. 18 and 27: functional turf is turf in a recreational or civic use area; nonfunctional turf is turf that is not functional. Read through the Municode API (job 500132, Supp. 24 Update 1). Appendix A def. 2 defines artificial turf as synthetic materials developed to resemble natural grass, so 'turf' alone in 15-3-20(b)(1) reads as living grass; pages say 'nonfunctional turf' rather than 'grass' to stay with the code's word."
+  },
+  {
+    "id": "windsor-co.code-15-3-20-b2-exception-noted",
+    "layer": "ordinance",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor's code lets the Director approve functional artificial turf only where alternatives are not reasonable, and any such exception must be noted in the landscape plan.",
+    "quote": "No artificial turf or artificial plants may be included in any landscape plan or installed. The Director may approve an exception to allow artificial turf to be installed if it is classified as functional artificial turf and alternatives are not reasonable. Any exception to allow artificial turf must be noted in the landscape plan.",
+    "source_url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTIIISTLADEAR_S15-3-20LAST",
+    "source_label": "Windsor Municipal Code Sec. 15-3-20(b)(2), as amended by Ord. No. 2025-1730 (codified through Ord. No. 2026-1749, July 13, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [],
+    "notes": "Read through the Municode API (product 18093, job 500132, Supp. 24 Update 1). The shared record windsor-code-15-3-20-no-turf stops before the last sentence."
+  },
+  {
+    "id": "windsor-co.code-15-3-20-b3-applies-to",
+    "layer": "ordinance",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor's nonfunctional-turf and artificial-turf rules apply to new development that needs a building permit or site plan approval and to redevelopment that disturbs more than 50% of existing landscaped area.",
+    "quote": "Subsections (1) and (2) above shall apply to the following types of development: a. Any new development of property that requires a building permit or site plan approval; and b. Any redevelopment of property that requires a building permit or site plan approval and that will result in the disturbance of more than fifty percent (50%) of existing landscaped area(s).",
+    "source_url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTIIISTLADEAR_S15-3-20LAST",
+    "source_label": "Windsor Municipal Code Sec. 15-3-20(b)(3) (codified through Ord. No. 2026-1749, July 13, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [
+      "50"
+    ]
+  },
+  {
+    "id": "windsor-co.code-functional-artificial-turf-definition",
+    "layer": "ordinance",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor's landscape code defines functional artificial turf as turf in a space regularly used for civic, community or recreational purposes, such as a playground, sports field, picnic ground, part of a park or a golf course's chipping and putting greens.",
+    "quote": "Functional Artificial Turf — Artificial turf that is: a. Located in a recreational use area or other space that is regularly used for civic, community, and/or recreational purposes, which may include a playground, sports field, picnic ground, amphitheater, a portion of a park, and the playing area of a golf course, such as a driving range, chipping and putting green, tee box, green, fairway, and rough",
+    "source_url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTIIISTLADEAR_APXATESP",
+    "source_label": "Windsor Municipal Code Ch. 15, Art. III, Appendix A, definition 17 (codified through Ord. No. 2026-1749, July 13, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [],
+    "notes": "Part b of the definition adds engineered civil-infrastructure products (landfill covers, slope revetments). Dog areas are not named."
+  },
+  {
+    "id": "windsor-co.code-15-3-20-rock-beds",
+    "layer": "ordinance",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor's landscape code limits rock beds outside planting beds to 20% of the required landscape area and 3,000 square feet each.",
+    "quote": "Shall be limited to no more than twenty percent (20%) of required landscape area. … No rock bed shall be greater than three thousand (3,000) square feet.",
+    "source_url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTIIISTLADEAR_S15-3-20LAST",
+    "source_label": "Windsor Municipal Code Sec. 15-3-20(b)(5)b (codified through Ord. No. 2026-1749, July 13, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [
+      "20",
+      "3000"
+    ],
+    "notes": "The same subsection requires feature elements (boulders, structures, interspersed shrubs) in any rock bed independent of planting beds."
+  },
+  {
+    "id": "windsor-co.code-15-3-10-parks-plan",
+    "layer": "ordinance",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor requires a landscape plan for every public park, based on the amenities it will hold, such as playground equipment, game courts and playing fields.",
+    "quote": "A landscape plan shall be developed for all lands designated as a public park. … Landscape plans shall be based upon expected amenities and facilities, such as playground equipment, picnic tables, game courts, playing fields, and swimming pools.",
+    "source_url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTIIISTLADEAR_S15-3-10INAP",
+    "source_label": "Windsor Municipal Code Sec. 15-3-10(b)(4) (codified through Ord. No. 2026-1749, July 13, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": []
+  },
+  {
+    "id": "windsor-co.code-7-6-180-waste",
+    "layer": "ordinance",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor's code makes a dog's owner responsible for periodically removing the dog's feces from their own property so that it does not become a public nuisance.",
+    "quote": "The owner or keeper of any dog shall also be responsible for the periodic removal of feces deposited by such animal on property owned or occupied by such owner or keeper so as to prevent the creation of a public nuisance within the meaning of Section 7-6-190 below.",
+    "source_url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH7HESAAN_ARTVIDO_DIV1GEPR_S7-6-180REDOWARE",
+    "source_label": "Windsor Municipal Code Sec. 7-6-180 (Ord. 2011-1398; codified through Ord. No. 2026-1749, July 13, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "windsor-co.code-7-6-190-odor",
+    "layer": "ordinance",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor's code counts a dog that creates offensive odors that materially interfere with another person's lawful activities as a public nuisance.",
+    "quote": "For the purposes of this Section, a public nuisance includes a dog which is a safety or health hazard, which damages or destroys the property of another, or which creates offensive odors that materially interfere with or disrupt another person in the conduct of lawful activities.",
+    "source_url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH7HESAAN_ARTVIDO_DIV1GEPR_S7-6-190PUNUPR",
+    "source_label": "Windsor Municipal Code Sec. 7-6-190(a) (Ord. 2011-1398; codified through Ord. No. 2026-1749, July 13, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "windsor-co.code-7-6-190-four-dogs",
+    "layer": "ordinance",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor bars keeping more than four dogs over six months old on any property in town, except at kennels approved as conditional use grants.",
+    "quote": "Except for kennels that are approved as conditional use grants pursuant to Paragraph 16-20-20(d)(1) of this Code, the harboring of more than four (4) dogs over the age of six (6) months upon any property within the Town shall be unlawful.",
+    "source_url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH7HESAAN_ARTVIDO_DIV1GEPR_S7-6-190PUNUPR",
+    "source_label": "Windsor Municipal Code Sec. 7-6-190(b) (Ord. 2011-1398; codified through Ord. No. 2026-1749, July 13, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4",
+      "6"
+    ],
+    "notes": "Sec. 7-6-10 defines a kennel as an establishment where the business of boarding, training, selling or breeding dogs for sale is carried on. Cats have their own four-per-home cap in Sec. 7-11-20."
+  },
+  {
+    "id": "windsor-co.code-7-6-60-at-large",
+    "layer": "ordinance",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor's code requires anyone keeping a dog to prevent it from being off the premises and beyond their control.",
+    "quote": "Any person owning, keeping or supervising any dog in the Town shall prevent the animal from being off the premises of the owner, keeper or supervisor and beyond such person's control.",
+    "source_url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH7HESAAN_ARTVIDO_DIV1GEPR_S7-6-60RULA",
+    "source_label": "Windsor Municipal Code Sec. 7-6-60(a) (Ord. 2011-1398; codified through Ord. No. 2026-1749, July 13, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "windsor-co.police-brochure-dog-runs",
+    "layer": "ordinance",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "The Windsor Police Department's animal-control brochure says private yards and dog runs must be cleaned regularly to prevent odor and a build-up of feces.",
+    "quote": "Private yards and dog runs must be cleaned on a regular basis to prevent odor and build up of feces.",
+    "source_url": "https://www.windsorco.gov/DocumentCenter/View/11963/Dog-Brochure",
+    "source_label": "Town of Windsor Police Department, Animal Control dog brochure (its summary of Sec. 7-6-190, Public nuisance prohibited)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Undated brochure; its other summaries match the current Chapter 7 text (four-dog limit, ID tag, rabies vaccination)."
+  },
+  {
+    "id": "windsor-co.code-15-11-20-residential-fences",
+    "layer": "ordinance",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor's residential fence standards allow 6 feet in most locations and, generally, 4 feet within the front setback, where chain link is prohibited.",
+    "quote": "All permitted locations that are not specifically enumerated below 6 feet n/a Within Front Setback, generally 4 feet Chain link prohibited",
+    "source_url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTXIFEWA_S15-11-20REFEWA",
+    "source_label": "Windsor Municipal Code Sec. 15-11-20, Table 15-11-20 (Ord. 2022-1663; codified through Ord. No. 2026-1749, July 13, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6",
+      "4"
+    ],
+    "notes": "Quote is the table's first two rows as flattened text. The table also allows 6 feet within the first 8 feet of the front setback measured from the front building corners, and 8 feet next to commercial or industrial uses."
+  },
+  {
+    "id": "windsor-co.code-15-11-10-electric-fences",
+    "layer": "ordinance",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor makes it unlawful to put up or keep any fence, wall or screening device carrying an electric charge strong enough to shock.",
+    "quote": "It shall be unlawful to erect or maintain any fence, wall, or architectural screening device equipped with or having an electric charge sufficient to cause shock.",
+    "source_url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTXIFEWA_S15-11-10GEFEWAST",
+    "source_label": "Windsor Municipal Code Sec. 15-11-10(b) (Ord. 2022-1663; codified through Ord. No. 2026-1749, July 13, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "windsor-co.code-16-3-20-home-child-care",
+    "layer": "ordinance",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor treats child care in a home as a home occupation, caps the children at the number the state's day care home rules allow, and exempts it from the home-occupation floor-area limits.",
+    "quote": "In the event a home occupation involves child care, the number of children cared for at the dwelling unit at any one (1) time shall be limited to the lawful number permitted by the rules and regulations for the day care homes then in effect and issued by the Department of Social Services of the State. The home occupation of child care shall be exempt from the square footage conditions as set forth in Subsection (6) above.",
+    "source_url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH16ZO_ARTIIIREUSST_S16-3-20HOOC",
+    "source_label": "Windsor Municipal Code Sec. 16-3-20(b)(10) (codified through Ord. No. 2026-1749, July 13, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1"
+    ]
+  },
+  {
+    "id": "windsor-co.code-16-1-40-child-care-conditional",
+    "layer": "ordinance",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "In Windsor's SF-1 single-family zone district, a child care center needs a conditional use grant.",
+    "quote": "The following uses shall be permitted in this District upon approval of a conditional use grant as provided in Section 14-2-130: a. Child care centers.",
+    "source_url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH16ZO_ARTIZODI_S16-1-40SIFAZODI",
+    "source_label": "Windsor Municipal Code Sec. 16-1-40, SF-1 conditional uses (codified through Ord. No. 2026-1749, July 13, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "14",
+      "2",
+      "130"
+    ],
+    "notes": "Sec. 16-1-80 lists a child care center among uses permitted by right in the RMU-2 district."
+  },
+  {
+    "id": "windsor-co.poudre-pooch-park",
+    "layer": "place",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "The Windsor Police Department's dog brochure says Poudre Pooch Park, Windsor's off-leash dog park off Eastman Park Drive, is fully enclosed and covers more than an acre.",
+    "quote": "Poudre Pooch Park is fully enclosed and is over an acre.",
+    "source_url": "https://www.windsorco.gov/DocumentCenter/View/11963/Dog-Brochure",
+    "source_label": "Town of Windsor Police Department, Animal Control dog brochure (Poudre Pooch Park panel)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The brochure is laid out in columns; its location line reads, in reading order, 'The park is off Eastman Park Drive west of 7th Street.' The Parks page (windsor-co.dog-park-rules) places it on the west side of Eastman Park."
+  },
+  {
+    "id": "windsor-co.windsor-lake-dog-park",
+    "layer": "place",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor Lake Dog Park sits on the north side of Windsor Lake off the Windsor Lake Trail, and dogs may swim there only inside the buoyed area.",
+    "quote": "Windsor Lake Dog Park - Located on the north side of Windsor Lake, accessible from the Windsor Lake Trail … Dogs are welcome to swim in the water within the designated buoyed area only at the Windsor Lake Dog Park.",
+    "source_url": "https://www.recreationliveshere.com/157/Dog-Park-Rules",
+    "source_label": "Windsor Parks, Recreation & Culture, Dog Park Rules",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "windsor-co.dog-park-rules",
+    "layer": "place",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor offers two off-leash dog parks, Poudre Pooch Park on the west side of Eastman Park and Windsor Lake Dog Park, and requires vaccinated, spayed or neutered dogs at least 6 months old, handlers 16 or older, and no more than 3 dogs per person per visit.",
+    "quote": "Windsor offers two off-leash dog parks for your enjoyment: Poudre Pooch Park - Located on the west side of Eastman Park … Dogs must be vaccinated. … Puppies must be at least 6 months of age. … Handlers must be 16 years of age or older. … All dogs must be spayed and neutered. Limit 3 dogs per person per visit.",
+    "source_url": "https://www.recreationliveshere.com/157/Dog-Park-Rules",
+    "source_label": "Windsor Parks, Recreation & Culture, Dog Park Rules",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6",
+      "16",
+      "3"
+    ],
+    "notes": "The same page says dogs may run off-leash 'within the fenced area'."
+  },
+  {
+    "id": "windsor-co.ptarmigan-west-turf-rear-yard",
+    "layer": "housing",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Ptarmigan West Metro District No. 2 in Windsor allows artificial turf in rear yards only, up to 25% of the rear yard, under its posted design guidelines.",
+    "quote": "Artificial Turf: Artificial Turf is allowed in rear yards only up to 25% of the rear yard.",
+    "source_url": "https://pwmd1.specialdistrict.org/files/3deb93af5/03+PWMD+Rules+and+Regulations+-+Design+Guidelines.pdf",
+    "source_label": "Ptarmigan West Metro District No. 2, Rules and Regulations/Design Guidelines, Town of Windsor, Larimer County (posted undated)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "25"
+    ],
+    "notes": "The PDF's 'Dated' line is blank and its metadata title is 'Proposed Architectural Guidelines' (created 2022-05-10), but the district posts it as its Rules & Regulations and Design Guidelines on both its Governing Documents and Architectural Review pages. Whether a percentage cap is enforceable against C.R.S. 37-60-126(11)(a.5) is untested; pages must not say it is or isn't."
+  },
+  {
+    "id": "windsor-co.ptarmigan-west-nonliving-30",
+    "layer": "housing",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Ptarmigan West Metro District No. 2 limits non-living materials to 30% of front-yard landscaping and applies the same limit to back yards not fully screened by a fence at least 5 feet high.",
+    "quote": "No more than 30% of the front yard landscaping shall be non-living materials, unless otherwise approved by the ARC and the Town of Windsor. The same standard shall apply to back yards unless the entire back yard is screened from view by fencing or other screening materials approved by the ARC and is no less than 5’ high.",
+    "source_url": "https://pwmd1.specialdistrict.org/files/3deb93af5/03+PWMD+Rules+and+Regulations+-+Design+Guidelines.pdf",
+    "source_label": "Ptarmigan West Metro District No. 2, Rules and Regulations/Design Guidelines, Landscaping (posted undated)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "30",
+      "5"
+    ],
+    "notes": "The guidelines do not say whether artificial turf counts as a non-living material."
+  },
+  {
+    "id": "windsor-co.ptarmigan-west-dog-runs",
+    "layer": "housing",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Ptarmigan West Metro District No. 2 requires a plan submittal before a doghouse or dog run is built and wants both concealed from the street and neighboring yards.",
+    "quote": "Doghouse(s) require plan submittal to the ARC prior to installation/construction. This also includes \"dog runs\". Also, doghouse and dog runs must be appropriately concealed from the street and neighboring yards. Acceptable methods of concealment include fencing or other screening method approved by the ARC.",
+    "source_url": "https://pwmd1.specialdistrict.org/files/3deb93af5/03+PWMD+Rules+and+Regulations+-+Design+Guidelines.pdf",
+    "source_label": "Ptarmigan West Metro District No. 2, Rules and Regulations/Design Guidelines, Dog Houses (posted undated)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": []
+  },
+  {
+    "id": "windsor-co.ptarmigan-west-play-equipment",
+    "layer": "housing",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Ptarmigan West Metro District No. 2 requires committee approval for play and sports equipment and generally allows it only at the rear of a residence.",
+    "quote": "Play and sports equipment requires prior ARC approval. In general, all play equipment, trampolines and other sports equipment shall only be allowed in the rear of a residence. The ARC may require reasonable screening from the street.",
+    "source_url": "https://pwmd1.specialdistrict.org/files/3deb93af5/03+PWMD+Rules+and+Regulations+-+Design+Guidelines.pdf",
+    "source_label": "Ptarmigan West Metro District No. 2, Rules and Regulations/Design Guidelines, Play and Sports Equipment (posted undated)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": []
+  },
+  {
+    "id": "windsor-co.ptarmigan-west-playhouses",
+    "layer": "housing",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Ptarmigan West Metro District No. 2 limits playhouses to 6 feet at the peak and 100 square feet inside, in the rear yard.",
+    "quote": "Playhouses shall not exceed 6' in height at the peak, shall have no more than 100 square feet of interior floor space, and shall be located in the rear yard of the residence.",
+    "source_url": "https://pwmd1.specialdistrict.org/files/3deb93af5/03+PWMD+Rules+and+Regulations+-+Design+Guidelines.pdf",
+    "source_label": "Ptarmigan West Metro District No. 2, Rules and Regulations/Design Guidelines, Playhouses (posted undated)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "6",
+      "100"
+    ]
+  },
+  {
+    "id": "windsor-co.ptarmigan-west-arc-approval",
+    "layer": "housing",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Ptarmigan West Metropolitan District requires its Architectural Review Committee's approval before any exterior alteration is installed.",
+    "quote": "All exterior alterations must have approval by the Architectural Review Committee prior to installation.",
+    "source_url": "https://pwmd1.specialdistrict.org/architectural-review",
+    "source_label": "Ptarmigan West Metropolitan District Nos. 1-3, Architectural Review page",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "windsor-co.new-windsor-turf-back-yards",
+    "layer": "housing",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "New Windsor Metropolitan District's design review committee may consider artificial turf in back yards only, professionally installed and warranted for 10 years against discoloration and wear, and never in front or side yards.",
+    "quote": "Non-vegetative turf may be considered in back yards by the DRC provided it is warranted for a period of 10 years against discoloration and wear and is professionally installed. Non-vegetative turf grass (artificial turf) is not permitted in front or side yards. A sample of the product and a copy of the warranty must be submitted with the DRC application before installation.",
+    "source_url": "https://www.newwindsormetro.org/files/72102649d/New+Windsor_Brunner+Farm+Design+Guidelines+-+5-16-24+-+Final.pdf",
+    "source_label": "New Windsor Metropolitan District (Brunner Farm), Design Guidelines and Architectural Standards, May 16, 2024",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "10"
+    ],
+    "notes": "The warranty here is the turf product's, required by the district; it is not a NoCo claim. The guidelines also forbid artificial plants."
+  },
+  {
+    "id": "windsor-co.new-windsor-drc-ancillary",
+    "layer": "housing",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "New Windsor Metropolitan District requires design review approval before dog runs, fencing, play equipment and similar additions go in at an existing home.",
+    "quote": "All other proposed ancillary improvements to existing improvements in New Windsor must be submitted to the DRC for approval prior to commencement of construction. Such improvements include, but are not limited to: additions, decks, exterior lighting, dog runs, fencing, basketball hoops, play equipment, antennas, re staining or re painting in a new color and solar collectors.",
+    "source_url": "https://www.newwindsormetro.org/files/72102649d/New+Windsor_Brunner+Farm+Design+Guidelines+-+5-16-24+-+Final.pdf",
+    "source_label": "New Windsor Metropolitan District (Brunner Farm), Design Guidelines and Architectural Standards, May 16, 2024",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": []
+  },
+  {
+    "id": "windsor-co.new-windsor-md-services",
+    "layer": "housing",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "New Windsor Metropolitan District lists landscaping, storm drainage, streets, parks, covenant enforcement and design review among the services it may provide.",
+    "quote": "The District is authorized by the Special District Act and its Service Plan to provide various public improvements and services, including landscaping, storm drainage, streets, parks, and covenant enforcement and design review.",
+    "source_url": "https://www.newwindsormetro.org/about",
+    "source_label": "New Windsor Metropolitan District, About (district overview)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "windsor-co.raindance-goat-ranch",
+    "layer": "place",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "RainDance National in Windsor says its G.O.A.T. Ranch practice green measures 61,500 square feet and calls it the largest putting green in Colorado.",
+    "quote": "Measuring an incredible 61,500 square feet, The G.O.A.T. Ranch is the largest putting green in Colorado—ten times the size of the average PGA Tour green. … With dedicated areas for putting, chipping, pitching, and bunker play, The G.O.A.T. Ranch is equal parts playground and practice ground.",
+    "source_url": "https://raindancenational.com/practice-facility/",
+    "source_label": "RainDance National, Practice Facility page",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "61500"
+    ],
+    "notes": "'Largest in Colorado' is the club's own claim; pages attribute it."
+  },
+  {
+    "id": "windsor-co.raindance-national-course",
+    "layer": "place",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "RainDance National in Windsor is an 18-hole course by Fred Funk and Harrison Minchew that plays to 8,463 yards with 250 feet of elevation change and sells public tee times.",
+    "quote": "Designed by PGA Tour Champion Fred Funk and golf course architect Harrison Minchew, this 18-hole masterpiece is one of the longest courses in North America … Tipping out at 8463 yards and containing 250 feet of elevation change … Public tee times.",
+    "source_url": "https://raindancenational.com/",
+    "source_label": "RainDance National Resort & Golf, home page",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "18",
+      "8463",
+      "250"
+    ]
+  },
+  {
+    "id": "windsor-co.pelican-falls-course",
+    "layer": "place",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Pelican Lakes' nine-hole Pelican Falls course in Windsor, designed by Mike Hines and opened July 12, 2006, has 200 feet of elevation change and an island green on its last hole.",
+    "quote": "This par 34 thrill ride is the sister course to Pelican Lakes and is the most talked about nine-hole golf course in Northern Colorado. … Designed by Mike Hines Opened on July 12th, 2006 200 foot change in elevation throughout … One-of-a kind island 9th green",
+    "source_url": "https://pelicanlakeswindsor.com/pelican-falls-course/",
+    "source_label": "Pelican Lakes Golf Course, Pelican Falls Course page",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "34",
+      "12",
+      "2006",
+      "200",
+      "9"
+    ]
+  },
+  {
+    "id": "windsor-co.highland-meadows-practice",
+    "layer": "place",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Highland Meadows Golf Course in Windsor keeps a putting green and a chipping area beside its driving range, open daily until sunset except Wednesdays.",
+    "quote": "Warm up or fine-tune your swing at our full-length driving range, work on your short game in the dedicated chipping area, and sharpen your putting skills on our well-maintained putting green. … OPEN EVERYDAY UNTIL SUNSET EXCEPT WEDNESDAY DUE TO MAINTENANCE",
+    "source_url": "https://highlandmeadowsgolfcourse.com/practice-facility/",
+    "source_label": "Highland Meadows Golf Course, Practice Facility page",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The server returns 403 to a bare curl; it answers with a browser User-Agent and Accept headers."
+  },
+  {
+    "id": "windsor-co.chimney-park-turf-2026",
+    "layer": "place",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "The Town of Windsor converted Chimney Park's Aaron Cook baseball fields 2 and 3 from grass to artificial turf in spring 2026, with Field 3's turf finished April 24 and the project on both fields complete May 11, on a $2,240,000 budget.",
+    "quote": "This project will see the grass at the Chimney Park Baseball fields converted to artificial turf, lowering annual maintenance costs and improving the playing surface and overall quality of the Aaron Cook baseball fields. … Field 3 has now been fully completed, with turf installation finished as of Friday, April 24. … The artificial turf renovation project on fields 2 and 3 was fully completed on May 11. … Budget $2,240,000 … Renovations Begin … Spring 2026",
+    "source_url": "https://windsorprojectconnect.com/chimneyparkturf",
+    "source_label": "Town of Windsor, Windsor Project Connect: Chimney Park Turf Renovations (page updated June 15, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "3",
+      "24",
+      "11",
+      "2240000",
+      "2026"
+    ],
+    "notes": "The April 29 and June 2 project updates carry no year; 2026 comes from the timeline ('Spring 2026') and the page date."
+  },
+  {
+    "id": "windsor-co.whs-stadium-turf-2023",
+    "layer": "place",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Weld RE-4 School District replaced Windsor High School's stadium turf field and shock pad between May and August 2023 as a bond repair project.",
+    "quote": "Windsor High School: Replacement of the stadium turf field and shock pad … WHS Stadium Turf: May 2023 - August 2023 (complete)",
+    "source_url": "https://bond.weldre4.org/projects/repairs-replacements",
+    "source_label": "Weld RE-4 School District bond program, Repairs & Replacements",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4",
+      "2023"
+    ]
+  },
+  {
+    "id": "windsor-co.whs-stadium-turf-size",
+    "layer": "place",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "The shock-pad supplier for Windsor High School's 2023 stadium field lists it at 77,763 square feet.",
+    "quote": "Weld RE-4 School District – Windsor High School … Size: 77,763 sq ft … Installation Date: 2023",
+    "source_url": "https://www.brockusa.com/projects/weld-re-4-school-district-windsor-high-school/",
+    "source_label": "Brock USA project listing, Weld RE-4 School District – Windsor High School",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4",
+      "77763",
+      "2023"
+    ],
+    "notes": "A supplier's project page; the same listing names the designer, builder and turf maker, which pages leave out."
+  }
+]

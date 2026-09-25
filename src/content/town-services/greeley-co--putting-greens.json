@@ -1,0 +1,170 @@
+{
+  "status": "draft",
+  "town": "greeley-co",
+  "service": "putting-greens",
+  "title": "Backyard Putting Greens in Greeley, CO | NoCo Turf Co.",
+  "description": "Greeley's city courses keep three practice putting greens. At home a green goes where the street can't see it: front-yard turf is barred and fences do the rest.",
+  "h1": "A Greeley putting green goes where the street can't see it, not in the front yard.",
+  "display": {
+    "paint": "where the street can't see it"
+  },
+  "lede": "Greeley golfers have public practice greens at Highland Hills and Boomerang Links. A green at home answers to the city's development code instead: what the street can see, how tall a fence may be, and what would have to change before a front yard could hold one. Checked September 25, 2026.",
+  "answer": {
+    "question": "Can I put a putting green in my front yard in Greeley?",
+    "answer": "Not today. Greeley city staff describe artificial turf as prohibited in the front yards of houses, and in new development the code accepts turf only where public streets can't see it. A fenced backyard, or a side yard screened from the street, is where a Greeley green fits. Ask NoCo Turf Co. about a green for your yard."
+  },
+  "blocks": [
+    {
+      "kind": "golf",
+      "own": true,
+      "kicker": "Practice greens in town",
+      "h2": "Greeley's two city courses keep three practice putting greens between them.",
+      "takeaway": "They are the easiest place in Greeley to decide how fast, how big and how tilted a home green should be.",
+      "paras": [
+        "Highland Hills, a city course open since 1964, has two practice putting greens and a short game area along with its driving range, on a layout known for more than 1,300 trees and undulating terrain. Boomerang Links, the city's links-style 18-hole course open since 1991, has one large practice putting green and a smaller chipping green.",
+        "Boomerang is also home to the Mike Lee 9, which the city calls Greeley's newest short course, set up for beginners, families and kids on the SNAG (Starting New at Golf) system. Greeley Country Club, a members' club that UNC Athletics lists among its facilities, has its own putting greens and short game area.",
+        "Putt on a couple of them before settling on a design. The break you like on a practice green has to be shaped into the base of a yard green, and a chipping fringe takes more room than the putting surface alone."
+      ],
+      "layerRefs": [
+        "greeley-co.highland-hills-golf",
+        "greeley-co.boomerang-links-golf",
+        "greeley-co.mike-lee-9",
+        "greeley-co.greeley-country-club"
+      ],
+      "sources": [
+        "https://greeleyco.gov/golf/courses/highland-hills/",
+        "https://greeleyco.gov/golf/courses/boomerang-links/",
+        "https://greeleyco.gov/golf/courses/mike-lee-9-at-boomerang-links/",
+        "https://uncbears.com/facilities/greeley-country-club/1254"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Out of street view",
+      "h2": "Behind the house a 6-foot fence can screen a green; in front, no fence the code allows will.",
+      "takeaway": "Greeley's turf rule turns on what the street can see, and its fence table decides what can block the view.",
+      "paras": [
+        "In new development, Sec. 24-802 accepts artificial turf as ground cover only in areas not visible from public rights-of-way and streets, and city staff told the Planning Commission on July 14, 2026 that turf is prohibited in the front yards of houses. Side and rear fences behind the front building line can be 6 feet tall, enough to hide a green from the sidewalk.",
+        "A fence in front of the house is held to 3.5 feet, or up to 6 feet only when it is at least 75% open, like wrought iron, so a front-yard green would sit in plain view. On a corner lot the street-side yard faces a street too, and whether a green there counts as visible is a question for Greeley Planning before the design is drawn.",
+        "If an HOA covers the lot, Colorado's backyard rule for associations, printed after this section, applies on top of the city's."
+      ],
+      "layerRefs": [
+        "greeley-code-24-802-not-visible",
+        "greeley-front-yard-ban-city-summary",
+        "greeley-co.code-24-502-fences",
+        "greeley-co.code-24-502-permits",
+        "co-hoa-backyard-detached"
+      ],
+      "sources": [
+        "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH8LAST_S24-802LADE",
+        "https://greeleyco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=9205,plainText=false)",
+        "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH5REDEST_S24-502REDEST",
+        "https://leg.colorado.gov/bill_files/92307/download"
+      ]
+    },
+    {
+      "kind": "golf",
+      "own": false,
+      "kicker": "Water on the course",
+      "h2": "Boomerang Links is rebuilding its front-nine irrigation this year.",
+      "paras": [
+        "The city's golf division has started work at the Hole 4 pond at Boomerang Links: dredging the lake to hold more water, building a regional pump station that gives the Water Department more control over where water goes, and then upgrading irrigation on the front nine. The city expects the whole project to be finished in fall 2026.",
+        "Grass greens on a course need that plumbing. A synthetic green at home has no irrigation zone, which matters in a city that bills houses against a water budget; the tiers are on the [Greeley town page](/areas/greeley-co/)."
+      ],
+      "layerRefs": [
+        "greeley-co.boomerang-irrigation-2026",
+        "greeley-water-budget-rates-2026"
+      ],
+      "sources": [
+        "https://greeleyco.gov/golf/courses/boomerang-links/",
+        "https://cogy-p-001.sitecorecontenthub.cloud/api/public/content/131d971ab9564764b86d4ab2b50679d7?v=2d52460e"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Will Greeley allow front-yard putting greens soon?",
+      "a": "Not yet. A proposed change, Council Initiative 11-2023, would permit front-yard turf on houses, with trees and live plantings still required, and the city's September 22, 2026 status report listed it as awaiting a draft ordinance. Until one passes, design the green for the back of the lot."
+    },
+    {
+      "q": "Can an HOA or metro district build a putting green on common ground in Greeley?",
+      "a": "Colorado counts putting and chipping greens as functional turf, so the state ban on nonfunctional turf does not reach them. Greeley's own code still accepts artificial turf in new development only where streets can't see it, so a common-area green depends on the site plan: ask Greeley Planning."
+    },
+    {
+      "q": "Does a backyard green need a permit in Greeley?",
+      "a": "Greeley's development code does not mention putting greens; a search of Title 24 on September 25, 2026 found none. The permits it does name are for what surrounds a green: any fence or wall over six feet, and any retaining wall over four feet, needs a building permit, which matters when a green is cut into a slope."
+    }
+  ],
+  "sources": [
+    {
+      "label": "City of Greeley Golf, Highland Hills (open since 1964; two practice putting greens and a short game area)",
+      "url": "https://greeleyco.gov/golf/courses/highland-hills/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Greeley Golf, Boomerang Links (open 1991; practice putting and chipping greens; Front 9 Construction notice)",
+      "url": "https://greeleyco.gov/golf/courses/boomerang-links/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Greeley Golf, Mike Lee 9 at Boomerang Links",
+      "url": "https://greeleyco.gov/golf/courses/mike-lee-9-at-boomerang-links/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "UNC Athletics, facilities: Greeley Country Club",
+      "url": "https://uncbears.com/facilities/greeley-country-club/1254",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Greeley Municipal Code Sec. 24-802 (Ord. No. 36, 2021; codified through Ord. No. 16, 2026)",
+      "url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH8LAST_S24-802LADE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Greeley Planning Commission agenda packet, July 14, 2026: slide Artificial Turf (Council Initiative)",
+      "url": "https://greeleyco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=9205,plainText=false)",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Greeley City Council work session packet, Sept. 22, 2026: Status Report of Council Initiatives (11-2023)",
+      "url": "https://greeleyco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=9580,plainText=false)",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Greeley Municipal Code Sec. 24-502.e, residential fences and walls (Ord. No. 35, 2021)",
+      "url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH5REDEST_S24-502REDEST",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Greeley Municipal Code Title 24 on Municode, full-text search September 25, 2026",
+      "url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Greeley Water & Sewer, 2026 Rate Manual",
+      "url": "https://cogy-p-001.sitecorecontenthub.cloud/api/public/content/131d971ab9564764b86d4ab2b50679d7?v=2d52460e",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "SB23-178 signed act: C.R.S. 38-33.3-106.5(1)(i.5)",
+      "url": "https://leg.colorado.gov/bill_files/92307/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "HB25-1113 signed act: C.R.S. 37-99-102(6.5), functional artificial turf",
+      "url": "https://leg.colorado.gov/bill_files/40673/download",
+      "checked": "2026-09-24"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Any putting green you have built in Greeley: neighborhood or subdivision, month, rough size, and whether the lot sits in an HOA or metro district",
+    "Camera-original photos of a Greeley green; photos.ts has putting-green photos only from Windsor and Berthoud, and this page may not borrow them",
+    "Greens near Highland Hills, Boomerang Links or Greeley Country Club, and which HOA or design-review board approved each one",
+    "Any Greeley green on a corner lot or in a side yard, and what the city said about street visibility",
+    "Whether you want this page to say NoCo builds greens in Greeley today (services.ts: putting-greens is not confirmed yet)",
+    "Any Greeley golf-course neighborhood (around Highland Hills, Boomerang Links or Greeley Country Club) where an HOA or metro district has written rules for backyard greens, with a link to the rules"
+  ]
+}

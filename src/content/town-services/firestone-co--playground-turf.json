@@ -1,0 +1,164 @@
+{
+  "status": "draft",
+  "town": "firestone-co",
+  "service": "playground-turf",
+  "title": "Playground Turf and Play Yards in Firestone, CO | NoCo Turf Co.",
+  "description": "Firestone lets a family child care home serve up to 12 children, gives pocket-park playgrounds to HOAs and metro districts, and caps playhouses at 12 feet.",
+  "h1": "Firestone zoning allows home child care for up to 12 children and keeps the large homes apart.",
+  "display": {
+    "paint": "keeps the large homes apart"
+  },
+  "lede": "Most play turf in Firestone goes under a backyard swing set, but the Town's code also plans for home child care and for neighborhood playgrounds that HOAs and metro districts own. Each has its own rule for where play equipment sits.",
+  "answer": {
+    "question": "Can I put artificial turf under a playset in Firestone?",
+    "answer": "Yes, in the rear or side yard, with the Town's turf permit, 3 feet in from any property line and within Firestone's limits on backyard turf. In Barefoot Lakes the metro district also reviews play structures and caps them at 12 feet. Ask NoCo Turf Co. about turf under a playset in a Firestone yard."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Home child care",
+      "h2": "Six full-time and two part-time children in a small home, twelve in a large one.",
+      "paras": [
+        "Firestone's Development Code 16.3.3.G.2 permits family child care homes as an accessory use. A small one may serve no more than six full-time and two part-time children in a single-family detached house. A large one may serve no more than 12, may not sit next to or directly across the street from another large one, and must be on a street with on-street parking.",
+        "Both have to comply with Colorado's child care licensing statute and the state rules at 12 CCR 2509-8, and the Town's code adds no play-yard or surfacing standard of its own. Under climbing equipment, the state rules and the equipment maker's fall-height instructions set the surface; the [safety guides](/guides/safety/) cover how a turf system is rated."
+      ],
+      "layerRefs": [
+        "firestone-co.fdc-16.3.3-family-child-care"
+      ],
+      "sources": [
+        "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH3USRE_16.3.3ACUSST"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Barefoot Lakes",
+      "h2": "Barefoot Lakes wants swing sets 5 feet off the line and no taller than 12 feet.",
+      "paras": [
+        "The St. Vrain Lakes Metropolitan Districts review play structures, sports equipment and playhouses in Barefoot Lakes. All of them go only in the rear yard or a side yard; trampolines, swing sets and forts need at least 5 feet from the property line; and neither a play structure nor a playhouse may top 12 feet.",
+        "Turf under the set falls under the district's artificial-turf section: professional installation over a weed barrier and porous aggregate base, and infill such as silica sand or Envirofill in kid areas. The amended guidelines hold all artificial turf to 50% of the combined rear and side yard, while the July 2026 guide for residents still prints 75%, so ask the committee which it applies. It has 60 days from a complete request to decide."
+      ],
+      "layerRefs": [
+        "firestone-co.svlmd-rig-play-structures",
+        "firestone-co.svlmd-rig-turf-install",
+        "firestone-co.svlmd-rig-turf-cap",
+        "firestone-co.svlmd-design-review",
+        "firestone-co.svlmd-landscape-guide-75"
+      ],
+      "sources": [
+        "https://www.stvrainmd.live/files/5457a4faf/SVLMD+-+2026+08+07+-+Amended+%26+Restated+Residential+Improvement+Guidelines+%26+Site+Restrictions+for+Barefoot.pdf",
+        "https://www.stvrainmd.live/files/14212f700/SVLMD+-+2026+07+20+-+Barefoot+Design+Guidelines+for+Residents.pdf"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Town-wide",
+      "h2": "A playhouse under 200 square feet tops out at 12 feet, and play turf stays 3 feet in.",
+      "paras": [
+        "Firestone's Development Code 16.3.3.G.12 sets two standards for a playhouse, shed or gazebo under 200 square feet: no metal facades and no more than 12 feet tall. Turf around the play area follows the Town's turf standard, including the 3-foot living buffer between turf and any property line and no turf on slopes steeper than 5:1, which rules out a steep turf play mound.",
+        "Play turf counts toward the Town's cap on artificial turf in the rear or side yard the same as any other turf, so a play area and a lawn are measured together; the yard-wide numbers are on the [Firestone page](/areas/firestone-co/)."
+      ],
+      "layerRefs": [
+        "firestone-co.fdc-16.3.3-small-structure",
+        "firestone-co.fdc-16.6.4-buffer-slope",
+        "firestone-fdc-16.6.4-turf-cap",
+        "firestone-fdc-16.6.4-permit",
+        "firestone-co.devcode-page-rear-side-yards"
+      ],
+      "sources": [
+        "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH3USRE_16.3.3ACUSST",
+        "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+        "https://firestoneco.gov/175/Development-Code"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "Public playgrounds",
+      "h2": "Firestone's small neighborhood playgrounds belong to HOAs and metro districts.",
+      "paras": [
+        "Under Development Code 16.6.3, pocket parks of a quarter acre to 2 acres may include play equipment and are owned and maintained by an HOA or metropolitan district, built to the Town's parks master plan. That plan lists a multi-level play structure among the components a developed pocket park can pick. Neighborhood parks, at least 7 acres, may include playground equipment too; the Town owns them, and the developer, HOA or metro district maintains them until the Town accepts the construction.",
+        "The Town's 2020 inventory counted 31 Town park lands and 15 HOA parks, plus four school properties in town, among them Coal Ridge Middle, Imagine Charter and Prairie Ridge Elementary in the St. Vrain Valley district."
+      ],
+      "layerRefs": [
+        "firestone-co.fdc-16.6.3-pocket-parks",
+        "firestone-co.post-pocket-park-standards",
+        "firestone-co.fdc-16.6.3-neighborhood-parks",
+        "firestone-co.post-inventory-2020",
+        "firestone-co.post-svvsd-schools",
+        "co-hb25-1113-functional-turf",
+        "firestone-co.fdc-16.6.4-common-open-area"
+      ],
+      "sources": [
+        "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.3PAOPSPTR",
+        "https://www.firestoneco.gov/DocumentCenter/View/9085/2022-07-29-POST_Master_Plan-FINAL-Compressed",
+        "https://leg.colorado.gov/bill_files/40673/download"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does turf under a swing set need Firestone's permit?",
+      "a": "Yes. The Town's permit applies to any artificial turf installation, whatever it is for, and it is free for a single-family home."
+    },
+    {
+      "q": "How thick should the pad be under playground turf?",
+      "a": "Enough for the highest point a child can fall from. The fall rating belongs to the tested system of turf, pad and infill, so match its rated height to the tallest platform and keep the playset maker's use zone clear."
+    },
+    {
+      "q": "Can a Firestone HOA put turf in its pocket-park playground?",
+      "a": "Colorado's 2025 amendment counts playgrounds as functional artificial turf, which the state's ban in new development doesn't reach. Firestone's code lets artificial turf into common open areas only when it fits the landscape design and the Town approves, so it depends on that review: ask Firestone Planning. Not legal advice."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Firestone Development Code 16.3.3, Accessory uses and structures (codified through Ord. No. 1072, Dec. 10, 2025)",
+      "url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH3USRE_16.3.3ACUSST",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Firestone Development Code 16.6.4, Landscaping, screening, and fencing (codified through Ord. No. 1072, Dec. 10, 2025)",
+      "url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Firestone Development Code 16.6.3, Parks, open space, and trails (codified through Ord. No. 1072, Dec. 10, 2025)",
+      "url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.3PAOPSPTR",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "St. Vrain Lakes Metropolitan Districts, Amended and Restated Residential Improvement Guidelines and Site Restrictions for Barefoot (as of August 7, 2026)",
+      "url": "https://www.stvrainmd.live/files/5457a4faf/SVLMD+-+2026+08+07+-+Amended+%26+Restated+Residential+Improvement+Guidelines+%26+Site+Restrictions+for+Barefoot.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Firestone Parks, Open Space & Trails (POST) Master Plan 2020 (final PDF dated 2022-07-29)",
+      "url": "https://www.firestoneco.gov/DocumentCenter/View/9085/2022-07-29-POST_Master_Plan-FINAL-Compressed",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "HB25-1113 signed act (2025): C.R.S. 37-99-102(6.5) and 37-99-103(1), SB24-005 as amended",
+      "url": "https://leg.colorado.gov/bill_files/40673/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "St. Vrain Lakes Metropolitan Districts, Barefoot Lakes Landscape Design Guidelines, Guide for Residents (revised July 20, 2026)",
+      "url": "https://www.stvrainmd.live/files/14212f700/SVLMD+-+2026+07+20+-+Barefoot+Design+Guidelines+for+Residents.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Firestone, Development Code page (artificial turf in rear and side yards; permit required)",
+      "url": "https://firestoneco.gov/175/Development-Code",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Play areas or turf under playsets NoCo has installed in Firestone or Barefoot Lakes: month, playset height, pad used, and whether the Town permit was pulled",
+    "Camera-original photos of a Firestone play area (photos.ts use play, place in or next to Firestone); the only play photo on file is south of Windsor, so the page has no photo",
+    "Whether NoCo has done play-yard turf for a Firestone family child care home, an HOA or metro-district pocket park, or a school, with permission to name it",
+    "The shock pad NoCo uses and its rated fall height, so a fall-height section can be added from a real product sheet"
+  ]
+}

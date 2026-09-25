@@ -1,0 +1,193 @@
+{
+  "status": "draft",
+  "town": "eaton-co",
+  "service": "commercial-turf",
+  "title": "Commercial and HOA Turf in Eaton, CO | NoCo Turf Co.",
+  "description": "Eaton's landscape code doesn't list artificial turf, every permit needs an approved landscape plan, and HOA common areas water every other day.",
+  "h1": "Artificial turf isn't on Eaton's list of allowable landscape materials",
+  "display": {
+    "paint": "allowable landscape materials"
+  },
+  "lede": "Eaton's turf section borrows the state's definitions, so a field, a playground or a picnic ground on commercial or HOA land can still be turf in new work. What decides the rest is older Town code: the landscape section every permit runs through, the park and water dedications new subdivisions make, and the schedule common areas water on.",
+  "answer": {
+    "question": "Can an Eaton HOA or business install artificial turf?",
+    "answer": "Functional turf, yes. Eaton's turf section takes the state's definitions, which keep playgrounds, sports fields, picnic grounds and parts of parks allowed on new or redeveloped commercial and HOA land. The Town still approves a landscape plan before any building, construction or grading permit. Not legal advice. NoCo Turf Co. can scope commercial and HOA turf for an Eaton site."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Section 7-2-33",
+      "h2": "Eaton's allowable landscape materials don't name artificial turf.",
+      "paras": [
+        "Every lot in every zone that isn't covered by impervious materials must be landscaped. The code's list of allowable materials runs to trees, shrubs, lawns, flower beds and groundcover, natural rock outcroppings, and decorative elements such as walks, decks, terraces and water features, which may not take up more than 20% of a landscaped area. It asks for native or low-water plants wherever possible.",
+        "No building, construction or grading permit is issued without a landscape plan approved by the Town Board or its designee, and dead plant material has to be replaced within 30 days. Parking lots carry their own minimum: 5% landscaped, with a tree for every 8 spaces.",
+        "Where a functional turf area fits in that list, the section doesn't say. It depends on the plan, so ask Eaton Planning before the landscape plan is drawn."
+      ],
+      "layerRefs": [
+        "eaton-co.code-7-2-33-landscaping",
+        "eaton-co.code-parking-and-coverage"
+      ],
+      "sources": [
+        "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIIPLZORE_SIIZOOR_ARTIIIGEDEST_S7-2-33LARE",
+        "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIIPLZORE_SIIZOOR_ARTIIIGEDEST_S7-2-32PALOLA"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Section 7-13-1",
+      "h2": "Eaton's turf definitions move with state law.",
+      "paras": [
+        "Not legal advice. Eaton's turf section doesn't write its own definitions. It adopts the state statute's meanings of nonfunctional turf, nonfunctional artificial turf, new development and redevelopment as that statute may be amended, and its list of covered property updates the same way. Colorado's 2025 amendment, which keeps playgrounds, sports fields, picnic grounds and parts of parks allowed as functional turf, reaches Eaton through that wording.",
+        "One date is Eaton's to watch: from January 1, 2028, the section's ban also applies to any portion of covered property that includes multifamily housing."
+      ],
+      "layerRefs": [
+        "eaton-co.code-7-13-1-by-reference",
+        "co-hb25-1113-functional-turf",
+        "co-sb24-005-redevelopment",
+        "co-sb24-005-maintain-existing"
+      ],
+      "sources": [
+        "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIIPLZORE_SXIIINOTUNOARTUINPLSP",
+        "https://leg.colorado.gov/bill_files/40673/download",
+        "https://leg.colorado.gov/bill_files/45372/download"
+      ]
+    },
+    {
+      "kind": "utility",
+      "own": true,
+      "kicker": "Common-area watering",
+      "h2": "HOA common areas in Eaton water every other day.",
+      "paras": [
+        "The Town's posted watering rules have an HOA irrigate its common areas every other day, on potable or nonpotable water, unless the Town Administrator approves another schedule the HOA applies for. The 10 a.m. to 6 p.m. watering ban on the same page is written for residential customers, and the Town's nonpotable systems run from April 15 to October 15.",
+        "Most of the Town's own parks are on nonpotable water too: the 2024 parks plan lists nonpotable well water for City Park, Maplewood Park and Eaton Commons Park, nonpotable water for the park north of Collins Street, and the Town water system for Hawkstone Park. A functional turf area inside a common area drops out of that rotation; the grass around it stays on it."
+      ],
+      "layerRefs": [
+        "eaton-co.watering-rules",
+        "eaton-co.parks-plan-irrigation"
+      ],
+      "sources": [
+        "https://web.archive.org/web/20260429165559/https://www.eatonco.org/water-restrictions",
+        "https://web.archive.org/web/20240628215425/http://www.eatonco.org/media/6216"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Dedications",
+      "h2": "New Eaton subdivisions give land for parks, and water to irrigate it.",
+      "paras": [
+        "New residential developments in Eaton dedicate at least 8% of their gross acreage as public land, to the Town or to an HOA, and new commercial or industrial projects may be asked for 8% too. The water code then asks for 2.5 acre-feet of water per acre of irrigated park, open space or recreational use, and water rights enough to irrigate any park land dedicated to the Town.",
+        "Whether a synthetic field on dedicated land lowers that water dedication, the code doesn't say. It depends on how the Town classifies the field; ask Eaton Planning early, while the park is still a line on the plat."
+      ],
+      "layerRefs": [
+        "eaton-co.code-7-2-46-park-land",
+        "eaton-co.code-9-6-8-park-water"
+      ],
+      "sources": [
+        "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIIPLZORE_SIIZOOR_ARTVADPR_S7-2-46FEDE",
+        "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHIXWASE_SVIWARIDE"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "Fields in town",
+      "h2": "Eaton High School plays on synthetic turf; the Town's practice fields are grass.",
+      "paras": [
+        "Eaton High School's field is 89,982 square feet of synthetic turf, installed in 2022 over a shock pad, according to the pad maker's project list.",
+        "The Eaton Area Park and Recreation District's athletic complex has four baseball fields, two batting cages and one large multipurpose field, all for rent, and its campus allows no dogs. Eaton Commons Park's two practice ball fields and its youth football and soccer practice space are grass on a 14-acre Town park."
+      ],
+      "layerRefs": [
+        "eaton-co.ehs-synthetic-field",
+        "eaton-co.eaprd-athletic-complex",
+        "eaton-co.eaton-commons-park"
+      ],
+      "sources": [
+        "https://www.brockusa.com/projects/eaton-school-district-eaton-high-school/",
+        "https://www.eaprd.com/eaton-area-athletic-complex",
+        "https://web.archive.org/web/20240628215425/http://www.eatonco.org/media/6216"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does the ban reach turf an Eaton HOA already has?",
+      "a": "It applies to new development and redevelopment. Colorado's law doesn't stop a local government from letting turf installed before January 1, 2026 be maintained; whether a full replacement counts as maintenance hasn't been tested, so ask Eaton Planning. Not legal advice."
+    },
+    {
+      "q": "What counts as redevelopment?",
+      "a": "Under the state definition Eaton adopts, a project that needs a building or landscaping permit, plan check or design review and disturbs more than 50% of the landscape area. Not legal advice."
+    },
+    {
+      "q": "How much of an Eaton commercial site can be paved?",
+      "a": "The C-1, C-2, HC and R-MU districts cap impervious coverage at 80%, and C-1 and R-MU sites need at least 20% landscaped. In parking lots, a quarter of the required trees must be mature and the rest at least 15 gallons. The [Eaton page](/areas/eaton-co/) covers the Town's turf ordinance itself."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Eaton Municipal Code Sec. 7-2-33, Landscaping requirements (Ord. 480, 2000; codified through Ord. 668, Nov. 20, 2025)",
+      "url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIIPLZORE_SIIZOOR_ARTIIIGEDEST_S7-2-33LARE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Eaton Municipal Code Sec. 7-2-32, Parking lot landscaping, and commercial district dimensional requirements",
+      "url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIIPLZORE_SIIZOOR_ARTIIIGEDEST_S7-2-32PALOLA",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Eaton Municipal Code Secs. 7-13-1 and 7-13-2 (Ord. 668, 2025)",
+      "url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIIPLZORE_SXIIINOTUNOARTUINPLSP",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "HB25-1113 signed act: C.R.S. 37-99-102(6.5), functional artificial turf",
+      "url": "https://leg.colorado.gov/bill_files/40673/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "SB24-005 signed act: C.R.S. 37-99-102 and 37-99-103",
+      "url": "https://leg.colorado.gov/bill_files/45372/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Eaton, Water Restrictions page (Resolutions 2019-07 and 2019-08), Internet Archive capture of April 29, 2026",
+      "url": "https://web.archive.org/web/20260429165559/https://www.eatonco.org/water-restrictions",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Eaton, 2024 Parks Master Plan (adopted June 13, 2024), Internet Archive copy",
+      "url": "https://web.archive.org/web/20240628215425/http://www.eatonco.org/media/6216",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Eaton Municipal Code Sec. 7-2-46(d), Public land dedication",
+      "url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIIPLZORE_SIIZOOR_ARTVADPR_S7-2-46FEDE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Eaton Municipal Code Secs. 9-6-8 and 9-6-9, Water rights dedication (Ord. 635, 2023)",
+      "url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHIXWASE_SVIWARIDE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Brock USA project list: Eaton School District, Eaton High School (89,982 sq ft, 2022)",
+      "url": "https://www.brockusa.com/projects/eaton-school-district-eaton-high-school/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Eaton Area Park and Recreation District, Eaton Area Athletic Complex",
+      "url": "https://www.eaprd.com/eaton-area-athletic-complex",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Commercial, HOA or sports turf you have installed or bid in Eaton: site, month, size, what the area is used for",
+    "Camera-original photos of your own commercial, HOA or sports job (no photo in photos.ts carries the commercial use yet; the gate needs one)",
+    "HOA boards or managers in Eaton you have worked with (Governor's Ranch, Hawkstone, Eaton Commons, Aspen Meadows), and whether any Eaton landscape plan with turf has gone through the Town Board or its designee",
+    "Any contact with Eaton School District RE-2 or the Eaton Area Park and Recreation District about fields",
+    "Confirmation that NoCo serves Eaton (the town page is still a draft)"
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "status": "draft",
+  "town": "dacono-co",
+  "service": "playground-turf",
+  "title": "Playground Turf in Dacono, CO | NoCo Turf Co.",
+  "description": "New Dacono neighborhoods must dedicate park land, and their pocket and neighborhood parks belong to HOAs or metro districts. What that means for play-area turf.",
+  "h1": "Dacono's code puts the playgrounds of its new neighborhoods in HOA and metro district hands.",
+  "display": {
+    "paint": "HOA and metro district hands"
+  },
+  "lede": "Since 2024, every new residential subdivision in Dacono owes at least 10 acres of parks, open space and trails per 1,000 residents, or cash in lieu, and the pocket and neighborhood parks where play equipment goes are HOA or metro district property. Ordinance 1016 then kept turf on that land to spaces people use, with playgrounds first on its list.",
+  "answer": {
+    "question": "Can an HOA in Dacono put artificial turf under a playground?",
+    "answer": "As a rule, yes. Ordinance 1016, adopted May 11, 2026, lets turf and artificial turf onto common-interest land only in functional recreational areas, and it names playgrounds first. A new park also follows the design plan the City approved with the plat, so ask Dacono Planning before changing one. NoCo Turf Co. installs playground turf in Dacono, Colorado."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Park dedication, 2024",
+      "h2": "Every new Dacono subdivision owes park land, and the small parks are the HOA's to hold.",
+      "paras": [
+        "Section 17-251, rewritten by Ordinance 967 in 2024, asks each residential subdivision for at least 10 acres of park land, open space and trails per 1,000 residents, split as a rule into 2.5 acres of pocket parks, 5 of neighborhood parks and 2.5 of open space and trails, or cash in lieu. The developer improves the pocket parks and trails it dedicates.",
+        "Section 17-253 sizes the two park types. Pocket parks run from a quarter acre up to two acres, sit within a quarter mile of the homes they serve and may hold play equipment; neighborhood parks need at least seven acres unless the City Council approves less, and may carry playground equipment, small court games and playing fields. The code assigns both to an HOA or a metro district rather than the City."
+      ],
+      "layerRefs": [
+        "dacono-co.code-17-251-park-dedication",
+        "dacono-co.code-17-253-park-types"
+      ],
+      "sources": [
+        "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH17SU_ART14PAOPSPTR_S17-251PAOPSPTRPUAPAMDE",
+        "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH17SU_ART14PAOPSPTR"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Ord. 1016, 2026",
+      "h2": "On that common land, turf is allowed where children play and nowhere decorative.",
+      "paras": [
+        "Ordinance 1016 limits turf and artificial turf on common-interest community property to functional recreational use areas and lists playgrounds first, ahead of sports fields and picnic areas. Turf kept for looks, in medians, rights-of-way, parking lots or decorative beds, counts as nonfunctional and is barred there.",
+        "The same ordinance tells subdivision reviewers that no approval authorizes nonfunctional turf, so a play area's turf has to stay inside the play area drawn on the approved plan. Artificial turf still can't meet the landscape article's requirements except where that article expressly permits it; how Dacono Planning applies that to a park is worth asking before the design is final."
+      ],
+      "layerRefs": [
+        "dacono-co.ord-1016-adopted",
+        "dacono-co.ord-1016-functional-only",
+        "dacono-co.ord-1016-definitions",
+        "dacono-co.ord-1016-subdivisions-irrigation"
+      ],
+      "sources": [
+        "https://www.daconoco.gov/AgendaCenter/ViewFile/Minutes/_05112026-528",
+        "https://www.daconoco.gov/AgendaCenter/ViewFile/Agenda/_05112026-528?packet=true"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Day care zoning",
+      "h2": "Dacono's R-2 zone lists day care centers as a permitted use, and the R-1 district ties them to a state license.",
+      "paras": [
+        "Day care centers appear among the permitted principal uses of the R-2 district. The R-1 single-family district's list of permitted principal uses carries the licensing rule: operators certify their state license to the City Clerk, who issues a local permit that renews on the same date. R-1 also allows nursery schools as an accessory use when they follow state rules.",
+        "None of those sections speaks to the surface of the play yard. What goes under a climber at a Dacono center comes from Colorado's child care rules and the play set's own use-zone guidance; the [safety guides](/guides/safety/) cover fall heights and pads."
+      ],
+      "layerRefs": [
+        "dacono-co.code-day-care-zoning"
+      ],
+      "sources": [
+        "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH16ZO_ART3REDI",
+        "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH16ZO_ART4REDI_S16-130PEUS",
+        "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH16ZO_ART2DE_S16-32DACACE"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "City parks",
+      "h2": "Dacono's own parks are the City's to keep up, playground equipment included.",
+      "paras": [
+        "Under the agreement adopted on December 8, 2025, Dacono maintains the capital assets of its parks, from fences, irrigation and lighting to playground equipment, while relying on the Carbon Valley Parks and Recreation District for programs and scheduling. The splash pad at Clem Dufour Park, open from Memorial Day to Labor Day, sits outside that arrangement: the City doesn't rent or reserve it, so the District can't either."
+      ],
+      "layerRefs": [
+        "dacono-co.cvprd-iga-2025",
+        "dacono-co.splash-pad"
+      ],
+      "sources": [
+        "https://www.daconoco.gov/AgendaCenter/ViewFile/Item/4035?fileID=8455",
+        "https://www.daconoco.gov/1100/Splash-Pad"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Who designs the playground in a new Dacono park?",
+      "a": "The subdivider proposes it: the preliminary plat carries a master design plan listing each park's amenities, the City coordinates and must approve it, and the final plat turns it into construction documents built to City standards."
+    },
+    {
+      "q": "Do new apartment complexes in Dacono have to add play space?",
+      "a": "They owe recreational amenities scaled to their size: one at 10 units, two at 100 and three at 200. Two tot lots count as one choice on the City's list, alongside a pool, a clubhouse, a sport court, picnic areas and fenced pet areas."
+    },
+    {
+      "q": "Which school district serves a Dacono address?",
+      "a": "It depends on the address: Dacono lies within two districts, St. Vrain Valley and Weld County RE-8. A school playground or field belongs to the district that owns the campus, so turf questions there go to that district."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Dacono Municipal Code Sec. 17-251, Parks, open space and trails dedication (Ord. No. 967, 2024)",
+      "url": "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH17SU_ART14PAOPSPTR_S17-251PAOPSPTRPUAPAMDE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Dacono Municipal Code Chapter 17, Article 14: Secs. 17-252 and 17-253, pocket and neighborhood parks",
+      "url": "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH17SU_ART14PAOPSPTR",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Dacono City Council minutes, May 11, 2026, item D (Ordinance 1016 adopted, unanimous)",
+      "url": "https://www.daconoco.gov/AgendaCenter/ViewFile/Minutes/_05112026-528",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Dacono City Council packet, May 11, 2026, item GB-D: Ordinance 1016 text (Secs. 16-43.5, 16-61.5, 16-656(d), 16-657(g), 17-250(b))",
+      "url": "https://www.daconoco.gov/AgendaCenter/ViewFile/Agenda/_05112026-528?packet=true",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Dacono Municipal Code Chapter 16, Article 3 (R-1 district): Secs. 16-100 and 16-109",
+      "url": "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH16ZO_ART3REDI",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Dacono Municipal Code Sec. 16-130, R-2 district permitted uses",
+      "url": "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH16ZO_ART4REDI_S16-130PEUS",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Dacono Municipal Code Sec. 16-32, Day care center (definition)",
+      "url": "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH16ZO_ART2DE_S16-32DACACE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Dacono Resolution 25-74 and Intergovernmental Agreement with the Carbon Valley Parks and Recreation District, December 8, 2025",
+      "url": "https://www.daconoco.gov/AgendaCenter/ViewFile/Item/4035?fileID=8455",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Dacono, Splash Pad page (Clem Dufour Park)",
+      "url": "https://www.daconoco.gov/1100/Splash-Pad",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Dacono Municipal Code Sec. 16-813(j)(1), multifamily recreational amenities at 10, 100 and 200 units (Ord. No. 963, 2024)",
+      "url": "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH16ZO_ART31DESTREDE_S16-813MUDEST",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Dacono, Education page (St. Vrain Valley and Weld County RE-8 school districts)",
+      "url": "https://www.daconoco.gov/881/Education",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Play areas NoCo has turfed in Dacono (backyard, HOA pocket park, day care): month, rough size and the height of the tallest platform",
+    "Camera-original photos of a Dacono play area for src/data/photos.ts (use play); the playset photo on file was taken south of Windsor",
+    "The shock pad used under play turf and its rated fall height, from the maker's data sheet, if fall-height figures should appear",
+    "Any Dacono HOA or metro district that has asked about turf in a pocket-park playground since Ordinance 1016, and what Planning said"
+  ]
+}

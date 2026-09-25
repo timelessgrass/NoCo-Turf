@@ -1,0 +1,183 @@
+{
+  "status": "draft",
+  "town": "mead-co",
+  "service": "putting-greens",
+  "title": "Backyard Putting Greens in Mead, CO | NoCo Turf Co.",
+  "description": "Mead caps lot coverage at 50% in RSF-4 and counts impervious surface, but never says if a synthetic green is one. Golf is 5 miles off, in Longmont or Johnstown.",
+  "h1": "In Mead's RSF-4 district, buildings and impervious surfaces may cover half the lot.",
+  "display": {
+    "paint": "half the lot"
+  },
+  "lede": "Mead measures lot coverage by impervious surface and its code never says whether a synthetic putting green is one. The town has no golf course of its own, so the plat and a question for the Town come before the first cup is cut.",
+  "answer": {
+    "question": "Does a backyard putting green need Town approval in Mead?",
+    "answer": "Not a landscape plan: Mead doesn't require one with a single-family building permit, and its code has no artificial-turf provision. Lot coverage is the open question, because Mead counts impervious surfaces toward it. NoCo Turf Co. builds backyard putting greens in Mead, Colorado. It depends on your lot, so ask Mead Planning."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Lot coverage",
+      "h2": "Mead counts buildings and other impervious surfaces toward lot coverage, capped at 50% in RSF-4.",
+      "takeaway": "Whether a synthetic green is an impervious surface is the question Mead's code leaves open.",
+      "paras": [
+        "Section 16-3-90(f) calculates lot coverage as the square footage of impervious cover divided by the square footage of the lot. Table 3-3 caps it at 50% in the RSF-4 district, 70% in RMF-8 and 75% in RMF-14, and calls those base standards that other rules or site conditions can tighten.",
+        "The code doesn't define impervious surface or mention artificial turf, so whether a green over a compacted base counts toward the cap is not settled. Mead's administrative relief rules let the Community Development Director raise or lower a lot-coverage limit by up to 10%. It depends on the lot and its approvals, so ask Mead Planning with your plat before the green is laid out."
+      ],
+      "layerRefs": [
+        "mead-co.code-16-3-90-lot-coverage",
+        "mead-co.code-16-3-80-lot-coverage-caps",
+        "mead-co.code-16-3-150-coverage-relief"
+      ],
+      "sources": [
+        "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH16LAUSCO_ARTIIIZO_S16-3-90MEEX",
+        "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH16LAUSCO_ARTIIIZO_S16-3-80DEDIST",
+        "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH16LAUSCO_ARTIIIZO_S16-3-150ADRE"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "No landscape plan",
+      "h2": "A single-family building permit in Mead needs no landscape plan, and the code's landscaping means living plants.",
+      "paras": [
+        "Section 16-2-150 exempts building permits for individual single-family homes from landscape plans, while asking that all landscaping in town follow the intent of its rules. The code defines landscaping as living plants, turf grasses included, plus features such as walkways, fences and fountains; artificial turf is not named, and the online code, current to Ord. No. 1075 of April 2025, has no artificial-turf provision.",
+        "What a backyard green does meet is the HOA's or metro district's design guidelines and the plat. Mead keeps accessory structures to their district's setbacks and off any recorded easement, which matters once a green comes with a retaining wall, lighting or a shade structure."
+      ],
+      "layerRefs": [
+        "mead-co.code-16-2-150-no-sf-landscape-plan",
+        "mead-co.code-16-1-150-landscaping-definition",
+        "mead-code-no-turf-provision",
+        "co-hoa-backyard-detached",
+        "mead-co.code-16-3-60-accessory-setbacks",
+        "mead-co.code-16-2-150-irrigation"
+      ],
+      "sources": [
+        "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH16LAUSCO_ARTIICODEDEST_S16-2-150LADE",
+        "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH16LAUSCO_ARTIGEPR_S16-1-150DE",
+        "https://library.municode.com/co/mead/codes/municipal_code",
+        "https://leg.colorado.gov/bill_files/92307/download",
+        "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH16LAUSCO_ARTIIIZO_S16-3-60ACUS"
+      ]
+    },
+    {
+      "kind": "golf",
+      "own": true,
+      "kicker": "Golf near Mead",
+      "h2": "Mead's parks have disc golf, not golf; Ute Creek and Bella Ridge sit about 5 miles away.",
+      "paras": [
+        "None of the nine park sites on the Town's 2025 park list is a golf course, and the Town's parks page points to disc golf at Ames Park. Two 18-hole courses lie about 5 miles from central Mead: the City of Longmont's Ute Creek Golf Course to the southwest, a municipal course that opened in 1997, and Bella Ridge Golf Club to the north on Weld County Road 44 in Johnstown, a par-72 course. Bella Ridge's practice area has two putting greens, one of them 15,000 square feet.",
+        "Residents have asked for golf closer in. In the Town's June to July 2025 park-plan questionnaire, 23 respondents (11.7%) picked permanent game facilities, a mini golf or putting hole among them, as a park amenity Mead needs, and one wrote in a driving range or golf course. The [putting green guides](/guides/putting-greens/) cover how a backyard green is built to roll."
+      ],
+      "layerRefs": [
+        "mead-co.park-list-2025",
+        "mead-co.ames-disc-golf",
+        "mead-co.ute-creek-golf",
+        "mead-co.bella-ridge-golf",
+        "mead-co.bella-ridge-practice-green",
+        "mead-co.putting-hole-questionnaire"
+      ],
+      "sources": [
+        "https://web.archive.org/web/20250409215707/https://www.townofmead.org/parksites",
+        "https://web.archive.org/web/20250409215914/https://www.townofmead.org/parksandrec",
+        "https://longmontcolorado.gov/facility/ute-creek-golf-course/",
+        "https://www.bellaridgegolf.com/golf/golf-course/",
+        "https://www.bellaridgegolf.com/golf/practice-facility/",
+        "https://www.meadinmotion.com/Customer/File/Full/fcc4839d-07c8-45b6-b0d0-80b971518ad4"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does Mead's code say anything about sprinklers around a green?",
+      "a": "Yes, for the lawn around it. Mead's landscape rules require moisture sensors on every automatic irrigation system and list turf selection that minimizes bluegrass among their water-saving principles. A synthetic green takes no irrigation, but the beds and grass beside it still fall under those rules."
+    },
+    {
+      "q": "Does swapping lawn for a green lower a Mead water bill?",
+      "a": "Only by the water that patch of lawn used, since a synthetic green takes no irrigation. The Mead town page covers the water district's rates and allotments; check your bill to confirm your provider."
+    },
+    {
+      "q": "Does a ranch-style house in Mead get more room for a green?",
+      "a": "In the RSF-4 district, a note to Table 3-3 raises a ranch-style home's lot coverage cap from 50% to 60%. Whether the green counts toward either number is still the open question, so bring the plat to Mead Planning."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Mead Municipal Code Sec. 16-3-90, measurements and exceptions (codified through Ord. No. 1075, April 14, 2025)",
+      "url": "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH16LAUSCO_ARTIIIZO_S16-3-90MEEX",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Mead Municipal Code Sec. 16-3-80, Table 3-3 density and dimensional standards (codified through Ord. No. 1075, April 14, 2025)",
+      "url": "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH16LAUSCO_ARTIIIZO_S16-3-80DEDIST",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Mead Municipal Code Sec. 16-3-150, administrative relief (codified through Ord. No. 1075, April 14, 2025)",
+      "url": "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH16LAUSCO_ARTIIIZO_S16-3-150ADRE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Mead Municipal Code Sec. 16-2-150, landscape design (codified through Ord. No. 1075, April 14, 2025)",
+      "url": "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH16LAUSCO_ARTIICODEDEST_S16-2-150LADE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Mead Municipal Code Sec. 16-1-150, definitions (codified through Ord. No. 1075, April 14, 2025)",
+      "url": "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH16LAUSCO_ARTIGEPR_S16-1-150DE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Mead Municipal Code on Municode (codified through Ord. No. 1075, April 14, 2025): no artificial-turf provision",
+      "url": "https://library.municode.com/co/mead/codes/municipal_code",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "C.R.S. 38-33.3-106.5(1)(i) and (i.5), as amended and added by SB23-178 (signed act)",
+      "url": "https://leg.colorado.gov/bill_files/92307/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Mead, Park Sites page (Internet Archive copy of April 9, 2025; the live site blocks automated reading)",
+      "url": "https://web.archive.org/web/20250409215707/https://www.townofmead.org/parksites",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Mead, Parks and Recreation page (Internet Archive copy of April 9, 2025)",
+      "url": "https://web.archive.org/web/20250409215914/https://www.townofmead.org/parksandrec",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Longmont, Ute Creek Golf Course facility page",
+      "url": "https://longmontcolorado.gov/facility/ute-creek-golf-course/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Mead, Mead in Motion Phase 1 Engagement Summary and Full Results Appendix (Questionnaire #1, June 2 to July 7, 2025, 197 answers to Question 9)",
+      "url": "https://www.meadinmotion.com/Customer/File/Full/fcc4839d-07c8-45b6-b0d0-80b971518ad4",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Mead Municipal Code Sec. 16-3-60, accessory uses and home occupations (codified through Ord. No. 1075, April 14, 2025)",
+      "url": "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH16LAUSCO_ARTIIIZO_S16-3-60ACUS",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Bella Ridge Golf Club, Golf Course page (Johnstown)",
+      "url": "https://www.bellaridgegolf.com/golf/golf-course/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Bella Ridge Golf Club, Practice Facility page (Johnstown)",
+      "url": "https://www.bellaridgegolf.com/golf/practice-facility/",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Backyard putting greens you have built in Mead: subdivision, month, size, number of cups",
+    "Camera-original photos of a Mead green for src/data/photos.ts with use \"putting-green\" (the Windsor and Berthoud greens cannot stand in for Mead)",
+    "Whether Mead Planning or an HOA has ever told you how a green counts toward lot coverage, and the answer",
+    "Mead HOAs or metro districts whose design review you have been through for a green"
+  ]
+}

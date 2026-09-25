@@ -1,0 +1,144 @@
+{
+  "status": "draft",
+  "town": "frederick-co",
+  "service": "putting-greens",
+  "title": "Backyard Putting Greens in Frederick, CO | NoCo Turf Co.",
+  "description": "Frederick's 2026 code lists a golf course's putting greens as functional artificial turf. Where a backyard green fits, and the Town's Bella Rosa course.",
+  "h1": "Frederick's 2026 code lists a golf course's putting green as functional artificial turf; a backyard green isn't named.",
+  "display": {
+    "paint": "a backyard green isn't named"
+  },
+  "lede": "Frederick replaced its land use code on June 1, 2026. Its landscaping section permits functional artificial turf only where the code's definition fits, and that definition lists chipping and putting greens. How it reaches a green behind an existing house is a question for Frederick Planning.",
+  "answer": {
+    "question": "Can I put an artificial putting green in my Frederick backyard?",
+    "answer": "It depends on how Frederick Planning reads its 2026 code. Since June 1, 2026, the code permits functional artificial turf only in areas its definition covers, and that definition names chipping and putting greens as part of a golf course's playing area, not a backyard. Ask Planning about your lot before building. NoCo Turf Co. can talk through a green for a Frederick yard."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Land Use Code, 2026",
+      "h2": "Since June 1, 2026, Frederick permits only functional artificial turf, and its definition lists putting greens.",
+      "takeaway": "The list places greens inside a golf course's playing area, so whether a backyard green counts is a reading of the code, not a line in it.",
+      "paras": [
+        "Section 16-4-80 of the new code says functional artificial turf shall only be permitted in areas that fit the code's definition. That definition, in Section 16-13-30, covers artificial turf in a recreational use area or other space regularly used for civic, community or recreational purposes, and names playgrounds, sports fields, picnic grounds, amphitheaters, portions of parks and the playing area of a golf course, down to the chipping and putting green.",
+        "A green behind a house reads like a recreational use area, but the code never says so. The same section also says water conservation does not include nonfunctional artificial turf, except in residential development of 12 units or fewer. It depends on how the Town reads those lines together for your lot, so ask Frederick Planning before any base goes in. Not legal advice."
+      ],
+      "layerRefs": [
+        "frederick-co.luc-2026-artificial-turf-rule",
+        "frederick-co.luc-2026-functional-artificial-turf-defined"
+      ],
+      "sources": [
+        "https://www.frederickco.gov/DocumentCenter/View/33088/2026-Land-Use-Code",
+        "https://frederickco.gov/1043/Land-Use-Code"
+      ]
+    },
+    {
+      "kind": "golf",
+      "own": true,
+      "kicker": "Bella Rosa Golf Course",
+      "h2": "The Town runs a 9-hole course with its own practice putting green.",
+      "paras": [
+        "Bella Rosa Golf Course is run by the Golf Division of Frederick's Parks and Open Space Department, which also programs recreation at the course and the Frederick Recreation Area. It is a 9-hole regulation course with undulating greens, and it keeps a driving range, a putting green and a chipping area for practice.",
+        "A few minutes on that practice green is a quick way to settle how fast and how curved you want a green at home to roll, before anyone draws one."
+      ],
+      "layerRefs": [
+        "frederick-co.bella-rosa-golf-division",
+        "frederick-co.bella-rosa-practice-areas"
+      ],
+      "sources": [
+        "https://www.frederickco.gov/972/Parks-and-Open-Space",
+        "https://bellarosagolf.com/"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Grading and runoff",
+      "h2": "Break shaped into a Frederick green must leave the lot draining the way its grading plan says.",
+      "takeaway": "Frederick's drainage rule names artificial turf outright.",
+      "paras": [
+        "The 2026 code says landscaping improvements, including any artificial turf, shall not alter the drainage pattern or the amount of stormwater runoff set out in the lot's approved grading plan, and where no plan was required, shall not alter the existing pattern. A green gets its break from mounds, tiers and slopes built into the base, and reshaping ground that way can change where a yard's water goes.",
+        "Pitch the green's slopes the way the yard already sheds water, leave any swale along a side lot line open, and have the lot's approved grading plan in hand if the builder filed one."
+      ],
+      "layerRefs": [
+        "frederick-co.luc-2026-turf-drainage"
+      ],
+      "sources": [
+        "https://www.frederickco.gov/DocumentCenter/View/33088/2026-Land-Use-Code"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Front, side, back",
+      "h2": "The code's single-family yard list covers front and side yards and says nothing either way about backyards.",
+      "paras": [
+        "For single-dwelling, paired-home and multi-plex lots, the 2026 code says front yards shall be landscaped to its site standards, counts both street sides of a corner lot as front yards, and requires no landscaping in side yards. Those standards ask every distinct landscaped area for at least 50% living plant coverage at maturity, with no more than 50% in nonliving material such as mulch and rock, so a front-yard green would count against that nonliving half.",
+        "A single-family building permit needs no landscape plan, but the code says single-family landscaping still has to meet the section's applicable requirements, including the 50% living-coverage rule for every distinct landscaped area, and renovated landscaping that needs irrigation must comply. The yard list doesn't exempt backyards; it just doesn't name them. Covenants are a separate layer: the Colorado rule for HOAs and metro districts follows this section."
+      ],
+      "layerRefs": [
+        "frederick-co.luc-2026-living-coverage-yards",
+        "frederick-co.luc-2026-landscaping-applicability",
+        "co-special-district-backyard"
+      ],
+      "sources": [
+        "https://www.frederickco.gov/DocumentCenter/View/33088/2026-Land-Use-Code",
+        "https://leg.colorado.gov/bill_files/92307/download"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "How tall can a net or fence around a backyard green be?",
+      "a": "Side and rear fences stop at 7 feet, but the 2026 code allows up to 15 feet around a recreational court or any other similar recreational area. Whether a chipping net around a green counts as one is a question for Frederick Planning."
+    },
+    {
+      "q": "Does a backyard putting green need a permit in Frederick?",
+      "a": "The 2026 code says a single-family building permit needs no landscape plan, hydrozone plan or irrigation plan. It doesn't say whether a green needs other review, which can turn on the lot's grading plan, so ask Frederick Planning."
+    },
+    {
+      "q": "What should I bring when I ask Frederick Planning about a green?",
+      "a": "The lot's approved grading plan if there is one, a sketch placing the green against the house and property lines, and a note on any sprinkler zones being removed or changed, since renovated landscaping that needs irrigation must meet the code."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Frederick Land Use Code (2026, effective June 1, 2026), full code PDF: Sec. 16-4-80 Landscaping and Sec. 16-13-30 Terms defined",
+      "url": "https://www.frederickco.gov/DocumentCenter/View/33088/2026-Land-Use-Code",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Frederick, Land Use Code page (updated code in effect June 1, 2026)",
+      "url": "https://frederickco.gov/1043/Land-Use-Code",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Frederick Land Use Code (2026) Article 4 PDF, Sec. 16-4-90.E.4: 7 feet in side and rear yards, 15 feet around a recreational court or similar recreational area",
+      "url": "https://www.frederickco.gov/DocumentCenter/View/33070/Article-4",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Frederick, Parks and Open Space Department (Golf Division, Bella Rosa Golf Course)",
+      "url": "https://www.frederickco.gov/972/Parks-and-Open-Space",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Bella Rosa Golf Course home page (9-hole regulation course; driving range, putting green, chipping area; tee times, annual passes)",
+      "url": "https://bellarosagolf.com/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "C.R.S. 37-60-126(11)(a.5) and 38-33.3-106.5, added by SB23-178 (signed act)",
+      "url": "https://leg.colorado.gov/bill_files/92307/download",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Backyard putting greens NoCo has built in Frederick: month, rough size, neighborhood, and whether Frederick Planning, an HOA or a metro district reviewed it",
+    "Any written answer from Frederick Planning on whether a backyard putting green counts as functional artificial turf under Land Use Code Sec. 16-4-80 (2026 code, effective June 1, 2026)",
+    "Camera-original photos of a putting green in or next to Frederick for src/data/photos.ts (use putting-green); the greens on file are near Windsor and Berthoud, so none is used here",
+    "Frederick HOAs or metro districts whose design review has approved a backyard green, named only with consent"
+  ]
+}

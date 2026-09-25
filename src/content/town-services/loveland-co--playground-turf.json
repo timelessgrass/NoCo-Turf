@@ -1,0 +1,194 @@
+{
+  "status": "draft",
+  "town": "loveland-co",
+  "service": "playground-turf",
+  "title": "Playground Turf in Loveland, CO | NoCo Turf Co.",
+  "description": "Loveland's code counts playground equipment as a structure, requires play land in new subdivisions and names playgrounds as functional turf. What that means.",
+  "h1": "Loveland's development code counts playground equipment as a structure.",
+  "display": {
+    "paint": "playground equipment as a structure"
+  },
+  "lede": "Before any turf goes down, a Loveland play area meets three parts of the city's code: the definition of a structure, the recreation land new subdivisions owe, and the 2026 rules for common ground. Home child care and the city's first universal access playground round out the picture.",
+  "answer": {
+    "question": "Does a backyard playset in Loveland have to be set back from the lot line?",
+    "answer": "Often, yes. Loveland's code counts playground equipment as a structure, and accessory structures sit five feet from interior side and alley lot lines, more at the rear for tall ones. A set with no permanent foundation or building permit may be a temporary accessory structure, exempt from setbacks under 36 inches tall. Ask Loveland Planning."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Title 18 definitions",
+      "h2": "Loveland's code puts playground equipment on its list of structures.",
+      "paras": [
+        "The Unified Development Code defines a structure as anything other than a building that needs a more or less permanent spot on the ground, and it names playground equipment alongside fences, gazebos and swimming pools. Grade changes, hardscapes and play court surfaces are left out.",
+        "On a house lot, accessory structures keep at least the house's front setback, five feet from interior side and alley lot lines, and at the interior rear five feet or one foot per four feet of height, whichever is more. A playset that isn't on a permanent foundation and needs no building permit may count as a temporary accessory structure instead: under 36 inches tall it isn't held to those setbacks, and the Director can reduce them for taller ones. It depends on the set and how it's anchored; ask Loveland Planning."
+      ],
+      "layerRefs": [
+        "loveland-co.udc-structure-playground-equipment",
+        "loveland-co.udc-accessory-setbacks",
+        "loveland-co.udc-temporary-accessory-def",
+        "loveland-co.udc-temporary-accessory-structures"
+      ],
+      "sources": [
+        "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=4732",
+        "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=4092",
+        "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=4235"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "HOA common ground",
+      "h2": "New Loveland subdivisions owe recreation land, and playground turf counts as functional on it.",
+      "paras": [
+        "Residential subdivisions of 50 or more homes must set aside outdoor recreation area at one acre for every 100 homes, no less than 50 feet across, and a property owners' association maintains it. Playgrounds with tot lots head the code's list of uses; leftover corners, street bufferyards and a detention pond's two-year storm inundation area don't count toward the total. Apartment projects of more than 20 units owe on-site amenities too, and tot lots are among them.",
+        "Since March 17, 2026, the code has barred nonfunctional artificial turf from common landscape areas while defining functional artificial turfgrass to include a playground. Turf that serves as a play surface fits the rule and turf laid only for looks does not, and the landscape plan should mark each functional turf area with its use."
+      ],
+      "layerRefs": [
+        "loveland-co.udc-subdivision-recreation",
+        "loveland-co.udc-multifamily-amenities",
+        "loveland-co.udc-functional-artificial-turf",
+        "loveland-co.udc-common-landscape-areas"
+      ],
+      "sources": [
+        "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=4425",
+        "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=4215",
+        "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=5933",
+        "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=4058"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Home child care",
+      "h2": "Family child care with a state license needs no city permit in Loveland.",
+      "paras": [
+        "Loveland allows family child care homes, large child care homes included, in any dwelling unit without a city permit, provided the state licenses required under 12 CCR 2509-8 are in place before the use starts. The city adds one spacing rule: two large child care homes can't sit immediately next to each other facing the same street segment.",
+        "The city section says nothing about the surface under play equipment. For a home child care, what goes under the playset is a question for your state licensing specialist and the equipment maker's fall-height rating."
+      ],
+      "layerRefs": [
+        "loveland-co.udc-home-child-care"
+      ],
+      "sources": [
+        "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=4396"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "Willow Bend Park",
+      "h2": "Loveland's first universal access playground anchors Willow Bend.",
+      "paras": [
+        "Willow Bend, a 160-acre park and natural area in east Loveland, is built around the city's first universal access playground, which Playcore has named a National Demonstration Site for Inclusive Play. The city's page doesn't say what surfacing sits under it.",
+        "Across the city's parks, the playground rules warn that surfaces may be hot or slippery and recommend footwear at all times."
+      ],
+      "layerRefs": [
+        "loveland-co.willow-bend-playground",
+        "loveland-co.park-playground-rules"
+      ],
+      "sources": [
+        "https://www.lovgov.org/services/parks-recreation/parks-facilities/willow-bend-park",
+        "https://www.lovgov.org/services/parks-recreation/rules-regulations"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Kinston at Centerra",
+      "h2": "Kinston's builder guidelines allow lawn only where people use it, a play area included.",
+      "paras": [
+        "Kinston at Centerra's home builder design guidelines, dated November 2025, allow lawn only where it serves a usable space: a patio extension, a play area or an outdoor room. Each lawn area needs at least 100 contiguous square feet and 8 feet of width, and lawn is capped at 25% of a lot's landscaped area, or 40% with an alternative grass such as buffalo grass, unless the Design Review Board approves more.",
+        "The guidelines speak to living lawn and don't mention artificial turf. How the Design Review Board treats a turf play area is its call, so ask it before you plan one."
+      ],
+      "layerRefs": [
+        "loveland-co.kinston-lawn-cap"
+      ],
+      "sources": [
+        "https://www.centerra.com/wp-content/uploads/2025/11/Kinston-BUILDER-Design-Guidelines-November-2025-Final2.pdf"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can a playset sit in a utility easement on a Loveland lot?",
+      "a": "Only in narrow cases. A temporary accessory structure may go in a utility easement if it won't alter or block drainage and the owner has the easement holder's written permission; other accessory structures can't encroach on an easement at all. Ask Loveland Planning before a set goes there."
+    },
+    {
+      "q": "Do Loveland's 2026 turf rules stop turf under a backyard playset?",
+      "a": "No. The 2026 rules reach commercial, HOA common and right-of-way land, and the city leaves house lots, private townhome and condo lots included, out of them; the [Loveland page](/areas/loveland-co/) has the exemption. In the back yard, your HOA's guidelines still apply."
+    },
+    {
+      "q": "What do Loveland's park rules keep out of a public playground?",
+      "a": "Smoking, vaping, glass containers, food, alcohol and pets are all barred from playground areas and spray parks under the city's park rules."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Loveland Unified Development Code, Div. 18.19.03, \"Structure\" (Ord. 6326)",
+      "url": "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=4732",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Loveland Unified Development Code, Sec. 18.04.07.02, Accessory Structures (setbacks, temporary structures, easements)",
+      "url": "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=4092",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Loveland Unified Development Code, Div. 18.19.03, \"Temporary Accessory Structure\"",
+      "url": "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=4235",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Loveland Unified Development Code, Sec. 18.06.03.01, Outdoor Recreation Areas",
+      "url": "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=4425",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Loveland Unified Development Code, Sec. 18.06.07.03, General Multifamily",
+      "url": "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=4215",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Loveland Unified Development Code, Div. 18.19.03, \"Functional Artificial Turfgrass\" (Ord. 6819, effective March 17, 2026)",
+      "url": "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=5933",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Loveland Unified Development Code, Sec. 18.08.02.04, Identification of Landscape Areas (Ord. 6819)",
+      "url": "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=4058",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Loveland Unified Development Code, Sec. 18.02.06.03, Home Child Care (12 CCR 2509-8)",
+      "url": "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=4396",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Loveland Parks & Recreation, Willow Bend Park page, read from the Wayback Machine capture of March 25, 2026",
+      "url": "https://www.lovgov.org/services/parks-recreation/parks-facilities/willow-bend-park",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Loveland Parks & Recreation, Rules & Regulations page, read from the Wayback Machine capture of April 11, 2026",
+      "url": "https://www.lovgov.org/services/parks-recreation/rules-regulations",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Kinston at Centerra, Home Builder Design Guidelines, November 2025",
+      "url": "https://www.centerra.com/wp-content/uploads/2025/11/Kinston-BUILDER-Design-Guidelines-November-2025-Final2.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Loveland, Landscape Changes project page (Ordinance 6819)",
+      "url": "https://www.letstalkloveland.org/landscape-changes",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Any Loveland play-area jobs: backyard playset, home child care yard or HOA playground, with neighborhood, month and the fall height of the equipment",
+    "Camera-original photos of a Loveland play area (the only \"play\" photo in photos.ts is south of Windsor, so no photo is set)",
+    "Any Loveland HOA or metro-district playground (Kinston or elsewhere) you have bid since March 17, 2026, and how the city or the Design Review Board treated the turf",
+    "Whether Loveland Planning has ever asked for setbacks on a playset you installed"
+  ]
+}

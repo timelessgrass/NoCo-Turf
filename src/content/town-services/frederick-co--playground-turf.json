@@ -1,0 +1,163 @@
+{
+  "status": "draft",
+  "town": "frederick-co",
+  "service": "playground-turf",
+  "title": "Playground Turf and Playsets in Frederick, CO | NoCo Turf Co.",
+  "description": "Frederick's September 2026 park standards take playground turf only with a shock pad, no rubber infill and a 12-foot fall rating. What that means for a playset.",
+  "h1": "Frederick's park standards take playground turf only with a shock pad, no rubber infill and a 12-foot fall rating.",
+  "display": {
+    "paint": "a 12-foot fall rating"
+  },
+  "lede": "The Town's Parks, Open Space and Trails Design Standards, dated September 11, 2026, spell out what goes under play equipment in every developer-built park and in Town parks being largely rebuilt. They don't govern a backyard, but they are the Town's own written word on what belongs under a playset.",
+  "answer": {
+    "question": "What does Frederick require under park playground equipment?",
+    "answer": "Frederick's September 2026 park design standards accept poured-in-place rubber or playground turf, with engineered wood fiber only at fitness areas or climbing boulders. Turf must include a shock pad and infill, meet head impact criteria, use no rubber infill, sit over an underdrain and suit falls up to 12 feet. For playset turf in a Frederick yard, contact NoCo Turf Co."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Park design standards, E.2",
+      "h2": "Turf under a Frederick park playground has to be a system: turf, shock pad and infill, rated for falls up to 12 feet.",
+      "paras": [
+        "The standards list three surfaces for the use zone around play equipment: poured-in-place rubber, artificial turf built for playgrounds, and engineered wood fiber, the last only at fitness equipment or under climbing boulders with the Parks and Open Space Director's approval. Turf has to arrive as a complete system of turf, shock pad and infill that meets Head Impact Criteria, with antimicrobial turf that meets ADA accessibility standards, an underdrain laid to the maker's recommendations, and a rating for fall heights up to 12 feet.",
+        "Rubber infill is not permitted; the standard names coated silica sand or another approved non-toxic, non-flammable infill. Rubber tiles, pea gravel, sand and shredded recycled rubber mulch are on the prohibited list, every protective surface needs a sub-surface drain, and the surfacing in each use zone must meet or exceed ASTM F1292 and F1951 where applicable."
+      ],
+      "layerRefs": [
+        "frederick-co.post-playground-turf-system",
+        "frederick-co.post-safety-surfacing"
+      ],
+      "sources": [
+        "https://www.frederickco.gov/DocumentCenter/View/33243/POST-Design-Standards"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Who the standards bind",
+      "h2": "They bind every developer-built park, and a subdivision's park usually belongs to its metro district or HOA.",
+      "paras": [
+        "The design standards apply to all developer-constructed parks, open space and trails, and to alterations that replace 50% or more of the total value of the assets in a Town-maintained park. Under Section 16-4-60 of the 2026 land use code, parks dedicated and built under that section are owned and maintained by a metro district, a homeowners or condo association, or the owner of a rental multifamily or commercial project, unless the Town decides otherwise, under a maintenance agreement that covers the playgrounds.",
+        "So the board that resurfaces a neighborhood playset is often the district's or the HOA's, not the Town's. Whether resurfacing an existing district park falls under the standards is a question for Frederick's Parks and Open Space staff; in a new park, the play equipment and its plans need Town approval before installation."
+      ],
+      "layerRefs": [
+        "frederick-co.post-standards-applicability",
+        "frederick-co.luc-2026-park-ownership",
+        "frederick-co.post-play-equipment-approval"
+      ],
+      "sources": [
+        "https://www.frederickco.gov/DocumentCenter/View/33243/POST-Design-Standards",
+        "https://www.frederickco.gov/DocumentCenter/View/33088/2026-Land-Use-Code"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "Town playgrounds",
+      "h2": "Crist Park, the Recreation Area, Fox Run, Savannah and Countryside parks all list playgrounds.",
+      "paras": [
+        "Crist Park, at the entrance to Downtown Frederick, has a playground, a picnic area, a gazebo, a sports field and a splash pad that is typically on from early June through late August. The Frederick Recreation Area's playground is for ages 1 to 12 and sits near the main parking lot. The Town's facility pages list playgrounds at Fox Run Park, Savannah Park and Countryside Park as well."
+      ],
+      "layerRefs": [
+        "frederick-co.crist-park-playground",
+        "frederick-co.fra-playground",
+        "frederick-co.fox-run-park-playground",
+        "frederick-co.savannah-park-playground",
+        "frederick-co.countryside-park-playground"
+      ],
+      "sources": [
+        "https://www.frederickco.gov/facilities/facility/details/crist-park-7",
+        "https://www.frederickco.gov/facilities/facility/details/Frederick-Recreation-Area-FRA-2",
+        "https://www.frederickco.gov/facilities/facility/details/Fox-Run-Park-21",
+        "https://www.frederickco.gov/facilities/facility/details/Savannah-Park-24",
+        "https://www.frederickco.gov/facilities/facility/details/Countryside-Park-18"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Child care in the code",
+      "h2": "Frederick treats home child care as an accessory use and lets a center fence its playground in coated chain link.",
+      "paras": [
+        "The 2026 land use code lists in-home day care as an accessory use, so the area the day care uses must be smaller than the home's principal use, and it must follow the state child care statute and rules. Commercial child care centers must follow state child care law and the Colorado Department of Human Services' regulations, and in the MU-1 and MU-2 districts they may not sit along a primary street.",
+        "Chain link is otherwise barred as a fence material, but the code allows it around the playground area of a child care center with a state license, if it is powder or vinyl coated and under 5 feet tall. What a home or a center must put under its equipment comes from the state's child care rules, not from the Town's park standards."
+      ],
+      "layerRefs": [
+        "frederick-co.luc-2026-child-care",
+        "frederick-co.luc-2026-fence-materials",
+        "frederick-co.luc-2026-fence-heights"
+      ],
+      "sources": [
+        "https://www.frederickco.gov/DocumentCenter/View/33068/Article-2",
+        "https://www.frederickco.gov/DocumentCenter/View/33070/Article-4"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do Frederick's park standards apply to my backyard playset?",
+      "a": "No. They cover developer-built parks and major rebuilds of Town parks. They still make a sound checklist for a home set: a shock pad rated past the highest fall point, no rubber infill, and a drain under the surface."
+    },
+    {
+      "q": "Does Frederick's land use code allow artificial turf under a playground?",
+      "a": "Its 2026 code names a playground in its definition of functional artificial turf, the kind of artificial turf the landscaping section permits, and the Town's park standards accept playground turf built as a complete, tested system."
+    },
+    {
+      "q": "What fence can go around a home day care's play yard?",
+      "a": "The ordinary yard limits: 42 inches in the front yard, 7 feet in side and rear yards, and 4 feet along open space, parks and trails. The coated chain-link exception is written for child care centers with a state license, not homes."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Town of Frederick, Parks, Open Space, and Trails Design Standards (September 11, 2026): Introduction B, Sec. E.2 safety surfacing, Sec. E.3 play equipment",
+      "url": "https://www.frederickco.gov/DocumentCenter/View/33243/POST-Design-Standards",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Frederick Land Use Code (2026, effective June 1, 2026), full code PDF: Sec. 16-4-60.I park ownership and maintenance; Sec. 16-13-30 Terms defined",
+      "url": "https://www.frederickco.gov/DocumentCenter/View/33088/2026-Land-Use-Code",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Frederick Land Use Code (2026) Article 2 PDF: Sec. 16-2-30.G.10 child care center, Sec. 16-2-40.D.6 in-home day care",
+      "url": "https://www.frederickco.gov/DocumentCenter/View/33068/Article-2",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Frederick Land Use Code (2026) Article 4 PDF, Sec. 16-4-90 fences: 42 inches in front yards, 7 feet in side and rear yards, 4 feet next to open space, parks and trails; coated chain link under 5 feet around a child care center playground",
+      "url": "https://www.frederickco.gov/DocumentCenter/View/33070/Article-4",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Frederick facility page, Crist Park",
+      "url": "https://www.frederickco.gov/facilities/facility/details/crist-park-7",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Frederick facility page, Frederick Recreation Area (FRA)",
+      "url": "https://www.frederickco.gov/facilities/facility/details/Frederick-Recreation-Area-FRA-2",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Frederick facility page, Fox Run Park",
+      "url": "https://www.frederickco.gov/facilities/facility/details/Fox-Run-Park-21",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Frederick facility page, Savannah Park",
+      "url": "https://www.frederickco.gov/facilities/facility/details/Savannah-Park-24",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Frederick facility page, Countryside Park",
+      "url": "https://www.frederickco.gov/facilities/facility/details/Countryside-Park-18",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Playground or playset turf jobs NoCo has done in Frederick, with the platform height and the pad used",
+    "Camera-original photos of a Frederick play area for src/data/photos.ts (use play); the one play photo on file, 'playset', is from south of Windsor, so it is not used here",
+    "Any Frederick metro district, HOA or child care center Brian has bid or built play turf for, and whether the Town's September 2026 park design standards were applied"
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "status": "draft",
+  "town": "johnstown-co",
+  "service": "putting-greens",
+  "title": "Backyard Putting Greens in Johnstown, CO | NoCo Turf Co.",
+  "description": "Bella Ridge gave Johnstown 18 holes and a 15,000 sq ft putting green. What the Town's code and two 2024 design guides mean for a home green.",
+  "h1": "Bella Ridge gave Johnstown 18 holes and a 15,000-square-foot putting green.",
+  "display": {
+    "paint": "a 15,000-square-foot putting green"
+  },
+  "lede": "The course sits on County Road 44, on land where the Podtburg family ran a dairy until April 2022, and the Town's plan for the property rings it with homes. A green in a Johnstown back yard answers to the Town's landscape code and, in many subdivisions, a design guide the Town posts.",
+  "answer": {
+    "question": "Can I build a backyard putting green in Johnstown?",
+    "answer": "Usually, yes. Johnstown's land use code has no rule aimed at a backyard green, and the Town's nonfunctional-turf ban covers commercial and HOA common ground, not a single-family lot. The limits come from subdivision guides: The Ridge and North Ridge require half of a large lot's landscape in living plants, and artificial turf doesn't count. NoCo Turf Co. installs backyard putting greens in Johnstown, Colorado."
+  },
+  "blocks": [
+    {
+      "kind": "golf",
+      "own": true,
+      "kicker": "Bella Ridge Golf Club",
+      "h2": "Johnstown's public course keeps two practice greens across County Road 44.",
+      "takeaway": "The larger practice green runs 15,000 square feet, beside three short-game holes with a greenside bunker.",
+      "paras": [
+        "Bella Ridge Golf Club is an 18-hole, par-72 course laid out by architect Art Schaupeter, with a 200-foot elevation change and 50 bunkers. Its practice facility is across County Road 44 from the clubhouse parking lot: two putting greens, one of them 15,000 square feet, and three short-game holes.",
+        "The Town's March 2, 2026 council packet draws the same split, with the course south of Bella Ridge Parkway, also known as WCR 44, and the driving range north of it; the owners asked to drop a planned golf-cart underpass between the two. The club's own history puts the course on the Podtburg family's dairy, which ran on the site from 1995 until April 2022."
+      ],
+      "layerRefs": [
+        "johnstown-co.bella-ridge-course",
+        "johnstown-co.bella-ridge-practice-greens",
+        "johnstown-co.podtburg-filing-1-layout",
+        "johnstown-co.bella-ridge-podtburg-dairy"
+      ],
+      "sources": [
+        "https://www.bellaridgegolf.com/golf-course/",
+        "https://www.bellaridgegolf.com/practice-facility/",
+        "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=909,plainText=false)",
+        "https://www.bellaridgegolf.com/the-story/"
+      ]
+    },
+    {
+      "kind": "housing",
+      "own": true,
+      "kicker": "The Podtburg property",
+      "h2": "The Town's plan rings the course with homes on lots from 4,000 square feet.",
+      "paras": [
+        "The Podtburg Property Outline Development Plan covers 448.92 acres: 288.92 for golf, 147.28 for homes and 12.12 for commercial use, with the residential planning areas set around the perimeter of the course. Single-family detached lots start at 4,000 square feet, the plan counts the course toward the development's open space, and it describes a public course for homeowners and Town residents alike.",
+        "Podtburg Metropolitan District No. 1 is a party to the 2026 amendment of the subdivision agreement. The Town's page of PUD design guides posts none for these lots, so what a green on one of them needs depends on the district's covenants; ask the district and Johnstown Planning before you order one."
+      ],
+      "layerRefs": [
+        "johnstown-co.podtburg-odp-land-use",
+        "johnstown-co.podtburg-odp-lots",
+        "johnstown-co.podtburg-metro-district"
+      ],
+      "sources": [
+        "https://www.johnstownco.gov/DocumentCenter/View/2168/Podtburg-ODP-STAMPED",
+        "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=909,plainText=false)",
+        "https://johnstownco.gov/286/Planned-Unit-Development-PUD-Design-Guid"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "The Ridge and North Ridge",
+      "h2": "Two 2024 design guides keep a synthetic green out of the half of a lot that must be living plants.",
+      "paras": [
+        "The Ridge and North Ridge design guidelines, both dated February 23, 2024, give each large lot three years to reach living coverage on at least 50% of its landscape area, and they define living coverage to leave out mulch and artificial turf. The same pages allow no turf in front yards, cap irrigated turf at 40% of the rear yard and keep irrigated turf out of side yards.",
+        "In either neighborhood a green comes out of the other half of the landscape, the share also taken by rock and mulch, so its size follows from how much of the lot is already planted. Small lots in both follow the Town's standards at the time of submittal instead."
+      ],
+      "layerRefs": [
+        "johnstown-co.the-ridge-living-coverage",
+        "johnstown-co.north-ridge-living-coverage",
+        "johnstown-co.ridge-yard-turf-limits",
+        "co-hoa-backyard-detached"
+      ],
+      "sources": [
+        "https://www.johnstownco.gov/DocumentCenter/View/1217/The-Ridge-Design-Guidelines-0324-PDF-STAMPED",
+        "https://www.johnstownco.gov/DocumentCenter/View/1215/North-Ridge-Design-Guidelines-0324-PDF-STAMPED",
+        "https://leg.colorado.gov/bill_files/92307/download"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Sec. 17-8-4",
+      "h2": "On lots platted since 2024, the Town holds a back yard's turf to half, up to 2,000 square feet.",
+      "paras": [
+        "Johnstown's Land Use and Development Code limits turf and spray-irrigated areas in a single-family rear yard to 50% of the yard, up to 2,000 square feet, except on lots platted before January 1, 2024. The limit sits in the code's water-conservation guidelines for landscape plans and is written about high-irrigation grass.",
+        "The code doesn't say whether a synthetic green counts toward that half. It depends on the landscape plan approved for your subdivision; ask Johnstown Planning. The Town's newer nonfunctional-turf rule, Sec. 17-8-2(E) from Ordinance 2025-279, lists commercial, HOA common and similar property, not a single-family lot."
+      ],
+      "layerRefs": [
+        "johnstown-co.ludc-17-8-4-rear-yard-turf",
+        "johnstown-co.ludc-17-8-2e-applicable-property"
+      ],
+      "sources": [
+        "https://www.johnstownco.gov/DocumentCenter/View/1403/Land-Use-And-Development-Code",
+        "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=863,plainText=false)"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Where in Johnstown can I try green speeds before building one?",
+      "a": "Bella Ridge's practice facility on County Road 44 has its own parking and a self-service kiosk. An hour on its greens is a quick way to decide how fast you want a backyard green to roll; the [putting green page](/services/putting-greens/) covers how speed is set."
+    },
+    {
+      "q": "What does an older Johnstown HOA want to see for a green?",
+      "a": "Its landscape submittal list. Thompson Crossing's guide, for one, asks for the location and species of turf areas, edging, and any special landscape feature on the drawings its committee reviews. Your subdivision's guide is on the Town's PUD page, and the [HOA approval guide](/guides/hoa-turf-approval/) covers the request."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Bella Ridge Golf Club, Golf Course page (18 holes, par 72, Art Schaupeter)",
+      "url": "https://www.bellaridgegolf.com/golf-course/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Bella Ridge Golf Club, Practice Facility page (two putting greens, one of 15,000 sq ft)",
+      "url": "https://www.bellaridgegolf.com/practice-facility/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Bella Ridge Golf Club, The Story (Podtburg dairy on the site from 1995 to April 2022)",
+      "url": "https://www.bellaridgegolf.com/the-story/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Johnstown, Town Council packet, March 2, 2026: First Amendment to Podtburg Subdivision Filing 1 agreement, with the Bella Ridge concept plan",
+      "url": "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=909,plainText=false)",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Johnstown, Podtburg Property Outline Development Plan (stamped)",
+      "url": "https://www.johnstownco.gov/DocumentCenter/View/2168/Podtburg-ODP-STAMPED",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Johnstown, Planned Unit Development (PUD) design guidelines page",
+      "url": "https://johnstownco.gov/286/Planned-Unit-Development-PUD-Design-Guid",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "The Ridge Design Guidelines, February 23, 2024, Sec. 3.5.9",
+      "url": "https://www.johnstownco.gov/DocumentCenter/View/1217/The-Ridge-Design-Guidelines-0324-PDF-STAMPED",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "North Ridge Design Guidelines, February 23, 2024, Sec. 3.5.9",
+      "url": "https://www.johnstownco.gov/DocumentCenter/View/1215/North-Ridge-Design-Guidelines-0324-PDF-STAMPED",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Thompson Crossing Design Guidelines (revised 07/11/2006), landscape submittal list",
+      "url": "https://www.johnstownco.gov/DocumentCenter/View/1139/Thompson-Crossing-Design-Guidelines-0706--PDF-STAMPED",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "SB23-178 signed act: C.R.S. 38-33.3-106.5(1)(i.5)",
+      "url": "https://leg.colorado.gov/bill_files/92307/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Johnstown Land Use and Development Code, Chapter 17 (Town PDF, effective December 5, 2023; file updated September 3, 2025), Sec. 17-8-4(E)",
+      "url": "https://www.johnstownco.gov/DocumentCenter/View/1403/Land-Use-And-Development-Code",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Johnstown, Town Council packet, December 1, 2025: Ordinance 2025-279, second reading (adds Sec. 17-8-2(E))",
+      "url": "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=863,plainText=false)",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Backyard putting greens NoCo has built in Johnstown: subdivision, month, rough size, and whether a design review committee had to approve it",
+    "A camera-original photo of a putting green taken in Johnstown, to add to src/data/photos.ts with use 'putting-green'; none of the current photos was taken in town",
+    "Any work at or near Bella Ridge (Podtburg Subdivision Filing 1), and the Podtburg Metropolitan District No. 1 landscape rules if you have seen them",
+    "Design-review submittals for greens in The Ridge, North Ridge, 2534, Thompson River Ranch or Thompson Crossing, with the outcome"
+  ]
+}

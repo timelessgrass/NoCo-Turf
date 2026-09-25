@@ -1,0 +1,151 @@
+{
+  "status": "draft",
+  "town": "frederick-co",
+  "service": "commercial-turf",
+  "title": "Commercial and HOA Turf in Frederick, CO | NoCo Turf Co.",
+  "description": "Frederick's June 2026 code bans nonfunctional turf on commercial and HOA common property, keeps artificial turf out of parking lots, and sets park turf rules.",
+  "h1": "Frederick's 2026 code bans nonfunctional turf on commercial and HOA common property, and in apartment complexes over 12 units.",
+  "display": {
+    "paint": "bans nonfunctional turf"
+  },
+  "lede": "Frederick's new land use code took effect June 1, 2026. It prohibits nonfunctional turf on commercial, institutional, industrial and common-interest community property and in multifamily developments of more than 12 units, permits functional artificial turf only in areas its definition covers, and keeps artificial turf out of parking-lot landscaping altogether.",
+  "answer": {
+    "question": "Can a Frederick business, HOA or metro district still install artificial turf?",
+    "answer": "Where it is functional. Since June 1, 2026, Frederick's code has barred nonfunctional turf on commercial, institutional, industrial and HOA common property in new development, redevelopment and substantial improvements, and permitted functional artificial turf in areas its definition covers, such as playgrounds and sports fields. Parking-lot landscaping can't use it. Talk to NoCo Turf Co. about a Frederick site."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Sec. 16-4-80",
+      "h2": "Frederick bars nonfunctional turf on commercial and HOA property now, and on big apartment sites before the state does.",
+      "paras": [
+        "Section 16-4-80 of the 2026 code prohibits nonfunctional turf in medians and transportation-corridor landscaping, on commercial, institutional, industrial and common-interest community property, and in multifamily developments of more than 12 dwelling units. Colorado's own ban reaches multifamily common areas of that size from January 1, 2028; Frederick's has applied since June 1, 2026.",
+        "The artificial-turf rule permits functional artificial turf only in areas the code's definition covers: a recreational use area or space regularly used for civic, community or recreational purposes, such as a playground, sports field, picnic ground, amphitheater, portion of a park or golf playing area. The code doesn't define turf on its own, but Colorado law separately bars nonfunctional artificial turf on commercial and HOA common property in new development and redevelopment from January 1, 2026. Frederick's section covers new development, redevelopment and substantial improvements; whether a turf replacement on an existing site crosses that line depends on its scope, so ask Frederick Planning. Not legal advice."
+      ],
+      "layerRefs": [
+        "frederick-co.luc-2026-nonfunctional-turf-property",
+        "frederick-co.luc-2026-artificial-turf-rule",
+        "frederick-co.luc-2026-functional-artificial-turf-defined",
+        "frederick-co.luc-2026-landscaping-applicability",
+        "co-hb25-1113-multifamily-2028",
+        "co-sb24-005-nonfunctional-ban",
+        "co-sb24-005-maintain-existing"
+      ],
+      "sources": [
+        "https://www.frederickco.gov/DocumentCenter/View/33088/2026-Land-Use-Code",
+        "https://frederickco.gov/1043/Land-Use-Code",
+        "https://leg.colorado.gov/bill_files/40673/download",
+        "https://leg.colorado.gov/bill_files/45372/download"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Parking lots, arterials, site math",
+      "h2": "Parking-lot islands can't take artificial turf at all, and arterial frontage needs a 30-foot planted strip.",
+      "paras": [
+        "Frederick's parking-lot landscaping rule prohibits turfgrass, native seed, artificial turf and high-water-use planting zones outright, so a turf strip has no place in a parking island under the code. Along arterials, gateway landscaping at least 30 feet wide is measured from the right-of-way line, and nonfunctional turf is prohibited in it on commercial, institutional, industrial and common-interest property.",
+        "A multi-dwelling or nonresidential lot must landscape at least 15% of its area, and the code does not count ground within 15 feet of plazas, play fields, golf greens and fairways toward required site landscaping. A turf field or putting green on a commercial site is recreation space on its own terms, not a way to meet the landscaping minimum."
+      ],
+      "layerRefs": [
+        "frederick-co.luc-2026-nonfunctional-turf-property",
+        "frederick-co.luc-2026-gateway-site-landscaping",
+        "frederick-co.luc-2026-landscape-plan-contents"
+      ],
+      "sources": [
+        "https://www.frederickco.gov/DocumentCenter/View/33088/2026-Land-Use-Code"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Metro-district and HOA parks",
+      "h2": "New neighborhood parks belong to the metro district or HOA, and each acre needs 3,000 square feet of functional turf.",
+      "paras": [
+        "Under Section 16-4-60, parks dedicated and built with new development are owned and maintained by a metro district, a homeowners or condo association, or the owner of a rental multifamily or commercial project, unless the Town decides otherwise. The Town's park design standards, dated September 11, 2026, apply to every developer-constructed park and require a functional turf area of 3,000 square feet per acre of dedicated park area in pocket, neighborhood and community parks.",
+        "Where one of those parks has a playground, the standards take artificial turf only as a system of turf, shock pad and infill with no rubber infill, an underdrain and a rating for falls up to 12 feet, and they ask for a 'Minimum 8-year warranty covering materials and installation.'"
+      ],
+      "layerRefs": [
+        "frederick-co.luc-2026-park-ownership",
+        "frederick-co.post-standards-applicability",
+        "frederick-co.post-functional-turf-area",
+        "frederick-co.post-playground-turf-system"
+      ],
+      "sources": [
+        "https://www.frederickco.gov/DocumentCenter/View/33088/2026-Land-Use-Code",
+        "https://www.frederickco.gov/DocumentCenter/View/33243/POST-Design-Standards"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Dog day care yards",
+      "h2": "A kennel or dog day care with outdoor runs carries its own setbacks in Frederick.",
+      "paras": [
+        "The 2026 code treats a facility that houses, grooms, breeds, boards or trains four or more household pets, with an outdoor component such as dog runs, as a kennel or animal day care. One with outdoor facilities must be set back 300 feet from any existing residential zone or use, with a 30-foot landscape buffer next to it, and its outdoor runs must be secured against escape. In the LI-Flex, HI-Flex and CC districts, outdoor facilities also need a screening fence at least 6 feet tall, a 200-foot setback from adjacent uses and hours of 7 a.m. to 7 p.m."
+      ],
+      "layerRefs": [
+        "frederick-co.luc-2026-kennel-defined",
+        "frederick-co.luc-2026-kennel-standards"
+      ],
+      "sources": [
+        "https://www.frederickco.gov/DocumentCenter/View/33088/2026-Land-Use-Code",
+        "https://www.frederickco.gov/DocumentCenter/View/33068/Article-2"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does turf installed before June 2026 have to come out?",
+      "a": "The landscaping section applies to new development, redevelopment and substantial improvements, and Colorado's turf law lets towns allow turf installed before January 1, 2026 to be maintained. Ask Frederick Planning before replacing an existing field or common area wholesale."
+    },
+    {
+      "q": "What goes in with a commercial landscape application in Frederick?",
+      "a": "A landscape plan, a hydrozone plan and an irrigation plan, stamped by a professional landscape architect or an equivalent the Director approves, and a table showing the square footage in each landscaping category."
+    },
+    {
+      "q": "Does the functional turf in a new Frederick park have to be artificial?",
+      "a": "No. The Town's park standards call for functional turf, using the state's definition, without saying grass or artificial. The choice sits with the park's designer and the Town's review of the plans."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Frederick Land Use Code (2026, effective June 1, 2026), full code PDF: Sec. 16-4-80 Landscaping, Sec. 16-4-60 Parks, Open Space, and Trails, Sec. 16-13-30 Terms defined",
+      "url": "https://www.frederickco.gov/DocumentCenter/View/33088/2026-Land-Use-Code",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Frederick, Land Use Code page (updated code in effect June 1, 2026)",
+      "url": "https://frederickco.gov/1043/Land-Use-Code",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Frederick Land Use Code (2026) Article 2 PDF, Sec. 16-2-30.G.18 kennel or animal day care: 300 feet from residential zones and uses, 30-foot landscape buffer, 200 feet from adjacent uses in LI-Flex, HI-Flex and CC",
+      "url": "https://www.frederickco.gov/DocumentCenter/View/33068/Article-2",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Frederick, Parks, Open Space, and Trails Design Standards (September 11, 2026)",
+      "url": "https://www.frederickco.gov/DocumentCenter/View/33243/POST-Design-Standards",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "C.R.S. 37-99-103(5)(a), added by HB25-1113 (signed act)",
+      "url": "https://leg.colorado.gov/bill_files/40673/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "C.R.S. 37-99-103(1) and (4)(a), SB24-005 (signed act): the nonfunctional turf ban from January 1, 2026 and the carve-out for turf installed before it",
+      "url": "https://leg.colorado.gov/bill_files/45372/download",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Commercial, HOA, metro-district or school turf NoCo has bid or built in Frederick: property type, use (field, playground, dog area, median replacement) and month",
+    "Camera-original photos of Brian's own commercial, HOA or sports job to add to src/data/photos.ts with use 'commercial' (none exists yet)",
+    "Whether Frederick Planning has told a client how the 2026 code treats replacing existing common-area turf",
+    "Frederick metro districts or HOAs Brian has worked with, named only with their consent"
+  ]
+}

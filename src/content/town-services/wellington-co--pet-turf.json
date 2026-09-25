@@ -1,0 +1,142 @@
+{
+  "status": "draft",
+  "town": "wellington-co",
+  "service": "pet-turf",
+  "title": "Dog Runs and Pet Turf in Wellington, CO | NoCo Turf Co.",
+  "description": "Wellington's code defines a dog run as 144 sq ft or less and keeps it 25 feet from a neighbor's home, the street and parks. What that means for pet turf.",
+  "h1": "A Wellington dog run has to sit 25 feet from the neighbor's house and the street",
+  "display": {
+    "paint": "25 feet from the neighbor's house"
+  },
+  "lede": "Wellington's animal code has its own definition of a dog run, a distance rule for where one may go and a daily-cleaning rule a turf run has to keep up with. A large off-leash dog park sits in Wellington Community Park.",
+  "answer": {
+    "question": "Where can a dog run go in a Wellington yard?",
+    "answer": "At least 25 feet from another person's residence, from any public way other than an alley, and from a church, school, hospital, public building or municipal park, under Section 7-4-220 of the Town code, which defines a dog run as 144 square feet or less used only for dogs. NoCo Turf Co. installs pet turf and dog runs in Wellington."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Section 7-4-220",
+      "h2": "Wellington's code says what a dog run is, and how far it stays from the neighbors.",
+      "paras": [
+        "The Town's animal code defines a dog run as an area of one's property of 144 square feet or less, used only to keep dogs.",
+        "Section 7-4-220 then makes it unlawful to keep a dog house or dog run within 25 feet of a building someone other than the owner uses as a residence, within 25 feet of a public way other than an alley, or within 25 feet of a church, school, hospital, public building or municipal park.",
+        "On a lot where the neighbor's house sits close to the fence, that distance picks the run's corner before anyone picks a turf. An alley is the one public way the rule leaves out. The Town-wide front-yard rule is on the [Wellington page](/areas/wellington-co/)."
+      ],
+      "layerRefs": [
+        "wellington-co.code-7-4-dog-run"
+      ],
+      "sources": [
+        "https://library.municode.com/co/wellington/codes/municipal_code?nodeId=CH7HESAAN_ART4AN"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Daily cleaning",
+      "h2": "Where dogs are kept, Wellington's code wants daily cleaning and no obnoxious odors.",
+      "paras": [
+        "Section 7-4-240 requires the bases and floors of lots, pens and cages to be cleaned daily of manure and anything soiled by animal waste, and any place where dogs are kept to be clean, sanitary, free of obnoxious odors and kept so flies can't breed. Under Section 7-4-620, premises that aren't kept clean are declared a nuisance and abated.",
+        "On turf, solids come up by hand and urine has to rinse through the backing and base, so the odor clause is as much about how the run drains as how often it's cleaned.",
+        "The same article caps a property at 3 dogs or 3 cats, or 4 of the two combined, over 4 months old. A hardship permit from the Town Administrator/Clerk can allow up to 4 dogs, 30 days at a time."
+      ],
+      "layerRefs": [
+        "wellington-co.code-7-4-dogs-premises"
+      ],
+      "sources": [
+        "https://library.municode.com/co/wellington/codes/municipal_code?nodeId=CH7HESAAN_ART4AN"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Buffalo Creek",
+      "h2": "In Buffalo Creek, a dog run goes to the review committee before it goes in.",
+      "paras": [
+        "Buffalo Creek at Wellington's Residential Improvement Guidelines, revised June 13, 2019, require Architectural Review Committee approval for dog houses, runs and pet enclosures, and for fences. Half-acre lots there get a three-rail western-style fence four feet high.",
+        "The same guidelines say artificial turf or plants are prohibited where sod is replaced. That line was written before the Colorado rule printed below."
+      ],
+      "layerRefs": [
+        "wellington-co.buffalo-creek-dog-runs",
+        "wellington-co.buffalo-creek-turf-rules",
+        "co-hoa-backyard-detached"
+      ],
+      "sources": [
+        "https://www.buffalocreekhoa.com/_files/ugd/393016_c765f78371fa41c08df663199318a09e.pdf",
+        "https://leg.colorado.gov/bill_files/92307/download"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "Off-leash",
+      "h2": "Wellington Community Park holds a large off-leash dog park.",
+      "paras": [
+        "Wellington Community Park is a 30-acre Town park that opened in spring 2016, and its amenity list includes a dog park, two playgrounds and a splash pad. The Town's 2026 parks plan calls it a large dog park.",
+        "The plan counts 2 dog parks in Wellington, one for every 6,216 residents, against an NRPA median of one per 10,327, and says dog parks exceed the national median."
+      ],
+      "layerRefs": [
+        "wellington-co.community-park",
+        "wellington-co.prost-community-park",
+        "wellington-co.prost-park-metrics"
+      ],
+      "sources": [
+        "https://www.wellingtoncolorado.gov/facilities/facility/details/Wellington-Community-Park-10",
+        "https://www.wellingtoncolorado.gov/DocumentCenter/View/5820/Wellington-Parks-Recreation-Opens-Spaces-Trails-Master-Plan---Appendix"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does a dog need a license in Wellington?",
+      "a": "Yes, any dog or cat over 6 months old. The Town accepts a current county dog license in place of its own (Section 7-4-310)."
+    },
+    {
+      "q": "Does my dog have to be fenced in on my own property?",
+      "a": "Yes, unless it is indoors or under the physical control of someone who can control it. Wellington's code counts a dog on its owner's premises as running at large if it is not enclosed in a building or a securely fenced area (Section 7-4-160)."
+    },
+    {
+      "q": "Do I have to pick up after my dog on a walk in Wellington?",
+      "a": "Yes. On public ways, in public places and on someone else's property without consent, you must carry a way to remove your dog's excrement and remove it (Section 7-4-660)."
+    },
+    {
+      "q": "Is a bigger turf dog yard held to the 144-square-foot figure?",
+      "a": "The 144 square feet defines what Wellington's code calls a dog run; it isn't written as a cap on a larger yard for dogs. Whether the 25-foot distance rule reaches a whole fenced dog yard, the code doesn't say. It depends on the layout; ask Wellington Planning."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wellington Municipal Code Ch. 7, Art. 4, Animals: Secs. 7-4-10, 7-4-160, 7-4-210, 7-4-220, 7-4-240, 7-4-310, 7-4-620 and 7-4-660 (codified through Ord. No. 07-2026, July 14, 2026)",
+      "url": "https://library.municode.com/co/wellington/codes/municipal_code?nodeId=CH7HESAAN_ART4AN",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Buffalo Creek at Wellington HOA, Residential Improvement Guidelines and Site Restrictions (revised June 13, 2019)",
+      "url": "https://www.buffalocreekhoa.com/_files/ugd/393016_c765f78371fa41c08df663199318a09e.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "SB23-178 signed act: C.R.S. 38-33.3-106.5(1)(i.5) and 37-60-126(11)(a.5)",
+      "url": "https://leg.colorado.gov/bill_files/92307/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Wellington, Facilities: Wellington Community Park",
+      "url": "https://www.wellingtoncolorado.gov/facilities/facility/details/Wellington-Community-Park-10",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Wellington, Parks, Recreation, Open Spaces and Trails (PROST) Master Plan, 2026, full plan with appendices",
+      "url": "https://www.wellingtoncolorado.gov/DocumentCenter/View/5820/Wellington-Parks-Recreation-Opens-Spaces-Trails-Master-Plan---Appendix",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Dog runs or pet turf you have installed in Wellington: subdivision, month, size, number of dogs, and where the run drains",
+    "Camera-original photos of a Wellington dog run: photos.ts has no pet photo yet, from Wellington or anywhere",
+    "Whether a Wellington customer, neighbor or HOA has raised the 25-foot dog-run distance rule (Sec. 7-4-220) on a job",
+    "Buffalo Creek or other Wellington HOA approvals you have handled for a dog run or pet enclosure"
+  ]
+}

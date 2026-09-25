@@ -1,0 +1,546 @@
+[
+  {
+    "id": "greeley-co.highland-hills-golf",
+    "layer": "place",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Highland Hills, a City of Greeley golf course open since 1964, has a driving range, two practice putting greens and a short game area.",
+    "quote": "Highland Hills has served Northern Colorado as one of the top championship golf courses since 1964. Boasting over 1300 trees and undulating terrain, this course gives every golfer an enjoyable and exciting experience regardless of the playing ability. … Players can work on their full swing on the driving range utilizing targets between 50 and 300 yards. In addition, there are two practice putting greens and a short game area to help golfers improve all areas of the game and ultimately lower scores.",
+    "source_url": "https://greeleyco.gov/golf/courses/highland-hills/",
+    "source_label": "City of Greeley Golf, Highland Hills course page",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1964",
+      "1300",
+      "50",
+      "300"
+    ]
+  },
+  {
+    "id": "greeley-co.boomerang-links-golf",
+    "layer": "place",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Boomerang Links, the City of Greeley's links-style 18-hole course open since 1991, has one large practice putting green and a smaller chipping green.",
+    "quote": "Open for play in 1991, the City of Greeley’s Boomerang Links Golf Course is a links-style championship eighteen-hole golf course with plush fairways, large greens, tall native grasses, and over 50 bunkers. … Boomerang Links has one large practice putting green and a smaller chipping green to help hone your short game skills.",
+    "source_url": "https://greeleyco.gov/golf/courses/boomerang-links/",
+    "source_label": "City of Greeley Golf, Boomerang Links course page",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "18",
+      "1991",
+      "50"
+    ]
+  },
+  {
+    "id": "greeley-co.boomerang-irrigation-2026",
+    "layer": "place",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "At Boomerang Links the City of Greeley is dredging the Hole 4 pond for more water storage, building a regional pump station for the Water Department and then upgrading the front nine's irrigation, with the full project expected in fall 2026.",
+    "quote": "the City of Greeley Golf Division has begun an improvement project at the pond on Hole #4 at Boomerang Links. This phase of the project includes dredging the existing lake to increase its water storage capacity. In addition, a new regional pump station is being constructed, which will give the City of Greeley Water Department greater flexibility in how and where water is distributed throughout the system. … The next phase will focus on upgrading the irrigation system on the front nine holes at Boomerang Links. These improvements will allow us to use water more efficiently and effectively while continuing to enhance course conditions for our golfers. The full project is expected to be completed in fall 2026",
+    "source_url": "https://greeleyco.gov/golf/courses/boomerang-links/",
+    "source_label": "City of Greeley Golf, Boomerang Links course page: Front 9 Construction notice",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-15",
+    "numbers": [
+      "4",
+      "2026"
+    ],
+    "notes": "Posted on the course page without a date. Re-check once fall 2026 passes: the project may be finished or delayed."
+  },
+  {
+    "id": "greeley-co.mike-lee-9",
+    "layer": "place",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "The Mike Lee 9 at Boomerang Links, which the city calls Greeley's newest short course, is built for beginners, families and kids around the SNAG (Starting New at Golf) system.",
+    "quote": "Greeley’s Newest Short Course … The Mike Lee 9 at Boomerang Links is a welcoming short course designed for beginners, families, and anyone new to golf. Featuring the SNAG (Starting New at Golf) system, it’s easy to learn, safe for kids, and fun for all skill levels.",
+    "source_url": "https://greeleyco.gov/golf/courses/mike-lee-9-at-boomerang-links/",
+    "source_label": "City of Greeley Golf, Mike Lee 9 at Boomerang Links",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "9"
+    ]
+  },
+  {
+    "id": "greeley-co.greeley-country-club",
+    "layer": "place",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley Country Club, a members' club that UNC Athletics lists among its facilities, has a driving range, putting greens and a short game area.",
+    "quote": "a commitment to providing an exceptional experience for its members and guests. … Practice Facilities: Driving range, putting greens, and a short game area to help golfers fine-tune their skills.",
+    "source_url": "https://uncbears.com/facilities/greeley-country-club/1254",
+    "source_label": "University of Northern Colorado Athletics, facilities: Greeley Country Club",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [],
+    "notes": "The club's own site returned an empty page to curl on 2026-09-25, so this is UNC's description. Sources disagree on the founding year (UNC: 1901; others: 1920) and par (UNC: 72; others: 70): neither is used."
+  },
+  {
+    "id": "greeley-co.code-24-502-fences",
+    "layer": "ordinance",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "In Greeley's residential districts a fence in front of the house may be 3.5 feet high, or up to 6 feet if at least 75% open, side and rear fences behind the front building line may be 6 feet, and chain link is allowed only in side or rear yards at 4 feet.",
+    "quote": "Table 24-5-5: Residential Fences and Walls Location Front In the front setback or any location in front of front building line • 3.5' high • 3.5'—6' if it is ornamental design that is at least 75% open (i.e., wrought iron). … Side and rear In the side, street side, or rear yard and behind the front building line. • 6' high … 2. Materials. … Fences and walls shall be constructed out of any of the following materials: (a) Wood or vinyl simulating wood. … (b) Wrought iron or aluminum simulating wrought iron; (c) Stone, brick, concrete with stone or brick veneer, pre-cast concrete simulated stone or brick, or decorative concrete textured to simulate masonry; or (d) Chain link or vinyl clad chain link, in the side or rear yard only and limited to four feet high",
+    "source_url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH5REDEST_S24-502REDEST",
+    "source_label": "Greeley Municipal Code Sec. 24-502.e (Ord. No. 35, 2021; codified through Ord. No. 16, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3.5",
+      "6",
+      "75",
+      "4",
+      "2"
+    ],
+    "notes": "Read through the Municode API (job 493697, Supp. 6 Update 1)."
+  },
+  {
+    "id": "greeley-co.code-24-502-permits",
+    "layer": "ordinance",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley requires a building permit for any fence or wall over six feet and any retaining wall over four feet.",
+    "quote": "In particular, the following require a building permit when allowed by this code: (1) Any fence or wall over six feet. (2) Any retaining walls over four feet.",
+    "source_url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH5REDEST_S24-502REDEST",
+    "source_label": "Greeley Municipal Code Sec. 24-502.e.1(f) (Ord. No. 35, 2021; codified through Ord. No. 16, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "greeley-co.code-10-54-containment",
+    "layer": "ordinance",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley's animal code says an animal's containment must give it room to exercise, keep it from escaping, and be kept clean and free of filth, including feces.",
+    "quote": "(2) To be adequate, containment must include enough space to meet the physical condition and exercise requirements of the species, type of animal and accepted agricultural animal husbandry practices, and be suitable to prevent the animal from escaping. … (4) To be adequate, the shelter and containment must be clean and free of filth, including feces. (b) Violations. (1) A first finding of violation this section shall be punishable as a misdemeanor infraction. … (3) Animals without adequate shelter and containment are subject to impoundment prior to a finding of violation.",
+    "source_url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT10AN_CH3VI_S10-54FAPRADSHCO",
+    "source_label": "Greeley Municipal Code Sec. 10-54 (Ord. No. 33, 2019, amended by Ord. No. 16, 2022; codified through Ord. No. 16, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "greeley-co.code-10-54-shelter",
+    "layer": "ordinance",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley's animal code defines adequate shelter as a roof, at least three enclosed sides, a doorway and a solid, level floor, with protection from cold, heat, sun exposure, wind and precipitation.",
+    "quote": "(1) To be adequate, a shelter must include: a. A roof, at least three enclosed sides, a doorway and a solid and level floor; b. Dry bedding in sufficient quantity for insulation against cold and damp conditions; and c. Protection from weather and environmental conditions, including cold, heat, sun exposure, wind and precipitation.",
+    "source_url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT10AN_CH3VI_S10-54FAPRADSHCO",
+    "source_label": "Greeley Municipal Code Sec. 10-54(a)(1) (Ord. No. 33, 2019, amended by Ord. No. 16, 2022; codified through Ord. No. 16, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "greeley-co.code-10-1-restrained-premises",
+    "layer": "ordinance",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley's animal code counts an animal kept in an enclosure on its owner's premises as restrained, says premises do not include common areas of multiple-household dwellings, and prohibits an animal at large off its premises and unrestrained.",
+    "quote": "Premises means real property owned, rented, leased, used, kept or occupied by a person. The term \"premises\" does not include common areas of multiple household dwelling units. Restrained means physically controlled by use of a leash, rope, chain or cable not more than six feet in length held by a person of sufficient size and physical ability to restrict the animal's movement, properly tethering the animal or keeping it within an enclosure restricting the animal to a particular premises. … (a) It is prohibited for an owner or keeper to allow an animal to be at large. An animal is at large when it is off the premises of the owner or keeper and not restrained.",
+    "source_url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT10AN",
+    "source_label": "Greeley Municipal Code Sec. 10-1 definitions and Sec. 10-56 (Ord. No. 33, 2019; codified through Ord. No. 16, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "greeley-co.code-10-57-noise",
+    "layer": "ordinance",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley's animal code bars letting a dog bark loudly or persistently where it is plainly audible beyond its premises for more than 10 minutes straight by day, 5 minutes at night, or 90 minutes in any 24-hour period.",
+    "quote": "(a) Unless mitigating circumstances exist, an owner or keeper of an animal is prohibited from allowing an animal to make a loud, persistent or continuous noise, including barking, whining, howling, squawking or yelping, when the noise is plainly audible beyond the premises on which the animal is owned or kept for a consecutive period in excess of ten minutes during the day (7:00 a.m. to 9:00 p.m.) or for a consecutive period in excess of five minutes during the night (9:01 p.m. to 6:59 a.m.) and/or a cumulative period in excess of 90 minutes during any 24-hour period.",
+    "source_url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT10AN_CH3VI_S10-57NO",
+    "source_label": "Greeley Municipal Code Sec. 10-57 (Ord. No. 33, 2019; codified through Ord. No. 16, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "10",
+      "5",
+      "90",
+      "24",
+      "7",
+      "9",
+      "6"
+    ]
+  },
+  {
+    "id": "greeley-co.code-10-65-waste",
+    "layer": "ordinance",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley requires an animal's owner or keeper to remove its feces immediately from anyone else's property, including public property and common areas.",
+    "quote": "The owner or keeper of an animal shall immediately remove any feces deposited by the animal upon the property of another, including public property and common areas. Any finding of violation of the section shall be a misdemeanor infraction.",
+    "source_url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT10AN_CH3VI_S10-65ANWARE",
+    "source_label": "Greeley Municipal Code Sec. 10-65 (Ord. No. 33, 2019; codified through Ord. No. 16, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "greeley-co.code-10-66-parks",
+    "layer": "ordinance",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "In a Greeley city park that allows animals, a dog must be restrained and kept to the public walkway beside the park.",
+    "quote": "(a) No person may take an animal into a city park or recreational area in which notices excluding animals have been posted by the city. Where animals are not excluded, the animal shall be restrained and allowed only on a public walkway adjacent to the park or recreational area.",
+    "source_url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT10AN_CH3VI_S10-66CIPAREAR",
+    "source_label": "Greeley Municipal Code Sec. 10-66 (Ord. No. 33, 2019; codified through Ord. No. 16, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "greeley-co.rover-run-dog-park",
+    "layer": "place",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Rover Run Dog Park in Greeley, listed by the Poudre River Trail Corridor, lets dogs run off leash in a 3-acre fenced area during daylight hours.",
+    "quote": "Dogs are allowed to run free inside a large 3-acre fenced area at Rover Run Dog Park. The dog park has benches, a portable restroom, and receptacles for waste bags. … The dog park is open during daylight hours only.",
+    "source_url": "https://poudretrail.org/rover-run-dog-park/",
+    "source_label": "Poudre River Trail Corridor, Rover Run Dog Park",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [
+      "3"
+    ],
+    "notes": "The City of Greeley's site has no standalone dog-park page (greeleyco.gov/parks/dog-parks/ returns 404); this is the trail nonprofit's listing."
+  },
+  {
+    "id": "greeley-co.barkyard-dog-park",
+    "layer": "place",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "On June 2, 2026, Greeley City Council named the new 27-acre Ferguson Park and its dog park, The Barkyard Dog Park, which is planned with separate fenced areas for small and large dogs, 4-foot fencing and drainage against mud, with construction scheduled for 2027.",
+    "quote": "On June 2, 2026, the Greeley City Council approved resolutions officially naming the new community park Ferguson Park and its dedicated dog park The Barkyard Dog Park . … The park will be 27 acres with space for dedicated for a dog park. … Separate fenced areas for small and large dogs, each with secure double-gated entries and 4-foot fencing for safety. … Proper drainage to prevent muddy conditions … Park Construction … January - December 2027",
+    "source_url": "https://speakupgreeley.com/ferguson-park-and-dog-run",
+    "source_label": "Speak Up Greeley (City of Greeley), Ferguson Park and the Barkyard Dog Park",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-31",
+    "numbers": [
+      "2",
+      "2026",
+      "27",
+      "4",
+      "2027"
+    ],
+    "notes": "Project stage on 2026-09-25: Park Planning and Design (May - October 2026); bidding October - December 2026; construction January - December 2027."
+  },
+  {
+    "id": "greeley-co.code-24-404-animal-care",
+    "layer": "ordinance",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley's code puts animal care with significant outdoor play areas in its large category, requires dog runs and exercise areas at animal care facilities to be at least three times the dog's length, and, where more than 15 dogs share an area at a kennel, one adult supervisor per 15 dogs and no more than 60 dogs in any one enclosure or common area.",
+    "quote": "Animal care — Large. A large office or facility providing animal care that is more than 20,000 square feet of commercial space, or has significant outdoor activity including boarding kennels or play areas where animals may ordinarily be kept. … 3. Dog runs and exercise areas shall meet the following minimum space requirements: (a) The length of the runs and exercise areas shall be a minimum of three times the length of the dog from the tip of its nose to the base of its tail … (b) If more than 15 dogs are housed in a common area or enclosure, there must be at least one adult supervisor present for each 15 dogs housed within each enclosure or common area, with a maximum of 60 dogs housed in any enclosure or common area at a single time.",
+    "source_url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH4ZODIUS_S24-404SPUSST",
+    "source_label": "Greeley Municipal Code Sec. 24-402 (use definitions) and Sec. 24-404.c (animal care standards) (Ord. No. 35, 2021, as amended; codified through Ord. No. 16, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "20000",
+      "3",
+      "15",
+      "60"
+    ],
+    "notes": "Sec. 24-404.c: item 3(a) (run length) applies to all animal care facilities; item 4 (supervision) is for kennel facilities where dogs from different owners are commingled. Re-read 2026-09-25 on the Municode API (job 493697)."
+  },
+  {
+    "id": "greeley-co.code-24-402-child-care",
+    "layer": "ordinance",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley's zoning permits a state-licensed child care home for up to 12 children in every residential district as a home occupation, while a child care center, for more than 12 children, needs special review in the R-E, R-L and R-M districts.",
+    "quote": "Child care home. A residential dwelling licensed by the Colorado Department of Human Services to provide child care services as a home occupation and an accessory use to the operator's principal residence. The facility may provide care for up to 12 children … Child care center. A commercial use that provides care for children outside of the home, or any care for more than 12 children. … Table 24-4-2: Zoning Districts and Uses … Districts R-E R-L R-M R-H R-MH C-L C-H MU-L MU-H I-L I-M I-H H-A C-D … Child care home (accessory/home occupation — See section 24-403.c) P P P P P P P P P P P P … Child care center/pre-school S S S P P P P P S S S",
+    "source_url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH4ZODIUS_S24-402ALUS",
+    "source_label": "Greeley Municipal Code Sec. 24-402, Table 24-4-2 (Ord. No. 35, 2021, as amended through Ord. No. 48, 2024; codified through Ord. No. 16, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "12"
+    ],
+    "notes": "In the table, child care center/pre-school reads R-E S, R-L S, R-M S, R-H P, R-MH blank (prohibited), C-L P, C-H P, MU-L P, MU-H P, I-L S, I-M S, I-H S; H-A and C-D blank. Child care home is P in R-E through I-H."
+  },
+  {
+    "id": "greeley-co.code-24-403-home-child-care-outdoors",
+    "layer": "ordinance",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley's home-occupation rules keep business activity inside the home, an accessory building or the garage, except as required for state-licensed in-home family child care.",
+    "quote": "3. All activity shall be conducted with an enclosed living area, accessory building, or the garage, except as required for state-licensed in-home family child care.",
+    "source_url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH4ZODIUS_S24-403ACUS",
+    "source_label": "Greeley Municipal Code Sec. 24-403.c (Ord. No. 35, 2021, amended by Ord. No. 7, 2023; codified through Ord. No. 16, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3"
+    ]
+  },
+  {
+    "id": "greeley-co.twin-rivers-playground",
+    "layer": "place",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley's replacement playground at Twin Rivers Community Park, paid for by the Quality of Life Tax, uses synthetic turf as its primary accessible play safety surfacing and was expected to be complete by mid-to-late October 2026.",
+    "quote": "Synthetic turf as the primary accessible play safety surfacing … Shade structures … Shipping timelines for the playground equipment are proving longer-than-expected. … Throughout the summer, the playground area and nearby restrooms will be closed while construction is underway. Construction is expected to be complete by mid-to-late October 2026. … Funded by Quality of Life Tax … Shade and Water Play features - Frequent mentions of needing sun protection over equipment and water play features, especially given Greeley's hot summers",
+    "source_url": "https://speakupgreeley.com/twinrivers",
+    "source_label": "Speak Up Greeley (City of Greeley), Twin Rivers Playground Replacement",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-11-15",
+    "numbers": [
+      "2026"
+    ],
+    "notes": "The grand opening date was not posted on 2026-09-25 (lifecycle: October 2026, details TBA)."
+  },
+  {
+    "id": "greeley-co.peak-view-playground",
+    "layer": "place",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "The City of Greeley says Peak View Park's playground, after 15 years of play, has equipment and surfacing that no longer meet updated safety standards and suffer from sun degradation, wear and tear.",
+    "quote": "The playground has provided 15 years of play and now presents an exciting opportunity for enhancement. Equipment and surfacing no longer meet updated safety standards and suffer from sun degradation, wear, and tear. … The new playground will feature modern, inclusive equipment for children, improved safety surfacing, and updated amenities that encourage active play and community gathering.",
+    "source_url": "https://speakupgreeley.com/peakviewplayground",
+    "source_label": "Speak Up Greeley (City of Greeley), Peak View Playground Replacement",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "15"
+    ],
+    "notes": "The new surfacing material is not named. The page's timeline (construction later in the year, reopening fall 2026) conflicts with its July 2026 stage (still in design), so no date is used."
+  },
+  {
+    "id": "greeley-co.brentwood-playground",
+    "layer": "place",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "The City of Greeley reopened the Brentwood Park playground with new equipment on April 27, 2026, paid for by the Quality-of-Life tax.",
+    "quote": "The City of Greeley opened the new Brentwood Park playground on April 27, bringing a long-awaited upgrade to the neighborhood park. … The Brentwood Park playground replacement was funded through the Quality-of-Life tax.",
+    "source_url": "https://greeleyco.gov/news/2026/20260428-brentwood-park-playground-reopens-with-modern-accessible-equipment/",
+    "source_label": "City of Greeley news release, April 28, 2026: Brentwood Park playground reopens",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "27",
+      "2026"
+    ],
+    "notes": "The release does not name the safety surfacing."
+  },
+  {
+    "id": "greeley-co.parks-system",
+    "layer": "place",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley's parks division counts over 300 acres of neighborhood parks at more than 40 locations, evaluates playgrounds for age and level of use, and renovates or improves several parks each year.",
+    "quote": "With over 300 acres of neighborhood parks at more than 40 locations, Greeley’s parks offer abundant opportunities for outdoor recreation. … Playgrounds, shelters, and amenities are evaluated for their age and level of use, and each year, several parks throughout the system undergo renovations or improvements.",
+    "source_url": "https://greeleyco.gov/parks/",
+    "source_label": "City of Greeley, Parks",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "300",
+      "40"
+    ]
+  },
+  {
+    "id": "greeley-co.code-24-504-neighborhood-features",
+    "layer": "ordinance",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "New residential projects in Greeley must provide neighborhood features by size, one for 25 to 50 homes, two for 51 to 100 and three for 101 to 200, with recreation areas such as playgrounds and sport courts platted as outlots under common ownership.",
+    "quote": "Neighborhood features and commons areas shall be required for all residential projects based on the number of dwelling units specified in table 24-5-10. … Table 24-5-10: Required Neighborhood Features Required Features Dwelling Units 0 <25 1 25-50 2 51—100 3 101—200 units +1 each increment of 100 units … Pocket park (see section 24-302 for larger parks) • 1—4 acres • At least 100' wide in all directions • Frontage on at least 1 public street OR connection to street by a trail … (b) Recreation areas (parks, trails, and recreation centers) include playgrounds, sport courts, and larger landscape areas designed for un-programmed outdoor recreation. … 2. Designated outlots. All neighborhood features and common space shall be designated on a plat as outlots under common ownership and reserved for the limited and specified purpose of serving surrounding development with amenities",
+    "source_url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH5REDEST_S24-504NEFECOAR",
+    "source_label": "Greeley Municipal Code Sec. 24-504 (Ord. No. 35, 2021; codified through Ord. No. 16, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "0",
+      "25",
+      "1",
+      "50",
+      "2",
+      "51",
+      "100",
+      "3",
+      "101",
+      "200",
+      "4"
+    ],
+    "notes": "Multifamily projects may put the features inside the required 30 percent lot open space."
+  },
+  {
+    "id": "greeley-co.code-24-801-major-development",
+    "layer": "ordinance",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley's landscape standards apply in full to major development, meaning any new nonresidential or multifamily building, an expansion of more than 25 percent, or a project of more than five new houses, including its common areas, except in Downtown Overlay 1 and the Redevelopment District.",
+    "quote": "1. Minor development. Minor development shall meet the landscape standards to the extent of any work or improvement on the site, however, are not required to upgrade landscape areas or nonconformances where no work is being done. … 2. Major development. Major development shall require full compliance with all standards of this chapter for the entire site, any public streets and frontages, and any common areas. Major development includes: (a) Any new nonresidential or multifamily building; (b) Expansion of more than 25 percent of any existing nonresidential or multifamily building footprint or associated impervious surface; (c) Any detached house or multi-unit house project involving more than five new buildings, or occurring through a major subdivision in section 24-203 . … 3. Exemptions. These standards do not apply to development within Downtown Overlay 1 and the Redevelopment District.",
+    "source_url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH8LAST_S24-801INAP",
+    "source_label": "Greeley Municipal Code Sec. 24-801.b (Ord. No. 36, 2021, amended by Ord. No. 20, 2025; codified through Ord. No. 16, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "2",
+      "25",
+      "3"
+    ]
+  },
+  {
+    "id": "greeley-co.code-24-1301-turf-not-lawn",
+    "layer": "ordinance",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley's development code defines artificial turf as synthetic fibers made to resemble natural grass and says it is not lawn or turf-grass.",
+    "quote": "Artificial turf. Any of the various synthetic fibers made to resemble natural grass. … Lawn. A stretch of open, turf-grass covered land; artificial turf shall not be considered lawn or turf-grass.",
+    "source_url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH13DETE_S24-1301DE",
+    "source_label": "Greeley Municipal Code Sec. 24-1301 definitions (Ord. No. 35, 2021, as amended through Ord. No. 38, 2025; codified through Ord. No. 16, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "greeley-co.code-title-24-no-nonfunctional",
+    "layer": "ordinance",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley's development code, as codified through Ord. No. 16, 2026, has no section on nonfunctional turf and uses the words artificial turf only in Sec. 24-802 and the Sec. 24-1301 definitions (searched September 25, 2026).",
+    "quote": "Municode full text of Greeley Municipal Code Title 24 (Development Code), all 14 chapters, codified through Ord. No. 16, 2026 (Supp. No. 6, Update 1), searched for \"nonfunctional\", \"non-functional\", \"artificial turf\", \"synthetic turf\" and \"putting green\": no hit for nonfunctional, synthetic turf or putting green; \"artificial turf\" appears only in Sec. 24-802 (landscape design) and Sec. 24-1301 (definitions of artificial turf, lawn and turf-grass).",
+    "source_url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO",
+    "source_label": "Greeley Municipal Code Title 24 on Municode (codified through Ord. No. 16, 2026), full-text search",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "2026",
+      "25",
+      "14",
+      "1",
+      "6"
+    ],
+    "notes": "Search re-run 2026-09-25 on the Municode API text of chapters 1–14 of Title 24 (job 493697, Supp. 6 Update 1, still the latest): \"artificial turf\" hits only Sec. 24-802 and Sec. 24-1301; no hit for nonfunctional, non-functional, synthetic turf, synthetic grass, artificial grass or putting green. Chapter 12 (metropolitan districts, Secs. 24-1201 to 24-1227, service plans) has no turf or landscape rule. Titles 10, 12, 18, 20 and 22 had no hits either. Re-check after Council Initiative 11-2023's landscape ordinance is adopted, which may add turf language."
+  },
+  {
+    "id": "greeley-co.unc-nottingham-field-turf",
+    "layer": "place",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "UNC Athletics announced in June 2021 that the natural grass at Nottingham Field in Greeley would be replaced with turf, completed for the September 18 home opener against Lamar.",
+    "quote": "The natural grass at Nottingham Field to be replaced with turf … completed for UNC's first home football game on September 18 against Lamar. … Nottingham Field opened in 1995 and was one of two fields in the Big Sky to still feature natural grass alongside Cal Poly.",
+    "source_url": "https://uncbears.com/news/2021/6/16/football-nottingham-field-to-receive-a-change-of-surface",
+    "source_label": "UNC Athletics news, June 16, 2021: Nottingham Field to receive a change of surface",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2021",
+      "18",
+      "1995"
+    ],
+    "notes": "The field's surface is artificial turf today (Wikipedia, Nottingham Field, citing the same UNC release); UNC's own facility page renders by script and could not be read on 2026-09-25."
+  },
+  {
+    "id": "greeley-co.code-24-402-animal-care-districts",
+    "layer": "ordinance",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley's use table permits large animal care (outdoor, or over 20,000 square feet) only in the I-L and I-M industrial districts, and general animal care (indoor, 5,000 to 20,000 square feet, or boarding) in C-H, MU-H, I-L and I-M, with special review in C-L and MU-L; neither is allowed in a residential district.",
+    "quote": "Table 24-4-2: Zoning Districts and Uses … Districts R-E R-L R-M R-H R-MH C-L C-H MU-L MU-H I-L I-M I-H H-A C-D … Animal care — General (indoor, 5K—20K GLA or boarding) S P S P P P … Animal care — Large (outdoor or > 20K GLA) P P",
+    "source_url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH4ZODIUS_S24-402ALUS",
+    "source_label": "Greeley Municipal Code Sec. 24-402, Table 24-4-2 (Ord. No. 35, 2021, as amended; codified through Ord. No. 16, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "20000",
+      "5000",
+      "20",
+      "5"
+    ],
+    "notes": "Column positions read from the table HTML on the Municode API (job 493697): General = C-L S, C-H P, MU-L S, MU-H P, I-L P, I-M P; Large = I-L P, I-M P; all residential columns (R-E, R-L, R-M, R-H, R-MH) blank for every animal care row."
+  },
+  {
+    "id": "greeley-co.code-10-141-license",
+    "layer": "ordinance",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley requires a city license tag for every dog or cat over six months old, applied for within 14 days of getting the animal with proof of current rabies vaccination, and worn whenever the animal is off its owner's premises.",
+    "quote": "The owner or keeper of a dog or cat over the age of six months owned or kept within the city shall obtain a license tag for such dog or cat in the manner specified in this chapter. … An owner or keeper shall apply for a dog or cat license tag at the finance department or at such other location as contracted for by the city within 14 days of acquiring possession of the dog or cat. … (3) Proof of current rabies vaccination; … Dogs and cats shall display the license tag issued pursuant to this chapter at all times while outside of the premises of the owner or keeper.",
+    "source_url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT10AN_CH6LI_S10-141LITARE",
+    "source_label": "Greeley Municipal Code Secs. 10-141, 10-142 and 10-144 (Ord. No. 33, 2019; codified through Ord. No. 16, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "14",
+      "3"
+    ],
+    "notes": "Sec. 10-148 exempts service animals, animals assisting law enforcement and licensed animal establishments."
+  }
+]

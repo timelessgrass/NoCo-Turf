@@ -1,0 +1,1133 @@
+[
+  {
+    "id": "timnath-co.csu-golf-harmony",
+    "layer": "place",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Colorado State University's men's and women's golf teams use Harmony Club in Timnath as their primary training facility.",
+    "quote": "The CSU men's and women's golf teams are supported with their own indoor practice facility, as Harmony Club in Timnath, Colo., serves as the Rams' primary training facility.",
+    "source_url": "https://csurams.com/facilities/harmony-club-golf-course/8",
+    "source_label": "Colorado State University Athletics, Facilities: Harmony Club Golf Course",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "timnath-co.csu-harmony-short-game-area",
+    "layer": "place",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "CSU's golf building at Harmony Club has an indoor putting green, and a private short-game practice area with two greens, bunkers and chipping and pitching areas surrounds it.",
+    "quote": "The facility also is equipped with an indoor putting green, Trackman Golf launch monitor, JC Video swing system, coaches' offices, and luxury locker rooms. Surrounding the facility is a private, short-game practice area complete with two greens, bunkers, and plenty of chipping and pitching areas.",
+    "source_url": "https://csurams.com/facilities/harmony-club-golf-course/8",
+    "source_label": "Colorado State University Athletics, Facilities: Harmony Club Golf Course",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "timnath-co.harmony-club-private",
+    "layer": "place",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Colorado AvidGolfer classifies Harmony Club, the Jim Engh course in Timnath, as a private club.",
+    "quote": "Designer: Jim Engh Classification: Private",
+    "source_url": "https://coloradoavidgolfer.com/golf_course/harmony-club/",
+    "source_label": "Colorado AvidGolfer, Harmony Club (course listing)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": []
+  },
+  {
+    "id": "timnath-co.harmony-short-game-facility",
+    "layer": "place",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Harmony Club describes its short-game practice facility in Timnath as an expanded green, a separate pitching green, bunkers and target areas from 25 to 125 yards.",
+    "quote": "And the short-game practice facility simulates every short shot you can encounter on the course, with expanded green, separate pitching green, bunkers and multiple target areas ranging from 25-125 yards.",
+    "source_url": "https://harmonyclub.info/golf/",
+    "source_label": "Harmony Club, Golf at Harmony (practice facilities)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "25",
+      "125"
+    ]
+  },
+  {
+    "id": "timnath-co.harmony-hole-11-tier",
+    "layer": "place",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Harmony Club's hole-by-hole guide says the green on its 11th hole has a hidden tier at the back.",
+    "quote": "A hidden tier in the back of the green will test your putting skills if the pin is back there.",
+    "source_url": "https://harmonyclub.info/golf/",
+    "source_label": "Harmony Club, Golf at Harmony, yardage book: Hole 11 (Grand Tree)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "11"
+    ]
+  },
+  {
+    "id": "timnath-co.community-park-golf-clubs",
+    "layer": "place",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Timnath Community Park's posted rules prohibit the use of golf clubs.",
+    "quote": "The use of golf clubs is prohibited.",
+    "source_url": "https://web.archive.org/web/20251115173933/https://timnath.org/timnath-community-park/",
+    "source_label": "Town of Timnath, Timnath Community Park: Park Rules (Wayback snapshot 2025-11-15)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "timnath.org returns a Cloudflare challenge to automated fetch; read from the Wayback copy. Re-check on the live page in a browser."
+  },
+  {
+    "id": "timnath-co.wildwing-park-golf-clubs",
+    "layer": "place",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "WildWing Park's posted rules prohibit the use of golf clubs.",
+    "quote": "The use of golf clubs is prohibited.",
+    "source_url": "https://web.archive.org/web/20251210230709/https://timnath.org/wildwing-park/",
+    "source_label": "Town of Timnath, WildWing Park: Park Rules (Wayback snapshot 2025-12-10)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "timnath.org returns a Cloudflare challenge to automated fetch; read from the Wayback copy."
+  },
+  {
+    "id": "timnath-co.parks-department-acres",
+    "layer": "place",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Timnath's Parks and Recreation Department maintains more than 1,200 acres of parkland, open space and trails, including playgrounds and youth sports fields.",
+    "quote": "The Parks and Recreation Department operates and maintains more than 1,200 acres of parkland spread over our parks, open spaces, and trails. These parks and open spaces include everything from playgrounds, climbing structures, natural areas, rental pavilions and picnic areas, fitness trails, fishing spots, youth sports fields, as well as the Timnath Reservoir.",
+    "source_url": "https://web.archive.org/web/20260810221036/https://timnath.org/parks/",
+    "source_label": "Town of Timnath, Parks, Trails, and Open Spaces (Wayback snapshot 2026-08-10)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1200"
+    ]
+  },
+  {
+    "id": "timnath-co.community-park-size",
+    "layer": "place",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Timnath Community Park covers about 25 acres south of Bethke Elementary School, off Summerfields Parkway.",
+    "quote": "Timnath Community Park is located south of Bethke Elementary School off of Summerfields Parkway. The park is approximately 25 acres in size.",
+    "source_url": "https://web.archive.org/web/20251115173933/https://timnath.org/timnath-community-park/",
+    "source_label": "Town of Timnath, Timnath Community Park (Wayback snapshot 2025-11-15)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "25"
+    ]
+  },
+  {
+    "id": "timnath-co.community-park-dog-park",
+    "layer": "place",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Timnath Community Park has a dog park at its east end.",
+    "quote": "Our local dog park is located at the east end of the Timnath Community Park.",
+    "source_url": "https://web.archive.org/web/20251115173933/https://timnath.org/timnath-community-park/",
+    "source_label": "Town of Timnath, Timnath Community Park: Dog Park (Wayback snapshot 2025-11-15)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "timnath-co.dog-park-three-dogs",
+    "layer": "place",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "The Timnath Community Park dog park rules ask visitors to bring no more than three dogs per visit.",
+    "quote": "No more than three dogs per visit, please.",
+    "source_url": "https://web.archive.org/web/20251115173933/https://timnath.org/timnath-community-park/",
+    "source_label": "Town of Timnath, Timnath Community Park: Dog Park Rules (Wayback snapshot 2025-11-15)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "timnath-co.dog-park-holes",
+    "layer": "place",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "The Timnath Community Park dog park rules make owners responsible for damage their dogs cause and ask them to fill in any holes their dogs dig.",
+    "quote": "Dog parents are responsible for any damage to the dog park caused by their dog. Please be considerate and fill in any holes your pup digs.",
+    "source_url": "https://web.archive.org/web/20251115173933/https://timnath.org/timnath-community-park/",
+    "source_label": "Town of Timnath, Timnath Community Park: Dog Park Rules (Wayback snapshot 2025-11-15)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "timnath-co.park-leash-rule",
+    "layer": "place",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Timnath Community Park's rules require pets to be leashed at all times and owners to clean up after them.",
+    "quote": "All pets must be on a leash at all times and owners must clean up after pets.",
+    "source_url": "https://web.archive.org/web/20251115173933/https://timnath.org/timnath-community-park/",
+    "source_label": "Town of Timnath, Timnath Community Park: Park Rules (Wayback snapshot 2025-11-15)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "timnath-co.community-park-play",
+    "layer": "place",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Timnath Community Park's features include multi-age play equipment, climbing structures, swings, an adventure playground, open space for sports, pickleball, tennis and basketball courts, and a splash pad.",
+    "quote": "Park Features\nAmphitheater\nMulti-age Play Equipment\nClimbing Structures\nSwings\nAdventure Playground\nSheltered Picnic Areas\nMarketplace Plaza\nRestrooms open seasonally and year-round\nOpen Space for Sports\nSix pickleball courts\nTwo tennis courts\nBasketball court\nSplash pad",
+    "source_url": "https://web.archive.org/web/20251115173933/https://timnath.org/timnath-community-park/",
+    "source_label": "Town of Timnath, Timnath Community Park: Park Features (Wayback snapshot 2025-11-15)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "timnath-co.wildwing-park-features",
+    "layer": "place",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "WildWing Park in Timnath has large multi-use fields, trails, pickleball courts, a dog park, a playground, a basketball court and a community garden.",
+    "quote": "Park Features\nLarge multi-use fields\nConnecting trails\nPickleball courts\nDog Park\nPlayground\nBasketball Court\nCommunity Garden",
+    "source_url": "https://web.archive.org/web/20251210230709/https://timnath.org/wildwing-park/",
+    "source_label": "Town of Timnath, WildWing Park: Park Features (Wayback snapshot 2025-12-10)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "timnath-co.psd-district-stadium",
+    "layer": "place",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Poudre School District's athletics complex at Timnath Middle-High School is a second district stadium, with a lighted multi-use field and 3,500 seats, that hosts games for all PSD schools.",
+    "quote": "This athletics complex will be a second district stadium. Like French Field at Rocky Mountain High School, this stadium will host games for all PSD schools.\nLighted multi-use field\nStadium seating - 3,500 seats",
+    "source_url": "https://www.psdschools.org/community/new-schools-facility-improvements/new-timnath-middle-high-school",
+    "source_label": "Poudre School District, New Timnath Middle-High School: district athletics complex details",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3500"
+    ]
+  },
+  {
+    "id": "timnath-co.tmhs-opened-2022",
+    "layer": "place",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Timnath Middle-High School opened on August 16, 2022, with more than 980 students.",
+    "quote": "Timnath Middle-High School welcomed more than 980 students in grades 6-10 when its doors opened Aug. 16, PSD's first day of school for the 2022-23 school year.",
+    "source_url": "https://www.psdschools.org/community/new-schools-facility-improvements/new-timnath-middle-high-school",
+    "source_label": "Poudre School District, New Timnath Middle-High School (opened Aug. 16, 2022)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "16",
+      "2022",
+      "980"
+    ]
+  },
+  {
+    "id": "timnath-co.tmhs-turf-practice-field",
+    "layer": "place",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Timnath Middle-High School has an artificial turf practice field for football, soccer, lacrosse and field hockey on the east side of its campus, north of Prospect Road and east of Interstate 25.",
+    "quote": "Timnath's other athletic fields, including an artificial turf field for football, soccer, lacrosse and field hockey practices, is on the east side of the school's campus, which is located on the north side of Prospect Road, just east of Interstate 25.",
+    "source_url": "https://sports.yahoo.com/timnath-wellington-high-schools-field-110227728.html",
+    "source_label": "Fort Collins Coloradoan (via Yahoo Sports), New Timnath and Wellington high schools will field varsity teams, Aug. 9, 2022",
+    "effective": "2022-08-09",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [
+      "25"
+    ],
+    "notes": "A news report, read in full on the syndicated copy; PSD's own page says only 'Lighted multi-use field'. Confirm the practice field's surface with PSD Facilities if a page leans harder on it."
+  },
+  {
+    "id": "timnath-co.metro-district-service-plans",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Timnath's Town Council reviews and approves the service plans of the metro districts inside town boundaries, though each district is a separate, independent entity.",
+    "quote": "While a metro district is a separate and independent entity, the Town Council reviews and approves the service plans for metro districts located within town boundaries.",
+    "source_url": "https://web.archive.org/web/20260810221013/https://timnath.org/metro-districts/",
+    "source_label": "Town of Timnath, Metro Districts (Wayback snapshot 2026-08-10)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "timnath-co.timnath-lakes-turf-rear-only",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Timnath Lakes' design criteria permit artificial turf in rear yards only, with approval.",
+    "quote": "Nonvegetative turf grass (artificial turf) is permitted in the rear yards only. Approval is required.",
+    "source_url": "https://web.archive.org/web/20240527033949/https://timnathlakesmetrodistricts1-6.com/uploads/tlmd-rules-and-regs-final-version-ratified-1.28.22-.pdf",
+    "source_label": "Timnath Lakes, Design Criteria and Rules and Regulations (adopted by the Board Nov. 8, 2021), Sec. 3.88 Xeriscape (Wayback copy 2024-05-27)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The district's current site (timnathlakesmetrodistrict1.colorado.gov) returned 403 on 2026-09-25 and the old site no longer answers; read from the Wayback copy of the ratified rules. Ask Timnath Lakes whether a later version replaced them. Sec. 3.40 Landscaping of the same rules also says 'No artificial vegetation, lawn ornaments or statues shall be permitted outside of any structure on any Lot'; Sec. 3.88 is the specific turf rule the pages cite."
+  },
+  {
+    "id": "timnath-co.timnath-lakes-three-pets",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Timnath Lakes' rules let an owner keep up to 3 domestic pets on a lot.",
+    "quote": "An Owner shall be permitted to house on its Lot up to 3 domestic pets (which shall mean only domesticated dogs, cats or other usual and common household pets which are bona fide household pets) and such additional animals as may be expressly permitted by the Rules;",
+    "source_url": "https://web.archive.org/web/20240527033949/https://timnathlakesmetrodistricts1-6.com/uploads/tlmd-rules-and-regs-final-version-ratified-1.28.22-.pdf",
+    "source_label": "Timnath Lakes, Design Criteria and Rules and Regulations (adopted Nov. 8, 2021), Sec. 3.7 Animals (Wayback copy 2024-05-27)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3"
+    ]
+  },
+  {
+    "id": "timnath-co.timnath-lakes-dog-runs",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Timnath Lakes' rules require approval for a dog run, limit it to 200 square feet unless the committee grants a variance, and place it in the rear or side yard against the home, screened by trees or shrubs.",
+    "quote": "Approval is required. Dog runs must be located in the rear or side yard, abutting the home and substantially screened from view by planting fast-growing or mature trees or shrubs. Dog runs must be located in side-yard if home backs up to the common area. Dog runs will be limited to two hundred (200) square feet, unless a variance is granted by the ACC. Dog run fences should be left natural in color and sealed to prevent weathering. Dog runs must be made of wood.",
+    "source_url": "https://web.archive.org/web/20240527033949/https://timnathlakesmetrodistricts1-6.com/uploads/tlmd-rules-and-regs-final-version-ratified-1.28.22-.pdf",
+    "source_label": "Timnath Lakes, Design Criteria and Rules and Regulations (adopted Nov. 8, 2021), Sec. 3.20 Dog Runs (Wayback copy 2024-05-27)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "200"
+    ]
+  },
+  {
+    "id": "timnath-co.timnath-lakes-play-structures",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Timnath Lakes' rules require approval for play structures and sports equipment, a setback of at least 5 feet from the property line for swing sets, trampolines and forts, and a height of no more than 12 feet.",
+    "quote": "Approval is required. Consideration will be given to adjacent properties (a minimum five (5) foot setback from the property line, is required for trampolines, swing sets, fort structures, etc.) so as not to create an undue disturbance. In some instances, additional plant material around the equipment may be required for screening. Wood structures must be constructed of pressure treated or other weather resistant materials. All play equipment must be maintained in a good and sightly manner. The use of multi-colored cloth/canvas tarps will not be approved. Height of any play structure or sports equipment may not exceed twelve (12) feet.",
+    "source_url": "https://web.archive.org/web/20240527033949/https://timnathlakesmetrodistricts1-6.com/uploads/tlmd-rules-and-regs-final-version-ratified-1.28.22-.pdf",
+    "source_label": "Timnath Lakes, Design Criteria and Rules and Regulations (adopted Nov. 8, 2021), Sec. 3.50 Play Structures and Sports Equipment (Wayback copy 2024-05-27)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5",
+      "12"
+    ]
+  },
+  {
+    "id": "timnath-co.timnath-lakes-backyard-deadline",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Timnath Lakes' rules require perimeter fencing and landscaping within 9 months of a lot's first sale, or by the next June when the sale falls between October and April.",
+    "quote": "Perimeter fencing and landscaping shall be completed within (9) months after initial conveyance of the property to the owner, with consideration given to planting seasons, unless the initial conveyance be between October and April. If the initial conveyance be between October and April, the deadline shall be extended to the next June.",
+    "source_url": "https://web.archive.org/web/20240527033949/https://timnathlakesmetrodistricts1-6.com/uploads/tlmd-rules-and-regs-final-version-ratified-1.28.22-.pdf",
+    "source_label": "Timnath Lakes, Design Criteria and Rules and Regulations (adopted Nov. 8, 2021), Sec. 2.7 Initial Installation of Backyard Landscaping & Fencing (Wayback copy 2024-05-27)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "9"
+    ]
+  },
+  {
+    "id": "timnath-co.timnath-lakes-review-period",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Timnath Lakes' rules tell owners to allow up to 45 days for the committee to review backyard landscaping and fencing plans.",
+    "quote": "The Owner should ensure submittal of these plans will allow for the review period of up-to forty-five (45) days for approval in accordance with the deadline for installation.",
+    "source_url": "https://web.archive.org/web/20240527033949/https://timnathlakesmetrodistricts1-6.com/uploads/tlmd-rules-and-regs-final-version-ratified-1.28.22-.pdf",
+    "source_label": "Timnath Lakes, Design Criteria and Rules and Regulations (adopted Nov. 8, 2021), Sec. 2.7 (Wayback copy 2024-05-27)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "45"
+    ]
+  },
+  {
+    "id": "timnath-co.kitchel-lake-nonliving-cap",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Kitchel Lake's 2023 rules allow no more than 40% of front-yard landscaping, and the same share of back-yard landscaping, to be non-living materials unless the committee and the Town approve otherwise.",
+    "quote": "No more than forty percent (40%) of the front yard landscaping shall be non-living materials, unless otherwise approved by the ACC and the Town of Timnath. The same standard shall apply to back yards.",
+    "source_url": "https://www.serratogafallsmd1.org/files/6b86004a3/Rules+and+Regs_SFMD1+-+Approved.pdf",
+    "source_label": "Serratoga Falls Metropolitan District #1, Rules and Regulations, Kitchel Lake, Filing 3 (adopted March 30, 2023), No. 37 Landscaping and Irrigation",
+    "effective": "2023-03-30",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "40",
+      "2023"
+    ]
+  },
+  {
+    "id": "timnath-co.kitchel-lake-front-sod",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Kitchel Lake's rules do not allow artificial turf in place of required front-yard sod.",
+    "quote": "Astroturf: Astroturf is not allowed in lieu of any required front yard sod requirements.",
+    "source_url": "https://www.serratogafallsmd1.org/files/6b86004a3/Rules+and+Regs_SFMD1+-+Approved.pdf",
+    "source_label": "Serratoga Falls Metropolitan District #1, Rules and Regulations, Kitchel Lake, Filing 3 (adopted March 30, 2023), No. 6 Astroturf",
+    "effective": "2023-03-30",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "timnath-co.kitchel-lake-dog-runs",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Kitchel Lake's rules require every dog run to be free-draining and keep urine and diluted waste off neighboring lots, and they limit a run to 200 square feet with fencing no higher than 4 feet.",
+    "quote": "Dog houses and/or dog runs must not present a visual or noise nuisance to the street and Neighboring yards, must be installed at ground level, and shall not be visible above the fence. Methods of concealment include landscaping or other methods approved by the ACC. All dog runs shall be free-draining and shall not discharge urine or diluted waste onto abutting Properties. Dog runs shall be limited to two hundred (200) square feet and fencing shall not be higher than four (4) feet. Tarpaulins and chain-link fencing shall not be permitted.",
+    "source_url": "https://www.serratogafallsmd1.org/files/6b86004a3/Rules+and+Regs_SFMD1+-+Approved.pdf",
+    "source_label": "Serratoga Falls Metropolitan District #1, Rules and Regulations, Kitchel Lake, Filing 3 (adopted March 30, 2023), No. 20 Dog Houses & Dog Runs",
+    "effective": "2023-03-30",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "200",
+      "4"
+    ]
+  },
+  {
+    "id": "timnath-co.kitchel-lake-pets",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Kitchel Lake's rules allow a reasonable number of household pets, as long as they are not kept for a commercial purpose or in a way that creates a nuisance.",
+    "quote": "No animals, livestock, birds, poultry, reptiles or insects of any kind shall be raised, bred, kept or boarded in the Property; provided, however, that the Owners and residents of each Lot may keep a reasonable number of bona fide household pets (including dogs, cats or other domestic animals), so long as such pets are not kept for any commercial purpose, including breeding and are not kept in such number or in such manner as to create a nuisance to any resident of the Property.",
+    "source_url": "https://www.serratogafallsmd1.org/files/6b86004a3/Rules+and+Regs_SFMD1+-+Approved.pdf",
+    "source_label": "Serratoga Falls Metropolitan District #1, Rules and Regulations, Kitchel Lake, Filing 3 (adopted March 30, 2023), No. 36 Household Pets",
+    "effective": "2023-03-30",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "timnath-co.kitchel-lake-play-equipment",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Kitchel Lake's rules allow play equipment, trampolines and other sports equipment only behind the house, with committee approval and screening from the street where the committee asks for it.",
+    "quote": "Play and sports equipment requires prior ACC approval. In general, all play equipment, trampolines and other sports equipment shall only be allowed in the rear of a residence and the ACC may require reasonable screening from the street.",
+    "source_url": "https://www.serratogafallsmd1.org/files/6b86004a3/Rules+and+Regs_SFMD1+-+Approved.pdf",
+    "source_label": "Serratoga Falls Metropolitan District #1, Rules and Regulations, Kitchel Lake, Filing 3 (adopted March 30, 2023), No. 44 Play and Sports Equipment",
+    "effective": "2023-03-30",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "timnath-co.kitchel-lake-playhouses",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Kitchel Lake's rules cap a playhouse at 8 feet tall and 120 square feet of floor space, in the rear yard.",
+    "quote": "Playhouses shall not exceed eight (8) feet in height at the peak, shall have no more than one hundred and twenty (120) square feet of interior floor space, and shall be located in the rear yard of the residence.",
+    "source_url": "https://www.serratogafallsmd1.org/files/6b86004a3/Rules+and+Regs_SFMD1+-+Approved.pdf",
+    "source_label": "Serratoga Falls Metropolitan District #1, Rules and Regulations, Kitchel Lake, Filing 3 (adopted March 30, 2023), No. 45 Playhouses",
+    "effective": "2023-03-30",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "8",
+      "120"
+    ]
+  },
+  {
+    "id": "timnath-co.kitchel-lake-landscape-deadline",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Kitchel Lake's rules give an owner 180 days to install landscaping on a lot bought between April 1 and October 1, and otherwise until the following October 1.",
+    "quote": "The Owner of each Lot (other than Declarant, as defined in the Covenants or a builder with the express written approval of the Declarant) shall install landscaping on such Lot within one hundred eighty (180) days after acquisition of such Lot by such Owner if said acquisition occurs between April 1 and October 1; if said acquisition does not occur between such dates, then such landscaping shall be installed by such Owner by the following October 1.",
+    "source_url": "https://www.serratogafallsmd1.org/files/6b86004a3/Rules+and+Regs_SFMD1+-+Approved.pdf",
+    "source_label": "Serratoga Falls Metropolitan District #1, Rules and Regulations, Kitchel Lake, Filing 3 (adopted March 30, 2023), No. 37 Landscaping and Irrigation",
+    "effective": "2023-03-30",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "180",
+      "1"
+    ]
+  },
+  {
+    "id": "timnath-co.kitchel-lake-plan-approval",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Kitchel Lake's rules require committee approval of a landscaping plan before installation, and of any later change to it.",
+    "quote": "Landscaping plans must be approved by the ACC prior to installation. Once the landscaping plan has been approved, no alterations can be made unless approved by the ACC.",
+    "source_url": "https://www.serratogafallsmd1.org/files/6b86004a3/Rules+and+Regs_SFMD1+-+Approved.pdf",
+    "source_label": "Serratoga Falls Metropolitan District #1, Rules and Regulations, Kitchel Lake, Filing 3 (adopted March 30, 2023), No. 37(A)",
+    "effective": "2023-03-30",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "timnath-co.kitchel-lake-irrigation",
+    "layer": "utility",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "In Kitchel Lake, Serratoga Falls Metropolitan District No. 1 supplies each lot's irrigation water through a private system, with its own watering rules and a separate irrigation fee.",
+    "quote": "Irrigation water for each lot is provided by Serratoga Falls Metropolitan District #1 and each residence shall be required to adhere to Watering Rules and Regulations set by the District. A separate irrigation water fee will be paid by each lot owner for the maintenance of the private irrigation system, including the cost of administration and a reasonable reserve for depreciation.",
+    "source_url": "https://www.serratogafallsmd1.org/files/6b86004a3/Rules+and+Regs_SFMD1+-+Approved.pdf",
+    "source_label": "Serratoga Falls Metropolitan District #1, Rules and Regulations, Kitchel Lake, Filing 3 (adopted March 30, 2023), No. 37(C) Private Irrigation System",
+    "effective": "2023-03-30",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "timnath-co.timnath-ranch-play-equipment",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Timnath Ranch's architectural guidelines require approval for play equipment taller than 7 feet and set play equipment back from rear and side lot lines by at least its own height, never less than 5 feet.",
+    "quote": "ARC approval is required if equipment is more than seven (7) feet in height. Playground equipment to be located from rear and side lot lines a minimum distance equal to the tallest height of the equipment, but not less than 5 feet.",
+    "source_url": "https://www.timnathranchmd.live/files/8c91d1751/Timnath-Ranch-ACC-Guidelines-Amended-2020-06-25-Final.pdf",
+    "source_label": "Timnath Ranch Architectural Guidelines (established 3/13/08, last amended 06/25/20): Play Equipment",
+    "effective": "2020-06-25",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "7",
+      "5"
+    ]
+  },
+  {
+    "id": "timnath-co.timnath-ranch-playground-ground-cover",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Timnath Ranch's guidelines ask for the playground area, with its ground cover noted, to be shown on the approved landscaping plan.",
+    "quote": "A playground area should be designated on the approved landscaping plan for construction of play equipment such as swing sets, playhouses and forts with appropriate ground cover noted therein.",
+    "source_url": "https://www.timnathranchmd.live/files/8c91d1751/Timnath-Ranch-ACC-Guidelines-Amended-2020-06-25-Final.pdf",
+    "source_label": "Timnath Ranch Architectural Guidelines (last amended 06/25/20): Play Equipment",
+    "effective": "2020-06-25",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "timnath-co.timnath-ranch-wind",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Timnath Ranch's guidelines ask owners to secure lightweight play equipment that high winds can move.",
+    "quote": "Consideration should also be given to securing lightweight play equipment, which is subject to movement by high winds.",
+    "source_url": "https://www.timnathranchmd.live/files/8c91d1751/Timnath-Ranch-ACC-Guidelines-Amended-2020-06-25-Final.pdf",
+    "source_label": "Timnath Ranch Architectural Guidelines (last amended 06/25/20): Play Equipment",
+    "effective": "2020-06-25",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "timnath-co.timnath-ranch-front-sod",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Timnath Ranch's guidelines call for front yards to be 50% sod, not counting the driveway and sidewalks.",
+    "quote": "Front yard to be 50% sod, excluding hard surface (i.e.: driveway & sidewalks).",
+    "source_url": "https://www.timnathranchmd.live/files/8c91d1751/Timnath-Ranch-ACC-Guidelines-Amended-2020-06-25-Final.pdf",
+    "source_label": "Timnath Ranch Architectural Guidelines (last amended 06/25/20): Landscaping",
+    "effective": "2020-06-25",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "50"
+    ]
+  },
+  {
+    "id": "timnath-co.timnath-ranch-approval-items",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Timnath Ranch's guidelines list dog runs and enclosures, electric dog fences, playground equipment and swing sets among the items that need committee approval.",
+    "quote": "Storm doors, basketball hoops (portable basketball hoops must be stored when not in use during September through May), playhouse, dog runs/enclosures, electric dog fences, hot tubs, pools, patio enclosures, patio roofs and trellises, awnings, decks, driveways, siding, security bars for windows and doors, window tinting, painting, playground equipment, swing sets, signs, house numbers, clothes lines, site lighting, window air conditioners, swamp coolers, firewood storage, change in color scheme, boat and additional vehicle parking, storage sheds, landscape plan revisions.",
+    "source_url": "https://www.timnathranchmd.live/files/8c91d1751/Timnath-Ranch-ACC-Guidelines-Amended-2020-06-25-Final.pdf",
+    "source_label": "Timnath Ranch Architectural Guidelines (last amended 06/25/20): Additional Items needing Approval",
+    "effective": "2020-06-25",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "timnath-co.timnath-ranch-review-fee",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Timnath Ranch Metropolitan District charges a $150 fee to review an architectural or landscape application and $100 for a minor alteration.",
+    "quote": "A $150 review fee is due upon submittal of the application. Submittals will not be reviewed until they are completed and payment is received in full. All minor alteration review fees are $100.",
+    "source_url": "https://www.timnathranchmd.live/architectural-review",
+    "source_label": "Timnath Ranch Metropolitan District Nos. 1-4, Architectural Review",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "150",
+      "100"
+    ]
+  },
+  {
+    "id": "timnath-co.timnath-ranch-landscape-deadline",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Timnath Ranch's guidelines require a lot to be landscaped the same year when its house is finished between January 1 and August 30, and by May 31 of the next year when it is finished later.",
+    "quote": "All landscaping for lots on which residence has been substantially completed between January 1 and August 30 of any year shall be landscaped in the same year. If the residence is completed after August 30, such landscaping shall be completed by May 31 of the following year.",
+    "source_url": "https://www.timnathranchmd.live/files/8c91d1751/Timnath-Ranch-ACC-Guidelines-Amended-2020-06-25-Final.pdf",
+    "source_label": "Timnath Ranch Architectural Guidelines (last amended 06/25/20): Landscaping Completion",
+    "effective": "2020-06-25",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "30",
+      "31"
+    ]
+  },
+  {
+    "id": "timnath-co.wildwing-common-open-space",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "WildWing's Town-approved landscape plans cover its common open space mostly with irrigated and non-irrigated dryland grasses and limit sodded turf to small areas of visual interest, streetscapes and parks.",
+    "quote": "The Town reviewed and approved the landscaping plans for the WildWing Community. In these approved plans, the landscaping for common open space is predominantly irrigated and non-irrigated dryland grasses. Sodded turf areas are limited to smaller areas of visual interest, streetscapes and parks.",
+    "source_url": "https://www.wildwingmd.live/parks-open-spaces",
+    "source_label": "WildWing Metropolitan District, Parks & Open Spaces",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "timnath-co.prost-survey-amenities",
+    "layer": "research",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "In a Town of Timnath PROST Plan survey, as the WildWing Metropolitan District reports it, 71% of respondents chose playgrounds as one of the most important amenities in neighborhood parks, while a multi-use turf area drew 49% and was listed among those of less importance.",
+    "quote": "Walking paths (91% of respondents)\nMulti-purpose trails (77%)\nPlaygrounds (71%)\nSeating/benches (68%)\nRestrooms (67%)\nNatural areas (61%)\nOf less importance to people are:\nOutdoor swimming pool (59% of respondents)\nLake/pond (58%)\nGathering/events space (58%)\nPicnic shelters (57%)\nMulti-use turf area (49%)",
+    "source_url": "https://www.wildwingmd.live/parks-open-spaces",
+    "source_label": "WildWing Metropolitan District, Parks & Open Spaces (citing the Town of Timnath PROST Plan survey)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [
+      "91",
+      "77",
+      "71",
+      "68",
+      "67",
+      "61",
+      "59",
+      "58",
+      "57",
+      "49"
+    ],
+    "notes": "Secondary: the district quotes the Town's PROST Plan survey without a date. The Town's own PROST documents sit behind timnath.org's Cloudflare challenge."
+  },
+  {
+    "id": "timnath-co.town-no-water-utility",
+    "layer": "utility",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "The Town of Timnath does not provide water utility service.",
+    "quote": "While the Town of Timnath does not provide water utility service, this educational session connects residents with regional expertise and practical water-saving information.",
+    "source_url": "https://web.archive.org/web/20260427162434/https://timnath.org/events_list/spring-water-series-know-your-yard-your-rights-landscaping-rules/",
+    "source_label": "Town of Timnath, Spring Water Series: Know Your Yard – Your Rights & Landscaping Rules (Wayback snapshot 2026-04-27)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "timnath-co.know-your-yard-session",
+    "layer": "utility",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "The Town's April 30, 2026 Spring Water Series session, Know Your Yard, covered what HOAs and metro districts can and cannot require of landscaping and the non-potable irrigation systems used locally.",
+    "quote": "Know Your Yard provides an overview of homeowner landscaping rights, including what HOAs and metro districts can and cannot require. The session also covers state water laws related to irrigation and landscaping, along with a brief discussion of non-potable irrigation systems used locally and what residents should know about them.",
+    "source_url": "https://web.archive.org/web/20260427162434/https://timnath.org/events_list/spring-water-series-know-your-yard-your-rights-landscaping-rules/",
+    "source_label": "Town of Timnath, Spring Water Series: Know Your Yard, April 30, 2026 (Wayback snapshot 2026-04-27)",
+    "effective": "2026-04-30",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "30",
+      "2026"
+    ]
+  },
+  {
+    "id": "timnath-co.code-7-9-340-pet-quantity",
+    "layer": "ordinance",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Timnath's municipal code sets no fixed number of pets per home; it bars keeping more than can be properly maintained without a health or safety hazard or a nuisance to neighbors.",
+    "quote": "In no event shall any person keep at his or her premises more pet animals than can be properly maintained in a healthy condition without presenting a health or safety hazard to the owner, keeper or others and without constituting a nuisance to the occupants of neighboring properties.",
+    "source_url": "https://library.municode.com/co/timnath/codes/municipal_code?nodeId=CD_CH7HESAAN_ART9AN_DIV3RE_S7-9-340QUPEANRE",
+    "source_label": "Timnath Municipal Code Sec. 7-9-340, Quantity of pet animals restricted (Municode, Supp. No. 12)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read through the Municode API (job 475710, Supplement 12). No numeric pet limit appears anywhere in Chapter 7, Article 9."
+  },
+  {
+    "id": "timnath-co.code-7-9-240-pet-waste",
+    "layer": "ordinance",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Timnath's code requires pet owners to pick up feces immediately on property that is not theirs and to remove it from their own yard often enough that it does not become a public nuisance.",
+    "quote": "The owner or keeper of any animal shall be responsible for the immediate removal of any feces deposited by such animal on any property, public or private, not owned or exclusively occupied by the owner or keeper. The owner or keeper of any animal shall also be responsible for the periodic removal of feces deposited by such animal on property owned or exclusively occupied by such owner or keeper so as to prevent the creation of a public nuisance within the meaning of Section 7-9-320 of this Article.",
+    "source_url": "https://library.municode.com/co/timnath/codes/municipal_code?nodeId=CD_CH7HESAAN_ART9AN_DIV3RE_S7-9-240REANWARE",
+    "source_label": "Timnath Municipal Code Sec. 7-9-240, Removal of animal waste required (Municode, Supp. No. 12)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "timnath-co.code-7-9-320-odor-nuisance",
+    "layer": "ordinance",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Timnath's code counts an animal that creates offensive odors which materially interfere with a neighbor at home as a public nuisance, and makes its owner responsible for preventing one.",
+    "quote": "It is unlawful for any owner or keeper to fail to exercise proper care and control of his or her animal to prevent it from becoming a public nuisance. For the purposes of this Section, a public nuisance includes an animal which is a safety or health hazard, damages or destroys the property of another or creates offensive odors which materially interfere with or disrupt another person in the conduct of lawful activities at such person's home.",
+    "source_url": "https://library.municode.com/co/timnath/codes/municipal_code?nodeId=CD_CH7HESAAN_ART9AN_DIV3RE_S7-9-320PUANNUPR",
+    "source_label": "Timnath Municipal Code Sec. 7-9-320, Public animal nuisance prohibited (Municode, Supp. No. 12)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "timnath-co.code-7-9-10-restraint",
+    "layer": "ordinance",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Timnath's code counts a fence or enclosure that keeps a pet on its premises as restraint, and a property that relies on an invisible fence must post a sign saying so.",
+    "quote": "Restraint means: (1) secured by a leash or lead and under the physical control of a responsible person; (2) tethered to a stationary object not within reach of a street, sidewalk, alley, trail or other public access; or (3) within a fence or other enclosure which limits the animal to a particular premises. If the restraint is an invisible fence, a sign indicating the presence of the invisible fence must be posted on the property.",
+    "source_url": "https://library.municode.com/co/timnath/codes/municipal_code?nodeId=CD_CH7HESAAN_ART9AN_DIV1GEPR_S7-9-10DE",
+    "source_label": "Timnath Municipal Code Sec. 7-9-10, Definitions: Restraint (Municode, Supp. No. 12)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "timnath-co.luc-4-4-8-11-care-homes",
+    "layer": "ordinance",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Timnath's land use code, as codified through May 2025, requires a child care home to follow its HOA or metro-district rules but bars the HOA or district from restricting the number or location of child care homes.",
+    "quote": "A Child Care Home provider must also comply with their homeowners association or metropolitan district requirements. In the case where the homeowners association or metropolitan district requirements are more stringent than those imposed by the Town, the care provider must demonstrate to the Town, with appropriate documentation (including the covenant language), how those requirements are being satisfied. However, the homeowners association or metropolitan district shall not restrict the number or location of child care homes.",
+    "source_url": "https://library.municode.com/co/timnath/codes/municipal_code?nodeId=CD_APXALAUSCO_ART4USRECO",
+    "source_label": "Timnath Land Use Code Sec. 4.4.8.11 (Municode, codified through the Land Use Code effective May 12, 2025)",
+    "effective": "2025-05-12",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "UNVERIFIED",
+    "recheck": "2026-10-24",
+    "numbers": [
+      "2025"
+    ],
+    "notes": "UNVERIFIED because the codified text (Municode Supp. 12, Land Use Code Version 17, effective May 12, 2025) may have been amended since: Timnath's compiled Version 22 took effect in March 2026 and sits behind a Cloudflare challenge. OrdBank's posted Land Use Code ordinances (2025 Nos. 18, 20, 28; 2026 Nos. 4, 6, 9) do not amend this section, but not every ordinance since May 2025 is posted there. Read verbatim from Municode. Confirm with Timnath Planning or a browser before publish."
+  },
+  {
+    "id": "timnath-co.luc-5-7-6-2-pocket-parks",
+    "layer": "ordinance",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Timnath's land use code, as codified through May 2025, requires a residential development of more than 6 units to build a pocket park of at least half an acre, with active play areas, maintained by an HOA or district.",
+    "quote": "Every residential development of more than 6 dwelling units shall provide and develop one or more pocket parks in accordance with the requirements of this Code. A pocket park shall be at least one-half acre and include active play areas, shaded areas, and irrigated landscaping, and be maintained by a homeowners association or district.",
+    "source_url": "https://library.municode.com/co/timnath/codes/municipal_code?nodeId=CD_APXALAUSCO_ART5DEST_S5.7STDE",
+    "source_label": "Timnath Land Use Code Sec. 5.7.6.2(B), Pocket parks (Municode, codified through the Land Use Code effective May 12, 2025)",
+    "effective": "2025-05-12",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "UNVERIFIED",
+    "recheck": "2026-10-24",
+    "numbers": [
+      "6",
+      "2025"
+    ],
+    "notes": "UNVERIFIED because the codified text (Municode Supp. 12, Land Use Code Version 17, effective May 12, 2025) may have been amended since: Timnath's compiled Version 22 took effect in March 2026 and sits behind a Cloudflare challenge. OrdBank's posted Land Use Code ordinances (2025 Nos. 18, 20, 28; 2026 Nos. 4, 6, 9) do not amend this section, but not every ordinance since May 2025 is posted there. Read verbatim from Municode. Confirm with Timnath Planning or a browser before publish."
+  },
+  {
+    "id": "timnath-co.luc-ord-28-2025-no-artificial-turf",
+    "layer": "ordinance",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Since Ordinance No. 28, Series 2025, adopted December 9, 2025, Timnath's land use code says no artificial turf may be included in any landscape plan or installed, and lets the Community Development Director allow it only on an athletic field of play.",
+    "quote": "Artificial Turf and Plants. No artificial turf or artificial plants may be included in any landscape plan or installed. The Community Development Director may approve an exception to allow artificial turf to be installed on an athletic field of play if the installation is not prohibited under C.R.S. 37-99-103 and if the Community Development Director determines the use is appropriate, the use does not add pollutants that could cause environmental impairment, and alternatives are not reasonable. Any exception to allow artificial turf must be noted in the landscape plan.",
+    "source_url": "https://library.municode.com/co/timnath/ordinances/municipal_code?nodeId=1412646",
+    "source_label": "Town of Timnath Ordinance No. 28, Series 2025, Land Use Code amendments (adopted Dec. 9, 2025), Exhibit A, Land Use Code Sec. 5.7.7.1(C)(4)",
+    "effective": "2025-12-09",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-24",
+    "numbers": [
+      "2025",
+      "9",
+      "28"
+    ],
+    "notes": "Read from the recorded ordinance PDF in Municode's OrdBank (https://mcclibraryfunctions.azurewebsites.us/api/ordinanceDownload/18279/1412646/pdf), pending codification; Municode's codified Land Use Code stops at the May 12, 2025 version. Strikethrough and insertions read from the page images. OrdBank's later Land Use Code ordinances (2026 Nos. 4, 6 and 9) do not touch these sections. Timnath's compiled Land Use Code Version 22 (timnath.org, effective March 2026) sits behind a Cloudflare challenge; confirm there in a browser. The paragraph's letter follows the ordinance's renumbering (C. Environmental considerations, item 4)."
+  },
+  {
+    "id": "timnath-co.luc-ord-28-2025-single-family-lots",
+    "layer": "ordinance",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "The same December 2025 amendment says individual detached single-family lots need no landscape plan for a building permit, and that their landscaping is only encouraged to follow the section's intent.",
+    "quote": "Landscape plans shall not be required for building permits for individual detached single-family dwelling lots. However, all landscaping on such lots is encouraged to comply with the intent of this Section, including the use of low-water turf species and water-wise planting practices.",
+    "source_url": "https://library.municode.com/co/timnath/ordinances/municipal_code?nodeId=1412646",
+    "source_label": "Town of Timnath Ordinance No. 28, Series 2025, Land Use Code amendments (adopted Dec. 9, 2025), Exhibit A, Land Use Code Sec. 5.7.7.1(A)(4)",
+    "effective": "2025-12-09",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-24",
+    "numbers": [
+      "2025",
+      "28"
+    ],
+    "notes": "Read from the recorded ordinance PDF in Municode's OrdBank (https://mcclibraryfunctions.azurewebsites.us/api/ordinanceDownload/18279/1412646/pdf), pending codification; Municode's codified Land Use Code stops at the May 12, 2025 version. Strikethrough and insertions read from the page images. OrdBank's later Land Use Code ordinances (2026 Nos. 4, 6 and 9) do not touch these sections. Timnath's compiled Land Use Code Version 22 (timnath.org, effective March 2026) sits behind a Cloudflare challenge; confirm there in a browser. Sec. 5.7.7.1(A)(1) applies the section to all new construction 'Except as provided in Subsection A.4'; whether the artificial-turf line reaches a backyard on a detached single-family lot is the Town's call, not stated outright."
+  },
+  {
+    "id": "timnath-co.luc-ord-28-2025-disturbed-sites",
+    "layer": "ordinance",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Timnath's amended landscaping section applies when more than 50% of a site's commercial, industrial, institutional or common-area landscape is disturbed, bringing the whole site into compliance, and smaller projects may not add anything the section prohibits.",
+    "quote": "Modification of a site where more than fifty percent (50%) of the aggregate commercial, industrial, institutional, or common area landscape area on the site is disturbed. 2. For projects meeting any of the thresholds in Subsection A.1, all existing and proposed required landscaped areas on the site shall be brought into compliance with this Section. 3. For projects that do not meet any threshold in Subsection A.1 but include exterior site work, the standards of this Section apply only to required landscaped areas that are newly installed, removed, replaced, or otherwise disturbed as part of the project; existing required landscaped areas outside the limits of disturbance may remain, but no additional elements prohibited by this Section may be installed.",
+    "source_url": "https://library.municode.com/co/timnath/ordinances/municipal_code?nodeId=1412646",
+    "source_label": "Town of Timnath Ordinance No. 28, Series 2025, Land Use Code amendments (adopted Dec. 9, 2025), Exhibit A, Land Use Code Sec. 5.7.7.1(A)(1)(d)-(3)",
+    "effective": "2025-12-09",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-24",
+    "numbers": [
+      "50",
+      "2",
+      "1",
+      "28",
+      "2025"
+    ],
+    "notes": "Read from the recorded ordinance PDF in Municode's OrdBank (https://mcclibraryfunctions.azurewebsites.us/api/ordinanceDownload/18279/1412646/pdf), pending codification; Municode's codified Land Use Code stops at the May 12, 2025 version. Strikethrough and insertions read from the page images. OrdBank's later Land Use Code ordinances (2026 Nos. 4, 6 and 9) do not touch these sections. Timnath's compiled Land Use Code Version 22 (timnath.org, effective March 2026) sits behind a Cloudflare challenge; confirm there in a browser."
+  },
+  {
+    "id": "timnath-co.luc-ord-28-2025-nonfunctional-turf",
+    "layer": "ordinance",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Timnath's amended code prohibits nonfunctional turf on commercial, civic and institutional property, on association-owned common areas such as entryways and parks, and in street rights-of-way, medians and parking lots.",
+    "quote": "Nonfunctional turf is prohibited on the following: a. Any property containing a principal use that is listed as a Public, Institutional, Civic, Commercial, or Industrial use in Table 4.1; and b. Any property within a common interest community as defined in C.R.S. 38-33-3-103(8) that is owned and maintained by a unit owners association, such as entryways, parks, and other common elements; and c. Any portion of a street right-of-way, median, transportation corridor, or parking lot.",
+    "source_url": "https://library.municode.com/co/timnath/ordinances/municipal_code?nodeId=1412646",
+    "source_label": "Town of Timnath Ordinance No. 28, Series 2025, Land Use Code amendments (adopted Dec. 9, 2025), Exhibit A, Land Use Code Sec. 5.7.7.1(C)(3) Turf Limitations",
+    "effective": "2025-12-09",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-24",
+    "numbers": [
+      "4.1",
+      "28",
+      "2025"
+    ],
+    "notes": "Read from the recorded ordinance PDF in Municode's OrdBank (https://mcclibraryfunctions.azurewebsites.us/api/ordinanceDownload/18279/1412646/pdf), pending codification; Municode's codified Land Use Code stops at the May 12, 2025 version. Strikethrough and insertions read from the page images. OrdBank's later Land Use Code ordinances (2026 Nos. 4, 6 and 9) do not touch these sections. Timnath's compiled Land Use Code Version 22 (timnath.org, effective March 2026) sits behind a Cloudflare challenge; confirm there in a browser. 'Turf' here is living grass (Sec. 11.2: 'Continuous plant coverage consisting of grasses')."
+  },
+  {
+    "id": "timnath-co.luc-ord-28-2025-neighborhood-park-threshold",
+    "layer": "ordinance",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "As amended in December 2025, Timnath's land use code requires every residential development of over 300 dwelling units to provide and develop a neighborhood park.",
+    "quote": "Every residential development of over 300 dwelling units shall provide land for a neighborhood park and develop such park that will serve the neighborhood in accordance with the requirements set forth in this Code.",
+    "source_url": "https://library.municode.com/co/timnath/ordinances/municipal_code?nodeId=1412646",
+    "source_label": "Town of Timnath Ordinance No. 28, Series 2025, Land Use Code amendments (adopted Dec. 9, 2025), Exhibit A, Land Use Code Sec. 5.7.6.2(C) Neighborhood parks",
+    "effective": "2025-12-09",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-24",
+    "numbers": [
+      "300",
+      "2025",
+      "28"
+    ],
+    "notes": "Read from the recorded ordinance PDF in Municode's OrdBank (https://mcclibraryfunctions.azurewebsites.us/api/ordinanceDownload/18279/1412646/pdf), pending codification; Municode's codified Land Use Code stops at the May 12, 2025 version. Strikethrough and insertions read from the page images. OrdBank's later Land Use Code ordinances (2026 Nos. 4, 6 and 9) do not touch these sections. Timnath's compiled Land Use Code Version 22 (timnath.org, effective March 2026) sits behind a Cloudflare challenge; confirm there in a browser."
+  },
+  {
+    "id": "timnath-co.luc-ord-28-2025-neighborhood-park-turf-struck",
+    "layer": "ordinance",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Ordinance No. 28, Series 2025 struck the clause that had let artificial turf count, case by case, toward the 70% of a subdivision's neighborhood park that must be active play areas and irrigated landscaping.",
+    "quote": "At least 70% of the parkland must consist of active play areas and irrigated landscaping, incorporating at least two of the following: playgrounds, multi-purpose courts, multi-purpose play fields, and shaded areas for picnics and sitting (artificial turf similar in appearance to live turf grass may be allowed in this percentage on a case-by-case basis with review and approval by the Community Development Director).",
+    "source_url": "https://library.municode.com/co/timnath/ordinances/municipal_code?nodeId=1412646",
+    "source_label": "Town of Timnath Ordinance No. 28, Series 2025, Land Use Code amendments (adopted Dec. 9, 2025), Exhibit A, Land Use Code Sec. 5.7.6.2(C) Neighborhood parks (clause shown struck)",
+    "effective": "2025-12-09",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-24",
+    "numbers": [
+      "2025",
+      "70",
+      "28"
+    ],
+    "notes": "Read from the recorded ordinance PDF in Municode's OrdBank (https://mcclibraryfunctions.azurewebsites.us/api/ordinanceDownload/18279/1412646/pdf), pending codification; Municode's codified Land Use Code stops at the May 12, 2025 version. Strikethrough and insertions read from the page images. OrdBank's later Land Use Code ordinances (2026 Nos. 4, 6 and 9) do not touch these sections. Timnath's compiled Land Use Code Version 22 (timnath.org, effective March 2026) sits behind a Cloudflare challenge; confirm there in a browser. The parenthetical from 'artificial turf' through 'Community Development Director' is printed in strikethrough in Exhibit A; the same exhibit strikes the matching case-by-case line in Sec. 5.7.8.1(B) (street landscaping), which supersedes shared record timnath-luc-5.7-case-by-case. The amended 5.7.6.2(C) applies to residential developments of over 300 dwelling units."
+  },
+  {
+    "id": "timnath-co.luc-ord-28-2025-high-water-grass",
+    "layer": "ordinance",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "In required common open space, including pocket and neighborhood parks, Timnath's amended code allows bluegrass or other high-water turf grass only in areas used for recreation or civic or community purposes, such as playgrounds and sports fields.",
+    "quote": "Bluegrass or other turf grass with a high water requirement may only be planted in areas or spaces used for recreation or for civic or community purposes. Such purposes may include playgrounds, sports fields or other athletics programming, picnic grounds, and amphitheaters.",
+    "source_url": "https://library.municode.com/co/timnath/ordinances/municipal_code?nodeId=1412646",
+    "source_label": "Town of Timnath Ordinance No. 28, Series 2025, Land Use Code amendments (adopted Dec. 9, 2025), Exhibit A, Land Use Code Sec. 5.7.8.1(D)",
+    "effective": "2025-12-09",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-24",
+    "numbers": [
+      "28",
+      "2025"
+    ],
+    "notes": "Read from the recorded ordinance PDF in Municode's OrdBank (https://mcclibraryfunctions.azurewebsites.us/api/ordinanceDownload/18279/1412646/pdf), pending codification; Municode's codified Land Use Code stops at the May 12, 2025 version. Strikethrough and insertions read from the page images. OrdBank's later Land Use Code ordinances (2026 Nos. 4, 6 and 9) do not touch these sections. Timnath's compiled Land Use Code Version 22 (timnath.org, effective March 2026) sits behind a Cloudflare challenge; confirm there in a browser."
+  },
+  {
+    "id": "timnath-co.code-7-9-300-dog-parks",
+    "layer": "ordinance",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Timnath's code requires pets to be kept under restraint and exempts dogs in areas designated or signed for animals at large, such as dog parks.",
+    "quote": "All pet animals shall be kept under restraint. It shall be unlawful for the owner or keeper of pet animal to allow such animal to be at large in the Town. The following shall be exempt from this prohibition: (1) Dogs under the control of a public law enforcement agency. (2) Dogs in areas designated or signed permitting animals to be at large, such as dog parks.",
+    "source_url": "https://library.municode.com/co/timnath/codes/municipal_code?nodeId=CD_CH7HESAAN_ART9AN_DIV3RE_S7-9-300ANLAPR",
+    "source_label": "Timnath Municipal Code Sec. 7-9-300, Animals at large prohibited (Municode, Supp. No. 12)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read through the Municode API (job 475710, Supplement 12)."
+  },
+  {
+    "id": "timnath-co.code-7-9-110-dog-license",
+    "layer": "ordinance",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Timnath's code requires the owner of a dog kept in town to license it within 30 days of getting the dog or moving to town, and to keep the license current.",
+    "quote": "The owner or keeper of any dog kept within the Town shall secure, within 30 days of acquiring possession of said dog or moving to the Town, a license for the keeping of the same, which license shall at all times be kept current by said owner or keeper.",
+    "source_url": "https://library.municode.com/co/timnath/codes/municipal_code?nodeId=CD_CH7HESAAN_ART9AN_DIV2ANLI_S7-9-110LIRE",
+    "source_label": "Timnath Municipal Code Sec. 7-9-110, License required (Municode, Supp. No. 12)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "30"
+    ],
+    "notes": "Read through the Municode API (job 475710, Supplement 12). Article 9 has no kennel or dog-run permit section."
+  },
+  {
+    "id": "timnath-co.noco-humane-partner",
+    "layer": "place",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "NOCO Humane provides animal protection and control services for the Town of Timnath.",
+    "quote": "We are proud to partner with the Town of Timnath to provide Animal Protection & Control services.",
+    "source_url": "https://www.nocohumane.org/animal-control/timnath/",
+    "source_label": "NOCO Humane, Animal Protection & Control: Timnath",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "timnath-co.noco-humane-license-annual",
+    "layer": "place",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "NOCO Humane's Timnath page says all cats and dogs older than four months must be licensed every year.",
+    "quote": "All cats and dogs older than four months must be licensed annually.",
+    "source_url": "https://www.nocohumane.org/animal-control/timnath/",
+    "source_label": "NOCO Humane, Animal Protection & Control: Timnath (License your pet)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "timnath-co.code-form-not-animal",
+    "layer": "place",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "The Town's code-violation form says not to use it for animal control complaints, which go to NOCO Humane.",
+    "quote": "Please fill out this form to report a code violation within Timnath Town limits.Don’t use this form for animal control complaints or complaints against properties not within Town limits.",
+    "source_url": "https://web.archive.org/web/20260810221035/https://timnath.org/code-enforcement/",
+    "source_label": "Town of Timnath, Code Enforcement and Animal Control (Wayback snapshot 2026-08-10)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The same page says 'Animal Protection and Control is provided by the NOCO Humane.' timnath.org returns a Cloudflare challenge to automated fetch; read from the Wayback copy."
+  },
+  {
+    "id": "timnath-co.timnath-ranch-play-colors",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Timnath Ranch's guidelines require committee approval of swing-set and play-equipment colors, submitted with the plans.",
+    "quote": "Swing sets and play equipment colors must be approved by the ARC. Colors must be submitted with the plans.",
+    "source_url": "https://www.timnathranchmd.live/files/8c91d1751/Timnath-Ranch-ACC-Guidelines-Amended-2020-06-25-Final.pdf",
+    "source_label": "Timnath Ranch Architectural Guidelines (last amended 06/25/20): Play Equipment",
+    "effective": "2020-06-25",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "timnath-co.wildwing-field-priority",
+    "layer": "place",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "WildWing Park takes field and court reservations, and a group that reserves the fields gets priority use of them.",
+    "quote": "When the fields have been reserved, that organization shall have access and priority to the use of the facility.",
+    "source_url": "https://web.archive.org/web/20251210230709/https://timnath.org/wildwing-park/",
+    "source_label": "Town of Timnath, WildWing Park: Park Rules (Wayback snapshot 2025-12-10)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The same page offers a 'Field/Court Reservations' form."
+  }
+]

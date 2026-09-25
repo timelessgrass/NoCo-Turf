@@ -1,0 +1,218 @@
+{
+  "status": "draft",
+  "town": "loveland-co",
+  "service": "pet-turf",
+  "title": "Dog Runs and Pet Turf in Loveland, CO | NoCo Turf Co.",
+  "description": "Loveland's animal code reaches the yard: waste pickup on private property, odor as a nuisance, no set pet count, and dog runs listed as accessory structures.",
+  "h1": "In Loveland, the dog-waste rule covers your own yard, not just the parks.",
+  "display": {
+    "paint": "covers your own yard"
+  },
+  "lede": "A dog run in Loveland answers to two titles of the municipal code: Title 6, which governs the animals, and Title 18, which names a dog run as an accessory structure. What each one says is below, with the city's two dog parks for comparison.",
+  "answer": {
+    "question": "How many dogs can I keep in Loveland?",
+    "answer": "Loveland's code sets no number. A home may keep as many pets as it can maintain in a healthy condition without creating a health or safety hazard or a nuisance for the neighbors. Each dog still needs a city license within 14 days of the owner getting it, renewed every year."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Section 6.20.050",
+      "h2": "Loveland's code wants dog waste picked up right away, on private property too.",
+      "takeaway": "The pickup rule that applies on a Loveland sidewalk applies behind your fence as well.",
+      "paras": [
+        "Loveland's animal code makes it unlawful to leave an animal's feces on streets, sidewalks, parks, private property or in water; the owner has to remove it immediately after the animal goes. A backyard dog run is private property, so the rule reaches it.",
+        "Neighbors have a second hook in section 6.20.040: an animal that creates offensive odors materially interfering with someone's lawful use of their home is a public nuisance, and the owner is strictly liable. The section sets no rinse schedule for a turf run; the test is whether the smell materially disrupts a neighbor's lawful use of their home."
+      ],
+      "layerRefs": [
+        "loveland-co.lmc-6-20-050-waste",
+        "loveland-co.lmc-6-20-040-odor"
+      ],
+      "sources": [
+        "https://library.municode.com/co/loveland/codes/code_of_ordinances?nodeId=PTIILOCOMUCO_TIT6AN_CH6.20CO_6.20.050ANWARE",
+        "https://library.municode.com/co/loveland/codes/code_of_ordinances?nodeId=PTIILOCOMUCO_TIT6AN_CH6.20CO_6.20.040PUNU"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Chapters 6.08, 6.20 and 6.28",
+      "h2": "Loveland caps pets by condition, not by count.",
+      "paras": [
+        "No dog limit is written as a number in Loveland's code. Section 6.28.010 bars keeping more pets than a home can keep healthy without a health or safety hazard, or than it can keep without becoming a nuisance to neighboring properties.",
+        "A dog kept in the city needs a Loveland license within 14 days of the owner getting it, renewed each year. If a fence holds the dogs in, section 6.20.010 makes the owner answer for it being built to hold them and kept in good repair. Barking is its own section: loud and persistent barking is barred, but a charge needs a written warning to the household from police or animal control within the preceding 12 months."
+      ],
+      "layerRefs": [
+        "loveland-co.lmc-6-28-010-pets",
+        "loveland-co.lmc-6-08-010-license",
+        "loveland-co.lmc-6-20-010-at-large-fence",
+        "loveland-co.lmc-6-20-020-barking"
+      ],
+      "sources": [
+        "https://library.municode.com/co/loveland/codes/code_of_ordinances?nodeId=PTIILOCOMUCO_TIT6AN_CH6.28KEAN_6.28.010LINUHOPE",
+        "https://library.municode.com/co/loveland/codes/code_of_ordinances?nodeId=PTIILOCOMUCO_TIT6AN_CH6.08LI_6.08.010LIRE",
+        "https://library.municode.com/co/loveland/codes/code_of_ordinances?nodeId=PTIILOCOMUCO_TIT6AN_CH6.20CO_6.20.010ANLA",
+        "https://library.municode.com/co/loveland/codes/code_of_ordinances?nodeId=PTIILOCOMUCO_TIT6AN_CH6.20CO_6.20.020DIPEQU"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Title 18, accessory structures",
+      "h2": "The development code lists a dog run as an accessory structure.",
+      "paras": [
+        "Loveland's Unified Development Code gives dog runs and animal pens, next to detached garages, carports and sheds, as examples of accessory structures on a residential lot. Accessory structures stay at least as far back from the front lot line as the house itself and five feet from interior side and alley lot lines; at the interior rear the setback is five feet or one foot per four feet of height, whichever is more.",
+        "Whether a turf area with no fence or kennel counts as a dog run in that sense isn't spelled out. It depends on what gets built around the turf; ask Loveland Planning before a fenced run goes tight against a side or rear lot line. Boarding other people's dogs is a different use: the code defines an outdoor kennel as a facility where four or more pets of one species are temporarily housed, groomed, bred, boarded or trained, with outdoor runs."
+      ],
+      "layerRefs": [
+        "loveland-co.udc-accessory-dog-runs",
+        "loveland-co.udc-accessory-setbacks",
+        "loveland-co.udc-kennel-outdoor"
+      ],
+      "sources": [
+        "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=4728",
+        "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=4092",
+        "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=4124"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "Fairgrounds and Mehaffey",
+      "h2": "Loveland chose different ground at its two dog parks: river-corridor material at Fairgrounds, crushed fines at Mehaffey.",
+      "paras": [
+        "The city's off-leash areas at Fairgrounds Park and Mehaffey Park are both fenced, each with its own enclosure for small or shy dogs. The city says the Fairgrounds surface is similar to what you would expect along the Big Thompson River corridor, and that Mehaffey's crushed fines are there to reduce the need for weed control.",
+        "Park rules require dogs there to be vaccinated, licensed and tagged, and make owners responsible for any holes or damage their dogs cause. Pets are barred from the synthetic Championship Field at Loveland Sports Park and from within 100 feet of other fields and courts while games or practices are on."
+      ],
+      "layerRefs": [
+        "loveland-co.dog-parks",
+        "loveland-co.dog-park-rules",
+        "loveland-co.sports-park-synthetic-field"
+      ],
+      "sources": [
+        "https://www.lovgov.org/services/parks-recreation/parks-facilities/dog-parks",
+        "https://www.lovgov.org/services/parks-recreation/rules-regulations",
+        "https://www.lovgov.org/services/parks-recreation/parks-facilities/parks-reservation-spaces/loveland-sports-park"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Apartments and HOA ground",
+      "h2": "On shared ground, Loveland's code counts a dog park area as functional turf.",
+      "paras": [
+        "Since March 17, 2026, Loveland's definition of functional artificial turfgrass has named a dog park area within a park, so turf in an HOA or apartment dog area can qualify where decorative turf on common ground cannot. General multifamily developments with more than 20 units must provide on-site amenities, and dog parks, where pets are allowed, are on the code's list.",
+        "Residential subdivisions of 50 or more homes owe outdoor recreation land as well, and a dog park is one of the uses the code names for it."
+      ],
+      "layerRefs": [
+        "loveland-co.udc-functional-artificial-turf",
+        "loveland-co.udc-multifamily-amenities",
+        "loveland-co.udc-subdivision-recreation"
+      ],
+      "sources": [
+        "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=5933",
+        "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=4215",
+        "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=4425"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can my dog run loose in my Loveland subdivision's open space?",
+      "a": "Not unless public authorities post permission. Loveland's code bars letting a dog run at large in subdivision open space, in apartment and condominium common areas and in public parks and trails. Away from your own premises a dog stays leashed, except inside a fenced park designated for off-leash use."
+    },
+    {
+      "q": "Does Loveland's 2026 turf ordinance limit a dog run in my own yard?",
+      "a": "No. The city leaves single-family lots, and private lots in duplex, condo and townhome developments, out of the 2026 rules; the [Loveland page](/areas/loveland-co/) covers that. Your HOA's design rules still apply to a run in the yard."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Loveland Municipal Code Sec. 6.20.050, Animal waste removal (codified through Ord. No. 6804, Dec. 16, 2025)",
+      "url": "https://library.municode.com/co/loveland/codes/code_of_ordinances?nodeId=PTIILOCOMUCO_TIT6AN_CH6.20CO_6.20.050ANWARE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Loveland Municipal Code Sec. 6.20.040, Public nuisance",
+      "url": "https://library.municode.com/co/loveland/codes/code_of_ordinances?nodeId=PTIILOCOMUCO_TIT6AN_CH6.20CO_6.20.040PUNU",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Loveland Municipal Code Sec. 6.28.010, Limitations on the number of household pets",
+      "url": "https://library.municode.com/co/loveland/codes/code_of_ordinances?nodeId=PTIILOCOMUCO_TIT6AN_CH6.28KEAN_6.28.010LINUHOPE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Loveland Municipal Code Secs. 6.08.010 and 6.08.020, Licenses",
+      "url": "https://library.municode.com/co/loveland/codes/code_of_ordinances?nodeId=PTIILOCOMUCO_TIT6AN_CH6.08LI_6.08.010LIRE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Loveland Municipal Code Sec. 6.20.010, Animal at large",
+      "url": "https://library.municode.com/co/loveland/codes/code_of_ordinances?nodeId=PTIILOCOMUCO_TIT6AN_CH6.20CO_6.20.010ANLA",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Loveland Municipal Code Sec. 6.20.020, Disturbance of peace and quiet",
+      "url": "https://library.municode.com/co/loveland/codes/code_of_ordinances?nodeId=PTIILOCOMUCO_TIT6AN_CH6.20CO_6.20.020DIPEQU",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Loveland Unified Development Code, Div. 18.19.03, \"Accessory Structure\"",
+      "url": "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=4728",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Loveland Unified Development Code, Sec. 18.04.07.02, Accessory Structures",
+      "url": "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=4092",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Loveland Unified Development Code, Div. 18.19.03, \"Kennel (Outdoor)\"",
+      "url": "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=4124",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Loveland Parks & Recreation, Dog Parks page, read from the Wayback Machine capture of Feb. 17, 2026",
+      "url": "https://www.lovgov.org/services/parks-recreation/parks-facilities/dog-parks",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Loveland Parks & Recreation, Rules & Regulations page, read from the Wayback Machine capture of April 11, 2026",
+      "url": "https://www.lovgov.org/services/parks-recreation/rules-regulations",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Loveland Unified Development Code, Div. 18.19.03, \"Functional Artificial Turfgrass\" (Ord. 6819, effective March 17, 2026)",
+      "url": "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=5933",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Loveland Unified Development Code, Sec. 18.06.07.03, General Multifamily",
+      "url": "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=4215",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Loveland Unified Development Code, Sec. 18.06.03.01, Outdoor Recreation Areas",
+      "url": "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=4425",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Loveland, Landscape Changes project page (Ordinance 6819)",
+      "url": "https://www.letstalkloveland.org/landscape-changes",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Loveland Parks & Recreation, Loveland Sports Park page, read from the Wayback Machine capture of April 27, 2026",
+      "url": "https://www.lovgov.org/services/parks-recreation/parks-facilities/parks-reservation-spaces/loveland-sports-park",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Confirm NoCo builds dog runs and pet turf in Loveland today, and name any Loveland dog-run jobs: neighborhood, month, rough size, number of dogs",
+    "Camera-original photos of a Loveland dog run (photos.ts has no photo with use \"pet\" from anywhere yet, so no photo is set)",
+    "Any Loveland HOA, apartment or dog-daycare turf area you have built or bid, and whether the city treated it as functional turf",
+    "Any Loveland job where a fenced run sat near a side or rear lot line and Planning weighed in on setbacks"
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "status": "draft",
+  "town": "severance-co",
+  "service": "commercial-turf",
+  "title": "Commercial and HOA Turf in Severance, CO | NoCo Turf Co.",
+  "description": "Severance's code calls for irrigated turf on active recreation areas unless the Town approves an alternative. What that means for HOA and business sites.",
+  "h1": "Severance's code calls for irrigated turf on active recreation areas unless the Town approves an alternative",
+  "display": {
+    "paint": "unless the Town approves an alternative"
+  },
+  "lede": "Severance rewrote its Land Use Code in August 2025 without an artificial-turf section, so turf on commercial sites, apartment grounds and common areas runs through its landscape tables, its open space rules and Colorado's 2026 ban on nonfunctional turf.",
+  "answer": {
+    "question": "Can a business or HOA in Severance install artificial turf?",
+    "answer": "With limits. On apartment and commercial sites, Severance's Land Use Code calls for irrigated turf on active recreation areas unless the Town approves an alternative, and since January 1, 2026 Colorado has barred nonfunctional turf in new development and redevelopment, HOA common areas included. Not legal advice. NoCo Turf Co. installs commercial and HOA turf in Severance."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Sections 16.6.120 and 16.6.230",
+      "h2": "On apartment and commercial sites, active recreation areas get irrigated turf unless an alternative is approved.",
+      "paras": [
+        "The landscape tables for multifamily projects (Section 16.6.120) and for commercial and office projects (Section 16.6.230) both say irrigated turf, or an alternative as approved, shall be used for active recreation areas and kept to industry standards. The multifamily table names the approver: the Town Manager or a designee. Neither table names artificial turf, so turf on a play lawn or court surround would be asking for that alternative. It depends on the site plan; ask Severance Planning.",
+        "The commercial table also wants live, irrigated, lower-water ground cover on at least 75% of the landscape area in the Suburban Perimeter and Development Node districts, unless more hardscape is allowed or an alternative is approved, and it encourages weed-free native grass, kept at 8 inches or less, wherever no one will play."
+      ],
+      "layerRefs": [
+        "severance-co.code-16-6-120-multifamily-landscape",
+        "severance-co.code-16-6-230-nonres-landscape"
+      ],
+      "sources": [
+        "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART6DEST_DIV1MUMIREDEST_S16.6.120MUMILASTST",
+        "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART6DEST_DIV2NOCOOFDEDEST_S16.6.230NOCOOFLASTDEST"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Open space",
+      "h2": "A new Severance neighborhood owes a quarter of its land as functional open space.",
+      "paras": [
+        "Section 16.5.115 requires residential developments to set aside at least 25% of gross land area as functional open space, no more than a fifth of it passive, and projects of 50 or more units to build a centrally located multifunctional park. Nonresidential projects owe 15%.",
+        "Grass in that open space is sized to its use. Turf areas avoid rectangles unless a sport needs one, turf grasses must be drought tolerant, and medium- or high-water grass is kept to high-use or high-visibility spots. Section 16.5.130 then scores the amenities: playgrounds by playground zone area, a large dog park, a dog run, and court games of at least 1,000 square feet."
+      ],
+      "layerRefs": [
+        "severance-co.code-16-5-115-open-space",
+        "severance-co.code-16-5-130-amenity-points",
+        "severance-co.code-16-1-310-functional-open-space"
+      ],
+      "sources": [
+        "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART5SIDEST_DIV1OPSPBUPECO_S16.5.115OPSPST",
+        "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART5SIDEST_DIV1OPSPBUPECO_S16.5.130AMPO",
+        "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART1GEPR_DIV3DE_S16.1.310DE"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "School fields",
+      "h2": "Severance High School's stadium already plays on a turf field.",
+      "paras": [
+        "Severance High School was built for the Weld RE-4 School District as a 168,000-square-foot school on a site of more than 45 acres. Its builder lists a football stadium complete with a turf field and track, beside baseball, softball, lacrosse and soccer fields and four tennis courts.",
+        "A school sports field is the plainest case of functional turf under the state definition, and this one belongs to the district rather than the Town, so questions about it go to Weld RE-4."
+      ],
+      "layerRefs": [
+        "severance-co.severance-high-school-fields"
+      ],
+      "sources": [
+        "https://www.sampson-construction.com/projects/severance-high-school"
+      ]
+    },
+    {
+      "kind": "utility",
+      "own": true,
+      "kicker": "Watering days",
+      "h2": "HOA common areas and businesses on Town water get Sunday, Wednesday and Friday, unless another system waters them.",
+      "paras": [
+        "Severance's watering page gives HOA common areas, apartments, businesses, churches and institutions on Town water Sunday, Wednesday and Friday, inside the Town-wide hours and winter shutoff shown on the [Severance page](/areas/severance-co/). The schedule doesn't apply to approved non-potable systems, listed in Hunters Crossing, The Overlook, Severance Shores, The Reserve, Settler's Landing and Tailholt, or to North Weld County Water District systems, and the Town Manager may grant a variance to establish new lawns or landscaping.",
+        "Hunters Overlook's non-potable system ran tighter this year: the Hunters Overlook Water Activity Enterprise's 2026 letter put parks, open space, trees and tree lawns on about 2 irrigation days a week and non-essential areas on one. On Town taps, Section 13-1-120 caps one equivalent residential unit at 200,000 gallons a year and lets the Town require more ERUs, with added fees or raw water, from a property that draws more."
+      ],
+      "layerRefs": [
+        "severance-co.watering-schedule-scope",
+        "severance-co.howae-2026-restrictions",
+        "severance-co.code-13-1-120-eru-gallons"
+      ],
+      "sources": [
+        "https://www.townofseverance.org/396/Watering-Guidelines-and-Restrictions",
+        "https://homd.specialdistrict.org/files/70a8402c2/2026+Seasonal+Water+Correspondence+%26+Restrictions.pdf",
+        "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH13MUUT_ART1UTSE"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": false,
+      "kicker": "State law",
+      "h2": "With no turf section of its own, Severance leans on Colorado's 2026 ban.",
+      "paras": [
+        "Ordinance No. 2025-15 replaced Chapter 16 in August 2025. As codified through December 9, 2025, the code defines landscaping by living plants and turf grasses and says nothing of artificial turf, and no 2026 ordinance on the Town's list, through 2026-08, is titled as a turf or landscape standard.",
+        "That leaves the state rule, which binds towns and metro districts directly: since January 1, 2026 neither may install or allow nonfunctional artificial turf in new development or redevelopment on commercial, institutional, industrial or HOA common property. Playgrounds, sports fields, picnic grounds and parts of parks count as functional and remain allowed. Not legal advice."
+      ],
+      "layerRefs": [
+        "severance-co.code-16-1-310-landscaping",
+        "severance-co.ordinances-2026",
+        "severance-code-no-turf-provision",
+        "co-sb24-005-nonfunctional-ban",
+        "co-sb24-005-applicable-property",
+        "co-hb25-1113-functional-turf",
+        "co-sb24-005-maintain-existing",
+        "co-hb25-1113-multifamily-2028"
+      ],
+      "sources": [
+        "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART1GEPR_DIV3DE_S16.1.310DE",
+        "https://www.townofseverance.org/255/Ordinances",
+        "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH7HESAAN_ART5TRST_S7-5-10DE",
+        "https://leg.colorado.gov/bill_files/40673/download",
+        "https://leg.colorado.gov/bill_files/45372/download"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can turf installed before 2026 stay on a Severance property?",
+      "a": "Colorado's law doesn't stop a town from letting turf installed before January 1, 2026 be maintained. Whether tearing it out and replacing it counts as maintenance hasn't been settled. It depends on the project; ask Severance Planning."
+    },
+    {
+      "q": "When does the state ban reach Severance multifamily common areas?",
+      "a": "On January 1, 2028. From then, new development and redevelopment can't add nonfunctional turf to the common areas, such as entryways and parks, of multifamily properties with more than 12 dwelling units."
+    },
+    {
+      "q": "What counts as functional open space in Severance?",
+      "a": "Open space large enough to serve a practical purpose, such as recreation, wildlife habitat or preserving agricultural, archaeological or historical areas. The definition leaves out off-street parking and loading, service driveways and setbacks from oil and gas wells."
+    },
+    {
+      "q": "Do HOAs and metro districts in Severance add rules of their own?",
+      "a": "They can. The Town's HOAs and Metro Districts 101 page says both may have stricter standards than its municipal codes, and the Hidden Valley Farm Service Metropolitan District recommends no more than 2,500 square feet of spray-irrigated landscape per lot."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Severance Land Use Code Sec. 16.6.120, Multi-family landscaping and streetscape standards (Ord. No. 2025-15, Aug. 12, 2025)",
+      "url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART6DEST_DIV1MUMIREDEST_S16.6.120MUMILASTST",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Severance Land Use Code Sec. 16.6.230, Nonresidential commercial and office landscaping standards (Ord. No. 2025-15, Aug. 12, 2025)",
+      "url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART6DEST_DIV2NOCOOFDEDEST_S16.6.230NOCOOFLASTDEST",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Severance Land Use Code Sec. 16.5.115, Open space standards (Ord. No. 2025-15, Aug. 12, 2025)",
+      "url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART5SIDEST_DIV1OPSPBUPECO_S16.5.115OPSPST",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Severance Land Use Code Sec. 16.5.130, Amenity points (Ord. No. 2025-15, Aug. 12, 2025)",
+      "url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART5SIDEST_DIV1OPSPBUPECO_S16.5.130AMPO",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Severance Land Use Code Sec. 16.1.310, Definitions (Ord. No. 2025-15, Aug. 12, 2025; codified through Ord. No. 2025-27, Dec. 9, 2025)",
+      "url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH16LAUSCO_ART1GEPR_DIV3DE_S16.1.310DE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Sampson Construction, project page: Severance High School (client: Weld Re-4 School District)",
+      "url": "https://www.sampson-construction.com/projects/severance-high-school",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Severance, Watering Guidelines and Restrictions (read September 25, 2026)",
+      "url": "https://www.townofseverance.org/396/Watering-Guidelines-and-Restrictions",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Hunters Overlook Water Activity Enterprise, 2026 Seasonal Water Correspondence & Restrictions (posted by Hunters Overlook Metropolitan District Nos. 1-8)",
+      "url": "https://homd.specialdistrict.org/files/70a8402c2/2026+Seasonal+Water+Correspondence+%26+Restrictions.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Severance Municipal Code Secs. 13-1-20 (ERU definition) and 13-1-120(e) (codified through Ord. No. 2025-27, Dec. 9, 2025)",
+      "url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH13MUUT_ART1UTSE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Severance, Ordinances page (2026 list, read September 25, 2026)",
+      "url": "https://www.townofseverance.org/255/Ordinances",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Severance Municipal Code Sec. 7-5-10 (definitions; codified through Ord. No. 2025-27, Dec. 9, 2025)",
+      "url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH7HESAAN_ART5TRST_S7-5-10DE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "HB25-1113 signed act: C.R.S. 37-99-102(6.5) and 37-99-103, as amended",
+      "url": "https://leg.colorado.gov/bill_files/40673/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "SB24-005 signed act: C.R.S. 37-99-102 and 37-99-103",
+      "url": "https://leg.colorado.gov/bill_files/45372/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Severance, HOAs and Metro Districts 101",
+      "url": "https://townofseverance.org/385/HOAs-and-Metro-Districts-101",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Hidden Valley Farm Design Guidelines, Design Review Council (PDF, last modified Oct. 18, 2023)",
+      "url": "https://www.hiddenvalleyfarmmd.live/files/0e0b82caf/DRC+Guidelines+Final+-+Including+Fence+Detail.pdf",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Commercial, HOA, metro district, school or apartment turf you have bid or installed in Severance: site, month, size and use",
+    "Camera-original photos of your own commercial, HOA or sports job (no photo in photos.ts carries the commercial use yet)",
+    "Whether the Town has approved artificial turf as the 'alternative' to irrigated turf on an active recreation area (Secs. 16.6.120 / 16.6.230) on any project you know of",
+    "Severance HOAs or metro districts you have worked with on common areas (Hidden Valley Farm, Timber Ridge, Tailholt, Hunters Overlook, Severance Shores, Saddler Ridge), and whether a district water letter changed the plan"
+  ]
+}

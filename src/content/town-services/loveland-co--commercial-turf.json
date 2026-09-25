@@ -1,0 +1,145 @@
+{
+  "status": "draft",
+  "town": "loveland-co",
+  "service": "commercial-turf",
+  "title": "Commercial and HOA Artificial Turf in Loveland, CO | NoCo Turf Co.",
+  "description": "Loveland's 2026 code puts nonfunctional artificial turf on its prohibited plant list for business, HOA and parking-lot ground. What still counts as functional.",
+  "h1": "Loveland's code puts nonfunctional artificial turf on its prohibited plant list.",
+  "display": { "paint": "prohibited plant list" },
+  "lede": "Since March 17, 2026, a Loveland landscape plan for a business, an institution or an HOA's common ground handles decorative artificial turf the way it handles an invasive weed: it can't be planted, and it comes out when the site develops or redevelops. Turf that people play on, run dogs on or putt on is a separate question, and the code answers it too.",
+  "answer": {
+    "question": "Where can artificial turf still go on a Loveland commercial or HOA site?",
+    "answer": "Where people use it. Loveland's code counts artificial turf as functional on a playground, a sports field, a dog park or warm-up area of a park, or a golf playing area. Turf installed only for looks or low upkeep is on the city's prohibited plant list for commercial, institutional, industrial and HOA common ground."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Sec. 18.08.02.01.C",
+      "h2": "Decorative turf shares a list with noxious weeds.",
+      "takeaway": "Loveland's prohibited plant list, in the version that took effect March 17, 2026, has three entries, and the middle one is nonfunctional turf, living or artificial, on commercial, industrial, institutional and common interest community property.",
+      "paras": [
+        "The other two entries are plants the United States or Colorado identifies as noxious, invasive or prohibited, and plants on a list the Director keeps. The turf entry also reaches street rights-of-way, parkways, parking lots, medians and transportation corridors. The code says listed plants are not allowed in the city, and whatever is already on a property has to come out during development or redevelopment.",
+        "The code gives parkway a meaning of its own: the landscaped strip between the sidewalk and the curb, which older versions of the code called a street tree lawn. It calls artificial turf nonfunctional when it serves no active purpose, including turf installed only for aesthetic or maintenance purposes. A strip of turf at an office park entrance, chosen because it never needs mowing, fits that wording."
+      ],
+      "layerRefs": ["loveland-co.udc-prohibited-nonfunctional-turf", "loveland-co.udc-nonfunctional-artificial-turf", "loveland-co.udc-parkway"],
+      "sources": [
+        "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=4233",
+        "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=5935",
+        "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=5937"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "When a site counts as redeveloped",
+      "h2": "Loveland measures redevelopment by the buildings, where the state measures the landscape.",
+      "paras": [
+        "Colorado's turf law treats a project as redevelopment once it needs a permit, plan check or design review and disturbs more than 50% of the landscape area. Loveland's project page sets out a city test and says plainly that it differs: more than 75 percent of the floor area on site demolished and rebuilt along with at least 50 percent more gross floor area, or new building permits worth more than twice the appraised value of the land and improvements.",
+        "The city's FAQ adds that the state law requires nonfunctional turf to come out for projects needing a building permit or any site-specific development plan, and that Loveland is still working on guidance for how the two definitions meet. A plan is judged under the rules in force when its complete application went in. For a re-landscape of an existing business or HOA site with no building work, it depends on which permit or plan the job needs; ask Loveland Planning before material is ordered. Not legal advice."
+      ],
+      "layerRefs": ["loveland-co.redevelopment-definition", "loveland-co.faq-redevelopment-guidance", "loveland-co.faq-application-vesting", "co-sb24-005-redevelopment"],
+      "sources": [
+        "https://www.letstalkloveland.org/landscape-changes",
+        "https://www.letstalkloveland.org/landscape-changes/widgets/97054/faqs",
+        "https://leg.colorado.gov/bill_files/45372/download"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Two definitions of functional",
+      "h2": "Loveland wrote one functional list for living grass and a shorter one for artificial turf.",
+      "paras": [
+        "For living turfgrass, the code's examples of functional use are cemeteries, playgrounds, sports fields, picnic grounds, amphitheaters, high-use parts of parks such as team warm-up areas, and golf playing areas. For artificial turf it names a playground, a sports field, a dog park or warm-up area of a park, and the playing area of a golf course or driving range. Both lists begin with \"may include\", and Colorado's own definition of functional artificial turf also names picnic grounds and amphitheaters, so an artificial picnic lawn is a question for Loveland Planning, not a settled no.",
+        "Landscape plans for commercial, industrial, institutional and common interest community property should mark each functional turf area and name its use. Common interest community property is land an owners' association owns and maintains, entryways and parks included. The code's common green, an accessible area of a development set aside for passive or recreational activities, holds functional turfgrass when that grass supports those activities."
+      ],
+      "layerRefs": ["loveland-co.udc-functional-turfgrass", "loveland-co.udc-functional-artificial-turf", "co-hb25-1113-functional-turf", "loveland-co.udc-common-landscape-areas", "loveland-co.udc-common-interest-property", "loveland-co.udc-common-green"],
+      "sources": [
+        "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=5934",
+        "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=5933",
+        "https://leg.colorado.gov/bill_files/40673/download",
+        "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=4058",
+        "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=5932",
+        "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=5931"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Sec. 18.08.04.03",
+      "h2": "Three-quarters of a Loveland parking lot's landscaping has to be living within three years.",
+      "paras": [
+        "The city's parking lot landscaping rules apply to any surface lot of more than 15 spaces in most zones, 30 in a complete neighborhood's activity center and 75 downtown. Within three years of installation, at least 75 percent of the landscaped area inside the lot has to be covered with established living materials, and islands sit at least six inches above the pavement behind concrete curbs unless they are built to soak up stormwater.",
+        "Stand-alone lots of more than 200 spaces are split up by landscape separators, and the living groundcover in those has to be water-wise material, not nonfunctional turfgrass. Parking lots are also named outright on the prohibited plant list, so artificial turf in a new Loveland parking island runs into two rules at once."
+      ],
+      "layerRefs": ["loveland-co.udc-parking-lot-living-cover", "loveland-co.udc-parking-lot-separators", "loveland-co.udc-prohibited-nonfunctional-turf"],
+      "sources": [
+        "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=4372",
+        "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=4233"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "Synthetic fields already in town",
+      "h2": "The city's synthetic field stays open when its grass closes, and the school district's comes with a rule sheet.",
+      "paras": [
+        "Loveland Sports Park pairs grass athletic fields with a synthetic-turf Championship Field. In winter the city closes the park's recreation areas and grass fields to prevent turf damage, and the Championship Field is the one exception, kept up and open by reservation.",
+        "Thompson School District, which serves Loveland, closes its fields to community groups from January through March to keep them in shape for spring, and posts separate rules for its synthetic turf field: no food or drinks except water, no gum, candy, nuts or sunflower seeds, no dogs, no metal cleats or high heels, no stakes or markers, no marking or painting the field, and no snow removal the district hasn't authorized."
+      ],
+      "layerRefs": ["loveland-co.sports-park-synthetic-field", "loveland-co.tsd-fields", "loveland-co.tsd-turf-field-rules"],
+      "sources": [
+        "https://www.lovgov.org/services/parks-recreation/parks-facilities/parks-reservation-spaces/loveland-sports-park",
+        "https://www.tsd.org/departments/operations/facility-services/facility-use",
+        "https://www.tsd.org/fs/resource-manager/view/b289d026-8bb5-4ea9-843a-74c0f995c236"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does a Loveland site near open land need anything extra for artificial turf?",
+      "a": "It can. The council memo for Ordinance 6819's second reading, summing up the January 20, 2026 first-reading discussion, says fire concerns in wildland-urban interface areas will require Loveland Fire Rescue Authority assessments, particularly for artificial turf plans. Staff also stressed that the code leaves the Development Services Director room for hardship or situations the landscape rules didn't foresee."
+    },
+    {
+      "q": "Can a Loveland HOA keep the artificial turf it already has?",
+      "a": "State law lets a local government allow turf put in before January 1, 2026 to be maintained, while Loveland's prohibited list requires nonfunctional turf to come out during development or redevelopment. A board replacing worn turf with no building project attached should ask Loveland Planning how the city reads that job. Not legal advice."
+    },
+    {
+      "q": "Is the grass in a Loveland stormwater pond nonfunctional turf?",
+      "a": "Not if it is part of a water quality treatment solution that a federal, state or local permit requires, and it is neither irrigated nor treated with herbicides. That exclusion is written into the definition of nonfunctional living turfgrass; the definition for artificial turf has no such exception."
+    },
+    {
+      "q": "Which grasses does Loveland say the turf rules leave alone?",
+      "a": "The city's project page says the restricted turf is mostly cool-season, high-water grass such as Kentucky bluegrass or fescue, and that native or climate-adapted grasses are not restricted. It names buffalo grass and blue grama as climate-adapted examples, and notes that the code's own definitions may differ."
+    }
+  ],
+  "sources": [
+    { "label": "Loveland Unified Development Code, Sec. 18.08.02.01.C, Prohibited Plant List (Ord. 6819, effective March 17, 2026)", "url": "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=4233", "checked": "2026-09-25" },
+    { "label": "Loveland Unified Development Code, Div. 18.19.03, \"Nonfunctional Artificial Turfgrass\" (Ord. 6819)", "url": "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=5935", "checked": "2026-09-25" },
+    { "label": "Loveland Unified Development Code, Div. 18.19.03, \"Parkway\" (Ord. 6819)", "url": "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=5937", "checked": "2026-09-25" },
+    { "label": "City of Loveland, Landscape Changes Impacting Developers project page (Ordinance 6819)", "url": "https://www.letstalkloveland.org/landscape-changes", "checked": "2026-09-25" },
+    { "label": "City of Loveland, Landscape Changes FAQ (Let's Talk Loveland)", "url": "https://www.letstalkloveland.org/landscape-changes/widgets/97054/faqs", "checked": "2026-09-25" },
+    { "label": "C.R.S. 37-99-102 and 37-99-103, SB24-005 (signed act): redevelopment project; turf installed before January 1, 2026", "url": "https://leg.colorado.gov/bill_files/45372/download", "checked": "2026-09-25" },
+    { "label": "HB25-1113 signed act: C.R.S. 37-99-102, functional artificial turf", "url": "https://leg.colorado.gov/bill_files/40673/download", "checked": "2026-09-25" },
+    { "label": "Loveland Unified Development Code, Div. 18.19.03, \"Functional Turfgrass\" (Ord. 6819)", "url": "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=5934", "checked": "2026-09-25" },
+    { "label": "Loveland Unified Development Code, Div. 18.19.03, \"Functional Artificial Turfgrass\" (Ord. 6819)", "url": "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=5933", "checked": "2026-09-25" },
+    { "label": "Loveland Unified Development Code, Sec. 18.08.02.04, Identification of Landscape Areas (Ord. 6819)", "url": "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=4058", "checked": "2026-09-25" },
+    { "label": "Loveland Unified Development Code, Div. 18.19.03, \"Common Interest Community Property\" (Ord. 6819)", "url": "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=5932", "checked": "2026-09-25" },
+    { "label": "Loveland Unified Development Code, Div. 18.19.03, \"Common Green\" (Ord. 6819)", "url": "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=5931", "checked": "2026-09-25" },
+    { "label": "Loveland Unified Development Code, Div. 18.19.03, \"Nonfunctional Turfgrass\" (Ord. 6819)", "url": "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=5936", "checked": "2026-09-25" },
+    { "label": "Loveland Unified Development Code, Sec. 18.08.04.03, Parking Lots (as amended by Ord. 6819)", "url": "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=4372", "checked": "2026-09-25" },
+    { "label": "City of Loveland Parks & Recreation, Loveland Sports Park page, read from the Wayback Machine capture of April 27, 2026", "url": "https://www.lovgov.org/services/parks-recreation/parks-facilities/parks-reservation-spaces/loveland-sports-park", "checked": "2026-09-25" },
+    { "label": "Thompson School District, Facility Use page", "url": "https://www.tsd.org/departments/operations/facility-services/facility-use", "checked": "2026-09-25" },
+    { "label": "Thompson School District, Turf Field Rules & Regulations (PDF)", "url": "https://www.tsd.org/fs/resource-manager/view/b289d026-8bb5-4ea9-843a-74c0f995c236", "checked": "2026-09-25" },
+    { "label": "City of Loveland, City Council memo: Ordinance No. 6819, second reading, March 3, 2026 (summary of the January 20, 2026 first reading)", "url": "https://cilovelandco.civicweb.net/document/504288/", "checked": "2026-09-25" }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Confirm NoCo bids commercial, HOA, metro-district or school turf in Loveland today, and name any Loveland job: site type (business, HOA common area, apartment amenity, field), neighborhood, month, rough size and its functional use",
+    "Photos of a Loveland commercial, HOA or sports job to add to photos.ts with use \"commercial\" (no photo carries that use yet, so no photo is set)",
+    "Any Loveland landscape plan you have prepared or bid since March 17, 2026 where Planning asked for functional turf areas to be marked, and how the city treated it",
+    "Any Loveland site in the wildland-urban interface where the Loveland Fire Rescue Authority reviewed an artificial turf plan",
+    "Whether you have bid or maintained turf at a Thompson School District or City of Loveland field"
+  ]
+}

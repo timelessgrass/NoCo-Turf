@@ -1,0 +1,172 @@
+{
+  "status": "draft",
+  "town": "windsor-co",
+  "service": "pet-turf",
+  "title": "Dog Runs and Pet Turf in Windsor, CO | NoCo Turf Co.",
+  "description": "Windsor dog runs: the Town's code counts dog odor that disrupts neighbors as a nuisance and caps a property at four dogs; two metro districts review runs.",
+  "h1": "Windsor's code counts dog odor that disrupts the neighbors as a public nuisance, and allows four dogs older than six months per property.",
+  "display": {
+    "paint": "a public nuisance"
+  },
+  "lede": "Windsor's animal code reaches past the sidewalk into the backyard. Waste on your own lot has to be picked up often enough to prevent a nuisance, odor that disrupts the neighbors counts as one, and more than four dogs over six months old is allowed only at an approved kennel. The fence code and two metro districts draw the rest of the lines.",
+  "answer": {
+    "question": "What does Windsor require of a backyard dog run?",
+    "answer": "Regular clean-up and a dog count. Windsor's code makes owners remove waste from their own property often enough to prevent a public nuisance, which includes a dog creating offensive odors, and bars more than four dogs over six months old on one property unless it's an approved kennel. Some metro districts also review dog runs."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Waste and odor",
+      "h2": "Windsor's dog code reaches the backyard: waste gets picked up, and odor can be a nuisance.",
+      "takeaway": "The Police Department's brochure names dog runs outright.",
+      "paras": [
+        "Section 7-6-180 makes a dog's owner responsible for \"the periodic removal of feces\" on their own property, so that it never becomes a public nuisance under Section 7-6-190. That section counts a dog that \"creates offensive odors that materially interfere with or disrupt another person in the conduct of lawful activities.\"",
+        "The Windsor Police Department's animal-control brochure puts it in one line: \"Private yards and dog runs must be cleaned on a regular basis to prevent odor and build up of feces.\" For a turf run, that means solids picked up and urine rinsed through on a schedule, not only when a neighbor calls."
+      ],
+      "layerRefs": [
+        "windsor-co.code-7-6-180-waste",
+        "windsor-co.code-7-6-190-odor",
+        "windsor-co.police-brochure-dog-runs"
+      ],
+      "sources": [
+        "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH7HESAAN_ARTVIDO_DIV1GEPR_S7-6-180REDOWARE",
+        "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH7HESAAN_ARTVIDO_DIV1GEPR_S7-6-190PUNUPR",
+        "https://www.windsorco.gov/DocumentCenter/View/11963/Dog-Brochure"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Four dogs, one fence",
+      "h2": "A fifth dog over six months old is allowed only at an approved kennel, and the run's fence has legal work to do.",
+      "paras": [
+        "Section 7-6-190(b) makes it unlawful to keep more than four dogs over six months old on any property in Windsor, except at kennels approved as conditional use grants. Section 7-6-60 requires anyone keeping a dog to stop it from being off the premises and beyond their control, so the run's fence and gate carry that duty.",
+        "Windsor's residential fence table allows 6 feet in most locations but, generally, 4 feet within the front setback, and chain link is prohibited there. A run tucked behind the house can take the taller fence; for one that reaches toward the street, ask Windsor Planning where the setback line falls on your lot."
+      ],
+      "layerRefs": [
+        "windsor-co.code-7-6-190-four-dogs",
+        "windsor-co.code-7-6-60-at-large",
+        "windsor-co.code-15-11-20-residential-fences",
+        "windsor-co.code-15-11-10-electric-fences"
+      ],
+      "sources": [
+        "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH7HESAAN_ARTVIDO_DIV1GEPR_S7-6-190PUNUPR",
+        "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH7HESAAN_ARTVIDO_DIV1GEPR_S7-6-60RULA",
+        "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTXIFEWA_S15-11-20REFEWA",
+        "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTXIFEWA_S15-11-10GEFEWAST"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "District review",
+      "h2": "Two Windsor metro districts see a dog run on paper before it's built.",
+      "paras": [
+        "Ptarmigan West Metro District No. 2 wants a plan submitted before a doghouse or dog run goes in, and wants both \"appropriately concealed from the street and neighboring yards\" by fencing or screening its committee approves. The same guidelines let artificial turf cover no more than a quarter of the rear yard, which sets the ceiling for a turf run there.",
+        "New Windsor's guidelines list dog runs and fencing among the additions its design review committee must approve before work starts, and they keep artificial turf out of front and side yards. In Brunner Farm, a side-yard dog run needs some other surface."
+      ],
+      "layerRefs": [
+        "windsor-co.ptarmigan-west-dog-runs",
+        "windsor-co.ptarmigan-west-turf-rear-yard",
+        "windsor-co.new-windsor-drc-ancillary",
+        "windsor-co.new-windsor-turf-back-yards",
+        "co-hoa-backyard-detached"
+      ],
+      "sources": [
+        "https://pwmd1.specialdistrict.org/files/3deb93af5/03+PWMD+Rules+and+Regulations+-+Design+Guidelines.pdf",
+        "https://www.newwindsormetro.org/files/72102649d/New+Windsor_Brunner+Farm+Design+Guidelines+-+5-16-24+-+Final.pdf",
+        "https://leg.colorado.gov/bill_files/92307/download"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "Off-leash in town",
+      "h2": "Windsor runs two off-leash dog parks, and at one the dogs can swim in the lake.",
+      "paras": [
+        "Poudre Pooch Park, on the west side of Eastman Park, is fully enclosed and covers more than an acre, by the Police Department's brochure. Windsor Lake Dog Park sits on the lake's north side off the Windsor Lake Trail, and dogs may swim there inside the buoyed area only.",
+        "Both run on the Town's rules: dogs vaccinated, spayed or neutered and at least six months old, handlers 16 or older, and a limit of 3 dogs per person per visit."
+      ],
+      "layerRefs": [
+        "windsor-co.poudre-pooch-park",
+        "windsor-co.windsor-lake-dog-park",
+        "windsor-co.dog-park-rules"
+      ],
+      "sources": [
+        "https://www.windsorco.gov/DocumentCenter/View/11963/Dog-Brochure",
+        "https://www.recreationliveshere.com/157/Dog-Park-Rules"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I run an electric wire along a Windsor dog run?",
+      "a": "Not as part of a fence. Windsor's fence code makes it unlawful to put up or keep any fence, wall or screening device carrying an electric charge strong enough to shock."
+    },
+    {
+      "q": "How often does Windsor's code say a dog run must be cleaned?",
+      "a": "It sets no interval. Section 7-6-180 asks for periodic removal, and the test is whether the dog becomes a nuisance under Section 7-6-190, odor included, so the right schedule is whichever one keeps the smell inside your fence."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Windsor Municipal Code Sec. 7-6-180, Removal of dog waste required (Ord. 2011-1398)",
+      "url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH7HESAAN_ARTVIDO_DIV1GEPR_S7-6-180REDOWARE",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Windsor Municipal Code Sec. 7-6-190, Public nuisance prohibited (Ord. 2011-1398)",
+      "url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH7HESAAN_ARTVIDO_DIV1GEPR_S7-6-190PUNUPR",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Windsor Municipal Code Sec. 7-6-60, Running at large (Ord. 2011-1398)",
+      "url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH7HESAAN_ARTVIDO_DIV1GEPR_S7-6-60RULA",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Town of Windsor Police Department, Animal Control dog brochure",
+      "url": "https://www.windsorco.gov/DocumentCenter/View/11963/Dog-Brochure",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Windsor Municipal Code Sec. 15-11-20, residential fence and wall standards (Ord. 2022-1663)",
+      "url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTXIFEWA_S15-11-20REFEWA",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Windsor Municipal Code Sec. 15-11-10(b), electrically charged fences (Ord. 2022-1663)",
+      "url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTXIFEWA_S15-11-10GEFEWAST",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Ptarmigan West Metro District No. 2, Rules and Regulations/Design Guidelines (posted undated)",
+      "url": "https://pwmd1.specialdistrict.org/files/3deb93af5/03+PWMD+Rules+and+Regulations+-+Design+Guidelines.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "New Windsor Metropolitan District (Brunner Farm), Design Guidelines and Architectural Standards, May 16, 2024",
+      "url": "https://www.newwindsormetro.org/files/72102649d/New+Windsor_Brunner+Farm+Design+Guidelines+-+5-16-24+-+Final.pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Windsor Parks, Recreation & Culture, Dog Park Rules",
+      "url": "https://www.recreationliveshere.com/157/Dog-Park-Rules",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "C.R.S. 38-33.3-106.5 and 37-60-126(11)(a.5), SB23-178 (signed act)",
+      "url": "https://leg.colorado.gov/bill_files/92307/download",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Dog runs or pet-turf yards NoCo has installed in Windsor: neighborhood, month, rough size, and how many dogs use them",
+    "Camera-original photos of a Windsor dog run: no photo in src/data/photos.ts carries use 'pet', so this page cannot pass the gate until one does",
+    "Any Windsor metro-district or HOA review of a dog run (Ptarmigan West plan submittal, New Windsor design review), with the owner's consent to describe it",
+    "The rinse and clean-up routine you give Windsor dog owners, in your words, so a later version can say it without inventing it",
+    "Confirm NoCo installs pet turf and dog runs today"
+  ]
+}

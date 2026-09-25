@@ -1,0 +1,166 @@
+{
+  "status": "draft",
+  "town": "dacono-co",
+  "service": "putting-greens",
+  "title": "Backyard Putting Greens in Dacono, CO | NoCo Turf Co.",
+  "description": "Dacono's landscape code exempts detached-house lots, and its 2026 turf ordinance keeps HOA turf to recreation areas. Golf nearby and the rules for a green.",
+  "h1": "Dacono's landscape standards don't reach a detached house lot, so a backyard green there falls outside them.",
+  "display": {
+    "paint": "don't reach a detached house lot"
+  },
+  "lede": "Section 16-651 of Dacono's code exempts single-family detached homes from Article 28, the landscape article that limits turf grass and, since Ordinance 1016 in May 2026, keeps artificial turf on HOA and commercial land to recreation areas. For golf itself, the City's parks page points residents to 15 courses nearby.",
+  "answer": {
+    "question": "Does Dacono regulate a backyard putting green?",
+    "answer": "Not through its landscape article, which exempts single-family detached homes. Shared greens are different: since Ordinance 1016 (May 11, 2026), artificial turf on HOA common land belongs only in areas used for recreation, and an HOA's own design rules still apply. It depends on the lot, so ask Dacono Planning. NoCo Turf Co. builds putting greens in Dacono, Colorado."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Sec. 16-651",
+      "h2": "The landscape article covers subdivisions, HOA land and commercial sites, and skips the detached house.",
+      "paras": [
+        "Article 28 of Dacono's zoning chapter, the landscape design standards, applies to new development and redevelopment, to planned unit developments and to a residential subdivision's streetscapes, open space, parks and homeowner association property. Section 16-651 then lists the exemptions, and the first is single-family detached homes, along with multifamily properties of four or fewer units, their common areas excepted.",
+        "So the turf-grass limit, the living-material minimums and the synthetic-turf rule in that article are written for builders, HOAs and businesses, not for a green behind a detached house. A townhome yard or a shared lawn is a different case, and covenants run on their own track. It depends on the lot and the plat, so ask Dacono Planning before the turf is ordered."
+      ],
+      "layerRefs": [
+        "dacono-co.code-16-651-applicability",
+        "co-hoa-backyard-detached"
+      ],
+      "sources": [
+        "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH16ZO_ART28LADEST_S16-651AP",
+        "https://leg.colorado.gov/bill_files/92307/download"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Ord. 1016, May 2026",
+      "h2": "A green an HOA builds on common land has to be a place residents actually use.",
+      "paras": [
+        "Ordinance 1016, passed unanimously on May 11, 2026, rewrote Section 16-656(d). Turf and artificial turf may now go only in functional recreational use areas, and the ordinance counts anything outside them as nonfunctional, barred on common-interest community property, on commercial and institutional sites and on multifamily properties of 12 or more units.",
+        "Dacono's new definition of functional turf says to read it consistently with Colorado's, and Colorado's 2025 amendment counts a golf course's putting and chipping greens as functional artificial turf, along with other spaces used regularly for recreation. A shared green that residents actually play on fits that wording more easily than a strip of green carpet at an entry sign. It depends on the plan, so ask Dacono Planning. Not legal advice."
+      ],
+      "layerRefs": [
+        "dacono-co.ord-1016-adopted",
+        "dacono-co.ord-1016-functional-only",
+        "dacono-co.ord-1016-definitions",
+        "co-hb25-1113-functional-turf"
+      ],
+      "sources": [
+        "https://www.daconoco.gov/AgendaCenter/ViewFile/Minutes/_05112026-528",
+        "https://www.daconoco.gov/AgendaCenter/ViewFile/Agenda/_05112026-528?packet=true",
+        "https://leg.colorado.gov/bill_files/40673/download"
+      ]
+    },
+    {
+      "kind": "golf",
+      "own": true,
+      "kicker": "15 courses nearby",
+      "h2": "Dacono's parks page lists 15 golf courses nearby, and the two named here sit in the towns next door.",
+      "paras": [
+        "The City's parks page runs under the heading \"From Pocket Parks to Golf Courses\" and says 15 golf courses are nearby. Bella Rosa, on that list, is a 9-hole regulation course in Frederick with a driving range, a putting green and a chipping area. Saddleback Golf Club, also on it, sits on Frontier Street in Firestone. A green behind a Dacono house is practice for rounds played one town over."
+      ],
+      "layerRefs": [
+        "dacono-co.city-parks-golf",
+        "dacono-co.bella-rosa-golf",
+        "dacono-co.saddleback-golf"
+      ],
+      "sources": [
+        "https://www.daconoco.gov/942/City-Parks",
+        "https://bellarosagolf.com/",
+        "https://saddlebackgolf.com/"
+      ]
+    },
+    {
+      "kind": "housing",
+      "own": true,
+      "kicker": "Six subdivisions",
+      "h2": "Most of Dacono's water accounts sit in six subdivisions, and one of them is zoned for attached homes.",
+      "paras": [
+        "The City's draft 2026 water plan counts six residential subdivisions on its system and places most accounts inside them. Sweetgrass, about 1,000 units building since 2004, and Sharpe Farms, about 850 since 2003, are zoned R-1, the single-family district. Legacy Park, about 300 units going up since 2020, is zoned R-2, where two-family, three-family and multifamily dwellings are permitted uses.",
+        "That split matters for a green. The Colorado rule on this page treats a detached house and an attached home that shares a wall differently, so check which one the deed describes before planning a green off the patio, and read the HOA's design guidelines for the details it may still set."
+      ],
+      "layerRefs": [
+        "dacono-co.wep-2026-subdivisions",
+        "dacono-co.code-16-130-r2-dwellings",
+        "co-hoa-attached-rear-yard"
+      ],
+      "sources": [
+        "https://www.daconoco.gov/DocumentCenter/View/8971/2026-Water-Efficiency-Plan-pdf",
+        "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH16ZO_ART4REDI_S16-130PEUS",
+        "https://leg.colorado.gov/bill_files/92307/download"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need a Dacono permit for a backyard putting green?",
+      "a": "Not under the landscape article, which skips detached houses. Building permits are a separate question, and a green that comes with a retaining wall, lighting or a new structure may raise one. It depends on the project, so ask Dacono's building and planning staff before work starts."
+    },
+    {
+      "q": "Is Ordinance 1016 in Dacono's online code yet?",
+      "a": "Not as of September 25, 2026. The online code is codified through Ordinance 1011 of March 9, 2026, so Section 16-656(d) there still shows the older wording. The adopted text is in the City Council packet for May 11, 2026."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Dacono Municipal Code Chapter 16, Article 28 (Landscape Design Standards), Sec. 16-651, Application (Ord. No. 787, 2014; codified through Ord. No. 1011, March 9, 2026)",
+      "url": "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH16ZO_ART28LADEST_S16-651AP",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Dacono City Council minutes, May 11, 2026, item D (Ordinance 1016 adopted on second reading, unanimous)",
+      "url": "https://www.daconoco.gov/AgendaCenter/ViewFile/Minutes/_05112026-528",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Dacono City Council packet, May 11, 2026, item GB-D: Ordinance 1016 text (Secs. 16-43.5, 16-61.5, 16-656(d)) and staff memo",
+      "url": "https://www.daconoco.gov/AgendaCenter/ViewFile/Agenda/_05112026-528?packet=true",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Dacono, City Parks page (pocket parks, Clem Dufour splash park, 15 nearby golf courses)",
+      "url": "https://www.daconoco.gov/942/City-Parks",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Bella Rosa Golf Course, Frederick (9-hole regulation course; driving range, putting green, chipping area)",
+      "url": "https://bellarosagolf.com/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Saddleback Golf Club, Firestone",
+      "url": "https://saddlebackgolf.com/",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Dacono, 2026 Water Efficiency Plan (dated July 15, 2026; draft posted for public comment): subdivisions, indoor and outdoor demand",
+      "url": "https://www.daconoco.gov/DocumentCenter/View/8971/2026-Water-Efficiency-Plan-pdf",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "Dacono Municipal Code Sec. 16-130, R-2 district permitted uses",
+      "url": "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH16ZO_ART4REDI_S16-130PEUS",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "C.R.S. 38-33.3-106.5, as amended by SB23-178 (signed act)",
+      "url": "https://leg.colorado.gov/bill_files/92307/download",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "C.R.S. 37-99-102 and 37-99-103, SB24-005 as amended by HB25-1113 (signed act)",
+      "url": "https://leg.colorado.gov/bill_files/40673/download",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-25",
+  "needsFromBrian": [
+    "Putting greens NoCo has built in Dacono: subdivision (Sweetgrass, Sharpe Farms, Legacy Park, Pinnacle Farms or other), month, rough size, and whether the home was detached or attached",
+    "Camera-original photos of a Dacono green for src/data/photos.ts (use putting-green); no photo on file was taken in or next to Dacono",
+    "Any Dacono HOA or metro district design review a green has gone through, and what it asked for",
+    "Whether Dacono's building or planning staff have ever asked for a permit on a backyard green (lighting, walls, a structure), and for which part",
+    "Any shared or community putting green NoCo has bid in Dacono since Ordinance 1016, and how Planning treated it"
+  ]
+}

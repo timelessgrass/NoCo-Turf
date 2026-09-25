@@ -1,0 +1,1000 @@
+[
+  {
+    "id": "johnstown-co.bella-ridge-course",
+    "layer": "place",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Bella Ridge Golf Club in Johnstown is an 18-hole, par-72 course designed by Art Schaupeter, with a 200-foot elevation change and 50 bunkers.",
+    "quote": "Bella Ridge Golf Club brings an 18-hole premium course … The par-72 course features a blend of a 200-foot elevation change, 50 strategic bunker placements, and expansive fairways … About the Architect – Art Schaupeter",
+    "source_url": "https://www.bellaridgegolf.com/golf-course/",
+    "source_label": "Bella Ridge Golf Club, Golf Course page (2990 Weld County Road 44, Johnstown)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "18",
+      "72",
+      "200",
+      "50"
+    ],
+    "notes": "Read the live page. The hole-by-hole notes mention bent grass surrounds on hole 13 and the course top at 5000 feet on hole 16; not used."
+  },
+  {
+    "id": "johnstown-co.bella-ridge-practice-greens",
+    "layer": "place",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Bella Ridge's practice facility, across from the clubhouse parking lot on County Road 44, has its own parking and a self-service kiosk, two putting greens including one of 15,000 square feet, and three short-game holes with a greenside bunker.",
+    "quote": "Conveniently located across from the clubhouse parking lot on County Road 44, the facility includes its own dedicated parking and a fully self-service kiosk for quick and easy access. … Putting Green Two putting greens, including one expansive 15,000-square-foot-putting green … Short Game Holes Three dedicated short game holes Includes a greenside bunker for realistic practice scenarios",
+    "source_url": "https://www.bellaridgegolf.com/practice-facility/",
+    "source_label": "Bella Ridge Golf Club, Practice Facility page",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "44",
+      "15000"
+    ]
+  },
+  {
+    "id": "johnstown-co.bella-ridge-podtburg-dairy",
+    "layer": "place",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Bella Ridge Golf Club was built on land where the Podtburg family ran a dairy from 1995 until the dairy operations moved in April 2022.",
+    "quote": "In 1995, the Podtburg family relocated their dairy operation to the property now home to Bella Ridge Golf Club, marking a significant expansion and modernization of their business. The dairy farm thrived in this new location and led to the acquisition of other dairy farms through April 2022, when the dairy operations were moved.",
+    "source_url": "https://www.bellaridgegolf.com/the-story/",
+    "source_label": "Bella Ridge Golf Club, The Story (interview with Rick and Carol Podtburg)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1995",
+      "2022"
+    ]
+  },
+  {
+    "id": "johnstown-co.podtburg-filing-1-layout",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "A March 2, 2026 Town Council item on the Podtburg Subdivision Filing 1 agreement places the Bella Ridge course south of Bella Ridge Parkway/WCR 44 and its driving range north of it, and drops a planned golf-cart underpass.",
+    "quote": "The owners of the property have requested to remove any reference to a cart underpass from the public right-of-way. Their initially approved plan was to have customers be able to drive a golf cart under CR 44. Upon reconsideration, they are not going to allow carts to drive from the golf course south of Bella Ridge Parkway/WCR 44 to the driving range north of Bella Ridge Parkway/WCR 44",
+    "source_url": "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=909,plainText=false)",
+    "source_label": "Town of Johnstown, Town Council packet, March 2, 2026: First Amendment to Podtburg Subdivision Filing 1 Subdivision Development and Improvement Agreement (attachment: Concept Plan - Bella Ridge Golf Course), packet p. 8",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "2026",
+      "1",
+      "44"
+    ],
+    "notes": "The original agreement was entered on or about October 31, 2024 (Reception No. 5084802). The same packet's drainage master plan says Bella Ridge was scheduled to open in late 2025."
+  },
+  {
+    "id": "johnstown-co.podtburg-metro-district",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Podtburg Metropolitan District No. 1 signs the 2026 amendment to the Podtburg Subdivision Filing 1 agreement, which lets the Town require the developer or the district to build a golf-cart underpass under Weld County Road 44 if carts are not kept from crossing.",
+    "quote": "If Developer fails to effectively prevent golf carts from crossing Weld County Road 44, the Town may, at its discretion, require Developer or the Podtburg Metropolitan District No. 1 (“District”) to construct a golf cart underpass under the roadway. … WITH RESPECT TO THE DISTRICT’S OBLIGATIONS SET FORTH IN THE AGREEMENT, THE DISTRICT HEREBY APPROVES AND AGREES: PODTBURG METROPOLITAN DISTRICT NO. 1",
+    "source_url": "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=909,plainText=false)",
+    "source_label": "Town of Johnstown, Town Council packet, March 2, 2026: First Amendment to Podtburg Subdivision Filing 1 SDIA, pp. 9-11",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "44",
+      "2026"
+    ],
+    "notes": "The district's own covenants or design rules for residential lots were not found posted with the Town's PUD design guides."
+  },
+  {
+    "id": "johnstown-co.podtburg-odp-land-use",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "The Town's Podtburg Property Outline Development Plan covers 448.92 acres, 288.92 of them golf course, 147.28 residential and 12.12 commercial, and plans the course as a public course for homeowners and Town residents.",
+    "quote": "A HIGH QUALITY RESIDENTIAL GOLF COMMUNITY IS ENVISIONED FOR THIS SITE. THE GOLF COURSE IS PLANNED AS A PUBLIC COURSE FOR THE BENEFIT OF BOTH THE HOMEOWNERS AND THE RESIDENTS OF THE TOWN OF JOHNSTOWN. … THE DEVELOPMENT PARCELS ARE LOCATED AROUND THE PERIMETER OF THE PROPOSED GOLF COURSE … RESIDENTIAL DEVELOPMENT: 147.28 AC COMMERCIAL DEVELOPMENT: 12.12 AC GOLF COURSE 288.92 AC TOTAL 448.92 AC",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/2168/Podtburg-ODP-STAMPED",
+    "source_label": "Town of Johnstown, Podtburg Property Outline Development Plan (stamped), narrative and land use summary",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "448.92",
+      "288.92",
+      "147.28",
+      "12.12"
+    ],
+    "notes": "Planning areas: A 34.46 ac, B 47.46 ac, C 65.36 ac residential; D 41.03 ac golf or residential; E 247.89 ac golf; F-H commercial."
+  },
+  {
+    "id": "johnstown-co.podtburg-odp-lots",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "The Podtburg ODP sets a 4,000-square-foot minimum lot and a 30-foot maximum height for single-family detached homes and counts golf course development toward the open space requirement.",
+    "quote": "DEVELOPMENT STANDARDS: RESIDENTIAL SINGLE FAMILY DETACHED MINIMUM LOT SIZE 4,000 SF MAXIMUM HEIGHT 30' … 4. GOLF COURSE DEVELOPMENT WILL BE COUNTED TOWARDS OPEN SPACE REQUIREMENTS.",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/2168/Podtburg-ODP-STAMPED",
+    "source_label": "Town of Johnstown, Podtburg Property Outline Development Plan (stamped), development standards and open space notes",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4000",
+      "30",
+      "4"
+    ]
+  },
+  {
+    "id": "johnstown-co.the-ridge-living-coverage",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "The Ridge Design Guidelines of February 23, 2024 require each large residential lot to have living coverage on at least 50% of its landscape area within three years and define living coverage to exclude artificial turf.",
+    "quote": "(These landscape guidelines are for residential large lots. Small lot residential shall follow the latest Johnstown standards at the time of development submittal) … Each lot is to have a minimum of 50% living coverage* of the total landscape area within three years of installation … *Definition: Living Coverage means that a certain percentage of area must be planted and fully covered by live plant material such as ground cover, perennials, shrubs, grasses, etc. These areas are not to include mulches or artificial landscape such as artificial turf.",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1217/The-Ridge-Design-Guidelines-0324-PDF-STAMPED",
+    "source_label": "The Ridge Design Guidelines, February 23, 2024 (Town of Johnstown PUD design guidelines), Sec. 3.5.9 Single Family Landscape Guidelines",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "23",
+      "2024",
+      "50"
+    ]
+  },
+  {
+    "id": "johnstown-co.north-ridge-living-coverage",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "The North Ridge Design Guidelines of February 23, 2024 set the same large-lot rule: living coverage on at least 50% of the landscape area within three years, with artificial turf excluded from living coverage.",
+    "quote": "Each lot is to have a minimum of 50% living coverage* of the total landscape area within three years of installation … *Definition: Living Coverage means that a certain percentage of area must be planted and fully covered by live plant material such as ground cover, perennials, shrubs, grasses, etc. These areas are not to include mulches or artificial landscape such as artificial turf.",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1215/North-Ridge-Design-Guidelines-0324-PDF-STAMPED",
+    "source_label": "North Ridge Design Guidelines, February 23, 2024 (Town of Johnstown PUD design guidelines), Sec. 3.5.9 Single Family Landscape Guidelines",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "23",
+      "2024",
+      "50"
+    ]
+  },
+  {
+    "id": "johnstown-co.ridge-yard-turf-limits",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "The Ridge and North Ridge guidelines allow no turf in front yards, limit irrigated turf to 40% of the rear yard and allow no irrigated turf in side yards.",
+    "quote": "FRONT YARDS: MINIMUM REQUIREMENTS … No Turf will be allowed in Front Yards … REAR YARDS: MINIMUM REQUIREMENTS … Irrigated Turf is limited to 40% of Rear Yard … SIDE YARDS: MINIMUM REQUIREMENTS … No Irrigated Turf will be allowed in Side Yards",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1215/North-Ridge-Design-Guidelines-0324-PDF-STAMPED",
+    "source_label": "North Ridge Design Guidelines, February 23, 2024, Sec. 3.5.9 yard minimums (The Ridge Design Guidelines of the same date carry the same lists)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "40"
+    ]
+  },
+  {
+    "id": "johnstown-co.thompson-crossing-dog-runs",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Thompson Crossing's design guidelines require design review committee approval of the materials, colors and location of dog houses and dog runs and bar any change to a lot's established drainage pattern that harms adjoining lots.",
+    "quote": "13) DOG HOUSES and DOG RUNS. Materials, colors, and location must be approved by the DRC. 14) DRAINAGE. There can be no interference with or change to the established drainage pattern over the property. … Changing drainage patterns so that adjoining lots are adversely impacted is not permitted.",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1139/Thompson-Crossing-Design-Guidelines-0706--PDF-STAMPED",
+    "source_label": "Thompson Crossing Design Guidelines (created 09/06/2005, revised 07/11/2006), Town of Johnstown PUD design guidelines",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "13",
+      "14"
+    ],
+    "notes": "The landscape submittal checklist in the same guide lists 'Location and species of turf areas', 'Location and type of edging', '... any other special landscape features' and 'Dog houses and dog runs'; see johnstown-co.thompson-crossing-landscape-submittal."
+  },
+  {
+    "id": "johnstown-co.thompson-crossing-landscape-submittal",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Thompson Crossing's landscape plan submittal to its design review committee must show the location and species of turf areas, the location and type of edging, playground areas and any other special landscape features, and dog houses and dog runs.",
+    "quote": "3) LANDSCAPE PLAN SUBMITTAL … Location and species of turf areas … Location and type of edging … Location and materials for decks, patios, pools, spas, hot tubs, saunas, playground areas, rock, timbers, fountains, or any other special landscape features … Dog houses and dog runs",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1139/Thompson-Crossing-Design-Guidelines-0706--PDF-STAMPED",
+    "source_label": "Thompson Crossing Design Guidelines (created 09/06/2005, revised 07/11/2006), V. Submittal Procedure, 3) Landscape Plan Submittal",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3"
+    ]
+  },
+  {
+    "id": "johnstown-co.thompson-crossing-synthetic-turf",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Both Thompson Crossing design guides, from 2006 and 2014, list synthetic turf among the items not permitted under any circumstances.",
+    "quote": "The following items are NOT PERMITTED under any circumstances: … 10. SYNTHETIC TURF.",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1219/Thompson-Crossing-TV-II-Design-Guidelines-42114--PDF-STAMPED",
+    "source_label": "Thompson Crossing Phase 2 Design Guidelines (created 12/13/2013, revised 4/21/2014); the 2006 Thompson Crossing guide carries the same item as 10) SYNTHETIC TURF",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2006",
+      "2014",
+      "10"
+    ],
+    "notes": "The Phase 2 guide repeats: '13. DOG HOUSES and DOG RUNS. Materials, colors, and location must be approved by the DRC.' Both predate HB21-1229 and SB23-178."
+  },
+  {
+    "id": "johnstown-co.mountain-view-west-dog-runs",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Mountain View West's PUD design guidelines list dog houses and dog runs, playhouses and swing sets among the items allowed only with special use approval.",
+    "quote": "Items Allowable With Special Use Approval Storm Doors, basketball hoops, playhouses, dog houses and dog runs, swing sets, signs, site lighting located off building structures, firewood storage, change in color scheme.",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1213/Mountain-View-West-PUD-Design-Guidelines-MVW--PDF-STAMPED",
+    "source_label": "Mountain View West PUD Design Guidelines, Exhibit A (Town of Johnstown PUD design guidelines)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "johnstown-co.code-7-135-c-odor-drainage",
+    "layer": "ordinance",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Johnstown's Sec. 7-135(c) requires areas where animals are kept to be maintained without odors, dust, noise or drainage offensive to adjoining properties, lets a designated officer make a prima facie determination, and makes a failure a public nuisance.",
+    "quote": "(c) Areas in which animals are kept shall be maintained in a manner that does not create odors, dust, noise or drainage offensive to the use or enjoyment of adjoining properties based on the senses of smell, hearing or sight of reasonable persons with ordinary sensibilities. For purposes of this section, a code enforcement officer, police officer or other designated officer of the Town may make a prima facie determination as to whether odor, dust, noise or drainage is offensive to the use or enjoyment of adjoining properties. The failure to maintain areas in which animals are kept in the manner provided herein constitutes a public nuisance and is prohibited.",
+    "source_url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/johnstowco-meet-b1fa7a657a8e4e41af19a3bce4e40df5/ITEM-Attachment-001-b175cc27c14b4616b3b2d95a53d026cf.pdf",
+    "source_label": "Johnstown Municipal Code Sec. 7-135, as readopted by Ordinance No. 2023-255 (text posted for the November 6, 2023 hearing; adopted on the November 20, 2023 consent agenda)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "7",
+      "135",
+      "2023",
+      "255",
+      "6",
+      "20"
+    ],
+    "notes": "Adoption: November 20, 2023 minutes (item 3 of the consent agenda), posted with the December 4, 2023 agenda: https://mccmeetingspublic.blob.core.usgovcloudapi.net/johnstowco-meet-74880b242c974fc98a82da543fd4ee85/ITEM-Attachment-001-de81e4366ef94df2990df734bf3aa339.pdf . The codified code on eCode360 (JO6992) sits behind a bot check and could not be read; its April 30, 2026 archive says it includes legislation through 12-01-2025."
+  },
+  {
+    "id": "johnstown-co.code-7-135-a-nuisances",
+    "layer": "ordinance",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Johnstown's Sec. 7-135(a) makes an animal a public nuisance when it is at large, damages property or barks and howls persistently, and Sec. 7-121 defines at large as off the owner's premises and not under the owner's control.",
+    "quote": "(a) The following animal behaviors constitute a public nuisance. Any animal that: … 4. Is at large; 5. Damages or destroys private or public property; 6. Barks, howls, yelps, bawls or makes other loud, persistent noise in a manner which, under nonmitigating circumstances, could be considered by reasonable persons of ordinary sensibilities as excessive or continuous; … (5) At large means off the premises of the owner and not under the control of the owner.",
+    "source_url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/johnstowco-meet-b1fa7a657a8e4e41af19a3bce4e40df5/ITEM-Attachment-001-b175cc27c14b4616b3b2d95a53d026cf.pdf",
+    "source_label": "Johnstown Municipal Code Secs. 7-121(5) and 7-135(a), as readopted by Ordinance No. 2023-255 (adopted November 20, 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "121",
+      "135",
+      "2023",
+      "255",
+      "20"
+    ]
+  },
+  {
+    "id": "johnstown-co.code-7-136-barking",
+    "layer": "ordinance",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Johnstown's Sec. 7-136 makes it unlawful to let an animal kept in a yard or house bark, howl or make other loud and persistent noise that reasonable neighbors would find excessive or continuous.",
+    "quote": "(a) It is unlawful for the owner, keeper, harborer or any other person who has assumed the responsibility for an animal to permit such animal kept in any yard, house or other place to bark, howl, yelp, bawl or make other loud and persistent noise in a manner which, under nonmitigating circumstances, could be considered by reasonable persons of ordinary sensibilities as excessive or continuous.",
+    "source_url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/johnstowco-meet-b1fa7a657a8e4e41af19a3bce4e40df5/ITEM-Attachment-001-b175cc27c14b4616b3b2d95a53d026cf.pdf",
+    "source_label": "Johnstown Municipal Code Sec. 7-136(a), as readopted by Ordinance No. 2023-255 (adopted November 20, 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "7",
+      "136",
+      "2023",
+      "255",
+      "20"
+    ]
+  },
+  {
+    "id": "johnstown-co.ord-2023-255-parks-leashed",
+    "layer": "ordinance",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "The Town Attorney's memo on Ordinance No. 2023-255 says the rewritten nuisance section lets any dog be in a Town park as long as it is leashed.",
+    "quote": "The proposed ordinance amends Section 7-135 of the Animal Code to move the definition of nuisance animal from Section 7-121 into this section and clarifies the definition of nuisance animal. The ordinance provides that all dogs may be in a park as long as the dog is leashed",
+    "source_url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/johnstowco-meet-b1fa7a657a8e4e41af19a3bce4e40df5/ITEM-Attachment-001-8f6223a5858644b2bd3d23e79bdff310.pdf",
+    "source_label": "Town of Johnstown, Town Council agenda communication for Ordinance No. 2023-255, November 6, 2023 (presented by the Town Attorney and Town Manager)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2023",
+      "255",
+      "6",
+      "7",
+      "135",
+      "121"
+    ]
+  },
+  {
+    "id": "johnstown-co.faq-animal-limit",
+    "layer": "ordinance",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "The Town's animal-control FAQ says a Johnstown resident can keep up to four animals, birds included.",
+    "quote": "Does Johnstown have a limit on the number of animals someone can have? Yes! Residents can have up to four (4) animals, including birds.",
+    "source_url": "https://johnstownco.gov/faq.aspx?TID=31",
+    "source_label": "Town of Johnstown, Frequently Asked Questions: Animal Control",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4"
+    ]
+  },
+  {
+    "id": "johnstown-co.faq-leash",
+    "layer": "ordinance",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Johnstown requires every animal but a domestic cat to be controlled by its owner, and a dog to be on a leash 10 feet long or shorter.",
+    "quote": "Yes. Except for domestic cats, all animals must be controlled by their owner. Dogs must be on a leash that is 10 feet long or shorter, either attached to the dog or held or tied by a person.",
+    "source_url": "https://johnstownco.gov/faq.aspx?TID=31",
+    "source_label": "Town of Johnstown, Frequently Asked Questions: Animal Control (Does Johnstown have a leash law?)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "10"
+    ]
+  },
+  {
+    "id": "johnstown-co.faq-license",
+    "layer": "ordinance",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Every dog and cat in Johnstown needs a Town license each year, running May 1 to April 30, and a rabies vaccination from six months of age.",
+    "quote": "Anyone who owns, takes care of, or is responsible for a cat or dog in the Town must get a license every year from the Town Clerk. … Licenses last for one year, from May 1 to April 30. … In Johnstown, all dogs and cats six months or older must get a rabies vaccine.",
+    "source_url": "https://johnstownco.gov/faq.aspx?TID=31",
+    "source_label": "Town of Johnstown, Frequently Asked Questions: Animal Control (licensing and rabies)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "30"
+    ]
+  },
+  {
+    "id": "johnstown-co.faq-impound",
+    "layer": "place",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "A dog impounded in Johnstown goes to NOCO Humane's Larimer Campus in Loveland, is scanned for a microchip and held 5 days, and the shelter's fees are separate from any Town fine.",
+    "quote": "The dog is taken to the NOCO Humane Society – Larimer Campus, located at 3501 E 71st St in Loveland. The owner must pay the fees for the dog being held and any needed vet care. The Town does not set these fees; NOCO Shelter decides them each year. It’s important to know that these fees do NOT include any fines for breaking Town rules or court costs. … If a dog is picked up, it will be kept for 5 days. When animals arrive at the shelter, they are scanned for a microchip.",
+    "source_url": "https://johnstownco.gov/faq.aspx?TID=31",
+    "source_label": "Town of Johnstown, Frequently Asked Questions: Animal Control (impound and holding)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3501",
+      "71",
+      "5"
+    ]
+  },
+  {
+    "id": "johnstown-co.faq-barking-police",
+    "layer": "ordinance",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "The Town's animal-control FAQ says Johnstown's animal code gives the police the power to enforce the rule against a yard animal's loud, ongoing barking, and lists a non-emergency line for reports.",
+    "quote": "It is against the law to let an animal in any yard, house, or place make loud and ongoing noises like barking, howling, or yelping if it would bother most people. The animal code gives the police the power to enforce this rule. … Where do I report a barking dog? Call",
+    "source_url": "https://johnstownco.gov/faq.aspx?TID=31",
+    "source_label": "Town of Johnstown, Frequently Asked Questions: Animal Control (barking dog)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The FAQ gives a police non-emergency number for barking reports; it is left out here and never printed on a page."
+  },
+  {
+    "id": "johnstown-co.faq-cats-roam",
+    "layer": "ordinance",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Johnstown lets licensed, vaccinated cats roam, and its officers will not pick up a healthy stray cat that comes onto someone's property.",
+    "quote": "Cats are allowed to roam but must have a license and be vaccinated. If a healthy stray cat comes onto your property, officers will not pick it up.",
+    "source_url": "https://johnstownco.gov/faq.aspx?TID=31",
+    "source_label": "Town of Johnstown, Frequently Asked Questions: Animal Control (cats)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "johnstown-co.river-park-dog-park",
+    "layer": "place",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "The parks master plan the Town posts for its 61-acre park site on the Little Thompson River places a 0.75-acre shaded dog park, with active and inactive dog areas, in the park's northeast corner.",
+    "quote": "A .75-acre, shaded dog park, located in the northeast corner, with active and inactive dog areas.",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1042/Johnstown-Parks-Master-Plan---FINAL-DRAFT",
+    "source_label": "Town of Johnstown, parks master plan by Wenk Associates for the 61-acre river park and Letford Park (cover dated 01 April 2025 DRAFT; linked from the Town's park project page as the final master plan), The Wilds",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "61",
+      "0.75",
+      "75",
+      "1",
+      "2025"
+    ]
+  },
+  {
+    "id": "johnstown-co.river-park-survey",
+    "layer": "place",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "In the parks master plan's public survey, dog parks were among the most common requests for the 61-acre river park and a destination playground was the most agreed-upon feature.",
+    "quote": "Some of the most common requests included water features (pools, splash pads, etc.), dog parks, disc golf, and traditional sport features (athletic fields, sport courts, etc.). … while a destination playground (a playground worth traveling to) was the most agreed-upon feature in this category.",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1042/Johnstown-Parks-Master-Plan---FINAL-DRAFT",
+    "source_label": "Town of Johnstown, parks master plan by Wenk Associates, Appendix A public engagement summary (pp. A.15-A.16)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "61",
+      "15",
+      "16"
+    ]
+  },
+  {
+    "id": "johnstown-co.river-park-approved",
+    "layer": "place",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "The Town says Council approved in 2026 the master plan for its 61-acre park site, an undeveloped property half a mile south of downtown at Parish Avenue, bordered on the east by the Little Thompson River.",
+    "quote": "The Johnstown Town Council officially approved the master plan for … Park in 2026 … is 61 acres located approximately ½ mile south of downtown at the intersection of Parish Avenue and … The … site is a currently undeveloped property bordered on the east by the Little Thompson River.",
+    "source_url": "https://www.johnstownco.gov/688",
+    "source_label": "Town of Johnstown, Public Works project page for the 61-acre park at Parish Avenue (page 688)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2026",
+      "61",
+      "688"
+    ],
+    "notes": "The page's own title names the park; the name is left out here because it matches a banned metro-area town name in territory.mjs, which check-content and check-dist fail on."
+  },
+  {
+    "id": "johnstown-co.river-park-destination-playground",
+    "layer": "place",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "The parks master plan puts a destination playground terraced into the Little Thompson River floodplain bluff, with in-grade slides and climbing elements, beside a smaller playground and a kids' pump track at the 61-acre river park.",
+    "quote": "Small playground and kids’ pump track to provide unique recreational opportunities for younger children. … The large destination playground features both traditional (swings, slides) and unique play elements, all with a natural aesthetic that ties in with the river-inspired park design. Terraced into the floodplain bluff, the play area provides opportunities for in-grade slides and climbing elements that take advantage of the slope.",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1042/Johnstown-Parks-Master-Plan---FINAL-DRAFT",
+    "source_label": "Town of Johnstown, parks master plan by Wenk Associates, river park: The Active Core",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "61"
+    ]
+  },
+  {
+    "id": "johnstown-co.letford-park-schedule",
+    "layer": "place",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Letford Park, a six-acre former elementary school site a quarter mile north of Highway 60, has a master plan approved in 2025 with an extensive playground, and the Town aims to build it from early 2027 to the end of 2027.",
+    "quote": "The project team will continue working on the final park design through 2026, with the goal of starting construction in early 2027 and completing the improvements by the end of 2027. New amenities will include restrooms and pavilions, a splash pad, extensive playground area, and more! … The Johnstown Town Council officially approved the master plan Letford Park in 2025 … Plans include natural play areas, picnic shelters, and walking loops … The Letford Park site is six acres and approximately ¼ mile north of Highway 60 and was formerly the location of Letford Elementary School.",
+    "source_url": "https://www.johnstownco.gov/566/Letford-Park-Master-Plan",
+    "source_label": "Town of Johnstown, Letford Park Master Plan page",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2026",
+      "2027",
+      "2025",
+      "60"
+    ]
+  },
+  {
+    "id": "johnstown-co.letford-pea-gravel",
+    "layer": "place",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "The existing playground on the Letford Park site sits on pea gravel.",
+    "quote": "Site Analysis + Existing Conditions LETFORD PARK … Pea gravel playground",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1042/Johnstown-Parks-Master-Plan---FINAL-DRAFT",
+    "source_label": "Town of Johnstown, parks master plan by Wenk Associates, Letford Park site analysis and existing site photos (p. 12)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "johnstown-co.hays-park-surfacing",
+    "layer": "place",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Both Hays Park playground options priced for the Town in April 2025 removed about 3,450 square feet of wood fiber surfacing and specified poured-in-place rubber rated for a variable 4- to 10-foot fall height.",
+    "quote": "Complete removal and disposal of existing playground equipment and 3450 sf of average 6\" depth of wood fiber surfacing material … SURFACING - POURED-IN-PLACE … Surface America PlayBound poured-in-place surfacing, 50% black / 50% color speckle mix, standard binder, variable 4' - 10' fall height attenuation, includes materials, delivery and installation.",
+    "source_url": "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=657,plainText=false)",
+    "source_label": "Town of Johnstown, Town Council packet, April 21, 2025: Hays Park Playground Contract Award (Go Play proposals, Options 1 and 2)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3450",
+      "6",
+      "50",
+      "4",
+      "10",
+      "2025"
+    ],
+    "notes": "The staff memo recommends Option 2; the April 21, 2025 minutes (fileId 816, scanned) record the award 'with option # 2 for Hays Park, to Go Play, Inc.'. The memo then counted seven public parks."
+  },
+  {
+    "id": "johnstown-co.hays-park-option-2",
+    "layer": "place",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Public Works told the Council in April 2025 that Hays Park's playground was the highest priority for replacement because of frequent maintenance and aging equipment, and recommended Option 2, which the Council awarded.",
+    "quote": "Among these, Hays Park has been identified as the highest priority due to frequent maintenance requirements and aging equipment. … Staff recommends that the Council proceed with Option 2 for the playground replacement at Hays Park.",
+    "source_url": "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=657,plainText=false)",
+    "source_label": "Town of Johnstown, Town Council packet, April 21, 2025: Hays Park Playground Contract Award staff memo (packet pp. 51-52); award with Option 2 recorded in the April 21, 2025 minutes",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2025",
+      "2",
+      "21"
+    ],
+    "notes": "Minutes: https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=816,plainText=false) (a scan whose text reads 'approve … awarding the contract, with option # 2 for Hays Park, to Go Play, Inc. as presented')."
+  },
+  {
+    "id": "johnstown-co.sunrise-park-surfacing",
+    "layer": "place",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "The Sunrise Park playground contract of June 2026 replaces the mulch under both of the park's play areas with poured-in-place rubber, around a 21-foot tower in the south area.",
+    "quote": "The centerpiece of the south area will be the larger, 21 foot tall tower with more challenging climbing features, multiple slides, bridges and rope play features … Poured In Place rubber surfacing is included in both play areas to replace the existing mulch surfacing beneath the equipment.",
+    "source_url": "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=976,plainText=false)",
+    "source_label": "Town of Johnstown, Town Council packet, June 1, 2026: Sunrise Park Playground Equipment Replacement Contract Award (packet pp. 46-47); awarded unanimously per the June 1, 2026 minutes in the June 15, 2026 packet",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "21",
+      "1",
+      "2026",
+      "46",
+      "47",
+      "15"
+    ],
+    "notes": "Minutes: https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=983,plainText=false) ('Upon vote, motion passed unanimously')."
+  },
+  {
+    "id": "johnstown-co.parks-eight-public",
+    "layer": "place",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "With Letford Park added, Johnstown counts eight public parks maintained by Public Works, and the playground equipment at Aragon, Lake and Hays parks has been replaced in recent years.",
+    "quote": "With the recent addition of Letford Park, Johnstown is now home to eight public parks maintained by the Public Works Department. … The playground equipment in Aragon Park, Lake Park and Hays Park has all been replaced in recent years",
+    "source_url": "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=976,plainText=false)",
+    "source_label": "Town of Johnstown, Town Council packet, June 1, 2026: Sunrise Park staff memo (packet p. 46)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "2026",
+      "46"
+    ]
+  },
+  {
+    "id": "johnstown-co.schools-two-districts",
+    "layer": "place",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Johnstown is served by two school districts: Weld RE-5J, whose schools serve 3,900 students in Johnstown and Milliken, and Thompson School District, whose territory includes sections of Johnstown.",
+    "quote": "Johnstown is served by two school districts that provide exceptional educational services to the community. … RE-5J schools serve 3,900 students in the towns of Johnstown and Milliken, and also small portions of the town of Berthoud and the city of Greeley. … The district's territory includes Loveland and Berthoud, plus sections of Fort Collins, Windsor, Johnstown",
+    "source_url": "https://www.johnstownco.gov/409/Schools",
+    "source_label": "Town of Johnstown, Schools page (Weld RE-5J: 3,900 students in Johnstown and Milliken; Thompson School District)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3900",
+      "5"
+    ]
+  },
+  {
+    "id": "johnstown-co.ludc-17-8-4-rear-yard-turf",
+    "layer": "ordinance",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Johnstown's Land Use and Development Code limits turf and spray-irrigated areas in a single-family rear yard to 50% of the yard, up to 2,000 square feet, except on lots platted before January 1, 2024.",
+    "quote": "Limit high-irrigation turf and plantings to appropriate high-use areas with high visibility and functional needs, and use water-conserving grasses such as fescue sods. Turf and spray-irrigated areas shall be limited to: a. Residential rear yard areas maximum of 50%, up to 2,000 SF for single family homes, except for lots platted prior to January 1, 2024;",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1403/Land-Use-And-Development-Code",
+    "source_label": "Johnstown Land Use and Development Code Sec. 17-8-4(E)(2)(a), Water Conservation Guidelines (Town PDF, effective December 5, 2023; file updated September 3, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "50",
+      "2000",
+      "1",
+      "2024"
+    ],
+    "notes": "The code does not define turf or say whether artificial turf counts toward this cap. Ordinance 2025-279 did not amend Sec. 17-8-4."
+  },
+  {
+    "id": "johnstown-co.ludc-17-8-4-turf-areas",
+    "layer": "ordinance",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Beyond single-family rear yards, Johnstown's code confines turf and spray-irrigated areas in landscape plans to areas designed for play, sports fields and similar common or public park areas, significant gateways at the Town's discretion, and green courtyards and high-traffic common areas.",
+    "quote": "Turf and spray-irrigated areas shall be limited to: … b. Areas designed for play, sports fields, and similar common or public park areas; c. Achieving specific aesthetic and design objectives at significant gateways, corridors, or entryways to neighborhoods or activity centers, at the discretion of the Town. d. Green courtyards and other common areas with residential areas with high traffic.",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1403/Land-Use-And-Development-Code",
+    "source_label": "Johnstown Land Use and Development Code Sec. 17-8-4(E)(2)(b)-(d) (Town PDF, effective December 5, 2023; file updated September 3, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5",
+      "2023",
+      "3",
+      "2025"
+    ]
+  },
+  {
+    "id": "johnstown-co.ludc-17-8-4-native-grass-non-potable",
+    "layer": "ordinance",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Johnstown's code allows native grass in low-traffic areas with a raw water dedication to establish it and a possible water credit once its irrigation is removed or disabled, and requires non-potable irrigation for common landscape areas where enough is available.",
+    "quote": "6. Native grasses may be used in low-traffic areas and require irrigation to establish. Raw water dedication, per the Johnstown Municipal Code, shall be required for the establishment of the native grasses with the possibility of a water credit, at the discretion of the Town, upon confirmation of the removal or effective disablement of the irrigation system. … 7. Alternative non-potable sources and systems of irrigation water for all common landscape areas is encouraged and shall be required if available in sufficient quantity",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1403/Land-Use-And-Development-Code",
+    "source_label": "Johnstown Land Use and Development Code Sec. 17-8-4(E)(6)-(7) (Town PDF, effective December 5, 2023; file updated September 3, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6",
+      "7"
+    ]
+  },
+  {
+    "id": "johnstown-co.ludc-17-8-1-applicability",
+    "layer": "ordinance",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Johnstown's landscape standards apply to all development, building additions and changes in use, and a site with an approved landscape plan must keep to and maintain it until it redevelops, changes use or amends the plan.",
+    "quote": "B. Applicability. The standards of this Section shall apply to all types of development, building additions, changes in use except: 1. Additions to existing buildings or sites that do not result in an increase in building footprint or impervious surfaces by more than 10%. … 4. For existing development with approved landscape plans, continued adherence to and maintenance of those plans is required until such time as it may redevelop, change use, or proceed with an amendment.",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1403/Land-Use-And-Development-Code",
+    "source_label": "Johnstown Land Use and Development Code Sec. 17-8-1(B), Landscape & Site Design applicability (Town PDF, effective December 5, 2023; file updated September 3, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "10",
+      "4"
+    ]
+  },
+  {
+    "id": "johnstown-co.ludc-17-8-4-g-enforceable",
+    "layer": "ordinance",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Johnstown's code treats every element of an approved landscape plan, plants included, as a material element of the project and lets the Town enforce a deficiency at any point as a code violation.",
+    "quote": "2. All elements of an approved landscape plan including plant materials shall be considered material elements of the project in the same manner as parking, buildings, or other details. Deficiencies of any approved landscape plan at any point may be enforced as a violation of the provisions of this code.",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1403/Land-Use-And-Development-Code",
+    "source_label": "Johnstown Land Use and Development Code Sec. 17-8-4(G)(2), Planting & Maintenance (Town PDF, effective December 5, 2023; file updated September 3, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2"
+    ]
+  },
+  {
+    "id": "johnstown-co.ludc-17-3-2-playgrounds-oil-gas",
+    "layer": "ordinance",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Johnstown's code requires playgrounds, sport courts and community gathering spaces in new development to sit outside the required setbacks from oil and gas wells and facilities.",
+    "quote": "f. Playgrounds, sport courts, and spaces for community gatherings shall be designed to ensure the area is located outside the required setbacks for oil and gas wells and facilities, per Table 5-1 and Table 6-1. These areas may be included in the open space calculations or for trails to traverse, assuming they meet all applicable criteria.",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1403/Land-Use-And-Development-Code",
+    "source_label": "Johnstown Land Use and Development Code Sec. 17-3-2(C)(2)(f), open space location criteria (Town PDF, effective December 5, 2023; file updated September 3, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5",
+      "1",
+      "6"
+    ]
+  },
+  {
+    "id": "johnstown-co.ludc-table-5-1-well-setbacks",
+    "layer": "ordinance",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Johnstown's residential standards set buildings and structures back at least 50 feet from plugged and abandoned wells and at least 250 feet from oil and gas facilities.",
+    "quote": "[4] Buildings and structures shall be setback from plugged and abandoned wells at least 50 feet; and from oil and gas facilities at least 250 feet.",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1403/Land-Use-And-Development-Code",
+    "source_label": "Johnstown Land Use and Development Code Table 5-1, Residential Building & Lot Standards, note 4 (Sec. 17-5-2; Town PDF, effective December 5, 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4",
+      "50",
+      "250"
+    ]
+  },
+  {
+    "id": "johnstown-co.ludc-17-3-2-park-active-share",
+    "layer": "ordinance",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Johnstown's park design guidelines ask that 15% to 50% of a park be designed for active, programmed or structured recreation such as ball fields, playgrounds or sport courts.",
+    "quote": "Any park planned for public dedication shall be designed according to plans, policies, and Design Standards of the Town. Between 15% and 50% of the areas, depending on context and scale of the park, and at the discretion of the Town, shall be designed for active, programmed or structured recreation such as ball fields, playgrounds or sport courts.",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1403/Land-Use-And-Development-Code",
+    "source_label": "Johnstown Land Use and Development Code Sec. 17-3-2(D), Open & Civic Space Design Guidelines: Park (Town PDF, effective December 5, 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "15",
+      "50"
+    ]
+  },
+  {
+    "id": "johnstown-co.ludc-minor-accessory-structures",
+    "layer": "ordinance",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Johnstown treats a residential structure of 200 square feet or less, under 10 feet high and not on a foundation or slab as a minor accessory structure that should be movable and must meet easement conditions and the Table 5-2 setbacks.",
+    "quote": "b. Minor accessory structures 200 square feet or less, less than 10 feet high, and not on a foundation or slab should be movable and are subject to meeting all easement conditions, and the setbacks in Table 5-2. … Minor Structure (carport, shed, pergola & similar structures) … 5’ side & rear … Behind the rear building line of the principal structure",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1403/Land-Use-And-Development-Code",
+    "source_label": "Johnstown Land Use and Development Code Sec. 17-5-2(C)(2)(b) and Table 5-2, Residential Accessory Structure Standards (Town PDF, effective December 5, 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "200",
+      "10",
+      "5",
+      "2"
+    ]
+  },
+  {
+    "id": "johnstown-co.ludc-17-4-4-c-home-care",
+    "layer": "ordinance",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Johnstown permits in-home care as a home occupation subject to state licensing, and exempts permitted home care from the half-the-floor-area limit and the eight-visits-a-day, two-at-a-time customer limit other home businesses carry.",
+    "quote": "4. The activity shall be operated entirely within the dwelling or accessory buildings, and limited to occupy no more than 50% of the combined floor area of all structures on the property, except permitted home care accessory uses may use the entire space. 5. … a. Activity from deliveries, customer, or patron visits shall generally be limited to between the hours of 7 a.m. and 9. p.m. b. Except for permitted home care accessory uses, customer visits shall be limited to no more than 8 per day and no more than 2 customers at a time. … 8. In-home care (distinct from commercial buildings and uses) may be permitted subject to all required state licensing and operation provisions.",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1403/Land-Use-And-Development-Code",
+    "source_label": "Johnstown Land Use and Development Code Sec. 17-4-4(C), Home Occupation (Town PDF, effective December 5, 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4",
+      "50",
+      "5",
+      "7",
+      "9",
+      "8",
+      "2"
+    ]
+  },
+  {
+    "id": "johnstown-co.ludc-dependent-care",
+    "layer": "ordinance",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Johnstown's code classes child care on nonresidential property as dependent care, sized as limited under 3,000 square feet, general from 3,000 to 8,000 and large above 8,000, separate from licensed childcare home occupations.",
+    "quote": "2. Dependent Care. A commercial use of nonresidential property for the care of a child away from his/her own home or for any adult in need of supervisory care, for any part of the 24-hour day. This does not include services accessory to schools, religious services, or employment activities, or licensed childcare home occupations accessory to a principal dwelling. Dependent Care – Limited (< 3K). A dependent care use less than 3,000 square feet of commercial area … Dependent Care– General (3K –8K). A dependent care use between 3,000 and 8,000 square feet of commercial area … Dependent Care – Large. (> 8K). A dependent care use with more than 8,000 square feet",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1403/Land-Use-And-Development-Code",
+    "source_label": "Johnstown Land Use and Development Code Sec. 17-11 use definitions, Dependent Care (Town PDF, effective December 5, 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "24",
+      "3",
+      "3000",
+      "8",
+      "8000"
+    ]
+  },
+  {
+    "id": "johnstown-co.ludc-17-8-2e-prohibition",
+    "layer": "ordinance",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Since January 1, 2026, Johnstown's Sec. 17-8-2(E) bars anyone from installing nonfunctional turf, nonfunctional artificial turf or invasive plant species as part of a new development or redevelopment project on applicable property, and extends the bar to applicable property that includes multifamily housing on January 1, 2028.",
+    "quote": "E. Nonfunctional Turf, Nonfunctional Artificial Turf and Invasive Plant Species. Nonfunctional turf, nonfunctional artificial turf and invasive plant species are prohibited as provided herein. … 2. Prohibition. (1) Commencing on and after January 1, 2026, no person shall install, plant or place any nonfunctional turf, nonfunctional artificial turf, or invasive plant species, as part of a new development project or redevelopment project, on any portion of applicable property; and (2) Commencing on and after January 1, 2028, the prohibition set forth in subsection (1) above shall apply to any portion of applicable properties that include multifamily residential housing premises property.",
+    "source_url": "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=863,plainText=false)",
+    "source_label": "Johnstown Land Use and Development Code Sec. 17-8-2(E), added by Ordinance No. 2025-279, Section 21 (Town Council packet, December 1, 2025, second reading, packet pp. 28-29)",
+    "effective": "2026-01-01",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "2026",
+      "2028",
+      "2"
+    ],
+    "notes": "The staff memo in the same packet: first reading at a public hearing on November 17, 2025, passed unanimously. Supersedes the shared UNVERIFIED record johnstown-code-artificial-turf-unsearched."
+  },
+  {
+    "id": "johnstown-co.ludc-17-8-2e-applicable-property",
+    "layer": "ordinance",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Johnstown's Sec. 17-8-2(E) takes its turf definitions from C.R.S. 37-99-102 as amended from time to time and defines applicable property as rights-of-way, parking lots, medians and transportation corridors, commercial, institutional and industrial property, common interest community property, and multifamily property with more than 12 dwelling units.",
+    "quote": "a. The terms nonfunctional turf, nonfunctional artificial turf, invasive plant species, multifamily residential housing premises property, new development project and redevelopment project shall have the meanings set forth in § 37-99-102, C.R.S., as may be amended from time to time; b. The term applicable property shall mean, and shall be amended from time to time as amended by state law to mean: (1) A street right-of-way, parking lot, median, or transportation corridor; (2) Commercial, institutional and industrial property; (3) Common interest community property; and (4) Multifamily residential housing premises property with more than 12 dwelling units.",
+    "source_url": "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=863,plainText=false)",
+    "source_label": "Johnstown Land Use and Development Code Sec. 17-8-2(E)(1), definitions, added by Ordinance No. 2025-279 (Town Council packet, December 1, 2025, packet p. 28)",
+    "effective": "2026-01-01",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "37",
+      "99",
+      "102",
+      "1",
+      "2",
+      "3",
+      "4",
+      "12"
+    ]
+  },
+  {
+    "id": "johnstown-co.ord-2025-279-adopted",
+    "layer": "ordinance",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "The Johnstown Town Council passed Ordinance 2025-279, the Land Use and Development Code amendments that added the turf rule, on its December 1, 2025 consent agenda by a unanimous vote after a first-reading public hearing on November 17, 2025.",
+    "quote": "Motion by Councilmember Berg and seconded by Councilmember Morris to approve the consent agenda as presented: … Ordinance 2025-279 Land Use and Development Code Amendments … Upon vote, motion passed unanimously.",
+    "source_url": "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=874,plainText=false)",
+    "source_label": "Town of Johnstown, draft minutes of the December 1, 2025 Town Council meeting, in the December 15, 2025 packet (pp. 46-47); first reading November 17, 2025 per the December 1, 2025 staff memo",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2025",
+      "279",
+      "1",
+      "17"
+    ]
+  },
+  {
+    "id": "johnstown-co.ledge-rock-irrigation-bank",
+    "layer": "utility",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Johnstown set aside 7.5 of its Consolidated Home Supply Ditch and Reservoir Company shares, up to 60 acre-feet a year, as an irrigation water bank for the commercial areas of Ledge Rock Center, first approved November 7, 2023 and extended to December 31, 2027.",
+    "quote": "the Town agrees to allow the District to use up to seven and one-half (7.5) shares of the Consolidated Home Supply Ditch and Reservoir Company (up to 60 acre-feet feet per year) from the shares owned by the Town for the irrigation water needs of the Project, pursuant to the terms of this Agreement. The water may not be used for any other purpose. … The Ledge Rock Center Commercial Irrigation Water Bank will terminate on December 31, 2027. … Notwithstanding anything contained herein, the District shall not be obligated to purchase the right to use water from the Ledge Rock Center Commercial Irrigation Water Bank.",
+    "source_url": "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=885,plainText=false)",
+    "source_label": "Town of Johnstown, Town Council packet, February 2, 2026: First Amendment to the Water Service Agreement between Ledge Rock Center Commercial Metropolitan District and the Town (staff memo: initial agreement approved November 7, 2023; bank first set to end December 31, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "7.5",
+      "60",
+      "31",
+      "2027",
+      "2",
+      "2026",
+      "7",
+      "2023",
+      "2025"
+    ]
+  },
+  {
+    "id": "johnstown-co.ledge-rock-extension-approved",
+    "layer": "utility",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "The Town Council approved the Ledge Rock Center commercial irrigation water bank extension on its February 2, 2026 consent agenda by a unanimous vote.",
+    "quote": "First Amendment to the Water Service Agreement between Ledge Rock Center Commercial Metropolitan District and the Town of Johnstown … Upon vote, motion passed unanimously.",
+    "source_url": "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=892,plainText=false)",
+    "source_label": "Town of Johnstown, February 2, 2026 Town Council minutes (consent agenda), in the February 18, 2026 packet (p. 4)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "2026"
+    ]
+  }
+]
