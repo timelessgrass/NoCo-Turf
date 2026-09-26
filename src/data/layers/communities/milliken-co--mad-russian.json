@@ -1,0 +1,251 @@
+[
+  {
+    "id": "milliken-co--mad-russian.sos-registry",
+    "layer": "housing",
+    "applies_to": [
+      "milliken-co"
+    ],
+    "fact": "Colorado's business registry lists Mad Russian Estates, Ltd., a nonprofit formed September 5, 1991, as delinquent since October 1, 2013, and the Phase III Architectural Control Committee @ The Mad Russian, a nonprofit registered in 2005, as dissolved on October 19, 2006; name searches for Blehm Waterway Estates and the Villas at the Mad Russian found no association.",
+    "quote": "entityname: MAD RUSSIAN ESTATES, LTD., Delinquent October 1, 2013 · entitystatus: Delinquent · entitytype: DNC · entityformdate: 1991-09-05 · principalcity: Milliken … entityname: Phase III Architectural Control Committe @ The mad Russian, Dissolved October 19, 2006 · entitystatus: Voluntarily Dissolved · entitytype: DNC · entityformdate: 2005-01-01 · principalcity: MILLIKEN",
+    "source_url": "https://data.colorado.gov/Business/Business-Entities-in-Colorado/4ykn-tg5h",
+    "source_label": "Colorado Secretary of State, Business Entities in Colorado (data.colorado.gov dataset 4ykn-tg5h), Mad Russian Estates, Ltd. and Phase III Architectural Control Committee @ The Mad Russian, searched September 26, 2026",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5",
+      "1991",
+      "1",
+      "2013",
+      "2005",
+      "19",
+      "2006",
+      "1991-09-05",
+      "2005-01-01"
+    ],
+    "notes": "Entity IDs 19911070303 (Mad Russian Estates, Ltd.) and 20051000082 (Phase III committee). Queried the dataset's API on 2026-09-26: by entity ID (19911070303, 20051000082, 19871722940) and by name (upper(entityname) like '%MAD RUSSIAN%' or '%BLEHM%'), plus every DNC with principal city Milliken. The name search returned no association for Blehm Waterway Estates or the Villas at the Mad Russian; the other Mad Russian names are businesses (MAD RUSSIAN GOLF & COUNTRY CLUB, INC., a DPC formed 1987-04-28, Good Standing; MAD RUSSIAN VILLAGE, LTD., a DLP formed 1993; and several dissolved LLCs). Milliken-address nonprofit associations in good standing are Settlers Village, Colony Pointe, NoeMar Townhomes, Mill Iron 5 Ranch Estates and Meadow Farms; none names these plats. An association registered under another name or a management company's address would not show in these searches, and the DRE HOA roster (a form download) was not queried. The 'Phase III' committee implies recorded covenants with an architectural-control clause for at least one phase; the recorded declarations for the three plats were not read."
+  },
+  {
+    "id": "milliken-co--mad-russian.hoa-directory-stub",
+    "layer": "housing",
+    "applies_to": [
+      "milliken-co"
+    ],
+    "fact": "An online HOA directory lists a Mad Russian Golf HOA in Milliken with a pool, trash removal and snow removal, but gives no legal name, registration, management company or contact.",
+    "quote": "Mad Russian Golf HOA is a community located in Milliken, CO (Weld County). … HOA Fee Includes Trash Removal Snow Removal Community Features Pool … Again we are not affiliated with Mad Russian Golf hoa/management company or any real estate agents.",
+    "source_url": "https://hoa-resource.com/mad-russian-golf-homeowners-association-milliken-co/",
+    "source_label": "hoa-resource.com, Mad Russian Golf HOA in Milliken, CO (directory listing)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [],
+    "notes": "A third-party directory stub, read 2026-09-26; it names no plat, and no association of that name appears in the Secretary of State registry (see milliken-co--mad-russian.sos-registry). It conflicts with the registry, so pages say it depends and send owners to their closing papers or title report."
+  },
+  {
+    "id": "milliken-co--mad-russian.zoning-map",
+    "layer": "ordinance",
+    "applies_to": [
+      "milliken-co"
+    ],
+    "fact": "Milliken's zoning map places all 31 Mad Russian Estates parcels and 47 of the 48 Blehm Waterway Estates parcels in R-1E Single-Family Estate Residential, in a zone polygon of about 66.6 acres that is one of two R-1E areas in town, and all 153 Villas at the Mad Russian parcels in a Planned Unit Development.",
+    "quote": "OBJECTID: 45 · ZoningType: R-1E · ZoningDescription: Single-Family Estate Residential · Acres: 66.596029286441166 … OBJECTID: 189 · ZoningType: R-1E · ZoningDescription: Single-Family Estate Residential … OBJECTID: 24 · ZoningType: PUD · ZoningDescription: Planned Unit Development",
+    "source_url": "https://services8.arcgis.com/UyDr5G4BsMoBCjcw/arcgis/rest/services/Zoning_View_Only/FeatureServer/0",
+    "source_label": "Town of Milliken zoning layer (Zoning_View_Only, ArcGIS feature service), queried September 26, 2026",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "31",
+      "47",
+      "48",
+      "66.6",
+      "153",
+      "45",
+      "189",
+      "24",
+      "66.596029286441166"
+    ],
+    "notes": "The layer holds 18 polygons, two of them R-1E (OBJECTID 45, 66.6 acres; OBJECTID 189, about 154 acres by its shape area in square feet). Each parcel's county centroid (Weld Parcels_open_data latitude/longitude) was intersected with the layer on 2026-09-26: Mad Russian Estates 31 of 31 in R-1E #45; Blehm Waterway Estates 47 of 48 in R-1E #45 and 1 (a 3.06-acre metes-and-bounds parcel in the Mad Russian Annex) in C-4; Villas at the Mad Russian 153 of 153 in PUD #24."
+  },
+  {
+    "id": "milliken-co--mad-russian.parcel-sizes",
+    "layer": "housing",
+    "applies_to": [
+      "milliken-co"
+    ],
+    "fact": "Weld County's parcel data counts 48 parcels in Blehm Waterway Estates with a median of about 0.43 acre (some 18,700 square feet; middle half about 0.35 to 0.53 acre), 31 in Mad Russian Estates with a median of about 0.31 acre (some 13,700 square feet; middle half about 0.30 to 0.33), and 153 in the Villas at the Mad Russian with a median of about 0.17 acre (some 7,400 square feet; middle half about 0.15 to 0.20); every Blehm parcel but one and every Mad Russian Estates parcel but its outlot carries an improvement value.",
+    "quote": "SUBNAME: BLEHM WATERWAY ESTATES · SUBNAME: MAD RUSSIAN ESTATES · SUBNAME: VILLAS AT THE MAD RUSSIAN · GIS_Acres · IMPACT … LEGAL: MIL MRE OUTLOT A MAD RUSSIAN ESTATES … LEGAL: MIL VMR TR 4 VILLAS AT MAD RUSSIAN (PARK)",
+    "source_url": "https://services.arcgis.com/ewjSqmSyHJnkfBLL/ArcGIS/rest/services/Parcels_open_data/FeatureServer/0",
+    "source_label": "Weld County GIS, Parcels_open_data layer, subdivisions Blehm Waterway Estates, Mad Russian Estates and Villas at the Mad Russian, GIS acres and improvement values, queried September 26, 2026",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "48",
+      "0.43",
+      "18,700",
+      "18700",
+      "0.35",
+      "0.53",
+      "31",
+      "0.31",
+      "13,700",
+      "13700",
+      "0.30",
+      "0.33",
+      "153",
+      "0.17",
+      "7,400",
+      "7400",
+      "0.15",
+      "0.20",
+      "4"
+    ],
+    "notes": "Queried 2026-09-26 with where=SUBNAME LIKE '%MAD RUSSIAN%' OR '%BLEHM%', outFields SUBNAME, GIS_Acres, IMPACT, LEGAL (owner names not requested for the copy). Blehm: 48 parcels (47 under SUBCODE 1323 plus one 3.06-acre metes-and-bounds parcel), median 0.429 acre (18,687 sq ft), quartiles 0.353 and 0.526, range 0.297 to 3.064; only Lot 12 of Block 1 (0.89 acre) shows IMPACT 0. Mad Russian Estates: 31 parcels, median 0.315 (13,711 sq ft), quartiles 0.305 and 0.332, range 0.284 to 0.441; only Outlot A shows IMPACT 0. Villas: 153 parcels including course and open tracts (Tracts 1 to 4, the largest about 32.3 acres; Tract 4 labelled PARK, about 1.0 acre), median 0.170 (7,397 sq ft), quartiles 0.154 and 0.203; only Outlot A shows IMPACT 0. GIS acres are map areas, not survey areas. Milliken's town record cites the statewide parcel file's medians (about 13,772 and 18,009 sq ft), which agree within rounding."
+  },
+  {
+    "id": "milliken-co--mad-russian.code-16-2-100-r1e",
+    "layer": "ordinance",
+    "applies_to": [
+      "milliken-co"
+    ],
+    "fact": "Milliken's R-1E estate district, meant for single-family homes on large lots, allows sporting courts, tennis courts, pools and other similar structures by right only in the rear yard, caps accessory buildings and structures at 25 percent lot coverage with only one over 720 square feet, caps lot coverage at 40 percent, and sets a 25-foot front setback and a minimum lot of 13,000 square feet or 4 times the house's floor area.",
+    "quote": "(a) Intent. The Residential Estate District (R-1E) is a low-density housing district intended primarily for single-family uses on large lots. This zone is generally located away from the core community, in areas that transition to more rural, agricultural uses on the outskirts of the planning area. … a. Accessory buildings and structures not exceeding twenty-five (25) percent lot coverage, only one may exceed seven hundred twenty (720) square feet. … l. Sporting courts, tennis courts, swimming pools and other similar structures provided they are located in the rear yard of the lot. … (1) Minimum Lot Area: Greater of 13,000 square feet or 4 times principal building floor area. (2) Maximum Lot Coverage: 40%. … (5) Minimum Front Setback: Twenty-five (25) feet. … (7) Minimum Side Setback: Fifteen (15) feet. (8) Minimum Rear Setback: Twenty (20) feet. … (d) Development Standards. (1) The development shall be subject to the applicable site and design standards found in this Chapter. ( Ord. 830 , §§ 5, 6, 11-24-2025)",
+    "source_url": "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIZODIUS_S16-2-100REES",
+    "source_label": "Milliken Municipal Code Sec. 16-2-100, Residential Estate (R-1E), as amended by Ord. 830, Nov. 24, 2025 (codified through Ord. No. 838, March 25, 2026)",
+    "effective": "2025-11-24",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "25",
+      "720",
+      "13,000",
+      "13000",
+      "4",
+      "40",
+      "15",
+      "20",
+      "830",
+      "5",
+      "6",
+      "11",
+      "24",
+      "2025",
+      "838",
+      "2026"
+    ],
+    "notes": "Read 2026-09-26 through Municode's content API (product 18077, job 492897). Other R-1E lines: 3 units per acre, 75-ft minimum width, 15-ft side-street setback, 10 ft between buildings, 35-ft height; agriculture and horse riding stable and grazing are uses by right; any permanent accessory structure over 720 sq ft per acre of land is a conditional use. R-1 (Sec. 16-2-110) allows accessory buildings and structures up to 40 percent, R-1E only 25. The code never names a putting green or artificial turf here."
+  },
+  {
+    "id": "milliken-co--mad-russian.code-16-2-50-setbacks",
+    "layer": "ordinance",
+    "applies_to": [
+      "milliken-co"
+    ],
+    "fact": "Milliken lets landscaping sit in required setbacks and lets tennis courts and pools reach within 5 feet of rear and interior side lot lines, while in R-1E an accessory building or structure keeps 5 feet from interior side and rear lines, 15 feet from a corner side line, and stays out of the front yard and the street corner side yard.",
+    "quote": "d. Setbacks shall be unoccupied and unobstructed by any structure or portion of a structure from thirty-six (36) inches above grade upward … (3) Setback Exceptions. Permanent features and structures allowed within required setbacks shall include: … c. Landscaping; … g. Parking slabs, tennis courts and swimming pools may be extended into required rear yards and interior side yards up to five (5) feet of the required rear or side lot lines; … Table 2.A - Accessory Building AND Structure Dimensional Requirements … R-1E: Single-Family Estate Residential 5 ft. 15 ft. 5 ft. 5 ft. 35 ft. (1) Setbacks. Accessory buildings and structures are not permitted in the front yard or street corner side yard.",
+    "source_url": "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIZODIUS_S16-2-50DIREDESEHELOCO",
+    "source_label": "Milliken Municipal Code Sec. 16-2-50(a)(2)(d), (a)(3) and (b), Table 2.A (codified through Ord. No. 838, March 25, 2026)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "36",
+      "5",
+      "15",
+      "35",
+      "2",
+      "3",
+      "838",
+      "2026"
+    ],
+    "notes": "Read 2026-09-26 through Municode's content API (job 492897). Table 2.A columns: interior side, corner side, rear, rear with alley, maximum height. 16-2-50(a)(2)(g) also keeps a 10-ft strip along a public street uncovered. Whether a putting green is landscaping or an accessory structure is not said; pages hedge it."
+  },
+  {
+    "id": "milliken-co--mad-russian.code-16-8-definitions",
+    "layer": "ordinance",
+    "applies_to": [
+      "milliken-co"
+    ],
+    "fact": "Milliken's code defines a structure as a man-made matrix of load-bearing or space-enclosing members, landscaping as living plants that may include walkways, fences, benches and fountains, and open space as land open to the sky that provides park and recreation opportunities among other uses; none of the three names artificial turf, a putting green or a golf course.",
+    "quote": "Structure means any made-made matrix of load bearing or space enclosing members which requires location on the ground or attached to something having a location on the ground … Landscaping means any combination of living plants such as trees, shrubs, plants, vegetative ground cover or turf grasses, and may include structural features such as walkways, fences, benches, works of art, reflective pools, fountains, or the like. … Open space means any land or water area with its surface open to the sky, which serves specific uses of: providing park and recreation opportunities, conserving natural areas, wildlife habitat, agricultural areas and environmental resources, structuring urban development form, and protecting areas of agricultural, archeological or historical significance.",
+    "source_url": "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTVIIIDE_S16-8-200DEWOTEPH",
+    "source_label": "Milliken Municipal Code Sec. 16-8-200, Definitions: \"Structure\", \"Landscaping\", \"Open space\" (codified through Ord. No. 838, March 25, 2026)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "838",
+      "25",
+      "2026"
+    ],
+    "notes": "Read 2026-09-26 through Municode's content API (job 492897). \"made-made\" is the code's own typo. The same section defines an accessory building or structure as one with less square footage than the principal building, subordinate to it and customarily incidental to the principal use."
+  },
+  {
+    "id": "milliken-co--mad-russian.code-16-2-10-accessory-plot-plan",
+    "layer": "ordinance",
+    "applies_to": [
+      "milliken-co"
+    ],
+    "fact": "Milliken treats accessory uses as uses by right that still need a plot plan and building permit approval when the main use is a single-family or two-family home.",
+    "quote": "(2) Accessory Uses are uses by right that are customarily incidental to the permitted principal use, provided they meet all applicable regulations. Permitted accessory uses require a plot plan where the principal use is a single dwelling unit or two-family dwelling and building permit approval.",
+    "source_url": "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIZODIUS_S16-2-10ZODIES",
+    "source_label": "Milliken Municipal Code Sec. 16-2-10(b)(2), Accessory Uses (codified through Ord. No. 838, March 25, 2026)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "838",
+      "25",
+      "2026"
+    ],
+    "notes": "Read 2026-09-26 through Municode's content API (job 492897). Whether a backyard putting green is an accessory use is not said."
+  },
+  {
+    "id": "milliken-co--mad-russian.code-16-2-220-pud",
+    "layer": "ordinance",
+    "applies_to": [
+      "milliken-co"
+    ],
+    "fact": "In a Milliken PUD, the approved Master and Final Development Plans control land use and may set standards that differ from the rest of the zoning code, and their maps and documents are recorded with the Weld County Clerk and Recorder and kept at the Town Clerk's office.",
+    "quote": "development standards, dimensional requirements and permitted uses may be negotiated that are different from those set forth in this Chapter, and such different standards, dimensional requirements and uses, as negotiated, shall be allowed as set forth in the Master Development Plan (MDP) and Final Development Plan (FDP) … Land use and development within any PUD approved pursuant to these regulations shall be controlled by the provisions of the approved PUD MDP and FDP. Specific maps and documents detailing negotiated items and other matters related to these approved plans shall be recorded with the Weld County Clerk and Recorder and duplicate files of said plans and documents kept in the administrative offices of the Town Clerk.",
+    "source_url": "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIZODIUS_S16-2-220PLDEPLUNDEDIPU",
+    "source_label": "Milliken Municipal Code Sec. 16-2-220(b) and (e)(2), Planned Unit Development District (codified through Ord. No. 838, March 25, 2026)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "220",
+      "2",
+      "838",
+      "25",
+      "2026"
+    ],
+    "notes": "Read 2026-09-26 through Municode's content API (job 492897). The Villas at the Mad Russian PUD predates the current code (homes there date from 2000 on); its development plan was not found online and was not read."
+  },
+  {
+    "id": "milliken-co--mad-russian.building-permits",
+    "layer": "ordinance",
+    "applies_to": [
+      "milliken-co"
+    ],
+    "fact": "Milliken lists Lawn Sprinkler among its counter permits, filed online through CommunityCore and approved in 24 to 72 hours, lists decks and patio covers as residential permits with 10 to 14 business days of plan review, lets sheds of 120 square feet or less go without a building permit, and issues no permit until the contractor holds the Town's contractor license.",
+    "quote": "The Town of Milliken will not issue a permit until the contractor(s) first obtain the required license (Milliken Municipal Code Chapter 6, Article IV). … Counter PERMITS … Lawn Sprinkler … (Counter Permits may take 24 to 72 hours for approval due to increase volume in building). … Residential PERMITS … Decks Patio Covers … Shed/Pole Barn - Sheds 120 square feet or less do not require a building permit … New Residential, Additions, Remodels and Accessory Structures submitted online at CommunityCore (Plan Review Time - 10 to 14 Business Days From Full Submittal)",
+    "source_url": "https://millikenco.gov/161/Building-Application-Process-Submittal-R",
+    "source_label": "Town of Milliken, Building Application Process & Submittal Requirements",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6",
+      "24",
+      "72",
+      "120",
+      "10",
+      "14"
+    ],
+    "notes": "Read 2026-09-26. The page does not say whether capping or moving sprinkler heads, or laying a putting green, needs a permit; pages hedge it and send owners to the building department."
+  }
+]

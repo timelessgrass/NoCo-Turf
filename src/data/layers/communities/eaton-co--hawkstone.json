@@ -1,0 +1,312 @@
+[
+  {
+    "id": "eaton-co--hawkstone.associations",
+    "layer": "housing",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Colorado's business registry lists four Hawkstone associations in good standing: Hawkstone Master Association and Estates at Hawkstone Association, both formed August 24, 1995, Park Ridge at Hawkstone Association, formed September 11, 1996, and The Retreat at Hawkstone Association, formed April 16, 2005, each with One Way Community Management, LLC of Greeley as registered agent.",
+    "quote": "HAWKSTONE MASTER ASSOCIATION, ID 19951105876, Good Standing, formed 1995-08-24, registered agent One Way Community Management, LLC, 1008 8th St, Greeley · ESTATES AT HAWKSTONE ASSOCIATION, ID 19951105877, Good Standing, formed 1995-08-24, One Way Community Management, LLC · PARK RIDGE AT HAWKSTONE ASSOCIATION, ID 19961119338, Good Standing, formed 1996-09-11, One Way Community Management, LLC · The Retreat at Hawkstone Association, ID 20051100705, Good Standing, formed 2005-04-16, One Way Community Management, LLC",
+    "source_url": "https://data.colorado.gov/resource/4ykn-tg5h.json?$q=hawkstone%20association",
+    "source_label": "Colorado Secretary of State, Business Entities in Colorado (data.colorado.gov), entries for the Hawkstone associations",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4",
+      "1995",
+      "24",
+      "1996",
+      "11",
+      "2005",
+      "16",
+      "19951105876",
+      "19951105877",
+      "19961119338",
+      "20051100705",
+      "1008",
+      "8",
+      "1995-08-24",
+      "1996-09-11",
+      "2005-04-16"
+    ],
+    "notes": "Queried 2026-09-26 by entityid=19951105876 and by $q=hawkstone association. The same search also returns Hawkstone Homeowners' Association, Inc. (2021, Sterling), a different community, left out. The registry does not say whether the three neighborhood associations sit under the master; the research brief calls them sub-associations, so pages say 'neighborhood associations' and send owners to OneWay to learn which one reviews a lot."
+  },
+  {
+    "id": "eaton-co--hawkstone.cottages-association",
+    "layer": "housing",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "The same registry lists The Cottages at Hawkstone Association, formed September 11, 2000 and in good standing, with Advance HOA Management, Inc. as its registered agent rather than OneWay.",
+    "quote": "THE COTTAGES AT HAWKSTONE ASSOCIATION, ID 20001176240, Good Standing, formed 2000-09-11, registered agent Advance HOA Management, Inc.",
+    "source_url": "https://data.colorado.gov/resource/4ykn-tg5h.json?$q=hawkstone%20association",
+    "source_label": "Colorado Secretary of State, Business Entities in Colorado (data.colorado.gov), entries for the Hawkstone associations",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2000",
+      "11",
+      "20001176240",
+      "2000-09-11"
+    ],
+    "notes": "The entity's principal address is outside Northern Colorado and is deliberately not quoted (pages may not name Denver-metro towns). The registry does not place the association in Eaton; the statewide parcel file does have a COTTAGES AT HAWKSTONE SUB of 44 parcels in Eaton (see eaton-co--hawkstone.neighborhood-lots)."
+  },
+  {
+    "id": "eaton-co--hawkstone.oneway-served",
+    "layer": "housing",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "OneWay Community Management's list of the associations it serves names Estates at Hawkstone HOA, Park Ridge at Hawkstone Association and The Retreat at Hawkstone Association, and shows Hawkstone Master as coming soon.",
+    "quote": "Associations We Serve: … Estates at Hawkstone HOA … Hawkstone Master - Coming Soon! … Park Ridge at Hawkstone Association … The Retreat at Hawkstone Association …",
+    "source_url": "https://onewayhoa.com/",
+    "source_label": "OneWay Community Management (Greeley), home page, Associations We Serve list",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read from the Wix page source with curl on 2026-09-26 (the list is drawn by script, so a text-only fetch shows only 'Home'). 'Coming Soon' suggests the master association's management is moving to OneWay. Property Technica, Inc. (Greeley) still has pages for Hawkstone Master, Estates at Hawkstone, Retreat at Hawkstone and Parkridge at Hawkstone (propertytechnica.com/hoa/...), but each 'Access HOA Documents' button opens a Dropbox folder that Dropbox reports as deleted (checked 2026-09-26). No public copy of any Hawkstone declaration or design guideline was found."
+  },
+  {
+    "id": "eaton-co--hawkstone.oneway-application",
+    "layer": "housing",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "OneWay Community Management's architectural application, one form for the associations it manages, is filed under each HOA's covenants and committee guidelines, is processed only when complete and on each HOA's own timeline, asks for location, elevations, dimensions, a diagram, product specifications, color and material samples, photographs and drawings, and bars any work before the association's written approval.",
+    "quote": "This application is submitted according to the Declaration of the Covenants, Conditions, and Restrictions (CC&R’s) and all Guidelines set forth by Executive Boards, Architectural Control, Review, or Design Committees for each HOA. It is understood that only complete applications with all required information are accepted and processed, and therefore subject to each HOA’s given timeline. … PLEASE PROVIDE THIS REQUIRED INFORMATION: Location, Elevations, Dimensions and Diagram · Specifications (e.g., manufacturer’s brochure) · Colors – Samples & Product Information · Materials – Samples or Product Information · Photographs · Drawings · Other … 1. No work or commencement of work will be made by me or my contractor until I have received written approval from the Association through its representatives.",
+    "source_url": "https://ab0b62fa-a3ce-48e1-9491-484d10e7eb41.filesusr.com/ugd/28fefb_8169e80d97de4f1980b2ec6a71ab4dca.pdf",
+    "source_label": "OneWay Community Management, Architectural Application (PDF linked from onewayhoa.com)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1"
+    ],
+    "notes": "Downloaded with curl and read with pdftotext on 2026-09-26. A generic form for every OneWay association, not a Hawkstone document: it names no turf, putting-green or landscaping rule and sets no review deadline. The form's phone line is deliberately not quoted."
+  },
+  {
+    "id": "eaton-co--hawkstone.oneway-permits-completion",
+    "layer": "housing",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "The same OneWay form leaves every government permit to the owner and contractor before work starts, says the association's approval is no representation that the work meets any code, asks when approved work will start and roughly when it will finish, and has the owner tell the committee in writing when it is done so it can be inspected against the approved submittal.",
+    "quote": "8. I and any Contractor/Vendor will comply with all applicable federal, state, and local laws, codes, regulations, and requirements in connection with this work. I will obtain any and all necessary governmental permits and approvals before the commencement of work. … the Board of Directors or it’s designated Committee’s approval of this request shall not be understood as the making of any representation or warranty that the plans, specifications, or work comply with any law, code, regulation, or governmental requirement. … 11. If approved, work may commence within _______ days. With completion to be approximately ______ days after. 12. If approved, once the project is complete, I will notify the Architectural Committee through its representatives in writing (email sufficient). An inspection can then be made to ensure compliance to the approved submittal. Completion time shall conform to the COVENANTS of the HOA for this specific project.",
+    "source_url": "https://ab0b62fa-a3ce-48e1-9491-484d10e7eb41.filesusr.com/ugd/28fefb_8169e80d97de4f1980b2ec6a71ab4dca.pdf",
+    "source_label": "OneWay Community Management, Architectural Application (PDF linked from onewayhoa.com), provisions 8, 11 and 12",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "8",
+      "11",
+      "12"
+    ],
+    "notes": "'it’s' is the form's own spelling."
+  },
+  {
+    "id": "eaton-co--hawkstone.filing-lots",
+    "layer": "housing",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "The statewide parcel file shows 263 residential and vacant parcels in Hawkstone's first, third and fifth filings and two replats, with a median of about 10,800 square feet; 184 of them, 70%, are 10,000 square feet or larger.",
+    "quote": "Colorado Public Parcels, Weld County, subName HAWKSTONE SUB (97), HAWKSTONE SUB 3RD FG (77), HAWKSTONE SUB 5TH FG (87), HAWKSTONE SUB 5TH FH RPLT (1), HAWKSTONE SUB RPLT L5 B1 (1), landUseDsc Residential or Vacant Land: 263 parcels; median landAcres × 43,560 = 10,784 sq ft; 184 parcels (70.0%) at 10,000 sq ft or more. HAWKSTONE SUB alone: median 11,823 sq ft; 84 of 97 at 10,000 sq ft or more.",
+    "source_url": "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query",
+    "source_label": "Colorado Public Parcels (statewide parcel file), queried September 26, 2026: Hawkstone filings",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "263",
+      "10800",
+      "10784",
+      "184",
+      "70",
+      "70.0",
+      "10000",
+      "97",
+      "77",
+      "87",
+      "1",
+      "3",
+      "5",
+      "43560",
+      "11823",
+      "84"
+    ],
+    "notes": "Computed 2026-09-26: where countyName='Weld' AND upper(subName) LIKE '%HAWKSTONE%', exempt parcels left out; landSqft is empty in this layer, so area = landAcres × 43,560. A methodology result, not a county statement: say 'the statewide parcel file shows'. Matches the research brief (263, median about 10,800, 70%). The Eaton town record's 'Hawkstone 243 near 10,661' is a different cut (house lots only, 2026-09-24)."
+  },
+  {
+    "id": "eaton-co--hawkstone.first-filing-half-acre",
+    "layer": "housing",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "In Hawkstone's first filing, 32 of the 97 house parcels are half an acre or larger, from 0.53 to 2.86 acres with a median of about 0.8 acre, mostly on Grayhawk, Condor, Kestrel, Cooper Hawk and Goshawk roads and Eagle Drive, and none of them borders the Eaton Country Club parcel.",
+    "quote": "Colorado Public Parcels, HAWKSTONE SUB, landUseDsc Residential, landAcres × 43,560 ≥ 21,780 sq ft: 32 parcels; landAcres 0.53 to 2.86, median 0.80; situs streets GRAYHAWK RD 9, CONDOR RD 5, KESTREL RD 5, EAGLE DR 4, COOPER HAWK RD 3, GOSHAWK RD 3, HAWKRIDGE CT 1, HAWKSTONE DR 1, no situs 1. Parcels within 3 m of parcel 070930100004 (EATON COUNTRY CLUB) at or above 21,780 sq ft: 0.",
+    "source_url": "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query",
+    "source_label": "Colorado Public Parcels (statewide parcel file), queried September 26, 2026: Hawkstone first filing, half-acre parcels",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "32",
+      "97",
+      "0.53",
+      "2.86",
+      "0.8",
+      "0.80",
+      "21780",
+      "43560",
+      "9",
+      "5",
+      "4",
+      "3",
+      "1",
+      "0",
+      "070930100004"
+    ],
+    "notes": "Half an acre = 21,780 sq ft. The border test is the same 3 m intersect with the club parcel as eaton-co.country-club-parcel, re-run 2026-09-26. Whether these lots are the 'Estates at Hawkstone' is not established: the parcel file has no Estates subdivision name."
+  },
+  {
+    "id": "eaton-co--hawkstone.course-side-lots",
+    "layer": "housing",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "The 37 Eaton house parcels that border the Eaton Country Club parcel sit on Red Tail Road (12), Peregrine Point (9), Falcon Ridge Road (7), Prairie Hawk Road (6) and Hawkridge Road (3), with a median of about 11,350 square feet and a range of 8,333 to 17,676; 3 vacant parcels, 2 in the fifth filing and 1 in the Retreat at Hawkstone, border it too.",
+    "quote": "Colorado Public Parcels, parcels within 3 m of 070930100004 (EATON COUNTRY CLUB, 37661 CR 39 WELD, landAcres 122.29), situs city EATON, landUseDsc Residential: 37 (HAWKSTONE SUB 5TH FG 21: RED TAIL RD 12, PEREGRINE PT 9 · HAWKSTONE SUB 10: FALCON RIDGE RD 7, HAWKRIDGE RD 3 · RETREAT AT HAWKSTONE SUB 6: PRAIRIE HAWK RD 6); median 11,352 sq ft, min 8,333, max 17,676. Vacant Land: HAWKSTONE SUB 5TH FG 2, RETREAT AT HAWKSTONE SUB 1.",
+    "source_url": "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query",
+    "source_label": "Colorado Public Parcels (statewide parcel file), queried September 26, 2026: Hawkstone parcels bordering the Eaton Country Club",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "37",
+      "12",
+      "9",
+      "7",
+      "6",
+      "3",
+      "11350",
+      "11352",
+      "8333",
+      "17676",
+      "2",
+      "1",
+      "21",
+      "10",
+      "5",
+      "070930100004",
+      "37661",
+      "39",
+      "122.29"
+    ],
+    "notes": "Re-ran the 3 m intersect behind eaton-co.country-club-parcel on 2026-09-26 (club geometry in WGS84, POST query) and got the same 37 (21 / 10 / 6), then read their streets and areas. Area = landAcres × 43,560. The vacant parcels have no situs address."
+  },
+  {
+    "id": "eaton-co--hawkstone.neighborhood-lots",
+    "layer": "housing",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "The parcel file shows smaller lots in the neighborhood associations' subdivisions: 35 parcels in the Retreat at Hawkstone, 9 of them vacant, with a median of about 8,500 square feet; 28 in Park Ridge at Hawkstone's first replat at about 5,300; and 44 in the Cottages at Hawkstone, 7 of them vacant, at about 6,200.",
+    "quote": "Colorado Public Parcels, Weld County: RETREAT AT HAWKSTONE SUB 26 Residential + 9 Vacant Land = 35, median 8,474 sq ft · PARK RIDGE AT HAWKSTONE 1ST RPLT 27 Residential + 1 Vacant Land = 28, median 5,330 sq ft · COTTAGES AT HAWKSTONE SUB 37 Residential + 7 Vacant Land = 44, median 6,192 sq ft.",
+    "source_url": "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query",
+    "source_label": "Colorado Public Parcels (statewide parcel file), queried September 26, 2026: Retreat, Park Ridge and Cottages at Hawkstone",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "35",
+      "9",
+      "8500",
+      "8474",
+      "28",
+      "5300",
+      "5330",
+      "44",
+      "7",
+      "6200",
+      "6192",
+      "26",
+      "27",
+      "1",
+      "37"
+    ],
+    "notes": "Same query as eaton-co--hawkstone.filing-lots; area = landAcres × 43,560. The parcel file carries no Estates at Hawkstone subdivision. Whether any of these homes share walls (which changes the Colorado turf rule) is not in the parcel file."
+  },
+  {
+    "id": "eaton-co--hawkstone.vacant-parcels",
+    "layer": "housing",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "The parcel file lists 15 vacant parcels across Hawkstone's third filing (2), fifth filing (4) and the Retreat at Hawkstone (9).",
+    "quote": "Colorado Public Parcels, Weld County, landUseDsc Vacant Land: HAWKSTONE SUB 3RD FG 2 · HAWKSTONE SUB 5TH FG 4 · RETREAT AT HAWKSTONE SUB 9 (total 15); also COTTAGES AT HAWKSTONE SUB 7 and PARK RIDGE AT HAWKSTONE 1ST RPLT 1.",
+    "source_url": "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query",
+    "source_label": "Colorado Public Parcels (statewide parcel file), queried September 26, 2026: vacant parcels in the Hawkstone subdivisions",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "15",
+      "2",
+      "3",
+      "4",
+      "5",
+      "9",
+      "7",
+      "1"
+    ],
+    "notes": "The assessor's land-use code, as loaded into the statewide file; a parcel coded vacant may have a house under construction. Re-check before quoting counts on a published page."
+  },
+  {
+    "id": "eaton-co--hawkstone.course-greens",
+    "layer": "place",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "The Eaton Country Club's hole notes describe a sloping kidney-shaped green on the 1st, a two-tier green on the 16th divided down the middle from front to back, and a large green on the 17th whose tier runs diagonally from back left to front right.",
+    "quote": "Hole 1: The sloping kidney shaped green will provide a glimpse of the severity of the greens on the entire front nine. … Hole 16: This green is one of the largest on the course, and is a two tier green that is divided right in the middle from front to back. … Hole 17: The front of the green is higher than the back half of the green, and the green tier runs diagonally from back left to front right.",
+    "source_url": "https://eatoncc.net/course-tour/",
+    "source_label": "Eaton Country Club, Course Tour (holes 1, 16 and 17)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "16",
+      "17"
+    ],
+    "notes": "Read 2026-09-26 with WebFetch (curl gets a Cloudflare challenge). The page gives no hole-to-lot geography, so pages must not say which of these holes a given Hawkstone lot faces."
+  },
+  {
+    "id": "eaton-co--hawkstone.code-7-2-33-lighting-co",
+    "layer": "ordinance",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Eaton's landscaping section requires all outdoor lighting to be directed down and screened away from neighboring properties and streets, and issues no certificate of occupancy where its landscaping requirements are unmet unless a suitable plan and agreement is made with the Town Administrator.",
+    "quote": "(e) Lighting. All outdoor lighting shall be directed down and screened away from adjacent properties and streets. … (g) Maintenance. … (5) No certificate of occupancy shall be issued where landscaping requirements are not complied with unless a suitable plan and agreement is made with the Town Administrator. (Ord. 480 §1, 2000)",
+    "source_url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIIPLZORE_SIIZOOR_ARTIIIGEDEST_S7-2-33LARE",
+    "source_label": "Eaton Municipal Code Sec. 7-2-33(e) and (g)(5), Landscaping requirements (Ord. 480, 2000; codified through Ord. 668, Nov. 20, 2025)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "7",
+      "2",
+      "33",
+      "5",
+      "480",
+      "1",
+      "2000"
+    ],
+    "notes": "Read 2026-09-26 through the Municode API (job 480830, productId 2134). A town-wide rule kept here because this writer may edit only its own file; it belongs in local/eaton-co.json beside eaton-co.code-7-2-33-landscaping when that file is next edited. The allowable-materials list in 7-2-33(c) does not name artificial turf."
+  }
+]

@@ -1,0 +1,272 @@
+{
+  "status": "draft",
+  "town": "milliken-co",
+  "slug": "mad-russian",
+  "name": "Mad Russian",
+  "kind": "golf",
+  "governing": {
+    "name": "No association in good standing",
+    "type": "none-found",
+    "layerRefs": []
+  },
+  "golf": {
+    "name": "Mad Russian Golf Course",
+    "layerRef": "milliken-co.mad-russian-course"
+  },
+  "title": "Putting Greens & Turf at the Mad Russian, Milliken | NoCo Turf Co.",
+  "description": "No HOA around Milliken's Mad Russian course is in good standing with the state. What R-1E estate zoning and the Villas' PUD mean for a backyard green.",
+  "h1": "Around the Mad Russian, no HOA in good standing is on file to review a backyard green",
+  "display": {
+    "paint": "no HOA in good standing"
+  },
+  "lede": "Three plats share the course's streets: Mad Russian Estates and Blehm Waterway Estates, zoned by the Town for estate lots, and the Villas at the Mad Russian, a planned unit development. The two Mad Russian nonprofits on Colorado's books, an estates corporation and a design committee, are delinquent or dissolved, so the design rules anyone can read today are Milliken's own.",
+  "answer": {
+    "question": "Do I need HOA approval for turf or a putting green near the Mad Russian?",
+    "answer": "Not from any association in good standing on Colorado's business registry, though covenants recorded with a plat may still bind a lot, so check the title. Milliken's zoning applies either way: on the estate lots, courts and similar structures go behind the house. NoCo Turf Co. installs artificial turf and putting greens around the Mad Russian in Milliken, Colorado."
+  },
+  "blocks": [
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Who reviews a yard",
+      "h2": "Both Mad Russian associations on the state's books are delinquent or dissolved.",
+      "takeaway": "No committee in good standing turned up for Mad Russian Estates, Blehm Waterway Estates or the Villas, so there were no guidelines on turf or greens to quote.",
+      "paras": [
+        "Colorado's business registry carries Mad Russian Estates, Ltd., a nonprofit formed on September 5, 1991, as delinquent since October 1, 2013. A second nonprofit, the Phase III Architectural Control Committee @ The Mad Russian, registered in 2005 and was dissolved on October 19, 2006. Searches under Blehm Waterway Estates and the Villas at the Mad Russian returned no association at all.",
+        "A committee named for a Phase III suggests covenants with an architectural-control clause recorded for at least one phase, and none of them are posted online. Whether any still bind a given lot, and who could enforce them now, is a question for a title report or an attorney rather than this page.",
+        "The record doesn't agree with itself, either. One online HOA directory lists a 'Mad Russian Golf HOA' with a pool, trash removal and snow removal, yet names no legal entity, registration or manager, and no plat. It depends on the house: if closing papers or a seller's disclosure named an association, ask that association before a plan is drawn."
+      ],
+      "layerRefs": [
+        "milliken-co--mad-russian.sos-registry",
+        "milliken-co--mad-russian.hoa-directory-stub"
+      ],
+      "sources": [
+        "https://data.colorado.gov/Business/Business-Entities-in-Colorado/4ykn-tg5h",
+        "https://hoa-resource.com/mad-russian-golf-homeowners-association-milliken-co/"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "R-1E, the estate zone",
+      "h2": "Mad Russian Estates and Blehm sit in one of only two estate-zoned areas in Milliken.",
+      "paras": [
+        "On the Town's zoning map, all 31 Mad Russian Estates parcels and 47 of the 48 in Blehm Waterway Estates fall in R-1E, Single-Family Estate Residential: a zone of about 66.6 acres and one of just two R-1E areas in town. The code writes R-1E for low-density houses on large lots, placed where town gives way to rural and agricultural land.",
+        "Three R-1E lines shape a backyard project. Courts, pools and other similar structures are allowed by right only behind the house. Accessory buildings and structures together may cover no more than 25 percent of the lot, with just one allowed past 720 square feet, a tighter cap than the 40 percent Milliken's ordinary R-1 district gives accessory buildings and structures. And buildings and structures of every kind stop at 40 percent of the lot."
+      ],
+      "layerRefs": [
+        "milliken-co--mad-russian.zoning-map",
+        "milliken-co--mad-russian.code-16-2-100-r1e",
+        "milliken-co.code-16-2-110-r1-rear-yard",
+        "milliken-co.code-16-8-lot-coverage"
+      ],
+      "sources": [
+        "https://services8.arcgis.com/UyDr5G4BsMoBCjcw/arcgis/rest/services/Zoning_View_Only/FeatureServer/0",
+        "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIZODIUS_S16-2-100REES",
+        "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIZODIUS_S16-2-110SIMIRE",
+        "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTVIIIDE_S16-8-200DEWOTEPH"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": false,
+      "kicker": "Landscaping or structure",
+      "h2": "Whether a green counts as landscaping or as an accessory structure decides where it may sit.",
+      "paras": [
+        "The definitions pull two ways. Milliken calls a structure a man-made matrix of load-bearing or space-enclosing members set on or attached to the ground, and calls landscaping living plants that may take in walkways, fences, benches and fountains. A synthetic green is neither alive nor load-bearing, and neither definition mentions artificial turf.",
+        "The reading moves the lines. As landscaping, a green may run into a required setback. As an accessory structure on an R-1E lot, it keeps out of the front yard and the street corner side yard, holds 5 feet off interior side and rear lines, and counts toward the 25 percent cap. Tennis courts and pools, the nearest things the code does name, may reach within 5 feet of rear and interior side lot lines.",
+        "An accessory use still needs a plot plan and building permit approval where the house is a single-family home. It depends on the design, the edging and any wall around the green; ask Milliken Planning before one is drawn near a lot line or forward of the house."
+      ],
+      "layerRefs": [
+        "milliken-co--mad-russian.code-16-8-definitions",
+        "milliken-co--mad-russian.code-16-2-50-setbacks",
+        "milliken-co--mad-russian.code-16-2-10-accessory-plot-plan"
+      ],
+      "sources": [
+        "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTVIIIDE_S16-8-200DEWOTEPH",
+        "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIZODIUS_S16-2-50DIREDESEHELOCO",
+        "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIZODIUS_S16-2-10ZODIES"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "The Villas",
+      "h2": "In the Villas at the Mad Russian, the yard rules live in a development plan, not the zoning table.",
+      "paras": [
+        "Every one of the Villas' 153 parcels lies inside a planned unit development on the Town's map. In a Milliken PUD, the approved Master and Final Development Plans control land use and may set setbacks, coverage and uses unlike the standard districts; their maps and documents are recorded with the Weld County Clerk and Recorder and kept on file with the Town Clerk.",
+        "The Villas' plan isn't posted online, so neither the R-1E figures above nor the R-1 ones can be assumed to carry over. Its lots are also the smallest of the three plats, a median near 0.17 acre, which leaves less room around a green for a chipping lie or a seating edge than the estate lots offer. It depends on the recorded plan; ask the Town Clerk or Milliken Planning for a copy before a design is fixed."
+      ],
+      "layerRefs": [
+        "milliken-co--mad-russian.zoning-map",
+        "milliken-co--mad-russian.code-16-2-220-pud",
+        "milliken-co--mad-russian.parcel-sizes"
+      ],
+      "sources": [
+        "https://services8.arcgis.com/UyDr5G4BsMoBCjcw/arcgis/rest/services/Zoning_View_Only/FeatureServer/0",
+        "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIZODIUS_S16-2-220PLDEPLUNDEDIPU",
+        "https://services.arcgis.com/ewjSqmSyHJnkfBLL/ArcGIS/rest/services/Parcels_open_data/FeatureServer/0"
+      ]
+    },
+    {
+      "kind": "housing",
+      "own": true,
+      "kicker": "Three lot sizes",
+      "h2": "Blehm lots run near 0.43 acre, Mad Russian Estates near 0.31, the Villas near 0.17.",
+      "paras": [
+        "Weld County's parcel data counts 48 parcels in Blehm Waterway Estates, with a median of about 0.43 acre, some 18,700 square feet, and a middle half between about 0.35 and 0.53 acre. Mad Russian Estates is more even: 31 parcels, half of them between 0.30 and 0.33 acre, around a median of 0.31, near 13,700 square feet. The Villas' 153 parcels center on about 0.17 acre.",
+        "Both estate plats are nearly built out. On the county roll, every Blehm parcel but one, and every Mad Russian Estates parcel except its outlot, carries an improvement value, and Milliken exempts existing detached houses from most of its Division 3 landscape standards. On lots this size the rear yard can take the green, its fringe, a chipping lie and a place to sit, planned as one composition instead of a patch cut into leftover lawn."
+      ],
+      "layerRefs": [
+        "milliken-co--mad-russian.parcel-sizes",
+        "milliken-code-16-3-303-nonfunctional"
+      ],
+      "sources": [
+        "https://services.arcgis.com/ewjSqmSyHJnkfBLL/ArcGIS/rest/services/Parcels_open_data/FeatureServer/0",
+        "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIIGESTAPALDI_DIV3LABUFEWAST_S16-3-303NOTUNOARTUINPLTRSHGRSP"
+      ]
+    },
+    {
+      "kind": "golf",
+      "own": true,
+      "kicker": "The course edge",
+      "h2": "A lot backing onto the public course may owe it a fence that is half open.",
+      "paras": [
+        "For lots that back onto it, the neighbor beyond the fence is public: Thompson Rivers Parks and Recreation District took on the Mad Russian Golf Course under a 25-year agreement beginning January 1, 2023. Milliken's fence standards reach existing houses as well as new ones, and a fence permit comes before construction.",
+        "Along a side or rear yard next to open space or a park, a fence must be at least 50 percent open, such as split rail, wrought iron or picket. The code defines open space as land open to the sky that provides park and recreation opportunities, but it never says whether a golf course qualifies. It depends on how Milliken Planning reads the lot; ask before a green's backdrop fence is ordered. An open fence also keeps the fairway in view behind the green."
+      ],
+      "layerRefs": [
+        "milliken-co.mad-russian-trpr",
+        "milliken-co.code-16-3-390-fences",
+        "milliken-co--mad-russian.code-16-8-definitions"
+      ],
+      "sources": [
+        "https://s3.us-east-2.amazonaws.com/lg.colorado.gov/published_audits/2023/3467.00%20Thompson%20River%20Park%20and%20Recreation%20District.pdf",
+        "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIIGESTAPALDI_DIV3LABUFEWAST_S16-3-390FEWA",
+        "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTVIIIDE_S16-8-200DEWOTEPH"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is there an HOA in the Villas at the Mad Russian?",
+      "a": "None turned up on Colorado's business registry under the Villas' name, and neither Mad Russian nonprofit is in good standing. An online directory lists a 'Mad Russian Golf HOA' with no legal name or registration. It depends on the house: check the closing papers or a title report, and ask any association named there.",
+      "layerRefs": [
+        "milliken-co--mad-russian.sos-registry",
+        "milliken-co--mad-russian.hoa-directory-stub"
+      ]
+    },
+    {
+      "q": "Does a backyard putting green need a Milliken permit?",
+      "a": "The code doesn't list one by name. If the Town treats a green as an accessory use, it wants a plot plan and building permit approval. Lawn Sprinkler is on its list of counter permits, which can take 24 to 72 hours, and a new fence needs its own permit. The Town issues none until the contractor holds its contractor license; ask the building department which apply.",
+      "layerRefs": [
+        "milliken-co--mad-russian.code-16-2-10-accessory-plot-plan",
+        "milliken-co--mad-russian.building-permits",
+        "milliken-co.code-16-3-390-fences"
+      ]
+    },
+    {
+      "q": "Can a pergola or deck go beside the green on an R-1E lot?",
+      "a": "Within limits. On Mad Russian Estates and Blehm lots, accessory buildings and structures share a 25 percent coverage cap, and only one may exceed 720 square feet. Decks and patio covers are residential permits with 10 to 14 business days of plan review; sheds of 120 square feet or less need no building permit.",
+      "layerRefs": [
+        "milliken-co--mad-russian.code-16-2-100-r1e",
+        "milliken-co--mad-russian.building-permits"
+      ]
+    },
+    {
+      "q": "Can a green go in front of the house here?",
+      "a": "On an R-1E lot, courts and similar structures belong in the rear yard, and accessory structures stay out of the front yard and the street corner side yard. If the Town reads a flat green as landscaping, the front yard may be open to it. That call is unsettled, and in the Villas the PUD plan governs; ask Milliken Planning first.",
+      "layerRefs": [
+        "milliken-co--mad-russian.code-16-2-100-r1e",
+        "milliken-co--mad-russian.code-16-2-50-setbacks",
+        "milliken-co--mad-russian.code-16-2-220-pud"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Colorado Secretary of State, Business Entities in Colorado (data.colorado.gov dataset 4ykn-tg5h), Mad Russian Estates, Ltd. and Phase III Architectural Control Committee @ The Mad Russian, searched September 26, 2026",
+      "url": "https://data.colorado.gov/Business/Business-Entities-in-Colorado/4ykn-tg5h",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "hoa-resource.com, Mad Russian Golf HOA in Milliken, CO (directory listing)",
+      "url": "https://hoa-resource.com/mad-russian-golf-homeowners-association-milliken-co/",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Town of Milliken zoning layer (Zoning_View_Only, ArcGIS feature service)",
+      "url": "https://services8.arcgis.com/UyDr5G4BsMoBCjcw/arcgis/rest/services/Zoning_View_Only/FeatureServer/0",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Weld County GIS, Parcels_open_data layer (Blehm Waterway Estates, Mad Russian Estates, Villas at the Mad Russian)",
+      "url": "https://services.arcgis.com/ewjSqmSyHJnkfBLL/ArcGIS/rest/services/Parcels_open_data/FeatureServer/0",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Milliken Municipal Code Sec. 16-2-100, Residential Estate (R-1E), as amended by Ord. 830, Nov. 24, 2025 (codified through Ord. No. 838, March 25, 2026)",
+      "url": "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIZODIUS_S16-2-100REES",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Milliken Municipal Code Sec. 16-2-110, Single-Family Residential (R-1) (codified through Ord. No. 838, March 25, 2026)",
+      "url": "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIZODIUS_S16-2-110SIMIRE",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Milliken Municipal Code Sec. 16-2-50, Dimensional Requirements, Table 2.A (codified through Ord. No. 838, March 25, 2026)",
+      "url": "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIZODIUS_S16-2-50DIREDESEHELOCO",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Milliken Municipal Code Sec. 16-2-10(b)(2), Accessory Uses (codified through Ord. No. 838, March 25, 2026)",
+      "url": "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIZODIUS_S16-2-10ZODIES",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Milliken Municipal Code Sec. 16-2-220, Planned Unit Development District (codified through Ord. No. 838, March 25, 2026)",
+      "url": "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIZODIUS_S16-2-220PLDEPLUNDEDIPU",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Milliken Municipal Code Sec. 16-8-200, Definitions: Structure, Landscaping, Open space (codified through Ord. No. 838, March 25, 2026)",
+      "url": "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTVIIIDE_S16-8-200DEWOTEPH",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Milliken Municipal Code Secs. 16-3-303 and 16-3-305(c) (Ord. 831, Dec. 22, 2025; codified through Ord. No. 838, March 25, 2026)",
+      "url": "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIIGESTAPALDI_DIV3LABUFEWAST_S16-3-303NOTUNOARTUINPLTRSHGRSP",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Milliken Municipal Code Sec. 16-3-390, Fences and Walls (codified through Ord. No. 838, March 25, 2026)",
+      "url": "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIIGESTAPALDI_DIV3LABUFEWAST_S16-3-390FEWA",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Thompson Rivers Parks and Recreation District, 2023 audited financial statements, Note 4 (filed with the Colorado Division of Local Government)",
+      "url": "https://s3.us-east-2.amazonaws.com/lg.colorado.gov/published_audits/2023/3467.00%20Thompson%20River%20Park%20and%20Recreation%20District.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "GolfPass course directory, Mad Russian Golf Course, Milliken, Colorado",
+      "url": "https://www.golfpass.com/travel-advisor/courses/4271-mad-russian-golf-course",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Town of Milliken, Building Application Process & Submittal Requirements",
+      "url": "https://millikenco.gov/161/Building-Application-Process-Submittal-R",
+      "checked": "2026-09-26"
+    }
+  ],
+  "checked": "2026-09-26",
+  "needsFromBrian": [
+    "Any job around the Mad Russian (Mad Russian Estates, Blehm Waterway Estates or the Villas at the Mad Russian): street, month, what went in (turf lawn, putting green, chipping area) and rough size. None is known, so the page claims none",
+    "Camera-original photos of a job in one of those three plats for src/data/photos.ts, tagged community: 'milliken-co--mad-russian' (a photo from elsewhere in Milliken, or from Windsor or Berthoud, does not pass the gate)",
+    "Whether Milliken Planning has treated a backyard green in R-1E as landscaping or as an accessory structure, and whether it asked for a plot plan or building permit",
+    "Whether any client's title work around the course turned up recorded covenants (the 2005 'Phase III Architectural Control Committee' points to some) and what they say about landscaping or approval",
+    "Whether the Villas at the Mad Russian has a working HOA today (an online directory names a 'Mad Russian Golf HOA'; the state registry shows none in good standing), and a copy of the Villas PUD development plan if the Town Clerk provides one",
+    "Whether Milliken has required a 50 percent open fence on a lot backing onto the course, i.e. whether it reads the golf course as open space or a park under Sec. 16-3-390"
+  ]
+}

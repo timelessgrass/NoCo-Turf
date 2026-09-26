@@ -1,0 +1,247 @@
+{
+  "status": "draft",
+  "town": "eaton-co",
+  "slug": "hawkstone",
+  "name": "Hawkstone",
+  "kind": "golf",
+  "governing": {
+    "name": "Hawkstone Master Association",
+    "type": "hoa",
+    "layerRefs": [
+      "eaton-co--hawkstone.associations",
+      "eaton-co--hawkstone.oneway-served",
+      "eaton-co--hawkstone.oneway-application",
+      "eaton-co--hawkstone.oneway-permits-completion"
+    ]
+  },
+  "golf": {
+    "name": "Eaton Country Club",
+    "layerRef": "eaton-co.country-club-about"
+  },
+  "title": "Turf and Putting Greens in Hawkstone, Eaton, CO | NoCo Turf Co.",
+  "description": "Hawkstone's covenants aren't public. What OneWay's review form asks for, where the course-side and half-acre lots sit, and Eaton's rules for a new-home yard.",
+  "h1": "Hawkstone runs up to the Eaton Country Club, and its first filing holds 32 lots of half an acre or more",
+  "display": {
+    "paint": "32 lots of half an acre or more"
+  },
+  "lede": "Hawkstone grew up around a 13-acre park and pond from 1995, and its yards range from course-side lots along the club to first-filing parcels of half an acre to nearly three acres. Four associations registered through one Greeley manager cover most of it, and none of them posts its covenants where the public can read them.",
+  "answer": {
+    "question": "Can I put artificial turf or a putting green in my Hawkstone yard?",
+    "answer": "Usually, once your association approves the plan in writing. NoCo Turf Co. installs artificial turf and putting greens in Hawkstone, Eaton, Colorado. Hawkstone's covenants aren't posted publicly, and the application OneWay Community Management uses bars any work before written approval, so get the current documents from OneWay before designing a lawn, a green or a course-side yard."
+  },
+  "blocks": [
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Four associations",
+      "h2": "Hawkstone yards answer to a master association and three neighborhood ones, and none posts its rules.",
+      "takeaway": "No public copy of a Hawkstone declaration or design guideline could be found in September 2026, so this page can't quote what those documents say about artificial turf, putting greens or backyard landscaping.",
+      "paras": [
+        "Colorado's business registry carries Hawkstone Master Association and Estates at Hawkstone Association, both formed in 1995, Park Ridge at Hawkstone Association from 1996 and The Retreat at Hawkstone Association from 2005. All four are in good standing and all four name One Way Community Management of Greeley as registered agent. OneWay's own client list shows the three neighborhood associations and marks the master as coming soon.",
+        "The declarations, and any design guidelines a board has written since, are held by the associations and their manager. Until you hold them, two things are open: whether a synthetic lawn, a green or a new patio needs a committee's signature at all, and what product, color or placement rules come with it. It depends on your association's documents, so ask OneWay for the full current set before anyone draws a plan. The [HOA approval guide](/guides/hoa-turf-approval/) walks through a review."
+      ],
+      "layerRefs": [
+        "eaton-co--hawkstone.associations",
+        "eaton-co--hawkstone.oneway-served",
+        "co-hoa-backyard-detached"
+      ],
+      "sources": [
+        "https://data.colorado.gov/resource/4ykn-tg5h.json?$q=hawkstone%20association",
+        "https://onewayhoa.com/",
+        "https://leg.colorado.gov/bill_files/92307/download"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": false,
+      "kicker": "The application",
+      "h2": "OneWay's form wants drawings, product sheets and samples, and nothing starts before a written yes.",
+      "takeaway": "OneWay's architectural application states that neither the owner nor a contractor begins work until the association's written approval arrives.",
+      "paras": [
+        "One form serves every association OneWay manages. It is filed under each HOA's covenants and its committee's guidelines, only a complete application gets processed, and each HOA keeps its own timeline, so the form promises no review deadline. Its checklist: location, elevations, dimensions and a diagram; specifications such as the manufacturer's brochure; color and material samples or product information; photographs; drawings.",
+        "For turf or a green, that reads as a plan measured from the lot lines and the house, the turf's spec sheet with a cut sample, the edging, and photos of the yard as it stands. The owner also writes in when the work will start and roughly when it will finish, and reports completion in writing so the committee can inspect the result against what it approved. Town permits stay with the owner and the contractor: the form says an approval is no statement that the work meets any code."
+      ],
+      "layerRefs": [
+        "eaton-co--hawkstone.oneway-application",
+        "eaton-co--hawkstone.oneway-permits-completion"
+      ],
+      "sources": [
+        "https://ab0b62fa-a3ce-48e1-9491-484d10e7eb41.filesusr.com/ugd/28fefb_8169e80d97de4f1980b2ec6a71ab4dca.pdf"
+      ]
+    },
+    {
+      "kind": "golf",
+      "own": true,
+      "kicker": "The course line",
+      "h2": "Every Eaton house lot on the country club's boundary is a Hawkstone lot, most of them on Red Tail Road and Peregrine Point.",
+      "takeaway": "Of the 37 house parcels inside Eaton that touch the club's land, 21 sit on Red Tail Road and Peregrine Point, 10 on Falcon Ridge and Hawkridge roads, and 6 on Prairie Hawk Road in the Retreat.",
+      "paras": [
+        "Those course-side lots run from about 8,333 to 17,676 square feet, with a median near 11,350, so a green behind one of them shares a modest yard with the patio and the view. Three vacant parcels touch the club too, two in the fifth filing and one in the Retreat. The club is private, and its 122-acre parcel lies outside Eaton in unincorporated Weld County. A builder's listing for Hawkstone says residents get golf cart access, without saying on what terms.",
+        "The greens over the fence make a good brief. The club's hole notes call the 1st a sloping kidney-shaped green, the 16th a two-tier green split down the middle from front to back, and the 17th a large green whose tier runs diagonally from back left to front right. A backyard green can borrow one of those moves, a kidney outline, a single tier or a diagonal break, at whatever scale the yard allows. The club's history is on the [Eaton putting-green page](/areas/eaton-co/putting-greens/)."
+      ],
+      "layerRefs": [
+        "eaton-co--hawkstone.course-side-lots",
+        "eaton-co.country-club-parcel",
+        "eaton-co.country-club-about",
+        "eaton-co.hawkstone-golf-cart",
+        "eaton-co--hawkstone.course-greens",
+        "eaton-co.hawkstone-park"
+      ],
+      "sources": [
+        "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query",
+        "https://eatoncc.net/about-us/",
+        "https://firstwalk.com/community/hawkstone/",
+        "https://eatoncc.net/course-tour/",
+        "https://web.archive.org/web/20240628215425/http://www.eatonco.org/media/6216"
+      ]
+    },
+    {
+      "kind": "housing",
+      "own": true,
+      "kicker": "Half-acre lots",
+      "h2": "The first filing has 32 lots of half an acre or more, and none of them backs onto the course.",
+      "takeaway": "Across Hawkstone's first, third and fifth filings the median parcel is about 10,800 square feet and 70% reach 10,000; the biggest lots cluster in the first filing, away from the club.",
+      "paras": [
+        "The 32 large lots run from 0.53 to 2.86 acres, with a median near 0.8 acre, mostly along Grayhawk, Condor, Kestrel, Cooper Hawk and Goshawk roads and Eagle Drive. At that size a green doesn't have to hug the patio: it can sit out in the yard with a chipping area in front and a long approach from the house, or share one sweep of turf with a play lawn or a dog run. The [chipping guide](/guides/chipping-onto-artificial-putting-green/) and the [sizing guide](/guides/backyard-putting-green-size/) cover that layout.",
+        "The neighborhood associations' subdivisions are tighter. The Retreat at Hawkstone's 35 parcels have a median near 8,500 square feet, Park Ridge at Hawkstone's first replat has 28 parcels near 5,300, and the Cottages at Hawkstone 44 near 6,200. On those lots turf, a green and a patio usually share one back yard, so the drawing that goes to the committee has to show all three."
+      ],
+      "layerRefs": [
+        "eaton-co--hawkstone.filing-lots",
+        "eaton-co--hawkstone.first-filing-half-acre",
+        "eaton-co--hawkstone.neighborhood-lots"
+      ],
+      "sources": [
+        "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": false,
+      "kicker": "Empty lots",
+      "h2": "A new house on one of Hawkstone's vacant parcels brings the Town's landscape plan into the yard.",
+      "takeaway": "Eaton issues no building, construction or grading permit without a landscape plan approved by the Town Board or its designee, and no certificate of occupancy while the landscaping falls short unless a plan and agreement is made with the Town Administrator.",
+      "paras": [
+        "The parcel file lists 15 vacant parcels across Hawkstone's third and fifth filings and the Retreat, 9 of them in the Retreat. Building on one puts the yard in front of the Town under Section 7-2-33, on top of whatever the association's documents require; that section wants every part of a lot not covered by impervious material landscaped. Its list of allowable materials names lawns, groundcover, rock outcroppings, and decorative elements such as walks, decks and water features capped at 20% of a landscaped area. Artificial turf isn't on that list and the section doesn't say how the Town counts it, so it depends on the Town's reading: ask Eaton Planning before a new-home plan leans on a synthetic lawn or green.",
+        "The same section wants every outdoor light directed down and screened away from neighboring properties and streets, which shapes any fixtures for evening putting. The [Eaton page](/areas/eaton-co/) covers the Town's turf ordinance, which stops at commercial and common land."
+      ],
+      "layerRefs": [
+        "eaton-co--hawkstone.vacant-parcels",
+        "eaton-co.code-7-2-33-landscaping",
+        "eaton-co--hawkstone.code-7-2-33-lighting-co"
+      ],
+      "sources": [
+        "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query",
+        "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIIPLZORE_SIIZOOR_ARTIIIGEDEST_S7-2-33LARE"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do Hawkstone's covenants say anything about artificial turf or putting greens?",
+      "a": "Not in any copy posted publicly, so it depends on your association's declaration and whatever its board has adopted since. Ask OneWay Community Management for the current documents, and read the [HOA approval guide](/guides/hoa-turf-approval/) for what Colorado law adds for back yards.",
+      "layerRefs": [
+        "eaton-co--hawkstone.associations",
+        "eaton-co--hawkstone.oneway-served"
+      ]
+    },
+    {
+      "q": "Which association reviews a yard in the Retreat or Park Ridge?",
+      "a": "It depends on the lot. The Retreat at Hawkstone, Park Ridge at Hawkstone and the Estates at Hawkstone each have an association of their own beside Hawkstone Master Association, and the Cottages at Hawkstone has a separate association with a different manager. Your closing papers name yours; if two could apply, ask OneWay whether both have to sign off.",
+      "layerRefs": [
+        "eaton-co--hawkstone.associations",
+        "eaton-co--hawkstone.cottages-association",
+        "eaton-co--hawkstone.oneway-served"
+      ]
+    },
+    {
+      "q": "Can the crew start once the application is in?",
+      "a": "No. Provision 1 of OneWay's form says no work starts until the association's written approval arrives. Provision 12 then asks you to report completion in writing, so the committee can inspect the finished yard against the plan it approved.",
+      "layerRefs": [
+        "eaton-co--hawkstone.oneway-application",
+        "eaton-co--hawkstone.oneway-permits-completion"
+      ]
+    },
+    {
+      "q": "Can a Hawkstone front yard be artificial turf?",
+      "a": "It depends on your association. Colorado's turf protection reaches back yards only, so a synthetic front lawn is the association's call under documents that aren't public. Ask OneWay before a design puts turf out front.",
+      "layerRefs": [
+        "co-hoa-front-yard-designs"
+      ]
+    },
+    {
+      "q": "Does Hawkstone Park use the same water as my lawn?",
+      "a": "Eaton's 2024 parks plan lists the Town water system as the park's irrigation source. Whether your own lot has a non-potable tap is a question for the Town; where one is installed, Eaton's code sends all lot irrigation other than house-attached hose bibs to it.",
+      "layerRefs": [
+        "eaton-co.hawkstone-park",
+        "eaton-co.code-9-5-7-nonpotable-required"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Colorado Secretary of State, Business Entities in Colorado (data.colorado.gov): Hawkstone Master Association, Estates at Hawkstone Association, Park Ridge at Hawkstone Association, The Retreat at Hawkstone Association, The Cottages at Hawkstone Association",
+      "url": "https://data.colorado.gov/resource/4ykn-tg5h.json?$q=hawkstone%20association",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "OneWay Community Management (Greeley), Associations We Serve",
+      "url": "https://onewayhoa.com/",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "OneWay Community Management, Architectural Application (PDF), provisions 1, 8, 11 and 12",
+      "url": "https://ab0b62fa-a3ce-48e1-9491-484d10e7eb41.filesusr.com/ugd/28fefb_8169e80d97de4f1980b2ec6a71ab4dca.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "SB23-178 signed act: C.R.S. 38-33.3-106.5",
+      "url": "https://leg.colorado.gov/bill_files/92307/download",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Colorado Public Parcels (statewide parcel file), queried September 26, 2026: Hawkstone filings, the Retreat, Park Ridge and Cottages at Hawkstone, and the parcels bordering the Eaton Country Club",
+      "url": "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Eaton Country Club, About Us (private club, 18 holes, par 71)",
+      "url": "https://eatoncc.net/about-us/",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Eaton Country Club, Course Tour (holes 1, 16 and 17)",
+      "url": "https://eatoncc.net/course-tour/",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "FirstWalk community listing for Hawkstone (Baessler Homes)",
+      "url": "https://firstwalk.com/community/hawkstone/",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Town of Eaton, 2024 Parks Master Plan (adopted June 13, 2024), Internet Archive copy",
+      "url": "https://web.archive.org/web/20240628215425/http://www.eatonco.org/media/6216",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Eaton Municipal Code Sec. 7-2-33, Landscaping requirements (Ord. 480, 2000)",
+      "url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIIPLZORE_SIIZOOR_ARTIIIGEDEST_S7-2-33LARE",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Eaton Municipal Code Sec. 9-5-7, Nonpotable system use required",
+      "url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHIXWASE_SVNOWASE_S9-5-7NOSYUSRE",
+      "checked": "2026-09-26"
+    }
+  ],
+  "checked": "2026-09-26",
+  "needsFromBrian": [
+    "Hawkstone's governing documents: the master declaration and the declaration of whichever neighborhood association a client belongs to (Estates, Park Ridge, Retreat, Cottages), plus any design guidelines or board landscaping rules, from a client's closing packet or from OneWay. None is public, so the page cannot quote a turf or putting-green rule until one is in hand",
+    "Photos from a Hawkstone job (camera originals, before and after), tagged in src/data/photos.ts with community 'eaton-co--hawkstone'; the page cannot publish without one. Best: one course-side yard (Red Tail Rd, Peregrine Pt, Falcon Ridge Rd, Hawkridge Rd or Prairie Hawk Rd) and one first-filing large lot (Grayhawk, Condor, Kestrel, Cooper Hawk, Goshawk or Eagle)",
+    "Any turf or putting-green job in Hawkstone: filing or street (not the address), month, rough size, lawn or green, whether the lot touches the club, which association reviewed it, how long the review took and any conditions",
+    "Whether a Hawkstone association has approved or refused artificial turf or a putting green, front or back, and what it said (with the owner's consent to describe it)",
+    "Whether Hawkstone lots irrigate from Town potable taps or a non-potable system (the Town's notices name only Governor's Ranch and Aspen Meadows)",
+    "If NoCo has put a new-home landscape plan through Eaton: how the Town treated artificial turf under Sec. 7-2-33's allowable materials",
+    "Confirmation that NoCo serves Eaton and installs backyard putting greens today (the Eaton town page is still a draft; services.ts putting-greens is unconfirmed)"
+  ]
+}
