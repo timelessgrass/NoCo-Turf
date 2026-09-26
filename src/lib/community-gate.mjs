@@ -10,7 +10,7 @@
  *   - a source or a layer reference on every block other than a job, photo or review (those come from Brian's
  *     own ledger, like on the town and town × service pages)
  *   - a real photograph from src/data/photos.ts that belongs here: its `community` is this community's id, or its
- *     `place` names this community or its town (the camera original puts it there; the caption says where)
+ *     `place` names this community. A photo from elsewhere in the town is not proof of work in this neighborhood.
  *
  * Returns { pass, reasons[] } like the other gates: the reasons are the research to-do list for that page.
  * `photos` is src/data/photos.ts PHOTOS, or any list of { id, place, community? }, or a Map id → { place, community? }.
@@ -32,14 +32,12 @@ function photoOf(photos, id) {
   return photos.find((p) => p?.id === id);
 }
 
-/** Whether a photo belongs on this community's page: tagged with its id, or taken in it or in its town. */
+/** Whether a photo belongs on this community's page: tagged with its id, or taken in it (not merely in its town). */
 export function photoBelongs(p, data) {
   if (!p) return false;
-  const town = townBySlug[data?.town]?.name;
   const place = String(p.place ?? '');
   return (!!data?.town && !!data?.slug && p.community === communityId(data.town, data.slug))
-    || (!!data?.name && place.includes(data.name))
-    || (!!town && place.includes(town));
+    || (!!data?.name && place.includes(data.name));
 }
 
 /** @param {any} data @param {PhotoPlaces} [photos] @returns {{ pass: boolean, reasons: string[] }} */
@@ -63,11 +61,11 @@ export function communityGate(data, photos = []) {
   const name = data?.name ?? 'this community';
   const town = townBySlug[data?.town]?.name ?? 'its town';
   if (!data?.photo) {
-    reasons.push(`no photograph — needs a real photo from src/data/photos.ts whose place names ${name} or ${town} (or whose community is ${data?.town && data?.slug ? communityId(data.town, data.slug) : 'this community'})`);
+    reasons.push(`no photograph — needs a real photo from src/data/photos.ts whose place names ${name} (or whose community is ${data?.town && data?.slug ? communityId(data.town, data.slug) : 'this community'})`);
   } else {
     const p = photoOf(photos, data.photo);
     if (!p) reasons.push(`photo "${data.photo}" is not in src/data/photos.ts`);
-    else if (!photoBelongs(p, data)) reasons.push(`photo "${data.photo}" was taken ${p.place ?? 'somewhere unnamed'} — a ${name} page needs a photo whose place names ${name} or ${town}`);
+    else if (!photoBelongs(p, data)) reasons.push(`photo "${data.photo}" was taken ${p.place ?? 'somewhere unnamed'} — a ${name} page needs a photo whose place names ${name}, or tagged community ${data?.town && data?.slug ? communityId(data.town, data.slug) : ''}`);
   }
   return { pass: reasons.length === 0, reasons };
 }

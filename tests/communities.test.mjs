@@ -139,10 +139,10 @@ const PHOTOS = [
   { id: 'tagged', place: 'north of town', community: 'timnath-co--harmony-club' },
 ];
 
-test('three substantive blocks, two own, every block sourced, and a photo taken in the community or its town pass', () => {
-  assert.deepEqual(communityGate(community('windsor-co', 'highland-meadows'), PHOTOS), { pass: true, reasons: [] });
-  assert.equal(communityGate(community('windsor-co', 'highland-meadows', { photo: 'hm-green' }), PHOTOS).pass, true);
-  assert.equal(communityGate(community('windsor-co', 'highland-meadows'), new Map([['dusk', { place: 'west of Windsor' }]])).pass, true, 'a Map of id → place works too');
+test('three substantive blocks, two own, every block sourced, and a photo taken in the community pass', () => {
+  assert.deepEqual(communityGate(community('windsor-co', 'highland-meadows', { photo: 'hm-green' }), PHOTOS), { pass: true, reasons: [] });
+  assert.equal(communityGate(community('windsor-co', 'highland-meadows'), new Map([['dusk', { place: 'Highland Meadows, Windsor' }]])).pass, true, 'a Map of id → place works too');
+  assert.equal(communityGate(community('windsor-co', 'highland-meadows'), PHOTOS).pass, false, 'a photo from elsewhere in the town is not proof of work in this neighborhood');
 });
 
 test('thin blocks, too few own blocks and an unsourced block fail; a job, photo or review block needs no source', () => {
@@ -158,16 +158,17 @@ test('thin blocks, too few own blocks and an unsourced block fail; a job, photo 
   bare.blocks[0] = { ...bare.blocks[0], sources: [], layerRefs: [] };
   assert.ok(communityGate(bare, PHOTOS).reasons.some((r) => /block 1 \(hoa\) has no source and no layer reference/.test(r)));
   bare.blocks[0] = { ...bare.blocks[0], kind: 'job' };
+  bare.photo = 'hm-green';
   assert.equal(communityGate(bare, PHOTOS).pass, true, 'a job block comes from Brian\'s ledger');
 });
 
-test('the photo must exist and belong here: its place names the community or its town, or its community is this one', () => {
+test('the photo must exist and belong here: its place names the community, or its community is this one — the town is not enough', () => {
   const none = communityGate(community('windsor-co', 'highland-meadows', { photo: undefined }), PHOTOS);
-  assert.ok(none.reasons.some((r) => /no photograph — needs a real photo from src\/data\/photos\.ts whose place names Highland Meadows or Windsor/.test(r)), none.reasons.join('; '));
+  assert.ok(none.reasons.some((r) => /no photograph — needs a real photo from src\/data\/photos\.ts whose place names Highland Meadows \(or whose community is windsor-co--highland-meadows\)/.test(r)), none.reasons.join('; '));
   const missing = communityGate(community('windsor-co', 'highland-meadows', { photo: 'stock-green' }), PHOTOS);
   assert.ok(missing.reasons.some((r) => /photo "stock-green" is not in src\/data\/photos\.ts/.test(r)));
   const elsewhere = communityGate(community('windsor-co', 'highland-meadows', { photo: 'fire-pit' }), PHOTOS);
-  assert.ok(elsewhere.reasons.some((r) => /photo "fire-pit" was taken west of Berthoud — a Highland Meadows page needs a photo whose place names Highland Meadows or Windsor/.test(r)), elsewhere.reasons.join('; '));
+  assert.ok(elsewhere.reasons.some((r) => /photo "fire-pit" was taken west of Berthoud — a Highland Meadows page needs a photo whose place names Highland Meadows, or tagged community windsor-co--highland-meadows/.test(r)), elsewhere.reasons.join('; '));
   assert.equal(photoBelongs(PHOTOS[3], { town: 'timnath-co', slug: 'harmony-club', name: 'Harmony Club' }), true, 'tagged by id');
   assert.equal(photoBelongs(PHOTOS[3], { town: 'windsor-co', slug: 'harmony-club', name: 'Harmony Club' }), false, 'the same slug in another town is another community');
 });
@@ -192,7 +193,7 @@ test('PRELAUNCH preview: every record renders while its town page is visible, dr
 });
 
 test('launch: a published record that passes the gate, with its town page visible; the sitemap needs the town published', () => {
-  const passing = community('windsor-co', 'highland-meadows', { status: 'published' });
+  const passing = community('windsor-co', 'highland-meadows', { status: 'published', photo: 'hm-green' });
   const v = communityVisibility(passing, ctx());
   assert.deepEqual([v.render, v.sitemap, v.draft], [true, true, false]);
   assert.equal(communityVisibility({ ...passing, status: 'review' }, ctx()).render, false, 'in review');
@@ -350,17 +351,17 @@ test('a clean draft passes; the gate report names the page and what Brian must s
   assert.match(r.out, /needs from Brian: A job inside this community/);
 });
 
-test('a published page that fails the gate fails the check; one that passes warns while its town is unpublished', (t) => {
+test('a published page that fails the gate fails the check, including one whose only photo is from elsewhere in its town', (t) => {
   const { run, put } = fixture(t);
   put(community('windsor-co', 'highland-meadows', { status: 'published', photo: 'fire-pit' }));
   const bad = run();
   assert.equal(bad.status, 1, bad.out);
   assert.match(bad.out, /published but fails the community gate: photo "fire-pit" was taken west of Berthoud/);
   assert.match(bad.out, /windsor-co--highland-meadows\s+published\s+.*— gate FAIL/);
-  put(community('windsor-co', 'highland-meadows', { status: 'published' }));
-  const ok = run();
-  assert.match(ok.out, /— gate PASS/);
-  assert.match(ok.out, /its town page windsor-co is not published — this page renders only once the town page does/);
+  put(community('windsor-co', 'highland-meadows', { status: 'published' })); // 'dusk': west of Windsor, not Highland Meadows
+  const town = run();
+  assert.equal(town.status, 1, town.out);
+  assert.match(town.out, /photo "dusk" was taken west of Windsor — a Highland Meadows page needs a photo whose place names Highland Meadows/);
 });
 
 test('the file name is {town}--{slug}.json and must match; a service slug or a reserved word fails', (t) => {
