@@ -23,7 +23,7 @@
  */
 import { test, describe } from 'node:test';
 import assert from 'node:assert/strict';
-import { readFileSync, existsSync, statSync } from 'node:fs';
+import { readFileSync, readdirSync, existsSync, statSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import { NOCO_TOWNS, TIMELESS_TOWNS } from '../src/data/territory.mjs';
@@ -177,6 +177,8 @@ function parseServices(src) {
 /** Planned routes: the table under "## Planned routes" in docs/CONTRACTS.md, with {slug}/{id} expanded
  *  from services.ts (services), territory.mjs (areas) or the backticked ids in the row's Notes cell. A second
  *  placeholder (/areas/{slug}/{service}/, the town × service pages) takes the Notes cell's ids. */
+const GUIDE_IDS = readdirSync(path.join(ROOT, 'src/content/guides')).filter((f) => f.endsWith('.md')).map((f) => f.slice(0, -3));
+
 function plannedRoutes(contracts, services, turfSupply) {
   const section = contracts.split(/^## /m).find((s) => s.startsWith('Planned routes'));
   assert.ok(section, 'docs/CONTRACTS.md has no "## Planned routes" section');
@@ -192,6 +194,7 @@ function plannedRoutes(contracts, services, turfSupply) {
       const second = r.slice(r.indexOf('}', ph) + 1).includes('{');
       const ids = base === '/services/' ? services.map((s) => s.slug)
         : base === '/areas/' ? NOCO_TOWNS.map((t) => t.slug)
+        : base === '/guides/' ? [...new Set([...noteIds, ...GUIDE_IDS])] // every guide record on disk, not just the launch set
         : noteIds;
       for (const id of ids) {
         if (second) for (const sub of noteIds) routes.add(`${base}${id}/${sub}/`);
