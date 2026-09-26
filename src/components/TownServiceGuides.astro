@@ -4,14 +4,18 @@
  * putting-greens → Putting greens, pet-turf → Pets, playground-turf → Safety, commercial-turf → Commercial),
  * only when its hub is visible (visibleTopics()). The hub's own lede, its first guides as their questions,
  * and the way through to the hub. A topic with no visible guide draws nothing — never an empty shelf.
+ * `picks` (a community page): these guides first, each only while visible, under their topic's hub; with none of
+ * them visible, the hub's own first guides; with no hub visible either, nothing.
  */
 import Icon from './Icon.astro';
 import { visibleTopics } from '../lib/visible';
-interface Props { topic: string; id?: string }
-const { topic, id = 'read' } = Astro.props;
-const t = (await visibleTopics()).find((x) => x.slug === topic);
+interface Props { topic: string; id?: string; picks?: string[] }
+const { topic, id = 'read', picks } = Astro.props;
+const topics = await visibleTopics();
+const picked = picks ? picks.map((p) => topics.flatMap((x) => x.guides).find((g) => g.id === p)).filter((g) => !!g) : [];
+const t = topics.find((x) => x.slug === topic) ?? topics.find((x) => x.guides.some((g) => picked.includes(g)));
 const SHOW = 4;
-const list = t ? t.guides.slice(0, SHOW).map((g) => ({ href: `/guides/${g.id}/`, q: (g.entry.data as any).answer.question as string })) : [];
+const list = (picked.length ? picked : t ? t.guides.slice(0, SHOW) : []).map((g) => ({ href: `/guides/${g!.id}/`, q: (g!.entry.data as any).answer.question as string }));
 const smart = (s: string) => s.replace(/(\w)'(\w)/g, '$1’$2');
 ---
 {t && (

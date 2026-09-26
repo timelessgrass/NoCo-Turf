@@ -17,7 +17,29 @@ export const townServiceGraph = (name: string, serviceType: string, path: string
   areaServed: { '@type': 'City', name: town, containedInPlace: { '@type': 'State', name: 'Colorado' } },
 }];
 
-export const serviceGraph = (name: string, path: string, description: string, areas: string[]) => [{
+/**
+ * A community page's nodes: the Place it is about (the neighborhood, inside its City, inside Colorado) and one Service
+ * served there by the one #business. The page's WebPage points `about` at placeRef (Base's `about` prop); the
+ * BreadcrumbList (Areas › Town › Community) comes from the printed crumbs, the FAQPage from faqGraph.
+ */
+export const communityGraph = (o: { name: string; town: string; path: string; serviceName: string; description: string }) => {
+  const place = { '@id': `${SITE}${o.path}#place` };
+  return {
+    placeRef: place,
+    nodes: [
+      {
+        '@type': 'Place', ...place, name: o.name, url: `${SITE}${o.path}`,
+        containedInPlace: { '@type': 'City', name: o.town, containedInPlace: { '@type': 'State', name: 'Colorado' } },
+      },
+      {
+        '@type': 'Service', '@id': `${SITE}${o.path}#service`, name: o.serviceName, serviceType: 'Artificial turf installation',
+        description: o.description, url: `${SITE}${o.path}`, provider: BUSINESS_REF, areaServed: place,
+      },
+    ],
+  };
+};
+
+export const serviceGraph =(name: string, path: string, description: string, areas: string[]) => [{
   '@type': 'Service', '@id': `${SITE}${path}#service`, name, description, url: `${SITE}${path}`,
   provider: BUSINESS_REF,
   ...(areas.length ? { areaServed: areas.map((a) => ({ '@type': 'City', name: a })) } : {}),

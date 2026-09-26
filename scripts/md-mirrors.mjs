@@ -20,7 +20,8 @@
  * Guides are grouped by topic (src/data/guide-topics.ts order): each topic's hub first, then its guides,
  * so a hundred guides read as a dozen short lists. A page's topic is read from its own BreadcrumbList
  * (Home › Guides › {topic hub} › …), the same trail the page prints. Town × service pages
- * (/areas/{town}-co/{service}/) are listed under their town page, indented.
+ * (/areas/{town}-co/{service}/) are listed under their town page, indented, and its community pages
+ * (/areas/{town}-co/{community}/) after them in a "Neighborhoods" sub-list.
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -28,6 +29,7 @@ import { pathToFileURL } from 'node:url';
 import { parseHtml, findAll, textOf, readSite } from './check-dist.mjs';
 import { REPO, normalise } from './check-content.mjs';
 import { GUIDE_TOPICS } from '../src/data/guide-topics.ts';
+import { TOWN_SERVICE_SLUGS } from '../src/data/town-services.mjs';
 
 const RENDERABLE = new Set(['VERIFIED', 'CLIENT_STATED', 'CLIENT_CONFIRMED', 'EXTERNAL_SOURCE']);
 /** The value if it may render, else null — mirrors fact() in src/data/brief.ts. */
@@ -194,13 +196,19 @@ export function buildLlms({ brief, site, prelaunch, pages }) {
       list.forEach((p) => used.add(p.url));
       if (!list.length) continue;
       if (label === 'Towns we serve') {
-        // each town page, then its town × service pages (/areas/{town}/{service}/) indented under it
-        const townOf = (p) => rel(p.url).match(/^\/areas\/([a-z0-9-]+)\/[a-z0-9-]+\/$/)?.[1] ?? null;
+        // each town page, then its town × service pages (/areas/{town}/{service}/) indented under it, then its
+        // community pages (/areas/{town}/{community}/ — any other segment) in a "Neighborhoods" sub-list
+        const segOf = (p) => rel(p.url).match(/^\/areas\/([a-z0-9-]+)\/([a-z0-9-]+)\/$/);
+        const townOf = (p) => segOf(p)?.[1] ?? null;
+        const isService = (p) => TOWN_SERVICE_SLUGS.includes(segOf(p)?.[2]);
         const children = (slug) => list.filter((p) => townOf(p) === slug);
         const top = list.filter((p) => !townOf(p) || !list.some((t) => rel(t.url) === `/areas/${townOf(p)}/`));
         L.push(`## ${label}`, '', ...top.flatMap((p) => {
           const slug = rel(p.url).match(/^\/areas\/([a-z0-9-]+)\/$/)?.[1];
-          return [line(p), ...(slug ? children(slug).map((c) => `  ${line(c)}`) : [])];
+          if (!slug) return [line(p)];
+          const kids = children(slug);
+          const hoods = kids.filter((c) => !isService(c));
+          return [line(p), ...kids.filter(isService).map((c) => `  ${line(c)}`), ...(hoods.length ? ['  - Neighborhoods:', ...hoods.map((c) => `    ${line(c)}`)] : [])];
         }), '');
         continue;
       }

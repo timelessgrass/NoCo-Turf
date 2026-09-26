@@ -4,6 +4,7 @@ import { glob } from 'astro/loaders';
 import { NOCO_TOWNS, REGIONS } from './data/territory.mjs';
 import { TOPIC_SLUGS } from './data/guide-topics';
 import { TOWN_SERVICE_SLUGS } from './data/town-services.mjs';
+import { COMMUNITY_KINDS, GOVERNING_TYPES, communitySlugProblem } from './data/communities.mjs';
 
 /**
  * Content collections. Records carry `status`: draft | review | published (missing = draft).
@@ -105,6 +106,58 @@ const townServices = defineCollection({
 });
 
 /**
+ * Community pages: /areas/{town}-co/{community}/ for golf-course, custom-home, lake, estate-lot and master-planned
+ * neighborhoods (src/data/communities.mjs). File: src/content/communities/{town}--{community}.json — the file name is
+ * the record's key and check-content fails any other. `slug` is the community's own URL segment; it may never be a
+ * town × service slug or a reserved word (the route shares /areas/{town}-co/{segment}/ with those pages).
+ * Same block shape as a town, but `own` means true of THIS community only. The community's own facts go in
+ * src/data/layers/communities/{town}--{community}.json (ids "{town}--{community}.…"); its blocks may also cite
+ * shared records and the town's local/ records. Gate: src/lib/community-gate.mjs (≥3 substantive blocks, ≥2 own,
+ * every block sourced, a photos.ts photo taken in this community or its town).
+ *   governing — the body that reviews a yard there; `url` its guidelines (one of the record's sources) and
+ *               `layerRefs` the records that quote them on turf, putting greens and backyard landscaping (the
+ *               page's design-review section prints them). `none-found`: searched, nothing posted — said as such.
+ *   golf      — the course the community is built around, named as the cited record names it (`layerRef`).
+ */
+const communities = defineCollection({
+  /* The entry id is the file name, "{town}--{community}". (Left to itself, the glob loader would take the id from
+     the record's own `slug` field — the community's segment alone, which two towns could share.) */
+  loader: glob({ pattern: '**/*.json', base: './src/content/communities', generateId: ({ entry }) => entry.replace(/\.json$/, '') }),
+  schema: z.object({
+    status,
+    town: z.enum(TOWN_SLUGS),
+    slug: z.string().superRefine((s, ctx) => {
+      const problem = communitySlugProblem(s);
+      if (problem) ctx.addIssue({ code: 'custom', message: problem });
+    }),
+    name: z.string().min(1),
+    kind: z.enum(COMMUNITY_KINDS as [string, ...string[]]),
+    governing: z.object({
+      name: z.string().min(1),
+      type: z.enum(GOVERNING_TYPES as [string, ...string[]]),
+      url: z.string().url().optional(),
+      layerRefs: z.array(z.string()).default([]),
+    }).optional(),
+    golf: z.object({ name: z.string().min(1), layerRef: z.string() }).optional(),
+    title: z.string().max(70).regex(/\s\|\sNoCo Turf Co\.$/, 'the title ends with "| NoCo Turf Co."'),
+    description: z.string().max(160),
+    h1: z.string(),
+    display: z.object({ paint: z.string().optional() }).optional(),
+    lede: z.string(),
+    /** ~60 words naming the business, the community, the town and state. The phone is appended at render. */
+    answer: z.object({ question: z.string(), answer: z.string() }),
+    blocks: z.array(block).min(1).max(7),
+    faq: z.array(qa).max(6).default([]),
+    /** A src/data/photos.ts id — required to publish: taken in this community or its town (the gate). */
+    photo: z.string().optional(),
+    sources: z.array(source).min(2),
+    checked: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+    /** Not rendered: what Brian still has to supply before this page can publish. */
+    needsFromBrian: z.array(z.string()).default([]),
+  }),
+});
+
+/**
  * A guide's page furniture, all optional: `crumb` (the last breadcrumb; default the title before the brand
  * suffix), `paint` (a phrase of the H1 that gets the painted layout mark; check-content fails one that isn't
  * in the H1), `faqH2` and the closing band's `cta` (defaults: the topic's own, src/data/guide-topics.ts).
@@ -137,6 +190,10 @@ const guides = defineCollection({
     /** 'tool' guides carry an island (water savings, HOA letter) whose static fallback is in the body. */
     kind: z.enum(['guide', 'tool', 'problem', 'comparison']).default('guide'),
     related: z.object({ services: z.array(z.string()).default([]), towns: z.array(z.string()).default([]) }).default({ services: [], towns: [] }),
+    /** Up to three src/data/photos.ts ids, printed as a figure strip with their real caption, place and month
+     *  (check-content fails an id that isn't there). For guides a photo honestly illustrates — a putting-green
+     *  design guide with Brian's own greens; never a stand-in. */
+    photos: z.array(z.string()).max(3).default([]),
     needsFromBrian: z.array(z.string()).default([]),
   }),
 });
@@ -188,4 +245,4 @@ const work = defineCollection({
   }),
 });
 
-export const collections = { towns, townServices, guides, work, services };
+export const collections = { towns, townServices, communities, guides, work, services };

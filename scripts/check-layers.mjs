@@ -1,10 +1,12 @@
 #!/usr/bin/env node
 /**
  * check-layers — the gate on the shared data layer (src/data/layers/*.json) and the owner-scoped layer
- * files, one per owner so parallel writers never share a file:
- *   src/data/layers/guides/{guide-id}.json — the facts only that guide uses
- *   src/data/layers/local/{town-slug}.json — a town's own facts for its town × service pages, written by that
- *                                            town's writer and covering all four services
+ * files, one per owner so parallel writers never share a file (OWNER_DIRS below):
+ *   src/data/layers/guides/{guide-id}.json          — the facts only that guide uses
+ *   src/data/layers/local/{town-slug}.json          — a town's own facts for its town × service pages, written by
+ *                                                     that town's writer and covering all four services
+ *   src/data/layers/communities/{town}--{slug}.json — a community's own facts for its page (its HOA or metro
+ *                                                     district's guidelines, its course), written by that page's writer
  *
  * The contract lives in docs/CONTRACTS.md ("Data layer"). Every file is a JSON array of records;
  * every record says one thing a page may say, with the verbatim source sentence, a https source,
@@ -15,6 +17,9 @@
  *     start with "{guide-id}." (the prefix makes a clash between two writers impossible)
  *   - in local/{town-slug}.json: a file name that is not a NoCo town slug, a record id that does not start
  *     with "{town-slug}.", or a record whose applies_to does not name that town
+ *   - in communities/{town-slug}--{community-slug}.json: a file name that is not a NoCo town slug, two hyphens and
+ *     a community slug that is not reserved (src/data/communities.mjs), a record id that does not start with
+ *     "{town-slug}--{community-slug}.", or a record whose applies_to does not name the town
  *   - an applies_to slug that is not a NoCo town in src/data/territory.mjs ("*" = every NoCo town)
  *   - checked older than 365 days (WARN over 180), or a checked date in the future
  *   - a recheck date in the past (the fact has gone stale: re-verify it, then move recheck on)
@@ -25,9 +30,9 @@
  *   - a NoCo town with no ordinance record at all (an honest NOT FOUND record counts)
  * and WARNS on: a town whose ordinance records are all UNVERIFIED, a town with no renderable drought,
  * utility, climate or soil record of its own, a TIMELESS town named in a fact, a `numbers` entry that
- * appears nowhere in the record, a fact longer than one plain sentence, a guides/ file with no guide record
- * of that id yet, a local/ record that also applies to other towns (a shared fact belongs in a shared file),
- * and any other subdirectory (it is not read).
+ * appears nowhere in the record, a fact longer than one plain sentence, a guides/ or communities/ file with no
+ * record of that id yet, a local/ or communities/ record that also applies to other towns (a shared fact belongs
+ * in a shared file), and any other subdirectory (it is not read).
  *
  * Usage:
  *   node scripts/check-layers.mjs                     # checks src/data/layers against today
@@ -39,6 +44,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { NOCO_TOWNS, TIMELESS_TOWNS } from '../src/data/territory.mjs';
+import { parseCommunityId, communitySlugProblem } from '../src/data/communities.mjs';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 export const ROOT = path.resolve(HERE, '..');
@@ -49,12 +55,8 @@ export const LAYER_FILES = ['state-law.json', 'city-codes.json', 'water-provider
  *  manufacturer's published spec, a test standard (ASTM, CPSC). place is a named local place from a public
  *  record (a golf course, a park with a playground, a dog park, a school field) — mostly in local/ files. */
 export const LAYERS = ['state', 'county', 'utility', 'rebate', 'ordinance', 'drought', 'climate', 'soil', 'housing', 'place', 'research', 'product', 'standard'];
-/** The subdirectories that are read, each one file per owner under the same record contract and gate:
- *  guides/{guide-id}.json (a guide's own facts) and local/{town-slug}.json (a town's own facts for its
- *  town × service pages). The file name is the owner; every id in it starts "{owner}.". */
-export const GUIDE_LAYER_DIR = 'guides';
-export const LOCAL_LAYER_DIR = 'local';
-export const OWNED_LAYER_DIRS = [GUIDE_LAYER_DIR, LOCAL_LAYER_DIR];
+/* The owner-scoped subdirectories (OWNER_DIRS, OWNED_LAYER_DIRS and the *_LAYER_DIR names) are defined further down,
+   beside checkOwnedFile, which reads them. */
 export const STATUSES = ['VERIFIED', 'EXTERNAL_SOURCE', 'UNVERIFIED'];
 export const RATE_MODELS = ['tiered', 'flat', 'water-budget', 'allotment'];
 export const REQUIRED = ['id', 'layer', 'applies_to', 'fact', 'quote', 'source_url', 'source_label', 'checked', 'reachable', 'status', 'numbers'];
@@ -69,6 +71,9 @@ export const FAIL_AFTER_DAYS = 365;
 const TIMELESS_PHONES = [/303\D{0,3}349\D{0,3}2368/, /854\D{0,3}204\D{0,3}9227/];
 const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
 const KEBAB = /^[a-z0-9]+(?:[.-][a-z0-9]+)*$/;
+/** A record id: kebab-case with dots, plus one leading "{town-slug}--" — the two hyphens a community owner's prefix
+ *  carries ("windsor-co--highland-meadows.arc-turf"). A double hyphen anywhere else fails. */
+const LAYER_ID = /^(?:[a-z0-9]+(?:-[a-z0-9]+)*--)?[a-z0-9]+(?:[.-][a-z0-9]+)*$/;
 const TOWN_SLUGS = new Set(NOCO_TOWNS.map((t) => t.slug));
 
 /** Days from a to b (YYYY-MM-DD strings), UTC so no DST drift. */
@@ -152,7 +157,7 @@ export function checkRecord(rec, file, { today, errors, warnings }) {
   for (const k of REQUIRED) if (!(k in rec) || rec[k] === null || rec[k] === '') fail(`${where}: missing field "${k}"`);
   for (const k of Object.keys(rec)) if (!REQUIRED.includes(k) && !OPTIONAL.includes(k)) warn(`${where}: unknown field "${k}" (not in docs/CONTRACTS.md)`);
 
-  if (typeof rec.id === 'string' && !KEBAB.test(rec.id)) fail(`${where}: id must be kebab-case (a–z, 0–9, "-" and ".")`);
+  if (typeof rec.id === 'string' && !LAYER_ID.test(rec.id)) fail(`${where}: id must be kebab-case (a–z, 0–9, "-" and "."; "--" only after a community id's town)`);
   if ('layer' in rec && !LAYERS.includes(rec.layer)) fail(`${where}: layer "${rec.layer}" is not one of ${LAYERS.join(' | ')}`);
   if ('status' in rec && !STATUSES.includes(rec.status)) fail(`${where}: status "${rec.status}" is not one of ${STATUSES.join(' | ')}`);
   if ('reachable' in rec && typeof rec.reachable !== 'boolean') fail(`${where}: reachable must be true or false`);
@@ -231,7 +236,7 @@ export function checkRecord(rec, file, { today, errors, warnings }) {
 }
 
 /**
- * Read every *.json in dir, then every *.json in each owner subdirectory (guides/, then local/), named
+ * Read every *.json in dir, then every *.json in each owner subdirectory (guides/, local/, then communities/), named
  * "{subdir}/{file}". Returns { files: [{file, records}], errors, warnings }.
  */
 export function loadLayerFiles(dir = LAYER_DIR) {
@@ -248,7 +253,7 @@ export function loadLayerFiles(dir = LAYER_DIR) {
     }),
   ];
   for (const e of entries) {
-    if (e.isDirectory() && !OWNED_LAYER_DIRS.includes(e.name)) warnings.push(`${e.name}/: a subdirectory that is not read — only ${OWNED_LAYER_DIRS.map((d) => `${d}/`).join(' and ')} hold layer files`);
+    if (e.isDirectory() && !OWNED_LAYER_DIRS.includes(e.name)) warnings.push(`${e.name}/: a subdirectory that is not read — only ${OWNED_LAYER_DIRS.map((d) => `${d}/`).join(', ').replace(/, ([^,]*)$/, ' and $1')} hold layer files`);
   }
   for (const f of names) {
     let data;
@@ -258,6 +263,48 @@ export function loadLayerFiles(dir = LAYER_DIR) {
   }
   return { files, errors, warnings };
 }
+
+/**
+ * The owner-scoped subdirectories that are read: one file per owner, named for it, under the same record contract
+ * and gate as the shared files. Every record id in an owner's file starts "{owner}.", so two writers can never pick
+ * the same id. Each directory says what a valid owner is and, where its facts belong to one town, which town
+ * every record's applies_to must name:
+ *   guides/{guide-id}.json          — a guide's own facts; the owner is a kebab-case guide id (WARN while no
+ *                                     src/content/guides/{id}.md exists)
+ *   local/{town-slug}.json          — a town's own facts for its town × service pages; the owner is a NoCo town
+ *   communities/{town}--{slug}.json — a community's own facts; the owner is a community id whose town is a NoCo
+ *                                     town and whose slug is not reserved (WARN while no
+ *                                     src/content/communities/{id}.json exists)
+ * To add a kind of owner, add an entry here: the loader, the prefix rule, the town rule and the stats follow it.
+ */
+export const GUIDE_LAYER_DIR = 'guides';
+export const LOCAL_LAYER_DIR = 'local';
+export const COMMUNITY_LAYER_DIR = 'communities';
+export const OWNER_DIRS = {
+  [GUIDE_LAYER_DIR]: {
+    whose: 'a guide',
+    ownerProblem: (owner) => (!KEBAB.test(owner) || owner.includes('.') ? 'the file name must be the guide\'s id (kebab-case, as in src/content/guides/{id}.md)' : null),
+    missing: (owner) => `no guide src/content/guides/${owner}.md yet — its records are checked, but nothing cites them`,
+    town: () => null,
+  },
+  [LOCAL_LAYER_DIR]: {
+    whose: 'a town',
+    ownerProblem: (owner) => (TOWN_SLUGS.has(owner) ? null : 'the file name must be a NoCo town slug from src/data/territory.mjs (e.g. local/windsor-co.json)'),
+    missing: null,
+    town: (owner) => owner,
+  },
+  [COMMUNITY_LAYER_DIR]: {
+    whose: 'a community',
+    ownerProblem: (owner) => {
+      const id = parseCommunityId(owner);
+      if (!id || !TOWN_SLUGS.has(id.town)) return 'the file name must be a community id, "{town-slug}--{community-slug}", with a NoCo town slug from src/data/territory.mjs (e.g. communities/windsor-co--highland-meadows.json)';
+      return communitySlugProblem(id.slug);
+    },
+    missing: (owner) => `no community src/content/communities/${owner}.json yet — its records are checked, but nothing cites them`,
+    town: (owner) => parseCommunityId(owner)?.town ?? null,
+  },
+};
+export const OWNED_LAYER_DIRS = Object.keys(OWNER_DIRS);
 
 /** The owner of an owner-scoped file: "guides/pet-turf-odor.json" → { dir: 'guides', owner: 'pet-turf-odor' },
  *  "local/windsor-co.json" → { dir: 'local', owner: 'windsor-co' }; a shared file → null. */
@@ -269,38 +316,38 @@ export function ownerOfFile(file) {
 export const guideOfFile = (file) => { const o = ownerOfFile(file); return o?.dir === GUIDE_LAYER_DIR ? o.owner : null; };
 /** The town slug a local/ file belongs to ("local/windsor-co.json" → "windsor-co"), else null. */
 export const townOfFile = (file) => { const o = ownerOfFile(file); return o?.dir === LOCAL_LAYER_DIR ? o.owner : null; };
+/** The community id a communities/ file belongs to ("communities/windsor-co--highland-meadows.json" → that id), else null. */
+export const communityOfFile = (file) => { const o = ownerOfFile(file); return o?.dir === COMMUNITY_LAYER_DIR ? o.owner : null; };
 
 /**
- * The rules only an owner-scoped file has, on top of every record rule:
- *   guides/{guide-id}.json — the name is a kebab-case guide id (WARN when no guide of that id exists yet)
- *   local/{town-slug}.json — the name is a NoCo town slug; every record applies to that town (WARN when it
- *                            applies to other towns too: a fact shared between towns belongs in a shared file)
- *   both                   — every record id starts "{owner}.", so two writers can never pick the same id
+ * The rules only an owner-scoped file has, on top of every record rule (OWNER_DIRS): the file is named for a valid
+ * owner (WARN when that owner has no record yet — `known` maps a directory to the owner ids on disk, and `guideIds`
+ * is the guides/ entry under its older name); every record id starts "{owner}."; and where the owner belongs to one
+ * town, every record applies to that town (WARN when it applies to other towns too: a fact shared between towns
+ * belongs in a shared file).
  */
-export function checkOwnedFile(file, records, { guideIds = null, errors, warnings }) {
+export function checkOwnedFile(file, records, { guideIds = null, known = null, errors, warnings }) {
   const o = ownerOfFile(file);
   if (!o) return;
   const { dir, owner } = o;
-  if (dir === GUIDE_LAYER_DIR) {
-    if (!KEBAB.test(owner) || owner.includes('.')) { errors.push(`${file}: the file name must be the guide's id (kebab-case, as in src/content/guides/{id}.md)`); return; }
-    if (guideIds && !guideIds.has(owner)) warnings.push(`${file}: no guide src/content/guides/${owner}.md yet — its records are checked, but nothing cites them`);
-  } else if (!TOWN_SLUGS.has(owner)) {
-    errors.push(`${file}: the file name must be a NoCo town slug from src/data/territory.mjs (e.g. local/windsor-co.json)`);
-    return;
-  }
-  const whose = dir === GUIDE_LAYER_DIR ? 'a guide' : 'a town';
+  const spec = OWNER_DIRS[dir];
+  const problem = spec.ownerProblem(owner);
+  if (problem) { errors.push(`${file}: ${problem}`); return; }
+  const ids = known?.[dir] ?? (dir === GUIDE_LAYER_DIR ? guideIds : null);
+  if (spec.missing && ids && !ids.has(owner)) warnings.push(`${file}: ${spec.missing(owner)}`);
+  const town = spec.town(owner);
   for (const rec of records) {
     if (!rec || typeof rec.id !== 'string') continue;
     if (!rec.id.startsWith(`${owner}.`)) {
-      errors.push(`${file} ${rec.id}: ids in ${whose}'s own file start with "${owner}." (e.g. "${owner}.${rec.id}") so two writers can never pick the same id`);
+      errors.push(`${file} ${rec.id}: ids in ${spec.whose}'s own file start with "${owner}." (e.g. "${owner}.${rec.id}") so two writers can never pick the same id`);
     }
-    if (dir === LOCAL_LAYER_DIR && Array.isArray(rec.applies_to) && rec.applies_to.length) {
-      if (!rec.applies_to.includes(owner)) errors.push(`${file} ${rec.id}: a record in ${owner}'s own file applies to ${owner} — its applies_to is ${JSON.stringify(rec.applies_to)}`);
+    if (town && Array.isArray(rec.applies_to) && rec.applies_to.length) {
+      if (!rec.applies_to.includes(town)) errors.push(`${file} ${rec.id}: a record in ${owner}'s own file applies to ${town} — its applies_to is ${JSON.stringify(rec.applies_to)}`);
       else if (rec.applies_to.length > 1) warnings.push(`${file} ${rec.id}: applies to other towns too — a fact shared between towns belongs in a shared layer file`);
     }
   }
 }
-/** The name check-content.mjs and earlier callers use; it runs every owner rule, guides/ and local/. */
+/** The name check-content.mjs and earlier callers use; it runs every owner rule, whichever directory. */
 export const checkGuideFile = checkOwnedFile;
 
 /** Guide ids on disk beside a layer directory (src/data/layers → src/content/guides), or null if there are none to compare. */
@@ -308,12 +355,17 @@ function guideIdsNear(dir) {
   const g = path.resolve(dir, '../../content/guides');
   return fs.existsSync(g) ? new Set(fs.readdirSync(g).filter((f) => f.endsWith('.md')).map((f) => f.slice(0, -3))) : null;
 }
+/** Community ids on disk beside a layer directory (src/data/layers → src/content/communities), or null. */
+function communityIdsNear(dir) {
+  const c = path.resolve(dir, '../../content/communities');
+  return fs.existsSync(c) ? new Set(fs.readdirSync(c).filter((f) => f.endsWith('.json')).map((f) => f.slice(0, -5))) : null;
+}
 
 /**
  * Run every rule. `expectFiles` (default true) fails when one of the contract's shared files (LAYER_FILES) is missing.
  * Returns { errors, warnings, stats, records } and never exits — the CLI below decides the exit code.
  */
-export function checkLayers({ dir = LAYER_DIR, today = todayISO(), expectFiles = true, towns = NOCO_TOWNS, guideIds = guideIdsNear(dir) } = {}) {
+export function checkLayers({ dir = LAYER_DIR, today = todayISO(), expectFiles = true, towns = NOCO_TOWNS, guideIds = guideIdsNear(dir), communityIds = communityIdsNear(dir) } = {}) {
   const errors = [];
   const warnings = [];
   if (!isValidDate(today)) throw new Error(`today must be YYYY-MM-DD, got ${today}`);
@@ -329,7 +381,7 @@ export function checkLayers({ dir = LAYER_DIR, today = todayISO(), expectFiles =
   const seen = new Map();
   const records = [];
   for (const { file, records: recs } of files) {
-    checkOwnedFile(file, recs, { guideIds, errors, warnings });
+    checkOwnedFile(file, recs, { known: { [GUIDE_LAYER_DIR]: guideIds, [COMMUNITY_LAYER_DIR]: communityIds }, errors, warnings });
     for (const rec of recs) {
       checkRecord(rec, file, { today, errors, warnings });
       if (rec && typeof rec.id === 'string') {
@@ -362,7 +414,8 @@ export function checkLayers({ dir = LAYER_DIR, today = todayISO(), expectFiles =
     .map((r) => `${r.recheck} ${r.id}`).sort();
   const guideFiles = files.filter((f) => guideOfFile(f.file)).length;
   const localFiles = files.filter((f) => townOfFile(f.file)).length;
-  return { errors, warnings, records, stats: { files: files.length, guideFiles, localFiles, records: records.length, byStatus, upcoming } };
+  const communityFiles = files.filter((f) => communityOfFile(f.file)).length;
+  return { errors, warnings, records, stats: { files: files.length, guideFiles, localFiles, communityFiles, records: records.length, byStatus, upcoming } };
 }
 
 function parseArgs(argv) {
@@ -385,7 +438,7 @@ function main() {
   if (!opts.quiet) for (const w of warnings) log(`! WARN ${w}`);
   for (const e of errors) log(`✗ FAIL ${e}`);
   const s = stats.byStatus;
-  const owned = [stats.guideFiles && `${stats.guideFiles} guide-owned`, stats.localFiles && `${stats.localFiles} town-owned`].filter(Boolean);
+  const owned = [stats.guideFiles && `${stats.guideFiles} guide-owned`, stats.localFiles && `${stats.localFiles} town-owned`, stats.communityFiles && `${stats.communityFiles} community-owned`].filter(Boolean);
   log(`check-layers: ${stats.records} records in ${stats.files} files${owned.length ? ` (${owned.join(', ')})` : ''} (VERIFIED ${s.VERIFIED}, EXTERNAL_SOURCE ${s.EXTERNAL_SOURCE}, UNVERIFIED ${s.UNVERIFIED}) · today ${opts.today} · ${errors.length} fail, ${warnings.length} warn`);
   if (stats.upcoming.length && !opts.quiet) log(`re-check within 30 days:\n  ${stats.upcoming.join('\n  ')}`);
   process.exit(errors.length ? 1 : 0);

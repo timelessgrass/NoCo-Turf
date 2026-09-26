@@ -8,18 +8,23 @@
  * The Denver-metro boundary note lives here, high on the page, because the old Erie, Brighton, Thornton and
  * Broomfield URLs 301 to /areas/ (public/_redirects). It is the one data-boundary element this page writes;
  * CorridorMap is passed boundaryLabel={false} here, so the note below is the page's one boundary element.
+ * Under the regions, "Golf and custom-home communities" lists the community pages by town (AreasCommunities;
+ * nothing when there are none).
  */
 import Base from '../../layouts/Base.astro';
 import PageHero from '../../components/PageHero.astro';
 import CorridorMap from '../../components/CorridorMap.astro';
 import CtaBand from '../../components/CtaBand.astro';
+import AreasCommunities from '../../components/AreasCommunities.astro';
 import PaintWord from '../../components/PaintWord.astro';
 import Icon from '../../components/Icon.astro';
-import { visibleTowns, townsByRegion } from '../../lib/visible';
+import { visibleTowns, townsByRegion, visibleCommunities } from '../../lib/visible';
 import { phoneHref, phoneDisplay } from '../../data/brief';
 import { recs, recordsFor, HOA_FAMILY, numberWord, cite, droughtPill, rebateVerdicts, soilUnits, SOIL_CLASS } from '../../components/TownData';
 
 const towns = await visibleTowns();
+/* The community pages (/areas/{town}-co/{community}/) in this build, grouped by town below the regions. */
+const communities = await visibleCommunities();
 const regions = townsByRegion(towns);
 const n = towns.length;
 const N = numberWord(n);
@@ -135,6 +140,8 @@ const crumbs = [{ name: 'Areas', path: '/areas/' }];
       </ol>
     </div>
   </section>
+
+  <AreasCommunities pages={communities} />
 
   <CtaBand title="Tell us which town" payoff="the yard is in."
     lede="Pick it in the form, tell us about the yard and how to reach you. Three short parts, no account, no upload." />

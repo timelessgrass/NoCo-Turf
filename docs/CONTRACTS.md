@@ -14,6 +14,7 @@ the 301 map targets these, and `tests/redirects.test.mjs` checks each target exi
 | `/turf-supply/` | `TURF_SUPPLY` in services.ts | only if the Windsor store still sells retail |
 | `/areas/` + `/areas/{slug}/` | `src/content/towns/*.json`, slugs in `src/data/territory.mjs` | existing live URLs keep their slugs |
 | `/areas/{slug}/{service}/` | `src/content/town-services/{town}--{service}.json`, services in `src/data/town-services.mjs` | town × service pages, 17 towns × 4 services: `putting-greens`, `pet-turf`, `playground-turf`, `commercial-turf`. Installation × town IS the town page; turf-repair has none. Exists at launch only when published, passing its gate, its town page visible and its service confirmed (below) |
+| `/areas/{slug}/{community}/` | `src/content/communities/{town}--{community}.json`, registry `src/data/communities.mjs` | community pages: golf-course, custom-home, lake, estate-lot and master-planned neighborhoods with their own HOA or metro-district design rules. Same dynamic segment as the town × service pages and the same route file (`src/pages/areas/[slug]/[service].astro`); a community slug is never a service slug or a reserved word, and the route throws on any path two records share. Exists at launch only when published, passing its gate and its town page visible (below) |
 | `/work/` + `/work/{id}/` | `src/content/work/*.json` | case studies from Brian's job ledger |
 | `/guides/` + `/guides/{id}/` | `src/content/guides/*.md` | launch set: `turf-rules-northern-colorado`, `turf-rebates-northern-colorado`, `hoa-turf-approval`, `water-savings`, `artificial-turf-cost`; about 105 more to come, each in one topic |
 | `/guides/{topic}/` | `src/data/guide-topics.ts` | a hub per topic that has ≥1 visible guide (sitemap: ≥1 published guide). Topic slugs and guide ids share `/guides/`: a guide id never equals a topic slug (check-content fails the record, both routes throw, `prerenderConflictBehavior: 'error'`) |
@@ -23,12 +24,15 @@ the 301 map targets these, and `tests/redirects.test.mjs` checks each target exi
 | `/review/` | page | noindex; ONE ungated link to Google's write-review URL, offered to everyone |
 | `/sitemap.xml`, `/robots.txt`, `/llms.txt` | endpoints | PRELAUNCH-aware |
 
-## Data layer — `src/data/layers/*.json`, `layers/guides/{guide-id}.json`, `layers/local/{town-slug}.json`
+## Data layer — `src/data/layers/*.json`, `layers/guides/{guide-id}.json`, `layers/local/{town-slug}.json`, `layers/communities/{town}--{community}.json`
 
 One file per layer: `state-law.json`, `city-codes.json`, `water-providers.json`, `rebates.json`,
-`drought-2026.json`, `climate.json`, `soil.json`, `standards.json` — plus two owner-scoped directories, one file per owner, so
+`drought-2026.json`, `climate.json`, `soil.json`, `standards.json` — plus three owner-scoped directories, one file per owner, so
 parallel writers never edit the same file: `src/data/layers/guides/{guide-id}.json` (the facts only that guide
-uses) and `src/data/layers/local/{town-slug}.json` (a town's own facts for its town × service pages).
+uses), `src/data/layers/local/{town-slug}.json` (a town's own facts for its town × service pages) and
+`src/data/layers/communities/{town}--{community}.json` (a community page's own facts). The owner rules live in one
+table, `OWNER_DIRS` in `scripts/check-layers.mjs` — what a valid owner is, and which town its records must apply to;
+a new kind of owner is one entry there.
 Each file is a JSON array of records:
 
 ```json
@@ -84,6 +88,17 @@ a block that cites one shows it in its evidence panel. They never reach a page a
 (the town page's sweep of shared records) leaves them out, and the town × service page's code section takes only
 the town's `ordinance` records. check-content's single-file mode gates the town's local file with the town's
 record or any of its town × service records.
+
+**Community-owned files — `src/data/layers/communities/{town-slug}--{community-slug}.json`.** Same record contract,
+same gate, one file per community page, written by that page's writer: its HOA or metro district's guidelines, its
+course, its lots. The file name is the community's id (a NoCo town slug, two hyphens, a community slug that is not
+reserved — `src/data/communities.mjs`); every id starts with `{town-slug}--{community-slug}.`
+(`"windsor-co--highland-meadows.arc-turf"`); every record's `applies_to` names the town (check-layers fails one that
+doesn't, warns when it names other towns too, and warns while no `src/content/communities/{id}.json` exists). A
+community page may also cite shared records and its town's `local/` records by id — a district whose guidelines a
+town × service page already quotes (Ptarmigan West on Windsor's putting-green page) stays in `local/`. Resolved by id
+only (`layers.ts`, `TownData.ts`), never swept onto a town page. check-content's single-file mode gates the file with
+the community's record.
 
 ## Town records — `src/content/towns/{slug}.json`
 
@@ -159,6 +174,93 @@ the town's code for this use from the layer records (the ordinance records and t
 shown), so a block need not quote them again. check-content FAILS a page sharing more than 25% of its five-word
 runs with another page of the same service or with its own town record (WARN above 15%).
 
+## Community records — `src/content/communities/{town}--{community}.json`
+
+One page per neighborhood at `/areas/{town}-co/{community}/`: golf-course, custom-home, lake, estate-lot and
+master-planned communities, where a yard answers to its own HOA or metro district's design rules — the high-end jobs.
+Schema: `src/content.config.ts` (`communities`); registry (kinds, governing types, reserved slugs, the guides a page
+recommends): `src/data/communities.mjs`. The file name is the record's key — `{town-slug}--{slug}` with two hyphens —
+and must match its own `town` and `slug` (check-content fails it; the collection readers throw; the loader's entry id
+is the file name, never the `slug` field alone).
+
+```jsonc
+{
+  "status": "draft",                        // draft | review | published — only published renders at launch
+  "town": "windsor-co",                     // a NOCO_TOWNS slug (territory.mjs)
+  "slug": "highland-meadows",               // the URL segment, kebab-case; never putting-greens | pet-turf |
+                                            //   playground-turf | commercial-turf | artificial-turf-installation |
+                                            //   turf-repair | services | communities | neighborhoods | guides | areas |
+                                            //   work | about | contact | index (RESERVED_COMMUNITY_SLUGS — FAIL)
+  "name": "Highland Meadows",               // as the community names itself; the hero, crumbs, strip and links print it
+  "kind": "golf",                           // golf | custom-homes | lake | estate-lots | master-planned
+  "governing": {                            // optional: who reviews a yard there
+    "name": "Highland Meadows HOA",         //   as its own documents name it
+    "type": "hoa",                          //   hoa | metro-district | both | none-found (searched, nothing posted —
+                                            //   the page says so, dated; never a guess)
+    "url": "https://…/design-guidelines.pdf",  // optional: its guidelines; must be one of `sources` (FAIL otherwise)
+    "layerRefs": ["windsor-co--highland-meadows.arc-turf"]  // the records quoting its guidelines on turf, putting
+                                            //   greens and backyard landscaping: the design-review section prints them
+  },
+  "golf": {                                 // optional: the course the community is built around
+    "name": "Highland Meadows Golf Course", //   word for word as the cited record names it (FAIL otherwise)
+    "layerRef": "windsor-co.highland-meadows-practice"  // a place record (the town's local/ file or the community's own)
+  },
+  "title": "Artificial Turf in Highland Meadows, Windsor, CO | NoCo Turf Co.",  // ≤ 70, ends "| NoCo Turf Co."; names the community (WARN)
+  "description": "…",                       // ≤ 160
+  "h1": "…",                                // the page's claim for this neighborhood
+  "display": { "paint": "…" },              // optional: a phrase of the h1, word for word, painted
+  "lede": "…",
+  "answer": { "question": "…?", "answer": "…" },  // ~60 words naming NoCo, the community, the town and state; phone appended at render
+  "blocks": [ /* 1–7, the town × service block shape; own: true = true of THIS community only */ ],
+  "faq": [{ "q": "…", "a": "…", "layerRefs": ["…"] }],  // ≤ 6; mirrored verbatim into FAQPage
+  "photo": "boulders",                      // optional until publish: a photos.ts id taken in this community or its town
+  "sources": [{ "label": "…", "url": "https://…", "checked": "2026-09-24" }],  // ≥ 2
+  "checked": "2026-09-24",
+  "needsFromBrian": ["…"]                   // not rendered
+}
+```
+
+**Gate — `src/lib/community-gate.mjs` (`communityGate`).** A page passes with ≥3 substantive blocks (30 words of
+paragraphs and takeaway, the town × service rule), ≥2 of those `own`, a source or layer reference on every block
+that is not a job, photo or review, and a real photo from `src/data/photos.ts` that belongs here: its optional
+`community` is this community's id, or its `place` names the community or its town. Returns `{ pass, reasons }`.
+
+**Visibility (`communityVisibility`, one rule for the route, the links in and the sitemap).** PRELAUNCH preview: every
+record renders, drafts with the ribbon, while its town page is visible. Launch: a published record that passes the
+gate, its town page visible. The sitemap lists published records that pass the gate with a published town.
+
+**The route.** `src/pages/areas/[slug]/[service].astro` renders both kinds from one `getStaticPaths` and throws on a
+path claimed twice (`assertAreaChildren`, `src/lib/content-policy.mjs`). The file keeps its name: Astro derives a
+page's scoped-style hash and its stylesheet's name from the route file's name, so a rename would change every
+town × service page. For the same reason the community page's own CSS (facts strip, design-review path) lives in
+`src/styles/community.css`, imported with `?url` last among the route's imports and linked by community pages alone
+(`Base` `styles`); `CommunityFacts` and `CommunityReview` carry no `<style>`. Proof: rebuild before and after a change
+to this route and `cmp` every `dist/areas/*/{putting-greens,pet-turf,playground-turf,commercial-turf}/index.html`.
+
+**The page.** Hero ("{Community} · {Town}", the H1 with its paint, the lede, the asks, the job sheet with the
+community as its first coordinate), the short answer, the facts strip (kind; the governing body linked to its
+guidelines; the course while its record renders; the town), the numbered blocks with evidence ("Only in
+{Community}"), the Colorado backyard-HOA rule once (after the first block that leans on it, else after the design
+review when a body reviews yards there), the design-review path (each `governing.layerRefs` record's fact and
+verbatim quote — or, when a block's evidence already quotes it, a link up to that block — linked to
+`/guides/hoa-turf-approval/`), the photo, "Around {Community}" (the town page, the town's putting-green and pet-turf
+pages, the other communities in the town — visible only), the guides (`putting-green-design-ideas`,
+`outdoor-living-with-artificial-turf`, then the putting-greens hub — visible only), FAQ, sources, the closing band with
+the one form, the town preselected. JSON-LD: WebPage `about` → a Place (the community, `containedInPlace` its City);
+a Service with that Place as `areaServed`, provided by #business; BreadcrumbList Areas › {Town} › {Community}; FAQPage.
+
+**Links in.** The town page's "{Town} neighborhoods" (`TownCommunities`, after "by service"); one line under the short
+answer on the town's putting-green page naming its golf communities; `/areas/` "Golf and custom-home communities",
+grouped by town (`AreasCommunities`); llms.txt lists them under their town, after its town × service pages. Each draws
+only visible pages and nothing when there are none.
+
+**Rules for writers.** Every town rule applies (numbers traced, links among the sources, no unapproved NoCo claim, no
+TIMELESS town). The DEMOGRAPHICS ban holds with extra force here: never wealth, income or home-value language about a
+neighborhood — say what its rules, its course or its lots are. "luxury", "exclusive", "prestigious" and "high-end"
+WARN. The community's own facts go in `src/data/layers/communities/{id}.json`. The Colorado backyard-HOA rule is
+never paraphrased in a block. check-content FAILS a page sharing more than 25% of its five-word runs with another
+community (WARN above 15% in the same town), with its own town record or with its town's putting-green page.
+
 ## Guide records — `src/content/guides/{id}.md`
 
 Schema: `src/content.config.ts` (`guides`). Every guide names one `topic` from `src/data/guide-topics.ts`
@@ -166,7 +268,9 @@ Schema: `src/content.config.ts` (`guides`). Every guide names one `topic` from `
 rules-and-hoa | water | commercial | yard-design); its hub, crumbs (Guides › {topic} › {crumb}), "More in"
 list and previous / next follow from it. An optional `display` object carries the page furniture: `crumb`,
 `paint` (a phrase of the H1, word for word), `faqH2` and `cta` {title, payoff, lede?}; without it the crumb is
-the title and the rest are the topic's defaults. The full field list is in docs/GUIDES.md ("Adding a guide").
+the title and the rest are the topic's defaults. An optional `photos` (up to three `src/data/photos.ts` ids) prints
+as a restrained figure strip after the body (`GuidePhotos`), each with its own caption, place and month — Brian's
+putting greens on a putting-green design guide, say; check-content fails an id that isn't in photos.ts. The full field list is in docs/GUIDES.md ("Adding a guide").
 check-content also fails a guide that shares its title or its normalized `answer.question` with another, or
 more than 25% of its five-word runs (WARN above 15%). Answer first (the `answer` block is the page's first 60 words
 in substance). Question-shaped H2s. Tables with real, dated numbers from layer records. Where law or a city
@@ -206,6 +310,10 @@ without JS = a person), and show the phone on 502 / ask for a phone on 422.
   — every record rule, the gate (WARN while a draft), the town's own layer file (`local/{town}.json`), and the
   overlap checks against every page of the same service and the town record on disk. Several files at once work
   too (a writer checks all four of a town's pages and its town record in one run)
+- one community page, while writing it: `node scripts/check-content.mjs src/content/communities/{town}--{community}.json`
+  — every record rule, the gate (WARN while a draft), the community's own layer file
+  (`communities/{town}--{community}.json`), and the overlap checks against every community on disk, its town record and
+  its town's putting-green page
 - `build`: `astro build && node scripts/md-mirrors.mjs dist && node scripts/check-dist.mjs dist && python3 scripts/check-links.py dist`
 - `test:unit`: `node --test "tests/*.test.mjs"` (a bare directory argument fails on Node 24)
 - `test:launch`: `LAUNCH_CHECK=1 node --test tests/redirects.test.mjs` — every 301 target must exist in `dist/`

@@ -1,0 +1,95 @@
+/*
+ * Community pages (/areas/{town}-co/{community}/): the rules for their own parts — the facts strip
+ * (CommunityFacts, .cmf) and the design-review path (CommunityReview, .cmr).
+ *
+ * Why a stylesheet and not scoped <style> blocks: a community page is rendered by the same route file as the town ×
+ * service pages (src/pages/areas/[slug]/[service].astro — one dynamic segment, one file). Astro links every CSS
+ * module in a route's graph on every page that route builds, so a scoped style in the route or in a component it
+ * imports would change the stylesheet all 68 service pages link. This file is imported with `?url` (Vite still
+ * hashes and minifies it) and linked in <head> by community pages alone (Base's `styles`). The class names carry
+ * their own prefix because nothing scopes them. Everything else on a community page — hero, blocks, evidence,
+ * state rule, photo, around, guides, FAQ, sources, closing band — reuses the town × service parts as they are.
+ *
+ * Tokens: src/styles/tokens.css. One curve (--ease); motion only under prefers-reduced-motion: no-preference and
+ * @supports (animation-timeline: view()), the finished state being the default.
+ */
+
+/* ── Facts strip: a title block under the hero, four cells split by rules, each opened by a paint mark ── */
+.cmf { background: var(--ground-2); border-bottom: 1px solid var(--line); }
+.cmf__grid { display: grid; grid-template-columns: minmax(0, 0.62fr) minmax(0, 2.38fr); align-items: stretch; }
+.cmf__h { margin: 0; padding: 24px 24px 24px 0; color: var(--ink); align-self: start; }
+.cmf__cells { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); margin: 0; }
+.cmf__cell { position: relative; display: grid; align-content: start; gap: 8px; padding: 24px 24px 22px; border-left: 1px solid var(--line); min-width: 0; }
+.cmf__cell::before { content: ''; position: absolute; left: 24px; top: 0; width: 28px; height: 3px; border-radius: 0 0 2px 2px;
+  background: repeating-linear-gradient(90deg, var(--paint) 0 10px, transparent 10px 15px); }
+.cmf__cell dt { margin: 0; }
+.cmf__cell dd { margin: 0; display: grid; gap: 4px; }
+.cmf__v { font-family: var(--font-display); font-weight: 760; font-stretch: 106%; font-size: clamp(1.05rem, 0.98rem + 0.35vw, 1.25rem);
+  letter-spacing: -0.015em; line-height: 1.2; overflow-wrap: anywhere; }
+/* a link is a block inside its cell, padded to a 44px target; the icon rides the last word instead of wrapping alone */
+.cmf__a { display: block; justify-self: start; padding-block: 11px; margin-block: -11px;
+  text-decoration: underline; text-decoration-color: rgb(var(--ink-rgb) / 0.25); text-decoration-thickness: 1.5px; text-underline-offset: 0.2em;
+  transition: text-decoration-color var(--t2) var(--ease); }
+.cmf__a:hover { text-decoration-color: var(--paint); }
+.cmf__a svg { display: inline-block; margin-left: 6px; vertical-align: -1px; color: var(--ink-3); }
+.cmf__last { white-space: nowrap; }
+.cmf__sub { font-size: 0.84rem; color: var(--ink-3); line-height: 1.4; }
+@media (max-width: 999px) {
+  .cmf__grid { grid-template-columns: 1fr; }
+  .cmf__h { padding: 22px 0 6px; max-width: none; }
+  .cmf__cells { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .cmf__cell { padding: 18px 16px 18px 0; border-left: 0; border-top: 1px solid var(--line); }
+  .cmf__cell:nth-child(2n) { padding-left: 16px; border-left: 1px solid var(--line); }
+  .cmf__cell::before { left: 0; }
+  .cmf__cell:nth-child(2n)::before { left: 16px; }
+}
+@media (max-width: 420px) {
+  .cmf__cells { grid-template-columns: 1fr; }
+  .cmf__cell, .cmf__cell:nth-child(2n) { padding-left: 0; border-left: 0; }
+  .cmf__cell:nth-child(2n)::before { left: 0; }
+}
+
+/* ── Design-review path: the heading holds still on the left; the rules run down one dashed layout line ── */
+.cmr { border-top: 1px solid var(--line); }
+.cmr__grid { display: grid; grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr); gap: clamp(28px, 5vw, 88px); align-items: start; }
+.cmr__head { display: grid; gap: 14px; justify-items: start; position: sticky; top: calc(var(--header-h) + 28px); }
+.cmr__head .label { margin: 0; }
+.cmr__h { font-size: clamp(1.8rem, 1.2rem + 2.2vw, 3rem); max-width: 16ch; }
+.cmr__lede { margin: 0; max-width: 46ch; color: var(--ink-2); }
+.cmr__lede a { color: var(--ink); font-weight: 650; text-decoration-color: var(--paint); text-underline-offset: 0.18em; }
+.cmr__acts { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 20px; margin: 6px 0 0; }
+.cmr__src { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; font-family: var(--font-display); font-weight: 700; font-stretch: 104%;
+  font-size: 0.95rem; text-decoration: underline; text-decoration-color: var(--paint); text-decoration-thickness: 2px; text-underline-offset: 0.2em; }
+
+.cmr__path { position: relative; list-style: none; display: grid; gap: 0; padding: 0; margin: 0; }
+/* the layout line: dashed paint down the left, behind the numbered marks */
+.cmr__path::before { content: ''; position: absolute; left: 15px; top: 18px; bottom: 18px; width: 2px; transform-origin: top;
+  background: repeating-linear-gradient(180deg, var(--paint) 0 12px, transparent 12px 20px); }
+.cmr__rule { position: relative; display: grid; gap: 10px; padding: 4px 0 30px 56px; }
+.cmr__rule:last-child { padding-bottom: 0; }
+.cmr__no { position: absolute; left: 0; top: 0; display: grid; place-items: center; width: 32px; height: 32px; border-radius: 50%;
+  background: var(--paint); color: var(--ink); font-family: var(--font-display); font-weight: 820; font-size: 0.8rem; box-shadow: 0 0 0 5px var(--ground); }
+.cmr__fact { margin: 0; max-width: 52ch; font-family: var(--font-display); font-weight: 720; font-stretch: 104%; font-size: clamp(1.05rem, 0.98rem + 0.35vw, 1.22rem);
+  letter-spacing: -0.012em; line-height: 1.3; color: var(--ink); }
+.cmr__q { margin: 0; padding: 14px 16px; border-radius: var(--r-control); background: var(--ground-2); }
+.cmr__q p { margin: 0; font-family: var(--font-display); font-stretch: 80%; font-weight: 560; font-size: 0.88rem; line-height: 1.6; letter-spacing: 0.04em; color: var(--ink-2); }
+.cmr__up { margin: 0; }
+.cmr__up a { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; font-size: var(--fs-small); font-weight: 600; color: var(--ink-2);
+  text-decoration: underline; text-decoration-color: var(--paint); text-underline-offset: 0.2em; }
+.cmr__up a svg { rotate: -90deg; }
+.cmr__cite { display: flex; flex-wrap: wrap; align-items: center; gap: 0 14px; margin: 0; font-size: 0.8rem; color: var(--ink-3); font-variant-numeric: tabular-nums; }
+.cmr__cite a { display: inline-flex; align-items: center; gap: 5px; min-height: 44px; color: var(--ink-2); font-weight: 600; text-decoration: none; overflow-wrap: anywhere; }
+.cmr__cite a:hover { text-decoration: underline; text-decoration-color: var(--paint); }
+@media (max-width: 899px) {
+  .cmr__grid { grid-template-columns: 1fr; }
+  .cmr__head { position: static; }
+  .cmr__rule { padding-left: 48px; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  @supports (animation-timeline: view()) {
+    /* the line is drawn down the path as it scrolls into view — once, scroll-linked, no loop */
+    @keyframes cmr-draw { from { scale: 1 0; } to { scale: 1 1; } }
+    .cmr__path::before { animation: cmr-draw linear both; animation-timeline: view(); animation-range: entry 10% cover 55%; }
+  }
+}

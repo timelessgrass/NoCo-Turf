@@ -12,7 +12,8 @@
  * stood, or right after the first block that leans on it, or after the blocks. Job photos appear only on
  * towns whose camera originals were taken nearby (TownData.townPhotos). Draft records carry Base's ribbon.
  * After the FAQ, "{Town}: by service" links the town's own town × service pages (/areas/{town}-co/{service}/,
- * visibleTownServices()) — this page is the installation page for the town, so it never links to itself there.
+ * visibleTownServices()) — this page is the installation page for the town, so it never links to itself there — and
+ * "{Town} neighborhoods" its community pages (/areas/{town}-co/{community}/, visibleCommunities(); nothing when none).
  * JSON-LD: the printed FAQ only — coverage is areaServed on the one #business node, never a per-town entity.
  */
 import { getImage } from 'astro:assets';
@@ -32,7 +33,8 @@ import TownJobs from '../../components/TownJobs.astro';
 import TownFolded from '../../components/TownFolded.astro';
 import TownNearby from '../../components/TownNearby.astro';
 import TownByService from '../../components/TownByService.astro';
-import { visibleTowns, visibleTownServices } from '../../lib/visible';
+import TownCommunities from '../../components/TownCommunities.astro';
+import { visibleTowns, visibleTownServices, visibleCommunities } from '../../lib/visible';
 import { faqGraph } from '../../lib/schema';
 import { REGIONS } from '../../data/territory.mjs';
 import { phoneHref, phoneDisplay } from '../../data/brief';
@@ -117,6 +119,8 @@ const crumbs = [{ name: 'Areas', path: '/areas/' }, { name, path: `/areas/${slug
 const nearby = (d.nearby as string[]).filter((s) => towns.some((t) => t.slug === s));
 /* This town's town × service pages (putting greens, pet turf, play and commercial) that exist in this build. */
 const byService = (await visibleTownServices()).filter((p) => p.town.slug === slug);
+/* This town's community pages (/areas/{town}-co/{community}/) that exist in this build. */
+const neighborhoods = (await visibleCommunities()).filter((c) => c.town.slug === slug);
 ---
 <Base title={d.title} description={d.description} crumbs={crumbs} graph={faqGraph(d.faq)} draft={town.draft} ogImage={og}>
   <div class:list={['thero', { 'thero--plain': !hero }]}>
@@ -167,6 +171,8 @@ const byService = (await visibleTownServices()).filter((p) => p.town.slug === sl
   )}
 
   <TownByService town={name} pages={byService} />
+
+  <TownCommunities town={name} pages={neighborhoods} />
 
   <TownNearby here={town} towns={towns} nearby={nearby} />
 

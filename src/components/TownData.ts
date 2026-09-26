@@ -40,10 +40,13 @@ const ALL = [...stateLaw, ...cityCodes, ...water, ...rebates, ...drought, ...cli
    resolve by id, so a block that cites one shows it as evidence, but they are never swept in by recordsFor():
    a local record reaches a page only when that page's copy names it. */
 const LOCAL = Object.values(import.meta.glob<LayerRecord[]>('../data/layers/local/*.json', { eager: true, import: 'default' })).flat();
+/* A community page's own facts (src/data/layers/communities/{town}--{community}.json, ids "{town}--{community}.…"):
+   by id only, exactly like LOCAL — a community's design guideline never reaches its town's pages by a sweep. */
+const COMMUNITY = Object.values(import.meta.glob<LayerRecord[]>('../data/layers/communities/*.json', { eager: true, import: 'default' })).flat();
 /* Shared standards (standards.json: CPSC, ASTM and the like) hold for every town but say nothing local, so they
    resolve by id only, exactly like LOCAL: a block that cites one shows it as evidence; no sweep picks it up. */
 const STANDARDS = standards as unknown as LayerRecord[];
-const BY_ID = new Map([...ALL, ...LOCAL, ...STANDARDS].map((r) => [r.id, r]));
+const BY_ID = new Map([...ALL, ...LOCAL, ...COMMUNITY, ...STANDARDS].map((r) => [r.id, r]));
 const RENDERABLE = new Set(['VERIFIED', 'EXTERNAL_SOURCE']);
 
 /** A layer record that may render, or null (missing or UNVERIFIED). */

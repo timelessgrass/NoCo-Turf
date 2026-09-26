@@ -5,7 +5,8 @@
  *
  * Reading order: plain hero with the dated record strip → short answer → (tool) → the Markdown body,
  * re-set by GuideProse (numbered sections, scannable tables, printable templates, uncertainty notes)
- * beside a sticky table of contents → questions (FAQPage mirrors them verbatim) → related services,
+ * beside a sticky table of contents → the guide's own photos, when its frontmatter names any (GuidePhotos: Brian's
+ * jobs with their real caption, place and month) → questions (FAQPage mirrors them verbatim) → related services,
  * towns, up to six more guides in the same topic and the other topics → sources with their checked
  * dates → previous / next within the topic → the closing band with the page's one form.
  * Crumbs run Guides › {topic} › {crumb}, so every guide sits under its topic hub (/guides/{topic}/).
@@ -31,6 +32,7 @@ import GuideToc from '../../components/GuideToc.astro';
 import GuideWaterSavings from '../../components/GuideWaterSavings.astro';
 import GuideHoaLetter from '../../components/GuideHoaLetter.astro';
 import GuideGlyph from '../../components/GuideGlyph.astro';
+import GuidePhotos from '../../components/GuidePhotos.astro';
 import { visibleGuides, visibleTowns, visibleTopics, guideLabel } from '../../lib/visible';
 import { assertGuideNamespace } from '../../lib/content-policy.mjs';
 import { TOPIC_SLUGS } from '../../data/guide-topics';
@@ -38,6 +40,7 @@ import { visibleServices } from '../../data/services';
 import { faqGraph, BUSINESS_REF } from '../../lib/schema';
 import { SITE } from '../../data/site';
 import { businessName, phone } from '../../data/brief';
+import { photo as photoById } from '../../data/photos';
 import providers from '../../data/layers/water-providers.json';
 import { buildRows } from '../../../scripts/build-water-rates.mjs';
 
@@ -98,6 +101,8 @@ const letterId = id === 'hoa-turf-approval' ? h2s.find((h) => /letter/i.test(h.t
 const { body } = g.entry as any;
 const faq = (d.faq as { q: string; a: string }[]).map((f) => ({ q: smart(f.q), a: smart(f.a) }));
 const legal = /not legal advice/i.test(String(body ?? '')) || /not legal advice/i.test(d.answer.answer);
+/* The guide's own photos (frontmatter `photos`, photos.ts ids — check-content fails one that isn't there). */
+const photos = (d.photos ?? []).map((p: string) => photoById(p));
 
 /* Related: the services and towns the record names; up to six more guides from its topic, starting after
    this one and wrapping (so each page in a big topic links a different run of it); every other topic hub. */
@@ -184,6 +189,8 @@ const graph = [article, ...(dataset ? [dataset] : []), ...faqGraph(faq)];
           {isWater && <GuideWaterSavings slot="island" />}
           {letterId && <GuideHoaLetter slot="island" />}
         </GuideProse>
+
+        <GuidePhotos photos={photos} />
 
         {d.faq.length > 0 && (
           <section class="gpart" id="questions" aria-labelledby="questions-h">

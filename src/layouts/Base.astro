@@ -27,9 +27,16 @@ interface Props {
   /** PREVIEW: this page's record is a draft / unconfirmed — show the ribbon. */
   draft?: boolean;
   ogImage?: string;
+  /** What the WebPage node is about, when it is not the business: a community page is about a Place
+   *  ({ '@id': …#place }, the Place node itself in `graph`). Default: the #business node. */
+  about?: Record<string, unknown>;
+  /** Extra stylesheet URLs this page alone links, in <head> (a `?url` import, so Vite still hashes and minifies
+   *  it). For a page whose route is shared with pages that must not load its CSS — see
+   *  src/pages/areas/[slug]/[service].astro. */
+  styles?: string[];
 }
 
-const { title, description, noindex = false, crumbs = [], graph = [], tone = 'ground', draft = false, ogImage } = Astro.props;
+const { title, description, noindex = false, crumbs = [], graph = [], tone = 'ground', draft = false, ogImage, about, styles = [] } = Astro.props;
 const canonical = new URL(Astro.url.pathname, SITE).href;
 const robots = PRELAUNCH || noindex ? 'noindex, nofollow' : 'index, follow';
 
@@ -60,7 +67,7 @@ const nodes: Record<string, unknown>[] = [
   {
     '@type': 'WebPage', '@id': `${canonical}#webpage`, url: canonical, name: title, description,
     isPartOf: { '@id': `${SITE}/#website` },
-    ...(business ? { about: { '@id': BUSINESS_ID } } : {}),
+    ...(about ? { about } : business ? { about: { '@id': BUSINESS_ID } } : {}),
   },
   ...(crumbs.length ? [{
     '@type': 'BreadcrumbList',
@@ -89,6 +96,7 @@ const jsonld = JSON.stringify({ '@context': 'https://schema.org', '@graph': node
     <meta property="og:url" content={canonical} />
     {ogImage && <meta property="og:image" content={new URL(ogImage, SITE).href} />}
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    {styles.map((href) => <link rel="stylesheet" href={href} />)}
     <script type="application/ld+json" set:html={jsonld} />
   </head>
   <body>

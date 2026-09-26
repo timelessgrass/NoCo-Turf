@@ -40,7 +40,7 @@ test('the shipped layer passes the gate as of its check date', () => {
   const asOf = newest && newest > CHECKED_ON ? newest : CHECKED_ON;
   const { errors, stats } = checkLayers({ today: asOf });
   assert.deepEqual(errors, [], errors.join('\n'));
-  assert.equal(stats.files - stats.guideFiles - stats.localFiles, LAYER_FILES.length, 'the contract\'s shared files, plus any owned files in guides/ and local/');
+  assert.equal(stats.files - stats.guideFiles - stats.localFiles - stats.communityFiles, LAYER_FILES.length, 'the contract\'s shared files, plus any owned files in guides/, local/ and communities/');
   assert.ok(stats.records > 100, `only ${stats.records} records`);
 });
 
@@ -304,7 +304,7 @@ test('owned files: an id is unique across guides/, local/ and the shared files',
   const both = run({ 'guides/pet-odor.json': [base({ id: 'pet-odor.x' })], 'local/windsor-co.json': [base({ id: 'pet-odor.x' })] });
   failsWith(both, /duplicate id \(also in guides\/pet-odor\.json\)/);
   const other = run({ 'city-codes.json': [base()], 'misc/extra.json': [base({ id: 'dup' })] });
-  warnsWith(other, /misc\/: a subdirectory that is not read — only guides\/ and local\/ hold layer files/);
+  warnsWith(other, /misc\/: a subdirectory that is not read — only guides\/, local\/ and communities\/ hold layer files/);
 });
 
 test('every one of the contract\'s shared layer files must exist', () => {

@@ -1,0 +1,71 @@
+---
+/**
+ * CommunityFacts — the strip under a community page's hero: what the place is, who reviews a yard there, the course
+ * it is built around, and its town. Only what the record supports: `kind` and `governing` are the record's own
+ * fields (the governing body linked to the guidelines it posts, which check-content holds to the record's sources);
+ * the course prints only while its cited layer record renders, linked to that record's source with the date it was
+ * read; a cell with nothing behind it isn't drawn.
+ *
+ * No <style> here on purpose: this component renders inside src/pages/areas/[slug]/[service].astro, the route the
+ * town × service pages share, and a scoped style would change the stylesheet every one of those pages links. Its
+ * rules are in src/styles/community.css, which only community pages link.
+ */
+import Icon from './Icon.astro';
+import { fmtDate, type LayerRecord } from './TownData';
+import { KIND_NAMES, GOVERNING_NAMES } from '../data/communities.mjs';
+
+interface Governing { name: string; type: string; url?: string }
+interface Props {
+  name: string;
+  kind: string;
+  governing: Governing | null;
+  golf: { name: string; record: LayerRecord } | null;
+  town: { name: string; href: string; county: string };
+  checked: string;
+  id?: string;
+}
+const { name, kind, governing, golf, town, checked, id = 'facts' } = Astro.props;
+const none = governing?.type === 'none-found';
+/* An outside link's icon rides its last word, so it never wraps onto a line of its own. */
+const cut = (s: string) => { const i = s.lastIndexOf(' '); return i < 0 ? ['', s] : [s.slice(0, i + 1), s.slice(i + 1)]; };
+---
+<section class="cmf" id={id} aria-labelledby={`${id}-h`}>
+  <div class="wrap cmf__grid">
+    <h2 id={`${id}-h`} class="label cmf__h">{name}, on the record</h2>
+    <dl class="cmf__cells">
+      <div class="cmf__cell">
+        <dt class="label">The place</dt>
+        <dd><span class="cmf__v">{(KIND_NAMES as Record<string, string>)[kind] ?? kind}</span></dd>
+      </div>
+      {governing && (
+        <div class="cmf__cell">
+          <dt class="label">Design review</dt>
+          <dd>
+            {none
+              ? <span class="cmf__v">{GOVERNING_NAMES['none-found']}</span>
+              : governing.url
+                ? <a class="cmf__v cmf__a" href={governing.url} rel="noopener">{cut(governing.name)[0]}<span class="cmf__last">{cut(governing.name)[1]}<Icon name="external" size={14} /></span></a>
+                : <span class="cmf__v">{governing.name}</span>}
+            <span class="cmf__sub">{none ? `On the public record, ${fmtDate(checked)}` : (GOVERNING_NAMES as Record<string, string>)[governing.type]}</span>
+          </dd>
+        </div>
+      )}
+      {golf && (
+        <div class="cmf__cell">
+          <dt class="label">The course</dt>
+          <dd>
+            <a class="cmf__v cmf__a" href={golf.record.source_url} rel="noopener">{cut(golf.name)[0]}<span class="cmf__last">{cut(golf.name)[1]}<Icon name="external" size={14} /></span></a>
+            <span class="cmf__sub">Checked {fmtDate(golf.record.checked)}</span>
+          </dd>
+        </div>
+      )}
+      <div class="cmf__cell">
+        <dt class="label">Town</dt>
+        <dd>
+          <a class="cmf__v cmf__a" href={town.href}>{town.name}, CO</a>
+          <span class="cmf__sub">{town.county}</span>
+        </dd>
+      </div>
+    </dl>
+  </div>
+</section>

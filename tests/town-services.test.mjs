@@ -343,7 +343,7 @@ test('the town rules hold: leaks, claims, numbers, links, layerRefs, title suffi
   const refs = page('windsor-co', 'putting-greens');
   refs.blocks[0] = { ...refs.blocks[0], layerRefs: ['no-such-layer'] };
   put(refs);
-  assert.match(run().out, /layerRefs id "no-such-layer" is not in src\/data\/layers\/\*\.json, src\/data\/layers\/guides\/\*\.json or src\/data\/layers\/local\/\*\.json/);
+  assert.match(run().out, /layerRefs id "no-such-layer" is not in src\/data\/layers\/\*\.json, src\/data\/layers\/guides\/\*\.json, src\/data\/layers\/local\/\*\.json or src\/data\/layers\/communities\/\*\.json/);
 
   // a number traced to a referenced layer record passes; a photo from another town only warns
   const traced = page('windsor-co', 'putting-greens', { photo: 'fire-pit', lede: 'At least 25% of each front yard stays landscaped.' });

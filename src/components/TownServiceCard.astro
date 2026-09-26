@@ -5,6 +5,7 @@
  * page covers in the order it covers it, each row a jump link with the block's own kicker, and a paint dot on
  * the facts true only of this town for this use. Every value is the record's own words or its count, so no
  * two pages' sheets read alike. On desktop it stands beside the headline and the short answer.
+ * A community page uses the same sheet with the community as its first coordinate (`axis`, `ownIn`).
  */
 import Icon from './Icon.astro';
 interface Row { label: string; value: string; href: string; own?: boolean }
@@ -14,8 +15,12 @@ interface Props {
   rows: Row[];
   checked: string;
   sources: number;
+  /** The first coordinate's label (default "Service"); a community page passes "Community". */
+  axis?: string;
+  /** Where an own fact is true (default the town): a community page names the community. */
+  ownIn?: string;
 }
-const { service, town, rows, checked, sources } = Astro.props;
+const { service, town, rows, checked, sources, axis = 'Service', ownIn = town.name } = Astro.props;
 ---
 <nav class="tsc" aria-label={`What this page covers: ${service.name} in ${town.name}`}>
   <div class="tsc__top">
@@ -24,7 +29,7 @@ const { service, town, rows, checked, sources } = Astro.props;
   </div>
   <dl class="tsc__axes">
     <div class="tsc__axis">
-      <dt class="label">Service</dt>
+      <dt class="label">{axis}</dt>
       <dd><a href={service.href}>{service.name}</a></dd>
     </div>
     <div class="tsc__axis">
@@ -39,7 +44,7 @@ const { service, town, rows, checked, sources } = Astro.props;
           <span class="tsc__no num">{String(i + 1).padStart(2, '0')}</span>
           <span class="tsc__val">
             <span class="label tsc__label">{r.label}</span>
-            <span class="tsc__kick">{r.value}{r.own && <span class="tsc__own"><span class="sr"> (only in {town.name})</span></span>}</span>
+            <span class="tsc__kick">{r.value}{r.own && <span class="tsc__own"><span class="sr"> (only in {ownIn})</span></span>}</span>
           </span>
           <Icon name="arrow-down" size={16} class="tsc__go" />
         </a>
@@ -48,7 +53,7 @@ const { service, town, rows, checked, sources } = Astro.props;
   </ol>
   <div class="tsc__foot">
     <a href="#sources"><span class="num">{sources}</span> sources, each dated <Icon name="arrow-down" size={14} /></a>
-    {rows.some((r) => r.own) && <span class="tsc__key" aria-hidden="true"><span class="tsc__own"></span>only in {town.name}</span>}
+    {rows.some((r) => r.own) && <span class="tsc__key" aria-hidden="true"><span class="tsc__own"></span>only in {ownIn}</span>}
   </div>
 </nav>
 

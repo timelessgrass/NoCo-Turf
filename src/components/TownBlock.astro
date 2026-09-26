@@ -7,8 +7,10 @@
  */
 import TownEvidence from './TownEvidence.astro';
 interface Block { kind: string; own: boolean; kicker: string; h2: string; takeaway?: string; paras: string[]; layerRefs: string[]; sources: string[] }
-interface Props { block: Block; no: number; id: string; town: string; sources: { label: string; url: string; checked: string }[]; asOf: string }
-const { block, no, id, town, sources, asOf } = Astro.props;
+/* `ownIn` names where an own block is true when that is not the town — a community page passes the community;
+   the evidence panel still reads `town` (the soil sample is taken around the town centre). */
+interface Props { block: Block; no: number; id: string; town: string; ownIn?: string; sources: { label: string; url: string; checked: string }[]; asOf: string }
+const { block, no, id, town, ownIn = town, sources, asOf } = Astro.props;
 ---
 <section class="tb" id={id} aria-labelledby={`${id}-h`}>
   <div class="wrap tb__grid">
@@ -16,7 +18,7 @@ const { block, no, id, town, sources, asOf } = Astro.props;
       <p class="tb__meta">
         <span class="tb__no num" aria-hidden="true">{String(no).padStart(2, '0')}</span>
         <span class="label tb__kicker">{block.kicker}</span>
-        {block.own && <span class="tb__own">Only in {town}</span>}
+        {block.own && <span class="tb__own">Only in {ownIn}</span>}
       </p>
       <h2 id={`${id}-h`} class="tb__h">{block.h2}</h2>
       {block.takeaway && <p class="tb__take">{block.takeaway}</p>}

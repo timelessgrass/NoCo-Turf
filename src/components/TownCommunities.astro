@@ -1,0 +1,70 @@
+---
+/**
+ * TownCommunities — on a town page, "{Town} neighborhoods": the town's community pages in this build
+ * (visibleCommunities(), /areas/{town}-co/{community}/), each by its name and kind, with who reviews a yard there when
+ * the record names one and that page's own H1 as its line — so the row says what is particular to the place, never
+ * what it costs. Nothing to link, nothing drawn. Sits beside "{Town}: by service" (TownByService).
+ */
+import Icon from './Icon.astro';
+import { KIND_NAMES } from '../data/communities.mjs';
+interface Page { path: string; name: string; kind: string; entry: { data: any } }
+interface Props { town: string; pages: Page[]; id?: string }
+const { town, pages, id = 'neighborhoods' } = Astro.props;
+const kindName = (k: string) => (KIND_NAMES as Record<string, string>)[k] ?? k;
+const reviewer = (p: Page) => {
+  const g = p.entry.data.governing;
+  return g && g.type !== 'none-found' ? g.name as string : null;
+};
+---
+{pages.length > 0 && (
+  <section class="section tcm" id={id} aria-labelledby={`${id}-h`}>
+    <div class="wrap tcm__grid">
+      <header class="tcm__head">
+        <p class="label">{town} neighborhoods</p>
+        <h2 id={`${id}-h`} class="tcm__h">One neighborhood at a time.</h2>
+        <p class="lede tcm__lede">Each page takes one {town} neighborhood: who reviews a yard there, and what its guidelines say about turf and the backyard.</p>
+      </header>
+      <ol class="tcm__list" role="list">
+        {pages.map((p) => (
+          <li>
+            <a class="tcm__row" href={p.path}>
+              <span class="tcm__top">
+                <span class="tcm__name">{p.name}</span>
+                <span class="tcm__kind">{kindName(p.kind)}</span>
+              </span>
+              <span class="tcm__line">{p.entry.data.h1}</span>
+              {reviewer(p) && <span class="tcm__rev"><span class="tcm__rk">Design review</span>{reviewer(p)}</span>}
+              <span class="tcm__go" aria-hidden="true"><Icon name="arrow" /></span>
+            </a>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+)}
+
+<style>
+  .tcm { border-top: 1px solid var(--line); }
+  .tcm__grid { display: grid; grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr); gap: clamp(28px, 5vw, 88px); align-items: start; }
+  .tcm__head { display: grid; gap: 14px; }
+  .tcm__head .label { margin: 0; }
+  .tcm__h { font-size: clamp(2rem, 1.2rem + 3vw, 3.4rem); max-width: 14ch; }
+  .tcm__lede { margin: 0; }
+  .tcm__list { list-style: none; border-top: 2px solid var(--ink); }
+  .tcm__row { display: grid; grid-template-columns: minmax(0, 1fr) 48px; gap: 6px 20px; align-items: center; padding: 18px 0; min-height: 44px;
+    border-bottom: 1px dashed rgb(var(--ink-rgb) / 0.28); text-decoration: none; transition: background-color var(--t2) var(--ease); }
+  .tcm__row:hover { background: linear-gradient(90deg, transparent, rgb(var(--ink-rgb) / 0.035) 10%, rgb(var(--ink-rgb) / 0.035) 90%, transparent); }
+  .tcm__top { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 14px; }
+  .tcm__name { font-family: var(--font-display); font-weight: 800; font-stretch: 112%; font-size: clamp(1.3rem, 1.08rem + 0.9vw, 1.75rem); letter-spacing: -0.03em; line-height: 1.05; }
+  .tcm__kind, .tcm__rk { font-family: var(--font-display); font-stretch: 80%; font-weight: 650; font-size: 0.7rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-3); }
+  .tcm__line { grid-column: 1; color: var(--ink-2); font-size: var(--fs-small); max-width: 58ch; }
+  .tcm__rev { grid-column: 1; display: inline-flex; flex-wrap: wrap; align-items: baseline; gap: 2px 8px; font-size: 0.84rem; color: var(--ink); }
+  .tcm__go { grid-column: 2; grid-row: 1 / span 3; width: 48px; height: 48px; border-radius: 50%; display: grid; place-items: center; box-shadow: inset 0 0 0 1.5px var(--line);
+    transition: background-color var(--t2) var(--ease), box-shadow var(--t2) var(--ease); }
+  .tcm__row:hover .tcm__go, .tcm__row:focus-visible .tcm__go { background: var(--paint); box-shadow: none; }
+  @media (max-width: 899px) {
+    .tcm__grid { grid-template-columns: 1fr; }
+    .tcm__row { grid-template-columns: minmax(0, 1fr) 40px; gap: 6px 14px; }
+    .tcm__go { width: 40px; height: 40px; }
+  }
+</style>

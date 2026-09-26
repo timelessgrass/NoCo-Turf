@@ -14,6 +14,21 @@ export function assertUniqueRoutes(paths) {
 }
 
 /**
+ * Town × service pages and community pages share /areas/{town}-co/{segment}/ — one route file,
+ * src/pages/areas/[slug]/[service].astro. Two records that would claim one path stop the build, naming both, rather
+ * than one page silently replacing the other. `children` is [{ path, what }], `what` naming the record file.
+ */
+export function assertAreaChildren(children) {
+  const seen = new Map();
+  for (const c of children) {
+    if (seen.has(c.path)) {
+      throw new Error(`${c.path} is claimed twice: by ${seen.get(c.path)} and by ${c.what}. /areas/{town}-co/{segment}/ holds one page — a community slug may never be a service slug or a reserved word (src/data/communities.mjs); rename the community.`);
+    }
+    seen.set(c.path, c.what);
+  }
+}
+
+/**
  * Topic hubs (/guides/{topic}/) and guides (/guides/{id}/) share one namespace. A guide id that equals a
  * topic slug would make two pages claim one URL, so both routes call this and the build stops.
  */

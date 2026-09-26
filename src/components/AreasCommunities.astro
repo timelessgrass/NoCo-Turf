@@ -1,0 +1,66 @@
+---
+/**
+ * AreasCommunities — on /areas/, "Golf and custom-home communities": every community page in this build
+ * (visibleCommunities()), grouped under its town in corridor order, each by its name and kind with its own H1 as the
+ * line. The town's name opens the town page. With no visible community page the section is not drawn.
+ */
+import Icon from './Icon.astro';
+import { KIND_NAMES } from '../data/communities.mjs';
+interface Page { path: string; name: string; kind: string; town: { slug: string; name: string }; entry: { data: any } }
+interface Props { pages: Page[]; id?: string }
+const { pages, id = 'communities' } = Astro.props;
+const groups = pages.reduce<{ slug: string; name: string; pages: Page[] }[]>((acc, p) => {
+  const g = acc.find((x) => x.slug === p.town.slug);
+  if (g) g.pages.push(p); else acc.push({ slug: p.town.slug, name: p.town.name, pages: [p] });
+  return acc;
+}, []);
+const kindName = (k: string) => (KIND_NAMES as Record<string, string>)[k] ?? k;
+---
+{groups.length > 0 && (
+  <section class="section acm" id={id} aria-labelledby={`${id}-h`}>
+    <div class="wrap">
+      <header class="acm__head">
+        <p class="label">Neighborhoods</p>
+        <h2 id={`${id}-h`}>Golf and custom-home communities.</h2>
+        <p class="lede">Neighborhoods with a page of their own: who reviews a yard’s design there, and what the guidelines say about turf, quoted from the source.</p>
+      </header>
+      <ol class="acm__towns" role="list">
+        {groups.map((g) => (
+          <li class="acm__town">
+            <a class="acm__tname" href={`/areas/${g.slug}/`}>{g.name}<Icon name="arrow" size={18} /></a>
+            <ul class="acm__list" role="list">
+              {g.pages.map((p) => (
+                <li>
+                  <a class="acm__row" href={p.path}>
+                    <span class="acm__name">{p.name}</span>
+                    <span class="acm__kind">{kindName(p.kind)}</span>
+                    <span class="acm__line">{p.entry.data.h1}</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+)}
+
+<style>
+  .acm { border-top: 1px solid var(--line); }
+  .acm__head { display: grid; gap: 16px; margin-bottom: clamp(36px, 5vw, 64px); }
+  .acm__head h2 { max-width: 20ch; }
+  .acm__towns { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: clamp(28px, 3vw, 44px) clamp(28px, 4vw, 64px); }
+  .acm__town { display: grid; align-content: start; border-top: 2px solid var(--ink); }
+  .acm__tname { display: inline-flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 52px; padding: 10px 0;
+    font-family: var(--font-display); font-weight: 800; font-stretch: 112%; font-size: clamp(1.25rem, 1.05rem + 0.8vw, 1.6rem); letter-spacing: -0.03em; text-decoration: none; }
+  .acm__tname :global(svg) { color: var(--ink-3); transition: color var(--t2) var(--ease), translate var(--t2) var(--ease); }
+  .acm__tname:hover :global(svg) { color: var(--ink); translate: 3px 0; }
+  .acm__list { list-style: none; }
+  .acm__list li { border-top: 1px dashed rgb(var(--ink-rgb) / 0.28); }
+  .acm__row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 12px; align-items: baseline; min-height: 44px; padding: 14px 0; text-decoration: none; }
+  .acm__name { font-family: var(--font-display); font-weight: 740; font-stretch: 106%; font-size: 1.08rem; letter-spacing: -0.015em; line-height: 1.2; }
+  .acm__row:hover .acm__name { text-decoration: underline; text-decoration-color: var(--paint); text-decoration-thickness: 2px; text-underline-offset: 0.18em; }
+  .acm__kind { font-family: var(--font-display); font-stretch: 80%; font-weight: 650; font-size: 0.68rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-3); text-align: right; }
+  .acm__line { grid-column: 1 / -1; font-size: 0.88rem; color: var(--ink-2); line-height: 1.45; }
+</style>

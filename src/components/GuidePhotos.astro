@@ -1,0 +1,51 @@
+---
+/**
+ * GuidePhotos — a guide's `photos` (up to three src/data/photos.ts ids) as a restrained strip of figures inside the
+ * reading column: each Brian's own job, with its record line as everywhere else — what it shows, the real place
+ * the camera original puts it and the month when the file carries one. The photos illustrate; they never stand in
+ * for a claim the guide doesn't source. No photos, no strip.
+ */
+import Photo from './Photo.astro';
+import { monthLabel, type Photo as P } from '../data/photos';
+interface Props { photos: P[]; id?: string }
+const { photos, id = 'photos' } = Astro.props;
+---
+{photos.length > 0 && (
+  <section class="gph" id={id} aria-label="From the job file">
+    <p class="label gph__label">From the job file</p>
+    <div class:list={['gph__row', `gph__row--${photos.length}`]}>
+      {photos.map((p) => (
+        <figure class="gph__fig rise">
+          <div class="gph__frame">
+            <Photo photo={p} sizes={photos.length === 1 ? '(max-width: 899px) 100vw, 880px' : '(max-width: 599px) 100vw, 440px'} widths={[480, 800, 1200]} />
+          </div>
+          <figcaption class="gph__cap">
+            <span class="gph__what">{p.caption}</span>
+            <span class="gph__rec">{p.place}{p.month && <> · {monthLabel(p.month)}</>}</span>
+          </figcaption>
+        </figure>
+      ))}
+    </div>
+  </section>
+)}
+
+<style>
+  .gph { max-width: 880px; margin-top: clamp(40px, 5vw, 72px); }
+  .gph__label { margin: 0 0 14px; }
+  .gph__row { display: grid; gap: clamp(14px, 2vw, 22px); grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .gph__row--1 { grid-template-columns: minmax(0, 1fr); }
+  .gph__row--2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .gph__fig { margin: 0; display: grid; gap: 10px; align-content: start; }
+  .gph__frame { overflow: hidden; border-radius: var(--r-photo); background: var(--ground-2); aspect-ratio: 4 / 3; }
+  .gph__row--1 .gph__frame { aspect-ratio: 16 / 9; }
+  .gph__frame :global(img) { width: 100%; height: 100%; object-fit: cover; }
+  .gph__cap { position: relative; display: grid; gap: 3px; padding-top: 10px; }
+  .gph__cap::before { content: ''; position: absolute; left: 0; top: 0; width: 36px; height: 3px; border-radius: 2px;
+    background: repeating-linear-gradient(90deg, var(--paint) 0 10px, transparent 10px 15px); }
+  .gph__what { font-family: var(--font-display); font-weight: 720; font-stretch: 104%; font-size: 0.98rem; letter-spacing: -0.01em; line-height: 1.25; }
+  .gph__rec { font-size: 0.82rem; color: var(--ink-3); }
+  .gph__rec::first-letter { text-transform: uppercase; }
+  @media (max-width: 599px) {
+    .gph__row, .gph__row--2 { grid-template-columns: minmax(0, 1fr); }
+  }
+</style>

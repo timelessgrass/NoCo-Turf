@@ -5,7 +5,9 @@
  */
 import { getCollection } from 'astro:content';
 import { SHOW_DRAFTS } from '../data/site';
-import { getPublishedCollection, publishedTownServices, assertTownServiceId } from './published-content';
+import { getPublishedCollection, publishedTownServices, assertTownServiceId, publishedCommunities, assertCommunityId, HAS_COMMUNITIES } from './published-content';
+import { communityVisibility } from './community-gate.mjs';
+import { communityPath } from '../data/communities.mjs';
 import { NOCO_TOWNS, REGIONS } from '../data/territory.mjs';
 import { GUIDE_TOPICS, topicBySlug } from '../data/guide-topics';
 import { SERVICES, visibleServices } from '../data/services';
@@ -45,6 +47,29 @@ export async function visibleTownServices() {
     return { id: entry.id, entry, town: town!, service, meta: townServiceBySlug[d.service], path: townServicePath(d.town, d.service), draft: v.draft, render: v.render };
   }).filter((p) => p.render)
     .sort((a, b) => (TOWN_RANK.get(a.town.slug)! - TOWN_RANK.get(b.town.slug)!) || (SERVICE_RANK.get(a.service.slug)! - SERVICE_RANK.get(b.service.slug)!));
+}
+
+/**
+ * Community pages (/areas/{town}-co/{community}/) that exist in this build, in corridor order (the town's order in
+ * territory.mjs), then by name. PRELAUNCH preview: every record whose town page is visible, drafts flagged. Launch:
+ * published, passing the community gate, with a visible town page (publishedCommunities). One rule for the route,
+ * the town page's neighborhoods list, /areas/, the putting-green page's golf line and the sitemap:
+ * communityVisibility.
+ */
+export async function visibleCommunities() {
+  if (!HAS_COMMUNITIES) return [];
+  const towns = await visibleTowns();
+  const townBy = new Map(towns.map((t) => [t.slug, t]));
+  const entries = SHOW_DRAFTS ? await getCollection('communities') : await publishedCommunities();
+  const TOWN_RANK = new Map(NOCO_TOWNS.map((t, i) => [t.slug, i]));
+  return entries.map((entry) => {
+    const d = entry.data as any;
+    assertCommunityId(entry.id, d);
+    const town = townBy.get(d.town);
+    const v = communityVisibility(d, { showDrafts: SHOW_DRAFTS, townVisible: !!town, townPublished: !!town && !town.draft, photos: PHOTOS });
+    return { id: entry.id, entry, slug: d.slug as string, name: d.name as string, kind: d.kind as string, town: town!, path: communityPath(d.town, d.slug), draft: v.draft, render: v.render };
+  }).filter((c) => c.render)
+    .sort((a, b) => (TOWN_RANK.get(a.town.slug)! - TOWN_RANK.get(b.town.slug)!) || a.name.localeCompare(b.name));
 }
 
 /**

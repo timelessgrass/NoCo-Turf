@@ -1,0 +1,72 @@
+---
+/**
+ * CommunityReview — the design-review path on a community page: what the body that reviews a yard there (the
+ * record's `governing`) says about turf, putting greens and backyard landscaping, in its own words. Each rule is a
+ * layer record the record names in `governing.layerRefs`: its fact, then its verbatim quote with the citation and
+ * the date it was read, strung along one layout line. A rule a block's evidence panel already quotes is not quoted
+ * twice: it keeps its fact and points up to that block. The Colorado backyard rule sits over every one of them —
+ * the page prints it once (TownStateRule, #state-rule), and this section links to it and to the HOA-approval guide.
+ *
+ *   hoa | metro-district | both — the rules, then the way through to the guidelines themselves (governing.url)
+ *   none-found                  — says so, dated: the writer searched the public record and found none posted
+ *   no quotable record yet      — names the body and sends the reader to its guidelines; it never paraphrases them
+ *
+ * No <style> here on purpose — see src/styles/community.css (this renders in the route the town × service pages
+ * share, and a scoped style would change the stylesheet those pages link).
+ */
+import Icon from './Icon.astro';
+import { cite, labelHead, fmtDate, type LayerRecord } from './TownData';
+
+interface Rule { r: LayerRecord; at: { no: number; id: string } | null }
+interface Props {
+  name: string;
+  governing: { name: string; type: string; url?: string };
+  rules: Rule[];
+  state: boolean;
+  checked: string;
+  id?: string;
+}
+const { name, governing, rules, state, checked, id = 'review' } = Astro.props;
+const none = governing.type === 'none-found';
+const pad = (n: number) => String(n).padStart(2, '0');
+const heading = none ? `No design guidelines turned up for ${name}.`
+  : rules.length ? 'What the guidelines say about turf and the backyard.'
+  : `${governing.name} reviews a yard’s design.`;
+---
+<section class="section section--tight cmr" id={id} aria-labelledby={`${id}-h`}>
+  <div class="wrap cmr__grid">
+    <header class="cmr__head">
+      <p class="label">Design review{!none && <> · {governing.name}</>}</p>
+      <h2 id={`${id}-h`} class="cmr__h">{heading}</h2>
+      <p class="cmr__lede">
+        {none
+          ? <>No HOA or metropolitan district guidelines were posted for {name} when the public record was searched ({fmtDate(checked)}). </>
+          : rules.length
+            ? <>Quoted from the posted guidelines, each with the date it was read. </>
+            : <>Its guidelines aren’t quoted on this page: read them at the source, or ask the committee for the current set, before a plan is drawn. </>}
+        {state && <>Colorado’s backyard rule sits over all of them: <a href="#state-rule">what the law says</a>.</>}
+      </p>
+      <p class="cmr__acts">
+        <a class="btn btn--line" href="/guides/hoa-turf-approval/">How HOA approval works <Icon name="arrow" /></a>
+        {!none && governing.url && <a class="cmr__src" href={governing.url} rel="noopener">Read the guidelines<Icon name="external" size={14} /></a>}
+      </p>
+    </header>
+    {rules.length > 0 && (
+      <ol class="cmr__path" role="list">
+        {rules.map(({ r, at }, i) => (
+          <li class="cmr__rule rise">
+            <span class="cmr__no num" aria-hidden="true">{pad(i + 1)}</span>
+            <p class="cmr__fact">{r.fact}</p>
+            {at
+              ? <p class="cmr__up"><a href={`#${at.id}`}>Quoted in {pad(at.no)} above<Icon name="arrow" size={14} /></a></p>
+              : r.quote && <blockquote class="cmr__q" cite={r.source_url}><p>{r.quote}</p></blockquote>}
+            <p class="cmr__cite">
+              <a href={r.source_url} rel="noopener">{cite(r) ?? labelHead(r.source_label)}<Icon name="external" size={12} /></a>
+              <span>Checked {fmtDate(r.checked)}</span>
+            </p>
+          </li>
+        ))}
+      </ol>
+    )}
+  </div>
+</section>

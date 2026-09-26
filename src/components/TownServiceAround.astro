@@ -7,14 +7,17 @@
  *   the same town, another job — the town page itself first (it IS the installation page for the town), then
  *     the town's other visible town × service pages
  * A column with nothing to link isn't drawn; the town page is always there, so the section always is.
+ * A community page ("Around {Community}") passes its own column words in `heads`: the town's pages first, then the
+ * other neighborhoods in the town.
  */
 import Icon from './Icon.astro';
 interface Link { href: string; name: string; line: string; meta?: string }
-interface Props { service: string; town: string; nearby: Link[]; others: Link[] }
-const { service, town, nearby, others } = Astro.props;
+interface Head { label: string; title: string }
+interface Props { service: string; town: string; nearby: Link[]; others: Link[]; heads?: { nearby?: Head; others?: Head } }
+const { service, town, nearby, others, heads = {} } = Astro.props;
 const cols = [
-  nearby.length ? { id: 'around-near', label: 'One town over', title: `${service} in the next towns.`, links: nearby } : null,
-  others.length ? { id: 'around-town', label: `More in ${town}`, title: `The rest of the work in ${town}.`, links: others } : null,
+  nearby.length ? { id: 'around-near', ...(heads.nearby ?? { label: 'One town over', title: `${service} in the next towns.` }), links: nearby } : null,
+  others.length ? { id: 'around-town', ...(heads.others ?? { label: `More in ${town}`, title: `The rest of the work in ${town}.` }), links: others } : null,
 ].filter((c): c is NonNullable<typeof c> => c !== null);
 ---
 {cols.length > 0 && (

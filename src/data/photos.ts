@@ -33,6 +33,10 @@ export type Photo = {
   /** What the job is. A town × service page's photo must carry its service's use (src/lib/town-service-gate.mjs):
    *  putting-green, pet, play, commercial. No photo is `commercial` yet — it waits for Brian's own commercial job. */
   use: 'putting-green' | 'lawn' | 'pet' | 'play' | 'commercial' | 'detail' | 'crew';
+  /** Optional: the community page this job belongs to, as its id "{town-slug}--{community-slug}"
+   *  (src/content/communities/). Set only when Brian's ledger places the job inside that community; the community
+   *  gate (src/lib/community-gate.mjs) also accepts a photo whose `place` names the community or its town. */
+  community?: string;
   /** camera original in Brian's upload (provenance ledger) */
   original: string;
   /** focal point for object-position, e.g. '50% 60%' */
