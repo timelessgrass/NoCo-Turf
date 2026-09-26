@@ -1,0 +1,276 @@
+{
+  "status": "draft",
+  "town": "windsor-co",
+  "slug": "highland-meadows",
+  "name": "Highland Meadows",
+  "kind": "golf",
+  "governing": {
+    "name": "Windsor Highlands Metropolitan District",
+    "type": "metro-district",
+    "url": "https://www.windsorhighlandsmetrodistrict.com/files/035b30d06/WHMD+Guidelines+APPROVED+12-4-2020.pdf",
+    "layerRefs": [
+      "windsor-co--highland-meadows.dg-astro-turf",
+      "windsor-co--highland-meadows.cf-astro-turf",
+      "windsor-co--highland-meadows.dg-front-yard-turf",
+      "windsor-co--highland-meadows.dg-irrigation",
+      "windsor-co--highland-meadows.dg-landscape-plans",
+      "windsor-co--highland-meadows.ada-submittal",
+      "windsor-co--highland-meadows.dg-review-clock"
+    ]
+  },
+  "golf": {
+    "name": "Highland Meadows Golf Course",
+    "layerRef": "windsor-co--highland-meadows.course"
+  },
+  "title": "Artificial Turf in Highland Meadows, Windsor, CO | NoCo Turf Co.",
+  "description": "Highland Meadows' metro district reviews each artificial turf style, wants 40% of front yards in turf and keeps crews off its fences and the golf course.",
+  "h1": "Highland Meadows' guidelines give artificial turf one line: new styles will be looked at, with committee approval.",
+  "display": {
+    "paint": "new styles will be looked at"
+  },
+  "lede": "The Highland Meadows Golf Course Subdivision sits on Windsor's Larimer County side, and a yard there answers to the Windsor Highlands Metropolitan District's Architectural Control Committee. Its guidelines neither ban nor size artificial turf. They send each product to review, then hem the project in with rules on front-yard lawn, swales, sprinkler heads and the course behind many back fences.",
+  "answer": {
+    "question": "Can I put artificial turf or a putting green in my Highland Meadows yard?",
+    "answer": "Usually, once the district's committee approves the plan. NoCo Turf Co. installs artificial turf and putting greens in Highland Meadows, Windsor, Colorado. The Windsor Highlands Metropolitan District's guidelines say new turf styles will be looked at and need Architectural Control Committee approval, and a front yard with less than 40% turf goes to the committee for review."
+  },
+  "blocks": [
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Section 2.9",
+      "h2": "The turf clause is a single sentence, and it puts the product itself up for review.",
+      "takeaway": "The district's architectural guidelines read, in full: \"ASTRO-TURF: New styles will be looked at; ACC approval is required.\"",
+      "paras": [
+        "That line sets no size cap, no minimum weight and no front-yard ban, and putting greens appear nowhere in the book, so the Architectural Control Committee decides turf one plan at a time. The design application asks for one set of plans placing the work against the lot lines and the house, plus the maker's brochure or cut sheets. A turf request here is a request to approve a named product in a drawn spot, so choose the turf before the paperwork goes in.",
+        "The book covers single-family homes in Districts No. 1 through No. 10, not townhomes, condos, apartments or cottages, and a home inside a sub-HOA, such as the patio homes or the homes on Murano, follows that association's rules as well. Country Farms Villages, District No. 7, has a separate book whose turf line reads \"Back yards; ACC approval is required.\" Each book claims to prevail where the two disagree, so on a Country Farms lot it depends on which one the district applies: ask it before drawing turf out front."
+      ],
+      "layerRefs": [
+        "windsor-co--highland-meadows.dg-astro-turf",
+        "windsor-co--highland-meadows.ada-submittal",
+        "windsor-co--highland-meadows.dg-scope",
+        "windsor-co--highland-meadows.cf-astro-turf",
+        "windsor-co--highland-meadows.dg-phase-conflict"
+      ],
+      "sources": [
+        "https://www.windsorhighlandsmetrodistrict.com/files/035b30d06/WHMD+Guidelines+APPROVED+12-4-2020.pdf",
+        "https://www.windsorhighlandsmetrodistrict.com/files/8167b04c1/WHMD+Architectual+Design+Application+12-31-2025.pdf",
+        "https://www.windsorhighlandsmetrodistrict.com/files/3f82cfb7c/WHMD+Country+Farms+Guidelines+APPROVED+11-11-2020.pdf"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Section 2.50.3",
+      "h2": "A front yard needs 40% turf, and nothing in the book says whether synthetic counts.",
+      "takeaway": "The planting section asks for at least 40% of a single-family front yard's landscapable area in turf; a yard below that goes to the committee for review.",
+      "paras": [
+        "Everywhere else in the guidelines, turf means watered grass. Section 2.48 has turf areas irrigated by pop-up spray or rotary heads and planting beds by low-volume drip, and it puts sprinkler changes in front of the committee too. Whether an artificial lawn counts toward the 40% is unwritten, so it depends on how the committee reads it: ask for that reading in writing before a front-yard design rests on synthetic turf.",
+        "The planting rules shape the rest of the plan. Each front yard and each back yard gets two trees and three shrubs, one front tree a pine or other evergreen; new trees go in at 2-inch caliper or more and evergreens at 6 feet or taller, trees stay 5 feet and shrubs 3 feet off property lines, and large stretches of bare mulch are out. Windsor's own front-yard minimum for detached homes applies on top, as the [Windsor page](/areas/windsor-co/) explains."
+      ],
+      "layerRefs": [
+        "windsor-co--highland-meadows.dg-front-yard-turf",
+        "windsor-co--highland-meadows.dg-irrigation"
+      ],
+      "sources": [
+        "https://www.windsorhighlandsmetrodistrict.com/files/035b30d06/WHMD+Guidelines+APPROVED+12-4-2020.pdf"
+      ]
+    },
+    {
+      "kind": "golf",
+      "own": true,
+      "kicker": "The course fence",
+      "h2": "On lots backing to the course, the district fence stays shut and the fairway side stays untouched.",
+      "takeaway": "The guidelines treat Highland Meadows Golf Course as a private business or separate district, outside the residential districts and off limits to your project.",
+      "paras": [
+        "Owners along the course can't cut a gate in the district fence, mow the course's native grass or spray broadleaf herbicide on course property; weeds get handled on your side of the line. Nobody may take district fencing down or drive over district landscaping to reach a back yard either, so on a course lot the base rock, turf rolls and equipment come in across your own lot.",
+        "Two more rules shape a course-side design. Drainage has to keep flowing under the district fence, with no landscape material piled against it, which calls for a clean, low edge where turf or rock meets that fence. And views aren't protected: the course can change or add landscaping as it needs, so frame a green or a patio around what sits inside your own lines.",
+        "Beyond the fence is Art Schaupeter's par-71 links layout, built in 2004 and 7,128 yards from the longest tees, with a practice putting green and a chipping area by its range, a fair place to judge green speed before a backyard surface is chosen."
+      ],
+      "layerRefs": [
+        "windsor-co--highland-meadows.dg-golf-course",
+        "windsor-co--highland-meadows.dg-access",
+        "windsor-co--highland-meadows.ada-fence-drainage",
+        "windsor-co--highland-meadows.dg-views",
+        "windsor-co--highland-meadows.course",
+        "windsor-co.highland-meadows-practice"
+      ],
+      "sources": [
+        "https://www.windsorhighlandsmetrodistrict.com/files/035b30d06/WHMD+Guidelines+APPROVED+12-4-2020.pdf",
+        "https://www.windsorhighlandsmetrodistrict.com/files/8167b04c1/WHMD+Architectual+Design+Application+12-31-2025.pdf",
+        "https://www.golfpass.com/travel-advisor/courses/26052-highland-meadows-golf-course",
+        "https://highlandmeadowsgolfcourse.com/practice-facility/"
+      ]
+    },
+    {
+      "kind": "soil",
+      "own": true,
+      "kicker": "Grades and swales",
+      "h2": "Each lot's drainage was set when it was graded, and a turf base has to keep it.",
+      "takeaway": "The guidelines hold every lot to its established drainage; changing it takes an engineered drainage plan the committee reviews.",
+      "paras": [
+        "The recorded Declaration adds two limits that matter under turf. Owners may not install landscaping or anything else that changes the lot's grading from the plans the Town approved, and they should minimize or leave out sprinkler piping and heads within 5 feet of foundation walls and slabs. It also warns that Colorado ground includes expansive and low-density soils. A base that fills or cuts a swale is a grading change, and turf laid along the house is a chance to pull the heads out of that 5-foot band.",
+        "Keep the side-lot drainage easement clear, normally at least 3 feet in from the property line, and don't run drains onto district property. The design application states it plainly: drainage stays the same, or a qualified person signs off on a new plan. The guide [does artificial turf drain](/guides/does-artificial-turf-drain/) covers how water moves through the base."
+      ],
+      "layerRefs": [
+        "windsor-co--highland-meadows.dg-drainage",
+        "windsor-co--highland-meadows.decl-grading-sprinklers",
+        "windsor-co--highland-meadows.ada-fence-drainage"
+      ],
+      "sources": [
+        "https://www.windsorhighlandsmetrodistrict.com/files/035b30d06/WHMD+Guidelines+APPROVED+12-4-2020.pdf",
+        "https://www.windsorhighlandsmetrodistrict.com/files/628d25f70/WHMD+Covenants+Recorded+04-21-04.pdf",
+        "https://www.windsorhighlandsmetrodistrict.com/files/8167b04c1/WHMD+Architectual+Design+Application+12-31-2025.pdf"
+      ]
+    },
+    {
+      "kind": "housing",
+      "own": true,
+      "kicker": "Lots and spacing",
+      "h2": "The typical lot is near 8,760 square feet, and backyard features keep set distances from the lines.",
+      "paras": [
+        "Larimer County's platted-lot map draws 856 numbered lots across the Highland Meadows Golf Course filings: 168 under 5,000 square feet, a median near 8,760 and 275 at 10,000 or more. The recorded Declaration, which allows up to 1,000 lots, defines landscaping as every material covering the ground, so turf, rock and edging all wait on the committee's approval.",
+        "Around a lawn or green, the guidelines place the other pieces. A gas or wood fire pit needs approval and sits at least 15 feet from the property line; play sets go in the rear or side yard, about 5 feet off lot lines and no taller than 10 feet; water features need approval; retaining walls are brick, treated wood, natural stone or similar, never exposed concrete. On a lot near the median, those distances decide where the turf ends and the patio begins."
+      ],
+      "layerRefs": [
+        "windsor-co--highland-meadows.lot-sizes",
+        "windsor-co--highland-meadows.decl-landscaping-defined",
+        "windsor-co--highland-meadows.dg-backyard-spacing",
+        "windsor-co--highland-meadows.dg-walls-features"
+      ],
+      "sources": [
+        "https://maps1.larimer.org/arcgis/rest/services/MapServices/Parcels/MapServer/4",
+        "https://www.windsorhighlandsmetrodistrict.com/files/628d25f70/WHMD+Covenants+Recorded+04-21-04.pdf",
+        "https://www.windsorhighlandsmetrodistrict.com/files/035b30d06/WHMD+Guidelines+APPROVED+12-4-2020.pdf"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "The application",
+      "h2": "Allow a week, expect up to 45 days, and finish inside 9 months.",
+      "takeaway": "The district's welcome letter asks owners to allow at least 7 days for a design review and to have work approved before it starts.",
+      "paras": [
+        "The guidelines set the outer limit: the committee approves or disapproves within 45 days of a complete submission, and silence past that counts as disapproval, not approval. A committee member's stamped or printed note on the plans counts as the written answer. Review fees may apply, with another fee for each round after the second, and an adverse decision can be appealed to the board within 10 days.",
+        "After approval, the documents disagree. The guidelines give a year to finish and let the committee extend it; the application form revised in September 2025 says approved work must be done within 9 months or resubmitted, with fees where required. Plan on the shorter window, and if a project will run long, ask the district in writing for more time before the 9 months are up. The [HOA approval guide](/guides/hoa-turf-approval/) walks through the paperwork."
+      ],
+      "layerRefs": [
+        "windsor-co--highland-meadows.welcome-review-time",
+        "windsor-co--highland-meadows.dg-review-clock",
+        "windsor-co--highland-meadows.dg-landscape-plans",
+        "windsor-co--highland-meadows.dg-completion-year",
+        "windsor-co--highland-meadows.ada-nine-months"
+      ],
+      "sources": [
+        "https://www.windsorhighlandsmetrodistrict.com/files/844818791/WHMD-Welcome-Letter-12-4-2020.pdf",
+        "https://www.windsorhighlandsmetrodistrict.com/files/035b30d06/WHMD+Guidelines+APPROVED+12-4-2020.pdf",
+        "https://www.windsorhighlandsmetrodistrict.com/files/8167b04c1/WHMD+Architectual+Design+Application+12-31-2025.pdf"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does artificial turf count toward the 40% front-yard turf rule in Highland Meadows?",
+      "a": "It depends on the Architectural Control Committee. Section 2.50.3 asks for 40% turf in a single-family front yard's landscapable area, and the rest of the guidelines use turf to mean sprinkler-watered grass. Ask the committee in writing before you plan a synthetic front lawn.",
+      "layerRefs": [
+        "windsor-co--highland-meadows.dg-front-yard-turf",
+        "windsor-co--highland-meadows.dg-irrigation"
+      ]
+    },
+    {
+      "q": "Do the Highland Meadows guidelines mention backyard putting greens?",
+      "a": "No. Putting greens aren't named anywhere in the district's guidelines, so a green goes to the committee as turf under Section 2.9 and as landscaping under the Declaration. Send the plan and the product, and wait for written approval before work starts.",
+      "layerRefs": [
+        "windsor-co--highland-meadows.dg-astro-turf",
+        "windsor-co--highland-meadows.decl-landscaping-defined"
+      ]
+    },
+    {
+      "q": "Can a turf crew reach my back yard from Highland Meadows Golf Course?",
+      "a": "No. Owners along the course may not put a gate in the district fence, and no one may take that fence down or drive across district landscaping to reach a yard, so materials come in through your own lot.",
+      "layerRefs": [
+        "windsor-co--highland-meadows.dg-golf-course",
+        "windsor-co--highland-meadows.dg-access"
+      ]
+    },
+    {
+      "q": "Which rules apply in Country Farms Villages or a sub-HOA?",
+      "a": "Country Farms Villages has its own District No. 7 guidelines, which allow turf in back yards with committee approval, and a sub-HOA such as the patio homes adds its own rules. Where the district's two books differ, ask the Windsor Highlands Metropolitan District which one it applies to your lot.",
+      "layerRefs": [
+        "windsor-co--highland-meadows.cf-astro-turf",
+        "windsor-co--highland-meadows.dg-scope",
+        "windsor-co--highland-meadows.dg-phase-conflict"
+      ]
+    },
+    {
+      "q": "Is my Highland Meadows lawn watered with non-potable water?",
+      "a": "Not the lot itself: the district's application says it has no non-potable lines in residents' yards. Its untreated water serves greenbelts and open spaces, and the Town lists Fort Collins-Loveland Water District as the provider for Windsor homes in Larimer County, so lawn watering shows up on that bill. Country Farms Villages differs: District No. 7 posts a non-potable watering schedule that covers residential lots.",
+      "layerRefs": [
+        "windsor-co--highland-meadows.ada-no-nonpotable",
+        "windsor-co--highland-meadows.dg-nonpotable",
+        "windsor-co--highland-meadows.cf-nonpotable-schedule",
+        "windsor-larimer-side-fclwd"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Windsor Highlands Metropolitan District Nos. 1–10, Architectural Guidelines (approved 12/4/2020): Secs. 1.1, 1.2, 2.9, 2.25, 2.28, 2.33, 2.42, 2.45, 2.46, 2.48, 2.50, 2.58, 2.70, 2.92, 2.113, 2.114, 3.5 to 3.7",
+      "url": "https://www.windsorhighlandsmetrodistrict.com/files/035b30d06/WHMD+Guidelines+APPROVED+12-4-2020.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Windsor Highlands Metropolitan District No. 7, Architectural Country Farm Villages Guidelines (adopted November 11, 2020), Secs. 1.2 and 2.9",
+      "url": "https://www.windsorhighlandsmetrodistrict.com/files/3f82cfb7c/WHMD+Country+Farms+Guidelines+APPROVED+11-11-2020.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Declaration of Covenants, Conditions, and Restrictions for Highland Meadows Golf Course Subdivision (Larimer County Reception No. 2004-0037453, recorded 04/21/2004)",
+      "url": "https://www.windsorhighlandsmetrodistrict.com/files/628d25f70/WHMD+Covenants+Recorded+04-21-04.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Windsor Highlands Metropolitan District, Architectural Design Application (revised 9/22/2025)",
+      "url": "https://www.windsorhighlandsmetrodistrict.com/files/8167b04c1/WHMD+Architectual+Design+Application+12-31-2025.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Windsor Highlands Metro Districts, Welcome Letter (12/4/2020)",
+      "url": "https://www.windsorhighlandsmetrodistrict.com/files/844818791/WHMD-Welcome-Letter-12-4-2020.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Larimer County parcel GIS, Platted Lots layer: Highland Meadows Golf Course filings (856 numbered lots, median about 8,760 sq ft)",
+      "url": "https://maps1.larimer.org/arcgis/rest/services/MapServices/Parcels/MapServer/4",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "GolfPass, Highland Meadows Golf Course course page (par 71, 7,128 yds, Art Schaupeter, 2004)",
+      "url": "https://www.golfpass.com/travel-advisor/courses/26052-highland-meadows-golf-course",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Highland Meadows Golf Course, Practice Facility page",
+      "url": "https://highlandmeadowsgolfcourse.com/practice-facility/",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Town of Windsor, Utility Services by Other Agencies",
+      "url": "https://www.windsorco.gov/998/Utility-Services-by-other-Agencies",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Windsor Highlands Metro District No. 7, Country Farms Non-Potable Watering Schedule (07-17-2025)",
+      "url": "https://www.windsorhighlandsmetrodistrict.com/files/ef790e565/WHMD+%237+Country+Farms+Non-Potable+Watering+Schedule+07-17-2025.pdf",
+      "checked": "2026-09-26"
+    }
+  ],
+  "checked": "2026-09-26",
+  "needsFromBrian": [
+    "Photos from a Highland Meadows job (camera originals, before and after), tagged in src/data/photos.ts with community 'windsor-co--highland-meadows'; the page cannot publish without one taken in the community",
+    "Any turf or putting-green job in Highland Meadows: filing or street area (not the address), month, rough size, lawn or green, and whether the lot backs to the course",
+    "A Windsor Highlands Metropolitan District ADA approval for artificial turf, with the owner's consent to describe it: the product approved, any conditions, and how long the review took",
+    "Whether the district's committee has ruled on artificial turf toward the 40% front-yard turf minimum (Sec. 2.50.3), and what it said",
+    "How materials reached a course-side back yard on a past job (side-yard gate width, any district conditions), if NoCo has worked a lot on the course",
+    "Confirm that NoCo installs backyard putting greens today (services.ts putting-greens is unconfirmed)"
+  ]
+}

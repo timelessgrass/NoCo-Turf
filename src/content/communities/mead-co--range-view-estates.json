@@ -1,0 +1,250 @@
+{
+  "status": "draft",
+  "town": "mead-co",
+  "slug": "range-view-estates",
+  "name": "Range View Estates",
+  "kind": "custom-homes",
+  "governing": {
+    "name": "Range View Estates Metropolitan District",
+    "type": "metro-district",
+    "url": "https://rangeviewestatesmd.live/s/RVEMDCCRsandRangeViewEstatesRecorded02-10-2023.pdf",
+    "layerRefs": [
+      "mead-co--range-view-estates.landscape-plan-artificial-turf",
+      "mead-co--range-view-estates.improvements-written-approval",
+      "mead-co--range-view-estates.arc-45-days",
+      "mead-co--range-view-estates.ada-landscape-plan"
+    ]
+  },
+  "title": "Artificial Turf in Range View Estates, Mead, CO | NoCo Turf Co.",
+  "description": "Range View Estates' covenants name artificial turf on the landscape plan its review committee approves. The 45-day clock, the fees and the capped water line.",
+  "h1": "Range View Estates' covenants put artificial turf on a professionally drawn plan, approved before work starts.",
+  "display": {
+    "paint": "approved before work starts"
+  },
+  "lede": "On these acre lots north of Adams Avenue, the metro district enforces a declaration recorded in 2023, and its committee must approve every change to a yard, sod and synthetic alike. Irrigation comes only from a capped non-potable line, which in 2026 ran on a potable tap because the storage pond was empty.",
+  "answer": {
+    "question": "Can I put artificial turf or a putting green in Range View Estates?",
+    "answer": "Nothing in the covenants bans either, but the district has to approve it first. NoCo Turf Co. installs artificial turf, putting greens and design-led backyards in Range View Estates, Mead, Colorado, where the metro district's Architectural Review Committee must approve a professionally drawn landscape plan showing any artificial turf before work begins, and has 45 days to act."
+  },
+  "blocks": [
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "The landscape plan",
+      "h2": "Artificial turf is one of the things a Range View landscape plan has to show.",
+      "takeaway": "The plan is drawn by a professional, goes to the district's Architectural Review Committee, and is approved before any landscaping starts.",
+      "paras": [
+        "Section 3.12.1 of the recorded declaration lists what the plan must depict: fences, decks, sod, seeded areas, artificial turf, retaining walls, rock, timbers, the sprinkler system and the size and species of every nursery plant, plus a drainage and grading plan that matches the builder's. Plans \"must be submitted and approved PRIOR TO COMMENCEMENT OF LANDSCAPING\" and \"must be prepared by a professional landscape designer/contractor,\" with a review fee and compliance deposit paid at submission.",
+        "Section 2.3.1 reaches past the first install. Nothing may be placed, altered, planted or installed without written approval of complete plans, and the declaration's list of improvements takes in sod, gravel, patios, fences, play structures and exterior light fixtures. A putting green, a turf dog run or a later swap from sod to synthetic reads as an improvement the committee signs off on.",
+        "The declaration lets the district's board adopt an Architectural Control Handbook with Design Guidelines, but the district's Community Resources page listed none on September 26, 2026; it posts the design application and forms instead. Ask the district for any current guidelines before the plan is drawn."
+      ],
+      "layerRefs": [
+        "mead-co--range-view-estates.landscape-plan-artificial-turf",
+        "mead-co--range-view-estates.improvements-written-approval",
+        "mead-co--range-view-estates.handbook-authorized",
+        "mead-co--range-view-estates.no-handbook-posted"
+      ],
+      "sources": [
+        "https://rangeviewestatesmd.live/s/RVEMDCCRsandRangeViewEstatesRecorded02-10-2023.pdf",
+        "https://rangeviewestatesmd.live/community-resources"
+      ]
+    },
+    {
+      "kind": "utility",
+      "own": true,
+      "kicker": "Non-potable water",
+      "h2": "Range View irrigation runs on a capped non-potable line, never the house tap.",
+      "paras": [
+        "Section 7.2 bars potable water for outside irrigation and allows no outside hose bibs on the house except for car washing or winter watering the district approves; hose bibs are allowed off the non-potable system. Section 7.6 gives each lot 0.54 acre-feet, about 175,500 gallons, a year, and every lawn needs an automatic system the committee approves with the landscape plan, professionally designed and installed, with no overspray onto a neighbor's lot.",
+        "The district's 2026 schedule sets the seasonal allocation at 175,000 gallons, closes a lot's valve once it is spent, and gives each lot two 2-hour windows a week by the last digit of its lot number. The system shuts down the first Wednesday of October.",
+        "Synthetic turf and a putting green take none of that allocation, which leaves the gallons for the trees, shrubs and beds the plan still has to carry."
+      ],
+      "layerRefs": [
+        "mead-co--range-view-estates.no-potable-outdoors",
+        "mead-co--range-view-estates.allocation-automatic-irrigation",
+        "mead-co--range-view-estates.schedule-2026"
+      ],
+      "sources": [
+        "https://rangeviewestatesmd.live/s/RVEMDCCRsandRangeViewEstatesRecorded02-10-2023.pdf",
+        "https://rangeviewestatesmd.live/s/RVEMD-NON-POT-SCHEDULE-04-23-2026.pdf"
+      ]
+    },
+    {
+      "kind": "drought",
+      "own": true,
+      "kicker": "The 2026 season",
+      "h2": "In 2026 Range View's storage pond sat empty, and irrigation went to lots already landscaped.",
+      "paras": [
+        "The district's May 27, 2026 update said the non-potable storage pond remained empty with no sign of meaningful inflow, so water was being pushed through the system from a 2-inch potable tap. Irrigation that season was authorized for lots with pre-existing landscaping; the update listed eight properties approved to water, each still held to 175,000 gallons.",
+        "The water rules had planned for a short year. Their March 22, 2024 amendment caps each lot at 12 gallons a minute, limits lots in low-water periods to two nights a week in 2-hour windows, and asks owners to spend that water only on high-value areas such as gardens and trees.",
+        "For a lot still waiting on its first landscape, putting the play lawn and the green in synthetic turf keeps the irrigated area to the planting the district's own rules put first. The committee approves the mix either way."
+      ],
+      "layerRefs": [
+        "mead-co--range-view-estates.pond-empty-2026",
+        "mead-co--range-view-estates.low-water-gardens-trees"
+      ],
+      "sources": [
+        "https://rangeviewestatesmd.live/s/RVEMD-Non-Potable-Water-Update-05-27-2026-swym.pdf",
+        "https://rangeviewestatesmd.live/s/RVEMDWaterRulesandRegulations5-20-24.pdf"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Review clock",
+      "h2": "The committee has 45 days to act, and a request it hasn't approved by then is denied.",
+      "paras": [
+        "Section 2.5 gives the Architectural Review Committee 45 calendar days after a complete submission: \"Failure to approve within forty-five (45) calendar days shall be deemed disapproval.\" An owner may appeal an adverse committee decision to the full board within 10 calendar days. The district's fee schedule of May 20, 2024 charges $250 to review a new, changed or added landscape and $100 for each review after that, while its Design Control Submittal form lists $200 for a modification or later review.",
+        "The finish dates don't line up either. The declaration allows one year from approval, after which the compliance deposit is forfeited, while the design application says approved work must be done within 90 days. For a new home, Section 3.12 wants landscaping in within 180 days if construction ends between April 1 and October 1, or by the next October 1, and the district's status letter says 90 days from closing. It depends on which document the committee applies to your lot, so ask the ARC to put the completion date in writing with the approval."
+      ],
+      "layerRefs": [
+        "mead-co--range-view-estates.arc-45-days",
+        "mead-co--range-view-estates.fees-landscape-review",
+        "mead-co--range-view-estates.design-control-landscape-fee",
+        "mead-co--range-view-estates.completion-one-year",
+        "mead-co--range-view-estates.ada-landscape-plan",
+        "mead-co--range-view-estates.landscape-deadline-180",
+        "mead-co--range-view-estates.status-letter-90-days"
+      ],
+      "sources": [
+        "https://rangeviewestatesmd.live/s/RVEMDCCRsandRangeViewEstatesRecorded02-10-2023.pdf",
+        "https://rangeviewestatesmd.live/s/RVEMD-Fee-and-Fine-Schedule-5-20-2024-2d9h.pdf",
+        "https://rangeviewestatesmd.live/s/RVEMD-Design-Control-and-Exterior-Colors-Submittal-2-page-1-1-2025.pdf",
+        "https://rangeviewestatesmd.live/s/RVEMD-Architectural-Design-Application-1-1-2025-lg7d.pdf",
+        "https://rangeviewestatesmd.live/s/RVEMD-Status-Letter-10-09-2025.pdf"
+      ]
+    },
+    {
+      "kind": "housing",
+      "own": true,
+      "kicker": "Acre lots",
+      "h2": "On Range View's acre lots, a green or play lawn has to keep the drainage and the fence gap.",
+      "paras": [
+        "The declaration covers Lots 1 through 55 on 107.064 acres, more or less, and the developer's February 2024 lot list runs from 1.024 to 1.644 acres a lot. That is room for a putting green, a turf play area and planting beds on one lot, laid out around grading the declaration holds in place.",
+        "Section 3.13.1 has owners keep the slope and pitch set by final grading and take any change to the established drainage to the committee as a plan. The design application adds site rules of its own: keep drainage swales and the side and back lot easements working, leave a 2-to-4-inch gap between fence panels and the ground, keep landscape material off the district fence, and don't take down district fencing or drive across landscaping to get into the yard. Trees go at least 5 feet from property lines and shrubs 3 feet.",
+        "Lighting a green for evening play means Dark Sky lighting, which the application requires for all landscape lights, and Section 3.8 bars light that is unreasonably bright or throws unreasonable glare."
+      ],
+      "layerRefs": [
+        "mead-co--range-view-estates.lots-55-107-acres",
+        "mead-co--range-view-estates.lot-sizes-booklet",
+        "mead-co--range-view-estates.drainage-3-13",
+        "mead-co--range-view-estates.ada-drainage-fence",
+        "mead-co--range-view-estates.ada-landscape-plan",
+        "mead-co--range-view-estates.light-3-8"
+      ],
+      "sources": [
+        "https://rangeviewestatesmd.live/s/RVEMDCCRsandRangeViewEstatesRecorded02-10-2023.pdf",
+        "https://www.haydenoutdoors.com/wp-content/uploads/2024/02/Rangeview-Promotional-Booklet-NO-LOTS-2024_compressed.pdf",
+        "https://rangeviewestatesmd.live/s/RVEMD-Architectural-Design-Application-1-1-2025-lg7d.pdf"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is artificial turf allowed in Range View Estates?",
+      "a": "Nothing in the recorded declaration bans it. Section 3.12.1 names artificial turf among the things a landscape plan must depict, so it is reviewed the way sod or rock is: drawn on a professional's plan and approved by the Architectural Review Committee before it goes in.",
+      "layerRefs": [
+        "mead-co--range-view-estates.landscape-plan-artificial-turf"
+      ]
+    },
+    {
+      "q": "Does Colorado's backyard-turf law reach Range View's covenants?",
+      "a": "The declaration says it does not create a common interest community and is not governed by the Colorado Common Interest Ownership Act, the act that holds the state's HOA turf rule. Colorado has a separate rule for special districts and restrictive covenants, printed with the state rule on this page. How either applies to a lot here is a question for the district or an attorney.",
+      "layerRefs": [
+        "mead-co--range-view-estates.declaration-not-ccioa",
+        "co-hoa-backyard-detached",
+        "co-special-district-backyard"
+      ]
+    },
+    {
+      "q": "Can I rinse a turf dog area with a hose in Range View Estates?",
+      "a": "It depends. Hose bibs are allowed off the non-potable system, but the declaration calls that water unfit to drink, has owners keep animals from harmful exposure to it, and the water rules provide it for the sole use of irrigating landscaping. Potable outside hose bibs are barred except for car washing or winter watering the district approves, so ask the district how a turf dog area may be rinsed.",
+      "layerRefs": [
+        "mead-co--range-view-estates.no-potable-outdoors",
+        "mead-co--range-view-estates.non-potable-animals",
+        "mead-co--range-view-estates.water-rules-sole-use"
+      ]
+    },
+    {
+      "q": "Does a backyard putting green use any of a Range View lot's water allocation?",
+      "a": "A synthetic green takes no irrigation, so it draws nothing from the 175,000-gallon season. The beds and trees around it still water from that allocation, through the automatic system the committee approves with the landscape plan.",
+      "layerRefs": [
+        "mead-co--range-view-estates.schedule-2026",
+        "mead-co--range-view-estates.allocation-automatic-irrigation"
+      ]
+    },
+    {
+      "q": "How do I submit a Range View landscape or putting-green plan?",
+      "a": "On the district's Architectural Design Application, marked as new or upgraded landscaping, with plans showing each plant's species, size and location against the lot line and the home. The district keeps no office on site, so the application and plans go in by email.",
+      "layerRefs": [
+        "mead-co--range-view-estates.ada-landscape-plan"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Declaration of Covenants, Conditions, Restrictions and Easements for Range View Estates and Range View Estates Metropolitan District (Weld County Reception 4881220, recorded 02/10/2023)",
+      "url": "https://rangeviewestatesmd.live/s/RVEMDCCRsandRangeViewEstatesRecorded02-10-2023.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Range View Estates Metropolitan District, Community Resources page",
+      "url": "https://rangeviewestatesmd.live/community-resources",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Range View Estates Metropolitan District, Architectural Design Application (1/1/2025)",
+      "url": "https://rangeviewestatesmd.live/s/RVEMD-Architectural-Design-Application-1-1-2025-lg7d.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Range View Estates Metropolitan District, Fee & Fine Schedule (5/20/2024)",
+      "url": "https://rangeviewestatesmd.live/s/RVEMD-Fee-and-Fine-Schedule-5-20-2024-2d9h.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Range View Estates Metropolitan District, Design Control Submittal and Exterior Colors form (1-1-25)",
+      "url": "https://rangeviewestatesmd.live/s/RVEMD-Design-Control-and-Exterior-Colors-Submittal-2-page-1-1-2025.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Range View Estates Metropolitan District, Status Letter form (file dated 10-09-2025)",
+      "url": "https://rangeviewestatesmd.live/s/RVEMD-Status-Letter-10-09-2025.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Range View Estates Metropolitan District, Homeowner Non-Potable Watering & Irrigation Schedule (effective April 30, 2026)",
+      "url": "https://rangeviewestatesmd.live/s/RVEMD-NON-POT-SCHEDULE-04-23-2026.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Range View Estates Metropolitan District, Non-Potable Water Update (May 27, 2026)",
+      "url": "https://rangeviewestatesmd.live/s/RVEMD-Non-Potable-Water-Update-05-27-2026-swym.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Range View Estates Metropolitan District, Water Rules and Regulations with First Amendment (March 22, 2024; adopted May 20, 2024)",
+      "url": "https://rangeviewestatesmd.live/s/RVEMDWaterRulesandRegulations5-20-24.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Hayden Outdoors, Range View Estates promotional booklet (lot list last updated Feb. 2024)",
+      "url": "https://www.haydenoutdoors.com/wp-content/uploads/2024/02/Rangeview-Promotional-Booklet-NO-LOTS-2024_compressed.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "C.R.S. 38-33.3-106.5(1)(i.5) and 37-60-126(11)(a.5), added by SB23-178 (signed act)",
+      "url": "https://leg.colorado.gov/bill_files/92307/download",
+      "checked": "2026-09-26"
+    }
+  ],
+  "checked": "2026-09-26",
+  "needsFromBrian": [
+    "Any Range View Estates job you have done: lot or street, month, what went in (turf, putting green, play or dog area), rough size",
+    "Camera-original photos of a Range View Estates job for src/data/photos.ts, tagged community: 'mead-co--range-view-estates' or with Range View Estates in its place (a photo from elsewhere in Mead does not pass the gate)",
+    "Any Range View Estates Metropolitan District ARC approval you have handled for turf or a green: fee paid, days to approval, conditions attached",
+    "Whether the district hands out design guidelines (an Architectural Control Handbook) that it does not post online",
+    "Which completion deadline the ARC actually applies: one year (declaration Sec. 2.7) or 90 days (design application)",
+    "Whether the district has let a Range View owner rinse pet turf from a potable hose bib in winter"
+  ]
+}

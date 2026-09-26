@@ -1,0 +1,492 @@
+[
+  {
+    "id": "mead-co--range-view-estates.declaration-district-enforces",
+    "layer": "housing",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "The Declaration of Covenants, Conditions, Restrictions and Easements for Range View Estates, recorded in Weld County on February 10, 2023, is enforced by the Range View Estates Metropolitan District, which also provides design review under it.",
+    "quote": "the Range View Estates Metropolitan District (the “Metropolitan District” or “District” as hereinafter more fully defined) were organized under the laws of the State of Colorado pursuant to the Service Plan for Range View Estates Metropolitan District approved by the Town of Mead on March 10, 2014, by Resolution 4-R-2014 (the “Service Plan”), which the District, and specifically Range View Estates Metropolitan District which will specifically include single family residential lots, shall, pursuant to Section 32-1-1004(8) of the Colorado Revised Statutes, enforce the covenants, conditions, restrictions, easements, and provide design review services as set forth herein",
+    "source_url": "https://rangeviewestatesmd.live/s/RVEMDCCRsandRangeViewEstatesRecorded02-10-2023.pdf",
+    "source_label": "Declaration of Covenants, Conditions, Restrictions and Easements for Range View Estates and Range View Estates Metropolitan District, Weld County Reception 4881220, recorded 02/10/2023 (recitals, p. 4)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "10",
+      "2023",
+      "2014"
+    ],
+    "notes": "Scanned PDF (35 pages); read 2026-09-26 by rendering each page and OCR, key sections checked against the page images. DOLA's special-district file lists the district as LGID 66486, formed 2014-06-04."
+  },
+  {
+    "id": "mead-co--range-view-estates.declaration-not-ccioa",
+    "layer": "housing",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "The Range View Estates declaration states that it does not create a common interest community and that its covenants are not governed by the Colorado Common Interest Ownership Act.",
+    "quote": "WHEREAS, this Declaration does not create a Common Interest Community, as defined by the Colorado Common Interest Ownership Act at C.R.S. §38-33.3-103(8), as amended; therefore, this Declaration and its Covenants shall not be governed by the Colorado Common Interest Ownership Act or any provisions thereof.",
+    "source_url": "https://rangeviewestatesmd.live/s/RVEMDCCRsandRangeViewEstatesRecorded02-10-2023.pdf",
+    "source_label": "Range View Estates declaration, Weld County Reception 4881220 (recitals, p. 5)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Checked against the page image. The state HOA turf rule (co-hoa-backyard-detached) sits in CCIOA; the special-district and restrictive-covenant rule (co-special-district-backyard) is in C.R.S. 37-60-126. Which reaches a Range View lot is left to the district or counsel in copy."
+  },
+  {
+    "id": "mead-co--range-view-estates.landscape-plan-artificial-turf",
+    "layer": "housing",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "Range View Estates' declaration requires a landscaping plan, prepared by a professional landscape designer or contractor and submitted with a review fee and compliance deposit, that shows any artificial turf and is approved by the Architectural Review Committee before landscaping starts.",
+    "quote": "For any Lot an additional review fee and compliance deposit must be paid to the ARC with submission of a landscaping plan as set forth in the Guidelines, and amended from time to time. Landscaping plans may be submitted with the construction drawings but must be submitted and approved PRIOR TO COMMENCEMENT OF LANDSCAPING. Plans must depict fences, decks, sod, seeded areas, artificial turf, retaining walls, rock, timbers, sprinkler system, sizes and species of nursery materials, and include a drainage and grading plan that coincides with the builder’s plan, and shows any Improvements or alterations thereto. Landscape plans must be prepared by a professional landscape designer/contractor.",
+    "source_url": "https://rangeviewestatesmd.live/s/RVEMDCCRsandRangeViewEstatesRecorded02-10-2023.pdf",
+    "source_label": "Range View Estates declaration, Weld County Reception 4881220, Sec. 3.12.1 Landscaping Plans (p. 18)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Checked against the page image of p. 18."
+  },
+  {
+    "id": "mead-co--range-view-estates.improvements-written-approval",
+    "layer": "housing",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "Nothing may be built, placed, planted or installed on a Range View Estates lot until the Architectural Review Committee approves complete plans in writing, and the declaration counts landscaping, sod, gravel, patios, fences, play structures and exterior lights as improvements.",
+    "quote": "No Improvements shall be constructed, erected, placed, altered, planted, applied or installed upon any Lot unless said Improvements are in full compliance with the provisions of the Project Documents and unless complete plans and specifications have been first submitted to and approved in writing by the ARC. … shall mean and include the following: (a) the construction, installation, alteration, demolition in whole or in part, or expansion of any exterior improvement, building, structure, appurtenance, or other improvements, including, but not limited to, buildings, outbuildings including Accessory Dwelling Units (ADUs), swimming pools, tennis courts, patios, … fences, including gates in fences, basketball backboards and hoops, swing-sets or other play structures, screening walls, retaining walls, stairs, decks, exterior light fixtures … (c) all initial planting of and subsequent material modifications to landscaping, hedges, windbreaks, berming, plantings, trees, shrubs, flowers, vegetables, sod, gravel, bark, and all planting, clearing or removing of trees, shrubs, grass or perennial plants",
+    "source_url": "https://rangeviewestatesmd.live/s/RVEMDCCRsandRangeViewEstatesRecorded02-10-2023.pdf",
+    "source_label": "Range View Estates declaration, Weld County Reception 4881220, Sec. 2.3.1 and Sec. 1.1.15 (pp. 7, 9)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "mead-co--range-view-estates.handbook-authorized",
+    "layer": "housing",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "Range View Estates' declaration lets the metro district's board adopt an Architectural Control Handbook with Design Guidelines that may set submission requirements and list improvements that need no committee approval.",
+    "quote": "The Governing Board of the Metropolitan District is authorized to promulgate design and/or architectural standards, rules, regulations and/or guidelines (collectively the Architectural Control Handbook with Design Guidelines, hereinafter referred to as “Guidelines”). … such Guidelines may contain provisions to clarify the designs and materials that may be considered in design approval, may state requirements for submissions, may state procedural requirements, or may specify acceptable Improvement(s) that may be installed without the prior approval of the ARC.",
+    "source_url": "https://rangeviewestatesmd.live/s/RVEMDCCRsandRangeViewEstatesRecorded02-10-2023.pdf",
+    "source_label": "Range View Estates declaration, Weld County Reception 4881220, Sec. 2.4 Guidelines (p. 10)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "mead-co--range-view-estates.no-handbook-posted",
+    "layer": "housing",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "When checked on September 26, 2026, the Range View Estates Metropolitan District's Community Resources page listed its covenants, water rules, fee schedule, design application, exterior design form, fencing and construction-trash guidelines, but no design guidelines handbook.",
+    "quote": "Range View Estates Covenants, Condition, and Restrictions (CCRs) … Range View Estates Water (Potable and Non-potable) … Range View Estates Fee and Fine Schedule … Range View Estates FAQs … Range View Estates Architectural Design Application … Range View Estates Design Control for Exterior … Range View Estates Construction Trash Guidelines … Range View Estates Approved Fencing and Stain",
+    "source_url": "https://rangeviewestatesmd.live/community-resources",
+    "source_label": "Range View Estates Metropolitan District, Community Resources page (read 2026-09-26)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "26",
+      "2026"
+    ],
+    "notes": "A negative finding: the district's governance, FAQ and non-potable pages were also read; none posts an Architectural Control Handbook or design guidelines. The design application tells owners 'Landscape Design Standards or Guidelines should be followed' without linking any."
+  },
+  {
+    "id": "mead-co--range-view-estates.arc-45-days",
+    "layer": "housing",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "Range View Estates' Architectural Review Committee must act within 45 calendar days of a complete submission, a request not approved in that time is deemed disapproved, and an owner has 10 calendar days to appeal an adverse decision.",
+    "quote": "The ARC shall approve or disapprove all requests for approval within forty-five (45) calendar days after the complete submission of all plans, specifications, and other materials and information which the ARC may require in conjunction therewith. … Failure to approve within forty-five (45) calendar days shall be deemed disapproval. … In the event the ARC decides a request for architectural approval that is adverse to the applicant, then the applicant shall have the right to an appeal of such decision to the full Governing Board, upon a written request therefor submitted to the Governing Board within ten (10) calendar days after such decision by the ARC.",
+    "source_url": "https://rangeviewestatesmd.live/s/RVEMDCCRsandRangeViewEstatesRecorded02-10-2023.pdf",
+    "source_label": "Range View Estates declaration, Weld County Reception 4881220, Sec. 2.5 Procedures and Sec. 2.6 Voting and Appeals (pp. 10-11)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "45",
+      "10"
+    ]
+  },
+  {
+    "id": "mead-co--range-view-estates.completion-one-year",
+    "layer": "housing",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "The Range View Estates declaration treats an approved improvement not finished within one year of approval as noncompliance and makes the compliance deposit non-refundable, though the committee may extend the time.",
+    "quote": "Failure to complete the proposed Improvement within one (1) year after the date of approval of the application or to complete the Improvement in complete conformance with the conditions and requirements of the approval shall constitute noncompliance and the compliance deposit shall become non-refundable; provided, however, the ARC, in its sole discretion, may grant extensions of time for completion of any proposed Improvements and proportional amounts of compliance deposit redemption.",
+    "source_url": "https://rangeviewestatesmd.live/s/RVEMDCCRsandRangeViewEstatesRecorded02-10-2023.pdf",
+    "source_label": "Range View Estates declaration, Weld County Reception 4881220, Sec. 2.7 Prosecution of Work after Approval (p. 11)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1"
+    ]
+  },
+  {
+    "id": "mead-co--range-view-estates.landscape-deadline-180",
+    "layer": "housing",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "Range View Estates' declaration has an owner landscape every part of the lot not covered by a building, fence or other structure within 180 days of finishing construction if it finishes between April 1 and October 1, and otherwise by the following October 1.",
+    "quote": "the Owner (other than the Declarant, or a builder with the express written approval of the Declarant) of each Lot shall install landscaping on all portions of the Lot not covered or enclosed by a building, fence or other structure … shall install landscaping on such Lot within one hundred eighty (180) calendar days after the completion of construction of Improvements on such Lot by such Owner if said completion occurs between April 1 and October 1; if said completion does not occur between such dates, then such landscaping shall be installed by such Owner by the following October 1st.",
+    "source_url": "https://rangeviewestatesmd.live/s/RVEMDCCRsandRangeViewEstatesRecorded02-10-2023.pdf",
+    "source_label": "Range View Estates declaration, Weld County Reception 4881220, Sec. 3.12 Completion of Landscaping (p. 18)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "180",
+      "1"
+    ]
+  },
+  {
+    "id": "mead-co--range-view-estates.status-letter-90-days",
+    "layer": "housing",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "The Range View Estates Metropolitan District's status letter for home closings says all landscape and fencing is to be completed within 90 days of closing on a lot with a home.",
+    "quote": "Architectural Design Application is to be filled out for any exterior projects, see guidelines for Landscape Requirements, all landscape and fencing to be completed within 90 days of a closing of a lot with a home",
+    "source_url": "https://rangeviewestatesmd.live/s/RVEMD-Status-Letter-10-09-2025.pdf",
+    "source_label": "Range View Estates Metropolitan District, Status Letter form (file dated 10-09-2025)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "90"
+    ],
+    "notes": "Conflicts with Sec. 3.12 of the recorded declaration (180 days or the following October 1). Copy says so and sends owners to the ARC."
+  },
+  {
+    "id": "mead-co--range-view-estates.ada-landscape-plan",
+    "layer": "housing",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "The district's Architectural Design Application of January 1, 2025 asks for landscape plans showing each plant's species, size and location, keeps trees at least 5 feet and shrubs at least 3 feet from property lines, requires Dark Sky landscape lighting and says approved work must be finished within 90 days of approval.",
+    "quote": "Please indicate the type of improvement: (Mark with X) ____ NEW LANDSCAPING ____ UPGRADE LANDSCAPING … Scan/e-mail to the office; No onsite office. … Landscape lighting with Dark Sky” principles are required on all homes. … Landscape projects; Submit landscape plans/drawings showing the species or common name, size, shape, height, color, and materials of the proposed landscaping. It is especially important to include the location of any landscape in relation to the lot line and the home. Keeping in mind, trees should be at least 5 feet from the property lines and shrubs at least 3 feet from property lines. … Approved work must be completed within 90 days of approval.",
+    "source_url": "https://rangeviewestatesmd.live/s/RVEMD-Architectural-Design-Application-1-1-2025-lg7d.pdf",
+    "source_label": "Range View Estates Metropolitan District, Architectural Design Application (1/1/2025)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "2025",
+      "5",
+      "3",
+      "90"
+    ],
+    "notes": "The 90-day completion conflicts with Sec. 2.7 of the recorded declaration (one year). The form also carries the district's phone and email, which copy does not repeat."
+  },
+  {
+    "id": "mead-co--range-view-estates.ada-drainage-fence",
+    "layer": "housing",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "The district's design application has owners keep drainage swales and easements working when they change a yard, leave a 2-to-4-inch gap under fence panels, keep landscape material off the district fence, and not remove district fencing or drive on landscaping to reach the yard.",
+    "quote": "The applicant agrees to maintain proper drainage swales on the lot when making any lot/landscape improvements, while keeping in mind the side lot & back lot drainage easements and setbacks, and all utility easements in the lot. Drainage should remain the same or have qualified people sign off on a new drainage plan. … Keep proper drainage flows under all fences, a 2-to-4-inch space between the fence panels and ground, do not pile landscape material onto District fence. … Removal of RVEMD fencing or driving on landscaping is not allowed for access to yard.",
+    "source_url": "https://rangeviewestatesmd.live/s/RVEMD-Architectural-Design-Application-1-1-2025-lg7d.pdf",
+    "source_label": "Range View Estates Metropolitan District, Architectural Design Application (1/1/2025)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "4"
+    ]
+  },
+  {
+    "id": "mead-co--range-view-estates.fees-landscape-review",
+    "layer": "housing",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "The Range View Estates Metropolitan District's fee schedule of May 20, 2024 charges $250 to review any new, changed or added landscape and $100 for each review after that, and $600 for the non-potable water season from May through mid-October.",
+    "quote": "RVEMD Fee & Fine Schedule: All fees subject to change 5/20/2024 … Non-Potable Water season Fee (May through Mid-October) $600.00 Invoiced Bi-Annually … ACC Review fee for any new ,change, add on of any landscape $250.00 $100.00 $100.00 $100.00 $100.00 Each Time",
+    "source_url": "https://rangeviewestatesmd.live/s/RVEMD-Fee-and-Fine-Schedule-5-20-2024-2d9h.pdf",
+    "source_label": "Range View Estates Metropolitan District, Fee & Fine Schedule (5/20/2024)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "20",
+      "2024",
+      "250",
+      "100",
+      "600",
+      "5/20"
+    ],
+    "notes": "Table row flattened; the columns are 1st, 2nd, 3rd, 4th and thereafter reviews."
+  },
+  {
+    "id": "mead-co--range-view-estates.design-control-landscape-fee",
+    "layer": "housing",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "The district's Design Control Submittal form of January 1, 2025 lists a $250 initial review fee for landscape and fencing plans and $200 for a modification or later review.",
+    "quote": "Landscape & Fencing Plans: (Email PDF’s) $250 Initial Review Fee; $200 Modification/Subsequent Review Site/Landscape Plan showing the location and type of trees & shrubs; fencing; berms; fountains; or ponds; terracing; retaining walls; decorative features; lighting with Dark Sky” principals, etc.",
+    "source_url": "https://rangeviewestatesmd.live/s/RVEMD-Design-Control-and-Exterior-Colors-Submittal-2-page-1-1-2025.pdf",
+    "source_label": "Range View Estates Metropolitan District, Design Control Submittal and Exterior Colors form (1-1-25)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "2025",
+      "250",
+      "200"
+    ],
+    "notes": "Conflicts with the fee schedule and the design application ($100 for a later review). The colors page of this form names another community in its heading, a sign it was adapted from another district's form."
+  },
+  {
+    "id": "mead-co--range-view-estates.no-potable-outdoors",
+    "layer": "utility",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "Range View Estates' declaration bars potable water for outdoor irrigation and allows no outside hose bibs on the houses except for car washing or winter watering approved by the district, while hose bibs are allowed off the non-potable system.",
+    "quote": "Owners living within the boundaries of the Districts shall be required to utilize the Non-Potable Water System and abide by the Range View Estates Rules and Regulations, as amended. No Potable Water may be used for outside irrigation and no outside hose bibs shall be allowed on any of the houses or other buildings in the Range View development except for car washing or winter watering (upon application and approval of the District and/or the Declarant). Hose bibs will be allowed off the Non-Potable System.",
+    "source_url": "https://rangeviewestatesmd.live/s/RVEMDCCRsandRangeViewEstatesRecorded02-10-2023.pdf",
+    "source_label": "Range View Estates declaration, Weld County Reception 4881220, Sec. 7.2 Outdoor Watering (p. 29)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "mead-co--range-view-estates.non-potable-animals",
+    "layer": "utility",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "Range View Estates' declaration says the non-potable water is not fit for human consumption, has animal owners keep animals from drinking it or being exposed to it in a harmful way, and releases the district from claims over any use other than irrigating landscaping.",
+    "quote": "Non-potable water is not fit for human consumption. Owners should take appropriate precautions to prevent any person from drinking non-potable irrigation water or otherwise making use of such water which may be damaging to a person’s health. To the extent such water may be harmful to animals, the owner or keeper of such animals shall take appropriate precautions to prevent any animal from drinking the non-potable irrigation water or otherwise exposing the animal to such water in a manner which would be damaging to the animal’s health. Neither Declarant nor the Metropolitan District shall be liable for any claims resulting from the use of the non-potable irrigation water for any purpose other than the irrigation of landscaping",
+    "source_url": "https://rangeviewestatesmd.live/s/RVEMDCCRsandRangeViewEstatesRecorded02-10-2023.pdf",
+    "source_label": "Range View Estates declaration, Weld County Reception 4881220, Sec. 7.3 Disclaimer and Non-Potable Water Disclosure (p. 29)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Checked against the page image of p. 29."
+  },
+  {
+    "id": "mead-co--range-view-estates.water-rules-sole-use",
+    "layer": "utility",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "Range View Estates' water rules say the district provides its non-potable water for the sole use of irrigating landscaping.",
+    "quote": "It is currently contemplated that irrigation water under this Article IV is being provided by RVEMD for the sole use of irrigating landscaping of all irrigable areas within the Property.",
+    "source_url": "https://rangeviewestatesmd.live/s/RVEMDWaterRulesandRegulations5-20-24.pdf",
+    "source_label": "Range View Estates Metropolitan District Water Rules and Regulations (effective October 20, 2022, as amended May 20, 2024), Art. IV Use of Irrigation Water Systems",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Checked against the page image."
+  },
+  {
+    "id": "mead-co--range-view-estates.allocation-automatic-irrigation",
+    "layer": "utility",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "Each Range View Estates lot is allocated 0.54 acre-feet of non-potable water a year, about 175,500 gallons, and every lawn needs an automatic irrigation system that the district's committee approves with the landscape plan and that is professionally designed and installed.",
+    "quote": "Each lot is allocated .54 Acre Feet of water per year which is approximately 175,500 gallons per year. Specific Primary and Shoulder Irrigation watering allocations are summarized in Exhibit C of this document. All lawns shall have an automatic irrigation system approved by the Architectural Control Committee for the District and shall be submitted in conjunction with the landscape plan. No underground manual irrigation system will be approved. All irrigation must be professionally designed and installed. Overspray from irrigation systems shall not encroach onto other properties.",
+    "source_url": "https://rangeviewestatesmd.live/s/RVEMDCCRsandRangeViewEstatesRecorded02-10-2023.pdf",
+    "source_label": "Range View Estates declaration, Weld County Reception 4881220, Sec. 7.6 Irrigation Water Limitations Per Year (p. 30)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "0.54",
+      "54",
+      "175,500"
+    ],
+    "notes": "Checked against the page image. Exhibit C is not attached to the recorded copy the district posts."
+  },
+  {
+    "id": "mead-co--range-view-estates.potable-82000",
+    "layer": "utility",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "Range View Estates' declaration allows 82,000 gallons of potable water a year for indoor use, adds a surcharge above that, and lets the district turn off a lot's non-potable access if outdoor watering is noticed after the allocation is exceeded.",
+    "quote": "You may use 82,000 gallons of potable water per year (In door consumption), generally sufficient for bathing, cooking, cleaning in the home. If you go over the 82,000 gallons of potable water before the end of the calendar year, a significant surcharge will be applied to all potable water use for the remainder of the year. If the annual allocation is exceeded, the District may enforce the covenant against outside watering if the watering is noticed and turn off the non-potable water system access for that residential unit.",
+    "source_url": "https://rangeviewestatesmd.live/s/RVEMDCCRsandRangeViewEstatesRecorded02-10-2023.pdf",
+    "source_label": "Range View Estates declaration, Weld County Reception 4881220, Sec. 8.1 Limitations on Potable Water Usage Per Year (p. 30)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "82,000"
+    ]
+  },
+  {
+    "id": "mead-co--range-view-estates.schedule-2026",
+    "layer": "utility",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "Range View Estates' 2026 non-potable watering schedule, effective April 30, 2026, gives each lot a 175,000-gallon seasonal allocation, closes the lot's valve for the rest of the season once it is used, and assigns each lot two 2-hour watering windows a week by the last digit of its lot number.",
+    "quote": "Homeowner Non-Potable Watering & Irrigation Schedule Effective: April 30, 2026 Seasonal Allocation per Lot: 175,000 GAL Once the allocation is exhausted, the valve will be shut off for the remainder of the season. … Lot Ending 0 8:00 PM – 10:00 PM Monday & Thursday … Potable water is not permitted for use on outdoor landscaping. … System shutdown occurs on the 1st Wednesday of October.",
+    "source_url": "https://rangeviewestatesmd.live/s/RVEMD-NON-POT-SCHEDULE-04-23-2026.pdf",
+    "source_label": "Range View Estates Metropolitan District, Homeowner Non-Potable Watering & Irrigation Schedule (effective April 30, 2026)",
+    "effective": "2026-04-30",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-05-15",
+    "numbers": [
+      "30",
+      "2026",
+      "175,000",
+      "0",
+      "8",
+      "10",
+      "1",
+      "2"
+    ],
+    "notes": "A season's schedule: re-check when the 2027 schedule posts. Earlier district documents give other shutdown dates (the welcome letter the third Wednesday, the 10-2-25 recommendations the second)."
+  },
+  {
+    "id": "mead-co--range-view-estates.pond-empty-2026",
+    "layer": "drought",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "In a May 27, 2026 update, the Range View Estates Metropolitan District said its non-potable storage pond was empty, that it was running the system from a 2-inch potable tap, and that irrigation that season was authorized for lots with pre-existing landscaping, listing eight properties approved to water.",
+    "quote": "The storage pond remains empty, and we have no indication it will receive meaningful inflow this season. … The District has brought the pumphouse online using the 2-inch freshwater tap, pushing water directly through the distribution system without relying on the storage pond. … Irrigation service this season is authorized for lots in RVEMD with pre-existing landscaping. The following properties are approved to water: … Each lot is allocated 175,000 gallons for the season. Once that allocation is reached, the valve will be shut off for the remainder of the season. Please note that this is potable water, not the river and ditch water the system typically runs on.",
+    "source_url": "https://rangeviewestatesmd.live/s/RVEMD-Non-Potable-Water-Update-05-27-2026-swym.pdf",
+    "source_label": "Range View Estates Metropolitan District, Non-Potable Water Update (May 27, 2026)",
+    "effective": "2026-05-27",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-05-15",
+    "numbers": [
+      "27",
+      "2026",
+      "2",
+      "175,000"
+    ],
+    "notes": "The list names eight properties by street address (four 'Turf & Drip', four 'Drip Only'); addresses are not copied. The district's non-potable page still carried this update on 2026-09-26."
+  },
+  {
+    "id": "mead-co--range-view-estates.low-water-gardens-trees",
+    "layer": "utility",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "The First Amendment to Range View Estates' water rules, dated March 22, 2024, caps each lot at 12 gallons a minute, limits lots in low-water periods to two nights a week in 2-hour windows, and encourages owners to use that water only for high-value areas such as gardens and trees.",
+    "quote": "Lots are restricted to max flows of 12 GPM, the common space has been designed with max zone flows of 80GPM. … Lots will be restricted to running 2 nights a week each, up to 6 lots at a time, with a total flow of 72 GPM. Watering windows will be restricted to 2 hours, encouraging lot owners to adjust their controllers to the restricted watering schedule. … Lot owners will be encouraged to space their water use out over the season, and use it only for high value areas such as gardens and trees.",
+    "source_url": "https://rangeviewestatesmd.live/s/RVEMDWaterRulesandRegulations5-20-24.pdf",
+    "source_label": "Range View Estates Metropolitan District Water Rules and Regulations, First Amendment dated March 22, 2024 (adopted by resolution May 20, 2024)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "22",
+      "2024",
+      "12",
+      "80",
+      "2",
+      "6",
+      "72"
+    ],
+    "notes": "Scanned PDF read by OCR. The same amendment's normal-period rule is 8 hours a night, 3 nights a week."
+  },
+  {
+    "id": "mead-co--range-view-estates.lots-55-107-acres",
+    "layer": "place",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "The Range View Estates declaration covers Lots 1 through 55 of the Range View Estates plat recorded August 6, 2009, a parcel of about 107.064 acres in the Town of Mead.",
+    "quote": "Lots 1 through 55, Tracts A., B, K, N, O, Q and the associated Right of Way of Range View Estates as recorded August 6, 2009 at Reception No. 3640933 of the Weld County Clerk and Recorder … Property contains 4,663,721 Square Feet or 107.064 Acres more or less.",
+    "source_url": "https://rangeviewestatesmd.live/s/RVEMDCCRsandRangeViewEstatesRecorded02-10-2023.pdf",
+    "source_label": "Range View Estates declaration, Weld County Reception 4881220, Exhibit A legal description (p. 35)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "55",
+      "6",
+      "2009",
+      "4,663,721",
+      "107.064"
+    ],
+    "notes": "An online land listing speaks of 73 lots on 164 acres; the recorded declaration's 55 lots are used."
+  },
+  {
+    "id": "mead-co--range-view-estates.lot-sizes-booklet",
+    "layer": "housing",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "The developer's February 2024 lot list for Range View Estates gives lot sizes from 1.024 acres to 1.644 acres.",
+    "quote": "Range View Estates offers oversized lots that are approximately 1 acre + … LOT STATUS ACRES … Lot 11 Available 1.644 … Lot 26 Available 1.024 … Pricing List last updated Feb. 2024",
+    "source_url": "https://www.haydenoutdoors.com/wp-content/uploads/2024/02/Rangeview-Promotional-Booklet-NO-LOTS-2024_compressed.pdf",
+    "source_label": "Hayden Outdoors, Range View Estates promotional booklet (lot list last updated Feb. 2024)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "11",
+      "1.644",
+      "26",
+      "1.024",
+      "2024"
+    ],
+    "notes": "A sales booklet: lot sizes only; its prices and sales language are not used."
+  },
+  {
+    "id": "mead-co--range-view-estates.drainage-3-13",
+    "layer": "housing",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "Range View Estates owners must keep their lot's grading at the slope and pitch set by final grading and may change the established drainage only with a plan the Architectural Review Committee approves.",
+    "quote": "Each Owner shall maintain the grading upon his Lot (including grading around the building foundation) at the slope and pitch fixed by the final grading thereof, including landscaping and maintenance of the slopes, so as to maintain the established drainage. Each Owner agrees that he will not in any way interfere with the established drainage pattern over his Lot. In the event that it is necessary or desirable to change the established drainage over any Lot, then the Owner thereof shall submit a plan to the ARC for its review and approval",
+    "source_url": "https://rangeviewestatesmd.live/s/RVEMDCCRsandRangeViewEstatesRecorded02-10-2023.pdf",
+    "source_label": "Range View Estates declaration, Weld County Reception 4881220, Sec. 3.13.1 (p. 18)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "mead-co--range-view-estates.light-3-8",
+    "layer": "housing",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "Range View Estates' declaration bars light that is unreasonably bright or causes unreasonable glare, and any annoying light that can be seen from any lot.",
+    "quote": "No light shall be emitted which is unreasonably bright or causes unreasonable glare; no sound shall be emitted which is unreasonably loud or annoying; and no odor shall be permitted which is noxious or offensive to others. Further, no annoying light, sound or odor shall be permitted which may be seen, heard or smelled from any Lot.",
+    "source_url": "https://rangeviewestatesmd.live/s/RVEMDCCRsandRangeViewEstatesRecorded02-10-2023.pdf",
+    "source_label": "Range View Estates declaration, Weld County Reception 4881220, Sec. 3.8 No Annoying Light, Sounds or Odors (p. 17)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  }
+]

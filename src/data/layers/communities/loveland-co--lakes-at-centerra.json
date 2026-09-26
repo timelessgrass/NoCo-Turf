@@ -1,0 +1,444 @@
+[
+  {
+    "id": "loveland-co--lakes-at-centerra.artificial-turf-45",
+    "layer": "place",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "The Lakes at Centerra's homeowner guidelines permit artificial turf, reviewed case by case, on no more than 45% of a lot's total landscaped area, which leaves out the house footprint, driveway, sidewalk and patio.",
+    "quote": "Artificial Turf is permitted and will be reviewed on case by case basis. No more than 45% of the total landscaped area (the total Lot area excluding the house footprint, driveway, sidewalk and patio) of any Lot shall be artifical turf.",
+    "source_url": "https://www.centerra.com/wp-content/uploads/2021/10/Lakes-Residential-Modification-Guidelines-January-12-2021.pdf",
+    "source_label": "The Lakes at Centerra Master Homeowners Association, Homeowner Modifications & Design Guidelines (January 12, 2021), Sec. 2.17.5, Artificial Turf",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "45"
+    ],
+    "notes": "PDF downloaded and read 2026-09-26 (70 pages, created January 12, 2021). 'artifical' is the document's own spelling. Putting greens are not named anywhere in the document. The same 45% applies to irrigated turf in Sec. 2.17.4 (record irrigated-turf-45); the document does not say whether the two caps are separate or combined, or whether artificial turf counts toward the 80% planting minimum of Sec. 2.17.11. The guidelines predate SB23-178 (2023)."
+  },
+  {
+    "id": "loveland-co--lakes-at-centerra.irrigated-turf-45",
+    "layer": "place",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "The Lakes at Centerra's guidelines also hold irrigated lawn to no more than 45% of a lot's total landscaped area, to encourage water-wise landscaping.",
+    "quote": "To encourage water-wise landscaping, no more than 45% of the total landscaped area (the total Lot area excluding the house footprint, driveway, sidewalk and patio) of any Lot shall be irrigated turf.",
+    "source_url": "https://www.centerra.com/wp-content/uploads/2021/10/Lakes-Residential-Modification-Guidelines-January-12-2021.pdf",
+    "source_label": "The Lakes at Centerra Master Homeowners Association, Homeowner Modifications & Design Guidelines (January 12, 2021), Sec. 2.17.4, Turf Limitation",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "45"
+    ],
+    "notes": "PDF read 2026-09-26. The builder guidelines (Sept. 30, 2021), Sec. 6.4, carry the same 45% irrigated-turf cap and say nothing about artificial turf."
+  },
+  {
+    "id": "loveland-co--lakes-at-centerra.landscaped-area-example",
+    "layer": "place",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "In the Lakes at Centerra guidelines' own example, a 50-by-110-foot interior lot keeps 1,261 square feet of total landscaped area once the house footprint, a 5-foot foundation setback zone, driveway, sidewalk and patios come out, and the sample plan puts 561 square feet (44%) of it in irrigated turf, counting that turf with 452 square feet of beds to reach the 80% planting minimum.",
+    "quote": "Example Lot Size 64’x110’ 50’x110’ Lot Area (including ROW up to back of walk) 7,436 sf 5,625 sf House Footprint, Foundation Setback Zone, Driveway, Sidewalk, + Patios - 4,171 sf - 4,364 sf Total Landscaped Area (in green) 3,265 sf 1,261 sf … 5’ Foundation Setback Zone around foundation perimeter - not included … Portion of Public Right-of-Way included in Landscape Area … Irrigated Turf (max. 45% of TLA) 1,112 sf (34%) 561 sf (44%) Tree/Shrub/Perennial Beds 1,608 sf (49%) 452 sf (36%) Total Landscape Plantings (min. 80% of TLA) 2,720 sf (83%) 1,013 sf (80%)",
+    "source_url": "https://www.centerra.com/wp-content/uploads/2021/10/Lakes-Residential-Modification-Guidelines-January-12-2021.pdf",
+    "source_label": "The Lakes at Centerra Master Homeowners Association, Homeowner Modifications & Design Guidelines (January 12, 2021), Figures 2.17B (Example of Total Landscaped Area) and 2.17C (Example of Standard Landscape Typical), pp. 30 and 31",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "50",
+      "110",
+      "1261",
+      "5",
+      "561",
+      "44",
+      "452",
+      "80",
+      "64",
+      "7436",
+      "5625",
+      "4171",
+      "4364",
+      "3265",
+      "45",
+      "1112",
+      "34",
+      "1608",
+      "49",
+      "36",
+      "2720",
+      "83",
+      "1013"
+    ],
+    "notes": "Figure text read from the rendered PDF pages 2026-09-26 (the figures are images, so pdftotext does not carry them). The figures note they are diagrammatic and do not reflect unique lot conditions. The text of Secs. 2.17.4 and 2.17.5 defines the landscaped area without mentioning the 5-foot foundation zone or the right-of-way; Figure 2.17B subtracts the zone and adds the right-of-way up to the back of walk."
+  },
+  {
+    "id": "loveland-co--lakes-at-centerra.plantings-gravel-mulch",
+    "layer": "place",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "The Lakes at Centerra's guidelines prohibit artificial plants, cap gravel mulch without plantings at 20% of the landscaped area in brown, tan or gray only, and require landscape plantings on at least 80% of it.",
+    "quote": "Xeriscape design is strongly encouraged. … Artifical plants are specifically prohibited. … A maximum of 20% of the total landscaped area of any Lot (the total Lot area excluding the house footprint, driveway, sidewalk and patio) shall be composed of gravel mulch devoid of plantings. Gravel color must be brown, tan or gray. Red, white and black gravel is specifically prohibited. Large expanses of gravel devoid of plantings in front or side corner yards is prohibited. … Wood mulch must be brown. Red wood mulch is specifically prohibited. … A minimum of 80% of the total landscaped area of any Lot shall be composed of landscape plantings.",
+    "source_url": "https://www.centerra.com/wp-content/uploads/2021/10/Lakes-Residential-Modification-Guidelines-January-12-2021.pdf",
+    "source_label": "The Lakes at Centerra Master Homeowners Association, Homeowner Modifications & Design Guidelines (January 12, 2021), Secs. 2.17.3, 2.17.9, 2.17.10 and 2.17.11",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "20",
+      "80"
+    ],
+    "notes": "PDF read 2026-09-26. Figure 2.17C counts irrigated turf inside 'Total Landscape Plantings'; nothing says whether artificial turf counts."
+  },
+  {
+    "id": "loveland-co--lakes-at-centerra.irrigation-backfill-drainage",
+    "layer": "place",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "The Lakes at Centerra's guidelines require an automatic irrigation system on every lot, strongly encourage drip, keep plants and irrigation out of a 5-foot backfill zone around the foundation, bar landscape work that changes a lot's approved drainage, and design no zone for more than 22 inches of supplemental water a year.",
+    "quote": "No landscape zone should be designed to require more than 22 inches of supplemental irrigation water in an average year (about 18 gallons/square foot during the growing season) which is the equivalent to what tall fescue grasses need to thrive in the region. … Plants and irrigation systems are prohibited from being installed in the 5’ area surrounding the foundation of any house (“Backfill Zone”). … Landscape improvements shall not impact the approved drainage pattern for the Lot. … Every Lot is required to install an automatic irrigation system prior to completion of landscape and planting. Use of drip systems are strongly encouraged. … Controller devices must be located inside the garage unless specifically approved by the DRC.",
+    "source_url": "https://www.centerra.com/wp-content/uploads/2021/10/Lakes-Residential-Modification-Guidelines-January-12-2021.pdf",
+    "source_label": "The Lakes at Centerra Master Homeowners Association, Homeowner Modifications & Design Guidelines (January 12, 2021), Secs. 2.17.6, 2.17.7, 2.17.8 and 2.17.13",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "22",
+      "18",
+      "5"
+    ],
+    "notes": "PDF read 2026-09-26. The guidelines do not say whether artificial turf may go in the 5-foot backfill zone."
+  },
+  {
+    "id": "loveland-co--lakes-at-centerra.downspouts-sheet-flow",
+    "layer": "place",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "The Lakes at Centerra's guidelines require roof water to sheet-flow across a lot and allow no piped drain that outlets toward adjoining lots or open space.",
+    "quote": "Downspouts must not direct water onto adjacent properties. Water from your property must “sheet flow” before it enters into the drainage easements and the sidewalks along the streets. No piped drains are allowed to have an outlet which directs water to adjoining lots or open space.",
+    "source_url": "https://www.centerra.com/wp-content/uploads/2021/10/Lakes-Residential-Modification-Guidelines-January-12-2021.pdf",
+    "source_label": "The Lakes at Centerra Master Homeowners Association, Homeowner Modifications & Design Guidelines (January 12, 2021), Sec. 2.14, Gutters/Downspouts",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "PDF read 2026-09-26."
+  },
+  {
+    "id": "loveland-co--lakes-at-centerra.front-range-option",
+    "layer": "place",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "Under the Lakes at Centerra guidelines' Front Range appropriate option, plantings or hardscape such as boulders, pavers and retaining walls make up at least 80% of the landscaped area, the example plan strongly encourages lawn alternatives such as buffalo grass, and a front yard done this way needs a detailed drawing sent to the DRC first.",
+    "quote": "Front Range appropriate landscaping is encouraged and consists of native plants which require little to no water. A minimum of 80% of total landscaped area of any Lot (the total Lot area excluding the house footprint, driveway, sidewalk and patio) shall be composed of landscape plantings or hardscape materials (i.e. boulders, pavers, retaining walls, etc.). … Residents who desire to install this style of landscaping in their front yard are required to submit a detailed landscape drawing to the DRC prior to installing the landscaping. … Lawn alternatives such as buffalo grass are strongly encouraged.",
+    "source_url": "https://www.centerra.com/wp-content/uploads/2021/10/Lakes-Residential-Modification-Guidelines-January-12-2021.pdf",
+    "source_label": "The Lakes at Centerra Master Homeowners Association, Homeowner Modifications & Design Guidelines (January 12, 2021), Sec. 2.17.17 and Figure 2.17D (Example of Front Range Appropriate Landscape Typical)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "80"
+    ],
+    "notes": "PDF read 2026-09-26; the buffalo-grass sentence is a label on Figure 2.17D (p. 32), read from the rendered page."
+  },
+  {
+    "id": "loveland-co--lakes-at-centerra.hpec-orientation",
+    "layer": "place",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "The Lakes at Centerra's guidelines encourage every owner to attend a landscaping orientation at the High Plains Environmental Center, where the landscape specifications are explained and examples of turf grasses, shrubs, trees and native plants are on hand.",
+    "quote": "All owners are encouraged to attend a landscaping orientation at the High Plains Environmental Center at Centerra. This brief session will explain the landscape specifications for The LAKES at CENTERRA, providing the reasons for the specifications outlined in these Landscape Guidelines. Examples of turf grasses, shrubs, trees and other native vegetation will be available to assist with owners in their landscape plans.",
+    "source_url": "https://www.centerra.com/wp-content/uploads/2021/10/Lakes-Residential-Modification-Guidelines-January-12-2021.pdf",
+    "source_label": "The Lakes at Centerra Master Homeowners Association, Homeowner Modifications & Design Guidelines (January 12, 2021), Sec. 2.17.14, Orientation for Landscaping",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "PDF read 2026-09-26. The builder guidelines (Sec. 6.12) say the seminar is held monthly; whether it still runs was not confirmed."
+  },
+  {
+    "id": "loveland-co--lakes-at-centerra.drc-review-process",
+    "layer": "place",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "The Lakes at Centerra's Design Review Committee meets every two weeks, treats a request it hasn't answered within 45 days as denied, hears written appeals filed within 30 days, and takes a $2,000 refundable deposit with a landscaping application from any home bordering a common area.",
+    "quote": "For applications concerning landscaping, or any other exterior improvement, a $2,000 refundable deposit is due at the time of application for any home bordering a common area of the community. Once the improvement project is completed and has been inspected by the association, the deposit will be released back to the homeowner less any damages done to the common area. … Incomplete requests will be returned to the Owner without review. … The DRC meets on a biweekly basis. If no response is provided by the DRC within forty-five (45) days of submittal, the request will be deemed denied. … If your request is denied, specific reasons for the denial will be provided. You may then revise your request and resubmit. … If the Owner disagrees with the decision of the DRC, the Owner may request an appeal in writing to the DRC within thirty (30) days after such decision. … Homeowners are encouraged to share this policy with their contractors and add provisions to their contracts that require compliance by the contractor and compensation to the homeowner if the contractor causes damage that causes the homeowner to forfeit the deposit.",
+    "source_url": "https://www.centerra.com/wp-content/uploads/2021/10/Lakes-Residential-Modification-Guidelines-January-12-2021.pdf",
+    "source_label": "The Lakes at Centerra Master Homeowners Association, Homeowner Modifications & Design Guidelines (January 12, 2021), Sec. 1.6, Design Review Process",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2000",
+      "45",
+      "30"
+    ],
+    "notes": "PDF read 2026-09-26. Sec. 1.6 names an older resident-portal address and the association office phone; neither goes in copy. The HOA's own site (lakesatcenterra.org, refusing connections 2026-09-26; Wayback capture of 2025-01-14 read) sends online design review requests to MSI's Enumerate portal, which needs a login."
+  },
+  {
+    "id": "loveland-co--lakes-at-centerra.drc-scope",
+    "layer": "place",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "Once a Lakes at Centerra home is finished and occupied, the Design Review Committee reviews every exterior change to the house and lot, any improvement the guidelines don't list needs its written approval, and its approval comes before any City of Loveland permit, which does not bind it.",
+    "quote": "After a new house has been completed, in accordance with the approved plans, and occupied, the Design Review Committee (DRC) becomes responsible for the review of all modifications to the exterior of the structure and lot. … The Design Review Committee (DRC) shall mean and refer to that particular committee which is described and explained within Article 6, DESIGN REVIEW COMMITTEE, of the CC&Rs for The Lakes at Centerra. … However, the Homeowner Design Guidelines are not the exclusive basis for decisions of the DRC, and compliance with the Design Guidelines does not guarantee approval of any application. … ANY OTHER IMPROVEMENT NOT SPECIFICALLY LISTED HEREIN REQUIRES DRC REVIEW AND WRITTEN APPROVAL. … Prior to submittal of a request for a permit to be issued by the City of Loveland, the Owner will obtain the approval of the DRC of any improvements requiring approval. Any permit or approval issued by the City of Loveland shall in no manner whatsoever bind the DRC with respect to approval or denial of any application for items submitted for consideration",
+    "source_url": "https://www.centerra.com/wp-content/uploads/2021/10/Lakes-Residential-Modification-Guidelines-January-12-2021.pdf",
+    "source_label": "The Lakes at Centerra Master Homeowners Association, Homeowner Modifications & Design Guidelines (January 12, 2021), Secs. 1.1, 1.2, 1.4, 1.7 and 2.0",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "PDF read 2026-09-26."
+  },
+  {
+    "id": "loveland-co--lakes-at-centerra.open-fencing-views",
+    "layer": "place",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "The Lakes at Centerra's guidelines keep perimeter fences to open cedar three-rail no taller than 4 feet to preserve views to the lakes and open space, require a rear-line gate on lots backing onto common open space, and ask for varied plantings with view openings along open space rather than a hedge.",
+    "quote": "Open views throughout the neighborhood are extremely important to the natural character of the community. Fences are optional on any Lot. Two fence styles are allowed in The LAKES at CENTERRA. The first is a cedar open three-rail style that may be used in side and rear yards for perimeter fencing. … Open fencing enhances the views to and from amenity areas such as lakes and open spaces while still containing pets and children. … Fence heights shall be a maximum 4’-0”. … Lots with rear yards adjacent to community common open spaces shall include a gate … on the rear property line for access to and maintenance of the fence. … Adjacent to open spaces areas the landscaping should be varied in height and density so as to avoid a hedge or total screen appearance. Instead, the landscape treatment should provide view openings between the private yards and the open space.",
+    "source_url": "https://www.centerra.com/wp-content/uploads/2021/10/Lakes-Residential-Modification-Guidelines-January-12-2021.pdf",
+    "source_label": "The Lakes at Centerra Master Homeowners Association, Homeowner Modifications & Design Guidelines (January 12, 2021), Secs. 2.9, 2.9.1 and 2.17.15",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4",
+      "0"
+    ],
+    "notes": "PDF read 2026-09-26. Privacy fencing (6 feet max) is limited to rear-elevation screening of spas, hot tubs and patios and front courtyards (Sec. 2.9.2)."
+  },
+  {
+    "id": "loveland-co--lakes-at-centerra.common-area-limits",
+    "layer": "place",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "The Lakes at Centerra's guidelines bar residents from spraying, pruning, watering, planting, mulching or mowing common area, and lot posts on the common-space side of the pins mark where a lot ends.",
+    "quote": "The following Common Area maintenance functions are NOT approved for Residents. This is not an inclusive list of restricted functions. … Spraying of any chemicals including but not limited to herbicides, fertilizers and pesticides … Removal or pruning of grasses, shrubs, and trees … Watering of any kind … Planting of new shrubs, trees, or planted material … Addition of new mulch to any of the common area … Mowing of any common area … In order to clearly mark the boundary between lots and community common space, a lot post … shall be installed by the initial builder adjacent to all the surveyed lot pins on the common space side of the pins. Lot posts are not required where perimeter open fencing exists.",
+    "source_url": "https://www.centerra.com/wp-content/uploads/2021/10/Lakes-Residential-Modification-Guidelines-January-12-2021.pdf",
+    "source_label": "The Lakes at Centerra Master Homeowners Association, Homeowner Modifications & Design Guidelines (January 12, 2021), Secs. 3.3 and 2.19",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "PDF read 2026-09-26."
+  },
+  {
+    "id": "loveland-co--lakes-at-centerra.trail-stepping-stones",
+    "layer": "place",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "Lakes at Centerra rear yards next to HOA or metro district trails, though not High Plains Environmental Center trails, may reach them with flush natural sandstone stepping stones no larger than 16 by 16 inches.",
+    "quote": "Access from rear yards adjacent to homeowner association and metropolitan district trails (NOT High Plains Environmental Center trails) may be installed using stepping stones. Stepping stones shall be natural sandstone, no larger than 16”x16” in size and shall be flush mounted to the ground.",
+    "source_url": "https://www.centerra.com/wp-content/uploads/2021/10/Lakes-Residential-Modification-Guidelines-January-12-2021.pdf",
+    "source_label": "The Lakes at Centerra Master Homeowners Association, Homeowner Modifications & Design Guidelines (January 12, 2021), Sec. 2.32, Trail Access",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "16"
+    ],
+    "notes": "PDF read 2026-09-26."
+  },
+  {
+    "id": "loveland-co--lakes-at-centerra.lighting",
+    "layer": "place",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "The Lakes at Centerra's guidelines allow no uplighting or floodlights, require full cut-off shielded fixtures, hold low-level landscape lighting to 500 watts in total, and review lighting case by case on lots next to environmentally sensitive areas.",
+    "quote": "No uplighting is allowed. All exterior light fixtures must be full cut off, fully shielded type. … Floodlights and walls packs are not allowed. … Low level landscape lighting should not exceed 500 watts total. … Site lighting and exterior house lighting on lots adjacent to environmentally sensitive areas will be reviewed on a case by case basis.",
+    "source_url": "https://www.centerra.com/wp-content/uploads/2021/10/Lakes-Residential-Modification-Guidelines-January-12-2021.pdf",
+    "source_label": "The Lakes at Centerra Master Homeowners Association, Homeowner Modifications & Design Guidelines (January 12, 2021), Sec. 2.18, Lighting",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "500"
+    ],
+    "notes": "PDF read 2026-09-26."
+  },
+  {
+    "id": "loveland-co--lakes-at-centerra.hardscape-features",
+    "layer": "place",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "The Lakes at Centerra's guidelines let patios be concrete, pavers, brick or stone, want masonry fireplaces and fire pits that match the house, sit inside the building envelope and stay under 8 feet, build retaining walls of Loveland/Masonville Buff sandstone or equal up to 4 feet unless engineered, and cap a freestanding trellis or arbor at 12 feet tall and 144 square feet, one per lot.",
+    "quote": "Patios may be concrete, concrete stepping blocks, brick, concrete pavers, stone, or other materials as approved by the Committee. … Permanent outdoor fireplaces and barbecue pits shall be finished with masonry, brick and/or stone and shall blend with the masonry material used on the house. Fireplaces and pits shall be located in the side yard, rear yard or in front yard functional outdoor courtyard living areas. Fireplaces and pits shall be located within the building envelope established for the house. … The maximum height for fireplaces, excluding chimneys, shall not exceed eight feet (8’-0”). … Retaining walls shall be constructed of Loveland/Masonville Buff sandstone or equal and shall be limited to 4’-0’ in height unless it can be shown that side conditions justify a taller wall. … Retaining walls greater than 4’-0” in height shall be designed by a licensed Professional Engineer in the State of Colorado. … Overall height of the trellis/arbor shall not exceed 12’-0”. … Free standing Trellis/Arbor should not exceed 144 sq. ft. in size. … Only one Arbor/Trellis is allowed per lot.",
+    "source_url": "https://www.centerra.com/wp-content/uploads/2021/10/Lakes-Residential-Modification-Guidelines-January-12-2021.pdf",
+    "source_label": "The Lakes at Centerra Master Homeowners Association, Homeowner Modifications & Design Guidelines (January 12, 2021), Secs. 2.7, 2.10, 2.25 and 2.33",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "8",
+      "4",
+      "12",
+      "144",
+      "0"
+    ],
+    "notes": "PDF read 2026-09-26."
+  },
+  {
+    "id": "loveland-co--lakes-at-centerra.sport-courts-play",
+    "layer": "place",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "The Lakes at Centerra's guidelines do not permit sport courts and keep play equipment, sports equipment included, to rear yards, 9 feet tall at most and at least 5 feet from any property line.",
+    "quote": "Sport courts are not permitted. … Play equipment includes play structures, swing sets, trampolines, sports equipment, etc. Play equipment shall not be taller than 9’-0”, is allowed only in rear yards, and must maintain a minimum 5’ setback from any property line.",
+    "source_url": "https://www.centerra.com/wp-content/uploads/2021/10/Lakes-Residential-Modification-Guidelines-January-12-2021.pdf",
+    "source_label": "The Lakes at Centerra Master Homeowners Association, Homeowner Modifications & Design Guidelines (January 12, 2021), Secs. 2.30 and 2.22",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "9",
+      "5",
+      "0"
+    ],
+    "notes": "PDF read 2026-09-26. Putting greens are not named in these or any other section."
+  },
+  {
+    "id": "loveland-co--lakes-at-centerra.pet-enclosures",
+    "layer": "place",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "The Lakes at Centerra's guidelines allow one pet enclosure per lot and none on attached townhome lots, up to 300 square feet and abutting the house, in the rear yard or also the side yard on lots 75 feet and wider, with ground cover such as gravel, mulch or crusher fines, while listed patio-home addresses are held to 10 by 25 feet.",
+    "quote": "Pet enclosures shall use the cedar three rail open fence design with the welded wire mesh option applied to the inner side of the fence. … One pet enclosure is allowed for each lot. No pet enclosures are allowed on attached townhome lots. Location: Based on lot sizes, pet enclosures are restricted to the rear or side yards as follows: 45’ wide lots - rear yard 50’ wide lots - rear yard 60’ wide lots - rear yard 75’ or wider lots - rear or side yard Pet enclosures shall abut the dwelling on the lot. Size: The maximum size for a pet enclosure shall be 300 square feet. Materials: Pet enclosures shall contain appropriate ground cover including gravel, mulch, crusher fines, etc. … Size: Pet enclosures shall have maximum dimensions of 10’-0” deep by 25’-0” wide and be adjacent to the rear of the dwelling unit",
+    "source_url": "https://www.centerra.com/wp-content/uploads/2021/10/Lakes-Residential-Modification-Guidelines-January-12-2021.pdf",
+    "source_label": "The Lakes at Centerra Master Homeowners Association, Homeowner Modifications & Design Guidelines (January 12, 2021), Secs. 2.9.3 and 2.9.4, Dog Run Fencing Criteria",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "300",
+      "75",
+      "45",
+      "50",
+      "60",
+      "10",
+      "25",
+      "0"
+    ],
+    "notes": "PDF read 2026-09-26. Sec. 2.9.4 applies to listed Lifestyle Patio Home addresses on two streets (aluminum picket fence, rear yard only, 10 feet from the rear line). Artificial turf is not named as a ground cover either way."
+  },
+  {
+    "id": "loveland-co--lakes-at-centerra.landscape-timeline",
+    "layer": "place",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "An owner of a Lakes at Centerra lot the builder didn't landscape has 180 days to landscape front and rear yards when the purchase falls between April 1 and October 1, and otherwise until the next October 1, with weather extensions at the DRC's discretion.",
+    "quote": "Each owner shall landscape their front and rear yard, unless installed by the Builder, within one hundred eighty (180) days after acquisition of such lot by such Owner if acquisition occurs between April 1 and October 1; if acquisition does not occur between such dates, then such landscaping shall be installed by such Owner by the following October 1. The Design Review Committee (DRC) may allow reasonable extensions of such period to account for abnormal weather conditions or other constraints on landscape installation.",
+    "source_url": "https://www.centerra.com/wp-content/uploads/2021/10/Lakes-Residential-Modification-Guidelines-January-12-2021.pdf",
+    "source_label": "The Lakes at Centerra Master Homeowners Association, Homeowner Modifications & Design Guidelines (January 12, 2021), Sec. 3.10.3, Landscape Installation Timeline",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "180",
+      "1"
+    ],
+    "notes": "PDF read 2026-09-26."
+  },
+  {
+    "id": "loveland-co--lakes-at-centerra.lakes-water-rights",
+    "layer": "place",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "Houts Reservoir and its water rights belong to the Greeley Loveland Irrigation Company and the High Plains Environmental Center holds the surface rights, and the Lakes at Centerra guidelines say neither has to keep water levels or quality up for recreation, with limited human contact on Houts Reservoir only and none on Equalizer Lake.",
+    "quote": "The Board of Directors of the High Plains Environmental Center (HPEC) will allow limited human contact on Houts Reservoir only. No human contact will be allowed on Equalizer Lake. Neither HPEC, as the surface rights holder, nor Greeley Loveland Irrigation Company (GLIC), as the owner of the reservoir and related water rights, will be under any obligation to maintain water levels or quality to accommodate human contact.",
+    "source_url": "https://www.centerra.com/wp-content/uploads/2021/10/Lakes-Residential-Modification-Guidelines-January-12-2021.pdf",
+    "source_label": "The Lakes at Centerra Master Homeowners Association, Homeowner Modifications & Design Guidelines (January 12, 2021), Sec. 3.8, Lakes",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "PDF read 2026-09-26."
+  },
+  {
+    "id": "loveland-co--lakes-at-centerra.district-hoa-hpec-roles",
+    "layer": "place",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "The Lakes at Centerra Consolidated Metropolitan District maintains Explorer Park, Frank Farms Park and district common landscaping, the Master HOA, managed by MSI Property Management, runs the community amenities and enforces the covenants, and High Plains Environmental Center land surrounds both Houts Reservoir and Equalizer Lake.",
+    "quote": "Managed areas include: Explorer Park (Incuding playground and dog-park). Frank Farms Park (Including playground). District common area landscaping. … The “Master” HOA is responsible for the larger Lakes at Centerra community amenities. The HOA also enforces the community’s covenants and restrictions. … The Master HOA is managed by MSI Property Management. … HPEC property surrounds both Houts Reservoir and Equalizer Lake, as well as other areas throughout the community.",
+    "source_url": "https://www.lakesatcenterramd.live/about-the-lakes-at-centerra-consolidated-metropolitan-district",
+    "source_label": "Lakes at Centerra Consolidated Metropolitan District, About the Lakes at Centerra Consolidated Metropolitan District",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Page read 2026-09-26 (the brief's /about-the-lakes-at-centerra-metro-district URL redirects here). The same page calls the District a 3,000-acre master-planned development, and its Amenities page speaks of 275 acres of lakes and wetlands; acreage is left out of copy because the figures describe different things. The district's Community Resolutions page lists the CC&Rs with no document attached."
+  },
+  {
+    "id": "loveland-co--lakes-at-centerra.builder-lot-sizes",
+    "layer": "housing",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "The Lakes at Centerra's builder guidelines size single-family detached lots from 45 by 105 feet up to 75 to 80 by 120 feet.",
+    "quote": "SFD - 35’ Wide Product 45 x 105 1380-2585 SFD - 40’ Wide Product 50 x 110 1900-2550 SFD - 50’ Wide Product 60 x 110 2400-3200 SFD - 60’+ Wide Product 75-80 x 120 2400-3600",
+    "source_url": "https://www.centerra.com/wp-content/uploads/2021/10/Lakes-at-Centerra-Builder-Design-Guidelines-September-30-2021-2.pdf",
+    "source_label": "The Lakes at Centerra Builder Design Guidelines (September 30, 2021), Figure 3.1, Product Segmentation",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "45",
+      "105",
+      "75",
+      "80",
+      "120",
+      "35",
+      "50",
+      "110",
+      "40",
+      "60",
+      "1380",
+      "2585",
+      "1900",
+      "2550",
+      "2400",
+      "3200",
+      "3600"
+    ],
+    "notes": "PDF read 2026-09-26 (58 pages). The same table lists townhomes on 24 to 45 by 62-foot lots and patio homes on 50 by 110 and 70 by 110-foot lots. Figure 2.17A of the homeowner guidelines scales tree minimums to lot widths from 45 to 70 feet and more."
+  },
+  {
+    "id": "loveland-co--lakes-at-centerra.centerra-drc-scope",
+    "layer": "place",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "Centerra's Design Review Committee reviews development projects against Centerra's design guidelines and says all improvements within Centerra, landscape and lighting included, come to it before any application to the City of Loveland, while for The Lakes its page lists only the 2021 builder guidelines and a resident website.",
+    "quote": "The DRC is responsible for reviewing development projects for compliance with Centerra’s Design Guidelines. … All improvements within Centerra are required to be reviewed by the DRC prior to submitting applications to the City of Loveland, including (but not limited to) site planning, architecture, landscape, lighting and signage. … THE LAKES Builder Design Guidelines (updated 2021) (PDF) … Resident Website",
+    "source_url": "https://www.centerra.com/design-review/",
+    "source_label": "Centerra, Design Review page (Centerra Design Review Committee)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2021"
+    ],
+    "notes": "Page read 2026-09-26. Committee members listed include two from the High Plains Environmental Center. The Lakes homeowner guidelines (Sec. 1.4) define their own DRC under Article 6 of the Lakes CC&Rs; whether a homeowner project that needs a City permit also goes to Centerra's committee is not stated in either document."
+  }
+]

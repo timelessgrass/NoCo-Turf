@@ -1,0 +1,450 @@
+[
+  {
+    "id": "johnstown-co--thompson-crossing.drc-all-designs",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Thompson Crossing's 2006 design guide requires its Design Review Committee to review and approve all architectural and landscape designs and lets the committee deny a design on design or style even when the minimum square footages and other requirements are met.",
+    "quote": "All architectural and landscape designs must be reviewed and approved by the DRC. The DRC reserves the right, at its sole discretion, to deny approval based on design and/or style, even though minimum square footages and other requirements may have been met.",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1139/Thompson-Crossing-Design-Guidelines-0706--PDF-STAMPED",
+    "source_label": "Thompson Crossing Design Guidelines (created 09/06/2005, revised 07/11/2006), Introduction, p. 1",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2006"
+    ],
+    "notes": "PDF (36 pages) fetched from the Town's Document Center and read with pdftotext on 2026-09-26. The Phase II guide (revised 4/21/2014) repeats the sentence for the Thompson Crossing Phase II Design Review Committee."
+  },
+  {
+    "id": "johnstown-co--thompson-crossing.designer-bluegrass",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Both Thompson Crossing design guides require landscape plans designed by a professional landscape designer and call for turf of high-quality Kentucky bluegrass or an approved drought-tolerant fescue.",
+    "quote": "SPECIFIC REQUIREMENTS • Landscape plans shall be designed by a professional landscape designer. … • Turf shall be a high quality Kentucky bluegrass or an approved drought tolerant fescue.",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1139/Thompson-Crossing-Design-Guidelines-0706--PDF-STAMPED",
+    "source_label": "Thompson Crossing Design Guidelines (revised 07/11/2006), III. Landscape Design, Specific Requirements, pp. 5-6",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The Phase II guide (revised 4/21/2014), III. Landscape Design, Specific Requirements, p. 6, carries both sentences word for word, and item 28 repeats: 'LANDSCAPING. Design shall be prepared by a professional landscape designer.'"
+  },
+  {
+    "id": "johnstown-co--thompson-crossing.designer-waiver-sheets",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Thompson Crossing's guides require landscaping plans prepared by a professional landscape designer, which the committee may waive based on the applicant's background, submitted as two sets on 24-by-36-inch sheets with the review fees.",
+    "quote": "All landscaping plans must be prepared by a professional landscape designer. The DRC reserves the right, at its sole discretion, to waive this requirement based on the background of the applicant or his agents. … Two sets of Sketch (optional but recommended), Construction, and Landscaping Plans (ALL on 24” x 36” sheets), sample boards with exterior material selections, and the appropriate review fees (see Appendix B) must be submitted to the DRC",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1139/Thompson-Crossing-Design-Guidelines-0706--PDF-STAMPED",
+    "source_label": "Thompson Crossing Design Guidelines (revised 07/11/2006), V. Submittal Procedure, pp. 12-13",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "24",
+      "36"
+    ],
+    "notes": "The Phase II guide, V. Design Review Committee Submittal Procedure, pp. 12-13, carries the same two passages."
+  },
+  {
+    "id": "johnstown-co--thompson-crossing.conflicts-clause",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Thompson Crossing's design guides say they do not modify or supersede local, county, state or federal law, and that in a conflict jurisdictional regulations take precedence and the most restrictive standards apply.",
+    "quote": "The Thompson Crossing Design Guidelines do not modify or supersede any Local, County, State, or Federal codes, ordinances, or regulations. In the event of conflicts or discrepancies, jurisdictional regulations shall take precedence, and the most restrictive standards shall apply.",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1139/Thompson-Crossing-Design-Guidelines-0706--PDF-STAMPED",
+    "source_label": "Thompson Crossing Design Guidelines (revised 07/11/2006), Appendix A, Conflicts, p. 16",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The Phase II guide's Appendix A (p. 18) says the same of the Thompson Crossing Phase II Design Guidelines. How the conflicts clause meets SB23-178 is left to the committee or counsel in copy."
+  },
+  {
+    "id": "johnstown-co--thompson-crossing.unlisted-improvements",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Thompson Crossing's design guides require the committee's written approval before any listed improvement is built and say an improvement they do not list must still go to the committee for review and approval.",
+    "quote": "Unless otherwise specifically stated, drawings and/or plans for a proposed improvement must be submitted to the DRC and written approval of the DRC obtained PRIOR TO commencement of construction of the improvement. If a proposed improvement is not specifically listed below, the homeowner, architect, builder, or landscape designer must still make a request to the DRC for review and approval.",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1139/Thompson-Crossing-Design-Guidelines-0706--PDF-STAMPED",
+    "source_label": "Thompson Crossing Design Guidelines (revised 07/11/2006), IV. Typical Improvements, p. 6",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Neither guide mentions putting greens (searched both texts for 'putting', 'green' and 'golf' on 2026-09-26). The Phase II guide's IV. Typical Improvements (p. 7) carries the same passage."
+  },
+  {
+    "id": "johnstown-co--thompson-crossing.play-sports-lighting",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Thompson Crossing's 2006 guide requires committee approval of the type and location of gardens, play and sports equipment, play houses and swing sets, keeps landscape lighting conventional and free of nuisance to neighbors, and allows only in-ground or indoor pools.",
+    "quote": "21) GARDENS. Type and location require DRC approval. … 29) LIGHTS and LIGHTING. Exterior and landscape lighting shall be of a conventional style with illumination patterns and intensities which do not create a nuisance for adjacent property owners. … 36) PLAY and SPORTS EQUIPMENT. Type and location require DRC approval. 37) PLAY HOUSES. Type and location require DRC approval. … 38) POOLS. Only in-ground or indoor pools are allowed. … 51) SWING SETS. Type and location require DRC approval.",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1139/Thompson-Crossing-Design-Guidelines-0706--PDF-STAMPED",
+    "source_label": "Thompson Crossing Design Guidelines (created 09/06/2005, revised 07/11/2006), IV. Typical Improvements, items 21, 29, 36-38 and 51, pp. 8-11",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2006",
+      "21",
+      "29",
+      "36",
+      "37",
+      "38",
+      "51"
+    ],
+    "notes": "The Phase II guide numbers the same items 21, 30, 37, 38, 39 and 52 with the same wording."
+  },
+  {
+    "id": "johnstown-co--thompson-crossing.review-letter-30-days",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "The Thompson Crossing Phase II guide says the committee approves, conditionally approves or denies landscape drawings and sends each applicant a letter stating its ruling within 30 days after the submittal.",
+    "quote": "Following DRC review, the DRC will either: 1) Approve the Construction or Landscape Drawings, in which case the applicant may proceed with permitting and construction, 2) Conditionally approve the Construction or Landscape Drawings … or 3) Deny the Construction or Landscape Drawings, in which case the applicant will be required to resubmit new plans. Construction cannot commence. 4) Approval is contingent upon the submittal of materials and payment of any designated fees or expenses, and favorable review. A letter from the DRC will be sent to each applicant within a maximum of thirty (30) days after the date of the submittal.",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1219/Thompson-Crossing-TV-II-Design-Guidelines-42114--PDF-STAMPED",
+    "source_label": "Thompson Crossing II Design Guidelines (created 12/13/2013, revised 4/21/2014), V. Submittal Procedure, p. 15",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "30"
+    ],
+    "notes": "PDF (37 pages) fetched from the Town's Document Center and read with pdftotext on 2026-09-26. The 2006 guide lists the same three outcomes (4) DRC Review, p. 15) but has no 30-day letter."
+  },
+  {
+    "id": "johnstown-co--thompson-crossing.waiver-deemed-approved",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Thompson Crossing's guides ask the committee to answer a written waiver request within 30 calendar days and deem the request approved if a resubmission then goes unanswered for another 30 calendar days.",
+    "quote": "Requests for DRC approvals and waivers shall be made in writing to the DRC. The DRC shall make every effort to notify the applicant in writing of either approval or denial within 30 calendar days following its receipt of the waiver request. Should the DRC fail to respond to the applicant’s waiver request within 30 calendar days, the applicant should resubmit to the DRC. Should the DRC fail to respond to the applicant’s resubmission within another 30 calendar days, the waiver request shall be deemed to be approved by the DRC.",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1139/Thompson-Crossing-Design-Guidelines-0706--PDF-STAMPED",
+    "source_label": "Thompson Crossing Design Guidelines (revised 07/11/2006), V. Submittal Procedure, p. 12",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "30"
+    ],
+    "notes": "The Phase II guide's DRC Approval Process (p. 12) carries the same paragraph."
+  },
+  {
+    "id": "johnstown-co--thompson-crossing.fees-2006",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Thompson Crossing's 2006 guide lists a $100 review fee for landscape drawings on new construction, $100 for a waiver request, $50 for each resubmittal and no charge for minor improvements, and says the committee may adjust submittal fees.",
+    "quote": "Also, submittal fees may be adjusted from time to time by the DRC. … REVIEW FEES (Required for New Construction) Construction Drawings $250 Landscape Drawings $100 Debris Cleanup Fee* $200 TOTAL $550 MISCELLANEOUS FEES Sketch Plan Drawings $50 Additions and Expansions $100 Waiver Request $100 Each Resubmittal $50 Minor Improvements No Charge",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1139/Thompson-Crossing-Design-Guidelines-0706--PDF-STAMPED",
+    "source_label": "Thompson Crossing Design Guidelines (created 09/06/2005, revised 07/11/2006), IV. Typical Improvements, p. 6, and Appendix B, p. 17",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2006",
+      "100",
+      "50",
+      "250",
+      "200",
+      "550"
+    ],
+    "notes": "The Phase II guide's Appendix B (p. 19) prints no fees, only square footages, heights and setbacks; its item-list preamble repeats that submittal fees may be adjusted by the DRC. Neither guide says which fee applies to a later backyard change on an existing home."
+  },
+  {
+    "id": "johnstown-co--thompson-crossing.phase-2-placeholders",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "The Thompson Crossing Phase II guide the Town posts sends submittals to the Thompson Crossing Phase II Community Association Design Review Committee but prints template placeholders where its address and phone belong and leaves the architectural reviewer to be determined.",
+    "quote": "(Firm providing Architectural Review will be determined prior to final Town of Johnstown approval.) … must be submitted to the DRC at: Thompson Crossing Phase II Community Association Design Review Committee Address Line 1 Address Line 2 Phone Number",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1219/Thompson-Crossing-TV-II-Design-Guidelines-42114--PDF-STAMPED",
+    "source_label": "Thompson Crossing II Design Guidelines (created 12/13/2013, revised 4/21/2014), V. Design Review Committee Submittal Procedure, p. 12",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "2"
+    ],
+    "notes": "The guide names an outside landscape-plan reviewer on the same page; the 2006 guide names a different one. Neither firm is named in copy."
+  },
+  {
+    "id": "johnstown-co--thompson-crossing.phase-2-town-jrc",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "The Thompson Crossing Phase II guide gives the Town of Johnstown's design review committee the residential models and any major changes to the development's features or amenities, with appeals to the Town Council.",
+    "quote": "The Town of Johnstown’s Design Review Committee shall review and approve the following: 1) Residential models 2) Any major changes to the development features or amenities … The decision of the JRC may be appealed by the applicant to the Johnstown Town Council.",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1219/Thompson-Crossing-TV-II-Design-Guidelines-42114--PDF-STAMPED",
+    "source_label": "Thompson Crossing II Design Guidelines (revised 4/21/2014), JRC Approval Process, pp. 16-17",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "id": "johnstown-co--thompson-crossing.current-revision",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Thompson Crossing's design guides tell owners to request and use the most current revision, which may change as the covenants allow.",
+    "quote": "TO ENSURE A SUCCESSFUL DESIGN/BUILD PROCESS, ALWAYS REQUEST AND USE THE MOST CURRENT REVISION OF THE DESIGN GUIDELINES. … Again, make sure the most current revision of the guidelines are being used, as they can change from time to time as allowed by the Thompson Crossing Conditions, Covenants, and Restrictions (CCR’s).",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1139/Thompson-Crossing-Design-Guidelines-0706--PDF-STAMPED",
+    "source_label": "Thompson Crossing Design Guidelines (revised 07/11/2006), Introduction and IV. Typical Improvements, pp. 1 and 6",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The Phase II guide carries the same note. No later revision of either guide was found on the Town's PUD page on 2026-09-26."
+  },
+  {
+    "id": "johnstown-co--thompson-crossing.pud-page",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "The Town of Johnstown's page of planned-unit-development design guidelines posts two Thompson Crossing guides, the 2006 guide and the Thompson Crossing II guide dated April 21, 2014.",
+    "quote": "Thompson Crossing Design Guidelines 0706 (PDF) STAMPED … Thompson Crossing TV II Design Guidelines 4.21.14 (PDF) STAMPED",
+    "source_url": "https://johnstownco.gov/286/Planned-Unit-Development-PUD-Design-Guid",
+    "source_label": "Town of Johnstown, Planned Unit Development (PUD) Design Guidelines page",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2006",
+      "21",
+      "2014",
+      "0706",
+      "4.21",
+      "14"
+    ],
+    "notes": "Page fetched 2026-09-26; its link list names these two Thompson Crossing documents and no others."
+  },
+  {
+    "id": "johnstown-co--thompson-crossing.associations-registry",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Colorado's business-entity registry lists two nonprofit associations in good standing, Thompson Crossing Community Association, formed August 28, 2006, and Thompson Crossing II Association, formed January 4, 2016.",
+    "quote": "entityname: Thompson Crossing Community Association · entitystatus: Good Standing · entitytype: DNC · agentorganizationname: Westwind Management Group, LLC · entityformdate: 2006-08-28 … entityname: Thompson Crossing II Association · entitystatus: Good Standing · entitytype: DNC · agentorganizationname: Kellison, LLC · entityformdate: 2016-01-04",
+    "source_url": "https://data.colorado.gov/Business/Business-Entities-in-Colorado/4ykn-tg5h",
+    "source_label": "Colorado Secretary of State, Business Entities in Colorado (data.colorado.gov dataset 4ykn-tg5h), entity IDs 20061351995 and 20151793623",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "28",
+      "2006",
+      "4",
+      "2016",
+      "2006-08-28",
+      "2016-01-04",
+      "20061351995",
+      "20151793623"
+    ],
+    "notes": "Queried the dataset's API by entity ID on 2026-09-26 (rows updated 2026-09-25). DNC is a Colorado nonprofit corporation. Which association reviews which filing is not stated in the registry; the 2006 guide names the Thompson Crossing Community Association and the 2014 guide a Thompson Crossing Phase II Community Association."
+  },
+  {
+    "id": "johnstown-co--thompson-crossing.plats",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Larimer County's subdivision records list six Thompson Crossing plats in Johnstown covering about 180.7 acres: the 2006 PUD plat, its replats of 2008 and 2010, and the Thompson Crossing II first, second and third filings of 2015 and 2016.",
+    "quote": "SUBNAME: THOMPSON CROSSING PUD · RECEPTNUM: 20060027309 · MUNICIPALITY: JOHNSTOWN … THOMPSON CROSSING PUD RPLT 1 · 20080062175 … THOMPSON CROSSING PUD RPLT 2 · 20100071013 … THOMPSON CROSSING II 1ST · 20150052904 … THOMPSON CROSSING II 2ND · 20160018469 … THOMPSON CROSSING II 3RD · 20160029677 · SUBMJRNAME: THOMPSON CROSSING",
+    "source_url": "https://maps1.larimer.org/arcgis/rest/services/MapServices/Parcels/MapServer/1",
+    "source_label": "Larimer County parcel GIS, Subdivisions layer: SUBMJRNAME THOMPSON CROSSING (six plats), areas computed from the plat polygons",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "180.7",
+      "2006",
+      "2008",
+      "2010",
+      "2015",
+      "2016",
+      "20060027309",
+      "20080062175",
+      "20100071013",
+      "20150052904",
+      "20160018469",
+      "20160029677",
+      "1",
+      "2",
+      "3"
+    ],
+    "notes": "Queried where SUBMJRNAME = 'THOMPSON CROSSING' on 2026-09-26 with outSR 2231 (NAD83 Colorado North, US feet); polygon areas by the shoelace formula: PUD 103.11 ac, II 1st 51.14, II 2nd 15.26, II 3rd 9.85, RPLT 1 1.02, RPLT 2 0.35. Plat years are the first four digits of each reception number. The brief's 180.6 was the same sum rounded differently."
+  },
+  {
+    "id": "johnstown-co--thompson-crossing.lot-sizes",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Larimer County's platted-lot map draws 316 numbered Thompson Crossing lots with a median near 9,200 square feet: the 149 lots of the 2006 plat and its replats have a median near 11,200 and reach about 28,600, 26 of them at 15,000 or more, while the 167 Phase II lots have a median near 8,000 and top out near 23,000.",
+    "quote": "SUBNAME: THOMPSON CROSSING PUD · THOMPSON CROSSING PUD RPLT 1 · THOMPSON CROSSING PUD RPLT 2 · THOMPSON CROSSING II 1ST · THOMPSON CROSSING II 2ND · THOMPSON CROSSING II 3RD · LABEL: 1 … OUTLOT A … OUTLOT O",
+    "source_url": "https://maps1.larimer.org/arcgis/rest/services/MapServices/Parcels/MapServer/4",
+    "source_label": "Larimer County parcel GIS, Platted Lots layer: Thompson Crossing plats (316 numbered lots, outlots excluded), lot areas computed from the lot polygons",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "316",
+      "9,200",
+      "149",
+      "2006",
+      "11,200",
+      "28,600",
+      "26",
+      "15,000",
+      "167",
+      "8,000",
+      "23,000",
+      "1",
+      "2",
+      "3"
+    ],
+    "notes": "Queried where SUBNAME LIKE 'THOMPSON CROSSING%' on 2026-09-26 (338 polygons; 22 labeled OUTLOT dropped; no replat lot duplicates a PUD lot). Areas in outSR 2231: all numbered lots median 9,223 sq ft, 90th percentile 15,646, min 5,394, max 28,569; 2006 plat and replats median 11,224; Phase II median 7,967, max 22,954; 10 Phase II lots at 15,000 or more. The research brief's 334 polygons and 9,400 median included some outlots."
+  },
+  {
+    "id": "johnstown-co--thompson-crossing.lot-designations",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Thompson Crossing's design guides designate lots as Estate, Large or Standard, and the Phase II guide describes its Estate Lots as lots 80 feet wide or more.",
+    "quote": "The side yard setback on those lots designated as “Estate Lots” shall be a minimum of 7 feet (Lots 80’ or wider). The side yard setback on those lots designated as “Standard” shall be a minimum of 5 feet.",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1219/Thompson-Crossing-TV-II-Design-Guidelines-42114--PDF-STAMPED",
+    "source_label": "Thompson Crossing II Design Guidelines (revised 4/21/2014), IV. Typical Improvements, item 45 Setbacks, p. 10",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "80",
+      "7",
+      "5"
+    ],
+    "notes": "The 2006 guide's items 30, 44 and 50 and Appendix B use the three designations 'Estate', 'Large' and 'Standard' (minimum finished sizes of 2,300/2,500, 2,000/2,300 and 1,650/1,900 sq ft single-story/two-story) without a lot-width definition."
+  },
+  {
+    "id": "johnstown-co--thompson-crossing.views-edges",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Thompson Crossing's landscape principles keep trees and large shrubs from blocking neighbors' views of the open spaces, the Thompson River valley and the Rocky Mountains, steer designs away from hard edges or mow curbs that mark lot lines, and ask for low, natural retaining walls.",
+    "quote": "Design landscaping so that trees or large shrubs do not block neighboring views of the open spaces, Thompson River valley, and/or the Rocky Mountains. … Avoid designs with formal plantings, hard edges, mow curbs, or other materials that delineate lot lines. • Landscaping adjacent to native open spaces should blend and harmonize with the natural landscape. • Retaining walls should be low, visually attractive, and made of natural materials to complement the architectural style of the home. They should generally blend with the masonry used on the home and should appear to be a “natural outcropping”.",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1139/Thompson-Crossing-Design-Guidelines-0706--PDF-STAMPED",
+    "source_label": "Thompson Crossing Design Guidelines (revised 07/11/2006), III. Landscape Design, Landscape Guiding Principles, p. 5",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The Phase II guide's Landscape Guiding Principles (p. 6) are word for word the same."
+  },
+  {
+    "id": "johnstown-co--thompson-crossing.fences",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Thompson Crossing's 2006 guide makes side and rear yard fences a two-rail version of the three-rail perimeter fence, allows an approved mesh on the inside, bars front yard fencing and holds privacy fencing to within 20 feet of the house, 35 feet of total length and 6 feet of height.",
+    "quote": "17) FENCES. In order to maintain a consistency throughout the community, perimeter fencing for individual side and rear yards shall be a two-rail version of the three-rail perimeter fence surrounding Thompson Crossing, and shall be of the same color. A “mesh” type material approved by the Thompson Crossing DRC will be allowed on the inside of the perimeter, side yard, and rear yard fencing. Front yard fencing is not permitted. Privacy fencing must be within 20 feet of the residence, but may not extend into any lot line setbacks, may not be more than 35 feet in total length, and may not exceed six feet in height.",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1139/Thompson-Crossing-Design-Guidelines-0706--PDF-STAMPED",
+    "source_label": "Thompson Crossing Design Guidelines (created 09/06/2005, revised 07/11/2006), IV. Typical Improvements, item 17 Fences, p. 8",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2006",
+      "17",
+      "20",
+      "35",
+      "6"
+    ]
+  },
+  {
+    "id": "johnstown-co--thompson-crossing.fences-phase-2",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "The Thompson Crossing Phase II guide calls for three-rail side and rear yard fences like the original perimeter fence, with the same mesh, front yard and privacy fence rules as the 2006 guide.",
+    "quote": "17. FENCES. In order to maintain a consistency throughout the community, perimeter fencing for individual side and rear yards shall be a three-rail perimeter fence, similar to Thompson Crossing, and shall be of the same color. A “mesh” type material approved by the Thompson Crossing DRC will be allowed on the inside of the perimeter, side yard, and rear yard fencing. Front yard fencing is not permitted.",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1219/Thompson-Crossing-TV-II-Design-Guidelines-42114--PDF-STAMPED",
+    "source_label": "Thompson Crossing II Design Guidelines (revised 4/21/2014), IV. Typical Improvements, item 17 Fences, p. 8",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2006",
+      "17"
+    ],
+    "notes": "The item continues with the same privacy-fence limits as the 2006 guide: within 20 feet of the residence, no more than 35 feet in total length, no more than six feet high."
+  },
+  {
+    "id": "johnstown-co--thompson-crossing.dual-water",
+    "layer": "utility",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Thompson Crossing's 2006 guide says every lot has a dual water system, with Town potable water indoors and non-potable irrigation water piped to landscaping while the irrigation canals run, typically May through September, so off-season watering uses the home's potable water.",
+    "quote": "All lots within Thompson Crossing are served by a dual water system: potable water from the Town of Johnstown for inside domestic use and non-potable irrigation water through a piped delivery system for landscape irrigation. Irrigation water is generally available during those time periods when the irrigation canals are running water, typically May through September. If homeowners desire to irrigate their landscaping during the off-season, it will be necessary to utilize their own potable domestic water through outside spigots, hoses, and sprinklers. The greenbelts are also irrigated with non-potable water.",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1139/Thompson-Crossing-Design-Guidelines-0706--PDF-STAMPED",
+    "source_label": "Thompson Crossing Design Guidelines (created 09/06/2005, revised 07/11/2006), III. Landscape Design, Dual Water System, p. 5",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2006"
+    ],
+    "notes": "The Phase II guide (revised 4/21/2014) has no dual-water paragraph: its III. Landscape Design opens directly with the Landscape Guiding Principles. Whether Phase II lots share the non-potable system is not stated in either guide."
+  },
+  {
+    "id": "johnstown-co--thompson-crossing.sprinklers-all-yards",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Thompson Crossing's design guides require buried sprinkler systems in front, side and back yards, automatic and clock-activated throughout all yards.",
+    "quote": "Buried sprinkler systems must be installed in front, side, and backyards. … 49) SPRINKLER SYSTEMS. All yards must have an automatic, clock-activated, buried sprinkler system throughout.",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/1139/Thompson-Crossing-Design-Guidelines-0706--PDF-STAMPED",
+    "source_label": "Thompson Crossing Design Guidelines (revised 07/11/2006), III. Specific Requirements, p. 5, and IV. item 49, p. 10",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "49"
+    ],
+    "notes": "The Phase II guide carries both (Specific Requirements, p. 6; item 50, p. 10). Neither says whether a sprinkler zone may be removed under artificial turf."
+  }
+]

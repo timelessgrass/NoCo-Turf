@@ -1,0 +1,299 @@
+{
+  "status": "draft",
+  "town": "windsor-co",
+  "slug": "water-valley",
+  "name": "Water Valley",
+  "kind": "lake",
+  "governing": {
+    "name": "Water Valley Master Association Design Review Committee",
+    "type": "both",
+    "url": "https://web.archive.org/web/20240627145626/https://www.watervalley.com/wp-content/uploads/2022/05/03-Design-Guidelines-and-Architectural-Standards-updated-for-posting.pdf",
+    "layerRefs": [
+      "windsor-co--water-valley.dg-front-grass-raw-water",
+      "windsor-co--water-valley.dg-changes-after-completion",
+      "windsor-co--water-valley.dg-landscape-checklist",
+      "windsor-co--water-valley.dg-lake-views",
+      "windsor-co--water-valley.hilltop-landscaping",
+      "windsor-co--water-valley.ravina-turf"
+    ]
+  },
+  "golf": {
+    "name": "Pelican Lakes Golf Course",
+    "layerRef": "windsor-co--water-valley.pelican-lakes-course"
+  },
+  "title": "Turf and Putting Greens in Water Valley, Windsor | NoCo Turf Co.",
+  "description": "Water Valley's guidelines never mention artificial turf. What its committee reviews, what Ravina's district bans, and the raw-water rules a turf plan meets.",
+  "h1": "Water Valley's design guidelines never mention artificial turf, and every landscaping change still goes to the committee.",
+  "display": {
+    "paint": "never mention artificial turf"
+  },
+  "lede": "Water Valley has grown up around five man-made lakes and 27 holes of golf since its first house went up in 1995, and a master association's committee reviews what goes into its yards. Its posted guidelines were written for sod watered from those lakes. Here is what they say about the ground behind the house, the Ravina rulebook that does name turf, and the irrigation lines a turf plan has to work around.",
+  "answer": {
+    "question": "Can a Water Valley back yard have artificial turf or a putting green?",
+    "answer": "In a back yard, usually, once the committee approves the plan. NoCo Turf Co. installs artificial turf and putting greens in Water Valley, Windsor, Colorado. The master association's posted guidelines never mention turf, but they send every landscaping change to its Design Review Committee and want visible front yards mostly grass. Ravina's district bans turf in front yards."
+  },
+  "blocks": [
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "The master guidelines",
+      "h2": "Turf appears nowhere in Water Valley's guidelines. Grass, lake water and committee review run all through them.",
+      "takeaway": "The Water Valley Master Association's posted design guidelines never use the words artificial turf, synthetic turf or putting green, so a turf plan is judged under their general landscaping rules.",
+      "paras": [
+        "Section 12 is the landscaping rule, and it was written around living lawn. Visible front landscaping \"must be primarily grass,\" finished within a year of the building permit, on front yards and on any back yard that sits next to or in view of open space, beaches or trails, and every planted area runs on an automatic sprinkler system tied to the Water Valley raw water tap. The landscaping checklist at the back of the booklet puts a figure on the front: 51% sod, unless a xeriscape plan is approved as a special variance.",
+        "Changing a finished yard is a submittal. Section 3 routes landscaping and other improvements to a completed home through the Design Review Committee before work starts, with a $50 fee, $20 of it returned on final approval, and the checklist wants plans approved before any materials go in. The plan labels each ground cover by material, cedar mulch or 1-inch river rock for instance, so a turf area or a green belongs on it as its own labelled surface, with its edging and the sprinkler heads it retires.",
+        "How the committee treats turf in a front yard, or how much of a visible back yard it lets turf take, is not written down. It depends on the committee: ask the Water Valley Design Review Committee before the design is final, and read the Colorado backyard rule printed below. Windsor's own landscape article leaves detached houses alone apart from the tree lawn and a landscaped quarter of the front yard, so on a detached Water Valley lot the committee is the review a turf plan really meets."
+      ],
+      "layerRefs": [
+        "windsor-co--water-valley.dg-front-grass-raw-water",
+        "windsor-co--water-valley.dg-landscape-checklist",
+        "windsor-co--water-valley.dg-changes-after-completion",
+        "windsor-co--water-valley.dg-plan-ground-cover",
+        "windsor-code-15-3-10-single-family-exempt"
+      ],
+      "sources": [
+        "https://web.archive.org/web/20240627145626/https://www.watervalley.com/wp-content/uploads/2022/05/03-Design-Guidelines-and-Architectural-Standards-updated-for-posting.pdf",
+        "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTIIISTLADEAR_S15-3-10INAP"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Ravina, District No. 3",
+      "h2": "Of the Water Valley documents posted online, Ravina's rulebook is the one that names turf, and it keeps turf out of the front yard.",
+      "takeaway": "Ravina has its own declaration and its own reviewer, the Architectural Review Committee of Water Valley Metropolitan District No. 3, with a rulebook separate from the master association's booklet.",
+      "paras": [
+        "Its Residential Improvement Guidelines and Site Restrictions, updated January 1, 2025, settle turf in Section 2.10.4 in two sentences: \"Artificial turf is prohibited in front yards. All other uses must be approved by the ARC except as otherwise provided by law or ordinance.\" Section 2.21 adds that synthetic turf may not cover walks, front steps or decks. A back-yard green in Ravina is therefore an ARC request, not a prohibited item.",
+        "The same section wants a landscaping plan that shows sod, rock, the sprinkler layout and a drainage and grading plan matching the one the municipality approved, and every Ravina yard ties into the seasonal non-potable system Poudre Tech runs. Section 2.18 lets the committee ask for a drainage engineer's report at the owner's expense, worth planning for when a green brings contoured breaks or a chipping mound. Playhouses and swing sets are held under 8 feet at the peak and 120 square feet inside, screened by planting and the approved fence.",
+        "The district's ARC page posts a 30-day review for every improvement, requests go in through its residential portal, and the guidelines set a one-time $50 fee."
+      ],
+      "layerRefs": [
+        "windsor-co--water-valley.ravina-turf",
+        "windsor-co--water-valley.ravina-landscape-plan",
+        "windsor-co--water-valley.ravina-play-equipment",
+        "windsor-co--water-valley.ravina-arc-page",
+        "windsor-co--water-valley.ravina-review"
+      ],
+      "sources": [
+        "https://www.watervalleymd3.com/files/57b8c5851/WVMD3+-+FINAL+RIGSR+w+Fence+01.01.25.pdf",
+        "https://www.watervalleymd3.com/arc-submittal-review-and-enforcement"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Lakes, beaches and trails",
+      "h2": "A lot that backs to water or open space has to keep its neighbors' view open.",
+      "paras": [
+        "Water Valley's main course keeps its distance from back fences. Pelican Lakes Golf Course, the Ted Robinson Sr. layout that opened July 12, 1999 and plays 7,264 yards among more than 300 surface acres of water, has no homes directly on it, by its club's account; the nine-hole Pelican Falls is the course with houses beside its fairways. The edges the guidelines care about are the lakes, beaches, trails and open space, and they treat those as shared: on a lot backing to open space, beaches or trails, a 6-foot privacy fence stops 24 feet short of the back lot line, any fence inside that band is open design, and the owner finishes and keeps up visible back landscaping within a year of the home's completion.",
+        "Section 18 adds a view test. Play equipment goes near the house, away from open space and lot lines, without large canopies or structures that block a neighbor's view of open space or the lakes, and the committee discourages planting that does the same. Its own example of something that \"would not normally be acceptable\" is a large blue spruce on the back edge of a lot between a neighbor's picture window and the lake.",
+        "For a putting green or an outdoor room, those rules point the same way. Section 11 encourages grade-level decks, patios and outside living areas and discourages large elevated ones, and Section 12 discourages plans that draw a rigid property boundary. A green laid flat into that open 24-foot band, with its shade trees and any chipping mound kept below the neighbors' sight line to the water, is the kind of yard these sections describe; a raised tee box or a wall of conifers along the back line is the kind they question."
+      ],
+      "layerRefs": [
+        "windsor-co--water-valley.pelican-lakes-course",
+        "windsor-co--water-valley.pelican-falls-fairway-homes",
+        "windsor-co--water-valley.dg-open-space-lots",
+        "windsor-co--water-valley.dg-lake-views",
+        "windsor-co--water-valley.dg-landscape-intent"
+      ],
+      "sources": [
+        "https://pelicanlakeswindsor.com/pelican-lakes/",
+        "https://pelicanlakeswindsor.com/pelican-falls-course/",
+        "https://web.archive.org/web/20240627145626/https://www.watervalley.com/wp-content/uploads/2022/05/03-Design-Guidelines-and-Architectural-Standards-updated-for-posting.pdf"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Neighborhood addenda",
+      "h2": "The Harbors, Marina Doce and the south filings add deadlines, deposits and a share of living cover.",
+      "paras": [
+        "Two neighborhood addenda tighten the base rules. In The Harbors, where an optional boat house is built in the house's own materials and the rear fence is black wrought iron, front and back landscaping must be installed by a professional landscaping company within 8 months of occupancy, against a $10,000 deposit. Marina Doce's addendum, effective September 18, 2006, asks for professional design and installation, accepts a xeriscape front only when the design includes a water feature and otherwise wants most of the front in sod, and holds a $20,000 deposit until the landscaping meets its requirements, due within 12 months of the house's completion.",
+        "Water Valley South's addendum, effective November 17, 2004, wants landscaping installed by professional companies that are \"either bonded or insured\" unless the DRC approves otherwise. Any irrigation design needs DRC approval before installation and a DRC-approved irrigation company to build it, and only authorized personnel may connect or disconnect a system from the raw water line, for a fee capped at $1,000 unless the DRC approves more. Moving sprinkler zones to make room for turf reads as irrigation work under that clause.",
+        "Later south filings set a share of living cover. The 18th Subdivision guidelines of 2014 (Baja, Los Cabos, Marina, Seahorse and Shadow Lake) want 51% of the front and rear yard in live landscape material at maturity, and the 15th and 16th filings ask for 51% grass or xeriscape with a living appearance, plus rear yards with grass, trees and shrubs. Artificial turf is not live material, so on those streets a design that keeps at least half of each yard growing gives the committee the least to object to. Whether that share can limit backyard turf under the Colorado rule printed above hasn't been tested; it depends on the committee, so ask it before sizing the turf."
+      ],
+      "layerRefs": [
+        "windsor-co--water-valley.harbors-addendum",
+        "windsor-co--water-valley.marina-doce-addendum",
+        "windsor-co--water-valley.wvs-landscaping-irrigation",
+        "windsor-co--water-valley.wvs-18th-live-cover",
+        "windsor-co--water-valley.wvs-15th-16th-living-yard",
+        "co-hoa-backyard-detached"
+      ],
+      "sources": [
+        "https://web.archive.org/web/20240627145626/https://www.watervalley.com/wp-content/uploads/2022/05/03-Design-Guidelines-and-Architectural-Standards-updated-for-posting.pdf",
+        "https://leg.colorado.gov/bill_files/92307/download"
+      ]
+    },
+    {
+      "kind": "housing",
+      "own": true,
+      "kicker": "Hilltop Estates and Pelican Hills",
+      "h2": "On Hilltop Estates' acreage lots, irrigated sod stops at 20,000 square feet.",
+      "paras": [
+        "The estate pocket on Hilltop Circle and Drive and the bird-named courts, Barn Owl, Kestrel, Merlin, Osprey and the rest, has its own addendum. Windsor's parcel map puts 97 parcels inside the three Hilltop Estates plats, which cover about 283 acres; the median parcel is about 105,800 square feet, roughly 2.4 acres, and 93 of them are 2 acres or more.",
+        "The addendum caps irrigated sod at 20,000 square feet per lot, metered on the raw water system, with the front yard in sod. On a median lot that cap covers under a fifth of the ground, so most of a Hilltop lot was always going to be something other than irrigated lawn: planting beds, native areas, hardscape, play space. The plan must come from a landscape design professional and show fencing, planting beds, edging and mulch types, storage, play areas and decks, with at least four shade trees and two 6-foot conifers per lot.",
+        "Turf isn't named here either. Whether the committee counts an artificial-turf area against the 20,000-square-foot cap, or treats a large green as a play area, is not settled in the addendum: ask the committee, which the addendum calls the A.C.C., with the plan in hand. Its approval list names the landscape plan, playhouses, playground equipment, swing sets and site lighting; landscaping is due within 12 months of the certificate of occupancy; and play equipment sits back from rear and side lines by at least its own height, never less than 5 feet. An outbuilding that matches the house can be approved here too; the submittal form offers that option to Pelican Hills and Hilltop Estates only."
+      ],
+      "layerRefs": [
+        "windsor-co--water-valley.hilltop-lots",
+        "windsor-co--water-valley.hilltop-landscaping",
+        "windsor-co--water-valley.hilltop-approval-items",
+        "windsor-co--water-valley.dg-ancillary-form"
+      ],
+      "sources": [
+        "https://gis.windsorgov.com/arcgis/rest/services/Community/Parcels/MapServer/0",
+        "https://gis.windsorgov.com/arcgis/rest/services/Planning/Subdivisions/MapServer/0",
+        "https://web.archive.org/web/20240627145626/https://www.watervalley.com/wp-content/uploads/2022/05/03-Design-Guidelines-and-Architectural-Standards-updated-for-posting.pdf"
+      ]
+    },
+    {
+      "kind": "utility",
+      "own": true,
+      "kicker": "Raw water",
+      "h2": "Every yard drinks from the lakes, and the meter pit in the back yard has to stay uncovered.",
+      "paras": [
+        "Poudre Tech Metropolitan District runs the raw water system. It diverts water from the Cache la Poudre River through the Eaton and Whitney ditches, holds it in seven irrigation lakes, filters it and pumps it to a meter in each yard; the Water Valley South addendum puts a ¾-inch tap at the back of each lot. The water is on from about mid-April to mid-October, and owners winterize their own lines.",
+        "The district's owner guide puts each home's meter pit in the back yard, and the district wants the pit and its curb stop \"exposed and uninhibited by landscaping, rock, mulch, bird baths, decks or patios\"; damage to either can be billed back to the owner. A turf layout here is drawn around the pit: the lid stays clear, the base and edging stop short of it, and district staff can reach the curb stop.",
+        "For 2026 the bill has two parts: an annual capital fee of $277.68 per home, charged when the season opens, and $4.53 for each 1,000 gallons that pass the meter. Swapping lawn for turf trims only the metered part. The capital fee doesn't shrink with the lawn, and the beds, trees and front sod the guidelines still ask for keep drawing water."
+      ],
+      "layerRefs": [
+        "windsor-co--water-valley.ptmd-water-source",
+        "windsor-co--water-valley.wvs-landscaping-irrigation",
+        "windsor-co--water-valley.ptmd-season",
+        "windsor-co--water-valley.ptmd-meter-back-yard",
+        "windsor-co--water-valley.ptmd-meter-pit",
+        "windsor-co--water-valley.ptmd-rates-2026"
+      ],
+      "sources": [
+        "https://www.poudretechmetro.org/non-potable-irrigation-water",
+        "https://www.poudretechmetro.org/files/5a2ab63bd/Irrigation+Water+Owner+Guide+2026.pdf",
+        "https://www.poudretechmetro.org/files/addd2e777/2+-+Water+Rate+Fact+Sheet+2026.pdf",
+        "https://web.archive.org/web/20240627145626/https://www.watervalley.com/wp-content/uploads/2022/05/03-Design-Guidelines-and-Architectural-Standards-updated-for-posting.pdf"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "How long does Water Valley's committee take to answer a landscaping request?",
+      "a": "The documents disagree. The guidelines promise a written answer within 60 working days of a complete submittal, the submittal form says up to 60 days, and the landscaping checklist says 48 to 72 hours for a landscaping, fencing or deck plan, longer if something is missing. Ask the Design Review Committee, and book the install only once the written approval is in hand.",
+      "layerRefs": [
+        "windsor-co--water-valley.dg-ancillary-60-days",
+        "windsor-co--water-valley.dg-ancillary-form",
+        "windsor-co--water-valley.dg-landscape-plan-48-72"
+      ]
+    },
+    {
+      "q": "How far from the lot line does play equipment have to sit in Water Valley?",
+      "a": "It depends which line of the checklist you read. Item 1 says at least the equipment's tallest height from rear and side lot lines, never under 5 feet; item 4 says 8 feet from the property line and non-obstructive to neighbors. Ask the committee which it applies before placing a play structure, or a green's shade feature, near the line.",
+      "layerRefs": [
+        "windsor-co--water-valley.dg-play-equipment-setbacks"
+      ]
+    },
+    {
+      "q": "Does a turf plan in Water Valley also need the Town of Windsor?",
+      "a": "For turf alone on a detached house, mostly not: Windsor's landscape article exempts those houses apart from the tree lawn and a landscaped share of the front yard, which leaves the yard to the committee. The committee's form says its approval isn't the Town's, and its checklist sends a new deck, porch or attached shed to Windsor for a building permit once the committee approves.",
+      "layerRefs": [
+        "windsor-code-15-3-10-single-family-exempt",
+        "windsor-co--water-valley.dg-ancillary-form",
+        "windsor-co--water-valley.dg-town-permit-reminder"
+      ]
+    },
+    {
+      "q": "What if Ravina's committee doesn't answer?",
+      "a": "The Ravina guidelines say to contact the district when 30 days pass without a decision. If a second submittal also goes 30 days unanswered, it counts as approved, but only for work fully described in the plans and in full compliance with the declaration and the guidelines, so send a complete plan the first time.",
+      "layerRefs": [
+        "windsor-co--water-valley.ravina-review"
+      ]
+    },
+    {
+      "q": "I'm in Pelican Shores. Who reviews my yard?",
+      "a": "Start with your own association. Trumark's 2022 description of the lakefront neighborhood, 51 interior lots and eight on the water, says its HOA dues include landscape maintenance and non-potable water, so a yard change there begins with the Pelican Shores association; ask it which committee reviews turf.",
+      "layerRefs": [
+        "windsor-co--water-valley.pelican-shores-hoa"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Water Valley Master Association, Design Guidelines & Architectural Standards, with the Hilltop Estates/Pelican Hills, The Harbors, Water Valley South (November 17, 2004), Marina Doce (September 18, 2006) and 15th, 16th and 18th Subdivision (2014) addenda and the ancillary submittal form (Wayback Machine copy captured June 27, 2024; the watervalley.com original now returns 404)",
+      "url": "https://web.archive.org/web/20240627145626/https://www.watervalley.com/wp-content/uploads/2022/05/03-Design-Guidelines-and-Architectural-Standards-updated-for-posting.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Ravina Subdivision and Water Valley Metropolitan District No. 3, Residential Improvement Guidelines and Site Restrictions (updated January 1, 2025)",
+      "url": "https://www.watervalleymd3.com/files/57b8c5851/WVMD3+-+FINAL+RIGSR+w+Fence+01.01.25.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Water Valley Metropolitan District No. 3, ARC Submittal, Review and Enforcement page",
+      "url": "https://www.watervalleymd3.com/arc-submittal-review-and-enforcement",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Poudre Tech Metropolitan District and Water Valley Metropolitan District Nos. 1 & 2, Non-Potable Irrigation Water page (2026 fees, season, meter pit and curb stop)",
+      "url": "https://www.poudretechmetro.org/non-potable-irrigation-water",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Poudre Tech Metropolitan District, Non-Potable Irrigation Water: Owner Guide 2026",
+      "url": "https://www.poudretechmetro.org/files/5a2ab63bd/Irrigation+Water+Owner+Guide+2026.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "RainDance and Poudre Tech Metropolitan District, Water Rate Fact Sheet 2026",
+      "url": "https://www.poudretechmetro.org/files/addd2e777/2+-+Water+Rate+Fact+Sheet+2026.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "The Water Valley Company, Our Story (first home 1995; more than 2,500 residential units, 27 holes, five man-made lakes)",
+      "url": "https://thewatervalleycompany.com/our-story/",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Pelican Lakes Resort & Golf, Pelican Lakes Course page (Ted Robinson Sr., opened July 12, 1999, 7,264 yards)",
+      "url": "https://pelicanlakeswindsor.com/pelican-lakes/",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Pelican Lakes Resort & Golf, Pelican Falls Course page",
+      "url": "https://pelicanlakeswindsor.com/pelican-falls-course/",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Trumark Homes blog, 10 Things You Need To Know About Pelican Shores (February 10, 2022)",
+      "url": "https://trumarkhomes.com/blog/trumark-homes-takes-colorado-10-things-you-need-to-know-about-pelican-shores/",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Town of Windsor GIS, Community/Parcels layer (97 parcels inside the Hilltop Estates plats; median about 105,800 sq ft)",
+      "url": "https://gis.windsorgov.com/arcgis/rest/services/Community/Parcels/MapServer/0",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Town of Windsor GIS, Planning/Subdivisions layer (Hilltop Estates, 2nd and 3rd filings, about 283 acres)",
+      "url": "https://gis.windsorgov.com/arcgis/rest/services/Planning/Subdivisions/MapServer/0",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Windsor Municipal Code Sec. 15-3-10(b)(1)",
+      "url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTIIISTLADEAR_S15-3-10INAP",
+      "checked": "2026-09-24"
+    },
+    {
+      "label": "C.R.S. 38-33.3-106.5 and 37-60-126(11)(a.5), SB23-178 (signed act)",
+      "url": "https://leg.colorado.gov/bill_files/92307/download",
+      "checked": "2026-09-26"
+    }
+  ],
+  "checked": "2026-09-26",
+  "needsFromBrian": [
+    "Any NoCo job in Water Valley, and which part: Water Valley North/Pelican Lakes, a Water Valley South filing, The Harbors, Marina Doce, Pelican Shores, Hilltop Estates/Pelican Hills or Ravina; month, rough size, turf area or putting green. None is known, so the page makes no claim about work there.",
+    "Camera-original photos from a Water Valley job, before and after, added to photos.ts with community 'windsor-co--water-valley'. No photo is tagged with this community, so the page can't pass the gate and carries no photo.",
+    "Any Water Valley Design Review Committee or Ravina ARC approval for turf or a green, with its conditions (edging, sprinkler changes, a drainage report), and the owner's consent to describe it.",
+    "The current Water Valley Master Association design guidelines: the public PDF now returns 404 and the page relies on a Wayback Machine copy (file modified April 19, 2022). Ask Advance HOA whether a newer edition exists and whether it now addresses artificial turf.",
+    "For accuracy, ask the committee (not for the page): does turf count against the 51% front-yard sod figure, the Hilltop 20,000-square-foot irrigated-sod cap or the south filings' 51% live-cover share; and which play-equipment setback applies, 5 feet or height versus 8 feet?",
+    "Whether NoCo has re-zoned sprinklers or worked around a Poudre Tech meter pit in Water Valley, and which DRC-approved irrigation company it used in Water Valley South.",
+    "Confirm NoCo builds putting greens today (services.ts putting-greens is unconfirmed)."
+  ]
+}

@@ -1,0 +1,525 @@
+[
+  {
+    "id": "firestone-co--owl-lake-estates.cov-6.14-ground-cover",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Owl Lake Estates' covenants require each owner to plant and keep appropriate ground cover once the house is finished, allow bare ground only in gardens, and bar poplar trees.",
+    "quote": "After construction of the dwelling has been completed on each lot, the owner(s) shall promptly plant and maintain appropriate ground cover on the lot. Ground shall not be permitted to remain bare on any lot except for areas being used for gardens. No Poplar trees shall be permitted.",
+    "source_url": "https://www.owllake.com/wp-content/uploads/owl_lake_covenants_firestone_colorado.pdf",
+    "source_label": "Declaration of Covenants, Conditions and Restrictions for Owl Lake Estates, Section 6.14 Landscaping (recorded in Weld County 1997; scanned PDF on owllake.com)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The PDF is a scan with no text layer; read from the page image (page 7 of 10) on 2026-09-26 and checked against a machine OCR pass."
+  },
+  {
+    "id": "firestone-co--owl-lake-estates.cov-no-turf-rule",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Owl Lake Estates' covenants, the members' January 13, 2010 amendments, the HOA bylaws and the ACC project form never mention artificial turf, synthetic grass or putting greens, and the covenants' one landscaping section is the ground-cover rule (read September 26, 2026).",
+    "quote": "Section 6.14. Landscaping. After construction of the dwelling has been completed on each lot, the owner(s) shall promptly plant and maintain appropriate ground cover on the lot.",
+    "source_url": "https://www.owllake.com/wp-content/uploads/owl_lake_covenants_firestone_colorado.pdf",
+    "source_label": "Declaration of Covenants, Conditions and Restrictions for Owl Lake Estates, all 10 pages including Exhibit A amendments of January 13, 2010; HOA bylaws and ACC project form read the same day (Section 6.14 quoted)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "13",
+      "2010",
+      "26",
+      "2026"
+    ],
+    "notes": "Searched the OCR text of the scanned covenants and bylaws and the text of the ACC form for turf, synthetic, artificial, grass, lawn, sod, putting and landscap. Only Section 6.14 matched. Bylaws: https://www.owllake.com/wp-content/uploads/owl_lake_bylaws_firestone_colorado.pdf"
+  },
+  {
+    "id": "firestone-co--owl-lake-estates.cov-5.05-structures",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Owl Lake Estates' covenants bar erecting or placing any structure on a lot, or altering a structure's exterior, until the Architectural Control Committee approves the plans.",
+    "quote": "No structure shall be erected or placed on any lot, nor shall the exterior of any structure be altered, until the constructions and specifications have been approved by the Committee.",
+    "source_url": "https://www.owllake.com/wp-content/uploads/owl_lake_covenants_firestone_colorado.pdf",
+    "source_label": "Declaration of Covenants, Conditions and Restrictions for Owl Lake Estates, Article V, Section 5.05",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "firestone-co--owl-lake-estates.cov-5.07-thirty-days",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Owl Lake Estates' covenants give the committee 30 days from receiving all required materials to approve or disapprove a proposed structure, and a structure it does not act on in time may go ahead if it breaks no other covenant.",
+    "quote": "The Committee shall approve or disapprove the proposed structure within thirty days after receipt of all materials required to be submitted to the Committee. If the Committee fails to act upon the proposal within such time, then the proposed structure may be erected without further approval, so long as it does not otherwise violate any of the covenants or restrictions contained herein.",
+    "source_url": "https://www.owllake.com/wp-content/uploads/owl_lake_covenants_firestone_colorado.pdf",
+    "source_label": "Declaration of Covenants, Conditions and Restrictions for Owl Lake Estates, Article V, Section 5.07",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "30"
+    ]
+  },
+  {
+    "id": "firestone-co--owl-lake-estates.cov-6.01-town-code",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Owl Lake Estates' covenants make every owner responsible for following the Firestone Municipal Code as well as the covenants, with the more restrictive rule applying where the two conflict.",
+    "quote": "Each lot Owner shall be responsible for complying with the Firestone Municipal Code and this Declaration. Whenever a conflict exists between the two, the more restrictive provisions shall apply.",
+    "source_url": "https://www.owllake.com/wp-content/uploads/owl_lake_covenants_firestone_colorado.pdf",
+    "source_label": "Declaration of Covenants, Conditions and Restrictions for Owl Lake Estates, Article VI, Section 6.01",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "firestone-co--owl-lake-estates.acc-page-structural",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "The Owl Lake ACC's page asks for written approval before any structural improvement, naming new homes, additions, outbuildings and fences, says the committee rules within 30 days, and recommends talking to the ACC chair first.",
+    "quote": "Prior to making any structural improvement (new home, additions, outbuildings, fences) to your property, you must request written approval from the ACC using the Architectural Review Application and Project Plan below. The ACC shall approve or disapprove the proposal within 30 days of receipt of the materials. … For streamlining the process, we highly recommend contacting the ACC Chair beforehand for a brief discussion on what is expected.",
+    "source_url": "https://www.owllake.com/architectural-control-committee/",
+    "source_label": "Owl Lake Estates HOA, Architectural Control Committee page",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "30"
+    ],
+    "notes": "The page also lists the members' names and home addresses; never reproduce them."
+  },
+  {
+    "id": "firestone-co--owl-lake-estates.about-exterior-changes",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "The Owl Lake HOA's About page says new homes, additions, fences, improvements or changes to a home's exterior must go to the Architectural Control Committee for approval before work begins.",
+    "quote": "All new home builds, additions, fences, improvements or changes to the exterior of your home MUST be submitted for the approval of the HOA’s Architectural Control Committee before you begin.",
+    "source_url": "https://www.owllake.com/about/",
+    "source_label": "Owl Lake Estates HOA, About Owl Lake Estates page (Architectural Control Committee section)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "firestone-co--owl-lake-estates.acc-form-2025",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "The Owl Lake ACC's project form, last revised June 2025, covers homes, additions, outbuildings, garages, sheds, pool houses and fences plus an Other box, gives the committee up to 30 days with typical answers in 1 to 2 weeks, and advises ACC approval before asking the Town of Firestone for a permit.",
+    "quote": "Homeowners must use this form to submit a project proposal before building a new home, an addition to a current home, outbuilding, garage, shed, or fence within the Owl Lake Estates neighborhood. … The ACC has up to 30 days to respond to your submission, but typical responses are within 1-2 weeks. It is highly advised to get approval from the ACC before submitting and requesting a permit from the Town of Firestone.",
+    "source_url": "https://www.owllake.com/wp-content/uploads/OLE-ACC-Homeowner-Project-Plan-Template-2022.pdf",
+    "source_label": "Owl Lake Estates HOA, Homeowner Project Plan for the Architecture Control Committee (ACC), last revision June 2025",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2025",
+      "30",
+      "1",
+      "2"
+    ],
+    "notes": "Project types on page 1: Home or an addition to a home; Garage/outbuilding/shed/pool house; Fence; Other. The page-2 checklist has no landscaping section."
+  },
+  {
+    "id": "firestone-co--owl-lake-estates.meeting-2026-town-first",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "At the Owl Lake HOA's May 30, 2026 annual meeting the ACC chair asked owners to check that a project is allowed by Town of Firestone rules before applying to the ACC.",
+    "quote": "Anytime you are looking for ACC approval, please look to the town of Firestone first to ensure it is allowed by city rules prior to applying to ACC.",
+    "source_url": "https://www.owllake.com/wp-content/uploads/owl-lake-estates-2026-annual-meeting-not-approved.pdf",
+    "source_label": "Owl Lake Estates HOA, 2026 Annual Meeting minutes, ACC Activities (May 30, 2026; not approved until the next annual meeting)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "30",
+      "2026"
+    ],
+    "notes": "The minutes list residents by name and address; never reproduce them."
+  },
+  {
+    "id": "firestone-co--owl-lake-estates.acc-resources-xeriscape",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "The Owl Lake ACC's resources page lists xeriscape guides and the Town of Firestone Lawn Replacement Program for owners changing their yards.",
+    "quote": "This page intent is to help out the homeowner with useful links and resources on maintaining or enhancing the appearance of their property. … Xeriscape Resources WaterWise – Xeriscape Town of Firestone – Lawn Replacement Program",
+    "source_url": "https://www.owllake.com/architectural-control-committee/acc-resources/",
+    "source_label": "Owl Lake Estates HOA, ACC and Water Resources page",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "firestone-co--owl-lake-estates.about-water-sources",
+    "layer": "utility",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "The Owl Lake HOA says the Town of Firestone supplies the neighborhood's domestic water, while untreated ditch water held in the lake is pumped to the common areas and homes when it is available.",
+    "quote": "Domestic water is provided by the Town of Firestone. … When available, irrigation water is supplied to the common areas and private homes by a distribution system operated by the HOA. Untreated water is delivered to an onsite lake by a series of ditches and is pumped from the lake by pumps and is delivered to the common areas and private homes through a piping system around the neighborhood.",
+    "source_url": "https://www.owllake.com/about/",
+    "source_label": "Owl Lake Estates HOA, About Owl Lake Estates page (Domestic/City Water and Irrigation Water sections)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "firestone-co--owl-lake-estates.cov-7.02d-lake-easement",
+    "layer": "place",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Owl Lake Estates' covenants dedicate to the HOA a non-exclusive, perpetual right to use the lake for irrigation water storage.",
+    "quote": "(d) Lake Easement. A non-exclusive perpetual right to use the lake for irrigation water storage.",
+    "source_url": "https://www.owllake.com/wp-content/uploads/owl_lake_covenants_firestone_colorado.pdf",
+    "source_label": "Declaration of Covenants, Conditions and Restrictions for Owl Lake Estates, Article VII, Section 7.02(d)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "firestone-co--owl-lake-estates.irrigation-supplemental",
+    "layer": "utility",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "The Owl Lake HOA calls its irrigation system supplemental, says its unfiltered, non-potable water comes with no guarantee, and notes that owners can water from their Town tap instead, though that can be cost prohibitive.",
+    "quote": "The HOA irrigation system is a supplemental system to help assist homeowners when resources are available. The irrigation water is considered an extra benefit to the HOA, but there is no guarantee of water. … Homeowners can also water their lawns and landscape using their Firestone Town tap/water system, but sometimes it can be cost prohibitive. … The irrigation water is non-potable water. It’s is not filtered or cleaned.",
+    "source_url": "https://www.owllake.com/irrigation-water/",
+    "source_label": "Owl Lake Estates HOA, Irrigation Water page (HOA Irrigation Water System Overview, Water Quality)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "firestone-co--owl-lake-estates.irrigation-shares-leases",
+    "layer": "utility",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "The Owl Lake HOA owns 11 shares of the New Coal Ridge Ditch and leases 30 to 60 shares of storage water in an average year, when any is available.",
+    "quote": "11 Shares of New Coal Ridge Ditch (River water) … The HOA Leases or rents 30-60 shares on average of storage water each year (when available)",
+    "source_url": "https://www.owllake.com/irrigation-water/",
+    "source_label": "Owl Lake Estates HOA, Irrigation Water page (Owned vs Leased Water)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "11",
+      "30",
+      "60"
+    ],
+    "notes": "The page also lists 65 Panama Class B storage shares; the 2026 annual meeting minutes say that water cannot reach the pond, so the HOA leases those shares out."
+  },
+  {
+    "id": "firestone-co--owl-lake-estates.leases-2020-share",
+    "layer": "utility",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "The Owl Lake HOA's 2020 irrigation notice said its own water rights supply 30 to 40 percent of a season's water on average, with 60 to 70 percent coming from leases.",
+    "quote": "On average, our water rights supply the HOA with 30%-40% of water used each irrigation season. … A reminder: on average, 60%-70% of our water comes from leases!",
+    "source_url": "https://www.owllake.com/wp-content/uploads/Important-Irrigation-Water-Update-2020.pdf",
+    "source_label": "Owl Lake Estates HOA, Important Irrigation Water Notice (revised for 2020), linked from the Irrigation Water page",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2020",
+      "30",
+      "40",
+      "60",
+      "70"
+    ]
+  },
+  {
+    "id": "firestone-co--owl-lake-estates.saddleback-shared-ditch",
+    "layer": "place",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "The Owl Lake HOA shares responsibility for the main ditch, the lateral ditch and water scheduling with Saddleback Golf Course, which also sits on the Coal Ridge Ditch Association board.",
+    "quote": "The HOA works closely with Saddleback Golf Course as we share responsibility for the main ditch, lateral ditch, scheduling and they are also on the Coal Ridge Ditch Association board.",
+    "source_url": "https://www.owllake.com/irrigation-water/",
+    "source_label": "Owl Lake Estates HOA, Irrigation Water page (FAQ: Why is there algae?)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "firestone-co--owl-lake-estates.meeting-2026-section-18-lateral",
+    "layer": "utility",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "The Owl Lake HOA's 2026 annual meeting minutes say the neighborhood gets its irrigation water from the Coal Ridge Ditch through the Section 18 lateral, whose flow had been falling for several years until a root ball blocking the pipe was found.",
+    "quote": "Owl Lake gets its water from Coal Ridge Ditch (specifically the Section 18 lateral), last few years the water flow has slowly been decreasing. … Scope indicated root ball blocking the pipe",
+    "source_url": "https://www.owllake.com/wp-content/uploads/owl-lake-estates-2026-annual-meeting-not-approved.pdf",
+    "source_label": "Owl Lake Estates HOA, 2026 Annual Meeting minutes, Irrigation System / Water Updates: Ditch Lateral Blockage (May 30, 2026; not approved until the next annual meeting)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "18",
+      "2026"
+    ],
+    "notes": "Read from the PDF text layer on 2026-09-26. The minutes list residents by name and address; never reproduce them."
+  },
+  {
+    "id": "firestone-co--owl-lake-estates.lake-evaporation",
+    "layer": "research",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "The Owl Lake HOA says the lake is not engineered, that CSU Extension told it to expect about 1 to 3 inches of evaporation a week, and that by its own calculation a lake filled to roughly 7 feet at the end of the year is basically dry at the start of the watering season.",
+    "quote": "Owl Lake is not an engineered pond/lake … expect ~1-3 inches of evaporation per week. … If we fill the lake at the end of the year to its max depth, it’s roughly about seven feet. … which is why we are basically dry at the beginning of the watering season.",
+    "source_url": "https://www.owllake.com/irrigation-water/",
+    "source_label": "Owl Lake Estates HOA, Irrigation Water page (FAQ: Does the Lake/Pond leak?, CSU Extension visit)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "3",
+      "7"
+    ]
+  },
+  {
+    "id": "firestone-co--owl-lake-estates.newsletter-april-2026",
+    "layer": "drought",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "In April 2026 the Owl Lake HOA told owners it had not been able to secure water because of the drought and that they should plan for little to no HOA irrigation water that season.",
+    "quote": "Due to the ongoing drought, the HOA has not been able to secure water at this time and does not anticipate having irrigation water available for the majority of the summer season. … homeowners should plan for little to no HOA irrigation water this season.",
+    "source_url": "https://www.owllake.com/wp-content/uploads/owl-lake-estates-hoa-letter-april-2026.pdf",
+    "source_label": "Owl Lake Estates HOA, April 2026 newsletter (HOA Water Availability)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2026"
+    ]
+  },
+  {
+    "id": "firestone-co--owl-lake-estates.ditch-status-sept-2026",
+    "layer": "drought",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "By September 1, 2026 the Owl Lake HOA was running on leased restricted water it cannot store, could lease no more for the year, reported use outrunning supply, and relayed the ditch rider's warning that the ditch could stop at any moment.",
+    "quote": "After talking to the ditch rider today on water status, his update was “You’re lucky the ditch is still alive, it can cease at any moment!” … Our water situation is not keeping up with usage. Once we are out of water, we are done for the season. … Restricted water is a careful calculation of water availability, but the water can not be stored. … we can not request or lease any more water for 2026",
+    "source_url": "https://www.owllake.com/",
+    "source_label": "Owl Lake Estates HOA, home page, Supplemental Irrigation Water status (update of Sept 1, 2026)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-11-15",
+    "numbers": [
+      "1",
+      "2026"
+    ],
+    "notes": "The irrigation status on the page read System is ON on 2026-09-26. Re-read after the season closes."
+  },
+  {
+    "id": "firestone-co--owl-lake-estates.restrictions-2026",
+    "layer": "drought",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "For 2026 the Owl Lake HOA limits lake watering to 5 p.m. to 10 a.m. on alternating days by address and no more than 20 minutes per zone, in line with the Town's restrictions, and says leniency will be given for brown and stressed lawns.",
+    "quote": "the HOA board has enabled the same watering restrictions that aligns with the Town of Firestone recently enacted watering restrictions … Continue to maintain your properties, leniency will give given for brown and stressed lawns. … Any type of lake watering is limited between 5:00 p.m. and 10:00 a.m. … NO MORE THAN 20 MINUTES PER ZONE!",
+    "source_url": "https://www.owllake.com/",
+    "source_label": "Owl Lake Estates HOA, home page, Important 2026 Owl Lake Water Restrictions",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-11-15",
+    "numbers": [
+      "2026",
+      "5",
+      "10",
+      "20"
+    ],
+    "notes": "Even-numbered addresses water Mon, Wed, Fri and Sun; odd-numbered Tue, Thu, Sat and Sun. The quote keeps the page's typo (will give given)."
+  },
+  {
+    "id": "firestone-co--owl-lake-estates.backflow-dual-systems",
+    "layer": "utility",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "At Owl Lake Estates, a sprinkler system connected to both Town water and the lake must have an RP or RPZ backflow assembly tested every year, a requirement the HOA says the Town of Firestone mandates.",
+    "quote": "Homeowners with dual systems (connected to town potable water and irrigation water at same time) must have a RP/RPZ backflow installed and have a certified backflow test every year. This is a high hazard backflow assembly with dual checks. This is mandated by the town of Firestone for the safety of the town’s drinking supply.",
+    "source_url": "https://www.owllake.com/irrigation-water/",
+    "source_label": "Owl Lake Estates HOA, Irrigation Water page (Mandatory RP/RPZ Backflows and Backflow Testing)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "firestone-co--owl-lake-estates.homes-26",
+    "layer": "place",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "The Owl Lake HOA describes the neighborhood as 26 custom homes on acreage lots with a private lake, in Firestone.",
+    "quote": "Located in Firestone, Colorado, Owl Lake Estates features 26 beautiful custom homes on rare, acreage lots. Owl Lake offers vast mountain views, a peaceful, private lake with a small community atmosphere and of course, beautiful owls!",
+    "source_url": "https://www.owllake.com/",
+    "source_label": "Owl Lake Estates HOA, home page (welcome text)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "26"
+    ]
+  },
+  {
+    "id": "firestone-co--owl-lake-estates.about-common-areas",
+    "layer": "place",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "The Owl Lake HOA's common areas are the native and partly landscaped ground around the lake and a strip by the lake's access road on the east side, while the Town of Firestone maintains the streets.",
+    "quote": "The HOA’s common areas include the native and partially landscaped area around the lake and a strip of property near the access road to the lake on the east side of the neighborhood. The streets in the community are maintained by the Town of Firestone.",
+    "source_url": "https://www.owllake.com/about/",
+    "source_label": "Owl Lake Estates HOA, About Owl Lake Estates page (Common Area Maintenance)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "firestone-co--owl-lake-estates.plat-first-filing",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "The 1996 final plat of Owl Lake Estates' first filing shows 16 lots of 1.022 to 1.868 acres and a 4.619-acre Tract A designated as open space for the HOA, usable for utilities, drainage, irrigation and landscaping.",
+    "quote": "LOT 1 44,502 SQ.FT. 1.022 ACRES … LOT 5 81,368 SQ.FT. 1.868 ACRES … TRACT A 201,201 SQ.FT. 4.619 ACRES … TRACT A IS DESIGNATED AS OPEN SPACE FOR THE HOMEOWNERS ASSOCIATION AND AS SUCH CAN BE USED FOR THE INSTALLATION AND MAINTENANCE OF UTILITIES, DRAINAGE, IRRIGATION, LANDSCAPING, ACCESS, AND FOR THE MAINTENANCE OF EXISTING GAS AND OIL APPURTENANCES",
+    "source_url": "https://www.owllake.com/wp-content/uploads/owl-lake-first-filing-plot-map.pdf",
+    "source_label": "Final Plat, Owl Lake Estates Subdivision to the Town of Firestone (Landmark Engineering, recorded in Weld County 1996)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1996",
+      "16",
+      "1.022",
+      "1.868",
+      "4.619",
+      "1",
+      "44502",
+      "5",
+      "81368",
+      "201201"
+    ],
+    "notes": "Scanned plat, read from the rendered image. Block 1 has lots 1 to 9, Block 2 lots 1 to 7 (16). The smallest is Block 1 Lot 1 (1.022 acres), the largest Block 2 Lot 5 (1.868). Tracts B, C and D were later resubdivided by the 2nd filing."
+  },
+  {
+    "id": "firestone-co--owl-lake-estates.plat-second-filing",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "The 1998 plat of Owl Lake Estates 2nd Subdivision resubdivided Tracts B, C and D of the first filing into 10 lots of 1.207 to 4.396 acres.",
+    "quote": "OWL LAKE ESTATES 2ND SUBDIVISION TO THE TOWN OF FIRESTONE BEING A RESUBDIVISION OF TRACTS B, C, & D OF OWL LAKE ESTATES SUBDIVISION TO THE TOWN OF FIRESTONE … LOT 9 52,575 SQ.FT. 1.207 ACRES … LOT 5 191,496 SQ.FT. 4.396 ACRES",
+    "source_url": "https://www.owllake.com/wp-content/uploads/owl-lake-second-filing-plot-map.pdf",
+    "source_label": "Plat, Owl Lake Estates 2nd Subdivision to the Town of Firestone (Landmark Engineering, recorded in Weld County July 29, 1998)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1998",
+      "10",
+      "1.207",
+      "4.396",
+      "2",
+      "9",
+      "52575",
+      "5",
+      "191496"
+    ],
+    "notes": "Scanned plat, read from the rendered image. Lots 1 to 10; the 16 first-filing lots plus these 10 match the HOA's count of 26 homes."
+  },
+  {
+    "id": "firestone-co--owl-lake-estates.plat-easements",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Owl Lake Estates' first-filing plat marks easements on the lots for drainage, existing gas and oil lines, irrigation, landscaping and utilities, and keeps irrigation ditch users' and utilities' right of access to their easements.",
+    "quote": "EASEMENT FOR THE USE OF THE FOLLOWING: DRAINAGE, EXISTING GAS AND OIL COMPANIES FACILITIES AND LINES, IRRIGATION, LANDSCAPING, AND UTILITIES. … Irrigation ditch users and all utility companies shall maintain the right of ingress and egress to their respective easement.",
+    "source_url": "https://www.owllake.com/wp-content/uploads/owl-lake-first-filing-plot-map.pdf",
+    "source_label": "Final Plat, Owl Lake Estates Subdivision to the Town of Firestone, easement legend and notes (recorded in Weld County 1996)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The 2nd-filing plat carries the same easement legend and ditch-access note."
+  },
+  {
+    "id": "firestone-co--owl-lake-estates.cov-6.02-setback",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Owl Lake Estates' covenants keep each house at least 25 feet from its lot lines and off any utility or drainage easement.",
+    "quote": "The residence (excluding eaves, stops, overhangs, bay windows, and any other usual projections) shall not be located on any lot nearer than twenty-five (25) feet to the lot lines, nor encroach upon any utility or drainage easement.",
+    "source_url": "https://www.owllake.com/wp-content/uploads/owl_lake_covenants_firestone_colorado.pdf",
+    "source_label": "Declaration of Covenants, Conditions and Restrictions for Owl Lake Estates, Article VI, Section 6.02",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "25"
+    ]
+  },
+  {
+    "id": "firestone-co--owl-lake-estates.cov-6.15a-fences",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Since the members' January 13, 2010 amendment, Owl Lake Estates allows only wooden or white vinyl pole fences up to 42 inches on a lot's perimeter and wood or white vinyl interior or privacy fences up to 6 feet, and every fence needs the committee's approval in advance.",
+    "quote": "Any fence erected on any lot perimeter shall be built of wooden treated or white vinyl poles with ends inserted into slotted wooden or white vinyl posts and shall not exceed 42” in height. No other type of perimeter fence shall be permitted. Interior or privacy fencing shall not exceed 6 feet in height, with all interior fences, and shall be constructed with wooden or white vinyl material. All fences shall be approved in advance by the Architectural Control Committee.",
+    "source_url": "https://www.owllake.com/wp-content/uploads/owl_lake_covenants_firestone_colorado.pdf",
+    "source_label": "Declaration of Covenants, Conditions and Restrictions for Owl Lake Estates, Exhibit A, amended Section 6.15a (motioned and passed by HOA members January 13, 2010)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "13",
+      "2010",
+      "42",
+      "6"
+    ]
+  }
+]

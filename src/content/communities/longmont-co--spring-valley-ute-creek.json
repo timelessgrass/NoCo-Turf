@@ -1,0 +1,268 @@
+{
+  "status": "draft",
+  "town": "longmont-co",
+  "slug": "spring-valley-ute-creek",
+  "name": "Spring Valley at Ute Creek",
+  "kind": "golf",
+  "governing": {
+    "name": "Spring Valley at Ute Creek Homeowners Association, Inc.",
+    "type": "hoa",
+    "url": "https://flagstaffmanagement.com/s/SV-Design-Guidelines-2026-g2yj.pdf",
+    "layerRefs": [
+      "longmont-co--spring-valley-ute-creek.turf-rear-yards",
+      "longmont-co--spring-valley-ute-creek.front-yards",
+      "longmont-co--spring-valley-ute-creek.rear-no-approval",
+      "longmont-co--spring-valley-ute-creek.landscape-plan",
+      "longmont-co--spring-valley-ute-creek.arc-approval"
+    ]
+  },
+  "golf": {
+    "name": "Ute Creek Golf Course",
+    "layerRef": "longmont-co.ute-creek-golf"
+  },
+  "title": "Artificial Turf in Spring Valley at Ute Creek HOA | NoCo Turf Co.",
+  "description": "Spring Valley at Ute Creek's May 2026 guidelines allow artificial turf in rear yards only, ARC-approved, professionally installed and 1½ to 2 inches tall.",
+  "h1": "Spring Valley at Ute Creek allows artificial turf in rear yards only, and its guidelines spell out what that turf has to be.",
+  "display": {
+    "paint": "rear yards only"
+  },
+  "lede": "The design guidelines Spring Valley at Ute Creek revised in May 2026 give artificial turf a list of standards of its own: behind the house, laid by a professional, and approved in writing by the Architectural Review Committee before the old lawn comes out. The same pages never mention a putting green, so a green reaches the committee as rear-yard turf and gets read against that list.",
+  "answer": {
+    "question": "Can I install artificial turf or a putting green in Spring Valley at Ute Creek?",
+    "answer": "Yes, in the back yard, once the Architectural Review Committee approves it in writing. NoCo Turf Co. installs artificial turf and putting greens in Spring Valley at Ute Creek, Longmont, Colorado. The HOA's May 2026 guidelines require professionally installed, UV-protected turf in rear yards only; front yards must stay at least 30% vegetation, and putting greens aren't mentioned."
+  },
+  "blocks": [
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Section 2.36",
+      "h2": "Real grass is preferred; the artificial kind gets five written standards.",
+      "takeaway": "“Real turf is preferred. Artificial turf may be permitted (in rear yards only) with ARC approval.” Five minimum standards follow, and only the last one, on height, says should where the other four say must.",
+      "paras": [
+        "The four firm ones: a realistic natural-green color with an ultraviolet coating against fading in full sun; professional installation, with the homeowner keeping it up from then on; densely packed blades that vary in shade the way live grass does; and a product suited to what it will be used for, because, in the section's words, different types of artificial grass serve different functions. The fifth says the turf should be at least 1½ to 2 inches high.",
+        "That use clause is where a backyard putting green comes in. A putting surface is short, dense turf made for a ball to roll on, not the lawn-height product the height line pictures, and nothing in the guidelines says whether the committee reads the use clause as covering a green or holds a green to the 1½-inch line. It depends on how the ARC reads its own list, so put the question to the committee before a green's surface is chosen.",
+        "Live grass is treated more lightly. The same section lets sod, a sprinkler system, mulch, rock and flowers go into a rear yard with no ARC approval at all; replacing that lawn with artificial turf is an application."
+      ],
+      "layerRefs": [
+        "longmont-co--spring-valley-ute-creek.turf-rear-yards",
+        "longmont-co--spring-valley-ute-creek.rear-no-approval"
+      ],
+      "sources": [
+        "https://flagstaffmanagement.com/s/SV-Design-Guidelines-2026-g2yj.pdf"
+      ]
+    },
+    {
+      "kind": "golf",
+      "own": true,
+      "kicker": "On the course",
+      "h2": "57 of the 279 lots share a property line with the Ute Creek course.",
+      "takeaway": "Boulder County's parcel map puts 57 of the association's 279 lots against the parcels platted as Spring Valley Golf Course: 41 in Block 5 of the first filing and 16 in Block 2 of Replat A.",
+      "paras": [
+        "Ute Creek, a Robert Trent Jones II Group layout, has been open since 1997. The HOA's own site says the neighborhood borders several holes on the back nine, the stretch where the course's five lakes and two streams come into play most, and that the course keeps putting and chipping greens beside its driving range: a short drive for anyone who wants to feel a speed before choosing one for home.",
+        "Every lot, course-side or not, sits under the declaration's golf ball easement. Golfers may come onto an unfenced yard to fetch an errant ball, but not into a fenced or walled one without the owner's permission. Owners are told to expect maintenance from early morning into the evening, possibly treated-effluent watering and heavy fertilizing at times, and are barred from anything that distracts play. Turf on a course lot will collect balls, and where the developer put in split-rail fencing, Section 2.27 keeps it unless the ARC approves a change, so the yard behind it stays in view of the course."
+      ],
+      "layerRefs": [
+        "longmont-co--spring-valley-ute-creek.golf-course-lots",
+        "longmont-co--spring-valley-ute-creek.hoa-site",
+        "longmont-co.ute-creek-golf",
+        "longmont-co--spring-valley-ute-creek.golf-ball-easement",
+        "longmont-co--spring-valley-ute-creek.fences"
+      ],
+      "sources": [
+        "https://maps.bouldercounty.org/arcgis/rest/services/PARCELS/PARCELS_OWNER/MapServer/0/query",
+        "https://www.springvalleyatutecreek.com/",
+        "https://www.golflongmont.com/ute-creek",
+        "https://flagstaffmanagement.com/s/AR-Declaration-Covenants-NEW.pdf",
+        "https://flagstaffmanagement.com/s/SV-Design-Guidelines-2026-g2yj.pdf"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "The request",
+      "h2": "If the committee says nothing in 30 days, the answer is no.",
+      "takeaway": "The declaration gives the ARC 30 days to reply in writing; when it takes no action on the plans in that time, approval is deemed denied. A request has to be complete enough to be decided the first time.",
+      "paras": [
+        "Requests go on the association's Design Review Request form, filed with Flagstaff Management in Longmont, with the landscaping plans enclosed. Section 2.13.3 lists what those plans show: fences, decks, sod and seeded areas, retaining walls, rock, the sprinkler plan, nursery sizes and species, a drainage and grading plan, and a timetable for starting and finishing. On a turf or putting-green job, that drawing is where the removed lawn, the changed sprinkler layout and the path water takes off the new surface all get shown.",
+        "The guidelines repeat the 30-day denial, then add a sentence on when deemed approval applies that the declaration doesn't contain. It depends which text a disagreement turns on, so don't read a quiet month either way: ask the ARC, through Flagstaff, where the request stands.",
+        "Approval starts clocks of its own. Under the declaration, work not begun within six months loses its approval unless the committee extends it, and approved work is due within six months of starting; Section 2.13.3 gives landscaping 365 days from plan approval, and the request form asks for completion within a year. Owners report completion within five days and let the committee inspect, and work that departs from the approved plan loses its approval. No review fee is posted; the declaration instead lets the committee ask for its actual review expense."
+      ],
+      "layerRefs": [
+        "longmont-co--spring-valley-ute-creek.arc-approval",
+        "longmont-co--spring-valley-ute-creek.drr-form",
+        "longmont-co--spring-valley-ute-creek.landscape-plan",
+        "longmont-co--spring-valley-ute-creek.guidelines-review-wording",
+        "longmont-co--spring-valley-ute-creek.start-finish-inspect",
+        "longmont-co--spring-valley-ute-creek.review-expense",
+        "longmont-co--spring-valley-ute-creek.flagstaff-page"
+      ],
+      "sources": [
+        "https://flagstaffmanagement.com/s/AR-Declaration-Covenants-NEW.pdf",
+        "https://flagstaffmanagement.com/s/SV-DESIGN-REVIEW-REQUEST-INSTRUCTIONS.pdf",
+        "https://flagstaffmanagement.com/s/SV-Design-Guidelines-2026-g2yj.pdf",
+        "https://flagstaffmanagement.com/spring-valley-ute-creek-board"
+      ]
+    },
+    {
+      "kind": "housing",
+      "own": true,
+      "kicker": "Lots and swales",
+      "h2": "Half the lots measure about 6,300 to 8,300 square feet, and every lot's back and side edges carry drainage.",
+      "takeaway": "The declaration reserves drainage easements across the rear five feet and side five feet of each lot, and nothing may go in or be regraded there that changes or slows the flow through the swales.",
+      "paras": [
+        "Boulder County's parcel polygons put the 279 lots at about 5,300 to 16,100 square feet, with a median near 6,900 and 30 lots over 10,000. On lots that size, a turf panel or a green usually runs close to those edge easements, and the grade underneath is not the owner's to reshape freely: the declaration has each owner keep the slope set at final grading and send any change to the lot's established drainage to the committee as a plan.",
+        "The guidelines add their own drainage rules. Any change affecting drainage needs ARC approval, water must run away from the foundation and the driveway, and the ARC may ask for a drainage engineer's report with a landscaping plan. A contoured green, a raised base or new edging along a side swale belongs on the grading plan for that reason. Buried lines matter too: the guidelines tell owners not to build improvements over utility easements without the utility's consent."
+      ],
+      "layerRefs": [
+        "longmont-co--spring-valley-ute-creek.parcel-lot-sizes",
+        "longmont-co--spring-valley-ute-creek.declaration-279-lots",
+        "longmont-co--spring-valley-ute-creek.drainage-easement",
+        "longmont-co--spring-valley-ute-creek.guidelines-drainage",
+        "longmont-co--spring-valley-ute-creek.utilities-government"
+      ],
+      "sources": [
+        "https://maps.bouldercounty.org/arcgis/rest/services/PARCELS/PARCELS_OWNER/MapServer/0/query",
+        "https://flagstaffmanagement.com/s/AR-Declaration-Covenants-NEW.pdf",
+        "https://flagstaffmanagement.com/s/SV-Design-Guidelines-2026-g2yj.pdf"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Around the turf",
+      "h2": "Fences, lights, fire and planting beds each have their own line in the guidelines.",
+      "paras": [
+        "Fences are built to the wing-fence or two- or three-rail specifications at 4 or 5 feet, six-foot fencing between homes has to taper down to split-rail height, chain link is out, and no fence of any kind goes in a front yard. An open patio needs approval and has to belong to the landscape plan without blocking drainage, while Section 2.42 asks for approval of paving in front yards only; it depends which section the ARC applies to a patio beside the turf, so include it on the same request.",
+        "Lighting carries the line most likely to catch a design-led backyard out. Fixtures must be conventional in style and follow Longmont's dark-sky guidance, no lamp may put out more than a 100-watt incandescent bulb, low landscape lighting is to be used sparingly, and the guidelines call security floodlighting and LED lighting unacceptable. How that last line applies to low-voltage lights around a green or a path isn't spelled out, so name every fixture on the request and ask the ARC.",
+        "A fire feature has to burn gas: new wood-burning pits and chimineas won't be approved, while natural-gas or propane pits are when they meet the guidelines and the city's building code. Beds around the turf can be xeriscape if they follow City of Longmont guidelines, combine at least four design elements and water trees and plants with hidden drip lines, and anything planted out back that will grow above the fence needs approval with its species named."
+      ],
+      "layerRefs": [
+        "longmont-co--spring-valley-ute-creek.fences",
+        "longmont-co--spring-valley-ute-creek.patios-paving",
+        "longmont-co--spring-valley-ute-creek.lighting",
+        "longmont-co--spring-valley-ute-creek.firepits",
+        "longmont-co--spring-valley-ute-creek.xeriscape",
+        "longmont-co--spring-valley-ute-creek.rear-no-approval"
+      ],
+      "sources": [
+        "https://flagstaffmanagement.com/s/SV-Design-Guidelines-2026-g2yj.pdf"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can artificial turf go in a Spring Valley at Ute Creek front yard?",
+      "a": "No. Section 2.36 keeps artificial turf to rear yards, front yards must hold at least 30% vegetation, and all-rock front yards are banned; Section 2.25 also keeps turf off walks, front steps and decks. Colorado requires every HOA to pre-approve at least three water-wise front-yard designs, and none is listed on the association's Flagstaff page, so ask the ARC which ones it has chosen. What state law changes for backyards is on our [HOA turf approval](/guides/hoa-turf-approval/) page.",
+      "layerRefs": [
+        "longmont-co--spring-valley-ute-creek.front-yards",
+        "longmont-co--spring-valley-ute-creek.flagstaff-page",
+        "co-hoa-front-yard-designs"
+      ]
+    },
+    {
+      "q": "I live in Spring Valley Golf Estates. Do these rules apply to me?",
+      "a": "No. Golf Estates is a separate planned community with its own association, declared in 2000 with 51 lots and room for up to 160, though Flagstaff Management handles both. Its rules, amended April 24, 2018, require at least 50% sod in each lot's front and back yards unless its ARC approves otherwise, with in-ground sprinklers front and back. Requests go in at least 30 days before work starts, and the approved form stays in a front window until the job is finished. How that sod minimum sits with Colorado's backyard turf law is a question for the Golf Estates ARC; see [HOA turf approval](/guides/hoa-turf-approval/).",
+      "layerRefs": [
+        "longmont-co--spring-valley-ute-creek.golf-estates-lots",
+        "longmont-co--spring-valley-ute-creek.golf-estates-sod",
+        "longmont-co--spring-valley-ute-creek.golf-estates-drr"
+      ]
+    },
+    {
+      "q": "I want turf for a dog on a course lot. What do the documents say?",
+      "a": "They allow for it, with conditions. The declaration lists unfenced or unleashed dogs that interfere with play among the things owners must avoid, and Section 2.27 lets owners add wire mesh, also called hog wire or hardware cloth, inside an existing split-rail fence without ARC approval; chicken wire isn't allowed. A dog run goes in the rear yard only, out of easy view from the street and matched to the house, and it needs approval like the turf does.",
+      "layerRefs": [
+        "longmont-co--spring-valley-ute-creek.golf-ball-easement",
+        "longmont-co--spring-valley-ute-creek.fences",
+        "longmont-co--spring-valley-ute-creek.dog-runs"
+      ]
+    },
+    {
+      "q": "Does the City of Longmont need to sign off as well?",
+      "a": "For some pieces. Section 1.5 says ARC approval is no assurance that a project meets government rules or needs no permit, and the request form says the same about city building permits. Longmont wants a building permit for every fence or wall, and a gas fire pit has to meet the city's building code. The city's 2026 landscape standards are written for plans filed for new development and redevelopment; if a project may count as either, ask Longmont Planning.",
+      "layerRefs": [
+        "longmont-co--spring-valley-ute-creek.utilities-government",
+        "longmont-co--spring-valley-ute-creek.drr-form",
+        "longmont-co.ldc-15-05-100-fences",
+        "longmont-co--spring-valley-ute-creek.firepits",
+        "longmont-co.planning-landscape-regulations"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Spring Valley @ Ute Creek Homeowners Association, Design Guidelines and Site Restrictions (revised May 2026), Secs. 1.5, 1.6, 2.13.3, 2.13.4, 2.21, 2.23, 2.25, 2.27, 2.28, 2.36, 2.38, 2.41 and 2.42",
+      "url": "https://flagstaffmanagement.com/s/SV-Design-Guidelines-2026-g2yj.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Amended and Restated Declaration of Covenants, Conditions, and Restrictions of Spring Valley (Boulder County Reception No. 03928495, recorded 11/16/2021), Secs. 2.2, 2.7, 2.8, 5.5 and 6.1 to 6.8, and Exhibit A",
+      "url": "https://flagstaffmanagement.com/s/AR-Declaration-Covenants-NEW.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Spring Valley @ Ute Creek, Design Review Request form (c/o Flagstaff Management, Inc., Longmont)",
+      "url": "https://flagstaffmanagement.com/s/SV-DESIGN-REVIEW-REQUEST-INSTRUCTIONS.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Flagstaff Management, Spring Valley at Ute Creek community page (Architecture & Landscape documents)",
+      "url": "https://flagstaffmanagement.com/spring-valley-ute-creek-board",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Spring Valley at Ute Creek HOA, About Us",
+      "url": "https://www.springvalleyatutecreek.com/",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Boulder County Assessor parcels (PARCELS_OWNER layer): the 279 Spring Valley Phase I Filing 1 and Replat A lots, their areas, and a spatial query against the Spring Valley Golf Course parcels, queried 2026-09-26",
+      "url": "https://maps.bouldercounty.org/arcgis/rest/services/PARCELS/PARCELS_OWNER/MapServer/0/query",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "City of Longmont Golf, Ute Creek Golf Course",
+      "url": "https://www.golflongmont.com/ute-creek",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Declaration of Covenants, Conditions and Restrictions for Spring Valley Golf Estates (Boulder County Reception No. 2077969, recorded 09/12/2000), Secs. 2.1 to 2.3",
+      "url": "https://flagstaffmanagement.com/s/SpringValleyGolfEstates-covenants9.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Spring Valley Golf Estates Homeowners Association, Rules and Regulations (amended April 24, 2018), Addendum to Sec. 9.3.T",
+      "url": "https://flagstaffmanagement.com/s/SpringValleyGolfEstates-Amended-Revised-Rules-20180424.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Spring Valley Golf Estates, Design Review Request Guidelines and Form (6-6-16)",
+      "url": "https://flagstaffmanagement.com/s/SpringValleyGolfEstates-GE-DRR-request-and-Guidelines-6-6-16-1.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "C.R.S. 38-33.3-106.5(1)(i.5)(II), added by SB23-178 (signed act)",
+      "url": "https://leg.colorado.gov/bill_files/92307/download",
+      "checked": "2026-09-24"
+    },
+    {
+      "label": "Longmont Land Development Code Sec. 15.05.100, Fences and walls (codified through Ord. No. O-2026-39, June 23, 2026)",
+      "url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.05DEST_S15.05.100FEWA",
+      "checked": "2026-09-25"
+    },
+    {
+      "label": "City of Longmont Planning and Development Services, Landscape Regulations",
+      "url": "https://longmontcolorado.gov/planning-and-development-services/environmental-planning/landscape-regulations/",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-26",
+  "needsFromBrian": [
+    "Camera-original photos taken in Spring Valley at Ute Creek, tagged in src/data/photos.ts with community 'longmont-co--spring-valley-ute-creek' (or a place naming Spring Valley at Ute Creek): before and after of a rear-yard turf job or a putting green, ideally one of the 57 lots on the Ute Creek course. The page cannot publish without one.",
+    "Any Spring Valley at Ute Creek (or Spring Valley Golf Estates) jobs NoCo has done: month, rough size, course lot or interior lot, turf, pet turf or putting green.",
+    "What the Spring Valley ARC asked for or attached as conditions on those jobs: the turf spec sheet, pile height, drainage or grading plan, sprinkler changes, fence mesh, lighting.",
+    "Whether the ARC has ever approved a putting green under the 1½-to-2-inch height line in Sec. 2.36, or treated a green as a different use, and whether it has ruled on low-voltage LED landscape lights under Sec. 2.38.",
+    "Whether the Golf Estates ARC has approved backyard turf against its 50% sod rule since Colorado's 2023 backyard turf law.",
+    "Confirmation that NoCo serves Longmont and installs backyard putting greens today (services.ts putting-greens is unconfirmed)."
+  ]
+}

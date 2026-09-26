@@ -1,0 +1,269 @@
+{
+  "status": "draft",
+  "town": "firestone-co",
+  "slug": "barefoot-lakes",
+  "name": "Barefoot Lakes",
+  "kind": "lake",
+  "governing": {
+    "name": "St. Vrain Lakes Metropolitan Districts",
+    "type": "metro-district",
+    "url": "https://www.stvrainmd.live/files/5457a4faf/SVLMD+-+2026+08+07+-+Amended+%26+Restated+Residential+Improvement+Guidelines+%26+Site+Restrictions+for+Barefoot.pdf",
+    "layerRefs": [
+      "firestone-co.svlmd-rig-turf-cap",
+      "firestone-co.svlmd-rig-turf-install",
+      "firestone-co--barefoot-lakes.rig-turf-edges",
+      "firestone-co--barefoot-lakes.rig-landscape-approval",
+      "firestone-co.svlmd-landscape-guide-75",
+      "firestone-co.svlmd-design-review"
+    ]
+  },
+  "title": "Barefoot Lakes Turf & Putting Green Rules, Firestone | NoCo Turf Co.",
+  "description": "Barefoot Lakes' August 2026 guidelines cap turf of any height at half the side and rear yard. Edges, the water sheet, fire pits, access and the 60-day review.",
+  "h1": "Barefoot Lakes' August 2026 guidelines cap turf of any height at half the side and rear yard.",
+  "display": {
+    "paint": "half the side and rear yard"
+  },
+  "lede": "Barefoot Lakes' guidelines require approval for lot landscaping, drawn to a measurable scale with every plant, stone and strip of edging labeled. The metro district's Architectural Review Committee reads the turf, its edges, the water budget, the fire pit and the route the base rock takes to the back gate, and the district's own documents still disagree about the turf cap.",
+  "answer": {
+    "question": "Can I put artificial turf or a putting green in a Barefoot Lakes backyard?",
+    "answer": "Yes, once the Architectural Review Committee approves it. NoCo Turf Co. installs artificial turf and putting greens in Barefoot Lakes, Firestone, Colorado. The August 2026 guidelines consider turf for fenced side or rear yards and cap turf of any height at 50% of those yards; a July 2026 residents' guide still says 75%."
+  },
+  "blocks": [
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "The turf cap",
+      "h2": "Three district documents give three turf ceilings, and the newest says 50%.",
+      "takeaway": "The August 7, 2026 guidelines give the lowest figure, and it is the only one that fits beside the live-plant minimum the residents' guide prints next to its own 75%.",
+      "paras": [
+        "Section 3.7 of the Residential Improvement Guidelines, as amended and restated August 7, 2026, lets the Architectural Review Committee consider artificial turf in fenced side or rear yards, keeps the right to ask for screening, and holds turf “of any height” to one limit: half of the combined rear and side yard. At least half of that area must be live plants on a permeable surface, so a patio, a path and the turf share whatever is left.",
+        "The residents' landscape guide, revised July 20, 2026, still allows turf on 75% of those yards, while the same bullet asks for live plants on at least 50% of them, so its 75% can never actually be reached. The builders' guide of December 19, 2024 adds a third figure, less than 70% of the area able to be landscaped. Firestone's own code also wants half of the combined side and rear yards in live plants, with turf not counted. It depends which document the committee applies to your lot, so ask the ARC for its figure in writing before the plan is drawn."
+      ],
+      "layerRefs": [
+        "firestone-co.svlmd-rig-turf-cap",
+        "firestone-co.svlmd-landscape-guide-75",
+        "firestone-co--barefoot-lakes.builders-guide-70",
+        "firestone-fdc-16.6.4-live-plant-limit"
+      ],
+      "sources": [
+        "https://www.stvrainmd.live/files/5457a4faf/SVLMD+-+2026+08+07+-+Amended+%26+Restated+Residential+Improvement+Guidelines+%26+Site+Restrictions+for+Barefoot.pdf",
+        "https://www.stvrainmd.live/files/14212f700/SVLMD+-+2026+07+20+-+Barefoot+Design+Guidelines+for+Residents.pdf",
+        "https://www.stvrainmd.live/files/df7364e8f/SVLMD+-+2024+12+19+-+Barefoot+Lakes+Landscape+Design+Guidelines+for+Builders.pdf",
+        "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Putting surfaces",
+      "h2": "No Barefoot Lakes design document mentions a putting green, so a green rides on the turf rules and the committee's discretion.",
+      "paras": [
+        "Neither the Residential Improvement Guidelines nor the district's three landscape design books use the word putting (searched September 26, 2026). With nothing written for greens, expect a green to be read under Section 3.7 as artificial turf, and that section wants the request to name its intended use, its color and its pile height.",
+        "That section was written for a lawn. It asks for a blade of 1.75 to 3 inches, at least 70 ounces of face weight, a color similar to the geographical area, preferably a blended multi-color fiber, and turf that emulates natural grass. A surface cut shorter than 1.75 inches sits outside that rule. The committee's pre-approved list holds 15 lawn products and no putting surface, so a green arrives with a sample and specifications, and anything outside the written rules is a variance granted at the committee's sole discretion. Take the sample, the green's square footage and its share of the half-yard cap to the ARC in one package. Firestone's own pile rule is on the [Firestone putting-green page](/areas/firestone-co/putting-greens/)."
+      ],
+      "layerRefs": [
+        "firestone-co--barefoot-lakes.no-putting-provision",
+        "firestone-co.svlmd-rig-turf-install",
+        "firestone-co.svlmd-rig-turf-cap",
+        "firestone-co.svlmd-approved-turf-list"
+      ],
+      "sources": [
+        "https://www.stvrainmd.live/files/5457a4faf/SVLMD+-+2026+08+07+-+Amended+%26+Restated+Residential+Improvement+Guidelines+%26+Site+Restrictions+for+Barefoot.pdf",
+        "https://www.stvrainmd.live/design-review"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Edges",
+      "h2": "The guidelines draw the turf's border as carefully as the turf.",
+      "paras": [
+        "Section 3.7.2 goes past the weed barrier, porous aggregate base and professional installation it requires. Every edge is anchored and hidden behind bender board, concrete curbing or something similar; seams are taped or glued, never sewn; the lot's established drainage pattern can't be blocked or changed; and where turf meets a native area, at least 4 inches of hardscape or 12 inches of planting sits between them. Trees, shrubs and perennials stay out of the turf, planted at least half their mature spread back from its edge.",
+        "Firestone adds a 3-foot living, permeable buffer between turf and any property line, and the residents' guide keeps turf a foot off the face of a fence in a mulched planting strip and 5 feet off the foundation. Those guide offsets read as written for the sod lawn; whether the committee holds artificial turf to them is its call, so draw them in and ask. Barefoot Lakes is the part of Barefoot south of Ronald Reagan Boulevard, where homes sit among the lakes, open space and trails along the St. Vrain River. The guide's drawings mark the existing tract fence as privacy or open-rail, varying by lot, and in its Category 3 fence area Town regulations allow only the short open-rail fence along tracts. Behind an open rail the turf is on view from the tract, and Section 3.7 says screening may be required."
+      ],
+      "layerRefs": [
+        "firestone-co--barefoot-lakes.rig-turf-edges",
+        "firestone-co.svlmd-rig-turf-install",
+        "firestone-co.fdc-16.6.4-buffer-slope",
+        "firestone-co--barefoot-lakes.residents-guide-fence-zone",
+        "firestone-co--barefoot-lakes.residents-guide-open-rail",
+        "firestone-co--barefoot-lakes.redland-quarry-lakes"
+      ],
+      "sources": [
+        "https://www.stvrainmd.live/files/5457a4faf/SVLMD+-+2026+08+07+-+Amended+%26+Restated+Residential+Improvement+Guidelines+%26+Site+Restrictions+for+Barefoot.pdf",
+        "https://www.stvrainmd.live/files/14212f700/SVLMD+-+2026+07+20+-+Barefoot+Design+Guidelines+for+Residents.pdf",
+        "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+        "https://www.redland.com/project/barefoot-lakes/"
+      ]
+    },
+    {
+      "kind": "utility",
+      "own": true,
+      "kicker": "The water sheet",
+      "h2": "A Barefoot Lakes landscape plan goes in with a water budget against the Little Thompson allotment.",
+      "paras": [
+        "Plan review here asks for a separate sheet of interior and exterior water use, showing the lot stays inside its annual allotment from Little Thompson Water District. The residents' guide puts most Barefoot Lakes lots at 114,000 gallons a year, indoor and outdoor together, and each owner has to confirm their own figure. A pond or water feature, a pool and a hot tub each bring their own water calculation to the request.",
+        "Little Thompson says 77% of Barefoot's supply is Windy Gap water that includes a planned reuse component, and that without that reuse project the supply would be 83% of what was intended, which could bring more frequent watering restrictions. Turf takes no irrigation water, so its square footage comes off the outdoor side of the sheet. The live-plant half still needs the underground automatic irrigation every lot must have, and where the district maintains a lot's landscaping or irrigation, the owner can't alter either."
+      ],
+      "layerRefs": [
+        "firestone-co--barefoot-lakes.residents-guide-water-calc",
+        "firestone-co--barefoot-lakes.rig-water-features",
+        "firestone-co--barefoot-lakes.ltwd-supply-reuse",
+        "firestone-co--barefoot-lakes.rig-irrigation-district-lots"
+      ],
+      "sources": [
+        "https://www.stvrainmd.live/files/14212f700/SVLMD+-+2026+07+20+-+Barefoot+Design+Guidelines+for+Residents.pdf",
+        "https://www.stvrainmd.live/files/5457a4faf/SVLMD+-+2026+08+07+-+Amended+%26+Restated+Residential+Improvement+Guidelines+%26+Site+Restrictions+for+Barefoot.pdf",
+        "https://www.littlethompsonwd.gov/barefoot-lakes"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Outdoor rooms",
+      "h2": "Fire pits and pergolas carry their own setbacks, on lots that start at 4,500 square feet.",
+      "paras": [
+        "A built-in fire pit belongs in the rear or side yard: 10 feet from the house, fencing, other structures and flammable materials if it burns gas, 15 feet if it burns wood, and never over an easement or inside an oil and gas well setback. The community's civil engineers describe the site as carrying existing oil and gas infrastructure, so ask the committee where any well setback falls before siting one. Pergolas and arbors stay in rear or side yards, with an inside height of no more than 8 feet 6 inches.",
+        "Front-loaded single-family lots start at 4,500 square feet and often widen to 50 to 60 foot frontages for three-car garages, so a 15-foot clearance around a wood fire takes a real share of the yard. The guidelines don't say whether artificial turf counts as a flammable material for that setback. It depends on how the ARC reads “flammable materials”, so ask it before turf runs up to a fire-pit pad."
+      ],
+      "layerRefs": [
+        "firestone-co--barefoot-lakes.rig-fire-pits-pergolas",
+        "firestone-co--barefoot-lakes.rig-lot-types",
+        "firestone-co--barefoot-lakes.redland-quarry-lakes"
+      ],
+      "sources": [
+        "https://www.stvrainmd.live/files/5457a4faf/SVLMD+-+2026+08+07+-+Amended+%26+Restated+Residential+Improvement+Guidelines+%26+Site+Restrictions+for+Barefoot.pdf",
+        "https://www.redland.com/project/barefoot-lakes/"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Timing and access",
+      "h2": "The review clock, the approval's shelf life and the route to the back gate.",
+      "paras": [
+        "The committee has 60 days from a complete request to rule, and a denial or conditional approval can go to the district board on appeal within 30 days. The request form gives approved work 6 months to start and 12 to finish before the approval lapses. A first owner applies for rear-yard landscaping within 9 months of closing, and the review fee for that first rear-yard plan is collected when the lot is bought from the developer or builder.",
+        "Base rock and turf rolls need a way in. Driving across district property, wheelbarrows included, is generally not allowed, and materials may not sit in the public street. Reaching a yard across district land takes a written request with photos, and an approved request puts a $1,200 deposit invoice on the owner's account. The Design Review page asks for a photo of the fence section to be taken down, while the request form says district fencing can't come down for access. It depends how the district reads the two for your lot, so ask the committee before a delivery is booked."
+      ],
+      "layerRefs": [
+        "firestone-co.svlmd-design-review",
+        "firestone-co--barefoot-lakes.request-form-terms",
+        "firestone-co--barefoot-lakes.rig-approval-schedule",
+        "firestone-co--barefoot-lakes.district-property-access"
+      ],
+      "sources": [
+        "https://www.stvrainmd.live/files/5457a4faf/SVLMD+-+2026+08+07+-+Amended+%26+Restated+Residential+Improvement+Guidelines+%26+Site+Restrictions+for+Barefoot.pdf",
+        "https://www.stvrainmd.live/files/70867a181/SVLMD+-+2024+10+25+-+Design+Review+Application+USE.pdf",
+        "https://www.stvrainmd.live/design-review"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Which turf limit applies in Barefoot Lakes, 50% or 75%?",
+      "a": "The guidelines dated August 7, 2026 say 50% of the combined rear and side yard, counting turf of any height. The residents' guide revised July 20, 2026 still prints 75%. Ask the ARC in writing which figure it will apply to your lot, and keep its answer with your approval.",
+      "layerRefs": [
+        "firestone-co.svlmd-rig-turf-cap",
+        "firestone-co.svlmd-landscape-guide-75"
+      ]
+    },
+    {
+      "q": "Barefoot Lakes has no HOA. Does Colorado's HOA turf rule reach it?",
+      "a": "It depends. The St. Vrain Lakes Metropolitan Districts took on covenant enforcement and design review in place of a separate homeowners' association, and the state rule is written for HOAs. Whether it binds the district is a legal question: ask the ARC, and read the [HOA approval guide](/guides/hoa-turf-approval/). Not legal advice.",
+      "layerRefs": [
+        "firestone-co.svlmd-districts"
+      ]
+    },
+    {
+      "q": "Does the district's approval replace the Town of Firestone turf permit?",
+      "a": "No. Section 3.7.2 makes the owner get any permit Firestone requires before installation, and Firestone requires one for artificial turf, free for a single-family home. The guidelines add that ARC approval is no assurance a plan meets Town requirements.",
+      "layerRefs": [
+        "firestone-co.svlmd-rig-turf-install",
+        "firestone-fdc-16.6.4-permit",
+        "firestone-co--barefoot-lakes.rig-approval-schedule"
+      ]
+    },
+    {
+      "q": "Can turf go in a Barefoot Lakes front yard or a corner lot's back yard?",
+      "a": "Not in the front yard: the residents' guide allows turf only in the rear and side yard, and wants at least 75% of the front yard in live plants, driveways excluded. A corner lot with open-rail fencing is held to those front-yard rules in its rear yard as well, so ask the ARC before designing one.",
+      "layerRefs": [
+        "firestone-co--barefoot-lakes.residents-guide-rear-side-only",
+        "firestone-co.svlmd-rig-turf-cap",
+        "firestone-co--barefoot-lakes.residents-guide-open-rail"
+      ]
+    },
+    {
+      "q": "Can I turf a dog area in Barefoot Lakes?",
+      "a": "Yes, inside the turf rules. They call for proper infill such as silica sand or Envirofill in kid and pet areas, and allow a product with less secondary thatch for a pet-only area. A fenced dog run is its own approval: rear yard or behind the wing fence, screened with plants, 3 feet off a side lot line and no larger than 200 square feet unless the ARC grants a variance.",
+      "layerRefs": [
+        "firestone-co.svlmd-rig-turf-install",
+        "firestone-co.svlmd-rig-dog-runs"
+      ]
+    },
+    {
+      "q": "Can the district make me replace old turf?",
+      "a": "Yes. The district reserves the right to inspect artificial turf and require replacement once its life expectancy, typically 15 to 20 years, is reached, or sooner if it isn't kept in good condition. The guidelines also expect turf to be cleaned and groomed as needed.",
+      "layerRefs": [
+        "artificial-turf-warranty.barefoot-replace-life-expectancy",
+        "firestone-co--barefoot-lakes.rig-turf-edges"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "St. Vrain Lakes Metropolitan Districts, Amended and Restated Residential Improvement Guidelines and Site Restrictions for Barefoot (as of August 7, 2026)",
+      "url": "https://www.stvrainmd.live/files/5457a4faf/SVLMD+-+2026+08+07+-+Amended+%26+Restated+Residential+Improvement+Guidelines+%26+Site+Restrictions+for+Barefoot.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "St. Vrain Lakes Metropolitan Districts, Barefoot Lakes Landscape Design Guidelines, Guide for Residents (revised July 20, 2026)",
+      "url": "https://www.stvrainmd.live/files/14212f700/SVLMD+-+2026+07+20+-+Barefoot+Design+Guidelines+for+Residents.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "St. Vrain Lakes Metropolitan Districts, Barefoot Lakes Landscape Design Guidelines, Guide for Builders (revised December 19, 2024)",
+      "url": "https://www.stvrainmd.live/files/df7364e8f/SVLMD+-+2024+12+19+-+Barefoot+Lakes+Landscape+Design+Guidelines+for+Builders.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "St. Vrain Lakes Metropolitan Districts, Design Review page (approved turf list, access across district property)",
+      "url": "https://www.stvrainmd.live/design-review",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "St. Vrain Lakes Metropolitan Districts, Design Review Request Form (Revision 10/2024)",
+      "url": "https://www.stvrainmd.live/files/70867a181/SVLMD+-+2024+10+25+-+Design+Review+Application+USE.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "St. Vrain Lakes Metropolitan Districts, About page",
+      "url": "https://www.stvrainmd.live/about",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Little Thompson Water District, Barefoot Lakes page",
+      "url": "https://www.littlethompsonwd.gov/barefoot-lakes",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Redland, Barefoot Lakes project page",
+      "url": "https://www.redland.com/project/barefoot-lakes/",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Firestone Development Code 16.6.4, Landscaping, screening, and fencing (codified through Ord. No. 1072, Dec. 10, 2025)",
+      "url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+      "checked": "2026-09-26"
+    }
+  ],
+  "checked": "2026-09-26",
+  "needsFromBrian": [
+    "Camera-original photos of a turf lawn, putting green or finished backyard NoCo built in Barefoot Lakes, tagged in src/data/photos.ts with community firestone-co--barefoot-lakes (or a place naming Barefoot Lakes); one showing the planted edge and an open-rail fence onto the open space would carry the page. No photo on file is from Barefoot Lakes, so the page has none and cannot publish",
+    "Any Barefoot Lakes jobs: month, rough size, the share of the side and rear yard in turf, and which cap (50% or 75%) the ARC applied",
+    "Whether NoCo has taken a putting surface to the Barefoot Lakes ARC: the product, its pile height and face weight, and the committee's answer (approval, variance or denial)",
+    "Whether a Barefoot Lakes job has used the district-property access request: whether the $1,200 deposit was invoiced and refunded, and whether the district let a fence section come down",
+    "How long Barefoot Lakes approvals have actually taken on NoCo jobs, and whether the ARC asked for screening on a lot backing onto open space",
+    "Which of the ARC's pre-approved lawn turfs NoCo installs, so a later draft can say so once confirmed",
+    "Permission from a Barefoot Lakes customer to name the neighborhood on a work page or in a quoted review"
+  ]
+}

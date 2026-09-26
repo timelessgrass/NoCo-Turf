@@ -1,0 +1,345 @@
+[
+  {
+    "id": "firestone-co--barefoot-lakes.rig-turf-edges",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Barefoot Lakes' guidelines require artificial turf to leave the established drainage pattern alone, keep trees, shrubs and perennials out of the turf and at least half their mature spread from its edge, anchor and conceal every edge with bender board, concrete curbing or similar, tape or glue seams rather than sew them, and separate turf from a native area with at least 4 inches of hardscape or 12 inches of planting.",
+    "quote": "C. The established drainage pattern may not be blocked or altered by the installation of artificial turf. D. No trees/shrubs/perennials shall be planted within artificial turf. All trees/shrubs/perennials shall be located at least half of their mature growth/spread from the edge of the artificial turf. E. Artificial turf shall be anchored at all edges and seams and seams are to be taped or glued (not sewn). Edges must be concealed with a bender board, concrete curbing or similar material. F. If an artificial turf area will meet a native area, it must be separated with a barrier of at least four (4) inches of hardscape or at least twelve (12) inches of planting area. … Artificial turf must be cleaned as necessary and periodically groomed to maintain its appearance.",
+    "source_url": "https://www.stvrainmd.live/files/5457a4faf/SVLMD+-+2026+08+07+-+Amended+%26+Restated+Residential+Improvement+Guidelines+%26+Site+Restrictions+for+Barefoot.pdf",
+    "source_label": "St. Vrain Lakes Metropolitan Districts, Amended and Restated Residential Improvement Guidelines and Site Restrictions for Barefoot, Sections 3.7.2.C–F and 3.7.3 (as of August 7, 2026)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-26",
+    "numbers": [
+      "4",
+      "12"
+    ],
+    "notes": "PDF downloaded and read with pdftotext on 2026-09-26. Sections 3.7.2.A (professional installation, weed barrier, aggregate base), B (infill) and G (Town permit) are already in firestone-co.svlmd-rig-turf-install; 3.7.3's replacement clause is artificial-turf-warranty.barefoot-replace-life-expectancy."
+  },
+  {
+    "id": "firestone-co--barefoot-lakes.no-putting-provision",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "No provision for a putting green appears in Barefoot Lakes' Residential Improvement Guidelines or in the district's three landscape design books (searched September 26, 2026), whose turf rule asks for a lawn-like color and fiber, and the review committee's pre-approved list names 15 lawn products and no putting surface, leaving anything outside the rules to the committee's discretion to grant a variance.",
+    "quote": "The color must be similar to the geographical area, preferably a blended, multi-color monofilament fiber. … Approval of any proposed plans by the granting of a variance from compliance with any of the provisions of these Guidelines is at the sole discretion of the ARC when circumstances such as topography, natural obstructions, hardship, aesthetic, or environmental considerations may require.",
+    "source_url": "https://www.stvrainmd.live/files/5457a4faf/SVLMD+-+2026+08+07+-+Amended+%26+Restated+Residential+Improvement+Guidelines+%26+Site+Restrictions+for+Barefoot.pdf",
+    "source_label": "St. Vrain Lakes Metropolitan Districts, Amended and Restated Residential Improvement Guidelines and Site Restrictions for Barefoot, Sections 3.7.1 and 3.1.1 (as of August 7, 2026); the Design Review page's approved turf list; the Barefoot Lakes residents' and builders' landscape guides and the Barefoot Village Landscape Design Book, each searched for 'putting'",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-26",
+    "numbers": [
+      "15",
+      "26",
+      "2026"
+    ],
+    "notes": "Searched 2026-09-26 with pdftotext: the RIG (Aug 7, 2026), the residents' guide (Jul 20, 2026), the builders' guide (Dec 19, 2024) and the Barefoot Village Landscape Design Book (Dec 19, 2024) — no 'putting' anywhere. The Design Review page lists 15 approved turf products, all lawn turfs; one product name on that list contains a banned metro town word, so pages never print the list."
+  },
+  {
+    "id": "firestone-co--barefoot-lakes.builders-guide-70",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Barefoot Lakes' landscape design guidelines for builders, revised December 19, 2024, give a third artificial-turf limit, less than 70% of the area able to be landscaped, alongside a 75% cap on the combined rear and side yard.",
+    "quote": "Artificial turf in compliance with the Firestone Development Code is only allowed in the rear and side yard. Artificial turf is allowed if less than 70% of the area able to be landscaped. … If installing Artificial Turf, the total area of Artificial Turf may not exceed 75% of the combined rear and side yard, with the limitation that at least 25% of the area is permeable with live plant material.",
+    "source_url": "https://www.stvrainmd.live/files/df7364e8f/SVLMD+-+2024+12+19+-+Barefoot+Lakes+Landscape+Design+Guidelines+for+Builders.pdf",
+    "source_label": "St. Vrain Lakes Metropolitan Districts, Barefoot Lakes Landscape Design Guidelines, Guide for Builders (revised December 19, 2024)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-26",
+    "numbers": [
+      "19",
+      "2024",
+      "70",
+      "75",
+      "25"
+    ],
+    "notes": "The later Residential Improvement Guidelines (as of August 7, 2026) cap turf of any height at 50% (firestone-co.svlmd-rig-turf-cap) and the residents' guide (July 20, 2026) says 75% (firestone-co.svlmd-landscape-guide-75). Pages say: ask the ARC which figure it applies."
+  },
+  {
+    "id": "firestone-co--barefoot-lakes.residents-guide-fence-zone",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Barefoot Lakes' residents' landscape guide keeps turf at least 1 foot back from the face of a fence, in a fence foundation planting zone that must be fully mulched as a shrub bed, keeps turf 5 feet from building foundations, and says fencing may not sit in turf.",
+    "quote": "Keep turf at least 1 foot back from the face of fences. This is the fence foundation planting zone, which must be completely mulched as a shrub bed. Turf is permitted to run through gates. … Keep turf 5 feet away from building foundations. … Fencing shall not be located in turf. Refer to the “fence foundation planting zone” in the planting requirements.",
+    "source_url": "https://www.stvrainmd.live/files/14212f700/SVLMD+-+2026+07+20+-+Barefoot+Design+Guidelines+for+Residents.pdf",
+    "source_label": "St. Vrain Lakes Metropolitan Districts, Barefoot Lakes Landscape Design Guidelines, Guide for Residents (revised July 20, 2026), pp. 3 and 8",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-26",
+    "numbers": [
+      "1",
+      "5",
+      "20",
+      "2026"
+    ],
+    "notes": "The guide's Turf heading covers the sod lawn (it goes on to require sod and a low-water blend); whether the committee holds artificial turf to the same fence and foundation offsets is not stated. Pages say: ask the ARC."
+  },
+  {
+    "id": "firestone-co--barefoot-lakes.residents-guide-open-rail",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Barefoot Lakes' residents' landscape guide shows existing tract fences as either privacy or open-rail style, says that in its Category 3 fence area Town regulations allow only the short open-rail fence along tracts and roadways, requires live plants on at least 75% of the front yard excluding driveways, and holds the rear yard of a corner lot with open-rail fencing to the front-yard shrub, turf and mulch rules.",
+    "quote": "Category 3 fencing introduces four completely new styles of fencing. This change was made in order to comply with the changes to the Town Code and Development Regulations. … Per Town Regulations only the short open rail fencing is allowed along Tracts and Roadways. … EXISTING TRACT FENCE, COULD EITHER BE PRIVACY OR OPEN RAIL (VARIES) … Front yard must be landscaped with live plant materials, for a minimum of 75% of the gross front yard area, excluding driveways. … Rear yards of corner lots using the Open-Rail style of fencing must follow shrub, turf and mulch requirements for front yards as described throughout this document.",
+    "source_url": "https://www.stvrainmd.live/files/14212f700/SVLMD+-+2026+07+20+-+Barefoot+Design+Guidelines+for+Residents.pdf",
+    "source_label": "St. Vrain Lakes Metropolitan Districts, Barefoot Lakes Landscape Design Guidelines, Guide for Residents (revised July 20, 2026), pp. 4, 9 and 10",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-26",
+    "numbers": [
+      "3",
+      "75",
+      "20",
+      "2026"
+    ],
+    "notes": "The open-rail-only line sits in the page 9 paragraph on Category 3 fencing (the key plan maps Categories 1 to 3); Category 1 also bars some styles along tract landscapes. Pages say the tract fence varies and scope the open-rail rule to Category 3. In the PDF's text layer the sentence 'Per Town Regulations only the short open rail fencing is allowed along Tracts and Roadways.' is interleaved with the drawing labels FRONT and ELEVATION; the quote drops those labels."
+  },
+  {
+    "id": "firestone-co--barefoot-lakes.residents-guide-water-calc",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Barefoot Lakes' plan review asks residents for interior and exterior water use calculations showing they will stay within the annual allotment Little Thompson Water District sets, which the residents' guide puts at 114,000 gallons a year for most properties, each owner confirming their own.",
+    "quote": "As part of the plan review process Residents must provide water use calculations that demonstrate they will not exceed their annual water alotment. This alotment includes both interior and exterior water use, and is set by the Water Provider (Little Thompson Water District). Most properties in Barefoot Lakes have a 114,000 gallon per year alotment (but each Resident must confirm their alotment for their particular circumstance). … Include a separate sheet with interior and exterior water use calculations.",
+    "source_url": "https://www.stvrainmd.live/files/14212f700/SVLMD+-+2026+07+20+-+Barefoot+Design+Guidelines+for+Residents.pdf",
+    "source_label": "St. Vrain Lakes Metropolitan Districts, Barefoot Lakes Landscape Design Guidelines, Guide for Residents (revised July 20, 2026), pp. 2 and 5",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-26",
+    "numbers": [
+      "114000",
+      "20",
+      "2026"
+    ],
+    "notes": "'alotment' is the guide's own spelling."
+  },
+  {
+    "id": "firestone-co--barefoot-lakes.rig-irrigation-district-lots",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Barefoot Lakes' guidelines require an underground automatic irrigation system with the landscape on every lot, and on lots where the district maintains the landscaping or the irrigation, owners may not alter either, nor fence off side yards that share a common irrigation system.",
+    "quote": "An underground automatic irrigation system installed with the landscape is required for all Lots and is encouraged for all garden and vegetable gardens. … Notwithstanding anything to the contrary contained in these Guidelines, any irrigation system on any Lot that is maintained by the District shall not be altered in any manner by the Owner of the Lot … In some areas of the Community, the District maintains the landscaping on the Lot and/or the area between the sidewalk and the curb of the street (the “Street/Tree Lawn Area”). In such cases, Owners are not permitted to make any alterations to the landscaping maintained by the District. … Fencing or closing off side yards on lots which receive on-lot maintenance services provided by the District and have common shared irrigation system will not be allowed.",
+    "source_url": "https://www.stvrainmd.live/files/5457a4faf/SVLMD+-+2026+08+07+-+Amended+%26+Restated+Residential+Improvement+Guidelines+%26+Site+Restrictions+for+Barefoot.pdf",
+    "source_label": "St. Vrain Lakes Metropolitan Districts, Amended and Restated Residential Improvement Guidelines and Site Restrictions for Barefoot, Sections 3.37, 3.39.2.A and 3.27.7 (as of August 7, 2026)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-26",
+    "numbers": []
+  },
+  {
+    "id": "firestone-co--barefoot-lakes.rig-water-features",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Barefoot Lakes' guidelines require review-committee approval for a pond or water feature, set at least 5 feet from every property line and the foundation with spray no higher than 4 feet, and ask for a water usage calculation with it, as they do for pools and hot tubs, encouraging owners to stay within the Little Thompson allotment.",
+    "quote": "Approval is required. … B. Setback shall be a minimum of five (5) feet from all property lines. … F. The maximum height of all fountain/pool elements and their spray is not allowed to be higher than four (4) feet from the ground plane. G. Must be a minimum of 5’ from the building foundation. H. Application includes water usage calculation It is encouraged that a Lot’s aggregate water usage is within the allotted usage amount determined by Little Thompson Water District (“LTWD”) and Owners are encouraged to review water usage limits with LTWD prior to submitting application to ARC. … D. Application includes water usage calculation.",
+    "source_url": "https://www.stvrainmd.live/files/5457a4faf/SVLMD+-+2026+08+07+-+Amended+%26+Restated+Residential+Improvement+Guidelines+%26+Site+Restrictions+for+Barefoot.pdf",
+    "source_label": "St. Vrain Lakes Metropolitan Districts, Amended and Restated Residential Improvement Guidelines and Site Restrictions for Barefoot, Section 3.55 (with 3.36 and 3.56) (as of August 7, 2026)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-26",
+    "numbers": [
+      "5",
+      "4"
+    ],
+    "notes": "The closing 'D. Application includes water usage calculation.' is the same line in Section 3.36 (hot tubs) and 3.56 (pools)."
+  },
+  {
+    "id": "firestone-co--barefoot-lakes.rig-fire-pits-pergolas",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Barefoot Lakes' guidelines put built-in fire pits in rear or side yards only, at least 10 feet (gas) or 15 feet (wood) from the house, fencing, other structures and flammable materials and never within utility easements or oil and gas well setbacks, and hold pergolas and arbors to rear or side yards with an inside height of no more than 8 feet 6 inches.",
+    "quote": "A. Firepits shall only be permitted in the rear yard or within a side yard. B. Gas firepit shall be set back at least ten (10) feet away from house, fencing, and any other structures, combustible source, or flammable materials. C. Wood burning firepit shall be set back at least fifteen (15) feet away from house, fencing, and any other structures, combustible source, or flammable materials. D. Firepit shall not be installed over easements, within utility easement, or within oil and gas well setbacks. … A. Latticework, trellises, arbors and pergolas may be located only in the rear yard or within a side yard. … C. The inside height of a proposed latticework, arbor, trellis or pergola must not exceed eight (8) feet, six (6) inches.",
+    "source_url": "https://www.stvrainmd.live/files/5457a4faf/SVLMD+-+2026+08+07+-+Amended+%26+Restated+Residential+Improvement+Guidelines+%26+Site+Restrictions+for+Barefoot.pdf",
+    "source_label": "St. Vrain Lakes Metropolitan Districts, Amended and Restated Residential Improvement Guidelines and Site Restrictions for Barefoot, Sections 3.28 and 3.40 (as of August 7, 2026)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-26",
+    "numbers": [
+      "10",
+      "15",
+      "8",
+      "6"
+    ],
+    "notes": "The guidelines do not say whether artificial turf is a 'flammable material' for the fire-pit setback. Pages say: ask the ARC."
+  },
+  {
+    "id": "firestone-co--barefoot-lakes.rig-lot-types",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Barefoot's guidelines describe front-loaded single-family lots that start at 4,500 square feet and often widen to 50 to 60 foot frontages for three-car garages, alongside alley-loaded, small-lot, motor court, garden court, duplex and townhouse lots.",
+    "quote": "The Single Family Detached, Front Loaded lot is designed for blocks without alleys and supports larger homes. … Lot sizes start at 4,500 sq ft but often increase (50–60 ft frontages) to allow three-car garages.",
+    "source_url": "https://www.stvrainmd.live/files/5457a4faf/SVLMD+-+2026+08+07+-+Amended+%26+Restated+Residential+Improvement+Guidelines+%26+Site+Restrictions+for+Barefoot.pdf",
+    "source_label": "St. Vrain Lakes Metropolitan Districts, Amended and Restated Residential Improvement Guidelines and Site Restrictions for Barefoot, Section 1.11 (as of August 7, 2026)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-26",
+    "numbers": [
+      "4500",
+      "50",
+      "60"
+    ]
+  },
+  {
+    "id": "firestone-co--barefoot-lakes.rig-approval-schedule",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Barefoot Lakes' guidelines make a first owner apply for rear-yard landscaping within 9 months of closing, collect the review fee for that first rear-yard plan when the lot is bought from the developer or builder, bill the ARC's review and consultant costs to the owner, and say ARC approval is no assurance a plan meets Town requirements.",
+    "quote": "However, the fee for the review of Design Review Request Forms and Plans and Specifications related specifically to the initial installation of rear yard landscaping shall be due at the time of acquisition of the Lot by the Owner from the Declarant or a Participating Builder. In addition, any costs incurred by the ARC for review of submittals shall be borne by the Owner and shall be payable prior to final approval. … Application for rear yard landscaping shall be submitted to the District no more than nine (9) months after closing on the sale of the Lot from the Declarant or Builder to the first Owner … APPROVAL BY THE ARC DOES NOT CONSTITUTE ASSURANCE THAT IMPROVEMENTS COMPLY WITH APPLICABLE GOVERNMENTAL REQUIREMENTS OR REGULATIONS OR THAT A PERMIT OR APPROVALS ARE NOT ALSO REQUIRED FROM APPLICABLE GOVERNMENTAL BODIES.",
+    "source_url": "https://www.stvrainmd.live/files/5457a4faf/SVLMD+-+2026+08+07+-+Amended+%26+Restated+Residential+Improvement+Guidelines+%26+Site+Restrictions+for+Barefoot.pdf",
+    "source_label": "St. Vrain Lakes Metropolitan Districts, Amended and Restated Residential Improvement Guidelines and Site Restrictions for Barefoot, Sections 1.7, 2.3 and 3.39.1 (as of August 7, 2026)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-26",
+    "numbers": [
+      "9"
+    ]
+  },
+  {
+    "id": "firestone-co--barefoot-lakes.request-form-terms",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Barefoot Lakes' Design Review Request Form says approved work must start within 6 months and finish within 12 or the approval lapses, bars placing materials in public streets, and says a homeowner or contractor may walk but not drive across district landscaped areas and may not take down district fencing for access.",
+    "quote": "8. _____ that construction or alterations in accordance with the approved plans and specifications must commence within 6 months of the approved date of this Request Form and be completed within 12 months of the approved date, otherwise the approval by the ARC shall be deemed conclusively to have lapsed and to have been withdrawn. … Material placement in public streets is prohibited. … Homeowner or Contractor cannot take down SVLMD fencing for access to improvement site. Homeowner or Contractor cannot drive across but can walk across SVLMD landscaped areas to access improvement site.",
+    "source_url": "https://www.stvrainmd.live/files/70867a181/SVLMD+-+2024+10+25+-+Design+Review+Application+USE.pdf",
+    "source_label": "St. Vrain Lakes Metropolitan Districts, Design Review Request Form (Revision 10/2024)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-26",
+    "numbers": [
+      "6",
+      "12",
+      "8"
+    ],
+    "notes": "The Design Review page (firestone-co--barefoot-lakes.district-property-access) asks for a picture of 'the section of fence that will be taken down', which conflicts with this form. Pages say: ask the committee."
+  },
+  {
+    "id": "firestone-co--barefoot-lakes.district-property-access",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Barefoot Lakes' district generally bars driving vehicles, wheelbarrows included, across district property, asks for a written request with photos before district land is used to reach a rear or side yard, and places a $1,200 deposit invoice on the owner's account once that request is approved or damage is found.",
+    "quote": "Application to use District property for access to your rear or side yard in order to complete landscaping or other improvements should be made ahead of time with written request and approval. … Please include pictures of the exact area that will be used for access and a picture of the section of fence that will be taken down. Once your application has been approved, or if damage to District property or landscaping is discovered a deposit invoice in the amount of $1,200 will be placed on your account. … Generally, driving vehicles, including wheelbarrows, across District property is not permitted.",
+    "source_url": "https://www.stvrainmd.live/design-review",
+    "source_label": "St. Vrain Lakes Metropolitan Districts, Design Review page (Damage to Landscaping on District Property or Damage to District Property FAQ)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-26",
+    "numbers": [
+      "1200"
+    ],
+    "notes": "The page quotes the guidelines' Work Involving District Property section as 3.92; the August 7, 2026 PDF numbers it 3.94. Pages cite neither number."
+  },
+  {
+    "id": "firestone-co--barefoot-lakes.ltwd-supply-reuse",
+    "layer": "utility",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Little Thompson Water District says 23% of Barefoot Lakes' supply is Colorado-Big Thompson water and 77% is Windy Gap water that includes a planned reuse component, and that without the reuse project the supply would be 83% of what was intended, which could mean more frequent watering restrictions.",
+    "quote": "Barefoot Lakes’ water supply comes from two sources: Colorado-Big Thompson (C-BT) water (23% of Barefoot’s supply) Windy Gap water, including a planned reuse component for long-term supply (77% of Barefoot’s supply) … Without this project, the water supply will be 83% of what it was intended. This could result in more frequent watering restrictions to balance the reduced supply.",
+    "source_url": "https://www.littlethompsonwd.gov/barefoot-lakes",
+    "source_label": "Little Thompson Water District, Barefoot Lakes page (FAQs)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-26",
+    "numbers": [
+      "23",
+      "77",
+      "83"
+    ],
+    "notes": "The same page says Barefoot Lakes has about 1,200 residential and commercial taps, expected to reach 3,800 at build-out, and that LTWD and Firestone dissolved the St. Vrain Water Treatment Authority in November 2025."
+  },
+  {
+    "id": "firestone-co--barefoot-lakes.redland-quarry-lakes",
+    "layer": "place",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Barefoot is a 1,300-acre master-planned community in Firestone, organized around Ronald Reagan Boulevard, that began with a reclaimed quarry and naturalized lake, with the 100-acre Barefoot Lakes at its center and, south of the boulevard, homes set among the lakes, open space and trails along the St. Vrain River, on a site its civil engineers describe as having existing oil and gas infrastructure.",
+    "quote": "Barefoot is a 1,300-acre master-planned community in Firestone, Colorado … Originally a rural site, the development began with a reclaimed quarry and naturalized lake. Today, the 100-acre Barefoot Lakes are the central feature of this project’s outdoor-oriented vision. Made up of two distinct but connected neighborhoods, Barefoot is organized around Ronald Reagan Boulevard. To the south of the boulevard is Barefoot Lakes, where homes are set among lakes, open space, and trail connections along the St. Vrain River. … The Civil Engineering team developed creative solutions that addressed complex stormwater systems, large-scale earthwork balancing, and existing oil and gas infrastructure in close coordination with partners and agencies.",
+    "source_url": "https://www.redland.com/project/barefoot-lakes/",
+    "source_label": "Redland (the community's civil engineer), Barefoot Lakes project page",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-26",
+    "numbers": [
+      "1300",
+      "100"
+    ],
+    "notes": "The page's first sentence goes on to give a drive time to a metro city that NoCo copy never names; the quote elides it. Its project stats say 492 homes, which disagrees with Little Thompson's count of about 1,200 taps; pages give no home count. Re-read 2026-09-26: north of the boulevard is Barefoot Village, a separate neighborhood with its own landscape design book."
+  },
+  {
+    "id": "firestone-co--barefoot-lakes.residents-guide-rear-side-only",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Barefoot Lakes' residents' landscape guide says artificial turf that complies with the Firestone Development Code is only allowed in the rear and side yard, and sends owners to the ARC for its approved brands and to the guidelines for further restrictions.",
+    "quote": "Artificial turf in compliance with the Firestone Development Code is only allowed in the rear and side yard. Consult with the ARC for a list of currently approved brands and styles. Refer to “Artificial Turf” in the RIG for additional information and restrictions.",
+    "source_url": "https://www.stvrainmd.live/files/14212f700/SVLMD+-+2026+07+20+-+Barefoot+Design+Guidelines+for+Residents.pdf",
+    "source_label": "St. Vrain Lakes Metropolitan Districts, Barefoot Lakes Landscape Design Guidelines, Guide for Residents (revised July 20, 2026), Turf section",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-26",
+    "numbers": [
+      "20",
+      "2026"
+    ],
+    "notes": "PDF downloaded and read with pdftotext on 2026-09-26. The Residential Improvement Guidelines (Aug 7, 2026) word it as 'may be considered in fenced side or rear yards' (firestone-co.svlmd-rig-turf-cap)."
+  },
+  {
+    "id": "firestone-co--barefoot-lakes.rig-landscape-approval",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Barefoot Lakes' guidelines require review-committee approval for lot landscaping, submitted with a plot plan of the house and yard at a measurable scale that labels every plant and building material, edging included.",
+    "quote": "Approval is required. The plot plan of the residence and yard must be provided at a measurable scale. All organic materials (plants, shrubs, trees, etc.), building materials (stone, wood, edging, etc.), must be clearly labeled in detail.",
+    "source_url": "https://www.stvrainmd.live/files/5457a4faf/SVLMD+-+2026+08+07+-+Amended+%26+Restated+Residential+Improvement+Guidelines+%26+Site+Restrictions+for+Barefoot.pdf",
+    "source_label": "St. Vrain Lakes Metropolitan Districts, Amended and Restated Residential Improvement Guidelines and Site Restrictions for Barefoot, Section 3.39 (as of August 7, 2026)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-26",
+    "numbers": [],
+    "notes": "PDF downloaded and read with pdftotext on 2026-09-26."
+  }
+]

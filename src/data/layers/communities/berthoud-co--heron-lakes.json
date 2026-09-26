@@ -1,0 +1,388 @@
+[
+  {
+    "id": "berthoud-co--heron-lakes.tpc-colorado-course",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "TPC Colorado in Berthoud is an 18-hole, par-72 course by Arthur Schaupeter Golf Course Architects that can be stretched to over 7,991 yards, sits alongside Lonetree, McNeil and Welch Reservoirs, and is planned as one golf community with the Heron Lakes neighborhood; it hosts the Korn Ferry Tour's The Blue Championship.",
+    "quote": "TPC Colorado is an 18-hole championship golf course located in Berthoud, CO. Designed by Arthur Schaupeter Golf Course Architects, the par-72 layout can be stretched out to over 7,991 yards long to provide a challenging round of golf to the TOUR players, while multiple large tees on each hole will give recreational golfers an opportunity to play the course at any length they find enjoyable, ranging from 4,157 yards up. Featuring sweeping majestic views of the Rocky Mountains and nestled alongside the sparkling blue waters of Lonetree, McNeil and Welch Reservoirs, the 865-acre golf community will encompass a master-planned residential neighborhood, an 18-hole championship golf course and clubhouse, a community center, pool, fitness facility and a dynamic lakefront gathering locale. TPC Colorado is the proud host of the Korn Ferry Tour’s The Blue Championship. … In addition to championship golf, the Heron Lakes development will include a sprawling neighborhood",
+    "source_url": "https://tpc.com/colorado/",
+    "source_label": "TPC Colorado, home page (Welcome to TPC Colorado)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "18",
+      "72",
+      "7991",
+      "4157",
+      "865"
+    ],
+    "notes": "Page read 2026-09-26. The same page's header says 'over 850-acre property' and the Larimer County parcel map (town record) puts the Heron Lakes plat at 914 acres; the acreage is left out of copy for that reason. The 2026 Blue Championship ran July 9-12 (PGA TOUR site), which matches the design rules' 'normally in July' tournament week. The same page ties the course to Heron Lakes ('the Heron Lakes development will include a sprawling neighborhood'); the rest of that sentence is sales wording and stays out of copy."
+  },
+  {
+    "id": "berthoud-co--heron-lakes.metro-districts-heron-vantage",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "The Town of Berthoud names the Berthoud-Heritage Metropolitan Districts as the districts that take in the Heron Lakes and Vantage neighborhoods.",
+    "quote": "Berthoud-Heritage Metro Districts The Berthoud-Heritage Metropolitan Districts encompass the Heron Lakes and Vantage Neighborhoods.",
+    "source_url": "https://www.berthoud.org/1345/Metro-District-Information",
+    "source_label": "Town of Berthoud, Metro District Information",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Page read 2026-09-26. The district's own site footer reads 'Berthoud Heritage Metro District Nos. 1-17'."
+  },
+  {
+    "id": "berthoud-co--heron-lakes.planting-beds-evergreen",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Heron Lakes' design rules require planting beds on at least 25% of a lot outside the house footprint and driveway, and require at least 40 percent of the plant material to be evergreen.",
+    "quote": "In addition, a minimum of forty (40) percent of the plant material must be evergreens to provide year-round color and interest. … a. Planting beds shall comprise a minimum of 25% of the site excluding building footprint and driveway. Lines of the planting beds should be defined by and in relation to berms, walkways, patios, other landscape elements, and planting beds on adjoining lots. In addition, most beds should serve a function, such as foundation and utility screening, buffering for privacy, enhancement of views, defining outdoor spaces, wind block, sun block, or erosion control.",
+    "source_url": "https://www.berthoudheritagemd.live/s/Heron-Lakes-Design-Rules-and-Regulations-June-1-2026.pdf",
+    "source_label": "Berthoud-Heritage Metropolitan District, Heron Lakes Residential Improvement Rules and Regulations (amended June 1, 2026), Secs. 4.4 and 4.8(a)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "40",
+      "25"
+    ],
+    "notes": "PDF re-read 2026-09-26 (the /s/ link redirects to static1.squarespace.com; the file served today is byte-identical to the copy read 2026-09-25). Sec. 4.4 also says xeriscape including non-irrigated artificial turf is allowed and 'the rest of these guidelines shall apply including the number of required plantings' (local record berthoud-co.heron-xeriscape-artificial-turf)."
+  },
+  {
+    "id": "berthoud-co--heron-lakes.tree-minimums",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Heron Lakes' design rules require two specimen trees in the front yard on top of the Town's street trees, at least three more trees over the rest of the lot, and at least three evergreen trees on every lot.",
+    "quote": "a. Two (2) specimen trees will be required in the front yard area, in addition to the Town of Berthoud required street trees that are included on the approved Subdivision Landscape Plans. … b. Over the remainder of the site, there shall be a minimum of three (3) trees. … A minimum of 3 evergreen trees shall be required for each lot. It should be noted that these requirements are a minimum and that additional tree plantings are encouraged.",
+    "source_url": "https://www.berthoudheritagemd.live/s/Heron-Lakes-Design-Rules-and-Regulations-June-1-2026.pdf",
+    "source_label": "Berthoud-Heritage Metropolitan District, Heron Lakes Residential Improvement Rules and Regulations (amended June 1, 2026), Sec. 4.7, Tree Planting Requirements",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "3"
+    ],
+    "notes": "PDF re-read 2026-09-26. Minimum sizes: evergreens 6 feet, shade trees 2.5-inch caliper, ornamentals 1.5-inch caliper (left out of the quote)."
+  },
+  {
+    "id": "berthoud-co--heron-lakes.irrigation-zones",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Heron Lakes requires an automatic irrigation system at every residence, designed for non-potable water with turf zones separate from planting-bed zones, and its design suggestions warn against turf strips under 3 feet wide.",
+    "quote": "An automatic irrigation system is required for all residences. The irrigation system should be professionally designed for non-potable water and include inline filters. Irrigation systems should be designed to adequately water the yard within the timelines of the non-potable watering schedules. Automatic irrigation systems should be installed where turf area zones are separate from planting bed zones. … c. Design beds so that small areas of turf, less than 3 feet in width, are not created.",
+    "source_url": "https://www.berthoudheritagemd.live/s/Heron-Lakes-Design-Rules-and-Regulations-June-1-2026.pdf",
+    "source_label": "Berthoud-Heritage Metropolitan District, Heron Lakes Residential Improvement Rules and Regulations (amended June 1, 2026), Secs. 4.10, Irrigation, and 4.13(c), Landscape Design Suggestions",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3"
+    ],
+    "notes": "PDF re-read 2026-09-26. The rules do not say how an artificial-turf area is zoned; Sec. 4.4 allows 'non-irrigated artificial turf'."
+  },
+  {
+    "id": "berthoud-co--heron-lakes.later-changes-reviewed",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Heron Lakes' design rules put later landscape improvements through the same committee review as original plantings, and say landscaping added after an approved site is finished must be approved before the work starts.",
+    "quote": "All landscape construction that is to be undertaken in the community, whether original landscape plantings, subsequent landscape improvements, or any drainage improvement is subject to review under the following design standards and requirements. After completing this process and receiving written approval construction may begin. … Additional construction to a home or landscaping after completion of an approved site must be submitted to ACC for approval prior to initiating such changes or additions.",
+    "source_url": "https://www.berthoudheritagemd.live/s/Heron-Lakes-Design-Rules-and-Regulations-June-1-2026.pdf",
+    "source_label": "Berthoud-Heritage Metropolitan District, Heron Lakes Residential Improvement Rules and Regulations (amended June 1, 2026), Secs. 4.1 and 3.4(E)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "PDF re-read 2026-09-26."
+  },
+  {
+    "id": "berthoud-co--heron-lakes.review-response-validity",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Heron Lakes' design rules have the committee answer in writing within 20 working days of each submittal, while the landscape section says 20 days after the review, and keep a final approval valid for 12 months.",
+    "quote": "The ACC will review the plan and will provide a written response no later than twenty (20) days after the review. … The ACC will provide a written response within twenty (20) working days after each submittal. Final approval of plans is valid for twelve (12) months. Construction must commence within this period or, if not, plans must be re-submitted and reviewed again, as if they had not been submitted or reviewed before.",
+    "source_url": "https://www.berthoudheritagemd.live/s/Heron-Lakes-Design-Rules-and-Regulations-June-1-2026.pdf",
+    "source_label": "Berthoud-Heritage Metropolitan District, Heron Lakes Residential Improvement Rules and Regulations (amended June 1, 2026), Secs. 4.3 and 5.1",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "20",
+      "12"
+    ],
+    "notes": "PDF re-read 2026-09-26. The district's Architectural Design Application (9/16/2025) says approved work must be completed within 90 days of approval (record berthoud-co--heron-lakes.design-application-fees): the two documents set different clocks."
+  },
+  {
+    "id": "berthoud-co--heron-lakes.plan-contents",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Heron Lakes' design rules want submittals professionally prepared by an architect, landscape architect or qualified designer, and a landscape plan that shows grading contours at 1-foot intervals reaching 10 feet past the lot lines, every plant by botanical and common name, and each feature with its size, material and details or cut sheets.",
+    "quote": "In all cases, the materials to be submitted will have to be professionally prepared by an architect, landscape architect or qualified designer. … c. Scale of 1” = 10’ and North arrow. … All proposed improvements designed in accordance with the Landscape Design Standards including drainage ways, proposed grading contours including ten (10) feet outside of lot property boundaries with a minimum contour interval of 1 foot, trees and shrub beds with botanical and common names of all plant materials including perennial and groundcover beds, and sizes of all trees. All landscape features should also be shown on the plan with size, material, and appropriate details or cut sheets.",
+    "source_url": "https://www.berthoudheritagemd.live/s/Heron-Lakes-Design-Rules-and-Regulations-June-1-2026.pdf",
+    "source_label": "Berthoud-Heritage Metropolitan District, Heron Lakes Residential Improvement Rules and Regulations (amended June 1, 2026), Secs. 3.2, Drawings or Plans, and 4.2, Landscape Plan Presentation",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "10"
+    ],
+    "notes": "PDF re-read 2026-09-26."
+  },
+  {
+    "id": "berthoud-co--heron-lakes.design-application-fees",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Heron Lakes' Architectural Design Application has boxes for new and upgrade landscaping, asks for sketches, plats, drawings, plans or pictures, charges $250 to review initial landscape plans or any exterior improvement, $150 to re-review and $800 for new construction, and asks that approved work be completed within 90 days of approval.",
+    "quote": "Please indicate the type of improvement: (Mark with X) _____ NEW BUILD _______ NEW LANDSCAPING ______ UPGRADE LANDSCAPING … Describe improvements: Send in Sketches, plat, drawings, plans, paint swatches, pictures, brochures, etc. with completed ADA. … Approved work must be completed within 90 days of approval. … A $800.00 review fee is required for ACC on new construction. A $250.00 review fee is required for initial landscape plans or any exterior improvements. An additional fee of $150.00 is required to re-review plans.",
+    "source_url": "https://www.berthoudheritagemd.live/s/BHMD-Heron-Architectural-Design-Application-9-16-2025.pdf",
+    "source_label": "Berthoud-Heritage Metro Districts, Heron Lakes Architectural Design Application (9/16/2025)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-26",
+    "numbers": [
+      "90",
+      "800.00",
+      "250.00",
+      "150.00"
+    ],
+    "notes": "PDF read 2026-09-26 (redirects to static1.squarespace.com; text layer extracted). The district's Heron Lakes page says 'ACC Submittal fee is $800.00 for the initial design review' (record berthoud-co--heron-lakes.info-page-fees). Fees change: recheck."
+  },
+  {
+    "id": "berthoud-co--heron-lakes.design-application-site-rules",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Heron Lakes' Architectural Design Application requires Dark Sky landscape lighting, asks that drainage stay the same or a qualified person sign off on a new drainage plan, and bars reaching a yard by removing district or golf course fencing or driving on their landscaping.",
+    "quote": "Landscape lighting with Dark Sky” principles is required on all homes. … Drainage should remain the same or have qualified person sign off on a new drainage plan. … Removal of BHMD/Golf Course fencing or driving on BHMD/Golf Course landscaping is not allowed for access to yard. … The ADA approval does not give any type of variance from the covenants and or guidelines.",
+    "source_url": "https://www.berthoudheritagemd.live/s/BHMD-Heron-Architectural-Design-Application-9-16-2025.pdf",
+    "source_label": "Berthoud-Heritage Metro Districts, Heron Lakes Architectural Design Application (9/16/2025)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "PDF read 2026-09-26."
+  },
+  {
+    "id": "berthoud-co--heron-lakes.fee-schedule-2026",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "The district's Heron Lakes fee schedule of April 20, 2026 lists a $250 landscaping review fee and $150 for a second review, and a $250 fine every 10 days when architectural review is not completed on a new build or an existing home.",
+    "quote": "Architectural Review NOT completed on new Build or existing homes. $250.00 $250 $250 $250 $250.00 Every 10 days … ACC Landscaping Review Fees $250.00 $150.00 2nd review … Each review",
+    "source_url": "https://www.berthoudheritagemd.live/s/BHMD-Heron-Lakes-Fee-and-Fine-Schedule-04-20-2026-tjlm.pdf",
+    "source_label": "Berthoud-Heritage Metro Districts, Heron Lakes Fee Policy & Schedule (04/20/2026)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-26",
+    "numbers": [
+      "20",
+      "2026",
+      "250.00",
+      "250",
+      "150.00",
+      "10",
+      "2"
+    ],
+    "notes": "PDF read 2026-09-26 (table; 'All fees subject to change'). The design rules' own Schedule of Fines (June 1, 2026) lists a different ladder for 'Architectural Committee Review and Approval Required' (Warning, $100, $250, $250 bi-weekly)."
+  },
+  {
+    "id": "berthoud-co--heron-lakes.non-potable-season",
+    "layer": "utility",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "provider": "Berthoud-Heritage Metropolitan District",
+    "fact": "Heron Lakes' non-potable irrigation water comes on around the first week of May and shuts down on the second Friday of October, costs a single-family home $500 a season with no pro-rating under watering restrictions, and is not supplied to Northern Lights filing 12.",
+    "quote": "Heron Lake & The Rookery Water Rates, Single Family Homes $500.00 per season … Northern Lights HOA filing 12 Toll Brothers Homes no non-potable water … Note: No pro-rating of non-potable water when non-potable water restrictions are in place. Non-potable water systems turn on around the first week of May. Non-potable water shuts down on the 2nd Friday of October.",
+    "source_url": "https://www.berthoudheritagemd.live/s/BHMD-Operations-fee-with-Non-potable-rates-Heron-Lakes-01-01-2026.pdf",
+    "source_label": "Berthoud-Heritage Metro Districts, Heron Lakes Yearly Operation Fee Amounts and Non-Potable Water Rates (updated 01/01/2026)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-01-31",
+    "numbers": [
+      "500.00",
+      "12",
+      "2"
+    ],
+    "notes": "PDF read 2026-09-26 ('RATES SUBJECT TO CHANGE'). The district's Heron Lakes page adds: 'The non-potable water rates for new builds are based on the lot size.' Watering windows by color zone are in the 2026 schedule and map PDFs."
+  },
+  {
+    "id": "berthoud-co--heron-lakes.tournament-week-front-access",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Heron Lakes' design rules make landscape contractors reach a lot through the front only and allow no outside construction during the week of the golf tournament normally held in July.",
+    "quote": "Owners/builders/landscape contractors must access their lot through the front only and may not dump excavated soil or debris or construction materials on neighboring property or the street. … Keep in mind normally in July; a golf tournament will happen and the during that week of play no outside construction activity is allowed. See web site for information on tournaments.",
+    "source_url": "https://www.berthoudheritagemd.live/s/Heron-Lakes-Design-Rules-and-Regulations-June-1-2026.pdf",
+    "source_label": "Berthoud-Heritage Metropolitan District, Heron Lakes Residential Improvement Rules and Regulations (amended June 1, 2026), Secs. 5.2 and 5.3",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "PDF re-read 2026-09-26."
+  },
+  {
+    "id": "berthoud-co--heron-lakes.golf-course-fences-views",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Heron Lakes allows no gates in district-owned or golf course-owned fences, needs committee approval to alter builder fences along the course, and asks golf-course lots to design for views to and from the course.",
+    "quote": "Fences and/or walls constructed by the Developer or Builder along or abutting property lines, arterial streets, collector streets, and local streets, greenbelts or the golf course shall not be removed, replaced, painted a different color or altered, including adding a gate, without approval of the ACC. No gates allowed in District owned or Golf course owned fences. … e. For lots adjacent to the golf course, consider views to and from the golf course. Blank walls, expanses of roof, uninteresting portions of architecture etc. should be screened.",
+    "source_url": "https://www.berthoudheritagemd.live/s/Heron-Lakes-Design-Rules-and-Regulations-June-1-2026.pdf",
+    "source_label": "Berthoud-Heritage Metropolitan District, Heron Lakes Residential Improvement Rules and Regulations (amended June 1, 2026), Secs. 2.30(A) and 4.13(e)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "PDF re-read 2026-09-26."
+  },
+  {
+    "id": "berthoud-co--heron-lakes.dark-sky-lighting",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Heron Lakes needs committee approval to add exterior lighting and requires it aimed at the ground and house, with its light kept inside the lot and the source hidden from outside the property.",
+    "quote": "ACC approval is required to change or add exterior lighting. … Exterior lighting for security and/or other uses must be directed towards the ground and house (Dark Sky Compliant) as well as ensuring the light cone stays within the lot boundaries and the light source is not visible from outside of the property (Full Cut Off). (Bullet type light fixtures are recommended.)",
+    "source_url": "https://www.berthoudheritagemd.live/s/Heron-Lakes-Design-Rules-and-Regulations-June-1-2026.pdf",
+    "source_label": "Berthoud-Heritage Metropolitan District, Heron Lakes Residential Improvement Rules and Regulations (amended June 1, 2026), Sec. 2.48, Lights and Lighting",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "PDF re-read 2026-09-26."
+  },
+  {
+    "id": "berthoud-co--heron-lakes.drainage-approval",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Heron Lakes requires committee approval for any change affecting drainage and holds lot grading to the approved grading plan on record with the Town of Berthoud.",
+    "quote": "ACC approval is required for any change affecting drainage. Lot grading must comply with the approved Grading Plan on record with the Town of Berthoud. … When installing landscaping, it is particularly important to ensure that water drains away from the foundation of the house and that the flow patterns prevent water from flowing under or ponding near or against the house foundation, walkways, sidewalks and driveways.",
+    "source_url": "https://www.berthoudheritagemd.live/s/Heron-Lakes-Design-Rules-and-Regulations-June-1-2026.pdf",
+    "source_label": "Berthoud-Heritage Metropolitan District, Heron Lakes Residential Improvement Rules and Regulations (amended June 1, 2026), Sec. 2.26, Drainage",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "PDF re-read 2026-09-26. The same section lets the ACC require a drainage report and certification from a civil engineer as part of plan approval."
+  },
+  {
+    "id": "berthoud-co--heron-lakes.patios-paving-features",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Heron Lakes requires committee approval for open patios and any paving, and wants details of features such as walls, large rocks, lighting, ponds and water features submitted with the landscape plan.",
+    "quote": "Patios – Open. ACC approval is required. Must be an integral part of the landscape plan and must be located so as not to create an unreasonable level of noise for adjacent property owners. … Paving. ACC approval is required, regardless of whether for walks, driveways, patio areas, or other purposes and regardless of whether concrete, brick, flagstones, steppingstones, pre-cast patterned or exposed aggregate pavers are used as the paving material. … Details for the following features must be submitted with the landscape plan and approved by the ACC prior to installation. See index for specific requirements: … Fences Walls Structures Gardens Large Rocks Dog Runs Ponds Pools, hot tubs Play Equipment Lighting Bird Baths Bird Houses Arbors/Trellis Waterfalls/Water Features",
+    "source_url": "https://www.berthoudheritagemd.live/s/Heron-Lakes-Design-Rules-and-Regulations-June-1-2026.pdf",
+    "source_label": "Berthoud-Heritage Metropolitan District, Heron Lakes Residential Improvement Rules and Regulations (amended June 1, 2026), Secs. 2.56, 2.57 and 4.9",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "PDF re-read 2026-09-26. Sec. 4.9's feature list is a column on p. 82; it is quoted in page-text order."
+  },
+  {
+    "id": "berthoud-co--heron-lakes.sub-hoas",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "The district lists three sub-HOAs inside Heron Lakes, the Heron Lakes Lifestyle HOA, whose community maintains exterior landscaping, the Heron Lakes Townhomes HOA and the Northern Lights HOA, and posts a map to check whether an address is in one.",
+    "quote": "Heron Lakes Sub HOA Map Please use this map to verify if your address within Heron Lakes is within a sub-HOA. Heron Lakes Lifestyle HOA - Blue Hawk Management … Heron Lakes Lifestyle Community is a common interest community providing maintenance of the exterior landscaping improvement features. … Heron Lakes Townhomes HOA - Vintage Corporation … Northern Lights HOA - Kellison Management",
+    "source_url": "https://www.berthoudheritagemd.live/heronlakessub-hoas-info",
+    "source_label": "Berthoud-Heritage Metropolitan District, Heron Lakes Sub-HOAs Info",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Page read 2026-09-26. The district's Heron Lakes page also posts separate Lifestyle CCRs (recorded 11-05-2018) and Townhomes CCRs (recorded 04-01-2019)."
+  },
+  {
+    "id": "berthoud-co--heron-lakes.covenants-control-town-rules",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Heron Lakes' design rules give way to the covenants and any supplemental declaration where they conflict, and say committee approval is no assurance that a project meets government rules or needs no permit.",
+    "quote": "Nothing in these Guidelines can supersede or alter the provisions or requirements of the Covenants, or of any Supplemental Declaration, and if there is any conflict or inconsistency, the Covenants, and Supplemental Declaration will control. … Approval by the ACC will not constitute assurance that improvements comply with applicable governmental requirements or regulations or that a permit or approvals are not also required from applicable governmental bodies.",
+    "source_url": "https://www.berthoudheritagemd.live/s/Heron-Lakes-Design-Rules-and-Regulations-June-1-2026.pdf",
+    "source_label": "Berthoud-Heritage Metropolitan District, Heron Lakes Residential Improvement Rules and Regulations (amended June 1, 2026), Secs. 1.4 and 1.5",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "PDF re-read 2026-09-26. Quote checked against the PDF text 2026-09-26; a page break (p. 8) or the table layout splits the extracted text, the wording is as printed."
+  },
+  {
+    "id": "berthoud-co--heron-lakes.rules-fine-schedule",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "The Heron Lakes design rules' own schedule of fines lists a warning, then $100, then $250 assessed bi-weekly, for work that needed Architectural Committee review and approval.",
+    "quote": "Schedule of Fines: Violation Amount of Fine Assess 1st 2nd 3rd Thereafter Architectural Committee Review and Approval Required Warning $100 $250 $250 Bi-weekly",
+    "source_url": "https://www.berthoudheritagemd.live/s/Heron-Lakes-Design-Rules-and-Regulations-June-1-2026.pdf",
+    "source_label": "Berthoud-Heritage Metropolitan District, Heron Lakes Residential Improvement Rules and Regulations (amended June 1, 2026), Schedule of Fines",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "100",
+      "250",
+      "1",
+      "2",
+      "3"
+    ],
+    "notes": "PDF re-read 2026-09-26 (table, p. 88). The district's separate fee schedule of 04/20/2026 lists $250 from the first letter, every 10 days (record berthoud-co--heron-lakes.fee-schedule-2026): the two documents disagree on the ladder, so copy says only that both list fines. Quote checked against the PDF text 2026-09-26; a page break (p. 8) or the table layout splits the extracted text, the wording is as printed."
+  },
+  {
+    "id": "berthoud-co--heron-lakes.info-page-fees",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "The district's Heron Lakes page gives $800 as the committee's initial design review fee and says non-potable water rates for new builds are based on lot size.",
+    "quote": "PLEASE NOTE: ACC Submittal fee is $800.00 for the initial design review. PLEASE NOTE: The non-potable water rates for new builds are based on the lot size.",
+    "source_url": "https://www.berthoudheritagemd.live/heron-lakes-information",
+    "source_label": "Berthoud-Heritage Metropolitan District, Heron Lakes information page",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-26",
+    "numbers": [
+      "800.00"
+    ],
+    "notes": "Page read 2026-09-26. The Architectural Design Application (9/16/2025) says the $800 fee is 'required for ACC on new construction' and sets $250 for initial landscape plans or any exterior improvements."
+  }
+]

@@ -1,0 +1,245 @@
+{
+  "status": "draft",
+  "town": "mead-co",
+  "slug": "grand-view-estates",
+  "name": "Grand View Estates",
+  "kind": "golf",
+  "governing": {
+    "name": "Grand View Estates Association",
+    "type": "hoa",
+    "url": "https://www.grandviewestates.ws/category/public-info/covenants/",
+    "layerRefs": [
+      "mead-co--grand-view-estates.acc-approval",
+      "mead-co--grand-view-estates.acc-60-days",
+      "mead-co--grand-view-estates.landscaping-ground-cover",
+      "mead-co--grand-view-estates.detached-structures-match"
+    ]
+  },
+  "golf": {
+    "name": "Grand View Golf Course",
+    "layerRef": "mead-co--grand-view-estates.golf-course"
+  },
+  "title": "Putting Greens and Turf in Grand View Estates, Mead | NoCo Turf Co.",
+  "description": "Grand View Estates, Mead: what the 2000 covenants send to the committee, the golf easements on course-side lots and the Town's RSF-1 zoning, before turf.",
+  "h1": "Grand View Estates sets 63 homes on 1- to 3-acre lots around a par-30 nine its HOA owns.",
+  "display": {
+    "paint": "a par-30 nine its HOA owns"
+  },
+  "lede": "Grand View Estates is a covenant-controlled neighborhood inside Mead's town limits, laid out around a private nine-hole course. A backyard green or a turf lawn here answers to three sets of rules: the covenants and their committee, the course's easements and play rules, and the Town's RSF-1 zoning.",
+  "answer": {
+    "question": "Can I put artificial turf or a putting green in Grand View Estates?",
+    "answer": "The recorded 2000 covenants don't mention either; they require Architectural Control Committee approval before any structure goes up, and the association posted restated covenants in September 2025. NoCo Turf Co. installs artificial turf and putting greens in Grand View Estates, Mead, Colorado. Ask the committee which covenants govern and whether your project counts as a structure."
+  },
+  "blocks": [
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "The covenants",
+      "h2": "The 2000 covenants never mention turf or putting greens; they send structures to a committee.",
+      "takeaway": "Nothing in the recorded declaration names artificial turf, a putting green or xeriscape, so the first question is whether the committee treats your project as a structure.",
+      "paras": [
+        "Section 15.5.1 says no structure may be erected or placed on a lot, and no exterior altered, until the Architectural Control Committee has approved the construction drawings and specifications. Section 15.5.2 asks for a site plan showing the lot's topography, the dimensions of the structure and anything already built on the lot, with a written description of roof and wall materials.",
+        "Landscaping gets one section, 16.13: within two years of the certificate of occupancy an owner plants and keeps ground cover in keeping with the surrounding areas, no ground may stay bare except for seasonal gardening, poplars are banned and weeds must be controlled. Whether synthetic turf counts as ground cover, or a green as a structure, the declaration doesn't say. It depends on the committee's reading, so ask the Architectural Control Committee before the design is final.",
+        "Those sections come from the declaration recorded August 21, 2000. The association posted amended and reinstated covenants on September 24, 2025, so confirm with the committee which text governs your submittal."
+      ],
+      "layerRefs": [
+        "mead-co--grand-view-estates.acc-approval",
+        "mead-co--grand-view-estates.landscaping-ground-cover",
+        "mead-co--grand-view-estates.covenants-2025-posted"
+      ],
+      "sources": [
+        "https://www.grandviewestates.ws/wp-content/uploads/CovenantsBylawsAddendum.pdf",
+        "https://www.grandviewestates.ws/public-info/covenants/covenants/"
+      ]
+    },
+    {
+      "kind": "golf",
+      "own": true,
+      "kicker": "The course",
+      "h2": "The course rules keep practice off the nine and shots off the lots beside it.",
+      "paras": [
+        "The Grand View Golf Course plays six par 3s and three par 4s for a par of 30, on a 16.19-acre course and landscape parcel the association owns and maintains. In the statewide parcel file, 26 of the 66 residential parcels touch that parcel. Members get unlimited daily play, and each household is issued two play towels to carry on the course.",
+        "The rules, revised May 10, 2014, prohibit using the course as a practice range and say players should never strike golf balls from private property next to it; the scorecard calls the course boundary out of bounds and charges a stroke to lay out from private property. They also bar play on frozen or frosted greens, and a synthetic green at home has no living grass for frost to bruise. On a lot along the course, a chipping area should land shots on your own green, not toward the fairway. How the private-property rule applies to one is a question for the Golf Committee or the board."
+      ],
+      "layerRefs": [
+        "mead-co--grand-view-estates.golf-course",
+        "mead-co--grand-view-estates.golf-scorecard",
+        "mead-co--grand-view-estates.golf-rules-practice",
+        "mead-co--grand-view-estates.course-parcel-lots"
+      ],
+      "sources": [
+        "https://www.grandviewestates.ws/golf-course/",
+        "https://www.grandviewestates.ws/wp-content/uploads/2014-Golf-Course-Rules.pdf",
+        "https://www.grandviewestates.ws/wp-content/uploads/GVE-Golf-Scorecard.pdf",
+        "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query"
+      ]
+    },
+    {
+      "kind": "golf",
+      "own": true,
+      "kicker": "Course-side lots",
+      "h2": "Golfers may fetch balls from the open parts of a lot, and course spray may drift onto it.",
+      "paras": [
+        "Article 19 of the declaration lets golf course users enter the non-enclosed parts of any lot in daylight to retrieve balls, and lets balls fly over the whole project. Section 19.2.5 adds an easement for incidental overspray of herbicides, fungicides, pesticides, fertilizers and water onto lots beside the course, and Section 19.3 has each owner accept the risk of errant balls.",
+        "No owner holds a view easement over the course, and the association may plant, remove or trim trees and bushes there at its discretion (Section 19.12). A patio or green framed on the view toward Longs Peak should still work if a tree line changes, and one near the course edge should plan for stray balls, a golfer walking over to find one and a little spray."
+      ],
+      "layerRefs": [
+        "mead-co--grand-view-estates.golf-easements",
+        "mead-co--grand-view-estates.no-view-easement",
+        "mead-co--grand-view-estates.hoa-profile"
+      ],
+      "sources": [
+        "https://www.grandviewestates.ws/wp-content/uploads/CovenantsBylawsAddendum.pdf",
+        "https://www.grandviewestates.ws/"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Town zoning",
+      "h2": "The Town maps Grand View Estates as RSF-1, where lot coverage stops at 20%.",
+      "paras": [
+        "The declaration's legal description places the project in the Town of Mead, and the Town's zoning layer shows every Grand View Estates parcel as RSF-1, Residential Single Family – 1. Mead's Table 3-3 sets RSF-1 lots at a minimum of 43,560 square feet, caps lot coverage at 20% and keeps accessory structures on the rear half of a lot 10 feet from side and rear lines.",
+        "On a one-acre lot, 20% is 8,712 square feet of buildings and other impervious surfaces. The code doesn't say whether a synthetic green is one of them, so measure a large green, patio or outdoor kitchen against the plat with Mead Planning before the committee submittal."
+      ],
+      "layerRefs": [
+        "mead-co--grand-view-estates.declaration-town-of-mead",
+        "mead-co--grand-view-estates.rsf1-zoning-map",
+        "mead-co--grand-view-estates.rsf1-table-3-3",
+        "mead-co.code-16-3-90-lot-coverage",
+        "mead-code-no-turf-provision"
+      ],
+      "sources": [
+        "https://www.grandviewestates.ws/wp-content/uploads/CovenantsBylawsAddendum.pdf",
+        "https://services7.arcgis.com/5kW6DD3T9dIb5Pwi/arcgis/rest/services/Mead_Zoning_view/FeatureServer/0",
+        "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH16LAUSCO_ARTIIIZO_S16-3-80DEDIST",
+        "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH16LAUSCO_ARTIIIZO_S16-3-90MEEX",
+        "https://library.municode.com/co/mead/codes/municipal_code"
+      ]
+    },
+    {
+      "kind": "housing",
+      "own": true,
+      "kicker": "Around the green",
+      "h2": "A shade structure beside a green has to match the house, and only rail fences are allowed.",
+      "paras": [
+        "Section 16.2 requires any structure detached from the house to be built in the same architectural style and of the same external materials. Homes here are single-story ranches at least 70% brick, stone or masonry under asphalt shingles, so a pergola, kitchen or seat wall picks up the house's brick or stone, and nothing may rise more than 24 feet above the lot's highest point.",
+        "Section 16.14 allows fences of round treated poles, white vinyl two-rail up to 42 inches or white vinyl three-rail up to 48 inches, and no other type. Welded wire mesh may go on the inside of either for animal containment, so a dog run on turf gets its enclosure from mesh on a rail fence rather than a solid wall of boards."
+      ],
+      "layerRefs": [
+        "mead-co--grand-view-estates.detached-structures-match",
+        "mead-co--grand-view-estates.fences-rail-only"
+      ],
+      "sources": [
+        "https://www.grandviewestates.ws/wp-content/uploads/CovenantsBylawsAddendum.pdf"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "How long does the Grand View Estates committee have to answer?",
+      "a": "Sixty days from receiving everything it requires, under Section 15.5.3 of the 2000 declaration. If it doesn't act in that time, the project may be built without further approval, as long as it breaks no other covenant. Ask the committee whether the 2025 covenants keep that rule.",
+      "layerRefs": [
+        "mead-co--grand-view-estates.acc-60-days"
+      ]
+    },
+    {
+      "q": "Can a backyard green extend onto the golf course?",
+      "a": "Not without the board. The association maintains the course as part of its common elements, and Section 9.7 bars any owner from altering any part of the common elements without the Executive Board's express consent. Keep the green inside your lot lines.",
+      "layerRefs": [
+        "mead-co--grand-view-estates.common-elements-consent"
+      ]
+    },
+    {
+      "q": "Does Grand View Estates post design guidelines beyond the covenants?",
+      "a": "None appear on the association's public site, whose Covenants page lists the bylaws, the covenants, an addendum and a governance-policies post. The committee may adopt added rules and procedures with the Executive Board's approval (Section 15.6), so ask it for any current submittal rules.",
+      "layerRefs": [
+        "mead-co--grand-view-estates.covenants-2025-posted",
+        "mead-co--grand-view-estates.acc-more-rules"
+      ]
+    },
+    {
+      "q": "How many dogs can a Grand View Estates home keep on its turf?",
+      "a": "Two adult animals under the 2000 declaration, counting dogs, cats and other household pets, and they stay on the owner's lot or on a leash. Mead's animal code allows up to four dogs and cats, but the covenant is the tighter limit.",
+      "layerRefs": [
+        "mead-co--grand-view-estates.two-adult-animals",
+        "mead-co.code-7-6-300-four-pets"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Amended and Restated Declaration of Covenants, Conditions and Restrictions of Grand View Estates, Weld County Reception No. 2788392, recorded August 21, 2000 (Secs. 9.3, 9.7, 15.5, 15.6, 16.2, 16.4, 16.5, 16.7, 16.13, 16.14, 19.2, 19.3, 19.12; Exhibit A)",
+      "url": "https://www.grandviewestates.ws/wp-content/uploads/CovenantsBylawsAddendum.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "The Grand View Estates Association, Covenants page (Bylaws, Covenants, GVE Governance Policies, Addendum)",
+      "url": "https://www.grandviewestates.ws/category/public-info/covenants/",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "The Grand View Estates Association, Covenants post: amended and reinstated covenants posted September 24, 2025",
+      "url": "https://www.grandviewestates.ws/public-info/covenants/covenants/",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "The Grand View Estates Association, home page (63 homes on 1 to 3 acre lots, private 9-hole course)",
+      "url": "https://www.grandviewestates.ws/",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "The Grand View Estates Association, Golf Course page",
+      "url": "https://www.grandviewestates.ws/golf-course/",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Grand View Estates Golf Course Rules and Regulations (revised May 10, 2014)",
+      "url": "https://www.grandviewestates.ws/wp-content/uploads/2014-Golf-Course-Rules.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Grandview Golf Course scorecard (PDF)",
+      "url": "https://www.grandviewestates.ws/wp-content/uploads/GVE-Golf-Scorecard.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Colorado Public Parcels (statewide parcel file): the 16.19-acre Grand View Estates course parcel and the 66 residential parcels, 26 of them touching it",
+      "url": "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Town of Mead zoning layer (Mead_Zoning_view, from the Town's 'Mead CO Land Use & Zoning' public map): Grand View Estates in RSF-1",
+      "url": "https://services7.arcgis.com/5kW6DD3T9dIb5Pwi/arcgis/rest/services/Mead_Zoning_view/FeatureServer/0",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Mead Municipal Code Sec. 16-3-80, Table 3-3 (codified through Ord. No. 1075, April 14, 2025)",
+      "url": "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH16LAUSCO_ARTIIIZO_S16-3-80DEDIST",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Mead Municipal Code Sec. 16-3-90(f), lot coverage (codified through Ord. No. 1075, April 14, 2025)",
+      "url": "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH16LAUSCO_ARTIIIZO_S16-3-90MEEX",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Mead Municipal Code on Municode (codified through Ord. No. 1075, April 14, 2025): no artificial-turf provision",
+      "url": "https://library.municode.com/co/mead/codes/municipal_code",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Mead Municipal Code Sec. 7-6-300, number of dogs and cats (codified through Ord. No. 1075, April 14, 2025)",
+      "url": "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH7HESAAN_ARTVIAN_S7-6-300NUDOCA",
+      "checked": "2026-09-26"
+    }
+  ],
+  "checked": "2026-09-26",
+  "needsFromBrian": [
+    "Camera-original photos of a Grand View Estates yard, before and after, for src/data/photos.ts tagged with community \"mead-co--grand-view-estates\" (the gate needs one taken in this community; a photo from elsewhere in Mead does not count)",
+    "Any Grand View Estates job: whether the lot backs onto the course, month, size, turf or green, number of cups",
+    "Whether the Grand View Estates Architectural Control Committee has reviewed a turf lawn or putting green, whether it treated the green as a structure, and what it asked to see",
+    "If a Grand View Estates owner has shared the September 2025 amended and reinstated covenants, their landscaping, fence and committee sections, so this page can quote the current text instead of the 2000 declaration",
+    "Whether a chipping area on a course-side lot has come up with the Golf Committee or the board, and what they said"
+  ]
+}

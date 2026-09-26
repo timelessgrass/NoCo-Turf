@@ -1,0 +1,251 @@
+{
+  "status": "draft",
+  "town": "evans-co",
+  "slug": "lake-arrowhead",
+  "name": "Lake Arrowhead",
+  "kind": "estate-lots",
+  "governing": {
+    "name": "Lake Arrowhead Homeowners Association",
+    "type": "hoa",
+    "url": "https://lakearrowheadhoa.org/documents",
+    "layerRefs": [
+      "evans-co--lake-arrowhead.acc-review-scope",
+      "evans-co--lake-arrowhead.acc-seven-days",
+      "evans-co--lake-arrowhead.variance-fence-hedge",
+      "evans-co--lake-arrowhead.bridle-path-easements"
+    ]
+  },
+  "title": "Artificial Turf in Lake Arrowhead near Evans, CO | NoCo Turf Co.",
+  "description": "Lake Arrowhead's covenants send homes, barns and corrals to a committee, not turf. What bridle paths, acre lots and Weld County rules mean for a green.",
+  "h1": "Lake Arrowhead's covenants review homes, barns and corrals, and say nothing about turf or putting greens.",
+  "display": {
+    "paint": "say nothing about turf or putting greens"
+  },
+  "lede": "The committee here reads plans for houses, outbuildings and animal pens. A backyard green on an acre lot answers instead to the covenants' general rules, to the bridle paths that cross the lots and to Weld County. Covenants and county bulletin read September 26, 2026.",
+  "answer": {
+    "question": "Does artificial turf need committee approval in Lake Arrowhead?",
+    "answer": "The posted covenants don't send it there. NoCo Turf Co. installs artificial turf and putting greens in Lake Arrowhead, the unincorporated Weld County neighborhood between Evans and Greeley, Colorado. Its Architectural Control Committee reviews plans for homes, outbuildings, garages, barns, carports and corrals. A pergola or shed beside a green can count as a similar structure, so ask the committee about those."
+  },
+  "blocks": [
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "The committee's list",
+      "h2": "Three kinds of plans go to the Architectural Control Committee, and a lawn is not one of them.",
+      "takeaway": "The covenants never use the words turf, lawn, landscaping or putting green, and they limit the committee to its list: plans \"shall be reviewed only on these following criteria.\"",
+      "paras": [
+        "The covenants on the association's documents page, the July 2019 version, set up a committee of two elected members and one representative named by the developer, a seat that passes to another elected member once the developer's last lot sells. No structure may be built on or moved onto a lot until it approves, and it reads three kinds of plans: new homes; outbuildings, garages, barns, carports \"or similar structures\"; and corrals or other animal enclosures. It judges them on floor area, Weld County building-code compliance, exterior finish and, for corrals, sturdy construction.",
+        "A turf lawn, a putting green, a chipping area or a planting plan is not on that list, and the documents page posts no separate architectural or landscape guidelines. The phrase \"or similar structures\" is what can pull part of a backyard project in: a pergola over a seating area, or a storage shed for clubs and flags. It depends on what you build; ask the Architectural Control Committee, which takes plans at any time and owes a decision within seven calendar days."
+      ],
+      "layerRefs": [
+        "evans-co--lake-arrowhead.acc-review-scope",
+        "evans-co--lake-arrowhead.acc-seven-days",
+        "evans-co--lake-arrowhead.documents-posted"
+      ],
+      "sources": [
+        "https://mgxxonstuwhhbgxktpyt.supabase.co/storage/v1/object/public/hoa-documents/1775545303421-LAHA%20Covenants%20July%202019.doc",
+        "https://lakearrowheadhoa.org/documents"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "Bridle paths",
+      "h2": "Bridle-path easements cross the lots, and no building, fence or storage may sit on one.",
+      "paras": [
+        "The association describes bridle paths winding through the neighborhood, and the covenants reserve them as easements on the recorded plat. No building, outbuilding or fence may stand over an easement, nothing may be stored on one, and the association polices each for trash and mows its vegetation to 3 to 6 inches at least once a year. It also keeps up structures in them, such as a foot bridge over an irrigation ditch.",
+        "So the easement line is the working edge of a backyard design here. The covenants say nothing either way about a turf surface crossing it, and the association's yearly mowing assumes vegetation there: get the committee's answer in writing before turf or edging goes past that line.",
+        "Fencing along an easement, once the house is built, has its own spec: wood or steel pipe, five feet tall, posts on eight-foot centers, at least two rails, no barbed wire, running the easement's full length on the lot. A rail fence like that leaves wide gaps, so a dog area on turf needs an enclosure of its own inside it."
+      ],
+      "layerRefs": [
+        "evans-co--lake-arrowhead.bridle-path-easements",
+        "evans-co--lake-arrowhead.bridle-path-fencing",
+        "evans-co--lake-arrowhead.hoa-location-lots"
+      ],
+      "sources": [
+        "https://mgxxonstuwhhbgxktpyt.supabase.co/storage/v1/object/public/hoa-documents/1775545303421-LAHA%20Covenants%20July%202019.doc",
+        "https://lakearrowheadhoa.org/"
+      ]
+    },
+    {
+      "kind": "housing",
+      "own": true,
+      "kicker": "Acre lots",
+      "h2": "The lots run about an acre and up, with setbacks written for buildings and no splitting allowed.",
+      "paras": [
+        "The association says each home sits on one acre or more. The statewide parcel file counts 163 residential parcels across the four filings, with a median of about 1.2 acres; 133 of them reach an acre. A lot may not be subdivided, one residence goes on each site, and a lot may keep up to four horses, cattle or animals of similar size.",
+        "The covenants' setbacks: no building or accessory structure within 40 feet of the front lot line or 20 feet of a side street, no dwelling or attached garage within 20 feet of an interior side line, and no structure within 10 feet of the rear line. On a corner lot the narrow side is the front. The front and rear distances reach any structure, a pergola or shed included. Whether a flat turf surface counts as a structure the covenants don't say, so ask the committee if a green or its border will sit close to a line.",
+        "Two general provisions reach the work itself. Building material may sit on a lot past 30 days only while a dwelling or other improvements are under construction, which covers a pile of base rock during the job but not after it. And no lot or easement may be used to dump trash, grass clippings or branches, though an owner may keep a compost pile for that lot."
+      ],
+      "layerRefs": [
+        "evans-co--lake-arrowhead.hoa-location-lots",
+        "evans-co--lake-arrowhead.parcels",
+        "evans-co--lake-arrowhead.setbacks-lots",
+        "evans-co--lake-arrowhead.large-animals",
+        "evans-co--lake-arrowhead.materials-clippings"
+      ],
+      "sources": [
+        "https://lakearrowheadhoa.org/",
+        "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query",
+        "https://mgxxonstuwhhbgxktpyt.supabase.co/storage/v1/object/public/hoa-documents/1775545303421-LAHA%20Covenants%20July%202019.doc"
+      ]
+    },
+    {
+      "kind": "utility",
+      "own": true,
+      "kicker": "The reservoir",
+      "h2": "The lake belongs to a separate water association, which has no taps for new members.",
+      "paras": [
+        "Lake Arrowhead Water Association, on the state's business registry since 1990, is a different body from the homeowners association registered in 2002. It owns the 34.9-acre lake parcel in the northeast quarter of Section 27 and a 1.9-acre tract in the First Filing. The state's water-rights record lists the reservoir on Ashcroft Draw with a 1963 appropriation and a 1996 adjudication date, decreed for irrigation, recreation, fishery, fire and wildlife uses, 200 acre-feet of it absolute.",
+        "Its rules sheet, dated April 22, 2026, keeps the water to members in good standing, in daylight, with electric trolling motors only, and says there are no taps available for new water association members. The homeowners association's own site describes the subdivision as built around a man-made lake with access to the water association's irrigation. Read together, access depends on the lot: ask the water association whether yours holds a membership before planning irrigation around a new green or planting bed. Evans's neighborhood map lists no city or HOA non-potable system for Arrowhead.",
+        "Next door, Evans lists Arrowhead Open Space at the southwest corner of 37th Street and 47th Avenue, planned with a walking trail and a scenic overlook of Arrowhead Reservoir."
+      ],
+      "layerRefs": [
+        "evans-co--lake-arrowhead.registry",
+        "evans-co--lake-arrowhead.lake-parcel",
+        "evans-co--lake-arrowhead.reservoir-decree",
+        "evans-co--lake-arrowhead.water-association-rules",
+        "evans-co--lake-arrowhead.hoa-site-irrigation",
+        "evans-co--lake-arrowhead.evans-map-weld-county",
+        "evans-co--lake-arrowhead.arrowhead-open-space"
+      ],
+      "sources": [
+        "https://data.colorado.gov/resource/4ykn-tg5h.json",
+        "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query",
+        "https://dwr.state.co.us/Rest/GET/api/v2/waterrights/netamount/?format=json&wdid=0203360",
+        "https://dwr.state.co.us/Tools/WaterRights/TransactionsDataDictionary/GetDataDictionary",
+        "https://mgxxonstuwhhbgxktpyt.supabase.co/storage/v1/object/public/hoa-documents/1776986790399-Water%20Assoc%20%20RULES.docx",
+        "https://lakearrowheadhoa.org/",
+        "https://services.arcgis.com/Kw0m8JWrOz8nwkzg/arcgis/rest/services/NeighborhoodAreas/FeatureServer/0",
+        "https://www.evanscolorado.gov/parks-recreation-and-community/parks/"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": false,
+      "kicker": "Weld County",
+      "h2": "Greeley addresses, Weld County rules: neither city's landscape code reaches these yards.",
+      "paras": [
+        "The association calls Lake Arrowhead a Greeley community and gives a Greeley 80634 address, but the land is unincorporated Weld County, and Evans's own neighborhood map files Arrowhead under Weld County jurisdiction. A city's landscape code ends at its limits, so the turf rules written by Greeley and by Evans do not govern a yard here.",
+        "The county has no turf rule of its own: searching the Weld County code on Municode for artificial turf turns up nothing. On August 24, 2026 the county repealed and re-enacted its zoning chapter with amendments, and that text was not yet in the online code a month later, so check with Weld County Planning Services before a larger build.",
+        "The county's permit bulletin lists work that needs no building permit: fences other than pool barriers, retaining walls up to four feet from footing to top, patios no more than 30 inches above grade, and one-story sheds or playhouses up to 200 square feet, which must still meet setbacks. Plumbing, electrical and mechanical permits can apply even to exempt work; ask the Building Inspection Division."
+      ],
+      "layerRefs": [
+        "evans-co--lake-arrowhead.hoa-location-lots",
+        "evans-co--lake-arrowhead.evans-map-weld-county",
+        "weld-county-code-no-turf-provision",
+        "evans-co--lake-arrowhead.weld-zoning-reenacted",
+        "evans-co--lake-arrowhead.weld-permit-exemptions"
+      ],
+      "sources": [
+        "https://lakearrowheadhoa.org/",
+        "https://services.arcgis.com/Kw0m8JWrOz8nwkzg/arcgis/rest/services/NeighborhoodAreas/FeatureServer/0",
+        "https://library.municode.com/co/weld_county/codes/charter_and_county_code",
+        "https://www.weld.gov/files/sharedassets/public/v/9/departments/building/documents/bldg-permit-needed-handout.pdf"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is Lake Arrowhead part of Evans or of Greeley?",
+      "a": "Neither. It is unincorporated Weld County between the two cities, with Greeley mailing addresses, and Evans shows it on its neighborhood map under Weld County jurisdiction. The covenants and the county's rules apply to a yard here, not either city's landscape code.",
+      "layerRefs": [
+        "evans-co--lake-arrowhead.hoa-location-lots",
+        "evans-co--lake-arrowhead.evans-map-weld-county"
+      ]
+    },
+    {
+      "q": "Can turf or a putting green run onto the bridle-path easement?",
+      "a": "The covenants don't address it. They bar any building, fence or storage on an easement and have the association mow it at least once a year, so plan to stop at the easement line unless the Architectural Control Committee agrees otherwise in writing.",
+      "layerRefs": [
+        "evans-co--lake-arrowhead.bridle-path-easements"
+      ]
+    },
+    {
+      "q": "Does a shed or pergola next to a green need approval?",
+      "a": "It can. The committee reviews outbuildings, garages, barns, carports and similar structures, and the covenants' setbacks apply to any structure. Weld County needs no building permit for a one-story shed of 200 square feet or less, but it still has to meet setbacks.",
+      "layerRefs": [
+        "evans-co--lake-arrowhead.acc-review-scope",
+        "evans-co--lake-arrowhead.weld-permit-exemptions"
+      ]
+    },
+    {
+      "q": "How long does the committee take, and when do the neighbors sign?",
+      "a": "Seven calendar days from receipt, for plans and for variance requests alike. A variance also needs the adjacent owners' written approval, and so does any fence, wall or hedge taller than six feet.",
+      "layerRefs": [
+        "evans-co--lake-arrowhead.acc-seven-days",
+        "evans-co--lake-arrowhead.variance-fence-hedge"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Covenants for Lake Arrowhead Subdivision, July 2019 version (posted on the HOA documents page April 7, 2026)",
+      "url": "https://mgxxonstuwhhbgxktpyt.supabase.co/storage/v1/object/public/hoa-documents/1775545303421-LAHA%20Covenants%20July%202019.doc",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Lake Arrowhead HOA, Community Documents page",
+      "url": "https://lakearrowheadhoa.org/documents",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Lake Arrowhead Homeowners Association website, home page",
+      "url": "https://lakearrowheadhoa.org/",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Lake Arrowhead Water Association rules, dated April 22, 2026 (posted on the HOA documents page)",
+      "url": "https://mgxxonstuwhhbgxktpyt.supabase.co/storage/v1/object/public/hoa-documents/1776986790399-Water%20Assoc%20%20RULES.docx",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "City of Evans GIS, Neighborhood Outlines layer (Arrowhead: Weld County jurisdiction)",
+      "url": "https://services.arcgis.com/Kw0m8JWrOz8nwkzg/arcgis/rest/services/NeighborhoodAreas/FeatureServer/0",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Colorado Public Parcels (statewide parcel file): Arrowhead Subdivision filings and the lake parcel, Weld County",
+      "url": "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Colorado Division of Water Resources, water rights net amounts for WDID 0203360 (Lake Arrowhead)",
+      "url": "https://dwr.state.co.us/Rest/GET/api/v2/waterrights/netamount/?format=json&wdid=0203360",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Colorado Division of Water Resources, water-rights transactions data dictionary (decreed use codes)",
+      "url": "https://dwr.state.co.us/Tools/WaterRights/TransactionsDataDictionary/GetDataDictionary",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Colorado Secretary of State business entities on data.colorado.gov",
+      "url": "https://data.colorado.gov/resource/4ykn-tg5h.json",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Weld County Charter and County Code on Municode (codified through June 8, 2026; adopted ordinances not yet codified)",
+      "url": "https://library.municode.com/co/weld_county/codes/charter_and_county_code",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Weld County Building Inspection Division, When is a Building Permit Needed?",
+      "url": "https://www.weld.gov/files/sharedassets/public/v/9/departments/building/documents/bldg-permit-needed-handout.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "City of Evans, Parks (Arrowhead Open Space)",
+      "url": "https://www.evanscolorado.gov/parks-recreation-and-community/parks/",
+      "checked": "2026-09-26"
+    }
+  ],
+  "checked": "2026-09-26",
+  "needsFromBrian": [
+    "Confirmation that NoCo serves Lake Arrowhead (unincorporated Weld County with Greeley 80634 addresses, filed under Evans on this site) and wants turf and putting-green leads there",
+    "Camera-original photos of a Lake Arrowhead job, before and after (turf, a putting green, a pet area or a full backyard); photos.ts has nothing tagged to this neighborhood, so the page cannot publish without one",
+    "Any Lake Arrowhead jobs: filing or street, month, rough size and use, and whether the Architectural Control Committee was asked or a Weld County permit was pulled",
+    "Whether any job has run turf up to or across a bridle-path easement, and what the association said",
+    "Whether you know if any lots irrigate from the Lake Arrowhead Water Association's reservoir"
+  ]
+}

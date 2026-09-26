@@ -1,0 +1,532 @@
+[
+  {
+    "id": "windsor-co--highland-meadows.dg-astro-turf",
+    "layer": "housing",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "The Windsor Highlands Metropolitan District's architectural guidelines for Highland Meadows single-family homes say new styles of artificial turf will be looked at, and they require Architectural Control Committee approval.",
+    "quote": "Section 2.9 ASTRO-TURF: New styles will be looked at; ACC approval is required.",
+    "source_url": "https://www.windsorhighlandsmetrodistrict.com/files/035b30d06/WHMD+Guidelines+APPROVED+12-4-2020.pdf",
+    "source_label": "Windsor Highlands Metropolitan District Nos. 1–10, Architectural Guidelines (approved 12/4/2020), Sec. 2.9 Astro-Turf",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2.9"
+    ],
+    "notes": "Downloaded with curl and read with pdftotext on 2026-09-26 (a Word-generated PDF, not a scan). Sec. 2.9 is the only place the guidelines mention artificial turf; no section mentions putting greens (searched for putting, synthetic, artificial, astro). The footer date is 12/4/2020; Sec. 7.3 says the guidelines were initially adopted November 11, 2020."
+  },
+  {
+    "id": "windsor-co--highland-meadows.dg-scope",
+    "layer": "housing",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "The Windsor Highlands guidelines were adopted by the governing board of Metropolitan Districts No. 1 through No. 10 for single-family homes, not townhomes, condos, apartments or cottages, and owners in a sub-HOA must also follow that HOA's guidelines.",
+    "quote": "NOTE: SOME AREAS HAVE A SUB-HOA. (PATIO HOMES, HOMES ON MURANO, TOWNHOMES, CONDOS, COTTAGES, APARTMENTS, COUNTRY FARMS, ETC.) YOU MUST ALSO SEE YOUR HOA GUIDELINES. … These Guidelines have been promulgated and adopted by the governing board (“Governing Board”) of the Windsor Highlands Metropolitan District No. 1 through No. 10 (the “Metropolitan Districts” or “The Districts”) for the single-family home, not for the Townhomes, Condos, Apartments, and Cottages.",
+    "source_url": "https://www.windsorhighlandsmetrodistrict.com/files/035b30d06/WHMD+Guidelines+APPROVED+12-4-2020.pdf",
+    "source_label": "Windsor Highlands Metropolitan District Nos. 1–10, Architectural Guidelines (approved 12/4/2020), cover note and Sec. 1.1",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1.1",
+      "1",
+      "10"
+    ],
+    "notes": "First sentence from the cover page, second from Sec. 1.1."
+  },
+  {
+    "id": "windsor-co--highland-meadows.dg-phase-conflict",
+    "layer": "housing",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "The Windsor Highlands guidelines say their provisions may differ from other phases' design guidelines and claim to prevail where they conflict; the Country Farms Villages guidelines carry the same clause.",
+    "quote": "Section 1.2 Application: These Guidelines shall apply to Improvements constructed, erected, placed, or altered within Windsor Highlands Metro Districts. Certain provisions of these Guidelines may be different from design guidelines for other phases within the Development. In the event of any actual or apparent conflict between these Guidelines and the design guidelines for other phases within the Development, these Guidelines shall prevail as to Improvements within other Filings.",
+    "source_url": "https://www.windsorhighlandsmetrodistrict.com/files/035b30d06/WHMD+Guidelines+APPROVED+12-4-2020.pdf",
+    "source_label": "Windsor Highlands Metropolitan District Nos. 1–10, Architectural Guidelines (approved 12/4/2020), Sec. 1.2 Application",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1.2"
+    ],
+    "notes": "The District No. 7 Country Farms Villages guidelines (Sec. 1.2) use the same wording, so each book claims to prevail over the other. Which book governs a Country Farms lot is not settled by the documents; the page sends owners to the district."
+  },
+  {
+    "id": "windsor-co--highland-meadows.cf-astro-turf",
+    "layer": "housing",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Country Farms Villages, Windsor Highlands Metropolitan District No. 7, has its own guidelines, adopted November 11, 2020, which allow artificial turf in back yards with Architectural Control Committee approval.",
+    "quote": "Section 2.9 ASTRO-TURF: Back yards; ACC approval is required. … THESE ARCHITCTURAL GUIDELINES WERE INITIALLY ADOPTED BY THE GOVERNING BOARD on the 11th day of November, 2020.",
+    "source_url": "https://www.windsorhighlandsmetrodistrict.com/files/3f82cfb7c/WHMD+Country+Farms+Guidelines+APPROVED+11-11-2020.pdf",
+    "source_label": "Windsor Highlands Metropolitan District No. 7, Architectural Country Farm Villages Guidelines (adopted November 11, 2020), Sec. 2.9 Astro-Turf",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2.9",
+      "7",
+      "11",
+      "2020"
+    ],
+    "notes": "Downloaded with curl and read with pdftotext on 2026-09-26 (a Word-generated PDF, not a scan). The spelling ARCHITCTURAL is the document's. Sec. 2.43 of the same book places Country Farms Villages west of Fairgrounds, apart from the golf-cart area east of it."
+  },
+  {
+    "id": "windsor-co--highland-meadows.dg-front-yard-turf",
+    "layer": "housing",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Highland Meadows single-family lots need at least 40% of the front yard's landscapable area in turf or the committee reviews it, plus two trees and three shrubs in both the front and back yards (one front tree an evergreen), and large expanses of exposed mulch are not allowed.",
+    "quote": "2.50.3 Planting Requirements. For single family Lots, a minimum of two (2) trees shall be required and three (3) shrubs in the front yard and backyard. The front yard must have one pine/evergreen tree as the part of the two trees. (Total 4 trees and 6 shrubs total). Trees shall be no less than two (2) inch caliper when installed, and in the case of evergreens/pine, each evergreen/pine tree must be no less than six (6) feet (6’above ground, not including root ball) in height when installed. … Trees should be at least 5 feet from property lines and shrubs at least 3 feet from property lines. At least forty percent (40%) of the front yard’s landscapable area must be comprised of turf if less ACC will be reviewed. All shrub beds should be designed and installed so that they look fully planted. Large expanses of exposed mulch shall not be allowed.",
+    "source_url": "https://www.windsorhighlandsmetrodistrict.com/files/035b30d06/WHMD+Guidelines+APPROVED+12-4-2020.pdf",
+    "source_label": "Windsor Highlands Metropolitan District Nos. 1–10, Architectural Guidelines (approved 12/4/2020), Sec. 2.50.3 Planting Requirements",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2.50",
+      "40",
+      "2",
+      "3",
+      "4",
+      "6",
+      "5"
+    ],
+    "notes": "The guidelines do not define turf. Sec. 2.48 and 2.50.2 speak of turf areas irrigated by pop-up sprinklers, so the 40% clause reads as sprinkler-watered grass; whether artificial turf counts is not stated."
+  },
+  {
+    "id": "windsor-co--highland-meadows.dg-irrigation",
+    "layer": "housing",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Highland Meadows' guidelines require committee approval for irrigation systems and call for fully automatic underground sprinklers, with pop-up spray or rotary heads on turf areas and low-volume drip on planting beds.",
+    "quote": "Section 2.48 IRRIGATION SYSTEMS: ACC approval is required. All landscaping shall be irrigated with a fully automatic underground sprinkler system. Turf areas shall be irrigated with pop-up spray or pop-up rotary sprinklers. Planting bed areas shall be irrigated with low volume drip irrigation.",
+    "source_url": "https://www.windsorhighlandsmetrodistrict.com/files/035b30d06/WHMD+Guidelines+APPROVED+12-4-2020.pdf",
+    "source_label": "Windsor Highlands Metropolitan District Nos. 1–10, Architectural Guidelines (approved 12/4/2020), Sec. 2.48 Irrigation Systems (repeated in Sec. 2.50.2)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2.48",
+      "2.50"
+    ]
+  },
+  {
+    "id": "windsor-co--highland-meadows.dg-landscape-plans",
+    "layer": "housing",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Highland Meadows landscaping plans go to the Architectural Control Committee before installation, showing rock, sod, walls, sprinklers and plants with a drainage and grading plan; fees may apply, with an extra fee for each review after the second.",
+    "quote": "2.50.1 Landscaping Plans. Landscaping plans (1 set) and other required documents shall be submitted to the ACC for review and approval prior to the installation of landscaping. Fees may apply. Plans (1 set) reviewed more than 2 times will charge an additional fee per review. … Plans must depict fences, decks, sod, seeded areas, retaining walls, rock, railroad ties, sprinkler system, sizes, and species of nursery materials, and include a drainage and grading plan that coincides with the builders, and shows any Improvements or alterations thereto.",
+    "source_url": "https://www.windsorhighlandsmetrodistrict.com/files/035b30d06/WHMD+Guidelines+APPROVED+12-4-2020.pdf",
+    "source_label": "Windsor Highlands Metropolitan District Nos. 1–10, Architectural Guidelines (approved 12/4/2020), Sec. 2.50.1 Landscaping Plans",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2.50",
+      "1",
+      "2"
+    ]
+  },
+  {
+    "id": "windsor-co--highland-meadows.dg-drainage",
+    "layer": "housing",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Highland Meadows owners must keep each lot's established drainage, submit an engineered drainage plan to the committee to change it, keep drains off district property and keep the drainage easement, normally at least 3 feet from the property line, clear.",
+    "quote": "Section 2.28 DRAINAGE: Each Owner shall maintain the grading upon his/her lot (including grading around the building foundation) at the slope and pitch fixed by the final grading thereof, including landscaping and maintenance of the slopes, so as to maintain the established drainage. Each owner shall not in any way interfere with the established drainage pattern over the lot. In the event that it is necessary or desirable to change the established drainage over any lot, then the Owner thereof shall submit an engineered drainage plan to the ACC for its review, in accordance with any applicable governmental entities. … Do not run drains to discharge on District property. All lots have a drainage easement you should keep it clear, normally at least 3 feet from property line.",
+    "source_url": "https://www.windsorhighlandsmetrodistrict.com/files/035b30d06/WHMD+Guidelines+APPROVED+12-4-2020.pdf",
+    "source_label": "Windsor Highlands Metropolitan District Nos. 1–10, Architectural Guidelines (approved 12/4/2020), Sec. 2.28 Drainage",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2.28",
+      "3"
+    ]
+  },
+  {
+    "id": "windsor-co--highland-meadows.decl-grading-sprinklers",
+    "layer": "soil",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "The recorded Highland Meadows Declaration bars landscaping or other improvements that change a lot's grading from the Town-approved grading plans, asks owners to minimize sprinkler piping and heads within 5 feet of foundation walls and slabs, and warns of expansive and low-density soils.",
+    "quote": "The soils within the state of Colorado consist of both expansive soils and low-density soils which will adversely affect the integrity of a Building if the Building and the Lot on which it is constructed are not properly maintained. … (a) Not to install improvements, including, but not limited to, Landscaping, items related to Landscaping, walls, walks, driveways, parking pads, patios, fences, additions to the Building, outbuildings, or any other item or improvement which will change the grading of the Lot as shown on the grading plans approved by the Town. … (f) To minimize or eliminate the installation of piping and heads for sprinkler systems within five (5) feet of foundation walls and slabs.",
+    "source_url": "https://www.windsorhighlandsmetrodistrict.com/files/628d25f70/WHMD+Covenants+Recorded+04-21-04.pdf",
+    "source_label": "Declaration of Covenants, Conditions, and Restrictions for Highland Meadows Golf Course Subdivision (Larimer County Reception No. 2004-0037453, recorded 04/21/2004), Art. X, Secs. 1 and 4(a), 4(f)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5",
+      "2004",
+      "0037453"
+    ],
+    "notes": "Scanned document with an OCR text layer; the quoted passages were checked against the page images (printed pp. 18 and 19) on 2026-09-26."
+  },
+  {
+    "id": "windsor-co--highland-meadows.decl-landscaping-defined",
+    "layer": "housing",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "The Highland Meadows Declaration, recorded April 21, 2004 in Larimer County for up to 1,000 lots, defines landscaping to include every material covering the ground and bars any landscaping from starting until the Architectural Control Committee approves its plans.",
+    "quote": "4. County. The name of every county in which any part of the Common Interest Community is situated is Larimer County, Colorado. … 6. Maximum Number of Lots. The maximum number of Lots that the Declarant reserves the right to create within the Common Interest Community is 1,000. … 22. “Landscaping” shall mean and refer to trees, shrubs, grasses, flowers, and other plants and plant materials; rocks, stones, gravel, wood chips, concrete, bricks, and other hard surfacing; fences, walls and other barriers; and all other structures and materials covering the ground. … 2. Control. No construction, alteration, addition, modification, exterior decoration, exterior redecoration, or reconstruction of any building, fence, wall, structure, Landscaping, or other improvement within the Common Interest Community shall be commenced or maintained until the plans and specifications thereof shall have been approved by the Architectural Control Committee.",
+    "source_url": "https://www.windsorhighlandsmetrodistrict.com/files/628d25f70/WHMD+Covenants+Recorded+04-21-04.pdf",
+    "source_label": "Declaration of Covenants, Conditions, and Restrictions for Highland Meadows Golf Course Subdivision (Larimer County Reception No. 2004-0037453, recorded 04/21/2004), Art. II def. 22, Art. III Secs. 4 and 6, Art. XI Sec. 2",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1000",
+      "22",
+      "2004",
+      "0037453",
+      "21",
+      "4",
+      "6",
+      "2"
+    ],
+    "notes": "Checked against the page images (printed pp. 4, 6 and 21) on 2026-09-26. The Declaration is dated March 31, 2004 and was recorded April 21, 2004 at 14:35."
+  },
+  {
+    "id": "windsor-co--highland-meadows.dg-golf-course",
+    "layer": "place",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor Highlands' guidelines call Highland Meadows Golf Course a private business or separate district outside the residential districts, and bar owners from gating the district fence onto it, mowing its native grass or spraying broadleaf herbicide on course property.",
+    "quote": "Section 2.42 GOLF COURSE: The Highland Meadows Golf Course is a private business and/or a separate District. … You cannot mow the native grass. You cannot spray broadleaf herbicide on golf course property. Maintain grass or weeds on your side of the property line, do not mow or spray any chemicals on the golf course. … Those of you that live along/back up to the golf course you cannot put a gate in the District fence to access the Golf Course property. … Section 2.45 HIGHLANDS MEADOWS GOLF COURSE: Not part of the residential Districts.",
+    "source_url": "https://www.windsorhighlandsmetrodistrict.com/files/035b30d06/WHMD+Guidelines+APPROVED+12-4-2020.pdf",
+    "source_label": "Windsor Highlands Metropolitan District Nos. 1–10, Architectural Guidelines (approved 12/4/2020), Secs. 2.42 Golf Course and 2.45 Highland Meadows Golf Course",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2.42",
+      "2.45"
+    ],
+    "notes": "Sec. 2.34 (Fences) repeats: \"No gates on lots that back to the golf course.\" The district's board list carries a separate WHMD No. 11 labeled Golf Course."
+  },
+  {
+    "id": "windsor-co--highland-meadows.dg-access",
+    "layer": "housing",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor Highlands' guidelines and design application bar owners and contractors from taking down district fencing or driving across district landscaping to reach a yard.",
+    "quote": "Homeowner or Contractor cannot take down District fencing for access to yard. Homeowner or Contractor cannot drive across District Landscape for access to yard.",
+    "source_url": "https://www.windsorhighlandsmetrodistrict.com/files/035b30d06/WHMD+Guidelines+APPROVED+12-4-2020.pdf",
+    "source_label": "Windsor Highlands Metropolitan District Nos. 1–10, Architectural Guidelines (approved 12/4/2020), Secs. 2.25, 2.46 and 2.48",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2.25",
+      "2.46",
+      "2.48"
+    ],
+    "notes": "The same two sentences close Secs. 2.25 (Decks), 2.46 (Hot Tubs) and 2.48 (Irrigation Systems)."
+  },
+  {
+    "id": "windsor-co--highland-meadows.dg-views",
+    "layer": "housing",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor Highlands' guidelines say views are not protected, including views of the golf course, which is outside the residential districts and can change or add landscaping as needed.",
+    "quote": "Section 2.113 VIEW: Views are not protected. Homeowners can place play sets, pergolas, decks, patio covers, plant trees, shrubs etc. as requested with ADA approval. This also applies to the Golf Course. The Golf Course is not in the residential Districts and can change and/or add any landscaping as needed.",
+    "source_url": "https://www.windsorhighlandsmetrodistrict.com/files/035b30d06/WHMD+Guidelines+APPROVED+12-4-2020.pdf",
+    "source_label": "Windsor Highlands Metropolitan District Nos. 1–10, Architectural Guidelines (approved 12/4/2020), Sec. 2.113 View",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2.113"
+    ]
+  },
+  {
+    "id": "windsor-co--highland-meadows.dg-backyard-spacing",
+    "layer": "housing",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "In Highland Meadows, fire pits need committee approval and must sit at least 15 feet from the property line, and play structures go in the rear or side yard, ideally 5 feet off lot lines, at 10 feet tall or less.",
+    "quote": "Section 2.33 FIRE PITS: Fire pits gas or wood burning are allowed with ACC approval. All fire pits must be fire rated and must comply with Town codes. Check with the Town on permits. The fire pit must be at least 15 feet from the property line. … Section 2.70 PLAY AND SPORTS EQUIPMENT: Play structures, trampolines, swing. sets, slides, or other such devices require ACC approval. Approval for such equipment may be granted when it is proposed to be placed within the rear or side yard, and is constructed and finished with materials which are complimentary to the residence. Try to stay a minimum of 5 feet from lot lines and out of easements if possible. … Play structures are limited in height to 10 feet (10’) or less",
+    "source_url": "https://www.windsorhighlandsmetrodistrict.com/files/035b30d06/WHMD+Guidelines+APPROVED+12-4-2020.pdf",
+    "source_label": "Windsor Highlands Metropolitan District Nos. 1–10, Architectural Guidelines (approved 12/4/2020), Secs. 2.33 Fire Pits and 2.70 Play and Sports Equipment",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2.33",
+      "2.70",
+      "15",
+      "5",
+      "10"
+    ]
+  },
+  {
+    "id": "windsor-co--highland-meadows.dg-walls-features",
+    "layer": "housing",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Highland Meadows water features need committee approval, and retaining walls need approval, a detailed landscape plan and brick, treated wood, natural stone or similar materials; exposed concrete walls are forbidden.",
+    "quote": "Section 2.92 STATUES/FOUNTAINS/WATER FEATURES: Statues/fountains/water features of any kind will not be permitted in yards without prior approval of the ACC. … Section 2.114 WALLS – RETAINING: Retaining walls require ACC approval and must be constructed to conform to local municipal code requirements. The Owner shall provide a detailed landscape plan, indicating the size and exposure of the retaining wall, at the time of plan review for approval. … Retaining walls shall be constructed of brick, treated wood, natural stone, or similar materials, subject to approval by the ACC. Exposed concrete retaining walls are specifically forbidden.",
+    "source_url": "https://www.windsorhighlandsmetrodistrict.com/files/035b30d06/WHMD+Guidelines+APPROVED+12-4-2020.pdf",
+    "source_label": "Windsor Highlands Metropolitan District Nos. 1–10, Architectural Guidelines (approved 12/4/2020), Secs. 2.92 and 2.114",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2.92",
+      "2.114"
+    ]
+  },
+  {
+    "id": "windsor-co--highland-meadows.dg-review-clock",
+    "layer": "housing",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor Highlands' committee must approve or disapprove a complete request within 45 days, failure to approve in that time counts as disapproval, and an adverse decision can be appealed within 10 days.",
+    "quote": "Section 3.5 Review. The ACC shall approve or disapprove all requests for approval within forty-five (45) days after the complete submission of all plans, specifications, and other materials and information which the ACC may require in conjunction therewith. A stamped or printed notation, initialized by a member of the ACC, affixed to any of the plans and specifications shall be deemed sufficient writing. … Failure to approve within forty-five (45) days shall be deemed disapproval. … In the event the ACC decides a request for architectural approval which is adverse to the applicant, then the applicant shall have the right to an appeal of such decision to the full Governing Board, upon a written request therefor submitted to the Governing Board within ten (10) days after such decision by the ACC.",
+    "source_url": "https://www.windsorhighlandsmetrodistrict.com/files/035b30d06/WHMD+Guidelines+APPROVED+12-4-2020.pdf",
+    "source_label": "Windsor Highlands Metropolitan District Nos. 1–10, Architectural Guidelines (approved 12/4/2020), Secs. 3.5 Review and 3.6 Voting and Appeals",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3.5",
+      "3.6",
+      "45",
+      "10"
+    ]
+  },
+  {
+    "id": "windsor-co--highland-meadows.dg-completion-year",
+    "layer": "housing",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor Highlands' guidelines give an owner one year after approval to finish an approved improvement, and let the committee grant extensions.",
+    "quote": "Failure to complete the proposed Improvement within one (1) year after the date of approval of the application or to complete the Improvement in complete conformance with the conditions and requirements of the approval, shall constitute noncompliance with the requirement that approval for Improvements be obtained from the ACC; provided, however, the ACC, in its discretion, may grant extensions of time for completion of any proposed Improvements.",
+    "source_url": "https://www.windsorhighlandsmetrodistrict.com/files/035b30d06/WHMD+Guidelines+APPROVED+12-4-2020.pdf",
+    "source_label": "Windsor Highlands Metropolitan District Nos. 1–10, Architectural Guidelines (approved 12/4/2020), Sec. 3.7 Prosecution of Work After Approval",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3.7",
+      "1"
+    ],
+    "notes": "Conflicts with the design application revised 9/22/2025, which says approved work must be completed within 9 months (record ada-nine-months)."
+  },
+  {
+    "id": "windsor-co--highland-meadows.ada-submittal",
+    "layer": "housing",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "A Windsor Highlands design application must come with one set of plans or sketches showing the work's location, size, colors and materials against the lot lines and the house, plus the manufacturer's brochure or cut sheets.",
+    "quote": "In addition to this completed Architectural Design Application the applicant must submit one set of plans/drawings/sketch of lot/photos with specifications of any improvements or construction showing location, height, width, length, colors, copy of brochure, materials or \"information\" cut sheets\" from the manufacturer. It is especially important to include the location of any improvements in relation to the lot lines and the home.",
+    "source_url": "https://www.windsorhighlandsmetrodistrict.com/files/8167b04c1/WHMD+Architectual+Design+Application+12-31-2025.pdf",
+    "source_label": "Windsor Highlands Metropolitan District, Architectural Design Application (revised 9/22/2025, posted 12-31-2025)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "9",
+      "22",
+      "2025",
+      "12",
+      "31"
+    ],
+    "notes": "A scanned form (ScanSnap, December 31, 2025) with an OCR text layer; quotes were checked against the page image on 2026-09-26."
+  },
+  {
+    "id": "windsor-co--highland-meadows.ada-nine-months",
+    "layer": "housing",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "The Windsor Highlands design application, revised September 22, 2025, says approved work must be completed within 9 months of approval or resubmitted with review fees where required.",
+    "quote": "Approved work must be completed within 9 months of approval, or you must re-submit and pay review fees, when required. … Revised 9/22/2025",
+    "source_url": "https://www.windsorhighlandsmetrodistrict.com/files/8167b04c1/WHMD+Architectual+Design+Application+12-31-2025.pdf",
+    "source_label": "Windsor Highlands Metropolitan District, Architectural Design Application (revised 9/22/2025, posted 12-31-2025)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "9",
+      "22",
+      "2025",
+      "9/22"
+    ],
+    "notes": "Shorter than the one year in the guidelines' Sec. 3.7 (record dg-completion-year); the documents conflict."
+  },
+  {
+    "id": "windsor-co--highland-meadows.ada-fence-drainage",
+    "layer": "housing",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "The Windsor Highlands design application requires drainage to stay the same unless a qualified person signs off on a new drainage plan, drainage to keep flowing under the district fence with no landscape material piled on it, and no removal of district fencing or driving on district landscaping to reach a yard.",
+    "quote": "Drainage should remain the same or have qualified person sign off on a new drainage plan. Proper drainage is required to handle storm events and irrigation drainage of your lot. Keep proper drainage flows under District fence, do not pile landscape material onto District fence. … Removal of WHMD fencing or driving on WHMD landscaping is not allowed for access to yard.",
+    "source_url": "https://www.windsorhighlandsmetrodistrict.com/files/8167b04c1/WHMD+Architectual+Design+Application+12-31-2025.pdf",
+    "source_label": "Windsor Highlands Metropolitan District, Architectural Design Application (revised 9/22/2025, posted 12-31-2025)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "9",
+      "22",
+      "2025"
+    ]
+  },
+  {
+    "id": "windsor-co--highland-meadows.ada-no-nonpotable",
+    "layer": "utility",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor Highlands' design application says the district has no non-potable water lines in residents' yards, so it does not come out when owners call for utility locates.",
+    "quote": "When you call for locates; WHMD will not come out, no Non-potable water lines in your yard.",
+    "source_url": "https://www.windsorhighlandsmetrodistrict.com/files/8167b04c1/WHMD+Architectual+Design+Application+12-31-2025.pdf",
+    "source_label": "Windsor Highlands Metropolitan District, Architectural Design Application (revised 9/22/2025, posted 12-31-2025)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "9",
+      "22",
+      "2025"
+    ],
+    "notes": "The OCR layer reads \"Non-potablc\"; the page image reads \"Non-potable\". The Country Farms Villages area (District No. 7) posts a non-potable watering schedule for district tracts and residential lots, so this line describes the rest of the district."
+  },
+  {
+    "id": "windsor-co--highland-meadows.dg-nonpotable",
+    "layer": "utility",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor Highlands' guidelines disclose that irrigation systems serving the community's greenbelts and open spaces may use untreated non-potable water that is not safe for people or pets to drink.",
+    "quote": "Section 2.58 NON-POTABLE WATER SYSTEM: Disclosure is hereby made that various irrigation systems servicing greenbelts, open spaces and other areas within the community may utilize untreated, non-potable water which is not safe for human or pet consumption.",
+    "source_url": "https://www.windsorhighlandsmetrodistrict.com/files/035b30d06/WHMD+Guidelines+APPROVED+12-4-2020.pdf",
+    "source_label": "Windsor Highlands Metropolitan District Nos. 1–10, Architectural Guidelines (approved 12/4/2020), Sec. 2.58 Non-Potable Water System",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2.58"
+    ]
+  },
+  {
+    "id": "windsor-co--highland-meadows.welcome-review-time",
+    "layer": "housing",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "The Windsor Highlands welcome letter says every exterior project is reviewed by the metro districts or the owner's HOA, asks owners to allow at least 7 days for a design review, and to have work approved before it starts.",
+    "quote": "All Exterior projects need to be reviewed by the Metro Districts or by your HOA. The Architectural Design Application ''ADA'' is the form you need to submit for WHMD reviews. … ADA reviews can take time please allow at least 7 seven days. Please have work approved before any work is started.",
+    "source_url": "https://www.windsorhighlandsmetrodistrict.com/files/844818791/WHMD-Welcome-Letter-12-4-2020.pdf",
+    "source_label": "Windsor Highlands Metro Districts, Welcome Letter (12/4/2020)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "7",
+      "12",
+      "4",
+      "2020"
+    ],
+    "notes": "Downloaded with curl and read with pdftotext on 2026-09-26 (a Word-generated PDF, not a scan)."
+  },
+  {
+    "id": "windsor-co--highland-meadows.cf-nonpotable-schedule",
+    "layer": "utility",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor Highlands Metropolitan District No. 7 posts a non-potable watering schedule for Country Farms that covers grass and trees on residential lots as well as district tracts.",
+    "quote": "Windsor Highlands Metro District No. 7 – Country Farms Non-Potable Watering Schedule … Turf - All Grass & Trees - District Tracts & Residential: Monday, Wednesday, Friday, Saturday - 5:00am to 6:00pm.",
+    "source_url": "https://www.windsorhighlandsmetrodistrict.com/files/ef790e565/WHMD+%237+Country+Farms+Non-Potable+Watering+Schedule+07-17-2025.pdf",
+    "source_label": "Windsor Highlands Metro District No. 7, Country Farms Non-Potable Watering Schedule (07-17-2025)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "7",
+      "5",
+      "6",
+      "00",
+      "07",
+      "17",
+      "2025"
+    ],
+    "notes": "Downloaded with curl and read with pdftotext on 2026-09-26 (a Word-generated PDF, not a scan). The schedule also notes the system shuts off for 24 to 48 hours after half an inch of rain or more."
+  },
+  {
+    "id": "windsor-co--highland-meadows.lot-sizes",
+    "layer": "housing",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Larimer County's platted-lot map draws 856 numbered lots across the Highland Meadows Golf Course filings, with a median near 8,760 square feet, 168 lots under 5,000 square feet and 275 at 10,000 square feet or more.",
+    "quote": "SUBNAME: HIGHLAND MEADOWS GOLF COURSE · SUBNAME: HIGHLAND MEADOWS GOLF COURSE 7TH … HIGHLAND MEADOWS GOLF COURSE 17TH · LABEL: 1 … TR A, TR B",
+    "source_url": "https://maps1.larimer.org/arcgis/rest/services/MapServices/Parcels/MapServer/4",
+    "source_label": "Larimer County parcel GIS, Platted Lots layer: Highland Meadows Golf Course filings (856 numbered lots, median about 8,760 sq ft), lot areas computed from the lot polygons",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "856",
+      "8760",
+      "8,760",
+      "168",
+      "5000",
+      "5,000",
+      "275",
+      "10000",
+      "10,000",
+      "7",
+      "17",
+      "1"
+    ],
+    "notes": "Queried 2026-09-26: /query?where=SUBNAME LIKE 'HIGHLAND MEADOWS GOLF COURSE%', returnGeometry=true, spatial reference 2876 (Colorado North, US feet); shoelace area of each polygon. 903 features, 856 with numeric labels (tracts excluded). Numbered lots: median 8,760 sq ft, 25th percentile about 7,670, 75th about 10,970; 168 under 5,000; 275 at 10,000 or more; 41 at 15,000 or more; one outlier of about 456,400 sq ft. Map areas are approximate, not survey areas. The separate 'HIGHLAND MEADOWS' filings (no 'Golf Course') are excluded."
+  },
+  {
+    "id": "windsor-co--highland-meadows.course",
+    "layer": "place",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Highland Meadows Golf Course in Windsor is a public, links-style 18-hole course, par 71 and 7,128 yards from the longest tees, designed by Art Schaupeter and built in 2004.",
+    "quote": "Holes 18 · Par 71 · Length 7128 yds · Type Public · Style Links · Year Built 2004 · Architect(s) Art Schaupeter (2004)",
+    "source_url": "https://www.golfpass.com/travel-advisor/courses/26052-highland-meadows-golf-course",
+    "source_label": "GolfPass, Highland Meadows Golf Course course page",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "18",
+      "71",
+      "7128",
+      "7,128",
+      "2004"
+    ],
+    "notes": "Fetched with curl and a browser User-Agent on 2026-09-26; the field labels and values are separate elements on the page, joined here with ' · '. 7,128 yards is the Black tees. The course's own site returned 403 to curl."
+  }
+]

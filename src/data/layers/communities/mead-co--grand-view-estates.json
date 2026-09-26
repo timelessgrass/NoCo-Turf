@@ -1,0 +1,404 @@
+[
+  {
+    "id": "mead-co--grand-view-estates.hoa-profile",
+    "layer": "housing",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "The Grand View Estates Association describes the neighborhood as a covenant-controlled community of 63 homes on 1 to 3 acre lots around a private nine-hole executive golf course with views of Mount Meeker and Longs Peak.",
+    "quote": "Grand View Estates is located in the wonderful town of Mead, Colorado. … Grand View Estates is a covenant controlled community of 63 homes on 1 to 3 acre lots with an open, brick ranch home environment and features a well-maintained private 9-hole executive golf course with fantastic views of Mount Meeker, Longs Peak and the Front Range.",
+    "source_url": "https://www.grandviewestates.ws/",
+    "source_label": "The Grand View Estates Association, home page",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "63",
+      "1",
+      "3",
+      "9"
+    ],
+    "notes": "Read 2026-09-26. The same page lists the five-member Architectural Control Committee by name; the names stay out of copy."
+  },
+  {
+    "id": "mead-co--grand-view-estates.golf-course",
+    "layer": "place",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "The Grand View Golf Course is a private par-30 course that the Grand View Estates HOA owns and maintains for its members.",
+    "quote": "Our private golf course is owned and maintained by the HOA. It is a par 30 course with challenging bunker placements. Great place to hone your short game!",
+    "source_url": "https://www.grandviewestates.ws/golf-course/",
+    "source_label": "The Grand View Estates Association, Golf Course page",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "30"
+    ],
+    "notes": "The page's other line calls it 'The Grand View Golf Course … for the enjoyment of HOA members'; the 2014 rules use the same name. The scorecard spells it 'Grandview Golf Course'."
+  },
+  {
+    "id": "mead-co--grand-view-estates.golf-scorecard",
+    "layer": "place",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "The Grand View Golf Course scorecard lists six par-3 holes and three par-4 holes for a par of 30, calls the course boundary out of bounds and charges a one-stroke penalty to lay out from private property.",
+    "quote": "Grandview Golf Course Mead, Colorado … PAR 3 3 3 3 4 4 4 3 3 30 … 4. Course boundary \"out of bounds\". 5. All private property - lay out one stroke penalty.",
+    "source_url": "https://www.grandviewestates.ws/wp-content/uploads/GVE-Golf-Scorecard.pdf",
+    "source_label": "The Grand View Estates Association, Grandview Golf Course scorecard (PDF, posted September 24, 2025)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "4",
+      "30",
+      "5",
+      "24",
+      "2025"
+    ],
+    "notes": "Scanned PDF, read from the page image. Holes 5, 6 and 7 are par 4; the rest par 3. The scorecard gives distances 'from marker' without a unit, so the page quotes no distance."
+  },
+  {
+    "id": "mead-co--grand-view-estates.golf-rules-practice",
+    "layer": "place",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "Grand View Estates' golf course rules, revised May 10, 2014, prohibit using the course as a practice range, tell players never to strike golf balls from private property next to the course, and bar play on frozen or frosted greens.",
+    "quote": "The Grand View Golf Course is a private course owned and maintained by Grand View Estates homeowners. … Each Grand View household will be issued two \"play towels.\" … Play on frozen of frosted greens and grass is prohibited. … All Grand View members will have full access to the golf course and unlimited play on a daily basis … Use of the Golf Course as a practice range is prohibited. … Players should never strike golf balls from private property adjacent to the course.",
+    "source_url": "https://www.grandviewestates.ws/wp-content/uploads/2014-Golf-Course-Rules.pdf",
+    "source_label": "Grand View Estates Golf Course Rules and Regulations (revised 12/07, 3/5/09 and 5/10/14)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "10",
+      "2014"
+    ],
+    "notes": "'frozen of frosted' is the rules' own typo, kept verbatim."
+  },
+  {
+    "id": "mead-co--grand-view-estates.course-parcel-lots",
+    "layer": "place",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "In the statewide parcel file the HOA's golf course and landscape parcel covers 16.19 acres, and 26 of Grand View Estates' 66 residential parcels touch it; those parcels run from 1.00 to 3.71 acres, with a median near 1.22.",
+    "quote": "Colorado Public Parcels, parcel 120919000999: owner GRAND VIEW HOMEOWNERS ASSOCIATION · legalDesc GOLF COURSE AND LANDSCAPE AREA GRAND VIEW ESTATES FG #1 AND OUTLOTS B & C GRAND VIEW ESTATES FG #2 · landAcres 16.19445348. Parcels in Weld County with subName containing GRAND VIEW ESTATES, less the course parcel: 66, all landUseDsc Residential, landAcres 1.00 to 3.71, median 1.22. Of those, parcels intersecting the course parcel: 26.",
+    "source_url": "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query",
+    "source_label": "Colorado Public Parcels (statewide parcel file), queried September 26, 2026: the Grand View Estates course parcel and the residential parcels bordering it",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "16.19",
+      "16.19445348",
+      "26",
+      "66",
+      "1.00",
+      "3.71",
+      "1.22",
+      "120919000999"
+    ],
+    "notes": "Computed 2026-09-26: where countyName='Weld' AND subName LIKE '%GRAND VIEW ESTATES%' (67 parcels, one of them the course), then a polygon intersect with the course parcel. A methodology result, not an HOA or county statement: say 'the statewide parcel file shows'. The HOA itself counts 63 homes."
+  },
+  {
+    "id": "mead-co--grand-view-estates.declaration-town-of-mead",
+    "layer": "place",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "Grand View Estates' 2000 declaration describes the project as land in the southwest quarter of Section 19, Township 3 North, Range 67 West, in the Town of Mead, Weld County.",
+    "quote": "A TRACT OF LAND LOCATED IN THE SOUTHWEST QUARTER OF SECTION 19, TOWNSHIP 3 NORTH, RANGE 67 WEST OF THE SIXTH PRINCIPAL MERIDIAN, TOWN OF MEAD, COUNTY OF WELD, STATE OF COLORADO",
+    "source_url": "https://www.grandviewestates.ws/wp-content/uploads/CovenantsBylawsAddendum.pdf",
+    "source_label": "Amended and Restated Declaration of Covenants, Conditions and Restrictions of Grand View Estates, Exhibit A (Weld County Reception No. 2788392, recorded August 21, 2000)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2000",
+      "19",
+      "3",
+      "67",
+      "2788392",
+      "21"
+    ],
+    "notes": "Scanned PDF, read from the page images. Census geocoder point tests (Public_AR_Current) at the course parcel and ten lots all returned 'Mead town'."
+  },
+  {
+    "id": "mead-co--grand-view-estates.acc-approval",
+    "layer": "housing",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "Grand View Estates' 2000 declaration bars erecting or placing any structure on a lot, or altering a structure's exterior, until the Architectural Control Committee approves its drawings and specifications, and asks for a site plan showing the lot's topography, the structure's dimensions and existing structures.",
+    "quote": "15.5.1 No structure shall be erected or placed on any Lot, nor shall the exterior of any structure be altered, until the construction drawings and specifications have been approved by the Committee. 15.5.2 Prior to any construction, each owner, at his cost, shall submit to the Board for its approval a site plan showing the topography of the Lot, the dimensions of the structure, and any existing structures on the Lot; a floor plan of the structure showing the total area of the structure; and a written description of the materials to be used in the roof and exterior walls of the structure.",
+    "source_url": "https://www.grandviewestates.ws/wp-content/uploads/CovenantsBylawsAddendum.pdf",
+    "source_label": "Amended and Restated Declaration of Covenants, Conditions and Restrictions of Grand View Estates, Sec. 15.5 (Weld County Reception No. 2788392, recorded August 21, 2000)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-26",
+    "numbers": [
+      "2000"
+    ],
+    "notes": "Scanned PDF, read from the page images; the whole 46-page declaration was read and never mentions artificial or synthetic turf, putting greens or xeriscape. The association posted Amended and Reinstated covenants on September 24, 2025 (a 10.85 MB PDF not read here), which may renumber or change this section: read them before the recheck date."
+  },
+  {
+    "id": "mead-co--grand-view-estates.acc-60-days",
+    "layer": "housing",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "Under Grand View Estates' 2000 declaration the committee must approve or disapprove a proposed structure within 60 days of receiving all required materials, and if it does not act in time the structure may be built without further approval so long as it breaks no other covenant.",
+    "quote": "15.5.3 The Committee shall approve or disapprove the proposed structure within sixty (60) days after receipt of all materials required to be submitted to the Committee. If the Board fails to act upon the proposal within such time, then the proposed structure may be erected without further approval, so long as it does not otherwise violate any of the covenants or restrictions contained herein.",
+    "source_url": "https://www.grandviewestates.ws/wp-content/uploads/CovenantsBylawsAddendum.pdf",
+    "source_label": "Amended and Restated Declaration of Covenants, Conditions and Restrictions of Grand View Estates, Sec. 15.5.3 (Weld County Reception No. 2788392, recorded August 21, 2000)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-26",
+    "numbers": [
+      "60",
+      "2000"
+    ],
+    "notes": "Check against the 2025 Amended and Reinstated covenants before the recheck date."
+  },
+  {
+    "id": "mead-co--grand-view-estates.acc-more-rules",
+    "layer": "housing",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "Grand View Estates' 2000 declaration lets the Architectural Control Committee adopt additional rules and procedures with the Executive Board's approval.",
+    "quote": "Section 15.6 Additional Procedures. With the approval of the Executive Board of the Association, the Committee may adopt additional rules and procedures as it considers necessary.",
+    "source_url": "https://www.grandviewestates.ws/wp-content/uploads/CovenantsBylawsAddendum.pdf",
+    "source_label": "Amended and Restated Declaration of Covenants, Conditions and Restrictions of Grand View Estates, Sec. 15.6 (Weld County Reception No. 2788392, recorded August 21, 2000)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-26",
+    "numbers": [
+      "2000"
+    ],
+    "notes": "No committee rules or design guidelines are posted on the association's public pages (Covenants category read 2026-09-26)."
+  },
+  {
+    "id": "mead-co--grand-view-estates.landscaping-ground-cover",
+    "layer": "housing",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "Grand View Estates' 2000 declaration requires owners to plant and keep ground cover within two years of the certificate of occupancy, allows no bare ground except for seasonal gardening, bans poplar trees and nowhere mentions artificial turf or putting greens.",
+    "quote": "Section 16.13 Landscaping. Within two (2) years of receiving of certificate of occupancy, an Owner shall promptly plant and maintain appropriate ground cover on such Lot commensurate with the surrounding areas. Ground shall not be permitted to remain bare on any Lot except for areas being used for seasonal gardening. No poplar trees shall be permitted. Weeds must be controlled by each Owner.",
+    "source_url": "https://www.grandviewestates.ws/wp-content/uploads/CovenantsBylawsAddendum.pdf",
+    "source_label": "Amended and Restated Declaration of Covenants, Conditions and Restrictions of Grand View Estates, Sec. 16.13 (Weld County Reception No. 2788392, recorded August 21, 2000)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-26",
+    "numbers": [
+      "2000",
+      "2"
+    ],
+    "notes": "'Nowhere mentions' covers the 2000 declaration only (all 46 recorded pages read). The 2025 Amended and Reinstated covenants were not read."
+  },
+  {
+    "id": "mead-co--grand-view-estates.detached-structures-match",
+    "layer": "housing",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "Grand View Estates' 2000 declaration requires any structure detached from the house to match its architectural style and exterior materials, requires homes to be at least 70% brick, stone or masonry, and keeps every structure within 24 feet of the lot's highest point.",
+    "quote": "Section 16.2 Building Type. … Any structure which is detached from the initial structure shall be constructed in the same architectural style and of the same external materials as the initial structure. … Section 16.4 Building Style and Size. Every residence shall be built in a single story ranch style … No structure shall exceed 24 feet in height above the highest point of that Lot … Section 16.5 Building Exterior. No less than 70% of the exterior area of every building shall be of brick, stone or masonry. All roofing materials shall be asphalt shingles.",
+    "source_url": "https://www.grandviewestates.ws/wp-content/uploads/CovenantsBylawsAddendum.pdf",
+    "source_label": "Amended and Restated Declaration of Covenants, Conditions and Restrictions of Grand View Estates, Secs. 16.2, 16.4 and 16.5 (Weld County Reception No. 2788392, recorded August 21, 2000)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-26",
+    "numbers": [
+      "2000",
+      "70",
+      "24"
+    ],
+    "notes": "Check against the 2025 Amended and Reinstated covenants before the recheck date."
+  },
+  {
+    "id": "mead-co--grand-view-estates.fences-rail-only",
+    "layer": "housing",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "Grand View Estates' 2000 declaration allows only round treated-pole fences or white vinyl two-rail fences up to 42 inches or three-rail fences up to 48 inches, with welded wire mesh allowed inside either for animal containment.",
+    "quote": "Section 16.14 Fences. Any fence erected on any Lot shall be built of round treated poles with tapered ends inserted into slotted posts, or of white vinyl two rail no more than 42 inches high, or white vinyl three rail no more than 48 inches high. No other type of fence shall be permitted. For animal containment, a welded wire mesh may be added to the inside of either of the approved fences. All gates shall be constructed of material similar to the material approved for fences.",
+    "source_url": "https://www.grandviewestates.ws/wp-content/uploads/CovenantsBylawsAddendum.pdf",
+    "source_label": "Amended and Restated Declaration of Covenants, Conditions and Restrictions of Grand View Estates, Sec. 16.14 (Weld County Reception No. 2788392, recorded August 21, 2000)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-26",
+    "numbers": [
+      "2000",
+      "42",
+      "48"
+    ],
+    "notes": "Check against the 2025 Amended and Reinstated covenants before the recheck date."
+  },
+  {
+    "id": "mead-co--grand-view-estates.two-adult-animals",
+    "layer": "housing",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "Grand View Estates' 2000 declaration limits each home to two adult dogs, cats or other household pets, kept on the owner's lot or leashed.",
+    "quote": "Section 16.7 Animals. … Animals must be confined to the owner's lot or leashed at all times. Each residence will be limited to no more than two adult animals; i.e., dogs, cats and other household pets.",
+    "source_url": "https://www.grandviewestates.ws/wp-content/uploads/CovenantsBylawsAddendum.pdf",
+    "source_label": "Amended and Restated Declaration of Covenants, Conditions and Restrictions of Grand View Estates, Sec. 16.7 (Weld County Reception No. 2788392, recorded August 21, 2000)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-26",
+    "numbers": [
+      "2000"
+    ],
+    "notes": "Check against the 2025 Amended and Reinstated covenants before the recheck date."
+  },
+  {
+    "id": "mead-co--grand-view-estates.golf-easements",
+    "layer": "housing",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "Grand View Estates' 2000 declaration lets golf course users enter the non-enclosed parts of any lot in daylight to retrieve balls, grants an easement for overspray of herbicides, fertilizers and water onto lots beside the course, and has owners accept the risk of errant golf balls.",
+    "quote": "19.2.1 Retrieval of golf balls, including the right to enter on the Property and any Lot solely for that purpose, provided (a) the right to retrieve golf balls shall (i) only extend to non-enclosed portions of the Property or Lots, (ii) only be permitted during daylight hours and then only by authorized Golf Course Users … 19.2.2 Flight of golf balls over, across, and upon the Project. … 19.2.5 An easement for the incidental overspray of herbicides, fungicides, pesticides, fertilizers, and water over portions of the Project located adjacent to the Golf Course Property. … To the extent permitted by law, each Owner of a Lot, and their successors and assigns, hereby assumes such risk of damage and injury",
+    "source_url": "https://www.grandviewestates.ws/wp-content/uploads/CovenantsBylawsAddendum.pdf",
+    "source_label": "Amended and Restated Declaration of Covenants, Conditions and Restrictions of Grand View Estates, Secs. 19.2 and 19.3 (Weld County Reception No. 2788392, recorded August 21, 2000)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-26",
+    "numbers": [
+      "2000"
+    ],
+    "notes": "Check against the 2025 Amended and Reinstated covenants before the recheck date."
+  },
+  {
+    "id": "mead-co--grand-view-estates.no-view-easement",
+    "layer": "housing",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "Grand View Estates' 2000 declaration gives no owner a view easement over the golf course and keeps for the association, its declarant, the right to plant, remove or trim trees and bushes there at its sole discretion.",
+    "quote": "Section 19.12 Notice to Property Owners Within the Development. EXCEPT AS SET FORTH IN THIS DECLARATION, NO OWNER SHALL HAVE ANY RIGHTS IN OR TO THE GOLF COURSE … THESE RIGHTS SHALL INCLUDE, BUT NOT BE LIMITED TO, A VISUAL OR SIGHT EASEMENT OVER AND ACROSS ANY PORTION OF THE GOLF COURSE PROPERTY … DECLARANT, ITS SUCCESSORS AND ASSIGNS, HAVE THE RIGHT, WITHOUT NOTICE OR WARNING, TO PLANT, REMOVE, OR TRIM TREES OR BUSHES OR ALTER OTHER LANDSCAPE FEATURES ON THE GOLF COURSE PROPERTY AS IT DEEMS ADVISABLE, IN ITS SOLE AND ABSOLUTE DISCRETION.",
+    "source_url": "https://www.grandviewestates.ws/wp-content/uploads/CovenantsBylawsAddendum.pdf",
+    "source_label": "Amended and Restated Declaration of Covenants, Conditions and Restrictions of Grand View Estates, Sec. 19.12 (Weld County Reception No. 2788392, recorded August 21, 2000)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-26",
+    "numbers": [
+      "2000"
+    ],
+    "notes": "The Declarant is the homeowners association itself (the declaration's opening paragraph). Check against the 2025 covenants before the recheck date."
+  },
+  {
+    "id": "mead-co--grand-view-estates.common-elements-consent",
+    "layer": "housing",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "Grand View Estates' 2000 declaration has the association maintain the common elements, golf course facilities and its irrigation systems included, and bars any owner from altering any part of them without the Executive Board's express consent.",
+    "quote": "Section 9.3 Maintenance by Association. The Association shall be responsible for the maintenance and repair of the Common Elements … This maintenance shall include, but shall not be limited to, upkeep, repair and replacement … of all landscaping, golf course facilities, walls, gates, signage, irrigation systems (owned by the Association) … Section 9.7 Association Power. … No Owner shall make any addition or other alteration to any portion of the Common Elements without the express consent of the Executive Board.",
+    "source_url": "https://www.grandviewestates.ws/wp-content/uploads/CovenantsBylawsAddendum.pdf",
+    "source_label": "Amended and Restated Declaration of Covenants, Conditions and Restrictions of Grand View Estates, Secs. 9.3 and 9.7 (Weld County Reception No. 2788392, recorded August 21, 2000)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-26",
+    "numbers": [
+      "2000"
+    ],
+    "notes": "Check against the 2025 Amended and Reinstated covenants before the recheck date."
+  },
+  {
+    "id": "mead-co--grand-view-estates.covenants-2025-posted",
+    "layer": "housing",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "On September 24, 2025 the Grand View Estates Association posted amended and reinstated covenants, and its public Covenants page lists them with the bylaws, an addendum and a governance-policies post but no separate design or landscape guidelines.",
+    "quote": "Covenants … Sep 24, 2025 … This is a large document. Please be patient. … GVE-Covenants-Amended-Reinstated-2025",
+    "source_url": "https://www.grandviewestates.ws/public-info/covenants/covenants/",
+    "source_label": "The Grand View Estates Association, Covenants post (September 24, 2025) and Covenants page (Bylaws, Covenants, GVE Governance Policies, Addendum)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "24",
+      "2025"
+    ],
+    "notes": "The PDF (wp-content/uploads/GVE-Covenants-Amended-Reinstated-2025.pdf, 10,853,280 bytes, Last-Modified Sep 25 2025 01:55 GMT) is over the fetch tool's 10 MB limit and was not downloaded or read. The Covenants category page also lists Bylaws amended 2026 (posted July 2, 2026)."
+  },
+  {
+    "id": "mead-co--grand-view-estates.rsf1-zoning-map",
+    "layer": "ordinance",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "The Town of Mead's zoning map layer places every Grand View Estates parcel, the course included, in the RSF-1 Residential Single Family district.",
+    "quote": "ZONECLASS: RSF-1 · ZONEDESC: Residential Single Family - 1 · MnLotArea: 43560 · MinLotWidth: 100 · MinFrontSetback: 20/25 · MinSideSetback: 15/10 · MinRearSetback: 30/10 · MaxBldgHt: 35 · MaxLotCoverage: 20. Point tests at the centers of all 67 Grand View Estates parcels in the statewide parcel file: RSF-1, 67 of 67.",
+    "source_url": "https://services7.arcgis.com/5kW6DD3T9dIb5Pwi/arcgis/rest/services/Mead_Zoning_view/FeatureServer/0",
+    "source_label": "Town of Mead zoning layer (Mead_Zoning_view, from the Town's 'Mead CO Land Use & Zoning' public map), queried September 26, 2026",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "43560",
+      "100",
+      "20/25",
+      "15/10",
+      "30/10",
+      "35",
+      "20",
+      "67"
+    ],
+    "notes": "Layer owner invisionmead; the web map item d374a63a866745bab8c77e83c17a2661 is titled 'Mead CO Land Use & Zoning' with the snippet 'Mead, CO Land Use, Zoning, Subdivisions and Ordinances Public Map'. The layer's description says it was created 4/8/2018 from the Town's zoning PDF. The Town's own site blocks automated reading, so confirm with Mead Planning."
+  },
+  {
+    "id": "mead-co--grand-view-estates.rsf1-table-3-3",
+    "layer": "ordinance",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "Mead's Table 3-3 sets RSF-1 lots at a minimum of 43,560 square feet and caps lot coverage at 20%, which is 8,712 square feet on a one-acre lot, and holds accessory structures on a lot's rear half 10 feet from side and rear lines.",
+    "quote": "Table 3-3 lists the density and dimensional standards that apply within zoning districts. These are base standards, not guarantees that stated minimums or maximums can be achieved on every site. … RSF-1 | 1.0 | 2.5 | 43,560 | 100 | 50 | 20/25 | 15/10 | 30/10 | 20 | na | 35/30 … 2 Side setbacks for accessory structures apply to those that are located on the rear half of the lot. Principal setbacks apply to accessory structures that are not located on the rear half of the lot.",
+    "source_url": "https://library.municode.com/co/mead/codes/municipal_code?nodeId=CD_CH16LAUSCO_ARTIIIZO_S16-3-80DEDIST",
+    "source_label": "Mead Municipal Code Sec. 16-3-80, Table 3-3, RSF-1 row and note 2 (codified through Ord. No. 1075, April 14, 2025)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "3",
+      "1.0",
+      "2.5",
+      "43560",
+      "100",
+      "50",
+      "20/25",
+      "15/10",
+      "30/10",
+      "20",
+      "35/30",
+      "2",
+      "8712",
+      "10"
+    ],
+    "notes": "Read through the Municode API (product 18216, job 461463, Supplement 20); the library page renders by script. Columns in order: density max/min, minimum lot area (sq ft) and width (ft), street frontage, setbacks principal/accessory (street, side, rear), maximum lot coverage (%), maximum building size, maximum height principal/accessory. 8,712 = 20% of 43,560, computed. Ordinances after April 14, 2025 would not show."
+  }
+]

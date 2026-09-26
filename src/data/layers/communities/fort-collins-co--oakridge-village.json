@@ -1,0 +1,325 @@
+[
+  {
+    "id": "fort-collins-co--oakridge-village.hoa-basics",
+    "layer": "place",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "The Oakridge Village 2 HOA, self-managed since 1986, covers 94 homes and 7.28 acres of common green space in southeast Fort Collins, bounded by Keenland Drive to the north, Southridge Golf Course to the south, the Power Line Trail to the east and Wheaton Drive to the west.",
+    "quote": "Our HOA consists of 94 private homes and 7.28 acres of adjacent common interest \"green space\" areas.  We were established in 1986 and are self-managed with a great legacy of volunteer homeowners that serve their association. … Our HOA community boundaries are Keenland Drive to the north, the Southridge Golf Course to the south, the Power Line Trail to the east, and Wheaton Drive on the west.",
+    "source_url": "https://oakridgehoa2.org/",
+    "source_label": "Oakridge Village 2 HOA, home page (Basic Stats and Boundaries)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "94",
+      "7.28",
+      "1986",
+      "2"
+    ],
+    "notes": "Read with curl 2026-09-26. The site calls itself 'the 2nd Filing'; its covenants (recorded 1986, amended 1987) cover lots 14-40 of the First Filing and lots 1-67 of the Second Filing, 27 + 67 = 94."
+  },
+  {
+    "id": "fort-collins-co--oakridge-village.other-filings",
+    "layer": "place",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "The Oakridge Village 2 HOA says the wider Oakridge Village neighborhood contains at least 6 other HOA filings.",
+    "quote": "Oakridge Village, which contains at least 6 other HOA filings, is a wonderful established neighborhood with spacious common areas containing mature trees and plenty of green grass located in southeast Fort Collins",
+    "source_url": "https://oakridgehoa2.org/",
+    "source_label": "Oakridge Village 2 HOA, home page (Brag a Bit)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6",
+      "2"
+    ],
+    "notes": "The other filings' HOA documents were not read. Larimer County's subdivision layer lists Oakridge Village PUD filings from the 1st replat through the 11th, plus the Oakridge Business Park, so a page must scope its rules to the Oakridge Village 2 HOA."
+  },
+  {
+    "id": "fort-collins-co--oakridge-village.landscape-turf",
+    "layer": "housing",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "The Oakridge Village II Landscape Policy, effective September 7, 2024, keeps artificial turf out of front yards and allows it elsewhere only within the overall landscape plan, on no more than 50% of the area, at least 2 feet off all property lines, in ASTM certified material, with a sample and a drainage plan, judged on its look from neighboring properties and its screening and vegetation.",
+    "quote": "Artificial/Synthetic Turf will be for limited use only. Artificial/Synthetic turf must be integrated into the overall landscaping plan and must not exceed 50% of the area, must remain a minimum of two (2) feet off all property lines, and must be an American Society of Testing Materials (ASTM) certified material. Approval will be based on, but not limited to, the appearance from neighboring properties, the placement of appropriate screening and vegetation, and the overall landscape plan. Artificial/Synthetic turf will not be approved for front yard use. A sample of the material and drainage plan is required with any landscape plan.",
+    "source_url": "https://img1.wsimg.com/blobby/go/dc06bd71-eac3-4b0f-81df-e42efbfcd762/downloads/f1ab5b9c-f88f-4b7b-8052-d1e17109c87b/Oakridge%20Village%202%20HOA%20Landscape%20Policy%20revise.pdf?ver=1788372083923",
+    "source_label": "Oakridge Village II Landscape Policy (effective 09/07/2024), Global References item 1",
+    "effective": "2024-09-07",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-26",
+    "numbers": [
+      "7",
+      "2024",
+      "50",
+      "2"
+    ],
+    "notes": "PDF linked from the HOA's Architectural Request page; text read with pdftotext 2026-09-26 (metadata title 'Oakridge Landscape Policy-Final-09-07-2024.docx'). The item does not say which area the 50% is measured against, and the policy never mentions putting greens. Whether a percentage cap squares with C.R.S. 38-33.3-106.5 is untested; pages must not say it does or doesn't."
+  },
+  {
+    "id": "fort-collins-co--oakridge-village.landscape-submittal",
+    "layer": "housing",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "The Oakridge Village II Landscape Policy sends every landscape change or installation to the Architectural Control Committee except like-for-like replacement of dead or dying elements, asks for a to-scale drawing measured to all property lines with a materials list, and wants any needed government approval, such as a city building permit, obtained before the request.",
+    "quote": "All landscape changes and/or installations must be submitted to the ACC for review, approval, and archive in the HOA files. The only exception to this is replacement of dead or dying landscape elements with the same type of element. … The plan must include a pictorial drawing with appropriate measurements to all property lines. It must be to scale and include all elements of the project including a materials list and location of each element within the plan. … All plans requiring government approval (eg: City Building Permit) must be reviewed and approved by the appropriate agency before submitting the design request to the ACC. ACC approval should not be considered a representation that any governmental requirements have been met.",
+    "source_url": "https://img1.wsimg.com/blobby/go/dc06bd71-eac3-4b0f-81df-e42efbfcd762/downloads/f1ab5b9c-f88f-4b7b-8052-d1e17109c87b/Oakridge%20Village%202%20HOA%20Landscape%20Policy%20revise.pdf?ver=1788372083923",
+    "source_label": "Oakridge Village II Landscape Policy (effective 09/07/2024), Landscape Plan Submittal",
+    "effective": "2024-09-07",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-26",
+    "numbers": []
+  },
+  {
+    "id": "fort-collins-co--oakridge-village.landscape-palette",
+    "layer": "housing",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "The Oakridge Village II Landscape Policy bars boulders and cobbles from more than 25% of any front or back yard area, limits a front-yard flagstone or hardscape courtyard to 10 by 10 feet or 100 square feet, requires planted areas bordered into defined beds, and requires project materials in earth tones.",
+    "quote": "Planted areas must be bordered to define beds. … Rockscapes: Boulders and cobbles present an attractive alternative landscape element if used appropriately within the overall landscape composition. Large expanses or over 25% of any yard area, front and/or back, of this type of material are not permitted. … Front yard flagstone or other hardscape courtyards are allowed if they are consistent with the overall look of the neighborhood. The area of the space is limited to 10 x 10 feet or 100 sq ft … Colors for chosen project materials must be earth tones of brown, gray, and the like.",
+    "source_url": "https://img1.wsimg.com/blobby/go/dc06bd71-eac3-4b0f-81df-e42efbfcd762/downloads/f1ab5b9c-f88f-4b7b-8052-d1e17109c87b/Oakridge%20Village%202%20HOA%20Landscape%20Policy%20revise.pdf?ver=1788372083923",
+    "source_label": "Oakridge Village II Landscape Policy (effective 09/07/2024), Xeriscape items 5 and 13 and Global References items 2 and 3",
+    "effective": "2024-09-07",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-26",
+    "numbers": [
+      "5",
+      "13",
+      "25",
+      "10",
+      "100",
+      "2",
+      "3"
+    ],
+    "notes": "The 25% rockscape item sits under the Xeriscape section but names 'any yard area, front and/or back'. Planted areas must be bordered into defined beds under both the Conventional (item 2) and Xeriscape (item 5) sections."
+  },
+  {
+    "id": "fort-collins-co--oakridge-village.front-side-yards",
+    "layer": "housing",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "The Oakridge Village II Landscape Policy treats front and side yards together, defining a conventional landscape by turf grass on at least 50% of them and requiring a xeriscape design there to reach at least 50% plant coverage at maturity.",
+    "quote": "Conventional landscape is defined as a plan that includes appropriate turf grass that covers at least 50% of the properties front and side yard areas … The landscaped area can utilize up to 100% of the properties available front and side yard space … for the purposes of Xeriscape landscape. However, the design must contain at least 50% plant coverage at maturity.",
+    "source_url": "https://img1.wsimg.com/blobby/go/dc06bd71-eac3-4b0f-81df-e42efbfcd762/downloads/f1ab5b9c-f88f-4b7b-8052-d1e17109c87b/Oakridge%20Village%202%20HOA%20Landscape%20Policy%20revise.pdf?ver=1788372083923",
+    "source_label": "Oakridge Village II Landscape Policy (effective 09/07/2024), Conventional and Xeriscape Landscape Requirements",
+    "effective": "2024-09-07",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-26",
+    "numbers": [
+      "50",
+      "100"
+    ],
+    "notes": "The turf item (Global References 1) bars only the front yard; the policy never says whether a side yard can take synthetic turf."
+  },
+  {
+    "id": "fort-collins-co--oakridge-village.arc-form-review",
+    "layer": "housing",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "The Oakridge Village 2 HOA's Architectural Review request form, revised June 2020, asks owners to allow up to 30 days after all documentation is submitted, pauses that clock while it waits for missing information, takes one project per form, has the owner confirm talking with adjacent neighbors, asks that changes be planned to prevent changes to the existing water runoff, and says unauthorized improvements are subject to removal at the homeowner's expense.",
+    "quote": "Unauthorized improvements are subject to removal at the expense of the homeowner. • Although every effort will be made for a prompt decision, please allow up to thirty (30) days after submission of all documentation to the ARC in writing for notice of approval or denial of requested change/addition. • Please submit only one(1) project request per ARC form. • If additional information is needed or not submitted with the request the thirty (30) day approval time frame will suspend and then resume upon receipt of the requested information. … Your signature on this form confirms that you have communicated with them. … 7. I understand that modifications should be planned and constructed to minimize the impact on the views of neighboring homes, and to prevent changes to the existing water runoff.",
+    "source_url": "https://img1.wsimg.com/blobby/go/dc06bd71-eac3-4b0f-81df-e42efbfcd762/downloads/Oakridge%20Village%202%20Architectural%20Review%20Reques.pdf?ver=1788372083896",
+    "source_label": "Oakridge Village 2 HOA Architectural Review Committee (ARC) Request Form, Revision June 2020 (approved June 8, 2020)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2020",
+      "30",
+      "1",
+      "7",
+      "2"
+    ],
+    "notes": "Read with pdftotext 2026-09-26. The form lists Landscaping, Deck and Patio Cover as separate project categories. It names the committee 'Architectural Review Committee (ARC)'; the covenants and Landscape Policy say 'Architectural Control Committee (ACC)'."
+  },
+  {
+    "id": "fort-collins-co--oakridge-village.arc-approval-window",
+    "layer": "housing",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "The Oakridge Village 2 HOA's request form gives two different approval windows: its closing note says an approval is valid for 90 days and the project must begin within them, while item 5 of its owner agreement revokes an approval if work has not begun within one year.",
+    "quote": "5. I understand that the approval granted to make the proposed changes will be revoked automatically if the changes requested have not commenced within one year of the approval date or sooner if specified in the approval of the modification request. … Note: Approval valid for 90 days from date of approval. (Project must commence within 90 days of approval).",
+    "source_url": "https://img1.wsimg.com/blobby/go/dc06bd71-eac3-4b0f-81df-e42efbfcd762/downloads/Oakridge%20Village%202%20Architectural%20Review%20Reques.pdf?ver=1788372083896",
+    "source_label": "Oakridge Village 2 HOA Architectural Review Committee (ARC) Request Form, Revision June 2020, Homeowner Agreement item 5 and closing note",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5",
+      "90",
+      "2020",
+      "2"
+    ],
+    "notes": "Item 5's 'or sooner if specified in the approval' may reconcile the two if the committee writes 90 days into each approval; the form doesn't say. Pages send owners to the committee."
+  },
+  {
+    "id": "fort-collins-co--oakridge-village.declaration-review",
+    "layer": "housing",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "The Oak Ridge Village II Declaration, recorded August 7, 1986, requires written Architectural Control Committee approval before any exterior improvement or change, lists gardens, playground areas, gazebos and the like as needing approval, and says approval is not required if the committee neither approves nor disapproves within 30 days after plans are submitted.",
+    "quote": "No building, fence, wall or other structure or other improvements shall be commenced, erected or maintained upon the properties, nor shall any exterior addition, change or alteration be made until the plans and specifications showing the nature, kind, shape, height, materials and location of the same shall have been submitted to and approved in writing (as to the harmony of exterior design and location in relation to surrounding structures, landscaping and topography) by the Architectural Control Committee. In the event the Architectural Control Committee fails to approve or disapprove such design or location within thirty (30) days after said plans and specifications have been submitted to it, approval will not be required and this article shall be deemed to have been fully complied with … All shrubs, plants, trees, gardens, swimming pools, playground areas, gazebos and the like shall be approved by the Architectural Control Committee",
+    "source_url": "https://img1.wsimg.com/blobby/go/dc06bd71-eac3-4b0f-81df-e42efbfcd762/downloads/1c903mkk4_69682.pdf?ver=1788372082201",
+    "source_label": "Oak Ridge Village II Declaration of Covenants, Conditions and Restrictions, recorded August 7, 1986 (Larimer County Reception No. 86043062), Article VII, Sections 1 and 3",
+    "effective": "1986-08-07",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "7",
+      "1986",
+      "30"
+    ],
+    "notes": "Read on page 7 of the recorded scan (image) and in the HOA's reformatted working copy (docx), which the HOA says is a user-friendly working copy only. The First Amendment (recorded Jan. 2, 1987) and Second Amendment (recorded March 9, 1987) do not touch Article VII. Not legal advice: pages must not tell owners to rely on the 30-day clause."
+  },
+  {
+    "id": "fort-collins-co--oakridge-village.covenant-lots",
+    "layer": "housing",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "A March 1987 amendment brought lots 1 through 67 of Oakridge Village PUD Second Filing under the Oakridge Village II covenants, which already covered lots 14 through 40 of the First Filing.",
+    "quote": "WHEREAS, Declarant has previously filed of record the Oakridge Village II Declaration of Covenants, Conditions and Restrictions … on August 7, 1986, at Reception Number 86043062 … NOW, THEREFORE, the Declaration is hereby amended to include the following described parcel of land: Lots 1 through 67, inclusive Oakridge Village, P.U.D., Second Filing, City of Fort Collins",
+    "source_url": "https://img1.wsimg.com/blobby/go/dc06bd71-eac3-4b0f-81df-e42efbfcd762/downloads/1c903mkk3_843846.pdf?ver=1788372082201",
+    "source_label": "Second Amendment to Oakridge Village II Declaration of Covenants, Conditions and Restrictions, made March 5, 1987 (recorded March 9, 1987, Reception No. 87013259)",
+    "effective": "1987-03-09",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1987",
+      "1",
+      "67",
+      "14",
+      "40",
+      "7",
+      "1986",
+      "86043062"
+    ],
+    "notes": "Scanned PDF read as an image 2026-09-26. Lots 14 through 40 of the First Filing come from the original Declaration and the First Amendment's recital ('Lots 14 through 40, inclusive, and Tracts C, D and E of Oak Ridge Village P.U.D. First Filing')."
+  },
+  {
+    "id": "fort-collins-co--oakridge-village.second-filing-lot-sizes",
+    "layer": "place",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Larimer County's platted-lot map draws the 67 lots of Oakridge Village PUD Second Filing at about 6,500 to 14,800 square feet each, with a median near 8,000 and 7 at 10,000 or more, and the 27 First Filing lots (14 through 40) also under the covenants at about 6,600 to 10,800.",
+    "quote": "SUBNUM: 15662 · SUBNAME: OAKRIDGE VILLAGE PUD 2ND · LABEL: 1 … 67, TR A, TR B · SUBNUM: 156601 · SUBNAME: OAKRIDGE VILLAGE PUD 1ST RPLT · LABEL: 1 … 40, TR A … TR G",
+    "source_url": "https://maps1.larimer.org/arcgis/rest/services/MapServices/Parcels/MapServer/4",
+    "source_label": "Larimer County parcel GIS, Platted Lots layer: Oakridge Village PUD 2nd (SUBNUM 15662) and PUD 1st replat (SUBNUM 156601), lot areas computed from the lot polygons",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "67",
+      "6500",
+      "14800",
+      "8000",
+      "7",
+      "10000",
+      "27",
+      "14",
+      "40",
+      "6600",
+      "10800",
+      "15662",
+      "156601",
+      "2",
+      "1"
+    ],
+    "notes": "Re-queried 2026-09-26 (where SUBNUM='15662' and '156601', outSR 2231, Colorado North State Plane, US feet; shoelace area of each lot polygon). Second Filing, 67 numbered lots: smallest 6,479 sq ft (lot 67), largest 14,825 (lot 44), median 8,016; 33 lots at 8,000 or less, 7 at 10,000 or more. Tracts A and B (about 77,175 and 59,580 sq ft) are common area. First Filing replat lots 14-40 (the 27 under these covenants): 6,600 to 10,836. Map areas are approximate, not survey areas, and are whole-lot figures including the house."
+  },
+  {
+    "id": "fort-collins-co--oakridge-village.fence-lot-edges",
+    "layer": "housing",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "The Oakridge Village 2 HOA Fence Policy counts 43 of its 94 lots bordering HOA greenbelts and 18 bordering Southridge Golf Course or other open areas (61 in all), holds fences on those lines to 4 feet for at least 10 feet along the side lines before the 6-foot limit applies, considers a taller fence only with the prior approval of every homeowner with a line-of-sight view, and allows gates onto the greenbelts and the course.",
+    "quote": "There are 94 private detached homes in the Oakridge Village 2 HOA. … Lots that border Oakridge Village 2 HOA common area greenbelts: 43 Lots that border Southridge Golf Course or other open areas: 18 Lots that have back yards that border municipal streets within our HOA: 11 Lots that only border another private lot: 22 … To ensure that fence construction in the neighborhood does not impede with line-of-sight views of the common areas for all property owners … Fences constructed along property lot lines adjacent to Oakridge Village 2 HOA common area greenbelts, the Southridge Golf Course, or other open areas without adjacent homes must keep fencing to a maximum of 4 feet in height. This 4 foot height shall be maintained a minimum of 10 feet from the corner of any such common area lot line along other property lines where the maximum height shall be 6 feet. The Architectural Control Committee as appointed by the elected HOA board of directors will consider proposed exceptions to the fence height limits, but only when prior approval of all homeowners with line-of-sight views from their lots to the proposed fence and/or adjacent common areas have been obtained. … Gates providing access from the property lot to common area greenbelts, the Southridge Golf Course, or other open areas are permitted.",
+    "source_url": "https://img1.wsimg.com/blobby/go/dc06bd71-eac3-4b0f-81df-e42efbfcd762/downloads/Oakridge%20Village%202%20HOA%20Fence%20Policy.pdf?ver=1788372083923",
+    "source_label": "Oakridge Village 2 HOA Fence Policy, Revision July 2019 (approved July 15, 2019): Background, Purpose, Fence Height, Gates",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "43",
+      "94",
+      "18",
+      "61",
+      "4",
+      "10",
+      "6",
+      "11",
+      "22",
+      "2019",
+      "15",
+      "2"
+    ],
+    "notes": "Re-read with pdftotext 2026-09-26. The four lot counts sum to 94, so they don't overlap. 'Border' is the policy's word; it does not say the back line. Front-yard fences are not allowed."
+  },
+  {
+    "id": "fort-collins-co--oakridge-village.enforcement-fines",
+    "layer": "housing",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Under the Oakridge Village II enforcement policy effective December 13, 2023, an uncorrected covenant violation draws fines of $50 at a time, never more than $500 per violation.",
+    "quote": "If an Owner fails to timely correct a violation as set forth in Section 4.2 above, then the Board shall fine the Owner $50.00 … In the alternative, the Association may fine the Owner the sum of $50.00 every other day, up to a maximum of $500.00, until the violation is corrected. In no circumstance may the Owner be fined in excess of $500.00 per violation.",
+    "source_url": "https://img1.wsimg.com/blobby/go/dc06bd71-eac3-4b0f-81df-e42efbfcd762/downloads/4d21901b-e22c-4112-96e9-6717df62e64f/Policy%20for%20Enforcement%20of%20Covenants%20and%20Rules%20.pdf?ver=1788372082381",
+    "source_label": "Oakridge Village II Association Policy for Enforcement of Covenants and Rules, effective December 13, 2023, Section 3.5",
+    "effective": "2023-12-13",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "13",
+      "2023",
+      "50",
+      "500",
+      "4.2",
+      "3.5"
+    ],
+    "notes": "Before any fine, a non-safety violation gets a notice and a 30-day cure period, then a second 30-day period (Section 3.2.2(c))."
+  },
+  {
+    "id": "fort-collins-co--oakridge-village.arc-requests-2025",
+    "layer": "housing",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "The Oakridge Village 2 HOA reported that in 2025, 30% of its residents made property changes that required architectural review requests or approvals.",
+    "quote": "Architectural Changes: In 2025, 30% of residents made changes to their properties that required ARC requests/approvals.",
+    "source_url": "https://img1.wsimg.com/blobby/go/dc06bd71-eac3-4b0f-81df-e42efbfcd762/downloads/6e4ce4fb-2b2b-451e-b59d-177f28752173/January%202026%20Oakridge%20Village%202%20HOA%20Newsletter.pdf?ver=1788372082559",
+    "source_label": "Oakridge Village 2 HOA Newsletter, January 2026, ARC & Covenant Reminders",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2025",
+      "30",
+      "2026",
+      "2"
+    ],
+    "notes": "The newsletter doesn't say how many of those changes were landscaping."
+  }
+]

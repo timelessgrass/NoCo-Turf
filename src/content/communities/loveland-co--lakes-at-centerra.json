@@ -1,0 +1,223 @@
+{
+  "status": "draft",
+  "town": "loveland-co",
+  "slug": "lakes-at-centerra",
+  "name": "The Lakes at Centerra",
+  "kind": "lake",
+  "governing": {
+    "name": "The Lakes at Centerra Master Homeowners Association, Inc.",
+    "type": "hoa",
+    "url": "https://www.centerra.com/wp-content/uploads/2021/10/Lakes-Residential-Modification-Guidelines-January-12-2021.pdf",
+    "layerRefs": [
+      "loveland-co--lakes-at-centerra.artificial-turf-45",
+      "loveland-co--lakes-at-centerra.irrigated-turf-45",
+      "loveland-co--lakes-at-centerra.plantings-gravel-mulch",
+      "loveland-co--lakes-at-centerra.sport-courts-play",
+      "loveland-co--lakes-at-centerra.drc-review-process"
+    ]
+  },
+  "title": "Artificial Turf at The Lakes at Centerra, Loveland | NoCo Turf Co.",
+  "description": "The Lakes at Centerra allows artificial turf case by case on up to 45% of a lot's landscaped area. Its DRC process, $2,000 deposit and 45-day clock, explained.",
+  "h1": "The Lakes at Centerra allows artificial turf case by case, capped at 45% of a lot's landscaped area.",
+  "display": {
+    "paint": "capped at 45%"
+  },
+  "lede": "Houts Reservoir, Equalizer Lake and a ring of native open space set the terms for a yard at The Lakes at Centerra. The homeowner guidelines name artificial turf and give it a ceiling, and everything around it, from the planting share to the fence style and the lighting, goes to the Design Review Committee before a crew arrives.",
+  "answer": {
+    "question": "Can I put artificial turf or a putting green in my yard at The Lakes at Centerra?",
+    "answer": "Yes, with the Design Review Committee's written approval. NoCo Turf Co. installs artificial turf and putting greens at The Lakes at Centerra in Loveland, Colorado. The community's guidelines allow artificial turf case by case on up to 45% of a lot's landscaped area, never mention putting greens and rule out sport courts."
+  },
+  "blocks": [
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Section 2.17.5",
+      "h2": "Artificial turf gets its own section in the Lakes guidelines, and a 45% ceiling.",
+      "takeaway": "The section opens plainly: “Artificial Turf is permitted and will be reviewed on case by case basis.” Its second sentence caps turf at 45% of a lot's total landscaped area.",
+      "paras": [
+        "That area is smaller than the lot. The text subtracts the house footprint, driveway, sidewalk and patio, and Figure 2.17B also removes a 5-foot foundation zone while counting the public right-of-way up to the back of the walk. On the figure's 50-by-110-foot interior lot, 1,261 square feet survives the math, and the sample plan puts 561 square feet of it, 44%, in lawn. Single-family lots in the builder guidelines run from 45 by 105 feet up to 75 to 80 by 120, so measure the landscaped area before a green is sized against its 45%.",
+        "Section 2.17.4 sets the same 45% ceiling for irrigated lawn, and Section 2.17.11 asks for landscape plantings on at least 80% of the landscaped area, a share the sample plan reaches by counting its lawn with 452 square feet of beds. The guidelines don't say whether lawn and artificial turf share one 45% or each get their own, or whether turf counts toward the 80%. It depends on how the DRC reads those sections together, so ask the DRC before a plan leans on either answer.",
+        "The document also predates Colorado's 2023 backyard-turf law, printed below. Whether a percentage ceiling is the kind of design rule that law still allows behind a detached house is not something the guidelines settle; the [HOA approval guide](/guides/hoa-turf-approval/) walks through how to ask."
+      ],
+      "layerRefs": [
+        "loveland-co--lakes-at-centerra.artificial-turf-45",
+        "loveland-co--lakes-at-centerra.landscaped-area-example",
+        "loveland-co--lakes-at-centerra.builder-lot-sizes",
+        "loveland-co--lakes-at-centerra.irrigated-turf-45",
+        "loveland-co--lakes-at-centerra.plantings-gravel-mulch",
+        "co-hoa-backyard-detached"
+      ],
+      "sources": [
+        "https://www.centerra.com/wp-content/uploads/2021/10/Lakes-Residential-Modification-Guidelines-January-12-2021.pdf",
+        "https://www.centerra.com/wp-content/uploads/2021/10/Lakes-at-Centerra-Builder-Design-Guidelines-September-30-2021-2.pdf",
+        "https://leg.colorado.gov/bill_files/92307/download"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Beds, water, grade",
+      "h2": "Around the turf, the guidelines read like a planting and irrigation spec.",
+      "paras": [
+        "Artificial plants are prohibited outright, even though artificial turf is not. Gravel mulch with nothing growing in it tops out at 20% of the landscaped area and comes in brown, tan or gray, never red, white or black, and neither gravel nor wood mulch may run in big bare stretches across a front or side-corner yard. Wood mulch is brown only.",
+        "Water is designed in. Every lot needs an automatic irrigation system with its controller inside the garage, drip is strongly encouraged, and no zone should be built to need more than 22 inches of supplemental water in an average year, about 18 gallons a square foot, the tall-fescue benchmark. A lawn traded for turf still leaves beds and trees on that system. Nothing is planted or irrigated within 5 feet of the foundation, landscape work may not change the lot's approved drainage pattern, and roof water has to sheet-flow, with no piped drain aimed at a neighbor or open space. A compacted turf base or a contoured green gets graded inside those lines.",
+        "Owners moving further from lawn can use Section 2.17.17's Front Range appropriate option, where boulders, pavers and retaining walls count with plants toward an 80% share and the example plan strongly encourages lawn alternatives such as buffalo grass; done in a front yard, it needs a detailed drawing at the DRC first. The guidelines also invite every owner to a landscaping orientation at the High Plains Environmental Center, with sample turf grasses, shrubs, trees and native plants on hand."
+      ],
+      "layerRefs": [
+        "loveland-co--lakes-at-centerra.plantings-gravel-mulch",
+        "loveland-co--lakes-at-centerra.irrigation-backfill-drainage",
+        "loveland-co--lakes-at-centerra.downspouts-sheet-flow",
+        "loveland-co--lakes-at-centerra.front-range-option",
+        "loveland-co--lakes-at-centerra.hpec-orientation"
+      ],
+      "sources": [
+        "https://www.centerra.com/wp-content/uploads/2021/10/Lakes-Residential-Modification-Guidelines-January-12-2021.pdf"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "The Design Review Committee",
+      "h2": "The DRC meets every two weeks, and 45 days of silence counts as a no.",
+      "paras": [
+        "Once a home is finished and occupied, the committee set up under Article 6 of the Lakes covenants reviews every exterior change to the house and lot, and anything the guidelines don't list needs its written approval too. Requests go in through the association's resident portal or on paper, and staff send incomplete ones back unreviewed. The DRC meets biweekly; a request it hasn't answered within 45 days of submittal is deemed denied, so an install date belongs after the approval letter, not the submission. Meeting every guideline still doesn't assure a yes, since the document says it isn't the committee's only basis for deciding.",
+        "A home bordering common area posts a $2,000 refundable deposit with any landscaping application, returned after the association inspects the finished work, less any damage to the common area, and the guidelines suggest owners write that into their installer's contract. A denial comes with reasons and can be revised and resubmitted, or appealed in writing within 30 days. A City of Loveland permit comes after the DRC's approval, and a City approval doesn't bind the committee.",
+        "One caution about the document itself. The public copy is dated January 12, 2021, Centerra's design-review page lists only builder guidelines for The Lakes and sends residents to their resident website, and the association's document library sits behind a login. Ask the DRC which version it applies before a plan is drawn."
+      ],
+      "layerRefs": [
+        "loveland-co--lakes-at-centerra.drc-scope",
+        "loveland-co--lakes-at-centerra.drc-review-process",
+        "loveland-co--lakes-at-centerra.centerra-drc-scope"
+      ],
+      "sources": [
+        "https://www.centerra.com/wp-content/uploads/2021/10/Lakes-Residential-Modification-Guidelines-January-12-2021.pdf",
+        "https://www.centerra.com/design-review/"
+      ]
+    },
+    {
+      "kind": "landmark",
+      "own": true,
+      "kicker": "Houts Reservoir and Equalizer Lake",
+      "h2": "On lots facing the lakes and open space, the yard is meant to be seen through.",
+      "paras": [
+        "Two lakes anchor the neighborhood, Houts Reservoir and Equalizer Lake, and High Plains Environmental Center land surrounds both. The Greeley Loveland Irrigation Company owns the reservoir and its water rights, HPEC holds the surface rights, and the guidelines say neither has to keep water levels up for recreation. Limited human contact is allowed on Houts Reservoir only.",
+        "The yard rules protect the view across a lot. Perimeter fencing is open cedar three-rail no taller than 4 feet, a lot backing onto common open space puts a gate in its rear fence line, and planting along open space should vary in height and leave view openings instead of forming a hedge. Where there's no fence, lot posts mark the boundary, and residents may not water, mow, plant, mulch, prune or spray past it, so turf, edging and irrigation heads all stop at the lot line.",
+        "Night light is held back too: no uplighting or floodlights, full cut-off shielded fixtures, no more than 500 watts of low-level landscape lighting in all, and case-by-case review on lots next to environmentally sensitive areas, which matters when a green by the water is lit for evening putting. A path out to an HOA or metro district trail, though not to HPEC's own, can be natural sandstone stepping stones up to 16 by 16 inches, set flush."
+      ],
+      "layerRefs": [
+        "loveland-co--lakes-at-centerra.district-hoa-hpec-roles",
+        "loveland-co--lakes-at-centerra.lakes-water-rights",
+        "loveland-co--lakes-at-centerra.open-fencing-views",
+        "loveland-co--lakes-at-centerra.common-area-limits",
+        "loveland-co--lakes-at-centerra.lighting",
+        "loveland-co--lakes-at-centerra.trail-stepping-stones"
+      ],
+      "sources": [
+        "https://www.centerra.com/wp-content/uploads/2021/10/Lakes-Residential-Modification-Guidelines-January-12-2021.pdf",
+        "https://www.lakesatcenterramd.live/about-the-lakes-at-centerra-consolidated-metropolitan-district"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Around the green",
+      "h2": "Patios, fire pits and walls each have a spec here; putting greens have none.",
+      "paras": [
+        "A design-led Lakes yard gets assembled from sections that each fix a material. Patios can be concrete, pavers, brick or stone. A permanent fireplace or fire pit is finished in masonry that blends with the house, sits in a side or rear yard or a front courtyard inside the building envelope, and stays within 8 feet. Retaining walls are Loveland/Masonville Buff sandstone or equal and stop at 4 feet unless a Colorado professional engineer designs a taller one, and a freestanding trellis or arbor tops out at 12 feet and 144 square feet, one per lot.",
+        "Section 2.30 is a single sentence: sport courts are not permitted. Play equipment, sports equipment included, stays in the rear yard, no taller than 9 feet and 5 feet off every property line. Putting greens appear nowhere, so a green falls under the rule that anything unlisted needs written approval. It depends whether the DRC counts a green inside the 45% turf ceiling or weighs it some other way, so draw its square footage, fringe and any chipping area on the plan and ask the DRC."
+      ],
+      "layerRefs": [
+        "loveland-co--lakes-at-centerra.hardscape-features",
+        "loveland-co--lakes-at-centerra.sport-courts-play",
+        "loveland-co--lakes-at-centerra.drc-scope",
+        "loveland-co--lakes-at-centerra.artificial-turf-45"
+      ],
+      "sources": [
+        "https://www.centerra.com/wp-content/uploads/2021/10/Lakes-Residential-Modification-Guidelines-January-12-2021.pdf"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can a dog run at The Lakes at Centerra be surfaced with turf?",
+      "a": "The guidelines don't say. They allow one pet enclosure per lot, none on attached townhome lots, up to 300 square feet and built against the house in the rear yard, or the side yard on lots 75 feet and wider, and they ask for ground cover “including gravel, mulch, crusher fines, etc.” Listed patio-home addresses are held to 10 by 25 feet. It depends on the DRC, so ask before planning turf inside the run.",
+      "layerRefs": [
+        "loveland-co--lakes-at-centerra.pet-enclosures"
+      ]
+    },
+    {
+      "q": "Can my turf or plantings extend onto the common area behind my lot?",
+      "a": "No. Residents may not plant, water, mow, mulch, prune or spray common area, and lot posts mark where the lot ends. Loveland's development code, for its part, prohibits nonfunctional artificial turfgrass in the shared landscape areas of single-family developments. That ground is looked after by others: the metro district keeps Explorer Park, Frank Farms Park and district common landscaping, and the Master HOA, managed by MSI Property Management, handles the community amenities.",
+      "layerRefs": [
+        "loveland-co--lakes-at-centerra.common-area-limits",
+        "loveland-co--lakes-at-centerra.district-hoa-hpec-roles",
+        "loveland-co.udc-common-landscape-areas"
+      ]
+    },
+    {
+      "q": "Can artificial turf run right up to the house?",
+      "a": "The guidelines don't settle it. Plants and irrigation are barred from the 5-foot backfill zone around the foundation, and the landscaped-area figure leaves that zone out of the count, but turf isn't mentioned for it either way. It depends on the DRC, so show the zone on the plan, ask, and keep the lot's approved drainage pattern intact.",
+      "layerRefs": [
+        "loveland-co--lakes-at-centerra.irrigation-backfill-drainage",
+        "loveland-co--lakes-at-centerra.landscaped-area-example"
+      ]
+    },
+    {
+      "q": "I just bought at The Lakes. When does the yard have to be finished?",
+      "a": "If the builder didn't landscape it, within 180 days of the purchase when you bought between April 1 and October 1, and by the following October 1 otherwise. The DRC can extend that for bad weather or other constraints. The committee has up to 45 days to answer, so send a turf or putting-green plan in early in that window.",
+      "layerRefs": [
+        "loveland-co--lakes-at-centerra.landscape-timeline",
+        "loveland-co--lakes-at-centerra.drc-review-process"
+      ]
+    },
+    {
+      "q": "Does a Lakes yard plan also go to Centerra's design review committee?",
+      "a": "The Lakes guidelines send a homeowner's change to The Lakes at Centerra's own Design Review Committee. Centerra's committee reviews development projects, but its page also says all improvements within Centerra, landscape and lighting included, reach it before any City application. It depends on the project: if yours needs a City of Loveland permit, ask the Lakes DRC whether Centerra's committee must see it as well.",
+      "layerRefs": [
+        "loveland-co--lakes-at-centerra.centerra-drc-scope",
+        "loveland-co--lakes-at-centerra.drc-scope"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "The Lakes at Centerra Master Homeowners Association, Homeowner Modifications & Design Guidelines (January 12, 2021), Secs. 1.1 to 1.7, 2.0, 2.7, 2.9 to 2.10, 2.14, 2.17, 2.18, 2.19, 2.22, 2.25, 2.30, 2.32, 2.33, 3.3, 3.8 and 3.10.3, Figures 2.17B to 2.17D",
+      "url": "https://www.centerra.com/wp-content/uploads/2021/10/Lakes-Residential-Modification-Guidelines-January-12-2021.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "The Lakes at Centerra Builder Design Guidelines (September 30, 2021), Figure 3.1, Product Segmentation",
+      "url": "https://www.centerra.com/wp-content/uploads/2021/10/Lakes-at-Centerra-Builder-Design-Guidelines-September-30-2021-2.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Lakes at Centerra Consolidated Metropolitan District, About the District",
+      "url": "https://www.lakesatcenterramd.live/about-the-lakes-at-centerra-consolidated-metropolitan-district",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Centerra, Design Review page (Centerra Design Review Committee)",
+      "url": "https://www.centerra.com/design-review/",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "C.R.S. 38-33.3-106.5(1)(i.5), added by SB23-178 (signed act)",
+      "url": "https://leg.colorado.gov/bill_files/92307/download",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Loveland Unified Development Code, Sec. 18.08.02.04, Identification of Landscape Areas (Ord. 6819, effective March 17, 2026)",
+      "url": "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=4058",
+      "checked": "2026-09-26"
+    }
+  ],
+  "checked": "2026-09-26",
+  "needsFromBrian": [
+    "Camera-original photos taken at The Lakes at Centerra, tagged in src/data/photos.ts with community 'loveland-co--lakes-at-centerra' (or a place naming The Lakes at Centerra): before and after of a turf yard or a putting green, ideally one lot backing onto Houts Reservoir, Equalizer Lake or HPEC open space. The page cannot publish without one.",
+    "Any Lakes at Centerra jobs NoCo has done: month, rough size, turf or putting green, lot width, and whether the lot borders a common area (the $2,000 refundable deposit).",
+    "What the Design Review Committee asked for on those jobs: how it counted artificial turf against the 45% ceiling and the 80% planting minimum, whether it treated a putting green as turf, and anything it said about the 5-foot backfill zone or turf in a dog run.",
+    "The current Lakes homeowner guidelines if the committee has replaced the January 12, 2021 version (the association's document library is behind the MSI resident login; the public copy is on centerra.com).",
+    "Whether NoCo prepares the plot plan and drawings for DRC submittals or builds from the owner's plan (a process claim that stays out of copy until you confirm it).",
+    "Confirmation that NoCo installs backyard putting greens today (services.ts putting-greens is unconfirmed)."
+  ]
+}

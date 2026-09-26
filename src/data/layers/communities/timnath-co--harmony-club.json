@@ -1,0 +1,397 @@
+[
+  {
+    "id": "timnath-co--harmony-club.design-review-three-steps",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Harmony Club's LIVE page says design review in Harmony is conducted by the Harmony Development Team under Harmony's design guide, in three steps: an orientation meeting, plan submittal and final approval.",
+    "quote": "Design review is conducted by the Harmony Development Team, in accord with Harmony’s design guide. The three-step process includes: 1) orientation meeting, 2) plan submittal, 3) final approval.",
+    "source_url": "https://harmonyclub.info/live/",
+    "source_label": "Harmony Club, LIVE page, Architecture & Design: Design Review Process",
+    "checked": "2026-09-26",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "2",
+      "3"
+    ],
+    "notes": "The site answers curl with a 403; read 2026-09-26 through a browser-style fetch, and the same sentence word for word in the Wayback copy of 2024-09-13 (https://web.archive.org/web/20240913022650/https://harmonyclub.info/live/). The design guide itself is not posted on the club site, the Town's CivicWeb or any HOA registry found; the Tall Grass Court landscape plan calls it the \"Harmony Design Guidelines\" (see timnath-co--harmony-club.tall-grass-lawn-25-percent)."
+  },
+  {
+    "id": "timnath-co--harmony-club.landscape-complements-open-space",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "The club's LIVE page says individual landscaping in Harmony complements nearby open space and adjacent sites, blending formal and informal styles into one streetscape.",
+    "quote": "Individual landscaping complements nearby open space, as well as adjacent sites. A blend of formal and informal styles creates a singular streetscape.",
+    "source_url": "https://harmonyclub.info/live/",
+    "source_label": "Harmony Club, LIVE page, Architecture & Design: Landscape",
+    "checked": "2026-09-26",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "403 to curl; read through a browser-style fetch and in the Wayback copy of 2024-09-13, identical wording."
+  },
+  {
+    "id": "timnath-co--harmony-club.site-planning-view-corridors",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "The club's LIVE page says each Harmony lot is evaluated for its site elements and view corridors, and each home is placed with its surroundings and streetscape in mind.",
+    "quote": "Careful evaluation of each lot allows for augmentation of site elements and view corridors. Every home’s placement is sensitive to its surroundings and streetscape.",
+    "source_url": "https://harmonyclub.info/live/",
+    "source_label": "Harmony Club, LIVE page, Architecture & Design: Site Planning",
+    "checked": "2026-09-26",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The page's heading reads \"Site Planing\". 403 to curl; read through a browser-style fetch and in the Wayback copy of 2024-09-13."
+  },
+  {
+    "id": "timnath-co--harmony-club.tall-grass-lawn-25-percent",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "The preliminary landscape plan for Harmony's Tall Grass Court lots limits moderate-water-use turf to 25% of each lot and sends private-lot landscaping to the existing Harmony Design Guidelines.",
+    "quote": "TYPICAL UNIT LANDSCAPE SHALL HAVE MODERATE WATER USE TURF INSTALLED WITH A MAXIMUM OF 25% COVERAGE ON INDIVIDUAL LOTS. FOLLOW THE EXISTING \"HARMONY DESIGN GUIDELINES\" REGARDING LANDSCAPE REQUIREMENTS FOR PRIVATE LOT LANDSCAPING.",
+    "source_url": "https://timnath.civicweb.net/document/16418/",
+    "source_label": "Harmony Subdivision – Preliminary Plat Amendment No. 5 plan set (JR Engineering for Highgate LLC, sheets dated 3/24/21), Sheet 21 of 25, Preliminary Landscape Plan cover sheet, Landscape General Notes, note 3",
+    "effective": "2021-03-24",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "25"
+    ],
+    "notes": "Sheet 21 is an image; read 2026-09-26 by rendering the page at 300 dpi. 'Turf' here is living grass: the same sheet's note 2 asks for turf selection that minimizes bluegrass, and its turf types are seed mixes. The note does not mention artificial turf, so whether Harmony counts synthetic turf toward the 25% is the Harmony Development Team's call. This is the preliminary plan; the replat was recorded later in 2021 (timnath-co--harmony-club.tall-grass-replat-recorded)."
+  },
+  {
+    "id": "timnath-co--harmony-club.xeriscape-minimize-bluegrass",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "The Tall Grass Court landscape plan asks for xeriscape design, starting with turf choices that minimize bluegrass, mulch, planting zoned by water need and improved soil.",
+    "quote": "LANDSCAPE SHALL USE THE FOLLOWING XERISCAPE DESIGN PRINCIPLES TO FACILITATE WATER CONSERVATION: APPROPRIATE TURF SELECTION TO MINIMIZE THE USE OF BLUEGRASS, USE OF MULCH TO MAINTAIN SOIL MOISTURE AND REDUCE EVAPORATION, ZONING OF PLANT MATERIALS ACCORDING TO THEIR MICROCLIMATIC NEEDS AND WATER REQUIREMENTS, AND IMPROVEMENT OF THE SOIL WITH ORGANIC MATTER IF NEEDED",
+    "source_url": "https://timnath.civicweb.net/document/16418/",
+    "source_label": "Harmony Subdivision – Preliminary Plat Amendment No. 5 plan set, Sheet 21 of 25, Preliminary Landscape Plan cover sheet, Landscape General Notes, note 2",
+    "effective": "2021-03-24",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read from the rendered sheet image; the sub-item numbering (2.1.1.1) is left out of the quote."
+  },
+  {
+    "id": "timnath-co--harmony-club.open-views-toward-course",
+    "layer": "place",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "The Tall Grass Court landscape plan keeps open views toward the golf course and uses its open space for recreation, drainage and views to the course and the mountains to the west.",
+    "quote": "OPEN VIEWS WILL BE MAINTAINED TOWARD THE GOLF COURSE. OPEN SPACE LANDSCAPING WILL PROVIDE PASSIVE AND ACTIVE RECREATION, CONVEYANCE OF DRAINAGE AND PROVIDE PASTORAL VIEWS TO THE GOLF COURSE AND MOUNTAINS TO THE WEST.",
+    "source_url": "https://timnath.civicweb.net/document/16418/",
+    "source_label": "Harmony Subdivision – Preliminary Plat Amendment No. 5 plan set, Sheet 21 of 25, Preliminary Landscape Plan cover sheet, Landscape Design Intent",
+    "effective": "2021-03-24",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read from the rendered sheet image."
+  },
+  {
+    "id": "timnath-co--harmony-club.open-space-dryland-seed",
+    "layer": "place",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "The Tall Grass Court plan seeds its non-irrigated open space with the Harmony Golf Course native dryland grass mix, sourced through the golf course superintendent.",
+    "quote": "TURF TYPE B: HARMONY GOLF COURSE NATIVE DRYLAND GRASS SEED MIX MIX. CONTACT THE GOLF COURSE SUPERINTENDENT FOR THE HARMONY GOLF COURSE SEED SUPPLIER, SEEDING RATE AND FURTHER INFORMATION. … TURF TYPE B AREAS ARE NON-IRRIGATED",
+    "source_url": "https://timnath.civicweb.net/document/16418/",
+    "source_label": "Harmony Subdivision – Preliminary Plat Amendment No. 5 plan set, Sheet 21 of 25, Preliminary Landscape Plan cover sheet, Turf Type B and Irrigation General Notes, note 2",
+    "effective": "2021-03-24",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read from the rendered sheet image. The sheet prints the club's phone after 'FURTHER INFORMATION.'; left out here. 'MIX MIX' is the sheet's own doubling."
+  },
+  {
+    "id": "timnath-co--harmony-club.open-space-non-potable",
+    "layer": "utility",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "The Tall Grass Court plan irrigates its common open space with non-potable water from an existing mainline and irrigation system.",
+    "quote": "NON-POTABLE WATER FROM AN EXISTING MAINLINE AND IRRIGATION SYSTEM WILL BE UTILIZED FOR IRRIGATION OF COMMON OPEN SPACE AREAS. MANUAL TEMPORARY IRRIGATION OF \"DRYLAND\" AREAS WILL BE USED FOR GERMINATION AND ESTABLISHMENT.",
+    "source_url": "https://timnath.civicweb.net/document/16418/",
+    "source_label": "Harmony Subdivision – Preliminary Plat Amendment No. 5 plan set, Sheet 21 of 25, Preliminary Landscape Plan cover sheet, Irrigation General Notes, note 5",
+    "effective": "2021-03-24",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read from the rendered sheet image. The notes cover the plan's common areas; nothing public says whether private Harmony lots draw irrigation from that system."
+  },
+  {
+    "id": "timnath-co--harmony-club.plan-set-water-sewer-districts",
+    "layer": "utility",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "The Tall Grass Court plan set requires the Fort Collins-Loveland Water District and the South Fort Collins Sanitation District to approve any change to its drawings in writing.",
+    "quote": "ALL CHANGES, ADDENDUMS, ADDITIONS, DELETIONS AND MODIFICATIONS TO THESE DRAWINGS MUST BE APPROVED, IN WRITING, BY THE FORT COLLINS-LOVELAND WATER DISTRICT AND THE SOUTH FORT COLLINS SANITATION DISTRICT.",
+    "source_url": "https://timnath.civicweb.net/document/16418/",
+    "source_label": "Harmony Subdivision – Preliminary Plat Amendment No. 5 plan set, Sheet 1 of 25 (cover)",
+    "effective": "2021-03-24",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Text layer of the PDF. The development narrative (document 16419) says Tall Grass Court carries water and sanitary sewer service to each of the 28 lots."
+  },
+  {
+    "id": "timnath-co--harmony-club.two-rail-fence",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "The Tall Grass Court plan set details a 4-foot, two-rail wood fence, rough-sawn to match the existing 2-rail fences in Harmony Subdivision.",
+    "quote": "ALL FENCE COMPONENTS ARE ROUGH SAWN, SELECT GRADE TO MATCH EXISTING 2-RAIL FENCES IN HARMONY SUBDIVISION",
+    "source_url": "https://timnath.civicweb.net/document/16418/",
+    "source_label": "Harmony Subdivision – Preliminary Plat Amendment No. 5 plan set, Sheet 25 of 25, Landscape Details, detail F (2-Rail Wood Fence), note 1",
+    "effective": "2021-03-24",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4",
+      "2"
+    ],
+    "notes": "Read from the rendered sheet image; the detail dimensions the fence 4'-0\" tall with two 2\" x 8\" rails and masonry columns to match existing. The detail does not say where lot fences may go; that is the design guide's."
+  },
+  {
+    "id": "timnath-co--harmony-club.estate-lots-28",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Harmony's Tall Grass Court replat divides about 32.82 acres zoned R-E Estate Residential into 28 single-family estate lots of about 13,900 to 23,160 square feet.",
+    "quote": "The subject property is approximately 32.82 acres in size. The property is currently zoned R-E Estate Residential. The Harmony Subdivision Preliminary Plat - Amended No. 5 proposes to replat the property into 28 Single Family Estate Lots ranging in size from approximately 13,900 square feet up to 23,160 square feet.",
+    "source_url": "https://timnath.civicweb.net/document/16419/",
+    "source_label": "Harmony Subdivision Preliminary Plat – Amended No. 5, Planning Objectives & Development Narrative (Highgate LLC, 2021)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "32.82",
+      "28",
+      "13900",
+      "23160",
+      "2021"
+    ],
+    "notes": "PDF text layer. The Larimer County site-address layer shows 24 addressed parcels inside the recorded replat on 2026-09-26."
+  },
+  {
+    "id": "timnath-co--harmony-club.open-space-buffer-acres",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Of the Tall Grass Court replat's 32.82 acres, about 10.62 are estate lots and 19.36 are common open space and landscape buffer, with berms planted in drought-tolerant native grasses and trees.",
+    "quote": "The proposed subdivision will provide approximately 10.62 acres of Single Family Estate Lots - 28 Lots total, 2.83 acres of Public Right-of-Way and 19.36 acres of Common Open Space and Landscape Buffer located within the total 32.82 acre development area.",
+    "source_url": "https://timnath.civicweb.net/document/16419/",
+    "source_label": "Harmony Subdivision Preliminary Plat – Amended No. 5, Planning Objectives & Development Narrative (Highgate LLC, 2021)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "32.82",
+      "10.62",
+      "19.36",
+      "28",
+      "2.83"
+    ],
+    "notes": "The narrative's project background also describes 'adding large berms landscaped with drought tolerant native grasses and trees'."
+  },
+  {
+    "id": "timnath-co--harmony-club.second-filing-2007",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Harmony's Second Filing, approved by the Town in 2007 with 131 single-family lots, had 104 of them built when the Tall Grass Court replat was proposed.",
+    "quote": "The Harmony 2nd Filing was originally approved by the Town of Timnath in 2007. The Harmony Subdivision 2nd Filing, for which the subject property is part and parcel of, included 131 single family residential lots and associated public Right-of Way and utility infrastructure. To date 104 of the 131 originally approved lots and have been constructed.",
+    "source_url": "https://timnath.civicweb.net/document/16419/",
+    "source_label": "Harmony Subdivision Preliminary Plat – Amended No. 5, Planning Objectives & Development Narrative (Highgate LLC, 2021)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2007",
+      "131",
+      "104"
+    ],
+    "notes": "PDF text layer; 'lots and have been constructed' is the narrative's own wording."
+  },
+  {
+    "id": "timnath-co--harmony-club.ccrs-architectural-controls",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "The Tall Grass Court narrative holds its homes to the covenants, conditions, restrictions and architectural controls set for the whole Harmony Club development.",
+    "quote": "Residential design and architecture shall also comply with all applicable Covenants, Conditions, Restrictions and Architectural Controls established for the overall Harmony Club Development.",
+    "source_url": "https://timnath.civicweb.net/document/16419/",
+    "source_label": "Harmony Subdivision Preliminary Plat – Amended No. 5, Planning Objectives & Development Narrative (Highgate LLC, 2021), Residential Building Architecture",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The recorded covenants were not found online; ask the association or the Larimer County Clerk and Recorder for them."
+  },
+  {
+    "id": "timnath-co--harmony-club.tract-j-harmony-llc",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "The Tall Grass Court narrative says its open space tract, Tract J, is owned and maintained by Harmony, LLC.",
+    "quote": "Open Space Tract J within the Harmony Subdivision Preliminary Plat - Amended No. 5 shall be owned and maintained by Harmony, LLC a Colorado Limited Liability Company.",
+    "source_url": "https://timnath.civicweb.net/document/16419/",
+    "source_label": "Harmony Subdivision Preliminary Plat – Amended No. 5, Planning Objectives & Development Narrative (Highgate LLC, 2021), Property Ownership & Development",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "PDF text layer."
+  },
+  {
+    "id": "timnath-co--harmony-club.tall-grass-replat-recorded",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Larimer County's subdivision layer lists the Tall Grass Court replat as Harmony 2nd Amd 1, recorded in 2021.",
+    "quote": "SUBNAME: HARMONY 2ND AMD 1; RECEPTNUM: 20210083896; MUNICIPALITY: TIMNATH",
+    "source_url": "https://maps1.larimer.org/arcgis/rest/services/MapServices/Parcels/MapServer/1",
+    "source_label": "Larimer County parcel GIS, Subdivisions layer (queried 2026-09-26)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2021",
+      "20210083896",
+      "2",
+      "1"
+    ],
+    "notes": "Query: SUBNAME = 'HARMONY 2ND AMD 1'. Every site address inside that polygon in layer 0 is on Tall Grass Ct (24 addresses). The year is the reception number's prefix. The same layer lists Harmony filings in Timnath from HARMONY 1ST (20050095580) to HARMONY 7TH (20230039160)."
+  },
+  {
+    "id": "timnath-co--harmony-club.homes-line-holes",
+    "layer": "place",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "JR Engineering, which has worked on six Harmony Club filings since 2013, says the residential subdivisions it designed line the 1st through 5th and 11th holes of the Harmony Club Golf Course.",
+    "quote": "Since 2013, JR Engineering has performed professional land development services including land planning/entitlements, civil engineering, surveying and landscape architecture for six separate filings within the Harmony Club community. The services we continue to provide help develop Harmony’s residential and commercial components. The residential subdivisions we’ve designed line the 1st-5th and 11th holes of the acclaimed Harmony Club Golf Course.",
+    "source_url": "https://www.jrengineering.com/harmonyclubestates",
+    "source_label": "JR Engineering, Harmony Club Estates project page",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2013"
+    ],
+    "notes": "An engineering firm's own project page. 'Six' is spelled out."
+  },
+  {
+    "id": "timnath-co--harmony-club.fairway-berms-drainage",
+    "layer": "place",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "JR Engineering lists lake design, master drainage studies, fairway berm design and open space among the key design features of its Harmony Club neighborhoods.",
+    "quote": "Key design characteristics include lake design/engineering, large box culvert structures, master drainage studies, fairway berm design and vast open space amenities.",
+    "source_url": "https://www.jrengineering.com/harmonyclubestates",
+    "source_label": "JR Engineering, Harmony Club Estates project page",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with the page's HTML, 2026-09-26."
+  },
+  {
+    "id": "timnath-co--harmony-club.hoa-registration",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Harmony Owners Association, Inc. is a professionally managed Timnath homeowners association reporting 180 units on its Colorado registration.",
+    "quote": "A homeowners association in Timnath, Colorado, reporting 180 units on its state registration.",
+    "source_url": "https://thehoabook.com/hoas/harmony-owners-association-inc/",
+    "source_label": "The HOA Book, Harmony Owners Association, Inc. (from the Colorado Division of Real Estate HOA registration roster)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [
+      "180"
+    ],
+    "notes": "A third-party copy of the state roster: registration 25816, first registered 02/24/2011, expires 03/31/2027. Its registered address sits inside the HARMONY 2ND subdivision on Larimer County's parcel GIS (checked 2026-09-26). A sub-association, Greenside Club Homes at Harmony Association, reports 10 units (https://thehoabook.com/hoas/greenside-club-homes-at-harmony-association/). Confirm in the Division of Real Estate's own lookup before relying on the count."
+  },
+  {
+    "id": "timnath-co--harmony-club.membership-separate",
+    "layer": "place",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "A custom builder working in Harmony says the club is strictly private, with membership by invitation and separate from owning property there.",
+    "quote": "Harmony Club is a strictly private golf club. Membership is by invitation only and is separate from property ownership.",
+    "source_url": "https://www.lifestylecustomhomes.com/harmony-club",
+    "source_label": "Lifestyle Custom Homes, Harmony Club page (FAQ)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [],
+    "notes": "A builder's FAQ, not the club's own terms. The club's LIVE page calls it the 'members-only Harmony Club'."
+  },
+  {
+    "id": "timnath-co--harmony-club.listing-dog-run-turf",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "A Harmony estate home listed on the club's LIVE page in 2024 was described with a dog run with artificial turf.",
+    "quote": "The fully finished garage includes an epoxy floor and a dog run with artificial turf.",
+    "source_url": "https://web.archive.org/web/20240913022650/https://harmonyclub.info/live/",
+    "source_label": "Harmony Club, LIVE page, Available Homes listing (Wayback snapshot 2024-09-13)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2024"
+    ],
+    "notes": "A sale listing, typed 'Single Family Estate'; the address is left out on purpose. It says nothing about where the dog run sits or who approved it."
+  },
+  {
+    "id": "timnath-co--harmony-club.attached-paired-homes",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "The club's LIVE page lists Harmony's Morning Song paired homes as single-family attached, lock-and-leave homes with private outdoor spaces, and its Ardglass homes as townhomes.",
+    "quote": "These lock and leve residences offer beautifully finished interiors, private outdoor spaces and low maintenace convenience.",
+    "source_url": "https://harmonyclub.info/live/",
+    "source_label": "Harmony Club, LIVE page, Available Homes (Morning Song, type 'Single Family Attached'; Ardglass, type 'Townhome')",
+    "checked": "2026-09-26",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "'leve' and 'maintenace' are the page's own spellings. 403 to curl; read through a browser-style fetch. The 2024 Wayback copy also lists The Villas at Harmony, paired homes by Springhaus Design & Construction offering 'maintenance free living'."
+  }
+]

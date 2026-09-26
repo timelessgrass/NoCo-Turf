@@ -1,0 +1,251 @@
+{
+  "status": "draft",
+  "town": "firestone-co",
+  "slug": "falcon-point",
+  "name": "Falcon Point",
+  "kind": "golf",
+  "governing": {
+    "name": "Falcon Point at Saddleback Homeowners Association",
+    "type": "hoa",
+    "url": "https://cdfps.sites.townsq.io/2",
+    "layerRefs": [
+      "firestone-co--falcon-point.ds-artificial-turf",
+      "firestone-co--falcon-point.ds-landscape-approval",
+      "firestone-co--falcon-point.decl-professional-plans",
+      "firestone-co--falcon-point.decl-45-day-denial"
+    ]
+  },
+  "golf": {
+    "name": "Saddleback Golf Club",
+    "layerRef": "firestone-co.saddleback-golf-club"
+  },
+  "title": "Turf & Putting Greens in Falcon Point, Firestone, CO | NoCo Turf Co.",
+  "description": "Falcon Point at Saddleback's HOA keeps turf off porches and patios, reviews every yard plan, and treats 45 days of committee silence as a denial.",
+  "h1": "Falcon Point's standards keep turf off the porch and patio, and send every yard plan to committee.",
+  "display": {
+    "paint": "keep turf off the porch and patio"
+  },
+  "lede": "Falcon Point at Saddleback is 80 lots in Saddleback Filing No. 3, and landscaping on any of them waits for the HOA's Design Review Committee. Its declaration and its June 2022 design standards name artificial turf once, say nothing of putting greens, and spell out the drawing, the fees, the clock and the drainage strips a backyard plan has to respect.",
+  "answer": {
+    "question": "Can I put artificial turf or a putting green in a Falcon Point yard?",
+    "answer": "Yes, once the Design Review Committee approves it. NoCo Turf Co. installs artificial turf and putting greens in Falcon Point at Saddleback in Firestone, Colorado, where the HOA bars turf only from porches, patios and balconies, sends every landscaping change and every unlisted item, a green included, to the committee, and requires landscaping to meet Firestone's own rules."
+  },
+  "blocks": [
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Section II.H",
+      "h2": "The design standards name artificial turf once, to keep it off the porch, the patio and any balcony.",
+      "takeaway": "Everywhere else on a Falcon Point lot, turf is a landscaping change, and landscaping waits for the committee.",
+      "paras": [
+        "The Design Review Committee adopted Falcon Point at Saddleback's Design Standards on June 27, 2022. Their one artificial-turf entry says neither turf nor any other floor covering may be used on the front porch, a patio or a balcony, and a separate line says balconies aren't permitted at all. In practice the rule reaches the porch and the patio slab, not the yard.",
+        "The yard falls under Section II.PP: landscaping needs committee approval and has to follow all of the Town of Firestone's requirements, which brings the Town's turf rules, its cap on turf in the back and side yards among them, into the HOA's own review. A putting green has no entry of its own, and Section II.A.3 sends anything unlisted to the committee too.",
+        "Committee approval does not stand in for the Town. The standards say Town approvals and permits are still needed where Firestone requires them, and Firestone requires its own permit before artificial turf is installed."
+      ],
+      "layerRefs": [
+        "firestone-co--falcon-point.ds-artificial-turf",
+        "firestone-co--falcon-point.ds-landscape-approval",
+        "firestone-co--falcon-point.ds-town-approvals",
+        "firestone-fdc-16.6.4-turf-cap",
+        "firestone-fdc-16.6.4-permit"
+      ],
+      "sources": [
+        "https://cdfps.sites.townsq.io/2",
+        "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "The request",
+      "h2": "The committee wants a drawing to scale, and a request it leaves undecided for 45 days is denied.",
+      "paras": [
+        "The standards want a signed request form and drawings to scale, preferably from a lot survey, with the lot lines, the house and existing improvements labeled and the new work's materials and colors described. How polished that drawing must be is where the two documents part. Section 10.13 of the declaration, the clause that has each owner landscape within 180 days of buying, says landscaping plans shall be professionally done. The standards reserve professional plans for major work such as additions and decks and say simple drawings may be enough for other projects. Ask the committee which it expects for turf or a green before paying for a drawing, and either way place the putting surface, fringe, cups, edging and any chipping area where they will actually sit.",
+        "Nothing is charged at submission, but the committee's review costs, reasonable engineering consultant fees included, are billed to the owner and due before final approval. The standards suggest telling the neighbors first, and the committee may ask them for input. Approved work has to be finished within one year.",
+        "The timing is the second place the documents disagree. The declaration gives the committee 45 days from a complete submission and treats a request still undecided at that point as denied, not approved. The standards let the committee ask the Board for input on any request, and the association's FAQ, updated September 17, 2025, says the Board of Directors reviews requests sent through TownSq and may take up to 30 days. It depends which body is reviewing when you apply, so ask Goodwin & Company, the association's manager, which review and which deadline apply, and keep the answer in writing. The steps of an HOA request are in [our HOA approval guide](/guides/hoa-turf-approval/)."
+      ],
+      "layerRefs": [
+        "firestone-co--falcon-point.ds-drawings",
+        "firestone-co--falcon-point.decl-professional-plans",
+        "firestone-co--falcon-point.ds-simple-drawings",
+        "firestone-co--falcon-point.ds-review-costs",
+        "firestone-co--falcon-point.ds-neighbors",
+        "firestone-co--falcon-point.ds-one-year",
+        "firestone-co--falcon-point.decl-45-day-denial",
+        "firestone-co--falcon-point.ds-board-input",
+        "firestone-co--falcon-point.faq-board-30-days"
+      ],
+      "sources": [
+        "https://cdfps.sites.townsq.io/2",
+        "https://cdfps.sites.townsq.io/3"
+      ]
+    },
+    {
+      "kind": "housing",
+      "own": true,
+      "kicker": "Lots and swales",
+      "h2": "Most Falcon Point lots run 0.14 to 0.17 acre, and their rear and side 5 feet carry drainage.",
+      "paras": [
+        "The declaration covers 80 lots in three blocks of Saddleback Filing No. 3, a plat recorded in October 2018. In Colorado's statewide parcel layer, 58 of those 80 measure between 0.14 and 0.17 acre, about 6,100 to 7,400 square feet with the house on it; the smallest is 0.136 acre and the largest 0.269. A backyard green here is drawn into a compact yard, beside the patio and the planting beds, rather than set out on open lawn.",
+        "Section 9.5 reserves a drainage easement across the rear 5 feet and the side 5 feet of every lot, narrowed only where the house itself stands inside it, and bars improvements or grading changes there that would redirect, block or slow the water in its swales. Section 8.4 sends any change to a lot's established drainage to the committee as a plan. Firestone's own 3-foot turf buffer from property lines is narrower than that easement, so on these lots the easement is the strip that shapes the layout. The safest plan keeps a green's contours, base and edging out of it and shows the swale on the drawing; if turf has to cross one, ask the committee first."
+      ],
+      "layerRefs": [
+        "firestone-co--falcon-point.decl-lots",
+        "firestone-co--falcon-point.parcel-lot-sizes",
+        "firestone-co--falcon-point.decl-drainage-easement",
+        "firestone-co--falcon-point.decl-drainage-plan",
+        "firestone-co.fdc-16.6.4-buffer-slope"
+      ],
+      "sources": [
+        "https://cdfps.sites.townsq.io/2",
+        "https://gis.colorado.gov/Public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/MapServer/0",
+        "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE"
+      ]
+    },
+    {
+      "kind": "golf",
+      "own": true,
+      "kicker": "Saddleback Golf Club",
+      "h2": "Two of the filing's tracts meet the Saddleback course. None of its 80 house lots does.",
+      "paras": [
+        "In the statewide parcel layer, Tracts D and F of Saddleback Filing No. 3 share a boundary with the 253-acre parcel Weld County's legal description calls Saddleback Golf Course. No Falcon Point house lot touches it; the nearest, Lot 11 of Block 1, sits about 14 meters from its edge.",
+        "So the course lies past the filing's edge rather than behind a back fence, and a green in a Falcon Point yard is judged against the houses around it. The standards ask the committee to see that new work harmonizes with the existing surroundings and landscaping, and to hold its style to the homes and lots in the same part of the community. A plan that shows the green with the plantings, patio and fence line around it gives the committee that picture."
+      ],
+      "layerRefs": [
+        "firestone-co--falcon-point.parcel-golf-boundary",
+        "firestone-co--falcon-point.ds-consistency"
+      ],
+      "sources": [
+        "https://gis.colorado.gov/Public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/MapServer/0",
+        "https://cdfps.sites.townsq.io/2"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Around the green",
+      "h2": "Hot tub, play set, lights and planting beds each have their own line in the Falcon Point standards.",
+      "paras": [
+        "A hot tub needs approval, goes in the rear yard and must be designed as part of the deck or patio and the rear-yard landscaping. Play and sports equipment also needs approval, stays in the rear or side yard, should not exceed 14 feet, and may need written consent from the neighbors beside it. Tennis courts are not permitted.",
+        "Exterior lights need no approval if they match the builder's style, stay small, aim at the house and run at low wattage; spotlights and floodlights go to the committee. Underground irrigation needs no approval but should stay 5 feet off the foundation. A xeriscape must mix rock, mulch, shrubs, trees, grasses and ground covers, with plants covering at least 65% of the area to be landscaped at maturity. The standards don't say whether turf counts toward that area, so ask the committee before drawing turf into a xeriscape plan."
+      ],
+      "layerRefs": [
+        "firestone-co--falcon-point.ds-hot-tub-tennis",
+        "firestone-co--falcon-point.ds-play-equipment",
+        "firestone-co--falcon-point.ds-lighting",
+        "firestone-co--falcon-point.ds-irrigation",
+        "firestone-co--falcon-point.ds-xeriscape"
+      ],
+      "sources": [
+        "https://cdfps.sites.townsq.io/2"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Install day",
+      "h2": "No crew gets in through a perimeter fence, and a rock pile out front has 15 days.",
+      "paras": [
+        "Section II.DD bars gates or removable sections in Falcon Point's perimeter fences and allows no rear or side yard access through them. A gate in a lot's own fence needs committee approval, double gates are not permitted, and no gate may open onto a street or open space unless the builder put it there. Sod coming out and base rock and turf rolls going in all travel through an existing gate, so if the yard needs a new one, draw it into the same request.",
+        "Section II.PP gives gravel, rock and soil piles 15 days at most in a front yard, a visible side yard or on the driveway, and none on the street. Delivery trucks may not cross the greenbelt, entry or median areas, and the owner pays to repair common-element damage caused by the owner or the owner's agent."
+      ],
+      "layerRefs": [
+        "firestone-co--falcon-point.ds-perimeter-fences",
+        "firestone-co--falcon-point.ds-materials-delivery"
+      ],
+      "sources": [
+        "https://cdfps.sites.townsq.io/2"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I lay artificial turf on my Falcon Point patio?",
+      "a": "No. Section II.H of the design standards keeps artificial turf and any other floor covering off the front porch, patios and balconies. Turf belongs in the landscaped yard, after the committee approves it.",
+      "layerRefs": [
+        "firestone-co--falcon-point.ds-artificial-turf"
+      ]
+    },
+    {
+      "q": "Does a putting green in Falcon Point need both HOA and Town approval?",
+      "a": "Plan on both. The standards send any improvement they don't list to the Design Review Committee and say its approval doesn't replace a Town permit, and Firestone wants its own turf permit before installation. How the Town's turf standard reads on a short-pile green is covered on our [Firestone putting-green page](/areas/firestone-co/putting-greens/); ask Firestone Planning before ordering one.",
+      "layerRefs": [
+        "firestone-co--falcon-point.ds-landscape-approval",
+        "firestone-co--falcon-point.ds-town-approvals",
+        "firestone-fdc-16.6.4-permit",
+        "firestone-co.fdc-16.6.4-no-putting-green"
+      ]
+    },
+    {
+      "q": "What if the Falcon Point committee never answers my request?",
+      "a": "Under Section 5.4 of the declaration, a request the committee hasn't decided within 45 days of a complete submission is deemed denied. The association's FAQ gives a 30-day board response instead, so confirm which applies with the manager and resubmit rather than build.",
+      "layerRefs": [
+        "firestone-co--falcon-point.decl-45-day-denial",
+        "firestone-co--falcon-point.faq-board-30-days"
+      ]
+    },
+    {
+      "q": "Does the Falcon Point HOA cap how much of a backyard can be turf?",
+      "a": "Not with a number of its own. The standards hold landscaping to all of the Town's requirements, so Firestone's yard caps, set out on our [Firestone page](/areas/firestone-co/), apply here as written. What Falcon Point adds is the 5-foot rear and side drainage easement, where nothing may slow the water in the swales.",
+      "layerRefs": [
+        "firestone-co--falcon-point.ds-landscape-approval",
+        "firestone-fdc-16.6.4-turf-cap",
+        "firestone-co--falcon-point.decl-drainage-easement"
+      ]
+    },
+    {
+      "q": "My neighbor's turf was approved. Does that mean mine will be?",
+      "a": "No. Section 5.10 of the declaration says an approval is not a precedent for any other matter and doesn't waive the committee's right to deny a later request. Each Falcon Point lot is judged on its own drawing.",
+      "layerRefs": [
+        "firestone-co--falcon-point.decl-no-precedent"
+      ]
+    },
+    {
+      "q": "Where do Falcon Point owners send a landscape request?",
+      "a": "The association's FAQ says requests go through TownSq, and Goodwin & Company manages the association. The standards ask for a signed request form and complete drawings with each submission.",
+      "layerRefs": [
+        "firestone-co--falcon-point.faq-board-30-days",
+        "firestone-co--falcon-point.ds-drawings"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Falcon Point at Saddleback HOA, Association Documents page (TownSq): Declaration of Covenants, Conditions and Restrictions (recorded September 20, 2019, Weld County Reception No. 4525105), First Amendment (recorded July 28, 2020) and Design Standards (adopted June 27, 2022), re-downloaded September 26, 2026",
+      "url": "https://cdfps.sites.townsq.io/2",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Falcon Point at Saddleback HOA, Frequently Asked Questions page (TownSq), last updated September 17, 2025",
+      "url": "https://cdfps.sites.townsq.io/3",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "State of Colorado, Colorado Public Parcels (composite of county parcel data): Weld County parcels for Saddleback Filing No. 3 and the Saddleback Golf Course parcel",
+      "url": "https://gis.colorado.gov/Public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/MapServer/0",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Firestone Development Code 16.6.4, Landscaping, screening, and fencing (Municode)",
+      "url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Town of Firestone Parks, Open Space & Trails (POST) Master Plan 2020 (final PDF dated 2022-07-29)",
+      "url": "https://www.firestoneco.gov/DocumentCenter/View/9085/2022-07-29-POST_Master_Plan-FINAL-Compressed",
+      "checked": "2026-09-26"
+    }
+  ],
+  "checked": "2026-09-26",
+  "needsFromBrian": [
+    "Camera-original photos from a Falcon Point at Saddleback yard (before and after; add to photos.ts with community 'firestone-co--falcon-point' or a place naming Falcon Point). No photo on file is from Falcon Point, so the page cannot publish",
+    "Any Falcon Point jobs: month, rough size, turf or putting green, and who reviewed the request (the Design Review Committee or the board), how long it took and what it asked for (survey drawing, product spec sheet, sample)",
+    "Whether the committee has asked for a professionally drawn plan (Declaration 10.13) or accepted an owner's simple drawing (Design Standards III.D) for turf or a putting green",
+    "How crews and materials reached Falcon Point back yards on past jobs (existing side gate width, any gate added with committee approval)",
+    "Whether the committee has let turf, a green's base or edging cross the 5-foot rear and side drainage easement on any Falcon Point lot",
+    "Whether the committee counts artificial turf inside the xeriscape rule's 65% plant-cover area",
+    "How Firestone Planning has handled a putting surface shorter than its 1.75-inch pile minimum here or elsewhere in town (permit, alternative compliance, or not treated as turf)",
+    "Which water provider serves Falcon Point lots (the association's FAQ says water service is typically provided through the Association and points owners to their welcome letter), before the page says anything about watering rules or drought stages",
+    "Whether any Falcon Point lot has a soil nail wall (the standards keep irrigation and plants out of those areas without case-by-case approval) that would shape a backyard design"
+  ]
+}

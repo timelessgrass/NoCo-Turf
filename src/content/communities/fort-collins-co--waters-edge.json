@@ -1,0 +1,323 @@
+{
+  "status": "draft",
+  "town": "fort-collins-co",
+  "slug": "waters-edge",
+  "name": "Waters Edge (Sonders Fort Collins)",
+  "kind": "lake",
+  "governing": {
+    "name": "Waters' Edge Metropolitan District No. 1",
+    "type": "metro-district",
+    "url": "https://www.watersedgemetrodistricts.org/files/b7f0e00a8/061825_Final-Design-Guidelines-Waters-Edge.pdf",
+    "layerRefs": [
+      "fort-collins-co--waters-edge.dg-turf-placement",
+      "fort-collins-co--waters-edge.dg-turf-submittal",
+      "fort-collins-co--waters-edge.dg-turf-upkeep",
+      "fort-collins-co--waters-edge.dg-putting-greens",
+      "fort-collins-co--waters-edge.dg-review-scope",
+      "fort-collins-co--waters-edge.dg-submittal-timing"
+    ]
+  },
+  "title": "Artificial Turf in Waters Edge (Sonders Fort Collins) | NoCo Turf Co.",
+  "description": "Waters Edge allows artificial turf in back yards only, with committee approval, a 60-ounce minimum, a 2-foot buffer at lot lines and a drainage plan.",
+  "h1": "At Waters Edge, turf is a backyard-only material: 60 ounces minimum, 2 feet off every lot line, screened by plants.",
+  "display": {
+    "paint": "a backyard-only material"
+  },
+  "lede": "Waters Edge (Sonders Fort Collins) on Richards Lake answers to a metro district whose design guidelines spell out artificial turf item by item, from the lot-line buffer to the sample in your request. A second clause lets small putting greens skip review, and the two don't quite line up, so a backyard green here starts with a question for the committee.",
+  "answer": {
+    "question": "Can I install artificial turf or a putting green in my Waters Edge backyard?",
+    "answer": "Yes, in the back yard, after Design Review Committee approval. NoCo Turf Co. installs artificial turf and putting greens in Waters Edge (Sonders Fort Collins), Fort Collins, Colorado. The district's guidelines bar turf from front yards and require a 60-ounce minimum, a 2-foot rock or planted buffer at lot lines, and a drainage plan and sample with the request."
+  },
+  "blocks": [
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Guidelines III.a",
+      "h2": "The turf clause decides where turf goes, what it weighs and what the committee sees first.",
+      "takeaway": "The guidelines require Design Review Committee approval before any artificial turf goes in at Waters Edge, and none of it may go in a front yard.",
+      "paras": [
+        "Section III.a of the district's design guidelines keeps turf at least 2 feet off every lot line, separated from those lines, and from any fence on them, by rock or another approved landscape material. The turf must also be screened by landscaping so it stands out less from the ground level of neighboring lots, streets and common tracts. The request carries a plan of the turf area with its base and drainage, a 12-by-12-inch sample with the maker's product and component information and any use warnings, and a product that meets the 60-ounce minimum weight.",
+        "Treat that 2-foot band as part of the design. Apart from a solid alley fence on courtyard homes, the only rear- and side-yard fence the guidelines allow is a black, 4-foot, 3-rail metal accent fence that hides very little, so the screening has to come from shrubs and grasses planted in or beside the band. The recorded Declaration shapes the rock itself: gravel beds may not hold standing water, and no polyethylene moisture barrier may go under gravel.",
+        "Approval brings an upkeep duty. Turf that fades, cracks or falls into disrepair can be ordered replaced with new product or with natural grass, so choose the sample and component sheet in the request for how they will look years out, not only on install day."
+      ],
+      "layerRefs": [
+        "fort-collins-co--waters-edge.dg-turf-placement",
+        "fort-collins-co--waters-edge.dg-turf-submittal",
+        "fort-collins-co--waters-edge.dg-turf-upkeep",
+        "fort-collins-co--waters-edge.dg-fencing",
+        "fort-collins-co--waters-edge.decl-foundation-gravel"
+      ],
+      "sources": [
+        "https://www.watersedgemetrodistricts.org/files/b7f0e00a8/061825_Final-Design-Guidelines-Waters-Edge.pdf",
+        "https://www.watersedgemetrodistricts.org/files/097a1899c/Declaration-of-Covenants-Conditions-and-Restrictions-for-Sonders-Fort-Collins.pdf"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Putting greens",
+      "h2": "A putting green sits in two clauses at once: play equipment that skips review, and turf that doesn't.",
+      "takeaway": "It depends on how the committee reads those clauses together, so ask the Waters Edge Design Review Committee before you build a synthetic green.",
+      "paras": [
+        "Section III.m lists putting greens beside sandboxes and playhouses: no committee approval is needed for one that stands no more than 4 feet high, sits in the back yard at least 6 feet from every property line and is kept in good repair. Section III.a asks for approval before any installation of artificial turf, and neither clause mentions the other, so the documents leave open which one governs a synthetic green, or whether both do. A green that keeps the 6-foot setback also clears the turf clause's 2-foot buffer, so one request that covers both clauses is the simplest route.",
+        "Grading is the other trigger. The Declaration has owners agree not to install landscaping or earth berms that change a lot's grading, and a change to the drainage set at final grading needs a plan the committee approves; the request form adds that a change in drainage or elevation is not allowed without express approval. Built-up breaks, a chipping mound or a green cut down into the yard all change grade, so draw the contours into the request rather than shaping them on site.",
+        "For a surface to compare against, the developer's community map shows The Greens, a neighborhood park with putting greens and chipping areas."
+      ],
+      "layerRefs": [
+        "fort-collins-co--waters-edge.dg-putting-greens",
+        "fort-collins-co--waters-edge.dg-turf-placement",
+        "fort-collins-co--waters-edge.decl-grading-drainage",
+        "fort-collins-co--waters-edge.app-drainage-elevation",
+        "fort-collins-co--waters-edge.the-greens"
+      ],
+      "sources": [
+        "https://www.watersedgemetrodistricts.org/files/b7f0e00a8/061825_Final-Design-Guidelines-Waters-Edge.pdf",
+        "https://www.watersedgemetrodistricts.org/files/097a1899c/Declaration-of-Covenants-Conditions-and-Restrictions-for-Sonders-Fort-Collins.pdf",
+        "https://www.watersedgemetrodistricts.org/files/a30f7c92b/093025_Final-Design-Guidelines-Waters-Edge+-+Application.iso+%283%29+%281%29.pdf",
+        "https://sondersfortcollins.com/interactive-map/"
+      ]
+    },
+    {
+      "kind": "housing",
+      "own": true,
+      "kicker": "Lots and grass caps",
+      "h2": "Most lots here are compact, and the builder rules capped how much of each yard could be grass.",
+      "paras": [
+        "The 2022 Sonders FAQ planned about 375 homes: single-family, courtyard, townhome, condominium and custom. Larimer County's plat map puts the 247 numbered lots of the Waters Edge 2nd Filing at about 5,400 to 13,200 square feet, median near 6,250, and the 78 lots of the 3rd Filing at about 2,700 to 3,400. Once the house, the patio and a 2-foot buffer along each lot line are placed, a green or a play lawn is usually one piece of a back yard here rather than the whole of it.",
+        "The builder design guidelines the district posts capped turf grass at 25% of the landscape area on courtyard-home lots, 45% on patio-home lots and 60% on single-family and custom lots, and asked every other landscape area to reach 50% plant coverage within 3 years. They don't say whether artificial turf counts toward the grass cap, the planting share or neither. It depends on the committee's reading, so ask the Waters Edge Design Review Committee how it will measure a turf area before sizing one."
+      ],
+      "layerRefs": [
+        "fort-collins-co--waters-edge.homes-and-types",
+        "fort-collins-co--waters-edge.lot-sizes",
+        "fort-collins-co--waters-edge.turf-grass-caps"
+      ],
+      "sources": [
+        "https://sondersfortcollins.com/2022/04/28/frequently-asked-questions-about-sonders-fort-collins/",
+        "https://maps1.larimer.org/arcgis/rest/services/MapServices/Parcels/MapServer/4",
+        "https://www.watersedgemetrodistricts.org/files/ed2d0de73/Sonders-Design-Guidelines-For-Builders-10.0621.pdf"
+      ]
+    },
+    {
+      "kind": "utility",
+      "own": true,
+      "kicker": "Non-potable irrigation",
+      "h2": "The district's irrigation system still waters the beds around your turf, and only the district can switch it off.",
+      "paras": [
+        "Waters' Edge Metropolitan District No. 1 provides irrigation water only: non-potable water that ELCO supplies under an annual allotment of 15,589,000 gallons for the whole service area, while ELCO also serves the house's drinking water. The district's rules require owners to connect sprinkler systems to that system and build them for water that can carry particulate matter.",
+        "Turf changes sprinkler zones, and the rules reach into that work. Before new landscaping or replacing a significant part of it, the owner files a Notice of Installation, which is the design review request form, at least 2 business days ahead, and neither the owner nor a hired crew may shut the system off or turn it on without the district's written permit. Watering runs three nights a week in 3-hour windows by color-coded area, and the district winterizes the lines centrally, aiming to start them again in the first or second week of April.",
+        "The district pays for front-yard and tree-lawn care; the Sonders FAQ says that care stops short of rear-yard improvements, so a backyard turf area and the planting that screens it are the owner's to plan, water and keep."
+      ],
+      "layerRefs": [
+        "fort-collins-co--waters-edge.irr-nonpotable",
+        "fort-collins-co--waters-edge.district-water-roles",
+        "fort-collins-co--waters-edge.irr-landscape-notice",
+        "fort-collins-co--waters-edge.irr-schedule-winterize",
+        "fort-collins-co--waters-edge.district-front-yard-care"
+      ],
+      "sources": [
+        "https://www.watersedgemetrodistricts.org/files/81cb2aeba/Rules+and+Regulations+-+Non-Potable+Irrigation+Water+System%2C+2024-06-27.pdf",
+        "https://www.watersedgemetrodistricts.org/new-resident-info",
+        "https://sondersfortcollins.com/2022/04/28/frequently-asked-questions-about-sonders-fort-collins/"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "The calendar",
+      "h2": "Plan around a monthly committee, a 12-month approval and 30 days to finish once work starts.",
+      "paras": [
+        "The committee normally meets once a month and can take up to 45 days to answer; if no written receipt arrives within seven days of sending a request, the form says to follow up. A complete package has a plot plan, the lot and block numbers and the lot's square footage, with photos attached rather than links, and an incomplete one is sent back. The answer comes in writing: approved, approved with conditions, denied pending more information, or denied.",
+        "An approval lapses if the work isn't finished within 12 months, and the recorded Declaration wants landscaping completed within 30 days of starting it. After a written notice of completion the committee may inspect for 90 days, and a noncompliance notice gives 45 days to correct the work or appeal to the district board. A request to depart from the guidelines, turf closer than 2 feet to a lot line for instance, is a variance, and the Declaration sends variances to the metro district rather than the committee.",
+        "First owners of a lot the builder didn't landscape have a deadline, and the documents disagree on it. The recorded Declaration and the guidelines the district posts give 90 days after a closing between March 31 and September 1; a district resolution effective November 15, 2023 moved that cut-off to August 15. Outside the window, the 90 days start the next April 1. It depends on which text the district applies, so if you closed in late summer, ask the Design Review Committee before counting on a spring install."
+      ],
+      "layerRefs": [
+        "fort-collins-co--waters-edge.dg-submittal-timing",
+        "fort-collins-co--waters-edge.app-drainage-elevation",
+        "fort-collins-co--waters-edge.dg-submittal-route",
+        "fort-collins-co--waters-edge.dg-after-approval",
+        "fort-collins-co--waters-edge.decl-landscape-completion",
+        "fort-collins-co--waters-edge.dg-landscape-timeline-posted",
+        "fort-collins-co--waters-edge.landscape-timeline-2023"
+      ],
+      "sources": [
+        "https://www.watersedgemetrodistricts.org/files/b7f0e00a8/061825_Final-Design-Guidelines-Waters-Edge.pdf",
+        "https://www.watersedgemetrodistricts.org/files/a30f7c92b/093025_Final-Design-Guidelines-Waters-Edge+-+Application.iso+%283%29+%281%29.pdf",
+        "https://www.watersedgemetrodistricts.org/files/097a1899c/Declaration-of-Covenants-Conditions-and-Restrictions-for-Sonders-Fort-Collins.pdf",
+        "https://www.watersedgemetrodistricts.org/files/e91b5eaa7/Resolution-Amending-the-Landscape-Installation-Timeline-Design-Guidelines.pdf"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Inside city limits",
+      "h2": "Unlike the country club next door, Waters Edge sits inside Fort Collins, so city parkway rules stack on the district's.",
+      "paras": [
+        "Sonders describes itself as sitting alongside Fort Collins Country Club, whose parcels are unincorporated county land. Larimer County's subdivision records, though, put the Waters Edge 2nd and 3rd filings inside the City of Fort Collins. The city's development turf ban leaves out existing lots for single- and two-unit detached homes, so on a finished detached lot the district's clause is what shapes backyard turf. Townhomes are attached homes, which that exemption doesn't name; it depends on the lot, so ask Fort Collins Planning before planning turf on one.",
+        "Out front, both authorities say no. The guidelines keep turf out of front yards, builders plant the parkway strip as natural grass with city trees, and xeriscaping that strip takes the committee's approval and then a city Parkway Landscape Amendment, which carries no review fee. Under the streetscape standards Fort Collins adopted in December 2025, artificial turf is barred from parkways as well."
+      ],
+      "layerRefs": [
+        "fort-collins-co--waters-edge.country-club-adjacent",
+        "fort-collins-co.country-club-unincorporated",
+        "fort-collins-co--waters-edge.in-city-limits",
+        "fc-luc-5.10.1",
+        "fort-collins-co--waters-edge.dg-parkway",
+        "fort-collins-co.parkway-amendment-no-fee",
+        "fort-collins-co.streetscape-no-artificial-turf"
+      ],
+      "sources": [
+        "https://sondersfortcollins.com/location/",
+        "https://maps1.larimer.org/arcgis/rest/services/MapServices/Parcels/MapServer/3",
+        "https://maps1.larimer.org/arcgis/rest/services/MapServices/Parcels/MapServer/1",
+        "https://mccmeetingspublic.blob.core.usgovcloudapi.net/fortcollco-meet-0538ebaac95447ff8c4f53ebc4c0adf8/ITEM-Attachment-004-785f079234b4438a8e8675d01d6f3bd4.pdf",
+        "https://www.watersedgemetrodistricts.org/files/b7f0e00a8/061825_Final-Design-Guidelines-Waters-Edge.pdf",
+        "https://www.fortcollins.gov/files/sharedassets/city/v/5/planning-development-amp-transportation/permitting/parkway-landscape-amendment-application.pdf",
+        "https://mccmeetingspublic.blob.core.usgovcloudapi.net/fortcollco-meet-9b4e8e099e3f4e9cbeaa4a206b542f9a/ITEM-Attachment-001-c4cbe11e9146456885974472aba7c2ef.pdf"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does a putting green at Waters Edge need Design Review Committee approval?",
+      "a": "It depends. The guidelines exempt a backyard putting green no more than 4 feet high and at least 6 feet from every property line, but they also require approval before any artificial turf is installed. Ask the Waters Edge Design Review Committee which clause applies before you build a synthetic green.",
+      "layerRefs": [
+        "fort-collins-co--waters-edge.dg-putting-greens",
+        "fort-collins-co--waters-edge.dg-turf-placement"
+      ]
+    },
+    {
+      "q": "Can turf go in a Waters Edge front yard or parkway strip?",
+      "a": "No. The district's guidelines keep artificial turf out of front yards, the builder plants the parkway as natural grass, and Fort Collins bars artificial turf from parkways under its streetscape standards.",
+      "layerRefs": [
+        "fort-collins-co--waters-edge.dg-turf-placement",
+        "fort-collins-co--waters-edge.dg-parkway",
+        "fort-collins-co.streetscape-no-artificial-turf"
+      ]
+    },
+    {
+      "q": "Can I light a backyard green at Waters Edge?",
+      "a": "With approval. Outdoor lighting needs the committee's sign-off, must aim down and keep its light on your lot, walkway lights may be no taller than 24 inches, and landscape lighting must be off from 10 p.m. to 6 a.m.",
+      "layerRefs": [
+        "fort-collins-co--waters-edge.dg-lighting"
+      ]
+    },
+    {
+      "q": "What happens if turf goes in at Waters Edge without approval?",
+      "a": "The guidelines say an improvement installed without approval can be removed at the owner's expense, and the district board may add fines or other legal action.",
+      "layerRefs": [
+        "fort-collins-co--waters-edge.dg-unapproved-removal"
+      ]
+    },
+    {
+      "q": "Where does a Waters Edge design request go?",
+      "a": "To the district manager, on the request form posted on the Waters' Edge Metropolitan District website. The manager forwards it to the Design Review Committee, tracks it and sends back the committee's written decision.",
+      "layerRefs": [
+        "fort-collins-co--waters-edge.dg-submittal-route"
+      ]
+    },
+    {
+      "q": "Does the Richards Lake association review yards at Waters Edge?",
+      "a": "The documents read for this page send yard review to the district's Design Review Committee. The district credits the Richards Lake Master Association with managing the lake, a private lake that is mainly water storage run by the Water Supply and Storage Company of Fort Collins. If your lot backs onto the shore, ask the committee whether anything more applies.",
+      "layerRefs": [
+        "fort-collins-co--waters-edge.district-water-roles",
+        "fort-collins-co--waters-edge.richards-lake"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Waters Edge Metropolitan District Design Guidelines (Sonders Fort Collins), Secs. II to IV, as posted on the district's Design Guidelines page",
+      "url": "https://www.watersedgemetrodistricts.org/files/b7f0e00a8/061825_Final-Design-Guidelines-Waters-Edge.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Resolution of the Board of Waters' Edge Metropolitan District No. 1 amending the Sonders Fort Collins Design Guidelines (Landscape Installation Timeline, effective November 15, 2023)",
+      "url": "https://www.watersedgemetrodistricts.org/files/e91b5eaa7/Resolution-Amending-the-Landscape-Installation-Timeline-Design-Guidelines.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Waters' Edge Metropolitan District No. 1, Design Review Request Form",
+      "url": "https://www.watersedgemetrodistricts.org/files/a30f7c92b/093025_Final-Design-Guidelines-Waters-Edge+-+Application.iso+%283%29+%281%29.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Waters' Edge Metropolitan District No. 1, Rules and Regulations for Irrigation System (approved June 27, 2024)",
+      "url": "https://www.watersedgemetrodistricts.org/files/81cb2aeba/Rules+and+Regulations+-+Non-Potable+Irrigation+Water+System%2C+2024-06-27.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Declaration of Covenants, Conditions and Restrictions for Sonders Fort Collins (Larimer County Reception No. 20220024320, recorded April 15, 2022)",
+      "url": "https://www.watersedgemetrodistricts.org/files/097a1899c/Declaration-of-Covenants-Conditions-and-Restrictions-for-Sonders-Fort-Collins.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Sonders Fort Collins Architectural Design Guidelines for builders (October 2021), Landscaping Requirements",
+      "url": "https://www.watersedgemetrodistricts.org/files/ed2d0de73/Sonders-Design-Guidelines-For-Builders-10.0621.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Waters' Edge Metropolitan District Nos. 1–5, New Resident Info page",
+      "url": "https://www.watersedgemetrodistricts.org/new-resident-info",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Sonders Fort Collins, Frequently Asked Questions about Sonders Fort Collins (April 28, 2022)",
+      "url": "https://sondersfortcollins.com/2022/04/28/frequently-asked-questions-about-sonders-fort-collins/",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Sonders Fort Collins, Interactive Community Map (The Greens)",
+      "url": "https://sondersfortcollins.com/interactive-map/",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Sonders Fort Collins, Location page",
+      "url": "https://sondersfortcollins.com/location/",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Sonders Fort Collins blog, Another Lakefront Retreat for Sonders Residents: Richard's Lake (September 16, 2024)",
+      "url": "https://sondersfortcollins.com/2024/09/16/another-lakefront-retreat-for-sonders-residents-richards-lake/",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Larimer County parcel GIS, Subdivisions layer (Waters Edge 2nd and 3rd filings, MUNICIPALITY: FORT COLLINS)",
+      "url": "https://maps1.larimer.org/arcgis/rest/services/MapServices/Parcels/MapServer/1",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Larimer County parcel GIS, Platted Lots layer (Waters Edge 2nd Filing: 247 numbered lots, about 5,400 to 13,200 sq ft, median about 6,250; 3rd Filing: 78 lots, about 2,700 to 3,400 sq ft)",
+      "url": "https://maps1.larimer.org/arcgis/rest/services/MapServices/Parcels/MapServer/4",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Larimer County parcel GIS, Tax Parcels layer (Fort Collins Country Club parcels, IS_INCORPORATED: NO)",
+      "url": "https://maps1.larimer.org/arcgis/rest/services/MapServices/Parcels/MapServer/3",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Fort Collins Land Use Code 5.10.1, Ordinance No. 008, 2025 (effective Feb. 14, 2025)",
+      "url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/fortcollco-meet-0538ebaac95447ff8c4f53ebc4c0adf8/ITEM-Attachment-004-785f079234b4438a8e8675d01d6f3bd4.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "City of Fort Collins Streetscape Standards, Exhibit A to Ordinance No. 202, 2025 (adopted Dec. 16, 2025)",
+      "url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/fortcollco-meet-9b4e8e099e3f4e9cbeaa4a206b542f9a/ITEM-Attachment-001-c4cbe11e9146456885974472aba7c2ef.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "City of Fort Collins, Parkway Landscape Amendment Application (revised 4/13/2026)",
+      "url": "https://www.fortcollins.gov/files/sharedassets/city/v/5/planning-development-amp-transportation/permitting/parkway-landscape-amendment-application.pdf",
+      "checked": "2026-09-26"
+    }
+  ],
+  "checked": "2026-09-26",
+  "needsFromBrian": [
+    "Any NoCo job in Waters Edge / Sonders Fort Collins: lot type (single-family, patio, courtyard, custom, townhome), month, rough size, turf area or putting green. None is known, so the page makes no claim about work there.",
+    "Camera-original photos from a Waters Edge or Sonders job, before and after, for photos.ts tagged with community 'fort-collins-co--waters-edge'. No photo is tagged with this community, so the page can't pass the gate and has no photo.",
+    "Whether NoCo has taken a turf or putting-green request through the Waters Edge Design Review Committee, and what it asked for: drainage-plan format, the 12-by-12-inch sample, and whether the 60-ounce minimum means face weight or total weight.",
+    "The turf products NoCo would offer here that meet the 60-ounce minimum, with the manufacturer's component sheets and use warnings the request must include.",
+    "Ask the district (not for the page, for accuracy): does a synthetic putting green that meets Sec. III.m still need Sec. III.a approval, and which first-landscaping cut-off does the committee apply, August 15 (2023 resolution) or September 1 (posted guidelines and Declaration)?",
+    "Confirm NoCo builds putting greens today (services.ts has putting-greens confirmed: false).",
+    "Whether The Greens park at Sonders is built and whether its greens are synthetic; a photo of it, taken with the district's permission, would help the putting-green block."
+  ]
+}

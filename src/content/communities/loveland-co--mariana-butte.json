@@ -1,0 +1,310 @@
+{
+  "status": "draft",
+  "town": "loveland-co",
+  "slug": "mariana-butte",
+  "name": "Mariana Butte",
+  "kind": "golf",
+  "governing": {
+    "name": "Deer Meadows Metropolitan District (The Masters) and The Reserve at Mariana Butte HOA",
+    "type": "both",
+    "url": "https://deermeadows.specialdistrict.org/files/9ab8cd02c/DMMD+Architectural+and+Design+Guidelines+-Updated+6.27.2023.pdf",
+    "layerRefs": [
+      "loveland-co--mariana-butte.masters-artificial-turf",
+      "loveland-co--mariana-butte.masters-acc-landscape-review",
+      "loveland-co.reserve-mariana-butte-turf-backyards",
+      "loveland-co--mariana-butte.reserve-open-lot-lines",
+      "loveland-co--mariana-butte.reserve-arc-first-step"
+    ]
+  },
+  "golf": {
+    "name": "Mariana Butte Golf Course",
+    "layerRef": "loveland-co--mariana-butte.golf-course"
+  },
+  "title": "Turf & Putting Greens in Mariana Butte, Loveland | NoCo Turf Co.",
+  "description": "In Mariana Butte, The Masters allows artificial turf with ACC approval and The Reserve keeps it to back yards. Course-side yards must blend into the fairway.",
+  "h1": "Mariana Butte's two posted rulebooks both allow artificial turf, each on its own terms.",
+  "display": {
+    "paint": "both allow artificial turf"
+  },
+  "lede": "Several associations ring Loveland's city course at Mariana Butte, and two of them post their yard rules: the Deer Meadows Metropolitan District for The Masters, and The Reserve at Mariana Butte HOA. Each allows synthetic grass. Each also expects a yard beside the course to read as part of it, which decides where a green, its lights and its shelter from stray balls can go.",
+  "answer": {
+    "question": "Can I put artificial turf or a putting green in a Mariana Butte yard?",
+    "answer": "NoCo Turf Co. installs artificial turf and putting greens in Mariana Butte, Loveland, Colorado. The two rulebooks posted there both allow synthetic turf: Deer Meadows' guidelines for The Masters with its committee's approval, The Reserve's in back yards only, after ARC review. Neither names putting greens, so a green is reviewed as turf, with its lighting, paving and walls."
+  },
+  "blocks": [
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "The Masters · Deer Meadows",
+      "h2": "In The Masters, artificial turf has an entry of its own in the design guidelines.",
+      "takeaway": "Under the letter A, between antennas and awnings, the guidelines put it in one line: “Non-vegetative turf is permitted upon approval by the ACC.” The same entry reaches a front porch or balcony, where synthetic grass needs sign-off first too.",
+      "paras": [
+        "Deer Meadows Metropolitan District governs Mariana Butte 14th Subdivision, which its documents call The Masters, and its Architectural Control Committee reviews every application before the City of Loveland sees one. The district's service plan put the subdivision at about 50 acres and 77 homes, the final piece of the Mariana Butte P.U.D., right beside the course.",
+        "The Lawn section treats xeriscape, hardscape and artificial turf as three choices the committee can approve, and asks that any living grass stop four feet short of the foundation so water drains away from the house. Both entries were rewritten on March 6, 2023, along with Fencing and Solar Devices, in guidelines first adopted November 4, 2019.",
+        "The covenants recorded in 2008 are older. They still want grass, shrubs and trees kept in a healthy, live and growing condition, and the district's rules repeat those words. It depends how the committee reads the 2008 text beside the 2023 entry, so name the turf on the plan rather than calling it lawn, and ask the ACC if a question comes back."
+      ],
+      "layerRefs": [
+        "loveland-co--mariana-butte.masters-acc-deer-meadows",
+        "loveland-co--mariana-butte.deer-meadows-service-plan",
+        "loveland-co--mariana-butte.masters-artificial-turf",
+        "loveland-co--mariana-butte.masters-guidelines-revised-2023",
+        "loveland-co--mariana-butte.masters-ccr-landscape-live",
+        "loveland-co--mariana-butte.dmmd-rules-work-hours"
+      ],
+      "sources": [
+        "https://deermeadows.specialdistrict.org/files/9ab8cd02c/DMMD+Architectural+and+Design+Guidelines+-Updated+6.27.2023.pdf",
+        "https://deermeadows.specialdistrict.org/files/e49e87a2d/Service+Plan-FINAL.PDF.PDF",
+        "https://deermeadows.specialdistrict.org/files/d61271d73/Deer+Meadow+CC%26Rs.pdf",
+        "https://deermeadows.specialdistrict.org/files/4b79f6d67/Rules+and+Regulations.pdf"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "The Reserve · 2002 covenants",
+      "h2": "The Reserve was laid out without fences, so a turf plan there has to keep lot lines invisible.",
+      "paras": [
+        "The Reserve at Mariana Butte HOA's 2024 guidelines keep synthetic turf behind the house; the [Loveland putting-green page](/areas/loveland-co/putting-greens/) covers that rule. What shapes a design more is older. The covenants dated January 17, 2002 allow no fences on any lot, ask for lawn along every lot line so landscaping never marks a boundary, and want lots beside the course or a natural area to blend in until the line can't be told apart.",
+        "Those covenants define lawn as sodded or seeded grass and hold rock, gravel and mulch to 25% of a lot's landscaping, kept within 15 feet of the house. They say nothing about artificial turf meeting a lot line where that grass edge was meant to be. A 2019 board policy has the ARC weigh Colorado law with the covenants and lets the law win where they differ, and the 2024 guidelines say they modify the covenants for xeriscape. It depends how the ARC puts those together, so ask the ARC before a plan carries turf or a green's fringe to the property line.",
+        "The HOA's notes for new owners put the intent plainly: an open theme that blends with the river-area landscape, nothing marking property lines, and room for wildlife to move through."
+      ],
+      "layerRefs": [
+        "loveland-co.reserve-mariana-butte-turf-backyards",
+        "loveland-co--mariana-butte.reserve-open-lot-lines",
+        "loveland-co--mariana-butte.reserve-lawn-ground-cover",
+        "loveland-co--mariana-butte.reserve-policy-state-law",
+        "loveland-co--mariana-butte.reserve-front-yard",
+        "loveland-co--mariana-butte.reserve-open-design"
+      ],
+      "sources": [
+        "https://thereserveatmarianabutte.org/wp-content/uploads/2025/01/HOA-Landscape-Design-Guidelines-2-7-2024.pdf",
+        "https://thereserveatmarianabutte.org/wp-content/uploads/2025/01/TheReserve_MarianaButteHOA_Declaration-of-Covenants-Conditions-and-Restrictions-2002.pdf",
+        "https://thereserveatmarianabutte.org/wp-content/uploads/2026/01/8PolicyforUseofXeriscaping_2019.pdf",
+        "https://thereserveatmarianabutte.org/wp-content/uploads/2025/04/HOAWelcomeLetter_Jan2025.pdf"
+      ]
+    },
+    {
+      "kind": "golf",
+      "own": true,
+      "kicker": "Mariana Butte Golf Course",
+      "h2": "Beside a city fairway, shelter from stray balls comes from trees and pergolas, not nets.",
+      "paras": [
+        "Mariana Butte Golf Course is the City of Loveland's 18-hole, 6,583-yard, par-72 layout, with holes along the Big Thompson River. The Masters makes each owner responsible for keeping a lot safe from flying objects, reviews every structural fix lot by lot, favors trees, bushes and pergola-type structures, and expects to reject large poles with netting. The Reserve's covenants go further: no protective netting on any lot, with homes and improvements designed to give the protection instead.",
+        "That settles part of a backyard green's layout before any turf is chosen. Cover comes from planting or a pergola the committee approves, placed as part of the design rather than added after the first ball lands. The Masters also wants every lot beside the course, natural areas or open space landscaped to blend into them, and no existing tree removed without the committee's written approval, so a green is fitted around the trees already there. The Reserve's owner notes add that damage is the responsibility of whoever hit the ball, and that golf treats a home lot as out of bounds.",
+        "The course is also the easiest place to size a green. Its practice putting green sits at the north end of the lower parking lot, and two practice chipping greens with a bunker lie between the 10th fairway and the 18th green. Practice at home stays in the yard: Deer Meadows' rules bar practicing golf or carrying clubs in the district's park."
+      ],
+      "layerRefs": [
+        "loveland-co--mariana-butte.golf-course",
+        "loveland-co--mariana-butte.masters-golf-ball-safety",
+        "loveland-co--mariana-butte.masters-blend-course",
+        "loveland-co--mariana-butte.reserve-netting-structures",
+        "loveland-co--mariana-butte.reserve-golf-balls-flood",
+        "loveland-co--mariana-butte.dmmd-no-golf-in-park"
+      ],
+      "sources": [
+        "https://www.golfloveland.com/city-government/departments/parks-recreation/golf-courses/mariana-butte-golf-course",
+        "https://deermeadows.specialdistrict.org/files/9ab8cd02c/DMMD+Architectural+and+Design+Guidelines+-Updated+6.27.2023.pdf",
+        "https://thereserveatmarianabutte.org/wp-content/uploads/2025/01/TheReserve_MarianaButteHOA_Declaration-of-Covenants-Conditions-and-Restrictions-2002.pdf",
+        "https://thereserveatmarianabutte.org/wp-content/uploads/2025/04/HOAWelcomeLetter_Jan2025.pdf",
+        "https://deermeadows.specialdistrict.org/files/4b79f6d67/Rules+and+Regulations.pdf"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Review clocks",
+      "h2": "Each committee keeps its own review clock, and The Masters' documents give three different ones.",
+      "paras": [
+        "Deer Meadows posts a $50 review fee, says its committee answers within 30 days of a complete submission, and wants approved work done within 1 year. Its guidelines suggest filing at least 45 days ahead and treat plans left unanswered 45 days after receipt as approved. The recorded covenants point the other way: after 60 days with no decision, plans are presumed disapproved. It depends which document governs a slow answer, so ask the ACC for its decision in writing before an install date is set.",
+        "The Masters' application has separate boxes for front and rear landscaping, and the covenants ask for professionally prepared plans that show landscaping, grading, easements and utilities. Signing it, the owner agrees that approval says nothing about drainage design or building permits, to call Colorado 811 for utility locates, and to change nothing from the approved plan without written consent.",
+        "At The Reserve the ARC has three members. The covenants start a 30-day clock once the ARC confirms in writing that a submission is complete, and presume approval if it hasn't acted by then. The guidelines' first step is a call to the ARC chair, usually followed by a description and drawings or sketches, and the committee may ask for samples or vendor descriptions of a product it doesn't know. For synthetic turf, a cut sample and the maker's spec sheet answer that request."
+      ],
+      "layerRefs": [
+        "loveland-co--mariana-butte.dmmd-acc-fee-timeline",
+        "loveland-co--mariana-butte.masters-acc-landscape-review",
+        "loveland-co--mariana-butte.masters-ccr-review-60-days",
+        "loveland-co--mariana-butte.acc-submittal-form",
+        "loveland-co--mariana-butte.reserve-arc-30-days",
+        "loveland-co--mariana-butte.reserve-arc-first-step"
+      ],
+      "sources": [
+        "https://deermeadows.specialdistrict.org/architectural-control",
+        "https://deermeadows.specialdistrict.org/files/9ab8cd02c/DMMD+Architectural+and+Design+Guidelines+-Updated+6.27.2023.pdf",
+        "https://deermeadows.specialdistrict.org/files/d61271d73/Deer+Meadow+CC%26Rs.pdf",
+        "https://deermeadows.specialdistrict.org/files/6edaa5f63/Deer+Meadows+ACC+Submittal+Form.pdf",
+        "https://thereserveatmarianabutte.org/wp-content/uploads/2025/01/TheReserve_MarianaButteHOA_Declaration-of-Covenants-Conditions-and-Restrictions-2002.pdf",
+        "https://thereserveatmarianabutte.org/wp-content/uploads/2025/01/HOA-Landscape-Design-Guidelines-2-7-2024.pdf"
+      ]
+    },
+    {
+      "kind": "access",
+      "own": true,
+      "kicker": "Ditch, easement, grade",
+      "h2": "Where a Masters lot backs onto the George Rist Ditch, its last 15 feet stay clear of permanent landscaping.",
+      "paras": [
+        "Masters lots that back onto Outlot D and the George Rist Ditch carry a 15-foot private landscape, utility and drainage easement across the rear. The covenants allow no fencing, sheds or permanent landscaping in it, and the ditch company may pull out anything built there at the owner's cost. They don't say whether a turf or putting-green base counts as permanent landscaping; it depends on the lot, so ask the ACC before a design reaches the back line. The guidelines also keep fencing off the rear line and out of that easement on Blocks 3, 5 and 7 and on Block 2, Lots 17 and 18.",
+        "The ground is engineered, too. Landscape elements may not disturb the finished grading, drainage runs away from the house, and no one may reshape the engineered swales, so any break shaped into a green has to leave that grade and those swales working as built. The course is not a way in: the covenants give no owner direct access to it or the ditch from a lot, the district bars staging, storage or access over its land or a neighbor's, and delivery trucks may not cross its entry and median areas. Visible gravel, rock and soil piles can sit no more than 30 days, and the district's rules keep work on a lot's improvements between 8 a.m. and dusk.",
+        "At The Reserve, Dry Creek runs through the neighborhood and the HOA maintains about 300 feet of the same ditch, which can carry water from April to November. Its owner notes say several homes sit next to or within a flood plain and leave it to each owner to know where theirs is, a question to settle before a turf base changes how a yard drains."
+      ],
+      "layerRefs": [
+        "loveland-co--mariana-butte.masters-rear-easement",
+        "loveland-co--mariana-butte.masters-rear-fencing",
+        "loveland-co--mariana-butte.masters-drainage",
+        "loveland-co--mariana-butte.masters-course-no-access",
+        "loveland-co--mariana-butte.masters-staging-access",
+        "loveland-co--mariana-butte.dmmd-rules-work-hours",
+        "loveland-co--mariana-butte.reserve-setting",
+        "loveland-co--mariana-butte.reserve-golf-balls-flood"
+      ],
+      "sources": [
+        "https://deermeadows.specialdistrict.org/files/d61271d73/Deer+Meadow+CC%26Rs.pdf",
+        "https://deermeadows.specialdistrict.org/files/9ab8cd02c/DMMD+Architectural+and+Design+Guidelines+-Updated+6.27.2023.pdf",
+        "https://deermeadows.specialdistrict.org/files/4b79f6d67/Rules+and+Regulations.pdf",
+        "https://thereserveatmarianabutte.org/wp-content/uploads/2025/04/HOAWelcomeLetter_Jan2025.pdf"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Lights, play, pets",
+      "h2": "A design-led Mariana Butte yard also answers to lighting, play and pet rules.",
+      "paras": [
+        "In The Masters, landscape lighting needs the committee's written approval and has to be subdued, its source hidden from neighboring homes and shielded against spill; uplighting is not allowed at all. Play and sports equipment belongs in the rear or side yard, generally screened and no taller than 10 feet, with the size of a play yard weighed against the lot and the neighbors, whose written consent is sometimes required. Open patios, any paving and retaining walls each need approval as well.",
+        "The Reserve bars light that is unreasonably bright or glaring, wants swing sets and slides reasonably screened, and allows sheds, gazebos and similar structures only when attached to the house and built in its materials. Statuary, sculptures, decorative columns and lampposts stay within 15 feet of the house, which pulls a green's lighting and ornaments close to the patio.",
+        "Neither community allows dog runs. The Reserve caps a lot at three household pets and requires an underground electric fence around the part of the yard where a dog runs free, so pet turf there is planned around a buried boundary rather than a visible one."
+      ],
+      "layerRefs": [
+        "loveland-co--mariana-butte.masters-lighting",
+        "loveland-co--mariana-butte.masters-play-dog-runs",
+        "loveland-co--mariana-butte.masters-paving-walls",
+        "loveland-co--mariana-butte.reserve-netting-structures",
+        "loveland-co--mariana-butte.reserve-dogs"
+      ],
+      "sources": [
+        "https://deermeadows.specialdistrict.org/files/9ab8cd02c/DMMD+Architectural+and+Design+Guidelines+-Updated+6.27.2023.pdf",
+        "https://thereserveatmarianabutte.org/wp-content/uploads/2025/01/TheReserve_MarianaButteHOA_Declaration-of-Covenants-Conditions-and-Restrictions-2002.pdf"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "My house is near the course but not in The Masters or The Reserve. Whose rules apply?",
+      "a": "Your own association's. Colorado's business registry lists seven associations named for Mariana Butte in good standing, among them the Mariana Butte Homeowners Association, The Villages of Mariana Butte Community Association, Filing No. 11, the Filing No. 12 Subassociation, The Ridge and Mountain Gate. When this page was checked in September 2026, the only yard rules found posted online were The Reserve's and the Deer Meadows district's, so ask your own committee for its guidelines before a plan is drawn.",
+      "layerRefs": [
+        "loveland-co--mariana-butte.associations-good-standing"
+      ]
+    },
+    {
+      "q": "Do the Mariana Butte guidelines mention putting greens?",
+      "a": "No. Neither The Masters' guidelines nor The Reserve's name them. In The Masters a synthetic green is artificial turf, which the committee approves, and the paving, retaining walls and lighting around it need approval too. At The Reserve it is back-yard turf, and any plan beyond the pre-approved front-yard designs goes to the ARC.",
+      "layerRefs": [
+        "loveland-co--mariana-butte.masters-artificial-turf",
+        "loveland-co--mariana-butte.masters-paving-walls",
+        "loveland-co--mariana-butte.masters-lighting",
+        "loveland-co.reserve-mariana-butte-turf-backyards",
+        "loveland-co--mariana-butte.reserve-front-yard"
+      ]
+    },
+    {
+      "q": "Can a Reserve front yard skip grass altogether?",
+      "a": "Yes. The guidelines let an owner have no natural turf out front, though the ARC would like some drought-resistant grass to soften the hardscape, and three pre-approved xeriscape front-yard designs go in without further review if built as drawn. Artificial turf still stays out back. The city-owned tree lawn along Rossum Drive keeps irrigated grass and Locust trees unless the HOA, every owner with a tree lawn on that street and City Current Planning all agree to a change.",
+      "layerRefs": [
+        "loveland-co--mariana-butte.reserve-front-yard",
+        "loveland-co--mariana-butte.reserve-rossum-tree-lawn",
+        "loveland-co.reserve-mariana-butte-turf-backyards"
+      ]
+    },
+    {
+      "q": "Does The Reserve's ARC need to see a sprinkler change when lawn becomes turf?",
+      "a": "The HOA's owner notes say sprinkler modifications, trimming and replanting flowers aren't generally significant changes, while removing or replanting a tree is, and anything visible, landscaping included, needs the ARC first. Turf replacing lawn is visible, so it goes to the ARC, and the irrigation work under it belongs in the same request. The board and ARC also walk the neighborhood each year, usually in late spring.",
+      "layerRefs": [
+        "loveland-co--mariana-butte.reserve-visible-changes"
+      ]
+    },
+    {
+      "q": "Does committee approval cover the City of Loveland too?",
+      "a": "No. The Deer Meadows application says approval is not a building, zoning or drainage sign-off, and The Reserve's covenants say approval is not building-code compliance. The city's 2026 turf rules leave single-family lots out, as the [Loveland page](/areas/loveland-co/) explains, but permits stay with the owner, so ask Loveland's building division whether a wall or structure in the plan needs one.",
+      "layerRefs": [
+        "loveland-co--mariana-butte.acc-submittal-form",
+        "loveland-co--mariana-butte.reserve-arc-30-days",
+        "loveland-ord-6819-sb24-005"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Deer Meadows Metropolitan District, The Masters at Mariana Butte Architectural and Design Guidelines (Design Criteria updated 6/27/2023; adopted November 4, 2019, revised March 6, 2023)",
+      "url": "https://deermeadows.specialdistrict.org/files/9ab8cd02c/DMMD+Architectural+and+Design+Guidelines+-Updated+6.27.2023.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Deer Meadows Metropolitan District, Architectural Control page ($50 review fee, 30-day response, 1-year completion)",
+      "url": "https://deermeadows.specialdistrict.org/architectural-control",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Deer Meadows Metropolitan District, ACC Submittal Form (Application for Modifications or Improvements)",
+      "url": "https://deermeadows.specialdistrict.org/files/6edaa5f63/Deer+Meadows+ACC+Submittal+Form.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Declaration of Covenants, Conditions, Easements and Restrictions for the Deer Meadows Metropolitan District property (made March 1, 2008), Secs. 2.2, 3.2, 5.3 and 5.8",
+      "url": "https://deermeadows.specialdistrict.org/files/d61271d73/Deer+Meadow+CC%26Rs.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Deer Meadows Metropolitan District Rules and Regulations (adopted August 2019), Appendix A",
+      "url": "https://deermeadows.specialdistrict.org/files/4b79f6d67/Rules+and+Regulations.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Service Plan for Deer Meadows Metropolitan District, City of Loveland (Resolution #R-74-2005)",
+      "url": "https://deermeadows.specialdistrict.org/files/e49e87a2d/Service+Plan-FINAL.PDF.PDF",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "The Reserve at Mariana Butte HOA Landscape Design Guidelines, updated 2/7/2024",
+      "url": "https://thereserveatmarianabutte.org/wp-content/uploads/2025/01/HOA-Landscape-Design-Guidelines-2-7-2024.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Declaration of Covenants, Conditions, and Restrictions for The Reserve at Mariana Butte (made January 17, 2002)",
+      "url": "https://thereserveatmarianabutte.org/wp-content/uploads/2025/01/TheReserve_MarianaButteHOA_Declaration-of-Covenants-Conditions-and-Restrictions-2002.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "The Reserve at Mariana Butte HOA, Board Policy # 2019-1, Xeriscaping (January 25, 2019)",
+      "url": "https://thereserveatmarianabutte.org/wp-content/uploads/2026/01/8PolicyforUseofXeriscaping_2019.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "The Reserve at Mariana Butte HOA, 2025 welcome letter and Owner Information (February 2024)",
+      "url": "https://thereserveatmarianabutte.org/wp-content/uploads/2025/04/HOAWelcomeLetter_Jan2025.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Golf Loveland (City of Loveland), Mariana Butte Golf Course page, read from the Wayback Machine capture of May 9, 2026",
+      "url": "https://www.golfloveland.com/city-government/departments/parks-recreation/golf-courses/mariana-butte-golf-course",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Colorado Information Marketplace, Business Entities in Colorado (Secretary of State), names containing Mariana Butte",
+      "url": "https://data.colorado.gov/Business/Business-Entities-in-Colorado/4ykn-tg5h",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "City of Loveland, Landscape Changes project page (Ordinance 6819)",
+      "url": "https://www.letstalkloveland.org/landscape-changes",
+      "checked": "2026-09-24"
+    }
+  ],
+  "checked": "2026-09-26",
+  "needsFromBrian": [
+    "Camera-original photos taken in Mariana Butte (The Masters, The Reserve or another association around the course), tagged in src/data/photos.ts with community 'loveland-co--mariana-butte' or a place naming Mariana Butte: a finished turf yard or backyard putting green, ideally on a course-side lot. The page cannot publish without one.",
+    "Any Mariana Butte jobs NoCo has done: which association, month, rough size, turf or putting green, and whether it sat in a front yard, a back yard or on a course-side lot.",
+    "What the Deer Meadows ACC or The Reserve's ARC asked for on those jobs (turf samples, spec sheets, drawings, drainage notes), and how long approval took against the 30-, 45- and 60-day clocks in the documents.",
+    "Whether NoCo has worked a Masters lot on the Outlot D / George Rist Ditch easement, or a Reserve lot where turf met a lot line, and what the committee decided.",
+    "Design guidelines from the other associations around the course (Mariana Butte HOA, The Villages, Filing No. 11, Filing No. 12, The Ridge, Mountain Gate) if a customer has shared them.",
+    "Confirmation that NoCo installs backyard putting greens today (services.ts putting-greens is unconfirmed)."
+  ]
+}

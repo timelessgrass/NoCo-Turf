@@ -1,0 +1,193 @@
+{
+  "status": "draft",
+  "town": "timnath-co",
+  "slug": "harmony-club",
+  "name": "Harmony Club",
+  "kind": "golf",
+  "governing": {
+    "name": "Harmony Owners Association, Inc.",
+    "type": "hoa",
+    "layerRefs": [
+      "timnath-co--harmony-club.design-review-three-steps",
+      "timnath-co--harmony-club.tall-grass-lawn-25-percent",
+      "timnath-co--harmony-club.landscape-complements-open-space",
+      "timnath-co--harmony-club.xeriscape-minimize-bluegrass"
+    ]
+  },
+  "golf": {
+    "name": "Harmony Club Golf Course",
+    "layerRef": "timnath-co--harmony-club.homes-line-holes"
+  },
+  "title": "Turf and Putting Greens in Harmony Club, Timnath, CO | NoCo Turf Co.",
+  "description": "Harmony Club yards go to the Harmony Development Team for review, and the Tall Grass Court plan caps lawn at 25% of each lot. What that means for turf.",
+  "h1": "Harmony's Tall Grass Court landscape plan caps lawn at 25% of each estate lot.",
+  "display": { "paint": "caps lawn at 25% of each estate lot" },
+  "lede": "That line sits in the plan the Town has on file for the 28 estate lots along Tall Grass Court, and it hands the rest of a private yard to the \"Harmony Design Guidelines.\" Those guidelines aren't posted anywhere public. The club says the Harmony Development Team runs design review, from an orientation meeting to final approval, so a green, a turf play lawn or a full backyard redesign starts there.",
+  "answer": {
+    "question": "Can I put artificial turf or a putting green in my Harmony Club yard?",
+    "answer": "For a detached home, most likely. NoCo Turf Co. installs artificial turf, putting greens and design-led backyards in Harmony Club in Timnath, Colorado, where the Harmony Development Team reviews plans under a design guide it doesn't post. On Tall Grass Court, the Town-filed plan also caps lawn at 25% of each lot; ask the team how synthetic turf counts."
+  },
+  "blocks": [
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Design review",
+      "h2": "Harmony's yards go to the Harmony Development Team, under a guide that isn't posted.",
+      "takeaway": "The club names the reviewer and the three steps but not the rules, so a turf plan here starts with a meeting rather than a download.",
+      "paras": [
+        "The club's own page says design review is conducted by the Harmony Development Team, in accord with Harmony's design guide, in three steps: an orientation meeting, plan submittal, then final approval. The guide itself isn't posted on the club's site, no copy turned up in the Town's CivicWeb records, and nothing Harmony has published about design review mentions artificial turf or putting greens.",
+        "What the page does say leans one way. Individual landscaping complements nearby open space and the sites next door, and each lot is studied for its view corridors. A green that reads well from the fairway and the neighbor's patio, set into beds and stone rather than dropped onto grass, fits that brief. Take the turf product, its pile height and a drawn layout to the orientation meeting so the team rules on specifics, not on a sketch.",
+        "The Tall Grass Court narrative also binds its homes to the covenants, conditions, restrictions and architectural controls written for the whole Harmony Club development. Those recorded covenants aren't online either, so get a copy from the association's manager before the plan is drawn."
+      ],
+      "layerRefs": [
+        "timnath-co--harmony-club.design-review-three-steps",
+        "timnath-co--harmony-club.landscape-complements-open-space",
+        "timnath-co--harmony-club.site-planning-view-corridors",
+        "timnath-co--harmony-club.ccrs-architectural-controls"
+      ],
+      "sources": [
+        "https://harmonyclub.info/live/",
+        "https://timnath.civicweb.net/document/16419/"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Tall Grass Court",
+      "h2": "On Tall Grass Court, lawn may cover no more than a quarter of each lot.",
+      "paras": [
+        "Harmony's Second Filing was approved in 2007 with 131 lots. With 104 of them built, the developer replatted the rest of that ground in 2021 into 28 estate lots of about 13,900 to 23,160 square feet along Tall Grass Court, and the county recorded the replat that year. The preliminary landscape plan filed with the Town puts the yard rule in one line: typical unit landscape shall have moderate water use turf installed with a maximum of 25% coverage on individual lots, and private-lot landscaping follows the existing \"Harmony Design Guidelines.\"",
+        "The same sheet asks for grass choices that minimize bluegrass, mulched beds, planting zoned by water need and improved soil. It says nothing about synthetic turf. It depends whether the Harmony Development Team counts an artificial lawn or a putting green inside that 25%, with the planting, or apart from both, so ask the team before the layout is fixed.",
+        "Either way, most of a Tall Grass Court lot was always going to be something other than lawn: beds, stone, a patio, a fire feature, a green. On a lot near the 13,900-square-foot end, drawing where the green sits and what it replaces comes before choosing the turf."
+      ],
+      "layerRefs": [
+        "timnath-co--harmony-club.second-filing-2007",
+        "timnath-co--harmony-club.estate-lots-28",
+        "timnath-co--harmony-club.tall-grass-replat-recorded",
+        "timnath-co--harmony-club.tall-grass-lawn-25-percent",
+        "timnath-co--harmony-club.xeriscape-minimize-bluegrass"
+      ],
+      "sources": [
+        "https://timnath.civicweb.net/document/16418/",
+        "https://timnath.civicweb.net/document/16419/",
+        "https://maps1.larimer.org/arcgis/rest/services/MapServices/Parcels/MapServer/1"
+      ]
+    },
+    {
+      "kind": "golf",
+      "own": true,
+      "kicker": "Course edges",
+      "h2": "Harmony back yards meet fairways, berms and native grass the golf course seeds.",
+      "paras": [
+        "JR Engineering, which has worked on six Harmony Club filings since 2013, says the neighborhoods it designed line the 1st through 5th and 11th holes of the Harmony Club Golf Course, and lists fairway berm design and master drainage studies among their key features. On Tall Grass Court the landscape plan keeps open views toward the course, and the plan set's fence detail is a 4-foot two-rail wood fence matched to Harmony's existing 2-rail fences.",
+        "Past the lot line, much of the ground is native. The Tall Grass Court replat sets aside 19.36 of its 32.82 acres as common open space and landscape buffer, and seeds its non-irrigated areas with the Harmony Golf Course native dryland grass mix. Tract J, its open space tract, belongs to Harmony, LLC.",
+        "So a backyard green on a course-side lot tends to sit in open view, against tall, unwatered grass, on ground graded to carry drainage. Build the base so water still leaves the lot where it did, and draw the border between synthetic turf and native grass as carefully as the cup positions."
+      ],
+      "layerRefs": [
+        "timnath-co--harmony-club.homes-line-holes",
+        "timnath-co--harmony-club.fairway-berms-drainage",
+        "timnath-co--harmony-club.open-views-toward-course",
+        "timnath-co--harmony-club.two-rail-fence",
+        "timnath-co--harmony-club.open-space-buffer-acres",
+        "timnath-co--harmony-club.open-space-dryland-seed",
+        "timnath-co--harmony-club.tract-j-harmony-llc"
+      ],
+      "sources": [
+        "https://www.jrengineering.com/harmonyclubestates",
+        "https://timnath.civicweb.net/document/16418/",
+        "https://timnath.civicweb.net/document/16419/"
+      ]
+    },
+    {
+      "kind": "utility",
+      "own": true,
+      "kicker": "Water",
+      "h2": "Tall Grass Court's open space waters from a non-potable main, and its plan set answers to Fort Collins-Loveland Water District.",
+      "paras": [
+        "The landscape plan irrigates common open space with non-potable water from an existing mainline and irrigation system, and waters the dryland areas by hand only while the seed takes. The plan set's cover sends any change to its drawings to the Fort Collins-Loveland Water District and the South Fort Collins Sanitation District for written approval.",
+        "Nothing public says whether private Harmony lots draw from that non-potable system, so ask the association where your irrigation comes from before a zone is capped or moved for turf. Fort Collins-Loveland adopted a voluntary Water Shortage Watch for the 2026 season. A synthetic lawn or green needs no spray zone at all, which leaves a lot's water for the trees and beds the rest of the plan depends on."
+      ],
+      "layerRefs": [
+        "timnath-co--harmony-club.open-space-non-potable",
+        "timnath-co--harmony-club.plan-set-water-sewer-districts",
+        "fclwd-watch-2026"
+      ],
+      "sources": [
+        "https://timnath.civicweb.net/document/16418/",
+        "https://fclwd.com/watering-restrictions/"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": false,
+      "kicker": "The Town",
+      "h2": "Timnath now keeps artificial turf out of landscape plans, and a house permit on a detached lot needs no plan.",
+      "paras": [
+        "Timnath amended its land use code in December 2025: no artificial turf may be included in any landscape plan or installed, and the Community Development Director may allow it only on an athletic field of play. The same amendment says an individual detached single-family lot needs no landscape plan for a building permit, and only encourages its landscaping to follow the section.",
+        "Tall Grass Court's plan went to the Town in 2021, well before that line. How the Town applies it to a backyard green on a Harmony lot is Timnath Planning's call, and the Harmony Development Team's approval doesn't answer it, so ask both. Not legal advice."
+      ],
+      "layerRefs": [
+        "timnath-luc-5.7.7.1-artificial-turf",
+        "timnath-co.luc-ord-28-2025-single-family-lots"
+      ],
+      "sources": [
+        "https://library.municode.com/co/timnath/ordinances/municipal_code?nodeId=1412646"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does Harmony's design guide allow artificial turf?",
+      "a": "The public record doesn't say. The guide isn't posted, and nothing Harmony has published about design review mentions artificial turf or putting greens. The club says the Harmony Development Team reviews plans under that guide, beginning with an orientation meeting, so raise turf there with the product and the layout in hand.",
+      "layerRefs": ["timnath-co--harmony-club.design-review-three-steps"]
+    },
+    {
+      "q": "Has anyone in Harmony put in artificial turf already?",
+      "a": "At least one listing says so. An estate home the club advertised on its own site in 2024 was described with a dog run with artificial turf. A listing isn't an approval record, and it doesn't say where the run sits, so it isn't a precedent a new plan can lean on.",
+      "layerRefs": ["timnath-co--harmony-club.listing-dog-run-turf"]
+    },
+    {
+      "q": "Can a putting green go behind a Harmony paired home or townhome?",
+      "a": "It depends on who holds the yard. The club lists the Morning Song paired homes as single-family attached, lock-and-leave homes with private outdoor spaces, and the Ardglass homes as townhomes. The Colorado rule printed on this page is written for detached homes, so ask the association that maintains the home what it allows on a private patio.",
+      "layerRefs": ["timnath-co--harmony-club.attached-paired-homes", "co-hoa-backyard-detached", "co-special-district-backyard"]
+    },
+    {
+      "q": "Does owning a Harmony lot come with the club's practice greens?",
+      "a": "Not on its own, according to a custom builder working there: membership is by invitation only and separate from property ownership. For an owner who isn't a member, a green at home is the short-game surface within reach.",
+      "layerRefs": ["timnath-co--harmony-club.membership-separate"]
+    },
+    {
+      "q": "Who owns the open space behind the Tall Grass Court lots?",
+      "a": "The development narrative says Tract J, the replat's open space tract, is owned and maintained by Harmony, LLC, and the landscape plan seeds its dryland areas with the golf course's native mix, without irrigation. Ask before a turf edge, a fence or a drain line reaches toward it.",
+      "layerRefs": ["timnath-co--harmony-club.tract-j-harmony-llc", "timnath-co--harmony-club.open-space-dryland-seed"]
+    },
+    {
+      "q": "Which association governs a Harmony yard?",
+      "a": "Harmony Owners Association, Inc. is the association registered with the state under Harmony's name, professionally managed and reporting 180 units, and the club says design review runs through the Harmony Development Team. Send turf and putting-green plans to the team, and ask the association's manager for the recorded covenants.",
+      "layerRefs": ["timnath-co--harmony-club.hoa-registration", "timnath-co--harmony-club.design-review-three-steps"]
+    }
+  ],
+  "sources": [
+    { "label": "Harmony Club, LIVE page: Architecture & Design (design review, landscape, site planning) and Available Homes", "url": "https://harmonyclub.info/live/", "checked": "2026-09-26" },
+    { "label": "Harmony Club, LIVE page, Available Homes listings (Wayback snapshot 2024-09-13)", "url": "https://web.archive.org/web/20240913022650/https://harmonyclub.info/live/", "checked": "2026-09-26" },
+    { "label": "Harmony Subdivision – Preliminary Plat Amendment No. 5 plan set (JR Engineering for Highgate LLC, sheets dated 3/24/21): Sheet 1 cover, Sheet 21 Preliminary Landscape Plan cover sheet, Sheet 25 Landscape Details", "url": "https://timnath.civicweb.net/document/16418/", "checked": "2026-09-26" },
+    { "label": "Harmony Subdivision Preliminary Plat – Amended No. 5, Planning Objectives & Development Narrative (Highgate LLC, 2021)", "url": "https://timnath.civicweb.net/document/16419/", "checked": "2026-09-26" },
+    { "label": "Larimer County parcel GIS, Subdivisions layer: Harmony 2nd Amd 1 (Tall Grass Court), reception 20210083896", "url": "https://maps1.larimer.org/arcgis/rest/services/MapServices/Parcels/MapServer/1", "checked": "2026-09-26" },
+    { "label": "JR Engineering, Harmony Club Estates project page", "url": "https://www.jrengineering.com/harmonyclubestates", "checked": "2026-09-26" },
+    { "label": "The HOA Book, Harmony Owners Association, Inc. (Colorado Division of Real Estate registration roster: 180 units)", "url": "https://thehoabook.com/hoas/harmony-owners-association-inc/", "checked": "2026-09-26" },
+    { "label": "Lifestyle Custom Homes, Harmony Club page (FAQ on club membership)", "url": "https://www.lifestylecustomhomes.com/harmony-club", "checked": "2026-09-26" },
+    { "label": "Fort Collins-Loveland Water District, Watering Restrictions (2026 Water Shortage Watch)", "url": "https://fclwd.com/watering-restrictions/", "checked": "2026-09-26" },
+    { "label": "Town of Timnath Ordinance No. 28, Series 2025 (adopted Dec. 9, 2025), Exhibit A: Land Use Code Sec. 5.7.7.1(A)(4) and (C)(4)", "url": "https://library.municode.com/co/timnath/ordinances/municipal_code?nodeId=1412646", "checked": "2026-09-26" },
+    { "label": "C.R.S. 38-33.3-106.5(1)(i.5) and 37-60-126(11)(a.5), added by SB23-178 (signed act)", "url": "https://leg.colorado.gov/bill_files/92307/download", "checked": "2026-09-26" }
+  ],
+  "checked": "2026-09-26",
+  "needsFromBrian": [
+    "Any Harmony Club job you have done: street (no house number needed), month, what went in (turf, putting green, dog area, full backyard), rough size, and whether it was a detached estate home or a paired home or townhome",
+    "Camera-original photos of a Harmony Club job for src/data/photos.ts, tagged community: 'timnath-co--harmony-club' or with Harmony in its place; nothing in photos.ts is from Timnath yet, so the page cannot pass its gate without them",
+    "Harmony's design guide (the 'Harmony Design Guidelines' the Tall Grass Court plan cites) and the Harmony Subdivision Landscape Specifications from Phase 1, if you or a client hold a copy: what they say on artificial turf, putting greens, lawn coverage and fences",
+    "Anything the Harmony Development Team has told you on whether synthetic turf or a putting green counts toward Tall Grass Court's 25% moderate-water-use turf cap, and how long its three-step review took",
+    "Whether private Harmony lots irrigate from the non-potable system or from Fort Collins-Loveland Water District taps",
+    "Whether the attached-home associations in Harmony (Morning Song paired homes, the Villas, Greenside Club Homes) let owners put turf or a green on a private patio",
+    "Whether Harmony Club or its members can be named if you build near the course"
+  ]
+}

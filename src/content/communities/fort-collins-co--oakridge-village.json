@@ -1,0 +1,226 @@
+{
+  "status": "draft",
+  "town": "fort-collins-co",
+  "slug": "oakridge-village",
+  "name": "Oakridge Village",
+  "kind": "golf",
+  "governing": {
+    "name": "Oakridge Village 2 HOA",
+    "type": "hoa",
+    "url": "https://img1.wsimg.com/blobby/go/dc06bd71-eac3-4b0f-81df-e42efbfcd762/downloads/f1ab5b9c-f88f-4b7b-8052-d1e17109c87b/Oakridge%20Village%202%20HOA%20Landscape%20Policy%20revise.pdf?ver=1788372083923",
+    "layerRefs": [
+      "fort-collins-co--oakridge-village.landscape-turf",
+      "fort-collins-co--oakridge-village.landscape-submittal",
+      "fort-collins-co--oakridge-village.arc-form-review",
+      "fort-collins-co--oakridge-village.declaration-review"
+    ]
+  },
+  "golf": {
+    "name": "Southridge Golf Course",
+    "layerRef": "fort-collins-co.southridge-golf"
+  },
+  "title": "Oakridge Village Turf and Putting Greens, Fort Collins | NoCo Turf Co.",
+  "description": "Oakridge Village 2 HOA's 2024 rule: no front-yard turf, a 50% cap, 2 feet off lot lines, a sample and a drainage plan. Plus golf-edge fences and review.",
+  "h1": "In Oakridge Village 2, synthetic turf stays out of front yards and 2 feet off every property line",
+  "display": {
+    "paint": "2 feet off every property line"
+  },
+  "lede": "The Oakridge Village 2 HOA sets the yard rules for 94 homes in southeast Fort Collins, between Keenland Drive and Southridge Golf Course. Its Landscape Policy, effective September 2024, gives synthetic turf one numbered paragraph, and any backyard turf or green here is drawn to scale around it for the committee. Oakridge Village has at least 6 other HOA filings with their own documents; this page covers Oakridge Village 2 only.",
+  "answer": {
+    "question": "Can I put artificial turf or a putting green in an Oakridge Village 2 backyard?",
+    "answer": "Yes, with written approval from the HOA's Architectural Control Committee. NoCo Turf Co. installs artificial turf and putting greens in Oakridge Village, Fort Collins. The Oakridge Village 2 HOA's Landscape Policy keeps synthetic turf out of front yards, caps it at 50% of the area, holds it 2 feet off property lines and asks for a material sample and a drainage plan."
+  },
+  "blocks": [
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Landscape Policy, item 1",
+      "h2": "One numbered paragraph sets the turf rules: no front yards, half the area at most, 2 feet in from every line.",
+      "takeaway": "Keep the turf out of the front yard and inside a 2-foot margin, and put a material sample and a drainage plan in the request.",
+      "paras": [
+        "Item 1 of the Global References in the Oakridge Village II Landscape Policy, effective September 7, 2024, opens by saying synthetic turf \"will be for limited use only.\" It has to be integrated into the overall landscaping plan, cover no more than 50% of the area, sit at least two feet off all property lines and be an American Society of Testing Materials (ASTM) certified material. The same paragraph says it will not be approved for front yard use, and a landscape plan that includes it needs a sample of the material and a drainage plan.",
+        "Approval rests, among other things, on how the turf looks from neighboring properties, on the screening and vegetation placed around it and on the landscape plan as a whole. Two things the paragraph leaves open matter for a green. It never mentions putting greens; a synthetic green is made of synthetic turf, so plan it to the same limits. And it doesn't say what the 50% is measured against: the back yard, the landscaped area or the whole lot. It depends on the committee's reading, so ask the Architectural Control Committee before a green's size is fixed."
+      ],
+      "layerRefs": [
+        "fort-collins-co--oakridge-village.landscape-turf"
+      ],
+      "sources": [
+        "https://img1.wsimg.com/blobby/go/dc06bd71-eac3-4b0f-81df-e42efbfcd762/downloads/f1ab5b9c-f88f-4b7b-8052-d1e17109c87b/Oakridge%20Village%202%20HOA%20Landscape%20Policy%20revise.pdf?ver=1788372083923"
+      ]
+    },
+    {
+      "kind": "golf",
+      "own": true,
+      "kicker": "Greenbelt and course lots",
+      "h2": "61 of the 94 lots border a greenbelt, Southridge Golf Course or other open land, and fences on those lines stay at 4 feet.",
+      "takeaway": "On those lots a green stays in view over the fence, so its screening comes from planting.",
+      "paras": [
+        "The HOA's Fence Policy, approved July 15, 2019, counts its lots by what they border: 43 touch HOA greenbelts, 18 touch Southridge Golf Course or other open areas, 11 have back yards on streets inside the HOA and 22 meet only other private lots. Along a greenbelt, the course or open land, a fence stays at 4 feet or lower, and the side fences keep that height for at least 10 feet from the corner before the 6-foot limit applies. The committee will consider a taller fence only after every homeowner with a line-of-sight view of it has approved, since the policy is written to keep views of the common areas open. Gates onto the greenbelts and the course are allowed.",
+        "That changes how a backyard green is laid out on those lots. The turf paragraph weighs how turf looks from neighboring properties and how it is screened, and a 4-foot fence leaves a green visible from the common area or the course. The screen has to come from shrubs, ornamental grasses and trees in bordered beds, and the 2-foot strip the turf rule keeps clear along each line can be planted as part of it. Southridge is the HOA's south boundary."
+      ],
+      "layerRefs": [
+        "fort-collins-co--oakridge-village.fence-lot-edges",
+        "fort-collins-co--oakridge-village.landscape-turf",
+        "fort-collins-co--oakridge-village.landscape-palette",
+        "fort-collins-co--oakridge-village.hoa-basics"
+      ],
+      "sources": [
+        "https://img1.wsimg.com/blobby/go/dc06bd71-eac3-4b0f-81df-e42efbfcd762/downloads/Oakridge%20Village%202%20HOA%20Fence%20Policy.pdf?ver=1788372083923",
+        "https://img1.wsimg.com/blobby/go/dc06bd71-eac3-4b0f-81df-e42efbfcd762/downloads/f1ab5b9c-f88f-4b7b-8052-d1e17109c87b/Oakridge%20Village%202%20HOA%20Landscape%20Policy%20revise.pdf?ver=1788372083923",
+        "https://oakridgehoa2.org/"
+      ]
+    },
+    {
+      "kind": "housing",
+      "own": true,
+      "kicker": "Lot sizes and materials",
+      "h2": "Lots here run about 6,500 to 14,800 square feet, and the policy's other limits share the backyard with the turf.",
+      "paras": [
+        "Larimer County's platted-lot map puts the 67 Second Filing lots, which a 1987 amendment brought under these covenants, at about 6,500 to 14,800 square feet, with the middle lot near 8,000 and 7 at 10,000 or more. The 27 First Filing lots the covenants have covered since 1986 run about 6,600 to 10,800. Those are whole-lot figures, house and driveway included, so a green fits into a fraction of them, and the 2-foot strip inside every property line comes out of that fraction.",
+        "The rest of the plan has its own numbers. Boulders and cobbles can't pass 25% of any yard area, front or back. A front-yard flagstone or hardscape courtyard is limited to 10 by 10 feet, or 100 square feet. Planted areas are bordered into defined beds, and every material has to be an earth tone of brown, gray or the like. A backyard that pairs a green with a flagstone patio, planting beds and a few boulders goes to the committee on one to-scale drawing, where each of those limits can be checked."
+      ],
+      "layerRefs": [
+        "fort-collins-co--oakridge-village.second-filing-lot-sizes",
+        "fort-collins-co--oakridge-village.covenant-lots",
+        "fort-collins-co--oakridge-village.declaration-review",
+        "fort-collins-co--oakridge-village.landscape-palette",
+        "fort-collins-co--oakridge-village.landscape-submittal"
+      ],
+      "sources": [
+        "https://maps1.larimer.org/arcgis/rest/services/MapServices/Parcels/MapServer/4",
+        "https://img1.wsimg.com/blobby/go/dc06bd71-eac3-4b0f-81df-e42efbfcd762/downloads/1c903mkk3_843846.pdf?ver=1788372082201",
+        "https://img1.wsimg.com/blobby/go/dc06bd71-eac3-4b0f-81df-e42efbfcd762/downloads/f1ab5b9c-f88f-4b7b-8052-d1e17109c87b/Oakridge%20Village%202%20HOA%20Landscape%20Policy%20revise.pdf?ver=1788372083923"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "The committee request",
+      "h2": "The committee has up to 30 days from a complete request, and missing pieces stop the clock.",
+      "takeaway": "Send the drawing, the materials list, the turf sample and the drainage plan together.",
+      "paras": [
+        "Every landscape change or installation goes to the Architectural Control Committee; the one exception is replacing a dead or dying element with the same type. The policy asks for a pictorial drawing to scale, measured to all property lines, showing every element with a materials list and its location. Anything in the plan that needs city approval, such as a building permit, gets it before the request goes in, and committee approval doesn't mean the city's requirements are met.",
+        "The request form, revised in June 2020, takes one project per form, and your signature on it confirms you have talked with the adjacent neighbors. Item 7 of its owner agreement asks that changes be planned to minimize the impact on neighbors' views and to prevent changes to the existing water runoff, which is the question a turf request's drainage plan answers. Allow up to 30 days after all documentation arrives; the count stops while the committee waits for anything missing. The recorded 1986 Declaration adds that if the committee neither approves nor disapproves within 30 days of submission, approval is not required. That is the covenant's backstop, not a schedule to plan around, and this is not legal advice. The HOA's January newsletter reported that in 2025, 30% of residents made changes that needed a review request or approval."
+      ],
+      "layerRefs": [
+        "fort-collins-co--oakridge-village.landscape-submittal",
+        "fort-collins-co--oakridge-village.arc-form-review",
+        "fort-collins-co--oakridge-village.declaration-review",
+        "fort-collins-co--oakridge-village.arc-requests-2025"
+      ],
+      "sources": [
+        "https://img1.wsimg.com/blobby/go/dc06bd71-eac3-4b0f-81df-e42efbfcd762/downloads/f1ab5b9c-f88f-4b7b-8052-d1e17109c87b/Oakridge%20Village%202%20HOA%20Landscape%20Policy%20revise.pdf?ver=1788372083923",
+        "https://img1.wsimg.com/blobby/go/dc06bd71-eac3-4b0f-81df-e42efbfcd762/downloads/Oakridge%20Village%202%20Architectural%20Review%20Reques.pdf?ver=1788372083896",
+        "https://img1.wsimg.com/blobby/go/dc06bd71-eac3-4b0f-81df-e42efbfcd762/downloads/1c903mkk4_69682.pdf?ver=1788372082201",
+        "https://img1.wsimg.com/blobby/go/dc06bd71-eac3-4b0f-81df-e42efbfcd762/downloads/6e4ce4fb-2b2b-451e-b59d-177f28752173/January%202026%20Oakridge%20Village%202%20HOA%20Newsletter.pdf?ver=1788372082559"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "How long does an Oakridge Village 2 approval last?",
+      "a": "The request form gives two answers. Its closing note says an approval is valid for 90 days and the project must begin within them; item 5 of the owner agreement on the same form lets an approval lapse if work hasn't begun within one year. It depends on what your approval says, so ask the Architectural Control Committee, and book the install inside the shorter window.",
+      "layerRefs": [
+        "fort-collins-co--oakridge-village.arc-approval-window"
+      ]
+    },
+    {
+      "q": "Can synthetic turf go in a side yard in Oakridge Village 2?",
+      "a": "It depends. The turf paragraph rules out only front yards, but the policy handles side yards together with front yards, defining a conventional landscape there by at least 50% turf grass and a xeriscape by at least 50% plant coverage. Whether synthetic turf can count in a side yard isn't written down, so ask the Architectural Control Committee before drawing it beside the house.",
+      "layerRefs": [
+        "fort-collins-co--oakridge-village.landscape-turf",
+        "fort-collins-co--oakridge-village.front-side-yards"
+      ]
+    },
+    {
+      "q": "What happens if turf goes in before the committee approves it?",
+      "a": "The request form says unauthorized improvements are subject to removal at the homeowner's expense. Under the association's enforcement policy, effective December 13, 2023, a violation left uncorrected after notice draws fines of $50 at a time, capped at $500 per violation.",
+      "layerRefs": [
+        "fort-collins-co--oakridge-village.arc-form-review",
+        "fort-collins-co--oakridge-village.enforcement-fines"
+      ]
+    },
+    {
+      "q": "Does the Fort Collins artificial-turf rule reach an Oakridge Village 2 backyard?",
+      "a": "No. The HOA's 94 homes are detached houses on lots platted in the City of Fort Collins, and Land Use Code 5.10.1 leaves out development on existing lots for single- and two-unit detached dwellings. The limits a backyard here meets are the HOA's.",
+      "layerRefs": [
+        "fc-luc-5.10.1",
+        "fort-collins-co--oakridge-village.fence-lot-edges",
+        "fort-collins-co--oakridge-village.covenant-lots"
+      ]
+    },
+    {
+      "q": "I'm in another Oakridge Village filing. Do these rules apply to me?",
+      "a": "Not necessarily. The Oakridge Village 2 HOA says the wider neighborhood contains at least 6 other HOA filings, and nothing on this page was read from their documents. Ask your own HOA for its landscape policy and review form before planning turf or a green.",
+      "layerRefs": [
+        "fort-collins-co--oakridge-village.other-filings"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Oakridge Village II Landscape Policy (effective 09/07/2024), Oakridge Village 2 HOA",
+      "url": "https://img1.wsimg.com/blobby/go/dc06bd71-eac3-4b0f-81df-e42efbfcd762/downloads/f1ab5b9c-f88f-4b7b-8052-d1e17109c87b/Oakridge%20Village%202%20HOA%20Landscape%20Policy%20revise.pdf?ver=1788372083923",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Oakridge Village 2 HOA Architectural Review Committee (ARC) Request Form, Revision June 2020",
+      "url": "https://img1.wsimg.com/blobby/go/dc06bd71-eac3-4b0f-81df-e42efbfcd762/downloads/Oakridge%20Village%202%20Architectural%20Review%20Reques.pdf?ver=1788372083896",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Oakridge Village 2 HOA Fence Policy, Revision July 2019 (approved July 15, 2019)",
+      "url": "https://img1.wsimg.com/blobby/go/dc06bd71-eac3-4b0f-81df-e42efbfcd762/downloads/Oakridge%20Village%202%20HOA%20Fence%20Policy.pdf?ver=1788372083923",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Oak Ridge Village II Declaration of Covenants, Conditions and Restrictions, recorded August 7, 1986, Article VII",
+      "url": "https://img1.wsimg.com/blobby/go/dc06bd71-eac3-4b0f-81df-e42efbfcd762/downloads/1c903mkk4_69682.pdf?ver=1788372082201",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Second Amendment to Oakridge Village II Declaration, recorded March 9, 1987 (adds Second Filing lots 1 through 67)",
+      "url": "https://img1.wsimg.com/blobby/go/dc06bd71-eac3-4b0f-81df-e42efbfcd762/downloads/1c903mkk3_843846.pdf?ver=1788372082201",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Oakridge Village II Association Policy for Enforcement of Covenants and Rules, effective December 13, 2023",
+      "url": "https://img1.wsimg.com/blobby/go/dc06bd71-eac3-4b0f-81df-e42efbfcd762/downloads/4d21901b-e22c-4112-96e9-6717df62e64f/Policy%20for%20Enforcement%20of%20Covenants%20and%20Rules%20.pdf?ver=1788372082381",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Oakridge Village 2 HOA Newsletter, January 2026",
+      "url": "https://img1.wsimg.com/blobby/go/dc06bd71-eac3-4b0f-81df-e42efbfcd762/downloads/6e4ce4fb-2b2b-451e-b59d-177f28752173/January%202026%20Oakridge%20Village%202%20HOA%20Newsletter.pdf?ver=1788372082559",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Oakridge Village 2 HOA, home page (Basic Stats, Boundaries)",
+      "url": "https://oakridgehoa2.org/",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Larimer County parcel GIS, Platted Lots layer (Oakridge Village PUD 2nd, lot areas from the lot polygons)",
+      "url": "https://maps1.larimer.org/arcgis/rest/services/MapServices/Parcels/MapServer/4",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "City of Fort Collins Golf, Southridge Golf Course",
+      "url": "https://www.fortcollins.gov/Venues/Southridge-Golf-Course",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Fort Collins Land Use Code 5.10.1, Ordinance No. 008, 2025 (effective Feb. 14, 2025)",
+      "url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/fortcollco-meet-0538ebaac95447ff8c4f53ebc4c0adf8/ITEM-Attachment-004-785f079234b4438a8e8675d01d6f3bd4.pdf",
+      "checked": "2026-09-26"
+    }
+  ],
+  "checked": "2026-09-26",
+  "needsFromBrian": [
+    "Camera-original photos of a backyard turf area or putting green in Oakridge Village (the Oakridge Village 2 HOA or any other filing), added to src/data/photos.ts with community 'fort-collins-co--oakridge-village'. No photo is tagged with this community, so the page can't pass its gate.",
+    "Any Oakridge Village job: which filing, month, rough size, turf or green, and what the Architectural Control Committee asked for (sample, drainage plan, screening, how it measured the 50% cap, whether it allowed turf in a side yard).",
+    "A job on a lot backing onto Southridge Golf Course or an HOA greenbelt, with a photo from the course or greenbelt side if the owner agrees: how the 4-foot fence limit and the planting screen worked out.",
+    "Whether NoCo can hand an owner the ASTM paperwork and a material sample the Oakridge Village 2 policy asks for with each request (not a public claim until you confirm it).",
+    "Confirm NoCo builds putting greens today (services.ts has putting-greens confirmed: false).",
+    "Whether owners in the other Oakridge Village filings (the HOA says there are at least 6) have asked for turf, and which HOA reviewed it."
+  ]
+}

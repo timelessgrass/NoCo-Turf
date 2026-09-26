@@ -1,0 +1,294 @@
+{
+  "status": "draft",
+  "town": "greeley-co",
+  "slug": "ashton-estates",
+  "name": "Ashton Estates",
+  "kind": "estate-lots",
+  "governing": {
+    "name": "Ashton Estates Community Association",
+    "type": "hoa",
+    "url": "https://img1.wsimg.com/blobby/go/0922ddb4-cd04-4787-b7c8-9bd004731aff/downloads/archstand.pdf?ver=1786997683246",
+    "layerRefs": [
+      "greeley-co--ashton-estates.arc-landscaping-plan",
+      "greeley-co--ashton-estates.improvement-defined",
+      "greeley-co--ashton-estates.arc-changes-after-completion",
+      "greeley-co--ashton-estates.grade-level-outdoor-living",
+      "greeley-co--ashton-estates.turf-question-2023"
+    ]
+  },
+  "title": "Turf & Putting Greens in Ashton Estates, Greeley, CO | NoCo Turf Co.",
+  "description": "Ashton Estates in Greeley: 43 lots of about two acres, where the covenants never mention turf and every landscaping plan needs the committee's approval first.",
+  "h1": "Ashton Estates' covenants never mention turf, but every landscaping plan goes to its committee first.",
+  "display": {
+    "paint": "every landscaping plan"
+  },
+  "lede": "Ashton Estates is 43 lots of roughly two acres at 65th Avenue and Ashcroft Road, inside Greeley's city limits, bound by a declaration recorded in 1995 and a five-page set of architectural standards. Those papers regulate fences, horses, grading, lighting and landscaping. Artificial turf and putting greens appear nowhere in them, as read on September 26, 2026.",
+  "answer": {
+    "question": "Can I install artificial turf or a putting green in Ashton Estates?",
+    "answer": "NoCo Turf Co. installs artificial turf and putting greens in Ashton Estates, Greeley, Colorado. The covenants don't mention turf, but the Architectural Review Committee must approve a detailed landscaping plan, grading included, before work starts. Greeley bars turf from house front yards, so on these two-acre lots a green belongs out back."
+  },
+  "blocks": [
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "What the papers say",
+      "h2": "No Ashton Estates document names turf or putting greens, yet landscaping of any kind waits for the committee's written approval.",
+      "takeaway": "Treat the silence as unsettled, not as a yes: put the turf, the green and any regrading on one plan before anyone digs.",
+      "paras": [
+        "The architectural standards say it in one sentence. Section 17: \"All proposed landscaping to occur on any lot shall be submitted in a detailed landscaping plan for approval by the Architectural Review Committee prior to the landscaping being installed.\" A second clause covers finished homes: landscaping or other improvements after an approved home is complete go to the committee before the work begins.",
+        "The 1995 declaration gets there by definition. Article IX, Section 4 lists \"landscaping, planting, clearing or removing of trees, shrubs, grass or plants\" as an Improvement to Property, alongside \"grading, excavation, filling or similar disturbance to the surface of the land.\" Stripping sod, cutting a base and sculpting a green's breaks each land in one of those clauses.",
+        "Turf has surfaced once in the association's posted records. At the 2023 annual meeting the association's manager said the community would need three pre-approved xeriscaping plans under new state requirements; asked whether artificial turf would be allowed in them, the minutes say \"No answer was given.\" How the committee treats turf depends on the committee, so ask the ARC with a drawn plan in hand.",
+        "The declaration puts these lots under the Colorado Common Interest Ownership Act and limits each home to a single-family residence, which is why the state's backyard rule for associations, set out next on this page, reaches Ashton Estates."
+      ],
+      "layerRefs": [
+        "greeley-co--ashton-estates.arc-landscaping-plan",
+        "greeley-co--ashton-estates.arc-changes-after-completion",
+        "greeley-co--ashton-estates.improvement-defined",
+        "greeley-co--ashton-estates.turf-question-2023",
+        "greeley-co--ashton-estates.ccioa-submission",
+        "greeley-co--ashton-estates.single-family",
+        "co-hoa-backyard-detached"
+      ],
+      "sources": [
+        "https://img1.wsimg.com/blobby/go/0922ddb4-cd04-4787-b7c8-9bd004731aff/downloads/archstand.pdf?ver=1786997683246",
+        "https://img1.wsimg.com/blobby/go/0922ddb4-cd04-4787-b7c8-9bd004731aff/downloads/Ashton%20Estates%20covenants.pdf?ver=1786997682693",
+        "https://img1.wsimg.com/blobby/go/0922ddb4-cd04-4787-b7c8-9bd004731aff/downloads/Ashton%20Estates%202024%20Annual%20Meeting%20Packet%20(1).pdf?ver=1786997683019",
+        "https://leg.colorado.gov/bill_files/92307/download"
+      ]
+    },
+    {
+      "kind": "housing",
+      "own": true,
+      "kicker": "Two acres to design",
+      "h2": "At roughly two acres a lot, the question is where the green sits, and the standards already favor living at ground level.",
+      "paras": [
+        "The state's public parcel file puts all 43 Ashton Estates lots between 1.97 and 2.86 acres, most within a few hundredths of two. Buildings keep 35 feet from the front and rear lot lines and 30 feet from the sides, and the declaration allows up to two horses per lot, so a green may share the back of a lot with a barn, a paddock and a long lawn.",
+        "Section 16 of the standards says grade-level decks, patios and outside living areas are encouraged and large elevated decks or patios are discouraged, and it sends site grading to the committee. A green set into the lawn beside a ground-level patio, with room to chip in from well back, fits that wording; its mounds and breaks are grading, so draw them on the plan.",
+        "Two lines on the plan decide the siting. Landscaping may not alter any drainage, wetland or utility easement on the recorded plat, so locate those before placing the green. And an exterior light source should not be visible from neighboring homes, with the committee approving each fixture's location, which shapes any plan to light a green for evening putting."
+      ],
+      "layerRefs": [
+        "greeley-co--ashton-estates.lot-acreage",
+        "greeley-co--ashton-estates.lots-43",
+        "greeley-co--ashton-estates.location",
+        "greeley-co--ashton-estates.setbacks",
+        "greeley-co--ashton-estates.horses",
+        "greeley-co--ashton-estates.grade-level-outdoor-living",
+        "greeley-co--ashton-estates.easements-landscaping",
+        "greeley-co--ashton-estates.exterior-lighting"
+      ],
+      "sources": [
+        "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query",
+        "https://img1.wsimg.com/blobby/go/0922ddb4-cd04-4787-b7c8-9bd004731aff/downloads/archstand.pdf?ver=1786997683246",
+        "https://img1.wsimg.com/blobby/go/0922ddb4-cd04-4787-b7c8-9bd004731aff/downloads/Ashton%20Estates%20covenants.pdf?ver=1786997682693",
+        "https://ashtonestates.net/"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "From submittal to sign-off",
+      "h2": "The standards promise a written answer in 14 working days, and the declaration treats 30 days of silence as approval.",
+      "paras": [
+        "The application asks for plans showing location, elevations and dimensions, specifications such as a manufacturer's brochure, color and material samples, and photographs, and the owner signs that no work or commitment of work happens until the association approves in writing. For turf, that points to the product's spec sheet and a sample, with the green's outline and edging drawn to scale.",
+        "Section 4 of the standards commits the committee to a written response within 14 working days of a complete submittal. Under Article IX, Section 12 of the declaration, a request is deemed approved if no disapproval or request for more information arrives within 30 days of the committee receiving everything, and the association's application page says the same. A denial or condition can go to the Executive Board on written appeal within 20 days, and an approval lapses if work has not begun within 12 months.",
+        "The clock has slipped. At the September 2025 annual meeting an owner said a request submitted August 18, 2025 had not been addressed and her contractor would not start without approval; the minutes record that from then on the whole board would be notified of requests, with two members approving or disapproving each. The bylaws call for a three-person committee on staggered three-year terms, so keep a dated copy of everything you send."
+      ],
+      "layerRefs": [
+        "greeley-co--ashton-estates.arc-application-materials",
+        "greeley-co--ashton-estates.arc-14-working-days",
+        "greeley-co--ashton-estates.deemed-approved-30-days",
+        "greeley-co--ashton-estates.arc-page-steps",
+        "greeley-co--ashton-estates.appeal-20-days",
+        "greeley-co--ashton-estates.approval-valid-12-months",
+        "greeley-co--ashton-estates.arc-2025-delay",
+        "greeley-co--ashton-estates.arc-three-members"
+      ],
+      "sources": [
+        "https://img1.wsimg.com/blobby/go/0922ddb4-cd04-4787-b7c8-9bd004731aff/downloads/aab3c237-f983-4b7e-9216-5b53e96fa6d0/ARC%20Application%20Fillable.pdf?ver=1786997683463",
+        "https://img1.wsimg.com/blobby/go/0922ddb4-cd04-4787-b7c8-9bd004731aff/downloads/archstand.pdf?ver=1786997683246",
+        "https://img1.wsimg.com/blobby/go/0922ddb4-cd04-4787-b7c8-9bd004731aff/downloads/Ashton%20Estates%20covenants.pdf?ver=1786997682693",
+        "https://ashtonestates.net/arc-application",
+        "https://img1.wsimg.com/blobby/go/0922ddb4-cd04-4787-b7c8-9bd004731aff/downloads/2e5823c0-1eb6-4ac3-927c-bd6e40aed9f3/Ashton%20Annual%20Meeting%20Minutes%202025.pdf?ver=1786997683007",
+        "https://img1.wsimg.com/blobby/go/0922ddb4-cd04-4787-b7c8-9bd004731aff/downloads/Ashton%20Bylaws.pdf?ver=1786997683240"
+      ]
+    },
+    {
+      "kind": "utility",
+      "own": true,
+      "kicker": "Irrigation water",
+      "h2": "Ashton Estates' partly laid non-potable pipes can't carry high-pressure irrigation, so its yards water from the city.",
+      "paras": [
+        "At the 2023 annual meeting an owner reporting on the non-potable project gave the history: buyers were told the lots would have non-potable irrigation water, the developer sold the water rights to the City of Greeley, and thin-walled Schedule 50 PVC was partly laid across most lots. The city located and tested those pipes and found them not sufficient for high-pressure irrigation, and it would leave upkeep and repairs to the community; the meeting heard it suggested that building a system would cost more than owners would save from the 30 percent decrease in water bills.",
+        "The association still lists a Non-Potable Water Committee, and its neighborhood standards name City of Greeley water as the utility. Greeley builds each house's outdoor budget from the irrigable square footage of the yard; in the city's own example, a yard half the size of a neighbor's gets half the outdoor water. Lawn on a two-acre lot is irrigable area in that formula.",
+        "A turf area or a synthetic green takes ground out of irrigation for good. Greeley asks customers to report a changed irrigated area, and its page does not say how turf is counted, so ask Greeley Water what an install will do to the budget; the rate tiers are on the [Greeley town page](/areas/greeley-co/)."
+      ],
+      "layerRefs": [
+        "greeley-co--ashton-estates.non-potable-2023",
+        "greeley-co--ashton-estates.non-potable-committee",
+        "greeley-co--ashton-estates.city-water",
+        "greeley-co--ashton-estates.greeley-outdoor-budget"
+      ],
+      "sources": [
+        "https://img1.wsimg.com/blobby/go/0922ddb4-cd04-4787-b7c8-9bd004731aff/downloads/Ashton%20Estates%202024%20Annual%20Meeting%20Packet%20(1).pdf?ver=1786997683019",
+        "https://ashtonestates.net/",
+        "https://ashtonestates.net/neighborhood-standards",
+        "https://greeleyco.gov/government/city-administration/city-departments/water-and-sewer/save-water/budget-your-water"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Open rail, open view",
+      "h2": "Ashton Estates' required open rail fencing screens nothing, which matters for Greeley's street-view turf test and for dog runs.",
+      "paras": [
+        "Section 14 prefers white PVC two- or three-rail open fencing throughout the subdivision, and on the outward side of any perimeter lot it allows only three-rail white vinyl ranch fence 50 inches high. Wire and chain link are banned, apart from an animal run the committee approves that is also screened.",
+        "Turf behind an open rail stays in view. Greeley city staff describe artificial turf as prohibited in the front yards of houses, and the development code limits turf to areas hidden from public streets and rights-of-way. It depends how the city applies that test to an existing house: before fixing the layout of a green on an outside lot that a public road can see through the rail, ask Greeley Planning.",
+        "Pet turf follows the same path. Dog runs are on the standards' list of improvements that need approval before construction, and a screening fence for a dog run must use materials similar to the siding on the house. Submit the run, its turf surface and its screen together."
+      ],
+      "layerRefs": [
+        "greeley-co--ashton-estates.fencing-perimeter",
+        "greeley-co--ashton-estates.dog-run-screening",
+        "greeley-co--ashton-estates.ancillary-improvements",
+        "greeley-front-yard-ban-city-summary",
+        "greeley-code-24-802-not-visible"
+      ],
+      "sources": [
+        "https://img1.wsimg.com/blobby/go/0922ddb4-cd04-4787-b7c8-9bd004731aff/downloads/archstand.pdf?ver=1786997683246",
+        "https://greeleyco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=9205,plainText=false)",
+        "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH8LAST_S24-802LADE"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does the Ashton Estates committee charge a fee to review a turf or putting-green plan?",
+      "a": "None is published. Article IX, Section 9 of the declaration lets the committee set a review fee in its guidelines, even one based on a project's estimated cost, but neither the posted architectural standards nor the application form names an amount. Ask the management company when you submit.",
+      "layerRefs": [
+        "greeley-co--ashton-estates.review-fee-allowed"
+      ]
+    },
+    {
+      "q": "Can an Ashton Estates front yard have artificial turf?",
+      "a": "Not under Greeley's current rule. City staff describe turf as prohibited in house front yards, and a Council initiative to allow it by permit had no adopted ordinance as of September 24, 2026. In 2023 the association was told state law would require three pre-approved xeriscaping plans, which the statute ties to front yards; none is posted on its public website as of September 26, 2026.",
+      "layerRefs": [
+        "greeley-front-yard-ban-city-summary",
+        "greeley-initiative-11-2023-pending",
+        "co-hoa-front-yard-designs",
+        "greeley-co--ashton-estates.turf-question-2023",
+        "greeley-co--ashton-estates.no-posted-designs"
+      ]
+    },
+    {
+      "q": "Do I need City of Greeley permits as well as the committee's approval?",
+      "a": "Sometimes. The declaration makes the owner obtain every permit a governmental authority requires, naming City of Greeley building approvals, before work starts. Greeley needs a building permit for a retaining wall over four feet or a fence or wall over six feet, which a green sunk into a slope or wrapped in a tall screen could need.",
+      "layerRefs": [
+        "greeley-co--ashton-estates.governmental-approvals",
+        "greeley-co.code-24-502-permits"
+      ]
+    },
+    {
+      "q": "What happens after a turf job in Ashton Estates is finished?",
+      "a": "The application commits you to tell the committee in writing so it can inspect the work against the approval. Under Article IX, Section 18, if the committee gives no notice of noncompliance within 30 days after it receives your written Notice of Completion, the work is deemed to comply.",
+      "layerRefs": [
+        "greeley-co--ashton-estates.arc-app-completion",
+        "greeley-co--ashton-estates.completion-deemed-compliant"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Ashton Estates, Architectural Standards and Review Procedures for Residential Construction (Secs. 2, 4, 6, 7, 12, 14 as amended October 21, 2004, 16, 17, 19)",
+      "url": "https://img1.wsimg.com/blobby/go/0922ddb4-cd04-4787-b7c8-9bd004731aff/downloads/archstand.pdf?ver=1786997683246",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Declaration of Covenants, Conditions and Restrictions for Ashton Estates and the Ashton Estates Community Association, recorded in Weld County February 21, 1995, reception 2427196 (Preamble; Art. VI, Secs. 3 and 12; Art. IX, Secs. 4, 9, 11, 12, 13 and 18)",
+      "url": "https://img1.wsimg.com/blobby/go/0922ddb4-cd04-4787-b7c8-9bd004731aff/downloads/Ashton%20Estates%20covenants.pdf?ver=1786997682693",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Ashton Estates Application for Approval of Architectural Improvements (fillable PDF)",
+      "url": "https://img1.wsimg.com/blobby/go/0922ddb4-cd04-4787-b7c8-9bd004731aff/downloads/aab3c237-f983-4b7e-9216-5b53e96fa6d0/ARC%20Application%20Fillable.pdf?ver=1786997683463",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Ashton Estates Homeowners Association, ARC Application page (14 working days; automatically approved after 30 days)",
+      "url": "https://ashtonestates.net/arc-application",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Bylaws of the Ashton Estates Community Association, Article VII (Architectural Review Committee)",
+      "url": "https://img1.wsimg.com/blobby/go/0922ddb4-cd04-4787-b7c8-9bd004731aff/downloads/Ashton%20Bylaws.pdf?ver=1786997683240",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Ashton Estates Homeowners Association, home page (65th Avenue and Ashcroft Road; Non-Potable Water Committee)",
+      "url": "https://ashtonestates.net/",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Ashton Estates Homeowners Association, Neighborhood Standards (Neighborhood Utilities)",
+      "url": "https://ashtonestates.net/neighborhood-standards",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Ashton Estates Homeowners Association, Policies page (read with every other public page, September 26, 2026)",
+      "url": "https://ashtonestates.net/policies",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Ashton Estates 2024 Annual Meeting Packet, with the September 28, 2023 annual meeting minutes",
+      "url": "https://img1.wsimg.com/blobby/go/0922ddb4-cd04-4787-b7c8-9bd004731aff/downloads/Ashton%20Estates%202024%20Annual%20Meeting%20Packet%20(1).pdf?ver=1786997683019",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Ashton Estates Homeowners Association Annual Meeting minutes, September 17, 2025",
+      "url": "https://img1.wsimg.com/blobby/go/0922ddb4-cd04-4787-b7c8-9bd004731aff/downloads/2e5823c0-1eb6-4ac3-927c-bd6e40aed9f3/Ashton%20Annual%20Meeting%20Minutes%202025.pdf?ver=1786997683007",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Colorado Public Parcels (statewide parcel file), subdivision ASHTON ESTATES SUB: 43 parcels, 1.97 to 2.86 acres",
+      "url": "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "City of Greeley Water & Sewer, Budget Your Water",
+      "url": "https://greeleyco.gov/government/city-administration/city-departments/water-and-sewer/save-water/budget-your-water",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "SB23-178 signed act: C.R.S. 38-33.3-106.5(1)(i.5)",
+      "url": "https://leg.colorado.gov/bill_files/92307/download",
+      "checked": "2026-09-24"
+    },
+    {
+      "label": "Greeley Planning Commission agenda packet, July 14, 2026: slide Artificial Turf (Council Initiative)",
+      "url": "https://greeleyco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=9205,plainText=false)",
+      "checked": "2026-09-24"
+    },
+    {
+      "label": "Greeley City Council work session packet, Sept. 22, 2026: Status Report of Council Initiatives (11-2023)",
+      "url": "https://greeleyco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=9580,plainText=false)",
+      "checked": "2026-09-24"
+    },
+    {
+      "label": "Greeley Municipal Code Sec. 24-802 (Ord. No. 36, 2021; codified through Ord. No. 16, 2026)",
+      "url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH8LAST_S24-802LADE",
+      "checked": "2026-09-24"
+    },
+    {
+      "label": "Greeley Municipal Code Sec. 24-502.e, residential fences, walls and building permits (Ord. No. 35, 2021)",
+      "url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH5REDEST_S24-502REDEST",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-26",
+  "needsFromBrian": [
+    "Camera-original photos from an Ashton Estates yard (turf, a putting green or a finished backyard design), with the owner's consent; no photos.ts photo is tagged to this community, and the page cannot publish without one",
+    "Any NoCo job in Ashton Estates: lot and block (not the street address), month, rough size, use (green, pet turf, play area), and how the site was chosen on the two-acre lot",
+    "For that job, the Architectural Review Committee's written approval or conditions (with the owner's permission to describe them): how long it took, what it asked for, and whether turf raised any question",
+    "Whether the association has since adopted its pre-approved water-wise front-yard designs, and whether any includes artificial turf",
+    "Any Ashton Estates green on a perimeter lot seen through the required open rail fence, and what Greeley said about street visibility",
+    "Whether you want this page to say NoCo builds greens in Greeley today (services.ts: putting-greens is not confirmed yet)"
+  ]
+}

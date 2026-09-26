@@ -1,0 +1,302 @@
+{
+  "status": "draft",
+  "town": "windsor-co",
+  "slug": "raindance",
+  "name": "RainDance",
+  "kind": "master-planned",
+  "governing": {
+    "name": "RainDance Community Association",
+    "type": "both",
+    "url": "https://irp-cdn.multiscreensite.com/3d7c42c9/files/uploaded/rain_dance_community_association_-_guidelines_and_standards_for_architectural_design_review-march_27_2019_update.pdf",
+    "layerRefs": [
+      "windsor-co--raindance.arc-turf-rear-30",
+      "windsor-co--raindance.arc-putting-greens-play",
+      "windsor-co--raindance.arc-plant-material",
+      "windsor-co--raindance.arc-beds-edging-irrigation",
+      "windsor-co--raindance.md-meter-pit-exposed"
+    ]
+  },
+  "golf": {
+    "name": "RainDance National",
+    "layerRef": "windsor-co.raindance-national-course"
+  },
+  "title": "RainDance Turf & Putting Green Rules, Windsor, CO | NoCo Turf Co.",
+  "description": "RainDance's guidelines hold artificial turf to 30% of the rear yard, screened from street and tracts, and file putting greens with the swing sets.",
+  "h1": "RainDance's guidelines hold backyard turf to 30% of the rear yard and file a putting green with the swing sets.",
+  "display": {
+    "paint": "30% of the rear yard"
+  },
+  "lede": "Every yard change in RainDance goes to the community association's Architectural Review Committee, whose posted guidelines name artificial turf and putting greens outright. They also spell out the planting around both, the metro district keeps an irrigation meter in each back yard that has to stay uncovered, and a request the committee never answers counts as denied.",
+  "answer": {
+    "question": "Can I put artificial turf or a putting green in a RainDance back yard?",
+    "answer": "Yes, with the Architectural Review Committee's written approval first. NoCo Turf Co. installs artificial turf and putting greens in RainDance, Windsor, Colorado. The association's posted guidelines keep turf out of front and street-facing side yards, hold it to 30% of the rear yard with screening, and set putting greens in the back yard, 6 feet from property lines."
+  },
+  "blocks": [
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "The turf entry",
+      "h2": "Turf goes behind the house, on no more than 30% of the rear yard, screened from the street and the tracts.",
+      "takeaway": "The rule sits in the Landscaping and Maintenance entry of the association's guidelines, last updated March 27, 2019.",
+      "paras": [
+        "Before artificial turf goes in anywhere in RainDance, the Architectural Review Committee has to approve it. The guidelines then draw three lines: no turf in a front yard or in a side yard that faces a street, no more than 30% of the rear yard in turf, and screening so that what is installed can't be seen from the street or from any common-area tract. On a corner lot the street-side yard drops out entirely, and on a lot that backs onto a tract the rear edge becomes part of the design.",
+        "Screening takes more thought here than the word suggests. RainDance's orientation packet says its fences are meant to stay open and minimal to keep long-range views, and the guidelines require three-rail fencing on corner lots and on lots facing a street, park, open space or farm lot. Behind an open rail the screen has to be planted: shrubs and ornamental grasses set between the turf and the view, drawn on the plan along with the turf itself.",
+        "The March 2019 version is the only one posted publicly, and it predates the Colorado backyard rule printed below. Current documents come through the resident login or by email request to the managing agent. It depends which version the committee applies now, so ask the ARC in writing whether the 30% figure still holds for your lot before the layout is fixed."
+      ],
+      "layerRefs": [
+        "windsor-co--raindance.arc-turf-rear-30",
+        "windsor-co--raindance.arc-fencing-open-rail",
+        "windsor-co--raindance.orientation-open-fencing",
+        "windsor-co--raindance.orientation-documents-login"
+      ],
+      "sources": [
+        "https://irp-cdn.multiscreensite.com/3d7c42c9/files/uploaded/rain_dance_community_association_-_guidelines_and_standards_for_architectural_design_review-march_27_2019_update.pdf",
+        "https://irp-cdn.multiscreensite.com/3d7c42c9/files/uploaded/raindance_welcome_packet-general_updated_3-27-19.pdf"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Putting greens",
+      "h2": "A putting green is filed under Play Equipment, beside the swing sets, and kept 6 feet off every property line.",
+      "paras": [
+        "The guidelines name putting greens in their Play Equipment entry, in a list that also holds fort-style play structures, swing sets, climbing equipment and sport courts. A green needs approval before installation, belongs in the back yard and sits at least 6 feet from any property line. Where the play area falls, and how close the neighbors are, can bring a demand for more landscape screening or a larger setback.",
+        "Nothing in the guidelines says whether a green's surface counts toward the 30% turf limit, because the two entries never mention each other. It depends how the ARC reads them together, so send one request that covers both: the application has separate boxes for Rear Landscaping and Play Equipment, and every landscaping submission needs a diagram with a plot plan. Show the green, its 6-foot margin, any lawn-style turf and the planted edge on one sheet, each with its square footage.",
+        "The setback shapes the design. A green held 6 feet inside the fence line floats in planting instead of running wall to wall, and that planted margin is where the screening gets built."
+      ],
+      "layerRefs": [
+        "windsor-co--raindance.arc-putting-greens-play",
+        "windsor-co--raindance.arc-turf-rear-30",
+        "windsor-co--raindance.arc-application"
+      ],
+      "sources": [
+        "https://irp-cdn.multiscreensite.com/3d7c42c9/files/uploaded/rain_dance_community_association_-_guidelines_and_standards_for_architectural_design_review-march_27_2019_update.pdf"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Around the turf",
+      "h2": "The planting, the bed edges and the fire pit around the turf are written down too.",
+      "paras": [
+        "At least 50% of a lot's unimproved area, not counting the house, walks and driveway, has to be plant material, and the guidelines' examples are irrigated turf, shrubs and trees; artificial turf sits on the other side of that ledger. Each rear yard needs at least 1 tree that isn't a street tree, 5 shrubs, 3 ornamental grasses and 5 perennials. Shrub beds take a roll-top steel edger or a masonry edge, flower beds and garden boxes stay 5 feet off property lines, and every landscape area is watered by an underground automatic system tied to the Water Valley raw-water tap.",
+        "The outdoor room has entries of its own. Fireplaces and fire pits burn gas only, stay in the rear yard and 5 feet from property lines, and one taller than 6 feet keeps 10 feet from any fence. Water features stay out of the front, top out at 4 feet and recirculate. A hot tub sits at ground level, built into a deck or patio; patios need approval, in materials matched to the house; walkway lights aim down and stand no more than 24 inches tall. On a walkout lot the retaining-wall entry comes into play: a wall over 36 inches needs an engineer's certificate and must be brick, dry-stack stone or finished concrete, never railroad ties or CMU block.",
+        "For a design cue, RainDance supplies its own. Owner-built fences are stained a Sherwin-Williams color named RainDance Red, and the metro district's orchard map puts cherry, apple, pear and plum plantings along the community's streets."
+      ],
+      "layerRefs": [
+        "windsor-co--raindance.arc-plant-material",
+        "windsor-co--raindance.arc-beds-edging-irrigation",
+        "windsor-co--raindance.arc-outdoor-rooms",
+        "windsor-co--raindance.arc-hardscape-lighting",
+        "windsor-co--raindance.arc-fence-stain",
+        "windsor-co--raindance.orchard-map"
+      ],
+      "sources": [
+        "https://irp-cdn.multiscreensite.com/3d7c42c9/files/uploaded/rain_dance_community_association_-_guidelines_and_standards_for_architectural_design_review-march_27_2019_update.pdf",
+        "https://www.raindancemetrodistrict.org/files/a6d1b261c/RDMD+Farm+Field+and+Orchard+Map+2026.pdf"
+      ]
+    },
+    {
+      "kind": "utility",
+      "own": true,
+      "kicker": "The meter pit",
+      "h2": "Every RainDance back yard holds the district's irrigation meter, and the turf has to leave it clear.",
+      "paras": [
+        "Lawns and beds in RainDance run on raw water, not the Town's. The metro districts, organized under a Service Plan the Town of Windsor approved, divert it from the Cache la Poudre River through the Eaton and Whitney Ditches, hold it in seven irrigation lakes, filter it to 300 microns and pipe it to a meter on each lot, with the season running from about mid-April to mid-October. The district's owner guide puts that meter pit in the back yard, with the hand valve and the blow-out port inside it.",
+        "The district asks for the meter pit and the curb stop to stay exposed, clear of landscaping, rock, mulch, bird baths, decks and patios, and it can bill an owner for damage to either. A turf or putting-green plan works around the lid: find it before the layout is drawn, keep it visible and reachable, and bring the turf edge up to it rather than over it.",
+        "Turf trims only one line of the bill. Water used is charged at $4.53 per 1,000 gallons, but the $277.68 capital fee is charged per unit when the season opens, so a smaller irrigated area lowers the usage charge and leaves the capital fee where it was."
+      ],
+      "layerRefs": [
+        "windsor-co--raindance.md-districts",
+        "windsor-co--raindance.md-raw-water-path",
+        "windsor-co--raindance.md-meter-pit-back-yard",
+        "windsor-co--raindance.md-meter-pit-exposed",
+        "raindance-nonpotable-irrigation"
+      ],
+      "sources": [
+        "https://www.raindancemetrodistrict.org/about",
+        "https://www.raindancemetrodistrict.org/files/c36897fe3/2+-+Water+Rate+Fact+Sheet+2026.pdf",
+        "https://www.raindancemetrodistrict.org/files/d0b0e0130/Irrigation+Water+Owner+Guide+2026.pdf",
+        "https://www.raindancemetrodistrict.org/non-potable-irrigation-water"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "The review clock",
+      "h2": "RainDance's committee has 45 days, and a request it never answers counts as denied.",
+      "paras": [
+        "The ARC's 45 days start when it tells the owner in writing that it has the plans and anything else it asked for. By then it approves, approves with conditions or disapproves; if it does none of those, the request is deemed denied. Silence here is a no, so check on a request well before the last day rather than waiting it out.",
+        "Each submission carries a $25 fee and goes to the association through Advance HOA Management in Windsor, and the metro district's homeowner portal takes architectural requests as well. Approved work has to start within 3 months or the approval lapses, and finish within 3 months of starting unless the committee sets another schedule. The buyer of a new home has 3 months from closing to finish the landscaping, which the committee can stretch for planting season to no more than 7 months if asked in writing first.",
+        "Delivery day has rules of its own. Gravel, rock, timbers, block and other bulk material must be installed or moved out of sight of the street within 7 days of arriving. No lot may have a gate onto open space, a street or common area, and the district's perimeter fencing can't be taken down, so base rock and turf rolls come in through the lot's own gate. Grading can't raise or lower the historical flow of water onto a neighbor's lot."
+      ],
+      "layerRefs": [
+        "windsor-co--raindance.arc-review-clock",
+        "windsor-co--raindance.arc-application",
+        "windsor-co--raindance.md-portal-requests",
+        "windsor-co--raindance.arc-new-home-landscaping",
+        "windsor-co--raindance.arc-site-rules",
+        "windsor-co--raindance.arc-fencing-open-rail"
+      ],
+      "sources": [
+        "https://irp-cdn.multiscreensite.com/3d7c42c9/files/uploaded/rain_dance_community_association_-_guidelines_and_standards_for_architectural_design_review-march_27_2019_update.pdf",
+        "https://www.raindancemetrodistrict.org/homeowner-portal"
+      ]
+    },
+    {
+      "kind": "golf",
+      "own": true,
+      "kicker": "Course lots",
+      "h2": "Emerald Estates backs every lot onto RainDance National, under design guidelines kept off the web.",
+      "paras": [
+        "RainDance National has two home neighborhoods of its own, Festival and Sugar Hills, built by American Legend Homes and Trumark Homes. Emerald Estates, a custom-homesite section inside RainDance, backs every homesite onto the course, makes every lot a walkout and lets buyers bring their own builder. Acadia at RainDance, close to the course, is laid out on one-acre homesites around a neighborhood park.",
+        "Emerald Estates homes go through that neighborhood's own design guidelines, which its broker hands to buyers, builders and architects on request; they weren't posted when checked on September 26, 2026. Nothing public says whether those lots also go to the RainDance Community Association's ARC, or whether the 30% turf limit reaches them. It depends on documents that aren't public, so ask both reviewers before a walkout terrace or a backyard green is designed.",
+        "The course sets a big benchmark. The club puts its G.O.A.T. Ranch practice green at 61,500 square feet, and RainDance's community site says 65,000. The Funk Yard driving range, between holes 11, 13 and 14, aims golfers at antique vehicles, weathered farm equipment and cottonwood stumps, the same farm history the orchards carry."
+      ],
+      "layerRefs": [
+        "windsor-co--raindance.national-neighborhoods",
+        "windsor-co--raindance.emerald-estates-lots",
+        "windsor-co--raindance.emerald-estates-guidelines",
+        "windsor-co--raindance.acadia-one-acre",
+        "windsor-co.raindance-goat-ranch",
+        "windsor-co--raindance.goat-ranch-65000",
+        "windsor-co--raindance.funk-yard",
+        "windsor-co.raindance-national-course"
+      ],
+      "sources": [
+        "https://raindancecolorado.com/raindance-national/",
+        "https://emeraldestateswindsor.com/frequently-asked-questions/",
+        "https://raindancecolorado.com/new-homes/acadia-at-raindance/",
+        "https://raindancenational.com/practice-facility/",
+        "https://raindancenational.com/"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does a backyard putting green count toward RainDance's 30% turf limit?",
+      "a": "The guidelines don't say. Putting greens appear under Play Equipment, which sets a 6-foot setback from every property line, while the 30% limit appears under Landscaping and Maintenance. Ask the ARC in writing how it will count your green, and put both on one request.",
+      "layerRefs": [
+        "windsor-co--raindance.arc-putting-greens-play",
+        "windsor-co--raindance.arc-turf-rear-30"
+      ]
+    },
+    {
+      "q": "What happens if the RainDance ARC never answers my request?",
+      "a": "It is deemed denied once 45 days pass after the committee's written notice that it has your plans. Keep that notice, and follow up before the 45 days are up.",
+      "layerRefs": [
+        "windsor-co--raindance.arc-review-clock"
+      ]
+    },
+    {
+      "q": "Can turf or a putting green cover the irrigation meter in my back yard?",
+      "a": "No. The metro district wants the meter pit and curb stop left exposed and clear of landscaping, rock, mulch, decks and patios, and it may bill damage to either back to the owner. Plan the turf edge around the lid.",
+      "layerRefs": [
+        "windsor-co--raindance.md-meter-pit-exposed",
+        "windsor-co--raindance.md-meter-pit-back-yard"
+      ]
+    },
+    {
+      "q": "Do Emerald Estates lots follow the same turf rule?",
+      "a": "It depends. Emerald Estates has its own design guidelines, supplied by its broker on request, and no public document says whether the RainDance ARC and its 30% limit also apply there. Ask both reviewers in writing before designing.",
+      "layerRefs": [
+        "windsor-co--raindance.emerald-estates-guidelines",
+        "windsor-co--raindance.arc-turf-rear-30"
+      ]
+    },
+    {
+      "q": "Where do I find RainDance's current design guidelines?",
+      "a": "The version updated March 27, 2019 is the one posted publicly. The orientation packet says current documents come through the community website's login or by email request to the managing agent, and the metro district's homeowner portal takes architectural requests.",
+      "layerRefs": [
+        "windsor-co--raindance.orientation-documents-login",
+        "windsor-co--raindance.arc-turf-rear-30",
+        "windsor-co--raindance.md-portal-requests"
+      ]
+    },
+    {
+      "q": "Does the RainDance committee's approval cover the Town of Windsor?",
+      "a": "No. The guidelines say the committee's approval is no assurance that the work meets government rules or needs no permit, and the application warns that a building permit may be required. Ask the Town what the work needs before it starts.",
+      "layerRefs": [
+        "windsor-co--raindance.arc-not-government-approval",
+        "windsor-co--raindance.arc-application"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "RainDance Community Association, Inc., Guidelines and Use Standards for Architectural and Design Review (updated March 27, 2019)",
+      "url": "https://irp-cdn.multiscreensite.com/3d7c42c9/files/uploaded/rain_dance_community_association_-_guidelines_and_standards_for_architectural_design_review-march_27_2019_update.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "RainDance Community Owner Orientation Packet (updated March 27, 2019)",
+      "url": "https://irp-cdn.multiscreensite.com/3d7c42c9/files/uploaded/raindance_welcome_packet-general_updated_3-27-19.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Raindance Metropolitan District, Non-Potable Irrigation Water page",
+      "url": "https://www.raindancemetrodistrict.org/non-potable-irrigation-water",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Raindance Metropolitan District, Non-Potable Irrigation Water: Owner Guide (2026)",
+      "url": "https://www.raindancemetrodistrict.org/files/d0b0e0130/Irrigation+Water+Owner+Guide+2026.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "RainDance and Poudre Tech Metropolitan District, Water Rate Fact Sheet 2026",
+      "url": "https://www.raindancemetrodistrict.org/files/c36897fe3/2+-+Water+Rate+Fact+Sheet+2026.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Raindance Metropolitan District, About page",
+      "url": "https://www.raindancemetrodistrict.org/about",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Raindance Metropolitan District, Homeowner Portal page",
+      "url": "https://www.raindancemetrodistrict.org/homeowner-portal",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Raindance Metropolitan District, 2026 Farm Field and Orchard Map",
+      "url": "https://www.raindancemetrodistrict.org/files/a6d1b261c/RDMD+Farm+Field+and+Orchard+Map+2026.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "RainDance Colorado, New Homes at RainDance National page",
+      "url": "https://raindancecolorado.com/raindance-national/",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "RainDance Colorado, Acadia at RainDance page",
+      "url": "https://raindancecolorado.com/new-homes/acadia-at-raindance/",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Emerald Estates (The Water Valley Company), Frequently Asked Questions",
+      "url": "https://emeraldestateswindsor.com/frequently-asked-questions/",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "RainDance National, Practice Facility page",
+      "url": "https://raindancenational.com/practice-facility/",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "RainDance National, home page",
+      "url": "https://raindancenational.com/",
+      "checked": "2026-09-26"
+    }
+  ],
+  "checked": "2026-09-26",
+  "needsFromBrian": [
+    "Camera-original photos of a turf area, putting green or finished backyard NoCo built in RainDance (Festival, Sugar Hills, Emerald Estates, Acadia or the older filings), tagged in src/data/photos.ts with community windsor-co--raindance (or a place naming RainDance); one showing the planted screen behind an open three-rail fence would carry the page. No photo on file is from RainDance, so the page has none and cannot publish",
+    "Any RainDance jobs: the neighborhood, month, rough size, the share of the rear yard in turf, and whether the ARC counted a putting green toward the 30% limit",
+    "Whether the ARC still applies the March 27, 2019 guidelines (30% cap, screening) or a newer version from the resident portal; a customer's copy of the current guidelines would let the page quote it",
+    "Whether a RainDance request has ever run past 45 days without an answer, and how long approvals actually took on NoCo jobs",
+    "Any RainDance job where the non-potable meter pit sat inside the turf or green area, and how the committee or district wanted it handled",
+    "A copy of the Emerald Estates design guidelines (from its broker) and whether those lots also go to the RainDance Community Association's ARC",
+    "Permission from a RainDance customer to name the neighborhood on a work page or in a quoted review"
+  ]
+}

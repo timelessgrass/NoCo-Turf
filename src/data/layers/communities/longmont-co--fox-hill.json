@@ -1,0 +1,499 @@
+[
+  {
+    "id": "longmont-co--fox-hill.filing-one-hoa",
+    "layer": "place",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Fox Hill Filing I is 97 lots in the City of Longmont under the Longmont Fox Hill Homeowners' Association, Inc., incorporated in 1983; every lot owner is a member, and the owners restated the developer's 1973 covenants in 2015.",
+    "quote": "The undersigned record owners of lots in the subdivision known as Fox Hill, County of Boulder, State of Colorado, constituting a majority of the record owners of the 97 lots located in Fox Hill, excluding Outlot \"A\", and as permitted by paragraph 4 of the Declaration of Protective Covenants for Fox Hill, recorded with the Boulder County Clerk and Recorded on November 2, 1973 … On November 18, 1983, the Longmont Fox Hill Homeowners’ Association, Inc., was incorporated … Every person who is a record owner of a fee interest of any lot within the Subdivision is a member of the Association.",
+    "source_url": "https://www.foxhillhoa.com/wp-content/uploads/2018/06/Declaration-of-Covenents.pdf",
+    "source_label": "Amended and Restated Declaration of Protective Covenants for Fox Hill Subdivision (dated August 24, 2015), recitals and Sec. 1.0",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "97",
+      "1983",
+      "1973",
+      "2015",
+      "4",
+      "2",
+      "18"
+    ],
+    "notes": "PDF linked as \"Declaration of Covenants\" from foxhillhoa.com/hoa-legal-documents/; text read with pdftotext 2026-09-26. The 2026 draft cites this instrument as recorded at Boulder County Reception No. 03863391."
+  },
+  {
+    "id": "longmont-co--fox-hill.modification-trigger",
+    "layer": "housing",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "The Filing I HOA requires board approval, on its External Modification Request form, before any exterior modification visible from the street, naming roofs, structures, major landscaping and fencing.",
+    "quote": "All residents of Fox Hill Filing I must get approval from the HOA board before undertaking any exterior modification including roof, structure where the modification is visible from the street, major landscaping visible from the street, and fencing visible from the street using the External Modification Request form.",
+    "source_url": "https://www.foxhillhoa.com/hoa-legal-documents/",
+    "source_label": "Fox Hill HOA – Filing One, HOA & Legal Documents page",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl 2026-09-26. No document on the page mentions artificial turf, synthetic turf or putting greens."
+  },
+  {
+    "id": "longmont-co--fox-hill.covenants-landscaping-fences",
+    "layer": "housing",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Filing I's 2015 covenants hold each owner to a maintained landscape, including mowed lawns and adequate watering, put every change to border bushes and fences, and the design, location and material of all fences, under prior written board approval, and require lots bordering the golf course to keep border bushes and fences off course property and out of open sight lines.",
+    "quote": "The landscaping of each lot shall be maintained by the owner in a neat, attractive, sightly and well-kept condition, which shall include lawns mowed, hedges, shrubs and trees pruned and trimmed, adequate watering, replacement or removal of dead, diseased or unsightly materials, and removal of weeds and debris. No owner or occupant shall install, modify, repair, paint or otherwise alter any border bushes, fence or fencing material without the prior written approval of the Board. Fence height and material must comply with Longmont City ordinance. The design, location and material of all fences shall be subject to the prior written approval of the Board. Owners and occupants shall be responsible for the maintenance of their border bushes and/or fences. Lots that border the golf course shall maintain their border bushes/fences so that they do not impinge on golf course property and do not unreasonably obstruct open sight lines.",
+    "source_url": "https://www.foxhillhoa.com/wp-content/uploads/2018/06/Declaration-of-Covenents.pdf",
+    "source_label": "Amended and Restated Declaration of Protective Covenants for Fox Hill Subdivision (2015), Sec. 2.12 Landscaping and Fencing",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2015"
+    ],
+    "notes": "The 2015 covenants never mention artificial turf, synthetic turf or putting greens (full text read 2026-09-26)."
+  },
+  {
+    "id": "longmont-co--fox-hill.covenants-prior-approval",
+    "layer": "housing",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Filing I's 2015 covenants require written board approval before work begins on any change to a structure's exterior appearance and on any residence or appurtenant structure, a class that includes outbuildings, storage buildings, fences and walls.",
+    "quote": "All plans for remodeling or changing an existing structure which would alter the exterior appearance of such structure in any way and all plans for the construction or installation of any residence or appurtenant structure, shall be approved in writing by the Board prior to the commencement of work. … Appurtenant structures consist generally of any installation, addition or other change for which these Protective Covenants require prior Board approval, including but not limited to, alternative energy devices of any kind, outbuildings, animal structures, storage buildings, fences and walls.",
+    "source_url": "https://www.foxhillhoa.com/wp-content/uploads/2018/06/Declaration-of-Covenents.pdf",
+    "source_label": "Amended and Restated Declaration of Protective Covenants for Fox Hill Subdivision (2015), Secs. 5.0 and 5.1",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2015"
+    ]
+  },
+  {
+    "id": "longmont-co--fox-hill.covenants-light-corners",
+    "layer": "housing",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Filing I's 2015 covenants bar light that is unreasonably bright or causes unreasonable glare, and on a corner lot keep any fence, wall, hedge or shrub that blocks sight lines between two and six feet above the roadway out of the triangle reaching 25 feet back from the street intersection.",
+    "quote": "No fence, wall, hedge or shrub planting which obstructs sight lines or elevations between two and six feet above the roadways shall be placed or permitted to remain on any corner lot within the triangle areas formed by the street property lines and a line connecting them at points twenty-five feet from the intersection of the street lines … No light shall be emitted from any portion of the Subdivision which is unreasonably bright or causes unreasonable glare",
+    "source_url": "https://www.foxhillhoa.com/wp-content/uploads/2018/06/Declaration-of-Covenents.pdf",
+    "source_label": "Amended and Restated Declaration of Protective Covenants for Fox Hill Subdivision (2015), Secs. 2.13 and 3.2",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2015",
+      "25"
+    ]
+  },
+  {
+    "id": "longmont-co--fox-hill.modification-form",
+    "layer": "housing",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Filing I's External Modification Request form, updated May 6, 2024, asks who will do the work and for drawings, diagrams, color samples, pictures or links, leaves the board's decision to be made as soon as possible, says board approval is not City of Longmont building or planning approval, and requires a new request if the project runs more than 6 months past the approval date.",
+    "quote": "This form must be completed for any exterior modification including: roof, paint, new structure, major landscaping, fencing and any other modification that would be visible from the street. … Understand approval does not constitute City of Longmont local building and planning department approval, and I/We may be required to obtain a building permit for the project. … If the project completion goes over 6 months beyond the approval date, the project must be re-submitted for HOA approval. … The decision shall be made as soon as possible. … Person or Company Performing the work … Attach applicable drawings, diagrams, color samples pictures or website links.",
+    "source_url": "https://www.foxhillhoa.com/wp-content/uploads/2024/09/Fox-Hill-External-Modification-Request-Form-Sept.-2024.pdf",
+    "source_label": "Fox Hill Filing One External Modification Request Form (Form Updated: 06May2024)",
+    "effective": "2024-05-06",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6",
+      "2024"
+    ],
+    "notes": "Two-page PDF read with pdftotext 2026-09-26. The form names two board members with personal email addresses as recipients; pages must not print them."
+  },
+  {
+    "id": "longmont-co--fox-hill.good-neighbor-fence",
+    "layer": "housing",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Filing I's Good Neighbor Fence Policy, effective May 17, 2017, applies to wood fences, requires the External Modification Request and written or emailed board approval before any fence goes in, and turns a boundary fence's finished side toward the neighbor, or toward the street where it faces one.",
+    "quote": "This policy applies to wood fencing materials and styles versus metal or other materials. … You must complete an “Exterior Modification Request Form” and obtain written or emailed HOA Board approval prior to any fence installation. … The finished side of a boundary fence should face the neighbor not installing the new fence. Where a boundary fence faces the public (as in a street), the finished side should also face the public side.",
+    "source_url": "https://www.foxhillhoa.com/wp-content/uploads/2020/05/Good-Neighbor-Fence-Policy-07-31-2018.pdf",
+    "source_label": "Fox Hill Filing I Good Neighbor Fence Policy (effective May 17, 2017)",
+    "effective": "2017-05-17",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "17",
+      "2017"
+    ]
+  },
+  {
+    "id": "longmont-co--fox-hill.neighbor-fence-form",
+    "layer": "housing",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Filing I's Good Neighbor Fence Approval Form collects written approval from each neighbor directly affected by a fence along a shared property line and goes in as an attachment to the fence's External Modification Request.",
+    "quote": "Approval from each neighbor directly affected by the fence installation/modification must be obtained and documented below. Please submit this form as an attachment to the external modification request form for the fencing project.",
+    "source_url": "https://www.foxhillhoa.com/wp-content/uploads/2024/05/Good-Neighbor-Fence-Approval-Form.pdf",
+    "source_label": "Fox Hill Filing I Good Neighbor Fence Approval Form",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "longmont-co--fox-hill.enforcement-fines",
+    "layer": "housing",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Under the Filing I HOA's enforcement policy, posted in 2025, a covenant violation that does not threaten safety or health draws a warning letter with up to 10 days to cure, then fines of $200 and $300, each with 30 days to comply, and fines may not exceed $500 per violation.",
+    "quote": "The total amount of fines imposed per violation may not exceed $500.00. First notice of violation Warning Letter … Up to 10 days to comply. No fine Second notice of violation Initial Letter … (of same covenant or rule) $200.00 30 days to comply. Third notice of violation Second Letter … (of same covenant or rule) $300.00 Additional 30 days to comply.",
+    "source_url": "https://www.foxhillhoa.com/wp-content/uploads/2025/08/Enforcement-Policy.pdf",
+    "source_label": "Longmont Fox Hill Homeowners' Association, Inc., Policy Regarding Covenant and Rule Enforcement, para. 16 (posted August 2025)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2025",
+      "10",
+      "200",
+      "300",
+      "30",
+      "500",
+      "500.00",
+      "200.00",
+      "300.00"
+    ],
+    "notes": "The posted PDF leaves its effective date blank. The HOA News page says the board unanimously adopted \"the 9 Policies discussed at the Annual Meeting in August\" at its Sep. 23 meeting (2025, by the surrounding posts). It replaces the 2018 fines policy ($50/$150/$300), which is still linked."
+  },
+  {
+    "id": "longmont-co--fox-hill.vote-2026",
+    "layer": "housing",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "The Filing I HOA put a complete rewrite of its articles, bylaws and declaration to a member vote at its annual meeting on September 26, 2026, and the new declaration is approved only if at least 51% of the homeowners holding the association's total votes approve it.",
+    "quote": "One of the items on the Agenda for the Annual Meeting of the Members will be for members to vote on the enclosed proposed … (3) Second Amended and Restated Declaration of Protective Covenants for Fox Hill Subdivision … The Amended and Restated Articles, Bylaws and Declaration are complete rewrites of the Association’s current governing documents, which will change certain covenants, conditions and restrictions impacting you and your property in the Longmont Fox Hill community. … The proposed Amended and Restated Declaration will be approved if at least 51% of the homeowners holding the total votes in the Association vote to approve this document.",
+    "source_url": "https://www.foxhillhoa.com/wp-content/uploads/2026/09/Annual-Meeting-Notice-Proxy.doc",
+    "source_label": "Longmont Fox Hill Filing One HOA, Notice of Annual Meeting of the Members, September 26, 2026 at 4:30 p.m., Fox Hill Club (posted September 19, 2026)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-26",
+    "numbers": [
+      "26",
+      "2026",
+      "51"
+    ],
+    "notes": "Word file read with textutil 2026-09-26, the day of the vote; the result was not posted when checked. Recheck: did the declaration pass and was it recorded with Boulder County? Then update this record and the draft-2026 records (drop \"draft\" or delete them)."
+  },
+  {
+    "id": "longmont-co--fox-hill.draft-2026-review",
+    "layer": "housing",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "The Second Amended and Restated Declaration the Filing I HOA posted in September 2026, effective only once recorded, would require written Architectural Review Committee approval before landscaping, fences, walls, exterior lighting, swimming pools or any other improvement goes in on a lot, with a written reply due within 60 days and approval deemed granted if the committee takes no action by then.",
+    "quote": "THIS SECOND AMENDED AND RESTATED DECLARATION is effective upon recording. … No structures, including Residences, outbuildings, accessory buildings, tennis courts, swimming pools, antennas (except as otherwise permitted in this Declaration), flag poles (except as otherwise permitted by the Act), fences, walls, exterior lighting, landscaping, or any other improvements shall be constructed, erected, relocated, removed or installed on a Lot, … unless complete plans and specifications shall have been first submitted to and approved in writing by the Architectural Review Committee (“Committee”) as may be outlined in the Rules and Regulations. … The Committee shall reply to all submittals of plans made in accordance herewith in writing within 60 days after receipt. In the event the Committee fails to take any action on submitted plans and specifications within 60 days after the Committee has received the plans and specifications, approval shall be deemed to be granted",
+    "source_url": "https://www.foxhillhoa.com/wp-content/uploads/2026/09/AR-Declaration-2026.pdf",
+    "source_label": "Second Amended and Restated Declaration of Protective Covenants for Fox Hill Subdivision (proposed; posted on foxhillhoa.com September 15, 2026), Secs. 6.1 and 6.6",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-26",
+    "numbers": [
+      "2026",
+      "60"
+    ],
+    "notes": "41-page PDF read with pdftotext 2026-09-26. Not in force unless approved (see vote-2026) and recorded."
+  },
+  {
+    "id": "longmont-co--fox-hill.draft-2026-terms",
+    "layer": "housing",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "The same draft would let the committee ask for a plan showing materials, color, location and a grading plan, require approved work to begin within one year and finish within one year of starting, and have owners report completion within five days and allow an exterior inspection.",
+    "quote": "The Committee may require that applications of Owners and their plans and specifications show exterior design, height, materials, color, location of the structure or addition to the structure or proposed improvement (plotted horizontally and vertically), location and size of driveways, walls, windbreaks, and grading plan … Owners shall notify the Committee of completion of the improvement’s installation or construction within five days of such completion; … Upon completion of an improvement, Owners authorize the Committee or its representative(s) to enter onto the Lot for exterior inspection; … All improvements approved by the Committee must be commenced within one year from the date of approval. … all work approved by the Committee shall be completed within one year of commencement.",
+    "source_url": "https://www.foxhillhoa.com/wp-content/uploads/2026/09/AR-Declaration-2026.pdf",
+    "source_label": "Second Amended and Restated Declaration of Protective Covenants for Fox Hill Subdivision (proposed, September 2026), Secs. 6.1, 6.2 and 6.8",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-26",
+    "numbers": []
+  },
+  {
+    "id": "longmont-co--fox-hill.draft-2026-landscape",
+    "layer": "housing",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Section 5.8 of the draft would have each lot landscaped and kept in good, neat, attractive and well-kept condition \"whether xeriscaped or with turf\", a word the draft never defines, and its committee would judge requests on harmony with neighboring structures, the use of improvements on nearby lots and aesthetic beauty, without unreasonably withholding approval.",
+    "quote": "The landscaping of each Lot shall be maintained by the Owner in a good, neat, attractive and well-kept condition, whether xeriscaped or with turf, which shall include lawns mowed, hedges, shrubs, and trees pruned and trimmed, and removal of weeds and debris. … The approval or consent of the Committee on matters properly coming before it shall not be unreasonably withheld, and actions taken shall not be arbitrary or capricious. Approval shall be based upon, but not limited to, conformity and harmony of exterior appearance of structures with neighboring structures, effective location and use of improvements on nearby Lots, preservation of aesthetic beauty, and conformity with the specifications and purposes generally set out in this Declaration.",
+    "source_url": "https://www.foxhillhoa.com/wp-content/uploads/2026/09/AR-Declaration-2026.pdf",
+    "source_label": "Second Amended and Restated Declaration of Protective Covenants for Fox Hill Subdivision (proposed, September 2026), Secs. 5.8 and 6.3",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-26",
+    "numbers": [],
+    "notes": "\"turf\" appears once in the 41 pages (Sec. 5.8); the defined terms in Sec. 1.1 do not include it, and nothing says whether it means grass or artificial turf."
+  },
+  {
+    "id": "longmont-co--fox-hill.draft-2026-fences",
+    "layer": "housing",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "The 2026 draft drops the 2015 covenants' golf-course clause and never mentions the golf course; its fence rule says only that roofs and fences must comply with the association's Rules and Regulations.",
+    "quote": "Roofs and fences in the Community must comply with the Rules and Regulations.",
+    "source_url": "https://www.foxhillhoa.com/wp-content/uploads/2026/09/AR-Declaration-2026.pdf",
+    "source_label": "Second Amended and Restated Declaration of Protective Covenants for Fox Hill Subdivision (proposed, September 2026), Sec. 5.29",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-26",
+    "numbers": [
+      "2026",
+      "2015"
+    ],
+    "notes": "Full 41-page text searched 2026-09-26: no \"golf\", no border-bush or sight-line rule for course lots (Sec. 5.9 keeps street sight lines only). The 2015 Sec. 2.12 golf-course sentence would go with the old declaration once the new one is recorded, unless the Rules and Regulations restore it."
+  },
+  {
+    "id": "longmont-co--fox-hill.summary-water-wise",
+    "layer": "housing",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "The board's summary of the 2026 rewrite says it updates the declaration's landscaping restrictions to comply with Colorado's water-wise landscaping and xeriscaping laws.",
+    "quote": "Update landscaping restrictions to comply with Colorado's water-wise landscaping/xeriscaping laws.",
+    "source_url": "https://www.foxhillhoa.com/wp-content/uploads/2026/09/Summary-of-Necessary-Updates-to-Fox-Hill-Filing-One-HOA-Governing-Documents-1.pdf",
+    "source_label": "Summary of Necessary Updates to Fox Hill Filing One HOA Governing Documents (posted September 19, 2026), part 3, Declaration",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-26",
+    "numbers": [
+      "2026"
+    ]
+  },
+  {
+    "id": "longmont-co--fox-hill.filings-2-3-hoa",
+    "layer": "place",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Fox Hill Filings II and III hold 185 homes east of Pace Street between 5th and 9th Avenues, north of Filing I, which lies south of 5th Avenue; their homeowners association, formed in November 1997, is voluntary, club members among the residents can keep golf carts at home, and the Rough and Ready Ditch separates the subdivision from The Fox Hill Club, which opened in November 1972.",
+    "quote": "The Filings II & III neighborhood contains 185 dwellings and is located east of Pace Street between 5th and 9th avenues. … The Fox Hill Club (golf, private) is adjacent to the subdivision and resident members can keep golf carts at home and drive to the course. … The Fox Hill Club came first and was opened in November of 1972. … Construction of homes began first in Filing I, south of 5th Avenue. … The Fox Hill II & III Filing Homeowners Association was formed in November of 1997 to represent the interests of the neighborhood. Membership in the Association is voluntary and the dues charged are nominal. … The Rough and Ready Ditch forms the eastern boundary of the subdivision and separates it from the The Fox Hill Club.",
+    "source_url": "https://longmontfoxhill.com/about/",
+    "source_label": "Fox Hill HOA Filings II & III, About page",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "185",
+      "1997",
+      "1972"
+    ]
+  },
+  {
+    "id": "longmont-co--fox-hill.filings-2-3-documents",
+    "layer": "housing",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "The Filings II and III HOA's documents page posts the covenants, bylaws, articles, the two filings' amendments, insurance declarations, newsletters and meeting minutes, and no architectural or landscape request form.",
+    "quote": "HOA Official Docs Covenants Bylaws Articles-Of-Incorporation Insurance-Declarations Filing-II-Amendment Filing-III-Amendment Newsletters",
+    "source_url": "https://longmontfoxhill.com/documents/",
+    "source_label": "Fox Hill HOA Filings II & III, Documents page",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "longmont-co--fox-hill.filing-2-golf-edge",
+    "layer": "housing",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Fox Hill 2nd Filing's 1976 covenants allow only decorative wood, stone or brick fences no taller than six feet, bar any fence within 25 feet of the property line adjoining the golf course, have that line planted to pfitzers every 10 feet, require landscaping that would interfere with the course's operation to be removed on demand, and keep building materials from sitting exposed where the golf course can see them except during construction.",
+    "quote": "No wall or fence, except a decorative wood, stone or brick fence not exceeding six feet in height measured from the adjoining ground surface inside the fence, may be erected or maintained on any lot. … No fence shall be permitted within 25 feet of the property line adjoining the golf course. … No trash, litter, junk, boxes, containers, bottles, cans implements, machinery, lumber or other building materials shall be permitted to remain exposed upon any lot so they are visible from any neighboring lot, street or golf course, except as necessary during the period of construction. … any and all landscaping that becomes objectionable or would interfere with the operation of the golf course located adjacent to the property covered hereby, upon demand shall forthwith be removed by the property owner. The property line adjoining the golf course shall be planted to pftizers every 10 feet.",
+    "source_url": "https://wordpress.longmontfoxhill.com/wp-content/uploads/2021/01/Covenants.pdf",
+    "source_label": "Declaration of Restrictions, Covenants and Conditions Covering Lots in Fox Hill 2nd Filing (Embassy Homes, January 15, 1976; recorded November 30, 1976), retyped copy posted by the Fox Hill Filings II and III HOA, Secs. 8 and 11",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1976",
+      "25",
+      "10"
+    ],
+    "notes": "The HOA posts a retyped copy with a disclaimer that the recorded original governs; \"pftizers\" is the retyped spelling of pfitzers (Pfitzer junipers). The covenants never mention artificial turf or putting greens and set no approval step."
+  },
+  {
+    "id": "longmont-co--fox-hill.filing-2-setbacks",
+    "layer": "housing",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "The 2nd Filing covenants keep every building, structure or other improvement except a wall, a fence, an uncovered terrace and steps at least 25 feet from a street lot line (15 feet from the side street on a corner lot), 5 feet from one side lot line and 10 feet from the other, and 20 feet from the rear lot line.",
+    "quote": "Every building, structure, or other improvements other than a wall or fence, which is erected or placed upon any lot (excluding uncovered terrace and steps) shall be located in accordance with the following prescribed distance from lot lines: (a) FRONT YARD SETBACKS: Not less than 25 feet from any street lot lines. Corner lots fronting on two streets shall be considered as having two street lot lines and the set backs shall not be less than 25 feet from the front street lot line and 15 feet from the side street lot line. (b) SIDE YARD SETBACKS: Not less than 5 feet from one side loit line and not less than 10 feet from the other side lot line. (c) REAR YARD SETBACKS: Not less than 20 feet from any rear lot line.",
+    "source_url": "https://wordpress.longmontfoxhill.com/wp-content/uploads/2021/01/Covenants.pdf",
+    "source_label": "Declaration of Restrictions, Covenants and Conditions Covering Lots in Fox Hill 2nd Filing (1976), retyped copy, Section 7",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "25",
+      "15",
+      "5",
+      "10",
+      "20"
+    ]
+  },
+  {
+    "id": "longmont-co--fox-hill.filing-2-enforcement",
+    "layer": "housing",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "The 2nd Filing covenants set no approval step for landscaping or fences; a violation lets the declarant or other lot owners go to court for an injunction, damages or other relief.",
+    "quote": "A violation of said provisions, conditions, restrictions, or covenants shall warrant the Declarant or other lot owners to apply to any court of law or equity having jurisdiction thereof for an injunction or for damages or other proper relief, and if such relief be granted, the Court may, in it discretion, award to the plaintiff his court costs and reasonable attorney’s fees.",
+    "source_url": "https://wordpress.longmontfoxhill.com/wp-content/uploads/2021/01/Covenants.pdf",
+    "source_label": "Declaration of Restrictions, Covenants and Conditions Covering Lots in Fox Hill 2nd Filing (1976), retyped copy, Section 16",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read in full 2026-09-26: 19 sections, none of them an architectural or landscape review. The 1997 bylaws of the voluntary HOA (4.1.3) let its board \"decide upon appropriate action to enforce the Protective Covenants for Fox Hill, 2nd & 3rd Filing\"."
+  },
+  {
+    "id": "longmont-co--fox-hill.filing-3-declaration",
+    "layer": "place",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Fox Hill 3rd Filing's 90 lots carry their own declaration, recorded May 11, 1979, which a 2004 amendment extended for successive ten-year periods; that declaration is not posted online.",
+    "quote": "constituting a 60% majority of the record owners of the 90 lots located in Fox Hill, 3rd Filing, and as permitted by Section 18 of the Declaration of Restrictions, Covenants, and Conditions Covering Lots in Fox Hill, 3rd Filing, Longmont, Colorado, recorded May 11, 1979 at Reception No. 336899 on Film 1062 … AMENDED WORDING: “After that date, the covenants shall be automatically extended for successive ten year periods…..”",
+    "source_url": "https://wordpress.longmontfoxhill.com/wp-content/uploads/2021/01/Filing-III-Amendment.pdf",
+    "source_label": "Amendment of Declaration … Covering Lots in Fox Hill, 3rd Filing (Boulder County Recorder No. 2644168, dated November 22, 2004)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "90",
+      "11",
+      "1979",
+      "2004",
+      "60",
+      "1062"
+    ],
+    "notes": "The Filings II & III site posts only the 2nd Filing declaration; the 3rd Filing text was not found or read. The matching 2nd Filing amendment (Recorder No. 2644167) counts 95 lots."
+  },
+  {
+    "id": "longmont-co--fox-hill.lot-sizes",
+    "layer": "place",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Boulder County's parcel map draws Fox Hill Filing I's 97 lots at about 8,400 to 35,400 square feet, with a median near 15,600 and 59 of them at 15,000 or more, and the 185 lots of Filings II and III at about 9,100 to 18,900 square feet, with a median near 11,400.",
+    "quote": "SubDscr: FOX HILL - LG (96 parcels) · FOX HILL REP A (1) · FOX HILL 2 - LG (95) · FOX HILL 3 - LGV (88) · FOX HILL 3RD FLG REPLAT A - LG (2) · AcctType: RESIDENTIAL",
+    "source_url": "https://maps.bouldercounty.org/arcgis/rest/services/PARCELS/PARCELS_OWNER/MapServer/0",
+    "source_label": "Boulder County parcels (PARCELS_OWNER), Fox Hill subdivision codes 2693, 5701, 2702, 2706 and 2707; parcel areas from Shape.STArea in square feet",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "97",
+      "8400",
+      "35400",
+      "15600",
+      "59",
+      "15000",
+      "185",
+      "9100",
+      "18900",
+      "11400",
+      "96",
+      "2",
+      "95",
+      "3",
+      "88"
+    ],
+    "notes": "Query 2026-09-26 on SubDscr LIKE '%FOX HILL%', no owner fields requested. Layer spatial reference EPSG 2876 (Colorado North, US feet). Filing I (2693 + 5701, 97 parcels): 8,438 to 35,354 sq ft, median 15,562, 59 at 15,000+, 9 under 12,000. Filing II (2702, 95): 9,254 to 16,942, median 10,934. Filing III (2706 + 2707, 90): 9,086 to 18,856, median 12,100. II and III together (185): median 11,395. Parcel areas are map areas, not survey areas. Patio homes (2697) and Highlands at Fox Hill are separate subdivisions, left out."
+  },
+  {
+    "id": "longmont-co--fox-hill.filing-streets",
+    "layer": "place",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Boulder County's parcel records put Filing I's lots on streets including 4th and 5th Avenues, Fox Hill Drive, Glenview Court, Greenwood Lane, Karsh Drive and Westview Court, and those of Filings II and III on 5th Avenue, Fox Hill Drive, Crawford Circle, Hays Circle, Longs Peak Avenue, Merriman Place and Winslow Circle.",
+    "quote": "FOX HILL - LG: 4TH AVE, 5TH AVE, FOX HILL DR, GLENVIEW CT, GOLDEN LN, GREENWOOD LN, KARSH DR, WESTVIEW CT · FOX HILL 2 - LG: 5TH AVE, FOX HILL DR, MERRIMAN PL, WINSLOW CIR · FOX HILL 3 - LGV: CRAWFORD CIR, FOX HILL DR, HAYS CIR, LONGS PEAK AVE",
+    "source_url": "https://maps.bouldercounty.org/arcgis/rest/services/PARCELS/PARCELS_OWNER/MapServer/0",
+    "source_label": "Boulder County parcels (PARCELS_OWNER), Street and StrSuf of the Fox Hill filing lots",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4",
+      "5",
+      "2",
+      "3"
+    ],
+    "notes": "Same query as lot-sizes, 2026-09-26; FOX HILL REP A and FOX HILL 3RD FLG REPLAT A add no other streets."
+  },
+  {
+    "id": "longmont-co--fox-hill.course-edge-lots",
+    "layer": "place",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "On Boulder County's parcel map, 52 Fox Hill lots share a boundary with the Fox Hill Country Club and golf course parcel: 22 of Filing I's 97 lots, 12 in Filing II and 18 in Filing III.",
+    "quote": "Legal: FOX HILL COUNTRY CLUB & GOLF COURSE IN W 1/2 1-2N-69 · AcctType: COMMERCIAL · ParcelNo: 131501300016",
+    "source_url": "https://maps.bouldercounty.org/arcgis/rest/services/PARCELS/PARCELS_OWNER/MapServer/0",
+    "source_label": "Boulder County parcels (PARCELS_OWNER): course parcel 131501300016 and the Fox Hill filing lots, boundaries compared",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "52",
+      "22",
+      "97",
+      "12",
+      "18",
+      "1/2",
+      "131501300016"
+    ],
+    "notes": "Computed 2026-09-26: a lot counts when its polygon comes within 2 feet of the course parcel (136.5 acres by Shape.STArea); the count is the same at 40 feet (22/12/18), and 55 at 80 feet. The Rough and Ready Ditch lies inside the course parcel on the II/III side. Map-based, not a survey."
+  },
+  {
+    "id": "longmont-co--fox-hill.course-practice",
+    "layer": "place",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "The Fox Hill Club's course, designed by Frank Hummel and modified under a master plan by Dick Phelps, covers 130 acres with water in play on 9 of its 18 holes, greens of creeping bent grass and poa annua, a chipping green with a bunker beside it and a 7,600-square-foot putting green.",
+    "quote": "The Fox Hill Club features an 18-hole championship golf course designed by Frank Hummel and modified under a Master Plan designed by Dick Phelps. … It’s parkland style, 130-acre course, features beautifully manicured fairways lined by some 1,200 trees. … Water comes into play on 9 of the 18 holes. The greens are creeping bent grass and poa annua and the fairways are perennial ryegrass. … A chipping green with adjacent bunker and a 7,600 square foot putting green ensure that you keep all parts of your game in tip-top shape.",
+    "source_url": "https://thefoxhillclub.com/the-course",
+    "source_label": "The Fox Hill Club, The Course page",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "130",
+      "9",
+      "18",
+      "7600",
+      "1200"
+    ]
+  }
+]

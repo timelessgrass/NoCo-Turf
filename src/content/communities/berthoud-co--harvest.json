@@ -1,0 +1,286 @@
+{
+  "status": "draft",
+  "town": "berthoud-co",
+  "slug": "harvest",
+  "name": "Harvest",
+  "kind": "custom-homes",
+  "governing": {
+    "name": "Harvest Owners Association, Inc.",
+    "type": "hoa",
+    "url": "https://berthoudharvest.com/s/07-01-2021-Harvest-HOA-CCRs-As-Recorded.pdf",
+    "layerRefs": [
+      "berthoud-co--harvest.front-yard-30-lawn",
+      "berthoud-co--harvest.street-landscaping-no-turf",
+      "berthoud-co--harvest.arc-sole-authority-landscaping",
+      "berthoud-co--harvest.arc-30-days-deemed-disapproved"
+    ]
+  },
+  "title": "Artificial Turf & Putting Greens in Harvest, Berthoud | NoCo Turf Co.",
+  "description": "Harvest's covenants want each front yard at least 30% lawn, bar turf from the curb strip and treat a yard plan left unanswered for 30 days as denied.",
+  "h1": "Harvest's covenants require each front yard to be at least 30% lawn and never mention artificial turf.",
+  "display": {
+    "paint": "at least 30% lawn"
+  },
+  "lede": "Harvest is a custom-home neighborhood off Berthoud Parkway planned for 97 lots under one recorded Declaration, which a 2021 supplement stretched over Harvest Ridge South. It never mentions artificial turf or putting greens. It fixes a lawn share for the front yard, keeps turf out of the curbside strip and gives its Architectural Review Committee sole authority to approve any landscaping change.",
+  "answer": {
+    "question": "Can I put artificial turf or a putting green in a Harvest yard in Berthoud?",
+    "answer": "NoCo Turf Co. installs artificial turf and putting greens in Harvest, Berthoud, Colorado. Harvest's recorded covenants never name synthetic turf: they require at least 30% lawn in each front yard, bar turf from the curbside strip and give the Architectural Review Committee sole authority over any landscaping, approved only in writing."
+  },
+  "blocks": [
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Section 2.19",
+      "h2": "The Declaration sets a lawn share out front and never names artificial turf.",
+      "takeaway": "Harvest's Declaration requires each front yard to be at least 30% lawn and says turf is not allowed in the street landscaping between curb and sidewalk. Neither line says whether synthetic grass counts.",
+      "paras": [
+        "The rest of a front yard may be rock mulch with trees, flowers and shrubs. The curbside strip is the builder's to plant, with at least 1 shrub and 2 ornamental grasses for every 10 feet of street frontage.",
+        "Read in full on September 26, 2026, the Declaration, the 2021 supplement that brought Harvest Ridge South in and the 2022 amendment contain no mention of artificial turf, synthetic grass or putting greens. Whether a synthetic lawn counts toward the 30%, or falls under the curbside ban, depends on how the Architectural Review Committee reads Section 2.19; ask it in writing before you design a front yard around turf.",
+        "The back yard carries no lawn quota. What it does carry is a planting count along the house, 8 plants per 40 linear feet of rear foundation, and an irrigation rule: spray heads serve only lawn or groundcover, and every other planting gets drip, bubbler or subsurface lines."
+      ],
+      "layerRefs": [
+        "berthoud-co--harvest.front-yard-30-lawn",
+        "berthoud-co--harvest.street-landscaping-no-turf",
+        "berthoud-co--harvest.no-turf-named",
+        "berthoud-co--harvest.foundation-plantings-7-months",
+        "berthoud-co--harvest.irrigation-spray-lawn-only"
+      ],
+      "sources": [
+        "https://berthoudharvest.com/s/07-01-2021-Harvest-HOA-CCRs-As-Recorded.pdf",
+        "https://berthoudharvest.com/s/12-14-2021-Harvest-Supplemental-Declaration-Recorded.pdf",
+        "https://berthoudharvest.com/s/1-14-2022-Harvest-First-Amendment-to-Declaration-of-Covenants-Conditions-and-Restrictions-Recorded.pdf"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Article V",
+      "h2": "In Harvest, a plan the committee leaves unanswered for 30 days is denied.",
+      "paras": [
+        "Section 5.03 gives the Architectural Review Committee sole authority over any material change to a lot and lists the planting of lawns among them. No work starts before it approves, and only a written approval counts. For as long as the developer, HT Land Partners, owns any part of Harvest, it serves as that committee, unless it records an earlier end to that role.",
+        "The committee has 30 days from receiving everything it asked for. Plans it has neither approved nor disapproved by then are deemed disapproved as submitted, so silence is a no. It may refuse on purely aesthetic grounds and may attach changes to a yes.",
+        "An approval lapses if work hasn't started within one year, and the work must be finished within one year of starting. The committee can hand an application to a landscape architect or other professional at the owner's cost, and the Board sets any filing fee."
+      ],
+      "layerRefs": [
+        "berthoud-co--harvest.arc-sole-authority-landscaping",
+        "berthoud-co--harvest.declarant-serves-as-arc",
+        "berthoud-co--harvest.arc-30-days-deemed-disapproved",
+        "berthoud-co--harvest.arc-aesthetic-grounds",
+        "berthoud-co--harvest.arc-approval-one-year",
+        "berthoud-co--harvest.arc-professional-review-fees"
+      ],
+      "sources": [
+        "https://berthoudharvest.com/s/07-01-2021-Harvest-HOA-CCRs-As-Recorded.pdf"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "The submittal",
+      "h2": "A green reaches the committee drawn to scale, with its drainage and a planting table.",
+      "paras": [
+        "The Declaration's checklist for landscape plans wants a written and graphic scale, a north arrow, the house, decks, patios, fences and lot lines, every existing or proposed landscape element and light, specifications and a picture of any large feature, grading and drainage, a table of required against provided trees and plantings, and the type, size and color of any mulch or rock. The request goes in writing with two complete sets of plans.",
+        "On a new build, the builder's application makes the backyard landscape plan due when the home is finished and the certificate of occupancy is in, showing the square footage of irrigated and non-irrigated ground. That plan is the place to draw a green. Later changes go on the ancillary modification form, which asks for a diagram of the location and notes that association approval is not a building permit."
+      ],
+      "layerRefs": [
+        "berthoud-co--harvest.landscape-plan-submittal",
+        "berthoud-co--harvest.new-home-backyard-plan-due",
+        "berthoud-co--harvest.ancillary-modification-form"
+      ],
+      "sources": [
+        "https://berthoudharvest.com/s/07-01-2021-Harvest-HOA-CCRs-As-Recorded.pdf",
+        "https://berthoudharvest.com/s/Harvest-ARC-Request-Form-365-RPM-New-Construction.pdf",
+        "https://berthoudharvest.com/s/Harvest-ARC-Request-Form-365-RPM-ancillary.pdf"
+      ]
+    },
+    {
+      "kind": "housing",
+      "own": true,
+      "kicker": "Appendix A",
+      "h2": "The covenants' own pictures favor patios past the house, outdoor kitchens and rock steps.",
+      "paras": [
+        "Appendix A, the Declaration's illustrated list of encouraged and discouraged architecture, gives rear outdoor living a page of its own. It encourages patio and seating that extend past the house, covered patios with wood columns, an outdoor kitchen, rock landscaped steps, walkout patios and rock that carries a change in grade. On lots backing north it highly encourages a detailed rear, to keep curb appeal from the street.",
+        "Houses follow a Modern Farmhouse style with Modern Mountain accents, in subdued colors that blend with the landscape and with brick or stone on the front, which gives a backyard its material cues. The Declaration lists 31 lots in Harvest Ridge North, one in Johnson Subdivision Filing 2 and 65 planned in Harvest Ridge South; they run 0.22 to 0.35 acres, and houses sit at least 10 feet from each side line.",
+        "The same Declaration keeps play structures out of front and side yards and no taller than 15 feet, screens pools and hot tubs from neighbors and the street, wants water features filtered and sized to keep noise from next door, and asks that light sources not show off the lot where practicable, which bears on a lit green."
+      ],
+      "layerRefs": [
+        "berthoud-co--harvest.appendix-a-outdoor-living",
+        "berthoud-co--harvest.modern-farmhouse-style",
+        "berthoud-co--harvest.lot-count",
+        "berthoud-co--harvest.lots-setbacks",
+        "berthoud-co--harvest.play-pools-water-lighting"
+      ],
+      "sources": [
+        "https://berthoudharvest.com/s/Appendix-A-Architecture-1.pdf",
+        "https://berthoudharvest.com/s/07-01-2021-Harvest-HOA-CCRs-As-Recorded.pdf",
+        "https://berthoudharvest.com/"
+      ]
+    },
+    {
+      "kind": "soil",
+      "own": true,
+      "kicker": "Harvest Ridge South",
+      "h2": "The 2021 soils study found lean clay that tends to trap water once yards are irrigated.",
+      "paras": [
+        "The preliminary study for Harvest Ridge South describes a roughly 30-acre farm field between Berthoud Parkway and Highway 287, draining poor to fair toward the Little Thompson River about a quarter mile south. Its borings found sandy lean clay and lean clay with sand to about 15 feet, with low expansive potential and low load-bearing capability.",
+        "It warns that perched groundwater may develop once landscaping and irrigation go in, because the clay is relatively impermeable and tends to trap water, and it asks for sprinklers to stay at least 5 feet from foundation walls, with the ground sloping away from the house. Under turf or a green, that points to a base graded to carry water away from the walls to somewhere it can leave, not one that pools on the clay.",
+        "The study covers Harvest Ridge South only and left lot-by-lot criteria to later explorations. Colorado requires the builder of a new home to give the buyer a soils report summary at least 14 days before closing; that is the document to read before a base is planned."
+      ],
+      "layerRefs": [
+        "berthoud-co--harvest.geotech-drainage-site",
+        "berthoud-co--harvest.geotech-lean-clay",
+        "berthoud-co--harvest.geotech-perched-water",
+        "berthoud-co--harvest.geotech-foundation-irrigation",
+        "co-new-home-soils-report"
+      ],
+      "sources": [
+        "https://berthoudharvest.com/s/Harvest-Ridge-South-Geotech-Report.pdf",
+        "https://colorado.public.law/statutes/crs_6-6.5-101"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Fences and common ground",
+      "h2": "Harvest's recorded fence rule and its website disagree, so settle the fence before the green.",
+      "paras": [
+        "A January 2022 amendment rewrote the fence section: every fence 5 feet high, wood-grain concrete or a similar material dyed a natural tan, in a split-rail style, apart from the privacy fencing along Berthoud Parkway and the south edge of Harvest Ridge South. The community website's fencing page still shows 5-foot Bufftech in Weathered Blend and a Big Rail 4-rail horse fence as approved. The two conflict. It depends on which one the Architectural Review Committee applies, so ask it before a fence line is drawn around a green.",
+        "The shared ground is native grass by design. The HOA's landscaping page says those grasses are trimmed a few times a year and conserve water, and that replacing them with sod would nearly double HOA fees. Harvest is not part of a metropolitan district, so no district design review sits on top of the association's committee."
+      ],
+      "layerRefs": [
+        "berthoud-co--harvest.fence-first-amendment-2022",
+        "berthoud-co--harvest.fence-website-approved",
+        "berthoud-co--harvest.native-grass-common-areas",
+        "berthoud-co--harvest.no-metro-district"
+      ],
+      "sources": [
+        "https://berthoudharvest.com/s/1-14-2022-Harvest-First-Amendment-to-Declaration-of-Covenants-Conditions-and-Restrictions-Recorded.pdf",
+        "https://berthoudharvest.com/fencing-landscaping",
+        "https://berthoudharvest.com/faq"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does artificial turf count toward Harvest's 30% front-lawn rule?",
+      "a": "The Declaration doesn't say: it never mentions artificial turf and doesn't define lawn. It depends on how the Architectural Review Committee reads Section 2.19, so ask it in writing before drawing a front yard around synthetic grass. Colorado law also requires every HOA to pre-approve at least three water-wise garden designs for front yards; ask the committee for Harvest's.",
+      "layerRefs": [
+        "berthoud-co--harvest.front-yard-30-lawn",
+        "berthoud-co--harvest.no-turf-named",
+        "co-hoa-front-yard-designs"
+      ]
+    },
+    {
+      "q": "What happens if Harvest's committee never answers my plan?",
+      "a": "The plan is denied. Section 5.07 gives the committee 30 days from receiving everything it asked for, and plans it hasn't acted on by then are deemed disapproved as submitted. Keep a dated copy of what you sent and follow up well before the 30 days run out. The [HOA approval guide](/guides/hoa-turf-approval/) covers putting the request together.",
+      "layerRefs": [
+        "berthoud-co--harvest.arc-30-days-deemed-disapproved"
+      ]
+    },
+    {
+      "q": "When does a new Harvest home's yard have to be finished?",
+      "a": "Within 7 months of the certificate of occupancy, under Section 2.19. The builder's application makes the backyard landscape plan due when that certificate arrives, so a green planned from the start goes on that plan, with the irrigated and non-irrigated square footage the form asks for.",
+      "layerRefs": [
+        "berthoud-co--harvest.foundation-plantings-7-months",
+        "berthoud-co--harvest.new-home-backyard-plan-due"
+      ]
+    },
+    {
+      "q": "Does the Town of Berthoud have a say in a Harvest yard?",
+      "a": "Possibly. The town's June 2026 landscape design guidelines say artificial turf in new Suburban and Old Town Residential projects belongs only in private backyards or on sports fields. Ask Berthoud Planning whether that line reaches a given Harvest lot before you plan turf out front. Harvest's own change form adds that association approval is not a building permit.",
+      "layerRefs": [
+        "berthoud-co.ldg-artificial-turf-backyards",
+        "berthoud-co--harvest.ancillary-modification-form"
+      ]
+    },
+    {
+      "q": "Where does a Harvest yard's water come from?",
+      "a": "The Town of Berthoud, according to the community's utilities page. When turf replaces lawn, plan the sprinklers with it: the Declaration lets spray heads serve only lawn or groundcover, wants the rest on drip, bubbler or subsurface lines, and asks for a controller that can water within any imposed restriction.",
+      "layerRefs": [
+        "berthoud-co--harvest.town-water",
+        "berthoud-co--harvest.irrigation-spray-lawn-only"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Declaration of Covenants, Conditions, and Restrictions for Harvest (recorded July 1, 2021, Larimer County Reception No. 20210063769), with Appendix A",
+      "url": "https://berthoudharvest.com/s/07-01-2021-Harvest-HOA-CCRs-As-Recorded.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Supplemental Declaration for Harvest, annexing Harvest Ridge South (recorded December 16, 2021)",
+      "url": "https://berthoudharvest.com/s/12-14-2021-Harvest-Supplemental-Declaration-Recorded.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "First Amendment to the Declaration for Harvest, replacing Sec. 2.12 Fences (recorded January 14, 2022)",
+      "url": "https://berthoudharvest.com/s/1-14-2022-Harvest-First-Amendment-to-Declaration-of-Covenants-Conditions-and-Restrictions-Recorded.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Harvest Declaration, Appendix A: Encouraged and Discouraged Architecture",
+      "url": "https://berthoudharvest.com/s/Appendix-A-Architecture-1.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Harvest, Application for ARC New Construction (submittal checklist)",
+      "url": "https://berthoudharvest.com/s/Harvest-ARC-Request-Form-365-RPM-New-Construction.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Harvest, Application for ACC Ancillary Modification",
+      "url": "https://berthoudharvest.com/s/Harvest-ARC-Request-Form-365-RPM-ancillary.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Northern Colorado Geotech, Preliminary Geotechnical Engineering Report, Harvest Ridge South (July 26, 2021)",
+      "url": "https://berthoudharvest.com/s/Harvest-Ridge-South-Geotech-Report.pdf",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Berthoud Harvest community website, home page (lots and setbacks)",
+      "url": "https://berthoudharvest.com/",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Berthoud Harvest community website, FAQ (metro district)",
+      "url": "https://berthoudharvest.com/faq",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Berthoud Harvest community website, Fencing + Landscaping",
+      "url": "https://berthoudharvest.com/fencing-landscaping",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Berthoud Harvest community website, Utilities + Community Services",
+      "url": "https://berthoudharvest.com/utilities-services",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "Town of Berthoud Landscape Design Guidelines (updated June 30, 2026, Ordinance 1383)",
+      "url": "https://www.berthoud.org/DocumentCenter/View/7674",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "C.R.S. 38-33.3-106.5(1)(i.5), added by SB23-178 (signed act)",
+      "url": "https://leg.colorado.gov/bill_files/92307/download",
+      "checked": "2026-09-26"
+    },
+    {
+      "label": "C.R.S. 6-6.5-101(1), soils report disclosure to new-home buyers (text via Colorado.Public.Law)",
+      "url": "https://colorado.public.law/statutes/crs_6-6.5-101",
+      "checked": "2026-09-26"
+    }
+  ],
+  "checked": "2026-09-26",
+  "needsFromBrian": [
+    "Any NoCo job inside Harvest (Harvest Ridge North or South, off Berthoud Parkway): month, rough size, turf or putting green, front or back yard, and what the Architectural Review Committee approved or conditioned",
+    "Camera-original photos of a Harvest job (before, base and finished), added to photos.ts with community 'berthoud-co--harvest' so the page can pass its gate",
+    "Whether Harvest's committee has ever ruled on synthetic turf counting toward the Sec. 2.19 30% front-lawn rule, or on synthetic turf in the curbside strip",
+    "Any Design Guidelines the committee adopted under Sec. 5.05: they sit behind the owners' portal login, not on the public site",
+    "Which fence rule the committee applies today: the recorded 2022 concrete split rail or the Bufftech and Big Rail fencing the website shows",
+    "Confirmation that Berthoud is a town you serve today, and that NoCo installs backyard putting greens today (services.ts putting-greens is unconfirmed)"
+  ]
+}

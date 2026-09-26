@@ -1,0 +1,489 @@
+[
+  {
+    "id": "berthoud-co--harvest.front-yard-30-lawn",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Harvest's Declaration requires each front yard to be at least 30% lawn and lets the rest be rock mulch with trees, flowers and shrubs.",
+    "quote": "The front yard of each Lot shall be at least 30% lawn. The remaining portion can be mulched with rock and include trees, flowers, and shrubs.",
+    "source_url": "https://berthoudharvest.com/s/07-01-2021-Harvest-HOA-CCRs-As-Recorded.pdf",
+    "source_label": "Declaration of Covenants, Conditions, and Restrictions for Harvest (recorded July 1, 2021, Larimer County Reception No. 20210063769), Sec. 2.19, Landscaping",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "30"
+    ],
+    "notes": "Scanned PDF, read page by page (OCR checked against the page image) 2026-09-26. The Declaration does not define \"lawn\" and never names artificial or synthetic turf, so whether synthetic grass counts toward the 30% is the ARC's reading, not a settled rule."
+  },
+  {
+    "id": "berthoud-co--harvest.street-landscaping-no-turf",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Harvest's Declaration has the builder plant the strip between curb and sidewalk with at least 1 shrub and 2 ornamental grasses for every 10 feet of street frontage, and does not allow turf there.",
+    "quote": "Street Landscaping (landscape between street curb and sidewalk) shall be installed by builder and consist of the following. … Plantings within the tree lawn will have a minimum of 1 shrub and 2 ornamental grasses for every 10 feet of street frontage. … Turf is not allowed in the street landscaping area.",
+    "source_url": "https://berthoudharvest.com/s/07-01-2021-Harvest-HOA-CCRs-As-Recorded.pdf",
+    "source_label": "Declaration of Covenants, Conditions, and Restrictions for Harvest (recorded July 1, 2021, Larimer County Reception No. 20210063769), Sec. 2.19, Landscaping (Street Landscaping)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "2",
+      "10"
+    ],
+    "notes": "\"Turf\" is not defined; it may mean live turfgrass only. Whether it reaches synthetic turf is unsettled: ask the ARC."
+  },
+  {
+    "id": "berthoud-co--harvest.no-turf-named",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Harvest's recorded Declaration, its December 2021 Supplemental Declaration and its January 2022 First Amendment never mention artificial turf, synthetic grass or putting greens (read September 26, 2026).",
+    "quote": "Turf is not allowed in the street landscaping area.",
+    "source_url": "https://berthoudharvest.com/s/07-01-2021-Harvest-HOA-CCRs-As-Recorded.pdf",
+    "source_label": "Declaration of Covenants, Conditions, and Restrictions for Harvest (recorded July 1, 2021, Larimer County Reception No. 20210063769), Sec. 2.19 (the only turf line); also searched: Supplemental Declaration (recorded December 16, 2021) and First Amendment (recorded January 14, 2022)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2021",
+      "2022",
+      "26",
+      "2026",
+      "41"
+    ],
+    "notes": "Search method, 2026-09-26: the Declaration (Reception No. 20210063769, 41 pages, with Appendix A and Appendix B), the Supplemental Declaration (Reception No. 20210113627) and the First Amendment (Reception No. 20220003629), all scanned, were OCR'd page by page and searched; none contains \"artificial\", \"synthetic\" or \"putting\", and the quoted Sec. 2.19 sentence is the only use of \"turf\". Honest NOT FOUND across the three recorded documents posted at https://berthoudharvest.com/s/12-14-2021-Harvest-Supplemental-Declaration-Recorded.pdf and https://berthoudharvest.com/s/1-14-2022-Harvest-First-Amendment-to-Declaration-of-Covenants-Conditions-and-Restrictions-Recorded.pdf as well. Any Design Guidelines the ARC adopted under Sec. 5.05 are not on the public site (the owners' portal requires a login) and were not read."
+  },
+  {
+    "id": "berthoud-co--harvest.foundation-plantings-7-months",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Harvest's Declaration requires each lot to be landscaped within 7 months of the certificate of occupancy, with at least one tree and foundation plantings of 10, 5 and 8 plants per 40 linear feet along street-facing, side and rear walls.",
+    "quote": "Each Lot shall be suitably landscaped with grasses, shrubs, and other groundcover within seven (7) months of certificate of occupancy. … A minimum of one (1) ornamental, shade or evergreen tree shall be installed. Foundation plantings adjacent to the current and future street frontages are required to be planted … at a rate of 10 plants per 40 linear feet of foundation. Foundation plantings on side yards away from street frontages to be planted … at a rate of 5 plants per 40 linear feet of foundation. Foundation plantings on rear yards are required to be planted with a mixture of deciduous and evergreen shrubs with accents of perennials and ornamental grasses at a rate of 8 plants per 40 linear feet of foundation.",
+    "source_url": "https://berthoudharvest.com/s/07-01-2021-Harvest-HOA-CCRs-As-Recorded.pdf",
+    "source_label": "Declaration of Covenants, Conditions, and Restrictions for Harvest (recorded July 1, 2021, Larimer County Reception No. 20210063769), Sec. 2.19, Landscaping (Private lot landscaping)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "7",
+      "10",
+      "5",
+      "8",
+      "40"
+    ]
+  },
+  {
+    "id": "berthoud-co--harvest.irrigation-spray-lawn-only",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Harvest's Declaration limits spray irrigation to lawns and groundcovers, sends the rest of the plantings to drip, bubbler or subsurface lines, and asks for controllers that can water within any imposed restriction.",
+    "quote": "Drip irrigation is strongly encouraged to reduce water consumption. All irrigation systems should include a controller which can be set to irrigate within the limits of any imposed water restriction. … All private irrigation systems shall utilize an automated/programmable sprinkler irrigation system with a rain shut off. Spray irrigation shall be limited to lawn areas or ground covers, with the remainder of plantings receiving drip, bubbler, or sub-surface irrigation.",
+    "source_url": "https://berthoudharvest.com/s/07-01-2021-Harvest-HOA-CCRs-As-Recorded.pdf",
+    "source_label": "Declaration of Covenants, Conditions, and Restrictions for Harvest (recorded July 1, 2021, Larimer County Reception No. 20210063769), Sec. 2.19, Landscaping",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "berthoud-co--harvest.arc-sole-authority-landscaping",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Harvest's Architectural Review Committee has sole authority to approve or disapprove any material change to a lot, landscaping and lawns included, and no work may start until it approves in writing.",
+    "quote": "The Architectural Review Committee shall have sole authority to approve or disapprove any of material change or alterations on or to a Lot, including but not limited to the following: … (iv) the landscaping or planting of trees, shrubs, lawns, or plants … No work shall be commenced to impact any Material Change until the Architectural Review Committee approves the change. No proposed Material Change shall be deemed to have been approved by the Architectural Review Committee unless such approval is in writing.",
+    "source_url": "https://berthoudharvest.com/s/07-01-2021-Harvest-HOA-CCRs-As-Recorded.pdf",
+    "source_label": "Declaration of Covenants, Conditions, and Restrictions for Harvest (recorded July 1, 2021, Larimer County Reception No. 20210063769), Secs. 5.03(b) and 5.04",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "berthoud-co--harvest.declarant-serves-as-arc",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Under Harvest's Declaration, the developer, HT Land Partners, serves as the Architectural Review Committee for as long as it owns any part of Harvest.",
+    "quote": "Declarant's rights reserved under this Article shall continue so long as Declarant owns any portion of the Property, unless earlier terminated in a written instrument executed and recorded by Declarant. Until such time, Declarant shall serve as the Architectural Review Committee for the Association and shall have all powers and obligations are provided for in this Article.",
+    "source_url": "https://berthoudharvest.com/s/07-01-2021-Harvest-HOA-CCRs-As-Recorded.pdf",
+    "source_label": "Declaration of Covenants, Conditions, and Restrictions for Harvest (recorded July 1, 2021, Larimer County Reception No. 20210063769), Sec. 5.01",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Declarant = HT Land Partners, LLC (Sec. 1.01). The public site still lists lots and builders (September 2026), but who sits on the committee today was not confirmed; the page states the rule, not the current membership."
+  },
+  {
+    "id": "berthoud-co--harvest.arc-30-days-deemed-disapproved",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Harvest's committee must approve or disapprove plans within 30 days of receiving everything it asked for, and plans it has not acted on by then are deemed disapproved.",
+    "quote": "The Architectural Review Committee shall approve or disapprove plans, specifications, and details within thirty (30) days from the receipt of all materials requested by the Committee and shall notify the Owner submitting them of such approval or disapproval in writing. If all samples, plans, specifications, and details requested by the Committee have been submitted and are not approved or disapproved within such thirty (30) day period, they shall be deemed disapproved as submitted.",
+    "source_url": "https://berthoudharvest.com/s/07-01-2021-Harvest-HOA-CCRs-As-Recorded.pdf",
+    "source_label": "Declaration of Covenants, Conditions, and Restrictions for Harvest (recorded July 1, 2021, Larimer County Reception No. 20210063769), Sec. 5.07",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "30"
+    ]
+  },
+  {
+    "id": "berthoud-co--harvest.arc-aesthetic-grounds",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Harvest's committee may refuse plans on any reasonable ground, purely aesthetic ones included, and may condition an approval on changes.",
+    "quote": "Refusal of approval of plans, location, or specifications may be based upon any reasonable grounds, including purely aesthetic considerations, which in the sole discretion of the Architectural Review Committee shall seem sufficient, reasonable, and not capricious. The Architectural Review Committee may condition its approval of any proposed improvement to a Lot upon the making changes as the committee may deem appropriate.",
+    "source_url": "https://berthoudharvest.com/s/07-01-2021-Harvest-HOA-CCRs-As-Recorded.pdf",
+    "source_label": "Declaration of Covenants, Conditions, and Restrictions for Harvest (recorded July 1, 2021, Larimer County Reception No. 20210063769), Sec. 5.07",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "berthoud-co--harvest.arc-approval-one-year",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "An approval from Harvest's committee expires if work has not started within one year, and approved work must be finished within one year of starting.",
+    "quote": "Any improvements approved by the Architectural Review Committee shall be timely commenced, and in no event, commenced later than one (1) year from the date of such approval. If not commenced within such time, the approval of the Architectural Review Committee shall automatically expire … Once approved improvements have been commenced, all such improvements shall be completed no later than one (1) year from the date of commencement or sooner if deemed necessary by the Architectural Review Committee.",
+    "source_url": "https://berthoudharvest.com/s/07-01-2021-Harvest-HOA-CCRs-As-Recorded.pdf",
+    "source_label": "Declaration of Covenants, Conditions, and Restrictions for Harvest (recorded July 1, 2021, Larimer County Reception No. 20210063769), Sec. 5.09",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "berthoud-co--harvest.arc-professional-review-fees",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Harvest's committee may send an application to a landscape architect or other professional at the applicant's cost, and may require a filing fee set by the Board.",
+    "quote": "The Architectural Review Committee shall have the power to delegate the responsibility for reviewing any application submitted to the Architectural Review Committee to a professional architect, landscape architect, engineer or other professional person who is qualified to pass on the issues raised in the application. The Architectural Review Committee shall also have the power to require that the applicant pay the fees reasonably incurred by the Architectural Review Committee in retaining such professional to review the application submitted. … The Architectural Review Committee may require a reasonable filing fee to accompany the submission of plans to it in an amount to be fixed by the Board",
+    "source_url": "https://berthoudharvest.com/s/07-01-2021-Harvest-HOA-CCRs-As-Recorded.pdf",
+    "source_label": "Declaration of Covenants, Conditions, and Restrictions for Harvest (recorded July 1, 2021, Larimer County Reception No. 20210063769), Secs. 5.03(d) and 5.08",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "berthoud-co--harvest.landscape-plan-submittal",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Harvest's Declaration asks a landscape plan for a written and graphic scale, a north arrow, the house, decks, patios, fences and lot lines, every landscape element and light, specifications and a picture of any large feature, grading and drainage, a required-versus-provided planting table and the mulch or rock, sent in writing with two complete sets of plans.",
+    "quote": "Request for approval of design shall be made to the Architectural Review Committee in writing accompanied by two (2) complete sets of plans and applicable specifications for all proposed improvements to be constructed on any lot. … For Landscape Plans: Homeowner's name(s), address, and phone number(s); Scale – both written and graphic; North Arrow; Location of residence, existing decks, patios, fences, and lot lines; Common names of all proposed plant material; Location of any existing or proposed landscape elements; Location of any existing or proposed landscape lighting; Detailed specifications and picture of any structures or large features; Related grading and drainage information; Table showing required vs provided for all trees and plantings; Type, size, and color of mulch or decorative rock",
+    "source_url": "https://berthoudharvest.com/s/07-01-2021-Harvest-HOA-CCRs-As-Recorded.pdf",
+    "source_label": "Declaration of Covenants, Conditions, and Restrictions for Harvest (recorded July 1, 2021, Larimer County Reception No. 20210063769), Secs. 5.06 and 5.07 (submittal requirements)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "berthoud-co--harvest.new-home-backyard-plan-due",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Harvest's new-construction application makes the backyard landscape plan due when the home is complete and its certificate of occupancy is received, with the square footage of irrigated and non-irrigated areas.",
+    "quote": "Backyard Landscape Plans (Plan due at time of completion of home/certificate of occupancy received) Detailed landscaping plans including. but not limited to types of trees, grass, shrubs, rock, material, dimensions of berms, square footage of irrigated vs. non-irrigated areas that complies with ACC guidelines, zones, etc.",
+    "source_url": "https://berthoudharvest.com/s/Harvest-ARC-Request-Form-365-RPM-New-Construction.pdf",
+    "source_label": "Harvest, Application for ARC New Construction (365 Real Property Management form), submittal checklist",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The same form makes the street landscape plan due at completion of the foundation."
+  },
+  {
+    "id": "berthoud-co--harvest.ancillary-modification-form",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Harvest's form for changes after a home is built asks for a diagram of the location and description of the work, promises a decision within 30 days of receiving all materials, and says association approval is not a building permit.",
+    "quote": "Please be specific. Supply a diagram/map of your plan indicating location and description of item(s) requested, color samples, etc. if applicable. … I understand the Association approval does not constitute approval of the local building department and that I may be required to obtain a building permit. … The decision of the committee shall be made within 30 days after receipt by the committee of all materials required unless such time frame is extended by mutual agreement.",
+    "source_url": "https://berthoudharvest.com/s/Harvest-ARC-Request-Form-365-RPM-ancillary.pdf",
+    "source_label": "Harvest, Application for ACC Ancillary Modification (365 Real Property Management form)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "30"
+    ]
+  },
+  {
+    "id": "berthoud-co--harvest.appendix-a-outdoor-living",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Appendix A of Harvest's Declaration encourages rear outdoor living space such as patio and seating that extend past the house, covered patios with wood columns, an outdoor kitchen, rock landscaped steps and walkout patios, and a detailed rear on lots backing north.",
+    "quote": "Rear Porch/Outside Living Space: Encouraged: … Patio and seating extending past structure; Covered patio with wood columns; Outdoor kitchen; Stone chimney … Detailed rear of home to maintain curb appeal from street highly encouraged along lots backing north … Rock landscaped steps; Walkout patio area below main level covered deck … Use of rock to transition elevations",
+    "source_url": "https://berthoudharvest.com/s/Appendix-A-Architecture-1.pdf",
+    "source_label": "Harvest Declaration, Appendix A: Encouraged and Discouraged Architecture (Rear Porch/Outside Living Space)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Same appendix is bound into the recorded Declaration (pages 34 to 40)."
+  },
+  {
+    "id": "berthoud-co--harvest.modern-farmhouse-style",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Harvest's Declaration sets the house style as Modern Farmhouse with Modern Mountain accents in subdued colors that blend with the natural landscape, with at least 10% brick or stone on the front elevation.",
+    "quote": "Exterior architecture is to follow the style of Modern Farmhouse with Modern Mountain accents. Colors of the exterior materials used on the building must be subdued and blend with the colors of the natural landscape. … A minimum of 10% brick or stone trim is required on the front facing elevation of the dwelling.",
+    "source_url": "https://berthoudharvest.com/s/07-01-2021-Harvest-HOA-CCRs-As-Recorded.pdf",
+    "source_label": "Declaration of Covenants, Conditions, and Restrictions for Harvest (recorded July 1, 2021, Larimer County Reception No. 20210063769), Sec. 2.03",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "10"
+    ]
+  },
+  {
+    "id": "berthoud-co--harvest.play-pools-water-lighting",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Harvest's Declaration keeps play structures out of front and side yards and under 15 feet with committee approval, screens pools and hot tubs, wants water features filtered and sized to keep noise from neighbors, and asks that exterior light sources not be visible off the lot where practicable.",
+    "quote": "Play structures and equipment such as trampolines, swing sets, and play surfaces cannot be located in front or side yards. Play structures must not exceed fifteen (15) feet in height … All play structures and/or equipment must be approved by the Architectural Review Committee prior to installation. … Any outdoor swimming pools, spas, hot tubs, Jacuzzis, or other similar facilities shall be screened from the view of adjacent lots and right-of-way … Water features are to be filtered and maintained in good working order. Water features should be sized and located as to minimize noise pollution to adjacent neighbors. … Light pollution shall be minimized, with light sources not visible off the Lot to the extent practicable.",
+    "source_url": "https://berthoudharvest.com/s/07-01-2021-Harvest-HOA-CCRs-As-Recorded.pdf",
+    "source_label": "Declaration of Covenants, Conditions, and Restrictions for Harvest (recorded July 1, 2021, Larimer County Reception No. 20210063769), Secs. 2.19, 2.21, 2.22 and 2.23",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "15"
+    ]
+  },
+  {
+    "id": "berthoud-co--harvest.lot-count",
+    "layer": "housing",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Harvest's Declaration counts 31 lots in Harvest Ridge North, 1 in Johnson Subdivision Filing 2 and 65 planned in Harvest Ridge South, 97 in all.",
+    "quote": "There are thirty-one (31) Lots within Harvest Ridge North, one (1) Lot within the Johnson Subdivision Filing 2, and sixty-five (65) Lots planned within Harvest Ridge South.",
+    "source_url": "https://berthoudharvest.com/s/07-01-2021-Harvest-HOA-CCRs-As-Recorded.pdf",
+    "source_label": "Declaration of Covenants, Conditions, and Restrictions for Harvest (recorded July 1, 2021, Larimer County Reception No. 20210063769), Sec. 1.01 (\"Lot\")",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "31",
+      "1",
+      "2",
+      "65",
+      "97"
+    ],
+    "notes": "Harvest Ridge South was annexed by the Supplemental Declaration recorded December 16, 2021; its plat was later replatted (Replat A, recorded 2023). The lot count is the Declaration's, not a count of today's plat."
+  },
+  {
+    "id": "berthoud-co--harvest.lots-setbacks",
+    "layer": "housing",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Harvest describes its lots as 0.22 to 0.35 acres, with houses at least 10 feet from each side lot line instead of the typical 5.",
+    "quote": "We have .22 to .35 acre lots. Setback minimums are 10 feet from the side of the house to the lot line, so homes are placed farther apart than the typical 5-foot setback.",
+    "source_url": "https://berthoudharvest.com/",
+    "source_label": "Berthoud Harvest community website, home page",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "0.22",
+      "0.35",
+      "10",
+      "5",
+      "22",
+      "35"
+    ],
+    "notes": "Declaration Sec. 2.18 matches the side setback: no primary residence nearer than 10 feet to any side lot line, 15 feet to the right-of-way."
+  },
+  {
+    "id": "berthoud-co--harvest.no-metro-district",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Harvest is not part of a metropolitan district and has no metro district tax, so no district design review sits on top of its homeowners association's committee.",
+    "quote": "Harvest is not part of a metropolitan district and does not have a metro district tax.",
+    "source_url": "https://berthoudharvest.com/faq",
+    "source_label": "Berthoud Harvest community website, FAQ (\"Is there a metro tax in Harvest Community?\")",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "berthoud-co--harvest.native-grass-common-areas",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Harvest's HOA says the native grasses in its common areas are trimmed a few times a year and conserve water, and that replacing them with sod would nearly double HOA fees.",
+    "quote": "This map highlights the native seed grasses throughout Harvest, an intentional choice that reflects our respect for the natural Colorado landscape and reduces HOA costs. These grasses require minimal maintenance. They are trimmed a few times a year, conserve water, have deeper roots to hold soil. … Replacing these native grasses with sod would nearly double HOA fees due to increased water use, fertilizer, and weekly mowing.",
+    "source_url": "https://berthoudharvest.com/fencing-landscaping",
+    "source_label": "Berthoud Harvest community website, Fencing + Landscaping (\"Harvest Grasses Explained\")",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "berthoud-co--harvest.fence-first-amendment-2022",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Harvest's 2022 First Amendment makes every fence 5 feet high, of wood-grain concrete or similar material dyed a natural tan, in a split-rail style, except the privacy fencing along Berthoud Parkway and the south edge of Harvest Ridge South.",
+    "quote": "To ensure continuity throughout the neighborhood, all fencing shall be five (5) foot high fencing to be made of concrete with wood grain or similar material. Concrete shall be dyed (not painted) in the color of Solomon Colors 338 Leather or an equivalent natural tan color approved by the Architectural Review Committee. All fences shall be in the style of split rail with the exception of the five (5) foot high privacy fencing adjacent to the Berthoud Parkway Right of Way and along the south perimeter of Harvest Ridge South per the development documents approved by the Town.",
+    "source_url": "https://berthoudharvest.com/s/1-14-2022-Harvest-First-Amendment-to-Declaration-of-Covenants-Conditions-and-Restrictions-Recorded.pdf",
+    "source_label": "First Amendment to Declaration of Covenants, Conditions, and Restrictions for Harvest, replacing Sec. 2.12 (recorded January 14, 2022, Larimer County Reception No. 20220003629)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2022",
+      "5",
+      "338"
+    ],
+    "notes": "Conflicts with the community website's fencing page (fence-website-approved), which still shows the original Sec. 2.12 products. Unsettled: ask the ARC."
+  },
+  {
+    "id": "berthoud-co--harvest.fence-website-approved",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Harvest's community website still shows 5-foot Bufftech fencing in Weathered Blend and a Big Rail 4-rail horse fence as its approved fencing.",
+    "quote": "APPROVED FENCING Samples of Approved Harvest Fencing Bufftech - 5’ - Weathered Blend Colour Big Rail - 4 Rail Horse Fence",
+    "source_url": "https://berthoudharvest.com/fencing-landscaping",
+    "source_label": "Berthoud Harvest community website, Fencing + Landscaping (\"Approved Fencing\")",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5",
+      "4"
+    ],
+    "notes": "Matches the original Declaration Sec. 2.12 (July 2021), which the First Amendment replaced in January 2022."
+  },
+  {
+    "id": "berthoud-co--harvest.town-water",
+    "layer": "utility",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Harvest's community website lists the Town of Berthoud as its water and sewer provider.",
+    "quote": "BERTHOUD UTILITIES Water and Sewer - Town of Berthoud",
+    "source_url": "https://berthoudharvest.com/utilities-services",
+    "source_label": "Berthoud Harvest community website, Utilities + Community Services",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The common-area irrigation plans show domestic water meters as the points of connection; no non-potable system was found."
+  },
+  {
+    "id": "berthoud-co--harvest.geotech-lean-clay",
+    "layer": "soil",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "The 2021 preliminary soils study for Harvest Ridge South found sandy lean clay and lean clay with sand to about 15 feet, with low expansive potential and low load-bearing capability, and left lot-by-lot criteria to later explorations.",
+    "quote": "Soils at the site generally consisted of varying layers of sandy lean clay and/or lean clay with sand to depths of approximately 15 feet. … Laboratory test results indicate that the soils have low expansive potential and low load bearing capabilities. … Based on the preliminary nature of this exploration, lot specific design criteria should be based on future explorations when site grading and structure placement is complete.",
+    "source_url": "https://berthoudharvest.com/s/Harvest-Ridge-South-Geotech-Report.pdf",
+    "source_label": "Northern Colorado Geotech, Preliminary Geotechnical Engineering Report, Harvest Ridge South (Project No. 133-21, July 26, 2021)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2021",
+      "15"
+    ],
+    "notes": "Six borings drilled June 24, 2021, to about 15 feet; no groundwater found to that depth. Covers Harvest Ridge South only, not Harvest Ridge North."
+  },
+  {
+    "id": "berthoud-co--harvest.geotech-drainage-site",
+    "layer": "soil",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "The Harvest Ridge South soils study describes a roughly 30-acre farm field between Berthoud Parkway and Highway 287 whose surface drainage is poor to fair toward the Little Thompson River, about a quarter mile south.",
+    "quote": "The site is a roughly 30 acre site that is currently used for agricultural production. The site is vegetated with alfalfa and native grasses. Overall surface drainage is poor to fair toward the Little Thompson River located approximately ¼-mile south of the site. The property is bordered to the east by Berthoud Parkway and west by Highway 287.",
+    "source_url": "https://berthoudharvest.com/s/Harvest-Ridge-South-Geotech-Report.pdf",
+    "source_label": "Northern Colorado Geotech, Preliminary Geotechnical Engineering Report, Harvest Ridge South (Project No. 133-21, July 26, 2021)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "30",
+      "287"
+    ]
+  },
+  {
+    "id": "berthoud-co--harvest.geotech-perched-water",
+    "layer": "soil",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "The Harvest Ridge South soils study warns that perched groundwater may develop once landscaping and irrigation go in, because the clay soils are relatively impermeable and tend to trap water.",
+    "quote": "Perched groundwater may occur at times since the subsurface soils are relatively impermeable and tend to trap water. Completion of site development, including installation of landscaping and irrigation systems, may lead to perched groundwater development.",
+    "source_url": "https://berthoudharvest.com/s/Harvest-Ridge-South-Geotech-Report.pdf",
+    "source_label": "Northern Colorado Geotech, Preliminary Geotechnical Engineering Report, Harvest Ridge South (Project No. 133-21, July 26, 2021)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "berthoud-co--harvest.geotech-foundation-irrigation",
+    "layer": "soil",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "The Harvest Ridge South soils study says sprinklers should stay at least 5 feet from foundation walls, irrigation next to the foundation should be minimized, and ground should slope about 10 percent for 10 feet away from the walls.",
+    "quote": "In areas where sidewalks or paving do not immediately adjoin the structure, we recommend that protective slopes be provided with a minimum grade of approximately 10 percent for at least 10 feet from perimeter walls. … Sprinkler systems should not be installed within 5 feet of foundation walls. Landscaped irrigation adjacent to the foundation system should be minimized or eliminated.",
+    "source_url": "https://berthoudharvest.com/s/Harvest-Ridge-South-Geotech-Report.pdf",
+    "source_label": "Northern Colorado Geotech, Preliminary Geotechnical Engineering Report, Harvest Ridge South (Project No. 133-21, July 26, 2021)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5",
+      "10"
+    ]
+  }
+]
