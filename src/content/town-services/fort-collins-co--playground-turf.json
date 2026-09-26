@@ -11,7 +11,7 @@
   "lede": "For play turf in Fort Collins, the rule turns on whose ground it is. A backyard playset on an existing house lot sits outside the city's development turf section. A new park, a child care center or an HOA play area drawn into a development plan sits inside it, where the uses allowed thirsty live grass start with playgrounds.",
   "answer": {
     "question": "Can I put artificial turf under a playset in Fort Collins?",
-    "answer": "On an existing single- or two-unit house lot, yes: the Land Use Code's turf section doesn't apply. In a new development's landscape plan, Fort Collins allows artificial turf only on an athletic field of play, by the Director's exception, while high-water live turf may go at playgrounds. Under any playset, fall height decides the surfacing. Not legal advice."
+    "answer": "On an existing single- or two-unit lot, yes: the code's turf section doesn't apply. NoCo Turf Co. installs playground turf in Fort Collins. In a new development's landscape plan, artificial turf goes only on an athletic field of play, by the Director's exception, though high-water live turf may go at playgrounds. Fall height decides the surfacing. Not legal advice."
   },
   "blocks": [
     {
@@ -55,7 +55,10 @@
   "faq": [
     {
       "q": "What should be under a playset, turf or not?",
-      "a": "A surface rated for the fall height. The U.S. Consumer Product Safety Commission's handbook says a surface's critical height rating should be greater than or equal to the fall height of the highest equipment, that grass and dirt aren't protective surfacing, and that carpeting and mats aren't appropriate unless tested to ASTM F1292. The build side is on the [playground turf page](/services/playground-turf/)."
+      "a": "A surface rated for the fall height. The U.S. Consumer Product Safety Commission's handbook says a surface's critical height rating should be greater than or equal to the fall height of the highest equipment, that grass and dirt aren't protective surfacing, and that carpeting and mats aren't appropriate unless tested to ASTM F1292. The build side is on the [playground turf page](/services/playground-turf/).",
+      "layerRefs": [
+        "cpsc-325-surfacing-critical-height"
+      ]
     },
     {
       "q": "Can turf under a playset run into the parkway strip in Fort Collins?",

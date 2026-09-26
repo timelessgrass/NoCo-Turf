@@ -15,7 +15,7 @@ display:
     lede: "Tell us the town and the yard. Three short parts, no account, no upload."
 answer:
   question: "Is artificial turf allowed in Northern Colorado?"
-  answer: "Behind an existing house, usually yes. No town code we could read bans backyard turf; Firestone requires a permit and caps it. Frederick, Timnath and Johnstown codes couldn't be read; ask them. Colorado law bars HOAs from banning it behind a detached home. Greeley bans front-yard turf on houses. Since 2026, new commercial and HOA-common landscapes can't use nonfunctional turf."
+  answer: "Behind an existing house, usually yes. No town code clearly bans backyard turf; Firestone requires a permit and caps it, and Timnath's and Frederick's new codes leave backyards unsettled, so ask them. Colorado law bars HOAs from banning it behind a detached home. Greeley bans front-yard turf on houses. Since 2026, new commercial and HOA-common landscapes can't use nonfunctional turf."
 faq:
   - q: "Can I put artificial turf in my front yard in Greeley?"
     a: "Not today. City staff describe the current rule plainly: artificial turf is prohibited in front yards of houses. A draft change would allow it with a permit, trees and live plantings, but as of September 24, 2026 no ordinance had been adopted."
@@ -24,7 +24,7 @@ faq:
   - q: "Do I need a permit to install artificial turf?"
     a: "In Firestone, yes: a town permit comes first, with no fee for single-family homes. None of the other town codes we could read sets a turf permit for an existing home, and Greeley's draft change would add one for front yards. Your HOA's approval is a separate step."
   - q: "Is a putting green allowed in an HOA common area or at a business?"
-    a: "State law allows it: putting and chipping greens are functional artificial turf, which the state's ban does not reach. But state law lets a town be stricter, and some are: Fort Collins bars artificial turf from development landscape plans, with a Director exception only for an athletic field of play; Windsor allows functional turf only by the Director's exception; and Evans says artificial turf is not acceptable for public or common areas. Check the town code and the HOA's rules first."
+    a: "State law allows it: putting and chipping greens are functional artificial turf, which the state's ban does not reach. But state law lets a town be stricter, and some are: Fort Collins bars artificial turf from development landscape plans, with a Director exception only for an athletic field of play, and so does Timnath; Windsor allows functional turf only by the Director's exception; and Evans says artificial turf is not acceptable for public or common areas. Check the town code and the HOA's rules first."
   - q: "Does artificial turf have to be PFAS-free in Colorado?"
     a: "It can't contain intentionally added PFAS. Since January 1, 2026, Colorado law bars anyone from installing artificial turf that contains intentionally added PFAS chemicals; the law is about PFAS added on purpose, not every trace. Ask for the product's PFAS documentation before you sign."
   - q: "Can an HOA keep turf it installed on common areas before 2026?"
@@ -52,13 +52,20 @@ layerRefs:
   - greeley-initiative-11-2023-pending
   - platteville-code-7-1-30-turf-nuisance
   - johnstown-code-13-151-new-lawn-permit
+  - johnstown-co.ludc-17-8-2e-prohibition
+  - johnstown-co.ludc-17-8-2e-applicable-property
+  - johnstown-co.ludc-17-8-4-rear-yard-turf
+  - timnath-luc-5.7.7.1-artificial-turf
+  - timnath-co.luc-ord-28-2025-single-family-lots
   - berthoud-code-no-turf-provision
   - firestone-fdc-16.6.4-turf-cap
   - firestone-fdc-16.6.4-live-plant-limit
   - firestone-fdc-16.6.4-turf-specs
   - firestone-fdc-16.6.4-permit
   - mead-code-no-turf-provision
-  - frederick-luc-2.14-front-yard-plants
+  - frederick-luc-16-4-80-artificial-turf
+  - frederick-co.luc-2026-living-coverage-yards
+  - frederick-co.luc-2026-landscaping-applicability
   - longmont-ldc-15.05.040-nonfunctional
   - wellington-code-15-5-40-nonfunctional
   - wellington-code-15-5-40-front-yard-75
@@ -67,6 +74,8 @@ layerRefs:
   - eaton-code-7-13-2-nonfunctional
   - milliken-code-16-3-303-nonfunctional
   - dacono-code-16-657g-not-landscaping
+  - dacono-co.code-16-651-applicability
+  - dacono-co.ord-1016-functional-only
   - weld-county-code-no-turf-provision
 sources:
   - label: "SB23-178 signed act: C.R.S. 38-33.3-106.5(1)(i) and (i.5), and 37-60-126(11)(a.5)"
@@ -120,9 +129,18 @@ sources:
   - label: "Mead Municipal Code on Municode (codified through Ord. No. 1075, April 14, 2025)"
     url: "https://library.municode.com/co/mead/codes/municipal_code"
     checked: "2026-09-24"
-  - label: "Town of Frederick, Landscaping Resources"
-    url: "https://www.frederickco.gov/1113/Landscaping-Resources"
-    checked: "2026-09-24"
+  - label: "Frederick Land Use Code (2026, effective June 1, 2026), Secs. 16-1-100 and 16-4-80, Town PDF"
+    url: "https://www.frederickco.gov/DocumentCenter/View/33088/2026-Land-Use-Code"
+    checked: "2026-09-25"
+  - label: "Town of Timnath Ordinance No. 28, Series 2025 (adopted Dec. 9, 2025), Exhibit A: Land Use Code Sec. 5.7.7.1"
+    url: "https://library.municode.com/co/timnath/ordinances/municipal_code?nodeId=1412646"
+    checked: "2026-09-25"
+  - label: "Johnstown Land Use and Development Code Sec. 17-8-2(E), added by Ordinance No. 2025-279 (Town Council packet, Dec. 1, 2025)"
+    url: "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=863,plainText=false)"
+    checked: "2026-09-25"
+  - label: "Johnstown Land Use and Development Code Sec. 17-8-4(E)(2), Town PDF (effective Dec. 5, 2023)"
+    url: "https://www.johnstownco.gov/DocumentCenter/View/1403/Land-Use-And-Development-Code"
+    checked: "2026-09-25"
   - label: "Longmont Land Development Code Sec. 15.05.040.C.4.a.i (codified through Ord. No. O-2026-39, June 23, 2026)"
     url: "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.05DEST_S15.05.040LACOARST"
     checked: "2026-09-24"
@@ -144,11 +162,17 @@ sources:
   - label: "Dacono Municipal Code Sec. 16-657(g) (codified through Ord. No. 1011, March 9, 2026)"
     url: "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH16ZO_ART28LADEST_S16-657LAMARE"
     checked: "2026-09-24"
+  - label: "Dacono Municipal Code Sec. 16-651, Application (codified through Ord. No. 1011, March 9, 2026)"
+    url: "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH16ZO_ART28LADEST_S16-651AP"
+    checked: "2026-09-25"
+  - label: "Dacono Ordinance No. 1016, amending Municipal Code Sec. 16-656(d) (adopted May 11, 2026; City Council packet, item GB-D)"
+    url: "https://www.daconoco.gov/AgendaCenter/ViewFile/Agenda/_05112026-528?packet=true"
+    checked: "2026-09-25"
   - label: "Weld County Charter and County Code on Municode (codified through June 8, 2026)"
     url: "https://library.municode.com/co/weld_county/codes/charter_and_county_code"
     checked: "2026-09-24"
 published: "2026-09-24"
-updated: "2026-09-24"
+updated: "2026-09-25"
 related:
   services:
     - artificial-turf-installation
@@ -175,10 +199,10 @@ related:
     - dacono-co
 needsFromBrian:
   - "Confirm that NoCo checks the current town rule and HOA requirements for each address before designing. Until you do, this page tells readers to ask the town (Windsor, Timnath, Johnstown, Mead, Frederick, Larimer County) instead of saying 'we confirm'; the first-person wording comes back once you confirm it."
-  - "Any Timnath, Frederick or Johnstown yard where the town approved or refused turf, with the month: those three codes could not be read online on 2026-09-24."
+  - "Any Timnath, Frederick or Johnstown yard where the town approved or refused turf, with the month: their newest turf rules were read from the adopted ordinances and Town PDFs (their online codes block automated reading), and how Timnath and Frederick apply them to an existing backyard is not spelled out."
 ---
 
-**Checked September 24, 2026. Not legal advice:** this page summarizes public statutes and town codes as they read on that date.
+**Checked September 25, 2026. Not legal advice:** this page summarizes public statutes and town codes as they read on that date.
 
 ## What does Colorado law say about artificial turf?
 
@@ -193,14 +217,14 @@ Our [guide to HOA approval for artificial turf](/guides/hoa-turf-approval/) cove
 | Detached single-family home in an HOA | The HOA may set design rules but may not prohibit artificial turf | Not protected. The HOA must preapprove at least 3 water-wise garden designs for front yards | The state ban does not reach single-family lots; the town codes below may |
 | Attached home that shares a wall, such as a townhome | The HOA may limit artificial turf to rear yards only | The HOA may keep it out | The state ban does not reach private lots |
 | Condominium | Not covered by the detached-home protection in 38-33.3-106.5(1)(i.5). The separate covenant rule in 37-60-126(11)(a.5) does not list condominiums among its exceptions, but how it applies to a condo's yard is untested: ask an attorney | Same | — |
-| HOA common areas, and commercial, institutional and industrial property, and street rights-of-way | — | — | No nonfunctional artificial turf since January 1, 2026. State law still allows functional turf, but a town may be stricter (Fort Collins, Windsor and Evans are), and a town may let turf installed before 2026 be maintained |
+| HOA common areas, and commercial, institutional and industrial property, and street rights-of-way | — | — | No nonfunctional artificial turf since January 1, 2026. State law still allows functional turf, but a town may be stricter (Fort Collins, Timnath, Windsor and Evans are), and a town may let turf installed before 2026 be maintained |
 | Multifamily property with more than 12 units | — | — | The state law names January 1, 2028 for common areas such as entryways and parks, though its amended definitions arguably reach them already, and Eaton and Longmont apply the ban now. Ask the town |
 
 Under the state law, redevelopment means a project that needs a building or landscaping permit, plan check or design review and disturbs more than 50% of the landscape area.
 
 ## What does each Northern Colorado town's code say?
 
-We read each town's published code on September 24, 2026. "No provision found" means we searched that code and found nothing about artificial turf, not that anything goes: HOA covenants and state law still apply.
+We read each town's published code on September 24 and 25, 2026. "No provision found" means we searched that code and found nothing about artificial turf, not that anything goes: HOA covenants and state law still apply.
 
 | Town | What the town code says about artificial turf | On an existing single-family lot |
 |---|---|---|
@@ -209,26 +233,26 @@ We read each town's published code on September 24, 2026. "No provision found" m
 | Loveland | Since March 17, 2026, the development code applies the state nonfunctional-turf law ([Ordinance 6819](https://www.letstalkloveland.org/landscape-changes)). | The city says that law does not apply to single-family residential lots or to private lots in duplex, condo and townhome developments. |
 | Greeley | In new development, artificial turf is acceptable as ground cover only where it is not visible from public rights-of-way and streets ([Sec. 24-802](https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH8LAST_S24-802LADE)). City staff put the current rule plainly: artificial turf is prohibited in front yards of houses. | Front yard: not allowed today. Out of view from the street: allowed. A draft change would allow front-yard turf with a permit, trees and live plantings, and an installer who is licensed or certified; as of September 24, 2026 no ordinance had been adopted. |
 | Platteville | Artificial turf not installed professionally to the manufacturer's specifications, such as loose seams, unfastened edges, no aggregate base or waves, is a public nuisance ([Sec. 7-1-30(s)](https://library.municode.com/co/platteville/codes/code_of_ordinances?nodeId=CH7HESAAN_ARTINU_S7-1-30ENNU)). | Applies to every property. |
-| Timnath | Not confirmed. We could not read Timnath's current land use code online on September 24, 2026. | Ask Timnath Planning before you plan a Timnath yard. |
-| Johnstown | Newly planted grass may be watered only under a town permit, a rule about live lawns ([Sec. 13-151(c)(6)](https://www.johnstownco.gov/689/New-Lawn-Permit)). We could not search the online code for an artificial-turf provision on September 24, 2026. | Not confirmed; ask Johnstown Planning. |
+| Timnath | Since Ordinance No. 28, Series 2025, adopted December 9, 2025, no artificial turf may be included in any landscape plan or installed; the Community Development Director may allow it only on an athletic field of play ([Land Use Code 5.7.7.1, Ord. 28](https://library.municode.com/co/timnath/ordinances/municipal_code?nodeId=1412646)). | A building permit for a detached single-family lot needs no landscape plan, and landscaping there is only encouraged to follow the section. Whether the turf line reaches a backyard is the Town's call, so ask Timnath Planning. |
+| Johnstown | Since January 1, 2026, nonfunctional artificial turf is barred in new development and redevelopment on rights-of-way, commercial, institutional and industrial property and common interest community property, with multifamily property named for January 1, 2028 ([Sec. 17-8-2(E), Ord. 2025-279](https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=863,plainText=false))). Newly planted grass may be watered only under a town permit, a rule about live lawns ([Sec. 13-151(c)(6)](https://www.johnstownco.gov/689/New-Lawn-Permit)). | In single-family rear yards on lots platted on or after January 1, 2024, turf and spray-irrigated areas are capped at 50% of the yard, up to 2,000 square feet; the code doesn't say whether artificial turf counts ([Sec. 17-8-4](https://www.johnstownco.gov/DocumentCenter/View/1403/Land-Use-And-Development-Code)). Ask Johnstown Planning. |
 | Berthoud | No artificial-turf provision found ([code codified through Ord. 1367, Nov. 10, 2025](https://library.municode.com/co/berthoud/codes/code_of_ordinances)). | No town rule found. |
 | Firestone | A town permit comes first, with no fee for single-family homes. Turf is limited to 75% of the rear or side yard, with at least 25% of the yard left as permeable living or organic landscape; 75% of the front yard and 50% of the combined side and rear yards must be live plants, which turf can't count toward. Products need a 1.75 to 3 inch pile, at least 70 ounces of face weight, a compacted porous aggregate base at least 3 inches deep, and no crumb rubber ([Development Code 16.6.4](https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE)). | Applies to existing lots too. In practice the live-plant rule may hold turf to about half of the side and rear yards. |
 | Mead | No artificial-turf provision found, but the online code runs only through April 14, 2025, so a newer ordinance would not show ([Mead code](https://library.municode.com/co/mead/codes/municipal_code)). | No town rule found; ask the Town of Mead about anything adopted since. |
-| Frederick | Since November 16, 2024, landscaped areas in front yards must be 50% living plants, and existing owners don't have to change their landscaping ([Town of Frederick](https://www.frederickco.gov/1113/Landscaping-Resources)). The adopted code's wording on artificial turf could not be read online on September 24, 2026. | Not confirmed for new turf; ask Frederick Planning. |
+| Frederick | Since June 1, 2026, the Land Use Code permits functional artificial turf only in areas that fit its definition, such as a playground, a sports field or a putting green, and says water conservation does not include nonfunctional artificial turf except in residential development of 12 units or fewer. Every distinct landscaped area needs at least 50% living plant coverage ([Sec. 16-4-80](https://www.frederickco.gov/DocumentCenter/View/33088/2026-Land-Use-Code)). | A single-family building permit needs no landscape plan, but single-family landscaping must meet the section's applicable requirements, and renovated landscaping that needs irrigation must comply. How the functional-turf line reaches an existing backyard isn't spelled out; ask Frederick Planning. |
 | Longmont | Since January 1, 2026, nonfunctional artificial turf is prohibited in new development and redevelopment on multifamily, commercial, industrial, institutional and common-interest property and in rights-of-way, medians and transportation corridors ([Sec. 15.05.040](https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.05DEST_S15.05.040LACOARST)). | No rule found for single-family lots. |
 | Wellington | Nonfunctional artificial turf is not permitted in new development and redevelopment; turf installed before January 1, 2026 may be maintained ([Sec. 15-5-40](https://library.municode.com/co/wellington/codes/municipal_code?nodeId=CH15LAUSCO_ART5DEST_S15-5-40LASC)). | New single-family subdivision lots need at least 75% live materials between the front of the house and the curb. A building permit for one home does not need a landscape plan. |
 | Severance | No provision regulating artificial turf on private lots found; the tree standards' definition of landscape excludes it ([Sec. 7-5-10](https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH7HESAAN_ART5TRST_S7-5-10DE)). | No town rule found. |
 | Evans | Artificial turf is not acceptable for public or common areas ([Sec. 18.08.020](https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.08LADE_18.08.020LADE)). | No single-family rule found. |
 | Eaton | Since January 1, 2026, nonfunctional artificial turf is barred in new development and redevelopment on rights-of-way, commercial, institutional and industrial property, HOA common property and multifamily properties with more than 12 units ([Sec. 7-13-2](https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIIPLZORE_SXIIINOTUNOARTUINPLSP_S7-13-2PR)). | Nothing in that section applies to single-family homes. |
 | Milliken | Nonfunctional artificial turf is barred in new development and redevelopment on commercial, institutional, industrial, HOA common and right-of-way property ([Sec. 16-3-303](https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIIGESTAPALDI_DIV3LABUFEWAST_S16-3-303NOTUNOARTUINPLTRSHGRSP)). | Existing detached homes and duplexes are exempt from the town's landscape standards (Sec. 16-3-305(c)). |
-| Dacono | Artificial plants and synthetic turf can't be used to meet the code's landscaping requirements ([Sec. 16-657(g)](https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH16ZO_ART28LADEST_S16-657LAMARE)). | Not a ban: turf just can't count as required landscaping. |
+| Dacono | Since Ordinance 1016, adopted May 11, 2026, turf and artificial turf may go only in functional recreational use areas such as playgrounds, sports fields and picnic areas, and elsewhere are barred on multifamily properties of 12 or more units and on commercial, institutional, industrial and common interest community property ([Ord. 1016](https://www.daconoco.gov/AgendaCenter/ViewFile/Agenda/_05112026-528?packet=true)). Artificial plants and synthetic turf can't be used to meet the code's landscaping requirements ([Sec. 16-657(g)](https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH16ZO_ART28LADEST_S16-657LAMARE)). | The landscape article exempts single-family detached homes ([Sec. 16-651](https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH16ZO_ART28LADEST_S16-651AP)), so it sets no rule for a house lot. |
 | Unincorporated Weld County | No artificial-turf provision found in the county code ([codified through June 8, 2026](https://library.municode.com/co/weld_county/codes/charter_and_county_code)). | Applies only outside town limits. |
 | Unincorporated Larimer County, including Laporte | Not checked yet. | Ask Larimer County. |
 
 ## Which rules are still changing?
 
 - **Greeley** is drafting a front-yard permit path for artificial turf on houses. The [September 22, 2026 council status report](https://greeleyco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=9580,plainText=false)) still lists it as a draft ordinance to come back to Council.
-- **Frederick, Timnath and Johnstown** publish their current codes on sites we could not read. Ask the town for the rule at your address.
+- **Timnath, Frederick and Johnstown** publish their codes on sites that block automated reading, so we read the adopted text instead: Timnath's and Johnstown's December 2025 ordinances and Frederick's 2026 code as a Town PDF. Timnath's and Frederick's new rules don't say plainly how they treat an existing backyard: ask the town for the rule at your address.
 - **Mead, Berthoud and Severance** have online codes that lag behind adopted ordinances; Mead's runs only through April 14, 2025.
 - **Statewide, by January 1, 2028:** the state law names that date for extending the nonfunctional-turf ban to the common areas of multifamily properties with more than 12 units, though its amended definitions arguably reach them already, and Eaton and Longmont apply it now. By the same date, every local government with land-use and zoning power, counties included, must regulate live turf grass in new residential development and redevelopment. That second rule is about live grass, not artificial turf ([HB25-1113](https://leg.colorado.gov/bill_files/40673/download)).
 

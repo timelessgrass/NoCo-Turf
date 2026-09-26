@@ -714,9 +714,11 @@ export async function run({ root = REPO, files = [], log = console.log } = {}) {
     schemaIssues(schemas[{ town: 'towns', townService: 'townServices', guide: 'guides', service: 'services', work: 'work' }[kind]], d, out);
 
     let copy = '', refs = [], sourceUrls = [], ownSourceText = '';
+    // An FAQ answer may cite its own layer records (faq[].layerRefs): they count like any other reference.
+    const faqRefs = (d.faq ?? []).flatMap((f) => (Array.isArray(f?.layerRefs) ? f.layerRefs : []));
     if (kind === 'town') {
       copy = townCopy(d);
-      refs = (d.blocks ?? []).flatMap((b) => b.layerRefs ?? []);
+      refs = [...(d.blocks ?? []).flatMap((b) => b.layerRefs ?? []), ...faqRefs];
       sourceUrls = townSourceUrls(d);
       ownSourceText = (d.sources ?? []).map((s) => `${s?.label ?? ''} ${s?.checked ?? ''}`).join('\n');
       const t = townEligibility(d.slug);
@@ -744,7 +746,7 @@ export async function run({ root = REPO, files = [], log = console.log } = {}) {
       if (townBySlug[d.slug]) gateLocalFile(d.slug, out);
     } else if (kind === 'townService') {
       copy = townServiceCopy(d);
-      refs = (d.blocks ?? []).flatMap((b) => b.layerRefs ?? []);
+      refs = [...(d.blocks ?? []).flatMap((b) => b.layerRefs ?? []), ...faqRefs];
       sourceUrls = townSourceUrls(d);
       ownSourceText = (d.sources ?? []).map((s) => `${s?.label ?? ''} ${s?.checked ?? ''}`).join('\n');
       const town = townBySlug[d.town];
@@ -786,7 +788,7 @@ export async function run({ root = REPO, files = [], log = console.log } = {}) {
       if (town) gateLocalFile(d.town, out);
     } else if (kind === 'guide') {
       copy = guideCopy(d, body);
-      refs = d.layerRefs ?? [];
+      refs = [...(d.layerRefs ?? []), ...faqRefs];
       sourceUrls = (d.sources ?? []).map((s) => s?.url).filter(Boolean);
       ownSourceText = [(d.sources ?? []).map((s) => `${s?.label ?? ''} ${s?.checked ?? ''}`).join('\n'), d.published, d.updated].join('\n');
       if (!plainText(body).trim()) out.push(['FAIL', 'the guide has no body']);
@@ -812,7 +814,7 @@ export async function run({ root = REPO, files = [], log = console.log } = {}) {
       guideDocs.push(docOf(id, d, body));
     } else if (kind === 'service') {
       copy = serviceCopy(d, body);
-      refs = d.layerRefs ?? [];
+      refs = [...(d.layerRefs ?? []), ...faqRefs];
       sourceUrls = (d.sources ?? []).map((s) => s?.url).filter(Boolean);
       ownSourceText = (d.sources ?? []).map((s) => `${s?.label ?? ''} ${s?.checked ?? ''}`).join('\n');
       if (d.slug && id !== d.slug) out.push(['FAIL', `file name should be ${d.slug}.md`]);

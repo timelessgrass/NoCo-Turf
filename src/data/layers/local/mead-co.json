@@ -781,30 +781,6 @@
     "notes": "Statewide rule kept in Mead's file because the Mead playground page uses it to mark the town's by-right home-daycare zoning as state-driven (own: false). Signing date from the bill page leg.colorado.gov/bills/hb21-1222. The child care statutes have since moved to Title 26.5; the page cites the bill, not a current section number."
   },
   {
-    "id": "mead-co.ccr-2-337-resilient-surfacing",
-    "layer": "state",
-    "applies_to": [
-      "mead-co"
-    ],
-    "fact": "Colorado's family child care home rules require at least 6 inches of resilient surfacing in the use zone of climbing or sliding equipment 18 inches or higher, list artificial turf with a built-in resilient pad as an approved solid surface, and want the maker's written statement that new solid surfacing meets current federal requirements.",
-    "quote": "a. All climbing equipment, sliding equipment, or equipment with attached platforms, eighteen (18) inches or higher must have resilient surfacing of at least six (6) inches in the use zone, see rule section 2.337(B)(3), surrounding the equipment. b. Department-approved resilient surfacing includes loose fill materials such as wood chips, wood mulch, engineered wood fiber, pea gravel, synthetic pea gravel, shredded rubber tires, and sand. Solid unitary materials include poured in place surfacing, approved rubber mats, playground tiles, and artificial turf with built in resilient pad. … 1) Any newly installed solid unitary materials used for resilient materials must have written documentation from the manufacturer stating the material meets current federal requirements. 2. Maximum height of equipment a. The maximum height of toddler climbing equipment, sliding equipment, or equipment with attached platforms cannot exceed thirty-two (32) inches. … 3. Use zone a. Toddler climbing equipment, sliding equipment, or equipment with attached platforms must have a three (3) foot use zone surrounding the equipment. Toddler slides require a six (6) foot use zone extending out from the base of the slide. b. Preschool and school-age climbing equipment, sliding equipment, or equipment with attached platforms must have a six (6) foot use zone surrounding the equipment.",
-    "source_url": "https://www.law.cornell.edu/regulations/colorado/8-CCR-1402-1-2.337",
-    "source_label": "Colorado Department of Early Childhood, 8 CCR 1402-1-2.337(B), family child care home outdoor equipment and surfaces (47 CR 04, effective March 16, 2024), via Cornell LII",
-    "checked": "2026-09-25",
-    "reachable": true,
-    "status": "VERIFIED",
-    "recheck": "2026-12-24",
-    "numbers": [
-      "18",
-      "6",
-      "32",
-      "3",
-      "2",
-      "1"
-    ],
-    "notes": "Statewide rule, own: false on the page. Cornell LII shows the version effective 3/16/2024; re-check against the CDEC rule set on the Secretary of State site."
-  },
-  {
     "id": "mead-co.bella-ridge-golf",
     "layer": "place",
     "applies_to": [

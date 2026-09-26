@@ -225,20 +225,21 @@
       "*"
     ],
     "fact": "From January 1, 2028, the ban on nonfunctional artificial turf in new development and redevelopment also covers common areas, such as entryways and parks, of multifamily properties with more than 12 dwelling units.",
-    "quote": "ON AND AFTER JANUARY 1, 2028, A LOCAL ENTITY SHALL NOT INSTALL, PLANT, OR PLACE, OR ALLOW A PERSON TO INSTALL, PLANT, OR PLACE, ANY NONFUNCTIONAL TURF, NONFUNCTIONAL ARTIFICIAL TURF, OR INVASIVE PLANT SPECIES, AS PART OF A NEW DEVELOPMENT PROJECT OR REDEVELOPMENT PROJECT, ON ANY PORTION OF APPLICABLE PROPERTIES THAT INCLUDE MULTIFAMILY RESIDENTIAL HOUSING PREMISES PROPERTY.",
+    "quote": "(1.5) \"APPLICABLE RESIDENTIAL REAL PROPERTY\" MEANS A MULTIFAMILY RESIDENTIAL HOUSING PREMISES PROPERTY THAT INCLUDES MORE THAN TWELVE DWELLING UNITS. … (10.5) \"MULTIFAMILY RESIDENTIAL HOUSING PREMISES PROPERTY\" MEANS COMMON INTEREST PROPERTY SUCH AS ENTRYWAYS, PARKS, AND OTHER COMMON ELEMENTS AS DEFINED IN SECTION 38-33.3-103 (5). … (5) (a) ON AND AFTER JANUARY 1, 2028, A LOCAL ENTITY SHALL NOT INSTALL, PLANT, OR PLACE, OR ALLOW A PERSON TO INSTALL, PLANT, OR PLACE, ANY NONFUNCTIONAL TURF, NONFUNCTIONAL ARTIFICIAL TURF, OR INVASIVE PLANT SPECIES, AS PART OF A NEW DEVELOPMENT PROJECT OR REDEVELOPMENT PROJECT, ON ANY PORTION OF APPLICABLE PROPERTIES THAT INCLUDE MULTIFAMILY RESIDENTIAL HOUSING PREMISES PROPERTY.",
     "source_url": "https://leg.colorado.gov/bill_files/40673/download",
     "source_label": "C.R.S. 37-99-103(5)(a) and 37-99-102(1.5), (10.5), added by HB25-1113 (signed act)",
     "effective": "2028-01-01",
-    "checked": "2026-09-24",
+    "checked": "2026-09-25",
     "reachable": true,
     "status": "VERIFIED",
     "recheck": "2027-06-15",
     "numbers": [
       "1",
       "2028",
-      "12"
+      "12",
+      "10.5"
     ],
-    "notes": "CORRECTED per layers digest: covers only common-interest property (entryways, parks, common elements) of multifamily properties with more than twelve dwelling units — not private yards, not single-family."
+    "notes": "Quote extended 2026-09-25 with the two definitions the fact rests on, 37-99-102(1.5) and (10.5), read in the signed act (pages 2-3; 37-99-103(5)(a) on page 4). Covers only common-interest property (entryways, parks, common elements) of multifamily properties with more than twelve dwelling units, not private yards and not single-family. The same act adds (IV) \"applicable residential real property\" to the 2026 applicable-property list in 37-99-102(1)(a), which is why the rules guide says the definitions arguably reach these common areas already."
   },
   {
     "id": "co-hb25-1113-residential-live-turf-2028",
@@ -338,5 +339,30 @@
       "14"
     ],
     "notes": "Public.Law reproduces the statute; not the official publisher, hence EXTERNAL_SOURCE. Also: $500 civil penalty payable to the purchaser; does not apply to someone building their own residence. Useful as \"ask for your soils report\" guidance, never as a claim NoCo reads it."
+  },
+  {
+    "id": "co-ccr-1402-1-2.337-resilient-surfacing",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado's family child care home rules require at least 6 inches of resilient surfacing in the use zone of climbing or sliding equipment 18 inches or higher, list artificial turf with a built-in resilient pad as an approved solid surface, and want the maker's written statement that new solid surfacing meets current federal requirements.",
+    "quote": "a. All climbing equipment, sliding equipment, or equipment with attached platforms, eighteen (18) inches or higher must have resilient surfacing of at least six (6) inches in the use zone, see rule section 2.337(B)(3), surrounding the equipment. b. Department-approved resilient surfacing includes loose fill materials such as wood chips, wood mulch, engineered wood fiber, pea gravel, synthetic pea gravel, shredded rubber tires, and sand. Solid unitary materials include poured in place surfacing, approved rubber mats, playground tiles, and artificial turf with built in resilient pad. … 1) Any newly installed solid unitary materials used for resilient materials must have written documentation from the manufacturer stating the material meets current federal requirements. 2. Maximum height of equipment a. The maximum height of toddler climbing equipment, sliding equipment, or equipment with attached platforms cannot exceed thirty-two (32) inches. … 3. Use zone a. Toddler climbing equipment, sliding equipment, or equipment with attached platforms must have a three (3) foot use zone surrounding the equipment. Toddler slides require a six (6) foot use zone extending out from the base of the slide. b. Preschool and school-age climbing equipment, sliding equipment, or equipment with attached platforms must have a six (6) foot use zone surrounding the equipment.",
+    "source_url": "https://www.law.cornell.edu/regulations/colorado/8-CCR-1402-1-2.337",
+    "source_label": "Colorado Department of Early Childhood, 8 CCR 1402-1-2.337(B), family child care home outdoor equipment and surfaces (47 CR 04, effective March 16, 2024), via Cornell LII",
+    "effective": "2024-03-16",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "18",
+      "6",
+      "32",
+      "3",
+      "2",
+      "1"
+    ],
+    "notes": "Statewide rule for licensed family child care homes (own: false on a town page). Re-read 2026-09-25 at Cornell LII, which shows the version in 47 CR 04 (February 25, 2024), effective 3/16/2024, and no prior version; re-check against the CDEC rule set on the Secretary of State site. Moved from Mead's local file (mead-co.ccr-2-337-resilient-surfacing) so every town's playground page cites one record."
   }
 ]

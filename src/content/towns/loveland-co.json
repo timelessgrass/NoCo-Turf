@@ -48,13 +48,13 @@
       "kind": "golf",
       "own": true,
       "kicker": "City golf",
-      "h2": "Loveland's Cattail Creek keeps a nine-hole putting course on real grass.",
+      "h2": "Loveland's Cattail Creek pairs a par-3 nine with a nine-hole Mini-Course for beginners.",
       "paras": [
-        "Loveland runs three city courses: Mariana Butte, The Olde Course at 6,806 yards, and Cattail Creek, a nine-hole course with a separate nine-hole putting course on real grass.",
+        "Loveland runs three city courses: Mariana Butte, The Olde Course at 6,806 yards, and Cattail Creek, a nine-hole par-3 course with a practice green west of the clubhouse, by the first tee. Cattail Creek's Mini-Course has nine holes, each with its own tee box and green, played in about 45 minutes with oversized S.N.A.G. starter clubs. It is built for full swings as well as putting, a first course for new golfers rather than a putting course.",
         "A backyard putting green is a different project. It sits on a private lot, where the city says the state turf law does not apply, and under whatever design rules your HOA keeps."
       ],
-      "layerRefs": [],
-      "sources": ["https://www.golfloveland.com/"]
+      "layerRefs": ["loveland-co.cattail-creek-practice", "loveland-co.cattail-creek-mini-course"],
+      "sources": ["https://www.golfloveland.com/", "https://www.golfloveland.com/city-government/departments/parks-recreation/golf-courses/the-olde-course-at-loveland", "https://www.golfloveland.com/city-government/departments/parks-recreation/golf-courses/cattail-creek-golf-course", "https://www.golfloveland.com/city-government/departments/parks-recreation/golf-courses/cattail-creek-golf-course/cattail-creek-mini-course-s-n-a-g"]
     },
     {
       "kind": "utility",
@@ -114,7 +114,10 @@
     { "label": "Larimer County parcel GIS: Loveland plats (Barnstorm 1,049 ac; Millennium East 929 ac, plats 2026; Mariana Butte 690 ac; Boyd Lake North, Lee Farm and Twin Peaks plats 2025)", "url": "https://maps1.larimer.org/arcgis/rest/services/MapServices/Parcels/MapServer", "checked": "2026-09-24" },
     { "label": "BizWest, Sept. 6, 2019: Kinston at Centerra (about 2,800 homesites)", "url": "https://bizwest.com/2019/09/06/loveland-leaders-move-mcwhinneys-kinston-development-forward/", "checked": "2026-09-24" },
     { "label": "Centerra, Kinston metro districts (10 metro districts)", "url": "https://www.centerra.com/kinston/metro-districts/", "checked": "2026-09-24" },
-    { "label": "City of Loveland Golf: Mariana Butte, The Olde Course (6,806 yd), Cattail Creek and its putting course", "url": "https://www.golfloveland.com/", "checked": "2026-09-24" },
+    { "label": "Golf Loveland (City of Loveland) home page: Mariana Butte, The Olde Course, Cattail Creek and the Mini-Course at Cattail Creek (Wayback capture, June 8, 2026)", "url": "https://www.golfloveland.com/", "checked": "2026-09-25" },
+    { "label": "Golf Loveland, The Olde Course at Loveland: 18 holes, 6,806 yards, par 72 (Wayback capture, May 9, 2026)", "url": "https://www.golfloveland.com/city-government/departments/parks-recreation/golf-courses/the-olde-course-at-loveland", "checked": "2026-09-25" },
+    { "label": "Golf Loveland, Cattail Creek Golf Course page (Wayback capture, Oct. 18, 2025)", "url": "https://www.golfloveland.com/city-government/departments/parks-recreation/golf-courses/cattail-creek-golf-course", "checked": "2026-09-25" },
+    { "label": "Golf Loveland, Cattail Creek Mini-Course (S.N.A.G.) page (Wayback capture, Aug. 10, 2025)", "url": "https://www.golfloveland.com/city-government/departments/parks-recreation/golf-courses/cattail-creek-golf-course/cattail-creek-mini-course-s-n-a-g", "checked": "2026-09-25" },
     { "label": "City of Loveland Utilities, 2026 Utility Rates, Charges, and Fees (Attachment C, council packet item 5.3)", "url": "https://cilovelandco.civicweb.net/document/493680/", "checked": "2026-09-24" },
     { "label": "Loveland Reporter-Herald, April 5, 2026: Loveland watering restrictions", "url": "https://www.reporterherald.com/2026/04/05/loveland-watering-restrictions/", "checked": "2026-09-24" },
     { "label": "Fort Collins-Loveland Water District, Who We Are", "url": "https://fclwd.com/who-we-are/", "checked": "2026-09-24" },

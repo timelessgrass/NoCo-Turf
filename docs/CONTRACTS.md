@@ -26,7 +26,7 @@ the 301 map targets these, and `tests/redirects.test.mjs` checks each target exi
 ## Data layer — `src/data/layers/*.json`, `layers/guides/{guide-id}.json`, `layers/local/{town-slug}.json`
 
 One file per layer: `state-law.json`, `city-codes.json`, `water-providers.json`, `rebates.json`,
-`drought-2026.json`, `climate.json`, `soil.json` — plus two owner-scoped directories, one file per owner, so
+`drought-2026.json`, `climate.json`, `soil.json`, `standards.json` — plus two owner-scoped directories, one file per owner, so
 parallel writers never edit the same file: `src/data/layers/guides/{guide-id}.json` (the facts only that guide
 uses) and `src/data/layers/local/{town-slug}.json` (a town's own facts for its town × service pages).
 Each file is a JSON array of records:
@@ -56,6 +56,10 @@ Each file is a JSON array of records:
 `research` (an agency or university finding), `product` (a manufacturer's published spec) and `standard`
 (ASTM, CPSC and the like) carry the guides' non-legal facts. `place` is a named local place from a public record
 (a golf course, a park with a playground, a dog park, a school field), mostly in `local/` files.
+A `standard` (or `research`, `product`) record that holds for every town and more than one page — the CPSC
+playground-surfacing handbook, say — goes in the shared `standards.json`, not in a guide's or a town's own file.
+Its records resolve by id wherever a page cites them (`src/lib/layers.ts`, `TownData.ts`) and are never swept
+onto a town page: they say nothing local.
 
 `scripts/check-layers.mjs` fails the build on: a missing field, a duplicate id (across every file, `guides/` and
 `local/` included), an `applies_to` slug not in territory.mjs, `checked` older than 365 days (warns > 180), a
@@ -86,7 +90,8 @@ record or any of its town × service records.
 Schema: `src/content.config.ts` (`towns`). Gate: `src/lib/town-gate.mjs` (≥3 blocks, ≥2 `own`, a photo).
 Rules for writers:
 - Blocks are in the order the page shows them — lead with this town's strongest fact.
-- A layer fact used in a block is referenced by id in `layerRefs`; its source URL also goes in `sources`.
+- A layer fact used in a block is referenced by id in `layerRefs`; its source URL also goes in `sources`. A fact
+  only an FAQ answer uses goes in that item's optional `layerRefs` (check-content traces it like a block's).
 - Every number ≥ 11 or with a decimal must appear in a referenced layer record's `numbers`, or in the
   record's `sources` material. No census/wealth language in copy ("median income", "affluent").
 - No claim about NoCo that is not an approved `.site/truth/claims.json` entry: no years, warranty,
@@ -127,7 +132,7 @@ its own `town` and `service` (check-content fails it; the routes throw).
       "sources": ["https://…"]              // every source URL the block draws on
     }
   ],
-  "faq": [{ "q": "…", "a": "…" }],          // ≤ 6; mirrored verbatim into FAQPage
+  "faq": [{ "q": "…", "a": "…", "layerRefs": ["…"] }],  // ≤ 6; mirrored verbatim into FAQPage; layerRefs optional
   "photo": "dusk",                          // optional until publish: a src/data/photos.ts id whose `use` fits the service
   "sources": [{ "label": "…", "url": "https://…", "checked": "2026-09-24" }],  // ≥ 2
   "checked": "2026-09-24",

@@ -19,7 +19,8 @@ import { TOWN_SERVICE_SLUGS } from './data/town-services.mjs';
 
 const status = z.enum(['draft', 'review', 'published']).default('draft');
 const source = z.object({ label: z.string(), url: z.string().url(), checked: z.string().regex(/^\d{4}-\d{2}-\d{2}$/) });
-const qa = z.object({ q: z.string(), a: z.string() });
+/** An FAQ item. `layerRefs` (optional) names the layer records its answer draws on, when no block cites them. */
+const qa = z.object({ q: z.string(), a: z.string(), layerRefs: z.array(z.string()).optional() });
 
 /**
  * A town page's substance, one block per fact that makes the page legal.

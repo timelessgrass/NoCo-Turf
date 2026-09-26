@@ -3,33 +3,34 @@
   "slug": "frederick-co",
   "name": "Frederick",
   "region": "carbon-valley-longmont",
-  "title": "Artificial Turf in Frederick, CO — Front-Yard Code | NoCo Turf Co.",
-  "description": "Frederick's 2024 code dropped a front-yard turfgrass rule; front landscaped areas need 50% living plants, and its draft would bar artificial turf.",
-  "h1": "Frederick's 2024 landscape code wants living front yards, and turf is unsettled",
-  "lede": "Frederick rewrote its landscaping code in November 2024. Owners of existing yards don't have to change anything, but anyone planning new landscaping should read the rules first, and artificial turf is the part that needs a call to Frederick Planning.",
+  "title": "Artificial Turf in Frederick, CO — 2026 Landscape Code | NoCo Turf Co.",
+  "description": "Frederick's 2026 code permits artificial turf only where it's functional, like a playground or putting green, and wants landscaped areas half living.",
+  "h1": "Frederick's 2026 code keeps artificial turf to functional uses, and backyards are unsettled",
+  "lede": "Frederick adopted a new Land Use Code that took effect June 1, 2026. It permits artificial turf only where it is functional and wants every landscaped area at least half living plants; how that reaches a backyard on an existing lot is the part that needs a call to Frederick Planning.",
   "answer": {
     "question": "Can I install artificial turf in Frederick?",
-    "answer": "It depends, so confirm with Frederick Planning first. NoCo Turf Co. installs artificial turf in Frederick, Colorado, where the landscaping code updated November 16, 2024 requires front-yard landscaped areas to be 50% living plants. The town's 2024 ordinance packet drafted a ban on artificial turf in landscaped areas, and the adopted wording could not be confirmed."
+    "answer": "It depends; ask Frederick Planning first. NoCo Turf Co. installs artificial turf in Frederick, Colorado, where the Land Use Code in effect since June 1, 2026 permits artificial turf only where it's functional, such as a playground, sports field or putting green, and wants landscaped areas at least 50% living plants. How that treats an existing backyard isn't spelled out."
   },
   "blocks": [
     {
       "kind": "ordinance",
       "own": true,
-      "kicker": "Land Use Code 2.14",
-      "h2": "Frederick's front yards now need 50% living plants, and existing yards can stay.",
-      "takeaway": "The artificial-turf wording is unconfirmed; ask the Town before planning turf.",
+      "kicker": "Land Use Code, 2026",
+      "h2": "Since June 1, 2026, Frederick permits artificial turf only where it is functional.",
+      "takeaway": "How that reaches an existing single-family backyard isn't spelled out; ask Frederick Planning before planning turf.",
       "paras": [
-        "An update to Land Use Code Section 2.14 took effect November 16, 2024. It dropped the old front-yard turfgrass requirement and now requires landscaped areas in front yards to be covered with 50% living plant material. The Town says existing property owners will not be required to change their landscaping to comply.",
-        "What the update did with artificial turf is the open question. The draft landscape code in the Board of Trustees packet for September 10, 2024, Ordinance No. 1396, read 'Artificial turf is prohibited in landscaped areas,' and said water conservation 'does not include or allow artificial turf.' The adopted, codified wording could not be confirmed for this page.",
-        "Until Frederick Planning confirms it, treat a front-yard turf plan in Frederick as unapproved, and ask how the rule applies to a backyard on an existing lot."
+        "Frederick's new Land Use Code took effect June 1, 2026, and its landscaping section permits functional artificial turf only in areas that fit the code's definition: a space regularly used for recreation or for civic or community purposes, which may include a playground, a sports field, a picnic ground, part of a park or a golf playing area such as a putting green. Water conservation, the section adds, does not include nonfunctional artificial turf, except in residential development of 12 units or fewer.",
+        "Every distinct landscaped area must reach at least 50% living plant coverage at maturity. On single-dwelling, paired-home and multi-plex lots the code names front yards for landscaping and requires none in side yards. A building permit for one house needs no landscape plan, yet landscaping on single-family property must still meet the section's applicable requirements, and renovated landscaping that needs an irrigation system has to comply.",
+        "The code doesn't say how its functional-turf line and the 12-unit carve-out treat a backyard on an existing lot, so ask Frederick Planning about yours before a turf plan goes further. Not legal advice."
       ],
       "layerRefs": [
-        "frederick-luc-2.14-front-yard-plants",
-        "frederick-luc-2.14.2.1b-turf-prohibited"
+        "frederick-luc-16-4-80-artificial-turf",
+        "frederick-co.luc-2026-functional-artificial-turf-defined",
+        "frederick-co.luc-2026-living-coverage-yards",
+        "frederick-co.luc-2026-landscaping-applicability"
       ],
       "sources": [
-        "https://www.frederickco.gov/1113/Landscaping-Resources",
-        "https://www.frederickco.gov/AgendaCenter/ViewFile/Agenda/_09102024-1313?packet=true"
+        "https://www.frederickco.gov/DocumentCenter/View/33088/2026-Land-Use-Code"
       ]
     },
     {
@@ -111,11 +112,11 @@
   "faq": [
     {
       "q": "Do I have to replace my existing Frederick lawn?",
-      "a": "No. The Town says existing property owners won't be required to change their landscaping to meet the November 2024 code."
+      "a": "Not unless you renovate it. The 2026 landscaping section applies to new development, redevelopment and substantial improvements, and renovated landscaping that needs an irrigation system must comply."
     },
     {
       "q": "Is artificial turf banned in Frederick?",
-      "a": "It may be, for new landscaping. The 2024 draft code said artificial turf is prohibited in landscaped areas; the adopted wording couldn't be confirmed, so ask Frederick Planning about your lot before planning turf."
+      "a": "Not outright. Since June 1, 2026, the code permits functional artificial turf, the kind at a playground, a sports field or a putting green. How that reaches an existing backyard isn't spelled out, so ask Frederick Planning about your lot before planning turf."
     },
     {
       "q": "Do Frederick's water restrictions apply west of I-25?",
@@ -130,14 +131,9 @@
   ],
   "sources": [
     {
-      "label": "Town of Frederick, Landscaping Resources page (Land Use Code Sec. 2.14 update, effective Nov. 16, 2024)",
-      "url": "https://www.frederickco.gov/1113/Landscaping-Resources",
-      "checked": "2026-09-24"
-    },
-    {
-      "label": "Town of Frederick Board of Trustees agenda packet, Sept. 10, 2024: Ordinance No. 1396 draft landscape code (LUC 2.14.2.1.b and 2.14.2.3.a)",
-      "url": "https://www.frederickco.gov/AgendaCenter/ViewFile/Agenda/_09102024-1313?packet=true",
-      "checked": "2026-09-24"
+      "label": "Frederick Land Use Code (2026, effective June 1, 2026), Secs. 16-1-100, 16-4-80 and 16-13-30, Town PDF",
+      "url": "https://www.frederickco.gov/DocumentCenter/View/33088/2026-Land-Use-Code",
+      "checked": "2026-09-25"
     },
     {
       "label": "Town of Frederick, Water Use Guidance and Current Conditions",
@@ -187,7 +183,7 @@
   ],
   "checked": "2026-09-24",
   "needsFromBrian": [
-    "Whether NoCo has installed turf in Frederick since November 16, 2024, and whether the Town ever raised the landscape code on one of those jobs",
+    "Whether NoCo has installed turf in Frederick since June 1, 2026, and whether the Town ever raised the landscape code on one of those jobs",
     "Any written answer from Frederick Planning on artificial turf in backyards of existing homes",
     "Named or described Frederick jobs (Wyndham Hill, Savannah, Countryside or another subdivision): month, rough size, use",
     "Camera-original photos of at least one Frederick job, before and after",

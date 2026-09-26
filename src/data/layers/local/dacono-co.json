@@ -494,7 +494,7 @@
     "applies_to": [
       "dacono-co"
     ],
-    "fact": "Dacono's draft 2026 Water Efficiency Plan lists six residential subdivisions on City water, the largest Sweetgrass at about 1,000 units and Sharpe Farms at about 850, both zoned R-1, with Legacy Park, about 300 units zoned R-2, building since 2020.",
+    "fact": "Dacono's draft 2026 Water Efficiency Plan lists six residential subdivisions on City water, estimating Sweetgrass at about 1,000 units and Sharpe Farms at about 850, both zoned R-1, with Legacy Park, about 300 units zoned R-2, building since 2020.",
     "quote": "The City currently serves six residential subdivisions (Sharpe Farms, Sweetgrass, Legacy Park, Eagle Meadow, Old Town/Glens, and Autumn Valley Ranch) … Table 2. Dacono Subdivisions (Subdivision Name · Zone District · Estimated # Units · Year Built): Sharpe Farms · R1 Residential · 850 · 2003-Present; Sweetgrass · R1 Residential · 1,000 · 2004-Present; Legacy Park · R2 Residential · 300 · 2020-Present; Eagle Meadow · RR-1 Rural Residential · 100 · 1990-2005; Old Town and the Glens · R-1 Residential and Manufactured Homes · 300 · 1970-1985; Autumn Valley Ranch · R-1 Residential and Manufactured Homes · 200 · 1990-2010 … Most customers are residential (Figure 3), with most accounts located within the six residential subdivisions identified in Table 2.",
     "source_url": "https://www.daconoco.gov/DocumentCenter/View/8971/2026-Water-Efficiency-Plan-pdf",
     "source_label": "City of Dacono, 2026 Water Efficiency Plan (dated July 15, 2026; draft for public comment), Section 2.1.1 and Table 2",
@@ -515,7 +515,8 @@
       "2",
       "2026",
       "3"
-    ]
+    ],
+    "notes": "Table 2 gives estimated units, not a lot count, and the plan ranks nothing. The statewide parcel file (Colorado Public Parcels, queried 2026-09-25) names about 800 residential parcels Glens of Dacono and about 550 Sweetgrass, so the two sources order the subdivisions differently: no page calls one of them the largest."
   },
   {
     "id": "dacono-co.wep-2026-planning-area",

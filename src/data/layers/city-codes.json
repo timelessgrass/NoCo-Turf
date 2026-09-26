@@ -180,24 +180,26 @@
     "notes": "Section record: Platteville is folded into the Greeley page (territory.mjs sections). Name Platteville in any copy that uses it — this is not a Greeley rule. Platteville Sec. 16-3-90(c)(12) (nonfunctional artificial turf prohibited \"except that nonfunctional turf shall be permitted for single-family and two-family dwellings\") is ambiguous for artificial turf on single-family lots — not recorded as a fact."
   },
   {
-    "id": "timnath-luc-5.7-case-by-case",
+    "id": "timnath-luc-5.7.7.1-artificial-turf",
     "layer": "ordinance",
     "applies_to": [
       "timnath-co"
     ],
-    "fact": "Timnath's land use code, as codified in 2025, allows artificial turf that looks like live grass in street landscaping and park play areas only case by case, with Community Development Director approval.",
-    "quote": "Artificial turf similar in appearance to live turf grass may be allowed on a case-by-case basis with review and approval by the Community Development Director (see Section 5.7.8.1 F. below).",
-    "source_url": "https://library.municode.com/co/timnath/codes/municipal_code?nodeId=CD_APXALAUSCO_ART5DEST_S5.7STDE",
-    "source_label": "Timnath Land Use Code Sec. 5.7.8.1(B) (Municode, codified through the Land Use Code effective May 12, 2025)",
-    "effective": "2025-05-12",
-    "checked": "2026-09-24",
+    "fact": "Since Ordinance No. 28, Series 2025, adopted December 9, 2025, Timnath's land use code says no artificial turf may be included in any landscape plan or installed, and lets the Community Development Director allow it only on an athletic field of play.",
+    "quote": "Artificial Turf and Plants. No artificial turf or artificial plants may be included in any landscape plan or installed. The Community Development Director may approve an exception to allow artificial turf to be installed on an athletic field of play if the installation is not prohibited under C.R.S. 37-99-103 and if the Community Development Director determines the use is appropriate, the use does not add pollutants that could cause environmental impairment, and alternatives are not reasonable. Any exception to allow artificial turf must be noted in the landscape plan.",
+    "source_url": "https://library.municode.com/co/timnath/ordinances/municipal_code?nodeId=1412646",
+    "source_label": "Town of Timnath Ordinance No. 28, Series 2025, Land Use Code amendments (adopted Dec. 9, 2025), Exhibit A, Land Use Code Sec. 5.7.7.1(C)(4)",
+    "effective": "2025-12-09",
+    "checked": "2026-09-25",
     "reachable": true,
-    "status": "UNVERIFIED",
+    "status": "VERIFIED",
     "recheck": "2026-10-24",
     "numbers": [
-      "2025"
+      "2025",
+      "9",
+      "28"
     ],
-    "notes": "UNVERIFIED because it may be superseded: Timnath adopted Land Use Code V22 on 2026-03-03 (timnath.org/wp-content/uploads/2026/03/V22-FINAL-ADOPTED-3-3-2026.pdf), which returns a Cloudflare 403 to curl and WebFetch; Wayback was offline on 2026-09-24. Municode has not codified V22. Confirm with Timnath Planning (or a browser) before any Timnath page states a turf rule."
+    "notes": "Read from the recorded ordinance PDF in Municode's OrdBank (https://mcclibraryfunctions.azurewebsites.us/api/ordinanceDownload/18279/1412646/pdf, recorded Larimer County 12/11/2025), pending codification; Municode's codified Land Use Code stops at the May 12, 2025 version. Re-read 2026-09-25, page images included: Exhibit A also strikes the old 5.7.8.1(B) line \"Artificial turf similar in appearance to live turf grass may be allowed on a case-by-case basis with review and approval by the Community Development Director (See section 5.7.8.1.F below)\", which the retired record timnath-luc-5.7-case-by-case quoted. Replaces that record and the town-owned copy timnath-co.luc-ord-28-2025-no-artificial-turf (moved here so the town page, the rules guide and the town × service code card share one record). Whether the line reaches a backyard on a detached single-family lot is the Town's call: see timnath-co.luc-ord-28-2025-single-family-lots. Timnath's compiled Land Use Code Version 22 (timnath.org) sits behind a Cloudflare challenge; confirm there in a browser. The paragraph letter follows the ordinance's renumbering (C. Environmental considerations, item 4)."
   },
   {
     "id": "johnstown-code-13-151-new-lawn-permit",
@@ -215,27 +217,6 @@
     "recheck": "2026-10-16",
     "numbers": [],
     "notes": "The permit page also says no turf establishment may occur after October 15 regardless of permit. This is a live-lawn rule; it says nothing about artificial turf."
-  },
-  {
-    "id": "johnstown-code-artificial-turf-unsearched",
-    "layer": "ordinance",
-    "applies_to": [
-      "johnstown-co"
-    ],
-    "fact": "Johnstown's online municipal code could not be searched for an artificial-turf provision on September 24, 2026.",
-    "quote": "ecode360.com/JO6992 — HTTP 403 (Cloudflare) to curl and WebFetch, 2026-09-24.",
-    "source_url": "https://ecode360.com/JO6992",
-    "source_label": "Town of Johnstown Municipal Code (ecode360), linked from johnstownco.gov",
-    "checked": "2026-09-24",
-    "reachable": false,
-    "status": "UNVERIFIED",
-    "numbers": [
-      "24",
-      "2026",
-      "2026-09-24",
-      "403"
-    ],
-    "notes": "Not a NOT FOUND — the code was never read. Johnstown is not on Municode. A person needs to search the code in a browser (or ask Johnstown Planning) for \"artificial turf\", \"synthetic\" and \"nonfunctional\"."
   },
   {
     "id": "berthoud-code-no-turf-provision",
@@ -363,44 +344,26 @@
     "notes": "Honest NOT FOUND, but the codification is 17 months old: an SB24-005 ordinance adopted since April 2025 would not show. townofmead.org is behind Cloudflare, so its ordinance list could not be checked."
   },
   {
-    "id": "frederick-luc-2.14-front-yard-plants",
+    "id": "frederick-luc-16-4-80-artificial-turf",
     "layer": "ordinance",
     "applies_to": [
       "frederick-co"
     ],
-    "fact": "Frederick's updated landscaping code, effective November 16, 2024, dropped the old front-yard turfgrass requirement and now requires landscaped areas in front yards to be 50% living plants, without forcing existing owners to change.",
-    "quote": "An update to Town of Frederick Land Use Code Section 2.14 became effective on November 16, 2024. … Existing Frederick property owners will not be required to change their landscaping to comply with the new code. … The update to Land Use Code Section 2.14 requires landscaped areas in front yards to be covered with 50% living plant material.",
-    "source_url": "https://www.frederickco.gov/1113/Landscaping-Resources",
-    "source_label": "Town of Frederick, Landscaping Resources page",
-    "effective": "2024-11-16",
-    "checked": "2026-09-24",
+    "fact": "Frederick's Land Use Code, in effect since June 1, 2026, permits functional artificial turf only in areas that fit the code's definition of it, and says water conservation does not include nonfunctional artificial turf except in residential development of 12 units or fewer.",
+    "quote": "The provisions of this Code shall become effective June 1, 2026. … c. Artificial turf. 1. Functional artificial turf shall only be permitted in areas per the definition of functional artificial turf. … Water conservation does not include or allow nonfunctional artificial turf (except for residential development of twelve (12) units or less) or artificial plants, large mulched (including gravel) beds, or areas without landscape plant material …",
+    "source_url": "https://www.frederickco.gov/DocumentCenter/View/33088/2026-Land-Use-Code",
+    "source_label": "Frederick Land Use Code (2026), Sec. 16-1-100 and Sec. 16-4-80.E.1.c and E.3.a, full code PDF",
+    "effective": "2026-06-01",
+    "checked": "2026-09-25",
     "reachable": true,
     "status": "VERIFIED",
     "recheck": "2026-12-24",
     "numbers": [
-      "16",
-      "2024",
-      "50"
-    ]
-  },
-  {
-    "id": "frederick-luc-2.14.2.1b-turf-prohibited",
-    "layer": "ordinance",
-    "applies_to": [
-      "frederick-co"
+      "1",
+      "2026",
+      "12"
     ],
-    "fact": "Frederick's 2024 landscape code draft prohibits artificial turf in landscaped areas, with a Director exception only for private nonresidential property.",
-    "quote": "b. Artificial turf. Artificial turf is prohibited in landscaped areas. The Director may approve the use of artificial turf on private nonresidential property if it is demonstrated that natural turf or alternative groundcover is not a viable alternative due to the nature or intensity of use of the area proposed to be covered by artificial turf.",
-    "source_url": "https://www.frederickco.gov/AgendaCenter/ViewFile/Agenda/_09102024-1313?packet=true",
-    "source_label": "Frederick Board of Trustees packet, Sept. 10, 2024 — Ordinance No. 1396 (Landscape Code Adoption), draft Sec. 2.14.2.1.b",
-    "checked": "2026-09-24",
-    "reachable": true,
-    "status": "UNVERIFIED",
-    "recheck": "2026-10-24",
-    "numbers": [
-      "2024"
-    ],
-    "notes": "UNVERIFIED as adopted law: this is the draft in the adoption packet. The adopted text lives on ecode360/library.qcode.us (Cloudflare 403 to curl and WebFetch on 2026-09-24); codelibrary.amlegal.com 403; Board minutes URL 404; Wayback offline. Staff memo limits the nonresidential exception to \"Until January 1, 2026\". Applicability (draft 2.14.1.2): new development, redevelopment, substantial improvements; single-family landscaping must meet \"applicable requirements\"; renovated landscaping needing irrigation must comply. Ask Frederick Planning (720-382-5612 on the town page) for the adopted wording — the Frederick page ships reframed or not at all until then."
+    "notes": "Re-read 2026-09-25 in the Town's own PDF of the 2026 Land Use Code (Chapter 16): Sec. 16-1-100 effective date, Sec. 16-4-80.E.1.c and E.3.a. This code replaced the old LUC Sec. 2.14 that the retired shared records frederick-luc-2.14-front-yard-plants (the November 16, 2024 update) and frederick-luc-2.14.2.1b-turf-prohibited (a 2024 draft line, \"Artificial turf is prohibited in landscaped areas\", which is NOT in the 2026 code) described. Moved here from the town-owned copy frederick-co.luc-2026-artificial-turf-rule so the town page, the rules guide, the installation service page and the town × service code card share one record. E.1.c read literally is circular; with E.3.a's twelve-unit carve-out, how the Town applies it to an existing single-family backyard is unsettled: ask Frederick Planning. frederick.municipal.codes is behind a Cloudflare challenge; the Town's PDF is the source read."
   },
   {
     "id": "longmont-ldc-15.05.040-nonfunctional",
@@ -558,7 +521,7 @@
     "status": "VERIFIED",
     "recheck": "2026-12-24",
     "numbers": [],
-    "notes": "Not an outright ban: turf simply cannot count toward required landscaping."
+    "notes": "Not an outright ban: turf simply cannot count toward required landscaping, and Sec. 16-651 exempts single-family detached homes from the article. Ordinance 1016 (adopted May 11, 2026; not yet codified on Municode, Supp. 35) amends this subsection to begin \"Except where expressly permitted by this Article,\" and rewrites 16-656(d) to keep turf and artificial turf to functional recreational use areas on multifamily (12 or more units) and nonresidential property: see dacono-co.ord-1016-functional-only and dacono-co.ord-1016-subdivisions-irrigation. Move this record to the codified text once Municode posts it."
   },
   {
     "id": "weld-county-code-no-turf-provision",

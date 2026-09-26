@@ -6,24 +6,28 @@
   "title": "Artificial Turf in Dacono, CO — Clay & Small Lots | NoCo Turf Co.",
   "description": "Dacono won't count synthetic turf toward required landscaping, its lots run small, and nearly half the ground is Weld loam. What that means for a yard.",
   "h1": "Dacono won't count synthetic turf toward the landscaping its code requires",
-  "lede": "Dacono's code lets turf onto a house lot but won't count it as required landscaping, nearly half of the town's central ground is high shrink-swell Weld loam, and its median house lot is about 6,218 square feet.",
+  "lede": "Dacono's landscape article skips the detached house, won't let synthetic turf meet the landscaping it requires anywhere else, and since May 2026 keeps artificial turf on shared and commercial ground to places people play. Nearly half the town's central ground is high shrink-swell Weld loam, and its median house lot is about 6,218 square feet.",
   "answer": {
     "question": "Can artificial turf count toward Dacono's landscaping requirements?",
-    "answer": "No. NoCo Turf Co. installs artificial turf in Dacono, Colorado, where the municipal code says synthetic turf can't meet its landscaping requirements. That is not an outright ban: on a house lot turf can go in, but required landscaping has to be met with something else. State law separately bars nonfunctional turf in new commercial and HOA common landscapes."
+    "answer": "No. NoCo Turf Co. installs artificial turf in Dacono, Colorado, where the landscape article says synthetic turf can't meet its requirements. That article exempts detached houses, so a house lot has no required landscaping for turf to miss. Since Ordinance 1016 in May 2026, artificial turf on HOA common, commercial and larger apartment property belongs only in functional recreation areas."
   },
   "blocks": [
     {
       "kind": "ordinance",
       "own": true,
-      "kicker": "Section 16-657(g)",
-      "h2": "Turf can go on a Dacono house lot, but it never counts as required landscaping.",
+      "kicker": "Sections 16-651 and 16-657(g)",
+      "h2": "Dacono won't count synthetic turf as required landscaping, and its landscape article skips the detached house.",
       "paras": [
-        "Dacono Municipal Code 16-657(g), from Ordinance No. 787 in 2014, says artificial plants and synthetic turfs may not be used to meet the requirements of the city's landscaping article.",
-        "Where a Dacono project has a required landscape area, plan the plants for that area first and put turf on the rest of the yard."
+        "Dacono Municipal Code 16-657(g), from Ordinance No. 787 in 2014, says artificial plants and synthetic turfs may not be used to meet the requirements of the city's landscaping article. That article covers new development and redevelopment, planned unit developments and a residential subdivision's streetscapes, open space, parks and HOA property, and Section 16-651 exempts single-family detached homes from it.",
+        "Ordinance 1016, passed unanimously on May 11, 2026, rewrote the article's turf section: turf and artificial turf may go only in functional recreational use areas, such as playgrounds, sports fields and picnic areas, and anywhere else they count as nonfunctional and are barred on multifamily properties of 12 or more units and on commercial, institutional, industrial and common interest community property. Colorado's own ban on nonfunctional turf in new commercial and HOA common landscapes sits underneath.",
+        "So on a site the article covers, plan the required plants first and keep turf to the areas people use. Behind a detached house, the city article sets no landscaping for turf to miss; your HOA's design rules are what apply."
       ],
-      "layerRefs": ["dacono-code-16-657g-not-landscaping", "co-sb24-005-nonfunctional-ban", "co-sb24-005-applicable-property"],
+      "layerRefs": ["dacono-code-16-657g-not-landscaping", "dacono-co.code-16-651-applicability", "dacono-co.ord-1016-functional-only", "dacono-co.ord-1016-adopted", "co-sb24-005-nonfunctional-ban", "co-sb24-005-applicable-property"],
       "sources": [
         "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH16ZO_ART28LADEST_S16-657LAMARE",
+        "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH16ZO_ART28LADEST_S16-651AP",
+        "https://www.daconoco.gov/AgendaCenter/ViewFile/Agenda/_05112026-528?packet=true",
+        "https://www.daconoco.gov/AgendaCenter/ViewFile/Minutes/_05112026-528",
         "https://leg.colorado.gov/bill_files/40673/download",
         "https://leg.colorado.gov/bill_files/45372/download"
       ]
@@ -51,7 +55,7 @@
       "kicker": "Small lots",
       "h2": "The median Dacono house lot is about 6,218 square feet.",
       "paras": [
-        "Glens at Dacono, the largest subdivision, has 758 lots with a median near 5,569 square feet; Sweetgrass, Sharpe and Autumn Valley Ranch follow. Eagle Meadow is the acreage exception, with a median lot near 26,894 square feet.",
+        "The statewide parcel file counts 758 house lots in Glens at Dacono, with a median near 5,569 square feet; Sweetgrass, Sharpe and Autumn Valley Ranch are the other big neighborhoods. Eagle Meadow is the acreage exception, with a median lot near 26,894 square feet.",
         "The state's district map puts 23 metro districts in Dacono, 11 formed in 2018 or later, and 10 of them belong to the Pinnacle Farms family."
       ],
       "layerRefs": [],
@@ -82,7 +86,7 @@
   "faq": [
     {
       "q": "Can I turf my whole Dacono yard?",
-      "a": "Only the part that isn't required landscaping. Section 16-657(g) says synthetic turf can't meet the landscaping requirements, so ask the City what landscaping your lot must carry before you size the turf."
+      "a": "As far as the City's landscape article goes, yes on a detached-house lot: Section 16-651 exempts single-family detached homes, so the limits come from your HOA's design rules. On a subdivision, HOA or business site the article covers, synthetic turf can't meet its landscaping requirements."
     },
     {
       "q": "Are there watering restrictions in Dacono in 2026?",
@@ -96,6 +100,9 @@
   "nearby": ["frederick-co", "firestone-co", "longmont-co", "mead-co"],
   "sources": [
     { "label": "Dacono Municipal Code Sec. 16-657(g) (Ord. No. 787, 2014; codified through Ord. No. 1011, March 9, 2026)", "url": "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH16ZO_ART28LADEST_S16-657LAMARE", "checked": "2026-09-24" },
+    { "label": "Dacono Municipal Code Sec. 16-651, Application (Ord. No. 787, 2014; codified through Ord. No. 1011, March 9, 2026)", "url": "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH16ZO_ART28LADEST_S16-651AP", "checked": "2026-09-25" },
+    { "label": "Dacono Ordinance No. 1016, amending Municipal Code Sec. 16-656(d) (City Council packet, May 11, 2026, item GB-D)", "url": "https://www.daconoco.gov/AgendaCenter/ViewFile/Agenda/_05112026-528?packet=true", "checked": "2026-09-25" },
+    { "label": "City of Dacono City Council minutes, May 11, 2026: Ordinance 1016 adopted on second reading, unanimous", "url": "https://www.daconoco.gov/AgendaCenter/ViewFile/Minutes/_05112026-528", "checked": "2026-09-25" },
     { "label": "USDA-NRCS Soil Data Access (SSURGO), central Dacono sample and Weld series shrink-swell interpretation", "url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest", "checked": "2026-09-24" },
     { "label": "Colorado Geological Survey, Expansive Soil & Rock", "url": "https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/", "checked": "2026-09-24" },
     { "label": "NOAA NCEI Storm Events Database, hail reports near Dacono, 2011–2025", "url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/", "checked": "2026-09-24" },

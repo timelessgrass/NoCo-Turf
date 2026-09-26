@@ -1,27 +1,5 @@
 [
   {
-    "id": "frederick-co.luc-2026-artificial-turf-rule",
-    "layer": "ordinance",
-    "applies_to": [
-      "frederick-co"
-    ],
-    "fact": "Frederick's Land Use Code, in effect since June 1, 2026, permits functional artificial turf only in areas that fit the code's definition of it, and says water conservation does not include nonfunctional artificial turf except in residential development of 12 units or fewer.",
-    "quote": "The provisions of this Code shall become effective June 1, 2026. … c. Artificial turf. 1. Functional artificial turf shall only be permitted in areas per the definition of functional artificial turf. … Water conservation does not include or allow nonfunctional artificial turf (except for residential development of twelve (12) units or less) or artificial plants, large mulched (including gravel) beds, or areas without landscape plant material …",
-    "source_url": "https://www.frederickco.gov/DocumentCenter/View/33088/2026-Land-Use-Code",
-    "source_label": "Frederick Land Use Code (2026), Sec. 16-1-100 and Sec. 16-4-80.E.1.c and E.3.a, full code PDF",
-    "effective": "2026-06-01",
-    "checked": "2026-09-25",
-    "reachable": true,
-    "status": "VERIFIED",
-    "recheck": "2026-12-24",
-    "numbers": [
-      "1",
-      "2026",
-      "12"
-    ],
-    "notes": "The 2026 code (Chapter 16, effective June 1, 2026) replaced the old LUC Sec. 2.14 that the shared records frederick-luc-2.14-* cite. The draft line 'Artificial turf is prohibited in landscaped areas' (Ord. 1396 packet, 2024) is NOT in the 2026 code. E.1.c read literally is circular; with E.3.a's twelve-unit carve-out, how the Town applies it to an existing single-family backyard is unsettled: ask Frederick Planning. frederick.municipal.codes is behind a Cloudflare challenge (403, 2026-09-25); the Town's own PDF at frederickco.gov is the source read."
-  },
-  {
     "id": "frederick-co.luc-2026-functional-artificial-turf-defined",
     "layer": "ordinance",
     "applies_to": [

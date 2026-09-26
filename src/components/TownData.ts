@@ -14,6 +14,7 @@ import rebates from '../data/layers/rebates.json';
 import drought from '../data/layers/drought-2026.json';
 import climate from '../data/layers/climate.json';
 import soil from '../data/layers/soil.json';
+import standards from '../data/layers/standards.json';
 import { PHOTOS, type Photo } from '../data/photos';
 
 export type Tier = { label: string; price: number; up_to_gal: number | null };
@@ -39,7 +40,10 @@ const ALL = [...stateLaw, ...cityCodes, ...water, ...rebates, ...drought, ...cli
    resolve by id, so a block that cites one shows it as evidence, but they are never swept in by recordsFor():
    a local record reaches a page only when that page's copy names it. */
 const LOCAL = Object.values(import.meta.glob<LayerRecord[]>('../data/layers/local/*.json', { eager: true, import: 'default' })).flat();
-const BY_ID = new Map([...ALL, ...LOCAL].map((r) => [r.id, r]));
+/* Shared standards (standards.json: CPSC, ASTM and the like) hold for every town but say nothing local, so they
+   resolve by id only, exactly like LOCAL: a block that cites one shows it as evidence; no sweep picks it up. */
+const STANDARDS = standards as unknown as LayerRecord[];
+const BY_ID = new Map([...ALL, ...LOCAL, ...STANDARDS].map((r) => [r.id, r]));
 const RENDERABLE = new Set(['VERIFIED', 'EXTERNAL_SOURCE']);
 
 /** A layer record that may render, or null (missing or UNVERIFIED). */

@@ -33,7 +33,8 @@ layerRefs:
   - firestone-fdc-16.6.4-permit
   - firestone-fdc-16.6.4-live-plant-limit
   - wellington-code-15-5-40-front-yard-75
-  - frederick-luc-2.14-front-yard-plants
+  - frederick-luc-16-4-80-artificial-turf
+  - frederick-co.luc-2026-living-coverage-yards
   - windsor-code-15-3-10-single-family-exempt
   - fc-luc-5.10.1
   - windsor-lawn-replacement-2026
@@ -61,9 +62,9 @@ sources:
   - label: "Wellington Municipal Code Sec. 15-5-40 (single-family residential landscape standards; codified through Ord. No. 07-2026)"
     url: "https://library.municode.com/co/wellington/codes/municipal_code?nodeId=CH15LAUSCO_ART5DEST_S15-5-40LASC"
     checked: "2026-09-24"
-  - label: "Town of Frederick, Landscaping Resources page"
-    url: "https://www.frederickco.gov/1113/Landscaping-Resources"
-    checked: "2026-09-24"
+  - label: "Frederick Land Use Code (2026, effective June 1, 2026), Sec. 16-4-80, Town PDF"
+    url: "https://www.frederickco.gov/DocumentCenter/View/33088/2026-Land-Use-Code"
+    checked: "2026-09-25"
   - label: "Windsor Municipal Code Sec. 15-3-10(b)(1) (codified through Ord. No. 2026-1749, July 13, 2026)"
     url: "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTIIISTLADEAR_S15-3-10INAP"
     checked: "2026-09-24"
@@ -141,7 +142,7 @@ Backyards are mostly settled. Front yards go town by town, and your HOA is a sep
 | Greeley | City staff describe the current rule plainly: artificial turf is prohibited in the front yards of houses. The [Greeley page](/areas/greeley-co/) has the rest of the city's rules. |
 | Firestone | A town permit comes before any artificial turf is installed, with no fee for single-family homes. 75% of a single-family front yard must be live plants, and artificial turf can't count toward it. |
 | Wellington | New single-family subdivision lots must keep at least 75% live materials between the front of the house and the curb, not counting the driveway. |
-| Frederick | Since November 16, 2024, landscaped areas in front yards must be 50% living plants. Existing owners aren't required to change their landscaping. |
+| Frederick | Since June 1, 2026, every distinct landscaped area must reach at least 50% living plant coverage, and single-family front yards must be landscaped. Artificial turf is permitted only where it's functional, such as a playground or putting green. |
 | Windsor | Detached houses and duplexes are exempt from the town's landscape article, except that the tree lawn rule applies and at least 25% of each front yard must be landscaped. |
 | Fort Collins | The Land Use Code bars artificial turf from development landscape plans, but development on existing single- and two-unit home lots is exempt from that section. |
 

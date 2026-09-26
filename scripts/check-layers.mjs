@@ -44,7 +44,7 @@ const HERE = path.dirname(fileURLToPath(import.meta.url));
 export const ROOT = path.resolve(HERE, '..');
 export const LAYER_DIR = path.join(ROOT, 'src/data/layers');
 
-export const LAYER_FILES = ['state-law.json', 'city-codes.json', 'water-providers.json', 'rebates.json', 'drought-2026.json', 'climate.json', 'soil.json'];
+export const LAYER_FILES = ['state-law.json', 'city-codes.json', 'water-providers.json', 'rebates.json', 'drought-2026.json', 'climate.json', 'soil.json', 'standards.json'];
 /** research / product / standard carry the guides' non-legal facts: an agency or university finding, a
  *  manufacturer's published spec, a test standard (ASTM, CPSC). place is a named local place from a public
  *  record (a golf course, a park with a playground, a dog park, a school field) — mostly in local/ files. */
@@ -310,7 +310,7 @@ function guideIdsNear(dir) {
 }
 
 /**
- * Run every rule. `expectFiles` (default true) fails when one of the seven contract files is missing.
+ * Run every rule. `expectFiles` (default true) fails when one of the contract's shared files (LAYER_FILES) is missing.
  * Returns { errors, warnings, stats, records } and never exits — the CLI below decides the exit code.
  */
 export function checkLayers({ dir = LAYER_DIR, today = todayISO(), expectFiles = true, towns = NOCO_TOWNS, guideIds = guideIdsNear(dir) } = {}) {
@@ -322,7 +322,7 @@ export function checkLayers({ dir = LAYER_DIR, today = todayISO(), expectFiles =
   warnings.push(...loadWarnings);
   if (expectFiles) {
     const present = new Set(fs.existsSync(dir) ? fs.readdirSync(dir) : []);
-    for (const f of LAYER_FILES) if (!present.has(f)) errors.push(`${f}: missing (docs/CONTRACTS.md lists seven layer files)`);
+    for (const f of LAYER_FILES) if (!present.has(f)) errors.push(`${f}: missing (docs/CONTRACTS.md lists ${LAYER_FILES.length} shared layer files)`);
     for (const f of present) if (f.endsWith('.json') && !LAYER_FILES.includes(f)) warnings.push(`${f}: not one of the contract's layer files`);
   }
 

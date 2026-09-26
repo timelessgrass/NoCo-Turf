@@ -9,7 +9,7 @@
   "lede": "Timnath is mostly new houses on new streets, and in a town that young the first stop for a turf plan is usually a subdivision's design rules, not the town code.",
   "answer": {
     "question": "Can I install artificial turf in my Timnath backyard?",
-    "answer": "Most likely, for a detached home. NoCo Turf Co. installs artificial turf in Timnath, Colorado, where 85.1% of homes date from 2010 or later, so subdivision design rules usually come first. Colorado law bars an HOA from prohibiting backyard turf on a detached home, though it can review the design. The town's current code couldn't be read, so ask Timnath Planning too."
+    "answer": "Most likely, for a detached home. NoCo Turf Co. installs artificial turf in Timnath, Colorado, where 85.1% of homes date from 2010 on, so subdivision design rules come first. Colorado law bars an HOA from banning backyard turf on a detached home, though it may review the design. Timnath's code bars artificial turf from landscape plans, which detached lots don't need; ask Timnath Planning too."
   },
   "blocks": [
     {
@@ -51,12 +51,14 @@
       "h2": "Harmony Club is a private Jim Engh course inside Timnath's second-largest plat.",
       "paras": [
         "Harmony Club opened in 2007 and plays 7,464 yards; the Harmony plat around it covers 555 acres.",
-        "Colorado's 2025 amendment names putting and chipping greens as functional artificial turf, which the state's nonfunctional-turf ban does not reach; a town code can still be stricter, and Timnath's current code could not be read for this page. A backyard green on a Harmony lot is a private-yard project under your HOA's design rules."
+        "Colorado's 2025 amendment names putting and chipping greens as functional artificial turf, which the state's nonfunctional-turf ban does not reach, but a town may be stricter, and Timnath is. Since Ordinance No. 28, Series 2025, its land use code says no artificial turf may be included in any landscape plan or installed, and the Community Development Director may allow it only on an athletic field of play.",
+        "The same amendment says a building permit for a detached single-family lot needs no landscape plan, so how that turf line reaches a backyard green on a Harmony lot is the Town's call: ask Timnath Planning. Either way the green is a private-yard project under your HOA's design rules."
       ],
-      "layerRefs": ["co-hb25-1113-functional-turf"],
+      "layerRefs": ["co-hb25-1113-functional-turf", "timnath-luc-5.7.7.1-artificial-turf", "timnath-co.luc-ord-28-2025-single-family-lots"],
       "sources": [
         "https://coloradoavidgolfer.com/golf_course/harmony-club/",
-        "https://leg.colorado.gov/bill_files/40673/download"
+        "https://leg.colorado.gov/bill_files/40673/download",
+        "https://library.municode.com/co/timnath/ordinances/municipal_code?nodeId=1412646"
       ]
     },
     {
@@ -115,6 +117,7 @@
     { "label": "C.R.S. 37-60-126(11)(a.5) and 38-33.3-106.5(1)(i.5), added by SB23-178 (signed act)", "url": "https://leg.colorado.gov/bill_files/92307/download", "checked": "2026-09-24" },
     { "label": "Colorado AvidGolfer, Harmony Club (Jim Engh design, opened 2007, 7,464 yd)", "url": "https://coloradoavidgolfer.com/golf_course/harmony-club/", "checked": "2026-09-24" },
     { "label": "C.R.S. 37-99-102(6.5), added by HB25-1113 (signed act)", "url": "https://leg.colorado.gov/bill_files/40673/download", "checked": "2026-09-24" },
+    { "label": "Town of Timnath Ordinance No. 28, Series 2025 (adopted Dec. 9, 2025), Exhibit A: Land Use Code Sec. 5.7.7.1(A)(4) and (C)(4)", "url": "https://library.municode.com/co/timnath/ordinances/municipal_code?nodeId=1412646", "checked": "2026-09-25" },
     { "label": "ELCO Water District, Source of ELCO's Water (Soldier Canyon Filter Plant)", "url": "https://www.elcowater.org/source-of-elco-s-water", "checked": "2026-09-24" },
     { "label": "Fort Collins-Loveland Water District, Who We Are", "url": "https://fclwd.com/who-we-are/", "checked": "2026-09-24" },
     { "label": "Fort Collins-Loveland Water District, Back of Water Bill 2026 (rates)", "url": "https://fclwd.com/wp-content/uploads/2026/01/Back-of-Water-Bill-2026.pdf", "checked": "2026-09-24" },

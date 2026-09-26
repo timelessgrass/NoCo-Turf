@@ -11,7 +11,7 @@
   "lede": "Two sets of rules in Berthoud reach a backyard play area. The Heron Lakes design rules decide where a playset goes and what it is made of, and the town's land use table decides how a home daycare or a child care center gets approved.",
   "answer": {
     "question": "What rules cover a backyard play area in Berthoud?",
-    "answer": "Your HOA's first. In Heron Lakes the Architectural Control Committee approves every playset and requires wood equipment set back at least its own height, and never under 10 feet, from rear and side lot lines. Berthoud's municipal code has no artificial-turf provision, so outside an HOA it depends on your zone district; ask Berthoud Planning."
+    "answer": "Your HOA's first. NoCo Turf Co. installs playground turf in Berthoud. Heron Lakes' Architectural Control Committee approves every playset and sets wood equipment back at least its own height, never under 10 feet, from rear and side lot lines. The town code has no artificial-turf provision, so outside an HOA it depends on your zone; ask Berthoud Planning."
   },
   "blocks": [
     {
@@ -77,7 +77,10 @@
       "paras": [
         "Colorado's rules for family child care homes require resilient surfacing in the use zone around climbing or sliding equipment and platforms 18 inches or higher, and list artificial turf with built in resilient pad among the approved solid surfaces; a newly installed solid surface needs the maker's written documentation that it meets current federal requirements. The CPSC's public playground handbook does not count grass or dirt as protective surfacing, and accepts carpet or mats only when tested to ASTM F1292. Not legal advice."
       ],
-      "layerRefs": [],
+      "layerRefs": [
+        "co-ccr-1402-1-2.337-resilient-surfacing",
+        "cpsc-325-surfacing-critical-height"
+      ],
       "sources": [
         "https://www.law.cornell.edu/regulations/colorado/8-CCR-1402-1-2.337",
         "https://www.cpsc.gov/s3fs-public/325.pdf"

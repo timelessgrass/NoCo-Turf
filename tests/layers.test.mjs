@@ -40,7 +40,7 @@ test('the shipped layer passes the gate as of its check date', () => {
   const asOf = newest && newest > CHECKED_ON ? newest : CHECKED_ON;
   const { errors, stats } = checkLayers({ today: asOf });
   assert.deepEqual(errors, [], errors.join('\n'));
-  assert.equal(stats.files - stats.guideFiles - stats.localFiles, LAYER_FILES.length, 'the seven contract files, plus any owned files in guides/ and local/');
+  assert.equal(stats.files - stats.guideFiles - stats.localFiles, LAYER_FILES.length, 'the contract\'s shared files, plus any owned files in guides/ and local/');
   assert.ok(stats.records > 100, `only ${stats.records} records`);
 });
 
@@ -307,7 +307,7 @@ test('owned files: an id is unique across guides/, local/ and the shared files',
   warnsWith(other, /misc\/: a subdirectory that is not read — only guides\/ and local\/ hold layer files/);
 });
 
-test('every one of the seven contract files must exist', () => {
+test('every one of the contract\'s shared layer files must exist', () => {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'layers-'));
   try {
     fs.writeFileSync(path.join(dir, 'city-codes.json'), JSON.stringify([base()]));
@@ -329,7 +329,7 @@ test('the CLI exits 1 on a failing fixture and 0 on a clean one', () => {
     fs.writeFileSync(path.join(dir, 'city-codes.json'), JSON.stringify(all));
     const ok = cli(TODAY);
     assert.equal(ok.status, 0, ok.stdout);
-    assert.match(ok.stdout, /check-layers: 17 records in 7 files/);
+    assert.match(ok.stdout, new RegExp(`check-layers: 17 records in ${LAYER_FILES.length} files`));
     assert.equal(cli('2027-10-01').status, 1, 'a year later every record is stale');
   } finally {
     fs.rmSync(dir, { recursive: true, force: true });

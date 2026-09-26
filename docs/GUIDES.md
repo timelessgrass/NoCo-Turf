@@ -131,16 +131,23 @@ record changes the guide's facts, so re-read the guide when one of these records
   `co-sb24-081-pfas-turf`, `windsor-code-15-3-20-no-turf`, `windsor-code-15-3-10-single-family-exempt`,
   `fc-luc-5.10.1`, `fc-code-12-120-xeriscape-excludes-turf`, `loveland-ord-6819-sb24-005`,
   `greeley-code-24-802-not-visible`, `greeley-front-yard-ban-city-summary`, `greeley-initiative-11-2023-pending`,
-  `platteville-code-7-1-30-turf-nuisance`, `johnstown-code-13-151-new-lawn-permit`, `berthoud-code-no-turf-provision`,
+  `platteville-code-7-1-30-turf-nuisance`, `timnath-luc-5.7.7.1-artificial-turf`, `timnath-co.luc-ord-28-2025-single-family-lots`,
+  `johnstown-code-13-151-new-lawn-permit`, `johnstown-co.ludc-17-8-2e-prohibition`, `johnstown-co.ludc-17-8-2e-applicable-property`,
+  `johnstown-co.ludc-17-8-4-rear-yard-turf`, `berthoud-code-no-turf-provision`,
   `firestone-fdc-16.6.4-turf-cap`, `firestone-fdc-16.6.4-live-plant-limit`, `firestone-fdc-16.6.4-turf-specs`,
-  `firestone-fdc-16.6.4-permit`, `mead-code-no-turf-provision`, `frederick-luc-2.14-front-yard-plants`,
+  `firestone-fdc-16.6.4-permit`, `mead-code-no-turf-provision`, `frederick-luc-16-4-80-artificial-turf`,
+  `frederick-co.luc-2026-living-coverage-yards`, `frederick-co.luc-2026-landscaping-applicability`,
   `longmont-ldc-15.05.040-nonfunctional`, `wellington-code-15-5-40-nonfunctional`,
   `wellington-code-15-5-40-front-yard-75`, `severance-code-no-turf-provision`, `evans-code-18.08.020-common-areas`,
   `eaton-code-7-13-2-nonfunctional`, `milliken-code-16-3-303-nonfunctional`, `dacono-code-16-657g-not-landscaping`,
   `weld-county-code-no-turf-provision`.
-  Deliberately NOT referenced (UNVERIFIED, never renders): `timnath-luc-5.7-case-by-case`,
-  `frederick-luc-2.14.2.1b-turf-prohibited`, `johnstown-code-artificial-turf-unsearched`, `fc-parkway-live-plants`.
-  Those towns carry a "not confirmed" hedge instead; when a record turns VERIFIED, replace the hedge with the fact.
+  Local records (`timnath-co.…`, `frederick-co.…`, `johnstown-co.…`) are the towns' own files; a guide may cite them.
+  Deliberately NOT referenced (UNVERIFIED, never renders): `fc-parkway-live-plants`. Retired 2026-09-25, superseded
+  by adopted text: `timnath-luc-5.7-case-by-case` (Ord. 28, Series 2025, struck its sentence; now
+  `timnath-luc-5.7.7.1-artificial-turf`), `frederick-luc-2.14-front-yard-plants` and
+  `frederick-luc-2.14.2.1b-turf-prohibited` (the 2026 Land Use Code replaced Sec. 2.14; now
+  `frederick-luc-16-4-80-artificial-turf`), `johnstown-code-artificial-turf-unsearched` (Ord. 2025-279 read in the
+  Council packet). Timnath's and Frederick's rows hedge on existing backyards, which neither code settles.
 - **turf-rebates-northern-colorado:** `windsor-lawn-replacement-2026`, `johnstown-lawn-replacement-2026`,
   `frederick-lawn-replacement-2026`, `fcu-xip-2026`, `resource-central-lawn-2026`,
   `resource-central-no-artificial-turf` (UNVERIFIED — the quoted exclusion was not found in the cited capture; pages use resource-central-lawn-2026, archived copy), `ltwd-lawn-replacement-2026`,
@@ -248,7 +255,7 @@ re-check, update the layer record first, then re-run the rates script and `check
 |---|---|---|
 | **2026-10-14** | Greeley: Planning Commission and Council agendas on the front-yard turf initiative; codification of Sec. 24-802 | rules, cost |
 | **2026-10-16** | Johnstown Level 3 schedule ends 2026-10-15; new-lawn permit page | water-savings (FAQ), rules |
-| **2026-10-24** | Resource Central's artificial-turf exclusion, re-read in a browser on the live page (the record is an archived copy); Timnath, Frederick and Johnstown turf wording (still UNVERIFIED) | rebates, rules |
+| **2026-10-24** | Resource Central's artificial-turf exclusion, re-read in a browser on the live page (the record is an archived copy); Timnath's Ord. 28 records against the compiled Land Use Code V22 (timnath.org, Cloudflare), and whether Timnath and Frederick apply their turf lines to existing backyards | rebates, rules |
 | **2026-11-01** | CWCB turf grant page (a fall window was possible "if and when funding is available") | rebates |
 | **2026-12-24** | Every city-code record (quarterly thereafter): new SB24-005 / HB25-1113 ordinances, Mead's lagging codification | rules, hoa, cost |
 | **2027-01-02 to 01-05** | 2027 water rates for every row; re-run the rates script, rename the CSV and guide year when 2027 rates land | water-savings |
