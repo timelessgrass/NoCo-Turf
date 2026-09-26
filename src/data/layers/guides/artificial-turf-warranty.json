@@ -1,0 +1,603 @@
+[
+  {
+    "id": "artificial-turf-warranty.ftc-presale-15",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The FTC's Pre-Sale Availability Rule requires the seller of a consumer product costing more than $15 that carries a written warranty to make the text of the warranty readily available for the buyer to examine before the sale.",
+    "quote": "The following requirements apply to consumer products actually costing the consumer more than $15.00: (a) Duties of seller. Except as provided in paragraphs (c) through (d) of this section, the seller of a consumer product with a written warranty shall make a text of the warranty readily available for examination by the prospective buyer",
+    "source_url": "https://www.ecfr.gov/current/title-16/part-702/section-702.3",
+    "source_label": "16 CFR 702.3, Pre-sale availability of written warranty terms (eCFR, current)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-09-01",
+    "numbers": [
+      "15",
+      "15.00"
+    ]
+  },
+  {
+    "id": "artificial-turf-warranty.ftc-door-to-door",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "When the buyer agrees to a sale somewhere other than the seller's place of business, even after inviting the salesperson in, the FTC rule requires the seller to say before the sale, aloud and in any written materials shown, that the representative has copies of the warranties the buyer may inspect at any time during the presentation.",
+    "quote": "Door-to-door sale means a sale of consumer products in which the seller or his representative personally solicits the sale, including those in response to or following an invitation by a buyer, and the buyer's agreement to offer to purchase is made at a place other than the place of business of the seller. … Any seller who offers for sale to consumers consumer products with written warranties by means of door-to-door sales shall, prior to the consummation of the sale, disclose the fact that the sales representative has copies of the warranties for the warranted products being offered for sale, which may be inspected by the prospective buyer at any time during the sales presentation. Such disclosure shall be made orally and shall be included in any written materials shown to prospective buyers.",
+    "source_url": "https://www.ecfr.gov/current/title-16/part-702/section-702.3",
+    "source_label": "16 CFR 702.3(d), Door-to-door sales (eCFR, current)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-09-01",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-warranty.ftc-installed-products",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The FTC's warranty rules define a consumer product to include household property intended to be attached to or installed in real property, whether or not it has been installed.",
+    "quote": "Consumer product means any tangible personal property which is distributed in commerce and which is normally used for personal, family, or household purposes (including any such property intended to be attached to or installed in any real property without regard to whether it is so attached or installed).",
+    "source_url": "https://www.ecfr.gov/current/title-16/part-702/section-702.1",
+    "source_label": "16 CFR 702.1(b), Definitions (eCFR, current)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-09-01",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-warranty.ftc-full-limited-transferee",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Federal rules require written warranties on consumer products costing more than $10 to be titled either a full warranty with its duration or a limited warranty, and a full warranty may not cut off the rights of a later owner during its stated term.",
+    "quote": "written warranties on consumer products manufactured after July 4, 1975, and actually costing the consumer more than $10, excluding tax, must be designated either \"Full (statement of duration) Warranty\" or \"Limited Warranty\". … Therefore, a full warranty may not expressly restrict the warranty rights of a transferee during its stated duration.",
+    "source_url": "https://www.ecfr.gov/current/title-16/part-700/section-700.6",
+    "source_label": "16 CFR 700.6, Designation of warranties (eCFR, current)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-09-01",
+    "numbers": [
+      "10",
+      "4",
+      "1975"
+    ]
+  },
+  {
+    "id": "artificial-turf-warranty.ftc-registration-card",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Under the FTC's interpretation, making the return of a registration card a condition of coverage is not permitted in a full warranty.",
+    "quote": "A requirement that the consumer return a warranty registration card or a similar notice as a condition of performance under a full warranty is an unreasonable duty.",
+    "source_url": "https://www.ecfr.gov/current/title-16/part-700/section-700.7",
+    "source_label": "16 CFR 700.7, Use of warranty registration cards (eCFR, current)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-09-01",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-warranty.ftc-full-must-install",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Under the FTC's interpretation, a full warranty on a product that is useful only once installed must provide the installation free, whether or not the buyer first paid for installation.",
+    "quote": "the remedy under a full warranty must be provided to the consumer without charge. If the warranted product has utility only when installed, a full warranty must provide such installation without charge regardless of whether or not the consumer originally paid for installation by the warrantor or his agent.",
+    "source_url": "https://www.ecfr.gov/current/title-16/part-700/section-700.9",
+    "source_label": "16 CFR 700.9, Duty to install under a full warranty (eCFR, current)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-09-01",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-warranty.ftc-701-disclosures",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Written terms on a consumer product costing more than $15 must state in one document whether coverage is limited to the original purchaser, and when the term starts if that differs from the purchase date.",
+    "quote": "Any warrantor warranting to a consumer by means of a written warranty a consumer product actually costing the consumer more than $15.00 shall clearly and conspicuously disclose in a single document in simple and readily understood language, the following items of information: (1) The identity of the party or parties to whom the written warranty is extended, if the enforceability of the written warranty is limited to the original consumer purchaser or is otherwise limited to persons other than every consumer owner during the term of the warranty; … (4) The point in time or event on which the warranty term commences, if different from the purchase date, and the time period or other measurement of warranty duration;",
+    "source_url": "https://www.ecfr.gov/current/title-16/part-701/section-701.3",
+    "source_label": "16 CFR 701.3, Written warranty terms (eCFR, current)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-09-01",
+    "numbers": [
+      "15",
+      "15.00"
+    ]
+  },
+  {
+    "id": "artificial-turf-warranty.ftc-lifetime",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The FTC's advertising guides say an ad that calls coverage lifetime should make clear whose or what life the term refers to, and its business guide notes the word is used in at least three ways.",
+    "quote": "If an advertisement uses \"lifetime,\" \"life,\" or similar representations to describe the duration of a warranty or guarantee, then the advertisement should disclose, with such clarity and prominence as will be noticed and understood by prospective purchasers, the life to which the representation refers.",
+    "source_url": "https://www.ecfr.gov/current/title-16/part-239/section-239.4",
+    "source_label": "16 CFR 239.4, \"Lifetime\" and similar representations (eCFR, current)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-09-01",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-warranty.ftc-guide-limited-pro-rata",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The FTC's business guide calls coverage limited when the buyer must pay labor or return a registration card, and defines a pro rata warranty as one whose refund or credit decreases over the product's life by a formula.",
+    "quote": "This is an example of a limited warranty. It is limited because there are requirements that the customer pay labor and postage charges, and that the customer return a registration card. … This part full and part limited multiple warranty is a pro rata warranty-- one which provides a refund or credit that decreases during the life of the product according to a formula.",
+    "source_url": "https://www.ftc.gov/business-guidance/resources/businesspersons-guide-federal-warranty-law",
+    "source_label": "FTC, Businessperson's Guide to Federal Warranty Law",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-09-01",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-warranty.ftc-guide-lifetime-three-ways",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The FTC's business guide says lifetime coverage can be used in at least three ways, because it is often hard to tell whose life measures the coverage.",
+    "quote": "This is because it is often difficult to tell just whose life measures the period of coverage. \"Lifetime\" can be used in at least three ways.",
+    "source_url": "https://www.ftc.gov/business-guidance/resources/businesspersons-guide-federal-warranty-law",
+    "source_label": "FTC, Businessperson's Guide to Federal Warranty Law",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-09-01",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-warranty.stc-company-behind-it",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council tells buyers that coverage is only as good as the company behind it when a claim comes in, perhaps years after installation, and that a claim against a manufacturer outside the U.S. without a U.S. legal representative will likely be harder to pursue.",
+    "quote": "the warranty is only as good as the company that stands behind it when a warranty claim is submitted, perhaps years after the synthetic grass is installed; … It will likely be harder to successfully prosecute a warranty claim against a non-U.S. manufacturer that does not have a U.S. legal representative.",
+    "source_url": "https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf",
+    "source_label": "Synthetic Turf Council, Considerations When Buying Synthetic Grass for Landscape Use (September 2013)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-warranty.stc-non-pro-rated",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council notes that pro-rated coverage settles for less as turf ages, while non-pro-rated coverage usually runs a shorter term but pays the full cost of repair or replacement.",
+    "quote": "Note: Some warranties are pro-rated, providing for a lower settlement as the synthetic turf ages. Non-pro-rated warranties are usually written for a shorter period of time, but cover the full cost of repair or replacement.",
+    "source_url": "https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf",
+    "source_label": "Synthetic Turf Council, Considerations When Buying Synthetic Grass for Landscape Use (September 2013)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-warranty.synlawn-uv-40",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's residential terms count turf as failed only when UV costs it more than 40% of its face-yarn weight or 40% of its yarn tensile strength, and treat slight color change over time as normal and not covered unless it is fiber degradation.",
+    "quote": "For purpose of this Warranty, a product shall be deemed to have failed and will be covered under this Warranty if there is a weight loss in excess of forty percent (40%) of face yarn or a reduction of forty percent (40%) of yarn tensile strength due to ultra-violet degradation. … Slight color variation over time is normative and will not be covered unless deemed a fiber degradation which is under Warranty.",
+    "source_url": "https://lowes.synlawn.com/wp-content/uploads/2024/06/SY24247_Lowes_ProductWarranty_v1.pdf",
+    "source_label": "SYNLawn, Residential Statement of Warranty Terms and Conditions (Lowe's channel), effective January 1, 2024",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "40"
+    ]
+  },
+  {
+    "id": "artificial-turf-warranty.synlawn-scale-credit",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's residential terms scale coverage from 100% in years 1 to 3 down to 15% in years 8 to 10, and after 6 years pay in credit toward a new project, to be used within 18 months, rather than repair.",
+    "quote": "Year 1 - 3 100% … Year 4 - 5 50% … Year 6 - 7 25% … Year 8 - 10 15% … 3.11 Warranties over 6 years old would be subject to receiving credits rather than direct repair for the project. Credit would go toward purchase of new project only and based on value of turf from date warranty is submitted. Credit shall be used within 18 months of approval",
+    "source_url": "https://lowes.synlawn.com/wp-content/uploads/2024/06/SY24247_Lowes_ProductWarranty_v1.pdf",
+    "source_label": "SYNLawn, Residential Statement of Warranty Terms and Conditions (Lowe's channel), effective January 1, 2024",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "100",
+      "1",
+      "3",
+      "15",
+      "8",
+      "10",
+      "6",
+      "18",
+      "4",
+      "5",
+      "50",
+      "7",
+      "25",
+      "3.11"
+    ]
+  },
+  {
+    "id": "artificial-turf-warranty.synlawn-conditions",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's residential terms, titled a limited warranty, make full payment and timely registration conditions of coverage, send claims to the installer the turf was bought from within 30 days of finding a defect, give repaired or replaced turf only the balance of the original term, and send any dispute to courts in Georgia.",
+    "quote": "Section 2. Limited Warranty … Claims under this Warranty should be submitted to the certified SYNLawn® installer that the Product was purchased from. Claim must be submitted within thirty (30) days of discovery of the defect and within the warranty period. … Receipt of full payment for the Product and timely registration of the Product are condition precedents to the operation and effect of this Warranty. … 4.4 Products which have been repaired or replaced by Manufacturer shall have a remaining Warranty of the balance of the original warranty period. … Purchaser agrees that exclusive venue and jurisdiction of all actions and proceedings arising out of or relating to this Warranty shall be in the state or federal courts located in the State of Georgia",
+    "source_url": "https://lowes.synlawn.com/wp-content/uploads/2024/06/SY24247_Lowes_ProductWarranty_v1.pdf",
+    "source_label": "SYNLawn, Residential Statement of Warranty Terms and Conditions (Lowe's channel), effective January 1, 2024",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "30",
+      "4.4"
+    ]
+  },
+  {
+    "id": "artificial-turf-warranty.synlawn-exclusions",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's residential terms exclude melting from Low-E window reflection, Acts of God, damage from halogen chemicals such as chlorine or from topical applications above pH 5, and failure from improper subsurface preparation or drainage, and leave workmanship coverage to the installer, recommending 3 years.",
+    "quote": "Workmanship warranties remain the sole discretion between end user and installer; we recommend 3 years as this will ensure optimal project success. … 3.5 Fiber shrinkage and melting due to exposure to reflective light from Low E Rated windows and other reflective objects … 3.6 Damages caused by vehicular traffic, vandalism, abuse, negligence or neglect, normal wear and tear and Acts of God. … 3.7 Damages caused by improper cleaning agents, exposure to chemicals containing elements from the halogen group (such as chlorine, fluorine, bromine, iodine), herbicides, pesticides, chemical run-off from neighboring properties, and topical applications with a PH greater than five (5). … 3.9 Failure as a result of improper subsurface preparation or drainage. … Manufacturer is responsible for product only, not the installation labor required in conjunction with turf to remedy defect.",
+    "source_url": "https://lowes.synlawn.com/wp-content/uploads/2024/06/SY24247_Lowes_ProductWarranty_v1.pdf",
+    "source_label": "SYNLawn, Residential Statement of Warranty Terms and Conditions (Lowe's channel), effective January 1, 2024",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5",
+      "3",
+      "3.5",
+      "3.6",
+      "3.7",
+      "3.9"
+    ]
+  },
+  {
+    "id": "artificial-turf-warranty.synlawn-transfer",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's residential terms apply only to the original purchaser and transfer only when the property changes hands and SYNLawn is notified.",
+    "quote": "3.1 This Warranty applies only to the original Purchaser and cannot be transferred, unless authorized property changes hand and submits notification to SYNLawn.",
+    "source_url": "https://lowes.synlawn.com/wp-content/uploads/2024/06/SY24247_Lowes_ProductWarranty_v1.pdf",
+    "source_label": "SYNLawn, Residential Statement of Warranty Terms and Conditions (Lowe's channel), effective January 1, 2024",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3.1"
+    ]
+  },
+  {
+    "id": "artificial-turf-warranty.pregra-fade-15",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "PreGra's terms cover fiber that fades more than 15% from its original color, judged by comparing the bottom of the fiber with the top, or pile that loses more than 50% of its height to UV, on a scale of 100% through year 4, then 70%, 50%, 30%, 25%, 25% and 20% in years 5 to 10, for the turf only and not labor.",
+    "quote": "PreGra also warrants that the Premium Artificial Grass product's fiber will not color fade more than 15% from the original color. Examining the bottom portion of the fiber and comparing it to the top portion will determine the amount of fade. PreGra also guarantees the pile height of the Premium Artificial Grass Product if it decreases by more than 50% of the original height due to ultraviolet radiation degradation. … This is for the turf only, excluding any incurred costs associated with the installation, including but not limited to labor charges, installation supplies, inconvenience, etc. … 0 through 4 years…………100% 5th year…………………………………70% 6th year…………………………………50% 7th year…………………………………30% 8th year…………………………………25% 9th year…………………………………25% 10th year……………………………….20%",
+    "source_url": "https://www.pregra.com/warranty/",
+    "source_label": "PreGra, 10-Year Manufacturer's Warranty terms",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "15",
+      "50",
+      "100",
+      "4",
+      "70",
+      "30",
+      "25",
+      "20",
+      "5",
+      "10",
+      "0"
+    ]
+  },
+  {
+    "id": "artificial-turf-warranty.pregra-transfer-disaster",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "PreGra's terms cannot be assigned or transferred without PreGra's written consent, are void if the turf is subjected to a natural disaster, and exclude heat from window reflection and a reduced infill level.",
+    "quote": "Purchaser may not convey, assign, or otherwise transfer any or all of the warranty rights without prior written consent from PreGra. … The warranty shall be voided if the product has been subjected to misuse, negligence, accident, abuse, unauthorized modifications, or a natural disaster. … Failures resulting from causes other than ultraviolet degradation of the face fiber yarn, such as excessive heat (heat from sun magnification from window reflection), improper installation, removal or reduction of the infill system level, chemical attack from adhesives, backing materials, cleaning agents, or any related causes are not covered by this warranty .",
+    "source_url": "https://www.pregra.com/warranty/",
+    "source_label": "PreGra, 10-Year Manufacturer's Warranty terms",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-warranty.smartturf-scale",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Smart Turf's 15-year terms cover UV degradation and excessive fading, reduce the covered amount by 6.67% a year to 0% at the end of year 15, count turf as degraded after it loses more than 50% of its tensile strength, and cover manufacturing defects for one year.",
+    "quote": "Smart Turf warranty covers ultra violet degradation and excessive fading. The warranty is prorated equally over its term, meaning the warranted amount is reduced by 6.67% annually. For example: the prorated amount at the end of year one is 93.33%, year two 86.66% until the end of year fifteen when it becomes 0%. Smart Turf also warrants product against manufacturing defects for a period of one year. … For purposes of this warranty, a product will be deemed degraded if it has lost more than 50% of its tensile strength.",
+    "source_url": "https://smartturf.com/warranty",
+    "source_label": "Smart Turf, Manufacturer's Limited 15 Year Warranty page",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "15",
+      "6.67",
+      "0",
+      "50",
+      "93.33",
+      "86.66"
+    ]
+  },
+  {
+    "id": "artificial-turf-warranty.smartturf-credit-limits",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Smart Turf's terms pay any credit only toward more Smart Turf grass with no cash, exclude turf melted by reflection from Low-E windows and acts of Mother Nature such as floods and other natural disasters, cover the original purchaser only, and send disputes to arbitration in Los Angeles County.",
+    "quote": "Melted or damaged turf caused from reflection by Low E windows or any other producer of sun magnification, localized heating, or extreme heat. … The credit will be good only toward the purchase of Smart Turf artificial grass; there will be no cash payment. … Acts of Mother Nature (earthquakes, floods, hurricanes and other natural disasters). … This warranty is prorated and is provided to the original purchaser only. … In the event of litigation, all controversies shall be submitted to American Arbitration Association. Venue shall be the County of Los Angeles, State of California.",
+    "source_url": "https://smartturf.com/warranty",
+    "source_label": "Smart Turf, Manufacturer's Limited 15 Year Warranty page",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-warranty.tigerturf-terms",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "TigerTurf's 15-year terms run from the date of manufacture, count UV failure as a loss of more than 50% of tensile strength, pay 100% in years 1 to 8, 50% in years 9 to 12 and 25% in years 13 to 15, give credit only toward its own turf with no cash, exclude fire, floods, acts of God and Low-E window melting, extend only to the original purchaser, and ask for a written description with photos as soon as a problem shows.",
+    "quote": "within fifteen (15) years from the date of manufacture, or suffers significant fading, breakdown or degradation due to exposure to natural ultraviolet rays within the same fifteen (15) year period … For the purpose of this warranty the product shall be deemed to have failed in ultra-violet stability if the original tensile strength of the product decreases by more than 50 percent. … PRORATION IS AS FOLLOWS: YEARS 1-8 (100%), YEARS 9-12 (50%), YEARS 13-15 (25%). … fire, floods, vandalism, acts of God. … The credit will be good only toward the purchase of SGW synthetic grass. There will be no cash payment. … This warranty is non-transferable. This warranty is only extended to the original purchaser. … All warranty claims must be presented in a timely fashion to SGW as a printed description with photos as soon as an issue with the synthetic grass becomes evident. … This warranty does not cover sun magnification and melting from Low E windows or matting.",
+    "source_url": "https://www.tigerturf.com/us/warranty/",
+    "source_label": "TigerTurf (Synthetic Grass Warehouse, Inc.), Warranty and Certifications page, 15-year manufacturer terms",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "15",
+      "50",
+      "100",
+      "1",
+      "8",
+      "9",
+      "12",
+      "25",
+      "13"
+    ]
+  },
+  {
+    "id": "artificial-turf-warranty.envylawn-terms",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "EnvyLawn's 15-year landscape terms run from the date of manufacture, count UV failure as a loss of more than 50% of tensile strength, pay 100% in years 1 to 10, 50% in years 11 and 12 and 25% in years 13 to 15, leave out tear-out and installation, give credit only toward its own turf with no cash, exclude fire, floods, acts of God and Low-E window melting, do not transfer, and ask for a detailed description with photos as soon as a problem shows.",
+    "quote": "WITHIN FIFTEEN (15) YEARS FROM THE DATE OF MANUFACTURE … THE COST OF TEAR OUT AND INSTALLATION ARE NOT INCLUDED IN THIS WARRANTY. FOR THE PURPOSE OF THIS WARRANTY THE PRODUCT SHALL BE DEEMED TO HAVE FAILED IN ULTRA-VIOLET STABILITY IF THE ORIGINAL TENSILE STRENGTH OF THE PRODUCT DECREASES BY MORE THAN 50 PERCENT. … PRORATION IS AS FOLLOWS*: YEARS 1-10 (100%), YEARS 11-12 (50%), YEARS 13-15 (25%). … FIRE, FLOODS, VANDALISM, ACTS OF GOD, AND INVASIVE WEEDS AND SPECIES. … THE CREDIT WILL BE GOOD ONLY TOWARD THE PURCHASE OF CTI SYNTHETIC TURF. THERE WILL BE NO CASH PAYMENT. … THIS WARRANTY IS NON-TRANSFERABLE. THIS WARRANTY IS ONLY EXTENDED TO THE ORIGINAL PURCHASER. … ALL WARRANTY CLAIMS MUST BE PRESENTED IN A TIMELY FASHION TO CTI AS A DETAILED DESCRIPTION WITH PHOTOS AS SOON AS AN ISSUE WITH THE SYNTHETIC TURF BECOMES EVIDENT. … THIS WARRANTY DOES NOT COVER SUN MAGNIFICATION AND MELTING FROM LOW E WINDOWS OR MATTING.",
+    "source_url": "https://envylawn.com/resources/warranty-landscape-15-year/",
+    "source_label": "EnvyLawn (Challenger Turf, Inc.), Landscape 15 Year warranty page",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "15",
+      "50",
+      "100",
+      "1",
+      "10",
+      "11",
+      "12",
+      "25",
+      "13"
+    ]
+  },
+  {
+    "id": "artificial-turf-warranty.purchasegreen-lifetime-scale",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Purchase Green's residential Limited Lifetime terms pay 100% in years 1 to 8, 50% in years 9 to 12, 25% in years 13 to 15 and 15% from year 16, count UV failure as tensile strength or fiber thickness down more than 50% or pile height down more than 25%, give only credit on purchases over 12 years old, and exclude labor.",
+    "quote": "Residential projects: Years 1-8 (100%); Years 9-12 (50%); Years 13-15 (25%); Years 16+ (15%) … UV degradation which for the purposes of this warranty shall be deemed to have occurred should the original tensile strength of the product decrease by more than 50%, the fiber thickness has decreased by more than 50% or the pile height has shrunk by more than 25% … All warranties deemed to be valid on purchases more than 12 years old would receive credits in accordance with the proration schedule and terms above. Replacement of product will not be considered. … Warranty claims are limited to the original purchase price of materials furnished by Purchase Green and DO NOT include any labor costs associated with replacing an installed product.",
+    "source_url": "https://files.purchasegreen.com/docs/Artificial_Grass_Lifetime_Warranty.pdf",
+    "source_label": "Purchase Green Limited Lifetime Warranty (Rev 6, effective on purchases after March 1, 2021)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "100",
+      "1",
+      "8",
+      "50",
+      "9",
+      "12",
+      "25",
+      "13",
+      "15",
+      "16"
+    ]
+  },
+  {
+    "id": "artificial-turf-warranty.purchasegreen-transfer-register",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Purchase Green's Limited Lifetime terms must be registered within 60 days of the original purchase, transfer to a new owner only with a transfer certificate from Purchase Green, and give repaired or replaced turf only the balance of the original term.",
+    "quote": "Customer must register their Limited Lifetime Warranty and Loyalty Program within 60 days of the original purchase date. … This warranty is transferrable as long as the customer has a Warranty Transfer Certificate from Purchase Green. … Products, which have been repaired or replaced by Purchase Green, shall have a remaining Warranty of the balance and according to the proration schedule of the original warranty period.",
+    "source_url": "https://files.purchasegreen.com/docs/Artificial_Grass_Lifetime_Warranty.pdf",
+    "source_label": "Purchase Green Limited Lifetime Warranty (Rev 6, effective on purchases after March 1, 2021)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "60"
+    ]
+  },
+  {
+    "id": "artificial-turf-warranty.purchasegreen-exclusions",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Purchase Green's Limited Lifetime terms exclude damage from machinery, animals, fire, acts of God, excessive loads and faulty subsurface preparation, installations without proper drainage, applications with a pH below 5 or above 9, and heat from reflective windows and glass doors.",
+    "quote": "Damaged, directly or indirectly, by acts of vandalism, machinery, animals, fire, chemical spills, acts of God, excessive static or dynamic loads, faulty or improper subsurface preparation, or subsurface failure. … Artificial grass installations that do not have proper drainage … topical applications with a PH less than five (5) or greater than nine (9) … Damage resulting from localized heating (most often caused by highly reflective surfaces such as energy efficient or reflective windows & glass doors and/or smooth white surfaces).",
+    "source_url": "https://files.purchasegreen.com/docs/Artificial_Grass_Lifetime_Warranty.pdf",
+    "source_label": "Purchase Green Limited Lifetime Warranty (Rev 6, effective on purchases after March 1, 2021)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5",
+      "9"
+    ]
+  },
+  {
+    "id": "artificial-turf-warranty.turfdistributors-exclusions",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Turf Distributors' coverage policy excludes improper installation including base and seam failures, fire and acts of nature, minor fading, excessive pet waste buildup, high heat from reflective windows or fire pits, and sharp objects or excessive weight, and does not pay labor to install or remove turf.",
+    "quote": "Improper installation, including incorrect base preparation, seam failure, or installation errors. … Damage caused by misuse, neglect, abuse, vandalism, fire, floods, or acts of nature . … Normal wear and tear , including minor fading, flattening, or slight fiber discoloration. … Improper maintenance , including failure to remove debris, exposure to harsh chemicals, or excessive pet waste buildup. … Damage from high heat exposure , including reflective surfaces such as windows or fire pits. … Damage caused by sharp objects, heavy furniture, or excessive weight on turf. … Under no circumstances shall we be liable for incidental, indirect, consequential, or special damages , including labor costs for installation or removal.",
+    "source_url": "https://www.turfdistributors.com/warranty-policy/",
+    "source_label": "Turf Distributors Warranty Policy (effective January 1, 2025, last updated February 4, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-warranty.foreverlawn-dealer-two-year",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "ForeverLawn says every one of its dealers provides at least a two-year installation warranty.",
+    "quote": "every ForeverLawn dealer provides a minimum two-year installation warranty",
+    "source_url": "https://www.foreverlawn.com/warranty/",
+    "source_label": "ForeverLawn, Closed Loop Warranty page",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-warranty.new-windsor-replace-deteriorated",
+    "layer": "housing",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "New Windsor Metropolitan District's design guidelines require a homeowner to remove or replace artificial turf that the design review committee finds has deteriorated to an unacceptable condition.",
+    "quote": "If the nonvegetative turf deteriorates to an unacceptable condition, as determined by the DRC, the homeowner will be required to remove and/or replace it.",
+    "source_url": "https://www.newwindsormetro.org/files/72102649d/New+Windsor_Brunner+Farm+Design+Guidelines+-+5-16-24+-+Final.pdf",
+    "source_label": "New Windsor Metropolitan District (Brunner Farm), Design Guidelines and Architectural Standards, May 16, 2024",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-warranty.envylawn-putting-green-8-year",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "EnvyLawn's putting-green terms run 8 years from the date of manufacture, cover the putting-green material only and not tear-out, installation or issues stemming from the installation, exclude metal cleats, fire and acts of God, pay any credit only toward its own turf, and do not transfer.",
+    "quote": "within eight (8) years from the date of manufacture … The cost of tear-out and installation are not included in this warranty. … The credit will be good only toward the purchase of CTI synthetic turf. There will be no cash payment. … This warranty does not cover the installation of the Putting Green or any issues stemming from the installation. This warranty does not cover surface deterioration resulting from normal wear and tear or any damages caused by site conditions and improper installation beyond its control, accidents, misuse, abuse, neglect, exposure of the Product to inappropriate footwear (i.e. metal cleats), tobacco products, chemicals or cleaning agents, fire, floods, vandalism, acts of God. … This warranty is non-transferable. This warranty is only extended to the original purchaser.",
+    "source_url": "https://envylawn.com/resources/warranty-putting-green/",
+    "source_label": "EnvyLawn (Challenger Turf, Inc.), Putting Green warranty page",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "8"
+    ],
+    "notes": "Read 2026-09-25 (HTML, fetched with curl). Compare EnvyLawn's landscape page, 15 years from manufacture (artificial-turf-warranty.envylawn-terms)."
+  },
+  {
+    "id": "artificial-turf-warranty.barefoot-replace-life-expectancy",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "In Barefoot Lakes, the St. Vrain Lakes Metropolitan Districts reserve the right to inspect artificial turf and require it to be replaced once its life expectancy, typically 15 to 20 years, has been reached, or if it is not kept in good condition.",
+    "quote": "The District reserves the right to inspect and require replacement after the life expectancy has been reached, typically 15-20 years, or if the turf is not maintained in good condition.",
+    "source_url": "https://www.stvrainmd.live/files/5457a4faf/SVLMD+-+2026+08+07+-+Amended+%26+Restated+Residential+Improvement+Guidelines+%26+Site+Restrictions+for+Barefoot.pdf",
+    "source_label": "St. Vrain Lakes Metropolitan Districts, Amended and Restated Residential Improvement Guidelines and Site Restrictions for Barefoot, Section 3.7.3 (as of August 7, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "15",
+      "20",
+      "7",
+      "2026"
+    ],
+    "notes": "PDF read with pdftotext on 2026-09-25. Barefoot Lakes is in Firestone; the district's other turf rules are in firestone-co.svlmd-rig-turf-cap and firestone-co.svlmd-rig-turf-install."
+  },
+  {
+    "id": "artificial-turf-warranty.barefoot-builder-warranties",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Barefoot Lakes' guidelines make owners responsible for knowing how any improvement affects applicable builder warranties, and say neither the review committee nor the district is liable if an approved request voids or affects one.",
+    "quote": "In making any Improvement, Owners are responsible for being aware of the effect of any Improvement on any applicable builder warranties. Neither the ARC, nor any members thereof, nor the District, shall be liable for any voiding of or effect on such builder warranties with respect to any architectural request.",
+    "source_url": "https://www.stvrainmd.live/files/5457a4faf/SVLMD+-+2026+08+07+-+Amended+%26+Restated+Residential+Improvement+Guidelines+%26+Site+Restrictions+for+Barefoot.pdf",
+    "source_label": "St. Vrain Lakes Metropolitan Districts, Amended and Restated Residential Improvement Guidelines and Site Restrictions for Barefoot, Section 2.1 (as of August 7, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "2.1",
+      "7",
+      "2026"
+    ],
+    "notes": "PDF read with pdftotext on 2026-09-25. A builder warranty here is the home builder's, not a turf product's."
+  }
+]

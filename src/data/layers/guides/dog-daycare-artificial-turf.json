@@ -1,0 +1,564 @@
+[
+  {
+    "id": "dog-daycare-artificial-turf.cda-pacfa-license",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Department of Agriculture licenses pet animal facilities under PACFA, treats anyone paid to care for or house more than three pet animals at one time besides their own as a boarding/training facility, and inspects a facility before licensing it.",
+    "quote": "The Colorado Department of Agriculture enforces the provisions of the Pet Animal Care and Facilities Act (PACFA), which allows for licensing pet animal facilities in accordance with the Colorado Revised Statutes (Title 35, Article 80). Any person or firm who is operating a pet animal facility or business that engages in selling, transferring, adopting, breeding, boarding, training, grooming, sheltering, rescuing, or transporting pet animals may need to be licensed under PACFA. … Contact the PACFA office with any questions or concerns before submitting an application. … The inspector will inspect the facility/vehicle and all required records/documents. At the pre-license inspection, you will either be approved for a license or given the opportunity to correct items that do not meet the PACFA rules and regulations. … Boarding/Training Facility Any firm, person, or corporation that cares for, or houses more than three pet animals at one time (in addition to their own pet animals), or trains pet animals in the absence of the owner, or such owner's designee, and receives compensation for said services or correctional facility pet animal training programs regardless of compensation.",
+    "source_url": "https://ag.colorado.gov/animal-welfare/pet-animal-care-facilities-act-pacfa/pacfa-licensing",
+    "source_label": "Colorado Department of Agriculture, PACFA Licensing",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "35",
+      "80"
+    ],
+    "notes": "The page also lists license fees and the PACFA office's phone number; neither is used in copy (no phone numbers in copy)."
+  },
+  {
+    "id": "dog-daycare-artificial-turf.pacfa-common-area-enclosure",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado's PACFA rules define a common area as a play yard or area where dogs are commingled for exercise or social interaction, and an enclosure as a place where an animal is housed mainly to eat and sleep, which is not a common area.",
+    "quote": "1.8. “Common area” means play yards or areas where dogs are commingled for exercise or social interaction. … 1.13. “Enclosure” means any location within a facility where a pet animal is housed primarily for the purpose of eating and sleeping, which is not a common area used for exercise or social interaction.",
+    "source_url": "https://www.coloradosos.gov/CCR/GenerateRulePdf.do?ruleVersionId=12041&fileName=8%20CCR%201202-15",
+    "source_label": "8 CCR 1202-15 (PACFA rules), Rules 1.8 and 1.13, Code of Colorado Regulations, version effective July 15, 2025",
+    "effective": "2025-07-15",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "1.8",
+      "1.13"
+    ],
+    "notes": "Read from the official Secretary of State PDF of the current version (ruleVersionId 12041; 53 pages; PDF created 2025-07-15), fetched from this URL on 2026-09-25. The SOS answered 'Service Unavailable' on a re-fetch early 2026-09-26: re-check against the live PDF. Cornell LII still shows the pre-July-2025 parts, labelled 'Effective until 7/15/2025'."
+  },
+  {
+    "id": "dog-daycare-artificial-turf.pacfa-11-12-9-drainage",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "PACFA's rules require outdoor areas to be designed and built to drain natural or other excess water, whatever the surfacing material.",
+    "quote": "11.12.9. Outdoor areas must be designed and constructed in a manner that permits suitable drainage to eliminate natural or other excess water, regardless of surfacing material within the area.",
+    "source_url": "https://www.coloradosos.gov/CCR/GenerateRulePdf.do?ruleVersionId=12041&fileName=8%20CCR%201202-15",
+    "source_label": "8 CCR 1202-15 (PACFA rules), Rule 11.12.9, Code of Colorado Regulations, version effective July 15, 2025",
+    "effective": "2025-07-15",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [],
+    "notes": "Numbered 11.12.10 before July 15, 2025, when it read 'Outdoor enclosures ... regardless of surfacing material within the enclosure'. The current text says 'Outdoor areas', which reaches play yards (common areas). The rules never mention artificial turf: never say PACFA approves turf."
+  },
+  {
+    "id": "dog-daycare-artificial-turf.pacfa-standing-water",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "PACFA's rules require floors built or kept to prevent standing water in runs and walkways, with excess water removed immediately, and require standing water to be removed from enclosures and common areas.",
+    "quote": "11.11. Floors must be constructed or maintained to prevent standing water in runs or walkways. Excess water must be removed immediately. … 12.1.8. Standing water must be removed from enclosures and common areas.",
+    "source_url": "https://www.coloradosos.gov/CCR/GenerateRulePdf.do?ruleVersionId=12041&fileName=8%20CCR%201202-15",
+    "source_label": "8 CCR 1202-15 (PACFA rules), Rules 11.11 and 12.1.8, Code of Colorado Regulations, version effective July 15, 2025",
+    "effective": "2025-07-15",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "11.11"
+    ]
+  },
+  {
+    "id": "dog-daycare-artificial-turf.pacfa-11-12-3-shade",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "PACFA's rules require shade for all animals in outdoor areas when the temperature rises above 70 degrees, large enough to hold every animal in the enclosure or common area at once, unless the animals have immediate access to the inside of the facility.",
+    "quote": "11.12.3. A shaded area must be provided to all animals in outdoor areas when the temperature rises above 70 degrees. The shaded area provided must be of a size directly proportional to the size of the animals being protected and must be large enough to contain all the animals in the enclosure or common area simultaneously. The interior of a shelter structure may not substitute for a shaded area. … 11.12.6. If the pet animal has a choice of immediate access to an interior portion of the facility, shelter and shade need not be provided.",
+    "source_url": "https://www.coloradosos.gov/CCR/GenerateRulePdf.do?ruleVersionId=12041&fileName=8%20CCR%201202-15",
+    "source_label": "8 CCR 1202-15 (PACFA rules), Rules 11.12.3 and 11.12.6, Code of Colorado Regulations, version effective July 15, 2025",
+    "effective": "2025-07-15",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "70"
+    ],
+    "notes": "The pre-July-2025 rule required shade for animals housed in an outdoor enclosure, with no temperature trigger."
+  },
+  {
+    "id": "dog-daycare-artificial-turf.pacfa-12-1-7-enclosure-floor",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "PACFA's rules list the floors a dog enclosure may have: coated wire of adequate gauge, approved flooring such as slatted or expanded metal or another surface the Commissioner approves, or any solid material that is water-resistant and can be cleaned and sanitized.",
+    "quote": "12.1.7. The floor of the enclosure may be made of the following: 12.1.7.1. Wire, provided that the wire is of a gauge adequate to prevent sagging under the weight of the animal or injury to the feet and provided that the wire is coated … 12.1.7.2. Approved flooring consisting of slatted flooring, galvanized, expanded metal flooring or expanded metal coated with a flexible plastic surface, or other surface approved by the Commissioner; or 12.1.7.3. Any solid material that is water-resistant and able to be cleaned and sanitized.",
+    "source_url": "https://www.coloradosos.gov/CCR/GenerateRulePdf.do?ruleVersionId=12041&fileName=8%20CCR%201202-15",
+    "source_label": "8 CCR 1202-15 (PACFA rules), Rule 12.1.7, Code of Colorado Regulations, version effective July 15, 2025",
+    "effective": "2025-07-15",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [],
+    "notes": "Applies to dog enclosures (Rule 12.1, Dogs). Turf is not named; the page says only that the list does not name it and that one option is a surface the Commissioner approves."
+  },
+  {
+    "id": "dog-daycare-artificial-turf.pacfa-indoor-surfaces",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "PACFA's rules require indoor sewage and waste to drain to a sanitary sewer or other locally approved sewage-disposal system, and the surfaces of indoor enclosures and common areas to be water-resistant and able to be cleaned and sanitized.",
+    "quote": "11.10. Sewage and waste from indoor facilities must be disposed of by connection of drains to a sanitary sewer or other locally approved sewage-disposal system. … 12.21. All surfaces of indoor enclosures and common areas must be constructed of materials that are water-resistant and can be cleaned and sanitized. All play equipment and fixtures in outdoor enclosures and common areas must be water-resistant.",
+    "source_url": "https://www.coloradosos.gov/CCR/GenerateRulePdf.do?ruleVersionId=12041&fileName=8%20CCR%201202-15",
+    "source_label": "8 CCR 1202-15 (PACFA rules), Rules 11.10 and 12.21, Code of Colorado Regulations, version effective July 15, 2025",
+    "effective": "2025-07-15",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "11.10",
+      "12.21"
+    ]
+  },
+  {
+    "id": "dog-daycare-artificial-turf.pacfa-13-1-sanitation-methods",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "PACFA's rules allow only two ways to sanitize: a disinfectant applied per its label to a clean surface, or heat that raises the surface to at least 160°F.",
+    "quote": "13.1. Sanitation of a facility may be achieved only by using one of the two methods listed below: 13.1.1. “Chemical Sanitation” means the application of a Disinfectant, per the manufacturer’s label instructions, to a clean surface; or 13.1.2. “Heat Sanitation” means the application of heat to raise surface temperature to at least 160 degrees Fahrenheit.",
+    "source_url": "https://www.coloradosos.gov/CCR/GenerateRulePdf.do?ruleVersionId=12041&fileName=8%20CCR%201202-15",
+    "source_label": "8 CCR 1202-15 (PACFA rules), Rule 13.1, Code of Colorado Regulations, version effective July 15, 2025",
+    "effective": "2025-07-15",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "13.1",
+      "160"
+    ]
+  },
+  {
+    "id": "dog-daycare-artificial-turf.pacfa-13-2-between-groups",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "PACFA's rules require enclosures and common areas to be cleaned and then sanitized or disinfected after one animal or group leaves and before another uses the space, or more often if needed.",
+    "quote": "13.2. All enclosures, common areas, cages, benches, tables, tubs, bedding, etc., must be cleaned and then sanitized/disinfected after any one animal or group of animals ceases to occupy the space and before any other animal or group of animals occupies the same space or more often if necessary to maintain clean and sanitary conditions.",
+    "source_url": "https://www.coloradosos.gov/CCR/GenerateRulePdf.do?ruleVersionId=12041&fileName=8%20CCR%201202-15",
+    "source_label": "8 CCR 1202-15 (PACFA rules), Rule 13.2, Code of Colorado Regulations, version effective July 15, 2025",
+    "effective": "2025-07-15",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "13.2"
+    ],
+    "notes": "How an inspector applies 'between groups' to an outdoor turf play yard is not stated in the rules; the page sends that question to the PACFA office."
+  },
+  {
+    "id": "dog-daycare-artificial-turf.pacfa-13-3-daily-waste",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "PACFA's rules require visible animal waste to be removed from dog enclosures and common areas daily, or more often if necessary.",
+    "quote": "13.3. With the exception of enclosures of small animals and birds, visible animal wastes must be removed from enclosures and common areas daily or more often if necessary.",
+    "source_url": "https://www.coloradosos.gov/CCR/GenerateRulePdf.do?ruleVersionId=12041&fileName=8%20CCR%201202-15",
+    "source_label": "8 CCR 1202-15 (PACFA rules), Rule 13.3, Code of Colorado Regulations, version effective July 15, 2025",
+    "effective": "2025-07-15",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "13.3"
+    ]
+  },
+  {
+    "id": "dog-daycare-artificial-turf.pacfa-13-4-cleaning-exposure",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "PACFA's rules require animals to be protected from water under pressure and from chemical solutions used in cleaning.",
+    "quote": "13.4. Animals must be protected from exposure to water under pressure or to chemical solution used in cleaning the facility.",
+    "source_url": "https://www.coloradosos.gov/CCR/GenerateRulePdf.do?ruleVersionId=12041&fileName=8%20CCR%201202-15",
+    "source_label": "8 CCR 1202-15 (PACFA rules), Rule 13.4, Code of Colorado Regulations, version effective July 15, 2025",
+    "effective": "2025-07-15",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "13.4"
+    ]
+  },
+  {
+    "id": "dog-daycare-artificial-turf.pacfa-13-11-outdoor-substrate",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Since July 15, 2025, PACFA's rules require outdoor substrate to be removed or replaced when it is permeated with urine or fecal matter or when odors are present.",
+    "quote": "13.11. Outdoor substrate must be removed or replaced when permeated with urine or fecal matter, or when odors are present.",
+    "source_url": "https://www.coloradosos.gov/CCR/GenerateRulePdf.do?ruleVersionId=12041&fileName=8%20CCR%201202-15",
+    "source_label": "8 CCR 1202-15 (PACFA rules), Rule 13.11, Code of Colorado Regulations, version effective July 15, 2025",
+    "effective": "2025-07-15",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "13.11",
+      "2025",
+      "15"
+    ],
+    "notes": "CURRENT TEXT. The inventory brief's editor note quoted the pre-July-2025 wording ('Outdoor gravel, sand, or soil ...') from Cornell LII, which still shows the superseded part; see dog-daycare-artificial-turf.pacfa-13-11-before-2025. The rules do not define 'substrate' or mention artificial turf. The page says substrate plainly reaches sand infill and the aggregate base, and leaves whether it reaches the turf itself to the PACFA office."
+  },
+  {
+    "id": "dog-daycare-artificial-turf.pacfa-13-11-before-2025",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Before July 15, 2025, the same PACFA rule said outdoor gravel, sand or soil must be removed or replaced when permeated with urine or fecal matter or when odors are present.",
+    "quote": "13.11. Outdoor gravel, sand, or soil must be removed or replaced when permeated with urine or fecal matter, or when odors are present.",
+    "source_url": "https://www.law.cornell.edu/regulations/colorado/title-8/agency-1202/division-15/part-13",
+    "source_label": "8 CCR 1202-15, pt. 13 [Effective until 7/15/2025], Rule 13.11, Cornell LII State Regulations",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "13.11",
+      "2025",
+      "15"
+    ],
+    "notes": "Historical text only; LII's own heading marks it 'Effective until 7/15/2025'. The Secretary of State's editor's notes list Rules 11-14 as amended effective 07/15/2025."
+  },
+  {
+    "id": "dog-daycare-artificial-turf.pacfa-14-11-commingling",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "PACFA's rules let boarding and training facilities commingle up to 60 dogs in one common area under constant, direct supervision, with at least one supervisor for every 15 dogs.",
+    "quote": "14.11. Boarding/training facilities and pet handlers may commingle dogs from different households in common areas, under constant and direct supervision, with the written consent of the owners. … 14.11.2. There must be at least one human supervisor for every 15 dogs commingled within each common area. … 14.11.3. No more than 60 dogs may be commingled in any enclosure or common area at any time.",
+    "source_url": "https://www.coloradosos.gov/CCR/GenerateRulePdf.do?ruleVersionId=12041&fileName=8%20CCR%201202-15",
+    "source_label": "8 CCR 1202-15 (PACFA rules), Rule 14.11, Code of Colorado Regulations, version effective July 15, 2025",
+    "effective": "2025-07-15",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "14.11",
+      "60",
+      "15"
+    ]
+  },
+  {
+    "id": "dog-daycare-artificial-turf.pacfa-2025-rulemaking",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The current PACFA rules took effect July 15, 2025, in a rulemaking that among other changes updated the cleaning, sanitation and commingling rules and amended Parts 11 through 14.",
+    "quote": "25.11. Adopted May 15, 2025 – Effective July 15, 2025 … This rulemaking also adds new definitions; changes threshold numbers for the breeding, rescue and shelter of herptiles; updates enclosure requirements for some species; updates cleaning, sanitation and isolation rules; updates rules regarding commingling of animals, and updates recordkeeping requirements for dogs and cats in grooming, boarding/training and pet handler facilities. … Rules 1, 2.6, 7, 9.1.3, 9.2.3, 10.5, 11-14, 15.3, 15.3.1, 16, 17.3.3, 18-19, 25.11 eff. 07/15/2025.",
+    "source_url": "https://www.coloradosos.gov/CCR/GenerateRulePdf.do?ruleVersionId=12041&fileName=8%20CCR%201202-15",
+    "source_label": "8 CCR 1202-15 (PACFA rules), Rule 25.11 statement of basis and editor's notes, Code of Colorado Regulations, version effective July 15, 2025",
+    "effective": "2025-07-15",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "25.11",
+      "2025",
+      "15",
+      "11",
+      "14",
+      "07/15",
+      "1",
+      "2.6",
+      "7",
+      "10.5",
+      "15.3",
+      "16"
+    ]
+  },
+  {
+    "id": "dog-daycare-artificial-turf.fc-luc-field-of-play-exception",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins' Land Use Code lets the Director approve artificial turf in a development landscape plan only on an athletic field of play, and only where state law allows it, the use is appropriate, it adds no pollutants that could impair the environment and alternatives are not reasonable.",
+    "quote": "(d) Artificial Turf and Plants. No artificial turf or artificial plants may be included in any landscape plan or installed. The Director may approve an exception to allow artificial turf to be installed on an athletic field of play if the installation is not prohibited under C.R.S. 37-99-103 and if the Director determines the use is appropriate, the use does not add pollutants that could cause environmental impairment, and alternatives are not reasonable. Any exception to allow artificial turf must be noted in the landscape plan.",
+    "source_url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/fortcollco-meet-0538ebaac95447ff8c4f53ebc4c0adf8/ITEM-Attachment-004-785f079234b4438a8e8675d01d6f3bd4.pdf",
+    "source_label": "Fort Collins Land Use Code 5.10.1(D)(2)(d), Ordinance No. 008, 2025",
+    "effective": "2025-02-14",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "37",
+      "99",
+      "103"
+    ],
+    "notes": "Section 5.10.1 exempts development on existing single- and two-unit home lots (see fc-luc-5.10.1). Whether a kennel's dog play yard is part of the 'landscape plan' at all is not addressed; the page sends that to Fort Collins Planning."
+  },
+  {
+    "id": "dog-daycare-artificial-turf.fc-code-26-491-contaminated-water",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins' stormwater code counts as contaminated water any water carrying pollutants at levels that could impair health or the environment, naming nutrients such as nitrogen and phosphorus and biological agents that may cause disease.",
+    "quote": "Contaminated water shall mean that water which contains pollutants or constituents at concentrations which could cause, directly or indirectly, impairment of human health or the environment and which would not present in such concentrations in a natural state. … These constituents include, but are not limited to, toxic pollutants as defined in § 26-206 of this Code, nutrients such as nitrogen and phosphorous, substances which promote an excessive biochemical oxygen demand (BOD) or chemical oxygen demand (COD) as those terms are defined in § 26-206, substances which cause the pH of such water to deviate from acceptable standards, biological agents which may be the cause of disease in either humans or other desirable organisms, and physical contaminants such as excess sediments and/or temperature.",
+    "source_url": "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH26UT_ARTVIISTUT_DIV1GE_S26-491DE",
+    "source_label": "Fort Collins City Code Sec. 26-491, Definitions (Municode, code updated Aug. 27, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [
+      "26",
+      "491",
+      "206"
+    ],
+    "notes": "The code spells it 'phosphorous'. Read through the Municode content API (the public page is JavaScript-rendered)."
+  },
+  {
+    "id": "dog-daycare-artificial-turf.fc-code-26-498b-property-conditions",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins' code bars anyone from maintaining or permitting property conditions that create a significant potential for pollutants or contaminated water to migrate to the city's storm drains.",
+    "quote": "(b) No person shall maintain or permit property conditions that create a significant potential for migration of pollutants or contaminated water to the City's storm drainage facilities.",
+    "source_url": "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH26UT_ARTVIISTUT_DIV1GE_S26-498WAQUCO",
+    "source_label": "Fort Collins City Code Sec. 26-498(b), Water quality control (Municode, code updated Aug. 27, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [
+      "26",
+      "498"
+    ],
+    "notes": "Subsection (a) is quoted in how-to-clean-artificial-turf.fc-code-26-498."
+  },
+  {
+    "id": "dog-daycare-artificial-turf.fc-code-26-331-sanitary",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins makes it unlawful to discharge stormwater, surface water, roof runoff or subsurface drainage into a sanitary sewer unless the Utilities Executive Director authorizes it in writing.",
+    "quote": "It is unlawful for any person to discharge or cause to be discharged any stormwater, surface water, water from natural springs and groundwater, roof runoff, subsurface drainage, uncontaminated cooling water or unpolluted industrial process water or like waters into any sanitary sewer, except as authorized in writing by the Utilities Executive Director.",
+    "source_url": "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH26UT_ARTIVWA_DIV6USRE_S26-331EXDIPR",
+    "source_label": "Fort Collins City Code Sec. 26-331, Excessive discharge prohibited (Municode, code updated Aug. 27, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [
+      "26",
+      "331"
+    ],
+    "notes": "The section goes on to set the conditions for an authorization (an engineer's estimate of the discharge, no stormwater facility within 400 feet, sewer capacity, fees). Parts of the city may be sewered by a sanitation district rather than Fort Collins Utilities: the page says to ask whoever provides sewer service."
+  },
+  {
+    "id": "dog-daycare-artificial-turf.fc-code-26-258c-connections",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins makes it unlawful, except as its code authorizes, to connect downspouts, foundation or areaway drains, sump pumps or other sources of surface runoff or groundwater to a line that connects to the sanitary sewer.",
+    "quote": "(c) Runoff drain connections prohibited. Except as authorized pursuant to Subsection 26-237 of this Code, it is unlawful for any person to connect roof downspouts, exterior foundation drains, areaway drains, sump pumps or other sources of surface runoff or groundwater to a service line or building drain which in turn is connected directly or indirectly to a sanitary sewer.",
+    "source_url": "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH26UT_ARTIVWA_DIV3COSY_S26-258WASELIGERE",
+    "source_label": "Fort Collins City Code Sec. 26-258(c), Wastewater service lines (Municode, code updated Aug. 27, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [
+      "26",
+      "258",
+      "237"
+    ]
+  },
+  {
+    "id": "dog-daycare-artificial-turf.ncsu-urine-nitrogen",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "NC State Extension says the spots dog urine leaves on grass are often put down to the concentrated nitrogen and excess salts in the urine, a response like dropping a handful of concentrated fertilizer on the lawn.",
+    "quote": "Spotting and death of turfgrass are often attributed to the concentrated nitrogen and excess salts in dog urine. The nitrogen will often cause a darker green turfgrass spot. It is a response similar to dropping a handful of concentrated fertilizer on the lawn.",
+    "source_url": "https://content.ces.ncsu.edu/dogs-and-turfgrass-interactions",
+    "source_label": "NC State Extension, Dogs and Turfgrass Interactions (AG-905)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "905"
+    ],
+    "notes": "Used only to say dog urine carries concentrated nitrogen, the nutrient Fort Collins' stormwater code names. The components list is in dog-urine-smell-artificial-turf.ncsu-dog-urine-components."
+  },
+  {
+    "id": "dog-daycare-artificial-turf.greeley-20-563-allowed-list",
+    "layer": "ordinance",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley's list of discharges allowed into its storm drainage system includes uncontaminated rain and snowmelt runoff, landscape irrigation and individual residential car washing, and does not list wash water from an animal yard.",
+    "quote": "(b) The following are allowed discharges into the city's stormwater drainage system and are exempted from classification as an illicit discharge: uncontaminated runoff from rain or snow melt; landscape irrigation; diverted stream flows; irrigation return flow; rising groundwater; uncontaminated groundwater infiltration as defined at 40 C.F.R. 35.3005(20); uncontaminated pumped groundwater; springs; flows from riparian habitat and wetlands; discharges in accordance with the state department of public health and environment: water quality control division low risk policy discharge guidance documents; foundation drains; air conditioning condensation; water from crawlspace pumps; footing drains; individual residential car washing; charity car washes; water incidental to city sweeping that is not associated with construction; flows from emergency firefighting activities; water dyed for testing processes in accordance with manufacturer recommendations; and other discharges specifically authorized by the city's state discharge permit system permit or National Pollution Discharge Elimination System permit.",
+    "source_url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT20PUWOUT_CH3WASASESE_ARTVIISTDRSY_DIV1INGE_S20-563ILDIALDINOTA",
+    "source_label": "Greeley Municipal Code Sec. 20-563(b), Illicit discharges; allowed discharges (Municode)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [
+      "20",
+      "563",
+      "40",
+      "35.3005"
+    ],
+    "notes": "The full (b) list was read; nothing on it covers animal-area or kennel wash water. The CDPHE low-risk guidance documents it cross-references were not read, so the page says only that the city's list does not name yard wash water."
+  },
+  {
+    "id": "dog-daycare-artificial-turf.wra-label-functional-areas",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Western Resource Advocates' 2025 guide for Colorado communities suggests that, where landscape plans are required, towns ask applicants to label functional turf and functional artificial turf areas and describe the proposed functional use.",
+    "quote": "If landscape plans are required, consider requiring applicants to label functional turf and functional artificial turf areas and describe the proposed functional use.",
+    "source_url": "https://westernresourceadvocates.org/wp-content/uploads/2025/08/2025_SB24-005_Simplified-Guide.pdf",
+    "source_label": "Western Resource Advocates, Senate Bill 24-005 Made Simple: Streamlined Templates and Processes (August 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2025",
+      "24",
+      "005"
+    ],
+    "notes": "Its sample self-attestation form also asks applicants to confirm 'All turf/artificial turf areas are functional (e.g., for civic gathering, community gathering, or recreational purposes)' and to 'Describe turf use'."
+  },
+  {
+    "id": "dog-daycare-artificial-turf.k9grass-disinfect-then-enzyme",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "ForeverLawn's K9Grass care guidelines say disinfectants kill germs but do not necessarily remove the source of odors and commonly stay on 15 minutes before rinsing, and that an enzyme, which breaks down the source but does not necessarily kill germs, goes on the wet grass afterward for 4 to 24 hours.",
+    "quote": "While “germ kill time” may vary, it is common to leave disinfectant on the surface for 15 minutes prior to being rinsed off. Disinfectants kill germs but they typically do not necessarily eliminate the source of odors (urine and feces). Enzymes reduce and help eliminate the source of the odor (urine and feces) and should be applied to wet grass after disinfectants have been applied and rinsed off. Enzymes should be applied and left on for anywhere from 4 to 24 hours. While enzymes break down the source of odors, they do not necessarily kill germs.",
+    "source_url": "https://k9grass.com/wp-content/uploads/2017/01/K9MaintenanceIndoorOutdoor.pdf",
+    "source_label": "ForeverLawn, K9Grass Outdoor Maintenance Guidelines (M0090 Rev. 04/15)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "15",
+      "4",
+      "24"
+    ],
+    "notes": "A manufacturer's care guide for its own product, not a study; the page names it as one maker's guide."
+  },
+  {
+    "id": "dog-daycare-artificial-turf.k9grass-solids-rinse",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same guidelines recommend vacuuming once a week and adjusting, removing solid waste immediately, never washing solids through the grass, and regular rinsing to clear residual waste from the blades and the base, with cleaning frequency set by the number of dogs and the type of use.",
+    "quote": "Recommendation: vacuum once a week and increase/decrease based on results. … Solid waste should be removed and disposed of immediately and soiled areas rinsed regularly. It is a good practice to “spot treat” these areas with an enzyme immediately after the waste is removed. It is unwise and not recommended to wash solid waste through the grass. Required frequency of cleaning is based on multiple variables. Factors such as the number of dogs, the type of use (play or elimination), as well as personal preference should all be considered. Regular rinsing with water will remove much of the residual waste from the blades and will rinse the base material.",
+    "source_url": "https://k9grass.com/wp-content/uploads/2017/01/K9MaintenanceIndoorOutdoor.pdf",
+    "source_label": "ForeverLawn, K9Grass Outdoor Maintenance Guidelines (M0090 Rev. 04/15)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": []
+  },
+  {
+    "id": "dog-daycare-artificial-turf.k9grass-bleach-hot-water",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same guidelines say not to use a bleach solution stronger than 1:20 on K9Grass, that 1:32 bleach to water is enough to neutralize parvovirus, to test any cleaner on a small area first, and not to use water hotter than 160 degrees on the grass.",
+    "quote": "However, any agent that contains bleach in a solution of greater than 1:20 should not be used. (A 1:32 ratio of bleach to water is sufficient to neutralize Parvovirus). It is recommended that any cleaning product be applied in a small test area first. Water in excess of 160 degrees should not be used on the grass.",
+    "source_url": "https://k9grass.com/wp-content/uploads/2017/01/K9MaintenanceIndoorOutdoor.pdf",
+    "source_label": "ForeverLawn, K9Grass Outdoor Maintenance Guidelines (M0090 Rev. 04/15)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "1",
+      "20",
+      "32",
+      "160"
+    ],
+    "notes": "The parvovirus ratio is the turf maker's statement, not a veterinary or EPA source; the page attributes it to the maker."
+  },
+  {
+    "id": "dog-daycare-artificial-turf.k9grass-indoor-daily",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "For indoor K9Grass, the maker says most areas used for elimination need daily rinsing and disinfecting, and that a flushing system moving urine to the drain typically runs two to five times a day.",
+    "quote": "Most indoor areas that are used for waste elimination require daily rinsing and disinfecting. … The flushing system is designed to rinse the floor and move urine to the drain without wetting the grass. Frequency of cleaning is dependent on use but it is common for indoor facilities to clean the grass daily. The flushing system is typically run two to five times a day, several minutes for each zone to rinse the floor.",
+    "source_url": "https://k9grass.com/wp-content/uploads/2017/01/K9MaintenanceIndoorOutdoor.pdf",
+    "source_label": "ForeverLawn, K9Grass Indoor Maintenance Guidelines (M0080 Rev. 04/15)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": []
+  },
+  {
+    "id": "dog-daycare-artificial-turf.k9grass-spec-no-infill",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "ForeverLawn's K9Grass spec sheet markets its pet-waste turf to kennels, boarding facilities and dog parks, with a knitted flow-through backing for edge-to-edge drainage and a short, dense blade that needs no infill.",
+    "quote": "Unique Flow-Through Backing™ provides edge-to-edge drainage. No More Mud! Kennels, boarding facilities, and dog parks. … Cleanable Short, dense blade construction requiring no infill greatly enhances cleanability.",
+    "source_url": "https://k9grass.com/wp-content/uploads/2022/04/K9Grass-Spec-Print-0422.pdf",
+    "source_label": "ForeverLawn, K9Grass product specifications (M0070A Rev. 04/22)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [],
+    "notes": "The same sheet lists infill 'NONE' and a 7/8-inch blade for K9Grass Elite and Classic +. A maker's spec, cited as one example of turf built for kennels, not a recommendation."
+  }
+]

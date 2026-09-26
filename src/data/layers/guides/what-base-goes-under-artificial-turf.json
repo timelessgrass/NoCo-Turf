@@ -1,0 +1,383 @@
+[
+  {
+    "id": "what-base-goes-under-artificial-turf.firestone-base-not-over-grass",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone's code requires artificial turf to go over a compacted, porous aggregate base at least 3 inches deep, bars laying it over existing grass or compacted dirt, and says the installation may not impede or alter the lot's drainage pattern.",
+    "quote": "ii. The drainage pattern of the lot shall not be impeded or altered by the installation of artificial turf. iii. Artificial turf shall be installed over a compacted and porous aggregate base material that is a minimum of three (3) inches deep to allow for adequate drainage both horizontally and vertically and to prevent excessive runoff or pooling. Artificial turf shall not be installed over existing grass or compacted dirt.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+    "source_label": "Firestone Development Code 16.6.4.F.2.e (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "3",
+      "16.6",
+      "4",
+      "1072",
+      "2025"
+    ],
+    "notes": "Read 2026-09-25 through the Municode content API (jobId 488870, productId 18062), the same text the library page renders. The shared record firestone-fdc-16.6.4-turf-specs carries the 3-inch minimum with pile, face weight and infill; this one adds the no-grass, no-compacted-dirt and drainage-pattern sentences. Applies to single-family lots existing before the FDC too (16.6.1.B, per the shared permit record)."
+  },
+  {
+    "id": "what-base-goes-under-artificial-turf.cdot-703-03-class-6",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CDOT's Class 6 aggregate base course is a crushed road base in which all of the material passes a 1-inch sieve, 95 to 100 percent passes 3/4 inch, 30 to 65 percent passes the No. 4 sieve, 25 to 55 percent passes the No. 8, and 3 to 12 percent passes the No. 200 (the dust), with a liquid limit of no more than 30 and a plasticity index of no more than 6; CDOT allows crushed stone, crushed gravel, natural gravel or crushed reclaimed concrete as base aggregate.",
+    "quote": "703.03 Aggregate for Bases. Aggregates for bases except Aggregate Base Course (RAP) shall be crushed stone, crushed slag, crushed gravel, natural gravel, or crushed reclaimed concrete. … The liquid limit shall be as shown in Table 703-2 and the plasticity index shall not exceed six when the aggregate is tested per AASHTO T 89 and T 90 respectively. … Table 703-2, Classification for Aggregate Base Course, \"LL not greater than 30\", Class 6 column: 25 mm (1\") 100 · 19 mm (3/4\") 95-100 · 4.75 mm (#4) 30-65 · 2.36 mm (#8) 25-55 · 75 µm (#200) 3-12",
+    "source_url": "https://www.codot.gov/business/designsupport/cdot-construction-specifications/2023-construction-specifications/2023-specs-book/2023-cdot-specs-book.pdf",
+    "source_label": "CDOT Standard Specifications for Road and Bridge Construction (2023), subsection 703.03 and Table 703-2",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "703.03",
+      "703",
+      "2",
+      "1",
+      "100",
+      "3/4",
+      "95",
+      "4",
+      "30",
+      "65",
+      "8",
+      "25",
+      "55",
+      "200",
+      "3",
+      "12",
+      "6",
+      "89",
+      "90",
+      "2023",
+      "4.75",
+      "2.36",
+      "19",
+      "75"
+    ],
+    "notes": "The table cells after \"…\" are a transcription of Table 703-2 (page 703-3 of the book, PDF page 837); the column was checked by word position (pdftotext -bbox-layout) so no cell slipped between Class 5, 6 and 7. The PDF is the full 2023 book (5.8 MB). A rock yard selling \"Class 6\" is naming this gradation; whether a given load was tested to it is a question for the supplier."
+  },
+  {
+    "id": "what-base-goes-under-artificial-turf.cdot-304-compaction",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Under a CDOT road, aggregate base is compacted in layers no more than 6 inches thick to at least 95 percent of its maximum density, at a moisture content within 2 percent of optimum.",
+    "quote": "The maximum compacted thickness of any one layer shall not exceed 6 inches. … Compaction of each layer shall continue until a density of at least 95 percent of the maximum density has been achieved as determined per AASHTO T 180 as modified by CP 23. The moisture content shall be at plus or minus 2 percent of optimum moisture content.",
+    "source_url": "https://www.codot.gov/business/designsupport/cdot-construction-specifications/2023-construction-specifications/2023-specs-book/2023-cdot-specs-book.pdf",
+    "source_label": "CDOT Standard Specifications for Road and Bridge Construction (2023), subsections 304.04 and 304.06",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6",
+      "95",
+      "180",
+      "23",
+      "2",
+      "304.04",
+      "304.06",
+      "2023"
+    ],
+    "notes": "Road practice, quoted for comparison only: a turf base is not a road and is meant to drain (see the STC record on 95% Proctor and permeability)."
+  },
+  {
+    "id": "what-base-goes-under-artificial-turf.lcuass-22-5-4-base-course",
+    "layer": "county",
+    "applies_to": [
+      "fort-collins-co",
+      "loveland-co"
+    ],
+    "fact": "The street standards adopted by Larimer County, Loveland and Fort Collins call for base rock crushed to size and meeting CDOT Class 5 or Class 6 aggregate base course, free of vegetable matter and lumps or balls of clay, spread in loose layers no more than 6 inches deep, each compacted to 95 percent standard Proctor, and never placed on a soft, spongy or frozen subgrade.",
+    "quote": "Base material shall consist of hard, durable particles or fragments of stone or gravel crushed to the required sizes. Material shall contain an appropriate quantity of sand or other finely-divided mineral matter which conforms to the requirements of AASHTO M 147, and to Section 703.03, CDOT Standard Specifications Class 5 or Class 6 Aggregate Base Course. … Base material shall be free from vegetable matter and lumps or balls of clay and when placed and compacted will result in a firm, dense, unyielding foundation. The Local Entity Engineer may approve recycled asphalt or concrete pavement. … Base material shall be deposited and spread without particle segregation in loose layers not to exceed 6 inches in depth. Each layer shall be thoroughly and individually compacted to 95 percent standard Proctor (AASHTO T-99) density. Wetting or aerating and rolling of the material shall be required as ordered by the Local Entity Engineer, following review of all field test results. No base course shall be placed upon a soft, spongy, or frozen subgrade or other subgrade, the stability of which, in the opinion of the Local Entity Engineer, is unsuitable.",
+    "source_url": "https://larimer.gov/sites/default/files/uploads/2023/ch22_-_construction_specifications_0.pdf",
+    "source_label": "Larimer County Urban Area Street Standards, Chapter 22, Sec. 22.5.4 Base Course (repealed and reenacted August 1, 2021; adopted by Larimer County, City of Loveland, City of Fort Collins)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "5",
+      "6",
+      "703.03",
+      "95",
+      "99",
+      "147",
+      "22.5",
+      "4",
+      "22",
+      "2021",
+      "1"
+    ],
+    "notes": "Street standards, quoted to show that Class 6 is the same road base Northern Colorado puts under its streets; they do not govern a private yard. The file returned 403 to plain curl on 2026-09-25 and was read through WebFetch, so re-check in a browser. An older revision (Feb. 17, 2015, larimer.org/sites/default/files/ch22_redlines.pdf) has the same paragraph."
+  },
+  {
+    "id": "what-base-goes-under-artificial-turf.longmont-crusher-fines-standard",
+    "layer": "standard",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Longmont's park design standards define crusher fines as angular 3/8-inch-minus material with 6% passing a 200-mesh sieve, laid in two lifts of at least 3 inches that are each wetted and compacted.",
+    "quote": "Crusher fines are to be comprised of 3/8” minus material with 6% passing a 200-mesh sieve. Angular material is required. … compact subgrade to 95% standard proctor and install crusher fines in two, 3” minimum lifts wetting and compacting with each lift. Finish surface should be firm and compact.",
+    "source_url": "https://longmontcolorado.gov/wp-content/uploads/2026/01/Parks-Development-Design-Standards_2026-01.pdf",
+    "source_label": "City of Longmont Park Development Design Standards (2026, version update 5/13/2026), Sec. 8.7 Crusher Fines",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3/8",
+      "3",
+      "8",
+      "6",
+      "200",
+      "95",
+      "2026",
+      "8.7",
+      "5",
+      "13"
+    ],
+    "notes": "A path standard, used only to say what \"crusher fines\" means in Northern Colorado; not a turf-base rule."
+  },
+  {
+    "id": "what-base-goes-under-artificial-turf.foreverlawn-landscape-depth",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "ForeverLawn's landscape installation guidelines clear the ground 3 to 4 inches below the finished turf level, lay about 3 inches of crushed stone graded from 3/4 inch down to dust, and cap it with a 1-inch layer of fines; ground that drains poorly may need more soil removed, larger gravel or a drain.",
+    "quote": "Clear the area of sod, stone, mulch, organic debris, etc., down to a consistent 3”–4” below the desired finish level of the ForeverLawn synthetic grass. … If the area has poor percolation, it may require more of the soil/base to be removed and/or more (larger) gravel brought in. If doing this, it is also recommended that some type of drainage system be installed to pull the water or liquids out of the area. … The stone should be a crushed aggregate stone. The size should be about 3/4” down to dust. This type of stone should be at a depth of about 3”. After this larger stone is brought in and compacted, a 1” layer of fines is used to cap the entire installation area creating a smooth finish.",
+    "source_url": "https://www.landscapesbyforeverlawn.com/wp-content/uploads/2023/07/DIY-Landscape-Installation-Guidelines-.pdf",
+    "source_label": "ForeverLawn General Landscape Installation Guidelines (M1374 Rev. 05/19)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "4",
+      "3/4",
+      "1",
+      "1374",
+      "05/19",
+      "19"
+    ],
+    "notes": "Manufacturer guideline hosted on a ForeverLawn dealer site; a national benchmark, not a Colorado rule. The same guide lists crumb rubber infill, which Firestone bans; not used here."
+  },
+  {
+    "id": "what-base-goes-under-artificial-turf.foreverlawn-landscape-compaction",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "ForeverLawn's landscape guidelines spread the gravel a little high because it settles on compaction, add more if it settles too much, wet the stone, then compact it to 90 to 95 percent with a vibratory plate tamper, at least two passes for every 3 to 4 inches of base, and say base material should never be dirty.",
+    "quote": "The gravel should be spread level just a little higher than the top of the edge (as the gravel will settle on compaction). Once completely spread to desired surface contour, the gravel edge should be wetted with a hose and then compacted with a vibratory plate tamper. If the base settles too much, more gravel should be added, and the process repeated. … When satisfied with the layout of the stone, the area should be wetted, and then tamped to 90%–95% compaction using a vibratory plate tamper (use a hand tamper in areas too small for a vibratory plate tamper). A minimum of two passes by vibratory tamper per every 3”–4” of base material is recommended. … Base material should never be “dirty”. We want to achieve a good base that will be firm, but still drain well.",
+    "source_url": "https://www.landscapesbyforeverlawn.com/wp-content/uploads/2023/07/DIY-Landscape-Installation-Guidelines-.pdf",
+    "source_label": "ForeverLawn General Landscape Installation Guidelines (M1374 Rev. 05/19)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "90",
+      "95",
+      "3",
+      "4",
+      "1374",
+      "05/19",
+      "19"
+    ]
+  },
+  {
+    "id": "what-base-goes-under-artificial-turf.foreverlawn-select-lx-spec",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "ForeverLawn's specification for its Select LX landscape turf calls for a subgrade compacted to at least 90 percent and at least 2 inches of free-draining 5/8-inch-minus base with fines, compacted to 90 percent but not over-compacted, designed for local soil and weather.",
+    "quote": "The subgrade shall also be compacted to a minimum of a 90% compaction rate. … Installation of the free draining base aggregate of 5/8 minus (with fines) or smaller, shall follow procedures that protect the base grade soils. It must be installed to a minimum depth of two inches. … The stone shall be left firm, but not over-compacted as to protect the porosity and drainage capabilities of the aggregate profile. … The free draining base course should be designed to meet local soil and weather conditions. It must be installed to a minimum depth of 2 inches with an overall compaction rate of 90%.",
+    "source_url": "https://www.landscapesbyforeverlawn.com/wp-content/uploads/2023/11/Select-LX.pdf",
+    "source_label": "ForeverLawn Select LX specifications, Sec. 3.1 Base and Drainage Construction (M1274-1122)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "90",
+      "5/8",
+      "2",
+      "3.1",
+      "1274",
+      "1122"
+    ],
+    "notes": "A CSI-style product specification (PDF created 2022-11-11), written for specifiers; its 2-inch figure is a minimum, not a recommendation for clay."
+  },
+  {
+    "id": "what-base-goes-under-artificial-turf.synlawn-diy-base",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's DIY installation guidelines remove 3 to 4 inches of ground for the base, water the graded base down, compact it to an 80 percent compaction rate, and finish it 1 to 1.5 inches below an adjoining concrete slab or walk.",
+    "quote": "Depending on your area, you will need to remove between 3”- 4” to create an adequate drainage base. … When installing next to a concrete slab or walkway the compacted base should be 1” to 1.5” below the surrounding concrete. This depends on pile height of turf and project design. … Water down graded base area to help with base compaction. … Use a hand tamp or vibratory compactor to compact base until you reach an 80% compaction rate. Improper or incomplete compaction could result in improper drainage.",
+    "source_url": "https://pdf.lowes.com/productdocuments/240a8581-4267-4cdf-aa5f-d4d1e250fec6/44269346.pdf",
+    "source_label": "SYNLawn DIY Installation Guidelines (rev. 4.8.13, 2013; product document hosted by Lowe's)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "4",
+      "1",
+      "1.5",
+      "80",
+      "4.8",
+      "13",
+      "2013"
+    ],
+    "notes": "PDF metadata: \"SYNLawn DIY INSTALLATION GUIDE_rev.4.8.13\", created 2013-04-19. Old, but still the document the retailer serves for the product."
+  },
+  {
+    "id": "what-base-goes-under-artificial-turf.synlawn-diy-weed-barrier",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's DIY guidelines put weed barrier in two different places: on top of the base before the turf in one step, and on the prepared subgrade under the base in another.",
+    "quote": "Weed barrier can also be installed on top of your base prior to laying turf to help deter weed growth. Note: Although weed treatments and weed barrier can lower your risk of issues, it may not completely prevent weed growth. … Install weed barrier on top of prepared sub grade if needed for tough weed problems.",
+    "source_url": "https://pdf.lowes.com/productdocuments/240a8581-4267-4cdf-aa5f-d4d1e250fec6/44269346.pdf",
+    "source_label": "SYNLawn DIY Installation Guidelines (rev. 4.8.13, 2013; product document hosted by Lowe's)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4.8",
+      "13",
+      "2013"
+    ]
+  },
+  {
+    "id": "what-base-goes-under-artificial-turf.synlawn-diy-tonnage",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's DIY guidelines estimate about 1 ton of base material for every 100 square feet at a 3-inch depth, and square feet divided by 80 for tons at 4 inches, so a 600-square-foot area takes about 6 tons at 3 inches and about 7.5 tons at 4.",
+    "quote": "You will need about 1 ton of aggregate or base material for every 100 sq. ft. at a 3” depth. … 4” in depth – Total sq. ft. of area / 80 = ______ … Rock yards use different materials to create Road Base. Please inquire with your local rock company",
+    "source_url": "https://pdf.lowes.com/productdocuments/240a8581-4267-4cdf-aa5f-d4d1e250fec6/44269346.pdf",
+    "source_label": "SYNLawn DIY Installation Guidelines (rev. 4.8.13, 2013; product document hosted by Lowe's)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "100",
+      "3",
+      "4",
+      "80",
+      "600",
+      "6",
+      "7.5",
+      "4.8",
+      "13",
+      "2013"
+    ],
+    "notes": "The 600-square-foot example is our arithmetic on the guide's rule (600 ÷ 100 = 6; 600 ÷ 80 = 7.5), not a SYNLawn figure."
+  },
+  {
+    "id": "what-base-goes-under-artificial-turf.colorado-dealer-class-6-crusher-fines",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "One Colorado turf dealer publishes its base as 2 inches of Class 6 road base topped with 2 inches of crusher fines.",
+    "quote": "Our team installs a superior foundation consisting of 2 inches of Class 6 road base topped with 2 inches of crusher fines, creating a stable and long-lasting surface.",
+    "source_url": "https://synlawncolorado.com/",
+    "source_label": "SYNLawn Colorado (dealer) home page FAQ",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "2",
+      "6"
+    ],
+    "notes": "A competitor dealer based outside NoCo territory (never name its town in copy). Used only as the one Colorado installer found that publishes inches; the page calls it their own practice. It also claims others use \"only 3 to 4 inches of recycled concrete or crusher fines\" to cut costs; that marketing line is not used."
+  },
+  {
+    "id": "what-base-goes-under-artificial-turf.stc-base-moisture",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council's base guidelines say graded stone should never be totally dry when it is handled and compacted, because some moisture holds it together, reduces separation and makes compaction easier.",
+    "quote": "Graded stone should never be totally dry when it is manipulated and compacted. A certain level of humidity in the stone mass will give it better cohesion, which will help reduce segregation, and attain desired compaction levels more easily.",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guidelines_for_Base_Syst.pdf",
+    "source_label": "Synthetic Turf Council, Guidelines for Synthetic Turf Base Systems (February 2017)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2017"
+    ],
+    "notes": "Written for sports fields (Sec. 5.3.1.1); the physics of wetting graded stone is the same in a yard. The PDF breaks \"compact-ed\" across a line; the quote joins it."
+  },
+  {
+    "id": "what-base-goes-under-artificial-turf.stc-proctor-vs-permeability",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council says a base that must stay both stable and permeable may not reach 95% Proctor, so compaction should stop once it is stable enough, and the stone needs enough fines for stability but not so many that drainage suffers.",
+    "quote": "It may not be possible to achieve 95% Proctor for base structures that must be both stable and permeable. Consequently, the compaction of the stone base must be carefully conducted, and should be terminated once sufficient stability has been attained. … The stone mix must have enough fine particles to ensure stability but not so much as to affect drainage.",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guidelines_for_Base_Syst.pdf",
+    "source_label": "Synthetic Turf Council, Guidelines for Synthetic Turf Base Systems (February 2017)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "95",
+      "2017"
+    ],
+    "notes": "Secs. 5.3.1.2 and 4.4.1.4; sports-field guidance."
+  },
+  {
+    "id": "what-base-goes-under-artificial-turf.stc-geofabric-and-stone-dust",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council describes geo-fabric laid over the subgrade to keep soil particles from washing into the base, and warns that a thin stone-dust leveling layer that is not carefully graded can seal the surface and hurt drainage.",
+    "quote": "Geo-fabrics are also used as a barrier between the sub-grade and the base and drainage system. Water will be flowing through and at the bottom of the base system and an underlying geo-fabric layer laid over the sub-grade will prevent any soil particles from being transported into the drainage system, potentially compromising its performance over time. … A thin layer of a stone dust mixed with sand is sometimes used on the surface in order to attain near perfect planarity, which is difficult to reach when using coarser materials. However, if not carefully graded, this layer can “seal” the surface and disrupt the system’s drainage performance.",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guidelines_for_Base_Syst.pdf",
+    "source_label": "Synthetic Turf Council, Guidelines for Synthetic Turf Base Systems (February 2017)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2017"
+    ],
+    "notes": "Secs. 4.4.1.2 and 4.4.1.5; sports-field guidance. The PDF breaks \"pre-vent\" across a line; the quote joins it."
+  },
+  {
+    "id": "what-base-goes-under-artificial-turf.fieldturf-foam-pad",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "FieldTurf Landscape calls foam padding optional for many turf installs, useful for cushioning and play areas; its pads drain through perforations, but drainage still depends on the base and the ground under it, climate extremes can affect some pad materials, and padding is generally not ideal for putting greens.",
+    "quote": "Foam padding is optional for many artificial turf installations, but it can be valuable when extra cushioning, impact absorption, comfort, or noise reduction is important. … Quality foam pads are designed with perforations, channels, or other drainage features that allow water to move through the system. Drainage performance still depends on the entire turf system, including the base and underlying site conditions. … Your local climate (extreme temperatures can affect some padding materials) … Foam padding is generally not ideal for putting greens where maximum ball roll consistency is the priority.",
+    "source_url": "https://fieldturflandscape.com/backyard/get-the-facts-on-foam-padding-for-artificial-turf-landscaping/",
+    "source_label": "FieldTurf Landscape, \"Get the Facts on Foam Padding for Artificial Turf Landscaping\" (Nov. 7, 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "7",
+      "2023"
+    ],
+    "notes": "Manufacturer blog post by Brad Timsit, with an FAQ added since. No freeze-specific data; the page only says extreme temperatures can affect some materials."
+  }
+]

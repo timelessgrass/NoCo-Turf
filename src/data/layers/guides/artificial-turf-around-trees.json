@@ -1,0 +1,267 @@
+[
+  {
+    "id": "artificial-turf-around-trees.csu-1537-no-root-research",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says no research documents artificial turf's effects on soil microbes, earthworms or insects, or on the health of landscape plants with roots growing under it, and that turf lets water through to the soil but becomes quite warm on a sunny day.",
+    "quote": "Because it is not a living, transpiring plant, artificial turf does not provide the cooling effect of a living lawn and becomes quite warm on a sunny day. … The carpet/topdressing combination does allow water to infiltrate underlying soil. There is no research to document effects on soil microbes, earthworms, or insects or to the health of landscape plants with roots growing under the carpet.",
+    "source_url": "https://planttalk.colostate.edu/topics/lawns/1537-artificial-turf-lawns/",
+    "source_label": "CSU Extension, PlantTalk Colorado 1537: Artificial Turf for Lawns",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1537"
+    ],
+    "notes": "Read with curl 2026-09-25. The script is undated and describes rubber-infilled turf; the page uses only the quoted sentences."
+  },
+  {
+    "id": "artificial-turf-around-trees.gn657-roots-clay",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says that in clayey or compacted soils 90 to 95% of a tree's roots are in the top 12 inches and 50% in the top 4 inches, because deeper layers of such soils are low in oxygen, that a mature tree's roots may spread two to five times the width of its canopy, and that a lawn and a tree in or near it share the rooting area and the sprinkler water.",
+    "quote": "A mature tree’s root system often occupies a much wider area than its canopy. Depending on the species of tree and soil conditions the spread of a tree’s root systems may be two to five times the width of its canopy or even greater in some cases. … In clayey, compacted or perpetually wet soils (soils with a shallow water table) roots tend to be shallower due to low soil oxygen levels in the deeper layers of such soils. … In clayey, compacted, or perpetually wet soils, 90-95% of roots will be in the top twelve inches and 50% will be in the top four inches of soil. … When mature trees are planted in/near the lawn, using a lawn sprinkler system is an easy and effective way to water them. … Remember that the turf and tree roots are located in the shared rooting area, and both are using the applied water.",
+    "source_url": "https://cmg.extension.colostate.edu/Gardennotes/657.pdf",
+    "source_label": "CSU Extension, CMG GardenNotes #657, Watering Mature Shade Trees (reviewed April 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "90",
+      "95",
+      "12",
+      "50",
+      "4",
+      "657",
+      "2023"
+    ],
+    "notes": "Read with pdftotext 2026-09-25. Figure 1 of the same page repeats the figures (90-95% in the top 12 in, 50% in the top 4-6 in, spread up to 5x canopy width). Watering amounts from this PDF belong to watering-trees-with-artificial-turf."
+  },
+  {
+    "id": "artificial-turf-around-trees.csu-1507-surface-roots",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says that under clay soil half of a tree's roots often grow in the top 4 inches and along the lawn surface, that removing surface roots may harm the tree or leave it prone to falling in wind, that roots should not be covered with soil, and that mulch or a shade-tolerant ground cover can replace grass over them.",
+    "quote": "Very often, however, under clayey soil, 50% of the roots will grow in the top 4 inches and along the surface of lawns, making it difficult to mow, fertilize and aerate the area. Removing surface roots may harm the tree or make it unstable and prone to falling under windy conditions. Tree roots should not be covered with soil because this may also affect the tree’s health. Try replacing grass near tree roots with other shade-tolerant, ground-cover plants which do not require mowing, or mulch the area to hide the roots while allowing oxygen and water to make their way down to the tree’s roots.",
+    "source_url": "https://planttalk.colostate.edu/topics/lawns/1507-tree-roots/",
+    "source_label": "CSU Extension, PlantTalk Colorado 1507: Tree Roots",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "50",
+      "4",
+      "1507"
+    ],
+    "notes": "Read with curl 2026-09-25. artificial-turf-vs-sod.csu-tree-roots-clay quotes the first sentences of the same script; this record carries the surface-root, soil-cover and mulch sentences."
+  },
+  {
+    "id": "artificial-turf-around-trees.csu-2926-root-injury",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says most tree roots are in the top 6 to 24 inches of soil, that heavy clay subsoils and compaction are among the biggest killers of urban trees, that adding only 4 to 6 inches of soil over roots drastically cuts their oxygen and water, that removing soil can expose and injure them, that mulch deeper than 6 inches injures roots while 2 to 3 inches of organic mulch helps, and that construction damage may show one to several years later.",
+    "quote": "Most tree roots are in the top 6 to 24 inches of the soil and occupy an area two to four times the diameter of the tree crown. … One of the biggest killers of urban trees is the use of heavy clay subsoils (instead of topsoil) and soil compaction. Heavy clays and soil compaction restrict water and oxygen uptake by roots … The addition of only 4 to 6 inches of soil over an existing root system drastically reduces the amount of oxygen and water available to the roots … The opposite issue of removal of soil around an existing tree can expose and injure roots, change the soil conditions where roots grow, and reduce water availability … Adding deep mulch (over 6 inches) … Using plastic or pavement that restricts or suffocates roots … Symptoms of root problems from construction damage or other detrimental activities may appear one to several years after the damage occurred. … Use 2 – 3 inches of organic mulch (peat moss, wood chips, tree bark) around the base of a tree to improve soil aeration and water availability.",
+    "source_url": "https://extension.colostate.edu/resource/healthy-roots-and-healthy-trees/",
+    "source_label": "CSU Extension, Healthy Roots and Healthy Trees, Fact Sheet 2.926 (reviewed August 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6",
+      "24",
+      "4",
+      "2",
+      "3",
+      "2.926",
+      "2025"
+    ],
+    "notes": "Read with curl 2026-09-25 (published July 1997, reviewed August 2025 by Eric Hammond). The 'Adding deep mulch' and 'Using plastic or pavement' lines are items in its list of practices that increase root injury."
+  },
+  {
+    "id": "artificial-turf-around-trees.csu-prz-dig-fill",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension starts a tree's protected root zone at the area under its dripline and bars grading and trenching inside it, says root cuts add up and a tree may tolerate cuts on one side but not all sides, lets root-cutting-tolerant species lose up to 25% of the zone's area, lets compaction- and flood-tolerant species take up to six inches of porous fill, says sensitive species should see no grade change, says clay soils may need more room, and says to water a tree before and after its roots are cut and regularly through the growing season.",
+    "quote": "This zone is defined as the area beneath the dripline of the tree, although roots will extend beyond that area. … Inside the PRZ there can be NO grading, trenching, parking, stock piling of building materials or dumping of waste products. … Construction impacts to trees are cumulative. Small impacts add together for stress and tree decline. For example, a tree may be able to tolerate cuts to one side of its root system, but not all sides. … Necessary tree work is to be done by arborists not construction workers. … On root severance tolerant species, may disturb up to 25% of PRZ area (not diameter). On root severance sensitive species, allow extra space beyond PRZ. … If a compaction/flooding tolerant species, may successfully add up to six inches porous fill. If a compaction-flooding sensitive species, do NOT change grade, and PRZ (as calculated with diameter method) may be too small. … Water trees before and after any kind of damage (i.e. cutting roots). Water regularly through the growing season. … Additional space may be needed on compacted or clayey soils. … Need to check for root location in one of the following ways: Backhoe – A good operator knows when he hits roots and will stop before cutting them. Hand digging. Air spade.",
+    "source_url": "https://extension.colostate.edu/resource/tree-preservation-during-construction/",
+    "source_label": "CSU Extension, Tree Preservation During Construction (David Whiting; published October 2014, reviewed August 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "25"
+    ],
+    "notes": "Read with curl 2026-09-25. Written for construction sites; the page applies it to a turf dig inside a tree's root zone. The root-location methods sit under 'Sites With Urban Hardscape Restricting Root Spread'. preparing-for-turf-installation-day.csu-tree-root-zone quotes the dripline and no-grading lines for install-day staging."
+  },
+  {
+    "id": "artificial-turf-around-trees.csu-prz-size-root-plate",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension sizes a protected root zone at 1.5 feet of radius for each inch of trunk diameter measured at 4.5 feet, so an 8-inch trunk gets a 12-foot radius and about 452 square feet, and says not to invade the structural root plate, whose radius is three to six times the trunk diameter, for the tree's wind stability.",
+    "quote": "PRZ radius = 1 ½ foot per inch of trunk diameter at DSH. … Diameter = eight inches. 8 x 1.5 = twelve. PRZ radius = twelve feet. … 12 feet by 12 feet by 3.14 = 452 square feet. … For wind stability, do not invade the root plate. General Formula: Radius of root plate is three to six times DSH (trunk diameter at standard height, 4 ½ feet)",
+    "source_url": "https://extension.colostate.edu/resource/tree-preservation-during-construction/",
+    "source_label": "CSU Extension, Tree Preservation During Construction: Protected Root Zone and Tree Stability (reviewed August 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1.5",
+      "4.5",
+      "8",
+      "12",
+      "452",
+      "3.14",
+      "1",
+      "4"
+    ],
+    "notes": "Read with curl 2026-09-25. CSU also gives a circumference method (one foot of radius per two inches of circumference) and a stress-tolerance-and-age table (0.5 to 1.5 feet per inch). The page's worked root-plate range for a 12-inch trunk (3 to 6 feet) is arithmetic on the 3x-6x formula."
+  },
+  {
+    "id": "artificial-turf-around-trees.csu-species-tolerance",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension's tables rate green ash, quaking aspen, eastern cottonwood and silver maple tolerant of root cutting and Colorado blue spruce, bur oak and sugar maple intermediate; for soil added over roots they rate green ash, eastern cottonwood, silver maple and Colorado blue spruce tolerant, American elm, hackberry, honeylocust and bur oak intermediate, and quaking aspen and sugar maple sensitive; CSU adds that no comprehensive list of species tolerances exists.",
+    "quote": "There is no comprehensive list of species tolerances. … Ask experts about their experience with specific species. … Table 1. Root Severance Tolerance … tolerant … Up to 25% of PRZ Area … Ash: green, white, black. … Aspen: quaking, big tooth. … Cottonwood: Eastern. … Maple: silver, red. … Intermediate … PRZ Area … Maple: sugar. … Spruce: Colorado blue. … Oak: bur, bicolor. … sensitive … Allow Extra Space in PRZ … Table 2. Root covering tolerance … tolerant … Add Up To 6” Porous Soil … Ash: blue, green. … Cottonwood: Eastern. … Maple: silver, red. … Spruce: Colorado blue, black. … Intermediate … PRZ Area … Elm: American, slippery. … Hackberry. … Honeylocust. … Oak: bur. … sensitive … No Change in PRZ … Aspen: quaking, big tooth. … Maple: sugar.",
+    "source_url": "https://extension.colostate.edu/resource/tree-preservation-during-construction/",
+    "source_label": "CSU Extension, Tree Preservation During Construction, Tables 1 and 2 (reviewed August 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "2",
+      "25",
+      "6"
+    ],
+    "notes": "Quote joins the tables' header and cell texts, each verbatim, with ellipses; cell membership read from the HTML table 2026-09-25. Honeylocust, hackberry and American elm are absent from Table 1 (root cutting). The tables list many eastern species; CSU says to ask experts about specific species."
+  },
+  {
+    "id": "artificial-turf-around-trees.fc-forestry-mulch-roots",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Fort Collins' Forestry Division tells tree planters to dig a saucer-shaped hole two to three times wider than the root ball and no deeper, mulch within the dripline no more than 4 inches deep, leave 3 to 4 inches between mulch and trunk, and remove turf under the tree before mulching, and says most of a tree's fine absorbing roots are in the top 12 inches of soil.",
+    "quote": "Prepare the planting site. Dig a shallow, wide, saucer-shaped hole two to three times larger than the root ball, but no deeper than the root ball. … Mulch your tree. Apply organic mulch within the dripline to a depth of no more than 4 inches. Leave a 3-4 inch space between the mulch and trunk of trees. Make sure to eliminate turf under trees prior to adding mulch. … most of the tree's fine absorbing roots are in the top 12 inches of the soil.",
+    "source_url": "https://www.fortcollins.gov/Services/Forestry/Community-Resources",
+    "source_label": "City of Fort Collins Forestry, Community Resources (tree planting and watering)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "4",
+      "3",
+      "12"
+    ],
+    "notes": "fcgov.com/forestry/tree-maintenance redirects here; the page returns 403 to curl and was read in a headless browser 2026-09-25. The mulch steps are written for a newly planted tree."
+  },
+  {
+    "id": "artificial-turf-around-trees.fc-forestry-street-trees",
+    "layer": "research",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins Forestry says shade street trees go in the center of the parkway strip, 30 to 40 feet apart, and that every new tree planted in the city right-of-way needs a permit.",
+    "quote": "Shade trees should be placed 30-40 ft apart and planted in the center of the parkway strip. … All new trees planted in City of Fort Collins right-of-way require a permit.",
+    "source_url": "https://www.fortcollins.gov/Services/Forestry/Community-Resources",
+    "source_label": "City of Fort Collins Forestry, Community Resources: What Trees Can I Plant?",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "30",
+      "40"
+    ],
+    "notes": "Read in a headless browser 2026-09-25 (403 to curl)."
+  },
+  {
+    "id": "artificial-turf-around-trees.fc-code-27-31-row-trees",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins makes it unlawful to plant, treat, cut, trim, prune or remove a tree in a street or sidewalk right-of-way without first getting a written permit, which the City Forester issues free.",
+    "quote": "It shall be unlawful for any person to plant, treat, cut, trim, prune, remove or cause to be planted, treated, cut, trimmed, pruned, or removed any tree within the public right-of-way of any street or sidewalk, or upon other City-owned property within the City without having first obtained a written permit therefor. … Any person desiring to plant, treat, cut, trim, prune, or remove any tree within the public right-of-way of any street or sidewalk, or upon other City-owned property within the City, or to remove any tree planted upon any commercial property with a diameter of fifteen (15) inches or greater, must first obtain a free permit from the office of the City Forester, if a permit is required under § 27-31 .",
+    "source_url": "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH27VE_ARTIITRSH_DIV2PELI_S27-31PEREPLPRRETRPUPL",
+    "source_label": "Fort Collins Municipal Code Secs. 27-31 and 27-32 (Supp. 155, codified through Ord. No. 078, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "15"
+    ],
+    "notes": "Read through the Municode API (job 498160, product 18005) 2026-09-25. The code does not say whether cutting a street tree's roots counts as cutting the tree; the page tells readers to ask Forestry."
+  },
+  {
+    "id": "artificial-turf-around-trees.firestone-dripline-backing-drainage",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone's turf standard says turf placement, particularly under a tree's dripline, must avoid harming the tree at installation and over its life, requires permeable backing, and bars an installation from impeding or altering the lot's drainage pattern.",
+    "quote": "v. Artificial turf placement, particularly under the dripline of trees, shall avoid negative impacts to trees at the time of placement and during the lifespan of the tree. … (B) The backing shall be permeable with holes spaced in a uniform grid pattern not to exceed four (4) inches by six (6) inches on center. … ii. The drainage pattern of the lot shall not be impeded or altered by the installation of artificial turf.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+    "source_label": "Firestone Development Code 16.6.4.F.2.b.v, F.2.c.ii(B) and F.2.e.ii (Supp. 38, codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "4",
+      "6"
+    ],
+    "notes": "Read through the Municode API (job 488870, product 18062) 2026-09-25. The code does not define a 'negative impact'. artificial-turf-edging-options.firestone-dripline quotes the dripline sentence alone."
+  },
+  {
+    "id": "artificial-turf-around-trees.windsor-15-3-20-tree-protection",
+    "layer": "ordinance",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Where Windsor's landscape code applies, a landscape plan must protect a tree's root zone from all construction activity out to 6 feet from the trunk or half the drip line, whichever is greater, and limit grading or cut and fill in the drip line to 4 inches deep.",
+    "quote": "(7) Protection Measures. Landscape plans shall include the tree protection detail as shown in Appendix A and shall indicate protection steps in accordance with the following. At a minimum these steps shall include: a. Protection of root zone from all construction activity, up to a minimum of six (6) feet from the trunk or one-half (½) the drip line, whichever is greater. b. Limit grading or cut and fill in the drip line to no more than a four-inch depth.",
+    "source_url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTIIISTLADEAR_S15-3-20LAST",
+    "source_label": "Windsor Municipal Code Sec. 15-3-20(j)(7) (Supp. 24 Update 1, codified through Ord. No. 2026-1749, July 13, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "6",
+      "4"
+    ],
+    "notes": "Read through the Municode API (job 500132, product 18093) 2026-09-25. Detached single-family houses and duplexes are exempt from the article except the tree lawn requirement (windsor-code-15-3-10-single-family-exempt), so the page offers this as a yardstick, not a rule for a house lot."
+  },
+  {
+    "id": "artificial-turf-around-trees.windsor-15-3-20-tree-lawns",
+    "layer": "ordinance",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor makes tree lawns and street trees the adjacent property owner's responsibility unless an owners' association or metropolitan district has taken it on, and bars planting or removing a tree in the right-of-way without the Town's prior authorization.",
+    "quote": "(1) Tree Lawns. Tree lawns and street trees are the responsibility of the adjacent property owner unless an owner's association or metropolitan district has assumed responsibility. … (2) Modification. No tree shall be planted or removed within the right-of-way without prior authorization of the Town.",
+    "source_url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTIIISTLADEAR_S15-3-20LAST",
+    "source_label": "Windsor Municipal Code Sec. 15-3-20(k)(1) and (k)(2) (Supp. 24 Update 1, codified through Ord. No. 2026-1749, July 13, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [],
+    "notes": "Read through the Municode API (job 500132) 2026-09-25."
+  }
+]

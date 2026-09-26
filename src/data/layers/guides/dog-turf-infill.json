@@ -1,0 +1,471 @@
+[
+  {
+    "id": "dog-turf-infill.zeofill-ammonia-hold",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "ZeoFill, which sells zeolite pet turf infill under the OdorZorb name, says its negatively charged mineral attracts ammonia from urine and keeps it from forming a gas.",
+    "quote": "OdorZorb attracts substances such as ammonia and breaks them down naturally. It has a negatively-charged honey-combed molecular structure that absorbs liquid like a magnet. It also prevents ammonia from forming into a gas, thus getting rid of that foul smell.",
+    "source_url": "https://zeofill.com/a/faq",
+    "source_label": "ZeoFill Products, Frequently Asked Questions (OdorZorb infill)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [],
+    "notes": "Manufacturer's own claim; present it as the maker's. The same FAQ also claims a swallowed granule will 'detoxify your dog's body' - not repeated on the page."
+  },
+  {
+    "id": "dog-turf-infill.zeofill-rain-recharge",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "ZeoFill says sodium in rainwater releases what its zeolite holds and recharges it, that watering with household tap water is ineffective for this, and that an enzyme cleaner keeps the area fresh through dry spells.",
+    "quote": "Sodium Ion (Na+) in rainwater will release the magnetism of the OdorZorb granule and then the force of the heavy rain will push the urine bacteria deep into the ground. The zeolite granule will naturally recharge when it dries again. … OdorZorb Infill holds odor for long periods of time. In order for toxins to be released from zeolite, Sodium Ion (NA+) in must be present from rain water. Watering the area will be ineffective due to the purification of our water in the home. To keep the area smelling fresh, bacteria can be removed by using an enzyme liquid.",
+    "source_url": "https://zeofill.com/a/faq",
+    "source_label": "ZeoFill Products, Frequently Asked Questions (OdorZorb infill)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [],
+    "notes": "The FAQ also says: 'If applied properly with the recommended usage during installation, reapplication is not need.' and 'It's really important that the zeolite stay dry during installation.'"
+  },
+  {
+    "id": "dog-turf-infill.zeofill-install-dry",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "ZeoFill says its zeolite must stay dry while it is installed, because wet granules clump and will not drop into the turf's thatch.",
+    "quote": "It’s really important that the zeolite stay dry during installation. If it becomes wet, it will clump together and will not be able to drop into the thatch. Once it is brushbroomed into the thatch you can rinse to remove dust.",
+    "source_url": "https://zeofill.com/a/faq",
+    "source_label": "ZeoFill Products, Frequently Asked Questions (OdorZorb infill)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": []
+  },
+  {
+    "id": "dog-turf-infill.zeofill-cooling-faq",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "ZeoFill's FAQ claims its zeolite infill lowers turf surface temperature on hot days by up to 32°F by absorbing moisture and releasing it.",
+    "quote": "OdorZorb's cooling abilities reduce surface temperature on hot days by up to 32 °F. OdorZorb Infill absorbs moisture and release it through a process called evapotranspiration, which helps cool the other infill and turf components.",
+    "source_url": "https://zeofill.com/a/faq",
+    "source_label": "ZeoFill Products, Frequently Asked Questions (OdorZorb infill)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "32"
+    ],
+    "notes": "The product page gives 30°F for the same claim (dog-turf-infill.zeofill-bag-coverage). Heat behavior belongs to the heat and infill-types guides; this page mentions it in one FAQ only."
+  },
+  {
+    "id": "dog-turf-infill.zeofill-bag-coverage",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "ZeoFill's product page says a 40-pound bag of its pet turf infill covers up to 25 square feet, about 1.6 pounds per square foot, and claims it reduces surface heat by up to 30°F.",
+    "quote": "Reduces surface heat by up to 30°F … The 40-pound bag covers up to 25 square feet and delivers superior odor-control results.",
+    "source_url": "https://zeofill.com/products/odorzorb-pet-turf-infill-40lb",
+    "source_label": "ZeoFill Products, OdorZorb Pet Turf Infill - 40LB Bag (product page)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "40",
+      "25",
+      "1.6",
+      "30"
+    ],
+    "notes": "1.6 is arithmetic (40 / 25), not the maker's figure. The page HTML splits 'covers' across a span; the rendered text reads as quoted."
+  },
+  {
+    "id": "dog-turf-infill.zeofill-sds",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "ZeoFill's safety data sheet lists its infill as 90 to 97 percent clinoptilolite (natural zeolite) and not classified as hazardous, and for swallowing says to rinse the mouth and drink plenty of water.",
+    "quote": "Not classified as hazardous. … Clinoptilolite (natural zeolite) 90-97 … After swallowing: Rinse out mouth and then drink plenty of water. Do not induce vomiting. Treat symptomatically.",
+    "source_url": "https://cdn.shopify.com/s/files/1/0590/5448/9763/files/ZeoFill_Products_SDS.pdf",
+    "source_label": "ZeoFill Products, Safety Data Sheet: Clinoptilolite - Natural Zeolite (OdorZorb)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "90",
+      "97"
+    ],
+    "notes": "SDS section 6 also says to avoid dust and use a NIOSH respirator where dust occurs. The SDS carries a company phone number; never copy it."
+  },
+  {
+    "id": "dog-turf-infill.motz-ammonia-microban",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Motz, the maker of Envirofill coated sand, says urine residue releases ammonia over time, and that its Microban-infused coating cuts ammonia odor from urine by up to 99 percent by disrupting the bacterial process that makes it.",
+    "quote": "Over time, urine residue will slowly release ammonia back into the air, which is directly responsible for that smell. … Envirofill has been shown to reduce ammonia odor from urine by up to 99%, given it disrupts the bacterial process that converts pet urine into ammonia odors. And because Envirofill is coated, that keeps its otherwise-porous sand granules from harboring and growing bacteria from the inside.",
+    "source_url": "https://themotzgroup.com/infill_blog/my-artificial-turf-smells-like-dog-pee-what-should-i-do/",
+    "source_label": "The Motz Group, My Artificial Turf Smells Like Dog Pee - What Should I Do? (Jan. 14, 2022)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "99"
+    ],
+    "notes": "Maker's claim about its own product; no independent test found. The post dates 01-14-2022."
+  },
+  {
+    "id": "dog-turf-infill.motz-raw-sand-traps-urine",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Motz, which sells a coated sand, says raw sand can make urine smells worse because it traps urine and keeps it from draining quickly through the turf.",
+    "quote": "For instance, raw sand — one of the most common infills used in turf landscaping — can actually make urine smells worse. This is because sand traps urine, which prevents it from draining quickly through your turf system.",
+    "source_url": "https://themotzgroup.com/infill_blog/my-artificial-turf-smells-like-dog-pee-what-should-i-do/",
+    "source_label": "The Motz Group, My Artificial Turf Smells Like Dog Pee - What Should I Do? (Jan. 14, 2022)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [],
+    "notes": "A competing product's maker; attribute it on the page."
+  },
+  {
+    "id": "dog-turf-infill.motz-pounds-minimum",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Motz says Envirofill needs two to three pounds per square foot at a minimum for its full anti-odor effect, and that one pound per square foot is not enough coverage to fight odors.",
+    "quote": "For the full anti-odor effect of Envirofill, be sure to use the recommended amount of two to three pounds of infill per square foot, at a minimum. Sticking to just one pound of infill per square foot of turf won't provide enough coverage to fight off odors.",
+    "source_url": "https://themotzgroup.com/infill_blog/my-artificial-turf-smells-like-dog-pee-what-should-i-do/",
+    "source_label": "The Motz Group, My Artificial Turf Smells Like Dog Pee - What Should I Do? (Jan. 14, 2022)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [],
+    "notes": "Numbers are spelled out in the source."
+  },
+  {
+    "id": "dog-turf-infill.motz-rinse-schedule",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Motz advises rinsing dog turf at least once a month and as often as once a week where little rain falls and big dogs share a small yard.",
+    "quote": "At a minimum, you'll want to rinse off your turf once a month. It could be rinsed as frequently as once a week, though, particularly if you live somewhere that doesn't get much rain and have big dogs using a smaller yard.",
+    "source_url": "https://themotzgroup.com/infill_blog/my-artificial-turf-smells-like-dog-pee-what-should-i-do/",
+    "source_label": "The Motz Group, My Artificial Turf Smells Like Dog Pee - What Should I Do? (Jan. 14, 2022)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [],
+    "notes": "Odor cleanup itself belongs to dog-urine-smell-artificial-turf."
+  },
+  {
+    "id": "dog-turf-infill.motz-odor-factors",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Motz lists the number of dogs, the yard's sun, rain and humidity, the dogs' food, and their sex and size among the factors in how likely urine is to cause turf odor.",
+    "quote": "Beyond the number of dogs, other factors can contribute to how likely your dog's urine is to cause turf odors, too, including the amount of sun, rain, and humidity your yard gets; the kind of food your dog eats; your dog's gender and size; and how sensitive you, as the homeowner, are to the smell of ammonia, to begin with.",
+    "source_url": "https://themotzgroup.com/infill_blog/my-artificial-turf-smells-like-dog-pee-what-should-i-do/",
+    "source_label": "The Motz Group, My Artificial Turf Smells Like Dog Pee - What Should I Do? (Jan. 14, 2022)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": []
+  },
+  {
+    "id": "dog-turf-infill.motz-no-infill-over-old",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Motz says adding an odor-fighting infill on top of old, smelly infill will not fix the smell, so the old infill should come out first.",
+    "quote": "That's because adding an odor-fighting infill on top of your old, smelly infill won't fix matters. If you are in the position of switching between infills, though, do everything you can to get out the old gunk before putting in your new infill.",
+    "source_url": "https://themotzgroup.com/infill_blog/my-artificial-turf-smells-like-dog-pee-what-should-i-do/",
+    "source_label": "The Motz Group, My Artificial Turf Smells Like Dog Pee - What Should I Do? (Jan. 14, 2022)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": []
+  },
+  {
+    "id": "dog-turf-infill.motz-pet-three-pounds",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Motz recommends 2.5 to 3.5 pounds per square foot of Envirofill for landscape turf with a 1.5 to 1.75 inch pile, and toward 3 pounds per square foot where dogs share the turf.",
+    "quote": "12/20 or 16/30 1½ – 1 ¾ Landscape ½” – ¾” 2.5-3.5lbs … If your installation will be shared with one or several canine companions, you may want to veer toward 3 pounds per square foot.",
+    "source_url": "https://themotzgroup.com/infill_blog/how-many-pounds-of-infill-do-you-need-per-square-foot-of-turf/",
+    "source_label": "The Motz Group, How Much Artificial Turf Infill Do I Need? (July 30, 2018)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "12/20",
+      "16/30",
+      "12",
+      "20",
+      "16",
+      "30",
+      "1.5",
+      "1.75",
+      "1",
+      "2.5",
+      "3.5",
+      "3"
+    ],
+    "notes": "The quote is a row of the post's Envirofill table (size, pile height, turf spec, depth, lbs per sq ft); 1½ and 1¾ are written 1.5 and 1.75 in the fact. The pet/playground row (1-1¼ inch pile) is 1.5-2.5 lbs."
+  },
+  {
+    "id": "dog-turf-infill.motz-silica-rule-of-thumb",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Motz gives a rule of thumb of about 2 to 3 pounds of raw silica sand per square foot for turf with a 1 to 2 inch pile, and more in high-use areas.",
+    "quote": "For raw silica sand infill, a rule of thumb often given is to use about 2-3 pounds of silica sand infill per square foot of turf with a pile height of 1–2 inches. As with Envirofill and Safeshell, though, the amount of infill you need could be higher in higher-use areas than what's recommended on average.",
+    "source_url": "https://themotzgroup.com/infill_blog/how-many-pounds-of-infill-do-you-need-per-square-foot-of-turf/",
+    "source_label": "The Motz Group, How Much Artificial Turf Infill Do I Need? (July 30, 2018)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "2",
+      "3",
+      "1"
+    ]
+  },
+  {
+    "id": "dog-turf-infill.motz-check-depth",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Motz advises checking infill depth once a year, or every six months in higher-use areas, rather than topping up on a fixed timeline.",
+    "quote": "Rather than adhering to an arbitrary timeline for infill replenishment, keep tabs on your turf system by checking for infill depth once a year (or as often as every six months in higher-use areas), using an infill gauge and your infill manufacturer's depth guidelines.",
+    "source_url": "https://themotzgroup.com/infill_blog/how-many-pounds-of-infill-do-you-need-per-square-foot-of-turf/",
+    "source_label": "The Motz Group, How Much Artificial Turf Infill Do I Need? (July 30, 2018)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [],
+    "notes": "Top-up schedules belong to how-often-to-add-infill-to-artificial-turf."
+  },
+  {
+    "id": "dog-turf-infill.microban-coating",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Microban says its antimicrobial is infused into Envirofill's sand coating during manufacture and never washes off or wears away.",
+    "quote": "During the Envirofill manufacturing process, Microban® antimicrobial technology is infused into the proprietary coating of the rounded sand to help prevent the growth of bacteria, mold, and mildew that can cause stains, odors, and product deterioration. … Microban product protection lasts the lifetime of the infill, and it never washes off or wears away, ensuring constant protection against harmful bacteria.",
+    "source_url": "https://www.microban.com/usgreentech",
+    "source_label": "Microban International, Antimicrobial Infill for Artificial Turf by Motz and Microban",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [],
+    "notes": "Microban is the additive's maker and Motz's partner, not an independent tester."
+  },
+  {
+    "id": "dog-turf-infill.sgw-zeolite-not-primary",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Synthetic Grass Warehouse, a turf distributor, says zeolite is too light to be a primary infill: wet, it absorbs up to 81 percent of its weight in water and 55 percent in urine, and dry, it cannot keep turf ballasted, which may let the turf wrinkle.",
+    "quote": "Zeolite is NOT considered a primary infill because it is not heavy enough to be used as a primary infill. … When Zeolite is wet, it absorbs up to 81% of its original weight in water and 55% of its weight in urine. However, once the granule dries out, it returns to its original state and is not heavy enough to keep the synthetic turf ballasted, which may allow wrinkles in the turf.",
+    "source_url": "https://syntheticgrasswarehouse.com/company/ask-an-expert/ask-jw/zeolite-a-perfect-complement-to-your-infill/",
+    "source_label": "Synthetic Grass Warehouse, Ask J.W.: Zeolite, a Perfect Complement to Your Infill",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "81",
+      "55"
+    ],
+    "notes": "SGW distributes Envirofill; its recommendation pairs zeolite with it or with its own round silica."
+  },
+  {
+    "id": "dog-turf-infill.sgw-pet-layering",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "For pet turf, Synthetic Grass Warehouse recommends about a quarter inch of zeolite on the compacted base and about 1 pound of zeolite per square foot as the first lift, then 1.5 to 2 pounds of coated or silica sand for ballast, about 2.5 to 3 pounds in all, finishing about half an inch below the blade tips.",
+    "quote": "On pet applications, I recommend placing approximately ¼” of Zeolite on your compacted subgrade. Place approximately 1 pound of Zeolite per square foot as the first lift (stages) to the base of fibers, then place 1-1/2 to 2 pounds per square feet of either Envirofill or SGW Silica for ballast. … When the installation is complete, the infill level should be approximately ½ inch below the fibers.",
+    "source_url": "https://syntheticgrasswarehouse.com/company/ask-an-expert/ask-jw/zeolite-a-perfect-complement-to-your-infill/",
+    "source_label": "Synthetic Grass Warehouse, Ask J.W.: Zeolite, a Perfect Complement to Your Infill",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "1",
+      "2",
+      "1.5",
+      "2.5",
+      "3"
+    ],
+    "notes": "1-1/2 is written 1.5; the 2.5 to 3 total is the sum of the two lifts (1 + 1.5 to 2), arithmetic, not SGW's figure."
+  },
+  {
+    "id": "dog-turf-infill.sgw-angular-silica",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Synthetic Grass Warehouse says most silica sand is fractured and angular, so it compacts easily under heavy rain and foot traffic and can wear turf fibers at the infill line.",
+    "quote": "Most silica sand is fractured and angular which causes it to compact easily with heavy rain fall and foot traffic. This may cause premature wear at the fiber's bending point at infill level.",
+    "source_url": "https://syntheticgrasswarehouse.com/company/ask-an-expert/ask-jw/zeolite-a-perfect-complement-to-your-infill/",
+    "source_label": "Synthetic Grass Warehouse, Ask J.W.: Zeolite, a Perfect Complement to Your Infill",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": []
+  },
+  {
+    "id": "dog-turf-infill.clinoptilolite-regeneration",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "In water treatment, clinoptilolite whose ammonium capacity is used up is regenerated with sodium salt solutions such as sodium chloride, not plain water.",
+    "quote": "As soon as the exchange capability for ammonium is exhausted, CLI is proposed to be utilized as a slow-release fertilizer in agriculture [11] or regenerated by the use of sodium chloride, sodium carbonate, sodium bicarbonate, or sodium hydroxide solutions [12, 13, 14, 15].",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7796350/",
+    "source_label": "Wasielewski et al., Application of Natural Clinoptilolite for Ammonium Removal from Sludge Water, Molecules 26(1):114 (University of Stuttgart, Dec. 29, 2020)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "11",
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "notes": "The bracketed numbers are the paper's reference markers. 'not plain water' in the fact is the plain reading of the list of regenerants, not a sentence from the paper."
+  },
+  {
+    "id": "dog-turf-infill.usgs-zeolite-uses",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The U.S. Geological Survey counts odor control as the second-largest domestic use of natural zeolite, 15 percent of sales tonnage in 2025, and names artificial turf infill among its newer markets.",
+    "quote": "Domestic uses were, in descending order of estimated quantity, animal feed, odor control, unspecified end uses (such as ice melt, soil amendment, and synthetic turf), water purification, pet litter, … Animal feed and odor control accounted for 42% and 15%, respectively, of the domestic sales tonnage. … a shift from traditional markets, such as pet litter, to newer markets including traction control, soil amendment, and artificial turf infill.",
+    "source_url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-zeolites.pdf",
+    "source_label": "U.S. Geological Survey, Mineral Commodity Summaries 2026: Zeolites (Natural)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-02-15",
+    "numbers": [
+      "15",
+      "2025",
+      "42"
+    ],
+    "notes": "The 2025 figures are USGS estimates in the 2026 edition; clinoptilolite was mined in California, Idaho, New Mexico, Oregon and Texas."
+  },
+  {
+    "id": "dog-turf-infill.firestone-infill-antimicrobial",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone's code requires turf infill to be a non-toxic anti-microbial material such as silica sand or acrylic coated sand, and prohibits crumb rubber.",
+    "quote": "Infill material shall be a non-toxic anti-microbial material such as silica sand or acrylic coated sand to prevent odors and bacteria formation. Crumb rubber filler shall be prohibited.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+    "source_label": "Firestone Development Code 16.6.4.F.2.f.v (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [],
+    "notes": "Read 2026-09-25 through the Municode content API (jobId 488870, productId 18062) for the same node. Zeolite is not named; whether it qualifies under 'such as' is the town's call."
+  },
+  {
+    "id": "dog-turf-infill.firestone-no-odors",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone's code lists odors among the deterioration artificial turf areas may not have, alongside stains, holes and seam separations.",
+    "quote": "Artificial turf areas shall not contain weeds, holes, tears, stains, discolorations, seam separations, uplifted surfaces, heat degradation, depressions, odors, excessive wear, or similar deformities and measures of deterioration.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+    "source_label": "Firestone Development Code 16.6.4.F.2.f.iii (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [],
+    "notes": "Read 2026-09-25 through the Municode content API for the same node."
+  },
+  {
+    "id": "dog-turf-infill.milliken-hand-watering",
+    "layer": "drought",
+    "applies_to": [
+      "milliken-co"
+    ],
+    "fact": "Milliken allows hand-watering with a hose that has a positive shutoff nozzle any day of the week, outside its lawn-sprinkling limits.",
+    "quote": "Hand-watering and drip irrigation shall be permitted Monday through Sunday and not be restricted by the above-mentioned lawn-sprinkling restrictions. Hand-watering shall mean holding in the hand a hose with an attached positive shutoff nozzle or a bucket and does not include operating a hose with a sprinkler or manually operating an irrigation controller.",
+    "source_url": "https://millikenco.gov/194/Watering-Schedule",
+    "source_label": "Town of Milliken, Watering Schedule",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-24",
+    "numbers": [],
+    "notes": "The page does not mention artificial turf. Declared drought levels (1-4) can add restrictions; the page says to contact Town Hall for the current level."
+  },
+  {
+    "id": "dog-turf-infill.johnstown-level-3-hand-watering",
+    "layer": "drought",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Under Johnstown's Level 3 rules, hardscapes should be swept rather than spray-washed, and hand watering belongs on the property's watering day with an automatic shutoff nozzle; artificial turf is not mentioned.",
+    "quote": "Hardscapes (driveways, sidewalks, patios, etc.) should not be spray-washed. Use dry-cleaning methods such as sweeping or spot cleaning when possible. … Hand watering and supplemental irrigation for items such as vegetable gardens, decorative pots, hanging baskets, and similar plantings should be done on-site and in a water-efficient manner on the properties' scheduled watering day with an automatic shutoff nozzle to prevent water waste.",
+    "source_url": "https://www.johnstownco.gov/Faq.aspx?QID=240",
+    "source_label": "Town of Johnstown, Water Conservation Schedule FAQ: What other impacts are there under Water Conservation Level 3?",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-16",
+    "numbers": [
+      "3"
+    ],
+    "notes": "Level 3 runs April 20 to October 15, 2026 (johnstown-level-3-2026). The FAQ's only schedule exemption is for establishing new turf (live grass)."
+  }
+]

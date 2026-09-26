@@ -1,0 +1,295 @@
+[
+  {
+    "id": "artificial-turf-face-weight.astm-d5848-total-vs-pile-yarn",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "ASTM D5848, the test method turf spec sheets cite for weights, measures total mass per unit area and pile yarn mass per unit area by separate techniques, and ASTM says both appearance and performance may be affected by changes in mass per unit area, which it calls useful in quality and cost control during manufacture.",
+    "quote": "The determination of the mass per unit area of pile yarn floor covering is useful in quality and cost control during the manufacture of pile floor covering. Both appearance and performance may be affected by changes in mass per unit area. … This test method encompasses three techniques for determination of mass per unit area as applicable: Section 7, for determining total mass per unit area, applies to both coated and uncoated (unfinished) pile floor coverings. Section 8, for determining component mass per unit area, applies only to uncoated (unfinished) pile yarn floor coverings. Section 9, for determining pile yarn mass per unit area, applies only to back-coated, or finished, pile yarn floor coverings.",
+    "source_url": "https://store.astm.org/d5848-20.html",
+    "source_label": "ASTM D5848-20, Standard Test Method for Mass Per Unit Area of Pile Yarn Floor Coverings (ASTM summary page)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5848",
+      "20",
+      "7",
+      "8",
+      "9"
+    ],
+    "notes": "Read with curl on 2026-09-25: https://www.astm.org/Standards/D5848.htm redirects to this page. Scope 1.2 and Significance and Use 4.1 are public; the full method is paywalled and was not read. The page also lists a reapproval, D5848-20R26. D5848 replaced the mass-per-area part of the older D418 (scope 1.3)."
+  },
+  {
+    "id": "artificial-turf-face-weight.stc-face-weight-definition-range",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council defines face weight (which it also calls total yarn weight) as the weight of the yarn above the backing, says it depends on pile height and on the spacing of the tufts (density or tufting gauge), and says most landscape turf has a 1 1/2 to 2 inch pile and a 1/4 to 1/2 inch density, for 40 to 100 ounces per square yard.",
+    "quote": "Total Yarn Weight (aka Face Weight) Total weight of the yarn above the backing. This will depend on several factors, including the length of the yarn above the backing (pile height) and the distance between the individual fiber tufts (density or tufting gauge). Generally, longer pile and denser synthetic grass will look more natural. Most synthetic grass has a pile height of between 1½” and 2”, and a density of between ¼” and ½” for a total yarn weight of between 40 oz. and 100 oz. per square yard.",
+    "source_url": "https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf",
+    "source_label": "Synthetic Turf Council, Considerations When Buying Synthetic Grass for Landscape Use (September 2013)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "40",
+      "100",
+      "1",
+      "2",
+      "1/4",
+      "1/2",
+      "2013"
+    ],
+    "notes": "Read from the PDF with pdftotext on 2026-09-25 (page 2, Quality Guidelines). \"be-tween\" is hyphenated across a line in the PDF. A trade association guideline from 2013, written for landscape lawns; the STC says it may not apply to putting greens, dog runs or playgrounds."
+  },
+  {
+    "id": "artificial-turf-face-weight.stc-minimums-backing-tuft-bind",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council calls its specifications minimum guidelines, says some products fall short of them and others greatly exceed them yet may still suit their intended use, and recommends a dual primary backing of at least 7 ounces per square yard and a tuft bind of 6.8 pounds, the higher the better.",
+    "quote": "Some styles and systems may not meet these minimum quality guidelines, and others may greatly exceed them; nevertheless, these products might qualify as a quality product for the intended application. … The STC recommends a system with a dual primary backing with a weight of at least 7 oz. per square yard. … This term is used to refer to the force (usually measured in pounds) required to pull a tuft from the synthetic grass backing. The STC recommends a tuft bind of 6.8 lbs., but the higher the tuft bind, the better.",
+    "source_url": "https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf",
+    "source_label": "Synthetic Turf Council, Considerations When Buying Synthetic Grass for Landscape Use (September 2013)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "7",
+      "6.8",
+      "2013"
+    ],
+    "notes": "Read from the PDF with pdftotext on 2026-09-25 (page 2)."
+  },
+  {
+    "id": "artificial-turf-face-weight.msi-evergrass-names-are-total-weight",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "MSI's Evergrass listing gives Emerald Green Turf 76 a 1.57-inch pile with 50 ounces of face weight and 76 total; Viridian Turf 91, 1.75 inches, 65 and 91; Meadow Green Pet-Turf 91, 1.18 inches, 65 and 91; Summer Gold 96, 1.75 inches, 70 and 96; Viridian Turf 96, 1.18 inches, 70 and 96; Emerald Green Turf 110, 1.75 inches, 84 and 110; Viridian Green Turf 133, 2.36 inches, 107 and 133; and Putting Green Turf 78, 0.63 inches, 50 and 78, so the number in each name is its total weight.",
+    "quote": "Emerald Green Turf 76 Pile height: 40 MM (1.57\") Face Weight: 50 oz./sq yard Total Weight: 76 oz Viridian Turf 91 Pile height: 45 MM (1.75\") Face Weight: 65 oz./sq yard Total Weight: 91 oz Emerald Green Turf 110 Pile height: 45 MM (1.75\") Face Weight: 84 oz./sq yard Total Weight: 110 oz Putting Green Turf 78 Pile height: 16 MM (.63\") Face Weight: 50 oz./sq yard Total Weight: 78 oz SUMMER GOLD 96 Pile height: 45 MM (1.75'') Face Weight: 70 oz/sq yard Total Weight: 96 oz MEADOW GREEN PET-TURF 91 Pile height: 30 MM (1.18'') Face Weight: 65 oz/sq yard Total Weight: 91 oz … Viridian Turf 96 Pile height: 30 MM (1.18'') Face Weight: 70 oz/sq yard Total Weight: 96 oz … Viridian Green Turf 133 Pile height: 60 MM (2.36\") Face Weight: 107 oz./sq yard Total Weight: 133 oz",
+    "source_url": "https://www.msisurfaces.com/evergrass-turf/",
+    "source_label": "MSI Surfaces, Evergrass Artificial Turf Collection: Available Sizes & Variations",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "76",
+      "40",
+      "1.57",
+      "50",
+      "91",
+      "45",
+      "1.75",
+      "65",
+      "110",
+      "84",
+      "78",
+      "16",
+      "0.63",
+      ".63",
+      "96",
+      "70",
+      "30",
+      "1.18",
+      "133",
+      "60",
+      "2.36",
+      "107",
+      "63"
+    ],
+    "notes": "Read with curl on 2026-09-25; the individual product pages (emerald-green-turf-110oz, emerald-green-turf-76oz, viridian-turf-91oz) give the same figures. \"The number in each name is the total weight\" is a reading of these listings (every name matches its Total Weight line), not an MSI statement. Named as a published example, not a recommendation. Product listings change: re-check before relying on a row."
+  },
+  {
+    "id": "artificial-turf-face-weight.msi-face-vs-total-backing",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "MSI says face weight is the weight of fibers per square yard and that a higher face weight relates to greater density and durability, that total weight also includes the backing (and infill, if applicable), and that its Viridian Turf 91 has 65 ounces of face weight inside a 91-ounce total, 26 ounces being backing.",
+    "quote": "Face weight — or the weight of fibers per square yard — is also an important consideration in the turf you choose. A higher face weight relates to greater density and durability. … For turf, total weight refers to how much it weighs in ounces per square yard. This measurement includes both the face weight and the backing material, as well as the infill, if applicable. … Evergrass™ Viridian Turf 91 has a face weight of 65 oz/sq yd, but its total weight of 91 oz accounts for 26 oz of backing material",
+    "source_url": "https://www.msisurfaces.com/blogs/post/2023/07/12/how-to-choose-the-best-artificial-grass-for-your-project-understanding-pile-height,-face-weight,-and-total-weight.aspx",
+    "source_label": "MSI Surfaces blog, Understanding Pile Height, Face Weight, and Total Weight (July 12, 2023; updated November 22, 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "65",
+      "91",
+      "26",
+      "2023",
+      "12",
+      "22"
+    ],
+    "notes": "Read with curl on 2026-09-25. A manufacturer's buying article."
+  },
+  {
+    "id": "artificial-turf-face-weight.msi-short-pile-pets-traffic",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "MSI points high-traffic areas, including those pets use often, to shorter piles of 0.79 to 1.18 inches, saying a shorter pile resists wear, keeps its appearance under heavy foot traffic and gives people and pets better traction.",
+    "quote": "In high-traffic areas or commercial landscaping applications, including those frequently utilized by pets, shorter pile heights between 20 to 30 millimeters (0.79 to 1.18 inches) are often the best choice. The shorter pile is not only better at resisting wear and maintaining its appearance under heavy foot traffic but it also provides better traction for both humans and pets.",
+    "source_url": "https://www.msisurfaces.com/evergrass-turf/",
+    "source_label": "MSI Surfaces, Evergrass Artificial Turf Collection: What Pile Height to Choose for Artificial Grass?",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "20",
+      "30",
+      "0.79",
+      "1.18"
+    ],
+    "notes": "Read with curl on 2026-09-25. The quote contains \"best\"; copy paraphrases it and never uses the word."
+  },
+  {
+    "id": "artificial-turf-face-weight.synlawn-847-weights-add-up",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's SYNAugustine 847 sheet lists, each by ASTM D5848, 80 ounces of face weight, a 6-ounce primary backing and a 22-ounce secondary coating for a total fabric weight of 108 ounces, with a 1 1/4-inch pile, a 3/8-inch machine gauge and water permeability over 1,000 inches an hour.",
+    "quote": "Pile Height (Nominal) 1 1/4” inches D-5823 Face Weight 80 oz/yd2 D-5848 Total Fabric Weight 108 oz/yd2 D-5848 Primary Backing Weight 6 oz/yd2 D-5848 Secondary Coating Weight 22 oz/yd2 D-5848 … Machine Gauge 3/8 inches D-5793 … Water Permeability > 1,000 in/hr EN 12616",
+    "source_url": "https://www.synlawn.com/wp-content/uploads/2025/02/SYNLawn-SYNAugustine-847-S847B-USA.pdf",
+    "source_label": "SYNLawn, SYNAugustine 847 product specifications, SKU S847B (sheet dated 12.10.2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "847",
+      "80",
+      "6",
+      "22",
+      "108",
+      "1",
+      "1/4",
+      "3/8",
+      "1,000",
+      "1000",
+      "5848",
+      "5823",
+      "5793",
+      "12616",
+      "2025"
+    ],
+    "notes": "Read from the PDF with pdftotext on 2026-09-25. Page 1 also lists \"Finished Pile / Total Weight 80 oz./108 oz.\", \"Tuft Gauge 3/8”\" and \"Permeability > 1,000 inches p/hr\". 80 + 6 + 22 = 108. The same sheet is cited by pet-turf-vs-regular-turf for different facts."
+  },
+  {
+    "id": "artificial-turf-face-weight.sgw-face-weight-traffic-cost",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Synthetic Grass Warehouse, a turf distributor, says face weight is the weight of the turf minus its backing, that a higher face weight (generally over 80 ounces per square yard) makes turf thicker and softer to the touch, and that face weight determines durability, longevity and cost, a higher one generally meaning a sturdier material that better withstands heavy foot traffic.",
+    "quote": "Face weight refers to the weight of an artificial turf product minus the weight of its backing material. … The face weight of a synthetic turf style will affect its density and overall appearance. Higher face weight (generally over 80 ounces per square yard) will result in a product that is thicker and softer to the touch. … Face weight determines your artificial turf’s durability, longevity and cost. A higher face weight will generally mean a sturdier, more durable material. The increased durability will help your turf withstand heavy foot traffic, which will also help your installation last longer.",
+    "source_url": "https://syntheticgrasswarehouse.com/resources/terminology/pile-height-face-weight/",
+    "source_label": "Synthetic Grass Warehouse, What Are Pile Height and Face Weight? (updated Dec. 12, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "80",
+      "12",
+      "2025"
+    ],
+    "notes": "Read with curl on 2026-09-25 (datePublished 2022-11-10, dateModified 2025-12-12). The page's own sentence says \"ounces of yarn are used per square foot\", a slip: its figures are per square yard. Not quoted."
+  },
+  {
+    "id": "artificial-turf-face-weight.sgw-short-pile-resists-matting",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Synthetic Grass Warehouse defines resilience as a material's ability to resist matting and says shorter pile heights are generally much more resilient, suiting high-traffic areas, while longer piles suit lighter foot traffic.",
+    "quote": "Resilience refers to a material’s ability to resist matting. Generally, shorter pile heights are much more resilient. This makes them much more suitable for sports fields, gyms and other high-traffic areas. On the other hand, longer pile heights work well for residential or commercial areas with lighter foot traffic.",
+    "source_url": "https://syntheticgrasswarehouse.com/resources/terminology/pile-height-face-weight/",
+    "source_label": "Synthetic Grass Warehouse, What Are Pile Height and Face Weight? (updated Dec. 12, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "12",
+      "2025"
+    ]
+  },
+  {
+    "id": "artificial-turf-face-weight.firestone-turf-permit-online",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone takes artificial turf permit applications through its online portal, requires the permit before turf goes in, and says turf must look natural, fit the overall landscape design and not be toxic to people or pets.",
+    "quote": "Some Planning Division applications are now available online! Visit our Online Portal to complete applications for ADUs, Artificial Turf Permit, Backyard Chickens, and Temporary Use Permits. … The location, materials, appearance, installation, and maintenance of artificial turf areas must comply with all requirements of the Firestone Development Code (FDC) Section 16.6.4.F.2. In general, artificial turf shall be natural in appearance, integrated into the overall landscape design, and not be toxic to humans or pets or be harmful to the environment. A permit from the Town is required before installing artificial turf.",
+    "source_url": "https://firestoneco.gov/175/Development-Code",
+    "source_label": "Town of Firestone, Planning Division: Firestone Development Code page",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "16.6",
+      "4",
+      "2"
+    ],
+    "notes": "Read with curl on 2026-09-25. The page does not list what the application asks you to attach; the Citizenserve portal (citizenserve.com/firestoneco) did not load for an automated fetch. Copy hedges with \"ask Firestone Planning\"."
+  },
+  {
+    "id": "artificial-turf-face-weight.nist-ounces-to-grams",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "With NIST's factors (1 avoirdupois ounce = 0.028349523125 kilograms; 1 square yard = 0.83612736 square meters), 1 ounce per square yard is about 33.9 grams per square meter, so 70 ounces is about 2,373 grams per square meter and 40 to 100 ounces is about 1,356 to 3,391.",
+    "quote": "Square Miles Square Centimeters Square Meters … 1 square yard (yd2) = 0.000 000 322 830 6 8 361.273 6 0.836 127 36 … Long Tons Kilograms Metric Tons … 1 avoirdupois ounce (oz) = 0.000 027 901 79 0.028 349 523 125 0.000 028 349 523 125",
+    "source_url": "https://www.nist.gov/document/2026-nist-handbook-44-appendix-c",
+    "source_label": "NIST Handbook 44 (2026), Appendix C, General Tables of Units of Measurement",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "0.028349523125",
+      "0.83612736",
+      "33.9",
+      "70",
+      "2,373",
+      "2373",
+      "40",
+      "100",
+      "1,356",
+      "1356",
+      "3,391",
+      "3391",
+      "44",
+      "2026",
+      "1",
+      "0.000",
+      "000",
+      "322",
+      "830",
+      "6",
+      "8",
+      "361.273",
+      "0.836",
+      "127",
+      "36",
+      "027",
+      "901",
+      "79",
+      "0.028",
+      "349",
+      "523",
+      "125",
+      "028"
+    ],
+    "notes": "Factors read from the PDF with pdftotext on 2026-09-25. The grams-per-square-meter figures are arithmetic on those factors (28.349523125 / 0.83612736 = 33.9057), not a NIST statement."
+  }
+]

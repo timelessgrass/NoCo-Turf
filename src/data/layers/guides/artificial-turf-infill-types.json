@@ -1,0 +1,388 @@
+[
+  {
+    "id": "artificial-turf-infill-types.stc-infill-purpose",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council's 2013 buying guidelines prefer landscape turf with infill except in special applications made without it, say infill keeps the turf from moving and spreads its weight evenly to minimize expansion and contraction as the temperature changes, and advise against landscape spikes in the middle of the turf as a substitute for infill.",
+    "quote": "Synthetic grass systems with infill are preferred over systems without infill, except in certain special applications that are only available without infill. Infill is needed to help keep the synthetic grass installation from moving-infill provides an even distribution of weight that will minimize the expansion and contraction of turf when the temperature changes. For safety reasons, we do NOT recommend using landscape spikes in the middle of the synthetic grass area to replace the need for infill or top dressing ballast.",
+    "source_url": "https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf",
+    "source_label": "Synthetic Turf Council, Considerations When Buying Synthetic Grass for Landscape Use (September 2013), Guidelines for Infill",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2013"
+    ],
+    "notes": "Read in the PDF (page 4). The STC is the industry's trade association, so this is industry guidance, not a law or a test standard. \"moving-infill\" is printed that way in the source."
+  },
+  {
+    "id": "artificial-turf-infill-types.stc-acceptable-infills",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same 2013 guidelines list as acceptable infills crumb rubber from recycled auto or truck tires, washed silica sand that is round, sub-round or sub-round to sub-angular, heat-treated acrylic-coated silica sand, colored crumb rubber, TPE-coated silica sand, and TPE and EPDM granules.",
+    "quote": "Among the acceptable infill materials are crumb rubber made from recycled auto or truck tires, and washed silica sands that are round, sub-round, or sub-round to sub-angular. Other types of acceptable infill include heat-treated acrylic coated silica sand or colored crumb rubber, TPE-coated silica sand, and TPE and EPDM granules.",
+    "source_url": "https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf",
+    "source_label": "Synthetic Turf Council, Considerations When Buying Synthetic Grass for Landscape Use (September 2013), Guidelines for Infill",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2013"
+    ],
+    "notes": "Organic infills (cork, coconut, walnut) and zeolite are not on the 2013 list."
+  },
+  {
+    "id": "artificial-turf-infill-types.motz-why-infill",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Motz, which makes Envirofill coated sand, says a residential lawn needs the right quantity of infill for cushion underfoot, ballast that keeps the turf from moving or wrinkling, UV protection of the primary backing and support for the blades.",
+    "quote": "Aside from the many inherent product benefits that Envirofill provides, it's critical to top dress the turf with the correct quantities to ensure adequate cushion under foot, ballast across the surface to avoid unwanted movement or wrinkling of the turf, UV protection of the primary backing and proper support of the grass blades.",
+    "source_url": "https://themotzgroup.com/wp-content/uploads/2023/03/Envirofill-Installation-Guidelines-for-Landscape-Applications.pdf",
+    "source_label": "The Motz Group, Envirofill Installation Guidelines: Landscape & Recreational Applications (PDF)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Section B.1.b, Residential Lawns. The maker sells infill; its reasons match the STC's (ballast, movement) and add backing protection."
+  },
+  {
+    "id": "artificial-turf-infill-types.motz-putting-green-sand",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Motz's installation guidelines say most bent-grass-style putting greens are backfilled with about 5 to 6 pounds of 16/30 raw sand per square foot and top-dressed with about 1 pound of green Envirofill per square foot.",
+    "quote": "Most bent grass putting green systems will be backfilled with approx. 5-6lbs of 16/30 raw sand per square foot (2.27-2.72kg per sq m) and then top dressed with approx. 1 lb/s of green 16/30 Envirofill per square foot (.45kg per sq m) to achieve optimal ball and surface performance.",
+    "source_url": "https://themotzgroup.com/wp-content/uploads/2023/03/Envirofill-Installation-Guidelines-for-Landscape-Applications.pdf",
+    "source_label": "The Motz Group, Envirofill Installation Guidelines: Landscape & Recreational Applications (PDF)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5",
+      "6",
+      "16/30",
+      "1",
+      "2.27",
+      "2.72",
+      "45"
+    ],
+    "notes": "Section B.4.c. \"1 lb/s\" is printed that way in the source."
+  },
+  {
+    "id": "artificial-turf-infill-types.motz-envirofill-rounded",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Motz says Envirofill's highly rounded quartz core resists compaction and that the infill needs no watering or frequent top-off.",
+    "quote": "Its highly-rounded quartz core resists compaction so it doesn't continue to compact over the life of your field. … It's the turf infill that doesn't require watering or frequent top-off, so it's stress-free, low maintenance and high performance!",
+    "source_url": "https://themotzgroup.com/envirofill/",
+    "source_label": "The Motz Group, Envirofill (product page)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Maker's claims about its own product."
+  },
+  {
+    "id": "artificial-turf-infill-types.envirofill-bulk-density",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Envirofill's technical data summary describes it as an acrylic-coated, round sand infused with Microban antimicrobial technology for landscape turf, with a bulk density of 100 to 103 pounds per cubic foot across its four grain sizes.",
+    "quote": "Envirofill is an acrylic-coated, round sand infused with Microban technology that is used as synthetic turf infill in landscape systems. … [table, Bulk Density column, rows Envirofill 12/20, 16/30, 20/40, 30/50:] 100 lbs/ft3 … 101 lbs/ft3 … 103 lbs/ft3 … 103 lbs/ft3",
+    "source_url": "https://www.turfdistributors.com/wp-content/uploads/2021/03/Envirofill-Landscape-Technical-Data-Summary.pdf",
+    "source_label": "The Motz Group, Envirofill Technical Data Summary (landscape), as posted by a distributor",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [
+      "100",
+      "101",
+      "103",
+      "12/20",
+      "16/30",
+      "20/40",
+      "30/50"
+    ],
+    "notes": "The maker's own data sheet, read in the copy a turf distributor posts (Motz's site did not serve the sheet). The same sheet prints the metric figure as 1762 kg/m3 for every size, which does not match 100 lb/ft3 (about 1,600 kg/m3); copy uses the pound figures only."
+  },
+  {
+    "id": "artificial-turf-infill-types.gale-infill-role",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A civil engineer writing for facility managers in 2019 says infill is raked in between turf fibers to give footing and shock absorption and to hold the fibers upright so the surface looks like grass.",
+    "quote": "The sand and crumb rubber are added on top of the carpet and raked in between the fibers to provide footing and shock attenuation, and to hold the fibers upright, giving the carpet a realistic, grass-like appearance.",
+    "source_url": "https://galeassociates.com/wp-content/uploads/2019/02/Alternative-Infills-for-Synthetic-Turf-Fields-JMP.pdf",
+    "source_label": "John M. Perry, P.E. (Gale Associates), Alternative Infills for Synthetic Turf Fields, Facilities Manager (APPA), January/February 2019",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2019"
+    ],
+    "notes": "Written about sports fields; the author's firm engineers them. Reprint on the firm's site of the APPA magazine article."
+  },
+  {
+    "id": "artificial-turf-infill-types.gale-turf-sand",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same engineer says turf infill sand is specialized: rounded, processed to a uniform size between 0.6 and 0.85 millimeters and washed of fines and dust, because rounded, uniform sand resists compaction, drains, resists breaking down and adds weight that holds the turf in place.",
+    "quote": "The sand used for turf infill is specialized for turf; not just any sand can be used. The sand used for turf is a rounded shape (as opposed to elongated or irregularly shaped) and is processed to be within a specific size range between 0.85 and 0.6 millimeters, and uniformly graded. The rounded shape and uniform sizing also tend to resist compaction and improve the resiliency of the finished turf. Typically, this sand is obtained from gravel pits and processed to segregate out the desired particle size and washed to remove any smaller particle sizes or dust. … Rounded sand is valued as a component of the alternate infill options for turf because of its resistance to degradation, its drainage qualities, its resistance to compaction, and for the weight it provides to help hold the synthetic turf material in place.",
+    "source_url": "https://galeassociates.com/wp-content/uploads/2019/02/Alternative-Infills-for-Synthetic-Turf-Fields-JMP.pdf",
+    "source_label": "John M. Perry, P.E. (Gale Associates), Alternative Infills for Synthetic Turf Fields, Facilities Manager (APPA), January/February 2019",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "0.85",
+      "0.6",
+      "2019"
+    ]
+  },
+  {
+    "id": "artificial-turf-infill-types.gale-coated-sand",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same engineer describes coated-sand infills as rounded sand coated with acrylic, polyolefin or other elastic coatings, meant to be the whole infill without silica sand mixed in, and warns that poor-quality coatings can clump over time.",
+    "quote": "There are several products intended as synthetic turf infill on the market that are best described as rounded sand particles coated with acrylic, polyolefin, or other elastic coatings. … These products are intended to be used as 100 percent of the infill, without mixing it with silica sand. … Coated sand is subject to the same quality issues as EPDM and TPE, and poor-quality coatings can clump over time. … Coated sand is available in tan or green. Although it is considered one of the most abrasive of infill options, most owners find that it is not significantly different from other choices.",
+    "source_url": "https://galeassociates.com/wp-content/uploads/2019/02/Alternative-Infills-for-Synthetic-Turf-Fields-JMP.pdf",
+    "source_label": "John M. Perry, P.E. (Gale Associates), Alternative Infills for Synthetic Turf Fields, Facilities Manager (APPA), January/February 2019",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "100",
+      "2019"
+    ]
+  },
+  {
+    "id": "artificial-turf-infill-types.gale-organic-moisture-freeze",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same engineer says organic infills of cork, coconut fiber, rice husks or walnut shells are typically 30 percent organic material and 70 percent sand by weight, that some must be kept at a set moisture content with irrigation depending on the region's temperatures, and that because they hold moisture they can be prone to freezing.",
+    "quote": "Organic infill materials are manufactured from naturally occurring materials, such as renewable cork, coconut fiber, rice husks, walnut shells, or some combination of these materials. … Organic-type turf infills are typically a mix of 30 percent organic material and 70 percent sand by weight. … Some of the organic infills are required to maintain a certain moisture content, and irrigation may be required, depending upon the typical ambient temperatures in the region the project is located. In areas such as New England, watering would most likely be unnecessary, unless there are drought conditions in the summer. However, because these fields hold moisture, they can be prone to freezing.",
+    "source_url": "https://galeassociates.com/wp-content/uploads/2019/02/Alternative-Infills-for-Synthetic-Turf-Fields-JMP.pdf",
+    "source_label": "John M. Perry, P.E. (Gale Associates), Alternative Infills for Synthetic Turf Fields, Facilities Manager (APPA), January/February 2019",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "30",
+      "70",
+      "2019"
+    ],
+    "notes": "Sports-field context; the page applies it to yards only as far as the physics carries (moisture held, moisture lost, water that freezes)."
+  },
+  {
+    "id": "artificial-turf-infill-types.gale-organic-replenish-walnut",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same engineer says some organic-infill fields break down and need replenishing every two to three years and can grow weeds, while crushed walnut shells need no irrigation system and appear less prone to breaking down.",
+    "quote": "Some organic infill fields naturally degrade and need to be replenished every two to three years … Organic infill can also experience weed growth, requiring additional maintenance. Newer versions of organic infills, such as crushed walnut shells, have started to hit the market. They do not require an irrigation system and appear to be less susceptible to deterioration and the need for replenishment.",
+    "source_url": "https://galeassociates.com/wp-content/uploads/2019/02/Alternative-Infills-for-Synthetic-Turf-Fields-JMP.pdf",
+    "source_label": "John M. Perry, P.E. (Gale Associates), Alternative Infills for Synthetic Turf Fields, Facilities Manager (APPA), January/February 2019",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2019"
+    ]
+  },
+  {
+    "id": "artificial-turf-infill-types.gale-tpe-epdm",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same engineer describes EPDM as virgin synthetic rubber crumb used like tire rubber and TPE as extruded plastic pellets, and warns that poor-quality TPE can clump or melt together over time.",
+    "quote": "EPDM is the generic name for virgin synthetic rubber crumb products. Its properties are very similar to SBR, and it is used in turf infills with sand in the same manner as SBR. … Thermoplastic Elastomer (TPE) is an extruded plastic product used as an alternative infill. … If the TPE is poor quality, there is a risk that it can clump or melt together over time.",
+    "source_url": "https://galeassociates.com/wp-content/uploads/2019/02/Alternative-Infills-for-Synthetic-Turf-Fields-JMP.pdf",
+    "source_label": "John M. Perry, P.E. (Gale Associates), Alternative Infills for Synthetic Turf Fields, Facilities Manager (APPA), January/February 2019",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2019"
+    ]
+  },
+  {
+    "id": "artificial-turf-infill-types.turi-infill-overview",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Toxics Use Reduction Institute at UMass Lowell says the most commonly used artificial turf infill is made from recycled tires, called crumb rubber or SBR, and that mineral- and plant-based infills include sand, cork and coconut hulls.",
+    "quote": "The most commonly used artificial turf infill is made from recycled tires. This material is frequently referred to as crumb rubber, or as styrene butadiene rubber (SBR). … Mineral-based and plant-derived materials used in infill can include sand, cork, and coconut hulls, among other materials. Among infills that include a combination of sand and synthetic materials, one example is a product made from acrylic-coated sand.",
+    "source_url": "https://www.uml.edu/docs/Infills-Overview-2017_tcm18-386050.pdf",
+    "source_label": "Toxics Use Reduction Institute, Sports Turf Alternatives Assessment: Chemicals in Artificial Turf Infill: Overview (February 2017, re-posted with minor revisions in 2024)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2017",
+      "2024"
+    ],
+    "notes": "Linked from turi.org/artificial-turf/. Written about athletic fields. Health findings belong to the crumb-rubber guide, not this page."
+  },
+  {
+    "id": "artificial-turf-infill-types.amorim-cork-density",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Amorim, a cork infill maker, puts its cork infill at an average density of 190 kg/m³ (about 12 pounds per cubic foot) against 400 kg/m³ (about 25 pounds per cubic foot) for recycled rubber infills.",
+    "quote": "Amorim Cork Composites cork infills have an average density of 190 kg/m³, whereas recycled rubber infills have average densities of 400 kg/m³. Therefore, the same volume requires twice as much rubber than cork.",
+    "source_url": "https://amorimcorksolutions.com/media/5552/e-book_infills_us_v4.pdf",
+    "source_label": "Amorim Cork Composites, E-book: Cork infills, Bringing back nature to artificial turf systems (2018)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "190",
+      "400",
+      "12",
+      "25",
+      "2018"
+    ],
+    "notes": "Section 5.6. Pound figures are conversions (1 kg/m3 = 0.0624 lb/ft3): 190 -> 11.9, 400 -> 25.0. Set beside Envirofill's 100-103 lb/ft3, a scoop of cork weighs roughly an eighth as much as the same scoop of coated sand (arithmetic, not the maker's statement)."
+  },
+  {
+    "id": "artificial-turf-infill-types.amorim-buoyancy-snow",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same cork maker says any infill can float, with a small part carried off by rainwater in heavy rain, and estimates that in colder countries 1 to 4 percent of the infill can be lost when snow is cleared.",
+    "quote": "The infills used in artificial turf systems, irrespective of their typology, can be subject to a phenomenon called buoyancy. During heavy rainfall, a small part of the infill floats and is shifted by rain water. Similarly, in colder countries, it is estimated that 1 to 4% of the infill can be lost during snow clearing operations.",
+    "source_url": "https://amorimcorksolutions.com/media/5552/e-book_infills_us_v4.pdf",
+    "source_label": "Amorim Cork Composites, E-book: Cork infills, Bringing back nature to artificial turf systems (2018)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "4",
+      "2018"
+    ],
+    "notes": "Section 5.2. Sports-pitch context."
+  },
+  {
+    "id": "artificial-turf-infill-types.motz-organic-upkeep",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Motz, which sells a walnut-shell infill, says many organic infills need regular irrigation to perform and can decompose, settle and compact over time, while its own walnut infill needs no watering and won't float or migrate in rain.",
+    "quote": "Higher maintenance than their non-organic counterparts, these infills can require regular irrigation for optimal performance, ultimately making them less sustainable. They can decompose, settle, and compact over time, necessitating more than regular fluffing, topping up, or replacement to maintain a consistent playing surface. … your infill won't float or migrate when it rains … Safeshell, on the other hand, never has to be watered.",
+    "source_url": "https://themotzgroup.com/infill_blog/organic-infill-can-make-your-artificial-turf-more-sustainable-7-things-to-know/",
+    "source_label": "The Motz Group, Organic Infill Can Make Your Artificial Turf More Sustainable: 7 Things to Know (Oct. 4, 2021)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4",
+      "2021"
+    ],
+    "notes": "A maker comparing its own product with competitors'; the page labels it that way."
+  },
+  {
+    "id": "artificial-turf-infill-types.greenplay-coconut-moisture",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "GreenPlay, which sells a coconut-fiber and cork infill, says its coconut fibers absorb moisture from humid air, rain or irrigation and cool the turf as they release it, and claims the blend absorbs 150 times its weight in water.",
+    "quote": "The coconut fibers naturally absorb moisture from the air resulting from ambient humidity, rainfall or irrigation before slowly releasing the moisture into the air and literally cooling off the synthetic turf fibers. … The moisture efficiency of our Corkonut artificial grass infill is optimal and can provide grass-like temperatures by absorbing 150 times its weight in water before cycling through a turf cooling, natural evaporation process that mimics natural grass.",
+    "source_url": "https://www.greenplayusa.com/corkonut-infill/",
+    "source_label": "GreenPlay, Corkonut Cork Infill Solution for Synthetic Turf (product page)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "150"
+    ],
+    "notes": "Maker's claims."
+  },
+  {
+    "id": "artificial-turf-infill-types.shaw-hydrochill",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Shaw describes HydroChill as an evaporative cooling infill, a pre-coated infill bonded to sand that stores moisture and releases it as the surface heats, and notes that any wet surface can cool for a short time.",
+    "quote": "HydroChill is a pre-coated infill that bonds to sand and is installed within the turf system. As the surface heats up, stored moisture is released and evaporates, helping dissipate heat and reduce surface temperatures. … While any wet surface can provide short-term cooling, HydroChill has been shown to create a sustained temperature differential compared to standard synthetic turf systems.",
+    "source_url": "https://shawgrass.com/en-us/innovation/hydrochill",
+    "source_label": "Shaw (Shawgrass), HydroChill Cooling Technology for Artificial Grass (product page)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Maker's description. Measured results for cooling infills are on the how-hot-does-artificial-turf-get guide."
+  },
+  {
+    "id": "artificial-turf-infill-types.ccc-plains-wind",
+    "layer": "climate",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Climate Center describes the eastern plains as having low relative humidity, moderate to high wind movement and a large daily and seasonal range in temperature, and says places very near the mountains get periodic, severe turbulent winds.",
+    "quote": "The climate of the plains is comparatively uniform from place to place, with characteristic features of low relative humidity, abundant sunshine, infrequent rains and snow, moderate to high wind movement, and a large daily and seasonal range in temperature. … Average wind movement is less, but areas very near the mountains are subject to periodic, severe turbulent winds from the effects of high westerly winds over the mountain barrier.",
+    "source_url": "https://climate.colostate.edu/climate_long.html",
+    "source_label": "Colorado Climate Center (Colorado State University), Climate of Colorado",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-infill-types.ccc-dry-winter-heavy-storms",
+    "layer": "climate",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Climate Center says Colorado's low humidity favors rapid evaporation, winter on the plains more often brings dry air and strong winds, and summer thunderstorms can drop more than 4 inches of rain in a few hours.",
+    "quote": "Humidity is generally quite low; this favors rapid evaporation and a relatively comfortable feeling even on hot days. … More often, winter brings dry air and strong winds contributing to the aridity of the area. … Summer precipitation over the plains comes largely from thunderstorm activity and is sometimes extremely heavy. Localized rains in excess of 4\" sometimes fall in just a few hours contributing to local flooding.",
+    "source_url": "https://climate.colostate.edu/climate_long.html",
+    "source_label": "Colorado Climate Center (Colorado State University), Climate of Colorado",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4"
+    ]
+  },
+  {
+    "id": "artificial-turf-infill-types.ccc-thin-atmosphere",
+    "layer": "climate",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Climate Center says Colorado's thin atmosphere lets more solar radiation through.",
+    "quote": "The thin atmosphere allows greater penetration of solar radiation and results in pleasant daytime conditions even during the winter.",
+    "source_url": "https://climate.colostate.edu/climate_long.html",
+    "source_label": "Colorado Climate Center (Colorado State University), Climate of Colorado",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  }
+]

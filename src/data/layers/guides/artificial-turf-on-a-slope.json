@@ -1,0 +1,362 @@
+[
+  {
+    "id": "artificial-turf-on-a-slope.fc-retaining-wall-exempt",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins lets a homeowner build a retaining wall up to 4 feet tall, measured from the low-side grade to the top, without a building permit unless it supports a surcharge; a second wall uphill must sit at least the full height of the lower wall away, and the city says permit exempt does not mean code exempt.",
+    "quote": "Permit exempt does not mean code exempt. Even if you don’t need a permit, your project must follow City codes, laws and ordinances. … Retaining Walls: Up to 4 feet measured from the low side grade to the top, unless supporting a surcharge. If there is another retaining wall uphill, the distance between them must be at least the full height of the lower wall.",
+    "source_url": "https://www.fortcollins.gov/Business/Permits-and-Licensing/Building-Permits",
+    "source_label": "City of Fort Collins, Building Permits: Residential Permit Exemptions",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "4"
+    ],
+    "notes": "Read 2026-09-25 in a browser (the accordion text of the Residential Permit Exemptions list); fortcollins.gov returns 403 to curl. The old fcgov.com/building/permit-exempt URL redirects here. The page notes new building codes in effect as of April 1, 2026."
+  },
+  {
+    "id": "artificial-turf-on-a-slope.fc-retaining-wall-engineer",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "When a Fort Collins retaining wall does need a building permit, the city requires it to be designed and stamped by a structural engineer, with plans and a site plan submitted.",
+    "quote": "Retaining Wall Must be designed and stamped by a Colorado-licensed structural engineer. What to Submit: Building Permit Application(PDF, 558KB) Plans Site plan",
+    "source_url": "https://www.fortcollins.gov/Business/Permits-and-Licensing/Building-Permits",
+    "source_label": "City of Fort Collins, Building Permits: Exterior Permits, Retaining Wall",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "558"
+    ],
+    "notes": "Same page as fc-retaining-wall-exempt, read in a browser. The page lists a $100 application fee ($35 plan check, $65 permit); not used in copy."
+  },
+  {
+    "id": "artificial-turf-on-a-slope.larimer-retaining-wall-exempt",
+    "layer": "county",
+    "applies_to": [
+      "fort-collins-co",
+      "loveland-co",
+      "berthoud-co",
+      "timnath-co",
+      "wellington-co",
+      "windsor-co",
+      "johnstown-co"
+    ],
+    "fact": "In unincorporated Larimer County, the 2024 code amendments in effect since January 1, 2026 exempt from a permit a retaining wall no more than 4 feet tall measured from a point 8 feet downslope of the wall up to the finished grade behind it, provided the next wall uphill sits at least twice the upper wall's height away and the wall supports no surcharge.",
+    "quote": "Retaining walls that are not over 4 feet (1219 mm) in height measured from a point eight feet horizontally downslope from the low side finish grade to the high side finish grade behind the wall, provided that the horizontal distance to the next uphill retaining wall is at least equal to twice the height of the upper wall, unless supporting a surcharge or impounding Class I, II or IIIA liquids.",
+    "source_url": "https://www.larimer.gov/sites/default/files/1-2024-building-code-amendments-final0.pdf",
+    "source_label": "Larimer County Community Development, 2024 Larimer County Building Code Amendments (effective January 1, 2026; revised August 31, 2026), IRC R105.2 item 3",
+    "effective": "2026-01-01",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "2024",
+      "2026",
+      "4",
+      "1219",
+      "8",
+      "105.2",
+      "3",
+      "31",
+      "1"
+    ],
+    "notes": "Read 2026-09-25 in a browser (larimer.gov serves a Cloudflare challenge to curl); PDF text extracted with pdf.js, page 47 (IRC amendments). The same exemption appears for the IBC as item 4 on page 5. Applies in unincorporated Larimer County only; the towns in applies_to are the ones whose surrounding county land it covers. Each town adopts its own code."
+  },
+  {
+    "id": "artificial-turf-on-a-slope.weld-retaining-wall-exempt",
+    "layer": "county",
+    "applies_to": [
+      "greeley-co",
+      "windsor-co",
+      "johnstown-co",
+      "berthoud-co",
+      "firestone-co",
+      "mead-co",
+      "frederick-co",
+      "dacono-co",
+      "evans-co",
+      "eaton-co",
+      "milliken-co",
+      "severance-co",
+      "longmont-co"
+    ],
+    "fact": "In unincorporated Weld County, which enforces the 2024 International Residential Code, a retaining wall no more than 4 feet tall measured from the bottom of the footings to the top of the wall needs no building permit unless it supports a surcharge.",
+    "quote": "A building permit is not required for the following: … Retaining walls which are not over four feet in height, measured from the bottom of the footings to the top of the wall, unless supporting a surcharge of impounding flammable liquids. … Department of Planning Services, Building Inspection Division, is enforcing the following codes in all areas of Unincorporated Weld County: … 2024 International Residential Code",
+    "source_url": "https://www.weld.gov/files/sharedassets/public/v/9/departments/building/documents/bldg-permit-needed-handout.pdf",
+    "source_label": "Weld County Building Inspection Division, When is a Building Permit Needed? (information bulletin dated 08/26)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "2024",
+      "4"
+    ],
+    "notes": "Read 2026-09-25 in a browser (weld.gov returns 403 to curl); PDF text extracted with pdf.js. Unincorporated Weld County only; towns in applies_to are those with county land around them."
+  },
+  {
+    "id": "artificial-turf-on-a-slope.irc-2021-r105-2-retaining",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The 2021 International Residential Code, the model many Colorado towns adopt with amendments, exempts from a permit a retaining wall no more than 4 feet tall measured from the bottom of the footing to the top of the wall, unless it supports a surcharge.",
+    "quote": "R105.2 Work Exempt From Permit … Permits shall not be required for the following: Building: … Retaining walls that are not over 4 feet (1219 mm) in height measured from the bottom of the footing to the top of the wall, unless supporting a surcharge.",
+    "source_url": "https://up.codes/viewer/colorado/irc-2021/chapter/1/scope-and-administration",
+    "source_label": "International Residential Code 2021, Sec. R105.2 Work Exempt From Permit (Colorado residential code copy), read on UpCodes",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "2021",
+      "105.2",
+      "4",
+      "1219",
+      "2"
+    ],
+    "notes": "Read with curl from UpCodes' Colorado IRC 2021 chapter 1; the ICC's own viewer blocks automated fetches, so this is a secondary copy. Towns amend this item (Fort Collins measures from the low side grade; Larimer County from 8 feet downslope). Pages tell readers to ask their town's building department."
+  },
+  {
+    "id": "artificial-turf-on-a-slope.milliken-walls-drainage-plan",
+    "layer": "ordinance",
+    "applies_to": [
+      "milliken-co"
+    ],
+    "fact": "Milliken's land use code permits retaining walls where landscaping requires them and they are approved with a final drainage plan.",
+    "quote": "Solid walls and fences are permitted only in rear and side yards. Retaining walls are permitted where required for landscaping and approved with a final drainage plan.",
+    "source_url": "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIIGESTAPALDI_DIV3LABUFEWAST_S16-3-390FEWA",
+    "source_label": "Milliken Municipal Code Sec. 16-3-390(b)(3)a, Materials (Municode, Supplement 22 Update 1)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "16",
+      "3",
+      "390"
+    ],
+    "notes": "Read 2026-09-25 through the Municode content API (productId 18077, jobId 492897), the text the library page renders by script. The same section's (b)(5) is milliken-co.code-16-3-390-retaining-walls."
+  },
+  {
+    "id": "artificial-turf-on-a-slope.firestone-anchor-manufacturer",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone's code requires artificial turf to be installed to the manufacturer's specifications and anchored at all edges and seams.",
+    "quote": "i. Artificial turf shall be installed in accordance with manufacturer specifications. … iv. Artificial turf shall be anchored at all edges and seams.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+    "source_label": "Firestone Development Code 16.6.4.F.2.e.i and e.iv (Municode Library)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [],
+    "notes": "Read 2026-09-25 through the Municode content API (jobId 488870, productId 18062). The 5:1 slope bar is firestone-co.fdc-16.6.4-buffer-slope; the drainage-pattern clause is does-artificial-turf-drain.firestone-drainage-pattern."
+  },
+  {
+    "id": "artificial-turf-on-a-slope.isu-slope-classes",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Iowa State University Extension measures slope as rise over run and sorts it into gentle (under 5 percent, 1:20), moderately steep (about 8 to 16 percent, 1:12 to 1:6, where water tends to run off before it soaks in), steep (20 percent, 1:5, or more), too steep to mow (about 30 percent, 1:3, or more) and 50 percent (1:2), often considered the steepest slope that can support plant growth.",
+    "quote": "Slopes are measured by calculating their rise over run - the number of feet the hill goes up over a horizontal distance.  Slope can be expressed as a ratio (such as 1:12, a rise of one foot for every 12 feet) or as a percentage (1:12 = 8.33%).  Gentle slopes of less than 5% (1:20) generally have few special planting considerations related to slope.  Once slopes are moderately steep at around 8-16% (1:12-1:6), it is important to consider special slope planting requirements. These slopes can be difficult to walk and garden on and difficult to water as the water will be more likely to run off before it soaks in.  Slopes of 20% (1:5) or more are considered steep and require special planting considerations.  Those of ~30% (1:3) or more are too steep to mow, and plantings other than turfgrass need to be used.  A slope of 50% (1:2) is often considered the steepest slope that can support plant growth.",
+    "source_url": "https://yardandgarden.extension.iastate.edu/how-to/gardening-slopes-and-hillsides",
+    "source_label": "Aaron Steil, Gardening on Slopes and Hillsides, Iowa State University Extension and Outreach, Yard and Garden (last reviewed March 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "12",
+      "8.33",
+      "5",
+      "20",
+      "8",
+      "16",
+      "6",
+      "30",
+      "3",
+      "50",
+      "2",
+      "2026"
+    ],
+    "notes": "Written for planting, not turf; used for the slope classes and the ratio-to-percent arithmetic. ISU writes ratios as rise:run (1:5); Colorado codes such as Firestone's write run:rise (5:1). Same slope."
+  },
+  {
+    "id": "artificial-turf-on-a-slope.isu-water-from-top",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Iowa State University Extension advises reducing the water that reaches a slope from above by redirecting driveways, downspouts and other sources at the top, using small trenches along the top, drainage tile or surface drains.",
+    "quote": "Reduce surface water flow from the top of the hill by redirecting water from driveways, downspouts, and other areas at the top of the hill. Less water running down the hill means less erosion. Excess water can be redirected by digging small trenches along the top of the slope, installing drainage tile, or even surface drains to keep excess water off the hillside.",
+    "source_url": "https://yardandgarden.extension.iastate.edu/how-to/gardening-slopes-and-hillsides",
+    "source_label": "Aaron Steil, Gardening on Slopes and Hillsides, Iowa State University Extension and Outreach, Yard and Garden (last reviewed March 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2026"
+    ]
+  },
+  {
+    "id": "artificial-turf-on-a-slope.isu-terracing",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Iowa State University Extension describes terracing as creating flat areas on a slope with retaining walls, boulders, field stones, bricks or wooden timbers to slow runoff.",
+    "quote": "Create flat areas on your slope using retaining walls, boulders, field stones, bricks, or wooden timbers to slow down water runoff and create planting zones.",
+    "source_url": "https://yardandgarden.extension.iastate.edu/how-to/gardening-slopes-and-hillsides",
+    "source_label": "Aaron Steil, Gardening on Slopes and Hillsides, Iowa State University Extension and Outreach, Yard and Garden (last reviewed March 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2026"
+    ]
+  },
+  {
+    "id": "artificial-turf-on-a-slope.csu-groundcover-steep-slopes",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension suggests xeric ground cover plants for steep slopes that are impractical as lawn or a mowing hazard, and says ground covers help reduce soil erosion.",
+    "quote": "They provide a variety of textures and colors, help to reduce soil erosion, and can function as a transition between landscape spaces. … Xeric ground cover plants (or “water-wise” plants) may be the answer for challenging landscape areas that are difficult to mow or water, require extra maintenance or are less suitable for turfgrass such as: … Steep slopes that are impractical in lawns or a mowing hazard,",
+    "source_url": "https://extension.colostate.edu/resource/xeriscaping-ground-cover-plants/",
+    "source_label": "CSU Extension Fact Sheet 7.230, Xeriscaping: Ground Cover Plants",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "7.230"
+    ]
+  },
+  {
+    "id": "artificial-turf-on-a-slope.fusionturf-seams-base",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "FusionTurf, a turf maker, runs seams parallel to the downhill fall on slopes, benches a shallow key at the toe where erosion is a risk, thickens the aggregate base on steeper runs, and adds geogrid in the base or breaks the area into terraces on steeper grades.",
+    "quote": "For steeper grades, add geogrid or break the area into terraces to keep everything locked in. … Roll turf so fibers face the same way and run seams parallel to the downhill fall. This reduces seam creep and warping. … Where erosion is a risk, bench a shallow key at the toe of the slope to lock in the base. … Install 3 to 4 inches of angular aggregate base on gentle areas. Increase thickness on steeper runs or soft soils. … For added stability, place geogrid within the base layers and wrap it into the edge restraints.",
+    "source_url": "https://find.fusionturf.com/answers/artificial-grass-on-a-slope/",
+    "source_label": "FusionTurf Answers, Can artificial grass be installed on a slope?",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "4"
+    ]
+  },
+  {
+    "id": "artificial-turf-on-a-slope.fusionturf-anchors-infill",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "FusionTurf sets nails or staples close together around a slope's perimeter, staggers anchors across the field, adds more near seams and at the toe, and brushes coated silica sand or antimicrobial infill in light lifts from the bottom up, topping off the lower third of the slope with extra care.",
+    "quote": "Set turf nails or staples around the perimeter at close spacing. Add intermittent anchors across the field in a staggered pattern without pinching the backing. Increase anchoring density near seams and at the toe of the slope. … Use coated silica sand or antimicrobial infill. Brush in light lifts from bottom to top to stand fibers up. Top off evenly with extra attention to seams, edges, and the lower third of the slope.",
+    "source_url": "https://find.fusionturf.com/answers/artificial-grass-on-a-slope/",
+    "source_label": "FusionTurf Answers, Can artificial grass be installed on a slope?",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-on-a-slope.fusionturf-toe-drainage",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "FusionTurf routes concentrated runoff on a turf slope to a safe outlet with swales, channel drains or a French drain at the toe, breaks long flow paths with terraces or landings, adds subdrains and separation fabric on clay, and lists poor water management at the toe among common mistakes.",
+    "quote": "Direct water off and under the system. Use swales, channel drains, or a French drain at the toe where runoff concentrates. … Capture and route concentrated runoff to a safe outlet. Break long flow paths with terraces or landings. On clay or saturated sites, add subdrains and a separation fabric to keep the base clean. … Common mistakes to avoid Running seams across the slope. Thin, unreinforced base on soft soils. Sparse anchoring at edges and seams. Poor water management at the toe of the slope.",
+    "source_url": "https://find.fusionturf.com/answers/artificial-grass-on-a-slope/",
+    "source_label": "FusionTurf Answers, Can artificial grass be installed on a slope?",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-on-a-slope.polyturf-infill-slopes",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "PolyTurf's landscape manual calls infill less desirable on sloping surfaces, says its acrylic-coated sand infill is not recommended for sloped areas, and suggests its rapid-draining backing for sloped areas.",
+    "quote": "Consider Enviroflow rapid draining backing for pet applications or areas that are sloped or require rapid drainage … Acrylic Coated Sand: Used as an infill material to minimize flattening and weigh the turf down on the underlay. Not recommended for sloped areas. … Infill is less desirable around pools, on sloping surfaces, or where the installation is for purely visual effect only and has moderate foot traffic.",
+    "source_url": "https://polyturf.com/uploads/files/polyturf_installation_manual_landscape_only.pdf",
+    "source_label": "PolyTurf, Installation and Maintenance Instructions: Synthetic Grass for Landscaping (2015)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2015"
+    ],
+    "notes": "The same manual's nails-on-slopes line is artificial-turf-nails-vs-staples.polyturf-screws-field. FusionTurf (fusionturf-anchors-infill) uses coated silica sand on slopes: the two makers differ, so the page presents both."
+  },
+  {
+    "id": "artificial-turf-on-a-slope.allanblock-dry-behind-wall",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Allan Block's residential wall manual says most retaining walls are designed around keeping the area behind them relatively dry, so the final design must route water away from the back of the wall, and any reinforced wall, wall over 4 feet, or wall with a slope or other surcharge above it needs a toe drain.",
+    "quote": "The design and performance of most retaining walls are based on keeping the area behind the wall relatively dry. To ensure a quality project, the soils used must not become saturated during construction and the final design must route water away from the back of the wall. Incorporating berms and swales into the final design is an easy way to direct surface water away. … Any reinforced wall or walls over 4 ft. (1.2 m) in height or with slopes or other surcharges above the wall will need a toe drain.",
+    "source_url": "https://allanblock.com/installation/residential-installation/water-management",
+    "source_label": "Allan Block, Residential Installation Manual: Water Management",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4",
+      "1.2"
+    ]
+  },
+  {
+    "id": "artificial-turf-on-a-slope.allanblock-top-course",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Allan Block's installation steps finish the last course of a wall with organic or approved on-site soil behind the blocks instead of drainage rock, partly to keep water from running behind the blocks.",
+    "quote": "On the last course, fill behind the blocks with organic soils in place of infill or approved on-site soils. This will assist in any plantings above the wall and also to direct water from running behind the blocks.",
+    "source_url": "https://allanblock.com/installation/residential-installation/basic-installation",
+    "source_label": "Allan Block, Residential Installation Manual: Basic Installation",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-on-a-slope.fusionturf-more-work",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "FusionTurf says sloped installs take more base work, anchoring and detailing than flat ones and cost more than a flat yard, especially when geogrid, drainage or terracing is added.",
+    "quote": "Sloped installs take more base work, anchoring, and detailing than flats. Expect a premium over flat yard pricing, especially when geogrid, drainage, or terracing is added.",
+    "source_url": "https://find.fusionturf.com/answers/artificial-grass-on-a-slope/",
+    "source_label": "FusionTurf Answers, Can artificial grass be installed on a slope?",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  }
+]

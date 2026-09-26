@@ -1,0 +1,260 @@
+[
+  {
+    "id": "artificial-turf-around-pool.hotspring-foundation",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Hot Spring's pre-delivery instructions say a spa belongs on a structurally sound, level surface with its equipment compartment where water drains away, that a spa set on the ground will settle and become unlevel even on stepping stones, that a pad sloped 1/2 inch per 10 feet is preferred so rain and spillover run off, and that grass or dirt around a spa adds debris carried into the water on users' feet.",
+    "quote": "Always put your spa on a structurally sound, level surface. A filled spa can weigh a great deal. … Locate your equipment compartment, which houses all of the electrical components, in a place where water will drain away from it. … If you place the spa on the ground, even temporarily, place stepping stones under the leveling areas. The stones should be at least two inches thick and twelve inches square. Even with stones in place, the spa will inevitably settle and become unlevel. … Concrete sloped at 1/2 inch per 10 feet (1 cm per 3 m) is preferred so that rain water and water spillover will run off and not puddle underneath the spa. … Remember, placing the spa around grass or dirt may increase the amount of debris which is inadvertently brought into the spa water on the user’s feet.",
+    "source_url": "https://www.hotspring.com/wp-content/uploads/2026/08/hot-spring-highlife-collection-pre-delivery-instruction-2026.pdf",
+    "source_label": "Hot Spring Spas (Watkins Wellness), HighLife Collection Pre-Delivery Instructions (2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1/2",
+      "1",
+      "2",
+      "10",
+      "3"
+    ],
+    "notes": "Read with curl and pdftotext 2026-09-25 (linked from hotspring.com/learning-center/pre-delivery-instructions). A spa maker's installation guide, not a turf source; the page uses it for what a tub needs underneath and around it."
+  },
+  {
+    "id": "artificial-turf-around-pool.hotspring-grandee-load",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Hot Spring's Grandee spa holds 455 gallons and weighs 5,810 pounds filled, counting occupants, and the maker requires a reinforced concrete pad at least 4 inches thick or a deck rated for more than 125 pounds per square foot, with its other HighLife models listing 115 to 130 pounds per square foot.",
+    "quote": "If you install the spa outdoors, a reinforced concrete pad at least four inches thick is required for the Grandee® & Envoy® spas, and recommended for the Vanguard® , Aria®, Sovereign®, Prodigy® and Jetsetter® spas. … Spa Specifications … GRANDEE (Model GGN) … 455 gallons … 5,810 lbs … NOTE: WATKINS WELLNESS requires that the GRANDEE be installed on a minimum 4” (10 cm) thick reinforced concrete pad or a deck that is able to withstand more than 125 lbs/ft² (605 kg/m²). … NOTE: WATKINS WELLNESS recommends that the VANGUARD & ARIA be installed on a minimum 4” (10 cm) thick reinforced concrete pad or a deck that is able to withstand more than 130 lbs/ft² (630 kg/m²) & 125 lbs/ft² (595 kg/m²). … NOTE: WATKINS WELLNESS recommends that the JETSETTER be installed on a minimum 4” (10 cm) thick reinforced concrete pad or a deck that is able to withstand more than 115 lbs/ft² (555 kg/m²). … * NOTE: The “Filled weight” and “Dead weight” of the spa includes the weight of the occupants (assuming an average occupant weight of 175 lbs [80 kg]).",
+    "source_url": "https://www.hotspring.com/wp-content/uploads/2026/08/hot-spring-highlife-collection-pre-delivery-instruction-2026.pdf",
+    "source_label": "Hot Spring Spas (Watkins Wellness), HighLife Collection Pre-Delivery Instructions (2026), Spa Specifications",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "455",
+      "5,810",
+      "5810",
+      "4",
+      "10",
+      "125",
+      "605",
+      "130",
+      "630",
+      "595",
+      "115",
+      "555",
+      "175",
+      "80"
+    ],
+    "notes": "The specification table's column headings are printed sideways; in the Grandee row 455 gallons is water capacity, 790 lbs dry weight, 5,810 lbs filled weight and 125 lbs/ft² dead weight per square foot. The Envoy row also holds 455 gallons (5,455 lbs filled)."
+  },
+  {
+    "id": "artificial-turf-around-pool.bullfrog-foundation",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Bullfrog Spas does not recommend setting a hot tub on grass, calls for a concrete pad at least 4 inches thick and 6 inches or more for larger tubs and swim spas, puts a portable spa's maximum filled weight at 6,000 to 20,000 pounds before occupants, and allows no more than a ½-inch slope over an 8-foot run, without shims.",
+    "quote": "As a general guideline, a concrete pad should be at least 4 inches thick. … The maximum filled weight of a portable spa can be as much as 6,000 lbs to 20,000 lbs, not including the extra weight of occupant. For larger or heavier hot tubs, including swim spas, you might consider increasing that number to 6 inches or more. … We don’t recommend placing your hot tub on grass. … Do not use shims to level the spa as this could create tension on the spa and result in damage. There should be a maximum of ½” (1.27cm) slope in an 8‘ (2.44m) run.",
+    "source_url": "https://www.bullfrogspas.com/hot-tub-foundation/",
+    "source_label": "Bullfrog Spas, Picking the Right Hot Tub Foundation – Concrete & Other Options (Nov. 16, 2023; updated April 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4",
+      "6,000",
+      "6000",
+      "20,000",
+      "20000",
+      "6",
+      "1.27",
+      "8",
+      "2.44"
+    ],
+    "notes": "Read with curl 2026-09-25; the page's schema gives datePublished 2023-11-16 and dateModified 2025-04-22."
+  },
+  {
+    "id": "artificial-turf-around-pool.hotspring-drain-refill",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Hot Spring's owner's manual says to drain and refill a spa 3 to 4 times a year unless it runs a salt system, to route the drain hose to an appropriate draining area because water with a high sanitizer level may harm plants and grass, not to refill when the air is below 50°F, and not to let spa chemicals get on surrounding surfaces or landscaping.",
+    "quote": "Drain & refill water 3-4 times per year depending on how often you use your spa, and how many people use it (unless using the Salt System). … Don't let chemicals get on surrounding surfaces or landscaping. … IMPORTANT: It is NOT recommended to refill your spa when the ambient temperature goes below 50° F (10° C). … Attach the inlet of a garden hose to the drain valve (to avoid flooding of the foundation surrounding the spa) and route the outlet of the hose to an appropriate draining area. Spa water with a high sanitizer level may harm plants and grass.",
+    "source_url": "https://waves-console-watkins-wellness.s3.amazonaws.com/content/148147/hot-spring-spas-hot-spot-owners-manual-2025.pdf",
+    "source_label": "Hot Spring Spas (Watkins Wellness), Hot Spot Collection 2025 Owner's Manual",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "4",
+      "50",
+      "10"
+    ],
+    "notes": "Read with curl and pdftotext 2026-09-25. The same manual says salt-system water may last up to twelve months."
+  },
+  {
+    "id": "artificial-turf-around-pool.hotspring-slippery-buried-cord",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Hot Spring's owner's manual warns that wet surfaces can be very slippery when getting in or out of a spa, and says not to bury the power cord because a buried cord can electrocute if direct-burial cable is not used or if improper digging occurs.",
+    "quote": "There is a danger of slipping and falling. Remember that wet surfaces can be very slippery. Take care when entering or exiting the spa. … Do not bury the power cord. A buried power cord may result in death, or serious personal injury due to electrocution if direct burial-type cable is not used, or if improper digging occurs.",
+    "source_url": "https://waves-console-watkins-wellness.s3.amazonaws.com/content/148147/hot-spring-spas-hot-spot-owners-manual-2025.pdf",
+    "source_label": "Hot Spring Spas (Watkins Wellness), Hot Spot Collection 2025 Owner's Manual, Safety Information",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl and pdftotext 2026-09-25."
+  },
+  {
+    "id": "artificial-turf-around-pool.cdphe-pool-chlorine",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado's Water Quality Control Division will not pursue a permit for draining a pool or hot tub filled from a potable supply only if the water carries no chlorine or bromine above detection levels, and says to let it stand uncovered until none is detected and heated water has cooled.",
+    "quote": "This guidance was revised to clarify that it applies to discharges from swimming pools, hot tubs, decorative fountains, and other similar type facilities that are fed solely by potable water as their source water. … When the criteria and provisions of this guidance are met, the division will not actively pursue permitting or enforcement for discharges from swimming pools, hot tubs, decorative fountains, and other similar type facilities that are fed solely by potable water as their source water … The discharge must not contain residual chlorine or bromine above detection levels. … Remove any solid chlorine or bromine tablets or pucks from the filtration system and disconnect automatic disinfecting devices well in advance of draining a pool, hot tub or other similar facility. Allow water to stand uncovered until no chlorine or bromine residual is detected, and any heated pool water cools to ambient temperatures.",
+    "source_url": "https://drive.google.com/open?id=1CRa8epLZly14Lv3jEyATMr3TncGX1Fnk",
+    "source_label": "Colorado Department of Public Health and Environment, Water Quality Control Division, Low Risk Discharge Guidance: Discharges from Pools, Fountains and Other Similar Type Facilities that are Fed Solely by Potable Water (revised January 2015)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "recheck": "2027-06-15",
+    "notes": "The PDF is the 'Swimming pools' link on cdphe.colorado.gov/clean-water-policies (policy WQP-27, Low Risk Discharges); downloaded through Google Drive and read with pdftotext 2026-09-25. Originally issued June 2008. Loveland's and Greeley's stormwater codes refer to this guidance by name."
+  },
+  {
+    "id": "artificial-turf-around-pool.cdphe-pool-where-to",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same state guidance says drained pool water must be kept off building foundations and ground that can settle or swell, should soak into a pervious surface without running off the property, should drain at least 100 feet from drinking water wells or other human contact areas, needs the wastewater utility's go-ahead before it goes to a sanitary sewer, and needs notice to a storm sewer's owner, who may still prohibit it.",
+    "quote": "The discharge shall not result in flooding of neighboring property, streets, gutters or storm sewers. The discharge must be diverted from building foundations or other areas that may be damaged from ground settling or swelling. … If the discharge of pool water from potable sources or filter backwash water is to land, the discharge should be to a pervious surface such as soil or a rock pit. The discharge should occur such that the water drains slowly, soaks into the ground with minimal ponding, and does not run off the property or cause flooding issues. Drainage should be a minimum of 100 feet from drinking water wells or other human contact areas. … If the discharge is to a sanitary sewer, contact the local wastewater treatment facility or owner of the storm sewer prior to discharge. This must be done to ensure that the facility is able to accept the discharge. Not all facilities are able to accept such discharges. … If the discharge is to a storm sewer, notify the owner of the conveyance system of the date, approximate time, location, and duration of the discharge(s) prior to discharge. This guidance in no way reduces the existing authority of the owner of a storm sewer, or other local agency, from prohibiting or placing additional conditions on the discharge.",
+    "source_url": "https://drive.google.com/open?id=1CRa8epLZly14Lv3jEyATMr3TncGX1Fnk",
+    "source_label": "Colorado Department of Public Health and Environment, Water Quality Control Division, Low Risk Discharge Guidance: Discharges from Pools, Fountains and Other Similar Type Facilities that are Fed Solely by Potable Water (revised January 2015)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "100"
+    ],
+    "recheck": "2027-06-15",
+    "notes": "Same document as cdphe-pool-chlorine, pages 3 and 4. The guidance does not define 'human contact areas'; the page reads it as including a lawn people sit and play on, and says so."
+  },
+  {
+    "id": "artificial-turf-around-pool.fc-26-491-pool-pollutant",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins' stormwater code lists swimming pool discharges and heat among the things it defines as a pollutant.",
+    "quote": "Pollutant shall mean contaminated water, dredged spoil, dirt, slurry, solid waste, incinerator residue, sewage, sewage sludge, garbage, trash, chemical waste, biological nutrient, biological material, disease causing agents, radioactive material, heat, wrecked or discarded equipment, rock, sand, automotive fluids, paint, cooking grease, process waste water, swimming pool discharges, discharges from cleaning of heat transfer equipment, or any industrial, commercial, construction, household, municipal, or agricultural waste.",
+    "source_url": "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH26UT_ARTVIISTUT_DIV1GE_S26-491DE",
+    "source_label": "Fort Collins City Code Sec. 26-491, Definitions (stormwater utility; Municode, Supplement 155)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "recheck": "2026-12-24",
+    "notes": "Read through the Municode API (job 498160, Supplement 155) on 2026-09-25. Sec. 26-498 (record how-to-clean-artificial-turf.fc-code-26-498) bars discharging a pollutant, without suitable treatment, into streets, watercourses and storm drainage facilities or onto property where it could migrate to one. The brief's fcgov.com stormwater-quality URL redirects to fortcollins.gov/Services/Utilities/Other-Utilities-Pages/Water/Stormwater, which blocks curl; no Fort Collins page on draining pools or spas was found, so the page relies on the code."
+  },
+  {
+    "id": "artificial-turf-around-pool.loveland-13-20-130-pools",
+    "layer": "ordinance",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "Loveland makes it unlawful to discharge anything but natural stormwater runoff into its storm drainage system, but does not count swimming pool discharges made in accordance with the state's low risk discharge guidance for swimming pools as illicit discharges.",
+    "quote": "It is unlawful and constitutes a nuisance for any person to discharge or cause to be discharged or spilled, or to maintain a condition upon any property that may result in the discharge of, any substance other than naturally occurring stormwater runoff into the city's storm drainage system (any of which shall constitute an \"Illicit Discharge\"). Notwithstanding the foregoing, an \"Illicit Discharge\" under this Code Section 13.20.130 shall not include the following: … swimming pool discharges in accordance with the Division's Low Risk Policy Discharge Guidance: Swimming Pools;",
+    "source_url": "https://library.municode.com/co/loveland/codes/code_of_ordinances?nodeId=PTIILOCOMUCO_TIT13UT_CH13.20STQU_13.20.130ILDI",
+    "source_label": "Loveland Municipal Code 13.20.130, Illicit discharges (Ord. No. 6281, 2019)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "13.20",
+      "13",
+      "130"
+    ],
+    "recheck": "2026-12-24",
+    "notes": "Read through the Municode API (job 488583, Supplement 13) on 2026-09-25. 'The Division' is the Colorado Water Quality Control Division."
+  },
+  {
+    "id": "artificial-turf-around-pool.greeley-20-563-low-risk",
+    "layer": "ordinance",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley prohibits discharges to its stormwater drainage system that are not entirely stormwater unless they are on its allowed list, which includes discharges made in accordance with the state water quality division's low risk discharge guidance documents.",
+    "quote": "Illicit discharges are discharges to the city's stormwater drainage system that are not composed entirely of stormwater and are not allowed discharges as described in subsection (b) of this section. Illicit discharges to the city's stormwater drainage system are prohibited. … The following are allowed discharges into the city's stormwater drainage system and are exempted from classification as an illicit discharge: … discharges in accordance with the state department of public health and environment: water quality control division low risk policy discharge guidance documents;",
+    "source_url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT20PUWOUT_CH3WASASESE_ARTVIISTDRSY_DIV1INGE_S20-563ILDIALDINOTA",
+    "source_label": "Greeley Municipal Code Sec. 20-563, Illicit discharges; allowed discharges; nonconforming taps",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "recheck": "2026-12-24",
+    "notes": "Read through the Municode API (job 493697, Supplement 6 Update 1) on 2026-09-25. The section does not name pools or spas; the low risk guidance it refers to covers them (cdphe-pool-chlorine)."
+  },
+  {
+    "id": "artificial-turf-around-pool.cgs-heaved-patios",
+    "layer": "soil",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Geological Survey says water added during or after construction makes expansive soils swell, and that cracked and heaved sidewalks, patios, driveways and floor slabs are very common signs of expansive clay across Colorado.",
+    "quote": "Exposure to natural or human-sourced water during or after development results in expansion. … Cracked and heaved sidewalks, patios, driveways, and garage and basement floor slabs are very common indicators of expansive clay throughout the state.",
+    "source_url": "https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/",
+    "source_label": "Colorado Geological Survey, Expansive Soil & Rock",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl 2026-09-25. The swell figures from the same page are in cgs-expansive-soil."
+  },
+  {
+    "id": "artificial-turf-around-pool.fieldturf-landscape-poolside",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "FieldTurf Landscape, a turf brand, says artificial grass is highly resistant to chlorine and other pool chemicals and offers a non-slip surface around pools, but that pool chemicals can build up on the turf so it should be rinsed regularly with a garden hose, and that poolside turf must drain water efficiently.",
+    "quote": "Slip-Resistant Surface: Natural grass can become slippery when wet, but synthetic turf offers a safer, non-slip surface that’s great for pool areas, especially if you have kids running around. … No Chlorine Damage: Artificial grass is highly resistant to chlorine and other pool chemicals, unlike natural grass, which can get scorched or discolored over time. … Drainage Matters: Turf around a pool must handle water efficiently. Poor drainage can lead to mold, odors, and even structural issues. … Rinse Regularly: Chlorine and other pool chemicals can accumulate on the turf surface. Regular rinsing with a garden hose helps keep the turf clean and fresh.",
+    "source_url": "https://fieldturflandscape.com/residential/artificial-grass-and-poolside-installations/",
+    "source_label": "FieldTurf Landscape, Artificial Grass and Poolside Installations (Sept. 23, 2024)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl 2026-09-25 (article:modified_time 2025-11-13). A turf seller's marketing article: the page attributes its claims to the brand and sets them beside SYNLawn's chemical exclusion; no test data is given for the non-slip claim."
+  },
+  {
+    "id": "artificial-turf-around-pool.barefoot-hot-tubs",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Barefoot's residential improvement guidelines in Firestone require review-committee approval for a hot tub, which must be an integral part of the patio, rear yard or side yard, not immediately visible or unreasonably noisy to neighbors, possibly screened with plants, and applied for with a water usage calculation.",
+    "quote": "3.36 Hot Tubs and Jacuzzis Approval is required. Considerations by the ARC will include, but not be limited to, the following: A. Hot tubs and Jacuzzis must be an integral part of the patio, rear yard or side yard area, and be installed in such a way that it is not immediately visible to adjacent property Owners and that it does not create an unreasonable level of noise for adjacent property Owners. B. In some instances, additional plant material, around the hot tub, may be required for screening. … D. Application includes water usage calculation.",
+    "source_url": "https://www.stvrainmd.live/files/5457a4faf/SVLMD+-+2026+08+07+-+Amended+%26+Restated+Residential+Improvement+Guidelines+%26+Site+Restrictions+for+Barefoot.pdf",
+    "source_label": "St. Vrain Lakes Metropolitan Districts, Amended and Restated Residential Improvement Guidelines and Site Restrictions for Barefoot, Section 3.36 (as of August 7, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3.36"
+    ],
+    "recheck": "2027-08-07",
+    "notes": "Read with curl and pdftotext 2026-09-25. Section 3.56 sets the same terms for pools, which must also be in the rear yard. The community page's own record (firestone-co--barefoot-lakes.rig-water-features) covers Section 3.55's water features."
+  }
+]

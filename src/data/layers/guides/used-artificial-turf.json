@@ -1,0 +1,463 @@
+[
+  {
+    "id": "used-artificial-turf.fairwarning-resale-niche",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A 2019 FairWarning investigation reported that a niche industry reclaims old field turf and resells it, mostly to homeowners for landscaping, and also for batting cages, dog kennels and paintball arenas.",
+    "quote": "Meanwhile, a niche industry has emerged to reclaim some of the nation’s old turf and sell custom pieces to homeowners for landscaping, batting cages and dog kennels. … As the artificial turf industry has boomed over the last decade, it has funneled more and more used turf to a niche collection of companies that specialize in re-selling old turf, usually to residential homeowners for landscaping, but also businesses like paintball arenas that need large tracts.",
+    "source_url": "https://investigatemidwest.org/2019/12/19/fields-of-waste-artificial-turf-touted-as-recycling-fix-for-millions-of-scrap-tires-becomes-mounting-disposal-mess/",
+    "source_label": "FairWarning, Fields of Waste (published by Investigate Midwest, Dec. 19, 2019)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2019",
+      "19"
+    ],
+    "notes": "Read in full with curl on 2026-09-25. The article names resellers; the page names none (brief: names no seller)."
+  },
+  {
+    "id": "used-artificial-turf.fairwarning-shake-out-infill",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "FairWarning described one reseller's way of preparing field turf for resale: hanging the roll from a forklift and beating it with a broom to shake the rubber and sand out.",
+    "quote": "Processing the turf for re-sale is simple. In a colorful 2015 YouTube video, made for another firm, Charland demonstrates how to hoist the turf up on a forklift and then beat it with a broom to shake the rubber and sand out.",
+    "source_url": "https://investigatemidwest.org/2019/12/19/fields-of-waste-artificial-turf-touted-as-recycling-fix-for-millions-of-scrap-tires-becomes-mounting-disposal-mess/",
+    "source_label": "FairWarning, Fields of Waste (published by Investigate Midwest, Dec. 19, 2019)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2015",
+      "2019",
+      "19"
+    ],
+    "notes": "One reseller's method as reported, not an industry standard. Copy does not name the person or company."
+  },
+  {
+    "id": "used-artificial-turf.fairwarning-life-spans",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "FairWarning reported in 2019 that hundreds of fields installed in the mid-2000s were at or beyond their estimated 8- to 10-year life spans, and that most of those early fields were made with crumb rubber.",
+    "quote": "But today, hundreds of fields that were installed in the mid-2000s are at or beyond their estimated eight- to 10-year life spans. Most of these early fields were made with tire crumb, also known as crumb rubber",
+    "source_url": "https://investigatemidwest.org/2019/12/19/fields-of-waste-artificial-turf-touted-as-recycling-fix-for-millions-of-scrap-tires-becomes-mounting-disposal-mess/",
+    "source_label": "FairWarning, Fields of Waste (published by Investigate Midwest, Dec. 19, 2019)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2019",
+      "2000",
+      "8",
+      "10"
+    ]
+  },
+  {
+    "id": "used-artificial-turf.dtsc-field-lifespan",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "California's Department of Toxic Substances Control puts the estimated lifespan of artificial turf sports fields at 5 to 15 years, depending on how intensively they are used.",
+    "quote": "Despite higher up-front installation costs than natural turf fields, artificial turf fields reportedly prove cost-effective after approximately three to four years (STC 2022), with estimated lifespans ranging between five and 15 years (Bertling et al. 2021; Sick 2022) depending on usage intensity.",
+    "source_url": "https://web.archive.org/web/20260326043412/https://dtsc.ca.gov/wp-content/uploads/sites/31/2026/02/TechnicalDocument_PFASs-in-Artificial-Turf_accessible.pdf",
+    "source_label": "California DTSC, Technical Document for Artificial Turf Containing Perfluoroalkyl or Polyfluoroalkyl Substances (Feb. 12, 2026), section 4.2 (archived copy, Mar. 26, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5",
+      "15",
+      "2021",
+      "2022",
+      "2026"
+    ],
+    "notes": "dtsc.ca.gov answers automated fetches with a Cloudflare block; the identical PDF was read in full from the Wayback Machine capture of 2026-03-26 with pdftotext on 2026-09-25."
+  },
+  {
+    "id": "used-artificial-turf.dtsc-field-weight",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Citing the Synthetic Turf Council, California's DTSC puts a single average field at roughly 40,000 pounds of turf and 400,000 pounds of infill.",
+    "quote": "Even in a landfill, the roughly 40,000 pounds of turf and 400,000 pounds of infill used in a single average field (STC 2017) may continuously release non-polymeric PFASs and microscopic PTFE particles to leachates and, subsequently, to the environment over time.",
+    "source_url": "https://web.archive.org/web/20260326043412/https://dtsc.ca.gov/wp-content/uploads/sites/31/2026/02/TechnicalDocument_PFASs-in-Artificial-Turf_accessible.pdf",
+    "source_label": "California DTSC, Technical Document for Artificial Turf Containing Perfluoroalkyl or Polyfluoroalkyl Substances (Feb. 12, 2026), section 5.3 (archived copy, Mar. 26, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "40000",
+      "400000",
+      "2017",
+      "2026"
+    ],
+    "notes": "The STC figure is also reported by FairWarning (2019). 400,000 ÷ 40,000 = 10: the infill outweighs the carpet about ten to one."
+  },
+  {
+    "id": "used-artificial-turf.dtsc-processing-aids",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "California's DTSC says fluoropolymer PFAS have commonly been used as extrusion processing aids in making artificial turf fibers, which leaves them in the finished blades.",
+    "quote": "Available information indicates that fluoropolymer PFASs have been commonly used as extrusion processing aids in the manufacturing of artificial turf fibers, leading to their presence in the finished turf blades.",
+    "source_url": "https://web.archive.org/web/20260326043412/https://dtsc.ca.gov/wp-content/uploads/sites/31/2026/02/TechnicalDocument_PFASs-in-Artificial-Turf_accessible.pdf",
+    "source_label": "California DTSC, Technical Document for Artificial Turf Containing Perfluoroalkyl or Polyfluoroalkyl Substances (Feb. 12, 2026), section 4.1 (archived copy, Mar. 26, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2026"
+    ],
+    "notes": "Whether a given processing aid counts as intentionally added under Colorado's definition is a legal question the page does not answer."
+  },
+  {
+    "id": "used-artificial-turf.dtsc-stc-2025-pledge",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "In 2024 the Synthetic Turf Council told California regulators that its member manufacturers were working with suppliers so that, by 2025, none of their products would contain PFAS-based ingredients, including polymeric PFAS processing aids.",
+    "quote": "In 2024, the Synthetic Turf Council informed us that its member manufacturers were proactively engaging with their component and raw material suppliers to ensure that, by 2025, none of their products contain PFAS-based ingredients, including polymeric PFAS processing aids.",
+    "source_url": "https://web.archive.org/web/20260326043412/https://dtsc.ca.gov/wp-content/uploads/sites/31/2026/02/TechnicalDocument_PFASs-in-Artificial-Turf_accessible.pdf",
+    "source_label": "California DTSC, Technical Document for Artificial Turf Containing Perfluoroalkyl or Polyfluoroalkyl Substances (Feb. 12, 2026), Executive Summary (archived copy, Mar. 26, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2024",
+      "2025",
+      "2026"
+    ],
+    "notes": "An industry statement of intent reported by a regulator, not a test result. Turf made before 2025, which includes nearly every field roll now for resale, predates it."
+  },
+  {
+    "id": "used-artificial-turf.turi-pfos-older-turf",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Toxics Use Reduction Institute reported that nonprofit testing found PFOS, a long-chain PFAS no longer made in the US, in the backing of an older, discarded turf sample.",
+    "quote": "The nonprofit organizations tested backing of both new turf and older, discarded turf. … They detected perfluorooctane sulfonate (PFOS) in the backing of the discarded, older turf sample. PFOS is a long-chain PFAS that is no longer manufactured in the US due to concerns about health and environmental effects.",
+    "source_url": "https://www.turi.org/publications/per-and-poly-fluoroalkyl-substances-pfas-in-artificial-turf-carpet/",
+    "source_label": "Toxics Use Reduction Institute (UMass Lowell), Per- and Poly-fluoroalkyl Substances (PFAS) in Artificial Turf Carpet (February 2020)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2020"
+    ],
+    "notes": "The URL serves the fact sheet as a PDF; read with pdftotext on 2026-09-25. One sample, reported by nonprofits; TURI did no testing itself."
+  },
+  {
+    "id": "used-artificial-turf.turi-testing-limits",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "TURI says that not detecting a few specific PFAS does not mean a material is PFAS-free, that a total fluorine test or a TOP assay can help show whether PFAS are likely present, and that turf makers frequently do not disclose chemical contents.",
+    "quote": "In summary, lack of detection of one or more specific PFAS does not mean that a material is free of PFAS. To determine whether PFAS are likely to be present, a total fluorine test and/or a TOP assay may be helpful. … Determining what chemicals are present in a product can be challenging because chemical contents are frequently not disclosed by the manufacturer.",
+    "source_url": "https://www.turi.org/publications/per-and-poly-fluoroalkyl-substances-pfas-in-artificial-turf-carpet/",
+    "source_label": "Toxics Use Reduction Institute (UMass Lowell), Per- and Poly-fluoroalkyl Substances (PFAS) in Artificial Turf Carpet (February 2020)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2020"
+    ]
+  },
+  {
+    "id": "used-artificial-turf.crs-25-15-605-install-maintain",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "C.R.S. 25-15-605, added by SB24-081, bars any person from installing artificial turf that contains intentionally added PFAS chemicals from January 1, 2026, and its one exception lets a person keep maintaining turf installed before that date; it says nothing about reinstalling old turf somewhere new.",
+    "quote": "25-15-605. Prohibition on the installation of artificial turf that contains intentionally added PFAS chemicals. (1) ON AND AFTER JANUARY 1, 2026, A PERSON SHALL NOT INSTALL ARTIFICIAL TURF THAT CONTAINS INTENTIONALLY ADDED PFAS CHEMICALS ON ANY PORTION OF PROPERTY IN THE STATE. (2) NOTHING IN THIS SECTION PROHIBITS A PERSON FROM MAINTAINING ARTIFICIAL TURF INSTALLED BEFORE JANUARY 1, 2026.",
+    "source_url": "https://leg.colorado.gov/bill_files/46185/download",
+    "source_label": "SB24-081 signed act, Section 5: C.R.S. 25-15-605 (signed 2024-05-01)",
+    "effective": "2026-01-01",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "25",
+      "15",
+      "605",
+      "1",
+      "2",
+      "2026",
+      "24",
+      "081",
+      "2024"
+    ],
+    "notes": "Read from the signed act PDF with pdftotext on 2026-09-25. The last clause of the fact is a plain reading of what the section omits, labelled Not legal advice on the page. Re-check with state law after the 2027 session."
+  },
+  {
+    "id": "used-artificial-turf.crs-25-15-603-intentionally-added",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado law defines intentionally added PFAS chemicals as PFAS that a manufacturer intentionally added to a product and that have a functional or technical effect on it, including intentional breakdown products of an added chemical.",
+    "quote": "(12) (a) \"INTENTIONALLY ADDED PFAS CHEMICALS\" MEANS PFAS CHEMICALS THAT A MANUFACTURER HAS INTENTIONALLY ADDED TO A PRODUCT AND THAT HAVE A FUNCTIONAL OR TECHNICAL EFFECT ON THE PRODUCT. (b) \"INTENTIONALLY ADDED PFAS CHEMICALS\" INCLUDES PFAS CHEMICALS THAT ARE INTENTIONAL BREAKDOWN PRODUCTS OF AN ADDED CHEMICAL.",
+    "source_url": "https://leg.colorado.gov/bill_files/101769/download",
+    "source_label": "HB22-1345 signed act: C.R.S. 25-15-603(12)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "25",
+      "15",
+      "603",
+      "12",
+      "22",
+      "1345"
+    ],
+    "notes": "SB24-081 amends 25-15-603 but not subsection (12); read in the HB22-1345 signed act PDF on 2026-09-25."
+  },
+  {
+    "id": "used-artificial-turf.cdc-lead-nylon-weathered",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CDC's 2008 health advisory said turf made of nylon or nylon/polyethylene blend fibers contained lead at levels of potential public health concern, polyethylene-only fields showed very low lead, and lead is released in dust as turf ages and weathers.",
+    "quote": "As determined by NJDHSS, limited sampling of additional athletic fields in New Jersey and commercial products indicates that artificial turf made of nylon or nylon/polyethylene blend fibers contains levels of lead that pose a potential public health concern. Tests of artificial turf fields made with only polyethylene fibers showed that these fields contained very low levels of lead. … As the turf ages and weathers, lead is released in dust that could then be ingested or inhaled, and the risk for harmful exposure increases.",
+    "source_url": "https://stacks.cdc.gov/view/cdc/25186/cdc_25186_DS1.pdf",
+    "source_label": "CDC Health Advisory CDCHAN-00275-2008-06-18, Potential Exposure to Lead in Artificial Turf (June 18, 2008)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "2008",
+      "18"
+    ],
+    "notes": "stacks.cdc.gov returns 403 to curl; the PDF was retrieved with WebFetch and read with pdftotext on 2026-09-25. The advisory also recommends testing worn nylon or nylon-blend turf and not testing polyethylene-only turf. Lead detail belongs to is-artificial-turf-toxic; this page uses one sentence."
+  },
+  {
+    "id": "used-artificial-turf.epa-tire-crumb-part1",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "EPA's summary of the federal tire crumb research says the Part 1 report detected a range of metals, semivolatile and volatile organic compounds, and bacteria in recycled tire crumb rubber infill.",
+    "quote": "The Tire Crumb Rubber Characterization (Part 1) Report outlined that, as expected, a range of metals, semivolatile organic compounds, volatile organic compounds and bacteria were detected in recycled tire crumb rubber infill.",
+    "source_url": "https://www.epa.gov/chemical-research/federal-research-recycled-tire-crumb-used-playing-fields-and-playgrounds",
+    "source_label": "U.S. EPA, Federal Research on Recycled Tire Crumb Used on Playing Fields and Playgrounds (last updated July 8, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "8",
+      "2026"
+    ],
+    "notes": "Health findings belong to is-crumb-rubber-safe; this page states only what the infill contains."
+  },
+  {
+    "id": "used-artificial-turf.teton-field-rfp-2021",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A Wyoming school district's 2021 request for proposals replaced field turf installed in 2006 and 2009, and specified new turf with a 2.0-inch pile, pile weights of 30, 41 or 50 ounces per square yard against total weights of 58, 69 or 78 ounces (the difference is 28 ounces of backing and coating, 8 plus 20), 15-foot rolls, and black SBR rubber and sand infill.",
+    "quote": "It is intended that the work be performed and completed during the summer of 2021. … Two of the fields are located at the Jackson Hole High School campus, are roughly 191,000 square feet and currently have a Shaw Momentum turf that was installed in 2006. The third field is located at the McIntosh Stadium, is roughly 99,000 square feet, and currently has a Shaw Powerblade with a shock pad that was installed in 2009. … Pile Weight 30 oz./yd2 ASTM D 5848 · Finished Pile Height 2.0 ASTM D 5823 · Product Weight (total) 58 oz./yd2 ASTM D 5848 · Primary Backing Weight 8 oz./yd2 · Secondary Coating Weight 20 oz./yd2 · Fabric Width 15’ (4.57m) … Pile Weight 41 oz./yd2 · Product Weight (total) 69 oz./yd2 … Pile Weight 50 oz./yd2 · Product Weight (total) 78 oz./yd2 … Rubber Granule Comp All black SBR … Infill Lbs. of Rubber 3.01 lbs. Infill Lbs. of Sand 1.29 lbs.",
+    "source_url": "https://www.boarddocs.com/wy/teton1/Board.nsf/files/C2R5TV756ABB/$file/TURF%20RFP%20032521%20Final.pdf",
+    "source_label": "Teton County School District (Wyoming), Synthetic Field Removal and Replacement, request for proposals (March 2021), ASTM D5848 and D5823 grids",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2021",
+      "2006",
+      "2009",
+      "2.0",
+      "2",
+      "30",
+      "41",
+      "50",
+      "58",
+      "69",
+      "78",
+      "15",
+      "4.57",
+      "3.01",
+      "1.29",
+      "191000",
+      "99000",
+      "5848",
+      "5823",
+      "28",
+      "8",
+      "20"
+    ],
+    "notes": "Spec grid rows joined with ·; the grid's footnote asterisks and N/A cells are dropped. The three pile weights are the slit-film base bid (30) and two dual-fiber alternates (41, 50). The RFP does not state the unit area for the infill pounds, so the page does not use them. A published example of athletic field specs, not a Colorado field."
+  },
+  {
+    "id": "used-artificial-turf.moosejaw-field-spec-2025",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A 2025 field-turf replacement specification from Moose Jaw, Saskatchewan calls for a 2.5-inch pile with a pile weight of at least 47 ounces per square yard (total weight 68 ounces or more), at least 9.2 pounds of infill per square foot of which at least 3 pounds is rubber, 1.75 inches of infill depth, 15-foot rolls, and lines tufted into the turf wherever possible.",
+    "quote": "Submitted product for review must have hybrid fiber systems (exactly 63mm in fiber length) as defined in this specification with total infill of no less than 9.2 pounds per square foot of infill (of which no less than 3 pounds must be cryogenic rubber and the balance being silica sand. … Wherever possible, lines shall be tufted into the turf panels in lieu of inlays. … ASTM D5823 Pile Height 2.5” … ASTM D5848 Pile Weight 47+oz/square yard … ASTM D5848 Total Weight 68+oz/square yard … Infill Material Depth 1.75 inches … Carpet Rolls shall be 15’ wide rolls.",
+    "source_url": "https://moosejaw.ca/wp-content/uploads/2025/01/Infilled-Synthetic-Turf-Specification.pdf",
+    "source_label": "City of Moose Jaw, Yara Centre Multi Sports Field Turf Replacement, Infilled Synthetic Turf Specification (January 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2025",
+      "63",
+      "9.2",
+      "3",
+      "2.5",
+      "47",
+      "68",
+      "1.75",
+      "15",
+      "5848",
+      "5823"
+    ],
+    "notes": "Read with pdftotext on 2026-09-25 (PDF created 2025-01-27). Spec table rows joined with …. A published example of athletic field specs, not a Colorado field."
+  },
+  {
+    "id": "used-artificial-turf.stc-landscape-uncertain-quality",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council wrote its landscape buying guidelines for residential, commercial and municipal lawns because the market offers products of uncertain quality and durability.",
+    "quote": "The Synthetic Turf Council (STC) has created these guidelines to help buyers of landscape synthetic grass choose from a wide range of products available in the marketplace, some of which are of uncertain quality and durability. … Note: These guidelines apply to synthetic grass for residential, commercial, or municipal landscape lawn applications.",
+    "source_url": "https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf",
+    "source_label": "Synthetic Turf Council, Considerations When Buying Synthetic Grass for Landscape Use (September 2013), p. 1",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2013",
+      "1"
+    ],
+    "notes": "The PDF breaks \"synthetic\" and \"landscape\" across lines (\"synthet- ic\", \"land- scape\"); the quote joins them."
+  },
+  {
+    "id": "used-artificial-turf.stc-check-roll-labels",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council tells buyers to check the shipping label on the delivered turf rolls and the bill of lading against what they were told about the product.",
+    "quote": "Turf and infill samples submitted separately. The turf sample should identify where the turf was manufactured, e.g., USA or China. When the turf rolls are received, make sure to check the shipping label on the turf rolls and bill of lading to verify that the country of origin is the same as was originally represented;",
+    "source_url": "https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf",
+    "source_label": "Synthetic Turf Council, Considerations When Buying Synthetic Grass for Landscape Use (September 2013), p. 6",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2013",
+      "6"
+    ]
+  },
+  {
+    "id": "used-artificial-turf.sgw-same-dye-lot",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Synthetic Grass Warehouse, a turf distributor, says color or texture can vary between dye lots and that every section seamed together must come from the same dye lot or the colors won't match.",
+    "quote": "Variations in color or texture between dye lots are highly possible in the manufacturing of synthetic turf. … When installing multiple sections of synthetic turf, all sections MUST BE OF THE SAME DYE LOT, or you will have non-matching color variations.",
+    "source_url": "https://syntheticgrasswarehouse.com/blog/understanding-dye-lot-in-synthetic-turf/",
+    "source_label": "Synthetic Grass Warehouse, Understanding Dye Lot in Synthetic Turf (May 13, 2017)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2017",
+      "13"
+    ]
+  },
+  {
+    "id": "used-artificial-turf.sgw-dye-lot-matters",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Synthetic Grass Warehouse says the same product name and specs don't guarantee a color match across batches, and that matching turf from an earlier install is tricky because sun and wear change its appearance.",
+    "quote": "Just because the product name and specs are the same doesn’t mean the color will match perfectly if it’s from a different batch. … Matching turf from a previous install can also be tricky, even if it’s the same product; environmental exposure and wear can change the appearance over time.",
+    "source_url": "https://syntheticgrasswarehouse.com/blog/why-dye-lot-matters/",
+    "source_label": "Synthetic Grass Warehouse, Why Dye Lot Matters (June 30, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2025",
+      "30"
+    ]
+  },
+  {
+    "id": "used-artificial-turf.sgw-seam-direction",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Synthetic Grass Warehouse says sections laid in the wrong direction or at an angle make seams visible, and recommends not rotating turf sections more than 30 degrees because the color will look different.",
+    "quote": "Layout and placement of sections in the wrong direction or angle can cause the seams to be visible. I recommend not rotating turf sections more than 30 degrees; otherwise, you will see a difference in color due to the rotation",
+    "source_url": "https://syntheticgrasswarehouse.com/blog/why-visible-seams-occur/",
+    "source_label": "Synthetic Grass Warehouse, Why Visible Seams Occur (Sept. 30, 2024)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "30",
+      "2024"
+    ]
+  },
+  {
+    "id": "used-artificial-turf.smartturf-terms-lot-purchaser",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Smart Turf's published terms cover the original purchaser only, ask for the original sales receipt, and call slight color variation from lot to lot common and to be expected.",
+    "quote": "This warranty is prorated and is provided to the original purchaser only. … Slight variation in color from lot to lot and color changes over the life of the product is common and to be expected. This is not grounds for a warranty claim. An original sales receipt must be provided with the date of purchase, reseller’s name, product identification, and quantity purchased clearly stated.",
+    "source_url": "https://smartturf.com/warranty",
+    "source_label": "Smart Turf, published terms page (general terms and conditions)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "A published example of a turf maker's terms, not a recommendation. Copy avoids the word the claims register blocks and quotes phrases without it."
+  },
+  {
+    "id": "used-artificial-turf.synlawn-original-purchaser",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's residential terms, effective January 1, 2024, apply only to the original purchaser and cannot be transferred except when a property changes hands and SYNLawn is notified.",
+    "quote": "3.1 This Warranty applies only to the original Purchaser and cannot be transferred, unless authorized property changes hand and submits notification to SYNLawn.",
+    "source_url": "https://lowes.synlawn.com/wp-content/uploads/2024/06/SY24247_Lowes_ProductWarranty_v1.pdf",
+    "source_label": "SYNLawn, Residential Statement of Terms and Conditions (effective 01/01/2024), section 3.1",
+    "effective": "2024-01-01",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3.1",
+      "1",
+      "2024"
+    ],
+    "notes": "Read with pdftotext on 2026-09-25. A published example of a turf maker's terms, not a recommendation."
+  }
+]

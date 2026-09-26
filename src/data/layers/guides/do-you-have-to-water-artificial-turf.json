@@ -1,0 +1,510 @@
+[
+  {
+    "id": "do-you-have-to-water-artificial-turf.csu-no-watering-needed",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says artificial turf does not require mowing, fertilizing or watering, but it collects leaves and wind-blown dirt that must be removed, pet feces and urine on it are problematic, and it does not disinfect itself the way a living lawn does.",
+    "quote": "The companies that sell and install these lawns insist that they are virtually maintenance free, but artificial turf collects leaves and other wind-blown dirt and debris that must somehow be removed. Pet feces and urine deposits are problematic. These artificial surfaces do not naturally disinfect themselves by biological means like a living lawn does. Although artificial turf does not require mowing, fertilizing, or watering",
+    "source_url": "https://planttalk.colostate.edu/topics/lawns/1537-artificial-turf-lawns/",
+    "source_label": "CSU Extension, PlantTalk Colorado: Artificial Turf Lawns",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-09-25",
+    "numbers": [],
+    "notes": "An inline image splits \"dirt\" in the page HTML (\"d<img…>irt\"); the quote joins it."
+  },
+  {
+    "id": "do-you-have-to-water-artificial-turf.synlawn-rinse-dust-and-pet-areas",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn, a turf maker, says artificial grass stays green without watering, recommends an occasional rinse to keep dust from building up and water draining, and says to rinse pet areas more often in warm weather because heat intensifies pet-waste odors.",
+    "quote": "Artificial grass stays green and pristine without mowing, watering, or fertilizing. … Keep Drainage Clear: Rinse occasionally to prevent dust buildup and ensure efficient water flow. … Stay Pet-Friendly: Warmer temperatures can intensify odors from pet waste. Rinse pet areas more frequently and use enzyme-based cleaners to neutralize smells.",
+    "source_url": "https://www.synlawn.com/articles/how-to-maintain-artificial-grass/",
+    "source_label": "SYNLawn, How to Maintain Artificial Grass",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-09-25",
+    "numbers": []
+  },
+  {
+    "id": "do-you-have-to-water-artificial-turf.ftl-rinse-when-no-rain",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "FieldTurf Landscape, a turf maker, says to rinse the lawn when it has not rained recently or pollen counts are high, and to hose down the spots where a dog urinates so the urine is diluted and washed through the turf's drainage.",
+    "quote": "Rinse (If Needed): If it hasn’t rained recently or if pollen counts are high, give the lawn a quick rinse with the garden hose to wash away dust and allergens. … After picking up solids and in areas where your pet urinates, hose the spot down thoroughly with water. This dilutes the urine and washes it through the turf’s drainage system.",
+    "source_url": "https://fieldturflandscape.com/maintenance/artificial-turf-maintenance-guide/",
+    "source_label": "FieldTurf Landscape, Artificial Turf Maintenance Guide",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-09-25",
+    "numbers": []
+  },
+  {
+    "id": "do-you-have-to-water-artificial-turf.ccc-dry-air-seasonal-rain",
+    "layer": "climate",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Climate Center says Colorado's low humidity favors rapid evaporation, 70 to 80 percent of the plains' yearly precipitation falls from April through September, and winter more often brings dry air and strong winds.",
+    "quote": "Humidity is generally quite low; this favors rapid evaporation and a relatively comfortable feeling even on hot days. … A very large proportion (70 to 80 percent of the annual total) falls during the growing season from April through September. … More often, winter brings dry air and strong winds contributing to the aridity of the area.",
+    "source_url": "https://climate.colostate.edu/climate_long.html",
+    "source_label": "Colorado Climate Center (Colorado State University), Climate of Colorado",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-09-25",
+    "numbers": [
+      "70",
+      "80"
+    ]
+  },
+  {
+    "id": "do-you-have-to-water-artificial-turf.psu-rinse-cooling-short",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "In Penn State's tests, water lowered the surface temperature of every synthetic turf tested, but temperatures rebounded somewhat after 15 minutes, though watered turf still measured cooler than unwatered turf 3 hours later.",
+    "quote": "The application of water significantly lowered the surface temperatures of all synthetic surfaces (Fig. 2 and 3). The temperatures rebounded somewhat after 15 minutes … synthetic surfaces receiving irrigation did measure lower in surface temperature after 3 hr compared to unirrigated synthetic surfaces.",
+    "source_url": "https://plantscience.psu.edu/research/centers/ssrc/documents/temperature-irrigation.pdf",
+    "source_label": "McNitt, Petrunak and Serensits, Penn State: Temperature Amelioration of Synthetic Turf Surfaces through Irrigation",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-09-25",
+    "numbers": [
+      "15",
+      "3",
+      "2"
+    ]
+  },
+  {
+    "id": "do-you-have-to-water-artificial-turf.shaw-hydrochill-stored-moisture",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Shaw describes its HydroChill cooling infill as a coated sand that stores moisture and releases it by evaporation as the surface heats, and says any wet surface can cool for a short time.",
+    "quote": "HydroChill is a pre-coated infill that bonds to sand and is installed within the turf system. As the surface heats up, stored moisture is released and evaporates, helping dissipate heat and reduce surface temperatures. … While any wet surface can provide short-term cooling, HydroChill has been shown to create a sustained temperature differential compared to standard synthetic turf systems.",
+    "source_url": "https://shawgrass.com/en-us/innovation/hydrochill",
+    "source_label": "Shaw Grass, HydroChill",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-09-25",
+    "numbers": [],
+    "notes": "The linked spec sheet returned an HTML page to curl, not the PDF; not read."
+  },
+  {
+    "id": "do-you-have-to-water-artificial-turf.epa-hose-six-gallons-a-minute",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "EPA's WaterSense program says a hose left running can waste 6 gallons a minute.",
+    "quote": "A hose can waste 6 gallons per minute if you leave it running, but using a bucket and sponge only uses a few gallons!",
+    "source_url": "https://www.epa.gov/watersense/watersense-kids",
+    "source_label": "US EPA WaterSense, WaterSense for Kids (\"Who Needs a Hose?\")",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-09-25",
+    "numbers": [
+      "6"
+    ]
+  },
+  {
+    "id": "do-you-have-to-water-artificial-turf.rinse-arithmetic",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Arithmetic on EPA's figure, not an EPA statement: a hose left running for 5 minutes at 6 gallons a minute uses about 30 gallons, and one running 2 minutes uses about 12.",
+    "quote": "A hose can waste 6 gallons per minute if you leave it running",
+    "source_url": "https://www.epa.gov/watersense/watersense-kids",
+    "source_label": "Arithmetic on US EPA WaterSense, WaterSense for Kids",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-09-25",
+    "numbers": [
+      "5",
+      "6",
+      "30",
+      "2",
+      "12"
+    ],
+    "notes": "5 × 6 = 30; 2 × 6 = 12. A real hose varies with pressure and nozzle; the page tells readers to time a bucket."
+  },
+  {
+    "id": "do-you-have-to-water-artificial-turf.milliken-hand-watering-exempt",
+    "layer": "drought",
+    "applies_to": [
+      "milliken-co"
+    ],
+    "fact": "Milliken permits hand-watering, meaning a hand-held hose with a positive shutoff nozzle or a bucket, every day of the week outside its lawn-sprinkling limits, and says hand-watering does not include a hose with a sprinkler attached.",
+    "quote": "Hand-watering and drip irrigation shall be permitted Monday through Sunday and not be restricted by the above-mentioned lawn-sprinkling restrictions. Hand-watering shall mean holding in the hand a hose with an attached positive shutoff nozzle or a bucket and does not include operating a hose with a sprinkler or manually operating an irrigation controller.",
+    "source_url": "https://millikenco.gov/194/Watering-Schedule",
+    "source_label": "Town of Milliken, Watering Schedule",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-24",
+    "numbers": []
+  },
+  {
+    "id": "do-you-have-to-water-artificial-turf.milliken-winter-and-permits",
+    "layer": "drought",
+    "applies_to": [
+      "milliken-co"
+    ],
+    "fact": "Milliken bars automatic sprinkler irrigation from November 1 to March 1, and its free watering permits are for new grass seed or newly installed sod.",
+    "quote": "no automatic sprinkler irrigation shall occur between November 1 and March 1 of each calendar year. … If you are watering new grass seed or have just installed new sod you will need to water more frequently until grass has rooted. In this case, contact Town Hall and request a watering permit. There is no charge for this permit",
+    "source_url": "https://millikenco.gov/194/Watering-Schedule",
+    "source_label": "Town of Milliken, Watering Schedule",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-24",
+    "numbers": [
+      "1"
+    ]
+  },
+  {
+    "id": "do-you-have-to-water-artificial-turf.severance-outside-water-hours",
+    "layer": "drought",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "Severance makes it unlawful to use any outside water source from 11 a.m. to 5 p.m., allows hand watering of flowers, shrubs and trees each day in permitted hours with a hose that shuts off when released, and exempts approved non-potable systems and North Weld County Water District customers from its schedule.",
+    "quote": "Hand watering of flowers, shrubs, and trees shall be allowed each day by hose during permitted hours, provided such hose has a shut-off valve attached which terminates flow when not manually activated. It is unlawful to use any outside water sources between 11:00 A.M. and 5:00 P.M. … Nothing herein shall apply to any approved non-potable water system or North Weld County Water District systems used by any property owner.",
+    "source_url": "https://www.townofseverance.org/396/Watering-Guidelines-and-Restrictions",
+    "source_label": "Town of Severance, Watering Guidelines and Restrictions",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-24",
+    "numbers": [
+      "11",
+      "5"
+    ]
+  },
+  {
+    "id": "do-you-have-to-water-artificial-turf.johnstown-level-3-hose-rules",
+    "layer": "drought",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Johnstown's Level 3 rules, in place April 20 to October 15, 2026, bar watering from 10 a.m. to 6 p.m. at any time, ask for hand watering on the property's scheduled day with an automatic shutoff nozzle, say hardscapes should not be spray-washed, and allow schedule exemptions only for new lawns.",
+    "quote": "These restrictions are in place from April 20 to October 15, 2026. Watering between the hours of 10 a.m. - 6 p.m., is NOT permitted at any time . … Hardscapes (driveways, sidewalks, patios, etc.) should not be spray-washed. Use dry-cleaning methods such as sweeping or spot cleaning when possible. … Hand watering and supplemental irrigation for items such as vegetable gardens, decorative pots, hanging baskets, and similar plantings should be done on-site and in a water-efficient manner on the properties' scheduled watering day with an automatic shutoff nozzle to prevent water waste. … Exemptions are only permitted for residents establishing new turf.",
+    "source_url": "https://www.johnstownco.gov/m/faq?cat=37",
+    "source_label": "Town of Johnstown, Water Conservation Schedule FAQs",
+    "effective": "2026-04-20",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-16",
+    "numbers": [
+      "3",
+      "20",
+      "15",
+      "2026",
+      "10",
+      "6"
+    ],
+    "notes": "\"New turf\" in Johnstown's FAQ means a new grass lawn (the New Lawn Permit), not artificial turf."
+  },
+  {
+    "id": "do-you-have-to-water-artificial-turf.johnstown-after-season",
+    "layer": "drought",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Johnstown's 2026 schedule ends the outdoor watering season on October 15 and then allows hand watering of trees and shrubs on Saturdays and Sundays.",
+    "quote": "October 15 is the end of outdoor watering season. After October 15, you may hand water trees and shrubs on Saturdays and Sundays.",
+    "source_url": "https://www.johnstownco.gov/665/2026-Watering-Schedule",
+    "source_label": "Town of Johnstown, 2026 Watering Schedule",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-16",
+    "numbers": [
+      "2026",
+      "15"
+    ]
+  },
+  {
+    "id": "do-you-have-to-water-artificial-turf.evans-2026-hours-and-season",
+    "layer": "drought",
+    "applies_to": [
+      "evans-co"
+    ],
+    "fact": "Under the April 21, 2026 emergency ordinance, Evans prohibits outdoor watering from 10 a.m. to 6 p.m., and its watering policies run April 15 through October 15 on assigned days.",
+    "quote": "Effective immediately, outdoor watering is prohibited between 10:00 a.m. and 6:00 p.m ., an expansion from the previous noon to 5:00 p.m. restriction. … The City of Evans’ seasonal outdoor watering policies remain in effect April 15 through October 15 , with watering allowed only on designated days outside restricted hours",
+    "source_url": "https://www.evanscolorado.gov/news/posts/city-of-evans-declares-drought-emergency-expanded-watering-restrictions-now-in-effect/",
+    "source_label": "City of Evans news post: Drought Emergency, Expanded Watering Restrictions (April 21, 2026 meeting)",
+    "effective": "2026-04-21",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-16",
+    "numbers": [
+      "21",
+      "2026",
+      "10",
+      "6",
+      "15",
+      "5"
+    ]
+  },
+  {
+    "id": "do-you-have-to-water-artificial-turf.evans-code-sprinkling",
+    "layer": "ordinance",
+    "applies_to": [
+      "evans-co"
+    ],
+    "fact": "Evans Municipal Code 13.04.200 frames its watering schedule around the use of water for sprinkling of lawns, gardens and trees, and lets a council drought resolution replace that schedule.",
+    "quote": "The use of water for sprinkling of lawns, gardens and trees will be permitted on scheduled days except between the hours of 12:00 and 5:00 p.m. … If drought conditions occur, the City Council, by resolution, may declare a drought emergency and implement appropriate procedures and watering restrictions under the most current Drought Management Plan. Those water restrictions will then supersede Subsections A and B above.",
+    "source_url": "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT13PUSE_CH13.04UTDEWASY_13.04.200WACOME",
+    "source_label": "Evans Municipal Code 13.04.200, Water conservation measures (Municode, Supplement 28)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-24",
+    "numbers": [
+      "12",
+      "5"
+    ],
+    "notes": "Read through the Municode API (jobId 487488, productId 18303). The 10 a.m.–6 p.m. hours come from the 2026 emergency ordinance (evans-2026-hours-and-season)."
+  },
+  {
+    "id": "do-you-have-to-water-artificial-turf.firestone-lawn-and-landscape-days",
+    "layer": "drought",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone's Stage 1 resolution limits lawn and landscape watering to days set by address and recommends watering between 6 p.m. and 10 a.m.; Barefoot Lakes is served by Little Thompson Water District instead.",
+    "quote": "To reduce water usage, the resolution limits lawn and landscape watering based on address numbers … Watering is recommended between 6:00 p.m. and 10:00 a.m. … Residents of Barefoot Lakes are not provided water by the Town of Firestone; the Little Thompson Water District serves them.",
+    "source_url": "https://www.firestoneco.gov/1883/Current-Water-Conditions-Stage-1-Drought",
+    "source_label": "Town of Firestone, Current Water Conditions: Stage 1 Drought",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-24",
+    "numbers": [
+      "1",
+      "6",
+      "10"
+    ]
+  },
+  {
+    "id": "do-you-have-to-water-artificial-turf.greeley-2026-restrictions",
+    "layer": "drought",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "For all Greeley water customers in 2026, no watering is allowed from 10 a.m. to 6 p.m., there is no lawn watering without a variance from November 1 to April 14, and lawn variances are for new seed or sod.",
+    "quote": "For all Greeley water customers: No watering is allowed between 10 a.m. and 6 p.m. There is no lawn watering without a variance between November 1 and April 14 (see below on applying for a variance). We recommend stopping regular lawn watering in October. However, watering trees October through March is allowed. For new seed or sod, lawn variances are required.",
+    "source_url": "https://greeleyco.gov/government/city-administration/city-departments/water-and-sewer/save-water/restrictions-violations-variances",
+    "source_label": "City of Greeley, Water Restrictions, Violations, and Variances (2026 Watering Restrictions)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-11-01",
+    "numbers": [
+      "2026",
+      "10",
+      "6",
+      "1",
+      "14"
+    ]
+  },
+  {
+    "id": "do-you-have-to-water-artificial-turf.windsor-code-13-2-420",
+    "layer": "ordinance",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor Municipal Code 13-2-420 bars lawn watering from 10 a.m. to 6 p.m. from May 1 through September 30 each year.",
+    "quote": "From May 1 through September 30 of each year, no lawn watering shall be permitted between the hours of 10:00 a.m. and 6:00 p.m.",
+    "source_url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH13MUUT_ARTIIWA_S13-2-420LAWARE",
+    "source_label": "Windsor Municipal Code Sec. 13-2-420, Lawn watering restrictions (Municode, Supplement 24 Update 1)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-24",
+    "numbers": [
+      "10",
+      "6",
+      "1",
+      "30"
+    ],
+    "notes": "Read through the Municode API (jobId 500132, productId 18093). Applies to Town water customers."
+  },
+  {
+    "id": "do-you-have-to-water-artificial-turf.windsor-code-13-2-180-nozzles",
+    "layer": "ordinance",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor Municipal Code 13-2-180 says Town water may not be used through hoses or pipes without nozzles or sprinklers attached, for every water user.",
+    "quote": "Water shall not be used through hoses or pipes without nozzles or sprinklers attached thereto. This regulation shall apply to all users of water service.",
+    "source_url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH13MUUT_ARTIIWA_S13-2-180REWAUS",
+    "source_label": "Windsor Municipal Code Sec. 13-2-180, Restrictions on water use (Municode, Supplement 24 Update 1)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-24",
+    "numbers": [],
+    "notes": "Read through the Municode API (jobId 500132, productId 18093)."
+  },
+  {
+    "id": "do-you-have-to-water-artificial-turf.fcu-watch-shutoff-nozzle",
+    "layer": "drought",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins Utilities' voluntary Water Shortage Watch asks customers to use a shutoff nozzle on hoses when hand watering and washing vehicles at home, and carries no citations or rate increases.",
+    "quote": "Voluntary water-saving actions include: … Using a shutoff nozzle on hoses while hand watering and washing vehicles at home … There are no water rate increases or citations associated with a watch.",
+    "source_url": "https://www.fortcollins.gov/News-Articles/News/2026-Q2/Voluntary-Water-Shortage-Watch",
+    "source_label": "City of Fort Collins news release, April 30, 2026",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2026-10-24",
+    "numbers": [],
+    "notes": "Read via WebFetch; Akamai returns Access Denied to curl. Whether the Watch was still in effect on 2026-09-25 was not confirmed on a city status page."
+  },
+  {
+    "id": "do-you-have-to-water-artificial-turf.fclwd-schedule-scope",
+    "layer": "drought",
+    "applies_to": [
+      "fort-collins-co",
+      "loveland-co",
+      "timnath-co",
+      "windsor-co"
+    ],
+    "fact": "Fort Collins-Loveland Water District says its voluntary 2026 schedule is only meant for turf irrigation, not drip, trees or gardens, and that it cannot enforce the restrictions because of its Title 32 structure.",
+    "quote": "This watering schedule is voluntary and is only meant for turf irrigation. It does not affect drip irrigation, or watering trees, gardens, etc. … As FCLWD cannot enforce the restrictions due to the limits of our Title 32 organizational structure, we are relying on voluntary compliance to avoid the need for more extreme measures.",
+    "source_url": "https://fclwd.com/watering-restrictions/",
+    "source_label": "Fort Collins-Loveland Water District, Watering Restrictions",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-04-15",
+    "numbers": [
+      "2026"
+    ],
+    "notes": "\"Turf\" here means a grass lawn. The page also says the 2026 outdoor watering season has ended (fclwd-watch-2026)."
+  },
+  {
+    "id": "do-you-have-to-water-artificial-turf.nwcwd-nozzle-and-hard-surfaces",
+    "layer": "drought",
+    "applies_to": [
+      "windsor-co",
+      "greeley-co",
+      "eaton-co",
+      "severance-co",
+      "fort-collins-co"
+    ],
+    "fact": "North Weld County Water District's 2026 voluntary list asks customers to use a positive shut-off nozzle when irrigating landscapes or washing vehicles and to keep water from pooling on patios, driveways, streets and sidewalks.",
+    "quote": "Avoid applying water or allowing water to pool on impervious surfaces, such as patios, driveways, streets, or sidewalks. … Use a positive shut-off nozzle when irrigating landscapes or washing vehicles.",
+    "source_url": "https://www.nwcwd.org/files/f055ec287/May+2026+Newsletter.pdf",
+    "source_label": "North Weld County Water District, May 2026 Newsletter",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-24",
+    "numbers": [
+      "2026"
+    ]
+  },
+  {
+    "id": "do-you-have-to-water-artificial-turf.wellington-paved-areas",
+    "layer": "drought",
+    "applies_to": [
+      "wellington-co"
+    ],
+    "fact": "Wellington's watering guidelines ask residents to keep irrigation runoff to a minimum and not to wash outside paved or concrete areas.",
+    "quote": "Keep runoff from irrigation to a minimum. Eliminate irrigation overspray onto non-vegetated areas. No washing of outside paved or concrete areas.",
+    "source_url": "https://www.wellingtoncolorado.gov/211/Water-Efficiency-Program",
+    "source_label": "Town of Wellington, Water Efficiency Program (Resolution No. 15-2025 guidelines)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-24",
+    "numbers": []
+  },
+  {
+    "id": "do-you-have-to-water-artificial-turf.ltwd-watch-guidelines",
+    "layer": "drought",
+    "applies_to": [
+      "mead-co",
+      "firestone-co",
+      "berthoud-co"
+    ],
+    "fact": "Little Thompson Water District's Watch guidelines ask for watering only before 10 a.m. or after 6 p.m. on at most 3 days a week, require a shut-off nozzle for vehicle washing, ask for dry methods on hard surfaces, and list a written warning, then fines of $100, $200 and $300, for ignoring watering days and hours.",
+    "quote": "Watering Hours: Please water only before 10 AM or after 6 PM Watering Days: Maximum 3 days per week … Vehicle Washing: Must use shut-off nozzle, before 10 AM or after 6 PM Cleaning Hard Surfaces: Whenever possible, use dry methods (sweeping, etc.) … If watering days and hours are not followed: 1st offense: Written warning 2nd offense: $100 fine 3rd offense: $200 fine 4th offense: $300 fine",
+    "source_url": "https://www.littlethompsonwd.gov/water-shortage-contingency-plan",
+    "source_label": "Little Thompson Water District, Water Shortage Contingency Plan (current level: Watch, as of April 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-24",
+    "numbers": [
+      "10",
+      "6",
+      "3",
+      "100",
+      "200",
+      "300"
+    ],
+    "notes": "The district's summer 2026 newsletter (ltwd-watch-2026) says Watch means no mandatory watering restrictions; the plan page lists enforcement for days and hours. The page presents both; ask LTWD."
+  },
+  {
+    "id": "do-you-have-to-water-artificial-turf.elco-2026-voluntary-detail",
+    "layer": "drought",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "ELCO Water District's 2026 voluntary recommendations ask customers not to water the yard from 10 a.m. to 6 p.m., to water lawns no more than 2 days a week and not to let sprinklers spray sidewalks or driveways, and exclude properties on non-potable irrigation.",
+    "quote": "limit lawn watering to not more than 2 days per week. • Do not water your yard between 10 a.m. and 6 p.m. … Do not waste water by letting your sprinklers spray concrete sidewalks or driveways or structures. … Properties with non-potable irrigation supplies are not subject to these voluntary water restrictions.",
+    "source_url": "https://www.elcowater.org/files/49f09f40d/ELCO+VOLUNTARY+WATERING+RESTRICTIONS+AND+RECOMMENDATIONS+MAY+2026_Accessible+2026.pdf",
+    "source_label": "ELCO Water District, Voluntary Watering Restrictions and Recommendations (May 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-04-15",
+    "numbers": [
+      "2026",
+      "10",
+      "6",
+      "2"
+    ]
+  },
+  {
+    "id": "do-you-have-to-water-artificial-turf.longmont-no-mandatory-hand-water",
+    "layer": "drought",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Longmont says no mandatory watering restrictions for residents are in place, its Mild Drought Response level is unchanged since May, and it suggests hand watering trees and sensitive plants.",
+    "quote": "Longmont remains under a Mild Drought Response Level, unchanged since May. Here’s where Longmont stands: Our water supply is stable, and no mandatory restrictions for residents are in place right now. … Hand water trees and sensitive plants. A hose at the root zone uses far less water and helps protect sensitive landscaping.",
+    "source_url": "https://longmontcolorado.gov/water/water-conservation/watering-restrictions/",
+    "source_label": "City of Longmont, Watering Restrictions",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-24",
+    "numbers": []
+  }
+]

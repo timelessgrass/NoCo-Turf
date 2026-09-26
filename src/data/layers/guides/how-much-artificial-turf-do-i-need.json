@@ -1,0 +1,496 @@
+[
+  {
+    "id": "how-much-artificial-turf-do-i-need.synlawn-measuring",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's DIY installation guide lists a measuring wheel, tape measure, marking paint and a sketchpad as measuring tools, says to measure each area to its longest point in 15-foot-wide sections and as close to exact numbers as possible rather than estimating by total square footage, to add 10 to 20 percent more turf than the actual square footage where there are many curves and irregular shapes, to mark the grain direction on the drawing, and that turf sometimes has to go in a less-than-ideal direction to cut waste.",
+    "quote": "Mistakes can cost money. Measure your job carefully. If you have many curves and irregular shapes, we recommend adding 10- 20% more turf than your area’s actual square footage. When designing, keep in mind the turf comes in 15’ foot wide sections. The turf is sold in 15’ widths by whatever linear feet you order (example 15’ x 20’). Use graph paper or a sketchpad to draw out the area and record all measurements. Be sure to note the grain direction on your drawing. … Sometimes you will need to lay the turf in a direction that isn’t best, but it may make sense to eliminate unnecessary waste. We suggest you measure as close to exact numbers as possible rather than estimating by total square footage. … Suggested tools: measuring wheel, tape measure, marking paint, sketchpad or iPad … Note: be sure to always measure to the longest point.",
+    "source_url": "https://pdf.lowes.com/productdocuments/240a8581-4267-4cdf-aa5f-d4d1e250fec6/44269346.pdf",
+    "source_label": "SYNLawn DIY Installation Guidelines (rev. 4.8.13, 2013; product document hosted by Lowe's), Measuring the Area",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "10",
+      "20",
+      "15",
+      "4.8",
+      "13",
+      "2013"
+    ],
+    "notes": "Read with curl and pdftotext on 2026-09-25 (PDF title 'SYNLawn DIY INSTALLATION GUIDE_rev.4.8.13', created 2013-04-19). The same page also says the final detail cuts are made after the turf is nailed in place."
+  },
+  {
+    "id": "how-much-artificial-turf-do-i-need.synlawn-example-303-360",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's worked example covers 303 square feet of yard, a 15 by 16 foot area and a 7 by 9 foot area, with 360 square feet of turf, because the 7-foot-wide area still takes a 15-foot-wide piece and leaves an 8 by 9 foot offcut, about 19 percent more turf than yard (our arithmetic).",
+    "quote": "Area 1: 15’ x 16’ = 240 sq. ft. This requires a 15’x16’ piece of turf. Area 2: 7’ x 9’ = 63 sq. ft. This will require a 15’ a 9’ piece of turf. Note for Area 2: Even though this area is only 7’ wide, you must purchase in 15’ widths. So you would need a 15’ x 9’ piece of turf for this area and would have an 8’ x 9’ piece of turf leftover. Total turf needed: 15’ x 16’ + 15’ x 9’ = 15’ x 24’ or 360 sq. ft. of turf. … Area 1: 240 sq. ft. + Area 2: 63 = 303 sq. ft.",
+    "source_url": "https://pdf.lowes.com/productdocuments/240a8581-4267-4cdf-aa5f-d4d1e250fec6/44269346.pdf",
+    "source_label": "SYNLawn DIY Installation Guidelines (rev. 4.8.13, 2013; product document hosted by Lowe's), Measuring and Estimating Materials",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "303",
+      "15",
+      "16",
+      "7",
+      "9",
+      "360",
+      "8",
+      "19",
+      "240",
+      "63",
+      "24",
+      "1",
+      "2",
+      "4.8",
+      "13",
+      "2013"
+    ],
+    "notes": "19 percent is our arithmetic (360 / 303 = 1.188), not SYNLawn's figure. The example's third column of spaces in the PDF layout is collapsed to single spaces in the quote."
+  },
+  {
+    "id": "how-much-artificial-turf-do-i-need.synlawn-base-hauling-infill",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's DIY guide estimates about 1 ton of base per 100 square feet at 3 inches deep and square feet divided by 80 for tons at 4 inches, 13 to 16 wheelbarrow loads per ton, and 1 to 2 pounds of sand infill per square foot, which for 1,000 square feet is 10 tons at 3 inches, 12.5 tons at 4 inches, 130 to 160 wheelbarrow loads at 3 inches and 1,000 to 2,000 pounds of sand (our arithmetic).",
+    "quote": "Note: You will need about 1 ton of aggregate or base material for every 100 sq. ft. at a 3” depth. This project would require approximately 3 tons of aggregate. For each ton of aggregate, you are looking at approximately 13-16 wheelbarrows full that will need to be hauled to the project area from the staged dumping area. … 3” in depth – Total sq. ft. of area / 100 = ______ 4” in depth – Total sq. ft. of area / 80 = ______ This calculation will provide you with the total TONS of base material needed. … Rock yards use different materials to create Road Base. Please inquire with your local rock company to determine the best option for your area … We recommend about 1-2 lbs. of sand per sq. ft., depending on the application and the product.",
+    "source_url": "https://pdf.lowes.com/productdocuments/240a8581-4267-4cdf-aa5f-d4d1e250fec6/44269346.pdf",
+    "source_label": "SYNLawn DIY Installation Guidelines (rev. 4.8.13, 2013; product document hosted by Lowe's), base and infill estimates",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "100",
+      "3",
+      "80",
+      "4",
+      "13",
+      "16",
+      "2",
+      "1000",
+      "10",
+      "12.5",
+      "130",
+      "160",
+      "2000",
+      "4.8",
+      "2013"
+    ],
+    "notes": "Per-1,000-square-foot figures are our arithmetic on the guide's rules: 1,000 / 100 = 10 tons; 1,000 / 80 = 12.5 tons; 10 tons x 13 to 16 loads = 130 to 160; 1,000 x 1 to 2 lb = 1,000 to 2,000 lb. The guide does not say whether its inches are loose or compacted. Existing record what-base-goes-under-artificial-turf.synlawn-diy-tonnage states the tonnage rule for a 600 sq ft example."
+  },
+  {
+    "id": "how-much-artificial-turf-do-i-need.synlawn-seam-tape-glue",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's DIY guide says seam tape runs the full length of each seam and estimates that a quart of seam glue covers about 15 to 20 feet of seam.",
+    "quote": "Seaming cloth: measure full length of area to be seamed. In this case you would need about 12’ of seam tape. Adhesive: 1 qt. of Henry’s glue will cover about 15-20’ or one tube of Heavy Duty Liquid Nails covers about 20 linear ft.",
+    "source_url": "https://pdf.lowes.com/productdocuments/240a8581-4267-4cdf-aa5f-d4d1e250fec6/44269346.pdf",
+    "source_label": "SYNLawn DIY Installation Guidelines (rev. 4.8.13, 2013; product document hosted by Lowe's), To estimate other materials",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "15",
+      "20",
+      "12",
+      "1",
+      "4.8",
+      "13",
+      "2013"
+    ],
+    "notes": "The page names brands (Henry's, Liquid Nails); the guide copy says 'seam glue' and does not name them."
+  },
+  {
+    "id": "how-much-artificial-turf-do-i-need.shaw-widths-extra",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Shaw's ShawGrass installation guidelines say turf is typically made in rolls 12 or 15 feet wide, so the area should be broken into 12- or 15-foot sections and their lengths added, that about 10 percent extra is a good figure where the design has curves, and to plan on about 18 inches of waste nearest the roll's core.",
+    "quote": "G. Measurements: To reduce labor, measure the project area carefully and design the layout to minimize the number of seams in the synthetic lawn. Plan for a little extra material, especially if you involve curves in your design. A good figure to use is 10%. … Turf is typically manufactured in rolls that are 12 or 15 feet wide, so you should break your installation area into 12 or 15 foot wide sections, and then add the total length of these areas. … Also, remember that turf wrapped closest to the core may be excessively wrinkled, plan on about 18” of waste just to be on the safe side.",
+    "source_url": "https://qmsview.shawinc.com/QMS_View/files/e5/e52baf26-71b9-4b41-beb0-101543c846f2.pdf",
+    "source_label": "Shaw Industries, ShawGrass Installation Guidelines (PDF, 2016), 1.G Measurements and Material Prep A. Turf",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "12",
+      "15",
+      "10",
+      "18",
+      "1",
+      "2016"
+    ],
+    "notes": "Read with curl and pdftotext on 2026-09-25 (PDF created 2016-02-08). Line-break hyphens ('mate-rial', 'manu-factured') are joined in the quote. The PDF carries the maker's phone number; never copy it."
+  },
+  {
+    "id": "how-much-artificial-turf-do-i-need.shaw-order-whole-job",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Shaw's guidelines say to order enough turf for the whole area even when it will be installed in stages, because turf is made in batches with normal batch-to-batch variation.",
+    "quote": "Measure the entire turf area, and order more than enough turf to cover the entire area. Do this even if you only do partial installations over a period of time. Turf is manufactured in individual batches with normal batch to batch variation, so you will want to order enough for your entire job.",
+    "source_url": "https://qmsview.shawinc.com/QMS_View/files/e5/e52baf26-71b9-4b41-beb0-101543c846f2.pdf",
+    "source_label": "Shaw Industries, ShawGrass Installation Guidelines (PDF, 2016), Material Prep A. Turf",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2016"
+    ]
+  },
+  {
+    "id": "how-much-artificial-turf-do-i-need.shaw-edging-first-grain",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Shaw's guidelines say to install curbing, edging or border materials before cutting the turf and adding base because it gives a more accurate turf measurement, and to face the grain toward the primary viewpoint to minimize sheen.",
+    "quote": "If you are using curbing, edging or border materials, install it prior to cutting the synthetic turf and adding any base material, as this will give you a more accurate measurement for the synthetic turf. … The grain should face toward the primary viewpoint as this will minimize sheen.",
+    "source_url": "https://qmsview.shawinc.com/QMS_View/files/e5/e52baf26-71b9-4b41-beb0-101543c846f2.pdf",
+    "source_label": "Shaw Industries, ShawGrass Installation Guidelines (PDF, 2016), 1.F Existing Design Elements and 1.H Design Application Tips",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "2016"
+    ]
+  },
+  {
+    "id": "how-much-artificial-turf-do-i-need.shaw-base-infill-rates",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Shaw's guidelines call for roughly 2 to 6 inches of stone base, say one cubic yard of base covers 80 square feet at 4 inches and count one yard as one ton, and estimate 3 to 5 pounds of sand infill per square foot on 50- to 80-ounce turf, which for 1,000 square feet is 12.5 yards of base at 4 inches and 3,000 to 5,000 pounds of sand (our arithmetic).",
+    "quote": "You will need approximately two-to-six inches of stone base under your turf. One yard of base material will cover 80 sq. ft. at 4 inches depth (one yard = one ton). … Calculate the amount of sand infill in advance; a good estimate is three-to-five pounds of sand per square foot on 50-80 ounce turf.",
+    "source_url": "https://qmsview.shawinc.com/QMS_View/files/e5/e52baf26-71b9-4b41-beb0-101543c846f2.pdf",
+    "source_label": "Shaw Industries, ShawGrass Installation Guidelines (PDF, 2016), Material Prep B. Base Material and D. Sand Infill",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "6",
+      "1",
+      "80",
+      "4",
+      "3",
+      "5",
+      "50",
+      "1000",
+      "12.5",
+      "3000",
+      "5000",
+      "2016"
+    ],
+    "notes": "Per-1,000-square-foot figures are our arithmetic: 1,000 / 80 = 12.5 yards; 1,000 x 3 to 5 lb = 3,000 to 5,000 lb. A cubic yard of 27 cu ft at 4 in (1/3 ft) covers 81 sq ft, so Shaw's 80 is a rounded volume; 'one yard = one ton' is Shaw's simplification, lighter than Pioneer's roadbase figure (1.30 tons per cubic yard)."
+  },
+  {
+    "id": "how-much-artificial-turf-do-i-need.integriturf-rolls-and-example",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Integriturf's installation guide says most turf rolls are made 15 feet wide by 100 feet long (1,500 square feet), with some 12 or 13 feet wide, that the grain runs along the roll's length and in a front yard typically leans toward the street, and works a 20 by 25 foot front yard into two 15 by 26 foot pieces, 780 square feet, adding 1 to 2 feet of length for error.",
+    "quote": "The best side to view the turf would be looking into the grain (for example: if you are installing turf in your front yard, you would typically have the grain lean towards the street so that people facing the house from the street would be looking into the grain that is leaning towards the street. … Most manufacturers produce their rolls in 15ft widths and 100ft lengths (a full roll = 15 x 100ft or 1,500 square feet). Some manufacturers produce rolls in 12ft and/or 13ft widths, however, 15ft is the most common. The positive and negative side of the grain will run perpendicular to the width of the roll. Measure the longest point-to-point in length for each 15ft wide section (example: You have a front yard square that is 20ft wide x 25ft long. You will need to order two sections that are 15ft wide in order to cover the 20ft width and and add at least 1 to 2 ft to the length to allow room for error and maneuvering. In this example you would order 2 pieces 15ft wide by 26ft long or 780 square feet.",
+    "source_url": "https://integriturf.com/wp-content/uploads/2019/02/Installation-Guide.pdf",
+    "source_label": "Integriturf, Synthetic Turf Installation Guide (PDF), How much material should you order?",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "15",
+      "100",
+      "1500",
+      "12",
+      "13",
+      "20",
+      "25",
+      "1",
+      "2",
+      "26",
+      "780"
+    ],
+    "notes": "Read with curl and pdftotext on 2026-09-25. 'and and' is the source's typo. One installer's guide; the page uses it for roll sizes and its worked example."
+  },
+  {
+    "id": "how-much-artificial-turf-do-i-need.integriturf-turned-layout",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Arithmetic on Integriturf's example, not the company's statement: the 20 by 25 foot yard is 500 square feet, so two 15 by 26 foot pieces (780 square feet) are about 56 percent more turf than yard, while turning the rolls to run across the 20-foot side takes two 15 by 21 foot pieces, 630 square feet or about 26 percent more, saving 150 square feet but leaning the grain across the yard instead of toward the street.",
+    "quote": "Measure the longest point-to-point in length for each 15ft wide section (example: You have a front yard square that is 20ft wide x 25ft long. You will need to order two sections that are 15ft wide in order to cover the 20ft width and and add at least 1 to 2 ft to the length to allow room for error and maneuvering. In this example you would order 2 pieces 15ft wide by 26ft long or 780 square feet.",
+    "source_url": "https://integriturf.com/wp-content/uploads/2019/02/Installation-Guide.pdf",
+    "source_label": "Integriturf, Synthetic Turf Installation Guide (PDF), worked example re-laid (our arithmetic)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "20",
+      "25",
+      "500",
+      "15",
+      "26",
+      "780",
+      "56",
+      "21",
+      "630",
+      "150",
+      "1",
+      "2"
+    ],
+    "notes": "Worked example for the guide. 20 x 25 = 500; 780 / 500 = 1.56; turned: the 25 ft run needs two widths (15 + 10), each 20 + 1 = 21 ft long, 2 x 15 x 21 = 630; 630 / 500 = 1.26; 780 - 630 = 150. Grain runs along the roll's length (the source), so turned rolls lean the grain sideways. Both layouts have one seam."
+  },
+  {
+    "id": "how-much-artificial-turf-do-i-need.pioneer-tons-per-yard",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Pioneer Landscape Centers' online materials calculator, from a Colorado and Arizona landscape-supply chain, turns area times spread depth into cubic yards and figures roadbase at 1.30 tons per cubic yard and crusher fines at 1.35, so 1,000 square feet takes 9.3 cubic yards (about 12 tons) of roadbase at 3 inches, 12.3 cubic yards (about 16 tons) at 4 inches, and 3.1 cubic yards (about 4.2 tons) of fines for a 1-inch cap, about 4 tons of either per inch of depth (our arithmetic).",
+    "quote": "How deep would you like to spread material? … // tons per cubic yard (fallback to yd³ when not listed) … 'Roadbase': 1.30, … 'Crusher Fines & Minus': 1.35, … const cubicFeet = area * (depth / 12); const cubicYards = cubicFeet / 27;",
+    "source_url": "https://www.pioneerco.com/materials-calculator",
+    "source_label": "Pioneer Landscape Centers, Materials Calculator (page script, tons per cubic yard table)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "1.30",
+      "1.3",
+      "1.35",
+      "1000",
+      "9.3",
+      "12",
+      "12.3",
+      "16",
+      "3.1",
+      "4.2",
+      "3",
+      "4",
+      "1",
+      "27",
+      "83.3",
+      "3.09",
+      "4.01",
+      "4.17"
+    ],
+    "notes": "Read with curl on 2026-09-25; the calculator is page script on a Squarespace site (the page footer says Pioneer is now part of SiteOne). Arithmetic: 1,000 x 3/12 = 250 cu ft / 27 = 9.26 cu yd x 1.30 = 12.04 t; 1,000 x 4/12 = 333.3 / 27 = 12.35 cu yd x 1.30 = 16.05 t; 1,000 x 1/12 = 83.3 / 27 = 3.09 cu yd x 1.35 = 4.17 t. The calculator asks for spread depth, i.e. loose, before compaction. Branch locations load from a map widget and were not read; the page does not claim a Northern Colorado branch. Per inch: 1,000 x 1/12 = 83.3 cu ft / 27 = 3.09 cu yd, x 1.30 = 4.01 t roadbase, x 1.35 = 4.17 t fines."
+  },
+  {
+    "id": "how-much-artificial-turf-do-i-need.pioneer-shape-formulas",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Pioneer's materials calculator figures a triangle as half the base times the height, a trapezoid as half the sum of its two parallel sides times the height, a circle as pi (about 3.14) times the radius squared, and an oval as pi times its length times its height divided by 4.",
+    "quote": "else if (selectedShape === 'triangle') area = 0.5 * f('base') * f('height'); else if (selectedShape === 'trapezoid') area = 0.5*(f('base1')+f('base2'))*f('height'); else if (selectedShape === 'circle_radius') area = Math.PI * Math.pow(f('radius'),2);",
+    "source_url": "https://www.pioneerco.com/materials-calculator",
+    "source_label": "Pioneer Landscape Centers, Materials Calculator (page script, area by shape)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "0.5",
+      "3.14",
+      "2",
+      "4",
+      "1"
+    ],
+    "notes": "Read with curl on 2026-09-25 (function getArea in the page script). The oval line reads: area = Math.PI * f('axis1') * f('axis2') / 4, with inputs labelled Length and Height. 3.14 is Math.PI rounded, our rounding. Line breaks between the else-if lines are collapsed to single spaces in the quote."
+  },
+  {
+    "id": "how-much-artificial-turf-do-i-need.fhwa-compaction-shrinkage",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Federal Highway Administration's gravel roads guide says gravel is too often figured in its loose state, as it sits in the stockpile or truck, and that ordinary compaction shrinks its volume, in many parts of the country by 30 percent or more, so the calculation should allow for shrinkage to reach the finished compacted depth.",
+    "quote": "One thing that is often overlooked is the shrinkage in volume that occurs from ordinary compaction. Ordinary compaction means the shrinkage that occurs from the material being placed, from routine blade maintenance and absorbing moisture from rainfall and then having traffic passing over it. In many parts of the country this will result in 30 percent or greater reduction in volume. … Too often the volume of material is calculated in a loose state as it exists in the stockpile or as it is dumped from the truck. Material in the stockpile or in trucks is very loose and has very low density. Remember to allow for shrinkage when calculating how much gravel depth is needed after the job is compacted and finished.",
+    "source_url": "https://www.fhwa.dot.gov/construction/pubs/ots15002.pdf",
+    "source_label": "FHWA and South Dakota LTAP, Gravel Roads Construction & Maintenance Guide (August 2015), Section 3.19 Calculating Quantity",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "30",
+      "3.19",
+      "2015",
+      "3",
+      "4"
+    ],
+    "notes": "Read with curl and pdftotext on 2026-09-25. The guide is about gravel road surfacing under traffic, not turf base under a plate compactor; the page uses it only to say loose volume shrinks and to show the arithmetic that a 3-inch compacted layer at a 30 percent shrink starts at a little over 4 inches loose (3 / 0.7 = 4.29, our arithmetic)."
+  },
+  {
+    "id": "how-much-artificial-turf-do-i-need.firestone-yard-definitions",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone's Development Code measures the rear yard across the lot between the side lot lines, from the rear lot line to the back of the main building, and a side yard between the building and the side lot line.",
+    "quote": "Yard, rear. A yard extending across the rear lot line between the side lot lines, and being the minimum horizontal distance between the rear lot line and the rear of the main building. … Yard, side. A yard between the main building and the side-line of the lot, and being the minimum horizontal distance between the building and the side lot line and extending from the front lot line to the rear lot line.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH11DE_16.11.3TEDE",
+    "source_label": "Firestone Development Code 16.11.3, Terms defined (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [],
+    "notes": "Read through the Municode content API (api.municode.com CodesContent, jobId 488870, productId 18062) on 2026-09-25; the library page renders by script. How the Town measures yards for the 16.6.4 turf limits on a given plan is its call: pages say to ask Firestone Planning."
+  },
+  {
+    "id": "how-much-artificial-turf-do-i-need.firestone-buffer-slope",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone requires a buffer of at least 3 feet of permeable surface with living and organic landscape material between the edge of artificial turf and any property line, and bars artificial turf on slopes steeper than 5:1.",
+    "quote": "iii. A minimum of three (3) foot buffer comprised of permeable surfaces with living and organic landscape material shall be required between the edge of the artificial turf and any property line. iv. Artificial turf shall not be installed on slopes greater than a five to one (5:1) slope.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+    "source_label": "Firestone Development Code 16.6.4.F.2.b.iii–iv (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "3",
+      "5",
+      "1"
+    ],
+    "notes": "Read through the Municode content API (jobId 488870, productId 18062) on 2026-09-25. The same text is in firestone-co.fdc-16.6.4-buffer-slope (the town's own file); this copy is the guide's own so the page's citation does not depend on a town writer's file."
+  },
+  {
+    "id": "how-much-artificial-turf-do-i-need.firestone-existing-lots",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone applies Section 16.6.4, the landscaping section that holds its artificial-turf rules, to individual single-family lots and houses that existed before the Development Code was adopted.",
+    "quote": "Individual single-family residential lots and structures existing before the adoption of this FDC shall be subject to the following Sections of this Chapter: Sections 16.6.4; 16.6.6; 16.6.11; and 16.6.12.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.1GEPR",
+    "source_label": "Firestone Development Code 16.6.1.B, Applicability (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "16.6",
+      "4",
+      "6",
+      "11",
+      "12"
+    ],
+    "notes": "Read through the Municode content API (jobId 488870, productId 18062) on 2026-09-25."
+  },
+  {
+    "id": "how-much-artificial-turf-do-i-need.firestone-worked-example",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Arithmetic on Firestone's code, not a Town ruling: on side and rear yards totaling 2,400 square feet with a 400-square-foot patio, the 75% cap allows 1,800 square feet of turf, the rule keeping 25% permeable living landscape with the patio counted allows 1,400, and the rule that 50% of the combined side and rear yards be live plants, which turf cannot count toward, allows 800, a third of the yard, or 1,200 with no patio.",
+    "quote": "For single-family dwellings, artificial turf shall be limited to a maximum of seventy-five (75) percent of the rear or side yard area. … The maximum area of artificial turf shall consider other impervious surfaces such as patios and walkways to ensure a minimum of twenty-five (25) percent of the yard area remains a permeable surface with living and organic landscape material. … Install landscaping within the side and rear yard such that fifty (50) percent of the combined (side and rear) yards is landscaped with live plant material. … Artificial turf or other artificial materials shall not be used as a means of complying with the live plant material landscaping regulations of this section.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+    "source_label": "Firestone Development Code 16.6.4.E.4.b and F.2.b.i and g (codified through Ord. No. 1072, Dec. 10, 2025), worked example (our arithmetic)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "2400",
+      "400",
+      "75",
+      "1800",
+      "25",
+      "1400",
+      "50",
+      "800",
+      "1200",
+      "600"
+    ],
+    "notes": "Worked example for the guide; the yard is hypothetical. 0.75 x 2,400 = 1,800; 2,400 - 600 (25%) - 400 patio = 1,400; 2,400 - 1,200 (50% live plants) - 400 patio = 800 (one third); with no patio, 2,400 - 1,200 = 1,200 (one half). The code applies the 75% cap to 'the rear or side yard area' and the live-plant rule to the combined side and rear yards; the example treats them together because the live-plant rule decides either way. F.2.b.i also reads 'A minimum of twenty (25) percent of the rear and side yard landscape area shall be permeable surfaces with living and organic landscape material' (the source's own mismatch of word and numeral). Whether a planted property-line buffer counts toward the live-plant half, and how the Town measures a given plan, is the Town's call: ask Firestone Planning. Shared records firestone-fdc-16.6.4-turf-cap and firestone-fdc-16.6.4-live-plant-limit carry the same rules."
+  },
+  {
+    "id": "how-much-artificial-turf-do-i-need.motz-landscape-1000",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Motz's Envirofill installation chart puts a 1.5 to 1.75 inch landscape pile at 1/2 to 3/4 inch of infill and 2.5 to 3.5 pounds per square foot, which for 1,000 square feet is 2,500 to 3,500 pounds, or 50 to 70 bags of 50 pounds (our arithmetic).",
+    "quote": "12/20 or 16/30 1½-1 ¾” (38-44mm) Landscape ½” – ¾” (13-19mm) 2.5-3.5lbs (12.21-17.09kg/m2)",
+    "source_url": "https://themotzgroup.com/wp-content/uploads/2023/03/Envirofill-Installation-Guidelines-for-Landscape-Applications.pdf",
+    "source_label": "The Motz Group, Envirofill Installation Guidelines: Landscape & Recreational Applications (PDF), infill chart",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "1.5",
+      "1.75",
+      "1/2",
+      "3/4",
+      "2.5",
+      "3.5",
+      "1000",
+      "2500",
+      "3500",
+      "50",
+      "70",
+      "12/20",
+      "16/30",
+      "38",
+      "44",
+      "13",
+      "19",
+      "12.21",
+      "17.09",
+      "1"
+    ],
+    "notes": "Read with curl and pdftotext -layout on 2026-09-25; the row is quoted in reading order. Arithmetic: 1,000 x 2.5 = 2,500 lb; 1,000 x 3.5 = 3,500 lb; 2,500 / 50 = 50 bags; 3,500 / 50 = 70 bags. The 50-pound bag size is Motz FAQ (how-often-to-add-infill-to-artificial-turf.motz-bag-sizes). The same chart is in how-often-to-add-infill-to-artificial-turf.envirofill-depth-chart."
+  },
+  {
+    "id": "how-much-artificial-turf-do-i-need.firestone-buffer-example",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Arithmetic on Firestone's code, not a Town ruling: on a backyard 60 feet wide and 40 feet deep with property lines on three sides, the required 3-foot living buffer between turf and those lines runs along 140 feet of line and takes about 400 square feet.",
+    "quote": "iii. A minimum of three (3) foot buffer comprised of permeable surfaces with living and organic landscape material shall be required between the edge of the artificial turf and any property line.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+    "source_label": "Firestone Development Code 16.6.4.F.2.b.iii (codified through Ord. No. 1072, Dec. 10, 2025), worked example (our arithmetic)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "60",
+      "40",
+      "3",
+      "140",
+      "400",
+      "402",
+      "420",
+      "180",
+      "222",
+      "37"
+    ],
+    "notes": "Hypothetical yard. 60 + 40 + 40 = 140 ft of line; 3 x 140 = 420 sq ft counting the two corners twice; without the overlap, 60 x 3 = 180 plus 2 x 37 x 3 = 222, total 402, so about 400. Whether a planted buffer counts toward the 50% live-plant requirement, and how the Town measures a given plan, is the Town's call: ask Firestone Planning. Read through the Municode content API (jobId 488870, productId 18062) on 2026-09-25."
+  }
+]

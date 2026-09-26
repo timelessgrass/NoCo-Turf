@@ -1,0 +1,560 @@
+[
+  {
+    "id": "artificial-turf-snow-removal.noaa-snow-days-fort-collins",
+    "layer": "climate",
+    "applies_to": [
+      "fort-collins-co",
+      "wellington-co"
+    ],
+    "fact": "At NOAA's Fort Collins station an average year brings 14.4 days with 1 inch or more of new snow but only 2.4 days with 5 inches or more, snow at least 5 inches deep lies on the ground 10.6 days, and the average December–February afternoon high is 45.3°F (1991–2020 normals).",
+    "quote": "USC00053005 FT COLLINS — ANN-SNOW-NORMAL 51.4 · ANN-SNOW-AVGNDS-GE010TI 14.4 · ANN-SNOW-AVGNDS-GE050TI 2.4 · ANN-SNWD-AVGNDS-GE001WI 43.6 · ANN-SNWD-AVGNDS-GE005WI 10.6 · DJF-TMAX-NORMAL 45.3 · DJF-TMAX-AVGNDS-LSTH032 12.1",
+    "source_url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053005&format=json",
+    "source_label": "NOAA NCEI U.S. Climate Normals 1991–2020, annual/seasonal, station FT COLLINS (USC00053005)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "14.4",
+      "1",
+      "2.4",
+      "5",
+      "10.6",
+      "45.3",
+      "1991",
+      "2020",
+      "51.4",
+      "43.6",
+      "12.1"
+    ],
+    "notes": "Element meanings from NOAA's Normals_ANN_Documentation_1991-2020.pdf: ann-snow-avgnds-ge010ti = annual number of days with snowfall >= 1.0 inch; ge050ti = >= 5.0 inches; ann-snwd-avgnds-ge001wi / ge005wi = annual number of days with snow depth >= 1 / >= 5 inches; djf-tmax-normal = long-term average winter (Dec, Jan, Feb) maximum temperature; djf-tmax-avgnds-lsth032 = winter number of days with maximum temperature <= 32F. Station-to-town assignment by proximity, as in climate.json."
+  },
+  {
+    "id": "artificial-turf-snow-removal.noaa-snow-days-fort-collins-4e",
+    "layer": "climate",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "At NOAA's Fort Collins 4E station, the nearest to Timnath, an average year brings 14.3 days with 1 inch or more of new snow but only 2.1 days with 5 inches or more, snow at least 5 inches deep lies on the ground 10.5 days, and the average December–February afternoon high is 43.2°F (1991–2020 normals).",
+    "quote": "USC00053006 FT COLLINS 4E — ANN-SNOW-NORMAL 48.4 · ANN-SNOW-AVGNDS-GE010TI 14.3 · ANN-SNOW-AVGNDS-GE050TI 2.1 · ANN-SNWD-AVGNDS-GE001WI 43.9 · ANN-SNWD-AVGNDS-GE005WI 10.5 · DJF-TMAX-NORMAL 43.2 · DJF-TMAX-AVGNDS-LSTH032 17.1",
+    "source_url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053006&format=json",
+    "source_label": "NOAA NCEI U.S. Climate Normals 1991–2020, annual/seasonal, station FT COLLINS 4E (USC00053006)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "14.3",
+      "1",
+      "2.1",
+      "5",
+      "10.5",
+      "43.2",
+      "1991",
+      "2020",
+      "48.4",
+      "43.9",
+      "17.1"
+    ],
+    "notes": "Element meanings as in artificial-turf-snow-removal.noaa-snow-days-fort-collins. Station-to-town assignment by proximity, as in climate.json."
+  },
+  {
+    "id": "artificial-turf-snow-removal.noaa-snow-days-loveland-2n",
+    "layer": "climate",
+    "applies_to": [
+      "loveland-co",
+      "berthoud-co"
+    ],
+    "fact": "At NOAA's Loveland 2N station an average year brings 14.2 days with 1 inch or more of new snow but only 2.2 days with 5 inches or more, snow at least 5 inches deep lies on the ground 13.9 days, and the average December–February afternoon high is 44.6°F (1991–2020 normals).",
+    "quote": "USC00055236 LOVELAND 2N — ANN-SNOW-NORMAL 47.0 · ANN-SNOW-AVGNDS-GE010TI 14.2 · ANN-SNOW-AVGNDS-GE050TI 2.2 · ANN-SNWD-AVGNDS-GE001WI 49.0 · ANN-SNWD-AVGNDS-GE005WI 13.9 · DJF-TMAX-NORMAL 44.6 · DJF-TMAX-AVGNDS-LSTH032 15.5",
+    "source_url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00055236&format=json",
+    "source_label": "NOAA NCEI U.S. Climate Normals 1991–2020, annual/seasonal, station LOVELAND 2N (USC00055236)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "14.2",
+      "1",
+      "2.2",
+      "5",
+      "13.9",
+      "44.6",
+      "1991",
+      "2020",
+      "47.0",
+      "49.0",
+      "15.5"
+    ],
+    "notes": "Element meanings as in artificial-turf-snow-removal.noaa-snow-days-fort-collins. Station-to-town assignment by proximity, as in climate.json."
+  },
+  {
+    "id": "artificial-turf-snow-removal.noaa-snow-days-greeley-unc",
+    "layer": "climate",
+    "applies_to": [
+      "greeley-co",
+      "windsor-co",
+      "johnstown-co",
+      "severance-co",
+      "evans-co",
+      "eaton-co",
+      "milliken-co"
+    ],
+    "fact": "At NOAA's Greeley UNC station an average year brings 11.6 days with 1 inch or more of new snow but only 1.4 days with 5 inches or more, snow at least 5 inches deep lies on the ground 10.7 days, and the average December–February afternoon high is 45.1°F (1991–2020 normals).",
+    "quote": "USC00053553 GREELEY UNC — ANN-SNOW-NORMAL 34.9 · ANN-SNOW-AVGNDS-GE010TI 11.6 · ANN-SNOW-AVGNDS-GE050TI 1.4 · ANN-SNWD-AVGNDS-GE001WI 39.3 · ANN-SNWD-AVGNDS-GE005WI 10.7 · DJF-TMAX-NORMAL 45.1 · DJF-TMAX-AVGNDS-LSTH032 15.1",
+    "source_url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053553&format=json",
+    "source_label": "NOAA NCEI U.S. Climate Normals 1991–2020, annual/seasonal, station GREELEY UNC (USC00053553)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "11.6",
+      "1",
+      "1.4",
+      "5",
+      "10.7",
+      "45.1",
+      "1991",
+      "2020",
+      "34.9",
+      "39.3",
+      "15.1"
+    ],
+    "notes": "Element meanings as in artificial-turf-snow-removal.noaa-snow-days-fort-collins. Station-to-town assignment by proximity, as in climate.json."
+  },
+  {
+    "id": "artificial-turf-snow-removal.ccc-winter-sun",
+    "layer": "climate",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Climate Center says Colorado's thin atmosphere lets more of the sun's radiation through, giving pleasant daytime conditions even in winter.",
+    "quote": "The thin atmosphere allows greater penetration of solar radiation and results in pleasant daytime conditions even during the winter.",
+    "source_url": "https://climate.colostate.edu/climate_long.html",
+    "source_label": "Colorado Climate Center (Colorado State University), Climate of Colorado",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-snow-removal.ccc-chinook-moderates-winter",
+    "layer": "climate",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Climate Center says chinook winds greatly moderate average winter temperatures in places near enough to the mountains to get them often.",
+    "quote": "This phenomenon is the \"chinook;\" of the high plains and temperature rises of 25 to 35°F within a short time are not uncommon. Chinook winds greatly moderate average winter temperatures in areas near enough to the mountains to experience them frequently.",
+    "source_url": "https://climate.colostate.edu/climate_long.html",
+    "source_label": "Colorado Climate Center (Colorado State University), Climate of Colorado",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "25",
+      "35"
+    ]
+  },
+  {
+    "id": "artificial-turf-snow-removal.loveland-snow-melts-off",
+    "layer": "climate",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "Loveland Public Works says most of the city's snow events bring two to five inches, and ample sunshine and warmer days after a storm usually melt the remaining road snow.",
+    "quote": "Most of our snow events land in the two to five inch range, which two-wheel drive cars can easily manage. Unlike more northerly and easterly Snow Belt cities, we often experience ample sunshine and warmer days on the heels of our snow storms, which causes the remaining road snow to melt off.",
+    "source_url": "https://www.lovgov.org/services/public-works/snow-operations",
+    "source_label": "City of Loveland Public Works, Snow Operations",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The site returns 403 to plain automated fetches; read in full 2026-09-25 with browser request headers."
+  },
+  {
+    "id": "artificial-turf-snow-removal.fc-sun-melts-residential",
+    "layer": "climate",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins does not routinely plow residential streets, giving lower traffic, high cost and frequent sunny conditions that help melt snow naturally as the reasons.",
+    "quote": "Residential streets (Priority 4) aren't routinely plowed due to: Lower traffic volumes High cost Frequent sunny conditions that help melt snow naturally",
+    "source_url": "https://fortcollins.gov/Services/Transportation-and-Roads/Snow-Removal",
+    "source_label": "City of Fort Collins, Snow Removal",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "4"
+    ],
+    "notes": "The quote is a heading and a three-item list on the page, joined here. The site returns 403 to plain automated fetches; read in full 2026-09-25 with browser request headers. The old fcgov.com/streets/snow-sidewalk.php URL 301s here."
+  },
+  {
+    "id": "artificial-turf-snow-removal.fc-sidewalk-24-hours",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins requires property owners or residents to clear snow and ice from the sidewalks next to their property within 24 hours after a snowfall, and tells them to shovel it into the yard, not the street.",
+    "quote": "As a property owner or resident, you're required to clear snow and ice from sidewalks adjacent to your property within 24 hours after a snowfall. Tips: Wait for the storm and plow to pass if you live on a plow route. Shovel snow into your yard, not into the street.",
+    "source_url": "https://fortcollins.gov/Services/Transportation-and-Roads/Snow-Removal",
+    "source_label": "City of Fort Collins, Snow Removal",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "24"
+    ],
+    "notes": "The site returns 403 to plain automated fetches; read in full 2026-09-25 with browser request headers. The page names no code section."
+  },
+  {
+    "id": "artificial-turf-snow-removal.loveland-sidewalk-24-hours",
+    "layer": "ordinance",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "Loveland's code gives residents 24 hours after a snowfall ends to clear their sidewalks and driveways, and the city tells them to apply a store-bought de-icing agent if the sidewalk is still icy.",
+    "quote": "Residents are responsible for clearing all snow from their sidewalks and driveways within 24 hours after a snow fall ceases, per the City of Loveland Municipal Code, Chapter 12.24. … If your sidewalk is still icy after being shoveled, apply a de-icing agent available for purchase at most grocery, discount and hardware stores.",
+    "source_url": "https://www.lovgov.org/services/public-works/snow-operations",
+    "source_label": "City of Loveland Public Works, Snow Operations (citing Municipal Code Chapter 12.24)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "24"
+    ],
+    "notes": "The site returns 403 to plain automated fetches; read in full 2026-09-25 with browser request headers."
+  },
+  {
+    "id": "artificial-turf-snow-removal.greeley-sidewalk-24-hours",
+    "layer": "ordinance",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley requires sidewalks to be cleared of snow within 24 hours of a storm ending, and its code makes it unlawful to put snow removed from private property onto a street, gutter or sidewalk.",
+    "quote": "In City Ordinance, Section 18-195, it states that it is unlawful for any person to drag, shovel or deposit any snow that has been removed from private property upon any street, gutter or sidewalk or upon any other public ground or place in the city. … Sidewalks are to be clear of snow within 24 hours of the storm ending.",
+    "source_url": "https://greeleyco.gov/residents/community-standards-and-maintenance/street-and-sidewalk-services/",
+    "source_label": "City of Greeley, Street and Sidewalk Services",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "24"
+    ]
+  },
+  {
+    "id": "artificial-turf-snow-removal.windsor-sidewalk-24-hours",
+    "layer": "ordinance",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor requires residents to clear sidewalks within 24 hours after a storm ends, asks them to pile the snow in the yard rather than the street, and tells them to apply de-icer to an icy sidewalk.",
+    "quote": "Residents are required by ordinance to clear sidewalks, including those crossing alleys and driveways, within 24 hours after the end of a storm. Please pile the snow in your yard, not in the street. If your sidewalk is icy, apply de-icer to melt the ice.",
+    "source_url": "https://www.windsorgov.com/Faq.aspx?QID=206",
+    "source_label": "Town of Windsor FAQ: What snow and ice removal items are residents responsible for? (Municipal Code Sec. 11-7-10)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "24"
+    ]
+  },
+  {
+    "id": "artificial-turf-snow-removal.windsor-road-deicer",
+    "layer": "research",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor treats its roads with Ice Buster, a granular rock salt made mainly of sodium, magnesium and calcium chlorides, pre-wetted with a magnesium chloride solution.",
+    "quote": "The Town uses Ice Buster, a granular rock salt product, pre-wetted with Apex Meltdown to reduce corrosion while increasing de-icing performance on all the Town’s roadways. Ice Buster is a complex chloride containing primarily Sodium Chloride (NaCI), Magnesium Chloride (MgCI-2), and Calcium Chloride (CaCI-2).",
+    "source_url": "https://www.windsorgov.com/503/Snow-Ice-Removal",
+    "source_label": "Town of Windsor, Snow & Ice Removal: Deicing Material",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2"
+    ],
+    "notes": "NaCI and MgCI-2 are the town's own spellings of NaCl and MgCl2."
+  },
+  {
+    "id": "artificial-turf-snow-removal.loveland-road-deicer",
+    "layer": "research",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "Loveland treats its roads with Meltdown Apex, a magnesium chloride brine, and Ice Slicer, a granular complex chloride of magnesium, sodium and potassium chlorides.",
+    "quote": "Meltdown Apex is a water-based brine comprised of magnesium chloride [MgCl-2] treated with additives. … As a complex chloride [92-98% magnesium, sodium and potassium chlorides], Ice Slicer is a “hotter” ice melter than regular white salt.",
+    "source_url": "https://www.lovgov.org/services/public-works/snow-operations",
+    "source_label": "City of Loveland Public Works, Snow Operations",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "92",
+      "98"
+    ],
+    "notes": "The site returns 403 to plain automated fetches; read in full 2026-09-25 with browser request headers."
+  },
+  {
+    "id": "artificial-turf-snow-removal.stc-leave-snow-guard-blade",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council's maintenance guidelines say snow and ice should generally be left to melt and drain off, and that a plow blade used on turf should be guarded with PVC pipe or rubber tips and set to leave a quarter to half an inch of snow, because brushing off the rest may also remove infill.",
+    "quote": "Generally snow and ice should be left to melt and drain off the system without assistance. … If a snow plow is used, make sure the blade is guarded with PVC pipe and corner elbows or rubber tips, and the height is adjusted to leave ¼-½” inch of snow on the surface. This is to avoid surface damage. The remaining snow should be left to melt in the sunlight as brushing the remaining snow may also remove the infill.",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guidelines_for_Maintenan.pdf",
+    "source_label": "Synthetic Turf Council, Guidelines for Maintenance of Infilled Synthetic Turf Systems (January 2013, Rev. 1)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Written for sports fields; the page applies the principle to a yard and says so."
+  },
+  {
+    "id": "artificial-turf-snow-removal.stc-tarp-freezes",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council advises against tarping turf in freezing weather because a tarp that is not vinyl- or poly-coated can freeze to the surface.",
+    "quote": "Avoid using a tarp on the field during freezing weather. Tarps, unless vinyl or poly-coated, can freeze to the surface, and will be very difficult to remove.",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guidelines_for_Maintenan.pdf",
+    "source_label": "Synthetic Turf Council, Guidelines for Maintenance of Infilled Synthetic Turf Systems (January 2013, Rev. 1)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-snow-removal.fieldturf-deicers",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "FieldTurf, a synthetic turf maker, says regular salt dries into hard, abrasive crystals that can scuff turf fibers, calcium chloride leaves a residue, and magnesium chloride won't harm the turf.",
+    "quote": "The warm brine from calcium chloride solutions, while an effective melting agent, does leave a residue that can affect ball handling, ball reaction and footing. Calcium chloride solutions, despite the residue potential, are preferred over sodium chloride ones. Magnesium chloride also is acceptable. Aside from any issues with potential corrosion of exposed metal, magnesium chloride won’t harm the turf. Regular salt dries into hard, abrasive crystals that can scuff the fibers.",
+    "source_url": "https://fieldturf.com/en/articles/detail/everything-you-need-snow-removal/",
+    "source_label": "FieldTurf, Everything You Need to Know About Snow Removal",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-snow-removal.fieldturf-flush-residue",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "FieldTurf recommends testing any de-icer off the main surface first and flushing the residue off with water once the temperature has been above freezing for five days in a row.",
+    "quote": "If you opt to use a de-icing substance, always test it off the main field of play first to protect the safety of the surface; some de-icing solutions leave a sticky residue behind. … FieldTurf recommends to flush the field with water to remove potential chemical residue once the outdoor temperature has been above freezing for five consecutive days and the upcoming weather forecast is favorable.",
+    "source_url": "https://fieldturf.com/en/articles/detail/everything-you-need-snow-removal/",
+    "source_label": "FieldTurf, Everything You Need to Know About Snow Removal",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-snow-removal.fieldturf-plow-frozen-leave-crust",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "FieldTurf says frozen moisture in the infill lets a field be plowed without displacing much infill, and it tells field owners to leave a crust of 1 to 1.5 inches for the sun to melt.",
+    "quote": "It is important to note that while the components of your FieldTurf system do not freeze, moisture within the infill does. This frozen moisture allows you to plow the field safely without displacing a meaningful amount of infill. … We recommended to plow from sideline to sideline and leave a thin crust of 1” to 1.5” on the surface, which will act as a layer of security. The remaining layer will be melted by the sun.",
+    "source_url": "https://fieldturf.com/en/articles/detail/everything-you-need-snow-removal/",
+    "source_label": "FieldTurf, Everything You Need to Know About Snow Removal",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "1.5"
+    ]
+  },
+  {
+    "id": "artificial-turf-snow-removal.fieldturf-tarp",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "FieldTurf says tarping a field has caused more condensation and freezing, with unfavorable results.",
+    "quote": "Installing a field tarp is permitted but has demonstrated to cause enhanced condensation and freezing leading to unfavorable results.",
+    "source_url": "https://fieldturf.com/en/articles/detail/everything-you-need-snow-removal/",
+    "source_label": "FieldTurf, Everything You Need to Know About Snow Removal",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-snow-removal.motz-plastic-shovel-dog-path",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Motz, an infill maker, says to let snow melt and drain where you can, and to clear a walking path or a spot for dogs with a plastic shovel or a leaf blower rather than metal shovels or tools.",
+    "quote": "Even if you don’t need to remove the snow from your artificial turf, you might like, from time to time, to clear a path for walking or make an area accessible to your dogs to do their business. … A plastic snow shovel to clear snow (do not use metal shovels or tools) … Allow snow and ice to melt naturally and drain away to avoid damaging the artificial turf. If removing the snow is absolutely necessary, use a plastic shovel or a leaf blower to avoid scratching or tearing the fibers.",
+    "source_url": "https://themotzgroup.com/infill_blog/our-guide-to-protecting-your-artificial-turf-in-the-winter-motz/",
+    "source_label": "The Motz Group, The Ultimate Guide to Protecting Your Home's Artificial Turf in the Winter (Jan. 25, 2024)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-snow-removal.motz-snow-flattens",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Motz says good artificial turf should hold up well against snow, though the weight of snow can flatten the blades and sometimes mat them.",
+    "quote": "High-quality artificial turf should hold up well against snow and hail. … Snow can lay heavily on artificial turf fibers, flattening the blades and in some cases, matting them.",
+    "source_url": "https://themotzgroup.com/infill_blog/our-guide-to-protecting-your-artificial-turf-in-the-winter-motz/",
+    "source_label": "The Motz Group, The Ultimate Guide to Protecting Your Home's Artificial Turf in the Winter (Jan. 25, 2024)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-snow-removal.motz-blower-height",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Motz says a leaf blower held about 12 to 18 inches above the turf should not move the infill.",
+    "quote": "As long as you keep the leaf blower at a distance of about 12-18 inches above your artificial turf, you should avoid any potential infill migration.",
+    "source_url": "https://themotzgroup.com/infill_blog/how-to-rake-leaves-on-artificial-turf-without-causing-damage/",
+    "source_label": "The Motz Group, How to Rake Leaves on Artificial Turf Without Causing Damage (Oct. 6, 2020)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "12",
+      "18"
+    ]
+  },
+  {
+    "id": "artificial-turf-snow-removal.sgw-salt-clogs-backing",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Synthetic Grass Warehouse advises against salt on artificial grass because it can clog the holes in the turf backing and slow drainage.",
+    "quote": "However, when it comes to artificial grass, we advise against using salt; instead, let the snow melt naturally. Salt can clog up the holes in the backing of your turf and hinder your lawn’s full drainage capabilities.",
+    "source_url": "https://syntheticgrasswarehouse.com/blog/how-to-care-for-artificial-grass-in-snowy-weather/",
+    "source_label": "Synthetic Grass Warehouse, How to Care for Artificial Grass in Snowy Weather (Nov. 26, 2019)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-snow-removal.sgw-frozen-blades-brittle",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Synthetic Grass Warehouse says a covering of snow won't stop you walking or playing on turf, but frozen blades become brittle and can be damaged underfoot, and packed snow should come off by hand or with a plastic shovel before it turns to ice.",
+    "quote": "While artificial grass won’t get damaged on its own due to frost, the blades can become brittle if they freeze. If these brittle blades are walked on, damage can occur. … A covering of snow, unlike complete freezing, won’t affect your ability to walk on the turf. You are able to walk and play on snowy artificial grass without worrying about fibers breaking. However, you shouldn’t allow the snow to pile up too much or the compacted snow will turn into ice and become dangerous. Remove packed snow either by hand or with a plastic shovel.",
+    "source_url": "https://syntheticgrasswarehouse.com/blog/how-to-care-for-artificial-grass-in-snowy-weather/",
+    "source_label": "Synthetic Grass Warehouse, How to Care for Artificial Grass in Snowy Weather (Nov. 26, 2019)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-snow-removal.sgw-matted-after-melt",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Synthetic Grass Warehouse says turf may be slightly matted from the weight of snow after it melts, should bounce back over time, and recovers faster with cross-brushing.",
+    "quote": "After the snow has fallen and melted, your grass may be slightly matted from the weight of the snow. However, it should bounce back naturally over time. Help lift the pile by cross-brushing it as you would during any other time of year.",
+    "source_url": "https://syntheticgrasswarehouse.com/blog/how-to-care-for-artificial-grass-in-snowy-weather/",
+    "source_label": "Synthetic Grass Warehouse, How to Care for Artificial Grass in Snowy Weather (Nov. 26, 2019)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-snow-removal.synlawn-deicers-metal-tools",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn, a turf maker, says rock salt and chemical de-icers can degrade turf fibers and backing, and that heavy snow should come off with a plastic shovel or broom, not metal tools.",
+    "quote": "Rock salt and chemical de-icers can degrade turf fibers and backing materials. … If heavy snow accumulates, gently remove it using a plastic shovel or a broom. Avoid using metal tools, as they can damage the fibers.",
+    "source_url": "https://www.synlawn.com/articles/how-to-maintain-artificial-grass/",
+    "source_label": "SYNLawn, How to Maintain Your Artificial Grass All Year Round (March 1, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-snow-removal.toro-single-stage-paved-only",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Toro's manual for a single-stage snowblower says the machine is designed mainly for paved surfaces, not for clearing gravel, that its rotor blades can pick up and throw stones, and that it may leave rubber marks on new or light-colored concrete.",
+    "quote": "It is designed primarily for removing snow from paved surfaces, such as driveways and sidewalks, and other surfaces for traffic on residential or commercial properties. It is not designed for removing materials other than snow, nor is it designed for clearing gravel surfaces. … The rotor blades can throw stones, toys, and other foreign objects and cause serious personal injury to you or bystanders. … The machine may leave rubber marks on new brushed or light-colored concrete.",
+    "source_url": "https://manuals.toro.com/152220/index.html",
+    "source_label": "Toro, Power Clear 721 Snowthrower Operator's Manual (Models 38752, 38753, 38756)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The rubber-marks warning shows the rubber rotor blades touch the surface. Applying this to turf infill is the page's inference and is worded as one."
+  },
+  {
+    "id": "artificial-turf-snow-removal.toro-two-stage-skids",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Toro's manual for a two-stage snowblower says the auger blades must be held above the ground by the skids, and to lower the skids further on gravel so the machine does not pick up rocks.",
+    "quote": "Important: The auger blades must be supported above the ground by the skids. … For gravel surfaces, adjust the skids further down to prevent the machine from picking up rocks.",
+    "source_url": "https://manuals.toro.com/119464/index.html",
+    "source_label": "Toro, Power Max Heavy Duty 928 OHXE / 1028 OHXE Snowthrower Operator's Manual",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-snow-removal.pph-ice-melt-ingredients",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Pet Poison Helpline says urea-based ice melts are generally the ones labeled safe around pets, calcium salts are the most severe irritants, and every type of ice melt can be hazardous.",
+    "quote": "Calcium salts are the most hazardous as they are the most severe irritants of all the ingredients in ice melts. … Urea based ice melts are generally the ones labeled as safe for use around pets. … All types of ice melts have a potential to be hazardous.",
+    "source_url": "https://www.petpoisonhelpline.com/uncategorized/really-safe-ice-melt/",
+    "source_label": "Pet Poison Helpline, Is there really a \"safe\" ice melt?",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-snow-removal.aspca-paws",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The ASPCA says pets are usually exposed to ice melt by licking their feet after walking through a treated area or eating snow that contains it, that pet-friendly melts usually contain urea or magnesium chloride and can still upset the stomach, and that paws should be wiped when pets come inside.",
+    "quote": "While pets don’t typically ingest ice melts on purpose, your pet may become exposed if they lick their feet after walking through a recently treated area, or by eating snow that may have ice melts in it. … Pet-friendly ice melts typically contain urea or magnesium chloride. While these are typically safer ingredients, they may also cause stomach upset. … Wipe your pet’s paws as soon as they get inside with a damp cloth or baby wipes.",
+    "source_url": "https://www.aspca.org/news/keeping-pets-safe-during-winter-dangers-ice-melts",
+    "source_label": "ASPCA, Keeping Pets Safe during Winter: The Dangers of Ice Melts (Dec. 4, 2018)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  }
+]

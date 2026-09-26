@@ -1,0 +1,597 @@
+[
+  {
+    "id": "gopher-wire-under-artificial-turf.csu-6521-gopher-signs",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says pocket gophers rarely come above ground and show themselves by soil mounds with no open hole, eskers of soil after spring snowmelt and suddenly wilting plants, with tunnels 2 to 3.5 inches wide in the top 4 to 18 inches of soil that a foot often breaks through.",
+    "quote": "Pocket gophers rarely appear above ground, spending most of their lives in burrows. … The main signs of damage from pocket gophers include mounds of soil (with no apparent entry hole), eskers (solid tubes of soil) above ground when the snow melts in the spring, and suddenly wilting plants (due to root damage). If you walk across an area inhabited by pocket gophers, your foot will frequently break through into their tunnels. The tunnels are usually 2.0-3.5” in diameter, and are usually found in the top 4-18” of soil. The mounds pocket gophers create are fan-shaped to round and usually have closed entrances, unlike those of prairie dogs and Wyoming ground squirrels.",
+    "source_url": "https://www.extension.colostate.edu/docs/pubs/natres/06521.pdf",
+    "source_label": "CSU Extension Fact Sheet 6.521, Burrowing animals: Determining species by burrows & damage (February 2016)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "2.0",
+      "3.5",
+      "4",
+      "18",
+      "6.521",
+      "2016"
+    ],
+    "notes": "Read the PDF on CSU's own host on 2026-09-25 (same file as cmg.extension.colostate.edu/wp-content/uploads/sites/7/2021/09/06521.pdf). The old HTML fact-sheet URL under /topic-areas/natural-resources/ now redirects to extension.colostate.edu/topics/."
+  },
+  {
+    "id": "gopher-wire-under-artificial-turf.csu-6521-vole-signs",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says vole signs are runways 1 to 2 inches wide through matted grass, open holes 1 to 2 inches across and spongy soil, and that voles are active all year and often seen above ground.",
+    "quote": "Other signs of vole damage include: runways 1 to 2 inch-wide through matted grass with open 1-2 inch holes and spongy soil from burrowing activity. Long-tailed voles do not make well-defined runways. It is common to see evidence of voles, as they are active all year round, and are frequently above ground.",
+    "source_url": "https://www.extension.colostate.edu/docs/pubs/natres/06521.pdf",
+    "source_label": "CSU Extension Fact Sheet 6.521, Burrowing animals: Determining species by burrows & damage (February 2016)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "2",
+      "6.521",
+      "2016"
+    ]
+  },
+  {
+    "id": "gopher-wire-under-artificial-turf.csu-6521-vole-snow-cover",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says most vole damage happens in winter, when voles travel their grass runways under snow, and the worst years are those with heavy snowfall when snow cover lasts longer.",
+    "quote": "Most damage occurs in the winter when voles move through their grass runways under the protection of snow. The greatest damage seems to coincide with years of heavy snowfall when snow cover persists for longer periods.",
+    "source_url": "https://www.extension.colostate.edu/docs/pubs/natres/06521.pdf",
+    "source_label": "CSU Extension Fact Sheet 6.521, Burrowing animals: Determining species by burrows & damage (February 2016)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6.521",
+      "2016"
+    ]
+  },
+  {
+    "id": "gopher-wire-under-artificial-turf.csu-6521-prairie-dogs",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says the black-tailed prairie dog is the most common prairie dog along the Front Range, lives in colonies, is active and often above ground all year, and leaves holes 4 to 8 inches across with the plants clipped back around them.",
+    "quote": "There are 3 prairie dog species (black tailed, Gunnison and white tailed) in Colorado but the most common along the Front Range and Eastern Plains is the black-tailed prairie dog (Cynomys ludovicianus). … Prairie dogs cause damage to pastures by removing vegetation. The damage first appears as holes 4 – 8” in diameter with the vegetation clipped back away from the holes. … They live in colonies so their damage extends beyond the single holes to cover the whole colony. It is common to see prairie dogs when they are present, as they are active all year round, and are frequently above ground.",
+    "source_url": "https://www.extension.colostate.edu/docs/pubs/natres/06521.pdf",
+    "source_label": "CSU Extension Fact Sheet 6.521, Burrowing animals: Determining species by burrows & damage (February 2016)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "4",
+      "8",
+      "6.521",
+      "2016"
+    ],
+    "notes": "The PDF breaks \"black-tailed\" across a line; the hyphen is the source's."
+  },
+  {
+    "id": "gopher-wire-under-artificial-turf.csu-6521-moles-rare",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says moles live only in specific areas of Colorado's eastern plains, so damage blamed on moles elsewhere is most likely another animal's.",
+    "quote": "Moles occur only in specific areas on the eastern plains of Colorado. Damage blamed on moles is most likely done by another species.",
+    "source_url": "https://www.extension.colostate.edu/docs/pubs/natres/06521.pdf",
+    "source_label": "CSU Extension Fact Sheet 6.521, Burrowing animals: Determining species by burrows & damage (February 2016)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6.521",
+      "2016"
+    ],
+    "notes": "The sheet's map places moles along the Lower South Platte (Logan, Sedgwick, Phillips, Morgan, Washington and Yuma counties) and in Baca County, none of them NoCo counties."
+  },
+  {
+    "id": "gopher-wire-under-artificial-turf.csu-6515-plains-gopher-soils",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says plains pocket gophers are abundant in the sandy and silty soils of the plains but not in compacted soils, and pocket gophers reach their highest numbers on light-textured soils with good plant growth.",
+    "quote": "Plains pocket gophers (Geomys bursarius) are abundant in sandy and silty soils of the plains but are not abundant in compacted soils. … Pocket gophers attain the highest densities on light-textured soils with good herbage production.",
+    "source_url": "https://www.extension.colostate.edu/docs/pubs/natres/06515.pdf",
+    "source_label": "CSU Extension Fact Sheet 6.515, Managing Pocket Gophers (W.F. Andelt and R.M. Case, revised February 2016)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6.515",
+      "2016"
+    ],
+    "notes": "Read the PDF on CSU's own host (www.extension.colostate.edu/docs/pubs/natres/06515.pdf) on 2026-09-25; it is byte-identical to the fcwp.org mirror the brief suggested. The HTML fact-sheet URL now redirects to extension.colostate.edu/topics/."
+  },
+  {
+    "id": "gopher-wire-under-artificial-turf.csu-6515-mounds-tunnels",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says a pocket gopher's main tunnel runs 4 to 18 inches below the surface, its fan-shaped mounds are 12 to 18 inches wide, one gopher brings about 2 1/4 tons of soil to the surface a year, mound building peaks in spring and fall, and eskers show up only as snow melts.",
+    "quote": "The soil is deposited in fan-shaped mounds 12 to 18 inches wide and 4 to 6 inches high. Burrow systems consist of a main tunnel, generally 4 to 18 inches below the soil surface, and a variable number of lateral burrows extending from the main. … One gopher brings about 2 1/4 tons of soil to the surface each year. Mound-building activity usually is greatest in spring and fall. … Figures 4 and 5: Two examples of eskers--these are only seen as the snow melts, and are a result of burrowing activity under the snow.",
+    "source_url": "https://www.extension.colostate.edu/docs/pubs/natres/06515.pdf",
+    "source_label": "CSU Extension Fact Sheet 6.515, Managing Pocket Gophers (W.F. Andelt and R.M. Case, revised February 2016)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4",
+      "18",
+      "12",
+      "6",
+      "2",
+      "1/4",
+      "5",
+      "6.515",
+      "2016"
+    ],
+    "notes": "The PDF hyphenates \"fan-shaped\" across a line break."
+  },
+  {
+    "id": "gopher-wire-under-artificial-turf.csu-6515-hardware-cloth",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension's gopher barrier around trees and shrubs is 1/4- to 1/2-inch hardware cloth buried at least 18 inches with a 6-inch apron bent toward the gopher, a method it calls of limited practicality because of expense and labor, and it lines planting beds with 1/4-inch hardware cloth.",
+    "quote": "Pocket gophers can be excluded from valuable plots of ornamental trees and shrubs with a 1/4 to 1/2-inch mesh hardware cloth fence buried at least 18 inches. The bottom of the fence should be bent at a 90-degree angle so that a 6-inch apron of wire projects horizontally toward the gopher. … This method is of limited practicality because of expense and labor. … Ornamental beds and vegetable beds can be protected by lining the beds with 1/4\" hardware cloth.",
+    "source_url": "https://www.extension.colostate.edu/docs/pubs/natres/06515.pdf",
+    "source_label": "CSU Extension Fact Sheet 6.515, Managing Pocket Gophers (W.F. Andelt and R.M. Case, revised February 2016)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1/4",
+      "1/2",
+      "18",
+      "90",
+      "6",
+      "6.515",
+      "2016"
+    ]
+  },
+  {
+    "id": "gopher-wire-under-artificial-turf.csu-6515-cables-pipes",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says pocket gophers can destroy underground cables and irrigation pipes, and suggests enclosing them in conduit more than 2.9 inches across or surrounding them with crushed rock or gravel larger than 1 inch.",
+    "quote": "Gophers may, at times, destroy underground utility cables and irrigation pipes. … Protect buried utility cables and irrigation lines by enclosing with lead, PVC, or other conduit materials exceeding 2.9 inches in diameter. Pocket gophers can damage cables armored with soft metals (lead, aluminum) if the diameters are less than 2.9 inches. Crushed rock or gravel greater than 1 inch in diameter placed around cables may protect them.",
+    "source_url": "https://www.extension.colostate.edu/docs/pubs/natres/06515.pdf",
+    "source_label": "CSU Extension Fact Sheet 6.515, Managing Pocket Gophers (W.F. Andelt and R.M. Case, revised February 2016)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2.9",
+      "1",
+      "6.515",
+      "2016"
+    ]
+  },
+  {
+    "id": "gopher-wire-under-artificial-turf.csu-6515-not-protected",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says pocket gophers are not protected by state or federal law and that trapping works well on small to moderate areas, most successfully in spring and fall.",
+    "quote": "Gophers are not protected by state or federal laws but they do play an important role in ecosystem function. … Lethal trapping is one of the best methods to reduce pocket gopher numbers on small to moderate-sized fields (less than 50 acres) and to remove remaining animals after a poison control program. … Trapping usually is most successful in the spring and fall when gophers are actively building tunnels.",
+    "source_url": "https://www.extension.colostate.edu/docs/pubs/natres/06515.pdf",
+    "source_label": "CSU Extension Fact Sheet 6.515, Managing Pocket Gophers (W.F. Andelt and R.M. Case, revised February 2016)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "50",
+      "6.515",
+      "2016"
+    ],
+    "notes": "An extension summary of legal status, not the statute; the guide labels it not legal advice."
+  },
+  {
+    "id": "gopher-wire-under-artificial-turf.csu-6515-fumigants",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says fumigants such as gas cartridges are not very successful against pocket gophers, because gophers sense the gas and plug the tunnel or the gas spreads into the soil, especially dry soil.",
+    "quote": "Fumigants, such as aluminum phosphide and gas cartridges, are not very successful for controlling pocket gophers because gophers either sense the poisonous gas and plug the tunnel or the fumigants diffuse into the soil, particularly when it is dry.",
+    "source_url": "https://www.extension.colostate.edu/docs/pubs/natres/06515.pdf",
+    "source_label": "CSU Extension Fact Sheet 6.515, Managing Pocket Gophers (W.F. Andelt and R.M. Case, revised February 2016)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6.515",
+      "2016"
+    ]
+  },
+  {
+    "id": "gopher-wire-under-artificial-turf.csu-6507-vole-mesh",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension protects young trees and shrubs from voles with 1/4-inch mesh hardware cloth set 3 to 6 inches below the surface and 18 inches above it, and says vegetable and flower beds can be protected the same way.",
+    "quote": "To protect against vole damage, encircle young trees and shrubs with 1/4-inch mesh hardware cloth or 3-inch diameter Vexar™ plastic-mesh cylinders. This barrier should project 18 inches above the ground and 3 to 6 inches below the surface. Vegetable and flower beds may also be protected in this manner.",
+    "source_url": "https://extension.colostate.edu/resource/managing-voles-in-colorado/",
+    "source_label": "CSU Extension Fact Sheet 6.507, Managing Voles in Colorado (published May 2025, reviewed August 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1/4",
+      "3",
+      "18",
+      "6",
+      "6.507",
+      "2025"
+    ]
+  },
+  {
+    "id": "gopher-wire-under-artificial-turf.csu-6507-vole-habitat",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says voles live in heavy cover of grass and litter, eat grasses, plants and bark, often burrow near a rock, and do less lawn damage where lawns are mowed close in fall and tall grass nearby is cleared.",
+    "quote": "Eight species of voles are found widely throughout various ecosystems of Colorado, in heavy ground cover of grasses, grass-like plants, and litter. … Voles eat a variety of grasses, forbs and agricultural and garden crops. They also eat bark on trees and shrubs, especially during fall and winter. … Figure 13: Examples of vole holes. They will often burrow near a rock, but not always. … Damage to lawns can be reduced by close mowing in the fall before snow arrives and by mowing and removing tall grassy cover near lawns.",
+    "source_url": "https://extension.colostate.edu/resource/managing-voles-in-colorado/",
+    "source_label": "CSU Extension Fact Sheet 6.507, Managing Voles in Colorado (published May 2025, reviewed August 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "13",
+      "6.507",
+      "2025"
+    ]
+  },
+  {
+    "id": "gopher-wire-under-artificial-turf.csu-6507-prairie-voles",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension places prairie voles in grasslands and along streams and irrigated land in eastern Colorado, and meadow voles along the South Platte River in damp, marshy and streamside ground.",
+    "quote": "Meadow voles (Microtus pennsylvanicus) primarily occur from north to south central Colorado and along the South Platte River. They tend to live in or near damp marshy areas or wet meadows and riparian corridors. … Prairie voles (Microtus ochrogaster) are found in grasslands and along streams and irrigated lands in eastern Colorado.",
+    "source_url": "https://extension.colostate.edu/resource/managing-voles-in-colorado/",
+    "source_label": "CSU Extension Fact Sheet 6.507, Managing Voles in Colorado (published May 2025, reviewed August 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6.507",
+      "2025"
+    ]
+  },
+  {
+    "id": "gopher-wire-under-artificial-turf.csu-6507-vole-control-limits",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says voles are non-game wildlife in Colorado that may be captured or killed when they cause property damage, that fumigants usually fail on voles because their burrows are too shallow, and that rodenticides can poison dogs and cats.",
+    "quote": "Voles are classified as non-game wildlife in Colorado and may be captured or killed when they create a nuisance or cause property damage. … When using any rodenticide always read and follow the label and guidelines and be sure you understand them prior to use to minimize off target (i.e. raptors, dogs, and cats) poisoning. … Fumigants usually do not work for control of voles because their burrows are too shallow and complex.",
+    "source_url": "https://extension.colostate.edu/resource/managing-voles-in-colorado/",
+    "source_label": "CSU Extension Fact Sheet 6.507, Managing Voles in Colorado (published May 2025, reviewed August 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6.507",
+      "2025"
+    ],
+    "notes": "An extension summary of legal status, not the statute; the guide labels it not legal advice."
+  },
+  {
+    "id": "gopher-wire-under-artificial-turf.planttalk-2310-common-burrowers",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension's PlantTalk Colorado names voles, pocket gophers, prairie dogs and Wyoming ground squirrels as Colorado's main burrowing animals, with voles and pocket gophers among the most common, and says the first step is working out which animal did the damage.",
+    "quote": "The first step to resolving the problem is to figure out which animal (or animals) caused the damage. The main four types of burrowing animals are voles (8 species), pocket gophers (4 species), prairie dogs, and Wyoming ground squirrels. … Voles and pocket gophers are amongst the most common.",
+    "source_url": "https://planttalk.colostate.edu/topics/wildlife-issues/2310-difference-voles-damage-pocket-gopher-damage/",
+    "source_label": "PlantTalk Colorado 2310, Difference between Voles damage and Pocket Gopher damage (CSU Extension)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "8",
+      "4",
+      "2310"
+    ]
+  },
+  {
+    "id": "gopher-wire-under-artificial-turf.csu-6506-prairie-dog-burrows",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says prairie dog burrows run 3 to 14 feet deep and 10 to more than 100 feet long, the black-tailed prairie dog of the Front Range does not hibernate, and visual barriers have slowed colony expansion but cost a lot to build and maintain.",
+    "quote": "They live in burrows about 10 yards apart, 3 to 14 feet deep, and 10 to more than 100 feet long. … The species found on the eastern prairie and along the Front Range, the black-tailed prairie dog, does not hibernate, but is most active on warm sunny days. … Visual barriers constructed from burlap or windrows of small pine trees have slowed colony expansion. Barriers usually are constructed from a woven plastic material. The use of visual barriers is limited due to high construction and maintenance costs.",
+    "source_url": "https://www.extension.colostate.edu/docs/pubs/natres/06506.pdf",
+    "source_label": "CSU Extension Fact Sheet 6.506, Managing Prairie Dogs (reviewed and revised March 2016)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "10",
+      "3",
+      "14",
+      "100",
+      "6.506",
+      "2016"
+    ]
+  },
+  {
+    "id": "gopher-wire-under-artificial-turf.cpw-prairie-dog-relocation",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado Parks and Wildlife says it is unlawful to capture, move and release prairie dogs without a CPW permit, while a landowner or the landowner's agent may hunt, trap or lethally remove prairie dogs that are damaging property.",
+    "quote": "Prairie dogs are classified and managed by CPW through Title 33 in the Colorado Revised Statutes and the Parks and Wildlife Commission Regulations, and by the Colorado Department of Agriculture under Title 35 C.R.S. Landowners (or an agent of the landowner) may hunt, trap or lethally remove prairie dogs when they are causing damage to crops or real or personal property or livestock. … In Colorado, it is unlawful to capture, transport and relocate prairie dogs without a permit from Colorado Parks and Wildlife.",
+    "source_url": "https://cpw.state.co.us/living-prairie-dogs",
+    "source_label": "Colorado Parks and Wildlife, Living with Prairie Dogs",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "33",
+      "35"
+    ]
+  },
+  {
+    "id": "gopher-wire-under-artificial-turf.cpw-prairie-dog-pets",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado Parks and Wildlife tells pet owners near prairie dog colonies to use flea preventatives and keep cats and dogs indoors, because prairie dog fleas can carry plague.",
+    "quote": "While there is a small risk that prairie dogs and their fleas may transmit plague to humans and pets. … Use flea preventatives for your pets. If you are recreating near prairie dog colonies, do not allow pets to roam freely or consume wildlife carcasses. Keep cats and dogs indoors in areas near prairie dog colonies.",
+    "source_url": "https://cpw.state.co.us/living-prairie-dogs",
+    "source_label": "Colorado Parks and Wildlife, Living with Prairie Dogs",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "gopher-wire-under-artificial-turf.ucipm-wire-life-and-roots",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "University of California IPM says galvanized or stainless steel wire lasts longer as a gopher barrier, light non-galvanized wire rusts away within several years, persistent gophers can dig under wire, and wire can restrict and damage tree roots.",
+    "quote": "Use galvanized or stainless steel wire to extend the life of the fencing. This method is not perfect, because persistent gophers can burrow below the wire and the wire can restrict and damage root growth of trees. … Use light-gauge, ¾-inch, non-galvanized steel wire for shrubs and trees that will only need protection while young; the wire will rust and disintegrate after several years, preventing growing roots from becoming strangled.",
+    "source_url": "https://ipm.ucanr.edu/home-and-landscape/pocket-gophers/",
+    "source_label": "UC IPM Pest Notes: Pocket Gophers, UC ANR Publication 7433 (R.A. Baldwin, updated June 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "7433",
+      "2025"
+    ],
+    "notes": "California research; the wire and root findings are about the materials and the animal, not the climate."
+  },
+  {
+    "id": "gopher-wire-under-artificial-turf.ucipm-drip-lines",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "University of California IPM says pocket gophers gnaw flexible plastic water lines, especially drip irrigation, and suggests 6 to 8 inches of coarse gravel of 1 inch or more around buried flexible sprinkler lines and cables.",
+    "quote": "Gophers also gnaw and damage flexible plastic water lines and irrigation systems, particularly those types used for drip irrigation. … Deter gophers by placing 6 to 8 inches of coarse gravel (1 inch or more in diameter) around underground flexible sprinkler lines or utility cables.",
+    "source_url": "https://ipm.ucanr.edu/home-and-landscape/pocket-gophers/",
+    "source_label": "UC IPM Pest Notes: Pocket Gophers, UC ANR Publication 7433 (R.A. Baldwin, updated June 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6",
+      "8",
+      "1",
+      "7433",
+      "2025"
+    ]
+  },
+  {
+    "id": "gopher-wire-under-artificial-turf.usu-vole-mesh-and-strip",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Utah State University Extension says vole mesh should have openings of 1/4 inch or less and suggests, where feasible, a 6- to 8-foot bare soil strip between a yard and the voles' native habitat.",
+    "quote": "Place hardware cloth cylinders around the base of young trees to protect them from voles. The mesh should be 1/4 inch or less in size and should be buried 3 inches below ground level to prevent voles from burrowing under the cylinder. … If feasible, provide a 6-to-8-foot bare soil strip between your yard and the native habitat of voles.",
+    "source_url": "https://extension.usu.edu/archive/how-to-combat-pesky-voles",
+    "source_label": "Utah State University Extension, How to Combat Pesky Voles (archived article)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1/4",
+      "3",
+      "6",
+      "8"
+    ]
+  },
+  {
+    "id": "gopher-wire-under-artificial-turf.synlawn-rodents-before-install",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's installation guidelines say to deal with any rodent problem before installing, that gopher wire can go under the turf's base, and that 3 to 4 inches of existing ground come out for the base.",
+    "quote": "Treat any weed or rodent problem prior to the installation. Gopher wire (hardware cloth) can be installed under the artificial grass’s base. … Remove the grass, dirt, rock or whatever is in the area the SYNLawn Artificial Grass will be installed. Depending on your area, remove between 3”- 4” to create an adequate drainage base.",
+    "source_url": "https://pdf.lowes.com/productdocuments/4e3918ad-d2d9-43d5-8460-f1b8020f5568/60155914.pdf",
+    "source_label": "SYNLawn, Installation Guidelines for Artificial Grass (retail edition, PDF dated September 2022)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "4",
+      "2022"
+    ],
+    "notes": "PDF metadata: created 2022-09-22. Hosted on the retailer's product-document server."
+  },
+  {
+    "id": "gopher-wire-under-artificial-turf.integriturf-gopher-history",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Integriturf's installation guide says areas with a history of gopher activity should have gopher wire mesh installed beneath the turf base.",
+    "quote": "Are there any potential hazards that could impact the turf? Proactively looking for potential issues that could cause damage to your turf will save you from having to make costly repairs in the future. some potential issues to look for are: Gophers - areas with a history of gopher activity should have a gopher wire mesh installed beneath the turf base to prevent gopher damage.",
+    "source_url": "https://integriturf.com/wp-content/uploads/2019/02/Installation-Guide.pdf",
+    "source_label": "Integriturf, Synthetic Turf Installation Guide (PDF dated February 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2023"
+    ],
+    "notes": "PDF metadata: created 2023-02-24; the upload path carries an older folder date."
+  },
+  {
+    "id": "gopher-wire-under-artificial-turf.gopherbasket-wire-spec",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A gopher-wire maker specifies hexagonal mesh 3/4 inch across the flats, sized to a young gopher's shoulders at about 8 weeks, in double-galvanized 20-gauge wire, with courses overlapped at least 2 inches, 2 inches of wire folded up against a concrete edge, and wire run at least 2 inches past an edge with bender board or no border.",
+    "quote": "The hexagonal woven mesh 3/4” across the flats of the hexagon are small enough to keep young gophers out, a size determined by a young gopher’s shoulder girth at the weaned age of about 8 weeks. The 20 gauge wire stands are thick enough to resist potential gopher chew through. Gopher wire strand is electro-plate galvanized, woven into the hex-mesh and then “hot-dipped galvanized”. This double galvanization essential when used under lawns, a harsh environment where the wire is subjected to constant moisture as well as fertilizer applications. … Overlap adjacent courses by a minimum of two inches. Using landscape staples, pin the wire to the ground, every 18” or so at the perimeter and 24” at the interior overlaps. … Concrete or other permanent edge barrier—fold 2” of wire up the edge and push into place tight up against barrier leaving no gaps and stake down or attach to concrete with concrete anchors and 1” washers. … Bender board or no boarder—have wire extend a minimum of 2” beyond the finished edge and stake down.",
+    "source_url": "https://gopherbasket.com/blogs/instructional-guides/lawn-turf",
+    "source_label": "Digger's Product Development (Gopher Basket), Lawn & Turf Installation Guide (January 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3/4",
+      "8",
+      "20",
+      "18",
+      "24",
+      "2",
+      "1",
+      "2025"
+    ],
+    "notes": "A wire maker's own instructions, written for sod; \"wire stands\" is the source's typo for strands. The page's structured data gives datePublished 2025-01-16."
+  },
+  {
+    "id": "gopher-wire-under-artificial-turf.watersavers-mesh-claim",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A turf supplier says gopher wire under artificial grass keeps out moles, voles and gophers with mesh of 3/4 inch or smaller and tells installers to overlap rolls by 6 inches.",
+    "quote": "It’s not a hard DIY job, and a wire barrier can stop tunnels by gophers, moles, and voles before they lead to bumps and lumps in your lawn. … In fact, layers of the net should overlap by six inches, so that pests can’t dig up through any gaps. … There are lots of yard animals that would love nothing more than to dig right through your faux grass, but you can keep that from happening with the right wire mesh. Ideally, you need a mesh that has 3/4″ or smaller holes.",
+    "source_url": "https://www.watersaversturf.com/artificial-turf-catalog/turf-tools-and-accessories/gopher-wire-turf-installations/",
+    "source_label": "Watersavers Turf, Gopher Wire & Netting for Artificial Grass (supplier page)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3/4",
+      "6"
+    ],
+    "notes": "A seller's claim, quoted to contrast with CSU's and USU's 1/4-inch vole mesh; the guide presents it as a claim, not a finding."
+  },
+  {
+    "id": "gopher-wire-under-artificial-turf.noaa-snow-cover-days",
+    "layer": "climate",
+    "applies_to": [
+      "fort-collins-co",
+      "wellington-co",
+      "greeley-co",
+      "windsor-co",
+      "johnstown-co",
+      "severance-co",
+      "evans-co",
+      "eaton-co",
+      "milliken-co"
+    ],
+    "fact": "NOAA's 1991–2020 normals average 43.6 days a year with at least 1 inch of snow on the ground at Fort Collins and 39.3 at Greeley UNC, with snow 5 inches deep or more on about 10.6 and 10.7 days.",
+    "quote": "USC00053005 FT COLLINS — ANN-SNWD-AVGNDS-GE001WI 43.6 · ANN-SNWD-AVGNDS-GE005WI 10.6 · ANN-SNOW-NORMAL 51.4; USC00053553 GREELEY UNC — ANN-SNWD-AVGNDS-GE001WI 39.3 · ANN-SNWD-AVGNDS-GE005WI 10.7 · ANN-SNOW-NORMAL 34.9",
+    "source_url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053005,USC00053553&dataTypes=ANN-SNWD-AVGNDS-GE001WI,ANN-SNWD-AVGNDS-GE005WI,ANN-SNOW-NORMAL&format=json",
+    "source_label": "NOAA NCEI U.S. Climate Normals 1991–2020, annual snow-depth days, stations FT COLLINS (USC00053005) and GREELEY UNC (USC00053553)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1991",
+      "2020",
+      "43.6",
+      "1",
+      "39.3",
+      "5",
+      "10.6",
+      "10.7",
+      "51.4",
+      "34.9"
+    ],
+    "notes": "ANN-SNWD-AVGNDS-GE001WI is the average number of days a year with snow depth of 1 inch or more; GE005WI, 5 inches or more. Applies to the towns the shared noaa-normals-fort-collins and noaa-normals-greeley-unc records cover."
+  },
+  {
+    "id": "gopher-wire-under-artificial-turf.firestone-no-uplift-or-depressions",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone's code says artificial turf may not have holes, uplifted surfaces or depressions, and damaged areas must be repaired or replaced to match the rest of the turf.",
+    "quote": "Artificial turf areas shall not contain weeds, holes, tears, stains, discolorations, seam separations, uplifted surfaces, heat degradation, depressions, odors, excessive wear, or similar deformities and measures of deterioration. Damaged or worn areas shall be repaired or removed and replaced in manner that results in consistent appearance with the existing artificial turf.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+    "source_label": "Firestone Development Code 16.6.4.F.2.f.iii (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [],
+    "notes": "Read 2026-09-25 through the Municode content API (jobId 488870, productId 18062), the text the library page renders by script. Same clause as can-dogs-dig-through-artificial-turf.firestone-repair-holes; this record adds depressions to the fact."
+  },
+  {
+    "id": "gopher-wire-under-artificial-turf.firestone-property-line-buffer",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone requires at least a 3-foot strip of permeable, living landscape between the edge of artificial turf and any property line.",
+    "quote": "A minimum of three (3) foot buffer comprised of permeable surfaces with living and organic landscape material shall be required between the edge of the artificial turf and any property line.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+    "source_label": "Firestone Development Code 16.6.4.F.2.b.iii (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "3"
+    ],
+    "notes": "Read 2026-09-25 through the Municode content API. Same clause as can-dogs-dig-through-artificial-turf.firestone-property-line-buffer and firestone-co.fdc-16.6.4-buffer-slope."
+  }
+]

@@ -1,0 +1,489 @@
+[
+  {
+    "id": "playground-turf-vs-mulch.cpsc-home-handbook-scope",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The CPSC's home playground handbook is guidance for homes and residential child care, not a mandatory standard, and it sends schools, parks, multiple-family housing, public child care and recreational developments to the public playground handbook, publication 325.",
+    "quote": "The handbook is not a mandatory standard. … This handbook is intended as guidance for homes and residential child care facilities. Schools, parks, multiple family dwellings, public child care facilities, restaurants and recreational developments, and other public use facilities should reference the Handbook for Public Playground Safety, CPSC publication number 325.",
+    "source_url": "https://www.cpsc.gov/s3fs-public/324.pdf",
+    "source_label": "U.S. Consumer Product Safety Commission, Outdoor Home Playground Safety Handbook, introduction",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "325"
+    ],
+    "notes": "Read 2026-09-25 in the PDF at cpsc.gov (PDF last modified June 2025). Guidance, not a rule: pages say 'CPSC recommends', never 'required'."
+  },
+  {
+    "id": "playground-turf-vs-mulch.cpsc-home-loose-fill-depth",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "For a home playground, the CPSC recommends keeping at least 9 inches of wood mulch or chips, engineered wood fiber or shredded rubber mulch for equipment up to 8 feet high and 9 inches of sand or pea gravel only for equipment up to 5 feet, starting from a 12-inch fill that settles, with the right level marked on the support posts.",
+    "quote": "Maintain a minimum depth of 9 inches of loose-fill materials such as wood mulch/chips, engineered wood fiber (EWF), or shredded/recycled rubber mulch for equipment up to 8 feet high; and 9 inches of sand or pea gravel for equipment up to 5 feet high. NOTE: An initial fill level of 12 inches will compress to about a 9-inch depth of surfacing over time. The surfacing will also compact, displace, and settle, and should be periodically refilled to maintain at least a 9-inch depth. … Check and maintain the depth of the loose-fill surfacing material. To maintain the right amount of loose-fill materials, mark the correct level on play equipment support posts. That way you can easily see when to replenish and/or redistribute the surfacing.",
+    "source_url": "https://www.cpsc.gov/s3fs-public/324.pdf",
+    "source_label": "U.S. Consumer Product Safety Commission, Outdoor Home Playground Safety Handbook, section 4: Select Protective Surfacing",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "9",
+      "8",
+      "5",
+      "12"
+    ],
+    "notes": "The same section says to mark the correct level on the support posts, to use containment such as edging, and never to put loose fill over concrete or asphalt."
+  },
+  {
+    "id": "playground-turf-vs-mulch.cpsc-home-use-zone",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The CPSC's home handbook says to extend protective surfacing at least 6 feet from the equipment in all directions, and in front of and behind a to-fro swing to twice the height of the top bar it hangs from.",
+    "quote": "Extend surfacing at least 6 feet from the equipment in all directions. • For to-fro swings, extend protective surfacing in front of and behind the swing to a distance equal to twice the height of the top bar from which the swing is suspended.",
+    "source_url": "https://www.cpsc.gov/s3fs-public/324.pdf",
+    "source_label": "U.S. Consumer Product Safety Commission, Outdoor Home Playground Safety Handbook, section 4: Placement",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6"
+    ]
+  },
+  {
+    "id": "playground-turf-vs-mulch.cpsc-home-tested-surface-report",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "For rubber tiles and poured surfaces at home, the CPSC says installation generally takes a professional and that buyers should ask for the ASTM F1292 test report showing a protected height equal to or greater than the equipment's fall height.",
+    "quote": "Installations of these surfaces generally require a professional and are not “do-it-yourself” projects. … Ask the installer/manufacturer for a report showing that the product has been tested to the following safety standard: ASTM F1292 Standard Specification for Impact Attenuation of Surfacing Materials within the Use Zone of Playground Equipment. This report should show the specific height for which the surface is intended to protect against serious head injury. This height should be equal to or greater than the fall height—vertical distance between a designated play surface (elevated surface for standing, sitting, or climbing) and the protective surfacing below—of your play equipment.",
+    "source_url": "https://www.cpsc.gov/s3fs-public/324.pdf",
+    "source_label": "U.S. Consumer Product Safety Commission, Outdoor Home Playground Safety Handbook, section 4: Poured-In-Place Surfaces or Pre-Manufactured Rubber Tiles",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "playground-turf-vs-mulch.cpsc-2025-table-2",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Where tested products are not available, the CPSC's 2025 public handbook lists loose fill installed 12 inches deep and compressed to 9 as protecting to 4 feet for sand, 5 feet for pea gravel, 7 feet for non-CCA wood mulch and 10 feet for wood chips, and rubber mulch installed at 8 inches and compressed to 6 as protecting to 10 feet.",
+    "quote": "Table 2. Non-impact-tested loose-fill surfacing depths (when tested materials are not available) … 8* 6* Rubber mulch 10 · 12 9 Sand 4 · 12 9 Pea gravel 5 · 12 9 Wood mulch (non-CCA) 7 · 12 9 Wood chips 10 … * Rubber loose-fill surfacing does not compress in the same manner as other loose-fill materials. However, care should be taken to maintain a constant depth as displacement may still occur.",
+    "source_url": "https://www.cpsc.gov/s3fs-public/325_PublicPlaygroundSafetyHandbook2025_7-30-25_1.pdf",
+    "source_label": "U.S. Consumer Product Safety Commission, Public Playground Safety Handbook (July 2025), Table 2: minimum installed depth, minimum compressed depth (inches) and critical height (feet)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "12",
+      "9",
+      "4",
+      "5",
+      "7",
+      "10",
+      "8",
+      "6",
+      "2025"
+    ],
+    "notes": "Columns in the table: minimum depth when installed (inches), minimum depth when compressed (inches), material, protects to this critical height (feet). Written for public playgrounds; the home handbook's own figures are in cpsc-home-loose-fill-depth."
+  },
+  {
+    "id": "playground-turf-vs-mulch.cpsc-2025-compress-displace",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The CPSC says loose fill compresses at least 25% over time, needs frequent upkeep so it never drops below its minimum depth, and is displaced most under swings and at slide exits, where wear mats help.",
+    "quote": "Loose-fill materials will compress at least 25% over time due to use and weathering. This must be considered when planning the playground. For example, if the playground will require 9 inches of wood chips, then the initial fill level should be 12 inches. … Loose-fill surfacing requires frequent maintenance to ensure surfacing levels never drop below the minimum depth. Areas under swings and at slide exits are more susceptible to displacement; special attention must be paid to maintenance in these areas. Additionally, wear mats can be installed in these areas to reduce displacement.",
+    "source_url": "https://www.cpsc.gov/s3fs-public/325_PublicPlaygroundSafetyHandbook2025_7-30-25_1.pdf",
+    "source_label": "U.S. Consumer Product Safety Commission, Public Playground Safety Handbook (July 2025), section 2.4.2.2, tips 1 and 2",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "25",
+      "9",
+      "12",
+      "1",
+      "2",
+      "2025"
+    ]
+  },
+  {
+    "id": "playground-turf-vs-mulch.cpsc-2025-frozen-loose-fill",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The CPSC says critical height may drop in winter where the ground freezes, that most loose fill frozen solid no longer works as protective surfacing even if the top few inches are loose, and recommends that children not play on the equipment then.",
+    "quote": "Critical height may be reduced during winter in areas where the ground freezes. … Frozen surfacing. Most loose-fill surfacing that freezes solid no longer functions as protective surfacing. Even if the first few inches may be loose, the base layer may be frozen and the shock-absorbing properties of the surfacing may be significantly reduced. It is recommended that children not play on the equipment under these conditions.",
+    "source_url": "https://www.cpsc.gov/s3fs-public/325_PublicPlaygroundSafetyHandbook2025_7-30-25_1.pdf",
+    "source_label": "U.S. Consumer Product Safety Commission, Public Playground Safety Handbook (July 2025), section 2.4.2.2 tip 6 and section 4.3 Maintaining Loose-Fill Surfacing",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6",
+      "4.3",
+      "2025"
+    ]
+  },
+  {
+    "id": "playground-turf-vs-mulch.cpsc-2025-critical-height-reduced",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The CPSC notes that a loose fill's critical height may be reduced by extreme heat or cold, wind, poor drainage, frozen ground or water, compaction, deterioration and poor upkeep.",
+    "quote": "“Critical Height” is the maximum fall height to which the given depth of loose-fill surfacing can be expected to protect against a life-threatening head injury. Critical height may be reduced due to extreme heat or cold, wind, lack of drainage, freezing of ground/water, compacting, deterioration, and lack of proper maintenance.",
+    "source_url": "https://www.cpsc.gov/s3fs-public/325_PublicPlaygroundSafetyHandbook2025_7-30-25_1.pdf",
+    "source_label": "U.S. Consumer Product Safety Commission, Public Playground Safety Handbook (July 2025), Table 2 note",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "2025"
+    ]
+  },
+  {
+    "id": "playground-turf-vs-mulch.cpsc-2025-drainage-wet-mulch",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The CPSC calls good drainage essential for loose fill, because standing water cuts its effectiveness and speeds compaction and decomposition, and wet mulch compacts faster than dry mulch.",
+    "quote": "Good drainage is essential to maintaining loose-fill surfacing. Standing water with surfacing material reduces effectiveness and leads to material compaction and decomposition. … Pooling water on mulch surfacing. For example, wet mulch compacts faster than dry, fluffy mulch. If puddles are noticed regularly, consider addressing larger drainage issues.",
+    "source_url": "https://www.cpsc.gov/s3fs-public/325_PublicPlaygroundSafetyHandbook2025_7-30-25_1.pdf",
+    "source_label": "U.S. Consumer Product Safety Commission, Public Playground Safety Handbook (July 2025), section 2.4.2.2 tip 5 and section 4.3",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5",
+      "4.3",
+      "2025"
+    ]
+  },
+  {
+    "id": "playground-turf-vs-mulch.cpsc-2025-rubber-mulch-f3012",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The CPSC says untested rubber mulch made from recycled tires may contain hazardous metals or other substances of concern, should be avoided on toddler playgrounds, and should be used only if it meets ASTM F3012, with 6 inches its recommended minimum depth.",
+    "quote": "Never maintain less than 9 inches of loose-fill material except for rubber mulch (6 inches recommended). … Untested rubber mulch made from recycled tires and EWF made from recycled wood products may contain hazardous metals or other substances of concern. These materials should be avoided on playgrounds for toddlers due to their higher rates of mouthing. Rubber mulch should only be used if it meets ASTM F3012 (loose-fill rubber testing).",
+    "source_url": "https://www.cpsc.gov/s3fs-public/325_PublicPlaygroundSafetyHandbook2025_7-30-25_1.pdf",
+    "source_label": "U.S. Consumer Product Safety Commission, Public Playground Safety Handbook (July 2025), section 2.4.2.2 tips 7 and 10",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "9",
+      "6",
+      "7",
+      "10",
+      "2025"
+    ]
+  },
+  {
+    "id": "playground-turf-vs-mulch.cpsc-2025-toddlers-loose-fill",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The CPSC says loose-fill surfacing should be avoided on playgrounds for toddlers or for children who often put objects in their mouths.",
+    "quote": "Loose-fill surfacing materials should be avoided for playgrounds intended for toddlers or children who frequently place objects in their mouths.",
+    "source_url": "https://www.cpsc.gov/s3fs-public/325_PublicPlaygroundSafetyHandbook2025_7-30-25_1.pdf",
+    "source_label": "U.S. Consumer Product Safety Commission, Public Playground Safety Handbook (July 2025), section 2.4.2 Selecting a surfacing material",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2025"
+    ],
+    "notes": "The handbook defines toddlers as children 6 months through 23 months of age."
+  },
+  {
+    "id": "playground-turf-vs-mulch.cpsc-2025-carpet-mats-grass",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The CPSC's 2025 public handbook says grass and dirt are not protective surfacing and that carpeting and mats are not appropriate unless impact-tested to and compliant with ASTM F1292.",
+    "quote": "Grass and dirt are not considered protective surfacing because wear and environmental factors can reduce their shock-absorbing effectiveness. Carpeting and mats are also not appropriate unless they are impact-tested to and comply with ASTM F1292.",
+    "source_url": "https://www.cpsc.gov/s3fs-public/325_PublicPlaygroundSafetyHandbook2025_7-30-25_1.pdf",
+    "source_label": "U.S. Consumer Product Safety Commission, Public Playground Safety Handbook (July 2025), section 2.4.2 Selecting a surfacing material",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2025"
+    ],
+    "notes": "The PDF sets 'environmental' with a soft hyphen (environ-mental); the quote drops it."
+  },
+  {
+    "id": "playground-turf-vs-mulch.cpsc-2025-unitary-test-data-heat",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "For unitary surfaces, the CPSC says to request the maker's ASTM F1292 test data with the critical height rating, and warns that some dark-colored surfaces in intense sun have blistered bare feet.",
+    "quote": "… some dark colored surfacing materials exposed to the intense sun have caused blistering on bare feet. Check with the manufacturer if light colored materials are available or provide shading to reduce direct sun exposure. Persons wishing to install a unitary material as a playground surface should request ASTM F1292 test data from the manufacturer identifying the critical height rating of the desired surface.",
+    "source_url": "https://www.cpsc.gov/s3fs-public/325_PublicPlaygroundSafetyHandbook2025_7-30-25_1.pdf",
+    "source_label": "U.S. Consumer Product Safety Commission, Public Playground Safety Handbook (July 2025), section 2.4.2.1 Unitary surfacing materials",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2025"
+    ]
+  },
+  {
+    "id": "playground-turf-vs-mulch.cpsc-2025-field-test",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The CPSC's 2025 public handbook says installed playground surfacing should be tested to ASTM F3313 to confirm its field performance, and that the ASTM F1292 lab rating should be at least the fall height of the tallest equipment.",
+    "quote": "Laboratory test methods are described in ASTM F1292. Installed playground surfacing should be tested to ASTM F3313 to confirm the field performance of the surfacing. Laboratory testing using the methods described in ASTM F1292 will provide a “critical height” rating of the surface. … This rating should be greater than or equal to the fall height of the highest piece of equipment on the playground.",
+    "source_url": "https://www.cpsc.gov/s3fs-public/325_PublicPlaygroundSafetyHandbook2025_7-30-25_1.pdf",
+    "source_label": "U.S. Consumer Product Safety Commission, Public Playground Safety Handbook (July 2025), section 2.4 Surfacing",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2025"
+    ]
+  },
+  {
+    "id": "playground-turf-vs-mulch.cpsc-2025-ewf-definition",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The CPSC describes engineered wood fiber as a wood product that can look like landscaping mulch but is made for playground surfacing, and says it should meet ASTM F2075 and be impact-tested to ASTM F1292.",
+    "quote": "Engineered wood fiber (EWF) is a wood product that may look similar in appearance to landscaping mulch, but EWF surfacing products are designed specifically for use as a playground safety surface under and around playground equipment. EWF surfacing products should meet the specifications in ASTM F2075 and be impact-tested to and comply with ASTM F1292.",
+    "source_url": "https://www.cpsc.gov/s3fs-public/325_PublicPlaygroundSafetyHandbook2025_7-30-25_1.pdf",
+    "source_label": "U.S. Consumer Product Safety Commission, Public Playground Safety Handbook (July 2025), section 2.4.2.2 Loose fill surfacing materials",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2025"
+    ]
+  },
+  {
+    "id": "playground-turf-vs-mulch.astm-f1292-lab-conditions",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "ASTM F1292 rates surfacing in a laboratory in its as-received condition, offers wet and frozen testing only as optional procedures, and says the lab rating does not account for field factors such as freezing, moisture, compaction and loss of thickness.",
+    "quote": "The laboratory testing required by this specification addresses the performance of surfacing materials in an as-received condition. … This specification also provides optional procedures to determine the critical height, or performance criteria at a specified drop height, under wet or frozen test conditions, or both. … The critical height, or performance of a playground surfacing material or system at a specified drop height, determined under laboratory conditions does not account for important factors that have the potential to influence the actual performance of installed surfacing materials. Factors that are known to affect surfacing material performance include but are not limited to aging, moisture, maintenance, exposure to temperature extremes (for example, freezing), exposure to ultraviolet light, contamination with other materials, compaction, loss of thickness, shrinkage, submersion in water, and so forth.",
+    "source_url": "https://www.astm.org/f1292-26.html",
+    "source_label": "ASTM International, F1292 Standard Specification for Impact Attenuation of Surfacing Materials Within the Use Zone of Playground Equipment as Tested in a Laboratory, scope (active edition, page last updated Sept. 14, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-09-14",
+    "numbers": [],
+    "notes": "Read on ASTM's product page for the active edition (F1292-26), scope sections 1.5 to 1.7. The 2022 edition's scope says the same with 'dry surfacing materials' in place of 'as-received condition'."
+  },
+  {
+    "id": "playground-turf-vs-mulch.access-board-f1951-routes",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Under the ADA play area guidelines, ground surfaces on accessible routes must meet ASTM F1951 and, inside a use zone, ASTM F1292 too, and the U.S. Access Board says rubber surfacing and some engineered wood fiber met F1951 when it wrote its guide, with wood fiber needing frequent upkeep to keep complying.",
+    "quote": "Ground surfaces along accessible routes, clear floor or ground spaces, and maneuvering spaces, must comply with the American Society for Testing and Materials (ASTM) F 1951-99 Standard Specification for Determination of Accessibility to Surface Systems Under and Around Playground Equipment. … If located within the use zone, accessible ground surfaces must also be impact attenuating and meet ASTM F 1292-04 … Engineered wood fiber surfaces will require frequent maintenance to comply with the ASTM F 1951-99 standard because of surface displacement due to user activity or other factors. … At the time of this publication, rubber surfacing and some engineered wood fiber products meet the ASTM F 1951-99 standard.",
+    "source_url": "https://www.access-board.gov/ada/guides/chapter-10-play-areas/",
+    "source_label": "U.S. Access Board, Guide to the ADA Accessibility Standards, Chapter 10: Play Areas (Accessible Ground Surfaces)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The guide cites the 1999 and 2004 editions of the standards named in the 2010 ADA Standards; ASTM has published newer editions since."
+  },
+  {
+    "id": "playground-turf-vs-mulch.access-board-scope",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The ADA play area guidelines cover newly built play areas in parks, schools and childcare facilities, but not family childcare facilities where the owner lives.",
+    "quote": "The play area guidelines in this guide apply to all newly designed or constructed play areas for children ages 2 and older. This includes play areas located in a variety of settings: parks, schools, childcare facilities, shopping centers, and public gathering areas. The play area guidelines do not apply to: Family childcare facilities where the proprietor resides",
+    "source_url": "https://www.access-board.gov/ada/guides/chapter-10-play-areas/",
+    "source_label": "U.S. Access Board, Guide to the ADA Accessibility Standards, Chapter 10: Play Areas (Application)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2"
+    ],
+    "notes": "The guide says the ADA Standards apply to places of public accommodation, commercial facilities and state and local government facilities; a private backyard is none of these."
+  },
+  {
+    "id": "playground-turf-vs-mulch.nca-ewf-uneven-kickout",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "In a U.S. Access Board-funded study of 25 new public playgrounds, every site surfaced with engineered wood fiber had an uneven, undulating surface within 12 months, and a kick-out hole at a swing could reach 3 by 8 feet and more than 5 inches deep.",
+    "quote": "Every playground installed with EWF was observed with undulation across the horizon of the surface area. … A kick-out area at a swing could be as large as 3 ft. x 8 ft. with a depth of more than 5 inches. … Within 12 months of installation, playground sites in the sample with the loose fill EWF were found to have the greatest number of deficiencies affecting the accessible route to play components.",
+    "source_url": "https://www.playgroundgrass.com/wp-content/uploads/2017/11/NCA_Playground_Surface_Study_Year_One.pdf",
+    "source_label": "National Center on Accessibility (Indiana University) for the U.S. Access Board, A Longitudinal Study of Playground Surfaces to Evaluate Accessibility: Year One Findings, Executive Summary (May 2011), copy posted by a turf maker",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [
+      "25",
+      "12",
+      "3",
+      "8",
+      "5",
+      "2011"
+    ],
+    "notes": "The study's publisher, ncaonline.org, refused connections on 2026-09-25, so the executive summary was read in full in a copy posted by a playground-turf maker. The 25 sites were municipal parks near Bloomington, Indianapolis and Chicago, evaluated 2008-2010; the study had no shredded rubber sites. Cite as the NCA study, not as the maker's claim."
+  },
+  {
+    "id": "playground-turf-vs-mulch.nca-hybrid-turf-minimal",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same study found the hybrid systems, one of them an artificial turf system, had minimal deficiencies within 12 months, comparable to poured-in-place rubber, and concluded that there is no perfect playground surface.",
+    "quote": "The last site used an artificial turf grass system, similar to that used on football fields. … As tested within 12 months of installation, all three HYB surface systems were observed to have minimal deficiencies, comparable to the SDS with PIP. … Preliminary results from this study indicate that there is no perfect playground surface.",
+    "source_url": "https://www.playgroundgrass.com/wp-content/uploads/2017/11/NCA_Playground_Surface_Study_Year_One.pdf",
+    "source_label": "National Center on Accessibility (Indiana University) for the U.S. Access Board, A Longitudinal Study of Playground Surfaces to Evaluate Accessibility: Year One Findings, Executive Summary (May 2011), copy posted by a turf maker",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [
+      "12",
+      "2011"
+    ],
+    "notes": "Four hybrid sites across three systems; the study says much more research is needed on their longevity for impact attenuation and ability to withstand various outdoor climates. Year one only."
+  },
+  {
+    "id": "playground-turf-vs-mulch.nca-poured-swing-bays-failed",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "In the same study, a new poured-rubber surface that looked fine failed a field impact test at two swing bays, and the authors concluded that visual inspection alone cannot show whether a surface is impact attenuating.",
+    "quote": "But it was the PIP surface at two swing bays that was found in non-compliance with HIC scores well over the 1,000 HIC allowable under the standard. … Visual inspection alone cannot determine if the playground surface is accessible and impact attenuating in accordance with the ASTM standards.",
+    "source_url": "https://www.playgroundgrass.com/wp-content/uploads/2017/11/NCA_Playground_Surface_Study_Year_One.pdf",
+    "source_label": "National Center on Accessibility (Indiana University) for the U.S. Access Board, A Longitudinal Study of Playground Surfaces to Evaluate Accessibility: Year One Findings, Executive Summary (May 2011), copy posted by a turf maker",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [
+      "1000",
+      "2011"
+    ],
+    "notes": "The maker repaired about 2,000 sq ft at the swing bays, after which HIC retested at 650-750."
+  },
+  {
+    "id": "playground-turf-vs-mulch.epa-cpsc-tire-rubber-assessment",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "EPA says the Consumer Product Safety Commission surveyed how children use playgrounds as part of the federal tire crumb research and will follow with a risk assessment of children's exposure to playground surfaces made of tire rubber.",
+    "quote": "Playground Study (Consumer Product Safety Commission): As part of the FRAP, CPSC conducted a playground use survey gathering information about children’s behavior on playgrounds. CPSC will continue its work on playgrounds by conducting a risk assessment of children’s exposure to playground surfaces made of tire rubber.",
+    "source_url": "https://www.epa.gov/chemical-research/federal-research-recycled-tire-crumb-used-playing-fields-and-playgrounds",
+    "source_label": "U.S. EPA, Federal Research on Recycled Tire Crumb Used on Playing Fields and Playgrounds (last updated July 8, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [],
+    "notes": "No playground risk assessment was posted on EPA's page on 2026-09-25. Re-check for a released CPSC assessment."
+  },
+  {
+    "id": "playground-turf-vs-mulch.ccr-2-230-rake-six-inches",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado's child care center rules require loose fill to be raked regularly to keep its resiliency and a depth of at least 6 inches, and list turf with a built-in resilient pad among approved solid surfaces, with the maker's written documentation for new installs.",
+    "quote": "Loose fill resilient surface must be raked regularly to retain its resiliency and to retain a depth of at least six (6) inches. … Solid unitary materials include poured in place surfacing, approved rubber mats, playground tiles, and Astroturf with built in resilient pad. … Any newly installed solid unitary materials used for resilient materials must have written documentation from manufacturer stating the material meet current federal safety standards.",
+    "source_url": "https://www.law.cornell.edu/regulations/colorado/8-CCR-1402-1-2.230",
+    "source_label": "Colorado Department of Early Childhood, 8 CCR 1402-1-2.230(C)(1), child care center indoor/outdoor equipment, materials and surfaces (46 CR 22, effective Dec. 15, 2023), via Cornell LII",
+    "effective": "2023-12-15",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "6"
+    ],
+    "notes": "Read 2026-09-25 at Cornell LII. Subsection C covers centers without an annually certified playground inspection. The same raking sentence appears in 8 CCR 1402-1-2.337 (family child care homes, shared record co-ccr-1402-1-2.337-resilient-surfacing) and 2.524 (school-age child care centers, effective 8/30/2024). Re-check against the rule set on the Secretary of State site."
+  },
+  {
+    "id": "playground-turf-vs-mulch.ccc-foothill-winds",
+    "layer": "climate",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Climate Center describes moderate to high wind on the plains and says places very near the mountains get periodic, severe turbulent winds when high westerly winds cross the mountain barrier.",
+    "quote": "The climate of the plains is comparatively uniform from place to place, with characteristic features of low relative humidity, abundant sunshine, infrequent rains and snow, moderate to high wind movement, and a large daily and seasonal range in temperature. … Average wind movement is less, but areas very near the mountains are subject to periodic, severe turbulent winds from the effects of high westerly winds over the mountain barrier.",
+    "source_url": "https://climate.colostate.edu/climate_long.html",
+    "source_label": "Colorado Climate Center (Colorado State University), Climate of Colorado",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "playground-turf-vs-mulch.ccc-chinook-rises",
+    "layer": "climate",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Climate Center says chinook winds on the high plains bring sudden temperature rises, with jumps of 25 to 35°F in a short time not uncommon.",
+    "quote": "This phenomenon is the \"chinook;\" of the high plains and temperature rises of 25 to 35°F within a short time are not uncommon.",
+    "source_url": "https://climate.colostate.edu/climate_long.html",
+    "source_label": "Colorado Climate Center (Colorado State University), Climate of Colorado",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "25",
+      "35"
+    ]
+  },
+  {
+    "id": "playground-turf-vs-mulch.sydney-2022-hottest-floors",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A 2022 study of 10 Sydney playgrounds found dark poured rubber and synthetic turf the hottest ground surfaces, each peaking above 80°C (about 176°F), and found that surfaces in shade never reached burn-threshold temperatures.",
+    "quote": "In-situ measurements from 10 playgrounds in Sydney showed that the maximum and average surface temperatures of sun-exposed playground equipment and flooring surfaces were frequently above skin contact burn thresholds. Black and dark-coloured wet pour rubber and synthetic turf were the hottest floor materials, all having maximum surface temperatures (Ts_max) > 80 °C. … Surface temperatures were significantly reduced in the shade and never reached burn threshold temperatures.",
+    "source_url": "https://doi.org/10.1016/j.buildenv.2022.109500",
+    "source_label": "Pfautsch, Wujeska-Klause and Walters, Outdoor playgrounds and climate change: importance of surface materials and shade to extend play time and prevent burn injuries, Building and Environment (2022), abstract",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [
+      "2022",
+      "10",
+      "80",
+      "176"
+    ],
+    "notes": "The publisher (ScienceDirect) returned 403 to automated fetch on 2026-09-25; the abstract was read verbatim in OpenAlex's record for the DOI. 176°F is our conversion of 80°C. The abstract does not report wood mulch or gravel temperatures, so pages make no heat claim about them from this study."
+  }
+]

@@ -1,0 +1,346 @@
+[
+  {
+    "id": "indoor-putting-green-for-home.noaa-fort-collins-snow-season",
+    "layer": "climate",
+    "applies_to": [
+      "fort-collins-co",
+      "wellington-co"
+    ],
+    "fact": "At NOAA's Fort Collins station an average year has 43.6 days with an inch or more of snow on the ground, and in half of years the first 32°F night comes by October 7 and the last by May 2 (1991–2020 normals).",
+    "quote": "USC00053005 FT COLLINS — ANN-SNWD-AVGNDS-GE001WI 43.6 · ANN-TMIN-PRBFST-T32FP50 10/07 · ANN-TMIN-PRBLST-T32FP50 05/02",
+    "source_url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053005&format=json",
+    "source_label": "NOAA NCEI U.S. Climate Normals 1991–2020, annual/seasonal, station FT COLLINS (USC00053005): snow-cover days and freeze dates",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "43.6",
+      "1",
+      "32",
+      "7",
+      "2",
+      "10/07",
+      "05/02",
+      "1991",
+      "2020"
+    ],
+    "notes": "Read from the NCEI data service JSON on 2026-09-25 (ANN-SNWD-AVGNDS-GE001WI = 43.6, ANN-TMIN-PRBFST-T32FP50 = 10/07, ANN-TMIN-PRBLST-T32FP50 = 05/02). Element definitions per NOAA's normals documentation: SNWD GE001WI = days with snow depth of 1 inch or more; PRBFST/PRBLST T32FP50 = the date by which the first fall / last spring 32°F night has come in 50% of years. The station's 51.4 inches of snow and 150 freezing nights are the shared record noaa-normals-fort-collins. Station-to-town assignment by proximity (INFERENCE): say 'the nearest NOAA station'."
+  },
+  {
+    "id": "indoor-putting-green-for-home.randa-hole-definition",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Rules of Golf define the hole as 4.25 inches (108 mm) across and at least 4 inches (101.6 mm) deep, with any lining sunk at least 1 inch below the putting surface unless the soil requires it closer.",
+    "quote": "The hole must be 4 ¼ inches (108 mm) in diameter and at least 4 inches (101.6 mm) deep. If a lining is used, its outer diameter must not exceed 4 ¼ inches (108 mm). The lining must be sunk at least 1 inch (25.4 mm) below the putting green surface, unless the nature of the soil requires that it be closer to the surface.",
+    "source_url": "https://www.randa.org/en/rog/definitions",
+    "source_label": "The R&A, Rules of Golf (2023 edition), Definitions: Hole",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-01-02",
+    "numbers": [
+      "4.25",
+      "4",
+      "108",
+      "101.6",
+      "1",
+      "25.4",
+      "2023"
+    ],
+    "notes": "Read with curl on 2026-09-25; the definition text sits in the page's embedded JSON (definitionText for 'Hole'), rendered in 'Rules of Golf … (2023 copy)'. 4 ¼ = 4.25. usga.org returns 403 to automated fetches, so the R&A's copy of the same joint Rules is the source read. The Rules are revised on a four-year cycle; re-read the definition when a new edition takes effect."
+  },
+  {
+    "id": "indoor-putting-green-for-home.usga-stimpmeter-level-run",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The USGA's Stimpmeter booklet says to measure green speed on a level area 10 to 12 feet long in one direction, ideally a 12-foot level run, or as short as 6 feet with the half-length 2X notch, rolling three balls each way and averaging the two distances.",
+    "quote": "Step 1: Select a level area on the green, approximately several feet wide and 10 to 12 feet in one direction. … Step 6: Measure the two distances, one for each series of ball rolls, and calculate the average. This is the speed of the green. … The ideal method is to measure greens on a 12-foot level area using the standard ball-release notch, or full-length run. … using the “2X” notch on the reverse allows for testing of level areas as short as 6 feet.",
+    "source_url": "https://web.archive.org/web/20230411100204/https://www.usga.org/content/dam/usga/pdf/imported/StimpmeterBookletFINAL.pdf",
+    "source_label": "USGA, Stimpmeter Instruction Booklet (archived copy, Apr. 11, 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "10",
+      "12",
+      "6",
+      "2",
+      "1"
+    ],
+    "notes": "usga.org answers automated fetches with 403; the identical PDF was read in full from the Wayback Machine capture of 2023-04-11 with pdftotext on 2026-09-25. The booklet's steps use three balls each way (Step 2: 'Repeat the same procedure with two more balls'). The putting-green-stimp-speed guide owns how to measure speed; this page uses only the length of level run the method needs."
+  },
+  {
+    "id": "indoor-putting-green-for-home.usga-stimp-course-range",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The USGA says Stimpmeter readings on American golf courses generally range from 7 to 12 feet.",
+    "quote": "Stimpmeter readings on American golf courses generally range from 7 feet to 12 feet, depending on many factors including slope, contours, green size, grasses, weather, budget, etc.",
+    "source_url": "https://web.archive.org/web/20230411100204/https://www.usga.org/content/dam/usga/pdf/imported/StimpmeterBookletFINAL.pdf",
+    "source_label": "USGA, Stimpmeter Instruction Booklet (archived copy, Apr. 11, 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "7",
+      "12"
+    ],
+    "notes": "Same archived PDF as usga-stimpmeter-level-run. The booklet also says keeping living greens above 10 feet consistently is not recommended; that is about grass health and is not used here."
+  },
+  {
+    "id": "indoor-putting-green-for-home.starpro-indoor-roll-out",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "StarPro Greens, which sells roll-out putting greens, says its greens can be used in family rooms or basements with surface cups that need no hole, that small sandbags under the green create contours, and that the green rolls up green side out for storage once both sides are dry.",
+    "quote": "Our greens can be used indoor in family rooms or basements or in your backyard on patios and poolside. … This box contains patented StarBall Putting Cups … that work exactly like a real golf hole – without coring a hole! … If green is used patio or poolside, allow both sides to dry completely before rolling up for storage. Flip the green over, roll up the green (green side out) with a 5” center core … Contours add a lot of fun and make the green more challenging. For best results, use sand bags (1/2 – 1 cup of sand in a 12”x12” Ziploc freezer bag works best) and place as many as you see fit under the green to create contours.",
+    "source_url": "https://starprogreens.com/instructions-for-large-putting-green-by-starpro-greens/",
+    "source_label": "StarPro Greens, Indoor/Patio Installation Instructions for Professional Putting Green (seller's instructions)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "1/2",
+      "1",
+      "12",
+      "5"
+    ],
+    "notes": "A seller's own instructions, read with curl 2026-09-25. 'Best' is the seller's word; page copy describes the sandbags without it. The patent number is a citation, not a figure the page uses."
+  },
+  {
+    "id": "indoor-putting-green-for-home.starpro-cleaning",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "StarPro Greens says its nylon putting greens can be scrubbed with mild detergent, swept, vacuumed, blown or hosed, and that vacuuming with a beater bar can slow the green down.",
+    "quote": "Our greens can be scrubbed (mild detergent), swept, vacuumed (using a beater bar can slow down the green), blown or hosed.",
+    "source_url": "https://starprogreens.com/instructions-for-large-putting-green-by-starpro-greens/",
+    "source_label": "StarPro Greens, Indoor/Patio Installation Instructions for Professional Putting Green (seller's instructions)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [],
+    "notes": "The product page describes the surface as twisted nylon filaments; the care line is the seller's, for its own surface."
+  },
+  {
+    "id": "indoor-putting-green-for-home.starpro-11x17-room-size",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "StarPro Greens says its 11 by 17 foot kit, a 9 by 15 foot green with a 1-foot border, is its most popular because it is the largest size that fits many golfers' recreation rooms, and that it can be rolled up to move or store.",
+    "quote": "StarPro Greens’ 11 x 17 foot kit includes our 9 x 15 foot Professional Putting Green with the surrounding 1-foot wide border … This size green is our most popular with golfers because it’s the largest size that can fit into their recreation room, outdoor patio, or backyard space. It’s popular for golf trainers or schools because even with the added 1-foot border, it’s possible to roll up this green (turf side out) and move it indoors or outdoors or store it.",
+    "source_url": "https://starprogreens.com/product/11-x-17-5-hole-pro-backyard-or-indoor-putting-green-kit/",
+    "source_label": "StarPro Greens, 11′ x 17′ 5-Hole Pro Backyard, Outdoor and Indoor Putting Green product page",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "11",
+      "17",
+      "9",
+      "15",
+      "1",
+      "5"
+    ],
+    "notes": "Seller's claim about its own customers. The same page quotes 10–11 on the Stimpmeter for its turf; that speed claim is the seller's and is attributed as such if used."
+  },
+  {
+    "id": "indoor-putting-green-for-home.starpro-slope-limit",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "StarPro Greens' installation instructions say the slope under a putting green should not exceed a 2-inch rise over a 10-foot run for realistic practice, which works out to about 1.7%.",
+    "quote": "Use a level to check the slope, which should not exceed 2\" rise over a 10 foot run for realistic golf practice.",
+    "source_url": "https://starprogreens.com/product/11-x-17-5-hole-pro-backyard-or-indoor-putting-green-kit/",
+    "source_label": "StarPro Greens, 11′ x 17′ 5-Hole Pro Backyard, Outdoor and Indoor Putting Green product page (installation instructions)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "2",
+      "10",
+      "1.7",
+      "120",
+      "1.67",
+      "11",
+      "17",
+      "5"
+    ],
+    "notes": "The sentence is in the seller's backyard installation steps on the product page, describing the ground a green goes on. 1.7% is our arithmetic: 2 inches ÷ 120 inches (10 feet) = 1.67%. A seller's rule of thumb, not a golf-industry standard; the putting-green-on-a-slope guide owns how much slope is too much."
+  },
+  {
+    "id": "indoor-putting-green-for-home.starpro-speed-claim",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "StarPro Greens says its nylon putting turf plays at 10 to 11 on the Stimpmeter.",
+    "quote": "StarPro’s famous Master Putting Turf makes this green play like a real golf green, and you can expect a realistic 10-11 stimp speed for your putts, just like at a country club green.",
+    "source_url": "https://starprogreens.com/product/11-x-17-5-hole-pro-backyard-or-indoor-putting-green-kit/",
+    "source_label": "StarPro Greens, 11′ x 17′ 5-Hole Pro Backyard, Outdoor and Indoor Putting Green product page",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "10",
+      "11"
+    ],
+    "notes": "The seller's own speed claim for its own surface; attribute it ('the seller says'), never present it as measured."
+  },
+  {
+    "id": "indoor-putting-green-for-home.tourgreens-foam-contours",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Tour Greens, a putting-green maker, builds in-home greens on pre-molded tiles or custom-shaped polystyrene foam sections to give the base breaks and undulations.",
+    "quote": "Tour Greens offers custom artificial putting green design and installation for in-home use. Utilizing our revolutionary synthetic golf turf and pre-molded tiles or custom shaped polystyrene sections, Tour Greens designers can develop a contoured putting green base for realistic breaks and undulations that you would find on a real bent grass green.",
+    "source_url": "https://www.tourgreens.com/indoor-putting-greens.html",
+    "source_label": "Tour Greens, Custom Indoor Putting Greens (maker's page)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [],
+    "notes": "Maker's marketing page, read with curl 2026-09-25. The page also mentions laser-cut polystyrene foam."
+  },
+  {
+    "id": "indoor-putting-green-for-home.swg-indoor-sizes-process",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Southwest Greens lists 7.5 by 15, 15 by 15 and 25 by 15 feet among popular indoor putting green sizes, and describes an indoor job as prepping the room, installing a base and adding shaping material before the turf.",
+    "quote": "Your project starts with measuring the space and choosing a layout. Once the room is prepped, our team installs the base, adds the shaping material, and finishes the artificial turf installation … Some popular indoor putting green sizes include: 7.5' x 15' 15' x 15' 25' x 15'",
+    "source_url": "https://www.southwestgreens.com/artificial-putting-greens/indoor-putting-greens",
+    "source_label": "Southwest Greens, Indoor Putting Greens (installer's page)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "7.5",
+      "15",
+      "25"
+    ],
+    "notes": "An installer's marketing page. It also quotes a per-square-foot price range; the page never repeats competitor prices."
+  },
+  {
+    "id": "indoor-putting-green-for-home.swg-nylon-non-infill-indoor",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Southwest Greens sells nylon putting surfaces for indoor greens as a non-infill surface it calls perfect for indoor use.",
+    "quote": "NYPUTT 2 is a nylon putting green surface that is sure to provide a smooth roll and a natural appearance. Southwest Greens provides a non-infill solution that is perfect for indoor applications.",
+    "source_url": "https://www.southwestgreens.com/artificial-putting-greens/indoor-putting-greens",
+    "source_label": "Southwest Greens, Indoor Putting Greens (installer's page)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "2"
+    ],
+    "notes": "The listed indoor products are 100% nylon, 50 oz face weight and 0.38-inch pile per the page. \"NYPUTT 2\" is the product name."
+  },
+  {
+    "id": "indoor-putting-green-for-home.irc-2021-r305-basement-ceiling",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Under the 2021 International Residential Code, basement space used as living space needs a ceiling at least 7 feet high, and beams, girders, ducts or other obstructions may hang to within 6 feet 4 inches of the finished floor.",
+    "quote": "Habitable space, hallways and portions of basements containing these spaces shall have a ceiling height of not less than 7 feet (2134 mm). … Beams, girders, ducts or other obstructions in basements containing habitable space shall be permitted to project to within 6 feet 4 inches (1931 mm) of the finished floor.",
+    "source_url": "https://up.codes/viewer/colorado/irc-2021/chapter/3/building-planning",
+    "source_label": "International Residential Code 2021, Sec. R305.1 (Colorado DFPC Residential Code 2021, which adopts the IRC without amendments), read on UpCodes",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "2021",
+      "7",
+      "2134",
+      "6",
+      "4",
+      "1931"
+    ],
+    "notes": "ICC's own viewer (codes.iccsafe.org) renders by script and 403s WebFetch, so the code text was read on UpCodes, a third-party copy, on 2026-09-25. Towns and counties adopt their own edition, often with amendments (Larimer County's structural design sheet, updated January 2026, is written to the 2024 IRC), so the page tells readers to ask their building department."
+  },
+  {
+    "id": "indoor-putting-green-for-home.irc-2021-r309-garage-slope",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The 2021 International Residential Code requires the part of a garage floor used for parking to slope so liquids move to a drain or toward the main vehicle door.",
+    "quote": "The area of floor used for parking of automobiles or other vehicles shall be sloped to facilitate the movement of liquids to a drain or toward the main vehicle entry doorway.",
+    "source_url": "https://up.codes/viewer/colorado/irc-2021/chapter/3/building-planning",
+    "source_label": "International Residential Code 2021, Sec. R309.1 (Colorado DFPC Residential Code 2021, which adopts the IRC without amendments), read on UpCodes",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "2021"
+    ],
+    "notes": "Same UpCodes copy as the R305.1 record. The section sets no slope figure; how much a given garage floor falls is measured on site."
+  },
+  {
+    "id": "indoor-putting-green-for-home.irc-2021-r310-basement-egress",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The 2021 International Residential Code requires basements to have at least one operable emergency escape and rescue opening.",
+    "quote": "Basements, habitable attics and every sleeping room shall have not less than one operable emergency escape and rescue opening.",
+    "source_url": "https://up.codes/viewer/colorado/irc-2021/chapter/3/building-planning",
+    "source_label": "International Residential Code 2021, Sec. R310.1 (Colorado DFPC Residential Code 2021, which adopts the IRC without amendments), read on UpCodes",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "2021"
+    ],
+    "notes": "Same UpCodes copy as the R305.1 record. The page uses it only to say: keep a platform clear of the egress window."
+  },
+  {
+    "id": "indoor-putting-green-for-home.cfr-1630-carpet-flammability",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The federal Standard for the Surface Flammability of Carpets and Rugs, 16 CFR 1630, covers floor coverings of natural or synthetic fibers used in homes that are more than 6 feet in one dimension and larger than 24 square feet, mats included.",
+    "quote": "Carpet means any type of finished product made in whole or in part of fabric or related material and intended for use or which may reasonably be expected to be used as a floor covering which is exposed to traffic in homes, offices, or other places of assembly or accommodation, … and which has one dimension greater than 1.83 m. (6 ft.) and a surface area greater than 2.23 m² (24 sq. ft.). … Mats, hides with natural or synthetic fibers, and other similar products in the above, defined dimensions are included in this definition … It is applicable to all types of carpets and rugs used as floor covering materials regardless of their method of fabrication or whether they are made of natural or synthetic fibers or films, or combinations of or substitutes for these.",
+    "source_url": "https://www.ecfr.gov/current/title-16/chapter-II/subchapter-D/part-1630",
+    "source_label": "eCFR, 16 CFR Part 1630, Standard for the Surface Flammability of Carpets and Rugs (FF 1-70), §§ 1630.1(c) and 1630.2(a)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "16",
+      "1630",
+      "1.83",
+      "6",
+      "2.23",
+      "24"
+    ],
+    "notes": "Read through the eCFR versioner API (title 16, part 1630, sections 1630.1 and 1630.2, as of 2026-09-01) on 2026-09-25; the human eCFR page redirects automated fetches. The regulation does not name artificial turf; whether a given turf product was tested to it is a question for its maker. The page says so and labels it not legal advice."
+  }
+]

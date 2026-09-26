@@ -1,0 +1,244 @@
+[
+  {
+    "id": "artificial-turf-side-yard.irc-r401-3-swales",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The 2021 International Residential Code says a lot must be graded so the ground falls at least 6 inches within the first 10 feet from the foundation; where lot lines, walls, slopes or other barriers prevent that, drains or swales must carry water away from the house, and hard surfaces within 10 feet must slope at least 2 percent away from it.",
+    "quote": "Lots shall be graded to drain surface water away from foundation walls. The grade shall fall not fewer than 6 inches (152 mm) within the first 10 feet (3048 mm). Exception: Where lot lines, walls, slopes or other physical barriers prohibit 6 inches (152 mm) of fall within 10 feet (3048 mm), drains or swales shall be constructed to ensure drainage away from the structure. Impervious surfaces within 10 feet (3048 mm) of the building foundation shall be sloped not less than 2 percent away from the building.",
+    "source_url": "https://up.codes/viewer/colorado/irc-2021/chapter/4/foundations",
+    "source_label": "2021 International Residential Code, Sec. R401.3 Drainage (as published for Colorado by UpCodes)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [
+      "2021",
+      "401.3",
+      "6",
+      "152",
+      "10",
+      "3048",
+      "2"
+    ],
+    "notes": "Read with curl on 2026-09-25 from UpCodes, which reproduces the ICC model code; the ICC's own reader (codes.iccsafe.org) renders by script, hence EXTERNAL_SOURCE. Each Northern Colorado town adopts its own edition with amendments, so pages say to ask the town's building department which edition applies. The exception is the side-yard case: two houses a few feet from a shared lot line cannot get 6 inches of fall in 10 feet, so the builder cuts a swale."
+  },
+  {
+    "id": "artificial-turf-side-yard.irc-r317-siding-clearance",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The 2021 International Residential Code requires naturally durable or preservative-treated wood where wood siding, sheathing or wall framing sits less than 6 inches above the ground or less than 2 inches above a patio slab or similar surface, and where framing resting on a foundation wall is less than 8 inches from exposed ground.",
+    "quote": "Protection of wood and wood-based products from decay shall be provided in the following locations by the use of naturally durable wood or wood that is preservative-treated in accordance with AWPA U1. … Wood framing members, including columns, that rest directly on concrete or masonry exterior foundation walls and are less than 8 inches (203 mm) from the exposed ground. … Wood siding, sheathing and wall framing on the exterior of a building having a clearance of less than 6 inches (152 mm) from the ground or less than 2 inches (51 mm) measured vertically from concrete steps, porch slabs, patio slabs and similar horizontal surfaces exposed to the weather.",
+    "source_url": "https://up.codes/viewer/colorado/irc-2021/chapter/3/building-planning",
+    "source_label": "2021 International Residential Code, Sec. R317.1 Location required (as published for Colorado by UpCodes)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [
+      "2021",
+      "317.1",
+      "1",
+      "8",
+      "203",
+      "6",
+      "152",
+      "2",
+      "51"
+    ],
+    "notes": "Read with curl on 2026-09-25 (UpCodes copy of the ICC model code). The clearance is measured to the ground, so anything that raises the finished grade at the wall (a turf base and the turf on it) eats into it. Siding makers publish their own clearances; the page names only the code."
+  },
+  {
+    "id": "artificial-turf-side-yard.irc-r703-weep-screed",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The 2021 International Residential Code puts the weep screed at the base of a stucco wall at least 4 inches above the earth or 2 inches above paved areas, so water trapped behind the stucco can drain out.",
+    "quote": "The weep screed shall be placed not less than 4 inches (102 mm) above the earth or 2 inches (51 mm) above paved areas and shall be of a type that will allow trapped water to drain to the exterior of the building.",
+    "source_url": "https://up.codes/viewer/colorado/irc-2021/chapter/7/wall-covering",
+    "source_label": "2021 International Residential Code, Sec. R703.7.2.1 Weep screeds (as published for Colorado by UpCodes)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [
+      "2021",
+      "4",
+      "102",
+      "2",
+      "51"
+    ],
+    "notes": "Read with curl on 2026-09-25 (UpCodes copy of the ICC model code)."
+  },
+  {
+    "id": "artificial-turf-side-yard.irc-r310-area-wells",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The 2021 International Residential Code requires the window well at an egress window to be at least 9 square feet with at least 36 inches of projection and width, to drain into the foundation drainage system unless the house sits on well-drained sand or gravel soils, and any cover over it to open from inside without a key or tool.",
+    "quote": "R310.4.1 Minimum Size The horizontal area of the area well shall be not less than 9 square feet (0.9 m2), with a horizontal projection and width of not less than 36 inches (914 mm). … R310.4.3 Drainage Area wells shall be designed for proper drainage by connecting to the building's foundation drainage system required by Section R405.1. Exception: A drainage system for area wells is not required where the foundation is on well-drained soil or sand-gravel mixture soils in accordance with the United Soil Classification System, Group I Soils, as detailed in Table R405.1. R310.4.4 Bars, Grilles, Covers and Screens Where bars, grilles, covers, screens or similar devices are placed over emergency escape and rescue openings, bulkhead enclosures or area wells that serve such openings, … Such devices shall be releasable or removable from the inside without the use of a key or tool",
+    "source_url": "https://up.codes/viewer/colorado/irc-2021/chapter/3/building-planning",
+    "source_label": "2021 International Residential Code, Secs. R310.4.1, R310.4.3 and R310.4.4, area wells (as published for Colorado by UpCodes)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [
+      "2021",
+      "9",
+      "0.9",
+      "2",
+      "36",
+      "914",
+      "405.1",
+      "1"
+    ],
+    "notes": "Read with curl on 2026-09-25 (UpCodes copy of the ICC model code). Clay is not a Group I soil, so on most Northern Colorado clay lots the well is tied to the foundation drain: surface water steered into the well goes to the drain beside the footing."
+  },
+  {
+    "id": "artificial-turf-side-yard.firestone-side-setback",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone's dimensional standards let a single-family house in its R-A, R-B and R-C residential districts sit as close as 5 feet to an interior side lot line and 10 feet to a street side lot line.",
+    "quote": "TABLE 4-1: DIMENSIONAL AND DENSITY STANDARDS—RESIDENTIAL AND COMMERCIAL DISTRICTS … Minimum Setbacks (ft.) … Street (all uses) … Interior Lot Line … R-A … SF: 10 … Principal SF: 5",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH4DIST_16.4.1TADIST",
+    "source_label": "Firestone Development Code 16.4.1, Table 4-1 (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "4",
+      "1",
+      "5",
+      "10",
+      "1072",
+      "2025"
+    ],
+    "notes": "Read 2026-09-25 through the Municode content API (api.municode.com CodesContent, jobId 488870, productId 18062, node TIT16FIDECO_CH4DIST); the library page renders by script. In the table's HTML the R-A row's setback cells carry rowspan=3, so the same setbacks cover R-B and R-C. Planned developments can set their own setbacks: the page says a house can sit as close as 5 feet, not that every Firestone house does."
+  },
+  {
+    "id": "artificial-turf-side-yard.firestone-buffer-arithmetic",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Arithmetic on Firestone's code, not a Town ruling: beside a house built 5 feet from an interior side lot line, the required 3-foot living buffer at that line leaves a strip about 2 feet wide where turf could go.",
+    "quote": "A minimum of three (3) foot buffer comprised of permeable surfaces with living and organic landscape material shall be required between the edge of the artificial turf and any property line.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+    "source_label": "Firestone Development Code 16.6.4.F.2.b.iii (codified through Ord. No. 1072, Dec. 10, 2025), with Table 4-1 setbacks",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "5",
+      "3",
+      "2",
+      "1072",
+      "2025"
+    ],
+    "notes": "Worked example for the guide: 5 - 3 = 2. Re-read 16.6.4 through the Municode content API on 2026-09-25 (jobId 488870, productId 18062). The code clause itself is firestone-co.fdc-16.6.4-buffer-slope; the setback is artificial-turf-side-yard.firestone-side-setback. How the Town measures a given side yard, and whether it would permit a 2-foot strip at all, is its call: pages say to ask Firestone Planning."
+  },
+  {
+    "id": "artificial-turf-side-yard.sb23-178-backyard-only",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado's SB23-178 bars HOA rules, and makes special-district rules unenforceable, that prohibit artificial turf in the backyard of a detached home, while the clause beside it protects vegetable gardens in the front, back or side yard: the turf protection names only the backyard.",
+    "quote": "(A) NOT PROHIBIT THE USE OF NONVEGETATIVE TURF GRASS IN THE BACKYARD OF A UNIT OWNER'S PROPERTY; … (D) NOT PROHIBIT VEGETABLE GARDENS IN THE FRONT, BACK, OR SIDE YARD OF A UNIT OWNER'S PROPERTY. … ANY RULE OR POLICY OF A SPECIAL DISTRICT, AS DEFINED IN SECTION 32-1-103 (20), THAT … PROHIBITS THE USE OF NONVEGETATIVE TURF GRASS IN THE BACKYARD OF A RESIDENTIAL PROPERTY IS HEREBY DECLARED CONTRARY TO PUBLIC POLICY AND, ON THAT BASIS, IS UNENFORCEABLE.",
+    "source_url": "https://leg.colorado.gov/bill_files/92307/download",
+    "source_label": "SB23-178 signed act: C.R.S. 38-33.3-106.5(1)(i.5)(I)(A) and (D), and 37-60-126(11)(a.5)",
+    "effective": "2023-08-07",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "23",
+      "178",
+      "2023",
+      "38",
+      "33.3",
+      "106.5",
+      "37",
+      "60",
+      "126",
+      "11",
+      "5",
+      "32",
+      "1",
+      "103",
+      "20"
+    ],
+    "notes": "Read with curl and pdftotext on 2026-09-25 (7-page signed act). The protection applies to detached single-family homes (co-hoa-backyard-detached). Whether a side yard is part of the backyard is not settled by the wording read here; several Northern Colorado metro districts still bar turf in side yards (severance-co.severance-shores-yards, severance-co.hunters-overlook-yards, windsor-co.new-windsor-turf-back-yards). Not legal advice: pages say to ask the HOA in writing and, for a dispute, a Colorado attorney."
+  },
+  {
+    "id": "artificial-turf-side-yard.cgs-sp14-neighbor-runoff",
+    "layer": "soil",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Geological Survey's homeowner guide to swelling soil says surface water carried away from one house must not be sent against a neighboring structure, where it can cause the same problems.",
+    "quote": "Care must be taken to insure that the surface water channeled away from one structure is not directed against a neighboring structure where it may cause similar problems.",
+    "source_url": "https://coloradogeologicalsurvey.org/wp-content/uploads/woocommerce_uploads/SP-14.pdf",
+    "source_label": "Colorado Geological Survey SP-14, Home Landscaping and Maintenance on Swelling Soil (Jochim, 1981; revised fifth printing 1987)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "14",
+      "1981",
+      "1987"
+    ],
+    "notes": "Read with curl and pdftotext on 2026-09-25, Surface drainage section, p. 14."
+  },
+  {
+    "id": "artificial-turf-side-yard.cgs-sp14-gravel-edging",
+    "layer": "soil",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same guide says an edging of gravel over non-woven geotextile, reaching at least 5 feet out from the house with the fabric lapped onto the foundation wall, keeps water from soaking into the soil next to the foundation, and discourages plastic sheeting because it traps moisture.",
+    "quote": "In fact an edging of gravel and geotextile fabric can be used very effectively around a house to prevent percolation of water into the soils next to the foundation. When used for this purpose, the edging should extend at least 5 feet out from the house. The fabric should lap onto the foundation wall and be glued in place. It is important that a good quality, non-woven geotextile fabric be used. The use of plastic sheeting is discouraged because it tends to trap moisture and prevent normal evaporation from occurring.",
+    "source_url": "https://coloradogeologicalsurvey.org/wp-content/uploads/woocommerce_uploads/SP-14.pdf",
+    "source_label": "Colorado Geological Survey SP-14, Home Landscaping and Maintenance on Swelling Soil (Jochim, 1981; revised fifth printing 1987)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5",
+      "14",
+      "1981",
+      "1987"
+    ],
+    "notes": "Read with curl and pdftotext on 2026-09-25, Landscaping with rock or gravel, pp. 20-21. The guide's point is that the band next to the house should shed water; turf and a porous base are built to pass it. Never claim turf fixes or causes foundation movement."
+  },
+  {
+    "id": "artificial-turf-side-yard.integriturf-roll-widths",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Integriturf's installation guide says most manufacturers make turf rolls 15 feet wide and 100 feet long, and some make 12- or 13-foot widths.",
+    "quote": "Most manufacturers produce their rolls in 15ft widths and 100ft lengths (a full roll = 15 x 100ft or 1,500 square feet). Some manufacturers produce rolls in 12ft and/or 13ft widths, however, 15ft is the most common.",
+    "source_url": "https://integriturf.com/wp-content/uploads/2019/02/Installation-Guide.pdf",
+    "source_label": "Integriturf, Synthetic Turf Installation Guide (PDF), How much material should you order?",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "15",
+      "100",
+      "1,500",
+      "1500",
+      "12",
+      "13"
+    ],
+    "notes": "Read with curl and pdftotext on 2026-09-25. Same passage as how-much-artificial-turf-do-i-need.integriturf-rolls-and-example; this record carries only the roll sizes the side-yard FAQ uses."
+  }
+]

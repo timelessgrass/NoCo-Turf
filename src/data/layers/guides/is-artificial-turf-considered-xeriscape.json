@@ -1,0 +1,221 @@
+[
+  {
+    "id": "is-artificial-turf-considered-xeriscape.fc-12-120-definition",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins City Code defines xeriscape landscaping by seven principles for a landscape sustainable in Colorado's semiarid climate, and excludes from it artificial turf or plants, mulched or gravel beds without plants, bare ground and paving not needed for walks, patios or parking.",
+    "quote": "Xeriscape landscaping shall mean landscaping planned, designed installed and maintained so as to create a landscape that is sustainable in Colorado's semiarid climate, based on seven (7) basic principles: (1) Preparation of a plan identifying major elements of the landscape, including structures and plantings and characteristics influencing water requirements; (2) Soil improvements appropriate to optimize absorption and release of water for plantings given the soils present; (3) Use of efficient watering systems and practices to supplement water naturally supplied to plantings, as appropriate; (4) Grouping plants with similar light and water requirements together in an area that matches these requirements; (5) Use of appropriate mulches to keep plant roots cool, prevent soil from crusting, minimize evaporation and reduce weed growth; (6) Limiting the use of turf and plantings with high water requirements, with consideration of visibility and functional needs, and incorporating water-efficient alternative species, specifically including, but not limited to, water-wise turfgrasses, as defined in § 20-41; (7) Providing appropriate water, pruning and fertilization, pest control and other maintenance to preserve the sustainability and health of the landscape. Xeriscape landscaping shall not include artificial turf or plants; mulched (including gravel) beds or areas without landscape plant material; paving of areas not required for walkways, patios, or plazas or parking areas; bare ground; or weed-covered or weed-infested surfaces.",
+    "source_url": "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH12HEEN_ARTVIIRECO_DIV1GE_S12-120DE",
+    "source_label": "Fort Collins City Code Sec. 12-120, Definitions (Ord. No. 83, 2003; Ord. No. 125, 2011; codified through Ord. No. 078, 2026, July 21, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "7",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "notes": "Read through Municode's content API (job 498160, Supplement 155) on 2026-09-25. The shared record fc-code-12-120-xeriscape-excludes-turf carries only the exclusion sentence; this one adds the seven-principle definition and the full exclusion list. Principle 6's 'turf' means living lawn grass: it points to water-wise turfgrasses in Sec. 20-41."
+  },
+  {
+    "id": "is-artificial-turf-considered-xeriscape.fc-12-122-covenants",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins City Code bars anyone from enforcing a restrictive covenant that prohibits or limits xeriscape landscaping or that requires part of a lot to be planted in turf grass.",
+    "quote": "No person shall create, cause to be created, enforce or seek to enforce any provision contained in any restrictive covenant which has the effect of prohibiting or limiting the installation or use of Xeriscape landscaping, solar/ photovoltaic collectors (if mounted flush upon any established roof line), clothes lines (if located in back yards), or odor-controlled compost bins, or which has the effect of requiring that a portion of any individual lot be planted in turf grass.",
+    "source_url": "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH12HEEN_ARTVIIRECO_DIV1GE_S12-122PRCO",
+    "source_label": "Fort Collins City Code Sec. 12-122, Promotion of conservation (Ord. No. 83, 2003; codified through Ord. No. 078, 2026, July 21, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [],
+    "notes": "Read through Municode's content API (job 498160) on 2026-09-25. Sec. 12-120 defines 'restrictive covenant' to leave out covenants imposed by a governmental entity. Because Sec. 12-120's xeriscape definition excludes artificial turf, this protection does not reach turf; state law (co-hoa-backyard-detached, co-special-district-backyard) is what protects a backyard. Not legal advice."
+  },
+  {
+    "id": "is-artificial-turf-considered-xeriscape.windsor-appendix-a-definitions",
+    "layer": "ordinance",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor's landscape code defines xeriscape as a landscape designed for reduced water use, defines turf as mowed living grass, and says that landscape does not include improving property with artificial turf.",
+    "quote": "Artificial Turf — An installation of synthetic materials developed to resemble natural grass. … Landscape — To cover, adorn, or improve property with living plants (such as trees, shrubs, vines, grass or flowers) and/or loose natural materials with limited use (such as rock, wood chips, or shavings). \"Landscape\" does not include improving property with artificial trees, shrubs, turf or other artificial plants. … Turf — Continuous plant coverage consisting of nonnative grasses or grasses that have not been hybridized for arid conditions and which, when regularly mowed, form a dense growth of leaf blades and roots. … Xeriscape — A landscape designed for reduced water use. Such a landscape can include plants that have adapted so that they transpire less than others or species that can survive periods of drought.",
+    "source_url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTIIISTLADEAR_APXATESP",
+    "source_label": "Windsor Municipal Code Ch. 15, Art. III, Appendix A, definitions 2, 22, 45 and 46 (Ord. 2020-1620; Ord. 2025-1730, Nov. 24, 2025; codified through Ord. No. 2026-1749, July 13, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [],
+    "notes": "Read through Municode's content API (job 500132, Supplement 24 Update 1) on 2026-09-25. The code never says in so many words that artificial turf is not xeriscape; it defines xeriscape as a landscape and landscape as excluding artificial turf. Detached single-family houses and duplexes are exempt from the article except the tree lawn rule and the 25% front-yard landscaping minimum (windsor-code-15-3-10-single-family-exempt)."
+  },
+  {
+    "id": "is-artificial-turf-considered-xeriscape.windsor-2006-standards",
+    "layer": "ordinance",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor's 2006 Tree and Landscape Standards, still posted on the Town's website, say xeriscape landscaping principles do not include or allow artificial turf or plants, or gravel beds and other areas without plants.",
+    "quote": "Water Conservation. All landscaping plans shall be designed to incorporate water conservation materials and techniques through application of xeriscape landscaping principles. Xeriscape landscaping principles do not include or allow artificial turf or plants, mulched (including gravel) beds or areas without landscape plant material, such as pavement, walkways, plazas, parking lots, or bare ground.",
+    "source_url": "https://www.windsorco.gov/DocumentCenter/View/1061/Tree-and-Landscape-Standards",
+    "source_label": "Town of Windsor, Tree and Landscape Standards, Forestry Division (dated August 24, 2006), Part II.D.12, Water Conservation",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2006"
+    ],
+    "notes": "PDF (50 pages) fetched with curl 2026-09-25, HTTP 200. The standards predate the landscape article now in the municipal code (Ch. 15, Art. III, Ord. 2020-1620, amended by Ord. 2025-1730); the codified article keeps the Xeriscape and Landscape definitions (windsor-appendix-a-definitions) but not this sentence. Pages may cite it as the Town's older standards, not as the current rule."
+  },
+  {
+    "id": "is-artificial-turf-considered-xeriscape.greeley-24-1301-definitions",
+    "layer": "ordinance",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley's development code defines xeriscape as the use of low-water or very low-water plants in place of thirstier ones, says it is not the same as rock or rock mulch, and says artificial turf is not lawn or turf-grass.",
+    "quote": "For the purposes this code, the term \"xeric landscaping\" or \"xeriscape\" shall mean the use of low-water or very low-water plants in place of plants that typically require more water to survive. Xeric landscaping does not mean the same as hardscaping or the use of rocks or rock mulch. … Turf-grass. A blend or mix of grasses most tolerant to the Colorado climate, whether in sod or seed form when planted, intended to be regularly maintained as a lawn in urbanized areas. Artificial turf shall not be considered lawn or turf-grass.",
+    "source_url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH13DETE_S24-1301DE",
+    "source_label": "Greeley Municipal Code Sec. 24-1301, Definitions, Development Code (codified through Ord. No. 16, 2026, April 21, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [],
+    "notes": "Read through Municode's content API (job 493697, Supplement 6 Update 1) on 2026-09-25. 'For the purposes this code' is the code's own wording. The definition's first sentence, on where the word was coined, names a utility outside NoCo's territory and is left out. The Lawn definition in the same section repeats that artificial turf is not lawn or turf-grass."
+  },
+  {
+    "id": "is-artificial-turf-considered-xeriscape.longmont-15-10-020-xeriscape",
+    "layer": "ordinance",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Longmont's development code defines xeriscape as landscaping with drought-resistant or water-conserving vegetation and other landscaping materials, without naming artificial turf either way.",
+    "quote": "Xeriscape or xeriscaping means landscaping characterized by the use of vegetation and other landscaping materials that are drought-resistant or water-conserving.",
+    "source_url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.10DE_S15.10.020ALOTTEDE",
+    "source_label": "Longmont Land Development Code Sec. 15.10.020, All other terms defined (codified through Ord. No. O-2026-39, June 23, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [],
+    "notes": "Read through Municode's content API (job 494949, Supplement 9) on 2026-09-25. Municode's HTML runs 'or' into the italic 'xeriscaping' with no space; the space in the quote is ours. The same section defines 'Turf, artificial' separately, and Sec. 15.05.040 prohibits nonfunctional turf, artificial included, in development landscape plans (longmont-co.ldc-15-05-040-ground-cover)."
+  },
+  {
+    "id": "is-artificial-turf-considered-xeriscape.dacono-16-652-definitions",
+    "layer": "ordinance",
+    "applies_to": [
+      "dacono-co"
+    ],
+    "fact": "Dacono's landscape code defines xeriscape as a water-efficient landscape adapted to the local environment, lists practical turf areas among its principles, and defines turf as mowed hybridized grasses.",
+    "quote": "Turf/turfgrass means a continuous plant coverage consisting of hybridized grasses that, when regularly mowed, form a dense growth of leaf blades and roots. … Xeriscape means a water efficient landscape adapted to the local environment. Xeriscape principles means methods of professional landscaping for water conservation that include: planning and design, soil analysis, efficient irrigation, appropriate plant selection, practical turf areas, use of mulches, and proper maintenance.",
+    "source_url": "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH16ZO_ART28LADEST_S16-652DE",
+    "source_label": "Dacono Municipal Code Sec. 16-652, Definitions (Ord. No. 787, 2014; codified through Ord. No. 1011, March 9, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [],
+    "notes": "Read through Municode's content API (job 485713, Supplement 35) on 2026-09-25. Used to show that 'turf' in a xeriscape definition means living grass. Sec. 16-657(g) keeps synthetic turf from meeting the article's requirements (dacono-code-16-657g-not-landscaping; Ord. 1016 amends it)."
+  },
+  {
+    "id": "is-artificial-turf-considered-xeriscape.co-covenant-xeriscape-and-turf",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado law makes unenforceable any HOA covenant or rule, or special-district rule, that prohibits or limits xeriscape, requires planted areas to be partly or wholly turf grass, or bans artificial turf in a residential backyard, listing each as its own item.",
+    "quote": "ANY SECTION OF A RESTRICTIVE COVENANT OR OF THE DECLARATION, BYLAWS, OR RULES AND REGULATIONS OF A COMMON INTEREST COMMUNITY, ALL AS DEFINED IN SECTION 38-33.3-103, AND ANY RULE OR POLICY OF A SPECIAL DISTRICT, AS DEFINED IN SECTION 32-1-103 (20), THAT PROHIBITS OR LIMITS XERISCAPE, PROHIBITS OR LIMITS THE INSTALLATION OR USE OF DROUGHT-TOLERANT VEGETATIVE OR NONVEGETATIVE LANDSCAPES, REQUIRES CULTIVATED VEGETATION TO CONSIST WHOLLY OR PARTIALLY OF TURF GRASS, OR PROHIBITS THE USE OF NONVEGETATIVE TURF GRASS IN THE BACKYARD OF A RESIDENTIAL PROPERTY IS HEREBY DECLARED CONTRARY TO PUBLIC POLICY AND, ON THAT BASIS, IS UNENFORCEABLE.",
+    "source_url": "https://leg.colorado.gov/bill_files/92307/download",
+    "source_label": "C.R.S. 37-60-126(11)(a.5)(I), added by SB23-178 (signed act, Section 2)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "20"
+    ],
+    "notes": "Signed act PDF read with curl and pdftotext 2026-09-25 (page 4). (11)(a.5)(II) leaves out timeshare associations and attached single-family homes that share a wall. 'Nonvegetative turf grass' is artificial turf (co-hb21-1229-origin). The shared record co-special-district-backyard quotes the backyard-turf item only; this one keeps the xeriscape and turf-grass items it sits beside. Not legal advice."
+  },
+  {
+    "id": "is-artificial-turf-considered-xeriscape.co-hoa-lists-xeriscape-and-turf",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado's HOA statute names xeriscape, nonvegetative turf grass and drought-tolerant landscapes as separate kinds of ground cover an association may not prohibit.",
+    "quote": "an association shall not prohibit any of the following: (i) (I) (A) The use of xeriscape, nonvegetative turf grass, or drought-tolerant vegetative landscapes to provide ground covering to property for which a unit owner is responsible … (i.5) (I) THE USE OF XERISCAPE, NONVEGETATIVE TURF GRASS, OR DROUGHT-TOLERANT ORNONVEGETATIVE LANDSCAPES TO PROVIDE GROUND COVERING TO PROPERTY FOR WHICH A UNIT OWNER IS RESPONSIBLE",
+    "source_url": "https://leg.colorado.gov/bill_files/92307/download",
+    "source_label": "C.R.S. 38-33.3-106.5(1)(i)(I)(A) and (1)(i.5)(I), as amended and added by SB23-178 (signed act)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "5"
+    ],
+    "notes": "Signed act PDF read 2026-09-25 (pages 1-2). 'ORNONVEGETATIVE' is how the signed act's text reads. (1)(i)(I)(A) now applies only to attached homes and (1)(i.5) only to detached homes; what an HOA may still regulate, and the backyard limit, are in co-hoa-backyard-detached and co-hoa-attached-rear-yard. The page uses this record only to say the statute names turf and xeriscape separately. Not legal advice."
+  },
+  {
+    "id": "is-artificial-turf-considered-xeriscape.co-hoa-80-20",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "For a detached single-family home, Colorado law says an HOA's landscaping guidelines may not unreasonably require hardscape on more than 20% of the landscaping area and must allow an option of at least 80% drought-tolerant plantings.",
+    "quote": "ASSOCIATIONS MAY ADOPT AND ENFORCE DESIGN OR AESTHETIC GUIDELINES OR RULES THAT APPLY TO DROUGHT-TOLERANT VEGETATIVE OR NONVEGETATIVE LANDSCAPES OR TO VEGETABLE GARDENS OR THAT REGULATE THE TYPE, NUMBER, AND PLACEMENT OF DROUGHT-TOLERANT PLANTINGS AND HARDSCAPES THAT MAY BE INSTALLED ON PROPERTY THAT IS SUBJECT TO THE GUIDELINES OR RULES; EXCEPT THAT THE GUIDELINES OR RULES MUST: … (B) NOT UNREASONABLY REQUIRE THE USE OF HARDSCAPE ON MORE THAN TWENTY PERCENT OF THE LANDSCAPING AREA OF A UNIT OWNER'S PROPERTY; (C) ALLOW A UNIT OWNER AN OPTION THAT CONSISTS OF AT LEAST EIGHTY PERCENT DROUGHT-TOLERANT PLANTINGS",
+    "source_url": "https://leg.colorado.gov/bill_files/92307/download",
+    "source_label": "C.R.S. 38-33.3-106.5(1)(i.5)(I)(B)–(C), added by SB23-178 (signed act)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "20",
+      "80"
+    ],
+    "notes": "Signed act PDF read 2026-09-25 (page 2). (1)(i.5)(VI): detached single-family homes only. The covenant statute, C.R.S. 37-60-126(11)(a.5)(I)(B)–(C), sets the same two limits for common interest communities and special districts. Not legal advice."
+  },
+  {
+    "id": "is-artificial-turf-considered-xeriscape.co-hoa-water-wise-designs-plants",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado law says the front-yard garden designs each HOA must preapprove have to follow water-wise landscaping principles that emphasize drought-tolerant and native plants, or be part of a local water provider's conservation program.",
+    "quote": "EACH ASSOCIATION SHALL SELECT AT LEAST THREE PREPLANNED WATER-WISE GARDEN DESIGNS THAT ARE PREAPPROVED FOR INSTALLATION IN FRONT YARDS WITHIN THE COMMON INTEREST COMMUNITY. TO BE PREAPPROVED, A GARDEN DESIGN MUST ADHERE TO THE PRINCIPLES OF WATER-WISE LANDSCAPING, … WHICH EMPHASIZE DROUGHT-TOLERANT AND NATIVE PLANTS, OR BE PART OF A WATER CONSERVATION PROGRAM OPERATED BY A LOCAL WATER PROVIDER.",
+    "source_url": "https://leg.colorado.gov/bill_files/92307/download",
+    "source_label": "C.R.S. 38-33.3-106.5(1)(i.5)(II), added by SB23-178 (signed act)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [],
+    "notes": "Signed act PDF read 2026-09-25 (page 3). The ellipsis drops the cross-reference to the state's definition of water-wise landscaping in C.R.S. 37-60-135. Designs may come from CSU Extension's Plant Select list or a municipality or utility. Not legal advice."
+  },
+  {
+    "id": "is-artificial-turf-considered-xeriscape.csu-planttalk-1537-not-living",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension's PlantTalk says artificial turf is not a living, transpiring plant, so it does not cool like a lawn, and that while it can be a legitimate solution for high-traffic sites it lacks the environmental benefits of living grass.",
+    "quote": "Because it is not a living, transpiring plant, artificial turf does not provide the cooling effect of a living lawn and becomes quite warm on a sunny day. … Although artificial turf does not require mowing, fertilizing, or watering and can be a legitimate solution for high traffic sites, it fails to provide the traditional landscape with the many environmental benefits of living grass.",
+    "source_url": "https://planttalk.colostate.edu/topics/lawns/1537-artificial-turf-lawns/",
+    "source_label": "CSU Extension, PlantTalk Colorado 1537, Artificial Turf for Lawns",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl 2026-09-25. The script is undated and older (it describes crumb-rubber infill and quotes an installed price range, which the page does not use). Same passages as artificial-turf-vs-sod.csu-turf-no-cooling and artificial-turf-vs-sod.csu-turf-no-mow-no-benefits."
+  }
+]

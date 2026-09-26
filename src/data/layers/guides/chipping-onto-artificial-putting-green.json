@@ -1,0 +1,243 @@
+[
+  {
+    "id": "chipping-onto-artificial-putting-green.swg-infilled-holds-chips",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Southwest Greens, which builds sand-infilled polypropylene greens, says its greens hold a chip as well as a natural grass green, from two yards to 200 yards, and that the ball won't bounce or flutter as it would on a nylon surface.",
+    "quote": "Our innovative in-filled polypropylene synthetic turf products are constructed to function like natural golf course greens, so your ball will have the same spin and true roll of a natural surface. Whether you're chipping in your backyard putting green from two yards or on our Nicklaus Designed course from 200 yards, our synthetic golf greens will sustain a shot as well as a natural grass green, ensuring your ball will not bounce or flutter as it would on a nylon surface",
+    "source_url": "https://www.southwestgreens.com/about-us/faqs",
+    "source_label": "Southwest Greens, Frequently Asked Questions (\"Can I hit chip shots to your greens?\")",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "200"
+    ],
+    "notes": "A manufacturer describing its own product, not an independent test. The same FAQ page repeats the claim for backyard greens (\"from 2 or 200 yards\"). Read with curl 2026-09-25."
+  },
+  {
+    "id": "chipping-onto-artificial-putting-green.synlawn-nylon-chip-claims",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn Golf, which sells nylon greens, says approach shots hold on a polypropylene green but the ball dies on impact, that chips to a polypropylene green slowed abruptly and rolled off line, and that chips to a nylon green check and roll closer to natural grass.",
+    "quote": "Approach shots will hold on a polypropylene green, however the ball dies on impact and does not match the performance of a natural putting green. … Balls chipped to a nylon putting green check and roll much closer to the performance of natural putting greens. … Balls chipped to a polypropylene green slowed abruptly and the roll to the hole was inconsistent (off-line) compared to a natural grass putting green.",
+    "source_url": "https://www.synlawngolf.com/the-nylon-advantage/",
+    "source_label": "SYNLawn Golf, \"The Nylon Advantage\" (manufacturer page)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "A manufacturer comparing its own nylon greens with competitors' sand-filled polypropylene greens; the page names no test method, sample or date. The brief's URL (/nylon-greens-advantage/) is a 404; this is the page in SYNLawn Golf's sitemap."
+  },
+  {
+    "id": "chipping-onto-artificial-putting-green.synlawn-sand-hardens",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn Golf says the sand in a polypropylene green has to be replenished and gets harder the longer the green is used, so the green needs periodic maintenance to keep performing.",
+    "quote": "Due to the large amount of sand used for polypropylene greens, it is necessary that they are replenished to maintain proper infill levels. The longer a polypropylene green is in use the harder the sand will become. Periodic maintenance will be required to maintain proper performance levels.",
+    "source_url": "https://www.synlawngolf.com/the-nylon-advantage/",
+    "source_label": "SYNLawn Golf, \"The Nylon Advantage\" (manufacturer page)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "A competitor's description of sand-filled greens; say so where it is used."
+  },
+  {
+    "id": "chipping-onto-artificial-putting-green.synlawn-truestop-pad",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn Golf's TrueStop is an underlayment that goes under its putting turf so the green accepts shots, which SYNLawn says it does from 160 yards and more, with accurate bounce, check and roll.",
+    "quote": "Developed by some of the greatest minds in golf, SYNLawn’s TrueStop™ is the underlayment system created to provide golfers with the most realistic acceptance of shots from 160+ yards as well as the truest ball-roll found in synthetic putting green turf. … TrueStop system is a revolutionary golf underlayment designed to deliver precision performance. Engineered for optimal energy restitution, it ensures accurate bounce, check, and roll, making it the ideal surface for golf applications.",
+    "source_url": "https://www.synlawngolf.com/truestop/",
+    "source_label": "SYNLawn Golf, TrueStop System (underlayment product page)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "160"
+    ],
+    "notes": "The page lists it under Underlayment, Putting Green Systems and Padding. No thickness or test data is published on the page."
+  },
+  {
+    "id": "chipping-onto-artificial-putting-green.sgw-fringe-and-infill-green",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Synthetic Grass Warehouse's installer columnist says a green's fringe should transition naturally and support chip shots, and recommends an all-infill green material for a surface that holds a shot from 100 yards and suits chipping.",
+    "quote": "The fringe shouldn’t just frame the green; it should transition naturally and realistically support chip shots. And for a PGA-level experience with a surface that accurately holds a shot from 100 yards away, I recommend SGW’s True Putt, an all-infill professional golf green material. While True Putt installation is more complex, it replicates a natural golf green suitable for chipping and long shots.",
+    "source_url": "https://syntheticgrasswarehouse.com/blog/how-to-make-your-backyard-putting-green-pga-level-quality/",
+    "source_label": "Synthetic Grass Warehouse, How to Make Your Backyard Putting Green PGA-Level Quality (JW's installer column, April 30, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "100",
+      "30",
+      "2026"
+    ],
+    "notes": "SGW is a turf distributor recommending its own product; published 2026-04-30 (schema datePublished), modified 2026-05-01."
+  },
+  {
+    "id": "chipping-onto-artificial-putting-green.sgw-cups-from-fringe",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Synthetic Grass Warehouse's installer columnist says to keep putting green cups at least 3 feet in from the exterior fringe.",
+    "quote": "And remember, always keep the cups at least 3 feet away from the exterior fringe!",
+    "source_url": "https://syntheticgrasswarehouse.com/blog/how-to-make-your-backyard-putting-green-pga-level-quality/",
+    "source_label": "Synthetic Grass Warehouse, How to Make Your Backyard Putting Green PGA-Level Quality (JW's installer column, April 30, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "30",
+      "2026"
+    ]
+  },
+  {
+    "id": "chipping-onto-artificial-putting-green.sgw-base-runoff-settling",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Synthetic Grass Warehouse's installer columnist recommends a compacted base of 3/4-inch aggregate rock at least 6 inches thick under a backyard green, topped with 3/8-inch minus to shape the contours, because runoff from outside the green often seeps in below it and causes settling and depressions, and an imperfect base makes the ball roll inconsistently.",
+    "quote": "I recommend installing a ¾” aggregate rock base with a minimum thickness of 6 inches. Exterior runoff and areas outside the putting green often seep in and below the surface, leading to settling and depressions. … After the drainage rock is installed and compacted, I recommend using a high-quality 3/8” minus material to create your undulations and smooth contouring. If your base isn’t perfect, not only will the golf ball roll inconsistently …",
+    "source_url": "https://syntheticgrasswarehouse.com/blog/how-to-make-your-backyard-putting-green-pga-level-quality/",
+    "source_label": "Synthetic Grass Warehouse, How to Make Your Backyard Putting Green PGA-Level Quality (JW's installer column, April 30, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3/4",
+      "6",
+      "3/8",
+      "30",
+      "2026"
+    ],
+    "notes": "One distributor's recommendation, not a standard; the base itself is the what-base-goes-under-artificial-turf guide's subject."
+  },
+  {
+    "id": "chipping-onto-artificial-putting-green.sgw-failure-causes",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Synthetic Grass Warehouse's installer columnist lists dips, bumps, settlement and frost heave among the ways putting green surfaces fail, and inferior subsurface soil, leaky irrigation and poor compaction among the causes to plan for.",
+    "quote": "This includes unevenness, dips, bumps, ridges, lines, protrusions, expansion, contraction, seam rupture, settlement, frost-heave, rough, pitted, you name it, the uncertain. Factors to consider: • Inferior subsurface soil • Leaky irrigation • Re-occurring vegetation (weeds, tree, roots) • Poor compaction rate",
+    "source_url": "https://syntheticgrasswarehouse.com/blog/how-to-make-your-backyard-putting-green-pga-level-quality/",
+    "source_label": "Synthetic Grass Warehouse, How to Make Your Backyard Putting Green PGA-Level Quality (JW's installer column, April 30, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "30",
+      "2026"
+    ]
+  },
+  {
+    "id": "chipping-onto-artificial-putting-green.swg-zone-piles",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Southwest Greens lists a nylon fringe 1.125 inches tall for striking approach shots onto the green, a nylon putting turf 0.4375 inch tall for short chips and pitch shots, and a 1.5-inch fringe turf with a textured thatch for the rough around the green.",
+    "quote": "Nylon Fringe … A lush fringe turf, designed to perform like a natural course fairway with a slightly shorter 1.125” pile height perfect for striking approach shots onto your putting green. … Nylon Putt … A firm, high performance nylon putting turf designed to provide a consistent and durable surface for short chips and pitch shots. … Pile Height: .4375 … SWFR (BOLT) … A fringe turf designed for the rough around the green with a textured thatch for the most natural appearance. … Pile Height: 1.5",
+    "source_url": "https://www.southwestgreens.com/artificial-turf-products/golf-collection",
+    "source_label": "Southwest Greens, Golf Collection (product listing with pile heights)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1.125",
+      ".4375",
+      "0.4375",
+      "4375",
+      "1.5"
+    ],
+    "notes": "One maker's line, used as an example of how zones step up in height. Style numbers on the page: Nylon Fringe GB-009, Nylon Putt GB-182, SWFR (BOLT) GB-113."
+  },
+  {
+    "id": "chipping-onto-artificial-putting-green.swg-roll-and-fringe-cuts",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Southwest Greens says it rolls the top of a finished green to simulate the response of a bent grass green, and builds fringe in a first and second cut along with tee lines, bunkers and roughs.",
+    "quote": "Once the base layers are complete, we roll the tops to simulate the response of a bent grass green. From there, the options open up. Fringe in the first and second cut, tee lines, traps, bunkers, fairways, roughs — whatever your design calls for, we can build it.",
+    "source_url": "https://www.southwestgreens.com/about-us/our-installation-process",
+    "source_label": "Southwest Greens, Our Installation Process",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "chipping-onto-artificial-putting-green.synlawn-hitting-surfaces",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn Golf sells a 5-by-5-foot Pro Chipping Mat, 1 1/2 inches thick, of nylon turf on a 5/8-inch foam pad, to pair with its putting greens, and says its Tee Strike hitting turf is durable enough to need fewer replacements due to wear.",
+    "quote": "Our exclusive Tee Strike hitting material offers the most realistic golf experience while reducing water and maintenance costs. Its long-lasting durability means fewer replacements due to wear, making it the perfect choice for both performance and savings. … Pro Chipping Mat 5’x5′ … The Pro Chipping Mat pairs perfectly with SYNLawn Putting Greens for the ultimate short game practice setup. … The SYNLawn Pro Chipping Mat is 1 1/2″ thick utilizing our premium proprietary 100% nylon turf with a 5/8″ foam pad backing.",
+    "source_url": "https://www.synlawngolf.com/products/",
+    "source_label": "SYNLawn Golf, Products (tee lines and hitting mats)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5",
+      "1",
+      "1/2",
+      "5/8",
+      "100"
+    ],
+    "notes": "Prices on the page are not used."
+  },
+  {
+    "id": "chipping-onto-artificial-putting-green.synlawn-greenmaker-chips",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn Golf's GreenMaker putting green kits assemble on foam base panels over a flat surface, and SYNLawn says its 10-by-16-foot kit is for practicing putts and chip shots.",
+    "quote": "assembles in minutes on any flat surface. … The proprietary Berrasof Core foam base panels provide a stable foundation and realistic feel. … 10′ x 16′ GreenMaker™️ … Our extra-large size putting green kit with our exclusive Precision Putt® putting surface for true ball roll helps you practice and improve short, medium, and long putts and chip shots.",
+    "source_url": "https://www.synlawngolf.com/products/",
+    "source_label": "SYNLawn Golf, Products (GreenMaker putting green kits)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "10",
+      "16"
+    ],
+    "notes": "The flat-surface line is from the 6-by-12 kit's listing and the foam-panel line from the 8-by-14 kit's; the chip-shot line is the 10-by-16 kit's. Prices on the page are not used."
+  },
+  {
+    "id": "chipping-onto-artificial-putting-green.synlawn-bunker-turf",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn Golf sells SYNSport White, a sand-colored turf it says replicates sand traps without the mess or maintenance.",
+    "quote": "SYNSport White is your perfect solution for replicating sand traps without the mess or maintenance.",
+    "source_url": "https://www.synlawngolf.com/products/",
+    "source_label": "SYNLawn Golf, Products (bunkers and hazards)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  }
+]

@@ -1,0 +1,661 @@
+[
+  {
+    "id": "synthetic-turf-field-maintenance.stc-hour-per-ten",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council's maintenance guidelines for sports fields say to walk the field daily, check regularly for foreign debris, low infill and open seams, budget one hour of inspection and maintenance for every 10 hours of play, and record every maintenance job in a log.",
+    "quote": "A maintenance person should walk the field daily and conduct more detailed inspections according to your field builder’s recommended schedule. To avoid permanent damage to your synthetic turf or safety hazards, check regularly for and address such critical items as foreign debris, low infill levels, open seams, etc. … Plan to perform the maintenance recommended by your field builder. In terms of time, you should budget one hour of inspection and maintenance for every 10 hours of playing time. … It is important that each and every maintenance operation, no matter how minor, be recorded in the log.",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guidelines_for_Maintenan.pdf",
+    "source_label": "Synthetic Turf Council, Guidelines for Maintenance of Infilled Synthetic Turf Systems (January 2013, Rev. 1)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "10",
+      "2013",
+      "1"
+    ],
+    "notes": "Read from the PDF with pdftotext on 2026-09-25; line-break hyphenation joined. Written for infilled sports fields."
+  },
+  {
+    "id": "synthetic-turf-field-maintenance.stc-brush-method",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The STC's field guidelines say midfield, goal mouths and corner kick areas need the most attention, that brushing a standard multi-purpose field with a utility vehicle takes about an hour at low speed with no sharp turns and works best on a dry surface, and that grooming frequency should follow the intensity of use.",
+    "quote": "Pay special attention to the most heavily used areas, such as midfield, goal mouths, corner kick areas, etc. … Method—Using an average all-purpose vehicle, brushing a standard sized multi-purpose field takes about an hour. The vehicle speed should be low and sharp turns must be avoided. It is most effective to brush the surface when it is dry. … Frequencies—Ask your field builder for the recommended grooming frequency. In general, the frequency will be related to the intensity of use",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guidelines_for_Maintenan.pdf",
+    "source_label": "Synthetic Turf Council, Guidelines for Maintenance of Infilled Synthetic Turf Systems (January 2013, Rev. 1)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2013",
+      "1"
+    ]
+  },
+  {
+    "id": "synthetic-turf-field-maintenance.stc-builder-confirms",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The STC says the field builder should confirm in writing, before any maintenance, that the program, the service provider and the equipment are acceptable under its terms, and that owners should buy maintenance equipment, extra infill and repair materials with the field.",
+    "quote": "Include in your purchase specific maintenance equipment, extra infill and repair materials (extra synthetic turf, seaming tape and glue). … The field builder should confirm in writing before any maintenance work is performed on the field that the ongoing maintenance program, service provider, and maintenance equipment are acceptable, comply with and will not void any warranty provisions.",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guidelines_for_Maintenan.pdf",
+    "source_label": "Synthetic Turf Council, Guidelines for Maintenance of Infilled Synthetic Turf Systems (January 2013, Rev. 1)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2013",
+      "1"
+    ],
+    "notes": "The page says 'its terms' / 'written coverage terms' rather than the source's word."
+  },
+  {
+    "id": "synthetic-turf-field-maintenance.stc-comprehensive-decompaction",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The STC groups decompaction, deep cleaning and infill leveling as comprehensive maintenance on a semi-annual to annual cycle, and says decompaction improves shock absorption and drainage on a surface that has turned hard and compacted, which is common in infilled systems.",
+    "quote": "Comprehensive Maintenance-Semi-Annual to Annual … The playing surface becomes hard and compacted. While common to infilled systems, this impacts the players and also can create drainage issues. … Decompaction of infill—Infill decompaction is important for improving shock absorption and synthetic turf drainage. Use only equipment specially designed to decompact and create loft in infilled synthetic turf systems. … Deep Cleaning—Use special equipment that combines mechanical brushing, suction, and an infill return system to remove surface debris and embedded contaminants.",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guidelines_for_Maintenan.pdf",
+    "source_label": "Synthetic Turf Council, Guidelines for Maintenance of Infilled Synthetic Turf Systems (January 2013, Rev. 1)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2013",
+      "1"
+    ]
+  },
+  {
+    "id": "synthetic-turf-field-maintenance.stc-dust-rejuvenation",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The STC says flooding or dust storms can bring extreme contamination that hardens the surface and slows drainage, and that a field showing deep compaction, such as g-max readings above desired levels, may need full rejuvenation.",
+    "quote": "Events, such as flooding or dust storms, may introduce extreme levels of contamination. This may cause surface hardening and water permeability issues, and compromise field performance. When a field begins to show signs of deep compaction, such as g-max readings that exceed desired levels or significant drainage issues, full field rejuvenation may be desired.",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guidelines_for_Maintenan.pdf",
+    "source_label": "Synthetic Turf Council, Guidelines for Maintenance of Infilled Synthetic Turf Systems (January 2013, Rev. 1)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2013",
+      "1"
+    ]
+  },
+  {
+    "id": "synthetic-turf-field-maintenance.stc-snow-game-time",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The STC says snow should generally be left to melt, but when a scheduled event needs a clear field it should be removed as near to game time as possible, because cold wind over a damp, freshly cleared surface can form ice; snow equipment should run on pneumatic tires, and a weighted roller can break up ice to be swept off.",
+    "quote": "Generally snow and ice should be left to melt and drain off the system without assistance. At times, however, it is necessary to remove snow or ice to make the field playable for a scheduled event. The working principle for removing snow is to do so as near to game time as possible. This reduces the likelihood of new snow build-up and will reduce the risk of ice from cold winds whipping across a damp, newly cleared surface. … Use only pneumatic tires on equipment used for the removal of snow and ice. … In some cases it may be necessary to use a weighted lawn roller over the field to break up ice. The broken ice can then be swept off the field.",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guidelines_for_Maintenan.pdf",
+    "source_label": "Synthetic Turf Council, Guidelines for Maintenance of Infilled Synthetic Turf Systems (January 2013, Rev. 1)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2013",
+      "1"
+    ],
+    "notes": "The blade guard and the quarter- to half-inch layer are in artificial-turf-snow-removal.stc-leave-snow-guard-blade; this record covers timing, tires and ice."
+  },
+  {
+    "id": "synthetic-turf-field-maintenance.stc-potable-irrigation",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The STC says a synthetic field with an irrigation system should be checked by an irrigation specialist so it is not over-saturated, and that only potable water should be used on it.",
+    "quote": "For synthetic turf fields with an irrigation system, consult an irrigation specialist to ensure that the system will not cause the field to become over-saturated when irrigated. Only potable water should be used for irrigation.",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guidelines_for_Maintenan.pdf",
+    "source_label": "Synthetic Turf Council, Guidelines for Maintenance of Infilled Synthetic Turf Systems (January 2013, Rev. 1)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2013",
+      "1"
+    ]
+  },
+  {
+    "id": "synthetic-turf-field-maintenance.stc-events-protection",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "For events such as graduations, the STC says to put plywood, interlocking plastic panels or similar weight-spreading material under all chairs and tables, never drive spikes, posts or footings into the turf, and groom and magnet-sweep the area afterward.",
+    "quote": "Use plywood, interlocking plastic panels or similar weight distributing materials under all chairs and tables—consult the field builder or a field protection company. … It is imperative that no anchoring spikes, posts or footing be driven into the turf. Once the field protection is removed, the area should be groomed and swept with a magnet to remove any misplaced or dropped nails, screws, etc.",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guidelines_for_Maintenan.pdf",
+    "source_label": "Synthetic Turf Council, Guidelines for Maintenance of Infilled Synthetic Turf Systems (January 2013, Rev. 1)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2013",
+      "1"
+    ]
+  },
+  {
+    "id": "synthetic-turf-field-maintenance.stc-paint-four",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The STC says temporary paint made for synthetic turf should be removed and reapplied after at most four applications to avoid build-up, and that permanent lines and logos can harden or shrink at different rates and affect g-max.",
+    "quote": "Temporary paints can be used if formulated specifically for synthetic turf. … Remove and reapply paint after a maximum of four applications to avoid hard-to-remove build-up. … Permanent lines, logos, etc. can age differently than the playing field turf. They may harden or shrink at different rates that will affect g-max.",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guidelines_for_Maintenan.pdf",
+    "source_label": "Synthetic Turf Council, Guidelines for Maintenance of Infilled Synthetic Turf Systems (January 2013, Rev. 1)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2013",
+      "1"
+    ]
+  },
+  {
+    "id": "synthetic-turf-field-maintenance.stc-weeds-moss",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The STC says moss, mold or algae can appear in little-used, shaded, damp parts of a synthetic field, and that weeds come out easily by hand before an infestation gets excessive, with treatments also available.",
+    "quote": "Moss, mold, or algae may appear in underutilized areas of the synthetic turf, particularly if it is in shade and damp. … Weeds are easily removed by hand if the infestation has not become too excessive. Treatments are also available.",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guidelines_for_Maintenan.pdf",
+    "source_label": "Synthetic Turf Council, Guidelines for Maintenance of Infilled Synthetic Turf Systems (January 2013, Rev. 1)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2013",
+      "1"
+    ]
+  },
+  {
+    "id": "synthetic-turf-field-maintenance.stc-perf-gmax-165",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council's 2011 performance guidelines set g-max (ASTM F1936) below 165 for both community and stadium fields, with field testing after installation and follow-up testing every four years on a community field and every year on a stadium field.",
+    "quote": "Test Method(s) Property Community Field Stadium Field … ASTM F1936 Impact Attenuation (g-max) Below 165 Below 165 … Field Testing After Installation After Installation … Field Testing (follow-up) Every Four Years Every Year",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guidelines_for_Synthetic.pdf",
+    "source_label": "Synthetic Turf Council, Guidelines for Synthetic Turf Performance (December 2011)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1936",
+      "165",
+      "2011"
+    ],
+    "notes": "Table text flattened from the PDF (pdftotext -layout), columns Community Field and Stadium Field. The STC's guidelines page now lists a newer 'Performance and Quality' document (store, sign-in) that was not read; see stc-guidelines-page."
+  },
+  {
+    "id": "synthetic-turf-field-maintenance.stc-guidelines-page",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council's technical guidelines page now lists a guideline on the performance and quality of synthetic turf fields, which sets testing protocols by intended use.",
+    "quote": "Guidelines for The Performance and Quality of Synthetic turf fields This document provides performance guidelines for synthetic turf systems based on their intended use and expected quality. It aims to guide testing protocols to ensure performance standards are met, which vary by sport",
+    "source_url": "https://www.syntheticturfcouncil.org/page/guidelines",
+    "source_label": "Synthetic Turf Council, Technical Guidelines page",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The document itself sits in the STC store behind a sign-in (viewproduct.aspx?id=17587551); its thresholds were not read, so the page quotes only the 2011 figure and says so."
+  },
+  {
+    "id": "synthetic-turf-field-maintenance.astm-f1936-19-scope",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "ASTM F1936, active in its 2019 edition, sets a field test method and a maximum impact attenuation value for all types of turf playing systems.",
+    "quote": "Standard Active Last Updated: Jul 31, 2019 … ASTM F1936-19 … 1.1 This specification establishes an in situ test method and maximum impact attenuation value for all types of turf playing systems and for a number of sport-specific field layouts.",
+    "source_url": "https://store.astm.org/f1936-19.html",
+    "source_label": "ASTM F1936-19, Standard Specification for Impact Attenuation of Turf Playing Systems as Measured in the Field (ASTM store page)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1936",
+      "19",
+      "31",
+      "2019",
+      "1.1"
+    ],
+    "notes": "The store page does not print the 200 limit; the page takes that figure from the STMA and DC DGS records."
+  },
+  {
+    "id": "synthetic-turf-field-maintenance.stma-hardness-limits",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Sports Turf Managers Association says ASTM F1936 uses the F355 device and sets an upper limit of 200 Gmax, above which life-threatening head injuries may be expected, that the Synthetic Turf Council recommends staying at or below 164 with the F355, that NFL fields must read below 100 on the Clegg tester before every game, and that Clegg and F355 values are not interchangeable.",
+    "quote": "Fields must be tested in multiple locations prior to every game and must be below 100 Gmax at all locations. … Gmax values taken from each of these devices are not interchangeable because the missiles are different weights and are not dropped from the same height. … The American Society for Testing and Materials (ASTM) standard (F1936) uses the F355 device to test surface hardness on natural and synthetic fields and sets an upper limit of 200 Gmax. According to ASTM Standards, a value greater than 200 Gmax qualifies for the expectation that life threatening head injuries may occur. The Synthetic Turf Council (STC) recommends Gmax does not exceed 164 when using the F355 device.",
+    "source_url": "https://www.sportsfieldmanagement.org/wp-content/uploads/2017/11/Field_Hardness-FINAL-2.pdf",
+    "source_label": "Sports Turf Managers Association (now the Sports Field Management Association), Field Hardness Testing (2014)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1936",
+      "355",
+      "200",
+      "164",
+      "100",
+      "2014"
+    ],
+    "notes": "Two-column PDF read with pdftotext; sentences rejoined across the column break. The document credits its 2014 Information Outreach Committee."
+  },
+  {
+    "id": "synthetic-turf-field-maintenance.stma-hardness-frequency",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The STMA says field hardness should be tested when a field is installed and then once a year or more, notes that ASTM recommends at least once a year, and advises testing throughout the season because a once-a-year test is unlikely to hold up in a liability case.",
+    "quote": "Field hardness levels should be tested upon installation of the field, then continue once per year or more. ASTM Standards recommend measuring field hardness at least once per year. While these are the written recommendations, testing once per year is not likely to hold up in a liability court case. To ensure field safety, sports turf managers at all facility levels are advised to test throughout the season.",
+    "source_url": "https://www.sportsfieldmanagement.org/wp-content/uploads/2017/11/Field_Hardness-FINAL-2.pdf",
+    "source_label": "Sports Turf Managers Association (now the Sports Field Management Association), Field Hardness Testing (2014)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2014"
+    ]
+  },
+  {
+    "id": "synthetic-turf-field-maintenance.stma-hardness-causes",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The STMA says compaction is not a major cause of hardness on synthetic fields, but sand settling out of a sand-and-rubber infill can form a compacted layer, and higher hardness almost always goes with low infill, lost to players and equipment or washed elsewhere on the field by heavy rain.",
+    "quote": "On synthetic turf fields, compaction is not a major cause of increased surface hardness. Due to the uniform size of infill particles, compaction is limited. However, when infill is composed of both sand and rubber, separation and settling of the sand component can form a compaction layer between the backing and the rubber infill. … Higher surface hardness levels are almost always associated with low infill levels. Low infill levels are a result of the crumb rubber being removed from the field over time by athletes and equipment or migrating to other parts of the field during heavy rain events.",
+    "source_url": "https://www.sportsfieldmanagement.org/wp-content/uploads/2017/11/Field_Hardness-FINAL-2.pdf",
+    "source_label": "Sports Turf Managers Association (now the Sports Field Management Association), Field Hardness Testing (2014)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2014"
+    ]
+  },
+  {
+    "id": "synthetic-turf-field-maintenance.stma-hardness-age",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The STMA says Gmax on a synthetic field tends to rise as the field ages, at a rate that depends on its construction and materials, how much it is played, environmental conditions and how often it is maintained.",
+    "quote": "Gmax measurements are not static. As a synthetic field ages, Gmax values tend to increase. The amount of the increase and the rate at which it occurs depends on construction of the field, materials used, amount and level of play, practices and drills, environmental conditions, and frequency of field maintenance.",
+    "source_url": "https://www.sportsfieldmanagement.org/wp-content/uploads/2017/11/Field_Hardness-FINAL-2.pdf",
+    "source_label": "Sports Turf Managers Association (now the Sports Field Management Association), Field Hardness Testing (2014)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2014"
+    ]
+  },
+  {
+    "id": "synthetic-turf-field-maintenance.psu-concussion-share",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Penn State's Center for Sports Surface Research says about 15% of concussions in football and soccer come from the head hitting the playing surface.",
+    "quote": "Approximately 15% of concussions in football and soccer result from the head impacting the playing surface",
+    "source_url": "https://plantscience.psu.edu/research/centers/ssrc/resources/surface-hardness-synthetic-turf-guide.pdf",
+    "source_label": "Penn State Center for Sports Surface Research, How to Measure and Manage Surface Hardness on Synthetic Turf Athletic Fields",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "15"
+    ],
+    "notes": "The guide cites Meehan, d'Hemecourt and Comstock (2010) for the figure."
+  },
+  {
+    "id": "synthetic-turf-field-maintenance.psu-nfl-yearly",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Penn State's surface hardness guide says the NFL requires every area of play to read below 100 Gmax on the Clegg tester before every game, that the F355 limit is 200, that fields above those limits should get more infill and a retest, and that testing should happen yearly, more often on heavily used fields, with attention to inlays, painted areas, seams and high-use areas.",
+    "quote": "The NFL requires the Clegg Impact Soil Tester be used to measure Gmax prior to every game. All areas within the field of play must be below 100 Gmax. If the ASTM F355 device is used, the maximum limit is 200 Gmax. If areas are above these limits, additional infill should be added and re-tested. … Gmax should be tested at various locations across the field, with special attention being paid to inlays, painted areas, seams, and high-use areas. Testing should occur yearly, with more frequent testing on heavily-used fields.",
+    "source_url": "https://plantscience.psu.edu/research/centers/ssrc/resources/surface-hardness-synthetic-turf-guide.pdf",
+    "source_label": "Penn State Center for Sports Surface Research, How to Measure and Manage Surface Hardness on Synthetic Turf Athletic Fields",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "100",
+      "355",
+      "200"
+    ]
+  },
+  {
+    "id": "synthetic-turf-field-maintenance.psu-infill-gmax",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Penn State says infill depth and Gmax are strongly correlated, so routine infill depth readings show when a Gmax test is needed, and depth below the target range should trigger one.",
+    "quote": "There is a strong correlation between infill depth and Gmax. Routine infill depth measurements can be used to indicate if a Gmax test is needed. If infill levels are below the target range, a Gmax test should be performed.",
+    "source_url": "https://plantscience.psu.edu/research/centers/ssrc/resources/surface-hardness-synthetic-turf-guide.pdf",
+    "source_label": "Penn State Center for Sports Surface Research, How to Measure and Manage Surface Hardness on Synthetic Turf Athletic Fields",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "synthetic-turf-field-maintenance.psu-dry-measurement",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "In Penn State's long-term study of synthetic turf hardness, each F355 reading was three drops in one spot three minutes apart, and readings were taken only when the surface was free of dew or rain.",
+    "quote": "A single F355 measurement consists of dropping the missile three times in the same location with a three minute interval between each drop. … Measurements were taken when the surface was free of moisture from dew or precipitation.",
+    "source_url": "https://plantscience.psu.edu/research/centers/ssrc/research/infill/surface-hardness-gmax",
+    "source_label": "Penn State Department of Plant Science, Surface Hardness (GMax) research page",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "355"
+    ]
+  },
+  {
+    "id": "synthetic-turf-field-maintenance.dcdgs-annual-program",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Washington, D.C.'s Department of General Services GMAX-tests its synthetic fields every year at 10 high-use areas per field; a single score over 200 closes a field briefly for maintenance, with fixes ranging from an infill top-off in 2 to 3 days to sectional replacement in 2 to 3 weeks.",
+    "quote": "The Department of General Services (DGS) conducts annual GMAX testing on synthetic turf fields in all eight wards to assess where maintenance is required. … GMAX, a stringent test method, focuses on scoring 10 high-use areas on each field. A single score exceeding 200 at any of the District's synthetic field locations triggers a temporary, short-term closure for necessary maintenance. The remediation process, which can range from minor infill top-off (2-3 days completion) to sectional replacements (2-3 weeks completion), underscores the importance of maintaining GMAX scores within the safety limit.",
+    "source_url": "https://dgs.dc.gov/page/2025-gmax-testing-results",
+    "source_label": "District of Columbia Department of General Services, 2025 GMAX Testing Results",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "10",
+      "200",
+      "2",
+      "3",
+      "2025"
+    ],
+    "notes": "An out-of-state public program used as a worked example; nothing here is a Northern Colorado rule."
+  },
+  {
+    "id": "synthetic-turf-field-maintenance.dcdgs-causes-drops",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "DC's Department of General Services says GMAX rises with heavy use, compaction and infill segregation and can be brought down by grooming or top-dressing, that its tests drop the missile three times at each of 10 locations, and that its reports record the infill depth at every test point.",
+    "quote": "GMAX values increase with high usage, compaction, and infill segregation. These values can be reduced by grooming or top-dressing your field. … The shock tests, called \"drops,\" are done three times in 10 separate locations. … It also records the depth of the field material at each test location.",
+    "source_url": "https://dgs.dc.gov/page/2025-gmax-testing-results",
+    "source_label": "District of Columbia Department of General Services, 2025 GMAX Testing Results",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "10",
+      "2025"
+    ]
+  },
+  {
+    "id": "synthetic-turf-field-maintenance.dcdgs-2019-results",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "When DC's Department of General Services began its annual GMAX protocol in June 2019, it tested 56 synthetic fields: 41 needed no further repairs and 15 needed more maintenance, 11 of them minor repairs.",
+    "quote": "As of Monday, June 24, 2019, all 56 synthetic turf fields have been tested. Forty-one (41) fields were found to have no additional repairs required. Fifteen (15) fields require additional maintenance; of those eleven (11) require minor repairs.",
+    "source_url": "https://dgs.dc.gov/node/1414941",
+    "source_label": "District of Columbia Department of General Services, District Completes Annual Synthetic Turf Field GMAX Testing (June 26, 2019)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "24",
+      "2019",
+      "56",
+      "41",
+      "15",
+      "11",
+      "26"
+    ]
+  },
+  {
+    "id": "synthetic-turf-field-maintenance.fieldturf-bars",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "FieldTurf's 2025 owner's manual calls for brushing every 4 to 6 weeks, raking every 4 to 6 weeks from the second year, sweeping as needed, and loosening the infill with rotating tines at most 3 times a year, ideally after each sport season and after snow clearing.",
+    "quote": "Rotating tines are designed to penetrate and loosen the infill to avoid minor compaction. … SWEEPING … A clean field ensures that foreign material or debris does not get into the infill. … AS NEEDED … FREQUENCY: • Raking: 4 - 6 weeks (beginning 2nd year). • Brushing: 4 - 6 weeks. • Aerating: Maximum of 3 times per year, ideally after every sport season and after snow clearing, if applicable (beginning in 2nd year).",
+    "source_url": "https://fieldturf.com/workspace/uploads/files/brochure-maintenance-guidelines-fieldturf-may2025.pdf",
+    "source_label": "FieldTurf, Game-Ready: Your Field Owner’s Manual (maintenance guidelines, May 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4",
+      "6",
+      "2",
+      "3",
+      "2025"
+    ],
+    "notes": "A turf maker's manual for its own fields; read with pdftotext. The summary graphic prints 'AS NEEDED' under sweeping."
+  },
+  {
+    "id": "synthetic-turf-field-maintenance.fieldturf-snow",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "FieldTurf's manual says frozen moisture in the infill lets a field be plowed without moving much infill, calls below freezing (about 25°F) the ideal plowing temperature, recommends plowing periodically through winter rather than letting snow build up, says a thawing, wet field and base carry load differently, and warns that every ice melt can leave a residue and slippery footing.",
+    "quote": "Generally, the components themselves that make up the FieldTurf system don’t freeze, but of course, the moisture that seeps into the infill does. This creates good conditions that allow you to plow snow without moving or removing much infill. … the ideal climatic conditions for plowing are always below freezing (25F/-5C). … Plowing periodically during the winter months is recommended to avoid a large buildup, which makes removal more tedious. … all ice melt solutions can leave a residue, which might affect ball handling in football and ball reaction, such as in soccer. Footing can also be slippery. … If the weather temperature rises above freezing, and both the FieldTurf and base begin to thaw and become wet, then the PSI will be affected by these changes in atmospheric conditions.",
+    "source_url": "https://fieldturf.com/workspace/uploads/files/brochure-maintenance-guidelines-fieldturf-may2025.pdf",
+    "source_label": "FieldTurf, Game-Ready: Your Field Owner’s Manual (maintenance guidelines, May 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "25",
+      "5",
+      "2025"
+    ]
+  },
+  {
+    "id": "synthetic-turf-field-maintenance.fieldturf-windblown-blower",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "FieldTurf says a field should be kept free of debris, leaves, paper and windblown material, and that a leaf blower should be held at least 2 feet from the surface at a 45-degree angle so it does not move infill.",
+    "quote": "Your field should also be kept free from debris, leaves, paper, and windblown material. … The blower should be held no closer than 2’ from the surface and at a 45-degree angle to avoid displacing any of the infill from the field.",
+    "source_url": "https://fieldturf.com/workspace/uploads/files/brochure-maintenance-guidelines-fieldturf-may2025.pdf",
+    "source_label": "FieldTurf, Game-Ready: Your Field Owner’s Manual (maintenance guidelines, May 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "45",
+      "2025"
+    ]
+  },
+  {
+    "id": "synthetic-turf-field-maintenance.fieldturf-load-events",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "FieldTurf says the bases under its fields are typically designed for a maximum of 70 pounds per square inch, that vehicles should stay off saturated fields to avoid rutting the infill and base, and that a field should be groomed thoroughly after an event.",
+    "quote": "Typically, bases supporting your FieldTurf field are designed for a maximum load-bearing capacity of 70 pounds per square inch (70 PSI / 10,080 PSF). … Avoid circulating vehicles on saturated outdoor fields to prevent rutting the infill and underlying base. … A thorough grooming is recommended after the event.",
+    "source_url": "https://fieldturf.com/workspace/uploads/files/brochure-maintenance-guidelines-fieldturf-may2025.pdf",
+    "source_label": "FieldTurf, Game-Ready: Your Field Owner’s Manual (maintenance guidelines, May 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "70",
+      "10080",
+      "10,080",
+      "2025"
+    ]
+  },
+  {
+    "id": "synthetic-turf-field-maintenance.fieldturf-paint-five",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "FieldTurf recommends stripping paint after about every five applications, and says paint build-up in the infill hardens the surface, so the system should be flushed with water, preferably hot.",
+    "quote": "It is recommended that paint removal be done after approximately every five applications before paint re-application is done. … Buildup over time will cause the infilled surface to harden. FLUSHING THE SYSTEM WITH WATER (PREFERABLY HOT) IS IMPERATIVE.",
+    "source_url": "https://fieldturf.com/workspace/uploads/files/brochure-maintenance-guidelines-fieldturf-may2025.pdf",
+    "source_label": "FieldTurf, Game-Ready: Your Field Owner’s Manual (maintenance guidelines, May 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2025"
+    ]
+  },
+  {
+    "id": "synthetic-turf-field-maintenance.fieldturf-weeds-curb",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "FieldTurf says weeds and moss tend to show up where the turf meets the perimeter curb, and can be sprayed with a biodegradable weed killer or pulled by hand or with a three-prong tool.",
+    "quote": "Although routine maintenance will prevent this from happening, weeds and/or moss may occur at the interface between the synthetic grass and the perimeter curb. Should this occur, spray the area with a biodegradable weed killer or remove the weeds by hand or with a 3-prong tool.",
+    "source_url": "https://fieldturf.com/workspace/uploads/files/brochure-maintenance-guidelines-fieldturf-may2025.pdf",
+    "source_label": "FieldTurf, Game-Ready: Your Field Owner’s Manual (maintenance guidelines, May 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "2025"
+    ]
+  },
+  {
+    "id": "synthetic-turf-field-maintenance.stmuk-winter-thaw",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Synthetic Turf Management, a UK pitch builder, says a rubber-infilled pitch plays harder than usual below freezing, that play on snow packs it into ice, and that a pitch should not be used on ice or during a thaw, when parts are thawed, parts are icy and water can stand on a still-frozen base.",
+    "quote": "The playing surface will however be harder than usual under sub-zero conditions. … Pitches with rubber infill can still be played on when they are covered with snow, but play will compact the snow to form ice. … A synthetic turf pitch cannot be used in icy conditions or during thaw. … During a thaw, some sections of the pitch may have thawed out while other parts are still icy. When the base is still frozen, there may be standing water on the pitch. Playing in these conditions can result in deformation of the pitch, which can also lead to nasty injuries.",
+    "source_url": "https://stmworld.co.uk/blog/post/synthetic-turf-winter-maintenance-england",
+    "source_label": "Synthetic Turf Management Ltd (UK), Synthetic Turf in Winter Time (January 21, 2013)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "21",
+      "2013"
+    ],
+    "notes": "A builder's blog post, not a standard; the page attributes it as such."
+  },
+  {
+    "id": "synthetic-turf-field-maintenance.keystone-edges-wind",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Keystone Sports Construction, a field builder, says infill that piles up along a field's edges is more likely to be scattered by wind, so edges should be swept or vacuumed and the infill returned to high-use areas, and fine mesh along existing fencing keeps loose grains from escaping.",
+    "quote": "If you already have fencing in place, installing a small-pored mesh along the fencing will prevent any loose grains from escaping. … When loose grains accumulate in a pile or along the edges of your field, they are more likely to be scattered by the wind or splashed away from the field when an athlete impacts that area. … By gathering any loose infill material that has dispersed around the edges (before it is blown/carried further away), you can salvage countless turf pellets and return them to the higher use areas of your field.",
+    "source_url": "https://keystonesportsconstruction.com/3-ways-to-prevent-turf-pellets-from-leaving-the-field/",
+    "source_label": "Keystone Sports Construction, 3 Ways To Prevent Turf Pellets From Leaving The Field (September 18, 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "18",
+      "2023"
+    ]
+  },
+  {
+    "id": "synthetic-turf-field-maintenance.nws-cold-season-wind",
+    "layer": "climate",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The National Weather Service office for northeast Colorado says chinook winds are one of the two main causes of Colorado's cold-season high winds, that winds of 60 to near 100 mph reach the foothill areas such as Fort Collins, and that the dangers include flying debris and blowing dust.",
+    "quote": "The two main causes of high winds in Colorado during the cold season are the air pressure difference between strong low pressure and cold high pressure systems, and Chinook winds developing across the Front Range and other mountain ranges. … Winds of 60 to near 100 mph will occur in and near the foothills in areas such as Fort Collins … Dangers from high winds include flying debris, reduced visibility due to dust, damaged or destroyed structures, downed power lines, and overturned vehicles.",
+    "source_url": "https://www.weather.gov/bou/highwind",
+    "source_label": "National Weather Service forecast office for northeast Colorado, High Wind Safety",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "60",
+      "100"
+    ],
+    "notes": "The source's list of foothill places continues past Fort Collins with Denver-metro and southern Colorado towns; the quote stops at Fort Collins."
+  },
+  {
+    "id": "synthetic-turf-field-maintenance.stma-guide-labor",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The STMA's 2008 guide to synthetic and natural fields says every synthetic turf maker prescribes sweeping, dragging, loosening and redistributing infill, and cleaning, that a sand-rubber mix may need adding each year to restore resiliency, and that an average field can take about 375 labor hours a year to maintain.",
+    "quote": "All synthetic turf manufacturers have recommended maintenance practices. These include sweeping, dragging, loosening and redistributing of infill and cleaning. … Depending upon use and weather conditions, a sand-rubber mix may need to be added annually to help restore the field’s resiliency. … However, an average field can require … 375 labor hours per year to maintain.",
+    "source_url": "https://www.stma.org/sites/stma/files/STMA_Synthetic_Guide_2nd_Edition.pdf",
+    "source_label": "Sports Turf Managers Association, A Guide to Synthetic and Natural Turfgrass for Sports Fields, 2nd Edition (November 2008)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "375",
+      "2",
+      "2008",
+      "11"
+    ],
+    "notes": "The labor figure is footnoted to one Pennsylvania school district (James Cornelius, Westchester Area School District). The guide is marked '2nd Edition - 11/08'. The omitted words are a material-cost figure the page does not use."
+  },
+  {
+    "id": "synthetic-turf-field-maintenance.stma-guide-heat",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The STMA's 2008 guide says watering a synthetic field before a game on a sunny day may lower its surface temperature only temporarily, and suggests an infrared thermometer so surface temperature can be watched continuously and schedules adjusted.",
+    "quote": "Watering the field prior to a game on a sunny day may temporarily lower the surface temperature. During clear, sunny conditions, it is suggested that sports turf managers, coaches, trainers, and health care professionals monitor the heat index and make appropriate adjustments to practice and game schedules. In these situations, it is strongly suggested that you purchase an infrared thermometer so that the surface temperatures can be monitored continuously.",
+    "source_url": "https://www.stma.org/sites/stma/files/STMA_Synthetic_Guide_2nd_Edition.pdf",
+    "source_label": "Sports Turf Managers Association, A Guide to Synthetic and Natural Turfgrass for Sports Fields, 2nd Edition (November 2008)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "2008"
+    ]
+  }
+]

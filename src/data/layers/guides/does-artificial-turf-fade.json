@@ -1,0 +1,346 @@
+[
+  {
+    "id": "does-artificial-turf-fade.epa-uv-per-km",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "EPA's explanation of the UV Index says the sun's angle is set by latitude, day of year and time of day, that UV intensity rises about 6% per kilometer of elevation above sea level, and its worked example multiplies by 1.06 for a site 1 kilometer up.",
+    "quote": "A computer model uses the ozone forecast and the incident angle of sunlight at each point to calculate the strength of UV radiation at ground level. Sunlight angle is determined by latitude, day of year, and time of day (solar noon). … UV intensity increases about 6% per kilometer elevation above sea level. … For our example, let us assume that the elevation is 1 kilometer and there are broken clouds overhead. The total UV effect, adjusted 6% for elevation and 73% for clouds, would be calculated as: 280 x 1.06 x 0.73 = 216.7",
+    "source_url": "https://www.epa.gov/sunsafety/learn-about-uv-index",
+    "source_label": "U.S. EPA, Learn About the UV Index (Calculating the UV Index)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6",
+      "1",
+      "1.06",
+      "73",
+      "280",
+      "0.73",
+      "216.7"
+    ]
+  },
+  {
+    "id": "does-artificial-turf-fade.ncei-corridor-station-elevations",
+    "layer": "climate",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "NOAA's five climate-normals stations in the Northern Colorado corridor sit between 1,437.1 meters (Greeley UNC) and 1,548.4 meters (Loveland 2N) above sea level, about 4,715 to 5,080 feet, or 4,700 to 5,100 feet rounded; Fort Collins 4E is at 1,499.6 m (4,920 ft), Longmont 2 ESE at 1,508.8 m (4,950 ft) and Fort Collins at 1,525.2 m (5,004 ft), about 5,000 feet.",
+    "quote": "\"STATION\":\"USC00053553\" … \"ELEVATION\":\"1437.1\" … \"NAME\":\"GREELEY UNC, CO US\" · \"STATION\":\"USC00053006\" … \"ELEVATION\":\"1499.6\" … \"NAME\":\"FT COLLINS 4 E, CO US\" · \"STATION\":\"USC00055116\" … \"ELEVATION\":\"1508.8\" … \"NAME\":\"LONGMONT 2 ESE, CO US\" · \"STATION\":\"USC00053005\" … \"ELEVATION\":\"1525.2\" … \"NAME\":\"FT COLLINS, CO US\" · \"STATION\":\"USC00055236\" … \"ELEVATION\":\"1548.4\" … \"NAME\":\"LOVELAND 2N, CO US\"",
+    "source_url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053005,USC00053006,USC00053553,USC00055116,USC00055236&dataTypes=ANN-TMAX-NORMAL&format=json&includeStationName=true&includeStationLocation=1",
+    "source_label": "NOAA NCEI U.S. Climate Normals 1991–2020, station metadata (ELEVATION, meters) for FT COLLINS, FT COLLINS 4 E, GREELEY UNC, LONGMONT 2 ESE and LOVELAND 2N",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5",
+      "1437.1",
+      "1548.4",
+      "1499.6",
+      "1508.8",
+      "1525.2",
+      "4715",
+      "4920",
+      "4950",
+      "5004",
+      "5080",
+      "4700",
+      "5100",
+      "5000",
+      "1991",
+      "2020",
+      "2",
+      "4"
+    ],
+    "notes": "The quote is the service's JSON fields, rows joined with ·. NCEI reports ELEVATION in meters. Feet = meters × 3.28084, rounded: 4,714.9 → 4,715; 4,919.9 → 4,920; 4,950.1 → 4,950; 5,003.9 → 5,004; 5,080.1 → 5,080. These are the same five stations climate.json uses; station-to-town assignment is by proximity (INFERENCE), so copy names stations, not towns."
+  },
+  {
+    "id": "does-artificial-turf-fade.corridor-uv-vs-sea-level",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Applying EPA's rule of about 6% more UV per kilometer to the corridor's NOAA stations (1.44 to 1.55 km up) gives about 8.6% (Greeley UNC), 9.0% (Fort Collins 4E), 9.1% (Longmont 2 ESE), 9.2% (Fort Collins) and 9.3% (Loveland 2N) more UV intensity than at sea level, roughly 9%.",
+    "quote": "UV intensity increases about 6% per kilometer elevation above sea level.",
+    "source_url": "https://www.epa.gov/sunsafety/learn-about-uv-index",
+    "source_label": "U.S. EPA, Learn About the UV Index, applied to NOAA NCEI station elevations (arithmetic)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6",
+      "1.44",
+      "1.55",
+      "8.6",
+      "9.0",
+      "9.1",
+      "9.2",
+      "9.3",
+      "9",
+      "2",
+      "4"
+    ],
+    "notes": "Derived: elevation in km × 6, as a straight percentage, the way EPA's own example applies 1.06 for 1 km. 1.4371 × 6 = 8.62; 1.4996 × 6 = 9.00; 1.5088 × 6 = 9.05; 1.5252 × 6 = 9.15; 1.5484 × 6 = 9.29. Compounding (1.06^km) gives 8.7% to 9.4% instead; either way about 9%. Elevations from does-artificial-turf-fade.ncei-corridor-station-elevations."
+  },
+  {
+    "id": "does-artificial-turf-fade.ccc-high-elevation-sunlight",
+    "layer": "climate",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Climate Center says Colorado's thin atmosphere lets more solar radiation through, making winter days pleasant, and that sunburn is a problem because of the intense high-elevation sunlight.",
+    "quote": "The thin atmosphere allows greater penetration of solar radiation and results in pleasant daytime conditions even during the winter. Outdoor work and recreation can often be carried out in relative comfort year round, but sunburn and skin cancer is a problem due to the intense high-elevation sunlight.",
+    "source_url": "https://climate.colostate.edu/climate_long.html",
+    "source_label": "Colorado Climate Center (Colorado State University), Climate of Colorado",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "does-artificial-turf-fade.stc-yarn-uv-tests",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council's 2013 landscape buying guidelines ask for yarn UV results from an independent test lab after 3,000 hours of UVA testing: a color change better than Gray Scale 3 (ASTM D2616-12) and a loss of no more than 50% of pile yarn tensile strength (FIFA/EN 13864).",
+    "quote": "Yarn Characteristics (Should be validated in report by an Independent Test Lab) … UV resistance of fibers … Artificial Weathering-Turf Color Change: >Gray Scale 3; 3000 hrs. UVA testing; Test method: ASTM D2616-12 … Artificial Weathering-Pile Yarn Tensile Strength: Reduction of no more than 50%; 3000 hrs. UVA testing; Test method: FIFA/EN 13864",
+    "source_url": "https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf",
+    "source_label": "Synthetic Turf Council, Considerations When Buying Synthetic Grass for Landscape Use (September 2013), Quality Guidelines, p. 3",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2013",
+      "3000",
+      "3",
+      "2616",
+      "12",
+      "50",
+      "13864"
+    ],
+    "notes": "The quote is a table on p. 3; its cells are joined with ':' and ';' here. The STC's disclaimer says these are not manufacturing minimum standards."
+  },
+  {
+    "id": "does-artificial-turf-fade.stc-all-polymers-uv",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council tells buyers to beware of claims against any one yarn polymer, saying polyethylene, nylon and polypropylene can all provide color retention and UV resistance.",
+    "quote": "Synthetic grass has been proven to provide a quality solution using a variety of grass yarns, including polyethylene, nylon, and polypropylene. Beware of unsupported claims against a certain yarn polymer type as all three polymers can provide the following features: … Color Retention … UV Resistance",
+    "source_url": "https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf",
+    "source_label": "Synthetic Turf Council, Considerations When Buying Synthetic Grass for Landscape Use (September 2013), p. 3",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2013"
+    ]
+  },
+  {
+    "id": "does-artificial-turf-fade.stc-keep-sample",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council advises buyers to keep the turf sample they choose and compare it with the product delivered before installation.",
+    "quote": "Keep the synthetic grass sample you select, and compare it before installation to the product that is delivered.",
+    "source_url": "https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf",
+    "source_label": "Synthetic Turf Council, Considerations When Buying Synthetic Grass for Landscape Use (September 2013), p. 1",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2013"
+    ]
+  },
+  {
+    "id": "does-artificial-turf-fade.astm-d2616-gray-scale",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "ASTM D2616 rates color change on a gray scale from step 5 (a CIELAB color difference of 0.0) to step 1 (13.6), with step 4 at 1.7, step 3 at 3.4 and step 2 at 6.8.",
+    "quote": "This test method describes a painted gray scale and the procedure to be used in the visual evaluation of color differences of non-self luminous materials by comparison to this scale. … TABLE 1 Gray Scale Characteristics — AATCC Step Designations / CIELAB (ΔE*) Color Difference / Tolerance (±): 5.0 0.0 0.2 · 4.5 0.8 0.2 · 4.0 1.7 0.3 · 3.5 2.5 0.3 · 3.0 3.4 0.4 · 2.5 4.8 0.5 · 2.0 6.8 0.6 · 1.5 9.6 0.7 · 1.0 13.6 1.0",
+    "source_url": "https://www.astm.org/d2616-12.html",
+    "source_label": "ASTM D2616-12, Standard Test Method for Evaluation of Visual Color Difference With a Gray Scale (scope and Table 1)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2616",
+      "12",
+      "5",
+      "5.0",
+      "0.0",
+      "0.2",
+      "4.5",
+      "0.8",
+      "4.0",
+      "1.7",
+      "0.3",
+      "3.5",
+      "2.5",
+      "3.0",
+      "3.4",
+      "0.4",
+      "4.8",
+      "0.5",
+      "2.0",
+      "6.8",
+      "0.6",
+      "1.5",
+      "9.6",
+      "0.7",
+      "1.0",
+      "13.6",
+      "1",
+      "3",
+      "4",
+      "2"
+    ],
+    "notes": "Table 1 rows as printed on ASTM's product page (step, ΔE*, tolerance), joined with ·. The full standard is paywalled; only the public summary and table were read."
+  },
+  {
+    "id": "does-artificial-turf-fade.ntnu-uv-stabilizers",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A 2020 NTNU review of turf-fiber degradation says UV stabilizers are added to turf fiber, that producers keep the stabilizer confidential and its composition and quantity vary, and that UV radiation with added surface heating is believed to be the most damaging cause of fiber degradation.",
+    "quote": "UV stabilizing agents are therefore added to the artificial turf fiber blend to ensure resistance against UV degradation. Nevertheless, the added UV stabilizer is confidential from producers, where parameters such as composition and quantity vary. … The most damaging cause leading to degradation of fibers is believed to be UV radiation with additional surface heating.",
+    "source_url": "https://www.ntnu.no/documents/11601816/1285177107/KG2021+Factors+Impacting+Degradation+of+Artificial+Turf+Fibers.pdf/9dd6ad60-eda5-e3ca-002a-171567e6beaa?t=1597922698581",
+    "source_label": "A. O. Misund, Factors Impacting Degradation of Artificial Turf Fibers, Kunstgress 2021 project, NTNU (Trondheim, July 2020)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2020",
+      "2021"
+    ]
+  },
+  {
+    "id": "does-artificial-turf-fade.ntnu-lab-vs-real-world",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The NTNU review quotes the ISO standard for lab light exposure of plastics saying accelerated results are difficult to relate to real use, treats accelerated-test results as a worst case, and found no research on long-term fiber degradation.",
+    "quote": "Relating results from accelerated weathering or artificial accelerated irradiation exposures to those obtained in actual-use conditions is difficult because of variability in both types of exposure and because laboratory tests never reproduce exactly all the exposure stresses experienced by plastics exposed in actual-use conditions. … Results from accelerated tests may therefore be considered as worst-case scenario in terms of degradation of fibers. No previous research on the long-term effect of degradation was found.",
+    "source_url": "https://www.ntnu.no/documents/11601816/1285177107/KG2021+Factors+Impacting+Degradation+of+Artificial+Turf+Fibers.pdf/9dd6ad60-eda5-e3ca-002a-171567e6beaa?t=1597922698581",
+    "source_label": "A. O. Misund, Factors Impacting Degradation of Artificial Turf Fibers, Kunstgress 2021 project, NTNU (Trondheim, July 2020), pp. I and 11, quoting ISO 4892",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2020",
+      "2021",
+      "4892"
+    ],
+    "notes": "The first sentence is ISO 4892's wording as quoted in the NTNU report (the ISO standard itself was not read). Cite it as 'the NTNU review, quoting ISO'."
+  },
+  {
+    "id": "does-artificial-turf-fade.uj-uv-cracking-colour",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A University of Johannesburg study of polyethylene sports turf says absorbed UV breaks bonds in the polyethylene and leads to cracking, and that color change follows extended UV exposure despite the UV stabilizers manufacturers add.",
+    "quote": "Absorbed UV causes a break in the intermolecular bonds of the polyethylene, which leads to cracking, inhibiting the material to perform as initially intended. Colour change is also a consequence of extended exposure to UV. Various UV stabilizers are used, by manufacturers, in order to slow this process down.",
+    "source_url": "https://ujcontent.uj.ac.za/esploro/outputs/journalArticle/The-effects-of-natural-and-artificial/9911464807691",
+    "source_label": "A. C. Zuzarte and D. Kruger, The effects of natural and artificial UV exposure on the physical properties of synthetic turf used for various sports fields (University of Johannesburg, 2014)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "2014"
+    ],
+    "notes": "The repository page is a JavaScript app: plain curl returns an empty shell, so the abstract was read through a rendering fetch (twice, same wording). reachable: false means a person should re-read it in a browser at the next check."
+  },
+  {
+    "id": "does-artificial-turf-fade.firestone-turf-materials-8-year",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone's development code requires artificial turf materials to carry at least an 8-year warranty.",
+    "quote": "iii. Materials shall be protected with a minimum of an eight (8) year warranty.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+    "source_label": "Firestone Development Code 16.6.4.F.2.c.iii (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "8",
+      "1072",
+      "10",
+      "2025"
+    ],
+    "notes": "Read through Municode's API (product 18062, job 488870, Supp. No. 38). What a fade clause covers belongs to the artificial-turf-warranty guide."
+  },
+  {
+    "id": "does-artificial-turf-fade.firestone-turf-maintenance",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone requires artificial turf to be kept looking like healthy living turf, free of discolorations, heat degradation and excessive wear, with damaged or worn areas repaired or replaced to match, and turf replaced once its life expectancy is reached.",
+    "quote": "f. Maintenance. i. Artificial turf shall be maintained in a manner to mimic healthy living turf. ii. Artificial turf shall be cleaned as necessary and groomed to maintain its appearance. iii. Artificial turf areas shall not contain weeds, holes, tears, stains, discolorations, seam separations, uplifted surfaces, heat degradation, depressions, odors, excessive wear, or similar deformities and measures of deterioration. Damaged or worn areas shall be repaired or removed and replaced in manner that results in consistent appearance with the existing artificial turf. iv. Artificial turf shall be replaced after the life expectancy has been reached.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+    "source_label": "Firestone Development Code 16.6.4.F.2.f (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "1072",
+      "10",
+      "2025"
+    ]
+  },
+  {
+    "id": "does-artificial-turf-fade.firestone-tan-thatch",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone requires turf blade colors to mimic natural turf, with green blades and a tan thatch layer.",
+    "quote": "d. Appearance. i. Blade yarn colors shall mimic natural turf including green blade color(s) and include a tan thatch layer.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+    "source_label": "Firestone Development Code 16.6.4.F.2.d.i (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "1072",
+      "10",
+      "2025"
+    ]
+  },
+  {
+    "id": "does-artificial-turf-fade.turf-paint-adhesion",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A maker of paint for synthetic sports turf says conventional paints struggle to stick to slick polyethylene or polypropylene blades and that its own permanent line paint lasts about 3 to 6 months depending on use.",
+    "quote": "It is tough for conventional paints to adhere permanently to synthetic field turf filaments that are made of very slick polyethylene or polypropylene fibers. … However, it will not last forever. Depending on the intensity of use at the facility, the paint can last from 3 months to 6 months. When paint fades or peels, it can easily be touched up with convenient to use, aerosol paint.",
+    "source_url": "https://usscproducts.com/product/durastripe-permanent-line-paint/",
+    "source_label": "US Specialty Coatings, DURASTRIPE Permanent Paint product page (paint for lines and logos on synthetic turf fields)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "3",
+      "6"
+    ],
+    "notes": "A manufacturer's own product claim, not an independent test. Sold for lines and logos on sports fields, not for recoloring a lawn."
+  }
+]

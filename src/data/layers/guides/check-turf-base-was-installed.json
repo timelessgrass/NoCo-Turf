@@ -1,0 +1,400 @@
+[
+  {
+    "id": "check-turf-base-was-installed.stc-base-test-before-turf",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council's base guidelines say the stone base should be tested for planarity, stability and drainage before any turf goes down, because once the turf is laid there is little that can be done to correct base defects, and the turf installer should check the base against its design specifications and records of the materials installed.",
+    "quote": "Before turf installation is to start, the base should be tested for planarity, stability and drainage. Maintaining these properties at their optimal levels should guide the Contractor throughout the construction process. Thorough testing must be conducted so that any needed corrective measures can be instituted before turf installation. Once the turf is laid down, there is little that can be done to correct base defects. … Before this starts, the synthetic turf installer should be asked to check and approve the planarity of the base, as well as permeability. He should have access to base design specifications and details as well as records of the compliance of installed materials with the design specifications.",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guidelines_for_Base_Syst.pdf",
+    "source_label": "Synthetic Turf Council, Guidelines for Synthetic Turf Base Systems (February 2017), sections 5.3.4 and 5.3.5",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2017"
+    ],
+    "notes": "Written for sports fields; the page says so. Read from the PDF text, pp. 43-44."
+  },
+  {
+    "id": "check-turf-base-was-installed.stc-field-straightedge",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "For sports fields, the Synthetic Turf Council's base guidelines cite FIFA's maximum grade tolerance of 0.4 inch under a 10-foot straightedge and say it is easily attainable.",
+    "quote": "FIFA prescribes a maximum grade tolerance of 0.4 inch (1 cm) under a 10 foot (3,0 m) straight edge, which is easily attainable.",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guidelines_for_Base_Syst.pdf",
+    "source_label": "Synthetic Turf Council, Guidelines for Synthetic Turf Base Systems (February 2017), section 5.3.3",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "0.4",
+      "1",
+      "10",
+      "3",
+      "0"
+    ]
+  },
+  {
+    "id": "check-turf-base-was-installed.stc-subgrade-freeze-swell",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council's base guidelines say that if the ground under the stone is not graded properly, water collects in its low spots, causing soft spots that in cold climates freeze and swell.",
+    "quote": "If the sub-base is not graded properly, then water will accumulate in depressions between the sub-grade and the stone above. These will cause soft spots, and, in cold climates, will freeze and swell.",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guidelines_for_Base_Syst.pdf",
+    "source_label": "Synthetic Turf Council, Guidelines for Synthetic Turf Base Systems (February 2017), section 5.1.2",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "check-turf-base-was-installed.stc-records-after-failure",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council's base guidelines say soil conditions found during digging that the design did not anticipate must be reported and corrected before construction continues, and that density test results matter later because they help show the likely cause if a field fails.",
+    "quote": "These unforeseen soil conditions must be reported to the Project Manager and Project Engineer, as they will have to be corrected before construction continues. … But on sites where the level needs to be corrected, cut and fill operations can be quite extensive, and will require the services of qualified soils technician to conduct testing to determine if the contractor has achieved the proper soil density. In the event of a field failure in the future, these test results will be important to assess the likely cause of the failure.",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guidelines_for_Base_Syst.pdf",
+    "source_label": "Synthetic Turf Council, Guidelines for Synthetic Turf Base Systems (February 2017), sections 5.1.1.2 and 5.1.1.3",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "check-turf-base-was-installed.stc-owner-rep-approves-base",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council's 2011 guidelines have the turf builder inspect the base for planarity, compaction, water permeability and grade tolerances before turf goes on, and, once any discrepancies are corrected, have the owner's representative, such as the architect or engineer, review and approve it against the project documents.",
+    "quote": "The synthetic turf systems builder, without liability or legal responsibility for the base (unless the base is part of their scope of work) should perform an inspection of the field planarity base on to which the synthetic turf system is to be installed and to examine the finished surface for required compaction, water permeability, and grade tolerances. After any discrepancies between the required materials, application and tolerance requirements noted have been corrected, the owner’s representative (architect/engineer) should review and approve for compliance with documents.",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Suggested_Guidelines_for.pdf",
+    "source_label": "Synthetic Turf Council, Suggested Guidelines for the Essential Elements of Synthetic Turf Systems (revised November 2011), section 3.7.1",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2011"
+    ]
+  },
+  {
+    "id": "check-turf-base-was-installed.stc-subgrade-straightedge",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council's 2011 guidelines say the finished subgrade under a field should not vary by more than half an inch under a 10-foot straightedge.",
+    "quote": "The tolerances for the finished sub-grade should not exceed one-half (1/2”) inch as measured by a 10-foot straight edge (13mm in 3m).",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Suggested_Guidelines_for.pdf",
+    "source_label": "Synthetic Turf Council, Suggested Guidelines for the Essential Elements of Synthetic Turf Systems (revised November 2011), section 5.2.3",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1/2",
+      "10",
+      "13",
+      "3",
+      "1",
+      "2",
+      "2011"
+    ]
+  },
+  {
+    "id": "check-turf-base-was-installed.stc-inspect-materials",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council's 2011 guidelines say turf materials should be inspected before installation for damaged goods, missing goods or quantities, the correct fiber type, and the correct pile height and weight.",
+    "quote": "Inspection: Synthetic materials should be inspected prior to installation for: Damaged or defective goods Missing goods or quantities Correct fiber type Correct turf pile height and weight",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Suggested_Guidelines_for.pdf",
+    "source_label": "Synthetic Turf Council, Suggested Guidelines for the Essential Elements of Synthetic Turf Systems (revised November 2011), section 5.1",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2011"
+    ]
+  },
+  {
+    "id": "check-turf-base-was-installed.stc-seam-gap-gauge",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council's 2011 guidelines say seam gaps should be minimal and uniform, and on tufted infill turf the gap between the fibers at a seam should not exceed the tufting gauge.",
+    "quote": "Seam gaps should be minimal and uniform. For tufted infill systems the gap between the fibers should not exceed the gauge of the tufting. For other synthetic turf systems, the seam gaps should not exceed 1/16 in. (2mm).",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Suggested_Guidelines_for.pdf",
+    "source_label": "Synthetic Turf Council, Suggested Guidelines for the Essential Elements of Synthetic Turf Systems (revised November 2011), section 5.7.1",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1/16",
+      "1",
+      "16",
+      "2",
+      "2011"
+    ]
+  },
+  {
+    "id": "check-turf-base-was-installed.stc-infill-depth-measure",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council's 2011 guidelines measure infill depth from the top of the turf's backing to the top of the infill, or by subtracting the exposed fiber from the known pile height.",
+    "quote": "The depth of infill can be measured by taking the depth from the top of the primary backing to the top of the infill or subtracting the length of exposed fiber from the known pile height.",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Suggested_Guidelines_for.pdf",
+    "source_label": "Synthetic Turf Council, Suggested Guidelines for the Essential Elements of Synthetic Turf Systems (revised November 2011), section 5.8.3",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2011"
+    ]
+  },
+  {
+    "id": "check-turf-base-was-installed.foreverlawn-base-firm-reveals",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "ForeverLawn's landscape installation guidelines say the base must be raked level because the turf will reveal the base rather than hide it, and that once compacted the base needs to be firm, never dirty, and still drain well.",
+    "quote": "Once the stone is placed in the area, it needs to be raked and leveled. This is very important, as the grass will reveal the base, not hide it. … When compacted, the base needs to be firm. Base material should never be “dirty”. We want to achieve a good base that will be firm, but still drain well.",
+    "source_url": "https://www.landscapesbyforeverlawn.com/wp-content/uploads/2023/07/DIY-Landscape-Installation-Guidelines-.pdf",
+    "source_label": "ForeverLawn General Landscape Installation Guidelines (M1374 Rev. 05/19), Gravel Base (aggregate)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1374",
+      "05/19"
+    ]
+  },
+  {
+    "id": "check-turf-base-was-installed.foreverlawn-infill-bags",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "ForeverLawn's landscape installation guidelines work out infill by the bag: most bags weigh 50 pounds, so at 1 pound per square foot one bag covers 50 square feet, and the bags are laid out in a grid before they are spread.",
+    "quote": "Depending on the product you are installing you will want to apply the correct amount of infill per square foot of grass. Usually we recommend 3/4 lbs.–1lb. of infill per square foot. Most bags of rubber infill come in 50 lb. increments. This means, if you want to apply 1lb. per square foot, one bag of infill would cover 50 square feet. You would then lay out a grid of infill bags that measures 5’x10’.",
+    "source_url": "https://www.landscapesbyforeverlawn.com/wp-content/uploads/2023/07/DIY-Landscape-Installation-Guidelines-.pdf",
+    "source_label": "ForeverLawn General Landscape Installation Guidelines (M1374 Rev. 05/19), Infill",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3/4",
+      "1",
+      "50",
+      "5",
+      "10"
+    ],
+    "notes": "ForeverLawn's example infill is rubber, which Firestone's code bans; the page uses only the bag arithmetic."
+  },
+  {
+    "id": "check-turf-base-was-installed.synlawn-base-tons",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's DIY installation guidelines estimate about 1 ton of base rock for every 100 square feet at a 3-inch depth, and square feet divided by 80 for tons at 4 inches, so a 1,000-square-foot area takes about 10 tons at 3 inches and about 12.5 tons at 4 inches.",
+    "quote": "Note: You will need about 1 ton of aggregate or base material for every 100 sq. ft. at a 3” depth. … 3” in depth – Total sq. ft. of area / 100 = ______ 4” in depth – Total sq. ft. of area / 80 = ______ This calculation will provide you with the total TONS of base material needed.",
+    "source_url": "https://pdf.lowes.com/productdocuments/240a8581-4267-4cdf-aa5f-d4d1e250fec6/44269346.pdf",
+    "source_label": "SYNLawn DIY Installation Guidelines, Measuring and Estimating Materials and Excavation and Sod Removal",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "100",
+      "3",
+      "4",
+      "80",
+      "1000",
+      "1,000",
+      "10",
+      "12.5"
+    ],
+    "notes": "The 1,000-square-foot figures are arithmetic on the source's own rule (1,000 / 100 = 10; 1,000 / 80 = 12.5). Rock density varies by product, so the page calls it a rough check."
+  },
+  {
+    "id": "check-turf-base-was-installed.synlawn-sand-rate",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's DIY installation guidelines recommend about 1 to 2 pounds of sand infill per square foot, depending on the application and the product, and say sand levels should be consistent throughout.",
+    "quote": "We recommend about 1-2 lbs. of sand per sq. ft., depending on the application and the product. … Note: Be sure your levels of sand are consistent throughout.",
+    "source_url": "https://pdf.lowes.com/productdocuments/240a8581-4267-4cdf-aa5f-d4d1e250fec6/44269346.pdf",
+    "source_label": "SYNLawn DIY Installation Guidelines, Turf Installation – Final Steps",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "2"
+    ]
+  },
+  {
+    "id": "check-turf-base-was-installed.synlawn-barrier-not-complete",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's DIY installation guidelines say weed treatments and a weed barrier can lower the risk of weeds but may not completely prevent weed growth.",
+    "quote": "Note: Although weed treatments and weed barrier can lower your risk of issues, it may not completely prevent weed growth.",
+    "source_url": "https://pdf.lowes.com/productdocuments/240a8581-4267-4cdf-aa5f-d4d1e250fec6/44269346.pdf",
+    "source_label": "SYNLawn DIY Installation Guidelines, Site Preparation",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "check-turf-base-was-installed.synlawn-subsurface-excluded",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's residential coverage terms, effective January 1, 2024, exclude failure caused by improper subsurface preparation or drainage, leave workmanship coverage between the owner and the installer, and suggest keeping a certificate of completion and a copy of the invoice.",
+    "quote": "Workmanship warranties remain the sole discretion between end user and installer; we recommend 3 years as this will ensure optimal project success. … SYNLawn recommends you keep the following documents on hand to make any unforeseen defects easier to process: Certificate of Completion, SYNLawn Synthetic Turf Care Manual, Warranty and copy of your invoice. … Additionally, this Warranty specifically excludes: … 3.9 Failure as a result of improper subsurface preparation or drainage.",
+    "source_url": "https://lowes.synlawn.com/wp-content/uploads/2024/06/SY24247_Lowes_ProductWarranty_v1.pdf",
+    "source_label": "SYNLawn Residential Statement of Terms and Conditions for turf sold through Lowe's (effective Jan. 1, 2024), section 3.9",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "2024",
+      "3",
+      "3.9"
+    ],
+    "notes": "One maker's terms, read as an example; the page does not claim every maker excludes the base."
+  },
+  {
+    "id": "check-turf-base-was-installed.barefoot-inspection-noncompliance",
+    "layer": "housing",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "In Barefoot Lakes, the metro district's guidelines require any revision to an approved plan to be resubmitted, let the review committee inspect work before or after completion to check it matches the approval, and let the district send the owner a written notice of non-compliance when it doesn't.",
+    "quote": "Any revisions and/or additions to approved plans made by the Owner or as required by any governmental agency, must be re-submitted for approval by the ARC … The ARC, or its duly authorized representative, shall have the right to inspect any Improvement at any time, including prior to or after completion, to determine whether the proposed Improvement is being completed or has been completed in compliance with the approval granted pursuant to this Article. … If, as a result of inspections or otherwise, the District determines that any Improvement has been done without obtaining all required approvals, or was not done in substantial compliance with the approval that was granted, … then the District may notify the Owner in writing of the non-compliance (the “Notice of Non-Compliance”).",
+    "source_url": "https://www.stvrainmd.live/files/5457a4faf/SVLMD+-+2026+08+07+-+Amended+%26+Restated+Residential+Improvement+Guidelines+%26+Site+Restrictions+for+Barefoot.pdf",
+    "source_label": "St. Vrain Lakes Metropolitan Districts, Amended and Restated Residential Improvement Guidelines and Site Restrictions for Barefoot, Sections 2.5, 2.7 and 2.8 (as of August 7, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [
+      "2.5",
+      "2.7",
+      "2.8",
+      "7",
+      "2026"
+    ]
+  },
+  {
+    "id": "check-turf-base-was-installed.new-windsor-inspection-completion",
+    "layer": "housing",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "New Windsor's design guidelines require work to be finished as described in the owner's formal submittal, let the design review committee inspect before completion, and treat work as compliant if the committee raises no non-compliance within 60 days of the owner's written notice of completion.",
+    "quote": "Following DRC Approval of any proposed Improvement to Property, the proposed Improvement to Property shall be commenced within twelve (12) months, accomplished as promptly and diligently as possible and completed in conformity with the description of the proposed Improvements to Property in the Formal Submittal and any conditions of approval imposed by the DRC. … The DRC or its duly authorized representatives shall have the right to inspect any Improvement to the Property prior to the completion provided that the right of inspection shall terminate sixty (60) days after the DRC receives a Notice of Completion from the Applicant. … If, for any reason other than the applicant's act or negligence, the DRC fails to notify Applicant of any non-compliance within sixty (60) days after receipt by the DRC of written Notice of Completion from the applicant, the improvement shall be deemed to be in compliance",
+    "source_url": "https://www.newwindsormetro.org/files/72102649d/New+Windsor_Brunner+Farm+Design+Guidelines+-+5-16-24+-+Final.pdf",
+    "source_label": "New Windsor Metropolitan District (Brunner Farm), Design Guidelines and Architectural Standards, May 16, 2024, Article II items c, d and g",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "60",
+      "12",
+      "16",
+      "2024"
+    ]
+  },
+  {
+    "id": "check-turf-base-was-installed.ftc-contract-promises",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The FTC's home improvement advice says a contract should include any promises made in conversation about the scope of work and materials, that the final payment should wait until the work is done and you are satisfied, and that a dispute should go first to the contractor, with calls followed by a letter sent with a return receipt and copies kept.",
+    "quote": "Before you sign a contract, make sure it includes … any promises made during conversations or calls related to issues such as the scope of work and the cost of labor and materials … And never make the final payment until the work is done and you’re satisfied with it. … First try to resolve it with the contractor. Many disputes can be resolved at this level. Follow any phone conversations with a letter you send by certified mail. Request a return receipt, so you can prove that the company got your letter. Keep notes and copies of letters and documents for your files.",
+    "source_url": "https://consumer.ftc.gov/articles/how-avoid-home-improvement-scam",
+    "source_label": "Federal Trade Commission, How To Avoid a Home Improvement Scam (July 2022)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2022"
+    ]
+  },
+  {
+    "id": "check-turf-base-was-installed.coag-complaints-mediation",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Attorney General's office takes consumer complaints and may try to resolve some disputes between consumers and businesses through its Consumer Mediation Program, though it cannot give individuals legal advice or take on an individual case.",
+    "quote": "Under certain circumstances, the department may seek to resolve disputes between consumers and businesses through informal negotiations overseen by the department through the Consumer Mediation Program. … The Attorney General’s Office does not have authority to provide legal advice or legal representation to individuals and does not have the authority to investigate or prosecute your individual case.",
+    "source_url": "https://coag.gov/file-complaint/",
+    "source_label": "Colorado Attorney General, File a Complaint",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "check-turf-base-was-installed.co-small-claims-7500",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado's small claims court hears civil claims of up to $7,500, not counting interest and costs.",
+    "quote": "The small claims court has concurrent original jurisdiction with the county and district courts in all civil actions in which the debt, damage, or value of the personal property claimed by either the plaintiff or the defendant, exclusive of interest and costs, does not exceed seven thousand five hundred dollars, including such civil penalties as may be provided by law.",
+    "source_url": "https://colorado.public.law/statutes/crs_13-6-403",
+    "source_label": "C.R.S. 13-6-403(1)(a) (text via Colorado.Public.Law)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "7500",
+      "7,500",
+      "13",
+      "6",
+      "403"
+    ],
+    "notes": "Public.Law reproduces the statute; not read on leg.colorado.gov, hence EXTERNAL_SOURCE."
+  },
+  {
+    "id": "check-turf-base-was-installed.tigerturf-weed-patterns",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "TigerTurf, a turf maker, names three sources of weeds in synthetic turf (seeds settling on the surface, roots from nearby beds growing under the edging, and a poor, poorly overlapped or degraded membrane below), and reads weeds along the edge lines as root intrusion and weeds emerging across the whole surface as membrane failure.",
+    "quote": "Airborne seeds settling on the surface: Wind and birds deposit seeds onto the turf surface. … Roots from adjacent garden beds and lawn edges: Lateral root systems from nearby plants, particularly vigorous grasses and ground covers, can grow horizontally under the edging and emerge through the turf backing. Inadequate or degraded weed membrane below the turf: If the geotextile membrane installed beneath the turf was low quality, poorly overlapped, or has degraded over time, weed seeds in the soil below can germinate and push upward. … Weeds emerging along edge lines: This indicates lateral root intrusion. … Widespread emergence across the surface: This typically indicates membrane failure below the turf.",
+    "source_url": "https://tigerturf.com/nz/about/news-and-articles/preventing-weeds-through-artificial-grass",
+    "source_label": "TigerTurf NZ, How to Prevent Weeds from Growing Through Artificial Grass (April 22, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "A New Zealand page of a turf maker; the diagnosis is general, not local."
+  }
+]

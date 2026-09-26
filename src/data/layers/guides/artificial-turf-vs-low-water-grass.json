@@ -1,0 +1,483 @@
+[
+  {
+    "id": "artificial-turf-vs-low-water-grass.csu-412-buffalograss-half-water",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says buffalograss stays dormant and brown in Colorado from the first frost in early fall to late spring, needs about 1 inch of rain and irrigation a week to stay green in summer, and at turf quality needs 50% less rain and irrigation a season than Kentucky bluegrass, partly because it is dormant in spring and fall.",
+    "quote": "Being a warm season grass, Buffalograss will be dormant brown from early fall (first frost) to late spring in Colorado. To be green in the summer, water use for Buffalograss is about 1 inch of rain and irrigation per week. To remain green in Colorado summers, Buffalograss generally requires irrigation to supplement natural rainfall. Turf-quality Buffalograss requires 50% less rain and irrigation per season than KBG. This reduction is due, in part, from being dormant in the spring and fall.",
+    "source_url": "https://extension.colostate.edu/resource/water-wise-landscape-design-selecting-turf-options/",
+    "source_label": "CSU Extension, Water-Wise Landscape Design: Selecting Turf Options (CMG GardenNotes #412, reviewed July 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "50",
+      "412",
+      "2025"
+    ]
+  },
+  {
+    "id": "artificial-turf-vs-low-water-grass.csu-412-seasonal-water-table",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension's table of seasonal water needs, rain plus irrigation, puts turf-quality Kentucky bluegrass at 34 inches, turf-quality tall fescue at 31, bluegrass kept at 75% of full water at 26, bluegrass and tall fescue at 60% at 20 (the grass thins), turf-quality buffalograss at 17, and bluegrass left dormant from June to August at 14.",
+    "quote": "Table 2. The comparative season water requirement (including summer rainfall and irrigation) of lawn options. … Turf Quality KBG at 100% ET 34” Turf Quality Tall Fescues at 90% ET 31” Reduced Irrigation KBG and Tall Fescue at 80% ET 28” Drought Tolerant KBG at 75% ET 26” Limited Irrigation KBG and Tall Fescue at 60% ET (grass will thin) 20” Turf Quality Buffalograss 17” Summer Dormant (June-August) KBG 14”",
+    "source_url": "https://extension.colostate.edu/resource/water-wise-landscape-design-selecting-turf-options/",
+    "source_label": "CSU Extension, Water-Wise Landscape Design: Selecting Turf Options (CMG GardenNotes #412, reviewed July 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "34",
+      "31",
+      "28",
+      "26",
+      "20",
+      "17",
+      "14",
+      "100",
+      "90",
+      "80",
+      "75",
+      "60",
+      "412",
+      "2025"
+    ],
+    "notes": "Quoted from the page's Table 2; table cells are joined with a single space. The column head reads \"Water Requirements Inches per Year (Rainfall + Irrigation)\". ET = evapotranspiration."
+  },
+  {
+    "id": "artificial-turf-vs-low-water-grass.csu-412-management-first",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says no lawn type delivers top quality on minimal inputs, and that the grass matters less than how it is watered: a more drought-tolerant grass watered like a high-input lawn will not use less water.",
+    "quote": "Contrary to popular belief, there is no magic lawn type that delivers top quality with minimal inputs. … The bottom line is that species selection is secondary to irrigation management in water savings. A more drought tolerant lawn species will not use less water if managed like a high input lawn!",
+    "source_url": "https://extension.colostate.edu/resource/water-wise-landscape-design-selecting-turf-options/",
+    "source_label": "CSU Extension, Water-Wise Landscape Design: Selecting Turf Options (CMG GardenNotes #412, reviewed July 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "412",
+      "2025"
+    ]
+  },
+  {
+    "id": "artificial-turf-vs-low-water-grass.csu-412-tall-fescue",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says turf-type tall fescue cannot go dormant, uses only about 10% less water than Kentucky bluegrass, and that switching from bluegrass to tall fescue alone will not save water.",
+    "quote": "Tall fescue also cannot go dormant, requiring irrigation during summer dry spells. Based on evapotranspiration (ET), the water use of turf-quality tall fescue is only about 10% less than that of KBG. Irrigation management has a far greater impact on water savings than turf species selection. Switching from KBG to tall fescue alone will not save water.",
+    "source_url": "https://extension.colostate.edu/resource/water-wise-landscape-design-selecting-turf-options/",
+    "source_label": "CSU Extension, Water-Wise Landscape Design: Selecting Turf Options (CMG GardenNotes #412, reviewed July 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "10",
+      "412",
+      "2025"
+    ]
+  },
+  {
+    "id": "artificial-turf-vs-low-water-grass.csu-7224-establishment-water",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says establishing a buffalograss lawn from seed, sod or plugs takes as much water as establishing bluegrass or tall fescue, sometimes more, and that growing one from seed can be labor-intensive and frustrating.",
+    "quote": "While it can be considered a low-maintenance grass once established, the production of a buffalograss lawn from seed can be a labor-intensive and somewhat frustrating process. … The amount of water required to establish a buffalograss lawn from seed, sod, or plugs will be equal to (and occasionally greater than) that amount required to establish a bluegrass or tall fescue lawn.",
+    "source_url": "https://extension.colostate.edu/resource/buffalograss-lawns/",
+    "source_label": "CSU Extension, Buffalograss Lawns (Fact Sheet 7.224, Koski and Cox; reviewed August 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "7.224",
+      "2025"
+    ]
+  },
+  {
+    "id": "artificial-turf-vs-low-water-grass.csu-7224-established-water",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says newer buffalograss varieties can stay green on 50 to 75 percent less irrigation than Kentucky bluegrass, that an established lawn survives without irrigation but goes dormant most summers and invites weeds while dormant, and that deep watering of about an inch every two to four weeks makes a good-quality lawn.",
+    "quote": "Those who choose to plant newer buffalograss varieties find that their lawn can remain green and attractive on 50-75 percent less irrigation than Kentucky bluegrass, requires less frequent mowing, and thrives when fertilized only once or twice yearly. … Once established, buffalograss can survive without irrigation. However, non-irrigated buffalograss becomes dormant during most summers, and is prone to weed invasion while dormant. … Deeper, infrequent irrigation (for example, one inch every two-four weeks, depending on rainfall) produces a good-quality buffalograss lawn and discourages weed invasion.",
+    "source_url": "https://extension.colostate.edu/resource/buffalograss-lawns/",
+    "source_label": "CSU Extension, Buffalograss Lawns (Fact Sheet 7.224, Koski and Cox; reviewed August 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "50",
+      "75",
+      "7.224",
+      "2025"
+    ]
+  },
+  {
+    "id": "artificial-turf-vs-low-water-grass.csu-7224-planting-windows",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says buffalograss can be seeded from spring until late July, that seedlings from seed sown between August 1 and October 1 are likely to be killed over winter, that seed sown October through December waits until spring to germinate, and that plugs set 12 to 18 inches apart at least 6 weeks before the first fall frost can give complete cover in 6 to 12 weeks.",
+    "quote": "Buffalograss seed can be planted anytime in the spring and until late July. … Seed planted too late in the season (between August 1 and October 1) may germinate, but the young seedlings are quite susceptible to being killed during the winter. Buffalograss seeded during October-December (dormant seeding) will not germinate until the following spring with warming soil temperatures. … can provide complete cover six to 12 weeks after planting (depending on plug spacing and weather conditions). … Plant plugs on 12 to 18 inch centers following the last spring frost and at least 6 weeks prior to the first expected fall frost.",
+    "source_url": "https://extension.colostate.edu/resource/buffalograss-lawns/",
+    "source_label": "CSU Extension, Buffalograss Lawns (Fact Sheet 7.224, Koski and Cox; reviewed August 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "6",
+      "12",
+      "18",
+      "7.224",
+      "2025"
+    ]
+  },
+  {
+    "id": "artificial-turf-vs-low-water-grass.csu-7224-sod-and-weeds",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says buffalograss sod is the quickest and least frustrating way to a buffalograss lawn but costs significantly more than bluegrass sod and is much harder to find, and that weeds are the most common and frustrating problem in a buffalograss home lawn, partly because many store-bought broadleaf weed killers injure it.",
+    "quote": "Buffalograss sod is significantly more expensive than bluegrass sod and availability is much more limited. However, it is the quickest, easiest, and least frustrating way of getting a buffalograss lawn. … Weed invasion is the most common and frustrating pest problem in the buffalograss home lawn. … Buffalograss can be easily injured, and therefore discolored, by many of the off-the-shelf herbicides (especially those containing 2,4-D) sold in garden centers and nurseries for the control of dandelions and other broadleaf weeds in Kentucky bluegrass and tall fescue lawns.",
+    "source_url": "https://extension.colostate.edu/resource/buffalograss-lawns/",
+    "source_label": "CSU Extension, Buffalograss Lawns (Fact Sheet 7.224, Koski and Cox; reviewed August 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "4",
+      "7.224",
+      "2025"
+    ]
+  },
+  {
+    "id": "artificial-turf-vs-low-water-grass.csu-7224-where-not",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says buffalograss is not a good lawn choice with more than half a day of heavy shade, on saline soils, above about 6,500 feet, or on small, heavily used lawns where traffic is both concentrated and constant, though sporadic heavy use and light constant use are not a problem.",
+    "quote": "Where buffalograss is NOT a good lawn choice Moderate to very shady locations (more than ½ day of heavy shade). Saline soils (greater than 6-8 mmhos/cm salinity). Above approximately 6500 feet elevation. … Small, heavily used home lawns, athletic fields, or other situations where foot or vehicular traffic is BOTH concentrated and constant. Sporadic heavy use is not a problem for buffalograss, nor is light, constant use.",
+    "source_url": "https://extension.colostate.edu/resource/buffalograss-lawns/",
+    "source_label": "CSU Extension, Buffalograss Lawns (Fact Sheet 7.224, Koski and Cox; reviewed August 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6500",
+      "6",
+      "8",
+      "7.224",
+      "2025"
+    ]
+  },
+  {
+    "id": "artificial-turf-vs-low-water-grass.source-green-season-shade-traffic",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Writing for CSU Extension in 2025, John Murgel says buffalograss is green from mid-May through September in the eastern half of Colorado while bluegrass is usually green from March to November, that it needs full sun and a shaded buffalograss lawn turns thin, patchy and weedy, pointing shady spots to fine fescue, shade-tolerant ground covers or wood chip mulch, and that it disappears under heavy use by pets or children.",
+    "quote": "In the eastern half of the state, it will be green mid-May through September. Bluegrass, by comparison, is usually green March-November (or longer). … Do you have a nice big tree in the yard? Then buffalograss probably isn’t a good option; it needs full sun to grow best. A shaded buffalograss lawn will quickly become thin and patchy—a condition that is usually closely followed by extreme weediness. For shady spots, consider fine fescue (a cool season species), another drought-tolerant lawn species that does well in shade, shade-tolerant ground covers, or even wood chip mulch. … But, if you have pets and/or children who will be using the lawn a lot, buffalograss will disappear (searching for greener pastures?).",
+    "source_url": "https://engagement.source.colostate.edu/3-things-you-need-to-know-before-growing-a-buffalograss-lawn-in-colorado/",
+    "source_label": "CSU SOURCE, 3 things to know before growing a native buffalograss lawn in Colorado (John Murgel and Alison O'Connor, CSU Extension, March 24, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "24",
+      "2025"
+    ]
+  },
+  {
+    "id": "artificial-turf-vs-low-water-grass.gn561-blue-grama",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension lists blue grama's strengths as excellent cold, heat and drought tolerance, low fertility needs, infrequent mowing, few pests and quick establishment, and its drawbacks as straw-colored from the first fall frost until May, not traffic tolerant, not shade tolerant, not sod-forming, high seed cost and hard to seed.",
+    "quote": "Blue Grama (Bouteloua gracilis) Advantages Excellent cold, heat, drought tolerance Low fertility requirement Requires infrequent mowing Few insect and disease problems Rapid germination and establishment Native species … Warm season grass that becomes straw-colored with first frost in fall, greening up in late spring (May) … Not traffic tolerant … Not shade tolerant … Not a sod-forming grass … High seed cost … Difficult to seed (high % inert component; \"fluffy\")",
+    "source_url": "https://cmg.extension.colostate.edu/Gardennotes/561.pdf",
+    "source_label": "CSU Extension, CMG GardenNotes #561, Turfgrass Species Selection Guidelines (Koski, revised January 2012)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "561",
+      "2012"
+    ]
+  },
+  {
+    "id": "artificial-turf-vs-low-water-grass.gn561-persistence-buffalograss",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension ranks buffalograss and blue grama first for persisting under low maintenance, and says buffalograss needs at least half a day of full sun, is prone to weeds if overfertilized or overwatered, and has aggressive stolons that may invade flower beds and neighboring lawns.",
+    "quote": "Turfgrass Persistence Under Low Maintenance (1=best persistence; 10=worst persistence) … Buffalograss Buchloe dactyloides 1 BEST Blue grama Bouteloua gracilis 1 … Poor to fair shade tolerance. Needs at least a half day of full sun. … Prone to weed invasion if overfertilized or overwatered. … Aggressive stolons may invade flower beds, neighboring lawns.",
+    "source_url": "https://cmg.extension.colostate.edu/Gardennotes/561.pdf",
+    "source_label": "CSU Extension, CMG GardenNotes #561, Turfgrass Species Selection Guidelines (Koski, revised January 2012)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "10",
+      "561",
+      "2012"
+    ]
+  },
+  {
+    "id": "artificial-turf-vs-low-water-grass.native-lawn-brown-and-rules",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension's native-lawn guide says buffalograss and blue grama lawns are brown and dormant from September to May, and tells homeowners to check with the city or HOA for any species or mowing-height rules before planting a native grass.",
+    "quote": "Buffalograss and blue grama lawns will be brown and dormant from September-May … Check with city or HOA to be aware of any species or mowing height rules before planting a native species",
+    "source_url": "https://planttalk.colostate.edu/wp-content/uploads/2023/03/Native-Lawn-Establishment.pdf",
+    "source_label": "CSU Extension, Native Lawn Establishment in Colorado (Tony Koski, revised December 2022; PlantTalk Colorado PDF)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2022"
+    ]
+  },
+  {
+    "id": "artificial-turf-vs-low-water-grass.native-lawn-establishment",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension's native-lawn guide says to seed buffalograss and blue grama from March to mid-August and plant plugs or sod from June to mid-August, to kill the existing lawn and weeds first and, when seeding, mow the dead lawn very short and aerate it heavily, to water new seed, plugs or sod for a few minutes every 4 to 5 hours during the day for the first 3 to 4 weeks, and to water through the first winter.",
+    "quote": "Plant at the right time: seed buffalograss and blue grama anytime March to mid-August, but not later. … Plant buffalograss and blue grama plugs or sod June-mid August … Kill existing lawn grasses and weeds with glyphosate or by solarizing before planting sod, seed, or plugs … If seeding, mow the dead lawn very short and then aerate heavily to create a lot of holes … For the first 3-4 weeks after planting, irrigate new sod, plugs, or seed every 4-5 hours (just a few minutes each time) during the day to maintain even soil moisture, but not constant saturation. … Winter water during the first winter!",
+    "source_url": "https://planttalk.colostate.edu/wp-content/uploads/2023/03/Native-Lawn-Establishment.pdf",
+    "source_label": "CSU Extension, Native Lawn Establishment in Colorado (Tony Koski, revised December 2022; PlantTalk Colorado PDF)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "4",
+      "5",
+      "2022"
+    ],
+    "notes": "\"mid-August\" breaks across a line in the PDF (\"mid-\" / \"August\") and is quoted as one word."
+  },
+  {
+    "id": "artificial-turf-vs-low-water-grass.native-lawn-care",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension's native-lawn guide says an established native lawn can be watered minimally if at all, that 1 to 2 inches every 4 to 5 weeks keeps it green through a dry summer, that buffalograss and blue grama need fertilizer once a year, and that native lawns may do poorly in shade, under heavy constant foot traffic from pets and play, or when watered and fed to look like bluegrass.",
+    "quote": "After the establishment year, native lawns can generally be irrigated quite minimally – if at all. … If a greener lawn is desired, applying 1-2 inches of water every 4-5 weeks (all at once, using soak cycles to prevent runoff) can keep a native lawn green during a dry summer. … Fertilize buffalograss/blue grama once yearly in July or August … Shady lawns; native grasses do best in full sun … Under heavy, constant foot traffic (pets, play activity) … Watering and fertilizing a native lawn to make it look like bluegrass will encourage weeds",
+    "source_url": "https://planttalk.colostate.edu/wp-content/uploads/2023/03/Native-Lawn-Establishment.pdf",
+    "source_label": "CSU Extension, Native Lawn Establishment in Colorado (Tony Koski, revised December 2022; PlantTalk Colorado PDF)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "2",
+      "4",
+      "5",
+      "2022"
+    ]
+  },
+  {
+    "id": "artificial-turf-vs-low-water-grass.native-lawn-seed-sources",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension's native-lawn guide, revised December 2022, warns that seed mixes labeled \"native\" often hold few truly native grasses, and lists sources without endorsing them, among them two Greeley seed companies, Pawnee Buttes Seed and Buffalo Brand Seed, for seed.",
+    "quote": "Grass seed mixtures labeled as “native” often contain little or no truly native grasses. … Where can I get Native Grass Sod, Seed, Plugs? … Pawnee Buttes Seed (Greeley) … Buffalo Brand Seed (Greeley) … Revised December 2022. Inclusion of company/product names neither infers recommendation by Colorado State University or the author",
+    "source_url": "https://planttalk.colostate.edu/wp-content/uploads/2023/03/Native-Lawn-Establishment.pdf",
+    "source_label": "CSU Extension, Native Lawn Establishment in Colorado (Tony Koski, revised December 2022; PlantTalk Colorado PDF)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2022"
+    ],
+    "notes": "The guide's table marks both Greeley companies \"Yes\" for seed and \"no\" for sod and plugs; its plug and sod source is out of state. Names are CSU's list, not a NoCo recommendation."
+  },
+  {
+    "id": "artificial-turf-vs-low-water-grass.koski-clover",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension turfgrass specialist Tony Koski says clover cuts a lawn's fertilizer needs because the bacteria on its roots fix nitrogen, draws bees, and takes a good amount of kid and dog traffic, but is not particularly drought resistant, does best in full sun, is damaged by weed killers, likes watering once or twice a week in hot weather, and that micro clover stays small only if mowed frequently.",
+    "quote": "meaning that a clover-containing lawn won't need to be fertilized like grass lawns. This is true! … highly attractive to honey bees and other pollinators … Clover is also very cold hardy and will tolerate a good amount of kid and dog traffic … Clover is not particularly drought resistant and does best in full sun. Because it is damaged by herbicides, it's best not to use weed control products on a clover-containing lawn. Clover lawns like regular irrigation (once or twice weekly when it's hot). … However, this clover stays \"mini\" ONLY if mowed frequently; if not mowed, it will grow tall and look like regular white clover.",
+    "source_url": "https://cmg.extension.colostate.edu/wp-content/uploads/sites/59/2021/02/Should-you-move-over-to-clover_Koski_2020.pdf",
+    "source_label": "CSU Extension, Should You Move Over to Clover? (Tony Koski, CSU Extension Turfgrass Specialist, 2020)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2020"
+    ]
+  },
+  {
+    "id": "artificial-turf-vs-low-water-grass.ask-655467-clover-not-drought-tolerant",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Answering a Colorado homeowner in 2020, an Ask Extension expert wrote that clover is not drought tolerant and may need as much water as bluegrass or fescue, would need reseeding every 2 to 3 years to stay uniform, can't be treated with lawn herbicides, and pointed anyone after truly low water to blue grama, buffalograss, tall fescue or ground covers.",
+    "quote": "If you are worried about uniformity, clover would also need to be re-seeded every 2-3 years. … Clover is not drought tolerant; it may need as much water as bluegrass or fescue … Herbicides that are used in lawns cannot be used in clover. … Clover does need a fair amount of moisture so if you are really after low water, you might try drier loving grasses like blue grama, buffalograss, tall fescue or ground covers",
+    "source_url": "https://ask.extension.org/kb/faq.php?id=655467",
+    "source_label": "Ask Extension, Clover lawns in Colorado #655467 (expert response, June 24, 2020)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "655467",
+      "24",
+      "2020",
+      "2",
+      "3"
+    ],
+    "notes": "The asker lives outside Northern Colorado, so the copy says \"a Colorado homeowner\" only. The answer is signed \"An Ask Extension Expert\"."
+  },
+  {
+    "id": "artificial-turf-vs-low-water-grass.ask-914240-clover-peak-water",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "In August 2025 an Ask Extension expert told a Colorado homeowner whose spring clover lawn had thinned to patches that clover is marketed as low-water mostly where more rain falls than in Colorado, and that clover lawns need almost as much water in peak summer heat as traditional lawns, 2 to 2.5 inches a week.",
+    "quote": "In the spring it was lush and full but now it is pretty much gone except some patches. … Clover is marketed as a low-water option to turf, but much of that is in areas where there is more natural precipitation than we get in Colorado. … Clover lawns need almost as much water in peak heat of summer as traditional turf lawns -- 2-2 1/2\" a week.",
+    "source_url": "https://ask.extension.org/kb/faq.php?id=914240",
+    "source_label": "Ask Extension, Clover lawns #914240 (expert response, August 18, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "914240",
+      "18",
+      "2025",
+      "2",
+      "2.5",
+      "1/2"
+    ],
+    "notes": "\"2-2 1/2\" a week\" is written 2 to 2.5 inches in copy. The asker lives outside Northern Colorado, so the copy says \"a Colorado homeowner\" only."
+  },
+  {
+    "id": "artificial-turf-vs-low-water-grass.ask-820751-microclover-csu-research",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "In a 2023 Ask Extension answer, Alison O'Connor, a CSU Extension horticulture professor in Larimer County, wrote that limited CSU research found microclovers did not stay micro but reverted to typical larger-leaf clover, and that microclover needs regular water, probably about an inch a week in the hottest part of summer, more in high-traffic areas.",
+    "quote": "Limited research done at CSU with microclovers found that they didn't stay \"micro\" and reverted to the typical larger-leaf clover. That said, they generally grew well. It can be considered as an alternative ground cover. It does need regular water (probably about 1\" per week during the hottest parts of summer) and may need more water if it's in a high-traffic area.",
+    "source_url": "https://ask.extension.org/kb/faq.php?id=820751",
+    "source_label": "Ask Extension, Micro Clover #820751 (response by Alison O'Connor, PhD, March 23, 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "820751",
+      "23",
+      "2023",
+      "1"
+    ],
+    "notes": "O'Connor's title (Extension Professor of Horticulture, CSU Extension in Larimer County) is from the CSU SOURCE buffalograss article by-line, not from the Ask Extension page."
+  },
+  {
+    "id": "artificial-turf-vs-low-water-grass.ask-859630-clover-mix",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Asked in 2024 whether buffalograss seed would work mixed into a new clover lawn, Weld County Colorado Master Gardeners forwarded the question to CSU's turf specialist and replied, after further discussion, that fescues are the more frequently used grass to mix with clover.",
+    "quote": "I’m planning to put in a clover lawn, but I was thinking about, including some buffalo grass seed as well. Would that work well? … I have forwarded yours and a few other questions to our CSU turf specialist … After further discussion, the fescues are a more frequently used choice for mixing with clover. There are pre-mixed clover lawn seed selections available.",
+    "source_url": "https://ask.extension.org/kb/faq.php?id=859630",
+    "source_label": "Ask Extension, Clover and buffalo grass for lawns #859630 (Weld County Colorado Master Gardeners, February 2024)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "859630",
+      "2024"
+    ]
+  },
+  {
+    "id": "artificial-turf-vs-low-water-grass.co-hb25-1113-turf-definition",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado's 2025 turf law defines the turf it regulates as continuous cover of nonnative grasses, or grasses not hybridized for arid conditions, that form a dense growth of leaf blades and roots when regularly mowed.",
+    "quote": "MEANS CONTINUOUS PLANT COVERAGE CONSISTING OF NONNATIVE GRASSES OR GRASSES THAT HAVE NOT BEEN HYBRIDIZED FOR ARID CONDITIONS AND WHICH, WHEN REGULARLY MOWED, FORM A DENSE GROWTH OF LEAF BLADES AND ROOTS.",
+    "source_url": "https://leg.colorado.gov/bill_files/40673/download",
+    "source_label": "C.R.S. 37-99-102(17), as amended by HB25-1113 (signed act)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "2025",
+      "37",
+      "99",
+      "102",
+      "17",
+      "25",
+      "1113"
+    ],
+    "notes": "Read in the signed act PDF, page 3. The struck-through old text cross-referenced 37-60-135(2)(i); the new capitalised text is the definition quoted. Native grasses such as buffalograss and blue grama fall outside it."
+  },
+  {
+    "id": "artificial-turf-vs-low-water-grass.co-sb23-178-no-turf-grass-requirement",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado law makes unenforceable any HOA covenant or rule, or special district rule, that prohibits or limits xeriscape or drought-tolerant landscapes or requires plantings to be wholly or partly turf grass, while still letting HOAs and districts adopt design and aesthetic guidelines; the provision does not apply to attached homes that share a wall or to timeshare associations.",
+    "quote": "ANY SECTION OF A RESTRICTIVE COVENANT OR OF THE DECLARATION, BYLAWS, OR RULES AND REGULATIONS OF A COMMON INTEREST COMMUNITY, ALL AS DEFINED IN SECTION 38-33.3-103, AND ANY RULE OR POLICY OF A SPECIAL DISTRICT, AS DEFINED IN SECTION 32-1-103 (20), THAT PROHIBITS OR LIMITS XERISCAPE, PROHIBITS OR LIMITS THE INSTALLATION OR USE OF DROUGHT-TOLERANT VEGETATIVE OR NONVEGETATIVE LANDSCAPES, REQUIRES CULTIVATED VEGETATION TO … CONSIST WHOLLY OR PARTIALLY OF TURF GRASS, OR PROHIBITS THE USE OF NONVEGETATIVE TURF GRASS IN THE BACKYARD OF A RESIDENTIAL PROPERTY IS HEREBY DECLARED CONTRARY TO PUBLIC POLICY AND, ON THAT BASIS, IS UNENFORCEABLE. THIS SUBSECTION (11)(a.5) DOES NOT PROHIBIT … COMMON INTEREST COMMUNITIES OR SPECIAL DISTRICTS FROM ADOPTING AND ENFORCING DESIGN OR AESTHETIC GUIDELINES … (II) THIS SUBSECTION (11)(a.5) DOES NOT APPLY TO: (A) A UNIT OWNERS' ASSOCIATION, AS DEFINED IN SECTION 38-33.3-103 (3), THAT INCLUDES TIME SHARE UNITS … (B) A UNIT, AS DEFINED IN SECTION 38-33.3-103 (30), THAT IS A SINGLE-FAMILY HOME THAT SHARES ONE OR MORE WALLS WITH ANOTHER UNIT.",
+    "source_url": "https://leg.colorado.gov/bill_files/92307/download",
+    "source_label": "C.R.S. 37-60-126(11)(a.5), added by SB23-178 (signed act)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "37",
+      "60",
+      "126",
+      "11",
+      "38",
+      "33.3",
+      "103",
+      "32",
+      "1",
+      "20",
+      "23",
+      "178",
+      "3",
+      "30"
+    ],
+    "notes": "Read in the signed act PDF, pages 3-4 (a page footer falls inside the quoted sentence, marked with an ellipsis). \"Turf grass\" here means living grass; the same subsection also protects artificial turf in backyards."
+  }
+]

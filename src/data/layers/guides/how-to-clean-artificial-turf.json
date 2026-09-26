@@ -1,0 +1,631 @@
+[
+  {
+    "id": "how-to-clean-artificial-turf.fc-code-26-498",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins City Code Sec. 26-498 says storm drains are for precipitation only and bars discharging any pollutant or contaminated water, without suitable treatment, into a street, watercourse or storm drainage facility, or onto public or private property where it could migrate to one.",
+    "quote": "The City storm drainage facilities are intended to be used only for the purpose of collecting water deposited as a result of meteorological precipitation. … Except where suitable treatment has been provided, no person shall discharge any pollutant or contaminated water into or upon any: (1) Public street, highway or other right-of-way; (2) Watercourse (whether natural or manmade); (3) Storm drainage facility; or (4) Other public or private property within the City or in an area under the jurisdiction of the City if there is a significant potential for migration of such pollutant or contaminated water from such property to a storm drainage facility.",
+    "source_url": "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH26UT_ARTVIISTUT_DIV1GE_S26-498WAQUCO",
+    "source_label": "Fort Collins City Code Sec. 26-498, Water quality control (Municode, Supplement 155)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "26",
+      "498",
+      "1",
+      "2",
+      "3",
+      "4",
+      "155"
+    ],
+    "notes": "Read through the Municode API (job 498160, Supplement 155, posted 2026-09-10). The section does not name artificial turf or cleaning; the page applies it to rinse water that leaves a yard. Last amended by Ord. No. 080, 2011."
+  },
+  {
+    "id": "how-to-clean-artificial-turf.fc-code-26-491-pollutant",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins' stormwater code (Sec. 26-491) defines a pollutant to include dirt, sand, chemical waste, cooking grease and household waste, and leaves landscape irrigation and lawn watering out of its definition of contaminated water.",
+    "quote": "Pollutant shall mean contaminated water, dredged spoil, dirt, slurry, solid waste, … chemical waste, … rock, sand, automotive fluids, paint, cooking grease, … or any industrial, commercial, construction, household, municipal, or agricultural waste. … This definition does not include the following sources of water, unless water from such a source is determined to violate other applicable water quality restrictions or requirements: … (2) Landscape irrigation and lawn watering;",
+    "source_url": "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH26UT_ARTVIISTUT_DIV1GE_S26-491DE",
+    "source_label": "Fort Collins City Code Sec. 26-491, Definitions (stormwater utility)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "26",
+      "491",
+      "2"
+    ],
+    "notes": "The lawn-watering exclusion is in the definition of contaminated water, which the pollutant definition includes. Whether a turf rinse counts as lawn watering, the code does not say."
+  },
+  {
+    "id": "how-to-clean-artificial-turf.fc-stormwater-driveways-creeks",
+    "layer": "utility",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins Utilities says runoff flows from storm sewers into the creeks and the Poudre River without treatment, that driveways drain to creeks while commercial car washes drain to the treatment plant, and that sprinklers and rain wash chemicals into storm drains.",
+    "quote": "This runoff flows directly from storm sewers into the creeks and Poudre River without treatment by a water reclamation facility. … Sprinklers and rain wash chemicals into nearby storm drains, eventually damaging aquatic life. … Car washes drain to the treatment plant, while driveways drain to creeks and other surface water.",
+    "source_url": "https://www.fortcollins.gov/Services/Utilities/Other-Utilities-Pages/Water/Stormwater",
+    "source_label": "City of Fort Collins Utilities, Stormwater",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The brief's fcgov.com stormwater-quality URL 301-redirects here. Akamai returns 403 to curl; read in a browser on 2026-09-25."
+  },
+  {
+    "id": "how-to-clean-artificial-turf.fc-stormwater-spills-911",
+    "layer": "utility",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins asks residents to report emergency spills or illegal dumping, including spills directly into a storm drain, creek or river, by calling 911, and lists a separate line for other spills.",
+    "quote": "Report Emergency Spills or Illegal Dumping by Calling 911 … Emergency spills include hazardous materials, large volumes of contaminants or contaminants that are potentially life-threatening or harmful to the environment. It also includes spills or illegal dumping directly into a storm drain, creek or river.",
+    "source_url": "https://www.fortcollins.gov/Services/Utilities/Other-Utilities-Pages/Water/Stormwater",
+    "source_label": "City of Fort Collins Utilities, Stormwater",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "911"
+    ],
+    "notes": "The page also prints a non-emergency spill line; it is not typed into copy (phone rule). Read in a browser (Akamai blocks curl)."
+  },
+  {
+    "id": "how-to-clean-artificial-turf.windsor-code-13-5-50",
+    "layer": "ordinance",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor Municipal Code Sec. 13-5-50 bars discharging chemicals, solvents, oil and grease, pesticides, pet wastes, cleaning products, sediment and yard debris into the storm system, while exempting lawn watering, individual residential car washing, and swimming pool water only if dechlorinated to under 0.05 ppm chlorine.",
+    "quote": "No person shall discharge or cause to be discharged into the MS4 or watercourses any illicit discharge, including, but not limited to, the following: (1) Chemicals, petroleum products, paint, varnishes, solvents, oil and grease and other automotive fluids, pesticides, herbicides, and fertilizers, or other toxic materials; … (4) Trash, refuse, rubbish, garbage, food wastes, pet wastes, litter, other discarded or abandoned objects, floatables and cleaning products; (5) Landscaping materials, sediment, lawn clippings, leaves, branches or other landscaping and yard debris; … Exemptions. The following discharges, when not otherwise enumerated as illicit above, are exempt from the discharge prohibitions established by this article: (1) Waterline flushing or other potable water sources, landscape irrigation or lawn watering, … individual residential car washing, natural riparian habitat or wetland flows, swimming pools (if dechlorinated, less than 0.05 ppm chlorine).",
+    "source_url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH13MUUT_ARTVSTQU_S13-5-50ILDIPREX",
+    "source_label": "Windsor Municipal Code Sec. 13-5-50, Illicit discharge prohibited; exemptions (Ord. 2019-1586)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "13",
+      "5",
+      "50",
+      "1",
+      "4",
+      "0.05",
+      "2019",
+      "1586"
+    ],
+    "notes": "Read through the Municode API (job 500132, Supplement 24 Update 1, posted 2026-09-16). The exemption applies only 'when not otherwise enumerated as illicit above', so water carrying cleaning products or sediment is not exempt."
+  },
+  {
+    "id": "how-to-clean-artificial-turf.loveland-code-13-20-130",
+    "layer": "ordinance",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "Loveland Municipal Code 13.20.130 makes it unlawful to discharge any substance other than naturally occurring stormwater runoff into the city's storm drainage system, with exemptions that include landscape irrigation, lawn watering and runoff from non-commercial car washing.",
+    "quote": "It is unlawful and constitutes a nuisance for any person to discharge or cause to be discharged or spilled, or to maintain a condition upon any property that may result in the discharge of, any substance other than naturally occurring stormwater runoff into the city's storm drainage system (any of which shall constitute an \"Illicit Discharge\"). Notwithstanding the foregoing, an \"Illicit Discharge\" under this Code Section 13.20.130 shall not include the following: diverted stream flows from lawn-watering; landscape irrigation; … runoff from non-commercial car washing; … lawn watering;",
+    "source_url": "https://library.municode.com/co/loveland/codes/code_of_ordinances?nodeId=PTIILOCOMUCO_TIT13UT_CH13.20STQU_13.20.130ILDI",
+    "source_label": "Loveland Municipal Code 13.20.130, Illicit discharges (Ord. No. 6281, 2019)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "13.20",
+      "13",
+      "130",
+      "6281",
+      "2019"
+    ],
+    "notes": "Read through the Municode API (job 488583, Supplement 13). The section does not name artificial turf or cleaning."
+  },
+  {
+    "id": "how-to-clean-artificial-turf.greeley-code-20-563",
+    "layer": "ordinance",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley Municipal Code Sec. 20-563 prohibits discharges to the city's stormwater drainage system that are not entirely stormwater unless they are on its allowed list, which includes landscape irrigation and individual residential car washing.",
+    "quote": "Illicit discharges are discharges to the city's stormwater drainage system that are not composed entirely of stormwater and are not allowed discharges as described in subsection (b) of this section. Illicit discharges to the city's stormwater drainage system are prohibited. … The following are allowed discharges into the city's stormwater drainage system and are exempted from classification as an illicit discharge: uncontaminated runoff from rain or snow melt; landscape irrigation; … individual residential car washing;",
+    "source_url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT20PUWOUT_CH3WASASESE_ARTVIISTDRSY_DIV1INGE_S20-563ILDIALDINOTA",
+    "source_label": "Greeley Municipal Code Sec. 20-563, Illicit discharges; allowed discharges; nonconforming taps",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "563"
+    ],
+    "notes": "Read through the Municode API (job 493697, Supplement 6 Update 1). The allowed list does not name turf cleaning."
+  },
+  {
+    "id": "how-to-clean-artificial-turf.ccc-plains-dry-windy",
+    "layer": "climate",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Climate Center describes Colorado's eastern plains as having low humidity, abundant sunshine, infrequent rain and snow and moderate to high wind, with winters that bring dry air and strong winds.",
+    "quote": "The climate of the plains is comparatively uniform from place to place, with characteristic features of low relative humidity, abundant sunshine, infrequent rains and snow, moderate to high wind movement, and a large daily and seasonal range in temperature. … More often, winter brings dry air and strong winds contributing to the aridity of the area.",
+    "source_url": "https://climate.colostate.edu/climate_long.html",
+    "source_label": "Colorado Climate Center, Climate of Colorado (Climatography of the United States No. 60, with December 2025 updates)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "60",
+      "2025"
+    ],
+    "notes": "A statewide description of the eastern plains, which include the Weld County towns; the page does not name Northern Colorado towns or mention dust."
+  },
+  {
+    "id": "how-to-clean-artificial-turf.ccc-high-elevation-sun",
+    "layer": "climate",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Climate Center says sunburn and skin cancer are a problem in Colorado because of the intense high-elevation sunlight.",
+    "quote": "Outdoor work and recreation can often be carried out in relative comfort year round, but sunburn and skin cancer is a problem due to the intense high-elevation sunlight.",
+    "source_url": "https://climate.colostate.edu/climate_long.html",
+    "source_label": "Colorado Climate Center, Climate of Colorado (Climatography of the United States No. 60, with December 2025 updates)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "60",
+      "2025"
+    ]
+  },
+  {
+    "id": "how-to-clean-artificial-turf.ccc-chinook-warmups",
+    "layer": "climate",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Climate Center says chinook winds on the high plains can raise temperatures 25 to 35°F within a short time.",
+    "quote": "Warmed by rapid descent from higher levels, these winds bring large and sudden temperature rises. This phenomenon is the \"chinook;\" of the high plains and temperature rises of 25 to 35°F within a short time are not uncommon.",
+    "source_url": "https://climate.colostate.edu/climate_long.html",
+    "source_label": "Colorado Climate Center, Climate of Colorado (Climatography of the United States No. 60, with December 2025 updates)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "25",
+      "35",
+      "60",
+      "2025"
+    ]
+  },
+  {
+    "id": "how-to-clean-artificial-turf.synlawn-dust-pollen",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's care manual says synthetic turf accumulates dust, pollen and dirt, and that while rain helps keep it clean, it benefits from routine washing.",
+    "quote": "Synthetic turf surfacing will accumulate dust, pollen, dirt etc. While rainfall will go a long way in keeping it clean your project will benefit from routine washing.",
+    "source_url": "https://www.synlawn.com/wp-content/uploads/2024/04/SYNLawn-Care-and-Maintenance-ENG.pdf",
+    "source_label": "SYNLawn, Care and Maintenance Manual (SCM.v230517, May 17, 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "230517",
+      "17",
+      "2023"
+    ],
+    "notes": "One manufacturer's care manual; other makers' guides may differ, so the page presents it as one maker's advice."
+  },
+  {
+    "id": "how-to-clean-artificial-turf.synlawn-promptness-blot",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's care manual says to deal with spills promptly: lift solids with a spatula or knife and blot liquids with paper towels, a cloth or a dry absorbent such as kitty litter, then sweep or vacuum the absorbent up.",
+    "quote": "The first rule is promptness. It is always easier to clean up a fresh spill than one that has dried and hardened. Remove any solid or paste-like deposit with a spatula or table knife. Blot up excess liquids with paper towels, a clean cloth, or a dry absorbent, such as kitty litter or fuller’s earth. … Dry absorbents can then be swept or vacuumed up afterwards.",
+    "source_url": "https://www.synlawn.com/wp-content/uploads/2024/04/SYNLawn-Care-and-Maintenance-ENG.pdf",
+    "source_label": "SYNLawn, Care and Maintenance Manual (SCM.v230517, May 17, 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "230517",
+      "17",
+      "2023"
+    ]
+  },
+  {
+    "id": "how-to-clean-artificial-turf.synlawn-detergent",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's care manual recommends a warm, mild detergent solution of about one teaspoon per pint of water for most water-based stains, then a thorough rinse with clean cold water.",
+    "quote": "A warm, mild solution of granular household detergent or any low sudsing detergent for fine fabrics. Use approximately one teaspoon to one pint of water. This will handle most waterborne stains including: … Rinse area thoroughly with clean cold water to remove any traces of soap or ammonia.",
+    "source_url": "https://www.synlawn.com/wp-content/uploads/2024/04/SYNLawn-Care-and-Maintenance-ENG.pdf",
+    "source_label": "SYNLawn, Care and Maintenance Manual (SCM.v230517, May 17, 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "230517",
+      "17",
+      "2023"
+    ],
+    "notes": "The manual's list of waterborne stains includes coffee, fruit juices, cola, ketchup, butter, ice cream, blood, urine and latex paint."
+  },
+  {
+    "id": "how-to-clean-artificial-turf.synlawn-ammonia-stubborn",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's care manual allows a 3 percent solution of household ammonia in water instead of detergent for more stubborn stains.",
+    "quote": "A three (3) percent solution of household ammonia in water may be used in lieu of household detergent for more stubborn stains.",
+    "source_url": "https://www.synlawn.com/wp-content/uploads/2024/04/SYNLawn-Care-and-Maintenance-ENG.pdf",
+    "source_label": "SYNLawn, Care and Maintenance Manual (SCM.v230517, May 17, 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "230517",
+      "17",
+      "2023"
+    ]
+  },
+  {
+    "id": "how-to-clean-artificial-turf.synlawn-no-bleach",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's care manual says not to use cleaners containing chlorine bleach, caustic cleaners above pH 9 or highly acidic cleaners below pH 5.",
+    "quote": "DO NOT USE cleaners that contain chlorine bleaches or caustic cleaners (ph above (9) or highly acidic cleaners (ph. below 5).",
+    "source_url": "https://www.synlawn.com/wp-content/uploads/2024/04/SYNLawn-Care-and-Maintenance-ENG.pdf",
+    "source_label": "SYNLawn, Care and Maintenance Manual (SCM.v230517, May 17, 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "9",
+      "5",
+      "230517",
+      "17",
+      "2023"
+    ]
+  },
+  {
+    "id": "how-to-clean-artificial-turf.synlawn-solvents-sparingly",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's care manual says oil-based stains such as suntan oil, cooking oil, motor oil and grease, chewing gum, crayon, lipstick and tar take mineral spirits, applied sparingly with a soaked cloth so the solvent does not get below the turf, and warns that such solvents are flammable.",
+    "quote": "Some cleaning agents safe for the face fibers can be harmful to other components of the turf system. Therefore, cleaning agents are grouped into two sets, one of which can be used in liberal amounts directly on the turf surface, and the second of which should only be applied by rubbing a cloth soaked in the cleaner in order to minimize penetration of possible harmful agents below the turf surface. … The second group of cleaners must be applied sparingly with care taken to avoid penetration of the agent beneath the turf are the following: Mineral spirits or a grease spot remover like perchlorethylene (dry cleaning solution) of the type sold by most variety stores and supermarkets. In general, cleansers in this category should handle most oil-based stains including: … Caution: Mineral spirits and other petroleum based solvents are flammable.",
+    "source_url": "https://www.synlawn.com/wp-content/uploads/2024/04/SYNLawn-Care-and-Maintenance-ENG.pdf",
+    "source_label": "SYNLawn, Care and Maintenance Manual (SCM.v230517, May 17, 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "230517",
+      "17",
+      "2023"
+    ],
+    "notes": "The oil-based list in the manual: asphalt and tar, cooking oil, floor wax, motor oil & grease, ballpoint ink, suntan oil, chewing gum, shoe polish, lipstick, paraffin wax, nail polish, crayon. The page names only mineral spirits, not perchloroethylene."
+  },
+  {
+    "id": "how-to-clean-artificial-turf.synlawn-gum-sap-freeze",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's care manual says chewing gum and tree sap can be removed by freezing them with an aerosol refrigerant or dry ice and then scraping with a knife.",
+    "quote": "In addition to dry cleaning fluid, chewing gum and tree sap can be removed by freezing. Aerosol packs of refrigerant are available from most carpet cleaning suppliers for this purpose, or dry ice can be used. After freezing, scrape with a knife.",
+    "source_url": "https://www.synlawn.com/wp-content/uploads/2024/04/SYNLawn-Care-and-Maintenance-ENG.pdf",
+    "source_label": "SYNLawn, Care and Maintenance Manual (SCM.v230517, May 17, 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "230517",
+      "17",
+      "2023"
+    ]
+  },
+  {
+    "id": "how-to-clean-artificial-turf.synlawn-vinegar-mineral-deposits",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's care manual notes that water hardness can leave deposits and treats mineral deposits with equal parts white distilled vinegar and water, lightly brushed in and then flushed with water.",
+    "quote": "Keep in mind that water hardness and deposits may form depending upon source. … Apply a mixture of white distilled vinegar in an equal amount of water to grass and lightly brush. Flush thoroughly with water after application.",
+    "source_url": "https://www.synlawn.com/wp-content/uploads/2024/04/SYNLawn-Care-and-Maintenance-ENG.pdf",
+    "source_label": "SYNLawn, Care and Maintenance Manual (SCM.v230517, May 17, 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "230517",
+      "17",
+      "2023"
+    ]
+  },
+  {
+    "id": "how-to-clean-artificial-turf.synlawn-300-psi",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's care manual warns against high-pressure water spray over 300 psi, which can severely damage the turf and displace infill, and says to consult the dealer about oil paints and other difficult stains, which may need a commercial carpet cleaner.",
+    "quote": "Please consult your SYNLawn dealer as these may require a commercial carpet cleaner. … Caution! Do not use high-pressure water spray with stream force in excess of 300 psi as this can severely damage the turf and displace any infill material.",
+    "source_url": "https://www.synlawn.com/wp-content/uploads/2024/04/SYNLawn-Care-and-Maintenance-ENG.pdf",
+    "source_label": "SYNLawn, Care and Maintenance Manual (SCM.v230517, May 17, 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "300",
+      "230517",
+      "17",
+      "2023"
+    ],
+    "notes": "The carpet-cleaner sentence sits under the manual's heading 'Oil paints and more difficult stains'."
+  },
+  {
+    "id": "how-to-clean-artificial-turf.msi-no-power-washer",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "MSI's Evergrass care sheet says never to use a power washer and to use a hose with a sprinkler or spray nozzle so the water can drain.",
+    "quote": "Never use a power washer. It is recommended to use a hose with sprinkler or spray nozzle, this will allow the water to drain.",
+    "source_url": "https://cdn.msisurfaces.com/files/flyers/turf-care-and-maintenance.pdf",
+    "source_label": "MSI Surfaces, Evergrass Artificial Turf Care & Maintenance (flyer)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Most of the flyer's text is outlined artwork; this sentence is in its extractable text layer."
+  },
+  {
+    "id": "how-to-clean-artificial-turf.stc-stain-hot-water",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council's maintenance guidelines say most stains come out with hot, but not boiling, water and a household detergent the field builder approves, scrubbed with a stiff bristle brush and rinsed with clean water.",
+    "quote": "Most stains can be removed easily with a solution of hot, but not boiling, water and a field builder’s approved household detergent. Brush the stain with a stiff bristle brush, scrub the area with soap and water, rinse with clean water, and pat dry.",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guidelines_for_Maintenan.pdf",
+    "source_label": "Synthetic Turf Council, Guidelines for Maintenance of Infilled Synthetic Turf Systems (January 2013, Rev. 1)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2013",
+      "1"
+    ],
+    "notes": "Written for sports fields; the page uses only its stain and spill advice."
+  },
+  {
+    "id": "how-to-clean-artificial-turf.stc-no-alcohol-acetone",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council's maintenance guidelines say not to use cleaning chemicals containing alcohol or acetone solvents, and not to use chemicals without consulting the field builder.",
+    "quote": "Do not use cleaning chemicals containing alcohol or acetone solvents. Chemicals should not be used without consulting with your field builder. Take care to avoid spilling any petroleum-based liquids including fuel onto the surface.",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guidelines_for_Maintenan.pdf",
+    "source_label": "Synthetic Turf Council, Guidelines for Maintenance of Infilled Synthetic Turf Systems (January 2013, Rev. 1)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2013",
+      "1"
+    ]
+  },
+  {
+    "id": "how-to-clean-artificial-turf.stc-petroleum-spill",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council's maintenance guidelines say petroleum spills can damage synthetic turf; the fix is to soak up the fluid, vacuum out the infill in that area, clean the turf with dishwashing liquid and water, and install new infill.",
+    "quote": "Petroleum-based spills can damage the synthetic turf. … If it gets on the turf, use spill leak towels to soak up the majority of the fluid. Vacuum out the infill in the affected area, use a solution of household dishwashing liquid and water to break down and clean any remaining fluid from the turf. Once the turf is clean, you will need to install new infill.",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guidelines_for_Maintenan.pdf",
+    "source_label": "Synthetic Turf Council, Guidelines for Maintenance of Infilled Synthetic Turf Systems (January 2013, Rev. 1)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2013",
+      "1"
+    ]
+  },
+  {
+    "id": "how-to-clean-artificial-turf.stc-gum-freeze-peanut-butter",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council's maintenance guidelines say to freeze chewing gum with ice or an aerosol and chip it off, and to soften gum smeared across the fibers with peanut butter so it wipes off.",
+    "quote": "Chewing gum can best be removed by using either ice or an aerosol to freeze the gum, which can then be chipped or broken off the turf fibers. If gum has been smeared across fibers, peanut butter will soften and breakdown the gum so that it can be wiped off.",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guidelines_for_Maintenan.pdf",
+    "source_label": "Synthetic Turf Council, Guidelines for Maintenance of Infilled Synthetic Turf Systems (January 2013, Rev. 1)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2013",
+      "1"
+    ],
+    "notes": "The PDF hyphenates 'pea-nut' across a line break; the quote joins it."
+  },
+  {
+    "id": "how-to-clean-artificial-turf.epa-clean-sanitize-disinfect",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "EPA says cleaning removes dirt and organic matter with soap or detergent and is regulated only if a product sanitizes or disinfects, sanitizing kills bacteria but is not intended to kill viruses, and disinfecting kills viruses and bacteria; EPA registers sanitizers and disinfectants.",
+    "quote": "Cleaning removes dirt and organic matter from surfaces using soap or detergents. EPA regulates cleaning products only if they sanitize or disinfect. … Sanitizing kills bacteria on surfaces using chemicals. It is not intended to kill viruses. Yes, EPA registers products that sanitize. … Disinfecting kills viruses and bacteria on surfaces using chemicals. Yes, EPA registers products that disinfect.",
+    "source_url": "https://www.epa.gov/coronavirus/whats-difference-between-products-disinfect-sanitize-and-clean-surfaces",
+    "source_label": "U.S. EPA, What's the difference between products that disinfect, sanitize, and clean surfaces? (updated October 8, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "8",
+      "2025"
+    ]
+  },
+  {
+    "id": "how-to-clean-artificial-turf.epa-read-label-use-site",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "EPA says disinfectants are pesticides, that users must read the label to see whether a product is approved for the intended use site, and that the EPA registration number is the only way to accurately identify a product.",
+    "quote": "Disinfectants are pesticides and can be harmful, please be sure to read and understand any precautionary language or any safety information before using the product. … The only way to accurately identify a product is by the EPA registration number. … Before applying any EPA-registered disinfectant product, users must read and understand the label to determine if the product is approved for the intended-use site or pest.",
+    "source_url": "https://www.epa.gov/pesticide-registration/selected-epa-registered-disinfectants",
+    "source_label": "U.S. EPA, Selected EPA-Registered Disinfectants (updated August 24, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "24",
+      "2026"
+    ]
+  },
+  {
+    "id": "how-to-clean-artificial-turf.epa-contact-time",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "EPA says a disinfectant's contact time is how long it must stay on a surface to work, the surface should stay visibly wet the whole time, and that may mean reapplying it.",
+    "quote": "The contact time is the time the product must remain on the surface for it to be effective. The surface should be visibly wet for the entire contact time. This may mean the product needs to be reapplied.",
+    "source_url": "https://www.epa.gov/pesticide-registration/selected-epa-registered-disinfectants",
+    "source_label": "U.S. EPA, Selected EPA-Registered Disinfectants (updated August 24, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "24",
+      "2026"
+    ]
+  },
+  {
+    "id": "how-to-clean-artificial-turf.epa-list-g-norovirus",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "EPA keeps lists of registered antimicrobial products effective against specific pathogens, including List G for norovirus.",
+    "quote": "EPA’s Registered Antimicrobial Products Effective Against Norovirus (Feline calicivirus) [List G]",
+    "source_url": "https://www.epa.gov/pesticide-registration/selected-epa-registered-disinfectants",
+    "source_label": "U.S. EPA, Selected EPA-Registered Disinfectants (updated August 24, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "24",
+      "2026"
+    ]
+  },
+  {
+    "id": "how-to-clean-artificial-turf.epa-six-steps",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "EPA's six steps for disinfectant use say to find the product's EPA registration number, check its use sites and surface types, wash the surface with soap and water first if the directions call for it or it is visibly dirty, and keep the surface wet for the contact time.",
+    "quote": "Find the EPA registration number on the product. … Follow the product’s directions. Check “use sites” and “surface types” to see where you can use the product. … Make sure to wash the surface with soap and water if the directions mention pre-cleaning or if the surface is visibly dirty. … You can find the contact time in the directions. The surface should remain wet the whole time to ensure the product is effective.",
+    "source_url": "https://www.epa.gov/sites/default/files/2020-04/documents/disinfectants-onepager.pdf",
+    "source_label": "U.S. EPA, 6 Steps for Safe & Effective Disinfectant Use (one-page PDF, 2020)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6",
+      "2020"
+    ],
+    "notes": "Linked from EPA's page 'Six Steps for Safe & Effective Disinfectant Use' (updated April 1, 2026)."
+  },
+  {
+    "id": "how-to-clean-artificial-turf.cdc-cleaning-usually-enough",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The CDC says that in most situations cleaning with soap and water removes most germs from surfaces, and that disinfecting at home is likely not needed unless someone in the home is sick or a sick person has recently visited.",
+    "quote": "In most situations, cleaning alone with soap and water can remove most germs, such as harmful viruses or bacteria, on surfaces. Disinfecting to reduce the spread of diseases at home is likely not needed unless someone in your home is sick or if someone sick has recently visited.",
+    "source_url": "https://www.cdc.gov/hygiene/about/cleaning-and-disinfecting-with-bleach.html",
+    "source_label": "CDC, Cleaning and Disinfecting with Bleach (April 24, 2024)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "24",
+      "2024"
+    ],
+    "notes": "cdc.gov returns 403 to curl; read in a browser on 2026-09-25."
+  },
+  {
+    "id": "how-to-clean-artificial-turf.cdc-never-mix-bleach",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The CDC says never to mix household bleach, or any disinfectant, with other cleaners or disinfectants, because it can release dangerous vapors, and to clean visibly dirty surfaces with soap or detergent before disinfecting.",
+    "quote": "Never mix household bleach (or any disinfectants) with any other cleaners or disinfectants. This can release vapors that may be very dangerous to breathe in. … First, clean visibly dirty surfaces with household cleaners containing soap or detergent before disinfecting with household bleach.",
+    "source_url": "https://www.cdc.gov/hygiene/about/cleaning-and-disinfecting-with-bleach.html",
+    "source_label": "CDC, Cleaning and Disinfecting with Bleach (April 24, 2024)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "24",
+      "2024"
+    ],
+    "notes": "cdc.gov returns 403 to curl; read in a browser on 2026-09-25."
+  },
+  {
+    "id": "how-to-clean-artificial-turf.cdc-norovirus-cleanup",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "After someone vomits or has diarrhea, the CDC says to wipe the area up with paper towels, then disinfect with a chlorine bleach solution of 1,000 to 5,000 ppm or an EPA-registered product against norovirus, leaving bleach on for at least 5 minutes.",
+    "quote": "Wear rubber or disposable gloves and wipe the entire area with paper towels and throw them in a plastic trash bag. Disinfect the area as directed on the product label. To disinfect, use a chlorine bleach solution with a concentration of 1,000 to 5,000 ppm (5 to 25 tablespoons of household bleach [5% to 8%] per gallon of water) or use an EPA-registered disinfecting product against norovirus … Leave bleach disinfectant on the affected area for at least 5 minutes.",
+    "source_url": "https://www.cdc.gov/norovirus/prevention/index.html",
+    "source_label": "CDC, How to Prevent Norovirus (January 13, 2025)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "1,000",
+      "1000",
+      "5,000",
+      "5000",
+      "5",
+      "25",
+      "8",
+      "13",
+      "2025"
+    ],
+    "notes": "cdc.gov returns 403 to curl; read in a browser on 2026-09-25. Written for indoor and hard surfaces; the page sets it against turf makers' advice against chlorine bleach."
+  }
+]

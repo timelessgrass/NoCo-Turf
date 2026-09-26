@@ -1,0 +1,411 @@
+[
+  {
+    "id": "putting-green-stimp-speed.usga-stimpmeter-device",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The USGA Stimpmeter is a 36-inch aluminum bar with a V-shaped groove; a ball set in its standard notch, about 30 inches from the tapered end, starts rolling when the bar is raised to about 20 degrees, so every ball leaves the bar at the same velocity, and the device gives a green's speed by measuring how far the ball rolls.",
+    "quote": "The Stimpmeter is a simple, accurate device manufactured by the USGA that allows one to make a standard measurement of, and place a numerical figure on, the speed of a putting green. It does so by measuring ball roll distance. The Stimpmeter is an extruded aluminum bar, 36 inches long, with a V-shaped groove on each side that extends along its entire length. … The first is the standard “1X” ball-release notch positioned approximately 30 inches from the tapered end that rests on the ground. … The ball-release notches are designed so that a ball will always be released and begin rolling when the Stimpmeter is raised to an angle of approximately 20 degrees with the putting surface. This feature ensures that the velocity of the ball will be the same when it reaches the tapered end, or full velocity when using the standard “1X” notch and half velocity for the alternate “2X” notch.",
+    "source_url": "https://www.usga.org/content/dam/usga/pdf/imported/StimpmeterBookletFINAL.pdf",
+    "source_label": "USGA, Stimpmeter Instruction Booklet (2012)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "36",
+      "30",
+      "20",
+      "1",
+      "2012"
+    ],
+    "notes": "Read 2026-09-25: the PDF 403s curl and the headless browser (Akamai), so it was fetched inside a real browser on the usga.org origin (200, application/pdf, 2,541,421 bytes, 6 pages) and its text extracted with pdf.js; quotes checked against that text with line-break hyphens rejoined and the ® marks dropped. Re-check by hand in a browser."
+  },
+  {
+    "id": "putting-green-stimp-speed.usga-stimpmeter-history",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The USGA made the Stimpmeter available to superintendents in 1978 and modified it in 2012 so undulating greens could be measured.",
+    "quote": "… made available to golf course superintendents and course officials in 1978. As green speeds have steadily increased since its release in 1978, the Stimpmeter was further modified in 2012 (patent pending) to account for undulating putting greens where the previous Stimpmeter could not be used.",
+    "source_url": "https://www.usga.org/content/dam/usga/pdf/imported/StimpmeterBookletFINAL.pdf",
+    "source_label": "USGA, Stimpmeter Instruction Booklet (2012)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "1978",
+      "2012"
+    ],
+    "notes": "Same capture as usga-stimpmeter-device. The booklet names Edward S. Stimpson, the 1935 Massachusetts Amateur champion, as the inventor (1930s)."
+  },
+  {
+    "id": "putting-green-stimp-speed.usga-measuring-steps",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The USGA's method rolls three balls from the Stimpmeter along a level stretch 10 to 12 feet long, requires them to stop within 8 inches of each other, rolls three more back along the same line, and takes the average of the two distances as the green's speed, treating a gap of more than 18 inches between the two directions as questionable.",
+    "quote": "Equipment Required: • Stimpmeter • Three golf balls • Three tees • 12- or 15-foot measuring tape • Data Sheet Step 1: Select a level area on the green, approximately several feet wide and 10 to 12 feet in one direction. … Repeat the same procedure with two more balls, keeping the tapered end on the same spot. Step 3: All three balls should come to rest not more than 8 inches apart. … In any event, a pattern larger than 8 inches is of dubious accuracy, and the three-roll series should be repeated. … Step 4: Repeat Step 2, using the second tee as a starting point and the first tee as an aiming point. In other words, roll a series of three balls along the same line, but in the opposite direction. … Step 6: Measure the two distances, one for each series of ball rolls, and calculate the average. This is the speed of the green. Note: Should the difference in length between the first and second series be greater than 18 inches, the accuracy of the resulting average is questionable.",
+    "source_url": "https://www.usga.org/content/dam/usga/pdf/imported/StimpmeterBookletFINAL.pdf",
+    "source_label": "USGA, Stimpmeter Instruction Booklet (2012)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "10",
+      "12",
+      "15",
+      "8",
+      "18",
+      "1",
+      "2",
+      "4",
+      "6"
+    ],
+    "notes": "Same capture as usga-stimpmeter-device. Step 2 (place the ball in the notch and slowly raise the end until it releases) and Step 5 (repeat Step 3 for the return series) are summarised, not quoted."
+  },
+  {
+    "id": "putting-green-stimp-speed.usga-2x-notch",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Stimpmeters made after 2012 have a half-length 2X notch that allows testing level areas as short as 6 feet, with tighter limits of 4 inches between balls and 9 inches between directions, the measured distance multiplied by two, and no valid reading likely if those limits can't be met.",
+    "quote": "For such greens, using the “2X” notch on the reverse allows for testing of level areas as short as 6 feet. This notch is available on Stimpmeters manufactured after 2012. … the stopping point limits for a series of balls rolled in one direction using the “2X” notch is reduced in Steps 3 and 4 from 8 inches apart to 4, and the difference in length between rolls in Step 6 is reduced from 18 inches to 9. … When using the “2X” notch, simply multiply the measured distance by two to calculate the green speed. … If these limits cannot be met using the “2X” notch, it is not likely that a valid or accurate speed can be obtained for that green.",
+    "source_url": "https://www.usga.org/content/dam/usga/pdf/imported/StimpmeterBookletFINAL.pdf",
+    "source_label": "USGA, Stimpmeter Instruction Booklet (2012)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "6",
+      "2012",
+      "3",
+      "4",
+      "8",
+      "18",
+      "9"
+    ],
+    "notes": "Same capture as usga-stimpmeter-device. The booklet puts the 2X notch nearly 14 inches from the tapered end and calls the full-length 12-foot level run the ideal."
+  },
+  {
+    "id": "putting-green-stimp-speed.usga-test-conditions",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The USGA says readings taken up or down a slope mislead, that a green's baseline speed should be set on a dry, smooth surface on a calm day, and that speeds under unusual conditions such as wind and wet surfaces should be recorded separately.",
+    "quote": "1. Selecting a reasonably level test area is important. Measurements taken up or down a slope, over mounds, etc., will result in misleading data. 2. Conditions during a test are important. Initially, test your greens under optimum conditions – a cleanly mowed, dry, smooth surface on a calm day. Once this basic speed has been established, you can then document speeds as they vary under unusual conditions: windy days, wet surfaces, non-mowed, frequently rolled, recently topdressed, time of day, before and after fertilizer applications, etc. … 4. Keep thorough records.",
+    "source_url": "https://www.usga.org/content/dam/usga/pdf/imported/StimpmeterBookletFINAL.pdf",
+    "source_label": "USGA, Stimpmeter Instruction Booklet (2012)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "2",
+      "4"
+    ],
+    "notes": "Same capture as usga-stimpmeter-device ('Key Things to Remember')."
+  },
+  {
+    "id": "putting-green-stimp-speed.usga-course-speed-range",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The USGA says Stimpmeter readings on American golf courses generally range from 7 to 12 feet, and that holding natural-grass greens above 10 feet on a consistent basis usually causes turf problems.",
+    "quote": "Stimpmeter readings on American golf courses generally range from 7 feet to 12 feet, depending on many factors including slope, contours, green size, grasses, weather, budget, etc. Experience shows that trying to keep the speed above 10 feet on a consistent basis usually causes difficult-to-manage turf problems and is not recommended.",
+    "source_url": "https://www.usga.org/content/dam/usga/pdf/imported/StimpmeterBookletFINAL.pdf",
+    "source_label": "USGA, Stimpmeter Instruction Booklet (2012)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "7",
+      "12",
+      "10"
+    ],
+    "notes": "Same capture as usga-stimpmeter-device. The 10-foot caution is about living grass (turf health), so it does not carry over to a synthetic surface; say so where it is used."
+  },
+  {
+    "id": "putting-green-stimp-speed.usga-faster-not-better",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The USGA says faster is not necessarily better and should not be the goal, especially for daily play, because greens that are too fast slow play.",
+    "quote": "Faster is not necessarily better, nor should it be the goal. This especially holds true for daily play because putting greens that are too fast will slow play.",
+    "source_url": "https://www.usga.org/content/dam/usga/pdf/imported/StimpmeterBookletFINAL.pdf",
+    "source_label": "USGA, Stimpmeter Instruction Booklet (2012)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Same capture as usga-stimpmeter-device ('General Comments')."
+  },
+  {
+    "id": "putting-green-stimp-speed.usga-hole-location-fairness",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The USGA says a green so fast, or a hole cut where a ball cannot be stopped near it from any point on the green, is an unfair challenge, and knowing the speed helps judge whether a hole location is fair.",
+    "quote": "Knowing the speed of a putting green may assist in determining whether a hole location will give fair results. A green so fast, or a hole cut in such a position, that a ball cannot be stopped near the hole from any point on the green, for example, is an unfair challenge.",
+    "source_url": "https://www.usga.org/content/dam/usga/pdf/imported/StimpmeterBookletFINAL.pdf",
+    "source_label": "USGA, Stimpmeter Instruction Booklet (2012)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Same capture as usga-stimpmeter-device. Slope-percentage guidance by speed belongs to the putting-green-on-a-slope guide."
+  },
+  {
+    "id": "putting-green-stimp-speed.usga-not-for-comparisons",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The USGA says the Stimpmeter is a management tool that is not intended for comparing one course with another.",
+    "quote": "It has proven to be an invaluable asset to the game of golf, both for daily play and championship preparations, and a helpful management tool for the golf course superintendent, but it is not intended for course comparisons.",
+    "source_url": "https://www.usga.org/content/dam/usga/pdf/imported/StimpmeterBookletFINAL.pdf",
+    "source_label": "USGA, Stimpmeter Instruction Booklet (2012)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Same capture as usga-stimpmeter-device."
+  },
+  {
+    "id": "putting-green-stimp-speed.usga-moisture-slows",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The USGA says surface moisture such as dew is crucial to green speed and that moist turf is slower than dry turf.",
+    "quote": "Watering practices and surface moisture (dew) are crucial to green speeds. Moist turf will be slower than dry turf at any mowing height.",
+    "source_url": "https://www.usga.org/content/dam/usga/pdf/imported/StimpmeterBookletFINAL.pdf",
+    "source_label": "USGA, Stimpmeter Instruction Booklet (2012)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Same capture as usga-stimpmeter-device ('The Effects of Management Practices', item 2). Written about natural grass."
+  },
+  {
+    "id": "putting-green-stimp-speed.usga-details-matter",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A USGA agronomist advises measuring green speed in the same marked spot every time, lining the ball's seam up with the Stimpmeter's, raising it slowly, and waiting at least 30 minutes after mowing or rolling with the surface dry, since readings taken too soon are inflated and even a little moisture slows the roll.",
+    "quote": "Putting green speeds should be measured in the same location each time. A simple strategy to help with this is to mark the start and end points of your Stimpmeter test locations with a permanent marker. The distance between the marks should be the target green speed. … When setting up for a roll, line up the seam of the golf ball with the seam of the Stimpmeter. … Ideally, check speeds at least 30 minutes after the last surface management practice is performed and when there is minimal moisture on the surface. Recording a speed too soon after mowing or rolling will result in an inflated number while even a small amount of surface moisture will slow ball roll. … Raising the Stimpmeter slowly and pausing when the ball releases is critical in ensuring an accurate test. Raising the Stimpmeter too fast or too high will result in inflated speeds.",
+    "source_url": "https://www.usga.org/content/usga/home-page/course-care/green-section-record/62/issue-12/details-matter-when-measuring-green-speed.html",
+    "source_label": "USGA Green Section Record, Vol. 62, Issue 12 (July 5, 2024): Details Matter When Measuring Green Speed, Zach Nicoludis",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "30",
+      "62",
+      "12",
+      "5",
+      "2024"
+    ],
+    "notes": "usga.org 403s curl and the headless browser (Akamai); read in full in a real browser 2026-09-25. Written for natural-grass greens; the page applies the timing advice to brushing and rolling a synthetic green by analogy and says so."
+  },
+  {
+    "id": "putting-green-stimp-speed.usga-measure-video",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The USGA says how green speed is measured with a Stimpmeter has a big impact on how accurate and useful the data is, and demonstrates the method in a video.",
+    "quote": "How you take green speed measurements with a Stimpmeter has a big impact on how accurate and useful the data is. In this video, we demonstrate the correct method from start to finish.",
+    "source_url": "https://www.usga.org/content/usga/home-page/course-care/green-section-record/62/issue-08/how-to-measure-green-speed-with-a-usga-stimpmeter.html",
+    "source_label": "USGA Green Section Record, Vol. 62, Issue 08 (April 30, 2024): How To Measure Green Speed With a USGA Stimpmeter (video)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "62",
+      "08",
+      "30",
+      "2024"
+    ],
+    "notes": "The page is a video with a one-paragraph summary; the quote is that summary, read in a real browser (curl and headless get Akamai 403s). The video itself was not transcribed, so no step is cited to it."
+  },
+  {
+    "id": "putting-green-stimp-speed.usga-consistency-not-speed",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The USGA says the Stimpmeter is not a tool for making greens faster; its main job is to help keep green speeds consistent and appropriate.",
+    "quote": "Some mistakenly believe that the USGA Stimpmeter is a tool designed to help achieve faster greens, and that faster means better. In fact, the primary function of a Stimpmeter is to help superintendents achieve consistent and appropriate green speeds throughout the course.",
+    "source_url": "https://www.usga.org/content/usga/home-page/course-care/green-section-record/58/issue-18/usga-stimpmeter-101.html",
+    "source_label": "USGA Green Section Record, Vol. 58, Issue 18: USGA Stimpmeter 101 (video)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "58",
+      "18"
+    ],
+    "notes": "Video page summary, read in a real browser 2026-09-25 (Akamai 403s automated fetch)."
+  },
+  {
+    "id": "putting-green-stimp-speed.usga-stimpmeter-price",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The USGA sells its Stimpmeter, a 36-inch bar with a ruled scale for measuring the roll, for $120 plus a special handling fee on shipping.",
+    "quote": "Stimpmeter® $120 … The newly updated Stimpmeter is a simple, accurate device manufactured by the USGA to determine the speed of a putting green. It does so by measuring ball roll distance. The Stimpmeter is an extruded aluminum bar, 36 inches long, with a V-shaped groove and precisely milled ball-release notch on each side of the bar. … Stimpmeters are laser-engraved with the USGA seal, feature a 36-inch ruled scale on the side to conveniently measure ball roll distance, and come in a distinctive USGA blue finish. Please Note: A Special Handling Fee will be added to your shipping cost.",
+    "source_url": "https://gsshop.usga.org/product/usga-stimpmeter",
+    "source_label": "USGA Green Section shop, Stimpmeter product page",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "120",
+      "36"
+    ],
+    "notes": "Price as listed 2026-09-25; prices change, so re-check before relying on it."
+  },
+  {
+    "id": "putting-green-stimp-speed.synlawn-classic-putt-stimp",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn Golf rates its Classic Putt nylon putting surface at a Stimp of 9 to 10.",
+    "quote": "Reliable, authentic, and built for the long game. This nylon putting green turf delivers Stimp 9-10 green speeds, realistic check and bounce, and TrueStop™ shot reception, making it the go-to specification for golf installeras, course designers, and residential golfers worldwide.",
+    "source_url": "https://www.synlawngolf.com/golf-turf-products/classic-putt/",
+    "source_label": "SYNLawn Golf, Classic Putt product page (manufacturer)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "9",
+      "10"
+    ],
+    "notes": "Manufacturer's own rating, not an independent test. 'installeras' is the page's typo, kept verbatim. Named on the page only as one maker's published range, never as a product NoCo installs."
+  },
+  {
+    "id": "putting-green-stimp-speed.synlawn-precision-putt-stimp",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn Golf rates its Precision Putt nylon putting surface, which it says is the TGL Golf League's surface, at a Stimp of 10 to 12.5.",
+    "quote": "When the world’s best tour professionals need a putting surface, they choose this one. The official surface of the TGL Golf League on ESPN delivers Stimp 10-12.5 green speeds and TrueStop™ shot reception, tour-validated performance for any residential or commercial installation.",
+    "source_url": "https://www.synlawngolf.com/golf-turf-products/precision-putt/",
+    "source_label": "SYNLawn Golf, Precision Putt product page (manufacturer)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "10",
+      "12.5"
+    ],
+    "notes": "Manufacturer's own rating. The same page lists a 3/8-inch finished pile height and 47 oz. finished pile weight. Named on the page only as one maker's published range, never as a product NoCo installs."
+  },
+  {
+    "id": "putting-green-stimp-speed.sgw-infill-sets-speed",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Synthetic Grass Warehouse, a turf distributor, says a synthetic green's stimp speed is adjusted by the type and amount of infill, with denser infill rolling faster, and that moisture that can't drain alters the speed.",
+    "quote": "With artificial grass putting greens, the stimp speed can be adjusted by varying the type and amount of infill used. For example, a dense infill will result in a faster ball speed, while a looser infill will slow down the ball. Another factor that can affect ball speed is rain. If rain, dew, or other moisture can’t drain properly from your synthetic grass putting green, the slickness of the playing surface will alter the course’s stimp speed and affect your play.",
+    "source_url": "https://syntheticgrasswarehouse.com/blog/infill-matters-when-installing-artificial-grass-putting-greens-heres-why/",
+    "source_label": "Synthetic Grass Warehouse, Infill Matters When Installing Artificial Grass Putting Greens (Oct. 31, 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "31",
+      "2023"
+    ],
+    "notes": "A distributor's blog (datePublished 2023-10-31 in the page's schema), so attribute it by name. It does not say which way moisture moves the reading; the USGA says moisture slows the roll on grass."
+  },
+  {
+    "id": "putting-green-stimp-speed.sgw-infill-quantity",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Synthetic Grass Warehouse says the type and amount of infill greatly affect how a synthetic putting green performs, and that too much or too little leaves an uneven surface that affects the roll.",
+    "quote": "However, the type and amount of infill used can greatly affect the performance of your turf putting green. It is important to apply the right infill product and quantity for the specific type of synthetic grass used. … Too much or too little infill can lead to an uneven putting surface that will affect the roll of your ball.",
+    "source_url": "https://syntheticgrasswarehouse.com/blog/expert-tips-to-prevent-common-synthetic-grass-putting-green-installation-mistakes/",
+    "source_label": "Synthetic Grass Warehouse, Expert Tips to Prevent Common Synthetic Grass Putting Green Installation Mistakes (Dec. 31, 2024)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "31",
+      "2024"
+    ],
+    "notes": "A distributor's blog; attribute it by name."
+  },
+  {
+    "id": "putting-green-stimp-speed.sgw-rolling-and-dry-infill",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A Synthetic Grass Warehouse column recommends pressure rolling a putting green after infill to even out Stimpmeter speeds, and warns that infill placed into turf holding any moisture affects the roll and the speed.",
+    "quote": "If you are intending to place infill into putting green materials that have any moisture within them, it will have an adverse effect on the way the ball rolls and Stimpmeter speeds. … I recommend pressure rolling after the infill is complete. This will allow the fibers to be pressed down to the infill height and create a smooth surface for the ball to roll on. This compression will create equal Stimpmeter speeds.",
+    "source_url": "https://syntheticgrasswarehouse.com/company/ask-an-expert/ask-jw/perfecting-putting-green-surfaces-part-2-infill-placement/",
+    "source_label": "Synthetic Grass Warehouse, Ask JW: Perfecting Putting Green Surfaces, Part 2, Infill Placement (April 14, 2020)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "14",
+      "2020"
+    ],
+    "notes": "An installer-facing column on a distributor's site (datePublished 2020-04-14); attribute it by name."
+  },
+  {
+    "id": "putting-green-stimp-speed.ccc-low-humidity",
+    "layer": "climate",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Climate Center says humidity in Colorado is generally quite low, which favors rapid evaporation, and that hot summer days on the plains are often relieved by afternoon thundershowers.",
+    "quote": "During summer there are hot days on the plains, but these are often relieved by afternoon thundershowers. Mountain regions are nearly always cool. Humidity is generally quite low; this favors rapid evaporation and a relatively comfortable feeling even on hot days.",
+    "source_url": "https://climate.colostate.edu/climate_long.html",
+    "source_label": "Colorado Climate Center (Colorado State University), Climate of Colorado",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Statewide description; the page does not say how fast a turf surface dries. Any link to a green drying quickly is the guide's inference and is worded as such."
+  },
+  {
+    "id": "putting-green-stimp-speed.ccc-plains-wind",
+    "layer": "climate",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Climate Center describes the plains climate as having low relative humidity, abundant sunshine, infrequent rain and snow, moderate to high wind movement and large daily and seasonal temperature swings.",
+    "quote": "The climate of the plains is comparatively uniform from place to place, with characteristic features of low relative humidity, abundant sunshine, infrequent rains and snow, moderate to high wind movement, and a large daily and seasonal range in temperature.",
+    "source_url": "https://climate.colostate.edu/climate_long.html",
+    "source_label": "Colorado Climate Center (Colorado State University), Climate of Colorado",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "From the 'Climate of the Eastern Plains' section; the Northern Colorado towns east of the foothills sit on these plains."
+  }
+]

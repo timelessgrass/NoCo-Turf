@@ -1,0 +1,391 @@
+[
+  {
+    "id": "artificial-turf-vs-pavers-concrete.cgs-heaved-patios",
+    "layer": "soil",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Geological Survey says cracked and heaved sidewalks, patios, driveways and floor slabs are very common signs of expansive clay across Colorado.",
+    "quote": "Cracked and heaved sidewalks, patios, driveways, and garage and basement floor slabs are very common indicators of expansive clay throughout the state.",
+    "source_url": "https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/",
+    "source_label": "Colorado Geological Survey, Expansive Soil & Rock",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-vs-pavers-concrete.cgs-sp14-flatwork-uplift",
+    "layer": "soil",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A Colorado Geological Survey homeowner guide says floor slabs and outdoor concrete flatwork are the greatest problem on swelling soils, because they carry too little weight to resist the clay's uplift when it gets wet.",
+    "quote": "Floor slabs and exterior flatwork are the greatest problem where swelling soils or rock are present because not enough dead load can be placed on them to resist the uplift pressure generated when the swelling materials are wetted.",
+    "source_url": "https://coloradogeologicalsurvey.org/wp-content/uploads/woocommerce_uploads/SP-14.pdf",
+    "source_label": "Colorado Geological Survey SP-14, Home Landscaping and Maintenance on Swelling Soil (Jochim, 1981; revised fifth printing 1987)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "14",
+      "1981",
+      "1987"
+    ],
+    "notes": "Read from the CGS-hosted PDF (DOI 10.58783/cgs.sp14.watk8246). An older publication; its advice on drainage and flatwork is general and has not been superseded by anything CGS has posted."
+  },
+  {
+    "id": "artificial-turf-vs-pavers-concrete.cgs-sp14-cracks-tilt",
+    "layer": "soil",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SP-14 says cracking in concrete flatwork is more severe on swelling soils and cracks should be sealed as soon as possible, and that a slab tilted into ponding should be replaced while one still falling at least 1 percent needs only its cracks sealed.",
+    "quote": "Some cracking will occur in most new concrete flatwork. However, cracking tends to be more severe and common on swelling soils. If cracks are not sealed, they can cause the flatwork problem to get worse and contribute to deeper saturation that may damage foundations or basement floors. All cracks in flatwork should be sealed as soon as possible. … If tilting of the concrete results in ponding, the concrete should be replaced. If a positive slope of at least 1 percent is retained, it is only necessary to seal all the cracks.",
+    "source_url": "https://coloradogeologicalsurvey.org/wp-content/uploads/woocommerce_uploads/SP-14.pdf",
+    "source_label": "Colorado Geological Survey SP-14, Home Landscaping and Maintenance on Swelling Soil (Jochim, 1981; revised fifth printing 1987)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "14",
+      "1981",
+      "1987"
+    ],
+    "notes": "The tilting sentences sit under Slope maintenance (p. 23); the cracking sentences under Flatwork maintenance (p. 24)."
+  },
+  {
+    "id": "artificial-turf-vs-pavers-concrete.cgs-sp14-patio-slope",
+    "layer": "soil",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SP-14 says patios should fall 1 to 2 percent away from the house, and lists patios that change a lot's drainage so they dam and pond water among the causes of swelling-soil damage.",
+    "quote": "Problems are caused by: … (5) changing the lot drainage pattern by constructing patios, fences or other obstructions that dam and pond water … Patios and porches. Be sure to check patios and porches for cracking and heaving. Also, be sure they do not slope toward the house. There should be a 1 to 2 percent slope away from the house in order to keep water away from the foundation.",
+    "source_url": "https://coloradogeologicalsurvey.org/wp-content/uploads/woocommerce_uploads/SP-14.pdf",
+    "source_label": "Colorado Geological Survey SP-14, Home Landscaping and Maintenance on Swelling Soil (Jochim, 1981; revised fifth printing 1987)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "2",
+      "5",
+      "14",
+      "1981",
+      "1987"
+    ]
+  },
+  {
+    "id": "artificial-turf-vs-pavers-concrete.cgs-sp14-backfill-concrete",
+    "layer": "soil",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SP-14 says concrete laid over the backfill beside a house before that fill is compacted can settle and break, and that settlement beyond the original slope makes water pond there.",
+    "quote": "When the backfill area is covered by concrete before adequate compaction is achieved, settlement of the fill material may cause the concrete to settle and break. If the amount of settlement exceeds the original slope, ponding results.",
+    "source_url": "https://coloradogeologicalsurvey.org/wp-content/uploads/woocommerce_uploads/SP-14.pdf",
+    "source_label": "Colorado Geological Survey SP-14, Home Landscaping and Maintenance on Swelling Soil (Jochim, 1981; revised fifth printing 1987)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "14",
+      "1981",
+      "1987"
+    ]
+  },
+  {
+    "id": "artificial-turf-vs-pavers-concrete.cgs-sp14-joints-spalling",
+    "layer": "soil",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SP-14 calls for flatwork scored about an inch deep with joints on the order of 15 feet apart, and says flaking concrete can point to poor concrete, de-icing chemicals or corrosive soil.",
+    "quote": "All flatwork should be scored to a depth of about one inch. Joints should be provided on the order of 15 feet center to center. … Flaking (spalling) of the concrete may be a sign of poor quality concrete, damage from deicing chemicals, or ordinary concrete used on corrosive soils.",
+    "source_url": "https://coloradogeologicalsurvey.org/wp-content/uploads/woocommerce_uploads/SP-14.pdf",
+    "source_label": "Colorado Geological Survey SP-14, Home Landscaping and Maintenance on Swelling Soil (Jochim, 1981; revised fifth printing 1987)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "15",
+      "14",
+      "1981",
+      "1987"
+    ],
+    "notes": "The joint sentences come from SP-14's inspection checklist, in the paragraph on basement slabs, but are written of all flatwork; the spalling sentence is from the driveway item of the same checklist."
+  },
+  {
+    "id": "artificial-turf-vs-pavers-concrete.cmha-heave-reset",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Concrete Masonry & Hardscapes Association says heaves in a paver surface are typically caused by frost heave of the soil beneath, and that pavers in a shallow depression can be lifted, the settlement corrected and the same pavers relaid with no waste or patch.",
+    "quote": "Heaves exhibit elevations higher than surrounding areas. Heaves are typically caused by frost heave of the underlying soils as shown in Figure 22. … Pavers in uneven areas with low severity depressions can be removed, the settlement adjusted, and the units reinstalled with no wasted paving materials or unsightly patches.",
+    "source_url": "https://www.cmha.org/resource/pav-tec-006/",
+    "source_label": "Concrete Masonry & Hardscapes Association, PAV-TEC-006-22 Operation and Maintenance Guide for Interlocking Concrete Pavement",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "22",
+      "006"
+    ],
+    "notes": "CMHA succeeded the Interlocking Concrete Pavement Institute (ICPI). The web tech note carries the code PAV-TEC-006-22."
+  },
+  {
+    "id": "artificial-turf-vs-pavers-concrete.cmha-snow-removal",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CMHA says pavers can be cleared with shovels, snow blowers or plows like any pavement, working diagonally to the joints, with any paver sticking up more than 1/8 inch reset before winter and plastic shovels used where the surface's looks matter.",
+    "quote": "Snow can be removed from interlocking concrete pavers using shovels, snow blowers or snowplows like any other type of pavement. Experience indicates easier snow removal by shoveling and plowing in a direction diagonal to the joints to prevent catching the edge of the pavers as shown in Figure 4. Prior to the winter season, heaved or slightly lifted units creating lippage of greater than 1/8 in. (3 mm) should be repaired. … Using plastic snow shovels or synthetic blades edges should be considered in areas where the appearance of the paver surface is important.",
+    "source_url": "https://www.cmha.org/resource/pav-tec-006/",
+    "source_label": "Concrete Masonry & Hardscapes Association, PAV-TEC-006-22 Operation and Maintenance Guide for Interlocking Concrete Pavement",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4",
+      "1/8",
+      "1",
+      "8",
+      "3",
+      "006",
+      "22"
+    ]
+  },
+  {
+    "id": "artificial-turf-vs-pavers-concrete.cmha-deicers",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CMHA says to sand pavers first and use de-icer only as needed, calls rock salt the least damaging de-icer for concrete, allows calcium chloride used sparingly, does not recommend magnesium chloride because it can chemically degrade all concrete, and says not to pile salty snow on pavers.",
+    "quote": "CMHA recommends removing excess sand from the pavement surface in the spring. … Apply sand first to increase traction, then apply deicers as needed. … Rock salt (sodium chloride, NaCl) is the least damaging to concrete materials and should be used whenever possible. If a more effective, quicker acting deicer is necessary, consider the judicial use of calcium chloride. Magnesium chloride and CMA are not recommended because they can chemically degrade all types of concrete, significantly increasing potential damage. … If excess snow, ice and deicing salts is to be stored on-site do not store on concrete paver pavement.",
+    "source_url": "https://www.cmha.org/resource/pav-tec-006/",
+    "source_label": "Concrete Masonry & Hardscapes Association, PAV-TEC-006-22 Operation and Maintenance Guide for Interlocking Concrete Pavement",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "006",
+      "22"
+    ]
+  },
+  {
+    "id": "artificial-turf-vs-pavers-concrete.cmha-patio-base",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CMHA's construction guide sets a minimum compacted base of 4 inches under patios and walks on well-drained soils and says continually wet or weak soils in colder climates need thicker bases.",
+    "quote": "Sidewalks, patios and pedestrian areas should have a minimum base thickness (after compaction) of 4 in. (100 mm) over well-drained soils. Residential driveways on well-drained soils should be at least 6 in. (150 mm) thick. In colder climates, continually wet or weak soils will require that bases be thicker.",
+    "source_url": "https://www.cmha.org/resource/pav-tec-002/",
+    "source_label": "Concrete Masonry & Hardscapes Association, PAV-TEC-002-22 Construction of Interlocking Concrete Pavements (revised 2022)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4",
+      "100",
+      "6",
+      "150",
+      "002",
+      "22",
+      "2022"
+    ]
+  },
+  {
+    "id": "artificial-turf-vs-pavers-concrete.nrmca-deicer-types",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The National Ready Mixed Concrete Association calls calcium chloride and rock salt acceptable de-icers for concrete, says never to use ammonium or magnesium-based salts, and warns that magnesium salts spread on roads get tracked onto concrete by cars.",
+    "quote": "Deicing chemicals composed of calcium chloride and sodium chloride (rock salt) are considered acceptable for concrete. Never use ammonium sulfate or ammonium nitrate or magnesium-based salts as a deicer; these are chemically aggressive and destroy concrete surfaces. Magnesium-based salts are used for pre-snow deicing of roads and can be tracked by cars and accumulate on concrete surfaces.",
+    "source_url": "https://www.nrmca.org/wp-content/uploads/2021/01/02pr.pdf",
+    "source_label": "National Ready Mixed Concrete Association, Concrete in Practice CIP 2: Scaling Concrete Surfaces (2014)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "2014"
+    ]
+  },
+  {
+    "id": "artificial-turf-vs-pavers-concrete.nrmca-first-winter",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "NRMCA says to keep de-icers off new concrete through its first winter and use them in moderation after that, to use clean sand for traction, and to hose off salt that cars leave on driveways and garage slabs.",
+    "quote": "Avoid using deicing chemicals on newly placed concrete, if possible. Use clean sand for traction. When used, deicing chemicals should be applied in moderate amounts. Excessive applications increases potential for scaling. When conditions permit, hose off accumulation of salt deposited by cars on driveways and garage slabs. … 6. Avoid the use of deicing chemicals in the first winter and subsequently use them in moderate amounts.",
+    "source_url": "https://www.nrmca.org/wp-content/uploads/2021/01/02pr.pdf",
+    "source_label": "National Ready Mixed Concrete Association, Concrete in Practice CIP 2: Scaling Concrete Surfaces (2014)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6",
+      "2",
+      "2014"
+    ]
+  },
+  {
+    "id": "artificial-turf-vs-pavers-concrete.nrmca-slab-mix",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "For outdoor slabs that stay moist, freeze and get de-icers, NRMCA recommends ordering 4,000 psi air-entrained concrete with about 6 percent total air.",
+    "quote": "For concrete that will be continuously moist, exposed to freezing temperatures and will be subject to the use of deicing chemicals, the following recommendations should be followed: a. For exterior slabs, order concrete with specified strength of 4000 psi [28 MPa], consistent with the requirements of ACI 332, Code for Residential Concrete. … b. Concrete should be air-entrained. The recommended total air content for concrete containing ¾-inch [19 mm] or 1-inch 25 mm] coarse aggregate is 6 percent.",
+    "source_url": "https://www.nrmca.org/wp-content/uploads/2021/01/02pr.pdf",
+    "source_label": "National Ready Mixed Concrete Association, Concrete in Practice CIP 2: Scaling Concrete Surfaces (2014)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4000",
+      "28",
+      "332",
+      "19",
+      "1",
+      "25",
+      "6",
+      "2",
+      "2014"
+    ],
+    "notes": "'1-inch 25 mm]' is missing its opening bracket in the source; kept verbatim."
+  },
+  {
+    "id": "artificial-turf-vs-pavers-concrete.nrmca-freeze-thaw",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "NRMCA says the risk of scaling rises with the number of freeze-thaw cycles and that de-icers make it worse by saturating the surface and adding cycles.",
+    "quote": "As the number of cycles of freezing and thawing increases, the potential for scaling increases. Deicing chemicals exacerbate this by increasing the saturation of concrete at the surface and the number of freezing and thawing cycles.",
+    "source_url": "https://www.nrmca.org/wp-content/uploads/2021/01/02pr.pdf",
+    "source_label": "National Ready Mixed Concrete Association, Concrete in Practice CIP 2: Scaling Concrete Surfaces (2014)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "2014"
+    ]
+  },
+  {
+    "id": "artificial-turf-vs-pavers-concrete.nrmca-repair-and-timing",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "NRMCA advises caution pouring exterior concrete in late fall, winter or early spring, calls minor scaling cosmetic, and says light to moderate scaling can be resurfaced though the repair won't match the original color.",
+    "quote": "k. Be cautious about placing exterior concrete in late fall, winter or early spring when conditions are such that it will be exposed to freezing temperatures shortly after placement while concrete is still saturated. … Minor scaling is a cosmetic issue and may not need to be repaired. On the other hand repairing concrete slabs with excessive and progressing scaling may not be feasible. It is possible to repair light to moderately scaled surfaces. … Repair material will not match the color and characteristics of the original concrete.",
+    "source_url": "https://www.nrmca.org/wp-content/uploads/2021/01/02pr.pdf",
+    "source_label": "National Ready Mixed Concrete Association, Concrete in Practice CIP 2: Scaling Concrete Surfaces (2014)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "2014"
+    ]
+  },
+  {
+    "id": "artificial-turf-vs-pavers-concrete.epa-pavement-heat",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "EPA's cool-pavements compendium says conventional concrete and asphalt can reach peak summer surface temperatures of 120–150°F and store heat that is released at night, and that new concrete reflects much of the sun but darkens with foot and vehicle traffic.",
+    "quote": "Conventional pavements in the United States are impervious concrete* and asphalt, which can reach peak summertime surface temperatures of 120–150°F (48–67°C). These surfaces can transfer heat downward to be stored in the pavement subsurface, where it is re-released as heat at night. … * When new, concrete has a high solar reflectance and generally is considered a cool pavement; however, it loses reflectance over time … Foot and vehicle traffic generally dirty the cement causing it to darken over time.",
+    "source_url": "https://www.epa.gov/sites/default/files/2017-05/documents/reducing_urban_heat_islands_ch_5.pdf",
+    "source_label": "U.S. EPA, Reducing Urban Heat Islands: Compendium of Strategies, Cool Pavements chapter (draft, 2012)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "120",
+      "150",
+      "48",
+      "67",
+      "2012"
+    ],
+    "notes": "The chapter is marked draft; EPA's suggested citation is U.S. EPA 2012. Temperatures are general, not measured in Colorado."
+  },
+  {
+    "id": "artificial-turf-vs-pavers-concrete.epa-reflectance",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "EPA says conventional asphalt and concrete reflect 5 to 40 percent of the sunlight that reaches them and absorb the rest, and that a change in albedo alone can significantly change surface temperature.",
+    "quote": "Conventional paving materials such as asphalt and concrete have solar reflectances of 5 to 40 percent, which means they absorb 95 to 60 percent of the energy reaching them instead of reflecting it into the atmosphere. … Figure 5 shows how changing only albedo can significantly alter surface temperatures.",
+    "source_url": "https://www.epa.gov/sites/default/files/2017-05/documents/reducing_urban_heat_islands_ch_5.pdf",
+    "source_label": "U.S. EPA, Reducing Urban Heat Islands: Compendium of Strategies, Cool Pavements chapter (draft, 2012)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5",
+      "40",
+      "95",
+      "60",
+      "2012"
+    ]
+  },
+  {
+    "id": "artificial-turf-vs-pavers-concrete.fc-stormwater-runoff-factor",
+    "layer": "utility",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins Utilities bills stormwater monthly by lot area times a runoff factor that steps from 0.25 for lots up to 30% impervious to 0.4 for 31–50% (typical for residential), then 0.6, 0.8 and 0.95 as more of the lot is hard surface.",
+    "quote": "Your stormwater charge is a fixed fee based on lot size and percentage of surfaces that do not absorb water. Surfaces that do not absorb water are also known as impervious areas. … Runoff Factor: Based on impervious surfaces like roofs, driveways, and paved areas … Single-family (under 12,000 square feet) · $0.00541 × runoff factor × lot area (up to 12,000 square feet) … .25 · 0-.30 · Very light · .4 · .31-.50 · Light (typical for residential) · .6 · .51-.70 · Moderate · .8 · .71-.90 · Heavy · .95 · .91-1.00 · Very heavy",
+    "source_url": "https://www.fortcollins.gov/Services/Utilities/Pay-My-Bill/Rates",
+    "source_label": "Fort Collins Utilities, Rates page: stormwater rates (2026)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2027-01-05",
+    "numbers": [
+      "0.25",
+      ".25",
+      "25",
+      "30",
+      "0.4",
+      ".4",
+      "4",
+      "31",
+      "50",
+      "0.6",
+      ".6",
+      "6",
+      "51",
+      "70",
+      "0.8",
+      ".8",
+      "8",
+      "71",
+      "90",
+      "0.95",
+      ".95",
+      "95",
+      "91",
+      "1.00",
+      "0",
+      "12000",
+      "0.00541",
+      "2026"
+    ],
+    "notes": "fortcollins.gov returns an Akamai 403 to curl; read twice via WebFetch on 2026-09-25, which returned the same table both times. The table's 'Percent of Impervious Area' column is written as fractions (0-.30 means up to 30%). The page shows 2026 rates, charged monthly, and does not say how turf, pavers or gravel are counted or when a lot's impervious share is re-measured."
+  }
+]

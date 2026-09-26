@@ -1,0 +1,423 @@
+[
+  {
+    "id": "is-artificial-turf-safe-for-pets.cornell-hand-test",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Cornell's Riney Canine Health Center says dogs' paw pads, though tougher than human skin, can still burn on hot pavement, and that if you cannot hold your hand or stand barefoot on the surface for about 10 seconds, it is likely too hot for a dog.",
+    "quote": "While the pads on dogs’ paw are a lot tougher than our skin, they can still suffer burns from walking on hot pavement. If you cannot put your own hand or stand barefoot on the pavement for about 10 seconds, then it is likely too hot for your dog to walk on too.",
+    "source_url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/summer-heat-safety-tips-dogs",
+    "source_label": "Cornell University College of Veterinary Medicine, Riney Canine Health Center: Summer heat safety tips for dogs",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "10"
+    ],
+    "notes": "Written about pavement; the guide applies the same hand test to turf and says so."
+  },
+  {
+    "id": "is-artificial-turf-safe-for-pets.cornell-hottest-hours",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Cornell says the most direct sun comes around noon but the day is hottest in late afternoon, around 3 to 5 p.m., and advises walking dogs in the early morning or evening.",
+    "quote": "While the most direct sunlight occurs around noon, the day will be the hottest towards late afternoon, around 3-5 p.m. Plan for walks in the early morning or evening hours to avoid the hottest times of the day.",
+    "source_url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/summer-heat-safety-tips-dogs",
+    "source_label": "Cornell University College of Veterinary Medicine, Riney Canine Health Center: Summer heat safety tips for dogs",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "5"
+    ]
+  },
+  {
+    "id": "is-artificial-turf-safe-for-pets.cornell-who-overheats",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Cornell calls heatstroke a life-threatening emergency and says dogs sweat only through their paws and cool mainly by panting, that short-muzzled breeds such as pugs, bulldogs, Boston terriers and boxers pant less efficiently, and that overweight and elderly dogs, dogs with heart or breathing conditions and dogs with thick or dark coats are at higher risk of heatstroke.",
+    "quote": "Heatstroke is a life-threatening medical emergency that is caused by a marked elevation in body temperature after prolonged exposure to hot or humid temperatures, or strenuous exercise. … Dogs only have sweat glands on their paws so their primary method of dissipating heat to cool themselves is through panting. … Brachycephalic breeds (short-muzzle breeds such as Pugs, Bulldogs, Boston Terriers, Boxers, etc.) cannot pant as efficiently and have a harder time keeping themselves cool, putting them at a higher risk in hot or humid weather. … Extra precaution should also be taken with overweight, elderly dogs, those with underlying heart or breathing conditions, and those with thick or dark colored coats since they are at a higher risk for heatstroke.",
+    "source_url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/summer-heat-safety-tips-dogs",
+    "source_label": "Cornell University College of Veterinary Medicine, Riney Canine Health Center: Summer heat safety tips for dogs",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "is-artificial-turf-safe-for-pets.cornell-early-summer",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Cornell says strenuous exercise should especially be avoided in the hottest part of the day and in early summer, when dogs may not yet be used to the heat.",
+    "quote": "Strenuous exercise should be especially avoided during the hottest parts of the day, very humid days and during the early summer when pets may not yet be acclimated to the higher temperatures.",
+    "source_url": "https://www.vet.cornell.edu/departments-centers-and-institutes/riney-canine-health-center/canine-health-topics/summer-heat-safety-tips-dogs",
+    "source_label": "Cornell University College of Veterinary Medicine, Riney Canine Health Center: Summer heat safety tips for dogs",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "is-artificial-turf-safe-for-pets.csu-heat-exhaustion",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU's James L. Voss Veterinary Teaching Hospital in Fort Collins lists heavy panting and rapid breathing, bright red gums and tongue, weakness and a body temperature of 104 degrees or more among the signs of heat exhaustion, and says to take the dog out of the heat, bathe it in cool water, put cloth-covered ice packs on the groin and recheck its temperature every 10 minutes.",
+    "quote": "Heavy panting and rapid breathing … Bright red gums and tongue … Weakness or struggling to maintain balance … Body temperature of 104 degrees or greater … If you notice any of these signs, immediately remove your dog from the heat. In addition, help the dog cool down by bathing in cool water and by applying cloth-covered ice packs to groin area; recheck temperature every 10 minutes.",
+    "source_url": "https://cvmbs.source.colostate.edu/pet-health-protect-your-dog-from-heat-exhaustion-and-heat-stroke-during-summer-months/",
+    "source_label": "Colorado State University, James L. Voss Veterinary Teaching Hospital: Protect your dog from heat exhaustion and heat stroke during summer months (June 14, 2018)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "104",
+      "10"
+    ],
+    "notes": "Article by Nicole Luke, Community Practice, CSU Veterinary Teaching Hospital; published 2018-06-14."
+  },
+  {
+    "id": "is-artificial-turf-safe-for-pets.csu-heat-stroke",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU's veterinary hospital lists white or blue gums, labored and noisy breathing, lethargy or unwillingness to move, and unconsciousness as signs of heat stroke that need immediate veterinary care.",
+    "quote": "White or blue gums … Labored, noisy breathing … Lethargy or unwillingness to move … Unconsciousness … Any of these signs or symptoms requires immediate medical attention and can quickly lead to death.",
+    "source_url": "https://cvmbs.source.colostate.edu/pet-health-protect-your-dog-from-heat-exhaustion-and-heat-stroke-during-summer-months/",
+    "source_label": "Colorado State University, James L. Voss Veterinary Teaching Hospital: Protect your dog from heat exhaustion and heat stroke during summer months (June 14, 2018)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "is-artificial-turf-safe-for-pets.csu-water-shade",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU's veterinary hospital says to give dogs fresh water and shade, especially in the heat of the day, and that flat-faced breeds, obese dogs, dogs with dark or long coats, and very young and older pets are more at risk.",
+    "quote": "Always provide access to fresh water and shade – especially in the heat of the day. … Brachycephalic breeds – or flat-faced dog breeds, including bulldogs and pugs – are more susceptible to overheating. … Dogs with dark-colored or long-haired coats are more at risk of heat exhaustion and heat stroke. … Very young and older pets are more sensitive to the heat.",
+    "source_url": "https://cvmbs.source.colostate.edu/pet-health-protect-your-dog-from-heat-exhaustion-and-heat-stroke-during-summer-months/",
+    "source_label": "Colorado State University, James L. Voss Veterinary Teaching Hospital: Protect your dog from heat exhaustion and heat stroke during summer months (June 14, 2018)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "is-artificial-turf-safe-for-pets.vca-pad-burns",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "VCA Animal Hospitals says paw pads can burn on a scorching summer surface, that a dog licking its feet or limping after a walk should have its feet soaked in room-temperature water, and that discolored pads or exposed tissue under a pad need a veterinarian.",
+    "quote": "Even though foot pads are tough, they can burn on a scorching sidewalk in the middle of the summer or on icy surfaces during the winter. If your dog licks at their feet or limps after a summer or winter stroll, soothe their pads by soaking the foot in room-temperature water. If the pads become discolored or if the tissue under the pad becomes exposed, contact your veterinarian. Severe burns must be treated by your veterinarian.",
+    "source_url": "https://vcahospitals.com/know-your-pet/first-aid-for-torn-or-injured-foot-pads-in-dogs",
+    "source_label": "VCA Animal Hospitals, First Aid for Torn or Injured Foot Pads in Dogs",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "is-artificial-turf-safe-for-pets.vca-pica-plastic",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "VCA Animal Hospitals says a dog with pica may eat plastic and other non-food items, and that the most common result is a gastrointestinal obstruction, which can cause pain, reduced appetite and vomiting.",
+    "quote": "Pica is a condition where a dog persistently ingests non-food items. For example, they may eat plastic, paper, fabric, sticks, rocks, or mulch. … The most common problem that pica causes is gastrointestinal obstruction due to a non-digestible object getting stuck in the esophagus, stomach, or intestines. An obstruction can cause pain, reduced appetite, and vomiting.",
+    "source_url": "https://vcahospitals.com/know-your-pet/pica-in-dogs",
+    "source_label": "VCA Animal Hospitals, Pica in Dogs (Krista Williams, DVM)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "is-artificial-turf-safe-for-pets.vca-pica-causes",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "VCA says pica in dogs has behavioral and medical causes, including anxiety, gastrointestinal conditions such as intestinal parasites, and malnutrition or an imbalanced diet.",
+    "quote": "There are multiple behavioral and medical conditions that can cause pica in dogs, including: Anxiety … Gastrointestinal conditions, including inflammatory bowel disease (IBD), liver shunt, intestinal parasites, or exocrine pancreatic insufficiency (EPI) … Malnutrition, including starvation or imbalanced diet, leading to dietary insufficiencies",
+    "source_url": "https://vcahospitals.com/know-your-pet/pica-in-dogs",
+    "source_label": "VCA Animal Hospitals, Pica in Dogs (Krista Williams, DVM)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "is-artificial-turf-safe-for-pets.zeofill-sds-sections",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "ZeoFill's safety data sheet for its zeolite infill, dated February 8, 2022, gives its swallowing first aid in Section 4, written for people, and in Section 12 lists no known toxicity to plants or animals; Section 11 holds its toxicology.",
+    "quote": "Section 4. First Aid Measures … After swallowing: Rinse out mouth and then drink plenty of water. Do not induce vomiting. Treat symptomatically. … Section 11. Toxicological Information … Section 12. Ecological Information … Toxicity: No known toxicity to plants or animals. … Date: February 08, 2022",
+    "source_url": "https://cdn.shopify.com/s/files/1/0590/5448/9763/files/ZeoFill_Products_SDS.pdf",
+    "source_label": "ZeoFill Products, Safety Data Sheet: Clinoptilolite - Natural Zeolite (OdorZorb), February 8, 2022",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4",
+      "11",
+      "12",
+      "8",
+      "08",
+      "2022"
+    ],
+    "notes": "Read the PDF pages as images (5-page SDS followed by other documents). Section 4 first aid is the standard human first-aid block."
+  },
+  {
+    "id": "is-artificial-turf-safe-for-pets.motz-envirofill-ingestion",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Motz, which makes Envirofill coated sand, says its infill will not cause serious harm if kids or pets accidentally swallow it, and that it passes ASTM F3188, EN 71-3 and Prop 65 testing for heavy metals and leaching.",
+    "quote": "Yes, Envirofill is a safe pet infill. Envirofill if accidentally ingested by kids or pets, will not cause serious harm. Envirofill is non-toxic and regularly tested for safety. … Yes, Envirofill is non-toxic. It is regularly tested and passes the following standards: ASTM F-3188, EN 71-3, Prop 65, and Air Quality. The tests listed above test for heavy metals, leaching, and carcinogenic.",
+    "source_url": "https://themotzgroup.com/infill-faq/",
+    "source_label": "The Motz Group, Infill FAQ (Envirofill and Safeshell)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3188",
+      "71",
+      "3",
+      "65"
+    ],
+    "notes": "A manufacturer's claim about its own product, not an SDS."
+  },
+  {
+    "id": "is-artificial-turf-safe-for-pets.astm-f3188-scope",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "ASTM F3188 measures the metals that could be extracted from turf infill if it were swallowed, using an extraction fluid that approximates the stomach, and compares them with the limits for children's toys; it is written for infill on synthetic turf sports surfaces.",
+    "quote": "1.1 This specification relates to the amount of certain metals that have the potential to be extracted from synthetic turf infill materials if ingested. The time, temperature, and pH of the extraction fluid approximate the conditions the infill material would experience in the stomach during the digestive process. The levels of extractable metals are compared to maximum levels allowed in children’s toys. … 1.2 This specification applies to all materials (man-made or natural) that are intended for use as infill materials for synthetic turf sports surfaces.",
+    "source_url": "https://store.astm.org/f3188-16.html",
+    "source_label": "ASTM F3188-16, Standard Specification for Extractable Hazardous Metals in Synthetic Turf Infill Materials",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3188",
+      "16",
+      "1.1",
+      "1.2"
+    ],
+    "notes": "Scope read from the ASTM store page; the standard itself is paywalled."
+  },
+  {
+    "id": "is-artificial-turf-safe-for-pets.osha-silica-dust",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "OSHA describes respirable crystalline silica as particles at least 100 times smaller than ordinary beach or playground sand, and says workers who inhale them are at increased risk of serious silica-related disease.",
+    "quote": "Respirable crystalline silica – very small particles at least 100 times smaller than ordinary sand you might find on beaches and playgrounds … Workers who inhale these very small crystalline silica particles are at increased risk of developing serious silica-related diseases",
+    "source_url": "https://www.osha.gov/silica-crystalline",
+    "source_label": "U.S. OSHA, Silica, Crystalline: Overview",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "100"
+    ],
+    "notes": "osha.gov refuses curl (403); read through WebFetch. Re-check the dash punctuation by hand. No silica-sand SDS for a turf product was reachable for this page."
+  },
+  {
+    "id": "is-artificial-turf-safe-for-pets.epa-registration-meaning",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "EPA says disinfectants are pesticides that can be harmful, that it verifies a registered disinfectant works according to its label directions, that the EPA registration number is the only way to accurately identify a product, and that inclusion on its disinfectant lists is not an EPA endorsement.",
+    "quote": "Disinfectants are pesticides and can be harmful, please be sure to read and understand any precautionary language or any safety information before using the product. … EPA verifies disinfectants work according to their label directions. … The only way to accurately identify a product is by the EPA registration number. … Inclusion of products on these lists does not constitute an endorsement of one product over another, or endorsement by EPA.",
+    "source_url": "https://www.epa.gov/pesticide-registration/selected-epa-registered-disinfectants",
+    "source_label": "U.S. EPA, Selected EPA-Registered Disinfectants",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "is-artificial-turf-safe-for-pets.cfr-156-10-safety-claims",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Under 40 CFR 156.10, a pesticide label that claims the product is safe, harmless or nontoxic to humans and pets, even with a qualifier such as when used as directed, is misbranded.",
+    "quote": "Examples of statements or representations in the labeling which constitute misbranding include: … Claims as to the safety of the pesticide or its ingredients, including statements such as “safe,” “nonpoisonous,” “noninjurious,” “harmless” or “nontoxic to humans and pets” with or without such a qualifying phrase as “when used as directed”",
+    "source_url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-E/part-156/subpart-A/section-156.10",
+    "source_label": "40 CFR 156.10(a)(5)(ix), Labeling requirements (eCFR, current text)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "40",
+      "156.10",
+      "156",
+      "5"
+    ],
+    "notes": "Federal regulation (FIFRA labeling). Text read from the eCFR renderer API for part 156, section 156.10; paragraph (a)(5)(ix)."
+  },
+  {
+    "id": "is-artificial-turf-safe-for-pets.aspcapro-enzymes",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The ASPCA's poison control staff say enzymes in household cleaners generally have a wide margin of safety, so significant effects are not typically expected.",
+    "quote": "Generally enzymes have a wide margin of safety, so significant effects are typically not expected.",
+    "source_url": "https://www.aspcapro.org/resource/ingredients-toxicities-cleaning-products",
+    "source_label": "ASPCApro (ASPCA Animal Poison Control Center), Ingredients & Toxicities of Cleaning Products",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "is-artificial-turf-safe-for-pets.aspcapro-cationic-cats",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The ASPCA's poison control staff say swallowing cationic surfactants such as benzalkonium chloride, found in sanitizers and germicides, can be more serious, particularly for cats, which appear sensitive to them.",
+    "quote": "Ingestion of cationic surfactants can be more serious, particularly in cats who appear to be sensitive to these surfactants. … Examples of cationic surfactants include benzalkonium chloride and cetrimonium bromide. In addition to fabric softeners, they can be found in sanitizers, potpourri oils and germicides.",
+    "source_url": "https://www.aspcapro.org/resource/ingredients-toxicities-cleaning-products",
+    "source_label": "ASPCApro (ASPCA Animal Poison Control Center), Ingredients & Toxicities of Cleaning Products",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "is-artificial-turf-safe-for-pets.aspca-essential-oils-cats",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The ASPCA Animal Poison Control Center says cats are especially sensitive to essential oils and advises against using them where pets have access unless the pets are supervised or a veterinarian approves.",
+    "quote": "Cats are especially sensitive to essential oils, and effects such as gastrointestinal upset, central nervous system depression and even liver damage could occur if ingested in significant quantities and concentrations. … Toxicity varies among specific oils so we wouldn’t recommend using any essential oils in areas where your pets have access, unless pets are supervised or the use of the oil is approved by your veterinarian.",
+    "source_url": "https://www.aspca.org/news/pet-poisons-be-mindful-these-household-products-and-cleaning-agents",
+    "source_label": "ASPCA, Pet Poisons: Be Mindful of these Household Products and Cleaning Agents",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "is-artificial-turf-safe-for-pets.aspca-label-and-exposure",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The ASPCA says most cleaning agents can be used safely when label directions are followed and pets are kept out of the area, and that a pet you suspect was exposed to a poisonous substance calls for your veterinarian or its Animal Poison Control Center.",
+    "quote": "Most cleaning agents can be used safely in homes, as long as label recommendations are followed. It’s important to ensure that you keep cleaning products up and out of paws’ reach and keep your pet out of the area when using any potential toxic substances. If you suspect your pet has been exposed to any poisonous substances, contact your veterinarian or call APCC’s hotline",
+    "source_url": "https://www.aspca.org/news/pet-poisons-be-mindful-these-household-products-and-cleaning-agents",
+    "source_label": "ASPCA, Pet Poisons: Be Mindful of these Household Products and Cleaning Agents",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Quote stops before the hotline number, which the site copy never prints."
+  },
+  {
+    "id": "is-artificial-turf-safe-for-pets.cornell-litter-texture",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Cornell Feline Health Center says most, but not all, cats prefer unscented, fine-textured litter.",
+    "quote": "Most, but not all, cats prefer unscented, fine-textured litter.",
+    "source_url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/choosing-and-caring-your-new-cat",
+    "source_label": "Cornell Feline Health Center, Choosing and Caring for Your New Cat",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "is-artificial-turf-safe-for-pets.cornell-toxo-sandboxes",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Cornell Feline Health Center says cat feces carrying mature Toxoplasma oocysts are a source of infection whether they are in litter boxes, gardens or sandboxes outdoor cats have used, that the oocysts can survive well over a year, and advises keeping sandboxes covered so cats cannot use them as litter boxes.",
+    "quote": "Oocysts are very hardy and may survive in the environment for well over a year. … Cat feces containing sporulated oocysts, however, serve as sources of infection, regardless of whether they are in litter boxes, gardens, or in sand boxes in which outdoor cats have defecated. … Keep sandboxes covered and don't allow cats to use them as litter boxes",
+    "source_url": "https://www.vet.cornell.edu/departments-centers-and-institutes/cornell-feline-health-center/health-information/feline-health-topics/toxoplasmosis-cats",
+    "source_label": "Cornell Feline Health Center, Toxoplasmosis in Cats",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "is-artificial-turf-safe-for-pets.cdc-toxo-sand",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The CDC says to cover outdoor sandboxes, that Toxoplasma in cat feces does not become infectious until 1 to 5 days after it is shed, and to wear gloves around soil or sand cat feces may have contaminated and wash hands afterward.",
+    "quote": "Cover outdoor sandboxes. … The Toxoplasma parasite does not become infectious until 1 – 5 days after a cat shed it in its feces. … Wear gloves when gardening or touching soil or sand that cat feces containing Toxoplasma may have contaminated. … Wash your hands with soap and water after gardening or contact with soil or sand.",
+    "source_url": "https://www.cdc.gov/toxoplasmosis/prevention/index.html",
+    "source_label": "CDC, Preventing Toxoplasmosis (reviewed January 30, 2024)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "5",
+      "30",
+      "2024"
+    ],
+    "notes": "cdc.gov refuses curl (Access Denied); read through WebFetch, which returned these sentences verbatim."
+  },
+  {
+    "id": "is-artificial-turf-safe-for-pets.hw-sprinklers-cold",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Humane World for Animals says motion-activated sprinklers work for many cat-caretaker groups, cannot be used in cold weather because the hose freezes, and usually need only a few months before cats learn to avoid the area.",
+    "quote": "Many TNR groups report success using motion-activated sprinklers, particularly for large yards. … You can’t use these in cold weather, since the water in the hose will freeze, but year-round use isn’t necessary—it typically takes only a few months before the cats get the message.",
+    "source_url": "https://www.humaneworld.org/en/resources/how-keep-stray-cats-away",
+    "source_label": "Humane World for Animals, How to keep stray cats away",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "is-artificial-turf-safe-for-pets.hw-outdoor-litter",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Humane World for Animals suggests giving community cats a welcome zone elsewhere, with an outdoor litter box made of a mound of sand, dirt or soft mulch.",
+    "quote": "Plant catnip as well as its showier cousin, catmint, to lure the cats to the welcome zones, and set up an outdoor litter box (with a mound of sand, dirt or soft-particle mulch).",
+    "source_url": "https://www.humaneworld.org/en/resources/how-keep-stray-cats-away",
+    "source_label": "Humane World for Animals, How to keep stray cats away",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  }
+]

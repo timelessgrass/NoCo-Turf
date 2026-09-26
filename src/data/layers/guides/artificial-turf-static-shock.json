@@ -1,0 +1,429 @@
+[
+  {
+    "id": "artificial-turf-static-shock.esda-contact-charging",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The EOS/ESD Association explains that when two materials touch and separate, electrons move from one surface to the other, and that how much charge builds depends on the area of contact, the speed of separation, relative humidity and the materials themselves.",
+    "quote": "When the two materials are placed in contact and then separated, negatively charged electrons are transferred from the surface of one material to the surface of the other material. … The amount of charge created by triboelectric generation is affected by the area of contact, the speed of separation, relative humidity, the chemistry of the materials, surface work function, and other factors.",
+    "source_url": "https://www.esda.org/esd-overview/esd-fundamentals/part-1-an-introduction-to-esd/",
+    "source_label": "EOS/ESD Association, ESD Fundamentals Part 1: An Introduction to ESD",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl 2026-09-25 (page footer: © 2020, EOS/ESD Association, Inc.). The Association is the standards body for electrostatic-discharge control in electronics; the physics is general."
+  },
+  {
+    "id": "artificial-turf-static-shock.esda-insulators-hold-charge",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The EOS/ESD Association says a considerable charge can build on the surface of an insulator and stay in place for a very long time, while a grounded conductor lets charge flow easily to ground.",
+    "quote": "A considerable amount of charge can be generated on the surface of an insulator. … However, electrons cannot easily flow across the insulative material's surface, and both charges may remain in place for a very long time. … If the conductor is grounded, the charge will easily go to ground.",
+    "source_url": "https://www.esda.org/esd-overview/esd-fundamentals/part-1-an-introduction-to-esd/",
+    "source_label": "EOS/ESD Association, ESD Fundamentals Part 1: An Introduction to ESD",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-static-shock.esda-humidity-voltages",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "In the EOS/ESD Association's table of typical static voltages, walking across carpet generates 35,000 volts at 10–25% relative humidity but 1,500 volts at 65–90%, and walking across vinyl tile 12,000 volts against 250, though the Association notes that charge still builds at high humidity.",
+    "quote": "Also, the contribution of humidity to reducing charge accumulation is shown. However, it should be noted that static charge generation still occurs even at high relative humidity. Table 1. Examples of Typical Static Generation Voltage Levels — Walking across carpet: 10-25% RH 35,000V · 65-90% RH 1,500V; Walking across vinyl tile: 10-25% RH 12,000V · 65-90% RH 250V",
+    "source_url": "https://www.esda.org/esd-overview/esd-fundamentals/part-1-an-introduction-to-esd/",
+    "source_label": "EOS/ESD Association, ESD Fundamentals Part 1: An Introduction to ESD (Table 1)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "35,000",
+      "35000",
+      "35",
+      "10",
+      "25",
+      "1,500",
+      "1500",
+      "65",
+      "90",
+      "12,000",
+      "12000",
+      "12",
+      "250",
+      "1"
+    ],
+    "notes": "The quote renders the HTML table's cells in reading order (the page prints two columns, 10-25% RH and 65-90% RH). Carpet and vinyl, not turf: the page uses these rows to show humidity's effect on charge. Other rows (worker at bench, polybag, urethane-foam chair) are not used."
+  },
+  {
+    "id": "artificial-turf-static-shock.patent-turf-builds-charge",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A U.S. patent on antistatic turf says synthetic turf can build up static charge in itself and in the people who walk or play on it, and that this can cause static shocks.",
+    "quote": "Synthetic turf sometimes has an undesirable tendency to build up static charge in itself as well as the persons who walk or play on it. This may cause static electrical shocks to the body.",
+    "source_url": "https://patents.google.com/patent/US10323361B1/en",
+    "source_label": "US Patent 10,323,361 B1, Synthetic turf system made with antistatic yarns and method of making (granted June 18, 2019)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "10,323,361",
+      "10323361",
+      "18",
+      "2019"
+    ],
+    "notes": "Background section. Inventors Dale Karmie, Brian Karmie, Ty Allen and Davis Lee; current assignee per Google Patents: One Nine Management Group LLC. A patent is the inventors' own account, not independent testing. The next sentence of the background names a humid southern state (a word check-dist bans in shipped HTML), so it is not quoted."
+  },
+  {
+    "id": "artificial-turf-static-shock.patent-playground-slide",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The antistatic-turf patent says static is particularly a problem on playgrounds, because much playground equipment is itself an insulator and turf can act as one too, so charge picked up on a slide is not dissipated as a person walks across the turf until they touch a conductive ground such as a metal pole.",
+    "quote": "Static charge is particularly problematic on playgrounds where playground equipment is often constructed of insulating materials that also have a propensity to build up static charge. Synthetic turf can act as insulator so that even when a static charge is created on a piece of playground equipment such as a slide it is not dissipated as a person walks across the turf until a conductive ground, such as a metal pole, is touched.",
+    "source_url": "https://patents.google.com/patent/US10323361B1/en",
+    "source_label": "US Patent 10,323,361 B1, Synthetic turf system made with antistatic yarns and method of making (granted June 18, 2019)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "10,323,361",
+      "10323361",
+      "18",
+      "2019"
+    ]
+  },
+  {
+    "id": "artificial-turf-static-shock.patent-topical-not-outdoors",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The antistatic-turf patent says antistatic chemicals sprayed onto turf are effective in some situations but are not a lasting answer outdoors, especially where it rains, and that antistatic additives mixed into the yarn have proved ineffective.",
+    "quote": "Other ways of solving this problem have been the topical application of antistatic chemicals, such as Staticide™ sold by Amstat Industries of Glenview, Ill., directly to the synthetic turf. While effective in some situations, this solution is limited since topically applied chemicals are not substantive solutions for outdoor environments, especially in the presence of rain. … Antistatic polymer additives have been used to solve this problem but have been found to be ineffective because they may cause a deterioration of fiber extrusion performance and fiber physical properties.",
+    "source_url": "https://patents.google.com/patent/US10323361B1/en",
+    "source_label": "US Patent 10,323,361 B1, Synthetic turf system made with antistatic yarns and method of making (granted June 18, 2019)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "10,323,361",
+      "10323361",
+      "18",
+      "2019"
+    ],
+    "notes": "Do not name the spray product in copy (a brand, and the page recommends no product)."
+  },
+  {
+    "id": "artificial-turf-static-shock.patent-carbon-core-filament",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The antistatic-turf patent describes turf tufted from nylon, polyethylene, polypropylene or polyester fibers with an antistatic filament, a carbon core in a non-conductive sheath, in as few as about 1 of every 32 tuft rows.",
+    "quote": "A synthetic turf system and method includes turf tufted from monofilament fibers of a thermoplastic polymer where about 1 in about 32 tuft rows comprise at least one antistatic filament per tuft. … One or more of the antistatic filaments substantially reduces static electrical discharge within the turf. The thermoplastic polymer for each fiber may comprise at least one of nylon, polyethylene, polypropylene, and polyester. … Each antistatic filament may comprise a carbon core surrounded by a non-conductive sheath",
+    "source_url": "https://patents.google.com/patent/US10323361B1/en",
+    "source_label": "US Patent 10,323,361 B1, Synthetic turf system made with antistatic yarns and method of making (granted June 18, 2019)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "32",
+      "10,323,361",
+      "10323361",
+      "18",
+      "2019"
+    ],
+    "notes": "Abstract. The patent also claims ratios of 1:2, 1:4, 1:8 and 1:16."
+  },
+  {
+    "id": "artificial-turf-static-shock.patent-test-two-months",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "In the patent's outdoor test, a person in rubber-soled sneakers walked each turf sample for 30 seconds and then touched a grounded metal pole; ordinary turf gave no shock when new or after a rinse but did after 2 months outdoors, while the samples with antistatic filament gave none, and the patent notes that people can typically sense a static charge of 2 kV and above.",
+    "quote": "a test subject, wearing sneakers made with an elastomeric sole, walked across each sample in a lengthwise direction so as not to contact adjacent samples. After the subject walked across the turf in a careful and controlled manner for 30 seconds a grounded metal pole was touched to discharge any static charge that has developed. Humans can typically sense a static charge of 2 kV and above. … In the third test (III), the turf was left outdoors, exposed to the elements for 2 months. … None No Shock No Shock Shock (Conventional Art) … That there was no shock after the water rinse for the control section (having no anti-stat filament) is perplexing but is consistent with the laboratory testing that was also conducted.",
+    "source_url": "https://patents.google.com/patent/US10323361B1/en",
+    "source_label": "US Patent 10,323,361 B1, Synthetic turf system made with antistatic yarns and method of making (granted June 18, 2019)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "30",
+      "2",
+      "10,323,361",
+      "10323361",
+      "18",
+      "2019"
+    ],
+    "notes": "Table 1 (Test Data): Test I immediately after installation, Test II after rinsing with water, Test III after 2 months of exposure to the elements; the untreated control shocked only in Test III. The inventors suggest manufacturing surfactants on new yarn may explain the early no-shock results and call that explanation weak. Test dates in January–February 2011 (one printed as 2001, a typo). The inventors' own test, one person, no voltages published."
+  },
+  {
+    "id": "artificial-turf-static-shock.whitepaper-no-standard",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A white paper on static-dissipative turf by one of the patent's inventors says there are no accepted standards for static control in synthetic turf and that carpet test methods have proved ineffective for it.",
+    "quote": "Unfortunately there are no accepted standards for static control in synthetic turf. And accepted test methods for carpet have been shown to be ineffective for synthetic turf.",
+    "source_url": "https://web.archive.org/web/20251118135150/https://www.foreverlawn.com/wp-content/uploads/2022/05/WhitePaper-Static-Dissipative-Turf-rev-IA-before-EA-2.pdf",
+    "source_label": "Davis E. Lee, Static Dissipative Turf (white paper published by ForeverLawn; archived copy, Nov. 18, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "18",
+      "2025"
+    ],
+    "notes": "The live file (foreverlawn.com/wp-content/uploads/2022/05/…) returned 404 on 2026-09-25; read the Internet Archive's byte copy of the same 3-page PDF (id_ capture 20251118135150) with pdftotext. Written by a co-inventor of US 10,323,361 for the maker that sells the patented yarn: a seller's document. Do not name the maker's trademarked yarn in copy."
+  },
+  {
+    "id": "artificial-turf-static-shock.whitepaper-humidity-less-role",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same white paper says that while carpet static depends heavily on humidity, humidity does not seem to play as important a role on synthetic turf, where static builds in low and high humidity alike.",
+    "quote": "In carpet this behavior is highly dependent on humidity. High humidity environments are less prone to produce static shock than low humidity environments. Interestingly humidity does not seem to play as important a role in synthetic turf. Static build up appears in low as well as high humidity environments.",
+    "source_url": "https://web.archive.org/web/20251118135150/https://www.foreverlawn.com/wp-content/uploads/2022/05/WhitePaper-Static-Dissipative-Turf-rev-IA-before-EA-2.pdf",
+    "source_label": "Davis E. Lee, Static Dissipative Turf (white paper published by ForeverLawn; archived copy, Nov. 18, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "18",
+      "2025"
+    ],
+    "notes": "Archived copy; see whitepaper-no-standard. The paper also puts the human sensitivity threshold at 3.5 kV, where the patent says 2 kV; the page uses neither figure as a threshold."
+  },
+  {
+    "id": "artificial-turf-static-shock.whitepaper-three-approaches",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The white paper rates three ways to control static in turf: a topical antistat is moderately effective but not permanent, washing off with rain and wearing off under foot traffic; an antistat built into the yarn is permanent but ineffective; and an external antistat filament, the patent's approach, is rated very effective and permanent by its own maker.",
+    "quote": "Topical Antistat Moderately Effective Not Permanent · Internal Antistat (IA) Ineffective Permanent · External Antistat (EA) Very Effective Permanent … Topical antistats are an economical and a moderately effective way to minimize static build-up. They are however not permanent and are easily removed over time with water such as would occur with rain. They can also be removed with foot traffic.",
+    "source_url": "https://web.archive.org/web/20251118135150/https://www.foreverlawn.com/wp-content/uploads/2022/05/WhitePaper-Static-Dissipative-Turf-rev-IA-before-EA-2.pdf",
+    "source_label": "Davis E. Lee, Static Dissipative Turf (white paper published by ForeverLawn; archived copy, Nov. 18, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "18",
+      "2025"
+    ],
+    "notes": "The table's rows as printed (Approach · Effectiveness · Permanence); the EA row carries the maker's trademark, left out of the quote. Seller's own rating."
+  },
+  {
+    "id": "artificial-turf-static-shock.royal-grass-mist",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Royal Grass, a European turf maker, says static turf is at most annoying, that spraying it lightly with water helps discharge the static, and that antistatic products are sold at DIY stores.",
+    "quote": "A static artificial turf lawn is at most annoying. … When the artificial turf is statically charged, it is often sufficient to moisten it. Spraying the artificial turf lightly with water helps discharge the static electricity. Additionally, various antistatic products are available at DIY stores.",
+    "source_url": "https://royalgrass.com/blogs/why-is-my-artificial-turf-static/",
+    "source_label": "Royal Grass, Why is my artificial turf static?",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-static-shock.royal-grass-when",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Royal Grass says turf tends to become static in warm weather, in extreme cold and when the air is very dry, that newly installed turf is more prone to it and becomes less likely to be static as it stays in place, and that clothing clinging to the turf is a sign of it.",
+    "quote": "Do you ever lie on your artificial turf lawn and notice that your clothing is attracted to the grass? Or do you even feel a slight shock? This is because the artificial turf is static. … Artificial turf tends to become static, especially in warm weather, extremely cold weather, and when the air is very dry. Newly installed artificial turf is more prone to becoming static. … As the artificial turf remains in place for a longer period, it is less likely to become static.",
+    "source_url": "https://royalgrass.com/blogs/why-is-my-artificial-turf-static/",
+    "source_label": "Royal Grass, Why is my artificial turf static?",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Contradicts the patent's test on age (untreated turf shocked only after 2 months outdoors); the page presents both."
+  },
+  {
+    "id": "artificial-turf-static-shock.gametime-plastic-slides",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "GameTime, a playground maker, says static builds along the surface as a child goes down a plastic slide, that the coatings and manufacturing changes it tested on plastic slides worked at first but none lasted, and that stainless steel was the one slide material in its study with zero discharge.",
+    "quote": "When a child slides down a plastic slide, static electricity is generated along the surface. The amount of static electricity depends on several factors including, weather conditions, type of clothing worn, etc. … GameTime engineers tested different manufacturing practices and post-production coatings to reduce or eliminate ESD. While each of their efforts initially worked, none of the measures provided long-term results. … Throughout our research of plastic slides and static electricity, there was one material in the study that resulted in zero ESD - stainless steel.",
+    "source_url": "https://www.gametime.com/news/designing-playgrounds-for-children-with-cochlear-implants",
+    "source_label": "GameTime, Designing Playgrounds for Children with Cochlear Implants (Aug. 16, 2013)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "16",
+      "2013"
+    ],
+    "notes": "datePublished 2013-08-16 in the page's schema. The research partner is a university whose name includes a word check-dist bans in shipped HTML; copy says only 'its research'. GameTime sells stainless slides: a seller's account."
+  },
+  {
+    "id": "artificial-turf-static-shock.ab-cochlear-static",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Advanced Bionics, a cochlear implant maker, says high static discharges can theoretically damage implant equipment, lists sliding on plastic slides among common causes, and advises removing the sound processor and headpiece before playing on plastic slides, plastic tubes and trampolines, wearing leather-soled shoes instead of rubber, wearing natural-fiber clothing and using fabric softener in the wash.",
+    "quote": "High levels of static electricity, when discharged, theoretically can damage both internal and external cochlear implant equipment, just as it can damage any electronic piece of equipment. … What are some common examples of when ESD might occur? • Sliding on plastic slides … • Wear leather-soled shoes instead of rubber • Wear natural fiber clothing materials, e.g., cotton, silk, etc. • Use fabric softener when washing clothes and bedding • Remove sound processor and headpiece before playing on playground equipment, e.g., plastic slides, plastic tubes, and trampolines or re-direct the child’s activities to avoid playing on these items.",
+    "source_url": "https://www.advancedbionics.com/content/dam/advancedbionics/documents/libraries/tools-for-schools/ToolsforSchools-Static-Electricity-and-Cochlear-Implants-Information-Flyer.pdf.coredownload.pdf",
+    "source_label": "Advanced Bionics, Static Electricity and Cochlear Implants (Tools for Schools flyer, 2015)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2015"
+    ],
+    "notes": "Read with pdftotext 2026-09-25 (© 2015 Advanced Bionics AG). The bullets are quoted one by one from the flyer's two columns. The flyer also says AB systems are designed with numerous safeguards against ESD. The page defers to the child's audiologist."
+  },
+  {
+    "id": "artificial-turf-static-shock.ccc-plains-dry-air",
+    "layer": "climate",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Climate Center names low relative humidity among the characteristic features of the eastern plains' climate and says winter there more often brings dry air and strong winds.",
+    "quote": "The climate of the plains is comparatively uniform from place to place, with characteristic features of low relative humidity, abundant sunshine, infrequent rains and snow, moderate to high wind movement, and a large daily and seasonal range in temperature. … More often, winter brings dry air and strong winds contributing to the aridity of the area.",
+    "source_url": "https://climate.colostate.edu/climate_long.html",
+    "source_label": "Colorado Climate Center (Colorado State University), Climate of Colorado",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Section 'Climate of the Eastern Plains'. The same page's general section says 'Humidity is generally quite low; this favors rapid evaporation' (used in how-hot-does-artificial-turf-get.ccc-low-humidity)."
+  },
+  {
+    "id": "artificial-turf-static-shock.ccc-rapid-evaporation",
+    "layer": "climate",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Climate Center says Colorado's humidity is generally quite low, which favors rapid evaporation.",
+    "quote": "Humidity is generally quite low; this favors rapid evaporation and a relatively comfortable feeling even on hot days.",
+    "source_url": "https://climate.colostate.edu/climate_long.html",
+    "source_label": "Colorado Climate Center (Colorado State University), Climate of Colorado",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-static-shock.nws-chinook-dry",
+    "layer": "climate",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The National Weather Service defines the chinook as a warm, dry wind in the lee of the Rocky Mountains and calls it a fairly common winter event in the mountain West.",
+    "quote": "This is a region-specific term used for Foehn Winds in the lee of the Rocky Mountains in the United States; Foehn Winds are warm, dry winds that occur in the lee of high mountain ranges. It is a fairly common wintertime phenomena in the mountainous west and in parts of Alaska.",
+    "source_url": "https://forecast.weather.gov/glossary.php?word=chinook",
+    "source_label": "National Weather Service Glossary, Chinook",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-static-shock.coagmet-fort-collins-rh-2025",
+    "layer": "climate",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "CoAgMET's Fort Collins station on the CSU campus recorded an average daily low relative humidity of 28.4% and an average daily high of 82.7% in 2025, with the low at 25% or less on 200 days (at least 12 in every month, most in March) and at 15% or less on 83 days, and the day's low came between late morning and early evening on 321 of 363 days (88%).",
+    "quote": "fcl01 (Fort Collins, CSU Campus, elevation 4997 ft), daily QC data 2025-01-01 to 2025-12-31 (365 days): rhMin mean 0.284 · rhMax mean 0.827 · days with rhMin ≤ 0.25 = 200 (Jan 12 · Feb 12 · Mar 25 · Apr 18 · May 15 · Jun 17 · Jul 20 · Aug 19 · Sep 14 · Oct 16 · Nov 16 · Dec 16) · days with rhMin ≤ 0.15 = 83 · rhMinTime 11:00–18:59 MST on 321 of 363 days with a time",
+    "source_url": "https://coagmet.colostate.edu/data/daily/fcl01.json?from=2025-01-01&to=2025-12-31&fields=rhMax,rhMaxTime,rhMin,rhMinTime",
+    "source_label": "CoAgMET (Colorado Climate Center) daily data, Fort Collins station (CSU campus), 2025",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "28.4",
+      "82.7",
+      "2025",
+      "25",
+      "200",
+      "12",
+      "15",
+      "83",
+      "321",
+      "363",
+      "88",
+      "4997",
+      "2025-01-01",
+      "2025-12-31",
+      "365",
+      "0.284",
+      "0.827",
+      "0.25",
+      "0.15",
+      "11",
+      "18",
+      "20",
+      "19",
+      "14",
+      "16",
+      "17"
+    ],
+    "notes": "Computed 2026-09-25 from the JSON at the source_url (API field definitions: rhMin = min relative humidity, rhMax = max relative humidity, as fractions; times in MST, so 11:00–18:59 MST is noon to 7:59 p.m. daylight time in summer). The daily high came 20:00–08:59 MST on 94% of days. Same station the heat guide uses (fcl01). A research weather station, not a backyard. The ftc01 (AERC) station reads similar in 2025 (mean rhMin 27.0%) but shows implausibly dry 2019–2020 values, so multi-year averages were not used."
+  },
+  {
+    "id": "artificial-turf-static-shock.coagmet-greeley-rh-2025",
+    "layer": "climate",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "CoAgMET's Greeley 4 station recorded an average daily low relative humidity of 27.6% and an average daily high of 87.8% in 2025, with the low at 25% or less on 221 days (at least 8 in every month, most in March) and at 15% or less on 107 days, and the day's low came between late morning and early evening on 333 of 364 days (91%).",
+    "quote": "gly04 (Greeley 4, 1.5 mi N of Greeley Airport, elevation 4683 ft), daily QC data 2025-01-01 to 2025-12-31 (364 valid days): rhMin mean 0.276 · rhMax mean 0.878 · days with rhMin ≤ 0.25 = 221 (Jan 8 · Feb 11 · Mar 25 · Apr 19 · May 17 · Jun 18 · Jul 22 · Aug 22 · Sep 21 · Oct 18 · Nov 21 · Dec 19) · days with rhMin ≤ 0.15 = 107 · rhMinTime 11:00–18:59 MST on 333 of 364 days",
+    "source_url": "https://coagmet.colostate.edu/data/daily/gly04.json?from=2025-01-01&to=2025-12-31&fields=rhMax,rhMaxTime,rhMin,rhMinTime",
+    "source_label": "CoAgMET (Colorado Climate Center) daily data, Greeley 4 station, 2025",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "27.6",
+      "87.8",
+      "2025",
+      "25",
+      "221",
+      "8",
+      "15",
+      "107",
+      "333",
+      "364",
+      "91",
+      "4",
+      "1.5",
+      "4683",
+      "2025-01-01",
+      "2025-12-31",
+      "0.276",
+      "0.878",
+      "0.25",
+      "0.15",
+      "11",
+      "18",
+      "19",
+      "17",
+      "22",
+      "21"
+    ],
+    "notes": "Computed 2026-09-25 from the JSON at the source_url (one day missing rhMin). Times in MST. The daily high came 20:00–08:59 MST on 93% of days. Same station the heat guide uses (gly04)."
+  }
+]

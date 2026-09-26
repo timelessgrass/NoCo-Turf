@@ -1,0 +1,396 @@
+[
+  {
+    "id": "swing-set-on-artificial-turf.cpsc-324-anchoring",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The CPSC's home playground handbook says play equipment may need anchors to keep it from tipping over while in use, that anchoring should follow the manufacturer's instructions, and that anchors should be buried or covered because exposed anchors, hooks and bolts can trip children or injure them.",
+    "quote": "Play equipment may need to be restrained with anchors to keep it from tipping over while in use. Follow the manufacturer’s instructions for anchoring. Be sure anchors are buried or otherwise covered with protective surfacing. Exposed anchors, hooks, bolts, etc. can create tripping hazards or lead to other injuries.",
+    "source_url": "https://www.cpsc.gov/s3fs-public/324.pdf",
+    "source_label": "U.S. Consumer Product Safety Commission, Outdoor Home Playground Safety Handbook (Publication 324), section 3: Anchoring",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "PDF downloaded and converted with pdftotext on 2026-09-25; the three sentences after the first are bullets in the source. The handbook is guidance, not a mandatory standard, and its back cover dates it 2005."
+  },
+  {
+    "id": "swing-set-on-artificial-turf.cpsc-324-level-site",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The CPSC's home handbook says a level spot for play equipment lowers the chance of the set tipping over, and that some sites need regrading to improve drainage or reduce the slope.",
+    "quote": "Choose a level location for the equipment. This can reduce the likelihood of the play set tipping over and loose-fill surfacing materials washing away during heavy rains. Some sites may need re-grading to improve drainage or to reduce the slope.",
+    "source_url": "https://www.cpsc.gov/s3fs-public/324.pdf",
+    "source_label": "U.S. Consumer Product Safety Commission, Outdoor Home Playground Safety Handbook (Publication 324), section 1: Choosing a Site",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "swing-set-on-artificial-turf.cpsc-324-tip-over-deaths",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The CPSC's home handbook counts children struck by play equipment that moves or tips over among the deaths on home playgrounds, alongside falls, strangulation and entrapment, and puts home playground injuries at about 50,000 emergency room visits a year.",
+    "quote": "Each year, about 50,000 children go to U.S. hospital emergency rooms because of injuries on home playground equipment. … In addition, each year several children die on home playgrounds. … Others die when their heads or necks are trapped in narrow spaces, they fall from the equipment, or when they are struck by play equipment that moves or tips over.",
+    "source_url": "https://www.cpsc.gov/s3fs-public/324.pdf",
+    "source_label": "U.S. Consumer Product Safety Commission, Outdoor Home Playground Safety Handbook (Publication 324), introduction",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "50,000",
+      "50000"
+    ],
+    "notes": "The handbook is dated 2005, so the 50,000 figure is old; the page uses only the tip-over cause of death, not the count."
+  },
+  {
+    "id": "swing-set-on-artificial-turf.cpsc-324-slide-north",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The CPSC advises keeping bare metal platforms and slides out of direct sunlight to lower the risk of serious burns, and says a slide that faces north gets the least direct sun.",
+    "quote": "Locate bare metal platforms and slides out of direct sunlight to reduce the likelihood of serious burns. A slide that faces north will receive the least direct sunlight.",
+    "source_url": "https://www.cpsc.gov/s3fs-public/324.pdf",
+    "source_label": "U.S. Consumer Product Safety Commission, Outdoor Home Playground Safety Handbook (Publication 324), section 1: Choosing a Site",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "swing-set-on-artificial-turf.cpsc-324-check-bolts",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The CPSC's home handbook recommends checking a play set's nuts and bolts twice a month and tightening them as needed.",
+    "quote": "Check nuts and bolts twice a month and tighten as needed.",
+    "source_url": "https://www.cpsc.gov/s3fs-public/324.pdf",
+    "source_label": "U.S. Consumer Product Safety Commission, Outdoor Home Playground Safety Handbook (Publication 324), section 3: Maintenance",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "swing-set-on-artificial-turf.cpsc-324-no-hard-surface",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The CPSC's home handbook says not to install home playground equipment over concrete, asphalt or any other hard surface, because a fall onto one can seriously injure a child, and says carpeting and thin mats are generally not adequate protective surfacing.",
+    "quote": "NOTE: Do not install home playground equipment over concrete, asphalt, or any other hard surface. A fall onto a hard surface can result in serious injury to the equipment user. Grass and dirt are not considered protective surfacing because wear and environmental factors can reduce their shock absorbing effectiveness. Carpeting and thin mats are generally not adequate protective surfacing.",
+    "source_url": "https://www.cpsc.gov/s3fs-public/324.pdf",
+    "source_label": "U.S. Consumer Product Safety Commission, Outdoor Home Playground Safety Handbook (Publication 324), section 4: Select Protective Surfacing",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "swing-set-on-artificial-turf.cpsc-325-anchoring-below-ground",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The CPSC's 2025 public playground handbook calls secure anchoring a key factor in a stable installation, to be done strictly to the manufacturer's specifications, and says anchoring devices such as concrete footings belong below ground level and beneath the protective surfacing, where children can't trip on them or land on them.",
+    "quote": "Secure anchoring is a key factor to stable installation, and the anchoring process should be completed in strict accordance with the manufacturer’s specifications. … All anchoring devices for playground equipment, such as concrete footings or horizontal bars at the bottom of flexible climbers, should be installed below ground level and beneath the base of the protective surfacing material. This will also prevent children from sustaining additional injuries from impact if they fall on exposed footings.",
+    "source_url": "https://www.cpsc.gov/s3fs-public/325_PublicPlaygroundSafetyHandbook2025_7-30-25_1.pdf",
+    "source_label": "U.S. Consumer Product Safety Commission, Public Playground Safety Handbook (July 2025), sections 2.6 Assembly and Installation and 3.6 Tripping Hazards",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2025"
+    ],
+    "notes": "The public handbook is written for parks, schools and childcare; the home handbook (Pub. 324) says the same about burying anchors in fewer words."
+  },
+  {
+    "id": "swing-set-on-artificial-turf.cpsc-325-wear-mats-flush",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The CPSC says the ground under swings and at slide exits is displaced fastest, that shock-absorbing mats there can significantly reduce displacement, and that such mats should be installed flush with the surfacing so they are not a tripping hazard.",
+    "quote": "Shock-absorbing mats placed in high traffic areas, such as under swings and at slide exits, can significantly reduce displacement. They should be installed flush with surfacing so as not to be a tripping hazard. … Areas under swings and at slide exits. Activity in these areas tends to displace surfacing quickly.",
+    "source_url": "https://www.cpsc.gov/s3fs-public/325_PublicPlaygroundSafetyHandbook2025_7-30-25_1.pdf",
+    "source_label": "U.S. Consumer Product Safety Commission, Public Playground Safety Handbook (July 2025), section 4.3 Maintaining Loose-Fill Surfacing",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2025",
+      "4.3"
+    ],
+    "notes": "Written about loose fill; the page applies only the flush-mounting point to turf."
+  },
+  {
+    "id": "swing-set-on-artificial-turf.gorilla-why-anchor",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Gorilla Playsets, a swing set maker, says an unanchored playset can topple over during vigorous play or shift in high winds, and that every swing set should be securely anchored to the ground.",
+    "quote": "An unanchored playset can topple over during vigorous play or shift during high winds. … Yes. To prevent tipping during play or movement during storms, every swing set should be securely anchored to the ground.",
+    "source_url": "https://gorillaplaysets.com/blogs/the-playground/how-to-anchor-a-swing-set-safely-and-securely",
+    "source_label": "Gorilla Playsets, How to Anchor a Swing Set Safely and Securely (Feb. 17, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "17",
+      "2026"
+    ]
+  },
+  {
+    "id": "swing-set-on-artificial-turf.gorilla-anchor-types",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Gorilla Playsets describes corkscrew-style twist-in anchors for hard, compact soil and anchors set in concrete for looser soil or maximum stability, says anchors under a loose surfacing must reach the solid earth beneath it, and says to push the finished set firmly and recheck the connections if it lifts or wobbles.",
+    "quote": "Twist-in anchors. These corkscrew-style anchors are great for hard, compact soil. You simply twist them into the ground near the legs of the playset using a rod or screwdriver for leverage. Concrete anchoring. For looser soil or maximum stability, digging holes and setting anchors in concrete is the \"Gorilla Strong\" gold standard. … Finally, give the set a firm push. If it lifts or wobbles, re-check your connections. … If you are installing on loose-fill material like rubber mulch or wood chips, you must ensure the anchors go deep enough into the solid earth beneath the surfacing.",
+    "source_url": "https://gorillaplaysets.com/blogs/the-playground/how-to-anchor-a-swing-set-safely-and-securely",
+    "source_label": "Gorilla Playsets, How to Anchor a Swing Set Safely and Securely (Feb. 17, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "17",
+      "2026"
+    ]
+  },
+  {
+    "id": "swing-set-on-artificial-turf.gorilla-move-anchored",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Gorilla Playsets says an anchored swing set can be moved, but it means unbolting the anchors and possibly digging them out.",
+    "quote": "Can I move a swing set after it’s anchored? Yes, but it requires unbolting the anchors and potentially digging them out.",
+    "source_url": "https://gorillaplaysets.com/blogs/the-playground/how-to-anchor-a-swing-set-safely-and-securely",
+    "source_label": "Gorilla Playsets, How to Anchor a Swing Set Safely and Securely (Feb. 17, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "17",
+      "2026"
+    ]
+  },
+  {
+    "id": "swing-set-on-artificial-turf.ecograss-x-cut",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "EcoGrass, an artificial turf company, says to anchor a swing set on turf by spreading the blades, cutting a small X in the backing, driving or drilling the anchor through it at a 45-degree angle until its eyelet reaches the backing, covering any anchor head that sticks up, brushing the fibers back to hide the cut, and inspecting the anchors after severe weather or heavy use.",
+    "quote": "Cut a small X in the backing, being careful not to damage the visible grass blades. This creates an opening for your anchor or stake. For swing sets, insert the anchor at a 45-degree angle through the cut X. Hammer stakes carefully into place or use a power drill for twist-in anchors. Stop when the eyelet reaches the turf backing. … Cover any protruding anchor heads with rubber caps or infill material to prevent trips and injuries. … Gently brush artificial grass fibers back into place to conceal the installation. … Regularly inspect your anchors, especially after severe weather or heavy use.",
+    "source_url": "https://www.ecograssus.com/blog/2020/1/30/inserting-anchor-or-stake-into-turf",
+    "source_label": "EcoGrass, Inserting Anchor or Stake into Turf (Shahe Sandjian, Aug. 7, 2024)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "45",
+      "7",
+      "2024"
+    ],
+    "notes": "A turf seller's how-to, not a playset maker's instruction; the page presents it as one company's method and defers to the set's own manual."
+  },
+  {
+    "id": "swing-set-on-artificial-turf.sgw-seams-under-swings",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A turf distributor's installer column says seams that land in walkways, play areas and focal points may part under continuous foot traffic, and that for entrances, playgrounds and the ground under swing sets it may be worth wasting material to redesign the layout so no seam lands there.",
+    "quote": "Having seams that land in walkways, play areas, and focal points may not be a good idea. Areas with continuous foot traffic may cause “parting” of the fibers and will cause the seam to become visible. When placing seams that are within entrances, exits, playgrounds, and under swing sets, it may be in your best interest to absorb the cost of having material waste and re-design your layout so the seams will not land in these areas.",
+    "source_url": "https://syntheticgrasswarehouse.com/company/ask-an-expert/ask-jw/seam-integration-part-3-perfecting-seams/",
+    "source_label": "Synthetic Grass Warehouse, Ask JW: Seam Integration Part 3, Perfecting Seams (Dec. 26, 2019)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "26",
+      "2019"
+    ]
+  },
+  {
+    "id": "swing-set-on-artificial-turf.rainbow-utilities-sandy",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Rainbow Play Systems, a playset maker, says underground utilities in the play zone must be located before assembly if the set will be anchored, and that a set on sandy soil or loose fill may need additional anchoring.",
+    "quote": "If anchoring your play systems, all underground utilities must be located in play zone before starting assembly of play system. … It is recommended not to place a set on sandy soil or loose fill as it may require additional anchoring in that situation.",
+    "source_url": "https://www.rainbowplay.com/create-a-safe-play-set-area-2/",
+    "source_label": "Rainbow Play Systems, Create a Safe Play Set Area",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "swing-set-on-artificial-turf.colorado-811-swing-sets",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado 811 says state law requires property owners to contact it at least two full business days before digging, not counting the day of notice, lists digging holes for swing sets and driving landscaping stakes among the examples, and says it does not mark private lines such as sprinkler lines.",
+    "quote": "State law requires you to contact Colorado 811 at least two full business days before you dig (not including the day of notification). … Digging holes for fences, decks, swing sets, or mailboxes … Driving landscaping stakes into the ground … There may be private utilities within your dig area such as sprinkler lines, gas lines, or a BBQ, that require you to higher a private locating company in addition to calling 811. … Colorado 811 does not mark private utility lines.",
+    "source_url": "https://www.colorado811.org/residential-digging",
+    "source_label": "Colorado 811, Residential Property: Planning to Dig on Your Property?",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "811",
+      "48"
+    ],
+    "notes": "The same page also says 'at least 48 hours (excluding weekends, the day of the notification, and legal holidays)' and, in a step list, 'Wait at least 3 full business days'; the page uses the two-full-business-days sentence it gives as the legal requirement. 'higher' is the page's spelling. Colorado 811 is the statutory notification association; the underlying statute is C.R.S. 9-1.5. Not legal advice."
+  },
+  {
+    "id": "swing-set-on-artificial-turf.fort-collins-play-permit-exempt",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins lists swings, playhouses and other play equipment among its residential building-permit exemptions when the total area is 120 square feet or less, there is no more than one elevated playhouse or structure per lot, that structure is no more than 64 square feet and 6 feet high from floor to highest point, and the equipment is used only for play.",
+    "quote": "Play Equipment/Play Structures: Swings, playhouses, etc. are allowed if: Total area 120 square feet or less; One elevated playhouse/structure per lot maximum; Elevated structure less than or equal to 64 square feet and less than or equal to 6 feet high (measured from floor to highest point); Used only for play",
+    "source_url": "https://www.fortcollins.gov/Business/Permits-and-Licensing/Building-Permits",
+    "source_label": "City of Fort Collins, Building Permits: Permit Exemptions, Residential Permit Exemptions, General Residential Work",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "120",
+      "64",
+      "6"
+    ],
+    "notes": "fortcollins.gov returns 403 to curl (Akamai); read 2026-09-25 through a fetch tool that rendered the page. The item sits under the H2 'Permit Exemptions' and H3 'Residential Permit Exemptions'; the list items are joined here with semicolons. Other NoCo towns adopt their own building codes; the page does not extend this to them."
+  },
+  {
+    "id": "swing-set-on-artificial-turf.heron-lakes-trampoline-anchor",
+    "layer": "housing",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Heron Lakes in Berthoud asks owners to secure lightweight play equipment that high winds can move, and requires a trampoline to sit in the backyard at least 10 feet from every property line, buried at ground level, screened from neighbors and firmly anchored to the ground for wind protection.",
+    "quote": "Consideration shall also be given to securing lightweight play equipment which is subject to movement by high winds. Trampolines must be placed in the backyard of a lot, must be set back a minimum of 10 feet from all property lines, must be buried at ground level, must be screened and hidden from all adjoining properties and must be firmly anchored to the ground for wind protection.",
+    "source_url": "https://www.berthoudheritagemd.live/s/Heron-Lakes-Design-Rules-and-Regulations-June-1-2026.pdf",
+    "source_label": "Berthoud-Heritage Metropolitan District, Heron Lakes Residential Improvement Rules and Regulations (approved as amended June 1, 2026), Sec. 2.59 Play and Sports Equipment",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "10",
+      "2.59",
+      "1",
+      "2026"
+    ],
+    "notes": "PDF downloaded and converted with pdftotext on 2026-09-25. Berthoud's local record berthoud-co.heron-play-equipment-setback quotes the same section for setbacks and materials."
+  },
+  {
+    "id": "swing-set-on-artificial-turf.springfree-anchor-weather",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Springfree Trampoline says anchors keep a trampoline from blowing away in strong winds and from tilting when jumped on, tells owners to check for underground utility lines before installing them and to inspect them periodically because soil conditions change, and suggests lowering the enclosure, moving the trampoline to shelter or taking it apart before severe weather.",
+    "quote": "Keeps the trampoline from blowing away under strong winds. … Adds another layer of stability so it doesn’t tilt when jumped on. … Before installation, check for underground power, gas, telephone, water, or other utility lines and pipes. Failure to do so could result in serious or fatal injury. If you anticipate severe weather, consider lowering the enclosure, moving the trampoline to a sheltered location or disassembling the trampoline completely. … Finally, once you install the anchors to the trampoline, you will need to periodically inspect the anchors to make sure they are secure to the ground, as soil conditions might change over time.",
+    "source_url": "https://www.springfreetrampoline.com/blogs/beyond-the-bounce/how-to-anchor-a-trampoline",
+    "source_label": "Springfree Trampoline, How to Anchor a Trampoline: A Step-By-Step Guide (Sept. 8, 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "8",
+      "2023"
+    ],
+    "notes": "The warning lines are quoted on the page from Springfree's ground anchor manual. The page also prices Springfree's anchor kit; the guide carries no prices."
+  },
+  {
+    "id": "swing-set-on-artificial-turf.springfree-turf-surface",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Springfree Trampoline says a trampoline can go on artificial grass, which is not as soft as natural grass but lets anchors secure the trampoline, counts turf, dirt and concrete as harsher surfaces than grass, says hard surfacing can raise the chance of damage to parts such as the legs, and suggests rubber mats or padding around the base.",
+    "quote": "Now, you can place your trampoline on other surfacing – like artificial grass (turf), dirt or concrete. There are no official rules that govern where a trampoline must be placed. … But those types of harsher surfacing may not offer the same cushioning for the structure that grass offers. In fact, hard surfacing can increase the chances of damage to key trampoline components, like the legs. … Consider adding rubber mats or padding around the base for additional structural support. … Yes, you can put a trampoline on artificial grass. It won’t be as soft as natural grass but would likely serve as a better option than concrete since you can use anchors to secure the trampoline to the ground.",
+    "source_url": "https://www.springfreetrampoline.com/blogs/beyond-the-bounce/does-a-trampoline-need-to-be-on-grass",
+    "source_label": "Springfree Trampoline, Does a Trampoline Need to Be on Grass? (Nov. 27, 2024)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "27",
+      "2024"
+    ]
+  },
+  {
+    "id": "swing-set-on-artificial-turf.springfree-legs-no-sunlight",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Springfree Trampoline says grass under a trampoline suffers mostly from lost sunlight and from the frame legs concentrating hundreds of pounds on a few small contact points, that synthetic grass needs no sunlight, and that flat pads or paving stones under each leg spread the weight.",
+    "quote": "A trampoline mat blocks a significant amount of direct sunlight from reaching the lawn below. … The legs of a trampoline concentrate hundreds of pounds of weight onto a few small contact points. … A patch of synthetic grass underneath the trampoline looks green year-round, requires no sunlight, and eliminates every lawn care concern. … Placing flat pads or paving stones under each leg distributes the weight and prevents sinking.",
+    "source_url": "https://www.springfreetrampoline.com/blogs/beyond-the-bounce/will-a-trampoline-kill-your-grass",
+    "source_label": "Springfree Trampoline, Will a Trampoline Kill Your Grass? (July 6, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6",
+      "2026"
+    ]
+  },
+  {
+    "id": "swing-set-on-artificial-turf.aap-trampolines",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The American Academy of Pediatrics recommends that children of all ages avoid trampolines and that children under 6 never jump, and for families who get one anyway advises installing the bouncing surface as close to the ground as possible, far from trees, walls, buildings and other play areas.",
+    "quote": "Because toddlers and preschoolers face the greatest risks for trampoline injuries, kids under 6 should NEVER jump. The AAP recommends that kids of all ages avoid trampolines—but if you decide to let older children jump, make sure they follow these common-sense rules. … If you decide to get a home trampoline: Install the bouncing surface as close to the ground as possible. Position it far away from trees, walls, buildings and other play areas.",
+    "source_url": "https://www.healthychildren.org/English/safety-prevention/at-play/Pages/Trampolines-What-You-Need-to-Know.aspx",
+    "source_label": "American Academy of Pediatrics, HealthyChildren.org: Trampolines, What You Need to Know (last updated Sept. 3, 2024)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6",
+      "3",
+      "2024"
+    ]
+  },
+  {
+    "id": "swing-set-on-artificial-turf.nws-tie-down",
+    "layer": "climate",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The National Weather Service office for northeast Colorado says bora and chinook winds off the mountains can exceed 100 mph, and advises bringing lightweight objects indoors or tying them down when high winds are forecast so they do not become dangerous missiles.",
+    "quote": "These episodes feature widespread high winds from the west or northwest into the adjacent plains at speeds which can exceed 100 mph. … These winds can exceed 100 mph in extreme cases, bringing the potential for widespread damage. … If high winds are forecast for your area, you should bring lightweight objects indoors or tie them down so they do not become dangerous missiles.",
+    "source_url": "https://www.weather.gov/bou/highwind",
+    "source_label": "National Weather Service forecast office for northeast Colorado, High Wind Safety",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "100"
+    ],
+    "notes": "The first sentence describes bora episodes, the second chinook winds. The same page lists foothill places that see 60 to near 100 mph; the list includes Denver-metro towns, so the page cites only synthetic-turf-field-maintenance.nws-cold-season-wind for that sentence (it stops at Fort Collins)."
+  }
+]

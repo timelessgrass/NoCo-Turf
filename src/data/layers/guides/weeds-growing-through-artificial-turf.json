@@ -1,0 +1,324 @@
+[
+  {
+    "id": "weeds-growing-through-artificial-turf.cda-noxious-list-c",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Department of Agriculture's noxious weed list puts field bindweed and puncturevine on List C, the species so widespread and well established across Colorado that statewide eradication is impractical, and sends people who need a weed identified to their county weed manager or local CSU Extension agent.",
+    "quote": "List C Species Widely distributed. The species are widespread and well-established throughout the state, making statewide eradication impractical. The Colorado Department of Agriculture provides educational, research, and biological control resources to support local management efforts. … Need Help Identifying A Weed? Contact your County Weed Manager or Local CSU Extension Agent … List C Species … Field bindweed Convolvulus arvensis … Puncturevine Tribulus terrestris",
+    "source_url": "https://ag.colorado.gov/conservation/noxious-weeds/colorado-noxious-weed-list",
+    "source_label": "Colorado Department of Agriculture, Colorado Noxious Weed List (List C)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [],
+    "notes": "Read from the raw HTML with curl on 2026-09-25. Siberian elm is on List C too; that fact belongs to leaves-on-artificial-turf."
+  },
+  {
+    "id": "weeds-growing-through-artificial-turf.cda-field-bindweed",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Department of Agriculture describes field bindweed as a non-native, deep-rooted perennial that spreads from seed and from creeping horizontal roots, with seed that can stay viable in the soil for up to 40 years.",
+    "quote": "Field bindweed is a non-native deep-rooted perennial that reproduces from seed and creeping, horizontal roots (rhizomes). … Field Bindweed seeds can remain viable in the soil for up to 40 years.",
+    "source_url": "https://ag.colorado.gov/conservation/noxious-weeds/noxious-weed-species-id/field-bindweed",
+    "source_label": "Colorado Department of Agriculture, Field bindweed (Convolvulus arvensis) species page",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "40"
+    ],
+    "notes": "CSU's PlantTalk 2104 gives 20 years for seed survival; the page quotes CDA's figure and names CDA."
+  },
+  {
+    "id": "weeds-growing-through-artificial-turf.cda-bindweed-fact-sheet",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CDA's field bindweed fact sheet says it is widespread in cultivated areas, pastures, lawns and gardens from 4,000 to 8,000 feet, emerges from its root system each spring, has to be stressed continually until it exhausts the food stored in its roots, is to be eradicated, contained or suppressed as local jurisdictions decide, and lists bindweed herbicides whose directions say not to apply them near or under trees or shrubs or where soils have rapid permeability.",
+    "quote": "Field bindweed emerges from its root system in the spring. … Field bindweed is a problem throughout Colorado. It is one of the most competitive perennial weeds. It is widespread in cultivated areas, pastures, lawns, gardens, roadsides, and waste areas from 4,000 to 8,000 feet in elevation. … This weed needs to be continually stressed, forcing it to exhaust root nutrient stores and eventually die. … Field bindweed is designated as a “List C” species on the Colorado Noxious Weed Act. It is required to be either eradicated, contained, or suppressed depending on the local jursidictions managing this species. … DO NOT apply near or under trees/shrubs or where soils have rapid permeability.",
+    "source_url": "https://drive.google.com/a/state.co.us/file/d/1PfqU299VIalJVzbNf1ZZJvOTa5K4RQSk/view?usp=sharing",
+    "source_label": "Colorado Department of Agriculture, Field Bindweed Identification and Management fact sheet (List C; linked from CDA's field bindweed page)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4,000",
+      "8,000",
+      "4000",
+      "8000"
+    ],
+    "notes": "PDF downloaded through Google Drive and read with pdftotext on 2026-09-25. \"jursidictions\" is the source's spelling. The herbicide rows are rangeland and pasture recommendations; the page quotes only the trees-and-permeability caution, which appears on two of them."
+  },
+  {
+    "id": "weeds-growing-through-artificial-turf.cda-puncturevine",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Department of Agriculture describes puncturevine as a summer annual whose hard, tack-like seed capsules are called goatheads, whose seeds sprout after the first spring moisture and any wet spell after it, and whose seeds stay viable for 4 to 5 years.",
+    "quote": "Puncturevine is a summer annual forb and is native to Europe. … Each capsule is hard and contains many spines, almost tack-like. The shape of the seed capsule has been referred to as a “goathead.” The seeds will propagate after the first moisture of the spring and then any wet period following. Seeds can stay viable for 4 to 5 years.",
+    "source_url": "https://ag.colorado.gov/conservation/noxious-weeds/noxious-weed-species-id/puncturevine",
+    "source_label": "Colorado Department of Agriculture, Puncturevine (Tribulus terrestris) species page",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4",
+      "5"
+    ]
+  },
+  {
+    "id": "weeds-growing-through-artificial-turf.cda-puncturevine-fact-sheet",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CDA's puncturevine fact sheet says the seed capsules can injure people, animals and tires, and advises pulling or digging plants when the soil is moist, wearing gloves, and bagging them carefully so the seeds don't scatter.",
+    "quote": "The seed capsules can cause injury to humans, animals, and tires. … Hand pull or dig when soil is moist, but make sure to wear gloves. Bag specimens carefully so as not to scatter seeds.",
+    "source_url": "https://drive.google.com/a/state.co.us/file/d/1ueJT_KBYuqTQ2wrC6I77QEhbDU2CQpJW/view?usp=sharing",
+    "source_label": "Colorado Department of Agriculture, Puncturevine Identification and Management fact sheet (List C; linked from CDA's puncturevine page)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "PDF downloaded through Google Drive and read with pdftotext on 2026-09-25; the sheet is marked updated 08/09."
+  },
+  {
+    "id": "weeds-growing-through-artificial-turf.csu-planttalk-puncture-vine",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU's PlantTalk says puncture vine is most common in eastern Colorado below 6,500 feet in disturbed soils and vacant lots, that its seed-bearing burs can puncture bicycle tires or skin, that mulch thick enough to block light reduces it, and that certain pre-emergent herbicides applied around April 1 kill its seedlings as they germinate but may be needed each April for several years.",
+    "quote": "It’s most commonly found in eastern Colorado at elevations below 6,500 feet, in disturbed soils and vacant lots. … These burs, which can easily puncture bicycle tires or a gardener’s skin, contain seeds. … Mulch, when applied thickly enough to block light to the ground, can be effective at reducing populations. … Certain pre-emergent herbicides, applied around April 1st, can kill puncture vine seedlings as they germinate. However, pre-emergent herbicides may have to be used each April for several years to achieve good control, because puncture vine seeds can remain viable in the soil for many years.",
+    "source_url": "https://planttalk.colostate.edu/topics/weeds-cultural-problems/2109-puncture-vine/",
+    "source_label": "CSU Extension, PlantTalk Colorado 2109, Puncture Vine",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6,500",
+      "6500",
+      "2109",
+      "1"
+    ]
+  },
+  {
+    "id": "weeds-growing-through-artificial-turf.csu-planttalk-bindweed-control",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU's PlantTalk says bindweed grows along the ground until it finds something to climb, that no single treatment eliminates established bindweed in one season, that hand-pulling won't kill it but persistence drains its roots, that killing it with herbicide takes several applications over years with late-summer and early-fall applications most effective, that 2,4-D should go on between 65 and 85°F with wind under five mph, and that sponging or painting herbicide onto it suits spots close to wanted plants.",
+    "quote": "Bindweed grows along the ground until it encounters an object that it can climb, such as fences or other plants. … No one treatment will eliminate established bindweed in one season. … Hand-pulling well-established bindweed generally does not kill it because of its root system but persistence can reduce energy in the roots. … killing it with herbicides takes several applications over a period of years. Late summer and early fall applications are most effective. … Be sure to apply 2,4-D when temperatures are between 65 degrees and 85 degrees Fahrenheit and winds are less than five mph. … Sponging or painting the bindweed with an herbicide is best when bindweed and desirable plants are in close proximity.",
+    "source_url": "https://planttalk.colostate.edu/topics/weeds-cultural-problems/2104-controlling-bindweed/",
+    "source_label": "CSU Extension, PlantTalk Colorado 2104, Controlling Bindweed",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "65",
+      "85",
+      "2104",
+      "2",
+      "4"
+    ],
+    "notes": "The roots, seed-life and shading lines of the same page are can-you-put-artificial-turf-over-grass-or-dirt.csu-planttalk-bindweed."
+  },
+  {
+    "id": "weeds-growing-through-artificial-turf.weld-puncturevine-sheet",
+    "layer": "county",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Weld County's Weed Division calls puncturevine a problem throughout Colorado, found in lawns and gardens as well as roadsides and disturbed sites, and notes that a pre-emergent herbicide will not kill established, growing plants.",
+    "quote": "Puncturevine is a problem throughout Colorado. It is a nuisance weed found in disturbed sites, along roadways, in overgrazed pastures, in lawns, gardens and waste areas. … A pre-emergent chemical –it will not kill established growing plants.",
+    "source_url": "https://sam.extension.colostate.edu/wp-content/uploads/sites/2/2018/08/puncturevine.pdf",
+    "source_label": "Weld County Public Works Weed Division, Puncturevine Identification and Management (hosted by CSU Extension Small Acreage Management)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The pre-emergent line is the comment on one product (pendimethalin) in the sheet's herbicide table; the page uses it only for what a pre-emergent does."
+  },
+  {
+    "id": "weeds-growing-through-artificial-turf.weld-list-c-local-choice",
+    "layer": "county",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Weld County's Weed Division explains that List C noxious weeds are widespread across Colorado and left for counties and municipalities to address if they choose to, and invites residents to call the division with questions.",
+    "quote": "Welcome to the Weed Division website. We hope you can easily find the answer you are looking for here. If not please call (970) 400-3770 to speak with someone from the Weed Division. … The C list species are out there for Counties and municipalities to address if they choose to. These species are wide spread throughout the State of Colorado.",
+    "source_url": "https://www.weld.gov/Government/Departments/Public-Works/Weed-Management",
+    "source_label": "Weld County Public Works, Weed Management",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "970",
+      "400",
+      "3770"
+    ],
+    "notes": "The site returns a Cloudflare 403 to curl; read in a browser on 2026-09-25. The phone number is not printed in copy."
+  },
+  {
+    "id": "weeds-growing-through-artificial-turf.larimer-weed-district-id",
+    "layer": "county",
+    "applies_to": [
+      "fort-collins-co",
+      "loveland-co",
+      "timnath-co",
+      "wellington-co",
+      "berthoud-co",
+      "windsor-co",
+      "johnstown-co"
+    ],
+    "fact": "The Larimer County Weed District will help identify a weed from a photo of one found in Larimer County, and offers free site visits to landowners within the Weed District boundary.",
+    "quote": "The Larimer County Weed Management Office offers free site visits to landowners in within the Weed District Boundary. … In the above navigation block send us a photo of a weed you find in Larimer County and our staff will help you identify it.",
+    "source_url": "https://www.larimer.gov/naturalresources/weeds/services",
+    "source_label": "Larimer County Weed District, Weed District Services",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Cloudflare challenge blocks curl; read in a browser on 2026-09-25. \"in within\" is the source's wording. Which addresses fall inside the Weed District boundary was not checked."
+  },
+  {
+    "id": "weeds-growing-through-artificial-turf.csu-gn656-herbicide-trees",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says tree root suckers from aspens, cottonwoods and crabapples get sprayed by mistake as weeds, that a tree's roots can reach several times the width of its canopy, that root-absorbed and extended-control herbicides applied some distance from a tree can damage or kill it, that heat can turn a pesticide into a drifting gas, and that using an herbicide in a way that doesn't match its label is a crime.",
+    "quote": "suckers coming from its root system (aspens, cottonwoods, crabapples are examples of trees that often produce root suckers) are mistaken for weeds and intentionally sprayed. … A tree’s root system can extend several times the width of its canopy. A larger shade tree can have roots across several residential yards. Root-absorbed herbicides applied even some distance from a tree’s truck can be absorbed and damage or kill a tree in this manner. This can occur with applications of extended-control herbicides or other root-absorbed products. … Volatilization – This occurs when a pesticide volatilizes, normally due to high temperatures, and becomes a gas. The gaseous pesticide can then drift into nontarget plants. … It is a crime to use an herbicide in a manner not consistent with the instructions on its label.",
+    "source_url": "https://cmg.extension.colostate.edu/Gardennotes/656.pdf",
+    "source_label": "CSU Extension, CMG GardenNotes #656, Herbicide Use Around Landscape Trees (reviewed July 2024)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "656",
+      "2024"
+    ],
+    "notes": "\"truck\" is the source's typo for trunk."
+  },
+  {
+    "id": "weeds-growing-through-artificial-turf.csu-gn245-weed-fabric",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says woven weed barrier fabrics let some air and water through at first but eventually clog, and that weeds easily germinate on top of the fabric and root into or through it.",
+    "quote": "Woven weed barrier fabrics initially allow some minor oxygen and water exchange to the soil, but eventually become clogged and create the same issues. Weeds easily germinate on top of the fabric and root into or through it.",
+    "source_url": "https://cmg.extension.colostate.edu/Gardennotes/245.pdf",
+    "source_label": "CSU Extension, CMG GardenNotes #245, Mulching (reviewed April 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "245",
+      "2023"
+    ],
+    "notes": "Written about fabric under mulch in landscape beds, not under turf; the page says so."
+  },
+  {
+    "id": "weeds-growing-through-artificial-turf.fieldturf-seeds-in-infill",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "FieldTurf Landscape, a turf maker, says weeds cannot grow through turf backing but airborne seeds can sprout in the infill, especially at the edges, that these shallow-rooted weeds usually pull by hand, that clearing leaves and dirt keeps a rooting layer from forming, and that stubborn patches call for a gentle water-based weed killer rather than oil-based or harsh chemicals.",
+    "quote": "Removing organic debris like leaves and dirt stops a top layer from forming where weeds or moss could take root. … Gentle Weed Killer: For any stubborn patches, use a gentle, water-based weed killer. Avoid any oil-based or harsh industrial chemicals that could damage the plastic fibers of the turf. … Weeds cannot grow through the turf’s durable backing. However, airborne seeds can occasionally land on the surface and sprout within the infill layer, especially around the edges. These are typically easy to pull by hand due to their shallow roots.",
+    "source_url": "https://fieldturflandscape.com/maintenance/artificial-turf-maintenance-guide/",
+    "source_label": "FieldTurf Landscape, Artificial Turf Maintenance Guide",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [],
+    "notes": "A manufacturer's own maintenance advice. Read from the raw HTML with curl on 2026-09-25."
+  },
+  {
+    "id": "weeds-growing-through-artificial-turf.tigerturf-weed-sources",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "TigerTurf, a turf maker, names three sources of weeds in synthetic turf (seed settling on the surface, roots creeping from nearby beds and lawns under the edging and up through the backing, and a poor or degraded membrane below), reads weeds along the edge lines as root intrusion and weeds across the whole surface as membrane failure, and advises against broadcast spraying the whole surface.",
+    "quote": "There are three main sources of weed growth on synthetic turf installations: … Airborne seeds settling on the surface: Wind and birds deposit seeds onto the turf surface. If organic debris, dust, or infill has accumulated, these seeds can find just enough material to germinate on top of the turf before their roots work down through the backing. … Roots from adjacent garden beds and lawn edges: Lateral root systems from nearby plants, particularly vigorous grasses and ground covers, can grow horizontally under the edging and emerge through the turf backing. … Inadequate or degraded weed membrane below the turf … Avoid broadcast spraying of weedkiller across the whole surface as a preventive measure as this is unnecessary and risks fibre damage with some formulations. … Weeds emerging along edge lines: This indicates lateral root intrusion. … Widespread emergence across the surface: This typically indicates membrane failure below the turf.",
+    "source_url": "https://tigerturf.com/nz/about/news-and-articles/preventing-weeds-through-artificial-grass",
+    "source_label": "TigerTurf (New Zealand), How to Prevent Weeds from Growing Through Artificial Grass (April 22, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "22",
+      "2026"
+    ],
+    "notes": "A manufacturer's article written for New Zealand; its metric membrane and edging figures are not used."
+  },
+  {
+    "id": "weeds-growing-through-artificial-turf.cda-commercial-applicator",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado's pesticide applicator program covers pesticides used against weeds, and requires anyone other than a private agricultural applicator who is in the business of applying pesticides for hire to be licensed with the Colorado Department of Agriculture as a commercial applicator.",
+    "quote": "The Certification & Licensing program promotes the safe and effective use of pesticides and certain devices to control pests such as insects, rodents, and weeds … Commercial Applicator Any person, other than a private applicator, who engages in the business of applying pesticides for hire or operating a device for hire that is designated by the commissioner as requiring licensure for use under this article. All commercial applicators must be licensed with the Department.",
+    "source_url": "https://ag.colorado.gov/plants/pesticides/pesticide-applicator-certification-and-licensing-program",
+    "source_label": "Colorado Department of Agriculture, Pesticide Applicator Certification and Licensing Program",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": []
+  },
+  {
+    "id": "weeds-growing-through-artificial-turf.cda-for-hire-verify-2026",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "In April 2026 the Colorado Department of Agriculture said pesticide applications made for hire require a commercial pesticide applicator license, that anyone can check a business's license in CDA's applicator search, and that applying for hire without one can bring fines of up to $2,500 per violation.",
+    "quote": "Pesticide applications made for hire require the individual, business, or entity to be licensed as a commercial pesticide applicator with the Colorado Department of Agriculture (CDA) … Businesses or individuals that apply pesticides for hire without the required license and certification face significant penalties, including fines of up to $2,500 per violation. … You can easily check if a pest control business holds a current commercial pesticide applicator license by using the Colorado Department of Agriculture's pesticide applicator search portal at ag.colorado.gov/applicatorsearch .",
+    "source_url": "https://ag.colorado.gov/press-release/hiring-pest-control-for-mountain-pine-beetles-or-other-forest-pests-beware-of",
+    "source_label": "Colorado Department of Agriculture, Hiring Pest Control for Mountain Pine Beetles or Other Forest Pests? Beware of Unlicensed Pesticide Applicators (press release, April 30, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "2,500",
+      "2500",
+      "30",
+      "2026"
+    ],
+    "notes": "The release is about forest pests but states the for-hire rule generally, for residences and landscapes too. The search is at https://ag.colorado.gov/applicatorsearch."
+  },
+  {
+    "id": "weeds-growing-through-artificial-turf.npic-pets-until-dry",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The National Pesticide Information Center says to follow the label's instructions for pets, move pets and their toys, bowls and bedding out before applying, keep pets off treated areas until the pesticide is completely dry, and allow 24 hours or longer for some granular lawn products.",
+    "quote": "If you choose to use a pesticide, read, understand and follow all label instructions that come with the pesticide product. The label often provides specific information about how to keep your pets from being exposed. Remove pets from the area before you begin applying pesticides. Remove all toys, chew bones, food bowls, and bedding. Keep pets away from treated areas until the pesticide is completely dry and the area has been well ventilated. Granular lawn products may require keeping pets off the treated area for 24 hours or longer while the granules dissolve and the treated area dries.",
+    "source_url": "https://npic.orst.edu/faq/pets.html",
+    "source_label": "National Pesticide Information Center, How can I protect my pets when using pesticides? (last updated June 26, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "24",
+      "26",
+      "2026"
+    ]
+  }
+]

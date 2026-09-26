@@ -1,0 +1,829 @@
+[
+  {
+    "id": "watering-trees-with-artificial-turf.csu-winter-40f",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says to water trees in dry fall and winter spells only when air and soil are above 40°F with no snow cover, at midday so the water soaks in before it can freeze at night, about once or twice a month.",
+    "quote": "Water only when air and soil temperatures are above 40 degrees F with no snow cover. … Apply water during midday, so it will have time to soak in before possible freezing at night. … Monitor weather conditions and water during extended dry periods without snow cover, about once or twice each month.",
+    "source_url": "https://extension.colostate.edu/resource/fall-and-winter-watering-of-plants-and-trees/",
+    "source_label": "CSU Extension, Fall and Winter Watering of Plants and Trees (Fact Sheet 7.211)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "40",
+      "7.211"
+    ],
+    "notes": "Read with curl on 2026-09-25. GardenNotes #657 says early morning instead of midday; both say to let it soak in before the night freeze."
+  },
+  {
+    "id": "watering-trees-with-artificial-turf.csu-winter-gallons",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says an established large tree's roots spread at least as wide as the tree is tall, that water should soak in slowly to 12 inches at many spots under the dripline and beyond, and that a survival rule is 10 gallons per inch of trunk diameter, measured 6 inches above the ground, so a 2-inch tree needs 20 gallons.",
+    "quote": "Established large trees have a root spread equal to or greater than the height of the tree. … Trees obtain water best when it is allowed to soak into the soil slowly to a depth of 12 inches. … Apply water to many locations under the dripline and beyond if possible. If using a deep-root fork or needle, insert no deeper than 8 inches into the soil. As a general survival rule, apply 10 gallons of water for each diameter inch of the tree. For example, a two-inch diameter tree needs 20 gallons per watering. Use a ruler to measure your tree’s diameter at 6″ above ground level.",
+    "source_url": "https://extension.colostate.edu/resource/fall-and-winter-watering-of-plants-and-trees/",
+    "source_label": "CSU Extension, Fall and Winter Watering of Plants and Trees (Fact Sheet 7.211)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "12",
+      "8",
+      "10",
+      "2",
+      "20",
+      "6",
+      "7.211"
+    ]
+  },
+  {
+    "id": "watering-trees-with-artificial-turf.csu-winter-exposure",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says plants in reflected heat from buildings, walls and fences dry out more in winter, most of all on south and west exposures under the low winter sun, and that windy sites dry faster and need more water.",
+    "quote": "Plants receiving reflected heat from buildings, walls, and fences are more subject to damage. The low angle of winter sun makes this more likely on south or west exposures. Windy sites result in faster drying of sod and plants and require additional water.",
+    "source_url": "https://extension.colostate.edu/resource/fall-and-winter-watering-of-plants-and-trees/",
+    "source_label": "CSU Extension, Fall and Winter Watering of Plants and Trees (Fact Sheet 7.211)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "7.211"
+    ]
+  },
+  {
+    "id": "watering-trees-with-artificial-turf.csu-winter-new-trees",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says newly planted trees are the most susceptible to winter drought injury and generally take a year to establish for each inch of trunk diameter.",
+    "quote": "Newly planted trees are most susceptible to winter drought injury. Trees generally take one year to establish for each inch of trunk diameter. For example, a two-inch diameter (caliper) tree takes a minimum of two years to establish under normal conditions.",
+    "source_url": "https://extension.colostate.edu/resource/fall-and-winter-watering-of-plants-and-trees/",
+    "source_label": "CSU Extension, Fall and Winter Watering of Plants and Trees (Fact Sheet 7.211)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "7.211"
+    ]
+  },
+  {
+    "id": "watering-trees-with-artificial-turf.gn657-shared-lawn-water",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU's GardenNotes #657 says a lawn sprinkler system is an easy way to water mature trees in or near a lawn because the grass and the tree roots share the rooting area and both use the water, and that a hose and sprinkler should always be used once the lawn irrigation is turned off.",
+    "quote": "When mature trees are planted in/near the lawn, using a lawn sprinkler system is an easy and effective way to water them. … Remember that the turf and tree roots are located in the shared rooting area, and both are using the applied water. … A hose and sprinkler should always be used when the lawn irrigation system is turned off.",
+    "source_url": "https://cmg.extension.colostate.edu/Gardennotes/657.pdf",
+    "source_label": "CSU Extension, CMG GardenNotes #657, Watering Mature Shade Trees (reviewed April 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "657",
+      "2023"
+    ],
+    "notes": "Read from the PDF with pdftotext on 2026-09-25. 'Turf' in GardenNotes means the grass lawn, not artificial turf. A page-number footer (657-3) falls inside the second sentence in the PDF; it is left out of the quote."
+  },
+  {
+    "id": "watering-trees-with-artificial-turf.gn657-roots-clay",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "GardenNotes #657 says that in clayey, compacted or wet soils 90–95% of a tree's roots are in the top 12 inches and half are in the top 4 inches, and that a tree's roots may spread two to five times the width of its canopy.",
+    "quote": "A mature tree’s root system often occupies a much wider area than its canopy. Depending on the species of tree and soil conditions the spread of a tree’s root systems may be two to five times the width of its canopy or even greater in some cases. … In clayey, compacted, or perpetually wet soils, 90-95% of roots will be in the top twelve inches and 50% will be in the top four inches of soil.",
+    "source_url": "https://cmg.extension.colostate.edu/Gardennotes/657.pdf",
+    "source_label": "CSU Extension, CMG GardenNotes #657, Watering Mature Shade Trees (reviewed April 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "90",
+      "95",
+      "12",
+      "50",
+      "4",
+      "657",
+      "2023"
+    ]
+  },
+  {
+    "id": "watering-trees-with-artificial-turf.gn657-outside-dripline",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "GardenNotes #657 says the most effective place to water a mature tree is just outside the dripline, not at the trunk, and that a sprinkler may take 30 to 60 minutes to put down an inch of water.",
+    "quote": "The most effective place to water mature trees is just outside the dripline, NOT at the trunk. Depending on the type of sprinkler, it may take thirty to sixty minutes of run time to apply one inch of water.",
+    "source_url": "https://cmg.extension.colostate.edu/Gardennotes/657.pdf",
+    "source_label": "CSU Extension, CMG GardenNotes #657, Watering Mature Shade Trees (reviewed April 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "30",
+      "60",
+      "657",
+      "2023"
+    ]
+  },
+  {
+    "id": "watering-trees-with-artificial-turf.gn657-drip-emitters",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "GardenNotes #657 says drip emitters must be moved outward, and more added, as a tree grows or it may suffer drought stress; that a system's output is its emitters times their flow (two 2-gallon-an-hour emitters give 4 gallons an hour); and that drip tubing ideally runs in a circle near the tree's drip line.",
+    "quote": "One mistake many homeowners make is leaving the drip irrigation in the original location for years. Emitters must be moved out and additional ones added as the tree grows or drought stress may occur. … For example: If you have two emitters that each put out two gallons of water an hour that would mean the system would put out four gallons an hour. … Ideally the tubing would be run in a circle around the tree near its drip line.",
+    "source_url": "https://cmg.extension.colostate.edu/Gardennotes/657.pdf",
+    "source_label": "CSU Extension, CMG GardenNotes #657, Watering Mature Shade Trees (reviewed April 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "4",
+      "657",
+      "2023"
+    ]
+  },
+  {
+    "id": "watering-trees-with-artificial-turf.gn657-amount",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "GardenNotes #657 suggests one to two inches of water every two weeks in the growing season (620 to 1,240 gallons per 1,000 square feet), or 10 gallons per inch of trunk diameter per watering, so a 4-inch tree gets 40 gallons, and says clay soils absorb water slowly and may benefit from cycle and soak.",
+    "quote": "Aim to apply one to two inches of water (620-1240 gallons of water per 1000 square feet) every two weeks during the growing season. Another method which can be more useful for smaller trees is to apply ten gallons of water for each inch of trunk caliper diameter per watering. Example: a four inch caliper tree needs forty gallons of water per watering. … clay soils can hold more water but normally absorb it more slowly. Such soils may benefit from “slower” irrigation methods or “cycle and soak” (watering for a period, letting the water absorb into the soil, and then watering again).",
+    "source_url": "https://cmg.extension.colostate.edu/Gardennotes/657.pdf",
+    "source_label": "CSU Extension, CMG GardenNotes #657, Watering Mature Shade Trees (reviewed April 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "2",
+      "620",
+      "1240",
+      "1,240",
+      "1000",
+      "1,000",
+      "10",
+      "4",
+      "40",
+      "20",
+      "657",
+      "2023"
+    ],
+    "notes": "The page's worked example (a ring of 10 emitters at 2 gallons an hour gives 20 gallons an hour, so 40 gallons takes about 2 hours) is our arithmetic from this record's rule and gn657-drip-emitters, not a CSU statement."
+  },
+  {
+    "id": "watering-trees-with-artificial-turf.gn657-when-to-water",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "GardenNotes #657 says to water when the top 4 to 6 inches of soil has dried, checked by pushing a slender screwdriver into the soil in several places inside and outside the dripline: if it goes in 6 to 8 inches easily, the tree needs no water.",
+    "quote": "Water should be applied when the top four to six inches of soil has dried. This can be measured by touch or with a slender screwdriver. A common method is to poke the screwdriver into the soil in several places around the tree, both inside and outside the dripline (the imaginary line at the edge of the tree’s canopy). If the screwdriver can easily penetrate the soil to a depth of six to eight inches, there is no need to apply water.",
+    "source_url": "https://cmg.extension.colostate.edu/Gardennotes/657.pdf",
+    "source_label": "CSU Extension, CMG GardenNotes #657, Watering Mature Shade Trees (reviewed April 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4",
+      "6",
+      "8",
+      "657",
+      "2023"
+    ]
+  },
+  {
+    "id": "watering-trees-with-artificial-turf.gn657-winter-monthly",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "GardenNotes #657 says to water trees monthly when natural precipitation from October through April is less than an inch a month, on days above 40 degrees, putting down an inch early in the day so it soaks in before freezing at night.",
+    "quote": "Aim to water trees and other woody landscape plants monthly when natural precipitation between October and April is less than an inch per month. … Water on days when the temperature is above 40 degrees. Apply an inch of water early in the morning to allow it to soak into the soil before freezing at night.",
+    "source_url": "https://cmg.extension.colostate.edu/Gardennotes/657.pdf",
+    "source_label": "CSU Extension, CMG GardenNotes #657, Watering Mature Shade Trees (reviewed April 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "40",
+      "657",
+      "2023"
+    ]
+  },
+  {
+    "id": "watering-trees-with-artificial-turf.gn657-bags-deep-root",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "GardenNotes #657 says self-watering tree bags suit newly planted trees only, can trap heat and keep the trunk too moist, and that deep-root waterers are not an effective way to irrigate because most tree roots are not deep in the soil.",
+    "quote": "These systems, sometimes known as “Gator Bags,” are best used only on newly planted trees. They are not an effective or practical way to water mature trees. … Second, bags are often dark in color and when left around the trunk of the tree, can trap excess heat. Third, bags may keep the trunk and surrounding soil overly moist, leading to disease and insect problems. … Since most tree roots are not located deep within the soil profile, deep root waterers are not an effective method of irrigating.",
+    "source_url": "https://cmg.extension.colostate.edu/Gardennotes/657.pdf",
+    "source_label": "CSU Extension, CMG GardenNotes #657, Watering Mature Shade Trees (reviewed April 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "657",
+      "2023"
+    ]
+  },
+  {
+    "id": "watering-trees-with-artificial-turf.gn657-drought-signs",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "GardenNotes #657 lists signs of prolonged drought stress in a tree: wilting, early leaf drop, smaller leaves, early fall color, scorched leaf margins, purpling or browning leaves, and more insect and disease trouble.",
+    "quote": "Prolonged drought stress, however, may result in wilting, early leaf drop, smaller-than-normal leaf size, early fall leaf color, scorch on leaf margins, purpling or browning of leaf tissue, and increase in disease or insect pressure.",
+    "source_url": "https://cmg.extension.colostate.edu/Gardennotes/657.pdf",
+    "source_label": "CSU Extension, CMG GardenNotes #657, Watering Mature Shade Trees (reviewed April 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "657",
+      "2023"
+    ]
+  },
+  {
+    "id": "watering-trees-with-artificial-turf.csfs-winter-watering",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado State Forest Service says planted trees on Colorado's plains and Front Range often need winter water in dry spells of more than two weeks without lasting snow cover, on days above 40 degrees once the snow has melted off, soaking the whole area under the branches slowly at 10 gallons per inch of trunk diameter and repeating every few weeks until spring precipitation arrives.",
+    "quote": "planted trees on Colorado’s plains and Front Range often require additional watering in the winter months, during extended dry periods (e.g., more than two weeks without lasting snow cover). … The best time for winter watering is on days when snow has melted off and the temperature is above 40 degrees. … Apply water to soak the entire area underneath the full span of a tree’s branches. … use a drip or soaker hose on low setting, or soft spray wand, to apply water slowly to the full area at the rate of 10 gallons per inch of tree diameter. … Until abundant spring precipitation arrives, be sure to continue watering every few weeks in the absence of snow and colder temperatures.",
+    "source_url": "https://csfs.colostate.edu/2017/02/02/winter-tree-watering-necessary-drought-conditions/",
+    "source_label": "Colorado State Forest Service, Winter Tree Watering Necessary During Drought Conditions (Feb. 2, 2017)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "40",
+      "10",
+      "2",
+      "2017"
+    ],
+    "notes": "A 2017 news release, still served by CSFS; the City of Longmont reposted the same tips in 2018. The dateline names a Denver-metro city; never quote the dateline in NoCo copy."
+  },
+  {
+    "id": "watering-trees-with-artificial-turf.usu-abrupt-shutoff",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Utah State University Extension says abruptly turning off irrigation when a lawn comes out effectively puts the trees in drought: reduced vigor and yellowing leaves can show in the first growing season, and significant dieback in the upper crown within two to three years.",
+    "quote": "Additionally, abruptly turning off irrigation after turf removal can stress trees and further contribute to their decline. … Turf removal and rapid changes in watering routines effectively create drought conditions for trees. Many existing roots will dry and die. … Drought-stressed trees can show initial symptoms of reduced vigor and yellowing foliage in the first growing season after the change. Within two to three years, you may see significant dieback in the upper crown of drought-stressed trees.",
+    "source_url": "https://extension.usu.edu/cwel/research/preserving-trees-during-and-after-lawn-removal",
+    "source_label": "Utah State University Extension, Preserving Trees During and After Lawn Removal (Becker and Poudyal, March 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2025"
+    ],
+    "notes": "A Utah fact sheet (peer-reviewed, March 2025): regional research, not a Colorado agency. 'Turf removal' means taking out a grass lawn."
+  },
+  {
+    "id": "watering-trees-with-artificial-turf.usu-drip-layout",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "USU Extension recommends half-inch pressure-compensating in-line drip tubing laid in a circle or grid around a tree, with emitters 12 to 18 inches apart, at or beyond the canopy edge and off the trunk, without trenching, and says in-line tubing will not work properly buried under soil, though it works under mulch.",
+    "quote": "Lay out ½-inch pressure compensating in-line drip tubing in a rectangular or circular grid centered around the tree. Make sure to keep the trunk dry. … Choose the tubing with emitters 12 to 18 inches apart. … Avoid trenching for the drip tubing, as it will cut through tree roots. In-line tubing will not function properly when buried under the soil. However, it will function when covered with a layer of mulch. Place the tubing or bubblers as close as possible to the tree canopy coverage (the dotted line on Figure 4) or even outside the canopy coverage, if possible (Figure 4).",
+    "source_url": "https://extension.usu.edu/cwel/research/preserving-trees-during-and-after-lawn-removal",
+    "source_label": "Utah State University Extension, Preserving Trees During and After Lawn Removal (Becker and Poudyal, March 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "12",
+      "18",
+      "4",
+      "2025"
+    ]
+  },
+  {
+    "id": "watering-trees-with-artificial-turf.usu-monitor",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "USU Extension says to watch a tree's condition for at least two years after the lawn around it comes out, and warns that overwatering can also harm trees by suffocating roots.",
+    "quote": "After removing turf around your trees, monitor the tree condition for at least two years to observe its response to the new landscape. … Overwatering can also harm trees by suffocating roots and fostering diseases, such as phytophthora.",
+    "source_url": "https://extension.usu.edu/cwel/research/preserving-trees-during-and-after-lawn-removal",
+    "source_label": "Utah State University Extension, Preserving Trees During and After Lawn Removal (Becker and Poudyal, March 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2025"
+    ]
+  },
+  {
+    "id": "watering-trees-with-artificial-turf.usu-timing",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "USU Extension says taking out a lawn between late fall and early spring gives the trees in it an adjustment period.",
+    "quote": "Removing turf in late fall through early spring allows trees an adjustment period.",
+    "source_url": "https://extension.usu.edu/cwel/research/preserving-trees-during-and-after-lawn-removal",
+    "source_label": "Utah State University Extension, Preserving Trees During and After Lawn Removal (Becker and Poudyal, March 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2025"
+    ],
+    "notes": "The same fact sheet says Utah trees need little or no water while dormant; CSU and the Colorado State Forest Service advise winter watering in dry spells here, so the guide does not repeat that line."
+  },
+  {
+    "id": "watering-trees-with-artificial-turf.longmont-tree-zone",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The sprinklers-to-dripline guide the City of Longmont posts says tree drip lines must be on their own irrigation zone, because tree zones run much longer than perennial and shrub zones.",
+    "quote": "IMPORTANT: You must set up these tree drip line systems on their own irrigation zone. Your trees should not be irrigated on the same zone as your perennial flowers and shrubs. Tree irrigation zones run for much more time than your perennial garden needs.",
+    "source_url": "https://longmontcolorado.gov/wp-content/uploads/2025/12/4-Transition-your-Irrigation-ada.pdf",
+    "source_label": "City of Longmont, Sprinklers to Dripline Irrigation (prepared by ClimateScaping, posted December 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2025"
+    ],
+    "notes": "Prepared by a private landscaper (ClimateScaping) and posted on longmontcolorado.gov; say 'a guide the City of Longmont posts'. sprinkler-system-after-artificial-turf.longmont-guide-tree-zone quotes the same line."
+  },
+  {
+    "id": "watering-trees-with-artificial-turf.longmont-blowout",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Longmont-posted sprinklers-to-dripline guide says to blow out and shut down the irrigation system at the end of the season, before the first fall frost, so freezing water doesn't crack the lines.",
+    "quote": "Also, keep in mind, at the end of the season and prior to the first frost in the fall, the irrigation system should be blown out and shut down for the winter to prevent water freezing and cracking the lines.",
+    "source_url": "https://longmontcolorado.gov/wp-content/uploads/2025/12/4-Transition-your-Irrigation-ada.pdf",
+    "source_label": "City of Longmont, Sprinklers to Dripline Irrigation (prepared by ClimateScaping, posted December 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2025"
+    ],
+    "notes": "sprinkler-system-after-artificial-turf.longmont-guide-blowout quotes the same line; that guide owns the blowout how-to."
+  },
+  {
+    "id": "watering-trees-with-artificial-turf.longmont-ring-grows",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The tree watering guide the City of Longmont posts says a closed-circuit drip ring should be made bigger over time to draw roots outward, and to check soil moisture 8 inches down with a trowel or screwdriver.",
+    "quote": "If you are irrigating your tree with a closed-circuit tree drip line ring, you will want to make that ring bigger over time to encourage roots extending outward. … Checking the Soil: Use a trowel or screwdriver to dig down 8 inches and check the soil moisture. Soggy is bad. Damp is good. Dry means it is time to water immediately.",
+    "source_url": "https://longmontcolorado.gov/wp-content/uploads/2025/12/5-Four-Year-Tree-Watering-Guide-ADA.pdf",
+    "source_label": "City of Longmont, Tree Watering Guide Over the Years (prepared by ClimateScaping, posted December 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "8",
+      "2025"
+    ],
+    "notes": "Prepared by ClimateScaping, posted on longmontcolorado.gov in December 2025 (upload path)."
+  },
+  {
+    "id": "watering-trees-with-artificial-turf.longmont-winter-hose",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same Longmont-posted guide waters trees in winter with a garden hose laid around the tree's drip line on a day above 40°F, at a slow trickle for 15 to 30 minutes depending on the tree's size, then drained and stored so it doesn't freeze.",
+    "quote": "How to Winter Water Trees with a Garden Hose: Lay out the hose around the tree’s drip line on a day when temperatures are above 40°F, turn it on to a medium to lite trickly, set a timer for 15–30 minutes on your phone (depending on tree size), then head inside to stay warm. Go back outside and move the hose to the next tree and repeat. Once done, drain and store the hose to prevent freezing.",
+    "source_url": "https://longmontcolorado.gov/wp-content/uploads/2025/12/5-Four-Year-Tree-Watering-Guide-ADA.pdf",
+    "source_label": "City of Longmont, Tree Watering Guide Over the Years (prepared by ClimateScaping, posted December 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "40",
+      "15",
+      "30",
+      "2025"
+    ],
+    "notes": "'lite trickly' is verbatim from the guide."
+  },
+  {
+    "id": "watering-trees-with-artificial-turf.sgw-trees-in-turf-zone",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A turf distributor's guidance for installers says trees left inside a turf area that drew their water from the lawn sprinklers must keep getting irrigation or they will be stressed and die, which can mean drip tubing around the tree at its canopy line or under the turf, and recommends keeping lines under turf to a minimum because nails and staples can puncture them.",
+    "quote": "I also recommend creating a new irrigation plan to minimize lines under the turf that cannot be seen by the naked eye. I have seen beautiful installations ruined due to nails and staples puncturing lines and causing damage. … Some trees are not irrigated properly and unfortunately they get their water from irrigation sprinklers. If there are trees that are located inside the turf zone, then you must keep irrigation to them or they will get stressed and die. Just because a tree is mature in size, doesn’t mean it can be watered less. This means you may have to install “drip-tubing” around the tree, at its canopy line, or under the turf to keep the tree alive.",
+    "source_url": "https://syntheticgrasswarehouse.com/blog/irrigation/",
+    "source_label": "Synthetic Grass Warehouse, Irrigation (installer blog, March 29, 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2023",
+      "29"
+    ],
+    "notes": "Read with curl on 2026-09-25. An industry blog written for installers, not research; say 'a turf distributor's guidance for installers'."
+  },
+  {
+    "id": "watering-trees-with-artificial-turf.stc-drain-rate",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council says permeable synthetic grass systems are typically designed to drain 25 inches of water an hour.",
+    "quote": "Synthetic grass systems with infill and base materials should drain to accommodate local weather and rainfall patterns. Permeable synthetic grass systems are typically designed to drain 25” of water per hour.",
+    "source_url": "https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf",
+    "source_label": "Synthetic Turf Council, Considerations When Buying Synthetic Grass for Landscape Use (September 2013)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "25",
+      "2013"
+    ],
+    "notes": "Read from the PDF with pdftotext on 2026-09-25. 'Typically designed' is a design target, not a claim about any product. does-artificial-turf-drain.stc-design-drain-rate quotes the same line."
+  },
+  {
+    "id": "watering-trees-with-artificial-turf.sgw-putting-green-backing",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Synthetic Grass Warehouse, a turf distributor, says non-permeable backings let no water through the turf into the base, are never advised for lawns, and are common on putting green turf.",
+    "quote": "A non-permeable backing does not allow water to pass through the turf and into the base. This type of turf backing is never advised for landscape applications, but it is commonly found in synthetic grass products specifically made for putting green and bocce ball use.",
+    "source_url": "https://syntheticgrasswarehouse.com/blog/how-does-backing-quality-affect-your-artificial-turfs-drainage/",
+    "source_label": "Synthetic Grass Warehouse, How Does Backing Quality Affect Your Artificial Turf's Drainage? (Feb. 28, 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2023",
+      "28"
+    ]
+  },
+  {
+    "id": "watering-trees-with-artificial-turf.fc-forestry-priority",
+    "layer": "research",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "City of Fort Collins Forestry says the Fort Collins area gets about 15 inches of precipitation a year, so most landscape trees need supplemental water, and that under watering restrictions trees should get a higher priority than the lawn because a lawn can be replaced in months but a 20-year-old tree takes 20 years.",
+    "quote": "Many of the tree species planted in our communities thrive in regions where rainfall exceeds 30+ inches annually, but the Fort Collins area only receives 15 inches on average annually. So, supplemental irrigation is needed for most of our landscape trees. … Since many communities are implementing outdoor water restrictions, trees should be given a higher watering priority than your lawn. If you lose your turf to drought, it can be replaced in a matter of months, but it will take 20 years to replace a 20-year-old tree!",
+    "source_url": "https://www.fortcollins.gov/Services/Forestry/Community-Resources",
+    "source_label": "City of Fort Collins Forestry, Community Resources: Watering Your Tree",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "30",
+      "15",
+      "20"
+    ],
+    "notes": "fcgov.com/forestry/tree-maintenance redirects here. Read with curl on 2026-09-25 (200 with and without a browser user agent)."
+  },
+  {
+    "id": "watering-trees-with-artificial-turf.fc-forestry-winter",
+    "layer": "research",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "City of Fort Collins Forestry says to water all trees 1 to 2 times a month from October through March, names a soaker hose as the preferred method, and says water should go within the tree's dripline.",
+    "quote": "Water should be applied within the dripline of the tree. … Methods for watering include a soaker hose (preferred method), deep root fork, deep root needle or soft spray wand. … Fall & Winter (October-March) … Water all trees 1-2 times per month as listed below.",
+    "source_url": "https://www.fortcollins.gov/Services/Forestry/Community-Resources",
+    "source_label": "City of Fort Collins Forestry, Community Resources: Watering Your Tree",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "2"
+    ],
+    "notes": "The page's run-time table (2 minutes for a trunk under 1 inch up to 70 minutes for 14 inches and up) does not say what hose or flow it assumes, so the page does not quote it."
+  },
+  {
+    "id": "watering-trees-with-artificial-turf.fcu-trees-any-time",
+    "layer": "drought",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Under Fort Collins Utilities' voluntary Water Shortage Watch, in effect since May 1, trees may be watered by sprinkler two days a week outside 10 a.m. to 6 p.m., and by hand, drip system or deep root fork or needle at any time.",
+    "quote": "Current water shortage action level: Water Shortage Watch … Starting May 1, Fort Collins Utilities water customers are in a Water Shortage Watch. … Trees … Limit watering by sprinkler to two days per week and not between 10 a.m. and 6 p.m., and by hand, drip system or deep root fork or needle at any time.",
+    "source_url": "https://www.fortcollins.gov/Services/Utilities/Programs-and-Rebates/Water-Programs",
+    "source_label": "Fort Collins Utilities, Current Water Status and Restrictions",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-24",
+    "numbers": [
+      "1",
+      "10",
+      "6",
+      "2026"
+    ],
+    "notes": "FortCollins.gov/WaterRestrictions redirects here. Applies to Fort Collins Utilities customers only (FCLWD and ELCO customers follow their districts). Read with curl on 2026-09-25; the Watch began May 1, 2026 (fcu-water-shortage-watch-2026)."
+  },
+  {
+    "id": "watering-trees-with-artificial-turf.greeley-trees-oct-mar",
+    "layer": "drought",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley's 2026 watering rules bar watering from 10 a.m. to 6 p.m. and lawn watering from November 1 to April 14 without a variance, recommend stopping regular lawn watering in October, and allow watering trees October through March.",
+    "quote": "2026 Watering Restrictions … No watering is allowed between 10 a.m. and 6 p.m. There is no lawn watering without a variance between November 1 and April 14 (see below on applying for a variance). We recommend stopping regular lawn watering in October. However, watering trees October through March is allowed.",
+    "source_url": "https://greeleyco.gov/water-and-sewer/save-water/restrictions-violations-variances/",
+    "source_label": "City of Greeley Water and Sewer, Water Restrictions, Violations, and Variances",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-11-01",
+    "numbers": [
+      "2026",
+      "10",
+      "6",
+      "1",
+      "14"
+    ],
+    "notes": "Read with curl on 2026-09-25. The page does not say whether the 10 a.m.–6 p.m. ban applies to tree watering from October through March; the guide tells readers to ask Greeley Water Efficiency."
+  },
+  {
+    "id": "watering-trees-with-artificial-turf.greeley-cycle-soak",
+    "layer": "research",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley's water department says its soil can only absorb so much water at a time, so it recommends cycle and soak: water, rest up to 60 minutes, and water again.",
+    "quote": "The best method for watering a lawn is to “cycle and soak” -- water, rest, water. Greeley’s soil can only absorb so much water at a time. Spacing out watering intervals gives the soil time to soak up water and allows that water to travel further into the root zone. Water, rest for maximum of 60 minutes between, and water again.",
+    "source_url": "https://greeleyco.gov/water-and-sewer/save-water/restrictions-violations-variances/",
+    "source_label": "City of Greeley Water and Sewer, Water Restrictions, Violations, and Variances",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "60"
+    ]
+  },
+  {
+    "id": "watering-trees-with-artificial-turf.johnstown-trees-weekends",
+    "layer": "drought",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Johnstown's 2026 watering page says no watering from 10 a.m. to 6 p.m., October 15 ends the outdoor watering season, and after October 15 trees and shrubs may be hand watered on Saturdays and Sundays.",
+    "quote": "No watering shall occur between 10am and 6pm. Watering is only permitted on the properties designated watering day. October 15 is the end of outdoor watering season. After October 15, you may hand water trees and shrubs on Saturdays and Sundays.",
+    "source_url": "https://www.johnstownco.gov/665/2026-Watering-Schedule",
+    "source_label": "Town of Johnstown, 2026 Watering Schedule",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-16",
+    "numbers": [
+      "10",
+      "6",
+      "15",
+      "2026"
+    ],
+    "notes": "Read with curl on 2026-09-25. The downloadable 2026 calendar marks October through December 'HAND WATERING ONLY: SATURDAY & SUNDAY TREES & SHRUBS'. The page does not say whether the 10 a.m.–6 p.m. ban still applies after October 15."
+  },
+  {
+    "id": "watering-trees-with-artificial-turf.johnstown-hand-water-level-3",
+    "layer": "drought",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Johnstown's Level 3 restrictions run April 20 to October 15, 2026, bar watering from 10 a.m. to 6 p.m. at any time, and ask that hand watering be done on the property's scheduled watering day with an automatic shutoff nozzle.",
+    "quote": "These restrictions are in place from April 20 to October 15, 2026. Watering between the hours of 10 a.m. - 6 p.m., is NOT permitted at any time. … Hand watering and supplemental irrigation for items such as vegetable gardens, decorative pots, hanging baskets, and similar plantings should be done on-site and in a water-efficient manner on the properties' scheduled watering day with an automatic shutoff nozzle to prevent water waste.",
+    "source_url": "https://www.johnstownco.gov/Faq.aspx?TID=37",
+    "source_label": "Town of Johnstown, Water Conservation Schedule FAQs",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-16",
+    "numbers": [
+      "20",
+      "15",
+      "2026",
+      "10",
+      "6",
+      "3"
+    ],
+    "notes": "Faq.aspx?TID=37 redirects to /m/faq?cat=37. Read with curl on 2026-09-25."
+  },
+  {
+    "id": "watering-trees-with-artificial-turf.severance-hand-water-trees",
+    "layer": "drought",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "Severance allows hand watering of trees, shrubs and flowers every day by hose with a shut-off valve during permitted hours, makes any outdoor water use from 11 a.m. to 5 p.m. unlawful, and exempts approved non-potable systems and North Weld County Water District customers from these rules.",
+    "quote": "Hand watering of flowers, shrubs, and trees shall be allowed each day by hose during permitted hours, provided such hose has a shut-off valve attached which terminates flow when not manually activated. It is unlawful to use any outside water sources between 11:00 A.M. and 5:00 P.M. … Nothing herein shall apply to any approved non-potable water system or North Weld County Water District systems used by any property owner.",
+    "source_url": "https://www.townofseverance.org/396/Watering-Guidelines-and-Restrictions",
+    "source_label": "Town of Severance, Watering Guidelines and Restrictions",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "11",
+      "5"
+    ],
+    "notes": "Standing rule (Resolution No. 2013-07R), not a 2026 drought stage. The page sets no season for the 11 a.m.–5 p.m. ban."
+  },
+  {
+    "id": "watering-trees-with-artificial-turf.milliken-hand-drip-any-day",
+    "layer": "drought",
+    "applies_to": [
+      "milliken-co"
+    ],
+    "fact": "Milliken permits hand watering and drip irrigation every day, outside its lawn-sprinkler limits, defines hand watering as a hose with a positive shutoff nozzle held in the hand or a bucket (not a hose with a sprinkler), and bars automatic sprinkler irrigation from November 1 to March 1.",
+    "quote": "Town-treated water shall not be used for lawn sprinkler irrigation between 9 am and 7 pm daily and all day on Sunday; and no automatic sprinkler irrigation shall occur between November 1 and March 1 of each calendar year. … Hand-watering and drip irrigation shall be permitted Monday through Sunday and not be restricted by the above-mentioned lawn-sprinkling restrictions. Hand-watering shall mean holding in the hand a hose with an attached positive shutoff nozzle or a bucket and does not include operating a hose with a sprinkler or manually operating an irrigation controller.",
+    "source_url": "https://millikenco.gov/194/Watering-Schedule",
+    "source_label": "Town of Milliken, Watering Schedule",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "9",
+      "7",
+      "1"
+    ]
+  },
+  {
+    "id": "watering-trees-with-artificial-turf.firestone-landscape-days",
+    "layer": "drought",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone's mandatory Stage 1 restrictions, in effect from April 16, 2026 until the end of the year unless lifted, limit lawn and landscape watering to assigned days by address and recommend watering between 6 p.m. and 10 a.m.; the page sets out no separate rule for hand watering trees.",
+    "quote": "The restrictions take effect on April 16, 2026, and remain in place until the end of the year, unless lifted by the Board or water conditions improve. … To reduce water usage, the resolution limits lawn and landscape watering based on address numbers: Even-numbered addresses may water on Mondays, Wednesdays, Fridays, and Sundays. Odd-numbered addresses may water on Tuesdays, Thursdays, Saturdays, and Sundays. Watering is recommended between 6:00 p.m. and 10:00 a.m.",
+    "source_url": "https://www.firestoneco.gov/1883/Current-Water-Conditions-Stage-1-Drought",
+    "source_label": "Town of Firestone, Current Water Conditions: Stage 1 Drought",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-24",
+    "numbers": [
+      "16",
+      "2026",
+      "1",
+      "6",
+      "10"
+    ],
+    "notes": "Read with curl on 2026-09-25. Barefoot Lakes is served by Little Thompson Water District, not the Town. Firestone's 2012 Drought Management Plan exempts hand watering of trees only at its later stages, not Stage 1; the page tells readers to ask the Town."
+  },
+  {
+    "id": "watering-trees-with-artificial-turf.noaa-winter-fort-collins",
+    "layer": "climate",
+    "applies_to": [
+      "fort-collins-co",
+      "wellington-co"
+    ],
+    "fact": "At NOAA's Fort Collins station, normal precipitation is 0.74 inches in November, 0.47 in December, 0.41 in January and 0.47 in February, against 1.25 in October and 1.31 in March, and the normal daily high is 44.0°F in December and 45.0°F in January (1991–2020 normals).",
+    "quote": "USC00053005 FT COLLINS — MLY-PRCP-NORMAL 10: 1.25 · 11: 0.74 · 12: 0.47 · 01: 0.41 · 02: 0.47 · 03: 1.31 · MLY-TMAX-NORMAL 12: 44.0 · 01: 45.0",
+    "source_url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-monthly-1991-2020&stations=USC00053005&format=json",
+    "source_label": "NOAA NCEI U.S. Climate Normals 1991–2020, monthly, station FT COLLINS (USC00053005)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "0.74",
+      "0.47",
+      "0.41",
+      "1.25",
+      "1.31",
+      "44.0",
+      "45.0",
+      "44",
+      "45",
+      "10",
+      "11",
+      "12",
+      "01",
+      "02",
+      "03",
+      "1991",
+      "2020"
+    ],
+    "notes": "Read from the NCEI data service JSON on 2026-09-25. MLY-PRCP-NORMAL is total precipitation including snow's water; MLY-TMAX-NORMAL is the normal daily maximum. Station-to-town assignment by proximity (INFERENCE): say 'the nearest NOAA station'."
+  },
+  {
+    "id": "watering-trees-with-artificial-turf.noaa-winter-greeley",
+    "layer": "climate",
+    "applies_to": [
+      "greeley-co",
+      "windsor-co",
+      "johnstown-co",
+      "severance-co",
+      "evans-co",
+      "eaton-co",
+      "milliken-co"
+    ],
+    "fact": "At NOAA's Greeley UNC station, normal precipitation is 0.67 inches in November, 0.55 in December, 0.45 in January, 0.45 in February and 0.91 in March, and the normal daily high is 43.4°F in December and 44.1°F in January (1991–2020 normals).",
+    "quote": "USC00053553 GREELEY UNC — MLY-PRCP-NORMAL 10: 1.06 · 11: 0.67 · 12: 0.55 · 01: 0.45 · 02: 0.45 · 03: 0.91 · MLY-TMAX-NORMAL 12: 43.4 · 01: 44.1",
+    "source_url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-monthly-1991-2020&stations=USC00053553&format=json",
+    "source_label": "NOAA NCEI U.S. Climate Normals 1991–2020, monthly, station GREELEY UNC (USC00053553)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1.06",
+      "0.67",
+      "0.55",
+      "0.45",
+      "0.91",
+      "43.4",
+      "44.1",
+      "10",
+      "11",
+      "12",
+      "01",
+      "02",
+      "03",
+      "1991",
+      "2020"
+    ],
+    "notes": "Read from the NCEI data service JSON on 2026-09-25. Station-to-town assignment follows climate.json noaa-normals-greeley-unc (INFERENCE)."
+  },
+  {
+    "id": "watering-trees-with-artificial-turf.noaa-winter-longmont",
+    "layer": "climate",
+    "applies_to": [
+      "longmont-co",
+      "mead-co",
+      "firestone-co",
+      "frederick-co",
+      "dacono-co"
+    ],
+    "fact": "At NOAA's Longmont 2 ESE station, normal precipitation is 0.75 inches in November, 0.46 in December, 0.56 in January and 0.57 in February, and the normal daily high is 44.8°F in December and 44.5°F in January (1991–2020 normals).",
+    "quote": "USC00055116 LONGMONT 2 ESE — MLY-PRCP-NORMAL 10: 1.04 · 11: 0.75 · 12: 0.46 · 01: 0.56 · 02: 0.57 · 03: 1.17 · MLY-TMAX-NORMAL 12: 44.8 · 01: 44.5",
+    "source_url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-monthly-1991-2020&stations=USC00055116&format=json",
+    "source_label": "NOAA NCEI U.S. Climate Normals 1991–2020, monthly, station LONGMONT 2 ESE (USC00055116)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1.04",
+      "0.75",
+      "0.46",
+      "0.56",
+      "0.57",
+      "1.17",
+      "44.8",
+      "44.5",
+      "2",
+      "10",
+      "11",
+      "12",
+      "01",
+      "02",
+      "03",
+      "1991",
+      "2020"
+    ],
+    "notes": "Read from the NCEI data service JSON on 2026-09-25. Station-to-town assignment follows climate.json noaa-normals-longmont-2ese (INFERENCE)."
+  },
+  {
+    "id": "watering-trees-with-artificial-turf.nws-chinook",
+    "layer": "climate",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The National Weather Service defines the chinook as a warm, dry wind in the lee of the Rocky Mountains and calls it a fairly common winter event in the mountain West.",
+    "quote": "This is a region-specific term used for Foehn Winds in the lee of the Rocky Mountains in the United States; Foehn Winds are warm, dry winds that occur in the lee of high mountain ranges. It is a fairly common wintertime phenomena in the mountainous west and in parts of Alaska.",
+    "source_url": "https://forecast.weather.gov/glossary.php?word=chinook",
+    "source_label": "National Weather Service Glossary, Chinook",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "artificial-turf-static-shock.nws-chinook-dry quotes the same entry."
+  }
+]

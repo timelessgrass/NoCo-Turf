@@ -1,0 +1,875 @@
+[
+  {
+    "id": "artificial-turf-melting-from-windows.stc-low-e-melting",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council reports random instances of polyethylene turf fibers shrinking and melting from heat reflected off Low-E glass, and advises checking a site with south-facing Low-E windows and doors on a hot, sunny day before installation to see where the reflected energy lands, even from the second story.",
+    "quote": "Note: There have been random instances of fiber shrinkage and melting of polyethylene fibers due to high heat from reflective surfaces, particularly so-called Low-E or low emittance glass, which reflects solar rays to reduce heat gain and cooling costs in a building. If an installation has Low-E windows and doors facing south, we recommend that before installation you: visit the site in the middle of a hot, sunny day to determine where the reflected energy is focused, even from the second story;",
+    "source_url": "https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf",
+    "source_label": "Synthetic Turf Council, \"Considerations When Buying Synthetic Grass for Landscape Use\" (September 2013), p. 4",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read from the PDF at the source URL on 2026-09-25 (pdftotext). Printed September 2013; the note sits under \"Guidelines to Assure a Natural Appearance\"."
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.stc-landscape-plan",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Where screening the windows and doors is not feasible or wanted, the Synthetic Turf Council recommends a landscape plan that puts planted areas or hardscape where reflected heat lands.",
+    "quote": "if screening of the windows and doors is not feasible or desired, devise a landscape plan that includes planted areas or hardscape in the areas affected by reflected heat energy.",
+    "source_url": "https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf",
+    "source_label": "Synthetic Turf Council, \"Considerations When Buying Synthetic Grass for Landscape Use\" (September 2013), p. 4",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.nahb-concave-focus",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Double-pane window glass can deflect slightly inward from a barometric pressure difference, and the resulting concavity can focus reflected sunlight like a magnifying glass.",
+    "quote": "Glass in double paned windows may on occasion slightly warp or deflect due to a difference in the barometric pressure between the interior of the glass panes and the outside air pressure. This can create a concavity in the glass. … However, the concavity may focus sunlight reflected from the window in a fashion similar to the effect seen when light passes through a magnifying glass.",
+    "source_url": "https://www.nahb.org/-/media/NAHB/advocacy/docs/legal-issues/construction-liability/builder-resources/sunlight-double-paned-low-e-windows-2014.pdf",
+    "source_label": "NAHB, \"Sunlight Reflected from Double-Paned Low-E Windows, and Damage to Vinyl Siding and Other Materials\" (D. Crump, 2014)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read from the PDF at the source URL on 2026-09-25; identical to the copy saved in the research scratchpad (nahb.pdf)."
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.nahb-200f",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Heat from sunlight reflected by double-pane Low-E windows has been measured above 200°F at its point of focus.",
+    "quote": "The heat from double paned low-e window reflected sunlight has been measured in excess of 200 degrees Fahrenheit at its point of focus",
+    "source_url": "https://www.nahb.org/-/media/NAHB/advocacy/docs/legal-issues/construction-liability/builder-resources/sunlight-double-paned-low-e-windows-2014.pdf",
+    "source_label": "NAHB, \"Sunlight Reflected from Double-Paned Low-E Windows, and Damage to Vinyl Siding and Other Materials\" (D. Crump, 2014)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "200"
+    ]
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.nahb-low-e-reflectance",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A U.S. Department of Energy spokesperson quoted by NAHB put clear glass at about 10% of the sun's energy reflected and Low-E glass at 30-50%.",
+    "quote": "According to Mark LaFrance, a spokesperson for the U.S. Department of Energy (DOE), clear glass will reflect 10% of the sunlight’s energy, while low-e windows reflect 30-50%.",
+    "source_url": "https://www.nahb.org/-/media/NAHB/advocacy/docs/legal-issues/construction-liability/builder-resources/sunlight-double-paned-low-e-windows-2014.pdf",
+    "source_label": "NAHB, \"Sunlight Reflected from Double-Paned Low-E Windows, and Damage to Vinyl Siding and Other Materials\" (D. Crump, 2014)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "10"
+    ]
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.nahb-argon-deflection",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "NAHB reports that argon-filled Low-E windows deflect into sun-focusing concavities more often, because argon slowly escapes through the seal.",
+    "quote": "However, argon low-e windows have a greater incidence of glass deflection, resulting in those sunlight focusing concavities. … Over time the argon gas will escape through the window seal, but since the air molecules are too big to enter and replace the argon, there will be a barometric pressure difference between the interior of the panes and the outside air that can cause glass deflection.",
+    "source_url": "https://www.nahb.org/-/media/NAHB/advocacy/docs/legal-issues/construction-liability/builder-resources/sunlight-double-paned-low-e-windows-2014.pdf",
+    "source_label": "NAHB, \"Sunlight Reflected from Double-Paned Low-E Windows, and Damage to Vinyl Siding and Other Materials\" (D. Crump, 2014)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.nahb-sun-angle",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "NAHB notes that a low sun in late fall, winter or early spring projects the reflected beam farther outward, away from the ground.",
+    "quote": "A low angle of sunlight (such as might occur in late fall, winter, or early spring) is more likely project the reflected sunlight beam outward, away from the ground and onto the surface of nearby buildings.",
+    "source_url": "https://www.nahb.org/-/media/NAHB/advocacy/docs/legal-issues/construction-liability/builder-resources/sunlight-double-paned-low-e-windows-2014.pdf",
+    "source_label": "NAHB, \"Sunlight Reflected from Double-Paned Low-E Windows, and Damage to Vinyl Siding and Other Materials\" (D. Crump, 2014)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Quote keeps the source's wording (\"is more likely project\")."
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.nahb-distance",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "An NAHB builders' survey in 2011 found most reflection damage to vinyl siding happened within 30 feet of the window, with cases reported up to 100 feet away.",
+    "quote": "An NAHB Builders’ Survey conducted in 2011 indicated that most vinyl siding damage occurs when the distance between the window and the siding is 30 feet or less. However, distances of up to 100 feet between window and vinyl siding have been reported.",
+    "source_url": "https://www.nahb.org/-/media/NAHB/advocacy/docs/legal-issues/construction-liability/builder-resources/sunlight-double-paned-low-e-windows-2014.pdf",
+    "source_label": "NAHB, \"Sunlight Reflected from Double-Paned Low-E Windows, and Damage to Vinyl Siding and Other Materials\" (D. Crump, 2014)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2011",
+      "30",
+      "100"
+    ]
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.nahb-capillary-5000",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "NAHB reports that window-manufacturing protocols in the higher-altitude Western states call for capillary tubes in double-pane windows for homes above 5,000 feet, and credits those tubes for the few reflection-damage reports from the West.",
+    "quote": "In the higher altitude Western States, capillary tubes in double paned windows are mandated by manufacturing protocols for homes located at greater than 5000 feet in altitude. The tubes are needed because the reduced outside air pressure found at altitude can result in distorted or cracked window glass. The regional presence of capillary tubes in low-e windows appears to be the reason why there are so few reports of reflected sunlight damage to vinyl siding in the Western States.",
+    "source_url": "https://www.nahb.org/-/media/NAHB/advocacy/docs/legal-issues/construction-liability/builder-resources/sunlight-double-paned-low-e-windows-2014.pdf",
+    "source_label": "NAHB, \"Sunlight Reflected from Double-Paned Low-E Windows, and Damage to Vinyl Siding and Other Materials\" (D. Crump, 2014)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5000"
+    ],
+    "notes": "A manufacturing practice as NAHB describes it, not a building code. Cardinal (see this file's cardinal-* records) frames the need by the difference between manufacturing and installation altitude."
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.nahb-capillary-no-argon",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Capillary tubes cannot be used in argon-filled Low-E windows, because the argon would escape through them.",
+    "quote": "Capillary tubes are not always the answer, however. These tubes cannot be used in argon filled low-e windows. The presence of a capillary tube would allow the argon gas to immediately escape, thereby making that beneficial feature useless.",
+    "source_url": "https://www.nahb.org/-/media/NAHB/advocacy/docs/legal-issues/construction-liability/builder-resources/sunlight-double-paned-low-e-windows-2014.pdf",
+    "source_label": "NAHB, \"Sunlight Reflected from Double-Paned Low-E Windows, and Damage to Vinyl Siding and Other Materials\" (D. Crump, 2014)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.nahb-low-e-new-homes",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "NAHB says double-pane Low-E windows are now generally required by building and energy codes for new home construction.",
+    "quote": "The use of double-paned low-e windows are now generally mandated by modern building and energy codes for new home construction.",
+    "source_url": "https://www.nahb.org/-/media/NAHB/advocacy/docs/legal-issues/construction-liability/builder-resources/sunlight-double-paned-low-e-windows-2014.pdf",
+    "source_label": "NAHB, \"Sunlight Reflected from Double-Paned Low-E Windows, and Damage to Vinyl Siding and Other Materials\" (D. Crump, 2014)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.nahb-screens-awnings",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "An exterior screen over the reflecting window diffuses the reflection and an awning keeps it from reaching the next house, but on a neighbor's window both need that neighbor's cooperation.",
+    "quote": "Placing an exterior screen over the offending window has been shown to mitigate the damage effect by diffusing the reflected light and reducing its focus. Or, hanging an awning over the window will prevent the reflection from reaching an adjoining home. But, these solutions generally require the cooperation of the neighbor who owns the reflecting window.",
+    "source_url": "https://www.nahb.org/-/media/NAHB/advocacy/docs/legal-issues/construction-liability/builder-resources/sunlight-double-paned-low-e-windows-2014.pdf",
+    "source_label": "NAHB, \"Sunlight Reflected from Double-Paned Low-E Windows, and Damage to Vinyl Siding and Other Materials\" (D. Crump, 2014)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.nahb-block-beam",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Blocking the reflected beam with trees, shrubs or any barrier stops the damage.",
+    "quote": "Blocking the reflected sunlight will eliminate the damage. This can be achieved by planting intervening trees and shrubs, or installing any barrier sufficient to block the reflected light. Some homeowners have experimented with installing an ivied trellis over the vinyl siding to intercept the reflected beam.",
+    "source_url": "https://www.nahb.org/-/media/NAHB/advocacy/docs/legal-issues/construction-liability/builder-resources/sunlight-double-paned-low-e-windows-2014.pdf",
+    "source_label": "NAHB, \"Sunlight Reflected from Double-Paned Low-E Windows, and Damage to Vinyl Siding and Other Materials\" (D. Crump, 2014)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.nahb-replacing-not-permanent",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Because the conditions behind reflection damage recur, replacing the damaged material alone is not a permanent fix.",
+    "quote": "Since the factors and conditions that produce the reflected sunlight damage effect can reoccur, just replacing damaged vinyl siding is not a permanent solution.",
+    "source_url": "https://www.nahb.org/-/media/NAHB/advocacy/docs/legal-issues/construction-liability/builder-resources/sunlight-double-paned-low-e-windows-2014.pdf",
+    "source_label": "NAHB, \"Sunlight Reflected from Double-Paned Low-E Windows, and Damage to Vinyl Siding and Other Materials\" (D. Crump, 2014)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.nahb-clear-glass-code",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Swapping Low-E windows for clear glass would reflect less, but a local building code may require Low-E glass.",
+    "quote": "Replacing low-e windows with less-reflecting clear glass windows is a possible remedy, but depending on the jurisdiction, low-e coated windows could be mandated by the local building code (making the use of clear glass illegal).",
+    "source_url": "https://www.nahb.org/-/media/NAHB/advocacy/docs/legal-issues/construction-liability/builder-resources/sunlight-double-paned-low-e-windows-2014.pdf",
+    "source_label": "NAHB, \"Sunlight Reflected from Double-Paned Low-E Windows, and Damage to Vinyl Siding and Other Materials\" (D. Crump, 2014)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.nahb-no-fires",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "NAHB found no reported fires from focused window reflections; the readings it cites were under 250°F, well below the 451°F combustion temperature of wood.",
+    "quote": "However, there have been no reported instances of fires, and the temperature readings for focused reflected sunlight (less than 250 degrees F.) are well below the combustion temperature of wood – 451 degrees Fahrenheit.",
+    "source_url": "https://www.nahb.org/-/media/NAHB/advocacy/docs/legal-issues/construction-liability/builder-resources/sunlight-double-paned-low-e-windows-2014.pdf",
+    "source_label": "NAHB, \"Sunlight Reflected from Double-Paned Low-E Windows, and Damage to Vinyl Siding and Other Materials\" (D. Crump, 2014)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "250",
+      "451"
+    ]
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.cardinal-capillary-open",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Cardinal IG says capillary tubes are typically left open after installation so the insulating glass unit can keep equalizing, while the larger breather tubes are the kind meant to be sealed after equalizing at the installed altitude, and Cardinal does not recommend breather tubes.",
+    "quote": "Breather tubes are intended to be sealed after pressure equalization at the installed altitude. Cardinal IG does not recommend the use of breather tubes in their IG units. … Capillary tubes are typically left open in the field, which allows the IG unit to equalize initially and maintain a generally flat appearance over time. Cardinal IG recommends using capillary tubes in high altitude applications.",
+    "source_url": "https://www.cardinalcorp.com/wp-content/uploads/2023/01/IG13_08-2020.pdf",
+    "source_label": "Cardinal IG, Technical Service Bulletin IG13 (08/20): Capillary Tubes & Breather Tubes",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Answers the editor's question whether tubes are opened or crimped at install: capillary tubes stay open; breather tubes are sealed. Read from the PDF on 2026-09-25."
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.cardinal-no-high-altitude-argon",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Cardinal does not sell high-altitude argon-filled units, because argon diffuses out through a capillary tube.",
+    "quote": "Cardinal does not sell high altitude argon filled units. Argon will easily diffuse through a capillary tube, and currently there are no dependable methods to seal off a capillary tube.",
+    "source_url": "https://www.cardinalcorp.com/wp-content/uploads/2023/01/IG13_08-2020.pdf",
+    "source_label": "Cardinal IG, Technical Service Bulletin IG13 (08/20): Capillary Tubes & Breather Tubes",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.cardinal-altitude-difference",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Cardinal says capillary tubes matter most when insulating glass is installed at a higher altitude than where it was made, and units built with them are not argon-filled.",
+    "quote": "They are particularly important when IG units are installed at higher altitudes than where they were manufactured. … Units constructed with capillary tubes are not filled with argon.",
+    "source_url": "https://www.cardinalcorp.com/glossary/capillary-tubes/",
+    "source_label": "Cardinal Glass Industries, Glass Glossary: Capillary Tubes (updated July 31, 2024)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.cardinal-deflection-normal",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Cardinal says a sealed insulating glass unit deflects inward and becomes slightly concave as its gas cools, and that deflection from temperature and barometric pressure is normal and does not indicate a defective unit.",
+    "quote": "When the gas temperature decreases, the gas volume also decreases to maintain pressure equilibrium with outside air. The glass will deflect inward, becoming slightly concave. Glass deflections resulting from environmental conditions such as temperature and barometric pressure are normal and do not indicate a defective unit.",
+    "source_url": "https://www.cardinalcorp.com/wp-content/uploads/2023/01/IG14_08-2022.pdf",
+    "source_label": "Cardinal Glass Industries, Technical Service Bulletin IG14 (08/22): Vinyl Siding Distortion",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.cardinal-tube-not-all-deflection",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Cardinal does not recommend capillary tubes as a fix for reflection damage, in part because a tube may not remove all the glass deflection.",
+    "quote": "It has been suggested that capillary tubes can be used as a solution to reduce glass deflection. This is not a recommended solution for several reasons: 1) The tube may not eliminate all the glass deflection.",
+    "source_url": "https://www.cardinalcorp.com/wp-content/uploads/2023/01/IG14_08-2022.pdf",
+    "source_label": "Cardinal Glass Industries, Technical Service Bulletin IG14 (08/22): Vinyl Siding Distortion",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1"
+    ]
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.cardinal-screens-40",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Cardinal says exterior screens can block more than 40% of reflected energy, but fixed windows, casements and the upper sash of a single-hung window are not made for exterior screens.",
+    "quote": "Adding screens to the outside of windows can help by blocking more than 40% of the reflected energy. … In addition, not all windows are designed to accommodate exterior screens. Fixed windows, casements, and the upper sash of a single hung window are examples where adding an exterior screen would compromise window aesthetics and the view through the window.",
+    "source_url": "https://www.cardinalcorp.com/wp-content/uploads/2023/01/IG14_08-2022.pdf",
+    "source_label": "Cardinal Glass Industries, Technical Service Bulletin IG14 (08/22): Vinyl Siding Distortion",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "40"
+    ]
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.cardinal-grazing-angle",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "At a grazing angle, under 10 degrees, clear glass reflects about as much as Low-E glass.",
+    "quote": "At a grazing angle (<10°), the reflectance off clear glass is essentially the same as the reflectance off Low-E coated glass.",
+    "source_url": "https://www.cardinalcorp.com/wp-content/uploads/2023/01/IG14_08-2022.pdf",
+    "source_label": "Cardinal Glass Industries, Technical Service Bulletin IG14 (08/22): Vinyl Siding Distortion",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "10"
+    ]
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.cardinal-other-heat-sources",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Cardinal lists air-conditioning compressors, motors and barbecue grills among the nearby heat sources that add to heat damage on plastic siding.",
+    "quote": "Proximity of the siding to other heat sources, such as air conditioning compressors, motors, and barbeque grills;",
+    "source_url": "https://www.cardinalcorp.com/wp-content/uploads/2023/01/IG14_08-2022.pdf",
+    "source_label": "Cardinal Glass Industries, Technical Service Bulletin IG14 (08/22): Vinyl Siding Distortion",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.lbnl-temperature-altitude",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Lawrence Berkeley National Laboratory says a drop in temperature or altitude can pull sealed window glass inward into a concave shape, and that a 20°F temperature change works on the glass about like a 1,000-foot change in elevation.",
+    "quote": "When the external (atmospheric) pressure increases relative to the interior (sealed) pressure of the unit, e.g., when interior temperature or altitude decreases or barometric pressure increases, the pressure differential may cause the glass to deflect inward (become concave). A 1/2 psi (3.4 kilopascal [kPa]) pressure differential is approximately equal to a change of 20°F (11°C), 1,000 ft. (305 m), or 1 in. mercury (Hg) (3.4 kPa).",
+    "source_url": "https://eta-publications.lbl.gov/sites/default/files/lbnl-5022e.pdf",
+    "source_label": "Lawrence Berkeley National Laboratory, \"Research Needs: Glass Solar Reflectance and Vinyl Siding\" (LBNL-5022E, July 2011), Table 4",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "20",
+      "1000",
+      "1/2",
+      "3.4",
+      "11",
+      "305",
+      "1"
+    ]
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.synlawn-reflection-exclusion",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's residential terms exclude fiber shrinkage and melting caused by reflected light from Low-E windows and other reflective objects.",
+    "quote": "3.5 Fiber shrinkage and melting due to exposure to reflective light from Low E Rated windows and other reflective objects (See SYNLawn® Product Advisory, SPA 2014-1, Synthetic Grass and Reflective Surfaces)",
+    "source_url": "https://lowes.synlawn.com/wp-content/uploads/2024/06/SY24247_Lowes_ProductWarranty_v1.pdf",
+    "source_label": "SYNLawn, Residential Statement of Terms and Conditions (effective 01/01/2024), section 3.5",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3.5"
+    ],
+    "notes": "Document title reads \"Residential Statement Of Warranty Terms And Conditions\"; the label shortens it. The warranty guide owns exclusions; this page gives it one line and a link."
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.smartturf-reflection-exclusion",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Smart Turf's published terms do not cover turf melted or damaged by reflection from Low-E windows or other sources of focused sun or extreme heat.",
+    "quote": "Melted or damaged turf caused from reflection by Low E windows or any other producer of sun magnification, localized heating, or extreme heat.",
+    "source_url": "https://smartturf.com/warranty",
+    "source_label": "Smart Turf, published terms page (\"This Warranty Does Not Cover\")",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.usgs-elevation-evans",
+    "layer": "place",
+    "applies_to": [
+      "evans-co"
+    ],
+    "fact": "The USGS elevation service puts Evans, at its USGS place-name point, at about 4,650 feet (4,652 feet).",
+    "quote": "\"value\":4652.356474360967",
+    "source_url": "https://epqs.nationalmap.gov/v1/json?x=-104.6921874&y=40.3763701&units=Feet&wkid=4326",
+    "source_label": "USGS Elevation Point Query Service (3DEP), feet, at the USGS GNIS point for Evans (feature 202732)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4650",
+      "4652",
+      "4652.356474360967"
+    ],
+    "notes": "Point from the USGS GNIS Domestic Names file for Colorado (DomesticNames_CO_Text.zip, feature_id 202732, prim_lat_dec 40.3763701, prim_long_dec -104.6921874), the town's historic center. One point per town: neighborhoods sit higher or lower. Queried 2026-09-25."
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.usgs-elevation-greeley",
+    "layer": "place",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "The USGS elevation service puts Greeley, at its USGS place-name point, at about 4,670 feet (4,674 feet).",
+    "quote": "\"value\":4673.963080560908",
+    "source_url": "https://epqs.nationalmap.gov/v1/json?x=-104.7091322&y=40.4233142&units=Feet&wkid=4326",
+    "source_label": "USGS Elevation Point Query Service (3DEP), feet, at the USGS GNIS point for Greeley (feature 180649)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4670",
+      "4674",
+      "4673.963080560908"
+    ],
+    "notes": "Point from the USGS GNIS Domestic Names file for Colorado (DomesticNames_CO_Text.zip, feature_id 180649, prim_lat_dec 40.4233142, prim_long_dec -104.7091322), the town's historic center. One point per town: neighborhoods sit higher or lower. Queried 2026-09-25."
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.usgs-elevation-milliken",
+    "layer": "place",
+    "applies_to": [
+      "milliken-co"
+    ],
+    "fact": "The USGS elevation service puts Milliken, at its USGS place-name point, at about 4,750 feet (4,752 feet).",
+    "quote": "\"value\":4751.5882675921575",
+    "source_url": "https://epqs.nationalmap.gov/v1/json?x=-104.85525&y=40.3294268&units=Feet&wkid=4326",
+    "source_label": "USGS Elevation Point Query Service (3DEP), feet, at the USGS GNIS point for Milliken (feature 180708)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4750",
+      "4752",
+      "4751.5882675921575"
+    ],
+    "notes": "Point from the USGS GNIS Domestic Names file for Colorado (DomesticNames_CO_Text.zip, feature_id 180708, prim_lat_dec 40.3294268, prim_long_dec -104.85525), the town's historic center. One point per town: neighborhoods sit higher or lower. Queried 2026-09-25."
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.usgs-elevation-windsor",
+    "layer": "place",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "The USGS elevation service puts Windsor, at its USGS place-name point, at about 4,800 feet (4,796 feet).",
+    "quote": "\"value\":4796.176373028165",
+    "source_url": "https://epqs.nationalmap.gov/v1/json?x=-104.9013617&y=40.4774818&units=Feet&wkid=4326",
+    "source_label": "USGS Elevation Point Query Service (3DEP), feet, at the USGS GNIS point for Windsor (feature 204693)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4800",
+      "4796",
+      "4796.176373028165"
+    ],
+    "notes": "Point from the USGS GNIS Domestic Names file for Colorado (DomesticNames_CO_Text.zip, feature_id 204693, prim_lat_dec 40.4774818, prim_long_dec -104.9013617), the town's historic center. One point per town: neighborhoods sit higher or lower. Queried 2026-09-25."
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.usgs-elevation-eaton",
+    "layer": "place",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "The USGS elevation service puts Eaton, at its USGS place-name point, at about 4,840 feet (4,837 feet).",
+    "quote": "\"value\":4837.128801517119",
+    "source_url": "https://epqs.nationalmap.gov/v1/json?x=-104.7113542&y=40.5302582&units=Feet&wkid=4326",
+    "source_label": "USGS Elevation Point Query Service (3DEP), feet, at the USGS GNIS point for Eaton (feature 204691)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4840",
+      "4837",
+      "4837.128801517119"
+    ],
+    "notes": "Point from the USGS GNIS Domestic Names file for Colorado (DomesticNames_CO_Text.zip, feature_id 204691, prim_lat_dec 40.5302582, prim_long_dec -104.7113542), the town's historic center. One point per town: neighborhoods sit higher or lower. Queried 2026-09-25."
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.usgs-elevation-johnstown",
+    "layer": "place",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "The USGS elevation service puts Johnstown, at its USGS place-name point, at about 4,850 feet (4,853 feet).",
+    "quote": "\"value\":4853.446494995323",
+    "source_url": "https://epqs.nationalmap.gov/v1/json?x=-104.9121967&y=40.3369272&units=Feet&wkid=4326",
+    "source_label": "USGS Elevation Point Query Service (3DEP), feet, at the USGS GNIS point for Johnstown (feature 180701)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4850",
+      "4853",
+      "4853.446494995323"
+    ],
+    "notes": "Point from the USGS GNIS Domestic Names file for Colorado (DomesticNames_CO_Text.zip, feature_id 180701, prim_lat_dec 40.3369272, prim_long_dec -104.9121967), the town's historic center. One point per town: neighborhoods sit higher or lower. Queried 2026-09-25."
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.usgs-elevation-timnath",
+    "layer": "place",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "The USGS elevation service puts Timnath, at its USGS place-name point, at about 4,870 feet (4,866 feet).",
+    "quote": "\"value\":4866.18658303752",
+    "source_url": "https://epqs.nationalmap.gov/v1/json?x=-104.9852533&y=40.5291491&units=Feet&wkid=4326",
+    "source_label": "USGS Elevation Point Query Service (3DEP), feet, at the USGS GNIS point for Timnath (feature 180510)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4870",
+      "4866",
+      "4866.18658303752"
+    ],
+    "notes": "Point from the USGS GNIS Domestic Names file for Colorado (DomesticNames_CO_Text.zip, feature_id 180510, prim_lat_dec 40.5291491, prim_long_dec -104.9852533), the town's historic center. One point per town: neighborhoods sit higher or lower. Queried 2026-09-25."
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.usgs-elevation-severance",
+    "layer": "place",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "The USGS elevation service puts Severance, at its USGS place-name point, at about 4,890 feet (4,891 feet).",
+    "quote": "\"value\":4890.770855914111",
+    "source_url": "https://epqs.nationalmap.gov/v1/json?x=-104.8510819&y=40.5241479&units=Feet&wkid=4326",
+    "source_label": "USGS Elevation Point Query Service (3DEP), feet, at the USGS GNIS point for Severance (feature 180531)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4890",
+      "4891",
+      "4890.770855914111"
+    ],
+    "notes": "Point from the USGS GNIS Domestic Names file for Colorado (DomesticNames_CO_Text.zip, feature_id 180531, prim_lat_dec 40.5241479, prim_long_dec -104.8510819), the town's historic center. One point per town: neighborhoods sit higher or lower. Queried 2026-09-25."
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.usgs-elevation-firestone",
+    "layer": "place",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "The USGS elevation service puts Firestone, at its USGS place-name point, at about 4,970 feet (4,970 feet).",
+    "quote": "\"value\":4970.063696479698",
+    "source_url": "https://epqs.nationalmap.gov/v1/json?x=-104.9366436&y=40.1124839&units=Feet&wkid=4326",
+    "source_label": "USGS Elevation Point Query Service (3DEP), feet, at the USGS GNIS point for Firestone (feature 180841)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4970",
+      "4970.063696479698"
+    ],
+    "notes": "Point from the USGS GNIS Domestic Names file for Colorado (DomesticNames_CO_Text.zip, feature_id 180841, prim_lat_dec 40.1124839, prim_long_dec -104.9366436), the town's historic center. One point per town: neighborhoods sit higher or lower. Queried 2026-09-25."
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.usgs-elevation-longmont",
+    "layer": "place",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "The USGS elevation service puts Longmont, at its USGS place-name point, at about 4,980 feet (4,980 feet).",
+    "quote": "\"value\":4979.779660639033",
+    "source_url": "https://epqs.nationalmap.gov/v1/json?x=-105.1019275&y=40.1672069&units=Feet&wkid=4326",
+    "source_label": "USGS Elevation Point Query Service (3DEP), feet, at the USGS GNIS point for Longmont (feature 202560)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4980",
+      "4979.779660639033"
+    ],
+    "notes": "Point from the USGS GNIS Domestic Names file for Colorado (DomesticNames_CO_Text.zip, feature_id 202560, prim_lat_dec 40.1672069, prim_long_dec -105.1019275), the town's historic center. One point per town: neighborhoods sit higher or lower. Queried 2026-09-25."
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.usgs-elevation-frederick",
+    "layer": "place",
+    "applies_to": [
+      "frederick-co"
+    ],
+    "fact": "The USGS elevation service puts Frederick, at its USGS place-name point, at about 4,980 feet (4,980 feet).",
+    "quote": "\"value\":4980.124084760947",
+    "source_url": "https://epqs.nationalmap.gov/v1/json?x=-104.9371993&y=40.0991506&units=Feet&wkid=4326",
+    "source_label": "USGS Elevation Point Query Service (3DEP), feet, at the USGS GNIS point for Frederick (feature 180839)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4980",
+      "4980.124084760947"
+    ],
+    "notes": "Point from the USGS GNIS Domestic Names file for Colorado (DomesticNames_CO_Text.zip, feature_id 180839, prim_lat_dec 40.0991506, prim_long_dec -104.9371993), the town's historic center. One point per town: neighborhoods sit higher or lower. Queried 2026-09-25."
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.usgs-elevation-loveland",
+    "layer": "place",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "The USGS elevation service puts Loveland, at its USGS place-name point, at about 4,990 feet (4,986 feet).",
+    "quote": "\"value\":4985.934039090566",
+    "source_url": "https://epqs.nationalmap.gov/v1/json?x=-105.0749801&y=40.3977612&units=Feet&wkid=4326",
+    "source_label": "USGS Elevation Point Query Service (3DEP), feet, at the USGS GNIS point for Loveland (feature 177720)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4990",
+      "4986",
+      "4985.934039090566"
+    ],
+    "notes": "Point from the USGS GNIS Domestic Names file for Colorado (DomesticNames_CO_Text.zip, feature_id 177720, prim_lat_dec 40.3977612, prim_long_dec -105.0749801), the town's historic center. One point per town: neighborhoods sit higher or lower. Queried 2026-09-25."
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.usgs-elevation-mead",
+    "layer": "place",
+    "applies_to": [
+      "mead-co"
+    ],
+    "fact": "The USGS elevation service puts Mead, at its USGS place-name point, at about 5,000 feet (5,003 feet).",
+    "quote": "\"value\":5003.28941035788",
+    "source_url": "https://epqs.nationalmap.gov/v1/json?x=-104.99859&y=40.2333174&units=Feet&wkid=4326",
+    "source_label": "USGS Elevation Point Query Service (3DEP), feet, at the USGS GNIS point for Mead (feature 202568)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5000",
+      "5003",
+      "5003.28941035788"
+    ],
+    "notes": "Point from the USGS GNIS Domestic Names file for Colorado (DomesticNames_CO_Text.zip, feature_id 202568, prim_lat_dec 40.2333174, prim_long_dec -104.99859), the town's historic center. One point per town: neighborhoods sit higher or lower. Queried 2026-09-25."
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.usgs-elevation-fort-collins",
+    "layer": "place",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "The USGS elevation service puts Fort Collins, at its USGS place-name point, at about 5,000 feet (5,004 feet).",
+    "quote": "\"value\":5003.63503595621",
+    "source_url": "https://epqs.nationalmap.gov/v1/json?x=-105.084423&y=40.5852602&units=Feet&wkid=4326",
+    "source_label": "USGS Elevation Point Query Service (3DEP), feet, at the USGS GNIS point for Fort Collins (feature 204673)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5000",
+      "5004",
+      "5003.63503595621"
+    ],
+    "notes": "Point from the USGS GNIS Domestic Names file for Colorado (DomesticNames_CO_Text.zip, feature_id 204673, prim_lat_dec 40.5852602, prim_long_dec -105.084423), the town's historic center. One point per town: neighborhoods sit higher or lower. Queried 2026-09-25."
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.usgs-elevation-dacono",
+    "layer": "place",
+    "applies_to": [
+      "dacono-co"
+    ],
+    "fact": "The USGS elevation service puts Dacono, at its USGS place-name point, at about 5,020 feet (5,023 feet).",
+    "quote": "\"value\":5023.391764232783",
+    "source_url": "https://epqs.nationalmap.gov/v1/json?x=-104.9394216&y=40.0847062&units=Feet&wkid=4326",
+    "source_label": "USGS Elevation Point Query Service (3DEP), feet, at the USGS GNIS point for Dacono (feature 180837)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5020",
+      "5023",
+      "5023.391764232783"
+    ],
+    "notes": "Point from the USGS GNIS Domestic Names file for Colorado (DomesticNames_CO_Text.zip, feature_id 180837, prim_lat_dec 40.0847062, prim_long_dec -104.9394216), the town's historic center. One point per town: neighborhoods sit higher or lower. Queried 2026-09-25."
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.usgs-elevation-berthoud",
+    "layer": "place",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "The USGS elevation service puts Berthoud, at its USGS place-name point, at about 5,030 feet (5,034 feet).",
+    "quote": "\"value\":5033.995621737461",
+    "source_url": "https://epqs.nationalmap.gov/v1/json?x=-105.0810924&y=40.3083174&units=Feet&wkid=4326",
+    "source_label": "USGS Elevation Point Query Service (3DEP), feet, at the USGS GNIS point for Berthoud (feature 178065)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5030",
+      "5034",
+      "5033.995621737461"
+    ],
+    "notes": "Point from the USGS GNIS Domestic Names file for Colorado (DomesticNames_CO_Text.zip, feature_id 178065, prim_lat_dec 40.3083174, prim_long_dec -105.0810924), the town's historic center. One point per town: neighborhoods sit higher or lower. Queried 2026-09-25."
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.usgs-elevation-wellington",
+    "layer": "place",
+    "applies_to": [
+      "wellington-co"
+    ],
+    "fact": "The USGS elevation service puts Wellington, at its USGS place-name point, at about 5,210 feet (5,207 feet).",
+    "quote": "\"value\":5206.774380110869",
+    "source_url": "https://epqs.nationalmap.gov/v1/json?x=-105.0085856&y=40.7038712&units=Feet&wkid=4326",
+    "source_label": "USGS Elevation Point Query Service (3DEP), feet, at the USGS GNIS point for Wellington (feature 202441)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5210",
+      "5207",
+      "5206.774380110869"
+    ],
+    "notes": "Point from the USGS GNIS Domestic Names file for Colorado (DomesticNames_CO_Text.zip, feature_id 202441, prim_lat_dec 40.7038712, prim_long_dec -105.0085856), the town's historic center. One point per town: neighborhoods sit higher or lower. Queried 2026-09-25."
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.acs-built-2010-timnath",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "In the Census Bureau's 2020-2024 American Community Survey, 85.1% of Timnath's 3,308 housing units were built in 2010 or later (2,816 units).",
+    "quote": "\"B25034001\":3308.0,\"B25034002\":760.0,\"B25034003\":2056.0",
+    "source_url": "https://api.censusreporter.org/1.0/data/show/latest?table_ids=B25034&geo_ids=16000US0877510",
+    "source_label": "U.S. Census Bureau, ACS 2020-2024 5-year, table B25034 (Year Structure Built), Timnath town, via the Census Reporter API",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [
+      "85.1",
+      "3308",
+      "2010",
+      "2816",
+      "3308.0",
+      "760.0",
+      "2056.0"
+    ],
+    "notes": "B25034001 = total housing units; B25034002 = built 2020 or later; B25034003 = built 2010 to 2019. Share is our arithmetic: (760 + 2056) / 3308 = 85.1%. Census Reporter mirrors the Census Bureau's release (acs2024_5yr); api.census.gov now requires a key, so this is a secondary copy of the Bureau's figures. Estimates carry margins of error."
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.acs-built-2010-severance",
+    "layer": "housing",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "In the Census Bureau's 2020-2024 American Community Survey, 69.2% of Severance's 3,426 housing units were built in 2010 or later (2,371 units).",
+    "quote": "\"B25034001\":3426.0,\"B25034002\":843.0,\"B25034003\":1528.0",
+    "source_url": "https://api.censusreporter.org/1.0/data/show/latest?table_ids=B25034&geo_ids=16000US0869150",
+    "source_label": "U.S. Census Bureau, ACS 2020-2024 5-year, table B25034 (Year Structure Built), Severance town, via the Census Reporter API",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [
+      "69.2",
+      "3426",
+      "2010",
+      "2371",
+      "3426.0",
+      "843.0",
+      "1528.0"
+    ],
+    "notes": "B25034001 = total housing units; B25034002 = built 2020 or later; B25034003 = built 2010 to 2019. Share is our arithmetic: (843 + 1528) / 3426 = 69.2%. Census Reporter mirrors the Census Bureau's release (acs2024_5yr); api.census.gov now requires a key, so this is a secondary copy of the Bureau's figures. Estimates carry margins of error."
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.acs-built-2010-windsor",
+    "layer": "housing",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "In the Census Bureau's 2020-2024 American Community Survey, 46.6% of Windsor's 15,463 housing units were built in 2010 or later (7,201 units).",
+    "quote": "\"B25034001\":15463.0,\"B25034002\":1642.0,\"B25034003\":5559.0",
+    "source_url": "https://api.censusreporter.org/1.0/data/show/latest?table_ids=B25034&geo_ids=16000US0885485",
+    "source_label": "U.S. Census Bureau, ACS 2020-2024 5-year, table B25034 (Year Structure Built), Windsor town, via the Census Reporter API",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [
+      "46.6",
+      "15463",
+      "2010",
+      "7201",
+      "15463.0",
+      "1642.0",
+      "5559.0"
+    ],
+    "notes": "B25034001 = total housing units; B25034002 = built 2020 or later; B25034003 = built 2010 to 2019. Share is our arithmetic: (1642 + 5559) / 15463 = 46.6%. Census Reporter mirrors the Census Bureau's release (acs2024_5yr); api.census.gov now requires a key, so this is a secondary copy of the Bureau's figures. Estimates carry margins of error."
+  },
+  {
+    "id": "artificial-turf-melting-from-windows.acs-built-2010-johnstown",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "In the Census Bureau's 2020-2024 American Community Survey, 41.4% of Johnstown's 7,124 housing units were built in 2010 or later (2,951 units).",
+    "quote": "\"B25034001\":7124.0,\"B25034002\":447.0,\"B25034003\":2504.0",
+    "source_url": "https://api.censusreporter.org/1.0/data/show/latest?table_ids=B25034&geo_ids=16000US0839855",
+    "source_label": "U.S. Census Bureau, ACS 2020-2024 5-year, table B25034 (Year Structure Built), Johnstown town, via the Census Reporter API",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [
+      "41.4",
+      "7124",
+      "2010",
+      "2951",
+      "7124.0",
+      "447.0",
+      "2504.0"
+    ],
+    "notes": "B25034001 = total housing units; B25034002 = built 2020 or later; B25034003 = built 2010 to 2019. Share is our arithmetic: (447 + 2504) / 7124 = 41.4%. Census Reporter mirrors the Census Bureau's release (acs2024_5yr); api.census.gov now requires a key, so this is a secondary copy of the Bureau's figures. Estimates carry margins of error."
+  }
+]

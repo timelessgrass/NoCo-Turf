@@ -1,0 +1,331 @@
+[
+  {
+    "id": "artificial-turf-pile-height.stc-typical-lawn-pile",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council's 2013 landscape buying guidelines, written for lawn applications and not necessarily for putting greens, dog runs or playgrounds, say most synthetic grass has a pile height of 1.5 to 2 inches, that pile height is the length of the yarn above the backing, and that longer, denser synthetic grass generally looks more natural.",
+    "quote": "Note: These guidelines apply to synthetic grass for residential, commercial, or municipal landscape lawn applications. For specialized synthetic grass landscape applications, such as putting greens, pet applications including dog parks and dog runs, playgrounds, rooftops, etc., these guidelines may not apply. … Total weight of the yarn above the backing. This will depend on several factors, including the length of the yarn above the backing (pile height) and the distance between the individual fiber tufts (density or tufting gauge). Generally, longer pile and denser synthetic grass will look more natural. Most synthetic grass has a pile height of between 1½” and 2”, and a density of between ¼” and ½” for a total yarn weight of between 40 oz. and 100 oz. per square yard.",
+    "source_url": "https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf",
+    "source_label": "Synthetic Turf Council, Considerations When Buying Synthetic Grass for Landscape Use (September 2013), pp. 1–2",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2013",
+      "1.5",
+      "2",
+      "1",
+      "40",
+      "100"
+    ],
+    "notes": "PDF read 2026-09-25 (pdftotext). The source hyphenates \"these\" across a line break (\"the-se\"); joined here. The fractions ½ and ¼ in the quote are 1.5 inches and a quarter to half an inch of tuft spacing."
+  },
+  {
+    "id": "artificial-turf-pile-height.stc-replicate-local-grass",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council advises choosing landscape synthetic grass that replicates the grass varieties most common where you live.",
+    "quote": "Guidelines to Assure a Natural Appearance Select landscape synthetic grass that replicates the grass varieties that are most prevalent in your locality.",
+    "source_url": "https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf",
+    "source_label": "Synthetic Turf Council, Considerations When Buying Synthetic Grass for Landscape Use (September 2013), p. 4",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-pile-height.stc-sample-is-delivered",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council tells buyers to keep the turf sample they choose, compare it with the product delivered before installation, and get a written commitment that the sample is the product that will be installed.",
+    "quote": "Keep the synthetic grass sample you select, and compare it before installation to the product that is delivered. … A written commitment that the sample you select when you sign the contract will be the product that is delivered for installation.",
+    "source_url": "https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf",
+    "source_label": "Synthetic Turf Council, Considerations When Buying Synthetic Grass for Landscape Use (September 2013), Summary of Critical Guidelines and contract checklist",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The contract-checklist sentence is hyphenated across a line in the PDF (\"prod-uct\"); joined here."
+  },
+  {
+    "id": "artificial-turf-pile-height.astm-d5823-tuft-height",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "ASTM D5823 is the standard test method for the tuft height of pile floor coverings, measured with a grooved specimen holder once the backing adhesive is on, and ASTM notes that changes in tuft height can affect both appearance and performance.",
+    "quote": "This test method covers the determination of tuft height using a grooved specimen holder. It applies to cut-pile and loop-pile floor covering after adhesive backing has been applied to bond the pile yarn to the backing fabric. … This test method is useful in quality and cost control during the manufacture of pile yarn floor covering. Both appearance and performance can be affected by changes in the tuft height.",
+    "source_url": "https://store.astm.org/d5823-19.html",
+    "source_label": "ASTM D5823-19, Standard Test Method for Tuft Height of Pile Floor Coverings (scope 1.1 and significance 5.1)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5823"
+    ],
+    "notes": "Read the scope and significance sections on ASTM's store page; the full method is behind a paywall. Turf spec sheets cite this method for pile height (see the SYNLawn record)."
+  },
+  {
+    "id": "artificial-turf-pile-height.sgw-pile-definition-range",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Synthetic Grass Warehouse, a national turf distributor, defines pile height as blade length measured from where the tufts bind to the backing to the blade tips, and says artificial turf pile heights generally run from 0.4 to 3 inches.",
+    "quote": "Pile height is a term used to describe the length of artificial turf blades. Pile height is measured from where the tufts bind to the backing to the tips of the blades, typically in inches. Generally, artificial turf pile heights will range from 0.4 to three inches long. The length of your turf’s blades plays a vital role in how your installation will hold up to foot traffic, which is why choosing the right one for your application is essential.",
+    "source_url": "https://syntheticgrasswarehouse.com/resources/terminology/pile-height-face-weight/",
+    "source_label": "Synthetic Grass Warehouse, What Are Pile Height and Face Weight?",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "0.4",
+      "3"
+    ]
+  },
+  {
+    "id": "artificial-turf-pile-height.sgw-resilience-vs-look",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same distributor says shorter piles resist matting better and suit high-traffic areas, while longer piles feel softer, look more realistic and suit areas with lighter foot traffic.",
+    "quote": "Resilience refers to a material’s ability to resist matting. Generally, shorter pile heights are much more resilient. This makes them much more suitable for sports fields, gyms and other high-traffic areas. On the other hand, longer pile heights work well for residential or commercial areas with lighter foot traffic. Longer pile heights also tend to have a more natural, soft texture. … Similarly, longer pile heights also tend to look more realistic. If your artificial turf installation project won’t ensure heavy foot traffic, a longer pile height is better suited to a natural-looking landscape.",
+    "source_url": "https://syntheticgrasswarehouse.com/resources/terminology/pile-height-face-weight/",
+    "source_label": "Synthetic Grass Warehouse, What Are Pile Height and Face Weight?",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "\"won't ensure\" is the source's wording (it means \"won't endure\")."
+  },
+  {
+    "id": "artificial-turf-pile-height.synlawn-847-sheet-pile",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's spec sheet for SYNAugustine 847, listed for landscape, pets, play and golf, gives a finished and a nominal pile height of 1 1/4 inches (1.25 inches), the nominal figure by test method ASTM D-5823.",
+    "quote": "Finished Pile Height 1 1/4” … LANDSCAPE PETS PLAY GOLF MULTI-USE … Pile Height (Nominal) 1 1/4” inches D-5823",
+    "source_url": "https://www.synlawn.com/wp-content/uploads/2025/02/SYNLawn-SYNAugustine-847-S847B-USA.pdf",
+    "source_label": "SYNLawn, SYNAugustine 847 product specifications (SKU S847B, sheet dated 12.10.2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "847",
+      "1",
+      "1/4",
+      "1.25",
+      "5823"
+    ],
+    "notes": "PDF read 2026-09-25 (pdftotext). Named as a published example of a spec sheet line, not a recommendation."
+  },
+  {
+    "id": "artificial-turf-pile-height.synlawn-847-golf-fringe",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn describes SYNAugustine 847 as a low-pile turf for pet areas, commercial spaces and golf fringe, and says its low pile height complements putting greens for chipping, approach shots and rough simulation.",
+    "quote": "A low-pile artificial turf engineered for high-traffic performance across pet areas, commercial spaces, and golf fringe applications. … Golf Fringe and Collar Performance — Low pile height and consistent texture make it an ideal complement to putting greens for chipping, approach shots, and rough simulation.",
+    "source_url": "https://www.synlawn.com/product/synaugustine-847/",
+    "source_label": "SYNLawn, SYNAugustine 847 product page",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "847"
+    ]
+  },
+  {
+    "id": "artificial-turf-pile-height.synlawn-golf-fringe-higher",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn Golf says its fringe and collar turf sits slightly higher than the putting green, for a transition from the rough to the green.",
+    "quote": "SYNLawn Golf’s Fringe & Collar turf offers the perfect finishing touch for your putting greens, replicating the look and feel of natural fringe and collar grass. This turf is slightly higher than the putting green, providing a seamless transition from the rough to the green and a realistic play experience.",
+    "source_url": "https://www.synlawngolf.com/golf-turf/fringe/",
+    "source_label": "SYNLawn Golf, Fringe & Collar Turf Solutions",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-pile-height.motz-putting-pile",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Motz, an infill maker, says a texturized putting green is made with a pile of about half an inch, while a sand-filled putting green has a taller 1 to 1.25 inch pile and needs more infill.",
+    "quote": "A texturized putting green is manufactured with a short pile height of about half an inch … A sand-filled putting green is manufactured with a taller 1”- 1 1/4” pile height and demands more infill",
+    "source_url": "https://themotzgroup.com/infill_blog/how-many-pounds-of-infill-do-you-need-per-square-foot-of-turf/",
+    "source_label": "Motz, How Many Pounds of Infill Do You Need per Square Foot of Turf?",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "1.25",
+      "1/4"
+    ]
+  },
+  {
+    "id": "artificial-turf-pile-height.motz-infill-depth-by-pile",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Motz measures pile height from the backing to the blade tips and infill depth from the base of the turf to the top of the infill, and its Envirofill table pairs a 1 to 1.25 inch pet or playground pile with 3/8 to 1/2 inch of infill, a 1.5 to 1.75 inch landscape pile with 1/2 to 3/4 inch, and a 1.875 to 2.25 inch landscape pile with 3/4 to 1 inch.",
+    "quote": "What is your pile height (or, the length of your artificial turf blades, measured from where the tufts bind to the backing to the tips of the blades, typically in inches)? What is your needed infill depth (measured from the base of the turf system to the top of the infill layer)? … Turf Pile Height … Turf Spec … Depth … 1-1¼” Pet/Playground ⅜” – ½” … 1½ – 1 ¾ Landscape ½” – ¾” … 1⅞” – 2 ¼” Landscape ¾” – 1”",
+    "source_url": "https://themotzgroup.com/infill_blog/how-many-pounds-of-infill-do-you-need-per-square-foot-of-turf/",
+    "source_label": "Motz, How Many Pounds of Infill Do You Need per Square Foot of Turf? (Envirofill table)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "1.25",
+      "3/8",
+      "1/2",
+      "1.5",
+      "1.75",
+      "3/4",
+      "1.875",
+      "2.25",
+      "2"
+    ],
+    "notes": "The table's pounds-per-square-foot column is left out here; the dog-turf-infill guide covers amounts. The Safeshell table on the same page repeats the same pile-to-depth pairs."
+  },
+  {
+    "id": "artificial-turf-pile-height.motz-half-pile-and-matting",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Motz's rule of thumb for infill volume starts by dividing the turf's pile height by two, and it warns that both too little and too much infill can lead to matting.",
+    "quote": "The best rule-of-thumb formula is typically to divide the pile height of the turf by two, multiply it by the square footage of the area, and then multiply by 0.0833333 to get the number of required cubic feet. … Apply a thin layer at a time to avoid overfilling, as both too little and too much infill can lead to matting and cosmetic issues, not to mention a loss of turf’s cushioning and drainage.",
+    "source_url": "https://themotzgroup.com/infill_blog/how-many-pounds-of-infill-do-you-need-per-square-foot-of-turf/",
+    "source_label": "Motz, How Many Pounds of Infill Do You Need per Square Foot of Turf?",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "0.0833333"
+    ]
+  },
+  {
+    "id": "artificial-turf-pile-height.motz-snow-flattens",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Motz says the weight of snow can flatten artificial turf blades and sometimes mat them, and advises brushing gently in different directions so the fibers lift evenly.",
+    "quote": "Brush turf fibers regularly: Snow can lay heavily on artificial turf fibers, flattening the blades and in some cases, matting them. Use a soft-bristled brush or broom and gently brush the turf in different directions to ensure the fibers are lifted evenly. Use light pressure to prevent damage in case the blades are stiff.",
+    "source_url": "https://themotzgroup.com/infill_blog/our-guide-to-protecting-your-artificial-turf-in-the-winter-motz/",
+    "source_label": "Motz, The Ultimate Guide to Protecting Your Home's Artificial Turf in the Winter",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-pile-height.sgw-snow-matted-recovers",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Synthetic Grass Warehouse says turf may be slightly matted by the weight of snow after it melts, should bounce back on its own over time, and recovers faster with cross-brushing.",
+    "quote": "After the snow has fallen and melted, your grass may be slightly matted from the weight of the snow. However, it should bounce back naturally over time. Help lift the pile by cross-brushing it as you would during any other time of year. This extra push will help return the appearance of your turf to normal more quickly.",
+    "source_url": "https://syntheticgrasswarehouse.com/blog/how-to-care-for-artificial-grass-in-snowy-weather/",
+    "source_label": "Synthetic Grass Warehouse, How to Care for Artificial Grass in Snowy Weather",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-pile-height.k9grass-shorter-pile",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "ForeverLawn's K9Grass lists a shorter pile height, to make solid waste easier to remove, among the features it says turf for dogs should have.",
+    "quote": "The best fake grass for dogs should also provide: Antimicrobial protection for a cleaner, better smelling environment. A shorter pile height to make solid waste removal easier.",
+    "source_url": "https://k9grass.com/faq/",
+    "source_label": "K9Grass by ForeverLawn, Frequently Asked Questions",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The K9Grass home page says the same in its feature list: \"Short, Dense, Durable Blade Construction to make it easy to locate and remove solid waste.\" A maker's claim about its own category of product."
+  },
+  {
+    "id": "artificial-turf-pile-height.k9grass-classic-plus-tolerance",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The K9Grass Classic+ specification lists a knitted pile height of 7/8 inch, plus or minus 1/8 inch, and requires the rolls to be installed with the pile leaning the same direction.",
+    "quote": "Pile Height (knitted): 7/8” (+/– 1/8). … Grass rolls must be installed with pile leaning the same direction.",
+    "source_url": "https://k9grass.com/wp-content/uploads/2022/06/K9Grass-Classic-Plus-Outdoor-CSI-M1266-0322.pdf",
+    "source_label": "ForeverLawn, K9Grass Classic+ dog-specific outdoor surface specifications (M1266 Rev. 03/22)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "7/8",
+      "1/8"
+    ],
+    "notes": "PDF read 2026-09-25 (pdftotext)."
+  },
+  {
+    "id": "artificial-turf-pile-height.fusionturf-dog-pile",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "FusionTurf, a turf supplier, recommends a 1.0 to 1.25 inch pile for most dogs and 0.875 to 1.0 inch for several dogs or heavy daily use, allows a groomed 1.25 to 1.5 inch pile for a single dog on a light-use lawn, and says longer blades can fold over under paw traffic and infill weight.",
+    "quote": "Choose a 1.0 to 1.25 inch pile for most dogs. It stays upright, cleans and drains quickly, and still feels comfortable. Go a touch shorter for heavy traffic or frequent messes. … Longer blades can fold over under paw traffic and infill weight, which slows drying and traps debris. … Multiple dogs or heavy daily use: 0.875 to 1.0 inch to resist matting and speed cleaning. … If you prefer a plusher look for a single dog on a light use lawn, a carefully groomed 1.25 to 1.5 inch pile can work.",
+    "source_url": "https://find.fusionturf.com/answers/shorter-or-longer-pile-better-for-dogs-on-artificial-turf/",
+    "source_label": "FusionTurf, Is shorter or longer pile better for dogs on artificial turf?",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1.0",
+      "1.25",
+      "0.875",
+      "1.5"
+    ],
+    "notes": "A supplier's answer page, not a standard."
+  },
+  {
+    "id": "artificial-turf-pile-height.csu-mowing-height",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says the preferred mowing height for all Colorado lawn species is 2.5 to 3 inches, with 2 inches the minimum for any lawn.",
+    "quote": "The two most important facets of mowing are: height and frequency. The minimum height for any lawn is 2 inches. The preferred mowing height for all Colorado species is 2.5 to 3 inches.",
+    "source_url": "https://extension.colostate.edu/resource/lawn-care-basics/",
+    "source_label": "CSU Extension, Lawn Care Basics (reviewed August 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2.5",
+      "3",
+      "2"
+    ],
+    "notes": "The same page's summary says to mow bluegrass, ryegrass, fescue and wheatgrass to 2 to 3 inches; CSU's Basic Turf Management page (reviewed June 2025) gives 2.5 to 3 inches for all lawn species."
+  }
+]

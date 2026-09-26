@@ -1,0 +1,638 @@
+[
+  {
+    "id": "artificial-turf-over-septic-field.reg43-final-cover",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado's Regulation 43 requires a final cover of soil suitable for vegetation at least 10 inches deep over a septic soil treatment area, free of cobbles, boulders, building debris or other non-permeable material, and prefers sandy loam topped with 2 to 3 inches of topsoil.",
+    "quote": "A final cover of soil suitable for vegetation at least ten inches deep must be placed from the top of the geotextile or similar pervious material in a rock and pipe system, chamber, or manufactured media, up to the final surface grade of the soil treatment area. The backfill material must be void of cobbles, boulders, building debris, or other non-permeable material. The preferred soil cover is a sandy loam textured material, topped with two - three inches of topsoil.",
+    "source_url": "https://www.law.cornell.edu/regulations/colorado/5-CCR-1002-43.10",
+    "source_label": "5 CCR 1002-43.10.E.1.f, Colorado Regulation No. 43 (as amended, 48 CR 07, effective April 30, 2025), Cornell LII",
+    "effective": "2025-04-30",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "43",
+      "10",
+      "2",
+      "3",
+      "2025"
+    ],
+    "notes": "Read on LII 2026-09-25; LII shows two versions and this is the current one (notes: 48 CR 07, April 10, 2025, effective 4/30/2025). The Colorado Secretary of State rule page returned 'Service Unavailable' the same day. The older text (effective 2018) had the same ten-inch sentence as 43.10.E.1.e, which is the version Larimer's 2024 regulations and Weld's code copy."
+  },
+  {
+    "id": "artificial-turf-over-septic-field.reg43-grading-backfill",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Regulation 43 requires the ground over a soil treatment area to be graded to shed stormwater and other outside water, protected against erosion, and backfilled in a way that allows vegetative cover, minimizes settlement and keeps drainage working.",
+    "quote": "Following construction, the ground surface must be graded to divert stormwater runoff or other outside water from the soil treatment area. The area must be protected against erosion. … Backfilling and compaction of soil treatment areas must be accomplished in a manner that does not impair the intended function and performance of the storage/distribution media and soil and distribution laterals, allows for the establishment of vegetative cover, minimizes settlement and maintains proper drainage.",
+    "source_url": "https://www.law.cornell.edu/regulations/colorado/5-CCR-1002-43.10",
+    "source_label": "5 CCR 1002-43.10.E.1.g–h, Colorado Regulation No. 43 (as amended, effective April 30, 2025), Cornell LII",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "43"
+    ],
+    "notes": "Same wording in Larimer OWTS Regulations 43.10.E.1.f–g and Weld County Code Sec. 30-10-40.A.6–7."
+  },
+  {
+    "id": "artificial-turf-over-septic-field.reg43-no-paving-traffic",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Where a conforming site is reasonably available, Regulation 43 keeps a soil treatment area out from under a paved surface or anywhere vehicles drive or are expected to.",
+    "quote": "Where a conforming soil treatment area is reasonably accessible, the soil treatment area must not be placed below a paved surface, or an area where vehicular traffic occurs or is expected.",
+    "source_url": "https://www.law.cornell.edu/regulations/colorado/5-CCR-1002-43.10",
+    "source_label": "5 CCR 1002-43.10.E.1.c, Colorado Regulation No. 43 (as amended, effective April 30, 2025), Cornell LII",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "43"
+    ],
+    "notes": "New in the 2025 amendment (absent from the 2018 text). It governs where a system is placed; the exception that follows lets a field go under paving only with TL2 or better treatment and a design for vehicle loads."
+  },
+  {
+    "id": "artificial-turf-over-septic-field.reg43-geotextile-not-surface",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The impervious covering Regulation 43 forbids is the layer laid directly on the gravel of a rock-and-pipe field, which must be a permeable nonwoven geotextile of no more than 2.0 ounces per square yard; that layer sits under the soil cover, not on the lawn surface.",
+    "quote": "The top of the placed gravel or such material used must be covered with nonwoven permeable geotextile meeting a maximum thickness rating of 2.0 ounces per square yard or equivalent pervious material. An impervious covering must not be used.",
+    "source_url": "https://www.law.cornell.edu/regulations/colorado/5-CCR-1002-43.10",
+    "source_label": "5 CCR 1002-43.10.G.1.c, Colorado Regulation No. 43 (as amended, effective April 30, 2025), Cornell LII",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "43",
+      "2.0"
+    ],
+    "notes": "The same line appears for tire-chip media (43.10.G.4). Neither 43.10 nor the Larimer regulations mention artificial or synthetic turf; this is the line people sometimes read as a turf ban."
+  },
+  {
+    "id": "artificial-turf-over-septic-field.reg43-inspection-ports",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Regulation 43 requires a 4-inch inspection port reachable from the ground surface at the end of each trench lateral and each corner of a bed, and lets a port top sit below grade only inside something like an irrigation valve box with a removable cover at the surface.",
+    "quote": "A 4-inch inspection port accessible from ground surface must be installed at the terminal end of each lateral in a trench system and at each corner of a bed system. … The top of inspection ports may be terminated below the final grade if each is housed in a component such as a valve box for a lawn irrigation system and has a removable cover at the ground surface.",
+    "source_url": "https://www.law.cornell.edu/regulations/colorado/5-CCR-1002-43.10",
+    "source_label": "5 CCR 1002-43.10.F.6.a and e, Colorado Regulation No. 43 (as amended, effective April 30, 2025), Cornell LII",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "43",
+      "4"
+    ],
+    "notes": "Same wording in Larimer OWTS Regulations 43.10.F.6 and Weld County Code Sec. 30-10-50.F."
+  },
+  {
+    "id": "artificial-turf-over-septic-field.larimer-owts-2024-jurisdiction",
+    "layer": "county",
+    "applies_to": [
+      "fort-collins-co",
+      "loveland-co",
+      "timnath-co",
+      "wellington-co",
+      "berthoud-co",
+      "windsor-co",
+      "johnstown-co"
+    ],
+    "fact": "Larimer County's septic (OWTS) regulations, amended December 21, 2023 and effective February 5, 2024, apply in unincorporated Larimer County and inside its towns, except a town that runs its own public health agency.",
+    "quote": "ADOPTED: April 10, 2014 EFFECTIVE: May 27, 2014 AMENDED: December 21, 2023 EFFECTIVE: February 05, 2024 … The jurisdiction of any local health agency extends over all unincorporated areas and over all municipal corporations within the territorial limits of the county or the counties comprising the district public health agency, but not over the territory of any municipal corporation that maintains its own public health agency.",
+    "source_url": "https://www.larimer.gov/sites/default/files/uploads/2024/2024_larimer_county_owts_0.pdf",
+    "source_label": "Larimer County Department of Health and Environment, On-Site Wastewater Treatment System Regulations (amended December 21, 2023, effective February 5, 2024), cover and 43.2.D.1",
+    "effective": "2024-02-05",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "10",
+      "2014",
+      "27",
+      "21",
+      "2023",
+      "05",
+      "5",
+      "2024"
+    ],
+    "notes": "larimer.gov answers curl with a Cloudflare challenge (403). Read 2026-09-25 from the Internet Archive capture of 2025-04-29 and confirmed byte-identical to the live file (SHA-256 6f5e633a…, 1,329,390 bytes, Last-Modified 2024-07-17) fetched in a browser session on larimer.gov. The county's septic page still links this as the current regulations; Larimer had to adopt the 2025 state amendments within a year, so re-check for a newer edition."
+  },
+  {
+    "id": "artificial-turf-over-septic-field.larimer-final-cover",
+    "layer": "county",
+    "applies_to": [
+      "fort-collins-co",
+      "loveland-co",
+      "timnath-co",
+      "wellington-co",
+      "berthoud-co",
+      "windsor-co",
+      "johnstown-co"
+    ],
+    "fact": "Larimer County's septic regulations require at least 10 inches of soil suitable for vegetation over the soil treatment area, and backfill and compaction that allow vegetative cover and keep drainage working.",
+    "quote": "A final cover of soil suitable for vegetation at least ten inches deep must be placed from the top of the geotextile or similar pervious material in a rock and pipe system, chamber, or manufactured media up to the final surface grade of the soil treatment area. … Backfilling and compaction of soil treatment areas must be accomplished in a manner that does not impair the intended function and performance of the storage/distribution media and soil and distribution laterals, allows for the establishment of vegetative cover, minimizes settlement and maintains proper drainage.",
+    "source_url": "https://www.larimer.gov/sites/default/files/uploads/2024/2024_larimer_county_owts_0.pdf",
+    "source_label": "Larimer County OWTS Regulations (effective February 5, 2024), 43.10.E.1.e and g",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "10"
+    ],
+    "notes": "Read from the file described in larimer-owts-2024-jurisdiction. A full-text search of the regulations finds no 'turf' or 'artificial'; 'synthetic' appears only for distribution media and liners."
+  },
+  {
+    "id": "artificial-turf-over-septic-field.larimer-owts-no-turf-provision",
+    "layer": "county",
+    "applies_to": [
+      "fort-collins-co",
+      "loveland-co",
+      "timnath-co",
+      "wellington-co",
+      "berthoud-co",
+      "windsor-co",
+      "johnstown-co"
+    ],
+    "fact": "Larimer County's septic regulations do not mention artificial turf (searched September 25, 2026).",
+    "quote": "Full-text search of the Larimer County On-Site Wastewater Treatment System Regulations (amended December 21, 2023, effective February 05, 2024): \"turf\" and \"artificial\" — no hits; \"synthetic\" appears only in \"synthetic media for distribution of effluent\" and \"impermeable synthetic or natural material\" (a liner).",
+    "source_url": "https://www.larimer.gov/sites/default/files/uploads/2024/2024_larimer_county_owts_0.pdf",
+    "source_label": "Larimer County OWTS Regulations (effective February 5, 2024), full-text search",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "25",
+      "2026",
+      "21",
+      "2023",
+      "05",
+      "2024"
+    ],
+    "notes": "Same file as larimer-owts-2024-jurisdiction. The state rule text on LII for 43.10 has no turf mention either. Weld's code: see the shared record weld-county-code-no-turf-provision."
+  },
+  {
+    "id": "artificial-turf-over-septic-field.larimer-surface-activity",
+    "layer": "county",
+    "applies_to": [
+      "fort-collins-co",
+      "loveland-co",
+      "timnath-co",
+      "wellington-co",
+      "berthoud-co",
+      "windsor-co",
+      "johnstown-co"
+    ],
+    "fact": "Larimer County's septic regulations restrict activity on the ground over any part of a septic system and bar damage or soil compaction of the soil treatment area from livestock, vehicles, recreation or other site development, keeping unneeded construction equipment off it.",
+    "quote": "Surface Activity: Activity or use on the surface of the ground over any part of the OWTS must be restricted. The soil treatment area must not be subject to damage or soil compaction from livestock, vehicular traffic, recreational use, or other site development activity. Construction equipment not necessary to install the OWTS must be kept off of the soil treatment area to prevent undesirable compaction of the soils. If compaction occurs, the disturbed or compacted soil must be re-evaluated and/or new soil evaluations performed. The system must be redesigned if the soil permeability has changed.",
+    "source_url": "https://www.larimer.gov/sites/default/files/uploads/2024/2024_larimer_county_owts_0.pdf",
+    "source_label": "Larimer County OWTS Regulations (effective February 5, 2024), 43.8.J Surface Activity",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [],
+    "notes": "The state rule (5 CCR 1002-43.8.J) carries the same paragraph."
+  },
+  {
+    "id": "artificial-turf-over-septic-field.larimer-risers-lids",
+    "layer": "county",
+    "applies_to": [
+      "fort-collins-co",
+      "loveland-co",
+      "timnath-co",
+      "wellington-co",
+      "berthoud-co",
+      "windsor-co",
+      "johnstown-co"
+    ],
+    "fact": "Larimer County requires watertight risers over each septic tank access manhole reaching to or above final grade, with each lid brought to or above the surface and secured by a lock, bolts or screws, or at least 59 pounds of weight.",
+    "quote": "Septic tanks must have watertight risers over each access manhole and all risers must extend to or above final grade. … Each riser lid must be watertight, brought to or above the surface, and must have a secure closing mechanism, such as a lock, bolts or screws, or sufficient weight (59 pounds or more) to prevent unauthorized access.",
+    "source_url": "https://www.larimer.gov/sites/default/files/uploads/2024/2024_larimer_county_owts_0.pdf",
+    "source_label": "Larimer County OWTS Regulations (effective February 5, 2024), 43.8.D.1 and D.4.a",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "59"
+    ],
+    "notes": "43.8.D.5 lists distribution boxes, drop boxes, cleanouts and effluent screens among components that need access at or above grade."
+  },
+  {
+    "id": "artificial-turf-over-septic-field.larimer-transfer-criteria",
+    "layer": "county",
+    "applies_to": [
+      "fort-collins-co",
+      "loveland-co",
+      "timnath-co",
+      "wellington-co",
+      "berthoud-co",
+      "windsor-co",
+      "johnstown-co"
+    ],
+    "fact": "Before a Larimer County property on septic is sold, the owner needs a county Acceptance Document based on an inspection, and the system passes only with a sound tank with safe and secure lids and a soil treatment area that is not failing.",
+    "quote": "Prior to the sale or transfer of title of the property, the owners of the property shall obtain an Acceptance Document from this Department, unless exempt or waived as noted in 43.4.P.4(a-g) below. … All systems must have a tank that is structurally sound, in good working order, and provided with safe and secure lids. … A soil treatment area, or other means of subsurface wastewater treatment, must not be in a state of failure;",
+    "source_url": "https://www.larimer.gov/sites/default/files/uploads/2024/2024_larimer_county_owts_0.pdf",
+    "source_label": "Larimer County OWTS Regulations (effective February 5, 2024), 43.4.P Transfer of Title",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [],
+    "notes": "Exemptions (43.4.P.4) include systems finally approved less than three years before closing and non-arm's-length transfers. The inspection report must include a record drawing of the system's layout (43.4.P.5(6))."
+  },
+  {
+    "id": "artificial-turf-over-septic-field.larimer-page-transfer",
+    "layer": "county",
+    "applies_to": [
+      "fort-collins-co",
+      "loveland-co",
+      "timnath-co",
+      "wellington-co",
+      "berthoud-co",
+      "windsor-co",
+      "johnstown-co"
+    ],
+    "fact": "Larimer County says a property with a septic system must be inspected by a third-party inspector, and the report must reach the county health department before the sale closes.",
+    "quote": "If a property has an on-site wastewater treatment system, it must be inspected by a certified third-party inspector. The inspection checks for any needed repairs and ensures the system is designed to match its current use. The inspector's report must be sent to the Larimer County Department of Health and Environment (LCDHE) before the real estate transaction is finalized.",
+    "source_url": "https://www.larimer.gov/health/environmental-health/septic-systems/septic-systems-owts/transfer-title",
+    "source_label": "Larimer County, Transfer of Title (septic systems)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [],
+    "notes": "Read in a browser session 2026-09-25 (larimer.gov challenges curl)."
+  },
+  {
+    "id": "artificial-turf-over-septic-field.larimer-page-records-and-size",
+    "layer": "county",
+    "applies_to": [
+      "fort-collins-co",
+      "loveland-co",
+      "timnath-co",
+      "wellington-co",
+      "berthoud-co",
+      "windsor-co",
+      "johnstown-co"
+    ],
+    "fact": "Larimer County requires a permit before a septic system is built or fixed, posts septic documents under a property's Building Info tab on its property records page, takes requests for septic permit records (homes built before 1973 often have none), requires access risers to ground level on tank lids and distribution boxes, and says a standard gravity system can be up to 12 feet wide and 100 feet long, with clay soils usually needing a larger field than sandy ones.",
+    "quote": "We have recently added the ability to locate and view septic documents on Larimer County's property records page. These documents can be viewed by searching for and selecting a property, and pulling up the 'Building Info' tab. If Larimer County has the septic documents on file, they will be linked there and can be viewed online. … Clay-like soils usually need a larger treatment area than sandy soils. … Access risers must be installed up to ground level on all tank lids, distribution boxes, and other parts that need to be inspected or maintained. … Standard gravity-style systems can be up to 12 feet wide and 100 feet long. … State and county laws require you to get a permit from the Department before building or fixing a septic system. … Use this form to request records for an On-Site Wastewater Treatment System (septic system) permit. … Homes built before 1973 often don’t have permit records unless the system was repaired or upgraded after 1973.",
+    "source_url": "https://www.larimer.gov/health/environmental-health/septic-systems/septic-systems-owts",
+    "source_label": "Larimer County, Septic Systems (OWTS)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "12",
+      "100",
+      "1973"
+    ],
+    "notes": "Read in a browser session 2026-09-25 (larimer.gov challenges curl); the Internet Archive capture of 2026-02-16 has the same text."
+  },
+  {
+    "id": "artificial-turf-over-septic-field.weld-final-cover",
+    "layer": "county",
+    "applies_to": [
+      "windsor-co",
+      "greeley-co",
+      "johnstown-co",
+      "berthoud-co",
+      "firestone-co",
+      "mead-co",
+      "frederick-co",
+      "longmont-co",
+      "severance-co",
+      "evans-co",
+      "eaton-co",
+      "milliken-co",
+      "dacono-co"
+    ],
+    "fact": "Weld County's septic code requires at least 10 inches of soil suitable for vegetation over the soil treatment area, grading that sheds stormwater, and backfill and compaction that allow vegetative cover.",
+    "quote": "ARTICLE X - Design Criteria - Soil Treatment Area … Amended by Ordinance No. 2026-07 … 5. A final cover of soil suitable for vegetation at least ten (10) inches deep must be placed from the top of the geotextile or similar pervious material in a rock and pipe system, chamber or manufactured media, up to the final surface grade of the soil treatment area. 6. Following construction, the ground surface must be graded to divert stormwater runoff or other outside water from the soil treatment area. … 7. Backfilling and compaction of soil treatment areas must be accomplished in a manner that does not impair the intended function and performance of the storage/distribution media and soil and distribution laterals, allows for the establishment of vegetative cover, minimizes settlement and maintains proper drainage.",
+    "source_url": "https://library.municode.com/co/weld_county/codes/charter_and_county_code?nodeId=CH30WECODEPUHEENTEWATRSYRE_ARTXDECROITRAR",
+    "source_label": "Weld County Code Sec. 30-10-40.A.5–7 (Chapter 30, Article X), Municode, read September 25, 2026",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "10",
+      "5",
+      "6",
+      "7",
+      "2026"
+    ],
+    "notes": "Municode flags Article X 'Amended by Ordinance No. 2026-07', which repealed and re-enacted Chapter 30 in 2026 to follow the 2025 state amendments; the posted text still cites Ordinance 2017-10, so re-read once 2026-07 is codified. Read in a browser session (Municode renders by script)."
+  },
+  {
+    "id": "artificial-turf-over-septic-field.weld-surface-activity",
+    "layer": "county",
+    "applies_to": [
+      "windsor-co",
+      "greeley-co",
+      "johnstown-co",
+      "berthoud-co",
+      "firestone-co",
+      "mead-co",
+      "frederick-co",
+      "longmont-co",
+      "severance-co",
+      "evans-co",
+      "eaton-co",
+      "milliken-co",
+      "dacono-co"
+    ],
+    "fact": "Weld County's septic code restricts activity on the ground over any part of a septic system and bars damage or soil compaction of the soil treatment area from livestock, vehicles, recreation or other site development.",
+    "quote": "Sec. 30-8-90. - Surface activity. Activity or use on the surface of the ground over any part of the OWTS must be restricted. The soil treatment area must not be subject to damage or soil compaction from livestock, vehicular traffic, recreational use, or other site development activity. Construction equipment not necessary to install the OWTS must be kept off of the soil treatment area to prevent undesirable compaction of the soils.",
+    "source_url": "https://library.municode.com/co/weld_county/codes/charter_and_county_code?nodeId=CH30WECODEPUHEENTEWATRSYRE_ARTVIIIDECREN",
+    "source_label": "Weld County Code Sec. 30-8-90 (Chapter 30, Article VIII), Municode, read September 25, 2026",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [],
+    "notes": "Article VIII is also flagged 'Amended by Ordinance No. 2026-07'; see weld-final-cover."
+  },
+  {
+    "id": "artificial-turf-over-septic-field.weld-risers-lids",
+    "layer": "county",
+    "applies_to": [
+      "windsor-co",
+      "greeley-co",
+      "johnstown-co",
+      "berthoud-co",
+      "firestone-co",
+      "mead-co",
+      "frederick-co",
+      "longmont-co",
+      "severance-co",
+      "evans-co",
+      "eaton-co",
+      "milliken-co",
+      "dacono-co"
+    ],
+    "fact": "Weld County requires watertight risers over each septic tank access manhole reaching to or above final grade, with each lid brought to or above the surface and secured by a lock, special-headed bolts or screws, or 59 pounds of weight.",
+    "quote": "A. Septic tanks must have watertight risers over each access manhole, and all risers must extend to or above final grade. … D. Riser lids. 1. Each riser lid must be watertight, brought to or above the surface, and must have a secure closing mechanism, such as a lock, special-headed bolts or screws, or sufficient weight (defined as 59 pounds) to prevent unauthorized access.",
+    "source_url": "https://library.municode.com/co/weld_county/codes/charter_and_county_code?nodeId=CH30WECODEPUHEENTEWATRSYRE_ARTVIIIDECREN",
+    "source_label": "Weld County Code Sec. 30-8-30 (Chapter 30, Article VIII), Municode, read September 25, 2026",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "1",
+      "59"
+    ],
+    "notes": "Sec. 30-8-30.F adds that easy physical access to treatment components by maintenance personnel and equipment must be provided. See weld-final-cover for the Ordinance 2026-07 caveat."
+  },
+  {
+    "id": "artificial-turf-over-septic-field.weld-jurisdiction",
+    "layer": "county",
+    "applies_to": [
+      "windsor-co",
+      "greeley-co",
+      "johnstown-co",
+      "berthoud-co",
+      "firestone-co",
+      "mead-co",
+      "frederick-co",
+      "longmont-co",
+      "severance-co",
+      "evans-co",
+      "eaton-co",
+      "milliken-co",
+      "dacono-co"
+    ],
+    "fact": "Weld County's septic regulations apply everywhere in Weld County, inside towns as well as in unincorporated areas.",
+    "quote": "The jurisdiction of these Regulations extends to all territories within Weld County including all incorporated and unincorporated areas.",
+    "source_url": "https://library.municode.com/co/weld_county/codes/charter_and_county_code?nodeId=CH30WECODEPUHEENTEWATRSYRE_ARTIAU",
+    "source_label": "Weld County Code Sec. 30-1-20.A (Chapter 30, Article I), Municode, read September 25, 2026",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [],
+    "notes": "Flagged 'Amended by Ordinance No. 2026-07' on Municode."
+  },
+  {
+    "id": "artificial-turf-over-septic-field.weld-page-common-and-locate",
+    "layer": "county",
+    "applies_to": [
+      "windsor-co",
+      "greeley-co",
+      "johnstown-co",
+      "berthoud-co",
+      "firestone-co",
+      "mead-co",
+      "frederick-co",
+      "longmont-co",
+      "severance-co",
+      "evans-co",
+      "eaton-co",
+      "milliken-co",
+      "dacono-co"
+    ],
+    "fact": "Weld County says septic systems are common where areas are too sparsely populated for sewers, and tells owners to find theirs by tracing the sewer pipe out of the house, probing with a thin metal rod 5 to 15 feet from the foundation for the tank and beyond it for the field, drawing a map, and checking whether the county has a permit on file.",
+    "quote": "Because many areas of Weld County are too sparsely populated to be economically served by public sewers, on-site wastewater treatment systems have become a common method of domestic sewage disposal. … One way to determine the location of your on-site wastewater treatment system is to start in your basement or crawlspace and determine the direction the sewer pipe goes through the wall. Then go outside and start probing the soil with a thin metal rod 5 - 15 feet from the foundation to find the septic tank and then beyond the septic tank to find the septic absorption field. Once you have found your system, draw a map and keep it on hand to save time on future service visits. You also may contact the Health Department … to check if there is a septic permit and inspection of the system installation on file.",
+    "source_url": "https://www.weld.gov/Government/Departments/Health-and-Environment/Environmental-Health-Services/Septic-Systems",
+    "source_label": "Weld County Department of Public Health and Environment, Septic Systems (On-site Wastewater Treatment Systems), with FAQ",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "5",
+      "15"
+    ],
+    "notes": "weld.gov returns 403 (Akamai) to curl; read in a browser session 2026-09-25. The phone number in the FAQ is elided from the quote; pages never print it."
+  },
+  {
+    "id": "artificial-turf-over-septic-field.weld-page-failure-signs",
+    "layer": "county",
+    "applies_to": [
+      "windsor-co",
+      "greeley-co",
+      "johnstown-co",
+      "berthoud-co",
+      "firestone-co",
+      "mead-co",
+      "frederick-co",
+      "longmont-co",
+      "severance-co",
+      "evans-co",
+      "eaton-co",
+      "milliken-co",
+      "dacono-co"
+    ],
+    "fact": "Weld County lists wet or mushy ground and grass growing faster and greener in one area of the yard among the signs of a failing septic system, and recommends an inspection every year.",
+    "quote": "The signs of a failing system may include: slowly draining sinks and toilets gurgling sounds in the plumbing plumbing backups sewage odors in the house or yard wet or mushy ground grass growing faster and greener in one particular area of the yard tests showing the presence of bacteria or nutrients in well water … We recommend you inspect your system annually.",
+    "source_url": "https://www.weld.gov/Government/Departments/Health-and-Environment/Environmental-Health-Services/Septic-Systems",
+    "source_label": "Weld County Department of Public Health and Environment, Septic Systems (On-site Wastewater Treatment Systems), FAQ",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read in a browser session 2026-09-25; the list is a bulleted list on the page, run together here."
+  },
+  {
+    "id": "artificial-turf-over-septic-field.weld-page-no-transfer-inspection",
+    "layer": "county",
+    "applies_to": [
+      "windsor-co",
+      "greeley-co",
+      "johnstown-co",
+      "berthoud-co",
+      "firestone-co",
+      "mead-co",
+      "frederick-co",
+      "longmont-co",
+      "severance-co",
+      "evans-co",
+      "eaton-co",
+      "milliken-co",
+      "dacono-co"
+    ],
+    "fact": "Weld County has no septic inspection requirement at sale, but recommends having the system inspected and the tank cleaned before new owners take over.",
+    "quote": "No. Weld County does not have a Transfer of Title Inspection or Use Permit program. You are not required to have your on-site wastewater treatment system inspected upon title transfer or obtain a use certificate. The Weld County Department of Public Health and Environment recommends you have the on- site wastewater treatment system inspected and the septic tank cleaned and inspected by a licensed septic cleaner prior to new ownership taking place.",
+    "source_url": "https://www.weld.gov/Government/Departments/Health-and-Environment/Environmental-Health-Services/Septic-Systems",
+    "source_label": "Weld County Department of Public Health and Environment, Septic Systems (On-site Wastewater Treatment Systems), FAQ",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The same page offers Loan Approval Inspections, 'evaluations primarily for the mortgage lender as a condition of the sale'."
+  },
+  {
+    "id": "artificial-turf-over-septic-field.epa-drainfield-care",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The EPA tells septic owners not to park or drive on the drainfield, to keep roof drains, sump pumps and other rainwater drainage away from it, and to have a household system inspected at least every three years.",
+    "quote": "The average household septic system should be inspected at least every three years by a septic service professional. … Parking: Do not park or drive on your drainfield. … Placing: Keep roof drains, sump pumps, and other rainwater drainage systems away from your drainfield area. Excess water slows down or stops the wastewater treatment process.",
+    "source_url": "https://www.epa.gov/septic/how-care-your-septic-system",
+    "source_label": "U.S. EPA, How to Care for Your Septic System (last updated August 17, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl 2026-09-25."
+  },
+  {
+    "id": "artificial-turf-over-septic-field.heger-not-over-field",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Writing in the septic trade magazine Onsite Installer, onsite wastewater educator Sara Heger says artificial turf should not go over a soil treatment area, which should carry grasses, wildflowers or groundcovers instead.",
+    "quote": "Artificial turf should not be installed over the soil treatment area due to the many problems it could cause. Good vegetative cover — usually grasses, wildflowers or groundcovers — should be planted over the soil treatment area and mowed or maintained as needed.",
+    "source_url": "https://www.onsiteinstaller.com/editorial/2024/10/artificial-turf-over-septic-systems",
+    "source_label": "Sara Heger, Artificial Turf Over Septic Systems, Onsite Installer, Oct. 7, 2024",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Trade-press opinion by a recognized onsite-wastewater educator, not a regulation; the article closes by telling owners to confirm whether local regulations allow turf. Its heat and chemical claims are not used here (other guides cover those)."
+  },
+  {
+    "id": "artificial-turf-over-septic-field.heger-over-tanks",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Heger calls turf over a septic tank not advisable but workable if it can be pulled up for service or is cut around risers, cleanouts and ports, warns that turf insulates less than vegetation so freezing may be more likely, and notes most turf is not built to carry pump trucks.",
+    "quote": "Installing turf over the septic tanks is not advisable, but could be done as the turf can be pulled up for maintenance and then reinstalled. Another option would be to cut around risers, clean-outs and ports to allow access. Artificial turf will not provide the same insulating properties as natural vegetation so freezing may be more likely. … Most artificial turf is not designed to be driven on my heavy equipment such as the pump trucks needed to service the septic tank, which can make accessing components challenging.",
+    "source_url": "https://www.onsiteinstaller.com/editorial/2024/10/artificial-turf-over-septic-systems",
+    "source_label": "Sara Heger, Artificial Turf Over Septic Systems, Onsite Installer, Oct. 7, 2024",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Quoted verbatim, including the source's typo (\"driven on my heavy equipment\")."
+  },
+  {
+    "id": "artificial-turf-over-septic-field.heger-install-compaction",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Heger describes a typical turf install as removing 2 to 4 inches of vegetation and soil, laying geotextile and a weed barrier that could affect oxygen transfer, then compacting a base, steps that risk compacting the soil and damaging shallow septic parts; laid flat, turf also lets all the rain soak in where septic parts are meant to be crowned to shed it.",
+    "quote": "There are many ways to install artificial turf, but the process starts with removing the existing vegetation to a depth of 2-4 inches. This has the risk of damaging shallow components and compacting the underlying soil. The next step is commonly the application of a geotextile for stabilization and a physical weed barrier which could impact the oxygen transfer to the system. Often this is followed by installation of base materials (such as Class 2 road base) which are compacted to provide a stable flat base for the turf. This compaction activity can also compact the underlying natural soil and damage shallow components. … The turf is typically installed flat so that means all the rain that falls on the turf must infiltrate. The recommendation with septic system components is that they be crowned to shed surface drainage away from septic system components.",
+    "source_url": "https://www.onsiteinstaller.com/editorial/2024/10/artificial-turf-over-septic-systems",
+    "source_label": "Sara Heger, Artificial Turf Over Septic Systems, Onsite Installer, Oct. 7, 2024",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "4"
+    ],
+    "notes": "Class 2 road base is a California designation; Northern Colorado bases are usually CDOT Class 6 (see what-base-goes-under-artificial-turf). The article also puts turf drainage at up to 1,200 inches per hour against under 1 inch for grass-covered soil; not used on the page."
+  },
+  {
+    "id": "artificial-turf-over-septic-field.wsu-cover-and-compaction",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "WSU Extension's septic landscaping fact sheet says shallow-rooted, low-maintenance, low-water plants are the key to planting over a drainfield, that grass is ideal year-round cover, that landscape fabric, plastic, bark or mulch should not go over a septic system because they reduce air exchange, and that compacted soil holds less oxygen and treats effluent less well.",
+    "quote": "Landscape fabric, plastic, bark, or mulch should not be used over your septic system. These materials reduce air exchange while bark and mulch also retain excess moisture. … Compacted soils retain less oxygen, reduce soil organisms’ treatment of the effluent, and reduce the system’s effectiveness. Keep vehicles larger than a riding mower off the drainfield to avoid soil compaction and damage to the leach lines. … Using shallow rooted, low maintenance, low water plants is the key to planting over a drainfield and near your septic system. … Grass provides ideal year-round cover for drainfields.",
+    "source_url": "https://s3.wp.wsu.edu/uploads/sites/2079/2014/02/landscaping-septic.pdf",
+    "source_label": "WSU Extension Clark County Small Acreage Program, Properly Landscape Your Septic System (fact sheet)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Western Washington fact sheet, linked from extension.wsu.edu/clark/naturalresources/smallacreageprogram/landscaping-for-septic-systems/ (same text). Undated; the upload path is 2014-02."
+  },
+  {
+    "id": "artificial-turf-over-septic-field.wsu-disguise-ports",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "WSU Extension suggests disguising above-ground tank access ports with something movable, such as a tiered planter box or bench, so they can still be serviced.",
+    "quote": "Newer tanks have above ground easy access ports that many landowners would like to disguise. A tiered planter box or bench can camouflage these ports and can be easily moved to allow service.",
+    "source_url": "https://s3.wp.wsu.edu/uploads/sites/2079/2014/02/landscaping-septic.pdf",
+    "source_label": "WSU Extension Clark County Small Acreage Program, Properly Landscape Your Septic System (fact sheet)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": ""
+  },
+  {
+    "id": "artificial-turf-over-septic-field.ufl-avoid-on-drain-field",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "UF/IFAS Extension says the bacteria that treat wastewater in a drain field need oxygen, so over-compaction and heavy traffic must be avoided, and lists mulching the field with plastic, bark, rock or any mulch, using landscape fabric, adding soil and digging below 6 inches among things to avoid.",
+    "quote": "Furthermore, oxygen is required by the beneficial bacteria that break down harmful waste products in the drain field, so overcompaction or excessive traffic across the drain field must be avoided (Dickert 2010). … avoid the following when landscaping on or near a septic drain field: Adding more soil to the area Tilling the area for planting Mulching any of the drain field area (plastic, bark, rock, or any type of mulch) Plants that require supplemental fertilizer or irrigation Using landscape fabric Digging with shovels or tools below 6\" in depth",
+    "source_url": "https://ask.ifas.ufl.edu/publication/SS687",
+    "source_label": "UF/IFAS Extension, Landscaping on or near Septic Drain Fields (SL474/SS687)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2010",
+      "6"
+    ],
+    "notes": "Florida publication (Elmore, Lester, Moll, Albertin, Lusk); its avoid list is a bulleted list, run together here. It notes Florida drain field pipes can sit just a few inches down; Colorado requires at least 10 inches of cover."
+  }
+]

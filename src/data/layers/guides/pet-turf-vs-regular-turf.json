@@ -1,0 +1,261 @@
+[
+  {
+    "id": "pet-turf-vs-regular-turf.k9grass-classic-plus-spec",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "ForeverLawn's K9Grass Classic+, sold as a dog-specific surface, is a knitted turf with a 7/8-inch pile, a 65-ounce pile weight, polyethylene blades plus nylon blades carrying an antimicrobial (AlphaSan, manufactured into the yarn), a flow-through knitted backing and no infill.",
+    "quote": "Pile Weight: 65 oz. /sy. Face Yarn Type: Primary: Polyethylene; Secondary: Heat set textured nylon monofilament containing antimicrobial agent … Pile Height (knitted): 7/8” (+/– 1/8). … Construction: Knitted Antimicrobial Protection: AlphaSan (manufactured into yarn) … Backing: Flow-through knitted backing … III. No infill material is to be used.",
+    "source_url": "https://k9grass.com/wp-content/uploads/2022/06/K9Grass-Classic-Plus-Outdoor-CSI-M1266-0322.pdf",
+    "source_label": "ForeverLawn, K9Grass Classic+ dog-specific outdoor surface specifications (CSI section, M1266 Rev. 03/22)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "65",
+      "7",
+      "8",
+      "1",
+      "7/8",
+      "1/8"
+    ],
+    "notes": "Read from the PDF with pdftotext on 2026-09-25. Named on the page as a published example of a dog-specific product, not a recommendation. The same sheet sets a system drainage rate; drain rates belong to does-artificial-turf-drain, so this page leaves them out."
+  },
+  {
+    "id": "pet-turf-vs-regular-turf.k9grass-classic-plus-subbase",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The K9Grass Classic+ specification requires auxiliary drainage when the ground under the base does not let liquids percolate freely, and forbids infill with turf used by dogs.",
+    "quote": "If the sub-base does not permit liquids to freely percolate, auxiliary drainage is required. … C. Infill Application: It is imperative that no infill is utilized with synthetic turf used with dogs.",
+    "source_url": "https://k9grass.com/wp-content/uploads/2022/06/K9Grass-Classic-Plus-Outdoor-CSI-M1266-0322.pdf",
+    "source_label": "ForeverLawn, K9Grass Classic+ dog-specific outdoor surface specifications, 3.1.C and 3.2.C (M1266 Rev. 03/22)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [],
+    "notes": "Read from the PDF with pdftotext on 2026-09-25."
+  },
+  {
+    "id": "pet-turf-vs-regular-turf.k9grass-elite-spec",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "ForeverLawn's K9Grass Elite, also sold for dogs, is an all-nylon knitted turf with a 7/8-inch pile, a 60-ounce pile weight, an antimicrobial manufactured into the yarn and a flow-through knitted backing.",
+    "quote": "Pile Weight: 60 oz. /sy. Face Yarn Type: Primary: Nylon monofilament; Secondary: Heat set textured nylon monofilament containing antimicrobial agent … Pile Height (knitted): 7/8” (+/– 1/8). … Antimicrobial Protection: AlphaSan (manufactured into yarn) … Backing: Flow-through knitted backing",
+    "source_url": "https://k9grass.com/wp-content/uploads/2022/06/K9GrassOutdoor-Elite-CSI-M683-1220.pdf",
+    "source_label": "ForeverLawn, K9Grass Elite dog-specific outdoor surface specifications (CSI section, M683 Rev. 12/20)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "60",
+      "7",
+      "8",
+      "1",
+      "7/8",
+      "1/8"
+    ],
+    "notes": "Read from the PDF with pdftotext on 2026-09-25. ForeverLawn's Elite marketing sheet (k9grass.com/wp-content/uploads/2023/11/K9Grass-Elite-Spec-Sheet-1.pdf) gives the same 7/8 in and 60 oz and says infill 'slows drainage, harbors waste, and makes cleaning difficult'."
+  },
+  {
+    "id": "pet-turf-vs-regular-turf.synlawn-syncanine-spec",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's SYNCanine, which it says is engineered for pets and heavy use, is built on its SmartWeave backing design with no tuft gauge listed, a 1 1/4-inch pile, a 60-ounce face weight, and polyethylene blades over a polypropylene thatch.",
+    "quote": "Engineered for pets and heavy use, SYNCanine features SmartWeave™ Technology, delivering unmatched drainage through its innovative backing design. … Grass Zone Yarn/Color PE / Field/Apple/Dark Green … Thatch Zone Yarn/Color PP / Olive Green/Beige … Backing SmartWeave / PCR Spray Coat Tuft Gauge N/A … Pile Height (Nominal) 1 1/4 inches … Face Weight 60 oz/yd2",
+    "source_url": "https://www.synlawn.com/wp-content/uploads/2025/02/SYNLawn-SYNCanine-SWN60-USA.pdf",
+    "source_label": "SYNLawn, SYNCanine product specifications (SKU SWN60, dated 12.10.2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "60",
+      "1",
+      "4",
+      "1/4"
+    ],
+    "notes": "Linked from https://www.synlawn.com/product/syncanine/. Read from the PDF with pdftotext on 2026-09-25. The sheet's permeability figure is left to does-artificial-turf-drain."
+  },
+  {
+    "id": "pet-turf-vs-regular-turf.synlawn-pet-premium-sheet",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The spec sheet SYNLawn links from its Pet Premium page is the SYNtipede 343 sheet, covering SYNtipede 343, Pet Premium and Play Premium under three SKUs, with a 1 1/2-inch polyethylene pile, 80 ounces of face weight and a 13PP/18PET primary backing with a 22-ounce EnviroLoc+ coating, listed for landscape, pets, play and multi-use.",
+    "quote": "SYNtipede 343 pet pREMIUM / play pREMIUM … SKU S343C / PTPRC / PLPRC Grass Zone Yarn/Color PE / Field Green/Apple … Finished Pile Height 1 1/2” … Backing 13PP/18PET 2pt / 22oz. EnviroLoc+™ … LANDSCAPE PETS PLAY MULTI-USE … Face Weight 80 oz/yd2",
+    "source_url": "https://www.synlawn.com/wp-content/uploads/2025/08/SYNLawn-PET-Premium-with-Trionic-Plus-PTPRT-ENG.pdf",
+    "source_label": "SYNLawn, SYNtipede 343 / Pet Premium / Play Premium product specifications (dated 01.19.2025), linked from the Pet Premium product page",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "343",
+      "80",
+      "22",
+      "13",
+      "18",
+      "1",
+      "2",
+      "1/2"
+    ],
+    "notes": "Linked from https://www.synlawn.com/product/pet-premium/. The SYNTipede 343 landscape product page (https://www.synlawn.com/product/syntipede-343/) links https://www.synlawn.com/wp-content/uploads/2025/08/2026-SYNTipede-343.pdf, whose text is the same sheet. Read both PDFs with pdftotext on 2026-09-25."
+  },
+  {
+    "id": "pet-turf-vs-regular-turf.synlawn-synaugustine-847-sheet",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's SYNAugustine 847 lists a 1 1/4-inch polyethylene pile, 80 ounces of face weight, the same 13PP/18PET backing with a 22-ounce EnviroLoc+ coating as its Pet Premium sheet, and Sanitized antimicrobial in the yarn, for landscape, pets, play, golf and multi-use.",
+    "quote": "Grass Zone Yarn/Color PE / Sport Green/Apple/Olive … Finished Pile Height 1 1/4” … Backing 13PP/18PET 2pt / 22oz. EnviroLoc+™ … Features Sanitized®, EnviroLoc+™, StatBlock™ Anti-Static, DualChill™ IR Reflective, Deluster, UV Stabilizers, Biomimetic™ … LANDSCAPE PETS PLAY GOLF MULTI-USE … Face Weight 80 oz/yd2",
+    "source_url": "https://www.synlawn.com/wp-content/uploads/2025/02/SYNLawn-SYNAugustine-847-S847B-USA.pdf",
+    "source_label": "SYNLawn, SYNAugustine 847 product specifications (SKU S847B, dated 12.10.2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "847",
+      "80",
+      "22",
+      "13",
+      "18",
+      "1",
+      "4",
+      "1/4",
+      "2"
+    ],
+    "notes": "Linked from https://www.synlawn.com/product/synaugustine-847/. Read from the PDF with pdftotext on 2026-09-25."
+  },
+  {
+    "id": "pet-turf-vs-regular-turf.synlawn-synaugustine-847-page",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn describes SYNAugustine 847 as a low-pile turf for pet areas, commercial spaces and golf fringe, with Sanitized antimicrobial technology in the yarn to resist bacteria and odor.",
+    "quote": "A low-pile artificial turf engineered for high-traffic performance across pet areas, commercial spaces, and golf fringe applications. … SYNAugustine 847 incorporates Sanitized® Antimicrobial Technology to resist bacteria and odor",
+    "source_url": "https://www.synlawn.com/product/synaugustine-847/",
+    "source_label": "SYNLawn, SYNAugustine 847 product page",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "847"
+    ],
+    "notes": "Read from the raw HTML with curl on 2026-09-25 (the spec table itself is in the linked PDF)."
+  },
+  {
+    "id": "pet-turf-vs-regular-turf.sgw-backing-types",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Synthetic Grass Warehouse, a turf distributor, says hole-punched backing is the industry standard for most synthetic grass, while flow-through backings are 100 percent permeable and let liquids drain across the whole turf instead of through periodically placed holes.",
+    "quote": "Hole-punch backing is the industry standard for most synthetic grass products. In these products, the polyurethane backing is perforated regularly to allow for water drainage and airflow. … Synthetic turf products with flow-through backings have 100 percent permeability, allowing liquids to drain uniformly throughout the turf instead of through periodically placed holes.",
+    "source_url": "https://syntheticgrasswarehouse.com/blog/how-does-backing-quality-affect-your-artificial-turfs-drainage/",
+    "source_label": "Synthetic Grass Warehouse, How Does Backing Quality Affect Your Artificial Turf's Drainage?",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "100"
+    ],
+    "notes": "Read from the raw HTML with curl on 2026-09-25. A distributor's own explanation; its drain-rate figures are left to does-artificial-turf-drain."
+  },
+  {
+    "id": "pet-turf-vs-regular-turf.sgw-pet-use-tiers",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Synthetic Grass Warehouse's installation column says any of its landscape turf with drainage holes may be used for 1 to 3 pets, reserves its 100% permeable pet turf for high pet use, small condensed areas, kennels and dog parks, and warns that liquid can stay between drainage holes and cause lingering odors.",
+    "quote": "SGW Landscape Turf with drainage holes. All landscape turf may be used for Pets. 1-3 pet use. SGW Pet Turf. Multiple pet use. SGW 100% Permeable Pet Turf. High Pet use, Small condensed areas, kennels, commercial facilities, Dog Parks. … If the synthetic turf product does not give the ability of substances to flow, bacteria may form, and contaminants may remain between drainage holes and create lingering odors.",
+    "source_url": "https://syntheticgrasswarehouse.com/company/ask-an-expert/ask-jw/100-permeable-pet-turf/",
+    "source_label": "Synthetic Grass Warehouse, Ask JW: 100% Permeable Pet Turf",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "1",
+      "3",
+      "100"
+    ],
+    "notes": "Read from the raw HTML with curl on 2026-09-25. The tiers are a list under 'Choosing the Right Turf'. The column promotes the distributor's own products; the page uses only its tiering and its warning about liquid between holes."
+  },
+  {
+    "id": "pet-turf-vs-regular-turf.sgw-soil-must-drain",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same column says the soil under a pet turf area has to drain, and soil that does not drain or permeate has to be removed and replaced with a drainage material that holds compaction.",
+    "quote": "Make sure that the soil below the area to be installed drains well and has good permeating qualities. If the soil in the area does not drain or permeate, you will have to remove and replace with a proper drainage material that will retain compaction.",
+    "source_url": "https://syntheticgrasswarehouse.com/company/ask-an-expert/ask-jw/100-permeable-pet-turf/",
+    "source_label": "Synthetic Grass Warehouse, Ask JW: 100% Permeable Pet Turf",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [],
+    "notes": "Read from the raw HTML with curl on 2026-09-25."
+  },
+  {
+    "id": "pet-turf-vs-regular-turf.epa-treated-articles",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Under EPA's treated-articles exemption, a product made with a built-in antimicrobial may claim only that the treatment protects the product itself, such as inhibiting offensive odors in it; public health claims against germs that make people sick fall outside the exemption.",
+    "quote": "This exemption covers qualifying treated articles and substances bearing claims to protect the article or substance itself. EPA does not regard this exemption as including articles or substances bearing implied or explicit public health claims against human pathogens. … 3. A claim to inhibit offensive odors in the treated article or substance.",
+    "source_url": "https://www.epa.gov/sites/default/files/2014-04/documents/pr2000-1.pdf",
+    "source_label": "U.S. EPA, Pesticide Registration Notice 2000-1: Applicability of the Treated Articles Exemption to Antimicrobial Pesticides (40 CFR 152.25(a))",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "2000",
+      "1",
+      "40",
+      "152.25"
+    ],
+    "notes": "Read from the PDF with pdftotext on 2026-09-25; the same opening paragraph is on https://www.epa.gov/pesticide-registration/prn-2000-1-applicability-treated-articles-exemption-antimicrobial-pesticides. The quoted odor claim is listed under 'Non-Public Health Claims'. The exemption text itself is 40 CFR 152.25(a) (eCFR, read the same day)."
+  },
+  {
+    "id": "pet-turf-vs-regular-turf.firestone-blade-backing",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone's turf standard allows blades only of lead-free polyethylene, polypropylene, a vegetable-based product or a blend, prohibits nylon, bans felt backing, and requires a permeable backing with holes in a uniform grid no more than 4 by 6 inches on center.",
+    "quote": "The blade material shall be made of either lead-free polyethylene, polypropylene, vegetable based product or a blend of the three (3). Nylon or other plastic shall be prohibited. … Felt backing is not permitted. (B) The backing shall be permeable with holes spaced in a uniform grid pattern not to exceed four (4) inches by six (6) inches on center.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+    "source_label": "Firestone Development Code 16.6.4.F.2.c.i–ii (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "3",
+      "4",
+      "6"
+    ],
+    "notes": "Read through the Municode API (api.municode.com CodesContent, jobId 488870, productId 18062) on 2026-09-25; the library page renders by script. The code does not say how a flow-through or woven backing with no punched holes is treated under F.2.c.ii(B): pages say ask Firestone Planning."
+  }
+]

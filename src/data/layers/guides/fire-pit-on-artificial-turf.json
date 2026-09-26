@@ -1,0 +1,494 @@
+[
+  {
+    "id": "fire-pit-on-artificial-turf.synlawn-cigarettes-flames",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's care manual says a lit cigarette cannot ignite its turf but can damage it by fusing the fiber tips together, and that cigarettes, fireworks and open flames should be kept away from the turf.",
+    "quote": "Lighted cigarettes cannot ignite the turf, but they can damage the turf by fusing the tips of the fibers together. Cigarettes, fireworks, and open flames should be kept away from the turf.",
+    "source_url": "https://www.synlawn.com/wp-content/uploads/2024/04/SYNLawn-Care-and-Maintenance-ENG.pdf",
+    "source_label": "SYNLawn, Care and Maintenance Manual (SCM.v230517, May 17, 2023), Protect Your Grass, p. 5",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5",
+      "230517",
+      "17",
+      "2023"
+    ],
+    "notes": "Read in the PDF with pdftotext on 2026-09-25. One manufacturer's care manual for its own products, not a fire test; the page attributes it to SYNLawn. Flame-spread ratings belong to is-artificial-turf-flammable."
+  },
+  {
+    "id": "fire-pit-on-artificial-turf.pfa-fire-pit-rules",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co",
+      "timnath-co"
+    ],
+    "fact": "Poudre Fire Authority, whose area includes Fort Collins and Timnath, lets outdoor fire pits and fireplaces burn without a permit only with solid above-grade containment, constant attendance, extinguishing equipment at hand, clean dry wood, a fuel area under 3 feet wide and 2 feet high, and a spot at least 15 feet from structures and combustibles; recreational wood burning is not allowed at commercial or multifamily occupancies.",
+    "quote": "PFA’s jurisdiction includes parts or Larimer County, Fort Collins, Bellvue, Laporte, and Timnath. … Outdoor fire pits and fireplaces must: Have solid, above ground/grade containment around the entire perimeter (i.e., the guard or border around the pit must be enclosed). Be constantly attended by a competent and non-impaired person. Have extinguishing equipment available (e.g., hose, fire extinguisher, etc.). Use clean dry wood (no household or yard waste). Be located a minimum of 15 ft. from structures and combustibles (i.e., do not place a grill on a wooden deck, against the side of your home, or under a pergola). Use a fuel area that is less than 3 ft. wide and 2 ft. high. The burning of wood or other solid fuel for recreational purposes is not allowed at commercial or multifamily occupancies.",
+    "source_url": "https://www.poudre-fire.org/programs-services/fire-prevention-and-community-risk-reduction/code-compliance-and-investigations/open-burning-and-fire-pits",
+    "source_label": "Poudre Fire Authority, Outdoor Fire Pits, Grills, Fireplaces, and Open Burning and Burn Permits",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2027-04-01",
+    "numbers": [
+      "15",
+      "3",
+      "2"
+    ],
+    "notes": "The site returns 403 to curl and headless browsers (Akamai); read in a desktop browser on 2026-09-25 and matched word for word against the Wayback capture of 2026-08-13. The page does not name artificial turf; whether turf counts as a 'combustible' for the 15 ft rule is PFA's call, and the page says so."
+  },
+  {
+    "id": "fire-pit-on-artificial-turf.pfa-no-burn-wind",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co",
+      "timnath-co"
+    ],
+    "fact": "Poudre Fire Authority bars recreational burning during burn bans, on red flag days, and when current or predicted winds are 10 mph or higher, and notes that a city or town may issue fire restrictions independent of the county's.",
+    "quote": "In our area, bans are typically done by the county sheriff. A city or town may also issue Fire Restrictions independent of county restrictions. … NOTE: Burning is prohibited during burn bans, red flag days, or when current or predicted winds are 10 mph or higher.",
+    "source_url": "https://www.poudre-fire.org/programs-services/fire-prevention-and-community-risk-reduction/code-compliance-and-investigations/open-burning-and-fire-pits",
+    "source_label": "Poudre Fire Authority, Outdoor Fire Pits, Grills, Fireplaces, and Open Burning and Burn Permits",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2027-04-01",
+    "numbers": [
+      "10"
+    ],
+    "notes": "Read in a desktop browser on 2026-09-25 (403 to automated fetch)."
+  },
+  {
+    "id": "fire-pit-on-artificial-turf.pfa-grills",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co",
+      "timnath-co"
+    ],
+    "fact": "Poudre Fire Authority counts charcoal and gas grills, barbecues and smokers, pellet smokers included, as open flame cooking devices, and says they may not be used on combustible decks or balconies or within 10 feet of combustible construction, with listed exceptions.",
+    "quote": "Charcoal and LP-gas grills, barbecues, smokers (including pellet smokers), and similar appliances are considered open flame cooking devices. Open flame cooking devices may not be used on combustible decks or balconies or within 10 feet of combustible construction.",
+    "source_url": "https://www.poudre-fire.org/programs-services/fire-prevention-and-community-risk-reduction/code-compliance-and-investigations/open-flame-cooking-devices",
+    "source_label": "Poudre Fire Authority, Use of Grills and Smokers",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "10"
+    ],
+    "notes": "Read in a desktop browser on 2026-09-25. The listed exceptions are sprinklered buildings and balconies, 1 lb camping canisters and electric appliances; the page also addresses property managers and HOAs. Berthoud Fire's version of the rule exempts one- and two-family dwellings (bfpd-grills); PFA's page lists no such exception, so the guide reports each as written."
+  },
+  {
+    "id": "fire-pit-on-artificial-turf.pfa-fort-collins-stage-1-2026",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Poudre Fire Authority lists the City of Fort Collins in Stage 1 fire restrictions as of May 18, 2026, in place until rescinded.",
+    "quote": "The City of Fort Collins is in Stage 1 Fire Restrictions as of May 18, 2026. These will be in place until rescinded.",
+    "source_url": "https://www.poudre-fire.org/programs-services/current-fire-bans-and-restrictions",
+    "source_label": "Poudre Fire Authority, Current Fire Bans and Restrictions",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2026-10-25",
+    "numbers": [
+      "1",
+      "18",
+      "2026"
+    ],
+    "notes": "Read in a desktop browser on 2026-09-25. The City's home page the same day said 'Stage 1 fire restrictions are currently in effect within the City and parts of Larimer County', and its March 24, 2026 news release said Stage 1 took effect Wednesday, March 25. Restriction stages change with the weather: recheck monthly and drop the date line when rescinded."
+  },
+  {
+    "id": "fire-pit-on-artificial-turf.fc-code-9-25-stage-1",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Under Fort Collins's Stage 1 fire restrictions, open fires are unlawful except listed ones, including gas- or liquid-fueled fire pits, grills, smokers and portable heaters, and clean dry wood, pellets or charcoal burned in approved portable fire pits, chimineas or other approved containers, plus solid-fuel grills and smokers.",
+    "quote": "When Stage 1 fire restrictions are in place it shall be unlawful for any person to start, build, maintain, attend, or use an open fire or conduct open burning on public, private, state or federal lands within the City, except for the following activities: (1) fires within liquid- or gas-fueled appliances, including portable fireplaces, fire pits, grills, smokers, camp stoves, portable heaters, and tiki torches; and fires in permanently constructed, liquid-fueled or gas-fueled stationary masonry or metal fireplaces specifically designed for the purpose of combustion; (2) fires using clean, dry untreated wood, wood pellets, or charcoal within portable, solid-fuel burning fireplaces, fire pits, chimineas or other containers that are approved for such use and used for non-commercial or recreational purposes; and solid fuel grills or food smokers (commercial or non-commercial);",
+    "source_url": "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH9FIPRPR_ARTIIOPFIBURE_S9-25ST1FIREPRPEAC",
+    "source_label": "Fort Collins Municipal Code Sec. 9-25, Stage 1 fire restrictions (Ord. No. 085, 2023; Supplement 155)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "9",
+      "25",
+      "1",
+      "2",
+      "085",
+      "2023",
+      "155"
+    ],
+    "notes": "Read through the Municode API (job 498160) on 2026-09-25."
+  },
+  {
+    "id": "fire-pit-on-artificial-turf.fc-code-9-23-fireworks",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins prohibits using fireworks in the city at all times, except as its adopted fire code allows or under a City special events permit.",
+    "quote": "The following types of open fires and open burning are prohibited in the City at all times: … (2) Any person using fireworks, or the owner, occupant, tenant or person otherwise having any possessory control, individually or jointly with others, who is present where fireworks are being used, except as allowed in the International Fire Code as adopted by City Council in this Chapter or by a special events permit issued by the City.",
+    "source_url": "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH9FIPRPR_ARTIIOPFIBURE_S9-23PROPFIOPBU",
+    "source_label": "Fort Collins Municipal Code Sec. 9-23, Prohibited open fires and open burning (Ord. No. 085, 2023; Ord. No. 090, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-01",
+    "numbers": [
+      "9",
+      "23",
+      "2",
+      "085",
+      "2023",
+      "090",
+      "2025"
+    ],
+    "notes": "Read through the Municode API on 2026-09-25. The City's amendment to the 2024 International Fire Code (Sec. 9-2, item 68) reads: '5601.1.3 Fireworks. The possession, manufacture, storage, sale, handling and use of fireworks are prohibited', with exceptions only for storage and displays. Timnath (also PFA) was not checked for fireworks."
+  },
+  {
+    "id": "fire-pit-on-artificial-turf.larimer-stage-1-2026",
+    "layer": "county",
+    "applies_to": [
+      "fort-collins-co",
+      "loveland-co",
+      "berthoud-co",
+      "timnath-co",
+      "wellington-co",
+      "windsor-co",
+      "johnstown-co"
+    ],
+    "fact": "On September 25, 2026, Larimer County's fire danger page said Stage 1 restrictions were in effect throughout unincorporated Larimer County, and that the county's restrictions cover unincorporated areas while cities and towns post their own.",
+    "quote": "Information about Larimer County’s fire restrictions for unincorporated areas. … For information on the conditions of federal land or municipalities, please visit their websites. … Stage 1 Restrictions Are In Effect Throughout Unincorporated Larimer County",
+    "source_url": "https://www.larimer.gov/emergency/mitigating-against-hazards/larimer-county-fire-restrictions-bans",
+    "source_label": "Larimer County, Fire Restrictions and Bans (the county's Fire Danger page)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2026-10-25",
+    "numbers": [
+      "1",
+      "25",
+      "2026"
+    ],
+    "notes": "larimer.gov returns 403 to curl; in a browser the URL redirects to an ArcGIS Experience page (experience.arcgis.com/experience/4cdd565d89044505b9e41042222e4e7c). Read in the browser and in the page's published configuration on 2026-09-25. Recheck monthly; stages change with the weather."
+  },
+  {
+    "id": "fire-pit-on-artificial-turf.larimer-stages-explained",
+    "layer": "county",
+    "applies_to": [
+      "fort-collins-co",
+      "loveland-co",
+      "berthoud-co",
+      "timnath-co",
+      "wellington-co",
+      "windsor-co",
+      "johnstown-co"
+    ],
+    "fact": "Larimer County explains that Stage 1 restrictions may still allow fires in permanent fire pits and gas grills, that a fire ban prohibits all open burning including fire pits, fireworks and charcoal grills, and that the Board of County Commissioners enacts or lifts restrictions on the recommendation of the Sheriff and local fire officials.",
+    "quote": "Under restrictions, certain types of open burning may still be allowed with a permit or under specific guidelines (e.g., fires in permanent fire pits, gas grills, or agricultural burns with approval). … A fire ban prohibits all open burning , including campfires, fire pits, fireworks, and even charcoal grills—regardless of permits. … In Larimer County, the authority to enact or lift fire restrictions and bans lies with the Board of County Commissioners (BoCC). These decisions are based on recommendations from the Larimer County Sheriff and local fire officials, who monitor wildfire risk, weather patterns, and resource availability.",
+    "source_url": "https://www.larimer.gov/emergency/mitigating-against-hazards/larimer-county-fire-restrictions-bans",
+    "source_label": "Larimer County, Fire Restrictions and Bans, FAQs (the county's Fire Danger page)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2027-04-01",
+    "numbers": [
+      "1"
+    ],
+    "notes": "FAQ text read from the ArcGIS Experience page's published configuration on 2026-09-25 (the stray spaces before commas are the source's)."
+  },
+  {
+    "id": "fire-pit-on-artificial-turf.larimer-may-2026-increased",
+    "layer": "county",
+    "applies_to": [
+      "fort-collins-co",
+      "loveland-co",
+      "berthoud-co",
+      "timnath-co",
+      "wellington-co",
+      "windsor-co",
+      "johnstown-co"
+    ],
+    "fact": "Berthoud Fire Protection District posted that Larimer County's increased fire restrictions for unincorporated areas, from May 6 to May 26, 2026, banned wood fires in permanent fireplaces and charcoal, pellet and wood grills and stoves, while gas or liquid-fueled fires, grills and fire pits included, stayed allowed.",
+    "quote": "As of 12:01 a.m., May 6, 2026, increased fire restrictions for the unincorporated portions of Larimer County go into effect. The restrictions will stay in effect until 11:59 p.m., May 26, 2026. … Banned today: Contained Open Fires. This includes open fire in a permanently constructed, stationary masonry or metal fireplaces specifically designed for the purpose of combustion. Uncontained Open Fires, including outdoor charcoal, pellet, and wood stoves/grills. … Allowed: … Gas or liquid fueled fires, including grills and camping stoves … c. “Gas or Liquid Fueled Fires” shall mean fires fueled by bottled gas or pressurized liquid, which shall include but is not limited to: portable heaters, cooking stoves, heating stoves, hiking/camping stoves, grills, firepits, fireplaces, etc.)",
+    "source_url": "https://www.berthoudfire.org/larimer-county-burn-restrictions",
+    "source_label": "Berthoud Fire Protection District, Larimer County Burn Restrictions (Fire Resolution effective 05-06-2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [
+      "12",
+      "01",
+      "6",
+      "2026",
+      "11",
+      "59",
+      "26",
+      "05",
+      "06"
+    ],
+    "notes": "A fire district's posting of the county resolution; the resolution itself was not read, so EXTERNAL_SOURCE. Poudre Fire Authority's site banner in August 2026 read 'Fire Restrictions Increased in Larimer County on May 6, 2026'. Used as a dated example of what a tighter stage allowed, not as a current rule."
+  },
+  {
+    "id": "fire-pit-on-artificial-turf.bfpd-fire-pit-rules",
+    "layer": "ordinance",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Berthoud Fire allows recreational burning at one- and two-family homes only in a manufactured portable fire pit, outside fireplace, permanent fire pit or chiminea with a spark screen, no more than three feet across, at least 15 feet from structures and combustibles; commercial and multifamily sites must use gas or liquid fuel, and no burning is allowed during burn bans, on red flag days or in winds of 10 mph or more.",
+    "quote": "Outdoor recreational burning is allowed at one- and two-family homes only when contained within a manufactured, portable outdoor fire pit; outside fireplace; permanent fire pit; or a chiminea (see photos). All wood-burning appliances must include a screen or spark arrestor design feature and may not exceed three feet in diamater. A permit is not required to operate these devices. … Be located a minimum of 15 ft. from structures and combustibles. Use a fuel area/wood pile that is less than 3 ft. wide and 2 ft. high. Note: The burning of wood or other solid fuel at commercial or multifamily occupancies is not allowed. Gas or liquid fuel must be used. Burning is prohibited during burn bans, red flag days, or when current or predicted winds are 10 mph or higher.",
+    "source_url": "https://www.berthoudfire.org/open-burning-burn-permits",
+    "source_label": "Berthoud Fire Protection District, Open Burning & Burn Permits",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "15",
+      "3",
+      "2",
+      "10"
+    ],
+    "notes": "'diamater' is the source's spelling."
+  },
+  {
+    "id": "fire-pit-on-artificial-turf.bfpd-grills",
+    "layer": "ordinance",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Berthoud Fire keeps charcoal and propane grills and smokers off balconies and 15 feet from combustible construction, but lists one- and two-family dwellings, townhomes included, as an exception.",
+    "quote": "Charcoal and liquid propane gas grills, barbecues, smokers (including pellet smokers), and similar appliances are considered open flame cooking devices. Open flame cooking devices are not allowed to be used on balconies or within 15 feet of combustible construction. With the following exceptions: One- and two-family dwellings (including townhomes).",
+    "source_url": "https://www.berthoudfire.org/open-burning-burn-permits",
+    "source_label": "Berthoud Fire Protection District, Open Burning & Burn Permits",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "15"
+    ]
+  },
+  {
+    "id": "fire-pit-on-artificial-turf.lfra-clearances",
+    "layer": "ordinance",
+    "applies_to": [
+      "loveland-co",
+      "johnstown-co"
+    ],
+    "fact": "Loveland Fire Rescue Authority requires a recreational fire to be at least 25 feet from all combustible materials and structures, and recommends a portable outdoor fireplace be run at least 15 feet from combustibles, used per the maker's instructions.",
+    "quote": "Recreational fires are required to be a minimum of 25 feet away from all combustible materials and structures, including houses, decks, fences, sheds, utility poles, etc. Conditions that could cause a fire to spread to within 25 feet of a structure shall be eliminated prior to ignition. … Portable outdoor fireplaces do not have a required minimum clearance from structures and combustible materials, but are recommended to be operated at least 15 feet away from combustibles (houses, sheds, decks, fences, etc.). Portable outdoor fireplaces must be used in accordance with the manufacturer’s instructions at all times.",
+    "source_url": "https://lfra.org/DocumentCenter/View/563",
+    "source_label": "Loveland Fire Rescue Authority, Recreational Fire and Portable Outdoor Fireplaces (PDF)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "25",
+      "15"
+    ],
+    "notes": "Read with pdftotext on 2026-09-25. LFRA's Recreational Fireplaces page says these requirements are based on the International Fire Code as adopted by the City of Loveland, unincorporated Larimer County and the Town of Johnstown; the handout covers one- and two-family dwellings, including townhomes."
+  },
+  {
+    "id": "fire-pit-on-artificial-turf.lfra-containers-gas-permit",
+    "layer": "ordinance",
+    "applies_to": [
+      "loveland-co",
+      "johnstown-co"
+    ],
+    "fact": "Loveland Fire Rescue Authority allows recreational burning at one- and two-family homes only in a manufactured portable fire pit, outside fireplace, permanent fire pit or chiminea with a screen or spark arrestor, set on a clear and level surface so it cannot tip; a fire pit or fireplace on a permanent gas line needs a building permit.",
+    "quote": "This document explains the Fire Code requirements enforced by Loveland Fire Rescue Authority (LFRA) for recreational fire and use of portable outdoor fireplaces at one- and two-family dwellings, including townhomes. … Outdoor recreational burning is allowed at one- and two-family homes only when contained within a manufactured, portable outdoor fire pit; outside fireplace; permanent fire pit; or a chiminea. All wood-burning appliances must utilize a screen or spark arrestor. A permit is not required to operate these devices. A hole dug in the dirt is not acceptable and not allowed. All outdoor wood-burning appliances shall be maintained in good repair at all times and situated on a clear and level surface so that the appliance cannot tip over. Outdoor fire pits or fireplaces fueled by a permanent gas line require a permit issued by the applicable building department (City of Loveland, Town of Johnstown or Larimer County).",
+    "source_url": "https://lfra.org/DocumentCenter/View/563",
+    "source_label": "Loveland Fire Rescue Authority, Recreational Fire and Portable Outdoor Fireplaces (PDF)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "fire-pit-on-artificial-turf.lfra-no-burn-conditions",
+    "layer": "ordinance",
+    "applies_to": [
+      "loveland-co",
+      "johnstown-co"
+    ],
+    "fact": "Loveland Fire Rescue Authority bars recreational fires and portable outdoor fireplaces during a Red Flag Warning, when the day's fire weather outlook is elevated, critical or extreme, under an open burning restriction, and in sustained or gusty winds.",
+    "quote": "neither recreational fire nor portable outdoor fireplaces may be utilized during the following situations: 1. When there is a “Red Flag Warning” issued by the National Weather Service. 2. When the Fire Weather Outlook for the day is “Elevated, Critical or Extreme.” 3. When there is an open burning restriction issued by a county sheriff (for unincorporated areas) or elected representatives (for incorporated areas). 4. During periods of sustained or gusty winds that make the activity unsafe, or if Such winds are in the weather forecast.",
+    "source_url": "https://lfra.org/DocumentCenter/View/563",
+    "source_label": "Loveland Fire Rescue Authority, Recreational Fire and Portable Outdoor Fireplaces (PDF)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ]
+  },
+  {
+    "id": "fire-pit-on-artificial-turf.lfra-fireworks-loveland",
+    "layer": "ordinance",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "Loveland Fire Rescue Authority says permissible fireworks such as sparklers, fountains and spinners may be used in Loveland and unincorporated Larimer County, that fireworks that explode or leave the ground are illegal in Colorado outside licensed displays, that sparklers burn above 1,000°F, and that fireworks should only be used in an area clear of combustible materials.",
+    "quote": "Permissible (legal) fireworks include items such as sparklers, fountains, smoke balls, items with crackle and strobe effects, wheels and spinners, and various novelty items. These types of fireworks are allowed to be sold (with a permit only) and used within the Loveland city limits and unincorporated Larimer County, however, there are age restrictions to consider. … Non-permissible (illegal) fireworks are those that explode and/or leave the ground, such as firecrackers, bottle rockets, Roman Candles, aerials, missiles, and other similar items. These items are not permissible for either sale or use within the State of Colorado, except commercial-grade pyrotechnics used by licensed and permitted pyrotechnics technicians for public and private displays. … Sparklers, which many people incorrectly assume to be a completely safe item, burn at temperatures above 1,000° Fahrenheit, which can easily cause burn injuries and result in accidental fires. … Only use fireworks in a safe area that is clear of combustible materials.",
+    "source_url": "https://lfra.org/184/Fireworks-Information",
+    "source_label": "Loveland Fire Rescue Authority, Fireworks Information",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-01",
+    "numbers": [
+      "1,000",
+      "1000"
+    ],
+    "notes": "Loveland Municipal Code 15.28.020 (IFC 2024 amendments, new Sec. 5610) makes it unlawful to use 'any fireworks, other than permissible fireworks', which matches the page. 'licensed' appears only inside this quote."
+  },
+  {
+    "id": "fire-pit-on-artificial-turf.greeley-code-14-481",
+    "layer": "ordinance",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley's code makes fireworks illegal except as it allows, and lets anyone 16 or older possess and use permissible fireworks in the city (younger people with adult supervision).",
+    "quote": "Pursuant to section 5601.1.3 of the International Fire Code, as adopted by the city at section 22-454 , the possession, storage, sale, handling and use of fireworks is illegal except as set forth herein. … (2) Permissible fireworks may be possessed, stored, sold, handled and used within the city by any individual age 16 years and older. (3) Permissible fireworks may be possessed and used within the city by an individual under the age of 16 years, if the individual is under adult supervision.",
+    "source_url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT14CRCOOF_CH15FI_S14-481MASAUSPOFI",
+    "source_label": "Greeley Municipal Code Sec. 14-481 (Ord. No. 20, 2022)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-01",
+    "numbers": [
+      "5601.1",
+      "22",
+      "454",
+      "16",
+      "14",
+      "481",
+      "20",
+      "2022"
+    ],
+    "notes": "Read through the Municode API (job 493697) on 2026-09-25."
+  },
+  {
+    "id": "fire-pit-on-artificial-turf.greeley-fd-fireworks-2026",
+    "layer": "ordinance",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley's fire department says fireworks that explode or leave the ground are illegal everywhere in the city, with fines up to $1,000; that no fireworks should be used under a Fire Weather Watch or Red Flag Warning; that legal fireworks need a clear area at least ten feet across of mineral soil or pavement; and that spent fireworks should be soaked in water.",
+    "quote": "Fireworks that explode or leave the ground are illegal everywhere in the City of Greeley. … Those who possess, sell, or use illegal fireworks are subject to fines of up to $1,000 and possible jail time. … If a Fire Weather Watch or a Red Flag Warning is in effect, do not use fireworks of any kind. … Ensure that you have a clear area, at least ten feet in diameter, made of mineral soil or pavement, around your fireworks. Use fireworks outdoors in a clear area, away from buildings and other flammable objects, such as vehicles. … All fireworks should be soaked in a pail of water before discarding.",
+    "source_url": "https://greeleyco.gov/news/2026/20260617-greeley-fire-department-urges-fireworks-safety",
+    "source_label": "City of Greeley, Greeley Fire Department Urges Fireworks Safety (news release, June 17, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-01",
+    "numbers": [
+      "1,000",
+      "1000",
+      "17",
+      "2026"
+    ]
+  },
+  {
+    "id": "fire-pit-on-artificial-turf.windsor-code-10-7-20",
+    "layer": "ordinance",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor's code makes it unlawful to possess, use or explode any fireworks in the town, apart from permitted public displays.",
+    "quote": "(a) Except as hereinafter provided, it shall be unlawful for any person to manufacture, sell, offer for sale, possess, use or explode any fireworks within the Town.",
+    "source_url": "https://library.municode.com/co/windsor/codes/municipal_code?nodeId=WI_CH10GEOF_ARTVIIFI_S10-7-20MASAUSPOFI",
+    "source_label": "Windsor Municipal Code Sec. 10-7-20 (Ord. 2006-1246)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-01",
+    "numbers": [
+      "10",
+      "7",
+      "20",
+      "2006",
+      "1246"
+    ],
+    "notes": "Read through the Municode API (job 500132) on 2026-09-25. Subsections (b) and (c) cover display permits from the Windsor-Severance Fire Protection District."
+  },
+  {
+    "id": "fire-pit-on-artificial-turf.berthoud-code-17-18",
+    "layer": "ordinance",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Berthoud's code makes it unlawful to explode any fireworks in town except the permissible fireworks defined in state law.",
+    "quote": "It is unlawful in the Town for any person to offer for sale, have in his or her possession with intent to offer for sale, or to explode, any fireworks except those \"permissible fireworks\" enumerated in C.R.S. 12-28-101(8).",
+    "source_url": "https://library.municode.com/co/berthoud/codes/municipal_code?nodeId=CH17GEOFAGMUHESAWE_17.18FI",
+    "source_label": "Berthoud Municipal Code 17.18-1, Fireworks Prohibited",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-01",
+    "numbers": [
+      "17.18",
+      "1",
+      "12",
+      "28",
+      "101",
+      "8"
+    ],
+    "notes": "Read through the Municode API (job 491348) on 2026-09-25."
+  },
+  {
+    "id": "fire-pit-on-artificial-turf.wsfr-town-limits",
+    "layer": "ordinance",
+    "applies_to": [
+      "windsor-co",
+      "severance-co"
+    ],
+    "fact": "Windsor Severance Fire Rescue allows no burning inside Windsor or Severance town limits except in grills, portable cooking appliances, commercial outdoor fire pits, ceramic or clay fire pots and similar devices no bigger than 3 by 2 feet with a spark arrestor.",
+    "quote": "No burning is allowed inside the town limits of Windsor or Severance, except for burning in established barbecue grills, portable cooking appliances, commercial outdoor fire pits, ceramic or clay fire pots, and/or similar devices no bigger than 3' x 2' with a spark arrestor.",
+    "source_url": "https://www.wsfr.us/burn-permits",
+    "source_label": "Windsor Severance Fire Rescue, Burn Permits",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "2"
+    ]
+  },
+  {
+    "id": "fire-pit-on-artificial-turf.wsfr-fp006",
+    "layer": "ordinance",
+    "applies_to": [
+      "windsor-co",
+      "severance-co"
+    ],
+    "fact": "Windsor Severance Fire Rescue's fire pit policy sets 15 feet of clearance from structures, fencing and property lines, asks for the ground within 5 feet of the fire's base to be cleared of combustibles such as grass (listing one- and two-family dwellings as an exception), bars burning in winds above 5 mph, and wants appliances on cleared, level ground.",
+    "quote": "Outdoor recreational burning is allowed at single family dwellings only when contained within a manufactured, portable outdoor fire pit; outside fireplace; or in a chiminea. All wood burning appliances shall include a screen or spark arrestor design feature. A permit is not required for these devices. … 2. Clearance from structures and fencing shall be at least 15 feet; distances to property lines shall be at least 15 feet. Size of the wood pile is limited to 3 feet in diameter by 2 feet in height. The ground within 5 feet of the base of the fire shall be cleared of all combustible materials, such as grass or weeds. (Exception is one and two-family dwellings) … 6. Burning is not allowed when winds are above 5 miles per hour or during prolonged periods of low, relative humidity. 7. Outdoor wood burning appliances shall be maintained in good repair at all times and situated on cleared, level ground so that the appliance cannot tip over.",
+    "source_url": "https://www.wsfr.us/files/d535d72d2/FP006+Recreational+Burning-Outdoor+Fire+Pit+Guidelines.pdf",
+    "source_label": "Windsor Severance Fire Rescue, Policy FP006, Recreational Burning/Outdoor Fire Pit Guidelines (revised 05/05/2017)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "15",
+      "3",
+      "2",
+      "5",
+      "6",
+      "7",
+      "05",
+      "2017",
+      "2012"
+    ],
+    "notes": "Read with pdftotext on 2026-09-25. Based on the 2012 International Fire Code. Where the one- and two-family exception reaches (the cleared ring only, or all of item 2) the policy doesn't say; the page says so and sends readers to WSFR."
+  }
+]

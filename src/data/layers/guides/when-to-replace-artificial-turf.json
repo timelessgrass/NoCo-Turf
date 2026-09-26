@@ -1,0 +1,384 @@
+[
+  {
+    "id": "when-to-replace-artificial-turf.fusionturf-rehab-or-replace",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "FusionTurf, a turf maker, says matted turf with sound fibers can be restored with a power broom and an infill reset, and that replacement is worth considering when the backing cracks, seams keep failing or fiber wear is widespread and grooming no longer restores it.",
+    "quote": "Rehab: If fibers are sound but matted, a power broom and infill reset restore lift and look. Replace: Consider replacement when backing cracks, seams consistently fail, or fiber wear is widespread and grooming no longer restores performance.",
+    "source_url": "https://find.fusionturf.com/answers/artificial-turf-fade-flatten-over-time/",
+    "source_label": "FusionTurf, Will artificial turf fade or flatten over time?",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [],
+    "notes": "Undated manufacturer answer page, read in full with curl on 2026-09-25 (section 'When to rehab or replace')."
+  },
+  {
+    "id": "when-to-replace-artificial-turf.fusionturf-refresh-signs",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "FusionTurf lists flattened fibers that no longer recover after brushing, exposed backing or widespread fiber loss, and seams that repeatedly open under normal use as signs turf is due for a refresh, and says many systems let the infill be recovered and reused at replacement.",
+    "quote": "Signs it is time to refresh Flattened fibers that no longer recover after brushing. Backing exposure or widespread fiber loss. Seams that repeatedly open under normal use. … Many systems allow infill recovery and reuse at replacement.",
+    "source_url": "https://find.fusionturf.com/answers/how-long-does-artificial-grass-last/",
+    "source_label": "FusionTurf, How long does artificial grass last?",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [],
+    "notes": "Read with curl on 2026-09-25. The page's lifespan ranges are deliberately not used here: lifespan belongs to how-long-does-artificial-turf-last."
+  },
+  {
+    "id": "when-to-replace-artificial-turf.fusionturf-base-checks",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "FusionTurf's base-repair guide digs out loose or contaminated base down to firm support, calls about 1/2 inch of deviation over 10 feet acceptable for general landscapes, and expects a finished base to take normal walking without footprints or rutting.",
+    "quote": "Excavate loose or contaminated base until you reach firm support. … On performance areas, aim for flatness within about 1/4 inch over 10 feet. For general landscapes, within about 1/2 inch over 10 feet is acceptable. … Base feels firm with no footprints or rutting under normal walking.",
+    "source_url": "https://find.fusionturf.com/answers/can-i-use-a-plate-compactor-when-repairing-my-turf-base/",
+    "source_label": "FusionTurf, Can I use a plate compactor when repairing my turf base?",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "1/2",
+      "1/4",
+      "10",
+      "1",
+      "2",
+      "4"
+    ],
+    "notes": "Read with curl on 2026-09-25. The rebuild steps themselves belong to artificial-turf-sinking-low-spots; this page uses only the reuse checks."
+  },
+  {
+    "id": "when-to-replace-artificial-turf.sgw-high-traffic-paths",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Synthetic Grass Warehouse, a turf distributor, says a backyard that hosts kids, parties and daily play ages faster in its high-traffic paths.",
+    "quote": "A synthetic turf backyard that hosts kids, parties, and daily play will age faster in high-traffic paths.",
+    "source_url": "https://syntheticgrasswarehouse.com/blog/how-long-does-artificial-turf-really-last-the-honest-answer-and-what-makes-the-difference/",
+    "source_label": "Synthetic Grass Warehouse, How Long Does Artificial Turf Really Last? (July 30, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "30",
+      "2026"
+    ],
+    "notes": "Read with curl on 2026-09-25. The article's year ranges are not used (lifespan belongs to how-long-does-artificial-turf-last)."
+  },
+  {
+    "id": "when-to-replace-artificial-turf.motz-worn-sections-low-infill",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Motz Group, a sports-field builder and infill maker, says the most-used sections of a turf field eventually break down, that fibers can be pulled out of the turf, and that low infill makes turf fibers degrade faster.",
+    "quote": "Reduction of infill levels causes turf fibers to degrade faster. … Sections of turf that get the most use on the field will eventually break down. Turf fibers can be ripped by cleats or pulled out of the turf base.",
+    "source_url": "https://themotzgroup.com/sport_blog/top-signs-of-an-aging-synthetic-turf-field/",
+    "source_label": "The Motz Group, Top Signs of an Aging Synthetic Turf Field (Sept. 23, 2025)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "23",
+      "2025"
+    ],
+    "notes": "Sports-field article; the page says so. Cloudflare blocks curl, so the full text was read from the Wayback capture of 2026-06-16 (web.archive.org/web/20260616222449/…) and the three sentences were confirmed on the live page on 2026-09-25. A person should re-read it in a browser at the next check."
+  },
+  {
+    "id": "when-to-replace-artificial-turf.motz-field-base-reused",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Motz Group says that when a synthetic turf sports field is replaced, its base and drainage systems can be reused.",
+    "quote": "While the base and drainage systems can be reused, field replacement still doesn't come cheap.",
+    "source_url": "https://themotzgroup.com/sport_blog/the-6-steps-to-replacing-your-synthetic-turf-field-the-smart-way/",
+    "source_label": "The Motz Group, The 6 Steps to Replacing Your Synthetic Turf Field (the Smart Way) (Nov. 23, 2021)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "6",
+      "23",
+      "2021"
+    ],
+    "notes": "Sports-field article; the page says so and applies it to a backyard only as a principle. Cloudflare blocks curl; full text read from the Wayback capture of 2026-05-20 (web.archive.org/web/20260520220635/…) and the sentence confirmed on the live page on 2026-09-25."
+  },
+  {
+    "id": "when-to-replace-artificial-turf.motz-urine-layers",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Motz Group says urine from a dog that uses the same stretch of turf every day can build up in the turf's layers, and that adding odor-fighting infill on top of old, smelly infill won't fix the smell.",
+    "quote": "Although artificial turf is designed to have much better drainage than natural grass, when a dog constantly uses the same stretch of turf as their toilet, all that urea-filled urine can build up in the turf’s individual layers. … That’s because adding an odor-fighting infill on top of your old, smelly infill won’t fix matters.",
+    "source_url": "https://themotzgroup.com/infill_blog/my-artificial-turf-smells-like-dog-pee-what-should-i-do/",
+    "source_label": "The Motz Group, My Artificial Turf Smells Like Dog Pee – What Should I Do? (Jan. 14, 2022)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "14",
+      "2022"
+    ],
+    "notes": "Motz sells an odor-control infill; the page uses only the two general sentences. Cloudflare blocks curl; full text read from the Wayback capture of 2026-05-20 and both sentences confirmed on the live page on 2026-09-25. The odor fixes themselves belong to dog-urine-smell-artificial-turf."
+  },
+  {
+    "id": "when-to-replace-artificial-turf.stc-tuft-bind",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council says the coating on the back of turf locks the fibers in place, defines tuft bind as the force needed to pull a tuft out of the backing, and recommends at least 6.8 pounds for landscape turf.",
+    "quote": "The back of the synthetic grass is coated with secondary backing materials to lock the fibers in place (tuft bind). … This term is used to refer to the force (usually measured in pounds) required to pull a tuft from the synthetic grass backing. The STC recommends a tuft bind of 6.8 lbs., but the higher the tuft bind, the better.",
+    "source_url": "https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf",
+    "source_label": "Synthetic Turf Council, Considerations When Buying Synthetic Grass for Landscape Use (September 2013)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6.8",
+      "2013"
+    ],
+    "notes": "Read from the PDF with pdftotext on 2026-09-25."
+  },
+  {
+    "id": "when-to-replace-artificial-turf.stc-base-reflected",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council says irregularities in the surface of a turf base typically show in the finished turf surface.",
+    "quote": "Irregularities in the surface of the base materials are typically reflected in the finished field surface.",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Suggested_Guidelines_for.pdf",
+    "source_label": "Synthetic Turf Council, Suggested Guidelines for the Essential Elements of Synthetic Turf Systems (revised Nov. 2011), 5.3.4",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2011",
+      "5.3",
+      "4"
+    ],
+    "notes": "Read from the PDF with pdftotext on 2026-09-25. Written for sports fields."
+  },
+  {
+    "id": "when-to-replace-artificial-turf.ntnu-uv-heat-low-infill",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A 2020 NTNU review of turf-fiber degradation says UV radiation with surface heating is believed to be the most damaging cause, that sunlight breaks bonds in the fiber's polymer chains, and that fiber left exposed where infill is low degrades faster.",
+    "quote": "The most damaging cause leading to degradation of fibers is believed to be UV radiation with additional surface heating. … Sunrays penetrates the material’s surface and break bonds between the molecules in the polymer chains, causing potential loss of mechanical properties. … In zones with less amount of infill, a greater proportion of the fiber will be exposed to other factors that contribute to increased degradation, such as UV radiation.",
+    "source_url": "https://www.ntnu.no/documents/11601816/1285177107/KG2021+Factors+Impacting+Degradation+of+Artificial+Turf+Fibers.pdf/9dd6ad60-eda5-e3ca-002a-171567e6beaa?t=1597922698581",
+    "source_label": "A. O. Misund, Factors Impacting Degradation of Artificial Turf Fibers (NTNU and the Kunstgress 2021 project, Trondheim, July 2020)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2020",
+      "2021"
+    ],
+    "notes": "Read from the PDF with pdftotext on 2026-09-25. A literature review written around sports pitches."
+  },
+  {
+    "id": "when-to-replace-artificial-turf.ntnu-cold-brittle",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same NTNU review says turf fibers turn stiffer and more brittle below freezing, so force on them is more likely to break them.",
+    "quote": "surface temperatures below 0 °C (freezing point of water) will make the fibers stiffer and have more brittle behavior [26]. Applying a force to the brittle fibers will most likely cause them to break",
+    "source_url": "https://www.ntnu.no/documents/11601816/1285177107/KG2021+Factors+Impacting+Degradation+of+Artificial+Turf+Fibers.pdf/9dd6ad60-eda5-e3ca-002a-171567e6beaa?t=1597922698581",
+    "source_label": "A. O. Misund, Factors Impacting Degradation of Artificial Turf Fibers (NTNU and the Kunstgress 2021 project, Trondheim, July 2020)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "0",
+      "26",
+      "2020",
+      "2021"
+    ],
+    "notes": "Read from the PDF with pdftotext on 2026-09-25; [26] is the review's own citation marker."
+  },
+  {
+    "id": "when-to-replace-artificial-turf.ccc-thin-atmosphere",
+    "layer": "climate",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Climate Center says Colorado's thin atmosphere lets more solar radiation through, and that sunburn is a problem because of the intense high-elevation sunlight.",
+    "quote": "The thin atmosphere allows greater penetration of solar radiation and results in pleasant daytime conditions even during the winter. Outdoor work and recreation can often be carried out in relative comfort year round, but sunburn and skin cancer is a problem due to the intense high-elevation sunlight.",
+    "source_url": "https://climate.colostate.edu/climate_long.html",
+    "source_label": "Colorado Climate Center (Colorado State University), Climate of Colorado",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl on 2026-09-25. The UV-by-elevation calculation belongs to does-artificial-turf-fade."
+  },
+  {
+    "id": "when-to-replace-artificial-turf.sgw-old-turf-match",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Synthetic Grass Warehouse says turf from a different batch may not match even under the same product name, and that matching turf from an earlier install is tricky because sun and wear change its look, so blending a new section into an old one may still not be perfect.",
+    "quote": "Just because the product name and specs are the same doesn’t mean the color will match perfectly if it’s from a different batch. … Matching turf from a previous install can also be tricky, even if it’s the same product; environmental exposure and wear can change the appearance over time. … And if you’re coming back to match an older section, understand that blending will be key and it still might not be perfect.",
+    "source_url": "https://syntheticgrasswarehouse.com/blog/why-dye-lot-matters/",
+    "source_label": "Synthetic Grass Warehouse, Why Dye Lot Matters (June 30, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "30",
+      "2025"
+    ],
+    "notes": "Read with curl on 2026-09-25."
+  },
+  {
+    "id": "when-to-replace-artificial-turf.shaw-batches-infill-weight",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Shaw's ShawGrass installation guidelines say turf is made in batches with normal variation between them and estimate 3 to 5 pounds of sand infill per square foot on 50- to 80-ounce turf, which comes to roughly 1,500 to 2,500 pounds of sand in a 500-square-foot lawn.",
+    "quote": "Turf is manufactured in individual batches with normal batch to batch variation, so you will want to order enough for your entire job. … Calculate the amount of sand infill in advance; a good estimate is three-to-five pounds of sand per square foot on 50-80 ounce turf.",
+    "source_url": "https://qmsview.shawinc.com/QMS_View/files/e5/e52baf26-71b9-4b41-beb0-101543c846f2.pdf",
+    "source_label": "Shaw, ShawGrass Installation Guidelines",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "5",
+      "50",
+      "80",
+      "500",
+      "1,500",
+      "2,500"
+    ],
+    "notes": "Read from the PDF with pdftotext on 2026-09-25. The 500-square-foot figures are arithmetic on Shaw's estimate (500 × 3 and 500 × 5), labelled 'roughly' on the page; infill already lost to wear would make the real load lighter."
+  },
+  {
+    "id": "when-to-replace-artificial-turf.sgw-seam-rupture-greens",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Synthetic Grass Warehouse's installer column says seam ruptures get worse the longer they wait for repair, and that a putting green that has shrunk or ruptured its seams from thermal movement has to be removed and replaced.",
+    "quote": "Synthetic turf seam ruptures not only can be ugly, but they get worse over time. The longer you wait to repair a seam rupture the more repairs you will have to make. … When putting greens move causing shrinkage and/or seam rupture, there is only one option, and that is to be removed and replaced.",
+    "source_url": "https://syntheticgrasswarehouse.com/company/ask-an-expert/ask-jw/thermal-expansion-contraction-in-synthetic-turf/",
+    "source_label": "Synthetic Grass Warehouse, Ask JW: Thermal Expansion & Contraction in Synthetic Turf (March 13, 2018)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "13",
+      "2018"
+    ],
+    "notes": "Read with curl on 2026-09-25; datePublished 2018-03-13 from the page's structured data."
+  },
+  {
+    "id": "when-to-replace-artificial-turf.synlawn-remove-whatever",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's DIY installation guidelines start by removing the grass, dirt, rock or whatever else is in the area the new turf will cover, typically 3 to 4 inches down, to make room for a drainage base.",
+    "quote": "You will need to remove the grass, dirt, rock, or whatever is in the area the SYNLawn will be installed. Depending on your area, you will need to remove between 3”- 4” to create an adequate drainage base.",
+    "source_url": "https://pdf.lowes.com/productdocuments/240a8581-4267-4cdf-aa5f-d4d1e250fec6/44269346.pdf",
+    "source_label": "SYNLawn, DIY Installation Guidelines for SYNLawn Artificial Grass (posted as a Lowe's product document)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "4"
+    ],
+    "notes": "Read from the PDF with pdftotext on 2026-09-25. The guide does not name old artificial turf; the page reads 'whatever is in the area' as including it and says so."
+  },
+  {
+    "id": "when-to-replace-artificial-turf.firestone-maintenance-replace",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone's code says artificial turf may not show holes, tears, discolorations, seam separations, heat degradation, depressions, odors, excessive wear or similar deterioration, that damaged or worn areas be repaired or replaced to look consistent with the rest, and that turf be replaced once its life expectancy is reached.",
+    "quote": "iii. Artificial turf areas shall not contain weeds, holes, tears, stains, discolorations, seam separations, uplifted surfaces, heat degradation, depressions, odors, excessive wear, or similar deformities and measures of deterioration. Damaged or worn areas shall be repaired or removed and replaced in manner that results in consistent appearance with the existing artificial turf. iv. Artificial turf shall be replaced after the life expectancy has been reached.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+    "source_label": "Firestone Development Code 16.6.4.F.2.f (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "1072",
+      "10",
+      "2025"
+    ],
+    "notes": "Read 2026-09-25 through the Municode API (api.municode.com/CodesContent, productId 18062, jobId 488870). What 'life expectancy' means belongs to how-long-does-artificial-turf-last; this page quotes the clause once. Section 16.6.1.B applies 16.6.4 to single-family lots that existed before the code."
+  },
+  {
+    "id": "when-to-replace-artificial-turf.firestone-aggregate-base",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone's code has artificial turf installed over a compacted, porous aggregate base at least 3 inches deep.",
+    "quote": "Artificial turf shall be installed over a compacted and porous aggregate base material that is a minimum of three (3) inches deep to allow for adequate drainage both horizontally and vertically and to prevent excessive runoff or pooling.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+    "source_label": "Firestone Development Code 16.6.4.F.2.e.iii (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "3",
+      "1072",
+      "10",
+      "2025"
+    ],
+    "notes": "Read 2026-09-25 through the Municode API. Only this clause is cited here; the full standard is on turf-spec-sheet-for-colorado."
+  },
+  {
+    "id": "when-to-replace-artificial-turf.crs-25-15-605",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "C.R.S. 25-15-605 bars anyone from installing artificial turf that contains intentionally added PFAS chemicals from January 1, 2026, and says nothing in it stops a person from maintaining turf installed before that date.",
+    "quote": "(1) ON AND AFTER JANUARY 1, 2026, A PERSON SHALL NOT INSTALL ARTIFICIAL TURF THAT CONTAINS INTENTIONALLY ADDED PFAS CHEMICALS ON ANY PORTION OF PROPERTY IN THE STATE. (2) NOTHING IN THIS SECTION PROHIBITS A PERSON FROM MAINTAINING ARTIFICIAL TURF INSTALLED BEFORE JANUARY 1, 2026.",
+    "source_url": "https://leg.colorado.gov/bill_files/46185/download",
+    "source_label": "SB24-081 signed act, Section 5: C.R.S. 25-15-605 (signed 2024-05-01)",
+    "effective": "2026-01-01",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "25",
+      "15",
+      "605",
+      "1",
+      "2",
+      "2026",
+      "24",
+      "081",
+      "2024"
+    ],
+    "notes": "Read from the signed act PDF with pdftotext on 2026-09-25. Whether a patch cut from new turf counts as installing or maintaining is not settled by the text; the page says so and labels it Not legal advice."
+  }
+]

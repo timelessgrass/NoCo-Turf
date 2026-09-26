@@ -1,0 +1,455 @@
+[
+  {
+    "id": "nylon-vs-polyethylene-turf.stc-all-three-polymers",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council says polyethylene, nylon and polypropylene have all proven to make quality synthetic grass, warns buyers against unsupported claims against any one of them, and says all three can provide strength and durability, resilience, softness, color retention and UV resistance.",
+    "quote": "Synthetic grass has been proven to provide a quality solution using a variety of grass yarns, including polyethylene, nylon, and polypropylene. Beware of unsupported claims against a certain yarn polymer type as all three polymers can provide the following features: Strength/Durability … Elastic Recovery (Resilience) … Softness … Color Retention … UV Resistance",
+    "source_url": "https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf",
+    "source_label": "Synthetic Turf Council, \"Considerations When Buying Synthetic Grass for Landscape Use\" (September 2013), p. 3",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read in the PDF on 2026-09-25 (pdftotext). The features are a bulleted list in the source; the ellipses stand for the line breaks and the items left out (Resistance to Moisture, Resistance to Retain Odors, Resistance to Stains/Chemicals)."
+  },
+  {
+    "id": "nylon-vs-polyethylene-turf.stc-uv-lab-report",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council asks for yarn results validated in a report by an independent test lab after 3,000 hours of UVA testing, including a color change better than Gray Scale 3 and no more than a 50% loss of tensile strength.",
+    "quote": "Yarn Characteristics (Should be validated in report by an Independent Test Lab) … Artificial Weathering-Turf Color Change … >Gray Scale 3 … 3000 hrs. UVA testing … Artificial Weathering-Pile Yarn Tensile Strength … Reduction of no more than 50% … 3000 hrs. UVA testing",
+    "source_url": "https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf",
+    "source_label": "Synthetic Turf Council, \"Considerations When Buying Synthetic Grass for Landscape Use\" (September 2013), p. 3, Yarn Characteristics table",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3000",
+      "3",
+      "50"
+    ],
+    "notes": "The source is a three-column table (characteristic, minimum, test); the quote reads its cells in order with ellipses between them. The fade guide explains the gray scale; this page gives it one line."
+  },
+  {
+    "id": "nylon-vs-polyethylene-turf.stc-low-e-polyethylene",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council has recorded random instances of polyethylene turf fibers shrinking and melting from high heat reflected off reflective surfaces, particularly Low-E glass.",
+    "quote": "Note: There have been random instances of fiber shrinkage and melting of polyethylene fibers due to high heat from reflective surfaces, particularly so-called Low-E or low emittance glass, which reflects solar rays to reduce heat gain and cooling costs in a building.",
+    "source_url": "https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf",
+    "source_label": "Synthetic Turf Council, \"Considerations When Buying Synthetic Grass for Landscape Use\" (September 2013), p. 4",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The window-melt guide owns what to do about the glass; this page uses the note only for which polymer it names."
+  },
+  {
+    "id": "nylon-vs-polyethylene-turf.stc-scope-greens-pets",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council's landscape buying guidelines say they may not apply to specialized uses such as putting greens and pet areas, including dog parks and dog runs.",
+    "quote": "Note: These guidelines apply to synthetic grass for residential, commercial, or municipal landscape lawn applications. For specialized synthetic grass landscape applications, such as putting greens, pet applications including dog parks and dog runs, playgrounds, rooftops, etc., these guidelines may not apply.",
+    "source_url": "https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf",
+    "source_label": "Synthetic Turf Council, \"Considerations When Buying Synthetic Grass for Landscape Use\" (September 2013), p. 1",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The PDF hyphenates \"put-ting\" and \"the-se\" across lines; the quote joins them."
+  },
+  {
+    "id": "nylon-vs-polyethylene-turf.astroturf-nylon-wear",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "AstroTurf's turf glossary says nylon is the dominant fiber for commercial carpet because of how it wears, that nylon turf fibers resist abrasion, and that nylon is typically used in specialized applications.",
+    "quote": "Nylon is the dominant fiber choice for commercial carpet use due to its wear characteristics. … Nylon fibers are resistant to abrasion, making them less prone to wear and fraying, and they can maintain their shape and performance over an extended period. … It’s important to note that nylon fibers are typically used in specialized applications where their specific characteristics and performance benefits are desired.",
+    "source_url": "https://astroturf.com/synthetic-turf-glossary-of-terms/",
+    "source_label": "AstroTurf, \"A Comprehensive Guide to Understanding Artificial Turf Terminology\" (glossary), entry \"Nylon\"",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "A manufacturer's glossary, not a test. The same entry says nylon was invented in 1938; not used on the page."
+  },
+  {
+    "id": "nylon-vs-polyethylene-turf.astroturf-pe-pp",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "AstroTurf's glossary says polyethylene is more commonly used in synthetic turf than polypropylene and can be engineered for a softer texture, and that polypropylene is typically used where cost-effectiveness and lighter weight are priorities.",
+    "quote": "Polyethylene fibers can be engineered to have a softer texture, providing a more comfortable feel underfoot. … Polyethylene is generally more commonly used in synthetic turf due to its superior durability, softness, and overall performance characteristics. Polypropylene is typically employed in specific applications where cost-effectiveness and lighter weight are priorities.",
+    "source_url": "https://astroturf.com/synthetic-turf-glossary-of-terms/",
+    "source_label": "AstroTurf, \"A Comprehensive Guide to Understanding Artificial Turf Terminology\" (glossary), entries \"Polyethylene\" and \"Polypropylene\"",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The same glossary's polyethylene entry also calls PE heat resistant; the page does not repeat that, because the Dow patent and the melting points below say otherwise for turf yarn."
+  },
+  {
+    "id": "nylon-vs-polyethylene-turf.dow-pe-soft-not-heat-resistant",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A Dow patent on artificial turf yarn says conventional polyethylene turf yarns are soft but lack heat resistance.",
+    "quote": "Conventional blends of metallocene catalyzed polyethylenes and/or Ziegler-Natta catalyzed polyethylenes for artificial turf yarn are soft, yet unfortunately lack heat resistance. Therefore, a need exists for an artificial turf yarn that is soft, strong, and also heat resistant.",
+    "source_url": "https://patents.google.com/patent/US9040627B2/en",
+    "source_label": "U.S. Patent US9040627B2, \"Artificial turf yarn\" (Dow Global Technologies LLC), Background",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The patent measures heat resistance as shrinkage after 20 seconds in 90°C oil; not used on the page."
+  },
+  {
+    "id": "nylon-vs-polyethylene-turf.lankhorst-lldpe-lower-friction",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A turf-yarn patent says blade-to-skin friction should be low enough to avoid skin burns, and that linear low-density polyethylene has a lower coefficient of friction than polypropylene.",
+    "quote": "Yet another requirement is that the friction coefficient between the strands and the human skin should not be too large to avoid skin-burns on human skin sliding over the grass. … Linear low-density polyethylene has a lower coefficient of friction than polypropylene and is known by itself as a material from which the strands may be manufactured.",
+    "source_url": "https://patents.google.com/patent/US7611763B2/en",
+    "source_label": "U.S. Patent US7611763B2, \"Yarn for an artificial turf ground cover…\" (Lankhorst Indutech BV), Background",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "nylon-vs-polyethylene-turf.gogreen-melt-temperatures",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A turf company's 2021 patent application for an all-nylon artificial grass (since abandoned) puts nylon's melt temperature well above 400°F, at 428–509°F depending on the type, against about 239–275°F for polyethylene.",
+    "quote": "Nylon has been selected because it has a melt temperature well above 400 degrees Fahrenheit if not in a range of 428-509 degrees Fahrenheit depending on which type nylon is selected. This is believed to be a huge improvement over the prior art polypropylene and polyethylene options with polypropylene typically having a melt temperature of 266 degrees Fahrenheit and polyethylene having a typical melt temperature in the range of about 239-275 degrees Fahrenheit.",
+    "source_url": "https://patents.google.com/patent/US20210040698A1/en",
+    "source_label": "U.S. patent application US20210040698A1, \"Nylon Artificial Grass\" (Go Green Synthetic Lawn Solutions LLC; filed 2020-10-28, published 2021-02-11; status abandoned)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2021",
+      "400",
+      "428",
+      "509",
+      "239",
+      "275",
+      "266"
+    ],
+    "notes": "An interested party (it sells nylon turf). Its polypropylene figure (266°F) is lower than the University of Southern Mississippi's (not below 320°F), so the page takes polypropylene's figure from the university and only the nylon and polyethylene ranges from here, attributed. The source's 428-509 and 239-275 use ASCII hyphens; the fact uses en dashes."
+  },
+  {
+    "id": "nylon-vs-polyethylene-turf.gogreen-resilience",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same patent application says polypropylene and polyethylene blades that stay deformed for a long time may tend to keep the deformed shape.",
+    "quote": "Resiliency is also somewhat of an issue with polypropylene and polyethylene face fibers in that if they are deformed for a significant period of time, they may tend to retain their deformed shape.",
+    "source_url": "https://patents.google.com/patent/US20210040698A1/en",
+    "source_label": "U.S. patent application US20210040698A1, \"Nylon Artificial Grass\" (Go Green Synthetic Lawn Solutions LLC; published 2021-02-11; abandoned), Background",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "nylon-vs-polyethylene-turf.pslc-pp-pe-heat",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The University of Southern Mississippi's Polymer Science Learning Center says polypropylene doesn't melt below 160°C (320°F), while polyethylene anneals at around 100°C (about 212°F), enough to warp polyethylene dishes in a dishwasher.",
+    "quote": "It can do this because it doesn't melt below 160°C, or 320°F. Polyethylene, a more common plastic, will anneal at around 100°C, which means that polyethylene dishes will warp in the dishwasher.",
+    "source_url": "https://pslc.ws/macrog/pp.htm",
+    "source_label": "Polymer Science Learning Center, Dept. of Polymer Science, University of Southern Mississippi, \"Polypropylene\" (Macrogalleria)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "160",
+      "320",
+      "100",
+      "212"
+    ],
+    "notes": "The page prints the degree sign as a superscript o (160<sup>o</sup>C); the quote uses °. 212°F is the Fahrenheit conversion of 100°C, added in the fact, not in the source."
+  },
+  {
+    "id": "nylon-vs-polyethylene-turf.pslc-pp-outdoor-carpet",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Polymer Science Learning Center says polypropylene fiber makes the indoor-outdoor carpeting found around pools and miniature golf courses, partly because it doesn't absorb water the way nylon does.",
+    "quote": "As a fiber, polypropylene is used to make indoor-outdoor carpeting, the kind that you always find around swimming pools and miniature golf courses. It works well for outdoor carpet because it is easy to make colored polypropylene, and because polypropylene doesn't absorb water, like nylon does.",
+    "source_url": "https://pslc.ws/macrog/pp.htm",
+    "source_label": "Polymer Science Learning Center, Dept. of Polymer Science, University of Southern Mississippi, \"Polypropylene\" (Macrogalleria)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "nylon-vs-polyethylene-turf.nahb-focus-temperatures",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "NAHB reports that sunlight reflected by double-pane Low-E windows has measured above 200°F at its point of focus, and that focused readings stay under 250°F.",
+    "quote": "The heat from double paned low-e window reflected sunlight has been measured in excess of 200 degrees Fahrenheit at its point of focus … the temperature readings for focused reflected sunlight (less than 250 degrees F.) are well below the combustion temperature of wood – 451 degrees Fahrenheit.",
+    "source_url": "https://www.nahb.org/-/media/NAHB/advocacy/docs/legal-issues/construction-liability/builder-resources/sunlight-double-paned-low-e-windows-2014.pdf",
+    "source_label": "NAHB, \"Sunlight Reflected from Double-Paned Low-E Windows, and Damage to Vinyl Siding and Other Materials\" (D. Crump, 2014)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "200",
+      "250",
+      "451"
+    ]
+  },
+  {
+    "id": "nylon-vs-polyethylene-turf.psu-hottest-turf",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Penn State's Center for Sports Surface Research lists 200°F, on a 98°F day in Provo, Utah, as the highest synthetic turf temperature published in a research paper.",
+    "quote": "Highest temperature published in research paper: 200° F (93° C) on 98° F (37° C) day in Provo, UT (Williams and Pulley, 2002)",
+    "source_url": "https://plantscience.psu.edu/research/centers/ssrc/documents/temperature.pdf/@@download/file/temperature.pdf",
+    "source_label": "Penn State Center for Sports Surface Research, \"Surface Temperature of Synthetic Turf\" (presentation)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "200",
+      "93",
+      "98",
+      "37",
+      "2002"
+    ]
+  },
+  {
+    "id": "nylon-vs-polyethylene-turf.sgw-nylon-lawn-400f",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Synthetic Grass Warehouse's Nylon Premier Lawn is a 100% nylon lawn product about 1.50 inches tall with a 55-ounce face weight that its sheet says is built to withstand burns from Low-E window reflection, citing a melting point of 400°F, and lists for putting green fringe.",
+    "quote": "100% Nylon - Delivers superior performance, stronger than polyethylene. … Built to withstand burns caused by reflective UV light from low E-Windows. … Pile/Face Weight: Approx. 55 Ounces … Pile Height: Approx. 1.50 Inches … Combats UV window glare melting with a melting point of 400 degrees Fahrenheit … Ideal for heavy traffic landscape or play areas, as well as roof deck or putting green fringe applications",
+    "source_url": "https://sgw-media.s3.us-east-1.amazonaws.com/assets/spec-sheets/nylon-premier-lawn-ss.pdf",
+    "source_label": "Synthetic Grass Warehouse, Nylon Premier Lawn spec sheet (REV112425)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "recheck": "2027-03-25",
+    "numbers": [
+      "100",
+      "1.50",
+      "55",
+      "400"
+    ],
+    "status": "VERIFIED",
+    "notes": "The seller's own figure; no test method is named. The sheet's headline says tuft bind 16.5 lbs while its table says 8+ pounds; not used. Found through SGW's spec download page (https://syntheticgrasswarehouse.com/resources/product-information/product-spec-downloads/), where every lawn product but this one lists polyethylene blades."
+  },
+  {
+    "id": "nylon-vs-polyethylene-turf.sgw-nylon-putt",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Synthetic Grass Warehouse's Nylon Putt 2-Tone green is texturized nylon about 0.50 inches tall with a 36-ounce face weight, calls for 2.0 to 3.0 pounds of infill per square foot, and gives the care line \"Rinse and groom as needed to limit matting.\"",
+    "quote": "Type: Texturized Nylon … Composition/Structure: Nylon … Pile/Face Weight: Approx. 36 Ounces … Pile Height: Approx. 0.50 Inches … Weight: 2.0-3.0 Lbs Per Sq Ft* … Rinse and groom as needed to limit matting",
+    "source_url": "https://sgw-media.s3.us-east-1.amazonaws.com/assets/spec-sheets/nylon-putt-2tone-ss.pdf",
+    "source_label": "Synthetic Grass Warehouse, Nylon Putt 2-Tone spec sheet (REV112425)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "recheck": "2027-03-25",
+    "numbers": [
+      "2",
+      "0.50",
+      "36",
+      "2.0",
+      "3.0"
+    ],
+    "status": "VERIFIED",
+    "notes": "The infill weight sits under the sheet's \"Particulate Infill\" heading (Type: Quality Infill)."
+  },
+  {
+    "id": "nylon-vs-polyethylene-turf.sgw-poly-putt",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Synthetic Grass Warehouse's Poly Putt 2-Tone Dark green is texturized polyethylene about 0.50 inches tall with a 50-ounce face weight, calls for 1.5 to 2.5 pounds of infill per square foot, and gives the care line \"Rinse and groom as needed to limit matting.\"",
+    "quote": "Type: Texturized PE … Composition/Structure: Polyethylene … Pile/Face Weight: Approx. 50 Ounces … Pile Height: Approx. 0.50 Inches … Weight: 1.5-2.5 Lbs Per Sq Ft* … Rinse and groom as needed to limit matting",
+    "source_url": "https://sgw-media.s3.us-east-1.amazonaws.com/assets/spec-sheets/poly-putt-2tone-dark-ss.pdf",
+    "source_label": "Synthetic Grass Warehouse, Poly Putt 2-Tone Dark spec sheet (REV112425)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "recheck": "2027-03-25",
+    "numbers": [
+      "2",
+      "0.50",
+      "50",
+      "1.5",
+      "2.5"
+    ],
+    "status": "VERIFIED"
+  },
+  {
+    "id": "nylon-vs-polyethylene-turf.sgw-pp-40",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Synthetic Grass Warehouse's Putting Green PP 40 is polypropylene monofilament about 0.50 inches tall with a 40-ounce face weight, calls for 2 to 3 pounds of infill per square foot, and gives the care line \"Rinse and groom as needed to limit matting.\"",
+    "quote": "Type: Monofilament … Composition/Structure: PP … Pile/Face Weight: Approx. 40 Ounces … Pile Height: Approx. 0.50 Inches … Weight: 2-3 Lbs Per Sq Ft* … Rinse and groom as needed to limit matting",
+    "source_url": "https://sgw-media.s3.us-east-1.amazonaws.com/assets/spec-sheets/putting-green-pp-40-ss.pdf",
+    "source_label": "Synthetic Grass Warehouse, Putting Green PP 40 spec sheet (REV082826)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "recheck": "2027-03-25",
+    "numbers": [
+      "40",
+      "0.50",
+      "2",
+      "3"
+    ],
+    "status": "VERIFIED"
+  },
+  {
+    "id": "nylon-vs-polyethylene-turf.synlawn-847-pe-thatch",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's spec sheet for its SYNAugustine 847 lawn lists polyethylene for both the grass-zone blades and the thatch zone.",
+    "quote": "Grass Zone Yarn/Color PE / Sport Green/Apple/Olive … Thatch Zone Yarn/Color PE / Field Green/Beige",
+    "source_url": "https://www.synlawn.com/wp-content/uploads/2025/02/SYNLawn-SYNAugustine-847-S847B-USA.pdf",
+    "source_label": "SYNLawn, SYNAugustine 847 product specifications (SKU S847B)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "recheck": "2027-03-25",
+    "numbers": [
+      "847"
+    ],
+    "status": "VERIFIED"
+  },
+  {
+    "id": "nylon-vs-polyethylene-turf.synlawn-syncanine-pp-thatch",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's spec sheet for SYNCanine lists polyethylene grass-zone blades over a polypropylene thatch zone, with UV stabilizers among its features.",
+    "quote": "Grass Zone Yarn/Color PE / Field/Apple/Dark Green … Thatch Zone Yarn/Color PP / Olive Green/Beige … Features Deluster, UV Stabilizers",
+    "source_url": "https://www.synlawn.com/wp-content/uploads/2025/02/SYNLawn-SYNCanine-SWN60-USA.pdf",
+    "source_label": "SYNLawn, SYNCanine product specifications (SKU SWN60)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "recheck": "2027-03-25",
+    "numbers": [],
+    "status": "VERIFIED",
+    "notes": "The pet-turf guide compares this product as pet turf; this page uses it only for the thatch yarn."
+  },
+  {
+    "id": "nylon-vs-polyethylene-turf.synlawngolf-nylon-greens-sand",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn Golf, which sells nylon putting greens, says nylon greens are mostly fiber with very little sand, while polypropylene greens use a large amount of sand that has to be replenished.",
+    "quote": "Nylon putting greens offer a great deal of flexibility during installation because they are mostly fiber with very little use of sand. … Due to the large amount of sand used for polypropylene greens, it is necessary that they are replenished to maintain proper infill levels.",
+    "source_url": "https://www.synlawngolf.com/the-nylon-advantage/",
+    "source_label": "SYNLawn Golf, \"The Nylon Advantage\" (manufacturer page)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "recheck": "2027-03-25",
+    "numbers": [],
+    "status": "VERIFIED",
+    "notes": "Marketing by a nylon-green seller. The brief's URL (/nylon-greens-advantage/) now 404s; the page moved to /the-nylon-advantage/. The sand-filled vs non-infilled putting green guide owns the sand question and the Firestone greens question."
+  },
+  {
+    "id": "nylon-vs-polyethylene-turf.k9grass-elite-nylon",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "ForeverLawn's specification for K9Grass Elite, a dog-specific surface, lists nylon monofilament face yarns in a knitted construction and says no infill is to be used.",
+    "quote": "Face Yarn Type: Primary: Nylon monofilament; Secondary: Heat set textured nylon monofilament containing antimicrobial agent … Construction: Knitted … No infill material is to be used.",
+    "source_url": "https://k9grass.com/wp-content/uploads/2022/06/K9GrassOutdoor-Elite-CSI-M683-1220.pdf",
+    "source_label": "ForeverLawn, K9Grass Elite dog-specific synthetic grass outdoor surface specifications (CSI)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "recheck": "2027-03-25",
+    "numbers": [],
+    "status": "VERIFIED"
+  },
+  {
+    "id": "nylon-vs-polyethylene-turf.smartturf-nylon-cost",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Smart Turf, which sells nylon turf, says nylon turf tends to cost more than polyethylene and polypropylene turf.",
+    "quote": "Nylon artificial turf tends to be more expensive than other synthetic turf options like polyethylene and polypropylene.",
+    "source_url": "https://smartturf.com/the-game-changing-nylon-landscape-artificial-turf",
+    "source_label": "Smart Turf, \"The Game Changing Nylon Landscape Artificial Turf\" (manufacturer blog), \"Cons of Nylon Artificial Turf\"",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "numbers": [],
+    "status": "VERIFIED",
+    "notes": "The same post gives melting points (nylon 428°F, polyethylene 221–275°F, polypropylene 320–330°F); not used, the page takes its figures from the university page, the patent application and the SGW sheet."
+  },
+  {
+    "id": "nylon-vs-polyethylene-turf.firestone-blade-materials",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone's turf standard requires blades and backing of lead-free polyethylene, polypropylene, a vegetable-based product or a blend of the three, prohibits nylon or other plastic blades, and requires blade colors that include a tan thatch layer.",
+    "quote": "The blade material shall be made of either lead-free polyethylene, polypropylene, vegetable based product or a blend of the three (3). Nylon or other plastic shall be prohibited. ii. Backing. (A) The backing shall be of a lead-free polyethylene, polypropylene, vegetable based product or a blend of the three (3). … Blade yarn colors shall mimic natural turf including green blade color(s) and include a tan thatch layer.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+    "source_label": "Firestone Development Code 16.6.4.F.2.c–d (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "recheck": "2026-12-24",
+    "numbers": [],
+    "status": "VERIFIED",
+    "notes": "Read 2026-09-25 through Municode's content API (api.municode.com/CodesContent, jobId 488870, productId 18062). Whether the rule reaches a backyard putting green is the sand-filled vs non-infilled putting green guide's question; this page states the rule in one sentence and links there."
+  },
+  {
+    "id": "nylon-vs-polyethylene-turf.epa-uv-elevation",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The EPA says UV intensity increases about 6% per kilometer of elevation above sea level.",
+    "quote": "UV intensity increases about 6% per kilometer elevation above sea level.",
+    "source_url": "https://www.epa.gov/sunsafety/learn-about-uv-index",
+    "source_label": "U.S. EPA, \"Learn About the UV Index\"",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "numbers": [
+      "6"
+    ],
+    "status": "VERIFIED",
+    "notes": "The fade guide works the percentage out per NOAA station (about 9% over sea level); this page cites the rule and links there."
+  }
+]

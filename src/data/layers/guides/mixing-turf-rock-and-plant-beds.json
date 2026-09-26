@@ -1,0 +1,274 @@
+[
+  {
+    "id": "mixing-turf-rock-and-plant-beds.cgs-sp14-planting-distances",
+    "layer": "soil",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Geological Survey's guide to landscaping on swelling soil blames poorly planned lawn and shrub watering for much of the damage to houses on those soils; it says not to plant flowers or shrubs closer than 5 feet from the foundation unless they need very little water and are hand watered, not to let sprinklers spray closer than 5 feet, and not to plant trees closer than 15 feet, because a tree near the house can draw moisture from beneath the floor slab and the alternate wetting and drying can heave and crack it.",
+    "quote": "Poorly planned lawn and shrub watering is the direct cause of much of the damage sustained by houses on swelling soils. If your house is located on swelling soils, some basic ground rules are: (1) do not plant flowers or shrubs closer than 5 feet from the foundation, unless they have very low water requirements and are hand watered. … (2) sprinkler systems should not spray any closer than 5 feet from the foundation. (3) trees should not be planted closer than 15 feet from the foundation. … If a tree is planted near the foundation of a house, it can draw moisture from beneath the floor slab. During winter and spring, the moisture removed by the tree is partially replaced by rain and snowmelt. This alternate wetting and drying of the soils can result in heaving and cracking of the floor slab.",
+    "source_url": "https://coloradogeologicalsurvey.org/wp-content/uploads/woocommerce_uploads/SP-14.pdf",
+    "source_label": "Colorado Geological Survey SP-14, Home Landscaping and Maintenance on Swelling Soil (Jochim, 1981; revised fifth printing 1987)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "14",
+      "5",
+      "15",
+      "1981",
+      "1987"
+    ],
+    "notes": "Read with curl and pdftotext 2026-09-25 (Vegetation section, p. 18). The PDF's text layer splits \"foundat ion\" in rule (1); the quote joins it. The guide adds that native or comparable low-water groundcovers can be an exception near the foundation."
+  },
+  {
+    "id": "mixing-turf-rock-and-plant-beds.cgs-sp14-gravel-edging",
+    "layer": "soil",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same guide says an edging of gravel over non-woven geotextile fabric, extending at least 5 feet out from the house, keeps water from soaking into the soil next to the foundation; that turning a whole lawn into rock increases runoff and radiated heat, which in summer can feel like living in a parking lot; and that many people use rock only in selected areas, with gravel edgings, rock gardens or groundcover and perhaps a limited central lawn.",
+    "quote": "In fact an edging of gravel and geotextile fabric can be used very effectively around a house to prevent percolation of water into the soils next to the foundation. When used for this purpose, the edging should extend at least 5 feet out from the house. … It is important that a good quality, non-woven geotextile fabric be used. … One of the major effects of replacing grass with crushed rock or gravel is an increase in surface runoff. … Chief among these is the dramatic increase in radiated heat. In the summer it can be comparable to living in the middle of a parking lot. … Many people take advantage of the positive aspects of landscaping with rock while minimizing the disadvantages by using it only in selected areas of the yard. By using gravel edgings with rock gardens or groundcover and perhaps a limited central area of lawn, one can create an attractive, relatively low maintenance landscape.",
+    "source_url": "https://coloradogeologicalsurvey.org/wp-content/uploads/woocommerce_uploads/SP-14.pdf",
+    "source_label": "Colorado Geological Survey SP-14, Home Landscaping and Maintenance on Swelling Soil (Jochim, 1981; revised fifth printing 1987)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "14",
+      "5",
+      "1981",
+      "1987"
+    ],
+    "notes": "Read 2026-09-25, pp. 19-20 (Landscaping with rock or gravel). The fabric here is a moisture barrier at the foundation, not weed control in beds; CSU says weed fabric is not needed under bed mulch (artificial-turf-vs-xeriscape.csu-7234-weeds-no-fabric). \"Lawn\" in the guide is living grass."
+  },
+  {
+    "id": "mixing-turf-rock-and-plant-beds.cgs-sp14-downspouts",
+    "layer": "soil",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same guide says roof water should be discharged no closer than 5 feet from the foundation, usually through a downspout extension that stays down, and shows removing the extension so storm runoff waters a flower bed as a common mistake.",
+    "quote": "Splashblocks should be long enough and sloped enough to carry all water well away from the foundation and beyond the backfill area. Water should be discharged no closer than 5 feet from the foundation. Usually it is necessary to add a downspout extension in order to get the water far enough away from the foundation. … The extension should be left down at all other times. … People often remove the downspout extension so that their flower bed can be watered by storm runoff.",
+    "source_url": "https://coloradogeologicalsurvey.org/wp-content/uploads/woocommerce_uploads/SP-14.pdf",
+    "source_label": "Colorado Geological Survey SP-14, Home Landscaping and Maintenance on Swelling Soil (Jochim, 1981; revised fifth printing 1987)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "14",
+      "5",
+      "1981",
+      "1987"
+    ],
+    "notes": "Read 2026-09-25, p. 19 (Figure 22 caption) and p. 23 (gutter and downspout maintenance)."
+  },
+  {
+    "id": "mixing-turf-rock-and-plant-beds.csfs-zone-1",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado State Forest Service says homes in or near the natural vegetation of Colorado's grasslands, shrublands, foothills or mountains are in the wildland-urban interface, treats the first 5 feet around a home as the zone that needs the most vigilant work, recommends nonflammable hard surfaces there such as rock, gravel, sand, cement, bare earth or stone or concrete pavers, and says to remove flammable vegetation, shrubs and mulch from it.",
+    "quote": "If your home is located in or near the natural vegetation of Colorado’s grasslands, shrublands, foothills or mountains, you live in the wildland-urban interface … 0-5 FEET FROM THE HOME The area nearest the home. This zone requires the most vigilant work in order to reduce or eliminate ember ignition and direct flame contact with your home. … GOAL: This zone is designed to prevent flames from coming in direct contact with the structure. Use nonflammable, hard surface materials in this zone, such as rock, gravel, sand, cement, bare earth or stone/concrete pavers. CRITICAL STEPS Remove all flammable vegetation, including shrubs, slash, mulch and other woody debris.",
+    "source_url": "https://csfs.colostate.edu/wp-content/uploads/2021/04/2021_CSFS_HIZGuide_Web.pdf",
+    "source_label": "Colorado State Forest Service, The Home Ignition Zone: A guide to preparing your home for wildfire and creating defensible space (2021)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "0",
+      "5",
+      "2021"
+    ],
+    "notes": "Read with curl and pdftotext 2026-09-25. The PDF's text layer drops the \"fl\" ligature (\"fammable\", \"fames\"); the quote restores the printed words. The checklist box glyph before \"Remove\" is omitted. Whether artificial turf belongs in this zone is is-artificial-turf-flammable's question, not this record's."
+  },
+  {
+    "id": "mixing-turf-rock-and-plant-beds.csu-7234-lawn-trouble-spots",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension's xeriscape retrofit fact sheet names lawn along fences, on slopes, in corners, in narrow strips between the house and a walk or driveway, and in irregular shapes as the lawn hardest to water and maintain, and suggests turning odd-shaped leftovers into xeric plantings or hardscape.",
+    "quote": "Turf is not always appropriate though, and you may wish to remove turf as part of your xeriscaping plan, particularly lawn areas that are difficult to water and maintain. These include: Along fences … On slopes where water tends to run off and/or mowing is difficult or dangerous … Corners of lawns where it is hard to water without overlapping into other areas … Narrow strips of lawn between the house and sidewalk or driveway … Irregularly shaped lawn areas that do not fit the spray pattern of most sprinklers",
+    "source_url": "https://extension.colostate.edu/resource/xeriscaping-retrofit-your-yard/",
+    "source_label": "CSU Extension Fact Sheet 7.234, Xeriscaping: Retrofit Your Yard (reviewed August 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "7.234",
+      "2025"
+    ],
+    "notes": "Read with curl 2026-09-25. The list items are separate bullets on the page; \" … \" marks the breaks. CSU means living turfgrass, so the page may use the list only as a list of awkward places, not as a claim about artificial turf."
+  },
+  {
+    "id": "mixing-turf-rock-and-plant-beds.csu-7234-hydrozones-phases",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same fact sheet says to group plants with similar water needs in one irrigation zone, a hydrozone, instead of mixing high- and low-water plants, to consider converting a large area in phases, and to start with an area small enough to keep weeded because new xeriscapes need regular maintenance.",
+    "quote": "If the area you’ve chosen is large or if you are new to gardening in Colorado, consider implementing your new landscape in phases so you can get an idea of your new garden’s maintenance needs, and which plants do well in your yard. … Do not group plants with different water needs together in the same irrigation zone. … Group plants with similar water needs together in a “hydrozone” so they can be effectively watered for best plant health. Be careful not to over-commit. New xeriscapes, like any new garden, require maintenance to keep them weed-free and growing. Start your transformation with an area of manageable size for you and have a maintenance plan",
+    "source_url": "https://extension.colostate.edu/resource/xeriscaping-retrofit-your-yard/",
+    "source_label": "CSU Extension Fact Sheet 7.234, Xeriscaping: Retrofit Your Yard (reviewed August 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "7.234",
+      "2025"
+    ]
+  },
+  {
+    "id": "mixing-turf-rock-and-plant-beds.fcu-xip-residential",
+    "layer": "rebate",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins Utilities' Xeriscape Incentive Program pays residential water customers $0.75 per square foot, up to 1,000 square feet or $750 per approved project; the application needs a landscape plan, a watering plan and a plant list, a customer meeting comes before any turf is removed, and city code requires amending the soil with 3 cubic yards per 1,000 square feet when more than 1,000 square feet of grass is replaced with new plants.",
+    "quote": "Residential customers (homes and rental properties) can receive $0.75/square foot up to 1,000 square feet, or up to $750, per approved project, per address. … Landscape Plan … Irrigation Plan (only for customers who have an irrigation system or plan to install one) … Watering Plan … Plant List … We require customer meetings before you start your turf removal project. … Following application approval, you will have one year to complete your project. … City code requires residents to amend their soil when more than 1,000 square feet of grass is physically removed and replaced with new plant material by adding 3 cubic yards/1,000 square feet in planted areas.",
+    "source_url": "https://www.fortcollins.gov/Services/Utilities/Programs-and-Rebates/Water-Programs/XIP",
+    "source_label": "Fort Collins Utilities, Xeriscape Incentive Program (XIP), residential",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2027-02-01",
+    "numbers": [
+      "0.75",
+      "1000",
+      "750",
+      "3"
+    ],
+    "notes": "Akamai returns 403 to curl; read through WebFetch 2026-09-25 as the page's own markdown. The sentence \"Requires 50% plant coverage at maturity in the renovation area\" is printed inside the \"*Native bonus rebate\" paragraph (the extra $0.25/sq ft for 80% Colorado-native plants), so this record does not state it as a rule for the base rebate. The shared record fcu-xip-2026 states it as a general rule: EDITOR, confirm in a browser or the XIP Participant Packet. The page names no artificial-turf rule either way."
+  },
+  {
+    "id": "mixing-turf-rock-and-plant-beds.firestone-e4c-integrated",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "For single-family and duplex homes, Firestone's code allows artificial turf under its turf standard if it is integrated into the overall landscape design and subject to Town approval.",
+    "quote": "4. Single-family and duplex dwelling units. … c. Artificial turf may be installed pursuant to Subsection 16.6.4.F.2 if integrated into the overall landscape design and subject to Town approval.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+    "source_label": "Firestone Development Code 16.6.4.E.4.c (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "4"
+    ],
+    "notes": "Read 2026-09-25 in the Municode API capture of Chapter 6 (api.municode.com CodesContent, jobId 488870, productId 18062); the library page renders by script. E.4.a–b are the live-plant shares in firestone-fdc-16.6.4-live-plant-limit; E.6.f repeats the sentence for non-residential sites (firestone-co.fdc-16.6.4-nonresidential-turf)."
+  },
+  {
+    "id": "mixing-turf-rock-and-plant-beds.ptarmigan-west-rear-turf-25",
+    "layer": "housing",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Ptarmigan West Metro District No. 2's design guidelines in Windsor allow artificial turf in rear yards only, up to 25% of the rear yard.",
+    "quote": "Artificial Turf: Artificial Turf is allowed in rear yards only up to 25% of the rear yard.",
+    "source_url": "https://pwmd1.specialdistrict.org/files/3deb93af5/03+PWMD+Rules+and+Regulations+-+Design+Guidelines.pdf",
+    "source_label": "Ptarmigan West Metro District No. 2, Rules and Regulations/Design Guidelines, Artificial Turf (posted undated)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "25",
+      "2"
+    ],
+    "notes": "Read with curl and pdftotext 2026-09-25; the document is headed \"Dated _____\". The same guidelines cap non-living materials at 30% of front-yard landscaping and of back yards not fully screened by a fence at least 5 feet high (windsor-co.ptarmigan-west-nonliving-30) and do not say whether turf counts as non-living. Colorado law makes a special-district rule that prohibits backyard turf unenforceable (co-special-district-backyard); whether a percentage cap is a permitted design guideline or a partial prohibition is untested. Pages say not legal advice."
+  },
+  {
+    "id": "mixing-turf-rock-and-plant-beds.heron-lakes-bed-placement",
+    "layer": "housing",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Heron Lakes' design rules in Berthoud allow only turf, ornamental grasses or perennials near utility lines, ask for significant foundation plantings at the front entry and sides of the house and for the outdoor use areas to go in the rear with privacy screening, require at least 3 inches of shredded wood or rock mulch in beds, and reject a wall of vegetation enclosing the lot or bed and mulch areas over 10 square feet without significant plantings.",
+    "quote": "Where utilities extend through the landscape and connect to the home: turf, ornamental grasses or perennial flowers should be the only landscape in proximity to these utilities (avoid shrubs and trees). b. The front entry and sides of the house should have significant foundation plantings that are complementary to the architecture of the house. The rear area of the house should contain the outdoor use areas and have adequate screening to protect the privacy and view of the Owner as well as the surrounding neighbors. c. … Utility pedestal and transformer should have at least a 3foot clearance. Do not plant trees or larger shrubs over home service lines. d. It is required that planting beds utilize shredded wood or rock mulch at least 3” in depth. e. Because of the park-like setting and open feeling of Heron Lakes Community, perimeter plantings should be developed with openings in the landscaping. A “wall” of vegetation, which encloses the whole lot, is unacceptable. f. Large expanses of mulch or bed areas in excess of 10 square feet without significant plantings are unacceptable.",
+    "source_url": "https://www.berthoudheritagemd.live/s/Heron-Lakes-Design-Rules-and-Regulations-June-1-2026.pdf",
+    "source_label": "Berthoud-Heritage Metropolitan District, Heron Lakes Residential Improvement Rules and Regulations (amended June 1, 2026), Sec. 4.8(a)-(f)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "10",
+      "1",
+      "2026",
+      "4.8"
+    ],
+    "notes": "Read with curl and pdftotext 2026-09-25 (pp. 80-81). \"3foot\" is as printed. \"Turf\" in the utilities sentence is not defined; Sec. 4.4 allows non-irrigated artificial turf as xeriscape and keeps the required plantings (berthoud-co.heron-xeriscape-artificial-turf). Sec. 4.8(a), beds on 25% of the site, is berthoud-co--heron-lakes.planting-beds-evergreen."
+  },
+  {
+    "id": "mixing-turf-rock-and-plant-beds.heron-lakes-golf-screening",
+    "layer": "housing",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Heron Lakes' design rules ask every lot next to the golf course for an enhanced landscape as seen from the course, with well-placed canopy, ornamental and evergreen trees and shrub screening.",
+    "quote": "4.5 Landscape Screening from the Golf Course. Care should be taken in the landscape architectural design for any lot that is adjacent to the golf course to provide an enhanced landscape as seen from the golf course. … The quality of the experience on the golf course will be enhanced with quality, well thought out placement of canopy, ornamental, and evergreen trees as well as shrub screening.",
+    "source_url": "https://www.berthoudheritagemd.live/s/Heron-Lakes-Design-Rules-and-Regulations-June-1-2026.pdf",
+    "source_label": "Berthoud-Heritage Metropolitan District, Heron Lakes Residential Improvement Rules and Regulations (amended June 1, 2026), Sec. 4.5",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4.5",
+      "1",
+      "2026"
+    ]
+  },
+  {
+    "id": "mixing-turf-rock-and-plant-beds.heron-lakes-shrub-spacing",
+    "layer": "housing",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Heron Lakes' design rules space small and medium shrubs, 2 to 4 feet tall, about 3 feet on center and large shrubs, 5 to 10 feet, about 5 feet on center, and have both drawn on the plan at two-thirds of their mature size.",
+    "quote": "g. Small and medium shrubs, 2’ to 4’ should typically be planted 3’ on center and be a minimum of 5-gallon size. These shrubs should be indicated on the plan as circles measuring the size of the plant at 2/3 maturity. h. Large shrubs 5’ to 10’ should typically be planted 5’ on center and be either 5gallon size or balled and burlapped. These shrubs should be indicated on the plan as circles measuring the size of the plant at 2/3 maturity.",
+    "source_url": "https://www.berthoudheritagemd.live/s/Heron-Lakes-Design-Rules-and-Regulations-June-1-2026.pdf",
+    "source_label": "Berthoud-Heritage Metropolitan District, Heron Lakes Residential Improvement Rules and Regulations (amended June 1, 2026), Sec. 4.8(g)-(h)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "4",
+      "3",
+      "5",
+      "10",
+      "1",
+      "2026",
+      "4.8",
+      "2/3"
+    ],
+    "notes": "Read with curl and pdftotext 2026-09-25 (p. 81). \"5gallon\" is as printed."
+  },
+  {
+    "id": "mixing-turf-rock-and-plant-beds.kitchel-lake-plans-aspens",
+    "layer": "housing",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Kitchel Lake's rules in Timnath ask landscape plans to show rock areas, planting beds, mulch areas and edging among other features, and bar aspens and other water-seeking root plants within 15 feet of the foundation.",
+    "quote": "Plans shall depict types and locations of: fencing, decks, playing areas, sod, seeded areas, edging, retaining walls, rock areas, sprinkler systems, flower beds/gardens, other planting beds, mulch areas, landscape lighting and any other components of the proposed plan. Aspen trees and other water-seeking root plants may not be placed within 15 feet of the foundation.",
+    "source_url": "https://www.serratogafallsmd1.org/files/6b86004a3/Rules+and+Regs_SFMD1+-+Approved.pdf",
+    "source_label": "Serratoga Falls Metropolitan District #1, Rules and Regulations, Kitchel Lake, Filing 3 (adopted March 30, 2023), No. 37 Landscaping and Irrigation",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "15",
+      "1",
+      "3",
+      "30",
+      "2023",
+      "37"
+    ],
+    "notes": "Read with curl and pdftotext 2026-09-25. The same item caps non-living materials at 40% of front- and back-yard landscaping (timnath-co.kitchel-lake-nonliving-cap)."
+  }
+]

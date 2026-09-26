@@ -1,0 +1,522 @@
+[
+  {
+    "id": "how-hot-does-artificial-turf-get.review-surface-range",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A 2024 systematic review of 23 studies found synthetic grass surfaces 9.4 to 33.7°C (about 17 to 61°F) hotter than natural grass, and the air just above them 0.5 to 1.2°C (about 1 to 2°F) warmer.",
+    "quote": "Twenty-three studies were identified. The only parameters that were consistently higher on synthetic grass compared to natural grass were the air temperature (range: 0.5–1.2 °C) and surface temperature (range: 9.4–33.7 °C), while the mean radiant temperature, humidity, wind velocity and wet-bulb-globe temperature remained similar or required more data to determine if any differences exist.",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11272752/",
+    "source_label": "Singh, Peterson, Jay and Stevens, The effect of synthetic grass sports surfaces on the thermal environment: a systematic review (International Journal of Biometeorology, 2024)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2024",
+      "23",
+      "9.4",
+      "33.7",
+      "17",
+      "61",
+      "0.5",
+      "1.2",
+      "1",
+      "2"
+    ],
+    "notes": "Peer-reviewed, open access (CC BY). Read in full on PMC and in the Deutsche Nationalbibliothek deposit of the same PDF. The °F figures are conversions of the review's °C differences (×1.8), rounded."
+  },
+  {
+    "id": "how-hot-does-artificial-turf-get.review-overcast",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same review found synthetic grass still 13.7 to 20.9°C (about 25 to 38°F) hotter than natural grass at its peak under overcast skies, and hotter in every study regardless of weather, sky or turf fibre.",
+    "quote": "The smallest differences in maximum surface temperatures were in overcast conditions, with synthetic grass temperatures still exceeding natural grass by 20.9 °C (Liu and Jim 2021) and 13.7 °C (Jim 2017). Overall, surface temperatures were consistently higher on synthetic surfaces than natural grass across all studies, regardless of the environmental conditions, turf fibres used or the sky conditions.",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11272752/",
+    "source_label": "Singh, Peterson, Jay and Stevens, The effect of synthetic grass sports surfaces on the thermal environment: a systematic review (International Journal of Biometeorology, 2024)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "13.7",
+      "20.9",
+      "25",
+      "38",
+      "2021",
+      "2017"
+    ],
+    "notes": "°F figures are conversions of the °C differences (×1.8), rounded."
+  },
+  {
+    "id": "how-hot-does-artificial-turf-get.review-shade",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "In a 2022 study of playground surfaces tabulated by the review, synthetic grass with 30 mm fibres averaged 57.5°C (about 136°F) in the sun, peaking at 80.1°C (about 176°F), but 32.2°C (about 90°F) in the shade, peaking at 42.1°C (about 108°F), the same average as natural grass in the sun.",
+    "quote": "Surface temperature (Mean ± SD): Synthetic grass (30 mm fibres) in the sun = 57.5 °C ± 14.4 °C Surface temperature (Mean ± SD): Synthetic grass (30 mm fibres) in the shade = 32.2 °C ± 7.7 °C … Surface temperature (maximum): Synthetic grass (30 mm fibres) in the sun = 80.1 °C Surface temperature (maximum): Synthetic grass (30 mm fibres) in the shade = 42.1 °C … Surface temperature (Mean ± SD): Natural grass in the sun = 32.2 °C ± 5.6 °C",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11272752/",
+    "source_label": "Singh, Peterson, Jay and Stevens, The effect of synthetic grass sports surfaces on the thermal environment: a systematic review (International Journal of Biometeorology, 2024), Table 1: Pfautsch, Wujeska-Klause and Walters (2022)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2022",
+      "30",
+      "57.5",
+      "136",
+      "80.1",
+      "176",
+      "32.2",
+      "90",
+      "42.1",
+      "108",
+      "14.4",
+      "7.7",
+      "5.6"
+    ],
+    "notes": "Values are the review's extraction of Pfautsch S, Wujeska-Klause A, Walters J (2022), Outdoor playgrounds and climate change, Building and Environment 223, doi 10.1016/j.buildenv.2022.109500. The original paper returned 403 to automated fetch and was not read; say 'tabulated by the review'. °F are conversions, rounded."
+  },
+  {
+    "id": "how-hot-does-artificial-turf-get.review-cooling-products",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The review found that TPE infill, sun-reflecting 'cool climate' fibres and a water-storing infill product each lowered surface temperature against standard synthetic grass, but surfaces with the fibres or the water-storing product were still significantly hotter than natural grass.",
+    "quote": "Synthetic grass surfaces consisting of styrene butadiene rubber infill or a shock pad had increased surface temperatures, whereas surfaces with thermoplastic elastomer infill, Cool climate turf fibres or HydroChill had lower surface temperatures. … Surface temperatures on third-generation synthetic grass with Cool climate (mean: 40.1 °C ± 12.8 °C vs. 27.6 °C ± 7.4 °C; Petrass et al. 2014b) turf fibres or HydroChill (mean: 67.0 °C ± 10.7 °C vs. 33.3 °C ± 1.1 °C; Wardenaar et al. 2022) were still significantly higher than natural grass.",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11272752/",
+    "source_label": "Singh, Peterson, Jay and Stevens, The effect of synthetic grass sports surfaces on the thermal environment: a systematic review (International Journal of Biometeorology, 2024)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "40.1",
+      "12.8",
+      "27.6",
+      "7.4",
+      "2014",
+      "67.0",
+      "10.7",
+      "33.3",
+      "1.1",
+      "2022"
+    ],
+    "notes": "Copy names no product. The review's Table 1 extraction for the water-storing product is internally inconsistent (surface and air columns appear swapped), so the page quotes no temperature for it."
+  },
+  {
+    "id": "how-hot-does-artificial-turf-get.review-how-cooling-works",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The review explains that 'cool climate' fibres work by reflecting sunlight, which could raise the radiant heat just above the surface, and that the water-storing product works by holding moisture in the infill.",
+    "quote": "Cool climate turf fibres are designed to reflect sunlight and disperse heat into the surrounding environment, thus reducing surface temperatures (Petrass et al. 2014b). However, the increased reflectance could elevate the mean radiant temperature directly above the surface, potentially increasing the capacity for heat gain for exercising individuals. When the HydroChill product is added to a synthetic surface it promotes moisture storage within the infill, attenuating the rise in surface heat (Wardenaar et al. 2022).",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11272752/",
+    "source_label": "Singh, Peterson, Jay and Stevens, The effect of synthetic grass sports surfaces on the thermal environment: a systematic review (International Journal of Biometeorology, 2024)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2014",
+      "2022"
+    ]
+  },
+  {
+    "id": "how-hot-does-artificial-turf-get.psu-turf-vs-grass",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Penn State's Center for Sports Surface Research says synthetic turf generally runs 35 to 55°F hotter than natural grass, which commonly reads 75 to 95°F on a hot day, stays below the air temperature and very rarely tops 100°F because its leaves release water vapor that cools them, and it names the fibers as a major contributor to turf's heat.",
+    "quote": "Over 100° F (38° C) - very rare on natural grass – Commonly 75° to 95° F (25° to 35° C) on hot day – Less than air temperature • Generally, synthetic turf 35° to 55° F (20° to 30° C) hotter than natural grass … Why don’t natural grass “fibers” produce heat? • Grass leaves transpire – Release water vapor – Evaporation causes cooling … What does this tell us? • Fibers are a major contributor to high surface temperatures",
+    "source_url": "https://plantscience.psu.edu/research/centers/ssrc/documents/temperature.pdf/@@download/file/temperature.pdf",
+    "source_label": "Penn State Center for Sports Surface Research, Surface Temperature of Synthetic Turf (presentation)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "35",
+      "55",
+      "75",
+      "95",
+      "100",
+      "38",
+      "25",
+      "20",
+      "30"
+    ],
+    "notes": "Slide deck by T.J. Serensits (PDF metadata, 2011). Read in full with pdftotext."
+  },
+  {
+    "id": "how-hot-does-artificial-turf-get.psu-highest-readings",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Penn State reports that the highest synthetic turf temperature published in research was 200°F on a 98°F day in Provo, Utah, and that turf in central Pennsylvania has reached 175°F.",
+    "quote": "Highest temperature published in research paper: 200° F (93° C) on 98° F (37° C) day in Provo, UT (Williams and Pulley, 2002) • Central PA: 175° F (79° C) (McNitt et al., 2008; McNitt and Petrunak, 2010)",
+    "source_url": "https://plantscience.psu.edu/research/centers/ssrc/documents/temperature.pdf/@@download/file/temperature.pdf",
+    "source_label": "Penn State Center for Sports Surface Research, Surface Temperature of Synthetic Turf (presentation)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "200",
+      "98",
+      "175",
+      "93",
+      "37",
+      "2002",
+      "79",
+      "2008",
+      "2010"
+    ]
+  },
+  {
+    "id": "how-hot-does-artificial-turf-get.psu-when-hot",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Penn State says synthetic surfaces get hottest in sunny, clear, low-humidity, cloudless weather from noon to 3 p.m., and cool down under cloud cover and in high humidity or haze.",
+    "quote": "When do surfaces get hot? • Sunny/Clear • Low humidity • No clouds • Noon – 3:00 PM … When do surfaces cool down? Cloud Cover … High Humidity/Haze",
+    "source_url": "https://plantscience.psu.edu/research/centers/ssrc/documents/temperature.pdf/@@download/file/temperature.pdf",
+    "source_label": "Penn State Center for Sports Surface Research, Surface Temperature of Synthetic Turf (presentation)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3"
+    ]
+  },
+  {
+    "id": "how-hot-does-artificial-turf-get.psu-watering-rebound",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Penn State reports that watering cools synthetic turf only briefly: in Brigham Young University's test, 30 minutes of water took the surface from 174°F to 85°F, but it was back to 120°F 5 minutes later and 164°F after 20 minutes.",
+    "quote": "Watering reduces surface temperature for a short period of time • Williams and Pulley, 2002 – Watering for 30 minutes dropped temperature from 174° F (79° C) to 85° F (29° C) – After 5 minutes: 120° F (49° C) – After 20 minutes: 164° F (73° C)",
+    "source_url": "https://plantscience.psu.edu/research/centers/ssrc/documents/temperature.pdf/@@download/file/temperature.pdf",
+    "source_label": "Penn State Center for Sports Surface Research, Surface Temperature of Synthetic Turf (presentation)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "30",
+      "174",
+      "85",
+      "120",
+      "5",
+      "164",
+      "20",
+      "2002",
+      "79",
+      "29",
+      "49",
+      "73"
+    ],
+    "notes": "The BYU report itself gives the same 174, 85, 120 and 164°F figures (see byu-surface-comparison)."
+  },
+  {
+    "id": "how-hot-does-artificial-turf-get.psu-byu-120-guideline",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Penn State cites a Brigham Young University guideline of no use of its synthetic field above 120°F, and recommends practice in the mornings and evenings.",
+    "quote": "What Can Be Done Now? • Practice time – mornings and evenings – BYU guideline: no use above 120° F (49° C)",
+    "source_url": "https://plantscience.psu.edu/research/centers/ssrc/documents/temperature.pdf/@@download/file/temperature.pdf",
+    "source_label": "Penn State Center for Sports Surface Research, Surface Temperature of Synthetic Turf (presentation)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "120",
+      "49"
+    ]
+  },
+  {
+    "id": "how-hot-does-artificial-turf-get.psu-heat-lamp-fibers",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Under Penn State's heat lamps, bare fibers differed by color after an hour (white 128.7°F, green 138.6 to 140.5°F, black 144.3°F, silver 149.4°F), but over black rubber infill for 3 hours white and gold turf read 170.4 and 171.1°F, standard green 165.5°F and a heat-reflective green fiber 158.9°F.",
+    "quote": "Surface temperatures of various fibers after 1 hour under heat lamp … Silver 149.4 a† Black 144.3 b Green (FieldTurf Duraspine Pro) 140.5 bc Gold 139.8 bc Green (FieldTurf Revolution) 138.6 c Green (Astroflect) 137.9 c White 128.7 d … Surface temperatures of various fiber-infill combinations after 3 hours under heat lamp. … Gold Black Rubber 171.1 a† White Black Rubber 170.4 ab … Green Black Rubber 165.5 abcd … Green (AstroFlect) Black Rubber 158.9 e",
+    "source_url": "https://plantscience.psu.edu/research/centers/ssrc/documents/temperature.pdf/@@download/file/temperature.pdf",
+    "source_label": "Penn State Center for Sports Surface Research, Surface Temperature of Synthetic Turf (presentation)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "128.7",
+      "138.6",
+      "140.5",
+      "144.3",
+      "149.4",
+      "3",
+      "170.4",
+      "171.1",
+      "165.5",
+      "158.9",
+      "1",
+      "139.8",
+      "137.9"
+    ],
+    "notes": "Letters are the slide's significance groups (values sharing a letter are not significantly different). A lab test under heat lamps, not an outdoor yard. Copy names no product."
+  },
+  {
+    "id": "how-hot-does-artificial-turf-get.mcnitt-irrigation",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "In Penn State field plots, watering cooled synthetic turf to near natural-grass temperatures but not for long: temperatures rebounded after about 15 minutes, stayed lower than unwatered turf for up to 3 hours, and watering before dawn did little for the afternoon.",
+    "quote": "Many of the regimes tested were initially very successful in lowering surface temperature to that of natural turfgrass; however, these low temperatures could not be maintained for periods of time equal to the length of standard sporting events, although synthetic surfaces receiving irrigation did measure lower in surface temperature after 3 hr compared to unirrigated synthetic surfaces. … The temperatures rebounded somewhat after 15 minutes and then remained relatively stable for 90 and 210 minutes, respectively. … Predawn irrigation or tarping seems to have had little effect on the surface temperature of the synthetic turf later in the afternoon.",
+    "source_url": "https://plantscience.psu.edu/research/centers/ssrc/documents/temperature-irrigation.pdf",
+    "source_label": "McNitt, Petrunak and Serensits, Temperature Amelioration of Synthetic Turf Surfaces through Irrigation (Penn State; Acta Horticulturae 783, 2008)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "15",
+      "3",
+      "90",
+      "210"
+    ],
+    "notes": "Author manuscript hosted by Penn State; published as Acta Horticulturae 783:573–582 (2008), doi 10.17660/ActaHortic.2008.783.59."
+  },
+  {
+    "id": "how-hot-does-artificial-turf-get.mcnitt-test-humidity",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Penn State's watering tests ran on days with 33 to 39% relative humidity.",
+    "quote": "Air temperature during the test period averaged 23°C with 36% relative humidity … Air temperature during the test period averaged 30°C with 33% relative humidity … Air temperature averaged 25°C during this period with 39% relative humidity",
+    "source_url": "https://plantscience.psu.edu/research/centers/ssrc/documents/temperature-irrigation.pdf",
+    "source_label": "McNitt, Petrunak and Serensits, Temperature Amelioration of Synthetic Turf Surfaces through Irrigation (Penn State; Acta Horticulturae 783, 2008)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "33",
+      "39",
+      "23",
+      "36",
+      "30",
+      "25"
+    ]
+  },
+  {
+    "id": "how-hot-does-artificial-turf-get.mcnitt-water-beads",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "On the BYU field, the infill was so water-repellent that water beaded and ran across the surface, and after a 10-minute watering cycle the infill was wet only 1 to 2 mm deep.",
+    "quote": "The infill media was very hydrophobic and water was observed to bead-up and run over the surface rather than penetrate. After a 10-minute irrigation cycle, water was observed to be moving laterally over the surface while the infill media was only wet to an average depth of 1 - 2 mm.",
+    "source_url": "https://plantscience.psu.edu/research/centers/ssrc/documents/temperature-irrigation.pdf",
+    "source_label": "McNitt, Petrunak and Serensits, Temperature Amelioration of Synthetic Turf Surfaces through Irrigation (Penn State; Acta Horticulturae 783, 2008)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "10",
+      "1",
+      "2"
+    ],
+    "notes": "The author observed the BYU field on 19 May 2004 (same paragraph). A sports field with rubber infill, not a sand-filled yard."
+  },
+  {
+    "id": "how-hot-does-artificial-turf-get.mcnitt-calcined-clay",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Mixing 20% calcined clay, a water-holding material, into rubber infill did not lower surface temperature in Penn State's tests.",
+    "quote": "Mixing 20% calcined clay with the crumb rubber infill did not reduce surface temperature of the infilled synthetic turf systems tested.",
+    "source_url": "https://plantscience.psu.edu/research/centers/ssrc/documents/temperature-irrigation.pdf",
+    "source_label": "McNitt, Petrunak and Serensits, Temperature Amelioration of Synthetic Turf Surfaces through Irrigation (Penn State; Acta Horticulturae 783, 2008)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "20"
+    ]
+  },
+  {
+    "id": "how-hot-does-artificial-turf-get.byu-surface-comparison",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "In a 2002 Brigham Young University field study in Provo, Utah, synthetic turf averaged about 117°F between 7 a.m. and 7 p.m. (high 157°F), against about 110°F for asphalt, 98°F for bare soil, 94°F for concrete and 78°F for natural grass (high 88.5°F).",
+    "quote": "Table 1. Surface Average Surface Temperature between 7:00 AM and 7:00 PM Soccer 117.38º F high 157º F Football 117.04º F high 156º F Natural Turf 78.19º F high 88.5º F Concrete 94.08º F Asphalt 109.62º F Bare Soil 98.23º F",
+    "source_url": "https://www.westcoastturf.com/getdoc.cfm?id=38",
+    "source_label": "Williams and Pulley, Synthetic Surface Heat Studies, Brigham Young University (2002), copy hosted by West Coast Turf",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [
+      "2002",
+      "117",
+      "7",
+      "157",
+      "110",
+      "98",
+      "94",
+      "78",
+      "88.5",
+      "1",
+      "117.38",
+      "117.04",
+      "156",
+      "78.19",
+      "94.08",
+      "109.62",
+      "98.23"
+    ],
+    "notes": "A university field report, not peer-reviewed, read from a copy on a turf company's site (no BYU-hosted copy found; an NMSU copy returned 404). Penn State cites the same study and repeats its 200°F and watering figures (psu-highest-readings, psu-watering-rebound). Rounded °F are from the quote's two-decimal values."
+  },
+  {
+    "id": "how-hot-does-artificial-turf-get.byu-shade-and-light",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same BYU study found shaded synthetic turf averaged about 76°F between 9 a.m. and 2 p.m. (high 99°F) under 81°F air, found sunlight mattered more than air temperature, and recorded 112.4°F turf in October, 32.4°F above the air.",
+    "quote": "Table 3. Shade Average Temperature between 9:00 AM and 2:00 PM Surface Temperature of Natural Turf 66.35º F high 75º F Surface Temperature of Artificial Turf 75.89º F high 99º F Average Air Temperature 81.42º F … The amount of light (electromagnetic radiation) has a greater impact on temperature of A.T. than air temperature. The hottest surface temperature recorded was 200º F on a 98º F day. Even in October the surface temperature reached 112.4º F. This is 32.4º F higher than the air temperature. White lines and shaded areas are less affected because of reflection and intensity of light.",
+    "source_url": "https://www.westcoastturf.com/getdoc.cfm?id=38",
+    "source_label": "Williams and Pulley, Synthetic Surface Heat Studies, Brigham Young University (2002), copy hosted by West Coast Turf",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [
+      "76",
+      "9",
+      "2",
+      "99",
+      "81",
+      "112.4",
+      "32.4",
+      "3",
+      "66.35",
+      "75",
+      "75.89",
+      "81.42",
+      "200",
+      "98"
+    ],
+    "notes": "Not peer-reviewed; copy on a turf company's site. Rounded °F are from the quote's two-decimal values."
+  },
+  {
+    "id": "how-hot-does-artificial-turf-get.ccc-low-humidity",
+    "layer": "climate",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Climate Center says Colorado's humidity is generally quite low, which favors rapid evaporation, and describes the eastern plains as having low relative humidity and abundant sunshine, with hot summer days often relieved by afternoon thundershowers.",
+    "quote": "During summer there are hot days on the plains, but these are often relieved by afternoon thundershowers. Mountain regions are nearly always cool. Humidity is generally quite low; this favors rapid evaporation and a relatively comfortable feeling even on hot days. … The climate of the plains is comparatively uniform from place to place, with characteristic features of low relative humidity, abundant sunshine, infrequent rains and snow, moderate to high wind movement, and a large daily and seasonal range in temperature.",
+    "source_url": "https://climate.colostate.edu/climate_long.html",
+    "source_label": "Colorado Climate Center (Colorado State University), Climate of Colorado",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "how-hot-does-artificial-turf-get.coagmet-greeley-hot-hours-2025",
+    "layer": "climate",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "CoAgMET's Greeley 4 weather station (4,683 feet) logged 135 hours averaging 90°F or hotter from June through August 2025, and relative humidity in those hours averaged 16.6%, ranging from 9.6% to 26.0%.",
+    "quote": "gly04 (Greeley 4, 1.5 mi N of Greeley Airport, elevation 4683 ft), hourly QC data 2025-06-01 to 2025-08-31, tz=co: hours with Air Temp ≥ 90 °F = 135 · RH in those hours: mean 0.166 · min 0.096 · max 0.260",
+    "source_url": "https://coagmet.colostate.edu/data/hourly/gly04.csv?header=yes&fields=t,rh&from=2025-06-01&to=2025-08-31&tz=co&dateFmt=iso",
+    "source_label": "CoAgMET (Colorado Climate Center) hourly data, Greeley 4 station, June–August 2025",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4",
+      "4683",
+      "135",
+      "90",
+      "2025",
+      "16.6",
+      "9.6",
+      "26.0",
+      "2025-06-01",
+      "2025-08-31",
+      "1.5",
+      "0.166",
+      "0.096",
+      "0.260"
+    ],
+    "notes": "Computed 2026-09-25 from the CSV at the source_url (2,186 valid hours; RH is reported as a fraction, 0.166 = 16.6%). Station metadata from https://coagmet.colostate.edu/data/metadata.json?stations=gly04. Hourly values are hour averages, so a 90°F hour is hotter than it sounds. A rural agricultural station, not a backyard."
+  },
+  {
+    "id": "how-hot-does-artificial-turf-get.coagmet-fort-collins-hot-hours-2025",
+    "layer": "climate",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "CoAgMET's Fort Collins station on the CSU campus (4,997 feet) logged 144 hours averaging 90°F or hotter from June through August 2025, and relative humidity in those hours averaged 15.9%, ranging from 8.3% to 29.2%.",
+    "quote": "fcl01 (Fort Collins, CSU Campus, elevation 4997 ft), hourly QC data 2025-06-01 to 2025-08-31, tz=co: hours with Air Temp ≥ 90 °F = 144 · RH in those hours: mean 0.159 · min 0.083 · max 0.292",
+    "source_url": "https://coagmet.colostate.edu/data/hourly/fcl01.csv?header=yes&fields=t,rh&from=2025-06-01&to=2025-08-31&tz=co&dateFmt=iso",
+    "source_label": "CoAgMET (Colorado Climate Center) hourly data, Fort Collins station, June–August 2025",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4997",
+      "144",
+      "90",
+      "2025",
+      "15.9",
+      "8.3",
+      "29.2",
+      "2025-06-01",
+      "2025-08-31",
+      "0.159",
+      "0.083",
+      "0.292"
+    ],
+    "notes": "Computed 2026-09-25 from the CSV at the source_url (2,208 valid hours; RH reported as a fraction). Station metadata from https://coagmet.colostate.edu/data/metadata.json?stations=fcl01."
+  },
+  {
+    "id": "how-hot-does-artificial-turf-get.noaa-100f-days-and-summer-highs",
+    "layer": "climate",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "NOAA's 1991–2020 normals give Greeley UNC 6.5 days a year at or above 100°F, Longmont 2 ESE 3.6, Loveland 2N 1.8, Fort Collins 4E 0.7 and Fort Collins 0.5, with average June–August highs of 88.9, 87.5, 86.0, 84.7 and 84.7°F.",
+    "quote": "USC00053553 ANN-TMAX-AVGNDS-GRTH100 6.5 · JJA-TMAX-NORMAL 88.9 | USC00055116 ANN-TMAX-AVGNDS-GRTH100 3.6 · JJA-TMAX-NORMAL 87.5 | USC00055236 ANN-TMAX-AVGNDS-GRTH100 1.8 · JJA-TMAX-NORMAL 86.0 | USC00053006 ANN-TMAX-AVGNDS-GRTH100 0.7 · JJA-TMAX-NORMAL 84.7 | USC00053005 ANN-TMAX-AVGNDS-GRTH100 0.5 · JJA-TMAX-NORMAL 84.7",
+    "source_url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053553,USC00055116,USC00055236,USC00053006,USC00053005&dataTypes=ANN-TMAX-AVGNDS-GRTH090,ANN-TMAX-AVGNDS-GRTH100,JJA-TMAX-NORMAL&format=json",
+    "source_label": "NOAA NCEI U.S. Climate Normals 1991–2020, annual/seasonal, five Northern Colorado stations",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1991",
+      "2020",
+      "6.5",
+      "100",
+      "2",
+      "3.6",
+      "1.8",
+      "0.7",
+      "0.5",
+      "88.9",
+      "87.5",
+      "86.0",
+      "84.7"
+    ],
+    "notes": "Fills the 100°F and June–August columns the shared climate.json records leave out; the 90°F days come from those records (noaa-normals-*). Station-to-town assignment follows those records (nearest station, an inference)."
+  }
+]

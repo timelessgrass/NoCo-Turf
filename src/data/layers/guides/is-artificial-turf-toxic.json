@@ -1,0 +1,503 @@
+[
+  {
+    "id": "is-artificial-turf-toxic.cdc-new-fields-low-risk",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CDC's 2008 advisory judged the lead risk low from new fields because intact fibers hold the lead, and said the risk rises as turf ages and weathers and releases lead in dust.",
+    "quote": "The risk for harmful lead exposure is low from new fields with elevated lead levels in their turf fibers because the turf fibers are still intact and the lead is unlikely to be available for harmful exposures to occur. As the turf ages and weathers, lead is released in dust that could then be ingested or inhaled, and the risk for harmful exposure increases.",
+    "source_url": "https://stacks.cdc.gov/view/cdc/25186/cdc_25186_DS1.pdf",
+    "source_label": "CDC Health Advisory CDCHAN-00275-2008-06-18, Potential Exposure to Lead in Artificial Turf (June 18, 2008)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "2008"
+    ],
+    "notes": "stacks.cdc.gov returns 403 to curl; the PDF was retrieved with WebFetch and read with pdftotext on 2026-09-25. The PDF is a scan, so pdftotext splits a few words (\"tu rf\"); the quote restores the printed words. The nylon vs polyethylene finding is in used-artificial-turf.cdc-lead-nylon-weathered."
+  },
+  {
+    "id": "is-artificial-turf-toxic.cdc-test-worn-nylon",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CDC advised testing only turf made of nylon or nylon-blend fibers that looks worn or dusty, keeping children under 6 off turf whose dust holds more than 400 ppm lead, not testing polyethylene-only turf, and replacing worn, dusty fields as soon as practicable.",
+    "quote": "Testing turf that has fibers that are abraded, faded or broken, contains visible dust, and that is made from nylon or nylon-blend fibers. … If the dust contains more than 400 ppm lead, do not allow turf access for children under the age of 6 years. … Not testing turf made from polyethylene-only fibers. This recommendation is based on currently available data. … Replacing fields as soon as practicable if worn and dusty, as a precautionary measure.",
+    "source_url": "https://stacks.cdc.gov/view/cdc/25186/cdc_25186_DS1.pdf",
+    "source_label": "CDC Health Advisory CDCHAN-00275-2008-06-18, Potential Exposure to Lead in Artificial Turf (June 18, 2008), interim public health actions",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "400",
+      "6",
+      "2008"
+    ],
+    "notes": "Read with pdftotext on 2026-09-25 (see cdc-new-fields-low-risk). Written for athletic fields and playgrounds in 2008, pending CPSC's evaluation; the page presents it as the agency's advice for worn nylon turf, not as a current regulation."
+  },
+  {
+    "id": "is-artificial-turf-toxic.cdc-children-blood-lead",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CDC said children under 6 are more likely than adults to be affected by lead, that no cases of elevated blood lead in children had been linked to artificial turf on athletic fields, and that concerned parents should ask their child's pediatrician about lead sources and a blood lead test.",
+    "quote": "In general, children less than 6 years old are more likely to be affected by lead than adults because of increased contact with lead sources in the environment, including lead contaminated house dust and soil. … It should be emphasized that although turf testing has been limited to the state of New Jersey, no cases of elevated blood lead levels in children have been linked to artificial turf on athletic fields in New Jersey and elsewhere. Concerned parents should talk to their child's pediatrician about potential and known sources of lead in their children's environment and whether their children should have a blood lead test.",
+    "source_url": "https://stacks.cdc.gov/view/cdc/25186/cdc_25186_DS1.pdf",
+    "source_label": "CDC Health Advisory CDCHAN-00275-2008-06-18, Potential Exposure to Lead in Artificial Turf (June 18, 2008), public health issues",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "6",
+      "2008"
+    ],
+    "notes": "Read with pdftotext on 2026-09-25. \"No cases\" is as of June 2008; the page says so."
+  },
+  {
+    "id": "is-artificial-turf-toxic.cdc-lead-safety-habits",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CDC discouraged eating on turf fields and told families to follow lead safety practices whatever the playing surface, including washing children's hands before they eat and having a house built before 1978 inspected for lead.",
+    "quote": "Eating while on the field or turf product is discouraged. … Especially in houses where children are present, parents, day care providers and other child care providers should follow lead safety practices regardless of the type of playing surface. … Wash children's hands frequently and always before they eat. … Have your house inspected for lead if it was built before 1978.",
+    "source_url": "https://stacks.cdc.gov/view/cdc/25186/cdc_25186_DS1.pdf",
+    "source_label": "CDC Health Advisory CDCHAN-00275-2008-06-18, Potential Exposure to Lead in Artificial Turf (June 18, 2008), general recommendations",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "1978",
+      "2008"
+    ],
+    "notes": "Read with pdftotext on 2026-09-25."
+  },
+  {
+    "id": "is-artificial-turf-toxic.cpsc-2008-newer-fields",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CPSC staff's 2008 evaluation concluded young children were not at risk from lead in the synthetic fields it tested, found newer fields had no lead or the lowest levels, and said age, weathering, sunlight and wear might change how much lead comes off the pigmented fibers.",
+    "quote": "The evaluation concludes that young children are not at risk from exposure to lead in these fields. CPSC staff evaluation showed that newer fields had no lead or generally had the lowest lead levels. … Lead is present in the pigments of some synthetic turf products to give the turf its various colors. Staff recognizes that some conditions such as age, weathering, exposure to sunlight, and wear and tear might change the amount of lead that could be released from the turf.",
+    "source_url": "https://www.cpsc.gov/Newsroom/News-Releases/2008/CPSC-Staff-Finds-Synthetic-Turf-Fields-OK-to-Install-OK-to-Play-On",
+    "source_label": "U.S. Consumer Product Safety Commission, news release 08-348, CPSC Staff Finds Synthetic Turf Fields OK to Install, OK to Play On (July 30, 2008)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "2008"
+    ],
+    "notes": "cpsc.gov returns 403 to curl. Read through WebFetch on 2026-09-25 and confirmed word for word against the Wayback Machine capture of 2026-02-13 (web.archive.org/web/20260213045610/…)."
+  },
+  {
+    "id": "is-artificial-turf-toxic.cpsc-2008-hand-to-mouth",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CPSC staff treated particles on a child's hand reaching the mouth as the likeliest route of exposure to lead from turf, and recommended that young children wash their hands after playing outside, especially before eating.",
+    "quote": "The staff considered in the evaluation that particles on a child's hand transferred to his/her mouth would be the most likely route of exposure and determined young children would not be at risk. … As an overall guideline, CPSC staff recommends young children wash their hands after playing outside, especially before eating.",
+    "source_url": "https://www.cpsc.gov/Newsroom/News-Releases/2008/CPSC-Staff-Finds-Synthetic-Turf-Fields-OK-to-Install-OK-to-Play-On",
+    "source_label": "U.S. Consumer Product Safety Commission, news release 08-348, CPSC Staff Finds Synthetic Turf Fields OK to Install, OK to Play On (July 30, 2008)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "2008"
+    ],
+    "notes": "See cpsc-2008-newer-fields for how it was read."
+  },
+  {
+    "id": "is-artificial-turf-toxic.cpsc-2008-voluntary-standard",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Although its 2008 evaluation found no harmful lead levels, CPSC staff asked for voluntary standards to keep lead out of future synthetic turf.",
+    "quote": "Although this evaluation found no harmful lead levels, CPSC staff is asking that voluntary standards be developed for synthetic turf to preclude the use of lead in future products.",
+    "source_url": "https://www.cpsc.gov/Newsroom/News-Releases/2008/CPSC-Staff-Finds-Synthetic-Turf-Fields-OK-to-Install-OK-to-Play-On",
+    "source_label": "U.S. Consumer Product Safety Commission, news release 08-348, CPSC Staff Finds Synthetic Turf Fields OK to Install, OK to Play On (July 30, 2008)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "2008"
+    ],
+    "notes": "See cpsc-2008-newer-fields for how it was read."
+  },
+  {
+    "id": "is-artificial-turf-toxic.astm-f2765-scope",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "ASTM F2765 is the standard specification for total lead content in synthetic turf fibers, and it applies only to fibers manufactured after September 1, 2009.",
+    "quote": "F2765 Standard Specification for Total Lead Content in Synthetic Turf Fibers … 1.1 This specification applies to the maximum content of lead in fibers used in synthetic turf. … 1.2 This specification applies only to synthetic turf fibers manufactured after Sept. 1, 2009.",
+    "source_url": "https://store.astm.org/f2765-14r21.html",
+    "source_label": "ASTM F2765-14 (reapproved 2021), Standard Specification for Total Lead Content in Synthetic Turf Fibers, scope",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1.1",
+      "1.2",
+      "1",
+      "2009",
+      "2765"
+    ],
+    "notes": "Read with curl on 2026-09-25 (www.astm.org/f2765.html redirects here). The lead limit itself is in the paid text and is not stated on the page."
+  },
+  {
+    "id": "is-artificial-turf-toxic.nysdoh-lead-fibers",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "New York's health department says some turf fibers have held about 2,000 to 9,000 ppm of lead, that degrading fibers can form lead dust, and that newer products without elevated lead are available.",
+    "quote": "Some types of synthetic turf fibers contain elevated levels of lead (e.g., in the range of about 2,000 to 9,000 parts per million). Degradation of these fibers can form a dust that presents a potential source of lead exposure to users of the fields. … Newer synthetic turf products are available that do not contain elevated lead levels.",
+    "source_url": "https://www.health.ny.gov/environmental/outdoors/synthetic_turf/crumb-rubber_infilled/fact_sheet.htm",
+    "source_label": "New York State Department of Health, Crumb-Rubber Infilled Synthetic Turf Athletic Fields (revised October 2018)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2000",
+      "9000",
+      "2018"
+    ],
+    "notes": "Read with curl on 2026-09-25."
+  },
+  {
+    "id": "is-artificial-turf-toxic.nysdoh-air-sampling",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Air sampling by New York State, New York City and Connecticut on crumb-rubber turf fields found inhalation exposure during play insignificant and no different from natural grass, though an indoor field had higher concentrations and its authors recommended ventilating indoor fields.",
+    "quote": "Health agencies in New York State, New York City, and the State of Connecticut collected air samples on synthetic and natural turf fields during use. The air samples were analyzed for VOCs, SVOCs, and airborne particulate matter. The studies concluded that inhalation exposures resulting from playing on synthetic turf fields were insignificant, and not different from inhalation exposures on natural turf fields. The Connecticut study found that air samples collected from an indoor synthetic turf field had higher concentrations than the outdoor fields. The authors noted that other potential sources of VOCs and SVOCs were present, and that the facility did not have its exhaust system operating on the day samples were collected. The authors concluded that, based on their findings, exposure levels for indoor synthetic turf fields represented only a marginal health risk, but ventilation of indoor fields was recommended.",
+    "source_url": "https://www.health.ny.gov/environmental/outdoors/synthetic_turf/crumb-rubber_infilled/fact_sheet.htm",
+    "source_label": "New York State Department of Health, Crumb-Rubber Infilled Synthetic Turf Athletic Fields (revised October 2018)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2018"
+    ],
+    "notes": "Read with curl on 2026-09-25. The fields sampled were crumb-rubber infilled athletic fields, not residential lawns; the page says so."
+  },
+  {
+    "id": "is-artificial-turf-toxic.epa-voc-indoors",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "EPA says concentrations of many volatile organic compounds are consistently higher indoors than outdoors, up to ten times higher.",
+    "quote": "Concentrations of many VOCs are consistently higher indoors (up to ten times higher) than outdoors. VOCs are emitted by a wide array of products numbering in the thousands.",
+    "source_url": "https://www.epa.gov/indoor-air-quality-iaq/volatile-organic-compounds-impact-indoor-air-quality",
+    "source_label": "U.S. EPA, Volatile Organic Compounds' Impact on Indoor Air Quality (last updated June 23, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl on 2026-09-25. A general indoor-air statement, not a turf study."
+  },
+  {
+    "id": "is-artificial-turf-toxic.turi-what-pfas-are",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "TURI describes PFAS as thousands of chemicals with multiple fluorine atoms bonded to a carbon chain, most of which break down into a common set of products that are very persistent in the environment.",
+    "quote": "PFAS are a category of chemicals that contain multiple fluorine atoms bonded to a chain of carbon atoms. Thousands of such chemicals exist. … Although there are thousands of PFAS, most of them break down into a common set of degradation products. These degradation products are characterized by very high persistence in the environment.",
+    "source_url": "https://www.turi.org/publications/per-and-poly-fluoroalkyl-substances-pfas-in-artificial-turf-carpet/",
+    "source_label": "Toxics Use Reduction Institute (UMass Lowell), Per- and Poly-fluoroalkyl Substances (PFAS) in Artificial Turf Carpet (February 2020)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2020"
+    ],
+    "notes": "Read with pdftotext on 2026-09-25. A footnote marker after \"environment\" is dropped from the quote."
+  },
+  {
+    "id": "is-artificial-turf-toxic.turi-extrusion-aid",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Toxics Use Reduction Institute says one likely reason PFAS turn up in turf blades is their use as an extrusion aid that keeps the plastic from sticking to the extruder.",
+    "quote": "One possible reason for the use of PFAS in the artificial turf grass blades is to serve as an extrusion aid. That is, PFAS is added to the polymer mixture (which is a non-fluorinated plastic) before it is passed through an extruder. … The PFAS helps to prevent the polymer from sticking to the extruder.",
+    "source_url": "https://www.turi.org/publications/per-and-poly-fluoroalkyl-substances-pfas-in-artificial-turf-carpet/",
+    "source_label": "Toxics Use Reduction Institute (UMass Lowell), Per- and Poly-fluoroalkyl Substances (PFAS) in Artificial Turf Carpet (February 2020)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2020"
+    ],
+    "notes": "The URL serves the fact sheet as a PDF; read with pdftotext on 2026-09-25. A footnote marker after \"extrusion aid\" is dropped from the quote."
+  },
+  {
+    "id": "is-artificial-turf-toxic.turi-nonprofit-tests",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "TURI reported that nonprofit testing found a PFAS chemical in the backing of a new turf sample and, in every turf fiber sample tested, quantities of fluorine that suggest PFAS.",
+    "quote": "They detected one PFAS chemical in the backing of the new turf sample. … They also tested a number of synthetic turf fiber samples and found that all of them contained quantities of fluorine that suggest the presence of PFAS.",
+    "source_url": "https://www.turi.org/publications/per-and-poly-fluoroalkyl-substances-pfas-in-artificial-turf-carpet/",
+    "source_label": "Toxics Use Reduction Institute (UMass Lowell), Per- and Poly-fluoroalkyl Substances (PFAS) in Artificial Turf Carpet (February 2020)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2020"
+    ],
+    "notes": "Read with pdftotext on 2026-09-25. TURI did no testing itself; the samples predate the industry's 2025 target (used-artificial-turf.dtsc-stc-2025-pledge)."
+  },
+  {
+    "id": "is-artificial-turf-toxic.turi-play-exposure-unassessed",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "TURI says PFAS exposure has not been assessed specifically for playing on artificial turf, and that studying children's exposure is methodologically and ethically hard.",
+    "quote": "PFAS exposure has not been assessed specifically in relation to playing on artificial turf, and studying children's exposures often presents methodological and ethical challenges.",
+    "source_url": "https://www.turi.org/publications/per-and-poly-fluoroalkyl-substances-pfas-in-artificial-turf-carpet/",
+    "source_label": "Toxics Use Reduction Institute (UMass Lowell), Per- and Poly-fluoroalkyl Substances (PFAS) in Artificial Turf Carpet (February 2020)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2020"
+    ],
+    "notes": "Read with pdftotext on 2026-09-25. As of the fact sheet's date; DTSC's 2026 document cites a 2025 draft OEHHA assessment of field users, so the page dates the statement."
+  },
+  {
+    "id": "is-artificial-turf-toxic.turi-test-methods",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "TURI says there are no consistent guidelines for testing solid materials for PFAS, that total fluorine analysis by PIGE or combustion ion chromatography works on solid samples, and that EPA's drinking-water Method 537.1 would not be informative for turf.",
+    "quote": "Additional difficulties result from the fact that while methods have been developed for testing drinking water and wastewater, there are no consistent guidelines for testing solid materials. … This can be carried out using Particle-Induced Gamma Ray Emission (PIGE) spectroscopy, and other techniques such as Combustion Ion Chromatography (CIC). … These measurements can also be performed on solid samples. … Thus, using this US EPA method would not be informative in this application.",
+    "source_url": "https://www.turi.org/publications/per-and-poly-fluoroalkyl-substances-pfas-in-artificial-turf-carpet/",
+    "source_label": "Toxics Use Reduction Institute (UMass Lowell), Per- and Poly-fluoroalkyl Substances (PFAS) in Artificial Turf Carpet (February 2020)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "537.1",
+      "2020"
+    ],
+    "notes": "Read with pdftotext on 2026-09-25. \"This US EPA method\" is Method 537.1, named in the sentence before it (the processing aids \"are not present in US EPA's Method 537.1\")."
+  },
+  {
+    "id": "is-artificial-turf-toxic.dtsc-young-children-hand-to-mouth",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "California's DTSC says infants, toddlers and young children near turf fields may take in PFAS by swallowing and skin contact as well as breathing, because of their hand-to-mouth behavior.",
+    "quote": "For bystanders, the primary route of exposure is inhalation. However, for bystanders who are infants, toddlers, and young children, ingestion and dermal contact with the field may also be relevant routes of exposure due to their hand-to-mouth behaviors (OEHHA 2025).",
+    "source_url": "https://web.archive.org/web/20260326043412/https://dtsc.ca.gov/wp-content/uploads/sites/31/2026/02/TechnicalDocument_PFASs-in-Artificial-Turf_accessible.pdf",
+    "source_label": "California DTSC, Technical Document for Artificial Turf Containing Perfluoroalkyl or Polyfluoroalkyl Substances (Feb. 12, 2026), section 4.3.2 (archived copy, Mar. 26, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2025",
+      "2026"
+    ],
+    "notes": "Read with pdftotext on 2026-09-25."
+  },
+  {
+    "id": "is-artificial-turf-toxic.dtsc-listing-paused",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "In February 2026 California's DTSC paused listing PFAS-containing artificial turf as a Priority Product while it gathers information from manufacturers and tests products, to see whether the market has moved away from PFAS.",
+    "quote": "To verify that a pre-regulatory market shift has occurred, we are pausing listing this product-chemical combination as a Priority Product to gather additional information from manufacturers and to conduct product testing.",
+    "source_url": "https://web.archive.org/web/20260326043412/https://dtsc.ca.gov/wp-content/uploads/sites/31/2026/02/TechnicalDocument_PFASs-in-Artificial-Turf_accessible.pdf",
+    "source_label": "California DTSC, Technical Document for Artificial Turf Containing Perfluoroalkyl or Polyfluoroalkyl Substances (Feb. 12, 2026), Executive Summary (archived copy, Mar. 26, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "2026"
+    ],
+    "notes": "Read with pdftotext on 2026-09-25. The document says DTSC plans to regulate if testing finds PFAS still present; re-check the DTSC Safer Consumer Products page for a listing."
+  },
+  {
+    "id": "is-artificial-turf-toxic.dtsc-lab-report-limits",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "DTSC says many turf makers back their no-PFAS claims with lab reports on several PFAS, but those reports often detect only down to tens of parts per million, so lower levels may still be present.",
+    "quote": "Many manufacturers claim on their websites that they do not use PFASs to produce artificial turf and that they have replaced fluoropolymer processing aids to avoid even trace amounts of non-polymeric PFASs (Santos 2024). To reinforce these statements, they provide laboratory reports for multiple PFASs tested (Watersavers Turf 2023). However, the levels of detection are often at tens of ppm concentrations, meaning lower levels of PFASs may still be present.",
+    "source_url": "https://web.archive.org/web/20260326043412/https://dtsc.ca.gov/wp-content/uploads/sites/31/2026/02/TechnicalDocument_PFASs-in-Artificial-Turf_accessible.pdf",
+    "source_label": "California DTSC, Technical Document for Artificial Turf Containing Perfluoroalkyl or Polyfluoroalkyl Substances (Feb. 12, 2026), section 4.1 (archived copy, Mar. 26, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2024",
+      "2023",
+      "2026"
+    ],
+    "notes": "Read with pdftotext on 2026-09-25. The page names no manufacturer."
+  },
+  {
+    "id": "is-artificial-turf-toxic.dtsc-stc-total-organic-fluorine",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council told DTSC its members test products for individual PFAS by EPA-approved methods plus a total organic fluorine test to verify no PFAS was intentionally added.",
+    "quote": "According to STC, its members rely on EPA-approved methods to analyze their products and materials for individual PFAS analytes and a total organic fluorine test to verify the absence of any intentionally-added PFAS (STC 2026).",
+    "source_url": "https://web.archive.org/web/20260326043412/https://dtsc.ca.gov/wp-content/uploads/sites/31/2026/02/TechnicalDocument_PFASs-in-Artificial-Turf_accessible.pdf",
+    "source_label": "California DTSC, Technical Document for Artificial Turf Containing Perfluoroalkyl or Polyfluoroalkyl Substances (Feb. 12, 2026), section 4.1 (archived copy, Mar. 26, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2026"
+    ],
+    "notes": "Read with pdftotext on 2026-09-25. An industry association's description of its members' testing, reported by a regulator; not a test result."
+  },
+  {
+    "id": "is-artificial-turf-toxic.dtsc-components-and-infill",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "DTSC's review covers only turf blades and backing, leaving infill out of scope, and cites a Stockholm study that found fluorine in every turf component tested: backing, filling and blades.",
+    "quote": "This document does not examine the makeup of infill material often added to artificial turf but focuses solely on artificial turf itself—the plastic, grass-like blades and the backing they are attached to. … Fluorine was detected in all turf components (backing, filling, and blades), indicating the widespread presence of fluorinated substances (Lauria et al. 2022).",
+    "source_url": "https://web.archive.org/web/20260326043412/https://dtsc.ca.gov/wp-content/uploads/sites/31/2026/02/TechnicalDocument_PFASs-in-Artificial-Turf_accessible.pdf",
+    "source_label": "California DTSC, Technical Document for Artificial Turf Containing Perfluoroalkyl or Polyfluoroalkyl Substances (Feb. 12, 2026), sections 2 and 4.1 (archived copy, Mar. 26, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2022",
+      "2026"
+    ],
+    "notes": "Read with pdftotext on 2026-09-25. The Stockholm samples were collected in Sweden; \"filling\" is the study's word for infill."
+  },
+  {
+    "id": "is-artificial-turf-toxic.dtsc-other-blade-chemicals",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "DTSC says turf blades may also contain other potentially toxic chemicals besides PFAS, such as ortho-phthalate plasticizers, azo dye colorants, antioxidants and UV light stabilizers.",
+    "quote": "Besides PFASs, other potentially toxic chemicals that may be present in artificial turf blades include but are not limited to plasticizers (e.g., ortho-phthalates), various colorants (e.g., azo dyes), antioxidants (e.g., various phenols, amines, and thioesters), and UV light stabilizers (e.g., benzophenones, benzotriazoles, and hindered amines) (Tolinski 2015b).",
+    "source_url": "https://web.archive.org/web/20260326043412/https://dtsc.ca.gov/wp-content/uploads/sites/31/2026/02/TechnicalDocument_PFASs-in-Artificial-Turf_accessible.pdf",
+    "source_label": "California DTSC, Technical Document for Artificial Turf Containing Perfluoroalkyl or Polyfluoroalkyl Substances (Feb. 12, 2026), section 5.2 (archived copy, Mar. 26, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2015",
+      "2026"
+    ],
+    "notes": "Read with pdftotext on 2026-09-25. \"May be present\": no measurements are given for these."
+  },
+  {
+    "id": "is-artificial-turf-toxic.cdphe-pfas-exposure-sources",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CDPHE says most people in the United States carry some PFAS in their blood, that children ages 0 to 5 may be more susceptible, and that contaminated drinking water, where present, is likely the biggest source of exposure, and diet otherwise.",
+    "quote": "Most people living in the United States have some amount of these chemicals in their blood. … Children ages 0-5 years, people who have occupational exposures to PFAS, and people who are pregnant, planning to become pregnant, or breastfeeding may be more susceptible to health impacts from these chemicals. … Research shows that when drinking water is contaminated with PFAS above EPA's maximum contaminant levels (MCLs), it is likely to be people's biggest source of PFAS exposure. However, diet is likely the biggest source of exposure among people who are not exposed to PFAS in drinking water.",
+    "source_url": "https://cdphe.colorado.gov/pfas/health",
+    "source_label": "Colorado Department of Public Health and Environment, PFAS and your health",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "0",
+      "5"
+    ],
+    "notes": "Read with curl on 2026-09-25. CDPHE does not rank artificial turf as a source either way; the page does not say it does."
+  },
+  {
+    "id": "is-artificial-turf-toxic.cdphe-pfas-contact",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CDPHE lists SB24-081's ban on installing artificial turf with intentionally added PFAS among Colorado's PFAS laws, and takes questions about the state's consumer-product PFAS bans at cdphe_pfas@state.co.us.",
+    "quote": "Prohibits the installation of artificial turf that contains intentionally added PFAS on any portion of property in the state starting Jan. 1, 2026. … For questions about the Colorado consumer product bans contact: cdphe_pfas@state.co.us.",
+    "source_url": "https://cdphe.colorado.gov/pfas/health/consumer-products",
+    "source_label": "Colorado Department of Public Health and Environment, Guidance for PFAS in consumer products, and its Colorado laws page (cdphe.colorado.gov/pfas-laws)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "1",
+      "2026"
+    ],
+    "notes": "Both pages read with curl on 2026-09-25: the first sentence of the quote is from cdphe.colorado.gov/pfas-laws (Senate Bill 24-081 section), the contact line from the consumer-products page. The PFAS and your health page gives the same address for questions about the PFAS regulations."
+  },
+  {
+    "id": "is-artificial-turf-toxic.fc-council-2023-pfas",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "At a January 10, 2023 work session on landscape standards, Fort Collins City Council did not support synthetic turf, citing the potential for PFAS to leach into the city's waterways.",
+    "quote": "… presented to five of the six council members at the January 10, 2023, City Council work session to confirm direction on the initiatives. Similar to the Natural Resource Advisory Board, Council did not support the use of synthetic turf, citing the potential for PFAS to leach into our waterways.",
+    "source_url": "https://ourcity.fcgov.com/xsa",
+    "source_label": "City of Fort Collins, Xeriscape and Soil Amendment policy update (Our City), staff summary of the Jan. 10, 2023 City Council work session",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "10",
+      "2023"
+    ],
+    "notes": "Read with curl on 2026-09-25. Council direction at a work session, not an ordinance. What Fort Collins adopted in 2025 is fc-luc-5.10.1 (existing single- and two-unit home lots exempt); the city's Ordinance 008 cites SB24-005, so the page does not say PFAS drove the adopted rule."
+  },
+  {
+    "id": "is-artificial-turf-toxic.cpsc-crumb-exposure-limited",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CPSC staff's initial review of the federal tire crumb research says exposures to selected materials from tire crumb on sports fields appear limited for both breathing and skin contact.",
+    "quote": "Staff's initial review of the FRAP Reports indicates that exposures to selected materials from recycled tire crumb on sports fields appear to be limited for both inhalation and dermal pathways.",
+    "source_url": "https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Crumb-Rubber-Safety-Information-Center",
+    "source_label": "U.S. Consumer Product Safety Commission, Crumb Rubber Safety Information Center",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "cpsc.gov returns 403 to curl; read through WebFetch on 2026-09-25 and confirmed word for word against the Wayback Machine capture of 2026-05-21. The evidence in full belongs to is-crumb-rubber-safe."
+  },
+  {
+    "id": "is-artificial-turf-toxic.cpsc-crumb-mouthing",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CPSC knows of no specific chemical hazard from recycled tire rubber in playground surfacing but advises avoiding mouthing, chewing or swallowing it and washing hands before handling food.",
+    "quote": "While no specific chemical hazards from recycled tires in playground surfacing are known by the CPSC at this time, the following precautions to limit exposure are recommended: Avoid mouth contact with playground surfacing materials, including mouthing, chewing, or swallowing playground rubber. This may pose a choking hazard, regardless of chemical exposure. Avoid eating food or drinking beverages while directly on playground surfaces, and wash hands before handling food.",
+    "source_url": "https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Crumb-Rubber-Safety-Information-Center",
+    "source_label": "U.S. Consumer Product Safety Commission, Crumb Rubber Safety Information Center",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "See cpsc-crumb-exposure-limited for how it was read."
+  }
+]

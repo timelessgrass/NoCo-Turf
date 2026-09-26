@@ -1,0 +1,407 @@
+[
+  {
+    "id": "is-artificial-turf-bad-for-environment.fc-xsa-bluegrass-high-water",
+    "layer": "utility",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins' landscape-policy proposals class Kentucky bluegrass as a high-water grass, meaning one that needs 10 or more gallons of supplemental water per square foot each season.",
+    "quote": "As used in this proposal, irrigated turfgrass with a high-water requirement means sod forming grasses that require 10 or more gallons per square foot per season of supplemental water. This includes species such as Kentucky bluegrass and turf-type tall fescue and their varieties and cultivars.",
+    "source_url": "https://ourcity.fcgov.com/xsa",
+    "source_label": "City of Fort Collins, Xeriscape and Soil Amendment Policy Update (project page)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "10"
+    ],
+    "notes": "Read with curl 2026-09-25 (HTTP 200). The page's consultation has concluded; the definition is from the draft proposals (April 10, 2023). It describes bluegrass's water need, not an adopted rule."
+  },
+  {
+    "id": "is-artificial-turf-bad-for-environment.fc-nrab-2022-synthetic-turf",
+    "layer": "utility",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "On December 15, 2022, Fort Collins' Natural Resource Advisory Board did not support synthetic turf in the city's landscape-policy update and asked for more research on how it affects the environment.",
+    "quote": "Board members were not in support of synthetic turf and wanted to see more research on how synthetic turf affected the environment.",
+    "source_url": "https://ourcity.fcgov.com/xsa",
+    "source_label": "City of Fort Collins, Xeriscape and Soil Amendment Policy Update: Staff Summary, Dec. 15, 2022, Natural Resource Advisory Board",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "15",
+      "2022"
+    ],
+    "notes": "Read with curl 2026-09-25. The same summary says the Board 'supported the proposed water-saving measures, except for artificial turf'."
+  },
+  {
+    "id": "is-artificial-turf-bad-for-environment.fc-council-2023-pfas",
+    "layer": "utility",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "At its January 10, 2023 work session, Fort Collins City Council did not support synthetic turf, citing the potential for PFAS to leach into the city's waterways.",
+    "quote": "presented to five of the six council members at the January 10, 2023, City Council work session to confirm direction on the initiatives. Similar to the Natural Resource Advisory Board, Council did not support the use of synthetic turf, citing the potential for PFAS to leach into our waterways.",
+    "source_url": "https://ourcity.fcgov.com/xsa",
+    "source_label": "City of Fort Collins, Xeriscape and Soil Amendment Policy Update: January 10, 2023 City Council work session summary",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "10",
+      "2023"
+    ],
+    "notes": "Read with curl 2026-09-25. is-artificial-turf-toxic.fc-council-2023-pfas records the same sentence for the safety guide."
+  },
+  {
+    "id": "is-artificial-turf-bad-for-environment.fc-xsa-healthy-landscapes",
+    "layer": "utility",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins' landscape-policy page says healthy, diverse landscapes help the environment with shade that reduces the heat island effect, air purification, wildlife habitat, erosion control and stormwater control.",
+    "quote": "Healthy and diverse landscapes help improve the environment by providing shade to reduce the heat island effect, aiding in air purification, providing wildlife habitat, erosion control, stormwater control, and other benefits that ultimately improve the quality of life for residents.",
+    "source_url": "https://ourcity.fcgov.com/xsa",
+    "source_label": "City of Fort Collins, Xeriscape and Soil Amendment Policy Update (project page)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl 2026-09-25. The page says this of waterwise, diverse landscapes; it does not compare them with artificial turf. The guide's point that a plastic surface can't offer shade, habitat or air purification is its own inference, worded as such."
+  },
+  {
+    "id": "is-artificial-turf-bad-for-environment.coloradosun-2023-fort-collins-concerns",
+    "layer": "research",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "The Colorado Sun reported in October 2023 that Fort Collins and other cities were studying bans on installing artificial turf, amid concerns about PFAS shedding in runoff, urban heat islands and a lack of recycling options.",
+    "quote": "Fort Collins and other cities are also studying bans on installation of artificial, plastic grass as a turf replacement, Rogers said. Artificial turf comes with increasing concerns about PFAS “forever chemicals” used in manufacturing and then shedding in water runoff, as well as creating urban heat islands and a lack of recycling options for old artificial grass.",
+    "source_url": "https://coloradosun.com/2023/10/10/colorado-cities-turf-bans-grass-removal/",
+    "source_label": "The Colorado Sun, Michael Booth, Oct. 10, 2023",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2023"
+    ],
+    "notes": "Read with curl 2026-09-25 (HTTP 200). 'Rogers' is a water-policy nonprofit source quoted in the article. how-to-dispose-of-artificial-turf.coloradosun-fort-collins-recycling-concern records the recycling point alone."
+  },
+  {
+    "id": "is-artificial-turf-bad-for-environment.coloradosun-2023-landscape-share",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Sun reported that cities and towns use less than 10% of Colorado's water, but that landscape watering makes up half or more of what they use.",
+    "quote": "While municipal water use overall makes up less than 10% of statewide water use, with the vast bulk going to agriculture, landscape watering makes up half or more of municipal usage.",
+    "source_url": "https://coloradosun.com/2023/10/10/colorado-cities-turf-bans-grass-removal/",
+    "source_label": "The Colorado Sun, Michael Booth, Oct. 10, 2023",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "10"
+    ],
+    "notes": "Read with curl 2026-09-25. Statewide figure, reported by the newspaper without a named study."
+  },
+  {
+    "id": "is-artificial-turf-bad-for-environment.northern-water-cbt-west-slope",
+    "layer": "utility",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Northern Water says the Colorado-Big Thompson Project diverts West Slope snowmelt through a tunnel beneath the Continental Divide to more than 1.1 million residents in northeastern Colorado, which gets only about 14.5 inches of precipitation a year, and that 32 municipalities get part of their water from it.",
+    "quote": "Melting snowpack in the Colorado River headwaters on the West Slope is diverted through a tunnel beneath the Continental Divide to more than 1.1 million residents and 550,000 acres of irrigated farmland in Northeastern Colorado. … northeastern Colorado receives only about 14.5 inches of precipitation each year … A total of 32 municipalities receive a portion of their water through the C-BT Project, along with 120 ditch, reservoir and irrigation companies.",
+    "source_url": "https://www.northernwater.org/what-we-do/deliver-water/colorado-big-thompson-project",
+    "source_label": "Northern Water, Colorado-Big Thompson Project",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1.1",
+      "550000",
+      "14.5",
+      "32",
+      "120"
+    ],
+    "notes": "Read with curl 2026-09-25 (HTTP 200). Not every NoCo town uses C-BT water, and those that do use it for part of their supply, so copy says many towns get part of their water from it."
+  },
+  {
+    "id": "is-artificial-turf-bad-for-environment.csu-bluegrass-nitrogen-schedule",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension's fertilizer schedule for an established high-maintenance Colorado bluegrass lawn calls for nitrogen four times a year, usually about 1 pound per 1,000 square feet each time.",
+    "quote": "Table 2. Fertilizer Application Schedule for Established Colorado Lawns … (Nitrogen application rates are in pounds of nitrogen per 1,000 square feet of lawn area.) High maintenance Bluegrass and Ryegrass: Mid-March to April ½ to 1; May to mid-June 1; July to early August Not required; Mid-August to mid-September 1; Early October to early November 1-(2)",
+    "source_url": "https://cmg.extension.colostate.edu/Gardennotes/551.pdf",
+    "source_label": "CSU Extension, CMG GardenNotes #551, Basic Turf Management (Koski and Whiting, revised January 2012)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "1000",
+      "2"
+    ],
+    "notes": "Read with curl and pdftotext 2026-09-25. The quote joins the table's column heads and the high-maintenance bluegrass row cell by cell; the (2) is CSU's optional extra application. 'Four times a year' counts the four windows with a rate. Low-maintenance bluegrass gets less (½, ½–1, 1, optional 1)."
+  },
+  {
+    "id": "is-artificial-turf-bad-for-environment.csu-fertilizer-pesticide-runoff",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says the gardener's management, not the lawn itself, causes lawn water pollution, because fertilizer and pesticides spread onto driveways, sidewalks and streets wash untreated into lakes and streams.",
+    "quote": "It is not the lawn, but rather the management style of the gardener that become the problem. Fertilizers and pesticides (herbicides, insecticides, and fungicides) spread onto hard surfaces (driveways, sidewalks, streets, and compacted soils) will move with surface water into neighboring lakes, streams, and ponds. (Surface water running down the street gutter is not treated before release into local lakes, streams, and ponds.)",
+    "source_url": "https://cmg.extension.colostate.edu/Gardennotes/551.pdf",
+    "source_label": "CSU Extension, CMG GardenNotes #551, Basic Turf Management (Koski and Whiting, revised January 2012)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl and pdftotext 2026-09-25, section 'Fertilizers and Water Pollution'."
+  },
+  {
+    "id": "is-artificial-turf-bad-for-environment.csu-clippings-recycle-nutrients",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says grass clippings left on the lawn supply recycled nutrients equal to 1 to 1½ fertilizations a year, while clippings and leaves blown onto the street are the major source of phosphorus pollution in urban lakes and streams.",
+    "quote": "Grass clippings decompose quickly and provide a source of recycled nutrients (equivalent to 1 to 1½ fertilizations per year) and organic matter for the lawn. … Lawn clippings and leaves mowed, swept, or blown onto the street are the major source of phosphorus pollution in urban lakes and streams.",
+    "source_url": "https://cmg.extension.colostate.edu/Gardennotes/551.pdf",
+    "source_label": "CSU Extension, CMG GardenNotes #551, Basic Turf Management (Koski and Whiting, revised January 2012)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1"
+    ],
+    "notes": "Read with curl and pdftotext 2026-09-25, sections 'Mowing' and 'Lawn Clippings and Surface Water Pollution'."
+  },
+  {
+    "id": "is-artificial-turf-bad-for-environment.cdphe-lawn-equipment-ozone-share",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado's health department estimates that, left unregulated, gas-powered lawn and garden equipment would produce about 11% of the emissions that form ground-level ozone in the northern Front Range in 2026.",
+    "quote": "If left unregulated, gas-powered lawn and garden equipment could produce around 36 tons of volatile organic compounds per day and 7.5 tons of nitrogen oxides per day in 2026. This accounts for approximately 11% of total air pollution emissions that form ground-level ozone in the northern Front Range of Colorado.",
+    "source_url": "https://cdphe.colorado.gov/emissions-from-business-and-industry/lawn-and-garden-equipment-requirements",
+    "source_label": "Colorado Department of Public Health and Environment, Lawn and garden equipment requirements",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "36",
+      "7.5",
+      "2026",
+      "11"
+    ],
+    "notes": "Read with curl 2026-09-25 (HTTP 200). The estimate covers all gas lawn and garden equipment, not home mowers alone."
+  },
+  {
+    "id": "is-artificial-turf-bad-for-environment.cdphe-reg29-commercial-hearing",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado's Regulation 29 restricts covered government agencies' use of small gas-powered lawn equipment from June 1 to August 31, and in November 2026 the Air Quality Control Commission will consider extending that summer restriction to commercial lawn equipment.",
+    "quote": "In November 2026, the Air Quality Control Commission will consider revising state Regulation 29 to expand the summertime equipment use restrictions to commercial lawn and garden equipment. … Regulation 29 establishes restrictions on the use of small hand-held lawn and garden equipment between June 1 and August 31, when Colorado typically sees higher ozone pollution levels.",
+    "source_url": "https://cdphe.colorado.gov/emissions-from-business-and-industry/lawn-and-garden-equipment-requirements",
+    "source_label": "Colorado Department of Public Health and Environment, Lawn and garden equipment requirements (July 2026 update)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-01",
+    "numbers": [
+      "2026",
+      "29",
+      "1",
+      "31"
+    ],
+    "notes": "Read with curl 2026-09-25. The rule applies to local and federal agencies (engines under 7 kW) and state agencies (under 19 kW) in the ozone nonattainment area since June 1, 2025; homeowners are not covered. Recheck after the November 2026 hearing."
+  },
+  {
+    "id": "is-artificial-turf-bad-for-environment.cdphe-electric-lawn-discount",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Electric lawn mowers, leaf blowers, trimmers and snow blowers carry a 33% discount at participating retailers and manufacturers in Colorado until January 1, 2030.",
+    "quote": "There is a 33% discount on electric lawn equipment at participating retailers and manufacturers until Jan. 1, 2030. The discount comes from an income tax credit extended to the sellers of electric equipment through House Bill 26-1289: Modification of Certain Tax Expenditures. The discount can be applied to: Electric lawnmowers Leaf blowers Trimmers Snow blowers.",
+    "source_url": "https://cdphe.colorado.gov/emissions-from-business-and-industry/lawn-and-garden-equipment-requirements",
+    "source_label": "Colorado Department of Public Health and Environment, Lawn and garden equipment requirements (Funding options)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "33",
+      "1",
+      "2030"
+    ],
+    "notes": "Read with curl 2026-09-25. Recheck with the 2027 legislative session in case the tax credit changes again."
+  },
+  {
+    "id": "is-artificial-turf-bad-for-environment.qian-follett-turf-soil-carbon",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado State University and USDA researchers in Fort Collins found that soil under turfgrass on Front Range golf courses kept storing carbon for decades, fastest in the first 25 to 30 years after the grass was established.",
+    "quote": "Total C sequestration continued for up to about 31 yr in fairways and 45 yr in putting greens. However, the most rapid increase occurred during the first 25 to 30 yr after turfgrass establishment",
+    "source_url": "https://doi.org/10.2134/agronj2002.9300",
+    "source_label": "Qian and Follett, Assessing Soil Carbon Sequestration in Turfgrass Systems Using Long-Term Soil Testing Data, Agronomy Journal, 2002",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [
+      "31",
+      "45",
+      "25",
+      "30"
+    ],
+    "notes": "The publisher (Wiley) returns 403 to curl and WebFetch. The abstract was read verbatim from the publisher's Crossref metadata (https://api.crossref.org/works/10.2134/agronj2002.9300) on 2026-09-25, a secondary copy, hence EXTERNAL_SOURCE. Authors' affiliations: CSU Dept. of Horticulture and Landscape Architecture and USDA-ARS, both Fort Collins. The data came from golf courses on the Front Range and one in Wyoming, not home lawns; copy says so."
+  },
+  {
+    "id": "is-artificial-turf-bad-for-environment.townsend-small-lawn-ghg",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A Southern California study found fertilized turf gives off nitrous oxide, a greenhouse gas about 300 times as potent as carbon dioxide, and concluded that because of the fuel, fertilizer and irrigation behind turf management, the carbon turf stores cannot offset a city's greenhouse gas emissions.",
+    "quote": "we measured OC sequestration rates and emission of N2O (a GHG ∼ 300 times more effective than CO2) in Southern California, USA. We also estimated CO2 emissions generated by fuel combustion, fertilizer production, and irrigation. … Large indirect emissions of CO2 associated with turfgrass management make it clear that OC sequestration by turfgrass cannot mitigate GHG emissions in cities.",
+    "source_url": "https://doi.org/10.1029/2009GL041675",
+    "source_label": "Townsend-Small and Czimczik, Carbon sequestration and greenhouse gas emissions in urban turf, Geophysical Research Letters, 2010",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [
+      "300"
+    ],
+    "notes": "The publisher (Wiley/AGU) returns 403 to curl and WebFetch. The abstract was read verbatim from the publisher's Crossref metadata (https://api.crossref.org/works/10.1029/2009GL041675) on 2026-09-25, hence EXTERNAL_SOURCE. The abstract also says that in ornamental lawns the nitrous oxide was offset by soil carbon storage; the indirect CO2 from management is what tips the balance. Southern California, not Colorado."
+  },
+  {
+    "id": "is-artificial-turf-bad-for-environment.review-2024-surface-and-air",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A 2024 systematic review found synthetic grass consistently hotter than natural grass: its surface by 9.4 to 33.7°C (about 17 to 61°F) and the air above it by 0.5 to 1.2°C (about 1 to 2°F).",
+    "quote": "The only parameters that were consistently higher on synthetic grass compared to natural grass were the air temperature (range: 0.5–1.2 °C) and surface temperature (range: 9.4–33.7 °C)",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11272752/",
+    "source_label": "Singh, Peterson, Jay and Stevens, The effect of synthetic grass sports surfaces on the thermal environment: A systematic review, International Journal of Biometeorology, 2024",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2024",
+      "9.4",
+      "33.7",
+      "17",
+      "61",
+      "0.5",
+      "1.2",
+      "1",
+      "2"
+    ],
+    "notes": "Read with curl 2026-09-25 (abstract). Fahrenheit figures are differences converted by ×1.8 (16.9, 60.7, 0.9 and 2.2°F), rounded. Studies of sports surfaces; how-hot-does-artificial-turf-get cites the same review in detail."
+  },
+  {
+    "id": "is-artificial-turf-bad-for-environment.dtsc-turf-is-plastic",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "California's Department of Toxic Substances Control describes artificial turf as synthetic fibers of polyethylene, polypropylene or nylon tufted or woven into a backing.",
+    "quote": "Artificial turf consists of synthetic fibers made of polyethylene, polypropylene, or nylon that are tufted or woven into backing material to provide structural integrity",
+    "source_url": "https://web.archive.org/web/20260326043412/https://dtsc.ca.gov/wp-content/uploads/sites/31/2026/02/TechnicalDocument_PFASs-in-Artificial-Turf_accessible.pdf",
+    "source_label": "California DTSC, Technical Document for Artificial Turf Containing Perfluoroalkyl or Polyfluoroalkyl Substances, Feb. 12, 2026 (archived copy)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl and pdftotext from the Wayback capture 2026-09-25, section 2, Product Definition and Scope."
+  },
+  {
+    "id": "is-artificial-turf-bad-for-environment.dtsc-green-claim-watering",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "DTSC says manufacturers often promote artificial turf as a green solution mostly because it needs less watering than natural turf, and partly because it could be recycled.",
+    "quote": "Manufacturers often promote artificial turf as a green solution for sports fields and landscaping, mostly due to lower demand for watering compared to natural turf but also due to the potential recyclability of artificial turf.",
+    "source_url": "https://web.archive.org/web/20260326043412/https://dtsc.ca.gov/wp-content/uploads/sites/31/2026/02/TechnicalDocument_PFASs-in-Artificial-Turf_accessible.pdf",
+    "source_label": "California DTSC, Technical Document for Artificial Turf Containing Perfluoroalkyl or Polyfluoroalkyl Substances, Feb. 12, 2026 (archived copy)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl and pdftotext from the Wayback capture 2026-09-25."
+  },
+  {
+    "id": "is-artificial-turf-bad-for-environment.dtsc-microplastics-stormwater",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "DTSC says artificial turf's blades and backing break down into microplastics with weather and abrasion, and that stormwater carries microplastics into receiving waters without treatment in most California cities.",
+    "quote": "they can form microplastics when blades and backing disintegrate under various weather conditions and physical abrasion (Lohmann et al. 2020). Microplastics end up in stormwater collection systems during rainfall and runoff events, and they directly discharge into receiving waters without treatment in most urban environments in California.",
+    "source_url": "https://web.archive.org/web/20260326043412/https://dtsc.ca.gov/wp-content/uploads/sites/31/2026/02/TechnicalDocument_PFASs-in-Artificial-Turf_accessible.pdf",
+    "source_label": "California DTSC, Technical Document for Artificial Turf Containing Perfluoroalkyl or Polyfluoroalkyl Substances, Feb. 12, 2026 (archived copy)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2020"
+    ],
+    "notes": "Read with curl and pdftotext from the Wayback capture 2026-09-25. California stormwater, not Northern Colorado; the microplastics guide owns the local question."
+  },
+  {
+    "id": "is-artificial-turf-bad-for-environment.dtsc-recycling-landfill",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "DTSC reports that only 10% of the world's end-of-life artificial turf was recycled in 2021, and only 15% in the European Union, and that turf most commonly goes to landfill after use.",
+    "quote": "In 2021, only 10%, or 6.2 million m2 of the world’s end-of-life artificial turf was recycled (Applied Market Information 2022). Even the European Union, the region with the most stringent disposal requirements, recycles only 15% of its volume of artificial turf at the end of life … Artificial turf is most commonly disposed of in landfills after its intended use (Berger 2016).",
+    "source_url": "https://web.archive.org/web/20260326043412/https://dtsc.ca.gov/wp-content/uploads/sites/31/2026/02/TechnicalDocument_PFASs-in-Artificial-Turf_accessible.pdf",
+    "source_label": "California DTSC, Technical Document for Artificial Turf Containing Perfluoroalkyl or Polyfluoroalkyl Substances, Feb. 12, 2026 (archived copy)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2021",
+      "10",
+      "6.2",
+      "2022",
+      "15",
+      "2016"
+    ],
+    "notes": "Read with curl and pdftotext from the Wayback capture 2026-09-25. how-to-dispose-of-artificial-turf.dtsc-recycling-rate-2021 records the recycling rate for the disposal guide."
+  },
+  {
+    "id": "is-artificial-turf-bad-for-environment.sb24-005-findings-both-sides",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "In its 2024 turf law, Colorado's legislature found both that many communities overuse nonnative grass that takes large amounts of water to maintain and that artificial turf can worsen urban heat islands and release plastics, microplastics and PFAS into the environment and watersheds.",
+    "quote": "(c) MANY COMMUNITIES IN THE STATE OVERUSE NONNATIVE GRASS FOR LANDSCAPING PURPOSES, WHICH REQUIRES LARGE AMOUNTS OF WATER TO MAINTAIN; … (g) ADDITIONALLY, ARTIFICIAL TURF CAN CAUSE NEGATIVE ENVIRONMENTAL IMPACTS, SUCH AS EXACERBATING HEAT ISLAND EFFECTS IN URBAN AREAS AND RELEASING HARMFUL CHEMICALS, INCLUDING PLASTICS, MICROPLASTICS, AND PERFLUOROALKYL AND POLYFLUOROALKYL CHEMICALS, INTO THE ENVIRONMENT AND WATERSHEDS.",
+    "source_url": "https://leg.colorado.gov/bill_files/45372/download",
+    "source_label": "C.R.S. 37-99-101(1)(c) and (g), legislative declaration, SB24-005 (signed act)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "2024"
+    ],
+    "notes": "Read with curl and pdftotext 2026-09-25. HB25-1113 did not amend 37-99-101 (its own Section 1 declaration is uncodified and drops the artificial-turf finding, but the codified SB24-005 declaration stands). A legislative finding, not a rule."
+  }
+]

@@ -1,0 +1,389 @@
+[
+  {
+    "id": "artificial-turf-balcony-rooftop.ncei-1982-fort-collins-gusts",
+    "layer": "climate",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "On January 24, 1982, chinook winds reached up to 140 mph in the foothills west of Fort Collins, with gusts of 80 to 100 mph in town, and at least two homes in the area were completely unroofed.",
+    "quote": "Again, on January 24, the Chinooks howled down into the area. While Fort Collins, Colorado, … had escaped the brunt of the windstorm a week earlier, the city was hit hard this time. Winds up to 140 mph blew in the foothills west of the city, with gusts of 80 to 100 mph in town. Several trailers were blown apart in the area, and at least two homes were completely unroofed.",
+    "source_url": "https://www.ncei.noaa.gov/news/weather-history-chinook-winds-winter-1982",
+    "source_label": "NOAA National Centers for Environmental Information, Weather History: Chinook Winds of Winter 1982 (published January 31, 2018)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "24",
+      "1982",
+      "140",
+      "80",
+      "100",
+      "31",
+      "2018"
+    ],
+    "notes": "Read with curl 2026-09-25. The ellipsis drops a distance to a city outside NoCo's area. The article's other passages center on places outside NoCo's area; per the editor note only this Fort Collins passage is used and no other place from the article is named."
+  },
+  {
+    "id": "artificial-turf-balcony-rooftop.sea-gust-map-front-range",
+    "layer": "climate",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A Front Range gust map prepared for the Structural Engineers Association of Colorado describes the region's high winds as winter and spring events, sometimes damaging, that occur from roughly the Continental Divide east to about I-25, and says many Front Range communities used its 2006 predecessor to guide the wind speeds in their codes.",
+    "quote": "Many Front Range communities have used that map to guide code wind speed definition. … High wind speeds in the Front Range area on the plains adjacent to the Rocky Mountains and in the mountains east of the Continental Divide are well known to residents as winter and spring events that are sometimes damaging. The winds are known to occur from roughly the Continental Divide/Larimer County Line (the line of highest terrain running approximately north to south that marks the high terrain western edge of the Front Range area) to approximately I-25 (that runs north-south about 8-15 miles east of the intersection of the mountains with the plains).",
+    "source_url": "https://seacolorado.org/docs/FINAL-COLORADO-FRONT-RANGE-GUST-MAP-2013.pdf",
+    "source_label": "Jon A. Peterka, Cermak Peterka Petersen (Fort Collins), Colorado Front Range Gust Map, ASCE 7-10 Compatible (November 18, 2013), published by SEA Colorado",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2006",
+      "2013",
+      "25",
+      "8",
+      "15",
+      "18",
+      "7",
+      "10"
+    ],
+    "notes": "PDF read with pdftotext 2026-09-25, pp. 1-2. 'That map' in the first sentence is the 2006 50-year map the 2013 report updates. The report's other sentences name places outside NoCo's area; they are not quoted."
+  },
+  {
+    "id": "artificial-turf-balcony-rooftop.fema-roof-border-drainage",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "FEMA says the border of a low-slope roof is frequently at more risk of damage from wind uplift and wind-driven rain than the rest of the roof, and that low-slope roofs drain through interior drains, gutters or scuppers, and secondary or emergency overflow scuppers or drains.",
+    "quote": "Edges and Overhangs—The roof border frequently is at more risk of damage from wind uplift forces and wind-driven rain entry than the rest of the roof. … Drainage—Removes water off the roof and away from the structure. Low-slope roof drainage components include interior drains, gutters or scuppers connected to downspouts, and secondary or emergency overflow scuppers or drains.",
+    "source_url": "https://www.fema.gov/sites/default/files/documents/fema_p-2181-fact-sheet-3-3-2-roof-systems-low-slope-roofs.pdf",
+    "source_label": "FEMA P-2181, Hurricane and Flood Mitigation Handbook for Public Facilities, Fact Sheet 3.3.2: Roof Systems, Low-Slope Roofs (March 2022)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2181",
+      "2022"
+    ],
+    "notes": "PDF read with pdftotext 2026-09-25. Written for public facilities in hurricane regions; the page uses only the general statements about roof borders and drainage components."
+  },
+  {
+    "id": "artificial-turf-balcony-rooftop.fema-loose-ballast-debris",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "FEMA warns that loose gravel ballast on low-slope roofs frequently becomes wind-borne debris that can break windows on the building and those around it.",
+    "quote": "Gravel ballast sometimes is placed on low-slope roof coverings to protect the covering from sun damage and provide a small amount of resistance to uplift. However, gravel ballast often is loose and frequently becomes a source of wind-borne debris (missiles) that can break windows and other openings on the building and surrounding structures.",
+    "source_url": "https://www.fema.gov/sites/default/files/documents/fema_p-2181-fact-sheet-3-3-2-roof-systems-low-slope-roofs.pdf",
+    "source_label": "FEMA P-2181, Hurricane and Flood Mitigation Handbook for Public Facilities, Fact Sheet 3.3.2: Roof Systems, Low-Slope Roofs (March 2022)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2181",
+      "2022"
+    ],
+    "notes": "The statement is about gravel ballast. The page applies it only as a caution to ask how any loose ballast or infill on a roof stays in place; it does not claim FEMA addresses turf infill."
+  },
+  {
+    "id": "artificial-turf-balcony-rooftop.carlisle-hold-down-methods",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Carlisle, a roofing membrane maker, says other rooftop turf systems rely on sand ballast or perimeter tape to stay in place, while its own system fastens the turf to structural grates on adjustable pedestals, which avoids adhesives and roof penetrations and keeps drainage open.",
+    "quote": "Unlike other turf systems that rely on sand ballast or perimeter tape to keep it in place, GRO Synthetic Turf is fastened into structural grates that are supported on adjustable pedestals. This design eliminates the need for adhesives or penetrations, maintains proper drainage, and allows for a level surface—even over sloped substrates—while effectively concealing rooftop elements like drains and conduit.",
+    "source_url": "https://www.carlislesyntec.com/en/Resources/Media/Blog-Landing-Page/SpecTopics/2025/08/12/Rooftop-Synthetic-Turf",
+    "source_label": "Carlisle SynTec Systems, SpecTip: Rooftop Synthetic Turf (August 20, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "20",
+      "2025"
+    ],
+    "notes": "A manufacturer describing its own product against others; the page reports it as Carlisle's statement. The page's sales wording about coverage terms is not used."
+  },
+  {
+    "id": "artificial-turf-balcony-rooftop.carlisle-turf-part-of-roof",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Carlisle says its turf system, installed above the roofing membrane, adds a layer of protection against UV exposure and physical wear, and tells specifiers to put rooftop synthetic turf in the specification section for the roofing membrane it sits on so the bidding contractor sees both systems.",
+    "quote": "Additionally, because it is installed above the roofing membrane—similar to a traditional green roof—it provides an added layer of protection against UV exposure and physical wear, helping to extend the life of the roof system. … When specifying synthetic turf, place it in the section for the roofing assembly it will be installed upon. … Carlisle’s GRO Synthetic Turf System can be placed in the product and installation section of the roofing membrane specification to incorporate the two assemblies and make sure the bidding contractor is aware of both systems.",
+    "source_url": "https://www.carlislesyntec.com/en/Resources/Media/Blog-Landing-Page/SpecTopics/2025/08/12/Rooftop-Synthetic-Turf",
+    "source_label": "Carlisle SynTec Systems, SpecTip: Rooftop Synthetic Turf (August 20, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "20",
+      "2025"
+    ]
+  },
+  {
+    "id": "artificial-turf-balcony-rooftop.carlisle-gro-protection-mat",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Carlisle's rooftop turf installation guide raises the turf above the roof membrane on grates and adjustable pedestals, and starts by loose-laying a protection mat or protection fabric over the approved roof assembly.",
+    "quote": "Carlisle’s GRO Synthetic Turf system is installed in an elevated fashion, allowing the system to sit above the roof membrane secured to structural grates supported on adjustable pedestals. … Loose lay Carlisle’s HP Protective Mat (or 200V/300HV Protection Fabric) over the Carlisle approved roof assembly prior to system installation.",
+    "source_url": "https://www.carlislesyntec.com/Document-Viewer/gro-artificial-turf-installation-guide/F_A-tM2gRXC_vVm2q-DXOA",
+    "source_label": "Carlisle SynTec Systems, GRO Synthetic Turf Installation Guide (dated 05.23.24)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "200",
+      "300",
+      "23",
+      "24",
+      "2024"
+    ],
+    "notes": "The document viewer page serves the PDF from Carlisle's content hub; read with pdftotext 2026-09-25 (4 pages, created May 23, 2024)."
+  },
+  {
+    "id": "artificial-turf-balcony-rooftop.carlisle-gro-perimeter-uplift",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Carlisle's guide requires a border of concrete pavers on the perimeter pedestals as ballast for wind resistance, and where the turf meets a curb or wall, metal counterflashing fastened to the wall that laps at least 2 inches over the turf to prevent uplift at the perimeter.",
+    "quote": "Note: GRO Synthetic Turf Systems shall be installed with a perimeter of concrete pavers sharing the perimeter GRO Turf Pedestals. The weight of the pavers will provide ballast for the turf system, ensuring additional wind resistance. If the system butts to a vertical curb or wall, use a metal counterflashing fastened to the vertical condition that extends over the turf system a minimum of 2\" (5 cm) to prevent uplift in the perimeters.",
+    "source_url": "https://www.carlislesyntec.com/Document-Viewer/gro-artificial-turf-installation-guide/F_A-tM2gRXC_vVm2q-DXOA",
+    "source_label": "Carlisle SynTec Systems, GRO Synthetic Turf Installation Guide (dated 05.23.24)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "5"
+    ]
+  },
+  {
+    "id": "artificial-turf-balcony-rooftop.carlisle-gro-screws-flutter",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Carlisle's guide screws the turf to the grates every 8 inches around the whole perimeter, 1 inch from the grate edge, and at the corner of every grate across the field to prevent flutter.",
+    "quote": "Using ½\" to ¾\" flat head, self-tapping, stainless steel screws, fasten the turf to the grates around the entire perimeter of the turf system, taking care not to overdrive the screws completely through the turf while also driving deep enough to ensure the screw heads are concealed. Screws should be spaced 8\" apart and 1\" from the edge of the grate. In the field of the turf system, screws should be placed at the corner of each grate to prevent flutter.",
+    "source_url": "https://www.carlislesyntec.com/Document-Viewer/gro-artificial-turf-installation-guide/F_A-tM2gRXC_vVm2q-DXOA",
+    "source_label": "Carlisle SynTec Systems, GRO Synthetic Turf Installation Guide (dated 05.23.24)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "8",
+      "1"
+    ]
+  },
+  {
+    "id": "artificial-turf-balcony-rooftop.ifc-2024-landscaped-roof-definition",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The 2024 International Fire Code defines a landscaped roof as an area over a roof assembly with planters, vegetation, hardscaping or similar decorative appurtenances that are not part of the roof assembly.",
+    "quote": "LANDSCAPED ROOF. An area over a roof assembly incorporating planters, vegetation, hardscaping or other similar decorative appurtenances that are not part of the roof assembly.",
+    "source_url": "https://codes.iccsafe.org/content/IFC2024V1.0/chapter-2-definitions",
+    "source_label": "International Code Council, 2024 International Fire Code, Chapter 2 Definitions: Landscaped roof",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "2024"
+    ],
+    "notes": "codes.iccsafe.org returns 403 to curl and to a headless browser; read in the desktop app's browser pane 2026-09-25. The code does not name artificial turf in this definition."
+  },
+  {
+    "id": "artificial-turf-balcony-rooftop.ifc-2024-317-landscaped-roofs",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The 2024 International Fire Code sends vegetative and landscaped roofs to the building code's roof fire-classification and roof-covering sections, and lets the fire code official require a maintenance plan because of the area's size, the materials used or a fire hazard.",
+    "quote": "Vegetative roofs and landscaped roofs shall comply with Sections 1505 and 1507.15 of the International Building Code and be installed and maintained in accordance with Sections 317.2 through 317.4. … The fire code official is authorized to require a maintenance plan for vegetation placed on roofs due to the size of a vegetative roof or landscaped roof area, materials used or where a fire hazard exists to the building or exposures due to the lack of maintenance.",
+    "source_url": "https://codes.iccsafe.org/content/IFC2024V1.0/chapter-3-general-requirements",
+    "source_label": "International Code Council, 2024 International Fire Code, Sections 317.1 and 317.3 (Vegetative and landscaped roofs)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "2024",
+      "317.1",
+      "317.3",
+      "1505",
+      "1507.15",
+      "317.2",
+      "317.4"
+    ],
+    "notes": "Read in the desktop app's browser pane 2026-09-25 (the site blocks automated fetches). Section 321 of the same chapter covers artificial combustible vegetation taller than 6 feet near or on buildings, which does not describe a turf surface; the page does not rely on it."
+  },
+  {
+    "id": "artificial-turf-balcony-rooftop.ibc-2024-1505-roof-classes",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The 2024 International Building Code sets a minimum Class A, B or C fire classification for roof assemblies by construction type, tested under ASTM E108 or UL 790, and makes landscaped and vegetative roofs comply with that section.",
+    "quote": "Fire classification of roof assemblies shall be in accordance with Section 1505. The minimum fire classification of roof assemblies installed on buildings shall comply with Table 1505.1 based on type of construction of the building. Class A, B and C roof assemblies and roof coverings required to be listed by this section shall be tested in accordance with ASTM E108 or UL 790. … Landscaped and vegetative roofs shall comply with Sections 1505.1 and 1507.15. Vegetative roofs shall be installed in accordance with ANSI/SPRI VF-1.",
+    "source_url": "https://codes.iccsafe.org/content/IBC2024V1.0/chapter-15-roof-assemblies-and-rooftop-structures",
+    "source_label": "International Code Council, 2024 International Building Code, Sections 1505.1 and 1505.10",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "2024",
+      "1505",
+      "1505.1",
+      "1505.10",
+      "108",
+      "790",
+      "1507.15",
+      "1"
+    ],
+    "notes": "Read in the desktop app's browser pane 2026-09-25. One- and two-family houses and townhouses are generally built under the International Residential Code, not this code; the page says which applies is the building official's call."
+  },
+  {
+    "id": "artificial-turf-balcony-rooftop.ibc-2024-1502-overflow",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The 2024 International Building Code requires secondary, emergency overflow roof drains or scuppers where roof drains are required and the roof's perimeter would trap water if the primary drains backed up.",
+    "quote": "Where roof drains are required, secondary (emergency overflow) roof drains or scuppers shall be provided where the roof perimeter construction extends above the roof in such a manner that water will be entrapped if the primary drains allow buildup for any reason.",
+    "source_url": "https://codes.iccsafe.org/content/IBC2024V1.0/chapter-15-roof-assemblies-and-rooftop-structures",
+    "source_label": "International Code Council, 2024 International Building Code, Section 1502.2",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "2024",
+      "1502.2"
+    ]
+  },
+  {
+    "id": "artificial-turf-balcony-rooftop.ibc-2024-1606-5-wet-and-dry",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The 2024 International Building Code counts all landscaping and hardscaping on a landscaped roof as dead load, weighed both fully saturated and fully dry to find the worst case for the structure.",
+    "quote": "The weight of all landscaping and hardscaping materials for vegetative and landscaped roofs shall be considered as dead load. The weight shall be computed considering both fully saturated soil and drainage layer materials and fully dry soil and drainage layer materials to determine the most severe load effects on the structure.",
+    "source_url": "https://codes.iccsafe.org/content/IBC2024V1.0/chapter-16-structural-design",
+    "source_label": "International Code Council, 2024 International Building Code, Section 1606.5",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "2024",
+      "1606.5"
+    ],
+    "notes": "Used only to say an engineer weighs roof landscaping wet and dry; the page gives no load figures (editor note: no structural or load advice)."
+  },
+  {
+    "id": "artificial-turf-balcony-rooftop.fc-code-9-1-ifc-2024",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins adopted the 2024 International Fire Code as the city's fire code through Ordinance No. 051, 2025, dated June 17, 2025, and the city's amendments in Sec. 9-2 leave the code's section on vegetative and landscaped roofs as published.",
+    "quote": "Pursuant to the authority conferred by Article II, Section 7 of the Charter and by Section 31-16-201 et seq., C.R.S., there is hereby adopted by reference as the fire code of the City, … the International Fire Code, 2024 Edition, as promulgated by the International Code Council … (… Ord. No. 051, 2025 , § 2, 6-17-25)",
+    "source_url": "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH9FIPRPR_ARTIGE_S9-1ADINFICO2024ED",
+    "source_label": "Fort Collins Municipal Code Sec. 9-1, Adoption of the International Fire Code, 2024 Edition (Ord. No. 051, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2024",
+      "051",
+      "51",
+      "2025",
+      "17",
+      "7"
+    ],
+    "notes": "Read through the Municode API (product 18005, job 498160) 2026-09-25; the library page renders by script. Sec. 9-2's amendments to IFC Chapter 3 touch only Sections 304, 307 and 308, so Section 317 (vegetative and landscaped roofs) applies as published. Sec. 9-2 was last amended by Ord. No. 201, 2025 (12-16-25)."
+  },
+  {
+    "id": "artificial-turf-balcony-rooftop.fc-ord-051-pfa-recommended",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "A Poudre Fire Authority committee reviewed the 2024 International Fire Code and recommended it, with local amendments, to the jurisdictions PFA serves, and the PFA board voted to recommend it on February 25, 2025.",
+    "quote": "A Fire Code Review Committee (“Committee”), formed by the Poudre Fire Authority (“PFA”) in 2024 for the purpose of reviewing the 2024 International Fire Code, has recommended unanimously that the jurisdictions being served by PFA adopt the 2024 International Fire Code with certain local amendments tailored to the circumstances in Fort Collins. … On February 25, 2025, the PFA Board of Directors unanimously voted to recommend that the 2024 International Fire Code with proposed local amendments be adopted by those jurisdictions being served by PFA.",
+    "source_url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/fortcollco-meet-2a2164da634545999e82e3225461d5b9/ITEM-Attachment-005-c3f515f80e9145b1a86175d1712aecc7.pdf",
+    "source_label": "Fort Collins Ordinance No. 051, 2025 (as introduced to City Council), recitals D and F",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "051",
+      "51",
+      "2025",
+      "2024",
+      "25"
+    ],
+    "notes": "PDF read with pdftotext 2026-09-25. Adoption is confirmed by the codified Sec. 9-1 history (fc-code-9-1-ifc-2024). poudre-fire.org's own fire-code adoption page returned 403 to curl and to a headless browser, so the page cites the city's code and ordinance instead."
+  },
+  {
+    "id": "artificial-turf-balcony-rooftop.hud-wood-decay-moisture",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "HUD's durability guide for home builders says wood above 25 percent moisture content is subject to fungal decay, recommends keeping untreated wood at or below 20 percent, and notes that wood outdoors normally settles below 20 percent.",
+    "quote": "At a moisture content of greater than 25 percent, wood is subject to fungal attack or decay. … it is generally recommended that untreated wood be maintained in conditions where the moisture content does not exceed 20 percent. … In most normal outdoor exposures, wood will come to an equilibrium moisture content of less than 20 percent, although short periods of greater moisture content can occur.",
+    "source_url": "https://www.huduser.gov/Publications/pdf/durability_by_design.pdf",
+    "source_label": "U.S. Department of Housing and Urban Development, Durability by Design: A Guide for Residential Builders and Designers (2002), Chapter 7",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "25",
+      "20",
+      "2002",
+      "7"
+    ],
+    "notes": "PDF read with pdftotext 2026-09-25 (87 pages, Chapter 7.1). The USDA Forest Products Laboratory's Wood Handbook blocks automated and browser-pane fetches, so HUD's guide is the source."
+  },
+  {
+    "id": "artificial-turf-balcony-rooftop.fiberon-mats-discoloration",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Fiberon, a composite decking maker, recommends colorfast woven or polypropylene mats on its PVC and PE composite decking and says rubber, latex or vinyl products can react with the boards and discolor them.",
+    "quote": "We recommend colorfast woven mats or polypropylene mats on PVC and PE Composite Decking. Avoid the use of rubber, latex or vinyl products on PVC or PE Composite Decking, as a reaction could occur resulting in discoloration under the rubber, latex or vinyl product.",
+    "source_url": "https://www.fiberondecking.com/faqs",
+    "source_label": "Fiberon, Frequently Asked Questions: welcome or grill mats on PVC and PE composite decking",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The FAQ speaks of mats, not turf. The page pairs it with the Synthetic Turf Council's note that turf backings are coated with polyurethane, hot melt polyolefin or latex, and tells readers to ask both makers."
+  },
+  {
+    "id": "artificial-turf-balcony-rooftop.fiberon-airflow",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Fiberon says a deck needs adequate, unobstructed airflow underneath to keep the decking from absorbing too much water, that water must be able to flow away from under the deck, and that decking should not be installed directly on an existing solid surface.",
+    "quote": "There must be adequate cross ventilation and unobstructed airflow under 50% of the deck. Allow a minimum of 1.5 inches (4 cm) between bottom of joist and the ground. Water must be able to flow away from under the deck. Improve drainage or grade flat areas where standing water may gather, and do not install decking directly to an existing or solid surface. … It is very important that there be adequate and unobstructed air flow under the deck to prevent excessive water absorption.",
+    "source_url": "https://www.fiberondecking.com/faqs",
+    "source_label": "Fiberon, Frequently Asked Questions: installing over an existing substructure and deck ventilation",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "50",
+      "1.5",
+      "4"
+    ]
+  }
+]

@@ -1,0 +1,372 @@
+[
+  {
+    "id": "artificial-turf-on-clay-soil.wss-home",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "USDA-NRCS's Web Soil Survey says soil surveys serve general planning and onsite investigation is needed for some engineering uses; you define an Area of Interest, read the Soil Map and its soil descriptions, then use the Soil Data Explorer to judge how suitable the soils are for a use.",
+    "quote": "Soil surveys can be used for general farm, local, and wider area planning. Onsite investigation is needed in some cases, such as soil quality assessments and certain conservation and engineering applications. … Use the Area of Interest tab to define your area of interest. … Click the Soil Map tab to view or print a soil map, and detailed descriptions of the soils in your Area of Interest. … Click the Soil Data Explorer tab to access soil data for your area and determine the suitability of the soils for a particular use.",
+    "source_url": "https://websoilsurvey.nrcs.usda.gov/app/",
+    "source_label": "USDA-NRCS Web Soil Survey, home page",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read 2026-09-25 (curl, rendered text; the words 'soil quality assessments' sit between commented-out link tags and render as plain text). The same four steps are on https://websoilsurvey.nrcs.usda.gov/app/mainhelp.htm."
+  },
+  {
+    "id": "artificial-turf-on-clay-soil.wss-getting-started",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "NRCS's Getting Started instructions for Web Soil Survey: click Start WSS, use the Quick Navigation panel's Address form to find a place, draw an Area of Interest as a rectangle or polygon, run ratings from the Soil Data Explorer's inner tabs (Suitabilities and Limitations for Use, Soil Properties and Qualities, Soil Reports), and check out the free Shopping Cart as one PDF; shrink-swell potential is among the soil properties NRCS says affect foundations.",
+    "quote": "Soil properties that affect foundations are the shrink-swell potential, depth to a saturated zone, flooding and depth to bedrock. … To start the application, click the large round green button labeled Start WSS. … in the Quick Navigation panel, click on one of the forms — Address, State and County, Soil Survey Area, etc. Enter the information, and click View. … Before you can view any soil data, you must define your Area of Interest (AOI). You can set your AOI by drawing a rectangle or a polygon on the map … To run soil ratings or soil reports, click the Soil Data Explorer tab, then the one of the inner tabs: Suitabilities and Limitations for Use, Soil Properties and Qualities, or Soil Reports. … click the Shopping Cart (Free) tab, and then click the Check Out button. This will generate a single PDF containing all the items you added.",
+    "source_url": "https://content.govdelivery.com/attachments/USDANRCS/2021/01/05/file_attachments/1639092/Getting%20Started%20Instructions%20for%20Web%20Soil%20Survey%20v%203.pdf",
+    "source_label": "USDA-NRCS, Getting Started Instructions for Web Soil Survey v 3.2 (PDF)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3.2"
+    ],
+    "notes": "NRCS's own instructions, hosted on its GovDelivery account (the same file is linked from the WSS home page's help list; nrcs.usda.gov timed out from this machine on 2026-09-25). The quoted sentence about the AOI is joined from steps 5; 'the one of the inner tabs' is NRCS's wording."
+  },
+  {
+    "id": "artificial-turf-on-clay-soil.wss-rating-folders",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "In Web Soil Survey's Soil Data Explorer, Linear Extensibility (shrink-swell) and Saturated Hydraulic Conductivity (Ksat) are in the Soil Physical Properties folder and are averaged over a depth range you set in centimeters, Hydrologic Soil Group is in Soil Qualities and Features, and Dwellings Without Basements is in Building Site Development; NRCS says onsite investigation may be needed to confirm the identity of the soil on a given site.",
+    "quote": "sdvattribute × sdvfolder: \"Linear Extensibility\" (percent) — folder \"Soil Physical Properties\", depth qualifier \"Depth Range\", layer depth unit \"Centimeters\", aggregation \"Weighted Average\", \"Dominant Component\" · \"Saturated Hydraulic Conductivity (Ksat)\" (um/s) — \"Soil Physical Properties\", \"Depth Range\" · \"Hydrologic Soil Group\" — \"Soil Qualities and Features\" · \"Dwellings Without Basements\" — \"Building Site Development\": \"Onsite investigation may be needed to validate these interpretations and to confirm the identity of the soil on a given site.\"",
+    "source_url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+    "source_label": "USDA-NRCS Soil Data Access, Soil Data Viewer tables (sdvattribute, sdvfolder) behind Web Soil Survey's Soil Data Explorer",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Queried 2026-09-25: attribute keys 15 (Linear Extensibility), 42 (Ksat), 73 (Hydrologic Soil Group), 69 (Dwellings Without Basements) joined to sdvfolder. These tables drive the Soil Data Explorer menus; Soil Physical Properties and Soil Qualities and Features appear under the Soil Properties and Qualities tab, Building Site Development under Suitabilities and Limitations for Use."
+  },
+  {
+    "id": "artificial-turf-on-clay-soil.nrcs-shrink-swell-classes",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "NRCS rates shrink-swell potential from linear extensibility: low below 3 percent, moderate 3 to 6, high 6 to 9 and very high above 9; above 3, it says, shrinking and swelling can damage buildings, roads, other structures and plant roots.",
+    "quote": "Linear extensibility is used to determine the shrink-swell potential of soils. The shrink-swell potential is low if the soil has a linear extensibility of less than 3 percent; moderate if 3 to 6 percent; high if 6 to 9 percent; and very high if more than 9 percent. If the linear extensibility is more than 3, shrinking and swelling can cause damage to buildings, roads, and other structures and to plant roots.",
+    "source_url": "https://efotg.sc.egov.usda.gov/references/Public/CA/4j-SectionIIengininterp.pdf",
+    "source_label": "USDA-NRCS Field Office Technical Guide, Section II, Soil Interpretations: Engineering (May 2008)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "6",
+      "9",
+      "2008"
+    ],
+    "notes": "Filed in the California FOTG, but the class limits are NRCS's national ones (the same bands appear in the National Soil Survey Handbook and in SSURGO documentation)."
+  },
+  {
+    "id": "artificial-turf-on-clay-soil.nrcs-hydrologic-groups",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "NRCS sorts soils into hydrologic groups by how fast water soaks in when they are thoroughly wet: group A, mainly deep sands, fast; group B moderate; group C slow; group D very slow, a group that includes clays with high shrink-swell potential.",
+    "quote": "Group A. Soils having a high infiltration rate (low runoff potential) when thoroughly wet. These consist mainly of deep, well drained to excessively drained sands or gravelly sands. These soils have a high rate of water transmission. Group B. Soils having a moderate infiltration rate when thoroughly wet. … Group C. Soils having a slow infiltration rate when thoroughly wet. These consist chiefly of soils having a layer that impedes the downward movement of water or soils of moderately fine texture or fine texture. These soils have a slow rate of water transmission. Group D. Soils having a very slow infiltration rate (high runoff potential) when thoroughly wet. These consist chiefly of clays that have a high shrink-swell potential, soils that have a high water table, soils that have a claypan or clay layer at or near the surface, and soils that are shallow over nearly impervious material.",
+    "source_url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+    "source_label": "USDA-NRCS Soil Data Access, Hydrologic Soil Group rating description (the text Web Soil Survey shows)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "sdvattribute.attributedescription for attribute key 73, queried 2026-09-25."
+  },
+  {
+    "id": "artificial-turf-on-clay-soil.nrcs-ksat-classes",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "NRCS reports saturated hydraulic conductivity (Ksat), the ease with which a saturated soil passes water, in micrometers per second, in classes that include moderately low (0.1 to 1.0), moderately high (1 to 10) and high (10 to 100).",
+    "quote": "Saturated hydraulic conductivity (Ksat) refers to the ease with which pores in a saturated soil transmit water. The estimates are expressed in terms of micrometers per second. … Very low: 0.00 to 0.01 Low: 0.01 to 0.1 Moderately low: 0.1 to 1.0 Moderately high: 1 to 10 High: 10 to 100 Very high: 100 to 705",
+    "source_url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+    "source_label": "USDA-NRCS Soil Data Access, Saturated Hydraulic Conductivity (Ksat), Standard Classes rating description",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "0.00",
+      "0.01",
+      "0.1",
+      "1.0",
+      "1",
+      "10",
+      "100",
+      "705"
+    ],
+    "notes": "sdvattribute.attributedescription for attribute key 61, queried 2026-09-25."
+  },
+  {
+    "id": "artificial-turf-on-clay-soil.ssurgo-hydrologic-groups-noco",
+    "layer": "soil",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "In the NRCS soil surveys that cover Northern Colorado, every Nunn, Weld and Fort Collins map unit is hydrologic group C (slow infiltration), Otero and Vona are group A (high infiltration), and Olney and Garrett are group B.",
+    "quote": "Major components, survey areas CO644, CO617, CO618 and CO643 — Nunn (clay loam, loam, loamy sand and sandy clay loam map units): hydgrp C in every map unit · Weld (loam, fine sandy loam, loamy sand, silt loam): C · Fort Collins loam: C · Olney (fine sandy loam, loamy sand): B · Garrett loam: B · Otero sandy loam: A · Vona (loamy sand, sandy loam): A · Kim loam: A (CO618), B (CO644)",
+    "source_url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+    "source_label": "USDA-NRCS Soil Data Access (SSURGO), component hydrologic soil groups, survey areas CO644, CO617, CO618 and CO643",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "644",
+      "617",
+      "618",
+      "643"
+    ],
+    "notes": "Queried 2026-09-25 (legend × mapunit × component, majcompflag = Yes). CO644 is the Larimer County Area survey, CO617 and CO618 the northern and southern Weld County surveys, CO643 the survey that covers Longmont; never print CO643's area name (it is a Denver-metro county name). Kim loam complexes in CO617 are group C."
+  },
+  {
+    "id": "artificial-turf-on-clay-soil.ssurgo-nunn-weld-profiles",
+    "layer": "soil",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "In NRCS's representative profiles, Nunn clay loam has a surface layer about 15 cm (6 inches) thick with a linear extensibility of 4.2, over a clay-rich subsoil to about 66 cm (26 inches) with 38% clay, linear extensibility 6.8 and Ksat 0.915 µm/s; Weld loam's subsoil starts at about 20 cm (8 inches), with 41.5% clay and linear extensibility 8.1.",
+    "quote": "Nunn clay loam, 0 to 1 percent slopes (CO644 map unit 73) — Ap 0–15 cm: clay 31%, Ksat 1.41 µm/s, LEP 4.2 · Bt1 15–25 cm and Bt2 25–66 cm: clay 38%, Ksat 0.915 µm/s, LEP 6.8. Weld loam, 0 to 1 percent slopes (CO618 map unit 78) — Ap 0–20 cm: clay 22.5%, Ksat 9.17 µm/s, LEP 2.9 · Bt1 20–30 cm: clay 41.5%, Ksat 0.915 µm/s, LEP 8.1 · Bt2 30–38 cm: clay 38.3%, Ksat 0.915 µm/s, LEP 6.8",
+    "source_url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+    "source_label": "USDA-NRCS Soil Data Access (SSURGO), horizon data for Nunn clay loam (CO644) and Weld loam (CO618)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "0",
+      "1",
+      "15",
+      "6",
+      "4.2",
+      "66",
+      "26",
+      "38",
+      "6.8",
+      "0.915",
+      "20",
+      "8",
+      "41.5",
+      "8.1",
+      "644",
+      "73",
+      "31",
+      "1.41",
+      "25",
+      "618",
+      "78",
+      "22.5",
+      "9.17",
+      "2.9",
+      "30",
+      "38.3"
+    ],
+    "notes": "Queried 2026-09-25 (chorizon representative values, major components). The same Nunn clay loam 0–1% profile is recorded in CO618 (map unit 41) and CO643 (NuA); Weld loam 0–1% is identical in CO643 (WlA). Inch figures are our conversions (15 cm ≈ 5.9 in, 20 cm ≈ 7.9 in, 66 cm ≈ 26 in). Representative profiles, not a site finding."
+  },
+  {
+    "id": "artificial-turf-on-clay-soil.ssurgo-sandy-profiles",
+    "layer": "soil",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "In NRCS's representative profiles, Vona loamy sand's surface layer is 85.3% sand and passes water at 92 µm/s, about 100 times the 0.915 µm/s of Nunn's clay subsoil; Otero sandy loam has 15% clay and 23 µm/s to 152 cm; Olney fine sandy loam has 15% clay in its top 25 cm but 26.5% clay from 25 to 51 cm (about 10 to 20 inches); all three rate 1.5 for linear extensibility.",
+    "quote": "Vona loamy sand, 0 to 3 percent slopes (CO618 map unit 72) — H1 0–15 cm: clay 5.5%, sand 85.3%, Ksat 92 µm/s, LEP 1.5 · Otero sandy loam, 1 to 3 percent slopes (CO618 map unit 51) — H1 0–30 cm and H2 30–152 cm: clay 15%, Ksat 23 µm/s, LEP 1.5 · Olney fine sandy loam, 0 to 1 percent slopes (CO618 map unit 46) — H1 0–25 cm: clay 15%, Ksat 23 µm/s, LEP 1.5 · H2 25–51 cm: clay 26.5%, Ksat 9 µm/s, LEP 1.5",
+    "source_url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+    "source_label": "USDA-NRCS Soil Data Access (SSURGO), horizon data for Vona, Otero and Olney soils (CO618)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "85.3",
+      "92",
+      "100",
+      "0.915",
+      "15",
+      "23",
+      "152",
+      "25",
+      "26.5",
+      "51",
+      "10",
+      "20",
+      "1.5",
+      "0",
+      "3",
+      "618",
+      "72",
+      "5.5",
+      "1",
+      "30",
+      "46",
+      "9"
+    ],
+    "notes": "Queried 2026-09-25. '100 times' is our arithmetic (92 ÷ 0.915 ≈ 100.5), comparing Vona's surface layer with Nunn's Bt horizon (see ssurgo-nunn-weld-profiles). Inches are our conversion (25 cm ≈ 9.8 in, 51 cm ≈ 20.1 in). The points used for the Windsor and Greeley town samples both fall in survey area CO618, where Olney fine sandy loam has this profile; in CO617 its clay-rich layer runs 15–46 cm."
+  },
+  {
+    "id": "artificial-turf-on-clay-soil.csu-texture-by-feel",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension's hand tests: moist clay feels sticky, a moist ball of clayey soil resists breaking while sand breaks with slight pressure, a ribbon longer than 2 inches means clayey soil, and as little as 20% clay makes a soil behave as clay.",
+    "quote": "Clays feel sticky. … Coarse texture soils (sand or loamy sands) break with slight pressure. … Fine textured soils (clayey or clayey loam) resist breaking. Ribbon test – Squeeze a moistened ball of soil out between thumb and fingers while squeezing upward. … Ribbons greater than 2 inches = fine texture (clayey) soil. Note: A soil with as little as 20% clay will behave as a clayey soil.",
+    "source_url": "https://cmg.extension.colostate.edu/Gardennotes/214.pdf",
+    "source_label": "CSU Extension, CMG GardenNotes #214, Estimating Soil Texture: Sandy, Loamy, or Clayey (reviewed September 2022)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "20",
+      "214",
+      "2022"
+    ]
+  },
+  {
+    "id": "artificial-turf-on-clay-soil.cgs-warning-signs",
+    "layer": "soil",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Geological Survey lists warning signs of swelling clay (a puffy, popcorn look to dry surface soil, soil very sticky when wet, open cracks in dry soil, bare ground on heavy clay, soil plastic when wet but rock-hard when dry) and says only a professional soil engineer or engineering geologist should be relied on to identify it.",
+    "quote": "Although several visual methods for identification of potentially expansive clays exist, only a competent, professional soil engineer and engineering geologist should be relied upon to identify this potential hazard. Some warning signs for swell might include: a) soft, puff, popcorn appearance of the surface soil when dry; b) surface soil that is very sticky when wet; c) open cracks (desiccation polygons) in dry surface soils; d) lack of vegetation due to heavy clay soils; e) soils that are very plastic and weak when wet, but are rock-hard when dry.",
+    "source_url": "https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/",
+    "source_label": "Colorado Geological Survey, Expansive Soil & Rock",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-on-clay-soil.cgs-water-triggers-swell",
+    "layer": "soil",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Geological Survey says expansive subsoils are usually fairly dry until construction disturbs them and swell when water reaches them during or after development; the damage it lists includes cracked driveways, sidewalks and basement floors.",
+    "quote": "The losses include severe structural damage, cracked driveways, sidewalks and basement floors, heaving of roads and highway structures, condemnation of buildings, and disruption of pipelines and sewer lines. … Subsurface expansive soils on Colorado tend to remain at a constant moisture content in their natural state and are usually relatively dry at the outset of the disturbance that construction causes on them. Exposure to natural or human-sourced water during or after development results in expansion.",
+    "source_url": "https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/",
+    "source_label": "Colorado Geological Survey, Expansive Soil & Rock",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "'on Colorado' is the page's wording."
+  },
+  {
+    "id": "artificial-turf-on-clay-soil.crs-expansive-soil-publication",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Where a site has significant potential for expansive soils, Colorado also requires the builder to give each buyer a publication on the problems those soils cause, how they were addressed in construction, and how to care for the home.",
+    "quote": "For sites in which significant potential for expansive soils is recognized, the builder or his representative shall supply each buyer with a copy of a publication detailing the problems associated with such soils, the building methods to address these problems during construction, and suggestions for care and maintenance to address such problems.",
+    "source_url": "https://colorado.public.law/statutes/crs_6-6.5-101",
+    "source_label": "C.R.S. 6-6.5-101(1) (text via Colorado.Public.Law)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "recheck": "2027-06-15",
+    "numbers": [],
+    "notes": "Public.Law reproduces the statute (its source: leg.colorado.gov crs2024-title-06.pdf, which returned 403 to curl on 2026-09-25), hence EXTERNAL_SOURCE. Second sentence of the subsection whose first sentence is co-new-home-soils-report. Subsection (3): does not apply to someone building their own residence."
+  },
+  {
+    "id": "artificial-turf-on-clay-soil.cgs-sp43-disclosure",
+    "layer": "soil",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Geological Survey says its Guide to Swelling Soils for Colorado Homebuyers and Homeowners (SP-43) covers geology, construction, landscaping and home maintenance and satisfies part of Colorado's disclosure requirements for new houses built on swelling soil.",
+    "quote": "Written to assist homeowners in reducing damage caused by swelling soils, this important publication covers the latest information on geology, construction, landscaping, and home maintenance. It satisfies part of the disclosure requirements of the State of Colorado for new houses built on swelling soil, as well as to inform homeowners on strategies for the long-term care of their homes.",
+    "source_url": "https://coloradogeologicalsurvey.org/publications/swelling-soils-guide-colorado-homebuyers-homeowners/",
+    "source_label": "Colorado Geological Survey, SP-43 A Guide to Swelling Soils for Colorado Homebuyers and Homeowners",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "43"
+    ],
+    "notes": "Product page only; the 76-page book itself is sold, not downloadable, so nothing from inside it is cited."
+  },
+  {
+    "id": "artificial-turf-on-clay-soil.csu-foundation-water",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension advises landscaping expansive soils from a site graded so water drains away from the house, keeping sprinkler spray at least five feet from the foundation, carefully regulating water applied near it, and leaving downspout extensions in place.",
+    "quote": "Begin landscaping with a site that has been graded so water drains away from the house. … Don’t allow sprinkler systems to spray any closer than five feet from the foundation, and plant trees no closer than fifteen feet from the foundation. It is important to carefully regulate water applied near the foundation. Avoid the temptation to remove downspout extensions to harvest water for flower beds near the house.",
+    "source_url": "https://planttalk.colostate.edu/topics/soils-amendments-composting/1617-expansive-soils/",
+    "source_label": "CSU Extension PlantTalk Colorado, 1617 – Expansive Soils",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1617"
+    ]
+  },
+  {
+    "id": "artificial-turf-on-clay-soil.csu-front-range-clayey",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says many Front Range soils are clayey and compact readily, clay's lack of large pores restricts water movement so it waterlogs easily, and soils become compacted during home construction.",
+    "quote": "Along Colorado’s Front Range, many soils are clayey and compact readily. … The limitations of clayey soils arise from a lack of large pores, thus restricting both water and air movement. Soils easily waterlog when water cannot move down through the soil profile. … Soils become compacted during home construction and need to have organic material added over several years to develop its tilth.",
+    "source_url": "https://cmg.extension.colostate.edu/Gardennotes/213.pdf",
+    "source_label": "CSU Extension, CMG GardenNotes #213, Managing Soil Tilth (reviewed May 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "213",
+      "2023"
+    ]
+  },
+  {
+    "id": "artificial-turf-on-clay-soil.pavement-optimum-moisture",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Pavement Interactive, a pavement engineering reference, says ground must be at or near its optimum moisture content to reach its target density, and ground not compacted to adequate density keeps compressing, deforming or eroding after construction.",
+    "quote": "a subgrade soil must be compacted to an adequate density (see Figure 1). If it is not, the subgrade will continue to compress, deform or erode after construction, causing pavement cracks and deformation. … In order to achieve these densities the subgrade must be at or near its optimum moisture content (the moisture content at which maximum density can be achieved).",
+    "source_url": "https://pavementinteractive.org/reference-desk/construction/site-preparation/subgrade-preparation-for-new-pavements/",
+    "source_label": "Pavement Interactive, Subgrade Preparation for New Pavements",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1"
+    ],
+    "notes": "Written for road subgrades; the page applies only the moisture-density principle to the ground under a turf base."
+  },
+  {
+    "id": "artificial-turf-on-clay-soil.mikasa-clay-vs-sand",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Mikasa, a maker of compaction equipment, says clay is plastic when wet and very hard when dry and needs proper, evenly spread water plus impact or pressure to compact, while sand has little or no cohesive strength when dry, needs shaking or vibration to move, and reaches maximum density dry or saturated; its hand test calls soil that is moldable and breaks into a couple of pieces when dropped right for compaction, and soil that stays in one piece and leaves moisture on the fingers too wet.",
+    "quote": "Cohesive soils are dense and tightly bound together by molecular attraction. They are plastic when wet and can be molded, but become very hard when dry. Proper water content, evenly distributed, is critical for proper compaction. Cohesive soils usually require a force such as impact or pressure. … Sand and gravel obtain maximum density in either a fully dry or saturated state. … Little or no cohesive strength when dry. Soil sample will crumble easily. … If the soil is moldable and breaks into only a couple of pieces when dropped, it has the right amount of moisture for proper compaction. If the soil is plastic in your hand, leaves small traces of moisture on your fingers and stays in one piece when dropped, it has too much moisture for compaction. … since granular soils are not cohesive and the particles require a shaking or vibratory action to move them",
+    "source_url": "https://www.mikasas.com/assets/service/pdf/tech/20161212About_Soil_Compaction.pdf",
+    "source_label": "Mikasa Sangyo, About Soil Compaction (equipment maker's technical guide, PDF)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "A manufacturer's guide, credited with help from a geotechnical firm (Budinger & Associates). 'Little or no cohesive strength when dry. Soil sample will crumble easily.' is the granular-soil row of its Guide to Soil Types table."
+  }
+]

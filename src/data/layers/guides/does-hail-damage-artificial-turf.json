@@ -1,0 +1,306 @@
+[
+  {
+    "id": "does-hail-damage-artificial-turf.iso-ho3-lawns-limited-perils",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The widely used ISO Homeowners 3 special form covers trees, shrubs, plants or lawns only for fire or lightning, explosion, riot or civil commotion, aircraft, vehicles not owned or operated by a resident, vandalism or malicious mischief and theft, a list without windstorm or hail, and pays at most 5% of the dwelling limit for all of them and $500 for any one tree, shrub or plant.",
+    "quote": "We cover trees, shrubs, plants or lawns, on the \"residence premises\", for loss caused by the following Perils Insured Against: a. Fire or Lightning; b. Explosion; c. Riot or Civil Commotion; d. Aircraft; e. Vehicles not owned or operated by a resident of the \"residence premises\"; f. Vandalism or Malicious Mischief; or g. Theft. We will pay up to 5% of the limit of liability that applies to the dwelling for all trees, shrubs, plants or lawns. No more than $500 of this limit will be paid for any one tree, shrub or plant.",
+    "source_url": "https://www.iii.org/sites/default/files/docs/pdf/HO3_sample.pdf",
+    "source_label": "Insurance Information Institute, sample ISO Homeowners 3 Special Form (HO 00 03 10 00), Section I, Additional Coverages 3, Trees, Shrubs And Other Plants",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "5",
+      "500",
+      "00",
+      "03",
+      "10"
+    ],
+    "notes": "Read in the PDF (22 pages) on 2026-09-25; 'resi-dent' is hyphenated across a line in the PDF and is rejoined here. This is a sample of the Insurance Services Office form, 2000 edition, hosted by the Insurance Information Institute; insurers file their own editions and forms, so copy must say 'the ISO form' and send readers to their own policy. The form does not mention artificial turf anywhere: whether an insurer treats turf as a lawn, an other structure or neither is not settled by this text."
+  },
+  {
+    "id": "does-hail-damage-artificial-turf.iso-ho3-hail-named-for-belongings",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same ISO form covers the dwelling and other structures against any risk of direct physical loss that is not excluded, and names windstorm or hail as the second peril for personal property.",
+    "quote": "We insure against risk of direct physical loss to property described in Coverages A and B. … We insure for direct physical loss to the property described in Coverage C caused by any of the following perils unless the loss is excluded in Section I – Exclusions. 1. Fire Or Lightning 2. Windstorm Or Hail",
+    "source_url": "https://www.iii.org/sites/default/files/docs/pdf/HO3_sample.pdf",
+    "source_label": "Insurance Information Institute, sample ISO Homeowners 3 Special Form (HO 00 03 10 00), Section I, Perils Insured Against",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "2",
+      "00",
+      "03",
+      "10"
+    ],
+    "notes": "'Sec-tion' is hyphenated across a line in the PDF and is rejoined here. Use it only to show that the form knows how to name hail and leaves it off the lawn list; do not use it to say how any insurer treats turf."
+  },
+  {
+    "id": "does-hail-damage-artificial-turf.iso-ho3-land-other-structures",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The ISO form covers the dwelling including structures attached to it, does not cover land, and defines other structures as structures on the residence premises set apart from the dwelling by clear space.",
+    "quote": "We cover: a. The dwelling on the \"residence premises\" shown in the Declarations, including structures attached to the dwelling; … We do not cover land, including land on which the dwelling is located. … We cover other structures on the \"residence premises\" set apart from the dwelling by clear space. This includes structures connected to the dwelling by only a fence, utility line, or similar connection.",
+    "source_url": "https://www.iii.org/sites/default/files/docs/pdf/HO3_sample.pdf",
+    "source_label": "Insurance Information Institute, sample ISO Homeowners 3 Special Form (HO 00 03 10 00), Section I, Coverage A and Coverage B",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "00",
+      "03",
+      "10"
+    ],
+    "notes": "Coverage A.2 and Coverage B.1 of the sample form."
+  },
+  {
+    "id": "does-hail-damage-artificial-turf.iso-ho3-deductible-total-loss",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "In the ISO form the deductible comes off the total of all loss payable under the property section, not off each damaged item.",
+    "quote": "Subject to the policy limits that apply, we will pay only that part of the total of all loss payable under Section I that exceeds the deductible amount shown in the Declarations.",
+    "source_url": "https://www.iii.org/sites/default/files/docs/pdf/HO3_sample.pdf",
+    "source_label": "Insurance Information Institute, sample ISO Homeowners 3 Special Form (HO 00 03 10 00), Deductible",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "00",
+      "03",
+      "10"
+    ],
+    "notes": "The form opens the clause 'Unless otherwise noted in this policy'; many Colorado policies carry a separate wind/hail deductible (see the Colorado summary-of-coverage record), so copy should tell readers to ask, not promise one deductible."
+  },
+  {
+    "id": "does-hail-damage-artificial-turf.iso-ho3-duties-after-loss",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "After a loss the ISO form asks the homeowner to give prompt notice, protect the property from further damage, keep an accurate record of repair expenses and show the damaged property as often as the insurer reasonably requires.",
+    "quote": "1. Give prompt notice to us or our agent; … 4. Protect the property from further damage. If repairs to the property are required, you must: a. Make reasonable and necessary repairs to protect the property; and b. Keep an accurate record of repair expenses; … 7. As often as we reasonably require: a. Show the damaged property;",
+    "source_url": "https://www.iii.org/sites/default/files/docs/pdf/HO3_sample.pdf",
+    "source_label": "Insurance Information Institute, sample ISO Homeowners 3 Special Form (HO 00 03 10 00), Section I Conditions, Duties After Loss",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "4",
+      "7",
+      "00",
+      "03",
+      "10"
+    ],
+    "notes": "'ex-penses' is hyphenated across a line in the PDF and is rejoined here."
+  },
+  {
+    "id": "does-hail-damage-artificial-turf.doi-hail-usually-covered",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Division of Insurance says damage from windstorms or hail storms is usually covered by a standard homeowners policy, that policies vary from company to company, and that homeowners should ask their agent or insurer what is and isn't covered.",
+    "quote": "Damage caused by windstorms or hail storms is usually covered. … take time to speak to your agent or insurer to understand what is and isn't covered in your homeowners or renters policy … policies vary from company to company, so be sure you read and understand yours. … Remember that with any claim, you'll have to pay your deductible, as detailed in your policy. … If you ever have to file a claim, the insurance company will ask for proof of purchase for all items reported on the claim.",
+    "source_url": "https://doi.colorado.gov/my-homeowners-insurance-doesnt-cover-what",
+    "source_label": "Colorado Division of Insurance, My homeowners insurance doesn't cover what?",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read in full on 2026-09-25 (page fetched with a browser user agent). Curly apostrophes normalised to straight. The proof-of-purchase sentence sits in the page's home-inventory advice. The page's phone line carries an out-of-area qualifier; never quote that part."
+  },
+  {
+    "id": "does-hail-damage-artificial-turf.co-summary-of-coverage-form",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado's required homeowners summary of coverage says the policy prevails over the summary, asks homeowners to review coverage with their agent every year, gives fences, sheds and detached garages as examples of other structures, says a deductible may be a fixed amount, a percentage of the dwelling limit or both, lists land and wear and tear among general exclusions, and lists a paid claim among conditions that may raise a premium.",
+    "quote": "THE INFORMATION IN THIS DOCUMENT DOES NOT REPLACE ANY POLICY PROVISION. … IN THE EVENT OF A CONFLICT BETWEEN THE POLICY AND THIS SUMMARY DISCLOSURE FORM, YOUR POLICY PROVISIONS SHALL PREVAIL. … It is important that you review and discuss your coverage with your agent or company representative on an annual basis. Any changes to your insured property, i.e. remodeling or building code updates, may require an increased coverage amount for your insured property. … OTHER STRUCTURES: Buildings and other structures not attached to the dwelling such as fences, sheds and detached garages. … Deductible: That part of the covered loss for which you are responsible for paying. Please review your policy declaration page. Deductibles may be a fixed amount, a percentage of the dwelling limit, or a combination of both; … 5. Land; … 8. Wear and tear. … Conditions that may increase your premium include, but are not limited to: 1. A loss resulting in a paid claim;",
+    "source_url": "https://doi.colorado.gov/sites/doi/files/documents/Homeowners%27%20Insurance%20Summary%20of%20Coverage%20Form.pdf",
+    "source_label": "Colorado Division of Insurance, Homeowners Policy Summary of Coverage form (Bulletin B-5.15)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "5",
+      "8",
+      "5.15"
+    ],
+    "notes": "The form is the Division's minimum wording; insurers may add brackets-only detail (Bulletin B-5.15). The general-exclusions list is numbered 1 to 8 in the form; items 5 and 8 are quoted."
+  },
+  {
+    "id": "does-hail-damage-artificial-turf.co-crs-10-4-111-annual-summary",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Under C.R.S. 10-4-111 and Division of Insurance Bulletin B-5.15, every Colorado homeowners insurer must give policyholders a summary of coverage, and the homeowners summary is provided annually.",
+    "quote": "All insurers providing homeowners', renters', condominium and landlord (also called \"dwelling fire\") insurance must provide these summaries, as required per Colorado Revised Statute 10-4-111 and Division of Insurance Bulletin B-5.15 … Homeowners' Insurance Required Summary (provided annually)",
+    "source_url": "https://doi.colorado.gov/types-of-insurance/homeowners-insurance",
+    "source_label": "Colorado Division of Insurance, Homeowners' Insurance (Required Summary of Coverage Information), citing C.R.S. 10-4-111 and Bulletin B-5.15",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "10",
+      "4",
+      "111",
+      "5.15"
+    ],
+    "notes": "Bulletin B-5.15 (read 2026-09-25 at doi.colorado.gov) adds that the forms must be furnished at the initial purchase and homeowner forms annually thereafter; last reissued October 26, 2017. Statutory: label 'Not legal advice' in copy."
+  },
+  {
+    "id": "does-hail-damage-artificial-turf.doi-hail-premium-share-weld-larimer",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "In the Colorado Division of Insurance's 2026 analysis of data from 20 insurers, hail made up an average 52.7% of the homeowners premium in Weld County and 51.6% in Larimer County.",
+    "quote": "Hail is the Number One Cost Driver of Insurance in Colorado … The Division of Insurance (DOI) requested data from 20 homeowners insurance carriers, representing 80% of the total market premium, to calculate average homeowners insurance premiums for 11 counties, including how much of a policyholder's premium is attributable to hail risk and wildfire risk. … Average Yearly Homeowners Insurance Percentage Premiums, by County … Average Hail Portion of Premium … Weld 52.7% … Larimer 51.6%",
+    "source_url": "https://doi.colorado.gov/sites/doi/files/documents/DOI_Hail_One_Pager.pdf",
+    "source_label": "Colorado Division of Insurance, Hail is the Number One Cost Driver of Insurance in Colorado (one-pager, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "20",
+      "80",
+      "11",
+      "52.7",
+      "51.6",
+      "2026"
+    ],
+    "notes": "The county figures are the hail-portion bar labels in the one-pager's chart (county names on the axis), read from the rendered page on 2026-09-25. Wildfire portions for comparison: Larimer 5.7% (bar total 57.3%); Weld's wildfire slice is unlabelled (bar total 54.6%). The PDF's metadata dates it January–February 2026, and CPR News reported its release on Feb. 11, 2026 (https://www.cpr.org/2026/02/11/hail-increase-homeowners-insurance-premiums-colorado/). The chart also names counties outside NoCo; quote only Weld and Larimer. Curly apostrophe normalised."
+  },
+  {
+    "id": "does-hail-damage-artificial-turf.doi-hail-storm-faq",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Division of Insurance warns that contractors flock to Colorado after major hail storms, that an insurer may consider non-renewing a policy after multiple losses including hail, and that an insurer is only required to repair or replace the actual damage caused by the covered event.",
+    "quote": "After major hail storm events, contractors will flock to Colorado. … if you have had multiple losses (including hail) an insurer may consider non-renewing the policy. … The company is only required to repair or replace the actual damages caused by the covered event.",
+    "source_url": "https://doi.colorado.gov/insurance-products/homeowners/renters-insurance/being-prepared/after-a-hail-storm-insurance-faqs",
+    "source_label": "Colorado Division of Insurance, After a Hail Storm: Insurance FAQs",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The third sentence answers a question about matching siding; use it only as the general rule it states."
+  },
+  {
+    "id": "does-hail-damage-artificial-turf.doi-toolkit-terms-hoa",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Division of Insurance's homeowners toolkit says an adjuster works for the insurance company and determines the coverage owed on a claim, and that damage to HOA common areas is typically covered by the HOA's master policy.",
+    "quote": "A staff or independent adjuster works for the company and is responsible for inspecting, investigating and determining coverage owed in claims. … Deductible - An amount of out-of-pocket money the policyholder pays before the insurance pays for a claim. … Damage to common areas is typically covered by the HOA's master policy. Homeowners are responsible for damages within their units not covered by the master policy, which varies based on the policy type and the specifics of the damage.",
+    "source_url": "https://doi.colorado.gov/homeowners-hoainsurancetoolkit",
+    "source_label": "Colorado Division of Insurance, Toolkit for Homeowners and HOAs on Insurance",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Curly apostrophes normalised to straight. The toolkit's contact line carries a phone number; never type it in copy."
+  },
+  {
+    "id": "does-hail-damage-artificial-turf.doi-consumer-services",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Division of Insurance's Consumer Services section answers homeowners' insurance questions and investigates complaints about insurers.",
+    "quote": "The Division's Consumer Services section is a resource for Coloradans regarding insurance - investigating consumers' complaints, answering questions and providing education. … If you have a question about your insurance - how it works, what something means or just want to have a better understanding - contact our Consumer Services Team.",
+    "source_url": "https://doi.colorado.gov/for-consumers/file-a-complaint",
+    "source_label": "Colorado Division of Insurance, File a Complaint",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Curly apostrophes normalised. The page lists phone numbers; copy links the page and never types them."
+  },
+  {
+    "id": "does-hail-damage-artificial-turf.nssl-hail-size-fall-speed",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "NOAA's National Severe Storms Laboratory counts quarter-size (1-inch) hail or larger as severe, compares 1.75-inch hail to a golf ball and 2.75-inch hail to a baseball, puts the expected fall speed of 1- to 1.75-inch stones at 25 to 40 mph and of 2- to 4-inch stones at 44 to 72 mph, and says a ruler, calipers or tape measure measures hail better than comparing it to an object.",
+    "quote": "For hailstones that one would typically see in a severe thunderstorm (1-inch to 1.75-inch in diameter), the expected fall speed is between 25 and 40 mph. In the strongest supercells that produce some of the largest hail one might expect to see (2-inches to 4-inches in diameter), the expected fall speed is between 44 and 72 mph. … When reporting hail, estimates comparing the hail to a known object with definite size are good, but measurements using a ruler, calipers, or a tape measure are best. … Quarter = 1 inch — hail quarter size or larger is considered severe … Golf Ball = 1 3/4 inches … Baseball = 2 3/4 inches",
+    "source_url": "https://www.nssl.noaa.gov/education/svrwx101/hail/",
+    "source_label": "NOAA National Severe Storms Laboratory, Severe Weather 101: Hail",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "1.75",
+      "25",
+      "40",
+      "2",
+      "4",
+      "44",
+      "72",
+      "3/4",
+      "3",
+      "2.75"
+    ],
+    "notes": "NSSL adds that there is much uncertainty in the fall-speed estimates. 1 3/4 in = 1.75 in and 2 3/4 in = 2.75 in (the NOAA Storm Events magnitudes for the Berthoud, Johnstown and Wellington stones)."
+  },
+  {
+    "id": "does-hail-damage-artificial-turf.stc-debris-metal",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council's maintenance guidelines say every loose foreign object can damage synthetic turf by abrading the fibers or contaminating the infill, that leaves and debris left on the surface migrate into the system and hinder drainage, and that a magnet removes ferrous metal.",
+    "quote": "Every loose foreign object, no matter how small, can damage your field by abrading the grass fibers and/or contaminating the infill. … Remove airborne contaminants, such as leaves and other debris. If allowed to remain on the surface for any length of time, they will migrate into the system, inhibiting drainage and causing infill compaction. … Metal removal—Use a magnet attached to your maintenance equipment to remove ferrous metal objects from the field.",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guidelines_for_Maintenan.pdf",
+    "source_label": "Synthetic Turf Council, Guidelines for Maintenance of Infilled Synthetic Turf Sports Fields (January 2013, Rev. 1)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2013",
+      "1"
+    ],
+    "notes": "Written for sports fields; the debris and magnet points carry over to a yard. The guidelines do not mention hail."
+  },
+  {
+    "id": "does-hail-damage-artificial-turf.synlawn-acts-of-god",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's residential product terms, effective January 1, 2024, exclude damages caused by vehicular traffic, vandalism, abuse, negligence or neglect, normal wear and tear and Acts of God.",
+    "quote": "Additionally, this Warranty specifically excludes: … 3.6 Damages caused by vehicular traffic, vandalism, abuse, negligence or neglect, normal wear and tear and Acts of God.",
+    "source_url": "https://lowes.synlawn.com/wp-content/uploads/2024/06/SY24247_Lowes_ProductWarranty_v1.pdf",
+    "source_label": "SYNLawn, Residential Statement Of Warranty Terms And Conditions (effective 01/01/2024, Lowe's edition)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3.6",
+      "1",
+      "2024"
+    ],
+    "notes": "One manufacturer's document, read in full (3 pages) on 2026-09-25; the Lowe's edition carries the same section 3 as SYNLawn's residential terms. It does not name hail. Use only as an example that product terms can exclude weather; the general reading of product coverage belongs to artificial-turf-warranty."
+  }
+]

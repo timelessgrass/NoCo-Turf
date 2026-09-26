@@ -1,0 +1,494 @@
+[
+  {
+    "id": "artificial-turf-vs-sod.johnstown-permit-days-not-hours",
+    "layer": "drought",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Johnstown's New Lawn Permit frees a new lawn from the property's assigned watering days but not from the ban on watering between 10 a.m. and 6 p.m.",
+    "quote": "The permit only provides a variance from the property's assigned watering days and does not exempt participants from the Town's watering window restrictions. … Irrigation from the times of 10 am - 6 pm during any day is prohibited.",
+    "source_url": "https://www.johnstownco.gov/689/New-Lawn-Permit",
+    "source_label": "Town of Johnstown, New Lawn Permit (2026 program page and application form)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-16",
+    "numbers": [
+      "10",
+      "6"
+    ],
+    "notes": "Read with curl on 2026-09-25; the page banner read \"Level 3 Drought Watering Schedule in Effect\". The permit itself is required by Municipal Code Sec. 13-151(c)(6) (record johnstown-code-13-151-new-lawn-permit)."
+  },
+  {
+    "id": "artificial-turf-vs-sod.johnstown-permit-45-days",
+    "layer": "drought",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "A Johnstown New Lawn Permit expires 45 days after the installation date or at the end of the mandated watering schedule.",
+    "quote": "Permit expires within 45 days of installation date or at the end of the mandated watering schedule.",
+    "source_url": "https://www.johnstownco.gov/689/New-Lawn-Permit",
+    "source_label": "Town of Johnstown, New Lawn Permit (2026 program page and application form)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-16",
+    "numbers": [
+      "45"
+    ]
+  },
+  {
+    "id": "artificial-turf-vs-sod.johnstown-no-establishment-after-oct-15",
+    "layer": "drought",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "In Johnstown no new lawn may be established after October 15, permit or not, and after that date watering is limited to hand-watering trees and shrubs.",
+    "quote": "All watering is restricted to hand watering only of trees and shrubs after October 15th regardless of permit status. I understand the New Turf Permit guidelines and regardless of the permit, no turf establishment shall occur after October 15th.",
+    "source_url": "https://www.johnstownco.gov/689/New-Lawn-Permit",
+    "source_label": "Town of Johnstown, New Lawn Permit (2026 program page and application form)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-16",
+    "numbers": [
+      "15"
+    ],
+    "notes": "\"Turf\" in the Town's form means a live lawn (the form offers Seed, Sod or Other); nothing here is about artificial turf."
+  },
+  {
+    "id": "artificial-turf-vs-sod.johnstown-application-oct-12",
+    "layer": "drought",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Johnstown's 2026 New Lawn Permit application, which asks whether the new lawn is seed, sod or other, is available until October 12, 2026.",
+    "quote": "New Lawn Permit Application - Available until October 12th, 2026 … Type of 'Turf' * Seed Sod Other",
+    "source_url": "https://www.johnstownco.gov/689/New-Lawn-Permit",
+    "source_label": "Town of Johnstown, New Lawn Permit (2026 program page and application form)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-12",
+    "numbers": [
+      "12",
+      "2026"
+    ],
+    "notes": "\"Permit\" is split across two bold tags in the page source; it displays as one word. The form's field label is \"Type of 'Turf'\" with the options Seed, Sod and Other."
+  },
+  {
+    "id": "artificial-turf-vs-sod.severance-new-lawn-variance",
+    "layer": "drought",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "Severance's Town Manager may grant a variance from the watering restrictions to establish a new lawn, and variance permits for newly seeded or sodded lawns are requested at Town Hall.",
+    "quote": "In addition, the Town Manager may grant a variance to these restrictions for the establishment of new lawns or landscaping. A copy of the Water Restriction Resolution No. 2013-07R or the variance permits for non-potable systems, or newly seeded or sodded lawns can be requested at the Severance Town Hall",
+    "source_url": "https://www.townofseverance.org/396/Watering-Guidelines-and-Restrictions",
+    "source_label": "Town of Severance, Watering Guidelines and Restrictions",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-24",
+    "numbers": [
+      "2013",
+      "07"
+    ]
+  },
+  {
+    "id": "artificial-turf-vs-sod.severance-lawn-season",
+    "layer": "drought",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "Severance allows lawn watering from April 1 through November 30 each year and bars it from December 1 through March 31.",
+    "quote": "There shall be no lawn watering from December 1st thru March 31st of any year. Lawn watering will be allowed from April 1st thru November 30th of any year.",
+    "source_url": "https://www.townofseverance.org/396/Watering-Guidelines-and-Restrictions",
+    "source_label": "Town of Severance, Watering Guidelines and Restrictions",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-24",
+    "numbers": [
+      "1",
+      "30",
+      "31"
+    ],
+    "notes": "The same page allows daily hand-watering of flowers, shrubs and trees by hose during permitted hours; lawns are not in that allowance."
+  },
+  {
+    "id": "artificial-turf-vs-sod.severance-nonpotable-exempt",
+    "layer": "drought",
+    "applies_to": [
+      "severance-co"
+    ],
+    "fact": "Severance's watering schedule does not apply to approved non-potable irrigation systems or to North Weld County Water District systems.",
+    "quote": "Nothing herein shall apply to any approved non-potable water system or North Weld County Water District systems used by any property owner.",
+    "source_url": "https://www.townofseverance.org/396/Watering-Guidelines-and-Restrictions",
+    "source_label": "Town of Severance, Watering Guidelines and Restrictions",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-24",
+    "numbers": [],
+    "notes": "The page names the non-potable subdivisions (Hunters Crossing, The Overlook, Severance Shores, The Reserve, Settler's Landing, Tailholt) and the North Weld County Water District subdivisions."
+  },
+  {
+    "id": "artificial-turf-vs-sod.fc-watch-current",
+    "layer": "drought",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "On September 25, 2026, Fort Collins Utilities still listed its water shortage action level as a Water Shortage Watch, with lawn guidelines of no more than 2 days and 1 inch of water a week.",
+    "quote": "Current water shortage action level: Water Shortage Watch … General Water Shortage Watch irrigation guidelines for lawns: Two days per week maximum One inch per week maximum total volume Set controllers to run between 6 p.m. and 10 a.m.",
+    "source_url": "https://www.fortcollins.gov/Services/Utilities/Programs-and-Rebates/Water-Programs",
+    "source_label": "Fort Collins Utilities, Water Conservation: Current Water Status and Restrictions",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2026-10-24",
+    "numbers": [
+      "2",
+      "1",
+      "6",
+      "10",
+      "25",
+      "2026"
+    ],
+    "notes": "fortcollins.gov/WaterRestrictions redirects here. Akamai returns Access Denied to curl; read in a browser on 2026-09-25. Confirms the Watch in fcu-water-shortage-watch-2026 was still the current level."
+  },
+  {
+    "id": "artificial-turf-vs-sod.fc-sod-exception-permit",
+    "layer": "drought",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "If Fort Collins Utilities moves to mandatory restrictions, it can issue exception permits from assigned watering days for new seed and sod establishment; the applications open only once a shortage is declared, and the restrictions cover Utilities customers only.",
+    "quote": "These actions only apply to Fort Collins Utilities water customers. … This information is posted for reference in the event Utilities moves into mandatory restrictions. Exception Permits Permits are available to allow exceptions to assigned watering days and frequencies. Permits may be issued for individuals or businesses unable to comply with watering restrictions for the following conditions: New seed and sod establishment … Permits applications are available when a water shortage is declared.",
+    "source_url": "https://www.fortcollins.gov/Services/Utilities/Programs-and-Rebates/Water-Programs",
+    "source_label": "Fort Collins Utilities, Water Conservation: Current Water Status and Restrictions",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2026-10-24",
+    "numbers": [],
+    "notes": "Read in a browser on 2026-09-25 (curl is blocked). The Watch itself is voluntary, so no permit applies while it lasts."
+  },
+  {
+    "id": "artificial-turf-vs-sod.fc-raw-water-exempt",
+    "layer": "drought",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins exempts grass irrigated with well or raw water from its Water Shortage Watch and restrictions.",
+    "quote": "If you use well or raw water to irrigate grass, you are exempt from the water watch and restrictions.",
+    "source_url": "https://www.fortcollins.gov/Services/Utilities/Programs-and-Rebates/Water-Programs",
+    "source_label": "Fort Collins Utilities, Water Conservation: Current Water Status and Restrictions",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2026-10-24",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-vs-sod.csu-sod-rooting",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says to keep newly laid sod and the soil under it moist but not soggy, that sod should be well rooted within two to three weeks, and to tug on it to check.",
+    "quote": "Water your newly sodded lawn frequently enough to keep thesod and underlying soil moist, not soggy. Sod should be well rooted into the soil below within two to three weeks. Tug on it gently to determine if it's well rooted. Once established, water less frequently, but increase the quantity of water applied to promote deeper rooting.",
+    "source_url": "https://planttalk.colostate.edu/topics/lawns/1517-sodding-lawn/",
+    "source_label": "CSU Extension PlantTalk Colorado 1517, Sodding a Lawn",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "\"thesod\" is the source's own typo, kept verbatim."
+  },
+  {
+    "id": "artificial-turf-vs-sod.csu-sod-soil-prep",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Before sodding, CSU Extension says to grade drainage away from the foundation, cultivate compacted soil 12 inches deep, and till three to five cubic yards of compost or other organic matter per 1,000 square feet into the top six to eight inches, and that roots should be established before the fall freeze.",
+    "quote": "You can install sod throughout the growing season, anytime good quality sod is available, and you have prepared the soil to help roots become established as quickly as possible. Roots should be well established before freezing temperatures in the fall. Before installing sod, remove debris and make any permanent grade changes, directing drainage away from building foundations. If soil is compacted, cultivate soil to a depth of 12 inches. … Most soils benefit from the addition of three to five cubic yards of decomposed manure, compost or sphagnum peat moss per 1,000 square-foot area. Spread the organic matter over the soil and till it into the top six to eight inches.",
+    "source_url": "https://planttalk.colostate.edu/topics/lawns/1517-sodding-lawn/",
+    "source_label": "CSU Extension PlantTalk Colorado 1517, Sodding a Lawn",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "12",
+      "1,000",
+      "1000"
+    ]
+  },
+  {
+    "id": "artificial-turf-vs-sod.csu-late-fall-sod-winter-water",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says sod laid late in the fall must be watered through the winter because it has little time to root, which may mean watering every 2 to 3 weeks in an especially dry winter.",
+    "quote": "Sod of cool-season turf species can be planted as long as the soil is not frozen. Sod planted late in the fall must be irrigated during the winter to prevent drying since it has little time in the fall to develop a substantial root system. … This may mean watering every 2-3 weeks during an especially dry winter.",
+    "source_url": "https://planttalk.colostate.edu/topics/lawns/1539-fall-planting-sod/",
+    "source_label": "CSU Extension PlantTalk Colorado 1539, Fall Planting of Sod",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "3"
+    ]
+  },
+  {
+    "id": "artificial-turf-vs-sod.csu-sod-compacted-thatch",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says sod laid over compacted soil develops a thatch problem within a couple of years.",
+    "quote": "Sod over compacted soil – When sod is laid over compacted soils, a thatch problem will develop in a couple of years.",
+    "source_url": "https://cmg.extension.colostate.edu/Gardennotes/551.pdf",
+    "source_label": "CSU Extension, CMG GardenNotes #551, Basic Turf Management",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-vs-sod.csu-bluegrass-24-inches",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension puts a Kentucky bluegrass lawn at 24 inches of supplemental irrigation in a normal precipitation year along the Front Range.",
+    "quote": "Fine fescue will require 18-20 inches of supplemental irrigation (compared to 24 inches for bluegrass) in a normal precipitation year (10-11 inches, April to October) along the Front Range",
+    "source_url": "https://cmg.extension.colostate.edu/Gardennotes/564.pdf",
+    "source_label": "CSU Extension, CMG GardenNotes #564, Fine Fescues for Lawns (Koski)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "24",
+      "18",
+      "20",
+      "10",
+      "11"
+    ]
+  },
+  {
+    "id": "artificial-turf-vs-sod.csu-bluegrass-summer-week",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says a healthy, high-quality bluegrass lawn may need up to 2.25 inches of water a week in hot, dry, windy summer weather.",
+    "quote": "A healthy, high-quality bluegrass or ryegrass lawn may need up to 2.25 inches of water per week under hot, dry, windy summer conditions.",
+    "source_url": "https://extension.colostate.edu/resource/lawn-care-basics/",
+    "source_label": "CSU Extension, Lawn Care Basics (Fact Sheet 7.202, reviewed August 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2.25",
+      "7.202",
+      "2025"
+    ]
+  },
+  {
+    "id": "artificial-turf-vs-sod.csu-mowing",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension sets the mowing height for Colorado lawns at 2.5 to 3 inches and says bluegrass may need mowing every three to four days in spring and every seven to 10 days when heat, drought or cold slow it.",
+    "quote": "The preferred mowing height for all Colorado species is 2.5 to 3 inches. … You may have to mow a bluegrass or fescue lawn every three to four days during the spring when it is actively growing but only once every seven to 10 days when growth is slowed by heat, drought, or cold.",
+    "source_url": "https://extension.colostate.edu/resource/lawn-care-basics/",
+    "source_label": "CSU Extension, Lawn Care Basics (Fact Sheet 7.202, reviewed August 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2.5",
+      "3",
+      "10"
+    ]
+  },
+  {
+    "id": "artificial-turf-vs-sod.csu-fertilizer-windows",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension's fertilizer schedule for an established high-maintenance bluegrass lawn lists nitrogen in four windows, mid-March to April, May to mid-June, mid-August to mid-September and early October to early November, with none needed from July to early August.",
+    "quote": "Table 1: Fertilizer application schedule for established Colorado lawns. … Mid-March to April … May to mid-June … July to early August … Mid-August to mid-September … Early October to early November … High Maintenance Bluegrass/Ryegrass 1/2-1 1 not required 1 1-(2)",
+    "source_url": "https://extension.colostate.edu/resource/lawn-care-basics/",
+    "source_label": "CSU Extension, Lawn Care Basics (Fact Sheet 7.202, reviewed August 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "2"
+    ],
+    "notes": "Quoted from the page's table text; rates are pounds of nitrogen per 1,000 sq ft, and the page says the March-April feeding may be skipped after a late-fall one."
+  },
+  {
+    "id": "artificial-turf-vs-sod.csu-core-cultivation",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension calls core cultivation (aeration) essential for every lawn, especially thatchy or high-traffic ones.",
+    "quote": "Core cultivation is essential for all lawn areas, especially those that are thatchy or subject to high traffic.",
+    "source_url": "https://extension.colostate.edu/resource/lawn-care-basics/",
+    "source_label": "CSU Extension, Lawn Care Basics (Fact Sheet 7.202, reviewed August 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-vs-sod.csu-bluegrass-wear",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says Kentucky bluegrass is the standard home lawn in Colorado for its blue-green color and high tolerance for wear.",
+    "quote": "Kentucky bluegrass, KBG, is the standard for home lawns due to the rich blue-green color and its high tolerance for wear.",
+    "source_url": "https://extension.colostate.edu/resource/water-wise-landscape-design-selecting-turf-options/",
+    "source_label": "CSU Extension, Water-Wise Landscape Design: Selecting Turf Options (CMG GardenNotes #412)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "412"
+    ]
+  },
+  {
+    "id": "artificial-turf-vs-sod.csu-turf-no-mow-no-benefits",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says artificial turf needs no mowing, fertilizing or watering and can be a legitimate answer for high-traffic sites, but lacks the environmental benefits of living grass and must have leaves and wind-blown dirt removed.",
+    "quote": "The companies that sell and install these lawns insist that they are virtually maintenance free, but artificial turf collects leaves and other wind-blown dirt and debris that must somehow be removed. … Although artificial turf does not require mowing, fertilizing, or watering and can be a legitimate solution for high traffic sites, it fails to provide the traditional landscape with the many environmental benefits of living grass.",
+    "source_url": "https://planttalk.colostate.edu/topics/lawns/1537-artificial-turf-lawns/",
+    "source_label": "CSU Extension PlantTalk Colorado 1537, Artificial Turf for Lawns",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "An inline image splits \"dirt\" in the page source (\"d<img>irt\"); it reads as one word. The script predates current products (it describes crumb rubber infill and an older price range), so only its maintenance and cooling lines are used."
+  },
+  {
+    "id": "artificial-turf-vs-sod.csu-turf-no-cooling",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says artificial turf, not being a living, transpiring plant, lacks the cooling effect of a living lawn and becomes quite warm on a sunny day.",
+    "quote": "Because it is not a living, transpiring plant, artificial turf does not provide the cooling effect of a living lawn and becomes quite warm on a sunny day.",
+    "source_url": "https://planttalk.colostate.edu/topics/lawns/1537-artificial-turf-lawns/",
+    "source_label": "CSU Extension PlantTalk Colorado 1537, Artificial Turf for Lawns",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-vs-sod.csu-tree-roots-clay",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says that in clay soil half of a tree's roots often grow in the top 4 inches and along the surface of the lawn.",
+    "quote": "A great portion of a tree's roots, about 50% are in the upper 12 to 15 inches of soil under good soil conditions. Very often, however, under clayey soil, 50% of the roots will grow in the top 4 inches and along the surface of lawns, making it difficult to mow, fertilize and aerate the area.",
+    "source_url": "https://planttalk.colostate.edu/topics/lawns/1507-tree-roots/",
+    "source_label": "CSU Extension PlantTalk Colorado 1507, Tree Roots",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "50",
+      "12",
+      "15",
+      "4"
+    ]
+  },
+  {
+    "id": "artificial-turf-vs-sod.csu-tree-roots-lawn-water",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says the roots of mature trees and shrubs also need water, so a lawn in a mature landscape may need more water where many plants' roots compete for it.",
+    "quote": "Shady lawns and areas protected from the wind require less water over the growing season than more exposed turf. However, the roots of mature trees and shrubs also need water. You may have to water more in mature landscapes where the roots of many plants compete for water.",
+    "source_url": "https://extension.colostate.edu/resource/lawn-care-basics/",
+    "source_label": "CSU Extension, Lawn Care Basics (Fact Sheet 7.202, reviewed August 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-vs-sod.csu-shade-grass",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says grass does better in sun, that chewings and creeping red fescues tolerate light shade, that some bluegrass varieties have only fair shade tolerance, and that in heavy shade ground covers or wood-chip mulch may be more practical.",
+    "quote": "Grass performs better in sunny locations. … Varieties of chewing fescue and creeping red fescue tolerate light shade quite well. Tall fescue has moderate shade tolerance and some varieties of Kentucky bluegrass have fair shade tolerance. … In heavy shade, it may be more practical to use ground covers or a wood-chip mulch with shade-loving perennials.",
+    "source_url": "https://planttalk.colostate.edu/topics/lawns/1518-growing-grass-shade/",
+    "source_label": "CSU Extension PlantTalk Colorado 1518, Growing Grass in the Shade",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-vs-sod.csu-overseed-september",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says September is a good time to overseed a thin lawn along the Front Range, after thorough core aeration, and that the seed needs frequent light watering through bluegrass's 21-day germination period.",
+    "quote": "A partial renovation of an existing lawn involves core aeration and over-seeding to thicken thin turf and to introduce better adapted turf grass seed varieties. … September is a good time to overseed along the Front Range and Western Slope. … The other necessary follow-up step is frequent, light irrigations to keep the seed moist during the 21-day bluegrass germination period. Water for only a minute or two several times daily depending on temperature.",
+    "source_url": "https://planttalk.colostate.edu/topics/lawns/1550-rejuvenating-existing-lawn/",
+    "source_label": "CSU Extension PlantTalk Colorado 1550, Rejuvenating an Existing Lawn",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "21"
+    ]
+  },
+  {
+    "id": "artificial-turf-vs-sod.co-hb25-1113-sod-not-restricted",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado's 2025 turf law bars local governments from restricting anyone from installing grass seed or sod that is a native plant, hybridized for arid conditions, or a low-water grass.",
+    "quote": "NOTWITHSTANDING ANY PROVISION OF THIS SECTION TO THE CONTRARY, NEITHER A LOCAL ENTITY NOR THE DEPARTMENT SHALL RESTRICT A PERSON FROM INSTALLING OR ALLOWING ANOTHER PERSON TO INSTALL GRASS SEED OR SOD THAT: (a) IS A NATIVE PLANT; (b) HAS BEEN HYBRIDIZED FOR ARID CONDITIONS; OR (C) IS A LOW-WATER GRASS.",
+    "source_url": "https://leg.colorado.gov/bill_files/40673/download",
+    "source_label": "C.R.S. 37-99-104(4), added by HB25-1113 (signed act)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "2025",
+      "37",
+      "99",
+      "104",
+      "4",
+      "25",
+      "1113"
+    ],
+    "notes": "Read from the signed act PDF, page 6-7. Companion to co-hb25-1113-residential-live-turf-2028 (the 2028 live-turf mandate in 37-99-104(1)-(3))."
+  }
+]

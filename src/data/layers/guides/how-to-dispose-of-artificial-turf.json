@@ -1,0 +1,417 @@
+[
+  {
+    "id": "how-to-dispose-of-artificial-turf.larimer-az-carpet-no-turf-entry",
+    "layer": "county",
+    "applies_to": [
+      "fort-collins-co",
+      "loveland-co",
+      "timnath-co",
+      "wellington-co",
+      "berthoud-co",
+      "windsor-co",
+      "johnstown-co"
+    ],
+    "fact": "Larimer County's waste items A to Z list has no entry for artificial turf, and it sends carpet to the Central Diversion and Transfer Station or the North Landfill.",
+    "quote": "Carpet … Central Diversion and Transfer Station or North Landfill",
+    "source_url": "https://www.larimer.gov/solidwaste/disposal/a-z",
+    "source_label": "Larimer County Solid Waste, Waste Items A to Z",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2027-01-15",
+    "numbers": [],
+    "notes": "larimer.gov serves a Cloudflare challenge to curl. Live page read 2026-09-25 through WebFetch twice; both reads returned the Carpet row with this destination and found no row for artificial, synthetic or astro turf. The Wayback captures of 2026-01-13 and 2026-03-07 still read 'Carpet Landfill' (before the Aug. 3, 2026 move), so the live wording is the post-move row. Re-read in a browser by the recheck date."
+  },
+  {
+    "id": "how-to-dispose-of-artificial-turf.larimer-fees-2026-vehicle-loads",
+    "layer": "county",
+    "applies_to": [
+      "fort-collins-co",
+      "loveland-co",
+      "timnath-co",
+      "wellington-co",
+      "berthoud-co",
+      "windsor-co",
+      "johnstown-co"
+    ],
+    "fact": "Larimer County's 2026 fee schedule charges a flat $20 for a car, SUV or passenger van load and $37 for a pickup or cargo van load (no vertical side planks, top of cab), both including the state surcharge; $13.25 per cubic yard plus surcharge, with a 2 cubic yard minimum, for trailer loads under 1,000 pounds per cubic yard; double fees for unsecured or uncovered loads; and the same prices at both landfills and the transfer station.",
+    "quote": "Cost for - Car, SUV, passenger van - Flat Fee $20 Includes CO surcharge Cost for - Pickup truck, cargo van - Flat Fee (no vertical side planks, top of cab) $37 Includes CO surcharge Cost for - Trailers <1,000 lbs per cubic yard, 2 cubic yard minimum $13.25 per cubic yard + CO surcharge … Unsecured or uncovered loads are subject to double fees at all locations. … The pricing listed is for both Landfills and the Transfer Station.",
+    "source_url": "https://www.larimer.gov/solidwaste/fees",
+    "source_label": "Larimer County Solid Waste, 2026 Landfill Fee Schedule",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2027-01-15",
+    "numbers": [
+      "20",
+      "37",
+      "13.25",
+      "1000",
+      "1,000",
+      "2",
+      "2026"
+    ],
+    "notes": "Cloudflare blocks curl. Live page read 2026-09-25 through WebFetch twice (rows and the uncovered-loads line matched), and the same rows were read verbatim in the Wayback capture https://web.archive.org/web/20260310160138/https://www.larimer.gov/solidwaste/fees (that capture's surcharge line is older: live reads 13 cents per car, 25 cents per truck). The live page adds 'The Transfer Station and North Landfill opened on August 3, 2026.' Rubble pricing is in can-you-put-artificial-turf-over-grass-or-dirt.larimer-fees-rubble-sod. Fees change yearly. Checker note: the quote's '<1,000' opens what scripts/check-content.mjs plainText() reads as an HTML tag, which strips every referenced record's text up to the next '>'; cite this record last in layerRefs (or after any record containing '>')."
+  },
+  {
+    "id": "how-to-dispose-of-artificial-turf.larimer-north-landfill-wind-closures",
+    "layer": "county",
+    "applies_to": [
+      "wellington-co",
+      "fort-collins-co"
+    ],
+    "fact": "Larimer County's North Landfill FAQ says the landfill is open to commercial haulers, transfer trailers and limited residential traffic, and that it closes on high-wind days and checks litter control daily.",
+    "quote": "The landfill will close on high wind days and monitor litter control every day, especially on high wind days. … The Landfill is open to Commercial haulers, transfer trailers, and limited residential traffic.",
+    "source_url": "https://www.larimer.gov/sites/default/files/13125northlandfillfaq.pdf",
+    "source_label": "Larimer County North Landfill FAQ Information Sheet (last update Jan. 31, 2025)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2027-01-15",
+    "numbers": [
+      "2025",
+      "31"
+    ],
+    "notes": "The PDF returns 403 to curl; WebFetch downloaded it on 2026-09-25 and its text was extracted with pdftotext. Written before opening (it says construction would finish by December 2025); the county landing page gives the Aug. 3, 2026 opening and the resident radius."
+  },
+  {
+    "id": "how-to-dispose-of-artificial-turf.weld-large-item-voucher-2026",
+    "layer": "county",
+    "applies_to": [
+      "greeley-co",
+      "windsor-co",
+      "johnstown-co",
+      "berthoud-co",
+      "firestone-co",
+      "mead-co",
+      "frederick-co",
+      "severance-co",
+      "evans-co",
+      "eaton-co",
+      "milliken-co",
+      "dacono-co"
+    ],
+    "fact": "Weld County's health department offers a limited number of Large Item Disposal Vouchers, valid March 2 to October 31, 2026, each good for one free trip to the North Weld Landfill in Ault, the Buffalo Ridge Landfill in Keenesburg or the Front Range Landfill, covering one truckload level with the bed rails or one trailer load, each up to one ton, with extra weight or volume billed at disposal; vouchers are picked up at the county's household hazardous waste facilities in Greeley and Dacono or its health department office in Greeley, and questions about acceptable items go to each landfill.",
+    "quote": "The Weld County Department of Public Health and Environment is offering a limited number of vouchers for one free trip to the North Weld Landfill in Ault, Buffalo Ridge Landfill in Keenesburg, or the Front Range Landfill … This is a great opportunity for residents to responsibly dispose of large items, such as mattresses, couches, tables, etc., at no cost. … Voucher Valid Dates: March 2, 2026 – October 31, 2026 … Voucher Covers: One truckload, level with the bed rails (up to one ton), or one trailer load (up to one ton). Any additional weight or volume will incur fees, payable by the resident at the time of disposal. … For details about acceptable items, landfill hours, and other questions, visit: … Vouchers can be picked up at one of the following locations: Greeley Household Hazardous Waste Facility … Dacono Household Hazardous Waste Facility … Weld County Department of Public Health and Environment",
+    "source_url": "https://www.weld.gov/Government/Departments/Health-and-Environment/Environmental-Health-Services/Household-Hazardous-Waste-Disposal/Large-Item-Disposal-Voucher",
+    "source_label": "Weld County Department of Public Health and Environment, Large Item Disposal Voucher",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2026-11-01",
+    "numbers": [
+      "2",
+      "31",
+      "2026"
+    ],
+    "notes": "weld.gov returns 403 (Akamai) to curl. Live page read 2026-09-25 through WebFetch (same dates, landfills and load limits); the verbatim text was read in the Wayback capture https://web.archive.org/web/20260513210929/https://www.weld.gov/Government/Departments/Health-and-Environment/Environmental-Health-Services/Household-Hazardous-Waste-Disposal/Large-Item-Disposal-Voucher. The quote stops before the Front Range Landfill's town, which is in the sister brand's territory and is never named in NoCo copy. The page does not name artificial turf either way. The 2026 program ends Oct. 31: re-read for a 2027 program after the recheck date."
+  },
+  {
+    "id": "how-to-dispose-of-artificial-turf.fort-collins-carpet-no-local-recycling",
+    "layer": "place",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins' Recycling A to Z guide has no entry for artificial turf; for carpet it says gently used carpet can go to thrift stores or be posted on Nextdoor, Craigslist or Facebook Marketplace, that unusable carpet should be thrown away, and that no local location currently accepts carpet for recycling.",
+    "quote": "Gently used rugs and carpet can be donated to local thrift stores (check with specific store for donation guidelines). Carpet in non-useable condition should be thrown away. There are currently no local locations that can accept it for recycling. … These items can also be posted on Nextdoor, Craigslist, or Facebook Marketplace for others who can make use of them.",
+    "source_url": "https://apps.fcgov.com/recycling/items?item=182",
+    "source_label": "City of Fort Collins, Recycling A to Z Guide: Carpet and Rugs",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [],
+    "notes": "Read with curl 2026-09-25. The full A to Z list (https://apps.fcgov.com/recycling/) was searched for turf, synthetic and astro: no entry. Carpet Padding (item 183) says the same about recycling."
+  },
+  {
+    "id": "how-to-dispose-of-artificial-turf.fort-collins-rock-gravel-reuse",
+    "layer": "place",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins' Recycling A to Z guide sends rock and gravel to listed drop-off locations, including the City's Crushing Operations Facility, for reuse and resale, and says it can also be posted online for reuse.",
+    "quote": "Rock and gravel can be dropped off to the drop-off locations listed below for reuse and resale. Contact specific location for fees and details of what they can and cannot accept. It can also be posted on Craigslist, Nextdoor and other online platforms for reuse.",
+    "source_url": "https://apps.fcgov.com/recycling/items?item=253",
+    "source_label": "City of Fort Collins, Recycling A to Z Guide: Rock and Gravel",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [],
+    "notes": "Read with curl 2026-09-25; the first listed location is the City of Fort Collins Crushing Operations Facility on Hoffman Mill Rd."
+  },
+  {
+    "id": "how-to-dispose-of-artificial-turf.dtsc-recycling-rate-2021",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "California's Department of Toxic Substances Control reports that only 10% of the world's end-of-life artificial turf was recycled in 2021, that even the European Union recycles only 15%, and that in the U.S. demand for turf recycling outpaces capacity.",
+    "quote": "In 2021, only 10%, or 6.2 million m2 of the world’s end-of-life artificial turf was recycled (Applied Market Information 2022). Even the European Union, the region with the most stringent disposal requirements, recycles only 15% of its volume of artificial turf at the end of life (Applied Market Information 2022). In the U.S., some artificial turf manufacturers have made progress on recycling; however, the demand for recycling outpaces capacity (Applied Market Information 2022).",
+    "source_url": "https://web.archive.org/web/20260326043412/https://dtsc.ca.gov/wp-content/uploads/sites/31/2026/02/TechnicalDocument_PFASs-in-Artificial-Turf_accessible.pdf",
+    "source_label": "California DTSC, Technical Document for Artificial Turf Containing Perfluoroalkyl or Polyfluoroalkyl Substances (Feb. 12, 2026), section 4.3.3 (archived copy, Mar. 26, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2021",
+      "10",
+      "6.2",
+      "15",
+      "2022",
+      "2026",
+      "12",
+      "26"
+    ],
+    "notes": "dtsc.ca.gov returns 403 to curl; the PDF was read in full from the Wayback capture of 2026-03-26 with pdftotext on 2026-09-25. The next sentence says there are no artificial turf recycling facilities in California."
+  },
+  {
+    "id": "how-to-dispose-of-artificial-turf.dtsc-blades-backing-recycling-rare",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "California's DTSC says recycling the blades and backing of worn-out artificial turf has historically been rare, that reusing the infill is more common, that newer turf recycling programs often burn or shred the turf, and that landfill is the most common end.",
+    "quote": "Historically, recycling of the blades and backing of end-of-life artificial turf has been rare (The Intercept 2019); reuse of infill material (which is outside the scope of the current document) is more common (Zandwijk RTS 2022). Although turf recycling programs have emerged in recent years, they often require the burning or shredding of end-of-life artificial turf, which may lead to worker exposure and continued consumer exposure to PFASs (Ismawati et al. 2023; TenCate 2020). Artificial turf is most commonly disposed of in landfills after its intended use (Berger 2016).",
+    "source_url": "https://web.archive.org/web/20260326043412/https://dtsc.ca.gov/wp-content/uploads/sites/31/2026/02/TechnicalDocument_PFASs-in-Artificial-Turf_accessible.pdf",
+    "source_label": "California DTSC, Technical Document for Artificial Turf Containing Perfluoroalkyl or Polyfluoroalkyl Substances (Feb. 12, 2026), section 5.3 (archived copy, Mar. 26, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2019",
+      "2022",
+      "2023",
+      "2020",
+      "2016",
+      "2026",
+      "12",
+      "26",
+      "5.3"
+    ],
+    "notes": "Read from the Wayback capture with pdftotext on 2026-09-25 (dtsc.ca.gov blocks curl)."
+  },
+  {
+    "id": "how-to-dispose-of-artificial-turf.dtsc-incineration-problematic",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "California's DTSC calls incinerating used artificial turf problematic because the fluoropolymers in turf blades can form toxic combustion products.",
+    "quote": "Incineration, which is another potential way to dispose of used artificial turf, is problematic because the fluoropolymers in artificial turf blades can form toxic combustion products (e.g., perchlorofluoroalkanoic acids and polycyclic aromatic hydrocarbons)",
+    "source_url": "https://web.archive.org/web/20260326043412/https://dtsc.ca.gov/wp-content/uploads/sites/31/2026/02/TechnicalDocument_PFASs-in-Artificial-Turf_accessible.pdf",
+    "source_label": "California DTSC, Technical Document for Artificial Turf Containing Perfluoroalkyl or Polyfluoroalkyl Substances (Feb. 12, 2026), section 5.3 (archived copy, Mar. 26, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2026",
+      "12",
+      "26",
+      "5.3"
+    ],
+    "notes": "Read from the Wayback capture with pdftotext on 2026-09-25. The document's concern is fluoropolymer PFAS used as processing aids in turf fibers."
+  },
+  {
+    "id": "how-to-dispose-of-artificial-turf.dtsc-landfills-refuse-bulk",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "California's DTSC says turf can legally go to any California landfill that accepts municipal solid waste, but that landfills often refuse large amounts of it because of its bulk.",
+    "quote": "Artificial turf can be legally disposed of in any landfill in California that accepts municipal solid waste. However, due to its bulk, landfills often refuse to accept large amounts of artificial turf; this can lead to artificial turf being stored elsewhere under unsuitable conditions (Lundstrom et al. 2019).",
+    "source_url": "https://web.archive.org/web/20260326043412/https://dtsc.ca.gov/wp-content/uploads/sites/31/2026/02/TechnicalDocument_PFASs-in-Artificial-Turf_accessible.pdf",
+    "source_label": "California DTSC, Technical Document for Artificial Turf Containing Perfluoroalkyl or Polyfluoroalkyl Substances (Feb. 12, 2026), section 4.3.3 (archived copy, Mar. 26, 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2019",
+      "2026",
+      "12",
+      "26"
+    ],
+    "notes": "California practice, cited for why a Northern Colorado hauler should call the gate first; no Colorado site we read refuses turf in writing."
+  },
+  {
+    "id": "how-to-dispose-of-artificial-turf.fairwarning-separation-not-developed",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "FairWarning reported in 2019 that the technology to separate turf's plastic grass and backing from its sand and rubber infill still wasn't fully developed in the United States, or was deemed too expensive.",
+    "quote": "But the technology to recycle this complex product – separating the plastic grass and backing from the sand and rubber infill – still isn’t fully developed in the United States, or is deemed too expensive, according to one industry report and interviews with turf experts.",
+    "source_url": "https://investigatemidwest.org/2019/12/19/fields-of-waste-artificial-turf-touted-as-recycling-fix-for-millions-of-scrap-tires-becomes-mounting-disposal-mess/",
+    "source_label": "FairWarning, Fields of Waste (published by Investigate Midwest, Dec. 19, 2019)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2019",
+      "19"
+    ],
+    "notes": "Read in full with curl on 2026-09-25. The article is about sports fields."
+  },
+  {
+    "id": "how-to-dispose-of-artificial-turf.fairwarning-reuse-then-dumpster",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "FairWarning reported that a niche trade reclaims old field turf and sells pieces to homeowners for landscaping, batting cages and dog kennels, and that eventually those pieces are bound for the dumpster too.",
+    "quote": "a niche industry has emerged to reclaim some of the nation’s old turf and sell custom pieces to homeowners for landscaping, batting cages and dog kennels. But the end result is the same: eventually, the stuff is bound for the dumpster.",
+    "source_url": "https://investigatemidwest.org/2019/12/19/fields-of-waste-artificial-turf-touted-as-recycling-fix-for-millions-of-scrap-tires-becomes-mounting-disposal-mess/",
+    "source_label": "FairWarning, Fields of Waste (published by Investigate Midwest, Dec. 19, 2019)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2019",
+      "19"
+    ],
+    "notes": "Read with curl 2026-09-25. The sentence opens 'Meanwhile,' in the article."
+  },
+  {
+    "id": "how-to-dispose-of-artificial-turf.coloradosun-fort-collins-recycling-concern",
+    "layer": "research",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "The Colorado Sun reported in October 2023 that Fort Collins and other cities were studying bans on installing artificial turf, and listed a lack of recycling options for old artificial grass among the concerns.",
+    "quote": "Fort Collins and other cities are also studying bans on installation of artificial, plastic grass as a turf replacement, Rogers said. Artificial turf comes with increasing concerns about PFAS “forever chemicals” used in manufacturing and then shedding in water runoff, as well as creating urban heat islands and a lack of recycling options for old artificial grass.",
+    "source_url": "https://coloradosun.com/2023/10/10/colorado-cities-turf-bans-grass-removal/",
+    "source_label": "The Colorado Sun, Colorado cities accelerate turf wars with new construction bans, public median rip-outs (Michael Booth, Oct. 10, 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2023",
+      "10"
+    ],
+    "notes": "Read with curl 2026-09-25. Rogers is a Western Resource Advocates staffer; the concern list is the reporter's paraphrase, not a Fort Collins statement. Fort Collins' current turf rules are in city-codes.json (fc-luc-5.10.1)."
+  },
+  {
+    "id": "how-to-dispose-of-artificial-turf.motz-landscape-infill-rate",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Motz's Envirofill installation chart pairs a 1.5 to 1.75 inch landscape pile with 1/2 to 3/4 inch of infill at 2.5 to 3.5 pounds per square foot.",
+    "quote": "The following chart provides depth and quantity ratios. … 12/20 or 16/30 1½-1 ¾” (38-44mm) Landscape ½” – ¾” (13-19mm) 2.5-3.5lbs (12.21-17.09kg/m2)",
+    "source_url": "https://themotzgroup.com/wp-content/uploads/2023/03/Envirofill-Installation-Guidelines-for-Landscape-Applications.pdf",
+    "source_label": "The Motz Group, Envirofill Installation Guidelines: Landscape & Recreational Applications (PDF)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "1.5",
+      "1.75",
+      "1/2",
+      "3/4",
+      "2.5",
+      "3.5",
+      "12/20",
+      "16/30",
+      "38",
+      "44",
+      "13",
+      "19",
+      "12.21",
+      "17.09",
+      "1"
+    ],
+    "notes": "Read with curl and pdftotext 2026-09-25. Fractions 1½ and 1¾ inch are written 1.5 and 1.75 in the fact. One maker's rate for its own product; other infills and makers differ."
+  },
+  {
+    "id": "how-to-dispose-of-artificial-turf.msi-viridian-91-total-weight",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "MSI says total weight is turf's weight in ounces per square yard including the backing (and infill, if applicable), and that its Evergrass Viridian Turf 91 has a 65-ounce face weight inside a 91-ounce total, 26 ounces of it backing.",
+    "quote": "For turf, total weight refers to how much it weighs in ounces per square yard. This measurement includes both the face weight and the backing material, as well as the infill, if applicable. … Evergrass ™ Viridian Turf 91 has a face weight of 65 oz/sq yd, but its total weight of 91 oz accounts for 26 oz of backing material",
+    "source_url": "https://www.msisurfaces.com/blogs/post/2023/07/12/how-to-choose-the-best-artificial-grass-for-your-project-understanding-pile-height,-face-weight,-and-total-weight.aspx",
+    "source_label": "MSI Surfaces, Understanding Pile Height, Face Weight, and Total Weight (blog, July 12, 2023)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "91",
+      "65",
+      "26",
+      "2023",
+      "12"
+    ],
+    "notes": "Read with curl 2026-09-25. The 91-ounce total is the turf as sold, before infill."
+  },
+  {
+    "id": "how-to-dispose-of-artificial-turf.worked-example-500-sq-ft",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Arithmetic on two published specs, not a weighed yard: a 500-square-foot lawn of 91-ounce turf weighs about 316 pounds (91 ÷ 9 ÷ 16 = about 0.63 pounds a square foot), its infill at Motz's 2.5 to 3.5 pounds a square foot weighs 1,250 to 1,750 pounds, the two together about 1,566 to 2,066 pounds against a one-ton (2,000-pound) load limit, and the infill runs about 4 to 5.5 times the turf's weight.",
+    "quote": "12/20 or 16/30 1½-1 ¾” (38-44mm) Landscape ½” – ¾” (13-19mm) 2.5-3.5lbs (12.21-17.09kg/m2)",
+    "source_url": "https://themotzgroup.com/wp-content/uploads/2023/03/Envirofill-Installation-Guidelines-for-Landscape-Applications.pdf",
+    "source_label": "Worked example on the Motz Envirofill chart and MSI's Viridian Turf 91 total weight",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "500",
+      "91",
+      "9",
+      "16",
+      "0.63",
+      "316",
+      "2.5",
+      "3.5",
+      "1250",
+      "1,250",
+      "1750",
+      "1,750",
+      "1566",
+      "1,566",
+      "2066",
+      "2,066",
+      "2000",
+      "2,000",
+      "4",
+      "5.5",
+      "12/20",
+      "16/30",
+      "1"
+    ],
+    "notes": "The quote is the Motz chart row the arithmetic starts from; the 91-ounce total weight is MSI's (how-to-dispose-of-artificial-turf.msi-viridian-91-total-weight). 91 oz/sq yd ÷ 9 = 10.11 oz/sq ft = 0.632 lb/sq ft; × 500 = 316 lb. 2.5 × 500 = 1,250 lb; 3.5 × 500 = 1,750 lb. 316 + 1,250 = 1,566; 316 + 1,750 = 2,066. 2.5 ÷ 0.632 = 3.96; 3.5 ÷ 0.632 = 5.54. One short ton = 2,000 lb."
+  },
+  {
+    "id": "how-to-dispose-of-artificial-turf.integriturf-nail-spacing-roll-width",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Integriturf's installation guide says most turf rolls are made 15 feet wide by 100 feet long, and that the most common way to secure turf is nailing every 4 to 6 inches around the perimeter and every 2 to 3 feet on center across the field with 5-inch or 6-inch nails.",
+    "quote": "Most manufacturers produce their rolls in 15ft widths and 100ft lengths (a full roll = 15 x 100ft or 1,500 square feet). … 6. Securing the turf: The most common method of securing the turf is to nail the turf every 4 to 6 inches around the perimeter and every 2 to 3 feet on center throughout the field using either 5-inch 40D Common, or, 6-inch electro-galvanized nails.",
+    "source_url": "https://integriturf.com/wp-content/uploads/2019/02/Installation-Guide.pdf",
+    "source_label": "Integriturf, Synthetic Turf Installation Guide (PDF)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "15",
+      "100",
+      "1500",
+      "1,500",
+      "6",
+      "4",
+      "2",
+      "3",
+      "5",
+      "40"
+    ],
+    "notes": "Read with curl and pdftotext 2026-09-25. One installer's guide describing installation; the page uses it only to say how many fasteners an old lawn may hold."
+  }
+]

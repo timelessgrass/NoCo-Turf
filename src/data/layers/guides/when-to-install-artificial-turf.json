@@ -1,0 +1,530 @@
+[
+  {
+    "id": "when-to-install-artificial-turf.noaa-fort-collins-monthly",
+    "layer": "climate",
+    "applies_to": [
+      "fort-collins-co",
+      "wellington-co"
+    ],
+    "fact": "At NOAA's Fort Collins station, May is the wettest month at 2.72 inches of precipitation, with 5.8 days of 0.10 inch or more; April has 2.10 inches and 9.3 nights at or below 32°F, and June through August have no nights at or below 32°F (1991–2020 monthly normals).",
+    "quote": "USC00053005 FT COLLINS — MLY-PRCP-NORMAL: Mar 1.31 · Apr 2.10 · May 2.72 · Jun 1.90 · Jul 1.63 · Aug 1.45 · Sep 1.43 · Oct 1.25 · Nov 0.74 | MLY-TMIN-AVGNDS-LSTH032: Mar 21.5 · Apr 9.3 · May 1.2 · Jun 0.0 · Jul 0.0 · Aug 0.0 · Sep 0.5 · Oct 8.5 · Nov 23.9 | MLY-TMAX-NORMAL: Jan 45.0 · Feb 46.8 · Mar 56.4 · Apr 62.5 · May 70.9 · Jun 81.8 · Jul 87.4 · Aug 85.0 · Sep 77.4 · Oct 64.3 · Nov 52.5 · Dec 44.0 | MLY-PRCP-AVGNDS-GE010HI: Apr 4.5 · May 5.8 · Jun 3.9 · Jul 3.5 · Aug 3.0 · Sep 3.2",
+    "source_url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-monthly-1991-2020&stations=USC00053005&format=json",
+    "source_label": "NOAA NCEI U.S. Climate Normals 1991–2020, monthly, station FT COLLINS (USC00053005)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2.72",
+      "5.8",
+      "0.10",
+      "2.10",
+      "9.3",
+      "32",
+      "1991",
+      "2020",
+      "1.31",
+      "1.90",
+      "1.63",
+      "1.45",
+      "1.43",
+      "1.25",
+      "0.74",
+      "21.5",
+      "1.2",
+      "0.0",
+      "0.5",
+      "8.5",
+      "23.9",
+      "45.0",
+      "46.8",
+      "56.4",
+      "62.5",
+      "70.9",
+      "81.8",
+      "87.4",
+      "85.0",
+      "77.4",
+      "64.3",
+      "52.5",
+      "44.0",
+      "4.5",
+      "3.9",
+      "3.5",
+      "3.0",
+      "3.2"
+    ],
+    "notes": "Station-to-town assignment is by proximity (INFERENCE from station geography), not a NOAA statement; say \"the nearest NOAA station\". Values read from the NCEI access-services API on 2026-09-25. Element definitions (NCEI normals documentation): TMIN-AVGNDS-LSTH032 = days with minimum <= 32F; TMAX-AVGNDS-GRTH040 = days with maximum >= 40F; PRBFST-T32FP50 = 50% probability date of first fall 32F occurrence or earlier; PRCP-AVGNDS-GE010HI = days with precipitation >= 0.10 in."
+  },
+  {
+    "id": "when-to-install-artificial-turf.noaa-fort-collins-winter-fall",
+    "layer": "climate",
+    "applies_to": [
+      "fort-collins-co",
+      "wellington-co"
+    ],
+    "fact": "At NOAA's Fort Collins station an average winter (December through February) has 64.3 days with a high of 40°F or more, 85.2 nights at or below 32°F and 1.35 inches of precipitation; in half of years the first fall night at or below 32°F comes by October 7, in one year in ten by September 24, and the first at or below 28°F by October 17 (1991–2020 normals).",
+    "quote": "USC00053005 FT COLLINS — DJF-TMAX-AVGNDS-GRTH040 64.3 · DJF-TMIN-AVGNDS-LSTH032 85.2 · DJF-PRCP-NORMAL 1.35 · ANN-TMIN-PRBFST-T32FP50 10/07 · ANN-TMIN-PRBFST-T32FP10 09/24 · ANN-TMIN-PRBFST-T32FP90 10/20 · ANN-TMIN-PRBFST-T28FP50 10/17",
+    "source_url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053005&format=json",
+    "source_label": "NOAA NCEI U.S. Climate Normals 1991–2020, annual/seasonal, station FT COLLINS (USC00053005)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "64.3",
+      "40",
+      "85.2",
+      "32",
+      "1.35",
+      "7",
+      "24",
+      "28",
+      "17",
+      "1991",
+      "2020",
+      "10/07",
+      "09/24",
+      "10/20",
+      "10/17"
+    ],
+    "notes": "Station-to-town assignment is by proximity (INFERENCE from station geography), not a NOAA statement; say \"the nearest NOAA station\". Values read from the NCEI access-services API on 2026-09-25. Element definitions (NCEI normals documentation): TMIN-AVGNDS-LSTH032 = days with minimum <= 32F; TMAX-AVGNDS-GRTH040 = days with maximum >= 40F; PRBFST-T32FP50 = 50% probability date of first fall 32F occurrence or earlier; PRCP-AVGNDS-GE010HI = days with precipitation >= 0.10 in."
+  },
+  {
+    "id": "when-to-install-artificial-turf.noaa-greeley-winter-fall",
+    "layer": "climate",
+    "applies_to": [
+      "greeley-co",
+      "windsor-co",
+      "johnstown-co",
+      "severance-co",
+      "evans-co",
+      "eaton-co",
+      "milliken-co"
+    ],
+    "fact": "At NOAA's Greeley UNC station an average winter (December through February) has 61.1 days with a high of 40°F or more and 86.0 nights at or below 32°F; in half of years the first fall night at or below 32°F comes by October 8 and the first at or below 28°F by October 18 (1991–2020 normals).",
+    "quote": "USC00053553 GREELEY UNC — DJF-TMAX-AVGNDS-GRTH040 61.1 · DJF-TMIN-AVGNDS-LSTH032 86.0 · DJF-PRCP-NORMAL 1.45 · ANN-TMIN-PRBFST-T32FP50 10/08 · ANN-TMIN-PRBFST-T32FP10 09/26 · ANN-TMIN-PRBFST-T28FP50 10/18",
+    "source_url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053553&format=json",
+    "source_label": "NOAA NCEI U.S. Climate Normals 1991–2020, annual/seasonal, station GREELEY UNC (USC00053553)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "61.1",
+      "40",
+      "86.0",
+      "32",
+      "8",
+      "28",
+      "18",
+      "1991",
+      "2020",
+      "10/08",
+      "09/26",
+      "10/18",
+      "1.45"
+    ],
+    "notes": "Station-to-town assignment is by proximity (INFERENCE from station geography), not a NOAA statement; say \"the nearest NOAA station\". Values read from the NCEI access-services API on 2026-09-25. Element definitions (NCEI normals documentation): TMIN-AVGNDS-LSTH032 = days with minimum <= 32F; TMAX-AVGNDS-GRTH040 = days with maximum >= 40F; PRBFST-T32FP50 = 50% probability date of first fall 32F occurrence or earlier; PRCP-AVGNDS-GE010HI = days with precipitation >= 0.10 in."
+  },
+  {
+    "id": "when-to-install-artificial-turf.noaa-greeley-may",
+    "layer": "climate",
+    "applies_to": [
+      "greeley-co",
+      "windsor-co",
+      "johnstown-co",
+      "severance-co",
+      "evans-co",
+      "eaton-co",
+      "milliken-co"
+    ],
+    "fact": "At NOAA's Greeley UNC station May is the wettest month, with 2.65 inches of precipitation in an average year (1991–2020 normals).",
+    "quote": "USC00053553 GREELEY UNC — MLY-PRCP-NORMAL: Apr 1.83 · May 2.65 · Jun 1.78 · Jul 1.61 · Aug 1.56",
+    "source_url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-monthly-1991-2020&stations=USC00053553&format=json",
+    "source_label": "NOAA NCEI U.S. Climate Normals 1991–2020, monthly, station GREELEY UNC (USC00053553)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2.65",
+      "1991",
+      "2020",
+      "1.83",
+      "1.78",
+      "1.61",
+      "1.56"
+    ],
+    "notes": "Station-to-town assignment is by proximity (INFERENCE from station geography), not a NOAA statement; say \"the nearest NOAA station\". Values read from the NCEI access-services API on 2026-09-25. Element definitions (NCEI normals documentation): TMIN-AVGNDS-LSTH032 = days with minimum <= 32F; TMAX-AVGNDS-GRTH040 = days with maximum >= 40F; PRBFST-T32FP50 = 50% probability date of first fall 32F occurrence or earlier; PRCP-AVGNDS-GE010HI = days with precipitation >= 0.10 in."
+  },
+  {
+    "id": "when-to-install-artificial-turf.noaa-longmont-winter-fall",
+    "layer": "climate",
+    "applies_to": [
+      "longmont-co",
+      "mead-co",
+      "firestone-co",
+      "frederick-co",
+      "dacono-co"
+    ],
+    "fact": "At NOAA's Longmont 2 ESE station an average winter (December through February) has 64.5 days with a high of 40°F or more and 88.7 nights at or below 32°F; in half of years the first fall night at or below 32°F comes by October 5 and the first at or below 28°F by October 12 (1991–2020 normals).",
+    "quote": "USC00055116 LONGMONT 2 ESE — DJF-TMAX-AVGNDS-GRTH040 64.5 · DJF-TMIN-AVGNDS-LSTH032 88.7 · DJF-PRCP-NORMAL 1.59 · ANN-TMIN-PRBFST-T32FP50 10/05 · ANN-TMIN-PRBFST-T32FP10 09/23 · ANN-TMIN-PRBFST-T28FP50 10/12",
+    "source_url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00055116&format=json",
+    "source_label": "NOAA NCEI U.S. Climate Normals 1991–2020, annual/seasonal, station LONGMONT 2 ESE (USC00055116)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "64.5",
+      "40",
+      "88.7",
+      "32",
+      "5",
+      "28",
+      "12",
+      "1991",
+      "2020",
+      "10/05",
+      "09/23",
+      "10/12",
+      "1.59"
+    ],
+    "notes": "Station-to-town assignment is by proximity (INFERENCE from station geography), not a NOAA statement; say \"the nearest NOAA station\". Values read from the NCEI access-services API on 2026-09-25. Element definitions (NCEI normals documentation): TMIN-AVGNDS-LSTH032 = days with minimum <= 32F; TMAX-AVGNDS-GRTH040 = days with maximum >= 40F; PRBFST-T32FP50 = 50% probability date of first fall 32F occurrence or earlier; PRCP-AVGNDS-GE010HI = days with precipitation >= 0.10 in."
+  },
+  {
+    "id": "when-to-install-artificial-turf.noaa-longmont-spring",
+    "layer": "climate",
+    "applies_to": [
+      "longmont-co",
+      "mead-co",
+      "firestone-co",
+      "frederick-co",
+      "dacono-co"
+    ],
+    "fact": "At NOAA's Longmont 2 ESE station April is narrowly the wettest month, with 2.04 inches of precipitation against 1.97 in May (1991–2020 normals).",
+    "quote": "USC00055116 LONGMONT 2 ESE — MLY-PRCP-NORMAL: Mar 1.17 · Apr 2.04 · May 1.97 · Jun 1.75 · Jul 1.69 · Aug 1.95",
+    "source_url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-monthly-1991-2020&stations=USC00055116&format=json",
+    "source_label": "NOAA NCEI U.S. Climate Normals 1991–2020, monthly, station LONGMONT 2 ESE (USC00055116)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "2.04",
+      "1.97",
+      "1991",
+      "2020",
+      "1.17",
+      "1.75",
+      "1.69",
+      "1.95"
+    ],
+    "notes": "Station-to-town assignment is by proximity (INFERENCE from station geography), not a NOAA statement; say \"the nearest NOAA station\". Values read from the NCEI access-services API on 2026-09-25. Element definitions (NCEI normals documentation): TMIN-AVGNDS-LSTH032 = days with minimum <= 32F; TMAX-AVGNDS-GRTH040 = days with maximum >= 40F; PRBFST-T32FP50 = 50% probability date of first fall 32F occurrence or earlier; PRCP-AVGNDS-GE010HI = days with precipitation >= 0.10 in."
+  },
+  {
+    "id": "when-to-install-artificial-turf.noaa-loveland-winter-fall",
+    "layer": "climate",
+    "applies_to": [
+      "loveland-co",
+      "berthoud-co"
+    ],
+    "fact": "At NOAA's Loveland 2N station an average winter (December through February) has 61.6 days with a high of 40°F or more and 88.0 nights at or below 32°F; in half of years the first fall night at or below 32°F comes by October 1 and the first at or below 28°F by October 10 (1991–2020 normals).",
+    "quote": "USC00055236 LOVELAND 2N — DJF-TMAX-AVGNDS-GRTH040 61.6 · DJF-TMIN-AVGNDS-LSTH032 88.0 · DJF-PRCP-NORMAL 1.72 · ANN-TMIN-PRBFST-T32FP50 10/01 · ANN-TMIN-PRBFST-T32FP10 09/15 · ANN-TMIN-PRBFST-T28FP50 10/10",
+    "source_url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00055236&format=json",
+    "source_label": "NOAA NCEI U.S. Climate Normals 1991–2020, annual/seasonal, station LOVELAND 2N (USC00055236)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "61.6",
+      "40",
+      "88.0",
+      "32",
+      "1",
+      "28",
+      "10",
+      "1991",
+      "2020",
+      "10/01",
+      "09/15",
+      "10/10",
+      "1.72"
+    ],
+    "notes": "Station-to-town assignment is by proximity (INFERENCE from station geography), not a NOAA statement; say \"the nearest NOAA station\". Values read from the NCEI access-services API on 2026-09-25. Element definitions (NCEI normals documentation): TMIN-AVGNDS-LSTH032 = days with minimum <= 32F; TMAX-AVGNDS-GRTH040 = days with maximum >= 40F; PRBFST-T32FP50 = 50% probability date of first fall 32F occurrence or earlier; PRCP-AVGNDS-GE010HI = days with precipitation >= 0.10 in."
+  },
+  {
+    "id": "when-to-install-artificial-turf.noaa-loveland-may",
+    "layer": "climate",
+    "applies_to": [
+      "loveland-co",
+      "berthoud-co"
+    ],
+    "fact": "At NOAA's Loveland 2N station May is the wettest month, with 2.68 inches of precipitation in an average year (1991–2020 normals).",
+    "quote": "USC00055236 LOVELAND 2N — MLY-PRCP-NORMAL: Apr 2.18 · May 2.68 · Jun 1.63 · Jul 1.47 · Aug 1.29",
+    "source_url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-monthly-1991-2020&stations=USC00055236&format=json",
+    "source_label": "NOAA NCEI U.S. Climate Normals 1991–2020, monthly, station LOVELAND 2N (USC00055236)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2.68",
+      "1991",
+      "2020",
+      "2.18",
+      "1.63",
+      "1.47",
+      "1.29"
+    ],
+    "notes": "Station-to-town assignment is by proximity (INFERENCE from station geography), not a NOAA statement; say \"the nearest NOAA station\". Values read from the NCEI access-services API on 2026-09-25. Element definitions (NCEI normals documentation): TMIN-AVGNDS-LSTH032 = days with minimum <= 32F; TMAX-AVGNDS-GRTH040 = days with maximum >= 40F; PRBFST-T32FP50 = 50% probability date of first fall 32F occurrence or earlier; PRCP-AVGNDS-GE010HI = days with precipitation >= 0.10 in."
+  },
+  {
+    "id": "when-to-install-artificial-turf.ccc-freeze-date-map",
+    "layer": "climate",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Climate Center's station-normals map shows first-fall and last-spring freeze dates for Colorado weather stations, from NOAA's 1991–2020 normals, at thresholds from 20°F to 36°F.",
+    "quote": "Station Normals: Frost/Freeze dates. Choose whether you want to see first freezes in the fall or last freezes in the spring. Then choose a temperature threshold and a percentile. … Data source: NOAA 1991-2020 climate normals. … 20°F 24°F 28°F 32°F 36°F",
+    "source_url": "https://climate.colostate.edu/normals_stn_select_freeze.html",
+    "source_label": "Colorado Climate Center (Colorado State University), Station Normals: Frost/Freeze dates",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1991",
+      "2020",
+      "20",
+      "36",
+      "24",
+      "28",
+      "32"
+    ],
+    "notes": "An interactive map; the per-station values load by script. The station figures on the guide come from the NOAA records above, which are the map's data source."
+  },
+  {
+    "id": "when-to-install-artificial-turf.ccc-rain-april-september",
+    "layer": "climate",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Climate Center says the heaviest and most general rains on the eastern side of the state fall from April through early September, and summer rain on the plains comes largely from thunderstorms that are sometimes extremely heavy.",
+    "quote": "the heaviest and most general rainfalls (and sometimes wet snows) occur over the eastern portions of the State from April through early September. … Summer precipitation over the plains comes largely from thunderstorm activity and is sometimes extremely heavy.",
+    "source_url": "https://climate.colostate.edu/climate_long.html",
+    "source_label": "Colorado Climate Center (Colorado State University), Climate of Colorado",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "when-to-install-artificial-turf.ccc-chinook-moderates-winter",
+    "layer": "climate",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Climate Center says chinook winds bring large and sudden temperature rises and greatly moderate average winter temperatures in places near enough to the mountains to get them often.",
+    "quote": "Warmed by rapid descent from higher levels, these winds bring large and sudden temperature rises. … Chinook winds greatly moderate average winter temperatures in areas near enough to the mountains to experience them frequently.",
+    "source_url": "https://climate.colostate.edu/climate_long.html",
+    "source_label": "Colorado Climate Center (Colorado State University), Climate of Colorado",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "when-to-install-artificial-turf.srw-adhesive-conditions",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SRW Products says its Seams Right turf seam adhesive bonds properly only when surfaces are flat, completely dry and above 40°F and free of moisture or frost, and that turf must be protected from rain and freezing for 12 hours after installation, from light foot traffic for 12 hours and heavy traffic for 24; full cure takes 24 to 48 hours.",
+    "quote": "For proper adhesion surfaces must be flat, completely dry, and above 40°F. Make sure the surfaces being bonded are clean of any materials that may prevent proper adhesion like dust, loose turf fibers, moisture, or frost. … Protect turf from rain/water and freezing conditions for 12 hours after installation. Protect from light foot traffic for 12 hours, and heavy foot traffic for 24 hours. … CURE TIME • 60-120 minutes, full cure 24-48 hours.",
+    "source_url": "https://srwproducts.com/product/seams-right-turf-adhesive-srw-products/",
+    "source_label": "SRW Products, Seams Right Turf Adhesive (product page and technical data sheet)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "40",
+      "12",
+      "24",
+      "48"
+    ],
+    "notes": "Same wording on the product page and the linked technical data sheet (srwproducts.com/wp-content/uploads/SeamsRightAdhesive_TDS-1.pdf), both read 2026-09-25. One manufacturer; other adhesives set other limits (see the TEC 149 record)."
+  },
+  {
+    "id": "when-to-install-artificial-turf.srw-backing-expands",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SRW Products tells installers to peel back a seam just before gluing, because turf backing can heat up and expand and leave gaps at the seam when it cools, and says its adhesive will freeze or be damaged by low temperatures in storage.",
+    "quote": "Peel back seam just before applying adhesive to tape. The turf backing can heat up and expand, leaving unwanted gaps at seams when the turf cools. … Store at room temperature, no freezing weather. Will freeze or be damaged by low temperatures.",
+    "source_url": "https://srwproducts.com/product/seams-right-turf-adhesive-srw-products/",
+    "source_label": "SRW Products, Seams Right Turf Adhesive (product page and technical data sheet)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "when-to-install-artificial-turf.tec-149-temperature-range",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "TEC Specialty Products' data sheet for its TEC 149 two-part turf adhesive says the adhesive, the air, the base and the turf should all be between 59°F and 84°F, that lower temperatures prolong curing and higher ones shorten working time, and that it should not be applied in wet, rainy or misty conditions.",
+    "quote": "The temperature of adhesive, environment, field base and synthetic turf field covering should be between 59°F and 84°F (15°C and 29°C). … Lower temperatures negatively influence the consistency of the adhesive, thus prolonging the curing time. … Higher temperatures shorten the adhesive pot life and application time. … Adhesive should not be applied in wet, raining and misty conditions.",
+    "source_url": "https://www.tecspecialty.com/hbfuller-media/7742/pds_tec_149_2-cturfadhesive_r0326.pdf",
+    "source_label": "TEC Specialty Products, TEC 149 2-C Turf Adhesive product data sheet (updated March 2026)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "149",
+      "59",
+      "84",
+      "15",
+      "29"
+    ],
+    "notes": "A sports-field adhesive sold in summer and winter formulas; the data sheet says it is valid for 90 days from its date, so re-read it before relying on the range."
+  },
+  {
+    "id": "when-to-install-artificial-turf.sgw-cold-weather-seams",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Synthetic Grass Warehouse, a turf supplier, says cold seam edges are stiff and make a good seam harder, that a heater may be needed in freezing weather so turf can lie flat without being stretched hard, that many hardware-store seam adhesives are water-based and may freeze, and that turf rolls should be stored so freezing temperatures do not leave flat spots, turning a roll now and then if it has to sit outside.",
+    "quote": "When seaming in cold weather, the two edges that are to be seamed may be stiff/hard and achieving a successful seam will be more difficult. … Roll out your synthetic turf and allow it to lay flat on the prepped surface to remove any wrinkles. In freezing temperatures you may need to have an external heater available to expedite this process. This will make your installation more efficient and prevent aggressively stretching the turf to reach its flatness on the compacted subgrade. … a majority of hardware store adhesives are water based and contain high percentages of fillers. These inexpensive water-based adhesives may freeze under cold weather conditions … Always store your rolls of synthetic grass so the freezing temperatures will not leave flat spots in the turf roll. If you have to store the turf outside, rotate the roll occasionally to prevent flat spots from occurring.",
+    "source_url": "https://syntheticgrasswarehouse.com/company/ask-an-expert/ask-jw/cold-weather-artificial-grass-installation/",
+    "source_label": "Synthetic Grass Warehouse, Ask JW: Cold Weather Artificial Grass Installation",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "A supplier's installer column; it also promotes the supplier's own adhesive, which the guide does not repeat."
+  },
+  {
+    "id": "when-to-install-artificial-turf.sgw-dry-infill",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Synthetic Grass Warehouse says the turf surface must be dry when infill is spread, because infill sticks to damp blades instead of reaching the base of the fibers, and turf expands and contracts as the temperature rises through the day.",
+    "quote": "When placing the infill the surface must be dry in order for the infill to reach the base of the fibers. If the surface has any moisture the infill will stick to the top and will have to dry out or be removed to complete this process. … With the rise in temperature throughout the day, the synthetic turf will expand and/or contract.",
+    "source_url": "https://syntheticgrasswarehouse.com/company/ask-an-expert/ask-jw/cold-weather-artificial-grass-installation/",
+    "source_label": "Synthetic Grass Warehouse, Ask JW: Cold Weather Artificial Grass Installation",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "when-to-install-artificial-turf.lcuass-frozen-subgrade",
+    "layer": "standard",
+    "applies_to": [
+      "fort-collins-co",
+      "loveland-co"
+    ],
+    "fact": "The street standards Larimer County, Loveland and Fort Collins share bar work on subgrade in freezing conditions or when it is frozen, and bar placing base course on soft, spongy or frozen subgrade.",
+    "quote": "22.5.2 C. 1. Preparation Conditions. Work shall not occur on the subgrade in freezing conditions, or when the subgrade is frozen. … 22.5.4 D. … No base course shall be placed upon a soft, spongy, or frozen subgrade or other subgrade, the stability of which, in the opinion of the Local Entity Engineer, is unsuitable.",
+    "source_url": "https://larimer.gov/sites/default/files/uploads/2023/ch22_-_construction_specifications_0.pdf",
+    "source_label": "Larimer County Urban Area Street Standards, Chapter 22: Materials and Construction Specifications (repealed and reenacted Aug. 1, 2021; adopted by Larimer County, Loveland and Fort Collins)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "1"
+    ],
+    "notes": "Street and right-of-way standards, not a rule for private yards; the guide uses them only as the local engineering practice on frozen and soft ground. larimer.gov answers plain curl with a Cloudflare 403; read 2026-09-25 through a fetch that passed. Page footer: \"Larimer County Urban Area Street Standards – Repealed and Reenacted August 1, 2021 Adopted by Larimer County, City of Loveland, City of Fort Collins\"."
+  },
+  {
+    "id": "when-to-install-artificial-turf.thaw-weakening",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "When ice in the ground melts, the water cannot drain out of the soil fast enough, so the soil becomes substantially weaker and loses bearing capacity; engineers call this thaw weakening.",
+    "quote": "Thaw weakening. A weakened subgrade condition resulting from soil saturation as ice within the soil melts. … As the ice melts and turns to liquid it cannot drain out of the soil fast enough and thus the subgrade becomes substantially weaker (less stiff) and tends to lose bearing capacity.",
+    "source_url": "https://pavementinteractive.org/reference-desk/design/design-parameters/frost-action/",
+    "source_label": "Pavement Interactive, Frost Action (reference desk)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "when-to-install-artificial-turf.csu-wet-clay",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says soils compact more easily when wet, that clayey soil should never be worked wet, and that a squeezed handful that only reshapes instead of crumbling is too wet; on some clay soils only a few days, or hours, separate too wet from too dry, and frequent spring rains can delay work significantly.",
+    "quote": "Soils are more prone to compaction when wet. Soil water acts as a lubricant allowing the soil particles to readily slide together reducing large pore spaces. … Never cultivate clayey soil when wet, as this will destroy soil structure; the clods created by tilling wet clay may last for years. To check dryness, take a handful of soil and gently squeeze it into a ball. If the soil is dry enough to crumble, it may be cultivated. If the ball only reshapes with pressure, it is too wet for cultivation. On some clayey soils, there may be only a few days (or even hours) between the time when the soil is too wet and too dry (too hard) to cultivate. In years when frequent spring rains prevent the soil from drying, planting will be significantly delayed.",
+    "source_url": "https://cmg.extension.colostate.edu/Gardennotes/215.pdf",
+    "source_label": "CSU Extension, CMG GardenNotes #215: Soil Compaction",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Written for gardens and cultivation; the guide applies it to digging and compacting a turf base on clay, which is an inference and is worded as such."
+  },
+  {
+    "id": "when-to-install-artificial-turf.csu-sod-rooting",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension's PlantTalk Colorado says sod can go in through the growing season but its roots should be well established before fall freezes, and new sod should be kept moist until it roots, within two to three weeks.",
+    "quote": "You can install sod throughout the growing season, anytime good quality sod is available, and you have prepared the soil to help roots become established as quickly as possible. Roots should be well established before freezing temperatures in the fall. … Water your newly sodded lawn frequently enough to keep the sod and underlying soil moist, not soggy. Sod should be well rooted into the soil below within two to three weeks.",
+    "source_url": "https://planttalk.colostate.edu/topics/lawns/1517-sodding-lawn/",
+    "source_label": "CSU Extension, PlantTalk Colorado 1517: Sodding a Lawn",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "when-to-install-artificial-turf.johnstown-no-new-lawn-after-oct-15",
+    "layer": "ordinance",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Johnstown's 2026 New Lawn Permit says no new lawn may be established after October 15, whatever the permit, that watering after October 15 is limited to hand-watering trees and shrubs, and that applications are open until October 12, 2026.",
+    "quote": "New Lawn Permit Application - Available until October 12th, 2026 … All watering is restricted to hand watering only of trees and shrubs after October 15th regardless of permit status. I understand the New Turf Permit guidelines and regardless of the permit, no turf establishment shall occur after October 15th.",
+    "source_url": "https://www.johnstownco.gov/689/New-Lawn-Permit",
+    "source_label": "Town of Johnstown, 2026 New Lawn Permit (Municipal Code Sec. 13-151(c)(6))",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-16",
+    "numbers": [
+      "2026",
+      "15",
+      "12"
+    ],
+    "notes": "\"Turf\" on this page means a live lawn (sod or seed); the rule says nothing about artificial turf. The same page quotes Sec 13-151.(c)(6) and says a permit expires 45 days after installation or at the end of the mandated watering schedule."
+  },
+  {
+    "id": "when-to-install-artificial-turf.google-trends-spring-peak",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Google Trends shows Colorado search interest in \"artificial turf\" highest from April through June and lowest from November through January over the five years to September 2026, with the single highest week April 12–18, 2026.",
+    "quote": "Interest over time, \"artificial turf\", Colorado, past 5 years: Numbers represent search interest relative to the highest point on the chart for the given region and time. A value of 100 is the peak popularity for the term. … Apr 12 – 18, 2026: 100",
+    "source_url": "https://trends.google.com/trends/explore?geo=US-CO&q=artificial%20turf&date=today%205-y",
+    "source_label": "Google Trends, \"artificial turf\" in Colorado, past five years (weekly)",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "2026",
+      "12",
+      "18",
+      "5",
+      "100"
+    ],
+    "notes": "Read 2026-09-25 through the explore page's own data endpoint (widgetdata/multiline); the page itself answers a plain fetch with 429, so re-check in a browser. Monthly means of the weekly index, Sep 2021–Sep 2026 (our arithmetic): Jan 3.4, Feb 17.9, Mar 29.1, Apr 46.2, May 42.8, Jun 41.5, Jul 33.6, Aug 27.3, Sep 21.4, Oct 11.8, Nov 7.5, Dec 4.7. Trends samples differ between pulls (the 2026-09-24 pull in the research archive gave Apr 46.8, Jan 6.6), so the guide states only the shape and the peak week. Searches are not calls or bookings."
+  }
+]

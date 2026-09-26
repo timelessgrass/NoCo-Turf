@@ -1,0 +1,299 @@
+[
+  {
+    "id": "dog-poop-on-artificial-turf.csu-planttalk-pet-waste",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension's PlantTalk Colorado says pet feces and urine on artificial turf are problematic because turf does not disinfect itself biologically the way a living lawn does.",
+    "quote": "Pet feces and urine deposits are problematic. These artificial surfaces do not naturally disinfect themselves by biological means like a living lawn does.",
+    "source_url": "https://planttalk.colostate.edu/topics/lawns/1537-artificial-turf-lawns/",
+    "source_label": "CSU Extension, PlantTalk Colorado 1537: Artificial Turf for Lawns",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1537"
+    ],
+    "notes": "An older script (it describes rubber infill and quotes install costs); use it only for the pet-waste sentence, never for costs or infill."
+  },
+  {
+    "id": "dog-poop-on-artificial-turf.k9grass-messy-waste",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A pet-turf maker's care instructions say to remove solid waste as soon as possible, and for messy waste to pick up all you can, rinse with a hose and treat with a bacterial enzyme, without rinsing solids into the grass.",
+    "quote": "Solid pet waste is easy to locate and should be removed frequently (the sooner the better). The more dogs there are, the more important this is. If the solid waste is messy, pick up all that you can, rinse with a hose, and treat with a bacterial enzyme. Do not rinse solid waste into the grass.",
+    "source_url": "https://k9grass.com/faq/how-do-you-clean-artificial-grass-for-dogs/",
+    "source_label": "K9Grass by ForeverLawn, How do you clean artificial grass for dogs?",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "A manufacturer's care page for its own product (a pet turf); copy calls it 'one pet-turf maker's care instructions'."
+  },
+  {
+    "id": "dog-poop-on-artificial-turf.k9grass-residue",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same care instructions say waste, hair and urine left in turf slow its drainage, and residual urine and feces left untreated can become the source of odor or unclean conditions.",
+    "quote": "Removing this debris keeps the grass looking good and prevents urine, hair, and waste from slowing drainage and holding unwanted waste. … The purpose of these treatments is to break down residual waste (urine and feces) which, if not addressed, can be the source of odor or unclean conditions.",
+    "source_url": "https://k9grass.com/faq/how-do-you-clean-artificial-grass-for-dogs/",
+    "source_label": "K9Grass by ForeverLawn, How do you clean artificial grass for dogs?",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "dog-poop-on-artificial-turf.k9grass-enzyme-timing",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same care instructions say an enzyme cleaner works better the longer it stays on the turf, early evening is a good time to treat outdoor turf, and rinsing between cleanings is advisable without regular rain.",
+    "quote": "Early evening is a good time to treat outdoor areas. … The longer the bacterial enzyme is left on the grass, the better it works. … Rinsing the grass between cleanings is advisable if you do not have regular rain.",
+    "source_url": "https://k9grass.com/faq/how-do-you-clean-artificial-grass-for-dogs/",
+    "source_label": "K9Grass by ForeverLawn, How do you clean artificial grass for dogs?",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "dog-poop-on-artificial-turf.cdc-daily-pickup",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The CDC says roundworm eggs from dog and cat poop take 2 to 4 weeks in the environment to become infective and can survive for months or years, and advises picking up pet waste daily and bagging it for the trash.",
+    "quote": "It takes 2 – 4 weeks in the environment for the eggs to develop enough to cause infection. However, the eggs have a strong protective layer that allows them to survive for months, or even years, under the right conditions. … Keep your pet's living area clean. Pet waste should be picked up daily and buried or bagged and disposed of in the trash. Wash your hands after handling pet waste.",
+    "source_url": "https://www.cdc.gov/toxocariasis/spreads/index.html",
+    "source_label": "CDC, How Toxocariasis Spreads (April 19, 2024)",
+    "effective": "2024-04-19",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "4",
+      "19",
+      "2024"
+    ],
+    "notes": "cdc.gov returns 403 to curl; read in a browser on 2026-09-25."
+  },
+  {
+    "id": "dog-poop-on-artificial-turf.cdc-play-areas",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The CDC's pet-owner page on roundworms and hookworms says their eggs and larvae can survive for weeks or years in yards and play areas, advises keeping play areas and lawns around the home free of animal feces, and advises washing children's hands after outdoor activities.",
+    "quote": "These worm eggs and larvae can survive for weeks and even years in areas such as parks, playgrounds, and yards. … Wash your and your children’s hands with soap and water after playing with pets or other animals, after outdoor activities, and before handling food or eating. … Keep play areas, lawns, and gardens around your home free of animal feces. Bag and throw away pet feces at least once a week.",
+    "source_url": "https://archive.cdc.gov/www_cdc_gov/parasites/resources/roundworms_hookworms.html",
+    "source_label": "CDC (archived page), What Every Pet Owner Should Know About Roundworms & Hookworms",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "CDC's own archive (last reviewed January 25, 2021). Its 'at least once a week' is older than the current page's 'daily'; copy uses the current page for how often and this one only for play areas."
+  },
+  {
+    "id": "dog-poop-on-artificial-turf.osu-same-spot",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Ohio State University's Indoor Pet Initiative advises taking a dog to the same place to eliminate every time, because the dog learns the spot by sight and later by smell and tends to go where it has gone before.",
+    "quote": "You should take your dog to the same place to eliminate every time. Not only will your dog make a visual association with that location and the reason why they are being taken there, but in time there will also be an olfactory cue (odor) as well. Dogs generally like to eliminate where they have done so before.",
+    "source_url": "https://indoorpet.osu.edu/dogs/puppy/housetraining-dogs",
+    "source_label": "The Ohio State University Indoor Pet Initiative, Housetraining",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "dog-poop-on-artificial-turf.osu-leash-reward",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same page advises taking the dog out on a leash while training so it can be rewarded right after it goes, and notes that some dogs need to walk a little before they defecate.",
+    "quote": "Always take your dog out to eliminate on a leash during the housetraining process in order to be able to deliver her reward in a timely manner. … some dogs need to move around in order to defecate (e.g., walk a little bit)",
+    "source_url": "https://indoorpet.osu.edu/dogs/puppy/housetraining-dogs",
+    "source_label": "The Ohio State University Indoor Pet Initiative, Housetraining",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "dog-poop-on-artificial-turf.fc-stormwater-pet-waste",
+    "layer": "utility",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins Utilities says storm sewers carry runoff to the creeks and the Poudre River without treatment, and lists pet waste among the pollutants that can contaminate surface water.",
+    "quote": "This runoff flows directly from storm sewers into the creeks and Poudre River without treatment by a water reclamation facility. … Hazardous chemicals, automotive products, pesticides, fertilizers, pet wastes, excessive soil erosion and air pollution all contribute to water pollution. … Clean up after pets. Pet waste contains pollutants that can contaminate surface water.",
+    "source_url": "https://www.fortcollins.gov/Services/Utilities/Other-Utilities-Pages/Water/Stormwater",
+    "source_label": "City of Fort Collins Utilities, Stormwater",
+    "checked": "2026-09-25",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The old fcgov.com stormwater-quality URL redirects here. Akamai returns 403 to curl; read in a browser on 2026-09-25."
+  },
+  {
+    "id": "dog-poop-on-artificial-turf.fc-pet-waste-trash",
+    "layer": "utility",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins' Recycling A to Z guide says pet waste goes in the trash.",
+    "quote": "Pet waste should be disposed of in the trash.",
+    "source_url": "https://apps.fcgov.com/recycling/items/?item=227",
+    "source_label": "City of Fort Collins, Recycling A to Z Guide: Pet Waste",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "dog-poop-on-artificial-turf.csu-no-compost-feces",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says dog and cat feces may transmit diseases and should not be composted.",
+    "quote": "Human, cat or dog feces may transmit diseases and should not be composted.",
+    "source_url": "https://extension.colostate.edu/resource/composting-yard-waste/",
+    "source_label": "CSU Extension, Composting Yard Waste (reviewed August 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2025"
+    ]
+  },
+  {
+    "id": "dog-poop-on-artificial-turf.fc-code-4-71",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins City Code 4-71 requires a pet's owner to remove its feces immediately from property the owner doesn't own or occupy, and periodically from their own property so it does not become a public nuisance.",
+    "quote": "The owner or keeper of any animal shall be responsible for the immediate removal of any feces deposited by such animal on any property, public or private, not owned or exclusively occupied by the owner or keeper. The owner or keeper of any animal shall also be responsible for the periodic removal of feces deposited by such animal on property owned or exclusively occupied by such owner or keeper so as to prevent the creation of a public nuisance within the meaning of § 4-95.",
+    "source_url": "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH4ANIN_ARTIIAN_DIV4CATRAN_S4-71REANWARE",
+    "source_label": "Fort Collins City Code Sec. 4-71, Removal of animal waste required",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "4",
+      "71",
+      "95"
+    ],
+    "notes": "Municode flags Chapter 4 as amended by Ordinance No. 090, 2026; the 4-71 text read on 2026-09-25 carries only the 1986 and 1995 history."
+  },
+  {
+    "id": "dog-poop-on-artificial-turf.windsor-code-7-6-180",
+    "layer": "ordinance",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor Municipal Code 7-6-180 requires a dog's owner to remove its feces immediately from property the owner doesn't own or occupy, and periodically from their own property so it does not become a public nuisance.",
+    "quote": "The owner, keeper or person in control of any dog shall be responsible for the immediate removal of any feces deposited by such dog on any property, public or private, not owned or exclusively occupied by the owner or keeper. The owner or keeper of any dog shall also be responsible for the periodic removal of feces deposited by such animal on property owned or occupied by such owner or keeper so as to prevent the creation of a public nuisance within the meaning of Section 7-6-190 below.",
+    "source_url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH7HESAAN_ARTVIDO_DIV1GEPR_S7-6-180REDOWARE",
+    "source_label": "Windsor Municipal Code Sec. 7-6-180, Removal of dog waste required",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "7",
+      "6",
+      "180",
+      "190"
+    ]
+  },
+  {
+    "id": "dog-poop-on-artificial-turf.windsor-police-brochure",
+    "layer": "ordinance",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "The Windsor Police Department's dog brochure sums up the town code as requiring private yards and dog runs to be cleaned regularly to prevent odor and a build-up of feces.",
+    "quote": "Private yards and dog runs must be cleaned on a regular basis to prevent odor and build up of feces.",
+    "source_url": "https://www.windsorco.gov/DocumentCenter/View/11963/Dog-Brochure",
+    "source_label": "Town of Windsor Police Department, dog brochure (summary of Windsor Codes concerning dogs)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "A police summary, printed under Sec. 7-6-190; the code text is Sec. 7-6-180."
+  },
+  {
+    "id": "dog-poop-on-artificial-turf.loveland-code-6-20-050",
+    "layer": "ordinance",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "Loveland Municipal Code 6.20.050 makes it unlawful to fail to remove an animal's feces immediately from streets, sidewalks, parks and private property, and names an appropriate trash container as where it goes.",
+    "quote": "It shall be unlawful for the owner or keeper of any animal to fail to remove any feces deposited by such animal on streets, sidewalks, parks and recreation areas, and private property, or in any water immediately after the animal has deposited the fecal matter. … It is an affirmative defense to a violation of this section if a competent person in immediate control of the animal immediately removes and deposits the fecal matter deposited by an animal in an appropriate trash container.",
+    "source_url": "https://library.municode.com/co/loveland/codes/code_of_ordinances?nodeId=PTIILOCOMUCO_TIT6AN_CH6.20CO_6.20.050ANWARE",
+    "source_label": "Loveland Municipal Code 6.20.050, Animal waste removal",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "6.20",
+      "050",
+      "50"
+    ],
+    "notes": "The text names private property without carving out the owner's own yard; copy quotes it rather than interpreting it."
+  },
+  {
+    "id": "dog-poop-on-artificial-turf.greeley-code-10-54",
+    "layer": "ordinance",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley Municipal Code 10-54 says an animal's shelter and containment must be clean and free of filth, including feces.",
+    "quote": "To be adequate, the shelter and containment must be clean and free of filth, including feces.",
+    "source_url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT10AN_CH3VI_S10-54FAPRADSHCO",
+    "source_label": "Greeley Municipal Code Sec. 10-54, Failing to provide adequate shelter and containment",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "10",
+      "54"
+    ]
+  },
+  {
+    "id": "dog-poop-on-artificial-turf.greeley-code-10-65",
+    "layer": "ordinance",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley Municipal Code 10-65 requires an animal's owner to remove its feces immediately from anyone else's property, including public property and common areas.",
+    "quote": "The owner or keeper of an animal shall immediately remove any feces deposited by the animal upon the property of another, including public property and common areas.",
+    "source_url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT10AN_CH3VI_S10-65ANWARE",
+    "source_label": "Greeley Municipal Code Sec. 10-65, Animal waste removal",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "10",
+      "65"
+    ]
+  }
+]

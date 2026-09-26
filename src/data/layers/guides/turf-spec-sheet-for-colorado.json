@@ -1,0 +1,354 @@
+[
+  {
+    "id": "turf-spec-sheet-for-colorado.stc-scope-lawn-only",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council's 2013 buying guidelines are written for landscape lawn turf and say they may not apply to putting greens, pet areas including dog parks and dog runs, playgrounds or rooftops.",
+    "quote": "Note: These guidelines apply to synthetic grass for residential, commercial, or municipal landscape lawn applications. For specialized synthetic grass landscape applications, such as putting greens, pet applications including dog parks and dog runs, playgrounds, rooftops, etc., these guidelines may not apply.",
+    "source_url": "https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf",
+    "source_label": "Synthetic Turf Council, Considerations When Buying Synthetic Grass for Landscape Use (September 2013), Introduction",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2013"
+    ],
+    "notes": "Read in the PDF (12 pages, printed September 2013) on 2026-09-25 with pdftotext; the line-break hyphens in 'put- ting' and 'the- se' are joined in the quote."
+  },
+  {
+    "id": "turf-spec-sheet-for-colorado.stc-face-weight-range",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council says face weight is the total weight of yarn above the backing, and that most landscape turf has a 1½ to 2 inch pile and a total yarn weight of 40 to 100 ounces per square yard.",
+    "quote": "Total weight of the yarn above the backing. This will depend on several factors, including the length of the yarn above the backing (pile height) and the distance between the individual fiber tufts (density or tufting gauge). Generally, longer pile and denser synthetic grass will look more natural. Most synthetic grass has a pile height of between 1½” and 2”, and a density of between ¼” and ½” for a total yarn weight of between 40 oz. and 100 oz. per square yard.",
+    "source_url": "https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf",
+    "source_label": "Synthetic Turf Council, Considerations When Buying Synthetic Grass for Landscape Use (September 2013), Quality Guidelines: Total Yarn Weight (aka Face Weight)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "2",
+      "40",
+      "100"
+    ]
+  },
+  {
+    "id": "turf-spec-sheet-for-colorado.stc-backing-tuft-bind",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council recommends a dual primary backing of at least 7 ounces per square yard, a coating heavy enough to meet its tuft bind minimum, and a tuft bind, the force needed to pull a tuft out of the backing, of 6.8 pounds, the higher the better.",
+    "quote": "The STC recommends a system with a dual primary backing with a weight of at least 7 oz. per square yard. … The back of the synthetic grass is coated with secondary backing materials to lock the fibers in place (tuft bind). … The coating should be applied with a weight and thickness configuration that is dependent on the design of the system and able to meet or exceed the STC’s minimum tuft bind standard. … This term is used to refer to the force (usually measured in pounds) required to pull a tuft from the synthetic grass backing. The STC recommends a tuft bind of 6.8 lbs., but the higher the tuft bind, the better.",
+    "source_url": "https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf",
+    "source_label": "Synthetic Turf Council, Considerations When Buying Synthetic Grass for Landscape Use (September 2013), Quality Guidelines: Primary Backing, Coating, Tuft Bind",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "7",
+      "6.8"
+    ]
+  },
+  {
+    "id": "turf-spec-sheet-for-colorado.stc-permeability",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council says turf systems should drain to suit local weather and that permeable systems are typically designed to drain 25 inches of water an hour.",
+    "quote": "Synthetic grass systems with infill and base materials should drain to accommodate local weather and rainfall patterns. Permeable synthetic grass systems are typically designed to drain 25” of water per hour.",
+    "source_url": "https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf",
+    "source_label": "Synthetic Turf Council, Considerations When Buying Synthetic Grass for Landscape Use (September 2013), Water Permeability Rate (drainage)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "25"
+    ]
+  },
+  {
+    "id": "turf-spec-sheet-for-colorado.stc-yarn-lab-results",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council asks for independent lab results on the yarn: color change better than Gray Scale 3 and no more than a 50% loss of tensile strength after 3,000 hours of UVA testing, 8,000 total denier per bundle, and heavy-metal content, including lead, compliant with state and ASTM standards.",
+    "quote": "Yarn Characteristics (Should be validated in report by an Independent Test Lab) … Artificial Weathering-Turf Color Change: >Gray Scale 3; 3000 hrs. UVA testing; Test method: ASTM D2616-12 … Artificial Weathering-Pile Yarn Tensile Strength: Reduction of no more than 50%; 3000 hrs. UVA testing; Test method: FIFA/EN 13864 … Total Face Yarn Denier: 8,000 total denier per bundle; Test Methods: ASTM D1577; D1907 … Heavy Metal Content of Yarn, including Lead, Cadmium, Chromium, Mercury, Zinc, Tin: Compliant with State and ASTM International Standards",
+    "source_url": "https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf",
+    "source_label": "Synthetic Turf Council, Considerations When Buying Synthetic Grass for Landscape Use (September 2013), Yarn Characteristics table",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "3000",
+      "50",
+      "13864",
+      "8000",
+      "1577",
+      "2616"
+    ],
+    "notes": "The quote joins the cells of a three-column table (characteristic; guideline; hours and test method) with colons and semicolons; the words are the PDF's own."
+  },
+  {
+    "id": "turf-spec-sheet-for-colorado.stc-coverage-terms",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council tells buyers to read the written coverage terms before signing, including coverage for fading and UV degradation, limits and remedies, conditions that void coverage, who must respond to a claim and how to file one against a foreign maker, and notes that some coverage is pro-rated and pays less as the turf ages.",
+    "quote": "A sample of the warranty or warranties prior to signing the contract. Carefully review and understand: … warranty terms for defects in workmanship and material, including durability, fading, and premature wear or degradation from ultra-violet radiation from the sun; warranty limitations and remedies; conditions, if any, which might void or limit coverage under the warranty; person and company obligated to respond to a warranty claim and fulfill the warranty terms; procedures for filing a warranty claim, particularly against a foreign manufacturer; … Note: Some warranties are pro-rated, providing for a lower settlement as the synthetic turf ages.",
+    "source_url": "https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf",
+    "source_label": "Synthetic Turf Council, Considerations When Buying Synthetic Grass for Landscape Use (September 2013), Guidelines for Prequalifying and Selecting a Professional Contractor",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "turf-spec-sheet-for-colorado.stc-sample-origin",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council tells buyers to keep the sample they choose and compare it with the product delivered, to get the sample's country of manufacture and check it against the roll labels and bill of lading, and to get a written commitment that the sample is the product delivered.",
+    "quote": "Keep the synthetic grass sample you select, and compare it before installation to the product that is delivered. … Turf and infill samples submitted separately. The turf sample should identify where the turf was manufactured, e.g., USA or China. When the turf rolls are received, make sure to check the shipping label on the turf rolls and bill of lading to verify that the country of origin is the same as was originally represented; … A written commitment that the sample you select when you sign the contract will be the product that is delivered for installation.",
+    "source_url": "https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf",
+    "source_label": "Synthetic Turf Council, Considerations When Buying Synthetic Grass for Landscape Use (September 2013), Summary of Critical Guidelines and contractor checklist",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "turf-spec-sheet-for-colorado.stc-terms-in-writing",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council tells buyers to review every document before signing and to get all agreed terms and extras in writing.",
+    "quote": "Review all documents, including work plans, construction schedules, and contractor warranties. Make sure all agreed terms and extras are in writing;",
+    "source_url": "https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf",
+    "source_label": "Synthetic Turf Council, Considerations When Buying Synthetic Grass for Landscape Use (September 2013), Summary of Critical Guidelines",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "turf-spec-sheet-for-colorado.stc-not-standards",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council says a product can miss its landscape guidelines and still suit its intended use, and that the guidelines are not manufacturing minimum standards or safety standards.",
+    "quote": "Some styles and systems may not meet these minimum quality guidelines, and others may greatly exceed them; nevertheless, these products might qualify as a quality product for the intended application. … The Landscape Guidelines are not, and should not be considered, as manufacturing minimum standards for synthetic turf for landscape purposes. … The suggested Landscape Guidelines are not intended to be, and are not to be considered as safety standards",
+    "source_url": "https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf",
+    "source_label": "Synthetic Turf Council, Considerations When Buying Synthetic Grass for Landscape Use (September 2013), Quality Guidelines note and Disclaimer",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "turf-spec-sheet-for-colorado.firestone-nontoxic-materials",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone requires turf material and its aggregate or infill to be non-toxic to people and pets and not harmful to the environment.",
+    "quote": "Turf material and aggregate or infill materials shall not be toxic to humans or pets or be harmful to the environment.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+    "source_label": "Firestone Development Code 16.6.4.F.2.a.iii (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [],
+    "notes": "Read through the Municode API (api.municode.com CodesContent, jobId 488870, productId 18062) on 2026-09-25; the library page renders by script."
+  },
+  {
+    "id": "turf-spec-sheet-for-colorado.firestone-blade-backing-materials",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone requires turf blades and backing of lead-free polyethylene, polypropylene, a vegetable-based product or a blend, prohibits nylon, other plastics and felt backing, and requires a permeable backing with holes in a uniform grid no more than 4 by 6 inches on center.",
+    "quote": "The blade material shall be made of either lead-free polyethylene, polypropylene, vegetable based product or a blend of the three (3). Nylon or other plastic shall be prohibited. ii. Backing. (A) The backing shall be of a lead-free polyethylene, polypropylene, vegetable based product or a blend of the three (3). Felt backing is not permitted. (B) The backing shall be permeable with holes spaced in a uniform grid pattern not to exceed four (4) inches by six (6) inches on center.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+    "source_label": "Firestone Development Code 16.6.4.F.2.c.i–ii (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [
+      "4",
+      "6",
+      "3"
+    ],
+    "notes": "Read through the Municode API on 2026-09-25. The code does not say how a knitted or woven flow-through backing with no punched holes is treated; pages say ask Firestone Planning."
+  },
+  {
+    "id": "turf-spec-sheet-for-colorado.firestone-8-year-non-flammable",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone requires turf materials to be protected by a warranty of at least 8 years and all materials to be non-flammable, without naming a flammability test.",
+    "quote": "iii. Materials shall be protected with a minimum of an eight (8) year warranty. iv. All materials shall be non-flammable.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+    "source_label": "Firestone Development Code 16.6.4.F.2.c.iii–iv (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [
+      "8"
+    ],
+    "notes": "Read through the Municode API on 2026-09-25. No test method or standard for 'non-flammable' appears anywhere in 16.6.4. Never say NoCo's products meet it without Brian's product sheets."
+  },
+  {
+    "id": "turf-spec-sheet-for-colorado.firestone-colors-thatch",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone requires turf yarn colors that mimic natural turf, with green blades and a tan thatch layer.",
+    "quote": "Blade yarn colors shall mimic natural turf including green blade color(s) and include a tan thatch layer.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+    "source_label": "Firestone Development Code 16.6.4.F.2.d.i (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [],
+    "notes": "Read through the Municode API on 2026-09-25."
+  },
+  {
+    "id": "turf-spec-sheet-for-colorado.firestone-manufacturer-specs",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone requires artificial turf to be installed to the manufacturer's specifications and anchored at all edges and seams.",
+    "quote": "Artificial turf shall be installed in accordance with manufacturer specifications. … Artificial turf shall be anchored at all edges and seams.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+    "source_label": "Firestone Development Code 16.6.4.F.2.e.i and e.iv (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-25",
+    "numbers": [],
+    "notes": "Read through the Municode API on 2026-09-25."
+  },
+  {
+    "id": "turf-spec-sheet-for-colorado.crs-25-15-605-pfas-turf",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "C.R.S. 25-15-605, added by SB24-081, bars anyone from installing artificial turf that contains intentionally added PFAS on any property in Colorado from January 1, 2026, lets turf installed before then be maintained, and names no document or test.",
+    "quote": "25-15-605. Prohibition on the installation of artificial turf that contains intentionally added PFAS chemicals. (1) ON AND AFTER JANUARY 1, 2026, A PERSON SHALL NOT INSTALL ARTIFICIAL TURF THAT CONTAINS INTENTIONALLY ADDED PFAS CHEMICALS ON ANY PORTION OF PROPERTY IN THE STATE. (2) NOTHING IN THIS SECTION PROHIBITS A PERSON FROM MAINTAINING ARTIFICIAL TURF INSTALLED BEFORE JANUARY 1, 2026.",
+    "source_url": "https://leg.colorado.gov/bill_files/46185/download",
+    "source_label": "SB24-081 signed act (approved 2024-05-01), Section 5: C.R.S. 25-15-605",
+    "effective": "2026-01-01",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "1",
+      "2026"
+    ],
+    "notes": "Read in the signed act PDF (7 pages) on 2026-09-25. The section has only the two subsections quoted; it sets no certificate, test or label for turf. CDPHE's PFAS laws page (cdphe.colorado.gov/pfas-laws) describes the same prohibition."
+  },
+  {
+    "id": "turf-spec-sheet-for-colorado.epa-uv-per-km",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The EPA says UV intensity increases about 6% per kilometer of elevation above sea level.",
+    "quote": "UV intensity increases about 6% per kilometer elevation above sea level.",
+    "source_url": "https://www.epa.gov/sunsafety/learn-about-uv-index",
+    "source_label": "U.S. EPA, Learn About the UV Index: Calculating the UV Index",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6"
+    ]
+  },
+  {
+    "id": "turf-spec-sheet-for-colorado.astm-d2859-scope",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "ASTM D2859, the flammability test turf sheets often cite, exposes a floor-covering sample to an ignition source in the lab and identifies materials that can be rated flame-resistant under those specific controlled conditions.",
+    "quote": "This fire-test-response standard describes a test method for the determination of the flammability of finished textile floor covering materials when exposed to an ignition source under controlled laboratory conditions. … This test method provides a procedure for identification of those finished textile floor covering materials that can be rated as flame-resistant under specific controlled laboratory conditions.",
+    "source_url": "https://www.astm.org/d2859.html",
+    "source_label": "ASTM D2859-16(2021), Standard Test Method for Ignition Characteristics of Finished Textile Floor Covering Materials: Scope 1.1 and Significance and Use 5.1",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2859"
+    ]
+  },
+  {
+    "id": "turf-spec-sheet-for-colorado.astm-d1335-scope",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "ASTM D1335 measures the force needed to pull or break a tuft out of a pile floor covering, and ASTM notes that inadequate tuft bind in cut pile can mean complete loss of pile where wear is severe.",
+    "quote": "This test method covers the measurement of force required to pull or break a tuft from a pile floor covering sample. … In a cut pile yarn floor covering an inadequate tuft bind may result in complete loss of pile in areas exposed to severe wear.",
+    "source_url": "https://www.astm.org/d1335.html",
+    "source_label": "ASTM D1335-21, Standard Test Method for Tuft Bind of Pile Yarn Floor Coverings: Scope 1.1 and Significance and Use 5.2",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1335"
+    ]
+  },
+  {
+    "id": "turf-spec-sheet-for-colorado.synlawn-847-test-methods",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "One manufacturer's published sheet, SYNLawn's for its SYNAugustine 847 lawn product, prints each value beside its test method, including pile height (ASTM D-5823), face and primary backing weight (D-5848), tuft bind (D-1335), yarn denier (D-1577), flammability (D-2859) and water permeability (EN 12616).",
+    "quote": "Pile Height (Nominal) 1 1/4” inches D-5823 … Face Weight 80 oz/yd2 D-5848 … Primary Backing Weight 6 oz/yd2 D-5848 … Tuft Bind >8 lbs. D-1335 … Total Yarn Linear Density 14,900 Denier D-1577 … Flammability Passed - D-2859 … Water Permeability > 1,000 in/hr EN 12616",
+    "source_url": "https://www.synlawn.com/wp-content/uploads/2025/02/SYNLawn-SYNAugustine-847-S847B-USA.pdf",
+    "source_label": "SYNLawn, SYNAugustine 847 product specifications (SKU S847B), page 2, dated 12.10.2025",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "847",
+      "1",
+      "1/4",
+      "5823",
+      "80",
+      "5848",
+      "6",
+      "8",
+      "1335",
+      "14900",
+      "1577",
+      "2859",
+      "1000",
+      "12616"
+    ],
+    "notes": "Read with pdftotext on 2026-09-25. Cited only as an example of a sheet that names its test methods, not as a recommendation. The same sheet lists fire tests ASTM E108, D2859 and E648 and heavy-metal tests ASTM F2765, EN-71 and RCRA 8 TCLP. Its 1 1/4 inch pile is under Firestone's 1.75 inch minimum."
+  }
+]

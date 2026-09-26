@@ -1,0 +1,343 @@
+[
+  {
+    "id": "putting-green-on-a-slope.usga-major-portion-3-percent",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A 2008 USGA Green Section Record article says the Green Section has suggested that most of a putting green should usually slope no more than 3 percent (1.7 degrees), though some areas may exceed that for difficult terrain or architectural effect.",
+    "quote": "The slope of a major portion of a putting green should usually not be greater than 3 percent (1.7 degrees), although some areas may exceed this for special reasons, such as difficult terrain or dramatic architectural effect.",
+    "source_url": "https://gsrpdf.lib.msu.edu/?file=/2000s/2008/080721.pdf",
+    "source_label": "Jerry Lemons, Putting Green Speeds, Slopes, and \"Non-Conforming\" Hole Locations, USGA Green Section Record, July-August 2008",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "1.7",
+      "2008"
+    ],
+    "notes": "Read from the scanned article (5 pages) in Michigan State University's Turfgrass Information Center archive of the Green Section Record (index at gsr.lib.msu.edu/2000s/2008/). The article cites this as Green Section Record, July/August 1987, 'Turf Twisters'. Written for golf-course greens; the physics of a ball on a slope is the same on a synthetic green."
+  },
+  {
+    "id": "putting-green-on-a-slope.usga-3-percent-at-stimp-10",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same USGA Green Section Record article says any slope of 3 percent (1.7 degrees) or more is too steep for a hole on a green that reads 10 feet on the Stimpmeter.",
+    "quote": "Based on current information, any slope 3% (1.7 degrees) or greater on a 10' Stimpmeter reading is too steep for hole use.",
+    "source_url": "https://gsrpdf.lib.msu.edu/?file=/2000s/2008/080721.pdf",
+    "source_label": "Jerry Lemons, Putting Green Speeds, Slopes, and \"Non-Conforming\" Hole Locations, USGA Green Section Record, July-August 2008",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "1.7",
+      "10",
+      "2008"
+    ],
+    "notes": "The article cites Green Section Record, March/April 2005, 'Turf Twisters'. Its Figure 1 ('Maximum Slope for Green Speeds') plots recommended, marginal and critical slope bands against Stimpmeter speed from 7 to 14 feet; the bands move to flatter slopes as speed rises. The chart prints no numeric table, so pages describe its direction only and do not quote values read off the curves."
+  },
+  {
+    "id": "putting-green-on-a-slope.usga-holing-area",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The article says the area within two to three feet of the hole should have no steep slope and, if possible, no change in slope: as nearly level as possible and of uniform grade, though not necessarily exactly level, never on a sharp slope where a ball can gather speed, and set so a golfer above the hole can still putt boldly rather than purely defensively.",
+    "quote": "An area two to three feet in radius around the hole should be in good condition without any steep slopes or, if possible, any changes in the degree of slope. In other words, the green in the holing-out area should be as nearly level as possible and of uniform grade, but it need not be exactly level. In no case should holes be located in tricky places or on sharp slopes where a ball can gather speed. A player above the hole should be able to putt with a reasonable degree of boldness, and not purely defensively.",
+    "source_url": "https://gsrpdf.lib.msu.edu/?file=/2000s/2008/080721.pdf",
+    "source_label": "Jerry Lemons, Putting Green Speeds, Slopes, and \"Non-Conforming\" Hole Locations, USGA Green Section Record, July-August 2008",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2008"
+    ],
+    "notes": "The article attributes the passage to the USGA and R&A's general guidelines for hole locations (Green Section Record, July 1966)."
+  },
+  {
+    "id": "putting-green-on-a-slope.usga-consistent-slope-around-hole",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The article's checklist says a hole location should have at least 3 feet around the hole that is consistent in slope, at least 6 feet where the slope is steeper (the chart's marginal band), and warns that as green speeds rise, so does the potential for uncontrollable slopes.",
+    "quote": "The hole location should have at least 3' around the hole (holing-out area) that is consistent in slope. Hole locations using steeper slopes (yellow on the green speed slope chart) should have at least 6' around the hole. … As green speeds increase, the potential for uncontrollable slopes also increases.",
+    "source_url": "https://gsrpdf.lib.msu.edu/?file=/2000s/2008/080721.pdf",
+    "source_label": "Jerry Lemons, Putting Green Speeds, Slopes, and \"Non-Conforming\" Hole Locations, USGA Green Section Record, July-August 2008",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "6",
+      "2008"
+    ],
+    "notes": "First two sentences from 'A Checklist for Conforming Hole Locations'; the last from the Figure 1 caption."
+  },
+  {
+    "id": "putting-green-on-a-slope.usga-stop-within-two-feet",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The article says a hole should be placed so that, from anywhere on the green, a golfer can stop the ball within about two feet of it.",
+    "quote": "A hole should be placed in such a position that no matter where the golfer is putting from, assuming continuous putting surface between himself and the hole, it should be possible to stop the ball within approximately two feet of the hole.",
+    "source_url": "https://gsrpdf.lib.msu.edu/?file=/2000s/2008/080721.pdf",
+    "source_label": "Jerry Lemons, Putting Green Speeds, Slopes, and \"Non-Conforming\" Hole Locations, USGA Green Section Record, July-August 2008",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2008"
+    ],
+    "notes": "The article cites Green Section Record, September/October 1981, for the sentence."
+  },
+  {
+    "id": "putting-green-on-a-slope.course-rating-downhill-ratio",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The USGA Course Rating System Guide, as quoted in the Green Section Record, calls a green moderately sloped when a downhill Stimpmeter roll is twice as long as the uphill roll, and steeply sloped when it is three times as long.",
+    "quote": "When a downhill roll on the Stimpmeter is 2 times greater in length than uphill, it is considered moderately sloped. When a downhill roll on the Stimpmeter is 3 times greater in length than uphill, it is considered steeply sloped.",
+    "source_url": "https://gsrpdf.lib.msu.edu/?file=/2000s/2008/080721.pdf",
+    "source_label": "USGA Course Rating System Guide (2007), as quoted in Jerry Lemons, USGA Green Section Record, July-August 2008",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [
+      "2",
+      "3",
+      "2007",
+      "2008"
+    ],
+    "notes": "The 2007 Course Rating System Guide itself was not read; the sentence is read verbatim from the Green Section Record article that quotes it (its reference 14)."
+  },
+  {
+    "id": "putting-green-on-a-slope.weber-downslope-uphill-speeds",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A 1997 USGA Green Section Record physics model shows downhill putts speed up far more than uphill putts slow down: a green that reads 8.5 feet on the flat plays like 9.98 down a 1-degree slope (about 1.7 percent) and 12.1 down a 2-degree slope (about 3.5 percent) but 6.51 up a 2-degree slope; one reading 11.0 plays like 13.8 and 18.2 downhill and 7.93 uphill; one reading 6.0 plays like 6.71 and 7.62 downhill and 4.94 uphill.",
+    "quote": "the following equivalent values of S↓ can be calculated from Equ. 11, based upon the prevailing downslope angle. [Table, S̄ at 0°, then S↓ at 1°, 2°, 3°:] 6.0 · 6.71 · 7.62 · 8.78 ; 8.5 · 9.98 · 12.1 · 15.4 ; 11.0 · 13.8 · 18.2 · 26.6 … [Table, S̄ at 0°, then S↑ at 1°, 2°:] 6.0 · 5.40 · 4.94 ; 8.5 · 7.34 · 6.51 ; 11.0 · 9.19 · 7.93 … Comparison of Fig. 6 with Fig. 4 graphically demonstrates how downslope has a much more pronounced effect upon the Stimpmeter reading than does upslope, especially the faster the green is maintained.",
+    "source_url": "https://gsrpdf.lib.msu.edu/?file=/1990s/1997/970312.pdf",
+    "source_label": "Arthur P. Weber, Green Speed Physics, USGA Green Section Record, March/April 1997",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1997",
+      "8.5",
+      "9.98",
+      "12.1",
+      "6.51",
+      "11.0",
+      "13.8",
+      "18.2",
+      "7.93",
+      "6.0",
+      "6.71",
+      "7.62",
+      "4.94",
+      "8.78",
+      "15.4",
+      "26.6",
+      "5.40",
+      "7.34",
+      "9.19",
+      "1",
+      "2",
+      "3",
+      "1.7",
+      "3.5",
+      "0",
+      "4"
+    ],
+    "notes": "Table rows transcribed from the article's two tables (checked against the page images, not just the OCR). S̄ is the Stimpmeter reading on a level surface, S↓ downhill, S↑ uphill, all in feet. Degrees to percent is our arithmetic: tan 1° = 1.75%, tan 2° = 3.49%, tan 3° = 5.24%. Weber's energy model treats rolling friction as one coefficient; he reports it validated by measurement."
+  },
+  {
+    "id": "putting-green-on-a-slope.weber-limiting-downslope",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same model gives the downslope on which a rolling ball never stops: about 9 degrees 40 minutes (about 17 percent) on a green reading 6.0 feet on the flat, 6 degrees 30 minutes (about 11 percent) at 8.5 and 5 degrees 10 minutes (about 9 percent) at 11.0.",
+    "quote": "From Equ. 12, the following tabulation can be made of the maximum or limiting downslope angles at which a ball will not stop rolling versus the coefficients of friction that prevail on slow to fast feel putting surfaces. [f · S̄ · Limiting Downslope Angle:] 0.164 · 6.0 · 9° - 40' ; 0.116 · 8.5 · 6° - 30' ; 0.089 · 11.0 · 5° - 10' ; 0.079 · 12.5 · 4° - 30'",
+    "source_url": "https://gsrpdf.lib.msu.edu/?file=/1990s/1997/970312.pdf",
+    "source_label": "Arthur P. Weber, Green Speed Physics, USGA Green Section Record, March/April 1997",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1997",
+      "6.0",
+      "8.5",
+      "11.0",
+      "12.5",
+      "9",
+      "40",
+      "6",
+      "30",
+      "5",
+      "10",
+      "4",
+      "17",
+      "11",
+      "0.164",
+      "0.116",
+      "0.089",
+      "0.079",
+      "12"
+    ],
+    "notes": "Degrees to percent is our arithmetic: tan 9°40' = 17.0%, tan 6°30' = 11.4%, tan 5°10' = 9.0%, tan 4°30' = 7.9%. This is a physical limit, not a playability guide; the playable limits in the Lemons 2008 records are far flatter."
+  },
+  {
+    "id": "putting-green-on-a-slope.weber-3-to-4-degrees",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The 1997 article generalizes that greens reading 8 to 12 feet on the flat start to unsettle golfers where they tilt more than 3 to 4 degrees (about 5 to 7 percent), while slower greens reading 5 to 8 stay manageable at up to 5 to 6 degrees.",
+    "quote": "Generalizing, slow-to-medium speed greens, say Stimpmeter reading 5 to 8 on a level green, although they may be undulated upward of 5 to 6 degrees remain reasonably manageable by the golfer. Medium-to-fast greens, say 8 to 12 Stimpmeter reading on a level green, start destabilizing the nerves of golfers when angled upwards of 3 to 4 degrees.",
+    "source_url": "https://gsrpdf.lib.msu.edu/?file=/1990s/1997/970312.pdf",
+    "source_label": "Arthur P. Weber, Green Speed Physics, USGA Green Section Record, March/April 1997",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1997",
+      "5",
+      "8",
+      "6",
+      "12",
+      "3",
+      "4",
+      "7"
+    ],
+    "notes": "Degrees to percent is our arithmetic: tan 3° = 5.2%, tan 4° = 7.0%. This describes a green's undulation overall, not the ground right around a hole."
+  },
+  {
+    "id": "putting-green-on-a-slope.brede-carpet-downhill",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "In a 1990 USGA Green Section Record lab test on a 24-foot runway covered with patio grass carpet that stimped about 8 or 9 feet, downhill readings climbed sharply once the slope passed 1 or 2 percent, while uphill readings fell only slowly.",
+    "quote": "This was accomplished by building a solid wooden runway, 24 feet long, covered with patio grass carpet. Those of you who've putted on this stuff know that it stimps about 8 or 9 feet, similar to many putting greens. We tilted the runway at six different angles from 0 to 5.6% slope and tested the stimpmeter speed as we changed slope (Figure 2). Up-slope readings slowly declined with increasing slope, while down-slope readings began to really take off at slopes above 1 or 2%.",
+    "source_url": "https://gsrpdf.lib.msu.edu/?file=/1990s/1990/901110.pdf",
+    "source_label": "A. Douglas Brede, Measuring Green Speed on Sloped Putting Greens, USGA Green Section Record, November/December 1990",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1990",
+      "24",
+      "8",
+      "9",
+      "0",
+      "5.6",
+      "1",
+      "2"
+    ],
+    "notes": "The scan's OCR prints 'above I or 2%'; the page reads 1. The sibling record artificial-putting-green-maintenance.brede-slope-eye carries the same article's 2.2% eyesight finding."
+  },
+  {
+    "id": "putting-green-on-a-slope.happ-ball-test",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A 2000 USGA Green Section Record article says to check a hole location by rolling a ball from above the hole: if it speeds up as it passes the hole, the spot may be unsuitable; its rule of thumb puts the hole in the center of a 3-foot circle that lies on one plane.",
+    "quote": "A quick check can be performed by starting a golf ball rolling from above the hole: If the ball accelerates (due to gravitational force) as it passes the hole, the location may be unsuitable for use. A rule of thumb is to position the hole in the center of a 3-foot diameter area that is on the same plane.",
+    "source_url": "https://gsrpdf.lib.msu.edu/?file=/2000s/2000/000106.pdf",
+    "source_label": "Keith A. Happ, Hole Placement: The Art of Cutting the Hole, USGA Green Section Record, January/February 2000",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2000",
+      "3"
+    ]
+  },
+  {
+    "id": "putting-green-on-a-slope.gsr-recontouring-2003",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A 2003 USGA Green Section Record case study describes greens with slopes over 8 percent that, with Stimpmeter readings consistently above 10, had only two or three usable hole positions; the club softened them by raising the front of each green with soil (in some cases 9 to 14 inches) and lowering the back up to 4 inches, and called compacting the soil to reduce settling a critically important step.",
+    "quote": "These greens were very pitched and in many locations had slopes in excess of 8%. … Today, with the demand for greater speeds, the greens in question had very few hole locations when Stimpmeter readings were consistently above 10 feet. In fact, there were only two hole positions for the #9 green (4,600 sq. ft.) and three hole positions for the #3 green (5,700 sq. ft.) and #12 green (7,700 sq. ft.). … The soil sub grades were either raised with the on-site material (in some cases 9 to 14 inches in the front of the green) or lowered (up to 4 inches at the back of each green) to achieve the goal of softening the severe green slopes. … Compacting the soil to reduce settling was a critically important step in the recontouring process.",
+    "source_url": "https://gsrpdf.lib.msu.edu/?file=/2000s/2003/030918.pdf",
+    "source_label": "Dean Graves and Tim Kennelly, Recontouring a Golf Green Without Total Reconstruction, USGA Green Section Record, September-October 2003",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2003",
+      "8",
+      "10",
+      "9",
+      "4,600",
+      "3",
+      "5,700",
+      "12",
+      "7,700",
+      "14",
+      "4"
+    ],
+    "notes": "Case study 1, Baltimore Country Club East Course (clay-based push-up greens, work begun October 2002). Golf-course greens, not backyard ones; used only to show that too-steep greens are fixed by moving soil under the surface."
+  },
+  {
+    "id": "putting-green-on-a-slope.irc-2021-r401-3-grade",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The 2021 International Residential Code requires lots to be graded so surface water drains away from foundation walls, with the grade falling at least 6 inches within the first 10 feet (a 5 percent slope), or drains or swales where lot lines, walls or slopes prevent that fall.",
+    "quote": "Lots shall be graded to drain surface water away from foundation walls. The grade shall fall not fewer than 6 inches (152 mm) within the first 10 feet (3048 mm). Exception: Where lot lines, walls, slopes or other physical barriers prohibit 6 inches (152 mm) of fall within 10 feet (3048 mm), drains or swales shall be constructed to ensure drainage away from the structure.",
+    "source_url": "https://up.codes/viewer/colorado/irc-2021/chapter/4/foundations",
+    "source_label": "International Residential Code 2021, Sec. R401.3 Drainage (Colorado residential code copy), read on UpCodes",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "2021",
+      "401.3",
+      "6",
+      "152",
+      "10",
+      "3048",
+      "5"
+    ],
+    "notes": "Read with curl on 2026-09-25 from UpCodes' Colorado IRC 2021 chapter 4; the ICC's own viewer (codes.iccsafe.org) returns 403 to automated fetches, so this is a secondary copy. 6 inches over 120 inches = 5% (our arithmetic). Each Northern Colorado town adopts its own IRC edition and amendments; pages tell readers to ask their town's building department which applies."
+  },
+  {
+    "id": "putting-green-on-a-slope.firestone-5-to-1",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone's development code says artificial turf shall not be installed on slopes steeper than five to one (5:1), which is a 20 percent slope.",
+    "quote": "iv. Artificial turf shall not be installed on slopes greater than a five to one (5:1) slope.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+    "source_label": "Firestone Development Code 16.6.4.F.2.b.iv (Municode Library)",
+    "checked": "2026-09-25",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "5",
+      "1",
+      "20",
+      "16.6",
+      "4"
+    ],
+    "notes": "Read 2026-09-25 through the Municode content API (jobId 488870, productId 18062), the text the library page renders. 5 horizontal to 1 vertical = 1/5 = 20% (our arithmetic). 16.6.4.F.2 writes no exception for putting greens or other recreational turf; whether the town applies the line to a green's fringe and banks is unconfirmed, so pages say to ask Firestone Planning. The artificial-turf-on-a-slope guide owns the hillside reading of this rule."
+  }
+]
