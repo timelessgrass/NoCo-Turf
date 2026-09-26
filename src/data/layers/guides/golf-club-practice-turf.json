@@ -1,0 +1,288 @@
+[
+  {
+    "id": "golf-club-practice-turf.usga-practice-features",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A USGA agronomist wrote in 2025 that clubs keep asking about synthetic turf for target greens and practice bunker banks, where presentation and durability matter more than playability, and that most courses already use some artificial turf on their practice tees.",
+    "quote": "one topic that continues to surface is switching to synthetic turf for features such as target greens and practice bunker banks, where playability is less of a concern than presentation and durability. … Most courses already have some artificial turf in use on their practice tees, but there are potential benefits to going further.",
+    "source_url": "https://www.usga.org/content/usga/home-page/course-care/green-section-record/63/issue-13/rethinking-turf--synthetic-options-for-practice-areas.html",
+    "source_label": "USGA Green Section Record, Vol. 63, Issue 13 (July 18, 2025): \"Rethinking Turf: Synthetic Options for Practice Areas,\" Chris Neff",
+    "checked": "2026-09-26",
+    "reachable": false,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [
+      "2025"
+    ],
+    "notes": "usga.org returns HTTP 403 to curl, WebFetch and a headless browser (Akamai), so the article was read in full from the Wayback Machine capture 20260511181854 (web.archive.org/web/20260511181854/https://www.usga.org/content/usga/home-page/course-care/green-section-record/63/issue-13/rethinking-turf--synthetic-options-for-practice-areas.html); quote verbatim from that capture. Published as a Southeast Regional Update; the practice-facility points are general."
+  },
+  {
+    "id": "golf-club-practice-turf.usga-lies-and-bunker-faces",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same USGA article says synthetic turf now comes in textures and pile heights that mimic everything from tight fairway to bunker surrounds, so a club can build contoured target greens, varied lies near chipping areas and bunker faces that need no regrassing.",
+    "quote": "Manufacturers now offer a wide range of textures, colors and pile heights that can closely mimic everything from tightly mown fairways to bunker surrounds. With the help of skilled contractors and thoughtful design, superintendents can use synthetic turf to build contoured target greens, simulate different lie conditions near chipping areas, or even create realistic bunker faces that don’t require constant regrassing that usually comes with natural grass around practice bunkers.",
+    "source_url": "https://www.usga.org/content/usga/home-page/course-care/green-section-record/63/issue-13/rethinking-turf--synthetic-options-for-practice-areas.html",
+    "source_label": "USGA Green Section Record, Vol. 63, Issue 13 (July 18, 2025): \"Rethinking Turf: Synthetic Options for Practice Areas,\" Chris Neff",
+    "checked": "2026-09-26",
+    "reachable": false,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [],
+    "notes": "usga.org returns HTTP 403 to curl, WebFetch and a headless browser (Akamai), so the article was read in full from the Wayback Machine capture 20260511181854; quote verbatim from that capture."
+  },
+  {
+    "id": "golf-club-practice-turf.usga-drainage-and-inputs",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same USGA article says a synthetic surface on an engineered base is ready for play shortly after storms, which helps instruction programs, cuts labor, fuel, water and chemical use, and suits courses with poor native soils or limited water.",
+    "quote": "Synthetic turf dramatically reduces inputs. Labor hours, fuel, water and chemical usage all decline, freeing up resources for other parts of the course. … Synthetic surfaces not only drain efficiently but are ready for play shortly after storms, which is a considerable benefit for instructional programs, daily operations and golfer satisfaction. For courses with poor native soils or water access limitations, synthetic turf offers a dependable, low-maintenance solution for parts of the practice facility.",
+    "source_url": "https://www.usga.org/content/usga/home-page/course-care/green-section-record/63/issue-13/rethinking-turf--synthetic-options-for-practice-areas.html",
+    "source_label": "USGA Green Section Record, Vol. 63, Issue 13 (July 18, 2025): \"Rethinking Turf: Synthetic Options for Practice Areas,\" Chris Neff",
+    "checked": "2026-09-26",
+    "reachable": false,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [],
+    "notes": "usga.org returns HTTP 403 to curl, WebFetch and a headless browser (Akamai), so the article was read in full from the Wayback Machine capture 20260511181854; quote verbatim from that capture."
+  },
+  {
+    "id": "golf-club-practice-turf.usga-life-and-installer",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same USGA agronomist puts synthetic product life at eight to 12 years, says up-front costs can be substantial though many facilities he has worked with see a return in five to seven years, and advises hiring vendors and installers who know golf, not only landscape or athletic-field turf.",
+    "quote": "While the initial capital investment required to convert some areas to artificial turf can be significant, many of the facilities I’ve worked with begin to see a return within five to seven years, depending on scale and usage. … Up-front costs can be substantial, and product life expectancy generally ranges from eight to 12 years. Additionally, it’s essential to work with vendors and installers who understand the unique demands of golf, not just synthetic turf for landscape or athletic field use. Subpar installation or the wrong product selection can lead to disappointment and unnecessary expenses.",
+    "source_url": "https://www.usga.org/content/usga/home-page/course-care/green-section-record/63/issue-13/rethinking-turf--synthetic-options-for-practice-areas.html",
+    "source_label": "USGA Green Section Record, Vol. 63, Issue 13 (July 18, 2025): \"Rethinking Turf: Synthetic Options for Practice Areas,\" Chris Neff",
+    "checked": "2026-09-26",
+    "reachable": false,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [
+      "12"
+    ],
+    "notes": "usga.org returns HTTP 403 to curl, WebFetch and a headless browser (Akamai), so the article was read in full from the Wayback Machine capture 20260511181854; quote verbatim from that capture. The return figure is the author's experience with Southeast facilities, not a study; pages present it as his observation."
+  },
+  {
+    "id": "golf-club-practice-turf.usga-artificial-tee-necessity",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A USGA Central Region director wrote in 2025 that a high-quality artificial hitting surface is a necessity when a grass practice tee cannot keep up with divots or the range is expected to open in bad weather, ideally placed behind the grass tee so golfers and staff never cross the turf to reach it.",
+    "quote": "If you do not have enough grass surface to keep up with divots and cannot expand enough, or expectations are that the practice range will be open even when unfavorable weather is experienced, a high-quality artificial hitting surface is a necessity. This makes it possible to keep the range open while divots heal and during unfavorable weather. Ideally, the artificial tee surface is positioned at the back of the grass practice tee so golfers and setup staff do not need to walk or drive on the turf to access it. If the artificial teeing area is located in front of the grass practice tee, it is important that a path be provided for access.",
+    "source_url": "https://www.usga.org/content/usga/home-page/course-care/green-section-record/63/issue-08/getting-the-most-from-your-grass-practice-tee.html",
+    "source_label": "USGA Green Section Record, Vol. 63, Issue 8 (May 2, 2025): \"Getting the Most From Your Grass Practice Tee,\" Zach Nicoludis",
+    "checked": "2026-09-26",
+    "reachable": false,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [
+      "2025"
+    ],
+    "notes": "usga.org returns HTTP 403 to curl, WebFetch and a headless browser (Akamai), so the article was read in full from the Wayback Machine capture 20260314164711 (web.archive.org/web/20260314164711/https://www.usga.org/content/usga/home-page/course-care/green-section-record/63/issue-08/getting-the-most-from-your-grass-practice-tee.html); quote verbatim from that capture. Written for cool- and warm-season tees; it names low-mow Kentucky bluegrass for northern courses."
+  },
+  {
+    "id": "golf-club-practice-turf.usga-close-grass-tee",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same USGA article says divots recover far more slowly when a grass practice tee opens before spring growth or stays open into fall and winter, that traffic on dormant turf causes injury that will not heal until growth resumes, and that wet weather and frosty mornings are times to close the grass tee.",
+    "quote": "Divot recovery will take much longer if the practice tee is opened before active growth begins in the spring or if it remains open well into the fall or winter when growth is slowing and eventually stops. Additionally, excessive foot traffic on dormant or slow-growing turf can result in injury that will not recover until growth resumes. … Closing the grass tee during poor weather is also strongly recommended. … Temporary periods of extreme heat and humidity for cool-season grasses, or frosty mornings for any grass, are also good times to close the grass practice tee.",
+    "source_url": "https://www.usga.org/content/usga/home-page/course-care/green-section-record/63/issue-08/getting-the-most-from-your-grass-practice-tee.html",
+    "source_label": "USGA Green Section Record, Vol. 63, Issue 8 (May 2, 2025): \"Getting the Most From Your Grass Practice Tee,\" Zach Nicoludis",
+    "checked": "2026-09-26",
+    "reachable": false,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [],
+    "notes": "usga.org returns HTTP 403 to curl, WebFetch and a headless browser (Akamai), so the article was read in full from the Wayback Machine capture 20260314164711; quote verbatim from that capture."
+  },
+  {
+    "id": "golf-club-practice-turf.usga-mats-rotation-water",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same USGA article says hitting from artificial mats one day a week is typical, that divots ideally get 40 to 50 days to recover, and that a grass practice tee needs more water than the course's tees and fairways.",
+    "quote": "Using artificial mats one day per week, usually Monday, regardless of weather conditions, is typical. … Ideally, 40 to 50 days would be allocated for divots to recover. … Given the need to promote recovery and possibly germinate and support new seedlings, the practice tee will require more water than the tees and fairways.",
+    "source_url": "https://www.usga.org/content/usga/home-page/course-care/green-section-record/63/issue-08/getting-the-most-from-your-grass-practice-tee.html",
+    "source_label": "USGA Green Section Record, Vol. 63, Issue 8 (May 2, 2025): \"Getting the Most From Your Grass Practice Tee,\" Zach Nicoludis",
+    "checked": "2026-09-26",
+    "reachable": false,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [
+      "40",
+      "50"
+    ],
+    "notes": "usga.org returns HTTP 403 to curl, WebFetch and a headless browser (Akamai), so the article was read in full from the Wayback Machine capture 20260314164711; quote verbatim from that capture."
+  },
+  {
+    "id": "golf-club-practice-turf.usga-shoulder-season-mats",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "USGA agronomists wrote in 2019 that heavy use of artificial turf is common in the shoulder seasons and winter when grass recovers slowly, and that an artificial surface at the back of the practice tee keeps the range open while the grass tee recovers.",
+    "quote": "Extensive use of artificial turf is common in the shoulder seasons or winter when recovery is slow or during extremely wet conditions when increased damage is likely. Installing an artificial surface at the back of the practice tee can allow continued usage of the practice range while the grass tee recovers.",
+    "source_url": "https://www.usga.org/content/usga/home-page/course-care/green-section-record/57/5/practice-tees-that-please.html",
+    "source_label": "USGA Green Section Record, Vol. 57, Issue 5 (March 1, 2019): \"Practice Tees That Please,\" Dave Oatis and Larry Gilhuly",
+    "checked": "2026-09-26",
+    "reachable": false,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [
+      "2019"
+    ],
+    "notes": "usga.org returns HTTP 403 to curl, WebFetch and a headless browser (Akamai), so the article was read in full from the Wayback Machine capture 20260309001024 (web.archive.org/web/20260309001024/https://www.usga.org/content/usga/home-page/course-care/green-section-record/57/5/practice-tees-that-please.html); quote verbatim from that capture."
+  },
+  {
+    "id": "golf-club-practice-turf.usga-northern-winter-mats",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A 2008 USGA article says artificial turf does not suffer environmental stress and can be used in rainy weather or through the winter on northern courses, that some courses partly enclose their artificial tees against the weather and for shade, and that some members object that it does not feel like golf course turf.",
+    "quote": "Also, unlike turfgrasses, artificial turf does not suffer from environmental stress and can be used during rainy weather or during winter months on northern courses. … Some courses partially enclose these artificial teeing areas to protect golfers from the elements and provide shade. … Some members do not welcome the use of artificial turf because it does not simulate the feel of golf course turf, but then again, neither does bare ground.",
+    "source_url": "https://www.usga.org/content/dam/usga/pdf/imported/course-care/080127.pdf",
+    "source_label": "USGA Green Section Record, January-February 2008, pp. 27-29: \"Welcomed Mats for Small Practice Tees,\" Todd Lowe",
+    "checked": "2026-09-26",
+    "reachable": false,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [
+      "2008"
+    ],
+    "notes": "The usga.org PDF returns HTTP 403 to curl; read in full from the Wayback Machine capture 20250908215156 (web.archive.org/web/20250908215156/https://www.usga.org/content/dam/usga/pdf/imported/course-care/080127.pdf). The author wrote from the Green Section Florida Region."
+  },
+  {
+    "id": "golf-club-practice-turf.usga-mat-foundation",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same 2008 USGA article says most courses prefer low-maintenance mats that need no sand or crumb-rubber topdressing, that long-fiber surfaces are more realistic but need intensive upkeep and are hard to replace, and that a concrete foundation keeps a mat tee from going unlevel.",
+    "quote": "There are various types of surfaces available, but most courses prefer low-maintenance mats that do not require topdressing with sand or crumb rubber. Surfaces with long fibers are more realistic but require intensive maintenance. These surfaces also must be buried in the ground, and replacing them is difficult. A concrete foundation should be installed below the mats so that the teeing surface does not become unlevel and aesthetically unappealing.",
+    "source_url": "https://www.usga.org/content/dam/usga/pdf/imported/course-care/080127.pdf",
+    "source_label": "USGA Green Section Record, January-February 2008, pp. 27-29: \"Welcomed Mats for Small Practice Tees,\" Todd Lowe",
+    "checked": "2026-09-26",
+    "reachable": false,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [
+      "2008"
+    ],
+    "notes": "Read from the Wayback Machine capture 20250908215156 of the usga.org PDF (403 to curl). pdftotext line-break hyphens rejoined (\"low-maintenance\")."
+  },
+  {
+    "id": "golf-club-practice-turf.usga-artificial-tees-golfers",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The USGA says few golfers enjoy practicing on artificial tees, that northern courses lean on them in midsummer when cool-season grass struggles to recover, and that newer mats take a real tee at any height, rotate or swap out on track systems and come in fairway- and rough-length fibers.",
+    "quote": "Let’s face it, very few golfers enjoy practicing on artificial tees. … In northern regions, artificial tees are used more often during midsummer when cool-season turfgrasses struggle to recover during high heat and humidity. … Newer materials allow golfers to insert tees into the mats at the height they prefer. Some artificial tees utilize track systems that allow mats to be rotated and replaced as they wear out. Also, there are longer- and shorter-fibered materials that provide the look and feel of hitting from the rough or fairway.",
+    "source_url": "https://www.usga.org/content/usga/home-page/course-care/forethegolfer/fake-it-until-you-make-it.html",
+    "source_label": "USGA, For the Golfer: \"Fake It Until You Make It: A Case For Artificial Tees\" (July 1, 2016)",
+    "checked": "2026-09-26",
+    "reachable": false,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [],
+    "notes": "usga.org returns HTTP 403 to curl, WebFetch and a headless browser (Akamai), so the article was read in full from the Wayback Machine capture 20260520170818 (web.archive.org/web/20260520170818/https://www.usga.org/content/usga/home-page/course-care/forethegolfer/fake-it-until-you-make-it.html); quote verbatim from that capture."
+  },
+  {
+    "id": "golf-club-practice-turf.xgrass-tee-line-build",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "XGrass, a synthetic turf maker, says its tee-line turf holds a real tee, runs as a continuous line cut to any length or as mats with replaceable hitting strips, and goes over a concrete base with outdoor adhesive and no infill.",
+    "quote": "Dense fiber construction holds a real tee … Provides a \"divot feel\" with no club bounce … Requires no water, chemicals or fertilizer … Delivers maximum flexibility as turf can be cut to any length. … Lowers cost – interchangeable hitting mats allow for as-needed replacement. … When installing tee line turf over a concrete base we recommend using our outdoor adhesive to affix the turf. No infill is required.",
+    "source_url": "https://www.xgrass.com/golf-tee-lines-and-hitting-mats.html",
+    "source_label": "XGrass, Tee Lines & Hitting Mats product page",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "A maker's own claims about its product; pages attribute them to XGrass. The same page lists its Ultimate Tee at a 120 oz face weight (not quoted)."
+  },
+  {
+    "id": "golf-club-practice-turf.fc-golf-year-round",
+    "layer": "place",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "The City of Fort Collins says its three golf courses offer year-round play, citing more than 300 days of sunshine a year.",
+    "quote": "With more than 300 days of sunshine every year, players can enjoy year-round play on our three great golf courses.",
+    "source_url": "https://www.fortcollins.gov/Activities/Golf",
+    "source_label": "City of Fort Collins, Golf page",
+    "checked": "2026-09-26",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "300"
+    ],
+    "notes": "fortcollins.gov returns 403 to curl; read in a headless browser on 2026-09-26. The next sentence on the page uses a superlative about the courses; it is not quoted."
+  },
+  {
+    "id": "golf-club-practice-turf.fc-wsap-raw-water-golf",
+    "layer": "utility",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins' 2020 Water Shortage Action Plan applies its watering restrictions only to treated water, exempts grass irrigated with well or raw water, and says the City irrigates its parks, golf courses and other outdoor lawn areas with 80% raw water.",
+    "quote": "Restrictions apply only to treated water. Residents and businesses that use well or raw water to irrigate grass are exempt from the water restrictions. … The City has taken steps to reduce treated water at parks and golf courses, as well as in its facilities. By purchasing separate water rights for irrigation, the City uses 80% raw water on parks, golf courses and other outdoor lawn areas.",
+    "source_url": "https://web.archive.org/web/20251008135439/https://www.fcgov.com/utilities/img/site_specific/uploads/final-wsap-effective-may-1-2020.pdf",
+    "source_label": "Fort Collins Utilities, 2020 Water Shortage Action Plan (effective May 1, 2020), communication plan (Wayback Machine capture, Oct. 8, 2025)",
+    "effective": "2020-05-01",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-04-01",
+    "numbers": [
+      "2020",
+      "80"
+    ],
+    "notes": "Same capture the sports-field guide cites (turf-vs-grass-sports-fields.fc-wsap-*). The plan also defines an active area as including a golf course's fairways and an inactive area as including its rough (p. 4-5). In 2026 Fort Collins is at a voluntary Water Shortage Watch (fcu-water-shortage-watch-2026)."
+  },
+  {
+    "id": "golf-club-practice-turf.fc-luc-athletic-field-exception",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Where its landscape standards apply, Fort Collins bars artificial turf from landscape plans but lets the Director approve it on an athletic field of play when state law allows it, the use is appropriate, it adds no pollutants and alternatives are not reasonable.",
+    "quote": "No artificial turf or artificial plants may be included in any landscape plan or installed. The Director may approve an exception to allow artificial turf to be installed on an athletic field of play if the installation is not prohibited under C.R.S. 37-99-103 and if the Director determines the use is appropriate, the use does not add pollutants that could cause environmental impairment, and alternatives are not reasonable. Any exception to allow artificial turf must be noted in the landscape plan.",
+    "source_url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/fortcollco-meet-0538ebaac95447ff8c4f53ebc4c0adf8/ITEM-Attachment-004-785f079234b4438a8e8675d01d6f3bd4.pdf",
+    "source_label": "Fort Collins Land Use Code 5.10.1(D)(2)(d), artificial turf and its exception (Ordinance No. 008, 2025)",
+    "effective": "2025-02-14",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "37",
+      "99",
+      "103"
+    ],
+    "notes": "Read 2026-09-26 in the ordinance PDF (pdftotext; the PDF page number \"-9-\", which falls mid-sentence, is dropped from the quote). The shared record fc-luc-5.10.1 quotes the ban without this exception. Whether a golf practice area is an \"athletic field of play\" is not defined here: pages hedge and send readers to Fort Collins Planning."
+  },
+  {
+    "id": "golf-club-practice-turf.rh-february-range-2026",
+    "layer": "drought",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "In February 2026, during an unseasonably warm, dry winter, the Loveland Reporter-Herald found golfers hitting range balls at Loveland's Olde Course as Golf Loveland suspended carts at all three city courses to protect drought-stressed turf.",
+    "quote": "An unseasonably warm and dry winter has been a boon to Loveland golfers … who were hitting range balls at Loveland’s Olde Course on Tuesday. … To prevent more of the same for the drought-stressed turf, Golf Loveland is making a rare move. Beginning Friday, the use of golf carts will be suspended at all three municipal courses until further notice.",
+    "source_url": "https://www.reporterherald.com/2026/02/17/loveland-golf-courses-suspend-carts/",
+    "source_label": "Loveland Reporter-Herald, Feb. 17, 2026: Loveland golf courses suspend carts amid drought conditions",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2026"
+    ],
+    "notes": "Read 2026-09-26. Golfers named in the article are left out of the quote. Pairs with loveland-co.golf-greens-first (same article) and loveland-co.golf-walking-only-2026."
+  }
+]

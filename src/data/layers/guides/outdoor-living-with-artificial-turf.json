@@ -1,0 +1,349 @@
+[
+  {
+    "id": "outdoor-living-with-artificial-turf.fc-small-structures-exempt",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins exempts sheds, arbors, pergolas and similar small detached structures from a building permit only when they are 120 square feet or less, 8 feet tall or less and at least 3 feet from any property line, and says permit-exempt work must still follow City codes.",
+    "quote": "Permit exempt does not mean code exempt. Even if you don’t need a permit, your project must follow City codes, laws and ordinances. … Small Detached Structures (Except storm shelters): Sheds, arbors, pergolas, etc. are allowed if: Floor area is 120 square feet or less Height is 8 feet or less Do not store more than 10 gallons of flammable liquids At least 3 feet from any property line",
+    "source_url": "https://www.fortcollins.gov/Business/Permits-and-Licensing/Building-Permits",
+    "source_label": "City of Fort Collins, Building Permits page: Residential Permit Exemptions",
+    "checked": "2026-09-26",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2027-03-26",
+    "numbers": [
+      "120",
+      "8",
+      "10",
+      "3"
+    ],
+    "notes": "fortcollins.gov returns an Akamai 403 to curl; read in a desktop browser on 2026-09-26 with the accordion panels expanded. The exemption list sits under 'General Residential Work'."
+  },
+  {
+    "id": "outdoor-living-with-artificial-turf.fc-pergola-guide-triggers",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins's Residential Pergola Guide requires a permit for any pergola attached to a house or structure, taller than 8 feet, larger than 120 square feet or closer than 3 feet to a lot line, and asks the application to say whether electrical work such as lights, outlets or fans is included.",
+    "quote": "Permit required: (if any of the following) Any Pergola attached to a house or structure requires a permit. Any Pergola taller than 8 ft high at any point requires a permit. Any Pergola exceeding 120 square feet requires a permit. Any Pergola closer than 3 feet to a lot line requires a permit. … Permit Application: Include square footage of the Pergola and note if electrical work is included (lights, outlets, fans etc.).",
+    "source_url": "https://www.fortcollins.gov/files/sharedassets/city/v/2/planning-development-amp-transportation/permitting/residential-pergola-guide.pdf",
+    "source_label": "City of Fort Collins Building Services, Residential Pergola Guide (2024 IRC, revised March 30, 2026)",
+    "checked": "2026-09-26",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2027-03-26",
+    "numbers": [
+      "8",
+      "120",
+      "3",
+      "2024",
+      "30",
+      "2026"
+    ],
+    "notes": "curl gets a 403; the PDF was retrieved through a fetch tool and read with pdftotext on 2026-09-26. Linked from the Building Permits page under Exterior Permits, Pergola / Trellis. The guide's pier and beam charts are images, so it gives no footing depth in text."
+  },
+  {
+    "id": "outdoor-living-with-artificial-turf.fc-patio-cover-guide-triggers",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins's Residential Patio Cover Guide requires a permit for any patio cover attached to a house or structure, taller than 8 feet, larger than 120 square feet or closer than 3 feet to a lot line, and schedules inspections of the setbacks and open footing holes, then rough framing and rough electrical before they are covered, then a final.",
+    "quote": "Permit required: (if any of the following) Any patio cover taller than 8 ft high at any point requires a permit. Any patio cover exceeding 120 square feet requires a permit. Any patio cover closer than 3 feet from a lot line requires a permit. Any patio cover attached to a house or structure. Required Inspections: 1. Setbacks & Footings (pier open hole). 2. Foundation (post connections). 3. Rough Frame and Rough Electrical (if electric work is being done, prior to being concealed by fixtures/outlets). 4. Final Inspection and Final Electrical Inspection (if applicable)",
+    "source_url": "https://www.fortcollins.gov/files/sharedassets/city/v/2/planning-development-amp-transportation/permitting/residential-patio-cover-guide.pdf",
+    "source_label": "City of Fort Collins Building Services, Residential Patio Cover Guide (2024 IRC, revised March 25, 2026)",
+    "checked": "2026-09-26",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2027-03-26",
+    "numbers": [
+      "8",
+      "120",
+      "3",
+      "1",
+      "2",
+      "4",
+      "2024",
+      "25",
+      "2026"
+    ],
+    "notes": "curl gets a 403; the PDF was retrieved through a fetch tool and read with pdftotext on 2026-09-26. Linked from the Building Permits page under Exterior Permits, Patio / Porch Cover."
+  },
+  {
+    "id": "outdoor-living-with-artificial-turf.fc-electrical-permits",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins requires an electrical permit for new or relocated light fixtures and controls, new junction boxes and new, extended or relocated receptacles, exempts electrical systems under 25 volts and under 50 watts, and sends a job involving more than one trade to a remodel/alteration permit instead of a single trade permit.",
+    "quote": "Note: New or relocated light fixtures and controls require a permit to inspect new wiring. New junction boxes also requires a permit … Note: Replacing an existing receptacle with a new receptacle requires a permit. Extending, relocating or adding new receptacles also requires a permit. … Electrical systems under 25 volts and under 50 watts … Work Included: Outlets, panels, wiring, repairs, lighting, electric for ground-mounted pre-fabricated hot tubs, and residential EV chargers for single-family detached, duplex and townhomes. Notice: If more than one trade (plumbing, mechanical, electric, etc.) is involved, or if an unheated space will become heated, or for commercial EV charters, submit a remodel/alteration permit instead (see “Remodel/Alterations”).",
+    "source_url": "https://www.fortcollins.gov/Business/Permits-and-Licensing/Building-Permits",
+    "source_label": "City of Fort Collins, Building Permits page: Residential Permit Exemptions (Electrical Work) and Fast-Track Permits (Electric)",
+    "checked": "2026-09-26",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2027-03-26",
+    "numbers": [
+      "25",
+      "50"
+    ],
+    "notes": "Read in a desktop browser on 2026-09-26 (curl 403). 'charters' is the page's spelling. The page does not say how it files an outdoor kitchen that combines gas, power and water; the guide says to ask Building Services."
+  },
+  {
+    "id": "outdoor-living-with-artificial-turf.fc-fire-pit-policy",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins does not allow permanent wood-burning fire pits in city limits, and for a gas fire pit requires a permit, inspection and final approval of the gas piping and appliance, with the gas line installed by the homeowner or a licensed plumber or HVAC contractor, not by a landscape contractor unless one is on its staff doing the work.",
+    "quote": "Solid fuel burning (wood burning) permanent fire pits are not allowed in city limits per Municipal Code 5-110 which is an air quality ordinance enacted in 1991. Gas-fired outdoor fire pits and fire rings are approved for installation within the City of Fort Collins provided they are installed in accordance with the adopted International Residential Code (IRC) & International Fuel Gas Code (IFGC) and: A. A permit, inspection and final approval of the gas piping and the appliance is required. B. The gas line and appliance must be installed by the homeowner or a licensed plumber or HVAC contractor. A landscape contractor can’t perform this work unless they have a licensed plumber or HVAC contractor on staff that is performing such work.",
+    "source_url": "https://www.fortcollins.gov/files/sharedassets/city/v/1/planning-development-amp-transportation/permitting/fire-pit-handout1.pdf",
+    "source_label": "City of Fort Collins Building Services, Fire Pit Policy and Requirements (effective August 11, 2021), the Fire Pit Handout linked from the Building Permits page",
+    "checked": "2026-09-26",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2027-03-26",
+    "numbers": [
+      "5",
+      "110",
+      "1991",
+      "11",
+      "2021"
+    ],
+    "notes": "curl gets a 403; the PDF was retrieved through a fetch tool and read with pdftotext on 2026-09-26. Still linked from the current Building Permits page (Fast-Track Permits, Fireplace, Wood Stove or Fire Pit), which adds: 'For gas fire pits, submit a site plan and manufacturer’s specs with the permit application.' The memo covers permanent pits; portable wood pits and burning rules are Poudre Fire Authority's and are in the fire-pit guide."
+  },
+  {
+    "id": "outdoor-living-with-artificial-turf.fc-frost-depth",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins applies the 2024 International Codes and its local amendments to permits submitted on or after April 1, 2026, and its design criteria set a frost depth of 30 inches.",
+    "quote": "If your permit was submitted on or after April 1, 2026, the Current Building Codes below (2024 International Codes and local amendments) apply. … Other Requirements Frost depth: 30 inches",
+    "source_url": "https://www.fortcollins.gov/Government/City-Code-and-Charter/Building-Code",
+    "source_label": "City of Fort Collins, Building Code page: Current Building Codes and Design Criteria",
+    "checked": "2026-09-26",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "2024",
+      "1",
+      "2026",
+      "30"
+    ],
+    "notes": "Read in a desktop browser on 2026-09-26 (curl 403). A design value for footings, not a measured freeze depth."
+  },
+  {
+    "id": "outdoor-living-with-artificial-turf.fc-drainage-info",
+    "layer": "utility",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins Utilities asks a residential permit application to include drainage information when the project adds more than 350 square feet of new hard surface, a permanent patio roof among the examples, or substantially changes the lot's grading, and requires a drainage report and grading plan by a professional engineer registered in Colorado above 1,000 square feet or when berms or retaining walls flatten a yard or change the approved drainage pattern.",
+    "quote": "If your project adds more than 350 square feet of new hard surface area or substantially changes the site grading on your lot, the following additional information must be submitted with your permit application. Hard surfaces are roofs, driveways, and sidewalks or any surface that does not allow water to penetrate into the soil. … A permanent deck or patio roof that is between 350 and 1000 sq. ft. … Large Projects: Over 1000 square feet of new hard surface. A large project requires a drainage report and grading plan that complies with the City of Fort Collins Storm Drainage Design Criteria and Construction Standards including water quality treatment and water quantity detention requirements. This report and grading plan must be prepared by a Professional Engineer registered in Colorado. … Landscaping berms or retaining walls are proposed to flatten yards or change the drainage patterns from the approved grading plan on file with the City.",
+    "source_url": "https://www.fortcollins.gov/files/sharedassets/city/v/2/planning-development-amp-transportation/permitting/grading-plan-requirements.pdf",
+    "source_label": "Fort Collins Utilities, Drainage Information Required for Residential Permit Applications (dated 11/2019), linked as Grading Plan Requirements from the Building Permits page",
+    "checked": "2026-09-26",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2027-03-26",
+    "numbers": [
+      "350",
+      "1000",
+      "1,000",
+      "11",
+      "2019"
+    ],
+    "notes": "curl gets a 403; the PDF was retrieved through a fetch tool and read with pdftotext on 2026-09-26. The handout is dated 11/2019 but is linked from the current Patio / Porch Cover, Deck and Pergola entries. The berm and retaining-wall line is listed under 'Examples of Large Projects'. It applies to work that needs a building permit; a ground-level patio alone is not described."
+  },
+  {
+    "id": "outdoor-living-with-artificial-turf.loveland-design-criteria",
+    "layer": "ordinance",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "Loveland adopted the 2024 ICC building codes with local amendments effective July 1, 2026, and its design criteria set a 30-inch frost depth, a 30 psf ground snow load and a 130 mph three-second wind gust (Exposure C).",
+    "quote": "Link to the adopted Building Code changes (ICC 2024) The City Council voted to adopt proposed amendments to our code on second reading at a public hearing on June 2, 2026. Changes take effect on July 1, 2026. … DESIGN CRITERIA Wind -Wind Speed Report 130 MPH 3 Sec Gust Exposure C Ground Snow Load 30 psf Frost Depth 30 inches",
+    "source_url": "https://www.lovgov.org/services/development-services/building-division/loveland-building-code",
+    "source_label": "City of Loveland Building Division, Loveland Building Code Amendments page (ICC 2024, effective July 1, 2026): Design Criteria",
+    "checked": "2026-09-26",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "2024",
+      "2",
+      "2026",
+      "1",
+      "130",
+      "3",
+      "30"
+    ],
+    "notes": "curl returns a short block page; read in a desktop browser on 2026-09-26. The design criteria are a table; the quote joins its cells in order."
+  },
+  {
+    "id": "outdoor-living-with-artificial-turf.loveland-permitting-faq",
+    "layer": "ordinance",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "Loveland requires a building permit for new construction, additions and alterations, lists decks and carports among its residential examples, estimates 20 to 30 working days per round of plan review, and lets homeowners do their own work on a primary residence with a homeowner affidavit.",
+    "quote": "A building permit is required for new construction, additions, or alterations. … Examples of projects that require a building permit are: … Decks … Carports … The current plan review estimate for permits is 20-30 working days per round of review. Is a Contractor required? A homeowner can complete their own work in the home that is their primary residence. A homeowner affidavit would also be required.",
+    "source_url": "https://www.lovgov.org/services/development-services/building-division/permitting",
+    "source_label": "City of Loveland Building Division, Permitting FAQ's",
+    "checked": "2026-09-26",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2026-12-26",
+    "numbers": [
+      "20",
+      "30"
+    ],
+    "notes": "curl returns a short block page; read in a desktop browser on 2026-09-26. The examples list is a two-column table (residential and non-residential); decks and carports are in the residential column. The review estimate changes with workload, hence the recheck."
+  },
+  {
+    "id": "outdoor-living-with-artificial-turf.berthoud-projects-permit",
+    "layer": "ordinance",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Berthoud's list of projects that need a building permit includes decks, electrical work, gas and solid-fuel fireplaces, gas piping, plumbing, patio covers, and pergolas over 120 square feet or attached to the house at any size.",
+    "quote": "BUILDING PERMITS ARE REQUIRED FOR THE FOLLOWING … Decks … Electrical Service Electrical Work Fireplaces (solid fuel and gas) … Gas Piping Gas Stove Hot Tub/Spa (Electrical hook-up) … Patio Cover Patio Enclosure Pergola (when over 120sf or attached to house-any sf) Plumbing … This list may not be all inclusive.",
+    "source_url": "https://www.berthoud.org/DocumentCenter/View/4426/Projects-Requiring-a-Permit",
+    "source_label": "Town of Berthoud Building Department, Building Permits Are Required for the Following (Projects Requiring a Permit)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-26",
+    "numbers": [
+      "120"
+    ],
+    "notes": "One-page PDF read with curl and pdftotext on 2026-09-26. Undated."
+  },
+  {
+    "id": "outdoor-living-with-artificial-turf.berthoud-patio-cover-guide",
+    "layer": "ordinance",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Berthoud's 2024 IRC patio cover guide says footings go at least down to the frost depth for the location, with the building department giving the depth, notes that pergolas typically are not designed to carry roof and snow loads the way patio covers are, limits patio covers to 12 feet tall, wants any utility relocations shown on the site plan, and has the rough electric inspection called with the framing inspection.",
+    "quote": "If your project will require moving any utilities (gas, water, sewer/septic, electric, etc.), show where those utilities will be relocated. … Patio Covers are limited to 12’ in height maximum. … At a minimum, footings shall be at least down to the frost depth for your location. Check with the building department for specific depths required. … Pergolas are typically not designed to require a roof load to transfer to the supporting piers or footings, thus not requiring the construction to be designed for normal roof/snow loading. A permit is required if attaching to another structure. … If electric is being installed for the patio cover/carport, a rough electric inspection should be called at the same time as the framing inspection.",
+    "source_url": "https://www.berthoud.org/DocumentCenter/View/7509/2024-IRC-Building-Guide---Patio-Cover",
+    "source_label": "Town of Berthoud, 2024 IRC Patio Covers/Carports, Building Guides for Homeowners (published by SAFEbuilt, January 2026)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-26",
+    "numbers": [
+      "2024",
+      "12",
+      "2026"
+    ],
+    "notes": "Read with curl and pdftotext on 2026-09-26. The footing diagram carries a 'Min 36\"' label that the text does not explain; the page uses the text only."
+  },
+  {
+    "id": "outdoor-living-with-artificial-turf.windsor-structures-faq",
+    "layer": "ordinance",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor's FAQ tells owners to ask the Town's Permit Technician whether a deck, porch, pergola or patio cover needs a permit, and says any structure must sit on the owner's property and meet the Town's setback requirements.",
+    "quote": "Do I need a permit to build a deck, porch, pergola, or patio cover? Please contact the Town of Windsor Permit Technician … to see if a permit is required. Some permit questions can be answered by visiting the Building Permits webpage. Please note that any structure must be located on your property and meet the Town’s setback requirements.",
+    "source_url": "https://www.windsorgov.com/Faq.aspx?QID=106",
+    "source_label": "Town of Windsor FAQ (Planning): Do I need a permit to build a deck, porch, pergola, or patio cover?",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-26",
+    "numbers": [],
+    "notes": "Read with curl on 2026-09-26. The ellipsis replaces the technician's phone number. The answer continues with Table 16-1-20(a), the setback exceptions."
+  },
+  {
+    "id": "outdoor-living-with-artificial-turf.windsor-sprinkler-permit",
+    "layer": "ordinance",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor requires a building permit to install a sprinkler system, whether it connects to Town water or to a subdivision's non-potable system.",
+    "quote": "Do I need a permit to install a sprinkler system? Yes. A building permit is required to install a sprinkler system whether you are hooking up to Town of Windsor water (potable water) or if you are hooking up to a non-potable system in your subdivision.",
+    "source_url": "https://www.windsorgov.com/Faq.aspx?QID=106",
+    "source_label": "Town of Windsor FAQ (Planning): Do I need a permit to install a sprinkler system?",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-26",
+    "numbers": [],
+    "notes": "Read with curl on 2026-09-26 on the same FAQ page as windsor-structures-faq."
+  },
+  {
+    "id": "outdoor-living-with-artificial-turf.windsor-icodes-state-licenses",
+    "layer": "ordinance",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor reviews building plans under the 2024 I-Codes, in effect since January 1, 2026, and requires electrical and plumbing contractors working in town to hold a current State of Colorado license.",
+    "quote": "The 2024 I-Codes have been adopted with the effective date of January 1, 2026 All new building plans, including master plans and energy code submissions, will be reviewed under the 2024 I-Codes. … NOTE: If you are an electrical or plumbing contractor, you must have a current State of Colorado Plumbing or Electrical license.",
+    "source_url": "https://www.windsorgov.com/137/Building-Permits",
+    "source_label": "Town of Windsor, Building Permits page",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-26",
+    "numbers": [
+      "2024",
+      "1",
+      "2026"
+    ],
+    "notes": "Read with curl on 2026-09-26; the page sets the first sentence in bold with asterisks. It also says no Town contractor license is required."
+  },
+  {
+    "id": "outdoor-living-with-artificial-turf.select-surfaces-utilities-first",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Select Surfaces' artificial grass installation guide says every new addition or change to drainage, irrigation, electrical, water or gas lines should be made before turf installation starts, with access kept for the future, and that gardens, lighting, pools and pavers should already be in place.",
+    "quote": "All new additions or changes to the drainage or irrigation system, electrical, water, or gas wires should be made prior to starting the installation. Ensure that you are able to gain access to these systems in the future without damaging the installed artificial grass. All landscaping elements (gardens, lighting, pools, pavers, etc.) should be in place prior to starting the installation.",
+    "source_url": "https://www.selectsurfaces.ca/media/pdf/Artificial-Grass-Installation-Guide-2.pdf",
+    "source_label": "Select Surfaces, Artificial Grass Installation Guide (PDF)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "A manufacturer's consumer installation guide, read with curl and pdftotext on 2026-09-26. Used for the order of work only."
+  },
+  {
+    "id": "outdoor-living-with-artificial-turf.integriturf-utilities-sleeves",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Integriturf's installation guide says utility lines that would later need trenching through the turf area are often overlooked, that water, power or drainage for planters should run below the depth of the subgrade, and suggests spare conduit sleeves under the turf for future access.",
+    "quote": "Will you need to run any utilities prior to installation? Something often overlooked is the need for underground utility lines either within the turf area or in areas beyond the turf that would require trenching through the turf area. … If you have island planters that you will need to maintain water, electrical, or drainage too, plan to run these utilities below the depth of your sub grade so that they will be safe from the turf installation. Pro-tip: Consider installing additional conduit sleeves (extra pipes) below the turf to allow for future access should it ever be needed.",
+    "source_url": "https://integriturf.com/wp-content/uploads/2019/02/Installation-Guide.pdf",
+    "source_label": "Integriturf, Synthetic Turf Installation Guide (PDF)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl and pdftotext on 2026-09-26."
+  },
+  {
+    "id": "outdoor-living-with-artificial-turf.integriturf-heavy-objects",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Integriturf warns that heavy objects set on turf can cause premature matting of the fibers and recommends moving such items often and grooming the turf.",
+    "quote": "Also be aware that setting heavy objects on the turf (i.e. above ground pools, bouncy houses, soccer goals) may result in premature matting of the turf fibers. We recommend moving these types of items around frequently and grooming the turf to assist with keeping the fibers upright.",
+    "source_url": "https://integriturf.com/wp-content/uploads/2019/02/Installation-Guide.pdf",
+    "source_label": "Integriturf, Synthetic Turf Installation Guide (PDF)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl and pdftotext on 2026-09-26."
+  }
+]

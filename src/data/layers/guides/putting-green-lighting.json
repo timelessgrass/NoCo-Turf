@@ -1,0 +1,450 @@
+[
+  {
+    "id": "putting-green-lighting.fc-lighting-standards-detached-exempt",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins says its Land Use Code lighting standards (Section 5.12.1) apply to new multi-unit residential and commercial projects, not detached houses or duplexes, and that its building code requires detached homes and duplexes to use fixtures with a Dark Sky Fixture Seal of Approval.",
+    "quote": "Fort Collins lighting standards apply to new multi-unit residential and commercial projects, and to changes on existing projects. Detached houses and duplexes are exempt. … Maximum color temperature: 3000K … See Land Use Code Section 5.12.1 for full details … Building Code: Detached homes and duplexes must use fixtures with a Dark Sky Fixture Seal of Approval; commercial and multi-unit projects must include automatic dimming controls.",
+    "source_url": "https://fortcollins.gov/Government/City-Code-and-Charter/Building-Code/Rules-for-Common-Projects",
+    "source_label": "City of Fort Collins, Rules for Common Projects: Lighting Standards",
+    "checked": "2026-09-26",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "5.12",
+      "1",
+      "3000"
+    ],
+    "notes": "fortcollins.gov answers curl with an Akamai 403; read in a headless browser on 2026-09-26 (the Lighting Standards section of the page). The building-code rule it summarizes is in Municipal Code Sec. 5-30, R333.2 (see putting-green-lighting.fc-irc-r333-2-exterior-lighting), which says down-directional and fully shielded rather than naming the DarkSky seal."
+  },
+  {
+    "id": "putting-green-lighting.fc-irc-r333-2-exterior-lighting",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins' amendments to the 2024 International Residential Code, which covers detached one- and two-family homes, require every exterior lighting fixture to be a down-directional, fully shielded luminaire with a color temperature no higher than 3000 Kelvin.",
+    "quote": "R333.2 Exterior lighting . All exterior lighting fixtures shall be down directional and fully shielded luminaires and shall have a nominal correlated color temperature (CCT) of no greater than 3000 Kelvin.",
+    "source_url": "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH5BUBURE_ARTIIBU_DIV2BUCOST_S5-30AMDE2024INRECO",
+    "source_label": "Fort Collins Municipal Code Sec. 5-30, Amendments to the 2024 International Residential Code, R333.2 Exterior lighting (through Ord. No. 213, 2025)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "2024",
+      "333.2",
+      "3000",
+      "5",
+      "30",
+      "213",
+      "2025",
+      "2"
+    ],
+    "notes": "Read through the Municode API (api.municode.com CodesContent, jobId 498160, productId 18005, Supplement 155) on 2026-09-26; the library page renders by script. R333.2 sits in a new Section R333 Resource Efficiency. The same section defines a fully shielded luminaire as one with a solid cap over the lamp so the lamp is not visible below it, and a down directional luminaire as one that directs light straight down. Whether R333.2 reaches low-voltage landscape fixtures added to an existing home without a permit is not stated; the page says to ask Building Services."
+  },
+  {
+    "id": "putting-green-lighting.fc-residential-electrical-permit-exemptions",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins exempts residential electrical systems under 25 volts and under 50 watts from permits, but requires a permit to add, extend or relocate a receptacle and for new or relocated light fixtures and controls; new building codes took effect there on April 1, 2026.",
+    "quote": "Note: New building codes are in effect as of April 1, 2026. … Note: New or relocated light fixtures and controls require a permit to inspect new wiring. New junction boxes also requires a permit … Note: Replacing an existing receptacle with a new receptacle requires a permit. Extending, relocating or adding new receptacles also requires a permit. Replacing branch circuit overcurrent devices with same rating in the same location Electrical systems under 25 volts and under 50 watts",
+    "source_url": "https://fortcollins.gov/Business/Permits-and-Licensing/Building-Permits",
+    "source_label": "City of Fort Collins, Building Permits: Residential Permit Exemptions (Electrical Work)",
+    "checked": "2026-09-26",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "25",
+      "50",
+      "1",
+      "2026"
+    ],
+    "notes": "Read in a headless browser on 2026-09-26 (curl gets an Akamai 403). The electrical items listed are the exemptions; the quoted notes are the page's own exceptions to them."
+  },
+  {
+    "id": "putting-green-lighting.loveland-udc-glare-and-hours",
+    "layer": "ordinance",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "Loveland's development code calls for full cut-off exterior fixtures with flat lenses, shielded so all light falls on the structure or the ground, and does not allow exterior lighting between 10 p.m. and sunrise unless it is needed for safety or security or supports a use operating after 10 p.m.",
+    "quote": "Exterior light fixtures, including roadway, street, parking lot, walkway and building-mounted fixtures, shall be full cut-off with flat lenses, and shielded (if needed) so that all of the light falls upon either the surface of the structure to be illuminated or the ground. … Hours of Illumination. The use of exterior lighting between the hours of 10:00 PM and sunrise is not allowed unless such lighting is needed for safety or security reasons (and alternative lighting, such as motion sensor security lights, are inadequate), or to support a use that is operating after 10:00 PM.",
+    "source_url": "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=4429",
+    "source_label": "Loveland Unified Development Code 18.09.02.02, Restrictions on Glare and Nuisance Lighting (Ord. 6248, effective Nov. 20, 2018)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "10",
+      "00",
+      "18.09",
+      "02.02",
+      "6248",
+      "20",
+      "2018"
+    ],
+    "notes": "Read with curl on 2026-09-26 (enCodePlus doc-view, secid 4429). The division's lighting plan requirement (18.09.02.01) names commercial permits and multifamily of three or more units per building; the division does not say how a detached home's backyard landscape lighting is reviewed outside a permit, so the page hedges to Loveland Planning."
+  },
+  {
+    "id": "putting-green-lighting.loveland-udc-landscape-lighting-review",
+    "layer": "ordinance",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "Loveland's development code says lighting for buildings, parking lots, walkways, plazas or the landscape is evaluated during development review or the building permit process.",
+    "quote": "With the exception of lighting for public streets, lighting used to illuminate buildings, parking lots, walkways, plazas, or the landscape shall be evaluated during the development review or building permit process.",
+    "source_url": "https://online.encodeplus.com/regs/loveland-co/doc-view.aspx?pn=0&ajax=0&secid=4565",
+    "source_label": "Loveland Unified Development Code 18.09.02.03, Intensity and Distribution of Light (Ord. 6248, effective Nov. 20, 2018)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "18.09",
+      "02.03",
+      "6248",
+      "20",
+      "2018"
+    ],
+    "notes": "Read with curl on 2026-09-26 (enCodePlus doc-view, secid 4565)."
+  },
+  {
+    "id": "putting-green-lighting.windsor-code-15-12-20-site-lighting",
+    "layer": "ordinance",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor's site-lighting rules apply in every zoning district: outdoor lighting may not be closer than 3 feet to an abutting property line, may not exceed 15 feet in height unless otherwise regulated, and must have its light sources concealed or shielded to minimize uplight, spill light and glare on neighboring properties.",
+    "quote": "The following regulations shall apply to all zoning districts: (a) Outdoor lighting installations shall not be permitted closer than three (3) feet from an abutting property line and, where not specifically otherwise regulated, shall not exceed fifteen (15) feet in height. (b) Light sources shall be concealed or shielded so as to minimize uplight, spill-light, glare and unnecessary diffusion on neighboring properties.",
+    "source_url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH15DEST_ARTXIISILI_S15-12-20GERE",
+    "source_label": "Windsor Municipal Code Sec. 15-12-20, Site Lighting: General regulations (Ord. 2020-1620)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "3",
+      "15",
+      "12",
+      "20",
+      "2020",
+      "1620"
+    ],
+    "notes": "Read through the Municode API (jobId 500132, productId 18093, Supplement 24 Update 1) on 2026-09-26. Sec. 15-12-10 states the intent: reduce light pollution, protect the night sky and give property owners clear guidance on exterior lighting."
+  },
+  {
+    "id": "putting-green-lighting.timnath-luc-lighting-design",
+    "layer": "ordinance",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Timnath's Land Use Code requires outdoor lighting in every zone, residential included, to be fully shielded, full cut-off LED lighting that meets DarkSky requirements, at 3,000 Kelvin or less (2,700 Kelvin or less on properties next to public open space or natural areas), with dimming capability, and it prohibits upward-aimed lighting except as the section allows.",
+    "quote": "A. Outdoor lighting shall be LED \"Dark Sky\" compliant, per the International Dark Sky Association requirements. All fixtures must be fully shielded and full cut-off, except as otherwise permitted in this section, to reduce light pollution and minimize glare. … C. All outdoor lighting shall have a color-correlated temperature (CCT) of 3,000 Kelvin or less. On properties located immediately adjacent to any public open space or natural areas, all lighting shall have CCT of 2,700 Kelvin or less. … Lighting in all zones shall be equipped with dimming capabilities. … Any upward oriented lighting except as otherwise provided for in this section;",
+    "source_url": "https://library.municode.com/co/timnath/codes/municipal_code?nodeId=CD_APXALAUSCO_ART5DEST_S5.7STDE",
+    "source_label": "Timnath Land Use Code Sec. 5.7, Standards of Design: Outdoor Lighting (Municode, Supp. No. 12)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-24",
+    "numbers": [
+      "3000",
+      "2700",
+      "5.7",
+      "12"
+    ],
+    "notes": "Read through the Municode API (jobId 475710, productId 18279) on 2026-09-26. The lighting rows sit in Table 5.3 and are numbered 5.3.3.1 to 5.3.3.5 in the codified text; each quoted row is marked required in every zone (A, RE, R1 to R4, RMU and the nonresidential zones). A search snippet says Ord. No. 4, Series 2026 (approved Feb. 24, 2026) amended outdoor lighting, but timnath.org blocked every fetch, so whether this codification includes it was not confirmed; recheck with the compiled code on timnath.org."
+  },
+  {
+    "id": "putting-green-lighting.timnath-luc-light-trespass",
+    "layer": "ordinance",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Timnath caps light at any point on a property line at 0.1 footcandle in or next to a residential zone and 0.0 footcandle next to public open space, streams, lakes, wetlands and protected habitat.",
+    "quote": "A. Trespass: Maximum light levels at any point along a property line shall not exceed 0.1 footcandles measured at the property line within or adjacent to a residential zone, 0.2 footcandles measured at the property line within or adjacent to a nonresidential zone, and 0.0 footcandles measured at the property line adjacent to public open spaces, sensitive natural features including streams, creeks, rivers, wetlands, lakes and reservoirs, and protected species habitat.",
+    "source_url": "https://library.municode.com/co/timnath/codes/municipal_code?nodeId=CD_APXALAUSCO_ART5DEST_S5.7STDE",
+    "source_label": "Timnath Land Use Code Sec. 5.7, Standards of Design: Outdoor Lighting (Municode, Supp. No. 12)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-24",
+    "numbers": [
+      "0.1",
+      "0.2",
+      "0.0",
+      "5.7",
+      "12"
+    ],
+    "notes": "Read through the Municode API on 2026-09-26; row 5.3.3.2 A is marked required in every zone."
+  },
+  {
+    "id": "putting-green-lighting.timnath-luc-lighting-exemptions",
+    "layer": "ordinance",
+    "applies_to": [
+      "timnath-co"
+    ],
+    "fact": "Timnath exempts string lights at homes that cause no excessive glare or light trespass, low-wattage ornamental landscape fixtures and self-contained solar fixtures of 100 lumens or less each, and private and public outdoor recreational uses such as playing fields (whose lights must be off by 11 p.m.), and does not ask a single-family detached home on its own lot for a lighting plan.",
+    "quote": "Strings of lights located on properties in all residential zoning districts or on properties that are used exclusively for residential uses, provided they do not create excessive glare or light trespass onto adjacent properties; • Low wattage ornamental landscape lighting fixtures, and solar operated light fixtures having self-contained rechargeable batteries, where any single light fixture does not exceed one hundred lumens; … Ball diamonds, playing fields, tennis courts and other similar outdoor recreational uses, both public and private, shall be exempt from the general provisions of this section unless otherwise restricted by the Town. However, outdoor lighting for such uses shall be extinguished no later than 11:00 p.m. … B. A lighting plan shall be submitted with any site plan or building permit application, whichever occurs first, in which outdoor lighting is proposed or required, except for a single-family detached dwelling unit on an individual lot.",
+    "source_url": "https://library.municode.com/co/timnath/codes/municipal_code?nodeId=CD_APXALAUSCO_ART5DEST_S5.7STDE",
+    "source_label": "Timnath Land Use Code Sec. 5.7, Standards of Design: Outdoor Lighting (Municode, Supp. No. 12)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-10-24",
+    "numbers": [
+      "100",
+      "11",
+      "00",
+      "5.7",
+      "12"
+    ],
+    "notes": "Read through the Municode API on 2026-09-26 (rows 5.3.3.4 and 5.3.3.5). The code does not say whether a backyard putting green counts as a private outdoor recreational use; the page hedges to Timnath Planning."
+  },
+  {
+    "id": "putting-green-lighting.larimer-county-irc-r325-9",
+    "layer": "county",
+    "applies_to": [
+      "fort-collins-co",
+      "loveland-co",
+      "timnath-co",
+      "wellington-co",
+      "berthoud-co",
+      "windsor-co",
+      "johnstown-co"
+    ],
+    "fact": "Larimer County's amendments to the residential building code, effective January 1, 2026, require new and replacement exterior luminaires to be fully shielded so the lighting element cannot be seen from any point on or beyond the lot's property lines, with a cut-off angle no more than 90 degrees from vertical.",
+    "quote": "R325.9 Exterior Lighting. New and replacement exterior luminaires shall be fully shielded so that the lighting element is not visible to an observer at any point on or beyond any property line of the lot. Luminaires shall have a cut-off with an angle not exceeding 90o from vertical. Building-mounted fixtures shall not be mounted higher than 20’ in height. Exterior light fixtures shall generate at least 80 lumens per watt of energy consumed as shown on the manufacturer’s specifications.",
+    "source_url": "https://www.larimer.gov/sites/default/files/1-2024-building-code-amendments-final0.pdf",
+    "source_label": "Larimer County Community Development, 2024 Larimer County Building Code Amendments, R325.9 Exterior Lighting (effective January 1, 2026; revised August 31, 2026)",
+    "checked": "2026-09-26",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "2024",
+      "325.9",
+      "90",
+      "20",
+      "80",
+      "1",
+      "2026",
+      "31",
+      "9"
+    ],
+    "notes": "larimer.gov serves a Cloudflare challenge to curl; the PDF was retrieved through a fetch tool on 2026-09-26 and read with pdftotext. The county building code governs unincorporated Larimer County; the towns in applies_to adopt their own codes, so the page applies this only to county lots."
+  },
+  {
+    "id": "putting-green-lighting.weld-county-23-3-70-light-shielding",
+    "layer": "county",
+    "applies_to": [
+      "windsor-co",
+      "greeley-co",
+      "johnstown-co",
+      "berthoud-co",
+      "firestone-co",
+      "mead-co",
+      "frederick-co",
+      "longmont-co",
+      "severance-co",
+      "evans-co",
+      "eaton-co",
+      "milliken-co",
+      "dacono-co"
+    ],
+    "fact": "Weld County's zoning code requires light sources in the A (Agricultural) zone to be shielded so their beams do not shine directly onto adjacent properties, and bars colored lights that could be mistaken for traffic control devices; the E (Estate) zone adds public and private roads to the shielding rule.",
+    "quote": "F. Sources of light shall be shielded so that beams or rays of light will not shine directly onto ADJACENT properties. Neither the direct nor reflected light from any light source may create a traffic hazard to operators of motor vehicles on PUBLIC or private STREETS/ROADS. No colored lights may be used which may be confused with or construed as traffic control devices. … J. Sources of light shall be shielded so that beams or rays of light will not shine directly onto ADJACENT properties or PUBLIC or private STREETS/ROADS.",
+    "source_url": "https://library.municode.com/co/weld_county/codes/charter_and_county_code?nodeId=CH23ZO_ARTIIIZODI_DIV1AAGZODI_S23-3-70BURE",
+    "source_label": "Weld County Code Sec. 23-3-70.F (A Agricultural zone) and Sec. 23-3-440.J (E Estate zone), Bulk requirements (through Ord. 2025-11)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-24",
+    "numbers": [
+      "23",
+      "3",
+      "70",
+      "440",
+      "2025",
+      "11"
+    ],
+    "notes": "Read through the Municode API (jobId 494165, productId 18090, Supplement 95) on 2026-09-26. The E zone text is Sec. 23-3-440.J (nodeId CH23ZO_ARTIIIZODI_DIV5EESZODI_S23-3-440BURE); the R zones (23-3-160) carry the same shielding sentence."
+  },
+  {
+    "id": "putting-green-lighting.co-dpo-homeowner-electrical-permit",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado requires an electrical permit before wiring is installed; a homeowner may do the electrical work at their own residence under a permit from the State Electrical Board or the local building department, with the work inspected and built to the National Electrical Code, while an electrical contractor pulls its own permits.",
+    "quote": "A valid Colorado State Electrical permit must be obtained prior to installing electrical wiring. … A homeowner may install electrical work at their residence and must obtain a permit with the State Electrical Board or the local building department prior to starting the electrical work. A homeowner may do their own wiring if: The work is personally performed by the homeowner and the property is not for sale, resale, or rent and is not generally open to the public. All work is inspected prior to covering, i.e. insulation, drywall, etc. and again upon completion of the system prior to occupancy and permanent power release. All electrical work complies with the National Electrical Code. An Electrical Contractor is required to obtain permits for the work done by the company.",
+    "source_url": "https://dpo.colorado.gov/ElectricalPlumbingPermits/Info",
+    "source_label": "Colorado Division of Professions and Occupations, Colorado Electrical and Plumbing Permit Information",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [],
+    "notes": "Read with curl on 2026-09-26. The page also says the State Electrical Board inspects where no local authority does. C.R.S. 12-115-116(2) and 12-115-120(1)(a)(I) (read on colorado.public.law, a secondary copy) say the same: own-residence work needs no license if inspected, and permits come from a town or county building department where one exists."
+  },
+  {
+    "id": "putting-green-lighting.colorado-811-before-digging",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado 811 says anyone digging, whatever the project's size, is legally required to contact Colorado 811 first for a free locate of public underground utilities, and that privately owned lines are not included.",
+    "quote": "Regardless of your project’s size, you are legally required to contact Colorado 811 at least three business days before you dig. … This service protects public underground utilities such as gas, electricity, water, sewer, and internet lines. Remember, “privately owned utilities” won’t be included in this service.",
+    "source_url": "https://colorado811.org/",
+    "source_label": "Colorado 811, 811 Before You Dig",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "811"
+    ],
+    "notes": "Read with curl on 2026-09-26. The site's homeowner page gives the lead time as 48 hours or two full business days, not counting the day of notice, so the page states no lead time. Its homeowner page lists landscaping among the work that needs a locate."
+  },
+  {
+    "id": "putting-green-lighting.darksky-five-principles",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "DarkSky International and the Illuminating Engineering Society's five principles say outdoor lighting should be useful, targeted with shielding and aiming so it points down and doesn't spill, no brighter than necessary, controlled with timers or motion sensors, and warm-colored.",
+    "quote": "Light where you need it, when you need it, in the amount needed, and no more. … 2. Targeted Direct light so it falls only where it is needed Use shielding and careful aiming to target the direction of the light beam so that it points downward and does not spill beyond where it is needed. 3. Low level Light should be no brighter than necessary Use the lowest light level required. Be mindful of surface conditions, as some surfaces may reflect more light into the night sky than intended. 4. Controlled Use light only when it is needed Use controls such as timers or motion detectors to ensure that light is available when it is needed, dimmed when possible, and turned off when not needed. 5. Warm-colored Use warmer-color lights where possible",
+    "source_url": "https://web.archive.org/web/20260918092702/https://darksky.org/resources/guides-and-how-tos/lighting-principles/",
+    "source_label": "DarkSky International, Five Principles for Responsible Outdoor Lighting (with the Illuminating Engineering Society; published June 1, 2020, updated June 11, 2024; archived copy, Sept. 18, 2026)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "2020",
+      "2024",
+      "2026",
+      "18"
+    ],
+    "notes": "darksky.org serves a Cloudflare challenge to curl and WebFetch; read from the Wayback Machine capture of 2026-09-18 on 2026-09-26."
+  },
+  {
+    "id": "putting-green-lighting.llp-green-lighting-methods",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A landscape lighting contractor describes two ways to light a putting green: a down light mounted on the house or in a large tree, which bathes the green in flat light from above, and directional path lights around the border, whose low light throws shadows off small knolls that hint at the ball's path; it also advises a separate on/off switch for the green's lights.",
+    "quote": "Down lighting is when a fixture is mounted in an elevated place and aimed down at a target on the ground. A down light can be mounted to the architecture of a home, or in the branches of a large established tree. … As where a down light bathes the entire green with a flat light from above, a directional path light illuminates the putting green from the outside boarder. Here, the light cast from the path light can throw shadows caused by tiny knolls. The shadows these small slopes and imperfections reveal on the green’s surface can potentially hint at the best path for your golf ball to follow. (Pro Tip) Don’t forget an on/off switch!",
+    "source_url": "https://utahlights.com/3-ways-to-light-your-putting-green-this-summer/",
+    "source_label": "Landscape Lighting Pro, 3 Ways to Light Your Putting Green This Summer!",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3"
+    ],
+    "notes": "Read with curl on 2026-09-26. A Utah landscape-lighting contractor's blog, not a standard; the page attributes it. 'boarder' is the source's spelling."
+  },
+  {
+    "id": "putting-green-lighting.ledspot-cup-lights",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A lighting supplier says backyard putting greens are lit with bullet and flood lights set close to the putting surface, and that putting cup lights fit inside the hole, directly under the cup.",
+    "quote": "Lighting options for a backyard putting green include various bullet and flood lights, installed close to the putting green surface to deliver targeted illumination. … Putting cup lights fit inside the hole, directly under the cup.",
+    "source_url": "https://www.ledspot.com/lighting-options-for-a-backyard-putting-green/",
+    "source_label": "LED Spot, Lighting Options for a Backyard Putting Green",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl on 2026-09-26. A lighting retailer's page; it also recommends halogen floods, which the page does not repeat."
+  },
+  {
+    "id": "putting-green-lighting.spj-cup-light-spec",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "One cup light sold for putting greens is a 2-watt, 200-lumen, 2700 K LED that runs on 8 to 15 volts and sets into a solid brass pour sleeve, with a rechargeable battery version available.",
+    "quote": "Kit Includes: Flag set (four colors), pole, LED board and driver as well as a solid brass pour sleeve. Material: Solid Brass Wattage: 2 Lumens: 200 Color Temperature: 2700k Voltage: 8-15V Rated: Outdoors / Indoors … Re-Chargeable Battery Operated Unit Available!",
+    "source_url": "https://shopmpl.com/products/usa-made-golf-cup-light-1",
+    "source_label": "Main Place Lighting, USA Made LED Putting Green Cup Light (SPJ Inc.)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "200",
+      "2700",
+      "8",
+      "15"
+    ],
+    "notes": "Read with curl on 2026-09-26. One product's listing, used as an example of what a wired cup light draws and emits; not an endorsement."
+  },
+  {
+    "id": "putting-green-lighting.usno-fort-collins-june-21-2026",
+    "layer": "climate",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "At Fort Collins on June 21, 2026, the U.S. Naval Observatory puts sunset at 8:34 p.m. and the end of civil twilight at 9:08 p.m., Mountain Daylight Time.",
+    "quote": "\"phen\": \"Set\", \"time\": \"20:34  DT\" … \"phen\": \"End Civil Twilight\", \"time\": \"21:08  DT\"",
+    "source_url": "https://aa.usno.navy.mil/api/rstt/oneday?date=2026-06-21&coords=40.5482,-105.0648&tz=-7&dst=true",
+    "source_label": "U.S. Naval Observatory, Sun and Moon Data for One Day: Fort Collins (40.5482, -105.0648), June 21, 2026",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "21",
+      "2026",
+      "8",
+      "34",
+      "9",
+      "08",
+      "20",
+      "40.5482",
+      "105.0648"
+    ],
+    "notes": "USNO API read with curl on 2026-09-26 at the Census 2024 Gazetteer point for Fort Collins used in territory.mjs; times are Mountain Daylight Time (tz -7, dst true). Other NoCo towns differ by a few minutes."
+  },
+  {
+    "id": "putting-green-lighting.usno-fort-collins-sept-22-2026",
+    "layer": "climate",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "At Fort Collins on September 22, 2026, the U.S. Naval Observatory puts sunset at 6:57 p.m. and the end of civil twilight at 7:24 p.m., Mountain Daylight Time.",
+    "quote": "\"phen\": \"Set\", \"time\": \"18:57  DT\" … \"phen\": \"End Civil Twilight\", \"time\": \"19:24  DT\"",
+    "source_url": "https://aa.usno.navy.mil/api/rstt/oneday?date=2026-09-22&coords=40.5482,-105.0648&tz=-7&dst=true",
+    "source_label": "U.S. Naval Observatory, Sun and Moon Data for One Day: Fort Collins (40.5482, -105.0648), September 22, 2026",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "22",
+      "2026",
+      "6",
+      "57",
+      "7",
+      "24",
+      "18",
+      "19",
+      "40.5482",
+      "105.0648"
+    ],
+    "notes": "USNO API read with curl on 2026-09-26; Mountain Daylight Time."
+  }
+]

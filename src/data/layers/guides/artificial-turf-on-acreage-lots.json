@@ -1,0 +1,282 @@
+[
+  {
+    "id": "artificial-turf-on-acreage-lots.dwr-household-use-only",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A Colorado household-use-only well permit covers ordinary household uses inside one single-family home and allows no outside water use or livestock watering; it is generally issued for parcels created before June 1, 1972 or by a county exemption from subdivision rules, and the in-house-only limit may apply to a new well on a parcel under 35 acres that is not in a court-approved augmentation plan.",
+    "quote": "These types of well permits are issued for ordinary household uses inside one single-family dwelling and do not allow for outside water use or livestock watering. Generally, individuals may obtain this type of permit if they own a parcel of land that was created prior to June 1, 1972, or the parcel was created by an exemption from the subdivision laws by the local county planning authority. In most cases, there can only be one exempt well on the parcel. The in-house use only limitation may apply if you are constructing a new well, and the parcel of land is less than 35 acres and is not included in a court approved plan for augmentation.",
+    "source_url": "https://drive.google.com/file/d/1axZVUaG9QGdBLebzM6F0YOut2MrL4pI5/view",
+    "source_label": "Colorado Division of Water Resources, Beginner's Guide to Well Permits (updated October 2025), Household Use Only",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "1972",
+      "35",
+      "2025"
+    ],
+    "notes": "DWR hosts the guide on Google Drive and links it from https://dwr.colorado.gov/services/well-permitting (\"Beginner's Guide to Well Permits\"). Read the PDF (27 pages, 'Updated October 2025') on 2026-09-26, page 7."
+  },
+  {
+    "id": "artificial-turf-on-acreage-lots.dwr-domestic-use",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A Colorado domestic well may serve up to three single-family homes, irrigate one acre or less of home lawn and garden and water the owner's domestic animals and livestock, generally where the parcel is 35 acres or larger, is not in a court-approved augmentation plan or a subdivision created after June 1, 1972, and the well is the only exempt well on 35 acres or more of it.",
+    "quote": "Some parcels of land in the state may obtain a limited supply of water for residential dwellings and some lawn/garden irrigation and watering of domestic animals/livestock. Depending on which provisions the well permit is issued under, the well may be able to serve up to three single-family dwellings, irrigate one acre or less of home lawn and garden, and provide water for the individual's domestic animals and livestock. These uses may be available if: 1. The parcel of land where the well will be located is 35 acres or larger and is not included in a court approved plan for augmentation or a subdivision created after June 1, 1972, and 2. The well will be the only exempt well on a 35 acre or more portion of the parcel.",
+    "source_url": "https://drive.google.com/file/d/1axZVUaG9QGdBLebzM6F0YOut2MrL4pI5/view",
+    "source_label": "Colorado Division of Water Resources, Beginner's Guide to Well Permits (updated October 2025), Domestic Use",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "2",
+      "35",
+      "1972",
+      "2025"
+    ],
+    "notes": "Page 8 of the guide. Items 3 and 4 of the same list (Designated Basins, the Denver Basin, streams that are not over-appropriated) are left out of the page; the guide notes most Colorado stream systems are over-appropriated."
+  },
+  {
+    "id": "artificial-turf-on-acreage-lots.dwr-augmentation-plan-lots",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "For a lot in a subdivision created after June 1, 1972, in most of Colorado a well's uses are set by a plan for augmentation, and any use beyond what the plan allows has to go through water court.",
+    "quote": "If a lot is part of a subdivision created after June 1, 1972, for most areas of the state, the well uses will be governed by a plan for augmentation and whatever uses the plan specifies (see the section in this guide titled “Non-Exempt Well Permits”). Any uses beyond those allowed by the plan for augmentation would have to be added to the existing augmentation plan, if possible, through a water court process, or alternatively, in a new augmentation plan approved by the water court.",
+    "source_url": "https://drive.google.com/file/d/1axZVUaG9QGdBLebzM6F0YOut2MrL4pI5/view",
+    "source_label": "Colorado Division of Water Resources, Beginner's Guide to Well Permits (updated October 2025), Household Use Only",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "1972",
+      "2025"
+    ]
+  },
+  {
+    "id": "artificial-turf-on-acreage-lots.dwr-guideline-no-outdoor-use",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Under section 37-92-602 of the Colorado Revised Statutes, exempt wells outside Designated Basins are limited to uses that include ordinary household purposes, fire protection, watering animals and irrigating not over one acre of home gardens and lawns, and DWR says exempt permits issued on parcels under 35 acres, outside cluster developments, allow ordinary household purposes inside one single-family home with no outdoor uses.",
+    "quote": "Section 37-92-602 of the Colorado Revised Statutes (C.R.S.) provides an exemption from administration in the water right priority system for wells located outside of Designated Groundwater Basins with uses limited to those in section 37-92-602(1). Those uses are specifically identified as ordinary household purposes, fire protection and fire-fighting, the watering of poultry, domestic animals, and livestock on farms and ranches, the irrigation of not over one acre of home gardens and lawns, monitoring and observation purposes, and drinking and sanitary facilities in individual commercial businesses. … Exempt well permits issued pursuant to section 37-92-602(3)(b)(II)(A) on parcels less than 35 acres, which are not on parcels created through a cluster development, are limited to ordinary household purposes inside one single-family dwelling, with no allowed outdoor uses.",
+    "source_url": "https://dnrweblink.state.co.us/dwr/ElectronicFile.aspx?docid=4187690&dbid=0",
+    "source_label": "Colorado Division of Water Resources, Guideline 2023-1: Uses of Water From Exempt and Small Capacity Wells (C.R.S. 37-92-602)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "37",
+      "92",
+      "602",
+      "35",
+      "2023",
+      "1"
+    ],
+    "notes": "Sections 1.1 and 5 of the guideline (24 pages). The statute's own wording, read on a secondary copy (colorado.public.law), matches: 37-92-602(1)(b) lists 'the irrigation of not over one acre of home gardens and lawns'."
+  },
+  {
+    "id": "artificial-turf-on-acreage-lots.dwr-permit-lists-uses",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Every registered Colorado well permit can be looked up with DWR's Well Permit Search, and the permit file lists the well's allowable uses.",
+    "quote": "Information on all registered well permits can be found through our Well Permit Search Tool and our Map Viewer Tools that are linked on this page. The well permit file will contain the allowable uses of the well, the original permit application, and any available well construction and pump installation records.",
+    "source_url": "https://dwr.colorado.gov/services/well-permitting",
+    "source_label": "Colorado Division of Water Resources, Well Permitting",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "artificial-turf-on-acreage-lots.csu-bluegrass-24-inches",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says a Kentucky bluegrass lawn needs about 24 inches of supplemental irrigation in a normal precipitation year along the Front Range, against 18 to 20 inches for fine fescue.",
+    "quote": "Fine fescue will require 18-20 inches of supplemental irrigation (compared to 24 inches for bluegrass) in a normal precipitation year (10-11 inches, April to October) along the Front Range",
+    "source_url": "https://cmg.extension.colostate.edu/Gardennotes/564.pdf",
+    "source_label": "CSU Extension, CMG GardenNotes #564, Fine Fescues for Lawns",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "24",
+      "18",
+      "20",
+      "10",
+      "11",
+      "564"
+    ]
+  },
+  {
+    "id": "artificial-turf-on-acreage-lots.usgs-acre-foot",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "An acre-foot, the water that covers one acre a foot deep, is 325,851 gallons.",
+    "quote": "acre-foot (acre-ft) --the volume of water required to cover 1 acre of land (43,560 square feet) to a depth of 1 foot. Equal to 325,851 gallons or 1,233 cubic meters.",
+    "source_url": "https://www.usgs.gov/water-science-school/science/water-science-glossary",
+    "source_label": "U.S. Geological Survey, Water Science School glossary: acre-foot",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "43560",
+      "325851",
+      "1233"
+    ],
+    "notes": "The page's arithmetic: 24 inches is 2 feet, so 24 inches over one acre is 2 acre-feet."
+  },
+  {
+    "id": "artificial-turf-on-acreage-lots.well-casing-one-foot",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado's water well rules require the steel casing a pitless adapter is installed on to extend at least one foot above the finished ground level and be watertight, and bar pump installers from cutting off well casing below ground level except to install a pitless adapter or unit.",
+    "quote": "11.2.1 Pump installation contractors may not cut off or penetrate well casing below ground level except to install a pitless adapter or a pitless unit. Pitless adapters must be installed on steel casing that extends to a minimum of one (1) foot above the finished ground level and must be watertight. Pitless units must have steel extensions to a minimum of one (1) foot above the finished ground level.",
+    "source_url": "https://www.law.cornell.edu/regulations/colorado/2-CCR-402-2-11",
+    "source_label": "2 CCR 402-2, Rule 11.2.1, Colorado Water Well Construction Rules, Cornell LII",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "2",
+      "402"
+    ],
+    "notes": "Read on LII 2026-09-26. Rule 10.4.2 and 10.4.3 also set casing from at least one foot above ground level for new wells. The rule is written for pump installers; the page's point that a raised turf base changes the finished ground level around a casing is our reading."
+  },
+  {
+    "id": "artificial-turf-on-acreage-lots.larimer-luc-single-unit-exempt",
+    "layer": "county",
+    "applies_to": [
+      "fort-collins-co",
+      "loveland-co",
+      "berthoud-co",
+      "timnath-co",
+      "wellington-co",
+      "windsor-co",
+      "johnstown-co"
+    ],
+    "fact": "Larimer County's Land Use Code exempts properties with only single-unit detached, cabin or duplex dwellings from its landscaping section, including its turf rules, except for street landscaping, buffering and screening, and fences and walls.",
+    "quote": "B. Exemptions Properties containing only single-unit detached dwellings, cabin dwellings, or duplex dwellings are exempt from all parts of this section except for the following: 1. §4.7.4.D, Street Landscaping, 2. §4.8.1, Buffering and Screening; and 3. §4.8.2, Fences and Walls.",
+    "source_url": "https://www.larimer.gov/sites/default/files/article-4-development-standards-clean_3.pdf",
+    "source_label": "Larimer County Land Use Code, Article 4 Development Standards, §4.7.2 (effective December 8, 2025)",
+    "checked": "2026-09-26",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "2",
+      "3",
+      "8",
+      "2025"
+    ],
+    "notes": "larimer.gov returns 403 to curl; the PDF was fetched through a browser-style fetch and read in full text on 2026-09-26 (page 172). The land-use-code page lists this clean Article 4 as effective December 8, 2025."
+  },
+  {
+    "id": "artificial-turf-on-acreage-lots.larimer-luc-turf-native-grass",
+    "layer": "county",
+    "applies_to": [
+      "fort-collins-co",
+      "loveland-co",
+      "berthoud-co",
+      "timnath-co",
+      "wellington-co",
+      "windsor-co",
+      "johnstown-co"
+    ],
+    "fact": "Where Larimer County's landscaping standards apply, the code allows and recommends native grasses in low-traffic, low-use areas, permits functional artificial turf only in recreational or community use areas or engineered infrastructure, and prohibits nonfunctional artificial turf.",
+    "quote": "3. Turf, Functional and Nonfunctional Turf, and Artificial Turf Areas Larimer County recognizes that conventional non-native turf has some practical benefit in a landscape, but its use should be limited to maximize water conservation. … b. Native grasses are allowed and recommended in low traffic and low intensity of use areas. … d. Functional artificial turf is only permitted in a recreational use area or other space regularly used for civic, community, or recreational purposes, or as a component of a product designed and approved by a professional engineer for civil infrastructure projects. Nonfunctional artificial turf is prohibited.",
+    "source_url": "https://www.larimer.gov/sites/default/files/article-4-development-standards-clean_3.pdf",
+    "source_label": "Larimer County Land Use Code, Article 4 Development Standards, §4.7.3.A.3 (effective December 8, 2025)",
+    "checked": "2026-09-26",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "8",
+      "2025"
+    ],
+    "notes": "Same file as larimer-luc-single-unit-exempt (page 173). Item a bars nonfunctional cool-season turf on new commercial, civic, institutional, right-of-way and common-interest development."
+  },
+  {
+    "id": "artificial-turf-on-acreage-lots.weld-wrc-applicability",
+    "layer": "county",
+    "applies_to": [
+      "windsor-co",
+      "greeley-co",
+      "johnstown-co",
+      "berthoud-co",
+      "firestone-co",
+      "mead-co",
+      "frederick-co",
+      "longmont-co",
+      "severance-co",
+      "evans-co",
+      "eaton-co",
+      "milliken-co",
+      "dacono-co"
+    ],
+    "fact": "Weld County adopted the 2025 Colorado Wildfire Resiliency Code with enforcement from July 1, 2026, applying it only to parcels outside town limits and outside a fire protection district that the state map designates high, moderate or low intensity, and exempting any parcel of 35 acres or more with only one residential structure that does not abut a residential or commercial area.",
+    "quote": "B. The Effective Date of the Resiliency Code for the purpose of enforcement shall be July 1, 2026. C. The Resiliency Code shall apply to parcels located in Weld County outside the corporate limits of a city or town and outside the boundaries of a fire protection district, and which are shown on the State Map for the Application of the 2025 Colorado Wildfire Resiliency Code (or versions thereof subsequently adopted or amended by the Resiliency Code Board) and designated: 1. High Intensity Non-Federal; or 2. Moderate Intensity Non-Federal; or 3. Low Intensity Non-Federal. 4. Exempting therefrom any thirty-five (35) acre or larger parcel with only one (1) residential structure on it that does not abut a residential or commercial area. (Weld County Code Ordinance 2026-06)",
+    "source_url": "https://library.municode.com/co/weld_county/codes/charter_and_county_code?nodeId=CH7ADMISTCO_ARTICOWIRECO_S7-1-10ADCOWIRECOEFDAAP",
+    "source_label": "Weld County Code Sec. 7-1-10, Adoption of Colorado Wildfire Resiliency Code (Ordinance 2026-06), Municode, codified through June 8, 2026",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2025",
+      "1",
+      "2026",
+      "35",
+      "2",
+      "3",
+      "4",
+      "8"
+    ],
+    "notes": "Read through Municode's content API (job 494165, Supplement 95, codified through June 8, 2026). Sec. 7-1-20 says the Colorado Division of Fire Prevention and Control enforces it on applicable parcels at the county's request."
+  },
+  {
+    "id": "artificial-turf-on-acreage-lots.csfs-hiz-zones",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado State Forest Service says a home in or near Colorado's grasslands, shrublands, foothills or mountains is in the wildland-urban interface, and divides the ground around it into Zone 1 (0 to 5 feet, nonflammable hard surfaces such as rock, gravel or pavers), Zone 2 (5 to 30 feet, where grass should be mowed to 4 inches or less) and Zone 3 (30 to 100 feet, where mowing grass is not necessary).",
+    "quote": "If your home is located in or near the natural vegetation of Colorado’s grasslands, shrublands, foothills or mountains, you live in the wildland-urban interface — also known as the WUI — and are inherently at risk from a wildfire. … ZONE 1 0-5 FEET FROM THE HOME … Use nonflammable, hard surface materials in this zone, such as rock, gravel, sand, cement, bare earth or stone/concrete pavers. … ZONE 2 5-30 FEET FROM THE HOME … Mow grasses to 4 inches tall or less. … ZONE 3 30-100 FEET FROM THE HOME … Mowing grasses is not necessary in Zone 3.",
+    "source_url": "https://csfs.colostate.edu/wp-content/uploads/2021/04/2021_CSFS_HIZGuide_Web.pdf",
+    "source_label": "Colorado State Forest Service, The Home Ignition Zone guide (2021)",
+    "checked": "2026-09-26",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "0",
+      "5",
+      "2",
+      "30",
+      "4",
+      "3",
+      "100",
+      "2021"
+    ],
+    "notes": "The PDF's text layer drops the fi/fl ligatures ('wildfre', 'nonfammable'); the quote restores the printed words. Pages 2 and 8."
+  }
+]
