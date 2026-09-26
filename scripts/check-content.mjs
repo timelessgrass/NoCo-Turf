@@ -126,7 +126,7 @@ export function normalise(s) {
 const TOWN_EXCEPTIONS = {
   Boulder: /^Boulder(?:\s+Count(?:y|ies)|\s+(?:and|&)\s+Weld)/,
   Centennial: /^Centennial\s+(?:State|Village)/,
-  Golden: /^Golden\s+Retrievers?/i,
+  Golden: /^Golden\s+(?:Retrievers?|Eagle\s+Acres)/i, // Golden Eagle Acres is a Severance subdivision
 };
 const esc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 const TOWN_RES = TIMELESS_TOWNS.map((name) => [name, new RegExp(`(?<![A-Za-z])${esc(name).replace(/ /g, '\\s+')}(?![A-Za-z])`, 'g')]);
