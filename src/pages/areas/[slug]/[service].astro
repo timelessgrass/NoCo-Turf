@@ -55,8 +55,12 @@
  */
 import { getImage } from 'astro:assets';
 import Base from '../../../layouts/Base.astro';
-import Crumbs from '../../../components/Crumbs.astro';
-import AnswerBox from '../../../components/AnswerBox.astro';
+import PageHero from '../../../components/PageHero.astro';
+import SellTrust from '../../../components/SellTrust.astro';
+import SellGood from '../../../components/SellGood.astro';
+import SellSteps from '../../../components/SellSteps.astro';
+import SellServices from '../../../components/SellServices.astro';
+import RulesDrawer from '../../../components/RulesDrawer.astro';
 import Faq from '../../../components/Faq.astro';
 import Sources from '../../../components/Sources.astro';
 import CtaBand from '../../../components/CtaBand.astro';
@@ -236,6 +240,362 @@ const ts = kind === 'service' ? await townServicePage() : null;
 /* On a community page these stay undefined, and the town × service template below is not drawn. */
 const { page, town, service, meta, d, name, asOf, hoaAt, extra, codeRecs, lawRecs, photo, og, numbered, rows, nearby, others, h1, paint, at, crumbs, graph, band, golfHere } = ts ?? ({} as NonNullable<typeof ts>);
 const cm = kind === 'community' ? await communityPage() : null;
+
+/* The sales layer: the H1 names the job and the town; the hook sells it. The record's own claims live in the
+   Good-to-know lines and the rules drawer. A page without its own job photo shows Brian's closest honest one,
+   captioned with where it really is. */
+const SERVICE_H1: Record<string, string> = { 'putting-greens': 'Backyard putting greens', 'pet-turf': 'Pet turf and dog runs', 'playground-turf': 'Playground turf', 'commercial-turf': 'Commercial and HOA turf' };
+const SERVICE_HOOK: Record<string, (t: string) => string> = {
+  'putting-greens': (t) => `A true roll outside your back door: cups, fringe and break where you want them, on a base that holds its shape through ${t}’s freeze and thaw.`,
+  'pet-turf': (t) => `Dog yards in ${t} that drain fast, rinse clean and stand up to paws, with no mud and no dead spots.`,
+  'playground-turf': (t) => `Soft, clean turf under swings and play sets in ${t}, padded for the fall height.`,
+  'commercial-turf': (t) => `Turf for ${t} HOA common areas, parks, schools and fields, within Colorado’s functional-turf rules.`,
+};
+const SERVICE_FALLBACK: Record<string, string> = { 'putting-greens': 'fire-pit', 'pet-turf': 'fenced-yard', 'playground-turf': 'playset', 'commercial-turf': 'street-view' };
+const tsHero = ts ? (ts.photo ?? photoById(SERVICE_FALLBACK[ts.service.slug] ?? 'fire-pit')) : null;
+const heroOg = tsHero ? (await getImage({ src: tsHero.src, width: 1200, format: 'jpg', quality: 72 })).src : undefined;
+const cmHero = cm ? (cm.photo ?? photoById(cm.d.kind === 'golf' ? 'dusk' : 'fire-pit')) : null;
+const cmOg = cmHero ? (await getImage({ src: cmHero.src, width: 1200, format: 'jpg', quality: 72 })).src : undefined;
+/* Good-to-know lines: the blocks a buyer acts on first (rules, review, the course), trivia last. */
+const PRIORITY = ['ordinance', 'hoa', 'design', 'place', 'golf', 'drought', 'rebate', 'access', 'utility', 'housing', 'soil', 'climate'];
+const goodFrom = (numbered: { b: { kind: string; own: boolean; h2: string } }[]) => [...numbered]
+  .sort((x, y) => (PRIORITY.indexOf(x.b.kind) + 99 * +(PRIORITY.indexOf(x.b.kind) < 0)) - (PRIORITY.indexOf(y.b.kind) + 99 * +(PRIORITY.indexOf(y.b.kind) < 0)) || +y.b.own - +x.b.own)
+  .slice(0, 3).map(({ b }) => b.h2);
+const cmTownPages = cm ? pages.filter((p) => p.town.slug === cm.town.slug) : [];
+---
+{ts && (
+<Base title={d.title} description={d.description} crumbs={crumbs} graph={graph} draft={page.draft} ogImage={og ?? heroOg}>
+  <PageHero label={`${service.name} · ${name}, CO`} crumbs={crumbs} photo={tsHero} lede={SERVICE_HOOK[service.slug]?.(name) ?? d.lede}>
+    {SERVICE_H1[service.slug] ?? service.name} in <PaintWord now>{name}.</PaintWord>
+    <div slot="after" class="tsvtop__acts">
+      <a class="btn btn--paint" href="#estimate" data-cta="town-service-hero-quote">Book a yard walk <Icon name="arrow" /></a>
+      {phoneHref && <a class="btn btn--line" href={phoneHref} data-cta="town-service-hero-call"><Icon name="phone" />Call <span class="btn__num">{phoneDisplay}</span></a>}
+    </div>
+  </PageHero>
+
+  <SellTrust town={name} />
+
+  <TownServiceStrip noun={meta.noun} name={service.name} short={service.short} underneath={service.underneath} href={`/services/${service.slug}/`} />
+
+  {photo && <TownServicePhoto photo={photo} />}
+
+  <SellGood place={name} answer={d.answer} good={goodFrom(numbered)} />
+  {golfHere.length > 0 && (
+    <section class="golfline"><div class="wrap"><p>Golf communities in {name} with their own pages: {golfHere.map((c, i) => <>{i > 0 && (i === golfHere.length - 1 ? ' and ' : ', ')}<a href={c.path}>{c.name}</a></>)}.</p></div></section>
+  )}
+
+  <SellSteps town={name} />
+
+  <TownServiceAround service={meta.crumb} town={name} nearby={nearby} others={others} />
+
+  <TownServiceGuides topic={meta.topic} />
+
+  {d.faq?.length > 0 && (
+    <section class="section ground-2" id="faq" aria-labelledby="faq-h">
+      <div class="wrap tsvfaq">
+        <header class="tsvfaq__head">
+          <p class="label">Questions</p>
+          <h2 id="faq-h" class="tsvfaq__h">{meta.crumb} in {name}: what people ask.</h2>
+        </header>
+        <Faq items={d.faq} name={`faq-${id}`} />
+      </div>
+    </section>
+  )}
+
+  <RulesDrawer title={`Every ${name} rule behind ${meta.crumb.toLowerCase()}, with sources`}>
+    <div class="wrap drawer__card">
+      <TownServiceCard service={{ name: service.name, href: `/services/${service.slug}/` }}
+        town={{ name, href: `/areas/${town.slug}/`, county: countyLine(town.county) }}
+        rows={rows} checked={fmtDate(asOf)} sources={d.sources.length} />
+    </div>
+    {numbered.map(({ b, no, id: bid }, i) => (
+      <>
+        <TownBlock block={b} no={no} id={bid} town={name} sources={d.sources} asOf={asOf} />
+        {i === hoaAt && <TownStateRule extra={extra} />}
+      </>
+    ))}
+    <TownServiceCode town={name} code={codeRecs} law={lawRecs} lawLine={meta.lawLine} asOf={asOf} />
+    <div class="wrap tsvsrc" id="sources"><Sources sources={d.sources} title={`Sources for ${meta.crumb.toLowerCase()} in ${name}, each with the date it was read`} /></div>
+  </RulesDrawer>
+
+  <CtaBand title="Let’s walk your" payoff={`${name} yard.`} lede={band.lede} town={name} use={service.formUse} />
+</Base>
+)}
+{cm && (
+<Base title={cm.d.title} description={cm.d.description} crumbs={cm.crumbs} graph={cm.graph} draft={cm.c.draft} ogImage={cm.og ?? cmOg} about={cm.placeRef} styles={[communityCss]}>
+  <PageHero label={`${cm.name} · ${cm.townName}, CO`} crumbs={cm.crumbs} photo={cmHero}
+    lede={`Planning turf or a putting green in ${cm.name}? We’ve read ${cm.governing && cm.governing.type !== 'none-found' ? `the ${cm.governing.name} design rules` : 'what governs yards here'}, so your plan starts from what’s allowed.`}>
+    Turf and putting greens in <PaintWord now>{cm.name}.</PaintWord>
+    <div slot="after" class="tsvtop__acts">
+      <a class="btn btn--paint" href="#estimate" data-cta="community-hero-quote">Book a yard walk <Icon name="arrow" /></a>
+      {phoneHref && <a class="btn btn--line" href={phoneHref} data-cta="community-hero-call"><Icon name="phone" />Call <span class="btn__num">{phoneDisplay}</span></a>}
+    </div>
+  </PageHero>
+
+  <SellTrust town={cm.townName} />
+
+  <SellGood place={cm.name} answer={cm.d.answer} good={goodFrom(cm.numbered)} />
+
+  <SellServices town={cm.name} townPages={cmTownPages} heading={`Lawns, putting greens and dog yards for ${cm.name} homes.`} />
+
+  {cm.photo && <TownServicePhoto photo={cm.photo} />}
+
+  <SellSteps place={cm.name} />
+
+  <TownServiceAround service={cm.name} town={cm.townName} nearby={cm.townLinks} others={cm.neighbors}
+    heads={{ nearby: { label: `Around ${cm.name}`, title: `More for ${cm.townName} homes.` }, others: { label: `More in ${cm.townName}`, title: `Other ${cm.townName} neighborhoods.` } }} />
+
+  <TownServiceGuides topic={COMMUNITY_TOPIC} picks={COMMUNITY_GUIDES} />
+
+  {cm.d.faq?.length > 0 && (
+    <section class="section ground-2" id="faq" aria-labelledby="faq-h">
+      <div class="wrap tsvfaq">
+        <header class="tsvfaq__head">
+          <p class="label">Questions</p>
+          <h2 id="faq-h" class="tsvfaq__h">A yard in {cm.name}: what people ask.</h2>
+        </header>
+        <Faq items={cm.d.faq} name={`faq-${id}`} />
+      </div>
+    </section>
+  )}
+
+  <RulesDrawer title={`${cm.name}’s design rules and every source`}>
+    <div class="wrap drawer__card">
+      <TownServiceCard axis="Community" ownIn={cm.name} service={{ name: cm.name, href: '#facts' }}
+        town={{ name: cm.townName, href: `/areas/${cm.town.slug}/`, county: cm.county }}
+        rows={cm.rows} checked={fmtDate(cm.asOf)} sources={cm.d.sources.length} />
+    </div>
+    <CommunityFacts name={cm.name} kind={cm.d.kind} governing={cm.governing} golf={cm.golf}
+      town={{ name: cm.townName, href: `/areas/${cm.town.slug}/`, county: cm.county }} checked={cm.asOf} />
+    {cm.numbered.map(({ b, no, id: bid }, i) => (
+      <>
+        <TownBlock block={b} no={no} id={bid} town={cm.townName} ownIn={cm.name} sources={cm.d.sources} asOf={cm.asOf} />
+        {i === cm.hoaAt && <TownStateRule extra={cm.extra} />}
+      </>
+    ))}
+    {cm.governing && <CommunityReview name={cm.name} governing={cm.governing} rules={cm.rules} state={cm.hoaAt >= 0 || cm.stateAfterReview} checked={cm.asOf} />}
+    {cm.stateAfterReview && <TownStateRule extra={cm.extra} />}
+    <div class="wrap tsvsrc" id="sources"><Sources sources={cm.d.sources} title={`Sources for ${cm.name}, ${cm.townName}, each with the date it was read`} /></div>
+  </RulesDrawer>
+
+  <CtaBand title="Let’s walk your" payoff={`${cm.name} yard.`} town={cm.townName}
+    lede={`Tell us what you want and how to reach you. We’ll set a time to see the yard. Three short parts, no account, no upload.`} />
+</Base>
+)}
+
+<style> anywhere in this route's graph would change the stylesheet the town × service pages link.
+ * JSON-LD: WebPage about → a Place (the community, inside its City, inside Colorado); a Service with that Place as
+ * areaServed, provided by #business; BreadcrumbList Areas › {Town} › {Community}; FAQPage mirroring the printed FAQ.
+ */
+import { getImage } from 'astro:assets';
+import Base from '../../../layouts/Base.astro';
+import PageHero from '../../../components/PageHero.astro';
+import SellTrust from '../../../components/SellTrust.astro';
+import SellGood from '../../../components/SellGood.astro';
+import SellSteps from '../../../components/SellSteps.astro';
+import SellServices from '../../../components/SellServices.astro';
+import RulesDrawer from '../../../components/RulesDrawer.astro';
+import Faq from '../../../components/Faq.astro';
+import Sources from '../../../components/Sources.astro';
+import CtaBand from '../../../components/CtaBand.astro';
+import PaintWord from '../../../components/PaintWord.astro';
+import Icon from '../../../components/Icon.astro';
+import TownBlock from '../../../components/TownBlock.astro';
+import TownStateRule from '../../../components/TownStateRule.astro';
+import TownServiceCard from '../../../components/TownServiceCard.astro';
+import TownServiceCode from '../../../components/TownServiceCode.astro';
+import TownServicePhoto from '../../../components/TownServicePhoto.astro';
+import TownServiceStrip from '../../../components/TownServiceStrip.astro';
+import TownServiceAround from '../../../components/TownServiceAround.astro';
+import TownServiceGuides from '../../../components/TownServiceGuides.astro';
+import CommunityFacts from '../../../components/CommunityFacts.astro';
+import CommunityReview from '../../../components/CommunityReview.astro';
+import { visibleTownServices, visibleCommunities } from '../../../lib/visible';
+import { assertAreaChildren } from '../../../lib/content-policy.mjs';
+import { faqGraph, townServiceGraph, communityGraph } from '../../../lib/schema';
+import { photo as photoById } from '../../../data/photos';
+import { phoneHref, phoneDisplay } from '../../../data/brief';
+import {
+  rec, recs, recordsFor, fmtDate, fmtMonth, miles, compass, countyLine, HOA_FAMILY, HOA_EXTRA, KIND_LABEL, type LayerRecord,
+} from '../../../components/TownData';
+import { COMMUNITY_GUIDES, COMMUNITY_TOPIC, COMMUNITY_SERVICES, KIND_NAMES } from '../../../data/communities.mjs';
+/* Last on purpose: a `?url` import emits the file without adding it to this route's CSS, and placed here it leaves the
+   order of the stylesheets every town × service page links exactly as it was. */
+import communityCss from '../../../styles/community.css?url';
+
+export async function getStaticPaths() {
+  const pages = await visibleTownServices();
+  const communities = await visibleCommunities();
+  /* One path, one page: a community that would take a service's path (or another community's) stops the build. */
+  assertAreaChildren([
+    ...pages.map((p) => ({ path: p.path, what: `src/content/town-services/${p.id}.json` })),
+    ...communities.map((c) => ({ path: c.path, what: `src/content/communities/${c.id}.json` })),
+  ]);
+  return [
+    ...pages.map((p) => ({ params: { slug: p.town.slug, service: p.service.slug }, props: { kind: 'service' as const, id: p.id } })),
+    ...communities.map((c) => ({ params: { slug: c.town.slug, service: c.slug }, props: { kind: 'community' as const, id: c.id } })),
+  ];
+}
+
+const { kind, id } = Astro.props as { kind: 'service' | 'community'; id: string };
+const pages = await visibleTownServices();
+const communities = await visibleCommunities();
+
+type Block = { kind: string; own: boolean; kicker: string; h2: string; takeaway?: string; paras: string[]; layerRefs: string[]; sources: string[] };
+const leansOnHoa = (b: Block) => b.kind === 'hoa' || b.layerRefs.some((r) => HOA_FAMILY.has(r));
+
+/* ───────────── A town × service page ───────────── */
+async function townServicePage() {
+  const page = pages.find((p) => p.id === id)!;
+  const { town, service, meta } = page;
+  const d = page.entry.data as any;
+  const townData = town.entry.data as any;
+  const name: string = town.name;
+  const asOf: string = d.checked;
+  const path = page.path;
+
+  const blocks = d.blocks as Block[];
+
+  /* The Colorado backyard-HOA rule: once, after the first block that leans on it — and only if one does. */
+  const hoaAt = blocks.findIndex(leansOnHoa);
+  const extra = HOA_EXTRA.filter((r) => blocks.some((b) => b.layerRefs.includes(r)));
+
+  /* The code for this use: the town's turf ordinance records from the shared city-codes layer, and the state
+     records that decide this use in new development — less anything a block's evidence panel already shows.
+     Local records stay out: an uncited local ordinance is about another use (a dog limit, a fence height), so it
+     would print under this page's turf-code heading. A record filed under this town for a folded-in place
+     (Platteville on Greeley) is that place's rule, not the town's. */
+  const cited = new Set(blocks.flatMap((b) => b.layerRefs));
+  const folded: string[] = town.sections ?? [];
+  const codeRecs = recordsFor(town.slug)
+    .filter((r) => r.layer === 'ordinance' && !cited.has(r.id) && !folded.some((f) => r.source_label.startsWith(f)));
+  const lawRecs = recs(meta.stateRefs).filter((r: LayerRecord) => !cited.has(r.id));
+
+  /* The photo: the record's own, from photos.ts. */
+  const photo = d.photo ? photoById(d.photo) : null;
+  const og = photo ? (await getImage({ src: photo.src, width: 1200, format: 'jpg', quality: 72 })).src : undefined;
+
+  /* The job sheet: each block by its kind and kicker, then the code and the photo when they're drawn. */
+  const numbered = blocks.map((b, i) => ({ b, no: i + 1, id: `${b.kind}-${i + 1}` }));
+  const rows = [
+    ...numbered.map(({ b, id: bid }) => ({ label: KIND_LABEL[b.kind] ?? b.kind, value: b.kicker, href: `#${bid}`, own: b.own })),
+    ...(codeRecs.length || lawRecs.length ? [{ label: 'Code', value: codeRecs.length ? `${name}’s turf code, quoted` : 'The Colorado rule', href: '#code', own: false }] : []),
+    ...(photo ? [{ label: 'Photo', value: photo.caption, href: '#photo', own: false }] : []),
+  ];
+
+  /* Around: this service one town over, and the rest of the work in this town. */
+  const nearby = (townData.nearby as string[])
+    .map((s) => pages.find((p) => p.town.slug === s && p.service.slug === service.slug))
+    .filter((p): p is (typeof pages)[number] => !!p)
+    .map((p) => ({ href: p.path, name: p.town.name, line: (p.entry.data as any).h1 as string, meta: `${Math.round(miles(town, p.town))} mi ${compass(town, p.town)}` }));
+  const others = [
+    { href: `/areas/${town.slug}/`, name: `Artificial turf in ${name}`, line: townData.h1 as string, meta: 'The town page' },
+    ...pages.filter((p) => p.town.slug === town.slug && p.id !== id).map((p) => ({ href: p.path, name: p.service.name, line: (p.entry.data as any).h1 as string })),
+  ];
+
+  /* H1: the record's claim; display.paint, a phrase of it, gets the painted mark (check-content holds it to the H1). */
+  const h1: string = d.h1;
+  const paint: string | undefined = d.display?.paint;
+  const at = paint ? h1.indexOf(paint) : -1;
+  const crumbs = [{ name: 'Areas', path: '/areas/' }, { name, path: `/areas/${town.slug}/` }, { name: meta.crumb, path }];
+  const graph = [...townServiceGraph(`${service.name} in ${name}, CO`, service.name, path, d.description, name), ...faqGraph(d.faq)];
+  const band = { ...meta.band, lede: meta.band.lede.replace('{town}', name) };
+  /* A putting-green page links the golf communities in its town that have their own pages. */
+  const golfHere = service.slug === 'putting-greens' ? communities.filter((c) => c.town.slug === town.slug && c.kind === 'golf') : [];
+  return { page, town, service, meta, d, name, asOf, hoaAt, extra, codeRecs, lawRecs, photo, og, numbered, rows, nearby, others, h1, paint, at, crumbs, graph, band, golfHere };
+}
+
+/* ───────────── A community page ───────────── */
+async function communityPage() {
+  const c = communities.find((x) => x.id === id)!;
+  const d = c.entry.data as any;
+  const town = c.town;
+  const townData = town.entry.data as any;
+  const name: string = d.name;
+  const townName: string = town.name;
+  const asOf: string = d.checked;
+  const path = c.path;
+  const blocks = d.blocks as Block[];
+  const numbered = blocks.map((b, i) => ({ b, no: i + 1, id: `${b.kind}-${i + 1}` }));
+  /* The first block whose evidence panel shows each record: the review path points up to it instead of quoting twice. */
+  const shownIn = new Map<string, { no: number; id: string }>();
+  for (const { b, no, id: bid } of numbered) for (const r of b.layerRefs) if (!shownIn.has(r)) shownIn.set(r, { no, id: bid });
+
+  /* Who reviews a yard here, and what its guidelines say, quoted from the records the record names. */
+  const governing = d.governing ?? null;
+  const rules = governing ? recs(governing.layerRefs).filter((r) => !HOA_FAMILY.has(r.id)).map((r) => ({ r, at: shownIn.get(r.id) ?? null })) : [];
+
+  /* The Colorado backyard-HOA rule, once: after the first block that leans on it, else after the design review
+     when a body reviews yards here. */
+  const hoaAt = blocks.findIndex(leansOnHoa);
+  const stateAfterReview = hoaAt < 0 && !!governing && governing.type !== 'none-found';
+  const extra = HOA_EXTRA.filter((r) => blocks.some((b) => b.layerRefs.includes(r)) || governing?.layerRefs.includes(r));
+
+  /* The course, only while its cited record renders (check-content holds the name to that record). */
+  const golfRec = d.golf ? rec(d.golf.layerRef) : null;
+  const golf = d.golf && golfRec ? { name: d.golf.name as string, record: golfRec } : null;
+
+  const photo = d.photo ? photoById(d.photo) : null;
+  const og = photo ? (await getImage({ src: photo.src, width: 1200, format: 'jpg', quality: 72 })).src : undefined;
+
+  /* The job sheet: each block by its kind and kicker, then the design review and the photo when they're drawn. */
+  const rows = [
+    ...numbered.map(({ b, id: bid }) => ({ label: KIND_LABEL[b.kind] ?? b.kind, value: b.kicker, href: `#${bid}`, own: b.own })),
+    ...(governing ? [{ label: 'Design review', value: governing.type === 'none-found' ? 'No guidelines found' : governing.name, href: '#review', own: false }] : []),
+    ...(photo ? [{ label: 'Photo', value: photo.caption, href: '#photo', own: false }] : []),
+  ];
+
+  /* Around: the town's pages first (the town page, then its putting-green and pet-turf pages), then the other
+     communities in the town. */
+  const townLinks = [
+    { href: `/areas/${town.slug}/`, name: `Artificial turf in ${townName}`, line: townData.h1 as string, meta: 'The town page' },
+    ...COMMUNITY_SERVICES
+      .map((s) => pages.find((p) => p.town.slug === town.slug && p.service.slug === s))
+      .filter((p): p is (typeof pages)[number] => !!p)
+      .map((p) => ({ href: p.path, name: p.service.name, line: (p.entry.data as any).h1 as string })),
+  ];
+  const neighbors = communities.filter((x) => x.town.slug === town.slug && x.id !== id)
+    .map((x) => ({ href: x.path, name: x.name, line: (x.entry.data as any).h1 as string, meta: (KIND_NAMES as Record<string, string>)[x.kind] }));
+
+  /* H1: the record's claim; display.paint, a phrase of it, gets the painted mark (check-content holds it to the H1). */
+  const h1: string = d.h1;
+  const paint: string | undefined = d.display?.paint;
+  const at = paint ? h1.indexOf(paint) : -1;
+  const crumbs = [{ name: 'Areas', path: '/areas/' }, { name: townName, path: `/areas/${town.slug}/` }, { name, path }];
+  const { placeRef, nodes } = communityGraph({ name, town: townName, path, serviceName: `Artificial turf in ${name}, ${townName}, CO`, description: d.description });
+  const graph = [...nodes, ...faqGraph(d.faq)];
+  return {
+    c, d, town, name, townName, asOf, numbered, governing, rules, hoaAt, stateAfterReview, extra, golf, photo, og, rows,
+    townLinks, neighbors, h1, paint, at, crumbs, graph, placeRef, county: countyLine(town.county),
+  };
+}
+
+const ts = kind === 'service' ? await townServicePage() : null;
+/* On a community page these stay undefined, and the town × service template below is not drawn. */
+const { page, town, service, meta, d, name, asOf, hoaAt, extra, codeRecs, lawRecs, photo, og, numbered, rows, nearby, others, h1, paint, at, crumbs, graph, band, golfHere } = ts ?? ({} as NonNullable<typeof ts>);
+const cm = kind === 'community' ? await communityPage() : null;
+
+/* The sales layer: the H1 names the job and the town; the hook sells it. The record's own claims live in the
+   Good-to-know lines and the rules drawer. A page without its own job photo shows Brian's closest honest one,
+   captioned with where it really is. */
+const SERVICE_H1: Record<string, string> = { 'putting-greens': 'Backyard putting greens', 'pet-turf': 'Pet turf and dog runs', 'playground-turf': 'Playground turf', 'commercial-turf': 'Commercial and HOA turf' };
+const SERVICE_HOOK: Record<string, (t: string) => string> = {
+  'putting-greens': (t) => `A true roll outside your back door: cups, fringe and break where you want them, on a base that holds its shape through ${t}’s freeze and thaw.`,
+  'pet-turf': (t) => `Dog yards in ${t} that drain fast, rinse clean and stand up to paws, with no mud and no dead spots.`,
+  'playground-turf': (t) => `Soft, clean turf under swings and play sets in ${t}, padded for the fall height.`,
+  'commercial-turf': (t) => `Turf for ${t} HOA common areas, parks, schools and fields, within Colorado’s functional-turf rules.`,
+};
+const SERVICE_FALLBACK: Record<string, string> = { 'putting-greens': 'fire-pit', 'pet-turf': 'fenced-yard', 'playground-turf': 'playset', 'commercial-turf': 'street-view' };
+const tsHero = ts ? (ts.photo ?? photoById(SERVICE_FALLBACK[ts.service.slug] ?? 'fire-pit')) : null;
+const heroOg = tsHero ? (await getImage({ src: tsHero.src, width: 1200, format: 'jpg', quality: 72 })).src : undefined;
+const cmHero = cm ? (cm.photo ?? photoById(cm.d.kind === 'golf' ? 'dusk' : 'fire-pit')) : null;
+const cmOg = cmHero ? (await getImage({ src: cmHero.src, width: 1200, format: 'jpg', quality: 72 })).src : undefined;
+/* Good-to-know lines: the blocks a buyer acts on first (rules, review, the course), trivia last. */
+const PRIORITY = ['ordinance', 'hoa', 'design', 'place', 'golf', 'drought', 'rebate', 'access', 'utility', 'housing', 'soil', 'climate'];
+const goodFrom = (numbered: { b: { kind: string; own: boolean; h2: string } }[]) => [...numbered]
+  .sort((x, y) => (PRIORITY.indexOf(x.b.kind) + 99 * +(PRIORITY.indexOf(x.b.kind) < 0)) - (PRIORITY.indexOf(y.b.kind) + 99 * +(PRIORITY.indexOf(y.b.kind) < 0)) || +y.b.own - +x.b.own)
+  .slice(0, 3).map(({ b }) => b.h2);
+const cmTownPages = cm ? pages.filter((p) => p.town.slug === cm.town.slug) : [];
 ---
 {ts && (
 <Base title={d.title} description={d.description} crumbs={crumbs} graph={graph} draft={page.draft} ogImage={og}>
@@ -374,30 +734,17 @@ const cm = kind === 'community' ? await communityPage() : null;
 )}
 
 <style>
-  /* The top: headline and answer down the left, the job sheet beside both. On a phone the sheet follows the
-     answer, so the answer stays in the first screens. */
-  .tsvtop { padding-block: clamp(36px, 5vw, 72px) clamp(40px, 4vw, 72px); border-bottom: 1px solid var(--line); }
-  .tsvtop__grid { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(300px, 0.85fr); grid-template-areas: 'copy card' 'answer card';
-    column-gap: clamp(36px, 5vw, 88px); row-gap: clamp(32px, 4vw, 56px); align-items: start; }
-  .tsvtop__copy { grid-area: copy; }
-  .tsvtop__answer { grid-area: answer; }
-  .tsvtop__card { grid-area: card; align-self: end; }
-  .tsvtop__label { margin: 28px 0 16px; }
-  .tsvtop__h1 { font-size: clamp(2.05rem, 1.3rem + 2.5vw, 3.7rem); font-stretch: 114%; letter-spacing: -0.036em; line-height: 0.98; max-width: 19ch; }
-  .tsvtop__lede { margin: 22px 0 0; max-width: 54ch; }
   .tsvtop__acts { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
   /* a long town name must not push a no-wrap button past a phone screen */
   .tsvtop__acts .btn { max-width: 100%; white-space: normal; text-align: left; line-height: 1.2; padding-block: 10px; }
-  .tsvtop__note { margin: 16px 0 0; max-width: 60ch; font-size: var(--fs-small); color: var(--ink-3); }
-  @media (max-width: 999px) {
-    .tsvtop__grid { grid-template-columns: minmax(0, 1fr); grid-template-areas: 'copy' 'answer' 'card'; }
-    .tsvtop__card { align-self: start; }
-  }
+  .golfline { padding-bottom: clamp(24px, 3vw, 40px); }
+  .golfline p { margin: 0; font-weight: 600; }
+  .drawer__card { padding-block: clamp(24px, 3vw, 40px) 0; max-width: 560px; margin-inline: 0; }
 
   .tsvfaq { display: grid; grid-template-columns: 0.8fr 1.2fr; gap: 40px 80px; align-items: start; }
   .tsvfaq__head { display: grid; gap: 16px; position: sticky; top: calc(var(--header-h) + 32px); }
   .tsvfaq__h { font-size: clamp(2rem, 1.3rem + 2.4vw, 3.4rem); max-width: 14ch; }
   @media (max-width: 899px) { .tsvfaq { grid-template-columns: 1fr; } .tsvfaq__head { position: static; } }
 
-  .tsvsrc { padding-block: clamp(24px, 3vw, 48px) clamp(48px, 5vw, 88px); }
+  .tsvsrc { padding-block: clamp(24px, 3vw, 48px) 0; }
 </style>

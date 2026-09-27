@@ -26,10 +26,10 @@ const css = list.map(({ t }) => {
     <div class="wrap">
       <header class="tnear__head">
         <div>
-          <p class="label">Next towns over</p>
-          <h2 id="nearby-h" class="tnear__h">One town over, the rules can change.</h2>
+          <p class="label">Also nearby</p>
+          <h2 id="nearby-h" class="tnear__h">We work the towns next door, too.</h2>
         </div>
-        <p class="lede tnear__lede">Distances are straight lines between Census town points. Each page opens with that town’s own strongest fact.</p>
+        <p class="lede tnear__lede">Each town has its own turf rules. Pick yours.</p>
       </header>
       <div class="tnear__grid">
         <TownLocator towns={towns} current={here.slug} mode="local" nearby={list.map((x) => x.t.slug)} id={id} />

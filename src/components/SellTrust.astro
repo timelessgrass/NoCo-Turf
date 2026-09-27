@@ -1,0 +1,30 @@
+---
+/**
+ * SellTrust — the strip under a sales hero: four short reasons to call, none of them a claim the brief can't
+ * back (Windsor base: the brief's locality; rules: every town page's own research; photos: photos.ts camera
+ * originals from Brian's jobs; the range of work: services.ts).
+ */
+interface Props { town?: string }
+const { town } = Astro.props;
+const items = [
+  { k: 'Local', v: 'Based in Windsor, working Wellington to Longmont' },
+  { k: 'Rules first', v: town ? `${town}’s turf rules checked before we quote` : 'Your town’s turf rules checked before we quote' },
+  { k: 'Built underneath', v: 'Base and drainage made for Northern Colorado clay' },
+  { k: 'Real work', v: 'Every photo is from one of Brian’s jobs' },
+];
+---
+<section class="tr" aria-label="Why NoCo Turf Co.">
+  <ul class="wrap tr__list" role="list">
+    {items.map((it) => <li class="tr__item"><span class="label">{it.k}</span><span class="tr__v">{it.v}</span></li>)}
+  </ul>
+</section>
+
+<style>
+  .tr { border-bottom: 1px solid var(--line); background: var(--ground); }
+  .tr__list { list-style: none; margin: 0 auto; padding-block: clamp(18px, 2vw, 26px); display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px clamp(16px, 2.5vw, 40px); }
+  .tr__item { display: grid; gap: 6px; padding-left: 14px; border-left: 3px solid var(--paint); }
+  .tr__item .label { margin: 0; }
+  .tr__v { font-weight: 600; font-size: 0.98rem; line-height: 1.35; }
+  @media (max-width: 899px) { .tr__list { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (max-width: 479px) { .tr__list { grid-template-columns: 1fr; } }
+</style>

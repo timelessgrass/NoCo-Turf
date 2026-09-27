@@ -1,0 +1,46 @@
+---
+/**
+ * SellGood — "Good to know in {place}": the page's short answer plus three plain-English lines, and a button that
+ * opens the rules-and-sources drawer (#rules) where every line's sourced detail lives.
+ */
+import AnswerBox from './AnswerBox.astro';
+import Icon from './Icon.astro';
+interface Props { place: string; answer: { question: string; answer: string }; good: string[]; id?: string }
+const { place, answer, good, id = 'good' } = Astro.props;
+---
+<section class="section gk" id={id} aria-labelledby={`${id}-h`}>
+  <div class="wrap gk__grid">
+    <div class="gk__lead">
+      <p class="label">Good to know</p>
+      <h2 id={`${id}-h`}>Turf in {place}: what you need to know first.</h2>
+      <ul class="gk__list" role="list">
+        {good.map((g) => <li><span class="gk__tick" aria-hidden="true"></span><span>{g}</span></li>)}
+      </ul>
+      <a class="gk__more" href="#rules" data-open-rules>See every {place} rule, with sources <Icon name="arrow" size={16} /></a>
+    </div>
+    <div class="gk__ans">
+      <AnswerBox question={answer.question} answer={answer.answer} />
+    </div>
+  </div>
+</section>
+
+<script>
+  // The drawer link opens the <details id="rules"> before the browser scrolls to it.
+  document.querySelectorAll<HTMLAnchorElement>('[data-open-rules]').forEach((a) => {
+    a.addEventListener('click', () => { const d = document.getElementById('rules'); if (d instanceof HTMLDetailsElement) d.open = true; });
+  });
+</script>
+
+<style>
+  .gk__grid { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr); gap: clamp(28px, 5vw, 80px); align-items: start; }
+  .gk__lead { display: grid; gap: 16px; }
+  .gk__lead .label { margin: 0; }
+  .gk__lead h2 { font-size: clamp(1.9rem, 1.2rem + 2.4vw, 3rem); max-width: 18ch; }
+  .gk__list { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 14px; }
+  .gk__list li { display: grid; grid-template-columns: 22px 1fr; gap: 12px; align-items: start; font-size: 1.06rem; line-height: 1.5; }
+  .gk__tick { width: 22px; height: 22px; margin-top: 2px; border-radius: 50%; background: var(--paint);
+    -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 0a12 12 0 1 0 0 24 12 12 0 0 0 0-24Zm-1.6 17.2-5-5 1.8-1.8 3.2 3.2 7.2-7.2 1.8 1.8-9 9Z'/%3E%3C/svg%3E") center / contain no-repeat;
+            mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 0a12 12 0 1 0 0 24 12 12 0 0 0 0-24Zm-1.6 17.2-5-5 1.8-1.8 3.2 3.2 7.2-7.2 1.8 1.8-9 9Z'/%3E%3C/svg%3E") center / contain no-repeat; }
+  .gk__more { display: inline-flex; align-items: center; gap: 6px; margin-top: 6px; font-weight: 650; color: var(--ink); text-decoration-color: var(--paint); text-decoration-thickness: 2px; min-height: 44px; }
+  @media (max-width: 899px) { .gk__grid { grid-template-columns: 1fr; } }
+</style>

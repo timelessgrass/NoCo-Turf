@@ -1,0 +1,49 @@
+---
+/**
+ * SellSteps — how a job runs, in four steps, ending on the page's one form (#estimate). Shared by the town,
+ * town × service and community pages so the process reads the same everywhere. Process wording is pending
+ * Brian's confirmation (brief: yard walk, written quote); nothing here names a price, a warranty or a timeline.
+ */
+import Icon from './Icon.astro';
+interface Props { town?: string; place?: string; id?: string }
+const { town, place, id = 'how' } = Astro.props;
+const where = place ?? town;
+const STEPS = [
+  { h: 'Book a yard walk', p: `Tell us about the yard. We’ll set a time to walk it with you${where ? ` in ${where}` : ''}, look at the ground and talk through what you want.` },
+  { h: 'Get a plan and a price', p: 'We measure, check what your town and HOA allow, and put the plan and the price in writing, so there are no surprises.' },
+  { h: 'Install', p: 'The old lawn comes out, the base goes in and gets compacted for your soil, then the turf is laid, seamed and edged.' },
+  { h: 'Walk it together', p: 'We brush it in, clean up, and walk the finished yard with you before we call it done.' },
+];
+---
+<section class="section ground-2 st" id={id} aria-labelledby={`${id}-h`}>
+  <div class="wrap">
+    <header class="st__head">
+      <p class="label">How it works</p>
+      <h2 id={`${id}-h`}>From first call to finished yard, in four steps.</h2>
+    </header>
+    <ol class="st__list" role="list">
+      {STEPS.map((s, i) => (
+        <li class="st__step rise">
+          <span class="st__no num" aria-hidden="true">{i + 1}</span>
+          <h3>{s.h}</h3>
+          <p>{s.p}</p>
+        </li>
+      ))}
+    </ol>
+    <p class="st__cta"><a class="btn btn--paint" href="#estimate" data-cta="steps-quote">Book a yard walk <Icon name="arrow" /></a></p>
+  </div>
+</section>
+
+<style>
+  .st__head { display: grid; gap: 14px; max-width: 760px; margin-bottom: clamp(28px, 4vw, 52px); }
+  .st__head .label { margin: 0; }
+  .st__head h2 { font-size: clamp(2rem, 1.25rem + 2.8vw, 3.4rem); }
+  .st__list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(16px, 2vw, 28px); counter-reset: step; }
+  .st__step { display: grid; gap: 10px; align-content: start; padding-top: 18px; border-top: 2px solid var(--ink); }
+  .st__no { display: grid; place-items: center; width: 40px; height: 40px; border-radius: 50%; background: var(--paint); color: var(--ink); font-family: var(--font-display); font-weight: 800; font-size: 1.1rem; }
+  .st__step h3 { margin: 6px 0 0; font-size: 1.28rem; letter-spacing: -0.015em; }
+  .st__step p { margin: 0; color: var(--ink-2); line-height: 1.5; }
+  .st__cta { margin: clamp(28px, 3vw, 44px) 0 0; }
+  @media (max-width: 999px) { .st__list { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (max-width: 599px) { .st__list { grid-template-columns: 1fr; } }
+</style>

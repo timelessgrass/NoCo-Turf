@@ -61,9 +61,9 @@ const faq = [
       <Photo photo={hero} eager sizes="(max-width: 899px) 75vw, 100vw" class="hero__img" vt="hero-photo" widths={[640, 960, 1280, 1600, 1920]} quality={58} />
     </div>
     <div class="hero__body wrap">
-      <p class="label hero__kicker">Artificial turf · Northern Colorado</p>
-      <h1 id="hero-h">Turf built from the <PaintWord now>base up.</PaintWord></h1>
-      <p class="lede hero__lede">Artificial lawns, dog runs, putting greens and play yards across Northern Colorado — Wellington to Longmont, Loveland to Eaton.</p>
+      <p class="label hero__kicker">Artificial turf &amp; putting greens · Northern Colorado</p>
+      <h1 id="hero-h">Turf and putting greens, <PaintWord now>built right.</PaintWord></h1>
+      <p class="lede hero__lede">Custom lawns, backyard putting greens and dog-friendly yards from Wellington to Longmont, designed around your yard, your HOA’s rules and the clay underneath. No mowing, no watering, no mud.</p>
       <div class="hero__cta">
         <a class="btn btn--paint" href="#estimate" data-cta="hero-quote">Book a yard walk <Icon name="arrow" /></a>
         {phoneHref && <a class="btn btn--line" href={phoneHref} data-cta="hero-call"><Icon name="phone" />Call <span class="btn__num">{phoneDisplay}</span></a>}
@@ -105,12 +105,12 @@ const faq = [
   <section class="section svc" aria-labelledby="svc-h">
     <div class="wrap">
       <header class="shead">
-        <p class="label">What we install</p>
-        <h2 id="svc-h">Five kinds of yard. <PaintWord>Each fails differently.</PaintWord></h2>
-        <p class="lede">The turf on top is the easy part. What decides whether it lasts is underneath — and that changes with the job.</p>
+        <p class="label">What we build</p>
+        <h2 id="svc-h">Lawns, greens and dog yards <PaintWord>that stay put.</PaintWord></h2>
+        <p class="lede">Turf is only as good as what’s under it. The base changes with the job: drainage for dogs, a true roll for putting, a firm, flat lawn on Northern Colorado clay.</p>
       </header>
       <ol class="sched" role="list">
-        <li class="sched__head" aria-hidden="true"><span></span><span class="label">Use</span><span class="label">What decides it</span><span></span></li>
+        <li class="sched__head" aria-hidden="true"><span></span><span class="label">Use</span><span class="label">What we get right</span><span></span></li>
         {visibleServices.map((s, i) => {
           const ph = svcPhoto(s.photo);
           return (
@@ -135,10 +135,10 @@ const faq = [
     <div class="wrap">
       <header class="shead shead--split">
         <div>
-          <p class="label">The work</p>
-          <h2 id="work-h">Real yards. <PaintWord>Look at the edges.</PaintWord></h2>
+          <p class="label">Recent work</p>
+          <h2 id="work-h">Real yards, <PaintWord>real photos.</PaintWord></h2>
         </div>
-        <p class="lede">Photos from Brian’s own jobs, each with the place and month it was taken. Turf lies flat easily in the middle — where it meets concrete, rock and curb is where the work shows.</p>
+        <p class="lede">Every photo on this site comes from one of Brian’s jobs, with where and when it was taken. No stock, no renders.</p>
       </header>
       <WorkReel photos={reel} />
       <p class="work__all"><a class="btn btn--ink" href="/work/">All the work <Icon name="arrow" /></a></p>
@@ -150,20 +150,11 @@ const faq = [
     <div class="wrap crew__grid">
       <CoCrewClip label="On the job" sizes="(max-width: 899px) 90vw, 36vw" class="crew__clip" />
       <div class="crew__copy">
-        <p class="label">Who shows up</p>
-        {years
-          ? <h2 id="crew-h"><span class="num">{years}</span> years of turf, one owner.</h2>
-          : <h2 id="crew-h">One owner, on the job.</h2>}
-        <blockquote class="quote">
-          <p>“I’ve been doing turf for 13 years.”</p>
-          <footer>Brian, owner of NoCo Turf Co.</footer>
-        </blockquote>
-        <p>That’s a power broom in the clip — one of the last passes on a new lawn. It stands the blades up and works the infill down between them, so the turf reads as grass and not as carpet.</p>
-        <blockquote class="quote quote--small">
-          <p>“So, kind of anything that’s turf, we do.”</p>
-          <footer>Brian</footer>
-        </blockquote>
-        <a class="btn btn--line" href="/about/">About Brian and NoCo Turf <Icon name="arrow" /></a>
+        <p class="label">The owner</p>
+        <h2 id="crew-h">Owner-led, <PaintWord>start to finish.</PaintWord></h2>
+        <p class="crew__lead">Brian Richmond has been installing artificial turf for {years ?? 13} years. He started NoCo Turf Co. in Windsor in 2024 to build yards his way: lawns, putting greens, dog runs, play yards, anything that’s turf.</p>
+        <p class="crew__cap">In the clip: the final pass. A power broom stands the blades up and works the infill in, so the turf reads as grass, not carpet.</p>
+        <a class="btn btn--line" href="/about/">Meet Brian <Icon name="arrow" /></a>
       </div>
     </div>
   </section>
@@ -179,7 +170,7 @@ const faq = [
           <p class="label">Where we work</p>
           <h2 id="areas-h">Wellington to <PaintWord>Longmont.</PaintWord></h2>
         </div>
-        <p class="lede">Seventeen towns up and down the I-25 corridor. Each town page covers its own turf rules, water provider and ground.</p>
+        <p class="lede">Seventeen towns on the I-25 corridor. We know each town’s turf rules before we quote, so there are no surprises at the permit counter or with the HOA.</p>
       </header>
       <CorridorMap towns={towns} />
     </div>
@@ -189,9 +180,9 @@ const faq = [
   <section class="section ground-2" aria-labelledby="faq-h">
     <div class="wrap faqwrap">
       <header class="shead">
-        <p class="label">Before you call</p>
-        <h2 id="faq-h">What Northern Colorado homeowners ask first.</h2>
-        <p class="lede">Straight answers from Colorado law and each water provider’s own rules, checked September 2026.</p>
+        <p class="label">Questions</p>
+        <h2 id="faq-h">What homeowners ask us first.</h2>
+        <p class="lede">Straight answers, each with its source.</p>
       </header>
       <Faq items={faq} />
     </div>
@@ -305,11 +296,8 @@ const faq = [
   .crew__grid :global(.crew__clip) { max-width: 460px; }
   .crew__copy h2 { margin: 14px 0 26px; max-width: 13ch; }
   .crew__copy > p { color: var(--ink-2); max-width: 52ch; }
-  .quote { margin: 0 0 24px; }
-  .quote p { font-family: var(--font-display); font-weight: 720; font-stretch: 110%; font-size: clamp(1.5rem, 1.1rem + 1.6vw, 2.4rem); letter-spacing: -0.03em; line-height: 1.08; margin: 0 0 10px; }
-  .quote footer { font-size: var(--fs-small); color: var(--ink-3); }
-  .quote footer::before { content: ''; display: inline-block; width: 22px; height: 3px; border-radius: 2px; background: var(--paint); vertical-align: middle; margin-right: 10px; }
-  .quote--small p { font-size: clamp(1.15rem, 1rem + 0.6vw, 1.5rem); }
+  .crew__lead { font-size: var(--fs-lede); line-height: 1.5; color: var(--ink) !important; margin: 0 0 18px; }
+  .crew__cap { font-size: var(--fs-small); color: var(--ink-3) !important; margin: 0 0 26px; }
   @media (max-width: 899px) { .crew__grid { grid-template-columns: 1fr; } .crew__clip { max-width: 420px; } }
 
   /* ── FAQ / close ── */

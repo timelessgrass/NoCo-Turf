@@ -224,7 +224,7 @@ test('the routes, links and sitemap all read the one visibility rule', () => {
   assert.match(published, /townServiceVisibility\([\s\S]*?\.sitemap/);
   assert.match(read('src/pages/sitemap.xml.ts'), /publishedTownServices\(\)/);
   assert.match(read('src/pages/areas/[slug]/[service].astro'), /visibleTownServices\(\)/);
-  assert.match(read('src/pages/areas/[slug].astro'), /<TownByService /);
+  assert.match(read('src/pages/areas/[slug].astro'), /<SellServices [^>]*townPages=\{byService\}/);
   assert.match(read('src/pages/services/[slug].astro'), /<ServiceByTown /);
 });
 

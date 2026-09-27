@@ -1,0 +1,34 @@
+---
+/**
+ * RulesDrawer — the fine print, closed by default: every rule, rate and source behind a location page, kept in
+ * the page (crawlable, citable) but out of the buyer's way. SellGood's "see every rule" link opens it (#rules).
+ */
+import Icon from './Icon.astro';
+interface Props { title: string; label?: string }
+const { title, label = 'The fine print' } = Astro.props;
+---
+<section class="rules" aria-label={title}>
+  <div class="wrap">
+    <details id="rules" class="rules__box">
+      <summary class="rules__sum">
+        <span><span class="label">{label}</span><strong>{title}</strong></span>
+        <span class="rules__hint">Open <Icon name="arrow" size={16} /></span>
+      </summary>
+      <div class="rules__body"><slot /></div>
+    </details>
+  </div>
+</section>
+
+<style>
+  .rules { padding-block: clamp(32px, 4vw, 64px); border-top: 1px solid var(--line); }
+  .rules__box { border-radius: var(--r-panel); background: var(--ground-2); box-shadow: inset 0 0 0 1px var(--line); }
+  .rules__sum { list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: clamp(18px, 2.4vw, 28px); cursor: pointer; min-height: 44px; }
+  .rules__sum::-webkit-details-marker { display: none; }
+  .rules__sum > span:first-child { display: grid; gap: 6px; }
+  .rules__sum .label { margin: 0; }
+  .rules__sum strong { font-family: var(--font-display); font-size: clamp(1.15rem, 1rem + 0.6vw, 1.5rem); letter-spacing: -0.015em; }
+  .rules__hint { display: inline-flex; align-items: center; gap: 6px; font-weight: 650; white-space: nowrap; }
+  .rules__box[open] .rules__hint :global(svg) { transform: rotate(90deg); }
+  .rules__body { padding-bottom: clamp(24px, 3vw, 40px); background: var(--ground); border-radius: 0 0 var(--r-panel) var(--r-panel); }
+  .rules__body > :global(.wrap), .rules__body :global(.tsrc) { padding-inline: 0; }
+</style>

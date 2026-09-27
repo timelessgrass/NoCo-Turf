@@ -16,11 +16,14 @@ import PageHero from '../../components/PageHero.astro';
 import CorridorMap from '../../components/CorridorMap.astro';
 import CtaBand from '../../components/CtaBand.astro';
 import AreasCommunities from '../../components/AreasCommunities.astro';
+import SellTrust from '../../components/SellTrust.astro';
+import SellSteps from '../../components/SellSteps.astro';
+import { TOWN_SELL } from '../../data/town-sell';
 import PaintWord from '../../components/PaintWord.astro';
 import Icon from '../../components/Icon.astro';
 import { visibleTowns, townsByRegion, visibleCommunities } from '../../lib/visible';
 import { phoneHref, phoneDisplay } from '../../data/brief';
-import { recs, recordsFor, HOA_FAMILY, numberWord, cite, droughtPill, rebateVerdicts, soilUnits, SOIL_CLASS } from '../../components/TownData';
+import { numberWord } from '../../components/TownData';
 
 const towns = await visibleTowns();
 /* The community pages (/areas/{town}-co/{community}/) in this build, grouped by town below the regions. */
@@ -29,50 +32,17 @@ const regions = townsByRegion(towns);
 const n = towns.length;
 const N = numberWord(n);
 
-/* What the town pages hold, counted from the records they cite. */
-const refsOf = (t: (typeof towns)[number]) => recs((t.entry.data as any).blocks.flatMap((b: any) => b.layerRefs)).filter((r) => !HOA_FAMILY.has(r.id));
-const codeTowns = towns.filter((t) => refsOf(t).some((r) => r.layer === 'ordinance')).length;
-const rateSchedules = new Set(towns.flatMap((t) => refsOf(t).filter((r) => r.rates?.tiers?.length).map((r) => r.id))).size;
-const statusTowns = towns.filter((t) => refsOf(t).some((r) => r.layer === 'drought')).length;
-const sourceCount = new Set(towns.flatMap((t) => (t.entry.data as any).sources.map((s: any) => s.url))).size;
-const stats = [
-  { n: codeTowns, of: n, label: 'town pages quote their own town code word for word' },
-  { n: rateSchedules, label: '2026 water-rate schedules, drawn to one scale' },
-  { n: statusTowns, of: n, label: 'town pages carry a dated 2026 watering status' },
-  { n: sourceCount, label: 'published sources, each with the date it was read' },
-];
-
-/* Each town row's spec line: the same records its page draws, reduced to one value each. */
-function spec(t: (typeof towns)[number]) {
-  const rs = refsOf(t);
-  const codes = [...new Set(rs.filter((r) => r.layer === 'ordinance').map((r) => cite(r)).filter(Boolean))] as string[];
-  const none = recordsFor(t.slug).find((r) => r.id === `${t.slug.replace(/-co$/, '')}-code-no-turf-provision`);
-  const util = rs.filter((r) => r.layer === 'utility' && r.provider).sort((a, b) => Number(!!b.rates?.tiers?.length) - Number(!!a.rates?.tiers?.length));
-  const water = [...new Set(util.map((r) => r.provider!.replace(/\s*\(.*\)$/, '')))];
-  const rank = (s: string) => (/emergency/i.test(s) ? 0 : /^(Level|Stage)/.test(s) ? 1 : /Mandatory|Standing/.test(s) ? 2 : /Switched/.test(s) ? 4 : 3);
-  const status = rs.filter((r) => r.layer === 'drought' && !r.applies_to.includes('*')).map(droughtPill).sort((a, b) => rank(a.text) - rank(b.text))[0];
-  const rebate = rs.filter((r) => r.layer === 'rebate').map((r) => rebateVerdicts(r)[0]).find(Boolean);
-  const soilRec = rs.find((r) => r.id.startsWith('nrcs-soil-'));
-  const top = soilRec ? soilUnits(soilRec)[0] : null;
-  return [
-    { k: 'Town code', v: codes.length ? codes.slice(0, 2).join(' · ') + (codes.length > 2 ? ` +${codes.length - 2}` : '') : none ? 'No turf provision found' : null },
-    { k: 'Water', v: water.length ? water.slice(0, 2).join(' · ') + (water.length > 2 ? ` +${water.length - 2}` : '') : null },
-    { k: 'Watering 2026', v: status?.text ?? null },
-    { k: 'Rebate', v: rebate ?? null },
-    { k: 'Ground', v: top ? `${top.name.replace(/\s+\d+–\d+%.*$/, '')} ${top.share}% · ${SOIL_CLASS[top.cls].toLowerCase()}` : null },
-  ].filter((x) => x.v);
-}
-
+/* A region's counties, for its heading. */
 const countiesOf = (ts: typeof towns) => [...new Set(ts.flatMap((t) => t.county.split(/\s*&\s*/)))].map((c) => `${c} County`);
 
 const title = `Artificial Turf in ${n} Northern Colorado Towns | NoCo Turf Co.`;
-const description = `Turf rules, water rates and ground for ${n} towns from Wellington to Dacono, every page sourced and dated. Find your town, then book a yard walk with us.`;
+const description = `Artificial turf, putting greens and dog yards in ${n} Northern Colorado towns, Wellington to Dacono. Find your town, see what it allows, book a yard walk.`;
 const crumbs = [{ name: 'Areas', path: '/areas/' }];
 ---
 <Base title={title} description={description} crumbs={crumbs}>
   <PageHero label="Where we work · Northern Colorado" crumbs={crumbs}
-    lede="Each town page lays out that town’s turf rules, who bills its water, its 2026 watering status and the ground under it, every line sourced and dated.">
-    {N} towns up the I-25 corridor, and <PaintWord now>the rules change at the town line.</PaintWord>
+    lede={`${N} towns from Wellington to Dacono. Pick yours to see what we build there, what your town and HOA allow, and how to get started.`}>
+    Turf and putting greens across <PaintWord now>Northern Colorado.</PaintWord>
     <div slot="after" class="hub__after">
       <div class="hub__acts">
         <a class="btn btn--paint" href="#regions" data-cta="areas-hero-find">Find your town <Icon name="arrow-down" /></a>
@@ -82,18 +52,7 @@ const crumbs = [{ name: 'Areas', path: '/areas/' }];
     </div>
   </PageHero>
 
-  <section class="hub__stats" aria-label="What the town pages hold">
-    <div class="wrap">
-      <dl class="hub__statgrid">
-        {stats.map((s) => (
-          <div class="hub__stat rise">
-            <dt><span class="num">{s.n}</span>{s.of && <span class="hub__of num">/{s.of}</span>}</dt>
-            <dd>{s.label}</dd>
-          </div>
-        ))}
-      </dl>
-    </div>
-  </section>
+  <SellTrust />
 
   <section class="section hub__map" id="map" aria-labelledby="map-h">
     <div class="wrap">
@@ -102,7 +61,7 @@ const crumbs = [{ name: 'Areas', path: '/areas/' }];
           <p class="label">The corridor</p>
           <h2 id="map-h">Wellington to <PaintWord>Dacono.</PaintWord></h2>
         </div>
-        <p class="lede">Point at a town, on the map or in the list, and a route draws out to it. Every name opens that town’s page.</p>
+        <p class="lede">Point at your town on the map, or pick it from the list below.</p>
       </header>
       <CorridorMap towns={towns} boundaryLabel={false} />
     </div>
@@ -111,10 +70,9 @@ const crumbs = [{ name: 'Areas', path: '/areas/' }];
   <section class="section ground-2 hub__regions" id="regions" aria-labelledby="regions-h">
     <div class="wrap">
       <header class="hub__head">
-        <p class="label">How the corridor divides</p>
-        <h2 id="regions-h">The corridor breaks into {numberWord(regions.length).toLowerCase()} stretches.</h2>
-        <p class="lede">Pick the stretch you live in, then your town. Under each name is that page’s headline and the short version of what it covers: the town code it quotes, who bills the water, the 2026 watering status, the rebate and the ground.</p>
-      </header>
+        <p class="label">Find your town</p>
+        <h2 id="regions-h">Pick your area, then your town.</h2>
+              </header>
       <ol class="hub__ledger" role="list">
         {regions.map((r, i) => (
           <li class="hub__region" id={`region-${r.key}`}>
@@ -128,8 +86,7 @@ const crumbs = [{ name: 'Areas', path: '/areas/' }];
                 <li>
                   <a class="hub__town" href={`/areas/${t.slug}/`}>
                     <span class="hub__tname">{t.name}</span>
-                    <span class="hub__tclaim">{(t.entry.data as any).h1}</span>
-                    <span class="hub__spec">{spec(t).map((s) => <span class="hub__sv"><span class="hub__sk">{s.k}</span>{s.v}</span>)}</span>
+                    <span class="hub__tclaim">{TOWN_SELL[t.slug]?.hook ?? (t.entry.data as any).h1}</span>
                     <span class="hub__go" aria-hidden="true"><Icon name="arrow" /></span>
                   </a>
                 </li>
@@ -142,6 +99,8 @@ const crumbs = [{ name: 'Areas', path: '/areas/' }];
   </section>
 
   <AreasCommunities pages={communities} />
+
+  <SellSteps />
 
   <CtaBand title="Tell us which town" payoff="the yard is in."
     lede="Pick it in the form, tell us about the yard and how to reach you. Three short parts, no account, no upload." />

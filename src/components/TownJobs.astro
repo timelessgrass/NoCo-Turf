@@ -18,10 +18,10 @@ const spans = SPANS[Math.min(photos.length, 6)] ?? photos.map(() => 4);
     <div class="wrap">
       <header class="tjobs__head">
         <div>
-          <p class="label">Jobs near {town}</p>
-          <h2 id="jobs-h" class="tjobs__h">{photos.length === 1 ? 'One more frame' : `${numberWord(photos.length)} more frames`} from Brian’s jobs near {town}.</h2>
+          <p class="label">Recent work</p>
+          <h2 id="jobs-h" class="tjobs__h">Yards we’ve built near {town}.</h2>
         </div>
-        <p class="lede tjobs__lede">Each carries the place and month it was taken. Look where the turf meets concrete, rock and curb; that is where the work shows.</p>
+        <p class="lede tjobs__lede">Real photos from Brian’s jobs, each with where and when it was taken. No stock, no renders.</p>
       </header>
       <ol class="tjobs__grid" role="list">
         {photos.map((p, i) => (
