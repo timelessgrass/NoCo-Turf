@@ -2,281 +2,741 @@
   {
     "id": "is-artificial-turf-flammable.cfr-1630-pill-test",
     "layer": "standard",
-    "applies_to": ["*"],
-    "fact": "The federal carpet and rug flammability standard, 16 CFR 1630, lights a methenamine tablet on each of eight 9-by-9-inch samples held flat under a steel plate with an 8-inch hole; a sample passes if its char stops more than 1 inch short of the hole's edge, and at least seven of the eight must pass.",
-    "quote": "(a) Summary of test method. This method involves the exposure of each of eight conditioned, replicate specimens of a given carpet or rug to a standard igniting source in a draft-protected environment, and measurement of the proximity of the charred portion to the edge of the hole in the prescribed flattening frame. (b) Test criterion. A specimen passes the test if the charred portion does not extend to within 2.54 cm. (1.0 in.) of the edge of the hole in the flattening frame at any point. (c) Acceptance criterion. At least seven of the eight specimens shall meet the test criterion in order to conform with this Standard. … (2) Flattening frame. A steel plate, 22.86 × 22.86 cm. (9 × 9 in.), … with a 20.32 cm. (8 in.) diameter hole in its center is required to hold the carpet or rug flat during the course of the test. … (3) Standard igniting source. A methenamine tablet, flat, with a nominal heat of combustion value of 7180 calories/gram, a mass of 150 mg ±5 mg and a nominal diameter of 6mm.",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The federal carpet and rug flammability standard, 16 CFR 1630, tests eight samples, each held flat under a 9-by-9-inch steel plate with an 8-inch hole, lights a methenamine tablet in the center of the hole with the hood's draft turned off, and passes a sample if its char stops more than 1 inch short of the hole's edge, with at least seven of the eight required to pass.",
+    "quote": "(a) Summary of test method. This method involves the exposure of each of eight conditioned, replicate specimens of a given carpet or rug to a standard igniting source in a draft-protected environment, and measurement of the proximity of the charred portion to the edge of the hole in the prescribed flattening frame. (b) Test criterion. A specimen passes the test if the charred portion does not extend to within 2.54 cm. (1.0 in.) of the edge of the hole in the flattening frame at any point. (c) Acceptance criterion. At least seven of the eight specimens shall meet the test criterion in order to conform with this Standard. … (2) Flattening frame. A steel plate, 22.86 × 22.86 cm. (9 × 9 in.), 6.35 mm. ( 1/4 in.) thick with a 20.32 cm. (8 in.) diameter hole in its center is required to hold the carpet or rug flat during the course of the test. … (3) Standard igniting source. A methenamine tablet, flat, with a nominal heat of combustion value of 7180 calories/gram, a mass of 150 mg ±5 mg and a nominal diameter of 6mm. … (1) Place the test chamber in the draft-protected environment (hood with draft off) with its bottom in place. … Place the flattening frame on the specimen and position a methenamine tablet on one of its flat sides in the center of the 20.32 cm. (8 in.) hole.",
     "source_url": "https://www.ecfr.gov/current/title-16/chapter-II/subchapter-D/part-1630",
-    "source_label": "eCFR, 16 CFR Part 1630, Standard for the Surface Flammability of Carpets and Rugs (FF 1-70), §§ 1630.3 and 1630.4(a)",
-    "checked": "2026-09-25",
+    "source_label": "eCFR, 16 CFR Part 1630, Standard for the Surface Flammability of Carpets and Rugs (FF 1-70), §§ 1630.3 and 1630.4(a) and (d)",
+    "checked": "2026-09-27",
     "reachable": true,
     "status": "VERIFIED",
-    "numbers": ["16", "1630", "9", "8", "1", "2.54", "1.0", "22.86", "20.32", "7180", "150", "5", "6", "2", "3"],
-    "notes": "Read in full through the eCFR versioner API (title 16, part 1630, as of 2026-09-01) on 2026-09-25; the human eCFR page redirects automated fetches. The regulation covers carpets and rugs and does not name artificial turf; ASTM D2859 is the trade's near-copy of this method (see is-artificial-turf-flammable.astm-d2859-limits)."
+    "numbers": [
+      "16",
+      "1630",
+      "9",
+      "8",
+      "1",
+      "2.54",
+      "1.0",
+      "22.86",
+      "20.32",
+      "6.35",
+      "7180",
+      "150",
+      "5",
+      "6",
+      "4",
+      "3",
+      "1/4"
+    ],
+    "notes": "Read in full through the eCFR versioner API (title 16, part 1630, as of 2026-09-24; the API needs an Accept-Encoding header allowing compression) on 2026-09-27; the human eCFR page redirects automated fetches. The regulation covers carpets and rugs and does not name artificial turf; ASTM D2859 is ASTM's near-copy of this method (is-artificial-turf-flammable.astm-d2859-limits). With the tablet in the center of an 8-inch hole, a pass means the char stayed within about 3 inches of the tablet; the page states that arithmetic as 'about 3 inches'."
   },
   {
     "id": "is-artificial-turf-flammable.astm-d2859-limits",
     "layer": "standard",
-    "applies_to": ["*"],
-    "fact": "ASTM describes D2859 as similar but not identical to the federal carpet tests, run in the lab on a sample lying flat with no underlay specified, able to identify floor coverings that can be rated flame-resistant under those controlled conditions, and not by itself enough to judge fire hazard under actual fire conditions.",
-    "quote": "1.1.2 This test method is similar but not identical to the test methods contained in 16 CFR 1630 and CFR 1631 and issued by CPSC. If compliance with one of the CPSC test methods is required, this test method does not ensure regulatory compliance. … 1.4 This standard is used to measure and describe the response of materials, products, or assemblies to heat and flame under controlled conditions, but does not by itself incorporate all factors required for fire hazard or fire risk assessment of the materials, products, or assemblies under actual fire conditions. … 5.1 This test method provides a procedure for identification of those finished textile floor covering materials that can be rated as flame-resistant under specific controlled laboratory conditions. 5.2 This test method does not specify the use of an underlay material. … 5.3 In this test, results are observed with the specimens in a horizontal plane. Different results are possible if the same material is tested or used in any other plane.",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "ASTM describes D2859 as similar but not identical to the federal carpet tests, with the same acceptance criterion (at least seven of eight specimens, char stopping more than 1 inch short of the hole's edge), and says it identifies floor coverings that can be rated flame-resistant under specific controlled laboratory conditions, specifies no underlay, observes specimens lying horizontal, and does not by itself assess fire hazard under actual fire conditions.",
+    "quote": "1.1.2 This test method is similar but not identical to the test methods contained in 16 CFR 1630 and CFR 1631 and issued by CPSC. If compliance with one of the CPSC test methods is required, this test method does not ensure regulatory compliance. … 1.4 This standard is used to measure and describe the response of materials, products, or assemblies to heat and flame under controlled conditions, but does not by itself incorporate all factors required for fire hazard or fire risk assessment of the materials, products, or assemblies under actual fire conditions. … 5.1 This test method provides a procedure for identification of those finished textile floor covering materials that can be rated as flame-resistant under specific controlled laboratory conditions. 5.2 This test method does not specify the use of an underlay material. … 5.3 In this test, results are observed with the specimens in a horizontal plane. Different results are possible if the same material is tested or used in any other plane. … The acceptance criterion of these CPSC standards requires that at least seven out of eight individual specimens of a given carpet or rug have passed the test, that is, that the charred portion of a tested specimen shall not extend to within 25.4 mm (1.0 in.) of the edge of the hole in the flattening frame at any point.",
     "source_url": "https://store.astm.org/d2859-16r21.html",
-    "source_label": "ASTM D2859-16(2021), Standard Test Method for Ignition Characteristics of Finished Textile Floor Covering Materials: Scope 1.1.2 and 1.4, Significance and Use 5.1 to 5.3",
-    "checked": "2026-09-25",
+    "source_label": "ASTM D2859-16(2021), Standard Test Method for Ignition Characteristics of Finished Textile Floor Covering Materials: Scope 1.1.2 and 1.4, Significance and Use 5.1 to 5.6",
+    "checked": "2026-09-27",
     "reachable": true,
     "status": "VERIFIED",
-    "numbers": ["2859", "16", "2021", "1630", "1631", "1.4", "5.1", "5.2", "5.3"],
-    "notes": "Read on ASTM's store page (the standard's published scope and significance) on 2026-09-25. D2859-16(2021) is the active version. The full method is sold by ASTM; the federal method it mirrors is quoted in is-artificial-turf-flammable.cfr-1630-pill-test."
+    "numbers": [
+      "2859",
+      "16",
+      "2021",
+      "1630",
+      "1631",
+      "1.4",
+      "5.1",
+      "5.2",
+      "5.3",
+      "25.4",
+      "1.0"
+    ],
+    "notes": "Read on ASTM's store page (the standard's published scope and significance) with curl on 2026-09-27. D2859-16(2021) is the active version. The last sentence is from 5.5; 5.6 says D2859's acceptance criterion is consistent with the CPSC standards'. The full method is sold by ASTM; the federal method it mirrors is quoted in is-artificial-turf-flammable.cfr-1630-pill-test."
   },
   {
     "id": "is-artificial-turf-flammable.astm-e648-corridor",
     "layer": "standard",
-    "applies_to": ["*"],
+    "applies_to": [
+      "*"
+    ],
     "fact": "ASTM E648, the radiant-panel test, measures the critical radiant flux at which flame spreading across a horizontally mounted floor covering goes out; ASTM says it was developed to simulate fires in building corridors and exitways and is not intended for routine use in judging flame spread elsewhere.",
-    "quote": "1.1 This fire-test-response standard covers a procedure for measuring the critical radiant flux of horizontally mounted floor-covering systems exposed to a flaming ignition source in a graded radiant heat energy environment in a test chamber. … 1.2 This fire-test-response standard measures the critical radiant flux at flame-out. It provides a basis for estimating one aspect of fire exposure behavior for floor-covering systems. … The standard was developed to simulate an important fire exposure component of fires that develop in corridors or exitways of buildings and is not intended for routine use in estimating flame spread behavior of floor covering in building areas other than corridors or exitways.",
+    "quote": "1.1 This fire-test-response standard covers a procedure for measuring the critical radiant flux of horizontally mounted floor-covering systems exposed to a flaming ignition source in a graded radiant heat energy environment in a test chamber. … 1.2 This fire-test-response standard measures the critical radiant flux at flame-out. It provides a basis for estimating one aspect of fire exposure behavior for floor-covering systems. … The standard was developed to simulate an important fire exposure component of fires that develop in corridors or exitways of buildings and is not intended for routine use in estimating flame spread behavior of floor covering in building areas other than corridors or exitways. … 5.1 This fire test response standard is designed to provide a basis for estimating one aspect of the fire exposure behavior of a floor-covering system installed in a building corridor.",
     "source_url": "https://store.astm.org/e0648-25a.html",
-    "source_label": "ASTM E648-25a, Standard Test Method for Critical Radiant Flux of Floor-Covering Systems Using a Radiant Heat Energy Source: Scope 1.1 and 1.2",
-    "checked": "2026-09-25",
+    "source_label": "ASTM E648-25a, Standard Test Method for Critical Radiant Flux of Floor-Covering Systems Using a Radiant Heat Energy Source: Scope 1.1 and 1.2, Significance and Use 5.1",
+    "checked": "2026-09-27",
     "reachable": true,
     "status": "VERIFIED",
-    "numbers": ["648", "1.1", "1.2"],
-    "notes": "Read on ASTM's store page on 2026-09-25; E648-25a is listed as the active version. Result classes for the test are set by building and life-safety codes, not quoted here."
+    "numbers": [
+      "648",
+      "25",
+      "1.1",
+      "1.2",
+      "5.1"
+    ],
+    "notes": "Read on ASTM's store page with curl on 2026-09-27; E648-25a is listed as the active version. Result classes for the test are set by building and life-safety codes, not quoted here."
   },
   {
     "id": "is-artificial-turf-flammable.synlawn-847-fire-lines",
     "layer": "product",
-    "applies_to": ["*"],
+    "applies_to": [
+      "*"
+    ],
     "fact": "SYNLawn's published sheet for one lawn product prints its D2859 flammability result as 'Passed' and lists fire testing to ASTM E108, D2859 and E648 without printing an E108 or E648 result.",
     "quote": "Flammability Passed - D-2859 … TESTING DATA FIRE ASTM E108, ASTM D2859, ASTM E648",
     "source_url": "https://www.synlawn.com/wp-content/uploads/2025/02/SYNLawn-SYNAugustine-847-S847B-USA.pdf",
     "source_label": "SYNLawn, SYNAugustine 847 product specifications (SKU S847B), page 2, dated December 10, 2025",
-    "checked": "2026-09-25",
+    "checked": "2026-09-27",
     "reachable": true,
     "status": "VERIFIED",
     "recheck": "2027-03-25",
-    "numbers": ["2859"],
-    "notes": "Read with pdftotext on 2026-09-25. Cited as an example of how a sheet presents fire tests, not as a recommendation; the same sheet is cited for its other test methods in turf-spec-sheet-for-colorado.synlawn-847-test-methods."
+    "numbers": [
+      "2859",
+      "108",
+      "648",
+      "847",
+      "10",
+      "2025"
+    ],
+    "notes": "Read with pdftotext on 2026-09-27; the sheet's footer is dated 12.10.2025. Cited as an example of how a sheet presents fire tests, not as a recommendation; the same sheet is cited for its other test methods in turf-spec-sheet-for-colorado.synlawn-847-test-methods."
   },
   {
     "id": "is-artificial-turf-flammable.csfs-grass-fuels",
     "layer": "research",
-    "applies_to": ["*"],
+    "applies_to": [
+      "*"
+    ],
     "fact": "The Colorado State Forest Service calls grasses perhaps the most pervasive surface fuel in Colorado: they catch fire easily, spread fire rapidly and burn out quickly, and grass fuels can readily ignite structures directly next to them.",
     "quote": "Grasses are perhaps the most pervasive and abundant surface fuel in Colorado. When available to burn, grasses can catch fire easily, and grass fires often spread rapidly. They also burn out quickly and do not release as much energy as fires in larger fuel types, like trees. Nonetheless, grass fuels can readily ignite structures that are directly adjacent to them.",
     "source_url": "https://csfs.colostate.edu/wp-content/uploads/2021/04/2021_CSFS_HIZGuide_Web.pdf",
     "source_label": "Colorado State Forest Service, The Home Ignition Zone: A guide to preparing your home for wildfire and creating defensible space (2021), Fuel types: Grasses",
-    "checked": "2026-09-25",
+    "checked": "2026-09-27",
     "reachable": true,
     "status": "VERIFIED",
-    "numbers": [],
-    "notes": "Read with curl and pdftotext on 2026-09-25. The PDF's text layer drops the 'fi' ligature ('fre'); the quote restores the printed word 'fire'."
+    "numbers": [
+      "2021"
+    ],
+    "notes": "Read with curl and pdftotext on 2026-09-27. The PDF's text layer drops the 'fi' ligature ('fre'); the quote restores the printed word 'fire'."
+  },
+  {
+    "id": "is-artificial-turf-flammable.csfs-zone-1",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado State Forest Service's Home Ignition Zone guide calls the first 5 feet from the home Zone 1, meant to keep flames from contacting the structure, says to use nonflammable, hard surface materials there, such as rock, gravel, sand, cement, bare earth or stone or concrete pavers, to remove flammable vegetation including mulch and to rake out mulch and other organic debris within 5 feet of decks and structures, and puts Zone 2 at 5 to 30 feet and Zone 3 at 30 to 100 feet.",
+    "quote": "0-5 FEET FROM THE HOME ZONE 1 The area nearest the home. This zone requires the most vigilant work in order to reduce or eliminate ember ignition and direct flame contact with your home. 5-30 FEET FROM THE HOME ZONE 2 … 30-100 FEET FROM THE HOME ZONE 3 … ZONE 1 GOAL: This zone is designed to prevent flames from coming in direct contact with the structure. Use nonflammable, hard surface materials in this zone, such as rock, gravel, sand, cement, bare earth or stone/concrete pavers. CRITICAL STEPS Remove all flammable vegetation, including shrubs, slash, mulch and other woody debris. … Rake and dispose of pine needles, dead leaves, mulch and other organic debris within 5 feet of all decks and structures.",
+    "source_url": "https://csfs.colostate.edu/wp-content/uploads/2021/04/2021_CSFS_HIZGuide_Web.pdf",
+    "source_label": "Colorado State Forest Service, The Home Ignition Zone guide (2021), pp. 8-9: Zones 1, 2 and 3",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "0",
+      "5",
+      "1",
+      "30",
+      "2",
+      "100",
+      "3",
+      "2021",
+      "8",
+      "9"
+    ],
+    "notes": "Read with curl and pdftotext on 2026-09-27. The text layer drops the 'fl' ligature ('fammable', 'fame'); the quote restores the printed words. Checkbox glyphs dropped. The guide does not name artificial turf."
+  },
+  {
+    "id": "is-artificial-turf-flammable.csfs-embers",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado State Forest Service says wind can carry embers more than a mile ahead of a wildfire's flaming front, that even the smallest can start spot fires on any ignitable surface, that embers are the most common source of home ignition during wildfires, and that keeping fuels out of the 5 feet around a home greatly reduces ignition by direct flame contact.",
+    "quote": "Embers (firebrands) are small pieces of burning material that can be transported by wind more than a mile ahead of a wildfire’s flaming front. Embers can vary greatly in size, but even the smallest can start new fires (known as spot fires) on any ignitable surface they encounter, inside or outside a home. This is the most common source of home ignition during wildfires. … If fuels are adjacent to a home, direct flame contact can ignite the house. Ensuring no such fuels exist within 5 feet of a home, particularly near windows or under decks, greatly minimizes this possibility.",
+    "source_url": "https://csfs.colostate.edu/wp-content/uploads/2021/04/2021_CSFS_HIZGuide_Web.pdf",
+    "source_label": "Colorado State Forest Service, The Home Ignition Zone guide (2021), Methods of home ignition",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5",
+      "2021"
+    ],
+    "notes": "Read with curl and pdftotext on 2026-09-27; ligatures restored ('fire', 'flaming', 'flame')."
+  },
+  {
+    "id": "is-artificial-turf-flammable.csfs-wui-definition",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado State Forest Service says a home in or near the natural vegetation of Colorado's grasslands, shrublands, foothills or mountains is in the wildland-urban interface and inherently at risk from wildfire, and points readers to the Colorado Forest Atlas for WUI risk information.",
+    "quote": "If your home is located in or near the natural vegetation of Colorado’s grasslands, shrublands, foothills or mountains, you live in the wildland-urban interface — also known as the WUI — and are inherently at risk from a wildfire. … Access WUI risk information coloradoforestatlas.org",
+    "source_url": "https://csfs.colostate.edu/wp-content/uploads/2021/04/2021_CSFS_HIZGuide_Web.pdf",
+    "source_label": "Colorado State Forest Service, The Home Ignition Zone guide (2021), Introduction",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2021"
+    ],
+    "notes": "Read with curl and pdftotext on 2026-09-27; ligatures restored ('wildfire'). The Forest Atlas site renders by script and was not read; the page names it as the guide does and does not link it."
+  },
+  {
+    "id": "is-artificial-turf-flammable.csfs-synthetic-decks",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado State Forest Service says some decks and fences are readily combustible whether made of synthetic (plastic or composite) or natural materials, and that embers falling through decks can ignite flammable materials beneath.",
+    "quote": "Some decks and fences are readily combustible, whether made of synthetic (plastic/composite) or natural materials (wood). Many deck designs allow embers to accumulate between board gaps and at joists below deck boards. Embers can also fall through decks and may easily ignite flammable materials beneath, making it critical to remove all materials from underneath the deck.",
+    "source_url": "https://csfs.colostate.edu/wp-content/uploads/2021/04/2021_CSFS_HIZGuide_Web.pdf",
+    "source_label": "Colorado State Forest Service, The Home Ignition Zone guide (2021), Structural components: Decks/Fences",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2021"
+    ],
+    "notes": "Read with curl and pdftotext on 2026-09-27; ligatures restored ('flammable'). The passage is about decks and fences, not turf; the page uses it only to show that 'plastic' does not mean 'won't burn' in CSFS's view."
   },
   {
     "id": "is-artificial-turf-flammable.ibhs-zone0-research",
     "layer": "research",
-    "applies_to": ["*"],
+    "applies_to": [
+      "*"
+    ],
     "fact": "The Insurance Institute for Business & Home Safety says the 5 feet around a home is where embers, flames and radiant heat reach it, and that its laboratory testing and post-fire investigations consistently show removing all combustible materials from those 5 feet is the most effective defensible-space action a homeowner can take.",
     "quote": "Research from the Insurance Institute for Business & Home Safety (IBHS) shows that the 5-foot area immediately surrounding a home—known as the Noncombustible Zone 0, Home Ignition Zone (HIZ), or ember-resistant zone—is one of the most important areas for reducing wildfire risk . This is where embers, flames, and radiant heat associated with wildfire reach the home. … Laboratory testing and post-fire investigations have consistently shown that removing all combustible materials from this 5-foot zone is the most effective defensible space action homeowners can take to reduce the risk of home ignition .",
     "source_url": "https://ibhs.org/wildfire/noncombustible-zone0-minimizing-pathways-to-home-ignition/",
     "source_label": "Insurance Institute for Business & Home Safety, Noncombustible Zone 0: Minimizing Pathways to Home Ignition",
-    "checked": "2026-09-25",
+    "checked": "2026-09-27",
     "reachable": true,
     "status": "VERIFIED",
-    "numbers": ["5", "0"],
-    "notes": "Read with curl on 2026-09-25. The spaces before the periods are the page's (link markup). The page does not name artificial turf; the institute's designation standard does (is-artificial-turf-flammable.ibhs-wph-zone0-turf)."
+    "numbers": [
+      "5",
+      "0"
+    ],
+    "notes": "Read with curl on 2026-09-27. The spaces before the periods are the page's (link markup). The page does not name artificial turf; the institute's designation standard does (is-artificial-turf-flammable.ibhs-wph-zone0-turf)."
   },
   {
     "id": "is-artificial-turf-flammable.ibhs-wph-zone0-turf",
     "layer": "standard",
-    "applies_to": ["*"],
+    "applies_to": [
+      "*"
+    ],
     "fact": "IBHS's Wildfire Prepared Home standard, aimed at wind-driven embers, requires the first 5 feet around a home and its attachments to be noncombustible, measured from the exterior walls and any combustible deck's or overhead structure's outermost posts, with artificial turf, wood and rubber mulch and exposed weed cloth removed to bare mineral soil and gravel, pavers, river rock, decomposed granite and concrete permitted.",
     "quote": "Wildfire Prepared Home – Base (Essential) – Provides essential home protection from wind-driven embers by addressing vulnerable building features, vegetation and combustible items on and around the building, reducing pathways for fire to spread to the structure. … The first five feet surrounding the building and its attachments (e.g., patios, decks, stairs, and overhead structures) is the most critical area of defensible space. This zone shall be established and maintained as noncombustible. The 0-5 Foot Noncombustible Zone is measured horizontally from the edge of the building’s exterior walls and, if present, the outermost posts of a combustible deck or overhead structure, extending outward to 5 feet (see Figure 2). … Groundcover – Shall remove all combustible groundcover materials (e.g., wood and rubber mulch, artificial turf, and exposed weed cloth) within 5 feet to bare mineral soil. Note: Noncombustible hardscape materials (e.g., bare dirt, gravel, pavers, river rocks, decomposed granite, steppingstones, and concrete) are permitted.",
     "source_url": "https://wildfireprepared.org/wp-content/uploads/WFPH-Technical-Standard-12-25.pdf",
     "source_label": "Insurance Institute for Business & Home Safety, Wildfire Prepared Home Technical Standard (December 2025), Sections 1.1.2 and 2.2.1",
-    "checked": "2026-09-25",
+    "checked": "2026-09-27",
     "reachable": true,
     "status": "VERIFIED",
     "recheck": "2027-03-25",
-    "numbers": ["5", "0", "2", "2025"],
-    "notes": "Read with pdftotext on 2026-09-25. Bullet glyphs dropped from the quote. A voluntary designation standard, not a code; the page presents it as IBHS's program."
+    "numbers": [
+      "5",
+      "0",
+      "2",
+      "2025"
+    ],
+    "notes": "Read with pdftotext on 2026-09-27. Bullet glyphs dropped from the quote. A voluntary designation standard, not a code; pages present it as IBHS's program. The Groundcover line carries no exception for fire-rated turf."
   },
   {
     "id": "is-artificial-turf-flammable.ibhs-wph-decks",
     "layer": "standard",
-    "applies_to": ["*"],
+    "applies_to": [
+      "*"
+    ],
     "fact": "The same IBHS standard lists artificial turf among the combustible items to remove from the walking surface of an attached deck or patio, and requires artificial turf and other combustible groundcover under an elevated deck to be removed to bare mineral soil.",
     "quote": "2.1.5.2 Top of Walking Surfaces … Combustible Items – Combustible items shall be removed, including but not limited to: sheds (including noncombustible sheds), saunas, storage containers, combustible privacy dividers, artificial turf, large area rugs, plastic covers, … 2.1.5.4 Underneath an Elevated Deck – Vegetation and Groundcover - Shall remove all vegetation and combustible groundcover (e.g., grass, artificial turf, weeds, plants, shrubs, bushes, trees, exposed weed cloth, wood and rubber mulch) to bare mineral soil.",
     "source_url": "https://wildfireprepared.org/wp-content/uploads/WFPH-Technical-Standard-12-25.pdf",
     "source_label": "Insurance Institute for Business & Home Safety, Wildfire Prepared Home Technical Standard (December 2025), Sections 2.1.5.2 and 2.1.5.4",
-    "checked": "2026-09-25",
+    "checked": "2026-09-27",
     "reachable": true,
     "status": "VERIFIED",
     "recheck": "2027-03-25",
-    "numbers": ["2025"],
-    "notes": "Read with pdftotext on 2026-09-25. Section 2.1.5 covers attached patios, decks and overhead structures containing any combustible materials. Bullet glyphs dropped."
+    "numbers": [
+      "2.1",
+      "5.2",
+      "5.4",
+      "2025"
+    ],
+    "notes": "Read with pdftotext on 2026-09-27. Section 2.1.5 covers attached patios, decks and overhead structures containing any combustible materials; 2.1.6 applies the same rules to detached decks and overhead structures within 30 feet. Bullet glyphs dropped."
   },
   {
     "id": "is-artificial-turf-flammable.ibhs-definitions",
     "layer": "standard",
-    "applies_to": ["*"],
-    "fact": "IBHS's standard defines combustible as materials that can ignite and burn, and noncombustible as material of which no part will ignite and burn when subjected to fire, or any material passing ASTM E136, a vertical tube furnace test at 750°C; it lists ASTM E108 as the fire test for roof coverings, and describes a Red Flag Warning as warm temperatures, very low humidities and strong winds combining to raise fire danger.",
-    "quote": "Combustible – Materials that can ignite and burn. … Noncombustible – Made from material of which no part will ignite and burn when subjected to fire. Any material passing ASTM E136 shall be considered noncombustible. … Red Flag Warning – A Red Flag Warning is determined by local offices of the National Weather Service (NWS) and is specific to those local areas. A Red Flag Warning means warm temperatures, very low humidities, and strong winds are expected to combine to produce an increased risk of fire danger. … E108 – Standard Test Methods for Fire Tests of Roof Coverings … E136 – Standard Test Method for Behavior of Materials in a Vertical Tube Furnace at 750°C",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "IBHS's standard defines combustible as materials that can ignite and burn, and noncombustible as material of which no part will ignite and burn when subjected to fire, or any material passing ASTM E136, a vertical tube furnace test at 750°C; it lists ASTM E108 as the fire test for roof coverings.",
+    "quote": "Combustible – Materials that can ignite and burn. … Noncombustible – Made from material of which no part will ignite and burn when subjected to fire. Any material passing ASTM E136 shall be considered noncombustible. … E108 – Standard Test Methods for Fire Tests of Roof Coverings … E136 – Standard Test Method for Behavior of Materials in a Vertical Tube Furnace at 750°C",
     "source_url": "https://wildfireprepared.org/wp-content/uploads/WFPH-Technical-Standard-12-25.pdf",
     "source_label": "Insurance Institute for Business & Home Safety, Wildfire Prepared Home Technical Standard (December 2025), Sections 4.3 Definitions and 4.4.1 ASTM referenced standards",
-    "checked": "2026-09-25",
+    "checked": "2026-09-27",
     "reachable": true,
     "status": "VERIFIED",
     "recheck": "2027-03-25",
-    "numbers": ["750", "2025"],
-    "notes": "Read with pdftotext on 2026-09-25. Bullet glyphs dropped."
+    "numbers": [
+      "136",
+      "108",
+      "750",
+      "2025"
+    ],
+    "notes": "Read with pdftotext on 2026-09-27. Bullet glyphs dropped."
   },
   {
     "id": "is-artificial-turf-flammable.ibhs-wph-colorado",
     "layer": "research",
-    "applies_to": ["*"],
+    "applies_to": [
+      "*"
+    ],
     "fact": "IBHS's Wildfire Prepared Home designation program is available in Colorado.",
     "quote": "The Wildfire Prepared Home™ designation program empowers homeowners to take science-based, proven steps to meaningfully reduce wildfire risk to their home and property. Now available in AZ, CA, CO, FL, ID, MT, NV, NM, OK, OR, UT, TX, WA, WY !",
     "source_url": "https://wildfireprepared.org/",
     "source_label": "Insurance Institute for Business & Home Safety, Wildfire Prepared Home (program home page)",
-    "checked": "2026-09-25",
+    "checked": "2026-09-27",
     "reachable": true,
     "status": "VERIFIED",
     "recheck": "2027-03-25",
     "numbers": [],
-    "notes": "Read with curl on 2026-09-25. The standard says to check the site's 'Resources by State' page for current availability; recheck, since the state list changes."
+    "notes": "Read with curl on 2026-09-27. The state list changes; recheck."
   },
   {
     "id": "is-artificial-turf-flammable.epa-tire-fires",
     "layer": "research",
-    "applies_to": ["*"],
+    "applies_to": [
+      "*"
+    ],
     "fact": "EPA says scrap tires are difficult to ignite, but that once a tire fire starts it is generally very hard to control and put out, water or foam is often futile, and smothering it with dirt or sand is usually the way to extinguish it.",
     "quote": "Waste tires are difficult to ignite, but once a tire fire starts, it is generally very hard to control and extinguish. Using water and/or foam to extinguish a tire fire is often futile. Water is best used to keep adjacent, unburned tires from igniting. Smothering a tire fire with dirt or sand is usually the best option for extinguishing fires.",
     "source_url": "https://archive.epa.gov/epawaste/conserve/materials/tires/web/html/fires.html",
     "source_label": "U.S. EPA, Scrap Tires: Tire Fires (archived web page)",
-    "checked": "2026-09-25",
+    "checked": "2026-09-27",
     "reachable": true,
     "status": "VERIFIED",
     "numbers": [],
-    "notes": "Read with curl on 2026-09-25. EPA's archive of a former Wastes page; it describes scrap tires in piles, not crumb rubber infill in turf, and the page says so. Crumb rubber is ground scrap tire (is-crumb-rubber-safe.epa-qa-how-made)."
+    "notes": "Read with curl on 2026-09-27. EPA's archive of a former Wastes page; it describes scrap tires in piles, not crumb rubber infill in turf, and the page says so. Crumb rubber is ground scrap tire (is-crumb-rubber-safe.epa-qa-how-made)."
+  },
+  {
+    "id": "is-artificial-turf-flammable.osha-sds-fire-sections",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "OSHA's guide to safety data sheets says Section 5 gives fire-fighting measures, including hazardous combustion products created when the chemical burns, and Section 9 lists physical and chemical properties, flammability among them.",
+    "quote": "Section 5: Fire-Fighting Measures This section provides recommendations for fighting a fire caused by the chemical. The required information consists of: • Recommendations of suitable extinguishing equipment, and information about extinguishing equipment that is not appropriate for a particular situation. • Advice on specific hazards that develop from the chemical during the fire, such as any hazardous combustion products created when the chemical burns. … Section 9: Physical and Chemical Properties This section identifies physical and chemical properties associated with the substance or mixture. The minimum required information consists of: … • Flammability (solid, gas);",
+    "source_url": "https://www.osha.gov/sites/default/files/publications/OSHA3514.pdf",
+    "source_label": "OSHA Brief, Hazard Communication Standard: Safety Data Sheets (DSG BR-3514, 2/2012)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5",
+      "9",
+      "3514",
+      "2",
+      "2012"
+    ],
+    "notes": "Read with pdftotext on 2026-09-27. Safety data sheets are required for hazardous chemicals; an infill maker may publish one for a product not classified as hazardous (dog-turf-infill.zeofill-sds is an example). The page says 'if the infill has one'."
   },
   {
     "id": "is-artificial-turf-flammable.co-sb23-166-wrc",
     "layer": "state",
-    "applies_to": ["*"],
+    "applies_to": [
+      "*"
+    ],
     "fact": "SB23-166 created Colorado's Wildfire Resiliency Code Board to adopt minimum codes for hardening structures and reducing fire risk in the defensible space around them in the wildland-urban interface, and requires a local government with building- or fire-code authority in that area to adopt a code that meets or exceeds the board's within 3 months of the board adopting it.",
     "quote": "The act establishes a wildfire resiliency code board (board) in the division of fire prevention and control (division) within the department of public safety (department) … The board is required to promulgate rules concerning the adoption of codes and standards for the hardening of structures and reducing fire risk in the defensible space surrounding structures in the wildland-urban interface in Colorado … The act requires a governing body with jurisdiction in an area within the wildland-urban interface that has the authority to adopt building codes or fire codes to adopt and enforce a code that meets or exceeds the minimum standards of the codes adopted by the board within 3 months of the date the board adopts its codes.",
     "source_url": "https://leg.colorado.gov/bills/sb23-166",
     "source_label": "SB23-166 bill summary (as enacted), Colorado General Assembly (approved May 12, 2023)",
-    "effective": "2023-05-12",
-    "checked": "2026-09-25",
+    "checked": "2026-09-27",
     "reachable": true,
     "status": "VERIFIED",
     "recheck": "2027-06-15",
-    "numbers": ["3"],
-    "notes": "Read 2026-09-25 (the site answers 406 to a bare curl; a browser Accept header reads it). Not legal advice. The board's code is the 2025 Colorado Wildfire Resiliency Code, CWRC Version 1.0, dated June 1, 2025 (cover of Larimer County's recorded copy)."
+    "numbers": [
+      "3",
+      "12",
+      "2023"
+    ],
+    "notes": "Read 2026-09-27 (the site answers 406 to a bare curl; a browser user agent and Accept header read it). Not legal advice. The board's code is the 2025 Colorado Wildfire Resiliency Code, CWRC Version 1.0 (cover of Larimer County's recorded copy)."
   },
   {
     "id": "is-artificial-turf-flammable.larimer-wrc-adopted",
     "layer": "county",
-    "applies_to": ["fort-collins-co", "loveland-co", "berthoud-co", "timnath-co", "wellington-co", "windsor-co", "johnstown-co"],
+    "applies_to": [
+      "fort-collins-co",
+      "loveland-co",
+      "berthoud-co",
+      "timnath-co",
+      "wellington-co",
+      "windsor-co",
+      "johnstown-co"
+    ],
     "fact": "Larimer County's Board of County Commissioners unanimously adopted the 2025 Wildfire Resiliency Code with county amendments on September 22, 2025, effective January 1, 2026.",
     "quote": "2025 Wildfire Resiliency Code - Effective January 1, 2026 The Board of County Commissioners unanimously adopted the 2025 Wildfire Resiliency code with Larimer County Amendments on September 22, 2025.",
     "source_url": "https://www.larimer.gov/building/building/codes",
     "source_label": "Larimer County Building, Building Codes (2025 Wildfire Resiliency Code, adopted September 22, 2025)",
-    "effective": "2026-01-01",
-    "checked": "2026-09-25",
+    "checked": "2026-09-27",
     "reachable": false,
     "status": "VERIFIED",
     "recheck": "2027-03-25",
-    "numbers": ["2025", "1", "2026", "22"],
-    "notes": "larimer.gov returns 403 to curl. The live page was read through a fetch tool on 2026-09-25 (same adoption sentence) and word for word in the Wayback capture of 2026-03-07 (web.archive.org/web/20260307144840/https://www.larimer.gov/building/building/codes). The code applies to unincorporated Larimer County only; cities and towns adopt their own."
+    "numbers": [
+      "2025",
+      "1",
+      "2026",
+      "22"
+    ],
+    "notes": "larimer.gov returns 403 to curl. The live page was read through a fetch tool on 2026-09-27 (same adoption sentence) and word for word, heading included, in the Wayback capture of 2026-03-07 (web.archive.org/web/20260307144840/https://www.larimer.gov/building/building/codes). The code applies to unincorporated Larimer County only; cities and towns adopt their own."
   },
   {
     "id": "is-artificial-turf-flammable.larimer-wrc-all-unincorporated",
     "layer": "county",
-    "applies_to": ["fort-collins-co", "loveland-co", "berthoud-co", "timnath-co", "wellington-co", "windsor-co", "johnstown-co"],
+    "applies_to": [
+      "fort-collins-co",
+      "loveland-co",
+      "berthoud-co",
+      "timnath-co",
+      "wellington-co",
+      "windsor-co",
+      "johnstown-co"
+    ],
     "fact": "Larimer County's amended Wildfire Resiliency Code deems all of unincorporated Larimer County a wildland-urban interface area, where structures and parcels must meet its structure-hardening and site requirements.",
     "quote": "Because of the history of and potential for large, destructive wildland fires, all of unincorporated Larimer County is deemed a wildland-urban interface area. Structures and parcels shall be constructed and maintained in accordance with the provisions for structure hardening of Chapter 4 and site and area requirements of Chapter 5.",
     "source_url": "https://www.larimer.gov/sites/default/files/2025-wildfire-resiliency-code-w-lc-amendments.pdf",
     "source_label": "Colorado Wildfire Resiliency Code as adopted by Larimer County, Sec. 302.1 as amended (recorded September 23, 2025)",
-    "checked": "2026-09-25",
+    "checked": "2026-09-27",
     "reachable": false,
     "status": "VERIFIED",
     "recheck": "2027-03-25",
-    "numbers": [],
-    "notes": "The PDF returns 403 to curl; fetched through a fetch tool on 2026-09-25 and read with pdftotext, checked against the page image (strikethrough text excluded). The state text this replaces left the interface areas to be declared from findings of fact."
+    "numbers": [
+      "302.1",
+      "4",
+      "5",
+      "23",
+      "2025"
+    ],
+    "notes": "The PDF returns 403 to curl; fetched through a fetch tool on 2026-09-27 (byte-identical to the Wayback id_ capture) and read with pdftotext, checked against the page image (strikethrough text excluded). The state text this replaces left the interface areas to be declared from findings of fact."
   },
   {
     "id": "is-artificial-turf-flammable.larimer-wrc-zone-1",
     "layer": "county",
-    "applies_to": ["fort-collins-co", "loveland-co", "berthoud-co", "timnath-co", "wellington-co", "windsor-co", "johnstown-co"],
+    "applies_to": [
+      "fort-collins-co",
+      "loveland-co",
+      "berthoud-co",
+      "timnath-co",
+      "wellington-co",
+      "windsor-co",
+      "johnstown-co"
+    ],
     "fact": "Larimer County's amended Wildfire Resiliency Code calls the first 5 feet around a structure the Immediate Zone, meant to reduce or eliminate ember ignition and direct flame contact, requires noncombustible, hard surface materials there such as rock, gravel, sand, concrete, bare earth or stone or concrete pavers, and requires plantings, combustible mulch and woody debris removed; the county struck the state code's exception for ignition-resistant plantings in that zone.",
     "quote": "502.1 Structure Ignition Zone 1 (0-5 feet): Immediate Zone 502.1.1 Objective. This zone is designed to reduce or eliminate ember ignition and direct flame contact with the structure, decks, stairs, and attachments. … 502.1.2 Materials. Use noncombustible, hard surface materials in this zone, such as rock, gravel, sand, concrete, bare earth or stone/concrete pavers. … 502.1.3 Plantings. Remove all plantings including shrubs, slash, combustible mulch and other woody debris",
     "source_url": "https://www.larimer.gov/sites/default/files/2025-wildfire-resiliency-code-w-lc-amendments.pdf",
     "source_label": "Colorado Wildfire Resiliency Code as adopted by Larimer County, Sec. 502.1 as amended (effective January 1, 2026)",
-    "checked": "2026-09-25",
+    "checked": "2026-09-27",
     "reachable": false,
     "status": "VERIFIED",
     "recheck": "2027-03-25",
-    "numbers": ["502.1", "1", "5", "2026"],
-    "notes": "Read with pdftotext and checked against the page image on 2026-09-25. Struck through in the county's copy: 'CLASS 1' in the Section 502 heading, the 502.1.2 exception ('Ignition resistant plantings, per an approved list by the AHJ … are allowed in the Immediate Zone') and ', with the exception of ignition resistant vegetation' in 502.1.3. Artificial turf is not named anywhere in the adopted text (searched); whether it may sit in the zone is the county's call, and the page says ask."
+    "numbers": [
+      "502.1",
+      "1",
+      "5",
+      "2026"
+    ],
+    "notes": "Read with pdftotext and checked against the page image (recorded page 122 of 132) on 2026-09-27. Struck through in the county's copy: 'CLASS 1' in the Section 502 heading, the 502.1.2 exception ('Ignition resistant plantings, per an approved list by the AHJ … are allowed in the Immediate Zone') and ', with the exception of ignition resistant vegetation' in 502.1.3. Artificial turf is not named anywhere in the adopted text (searched 'turf', 'artificial', 'synthetic'); whether it may sit in the zone is the county's call, and the page says ask."
+  },
+  {
+    "id": "is-artificial-turf-flammable.larimer-wrc-hiz-reference",
+    "layer": "county",
+    "applies_to": [
+      "fort-collins-co",
+      "loveland-co",
+      "berthoud-co",
+      "timnath-co",
+      "wellington-co",
+      "windsor-co",
+      "johnstown-co"
+    ],
+    "fact": "Larimer County's code tells its code official to refer to the Colorado State Forest Service's Home Ignition Zone Guide as needed, with the code governing where the two conflict.",
+    "quote": "501.2 Reference. As needed, the code official shall refer to the Home Ignition Zone (HIZ) Guide as developed by the Colorado State Forest Service. Where conflicts occur between provisions of this code and the HIZ Guide, the provisions of this code shall govern.",
+    "source_url": "https://www.larimer.gov/sites/default/files/2025-wildfire-resiliency-code-w-lc-amendments.pdf",
+    "source_label": "Colorado Wildfire Resiliency Code as adopted by Larimer County, Sec. 501.2",
+    "checked": "2026-09-27",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "501.2"
+    ],
+    "notes": "Read with pdftotext and checked against the page image on 2026-09-27; not struck through."
   },
   {
     "id": "is-artificial-turf-flammable.larimer-wrc-noncombustible",
     "layer": "county",
-    "applies_to": ["fort-collins-co", "loveland-co", "berthoud-co", "timnath-co", "wellington-co", "windsor-co", "johnstown-co"],
+    "applies_to": [
+      "fort-collins-co",
+      "loveland-co",
+      "berthoud-co",
+      "timnath-co",
+      "wellington-co",
+      "windsor-co",
+      "johnstown-co"
+    ],
     "fact": "The county's code defines a noncombustible building material as one of which no part will ignite and burn when subjected to fire, or any material conforming to ASTM E136.",
     "quote": "NONCOMBUSTIBLE. As applied to building construction material means a material that, in the form in which it is used, is either one of the following: 1. Material of which no part will ignite and burn when subjected to fire. 2. Any material conforming to ASTM E136 shall be considered noncombustible within the meaning of this section.",
     "source_url": "https://www.larimer.gov/sites/default/files/2025-wildfire-resiliency-code-w-lc-amendments.pdf",
     "source_label": "Colorado Wildfire Resiliency Code as adopted by Larimer County, Sec. 202, Definitions: Noncombustible",
-    "checked": "2026-09-25",
+    "checked": "2026-09-27",
     "reachable": false,
     "status": "VERIFIED",
-    "numbers": ["1", "2"],
-    "notes": "Read with pdftotext on 2026-09-25. A third item (fire-rated gypsum board) follows and is not quoted."
+    "numbers": [
+      "1",
+      "2",
+      "136",
+      "202"
+    ],
+    "notes": "Read with pdftotext on 2026-09-27. A third item (fire-rated gypsum board) follows and is not quoted."
   },
   {
     "id": "is-artificial-turf-flammable.larimer-wrc-scope",
     "layer": "county",
-    "applies_to": ["fort-collins-co", "loveland-co", "berthoud-co", "timnath-co", "wellington-co", "windsor-co", "johnstown-co"],
+    "applies_to": [
+      "fort-collins-co",
+      "loveland-co",
+      "berthoud-co",
+      "timnath-co",
+      "wellington-co",
+      "windsor-co",
+      "johnstown-co"
+    ],
     "fact": "The county's code applies to the construction, alteration, movement, repair, maintenance and use of any building, structure or premises with occupiable or habitable space in the wildland-urban interface, and lets buildings or conditions that were legal when it was adopted continue unless they are a distinct danger to life or property.",
     "quote": "The provisions of this code shall apply to the construction, alteration, movement, repair, maintenance and use of any building, structure or premises that contain occupiable and/or habitable space, or change in use resulting in an occupiable and/or habitable space, unless excepted, within the wildland-urban interface areas of Colorado, as designated in this code. Buildings or conditions in existence at the time of the adoption of this code are allowed to have their use or occupancy continued, if such condition, use or occupancy was legal at the time of the adoption of this code, provided that such continued use does not constitute a distinct danger to life or property.",
     "source_url": "https://www.larimer.gov/sites/default/files/2025-wildfire-resiliency-code-w-lc-amendments.pdf",
     "source_label": "Colorado Wildfire Resiliency Code as adopted by Larimer County, Sec. 101.2, Scope",
-    "checked": "2026-09-25",
+    "checked": "2026-09-27",
     "reachable": false,
     "status": "VERIFIED",
-    "numbers": [],
-    "notes": "Read with pdftotext and the page image on 2026-09-25. Sec. 101.4 adds that the code applies to conditions arising after its adoption; Sec. 101.7 brings the 5-foot immediate zone into compliance when 25 percent or more of an existing home's exterior walls are replaced. How the county applies these to a turf project on an existing lot is not stated; the page says ask."
+    "numbers": [
+      "101.2"
+    ],
+    "notes": "Read with pdftotext and the page image on 2026-09-27. Sec. 101.4 adds that the code applies to conditions arising after its adoption; Sec. 101.7 is is-artificial-turf-flammable.larimer-wrc-existing-walls. How the county applies these to a turf project on an existing lot is not stated; the page says ask."
   },
   {
-    "id": "is-artificial-turf-flammable.berthoud-ldg-wui-zone-1",
+    "id": "is-artificial-turf-flammable.larimer-wrc-existing-walls",
+    "layer": "county",
+    "applies_to": [
+      "fort-collins-co",
+      "loveland-co",
+      "berthoud-co",
+      "timnath-co",
+      "wellington-co",
+      "windsor-co",
+      "johnstown-co"
+    ],
+    "fact": "Under the county's code, when 25 percent or more of an existing building's exterior wall surface is replaced, the whole wall surface must meet new-construction materials and the immediate zone within 5 feet of the structure must be brought into compliance.",
+    "quote": "101.7 Exterior walls. The exterior walls of building or structures in existence prior to adoption of this code where 25 percent or more of the total exterior wall surface area is replaced, or where work to reconstruct, alter or repair the exterior walls effectively replaces the exterior wall material, shall require the entirety of the exterior wall surface area, including attachments, to be replaced with materials required for new construction specified in Section 404.3 through 404.3.2 and the immediate zone within 5 feet of the structure shall be made to comply with Section 503.1.",
+    "source_url": "https://www.larimer.gov/sites/default/files/2025-wildfire-resiliency-code-w-lc-amendments.pdf",
+    "source_label": "Colorado Wildfire Resiliency Code as adopted by Larimer County, Sec. 101.7, Exterior walls",
+    "checked": "2026-09-27",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "101.7",
+      "25",
+      "404.3",
+      "5",
+      "503.1"
+    ],
+    "notes": "Read with pdftotext and checked against the page image (recorded page 104 of 132) on 2026-09-27; not struck through. Section 503.1 includes the Class 1 requirements of 502.1 through 502.4."
+  },
+  {
+    "id": "is-artificial-turf-flammable.fc-luc-wildfire-immediate-zone",
     "layer": "ordinance",
-    "applies_to": ["berthoud-co"],
-    "fact": "Berthoud's Landscape Design Guidelines say Berthoud is included in the Front Range wildland-urban interface, encourage owners to protect their property from wildfire, and list defensible space zones starting with an ember-resistant zone 0 to 5 feet from buildings and structures.",
-    "quote": "The Wildland Urban Interface (WUI) is the area where homes and the urban environment press against the wildland. Berthoud is included in the WUI for the Front Range of Colorado. Property owners are encouraged to protect their property and their community from wildfire. … 5. Establish defensible space zones around structures … Zone 1 - Ember resistant zone (0-5 feet away from building and structures)",
-    "source_url": "https://www.berthoud.org/DocumentCenter/View/7674",
-    "source_label": "Town of Berthoud Landscape Design Guidelines, Emergency Planning: Wildland Urban Interface, p. 21 (updated June 30, 2026, Ordinance 1383)",
-    "checked": "2026-09-25",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins's Land Use Code 5.10.1(L), added by Ordinance No. 222, 2025, requires a minimum 5-foot Immediate Zone around covered structures in areas the state's Wildfire Resiliency Code Map classes as low, medium or high fire intensity, kept free of slash, combustible mulch and woody debris, where only noncombustible hard surfaced materials (rock, gravel, sand, concrete, bare earth or stone or concrete pavers) and ignition-resistant plantings on the Director's list may go.",
+    "quote": "(a) A minimum five (5) foot buffer (the “Immediate Zone’”) surrounding structures located within any area shown on the Resiliency Map as low, medium, or high fire intensity classification must be maintained as follows: (I) The Immediate Zone must be maintained free of slash, combustible mulch, or other woody debris. (II) Only the following landscaping materials and plantings may be located within the Immediate Zone: (i) Noncombustible hard surfaced materials such as rock, gravel, sand, concrete, bare earth, or stone/concrete pavers. (ii) Ignition resistant plantings set forth on the list maintained by the Director.",
+    "source_url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/fortcollco-meet-9b4e8e099e3f4e9cbeaa4a206b542f9a/ITEM-Attachment-004-241d5ceeae6f47f78fb732207afe77eb.pdf",
+    "source_label": "Fort Collins Ordinance No. 222, 2025, adding Land Use Code 5.10.1(L), Wildfire Resiliency – Defensible Space Landscaping, (5)(a) (passed December 16, 2025; effective December 26, 2025)",
+    "checked": "2026-09-27",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-12-24",
-    "numbers": ["5", "1", "0"],
-    "notes": "PDF read with pdftotext on 2026-09-25. Guidance ('encouraged', 'establish'), adopted by reference for new construction and substantial alterations reviewed by the town (berthoud-co.ldg-artificial-turf-backyards). It does not name artificial turf in the zone."
+    "recheck": "2026-12-27",
+    "numbers": [
+      "5.10",
+      "1",
+      "222",
+      "2025",
+      "5",
+      "16",
+      "26"
+    ],
+    "notes": "Read with curl and pdftotext on 2026-09-27 (the ordinance as passed, from the City Council's meeting records). Artificial turf is not named; it is not on the list of what may be in the Immediate Zone. Subsection (L)(2) says the CSFS Home Ignition Zone Guide may be used to interpret it. Check the codified Land Use Code on the next recheck."
+  },
+  {
+    "id": "is-artificial-turf-flammable.fc-luc-wildfire-applicability",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins's wildfire landscaping rules apply to building permit applications submitted on and after April 1, 2026, for structures in areas classed as low, moderate or high fire intensity on the state's Wildfire Resiliency Code Map, with exceptions that include interior alterations and additions of no more than 500 square feet of footprint.",
+    "quote": "(4) The requirements of this Subsection (L) apply to building permit applications submitted on and after April 1, 2026, for a structure, or portion of a structure, within areas classified as low, moderate, or high fire intensity on the current online version of the State of Colorado Wildfire Resiliency Code Map (“Resiliency Map”) except for building permit applications for the following, with listed calculations measured from the condition of the building or structure existing as of April 1, 2026: (a) Interior alterations of existing structures. (b) Additions to existing structures that do not increase the footprint of the structure by more than five-hundred (500) square feet.",
+    "source_url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/fortcollco-meet-9b4e8e099e3f4e9cbeaa4a206b542f9a/ITEM-Attachment-004-241d5ceeae6f47f78fb732207afe77eb.pdf",
+    "source_label": "Fort Collins Ordinance No. 222, 2025, Land Use Code 5.10.1(L)(4) (effective December 26, 2025)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-27",
+    "numbers": [
+      "4",
+      "1",
+      "2026",
+      "500",
+      "222",
+      "2025",
+      "5.10",
+      "26"
+    ],
+    "notes": "Read with pdftotext on 2026-09-27. Other exceptions: small detached sheds and playhouses, Group U accessory buildings over 50 feet from a home, fences over 8 feet from a home, and a 35-acre-plus lot with one home not abutting a developed lot. The rule is tied to a building permit; a turf project alone is not a building permit, so the page says ask."
+  },
+  {
+    "id": "is-artificial-turf-flammable.firestone-non-flammable-infill",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone's development code requires all artificial turf materials to be non-flammable, without naming a test, and requires a non-toxic, anti-microbial infill such as silica sand or acrylic-coated sand, with crumb rubber prohibited.",
+    "quote": "iv. All materials shall be non-flammable. … v. Infill material shall be a non-toxic anti-microbial material such as silica sand or acrylic coated sand to prevent odors and bacteria formation. Crumb rubber filler shall be prohibited.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
+    "source_label": "Firestone Development Code 16.6.4.F.2.c.iv and f.v (codified through Ord. No. 1072, Dec. 10, 2025)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-27",
+    "numbers": [
+      "16.6",
+      "4",
+      "2",
+      "1072",
+      "10",
+      "2025"
+    ],
+    "notes": "Read through the Municode API (api.municode.com CodesContent, jobId 488870, productId 18062) on 2026-09-27; the library page renders by script. No test method or standard for 'non-flammable' appears anywhere in 16.6.4. Never say NoCo's products meet it without Brian's product sheets."
   },
   {
     "id": "is-artificial-turf-flammable.co-hoa-fire-buffers",
     "layer": "state",
-    "applies_to": ["*"],
+    "applies_to": [
+      "*"
+    ],
     "fact": "Colorado's protection for backyard turf and water-wise landscaping at a detached home does not stop an HOA from adopting bona fide safety requirements consistent with landscape codes or recognized safety standards, or from prohibiting or restricting changes that interfere with fire buffers or defensible spaces.",
     "quote": "(V) NOTHING IN THIS SUBSECTION (1)(i.5) SHALL BE CONSTRUED TO PROHIBIT OR RESTRICT THE AUTHORITY OF ASSOCIATIONS TO: (A) ADOPT BONA FIDE SAFETY REQUIREMENTS CONSISTENT WITH APPLICABLE LANDSCAPE CODES OR RECOGNIZED SAFETY STANDARDS FOR THE PROTECTION OF PERSONS AND PROPERTY; (B) PROHIBIT OR RESTRICT CHANGES THAT INTERFERE WITH THE ESTABLISHMENT AND MAINTENANCE OF FIRE BUFFERS OR DEFENSIBLE SPACES; OR",
     "source_url": "https://leg.colorado.gov/bill_files/92307/download",
     "source_label": "C.R.S. 38-33.3-106.5(1)(i.5)(V)(A)–(B), added by SB23-178 (signed act)",
-    "effective": "2023-08-07",
-    "checked": "2026-09-25",
+    "checked": "2026-09-27",
     "reachable": true,
     "status": "VERIFIED",
     "recheck": "2027-06-15",
+    "numbers": [
+      "1",
+      "5"
+    ],
+    "notes": "Read in the signed act with pdftotext on 2026-09-27 (page 3). Not legal advice. The backyard-turf protection itself is co-hoa-backyard-detached."
+  },
+  {
+    "id": "is-artificial-turf-flammable.ccc-plains-dry-wind",
+    "layer": "climate",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Climate Center describes the plains as having low relative humidity, abundant sunshine, infrequent rain and snow and moderate to high wind movement, says winter there more often brings dry air and strong winds, and says Colorado's generally low humidity favors rapid evaporation.",
+    "quote": "Humidity is generally quite low; this favors rapid evaporation and a relatively comfortable feeling even on hot days. … The climate of the plains is comparatively uniform from place to place, with characteristic features of low relative humidity, abundant sunshine, infrequent rains and snow, moderate to high wind movement, and a large daily and seasonal range in temperature. … More often, winter brings dry air and strong winds contributing to the aridity of the area.",
+    "source_url": "https://climate.colostate.edu/climate_long.html",
+    "source_label": "Colorado Climate Center, Colorado State University, Climate of Colorado",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
     "numbers": [],
-    "notes": "Read in the signed act with pdftotext on 2026-09-25 (page 3). Not legal advice. The backyard-turf protection itself is co-hoa-backyard-detached."
+    "notes": "Read with curl on 2026-09-27. The same page says Colorado's 20 largest wildfires have occurred since 2000 'with the largest four occurring since 2020'; the state fire agency's table (as of 12/31/25) ranks the 2002 Hayman Fire fourth, so the page takes fire rankings from is-artificial-turf-flammable.dfpc-largest-fires instead."
+  },
+  {
+    "id": "is-artificial-turf-flammable.ccc-foothills-winds",
+    "layer": "climate",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Climate Center says areas very near the mountains, at the western edge of the plains, get periodic, severe turbulent winds from high westerly winds over the mountain barrier, called chinook winds when they warm.",
+    "quote": "At the western edge of the plains and near the foothills of the mountains, there are a number of significant changes in climate. Average wind movement is less, but areas very near the mountains are subject to periodic, severe turbulent winds from the effects of high westerly winds over the mountain barrier. These winds are sometimes referred to as \"chinook winds\" when they warm, and \"bora winds\" when they are associated with a strong cold frontal passage downslope off of the mountains.",
+    "source_url": "https://climate.colostate.edu/climate_long.html",
+    "source_label": "Colorado Climate Center, Colorado State University, Climate of Colorado: Climate of the Eastern Plains",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl on 2026-09-27."
+  },
+  {
+    "id": "is-artificial-turf-flammable.dfpc-largest-fires",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado's Division of Fire Prevention and Control says all 20 of the state's 20 largest wildfires have occurred since 2002, and ranks the 2020 Cameron Peak Fire, at 208,913 acres, as the largest (as of December 31, 2025).",
+    "quote": "Colorado's Fire History Facts (as of 12/31/25) 20 of the 20 largest wildfires have occurred in the last 24 years (since 2002) … Colorado's Largest Fires by Acreage (as of 12/31/25) Rank Fire Acres Year 1 Cameron Peak 208,913 2020",
+    "source_url": "https://dfpc.colorado.gov/sections/wildfire-information-center/historical-wildfire-information",
+    "source_label": "Colorado Division of Fire Prevention and Control, Historical Wildfire Information: Colorado's Fire History Facts and Largest Fires by Acreage (as of 12/31/25)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-02-15",
+    "numbers": [
+      "12",
+      "31",
+      "25",
+      "20",
+      "24",
+      "2002",
+      "1",
+      "208913",
+      "2020",
+      "2025",
+      "12/31"
+    ],
+    "notes": "Read with curl on 2026-09-27. The table is updated after each fire year; recheck for the 12/31/26 edition."
+  },
+  {
+    "id": "is-artificial-turf-flammable.cfri-cameron-peak",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A Colorado State University-led assessment says the Cameron Peak Fire began on August 13, 2020, near Cameron Pass, and burned 208,913 acres, the largest fire in Colorado's recorded history.",
+    "quote": "The Cameron Peak Fire began on August 13th, 2020, near Cameron Pass, Colorado, and was declared contained on December 2nd, 2020. During several distinct phases of activity and spread, Cameron Peak burned 208,913 ac, becoming the largest fire in Colorado’s recorded (i.e., since the early 1900s) history (Fig. 6).",
+    "source_url": "https://cfri.colostate.edu/wp-content/uploads/sites/22/2023/01/NFR_2020Fires_Report.pdf",
+    "source_label": "Colorado Forest Restoration Institute (Rodman et al.), The historic 2020 fire year in northern Colorado and southern Wyoming (November 2022), Section 4b",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "13",
+      "2020",
+      "2",
+      "208913",
+      "1900",
+      "6",
+      "2022",
+      "4"
+    ],
+    "notes": "Read with curl and pdftotext on 2026-09-27."
   }
 ]

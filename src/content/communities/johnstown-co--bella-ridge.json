@@ -1,0 +1,242 @@
+{
+  "status": "draft",
+  "town": "johnstown-co",
+  "slug": "bella-ridge",
+  "name": "Bella Ridge",
+  "kind": "golf",
+  "governing": {
+    "name": "Podtburg Metropolitan District Nos. 1-6",
+    "type": "metro-district",
+    "url": "https://podtburgmd.specialdistrict.org/documents",
+    "layerRefs": [
+      "johnstown-co--bella-ridge.odp-note-9-design-standards",
+      "johnstown-co--bella-ridge.fdp-code-default",
+      "johnstown-co--bella-ridge.district-annual-report-2025",
+      "johnstown-co--bella-ridge.service-plan-design-review"
+    ]
+  },
+  "golf": {
+    "name": "Bella Ridge Golf Club",
+    "layerRef": "johnstown-co.bella-ridge-course"
+  },
+  "title": "Turf and Putting Greens at Bella Ridge, Johnstown, CO | NoCo Turf Co.",
+  "description": "Bella Ridge's metro district has adopted no rules, and its plans send yard design to Johnstown's code. What that means for turf or a green on a future lot.",
+  "h1": "Bella Ridge's metro district has adopted no rules yet, so Johnstown's code shapes a backyard green there",
+  "display": {
+    "paint": "has adopted no rules yet"
+  },
+  "lede": "The course is open, but the homes planned around it are still tracts on a plat. The plans Johnstown approved say who writes the yard rules for those future lots, and so far nobody has: the metro district's boards have adopted none, and neither artificial turf nor a backyard putting green appears anywhere in the plans.",
+  "answer": {
+    "question": "Can I put in artificial turf or a putting green at Bella Ridge?",
+    "answer": "Nothing written for Bella Ridge addresses either. The plans Johnstown approved send landscaping to the Town's code unless the developer writes standards the Planning Director approves, and the Podtburg metro district has adopted no rules. NoCo Turf Co. installs artificial turf and putting greens at Bella Ridge in Johnstown, Colorado."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Who writes the yard rules",
+      "h2": "Until the developer writes design standards, Johnstown's code is the rulebook for a Bella Ridge yard.",
+      "takeaway": "Neither plan the Town approved for Bella Ridge says a word about artificial turf or backyard putting greens.",
+      "paras": [
+        "General Note 9 of the Outline Development Plan gives landscaping, fencing, lighting, signage and architecture two possible sources of rules: the applicable standards in the Town's code, or design standards the developer drafts, which take effect only after the Planning and Development Director approves them. The Final Development Plan the Council approved for Filing 1 on October 7, 2024 carries the same note word for word.",
+        "Both plans hand anything they leave out back to the Town. Where the PUD documents are silent or unclear, the Johnstown Municipal Code and the Town's other standards govern, and if the Town tightens a standard, the stricter version wins. A green, a synthetic lawn or a lit practice area therefore starts from the Town's landscape code today. If the developer drafts standards for the home filings, those would take over once the Director signs off; ask Johnstown Planning which set a lot's plan will be reviewed under."
+      ],
+      "layerRefs": [
+        "johnstown-co--bella-ridge.odp-note-9-design-standards",
+        "johnstown-co--bella-ridge.fdp-code-default",
+        "johnstown-co--bella-ridge.odp-stricter-standard",
+        "johnstown-co--bella-ridge.filing-1-approved"
+      ],
+      "sources": [
+        "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=195,plainText=false)",
+        "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=1006,plainText=false)"
+      ]
+    },
+    {
+      "kind": "hoa",
+      "own": true,
+      "kicker": "Podtburg Metropolitan District",
+      "h2": "The metro district may add covenants and design review later, and the Town's review still applies on top.",
+      "paras": [
+        "The Town approved the service plan for Podtburg Metropolitan District Nos. 1-6 on September 20, 2021, and the Weld County district court organized the districts that November. That plan gives them the power, but not the obligation, to enforce covenants and review designs, and it keeps the Town's own design review and zoning as a separate hurdle that has to be cleared as well.",
+        "Their annual report for 2025, dated July 28, 2026, says the boards have adopted no rules and regulations, the districts' boundaries cover about one acre, and no public improvements have been built. The service plan makes each district post any recorded covenants and any rules on its website; on September 27, 2026 the documents page showed budgets, audit exemptions, reports and transparency notices, and neither. The boards meet on the first Monday of November, which is the public place to ask whether covenants or design review are coming."
+      ],
+      "layerRefs": [
+        "johnstown-co--bella-ridge.district-organized",
+        "johnstown-co--bella-ridge.service-plan-design-review",
+        "johnstown-co--bella-ridge.district-annual-report-2025",
+        "johnstown-co--bella-ridge.service-plan-website-posting",
+        "johnstown-co--bella-ridge.district-documents-page"
+      ],
+      "sources": [
+        "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=208,plainText=false)",
+        "https://podtburgmd.specialdistrict.org/files/ab2aa48be/PBM+1-6+Combined+2025+Annual+Report.pdf",
+        "https://podtburgmd.specialdistrict.org/documents"
+      ]
+    },
+    {
+      "kind": "housing",
+      "own": true,
+      "kicker": "Lots still to come",
+      "h2": "No home lots are platted yet; they will be cut from three large tracts in later filings.",
+      "paras": [
+        "Filing 1 split the property into eight commercial lots and nine tracts. The tracts hold the golf course and, in Tracts D, F and G, the land the Town's staff report sets aside for future homes, at up to 5, 10 and 5 units an acre. The same report says Town water and sewer must reach the site before any residential subdivision. The Final Development Plan calls those tracts super pads, and exact lot sizes are fixed only when each one is subdivided.",
+        "The Outline Development Plan already frames those lots. A single-family detached lot must be at least 4,000 square feet, and a house may sit 15 feet from the front line, 5 feet from each side and 10 feet from the rear, or 5 feet where an alley serves the garage. On a lot built near those minimums, the back yard can be as shallow as the rear setback, which decides whether a green shares the space with a patio or becomes the whole yard.",
+        "All of these lots will be platted after January 1, 2024, so Johnstown's rear-yard rule reaches them: the code holds \"turf and spray-irrigated areas\" behind a new single-family home to half the rear yard, 2,000 square feet at most. Whether synthetic turf counts toward that half is written down nowhere. It depends on how Planning reads the landscape plan for each filing, so get that answer before a design runs turf edge to edge."
+      ],
+      "layerRefs": [
+        "johnstown-co--bella-ridge.filing-1-tracts",
+        "johnstown-co--bella-ridge.fdp-super-pad-tracts",
+        "johnstown-co--bella-ridge.odp-sfd-setbacks",
+        "johnstown-co.ludc-17-8-4-rear-yard-turf"
+      ],
+      "sources": [
+        "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=195,plainText=false)",
+        "https://www.johnstownco.gov/DocumentCenter/View/1403/Land-Use-And-Development-Code"
+      ]
+    },
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Drainage and the ditch",
+      "h2": "A green's contours can't disturb the lot's drainage, and yards by the Hillsborough ditch need the ditch company's sign-off.",
+      "paras": [
+        "The Filing 1 plat carries notes the Town required: a lot may have to pass surface water from its neighbors, nobody may regrade a lot in a way that disrupts the approved drainage plan without the Town's approval, and each owner keeps up the drainage ways on the lot. Mounds around a putting green, a sunken chipping area or a base that sheds water toward a fence can all change grading, so the drainage plan belongs beside the design from the first sketch.",
+        "The Hillsborough Extension Ditch runs along the property's north end. The plat bars buildings, structures, trees and other landscaping on the ditch easement unless the ditch company approves them in writing, makes development involving or beside the ditch subject to its prior written approval, and leaves owners with the risk of seepage or overflow from its unlined earthen banks. Those notes are covenants on every Podtburg filing, so a lot near the ditch needs the company's answer before turf goes down."
+      ],
+      "layerRefs": [
+        "johnstown-co--bella-ridge.plat-drainage-note",
+        "johnstown-co--bella-ridge.plat-ditch-covenants"
+      ],
+      "sources": [
+        "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=195,plainText=false)"
+      ]
+    },
+    {
+      "kind": "utility",
+      "own": true,
+      "kicker": "Raw water",
+      "h2": "The plans assume raw water, not treated drinking water, will irrigate Bella Ridge yards.",
+      "paras": [
+        "The utility sheet of the Outline Development Plan assumes raw water will irrigate the whole development, single-family homes and commercial areas included, and sizes its water demand on that basis. The course already runs that way: the 2024 staff report says its roughly 102.47 acres of irrigated turf and landscape are watered only through shares in the Highland Ditch, Ish Reservoir, Farmers Extension and Bunyan Lateral, while Little Thompson Water District supplies drinking water until the Town's lines arrive.",
+        "That changes the usual case for artificial turf. If a lot's sprinklers end up on raw water, turf there is chosen for how the yard plays and how little it asks of an owner, more than for a treated-water bill. The assumption comes from planning, not a service contract, and the districts may not manage water rights without an agreement with the Town, so ask the Town which system each residential filing will use before counting on either."
+      ],
+      "layerRefs": [
+        "johnstown-co--bella-ridge.odp-raw-water-irrigation",
+        "johnstown-co--bella-ridge.course-irrigation-shares",
+        "johnstown-co--bella-ridge.district-water-rights-limit"
+      ],
+      "sources": [
+        "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=195,plainText=false)",
+        "https://podtburgmd.specialdistrict.org/about"
+      ]
+    },
+    {
+      "kind": "golf",
+      "own": true,
+      "kicker": "The course's grasses",
+      "h2": "The course's greens are bentgrass and its roughs a bluegrass-ryegrass blend, and a yard beside it can be matched to both.",
+      "paras": [
+        "The grassing plans filed with the Final Development Plan put bentgrass on the golf holes, practice greens, green surrounds and chipping greens, and a bluegrass and ryegrass blend on the tees, fairways, rough and target greens. Native areas get a mix of native grasses, fescues and wildflowers. Bella Ridge Golf Club is an 18-hole, par-72 layout by Art Schaupeter with a 200-foot elevation change, and the home parcels sit on its edges, so a back yard there will meet one of those surfaces at the lot line.",
+        "That gives a design two reference points. A synthetic lawn can be picked in a blade color and height that reads as part of the bluegrass-ryegrass rough beyond the fence, and a backyard green can be built to roll like the course's bentgrass rather than like a carpet. Where a yard meets the native areas, a planted border of the same grasses and wildflowers tends to blend better than turf run all the way to the property line."
+      ],
+      "layerRefs": [
+        "johnstown-co--bella-ridge.course-grassing",
+        "johnstown-co.bella-ridge-course"
+      ],
+      "sources": [
+        "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=195,plainText=false)",
+        "https://www.bellaridgegolf.com/golf-course/"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is there an HOA at Bella Ridge?",
+      "a": "None turned up in the Town's plans or the district's filings. The body in place is Podtburg Metropolitan District Nos. 1-6, and its boards had adopted no rules and regulations as of their July 2026 annual report. The service plan lets the districts take on covenant enforcement and design review later, so ask them before you buy a lot or order a green.",
+      "layerRefs": [
+        "johnstown-co--bella-ridge.district-annual-report-2025",
+        "johnstown-co--bella-ridge.service-plan-design-review"
+      ]
+    },
+    {
+      "q": "Can a Bella Ridge back yard be all artificial turf?",
+      "a": "Maybe not. The Bella Ridge plans never mention turf, but the Town's rear-yard limit applies to these lots, and the Town hasn't said whether synthetic turf counts against it. It depends on Planning's reading of each lot's landscape plan; ask before drawing turf wall to wall. If the district later sets up design review, the [HOA approval guide](/guides/hoa-turf-approval/) covers the request.",
+      "layerRefs": [
+        "johnstown-co.ludc-17-8-4-rear-yard-turf",
+        "johnstown-co--bella-ridge.odp-note-9-design-standards"
+      ]
+    },
+    {
+      "q": "When can I buy a lot at Bella Ridge?",
+      "a": "No date is public. The home tracts still need preliminary and final subdivision approval, and Town water and sewer have to reach the site first. The club's real estate page is an interest form with no lots listed, and Johnstown Planning can tell you whether a residential filing is in review.",
+      "layerRefs": [
+        "johnstown-co--bella-ridge.filing-1-tracts",
+        "johnstown-co--bella-ridge.fdp-super-pad-tracts",
+        "johnstown-co--bella-ridge.club-real-estate-form"
+      ]
+    },
+    {
+      "q": "I live in Northmoor Acres, beside the course. Do Bella Ridge's rules reach my yard?",
+      "a": "No. The Town's 2024 staff report lists Northmoor Acres, on the west side, as a Weld County subdivision of 102 homes, outside the Podtburg property and its metro district. A green there answers to Weld County and to any covenants recorded for your filing; ask the county's planning office what applies.",
+      "layerRefs": [
+        "johnstown-co--bella-ridge.northmoor-acres-weld"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "label": "Town of Johnstown, Town Council packet, October 7, 2024, Item 10: Podtburg Subdivision Filing No. 1 staff reports, Final Plat, Final Development Plan (with grassing plans) and the attached Outline Development Plan",
+      "url": "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=195,plainText=false)",
+      "checked": "2026-09-27"
+    },
+    {
+      "label": "Town of Johnstown, Town Council packet, September 20, 2021, Item 8: Service Plan for Podtburg Metropolitan District Nos. 1-6 (Resolution 2021-33)",
+      "url": "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=208,plainText=false)",
+      "checked": "2026-09-27"
+    },
+    {
+      "label": "Town of Johnstown, Planning and Zoning Commission packet, August 12, 2026: staff report on Tract C of Podtburg Subdivision Filing 1",
+      "url": "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=1006,plainText=false)",
+      "checked": "2026-09-27"
+    },
+    {
+      "label": "Podtburg Metropolitan District Nos. 1-6, 2025 Annual Report (dated July 28, 2026)",
+      "url": "https://podtburgmd.specialdistrict.org/files/ab2aa48be/PBM+1-6+Combined+2025+Annual+Report.pdf",
+      "checked": "2026-09-27"
+    },
+    {
+      "label": "Podtburg Metropolitan District Nos. 1-6, Documents page",
+      "url": "https://podtburgmd.specialdistrict.org/documents",
+      "checked": "2026-09-27"
+    },
+    {
+      "label": "Podtburg Metropolitan District Nos. 1-6, About page",
+      "url": "https://podtburgmd.specialdistrict.org/about",
+      "checked": "2026-09-27"
+    },
+    {
+      "label": "Bella Ridge Golf Club, Golf Course page (18 holes, par 72, Art Schaupeter)",
+      "url": "https://www.bellaridgegolf.com/golf-course/",
+      "checked": "2026-09-27"
+    },
+    {
+      "label": "Bella Ridge Golf Club, Real Estate page",
+      "url": "https://www.bellaridgegolf.com/real-estate/",
+      "checked": "2026-09-27"
+    },
+    {
+      "label": "Johnstown Land Use and Development Code, Sec. 17-8-4(E)(2)(a) (Town PDF, effective December 5, 2023)",
+      "url": "https://www.johnstownco.gov/DocumentCenter/View/1403/Land-Use-And-Development-Code",
+      "checked": "2026-09-25"
+    }
+  ],
+  "checked": "2026-09-27",
+  "needsFromBrian": [
+    "Any work at Bella Ridge (Podtburg Subdivision): none is known. If a builder, the developer or a lot buyer has asked about turf or a putting green, the filing, month and scope",
+    "Camera-original photos of a job at Bella Ridge for src/data/photos.ts, tagged community: 'johnstown-co--bella-ridge' or with Bella Ridge in its place; a photo from elsewhere in Johnstown, or from Northmoor Acres next door, does not pass the gate",
+    "Any draft Podtburg covenants or developer design standards you have seen, and who will review landscape plans for the first home filing",
+    "Whether Bella Ridge lots will irrigate from a raw-water system and who will run it, if a builder or the Town has said",
+    "A job beside the Hillsborough Extension Ditch in the Podtburg property, with the ditch company's written approval, if one comes up"
+  ]
+}

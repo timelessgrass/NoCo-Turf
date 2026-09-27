@@ -144,7 +144,7 @@ Each measured line should carry its test method beside the value, as SYNLawn's p
 | Drainage | Hole spacing or flow-through, plus a tested rate | STC: typically 25 in of water an hour. Firestone: holes at most 4 by 6 in on center | [does turf drain](/guides/does-artificial-turf-drain/) |
 | UV weathering | An independent lab report on this yarn | STC: after 3,000 hours of UVA, color better than Gray Scale 3 and at most 50% of strength lost | [does turf fade](/guides/does-artificial-turf-fade/) |
 | Heavy metals | Lead and other metals, with the test | STC: compliant with state and ASTM standards. Firestone: lead-free | [is turf toxic](/guides/is-artificial-turf-toxic/) |
-| Flammability | The test named, and the result | Firestone: non-flammable | is turf flammable |
+| Flammability | The test named, and the result | Firestone: non-flammable | [is turf flammable](/guides/is-artificial-turf-flammable/) |
 | Infill | Required, optional or none, and which kind | Firestone: silica or acrylic-coated sand, no crumb rubber | [infill types](/guides/artificial-turf-infill-types/) |
 | Origin | Country of manufacture | Matches the roll labels on delivery | last section |
 | PFAS | A written statement for this product | Colorado law | PFAS section |

@@ -39,7 +39,7 @@ faq:
       - turf-vs-grass-sports-fields.stma-synthetic-grooming
       - loveland-co.tsd-turf-field-rules
   - q: "How long does a synthetic field last before it needs replacing?"
-    a: "It depends mostly on how hard the field is used. California's Department of Toxic Substances Control puts synthetic sports fields at 5 to 15 years depending on intensity of use. Field life, what a replacement swaps and what can stay are in how long a synthetic turf field lasts."
+    a: "It depends mostly on how hard the field is used. California's Department of Toxic Substances Control puts synthetic sports fields at 5 to 15 years depending on intensity of use. Field life, what a replacement swaps and what can stay are in [how long a synthetic turf field lasts](/guides/how-long-does-a-turf-field-last/)."
     layerRefs:
       - how-long-does-artificial-turf-last.dtsc-field-and-landscape-life
 layerRefs:

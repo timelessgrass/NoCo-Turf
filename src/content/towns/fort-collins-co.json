@@ -23,7 +23,7 @@
         "The same section's applicability clause leaves out development on existing lots for single- and two-unit detached dwellings and accessory dwelling units. That clause is what lets a homeowner replace an existing backyard lawn with turf, and it is why the ban lands on new subdivisions, multifamily and commercial landscape plans instead.",
         "When Council reviewed the standards in January 2023, it did not support synthetic turf, citing the potential for PFAS to leach into waterways. An October 2023 draft capped high-water live turfgrass in single-unit front yards; that cap was about live grass, not artificial turf, and the adopted ordinance instead limits high-water turfgrass to recreation, civic and community areas in the developments it covers."
       ],
-      "layerRefs": ["fc-luc-5.10.1"],
+      "layerRefs": ["fc-luc-5.10.1", "is-artificial-turf-flammable.fc-luc-wildfire-immediate-zone", "is-artificial-turf-flammable.fc-luc-wildfire-applicability"],
       "sources": [
         "https://mccmeetingspublic.blob.core.usgovcloudapi.net/fortcollco-meet-0538ebaac95447ff8c4f53ebc4c0adf8/ITEM-Attachment-004-785f079234b4438a8e8675d01d6f3bd4.pdf",
         "https://ourcity.fcgov.com/xsa"
@@ -146,6 +146,10 @@
     {
       "q": "Do the Fort Collins rules apply in Laporte?",
       "a": "No. Laporte is unincorporated, so Larimer County governs land use there, not the Fort Collins Land Use Code."
+    },
+    {
+      "q": "Can artificial turf go right up against my house in a Fort Collins wildfire area?",
+      "a": "Not on a project with a building permit applied for since April 1, 2026, in an area the state's wildfire map classes as low, moderate or high fire intensity. Fort Collins then requires a 5-foot zone around the building with only noncombustible hard surfaces and plants from the city's list, and turf isn't on it. A yard project without a building permit is a different question, so ask Fort Collins Planning."
     }
   ],
   "nearby": ["wellington-co", "timnath-co", "windsor-co", "loveland-co"],
@@ -174,7 +178,12 @@
     { "label": "Wikipedia, Laporte, Colorado (unincorporated; Larimer County seat from 1861)", "url": "https://en.wikipedia.org/wiki/Laporte,_Colorado", "checked": "2026-09-24" },
     { "label": "U.S. Census Bureau, 2020 Census redistricting file (Laporte CDP: 2,409)", "url": "https://www2.census.gov/programs-surveys/decennial/2020/data/01-Redistricting_File--PL_94-171/Colorado/co2020.pl.zip", "checked": "2026-09-24" },
     { "label": "Larimer County parcel GIS: Laporte parcels (median about 14,491 sq ft; 40.8% half an acre or more)", "url": "https://maps1.larimer.org/arcgis/rest/services/MapServices/Parcels/MapServer", "checked": "2026-09-24" },
-    { "label": "Larimer County, utility service providers list (2017)", "url": "https://www.larimer.org/sites/default/files/uploads/2017/utilityserviceproviders_0.pdf", "checked": "2026-09-24" }
+    { "label": "Larimer County, utility service providers list (2017)", "url": "https://www.larimer.org/sites/default/files/uploads/2017/utilityserviceproviders_0.pdf", "checked": "2026-09-24" },
+    {
+      "label": "Fort Collins Ordinance No. 222, 2025, adding Land Use Code 5.10.1(L), Wildfire Resiliency – Defensible Space Landscaping, (5)(a) (passed December 16, 2025; effective December 26, 2025)",
+      "url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/fortcollco-meet-9b4e8e099e3f4e9cbeaa4a206b542f9a/ITEM-Attachment-004-241d5ceeae6f47f78fb732207afe77eb.pdf",
+      "checked": "2026-09-27"
+    }
   ],
   "checked": "2026-09-24",
   "needsFromBrian": [

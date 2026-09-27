@@ -281,7 +281,7 @@ The 200 and NFL figures are as the STMA's [field hardness paper](https://www.spo
 - **Layering, dirt and age.** Sand settling out of a sand-and-rubber infill can form a compacted layer, and GMAX tends to rise as a field ages (STMA); blown dust adds to it.
 - **Cold.** The UK builder says fields play harder below freezing, and Penn State took its research readings on a surface free of dew and rain. Our reading: with 150 freezing nights a year at the Fort Collins station, test on a thawed, dry day in the same month each year, so the numbers compare.
 
-Readings that keep climbing despite grooming and top-dressing point to our guide on how long a turf field lasts; parents' infill questions are in our [crumb rubber guide](/guides/is-crumb-rubber-safe/).
+Readings that keep climbing despite grooming and top-dressing point to our guide on [how long a turf field lasts](/guides/how-long-does-a-turf-field-last/); parents' infill questions are in our [crumb rubber guide](/guides/is-crumb-rubber-safe/).
 
 ## What should a field owner ask whoever maintains it?
 

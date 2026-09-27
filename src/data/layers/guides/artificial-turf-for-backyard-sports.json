@@ -1,0 +1,415 @@
+[
+  {
+    "id": "artificial-turf-for-backyard-sports.usap-court-and-posts",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "USA Pickleball's 2026 rulebook sets the court at 20 by 44 feet and the minimum playing surface, the court plus the area around it, at 30 by 60 feet, recommends 34 by 64 feet for new construction, and puts the net posts 22 feet apart and no more than 3 inches across.",
+    "quote": "Playing Surface. The court and the area surrounding the court designated for playing. … 3.A.1 Court Dimensions. The court must be a rectangle measuring 20 feet (6.10 m) wide and 44 feet (13.41 m) long for both singles and doubles matches. … 3.A.3 Playing Surface. The minimum playing surface area is 30 feet (9.14 m) wide and 60 feet (18.29 m) long. Other recommendations for playing surface dimensions are: … New Construction 34 ft (10.36 m) 64 ft (19.5 m) … 3.B.2 Posts. Net posts should be 22 feet +/- 1.0 inches (6.71 m) from the inside of one post to the inside of the other post. The maximum diameter of the net posts should be 3 inches (7.62 cm).",
+    "source_url": "https://usapickleball.org/docs/rules/USAP-Official-Rulebook.pdf",
+    "source_label": "USA Pickleball, 2026 Official Rulebook, definitions and Rules 3.A.1, 3.A.3 and 3.B.2",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-01-15",
+    "numbers": [
+      "2026",
+      "20",
+      "44",
+      "30",
+      "60",
+      "34",
+      "64",
+      "22",
+      "3",
+      "6.10",
+      "13.41",
+      "9.14",
+      "18.29",
+      "10.36",
+      "19.5",
+      "1.0",
+      "6.71",
+      "7.62"
+    ],
+    "notes": "PDF read 2026-09-27 with pdftotext. The rulebook sets no surface material; the court surface point on the page rests on the ball standard and the Pickleheads record. Re-check when USA Pickleball publishes the 2027 rulebook."
+  },
+  {
+    "id": "artificial-turf-for-backyard-sports.usap-ball-bounce-granite",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "USA Pickleball's equipment standards require an approved ball to bounce 30 to 34 inches when dropped from 78 inches onto a granite surface plate.",
+    "quote": "2.D.5 Bounce. The ball shall have a bounce of 30 to 34 inches (76.2 to 86.4 cm) to the top of the ball when dropped from a height of 78 inches (198.1 cm) onto a granite surface plate that is a minimum of 12 inches (30.5 cm) by 12 inches (30.5 cm) by 4 inches (10.2 cm). The test is to be performed at an ambient temperature of 70 degrees F plus or minus 5 degrees F.",
+    "source_url": "https://usapickleball.org/docs/rules/USAP-Equipment-Standards-Manual.pdf",
+    "source_label": "USA Pickleball, Equipment Standards Manual, Revision 3.0 (January 2025), Rule 2.D.5",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "30",
+      "34",
+      "78",
+      "76.2",
+      "86.4",
+      "198.1",
+      "12",
+      "30.5",
+      "4",
+      "10.2",
+      "70",
+      "5",
+      "3.0",
+      "2025"
+    ],
+    "notes": "PDF read 2026-09-27 with pdftotext."
+  },
+  {
+    "id": "artificial-turf-for-backyard-sports.usap-north-south",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "USA Pickleball says a regulation court is 20 by 44 feet and that outdoor courts should run north–south so players are not looking into the sun in the morning or late afternoon.",
+    "quote": "A regulation pickleball court measures 20 feet wide by 44 feet long. Courts should be oriented north–south outdoors to avoid players looking directly into the sun during morning or late-afternoon play—a common safety hazard.",
+    "source_url": "https://usapickleball.org/construction/",
+    "source_label": "USA Pickleball, Pickleball Court Construction, Lighting & Shading",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "20",
+      "44"
+    ]
+  },
+  {
+    "id": "artificial-turf-for-backyard-sports.pickleheads-turf-bounce",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Pickleheads, a pickleball court directory and guide site, says nearly all pickleball is played on concrete or asphalt because the ball bounces most reliably on hard, even surfaces, and that artificial turf, like grass, won't give as good or consistent a bounce as a hard surface, though it is softer on the joints.",
+    "quote": "These balls bounce best on hard, even surfaces, which is why nearly all pickleball is played on concrete or asphalt. … Can you play pickleball on artificial turf? Yes, pickleball can be (and is) played on artificial turf. However, as with grass courts, it won't give as good or consistent a bounce as a hard surface. One benefit of astroturf is that it's softer, which makes it easier on the joints.",
+    "source_url": "https://www.pickleheads.com/guides/can-you-play-pickleball-on-grass",
+    "source_label": "Pickleheads (Brandon Mackie), Where Can You Play Pickleball? A Comprehensive List (Jan. 11, 2024)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "11",
+      "2024"
+    ],
+    "notes": "Read 2026-09-27 (curl). The page itself uses the word \"best\"; the guide paraphrases and does not repeat it."
+  },
+  {
+    "id": "artificial-turf-for-backyard-sports.usys-game-format-fields",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "US Youth Soccer's Game Format Project plays 2v2 on a 22 by 17 yard field (66 by 51 feet) and 3v3 on 30 by 18 yards (90 by 54 feet), with a 2v2 or 3v3 four-goal game on 30 by 18 or 35 by 23 yards (105 by 69 feet).",
+    "quote": "Game Format: 2v2 • 2 goals • New Ball Restarts • 2x2 min or 2x3 min … 22x17 yds … Game Format: 3v3 • 2 goals • Dribble or Pass-in Restarts • 6 min. quarters … 30x18 yds … Game Format: 2v2 or 3v3 • 4 goals • Dribble or Pass-in Restart • 6 min. quarters … 30x18 yds or 35x23 yds",
+    "source_url": "https://www.usyouthsoccer.org/wp-content/uploads/sites/160/2026/01/GFP-1-pager-Game-Facilitator-Cheat-Sheet.pdf",
+    "source_label": "US Youth Soccer, Game Format Project: Game Facilitator Cheat Sheet (PDF, January 2026)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "22",
+      "17",
+      "66",
+      "51",
+      "30",
+      "18",
+      "90",
+      "54",
+      "35",
+      "23",
+      "105",
+      "69",
+      "2",
+      "3",
+      "4",
+      "6",
+      "2026"
+    ],
+    "notes": "PDF read 2026-09-27 with pdftotext; the table layout interleaves the columns, so the quote joins each row's field size to its format with an ellipsis. Feet are the yards times three (arithmetic, not the source's)."
+  },
+  {
+    "id": "artificial-turf-for-backyard-sports.usys-game-format-u5-u6",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "US Youth Soccer's Game Format Project moves U5 and U6 recreation play to smaller fields with 2v2 or 3v3 games, citing research that the smaller formats give players more touches on the ball than 4v4 or 5v5.",
+    "quote": "The goal of the Game Format Project is to support member clubs with the resources they need to apply a new game format to their U5 and U6 recreation age groups. Utilizing research from Europe and U.S. Soccer’s pilot program, this project shifts these age groups to a format that focuses on smaller fields with games of 2v2 or 3v3. … Research in the United States and Europe has shown the 2v2 and 3v3 game formats allow players to have more touches on the ball than 4v4 or 5v5.",
+    "source_url": "https://www.usyouthsoccer.org/grassroots/",
+    "source_label": "US Youth Soccer, Grassroots: Game Format Project (2026-2027 participants)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5",
+      "6",
+      "2",
+      "3",
+      "4",
+      "2026",
+      "2027"
+    ]
+  },
+  {
+    "id": "artificial-turf-for-backyard-sports.ussoccer-4v4-field",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "U.S. Soccer's small-sided standards, published by US Youth Soccer, set 4v4 for U6 to U8 on a field 25 to 35 yards long and 15 to 25 yards wide (75 to 105 by 45 to 75 feet), with no goalkeepers and goals no larger than 4 feet high by 6 feet wide.",
+    "quote": "4v4 Standards of Play Field • 25-35 yards (length) • 15-25 yards (width) • Goals should be no larger than 4 feet (height) x 6 feet (width) • Corner flags are not needed … • 4v4 (no goalkeepers)",
+    "source_url": "https://www.usyouthsoccer.org/wp-content/uploads/sites/160/2023/09/Player-Development-Initiatives-2017.pdf",
+    "source_label": "U.S. Soccer, Player Development Initiatives (February 2017), Small-Sided Games Chart and 4v4 Standards of Play (hosted by US Youth Soccer)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4",
+      "25",
+      "35",
+      "15",
+      "6",
+      "8",
+      "75",
+      "105",
+      "45",
+      "2017"
+    ],
+    "notes": "PDF read 2026-09-27 with pdftotext. The chart lists U6, U7 and U8 at 4v4. Feet are the yards times three (arithmetic, not the source's)."
+  },
+  {
+    "id": "artificial-turf-for-backyard-sports.little-league-distances",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Little League sets 60-foot base paths for players 12 and under and a 46-foot pitching distance for the Major Division and below in baseball, and 35 to 43 feet by division in softball.",
+    "quote": "Generally, the distance between base paths on fields for 12-year-olds and below in baseball and in all divisions of softball is 60 feet. … The pitching distance for divisions of baseball for the Major Division and below is 46 feet. … The pitching distance for the different divisions of softball are as follows: Minor League: 35 feet; Little League (Majors): 40 feet; Junior and Senior League: 43 feet.",
+    "source_url": "https://www.littleleague.org/league-officials/field-specifications/",
+    "source_label": "Little League, Field Specifications",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "12",
+      "60",
+      "46",
+      "35",
+      "40",
+      "43"
+    ]
+  },
+  {
+    "id": "artificial-turf-for-backyard-sports.coversports-cage-sizes",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CoverSports, a batting cage maker, lists 70-, 55- and 35-foot cages that are 12 feet high, says to match the cage length to the highest level of play that will use it, that a 55-foot cage covers Little League pitching distances with room behind the pitcher while a 35-foot cage suits tee work and soft toss but is too short for live pitching at youth distances, and recommends about 70 by 24 by 16 feet of open space for a 55 by 14 by 12 foot net.",
+    "quote": "Full-size 70 ft 14 ft 12 ft High school, college, pro training Mid-size 55 ft 14 ft 12 ft Middle school, travel ball, multi-lane facilities Compact 35 ft 12 ft 12 ft Tee work, soft toss, youth clinics, limited-space facilities … Youth (Little League, ages 9-12). Pitching distances at this level range from 46 feet in the Major Division (most common) down to 38 feet for the youngest age groups. A 55-foot-long cage covers all of those distances comfortably and leaves a solid buffer behind the pitcher for equipment and a safety zone. A 35-foot-long cage is an option if you're using it for tee drills and soft toss, but it is too short for any live or machine pitching at regulation youth distances. … Cage Net Size Tight Fit (Min. Clearance) Recommended (Full Clearance) … 55 ft x 14 ft x 12 ft 65 ft x 22 ft x 14 ft 70 ft x 24 ft x 16 ft … Select the cage size. Match the cage length to the highest level of play that will use it. When in doubt, go longer.",
+    "source_url": "https://coversports.com/resources/field-guides/batting-cage-dimensions-setup-guide",
+    "source_label": "CoverSports, Batting Cage Dimensions: Setup Guide by Size and Level (March 27, 2026)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "70",
+      "14",
+      "12",
+      "55",
+      "35",
+      "9",
+      "46",
+      "38",
+      "65",
+      "22",
+      "24",
+      "16",
+      "27",
+      "2026"
+    ]
+  },
+  {
+    "id": "artificial-turf-for-backyard-sports.coversports-outdoor-cage",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CoverSports says outdoor cages use poles set in ground sleeves, that its outdoor system spans a 55 by 18 by 12 foot footprint because wind can push the net, that grass wears fast in a cage because foot traffic concentrates around home plate, and that its cage turf comes in 15-foot-wide rolls with a home plate mat to mark the batter's position.",
+    "quote": "Outdoor batting cages use a frame-and-post system set into the ground. CoverSports' outdoor batting cage system provides poles and ground sleeves for a 55-foot by 18-foot by 12-foot footprint, giving extra width compared to indoor setups since wind can push the net during use. … Natural turf wears down fast inside a batting cage because foot traffic is concentrated in a small area around home plate. Artificial batting cage turf rolls create a low-maintenance surface that drains well and holds up season after season. … Batting cage turf is sold in 15-foot-wide rolls that you cut to the length of your cage. … Home Plate Mat. A home plate mat anchors the batter's position and gives coaches a consistent visual reference",
+    "source_url": "https://coversports.com/resources/field-guides/batting-cage-dimensions-setup-guide",
+    "source_label": "CoverSports, Batting Cage Dimensions: Setup Guide by Size and Level (March 27, 2026)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "55",
+      "18",
+      "12",
+      "15",
+      "27",
+      "2026"
+    ]
+  },
+  {
+    "id": "artificial-turf-for-backyard-sports.usbf-court",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The United States Bocce Federation sets an official court at 86.92 by 13.12 feet, allows smaller unofficial courts, lists synthetic carpets among U.S. court surfaces, and marks the foul line on both the court surface and the side boards, recommending 13 feet from the back wall.",
+    "quote": "Official courts are 86.92’ in length and 13.12’ in width. Unofficial courts can be smaller. Court surface has the greatest variation found in the USA. Some examples are: carpet, crushed stone, dirt, oyster shells, clay, and most recently synthetic carpets and poured liquid creating a smooth, extremely fast surface. … Foul Lines: • Should be clearly marked both on court surface and side boards • There should only be one line for pointing and shooting and the recommendation is 13’ from the back wall.",
+    "source_url": "https://usbf.us/wp-content/uploads/2018/10/open-rules.pdf",
+    "source_label": "United States Bocce Federation, Open Rules (PDF, 2018)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "86.92",
+      "13.12",
+      "13",
+      "2018"
+    ],
+    "notes": "PDF read 2026-09-27 with pdftotext; the upload folder is dated October 2018."
+  },
+  {
+    "id": "artificial-turf-for-backyard-sports.xgrass-bocce-systems",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "XGrass, a sports turf maker, builds bocce courts either with a 1-inch pile about 75% filled with round-grain sand, which it says accepts ball impact yet still rolls true, or with a dense, non-infilled 0.5- to 0.75-inch pile over a cushion layer, and its typical outdoor court sits on a concrete base with wood or concrete borders and drainage tile to prevent puddling.",
+    "quote": "Sand-infill Option This 1” pile turf utilizes a specifically engineered, round-grain sand that fills about 75% of the turf. The result is a bocce court surface that will accept ball impact yet still roll true and remain consistently smooth over time. Non-infilled Option This option utilizes a dense .5”-.75” pile turf installed over an attached or separate cushion layer, this surface will take on the rigors of daily play. … For outdoor bocce courts, typical construction utilizes a short-pile turf system placed on a concrete base with a specifically engineered, round-grain sand that fills about 75% of the turf. Wood or concrete borders are also incorporated into most designs. For outdoor courts, our drainage tile is recommended to eliminate any surface puddling - particularly when installed over concrete or asphalt.",
+    "source_url": "https://www.xgrass.com/bocce-ball-courts.html",
+    "source_label": "XGrass, Synthetic Turf Bocce Ball Courts",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "75",
+      "0.5",
+      "0.75",
+      ".5",
+      ".75",
+      "5"
+    ],
+    "notes": "Read 2026-09-27 (curl). The source writes the non-infilled pile as .5\" to .75\"."
+  },
+  {
+    "id": "artificial-turf-for-backyard-sports.ecograss-bocce-layout",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "EcoGrass, a turf company, calls 60 by 12 feet a standard backyard bocce court and 30 by 8 feet a workable minimum for casual play, says to pick a level spot or grade it first, orient the court north–south where possible, and slope the base about 1 inch per 10 feet for runoff.",
+    "quote": "Choose a level area in your backyard for your bocce ball court. Look for a spot with good drainage and minimal slope. … If the chosen spot isn't perfectly level, you'll need to grade it before construction. … Standard bocce ball court dimensions are 60 feet long by 12 feet wide. For recreational use, you can adjust these measurements to fit your available space. A minimum of 30 feet by 8 feet is recommended for casual play. Orient the court north-south if possible to minimize sun glare for players. … Slope the base slightly (about 1 inch per 10 feet) to encourage proper runoff.",
+    "source_url": "https://www.ecograssus.com/blog/bocce-ball-court-with-artificial-turf",
+    "source_label": "EcoGrass (Shahe Sandjian), How to Build a Bocce Ball Court with Artificial Turf (Aug. 19, 2024)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "60",
+      "12",
+      "30",
+      "8",
+      "1",
+      "10",
+      "19",
+      "2024"
+    ],
+    "notes": "The 60 by 12 foot \"standard\" is EcoGrass's backyard figure, not the US Bocce Federation's official court."
+  },
+  {
+    "id": "artificial-turf-for-backyard-sports.cpsc-5118-goals-on-turf",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The CPSC says movable soccer goals should be securely anchored or counterweighted at all times and used only on level fields, that sandbags or other counterweights could be an effective alternative on hard surfaces such as artificial turf, to remove the nets when goals are not in use and fully take goals apart for seasonal storage, and it has reports of at least 36 deaths since 1979 from goals falling over.",
+    "quote": "Movable soccer goals can fall over and kill or injure children who climb on them or hang from the crossbar. The U.S. Consumer Product Safety Commission (CPSC) has reports of at least 36 deaths since 1979 resulting from soccer goals falling over. … • Securely anchor or counter-weight movable soccer goals at all times (see illustration). … • Use movable soccer goals only on level (flat) fields. … • Remove nets when goals are not in use. … • Fully disassemble goals for seasonal storage. … Sandbags or other counterweights could be an effective alternate on hard surfaces such as artificial turf.",
+    "source_url": "https://www.cpsc.gov/s3fs-public/5118.pdf",
+    "source_label": "U.S. Consumer Product Safety Commission, Movable Soccer Goals Can Fall Over On Children (Publication 5118, July 2014)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "36",
+      "1979",
+      "5118",
+      "2014"
+    ],
+    "notes": "PDF read 2026-09-27 with pdftotext (the illustration text extracts as \"artlflclal turf\"; corrected here). The flyer also prints the CPSC hotline, left out of the quote."
+  },
+  {
+    "id": "artificial-turf-for-backyard-sports.cpsc-goals-wind-anchors",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The CPSC's movable soccer goal guidelines say high winds can tip goals over, record a 9-year-old killed by a goal a gust of wind tipped over, recommend at least two auger-style anchors, one on each side, and say the number and type of anchors depend on soil type, soil moisture and the goal's weight.",
+    "quote": "High winds can also cause movable soccer goals to fall over. For example, a 9-year-old was fatally injured when a goal was tipped over by a gust of wind. … The number and type of anchors to be used will depend on a number of factors, such as soil type, soil moisture content, and total goal weight. … A minimum of two auger-style anchors (one on each side of the goal) are recommended. More may be required, depending on the manufacturer s specifications, the weight of the goal, and soil conditions.",
+    "source_url": "https://www.cpsc.gov/safety-education/safety-guides/sports-fitness-and-recreation/guidelines-movable-soccer-goals",
+    "source_label": "U.S. Consumer Product Safety Commission, Guidelines for Movable Soccer Goals",
+    "checked": "2026-09-27",
+    "reachable": false,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [
+      "9"
+    ],
+    "notes": "cpsc.gov returns Access Denied to automated fetches. Quote read verbatim from the Internet Archive's 2025 capture of this URL (web.archive.org/web/2025id_/…); re-read on the live page in a browser. \"manufacturer s\" is the page's own text (a dropped apostrophe)."
+  },
+  {
+    "id": "artificial-turf-for-backyard-sports.netex-net-drag",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Netex, a sports netting maker, says the industry assumed a drag coefficient of 8% for typical polyester or nylon barrier nets, but its wind tunnel tests measured 12 to 16% on some of them, 50 to 100% higher than the figures used to design support structures.",
+    "quote": "The industry’s “theoretical assumption” for wind drag on a typical polyester or nylon golf barrier net was a drag coefficient of 8%. Our test results showed, however, that the actual wind drag on some of these nets was in the 12 to 16% range… 50 to 100% higher than the wind drag figures typically being used to determine wind load for the design of support structures!",
+    "source_url": "https://www.netexnetting.com/engineering/",
+    "source_label": "Netex, Engineering: wind tunnel test results for sports netting",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "8",
+      "12",
+      "16",
+      "50",
+      "100"
+    ]
+  },
+  {
+    "id": "artificial-turf-for-backyard-sports.sportsfield-net-lower-breakaway",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Sportsfield Specialties sells multi-sport netting from 12 to 40 feet high that raises and lowers on a pulley and cable, with breakaway release points that let the net detach or drop under high wind stress instead of overloading the poles and footings.",
+    "quote": "12′ to 40′ heights commonly used for multi-sport applications Easily raise and lower net via pulley and vertical slide cable system Professionally pre-engineered to meet ASCE 7-10 wind rating up to 105 MPH … StormGuard® technology is a patented breakaway system designed by Sportsfield Specialties to protect netting structures during extreme weather. Instead of allowing wind to overload the system, engineered release points allow the net to safely detach or drop under high stress, preventing damage to poles and hardware. … This proactive protection helps facilities avoid costly repairs to poles, cables, and foundations",
+    "source_url": "https://www.sportsfield.com/products/netting-systems/stormguard-multi-sport-netting-systems/",
+    "source_label": "Sportsfield Specialties, StormGuard Multi-Sport Netting Systems",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "12",
+      "40",
+      "7",
+      "10",
+      "105"
+    ]
+  }
+]

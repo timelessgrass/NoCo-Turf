@@ -1,0 +1,375 @@
+[
+  {
+    "id": "johnstown-co--bella-ridge.odp-note-9-design-standards",
+    "layer": "ordinance",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "The Podtburg Property Outline Development Plan says landscaping, signage, architecture, non-residential parking, fencing and lighting follow the applicable standards in Johnstown's code unless the developer writes its own design standards, which the Planning and Development Director must approve before they are used.",
+    "quote": "9. LANDSCAPING, SIGNAGE, ARCHITECTURE, NON-RESIDENTIAL PARKING, FENCING AND LIGHTING FOR DEVELOPMENT WITH THIS PUD SHALL EITHER FOLLOW THOSE APPLICABLE STANDARDS IN THE TOWN OF JOHNSTON MUNICIPAL CODE OR THE DEVELOPER MAY FORMULATE DESIGN STANDARDS REGULATING THE DESIGN, CHARACTER, LOCATION AND OTHER DETAILS OF THESE ELEMENTS PRIOR TO THEIR IMPLEMENTATION. THE DEVELOPER FORMULATED DESIGN STANDARDS MUST RECEIVE APPROVAL BY THE PLANNING AND DEVELOPMENT DIRECTOR PRIOR TO IMPLEMENTATION.",
+    "source_url": "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=195,plainText=false)",
+    "source_label": "Town of Johnstown, Town Council packet, October 7, 2024, Item 10 (Podtburg Subdivision Filing No. 1): attached Podtburg Property Outline Development Plan (TB Group, dated March 13, 2020), sheet 1, General Note 9, packet p. 159",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "9"
+    ],
+    "notes": "Read in the ODP copy attached to the Council packet; the Town's own copy (johnstownco.gov DocumentCenter/View/2168) refused connections from this machine on 2026-09-27. 'JOHNSTON' is the plan's own misspelling. Neither the ODP nor the Filing 1 FDP mentions artificial turf, synthetic turf or putting greens."
+  },
+  {
+    "id": "johnstown-co--bella-ridge.odp-stricter-standard",
+    "layer": "ordinance",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "The Podtburg Outline Development Plan says that if Johnstown revises its development standards the more restrictive standard applies, and that the Town's codes, guidelines and standards are the default for anything the plan does not address.",
+    "quote": "2. IF THE TOWN OF JOHNSTOWN DEVELOPMENT STANDARDS ARE REVISED, THE MORE RESTRICTIVE STANDARDS SHALL APPLY. FOR ANY STANDARDS NOT ADDRESSED IN THIS ODP, TOWN CODES, GUIDELINES, AND STANDARDS WILL BE DEFAULT.",
+    "source_url": "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=195,plainText=false)",
+    "source_label": "Town of Johnstown, Town Council packet, October 7, 2024, Item 10: attached Podtburg Property Outline Development Plan, sheet 2, notes to the residential development standards, packet p. 160",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2"
+    ]
+  },
+  {
+    "id": "johnstown-co--bella-ridge.odp-sfd-setbacks",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "The Podtburg Outline Development Plan sets single-family detached lots at 4,000 square feet or more, with houses 15 feet back from the front, 5 feet from each side and 10 feet from the rear, or 5 feet from the rear where an alley serves the lot.",
+    "quote": "DEVELOPMENT STANDARDS: RESIDENTIAL SINGLE FAMILY DETACHED MINIMUM LOT SIZE 4,000 SF MAXIMUM HEIGHT 30' FRONT SETBACK TO BUILDING 15' FRONT SETBACK TO GARAGE 20' FRONT SETBACK TO SIDE LOADED GARAGE 10' SIDE YARD SETBACK 5' REAR YARD SETBACK (FRONT LOADED) 10' REAR YARD SETBACK (ALLEY LOADED) 5' SIDE (CORNER) SETBACK 10'",
+    "source_url": "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=195,plainText=false)",
+    "source_label": "Town of Johnstown, Town Council packet, October 7, 2024, Item 10: attached Podtburg Property Outline Development Plan, sheet 2, residential development standards, packet p. 160",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4000",
+      "30",
+      "15",
+      "20",
+      "10",
+      "5"
+    ]
+  },
+  {
+    "id": "johnstown-co--bella-ridge.fdp-code-default",
+    "layer": "ordinance",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "The Final Development Plan for Podtburg Subdivision Filing 1 repeats the design-standards note and says the Johnstown Municipal Code and the Town's other standards are used wherever the PUD plans do not clearly address a subject or are silent.",
+    "quote": "3. LANDSCAPING, SIGNAGE, ARCHITECTURE, NON-RESIDENTIAL PARKING, FENCING AND LIGHTING FOR DEVELOPMENT WITH THIS PUD SHALL EITHER FOLLOW THOSE APPLICABLE STANDARDS IN THE TOWN OF JOHNSTON MUNICIPAL CODE OR THE DEVELOPER MAY FORMULATE DESIGN STANDARDS … Relationship To Town Code & Development Standards: THE PROVISIONS OF THIS PUD SHALL PREVAIL AND GOVERN DEVELOPMENT TO THE EXTENT PERMITTED BY THE TOWN OF JOHNSTOWN MUNICIPAL CODE. WHERE STANDARDS, DETAILS, AND GUIDELINES OF THE PUD (OUTLINE, PRELIMINARY, OR FINAL DEVELOPMENT PLANS) DO NOT CLEARLY ADDRESS A SPECIFIC SUBJECT OR ARE SILENT, THE JOHNSTOWN MUNICIPAL CODE AND OTHER STANDARDS, REGULATIONS, AND GUIDELINES SHALL BE USED.",
+    "source_url": "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=195,plainText=false)",
+    "source_label": "Town of Johnstown, Town Council packet, October 7, 2024, Item 10: attached Final Development Plan, Podtburg Subdivision Filing 1, cover sheet S1, General Note 3 and 'Relationship To Town Code', packet p. 146",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "3"
+    ]
+  },
+  {
+    "id": "johnstown-co--bella-ridge.fdp-super-pad-tracts",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "The Filing 1 Final Development Plan shows super pad tracts that will be divided into home lots in later preliminary and final subdivision submittals, with exact lot sizes set in each of those.",
+    "quote": "2. THIS FINAL DEVELOPMENT PLAN DEPICTS SUPER PAD TRACTS WHICH WILL BE FURTHER SUBDIVIDED FOR RESIDENTIAL USE WITH A FUTURE PRELIMINARY AND FINAL SUBDIVISION SUBMITTAL. EXACT LOT SIZES WILL BE DETERMINED WITH EACH PRELIMINARY AND FINAL SUBDIVISION SUBMITTAL.",
+    "source_url": "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=195,plainText=false)",
+    "source_label": "Town of Johnstown, Town Council packet, October 7, 2024, Item 10: attached Final Development Plan, Podtburg Subdivision Filing 1, cover sheet S1, General Note 2, packet p. 146",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "1"
+    ]
+  },
+  {
+    "id": "johnstown-co--bella-ridge.filing-1-tracts",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "The Town's staff report on Podtburg Filing 1 says it creates eight commercial lots and nine tracts, that homes will come from the later subdivision of Tracts D, F and G at up to 5, 10 and 5 units an acre, and that Town water and sewer must reach the site before any residential subdivision.",
+    "quote": "Of the 448 total acres, there will be eight (8) commercial lots created that will total approximately 27.5 acres and nine (9) tracts created with a total of 398.1 acres that will be used for the golf course and future development. … Housing development will include the future subdivision of Tracts D, F, and G. At this time, there is no official unit count for these tracts; however, the maximum density permitted by the ODP is 5 du/ac (dwelling units per acre) for Tract D, 10 du/ac for Tract F, and 5 du/ac for Tract G. Prior to any residential subdivision development, or as a condition of approving a future residential subdivision, municipal water and sewer service must be extended to the site.",
+    "source_url": "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=195,plainText=false)",
+    "source_label": "Town of Johnstown, Town Council packet, October 7, 2024, Item 10: Planning and Zoning Commission staff memorandum of August 14, 2024 on Subdivision Case No. SUB22-0008, packet p. 132",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "448",
+      "8",
+      "27.5",
+      "9",
+      "398.1",
+      "5",
+      "10",
+      "1"
+    ]
+  },
+  {
+    "id": "johnstown-co--bella-ridge.filing-1-approved",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "The Town Council approved the Final Plat and Final Development Plan for Podtburg Subdivision Filing No. 1 by Resolution 2024-46 on October 7, 2024, and Town staff treat that FDP as the subdivision's governing zoning document, with the Land Use and Development Code applied where it is silent.",
+    "quote": "the Town Council approved Resolution No. 2024-46 on October 7, 2024, approving the Final Plat and Final Development Plan (FDP) for Podtburg Subdivision Filing No. 1. The approved Final Plat created Tract C, where the proposed Wireless Communications Facility is located, while the approved FDP serves as the governing zoning document for the subdivision. … Where the FDP is silent on a specific standard or requirement, the application was reviewed for compliance with the applicable provisions of the Johnstown Land Use and Development Code.",
+    "source_url": "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=1006,plainText=false)",
+    "source_label": "Town of Johnstown, Planning and Zoning Commission packet, August 12, 2026: staff report on the Lucky Star Monopine, Tract C of Podtburg Subdivision Filing 1, packet pp. 5-6",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "7",
+      "2024"
+    ]
+  },
+  {
+    "id": "johnstown-co--bella-ridge.plat-drainage-note",
+    "layer": "ordinance",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "The Podtburg Filing 1 plat carries Town-required notes that lots may have to carry drainage from other lots, that no one may regrade a lot or tract in a way that disrupts the approved drainage plan without the Town's approval, and that owners maintain the drainage ways on their land.",
+    "quote": "NOTES AT THE REQUEST OF THE TOWN OF JOHNSTOWN: 1. General overlot drainage note: lots and tracts as platted herein may be required to convey surface drainage from other lots and tracts in this filing, in accordance with town requirements and the approved drainage plan for this filing. No alterations to the grading of the lots and tracts may be made that would disrupt the approved drainage plan, without prior approval from the town. All natural and improved drainage ways or drainage systems in said lots and tracts shall be maintained by the lot or tract owner in accordance with town criteria.",
+    "source_url": "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=195,plainText=false)",
+    "source_label": "Town of Johnstown, Town Council packet, October 7, 2024, Item 10: attached Final Plat, Podtburg Subdivision Filing 1 (EPS Group sheet dated 08/12/2024, marked for review), sheet 1 notes, packet p. 139",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1"
+    ],
+    "notes": "The packet copy is the review sheet; the recorded plat was not read."
+  },
+  {
+    "id": "johnstown-co--bella-ridge.plat-ditch-covenants",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "The Podtburg Filing 1 plat bars buildings, structures, trees and other landscaping on the Hillsborough Extension Ditch easement without the ditch company's written approval, makes any development involving or next to the ditch subject to its prior written approval, puts the risk of seepage or overflow on the owners, and makes those notes covenants on every filing of the Podtburg development.",
+    "quote": "No permanent or temporary building, structures, improvements, sidewalks, trees or other landscaping (“Obstructions”) shall be installed, constructed, allowed, or permitted by the Undersigned on the Ditch except as expressly approved in this plat or under separate writing executed by the Hillsborough Extension Ditch Company. … 2. All future development within the Podtburg Development involving or adjacent to the ditch, including but not limited to Lot 1, shall be subject to prior written approval of ditch company. 3. It is understood that the ditch embankments are unlined and of earthen construction; therefore, breaks, leaks, seepage an/or overflow from the ditch may occur. owner and all of owner's successors and assigns of the lands within the development assume all risks associated with such breaks, leaks, seepage and/or overflow … 4. The above notes shall be covenants running with all lands of the Podtburg Development (all filings) and shall be expressly set forth in the development covenants and the development agreement for the development",
+    "source_url": "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=195,plainText=false)",
+    "source_label": "Town of Johnstown, Town Council packet, October 7, 2024, Item 10: attached Final Plat, Podtburg Subdivision Filing 1, Hillsborough Extension Ditch Company statement and notes at the ditch company's request, packet p. 139",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "1",
+      "3",
+      "4"
+    ],
+    "notes": "The ODP spells it 'Hillsboro Extension Ditch' and uses it as the line of the property's Section 13 land. The packet copy is the review sheet; the recorded plat was not read."
+  },
+  {
+    "id": "johnstown-co--bella-ridge.odp-raw-water-irrigation",
+    "layer": "utility",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "The Podtburg Outline Development Plan's utility sheet assumes raw water will irrigate the development, single-family homes and commercial areas included, and sizes its water demand on that basis.",
+    "quote": "WATER AND WASTEWATER CALCULATIONS: IT IS ASSUMED THAT RAW WATER WILL BE PROVIDED FOR IRRIGATION OF THE PODTBURG DEVELOPMENT, INCLUDING SINGLE-FAMILY HOMES AND COMMERCIAL AREAS. THEREFORE, THE WATER DEMANDS ARE ASSUMED TO MATCH THE WASTEWATER FLOWS.",
+    "source_url": "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=195,plainText=false)",
+    "source_label": "Town of Johnstown, Town Council packet, October 7, 2024, Item 10: attached Podtburg Property Outline Development Plan, master utility plan sheet, water and wastewater calculations, packet p. 164",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "An engineering assumption in 2020 planning, not a service commitment; which system irrigates each lot is settled with the residential filings."
+  },
+  {
+    "id": "johnstown-co--bella-ridge.course-irrigation-shares",
+    "layer": "utility",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "The Town's 2024 staff report says the Bella Ridge course's roughly 102.47 acres of irrigated turf and landscape are watered only through shares in the Highland Ditch, Ish Reservoir, Farmers Extension and Bunyan Lateral, and that Little Thompson Water District serves the property's potable water until the Town's lines reach it.",
+    "quote": "The proposed Bella Ridge Golf Course will encompass approximately 102.47 acres of irrigated turf and landscape, to be exclusively irrigated through 10 shares of the Highland Ditch, 21 shares of the Ish Reservoir, 13 shares of the Farmers Extension, and 23 shares of the Bunyan Lateral. … Potable water is currently served by Little Thompson Water District. They will continue to serve the property until municipal water infrastructure is extended to the property.",
+    "source_url": "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=195,plainText=false)",
+    "source_label": "Town of Johnstown, Town Council packet, October 7, 2024, Item 10: Council agenda communication and P&Z staff memorandum of August 14, 2024, packet pp. 128 and 133",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2024",
+      "102.47",
+      "10",
+      "21",
+      "13",
+      "23"
+    ]
+  },
+  {
+    "id": "johnstown-co--bella-ridge.course-grassing",
+    "layer": "place",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "The grassing plans in the Filing 1 Final Development Plan put bentgrass on the Bella Ridge golf holes, practice greens, green surrounds and chipping greens, a bluegrass and ryegrass blend on the target greens, tees, fairways and rough, and native grasses, fescues and wildflowers in the native areas.",
+    "quote": "Grassing Legend Golf Holes, Practice Greens & Green Surrounds – USGA (Bentgrass) Target Greens – Topsoil (Bluegrass/Ryegrass Blend) Chipping Greens - Sandcap (Bentgrass) Tees (Bluegrass/Ryegrass Blend) Fairways (Bluegrass/Ryegrass Blend) Rough (Bluegrass/Ryegrass Blend) Native Areas (Blend of native grasses, fescues, wildflowers)",
+    "source_url": "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=195,plainText=false)",
+    "source_label": "Town of Johnstown, Town Council packet, October 7, 2024, Item 10: attached Final Development Plan, Podtburg Subdivision Filing 1, golf grassing plans GC 3A-3C, packet pp. 154-157",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1"
+    ],
+    "notes": "Grassing plan as approved in 2024; the course as built was not surveyed."
+  },
+  {
+    "id": "johnstown-co--bella-ridge.northmoor-acres-weld",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "The Town's 2024 staff report lists Northmoor Acres, west of the Podtburg property, as a Weld County subdivision of 102 single-family homes, with Weld County agricultural land on the other three sides.",
+    "quote": "SURROUNDING ZONING & LAND USE North: A (Agricultural) – Weld County South: A (Agricultural) – Weld County East: A (Agricultural) – Weld County West: Northmoor Acres (Subdivision) – Weld County (102 Single-Family Dwellings)",
+    "source_url": "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=195,plainText=false)",
+    "source_label": "Town of Johnstown, Town Council packet, October 7, 2024, Item 10: P&Z staff memorandum of August 14, 2024, surrounding zoning and land use, packet p. 131",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2024",
+      "102"
+    ],
+    "notes": "Tract D-1 of Northmoor Acres Second Filing was replatted into Podtburg Filing 1; the rest of Northmoor Acres is outside the Podtburg property."
+  },
+  {
+    "id": "johnstown-co--bella-ridge.service-plan-design-review",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "The Podtburg Metropolitan District service plan gives the districts the power, but not the obligation, to provide covenant enforcement and design review, and says the Town's own design review and land-use controls must still be met in addition to anything the districts do.",
+    "quote": "26. Covenant Enforcement and Design Review Services. The Districts shall have the power, but not the obligation, to provide Covenant Enforcement and Design Review Services within the Districts in accordance with the Colorado Revised Statutes as they are amended from time to time. The Town shall not bear any responsibility for Covenant Enforcement and Design Review Services within the boundaries of the Districts. The Town’s architectural control, design review and other zoning, land use, development, design and other controls are separate requirements that must be met in addition to any similar controls or services undertaken by the Districts.",
+    "source_url": "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=208,plainText=false)",
+    "source_label": "Town of Johnstown, Town Council packet, September 20, 2021, Item 8 (Resolution 2021-33): Service Plan for Podtburg Metropolitan District Nos. 1-6, Sec. V.A.26, packet p. 298",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "26"
+    ]
+  },
+  {
+    "id": "johnstown-co--bella-ridge.service-plan-website-posting",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "The Podtburg service plan requires each district to post on its public website any recorded declaration of covenants, if it provides covenant enforcement and design review, and any rules and regulations its board adopts.",
+    "quote": "In addition, each District shall timely post a copy of all of the following documents on its public website: … c) each recorded declaration of covenants if the District provides Covenant Enforcement and Design Review Services, d) a copy of this Service Plan and all amendments thereto, e) all approved budgets, audits, meeting minutes, Board orders and resolutions, f) any Rules and Regulations adopted by the Board, and g) all meeting agendas and meeting packets.",
+    "source_url": "https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=208,plainText=false)",
+    "source_label": "Town of Johnstown, Town Council packet, September 20, 2021, Item 8: Service Plan for Podtburg Metropolitan District Nos. 1-6, Sec. V.A.32, packet p. 299",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "johnstown-co--bella-ridge.district-annual-report-2025",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "The combined 2025 annual report of the six Podtburg Metropolitan Districts, dated July 28, 2026, says the boards have adopted no rules and regulations, the districts' boundaries take in about one acre, no public improvements have been built, and the boards meet on the first Monday of November.",
+    "quote": "The Boards have not adopted rules and regulations. … The area of the Initial District Boundaries includes approximately one (1) acre. … The Districts did not construct any Public Improvements in the Report Year. … Regular Meeting Schedule: Date: First Monday of November Location: Virtual meeting",
+    "source_url": "https://podtburgmd.specialdistrict.org/files/ab2aa48be/PBM+1-6+Combined+2025+Annual+Report.pdf",
+    "source_label": "Podtburg Metropolitan District Nos. 1-6, 2025 Annual Report (cover letter dated July 28, 2026), Secs. I.A.7, I.A.11, I.B.2 and II.C",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2025",
+      "28",
+      "2026",
+      "1"
+    ],
+    "notes": "The same report says the Town approved the service plan on September 20, 2021 (Resolution 2021-33) and the Weld County District Court organized the districts on November 22, 2021. The Filing 1 plat labels its one-acre Tract E 'Metro District Director's Parcel'. The board members listed are all developer family members; not used."
+  },
+  {
+    "id": "johnstown-co--bella-ridge.district-organized",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Johnstown approved the service plan for the six Podtburg Metropolitan Districts on September 20, 2021, and the Weld County District Court organized the districts on November 22, 2021.",
+    "quote": "The Town approved the Service Plan on September 20, 2021, via Resolution No. 2021-33. … On November 22, 2021, the District Court for Weld County entered Orders and Decrees Organizing Podtburg Metropolitan District Nos. 1-6",
+    "source_url": "https://podtburgmd.specialdistrict.org/files/ab2aa48be/PBM+1-6+Combined+2025+Annual+Report.pdf",
+    "source_label": "Podtburg Metropolitan District Nos. 1-6, 2025 Annual Report (cover letter dated July 28, 2026), Sec. I.A.1",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "20",
+      "2021",
+      "22"
+    ]
+  },
+  {
+    "id": "johnstown-co--bella-ridge.district-documents-page",
+    "layer": "housing",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "On September 27, 2026 the Podtburg Metropolitan District documents page listed, for each of the six districts, annual budgets, audit exemptions, the annual report, boundary maps, the service plan and a transparency notice, and no declaration of covenants or rules and regulations.",
+    "quote": "Documents DISTRICT NO. 1 ANNUAL BUDGETS … ANNUAL AUDITS / FINANCIALS … ANNUAL REPORT … BOUNDARY MAPS … SERVICE PLAN … TRANSPARENCY NOTICE … DISTRICT NO. 2 ANNUAL BUDGETS",
+    "source_url": "https://podtburgmd.specialdistrict.org/documents",
+    "source_label": "Podtburg Metropolitan District Nos. 1-6 website, Documents page, read September 27, 2026",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "27",
+      "2026",
+      "1",
+      "2"
+    ],
+    "notes": "Boundary maps and the service plan link out to DOLA's filings portal, which sits behind a CAPTCHA and was not opened. The Resources page was not checked for covenants."
+  },
+  {
+    "id": "johnstown-co--bella-ridge.district-water-rights-limit",
+    "layer": "utility",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "The Podtburg Metropolitan Districts may not acquire, own, manage, adjudicate or develop water rights or resources except under an intergovernmental agreement with the Town of Johnstown.",
+    "quote": "(g) Water Rights/Resources Limitation. The Districts shall not acquire, own, manage, adjudicate or develop water rights or resources except pursuant to an intergovernmental agreement with the Town.",
+    "source_url": "https://podtburgmd.specialdistrict.org/about",
+    "source_label": "Podtburg Metropolitan District Nos. 1-6 website, About page (service plan summary), read September 27, 2026",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The same page restates the service plan's covenant enforcement and design review power: 'The Districts shall have the power, but not the obligation to provide covenant enforcement and design review services within the Districts.'"
+  },
+  {
+    "id": "johnstown-co--bella-ridge.club-real-estate-form",
+    "layer": "place",
+    "applies_to": [
+      "johnstown-co"
+    ],
+    "fact": "Bella Ridge Golf Club's real estate page is an interest form for people who want to hear about real estate opportunities at the club, with no lots or homes listed.",
+    "quote": "Real Estate Are you interested in learning more about real estate opportunities at Bella Ridge Golf Club? If so, please complete the form below and we will be in touch!",
+    "source_url": "https://www.bellaridgegolf.com/real-estate/",
+    "source_label": "Bella Ridge Golf Club, Real Estate page, read September 27, 2026",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  }
+]

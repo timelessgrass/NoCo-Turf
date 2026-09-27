@@ -1,0 +1,514 @@
+[
+  {
+    "id": "how-long-does-a-turf-field-last.stc-eol-lifespan",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council's 2017 end-of-life guideline says a synthetic turf sports field lasts 8 to 10 years depending on its use, exposure to intense sunlight, maintenance and other factors, and names environmental exposure, severe overuse and improper use as further factors.",
+    "quote": "Synthetic turf systems have a limited lifespan that ranges between 8 – 10 years. … Depending on its usage, exposure to intense sunlight, maintenance and other factors, a synthetic turf sports field will last 8 to 10 years before reaching the end of its useful life. Other factors that influence a sports field’s useful life may include environmental exposure, severe overuse and/or improper use.",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guideline_for_Recycle_Re.pdf",
+    "source_label": "Synthetic Turf Council, A Guideline to Recycle, Reuse, Repurpose and Remove Synthetic Turf Systems (3rd edition, October 2017)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "8",
+      "10",
+      "2017"
+    ],
+    "notes": "Read in full from the PDF with pdftotext on 2026-09-27. The www.syntheticturfcouncil.org copy of the same file returns Access Denied to curl; the staging-stc host serves it. The guideline says it focuses on sports fields."
+  },
+  {
+    "id": "how-long-does-a-turf-field-last.stc-eol-field-quantities",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The STC says a typical synthetic turf sports field is about 80,000 square feet, and an average field holds about 400,000 pounds of infill and 40,000 pounds of turf, roughly 400 cubic yards of infill, or almost fourteen 30-cubic-yard dumpsters.",
+    "quote": "A typical synthetic turf sports field is about 80,000 square feet (7,432 square meters). … An average field is comprised of 400,000 lbs. of infill (5 lbs./ft2) and 40,000 lbs. of turf (0.5 lbs./ft2). An 80,000 ft2 sports field would translate in volume to ± 400 cubic yards (yd3), or the equivalent of almost fourteen 30 cubic yard dumpsters of infill.",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guideline_for_Recycle_Re.pdf",
+    "source_label": "Synthetic Turf Council, A Guideline to Recycle, Reuse, Repurpose and Remove Synthetic Turf Systems (3rd edition, October 2017)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "80000",
+      "80,000",
+      "7432",
+      "7,432",
+      "400000",
+      "400,000",
+      "5",
+      "40000",
+      "40,000",
+      "0.5",
+      "400",
+      "30",
+      "2017"
+    ],
+    "notes": "Read in full from the PDF with pdftotext on 2026-09-27. The www.syntheticturfcouncil.org copy of the same file returns Access Denied to curl; the staging-stc host serves it. The guideline says it focuses on sports fields. used-artificial-turf.dtsc-field-weight carries the same 40,000 / 400,000 figures as DTSC cites them."
+  },
+  {
+    "id": "how-long-does-a-turf-field-last.stc-eol-removal-shipping",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The STC says specialized equipment removes a field's turf by cutting it into sections and rolling it into bundles, sometimes taking out most of the infill, that shipping cost is one of the biggest challenges of turf reclamation, and that owners should investigate every recycling and reuse option in the region before landfilling.",
+    "quote": "The industry has developed specialized equipment to remove synthetic turf sports fields by cutting the material into sections, rolling it into easily transportable bundles and, in some cases, removing most of the infill. … The cost of shipping is one of the biggest challenges associated with synthetic turf reclamation. … It is important to investigate all recycling and reuse options in the region before choosing to landfill the system components.",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guideline_for_Recycle_Re.pdf",
+    "source_label": "Synthetic Turf Council, A Guideline to Recycle, Reuse, Repurpose and Remove Synthetic Turf Systems (3rd edition, October 2017)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2017"
+    ],
+    "notes": "Read in full from the PDF with pdftotext on 2026-09-27. The www.syntheticturfcouncil.org copy of the same file returns Access Denied to curl; the staging-stc host serves it. The guideline says it focuses on sports fields."
+  },
+  {
+    "id": "how-long-does-a-turf-field-last.stc-eol-base-questions",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Before a field is removed, the STC tells owners to settle whether the base is stable enough to work on without being disturbed, who is responsible if the base is damaged during removal and reinstallation, and how long the contractor answers for base performance afterward.",
+    "quote": "Is the base stable enough to work on without being disturbed/displaced? … Who will be held responsible for damage for the base if it occurs during removal and installation of the new system? … What is the term of responsibility for the contractor for base performance after the work is completed?",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guideline_for_Recycle_Re.pdf",
+    "source_label": "Synthetic Turf Council, A Guideline to Recycle, Reuse, Repurpose and Remove Synthetic Turf Systems (3rd edition, October 2017)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2017"
+    ],
+    "notes": "Read in full from the PDF with pdftotext on 2026-09-27. The www.syntheticturfcouncil.org copy of the same file returns Access Denied to curl; the staging-stc host serves it. The guideline says it focuses on sports fields."
+  },
+  {
+    "id": "how-long-does-a-turf-field-last.stc-eol-infill-reuse",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The STC says infill extracted from an old field can be reused in a new or existing field, often topped up with new infill, but that a field meeting an international sports body's standard, such as FIFA's or World Rugby's, may not allow reused material.",
+    "quote": "The owner may reuse the extracted infill in a new synthetic turf field or existing field. In many cases, additional new infill may be added to the quantity of reused infill on a replacement field. Fields certified by an international sports governing body (e.g. FIFA, World Rugby) may or may not allow for reused material in the new turf system.",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guideline_for_Recycle_Re.pdf",
+    "source_label": "Synthetic Turf Council, A Guideline to Recycle, Reuse, Repurpose and Remove Synthetic Turf Systems (3rd edition, October 2017)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2017"
+    ],
+    "notes": "Read in full from the PDF with pdftotext on 2026-09-27. The www.syntheticturfcouncil.org copy of the same file returns Access Denied to curl; the staging-stc host serves it. The guideline says it focuses on sports fields."
+  },
+  {
+    "id": "how-long-does-a-turf-field-last.stc-eol-shock-pads",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The STC says some shock pads last more than one turf lifecycle of 8 to 12 years, some pad makers take recovered pads back for recycling, and poured-in-place elastic layers, which are not currently recycled, may be reusable or repairable depending on their quality and binder content.",
+    "quote": "Some manufacturers of shock pads will accept recovered product for recycling. Select pads can also be reused for other uses such as golf mats and farm animal mats. Some shock pads last more than one turf lifecycle of 8 – 12 years. … Although E-layers are not currently being recycled, they may be able to be reused, or repaired and reused depending on initial quality and binder content.",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guideline_for_Recycle_Re.pdf",
+    "source_label": "Synthetic Turf Council, A Guideline to Recycle, Reuse, Repurpose and Remove Synthetic Turf Systems (3rd edition, October 2017)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "8",
+      "12",
+      "2017"
+    ],
+    "notes": "Read in full from the PDF with pdftotext on 2026-09-27. The www.syntheticturfcouncil.org copy of the same file returns Access Denied to curl; the staging-stc host serves it. The guideline says it focuses on sports fields."
+  },
+  {
+    "id": "how-long-does-a-turf-field-last.stc-eol-know-the-system",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The STC says an owner replacing a field must know the turf system and maker being replaced, and should ask the original maker for product information on the carpet, infill, shock pad and other components if the owner lacks it.",
+    "quote": "As an owner and/or responsible party of a synthetic turf sports field, it is imperative to know the type of synthetic turf system and manufacturer of the surface you will be replacing. If you do not have product information on the system, carpet, infill, shock pad, or other component, consider contacting the original manufacturer for this information.",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guideline_for_Recycle_Re.pdf",
+    "source_label": "Synthetic Turf Council, A Guideline to Recycle, Reuse, Repurpose and Remove Synthetic Turf Systems (3rd edition, October 2017)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2017"
+    ],
+    "notes": "Read in full from the PDF with pdftotext on 2026-09-27. The www.syntheticturfcouncil.org copy of the same file returns Access Denied to curl; the staging-stc host serves it. The guideline says it focuses on sports fields."
+  },
+  {
+    "id": "how-long-does-a-turf-field-last.stc-eol-chain-of-custody",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The STC recommends a two-part chain-of-custody record for a removed field, documenting who handled the material and where each load went, whether recycled, reused, repurposed or landfilled, with a third-party signature verifying delivery.",
+    "quote": "Once decisions have been made to recycle, reuse, repurpose or landfill the synthetic turf system components, the STC recommends the responsible parties complete a two-part Chain of Custody Certification (COC) that includes the following: … The “Chain of Custody Certification—EOL Management” form includes the end-of-life (EOL) options for each component per shipping load and requires a third-party verification signature to verify the delivery of the material to the specified EOL option.",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guideline_for_Recycle_Re.pdf",
+    "source_label": "Synthetic Turf Council, A Guideline to Recycle, Reuse, Repurpose and Remove Synthetic Turf Systems (3rd edition, October 2017)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2017"
+    ],
+    "notes": "Read in full from the PDF with pdftotext on 2026-09-27. The www.syntheticturfcouncil.org copy of the same file returns Access Denied to curl; the staging-stc host serves it. The guideline says it focuses on sports fields."
+  },
+  {
+    "id": "how-long-does-a-turf-field-last.stc-eol-repurpose-turf",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The STC gives, as an example of repurposing, old field turf cleaned, repaired and reused in a commercial or residential landscape or a batting cage, and says reused field turf had become popular for residential and municipal landscapes, pet parks and playgrounds.",
+    "quote": "A portion of the discarded turf is recovered from a synthetic turf field during the deconstruction phase. It is cleaned, repaired and used in a commercial or residential landscape application, batting cage, or soil amendment. … During the past 10 years, reused synthetic turf has become a popular option for residential and municipal landscape, roof gardens, pet parks, playgrounds, airport median strips and other landscape and recreation applications.",
+    "source_url": "https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guideline_for_Recycle_Re.pdf",
+    "source_label": "Synthetic Turf Council, A Guideline to Recycle, Reuse, Repurpose and Remove Synthetic Turf Systems (3rd edition, October 2017)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "10",
+      "2017"
+    ],
+    "notes": "Read in full from the PDF with pdftotext on 2026-09-27. The www.syntheticturfcouncil.org copy of the same file returns Access Denied to curl; the staging-stc host serves it. The guideline says it focuses on sports fields."
+  },
+  {
+    "id": "how-long-does-a-turf-field-last.stc-shock-pad-two-lifecycles",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Synthetic Turf Council's shock pad guidelines, as its president described them in 2020, set minimum durability so that a pad performs adequately for at least two lifecycles of the turf carpet laid over it; pads typically run 5/16 inch to 1.5 inches thick between the turf and the stone base.",
+    "quote": "The document also specifies the minimum durability criteria to ensure that when a shock pad is incorporated into a synthetic turf system it will perform adequately for at least two lifecycles of the synthetic turf carpet. … Shock pads typically range from 5/16 inch to 1.5 inches in depth, and are placed between the turf surface and stone base.",
+    "source_url": "https://sportsfieldmanagementonline.com/2020/08/27/new-shock-pad-guidance-offers-insight-into-selection-and-maintenance-process/11895/",
+    "source_label": "SportsField Management, New Shock Pad Guidance Offers Insight Into Selection and Maintenance Process, by Dan Bond, president and CEO of the Synthetic Turf Council (Aug. 27, 2020)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5/16",
+      "5",
+      "16",
+      "1.5",
+      "2020",
+      "27"
+    ],
+    "notes": "Read 2026-09-27. The article is the STC chief executive describing the STC's own Performance and Quality Guidelines for Shock Pads; the guidelines PDF itself was not read."
+  },
+  {
+    "id": "how-long-does-a-turf-field-last.sfm-2022-end-of-life-signs",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SportsField Management reported in 2022 that synthetic fields generally need replacing 8 to 12 years after installation, and that torn seams, lost infill, degraded or worn fibers and high GMAX readings can all signal the end of a field's useful life.",
+    "quote": "Synthetic fields reach a point (generally 8 to 12 years after installation) where replacement becomes necessary. Torn inseams, reduction of infill, fiber degradation or worn turf – and/or high GMAX ratings – can all be signs that the field has reached the end of its useful life.",
+    "source_url": "https://sportsfieldmanagementonline.com/2022/04/28/recycling-and-repurposing-synthetic-turf/13693/",
+    "source_label": "SportsField Management, Recycling and repurposing synthetic turf, by Mary Helen Sprecher (April 28, 2022)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "8",
+      "12",
+      "2022",
+      "28"
+    ],
+    "notes": "Read 2026-09-27. A trade magazine for sports field managers; the article draws on a turf reclamation company."
+  },
+  {
+    "id": "how-long-does-a-turf-field-last.sfm-2022-infill-weight-credit",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same 2022 article says 75% or more of a field's weight is in its infill, so extracting it for reuse sharply cuts transport and disposal costs, and a turf reclamation firm said contractors often credit the owner on the bid for infill reused in the new field.",
+    "quote": "Reusing the current infill in a new surface lends itself to a cost savings in construction. … (Extracting the infill allows it to be reused and dramatically decreases transportation and disposal costs for the turf, since 75 percent or more of the field’s weight is in the infill). … “Often, the contractor will give the owner some credit for this; they might say, ‘If you want to re-use the infill, we’ll knock this much off our bid.’ That way, both the owner and a contractor get a benefit.”",
+    "source_url": "https://sportsfieldmanagementonline.com/2022/04/28/recycling-and-repurposing-synthetic-turf/13693/",
+    "source_label": "SportsField Management, Recycling and repurposing synthetic turf, by Mary Helen Sprecher (April 28, 2022)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "75",
+      "2022",
+      "28"
+    ],
+    "notes": "The bid-credit words are Mark Heinlein of Turf Reclamation Solutions, as quoted; pages do not name the firm."
+  },
+  {
+    "id": "how-long-does-a-turf-field-last.sfm-2022-worn-areas",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same article says pieces of an old field can find new use in batting cages, sideline protection and landscapes, but that the most-played areas of a field at the end of its life may be too worn to reuse as surfacing.",
+    "quote": "In some cases, parts of the synthetic field can find new use as surfacing in batting cages, sideline/track protection, small sports practice areas, landscape/erosion control, bed/trailer liners, etc. Generally, this is possible because smaller portions of the turf will be used; after fields have reached the end of their useful life, it is likely some areas (those that see more concentrated play) may be worn and not appropriate for use as a surfacing.",
+    "source_url": "https://sportsfieldmanagementonline.com/2022/04/28/recycling-and-repurposing-synthetic-turf/13693/",
+    "source_label": "SportsField Management, Recycling and repurposing synthetic turf, by Mary Helen Sprecher (April 28, 2022)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2022",
+      "28"
+    ]
+  },
+  {
+    "id": "how-long-does-a-turf-field-last.asba-2024-components-remain",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A 2024 SportsField Management synopsis of the American Sports Builders Association's field manual says specialty contractors extract infill for reuse in a new field, and that a field's base, drainage system and shock pad may be able to stay in place under a new field if they are in good shape.",
+    "quote": "For example, specialty contractors will extract the infill from a system and reuse it in a new field. If the base of the field, drainage system and/or shock pad are in good shape, those may be able to remain in place for a new field, providing some cost savings for the owner.",
+    "source_url": "https://sportsfieldmanagementonline.com/2024/09/26/synthetic-turf-updates-from-the-field/17226/",
+    "source_label": "SportsField Management, Synthetic Turf: Updates from the Field (Sept. 26, 2024), a synopsis of the American Sports Builders Association's Sports Fields: Construction and Maintenance Manual",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [
+      "2024",
+      "26"
+    ],
+    "notes": "Read 2026-09-27. The manual itself was not read; the magazine says the passage is a synopsis compiled by the ASBA."
+  },
+  {
+    "id": "how-long-does-a-turf-field-last.stma-2008-replacement-budget",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The STMA's 2008 guide told field owners to budget roughly $6.50 to $7.80 per square foot for the disposal and resurfacing of a synthetic field.",
+    "quote": "Budgeting for the cost to replace a synthetic field. Plan on an approximate range of $6.50 to $7.80 per sq. ft. for the disposal and resurfacing of a synthetic field.",
+    "source_url": "https://www.stma.org/sites/stma/files/STMA_Synthetic_Guide_2nd_Edition.pdf",
+    "source_label": "Sports Turf Managers Association, A Guide to Synthetic and Natural Turfgrass for Sports Fields, 2nd Edition (November 2008)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6.50",
+      "7.80",
+      "2008"
+    ],
+    "notes": "2008 dollars; read 2026-09-27. The guide's 1st edition (2006, stma_syntheticturfguidehipg1.pdf) instead gave tear-out and disposal alone at $1.75 to $2.25 per sq ft; this page uses the later edition only."
+  },
+  {
+    "id": "how-long-does-a-turf-field-last.stma-2008-insurance",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The STMA's 2008 guide tells owners to check whether their core insurance policies cover a synthetic or grass field for Acts of God, vandalism or other mishaps, and says add-ons or an additional policy may be needed.",
+    "quote": "Owners need to review core insurance policies to confirm if coverage is in place for synthetic or natural grass fields for Acts of God, vandalism or other unwarranted mishaps. Add-ons to the owner’s insurance policy or purchasing an additional policy may be needed.",
+    "source_url": "https://www.stma.org/sites/stma/files/STMA_Synthetic_Guide_2nd_Edition.pdf",
+    "source_label": "Sports Turf Managers Association, A Guide to Synthetic and Natural Turfgrass for Sports Fields, 2nd Edition (November 2008)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2008"
+    ]
+  },
+  {
+    "id": "how-long-does-a-turf-field-last.weld-re4-bond-priority-2",
+    "layer": "place",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Weld RE-4's bond program lists the replacement of Windsor High School's stadium turf field and shock pad as its Priority 2 Repairs, at $1.3M, within an initial estimated $18,500,000 for repairs and replacements.",
+    "quote": "Priority 2 Repairs ($1.3M) … Windsor High School: Replacement of the stadium turf field and shock pad … Initial Estimated Cost: $18,500,000 approximately",
+    "source_url": "https://bond.weldre4.org/projects/repairs-replacements",
+    "source_label": "Weld RE-4 School District bond program, Repairs & Replacements",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4",
+      "2",
+      "1",
+      "1.3",
+      "18500000",
+      "18,500,000"
+    ],
+    "notes": "Read 2026-09-27. The stadium turf and shock pad is the only item listed under Priority 2 Repairs; the four categories ($7.1M, $5.3M, $4.8M, $1.3M) sum to the $18.5M estimate. Dates of the work are in windsor-co.whs-stadium-turf-2023. A budget line, not the final cost."
+  },
+  {
+    "id": "how-long-does-a-turf-field-last.psd-french-field-2015",
+    "layer": "place",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "In 2015 Poudre School District's athletic director said French Field's turf, installed in July 2012, should last 12 to 14 years under normal use but would need replacing after about eight at its schedule, which had run to 43 events in a 12-week fall season.",
+    "quote": "The turf at French Field was installed in July 2012, and Alexander says it should last 12 to 14 years under normal use, but with current scheduling, he anticipates it will need replacement after about eight years. … All told, French Field hosted 43 events in a 12-week span last fall and at least 45 over 11 weeks this spring.",
+    "source_url": "https://web.archive.org/web/20151224184223/http://usatodayhss.com/2015/psd-looks-to-add-new-sports-complex",
+    "source_label": "The Coloradoan (Kevin Lytle), PSD looks to add new sports complex (May 3, 2015), as carried by USA Today High School Sports (Wayback Machine capture, Dec. 24, 2015)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2015",
+      "2012",
+      "12",
+      "14",
+      "43",
+      "45",
+      "11",
+      "3",
+      "24"
+    ],
+    "notes": "The live usatodayhss.com URL now returns 404; read from the Wayback capture of 2015-12-24 on 2026-09-27. The athletic director is Ron Alexander. The district has published no newer statement on French Field's turf that we found; the 2024 mill levy plan (psd-2024-mill-levy-rmhs) lists synthetic turf at Rocky Mountain High, where French Field stands, without naming the field."
+  },
+  {
+    "id": "how-long-does-a-turf-field-last.psd-fossil-ridge-2015",
+    "layer": "place",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "The same 2015 report said Fossil Ridge High School's turf was in dire need of replacement, planned for 2015 or 2016 at about $500,000, and quoted the athletic director saying more multi-use fields would spread play out and get the life out of the district's fields.",
+    "quote": "Fossil Ridge’s turf is in dire need of replacement and its track is unusable now, with resurfacing scheduled for this summer. … Resurface track at Fossil Ridge (this summer) and replace synthetic turf at Fossil Ridge (2015 or 2016). Renovation of Fossil Ridge’s field costs approximately $500,000. … “If we get more of these multi-use fields in the system, because we’re severely lacking, we have some choices and can spread things out and get the life out of our fields,” Alexander said.",
+    "source_url": "https://web.archive.org/web/20151224184223/http://usatodayhss.com/2015/psd-looks-to-add-new-sports-complex",
+    "source_label": "The Coloradoan (Kevin Lytle), PSD looks to add new sports complex (May 3, 2015), as carried by USA Today High School Sports (Wayback Machine capture, Dec. 24, 2015)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2015",
+      "2016",
+      "500000",
+      "500,000",
+      "3",
+      "24"
+    ],
+    "notes": "The live usatodayhss.com URL now returns 404; read from the Wayback capture of 2015-12-24 on 2026-09-27. The athletic director is Ron Alexander. The district has published no newer statement on French Field's turf that we found; the 2024 mill levy plan (psd-2024-mill-levy-rmhs) lists synthetic turf at Rocky Mountain High, where French Field stands, without naming the field. Whether Fossil Ridge was replaced on that schedule was not confirmed."
+  },
+  {
+    "id": "how-long-does-a-turf-field-last.psd-2024-mill-levy-rmhs",
+    "layer": "place",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Poudre School District's 2024 mill levy allocates $22.9 million a year to maintain its schools under a plan of projects for the first five years, and lists synthetic turf, track repairs and French Field plumbing fixtures among Rocky Mountain High School's projects.",
+    "quote": "$22.9 million will be allocated annually to maintain PSD schools and buildings. A maintenance plan has been developed that outlines the projects to be completed by school in the first five years. … Rocky Mountain High: … Condensing Units, Domestic Hot Water Tank, Generator Synthetic Turf, Track Repairs, French Field Plumbing Fixtures",
+    "source_url": "https://www.psdschools.org/community/2024-mill-levy/facilities-projects",
+    "source_label": "Poudre School District, 2024 Mill Levy: Facilities Projects",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-09-27",
+    "numbers": [
+      "2024",
+      "22.9"
+    ],
+    "notes": "Read 2026-09-27. The page says projects may change and the Operations Department sets their order; it gives no year or budget for the turf item and does not say which Rocky Mountain High field it is. French Field is the district stadium on the Rocky Mountain High campus."
+  },
+  {
+    "id": "how-long-does-a-turf-field-last.longmont-dry-creek-replacement-plan",
+    "layer": "place",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Longmont's Dry Creek FAQ says the fields' top turf layer can last 10 or more years if maintained properly, that the city planned its replacement at 10 years, first appearing in the five-year capital plan in 2029 with funds projected for 2034, and that the padding below has 25 years of coverage, with its replacement planned as soon as 2049.",
+    "quote": "Has the City of Longmont incorporated the cost of replacing the artificial turf when it reaches the end of its life cycle in 8-10 years? … The top layer of the turf has a warranty of 8 years but can last 10 or more years if maintained properly. The City has planned for turf (top layer) replacement in 10 years, which will first show up in the 5-Year CIP in 2029 and will project the funds needed in 2034 for replacement. The padding that is below the turf layer has a 25-year warranty; the City will plan for padding replacement as soon as 2049.",
+    "source_url": "https://longmontcolorado.gov/facility/dry-creek-community-park/",
+    "source_label": "City of Longmont, Dry Creek Community Park (Synthetic Turf FAQs)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "8",
+      "10",
+      "5",
+      "2029",
+      "2034",
+      "25",
+      "2049"
+    ],
+    "notes": "Read 2026-09-27. The same FAQ names the turf, pad and infill products; pages do not."
+  },
+  {
+    "id": "how-long-does-a-turf-field-last.longmont-dry-creek-built-2024",
+    "layer": "place",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Longmont held a community meeting on January 10, 2024 about the new Dry Creek fields and sports lighting, and its FAQ says Colorado's 2024 turf law excludes athletic playing fields from its restrictions on artificial turf.",
+    "quote": "A community information meeting regarding the new fields and sports lighting occurred at Altona Middle School on Wednesday, January 10, 2024 … No, the bill specifically excludes athletic playing fields from the restrictions on artificial turf installation.",
+    "source_url": "https://longmontcolorado.gov/facility/dry-creek-community-park/",
+    "source_label": "City of Longmont, Dry Creek Community Park (Synthetic Turf FAQs)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "10",
+      "2024"
+    ],
+    "notes": "The second sentence answers the FAQ question \"Does Colorado SB24-005 prohibit the installation of synthetic (or, artificial) turf?\" The page gives no completion date; the fields were built after that meeting."
+  },
+  {
+    "id": "how-long-does-a-turf-field-last.longmont-dry-creek-recycling",
+    "layer": "place",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Longmont's FAQ says its turf maker's end-of-life program tracks each field by reference number through processing and recycling, at $0.15 a square foot plus freight, for its roughly 252,670 square feet of turf.",
+    "quote": "Each field is assigned a reference number which follows it throughout the entire processing cycle at end of life. … Turf processing rate is $0.15/sq.ft. plus the cost of freight. There are roughly 252,670 s.f. of turf installed.",
+    "source_url": "https://longmontcolorado.gov/facility/dry-creek-community-park/",
+    "source_label": "City of Longmont, Dry Creek Community Park (Synthetic Turf FAQs)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "0.15",
+      "252670",
+      "252,670"
+    ],
+    "notes": "The FAQ names the maker; pages do not. Arithmetic, not the city's: 252,670 x 0.15 = about 37,900 dollars before freight."
+  },
+  {
+    "id": "how-long-does-a-turf-field-last.longmont-dry-creek-fluorine",
+    "layer": "place",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Longmont had the fiber of its Dry Creek turf tested for fluorine, and the result was below the test's detection limit of 1.0 ppm.",
+    "quote": "The turf was tested for fluorine content. The results shows that the fluorine content in the TenCate XP Fiber material was below the detection limit of 1.0 ppm.",
+    "source_url": "https://longmontcolorado.gov/facility/dry-creek-community-park/",
+    "source_label": "City of Longmont, Dry Creek Community Park (Synthetic Turf FAQs)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1.0"
+    ],
+    "notes": "A total-fluorine screen is a proxy for PFAS, not proof of none; pages say only what the city says."
+  },
+  {
+    "id": "how-long-does-a-turf-field-last.tsd-ray-patterson-2020",
+    "layer": "place",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "In June 2020 a Loveland radio station, citing the Reporter-Herald, reported that the field at Loveland's Ray Patterson Stadium had just been replaced with synthetic turf, the first of its kind in Thompson School District, for $900,000 of bond money including new goalposts and a fence.",
+    "quote": "The field at the stadium recently got replaced with synthetic turf. The Reporter-Herald reported on how it's the first of its kind in the Thompson School District, and the $900,000 for the upgrade, including new goalposts and a fence, came from bond sales.",
+    "source_url": "https://retro1025.com/take-at-look-at-lovelands-ray-patterson-stadium-upgrade-video/",
+    "source_label": "Retro 102.5 (Fort Collins), Take at Look at Loveland’s Ray Patterson Stadium Upgrade [Video] (June 3, 2020), citing the Loveland Reporter-Herald",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [
+      "2020",
+      "900000",
+      "900,000",
+      "3",
+      "102.5"
+    ],
+    "notes": "A radio station summary of a Reporter-Herald story that was not read. Thompson School District's 2018 bond page lists a turf football field at Berthoud High School as well (berthoud-co.max-marr-stadium-field-turf)."
+  }
+]

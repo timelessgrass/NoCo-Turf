@@ -1,0 +1,464 @@
+[
+  {
+    "id": "eaton-co--governors-ranch.association",
+    "layer": "housing",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Colorado's business registry lists Governor's Ranch Community Association, formed January 8, 2001 and in good standing, with 365 REAL Property Management, LLC of Greeley as its registered agent, and a separate Settlers Cove at Governor's Ranch Association formed the same day, also in good standing.",
+    "quote": "GOVERNOR'S RANCH COMMUNITY ASSOCIATION, ID 20011004608, Good Standing, nonprofit corporation, formed 2001-01-08, principal city Greeley, registered agent 365 REAL Property Management, LLC, Greeley · SETTLERS COVE AT GOVERNOR'S RANCH ASSOCIATION, ID 20011004717, Good Standing, nonprofit corporation, formed 2001-01-08, principal city Eaton",
+    "source_url": "https://data.colorado.gov/resource/4ykn-tg5h.json?$q=governor%27s%20ranch",
+    "source_label": "Colorado Secretary of State, Business Entities in Colorado (data.colorado.gov), entries for Governor's Ranch Community Association and Settlers Cove at Governor's Ranch Association",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "8",
+      "2001",
+      "365",
+      "20011004608",
+      "20011004717",
+      "2001-01-08"
+    ],
+    "notes": "Queried 2026-09-27 with $q=governor's ranch. The same search returns several Governor's Ranch entities in another county (a different, older community) — left out. Settlers Cove's registered agent is a private individual and is deliberately not named."
+  },
+  {
+    "id": "eaton-co--governors-ranch.no-turf-named",
+    "layer": "housing",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Governor's Ranch's recorded declaration, design standards, fence standards and landscaping guidelines never mention artificial turf or putting greens; the only use of the word artificial is artificial stone for the fronts of houses.",
+    "quote": "Masonry: Brick, Stone, (some categories of artificial stone) and Dri-vit product (or equal), are required on front of all residences.",
+    "source_url": "https://web.archive.org/web/20150421034928/http://www.eatongovernorsranch.com/covenants/Declarations%20of%20Covenants.pdf",
+    "source_label": "Governor's Ranch Declaration of Covenants (Weld County Reception No. 2844347, recorded April 30, 2001) with its Exhibits D, 1, 2 and E, the First Amendment (Reception No. 2991451, Sept. 30, 2002), the Phase 3 standards and the ACC's Landscaping and Yard Guidelines, Internet Archive copy of the developer's 72-page PDF",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Scanned, landscape-rotated PDF: every page rendered and OCR'd (macOS Vision) on 2026-09-27, key pages checked by eye. Searched all 72 pages for artificial, turf, putting, synthetic, golf, gravel, rock and mulch. 'Artificial' appears only in the masonry line of Exhibit 1 (2001), Amended Exhibit 1 (2002) and the Phase 3 Exhibit 1. The pages carry Weld County recording stamps."
+  },
+  {
+    "id": "eaton-co--governors-ranch.decl-landscape-plan",
+    "layer": "housing",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Article XI, Section 2 of the Governor's Ranch declaration puts the plan for all shrubs, plants, trees, gardens, swimming pools, playground areas, gazebos and the like before the Architectural Control Committee, sets landscaping deadlines (the same year for a house finished between January 1 and August 30, otherwise by May 31 of the next year), wants approval in writing, and treats a plan the committee leaves unanswered for 30 days as approved.",
+    "quote": "The plan for all shrubs, plants, trees, gardens, swimming pools, playground areas, gazebos, and the like shall be approved by the Architectural Control Committee. Each owner shall be required to submit a landscape plan to the Committee for its files in the same manner as provided for building plans and specifications. All landscaping for lots on which a residence has been substantially completed between January 1 and August 30 of any year shall be landscaped in the same year; if the residence is completed after August 30, such landscaping shall be completed by May 31 of the following year. … Approval by the Architectural Control Committee shall be in writing or indicated by endorsement on the plans and specifications and the landscape plan submitted for approval. In the event the Architectural Control Committee fails to approve or disapprove the landscape plan and/or the plans and specifications submitted to it by the Owner of a Lot within thirty (30) days after submission of the landscape plan and the plans and specifications, then such approval shall not be required and shall be deemed to have been given.",
+    "source_url": "https://web.archive.org/web/20150421034928/http://www.eatongovernorsranch.com/covenants/Declarations%20of%20Covenants.pdf",
+    "source_label": "Governor's Ranch Declaration of Covenants, Article XI, Section 2 (Weld County Reception No. 2844347, recorded April 30, 2001), PDF pages 29–30, Internet Archive copy of the developer's PDF",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "30",
+      "31"
+    ],
+    "notes": "Read from the page images on 2026-09-27."
+  },
+  {
+    "id": "eaton-co--governors-ranch.decl-aesthetic-review",
+    "layer": "housing",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "The Governor's Ranch declaration limits the Architectural Control Committee's review to visual matters, not construction standards, building codes or soils, and says its approval is no representation that plans meet zoning ordinances or building codes.",
+    "quote": "The Architectural Control Committee is not for the purpose of approving construction standards, enforcing building codes, or reviewing such things as soils, foundation design, structural supports, wiring, plumbing, etc. The review is intended for limited purposes to regulate the visual guidelines as required by this Declaration. … approval by the Architectural Control Committee of plans and specifications submitted to it shall not constitute any representation that such plans and specifications comply with applicable zoning ordinances or building codes.",
+    "source_url": "https://web.archive.org/web/20150421034928/http://www.eatongovernorsranch.com/covenants/Declarations%20of%20Covenants.pdf",
+    "source_label": "Governor's Ranch Declaration of Covenants, Article XI, Sections 1(b) and 2 (Weld County Reception No. 2844347, recorded April 30, 2001), Internet Archive copy of the developer's PDF",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "eaton-co--governors-ranch.ads-subsequent-landscaping",
+    "layer": "housing",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Governor's Ranch's design standards require landscaping proposed after a lot's earlier approval to be submitted and approved before work starts, ask for an ancillary submittal form, two sets of plans (a sketch will do) with cut sheets for lights and play equipment and a fee then set at $100 payable to the developer, JRC Land Company, and promise a written response within 14 days.",
+    "quote": "Subsequent or Ancillary Improvements Shall Require ACC Approval. Additional construction, changes, modifications or landscaping proposed to a lot subsequent to and/or in addition to those improvements which were the subject of any previous ACC Approval must be formally submitted to the ACC for review and ACC Approval prior to initiating such additional changes, modifications or landscaping. … Complete Required Form. Complete the Ancillary Submittal Form included herein and submit that form to the ACC with any appropriate fee. Provide Plans. Provide the ACC with two sets of plans showing site location and proposed materials, plus cut sheets for lights, play equipment, and solar collectors. Color samples, where appropriate, must accompany the submittal. Plans can be simple as a sketch, or may be professional drawings. Pay Submittal Fee. A submittal fee, currently $100, made payable to the order of JRC Land Company, LLC, must be included for any proposed additions or changes. The ACC will review ancillary improvement plans and will provide a written response to the owner or builder within fourteen (14) days after receipt of such ancillary submittal.",
+    "source_url": "https://web.archive.org/web/20150421034928/http://www.eatongovernorsranch.com/covenants/Declarations%20of%20Covenants.pdf",
+    "source_label": "Governor's Ranch Residential Architectural Design Standards (Exhibit D to the 2001 declaration), Article III, Sections 10 and 11, PDF pages 47–48, Internet Archive copy of the developer's PDF",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "100",
+      "14"
+    ],
+    "notes": "Read from the page images on 2026-09-27. The fee and payee date from 2001; the association may have changed both since the developer handed over."
+  },
+  {
+    "id": "eaton-co--governors-ranch.ads-informal-review",
+    "layer": "housing",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Governor's Ranch's design standards encourage owners to bring sketches or concept drawings to the committee for an informal review before a formal submittal, with no submittal fee.",
+    "quote": "Preliminary Consultations and Informal Submittals. Although not required, preliminary consultations between the ACC and the applicant as well as informal submittals are strongly encouraged. The ACC will review any developer's, builder's or owner's plans, preliminary sketches or conceptual drawings at any stage before the applicant files a formal submittal and without the requirement of a submittal fee.",
+    "source_url": "https://web.archive.org/web/20150421034928/http://www.eatongovernorsranch.com/covenants/Declarations%20of%20Covenants.pdf",
+    "source_label": "Governor's Ranch Residential Architectural Design Standards (Exhibit D to the 2001 declaration), Article III, PDF page 44, Internet Archive copy of the developer's PDF",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "eaton-co--governors-ranch.ads-approval-clock",
+    "layer": "housing",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Under Governor's Ranch's design standards a complete formal submittal the committee leaves undecided for 30 days is deemed approved, an approval lasts 12 months, work must start within a year of approval and finish within a year of starting, and the committee may inspect until 60 days after it receives the owner's written notice of completion.",
+    "quote": "In the event the ACC fails to approve or disapprove the submittal within 30 days of submission of the complete submittal (see Section 3 below) to the ACC, then such approval shall not be required and shall be deemed to have been given. … Expiration of ACC Approval. ACC Approval is valid for twelve (12) month. Construction must begin within this period or the ACC Approval expires and the applicant must submit a new formal submittal. … Construction must be commenced within one (1) year of ACC Approval for any proposed improvement to a Lot. … Failure to complete any proposed improvement to the lot within one (1) year after the date work is commenced … shall constitute a violation of the applicable Declaration … Inspection by ACC. The ACC or its duly authorized representatives shall have the right to inspect any improvement to the Lot prior to its completion provided that the right of inspection shall terminate sixty (60) days after the ACC receives a written Notice of Completion of such improvement from the applicant.",
+    "source_url": "https://web.archive.org/web/20150421034928/http://www.eatongovernorsranch.com/covenants/Declarations%20of%20Covenants.pdf",
+    "source_label": "Governor's Ranch Residential Architectural Design Standards (Exhibit D to the 2001 declaration), Article III, PDF pages 44, 46 and 47, Internet Archive copy of the developer's PDF",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "30",
+      "3",
+      "12",
+      "1",
+      "60"
+    ],
+    "notes": "The 30-day deemed approval sits in the formal-submittal section; the ancillary procedure (eaton-co--governors-ranch.ads-subsequent-landscaping) promises a written answer in 14 days and says nothing about silence. Which clock governs a later landscaping change is not spelled out: pages hedge."
+  },
+  {
+    "id": "eaton-co--governors-ranch.ads-enforcement",
+    "layer": "housing",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Governor's Ranch's design standards let the committee require unapproved or nonconforming work to be removed and the lot restored at the owner's cost, and bar a contractor who ignores the review process from building anything else in Governor's Ranch until the violation is corrected.",
+    "quote": "If ACC Approval is not received prior to any construction, ACC may, at its sole discretion, require or cause any unapproved structure to be removed without expense or liability to the ACC … Upon written request from the ACC, or its designees, the applicant or owner shall, at its own cost and expense, remove such structure or improvement and restore the Lot to substantially the same condition as existed prior to the construction of such nonconforming work. … Any contractor, subcontractor, agent, employee, other invitee of an owner, builder, or applicant who fails to comply with the terms and provisions of this Article III and the Architectural Design Standards shall be prohibited from erecting any improvements upon any real property owned by such party in Governor's Ranch, or any other property in Governor's Ranch until such violation is corrected.",
+    "source_url": "https://web.archive.org/web/20150421034928/http://www.eatongovernorsranch.com/covenants/Declarations%20of%20Covenants.pdf",
+    "source_label": "Governor's Ranch Residential Architectural Design Standards (Exhibit D to the 2001 declaration), Article III, PDF pages 44 and 47, Internet Archive copy of the developer's PDF",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "eaton-co--governors-ranch.ads-criteria",
+    "layer": "housing",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Governor's Ranch's design standards approve only work the committee judges to meet the standards, to be in harmony with the neighborhood's concept and not to be detrimental to adjoining and nearby properties, let it attach conditions, require written reasons for a refusal and charge no added fee to resubmit.",
+    "quote": "Criteria for ACC Approval or Disapproval. ACC Approval will be granted for only those proposed improvements that the ACC deems, in its reasonable discretion, will (a) be in accordance with the Architectural Design Standards set forth herein; (b) be in harmony with the Concept and Intent of Governor's Ranch; (c) not be detrimental to the beauty, wholesomeness, integrity, harmony, character and attractiveness or enjoyment thereof of the adjoining and nearby properties within the Governor's Ranch community. … In the event written notice of ACC disapproval is given, the reasons therefor shall be stated in writing. ACC Approval may be conditional on the applicant incorporating such modifications as the ACC shall in its sole discretion deem reasonably appropriate. … In the event of disapproval by the ACC of a formal submittal, any re-submittal will follow the same procedure as an original formal submittal. No additional fee will be required.",
+    "source_url": "https://web.archive.org/web/20150421034928/http://www.eatongovernorsranch.com/covenants/Declarations%20of%20Covenants.pdf",
+    "source_label": "Governor's Ranch Residential Architectural Design Standards (Exhibit D to the 2001 declaration), Article III, PDF page 46, Internet Archive copy of the developer's PDF",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "eaton-co--governors-ranch.ads-landscape-plan-contents",
+    "layer": "housing",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Governor's Ranch's design standards want a landscape plan drawn to scale with plant materials and specifications for all organic and inorganic materials, retaining walls, erosion control, fencing details, decorative beds, features and lighting, and say landscaping plans include drainage plans.",
+    "quote": "Landscaping plans shall include specifications of all plant materials, landscape work, drainage plans, complete construction plans for any and all proposed buildings (including structural design), elevations sections, specifications, samples of materials and colors of the proposed construction work. … Landscape Plan. Complete landscape plan to scale, including plant materials and specifications for all materials (organic and inorganic) for driveway, retaining walls, erosion control, details of fencing, other decorative beds, features and lighting. The Landscape Plan to be submitted to the ACC within sixty (60) days of the date that the Town of Eaton issues the Certificate of Occupancy.",
+    "source_url": "https://web.archive.org/web/20150421034928/http://www.eatongovernorsranch.com/covenants/Declarations%20of%20Covenants.pdf",
+    "source_label": "Governor's Ranch Residential Architectural Design Standards (Exhibit D to the 2001 declaration), Article III, PDF pages 44–45, Internet Archive copy of the developer's PDF",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "60"
+    ]
+  },
+  {
+    "id": "eaton-co--governors-ranch.decl-grading",
+    "layer": "housing",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Article XII of the Governor's Ranch declaration makes each owner keep the elevation, grading and drainage plan the developer prepared, needs committee approval to lower a lot below it, provides the grading plan on request, and bars landscaping, walks, patios or other improvements that change a lot's grading unless they are installed without changing its grading and drainage patterns.",
+    "quote": "Section 3: Grading. Each Owner of a Lot shall maintain the elevation, grading, and drainage plan prepared by Declarant. The Lot elevation cannot be lower than shown on this plan without approval of the Architectural Control Committee. The grading plan for a lot will be provided upon request made to the Architectural Control Committee by the Lot Owner or his agent. Section 4: Water Flow. The Owner of a Lot shall not impede or hinder in any way the water falling on the Lot from reaching the drainage courses established for the Lot and the Common Interest Community. Section 5: Action by Owner. To accomplish the foregoing, each Owner of a Lot covenants and agrees, among other things: (a) Not to install improvements, including, but not limited to, landscaping, items related to landscaping, walls, walks, driveways, parking pads, patios, fences, additions to the building, outbuildings, or any other item or improvement which will change the grading of the Lot. The installation of such improvements is acceptable so long as the manner of installation is consistent with, and does not change, the grading and drainage patterns of the Lot and the Real Estate.",
+    "source_url": "https://web.archive.org/web/20150421034928/http://www.eatongovernorsranch.com/covenants/Declarations%20of%20Covenants.pdf",
+    "source_label": "Governor's Ranch Declaration of Covenants, Article XII (Drainage), Sections 3–5 (Weld County Reception No. 2844347, recorded April 30, 2001), PDF pages 31–32, Internet Archive copy of the developer's PDF",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read from the page images on 2026-09-27. Not in the research brief."
+  },
+  {
+    "id": "eaton-co--governors-ranch.decl-foundation-zone",
+    "layer": "housing",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "The Governor's Ranch declaration has owners keep flower beds 3 feet from foundations and slabs, hand-water shrubs and grass within 5 feet of foundation walls, keep sprinkler piping and heads out of that 5 feet as far as possible, lay gravel beds so water cannot pond, and put a moisture barrier such as polyethylene under any gravel bed.",
+    "quote": "(c) Not to water the lawn or other landscaping on the Lot excessively. (d) Not to plant flower beds (especially annuals) and vegetable gardens adjacent to or within three (3) feet of the foundation and slabs of any building. (e) If evergreen shrubbery and grass is used within five (5) feet of the foundation walls, to water the shrubbery and grass by controlled hand watering and to avoid excessive watering. (f) To minimize or eliminate the installation of piping and heads for sprinkler systems within five (5) feet of foundation walls and slabs. (g) To install any gravel beds in a manner which will assure that water will not pond in the gravel areas, whether due to nonperforated edging or due to installation of the base of the gravel bed at a level lower than the adjacent land. (h) To install a moisture barrier (such as polyethylene) under any gravel beds.",
+    "source_url": "https://web.archive.org/web/20150421034928/http://www.eatongovernorsranch.com/covenants/Declarations%20of%20Covenants.pdf",
+    "source_label": "Governor's Ranch Declaration of Covenants, Article XII, Section 5(c)–(h) (Weld County Reception No. 2844347, recorded April 30, 2001), PDF page 32, Internet Archive copy of the developer's PDF",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "5"
+    ],
+    "notes": "The declaration does not say whether an artificial-turf base counts as a 'gravel bed'. Pages hedge and send owners to the committee. Not in the research brief."
+  },
+  {
+    "id": "eaton-co--governors-ranch.state-grading-exception",
+    "layer": "state",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Colorado's 2023 HOA landscaping law says nothing in its landscaping protections limits an association's power to prohibit or restrict changes to existing grading, drainage or other structural landscape elements needed to protect people and property.",
+    "quote": "NOTHING IN THIS SUBSECTION (1)(i.5) SHALL BE CONSTRUED TO PROHIBIT OR RESTRICT THE AUTHORITY OF ASSOCIATIONS TO: … (C) PROHIBIT OR RESTRICT CHANGES TO EXISTING GRADING, DRAINAGE, OR OTHER STRUCTURAL LANDSCAPE ELEMENTS NECESSARY FOR THE PROTECTION OF PERSONS AND PROPERTY.",
+    "source_url": "https://leg.colorado.gov/bill_files/92307/download",
+    "source_label": "SB23-178 signed act: C.R.S. 38-33.3-106.5(1)(i.5)(V)(C)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2023"
+    ],
+    "notes": "A statewide fact kept in this community's file because this writer may not edit state-law.json; it belongs there (it limits co-hoa-backyard-detached). Summaries of statute: Not legal advice."
+  },
+  {
+    "id": "eaton-co--governors-ranch.state-turf-grass-requirement",
+    "layer": "state",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Colorado's 2023 law declares unenforceable, except for attached homes that share a wall and time-share associations, any covenant or HOA rule that requires cultivated vegetation to consist wholly or partially of turf grass.",
+    "quote": "(a.5) (I) ANY SECTION OF A RESTRICTIVE COVENANT OR OF THE DECLARATION, BYLAWS, OR RULES AND REGULATIONS OF A COMMON INTEREST COMMUNITY … THAT PROHIBITS OR LIMITS XERISCAPE, PROHIBITS OR LIMITS THE INSTALLATION OR USE OF DROUGHT-TOLERANT VEGETATIVE OR NONVEGETATIVE LANDSCAPES, REQUIRES CULTIVATED VEGETATION TO CONSIST WHOLLY OR PARTIALLY OF TURF GRASS, OR PROHIBITS THE USE OF NONVEGETATIVE TURF GRASS IN THE BACKYARD OF A RESIDENTIAL PROPERTY IS HEREBY DECLARED CONTRARY TO PUBLIC POLICY AND, ON THAT BASIS, IS UNENFORCEABLE. … (II) THIS SUBSECTION (11)(a.5) DOES NOT APPLY TO: (A) A UNIT OWNERS' ASSOCIATION … THAT INCLUDES TIME SHARE UNITS … OR (B) A UNIT … THAT IS A SINGLE-FAMILY HOME THAT SHARES ONE OR MORE WALLS WITH ANOTHER UNIT.",
+    "source_url": "https://leg.colorado.gov/bill_files/92307/download",
+    "source_label": "SB23-178 signed act: C.R.S. 37-60-126(11)(a.5)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2023",
+      "11"
+    ],
+    "notes": "How this reads against Governor's Ranch's front-yard sod covenant (Art. XI, Sec. 8) is a legal question no public source answers; pages say 'it depends', label it not legal advice and send owners to the committee. It does not by itself make artificial turf allowable in a front yard. Belongs in state-law.json; kept here because this writer may not edit it."
+  },
+  {
+    "id": "eaton-co--governors-ranch.guidelines-sprinklers-edging",
+    "layer": "housing",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "The Governor's Ranch committee's Landscaping and Yard Guidelines have owners install an automatic sprinkler system with a filter, sod the lawn and plant by the spring or fall after moving in, bar cottonwood, poplar and elm trees, require wood-timber, slip-form concrete or 6-inch metal edging on property lines where sod is not used, want a landscape plan with a timetable approved in writing, and treat a variance request left for 30 days as rejected.",
+    "quote": "Any variance submitted to the ACC shall be acted upon within thirty (30) days or the variance shall be deemed rejected. … As soon as practical but not later than the Spring or Fall season following occupancy, the owner shall install an automatic sprinkler system, complete with filter, sod their lawn and plant all other plantings, including trees, perennials, annuals, and shrubs. Nonpermitted trees include Cottonwood, Cottonless Cottonwood, Poplar or Elm. Square wood timbers, slip-form concrete edging, or 6\" metal edging must be installed on property lines where sod is not used. The purpose is to keep rock and mulch out of neighboring yards or common areas. Each owner shall prepare a landscape plan complete with a timetable for starting and completion. Plans must be submitted for written approval to the ACC.",
+    "source_url": "https://web.archive.org/web/20150421034928/http://www.eatongovernorsranch.com/covenants/Declarations%20of%20Covenants.pdf",
+    "source_label": "Landscaping and Yard Guidelines for Governor's Ranch (ACC resolution, undated, filed with the 2001 declaration and 2002 amendment), PDF page 72, Internet Archive copy of the developer's PDF",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "30",
+      "6"
+    ]
+  },
+  {
+    "id": "eaton-co--governors-ranch.nonpotable-2022",
+    "layer": "utility",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "In a May 18, 2022 notice the Town of Eaton said the Governor's Ranch and Aspen Meadows non-potable irrigation system, delayed that spring, was scheduled to run by May 27, 2022, and that households would have to keep to watering schedules so demand stayed within what the pump could supply without depleting the wells.",
+    "quote": "The Governor's Ranch and Aspen Meadows neighborhood non-potable irrigation system is now scheduled to be operational by May 27, 2022. Schedule delays for electrical connection and inspection as well as one critical part being on backorder caused further pauses to project completion. … Once the system is back online, please note that water conservation restrictions will be in place. Households will have to abide by established watering schedules and restrictions so as not to create more demand than the pump can provide and deplete the water supply in the wells.",
+    "source_url": "https://web.archive.org/web/20230324065536/https://townofeaton.colorado.gov/news-article/5/18/22-update-on-governors-ranch-and-aspen-meadows-non-potable-irrigation-system",
+    "source_label": "Town of Eaton news, May 18, 2022: Update on Governor's Ranch and Aspen Meadows Non-Potable Irrigation System, Internet Archive capture of March 24, 2023",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "18",
+      "2022",
+      "27"
+    ],
+    "notes": "Read from the archived page on 2026-09-27. The notice does not say why the system was offline beyond the listed delays."
+  },
+  {
+    "id": "eaton-co--governors-ranch.new-landscape-permit",
+    "layer": "utility",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Eaton's posted watering rules let a residence with a new lawn or new landscaping get a Town Hall permit to water every day for 30 days while it establishes, displayed where it can be seen from the street.",
+    "quote": "Residences with new lawns or landscaping should call Town Hall … to apply for a permit that will allow for watering every day for 30 days to establish the lawn or landscaping. The permit will be issued on yellow-colored paper and must be displayed on the premises and be visible from the street.",
+    "source_url": "https://web.archive.org/web/20260429165559/https://www.eatonco.org/water-restrictions",
+    "source_label": "Town of Eaton, Water Restrictions page (Resolutions 2019-07 and 2019-08), Internet Archive capture of April 29, 2026",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "EXTERNAL_SOURCE",
+    "numbers": [
+      "30"
+    ],
+    "recheck": "2027-04-01",
+    "notes": "eatonco.org blocks automated fetches; read verbatim from the Internet Archive copy on 2026-09-27 (same capture as eaton-co.watering-rules). Town Hall's phone number left out of the quote. A town-wide rule kept here because this writer may not edit local/eaton-co.json."
+  },
+  {
+    "id": "eaton-co--governors-ranch.lots-2008",
+    "layer": "housing",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "The developer's lot page in 2008 gave Governor's Ranch an average lot size of over 11,000 square feet and a minimum of 9,240, with the average lot 100 feet wide and 110 feet deep and at least 20 feet between houses, and told buyers they could bring their own builder.",
+    "quote": "Lot Sizes Average lot size of over 11,000 square feet Minimum lot size of 9240 square feet Average lot is 100 feet wide and 110 feet deep Minimum distance between houses is 20 feet … Build a new home of your own! You can bring your builder to the community or we can work with you to find someone.",
+    "source_url": "https://web.archive.org/web/20080510233820/http://www.eatongovernorsranch.com:80/homeslots/homeslots.htm",
+    "source_label": "JRC Land Company, Governor's Ranch Homes and Lots page, Internet Archive capture of May 10, 2008",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "11000",
+      "9240",
+      "100",
+      "110",
+      "20",
+      "2008"
+    ],
+    "notes": "The page also lists lot prices, deliberately left out."
+  },
+  {
+    "id": "eaton-co--governors-ranch.parcel-sizes",
+    "layer": "housing",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "The statewide parcel file lists 285 residential parcels in the Governor's Ranch filings and replats: leaving out the 33 patio-home parcels in the first filing's Blocks 9 and 10 (median about 3,900 square feet), the other 252 have a median of about 10,800 square feet with 77% at 10,000 or more, and the 127 in the third filing and its replats a median of about 11,100.",
+    "quote": "Colorado Public Parcels, countyName = Weld, subName LIKE 'GOVERNORS RANCH%', landUseDsc = Residential (Weld data received 2026-03-27): 285 parcels, median 10,543 sq ft. First filing Blocks 9 and 10 with their building replats: 33 parcels, median 3,897 sq ft. All other residential parcels: 252, median 10,775 sq ft, 193 at 10,000 sq ft or more (76.6%), 46 at 12,000 or more, 10 at 15,000 or more, largest 22,367. Third filing and its replats: 127, median 11,101 sq ft, 109 at 10,000 or more (85.8%).",
+    "source_url": "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query",
+    "source_label": "Colorado Public Parcels (statewide parcel file), Weld County parcels in the Governor's Ranch subdivisions, queried September 27, 2026",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "285",
+      "33",
+      "9",
+      "10",
+      "3900",
+      "252",
+      "10800",
+      "77",
+      "10000",
+      "127",
+      "11100",
+      "2026",
+      "10543",
+      "3897",
+      "10775",
+      "193",
+      "76.6",
+      "46",
+      "12000",
+      "15000",
+      "22367",
+      "11101",
+      "109",
+      "85.8",
+      "2026-03-27"
+    ],
+    "notes": "Weld's landSqft field is empty, so areas were computed from the parcel polygons projected to UTM zone 13N (EPSG 26913). Governors Farm and Governors Crossing (other subdivisions) are excluded. Blocks 9 and 10 of the first filing are the Settlers Cove patio homes (Exhibit 2 of the declaration). Vacant tracts, commercial pads and exempt parcels are left out."
+  },
+  {
+    "id": "eaton-co--governors-ranch.setbacks",
+    "layer": "housing",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Governor's Ranch's design standards keep every structure at least 25 feet from the front of a lot, 10 feet from side property lines and 20 feet from the rear property line, with larger street-side setbacks on corner lots.",
+    "quote": "Setbacks of all structures shall be a minimum of twenty-five (25) feet from front of Lot and ten (10) feet from property line on all sides, except on corner Lots, side setbacks shall be fifteen (15) feet from street. A twenty (20) foot minimum setback is required from rear property line. … [Second Filing and Phase 3:] except on corner Lots, side setbacks shall be twenty (20) feet from sidewalk.",
+    "source_url": "https://web.archive.org/web/20150421034928/http://www.eatongovernorsranch.com/covenants/Declarations%20of%20Covenants.pdf",
+    "source_label": "Governor's Ranch Architectural Design Standards, Exhibit 1 (2001), Amended Exhibit 1 (2002) and Phase 3 Exhibit 1, Setback item, PDF pages 50, 60 and 66, Internet Archive copy of the developer's PDF",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "25",
+      "10",
+      "15",
+      "20",
+      "3"
+    ]
+  },
+  {
+    "id": "eaton-co--governors-ranch.privacy-fence",
+    "layer": "housing",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Governor's Ranch's fence standards want fencing open in character, allow each house one privacy fence no longer than 25 feet with one end against the house, kept at least 15 feet from a property line and within 15 feet of the house and no taller than 60 inches, and set no standards for buried electronic pet fences.",
+    "quote": "Fencing at Governor's Ranch is intended to be \"open\" in character, rather than \"solid\" wood enclosures, which tend to become a visual and maintenance liability. … The ACC recognizes that owners may have patios and other desired privacy areas. A maximum of one privacy fence shall be allowed per single family residence. The privacy fence shall not exceed twenty-five (25) linear feet, one end must abut the residence, and no part of the fence shall be closer than fifteen (15) feet of a property line or more than fifteen (15) feet from the residence. The types and the heights of privacy fences allowed are as follows: Dynasty not exceeding sixty (60) inches in height. Shadowbox not exceeding sixty (60) inches in height. There are no ACC standards or other requirements imposed on buried electronic pet fences at this time.",
+    "source_url": "https://web.archive.org/web/20150421034928/http://www.eatongovernorsranch.com/covenants/Declarations%20of%20Covenants.pdf",
+    "source_label": "Fence Standards for Governor's Ranch, Exhibit E (2001), Amended Exhibit E (2002) and Phase III Amended Exhibit E, PDF pages 52, 62 and 70, Internet Archive copy of the developer's PDF",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "25",
+      "15",
+      "60"
+    ],
+    "notes": "The 2002 amended exhibit also lists Colonial style at 60 inches for privacy fences."
+  },
+  {
+    "id": "eaton-co--governors-ranch.sage-drive-open-space",
+    "layer": "place",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Eaton's 2024 Parks Master Plan lists the 3.9-acre Sage Drive open space, irrigated with non-potable well water and first built in 2005 for detention, as part of the overall drainage system in Governor's Ranch.",
+    "quote": "Category: OPEN SPACE Acreage: 3.9 acres / 7.1 acres Irrigation source: Non-Potable water (well) Park Maintenance: Town of Eaton Public Works Description: Established in 2005 for detention purposes during the development of Aspen Meadow. Since then, the Town has added grass and irrigation. These two open spaces are part of the overall drainage system in Governor's Ranch. Context: Sage Drive Open Space lies directly south of the homes on Plains Drive, west of Sage Drive and east of Fall Line Road (WCR 35).",
+    "source_url": "https://web.archive.org/web/20240628215425/http://www.eatonco.org/media/6216",
+    "source_label": "Town of Eaton, 2024 Parks Master Plan (adopted June 13, 2024), page 25, Internet Archive copy of eatonco.org/media/6216",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2024",
+      "3.9",
+      "7.1",
+      "2005",
+      "35",
+      "13",
+      "25"
+    ],
+    "notes": "The 7.1-acre Rock Road open space on the same page lies in Aspen Meadows, not Governor's Ranch."
+  },
+  {
+    "id": "eaton-co--governors-ranch.settlers-cove",
+    "layer": "housing",
+    "applies_to": [
+      "eaton-co"
+    ],
+    "fact": "Governor's Ranch's patio homes, Settlers Cove at Governor's Ranch on Lots 1–23 of Block 9 and Lots 1–11 of Block 10 of the first filing, have their own design standards under the same committee, allowing only single-story homes, and a declaration of their own recorded the same day as the main one.",
+    "quote": "EXHIBIT 2 Architectural Design Standards Governor's Ranch Patio Homes Settlers Cove at Governor's Ranch … These design standards apply to Lots 1-23 of Block 9 and Lots 1-11 of Block 10 of Governor's Ranch Subdivision First Filing. … Square Footage: 1,400 square foot minimum finished floor area. Only single story homes allowed. … The Declaration of Covenants, Conditions and Restrictions on Settlers Cove at Governor's Ranch, Eaton, Colorado recorded in the Weld County Records on April 30, 2001 at Reception No. 2844348 omitted the date on Page 1.",
+    "source_url": "https://web.archive.org/web/20150421034928/http://www.eatongovernorsranch.com/covenants/Declarations%20of%20Covenants.pdf",
+    "source_label": "Governor's Ranch declaration Exhibit 2 (Patio Homes, Settlers Cove at Governor's Ranch) and Affidavit of Correction recorded Sept. 7, 2001 (Reception No. 2881673), PDF pages 51 and 54, Internet Archive copy of the developer's PDF",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "23",
+      "9",
+      "11",
+      "10",
+      "1400",
+      "30",
+      "2001",
+      "2844348"
+    ],
+    "notes": "The Settlers Cove declaration itself is not in the PDF; its own landscaping rules, if any, are unknown. The documents do not say whether the patio homes share walls."
+  }
+]

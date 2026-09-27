@@ -1,0 +1,378 @@
+[
+  {
+    "id": "artificial-turf-on-a-garage-or-basement-floor.cgs-garage-basement-slabs",
+    "layer": "soil",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Geological Survey says cracked and heaved garage and basement floor slabs are very common signs of expansive clay across Colorado, and that building without allowing for basement or ground-floor movement where soils are known to be expansive is a very common source of property damage.",
+    "quote": "Building without allowance for basement or ground floor movement in known expansive soils areas is a very common source of property damage. … Cracked and heaved sidewalks, patios, driveways, and garage and basement floor slabs are very common indicators of expansive clay throughout the state.",
+    "source_url": "https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/",
+    "source_label": "Colorado Geological Survey, Expansive Soil & Rock",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read from the raw HTML with curl on 2026-09-27. Shared records cgs-expansive-soil and cgs-landscaping-near-foundations quote other sentences of the same page."
+  },
+  {
+    "id": "artificial-turf-on-a-garage-or-basement-floor.cgs-sp14-basement-slab-joints",
+    "layer": "soil",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Geological Survey's SP-14 says a basement floor slab poured directly on swelling soil should be separated from all bearing walls and jointed so it can move up and down as the soil heaves, and that such a basement should stay unfinished or have partitions designed for some vertical movement of the slab.",
+    "quote": "Basement. Check the basement walls and floor slab for cracks. Floor slabs constructed directly on swelling soils should be separated from all bearing walls and have expansion joints which allow the slab to move up and down in response to the heaving motion of the soil. All flatwork should be scored to a depth of about one inch. Joints should be provided on the order of 15 feet center to center. Basements with this arrangement should remain unfinished or have specially designed partitions to accommodate some vertical movement of the slab.",
+    "source_url": "https://coloradogeologicalsurvey.org/wp-content/uploads/woocommerce_uploads/SP-14.pdf",
+    "source_label": "Colorado Geological Survey SP-14, Home Landscaping and Maintenance on Swelling Soil (Jochim, 1981; revised fifth printing 1987), p. 30",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "15",
+      "1981",
+      "1987",
+      "30",
+      "14"
+    ],
+    "notes": "Downloaded and read with pdftotext on 2026-09-27 (the house-inspection checklist, printed page 30). Other guides cite SP-14 for patios and flatwork."
+  },
+  {
+    "id": "artificial-turf-on-a-garage-or-basement-floor.cgs-sp11-floating-slab",
+    "layer": "soil",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A Colorado Geological Survey homeowner publication describes the floating floor slab used for basement and garage floors on swelling soil: isolated from bearing walls, columns, partitions, stairs and utilities so it can move without harming the structure, with some cracking of the slab to be expected.",
+    "quote": "The major component of this type of design is the \"floating\" floor slab, used for basement, garage, and other floors resting on the soil (Figure 7). Complete isolation of the floor from bearing walls, columns, nonbearing partitions, stairs, and utilities allows the slab to move with minimum damage to the structural integrity of the building. Some cracking of the floor slab can be anticipated.",
+    "source_url": "https://coloradogeologicalsurvey.org/wp-content/uploads/woocommerce_uploads/SP-11.pdf",
+    "source_label": "Colorado Geological Survey SP-11, Home Construction on Shrinking and Swelling Soils (Holtz and Hart, Oct. 1978), p. 10",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "7",
+      "1978",
+      "10",
+      "11"
+    ],
+    "notes": "Downloaded and read with pdftotext on 2026-09-27 (Interior Design, printed page 10). The scan's OCR runs some words together (\"movewith\", \"Somecracking\"); the quote restores the spaces. A 1978 publication: the page uses it only to explain what a floating slab is."
+  },
+  {
+    "id": "artificial-turf-on-a-garage-or-basement-floor.larimer-r602-floated-walls",
+    "layer": "county",
+    "applies_to": [
+      "fort-collins-co",
+      "loveland-co",
+      "berthoud-co",
+      "timnath-co",
+      "wellington-co",
+      "windsor-co",
+      "johnstown-co"
+    ],
+    "fact": "In unincorporated Larimer County, the 2024 building code amendments in effect since January 1, 2026 require interior non-bearing basement walls on a non-structural slab designed to move with expansive or collapsible soils to be floated on a double bottom plate with at least a 1.5-inch gap, hung with at least a 1½-inch gap at the top, fastened in an approved manner, or built to the original engineered design.",
+    "quote": "R602.5.1 Interior non-bearing walls on movable soils. Where interior non-bearing basement walls are installed on non-structural slabs designed to independently move due to the presence of expansive or collapsible soils, the walls shall be floated with a double bottom plate with a minimum 1.5” gap between them, be attached with a minimum 1½” gap between the top of the walls and the floor/ceiling above, fastened together in approved manner, or constructed per the original engineered structural design.",
+    "source_url": "https://www.larimer.gov/sites/default/files/1-2024-building-code-amendments-final0.pdf",
+    "source_label": "Larimer County Community Development, 2024 Larimer County Building Code Amendments (effective January 1, 2026; revised August 31, 2026), IRC R602.5.1",
+    "effective": "2026-01-01",
+    "checked": "2026-09-27",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2027-03-27",
+    "numbers": [
+      "2024",
+      "2026",
+      "1.5",
+      "31",
+      "1"
+    ],
+    "notes": "Read 2026-09-27: larimer.gov answers curl with 403, so the PDF was retrieved through a web fetch and its text extracted with pdftotext (page 59, IRC amendments, a section the county added). Applies in unincorporated Larimer County only; the towns in applies_to are the ones whose surrounding county land it covers. Each town adopts its own building code."
+  },
+  {
+    "id": "artificial-turf-on-a-garage-or-basement-floor.astm-f2170-rh-probes",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "ASTM F2170, the in-place relative humidity test for concrete floor slabs (current edition F2170-19a), says too much moisture in a slab after a floor covering goes down can cause debonding, deterioration and microbial growth, that flooring makers generally require moisture testing before installing on concrete, and that a result describes only the time and the spots tested.",
+    "quote": "5.1 Excessive moisture in floor slabs after floor covering has been installed can cause floor covering system failures such as debonding, peaking and deterioration of finish flooring and coatings and microbial growth. 5.2 Manufacturers of such systems generally require moisture testing to be performed before installation on concrete. Internal relative humidity testing is one such method. 5.3 Moisture test results indicate the moisture condition of the slab only at the time of the test and in the specific locations tested.",
+    "source_url": "https://store.astm.org/f2170-19a.html",
+    "source_label": "ASTM F2170-19a, Standard Test Method for Determining Relative Humidity in Concrete Floor Slabs Using in situ Probes, Significance and Use (ASTM store page)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-09-27",
+    "numbers": [
+      "2170",
+      "19",
+      "5.1",
+      "5.2",
+      "5.3"
+    ],
+    "notes": "Read with curl on 2026-09-27; the store page lists F2170-19a as the active edition and reproduces sections 1 and 5. Pass marks are set by each floor-covering maker, not by the test."
+  },
+  {
+    "id": "artificial-turf-on-a-garage-or-basement-floor.astm-f1869-calcium-chloride",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "ASTM F1869, the calcium chloride test (current edition F1869-23), measures the moisture vapor a bare concrete floor gives off, in pounds per 1,000 square feet over 24 hours, and says all concrete floors emit some moisture vapor and all floor coverings can fail from too much of it.",
+    "quote": "This test method covers the quantitative determination of the rate of moisture vapor emitted from below-grade, on-grade, and above-grade (suspended) bare concrete floors. … All concrete subfloors emit some amount of moisture in vapor form. Concrete moisture emission is a natural process driven by environmental conditions. All floor coverings are susceptible to failure from excessive moisture vapor emissions. The moisture vapor emitted from a concrete slab is measured in pounds. This measurement is the equivalent weight of water evaporating from 1000 ft² of concrete surface in a 24-h period.",
+    "source_url": "https://store.astm.org/f1869-23.html",
+    "source_label": "ASTM F1869-23, Standard Test Method for Measuring Moisture Vapor Emission Rate of Concrete Subfloor Using Anhydrous Calcium Chloride, Scope and Significance and Use (ASTM store page)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-09-27",
+    "numbers": [
+      "1869",
+      "23",
+      "1000",
+      "1,000",
+      "24"
+    ],
+    "notes": "Read with curl on 2026-09-27; the store page lists F1869-23 as active. The page prints ft with a superscript 2."
+  },
+  {
+    "id": "artificial-turf-on-a-garage-or-basement-floor.astm-d4263-plastic-sheet",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "ASTM D4263, the plastic sheet method (current edition D4263-24), is a practice for indicating whether capillary moisture is present in concrete, designed for use before coatings go on.",
+    "quote": "1.1 This practice is used to indicate the presence of capillary moisture in concrete. … 2.1 Capillary moisture in the concrete may be detrimental to the performance of certain coating systems that cannot tolerate moisture on or within the surface boundary. 2.2 This practice is designed for use prior to the application of coatings on concrete.",
+    "source_url": "https://store.astm.org/d4263-24.html",
+    "source_label": "ASTM D4263-24, Standard Practice for Indicating Moisture in Concrete by the Plastic Sheet Method (ASTM store page)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-09-27",
+    "numbers": [
+      "4263",
+      "24",
+      "1.1",
+      "2.1",
+      "2.2"
+    ],
+    "notes": "Read with curl on 2026-09-27. The practice gives a yes or no, not a number."
+  },
+  {
+    "id": "artificial-turf-on-a-garage-or-basement-floor.tnemec-three-tests",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Tnemec, a coatings maker, describes the plastic sheet test as an 18-inch square of plastic taped to the floor for at least 24 hours before the concrete is checked for darkening, says it shows only whether moisture is present near the top of the slab, describes the calcium chloride test as a disk sealed under plastic to collect vapor, describes the relative humidity test as a probe set in a hole drilled to 40 percent of the slab's depth, and recommends testing after the building's heating and cooling has run for at least 48 hours.",
+    "quote": "it is recommended to conduct concrete moisture tests after the building’s HVAC system has operated for at least 48 hours. … it involves taping a 457 x 457-mm (18 x 18 in.) square plastic sheet to the concrete floor and waiting at least 24 hours before removing it. … Once the plastic sheet is removed, the concrete is inspected for darkening or other signs of moisture. … First, it does not quantify the amount of moisture; it simply indicates whether or not moisture is present. Second, it only detects moisture in the upper portion of the slab, not in the middle or lower areas where moisture is more apt to reside. … For this test, a calcium chloride disk is placed under a sealed plastic sheet and left to collect moisture vapor. … This method requires holes to be drilled into the concrete and a humidity probe inserted at 40 percent of its total depth.",
+    "source_url": "https://tnemec.com/remedy-index-page/3-ways-test-concrete-moisture/",
+    "source_label": "Tnemec Company, 3 Ways to Test Concrete Moisture",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "457",
+      "18",
+      "24",
+      "40",
+      "48"
+    ],
+    "notes": "Read with curl on 2026-09-27. The article cites older editions (D4263-05, F1869-11, F2170-11); the current editions are in the ASTM records. Its calcium chloride timing is not used on the page."
+  },
+  {
+    "id": "artificial-turf-on-a-garage-or-basement-floor.grasstex-moisture-guideline",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "An indoor turf installation overview (GrassTex by Controlled Products, posted by Greatmats) says concrete can pass too much moisture vapor even after proper curing, calls for a calcium chloride test that takes 3 days, and treats 3 lbs per 1,000 square feet per 24 hours or less as acceptable for most turf, with the risk of moisture problems rising between 3 and 5 lbs.",
+    "quote": "Concrete floors, even with adequate curing time, can present an unacceptable moisture condition by allowing excessive amounts of moisture vapor to pass through to the surface. This can be a problem even on suspended concrete floors. All concrete floors should be tested for moisture emission rate by utilizing an anhydrous calcium chloride moisture test kit available from installation supplies and accessories distributors. … Moisture emission rate is expressed in lbs/1000 sq ft/24 hours. Because the calcium chloride test for emission rate requires 3 days to conduct, proper installation planning is a must. … As a general guideline, an emission rate of 3 lbs (1.4 kg) or less is acceptable for most turf. In the range from 3 lbs to 5 lbs (1.4 to 2.3 kg), carpet with porous backings can usually be installed successfully; but the risk of moisture–related problems increases.",
+    "source_url": "https://www.greatmats.com/specs/grasstex/install-grasstex-artificial-turf.pdf",
+    "source_label": "Controlled Products GrassTex, Indoor Field Artificial Grass Turf Installation Overview (Greatmats, revised 07/2016)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "1000",
+      "1,000",
+      "24",
+      "1.4",
+      "5",
+      "2.3",
+      "2016",
+      "07"
+    ],
+    "notes": "Downloaded and read with pdftotext on 2026-09-27. Written for indoor field turf; the page uses it as one maker's pass mark and says to ask each product's maker for its own."
+  },
+  {
+    "id": "artificial-turf-on-a-garage-or-basement-floor.grasstex-install-conditions",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same overview asks for a room held between 65 and 95°F at 10 to 65 percent relative humidity and a concrete slab no colder than 65°F, kept for at least 48 hours before, during and 48 hours after installation, with cracks 1/8 inch wide or more filled and the turf relaxed 24 hours before it is glued.",
+    "quote": "A 24 Hour Relaxation Period is recommended before gluing down turf to prevent shrinking and/or expanding after glue down. … All cracks 1/8 inch (3 mm) wide or protrusions over 1/32 inch (.8 mm) should be filled or leveled. … The environment in which the turf is to be installed must be controlled with the temperature between 65° F and 95° F (18° C and 35° C) and the relative humidity between 10% and 65%. If installing over concrete, the slab temperature should not be less than 65° F (18° C). These conditions must be maintained for at least 48 hours before, during, and 48 hours after the installation.",
+    "source_url": "https://www.greatmats.com/specs/grasstex/install-grasstex-artificial-turf.pdf",
+    "source_label": "Controlled Products GrassTex, Indoor Field Artificial Grass Turf Installation Overview (Greatmats, revised 07/2016)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "24",
+      "1/8",
+      "3",
+      "1/32",
+      "8",
+      "65",
+      "95",
+      "18",
+      "35",
+      "10",
+      "48",
+      "2016",
+      "07"
+    ],
+    "notes": "Downloaded and read with pdftotext on 2026-09-27. The PDF sets the degree signs as a superscript o; the quote prints them as °."
+  },
+  {
+    "id": "artificial-turf-on-a-garage-or-basement-floor.flooringinc-sled-pile",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Flooring Inc's gym turf buying guide says gym turf can have a shorter pile for sled work, advises a low pile so a sled can be pushed across without destroying the floor, and lists as a drawback of one turf that its longer fibers show lane lines where a sled has run.",
+    "quote": "gym turf can sometimes have a shorter pile to allow for sled pulls and other exercises. … For gyms, fill your space with a turf that has a low pile so your athletes can push a sled across without destroying your floor. The low pile height also keeps a nice appearance for the turf. … Longer fibers show the lane lines where a sled has been used",
+    "source_url": "https://www.flooringinc.com/blog/sports-turf-buyers-guide",
+    "source_label": "Flooring Inc, Gym and Sports Turf Buying Guide (Jan. 23, 2025)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2025",
+      "23"
+    ],
+    "notes": "A flooring retailer's buying guide, read with curl on 2026-09-27. It sells the products it describes; the page names none of them."
+  },
+  {
+    "id": "artificial-turf-on-a-garage-or-basement-floor.flooringinc-padded-no-drainage",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same guide says the cushioned version of one gym turf has no drainage perforations, and that another turf's padded version is recommended for indoor use only because the padding is not designed for drainage.",
+    "quote": "The cushion version doesn’t have perforations for drainage. … The padded version is recommended for indoor use only because the padding is not designed for drainage.",
+    "source_url": "https://www.flooringinc.com/blog/sports-turf-buyers-guide",
+    "source_label": "Flooring Inc, Gym and Sports Turf Buying Guide (Jan. 23, 2025)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2025",
+      "23"
+    ]
+  },
+  {
+    "id": "artificial-turf-on-a-garage-or-basement-floor.flooringinc-indoor-care",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same guide says to care for indoor gym turf much like carpet: vacuum it, disinfect and deodorize it with a carpet cleaning solution, and treat stains with warm water and household detergent or a half-and-half mix of white vinegar and water.",
+    "quote": "To take care of indoor gym turf, you can treat it like regular carpet for the most part. Vacuum it to remove dust and dirt, and disinfect and deodorize after workouts by using a carpet cleaning solution. For any stains to the artificial grass, use a warm-water solution of household detergent and water, or a mixture of white distilled vinegar in an equal amount of water.",
+    "source_url": "https://www.flooringinc.com/blog/sports-turf-buyers-guide",
+    "source_label": "Flooring Inc, Gym and Sports Turf Buying Guide (Jan. 23, 2025)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2025",
+      "23"
+    ]
+  },
+  {
+    "id": "artificial-turf-on-a-garage-or-basement-floor.heroturfs-tape-sled",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Heroturfs, which makes sled tracks, tells buyers to let a new track rest 24 hours before fitting, to tape its full underside rather than only the perimeter so it stays flat under sled work, and to run every tape strip in the sled's direction, because tape laid across the drag makes a ridge that brakes the sled and wears the fibers.",
+    "quote": "Let it rest 24 h — unroll the track and leave it to settle so it recovers its shape before fitting. … Lay every strip in the sled's direction. Run all the tape the same way the sled travels. Tape laid across the drag creates a ridge that brakes the sled and wears the fibers faster — so always align it with the pull. … Tape the full underside of the track, edge to edge — not just the perimeter — so it stays locked flat under sled work.",
+    "source_url": "https://heroturfs.com/turf-installation-guide",
+    "source_label": "Heroturfs, Sports turf installation guide",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "24"
+    ],
+    "notes": "A sled-track maker's own installation page, read with curl on 2026-09-27 (heroturfs.com/pages/gym-turf-installation redirects here)."
+  },
+  {
+    "id": "artificial-turf-on-a-garage-or-basement-floor.carls-simulator-floor",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Carl's Place, a golf simulator retailer, says most simulator setups use a hitting mat or strip for full swings with turf as the room's floor, that putting turf and high-pile turf aren't built for repeated full swings, that turf edges and seams should be secured with carpet tape or adhesive so they don't shift, that foam tiles under the turf commonly run about 1/2 to 1 inch thick while a wood subfloor typically uses 2x4 framing under 3/4-inch plywood, and that the mat's thickness should be planned so it sits flush with the turf.",
+    "quote": "Most setups use a hitting mat/strip for full swings and turf as the “room floor” around it. … High pile turf and putting turf are not built for repeated full swings. They don't have the construction needed to absorb impact properly. … Secure edges and seams: Use carpet tape or appropriate adhesive to prevent shifting over time. … Foam tiles commonly range from about 1/2\" to 1\" thick. A wood subfloor typically uses 2x4 framing with 3/4\" plywood on top. When planning your flooring height, account for the thickness of your hitting mat so it can sit flush with the surrounding turf.",
+    "source_url": "https://www.carlofet.com/blog/golf-simulator-flooring",
+    "source_label": "Carl's Place, Golf Simulator Flooring Guide: Turf, Subfloor, & Mats (published Aug. 16, 2024; updated Feb. 23, 2026)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1/2",
+      "1",
+      "2",
+      "4",
+      "3/4",
+      "2024",
+      "2026",
+      "16",
+      "23"
+    ],
+    "notes": "A retailer's guide that sells its own mats and tiles, read with curl on 2026-09-27 (datePublished 2024-08-16, dateModified 2026-02-23 in the page's structured data). The page names none of its products."
+  },
+  {
+    "id": "artificial-turf-on-a-garage-or-basement-floor.carls-simulator-moisture",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same guide calls a moisture barrier a smart precaution for a simulator on a basement or garage slab, because concrete can pass humidity even when no moisture is visible, and suggests a vapor barrier under a wood subfloor.",
+    "quote": "If your simulator is in a basement or a garage, especially on concrete, a moisture barrier can be a smart precaution. Even if you do not see visible moisture, concrete can transmit humidity. A simple vapor barrier under a wood subfloor helps protect lumber and turf materials long term.",
+    "source_url": "https://www.carlofet.com/blog/golf-simulator-flooring",
+    "source_label": "Carl's Place, Golf Simulator Flooring Guide: Turf, Subfloor, & Mats (published Aug. 16, 2024; updated Feb. 23, 2026)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2024",
+      "2026",
+      "16",
+      "23"
+    ]
+  },
+  {
+    "id": "artificial-turf-on-a-garage-or-basement-floor.epa-hidden-mold-pads",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "EPA says mold can hide on the underside of carpets and pads, that damp materials dried within 24 to 48 hours of a leak or spill usually won't grow mold, and that absorbent materials such as carpet may have to be thrown away once they are moldy.",
+    "quote": "When water leaks or spills occur indoors - act quickly. If wet or damp materials or areas are dried 24-48 hours after a leak or spill happens, in most cases mold will not grow. … Absorbent or porous materials, such as ceiling tiles and carpet, may have to be thrown away if they become moldy. … Mold may be hidden in places such as the back side of dry wall, wallpaper, or paneling, the top side of ceiling tiles, the underside of carpets and pads, etc.",
+    "source_url": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+    "source_label": "U.S. EPA, A Brief Guide to Mold, Moisture and Your Home (page updated Feb. 18, 2026)",
+    "checked": "2026-09-27",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "24",
+      "48",
+      "2026",
+      "18"
+    ],
+    "notes": "Read with curl on 2026-09-27. does-artificial-turf-get-moldy.epa-indoor-humidity-60 quotes the humidity sentence from the same page."
+  }
+]
