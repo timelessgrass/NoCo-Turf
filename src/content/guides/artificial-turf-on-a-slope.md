@@ -243,7 +243,7 @@ On a slope, drainage sets the order of work.
 - **Then the wall and its drains,** engineered and permitted where required.
 - **Then sprinkler changes, base and turf.** See [sprinkler systems after turf](/guides/sprinkler-system-after-artificial-turf/).
 
-Colorado law bars an HOA from prohibiting artificial turf in the backyard of a detached single-family home, though design guidelines still apply ([SB23-178, C.R.S. 38-33.3-106.5](https://leg.colorado.gov/bill_files/92307/download)); walls and regrading are still reviewed. Not legal advice. More in [HOA approval for artificial turf](/guides/hoa-turf-approval/), [turf on a new-build lot](/guides/new-build-backyard-turf/) and turf on acreage lots.
+Colorado law bars an HOA from prohibiting artificial turf in the backyard of a detached single-family home, though design guidelines still apply ([SB23-178, C.R.S. 38-33.3-106.5](https://leg.colorado.gov/bill_files/92307/download)); walls and regrading are still reviewed. Not legal advice. More in [HOA approval for artificial turf](/guides/hoa-turf-approval/), [turf on a new-build lot](/guides/new-build-backyard-turf/) and [turf on acreage lots](/guides/artificial-turf-on-acreage-lots/).
 
 ## What should I ask an installer about a sloped yard?
 

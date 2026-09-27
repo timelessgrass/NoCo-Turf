@@ -160,7 +160,7 @@ needsFromBrian:
 | Flagstone with turf joints | Bedding under each flag, or mortar on a slab | Along each outline | Mortar on a slab puts turf on concrete |
 | Paver walk beside turf | An edge restraint | Along the walk | The restraint; see [turf edging options](/guides/artificial-turf-edging-options/) |
 
-SYNLawn, a turf maker, recommends stepping stones or pavers on high-traffic paths so the turf doesn't mat down ([SYNLawn DIY guidelines](https://pdf.lowes.com/productdocuments/240a8581-4267-4cdf-aa5f-d4d1e250fec6/44269346.pdf)). For the whole-yard plan, see [mixing turf, rock and plant beds](/guides/mixing-turf-rock-and-plant-beds/) and outdoor living with artificial turf.
+SYNLawn, a turf maker, recommends stepping stones or pavers on high-traffic paths so the turf doesn't mat down ([SYNLawn DIY guidelines](https://pdf.lowes.com/productdocuments/240a8581-4267-4cdf-aa5f-d4d1e250fec6/44269346.pdf)). For the whole-yard plan, see [mixing turf, rock and plant beds](/guides/mixing-turf-rock-and-plant-beds/) and [outdoor living with artificial turf](/guides/outdoor-living-with-artificial-turf/).
 
 ## Why do the stones and the turf need one base at one grade?
 

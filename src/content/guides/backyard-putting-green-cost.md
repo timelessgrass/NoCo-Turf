@@ -179,7 +179,7 @@ What goes under turf on clay is in our guides to [artificial turf on clay soil](
 - **The putting surface.** Motz says the type of turf is often the biggest cost difference after the level of detail, and that nylon, which resists abrasion better than polypropylene, costs more. A professional-style, sand-filled green also takes more infill (see the table) and more install work: SGW's columnist says its all-infill True Putt, which holds a shot from 100 yards, is more complex to install. Our [comparison of sand-filled and non-infilled greens](/guides/sand-filled-vs-non-infilled-putting-green/) weighs the two.
 - **Fringe and rough.** Tour Greens, a putting green maker, says many owners add several cuts of fringe and fairway turf so they can practice every kind of shot ([Tour Greens](https://www.tourgreens.com/backyard-putting-green-cost.html)).
 - **A chipping area.** A green that has to hold chips asks more of the surface; see [chipping onto an artificial putting green](/guides/chipping-onto-artificial-putting-green/).
-- **Bunkers, creeks and lights.** Tour Greens says features such as bunkers, tee boxes, dry creeks and water hazards may not change what the green costs but do change what the project costs. Lighting and layout ideas are in our guides to putting green lighting and putting green design.
+- **Bunkers, creeks and lights.** Tour Greens says features such as bunkers, tee boxes, dry creeks and water hazards may not change what the green costs but do change what the project costs. Lighting and layout ideas are in our guides to [putting green lighting](/guides/putting-green-lighting/) and [putting green design](/guides/putting-green-design-ideas/).
 
 ## How do access and haul-off change the bill?
 

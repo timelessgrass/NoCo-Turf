@@ -159,7 +159,7 @@ Each layer, dated, with a tape measure standing in the shot, from the same spot 
 
 ## How can I check the base before the turf covers it?
 
-Ask for a pause between compaction and the first roll of turf, and walk the base with the crew lead. The STC's field guidance formalizes this: the builder inspects the base, and the owner's representative, such as the architect or engineer, approves it against the documents ([STC, 2011](https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Suggested_Guidelines_for.pdf)). On a custom home, that's your landscape architect or builder; see turf on a custom home.
+Ask for a pause between compaction and the first roll of turf, and walk the base with the crew lead. The STC's field guidance formalizes this: the builder inspects the base, and the owner's representative, such as the architect or engineer, approves it against the documents ([STC, 2011](https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Suggested_Guidelines_for.pdf)). On a custom home, that's your landscape architect or builder; see [turf on a custom home](/guides/custom-home-landscape-turf/).
 
 - **Depth.** Measure at several edges, and ask how the middle compares.
 - **Firmness.** ForeverLawn's guidelines say a compacted base "needs to be firm" and warn that turf "will reveal the base, not hide it" ([ForeverLawn](https://www.landscapesbyforeverlawn.com/wp-content/uploads/2023/07/DIY-Landscape-Installation-Guidelines-.pdf)). Heel prints, loose rock or a soft spot will show through.

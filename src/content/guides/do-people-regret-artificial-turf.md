@@ -152,7 +152,7 @@ A custom build, a putting green or an outdoor room around a patio and fire featu
 
 What helps on these projects:
 
-- Put the turf layer in the landscape plan: base material and depth, drainage, edges, and who answers for each, so the architect, builder and turf installer work from one drawing. Our guide to turf in a custom-home landscape covers the timing.
+- Put the turf layer in the landscape plan: base material and depth, drainage, edges, and who answers for each, so the architect, builder and turf installer work from one drawing. Our guide to [turf in a custom-home landscape](/guides/custom-home-landscape-turf/) covers the timing.
 - Settle the order the trades go in before anyone digs; planning a backyard around turf walks through it, and putting green design covers contours and cups.
 - Plan for architectural review. Colorado law bars HOA rules, and metro or special district rules, from prohibiting artificial turf in the backyard of a detached home, though an HOA can still apply design guidelines ([SB23-178](https://leg.colorado.gov/bill_files/92307/download); not legal advice). The packet is in our [HOA approval guide](/guides/hoa-turf-approval/).
 
