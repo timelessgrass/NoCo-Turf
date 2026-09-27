@@ -6,6 +6,8 @@
  * mobile Menu link (#site-index). NAP renders only from renderable brief facts; the address stays a
  * hole until Brian decides storefront vs service area.
  */
+import { Image } from 'astro:assets';
+import logoLight from '../assets/brand/logo-light.png';
 import Icon from './Icon.astro';
 import { visibleServices } from '../data/services';
 import { visibleTowns, visibleTopics, townsByRegion } from '../lib/visible';
@@ -20,7 +22,7 @@ const year = new Date().getFullYear();
 <footer class="ftr on-slab" id="site-index">
   <div class="wrap ftr__grid">
     <div class="ftr__brand">
-      <a class="ftr__word" href="/">NoCo Turf<span> Co.</span></a>
+      <a class="ftr__word" href="/" aria-label="NoCo Turf Co. — home"><Image class="ftr__logo" src={logoLight} alt="" width={360} /></a>
       <p class="ftr__line">Artificial turf, putting greens and play yards across Northern Colorado — Wellington to Longmont, Loveland to Eaton.</p>
       {phoneHref && <a class="btn btn--paint ftr__call" href={phoneHref} data-cta="footer-call"><Icon name="phone" />Call <span class="btn__num">{phoneDisplay}</span></a>}
       {socialProfiles.length > 0 && (
@@ -74,8 +76,8 @@ const year = new Date().getFullYear();
 <style>
   .ftr { padding-block: clamp(64px, 6vw + 32px, 120px) calc(28px + var(--bar-h)); }
   .ftr__grid { display: grid; grid-template-columns: 1.3fr 1fr 1.6fr 1.1fr; gap: 40px 48px; }
-  .ftr__word { font-family: var(--font-display); font-weight: 840; font-stretch: 122%; font-size: clamp(2rem, 1.4rem + 2.2vw, 3rem); letter-spacing: -0.045em; text-decoration: none; line-height: 0.95; white-space: nowrap; }
-  .ftr__word span { font-weight: 500; font-stretch: 100%; opacity: 0.6; }
+  .ftr__word { display: inline-block; }
+  .ftr__word :global(.ftr__logo) { display: block; width: clamp(150px, 16vw, 200px); height: auto; }
   .ftr__line { color: var(--bone-2); margin: 16px 0 22px; max-width: 34ch; }
   .ftr__call { margin-bottom: 22px; }
   .ftr__social { list-style: none; display: flex; flex-wrap: wrap; gap: 8px 18px; }

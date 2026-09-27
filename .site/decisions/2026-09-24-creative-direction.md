@@ -16,3 +16,15 @@
   contact-sheet reel + view-transition lightbox, crew clip (plays only on screen), hero settle + scroll sink.
 - Photos: Brian's own camera originals in NoCo territory (src/data/photos.ts) — pending brand assignment before launch.
 - Re-open trigger: Brian names a different object, or the portfolio sameness check flags convergence.
+
+## Amendment — 2026-09-27 (Ty): Brian's logo and its green
+
+- The site uses Brian's own logo (nocoturf.com `/images/logo.png`): black diamond line work, gold "NoCo TURF CO."
+  lettering, a green grass tuft. Trimmed and resized into `src/assets/brand/logo.png` (line work in ink, for light
+  ground) and `logo-light.png` (line work in bone, for the slab and over the home photo). At header size the
+  lettering is unreadable, so the header sets the name in type beside the badge.
+- The accent changes from marking-paint orange to the logo's grass green, `#47960D` (the mean of the grass pixels).
+  Ink on it is 5.0:1; as a mark on the light ground it is 3.1:1. Same rule as before: never small text on the light
+  ground. The logo's gold stays in the logo.
+- Favicon and touch icons: the grass tuft inside the logo's diamond, on the slab (`public/favicon-32.png`,
+  `apple-touch-icon.png`, `icon-512.png`).

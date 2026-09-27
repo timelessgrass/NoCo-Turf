@@ -104,7 +104,7 @@ h4 { font-size: 1.05rem; font-weight: 700; font-stretch: 100%; letter-spacing: -
 /* A layout mark sprayed under the payoff word: a hand-held wobble, not a ruler. Background stroke +
    box-decoration-break: clone, so it follows every line the phrase wraps onto. */
 .paint-word {
-  --mark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 20' preserveAspectRatio='none'%3E%3Cpath d='M3 12.5c24-3.2 47-5.4 71-5.9 34-.8 61 1.9 87 1.4 13-.2 24-1.5 36-3.4' fill='none' stroke='%23ff5a1f' stroke-width='4.2' stroke-linecap='round'/%3E%3C/svg%3E");
+  --mark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 20' preserveAspectRatio='none'%3E%3Cpath d='M3 12.5c24-3.2 47-5.4 71-5.9 34-.8 61 1.9 87 1.4 13-.2 24-1.5 36-3.4' fill='none' stroke='%2347960D' stroke-width='4.2' stroke-linecap='round'/%3E%3C/svg%3E");
   background: var(--mark) 0 100% / 100% 0.3em no-repeat;
   padding-bottom: 0.1em;
   -webkit-box-decoration-break: clone; box-decoration-break: clone;

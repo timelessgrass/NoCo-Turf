@@ -6,12 +6,13 @@
  * Every install starts as an outline marked on the old lawn, becomes a cut edge, and ends as a curve set
  * against concrete, rock or steel. The line is the brand; the photographs are the green.
  *
- *   paint  — inverted marking-paint orange: the layout mark. The ONE accent. Fills, strokes, focus, payoff
- *            words on dark ground. Never small text on the light ground (2.4:1) — ink sits on paint instead.
+ *   paint  — the logo's grass green (#47960D, sampled from Brian's logo; Ty, 2026-09-27). The ONE accent: the
+ *            layout mark, fills, strokes, focus, payoff words on dark ground. Ink on paint is 5.0:1; paint as a
+ *            mark on the light ground is 3.1:1. Never small text on the light ground — ink sits on paint instead.
  *   ground — crusher fines / compacted road base: the warm grey-tan under every lawn. Never #fff.
  *   slab   — a freshly dug, wet base: the dark where every commercial ask sits.
  *   ink / bone — one text colour per ground, used at several opacities.
- *   (green) — never in the palette. The turf in the photographs supplies it.
+ *   gold   — the logo's lettering (#C89800). Lives in the logo only, not in the palette.
  *
  * Type: the document this buyer trusts is the site plan / spec sheet an HOA architectural committee reads.
  *   Archivo (variable width + weight) — wide and heavy for titles, narrow uppercase for plan annotations.
@@ -36,7 +37,7 @@
   --bone-3: rgb(var(--bone-rgb) / 0.54);
   --bone-line: rgb(var(--bone-rgb) / 0.16);
 
-  --paint-rgb: 255 90 31;
+  --paint-rgb: 71 150 13;
   --paint: rgb(var(--paint-rgb));
   --paint-press: color-mix(in oklab, var(--paint) 86%, black);
 

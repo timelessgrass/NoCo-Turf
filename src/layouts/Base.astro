@@ -95,7 +95,9 @@ const jsonld = JSON.stringify({ '@context': 'https://schema.org', '@graph': node
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
     {ogImage && <meta property="og:image" content={new URL(ogImage, SITE).href} />}
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="icon" href="/icon-512.png" sizes="512x512" type="image/png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     {styles.map((href) => <link rel="stylesheet" href={href} />)}
     <script type="application/ld+json" set:html={jsonld} />
   </head>

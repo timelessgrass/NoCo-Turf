@@ -1,15 +1,18 @@
 ---
 /**
  * Contact chrome + navigation. The phone is the first thing you can tap (spine beat 0).
- *   desktop: wordmark · Services ▾ · Work · Areas ▾ · Guides ▾ · phone · Book a yard walk
+ *   desktop: logo · Services ▾ · Work · Areas ▾ · Guides ▾ · phone · Book a yard walk
  *            (the Guides panel lists topic hubs with their counts, never every guide, so it stays one
  *            panel at five guides or a hundred; a topic with no visible guide is left out)
- *   mobile:  wordmark · call icon (44px) · Menu → a full-height sheet (<dialog>); without JS, Menu is a
+ *   mobile:  logo · call icon (44px) · Menu → a full-height sheet (<dialog>); without JS, Menu is a
  *            link to the footer's site index.
  * Top-level items are real hub links; with JS a click opens the panel instead (disclosure pattern:
  * aria-expanded, Esc and outside-click close). Over a dark hero the header is clear with bone text and
  * turns solid ground once you scroll (data-tone="photo" → data-scrolled).
  */
+import { Image } from 'astro:assets';
+import logo from '../assets/brand/logo.png';
+import logoLight from '../assets/brand/logo-light.png';
 import Icon from './Icon.astro';
 import { visibleServices } from '../data/services';
 import { visibleTowns, visibleTopics, townsByRegion } from '../lib/visible';
@@ -28,8 +31,9 @@ const name = businessName ?? 'NoCo Turf Co.';
 <header class="hdr" data-tone={tone} data-hdr>
   <div class="hdr__bar wrap">
     <a class="brand" href="/" aria-label={`${name} — home`}>
-      <svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 27.5C5 14 12 5.5 27 5" pathLength="1" /></svg>
-      <span class="brand__word">NoCo Turf<span class="brand__co"> Co.</span></span>
+      <Image class="brand__logo brand__logo--ink" src={logo} alt="" width={220} loading="eager" />
+      <Image class="brand__logo brand__logo--bone" src={logoLight} alt="" width={220} loading="eager" />
+      <span class="brand__word" aria-hidden="true">NoCo Turf<span class="brand__co"> Co.</span></span>
     </a>
 
     <nav class="nav" aria-label="Main">
@@ -99,7 +103,7 @@ const name = businessName ?? 'NoCo Turf Co.';
 
 <dialog class="sheet" data-sheet aria-label="Menu">
   <div class="sheet__top wrap">
-    <a class="brand" href="/"><svg class="brand__mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 27.5C5 14 12 5.5 27 5" /></svg><span class="brand__word">NoCo Turf<span class="brand__co"> Co.</span></span></a>
+    <a class="brand" href="/" aria-label={`${name} — home`}><Image class="brand__logo brand__logo--ink" src={logo} alt="" width={220} /><span class="brand__word" aria-hidden="true">NoCo Turf<span class="brand__co"> Co.</span></span></a>
     <button class="sheet__close" type="button" data-menu-close aria-label="Close menu"><Icon name="close" size={24} /></button>
   </div>
   <nav class="sheet__nav wrap" aria-label="Menu">
@@ -127,11 +131,15 @@ const name = businessName ?? 'NoCo Turf Co.';
   .hdr[data-tone='photo']:not([data-scrolled]):not([data-open]) { background: transparent; box-shadow: none; backdrop-filter: none; color: var(--bone); }
   .hdr__bar { height: var(--header-h); display: flex; align-items: center; gap: 28px; }
 
-  .brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; flex: none; }
-  .brand__mark { width: 30px; height: 30px; }
-  .brand__mark path { fill: none; stroke: var(--paint); stroke-width: 4.2; stroke-linecap: round; }
-  .brand__word { font-family: var(--font-display); font-weight: 830; font-stretch: 120%; font-size: 1.28rem; letter-spacing: -0.04em; line-height: 1; }
+  .brand { display: inline-flex; align-items: center; gap: 8px; text-decoration: none; flex: none; }
+  /* Brian's logo (src/assets/brand): black line work on light ground, bone line work over the home photo. */
+  .brand :global(.brand__logo) { display: block; height: calc(var(--header-h) - 14px); width: auto; }
+  /* The logo's own lettering is too small to read at header size, so the name sits beside the badge. */
+  .brand__word { font-family: var(--font-display); font-weight: 830; font-stretch: 116%; font-size: 1.2rem; letter-spacing: -0.035em; line-height: 1; white-space: nowrap; }
   .brand__co { font-weight: 500; font-stretch: 100%; opacity: 0.7; }
+  .brand :global(.brand__logo--bone) { display: none; }
+  .hdr[data-tone='photo']:not([data-scrolled]):not([data-open]) .brand :global(.brand__logo--ink) { display: none; }
+  .hdr[data-tone='photo']:not([data-scrolled]):not([data-open]) .brand :global(.brand__logo--bone) { display: block; }
 
   .nav { flex: 1; }
   .nav__list { list-style: none; display: flex; gap: 4px; }
@@ -179,7 +187,6 @@ const name = businessName ?? 'NoCo Turf Co.';
     .nav, .hdr__cta { display: none; }
     .hdr__menu { display: inline-flex; }
     .hdr__bar { gap: 12px; }
-    .brand__word { font-size: 1.12rem; }
   }
 
   .sheet { width: 100%; max-width: none; height: 100dvh; max-height: none; margin: 0; padding: 0; border: 0; background: var(--ground); color: var(--ink); overflow-y: auto; }
