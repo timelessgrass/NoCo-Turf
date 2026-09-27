@@ -35,6 +35,10 @@ const { items, checked, sources } = Astro.props;
           </li>
         ))}
       </ol>
+      <div class="gtoc__book">
+        <p><strong>Thinking about turf for your yard?</strong> We’ll walk it with you, check what your town and HOA allow, and put a plan and price in writing.</p>
+        <a class="btn btn--paint gtoc__btn" href="#estimate" data-cta="toc-quote">Book a yard walk</a>
+      </div>
       <div class="gtoc__foot">
         <p class="gtoc__rec">Checked <time datetime={checked}>{checked}</time><br /><a href="#sources">{sources} sources, each dated</a></p>
         {phoneHref && <a class="gtoc__call" href={phoneHref} data-cta="toc-call" aria-label={`Ask about your yard: call ${phoneDisplay}`}><Icon name="phone" size={17} />Ask about your yard <span class="num">{phoneDisplay}</span></a>}
@@ -73,6 +77,10 @@ const { items, checked, sources } = Astro.props;
   .gtoc__call:hover { box-shadow: inset 0 0 0 1.5px var(--paint); }
   .gtoc__call .num { display: none; }
   .gtoc__bar { display: none; }
+  .gtoc__book { margin-top: 22px; padding: 18px; border-radius: var(--r-panel); background: var(--slab); color: var(--bone); display: grid; gap: 14px; }
+  .gtoc__book p { margin: 0; font-size: 0.9rem; line-height: 1.45; color: var(--bone-2); }
+  .gtoc__book strong { display: block; margin-bottom: 4px; color: var(--bone); font-family: var(--font-display); font-size: 1.02rem; letter-spacing: -0.01em; }
+  .gtoc__btn { justify-self: start; min-height: 44px; font-size: 0.92rem; }
 
   /* ── Desktop: the rail ── */
   @media (min-width: 1200px) {

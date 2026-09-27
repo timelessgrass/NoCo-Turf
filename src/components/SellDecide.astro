@@ -1,0 +1,86 @@
+---
+/**
+ * SellDecide — the homeowner's decision, plainly: who this suits, when to think twice, what living with it is
+ * like (each point linking the guide that covers it with sources), and what moves the price. Data from
+ * src/data/service-sell.ts.
+ */
+import Icon from './Icon.astro';
+import type { ServiceSell } from '../data/service-sell';
+interface Props { s: ServiceSell; name: string }
+const { s, name } = Astro.props;
+const lower = name.toLowerCase();
+---
+<section class="section dc" id="fit" aria-labelledby="fit-h">
+  <div class="wrap">
+    <header class="dc__head">
+      <p class="label">Is it right for you?</p>
+      <h2 id="fit-h">Who {lower} suits, and when to think twice.</h2>
+    </header>
+    <div class="dc__fit">
+      <div class="dc__col dc__col--yes">
+        <h3>A good fit if…</h3>
+        <ul role="list">{s.good.map((g) => <li>{g}</li>)}</ul>
+      </div>
+      <div class="dc__col dc__col--no">
+        <h3>Think twice if…</h3>
+        <ul role="list">{s.think.map((g) => <li>{g}</li>)}</ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section ground-2 dc" id="expect" aria-labelledby="expect-h">
+  <div class="wrap">
+    <header class="dc__head">
+      <p class="label">Living with it</p>
+      <h2 id="expect-h">What to expect after it goes in.</h2>
+    </header>
+    <ul class="dc__expect" role="list">
+      {s.expect.map((e) => (
+        <li class="rise">
+          <h3>{e.h}</h3>
+          <p>{e.p}</p>
+          <a href={e.href}>Read more <Icon name="arrow" size={15} /></a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>
+
+<section class="section dc" id="price" aria-labelledby="price-h">
+  <div class="wrap dc__price">
+    <header class="dc__head">
+      <p class="label">Cost</p>
+      <h2 id="price-h">What moves the price.</h2>
+      <p class="lede">Every yard prices differently. These are the things that decide yours, and why the price comes after we’ve seen the yard.</p>
+      <p><a class="btn btn--paint" href="#estimate" data-cta="price-quote">Get your price: book a yard walk <Icon name="arrow" /></a></p>
+    </header>
+    <ol class="dc__list" role="list">{s.price.map((p, i) => <li><span class="num">{String(i + 1).padStart(2, '0')}</span><span>{p}</span></li>)}</ol>
+  </div>
+</section>
+
+<style>
+  .dc__head { display: grid; gap: 14px; max-width: 760px; margin-bottom: clamp(28px, 4vw, 48px); }
+  .dc__head .label, .dc__head p { margin: 0; }
+  .dc__head h2 { font-size: clamp(1.9rem, 1.2rem + 2.6vw, 3.2rem); }
+  .dc__fit { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(16px, 2.5vw, 32px); }
+  .dc__col { padding: clamp(22px, 3vw, 34px); border-radius: var(--r-panel); background: var(--ground-2); }
+  .dc__col--no { background: transparent; box-shadow: inset 0 0 0 1.5px var(--line); }
+  .dc__col h3 { margin: 0 0 16px; font-size: 1.35rem; }
+  .dc__col ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+  .dc__col li { position: relative; padding-left: 30px; line-height: 1.5; }
+  .dc__col li::before { content: ''; position: absolute; left: 0; top: 3px; width: 18px; height: 18px; border-radius: 50%; }
+  .dc__col--yes li::before { background: var(--paint); }
+  .dc__col--no li::before { box-shadow: inset 0 0 0 2px var(--ink-3); }
+  .dc__expect { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(16px, 2vw, 28px); }
+  .dc__expect li { display: grid; gap: 10px; align-content: start; padding-top: 16px; border-top: 2px solid var(--ink); }
+  .dc__expect h3 { margin: 0; font-size: 1.22rem; }
+  .dc__expect p { margin: 0; color: var(--ink-2); line-height: 1.5; }
+  .dc__expect a { display: inline-flex; align-items: center; gap: 6px; font-weight: 650; color: var(--ink); text-decoration-color: var(--paint); min-height: 44px; }
+  .dc__price { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); gap: clamp(28px, 5vw, 80px); align-items: start; }
+  .dc__list { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; }
+  .dc__list li { display: grid; grid-template-columns: 44px 1fr; gap: 12px; padding: 16px 0; border-bottom: 1px solid var(--line); font-size: 1.08rem; }
+  .dc__list .num { color: var(--paint); font-weight: 800; }
+  @media (max-width: 999px) { .dc__expect { grid-template-columns: repeat(2, minmax(0, 1fr)); } .dc__price { grid-template-columns: 1fr; } }
+  @media (max-width: 699px) { .dc__fit, .dc__expect { grid-template-columns: 1fr; } }
+</style>

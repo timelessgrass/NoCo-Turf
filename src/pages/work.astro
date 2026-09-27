@@ -47,21 +47,19 @@ const crumbs = [{ name: 'Work', path: '/work/' }];
   <PageHero
     label="The work"
     crumbs={crumbs}
-    lede="Every photograph here is a camera original from one of Brian’s jobs in Northern Colorado. Each one carries the nearest town and, where the camera kept it, the month. Tap any frame to see it full size."
+    lede="Every photo here is from one of Brian’s jobs in Northern Colorado, with the nearest town and, where the camera kept it, the month. Tap any photo to see it full size."
   >
-    {cap(word(sheet.length))} frames from Brian’s own jobs. <PaintWord now>Not one is stock.</PaintWord>
-    <dl slot="after" class="wk-roll" aria-label="About this contact sheet">
-      <div><dt>Frames</dt><dd class="num">{pad(sheet.length)}</dd></div>
-      <div><dt>Places</dt><dd class="num">{pad(places)}</dd></div>
-      {span && <div class="wk-roll__wide"><dt>Taken</dt><dd>{span}</dd></div>}
-      <div class="wk-roll__wide"><dt>Camera</dt><dd>Phone originals from the jobs · no stock, no renders</dd></div>
-    </dl>
+    Real yards across <PaintWord now>Northern Colorado.</PaintWord>
+    <div slot="after" class="wk-acts">
+      <a class="btn btn--paint" href="#estimate" data-cta="work-hero-quote">Book a yard walk <Icon name="arrow" /></a>
+      {phoneHref && <a class="btn btn--line" href={phoneHref} data-cta="work-hero-call"><Icon name="phone" />Call <span class="btn__num">{phoneDisplay}</span></a>}
+    </div>
   </PageHero>
 
   <section class="section ground-2 wk-sheet" aria-labelledby="sheet-h">
     <div class="wrap">
-      <CoHead label="Contact sheet" id="sheet-h" split lede="Turf lies flat without much help in the middle of a yard. The cuts, the seams and the edge against concrete, rock and curb are where an install shows — so that’s where to look in these.">
-        The middle is easy. <PaintWord>Look where it stops.</PaintWord>
+      <CoHead label="Photos" id="sheet-h" split lede="When you compare installers, look at the edges and seams, where turf meets concrete, rock and curb. That’s where a careful install shows.">
+        Lawns, greens and <PaintWord>the details.</PaintWord>
       </CoHead>
       <div class="wk-reel">
         <WorkReel photos={sheet} />
@@ -75,8 +73,8 @@ const crumbs = [{ name: 'Work', path: '/work/' }];
   <section class="section on-slab wk-crew" aria-labelledby="crew-h">
     <div class="wrap wk-crew__grid">
       <div class="wk-crew__copy">
-        <CoHead label="The clip" id="crew-h" paint>Frame {pad(crewNo)}, <PaintWord text>moving.</PaintWord></CoHead>
-        <p>Frame {pad(crewNo)} on the sheet is a still from this clip: a power broom going over a newly laid lawn in the {photo('crew').place}. The bristles stand the blades up and settle the infill between them — one of the last passes before a lawn is finished.</p>
+        <CoHead label="On the job" id="crew-h" paint>The finishing <PaintWord text>pass.</PaintWord></CoHead>
+        <p>A power broom going over a newly laid lawn in the {photo('crew').place}. The bristles stand the blades up and settle the infill, so the turf looks like grass, not carpet.</p>
         <p class="wk-crew__small">The clip plays while it’s on your screen, stops when you scroll past, and pauses any time you press Pause. With reduced motion turned on, you’ll see the still.</p>
       </div>
       <CoCrewClip label={`Frame ${pad(crewNo)} · the clip`} sizes="(max-width: 899px) 90vw, 32vw" />
@@ -85,8 +83,8 @@ const crumbs = [{ name: 'Work', path: '/work/' }];
 
   <section class="section wk-next" aria-labelledby="next-h">
     <div class="wrap">
-      <CoHead label="Coming next" id="next-h" split lede="As Brian’s job ledger comes in, each project gets its own write-up: the yard before, the base going in, the finished turf — and a job card with what went where.">
-        Before, base, after. <PaintWord>Job by job.</PaintWord>
+      <CoHead label="Coming soon" id="next-h" split lede="Project write-ups are on the way: the yard before, the base going in, and the finished turf, with what went where.">
+        Before and after, <PaintWord>project by project.</PaintWord>
       </CoHead>
       <div class="wk-plan">
         <ol class="wk-phases" role="list" aria-label="What each write-up will show">
@@ -132,7 +130,7 @@ const crumbs = [{ name: 'Work', path: '/work/' }];
     </div>
   </section>
 
-  <CtaBand title="Next frame:" payoff="your yard." />
+  <CtaBand title="Like what you see?" payoff="Let’s walk your yard." />
 </Base>
 
 <style>
@@ -226,4 +224,5 @@ const crumbs = [{ name: 'Work', path: '/work/' }];
     .wk-phase { display: grid; grid-template-columns: 112px 1fr; gap: 4px 16px; align-items: start; }
     .wk-phase__frame { grid-row: span 2; margin: 0; }
   }
+  .wk-acts { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
 </style>

@@ -61,6 +61,7 @@ import SellGood from '../../../components/SellGood.astro';
 import SellSteps from '../../../components/SellSteps.astro';
 import SellServices from '../../../components/SellServices.astro';
 import RulesDrawer from '../../../components/RulesDrawer.astro';
+import { TOWN_SELL } from '../../../data/town-sell';
 import Faq from '../../../components/Faq.astro';
 import Sources from '../../../components/Sources.astro';
 import CtaBand from '../../../components/CtaBand.astro';
@@ -286,7 +287,7 @@ const cmTownPages = cm ? pages.filter((p) => p.town.slug === cm.town.slug) : [];
 
   <SellSteps town={name} />
 
-  <TownServiceAround service={meta.crumb} town={name} nearby={nearby} others={others} />
+  <TownServiceAround service={meta.crumb} town={name} nearby={nearby.map((n) => ({ ...n, line: '' }))} others={others.map((o, i) => ({ ...o, line: i === 0 ? (TOWN_SELL[town.slug]?.hook ?? '') : '' }))} />
 
   <TownServiceGuides topic={meta.topic} />
 
@@ -342,7 +343,7 @@ const cmTownPages = cm ? pages.filter((p) => p.town.slug === cm.town.slug) : [];
 
   <SellSteps place={cm.name} />
 
-  <TownServiceAround service={cm.name} town={cm.townName} nearby={cm.townLinks} others={cm.neighbors}
+  <TownServiceAround service={cm.name} town={cm.townName} nearby={cm.townLinks.map((n, i) => ({ ...n, line: i === 0 ? (TOWN_SELL[cm.town.slug]?.hook ?? '') : '' }))} others={cm.neighbors}
     heads={{ nearby: { label: `Around ${cm.name}`, title: `More for ${cm.townName} homes.` }, others: { label: `More in ${cm.townName}`, title: `Other ${cm.townName} neighborhoods.` } }} />
 
   <TownServiceGuides topic={COMMUNITY_TOPIC} picks={COMMUNITY_GUIDES} />
@@ -395,6 +396,7 @@ import SellGood from '../../../components/SellGood.astro';
 import SellSteps from '../../../components/SellSteps.astro';
 import SellServices from '../../../components/SellServices.astro';
 import RulesDrawer from '../../../components/RulesDrawer.astro';
+import { TOWN_SELL } from '../../../data/town-sell';
 import Faq from '../../../components/Faq.astro';
 import Sources from '../../../components/Sources.astro';
 import CtaBand from '../../../components/CtaBand.astro';
@@ -637,7 +639,7 @@ const cmTownPages = cm ? pages.filter((p) => p.town.slug === cm.town.slug) : [];
 
   <TownServiceStrip noun={meta.noun} name={service.name} short={service.short} underneath={service.underneath} href={`/services/${service.slug}/`} />
 
-  <TownServiceAround service={meta.crumb} town={name} nearby={nearby} others={others} />
+  <TownServiceAround service={meta.crumb} town={name} nearby={nearby.map((n) => ({ ...n, line: '' }))} others={others.map((o, i) => ({ ...o, line: i === 0 ? (TOWN_SELL[town.slug]?.hook ?? '') : '' }))} />
 
   <TownServiceGuides topic={meta.topic} />
 
@@ -704,7 +706,7 @@ const cmTownPages = cm ? pages.filter((p) => p.town.slug === cm.town.slug) : [];
 
   {cm.photo && <TownServicePhoto photo={cm.photo} />}
 
-  <TownServiceAround service={cm.name} town={cm.townName} nearby={cm.townLinks} others={cm.neighbors}
+  <TownServiceAround service={cm.name} town={cm.townName} nearby={cm.townLinks.map((n, i) => ({ ...n, line: i === 0 ? (TOWN_SELL[cm.town.slug]?.hook ?? '') : '' }))} others={cm.neighbors}
     heads={{ nearby: { label: `Around ${cm.name}`, title: `The ${cm.townName} pages around it.` }, others: { label: `More in ${cm.townName}`, title: `Other neighborhoods in ${cm.townName}.` } }} />
 
   <TownServiceGuides topic={COMMUNITY_TOPIC} picks={COMMUNITY_GUIDES} />

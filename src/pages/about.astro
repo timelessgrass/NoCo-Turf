@@ -27,20 +27,8 @@ import brief, { fact, businessName, legalName, phoneHref, phoneDisplay, socialPr
 const name = businessName ?? 'NoCo Turf Co.';
 const owner = fact<string>(brief.identity?.owners?.[0]);
 const years = fact<number>(brief.identity?.founder_experience_years);
-const yearsSaid = brief.identity?.founder_experience_years?.date as string | undefined;
-/* The quote itself, verbatim from the fact's own source line — never rebuilt from the number, so a changed
-   number can't put words in Brian's mouth. Split so the payoff ("13 years.") takes the painted line. */
-const curly = (s: string) => s.replace(/'/g, '’');
-const yearsQuote = years ? (String(brief.identity?.founder_experience_years?.source_detail ?? '').match(/[“"]([^”"]+)[”"]/)?.[1] ?? null) : null;
-const yearsParts = yearsQuote?.match(/^(.*?)(\d+ years\.?)$/) ?? null;
 const reg = fact<{ sos_id: string; formed: string; standing: string; lookup_url: string }>(brief.identity?.registration);
 const regChecked = brief.identity?.registration?.date as string | undefined;
-
-/* Brian's own statements, verbatim from the brief (services[].kind === 'client_statement'). */
-const said = ((brief.services ?? []) as any[])
-  .filter((s) => s?.kind === 'client_statement')
-  .map((s) => ({ text: fact<string>(s.statement), date: s.statement?.date as string | undefined }))
-  .filter((q): q is { text: string; date: string | undefined } => Boolean(q.text));
 
 const gbp = socialProfiles.find((p) => p.network === 'Google Business Profile');
 const fb = socialProfiles.find((p) => p.network === 'Facebook');
@@ -75,12 +63,12 @@ const description = `${name} is ${owner ? `${owner}'s` : 'a'} turf company: regi
     label={`About ${name}`}
     crumbs={crumbs}
     photo={hero}
-    lede={`${name} is ${owner ? `${owner}’s` : 'a'} turf company, putting artificial turf into yards across Northern Colorado — ${word(towns.length)} towns from Wellington to Longmont. This page sticks to records you can check and things ${owner ?? 'the owner'} has said himself.`}
+    lede={`${name} is ${owner ? `${owner}’s` : 'a local'} turf company in Windsor, building artificial turf lawns, backyard putting greens and dog yards in ${word(towns.length)} towns from Wellington to Longmont.`}
   >
-    A turf company you can <PaintWord now>check</PaintWord> before anyone walks your yard.
+    A Windsor turf company, <PaintWord now>owner-led.</PaintWord>
     <div slot="after" class="ab-hero__acts">
-      {phoneHref && <a class="btn btn--ink" href={phoneHref} data-cta="about-call"><Icon name="phone" />Call <span class="btn__num">{phoneDisplay}</span></a>}
-      <a class="btn btn--line" href="/work/">See the work <Icon name="arrow" /></a>
+      <a class="btn btn--paint" href="#estimate" data-cta="about-quote">Book a yard walk <Icon name="arrow" /></a>
+      {phoneHref && <a class="btn btn--line" href={phoneHref} data-cta="about-call"><Icon name="phone" />Call <span class="btn__num">{phoneDisplay}</span></a>}
     </div>
   </PageHero>
 
@@ -88,27 +76,10 @@ const description = `${name} is ${owner ? `${owner}'s` : 'a'} turf company: regi
   {owner && (
     <section class="section ab-owner" aria-labelledby="owner-h">
       <div class="wrap ab-owner__grid">
-        <CoHead label="The owner" id="owner-h">{owner}, in his own words.</CoHead>
+        <CoHead label="The owner" id="owner-h">Meet {owner}.</CoHead>
         <div class="ab-owner__body">
-          {yearsParts && (
-            <blockquote class="ab-quote rise">
-              <p>“{curly(yearsParts[1])}<PaintWord>{yearsParts[2]}</PaintWord>”</p>
-              <footer><span>{owner}, owner of {name}</span><span class="ab-quote__when">on a call with the studio that builds this site · {fmtMonth(yearsSaid)}</span></footer>
-            </blockquote>
-          )}
-          {yearsParts && reg && (
-            <p class="ab-owner__note">Those years are {owner}’s own, in turf. The company on the state record, {legalName ?? 'NOCO Turf Co. LLC'}, was formed in {formedMonth}.</p>
-          )}
-          {said.length > 0 && (
-            <div class="ab-said">
-              {said.map((q) => (
-                <blockquote class="ab-quote ab-quote--small rise">
-                  <p>“{curly(q.text)}”</p>
-                  <footer><span>{owner}</span>{q.date && <span class="ab-quote__when">{fmtMonth(q.date)}</span>}</footer>
-                </blockquote>
-              ))}
-            </div>
-          )}
+          <p class="ab-owner__lead">{owner} has been installing artificial turf for {years ?? 13} years{reg && <>, and started {name} in Windsor in {formedMonth}</>}. The company builds just about anything that’s turf: lawns, backyard putting greens, dog runs and play yards, plus HOA and commercial work.</p>
+          <p class="ab-owner__note">When you call, you’re talking to a local, owner-led company, and the person who plans your yard knows the ground here: the clay, the hail, the snow and the town rules that decide what’s allowed.</p>
         </div>
       </div>
     </section>
@@ -119,10 +90,10 @@ const description = `${name} is ${owner ? `${owner}'s` : 'a'} turf company: regi
     <div class="wrap ab-crew__grid">
       <CoCrewClip label="Filmed on the job" sizes="(max-width: 899px) 90vw, 34vw" />
       <div class="ab-crew__copy">
-        <CoHead label="On the job" id="crew-h" paint>The last pass on a <PaintWord text>new lawn.</PaintWord></CoHead>
-        <p>That’s a power broom going over a lawn that has just been laid, filmed on a job in the {photo('crew').place}. It is one of the final passes: stiff bristles stand the blades up and work the infill down between them, so the turf reads as grass instead of carpet.</p>
-        <p>What you can’t see in a clip is underneath it — the ground that was dug out, the rock base and how hard it was packed. That part decides whether a yard stays flat on Northern Colorado clay.</p>
-        <a class="btn btn--line ab-crew__btn" href="/services/artificial-turf-installation/">How a turf install goes <Icon name="arrow" /></a>
+        <CoHead label="On the job" id="crew-h" paint>The details that make turf <PaintWord text>look like grass.</PaintWord></CoHead>
+        <p>In the clip, filmed on a job in the {photo('crew').place}: the final pass with a power broom. It stands the blades up and works the infill in, so the turf looks like grass, not carpet.</p>
+        <p>What you can’t see is underneath: the dig, the rock base and how hard it’s packed. That’s what keeps a yard flat on Northern Colorado clay, year after year.</p>
+        <a class="btn btn--line ab-crew__btn" href="/services/artificial-turf-installation/">How an install works <Icon name="arrow" /></a>
       </div>
     </div>
   </section>
@@ -130,8 +101,8 @@ const description = `${name} is ${owner ? `${owner}'s` : 'a'} turf company: regi
   <!-- Receipts — things a stranger can check without calling. -->
   <section class="section ab-check" aria-labelledby="check-h">
     <div class="wrap">
-      <CoHead label="Check us" id="check-h" split lede={`Most of these open somewhere ${name} doesn’t control — a state database, a map listing, a social profile — so you see them as anyone would.`}>
-        Anyone can make a website. <PaintWord>Here are the records.</PaintWord>
+      <CoHead label="Look us up" id="check-h" split lede="Check us where we don’t control the listing: the state business record, Google, Instagram and Facebook.">
+        Don’t just take our word for it.
       </CoHead>
       <ul class="rc" role="list">
         {reg && (
@@ -194,8 +165,8 @@ const description = `${name} is ${owner ? `${owner}'s` : 'a'} turf company: regi
   <!-- A few jobs, each with its record line. -->
   <section class="section ground-2 ab-jobs" aria-labelledby="jobs-h">
     <div class="wrap">
-      <CoHead label="The work" id="jobs-h" split lede="A few of the jobs from the work page, each with the nearest town and the month it was taken. Look where the turf meets stone, rock and concrete — that’s where an install shows.">
-        {cap(word(jobs.length))} yards, <PaintWord>{word(new Set(jobs.map((j) => j.place)).size)} places.</PaintWord>
+      <CoHead label="Recent work" id="jobs-h" split lede="Real photos from Brian’s jobs, each with where and when it was taken. No stock, no renders.">
+        Yards we’ve <PaintWord>built.</PaintWord>
       </CoHead>
       <ol class="jobs" role="list">
         {jobs.map((p, i) => (
@@ -218,14 +189,14 @@ const description = `${name} is ${owner ? `${owner}'s` : 'a'} turf company: regi
   <!-- Where — the corridor map. -->
   <section class="section ab-map" aria-labelledby="map-h">
     <div class="wrap">
-      <CoHead label="Where we work" id="map-h" split lede="From Wellington in the north to Longmont and Dacono in the south, along I-25 and US 34. Every town on the map has its own page.">
-        {cap(word(towns.length))} towns, <PaintWord>one corridor.</PaintWord>
+      <CoHead label="Where we work" id="map-h" split lede="From Wellington in the north to Longmont and Dacono in the south. Pick your town to see what we build there and what it allows.">
+        {cap(word(towns.length))} Northern Colorado <PaintWord>towns.</PaintWord>
       </CoHead>
       <CorridorMap towns={towns} />
     </div>
   </section>
 
-  <CtaBand title="Ask about your" payoff="yard." lede="Tell us where the yard is and what it’s for. Three short parts, no account, no upload — or call if you’d rather talk it through." />
+  <CtaBand title="Let’s walk" payoff="your yard." lede="Tell us where the yard is and what you want. Three short parts, no account, no upload, or call if you’d rather talk it through." />
 </Base>
 
 <style>
@@ -312,4 +283,5 @@ const description = `${name} is ${owner ? `${owner}'s` : 'a'} turf company: regi
     .jobs__item:nth-child(n) { margin-top: 0; }
     .jobs__frame :global(img) { aspect-ratio: 4 / 3.4; }
   }
+  .ab-owner__lead { font-size: var(--fs-lede); line-height: 1.5; margin: 0 0 18px; max-width: 58ch; }
 </style>

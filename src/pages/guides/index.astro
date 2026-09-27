@@ -70,9 +70,9 @@ const graph = items.length === 0 ? [] : [
 ---
 <Base title={title} description={description} crumbs={crumbs} graph={graph}>
   <PageHero label="Guides · Northern Colorado" crumbs={crumbs} compact lede={items.length
-    ? `${count} guides for Northern Colorado homeowners, in ${topicCount} ${topics.length === 1 ? 'topic' : 'topics'}. Each opens with its short answer and lists every source with the date it was checked.`
+    ? `${count} straight-answer guides for Northern Colorado homeowners: cost, HOA and town rules, pets, putting greens, heat, snow and more. Each one opens with the short answer.`
     : 'The guides to turf rules, HOA approval, rebates, water savings and cost are being checked against their sources before they go up.'}>
-    Questions about turf, answered from sources <PaintWord now>you can check.</PaintWord>
+    Everything you need to decide on <PaintWord now>artificial turf.</PaintWord>
     <div class="hrec" slot="after">
       {items.length > 0 && <div class="hrec__row">
         <p class="hrec__c"><span class="hrec__k">Checked</span> <time class="hrec__v num" datetime={latest}>{latest}</time></p>
@@ -169,8 +169,8 @@ const graph = items.length === 0 ? [] : [
     <div class="wrap hsrc__grid">
       <header class="hsrc__head">
         <p class="label">How these are built</p>
-        <h2 id="hsrc-h">Each guide names its sources. <PaintWord>Each source carries a date.</PaintWord></h2>
-        <p class="lede">State law from the Colorado General Assembly’s own bill records. Town rules from each town’s published code or its own pages. Water rates from each provider’s 2026 schedule. Rebate programs quoted in their own words. Soil and irrigation figures from the Colorado Geological Survey, USDA soil survey data and CSU Extension.</p>
+        <h2 id="hsrc-h">Every answer comes <PaintWord>with its source.</PaintWord></h2>
+        <p class="lede">Town rules come from each town’s own code, state law from the Colorado legislature, and water rates from each provider’s 2026 schedule. Each guide lists its sources with the date they were checked.</p>
       </header>
       <dl class="hsrc__stats">
         <div class="rise"><dt class="num">{sources}</dt><dd>public sources behind the {count.toLowerCase()} guides, each listed with the date it was checked</dd></div>

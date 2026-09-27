@@ -19,7 +19,7 @@ const n = pages.length;
   <section class="section svbt" id={id} aria-labelledby={`${id}-h`}>
     <div class="wrap">
       <ServiceHead label={`${service} by town`} id={`${id}-h`} split
-        lede={`${n === 1 ? 'One town has' : `${n} towns have`} a page of its own for this job: its rules, its places and its ground.`}>
+        lede="Pick your town to see what it allows and what we build there.">
         Town by town, where the job changes.
       </ServiceHead>
       <ol class="svbt__ledger" role="list">
@@ -31,7 +31,6 @@ const n = pages.length;
                 <li>
                   <a class="svbt__town" href={p.path}>
                     <span class="svbt__tname">{p.town.name}</span>
-                    <span class="svbt__claim">{p.entry.data.h1}</span>
                     <span class="svbt__go" aria-hidden="true"><Icon name="arrow" /></span>
                   </a>
                 </li>

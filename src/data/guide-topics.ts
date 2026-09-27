@@ -41,7 +41,7 @@ export const GUIDE_TOPICS: GuideTopic[] = [
     paint: 'what a dog does to it',
     lede: 'Urine, odor, infill, digging and hot surfaces: how turf behaves under a dog, and what decides whether a pet area stays clean.',
     faqH2: 'Questions about dogs on turf.',
-    cta: { title: 'The dog knows the yard.', payoff: 'Show us where it runs.' },
+    cta: { title: 'Planning a dog-friendly yard?', payoff: 'Let’s walk it together.' },
   },
   {
     slug: 'weather',
@@ -53,7 +53,7 @@ export const GUIDE_TOPICS: GuideTopic[] = [
     paint: 'a Colorado sky',
     lede: 'Front Range weather is hard on anything left outside. These take it one part at a time: what hail and snow do to turf, how hot the surface gets, and what sun and wind wear down.',
     faqH2: 'Questions about turf in Colorado weather.',
-    cta: { title: 'The weather is the same next door.', payoff: 'The ground under it isn’t.' },
+    cta: { title: 'Want turf that lasts here?', payoff: 'Let’s walk your yard.' },
   },
   {
     slug: 'installation',
@@ -65,7 +65,7 @@ export const GUIDE_TOPICS: GuideTopic[] = [
     paint: 'the work under the turf',
     lede: 'What sits under the turf decides whether it stays flat and drains. The steps of an install, from taking out the lawn to the last pass of infill, and what each one is for.',
     faqH2: 'Questions about the install.',
-    cta: { title: 'The base decides it.', payoff: 'Let’s look at your ground.' },
+    cta: { title: 'Ready to see what your yard needs?', payoff: 'Book a yard walk.' },
   },
   {
     slug: 'products',
@@ -77,7 +77,7 @@ export const GUIDE_TOPICS: GuideTopic[] = [
     paint: 'each line of the sheet',
     lede: 'Face weight, pile height, yarn, backing, infill: what each line of a spec sheet measures, and which of them change how a yard looks, feels and wears.',
     faqH2: 'Questions about the spec sheet.',
-    cta: { title: 'The sheet is one part.', payoff: 'The yard decides the rest.' },
+    cta: { title: 'Not sure which turf fits?', payoff: 'We’ll help you choose.' },
   },
   {
     slug: 'care-and-repair',
@@ -101,7 +101,7 @@ export const GUIDE_TOPICS: GuideTopic[] = [
     paint: 'the grade under them',
     lede: 'A green rolls the way its base was shaped. Surface, speed, contours, cups, fringe and chipping, and how much room a green needs.',
     faqH2: 'Questions about putting greens.',
-    cta: { title: 'A green starts with the grade.', payoff: 'Walk the yard with us.' },
+    cta: { title: 'Want a green in your backyard?', payoff: 'Let’s find the spot.' },
   },
   {
     slug: 'safety',
@@ -113,7 +113,7 @@ export const GUIDE_TOPICS: GuideTopic[] = [
     paint: 'the standards and the law',
     lede: 'The questions parents ask about turf, answered from standards, public agencies and Colorado law: what it is made of, what goes under a swing set, and how hot it gets.',
     faqH2: 'Questions about kids, health and safety.',
-    cta: { title: 'Kids in the yard?', payoff: 'Ask it all at the yard walk.' },
+    cta: { title: 'Kids or pets in the yard?', payoff: 'Let’s talk it through.' },
   },
   {
     slug: 'comparisons',
@@ -137,7 +137,7 @@ export const GUIDE_TOPICS: GuideTopic[] = [
     paint: 'what a price is made of',
     lede: 'Two quotes for the same yard can differ for good reasons. What goes into a price, how to compare quotes line by line, and the questions to ask before you sign.',
     faqH2: 'Questions about cost and quotes.',
-    cta: { title: 'Compare quotes on the same yard.', payoff: 'Start with a yard walk.' },
+    cta: { title: 'Want a price for your yard?', payoff: 'Start with a yard walk.' },
   },
   {
     slug: 'rules-and-hoa',
@@ -149,7 +149,7 @@ export const GUIDE_TOPICS: GuideTopic[] = [
     paint: 'who decides',
     lede: 'Colorado law, town codes and HOA covenants each have a say. What they settle, what they leave open, and which office to ask about your own address.',
     faqH2: 'Questions about the rules.',
-    cta: { title: 'The rules are one part.', payoff: 'The yard is the other.' },
+    cta: { title: 'Not sure what your town or HOA allows?', payoff: 'We’ll check before we quote.' },
   },
   {
     slug: 'water',
@@ -161,7 +161,7 @@ export const GUIDE_TOPICS: GuideTopic[] = [
     paint: 'what it costs',
     lede: 'Gallons first, then dollars: how much a bluegrass lawn drinks on the Front Range, what that water is worth at your provider’s rates, the watering rules, and which rebates exist.',
     faqH2: 'Questions about water and rebates.',
-    cta: { title: 'Know what your lawn drinks?', payoff: 'Now price the yard.' },
+    cta: { title: 'Ready to stop watering the lawn?', payoff: 'Let’s price your yard.' },
   },
   {
     slug: 'commercial',
@@ -185,7 +185,7 @@ export const GUIDE_TOPICS: GuideTopic[] = [
     paint: 'the edges between',
     lede: 'Some parts of a yard suit turf and some don’t. Slopes, shade, narrow side yards, tree roots, pool decks and borders, and how turf meets plants, rock and concrete.',
     faqH2: 'Questions about where turf goes.',
-    cta: { title: 'Every yard has an awkward corner.', payoff: 'Show us yours.' },
+    cta: { title: 'Planning the whole backyard?', payoff: 'Let’s walk it together.' },
   },
 ];
 

@@ -81,7 +81,7 @@ const graph = [
 ];
 ---
 <Base title={t.title} description={t.description} crumbs={crumbs} graph={graph} draft={t.guides.some((g) => g.draft)}>
-  <PageHero label={`Guides · Topic ${pad(t.no)} of ${pad(topics.length)}`} crumbs={crumbs} compact lede={t.lede}>
+  <PageHero label={`Guides · ${t.name}`} crumbs={crumbs} compact lede={t.lede}>
     {h1 ? <>{h1[0]}<PaintWord now>{h1[1]}</PaintWord>{h1[2]}</> : t.h1}
     <div class="hrec" slot="after">
       <div class="hrec__row">
@@ -101,7 +101,7 @@ const graph = [
           <p class="label">{t.label} · the guides</p>
           <h2 id="gidx-h">{items.length === 1 ? <>One question, answered <PaintWord>up front.</PaintWord></> : <>{count} questions, each answered <PaintWord>up front.</PaintWord></>}</h2>
         </div>
-        <p class="lede">The short answer is printed here. Each guide’s page carries the working: the table, the rule or the rate, every source, and the date it was checked.</p>
+        <p class="lede">Each short answer is right here. Open a guide for the full explanation and its sources.</p>
       </header>
 
       <ol class="gidx__list" role="list">

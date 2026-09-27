@@ -1,8 +1,8 @@
 ---
 /**
- * /services/ — the index of the five previewable services, drawn as a site plan (ServicePlan) rather than
- * a card grid: one lot with the four home jobs laid out on it, an HOA common area across the street, and
- * a legend that is the real list of links. Then the guides every service page leans on, then the close.
+ * /services/ — the services hub, built to help a homeowner decide: every service as a card with a real photo,
+ * who artificial turf suits and when to think twice (SellDecide, the lawn record's decision data), the guides
+ * people read before they decide, how a job runs, and the form.
  * PREVIEW: every service is unconfirmed (services.ts), so the page carries the Draft ribbon.
  */
 import { getCollection } from 'astro:content';
@@ -12,26 +12,18 @@ import PaintWord from '../../components/PaintWord.astro';
 import Icon from '../../components/Icon.astro';
 import CtaBand from '../../components/CtaBand.astro';
 import ServiceHead from '../../components/ServiceHead.astro';
-import ServicePlan from '../../components/ServicePlan.astro';
+import SellTrust from '../../components/SellTrust.astro';
+import SellServices from '../../components/SellServices.astro';
+import SellDecide from '../../components/SellDecide.astro';
+import SellSteps from '../../components/SellSteps.astro';
+import { SERVICE_SELL } from '../../data/service-sell';
 import { visibleServices } from '../../data/services';
 import { SITE } from '../../data/site';
 import { isPublished } from '../../lib/content-policy.mjs';
 import { visibleGuides, guideLabel } from '../../lib/visible';
 import { phoneHref, phoneDisplay } from '../../data/brief';
-import { LIVE_LAYER_IDS } from '../../lib/layers';
 
 const entries = await getCollection('services');
-const liveIds = LIVE_LAYER_IDS;
-
-const items = visibleServices.map((s) => {
-  const d = entries.find((e) => e.data.slug === s.slug)?.data;
-  return {
-    slug: s.slug, name: s.name, short: s.short, underneath: s.underneath,
-    photos: d?.photos.length ?? 0,
-    rules: new Set((d?.layerRefs ?? []).filter((id) => liveIds.has(id))).size,
-    questions: d?.faq.length ?? 0,
-  };
-});
 /* "Read first": the rules, rebates and cost guides every service page leans on — at most six, however many
    guides the site grows to (the rest are a click away on /guides/). */
 const READ_FIRST = ['rules-and-hoa', 'water', 'buying'];
@@ -42,40 +34,36 @@ const graph = [{
   '@type': 'ItemList', '@id': `${SITE}/services/#list`, name: 'Services',
   itemListElement: visibleServices.map((s, i) => ({ '@type': 'ListItem', position: i + 1, name: s.name, url: `${SITE}/services/${s.slug}/` })),
 }];
+const general = SERVICE_SELL['artificial-turf-installation'];
 ---
 <Base
   title="Artificial Turf Services in Northern Colorado | NoCo Turf Co."
-  description="Artificial turf lawns, dog runs, putting greens, play areas and HOA or sports turf across Northern Colorado, each explained by what decides whether it lasts."
+  description="Artificial turf lawns, dog runs, putting greens, play areas and HOA turf across Northern Colorado. See what each involves, what it costs to get right, and book a yard walk."
   crumbs={crumbs}
   graph={graph}
   draft={draft}
 >
   <PageHero label="Services · Northern Colorado" crumbs={crumbs}
-    lede="Five kinds of turf job from Wellington to Longmont, Loveland to Eaton. Each page says what the job involves, what decides whether it lasts, and which Colorado and town rules touch it, with the source for every rule.">
-    A dog run isn't a putting green. <PaintWord now>The base knows the difference.</PaintWord>
+    lede="Lawns, dog runs, backyard putting greens, play areas and HOA or commercial turf, from Wellington to Longmont. Not sure which you need? Start with a yard walk.">
+    Artificial turf for <PaintWord now>every part of the yard.</PaintWord>
     <div slot="after" class="svx__cta">
-      <a class="btn btn--paint" href="#estimate" data-cta="services-hero-quote">Ask about your yard <Icon name="arrow" /></a>
+      <a class="btn btn--paint" href="#estimate" data-cta="services-hero-quote">Book a yard walk <Icon name="arrow" /></a>
       {phoneHref && <a class="btn btn--line" href={phoneHref} data-cta="services-hero-call"><Icon name="phone" />Call <span class="btn__num">{phoneDisplay}</span></a>}
     </div>
   </PageHero>
 
-  <!-- The index — "Do you do the specific thing I need?" -->
-  <section class="section svx" aria-labelledby="svx-h">
-    <div class="wrap">
-      <ServiceHead label="What we install" id="svx-h" split
-        lede="Find the job on the plan, then open its page. The paint line on each one is the layout: where the turf goes, and the edge it has to hold.">
-        Five jobs on one plan.
-      </ServiceHead>
-      <ServicePlan items={items} />
-    </div>
-  </section>
+  <SellTrust />
+
+  <SellServices heading="Pick the job, see what it takes." />
+
+  {general && <SellDecide s={general} name="Artificial turf" />}
 
   <!-- Read first — "Where do the rules come from?" -->
   {guides.length > 0 && (
     <section class="section section--tight ground-2 svx-read" aria-labelledby="svx-read-h">
       <div class="wrap svx-read__grid">
-        <ServiceHead label="Read first" id="svx-read-h" lede="Every service page leans on these. Each one keeps its sources and the date they were checked.">
-          The rules, rebates and costs, in depth.
+        <ServiceHead label="Before you decide" id="svx-read-h" lede="Rules, rebates and cost, explained plainly, with sources.">
+          The guides homeowners read first.
         </ServiceHead>
         <ul class="svx-read__list" role="list">
           {guides.map((g) => {
@@ -95,9 +83,10 @@ const graph = [{
     </section>
   )}
 
-  <!-- Close — "Fine — what happens if I ask?" -->
-  <CtaBand title="Start with the yard" payoff="you have."
-    lede="Not sure which of the five it is? Pick “Not sure yet” in the form. Three short parts, no account, no upload." />
+  <SellSteps />
+
+  <CtaBand title="Not sure what you need?" payoff="Start with a yard walk."
+    lede="Pick “Not sure yet” in the form and we’ll sort it out at the yard. Three short parts, no account, no upload." />
 </Base>
 
 <style>

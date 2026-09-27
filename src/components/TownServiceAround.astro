@@ -16,8 +16,8 @@ interface Head { label: string; title: string }
 interface Props { service: string; town: string; nearby: Link[]; others: Link[]; heads?: { nearby?: Head; others?: Head } }
 const { service, town, nearby, others, heads = {} } = Astro.props;
 const cols = [
-  nearby.length ? { id: 'around-near', ...(heads.nearby ?? { label: 'One town over', title: `${service} in the next towns.` }), links: nearby } : null,
-  others.length ? { id: 'around-town', ...(heads.others ?? { label: `More in ${town}`, title: `The rest of the work in ${town}.` }), links: others } : null,
+  nearby.length ? { id: 'around-near', ...(heads.nearby ?? { label: 'Nearby', title: `${service} in nearby towns.` }), links: nearby } : null,
+  others.length ? { id: 'around-town', ...(heads.others ?? { label: `More in ${town}`, title: `More we build in ${town}.` }), links: others } : null,
 ].filter((c): c is NonNullable<typeof c> => c !== null);
 ---
 {cols.length > 0 && (
@@ -35,7 +35,7 @@ const cols = [
                     <span class="tsvaround__name">{l.name}</span>
                     {l.meta && <span class="tsvaround__meta num">{l.meta}</span>}
                   </span>
-                  <span class="tsvaround__line">{l.line}</span>
+                  {l.line && <span class="tsvaround__line">{l.line}</span>}
                   <span class="tsvaround__go" aria-hidden="true"><Icon name="arrow" /></span>
                 </a>
               </li>

@@ -68,8 +68,10 @@ const dsp = d.display ?? {};
 const cfg = {
   crumb: smart(dsp.crumb ?? guideLabel(d.title)),
   paint: dsp.paint ? smart(dsp.paint) : undefined,
-  faqH2: smart(dsp.faqH2 ?? topic.faqH2),
-  cta: { title: smart(dsp.cta?.title ?? topic.cta.title), payoff: smart(dsp.cta?.payoff ?? topic.cta.payoff), lede: dsp.cta?.lede ? smart(dsp.cta.lede) : undefined },
+  /* FAQ heading and closing band: the topic's plain wording on every guide (Ty, 2026-09-27: copy that helps a
+     homeowner decide, not clever lines), so a guide's own display.faqH2 / display.cta are no longer printed. */
+  faqH2: topic.faqH2,
+  cta: { title: topic.cta.title, payoff: topic.cta.payoff, lede: 'Tell us about the yard and how to reach you. Three short parts, no account, no upload.' },
 };
 
 /* Where it sits: its topic, its number in the topic, the guides either side. */
@@ -202,7 +204,7 @@ const graph = [article, ...(dataset ? [dataset] : []), ...faqGraph(faq)];
 
         <section class="gpart" id="related" aria-labelledby="related-h">
           <p class="label">Related</p>
-          <h2 id="related-h" class="gpart__h">The services, towns and guides this one touches.</h2>
+          <h2 id="related-h" class="gpart__h">Related services, towns and guides.</h2>
           <div class="grel">
             {services.length > 0 && (
               <div class="grel__col">
@@ -246,7 +248,7 @@ const graph = [article, ...(dataset ? [dataset] : []), ...faqGraph(faq)];
 
         <section class="gpart gpart--src" id="sources" aria-labelledby="sources-h">
           <p class="label">Receipts</p>
-          <h2 id="sources-h" class="gpart__h">Every source, with the date it was checked.</h2>
+          <h2 id="sources-h" class="gpart__h">Sources, with the date each was checked.</h2>
           <p class="gpart__lede">{legal && <strong>Not legal advice. </strong>}This page reflects its sources as they read on {long(d.updated)}. Rules, rates and programs change; each link goes to the public source it came from.</p>
           <Sources sources={d.sources} title="Show every source" />
         </section>
