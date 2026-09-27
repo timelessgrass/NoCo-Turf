@@ -40,6 +40,8 @@
   --paint-rgb: 71 150 13;
   --paint: rgb(var(--paint-rgb));
   --paint-press: color-mix(in oklab, var(--paint) 86%, black);
+  /* The same green, deep enough for small text on the light ground (5.3:1). Marks and fills keep --paint. */
+  --paint-ink: #2a6e0a;
 
   --font-display: 'Archivo Variable', 'Archivo', ui-sans-serif, system-ui, sans-serif;
   --font-body: 'Public Sans Variable', 'Public Sans', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
