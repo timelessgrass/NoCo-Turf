@@ -22,7 +22,9 @@ faq:
   - q: "Can my HOA ban artificial turf in my front yard?"
     a: "Very likely. The statute's only express limit on an HOA's design rules for turf is that they may not prohibit it in the backyard, so front yards are not protected. Colorado law does require each HOA to preapprove at least 3 water-wise garden designs for front yards, but those are planting designs, not a right to turf."
   - q: "Does the law cover townhomes?"
-    a: "Partly. For an attached home that shares one or more walls, Colorado law lets the HOA restrict artificial turf to rear yard locations only."
+    a: "Partly. For an attached home that shares a wall, Colorado law lets the HOA limit artificial turf to rear yards. Whether the patch behind your unit is your lot or common ground depends on your plat and declaration; if it's common or limited common element, the association decides what goes there. In Loveland, the city says its 2026 turf rule doesn't reach private lots in duplex, condo and townhome developments."
+  - q: "We bought a house with turf the previous owner put in without approval. Can the HOA make us take it out?"
+    a: "Not from the backyard of a detached home: Colorado law makes an HOA rule that bans backyard turf unenforceable, and if an HOA knowingly breaks these protections you give written notice and 45 days to fix it before you can sue. Front yards and attached homes are different, and there the HOA's rules can still apply. In Firestone, also ask the Town whether a turf permit was issued. This is general information, not legal advice."
   - q: "What if my HOA refuses anyway?"
     a: "The law asks you to send written notice first and allow 45 days to cure. If the HOA knowingly violated these protections, you may then sue for up to $500 or your actual damages, whichever is greater. Talk to a Colorado attorney before you do either."
   - q: "Can my HOA put artificial turf in the common areas?"
@@ -30,6 +32,8 @@ faq:
   - q: "Who can answer questions about my rights in an HOA?"
     a: "The Colorado Division of Real Estate runs an HOA Information and Resource Center for homeowners' basic rights under the Colorado Common Interest Ownership Act. For a dispute, talk to a Colorado attorney."
 layerRefs:
+  - timnath-co.timnath-ranch-review-fee
+  - loveland-ord-6819-sb24-005
   - co-hoa-backyard-detached
   - co-hoa-front-yard-designs
   - co-hoa-remedy-notice
@@ -45,6 +49,12 @@ layerRefs:
   - firestone-fdc-16.6.4-permit
   - cgs-landscaping-near-foundations
 sources:
+  - label: "Timnath Ranch Metropolitan District, Architectural Review"
+    url: "https://www.timnathranchmd.live/architectural-review"
+    checked: "2026-09-25"
+  - label: "City of Loveland, Landscape Changes project page (Ordinance 6819)"
+    url: "https://www.letstalkloveland.org/landscape-changes"
+    checked: "2026-09-25"
   - label: "SB23-178 signed act: C.R.S. 38-33.3-106.5(1)(i) and (i.5), and 37-60-126(11)(a.5)"
     url: "https://leg.colorado.gov/bill_files/92307/download"
     checked: "2026-09-24"
@@ -108,6 +118,12 @@ It depends on where the turf goes and what kind of home you own.
 - **Its own process:** the application form, what it asks you to submit, and its review timeline.
 
 Common areas are different. Since January 1, 2026, a local government may not install or allow nonfunctional artificial turf on HOA common property in new development or redevelopment ([SB24-005](https://leg.colorado.gov/bill_files/45372/download), as amended by [HB25-1113](https://leg.colorado.gov/bill_files/40673/download)). State law still allows functional turf, such as a playground, sports field or putting and chipping green, though it lets a town be stricter. A town may also let turf installed before 2026 be maintained.
+
+## Does a metro district review turf too?
+
+Often. Many newer Northern Colorado neighborhoods are run by a metro district, alone or alongside an HOA, and some districts review yard plans the way an HOA does. Timnath Ranch's district, for example, charges a $150 fee to review a landscape application ([Timnath Ranch Metropolitan District](https://www.timnathranchmd.live/architectural-review)).
+
+The backyard protection reaches districts too: Colorado law makes a special district's rule that prohibits artificial turf in a backyard unenforceable, except on attached homes. Submit to the district the same way you would to an HOA, with the same packet.
 
 ## What goes in an ARC packet for artificial turf?
 

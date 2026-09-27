@@ -14,7 +14,7 @@ faq:
   - q: "What counts as functional artificial turf?"
     a: "Artificial turf located in a recreational use area or other space regularly used for civic, community or recreational purposes. Colorado's 2025 definition names playgrounds, sports fields, picnic grounds, amphitheaters, portions of parks and golf playing areas such as putting and chipping greens. Artificial turf that isn't functional is nonfunctional."
   - q: "Do we have to remove turf we already have?"
-    a: "No. Colorado's turf law does not stop a local government from letting turf installed before January 1, 2026 be maintained. Whether a full replacement counts as maintenance hasn't been tested, so ask the town before you plan one."
+    a: "No. Colorado's turf law lets a local government allow turf installed before January 1, 2026 to be maintained, and Wellington's code says so outright. Whether a full replacement counts as maintenance hasn't been tested, so ask the town first, and photograph and date the existing turf before any work. Replacement turf must be free of intentionally added PFAS."
   - q: "What counts as redevelopment under the turf law?"
     a: "A construction project that needs a building or landscaping permit, plan check or design review and disturbs more than 50% of the landscape area. Read your town's code as well, because some town rules are stricter than the state's."
   - q: "Does the ban apply to metro districts?"

@@ -21,7 +21,10 @@ faq:
     a: "Not in the backyard of a detached single-family home. Colorado law says an HOA's landscaping rules may not prohibit artificial turf there, although the HOA can still adopt design and aesthetic guidelines."
   - q: "Is the turf itself regulated for chemicals in Colorado?"
     a: "For PFAS, yes. Since January 1, 2026, Colorado law bars anyone from installing artificial turf that contains intentionally added PFAS chemicals anywhere in the state. Ask for the documentation for the turf and the pad before you sign."
+  - q: "Does padded turf meet Colorado child care licensing rules?"
+    a: "Colorado's family child care home rules list artificial turf with a built-in resilient pad as an approved surface under climbing and sliding equipment 18 inches or higher, and ask for the maker's written statement that new surfacing meets current federal requirements. Centers and schools have their own rules, so check with your licensing specialist before you build."
 layerRefs:
+  - co-ccr-1402-1-2.337-resilient-surfacing
   - co-sb24-005-nonfunctional-ban
   - co-sb24-005-applicable-property
   - co-hb25-1113-functional-turf
@@ -35,6 +38,9 @@ layerRefs:
   - co-sb24-081-pfas-turf
   - cgs-landscaping-near-foundations
 sources:
+  - label: "8 CCR 1402-1, Rule 2.337: Outdoor play space and equipment (family child care homes)"
+    url: "https://www.law.cornell.edu/regulations/colorado/8-CCR-1402-1-2.337"
+    checked: "2026-09-26"
   - label: "HB25-1113 signed act: C.R.S. 37-99-102(6.5) and 37-99-103(1), SB24-005 as amended"
     url: "https://leg.colorado.gov/bill_files/40673/download"
     checked: "2026-09-24"
