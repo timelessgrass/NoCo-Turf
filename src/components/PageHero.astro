@@ -32,7 +32,7 @@ const { label, crumbs, photo, lede, compact = false, caption = true } = Astro.pr
     </div>
     {photo && (
       <figure class="ph__fig develop">
-        <Photo photo={photo} eager sizes="(max-width: 899px) 100vw, 48vw" widths={[640, 960, 1280, 1600]} />
+        <div class="ph__frame drift"><Photo photo={photo} eager sizes="(max-width: 899px) 100vw, 48vw" widths={[640, 960, 1280, 1600]} /></div>
         {caption && photo.caption && <figcaption><span>{photo.caption}</span><span class="ph__rec">{photo.place}</span></figcaption>}
       </figure>
     )}
@@ -49,7 +49,8 @@ const { label, crumbs, photo, lede, compact = false, caption = true } = Astro.pr
   .ph--compact .ph__h1 { font-size: clamp(2.05rem, 1.3rem + 2.5vw, 3.7rem); max-width: 19ch; }
   .ph__lede { margin-top: 22px; max-width: 52ch; }
   .ph__fig { margin: 0; }
-  .ph__fig :global(img) { width: 100%; aspect-ratio: 4 / 3.3; object-fit: cover; border-radius: var(--r-photo); }
+  .ph__frame { overflow: hidden; border-radius: var(--r-photo); }
+  .ph__fig :global(img) { display: block; width: 100%; aspect-ratio: 4 / 3.3; object-fit: cover; }
   .ph__fig figcaption { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; padding-top: 10px; font-size: var(--fs-small); font-weight: 600; }
   .ph__rec { font-weight: 400; color: var(--ink-3); }
   .ph__rec::first-letter { text-transform: uppercase; }

@@ -37,9 +37,9 @@ const noun = NOUN[name] ?? name.toLowerCase();
     <header class="dc__head">
       <h2 id="expect-h">What it’s like to live with.</h2>
     </header>
-    <ul class="dc__expect" role="list">
+    <ul class="dc__expect stagger" role="list">
       {s.expect.map((e) => (
-        <li class="rise">
+        <li>
           <h3>{e.h}</h3>
           <p>{e.p}</p>
           <a href={e.href}>Read more <Icon name="arrow" size={15} /></a>

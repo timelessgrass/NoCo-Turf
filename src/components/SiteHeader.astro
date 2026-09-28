@@ -33,7 +33,6 @@ const name = businessName ?? 'NoCo Turf Co.';
     <a class="brand" href="/" aria-label={`${name} — home`}>
       <Image class="brand__logo brand__logo--ink" src={logo} alt="" width={220} loading="eager" />
       <Image class="brand__logo brand__logo--bone" src={logoLight} alt="" width={220} loading="eager" />
-      <span class="brand__word" aria-hidden="true">NoCo Turf<span class="brand__co"> Co.</span></span>
     </a>
 
     <nav class="nav" aria-label="Main">
@@ -103,7 +102,7 @@ const name = businessName ?? 'NoCo Turf Co.';
 
 <dialog class="sheet" data-sheet aria-label="Menu">
   <div class="sheet__top wrap">
-    <a class="brand" href="/" aria-label={`${name} — home`}><Image class="brand__logo brand__logo--ink" src={logo} alt="" width={220} /><span class="brand__word" aria-hidden="true">NoCo Turf<span class="brand__co"> Co.</span></span></a>
+    <a class="brand" href="/" aria-label={`${name} — home`}><Image class="brand__logo brand__logo--ink" src={logo} alt="" width={220} /></a>
     <button class="sheet__close" type="button" data-menu-close aria-label="Close menu"><Icon name="close" size={24} /></button>
   </div>
   <nav class="sheet__nav wrap" aria-label="Menu">
@@ -133,10 +132,9 @@ const name = businessName ?? 'NoCo Turf Co.';
 
   .brand { display: inline-flex; align-items: center; gap: 8px; text-decoration: none; flex: none; }
   /* Brian's logo (src/assets/brand): black line work on light ground, bone line work over the home photo. */
-  .brand :global(.brand__logo) { display: block; height: calc(var(--header-h) - 14px); width: auto; }
+  /* The logo carries the name, so it stands alone and a little larger (the link's aria-label names the business). */
+  .brand :global(.brand__logo) { display: block; height: calc(var(--header-h) - 6px); width: auto; }
   /* The logo's own lettering is too small to read at header size, so the name sits beside the badge. */
-  .brand__word { font-family: var(--font-display); font-weight: 830; font-stretch: 116%; font-size: 1.2rem; letter-spacing: -0.035em; line-height: 1; white-space: nowrap; }
-  .brand__co { font-weight: 500; font-stretch: 100%; opacity: 0.7; }
   .brand :global(.brand__logo--bone) { display: none; }
   .hdr[data-tone='photo']:not([data-scrolled]):not([data-open]) .brand :global(.brand__logo--ink) { display: none; }
   .hdr[data-tone='photo']:not([data-scrolled]):not([data-open]) .brand :global(.brand__logo--bone) { display: block; }
@@ -185,8 +183,8 @@ const name = businessName ?? 'NoCo Turf Co.';
   .hdr__tel-word { display: none; }
   /* Phones and tablets: one-tap call as a labelled pill that never shrinks below 44px. */
   @media (max-width: 1099px) { .hdr__tel-num { display: none; } .hdr__tel-word { display: inline; } .hdr__tel { flex: none; min-width: 44px; padding: 0 16px 0 14px; } }
-  /* Narrow phones: the bottom bar already carries a labelled Call button, so the header keeps a round 44px icon. */
-  @media (max-width: 439px) { .hdr__tel-word { display: none; } .hdr__tel { width: 44px; padding: 0; justify-content: center; } }
+  /* Phones: the fixed bottom bar (ActionBar, same 899px breakpoint) carries Call, so the header drops it. */
+  @media (max-width: 899px) { .hdr__tel { display: none; } }
   @media (max-width: 899px) {
     .nav, .hdr__cta { display: none; }
     .hdr__menu { display: inline-flex; }

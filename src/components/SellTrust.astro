@@ -11,7 +11,7 @@ interface Props { town?: string }
 const { town } = Astro.props;
 ---
 <section class="tr" aria-label="Why NoCo Turf Co.">
-  <ul class="wrap tr__list" role="list">
+  <ul class="wrap tr__list stagger" role="list">
     {GOOGLE_URL && (
       <li class="tr__item tr__item--star">
         <a class="tr__link" href={GOOGLE_URL} rel="noopener" data-cta="trust-google">

@@ -20,9 +20,9 @@ const STEPS = [
     <header class="st__head">
       <h2 id={`${id}-h`}>How it works.</h2>
     </header>
-    <ol class="st__list" role="list">
+    <ol class="st__list stagger" role="list">
       {STEPS.map((s, i) => (
-        <li class="st__step rise">
+        <li class="st__step">
           <span class="st__no num" aria-hidden="true">{i + 1}</span>
           <h3>{s.h}</h3>
           <p>{s.p}</p>
@@ -38,7 +38,20 @@ const STEPS = [
   .st__head .label { margin: 0; }
   .st__head h2 { font-size: clamp(2rem, 1.25rem + 2.8vw, 3.4rem); }
   .st__list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(16px, 2vw, 28px); counter-reset: step; }
-  .st__step { display: grid; gap: 10px; align-content: start; padding-top: 18px; border-top: 2px solid var(--ink); }
+  .st__step { position: relative; display: grid; gap: 10px; align-content: start; padding-top: 18px; border-top: 2px solid var(--ink); }
+  /* The finished state: a green line over each step's rule. Where scroll timelines run, it draws across the four
+     steps in order as the section comes up. */
+  .st__step::before { content: ''; position: absolute; left: 0; right: 0; top: -2px; height: 2px; background: var(--paint); transform-origin: left center; }
+  @media (prefers-reduced-motion: no-preference) {
+    @supports (animation-timeline: view()) {
+      .st__list { view-timeline: --st; }
+      @keyframes st-fill { from { scale: 0 1; } to { scale: 1 1; } }
+      .st__step::before { animation: st-fill linear both; animation-timeline: --st; animation-range: entry 40% cover 38%; }
+      .st__step:nth-child(2)::before { animation-range: cover 30% cover 44%; }
+      .st__step:nth-child(3)::before { animation-range: cover 36% cover 50%; }
+      .st__step:nth-child(4)::before { animation-range: cover 42% cover 56%; }
+    }
+  }
   .st__no { display: grid; place-items: center; width: 40px; height: 40px; border-radius: 50%; background: var(--paint); color: var(--ink); font-family: var(--font-display); font-weight: 800; font-size: 1.1rem; }
   .st__step h3 { margin: 6px 0 0; font-size: 1.28rem; letter-spacing: -0.015em; }
   .st__step p { margin: 0; color: var(--ink-2); line-height: 1.5; }

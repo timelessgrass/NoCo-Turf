@@ -32,10 +32,10 @@ const cards = visibleServices.map((s) => {
     <header class="sv__head">
       <h2 id={`${id}-h`}>{heading ?? (town ? `What we build in ${town}.` : 'What we build.')}</h2>
     </header>
-    <ul class="sv__grid" role="list">
+    <ul class="sv__grid stagger" role="list">
       {cards.map((c) => (
         <li>
-          <a class="sv__card rise" href={c.href}>
+          <a class="sv__card" href={c.href}>
             <span class="sv__img">{c.ph ? <Photo photo={c.ph} sizes="(max-width: 699px) 90vw, (max-width: 1099px) 45vw, 22vw" widths={[480, 800]} /> : <span class="sv__word" aria-hidden="true">{WORD[c.slug] ?? c.name}</span>}</span>
             <span class="sv__body">
               <strong class="sv__name">{c.name}</strong>
