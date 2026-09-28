@@ -48,7 +48,7 @@ const crumbs = [{ name: 'Areas', path: '/areas/' }];
         <a class="btn btn--paint" href="#regions" data-cta="areas-hero-find">Find your town <Icon name="arrow-down" /></a>
         {phoneHref && <a class="btn btn--line" href={phoneHref} data-cta="areas-hero-call"><Icon name="phone" />Call <span class="btn__num">{phoneDisplay}</span></a>}
       </div>
-      <p class="hub__edge" data-boundary><Icon name="pin" size={18} /><span>NoCo Turf Co. works north of the Denver metro.</span></p>
+      <p class="hub__edge" data-boundary><Icon name="pin" size={18} /><span>We work north of the Denver metro.</span></p>
     </div>
   </PageHero>
 
@@ -58,10 +58,9 @@ const crumbs = [{ name: 'Areas', path: '/areas/' }];
     <div class="wrap">
       <header class="hub__head hub__head--split">
         <div>
-          <p class="label">The corridor</p>
           <h2 id="map-h">Wellington to <PaintWord>Dacono.</PaintWord></h2>
         </div>
-        <p class="lede">Point at your town on the map, or pick it from the list below.</p>
+        <p class="lede">Tap your town on the map, or find it in the list below.</p>
       </header>
       <CorridorMap towns={towns} boundaryLabel={false} />
     </div>
@@ -70,7 +69,6 @@ const crumbs = [{ name: 'Areas', path: '/areas/' }];
   <section class="section ground-2 hub__regions" id="regions" aria-labelledby="regions-h">
     <div class="wrap">
       <header class="hub__head">
-        <p class="label">Find your town</p>
         <h2 id="regions-h">Pick your area, then your town.</h2>
               </header>
       <ol class="hub__ledger" role="list">

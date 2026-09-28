@@ -16,7 +16,9 @@ import Faq from '../components/Faq.astro';
 import EstimateForm from '../components/EstimateForm.astro';
 import CoCrewClip from '../components/CoCrewClip.astro';
 import SellTrust from '../components/SellTrust.astro';
+import Reviews from '../components/Reviews.astro';
 import { photo } from '../data/photos';
+import { scene, SERVICE_SCENE } from '../data/scenes';
 import { visibleServices } from '../data/services';
 import { visibleTowns } from '../lib/visible';
 import { faqGraph } from '../lib/schema';
@@ -27,29 +29,29 @@ const reel = ['dusk', 'boulders', 'playset', 'fenced-yard', 'side-yard', 'rock-b
 const crew = photo('crew');
 const towns = await visibleTowns();
 const years = fact<number>(brief.identity?.founder_experience_years);
-const svcPhoto = (id: string | null) => (id ? photo(id) : null);
+const svcPhoto = (id: string | null, slug: string) => (id ? photo(id) : SERVICE_SCENE[slug] ? scene(SERVICE_SCENE[slug]) : null);
 
 const faq = [
   { q: 'Can my HOA stop me from putting turf in my backyard?',
-    a: 'Not behind a detached single-family home. Colorado law says an HOA’s landscaping rules may not prohibit artificial turf in that backyard, though the HOA can still adopt design guidelines. Front yards aren’t covered, and on attached homes such as townhomes the HOA may limit turf to rear yards.',
+    a: 'Not behind a detached house. Colorado law says an HOA can’t ban artificial turf in your backyard, though it can still set design rules. Front yards aren’t covered, and a townhome HOA can limit turf to the back.',
     href: '/guides/hoa-turf-approval/', hrefLabel: 'How HOA approval works' },
   { q: 'Is artificial turf banned in Colorado now?',
-    a: 'Not on your house lot. Since January 1, 2026, Colorado cities, towns and special districts may not allow nonfunctional artificial turf in new development or redevelopment on commercial, institutional and industrial property, HOA common areas and street rights-of-way. Single-family lots aren’t covered, functional turf such as playgrounds, sports fields and putting greens stays allowed, and some towns set their own rules.',
+    a: 'Not on your own lot. Since January 1, 2026, Colorado keeps purely decorative turf out of new commercial, HOA common-area and street landscaping. House lots aren’t covered, and play areas, sports fields and putting greens are still allowed. Some towns add their own rules, and we check yours before we quote.',
     href: '/guides/turf-rules-northern-colorado/', hrefLabel: 'Turf rules, town by town' },
   { q: 'Will my water provider give me a rebate for artificial turf?',
-    a: 'No. None of the Northern Colorado water-provider programs checked in September 2026 pays for artificial turf, and state turf-replacement grant money can’t be used for it. A planted bed in the same project may still qualify for a plant-based rebate.',
+    a: 'No. None of the Northern Colorado water rebates we checked in September 2026 pays for artificial turf, and state grant money can’t be used for it either. A planted bed in the same project may still qualify for a plant rebate.',
     href: '/guides/turf-rebates-northern-colorado/', hrefLabel: 'Every provider’s program' },
   { q: 'Can artificial turf in Colorado contain PFAS?',
-    a: 'Not if it’s installed now. Since January 1, 2026, Colorado law bars anyone from installing artificial turf that contains intentionally added PFAS chemicals. Ask any installer for the product’s documentation.',
+    a: 'Not if it’s installed now. Since January 1, 2026, Colorado bans installing turf with PFAS chemicals added on purpose. Ask any installer for the product’s paperwork.',
     href: '/guides/turf-rules-northern-colorado/', hrefLabel: 'What Colorado law says' },
   { q: 'How much water does replacing a lawn save?',
-    a: 'About 14,961 gallons a year for every 1,000 square feet of Kentucky bluegrass, based on CSU Extension’s 24 inches of supplemental irrigation a year on the Front Range. What that water is worth depends on your provider and your rate tier.',
+    a: 'About 15,000 gallons a year for every 1,000 square feet of bluegrass, based on CSU Extension’s watering figures for the Front Range. What that’s worth depends on your water provider and your rates.',
     href: '/guides/water-savings/', hrefLabel: 'Savings by water provider' },
 ];
 ---
 <Base
   title="NoCo Turf Co. — Artificial Turf & Putting Greens in Northern Colorado"
-  description="Artificial lawns, dog runs, putting greens and play yards from Wellington to Longmont. Real job photos, town-by-town turf rules, and a yard walk to start."
+  description="Artificial turf lawns, backyard putting greens and dog runs from Wellington to Longmont. We check your town and HOA rules first. Book a yard walk or call."
   tone="photo"
   graph={faqGraph(faq)}
 >
@@ -59,9 +61,9 @@ const faq = [
       <Photo photo={hero} eager sizes="(max-width: 899px) 75vw, 100vw" class="hero__img" vt="hero-photo" widths={[640, 960, 1280, 1600, 1920]} quality={58} />
     </div>
     <div class="hero__body wrap">
-      <p class="label hero__kicker">Artificial turf &amp; putting greens · Northern Colorado</p>
-      <h1 id="hero-h">Turf and putting greens, <PaintWord now>built right.</PaintWord></h1>
-      <p class="lede hero__lede">Custom lawns, backyard putting greens and dog-friendly yards from Wellington to Longmont, designed around your yard, your HOA’s rules and the clay underneath. No mowing, no watering, no mud.</p>
+      <p class="label hero__kicker">Based in Windsor · Wellington to Longmont</p>
+      <h1 id="hero-h">Artificial turf and putting greens for <PaintWord now>Northern Colorado.</PaintWord></h1>
+      <p class="lede hero__lede">We build turf lawns, backyard putting greens and dog runs from Wellington to Longmont. No more mowing, watering or mud.</p>
       <div class="hero__cta">
         <a class="btn btn--paint" href="#estimate" data-cta="hero-quote">Book a yard walk <Icon name="arrow" /></a>
         {phoneHref && <a class="btn btn--line" href={phoneHref} data-cta="hero-call"><Icon name="phone" />Call <span class="btn__num">{phoneDisplay}</span></a>}
@@ -81,14 +83,13 @@ const faq = [
   <section class="section svc" aria-labelledby="svc-h">
     <div class="wrap">
       <header class="shead">
-        <p class="label">What we build</p>
-        <h2 id="svc-h">Lawns, greens and dog yards <PaintWord>that stay put.</PaintWord></h2>
-        <p class="lede">Turf is only as good as what’s under it. The base changes with the job: drainage for dogs, a true roll for putting, a firm, flat lawn on Northern Colorado clay.</p>
+        <h2 id="svc-h">What we <PaintWord>build.</PaintWord></h2>
+        <p class="lede">We build the base for what the turf has to do. Dog runs need to drain, greens need a smooth roll, and every lawn has to stay flat on our clay.</p>
       </header>
       <ol class="sched" role="list">
         <li class="sched__head" aria-hidden="true"><span></span><span class="label">Service</span><span class="label">What you get</span><span></span></li>
         {visibleServices.map((s, i) => {
-          const ph = svcPhoto(s.photo);
+          const ph = svcPhoto(s.photo, s.slug);
           return (
             <li>
               <a class="sched__row rise" href={`/services/${s.slug}/`}>
@@ -111,26 +112,28 @@ const faq = [
     <div class="wrap">
       <header class="shead shead--split">
         <div>
-          <p class="label">Recent work</p>
           <h2 id="work-h">Yards <PaintWord>we’ve built.</PaintWord></h2>
         </div>
-        <p class="lede">Recent lawns, putting greens and side yards around Windsor, Berthoud and Greeley.</p>
+        <p class="lede">A few recent lawns and putting greens around Windsor, Berthoud and Greeley.</p>
       </header>
       <WorkReel photos={reel} />
-      <p class="work__all"><a class="btn btn--ink" href="/work/">All the work <Icon name="arrow" /></a></p>
+      <p class="work__all"><a class="btn btn--ink" href="/work/">See more of our work <Icon name="arrow" /></a></p>
     </div>
   </section>
+
+  <!-- 4b · In their words — short Google reviews, signed and linked. -->
+  <Reviews />
 
   <!-- 6 · Who — "Who is standing in my yard?" -->
   <section class="section crew" aria-labelledby="crew-h">
     <div class="wrap crew__grid">
       <CoCrewClip label="On the job" sizes="(max-width: 899px) 90vw, 36vw" class="crew__clip" />
       <div class="crew__copy">
-        <p class="label">The owner</p>
-        <h2 id="crew-h">Owner-led, <PaintWord>start to finish.</PaintWord></h2>
-        <p class="crew__lead">Brian Richmond has been installing artificial turf for {years ?? 13} years. He started NoCo Turf Co. in Windsor in 2024 to build yards his way: lawns, putting greens, dog runs, play yards, anything that’s turf.</p>
-        <p class="crew__cap">The last step on a new lawn: brushing in the infill so the blades stand up and the turf looks like grass.</p>
-        <a class="btn btn--line" href="/about/">Meet Brian <Icon name="arrow" /></a>
+        <h2 id="crew-h">Meet the <PaintWord>owner.</PaintWord></h2>
+        <p class="crew__lead">I’ve been installing artificial turf for {years ?? 13} years. I started NoCo Turf Co. in Windsor in 2024 to build yards my way: lawns, putting greens, dog runs, play areas, anything that’s turf.</p>
+        <p class="crew__sig">Brian Richmond, owner</p>
+        <p class="crew__cap">In the video: the last step on a new lawn. We brush the infill in so the blades stand up.</p>
+        <a class="btn btn--line" href="/about/">More about us <Icon name="arrow" /></a>
       </div>
     </div>
   </section>
@@ -143,10 +146,9 @@ const faq = [
     <div class="wrap">
       <header class="shead shead--split">
         <div>
-          <p class="label">Where we work</p>
           <h2 id="areas-h">Wellington to <PaintWord>Longmont.</PaintWord></h2>
         </div>
-        <p class="lede">Seventeen towns on the I-25 corridor. We know each town’s turf rules before we quote, so there are no surprises at the permit counter or with the HOA.</p>
+        <p class="lede">We work in seventeen towns along I-25. We check each town’s turf rules before we quote, so there are no surprises from the town or your HOA.</p>
       </header>
       <CorridorMap towns={towns} />
     </div>
@@ -156,7 +158,6 @@ const faq = [
   <section class="section ground-2" aria-labelledby="faq-h">
     <div class="wrap faqwrap">
       <header class="shead">
-        <p class="label">Questions</p>
         <h2 id="faq-h">What homeowners ask us first.</h2>
         <p class="lede">Short answers to the questions we hear most.</p>
       </header>
@@ -189,9 +190,10 @@ const faq = [
       linear-gradient(100deg, rgb(19 18 15 / 0.7) 0%, rgb(19 18 15 / 0.1) 58%, transparent 80%); }
   .hero__body { padding-block: calc(var(--header-h) + 48px) clamp(40px, 7vh, 88px); }
   .hero__kicker { color: var(--bone-2); margin-bottom: 18px; }
-  .hero h1 { max-width: 11.5ch; color: var(--bone); }
+  .hero h1 { max-width: 13.5ch; color: var(--bone); font-size: clamp(2.6rem, 1.2rem + 5.4vw, 6.3rem); }
   .hero__lede { margin-top: 22px; color: var(--bone-2); max-width: 44ch; }
   .hero__cta { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
+  @media (max-width: 599px) { .hero__cta .btn { width: 100%; } }
   .hero__cta .btn--line { color: var(--bone); }
   .hero__sheet { position: absolute; right: var(--gutter); bottom: clamp(40px, 7vh, 88px); width: 260px; padding: 14px 16px; border-radius: var(--r-control);
     background: rgb(19 18 15 / 0.55); box-shadow: inset 0 0 0 1px var(--bone-line); }
@@ -262,6 +264,7 @@ const faq = [
   .crew__copy h2 { margin: 14px 0 26px; max-width: 13ch; }
   .crew__copy > p { color: var(--ink-2); max-width: 52ch; }
   .crew__lead { font-size: var(--fs-lede); line-height: 1.5; color: var(--ink) !important; margin: 0 0 18px; }
+  .crew__sig { margin: 0 0 22px; font-family: var(--font-display); font-weight: 700; color: var(--ink) !important; }
   .crew__cap { font-size: var(--fs-small); color: var(--ink-3) !important; margin: 0 0 26px; }
   @media (max-width: 899px) { .crew__grid { grid-template-columns: 1fr; } .crew__clip { max-width: 420px; } }
 

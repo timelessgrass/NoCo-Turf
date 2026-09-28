@@ -8,7 +8,7 @@
  */
 import Crumbs from './Crumbs.astro';
 import Photo from './Photo.astro';
-import { monthLabel, type Photo as P } from '../data/photos';
+type P = { src: ImageMetadata; alt: string; focus?: string; caption?: string; place?: string };
 
 interface Props {
   label: string;
@@ -16,8 +16,10 @@ interface Props {
   photo?: P | null;
   lede?: string;
   compact?: boolean;
+  /** false hides the photo's record line: a scene, or a job photo taken somewhere other than this page's place */
+  caption?: boolean;
 }
-const { label, crumbs, photo, lede, compact = false } = Astro.props;
+const { label, crumbs, photo, lede, compact = false, caption = true } = Astro.props;
 ---
 <section class:list={['ph', { 'ph--photo': photo, 'ph--compact': compact }]}>
   <div class="wrap ph__grid">
@@ -31,7 +33,7 @@ const { label, crumbs, photo, lede, compact = false } = Astro.props;
     {photo && (
       <figure class="ph__fig develop">
         <Photo photo={photo} eager sizes="(max-width: 899px) 100vw, 48vw" widths={[640, 960, 1280, 1600]} />
-        <figcaption><span>{photo.caption}</span><span class="ph__rec">{photo.place}</span></figcaption>
+        {caption && photo.caption && <figcaption><span>{photo.caption}</span><span class="ph__rec">{photo.place}</span></figcaption>}
       </figure>
     )}
   </div>

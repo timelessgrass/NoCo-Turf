@@ -6,6 +6,9 @@
  * FAQ). Never aggregateRating, ratingValue, reviewCount or Review — check-dist.mjs fails the build on any.
  */
 import '@fontsource-variable/archivo/standard.css';
+/* The display face paints every H1: preloading its Latin file stops the headline (the phone LCP element) from
+   waiting on the font and reflowing when it swaps in. The same URL the CSS asks for, so it downloads once. */
+import archivoLatin from '@fontsource-variable/archivo/files/archivo-latin-standard-normal.woff2?url';
 import '@fontsource-variable/public-sans';
 import '../styles/global.css';
 import SiteHeader from '../components/SiteHeader.astro';
@@ -84,6 +87,7 @@ const jsonld = JSON.stringify({ '@context': 'https://schema.org', '@graph': node
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <link rel="preload" href={archivoLatin} as="font" type="font/woff2" crossorigin />
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />

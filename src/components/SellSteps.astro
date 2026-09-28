@@ -10,16 +10,15 @@ const { town, place, id = 'how' } = Astro.props;
 const where = place ?? town;
 const STEPS = [
   { h: 'Book a yard walk', p: `Tell us about the yard. We’ll set a time to walk it with you${where ? ` in ${where}` : ''}, look at the ground and talk through what you want.` },
-  { h: 'Get a plan and a price', p: 'We measure, check what your town and HOA allow, and put the plan and the price in writing, so there are no surprises.' },
-  { h: 'Install', p: 'The old lawn comes out, the base goes in and gets compacted for your soil, then the turf is laid, seamed and edged.' },
+  { h: 'Get a plan and a price', p: 'We measure, check what your town and HOA allow, and give you the plan and the price in writing.' },
+  { h: 'We install it', p: 'We take out the old lawn, build and compact the base for your soil, then lay, seam and edge the turf.' },
   { h: 'Walk it together', p: 'We brush it in, clean up, and walk the finished yard with you before we call it done.' },
 ];
 ---
 <section class="section ground-2 st" id={id} aria-labelledby={`${id}-h`}>
   <div class="wrap">
     <header class="st__head">
-      <p class="label">How it works</p>
-      <h2 id={`${id}-h`}>From first call to finished yard, in four steps.</h2>
+      <h2 id={`${id}-h`}>How it works.</h2>
     </header>
     <ol class="st__list" role="list">
       {STEPS.map((s, i) => (

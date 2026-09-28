@@ -1,298 +1,314 @@
 {
- "_shape": {
-  "claim": "",
-  "status": "CLIENT_STATED",
-  "source": "discovery_call",
-  "source_detail": "Speaker, 00:00:00",
-  "approved": false,
-  "approved_by": null,
-  "receipt": null,
-  "aliases": []
- },
- "claims": [
-  {
-   "claim": "Brian has installed turf for 13 years",
-   "status": "CLIENT_STATED",
-   "source": "discovery_call",
-   "source_detail": "Brian, 00:32:38 — \"I've been doing turf for 13 years.\" (2026-09-04 sister-brand onboarding call; speaker derived 3/3; see provenance.md beside the transcript)",
-   "approved": false,
-   "approved_by": null,
-   "receipt": null,
-   "receipt_needed": "Brian confirms in writing what the 13 years were and where (Appendix A #3). Copy states the founder's years, never the company's: the LLC formed 2024-02-26.",
-   "aliases": [
-    "turf for 13 years",
-    "13 years in turf",
-    "13 years of turf",
-    "13 years installing",
-    "13 years of experience"
-   ],
-   "checked": "2026-09-24",
-   "note": "brief: identity.founder_experience_years"
+  "_shape": {
+    "claim": "",
+    "status": "CLIENT_STATED",
+    "source": "discovery_call",
+    "source_detail": "Speaker, 00:00:00",
+    "approved": false,
+    "approved_by": null,
+    "receipt": null,
+    "aliases": []
   },
-  {
-   "claim": "NOCO Turf Co. LLC · Colorado SOS 20241237162",
-   "status": "VERIFIED",
-   "source": "document",
-   "source_detail": "Colorado Secretary of State record 20241237162: Good Standing, formed 2024-02-26 — checked 2026-09-24",
-   "approved": false,
-   "approved_by": null,
-   "receipt": "https://www.coloradosos.gov/biz/BusinessEntityDetail.do?masterFileId=20241237162",
-   "receipt_needed": "The lookup link itself, printed beside the ID so anyone can check it. Re-check standing before launch.",
-   "aliases": [
-    "sos 20241237162",
-    "sos id 20241237162",
-    "colorado sos #20241237162",
-    "20241237162"
-   ],
-   "checked": "2026-09-24",
-   "note": "brief: identity.legal_name + identity.registration. Receipt already on file; ready for a human to approve."
-  },
-  {
-   "claim": "Every turf product we install is PFAS-free",
-   "status": "UNKNOWN",
-   "source": null,
-   "source_detail": null,
-   "approved": false,
-   "approved_by": null,
-   "receipt": null,
-   "receipt_needed": "Supplier PFAS test documents for each product NoCo installs today. Colorado SB24-081: no artificial turf with intentionally added PFAS may be installed on or after 2026-01-01 (https://leg.colorado.gov/bills/sb24-081, checked 2026-09-24). Research found the former supplier publishes a PFAS test claim for its imported products (Nov 2023) — Brian confirms current products and supplier (Appendix A #6).",
-   "aliases": [
-    "we install pfas-free",
-    "we only install pfas-free",
-    "all our turf is pfas-free",
-    "all of our turf is pfas-free",
-    "noco's turf is pfas-free",
-    "our products are pfas-free",
-    "pfas-free turf we install"
-   ],
-   "checked": "2026-09-24",
-   "note": "The law applies to everyone; this entry covers only the claim that NoCo's own products comply."
-  },
-  {
-   "claim": "NoCo's written warranty",
-   "status": "UNKNOWN",
-   "source": null,
-   "source_detail": null,
-   "approved": false,
-   "approved_by": null,
-   "receipt": null,
-   "receipt_needed": "Brian's written warranty terms: labour years, product (manufacturer) years, what is covered and excluded, how a customer claims it and how fast NoCo responds (Appendix A #7). Old vendor sites carried conflicting terms — none may be reused.",
-   "aliases": [
-    "noco's warranty",
-    "noco turf warranty",
-    "warranty from noco",
-    "we warranty",
-    "warranty on our work",
-    "backed by our warranty"
-   ],
-   "checked": "2026-09-24"
-  },
-  {
-   "claim": "We publish our base spec",
-   "status": "UNKNOWN",
-   "source": null,
-   "source_detail": null,
-   "approved": false,
-   "approved_by": null,
-   "receipt": null,
-   "receipt_needed": "Brian's own base spec by use: dig depth, base material, compaction method, weed barrier, drainage in clay, infill by use (Appendix A #5), plus a trench / tape-measure photo from a real job.",
-   "aliases": [
-    "we publish ours",
-    "we publish our base",
-    "our base spec",
-    "noco's base spec",
-    "we dig down",
-    "we excavate to"
-   ],
-   "checked": "2026-09-24",
-   "note": "Positioning seed: \"Everyone says 'proper base.' We publish ours.\" Ships only with Brian's numbers."
-  },
-  {
-   "claim": "Published price bands",
-   "status": "UNKNOWN",
-   "source": null,
-   "source_detail": null,
-   "approved": false,
-   "approved_by": null,
-   "receipt": null,
-   "receipt_needed": "A per-sq-ft range Brian approves for publication (lawn, pet, putting green) and his minimum job (Appendix A #9), recorded with his name and date; the cost estimator stays dormant until then.",
-   "aliases": [
-    "our prices start",
-    "starting at $",
-    "per square foot installed",
-    "per sq ft installed",
-    "noco's prices",
-    "our installed price",
-    "our minimum job"
-   ],
-   "checked": "2026-09-24"
-  },
-  {
-   "claim": "Google rating shown beside a live link to the Google Business Profile",
-   "status": "EXTERNAL_SOURCE",
-   "source": "web",
-   "source_detail": "The GBP (https://www.google.com/maps?cid=1677961776015338447) showed a star rating when read on 2026-09-24",
-   "approved": false,
-   "approved_by": null,
-   "receipt": "https://www.google.com/maps?cid=1677961776015338447",
-   "receipt_needed": "Show the rating only as text beside a link to the live listing, re-read at build time or dated. Never in JSON-LD (no aggregateRating / ratingValue / reviewCount), never a review count, never an average from any other site.",
-   "aliases": [
-    "rated on google",
-    "stars on google",
-    "google rating",
-    "on google reviews"
-   ],
-   "checked": "2026-09-24"
-  },
-  {
-   "claim": "Based in Windsor",
-   "status": "EXTERNAL_SOURCE",
-   "source": "document",
-   "source_detail": "Colorado SOS principal office: Windsor, CO 80550 (https://www.coloradosos.gov/biz/BusinessEntityDetail.do?masterFileId=20241237162, checked 2026-09-24); the GBP and the Facebook page also list Windsor",
-   "approved": false,
-   "approved_by": null,
-   "receipt": null,
-   "receipt_needed": "Brian confirms the crew and shop actually operate from Windsor today and whether customers visit (Appendix A #1). Required before any drive-time or \"local crew\" line.",
-   "aliases": [
-    "based in windsor",
-    "windsor-based",
-    "out of windsor",
-    "our windsor shop",
-    "our windsor base",
-    "from our windsor"
-   ],
-   "checked": "2026-09-24"
-  },
-  {
-   "claim": "We handle the Firestone turf permit",
-   "status": "UNKNOWN",
-   "source": null,
-   "source_detail": null,
-   "approved": false,
-   "approved_by": null,
-   "receipt": null,
-   "receipt_needed": "Brian confirms NoCo applies for the Firestone artificial-turf permit and builds to Firestone Development Code 16.6.4.F.2 (permit required, no fee for single-family; face weight, base, infill and material rules) — https://firestoneco.gov/DocumentCenter/View/6548/Firestone-Development-Code---September-2025 (research checked 2026-09-24). Best receipt: a permit number from a past NoCo job.",
-   "aliases": [
-    "we pull the permit",
-    "we handle the permit",
-    "we pull the firestone",
-    "we handle the firestone",
-    "permit handled by us",
-    "we file the permit"
-   ],
-   "checked": "2026-09-24"
-  },
-  {
-   "claim": "water savings alone rarely pay for turf",
-   "status": "INFERENCE",
-   "source": "derived",
-   "source_detail": "Research framing: about 12 gal per sq ft per year (CWCB) against Northern Colorado utility rates — roughly $50–$230 a year per 1,000 sq ft (plan, tools/water-savings)",
-   "approved": false,
-   "approved_by": null,
-   "receipt": null,
-   "receipt_needed": "Brian approves the framing in his words (then CLIENT_CONFIRMED), and the numbers come from dated records in src/data/layers/water-providers.json and the CWCB source. An INFERENCE cannot be approved.",
-   "aliases": [
-    "rarely pays for itself",
-    "rarely pay for itself",
-    "won't pay for itself",
-    "water savings alone",
-    "pays for itself in water"
-   ],
-   "checked": "2026-09-24"
-  },
-  {
-   "claim": "Licensed and insured",
-   "status": "UNKNOWN",
-   "source": null,
-   "source_detail": null,
-   "approved": false,
-   "approved_by": null,
-   "receipt": null,
-   "receipt_needed": "A certificate of insurance and any licence numbers with issuer and lookup link. On the sister-brand call Brian gave no numbers for either brand.",
-   "aliases": [
-    "licensed & insured",
-    "fully insured",
-    "licensed, bonded",
-    "bonded and insured",
-    "licensed and bonded"
-   ],
-   "checked": "2026-09-24",
-   "note": "Protective entry — blocks the phrase until a document is on file."
-  },
-  {
-   "claim": "American-made turf",
-   "status": "CLIENT_STATED",
-   "source": "discovery_call",
-   "source_detail": "Brian, 00:33:22 — \"we use all American made stuff\" (2026-09-04 sister-brand call; mixed-speaker segment, quote boundaries need a human check; speaker derived 3/3; see provenance.md beside the transcript)",
-   "approved": false,
-   "approved_by": null,
-   "receipt": null,
-   "receipt_needed": "Spec sheets showing the country of manufacture for each product NoCo installs today. Research found the former supplier describes some products as imported — resolve before any \"American-made\" line.",
-   "aliases": [
-    "american made",
-    "american-made",
-    "made in the usa",
-    "made in america"
-   ],
-   "checked": "2026-09-24",
-   "note": "Said on the sister-brand call about installation work generally, not NoCo specifically."
-  },
-  {
-   "claim": "Certified installer",
-   "status": "UNKNOWN",
-   "source": null,
-   "source_detail": null,
-   "approved": false,
-   "approved_by": null,
-   "receipt": null,
-   "receipt_needed": "An issuing body, a certificate number and a public lookup. None is on record.",
-   "aliases": [
-    "certified installer",
-    "pet friendly certified",
-    "kid safe certified",
-    "true roll",
-    "certified pet-safe",
-    "certified putting green"
-   ],
-   "checked": "2026-09-24",
-   "note": "Protective entry. Brian said on the 2026-09-04 call that NoCo holds no such badges (00:43:03); badge images in the raw-content folder are generated art, never proof."
-  },
-  {
-   "claim": "Years in business",
-   "status": "UNKNOWN",
-   "source": null,
-   "source_detail": null,
-   "approved": false,
-   "approved_by": null,
-   "receipt": null,
-   "receipt_needed": "The year operations began, stated by Brian (brief identity.founded_year). The LLC formed 2024-02-26 (VERIFIED); older years on the vendor sites have no source.",
-   "aliases": [
-    "years in business",
-    "in business since",
-    "founded in 2011",
-    "since 2011",
-    "serving since"
-   ],
-   "checked": "2026-09-24",
-   "note": "Protective entry — the company's age, as distinct from the founder's years (claim 0)."
-  },
-  {
-   "claim": "five-star reviews",
-   "status": "UNKNOWN",
-   "source": null,
-   "source_detail": null,
-   "approved": false,
-   "approved_by": null,
-   "receipt": null,
-   "receipt_needed": "Never a count. Individual reviews render only with a named author, a live link and the reviewer's consent (proof.json).",
-   "aliases": [
-    "5-star reviews",
-    "5 star reviews",
-    "five star reviews",
-    "google reviews from"
-   ],
-   "checked": "2026-09-24",
-   "note": "Protective entry — review counts change and cannot be kept byte-true on a static site."
-  }
- ]
+  "claims": [
+    {
+      "claim": "Brian has installed turf for 13 years",
+      "status": "CLIENT_STATED",
+      "source": "discovery_call",
+      "source_detail": "Brian, 00:32:38 — \"I've been doing turf for 13 years.\" (2026-09-04 sister-brand onboarding call; speaker derived 3/3; see provenance.md beside the transcript)",
+      "approved": true,
+      "approved_by": "Ty (To The Max Media), 2026-09-28, /improve proof choices",
+      "receipt": null,
+      "receipt_needed": "Brian confirms in writing what the 13 years were and where (Appendix A #3). Copy states the founder's years, never the company's: the LLC formed 2024-02-26.",
+      "aliases": [
+        "turf for 13 years",
+        "13 years in turf",
+        "13 years of turf",
+        "13 years installing",
+        "13 years of experience"
+      ],
+      "checked": "2026-09-28",
+      "note": "brief: identity.founder_experience_years"
+    },
+    {
+      "claim": "NOCO Turf Co. LLC · Colorado SOS 20241237162",
+      "status": "VERIFIED",
+      "source": "document",
+      "source_detail": "Colorado Secretary of State record 20241237162: Good Standing, formed 2024-02-26 — checked 2026-09-24",
+      "approved": false,
+      "approved_by": null,
+      "receipt": "https://www.coloradosos.gov/biz/BusinessEntityDetail.do?masterFileId=20241237162",
+      "receipt_needed": "The lookup link itself, printed beside the ID so anyone can check it. Re-check standing before launch.",
+      "aliases": [
+        "sos 20241237162",
+        "sos id 20241237162",
+        "colorado sos #20241237162",
+        "20241237162"
+      ],
+      "checked": "2026-09-24",
+      "note": "brief: identity.legal_name + identity.registration. Receipt already on file; ready for a human to approve."
+    },
+    {
+      "claim": "Every turf product we install is PFAS-free",
+      "status": "UNKNOWN",
+      "source": null,
+      "source_detail": null,
+      "approved": false,
+      "approved_by": null,
+      "receipt": null,
+      "receipt_needed": "Supplier PFAS test documents for each product NoCo installs today. Colorado SB24-081: no artificial turf with intentionally added PFAS may be installed on or after 2026-01-01 (https://leg.colorado.gov/bills/sb24-081, checked 2026-09-24). Research found the former supplier publishes a PFAS test claim for its imported products (Nov 2023) — Brian confirms current products and supplier (Appendix A #6).",
+      "aliases": [
+        "we install pfas-free",
+        "we only install pfas-free",
+        "all our turf is pfas-free",
+        "all of our turf is pfas-free",
+        "noco's turf is pfas-free",
+        "our products are pfas-free",
+        "pfas-free turf we install"
+      ],
+      "checked": "2026-09-24",
+      "note": "The law applies to everyone; this entry covers only the claim that NoCo's own products comply."
+    },
+    {
+      "claim": "NoCo's written warranty",
+      "status": "UNKNOWN",
+      "source": null,
+      "source_detail": null,
+      "approved": false,
+      "approved_by": null,
+      "receipt": null,
+      "receipt_needed": "Brian's written warranty terms: labour years, product (manufacturer) years, what is covered and excluded, how a customer claims it and how fast NoCo responds (Appendix A #7). Old vendor sites carried conflicting terms — none may be reused.",
+      "aliases": [
+        "noco's warranty",
+        "noco turf warranty",
+        "warranty from noco",
+        "we warranty",
+        "warranty on our work",
+        "backed by our warranty"
+      ],
+      "checked": "2026-09-24"
+    },
+    {
+      "claim": "We publish our base spec",
+      "status": "UNKNOWN",
+      "source": null,
+      "source_detail": null,
+      "approved": false,
+      "approved_by": null,
+      "receipt": null,
+      "receipt_needed": "Brian's own base spec by use: dig depth, base material, compaction method, weed barrier, drainage in clay, infill by use (Appendix A #5), plus a trench / tape-measure photo from a real job.",
+      "aliases": [
+        "we publish ours",
+        "we publish our base",
+        "our base spec",
+        "noco's base spec",
+        "we dig down",
+        "we excavate to"
+      ],
+      "checked": "2026-09-24",
+      "note": "Positioning seed: \"Everyone says 'proper base.' We publish ours.\" Ships only with Brian's numbers."
+    },
+    {
+      "claim": "Published price bands",
+      "status": "UNKNOWN",
+      "source": null,
+      "source_detail": null,
+      "approved": false,
+      "approved_by": null,
+      "receipt": null,
+      "receipt_needed": "A per-sq-ft range Brian approves for publication (lawn, pet, putting green) and his minimum job (Appendix A #9), recorded with his name and date; the cost estimator stays dormant until then.",
+      "aliases": [
+        "our prices start",
+        "starting at $",
+        "per square foot installed",
+        "per sq ft installed",
+        "noco's prices",
+        "our installed price",
+        "our minimum job"
+      ],
+      "checked": "2026-09-24"
+    },
+    {
+      "claim": "Google rating shown beside a live link to the Google Business Profile",
+      "status": "EXTERNAL_SOURCE",
+      "source": "web",
+      "source_detail": "The GBP showed 4.7 when read directly on 2026-09-24 (research wf1/gap-2.md: 4.7 from 62). Cross-checked 2026-09-28 against Birdeye's Google-source breakdown (60 five, 1 four, 1 three, 2 two, 3-4 one; 4.7). Rendered as text beside a link to the listing; no count, no markup.",
+      "approved": true,
+      "approved_by": "Ty (To The Max Media), 2026-09-28, /improve proof choices",
+      "receipt": "https://www.google.com/maps?cid=1677961776015338447",
+      "receipt_needed": "Show the rating only as text beside a link to the live listing, re-read at build time or dated. Never in JSON-LD (no aggregateRating / ratingValue / reviewCount), never a review count, never an average from any other site.",
+      "aliases": [
+        "4.7 on google",
+        "google rating",
+        "on google reviews",
+        "rated 4.7 on google",
+        "rated on google",
+        "stars on google"
+      ],
+      "checked": "2026-09-28",
+      "value": "4.7"
+    },
+    {
+      "claim": "Based in Windsor",
+      "status": "EXTERNAL_SOURCE",
+      "source": "document",
+      "source_detail": "Colorado SOS principal office: Windsor, CO 80550 (https://www.coloradosos.gov/biz/BusinessEntityDetail.do?masterFileId=20241237162, checked 2026-09-24); the GBP and the Facebook page also list Windsor",
+      "approved": false,
+      "approved_by": null,
+      "receipt": null,
+      "receipt_needed": "Brian confirms the crew and shop actually operate from Windsor today and whether customers visit (Appendix A #1). Required before any drive-time or \"local crew\" line.",
+      "aliases": [
+        "based in windsor",
+        "windsor-based",
+        "out of windsor",
+        "our windsor shop",
+        "our windsor base",
+        "from our windsor"
+      ],
+      "checked": "2026-09-24"
+    },
+    {
+      "claim": "We handle the Firestone turf permit",
+      "status": "UNKNOWN",
+      "source": null,
+      "source_detail": null,
+      "approved": false,
+      "approved_by": null,
+      "receipt": null,
+      "receipt_needed": "Brian confirms NoCo applies for the Firestone artificial-turf permit and builds to Firestone Development Code 16.6.4.F.2 (permit required, no fee for single-family; face weight, base, infill and material rules) — https://firestoneco.gov/DocumentCenter/View/6548/Firestone-Development-Code---September-2025 (research checked 2026-09-24). Best receipt: a permit number from a past NoCo job.",
+      "aliases": [
+        "we pull the permit",
+        "we handle the permit",
+        "we pull the firestone",
+        "we handle the firestone",
+        "permit handled by us",
+        "we file the permit"
+      ],
+      "checked": "2026-09-24"
+    },
+    {
+      "claim": "water savings alone rarely pay for turf",
+      "status": "INFERENCE",
+      "source": "derived",
+      "source_detail": "Research framing: about 12 gal per sq ft per year (CWCB) against Northern Colorado utility rates — roughly $50–$230 a year per 1,000 sq ft (plan, tools/water-savings)",
+      "approved": false,
+      "approved_by": null,
+      "receipt": null,
+      "receipt_needed": "Brian approves the framing in his words (then CLIENT_CONFIRMED), and the numbers come from dated records in src/data/layers/water-providers.json and the CWCB source. An INFERENCE cannot be approved.",
+      "aliases": [
+        "rarely pays for itself",
+        "rarely pay for itself",
+        "won't pay for itself",
+        "water savings alone",
+        "pays for itself in water"
+      ],
+      "checked": "2026-09-24"
+    },
+    {
+      "claim": "Licensed and insured",
+      "status": "UNKNOWN",
+      "source": null,
+      "source_detail": null,
+      "approved": false,
+      "approved_by": null,
+      "receipt": null,
+      "receipt_needed": "A certificate of insurance and any licence numbers with issuer and lookup link. On the sister-brand call Brian gave no numbers for either brand.",
+      "aliases": [
+        "licensed & insured",
+        "fully insured",
+        "licensed, bonded",
+        "bonded and insured",
+        "licensed and bonded"
+      ],
+      "checked": "2026-09-24",
+      "note": "Protective entry — blocks the phrase until a document is on file."
+    },
+    {
+      "claim": "American-made turf",
+      "status": "CLIENT_STATED",
+      "source": "discovery_call",
+      "source_detail": "Brian, 00:33:22 — \"we use all American made stuff\" (2026-09-04 sister-brand call; mixed-speaker segment, quote boundaries need a human check; speaker derived 3/3; see provenance.md beside the transcript)",
+      "approved": false,
+      "approved_by": null,
+      "receipt": null,
+      "receipt_needed": "Spec sheets showing the country of manufacture for each product NoCo installs today. Research found the former supplier describes some products as imported — resolve before any \"American-made\" line.",
+      "aliases": [
+        "american made",
+        "american-made",
+        "made in the usa",
+        "made in america"
+      ],
+      "checked": "2026-09-24",
+      "note": "Said on the sister-brand call about installation work generally, not NoCo specifically."
+    },
+    {
+      "claim": "Certified installer",
+      "status": "UNKNOWN",
+      "source": null,
+      "source_detail": null,
+      "approved": false,
+      "approved_by": null,
+      "receipt": null,
+      "receipt_needed": "An issuing body, a certificate number and a public lookup. None is on record.",
+      "aliases": [
+        "certified installer",
+        "pet friendly certified",
+        "kid safe certified",
+        "true roll",
+        "certified pet-safe",
+        "certified putting green"
+      ],
+      "checked": "2026-09-24",
+      "note": "Protective entry. Brian said on the 2026-09-04 call that NoCo holds no such badges (00:43:03); badge images in the raw-content folder are generated art, never proof."
+    },
+    {
+      "claim": "Years in business",
+      "status": "UNKNOWN",
+      "source": null,
+      "source_detail": null,
+      "approved": false,
+      "approved_by": null,
+      "receipt": null,
+      "receipt_needed": "The year operations began, stated by Brian (brief identity.founded_year). The LLC formed 2024-02-26 (VERIFIED); older years on the vendor sites have no source.",
+      "aliases": [
+        "years in business",
+        "in business since",
+        "founded in 2011",
+        "since 2011",
+        "serving since"
+      ],
+      "checked": "2026-09-24",
+      "note": "Protective entry — the company's age, as distinct from the founder's years (claim 0)."
+    },
+    {
+      "claim": "five-star reviews",
+      "status": "UNKNOWN",
+      "source": null,
+      "source_detail": null,
+      "approved": false,
+      "approved_by": null,
+      "receipt": null,
+      "receipt_needed": "Never a count. Individual reviews render only with a named author, a live link and the reviewer's consent (proof.json).",
+      "aliases": [
+        "5-star reviews",
+        "5 star reviews",
+        "five star reviews",
+        "google reviews from"
+      ],
+      "checked": "2026-09-24",
+      "note": "Protective entry — review counts change and cannot be kept byte-true on a static site."
+    },
+    {
+      "claim": "Short customer review quotes, attributed (first name and last initial) and linked to the Google listing",
+      "status": "EXTERNAL_SOURCE",
+      "source": "web",
+      "source_detail": "Verbatim Google reviews as mirrored on https://reviews.birdeye.com/noco-turf-co-172508081543990?rsource=2 (read 2026-09-28): Johnny Gonzales, Mike Twist, Sharon Younie, Marissa Garibay. Live listing: https://www.google.com/maps?cid=1677961776015338447",
+      "approved": true,
+      "approved_by": "Ty (To The Max Media), 2026-09-28, /improve proof choices",
+      "receipt": "https://www.google.com/maps?cid=1677961776015338447",
+      "receipt_needed": "Quotes stay verbatim (trims marked with an ellipsis), never a count or an average, never in JSON-LD. Brian and the reviewers can ask for any quote to come down.",
+      "aliases": [],
+      "checked": "2026-09-28",
+      "note": "src/data/reviews.ts is the one source for the rating and the quotes."
+    }
+  ]
 }

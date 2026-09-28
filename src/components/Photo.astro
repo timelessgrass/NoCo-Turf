@@ -6,7 +6,8 @@
  * loading=eager + fetchpriority=high — never lazy (Astro's default lazy trips preflight IMG-4).
  */
 import { Picture } from 'astro:assets';
-import type { Photo as P } from '../data/photos';
+/** A job photo (photos.ts) or a scene (scenes.ts): only the file, the alt text and the focal point are drawn. */
+type P = { src: ImageMetadata; alt: string; focus?: string };
 
 interface Props {
   photo: P;

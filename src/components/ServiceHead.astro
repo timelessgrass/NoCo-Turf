@@ -4,12 +4,12 @@
  * as a component so /services/ and /services/{slug}/ share one rhythm. `split` puts the lede beside the
  * H2 on desktop (.shead--split). The H2 comes in through the slot so a payoff can carry <PaintWord>.
  */
-interface Props { label: string; id: string; lede?: string; split?: boolean; paint?: boolean; class?: string; }
+interface Props { label?: string; id: string; lede?: string; split?: boolean; paint?: boolean; class?: string; }
 const { label, id, lede, split = false, paint = false, class: cls } = Astro.props;
 ---
 <header class:list={['svhead', { 'svhead--split': split }, cls]}>
   <div class="svhead__title">
-    <p class:list={['label', { 'label--paint': paint }]}>{label}</p>
+    {paint && label && <p class="label label--paint">{label}</p>}
     <h2 id={id}><slot /></h2>
   </div>
   {lede && <p class="lede svhead__lede">{lede}</p>}

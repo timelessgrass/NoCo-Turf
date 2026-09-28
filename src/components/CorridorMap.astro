@@ -91,6 +91,8 @@ const routeCss = towns.map((t) => `.cmap:has([data-town="${t.slug}"]:is(:hover,:
   .cmap__route { fill: none; stroke: var(--paint); stroke-width: 2.6; stroke-linecap: round; stroke-dasharray: 1; stroke-dashoffset: 1; opacity: 0;
     transition: stroke-dashoffset var(--t5) var(--ease), opacity var(--t2) var(--ease); }
   .cmap__town { cursor: pointer; }
+  /* On a phone the drawn labels shrink to about 9px: the grouped list under the map carries the taps there. */
+  @media (max-width: 699px) { .cmap__town { pointer-events: none; } }
   .cmap__town circle { fill: var(--ink); stroke: var(--ground-2); stroke-width: 2.5; transition: r var(--t2) var(--ease), fill var(--t2) var(--ease); }
   .cmap__town.is-hub circle { fill: var(--paint); stroke: var(--ink); stroke-width: 2.5; }
   .cmap__town text { font-family: var(--font-display); font-weight: 680; font-stretch: 96%; font-size: 13.5px; fill: var(--ink); paint-order: stroke; stroke: var(--ground-2); stroke-width: 4px; stroke-linejoin: round; }

@@ -110,7 +110,7 @@ export const SERVICE_SELL: Record<string, ServiceSell> = {
   'commercial-turf': {
     h1: 'Commercial and HOA turf that fits Colorado’s rules.',
     paint: 'fits Colorado’s rules.',
-    lede: 'Turf for HOA common areas, parks, schools, dog areas and sports fields, planned around Colorado’s functional-turf rules and your town’s own code.',
+    lede: 'We build turf for HOA common areas, parks, schools, dog areas and sports fields, planned around Colorado’s rules and your town’s code.',
     good: [
       'Your board wants play areas, dog parks or fields that stay usable all year.',
       'Watering common-area grass is eating the budget.',

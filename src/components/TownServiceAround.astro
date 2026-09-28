@@ -25,7 +25,6 @@ const cols = [
     <div class:list={['wrap', 'tsvaround__grid', { 'tsvaround__grid--one': cols.length === 1 }]}>
       {cols.map((c) => (
         <div class="tsvaround__col" aria-labelledby={`${c.id}-h`} role="group">
-          <p class="label">{c.label}</p>
           <h2 id={`${c.id}-h`} class="tsvaround__h">{c.title}</h2>
           <ol class="tsvaround__list" role="list">
             {c.links.map((l) => (

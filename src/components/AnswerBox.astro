@@ -1,28 +1,32 @@
 ---
 /**
- * The authored answer (seo.md): the buyer's question as a literal string, then a ~60-word direct answer
- * naming the business, service, town/state — ending on the phone number, appended here from the brief
- * (never typed into copy). Quotable by answer engines; placed high on every money page.
+ * The authored answer (seo.md): the buyer's question as a literal string, then a ~60-word direct answer.
+ * The record names the business in the third person for answer engines; on the page that line reads in our own
+ * voice ("At NoCo Turf Co., we install…", "Ask us about…"), moved to the end, beside a one-tap call button. The
+ * phone comes from the brief, never typed into copy. Placed high on every money page.
  */
+import Icon from './Icon.astro';
 import { phoneHref, phoneDisplay } from '../data/brief';
 interface Props { question: string; answer: string; }
 const { question, answer } = Astro.props;
-/* The answer names the business mid-paragraph for answer engines; on the page that sentence reads better last,
-   next to the phone number. */
-const brand = answer.match(/(?:^|\s)(NoCo Turf Co\. [^.]*\.)(?=\s|$)/);
-const text = brand ? `${answer.replace(brand[0], ' ').trim()} ${brand[1]}` : answer;
+
+const VERB: Record<string, string> = { installs: 'install', builds: 'build', bids: 'bid on', answers: 'answer', can: 'can' };
+const firstPerson = (s: string) => s
+  .replace(/^Ask NoCo Turf Co\. about /, 'Ask us about ')
+  .replace(/^(For [^,]+, )NoCo Turf Co\. can /, '$1we can ')
+  .replace(/^NoCo Turf Co\. (installs|builds|bids|answers|can) /, (_m, v: string) => `At NoCo Turf Co., we ${VERB[v]} `);
+const brand = answer.match(/(?:^|\s)((?:Ask |For [^.]*?, )?NoCo Turf Co\. [^.]*\.)(?=\s|$)/);
+const text = brand ? `${answer.replace(brand[0], ' ').trim()} ${firstPerson(brand[1])}` : answer;
 ---
-<aside class="ab" aria-label="Short answer">
-  <p class="label ab__label">Short answer</p>
+<aside class="ab" aria-label="Quick answer">
   <p class="ab__q">{question}</p>
-  <p class="ab__a">{text}{phoneHref && <> Call <a href={phoneHref} data-cta="answer-call">{phoneDisplay}</a>.</>}</p>
+  <p class="ab__a">{text}</p>
+  {phoneHref && <a class="btn btn--line ab__call" href={phoneHref} data-cta="answer-call"><Icon name="phone" />Call {phoneDisplay}</a>}
 </aside>
 <style>
-  .ab { position: relative; padding: clamp(22px, 3vw, 34px); padding-left: calc(clamp(22px, 3vw, 34px) + 14px); border-radius: var(--r-panel); background: var(--ground-2); }
-  .ab::before { content: ''; position: absolute; left: clamp(14px, 2vw, 22px); top: 26px; bottom: 26px; width: 4px; border-radius: 4px;
-    background: repeating-linear-gradient(180deg, var(--paint) 0 14px, transparent 14px 24px); }
-  .ab__label { margin: 0 0 8px; }
-  .ab__q { font-family: var(--font-display); font-weight: 760; font-stretch: 108%; font-size: clamp(1.2rem, 1.05rem + 0.6vw, 1.5rem); letter-spacing: -0.02em; line-height: 1.2; margin: 0 0 10px; }
+  .ab { position: relative; display: grid; gap: 12px; justify-items: start; padding: clamp(22px, 3vw, 34px); padding-left: calc(clamp(22px, 3vw, 34px) + 14px); border-radius: var(--r-panel); background: var(--ground-2); }
+  .ab::before { content: ''; position: absolute; left: clamp(14px, 2vw, 22px); top: 26px; bottom: 26px; width: 4px; border-radius: 4px; background: var(--paint); }
+  .ab__q { font-family: var(--font-display); font-weight: 760; font-stretch: 108%; font-size: clamp(1.2rem, 1.05rem + 0.6vw, 1.5rem); letter-spacing: -0.02em; line-height: 1.2; margin: 0; }
   .ab__a { margin: 0; max-width: 64ch; color: var(--ink-2); }
-  .ab__a a { color: var(--ink); font-weight: 650; text-decoration-color: var(--paint); }
+  .ab__call { margin-top: 6px; min-height: 48px; }
 </style>

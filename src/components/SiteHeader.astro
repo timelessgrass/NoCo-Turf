@@ -90,7 +90,7 @@ const name = businessName ?? 'NoCo Turf Co.';
     <div class="hdr__acts">
       {phoneHref && (
         <a class="hdr__tel" href={phoneHref} data-cta="nav-call" aria-label={`Call ${phoneDisplay}`}>
-          <Icon name="phone" size={18} /><span class="hdr__tel-num num">{phoneDisplay}</span>
+          <Icon name="phone" size={18} /><span class="hdr__tel-num num">{phoneDisplay}</span><span class="hdr__tel-word">Call</span>
         </a>
       )}
       <a class="btn btn--paint hdr__cta" href="/contact/#estimate" data-cta="nav-quote">Book a yard walk</a>
@@ -182,7 +182,11 @@ const name = businessName ?? 'NoCo Turf Co.';
   .hdr__cta { min-height: 44px; padding: 0 18px; font-size: 0.95rem; }
   .hdr__menu { display: none; align-items: center; gap: 6px; min-height: 44px; padding: 0 12px; text-decoration: none; font-family: var(--font-display); font-weight: 680; }
 
-  @media (max-width: 1099px) { .hdr__tel-num { display: none; } .hdr__tel { width: 44px; padding: 0; justify-content: center; } }
+  .hdr__tel-word { display: none; }
+  /* Phones and tablets: one-tap call as a labelled pill that never shrinks below 44px. */
+  @media (max-width: 1099px) { .hdr__tel-num { display: none; } .hdr__tel-word { display: inline; } .hdr__tel { flex: none; min-width: 44px; padding: 0 16px 0 14px; } }
+  /* Narrow phones: the bottom bar already carries a labelled Call button, so the header keeps a round 44px icon. */
+  @media (max-width: 439px) { .hdr__tel-word { display: none; } .hdr__tel { width: 44px; padding: 0; justify-content: center; } }
   @media (max-width: 899px) {
     .nav, .hdr__cta { display: none; }
     .hdr__menu { display: inline-flex; }

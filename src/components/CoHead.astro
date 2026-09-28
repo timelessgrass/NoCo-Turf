@@ -5,7 +5,8 @@
  * that is a sentence with a period, and an optional lede. `split` puts the lede beside the title on desktop.
  */
 interface Props {
-  label: string;
+  /** shown only on dark (paint) sections; light sections let the H2 speak (improve 2026-09-28) */
+  label?: string;
   id: string;
   lede?: string;
   split?: boolean;
@@ -17,7 +18,7 @@ const { label, id, lede, split = false, paint = false, class: cls } = Astro.prop
 ---
 <header class:list={['co-head', { 'co-head--split': split }, cls]}>
   <div class="co-head__title">
-    <p class:list={['label', { 'label--paint': paint }]}>{label}</p>
+    {paint && label && <p class="label label--paint">{label}</p>}
     <h2 id={id}><slot /></h2>
   </div>
   {lede && <p class="lede">{lede}</p>}

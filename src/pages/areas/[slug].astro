@@ -105,8 +105,10 @@ if (d.sections?.length) rows.push({ label: 'Also here', value: d.sections.map((s
 
 /* Photos: only jobs whose originals place them near this town. */
 const { hero, more } = townPhotos(slug, name);
-/* A town without a nearby job photo still gets a real one: Brian's best green, captioned with where it really is. */
+/* A town without a nearby job photo still gets a real one, Brian's green by the fire pit, without a caption naming
+   another town. */
 const heroPhoto = hero ?? photoById('fire-pit');
+const heroCaption = Boolean(hero);
 const sell = TOWN_SELL[slug];
 const og = (await getImage({ src: heroPhoto.src, width: 1200, format: 'jpg', quality: 72 })).src;
 
@@ -123,7 +125,7 @@ const byService = (await visibleTownServices()).filter((p) => p.town.slug === sl
 const neighborhoods = (await visibleCommunities()).filter((c) => c.town.slug === slug);
 ---
 <Base title={d.title} description={d.description} crumbs={crumbs} graph={faqGraph(d.faq)} draft={town.draft} ogImage={og}>
-  <PageHero label={`Artificial turf · ${name}, CO`} crumbs={crumbs} photo={heroPhoto} lede={sell?.hook ?? d.lede}>
+  <PageHero label={`Artificial turf · ${name}, CO`} crumbs={crumbs} photo={heroPhoto} caption={heroCaption} lede={sell?.hook ?? d.lede}>
     Artificial turf in <PaintWord now>{name}.</PaintWord>
     <div slot="after" class="thero__acts">
       <a class="btn btn--paint" href="#estimate" data-cta="town-hero-quote">Book a yard walk <Icon name="arrow" /></a>
@@ -133,7 +135,7 @@ const neighborhoods = (await visibleCommunities()).filter((c) => c.town.slug ===
 
   <SellTrust town={name} />
 
-  <SellServices town={name} townPages={byService} heading={`Lawns, putting greens and dog yards for ${name} homes.`} />
+  <SellServices town={name} townPages={byService} heading={`What we build in ${name}.`} />
 
   <TownJobs photos={more} town={name} />
 
@@ -147,7 +149,6 @@ const neighborhoods = (await visibleCommunities()).filter((c) => c.town.slug ===
     <section class="section ground-2" id="faq" aria-labelledby="faq-h">
       <div class="wrap tfaq">
         <header class="tfaq__head">
-          <p class="label">Questions</p>
           <h2 id="faq-h" class="tfaq__h">What {name} homeowners ask us.</h2>
         </header>
         <Faq items={d.faq} name={`faq-${slug}`} />

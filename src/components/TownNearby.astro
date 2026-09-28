@@ -27,10 +27,9 @@ const css = list.map(({ t }) => {
     <div class="wrap">
       <header class="tnear__head">
         <div>
-          <p class="label">Also nearby</p>
-          <h2 id="nearby-h" class="tnear__h">We work the towns next door, too.</h2>
+          <h2 id="nearby-h" class="tnear__h">We also work nearby.</h2>
         </div>
-        <p class="lede tnear__lede">Each town has its own turf rules. Pick yours.</p>
+        <p class="lede tnear__lede">Every town has its own turf rules. Pick yours to see them.</p>
       </header>
       <div class="tnear__grid">
         <TownLocator towns={towns} current={here.slug} mode="local" nearby={list.map((x) => x.t.slug)} id={id} />

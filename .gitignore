@@ -47,3 +47,7 @@ test-results/
 .site/truth/vocabulary.json
 .site/truth/unanswered.json
 .claude/
+
+# /improve audit captures (large images; the plan is committed)
+improve/audit/
+improve/compare*

@@ -11,8 +11,7 @@ const { place, answer, good, id = 'good' } = Astro.props;
 <section class="section gk" id={id} aria-labelledby={`${id}-h`}>
   <div class="wrap gk__grid">
     <div class="gk__lead">
-      <p class="label">Good to know</p>
-      <h2 id={`${id}-h`}>Turf in {place}: what you need to know first.</h2>
+      <h2 id={`${id}-h`}>Before you start in {place}.</h2>
       <ul class="gk__list" role="list">
         {good.map((g) => <li><span class="gk__tick" aria-hidden="true"></span><span>{g}</span></li>)}
       </ul>

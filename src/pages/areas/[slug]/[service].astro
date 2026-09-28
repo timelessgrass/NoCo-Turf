@@ -81,6 +81,7 @@ import { visibleTownServices, visibleCommunities } from '../../../lib/visible';
 import { assertAreaChildren } from '../../../lib/content-policy.mjs';
 import { faqGraph, townServiceGraph, communityGraph } from '../../../lib/schema';
 import { photo as photoById } from '../../../data/photos';
+import { scene } from '../../../data/scenes';
 import { phoneHref, phoneDisplay } from '../../../data/brief';
 import {
   rec, recs, recordsFor, fmtDate, fmtMonth, miles, compass, countyLine, HOA_FAMILY, HOA_EXTRA, KIND_LABEL, type LayerRecord,
@@ -247,13 +248,22 @@ const cm = kind === 'community' ? await communityPage() : null;
    captioned with where it really is. */
 const SERVICE_H1: Record<string, string> = { 'putting-greens': 'Backyard putting greens', 'pet-turf': 'Pet turf and dog runs', 'playground-turf': 'Playground turf', 'commercial-turf': 'Commercial and HOA turf' };
 const SERVICE_HOOK: Record<string, (t: string) => string> = {
-  'putting-greens': (t) => `A true roll outside your back door: cups, fringe and break where you want them, on a base that holds its shape through ${t}’s freeze and thaw.`,
-  'pet-turf': (t) => `Dog yards in ${t} that drain fast, rinse clean and stand up to paws, with no mud and no dead spots.`,
-  'playground-turf': (t) => `Soft, clean turf under swings and play sets in ${t}, padded for the fall height.`,
-  'commercial-turf': (t) => `Turf for ${t} HOA common areas, parks, schools and fields, within Colorado’s functional-turf rules.`,
+  'putting-greens': (t) => `We build backyard putting greens in ${t}, with the cups and the break where you want them, on a base that holds up to our freeze and thaw.`,
+  'pet-turf': (t) => `We build dog runs in ${t} that drain fast and rinse clean. No more mud or dead spots.`,
+  'playground-turf': (t) => `We put soft, clean turf under swing sets and play sets in ${t}, with padding matched to how high the kids climb.`,
+  'commercial-turf': (t) => `We build turf for HOA common areas, parks, schools and fields in ${t}, within Colorado’s rules for new landscapes.`,
 };
-const SERVICE_FALLBACK: Record<string, string> = { 'putting-greens': 'fire-pit', 'pet-turf': 'fenced-yard', 'playground-turf': 'playset', 'commercial-turf': 'street-view' };
-const tsHero = ts ? (ts.photo ?? photoById(SERVICE_FALLBACK[ts.service.slug] ?? 'fire-pit')) : null;
+const SERVICE_FALLBACK: Record<string, string> = { 'putting-greens': 'fire-pit', 'playground-turf': 'playset' };
+/* No job photo of this kind yet: a scene of the kind of yard (scenes.ts), uncaptioned; commercial pages rotate three. */
+const COMMERCIAL_SCENES = ['park-field', 'dog-park', 'hoa-common'];
+const tsHero = ts
+  ? (ts.photo
+    ?? (SERVICE_FALLBACK[ts.service.slug] ? photoById(SERVICE_FALLBACK[ts.service.slug])
+      : ts.service.slug === 'pet-turf' ? scene(ts.town.slug.length % 2 ? 'dogs-playing' : 'dog-patio')
+      : ts.service.slug === 'commercial-turf' ? scene(COMMERCIAL_SCENES[ts.town.slug.length % 3])
+      : photoById('fire-pit')))
+  : null;
+const tsCaption = Boolean(ts?.photo);
 const heroOg = tsHero ? (await getImage({ src: tsHero.src, width: 1200, format: 'jpg', quality: 72 })).src : undefined;
 const cmHero = cm ? (cm.photo ?? photoById(cm.d.kind === 'golf' ? 'dusk' : 'fire-pit')) : null;
 const cmOg = cmHero ? (await getImage({ src: cmHero.src, width: 1200, format: 'jpg', quality: 72 })).src : undefined;
@@ -278,7 +288,7 @@ const tsGood = ts && townGood
 ---
 {ts && (
 <Base title={d.title} description={d.description} crumbs={crumbs} graph={graph} draft={page.draft} ogImage={og ?? heroOg}>
-  <PageHero label={`${service.name} · ${name}, CO`} crumbs={crumbs} photo={tsHero} lede={SERVICE_HOOK[service.slug]?.(name) ?? d.lede}>
+  <PageHero label={`${service.name} · ${name}, CO`} crumbs={crumbs} photo={tsHero} caption={tsCaption} lede={SERVICE_HOOK[service.slug]?.(name) ?? d.lede}>
     {SERVICE_H1[service.slug] ?? service.name} in <PaintWord now>{name}.</PaintWord>
     <div slot="after" class="tsvtop__acts">
       <a class="btn btn--paint" href="#estimate" data-cta="town-service-hero-quote">Book a yard walk <Icon name="arrow" /></a>
@@ -305,8 +315,7 @@ const tsGood = ts && townGood
     <section class="section ground-2" id="faq" aria-labelledby="faq-h">
       <div class="wrap tsvfaq">
         <header class="tsvfaq__head">
-          <p class="label">Questions</p>
-          <h2 id="faq-h" class="tsvfaq__h">{meta.crumb} in {name}: what people ask.</h2>
+          <h2 id="faq-h" class="tsvfaq__h">Questions about {meta.crumb.toLowerCase()} in {name}.</h2>
         </header>
         <Faq items={d.faq} name={`faq-${id}`} />
       </div>
@@ -334,8 +343,8 @@ const tsGood = ts && townGood
 )}
 {cm && (
 <Base title={cm.d.title} description={cm.d.description} crumbs={cm.crumbs} graph={cm.graph} draft={cm.c.draft} ogImage={cm.og ?? cmOg} about={cm.placeRef} styles={[communityCss]}>
-  <PageHero label={`${cm.name} · ${cm.townName}, CO`} crumbs={cm.crumbs} photo={cmHero}
-    lede={`Planning turf or a putting green in ${cm.name}? We’ll plan it around ${cm.governing && cm.governing.type !== 'none-found' ? `the ${cm.governing.name} rules` : 'the rules that apply here'}, so you know what’s allowed before you start.`}>
+  <PageHero label={`${cm.name} · ${cm.townName}, CO`} crumbs={cm.crumbs} photo={cmHero} caption={Boolean(cm.photo)}
+    lede={`Planning turf or a putting green in ${cm.name}? We’ll design it around ${cm.governing && cm.governing.type !== 'none-found' ? `the ${cm.governing.name} rules` : 'the rules that apply here'}, so you know what’s allowed before you start.`}>
     Turf and putting greens in <PaintWord now>{cm.name}.</PaintWord>
     <div slot="after" class="tsvtop__acts">
       <a class="btn btn--paint" href="#estimate" data-cta="community-hero-quote">Book a yard walk <Icon name="arrow" /></a>
@@ -347,14 +356,14 @@ const tsGood = ts && townGood
 
   <SellGood place={cm.name} answer={cm.d.answer} good={COMMUNITY_SELL[`${cm.town.slug}--${cm.d.slug}`]?.good ?? goodFrom(cm.numbered)} />
 
-  <SellServices town={cm.name} townPages={cmTownPages} heading={`Lawns, putting greens and dog yards for ${cm.name} homes.`} />
+  <SellServices town={cm.name} townPages={cmTownPages} heading={`What we build in ${cm.name}.`} />
 
   {cm.photo && <TownServicePhoto photo={cm.photo} />}
 
   <SellSteps place={cm.name} />
 
   <TownServiceAround service={cm.name} town={cm.townName} nearby={cm.townLinks.map((n, i) => ({ ...n, line: i === 0 ? (TOWN_SELL[cm.town.slug]?.hook ?? '') : '' }))} others={cm.neighbors}
-    heads={{ nearby: { label: `Around ${cm.name}`, title: `More for ${cm.townName} homes.` }, others: { label: `More in ${cm.townName}`, title: `Other ${cm.townName} neighborhoods.` } }} />
+    heads={{ nearby: { label: `Around ${cm.name}`, title: `More in ${cm.townName}.` }, others: { label: `More in ${cm.townName}`, title: `Other ${cm.townName} neighborhoods.` } }} />
 
   <TownServiceGuides topic={COMMUNITY_TOPIC} picks={COMMUNITY_GUIDES} />
 
@@ -362,8 +371,7 @@ const tsGood = ts && townGood
     <section class="section ground-2" id="faq" aria-labelledby="faq-h">
       <div class="wrap tsvfaq">
         <header class="tsvfaq__head">
-          <p class="label">Questions</p>
-          <h2 id="faq-h" class="tsvfaq__h">A yard in {cm.name}: what people ask.</h2>
+          <h2 id="faq-h" class="tsvfaq__h">Questions about yards in {cm.name}.</h2>
         </header>
         <Faq items={cm.d.faq} name={`faq-${id}`} />
       </div>

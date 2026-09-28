@@ -34,7 +34,7 @@ const { items, name = 'faq' } = Astro.props;
   .faq__item[open] .faq__x::after { scale: 0 1; }
   .faq__a { padding: 0 0 22px; max-width: 68ch; color: var(--ink-2); }
   .faq__a p:last-child { margin: 0; }
-  .faq__more a { font-family: var(--font-display); font-weight: 700; font-stretch: 104%; color: var(--ink); text-decoration-color: var(--paint); }
+  .faq__more a { display: inline-flex; align-items: center; min-height: 44px; font-family: var(--font-display); font-weight: 700; font-stretch: 104%; color: var(--ink); text-decoration-color: var(--paint); }
   @media (prefers-reduced-motion: no-preference) {
     .faq__item::details-content { block-size: 0; overflow-y: clip; transition: block-size var(--t4) var(--ease), content-visibility var(--t4) allow-discrete; }
     .faq__item[open]::details-content { block-size: auto; }

@@ -13,6 +13,7 @@
  */
 import Base from '../layouts/Base.astro';
 import PageHero from '../components/PageHero.astro';
+import Reviews from '../components/Reviews.astro';
 import CoHead from '../components/CoHead.astro';
 import CoCrewClip from '../components/CoCrewClip.astro';
 import CorridorMap from '../components/CorridorMap.astro';
@@ -60,9 +61,9 @@ const description = `${name} is ${owner ? `${owner}'s` : 'a'} turf company: regi
     label={`About ${name}`}
     crumbs={crumbs}
     photo={hero}
-    lede={`${name} is ${owner ? `${owner}’s` : 'a local'} turf company in Windsor, building artificial turf lawns, backyard putting greens and dog yards in ${word(towns.length)} towns from Wellington to Longmont.`}
+    lede={`We build artificial turf lawns, backyard putting greens and dog runs in ${word(towns.length)} towns from Wellington to Longmont.`}
   >
-    A Windsor turf company, <PaintWord now>owner-led.</PaintWord>
+    {owner ? <>{owner}’s turf company, based in <PaintWord now>Windsor.</PaintWord></> : <>A turf company based in <PaintWord now>Windsor.</PaintWord></>}
     <div slot="after" class="ab-hero__acts">
       <a class="btn btn--paint" href="#estimate" data-cta="about-quote">Book a yard walk <Icon name="arrow" /></a>
       {phoneHref && <a class="btn btn--line" href={phoneHref} data-cta="about-call"><Icon name="phone" />Call <span class="btn__num">{phoneDisplay}</span></a>}
@@ -75,8 +76,9 @@ const description = `${name} is ${owner ? `${owner}'s` : 'a'} turf company: regi
       <div class="wrap ab-owner__grid">
         <CoHead label="The owner" id="owner-h">Meet {owner}.</CoHead>
         <div class="ab-owner__body">
-          <p class="ab-owner__lead">{owner} has been installing artificial turf for {years ?? 13} years{reg && <>, and started {name} in Windsor in {formedMonth}</>}. The company builds just about anything that’s turf: lawns, backyard putting greens, dog runs and play yards, plus HOA and commercial work.</p>
-          <p class="ab-owner__note">When you call, you’re talking to a local, owner-led company, and the person who plans your yard knows the ground here: the clay, the hail, the snow and the town rules that decide what’s allowed.</p>
+          <p class="ab-owner__lead">I’ve been installing artificial turf for {years ?? 13} years{reg && <>, and I started {name} in Windsor in {formedMonth}</>}. We build just about anything that’s turf: lawns, backyard putting greens, dog runs and play areas, plus HOA and commercial work.</p>
+          <p class="ab-owner__note">We’re local, so whoever plans your yard knows the ground here: the clay, the hail, the snow, and the town rules that decide what’s allowed.</p>
+          <p class="ab-owner__sig">{owner} Richmond, owner</p>
         </div>
       </div>
     </section>
@@ -88,8 +90,8 @@ const description = `${name} is ${owner ? `${owner}'s` : 'a'} turf company: regi
       <CoCrewClip label="On the job" sizes="(max-width: 899px) 90vw, 34vw" />
       <div class="ab-crew__copy">
         <CoHead label="On the job" id="crew-h" paint>The details that make turf <PaintWord text>look like grass.</PaintWord></CoHead>
-        <p>The last step on a new lawn: a power broom brushes the infill in and stands the blades up, so the turf looks like grass, not carpet.</p>
-        <p>The part you can’t see matters just as much: the dig, the rock base and how well it’s packed. That’s what keeps a yard flat on Northern Colorado clay.</p>
+        <p>The last step on a new lawn: we run a power broom over it to brush the infill in and stand the blades up. That’s what makes it look like real grass.</p>
+        <p>The part you can’t see matters just as much: how deep we dig, the rock base and how well it’s packed. That’s what keeps a yard flat on our clay.</p>
         <a class="btn btn--line ab-crew__btn" href="/services/artificial-turf-installation/">How an install works <Icon name="arrow" /></a>
       </div>
     </div>
@@ -171,6 +173,8 @@ const description = `${name} is ${owner ? `${owner}'s` : 'a'} turf company: regi
     </div>
   </section>
 
+  <Reviews />
+
   <!-- Where — the corridor map. -->
   <section class="section ab-map" aria-labelledby="map-h">
     <div class="wrap">
@@ -196,6 +200,7 @@ const description = `${name} is ${owner ? `${owner}'s` : 'a'} turf company: regi
   .ab-quote footer { display: grid; gap: 2px; font-size: var(--fs-small); color: var(--ink-2); }
   .ab-quote footer > span:first-child::before { content: ''; display: inline-block; width: 22px; height: 3px; border-radius: 2px; background: var(--paint); vertical-align: middle; margin-right: 10px; }
   .ab-quote__when { color: var(--ink-3); padding-left: 32px; }
+  .ab-owner__sig { margin: 18px 0 0; font-family: var(--font-display); font-weight: 700; }
   .ab-owner__note { margin: clamp(28px, 3vw, 40px) 0 0; padding-top: 22px; border-top: 1px solid var(--line); color: var(--ink-2); max-width: 54ch; }
   .ab-said { display: grid; grid-template-columns: 1fr 1fr; gap: 28px 40px; margin-top: clamp(40px, 5vw, 72px); }
   .ab-quote--small p { font-size: clamp(1.3rem, 1.05rem + 0.9vw, 1.75rem); font-weight: 720; letter-spacing: -0.025em; line-height: 1.12; margin-bottom: 12px; }

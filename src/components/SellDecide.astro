@@ -8,13 +8,16 @@ import Icon from './Icon.astro';
 import type { ServiceSell } from '../data/service-sell';
 interface Props { s: ServiceSell; name: string }
 const { s, name } = Astro.props;
-const lower = name.toLowerCase();
+const NOUN: Record<string, string> = {
+  'Artificial turf installation': 'a turf lawn', 'Pet turf and dog runs': 'pet turf', 'Backyard putting greens': 'a backyard green',
+  'Playground turf': 'playground turf', 'Commercial, HOA and sports turf': 'commercial turf',
+};
+const noun = NOUN[name] ?? name.toLowerCase();
 ---
 <section class="section dc" id="fit" aria-labelledby="fit-h">
   <div class="wrap">
     <header class="dc__head">
-      <p class="label">Is it right for you?</p>
-      <h2 id="fit-h">Who {lower} suits, and when to think twice.</h2>
+      <h2 id="fit-h">Is {noun} right for you?</h2>
     </header>
     <div class="dc__fit">
       <div class="dc__col dc__col--yes">
@@ -32,8 +35,7 @@ const lower = name.toLowerCase();
 <section class="section ground-2 dc" id="expect" aria-labelledby="expect-h">
   <div class="wrap">
     <header class="dc__head">
-      <p class="label">Living with it</p>
-      <h2 id="expect-h">What to expect after it goes in.</h2>
+      <h2 id="expect-h">What it’s like to live with.</h2>
     </header>
     <ul class="dc__expect" role="list">
       {s.expect.map((e) => (
@@ -50,10 +52,9 @@ const lower = name.toLowerCase();
 <section class="section dc" id="price" aria-labelledby="price-h">
   <div class="wrap dc__price">
     <header class="dc__head">
-      <p class="label">Cost</p>
-      <h2 id="price-h">What moves the price.</h2>
-      <p class="lede">Every yard prices differently. These are the things that decide yours, and why the price comes after we’ve seen the yard.</p>
-      <p><a class="btn btn--paint" href="#estimate" data-cta="price-quote">Get your price: book a yard walk <Icon name="arrow" /></a></p>
+      <h2 id="price-h">What affects the price.</h2>
+      <p class="lede">Every yard is different, so we price yours after we’ve seen it. These are the things that change it most.</p>
+      <p><a class="btn btn--paint" href="#estimate" data-cta="price-quote">Get a price for your yard <Icon name="arrow" /></a></p>
     </header>
     <ol class="dc__list" role="list">{s.price.map((p, i) => <li><span class="num">{String(i + 1).padStart(2, '0')}</span><span>{p}</span></li>)}</ol>
   </div>

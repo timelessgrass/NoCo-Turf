@@ -1,6 +1,6 @@
 ---
 /** A handful of drawn icons — no icon library. 24px grid, 1.75 stroke, round caps. */
-interface Props { name: 'phone' | 'arrow' | 'arrow-down' | 'menu' | 'close' | 'chevron' | 'pin' | 'play' | 'external' | 'check'; size?: number; class?: string; }
+interface Props { name: 'phone' | 'arrow' | 'arrow-down' | 'menu' | 'close' | 'chevron' | 'pin' | 'play' | 'external' | 'check' | 'star' | 'doc'; size?: number; class?: string; }
 const { name, size = 20, class: cls } = Astro.props;
 const paths: Record<string, string> = {
   phone: '<path d="M6.6 3.5h2.6l1.5 4-2 1.3a11 11 0 0 0 6.5 6.5l1.3-2 4 1.5v2.6a2.1 2.1 0 0 1-2.3 2.1C10.9 19 5 13.1 4.5 5.8a2.1 2.1 0 0 1 2.1-2.3Z"/>',
@@ -13,6 +13,8 @@ const paths: Record<string, string> = {
   play: '<path d="M8 5.5v13l10.5-6.5Z"/>',
   external: '<path d="M14 4.5h5.5V10M19.5 4.5 11 13M18 14v4.5a1 1 0 0 1-1 1H5.5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1H10"/>',
   check: '<path d="m5 12.5 4.5 4.5L19 7.5"/>',
+  star: '<path d="m12 3.8 2.5 5.1 5.6.8-4 3.9.9 5.6-5-2.6-5 2.6.9-5.6-4-3.9 5.6-.8Z"/>',
+  doc: '<path d="M7 3.5h7l4 4v13H7Z"/><path d="M14 3.5v4h4M9.5 12.5h6M9.5 16h6"/>',
 };
 ---
 <svg class={cls} width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" set:html={paths[name]} />

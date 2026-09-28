@@ -1,30 +1,41 @@
 ---
 /**
- * SellTrust — the strip under a sales hero: four short reasons to call, none of them a claim the brief can't
- * back (Windsor base: the brief's locality; rules: every town page's own research; the written plan and price: the
- * process in SellSteps).
+ * SellTrust — the strip under a sales hero: four short reasons to call, each one true and, where it can be, linked.
+ * The Google rating renders only as text beside a live link to the listing (src/data/reviews.ts; approved in
+ * .site/truth/claims.json), never a count and never markup. Windsor base: the brief. Rules: every town page's own
+ * research. The written plan and price: the process in SellSteps.
  */
+import Icon from './Icon.astro';
+import { GOOGLE_URL, GOOGLE_RATING } from '../data/reviews';
 interface Props { town?: string }
 const { town } = Astro.props;
-const items = [
-  { k: 'Local', v: 'Based in Windsor, working Wellington to Longmont' },
-  { k: 'Rules first', v: town ? `${town}’s turf rules checked before we quote` : 'Your town’s turf rules checked before we quote' },
-  { k: 'Built underneath', v: 'Base and drainage made for Northern Colorado clay' },
-  { k: 'In writing', v: 'Your plan and price in writing before work starts' },
-];
 ---
 <section class="tr" aria-label="Why NoCo Turf Co.">
   <ul class="wrap tr__list" role="list">
-    {items.map((it) => <li class="tr__item"><span class="label">{it.k}</span><span class="tr__v">{it.v}</span></li>)}
+    {GOOGLE_URL && (
+      <li class="tr__item tr__item--star">
+        <a class="tr__link" href={GOOGLE_URL} rel="noopener" data-cta="trust-google">
+          <Icon name="star" size={22} class="tr__ico" />
+          <span><strong>{GOOGLE_RATING} on Google</strong><span class="tr__sub">Read the reviews</span></span>
+        </a>
+      </li>
+    )}
+    <li class="tr__item"><Icon name="pin" size={22} class="tr__ico" /><span><strong>Based in Windsor</strong><span class="tr__sub">Working Wellington to Longmont</span></span></li>
+    <li class="tr__item"><Icon name="check" size={22} class="tr__ico" /><span><strong>We check the rules first</strong><span class="tr__sub">{town ? `${town}’s` : 'Your town’s'} and your HOA’s, before we quote</span></span></li>
+    <li class="tr__item"><Icon name="doc" size={22} class="tr__ico" /><span><strong>Plan and price in writing</strong><span class="tr__sub">Before any work starts</span></span></li>
   </ul>
 </section>
 
 <style>
   .tr { border-bottom: 1px solid var(--line); background: var(--ground); }
-  .tr__list { list-style: none; margin: 0 auto; padding-block: clamp(18px, 2vw, 26px); display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px clamp(16px, 2.5vw, 40px); }
-  .tr__item { display: grid; gap: 6px; padding-left: 14px; border-left: 3px solid var(--paint); }
-  .tr__item .label { margin: 0; }
-  .tr__v { font-weight: 600; font-size: 0.98rem; line-height: 1.35; }
+  .tr__list { list-style: none; margin: 0 auto; padding-block: clamp(20px, 2.4vw, 30px); display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px clamp(16px, 2.5vw, 40px); }
+  .tr__item:not(.tr__item--star), .tr__link { display: grid; grid-template-columns: 26px 1fr; gap: 12px; align-items: start; }
+  .tr__link { color: inherit; text-decoration: none; min-height: 44px; }
+  .tr__link:hover strong { text-decoration: underline; text-decoration-color: var(--paint); text-decoration-thickness: 2px; text-underline-offset: 0.18em; }
+  .tr :global(.tr__ico) { color: var(--paint-ink); margin-top: 1px; }
+  .tr__item--star :global(.tr__ico) { fill: var(--paint); color: var(--paint); }
+  .tr strong { display: block; font-family: var(--font-display); font-weight: 720; font-size: 1.02rem; letter-spacing: -0.01em; line-height: 1.25; }
+  .tr__sub { display: block; margin-top: 2px; font-size: 0.9rem; color: var(--ink-2); line-height: 1.35; }
   @media (max-width: 899px) { .tr__list { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-  @media (max-width: 479px) { .tr__list { grid-template-columns: 1fr; } }
+  @media (max-width: 479px) { .tr__list { grid-template-columns: 1fr; gap: 14px; } }
 </style>

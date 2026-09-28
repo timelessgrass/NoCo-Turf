@@ -1,0 +1,47 @@
+---
+/**
+ * Reviews — a few short Google reviews, verbatim, each signed first name + last initial and linked to the listing
+ * (src/data/reviews.ts). No stars, no count and no review markup: the rating shows once, in SellTrust, beside its
+ * link. `pick` chooses which quotes (by index) so a dog-run page can lead with the dog-run review.
+ */
+import Icon from './Icon.astro';
+import { QUOTES, GOOGLE_URL, GOOGLE_RATING } from '../data/reviews';
+interface Props { pick?: number[]; id?: string; tone?: 'ground' | 'ground-2' }
+const { pick = [0, 1, 3], id = 'reviews', tone = 'ground' } = Astro.props;
+const quotes = pick.map((i) => QUOTES[i]).filter(Boolean);
+---
+{GOOGLE_URL && quotes.length > 0 && (
+  <section class:list={['section', 'rv', { 'ground-2': tone === 'ground-2' }]} id={id} aria-labelledby={`${id}-h`}>
+    <div class="wrap">
+      <header class="rv__head">
+        <h2 id={`${id}-h`}>What our customers say.</h2>
+        <a class="rv__all" href={GOOGLE_URL} rel="noopener" data-cta="reviews-google">{GOOGLE_RATING} on Google · Read the reviews <Icon name="external" size={16} /></a>
+      </header>
+      <ul class="rv__list" role="list">
+        {quotes.map((q) => (
+          <li class="rv__card rise">
+            <svg class="rv__mark" viewBox="0 0 32 24" aria-hidden="true"><path d="M0 24V14C0 6 4.5 1.3 12 0l1.3 3.4C8.7 5 6.8 8 6.6 11.5H13V24Zm19 0V14c0-8 4.5-12.7 12-14l1 3.4c-4.6 1.6-6.5 4.6-6.7 8.1H32V24Z" /></svg>
+            <blockquote class="rv__q"><p>{q.text}</p></blockquote>
+            <p class="rv__by"><strong>{q.name}</strong><span>{q.job} · Google review</span></p>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+)}
+
+<style>
+  .rv__head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 12px 32px; margin-bottom: clamp(28px, 4vw, 48px); }
+  .rv__head h2 { font-size: clamp(2rem, 1.25rem + 2.8vw, 3.4rem); max-width: 14ch; }
+  .rv__all { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; font-weight: 650; color: var(--ink); text-decoration-color: var(--paint); text-decoration-thickness: 2px; text-underline-offset: 0.2em; }
+  .rv__list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(14px, 2vw, 24px); }
+  .rv__card { display: grid; grid-template-rows: auto 1fr auto; gap: 16px; padding: clamp(22px, 2.6vw, 32px); border-radius: var(--r-panel); background: var(--ground-2); }
+  .rv.ground-2 .rv__card { background: var(--ground); }
+  .rv__mark { width: 30px; height: 22px; fill: var(--paint); }
+  .rv__q { margin: 0; }
+  .rv__q p { margin: 0; font-size: 1.1rem; line-height: 1.5; color: var(--ink); }
+  .rv__by { margin: 0; display: grid; gap: 2px; padding-top: 14px; border-top: 1px solid var(--line); }
+  .rv__by strong { font-family: var(--font-display); font-weight: 720; }
+  .rv__by span { font-size: 0.9rem; color: var(--ink-2); }
+  @media (max-width: 899px) { .rv__list { grid-template-columns: 1fr; } }
+</style>
