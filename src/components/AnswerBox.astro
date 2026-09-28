@@ -16,7 +16,12 @@ const firstPerson = (s: string) => s
   .replace(/^(For [^,]+, )NoCo Turf Co\. can /, '$1we can ')
   .replace(/^NoCo Turf Co\. (installs|builds|bids|answers|can) /, (_m, v: string) => `At NoCo Turf Co., we ${VERB[v]} `);
 const brand = answer.match(/(?:^|\s)((?:Ask |For [^.]*?, )?NoCo Turf Co\. [^.]*\.)(?=\s|$)/);
-const text = brand ? `${answer.replace(brand[0], ' ').trim()} ${firstPerson(brand[1])}` : answer;
+// A bare brand line moves to the end. One that carries a fact ("…in Evans, where …") stays put: the sentences
+// after it lean on that fact, and moved last it leaves them pointing at nothing.
+const carriesFact = brand && /,\s+(?:where|which|so|and|but)\s/.test(brand[1]);
+const text = !brand ? answer
+  : carriesFact ? answer.replace(brand[1], firstPerson(brand[1]))
+  : `${answer.replace(brand[0], ' ').trim()} ${firstPerson(brand[1])}`;
 ---
 <aside class="ab" aria-label="Quick answer">
   <p class="ab__q">{question}</p>
