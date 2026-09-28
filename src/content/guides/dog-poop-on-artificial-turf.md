@@ -116,7 +116,7 @@ needsFromBrian:
   - "Whether you ever add a hose bib, a drain or a separate base section for a dog run, and what that changes in the job."
 ---
 
-**Checked September 25, 2026.** Dogs can go on artificial turf, and picking up after them works much as it does on grass. What changes is what happens to the leftovers: turf has no soil life to break them down, so a set potty spot and a short routine have to do that work. Urine smell has its own page, [how to get dog urine smell out of artificial turf](/guides/dog-urine-smell-artificial-turf/); this one is about poop.
+Dogs can go on artificial turf, and picking up after them works much as it does on grass. What changes is what happens to the leftovers: turf has no soil life to break them down, so a set potty spot and a short routine have to do that work. Urine smell has its own page, [how to get dog urine smell out of artificial turf](/guides/dog-urine-smell-artificial-turf/); this one is about poop.
 
 ## Does dog poop ruin artificial turf?
 

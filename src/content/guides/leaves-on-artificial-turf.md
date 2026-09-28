@@ -116,7 +116,7 @@ needsFromBrian:
   - "What you tell a customer who wants turf under a big cottonwood, ash, honeylocust or pine: the pile height, infill and edge details you would steer them toward."
 ---
 
-**Checked September 25, 2026.** The turf doesn't drop anything, but the trees around it do, and a Northern Colorado yard gets something from them in almost every season: elm seed in spring, cottonwood cotton in June, twigs through the summer, leaves and needles in fall. Every source below agrees on two things: get it off before it breaks down, and don't take the infill with it.
+The turf doesn't drop anything, but the trees around it do, and a Northern Colorado yard gets something from them in almost every season: elm seed in spring, cottonwood cotton in June, twigs through the summer, leaves and needles in fall. Every source below agrees on two things: get it off before it breaks down, and don't take the infill with it.
 
 ## Which tool should I use: blower, rake, broom, sweeper or vacuum?
 

@@ -147,7 +147,7 @@ needsFromBrian:
   - "A close-up photo of field crumb rubber beside coated sand from a lawn, with a coin or ruler for scale."
 ---
 
-**Checked September 25, 2026.** The black specks that fly up when a ball lands on many school fields are crumb rubber. Each study below is reported as its authors stated it, limits included. The rest of the turf, from blades to backing, is covered in [is artificial turf toxic](/guides/is-artificial-turf-toxic/).
+The black specks that fly up when a ball lands on many school fields are crumb rubber. Each study below is reported as its authors stated it, limits included. The rest of the turf, from blades to backing, is covered in [is artificial turf toxic](/guides/is-artificial-turf-toxic/).
 
 ## Why does artificial turf have rubber pellets?
 

@@ -9,7 +9,7 @@ import Icon from './Icon.astro';
 import PaintWord from './PaintWord.astro';
 import { phoneHref, phoneDisplay } from '../data/brief';
 interface Props { title: string; payoff?: string; lede?: string; form?: boolean; town?: string; use?: string; }
-const { title, payoff, lede = 'Tell us about the yard and how to reach you. Three short parts, no account, no upload.', form = true, town, use } = Astro.props;
+const { title, payoff, lede = 'Tell us about your yard and how to reach you, and we’ll set up a time to come out.', form = true, town, use } = Astro.props;
 ---
 <section class="section on-slab cta" aria-labelledby="cta-h">
   <div class:list={['wrap', 'cta__grid', { 'cta__grid--form': form }]}>

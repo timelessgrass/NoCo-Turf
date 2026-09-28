@@ -149,7 +149,7 @@ needsFromBrian:
   - "Which hardscape contractors or designers you work with on combined jobs, and the order you schedule stone, base and turf in, so this page can describe the hand-off."
 ---
 
-**Checked September 25, 2026.** Turf joints between pavers or slabs, stepping stones set in turf, and a paver walk with turf beside it all put two materials that answer winter differently side by side on the same clay. Whether to pave or turf a space at all is in [turf, pavers or concrete](/guides/artificial-turf-vs-pavers-concrete/).
+Turf joints between pavers or slabs, stepping stones set in turf, and a paver walk with turf beside it all put two materials that answer winter differently side by side on the same clay. Whether to pave or turf a space at all is in [turf, pavers or concrete](/guides/artificial-turf-vs-pavers-concrete/).
 
 ## Which layouts combine turf with pavers or flagstone?
 

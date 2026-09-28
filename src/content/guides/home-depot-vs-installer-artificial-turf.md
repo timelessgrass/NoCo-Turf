@@ -128,7 +128,7 @@ needsFromBrian:
   - "Whether you have seen a store roll go through Barefoot Lakes' review committee or Firestone's permit desk, and how it was treated."
 ---
 
-**Checked September 25, 2026.** Store listings and makers' terms change without notice, so treat the figures here as a snapshot and read the live listing and its current spec sheet before you buy. Used, remnant and liquidator rolls are a different question, covered in our [guide to used and remnant turf](/guides/used-artificial-turf/).
+Store listings and makers' terms change without notice, so treat the figures here as a snapshot and read the live listing and its current spec sheet before you buy. Used, remnant and liquidator rolls are a different question, covered in our [guide to used and remnant turf](/guides/used-artificial-turf/).
 
 ## Do Home Depot and Costco rolls meet a real turf spec?
 

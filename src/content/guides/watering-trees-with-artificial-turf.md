@@ -156,7 +156,7 @@ needsFromBrian:
   - "Any tree that declined after a turf job (yours or another installer's), what went wrong with its water, and what you changed."
 ---
 
-**Checked September 25, 2026.** A tree in a lawn drinks the lawn's water. When the grass becomes artificial turf and the lawn zones shut off, that water stops. Here is where the water should go once turf covers the roots, how to set up drip you can still reach, and how to carry a tree through a dry Northern Colorado winter under your town's rules.
+A tree in a lawn drinks the lawn's water. When the grass becomes artificial turf and the lawn zones shut off, that water stops. Here is where the water should go once turf covers the roots, how to set up drip you can still reach, and how to carry a tree through a dry Northern Colorado winter under your town's rules.
 
 ## Why do trees in a new turf yard suddenly need their own water?
 

@@ -12,7 +12,7 @@ display:
   cta:
     title: "HOA or not,"
     payoff: "it starts with a yard walk."
-    lede: "Tell us about the yard and whether there's an HOA. Three short parts, no account, no upload."
+    lede: "Tell us about the yard and whether there's an HOA."
 answer:
   question: "Can my HOA stop me from installing artificial turf in Colorado?"
   answer: "Not in the backyard of a detached single-family home. Colorado law (C.R.S. 38-33.3-106.5) bars an HOA from prohibiting artificial turf there, though it can still apply design rules and review your plans. Front yards aren't protected, and on an attached home such as a townhome the HOA may limit turf to rear yards. This is general information, not legal advice."
@@ -93,7 +93,7 @@ needsFromBrian:
   - "One HOA approval NoCo has been through, with the HOA's name withheld if you prefer, for a case study."
 ---
 
-**Checked September 24, 2026. Not legal advice:** this page explains Colorado statutes in plain English. For a dispute, talk to a Colorado attorney.
+**Not legal advice:** this page explains Colorado statutes in plain English. For a dispute, talk to a Colorado attorney.
 
 ## Can my HOA stop me from installing artificial turf?
 

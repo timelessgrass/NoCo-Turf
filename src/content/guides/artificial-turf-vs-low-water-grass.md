@@ -154,7 +154,7 @@ needsFromBrian:
   - "How you edge turf where it meets a buffalograss or bluegrass lawn so runners stay out (edge material and depth), in your own words."
 ---
 
-**Checked September 25, 2026.** Buffalograss, blue grama and microclover all get sold as the lawn that barely needs watering. On the Front Range only buffalograss has Colorado State University numbers behind that, and it pays with a lawn that is brown most of the year.
+Buffalograss, blue grama and microclover all get sold as the lawn that barely needs watering. On the Front Range only buffalograss has Colorado State University numbers behind that, and it pays with a lawn that is brown most of the year.
 
 ## How much water does a low-water grass save on the Front Range?
 

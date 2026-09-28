@@ -100,7 +100,7 @@ needsFromBrian:
   - "What you have seen winter do to how your greens putt (frost, a frozen base, snowmelt), in your own words; the page makes no claim about it until then."
 ---
 
-**Checked September 25, 2026.** A stimp number is a distance: how many feet a golf ball rolls on your green after leaving the USGA's ramp at a set speed. Here is how to pick one, how to take the reading, and what moves it on a Northern Colorado green between the first snow and the spring brush-out.
+A stimp number is a distance: how many feet a golf ball rolls on your green after leaving the USGA's ramp at a set speed. Here is how to pick one, how to take the reading, and what moves it on a Northern Colorado green between the first snow and the spring brush-out.
 
 ## What does a stimp number actually measure?
 

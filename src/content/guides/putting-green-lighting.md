@@ -151,7 +151,7 @@ needsFromBrian:
   - "Any HOA or metro-district approval that covered lighting on one of your greens, and any town that asked for an electrical permit for a low-voltage system (Fort Collins, Timnath, Loveland or Windsor especially)."
 ---
 
-**Checked September 26, 2026. Not legal advice:** the lighting rules below are quoted from each town's, county's and association's own code or guidelines as they read on that date. Your town, county and HOA have the final word.
+**Not legal advice:** the lighting rules below are quoted from each town's, county's and association's own code or guidelines as they read on September 26, 2026. Your town, county and HOA have the final word.
 
 This page covers the lights, the wire and the rules. The green's shape and cups are in [designing a custom backyard putting green](/guides/putting-green-design-ideas/); patio, kitchen and fire-feature lighting is in [planning a backyard around turf](/guides/outdoor-living-with-artificial-turf/).
 

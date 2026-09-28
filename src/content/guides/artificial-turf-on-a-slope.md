@@ -25,7 +25,7 @@ faq:
   - q: "Can a putting green go on the slope too?"
     a: "Yes, but a green needs its cups on nearly flat ground, far flatter than a lawn can tolerate. How much slope a green can carry at the speed you want, and when the ground under it gets cut and filled, is in our guide to putting greens on sloped yards."
   - q: "Does a sloped yard cost more to turf?"
-    a: "It usually takes more work. FusionTurf, a turf maker, says sloped installs take more base work, anchoring and detailing than flat ones, and cost more when geogrid, drainage or terraces are added. This page carries no prices; our cost guide lists what moves a Northern Colorado quote."
+    a: "It usually takes more work. FusionTurf, a turf maker, says sloped installs take more base work, anchoring and detailing than flat ones, and cost more when geogrid, drainage or terraces are added. Our cost guide lists what moves a Northern Colorado quote."
 layerRefs:
   - artificial-turf-on-a-slope.isu-slope-classes
   - artificial-turf-on-a-slope.isu-water-from-top
@@ -167,7 +167,7 @@ needsFromBrian:
   - "Any Firestone job where the town applied its 5:1 turf slope limit, and anything a building department or HOA asked for on a sloped yard."
 ---
 
-**Checked September 25, 2026.** A slope doesn't rule out artificial turf. It changes how the base and turf are held on the grade and where storm water goes, and on steep ground it raises the question of a wall.
+A slope doesn't rule out artificial turf. It changes how the base and turf are held on the grade and where storm water goes, and on steep ground it raises the question of a wall.
 
 ## How steep is too steep for artificial turf?
 

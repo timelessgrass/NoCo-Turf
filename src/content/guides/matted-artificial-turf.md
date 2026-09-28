@@ -145,7 +145,7 @@ needsFromBrian:
   - "Whether your crews run gas or battery power brooms, given Regulation 29 and the November 2026 hearing on commercial lawn equipment."
 ---
 
-**Checked September 25, 2026.** Flat turf is usually two jobs at once: brushing and infill. The blades lie down under weight, then stay down when there isn't enough infill between them to hold them up. This page covers the fix first, then the point where brushing stops working.
+Flat turf is usually two jobs at once: brushing and infill. The blades lie down under weight, then stay down when there isn't enough infill between them to hold them up. This page covers the fix first, then the point where brushing stops working.
 
 ## Why does artificial turf go flat?
 

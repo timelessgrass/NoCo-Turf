@@ -183,7 +183,7 @@ needsFromBrian:
   - "Any hail or chinook-wind damage you have seen on a field or a large commercial turf area here: the date, the place and what had to be repaired."
 ---
 
-**Checked September 27, 2026.** This page is for whoever answers for a synthetic sports field in Northern Colorado: a school district, a parks department, a club or a metro district. It covers how long a field lasts, what wears one out here, and what replacing it involves, drawn from industry guidelines and what local owners have published. Whether a field should be synthetic in the first place is in our [guide to synthetic and grass sports fields](/guides/turf-vs-grass-sports-fields/).
+This page is for whoever answers for a synthetic sports field in Northern Colorado: a school district, a parks department, a club or a metro district. It covers how long a field lasts, what wears one out here, and what replacing it involves, drawn from industry guidelines and what local owners have published. Whether a field should be synthetic in the first place is in our [guide to synthetic and grass sports fields](/guides/turf-vs-grass-sports-fields/).
 
 ## How many years does a synthetic turf field last?
 

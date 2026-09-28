@@ -156,7 +156,7 @@ needsFromBrian:
   - "A photo of a finished HOA yard that pairs backyard turf with a planted front yard, with the town and the month."
 ---
 
-**Checked September 25, 2026. Not legal advice:** this page reads town codes, HOA documents and Colorado statutes in plain English. For a dispute, talk to a Colorado attorney.
+**Not legal advice:** this page reads town codes, HOA documents and Colorado statutes in plain English. For a dispute, talk to a Colorado attorney.
 
 The word xeriscape gets used loosely, for anything from a yard of rock to a lawn of artificial turf. In a city code or an HOA's rules, though, xeriscape is a defined term, and the Northern Colorado codes that define it build it around living plants. Whether turf is allowed in your yard at all is a separate question, answered town by town in [artificial turf rules in Northern Colorado](/guides/turf-rules-northern-colorado/).
 

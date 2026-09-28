@@ -221,7 +221,7 @@ needsFromBrian:
   - "Whether you check for Low-E window reflection on site before placing a green, and any green you have moved or re-edged because of it."
 ---
 
-**Checked September 26, 2026.** A custom green is designed from the ground up: the break lives in the base, the cups sit where you practice, and the edges decide how it meets the yard. Sizing is in our [guide to backyard putting green size](/guides/backyard-putting-green-size/), and cost in our [guide to backyard putting green cost](/guides/backyard-putting-green-cost/).
+A custom green is designed from the ground up: the break lives in the base, the cups sit where you practice, and the edges decide how it meets the yard. Sizing is in our [guide to backyard putting green size](/guides/backyard-putting-green-size/), and cost in our [guide to backyard putting green cost](/guides/backyard-putting-green-cost/).
 
 ## How is break built into a green, and what does Northern Colorado ground do to it?
 

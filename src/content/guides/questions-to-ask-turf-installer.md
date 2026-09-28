@@ -172,7 +172,7 @@ needsFromBrian:
   - "What paperwork you hand a buyer before signing: spec sheet, the maker's PFAS statement, the maker's written coverage terms, your own workmanship terms, and an insurance certificate."
 ---
 
-**Checked September 25, 2026.** A quote tells you what a turf job costs; these questions tell you who will build it and who answers for it later. They matter most on design-led work: a putting green behind a golf-community home, a custom build with an approved landscape plan, a street where a committee reviews every change. For comparing line items, see our [guide to artificial turf cost](/guides/artificial-turf-cost/).
+A quote tells you what a turf job costs; these questions tell you who will build it and who answers for it later. They matter most on design-led work: a putting green behind a golf-community home, a custom build with an approved landscape plan, a street where a committee reviews every change. For comparing line items, see our [guide to artificial turf cost](/guides/artificial-turf-cost/).
 
 ## Is artificial turf the main thing you build?
 

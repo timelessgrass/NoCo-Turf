@@ -174,7 +174,7 @@ needsFromBrian:
   - "One custom-home community whose design review you have been through (name withheld if you prefer): what the committee asked for about turf and how long it took."
 ---
 
-**Checked September 26, 2026.** On a custom build the yard is designed with the house, so turf belongs in that design, not in a list of things to add after move-in. Three schedules set its date: the builder's, the town's permit and certificate of occupancy (CO), and the HOA or metro district's design review. A production builder's dirt backyard is covered in [a new-build dirt yard](/guides/new-build-backyard-turf/).
+On a custom build the yard is designed with the house, so turf belongs in that design, not in a list of things to add after move-in. Three schedules set its date: the builder's, the town's permit and certificate of occupancy (CO), and the HOA or metro district's design review. A production builder's dirt backyard is covered in [a new-build dirt yard](/guides/new-build-backyard-turf/).
 
 ## Where does turf fall in a custom build's schedule?
 

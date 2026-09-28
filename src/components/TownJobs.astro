@@ -21,7 +21,7 @@ const spans = SPANS[Math.min(photos.length, 6)] ?? photos.map(() => 4);
           <p class="label">Recent work</p>
           <h2 id="jobs-h" class="tjobs__h">Yards we’ve built near {town}.</h2>
         </div>
-        <p class="lede tjobs__lede">Real photos from Brian’s jobs, each with where and when it was taken. No stock, no renders.</p>
+        <p class="lede tjobs__lede">A few recent yards we’ve built in and around {town}.</p>
       </header>
       <ol class="tjobs__grid" role="list">
         {photos.map((p, i) => (
@@ -31,7 +31,7 @@ const spans = SPANS[Math.min(photos.length, 6)] ?? photos.map(() => 4);
               <figcaption>
                 <span class="tjobs__no num">{String(i + 1).padStart(2, '0')}</span>
                 <span class="tjobs__cap">{p.caption}</span>
-                <span class="tjobs__rec">{p.place}{p.month && <> · {monthLabel(p.month)}</>}</span>
+                <span class="tjobs__rec">{p.place}</span>
               </figcaption>
             </figure>
           </li>

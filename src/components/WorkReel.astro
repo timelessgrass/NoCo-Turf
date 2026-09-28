@@ -25,7 +25,7 @@ const spans = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i'];
           <figcaption>
             <span class="reel__no num">{String(i + 1).padStart(2, '0')}</span>
             <span class="reel__cap">{p.caption}</span>
-            <span class="reel__rec">{p.place}{p.month && <> · {monthLabel(p.month)}</>}</span>
+            <span class="reel__rec">{p.place}</span>
           </figcaption>
         </figure>
       </li>
@@ -44,7 +44,7 @@ const spans = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i'];
       <button type="button" class="lb__btn lb__btn--close" data-lb-close aria-label="Close">✕</button>
     </div>
   </dialog>
-  <script type="application/json" data-lb-data set:html={JSON.stringify(photos.map((p, i) => ({ src: full[i].src, w: full[i].attributes.width, h: full[i].attributes.height, alt: p.alt, cap: `${String(i + 1).padStart(2, '0')} · ${p.caption} — ${p.place}${p.month ? `, ${monthLabel(p.month)}` : ''}` })))} />
+  <script type="application/json" data-lb-data set:html={JSON.stringify(photos.map((p, i) => ({ src: full[i].src, w: full[i].attributes.width, h: full[i].attributes.height, alt: p.alt, cap: `${String(i + 1).padStart(2, '0')} · ${p.caption} — ${p.place}` })))} />
 </div>
 
 <style>

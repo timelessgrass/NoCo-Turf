@@ -135,7 +135,7 @@ needsFromBrian:
   - "Whether you take odor calls on turf another company installed."
 ---
 
-**Checked September 25, 2026.** Turf that smells of dog urine is holding it somewhere: on the blades, in the infill, in the backing, or in the base below. The fixes start at the top and get bigger as they go down, so try them in order. How a new dog run is built to drain is on the [pet turf page](/services/pet-turf/).
+Turf that smells of dog urine is holding it somewhere: on the blades, in the infill, in the backing, or in the base below. The fixes start at the top and get bigger as they go down, so try them in order. How a new dog run is built to drain is on the [pet turf page](/services/pet-turf/).
 
 ## Why does turf smell worse on hot days and after a light rain?
 

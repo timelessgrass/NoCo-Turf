@@ -156,7 +156,7 @@ needsFromBrian:
   - "Link this page to the turf-repair service page once that page exists."
 ---
 
-**Checked September 25, 2026.** A turf edge rarely comes up on its own. Something loosened what held it, or it was never held well, and re-nailing without finding which only resets the clock. The border material itself is in [artificial turf edging options](/guides/artificial-turf-edging-options/); nail lengths and spacing are in [nails vs staples](/guides/artificial-turf-nails-vs-staples/).
+A turf edge rarely comes up on its own. Something loosened what held it, or it was never held well, and re-nailing without finding which only resets the clock. The border material itself is in [artificial turf edging options](/guides/artificial-turf-edging-options/); nail lengths and spacing are in [nails vs staples](/guides/artificial-turf-nails-vs-staples/).
 
 ## What lifted my turf edge?
 

@@ -84,12 +84,6 @@ const graph = [
   <PageHero label={`Guides · ${t.name}`} crumbs={crumbs} compact lede={t.lede}>
     {h1 ? <>{h1[0]}<PaintWord now>{h1[1]}</PaintWord>{h1[2]}</> : t.h1}
     <div class="hrec" slot="after">
-      <div class="hrec__row">
-        <p class="hrec__c"><span class="hrec__k">Guides</span> <span class="hrec__v num">{items.length}</span></p>
-        <p class="hrec__c"><span class="hrec__k">Checked</span> <time class="hrec__v num" datetime={latest}>{latest}</time></p>
-        <p class="hrec__c"><span class="hrec__k">Public sources</span> <span class="hrec__v num">{sources}</span></p>
-        {slug === 'water' && <p class="hrec__c"><span class="hrec__k">Water data</span> <a class="hrec__v" href="/data/noco-water-rates-2026.csv">CSV · CC BY 4.0</a></p>}
-      </div>
       {phoneHref && <p class="hrec__call">A question these don’t answer? <a href={phoneHref} data-cta="topic-call">Call <span class="num">{phoneDisplay}</span></a></p>}
     </div>
   </PageHero>
@@ -128,7 +122,7 @@ const graph = [
                     </ol>
                   </div>
                 )}
-                <p class="gidx__meta"><span>Checked <time datetime={it.checked}>{it.checked}</time> · {it.sources} sources</span><span class="gidx__cta" aria-hidden="true">{it.cta}<Icon name="arrow" size={18} /></span></p>
+                <p class="gidx__meta"><span class="gidx__cta" aria-hidden="true">{it.cta}<Icon name="arrow" size={18} /></span></p>
               </div>
             </article>
           </li>

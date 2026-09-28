@@ -131,7 +131,7 @@ needsFromBrian:
   - "Photos: flagged sprinkler heads and 811 paint on a lawn before a dig, a machine at a side gate, and a finished-day walkthrough, with town and month."
 ---
 
-**Checked September 25, 2026.** The crew's steps, in order, are on our [artificial turf installation page](/services/artificial-turf-installation/), and the calendar from first call to finished yard is in our guide to [how long turf installation takes](/guides/how-long-does-turf-installation-take/). This page is your part: the lines nobody else will mark, the sprinkler map, the way in, pets and neighbors, and the papers.
+The crew's steps, in order, are on our [artificial turf installation page](/services/artificial-turf-installation/), and the calendar from first call to finished yard is in our guide to [how long turf installation takes](/guides/how-long-does-turf-installation-take/). This page is your part: the lines nobody else will mark, the sprinkler map, the way in, pets and neighbors, and the papers.
 
 ## Which lines in my yard won't Colorado 811 mark?
 

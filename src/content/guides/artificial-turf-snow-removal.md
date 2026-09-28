@@ -146,7 +146,7 @@ needsFromBrian:
   - "Your winter advice for backyard putting green owners, so this page can point to it from the putting greens page."
 ---
 
-**Checked September 25, 2026.** Snow rarely hurts artificial turf; the clearing does. A metal blade, a snowblower's paddles, a broom on frozen blades or rock salt off the sidewalk can each do damage. Here is when to wait, how to move snow when you must, and what de-icers do to turf.
+Snow rarely hurts artificial turf; the clearing does. A metal blade, a snowblower's paddles, a broom on frozen blades or rock salt off the sidewalk can each do damage. Here is when to wait, how to move snow when you must, and what de-icers do to turf.
 
 ## Should I clear snow off artificial turf or let it melt?
 

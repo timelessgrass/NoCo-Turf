@@ -139,7 +139,7 @@ needsFromBrian:
   - "A dated photo set from one job: day one excavation, base, turf, infill and the finished yard."
 ---
 
-**Checked September 25, 2026. Not legal advice:** this page sums up Colorado's dig law and some neighborhood review rules in plain English. It gives no crew-day numbers yet; those go here once they come from real Northern Colorado jobs.
+**Not legal advice:** this page sums up Colorado's dig law and some neighborhood review rules in plain English.
 
 ## What sits between the first call and a finished yard?
 
@@ -189,7 +189,7 @@ Three details move a start date:
 
 ## How many days is the crew on site?
 
-That number isn't on this page yet. Crew days will go here as ranges from real Northern Colorado jobs, for a lawn, a dog run and a putting green. Until then, here is what moves the count on any yard:
+It depends on the yard. Here is what moves the number of days on any job:
 
 - **Size and shape.** One open rectangle goes faster than the same area broken up by beds, curves and trees.
 - **The way in.** A machine that fits through the gate moves soil and rock far faster than wheelbarrows through a narrow side gate.

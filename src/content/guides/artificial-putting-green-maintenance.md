@@ -118,7 +118,7 @@ needsFromBrian:
   - "Whether you have seen clay heave or settling lift or sink part of a green in Northern Colorado, and how you tell a sand problem from a base problem when you look at one."
 ---
 
-**Checked September 25, 2026.** A green asks more of its owner than a turf lawn does: the sand brushed into its surface sets how fast and true the ball rolls, and every Northern Colorado season moves that sand. Here is the year, and how to tell a broom problem from a base problem.
+A green asks more of its owner than a turf lawn does: the sand brushed into its surface sets how fast and true the ball rolls, and every Northern Colorado season moves that sand. Here is the year, and how to tell a broom problem from a base problem.
 
 ## What does a backyard green need, season by season?
 

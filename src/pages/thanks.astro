@@ -21,8 +21,8 @@ const guides = await visibleGuides();
 const pick = ['hoa-turf-approval', 'turf-rules-northern-colorado'];
 const reads = [
   ...pick.map((id) => guides.find((g) => g.id === id)).filter(Boolean).map((g) => ({ href: `/guides/${g!.id}/`, k: 'Guide', t: guideLabel((g!.entry.data as any).title) })),
-  { href: '/work/', k: 'Photos', t: 'The work, job by job' },
-  { href: '/about/', k: 'Company', t: `Who ${name} is` },
+  { href: '/work/', k: 'Photos', t: 'Yards we’ve built' },
+  { href: '/about/', k: 'Company', t: `About ${name}` },
 ];
 /* Step numbers after the ✓ — the reply-time step exists only when Brian commits to one. */
 const n = { reply: 2, photos: responseTime ? 3 : 2, call: (responseTime ? 3 : 2) + (phoneDisplay ? 1 : 0) };
@@ -34,18 +34,18 @@ const crumbs = [{ name: 'Thanks', path: '/thanks/' }];
   noindex
   crumbs={crumbs}
 >
-  <PageHero label="Request sent" crumbs={crumbs} compact lede={`Your answers went through to ${name}, along with how you’d like to be reached.`}>
-    Thanks — <PaintWord now>we’ve got your request.</PaintWord>
+  <PageHero label="Request sent" crumbs={crumbs} compact lede={`We’ll reach out the way you asked to set a time to walk the yard.`}>
+    Thanks. <PaintWord now>We’ve got your request.</PaintWord>
   </PageHero>
 
   <section class="section th" aria-labelledby="th-h">
     <div class="wrap th__grid">
       <div>
-        <CoHead label="What’s useful now" id="th-h">It’s sent. Here’s what helps from here.</CoHead>
+        <CoHead label="What happens next" id="th-h">While you wait.</CoHead>
         <ol class="th-steps" role="list">
           <li class="th-step th-step--done">
             <span class="th-step__n" aria-hidden="true"><Icon name="check" size={20} /></span>
-            <div><strong>It’s with {name} now.</strong> Nothing else to fill in — you only reach this page once the request has gone through.</div>
+            <div><strong>Your request is in.</strong> There’s nothing else to fill out.</div>
           </li>
           {responseTime
             ? <li class="th-step"><span class="th-step__n num" aria-hidden="true">{n.reply}</span><div><strong>{responseTime}</strong></div></li>
@@ -53,7 +53,7 @@ const crumbs = [{ name: 'Thanks', path: '/thanks/' }];
           {phoneDisplay && (
             <li class="th-step">
               <span class="th-step__n num" aria-hidden="true">{n.photos}</span>
-              <div><strong>Photos help.</strong> Text a few pictures of the yard to <span class="num th-num">{phoneDisplay}</span> — the whole space, plus anywhere it meets a fence, patio or driveway. That’s where the edges go.</div>
+              <div><strong>Photos help.</strong> Text a few pictures of the yard to <span class="num th-num">{phoneDisplay}</span>: the whole space, plus anywhere it meets a fence, patio or driveway.</div>
             </li>
           )}
           {phoneHref && (

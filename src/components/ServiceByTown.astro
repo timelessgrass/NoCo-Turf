@@ -3,8 +3,8 @@
  * ServiceByTown — on a service page, "{Service} by town": the service's town × service pages in this build
  * (visibleTownServices()), grouped by the corridor's regions (territory.mjs REGIONS, in their order) as a
  * ledger. Each town row carries that page's own H1, so the list reads as what differs town to town, not as a
- * list of names. Only visible pages are linked; nothing to link, nothing drawn. (ServiceWhere, above it,
- * links every town page; this links only the towns with a page for this job.)
+ * list of names. Only visible pages are linked; nothing to link, nothing drawn. (The service page draws
+ * this in place of ServiceWhere whenever the job has town pages.)
  */
 import Icon from './Icon.astro';
 import ServiceHead from './ServiceHead.astro';
@@ -20,7 +20,7 @@ const n = pages.length;
     <div class="wrap">
       <ServiceHead label={`${service} by town`} id={`${id}-h`} split
         lede="Pick your town to see what it allows and what we build there.">
-        Town by town, where the job changes.
+        {service} in your town.
       </ServiceHead>
       <ol class="svbt__ledger" role="list">
         {regions.map((r) => (

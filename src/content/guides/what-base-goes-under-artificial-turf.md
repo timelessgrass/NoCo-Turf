@@ -107,7 +107,7 @@ needsFromBrian:
   - "Whether you ever put a foam pad under a lawn or play area, and why or why not."
 ---
 
-**Checked September 25, 2026.** What follows is what public sources say goes under artificial turf: a town code, Colorado road specifications and manufacturers' installation guides. It is not any one installer's recipe, and your soil can change the answer.
+What follows is what public sources say goes under artificial turf: a town code, Colorado road specifications and manufacturers' installation guides. It is not any one installer's recipe, and your soil can change the answer.
 
 ## What goes under artificial turf, layer by layer?
 

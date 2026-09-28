@@ -17,7 +17,7 @@ answer:
   answer: "Sometimes. A pet label can mean whole-sheet drainage, nylon blades, a shorter pile, antimicrobial yarn or no infill, yet one maker's Pet Premium shares a spec sheet with a landscape product. It pays most with several dogs in a small run, and only over a base built to drain on Northern Colorado clay."
 faq:
   - q: "Is pet turf more expensive than regular turf?"
-    a: "It can be, which is why the spec sheets come before the prices. This page carries no prices. Ask for the pet product and the nearest lawn product quoted side by side over the same base, so the only difference on paper is the turf."
+    a: "It can be, which is why the spec sheets come before the prices. Ask for the pet product and the nearest lawn product quoted side by side over the same base, so the only difference on paper is the turf."
   - q: "Does pet turf need infill?"
     a: "It depends on the product. ForeverLawn's K9Grass specification says no infill is to be used with it, while other makers pair their pet turf with one. Firestone's code calls for a non-toxic, anti-microbial infill such as silica sand or acrylic-coated sand, so a no-infill product there is a question for Firestone Planning. Our dog turf infill guide compares the options."
   - q: "Will pet turf keep my yard from smelling?"
@@ -122,7 +122,7 @@ needsFromBrian:
   - "A close-up photo of a flow-through or woven pet backing beside a hole-punched lawn backing, with the product names, from your own stock."
 ---
 
-**Checked September 25, 2026.** "Pet turf" is a label each maker applies its own way. Sometimes it names a different product: a shorter pile, nylon yarn, a backing built to pass liquid anywhere. Sometimes it names the same product under a second name. The spec sheet tells you which, and the ground under the turf decides how much any of it matters. Products below are named as published examples, not recommendations.
+"Pet turf" is a label each maker applies its own way. Sometimes it names a different product: a shorter pile, nylon yarn, a backing built to pass liquid anywhere. Sometimes it names the same product under a second name. The spec sheet tells you which, and the ground under the turf decides how much any of it matters. Products below are named as published examples, not recommendations.
 
 ## What does a "pet turf" label actually change?
 

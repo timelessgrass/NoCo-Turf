@@ -6,6 +6,7 @@
  */
 import Icon from './Icon.astro';
 import { KIND_NAMES } from '../data/communities.mjs';
+import { COMMUNITY_SELL } from '../data/community-sell';
 interface Page { path: string; name: string; kind: string; town: { slug: string; name: string }; entry: { data: any } }
 interface Props { pages: Page[]; id?: string }
 const { pages, id = 'communities' } = Astro.props;
@@ -34,7 +35,7 @@ const kindName = (k: string) => (KIND_NAMES as Record<string, string>)[k] ?? k;
                   <a class="acm__row" href={p.path}>
                     <span class="acm__name">{p.name}</span>
                     <span class="acm__kind">{kindName(p.kind)}</span>
-                    <span class="acm__line">{p.entry.data.h1}</span>
+                    <span class="acm__line">{COMMUNITY_SELL[`${p.entry.data.town}--${p.entry.data.slug}`]?.line ?? p.entry.data.h1}</span>
                   </a>
                 </li>
               ))}

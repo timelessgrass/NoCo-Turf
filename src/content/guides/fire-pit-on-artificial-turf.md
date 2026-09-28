@@ -138,7 +138,7 @@ needsFromBrian:
   - "HOA or fire-district questions customers have raised about fire pits in turf yards, by town."
 ---
 
-**Checked September 25, 2026.** A turf yard can still have a fire pit and a grill, as long as the fire sits on something that can't melt, at the distance your fire district sets. Below is what melts turf and what Northern Colorado's fire districts and towns allow, fireworks included.
+A turf yard can still have a fire pit and a grill, as long as the fire sits on something that can't melt, at the distance your fire district sets. Below is what melts turf and what Northern Colorado's fire districts and towns allow, fireworks included.
 
 ## Will turf catch fire, or does it just melt?
 

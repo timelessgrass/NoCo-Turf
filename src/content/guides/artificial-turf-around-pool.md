@@ -166,7 +166,7 @@ needsFromBrian:
   - "Any yard where splash, a spa drain or ice melt from a tub landing damaged turf or its base, and what it looked like."
 ---
 
-**Checked September 25, 2026.** A hot tub here gets used in January, not just July, so the turf beside it has to handle ice as well as heat. Turf can frame a tub or a pool well, but it can't carry the tub or take its drain water. On a custom build or a lot with architectural review, the tub, its pad, its wiring and the turf belong on one plan.
+A hot tub here gets used in January, not just July, so the turf beside it has to handle ice as well as heat. Turf can frame a tub or a pool well, but it can't carry the tub or take its drain water. On a custom build or a lot with architectural review, the tub, its pad, its wiring and the turf belong on one plan.
 
 ## Can a hot tub sit on artificial turf?
 

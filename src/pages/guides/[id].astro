@@ -71,7 +71,7 @@ const cfg = {
   /* FAQ heading and closing band: the topic's plain wording on every guide (Ty, 2026-09-27: copy that helps a
      homeowner decide, not clever lines), so a guide's own display.faqH2 / display.cta are no longer printed. */
   faqH2: topic.faqH2,
-  cta: { title: topic.cta.title, payoff: topic.cta.payoff, lede: 'Tell us about the yard and how to reach you. Three short parts, no account, no upload.' },
+  cta: { title: topic.cta.title, payoff: topic.cta.payoff, lede: 'Tell us about your yard and how to reach you, and we’ll set up a time to come out.' },
 };
 
 /* Where it sits: its topic, its number in the topic, the guides either side. */
@@ -159,11 +159,9 @@ const graph = [article, ...(dataset ? [dataset] : []), ...faqGraph(faq)];
     <span class="gh1__main">{mainP ? <>{mainP[0]}<PaintWord now>{mainP[1]}</PaintWord>{mainP[2]}</> : main}</span>
     {deck && <>{' '}<span class="gh1__deck">{deckP ? <>{deckP[0]}<PaintWord now>{deckP[1]}</PaintWord>{deckP[2]}</> : deck}</span></>}
     <div class="grec" slot="after">
-      <p class="grec__c"><span class="grec__k">Checked</span> <time class="grec__v num" datetime={d.updated}>{d.updated}</time></p>
-      <p class="grec__c"><span class="grec__k">First published</span> <time class="grec__v num" datetime={d.published}>{d.published}</time></p>
-      <p class="grec__c"><span class="grec__k">Sources</span> <a class="grec__v" href="#sources">{d.sources.length}, each dated</a></p>
-      {legal && <p class="grec__c"><span class="grec__k">Status</span> <span class="grec__v">Not legal advice</span></p>}
-      {isWater && <p class="grec__c"><span class="grec__k">Data</span> <a class="grec__v" href="/data/noco-water-rates-2026.csv">CSV · CC BY 4.0</a></p>}
+      <p class="grec__c"><span class="grec__k">Updated</span> <time class="grec__v" datetime={d.updated}>{long(d.updated)}</time></p>
+      {legal && <p class="grec__c"><span class="grec__v">Not legal advice</span></p>}
+      {isWater && <p class="grec__c"><a class="grec__v" href="/data/noco-water-rates-2026.csv">Download the water-rate data (CSV)</a></p>}
     </div>
   </PageHero>
 
@@ -247,8 +245,8 @@ const graph = [article, ...(dataset ? [dataset] : []), ...faqGraph(faq)];
         </section>
 
         <section class="gpart gpart--src" id="sources" aria-labelledby="sources-h">
-          <p class="label">Receipts</p>
-          <h2 id="sources-h" class="gpart__h">Sources, with the date each was checked.</h2>
+          <p class="label">Sources</p>
+          <h2 id="sources-h" class="gpart__h">Where this comes from.</h2>
           <p class="gpart__lede">{legal && <strong>Not legal advice. </strong>}This page reflects its sources as they read on {long(d.updated)}. Rules, rates and programs change; each link goes to the public source it came from.</p>
           <Sources sources={d.sources} title="Show every source" />
         </section>

@@ -17,7 +17,7 @@ answer:
   answer: "For most lawns, polyethylene: it's the common, soft lawn blade. Polypropylene turns up in thatch and some putting greens. Nylon goes into greens, a few dog products and turf sold for yards facing Low-E glass, because it melts far hotter. Firestone's code prohibits nylon blades. Whatever the yarn, ask for its independent UV test report."
 faq:
   - q: "Is nylon turf more expensive than polyethylene turf?"
-    a: "Usually, by its own sellers' account. Smart Turf, which sells nylon turf, says nylon tends to be more expensive than polyethylene and polypropylene turf. This page carries no prices; what moves a Northern Colorado quote is in our guide to artificial turf cost."
+    a: "Usually, by its own sellers' account. Smart Turf, which sells nylon turf, says nylon tends to be more expensive than polyethylene and polypropylene turf. What moves a Northern Colorado quote is in our guide to artificial turf cost."
   - q: "Can a nylon putting green sit inside a polyethylene lawn?"
     a: "Yes. A green is its own product, and one supplier even lists its nylon lawn product for putting green fringe. In Firestone, check the town's turf standard before ordering any nylon, since it prohibits nylon blades."
   - q: "Do nylon, polyethylene and polypropylene turf need different care?"
@@ -132,7 +132,7 @@ needsFromBrian:
   - "Whether you have put nylon greens or nylon fringe in Firestone, and what Firestone Planning said about the nylon rule. The greens question itself is written up in the sand-filled vs non-infilled putting green guide; confirm with Firestone Planning before either page publishes."
 ---
 
-**Checked September 25, 2026.** Artificial turf is plastic, and on nearly every spec sheet the plastic is one of three: polyethylene, polypropylene or nylon. It's easy to treat that as one choice for the whole yard. It is really several. The blades of a lawn, the curly thatch at their base and a putting surface do different jobs, and makers often use a different yarn for each.
+Artificial turf is plastic, and on nearly every spec sheet the plastic is one of three: polyethylene, polypropylene or nylon. It's easy to treat that as one choice for the whole yard. It is really several. The blades of a lawn, the curly thatch at their base and a putting surface do different jobs, and makers often use a different yarn for each.
 
 ## Which yarn goes where in a turf yard?
 

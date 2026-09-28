@@ -125,7 +125,7 @@ needsFromBrian:
   - "Photos of a shade sail, pergola or tree shading turf on one of your jobs, with the town and month."
 ---
 
-**Checked September 25, 2026.** On a clear July afternoon, artificial turf in full sun runs hotter than the grass it replaced, hotter than a concrete patio and far hotter than the air above it. Here are the measured numbers, how many hot days each Northern Colorado town gets, what cools turf for free and for how long, and what to ask about turf sold as "cool." What the heat means for paws and for children is on the [pet turf](/services/pet-turf/) and [playground turf](/services/playground-turf/) pages.
+On a clear July afternoon, artificial turf in full sun runs hotter than the grass it replaced, hotter than a concrete patio and far hotter than the air above it. Here are the measured numbers, how many hot days each Northern Colorado town gets, what cools turf for free and for how long, and what to ask about turf sold as "cool." What the heat means for paws and for children is on the [pet turf](/services/pet-turf/) and [playground turf](/services/playground-turf/) pages.
 
 ## How much hotter than grass or concrete does artificial turf get?
 

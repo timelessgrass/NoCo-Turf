@@ -2,12 +2,13 @@
 /**
  * TownNearby — the town record's nearby[] as real links (hub-and-spoke: siblings link among themselves),
  * each with its straight-line distance and direction from the Census 2024 town points and the neighbour's
- * own H1 as its line — the strongest fact on that page, not a teaser. Beside the list, the local
+ * plain hook (town-sell.ts) as its line. Beside the list, the local
  * TownLocator; hovering or focusing a row lights that route on the map.
  */
 import Icon from './Icon.astro';
 import TownLocator from './TownLocator.astro';
 import { miles, compass } from './TownData';
+import { TOWN_SELL } from '../data/town-sell';
 interface Town { slug: string; name: string; lat: number; lng: number; tier?: string; county?: string; entry: { data: any } }
 interface Props { here: Town; towns: Town[]; nearby: string[] }
 const { here, towns, nearby } = Astro.props;
@@ -41,7 +42,7 @@ const css = list.map(({ t }) => {
                   <span class="tnear__name">{t.name}</span>
                   <span class="tnear__dist num">{Math.round(mi)} mi {dir}</span>
                 </span>
-                <span class="tnear__claim">{t.entry.data.h1}</span>
+                <span class="tnear__claim">{TOWN_SELL[t.slug]?.hook ?? t.entry.data.h1}</span>
                 <span class="tnear__go" aria-hidden="true"><Icon name="arrow" /></span>
               </a>
             </li>

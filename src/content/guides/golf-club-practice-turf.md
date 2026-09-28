@@ -193,7 +193,7 @@ needsFromBrian:
   - "Any Northern Colorado course, club, HOA or metro district that has asked about or installed synthetic practice surfaces and agrees to be named."
 ---
 
-**Checked September 25, 2026.** For superintendents, managers, club boards, and the HOAs and metro districts that own golf amenities. Backyard greens are in the [putting greens guides](/guides/putting-greens/); school and park fields have [their own guide](/guides/turf-vs-grass-sports-fields/).
+For superintendents, managers, club boards, and the HOAs and metro districts that own golf amenities. Backyard greens are in the [putting greens guides](/guides/putting-greens/); school and park fields have [their own guide](/guides/turf-vs-grass-sports-fields/).
 
 ## Where do golf facilities use synthetic turf, and where does grass stay?
 

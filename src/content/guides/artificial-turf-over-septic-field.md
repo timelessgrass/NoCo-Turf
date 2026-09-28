@@ -115,7 +115,7 @@ needsFromBrian:
   - "Has Larimer or Weld County ever weighed in on a turf job near a septic system, or has a septic pumper or inspector raised it with a customer after install?"
 ---
 
-**Checked September 25, 2026. Not legal advice:** this page explains Colorado and county septic rules in plain English. Your county health department has the final word on your system.
+**Not legal advice:** this page explains Colorado and county septic rules in plain English. Your county health department has the final word on your system.
 
 ## What do the septic rules say goes on top of a drain field?
 

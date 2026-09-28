@@ -87,7 +87,6 @@ const labels = (mode === 'local' ? [here, ...near] : [here]).map((t) => {
 });
 const scaleMiles = mode === 'local' ? (vbW / PX_PER_MILE > 22 ? 5 : 2) : 10;
 const scaleW = ((scaleMiles * PX_PER_MILE) / vbW) * 100;
-const coords = `${here.lat.toFixed(2)}° N · ${Math.abs(here.lng).toFixed(2)}° W`;
 const aria = mode === 'local'
   ? `Map of ${here.name} and the towns next to it: ${near.map((t) => t.name).join(', ')}`
   : `Map of the Northern Colorado corridor from Wellington to Dacono, with ${here.name} marked`;
@@ -117,8 +116,8 @@ const aria = mode === 'local'
   {caption && (
     <figcaption class="tloc__cap">
       {mode === 'corridor'
-        ? <><span class="label">Location</span><span class="tloc__cap-town">{here.name}{here.county && <span>, {here.county.includes('&') ? `${here.county} counties` : `${here.county} County`}</span>}</span><span class="tloc__cap-co num">{coords}</span></>
-        : <><span class="label">Town points: Census 2024 Gazetteer</span><span class="tloc__cap-co">Roads schematic · straight-line miles</span></>}
+        ? <><span class="label">Location</span><span class="tloc__cap-town">{here.name}{here.county && <span>, {here.county.includes('&') ? `${here.county} counties` : `${here.county} County`}</span>}</span></>
+        : <span class="tloc__cap-co">Distances are straight-line miles.</span>}
     </figcaption>
   )}
 </figure>

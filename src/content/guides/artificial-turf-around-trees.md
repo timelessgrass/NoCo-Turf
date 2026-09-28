@@ -116,7 +116,7 @@ needsFromBrian:
   - "Any yard where a tree declined after turf went in, yours or one you were called to fix, and what you think caused it."
 ---
 
-**Checked September 25, 2026.** A tree cares less about the lawn than about the soil its roots live in. Installing turf means digging, laying a compacted base and changing how water reaches the ground, in the top few inches where a Northern Colorado tree keeps most of its roots. On an established lot or a custom build, the mature trees frame the yard, so the ring around each one is part of the design.
+A tree cares less about the lawn than about the soil its roots live in. Installing turf means digging, laying a compacted base and changing how water reaches the ground, in the top few inches where a Northern Colorado tree keeps most of its roots. On an established lot or a custom build, the mature trees frame the yard, so the ring around each one is part of the design.
 
 ## Does artificial turf kill trees?
 

@@ -185,7 +185,7 @@ needsFromBrian:
   - "Whether you work with a landscaper for the planted part, or hand the customer off; the page says nothing about who plants the beds until you confirm."
 ---
 
-**Checked September 25, 2026.** Many Coloradans say "xeriscape" and picture a yard of rock, so this page compares three lawn replacements: artificial turf, rock on its own, and planted xeriscape, meaning water-wise plants with gravel or wood mulch between them. Whether turf counts as xeriscape under a town code or HOA is answered in [is artificial turf considered xeriscape](/guides/is-artificial-turf-considered-xeriscape/).
+Many Coloradans say "xeriscape" and picture a yard of rock, so this page compares three lawn replacements: artificial turf, rock on its own, and planted xeriscape, meaning water-wise plants with gravel or wood mulch between them. Whether turf counts as xeriscape under a town code or HOA is answered in [is artificial turf considered xeriscape](/guides/is-artificial-turf-considered-xeriscape/).
 
 | | Artificial turf | Rock on its own | Planted xeriscape |
 |---|---|---|---|

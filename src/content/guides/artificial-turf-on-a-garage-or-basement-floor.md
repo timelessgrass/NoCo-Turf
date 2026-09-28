@@ -125,7 +125,7 @@ needsFromBrian:
   - "The gym and simulator turf you would put indoors, with its spec sheet, whether its backing or pad is perforated, and any flammability test report its maker supplies."
 ---
 
-**Checked September 27, 2026.** A basement or garage slab can look dry and still give off moisture. The ASTM calcium chloride test starts from that point: every concrete floor emits some water vapor, and any floor covering can fail from too much of it ([ASTM F1869](https://store.astm.org/f1869-23.html)). Turf laid indoors is a floor covering, and some cushioned gym turf has no drainage holes in its pad. So the first step is a moisture test. In Northern Colorado the second is finding out whether the slab was built to move.
+A basement or garage slab can look dry and still give off moisture. The ASTM calcium chloride test starts from that point: every concrete floor emits some water vapor, and any floor covering can fail from too much of it ([ASTM F1869](https://store.astm.org/f1869-23.html)). Turf laid indoors is a floor covering, and some cushioned gym turf has no drainage holes in its pad. So the first step is a moisture test. In Northern Colorado the second is finding out whether the slab was built to move.
 
 This page covers the floor under a home gym or golf simulator. The putting green itself, with its break, size and speed, is in [an indoor putting green for a basement or garage](/guides/indoor-putting-green-for-home/). Patios and outdoor slabs are in [artificial turf over concrete](/guides/artificial-turf-over-concrete/).
 

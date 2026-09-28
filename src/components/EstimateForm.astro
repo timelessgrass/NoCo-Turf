@@ -1,156 +1,353 @@
 ---
 /**
- * The one form (exactly one <form> per page). Field NAMES are the lead contract (docs/CONTRACTS.md) —
- * RED under aftercare: never rename without changing netlify/functions/lib/lead-routing.mjs and its tests.
- * Posts to /.netlify/functions/lead. Without JS: a plain POST → 303 /thanks/ (or the call-us page on failure).
- * With JS: stays on the page, keeps every answer on failure, shows the phone on 502, asks for a phone on 422.
- * No upload field (photos are asked for by text on /thanks/), no CAPTCHA (honeypot + elapsed_ms).
+ * The estimate wizard — the one form (exactly one <form> per page). Field NAMES are the lead contract
+ * (docs/CONTRACTS.md) — RED under aftercare: never rename without changing netlify/functions/lib/lead-routing.mjs
+ * and its tests. Posts to /.netlify/functions/lead.
+ *
+ * Without JS (or without <dialog>): the form renders in place, every step stacked, and submits as a plain POST →
+ * 303 /thanks/ (or the call-us page on failure). With JS: the form moves into a modal <dialog> and runs as a
+ * five-step wizard (project → town → size → HOA and timing → contact). A "Start" card takes its place in the page,
+ * and every "Book a yard walk" link on the page (#estimate, /contact/#estimate) opens it. Single-choice answers
+ * move on by themselves when tapped; the keyboard moves with Next. On failure it keeps every answer and shows the
+ * phone. No upload field (photos are asked for by text on /thanks/), no CAPTCHA (honeypot + elapsed_ms).
  * Field set is PROVISIONAL until matched to Brian's own intake questions (Appendix A #10).
  */
+import { getImage } from 'astro:assets';
 import Icon from './Icon.astro';
 import { visibleServices } from '../data/services';
 import { NOCO_TOWNS } from '../data/territory.mjs';
+import { photo } from '../data/photos';
 import { phoneHref, phoneDisplay } from '../data/brief';
 
 interface Props { town?: string; use?: string; tone?: 'slab' | 'ground'; id?: string; }
 const { town, use, tone = 'slab', id = 'estimate' } = Astro.props;
-const uses = [...visibleServices.map((s) => ({ value: s.formUse, label: s.name })), { value: 'Not sure', label: 'Not sure yet' }];
-const sizes = ['Under 300 sq ft', '300 to 800 sq ft', '800 to 1,500 sq ft', 'Over 1,500 sq ft', 'Not sure — measure at the visit'];
+
+const GLYPH: Record<string, string> = {
+  'artificial-turf-installation': '<path d="M4 20h16"/><path d="M6 20c0-4 1-7 3-9M9 20c0-5 2-9 5-11M13 20c0-3 1-6 3-8M17 20c0-4-1-7-3-9"/>',
+  'pet-turf': '<circle cx="7" cy="9" r="1.8"/><circle cx="11" cy="6" r="1.8"/><circle cx="15.5" cy="7" r="1.8"/><circle cx="18" cy="11" r="1.6"/><path d="M8.5 17.5c0-2.5 2-4.5 4.5-4.5s4 1.8 4 3.6c0 1.8-1.3 2.9-3 2.9-1 0-1.6-.4-2.5-.4s-1.6.4-2.4.4c-.8 0-.6-1.2-.6-2Z"/>',
+  'putting-greens': '<path d="M9 19V4l8 3.5L9 11"/><ellipse cx="12" cy="19.5" rx="8" ry="1.8"/>',
+  'playground-turf': '<path d="M4 20 8 4h8l4 16"/><path d="M8 4h8"/><path d="M11 4v9M14 4v9"/><path d="M10 13h5"/>',
+  'commercial-turf': '<rect x="3.5" y="5" width="17" height="14" rx="1"/><path d="M12 5v14"/><circle cx="12" cy="12" r="2.6"/>',
+  'not-sure': '<circle cx="12" cy="12" r="8.5"/><path d="M9.6 9.6a2.5 2.5 0 1 1 3.4 2.3c-.6.3-1 .8-1 1.5v.6"/><path d="M12 16.8h.01"/>',
+};
+const uses = [
+  ...visibleServices.map((s) => ({ value: s.formUse, label: s.name, sub: s.short, glyph: GLYPH[s.slug] ?? GLYPH['not-sure'] })),
+  { value: 'Not sure', label: 'Not sure yet', sub: 'We’ll figure it out together at the yard.', glyph: GLYPH['not-sure'] },
+];
+const sizes = [
+  { value: 'Under 300 sq ft', sub: 'A dog run, side yard or small green' },
+  { value: '300 to 800 sq ft', sub: 'A backyard putting green or small lawn' },
+  { value: '800 to 1,500 sq ft', sub: 'A full back lawn' },
+  { value: 'Over 1,500 sq ft', sub: 'A big yard, or front and back' },
+  { value: 'Not sure — measure at the visit', sub: 'That’s fine. We’ll measure it together.' },
+];
 const towns = [...NOCO_TOWNS].sort((a, b) => a.name.localeCompare(b.name));
+const timelines = ['As soon as possible', 'In the next few months', 'Just pricing it out'];
+const heard = ['Google search', 'Google Maps', 'ChatGPT or another AI assistant', 'Facebook or Instagram', 'A neighbor or friend', 'Saw a yard we did', 'Other'];
+const side = await getImage({ src: photo('dusk').src, width: 900, format: 'webp', quality: 62 });
+const STEPS = ['Your project', 'Your town', 'Size', 'HOA and timing', 'Contact'];
 ---
-<form class:list={['ef', `ef--${tone}`]} id={id} method="post" action="/.netlify/functions/lead" data-ef novalidate>
-  <input type="hidden" name="page" value={Astro.url.pathname} />
-  <input type="hidden" name="elapsed_ms" value="" data-elapsed />
-  <div class="ef__trap" aria-hidden="true"><label>Company <input type="text" name="company" tabindex="-1" autocomplete="off" /></label></div>
-
-  <fieldset class="ef__set">
-    <legend class="ef__legend"><span class="ef__n num">1</span>The yard</legend>
-    <p class="ef__q" id={`${id}-use`}>What's it for? <span>Pick any</span></p>
-    <div class="ef__chips" role="group" aria-labelledby={`${id}-use`}>
-      {uses.map((u) => (
-        <label class="chip"><input type="checkbox" name="use" value={u.value} checked={use === u.value} /><span>{u.label}</span></label>
-      ))}
+<div class:list={['efw', `efw--${tone}`]} data-efw>
+  <!-- In the page: the form itself without JS; with JS, a card that opens the wizard. -->
+  <div class="efw__launch" data-efw-launch hidden>
+    <p class="label label--paint efw__lk">Book a yard walk</p>
+    <p class="efw__lh">Five quick questions{town && <> about your {town} yard</>}. Then we’ll reach out to set a time.</p>
+    <ol class="efw__lsteps" role="list">
+      {STEPS.map((s, i) => <li><span class="efw__ln num">{i + 1}</span>{s}</li>)}
+    </ol>
+    <div class="efw__lacts">
+      <button class="btn btn--paint efw__lgo" type="button" data-efw-open data-cta="wizard-start">Start <Icon name="arrow" /></button>
+      {phoneHref && <a class="efw__lcall" href={phoneHref} data-cta="wizard-call"><Icon name="phone" size={18} />Or call {phoneDisplay}</a>}
     </div>
-    <div class="ef__row">
-      <label class="ef__field">
-        <span class="ef__label">Town</span>
-        <select name="town" autocomplete="address-level2">
-          <option value="">Choose your town</option>
-          {towns.map((t) => <option value={t.name} selected={town === t.name}>{t.name}</option>)}
-          <option value="Somewhere else">Somewhere else</option>
-        </select>
-      </label>
-      <label class="ef__field ef__field--zip">
-        <span class="ef__label">ZIP <span class="ef__opt">optional</span></span>
-        <input name="zip" inputmode="numeric" autocomplete="postal-code" maxlength="5" pattern="[0-9]{5}" />
-      </label>
-    </div>
-    <p class="ef__q" id={`${id}-size`}>Roughly how big?</p>
-    <div class="ef__chips" role="radiogroup" aria-labelledby={`${id}-size`}>
-      {sizes.map((s) => <label class="chip chip--radio"><input type="radio" name="size" value={s} /><span>{s}</span></label>)}
-    </div>
-  </fieldset>
-
-  <fieldset class="ef__set">
-    <legend class="ef__legend"><span class="ef__n num">2</span>Timing</legend>
-    <div class="ef__two">
-      <div>
-        <p class="ef__q" id={`${id}-hoa`}>Is there an HOA?</p>
-        <div class="ef__chips" role="radiogroup" aria-labelledby={`${id}-hoa`}>
-          {['Yes', 'No', 'Not sure'].map((v) => <label class="chip chip--radio"><input type="radio" name="hoa" value={v} /><span>{v}</span></label>)}
-        </div>
-      </div>
-      <div>
-        <p class="ef__q" id={`${id}-when`}>When?</p>
-        <div class="ef__chips" role="radiogroup" aria-labelledby={`${id}-when`}>
-          {['As soon as possible', 'In the next few months', 'Just pricing it out'].map((v) => <label class="chip chip--radio"><input type="radio" name="timeline" value={v} /><span>{v}</span></label>)}
-        </div>
-      </div>
-    </div>
-  </fieldset>
-
-  <fieldset class="ef__set">
-    <legend class="ef__legend"><span class="ef__n num">3</span>How to reach you</legend>
-    <div class="ef__row">
-      <label class="ef__field"><span class="ef__label">Name</span><input name="name" autocomplete="name" required /></label>
-      <label class="ef__field"><span class="ef__label">Phone</span><input name="phone" type="tel" inputmode="tel" autocomplete="tel" required /></label>
-    </div>
-    <div class="ef__row">
-      <label class="ef__field"><span class="ef__label">Email <span class="ef__opt">optional</span></span><input name="email" type="email" inputmode="email" autocomplete="email" /></label>
-      <div class="ef__field">
-        <span class="ef__label" id={`${id}-pref`}>Best way to reach you</span>
-        <div class="ef__chips" role="radiogroup" aria-labelledby={`${id}-pref`}>
-          {['Call', 'Text'].map((v, i) => <label class="chip chip--radio"><input type="radio" name="contact_pref" value={v} checked={i === 0} /><span>{v}</span></label>)}
-        </div>
-      </div>
-    </div>
-    <label class="ef__field"><span class="ef__label">How did you hear about us? <span class="ef__opt">optional</span></span>
-      <select name="heard">
-        <option value="">—</option>
-        {['Google search', 'Google Maps', 'ChatGPT or another AI assistant', 'Facebook or Instagram', 'A neighbor or friend', 'Saw a yard we did', 'Other'].map((h) => <option>{h}</option>)}
-      </select>
-    </label>
-  </fieldset>
-
-  <div class="ef__submit">
-    <button class="btn btn--paint ef__btn" type="submit" data-cta="form-submit">Book a yard walk <Icon name="arrow" /></button>
-    <p class="ef__fine">Northern Colorado only — Wellington to Longmont, Loveland to Eaton.</p>
-    {phoneHref && <p class="ef__hatch">Rather talk it through? <a href={phoneHref} data-cta="form-call">Call {phoneDisplay}</a></p>}
-    <div class="ef__status" role="status" aria-live="polite" data-ef-status></div>
   </div>
-</form>
+
+  <div class="efw__inline" data-efw-inline>
+    <form class="ef" id={id} method="post" action="/.netlify/functions/lead" data-ef novalidate>
+      <input type="hidden" name="page" value={Astro.url.pathname} />
+      <input type="hidden" name="elapsed_ms" value="" data-elapsed />
+      <div class="ef__trap" aria-hidden="true"><label>Company <input type="text" name="company" tabindex="-1" autocomplete="off" /></label></div>
+
+      <fieldset class="ef__step" data-step="1">
+        <legend class="ef__h" tabindex="-1">What are we building?</legend>
+        <p class="ef__sub">Pick any that apply.</p>
+        <div class="ef__opts ef__opts--use">
+          {uses.map((u) => (
+            <label class="opt">
+              <input type="checkbox" name="use" value={u.value} checked={use === u.value} />
+              <span class="opt__card">
+                <svg class="opt__ico" viewBox="0 0 24 24" aria-hidden="true" set:html={u.glyph} />
+                <span class="opt__t">{u.label}</span>
+                <span class="opt__s">{u.sub}</span>
+                <span class="opt__tick" aria-hidden="true"><Icon name="check" size={14} /></span>
+              </span>
+            </label>
+          ))}
+        </div>
+      </fieldset>
+
+      <fieldset class="ef__step" data-step="2" data-auto="town">
+        <legend class="ef__h" tabindex="-1">Where’s the yard?</legend>
+        <p class="ef__sub">We work from Wellington to Longmont.</p>
+        <div class="ef__opts ef__opts--town">
+          {towns.map((t) => (
+            <label class="opt opt--chip"><input type="radio" name="town" value={t.name} checked={town === t.name} /><span class="opt__card"><span class="opt__t">{t.name}</span></span></label>
+          ))}
+          <label class="opt opt--chip opt--else"><input type="radio" name="town" value="Somewhere else" /><span class="opt__card"><span class="opt__t">Somewhere else</span></span></label>
+        </div>
+        <label class="ef__field ef__field--zip">
+          <span class="ef__label">ZIP <span class="ef__opt">optional</span></span>
+          <input name="zip" inputmode="numeric" autocomplete="postal-code" maxlength="5" pattern="[0-9]{5}" />
+        </label>
+      </fieldset>
+
+      <fieldset class="ef__step" data-step="3" data-auto="size">
+        <legend class="ef__h" tabindex="-1">Roughly how big is it?</legend>
+        <p class="ef__sub">A guess is fine. We measure when we walk the yard.</p>
+        <div class="ef__opts ef__opts--list">
+          {sizes.map((s) => (
+            <label class="opt opt--row"><input type="radio" name="size" value={s.value} /><span class="opt__card"><span class="opt__t">{s.value}</span><span class="opt__s">{s.sub}</span><span class="opt__tick" aria-hidden="true"><Icon name="check" size={14} /></span></span></label>
+          ))}
+        </div>
+      </fieldset>
+
+      <fieldset class="ef__step" data-step="4" data-auto="hoa timeline">
+        <legend class="ef__h" tabindex="-1">Two quick ones.</legend>
+        <p class="ef__q" id={`${id}-hoa`}>Is there an HOA or metro district?</p>
+        <div class="ef__opts ef__opts--grid3" role="radiogroup" aria-labelledby={`${id}-hoa`}>
+          {['Yes', 'No', 'Not sure'].map((v) => <label class="opt opt--chip"><input type="radio" name="hoa" value={v} /><span class="opt__card"><span class="opt__t">{v}</span></span></label>)}
+        </div>
+        <p class="ef__q" id={`${id}-when`}>When would you like it done?</p>
+        <div class="ef__opts ef__opts--grid3" role="radiogroup" aria-labelledby={`${id}-when`}>
+          {timelines.map((v) => <label class="opt opt--chip"><input type="radio" name="timeline" value={v} /><span class="opt__card"><span class="opt__t">{v}</span></span></label>)}
+        </div>
+      </fieldset>
+
+      <fieldset class="ef__step" data-step="5">
+        <legend class="ef__h" tabindex="-1">How should we reach you?</legend>
+        <p class="ef__sub">We’ll get in touch to set a time to walk the yard.</p>
+        <div class="ef__row">
+          <label class="ef__field"><span class="ef__label">Name</span><input name="name" autocomplete="name" required /></label>
+          <label class="ef__field"><span class="ef__label">Phone</span><input name="phone" type="tel" inputmode="tel" autocomplete="tel" required /></label>
+        </div>
+        <div class="ef__row">
+          <label class="ef__field"><span class="ef__label">Email <span class="ef__opt">optional</span></span><input name="email" type="email" inputmode="email" autocomplete="email" /></label>
+          <div class="ef__field">
+            <span class="ef__label" id={`${id}-pref`}>Best way to reach you</span>
+            <div class="ef__opts ef__opts--row" role="radiogroup" aria-labelledby={`${id}-pref`}>
+              {['Call', 'Text'].map((v, i) => <label class="opt opt--chip"><input type="radio" name="contact_pref" value={v} checked={i === 0} /><span class="opt__card"><span class="opt__t">{v}</span></span></label>)}
+            </div>
+          </div>
+        </div>
+        <label class="ef__field"><span class="ef__label">How did you hear about us? <span class="ef__opt">optional</span></span>
+          <select name="heard">
+            <option value="">Choose one</option>
+            {heard.map((h) => <option>{h}</option>)}
+          </select>
+        </label>
+        <div class="ef__submit">
+          <button class="btn btn--paint ef__btn" type="submit" data-cta="form-submit">Book my yard walk <Icon name="arrow" /></button>
+          {phoneHref && <p class="ef__hatch">Rather talk it through? <a href={phoneHref} data-cta="form-call">Call {phoneDisplay}</a></p>}
+          <div class="ef__status" role="status" aria-live="polite" data-ef-status></div>
+        </div>
+      </fieldset>
+
+      <div class="ef__nav" data-efw-nav hidden>
+        <button class="ef__back" type="button" data-efw-back><Icon name="arrow" size={18} class="ef__backi" />Back</button>
+        <button class="btn btn--paint ef__next" type="button" data-efw-next>Next <Icon name="arrow" /></button>
+      </div>
+    </form>
+  </div>
+
+  <dialog class="efw__dlg" data-efw-dlg aria-labelledby={`${id}-dlg-t`}>
+    <div class="efw__panel">
+      <aside class="efw__side" style={`--side:url(${side.src})`}>
+        <div class="efw__sidein">
+          <p class="label label--paint">NoCo Turf Co.</p>
+          <p class="efw__st" id={`${id}-dlg-t`}>Book a yard walk</p>
+          <ul class="efw__why" role="list">
+            <li><Icon name="check" size={16} />We come out and walk the yard with you</li>
+            <li><Icon name="check" size={16} />Your town and HOA rules checked first</li>
+            <li><Icon name="check" size={16} />Your plan and price in writing</li>
+          </ul>
+          {phoneHref && <p class="efw__sidecall">Rather talk? <a href={phoneHref} data-cta="wizard-side-call">{phoneDisplay}</a></p>}
+        </div>
+      </aside>
+      <div class="efw__main">
+        <header class="efw__top">
+          <p class="efw__count" aria-live="polite"><span data-efw-count>Step 1 of 5</span><span class="efw__name" data-efw-name>{STEPS[0]}</span></p>
+          <button class="efw__x" type="button" data-efw-close aria-label="Close"><Icon name="close" size={22} /></button>
+          <div class="efw__bar" aria-hidden="true"><span data-efw-bar></span></div>
+        </header>
+        <div class="efw__slot" data-efw-slot></div>
+      </div>
+    </div>
+  </dialog>
+</div>
 
 <style>
-  .ef { display: grid; gap: 28px; }
+  /* ── The form itself (in place without JS; inside the dialog with it) ── */
+  .ef { display: grid; gap: 30px; position: relative; }
   .ef__trap { position: absolute; left: -9999px; top: auto; width: 1px; height: 1px; overflow: hidden; }
-  .ef__set { border: 0; margin: 0; padding: 0; display: grid; gap: 14px; }
-  .ef__legend { display: flex; align-items: center; gap: 12px; padding: 0; margin-bottom: 4px; font-family: var(--font-display); font-weight: 780; font-stretch: 110%; font-size: 1.35rem; letter-spacing: -0.025em; }
-  .ef__n { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: var(--paint); color: var(--ink); font-size: 0.9rem; font-weight: 800; }
-  .ef__q, .ef__label { display: block; margin: 0 0 8px; font-family: var(--font-display); font-weight: 650; font-stretch: 96%; font-size: 0.98rem; }
-  .ef__q span, .ef__opt { font-family: var(--font-body); font-weight: 400; font-size: 0.85rem; opacity: 0.62; margin-left: 6px; }
+  .ef__step { border: 0; margin: 0; padding: 0; display: grid; gap: 14px; align-content: start; min-width: 0; }
+  .ef__h { padding: 0; margin: 0; font-family: var(--font-display); font-weight: 800; font-stretch: 110%; font-size: clamp(1.45rem, 1.2rem + 1vw, 1.9rem); letter-spacing: -0.03em; line-height: 1.1; outline: none; }
+  .ef__sub { margin: -6px 0 4px; font-size: var(--fs-small); opacity: 0.72; }
+  .ef__q, .ef__label { display: block; margin: 6px 0 0; font-family: var(--font-display); font-weight: 680; font-stretch: 98%; font-size: 1rem; }
+  .ef__label { margin: 0 0 8px; }
+  .ef__opt { font-family: var(--font-body); font-weight: 400; font-size: 0.85rem; opacity: 0.62; margin-left: 6px; }
   .ef__row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px 16px; }
-  .ef__two { display: grid; grid-template-columns: auto 1fr; gap: 14px 28px; }
-  .ef__field--zip { max-width: 180px; }
-  .ef__chips { display: flex; flex-wrap: wrap; gap: 8px; }
-  .chip { position: relative; display: inline-flex; }
-  .chip input { position: absolute; inset: 0; opacity: 0; margin: 0; cursor: pointer; }
-  .chip span { display: inline-flex; align-items: center; min-height: 44px; padding: 0 16px; border-radius: var(--r-chip); font-size: 0.95rem; font-weight: 550;
-    box-shadow: inset 0 0 0 1.5px var(--chip-line); transition: background var(--t2) var(--ease), box-shadow var(--t2) var(--ease), color var(--t2) var(--ease), transform var(--t1) var(--ease); user-select: none; }
-  .chip input:hover + span { box-shadow: inset 0 0 0 1.5px var(--paint); }
-  .chip input:active + span { transform: scale(0.97); }
-  .chip input:checked + span { background: var(--paint); color: var(--ink); box-shadow: inset 0 0 0 1.5px var(--paint); }
-  .chip input:focus-visible + span { outline: 3px solid var(--paint); outline-offset: 2px; }
-  input:not([type='checkbox']):not([type='radio']), select {
+  .ef__field--zip { max-width: 200px; margin-top: 4px; }
+
+  /* Choice cards */
+  .ef__opts { display: grid; gap: 10px; }
+  .ef__opts--use { grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr)); }
+  .ef__opts--town { grid-template-columns: repeat(auto-fill, minmax(min(100%, 132px), 1fr)); gap: 8px; }
+  .ef__opts--list { grid-template-columns: 1fr; gap: 8px; }
+  .ef__opts--row { display: flex; flex-wrap: wrap; gap: 8px; }
+  .ef__opts--grid3 { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin-bottom: 10px; }
+  .ef__opts--grid3 .opt--chip .opt__card { min-height: 60px; border-radius: var(--r-control); justify-content: center; text-align: center; padding: 8px 12px; }
+  .opt { position: relative; display: grid; }
+  .opt input { position: absolute; inset: 0; opacity: 0; margin: 0; cursor: pointer; z-index: 1; }
+  .opt__card { position: relative; display: grid; align-content: start; gap: 4px; padding: 16px 16px 15px; border-radius: var(--r-control);
+    background: var(--field-bg); box-shadow: inset 0 0 0 1.5px var(--chip-line); user-select: none;
+    transition: background var(--t2) var(--ease), box-shadow var(--t2) var(--ease), transform var(--t1) var(--ease); }
+  .opt__ico { width: 30px; height: 30px; margin-bottom: 8px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; opacity: 0.85; }
+  .opt__t { font-family: var(--font-display); font-weight: 720; font-stretch: 104%; font-size: 1.02rem; letter-spacing: -0.01em; line-height: 1.2; }
+  .opt__s { font-size: 0.86rem; line-height: 1.4; opacity: 0.7; }
+  .opt__tick { position: absolute; top: 12px; right: 12px; width: 22px; height: 22px; border-radius: 50%; display: grid; place-items: center;
+    box-shadow: inset 0 0 0 1.5px var(--chip-line); color: transparent; transition: background var(--t2) var(--ease), color var(--t2) var(--ease); }
+  .opt--chip .opt__card { padding: 0 16px; min-height: 48px; align-content: center; border-radius: var(--r-chip); }
+  .opt--chip .opt__t { font-family: var(--font-body); font-weight: 600; font-size: 0.95rem; letter-spacing: 0; }
+  .ef__opts--town .opt--chip .opt__card { border-radius: var(--r-control); }
+  .opt--else { grid-column: span 2; }
+  .opt--row .opt__card { padding: 14px 52px 14px 16px; }
+  .opt input:hover + .opt__card { box-shadow: inset 0 0 0 1.5px var(--paint); }
+  .opt input:active + .opt__card { transform: scale(0.98); }
+  .opt input:focus-visible + .opt__card { outline: 3px solid var(--paint); outline-offset: 2px; }
+  .opt input:checked + .opt__card { background: rgb(var(--paint-rgb) / 0.14); box-shadow: inset 0 0 0 2px var(--paint); }
+  .opt input:checked + .opt__card .opt__tick { background: var(--paint); color: var(--bone); box-shadow: none; }
+  .opt input:checked + .opt__card .opt__ico { color: var(--paint-ink); opacity: 1; }
+
+  /* Fields */
+  .ef :is(input:not([type='checkbox']):not([type='radio']), select) {
     width: 100%; min-height: 52px; padding: 0 14px; border-radius: var(--r-control); border: 0; font: 500 16px/1.2 var(--font-body);
     background: var(--field-bg); color: inherit; box-shadow: inset 0 0 0 1.5px var(--chip-line); transition: box-shadow var(--t2) var(--ease);
     appearance: none; -webkit-appearance: none; }
-  select { background-image: linear-gradient(45deg, transparent 50%, currentColor 50%), linear-gradient(135deg, currentColor 50%, transparent 50%);
+  .ef select { background-image: linear-gradient(45deg, transparent 50%, currentColor 50%), linear-gradient(135deg, currentColor 50%, transparent 50%);
     background-position: calc(100% - 20px) 50%, calc(100% - 14px) 50%; background-size: 6px 6px; background-repeat: no-repeat; padding-right: 36px; }
-  input:focus, select:focus { outline: none; box-shadow: inset 0 0 0 2px var(--paint); }
-  input[aria-invalid='true'] { box-shadow: inset 0 0 0 2px var(--paint); }
-  .ef--slab { --chip-line: rgb(var(--bone-rgb) / 0.3); --field-bg: rgb(var(--bone-rgb) / 0.06); color: var(--bone); }
-  .ef--slab select option { color: var(--ink); }
-  .ef--ground { --chip-line: rgb(var(--ink-rgb) / 0.22); --field-bg: rgb(255 255 255 / 0.45); }
-  .ef__submit { display: grid; gap: 10px; justify-items: start; padding-top: 6px; }
+  .ef :is(input, select):focus { outline: none; box-shadow: inset 0 0 0 2px var(--paint); }
+  .ef input[aria-invalid='true'] { box-shadow: inset 0 0 0 2px #c0392b; }
+  .ef__submit { display: grid; gap: 10px; justify-items: start; padding-top: 8px; }
   .ef__btn { min-height: 58px; font-size: 1.1rem; padding: 0 28px; }
-  .ef__fine, .ef__hatch { margin: 0; font-size: var(--fs-small); opacity: 0.8; }
+  .ef__hatch { margin: 0; font-size: var(--fs-small); opacity: 0.8; }
+  .ef__hatch a { color: inherit; font-weight: 650; text-decoration-color: var(--paint); }
   .ef__status:empty { display: none; }
   .ef__status { padding: 12px 14px; border-radius: var(--r-control); background: rgb(var(--paint-rgb) / 0.16); font-weight: 550; }
   .ef[data-busy] .ef__btn { opacity: 0.7; pointer-events: none; }
-  @media (max-width: 640px) { .ef__row, .ef__two { grid-template-columns: 1fr; } .ef__field--zip { max-width: none; } .ef__btn { width: 100%; } }
+
+  /* Tones */
+  .efw--slab .efw__inline, .efw--slab .efw__launch { --chip-line: rgb(var(--bone-rgb) / 0.3); --field-bg: rgb(var(--bone-rgb) / 0.06); color: var(--bone); }
+  .efw--slab .efw__inline select option { color: var(--ink); }
+  .efw--ground .efw__inline, .efw--ground .efw__launch, .efw__dlg { --chip-line: rgb(var(--ink-rgb) / 0.2); --field-bg: rgb(255 255 255 / 0.55); color: var(--ink); }
+
+  /* ── The in-page card that opens the wizard ── */
+  .efw__launch:not([hidden]) { display: grid; gap: 18px; padding: clamp(22px, 3vw, 36px); border-radius: var(--r-panel); box-shadow: inset 0 0 0 1.5px var(--chip-line); }
+  .efw--slab .efw__launch { background: rgb(var(--bone-rgb) / 0.04); }
+  .efw--ground .efw__launch { background: var(--ground); }
+  .efw__lk { margin: 0; }
+  .efw__lh { margin: 0; font-family: var(--font-display); font-weight: 780; font-stretch: 108%; font-size: clamp(1.4rem, 1.15rem + 1vw, 1.9rem); letter-spacing: -0.025em; line-height: 1.15; max-width: 24ch; }
+  .efw__lsteps { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+  .efw__lsteps li { display: inline-flex; align-items: center; gap: 8px; min-height: 38px; padding: 0 14px 0 6px; border-radius: var(--r-chip); box-shadow: inset 0 0 0 1px var(--chip-line); font-size: 0.9rem; font-weight: 550; }
+  .efw__ln { display: grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--paint); color: var(--bone); font-size: 0.8rem; font-weight: 800; }
+  .efw__lacts { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 22px; margin-top: 4px; }
+  .efw__lgo { min-height: 58px; font-size: 1.1rem; padding: 0 30px; }
+  .efw__lcall { display: inline-flex; align-items: center; gap: 8px; color: inherit; font-weight: 650; text-decoration-color: var(--paint); min-height: 44px; }
+
+  /* ── The dialog ── */
+  .efw__dlg { width: min(980px, calc(100vw - 32px)); max-width: none; height: min(700px, calc(100dvh - 48px)); max-height: none; margin: auto; padding: 0; border: 0;
+    border-radius: 18px; background: var(--ground); overflow: hidden; box-shadow: 0 30px 80px rgb(0 0 0 / 0.35);
+    opacity: 1; transform: none;
+    transition: opacity var(--t3) var(--ease), transform var(--t3) var(--ease), overlay var(--t3) allow-discrete, display var(--t3) allow-discrete; }
+  .efw__dlg:not([open]) { opacity: 0; transform: translateY(16px) scale(0.985); }
+  @starting-style { .efw__dlg[open] { opacity: 0; transform: translateY(16px) scale(0.985); } }
+  .efw__dlg::backdrop { background: rgb(19 18 15 / 0.62); transition: background var(--t3) var(--ease), overlay var(--t3) allow-discrete, display var(--t3) allow-discrete; }
+  @starting-style { .efw__dlg[open]::backdrop { background: rgb(19 18 15 / 0); } }
+  @supports (backdrop-filter: blur(1px)) { .efw__dlg::backdrop { backdrop-filter: blur(4px); } }
+  :global(html:has(.efw__dlg[open])) { overflow: hidden; }
+  .efw__panel { display: grid; grid-template-columns: minmax(0, 0.72fr) minmax(0, 1.28fr); height: 100%; }
+  .efw__side { position: relative; background: var(--slab) var(--side) center / cover no-repeat; color: var(--bone); display: grid; align-items: end; }
+  .efw__side::before { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgb(19 18 15 / 0.2) 0%, rgb(19 18 15 / 0.55) 45%, rgb(19 18 15 / 0.92) 100%); }
+  .efw__sidein { position: relative; padding: 32px 30px; display: grid; gap: 14px; }
+  .efw__sidein .label { margin: 0; color: var(--paint); }
+  .efw__st { margin: 0; font-family: var(--font-display); font-weight: 820; font-stretch: 112%; font-size: 2rem; letter-spacing: -0.035em; line-height: 1; }
+  .efw__why { list-style: none; margin: 4px 0 0; padding: 0; display: grid; gap: 10px; }
+  .efw__why li { display: grid; grid-template-columns: 22px 1fr; gap: 8px; align-items: start; font-size: 0.95rem; color: var(--bone-2); line-height: 1.35; }
+  .efw__why :global(svg) { color: var(--paint); margin-top: 2px; }
+  .efw__sidecall { margin: 6px 0 0; font-size: 0.92rem; color: var(--bone-2); }
+  .efw__sidecall a { color: var(--bone); font-weight: 700; text-decoration-color: var(--paint); }
+  .efw__main { display: grid; grid-template-rows: auto minmax(0, 1fr); min-height: 0; }
+  .efw__top { position: relative; display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 12px; padding: 18px 20px 16px 30px; }
+  .efw__count { margin: 0; display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; font-family: var(--font-display); font-size: 0.8rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-2); }
+  .efw__name { letter-spacing: 0; text-transform: none; font-size: 0.95rem; color: var(--ink); }
+  .efw__x { width: 44px; height: 44px; border: 0; border-radius: 50%; display: grid; place-items: center; background: transparent; color: var(--ink); cursor: pointer; transition: background var(--t2) var(--ease); }
+  .efw__x:hover { background: var(--ground-2); }
+  .efw__x:focus-visible { outline: 3px solid var(--paint); outline-offset: 2px; }
+  .efw__bar { grid-column: 1 / -1; height: 4px; border-radius: 4px; background: var(--line); overflow: hidden; }
+  .efw__bar span { display: block; height: 100%; width: var(--p, 20%); background: var(--paint); border-radius: 4px; transition: width var(--t4) var(--ease); }
+  .efw__slot { min-height: 0; display: grid; }
+
+  /* ── Wizard mode (set by the script once the form is in the dialog) ── */
+  .ef.is-wiz { grid-template-rows: minmax(0, 1fr) auto; gap: 0; min-height: 0; height: 100%; }
+  .ef.is-wiz .ef__step { display: none; overflow-y: auto; padding: 8px 30px 24px; overscroll-behavior: contain; }
+  .ef.is-wiz .ef__step.is-on { display: grid; }
+  .ef.is-wiz .ef__nav:not([hidden]) { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 14px 30px; border-top: 1px solid var(--line); background: var(--ground);
+    padding-bottom: max(14px, env(safe-area-inset-bottom)); }
+  .ef.is-wiz[data-last] .ef__next { display: none; }
+  .ef.is-wiz[data-first] .ef__back { visibility: hidden; }
+  .ef__back { display: inline-flex; align-items: center; gap: 6px; min-height: 48px; padding: 0 12px 0 6px; border: 0; background: transparent; color: var(--ink); font: 650 1rem var(--font-body); cursor: pointer; border-radius: var(--r-control); }
+  .ef__back :global(.ef__backi) { transform: scaleX(-1); }
+  .ef__back:focus-visible { outline: 3px solid var(--paint); outline-offset: 2px; }
+  .ef__next { min-height: 52px; padding: 0 26px; }
+  @media (prefers-reduced-motion: no-preference) {
+    .ef.is-wiz .ef__step.is-on { animation: ef-in var(--t3) var(--ease) both; }
+    .ef.is-wiz[data-dir='back'] .ef__step.is-on { animation-name: ef-back; }
+    @keyframes ef-in { from { opacity: 0; translate: 18px 0; } to { opacity: 1; translate: 0 0; } }
+    @keyframes ef-back { from { opacity: 0; translate: -18px 0; } to { opacity: 1; translate: 0 0; } }
+  }
+
+  @media (max-width: 799px) {
+    .efw__dlg { width: 100vw; height: 100dvh; border-radius: 0; margin: 0; }
+    .efw__dlg:not([open]) { transform: translateY(24px); }
+    @starting-style { .efw__dlg[open] { transform: translateY(24px); } }
+    .efw__panel { grid-template-columns: 1fr; }
+    .efw__side { display: none; }
+    .efw__top { padding: max(12px, env(safe-area-inset-top)) 12px 14px 20px; }
+    .ef.is-wiz .ef__step { padding: 6px 20px 24px; }
+    .ef.is-wiz .ef__nav:not([hidden]) { padding-inline: 20px; }
+    .ef__opts--use { grid-template-columns: 1fr 1fr; }
+    .ef__opts--use .opt__s { display: none; }
+    .ef__opts--town { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .ef__opts--grid3 { grid-template-columns: 1fr; }
+    .ef__opts--grid3 .opt--chip .opt__card { min-height: 52px; }
+  }
+  @media (max-width: 640px) { .ef__row { grid-template-columns: 1fr; } .ef__field--zip { max-width: none; } .ef__btn { width: 100%; } }
 </style>
 
 <script>
-  document.querySelectorAll<HTMLFormElement>('[data-ef]').forEach((form) => {
-    const t0 = performance.now();
-    const elapsed = form.querySelector<HTMLInputElement>('[data-elapsed]')!;
+  document.querySelectorAll<HTMLElement>('[data-efw]').forEach((root) => {
+    const form = root.querySelector<HTMLFormElement>('[data-ef]')!;
+    const dlg = root.querySelector<HTMLDialogElement>('[data-efw-dlg]')!;
     const status = form.querySelector<HTMLElement>('[data-ef-status]')!;
     const phoneLink = form.querySelector<HTMLAnchorElement>('.ef__hatch a');
+    const elapsed = form.querySelector<HTMLInputElement>('[data-elapsed]')!;
+    const t0 = performance.now();
+
+    /* ── Submit: the same lead contract with or without the wizard ── */
     form.addEventListener('submit', async (e) => {
       elapsed.value = String(Math.round(performance.now() - t0));
       const tel = form.elements.namedItem('phone') as HTMLInputElement;
       if (!tel.value.trim()) {
         e.preventDefault();
+        if (wizard) go(steps.length - 1);
         tel.setAttribute('aria-invalid', 'true'); tel.focus();
         status.textContent = 'Add a phone number so we can call you back.';
         return;
@@ -165,12 +362,89 @@ const towns = [...NOCO_TOWNS].sort((a, b) => a.name.localeCompare(b.name));
         const out = await res.json().catch(() => ({}));
         if (res.ok && out.ok) { location.href = '/thanks/'; return; }
         if (res.status === 422) { status.textContent = 'Add a phone number or email so we can reach you.'; tel.focus(); }
-        else status.innerHTML = phoneLink ? `We couldn't send that just now — your answers are still here. <a href="${phoneLink.href}">Call ${phoneLink.textContent?.replace(/^Call\s*/, '')}</a> and we'll take it by phone.` : "We couldn't send that just now — your answers are still here. Please try again.";
+        else status.innerHTML = phoneLink ? `We couldn't send that just now, but your answers are still here. <a href="${phoneLink.href}">Call ${phoneLink.textContent?.replace(/^Call\s*/, '')}</a> and we'll take it by phone.` : "We couldn't send that just now, but your answers are still here. Please try again.";
       } catch {
-        status.textContent = "We couldn't reach the server — your answers are still here. Please try again, or call us.";
+        status.textContent = "We couldn't reach the server, but your answers are still here. Please try again, or call us.";
       } finally {
         form.removeAttribute('data-busy');
       }
     });
+
+    /* ── The wizard: only where <dialog> works ── */
+    const wizard = typeof dlg.showModal === 'function';
+    const steps = [...form.querySelectorAll<HTMLFieldSetElement>('[data-step]')];
+    if (!wizard) return;
+    const launch = root.querySelector<HTMLElement>('[data-efw-launch]')!;
+    const inline = root.querySelector<HTMLElement>('[data-efw-inline]')!;
+    const nav = form.querySelector<HTMLElement>('[data-efw-nav]')!;
+    const count = dlg.querySelector<HTMLElement>('[data-efw-count]')!;
+    const name = dlg.querySelector<HTMLElement>('[data-efw-name]')!;
+    const bar = dlg.querySelector<HTMLElement>('[data-efw-bar]')!;
+    const names = [...root.querySelectorAll('.efw__lsteps li')].map((li) => li.textContent?.replace(/^\d+/, '').trim() ?? '');
+    dlg.querySelector('[data-efw-slot]')!.append(form);
+    inline.hidden = true;
+    launch.hidden = false;
+    nav.hidden = false;
+    form.classList.add('is-wiz');
+
+    let at = 0;
+    function go(n: number, focus = true) {
+      const next = Math.max(0, Math.min(steps.length - 1, n));
+      form.dataset.dir = next < at ? 'back' : 'next';
+      at = next;
+      steps.forEach((s, i) => s.classList.toggle('is-on', i === at));
+      form.toggleAttribute('data-first', at === 0);
+      form.toggleAttribute('data-last', at === steps.length - 1);
+      count.textContent = `Step ${at + 1} of ${steps.length}`;
+      name.textContent = names[at] ?? '';
+      bar.style.setProperty('--p', `${((at + 1) / steps.length) * 100}%`);
+      if (focus) steps[at].querySelector<HTMLElement>('.ef__h')?.focus({ preventScroll: true });
+      steps[at].scrollTop = 0;
+    }
+    go(0, false);
+
+    const open = () => {
+      if (dlg.open) return;
+      dlg.showModal();
+      go(at);
+      (window as any).plausible?.('wizard_open');
+    };
+    form.querySelector('[data-efw-next]')!.addEventListener('click', () => go(at + 1));
+    form.querySelector('[data-efw-back]')!.addEventListener('click', () => go(at - 1));
+    dlg.querySelector('[data-efw-close]')!.addEventListener('click', () => dlg.close());
+    // A click on the backdrop (the dialog box itself, outside the panel) closes it.
+    dlg.addEventListener('click', (e) => { if (e.target === dlg) dlg.close(); });
+    // Enter in a text field moves on instead of submitting early.
+    form.addEventListener('keydown', (e) => {
+      const t = e.target as HTMLElement;
+      if (e.key === 'Enter' && t instanceof HTMLInputElement && !['checkbox', 'radio'].includes(t.type) && at < steps.length - 1) { e.preventDefault(); go(at + 1); }
+    });
+
+    // A tapped single-choice answer moves on by itself; the keyboard (arrow keys) never does.
+    let pointer = false;
+    form.addEventListener('pointerdown', () => { pointer = true; });
+    form.addEventListener('keydown', () => { pointer = false; });
+    form.addEventListener('change', (e) => {
+      const t = e.target as HTMLInputElement;
+      const step = steps[at];
+      if (!pointer || t.type !== 'radio' || !step.contains(t) || !step.dataset.auto) return;
+      if (t.name === 'town' && t.value === 'Somewhere else') { step.querySelector<HTMLInputElement>('[name="zip"]')?.focus(); return; }
+      const need = step.dataset.auto.split(' ');
+      if (need.every((n) => form.querySelector(`[name="${n}"]:checked`))) setTimeout(() => { if (steps[at] === step) go(at + 1); }, 260);
+    });
+
+    // Every "Book a yard walk" link on the page opens the wizard.
+    document.addEventListener('click', (e) => {
+      const el = (e.target as HTMLElement).closest<HTMLElement>('[data-efw-open], a[href$="#estimate"]');
+      if (!el) return;
+      if (el instanceof HTMLAnchorElement) {
+        const u = new URL(el.href, location.href);
+        if (u.origin !== location.origin || !(u.pathname === location.pathname || u.pathname === '/contact/')) return;
+      }
+      e.preventDefault();
+      el.closest('dialog')?.close();
+      open();
+    });
+    if (location.hash === '#estimate') open();
   });
 </script>

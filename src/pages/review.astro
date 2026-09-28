@@ -30,7 +30,7 @@ const crumbs = [{ name: 'Leave a review', path: '/review/' }];
   noindex
   crumbs={crumbs}
 >
-  <PageHero label="Reviews" crumbs={crumbs} compact lede={`If ${name} put in your turf, a review on Google helps the next homeowner decide. Good, bad or in between — everyone gets this same link.`}>
+  <PageHero label="Reviews" crumbs={crumbs} compact lede={`If ${name} put in your turf, a quick Google review helps other homeowners decide. We’d like to hear how it went, good or bad.`}>
     How did your <PaintWord now>project go?</PaintWord>
   </PageHero>
 
@@ -42,7 +42,7 @@ const crumbs = [{ name: 'Leave a review', path: '/review/' }];
         {reviewUrl
           ? <a class="btn btn--paint rv-card__btn" href={reviewUrl} rel="noopener" data-cta="review-google">Leave a review on Google <Icon name="external" /></a>
           : <Fragment set:html="<!-- review link not rendered: identity.gbp_place_id is not a renderable fact in .site/truth/brief.json -->" />}
-        <p class="rv-card__fine">It opens Google’s own review form for {name} — no star question first, and nobody gets a different link.</p>
+        <p class="rv-card__fine">It opens our Google listing, where you can leave a review.</p>
       </div>
 
       {phoneHref && (

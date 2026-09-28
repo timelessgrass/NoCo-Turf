@@ -134,7 +134,7 @@ needsFromBrian:
   - "Photos from a finished Northern Colorado yard with pollen, cottonwood cotton or elm seed on the turf, with the town and the month."
 ---
 
-**Checked September 25, 2026.** Artificial turf takes one pollen source out of your yard: the lawn. Whether that helps depends on which pollen you react to and how much of it blows in from somewhere else. This page sorts the two, then takes up the rarer question of reacting to turf materials. It is general information, not medical advice; an allergist can tell you which pollen is yours.
+Artificial turf takes one pollen source out of your yard: the lawn. Whether that helps depends on which pollen you react to and how much of it blows in from somewhere else. This page sorts the two, then takes up the rarer question of reacting to turf materials. It is general information, not medical advice; an allergist can tell you which pollen is yours.
 
 ## What does artificial turf take away for someone with grass allergies?
 

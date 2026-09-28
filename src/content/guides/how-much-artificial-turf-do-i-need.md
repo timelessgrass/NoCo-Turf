@@ -117,7 +117,7 @@ needsFromBrian:
   - "Any Firestone permit you have been through: how the Town measured the side and rear yards, and whether a planted 3-foot property-line buffer counted toward the live-plant half."
 ---
 
-**Checked September 25, 2026.** This page is the arithmetic behind a turf project: measuring the yard, turning it into a turf order, the rock and infill it takes, and how much of a yard turf may cover. Prices are in our [cost guide](/guides/artificial-turf-cost/).
+This page is the arithmetic behind a turf project: measuring the yard, turning it into a turf order, the rock and infill it takes, and how much of a yard turf may cover. Prices are in our [cost guide](/guides/artificial-turf-cost/).
 
 ## How do I measure a yard for artificial turf?
 

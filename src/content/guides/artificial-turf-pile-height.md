@@ -147,7 +147,7 @@ needsFromBrian:
   - "Whether you have put a putting green or a short pet product in Firestone or Barefoot Lakes, and what Firestone Planning or the Barefoot committee said about the 1.75-inch minimum."
 ---
 
-**Checked September 25, 2026.** Pile height is one short line on a turf spec sheet, and it decides much of how a yard looks and wears. Products below are named as published examples, not recommendations.
+Pile height is one short line on a turf spec sheet, and it decides much of how a yard looks and wears. Products below are named as published examples, not recommendations.
 
 ## What does pile height measure?
 

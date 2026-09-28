@@ -17,37 +17,25 @@ import WorkReel from '../components/WorkReel.astro';
 import CtaBand from '../components/CtaBand.astro';
 import PaintWord from '../components/PaintWord.astro';
 import Icon from '../components/Icon.astro';
-import { PHOTOS, photo, monthLabel } from '../data/photos';
+import { PHOTOS, photo } from '../data/photos';
 import { phoneHref, phoneDisplay } from '../data/brief';
 
 const ORDER = ['boulders', 'street-view', 'driveway', 'side-yard', 'fenced-yard', 'rock-border', 'fire-pit', 'crew', 'playset', 'dusk'];
 const sheet = [...ORDER.filter((id) => PHOTOS.some((p) => p.id === id)).map(photo), ...PHOTOS.filter((p) => !ORDER.includes(p.id))];
 
-const WORDS = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty'];
-const word = (n: number) => WORDS[n] ?? String(n);
-const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
-const pad = (n: number) => String(n).padStart(2, '0');
 
-const places = new Set(sheet.map((p) => p.place)).size;
-const months = sheet.map((p) => p.month).filter((m): m is string => Boolean(m)).sort();
-const span = months.length ? (months[0] === months[months.length - 1] ? monthLabel(months[0]) : `${monthLabel(months[0])} – ${monthLabel(months[months.length - 1])}`) : '';
-const crewNo = sheet.findIndex((p) => p.id === 'crew') + 1;
-const triptych = ['boulders', 'street-view', 'driveway'].every((id, i) => sheet[i]?.id === id) ? sheet[0] : null;
-
-/* The job card each write-up will carry — the fields of the `work` collection (src/content.config.ts). */
-const card = ['Town', 'Month', 'Use', 'Area', 'Turf', 'Base depth', 'Days on site'];
 
 const crumbs = [{ name: 'Work', path: '/work/' }];
 ---
 <Base
   title="Our Work: Turf Jobs Across Northern Colorado | NoCo Turf Co."
-  description="Putting greens, back lawns and side yards near Berthoud, Windsor and Greeley: Brian's own job photos, each marked with where it was taken. Book a yard walk."
+  description="Putting greens, back lawns and side yards we've built near Berthoud, Windsor and Greeley. See the work, then book a yard walk for your own yard."
   crumbs={crumbs}
 >
   <PageHero
     label="The work"
     crumbs={crumbs}
-    lede="Every photo here is from one of Brian’s jobs in Northern Colorado, with the nearest town and, where the camera kept it, the month. Tap any photo to see it full size."
+    lede="Putting greens, lawns and side yards we’ve built around Windsor, Berthoud and Greeley. Tap any photo to see it full size."
   >
     Real yards across <PaintWord now>Northern Colorado.</PaintWord>
     <div slot="after" class="wk-acts">
@@ -58,15 +46,12 @@ const crumbs = [{ name: 'Work', path: '/work/' }];
 
   <section class="section ground-2 wk-sheet" aria-labelledby="sheet-h">
     <div class="wrap">
-      <CoHead label="Photos" id="sheet-h" split lede="When you compare installers, look at the edges and seams, where turf meets concrete, rock and curb. That’s where a careful install shows.">
+      <CoHead label="Photos" id="sheet-h" split lede="When you compare installers, look closely at the edges, where turf meets concrete, rock and curb. That’s where careful work shows.">
         Lawns, greens and <PaintWord>the details.</PaintWord>
       </CoHead>
       <div class="wk-reel">
         <WorkReel photos={sheet} />
       </div>
-      {triptych && (
-        <p class="wk-note"><span class="wk-note__k num">01–03</span><span>One putting green, {triptych.place}{triptych.month && <>, {monthLabel(triptych.month)}</>} — from the yard, from the street and from the driveway.</span></p>
-      )}
     </div>
   </section>
 
@@ -74,59 +59,9 @@ const crumbs = [{ name: 'Work', path: '/work/' }];
     <div class="wrap wk-crew__grid">
       <div class="wk-crew__copy">
         <CoHead label="On the job" id="crew-h" paint>The finishing <PaintWord text>pass.</PaintWord></CoHead>
-        <p>A power broom going over a newly laid lawn in the {photo('crew').place}. The bristles stand the blades up and settle the infill, so the turf looks like grass, not carpet.</p>
-        <p class="wk-crew__small">The clip plays while it’s on your screen, stops when you scroll past, and pauses any time you press Pause. With reduced motion turned on, you’ll see the still.</p>
+        <p>The last step on a new lawn: a power broom stands the blades up and settles the infill, so the turf looks like grass, not carpet.</p>
       </div>
-      <CoCrewClip label={`Frame ${pad(crewNo)} · the clip`} sizes="(max-width: 899px) 90vw, 32vw" />
-    </div>
-  </section>
-
-  <section class="section wk-next" aria-labelledby="next-h">
-    <div class="wrap">
-      <CoHead label="Coming soon" id="next-h" split lede="Project write-ups are on the way: the yard before, the base going in, and the finished turf, with what went where.">
-        Before and after, <PaintWord>project by project.</PaintWord>
-      </CoHead>
-      <div class="wk-plan">
-        <ol class="wk-phases" role="list" aria-label="What each write-up will show">
-          <li class="wk-phase rise">
-            <div class="wk-phase__frame" aria-hidden="true">
-              <svg viewBox="0 0 120 80"><path class="wk-g" d="M8 58c6-9 9-17 10-24M18 58c1-8 4-14 9-19M30 58c-2-7-1-14 3-22M44 58c2-9 6-15 12-19M60 58c-1-6 0-13 4-19M76 58c3-8 7-13 13-16M92 58c0-7 2-13 7-18M104 58c2-5 4-9 8-12" /><path class="wk-base" d="M4 60h112" /></svg>
-            </div>
-            <p class="label">01 · Before</p>
-            <p class="wk-phase__txt">The yard as it was — lawn, dirt or old turf — from a fixed spot.</p>
-          </li>
-          <li class="wk-phase__arrow" aria-hidden="true"><Icon name="arrow" size={22} /></li>
-          <li class="wk-phase rise">
-            <div class="wk-phase__frame" aria-hidden="true">
-              <svg viewBox="0 0 120 80"><path class="wk-base" d="M4 24h112" /><path class="wk-rock" d="M4 34h112M4 42h112M4 50h112" /><path class="wk-clay" d="M4 60c14-3 26 3 40 0s28-3 40 0 22 2 32 0" /></svg>
-            </div>
-            <p class="label">02 · Base</p>
-            <p class="wk-phase__txt">The part nobody sees afterwards: the dig, the rock and the compaction.</p>
-          </li>
-          <li class="wk-phase__arrow" aria-hidden="true"><Icon name="arrow" size={22} /></li>
-          <li class="wk-phase rise">
-            <div class="wk-phase__frame" aria-hidden="true">
-              <svg viewBox="0 0 120 80"><path class="wk-line" d="M10 62C10 38 26 20 58 18s46 12 52 30" pathLength="1" /><path class="wk-base" d="M4 66h112" /></svg>
-            </div>
-            <p class="label">03 · After</p>
-            <p class="wk-phase__txt">The finished turf from the same spot, with the edges in frame.</p>
-          </li>
-        </ol>
-
-        <div class="wk-card rise" aria-label="The job card each write-up will carry">
-          <div class="wk-card__head">
-            <p class="label">Job card</p>
-            <p class="wk-card__stamp">Filled in from the ledger</p>
-          </div>
-          <dl class="wk-card__rows">
-            {card.map((k) => <div><dt>{k}</dt><dd><span class="wk-card__blank" aria-hidden="true"></span><span class="sr">Not filled in yet</span></dd></div>)}
-          </dl>
-        </div>
-      </div>
-      <p class="wk-next__call">
-        Want to see a yard like yours before then?{' '}
-        {phoneHref ? <>Call <a href={phoneHref} data-cta="work-call">{phoneDisplay}</a> and ask, or <a href="/contact/">book a yard walk</a>.</> : <><a href="/contact/">Book a yard walk</a>.</>}
-      </p>
+      <CoCrewClip label="On the job" sizes="(max-width: 899px) 90vw, 32vw" />
     </div>
   </section>
 
@@ -148,8 +83,6 @@ const crumbs = [{ name: 'Work', path: '/work/' }];
 
   /* ── The sheet. WorkReel's 9-frame rhythm, finished for ten, and a real grid on phones (this page is
         the photos — a sideways strip would hide nine of them). ── */
-  .wk-note { display: flex; gap: 14px; align-items: baseline; margin: clamp(24px, 3vw, 40px) 0 0; padding-top: 18px; border-top: 1px dashed rgb(var(--ink-rgb) / 0.28); color: var(--ink-2); font-size: var(--fs-small); max-width: 70ch; }
-  .wk-note__k { flex: none; font-family: var(--font-display); font-weight: 800; font-stretch: 110%; color: var(--ink); }
   @media (min-width: 900px) {
     .wk-reel :global(.reel__item:nth-child(9)), .wk-reel :global(.reel__item:nth-child(10)) { grid-column: span 6; grid-row: auto; }
     .wk-reel :global(.reel__item:nth-child(9) .reel__frame), .wk-reel :global(.reel__item:nth-child(10) .reel__frame) { aspect-ratio: 4 / 3; }
@@ -169,60 +102,13 @@ const crumbs = [{ name: 'Work', path: '/work/' }];
   .wk-crew__grid :global(.co-clip) { max-width: 420px; justify-self: end; width: 100%; }
   .wk-crew__copy :global(.co-head) { margin-bottom: 26px; }
   .wk-crew__copy > p { color: var(--bone-2); max-width: 50ch; }
-  .wk-crew__small { font-size: var(--fs-small); color: var(--bone-3) !important; }
 
-  /* ── Coming next: before → base → after, and the job card ── */
-  .wk-plan { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(280px, 0.7fr); gap: clamp(24px, 4vw, 64px); align-items: start; }
-  .wk-phases { list-style: none; display: grid; grid-template-columns: 1fr auto 1fr auto 1fr; gap: 14px; align-items: start; }
-  .wk-phase__arrow { align-self: center; margin-top: -48px; color: var(--ink-3); }
-  .wk-phase__frame { aspect-ratio: 4 / 3; border-radius: var(--r-photo); display: grid; place-items: center; margin-bottom: 14px;
-    background: var(--ground-2); box-shadow: inset 0 0 0 1.5px rgb(var(--ink-rgb) / 0.12); position: relative; }
-  .wk-phase__frame::after { content: ''; position: absolute; inset: 8px; border-radius: 2px; border: 1.5px dashed rgb(var(--ink-rgb) / 0.2); }
-  .wk-phase__frame svg { width: 72%; height: auto; overflow: visible; }
-  .wk-phase__frame path { fill: none; stroke-linecap: round; stroke-linejoin: round; }
-  .wk-g { stroke: rgb(var(--ink-rgb) / 0.45); stroke-width: 2; }
-  .wk-base { stroke: var(--ink); stroke-width: 2.4; }
-  .wk-rock { stroke: rgb(var(--ink-rgb) / 0.4); stroke-width: 2; stroke-dasharray: 2 5; }
-  .wk-clay { stroke: rgb(var(--ink-rgb) / 0.35); stroke-width: 2; }
-  .wk-line { stroke: var(--paint); stroke-width: 4; }
-  .wk-phase .label { margin: 0 0 6px; color: var(--ink); }
-  .wk-phase__txt { margin: 0; font-size: var(--fs-small); color: var(--ink-2); max-width: 30ch; }
-
-  .wk-card { border-radius: var(--r-panel); background: var(--slab); color: var(--bone); padding: 22px 22px 16px; }
-  .wk-card__head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding-bottom: 12px; border-bottom: 1px solid var(--bone-line); }
-  .wk-card__head .label { margin: 0; color: var(--bone); }
-  .wk-card__stamp { margin: 0; font-family: var(--font-display); font-stretch: 78%; font-weight: 650; font-size: 0.68rem; letter-spacing: 0.16em; text-transform: uppercase;
-    color: var(--bone-3); padding: 3px 8px; border-radius: var(--r-chip); border: 1.5px dashed rgb(var(--paint-rgb) / 0.7); }
-  .wk-card__rows { margin: 0; display: grid; }
-  .wk-card__rows div { display: grid; grid-template-columns: 7.5rem 1fr; gap: 12px; align-items: center; min-height: 40px; border-bottom: 1px dashed rgb(var(--bone-rgb) / 0.16); }
-  .wk-card__rows div:last-child { border-bottom: 0; }
-  .wk-card__rows dt { font-family: var(--font-display); font-size: var(--fs-label); font-weight: 640; font-stretch: 76%; letter-spacing: 0.17em; text-transform: uppercase; color: var(--bone-3); }
-  .wk-card__rows dd { margin: 0; }
-  .wk-card__blank { display: block; height: 2px; border-radius: 2px; background: repeating-linear-gradient(90deg, rgb(var(--bone-rgb) / 0.28) 0 10px, transparent 10px 17px); }
-
-  .wk-next__call { margin: clamp(36px, 4vw, 56px) 0 0; color: var(--ink-2); max-width: 64ch; }
-  .wk-next__call a { color: var(--ink); font-weight: 650; text-decoration-color: var(--paint); text-decoration-thickness: 2px; }
-
-  @media (prefers-reduced-motion: no-preference) {
-    @supports (animation-timeline: view()) {
-      @keyframes wk-draw { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
-      .wk-line { stroke-dasharray: 1; animation: wk-draw linear both; animation-timeline: view(); animation-range: entry 40% cover 55%; }
-    }
-  }
-
-  @media (max-width: 1099px) { .wk-plan { grid-template-columns: 1fr; } .wk-card { max-width: 520px; } }
   @media (max-width: 899px) {
     .wk-crew__grid { grid-template-columns: 1fr; }
     .wk-crew__grid :global(.co-clip) { justify-self: start; max-width: 360px; }
     .wk-roll { grid-template-columns: repeat(2, auto); row-gap: 12px; }
     .wk-roll div:nth-child(3) { border-left: 0; }
     .wk-roll__wide { grid-column: 1 / -1; border-left: 0 !important; }
-  }
-  @media (max-width: 699px) {
-    .wk-phases { grid-template-columns: 1fr; gap: 22px; }
-    .wk-phase__arrow { display: none; }
-    .wk-phase { display: grid; grid-template-columns: 112px 1fr; gap: 4px 16px; align-items: start; }
-    .wk-phase__frame { grid-row: span 2; margin: 0; }
   }
   .wk-acts { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
 </style>

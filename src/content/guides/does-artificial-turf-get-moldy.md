@@ -134,7 +134,7 @@ needsFromBrian:
   - "Whether you recommend or avoid organic infill for shady spots, and which antimicrobial infill, if any, you use on putting greens."
 ---
 
-**Checked September 25, 2026.** Turf blades and backing are plastic. Mold, moss and algae need something organic to live on and water that stays, and turf supplies the first on its own: CSU Extension notes that artificial turf collects leaves and wind-blown dirt that has to be removed, and doesn't disinfect itself the way a living lawn does ([CSU Extension](https://planttalk.colostate.edu/topics/lawns/1537-artificial-turf-lawns/)). Water decides the rest, and in Northern Colorado water needs help to stay put.
+Turf blades and backing are plastic. Mold, moss and algae need something organic to live on and water that stays, and turf supplies the first on its own: CSU Extension notes that artificial turf collects leaves and wind-blown dirt that has to be removed, and doesn't disinfect itself the way a living lawn does ([CSU Extension](https://planttalk.colostate.edu/topics/lawns/1537-artificial-turf-lawns/)). Water decides the rest, and in Northern Colorado water needs help to stay put.
 
 ## Why is mold or moss uncommon on turf in Northern Colorado?
 

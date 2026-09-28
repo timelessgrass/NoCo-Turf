@@ -187,7 +187,7 @@ needsFromBrian:
   - "Any melt you've seen on new builds in Timnath, Severance, Windsor or Johnstown, and whether the builder said those windows had capillary tubes or argon fill."
 ---
 
-**Checked September 25, 2026.** A melted strip in turf near the house usually traces back to glass, not to the turf. Sunlight bounces off a window, the pane focuses it, and the plastic blades in the hot spot shrink and fuse. The easiest time to deal with that is before the turf goes down, so this page starts there.
+A melted strip in turf near the house usually traces back to glass, not to the turf. Sunlight bounces off a window, the pane focuses it, and the plastic blades in the hot spot shrink and fuse. The easiest time to deal with that is before the turf goes down, so this page starts there.
 
 ## What should I check before turf goes in near windows?
 

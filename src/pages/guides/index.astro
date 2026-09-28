@@ -44,7 +44,6 @@ const sections = topics.map((t) => ({ ...t, rows: t.guides.map(row) }));
 const items = sections.flatMap((s) => s.rows);
 const words = ['No', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten', 'Eleven', 'Twelve', 'Thirteen'];
 const count = words[guides.length] ?? String(guides.length);
-const topicCount = (words[topics.length] ?? String(topics.length)).toLowerCase();
 /* public sources only: the site's own dataset file is a derived source, not a public one */
 const sources = new Set(guides.flatMap((g) => (g.entry.data as any).sources.map((s: any) => s.url)).filter((u: string) => !u.startsWith(SITE))).size;
 const latest = guides.map((g) => (g.entry.data as any).updated as string).sort().at(-1) ?? '';
@@ -74,11 +73,6 @@ const graph = items.length === 0 ? [] : [
     : 'The guides to turf rules, HOA approval, rebates, water savings and cost are being checked against their sources before they go up.'}>
     Everything you need to decide on <PaintWord now>artificial turf.</PaintWord>
     <div class="hrec" slot="after">
-      {items.length > 0 && <div class="hrec__row">
-        <p class="hrec__c"><span class="hrec__k">Checked</span> <time class="hrec__v num" datetime={latest}>{latest}</time></p>
-        <p class="hrec__c"><span class="hrec__k">Public sources</span> <span class="hrec__v num">{sources}</span></p>
-        <p class="hrec__c"><span class="hrec__k">Water data</span> <a class="hrec__v" href="/data/noco-water-rates-2026.csv">CSV · CC BY 4.0</a></p>
-      </div>}
       {phoneHref && <p class="hrec__call">{items.length ? "A question these don’t answer?" : "A question about your yard?"} <a href={phoneHref} data-cta="guides-call">Call <span class="num">{phoneDisplay}</span></a></p>}
     </div>
   </PageHero>
@@ -92,8 +86,8 @@ const graph = items.length === 0 ? [] : [
           <h2 id="ghub-h">{count} questions to settle <PaintWord>before you dig.</PaintWord></h2>
         </div>
         <p class="lede">{filter
-          ? 'Pick a topic, or type a word to find your question. Each guide opens with its short answer; the rest of its page is the working, with the date it was checked.'
-          : 'Each guide opens with its short answer. The rest of the page is the working: the table, the statute, the rate, and the date it was checked.'}</p>
+          ? 'Pick a topic, or type a word to find your question. Each guide starts with a short answer, then the details.'
+          : 'Each guide starts with a short answer, then the details.'}</p>
       </header>
 
       <div class:list={['ghub__top', { 'ghub__top--find': filter }]} id="topics">
@@ -165,20 +159,6 @@ const graph = items.length === 0 ? [] : [
     </script>
   )}
 
-  <section class="section ground-2 hsrc" aria-labelledby="hsrc-h">
-    <div class="wrap hsrc__grid">
-      <header class="hsrc__head">
-        <p class="label">How these are built</p>
-        <h2 id="hsrc-h">Every answer comes <PaintWord>with its source.</PaintWord></h2>
-        <p class="lede">Town rules come from each town’s own code, state law from the Colorado legislature, and water rates from each provider’s 2026 schedule. Each guide lists its sources with the date they were checked.</p>
-      </header>
-      <dl class="hsrc__stats">
-        <div class="rise"><dt class="num">{sources}</dt><dd>public sources behind the {count.toLowerCase()} guides, each listed with the date it was checked</dd></div>
-        <div class="rise"><dt class="num">{rows.length}</dt><dd>water-rate rows, free to reuse as a <a href="/data/noco-water-rates-2026.csv">CSV</a> under CC BY 4.0 with credit and a link</dd></div>
-        <div class="rise"><dt class="num">{latest}</dt><dd>the most recent check, printed at the top of every guide</dd></div>
-      </dl>
-    </div>
-  </section>
   </>}
 
   <CtaBand title="Read up, then" payoff="walk the yard with us." />
@@ -263,13 +243,5 @@ const graph = items.length === 0 ? [] : [
   @media (max-width: 599px) { .gq__a { grid-template-columns: 28px minmax(0, 1fr); } .gq__a :global(.gq__go) { display: none; } }
 
   /* receipts */
-  .hsrc__grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(32px, 6vw, 110px); align-items: end; }
-  .hsrc__head h2 { margin: 14px 0 20px; max-width: 16ch; }
-  .hsrc__stats { margin: 0; display: grid; border-top: 2px solid var(--ink); }
-  .hsrc__stats div { display: grid; grid-template-columns: minmax(7.5rem, auto) 1fr; gap: 20px; align-items: baseline; padding: 18px 0; border-bottom: 1px dashed rgb(var(--ink-rgb) / 0.3); }
-  .hsrc__stats dt { font-family: var(--font-display); font-weight: 820; font-stretch: 116%; font-size: clamp(2rem, 1.5rem + 1.8vw, 3.2rem); letter-spacing: -0.04em; line-height: 1; }
-  .hsrc__stats div:last-child dt { font-size: clamp(1.3rem, 1.05rem + 1vw, 1.9rem); letter-spacing: -0.02em; }
-  .hsrc__stats dd { margin: 0; color: var(--ink-2); font-size: var(--fs-small); max-width: 36ch; }
-  .hsrc__stats a { color: var(--ink); text-decoration-color: var(--paint); }
   @media (max-width: 899px) { .hsrc__grid { grid-template-columns: 1fr; } }
 </style>

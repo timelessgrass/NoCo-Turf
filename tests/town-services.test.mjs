@@ -351,7 +351,7 @@ test('the town rules hold: leaks, claims, numbers, links, layerRefs, title suffi
   put(traced);
   const ok = run();
   assert.equal(ok.status, 0, ok.out);
-  assert.match(ok.out, /photo "fire-pit" was taken west of Berthoud, not in Windsor — the caption says so/);
+  assert.match(ok.out, /photo "fire-pit" was taken Near Berthoud, not in Windsor — the caption says so/);
 });
 
 test('overlap: pages of the same service over 25% of five-word runs fail, over 15% warn; different services are not compared', (t) => {

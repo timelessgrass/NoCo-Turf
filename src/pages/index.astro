@@ -15,20 +15,18 @@ import CorridorMap from '../components/CorridorMap.astro';
 import Faq from '../components/Faq.astro';
 import EstimateForm from '../components/EstimateForm.astro';
 import CoCrewClip from '../components/CoCrewClip.astro';
-import { photo, monthLabel } from '../data/photos';
+import SellTrust from '../components/SellTrust.astro';
+import { photo } from '../data/photos';
 import { visibleServices } from '../data/services';
 import { visibleTowns } from '../lib/visible';
 import { faqGraph } from '../lib/schema';
-import brief, { fact, legalName, phoneHref, phoneDisplay, socialProfiles } from '../data/brief';
+import brief, { fact, phoneHref, phoneDisplay } from '../data/brief';
 
 const hero = photo('fire-pit');
 const reel = ['dusk', 'boulders', 'playset', 'fenced-yard', 'side-yard', 'rock-border', 'street-view', 'driveway'].map(photo);
 const crew = photo('crew');
 const towns = await visibleTowns();
-const reg = fact<{ sos_id: string; lookup_url: string }>(brief.identity?.registration);
 const years = fact<number>(brief.identity?.founder_experience_years);
-const gbp = socialProfiles.find((p) => p.network === 'Google Business Profile');
-const ig = socialProfiles.find((p) => p.network === 'Instagram');
 const svcPhoto = (id: string | null) => (id ? photo(id) : null);
 
 const faq = [
@@ -70,36 +68,14 @@ const faq = [
       </div>
     </div>
     <aside class="hero__sheet" aria-label="About this photo">
-      <p class="label">Job photo · 01</p>
+      <p class="label">Recent job</p>
       <p class="hero__sheet-cap">{hero.caption}</p>
-      <p class="hero__sheet-rec">{hero.place}{hero.month && <> · {monthLabel(hero.month)}</>}</p>
+      <p class="hero__sheet-rec">{hero.place}</p>
     </aside>
   </section>
 
-  <!-- 2 · Checkable facts — "Prove it before I have to read." -->
-  <section class="facts" aria-label="Things you can check before you call">
-    <div class="wrap facts__grid">
-      <p class="label facts__title">Check us<br />before you call</p>
-      {reg && (
-        <a class="fact" href={reg.lookup_url} rel="noopener">
-          <span class="label">Registered</span><strong>{legalName ?? 'NOCO Turf Co. LLC'}</strong><span class="fact__rcpt">Colorado SOS {reg.sos_id} <Icon name="external" size={14} /></span>
-        </a>
-      )}
-      {gbp && (
-        <a class="fact" href={gbp.url} rel="noopener">
-          <span class="label">Reviews</span><strong>Read them on Google</strong><span class="fact__rcpt">NoCo Turf Co. listing <Icon name="external" size={14} /></span>
-        </a>
-      )}
-      {ig && (
-        <a class="fact" href={ig.url} rel="noopener">
-          <span class="label">Recent jobs</span><strong>@noco_turf</strong><span class="fact__rcpt">on Instagram <Icon name="external" size={14} /></span>
-        </a>
-      )}
-      <a class="fact" href="#work">
-        <span class="label">Photos</span><strong>Brian’s own jobs</strong><span class="fact__rcpt">each placed and dated — no stock</span>
-      </a>
-    </div>
-  </section>
+  <!-- 2 · Why us — four short reasons to call. -->
+  <SellTrust />
 
   <!-- 3 · Services — "Do you do the specific thing I need?" -->
   <section class="section svc" aria-labelledby="svc-h">
@@ -110,7 +86,7 @@ const faq = [
         <p class="lede">Turf is only as good as what’s under it. The base changes with the job: drainage for dogs, a true roll for putting, a firm, flat lawn on Northern Colorado clay.</p>
       </header>
       <ol class="sched" role="list">
-        <li class="sched__head" aria-hidden="true"><span></span><span class="label">Use</span><span class="label">What we get right</span><span></span></li>
+        <li class="sched__head" aria-hidden="true"><span></span><span class="label">Service</span><span class="label">What you get</span><span></span></li>
         {visibleServices.map((s, i) => {
           const ph = svcPhoto(s.photo);
           return (
@@ -136,9 +112,9 @@ const faq = [
       <header class="shead shead--split">
         <div>
           <p class="label">Recent work</p>
-          <h2 id="work-h">Real yards, <PaintWord>real photos.</PaintWord></h2>
+          <h2 id="work-h">Yards <PaintWord>we’ve built.</PaintWord></h2>
         </div>
-        <p class="lede">Every photo on this site comes from one of Brian’s jobs, with where and when it was taken. No stock, no renders.</p>
+        <p class="lede">Recent lawns, putting greens and side yards around Windsor, Berthoud and Greeley.</p>
       </header>
       <WorkReel photos={reel} />
       <p class="work__all"><a class="btn btn--ink" href="/work/">All the work <Icon name="arrow" /></a></p>
@@ -153,7 +129,7 @@ const faq = [
         <p class="label">The owner</p>
         <h2 id="crew-h">Owner-led, <PaintWord>start to finish.</PaintWord></h2>
         <p class="crew__lead">Brian Richmond has been installing artificial turf for {years ?? 13} years. He started NoCo Turf Co. in Windsor in 2024 to build yards his way: lawns, putting greens, dog runs, play yards, anything that’s turf.</p>
-        <p class="crew__cap">In the clip: the final pass. A power broom stands the blades up and works the infill in, so the turf reads as grass, not carpet.</p>
+        <p class="crew__cap">The last step on a new lawn: brushing in the infill so the blades stand up and the turf looks like grass.</p>
         <a class="btn btn--line" href="/about/">Meet Brian <Icon name="arrow" /></a>
       </div>
     </div>
@@ -182,7 +158,7 @@ const faq = [
       <header class="shead">
         <p class="label">Questions</p>
         <h2 id="faq-h">What homeowners ask us first.</h2>
-        <p class="lede">Straight answers, each with its source.</p>
+        <p class="lede">Short answers to the questions we hear most.</p>
       </header>
       <Faq items={faq} />
     </div>
@@ -194,7 +170,7 @@ const faq = [
       <div class="close__copy">
         <p class="label label--paint">Next step</p>
         <h2 id="close-h">Book a yard <PaintWord text>walk.</PaintWord></h2>
-        <p class="lede">Tell us about the yard and how to reach you. Three short parts, no account, no upload.</p>
+        <p class="lede">Tell us about your yard and how to reach you, and we’ll set up a time to come out.</p>
         <div class="close__photo develop"><Photo photo={photo('dusk')} sizes="(max-width: 899px) 90vw, 40vw" widths={[480, 800, 1200]} /></div>
       </div>
       <EstimateForm />
@@ -241,17 +217,6 @@ const faq = [
     .hero { grid-template-rows: 1fr auto; }
     .hero__body { padding-bottom: 20px; }
   }
-
-  /* ── Facts ── */
-  .facts { border-bottom: 1px solid var(--line); }
-  .facts__grid { display: grid; grid-template-columns: 0.8fr repeat(4, 1fr); }
-  .facts__title { align-self: center; color: var(--ink); padding-right: 20px; }
-  .fact { display: grid; gap: 4px; align-content: start; padding: 26px 22px; border-left: 1px solid var(--line); text-decoration: none; transition: background var(--t2) var(--ease); }
-  .fact:hover { background: var(--ground-2); }
-  .fact strong { font-family: var(--font-display); font-weight: 760; font-stretch: 108%; font-size: 1.12rem; letter-spacing: -0.015em; }
-  .fact__rcpt { display: inline-flex; align-items: center; gap: 6px; font-size: 0.86rem; color: var(--ink-3); }
-  .fact:hover .fact__rcpt { color: var(--ink); text-decoration: underline; text-decoration-color: var(--paint); }
-  @media (max-width: 1099px) { .facts__grid { grid-template-columns: repeat(2, 1fr); } .facts__title { grid-column: 1 / -1; padding: 22px 0 6px; } .fact { border-left: 0; border-top: 1px solid var(--line); padding-inline: 0 16px; } }
 
   /* ── Section heads ── */
   .shead { display: grid; gap: 16px; margin-bottom: clamp(36px, 5vw, 72px); }

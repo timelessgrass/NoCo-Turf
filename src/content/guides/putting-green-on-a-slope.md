@@ -100,7 +100,7 @@ needsFromBrian:
   - "How your cup pockets on fill over clay have held up after a few winters, and what you do differently on clay to keep them true."
 ---
 
-**Checked September 25, 2026.** A sloped backyard can hold a putting green. Whether it plays well comes down to the slope right around each cup, and how much of that a green can take depends on how fast the ball rolls. The numbers below come from the USGA Green Section Record and were written for golf-course greens; a ball obeys the same physics on synthetic turf.
+A sloped backyard can hold a putting green. Whether it plays well comes down to the slope right around each cup, and how much of that a green can take depends on how fast the ball rolls. The numbers below come from the USGA Green Section Record and were written for golf-course greens; a ball obeys the same physics on synthetic turf.
 
 ## How much slope can the ground around a cup have?
 

@@ -153,7 +153,7 @@ needsFromBrian:
   - "One HOA or Firestone approval where the reviewer asked about the edging detail (name withheld if you prefer)."
 ---
 
-**Checked September 25, 2026.** An edge is wherever turf meets something that isn't turf: a rock bed, a planting bed, a walk, a neighbor's lawn. Choose each one by what sits on the other side, then make sure it can ride out a Northern Colorado winter without moving. Fastener type and spacing are in [nails vs staples for artificial turf](/guides/artificial-turf-nails-vs-staples/); an edge already curling is in [why turf edges lift](/guides/turf-edges-lifting/).
+An edge is wherever turf meets something that isn't turf: a rock bed, a planting bed, a walk, a neighbor's lawn. Choose each one by what sits on the other side, then make sure it can ride out a Northern Colorado winter without moving. Fastener type and spacing are in [nails vs staples for artificial turf](/guides/artificial-turf-nails-vs-staples/); an edge already curling is in [why turf edges lift](/guides/turf-edges-lifting/).
 
 ## What are the edging options for artificial turf?
 

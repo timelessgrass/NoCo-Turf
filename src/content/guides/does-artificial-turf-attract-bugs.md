@@ -154,7 +154,7 @@ needsFromBrian:
   - "Whether NoCo applies or recommends any insect treatment on turf, such as ant bait or flea treatment on a dog run. The page says nothing about NoCo's practice until you do."
 ---
 
-**Checked September 25, 2026.** The turf itself gives bugs little: its plastic blades never grow tall enough to hide in. Bugs come to a turf yard for the water left on it and the soil under it. No study we found counts bugs in turf yards against lawns, so this page goes by what each bug needs.
+The turf itself gives bugs little: its plastic blades never grow tall enough to hide in. Bugs come to a turf yard for the water left on it and the soil under it. No study we found counts bugs in turf yards against lawns, so this page goes by what each bug needs.
 
 | Bug | What it needs | Where to look in a turf yard |
 |---|---|---|

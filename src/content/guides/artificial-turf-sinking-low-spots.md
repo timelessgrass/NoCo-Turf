@@ -133,7 +133,7 @@ needsFromBrian:
   - "Where you see settling most in Northern Colorado (new-build backfill, particular subdivisions or soils), if you're willing to say."
 ---
 
-**Checked September 25, 2026.** A low spot in artificial turf is the ground under it moving. If your turf is bunched into ripples rather than sunk, that is a turf problem: see [wrinkles and ripples in artificial turf](/guides/artificial-turf-wrinkles-ripples/). This page is about the ground under the turf, and how a dip gets rebuilt.
+A low spot in artificial turf is the ground under it moving. If your turf is bunched into ripples rather than sunk, that is a turf problem: see [wrinkles and ripples in artificial turf](/guides/artificial-turf-wrinkles-ripples/). This page is about the ground under the turf, and how a dip gets rebuilt.
 
 ## What makes artificial turf sink in one spot?
 

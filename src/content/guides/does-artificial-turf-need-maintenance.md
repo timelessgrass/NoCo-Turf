@@ -136,7 +136,7 @@ needsFromBrian:
   - "Which infill you put back on a top-up, and roughly how much a typical yard needs after a hail season."
 ---
 
-**Checked September 25, 2026.** Artificial turf ends mowing, watering and fertilizing. It doesn't end upkeep. CSU Extension notes that turf is sold as "virtually maintenance free," yet it "collects leaves and other wind-blown dirt and debris that must somehow be removed" ([PlantTalk Colorado](https://planttalk.colostate.edu/topics/lawns/1537-artificial-turf-lawns/)). This page puts time on that work, lays it across a Northern Colorado year, and sets out what a maintenance service covers if you would rather hire it out.
+Artificial turf ends mowing, watering and fertilizing. It doesn't end upkeep. CSU Extension notes that turf is sold as "virtually maintenance free," yet it "collects leaves and other wind-blown dirt and debris that must somehow be removed" ([PlantTalk Colorado](https://planttalk.colostate.edu/topics/lawns/1537-artificial-turf-lawns/)). This page puts time on that work, lays it across a Northern Colorado year, and sets out what a maintenance service covers if you would rather hire it out.
 
 ## How many hours a year does artificial turf take?
 
@@ -191,7 +191,7 @@ SYNLawn, a turf maker, lists what a professional visit covers ([SYNLawn](https:/
 
 FieldTurf Landscape describes the annual service many installers offer as a deep clean, a seam check and an infill top-up. SYNLawn recommends professional maintenance once or twice a year for most lawns and quarterly for pet owners and high-traffic areas.
 
-This page carries no service prices. The list itself shows what moves a service quote: square footage, how many dogs use the turf, how much infill has to go back, how many trees drop on it, and how many visits a year. Before you sign up, get these in writing:
+What moves a service quote: square footage, how many dogs use the turf, how much infill has to go back, how many trees drop on it, and how many visits a year. Before you sign up, get these in writing:
 
 - Which tasks each visit includes, and which cost extra, such as seam or edge repairs and infill beyond a top-up.
 - Which infill goes back, and whether it matches what is in the turf now.

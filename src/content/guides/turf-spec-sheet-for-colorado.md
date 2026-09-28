@@ -126,7 +126,7 @@ needsFromBrian:
   - "A photo of a roll label from a real delivery beside its spec sheet, showing the product name, lot and country of manufacture."
 ---
 
-**Checked September 25, 2026.** A spec sheet turns a turf product's sales claims into numbers you can compare. Below are the lines a sheet should carry, the benchmarks from the Synthetic Turf Council's buying guidelines and Firestone's town code, and where each line is explained. Products named are published examples, not recommendations.
+A spec sheet turns a turf product's sales claims into numbers you can compare. Below are the lines a sheet should carry, the benchmarks from the Synthetic Turf Council's buying guidelines and Firestone's town code, and where each line is explained. Products named are published examples, not recommendations.
 
 ## Which lines should a turf spec sheet carry?
 

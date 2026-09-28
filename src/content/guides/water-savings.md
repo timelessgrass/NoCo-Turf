@@ -12,7 +12,7 @@ display:
   cta:
     title: "Gallons counted."
     payoff: "Now price the yard."
-    lede: "Tell us the size of the lawn and how to reach you. Three short parts, no account, no upload."
+    lede: "Tell us the size of the lawn and how to reach you."
 answer:
   question: "How much water and money does artificial turf save in Northern Colorado?"
   answer: "About 14,961 gallons a year for every 1,000 square feet of Kentucky bluegrass it replaces, based on CSU Extension's 24 inches of supplemental irrigation a year on the Front Range. At 2026 Northern Colorado water rates, that water is worth roughly 45 to 278 US dollars a year, depending on your provider and the tier your summer bills reach."
@@ -148,7 +148,7 @@ needsFromBrian:
   - "One real customer's summer and winter water bills (with consent, account details removed) for a worked example that replaces the table's bracket."
 ---
 
-**Checked September 24, 2026.** Artificial turf needs no irrigation, so what it saves is the water your lawn was using. Here is that water in gallons, then in dollars at each Northern Colorado provider's published 2026 rates.
+Artificial turf needs no irrigation, so what it saves is the water your lawn was using. Here is that water in gallons, then in dollars at each Northern Colorado provider's published 2026 rates.
 
 ## How much water does artificial turf save?
 

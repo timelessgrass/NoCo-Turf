@@ -123,7 +123,7 @@ needsFromBrian:
   - "Photos of an install you replaced that was missing a layer (no installer named), showing what was and wasn't under it, with the owner's permission."
 ---
 
-**Checked September 25, 2026.** The base, the fabric and any pad disappear the moment the turf rolls out, and the Synthetic Turf Council's base guidelines are blunt about what follows: once the turf is down, "there is little that can be done to correct base defects" ([STC](https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guidelines_for_Base_Syst.pdf)). So most of the checking happens on paper and during the job. What the base should be made of is in our guide to [what goes under artificial turf](/guides/what-base-goes-under-artificial-turf/); what to ask before you hire is in [questions to ask a turf installer](/guides/questions-to-ask-turf-installer/).
+The base, the fabric and any pad disappear the moment the turf rolls out, and the Synthetic Turf Council's base guidelines are blunt about what follows: once the turf is down, "there is little that can be done to correct base defects" ([STC](https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guidelines_for_Base_Syst.pdf)). So most of the checking happens on paper and during the job. What the base should be made of is in our guide to [what goes under artificial turf](/guides/what-base-goes-under-artificial-turf/); what to ask before you hire is in [questions to ask a turf installer](/guides/questions-to-ask-turf-installer/).
 
 ## What should the quote say about each layer?
 

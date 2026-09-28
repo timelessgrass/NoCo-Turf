@@ -31,7 +31,7 @@ const { label, crumbs, photo, lede, compact = false } = Astro.props;
     {photo && (
       <figure class="ph__fig develop">
         <Photo photo={photo} eager sizes="(max-width: 899px) 100vw, 48vw" widths={[640, 960, 1280, 1600]} />
-        <figcaption><span>{photo.caption}</span><span class="ph__rec">{photo.place}{photo.month && <> · {monthLabel(photo.month)}</>}</span></figcaption>
+        <figcaption><span>{photo.caption}</span><span class="ph__rec">{photo.place}</span></figcaption>
       </figure>
     )}
   </div>

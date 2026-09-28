@@ -101,7 +101,7 @@ needsFromBrian:
   - "Whether you ever suggest a mist or an antistatic spray on turf, which product, and whether the turf's maker approves it."
 ---
 
-**Checked September 25, 2026.** A zap off artificial turf is the doorknob shock you get after crossing a carpet, with a plastic lawn in place of the carpet. It startles more than it hurts. Here is where the charge comes from, and which fixes outlast a few minutes.
+A zap off artificial turf is the doorknob shock you get after crossing a carpet, with a plastic lawn in place of the carpet. It startles more than it hurts. Here is where the charge comes from, and which fixes outlast a few minutes.
 
 ## Why does artificial turf give me static shocks?
 

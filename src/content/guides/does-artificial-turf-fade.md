@@ -91,7 +91,7 @@ needsFromBrian:
   - "From your service calls: how often a 'faded' complaint turns out to be matting, thatch or window heat instead, and what you tell the owner."
 ---
 
-**Checked September 25, 2026.** Every artificial lawn fades eventually, because sunlight breaks down the plastic its blades are made of. What changes from yard to yard is the pace. This page works out how much stronger the sun is here, what the UV numbers on a turf spec sheet mean, and how to tell fading from the other things that make turf look tired.
+Every artificial lawn fades eventually, because sunlight breaks down the plastic its blades are made of. What changes from yard to yard is the pace. This page works out how much stronger the sun is here, what the UV numbers on a turf spec sheet mean, and how to tell fading from the other things that make turf look tired.
 
 ## How much stronger is the sun at Northern Colorado's elevation?
 

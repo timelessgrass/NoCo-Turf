@@ -123,7 +123,7 @@ needsFromBrian:
   - "Whether you have built a green in Firestone, and what Firestone Planning said about greens under 16.6.4.F.2 (nylon, pile height, face weight, backing holes, thatch) and the permit. Confirm with Planning before this page publishes."
 ---
 
-**Checked September 25, 2026.** Two quotes for the same backyard green can describe different surfaces: a sand-filled green, with taller fibers packed with sand, or one sold as non-infilled, which usually means a short, crimped (texturized) green carrying a light layer of sand. They play differently, and they age differently.
+Two quotes for the same backyard green can describe different surfaces: a sand-filled green, with taller fibers packed with sand, or one sold as non-infilled, which usually means a short, crimped (texturized) green carrying a light layer of sand. They play differently, and they age differently.
 
 ## What is the difference between a sand-filled and a non-infilled green?
 

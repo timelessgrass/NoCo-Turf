@@ -2,11 +2,12 @@
 /**
  * TownCommunities — on a town page, "{Town} neighborhoods": the town's community pages in this build
  * (visibleCommunities(), /areas/{town}-co/{community}/), each by its name and kind, with who reviews a yard there when
- * the record names one and that page's own H1 as its line — so the row says what is particular to the place, never
+ * the record names one and its plain line from community-sell.ts — so the row says what is particular to the place, never
  * what it costs. Nothing to link, nothing drawn. Sits beside "{Town}: by service" (TownByService).
  */
 import Icon from './Icon.astro';
 import { KIND_NAMES } from '../data/communities.mjs';
+import { COMMUNITY_SELL } from '../data/community-sell';
 interface Page { path: string; name: string; kind: string; entry: { data: any } }
 interface Props { town: string; pages: Page[]; id?: string }
 const { town, pages, id = 'neighborhoods' } = Astro.props;
@@ -21,7 +22,7 @@ const reviewer = (p: Page) => {
     <div class="wrap tcm__grid">
       <header class="tcm__head">
         <p class="label">{town} neighborhoods</p>
-        <h2 id={`${id}-h`} class="tcm__h">Your neighborhood’s design rules, already read.</h2>
+        <h2 id={`${id}-h`} class="tcm__h">Turf rules in {town} neighborhoods.</h2>
         <p class="lede tcm__lede">Pick your neighborhood to see what its HOA or district allows for turf and putting greens, and how approval works.</p>
       </header>
       <ol class="tcm__list" role="list">
@@ -32,7 +33,7 @@ const reviewer = (p: Page) => {
                 <span class="tcm__name">{p.name}</span>
                 <span class="tcm__kind">{kindName(p.kind)}</span>
               </span>
-              <span class="tcm__line">{p.entry.data.h1}</span>
+              <span class="tcm__line">{COMMUNITY_SELL[`${p.entry.data.town}--${p.entry.data.slug}`]?.line ?? p.entry.data.h1}</span>
               {reviewer(p) && <span class="tcm__rev"><span class="tcm__rk">Design review</span>{reviewer(p)}</span>}
               <span class="tcm__go" aria-hidden="true"><Icon name="arrow" /></span>
             </a>

@@ -92,7 +92,7 @@ needsFromBrian:
   - "Whether you raise window reflection and dog-odor upkeep before the contract, and what you tell owners about each."
 ---
 
-**Checked September 25, 2026.** We read all 1,209 Google Maps reviews of 27 Front Range artificial turf business listings, captured September 24, 2026, and sorted every complaint by what went wrong. No business is named here, and none of the reviews is of NoCo Turf Co. How the count was made, and what it can't show, is at the end of the page.
+We read all 1,209 Google Maps reviews of 27 Front Range artificial turf business listings, captured September 24, 2026, and sorted every complaint by what went wrong. No business is named here, and none of the reviews is of NoCo Turf Co. How the count was made, and what it can't show, is at the end of the page.
 
 ## Do people regret artificial turf?
 

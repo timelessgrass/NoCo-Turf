@@ -120,7 +120,7 @@ needsFromBrian:
   - "Whether any Firestone customer has heard from the town about worn turf or its 'life expectancy' rule, and what the town asked for."
 ---
 
-**Checked September 25, 2026.** Nearly every lifespan figure for artificial turf comes from a company that makes or sells it, and the figures don't agree. Here they are side by side, followed by what wears first in a Northern Colorado yard, what dogs change, how one local code defines worn out, and what adds years.
+Nearly every lifespan figure for artificial turf comes from a company that makes or sells it, and the figures don't agree. Here they are side by side, followed by what wears first in a Northern Colorado yard, what dogs change, how one local code defines worn out, and what adds years.
 
 ## How many years does artificial turf last?
 

@@ -157,7 +157,7 @@ const neighborhoods = (await visibleCommunities()).filter((c) => c.town.slug ===
 
   <TownNearby here={town} towns={towns} nearby={nearby} />
 
-  <RulesDrawer title={`Every ${name} turf rule, water rate and source`}>
+  <RulesDrawer title={`${name}’s turf rules and water rates, in full`}>
     <TownSheet town={name} county={countyLine(town.county)} region={{ label: REGIONS[town.region as keyof typeof REGIONS], href: `/areas/#region-${town.region}` }}
       rows={rows} checked={fmtDate(asOf)} sources={d.sources.length} />
     {items.map((it) => it.type === 'block'
@@ -168,7 +168,7 @@ const neighborhoods = (await visibleCommunities()).filter((c) => c.town.slug ===
   </RulesDrawer>
 
   <CtaBand title="Let’s walk your" payoff={`${name} yard.`} town={name}
-    lede={`Tell us what you want and how to reach you. We’ll set a time to see the ${name} yard. Three short parts, no account, no upload.`} />
+    lede={`Tell us what you want and how to reach you. We’ll set a time to see the ${name} yard.`} />
 </Base>
 
 <style>

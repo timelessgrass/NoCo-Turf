@@ -105,7 +105,7 @@ needsFromBrian:
   - "Does NoCo design mixed projects, turf plus a planted area built to a rebate program's rules? If yes, one example with photos for this page; if no, the planted-part section stays general information."
 ---
 
-**Checked September 24, 2026.** The short answer is no: none of the Northern Colorado water-provider programs below pays for artificial turf. Here is what each one says, in its own words.
+The short answer is no: none of the Northern Colorado water-provider programs below pays for artificial turf. Here is what each one says, in its own words.
 
 ## Does any Northern Colorado water provider pay a rebate for artificial turf?
 

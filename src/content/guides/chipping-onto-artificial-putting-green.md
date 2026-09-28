@@ -133,7 +133,7 @@ needsFromBrian:
   - "Whether owners wear out the spot they chip from, and whether you use chipping mats or hitting turf for it."
 ---
 
-**Checked September 25, 2026.** A backyard green can take a chip, but the putting surface is only one part of a green you chip to. You also need turf to chip from, a patch of green where the ball lands, and something in or under the turf that stops the ball instead of letting it skip off the back. This page is about how those parts fit together in a Northern Colorado yard; how big to build is in our [guide to backyard putting green size](/guides/backyard-putting-green-size/).
+A backyard green can take a chip, but the putting surface is only one part of a green you chip to. You also need turf to chip from, a patch of green where the ball lands, and something in or under the turf that stops the ball instead of letting it skip off the back. This page is about how those parts fit together in a Northern Colorado yard; how big to build is in our [guide to backyard putting green size](/guides/backyard-putting-green-size/).
 
 ## Will an artificial green hold a chip, and what makes it hold?
 

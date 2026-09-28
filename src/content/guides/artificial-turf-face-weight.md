@@ -117,7 +117,7 @@ needsFromBrian:
   - "In your own words: what face weight and pile height you steer a dog owner toward, and why."
 ---
 
-**Checked September 25, 2026.** Face weight is the number most people look at first on a turf sample, and the one most often misread. It counts yarn only. The number printed on a label is sometimes something else. And a heavier product isn't automatically the one that holds up better through a Northern Colorado winter or under a dog. The products named here are examples from published sheets, not picks.
+Face weight is the number most people look at first on a turf sample, and the one most often misread. It counts yarn only. The number printed on a label is sometimes something else. And a heavier product isn't automatically the one that holds up better through a Northern Colorado winter or under a dog. The products named here are examples from published sheets, not picks.
 
 ## What is face weight, and how is it different from total weight?
 

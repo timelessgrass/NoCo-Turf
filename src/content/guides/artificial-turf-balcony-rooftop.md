@@ -162,7 +162,7 @@ needsFromBrian:
   - "Photos of any raised install you have done, with the drain and edge details visible, for this page's figure strip."
 ---
 
-**Checked September 25, 2026. Not legal or structural advice:** this page explains codes and association rules in plain English. Whether a deck, balcony or roof can carry turf, wet infill and snow is a question for a structural engineer.
+**Not legal or structural advice:** this page explains codes and association rules in plain English. Whether a deck, balcony or roof can carry turf, wet infill and snow is a question for a structural engineer.
 
 ## Can artificial turf go on a balcony, deck or roof at all?
 

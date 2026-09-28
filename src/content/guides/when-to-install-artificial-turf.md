@@ -152,7 +152,7 @@ needsFromBrian:
   - "One job, name withheld, that was moved or redone because of wet clay or frozen ground, and what changed."
 ---
 
-**Checked September 25, 2026.** Turf doesn't mind what month it goes in. The ground under it and the glue in its seams do. This page sets the Northern Colorado year against both.
+Turf doesn't mind what month it goes in. The ground under it and the glue in its seams do. This page sets the Northern Colorado year against both.
 
 ## What does a Northern Colorado year look like for a turf install?
 

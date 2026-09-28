@@ -141,7 +141,7 @@ needsFromBrian:
   - "How you grade a new install so rinse water soaks into the yard instead of running across the driveway to the gutter, especially on clay, in your own words."
 ---
 
-**Checked September 25, 2026.** Most turf cleaning is a brush and a hose. The Northern Colorado part is where the rinse water goes next: in Fort Collins, driveways drain to creeks, and each town's stormwater code says what may reach a storm drain. Pet messes, [leaves](/guides/leaves-on-artificial-turf/) and [mold](/guides/does-artificial-turf-get-moldy/) have their own pages.
+Most turf cleaning is a brush and a hose. The Northern Colorado part is where the rinse water goes next: in Fort Collins, driveways drain to creeks, and each town's stormwater code says what may reach a storm drain. Pet messes, [leaves](/guides/leaves-on-artificial-turf/) and [mold](/guides/does-artificial-turf-get-moldy/) have their own pages.
 
 ## How do I clean artificial turf day to day?
 

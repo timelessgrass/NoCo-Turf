@@ -128,7 +128,7 @@ needsFromBrian:
   - "What you do with old pea gravel and river rock on a conversion: haul it, reuse it on site, or something else."
 ---
 
-**Checked September 25, 2026.** Turf stays flat only as long as the ground under it holds still and drains, and a lawn, bare dirt or old rock won't do that for long. The base that replaces them is in [what base goes under artificial turf](/guides/what-base-goes-under-artificial-turf/).
+Turf stays flat only as long as the ground under it holds still and drains, and a lawn, bare dirt or old rock won't do that for long. The base that replaces them is in [what base goes under artificial turf](/guides/what-base-goes-under-artificial-turf/).
 
 ## What happens if turf goes straight over grass?
 

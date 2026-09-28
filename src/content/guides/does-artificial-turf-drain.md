@@ -135,7 +135,7 @@ needsFromBrian:
   - "Whether NoCo fixes puddles on turf someone else installed (the turf repair page isn't built yet)."
 ---
 
-**Checked September 25, 2026.** Turf doesn't mind rain. What matters is where the water goes next, and in much of Northern Colorado that depends more on the ground under the turf than on the turf.
+Turf doesn't mind rain. What matters is where the water goes next, and in much of Northern Colorado that depends more on the ground under the turf than on the turf.
 
 ## Where does rain go when it falls on artificial turf?
 

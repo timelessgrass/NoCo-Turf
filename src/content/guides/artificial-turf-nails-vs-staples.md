@@ -130,7 +130,7 @@ needsFromBrian:
   - "Whether resetting nails that rise in the first spring is part of a NoCo job, in your words, so the quote section can say what a good answer looks like from you."
 ---
 
-**Checked September 25, 2026.** Artificial turf is held down in one of two ways: long nails (installers also call them spikes) driven through it into the compacted base, or short staples shot into a board along the edge. Many yards use both. Here is what turf makers' installation guides specify, what a Northern Colorado winter does to each, and what to ask before you sign. The border itself is in our guide to [artificial turf edging options](/guides/artificial-turf-edging-options/).
+Artificial turf is held down in one of two ways: long nails (installers also call them spikes) driven through it into the compacted base, or short staples shot into a board along the edge. Many yards use both. Here is what turf makers' installation guides specify, what a Northern Colorado winter does to each, and what to ask before you sign. The border itself is in our guide to [artificial turf edging options](/guides/artificial-turf-edging-options/).
 
 ## What's the difference between nailing turf and stapling it?
 

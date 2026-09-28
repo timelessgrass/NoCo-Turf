@@ -129,7 +129,7 @@ needsFromBrian:
   - "Any customer yard where you have seen Dog Tuff or buffalo grass hold up (or fail) under dogs, and the town."
 ---
 
-**Checked September 25, 2026.** A dog tests a lawn where it pees and where it runs. Bluegrass and artificial turf fail those tests in different ways here, and a grass selected for dog yards splits the difference with trade-offs of its own.
+A dog tests a lawn where it pees and where it runs. Bluegrass and artificial turf fail those tests in different ways here, and a grass selected for dog yards splits the difference with trade-offs of its own.
 
 ## What does a dog do to a bluegrass lawn?
 

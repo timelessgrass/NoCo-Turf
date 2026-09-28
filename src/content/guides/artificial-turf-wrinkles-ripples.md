@@ -128,7 +128,7 @@ needsFromBrian:
   - "Which months wrinkle callbacks come in, how many turn out to be the base rather than the turf, and whether first-season re-stretching is written into your paperwork (claims register: the written-coverage entry)."
 ---
 
-**Checked September 25, 2026.** A ripple means either the turf has moved or the ground under it has. This page covers the turf, and how to tell the two apart; ground problems are in [why turf sinks or goes uneven](/guides/artificial-turf-sinking-low-spots/).
+A ripple means either the turf has moved or the ground under it has. This page covers the turf, and how to tell the two apart; ground problems are in [why turf sinks or goes uneven](/guides/artificial-turf-sinking-low-spots/).
 
 ## Is some rippling normal right after turf goes in?
 

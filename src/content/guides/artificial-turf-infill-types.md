@@ -147,7 +147,7 @@ needsFromBrian:
   - "Where your sand comes from and its grade (for example 16/30, rounded or sub-angular), and whether Firestone permits you have seen list the infill."
 ---
 
-**Checked September 25, 2026.** Infill is the sand or granules brushed down between the blades of most artificial turf. It decides how the turf sits through a Northern Colorado year of hard sun, summer downpours, dry winter wind and 150 or more freezing nights. Many figures below come from the companies selling each infill, and are labeled as theirs.
+Infill is the sand or granules brushed down between the blades of most artificial turf. It decides how the turf sits through a Northern Colorado year of hard sun, summer downpours, dry winter wind and 150 or more freezing nights. Many figures below come from the companies selling each infill, and are labeled as theirs.
 
 ## Does artificial turf need infill?
 

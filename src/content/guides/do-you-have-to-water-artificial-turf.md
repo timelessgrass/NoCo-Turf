@@ -213,7 +213,7 @@ needsFromBrian:
   - "Whether you have installed a cooling infill here, and what its maker told you about wetting it."
 ---
 
-**Checked September 25, 2026. Not legal advice:** the watering rules below come from each provider's own page or code as they read on that date. Drought stages change, so each table row carries its recheck date.
+**Not legal advice:** the watering rules below come from each provider's own page or code as they read on September 25, 2026. Drought stages change, so each table row carries its recheck date.
 
 ## When does artificial turf actually need water?
 

@@ -155,7 +155,7 @@ needsFromBrian:
   - "The edge detail you use where turf meets native grass, with a photo of one a season or two after install."
 ---
 
-**Checked September 26, 2026. Not legal advice:** this page explains Colorado well permits and Larimer and Weld County rules in plain English. The Division of Water Resources, your county and your HOA have the final word.
+**Not legal advice:** this page explains Colorado well permits and Larimer and Weld County rules in plain English. The Division of Water Resources, your county and your HOA have the final word.
 
 ## Why is a green lawn so hard to keep on an acreage lot?
 

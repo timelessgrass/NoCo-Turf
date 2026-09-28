@@ -245,7 +245,7 @@ needsFromBrian:
   - "Any net or cage you have seen damaged or moved by wind here, with the town and the date, and whether you tell customers to drop the net before a wind warning."
 ---
 
-**Checked September 27, 2026.** Each game in a backyard sports area wants something different from the turf; all of them need flat ground and posts that stay put through a Northern Colorado winter. Putting greens have [their own guides](/guides/putting-greens/); swing sets and trampolines are in [anchoring play equipment on turf](/guides/swing-set-on-artificial-turf/).
+Each game in a backyard sports area wants something different from the turf; all of them need flat ground and posts that stay put through a Northern Colorado winter. Putting greens have [their own guides](/guides/putting-greens/); swing sets and trampolines are in [anchoring play equipment on turf](/guides/swing-set-on-artificial-turf/).
 
 ## How much room does each game need?
 

@@ -134,7 +134,7 @@ needsFromBrian:
   - "What you tell parents who ask whether turf is safe for a toddler, in your own words, and whether any Northern Colorado customer or HOA has asked for lead or PFAS papers before approving a job."
   - "Whether you have pulled up old nylon turf around here, and what it looked like: a photo of worn, faded or broken fibers next to new polyethylene blades would show readers what CDC's advice describes."
 ---
-**Checked September 25, 2026. Not legal advice:** the PFAS section explains a Colorado statute in plain English.
+**Not legal advice:** the PFAS section explains a Colorado statute in plain English.
 
 Each worry below traces to agency testing, and each points to a paper to ask for before turf goes down where kids play. Heat is covered in [how hot artificial turf gets](/guides/how-hot-does-artificial-turf-get/), and dogs have their own guide, [is artificial turf safe for pets](/guides/is-artificial-turf-safe-for-pets/).
 

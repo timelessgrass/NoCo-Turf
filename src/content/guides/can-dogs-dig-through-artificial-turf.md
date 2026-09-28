@@ -105,7 +105,7 @@ needsFromBrian:
   - "Any towns or neighborhoods where you find voles or pocket gophers under turf most often, and what you do about them before the base goes in."
 ---
 
-**Checked September 25, 2026.** A dog can't dig a hole in the middle of artificial turf the way it can in a lawn, but a determined one finds the places where the turf ends. Here is where that happens and why a Northern Colorado dog starts.
+A dog can't dig a hole in the middle of artificial turf the way it can in a lawn, but a determined one finds the places where the turf ends. Here is where that happens and why a Northern Colorado dog starts.
 
 ## Where on artificial turf can a dog actually dig?
 

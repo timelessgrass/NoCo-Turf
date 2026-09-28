@@ -114,7 +114,7 @@ needsFromBrian:
   - "Whether NoCo repairs turf it did not install. Link the planned turf-repair service page from this guide once it exists."
 ---
 
-**Checked September 25, 2026.** Most burns, holes and tears can be patched: the damaged piece comes out and a new one goes in on seam tape and glue. How well it hides depends on the grain, the color and the join, and the cause may need its own fix.
+Most burns, holes and tears can be patched: the damaged piece comes out and a new one goes in on seam tape and glue. How well it hides depends on the grain, the color and the join, and the cause may need its own fix.
 
 ## What usually burns, melts or tears turf in a Northern Colorado yard?
 

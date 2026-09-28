@@ -201,7 +201,7 @@ needsFromBrian:
   - "How you handle a water meter lid or curb stop inside a turf area, and where you tell customers to pile sidewalk snow."
 ---
 
-**Checked September 25, 2026.** This page is about design out front: where turf may sit, how much must stay alive, and layouts that meet both. Every town's full turf code is in [artificial turf rules in Northern Colorado](/guides/turf-rules-northern-colorado/). Not legal advice.
+This page is about design out front: where turf may sit, how much must stay alive, and layouts that meet both. Every town's full turf code is in [artificial turf rules in Northern Colorado](/guides/turf-rules-northern-colorado/). Not legal advice.
 
 ## Can a Northern Colorado front yard have artificial turf at all?
 

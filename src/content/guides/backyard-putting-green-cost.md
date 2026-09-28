@@ -14,10 +14,10 @@ display:
     payoff: "Let's look at both."
 answer:
   question: "How much does a backyard putting green cost, and what makes one cost more?"
-  answer: "No prices here until they come from real Northern Colorado greens. What moves the price: a base deeper than a lawn's, often on clay, with break shaped in; the surface, where one infill maker puts a professional-style green at 20 to 50% more than a recreational one; fringe and cups; access and soil haul-off; and HOA or town review."
+  answer: "It depends on the green and the yard. What moves the price: a base deeper than a lawn's, often on clay, with break shaped in; the surface, where one infill maker puts a professional-style green at 20 to 50% more than a recreational one; fringe and cups; access and soil haul-off; and HOA or town review."
 faq:
-  - q: "Why doesn't this page give a price per square foot?"
-    a: "Because a per-square-foot figure hides what it leaves out. Southwest Greens, a putting green builder, says its size-based pricing does not include site preparation, and that old grass or soil may have to be hauled away on top of it. Prices go on this page when they come from real Northern Colorado greens."
+  - q: "Why is a price per square foot misleading for a green?"
+    a: "Because a per-square-foot figure hides what it leaves out. Southwest Greens, a putting green builder, says its size-based pricing does not include site preparation, and that old grass or soil may have to be hauled away on top of it."
   - q: "Does a golf-community green need a designer's drawing?"
     a: "In Heron Lakes in Berthoud it does. The design rules want submittals professionally prepared by an architect, landscape architect or qualified designer, with grading contours at 1-foot intervals reaching 10 feet past the lot lines. Elsewhere, read your HOA's or metro district's submittal rules before you budget for a drawing."
   - q: "Can the crew reach my backyard across the open space behind it?"
@@ -146,7 +146,7 @@ needsFromBrian:
   - "What a first-year aftercare visit on a green includes, if you offer one."
 ---
 
-**Checked September 25, 2026.** No prices yet: they go here once they come from real Northern Colorado greens. This is where the money goes in a backyard green, so two quotes can be read line by line; lawn turf has its own [guide to artificial turf cost](/guides/artificial-turf-cost/). Motz, an infill maker, says a professional-level green generally costs 20 to 50% more than one made for leisure, mostly because of the type and amount of material, and that extra holes, bunkers, sand traps, lighting and contours add more ([Motz](https://themotzgroup.com/infill_blog/the-best-artificial-grass-for-putting-greens/)).
+Every green is priced on its own yard. This is where the money goes in a backyard green, so two quotes can be read line by line; lawn turf has its own [guide to artificial turf cost](/guides/artificial-turf-cost/). Motz, an infill maker, says a professional-level green generally costs 20 to 50% more than one made for leisure, mostly because of the type and amount of material, and that extra holes, bunkers, sand traps, lighting and contours add more ([Motz](https://themotzgroup.com/infill_blog/the-best-artificial-grass-for-putting-greens/)).
 
 ## Does a bigger green cost more, or less per square foot?
 

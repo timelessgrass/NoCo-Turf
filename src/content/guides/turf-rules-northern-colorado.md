@@ -12,7 +12,7 @@ display:
   cta:
     title: "The code is one part."
     payoff: "The yard is the other."
-    lede: "Tell us the town and the yard. Three short parts, no account, no upload."
+    lede: "Tell us the town and the yard."
 answer:
   question: "Is artificial turf allowed in Northern Colorado?"
   answer: "Behind an existing house, usually yes. No town code clearly bans backyard turf; Firestone requires a permit and caps it, and Timnath's and Frederick's new codes leave backyards unsettled, so ask them. Colorado law bars HOAs from banning it behind a detached home. Greeley bans front-yard turf on houses. Since 2026, new commercial and HOA-common landscapes can't use nonfunctional turf."
@@ -202,7 +202,7 @@ needsFromBrian:
   - "Any Timnath, Frederick or Johnstown yard where the town approved or refused turf, with the month: their newest turf rules were read from the adopted ordinances and Town PDFs (their online codes block automated reading), and how Timnath and Frederick apply them to an existing backyard is not spelled out."
 ---
 
-**Checked September 25, 2026. Not legal advice:** this page summarizes public statutes and town codes as they read on that date.
+**Not legal advice:** this page summarizes public statutes and town codes as they read on September 25, 2026.
 
 ## What does Colorado law say about artificial turf?
 

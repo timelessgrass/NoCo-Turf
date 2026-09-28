@@ -162,7 +162,7 @@ needsFromBrian:
   - "Whether NoCo takes down and reinstalls a customer's playset for a turf job or works alongside a playset installer."
 ---
 
-**Checked September 25, 2026.** A swing set or trampoline can stand on artificial turf, but the turf can't hold it down: it is a surface over a compacted base, and every anchor has to reach the ground under both. What a child lands on is on our [playground turf page](/services/playground-turf/); padded turf against mulch and gravel is in [playground surfaces compared](/guides/playground-turf-vs-mulch/).
+A swing set or trampoline can stand on artificial turf, but the turf can't hold it down: it is a surface over a compacted base, and every anchor has to reach the ground under both. What a child lands on is on our [playground turf page](/services/playground-turf/); padded turf against mulch and gravel is in [playground surfaces compared](/guides/playground-turf-vs-mulch/).
 
 ## Can a swing set or trampoline sit on artificial turf?
 

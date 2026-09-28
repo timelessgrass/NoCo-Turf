@@ -109,7 +109,7 @@ needsFromBrian:
   - "Whether you ever reuse the old base when new turf goes back down, and what makes you decide it has to come out."
 ---
 
-**Checked September 25, 2026.** Old artificial turf is plastic carpet holding a lot of sand, and none of the Northern Colorado programs we read recycles it. For most yards it ends at a landfill. What you control is how heavy the load is, how it's packed, where it goes, and whether some of it gets a second use first.
+Old artificial turf is plastic carpet holding a lot of sand, and none of the Northern Colorado programs we read recycles it. For most yards it ends at a landfill. What you control is how heavy the load is, how it's packed, where it goes, and whether some of it gets a second use first.
 
 ## Why does the infill have to come out first?
 

@@ -204,7 +204,7 @@ needsFromBrian:
   - "Whether you have seen a PACFA inspector look at a turf yard, and what they checked. The page sends every PACFA question to the state office until someone with first-hand experience can say more."
 ---
 
-**Checked September 25, 2026. Not legal advice:** this page explains a state rule and town codes in plain English; the state's PACFA office and your town have the final word. A dog run at home is on the [pet turf page](/services/pet-turf/).
+**Not legal advice:** this page explains a state rule and town codes in plain English; the state's PACFA office and your town have the final word. A dog run at home is on the [pet turf page](/services/pet-turf/).
 
 ## Can a daycare, kennel or dog park yard be artificial turf here?
 

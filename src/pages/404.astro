@@ -18,8 +18,8 @@ const towns = await visibleTowns();
 const regions = townsByRegion(towns);
 const topics = await visibleTopics();
 const company = [
-  { href: '/work/', t: 'The work', d: 'Job photos, each marked with where it was taken' },
-  { href: '/about/', t: 'About', d: 'Who NoCo Turf Co. is, with the records to check' },
+  { href: '/work/', t: 'The work', d: 'Photos of yards we’ve built' },
+  { href: '/about/', t: 'About', d: 'About Brian and the company' },
   { href: '/contact/', t: 'Contact', d: 'Book a yard walk, or call' },
 ];
 ---
@@ -28,8 +28,8 @@ const company = [
   description="That page isn't on nocoturf.com anymore. From here: turf services, the Northern Colorado towns we cover, the rules and rebate guides, and the contact page."
   noindex
 >
-  <PageHero label="404 · Page not found" crumbs={[{ name: 'Page not found', path: '/404/' }]} compact lede="Some old addresses changed when this site was rebuilt. Pick up where you were headed below — or call and ask.">
-    That page isn’t here. <PaintWord now>Everything else is.</PaintWord>
+  <PageHero label="404 · Page not found" crumbs={[{ name: 'Page not found', path: '/404/' }]} compact lede="Some old addresses changed when we rebuilt the site. Try one of the links below, or call and ask.">
+    Sorry, we can’t find <PaintWord now>that page.</PaintWord>
     <div slot="after" class="nf-acts">
       <a class="btn btn--ink" href="/">Go to the homepage <Icon name="arrow" /></a>
       {phoneHref && <a class="btn btn--line" href={phoneHref} data-cta="404-call"><Icon name="phone" />Call <span class="btn__num">{phoneDisplay}</span></a>}

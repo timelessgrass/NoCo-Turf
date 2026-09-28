@@ -40,7 +40,7 @@ const { items, checked, sources } = Astro.props;
         <a class="btn btn--paint gtoc__btn" href="#estimate" data-cta="toc-quote">Book a yard walk</a>
       </div>
       <div class="gtoc__foot">
-        <p class="gtoc__rec">Checked <time datetime={checked}>{checked}</time><br /><a href="#sources">{sources} sources, each dated</a></p>
+        <p class="gtoc__rec">Updated <time datetime={checked}>{new Date(`${checked}T12:00:00Z`).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' })}</time><br /><a href="#sources">Sources</a></p>
         {phoneHref && <a class="gtoc__call" href={phoneHref} data-cta="toc-call" aria-label={`Ask about your yard: call ${phoneDisplay}`}><Icon name="phone" size={17} />Ask about your yard <span class="num">{phoneDisplay}</span></a>}
       </div>
     </div>

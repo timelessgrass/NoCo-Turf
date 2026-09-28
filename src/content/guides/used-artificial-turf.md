@@ -136,7 +136,7 @@ needsFromBrian:
   - "A photo of a real roll label showing the maker, product, production date and dye lot, and one of a used field roll's backing, to show readers what to look for."
 ---
 
-**Checked September 25, 2026. Not legal advice:** the PFAS section explains a Colorado statute in plain English.
+**Not legal advice:** the PFAS section explains a Colorado statute in plain English.
 
 "Cheap turf" usually means one of three things, each with its own problems. Used field turf is the carpet pulled off a replaced sports field. Remnants are offcuts and roll ends of new turf. Liquidator and overstock rolls are new turf sold off as surplus or discontinued stock.
 

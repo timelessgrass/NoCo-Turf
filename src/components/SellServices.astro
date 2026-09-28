@@ -18,6 +18,7 @@ const BENEFIT: Record<string, string> = {
   'playground-turf': 'Soft, clean play yards under swings and sets, padded for the fall height.',
   'commercial-turf': 'HOA common areas, parks, schools and sports turf, within Colorado’s functional-turf rules.',
 };
+const GO: Record<string, string> = { 'artificial-turf-installation': 'turf lawns', 'pet-turf': 'dog runs', 'putting-greens': 'putting greens', 'playground-turf': 'playground turf', 'commercial-turf': 'commercial and HOA turf' };
 /* No photo yet that honestly shows this kind of job: a set word instead of a stand-in picture. */
 const WORD: Record<string, string> = { 'pet-turf': 'Dog yards', 'commercial-turf': 'HOA & sports', 'playground-turf': 'Play yards', 'putting-greens': 'Greens', 'artificial-turf-installation': 'Lawns' };
 const cards = visibleServices.map((s) => {
@@ -39,7 +40,7 @@ const cards = visibleServices.map((s) => {
             <span class="sv__body">
               <strong class="sv__name">{c.name}</strong>
               <span class="sv__line">{c.benefit}</span>
-              <span class="sv__go">See {c.name.toLowerCase().startsWith('artificial') ? 'turf lawns' : c.name.toLowerCase()} <Icon name="arrow" size={16} /></span>
+              <span class="sv__go">See {GO[c.slug] ?? c.name} <Icon name="arrow" size={16} /></span>
             </span>
           </a>
         </li>

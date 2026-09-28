@@ -170,7 +170,7 @@ needsFromBrian:
   - "Who you point customers to for fall blowouts and backflow tests on the zones that stay, and whether NoCo does either."
 ---
 
-**Checked September 25, 2026.** Artificial turf needs no irrigation, but the sprinkler system that watered the lawn is still in the ground, on the controller and tied to your water line. Before the lawn comes out, each zone gets one of three jobs: shut off for good, turned into drip for the beds and trees that stay, or kept to rinse the turf. Here is how to sort them, and what the zones left over need each year.
+Artificial turf needs no irrigation, but the sprinkler system that watered the lawn is still in the ground, on the controller and tied to your water line. Before the lawn comes out, each zone gets one of three jobs: shut off for good, turned into drip for the beds and trees that stay, or kept to rinse the turf. Here is how to sort them, and what the zones left over need each year.
 
 ## Which zones can go, and which have to stay?
 

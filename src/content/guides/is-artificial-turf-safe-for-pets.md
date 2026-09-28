@@ -159,7 +159,7 @@ needsFromBrian:
   - "In your own words, what you tell dog owners about hot afternoons: where you steer a dog run on a west-facing lot, and how you plan shade with the layout."
 ---
 
-**Checked September 25, 2026. Not legal advice:** the cleaner section explains a federal labeling rule in plain English.
+**Not legal advice:** the cleaner section explains a federal labeling rule in plain English.
 
 For most dogs and cats the turf is an easy surface; the trouble comes from sun, from what a pet swallows, from cleaners and from cats in the infill. Lead and PFAS concern pets as much as children, and that evidence is in [is artificial turf toxic](/guides/is-artificial-turf-toxic/). Turf or grass for a dog at all: [artificial turf vs grass for dogs](/guides/artificial-turf-vs-grass-for-dogs/).
 

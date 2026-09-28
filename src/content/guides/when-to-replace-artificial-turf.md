@@ -145,7 +145,7 @@ needsFromBrian:
   - "Whether Firestone has asked for a permit on a like-for-like replacement you did, and what the town said."
 ---
 
-**Checked September 25, 2026.** Most turf trouble is local, and local trouble has a repair. Replacement is for turf whose fibers or backing have worn out across the yard. How long turf should last is in [how long artificial turf lasts](/guides/how-long-does-artificial-turf-last/); this page is for turf that is already failing.
+Most turf trouble is local, and local trouble has a repair. Replacement is for turf whose fibers or backing have worn out across the yard. How long turf should last is in [how long artificial turf lasts](/guides/how-long-does-artificial-turf-last/); this page is for turf that is already failing.
 
 ## Is it worn out, or does it just need work?
 
@@ -227,7 +227,7 @@ Back in Northern Colorado:
 
 ## What goes into the cost of replacing turf?
 
-No prices here, just the parts a quote should spell out:
+What a replacement quote should spell out:
 
 1. **Taking out the old turf and infill.** Sand infill is heavy: Shaw estimates three to five pounds per square foot on typical landscape turf, roughly 1,500 to 2,500 pounds in a 500-square-foot yard.
 2. **The base.** Reused as it is, regraded and re-compacted, topped up, or dug out where it is soft or soaked.

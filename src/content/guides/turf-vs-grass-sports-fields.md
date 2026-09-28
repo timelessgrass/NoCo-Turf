@@ -202,7 +202,7 @@ needsFromBrian:
   - "If you have ever put an infrared thermometer on a local turf field: the date, the air temperature, the reading and the instrument."
 ---
 
-**Checked September 25, 2026.** This page weighs the two surfaces for a public, school or club field, using what Northern Colorado towns, utilities and field researchers have published. The only dollar figures are budgets and estimates towns have made public. How long a synthetic field lasts and what replacing one involves are in how long a synthetic turf field lasts.
+This page weighs the two surfaces for a public, school or club field, using what Northern Colorado towns, utilities and field researchers have published. The only dollar figures are budgets and estimates towns have made public. How long a synthetic field lasts and what replacing one involves are in how long a synthetic turf field lasts.
 
 ## What have Northern Colorado towns and schools chosen?
 

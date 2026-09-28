@@ -185,7 +185,7 @@ needsFromBrian:
   - "Photos of finished outdoor rooms with turf (a patio, fire feature, outdoor kitchen or pergola), each with its town and month. The fire-pit and dusk photos are the only ones on the page now."
   - "One job where the order went wrong, such as turf laid before the gas line or the patio, told in a few sentences, if you have one."
 ---
-**Checked September 26, 2026.** A patio, fire feature, outdoor kitchen and pergola need footings or buried lines, and usually an inspection. Turf needs neither, so it goes in last, once the rooms are settled on paper. Not legal advice where this page touches codes and covenants.
+A patio, fire feature, outdoor kitchen and pergola need footings or buried lines, and usually an inspection. Turf needs neither, so it goes in last, once the rooms are settled on paper. Not legal advice where this page touches codes and covenants.
 
 ## How do you divide a backyard into rooms around the turf?
 

@@ -1,8 +1,8 @@
 ---
 /**
  * SellTrust — the strip under a sales hero: four short reasons to call, none of them a claim the brief can't
- * back (Windsor base: the brief's locality; rules: every town page's own research; photos: photos.ts camera
- * originals from Brian's jobs; the range of work: services.ts).
+ * back (Windsor base: the brief's locality; rules: every town page's own research; the written plan and price: the
+ * process in SellSteps).
  */
 interface Props { town?: string }
 const { town } = Astro.props;
@@ -10,7 +10,7 @@ const items = [
   { k: 'Local', v: 'Based in Windsor, working Wellington to Longmont' },
   { k: 'Rules first', v: town ? `${town}’s turf rules checked before we quote` : 'Your town’s turf rules checked before we quote' },
   { k: 'Built underneath', v: 'Base and drainage made for Northern Colorado clay' },
-  { k: 'Real work', v: 'Every photo is from one of Brian’s jobs' },
+  { k: 'In writing', v: 'Your plan and price in writing before work starts' },
 ];
 ---
 <section class="tr" aria-label="Why NoCo Turf Co.">

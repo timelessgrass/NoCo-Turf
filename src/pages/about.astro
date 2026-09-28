@@ -28,7 +28,6 @@ const name = businessName ?? 'NoCo Turf Co.';
 const owner = fact<string>(brief.identity?.owners?.[0]);
 const years = fact<number>(brief.identity?.founder_experience_years);
 const reg = fact<{ sos_id: string; formed: string; standing: string; lookup_url: string }>(brief.identity?.registration);
-const regChecked = brief.identity?.registration?.date as string | undefined;
 
 const gbp = socialProfiles.find((p) => p.network === 'Google Business Profile');
 const fb = socialProfiles.find((p) => p.network === 'Facebook');
@@ -40,8 +39,6 @@ const WORDS = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'e
 const word = (n: number) => WORDS[n] ?? String(n);
 const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 
-const fmtDay = (d?: string) => (d ? new Date(`${d}T12:00:00Z`).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' }) : '');
-const fmtShort = (d?: string) => (d ? new Date(`${d}T12:00:00Z`).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' }) : '');
 const fmtMonth = (d?: string) => (d ? monthLabel(d.slice(0, 7)) : '');
 const formedMonth = reg ? fmtMonth(reg.formed) : '';
 
@@ -51,7 +48,7 @@ const PHOTO_COUNT = PHOTOS.length;
 
 const crumbs = [{ name: 'About', path: '/about/' }];
 const title = owner ? `About ${owner}'s Turf Company in Northern Colorado | NoCo Turf Co.` : 'About Us: Artificial Turf in Northern Colorado | NoCo Turf Co.';
-const description = `${name} is ${owner ? `${owner}'s` : 'a'} turf company: registered in Colorado, working ${towns.length} towns from Wellington to Longmont, with real job photos. Check the record yourself.`;
+const description = `${name} is ${owner ? `${owner}'s` : 'a'} turf company: registered in Colorado, working ${towns.length} towns from Wellington to Longmont, with photos of real jobs. Meet the owner and see the work.`;
 ---
 <Base
   title={title}
@@ -88,34 +85,30 @@ const description = `${name} is ${owner ? `${owner}'s` : 'a'} turf company: regi
   <!-- On the job — the crew clip (plays only on screen). -->
   <section class="section on-slab ab-crew" aria-labelledby="crew-h">
     <div class="wrap ab-crew__grid">
-      <CoCrewClip label="Filmed on the job" sizes="(max-width: 899px) 90vw, 34vw" />
+      <CoCrewClip label="On the job" sizes="(max-width: 899px) 90vw, 34vw" />
       <div class="ab-crew__copy">
         <CoHead label="On the job" id="crew-h" paint>The details that make turf <PaintWord text>look like grass.</PaintWord></CoHead>
-        <p>In the clip, filmed on a job in the {photo('crew').place}: the final pass with a power broom. It stands the blades up and works the infill in, so the turf looks like grass, not carpet.</p>
-        <p>What you can’t see is underneath: the dig, the rock base and how hard it’s packed. That’s what keeps a yard flat on Northern Colorado clay, year after year.</p>
+        <p>The last step on a new lawn: a power broom brushes the infill in and stands the blades up, so the turf looks like grass, not carpet.</p>
+        <p>The part you can’t see matters just as much: the dig, the rock base and how well it’s packed. That’s what keeps a yard flat on Northern Colorado clay.</p>
         <a class="btn btn--line ab-crew__btn" href="/services/artificial-turf-installation/">How an install works <Icon name="arrow" /></a>
       </div>
     </div>
   </section>
 
-  <!-- Receipts — things a stranger can check without calling. -->
+  <!-- Find us online — the listings we don’t control. -->
   <section class="section ab-check" aria-labelledby="check-h">
     <div class="wrap">
-      <CoHead label="Look us up" id="check-h" split lede="Check us where we don’t control the listing: the state business record, Google, Instagram and Facebook.">
+      <CoHead label="Find us online" id="check-h" split lede="Read what customers say on Google, and see recent jobs on Instagram and Facebook.">
         Don’t just take our word for it.
       </CoHead>
       <ul class="rc" role="list">
         {reg && (
           <li class="rc__item rc__item--doc rise">
             <a class="rc__card" href={reg.lookup_url} rel="noopener">
-              <span class="label">Colorado Secretary of State</span>
+              <span class="label">Registered in Colorado</span>
               <strong class="rc__name">{legalName ?? 'NOCO Turf Co. LLC'}</strong>
-              <dl class="rc__rows">
-                <div><dt>ID</dt><dd class="num">{reg.sos_id}</dd></div>
-                <div><dt>Formed</dt><dd>{fmtDay(reg.formed)}</dd></div>
-                <div><dt>Standing</dt><dd>{reg.standing}{regChecked && <span class="rc__dim"> · when checked {fmtShort(regChecked)}</span>}</dd></div>
-              </dl>
-              <span class="rc__go">Look it up yourself<span class="rc__dot"><Icon name="external" size={16} /></span></span>
+              <span class="rc__txt">A Colorado company since {formedMonth}.</span>
+              <span class="rc__go">View the state record<span class="rc__dot"><Icon name="external" size={16} /></span></span>
             </a>
           </li>
         )}
@@ -124,8 +117,8 @@ const description = `${name} is ${owner ? `${owner}'s` : 'a'} turf company: regi
             <a class="rc__card" href={gbp.url} rel="noopener">
               <span class="label">Google Maps</span>
               <strong class="rc__name">{name}</strong>
-              <span class="rc__txt">The listing itself — read the reviews where they were written.</span>
-              <span class="rc__go">Open the listing<span class="rc__dot"><Icon name="external" size={16} /></span></span>
+              <span class="rc__txt">Reviews from our customers.</span>
+              <span class="rc__go">Read the reviews<span class="rc__dot"><Icon name="external" size={16} /></span></span>
             </a>
           </li>
         )}
@@ -134,7 +127,7 @@ const description = `${name} is ${owner ? `${owner}'s` : 'a'} turf company: regi
             <a class="rc__card" href={ig.url} rel="noopener">
               <span class="label">Instagram</span>
               <strong class="rc__name">{igHandle}</strong>
-              <span class="rc__txt">Posts from the account.</span>
+              <span class="rc__txt">Photos of recent jobs.</span>
               <span class="rc__go">See the posts<span class="rc__dot"><Icon name="external" size={16} /></span></span>
             </a>
           </li>
@@ -144,28 +137,20 @@ const description = `${name} is ${owner ? `${owner}'s` : 'a'} turf company: regi
             <a class="rc__card" href={fb.url} rel="noopener">
               <span class="label">Facebook</span>
               <strong class="rc__name">{name}</strong>
-              <span class="rc__txt">The business page.</span>
+              <span class="rc__txt">News and photos from the company.</span>
               <span class="rc__go">Open the page<span class="rc__dot"><Icon name="external" size={16} /></span></span>
             </a>
           </li>
         )}
-        <li class="rc__item rise">
-          <a class="rc__card" href="/work/">
-            <span class="label">On this site</span>
-            <strong class="rc__name">{cap(word(PHOTO_COUNT))} job photos</strong>
-            <span class="rc__txt">From {owner ? `${owner}’s` : 'our'} own jobs, each with its place and, where the camera kept it, the month.</span>
-            <span class="rc__go">See the work<span class="rc__dot"><Icon name="arrow" size={16} /></span></span>
-          </a>
-        </li>
       </ul>
-      <p class="rc__foot">The phone number, the estimate form and the towns we cover are all on the <a href="/contact/">contact page</a>.</p>
+      <p class="rc__foot">Want to talk first? Call us, or see every way to <a href="/contact/">get in touch</a>.</p>
     </div>
   </section>
 
   <!-- A few jobs, each with its record line. -->
   <section class="section ground-2 ab-jobs" aria-labelledby="jobs-h">
     <div class="wrap">
-      <CoHead label="Recent work" id="jobs-h" split lede="Real photos from Brian’s jobs, each with where and when it was taken. No stock, no renders.">
+      <CoHead label="Recent work" id="jobs-h" split lede="A few of the lawns and putting greens we’ve built around Northern Colorado.">
         Yards we’ve <PaintWord>built.</PaintWord>
       </CoHead>
       <ol class="jobs" role="list">
@@ -176,13 +161,13 @@ const description = `${name} is ${owner ? `${owner}'s` : 'a'} turf company: regi
               <figcaption>
                 <span class="jobs__no num">{String(i + 1).padStart(2, '0')}</span>
                 <span class="jobs__cap">{p.caption}</span>
-                <span class="jobs__rec">{p.place}{p.month && <> · {monthLabel(p.month)}</>}</span>
+                <span class="jobs__rec">{p.place}</span>
               </figcaption>
             </figure>
           </li>
         ))}
       </ol>
-      <p class="jobs__all"><a class="btn btn--ink" href="/work/">All {word(PHOTO_COUNT)} photos <Icon name="arrow" /></a></p>
+      <p class="jobs__all"><a class="btn btn--ink" href="/work/">See more of our work <Icon name="arrow" /></a></p>
     </div>
   </section>
 
@@ -196,7 +181,7 @@ const description = `${name} is ${owner ? `${owner}'s` : 'a'} turf company: regi
     </div>
   </section>
 
-  <CtaBand title="Let’s walk" payoff="your yard." lede="Tell us where the yard is and what you want. Three short parts, no account, no upload, or call if you’d rather talk it through." />
+  <CtaBand title="Let’s walk" payoff="your yard." lede="Tell us where the yard is and what you want. Or call if you’d rather talk it through." />
 </Base>
 
 <style>

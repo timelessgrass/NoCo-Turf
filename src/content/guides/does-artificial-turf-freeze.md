@@ -111,7 +111,7 @@ needsFromBrian:
   - "Any winter call-backs you have had (ice sheets, downspouts, frozen dog areas) and what fixed them."
 ---
 
-**Checked September 25, 2026.** Cold doesn't hurt the turf itself. Winter works on the water: in the infill, in the base and in the soil under it. Here is what that looks like across Northern Colorado, and what to watch for from the first hard freeze to the spring walk-around.
+Cold doesn't hurt the turf itself. Winter works on the water: in the infill, in the base and in the soil under it. Here is what that looks like across Northern Colorado, and what to watch for from the first hard freeze to the spring walk-around.
 
 ## What actually freezes: the turf, or the water in it?
 

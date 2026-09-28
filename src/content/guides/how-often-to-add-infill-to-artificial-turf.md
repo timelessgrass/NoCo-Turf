@@ -138,7 +138,7 @@ needsFromBrian:
   - "For Firestone: the infill you list on permit applications, and whether the town has ever questioned a top-up material."
 ---
 
-**Checked September 25, 2026.** Infill is the sand or granules brushed down between the blades. The Synthetic Turf Council's buying guidelines say it keeps turf from moving and spreads its weight evenly, limiting expansion and contraction as temperatures swing ([STC](https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf)). It doesn't stay put: it settles, drifts to edges and low spots, and some leaves the yard with water and snow. Choosing a different infill is in our [guide to infill types](/guides/artificial-turf-infill-types/) and, for dog yards, our [guide to dog turf infill](/guides/dog-turf-infill/).
+Infill is the sand or granules brushed down between the blades. The Synthetic Turf Council's buying guidelines say it keeps turf from moving and spreads its weight evenly, limiting expansion and contraction as temperatures swing ([STC](https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf)). It doesn't stay put: it settles, drifts to edges and low spots, and some leaves the yard with water and snow. Choosing a different infill is in our [guide to infill types](/guides/artificial-turf-infill-types/) and, for dog yards, our [guide to dog turf infill](/guides/dog-turf-infill/).
 
 ## How can I tell my turf is low on infill?
 

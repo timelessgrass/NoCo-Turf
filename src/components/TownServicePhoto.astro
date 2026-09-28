@@ -17,9 +17,9 @@ const { photo, id = 'photo' } = Astro.props;
         <Photo photo={photo} sizes="(max-width: 899px) 100vw, 64vw" widths={[640, 960, 1280, 1600, 1920]} />
       </div>
       <figcaption class="tsvph__cap">
-        <span class="label">From the job file</span>
+        <span class="label">Recent job</span>
         <span class="tsvph__what">{photo.caption}</span>
-        <span class="tsvph__rec">{photo.place}{photo.month && <> · {monthLabel(photo.month)}</>}</span>
+        <span class="tsvph__rec">{photo.place}</span>
       </figcaption>
     </figure>
   </div>

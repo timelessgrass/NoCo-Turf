@@ -7,11 +7,15 @@
 import { phoneHref, phoneDisplay } from '../data/brief';
 interface Props { question: string; answer: string; }
 const { question, answer } = Astro.props;
+/* The answer names the business mid-paragraph for answer engines; on the page that sentence reads better last,
+   next to the phone number. */
+const brand = answer.match(/(?:^|\s)(NoCo Turf Co\. [^.]*\.)(?=\s|$)/);
+const text = brand ? `${answer.replace(brand[0], ' ').trim()} ${brand[1]}` : answer;
 ---
 <aside class="ab" aria-label="Short answer">
   <p class="label ab__label">Short answer</p>
   <p class="ab__q">{question}</p>
-  <p class="ab__a">{answer}{phoneHref && <> Call <a href={phoneHref} data-cta="answer-call">{phoneDisplay}</a>.</>}</p>
+  <p class="ab__a">{text}{phoneHref && <> Call <a href={phoneHref} data-cta="answer-call">{phoneDisplay}</a>.</>}</p>
 </aside>
 <style>
   .ab { position: relative; padding: clamp(22px, 3vw, 34px); padding-left: calc(clamp(22px, 3vw, 34px) + 14px); border-radius: var(--r-panel); background: var(--ground-2); }

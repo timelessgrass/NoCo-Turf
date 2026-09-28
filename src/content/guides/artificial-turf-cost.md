@@ -14,18 +14,18 @@ display:
     payoff: "Let's look at yours."
 answer:
   question: "How much does artificial turf cost in Northern Colorado?"
-  answer: "It depends on the yard, and this page carries no prices until they come from real Northern Colorado jobs. What moves a quote: Northern Colorado's clay soils and the base and drainage they need, how much lawn comes out, access, edging, pet or putting-green features, and any HOA or town permit steps."
+  answer: "It depends on the yard, so the honest price comes after someone has seen it. What moves a quote: Northern Colorado's clay soils and the base and drainage they need, how much lawn comes out, access, edging, pet or putting-green features, and any HOA or town permit steps."
 faq:
   - q: "Why do artificial turf quotes vary so much?"
-    a: "Because yards differ: how deep the digging goes on clay, the base, the drainage, how much lawn comes out, access, edging, and features such as pet areas or putting greens. Which of these moves a Northern Colorado quote most will go on this page once it comes from real jobs."
+    a: "Because yards differ: how deep the digging goes on clay, the base, the drainage, how much lawn comes out, access, edging, and features such as pet areas or putting greens."
   - q: "Does a water rebate lower the cost of artificial turf?"
     a: "No Northern Colorado water-provider program we checked pays for artificial turf. The planted part of a mixed project may qualify for a plant rebate; our rebates guide quotes each program."
   - q: "Do I need a permit, and does it cost anything?"
     a: "In Firestone you need a town permit first, with no fee for single-family homes. None of the other town codes we could read sets a turf permit for an existing home. HOA approval is a separate step."
   - q: "How much water will artificial turf save me?"
     a: "Our water savings guide shows the gallons a bluegrass lawn uses and what that water is worth at each Northern Colorado provider's current rates."
-  - q: "Why doesn't this page list prices?"
-    a: "Because a price without your yard behind it is a guess. Prices go on this page only when they come from real Northern Colorado jobs."
+  - q: "Why won't an installer give a price over the phone?"
+    a: "Because a price without your yard behind it is a guess. The digging, base, drainage, access and edges all change from yard to yard, and a careful quote comes after someone has walked it."
 layerRefs:
   - cgs-expansive-soil
   - cgs-landscaping-near-foundations
@@ -72,7 +72,7 @@ needsFromBrian:
   - "In your own words: which of these factors moves a Northern Colorado quote the most, and what a quote from NoCo includes and excludes."
 ---
 
-**Checked September 24, 2026.** There are no prices on this page yet, on purpose. Two yards of the same size can need very different work underneath, and that work shows up in the quote. Here is what moves a Northern Colorado quote, so you can compare quotes on what is in them.
+Two yards of the same size can need very different work underneath, and that work shows up in the quote. Here is what moves a Northern Colorado quote, so you can compare quotes on what is in them.
 
 ## Why does the ground under the lawn matter so much?
 

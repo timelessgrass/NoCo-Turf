@@ -151,7 +151,7 @@ needsFromBrian:
   - "What you tell a customer who wants padded turf under the swings but to keep the existing wood chips elsewhere in the use zone."
 ---
 
-**Checked September 25, 2026.** Every surface on this page can work under a swing set, and every one can fail. What decides it is whether the surface is rated for your tallest platform's fall height across every spot a child can land, and whether it still is in February.
+Every surface on this page can work under a swing set, and every one can fail. What decides it is whether the surface is rated for your tallest platform's fall height across every spot a child can land, and whether it still is in February.
 
 ## How far can a child fall onto each surface?
 

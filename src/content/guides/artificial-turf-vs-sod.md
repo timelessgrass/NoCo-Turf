@@ -163,7 +163,7 @@ needsFromBrian:
   - "No prices on this page unless you approve price bands for publication (claims.json: Published price bands)."
 ---
 
-**Checked September 25, 2026.** Sod fails early if it dries out before it roots, and slowly if the watering, mowing and feeding stop. Turf skips that work, but it runs warm in the sun, gives a tree nothing to drink, and wears out in time. Here is what each asks of a Northern Colorado yard.
+Sod fails early if it dries out before it roots, and slowly if the watering, mowing and feeding stop. Turf skips that work, but it runs warm in the sun, gives a tree nothing to drink, and wears out in time. Here is what each asks of a Northern Colorado yard.
 
 ## What does new sod need in its first weeks?
 

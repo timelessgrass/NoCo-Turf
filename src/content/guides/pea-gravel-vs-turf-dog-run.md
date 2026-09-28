@@ -143,7 +143,7 @@ needsFromBrian:
   - "Any job where the owner kept gravel in part of the run: how the edge between gravel and turf held up after a winter of shoveling."
 ---
 
-**Checked September 25, 2026.** A dog run is a small area that takes a lot of wear: the same path paced along the fence, the same corner used as a toilet, every day of the year. Here is how pea gravel and artificial turf hold up to that. How the run itself is built is on our [pet turf page](/services/pet-turf/).
+A dog run is a small area that takes a lot of wear: the same path paced along the fence, the same corner used as a toilet, every day of the year. Here is how pea gravel and artificial turf hold up to that. How the run itself is built is on our [pet turf page](/services/pet-turf/).
 
 | In a dog run | Pea gravel | Artificial turf |
 |---|---|---|

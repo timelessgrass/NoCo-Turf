@@ -60,11 +60,11 @@ const description = phoneDisplay
     label="Start here"
     crumbs={crumbs}
     compact
-    lede="Three short parts: what the yard is for, the timing, and how to reach you. No account, no upload, and a phone number is the only thing the form needs."
+    lede="Answer five quick questions about your yard and we’ll reach out to set a time to walk it with you. Or just call."
   >
-    Book a <PaintWord now>yard walk</PaintWord> — or skip the form and call.
+    Book a <PaintWord now>yard walk.</PaintWord>
     <div slot="after" class="ct-hero__acts">
-      <a class="btn btn--paint" href="#estimate" data-cta="contact-hero-form">Start the form <Icon name="arrow-down" /></a>
+      <a class="btn btn--paint" href="#estimate" data-cta="contact-hero-form">Get started <Icon name="arrow" /></a>
       {phoneHref && <a class="btn btn--line" href={phoneHref} data-cta="contact-hero-call"><Icon name="phone" />Call <span class="btn__num">{phoneDisplay}</span></a>}
     </div>
   </PageHero>
@@ -73,12 +73,12 @@ const description = phoneDisplay
     <div class="wrap ct-desk__grid">
       <div class="ct-sheet">
         <div class="ct-sheet__head">
-          <p class="label">The form</p>
+          <p class="label">Get started</p>
           <h2 id="form-h" class="ct-sheet__h">Tell us about the yard.</h2>
-          <p class="ct-sheet__sub">Rough answers are fine — “Not sure” is a real option on every question that has it.</p>
+          <p class="ct-sheet__sub">Rough answers are fine. If you’re not sure about something, just say so.</p>
         </div>
         <EstimateForm tone="ground" id="estimate" />
-        <p class="ct-sheet__legal">What happens to what you send is on the <a href="/privacy/">privacy page</a>; the rules for using this site are in the <a href="/terms/">terms</a>.</p>
+        <p class="ct-sheet__legal">We only use your details to get back to you about your yard. See our <a href="/privacy/">privacy policy</a> and <a href="/terms/">terms</a>.</p>
       </div>
 
       <aside class="ct-side" aria-label="Other ways to reach us">
@@ -86,19 +86,19 @@ const description = phoneDisplay
           <div class="ct-call on-slab">
             <p class="label label--paint">Rather talk?</p>
             <a class="ct-call__num num" href={phoneHref} data-cta="contact-call"><Icon name="phone" size={26} /><span>{phoneDisplay}</span></a>
-            <p class="ct-call__txt">Call and describe the yard. You don’t need to have sent the form first.</p>
+            <p class="ct-call__txt">Call and tell us about the yard. No need to fill out the form first.</p>
           </div>
         )}
 
         <div class="ct-after">
-          <p class="label">After you send it</p>
+          <p class="label">What happens next</p>
           <ol class="ct-steps" role="list">
-            <li><span class="ct-steps__n num">1</span><div><strong>It goes to {name} by email.</strong> Your answers arrive together: the yard, the town, the timing and how to reach you.</div></li>
+            <li><span class="ct-steps__n num">1</span><div><strong>We get your answers.</strong> The yard, the town, the timing and how to reach you.</div></li>
             {responseTime
               ? <li><span class="ct-steps__n num">2</span><div><strong>{responseTime}</strong></div></li>
               : <Fragment set:html="<!-- reply time not rendered: brief.conversion.response_time is not a renderable fact (Brian has not committed to one) -->" />}
-            <li><span class="ct-steps__n num">{responseTime ? 3 : 2}</span><div><strong>You pick call or text.</strong> Part three of the form tells {name} how you’d like to be reached.</div></li>
-            <li><span class="ct-steps__n num">{responseTime ? 4 : 3}</span><div><strong>If it can’t send, you’ll know.</strong> The page says so, keeps everything you typed, and shows the number to call.</div></li>
+            <li><span class="ct-steps__n num">{responseTime ? 3 : 2}</span><div><strong>We reach out the way you asked.</strong> A call or a text, to set a time to see the yard.</div></li>
+            <li><span class="ct-steps__n num">{responseTime ? 4 : 3}</span><div><strong>We walk the yard together.</strong> Then you get a plan and a price in writing.</div></li>
           </ol>
         </div>
 
@@ -107,7 +107,7 @@ const description = phoneDisplay
           <dl class="ct-nap__list">
             <div><dt>Name</dt><dd>{name}</dd></div>
             {legalName && (
-              <div><dt>Registered</dt><dd>{legalName}{reg && <><br /><a href={reg.lookup_url} rel="noopener">Colorado SOS {reg.sos_id}<Icon name="external" size={14} /></a></>}</dd></div>
+              <div><dt>Registered</dt><dd>{reg ? <a href={reg.lookup_url} rel="noopener">{legalName}<Icon name="external" size={14} /></a> : legalName}</dd></div>
             )}
             {phoneHref && <div><dt>Phone</dt><dd><a class="num" href={phoneHref} data-cta="contact-nap-call">{phoneDisplay}</a></dd></div>}
             {email && <div><dt>Email</dt><dd><a href={`mailto:${email}`} data-cta="contact-email">{email}</a></dd></div>}
@@ -131,8 +131,8 @@ const description = phoneDisplay
 
   <section class="section ct-map" aria-labelledby="map-h">
     <div class="wrap">
-      <CoHead label="Where we work" id="map-h" split lede="From Wellington in the north to Longmont and Dacono in the south. Somewhere close by that isn’t listed? Choose “Somewhere else” in the form and say where.">
-        Check that your town is <PaintWord>on the map.</PaintWord>
+      <CoHead label="Where we work" id="map-h" split lede="From Wellington in the north to Longmont and Dacono in the south. Close by but not listed? Pick “Somewhere else” in the form and tell us where.">
+        Towns <PaintWord>we cover.</PaintWord>
       </CoHead>
       <CorridorMap towns={towns} />
     </div>

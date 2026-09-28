@@ -194,7 +194,7 @@ needsFromBrian:
   - "Any Northern Colorado field you have worked on (with the owner's OK to name it), its infill, and its GMAX readings over time, so the GMAX section can carry a local example instead of an out-of-state one."
 ---
 
-**Checked September 25, 2026.** This page is for whoever keeps a synthetic sports field playable: a school district, a parks department, a club, or an HOA or metro district. The routine is much the same everywhere; Northern Colorado changes the calendar around it. Whether a field should be synthetic at all is in our [guide to synthetic and natural grass fields](/guides/turf-vs-grass-sports-fields/).
+This page is for whoever keeps a synthetic sports field playable: a school district, a parks department, a club, or an HOA or metro district. The routine is much the same everywhere; Northern Colorado changes the calendar around it. Whether a field should be synthetic at all is in our [guide to synthetic and natural grass fields](/guides/turf-vs-grass-sports-fields/).
 
 ## What does routine care on a synthetic field involve?
 

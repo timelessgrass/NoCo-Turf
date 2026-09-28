@@ -133,7 +133,7 @@ needsFromBrian:
   - "Where seams usually land on the lots you see most (new-build backyards in Windsor, Severance or Timnath, for example) and how you trade grain direction against waste."
 ---
 
-**Checked September 25, 2026.** Any turf area wider than one roll has seams, and rolls come 12 or 15 feet wide ([ShawGrass](https://qmsview.shawinc.com/QMS_View/files/e5/e52baf26-71b9-4b41-beb0-101543c846f2.pdf)). This page covers why seams show, why some open after a Northern Colorado winter, and what the repair involves. Burns, holes and tears are a different fix: see [how to repair artificial turf](/guides/how-to-repair-artificial-turf/).
+Any turf area wider than one roll has seams, and rolls come 12 or 15 feet wide ([ShawGrass](https://qmsview.shawinc.com/QMS_View/files/e5/e52baf26-71b9-4b41-beb0-101543c846f2.pdf)). This page covers why seams show, why some open after a Northern Colorado winter, and what the repair involves. Burns, holes and tears are a different fix: see [how to repair artificial turf](/guides/how-to-repair-artificial-turf/).
 
 ## Why can I see the seam in my turf?
 

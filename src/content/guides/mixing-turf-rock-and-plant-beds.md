@@ -147,7 +147,7 @@ needsFromBrian:
   - "One project in a neighborhood with a percentage cap (Barefoot Lakes, Ptarmigan West, Kitchel Lake or similar): how the committee counted turf against the cap, with the neighborhood's name withheld if you prefer."
 ---
 
-**Checked September 25, 2026.** No percentage fits every backyard. How you use the yard sets the smallest turf area worth building; your town's code and your HOA or metro district's rules can set the largest. Rock and planted beds fill the rest, and on Northern Colorado clay, where each sits matters as much as how much.
+No percentage fits every backyard. How you use the yard sets the smallest turf area worth building; your town's code and your HOA or metro district's rules can set the largest. Rock and planted beds fill the rest, and on Northern Colorado clay, where each sits matters as much as how much.
 
 ## How much of the backyard should be turf?
 

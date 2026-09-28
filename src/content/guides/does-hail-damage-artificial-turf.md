@@ -107,7 +107,7 @@ needsFromBrian:
   - "How a sand-filled putting green takes hail compared with the lawn turf around it (pits, sand loss, a change in speed), with photos if you have them."
 ---
 
-**Checked September 25, 2026.** In Weld and Larimer counties, hail makes up about half of the average homeowners premium. Whether a policy pays when that hail lands on artificial turf is a separate question, and the paperwork rarely answers it by name. Here is what the storms look like, what the common policy form says, and what to photograph before cleanup.
+In Weld and Larimer counties, hail makes up about half of the average homeowners premium. Whether a policy pays when that hail lands on artificial turf is a separate question, and the paperwork rarely answers it by name. Here is what the storms look like, what the common policy form says, and what to photograph before cleanup.
 
 ## How much hail do Weld and Larimer County yards get?
 

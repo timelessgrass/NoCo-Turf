@@ -22,7 +22,7 @@ const smart = (s: string) => s.replace(/(\w)'(\w)/g, '$1’$2');
   <section class="section section--tight tsvread" id={id} aria-labelledby={`${id}-h`}>
     <div class="wrap tsvread__grid">
       <header class="tsvread__head">
-        <p class="label">Read more · {t.label}</p>
+        <p class="label">Helpful guides</p>
         <h2 id={`${id}-h`} class="tsvread__h">{t.name}</h2>
         <p class="tsvread__lede">{t.lede}</p>
         <a class="btn btn--line tsvread__all" href={`/guides/${t.slug}/`}>{t.guides.length === 1 ? 'The guide' : `All ${t.guides.length} guides`} <Icon name="arrow" /></a>

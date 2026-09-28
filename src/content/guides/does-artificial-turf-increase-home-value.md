@@ -108,7 +108,7 @@ needsFromBrian:
   - "Photos of the same NoCo lawn at install and several years later, for the section on how turf ages."
 ---
 
-**Checked September 25, 2026.** No one has published a Northern Colorado figure for what artificial turf adds to a sale price or takes off it. What a buyer reacts to is the particular yard: whether the turf was allowed where it sits, what shape it is in, whether the records exist, and what water costs at that address. This page goes through those checks, so a seller can have answers ready and a buyer knows what to ask.
+No one has published a Northern Colorado figure for what artificial turf adds to a sale price or takes off it. What a buyer reacts to is the particular yard: whether the turf was allowed where it sits, what shape it is in, whether the records exist, and what water costs at that address. This page goes through those checks, so a seller can have answers ready and a buyer knows what to ask.
 
 ## Does artificial turf raise or lower the sale price here?
 

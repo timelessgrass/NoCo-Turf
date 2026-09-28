@@ -156,7 +156,7 @@ needsFromBrian:
   - "Whether a Firestone permit, the Barefoot Lakes review committee or the New Windsor design review committee has ever questioned a pro-rated term against its minimum, and what they accepted."
 ---
 
-**Checked September 25, 2026.** The makers' wording below is quoted from their published terms on that date. Makers revise them, and the version that binds you is the one attached to your contract.
+The makers' wording below is quoted from their published terms on September 25, 2026. Makers revise them, and the version that binds you is the one attached to your contract.
 
 ## Who stands behind the turf: the maker or the installer?
 

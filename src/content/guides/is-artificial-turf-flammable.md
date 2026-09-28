@@ -167,7 +167,7 @@ needsFromBrian:
   - "Which infill you use on lots near open grass or foothills, and its safety data sheet if it has one."
 ---
 
-**Checked September 27, 2026. Not legal advice:** the county, city and HOA rules below are summarized in plain English; your building office and HOA have the final word.
+**Not legal advice:** the county, city and HOA rules below are summarized in plain English; your building office and HOA have the final word.
 
 Artificial turf is plastic: small heat melts it, and a big enough fire can burn it.
 

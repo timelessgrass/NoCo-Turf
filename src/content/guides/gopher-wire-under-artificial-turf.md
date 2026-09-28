@@ -124,7 +124,7 @@ needsFromBrian:
   - "Any yard you have done beside a prairie dog colony: what you did at the property line and how it has held up."
 ---
 
-**Checked September 25, 2026.** Wire under artificial turf is mainly an answer to one animal, the pocket gopher. Voles and prairie dogs call for something else, so work out which one you have before anyone orders a roll of mesh.
+Wire under artificial turf is mainly an answer to one animal, the pocket gopher. Voles and prairie dogs call for something else, so work out which one you have before anyone orders a roll of mesh.
 
 ## Gopher, vole or prairie dog: which one is in my yard?
 

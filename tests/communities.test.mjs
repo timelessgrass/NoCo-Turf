@@ -48,7 +48,7 @@ function community(town, slug, over = {}, seed = 0) {
     answer: { question: `Fixture question ${filler(seed + 20000, 2)}?`, answer: filler(seed + 30000, 20) },
     blocks: [blk('hoa', true, seed + 40000), blk('golf', true, seed + 50000), blk('soil', false, seed + 60000)],
     faq: [],
-    photo: 'dusk', // "west of Windsor"
+    photo: 'dusk', // "Near Windsor"
     sources: [
       { label: 'Fixture source one', url: 'https://example.gov/one', checked: '2026-09-24' },
       { label: 'Fixture source two', url: 'https://example.gov/two', checked: '2026-09-24' },
@@ -133,8 +133,8 @@ test('a guide takes up to three photos.ts ids as `photos`', async () => {
 // ───────────────────────────── the gate ─────────────────────────────
 
 const PHOTOS = [
-  { id: 'dusk', place: 'west of Windsor' },
-  { id: 'fire-pit', place: 'west of Berthoud' },
+  { id: 'dusk', place: 'Near Windsor' },
+  { id: 'fire-pit', place: 'Near Berthoud' },
   { id: 'hm-green', place: 'Highland Meadows, Windsor' },
   { id: 'tagged', place: 'north of town', community: 'timnath-co--harmony-club' },
 ];
@@ -168,7 +168,7 @@ test('the photo must exist and belong here: its place names the community, or it
   const missing = communityGate(community('windsor-co', 'highland-meadows', { photo: 'stock-green' }), PHOTOS);
   assert.ok(missing.reasons.some((r) => /photo "stock-green" is not in src\/data\/photos\.ts/.test(r)));
   const elsewhere = communityGate(community('windsor-co', 'highland-meadows', { photo: 'fire-pit' }), PHOTOS);
-  assert.ok(elsewhere.reasons.some((r) => /photo "fire-pit" was taken west of Berthoud — a Highland Meadows page needs a photo whose place names Highland Meadows, or tagged community windsor-co--highland-meadows/.test(r)), elsewhere.reasons.join('; '));
+  assert.ok(elsewhere.reasons.some((r) => /photo "fire-pit" was taken Near Berthoud — a Highland Meadows page needs a photo whose place names Highland Meadows, or tagged community windsor-co--highland-meadows/.test(r)), elsewhere.reasons.join('; '));
   assert.equal(photoBelongs(PHOTOS[3], { town: 'timnath-co', slug: 'harmony-club', name: 'Harmony Club' }), true, 'tagged by id');
   assert.equal(photoBelongs(PHOTOS[3], { town: 'windsor-co', slug: 'harmony-club', name: 'Harmony Club' }), false, 'the same slug in another town is another community');
 });
@@ -356,12 +356,12 @@ test('a published page that fails the gate fails the check, including one whose 
   put(community('windsor-co', 'highland-meadows', { status: 'published', photo: 'fire-pit' }));
   const bad = run();
   assert.equal(bad.status, 1, bad.out);
-  assert.match(bad.out, /published but fails the community gate: photo "fire-pit" was taken west of Berthoud/);
+  assert.match(bad.out, /published but fails the community gate: photo "fire-pit" was taken Near Berthoud/);
   assert.match(bad.out, /windsor-co--highland-meadows\s+published\s+.*— gate FAIL/);
-  put(community('windsor-co', 'highland-meadows', { status: 'published' })); // 'dusk': west of Windsor, not Highland Meadows
+  put(community('windsor-co', 'highland-meadows', { status: 'published' })); // 'dusk': Near Windsor, not Highland Meadows
   const town = run();
   assert.equal(town.status, 1, town.out);
-  assert.match(town.out, /photo "dusk" was taken west of Windsor — a Highland Meadows page needs a photo whose place names Highland Meadows/);
+  assert.match(town.out, /photo "dusk" was taken Near Windsor — a Highland Meadows page needs a photo whose place names Highland Meadows/);
 });
 
 test('the file name is {town}--{slug}.json and must match; a service slug or a reserved word fails', (t) => {

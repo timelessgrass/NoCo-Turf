@@ -150,7 +150,7 @@ needsFromBrian:
   - "A before-and-after pair from one real job where turf replaced a worn-out, mud-and-dirt dog run, with the town and month, to show the case where turf is the lower-impact choice."
 ---
 
-**Checked September 25, 2026.** Both choices cost something. This page counts each side, with Northern Colorado sources wherever they exist, then sorts out where turf comes out ahead and where it doesn't. The gallons and dollars a lawn uses are in our [water savings guide](/guides/water-savings/).
+Both choices cost something. This page counts each side, with Northern Colorado sources wherever they exist, then sorts out where turf comes out ahead and where it doesn't. The gallons and dollars a lawn uses are in our [water savings guide](/guides/water-savings/).
 
 ## What does a watered bluegrass lawn cost the environment here?
 

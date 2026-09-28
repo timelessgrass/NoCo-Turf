@@ -112,7 +112,7 @@ needsFromBrian:
   - "How you decide which way the grain runs on a job, and whether you lay samples out in the customer's yard before they choose. That is a process claim the page makes only once you confirm it."
 ---
 
-**Checked September 25, 2026.** Turf rarely looks fake because of one flaw. It reads as carpet when a few small things add up: a single flat green, a shine, blades lying the wrong way, a hard line where it ends. Most of those can be checked on a sample before you buy. One can't: in a Northern Colorado winter, real lawns change color and turf doesn't.
+Turf rarely looks fake because of one flaw. It reads as carpet when a few small things add up: a single flat green, a shine, blades lying the wrong way, a hard line where it ends. Most of those can be checked on a sample before you buy. One can't: in a Northern Colorado winter, real lawns change color and turf doesn't.
 
 ## Why does some artificial turf look like green carpet?
 

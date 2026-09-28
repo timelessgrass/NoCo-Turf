@@ -150,7 +150,7 @@ needsFromBrian:
   - "In your own words: the yard size or layout at which you would tell a homeowner to stop and hire the job out."
 ---
 
-**Checked September 25, 2026.** Plenty of homeowners lay their own turf. The work is the same whoever does it; what changes is who carries the risk when a seam opens or the base sinks. Whether a store-bought roll is good enough is answered in our [guide to big-box store turf](/guides/home-depot-vs-installer-artificial-turf/).
+Plenty of homeowners lay their own turf. The work is the same whoever does it; what changes is who carries the risk when a seam opens or the base sinks. Whether a store-bought roll is good enough is answered in our [guide to big-box store turf](/guides/home-depot-vs-installer-artificial-turf/).
 
 ## What does a DIY turf install involve, start to finish?
 

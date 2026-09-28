@@ -113,7 +113,7 @@ needsFromBrian:
   - "The size you find most customers end up happiest with, and the most common thing people wish they had made bigger or smaller."
 ---
 
-**Checked September 25, 2026.** A backyard green is sized by the putts you want to practice and the number of places you want to aim at. Then it gets trimmed to what the yard and the town allow. Square footage comes last.
+A backyard green is sized by the putts you want to practice and the number of places you want to aim at. Then it gets trimmed to what the yard and the town allow. Square footage comes last.
 
 ## How long does the green need to be for the putts I want to practice?
 

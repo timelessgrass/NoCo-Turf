@@ -168,7 +168,7 @@ needsFromBrian:
   - "Any call-backs from shaded turf: ice sheets, moss, honeydew under a linden or elm, needles in the infill, and what fixed them."
 ---
 
-**Checked September 25, 2026.** Kentucky bluegrass is the most widely used lawn grass in Colorado, CSU Extension says ([PlantTalk Colorado 1521](https://planttalk.colostate.edu/topics/lawns/1521-choosing-lawn-grass-colorado/)), and it wants sun. Hence the bare patch so many Northern Colorado yards share: along the north wall, behind the garage, under the big tree. Turf ends the growing problem, since nothing has to grow. It doesn't change what shade does to water, snow and falling debris, and those decide how well it works.
+Kentucky bluegrass is the most widely used lawn grass in Colorado, CSU Extension says ([PlantTalk Colorado 1521](https://planttalk.colostate.edu/topics/lawns/1521-choosing-lawn-grass-colorado/)), and it wants sun. Hence the bare patch so many Northern Colorado yards share: along the north wall, behind the garage, under the big tree. Turf ends the growing problem, since nothing has to grow. It doesn't change what shade does to water, snow and falling debris, and those decide how well it works.
 
 ## Why won't grass grow on the north side or under my tree?
 

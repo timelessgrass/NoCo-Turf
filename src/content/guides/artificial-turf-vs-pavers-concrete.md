@@ -17,7 +17,7 @@ answer:
   answer: "It depends on what the space does. Pavers or concrete belong where feet, shovels and ice melt land every day; turf doesn't take metal shovels or rock salt. On expansive clay a slab is likeliest to crack and heave; pavers and turf sit on rock that can be lifted and re-leveled. In summer sun, turf runs hotter than concrete."
 faq:
   - q: "Is artificial turf cheaper than pavers or concrete?"
-    a: "This page doesn't say, because the answer depends on the yard: how much has to come out, how deep the base goes on your clay, access and edges. Get quotes for the same area and compare what each one removes and puts back. Our [artificial turf cost guide](/guides/artificial-turf-cost/) lists what moves a turf quote."
+    a: "It depends on the yard: how much has to come out, how deep the base goes on your clay, access and edges. Get quotes for the same area and compare what each one removes and puts back. Our [artificial turf cost guide](/guides/artificial-turf-cost/) lists what moves a turf quote."
   - q: "Can turf go right over my old concrete patio?"
     a: "Sometimes. SYNLawn's installation guide says turf over concrete may be glued down with no base, and FieldTurf Landscape notes that water can pool on top of turf laid straight onto a solid surface like concrete, so the slab's slope and cracks matter. [Artificial turf over concrete](/guides/artificial-turf-over-concrete/) covers when the slab stays and when it comes out."
   - q: "My concrete patio is flaking on top. Can it be saved?"
@@ -143,7 +143,7 @@ needsFromBrian:
   - "If you have measured it: surface temperatures of turf and the patio beside it on the same summer afternoon, with the time and the air temperature."
 ---
 
-**Checked September 25, 2026.** Concrete, pavers and artificial turf compete for the same spots, like the patio off the back door or the strip beside the house. On Northern Colorado clay they fail in different ways, and the ice melt that suits one harms another. Prices are left to a quote for your yard.
+Concrete, pavers and artificial turf compete for the same spots, like the patio off the back door or the strip beside the house. On Northern Colorado clay they fail in different ways, and the ice melt that suits one harms another. Prices are left to a quote for your yard.
 
 ## Which one fits a patio, a path or a side yard?
 

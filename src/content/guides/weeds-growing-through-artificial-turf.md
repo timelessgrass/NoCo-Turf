@@ -158,7 +158,7 @@ needsFromBrian:
   - "How you close the edge against a neighbor's bluegrass lawn or a rock bed, and how you handle bindweed that shows up in the first season."
 ---
 
-**Checked September 25, 2026.** Turf covers the soil; it doesn't sterilize it. Weeds in a turf yard come from below, from above or from the edges, and each needs a different fix. Where they come up tells you which one you have.
+Turf covers the soil; it doesn't sterilize it. Weeds in a turf yard come from below, from above or from the edges, and each needs a different fix. Where they come up tells you which one you have.
 
 ## Where are the weeds in my turf coming from?
 

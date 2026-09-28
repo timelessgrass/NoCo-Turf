@@ -152,7 +152,7 @@ needsFromBrian:
   - "The narrowest side gate or side yard you have worked through, and how the base rock and old sod got in and out."
 ---
 
-**Checked September 25, 2026.** A side yard gets the least attention on a lot and does some of the hardest work: it carries water from two roofs past two foundations, and it's often the only way into the backyard. Turf can suit it, as long as that work goes on underneath.
+A side yard gets the least attention on a lot and does some of the hardest work: it carries water from two roofs past two foundations, and it's often the only way into the backyard. Turf can suit it, as long as that work goes on underneath.
 
 ## Is a narrow side yard a good place for artificial turf?
 

@@ -19,7 +19,7 @@ faq:
   - q: "Can the turf come back up later if I want the patio back?"
     a: "Turf fastened to edge boards over a pad or grid can be unfastened and lifted. A glue-down is harder: Synthetic Grass Warehouse's installer column says that when a glue-down fails, getting the old adhesive off the concrete before reinstalling can take days."
   - q: "What does it cost to break out a patio and haul it away?"
-    a: "This page carries no installer prices. One part is public: Larimer County's 2026 fee schedule lists concrete as rubble at $40 per cubic yard plus the state surcharge, the same at both county landfills and the transfer station. Ask whether a quote includes breaking out the slab, hauling it and where it goes."
+    a: "It depends on the slab and the yard. One part is public: Larimer County's 2026 fee schedule lists concrete as rubble at $40 per cubic yard plus the state surcharge, the same at both county landfills and the transfer station. Ask whether a quote includes breaking out the slab, hauling it and where it goes."
   - q: "Does my HOA get a say in turf over the patio?"
     a: "Through design review, usually. For a detached single-family home, Colorado law bars an HOA from prohibiting artificial turf in the backyard, but it can still apply design and aesthetic guidelines ([C.R.S. 38-33.3-106.5, from SB23-178](https://leg.colorado.gov/bill_files/92307/download)). Townhomes and front yards get less protection. See our [guide to HOA approval for artificial turf](/guides/hoa-turf-approval/). Not legal advice."
   - q: "What about a deck, balcony or garage floor instead of a patio?"
@@ -149,7 +149,7 @@ needsFromBrian:
   - "Where broken-out concrete goes on your jobs (a recycler, a landfill, crushed on site) and whether you ever reuse it as base."
 ---
 
-**Checked September 25, 2026.** Turf makers don't agree about slabs. SYNLawn's installation guide says turf going over concrete may be glued down, with no base required ([SYNLawn](https://pdf.lowes.com/productdocuments/240a8581-4267-4cdf-aa5f-d4d1e250fec6/44269346.pdf)). ForeverLawn says turf laid over concrete gives lackluster drainage, and puts a layered stone base under its own ([ForeverLawn](https://www.foreverlawn.com/learn-more/faqs/)). Which one fits your patio depends on the slab, and on whether the clay under it is still moving.
+Turf makers don't agree about slabs. SYNLawn's installation guide says turf going over concrete may be glued down, with no base required ([SYNLawn](https://pdf.lowes.com/productdocuments/240a8581-4267-4cdf-aa5f-d4d1e250fec6/44269346.pdf)). ForeverLawn says turf laid over concrete gives lackluster drainage, and puts a layered stone base under its own ([ForeverLawn](https://www.foreverlawn.com/learn-more/faqs/)). Which one fits your patio depends on the slab, and on whether the clay under it is still moving.
 
 ## Which concrete slabs can stay under turf?
 

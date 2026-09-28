@@ -130,7 +130,7 @@ needsFromBrian:
   - "The edge restraint you use on loose sandy ground, and what you have seen fail without it."
 ---
 
-**Checked September 25, 2026.** Clay doesn't rule out artificial turf. It changes how the ground is prepared, and when. First, how to find out what's under your own lawn before anyone quotes the work; then what clay changes about an install, and what sand changes. For where the clay-heavy soils run across the region, see the [artificial turf installation](/services/artificial-turf-installation/) page.
+Clay doesn't rule out artificial turf. It changes how the ground is prepared, and when. First, how to find out what's under your own lawn before anyone quotes the work; then what clay changes about an install, and what sand changes. For where the clay-heavy soils run across the region, see the [artificial turf installation](/services/artificial-turf-installation/) page.
 
 ## How do I look up my lot on Web Soil Survey?
 

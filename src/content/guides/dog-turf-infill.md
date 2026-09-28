@@ -117,7 +117,7 @@ needsFromBrian:
   - "Whether a Firestone permit has ever been approved or questioned with zeolite in the infill, so the Firestone section can say what the town accepts."
 ---
 
-**Checked September 25, 2026.** In a dog yard, infill has two jobs. It holds the turf down and the blades up, and it sits in the path of every trip outside. The three usual choices handle urine very differently. Most performance figures below come from the companies that sell each product. We found no independent test that compares them head to head, so read them as the makers' claims.
+In a dog yard, infill has two jobs. It holds the turf down and the blades up, and it sits in the path of every trip outside. The three usual choices handle urine very differently. Most performance figures below come from the companies that sell each product. We found no independent test that compares them head to head, so read them as the makers' claims.
 
 ## What does each infill do with dog urine?
 
