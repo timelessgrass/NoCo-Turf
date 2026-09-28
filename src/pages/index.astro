@@ -25,7 +25,7 @@ import { faqGraph } from '../lib/schema';
 import brief, { fact, phoneHref, phoneDisplay } from '../data/brief';
 
 const hero = photo('fire-pit');
-const reel = ['dusk', 'boulders', 'playset', 'fenced-yard', 'side-yard', 'rock-border', 'street-view', 'driveway'].map(photo);
+const reel = ['dusk', 'gbp-green-flag', 'gbp-curved-curb', 'boulders', 'gbp-hot-tub', 'gbp-green-contours', 'fenced-yard', 'gbp-dog-yard'].map(photo);
 const crew = photo('crew');
 const towns = await visibleTowns();
 const years = fact<number>(brief.identity?.founder_experience_years);
@@ -114,7 +114,7 @@ const faq = [
         <div>
           <h2 id="work-h">Yards <PaintWord>we’ve built.</PaintWord></h2>
         </div>
-        <p class="lede">A few recent lawns and putting greens around Windsor, Berthoud and Greeley.</p>
+        <p class="lede">A few recent lawns, putting greens and dog yards.</p>
       </header>
       <WorkReel photos={reel} />
       <p class="work__all"><a class="btn btn--ink" href="/work/">See more of our work <Icon name="arrow" /></a></p>

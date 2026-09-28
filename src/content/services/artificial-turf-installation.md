@@ -82,8 +82,15 @@ sources:
     checked: "2026-09-24"
 photos:
   - fenced-yard
+  - gbp-curved-curb
   - side-yard
+  - gbp-hot-tub
   - rock-border
+  - gbp-new-patio
+  - gbp-curved-border
+  - gbp-backyard
+  - gbp-side-walk
+  - gbp-winding
   - crew
   - playset
 guides:

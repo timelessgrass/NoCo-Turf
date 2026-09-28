@@ -253,13 +253,12 @@ const SERVICE_HOOK: Record<string, (t: string) => string> = {
   'playground-turf': (t) => `We put soft, clean turf under swing sets and play sets in ${t}, with padding matched to how high the kids climb.`,
   'commercial-turf': (t) => `We build turf for HOA common areas, parks, schools and fields in ${t}, within Colorado’s rules for new landscapes.`,
 };
-const SERVICE_FALLBACK: Record<string, string> = { 'putting-greens': 'fire-pit', 'playground-turf': 'playset' };
+const SERVICE_FALLBACK: Record<string, string> = { 'putting-greens': 'fire-pit', 'playground-turf': 'playset', 'pet-turf': 'gbp-dog-yard' };
 /* No job photo of this kind yet: a scene of the kind of yard (scenes.ts), uncaptioned; commercial pages rotate three. */
 const COMMERCIAL_SCENES = ['park-field', 'dog-park', 'hoa-common'];
 const tsHero = ts
   ? (ts.photo
     ?? (SERVICE_FALLBACK[ts.service.slug] ? photoById(SERVICE_FALLBACK[ts.service.slug])
-      : ts.service.slug === 'pet-turf' ? scene(ts.town.slug.length % 2 ? 'dogs-playing' : 'dog-patio')
       : ts.service.slug === 'commercial-turf' ? scene(COMMERCIAL_SCENES[ts.town.slug.length % 3])
       : photoById('fire-pit')))
   : null;

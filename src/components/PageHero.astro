@@ -33,7 +33,7 @@ const { label, crumbs, photo, lede, compact = false, caption = true } = Astro.pr
     {photo && (
       <figure class="ph__fig develop">
         <div class="ph__frame drift"><Photo photo={photo} eager sizes="(max-width: 899px) 100vw, 48vw" widths={[640, 960, 1280, 1600]} /></div>
-        {caption && photo.caption && <figcaption><span>{photo.caption}</span><span class="ph__rec">{photo.place}</span></figcaption>}
+        {caption && photo.caption && <figcaption><span>{photo.caption}</span>{photo.place && <span class="ph__rec">{photo.place}</span>}</figcaption>}
       </figure>
     )}
   </div>

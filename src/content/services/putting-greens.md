@@ -55,9 +55,14 @@ sources:
 photos:
   - dusk
   - fire-pit
+  - gbp-green-flag
+  - gbp-green-contours
   - boulders
+  - gbp-green-lake
+  - gbp-green-bunker
+  - gbp-chipping-path
+  - gbp-lawn-green
   - street-view
-  - driveway
 guides:
   - hoa-turf-approval
   - turf-rules-northern-colorado

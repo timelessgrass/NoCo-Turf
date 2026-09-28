@@ -21,7 +21,7 @@ const { photos, id = 'photos' } = Astro.props;
           </div>
           <figcaption class="gph__cap">
             <span class="gph__what">{p.caption}</span>
-            <span class="gph__rec">{p.place}</span>
+            {p.place && <span class="gph__rec">{p.place}</span>}
           </figcaption>
         </figure>
       ))}

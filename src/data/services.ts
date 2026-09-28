@@ -59,7 +59,7 @@ export const SERVICES: Service[] = [
     preview: true,
     short: 'Dog yards and runs that drain.',
     underneath: 'Drains fast and rinses clean, so there’s no mud, no yellow spots and no lingering smell.',
-    photo: null, // no photo yet that is known to be a dog run — ask Brian (never imply it)
+    photo: 'gbp-dog-yard', // Brian's own upload to the NoCo listing: two dogs on a finished turf yard
     why: 'Dogs appear in 134 of 1,209 Front Range turf reviews; "mud" is the top before-state word — research/voc.md',
     legacy: ['/services/artificial-turf-installation/pet-safe-turf-installation/'],
   },

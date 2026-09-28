@@ -2,12 +2,12 @@
 /**
  * Reviews — a few short Google reviews, verbatim, each signed first name + last initial and linked to the listing
  * (src/data/reviews.ts). No stars, no count and no review markup: the rating shows once, in SellTrust, beside its
- * link. `pick` chooses which quotes (by index) so a dog-run page can lead with the dog-run review.
+ * link. `pick` names the quotes (src/data/reviews.ts PICKS), so each page leads with reviews of its own job.
  */
 import Icon from './Icon.astro';
-import { QUOTES, GOOGLE_URL, GOOGLE_RATING } from '../data/reviews';
-interface Props { pick?: number[]; id?: string; tone?: 'ground' | 'ground-2' }
-const { pick = [0, 1, 3], id = 'reviews', tone = 'ground' } = Astro.props;
+import { QUOTES, PICKS, GOOGLE_URL, GOOGLE_RATING } from '../data/reviews';
+interface Props { pick?: string[]; id?: string; tone?: 'ground' | 'ground-2' }
+const { pick = PICKS.home, id = 'reviews', tone = 'ground' } = Astro.props;
 const quotes = pick.map((i) => QUOTES[i]).filter(Boolean);
 ---
 {GOOGLE_URL && quotes.length > 0 && (

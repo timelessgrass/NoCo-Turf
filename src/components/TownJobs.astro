@@ -30,7 +30,7 @@ const spans = SPANS[Math.min(photos.length, 6)] ?? photos.map(() => 4);
               <figcaption>
                 <span class="tjobs__no num">{String(i + 1).padStart(2, '0')}</span>
                 <span class="tjobs__cap">{p.caption}</span>
-                <span class="tjobs__rec">{p.place}</span>
+                {p.place && <span class="tjobs__rec">{p.place}</span>}
               </figcaption>
             </figure>
           </li>
