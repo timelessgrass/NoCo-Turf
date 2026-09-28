@@ -289,11 +289,12 @@ Form fields (names are the contract — RED under aftercare):
 `use` (checkbox, multi: values = services.ts `formUse`, plus `Not sure`), `town`, `zip`, `size`
 (`Under 300 sq ft` | `300 to 800 sq ft` | `800 to 1,500 sq ft` | `Over 1,500 sq ft` | `Not sure — measure at the visit`),
 `hoa` (`Yes` | `No` | `Not sure`), `timeline` (`As soon as possible` | `In the next few months` | `Just pricing it out`),
-`name`, `phone` (required), `email` (optional), `contact_pref` (`Call` | `Text`), `heard` (optional),
+`name`, `phone` (required), `email` (required on the form since 2026-09-28, Ty), `contact_pref` (`Call` | `Text`), `heard` (optional),
 `page` (hidden, the path it was sent from), `company` (honeypot, off-screen), `elapsed_ms` (hidden).
 Webhook: env `NOCO_LEAD_WEBHOOK` (never TIMELESS's). One try + 2 retries (3.5 / 2.5 / 2.0 s, inside Netlify's 10 s).
 Unset or failing → the visitor sees the phone number (502 page / `{ ok:false }`), the function logs without PII,
-and nothing is silently dropped. No phone and no email → 422 (`{ ok:false, error:'contact' }`) so the visitor can fix it.
+and nothing is silently dropped. No phone and no email → 422 (`{ ok:false, error:'contact' }`) so the visitor can fix it. The function
+still accepts a lead with a phone and no email (a no-JS post skips the form's check), so a reachable lead is never dropped.
 Accepts urlencoded, multipart and JSON bodies (`use` may be an array in JSON).
 Lanes: `home`, `bid` (commercial/HOA/sports), `timeless` (Denver-metro ZIP → forward note), `check-area`.
 ZIP rules live in `netlify/functions/lib/places.mjs`: 80544 (Niwot) and 80621 (Fort Lupton) are UNASSIGNED → check-area;

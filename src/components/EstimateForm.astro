@@ -130,7 +130,7 @@ const STEPS = ['Your project', 'Your town', 'Size', 'HOA and timing', 'Contact']
           <label class="ef__field"><span class="ef__label">Phone</span><input name="phone" type="tel" inputmode="tel" autocomplete="tel" required /></label>
         </div>
         <div class="ef__row">
-          <label class="ef__field"><span class="ef__label">Email <span class="ef__opt">optional</span></span><input name="email" type="email" inputmode="email" autocomplete="email" /></label>
+          <label class="ef__field"><span class="ef__label">Email</span><input name="email" type="email" inputmode="email" autocomplete="email" required /></label>
           <div class="ef__field">
             <span class="ef__label" id={`${id}-pref`}>Best way to reach you</span>
             <div class="ef__opts ef__opts--row" role="radiogroup" aria-labelledby={`${id}-pref`}>
@@ -235,7 +235,7 @@ const STEPS = ['Your project', 'Your town', 'Size', 'HOA and timing', 'Contact']
   .ef select { background-image: linear-gradient(45deg, transparent 50%, currentColor 50%), linear-gradient(135deg, currentColor 50%, transparent 50%);
     background-position: calc(100% - 20px) 50%, calc(100% - 14px) 50%; background-size: 6px 6px; background-repeat: no-repeat; padding-right: 36px; }
   .ef :is(input, select):focus { outline: none; box-shadow: inset 0 0 0 2px var(--paint); }
-  .ef input[aria-invalid='true'] { box-shadow: inset 0 0 0 2px #c0392b; }
+  .ef .ef__field input[aria-invalid='true'] { box-shadow: inset 0 0 0 2px #c0392b; }
   .ef__submit { display: grid; gap: 10px; justify-items: start; padding-top: 8px; }
   .ef__btn { min-height: 58px; font-size: 1.1rem; padding: 0 28px; }
   .ef__hatch { margin: 0; font-size: var(--fs-small); opacity: 0.8; }
@@ -341,18 +341,28 @@ const STEPS = ['Your project', 'Your town', 'Size', 'HOA and timing', 'Contact']
     const elapsed = form.querySelector<HTMLInputElement>('[data-elapsed]')!;
     const t0 = performance.now();
 
+    // Typing into a flagged field clears the flag.
+    form.addEventListener('input', (e) => (e.target as HTMLElement).removeAttribute?.('aria-invalid'));
+
     /* ── Submit: the same lead contract with or without the wizard ── */
     form.addEventListener('submit', async (e) => {
       elapsed.value = String(Math.round(performance.now() - t0));
       const tel = form.elements.namedItem('phone') as HTMLInputElement;
-      if (!tel.value.trim()) {
+      const mail = form.elements.namedItem('email') as HTMLInputElement;
+      // Phone first, then email: both are required (Ty, 2026-09-28). The form is novalidate, so this is the check.
+      const miss = !tel.value.trim() ? [tel, 'Add a phone number so we can call you back.']
+        : !mail.value.trim() ? [mail, 'Add your email address too.']
+        : !mail.validity.valid ? [mail, 'Check your email address. It looks incomplete.']
+        : null;
+      [tel, mail].forEach((f) => f.removeAttribute('aria-invalid'));
+      if (miss) {
+        const [field, msg] = miss as [HTMLInputElement, string];
         e.preventDefault();
         if (wizard) go(steps.length - 1);
-        tel.setAttribute('aria-invalid', 'true'); tel.focus();
-        status.textContent = 'Add a phone number so we can call you back.';
+        field.setAttribute('aria-invalid', 'true'); field.focus();
+        status.textContent = msg;
         return;
       }
-      tel.removeAttribute('aria-invalid');
       if (!window.fetch) return; // plain POST
       e.preventDefault();
       form.setAttribute('data-busy', '');
