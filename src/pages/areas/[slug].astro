@@ -135,7 +135,7 @@ const neighborhoods = (await visibleCommunities()).filter((c) => c.town.slug ===
 
   <SellTrust town={name} />
 
-  <SellServices town={name} townPages={byService} heading={`What we build in ${name}.`} />
+  <SellServices town={name} townPages={byService} heading="What we build." />
 
   <TownJobs photos={more} town={name} />
 
@@ -149,7 +149,7 @@ const neighborhoods = (await visibleCommunities()).filter((c) => c.town.slug ===
     <section class="section ground-2" id="faq" aria-labelledby="faq-h">
       <div class="wrap tfaq">
         <header class="tfaq__head">
-          <h2 id="faq-h" class="tfaq__h">What {name} homeowners ask us.</h2>
+          <h2 id="faq-h" class="tfaq__h">Common questions.</h2>
         </header>
         <Faq items={d.faq} name={`faq-${slug}`} />
       </div>
@@ -168,8 +168,8 @@ const neighborhoods = (await visibleCommunities()).filter((c) => c.town.slug ===
     <div class="wrap tsrc" id="sources"><Sources sources={d.sources} title={`Sources for ${name}, each with the date it was read`} /></div>
   </RulesDrawer>
 
-  <CtaBand title="Let’s walk your" payoff={`${name} yard.`} town={name}
-    lede={`Tell us what you want and how to reach you. We’ll set a time to see the ${name} yard.`} />
+  <CtaBand title="Let’s walk your" payoff="yard." town={name}
+    lede={`Tell us what you want and how to reach you. We’ll set a time to see the yard.`} />
 </Base>
 
 <style>

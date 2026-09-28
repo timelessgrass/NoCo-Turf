@@ -51,7 +51,7 @@ const STEPS = ['Your project', 'Your town', 'Size', 'HOA and timing', 'Contact']
   <!-- In the page: the form itself without JS; with JS, a card that opens the wizard. -->
   <div class="efw__launch" data-efw-launch hidden>
     <p class="label label--paint efw__lk">Book a yard walk</p>
-    <p class="efw__lh">Five quick questions{town && <> about your {town} yard</>}. Then we’ll reach out to set a time.</p>
+    <p class="efw__lh">Five quick questions. Then we’ll reach out to set a time.</p>
     <ol class="efw__lsteps" role="list">
       {STEPS.map((s, i) => <li><span class="efw__ln num">{i + 1}</span>{s}</li>)}
     </ol>

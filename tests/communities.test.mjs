@@ -139,10 +139,27 @@ const PHOTOS = [
   { id: 'tagged', place: 'north of town', community: 'timnath-co--harmony-club' },
 ];
 
-test('three substantive blocks, two own, every block sourced, and a photo taken in the community pass', () => {
-  assert.deepEqual(communityGate(community('windsor-co', 'highland-meadows', { photo: 'hm-green' }), PHOTOS), { pass: true, reasons: [] });
-  assert.equal(communityGate(community('windsor-co', 'highland-meadows'), new Map([['dusk', { place: 'Highland Meadows, Windsor' }]])).pass, true, 'a Map of id → place works too');
-  assert.equal(communityGate(community('windsor-co', 'highland-meadows'), PHOTOS).pass, false, 'a photo from elsewhere in the town is not proof of work in this neighborhood');
+/** The record with a job block from Brian's ledger added (src/lib/local-proof.mjs). */
+const withJob = (c) => ({ ...c, blocks: [...c.blocks, { kind: 'job', own: true, kicker: 'job', h2: `A job in ${c.name}`, paras: [filler(95000, 40)], layerRefs: [], sources: [] }] });
+
+test('three substantive blocks, two own, every block sourced, a photo taken in the community and a job there pass', () => {
+  assert.deepEqual(communityGate(withJob(community('windsor-co', 'highland-meadows', { photo: 'hm-green' })), PHOTOS), { pass: true, reasons: [] });
+  assert.equal(communityGate(withJob(community('windsor-co', 'highland-meadows')), new Map([['dusk', { place: 'Highland Meadows, Windsor' }]])).pass, true, 'a Map of id → place works too');
+  assert.equal(communityGate(withJob(community('windsor-co', 'highland-meadows')), PHOTOS).pass, false, 'a photo from elsewhere in the town is not proof of work in this neighborhood');
+});
+
+test('a job or a review from the neighborhood is required: its rules alone are not proof NoCo works there', () => {
+  const g = communityGate(community('windsor-co', 'highland-meadows', { photo: 'hm-green' }), PHOTOS);
+  assert.equal(g.pass, false);
+  assert.ok(g.reasons.some((r) => /no job or review from Highland Meadows/.test(r)), g.reasons.join('; '));
+  const review = community('windsor-co', 'highland-meadows', { photo: 'hm-green' });
+  review.blocks.push({ ...review.blocks[2], kind: 'review', own: true, h2: 'A review from Highland Meadows', sources: [] });
+  assert.equal(communityGate(review, PHOTOS).pass, false, 'a review with no link to where it was posted');
+  review.blocks[3].sources = ['https://g.page/r/example'];
+  assert.equal(communityGate(review, PHOTOS).pass, true, 'a linked review from the neighborhood counts');
+  const elsewhere = withJob(community('windsor-co', 'highland-meadows', { photo: 'hm-green' }));
+  elsewhere.blocks[3].h2 = 'A job in Windsor';
+  assert.equal(communityGate(elsewhere, PHOTOS).pass, false, 'a job that names only the town is not a job in this neighborhood');
 });
 
 test('thin blocks, too few own blocks and an unsourced block fail; a job, photo or review block needs no source', () => {
@@ -157,7 +174,7 @@ test('thin blocks, too few own blocks and an unsourced block fail; a job, photo 
   const bare = community('windsor-co', 'highland-meadows');
   bare.blocks[0] = { ...bare.blocks[0], sources: [], layerRefs: [] };
   assert.ok(communityGate(bare, PHOTOS).reasons.some((r) => /block 1 \(hoa\) has no source and no layer reference/.test(r)));
-  bare.blocks[0] = { ...bare.blocks[0], kind: 'job' };
+  bare.blocks[0] = { ...bare.blocks[0], kind: 'job', h2: 'A job in Highland Meadows' };
   bare.photo = 'hm-green';
   assert.equal(communityGate(bare, PHOTOS).pass, true, 'a job block comes from Brian\'s ledger');
 });
@@ -193,7 +210,7 @@ test('PRELAUNCH preview: every record renders while its town page is visible, dr
 });
 
 test('launch: a published record that passes the gate, with its town page visible; the sitemap needs the town published', () => {
-  const passing = community('windsor-co', 'highland-meadows', { status: 'published', photo: 'hm-green' });
+  const passing = withJob(community('windsor-co', 'highland-meadows', { status: 'published', photo: 'hm-green' }));
   const v = communityVisibility(passing, ctx());
   assert.deepEqual([v.render, v.sitemap, v.draft], [true, true, false]);
   assert.equal(communityVisibility({ ...passing, status: 'review' }, ctx()).render, false, 'in review');

@@ -25,7 +25,7 @@
  * claims, numbers, links, layerRefs — plus their own: the file name is exactly "{town}--{service}.json"; the
  * town is a NoCo town and the service one of the four in src/data/town-services.mjs (installation × town is
  * the town page; turf-repair has no pages); the title ends "| NoCo Turf Co."; display.paint is a phrase of the
- * H1; the photo is a photos.ts id (WARN when it was taken outside the town); more than 25% of five-word runs
+ * H1; the photo is a photos.ts id (the gate fails one taken outside the town); more than 25% of five-word runs
  * shared with another page of the SAME service, or with its own town record, FAILS (WARN above 15%); a
  * PUBLISHED page that fails src/lib/town-service-gate.mjs FAILS (a WARN, with needsFromBrian, while it is a
  * draft); a published page whose town is not published or whose service is not confirmed WARNS (it won't
@@ -47,6 +47,8 @@
  * related services or towns that don't exist; the same title or the same answer.question (normalized) as
  * another guide; more than 25% of five-word runs shared with another guide (WARN above 15%), reported
  * with the pair and a few of the shared runs; and any check-layers rule broken in the guide's own layer file.
+ * A PUBLISHED guide also FAILS with no photos.ts job photo in `photos` (first-hand proof), or with a related
+ * service that is not confirmed in src/data/services.ts; its needsFromBrian list stays a WARN after it ships.
  *
  * Service records (src/content/services/{slug}.md) get the guide rules plus their own: the file is named
  * for a services.ts slug; photos are photos.ts ids; guides are guide records that exist; the title ends
@@ -90,6 +92,7 @@ import { TOWN_SERVICES, TOWN_SERVICE_SLUGS, townServiceBySlug, NOT_TOWN_SERVICES
 import { CONTENT_STATUSES, isPublished } from '../src/lib/content-policy.mjs';
 import { GUIDE_TOPICS, topicBySlug } from '../src/data/guide-topics.ts';
 import { communityGate } from '../src/lib/community-gate.mjs';
+import { servedTowns, namesPlace } from '../src/lib/local-proof.mjs';
 import { communityId, parseCommunityId, communitySlugProblem, COMMUNITY_PUFFERY } from '../src/data/communities.mjs';
 import { checkRecord, checkOwnedFile, loadLayerFiles, todayISO, GUIDE_LAYER_DIR, LOCAL_LAYER_DIR, COMMUNITY_LAYER_DIR } from './check-layers.mjs';
 
@@ -600,7 +603,9 @@ function checkTownServiceRegistry(out, claimsCtx, photoUseSet) {
   for (const s of TOWN_SERVICES) {
     const at = `town service ${s.slug}`;
     for (const k of ['crumb', 'noun', 'ask']) if (typeof s[k] !== 'string' || !s[k].trim()) out.push(['FAIL', `${at}: ${k} is empty`]);
-    if (!s.band?.title || !s.band?.payoff || !s.band?.lede?.includes('{town}')) out.push(['FAIL', `${at}: band needs a title, a payoff and a lede naming {town}`]);
+    if (!s.band?.title || !s.band?.payoff || !s.band?.lede) out.push(['FAIL', `${at}: band needs a title, a payoff and a lede`]);
+    // The same sentence on every town's page with only the name swapped is the doorway tell (2026-09-28 review).
+    if (/\{town\}/.test(`${s.band?.title} ${s.band?.payoff} ${s.band?.lede}`)) out.push(['FAIL', `${at}: the band names {town} — a sentence shared by every town's page stays generic; the town is in the H1`]);
     if (!topicBySlug[s.topic]) out.push(['FAIL', `${at}: topic "${s.topic}" is not in src/data/guide-topics.ts`]);
     if (!photoUseSet.has(s.photoUse)) out.push(['FAIL', `${at}: photo use "${s.photoUse}" is not a Photo use in src/data/photos.ts`]);
   }
@@ -689,8 +694,51 @@ export async function run({ root = REPO, files = [], log = console.log } = {}) {
       place: m[2].match(/\bplace:\s*'([^']*)'/)?.[1] ?? '',
       community: m[2].match(/\bcommunity:\s*'([^']*)'/)?.[1],
     }]));
-  const photoUses = new Map([...photoMeta].map(([id, p]) => [id, p.use]));
   const guideIds = new Set(listDir(path.join(content, 'guides'), '.md').map((f) => path.basename(f, '.md')));
+
+  // The town gate's evidence (src/lib/local-proof.mjs): the towns Brian has confirmed in his own words.
+  let served = new Set();
+  const briefFile = path.join(root, '.site/truth/brief.json');
+  if (fs.existsSync(briefFile)) {
+    try { served = servedTowns(JSON.parse(read(briefFile))); }
+    catch (e) { log(`x FAIL .site/truth/brief.json is not valid JSON (${e.message}) — no town counts as confirmed until it parses`); fails++; }
+  }
+
+  // What each location page cites, for the `own` rule: an own block must be true of its page alone, so a block whose
+  // evidence (its town- or community-scoped layer records and its source links) is all cited by another page (another
+  // town, or another page of the same town), or that cites only statewide records, is not own. Job, review and photo
+  // blocks are first-hand and exempt.
+  const statewide = (ref) => { const r = layers.byId?.get(ref); return !!r && Array.isArray(r.applies_to) && r.applies_to.includes('*'); };
+  const evidenceOf = (b) => [...(b.layerRefs ?? []).filter((r) => !statewide(r)), ...(b.sources ?? [])];
+  const citesBy = new Map(); // tier:id → { tier, town, refs: Set of layer ids and source urls }
+  for (const [dir, tier] of [['towns', 'town'], ['town-services', 'townService'], ['communities', 'community']]) {
+    for (const f of listDir(path.join(content, dir), '.json')) {
+      try {
+        const r = JSON.parse(read(f));
+        citesBy.set(`${tier}:${path.basename(f, '.json')}`, { tier, town: tier === 'town' ? r.slug : r.town, refs: new Set((r.blocks ?? []).flatMap((b) => [...(b.layerRefs ?? []), ...(b.sources ?? [])])) });
+      } catch { /* reported below */ }
+    }
+  }
+  /** The numbers of own, substantive research blocks with no evidence of their own: every local record and link they
+   *  cite is cited by another page (a town's by another town; a town × service or community page's by another page
+   *  of its own town), or they cite only statewide records. */
+  const sharedOwn = (tier, id, town, blocks) => {
+    const elsewhere = new Set();
+    for (const [key, c] of citesBy) {
+      if (key === `${tier}:${id}`) continue;
+      if (tier === 'town' ? c.tier === 'town' : c.town === town) for (const r of c.refs) elsewhere.add(r);
+    }
+    return (blocks ?? []).flatMap((b, i) => (b.own && !['job', 'review', 'photo'].includes(b.kind) && blockWords(b) >= SUBSTANTIVE_WORDS
+      && evidenceOf(b).every((k) => elsewhere.has(k)) ? [i + 1] : []));
+  };
+  /** Reports the own rule on a record and returns its level (FAIL only for a published record left with < 2 own). */
+  const ownRule = (out, published, where, shared, ownCount) => {
+    if (!shared.length) return null;
+    const left = ownCount - shared.length;
+    const level = published && left < 2 ? 'FAIL' : 'WARN';
+    out.push([level, `block${shared.length > 1 ? 's' : ''} ${shared.join(', ')} ${shared.length > 1 ? 'are' : 'is'} marked own but cite${shared.length > 1 ? '' : 's'} only what ${where} also cite${where.endsWith('page') ? 's' : ''}, or only statewide records — own means true of this page alone; ${left} own block${left === 1 ? '' : 's'} left, the gate needs ≥2`]);
+    return level;
+  };
 
   // publication state of every town record on disk, for nearby links and town × service pages
   const townStatus = {};
@@ -785,12 +833,15 @@ export async function run({ root = REPO, files = [], log = console.log } = {}) {
         out.push([published ? 'FAIL' : 'WARN', `photo not found under src/assets/photos/: ${d.photo}`]);
       }
       checkSources(d.sources, out);
-      const g = townGate(d);
-      gate[d.slug ?? id] = { status, blocks: (d.blocks ?? []).length, own: (d.blocks ?? []).filter((b) => b.own).length, photo: !!d.photo, pass: g.pass, reasons: g.reasons, needs: d.needsFromBrian ?? [], file: id };
+      const g = townGate(d, { photos: photoMeta, served });
+      const localPhotos = [...photoMeta].filter(([, p]) => namesPlace(p, town?.name)).length;
+      const townOwn = (d.blocks ?? []).filter((b) => b.own && blockWords(b) >= SUBSTANTIVE_WORDS).length;
+      gate[d.slug ?? id] = { status, blocks: (d.blocks ?? []).length, own: townOwn, photos: localPhotos, served: served.has(d.slug), pass: g.pass, reasons: g.reasons, needs: d.needsFromBrian ?? [], file: id };
       if (!g.pass) {
         if (published) out.push(['FAIL', `published but fails the town gate: ${g.reasons.join('; ')}`]);
         else out.push(['WARN', `town gate not met yet (${status}): ${g.reasons.join('; ')}${named && (d.needsFromBrian ?? []).length ? ` — needs from Brian: ${(d.needsFromBrian ?? []).join(' | ')}` : named ? '' : ' (needs from Brian: see the gate report)'}`]);
       }
+      gate[d.slug ?? id].ownRule = ownRule(out, published, 'another town\'s page', sharedOwn('town', id, d.slug, d.blocks), townOwn);
       bodies.push({ id: d.slug ?? id, status, sh: shingles(townBody(d)) });
       if (townBySlug[d.slug]) gateLocalFile(d.slug, out);
     } else if (kind === 'townService') {
@@ -814,13 +865,10 @@ export async function run({ root = REPO, files = [], log = console.log } = {}) {
       if (typeof d.display?.paint === 'string' && !apos(d.h1 ?? '').includes(apos(d.display.paint))) {
         out.push(['FAIL', `display.paint "${d.display.paint}" is not in the h1 — the painted mark goes on a phrase of the H1, word for word`]);
       }
-      if (d.photo) {
-        const p = photoMeta.get(d.photo);
-        if (!photoIds.has(d.photo)) out.push(['FAIL', `photo id is not in src/data/photos.ts: ${d.photo}`]);
-        else if (p && town && !p.place.includes(town.name)) out.push(['WARN', `photo "${d.photo}" was taken ${p.place}, not in ${town.name} — the caption says so; a photo from ${town.name} would be stronger`]);
-      }
+      // where the photo was taken is the gate's call now (a borrowed photo fails it, 2026-09-28)
+      if (d.photo && !photoIds.has(d.photo)) out.push(['FAIL', `photo id is not in src/data/photos.ts: ${d.photo}`]);
       checkSources(d.sources, out);
-      const g = townServiceGate(d, photoUses);
+      const g = townServiceGate(d, photoMeta);
       const blocks = d.blocks ?? [];
       const substantive = blocks.filter((b) => blockWords(b) >= SUBSTANTIVE_WORDS);
       tsGate[id] = {
@@ -833,6 +881,7 @@ export async function run({ root = REPO, files = [], log = console.log } = {}) {
       }
       if (published && town && townStatus[d.town] !== 'published') out.push(['WARN', `its town page ${d.town} is not published — this page renders only once the town page does`]);
       if (published && svc && serviceConfirmed.get(d.service) !== true) out.push(['WARN', `service ${d.service} is not confirmed in src/data/services.ts — this page renders only once it is`]);
+      tsGate[id].ownRule = ownRule(out, published, `other ${town?.name ?? d.town} pages`, sharedOwn('townService', id, d.town, blocks), substantive.filter((b) => b.own).length);
       if (town && svc) tsDocs.push({ id, town: d.town, service: d.service, sh: shingles(townServiceBody(d)) });
       if (town) gateLocalFile(d.town, out);
     } else if (kind === 'community') {
@@ -880,6 +929,7 @@ export async function run({ root = REPO, files = [], log = console.log } = {}) {
         else out.push(['WARN', `community gate not met yet (${status}): ${g.reasons.join('; ')}${named && (d.needsFromBrian ?? []).length ? ` — needs from Brian: ${(d.needsFromBrian ?? []).join(' | ')}` : named ? '' : ' (needs from Brian: see the gate report)'}`]);
       }
       if (published && town && townStatus[d.town] !== 'published') out.push(['WARN', `its town page ${d.town} is not published — this page renders only once the town page does`]);
+      cmGate[id].ownRule = ownRule(out, published, `other ${town?.name ?? d.town} pages`, sharedOwn('community', id, d.town, blocks), substantive.filter((b) => b.own).length);
       const plain = plainText(copy);
       for (const re of COMMUNITY_PUFFERY) { const m = plain.match(re); if (m) out.push(['WARN', `"${m[0]}" sells the neighborhood by its price — say what its rules, course or lots are instead: …${ctx(plain, m.index, m[0].length)}…`]); }
       if (town && !slugProblem) cmDocs.push({ id, town: d.town, sh: shingles(townServiceBody(d)) });
@@ -909,7 +959,14 @@ export async function run({ root = REPO, files = [], log = console.log } = {}) {
         for (const w of warnings) out.push(['WARN', `layer file: ${w}`]);
       }
       checkSources(d.sources, out);
-      if (!published && (d.needsFromBrian ?? []).length) out.push(['WARN', `needs from Brian: ${d.needsFromBrian.join(' | ')}`]);
+      // The guide gate (2026-09-28 doorway review): 109 guides drafted at once read as scaled content unless each
+      // one that goes live carries something first-hand. A published guide needs at least one of Brian's own job
+      // photos, and may point only at services he has confirmed. His open questions stay listed after it ships.
+      if (published) {
+        if (!(d.photos ?? []).some((ph) => photoIds.has(ph))) out.push(['FAIL', 'published with no job photo of Brian\'s — a guide goes live with at least one photos.ts id in `photos`, first-hand proof beside the research (its needsFromBrian list says what to ask him)']);
+        for (const sv of d.related?.services ?? []) if (serviceSlugs.has(sv) && serviceConfirmed.get(sv) !== true) out.push(['FAIL', `published, but its related service ${sv} is not confirmed in src/data/services.ts — a guide goes live only about work NoCo confirms it does`]);
+      }
+      if ((d.needsFromBrian ?? []).length) out.push(['WARN', `${published ? 'published with open questions for Brian' : 'needs from Brian'}: ${d.needsFromBrian.join(' | ')}`]);
       guideDocs.push(docOf(id, d, body));
     } else if (kind === 'service') {
       copy = serviceCopy(d, body);
@@ -1106,25 +1163,25 @@ export async function run({ root = REPO, files = [], log = console.log } = {}) {
       else if (s > 0.15) { log(`! WARN similarity ${pair} (warn above 15%)`); warns++; }
     }
 
-    log('\nTown gate — src/lib/town-gate.mjs: ≥3 blocks, ≥2 own, a photo');
+    log(`\nTown gate — src/lib/town-gate.mjs: ≥3 substantive blocks (${SUBSTANTIVE_WORDS}+ words), ≥2 own, every block sourced, Brian's word that NoCo works the town, a photo from the town, a job or review from it`);
     for (const t of NOCO_TOWNS) {
       const g = gate[t.slug];
       if (!g) { log(`  ${t.slug.padEnd(16)} —          no record yet (${t.tier})`); continue; }
-      const verdict = g.pass ? 'PASS' : g.status === 'published' ? 'FAIL' : 'not yet';
-      log(`  ${t.slug.padEnd(16)} ${g.status.padEnd(10)} ${g.blocks} blocks · ${g.own} own · ${g.photo ? 'photo' : 'no photo'} — gate ${verdict}`);
+      const verdict = `${g.pass ? 'PASS' : g.status === 'published' ? 'FAIL' : 'not yet'}${g.ownRule === 'FAIL' ? ' · own rule FAIL' : ''}`;
+      log(`  ${t.slug.padEnd(16)} ${g.status.padEnd(10)} ${g.blocks} blocks · ${g.own} own · ${g.served ? 'confirmed' : 'not confirmed'} · ${g.photos ? `${g.photos} local photo${g.photos > 1 ? 's' : ''}` : 'no local photo'} — gate ${verdict}`);
       for (const r of g.reasons) log(`      - ${r}`);
       for (const n of g.needs) log(`      needs from Brian: ${n}`);
     }
     for (const slug of Object.keys(gate)) if (!townBySlug[slug]) log(`  ${slug.padEnd(16)} ${gate[slug].status.padEnd(10)} NOT A NOCO TOWN`);
 
-    log(`\nTown × service gate — src/lib/town-service-gate.mjs: ≥3 substantive blocks (${SUBSTANTIVE_WORDS}+ words), ≥2 own, every block sourced, a photo of this use`);
+    log(`\nTown × service gate — src/lib/town-service-gate.mjs: ≥3 substantive blocks (${SUBSTANTIVE_WORDS}+ words), ≥2 own, every block sourced, a photo of this use from the town, a job or review of this use from it`);
     const townRank = new Map(NOCO_TOWNS.map((t, i) => [t.slug, i]));
     for (const s of TOWN_SERVICES) {
       const recs = Object.entries(tsGate).filter(([, g]) => g.service === s.slug)
         .sort(([, a], [, b]) => (townRank.get(a.town) ?? 99) - (townRank.get(b.town) ?? 99));
       log(`  ${s.slug.padEnd(16)} ${recs.length} of ${NOCO_TOWNS.length} towns written · a photo with use "${s.photoUse}"`);
       for (const [rid, g] of recs) {
-        const verdict = g.pass ? 'PASS' : g.status === 'published' ? 'FAIL' : 'not yet';
+        const verdict = `${g.pass ? 'PASS' : g.status === 'published' ? 'FAIL' : 'not yet'}${g.ownRule === 'FAIL' ? ' · own rule FAIL' : ''}`;
         log(`    ${rid.padEnd(36)} ${g.status.padEnd(10)} ${g.blocks} blocks (${g.substantive} substantive) · ${g.own} own · ${g.photo ? `photo ${g.photo}` : 'no photo'} — gate ${verdict}`);
         for (const r of g.reasons) log(`        - ${r}`);
         for (const n of g.needs) log(`        needs from Brian: ${n}`);
@@ -1132,11 +1189,11 @@ export async function run({ root = REPO, files = [], log = console.log } = {}) {
     }
     for (const [rid, g] of Object.entries(tsGate)) if (!townServiceBySlug[g.service]) log(`    ${rid.padEnd(36)} ${g.status.padEnd(10)} NOT A TOWN × SERVICE PAGE`);
 
-    log(`\nCommunity gate — src/lib/community-gate.mjs: ≥3 substantive blocks (${SUBSTANTIVE_WORDS}+ words), ≥2 own, every block sourced, a photo taken in the community or its town`);
+    log(`\nCommunity gate — src/lib/community-gate.mjs: ≥3 substantive blocks (${SUBSTANTIVE_WORDS}+ words), ≥2 own, every block sourced, a photo taken in the community, a job or review from it`);
     const cms = Object.entries(cmGate).sort(([a, ga], [b, gb]) => ((townRank.get(ga.town) ?? 99) - (townRank.get(gb.town) ?? 99)) || a.localeCompare(b));
     if (!cms.length) log('  no community records yet (src/content/communities/{town}--{community}.json)');
     for (const [rid, g] of cms) {
-      const verdict = g.pass ? 'PASS' : g.status === 'published' ? 'FAIL' : 'not yet';
+      const verdict = `${g.pass ? 'PASS' : g.status === 'published' ? 'FAIL' : 'not yet'}${g.ownRule === 'FAIL' ? ' · own rule FAIL' : ''}`;
       log(`  ${rid.padEnd(40)} ${g.status.padEnd(10)} ${g.blocks} blocks (${g.substantive} substantive) · ${g.own} own · ${g.photo ? `photo ${g.photo}` : 'no photo'} — gate ${verdict}`);
       for (const r of g.reasons) log(`      - ${r}`);
       for (const n of g.needs) log(`      needs from Brian: ${n}`);

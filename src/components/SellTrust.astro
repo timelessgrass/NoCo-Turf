@@ -8,7 +8,7 @@
 import Icon from './Icon.astro';
 import { GOOGLE_URL, GOOGLE_RATING } from '../data/reviews';
 interface Props { town?: string }
-const { town } = Astro.props;
+// town is accepted but unused: the strip reads the same on every page, with no place name swapped in.
 ---
 <section class="tr" aria-label="Why NoCo Turf Co.">
   <ul class="wrap tr__list stagger" role="list">
@@ -21,7 +21,7 @@ const { town } = Astro.props;
       </li>
     )}
     <li class="tr__item"><Icon name="pin" size={22} class="tr__ico" /><span><strong>Based in Windsor</strong><span class="tr__sub">Working Wellington to Longmont</span></span></li>
-    <li class="tr__item"><Icon name="check" size={22} class="tr__ico" /><span><strong>We check the rules first</strong><span class="tr__sub">{town ? `${town}’s` : 'Your town’s'} and your HOA’s, before we quote</span></span></li>
+    <li class="tr__item"><Icon name="check" size={22} class="tr__ico" /><span><strong>We check the rules first</strong><span class="tr__sub">Your town’s and your HOA’s, before we quote</span></span></li>
     <li class="tr__item"><Icon name="doc" size={22} class="tr__ico" /><span><strong>Plan and price in writing</strong><span class="tr__sub">Before any work starts</span></span></li>
   </ul>
 </section>

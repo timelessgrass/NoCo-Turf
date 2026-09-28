@@ -16,6 +16,7 @@ import climate from '../data/layers/climate.json';
 import soil from '../data/layers/soil.json';
 import standards from '../data/layers/standards.json';
 import { PHOTOS, type Photo } from '../data/photos';
+import { namesPlace } from '../lib/local-proof.mjs';
 
 export type Tier = { label: string; price: number; up_to_gal: number | null };
 export type LayerRecord = {
@@ -292,9 +293,11 @@ export function compass(a: { lat: number; lng: number }, b: { lat: number; lng: 
 const HERO_PHOTO: Record<string, string> = {
   'windsor-co': 'dusk', 'greeley-co': 'side-yard', 'berthoud-co': 'fire-pit', 'mead-co': 'crew', 'firestone-co': 'crew',
 };
+/* The town gate passes on the same rule (src/lib/local-proof.mjs namesPlace: a whole name, so Mead is not Meadows),
+   so a town that passes it always shows the photo that let it. */
 export function townPhotos(slug: string, name: string): { hero: Photo | null; more: Photo[] } {
-  const near = PHOTOS.filter((p) => p.place.includes(name));
-  const hero = near.find((p) => p.id === HERO_PHOTO[slug]) ?? null;
+  const near = PHOTOS.filter((p) => namesPlace(p, name));
+  const hero = near.find((p) => p.id === HERO_PHOTO[slug]) ?? near[0] ?? null;
   return { hero, more: hero ? near.filter((p) => p.id !== hero.id) : [] };
 }
 

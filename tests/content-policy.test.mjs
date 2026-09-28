@@ -115,10 +115,29 @@ test('a clean draft passes, and its unmet gate is a warning that prints what Bri
   write('src/content/towns/fort-collins-co.json', town('fort-collins-co'));
   const r = run();
   assert.equal(r.status, 0, r.out);
-  assert.match(r.out, /town gate not met yet \(draft\): no photograph/);
+  assert.match(r.out, /town gate not met yet \(draft\): .*Brian hasn't confirmed NoCo works Fort Collins.*no photograph from Fort Collins.*no job or review from Fort Collins/);
   assert.match(r.out, /needs from Brian: One Fort Collins job with before and after photos/);
-  assert.match(r.out, /fort-collins-co\s+draft\s+3 blocks · 2 own · no photo — gate not yet/);
+  assert.match(r.out, /fort-collins-co\s+draft\s+3 blocks · 0 own · not confirmed · no local photo — gate not yet/, 'own counts substantive blocks only, as the gate does');
   assert.match(r.out, /windsor-co\s+—\s+no record yet/);
+});
+
+test('a town Brian has confirmed, with a photo from it and a job there, passes the gate end to end', (t) => {
+  const { write, run } = fixture(t);
+  const words = (from, n) => Array.from({ length: n }, (_, i) => `wor${String.fromCharCode(97 + ((from + i) % 26))}${String.fromCharCode(97 + (Math.floor((from + i) / 26) % 26))}`).join(' ');
+  const w = town('windsor-co');
+  w.blocks = w.blocks.map((b, i) => ({ ...b, paras: [`${b.paras[0]} ${words(i * 100, 30)}`] }));
+  w.blocks.push({ kind: 'job', own: true, kicker: 'Job', h2: 'A Windsor backyard green', paras: [`We built a backyard green in Windsor in the spring. ${words(900, 30)}`], layerRefs: [], sources: [] });
+  write('src/content/towns/windsor-co.json', w);
+  const said = { source: 'client_text', source_detail: 'Brian, text to Ty: yes, Windsor', date: '2026-10-02' };
+  write('.site/truth/brief.json', { service_areas: [{ slug: 'windsor-co', name: { value: 'Windsor', status: 'CLIENT_CONFIRMED', ...said } }] });
+  const r = run();
+  assert.equal(r.status, 0, r.out);
+  assert.match(r.out, /windsor-co\s+draft\s+4 blocks · \d own · confirmed · \d+ local photos? — gate PASS/, r.out);
+
+  write('.site/truth/brief.json', '{ not json');
+  const bad = run();
+  assert.equal(bad.status, 1, bad.out);
+  assert.match(bad.out, /\.site\/truth\/brief\.json is not valid JSON/);
 });
 
 test('a published town that fails the gate fails the check', (t) => {
@@ -126,7 +145,7 @@ test('a published town that fails the gate fails the check', (t) => {
   write('src/content/towns/fort-collins-co.json', town('fort-collins-co', { status: 'published' }));
   const r = run();
   assert.equal(r.status, 1, r.out);
-  assert.match(r.out, /published but fails the town gate: no photograph/);
+  assert.match(r.out, /published but fails the town gate: .*no photograph from Fort Collins/);
 });
 
 test('"Erie" fails — NoCo never names a TIMELESS town, even hidden behind a soft hyphen', (t) => {
@@ -294,6 +313,21 @@ const GUIDE = {
   sources: [{ label: 'Land Use Code 5.10.1', url: 'https://example.gov/fort-collins/luc-5-10-1', checked: '2026-09-24' }, { label: 'SB23-178', url: 'https://example.gov/colorado/sb23-178', checked: '2026-09-24' }],
   published: '2026-09-24', updated: '2026-09-24', related: { services: ['pet-turf'], towns: ['fort-collins-co'] },
 };
+
+test('a published guide needs one of Brian\'s job photos and only confirmed related services; his open questions stay listed', (t) => {
+  const { write, run } = fixture(t);
+  const body = '## Does Fort Collins allow turf?\n\nOn existing lots, yes.';
+  write('src/content/guides/turf-rules-northern-colorado.md', guide({ ...GUIDE, status: 'published' }, body));
+  const bare = run();
+  assert.equal(bare.status, 1, bare.out);
+  assert.match(bare.out, /published with no job photo of Brian's/);
+  assert.match(bare.out, /its related service pet-turf is not confirmed in src\/data\/services\.ts/);
+
+  write('src/content/guides/turf-rules-northern-colorado.md', guide({ ...GUIDE, status: 'published', photos: ['dusk'], related: { services: [], towns: ['fort-collins-co'] }, needsFromBrian: ['How deep he digs in clay'] }, body));
+  const ok = run();
+  assert.doesNotMatch(ok.out, /published with no job photo|is not confirmed in src\/data\/services/, ok.out);
+  assert.match(ok.out, /published with open questions for Brian: How deep he digs in clay/);
+});
 
 test('guides: frontmatter is validated, links must be sources, related slugs must exist', (t) => {
   const { write, run } = fixture(t);

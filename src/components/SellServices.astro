@@ -1,6 +1,6 @@
 ---
 /**
- * SellServices — "What we build in {town}": one card per visible service, with Brian's photo where one honestly
+ * SellServices — "What we build": one card per visible service, with Brian's photo where one honestly
  * shows that kind of job (services.ts `photo`) and the service glyph where none does. A card links to this
  * town's page for that service when it exists in this build, else to the service page.
  */
@@ -11,7 +11,7 @@ import { photo as photoById } from '../data/photos';
 import { scene, SERVICE_SCENE } from '../data/scenes';
 
 interface Props { town?: string; townPages?: { service: { slug: string }; path: string }[]; id?: string; heading?: string }
-const { town, townPages = [], id = 'build', heading } = Astro.props;
+const { townPages = [], id = 'build', heading } = Astro.props;
 const BENEFIT: Record<string, string> = {
   'artificial-turf-installation': 'A lawn that stays green all year. No mowing, no watering, no mud.',
   'pet-turf': 'Drains fast and rinses clean, so the dogs get a yard and you get your grass back.',
@@ -30,7 +30,7 @@ const cards = visibleServices.map((s) => {
 <section class="section sv" id={id} aria-labelledby={`${id}-h`}>
   <div class="wrap">
     <header class="sv__head">
-      <h2 id={`${id}-h`}>{heading ?? (town ? `What we build in ${town}.` : 'What we build.')}</h2>
+      <h2 id={`${id}-h`}>{heading ?? 'What we build.'}</h2>
     </header>
     <ul class="sv__grid stagger" role="list">
       {cards.map((c) => (

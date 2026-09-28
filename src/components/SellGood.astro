@@ -15,7 +15,7 @@ const { place, answer, good, id = 'good' } = Astro.props;
       <ul class="gk__list" role="list">
         {good.map((g) => <li><span class="gk__tick" aria-hidden="true"></span><span>{g}</span></li>)}
       </ul>
-      <a class="gk__more" href="#rules" data-open-rules>Read the full rules for {place} <Icon name="arrow" size={16} /></a>
+      <a class="gk__more" href="#rules" data-open-rules>Read the full rules and sources <Icon name="arrow" size={16} /></a>
     </div>
     <div class="gk__ans">
       <AnswerBox question={answer.question} answer={answer.answer} />

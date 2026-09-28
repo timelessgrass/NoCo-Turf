@@ -67,7 +67,8 @@ test('four services get town pages; installation (the town page) and turf-repair
     assert.match(services, new RegExp(`slug: '${s.slug}'[\\s\\S]*?preview: true`), `${s.slug} is a previewable service in services.ts`);
     assert.ok(TOPIC_SLUGS.includes(s.topic), `${s.slug}: topic ${s.topic} is a guide topic`);
     for (const k of ['crumb', 'noun', 'ask']) assert.ok(s[k]?.trim(), `${s.slug}: ${k}`);
-    assert.ok(s.band.title && s.band.payoff && s.band.lede.includes('{town}'), `${s.slug}: band`);
+    assert.ok(s.band.title && s.band.payoff && s.band.lede, `${s.slug}: band`);
+    assert.doesNotMatch(`${s.band.title} ${s.band.payoff} ${s.band.lede}`, /\{town\}/, `${s.slug}: a band shared by every town stays generic, no swapped town name`);
   }
 });
 
@@ -118,19 +119,30 @@ test('the schema takes a clean record and holds town, service, title, descriptio
 
 // ───────────────────────────── the gate ─────────────────────────────
 
-const PHOTOS = [{ id: 'dusk', use: 'putting-green' }, { id: 'playset', use: 'play' }, { id: 'fenced-yard', use: 'lawn' }];
+const PHOTOS = [
+  { id: 'dusk', use: 'putting-green', place: 'Near Windsor' }, { id: 'playset', use: 'play', place: 'Near Windsor' },
+  { id: 'fenced-yard', use: 'lawn', place: 'Near Windsor' }, { id: 'fire-pit', use: 'putting-green', place: 'Near Berthoud' },
+];
+/** The block use of each service (src/lib/local-proof.mjs workUseOf of its photo use). */
+const USE_OF = { 'putting-greens': 'putting-green', 'pet-turf': 'pet', 'playground-turf': 'playground', 'commercial-turf': 'commercial' };
+/** A job block from Brian's ledger for this page: own, 40 words, naming the town, with the service's use. */
+const jobFor = (p, over = {}) => ({ kind: 'job', own: true, kicker: 'job', h2: `A ${NAMES[p.town]} job`, paras: [filler(97000, 40)], layerRefs: [], sources: [], use: USE_OF[p.service], ...over });
+const withJob = (p, over) => ({ ...p, blocks: [...p.blocks, jobFor(p, over)] });
+/** The gate on the page with its job block added (job = false: the page as written). */
+const gate = (p, photos = PHOTOS, job = true) => townServiceGate(job ? withJob(p) : p, photos);
 
-test('three substantive blocks, two own, every block sourced, and a photo of this use pass', () => {
-  assert.deepEqual(townServiceGate(page('windsor-co', 'putting-greens'), PHOTOS), { pass: true, reasons: [] });
-  assert.equal(townServiceGate(page('windsor-co', 'playground-turf'), PHOTOS).pass, true);
-  assert.equal(townServiceGate(page('windsor-co', 'putting-greens'), new Map([['dusk', 'putting-green']])).pass, true, 'a Map of id → use works too');
+test('three substantive blocks, two own, every block sourced, a photo of this use from the town, and a job pass', () => {
+  assert.deepEqual(gate(page('windsor-co', 'putting-greens'), PHOTOS), { pass: true, reasons: [] });
+  assert.equal(gate(page('windsor-co', 'playground-turf'), PHOTOS).pass, true);
+  assert.equal(gate(page('windsor-co', 'putting-greens'), new Map([['dusk', { use: 'putting-green', place: 'Near Windsor' }]])).pass, true, 'a Map of id → { use, place } works too');
+  assert.equal(gate(page('windsor-co', 'putting-greens'), new Map([['dusk', 'putting-green']])).pass, false, 'a Map of id → use alone says nothing of where it was taken');
 });
 
 test('a block counts as substantive only from SUBSTANTIVE_WORDS words; own blocks must be substantive too', () => {
   const p = page('windsor-co', 'putting-greens');
   assert.equal(blockWords({ takeaway: 'one two', paras: ['three four five'] }), 5);
   p.blocks[1] = { ...p.blocks[1], paras: ['Too short to count.'] };
-  const g = townServiceGate(p, PHOTOS);
+  const g = gate(p, PHOTOS, false);
   assert.equal(g.pass, false);
   assert.ok(g.reasons.some((r) => new RegExp(`2 substantive blocks — needs ≥3 \\(a block counts from ${SUBSTANTIVE_WORDS} words; block 2 \\(golf\\) has 4\\)`).test(r)), g.reasons.join('; '));
   assert.ok(g.reasons.some((r) => /1 own blocks \(true of this town for this use\) — needs ≥2/.test(r)), 'the thin own block does not count as own');
@@ -139,7 +151,7 @@ test('a block counts as substantive only from SUBSTANTIVE_WORDS words; own block
 test('fewer than two own blocks fails: a page built from shared layers reads like its neighbour', () => {
   const p = page('windsor-co', 'putting-greens');
   p.blocks = p.blocks.map((b) => ({ ...b, own: false }));
-  const g = townServiceGate(p, PHOTOS);
+  const g = gate(p, PHOTOS, false);
   assert.equal(g.pass, false);
   assert.ok(g.reasons.some((r) => /0 own blocks/.test(r)));
 });
@@ -147,26 +159,26 @@ test('fewer than two own blocks fails: a page built from shared layers reads lik
 test('a block with no source and no layer reference fails, unless it is a job, photo or review', () => {
   const p = page('windsor-co', 'putting-greens');
   p.blocks[0] = { ...p.blocks[0], sources: [], layerRefs: [] };
-  assert.ok(townServiceGate(p, PHOTOS).reasons.some((r) => /block 1 \(ordinance\) has no source and no layer reference/.test(r)));
+  assert.ok(gate(p, PHOTOS).reasons.some((r) => /block 1 \(ordinance\) has no source and no layer reference/.test(r)));
   p.blocks[0] = { ...p.blocks[0], layerRefs: ['windsor-code-15-3-10-single-family-exempt'] };
-  assert.equal(townServiceGate(p, PHOTOS).pass, true, 'a layer reference is enough');
+  assert.equal(gate(p, PHOTOS).pass, true, 'a layer reference is enough');
   for (const kind of ['job', 'photo', 'review']) {
     const q = page('windsor-co', 'putting-greens');
     q.blocks[0] = { ...q.blocks[0], kind, sources: [], layerRefs: [] };
-    assert.equal(townServiceGate(q, PHOTOS).pass, true, kind);
+    assert.equal(gate(q, PHOTOS).pass, true, kind);
   }
 });
 
 test('the photo must exist and show this use; commercial-turf waits for a commercial photo', () => {
-  const none = townServiceGate(page('windsor-co', 'pet-turf'), PHOTOS);
+  const none = gate(page('windsor-co', 'pet-turf'), PHOTOS);
   assert.ok(none.reasons.some((r) => /no photograph — needs a real photo of this use \(src\/data\/photos\.ts use "pet"\)/.test(r)), none.reasons.join('; '));
-  const wrong = townServiceGate(page('windsor-co', 'putting-greens', { photo: 'playset' }), PHOTOS);
+  const wrong = gate(page('windsor-co', 'putting-greens', { photo: 'playset' }), PHOTOS);
   assert.ok(wrong.reasons.some((r) => /photo "playset" shows use "play" — a putting-greens page needs a photo with use "putting-green"/.test(r)), wrong.reasons.join('; '));
-  const lawn = townServiceGate(page('windsor-co', 'pet-turf', { photo: 'fenced-yard' }), PHOTOS);
+  const lawn = gate(page('windsor-co', 'pet-turf', { photo: 'fenced-yard' }), PHOTOS);
   assert.ok(lawn.reasons.some((r) => /use "lawn"/.test(r)), 'a lawn photo is not a dog run');
-  const missing = townServiceGate(page('windsor-co', 'putting-greens', { photo: 'stock-green' }), PHOTOS);
+  const missing = gate(page('windsor-co', 'putting-greens', { photo: 'stock-green' }), PHOTOS);
   assert.ok(missing.reasons.some((r) => /photo "stock-green" is not in src\/data\/photos\.ts/.test(r)));
-  const commercial = townServiceGate(page('windsor-co', 'commercial-turf'), PHOTOS);
+  const commercial = gate(page('windsor-co', 'commercial-turf'), PHOTOS);
   assert.ok(commercial.reasons.some((r) => /commercial, HOA or sports job, added to src\/data\/photos\.ts with use "commercial"/.test(r)), commercial.reasons.join('; '));
   // the real photos.ts: no photo carries the commercial use yet
   assert.doesNotMatch(read('src/data/photos.ts'), /use: 'commercial'/);
@@ -178,6 +190,30 @@ test('an empty or missing record fails without throwing, and lists every missing
     assert.equal(g.pass, false);
     assert.ok(g.reasons.length >= 3, g.reasons.join('; '));
   }
+});
+
+test('the photo must be from the town: a Berthoud green is not proof of work in Windsor', () => {
+  const g = gate(page('windsor-co', 'putting-greens', { photo: 'fire-pit' }));
+  assert.equal(g.pass, false);
+  assert.ok(g.reasons.some((r) => /photo "fire-pit" was taken Near Berthoud — a Windsor page needs a photo whose place names Windsor/.test(r)), g.reasons.join('; '));
+  const unnamed = gate(page('windsor-co', 'putting-greens'), [{ id: 'dusk', use: 'putting-green', place: '' }]);
+  assert.ok(unnamed.reasons.some((r) => /was taken somewhere unnamed/.test(r)), 'a Google listing photo with no place does not place a job');
+});
+
+test('a job or a review of this use from the town is required, and it has to be real', () => {
+  const p = page('windsor-co', 'putting-greens');
+  const none = gate(p, PHOTOS, false);
+  assert.ok(none.reasons.some((r) => /no job or review from Windsor for this use/.test(r)), none.reasons.join('; '));
+  const g = (over) => townServiceGate(withJob(p, over), PHOTOS).pass;
+  assert.equal(g({}), true);
+  assert.equal(g({ use: 'pet' }), false, 'a dog run is not a putting green job');
+  assert.equal(g({ use: undefined }), false, 'a job block with no use');
+  assert.equal(g({ paras: ['TBD.'] }), false, 'a placeholder');
+  assert.equal(g({ own: false }), false, 'not marked own');
+  assert.equal(g({ h2: 'A backyard job' }), false, 'never names the town');
+  assert.equal(townServiceGate(withJob(page('windsor-co', 'playground-turf')), PHOTOS).pass, true, 'play maps to the block use "playground"');
+  assert.equal(g({ kind: 'review', paras: [filler(98000, 14)] }), false, 'a review with no link to where it was posted');
+  assert.equal(g({ kind: 'review', paras: [filler(98000, 14)], sources: ['https://g.page/r/example'] }), true, 'a linked review of this use from the town counts');
 });
 
 // ───────────────────────────── visibility ─────────────────────────────
@@ -195,7 +231,7 @@ test('PRELAUNCH preview: every record renders while its town page and service ar
 });
 
 test('launch: only a published record that passes the gate, with its town page and its service visible', () => {
-  const passing = page('windsor-co', 'putting-greens', { status: 'published' });
+  const passing = withJob(page('windsor-co', 'putting-greens', { status: 'published' }));
   assert.deepEqual(
     (({ render, sitemap, draft }) => ({ render, sitemap, draft }))(townServiceVisibility(passing, ctx())),
     { render: true, sitemap: true, draft: false });
@@ -208,7 +244,7 @@ test('launch: only a published record that passes the gate, with its town page a
 });
 
 test('the sitemap lists only published records that pass the gate, with a published town and a confirmed service', () => {
-  const passing = page('windsor-co', 'putting-greens', { status: 'published' });
+  const passing = withJob(page('windsor-co', 'putting-greens', { status: 'published' }));
   assert.equal(townServiceVisibility(passing, ctx({ showDrafts: true })).sitemap, true);
   assert.equal(townServiceVisibility({ ...passing, status: 'draft' }, ctx({ showDrafts: true })).sitemap, false);
   assert.equal(townServiceVisibility({ ...passing, photo: undefined }, ctx()).sitemap, false, 'fails the gate');
@@ -290,7 +326,9 @@ test('a published page that fails the gate fails the check; a passing one warns 
   assert.match(r.out, /published but fails the town × service gate: no photograph/);
   assert.match(r.out, /windsor-co--pet-turf\s+published\s+.*— gate FAIL/);
 
-  put(page('windsor-co', 'putting-greens', { status: 'published' }));
+  const job = page('windsor-co', 'putting-greens', { status: 'published' });
+  job.blocks.push(jobFor(job));
+  put(job);
   const ok = run();
   assert.match(ok.out, /windsor-co--putting-greens\s+published\s+.*— gate PASS/);
   assert.match(ok.out, /its town page windsor-co is not published — this page renders only once the town page does/);
@@ -345,13 +383,36 @@ test('the town rules hold: leaks, claims, numbers, links, layerRefs, title suffi
   put(refs);
   assert.match(run().out, /layerRefs id "no-such-layer" is not in src\/data\/layers\/\*\.json, src\/data\/layers\/guides\/\*\.json, src\/data\/layers\/local\/\*\.json or src\/data\/layers\/communities\/\*\.json/);
 
-  // a number traced to a referenced layer record passes; a photo from another town only warns
+  // a number traced to a referenced layer record passes; a photo from another town fails the gate (a draft warns)
   const traced = page('windsor-co', 'putting-greens', { photo: 'fire-pit', lede: 'At least 25% of each front yard stays landscaped.' });
   traced.blocks[0] = { ...traced.blocks[0], layerRefs: ['fixture-windsor-code'] };
   put(traced);
   const ok = run();
   assert.equal(ok.status, 0, ok.out);
-  assert.match(ok.out, /photo "fire-pit" was taken Near Berthoud, not in Windsor — the caption says so/);
+  assert.match(ok.out, /photo "fire-pit" was taken Near Berthoud — a Windsor page needs a photo whose place names Windsor/);
+});
+
+test('own means true of this page alone: an own block citing only what another page of the town cites is not own', (t) => {
+  const { run, put } = fixture(t);
+  const a = page('windsor-co', 'putting-greens');
+  const b = page('windsor-co', 'pet-turf');
+  a.blocks[0] = { ...a.blocks[0], layerRefs: ['fixture-windsor-code'] };
+  b.blocks[0] = { ...b.blocks[0], layerRefs: ['fixture-windsor-code'] };
+  a.blocks[1] = { ...a.blocks[1], sources: ['https://example.gov/two'] }; // a's own golf block cites what only a cites
+  put(a); put(b);
+  const r = run();
+  assert.equal(r.status, 0, r.out);
+  assert.match(r.out, /block 1 is marked own but cites only what other Windsor pages also cite, or only statewide records — own means true of this page alone; 1 own block left, the gate needs ≥2/);
+  put({ ...a, status: 'published' });
+  const pub = run();
+  assert.equal(pub.status, 1, pub.out);
+  assert.match(pub.out, /x block 1 is marked own but cites only what other Windsor pages also cite/);
+  const c = page('timnath-co', 'putting-greens');
+  c.blocks[0] = { ...c.blocks[0], layerRefs: ['fixture-windsor-code'] };
+  put(c);
+  const section = run().out.split(/\n(?=(?:ok|! WARN|x FAIL)\s)/).find((x) => /^\S+(?:\s\S+)?\s+timnath-co--putting-greens /.test(x)) ?? '';
+  assert.ok(section, 'the Timnath record is reported');
+  assert.doesNotMatch(section, /marked own/, 'another town citing the record is not this town\'s page');
 });
 
 test('overlap: pages of the same service over 25% of five-word runs fail, over 15% warn; different services are not compared', (t) => {

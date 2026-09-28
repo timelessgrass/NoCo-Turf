@@ -167,7 +167,7 @@ async function townServicePage() {
   const at = paint ? h1.indexOf(paint) : -1;
   const crumbs = [{ name: 'Areas', path: '/areas/' }, { name, path: `/areas/${town.slug}/` }, { name: meta.crumb, path }];
   const graph = [...townServiceGraph(`${service.name} in ${name}, CO`, service.name, path, d.description, name), ...faqGraph(d.faq)];
-  const band = { ...meta.band, lede: meta.band.lede.replace('{town}', name) };
+  const band = meta.band;
   /* A putting-green page links the golf communities in its town that have their own pages. */
   const golfHere = service.slug === 'putting-greens' ? communities.filter((c) => c.town.slug === town.slug && c.kind === 'golf') : [];
   return { page, town, service, meta, d, name, asOf, hoaAt, extra, codeRecs, lawRecs, photo, og, numbered, rows, nearby, others, h1, paint, at, crumbs, graph, band, golfHere };
@@ -248,10 +248,10 @@ const cm = kind === 'community' ? await communityPage() : null;
    captioned with where it really is. */
 const SERVICE_H1: Record<string, string> = { 'putting-greens': 'Backyard putting greens', 'pet-turf': 'Pet turf and dog runs', 'playground-turf': 'Playground turf', 'commercial-turf': 'Commercial and HOA turf' };
 const SERVICE_HOOK: Record<string, (t: string) => string> = {
-  'putting-greens': (t) => `We build backyard putting greens in ${t}, with the cups and the break where you want them, on a base that holds up to our freeze and thaw.`,
-  'pet-turf': (t) => `We build dog runs in ${t} that drain fast and rinse clean. No more mud or dead spots.`,
-  'playground-turf': (t) => `We put soft, clean turf under swing sets and play sets in ${t}, with padding matched to how high the kids climb.`,
-  'commercial-turf': (t) => `We build turf for HOA common areas, parks, schools and fields in ${t}, within Colorado’s rules for new landscapes.`,
+  'putting-greens': (t) => `We build backyard putting greens with the cups and the break where you want them, on a base that holds up to our freeze and thaw.`,
+  'pet-turf': (t) => `We build dog runs that drain fast and rinse clean. No more mud or dead spots.`,
+  'playground-turf': (t) => `We put soft, clean turf under swing sets and play sets, with padding matched to how high the kids climb.`,
+  'commercial-turf': (t) => `We build turf for HOA common areas, parks, schools and fields, within Colorado’s rules for new landscapes.`,
 };
 const SERVICE_FALLBACK: Record<string, string> = { 'putting-greens': 'fire-pit', 'playground-turf': 'playset', 'pet-turf': 'gbp-dog-yard' };
 /* No job photo of this kind yet: a scene of the kind of yard (scenes.ts), uncaptioned; commercial pages rotate three. */
@@ -314,7 +314,7 @@ const tsGood = ts && townGood
     <section class="section ground-2" id="faq" aria-labelledby="faq-h">
       <div class="wrap tsvfaq">
         <header class="tsvfaq__head">
-          <h2 id="faq-h" class="tsvfaq__h">Questions about {meta.crumb.toLowerCase()} in {name}.</h2>
+          <h2 id="faq-h" class="tsvfaq__h">Questions about {meta.crumb.toLowerCase()}.</h2>
         </header>
         <Faq items={d.faq} name={`faq-${id}`} />
       </div>
@@ -337,13 +337,13 @@ const tsGood = ts && townGood
     <div class="wrap tsvsrc" id="sources"><Sources sources={d.sources} title={`Sources for ${meta.crumb.toLowerCase()} in ${name}, each with the date it was read`} /></div>
   </RulesDrawer>
 
-  <CtaBand title="Let’s walk your" payoff={`${name} yard.`} lede={band.lede} town={name} use={service.formUse} />
+  <CtaBand title={service.slug === 'commercial-turf' ? 'Let’s walk' : 'Let’s walk your'} payoff={service.slug === 'commercial-turf' ? 'the site.' : 'yard.'} lede={band.lede} town={name} use={service.formUse} />
 </Base>
 )}
 {cm && (
 <Base title={cm.d.title} description={cm.d.description} crumbs={cm.crumbs} graph={cm.graph} draft={cm.c.draft} ogImage={cm.og ?? cmOg} about={cm.placeRef} styles={[communityCss]}>
   <PageHero label={`${cm.name} · ${cm.townName}, CO`} crumbs={cm.crumbs} photo={cmHero} caption={Boolean(cm.photo)}
-    lede={`Planning turf or a putting green in ${cm.name}? We’ll design it around ${cm.governing && cm.governing.type !== 'none-found' ? `the ${cm.governing.name} rules` : 'the rules that apply here'}, so you know what’s allowed before you start.`}>
+    lede={`We’ll design your turf or putting green around ${({ hoa: 'your HOA’s rules', 'metro-district': 'your metro district’s rules', both: 'your HOA’s and metro district’s rules' } as Record<string, string>)[cm.governing?.type ?? ''] ?? 'the rules that apply here'}, so you know what’s allowed before you start.`}>
     Turf and putting greens in <PaintWord now>{cm.name}.</PaintWord>
     <div slot="after" class="tsvtop__acts">
       <a class="btn btn--paint" href="#estimate" data-cta="community-hero-quote">Book a yard walk <Icon name="arrow" /></a>
@@ -355,7 +355,7 @@ const tsGood = ts && townGood
 
   <SellGood place={cm.name} answer={cm.d.answer} good={COMMUNITY_SELL[`${cm.town.slug}--${cm.d.slug}`]?.good ?? goodFrom(cm.numbered)} />
 
-  <SellServices town={cm.name} townPages={cmTownPages} heading={`What we build in ${cm.name}.`} />
+  <SellServices town={cm.name} townPages={cmTownPages} heading="What we build." />
 
   {cm.photo && <TownServicePhoto photo={cm.photo} />}
 
@@ -370,7 +370,7 @@ const tsGood = ts && townGood
     <section class="section ground-2" id="faq" aria-labelledby="faq-h">
       <div class="wrap tsvfaq">
         <header class="tsvfaq__head">
-          <h2 id="faq-h" class="tsvfaq__h">Questions about yards in {cm.name}.</h2>
+          <h2 id="faq-h" class="tsvfaq__h">Common questions.</h2>
         </header>
         <Faq items={cm.d.faq} name={`faq-${id}`} />
       </div>
@@ -396,7 +396,7 @@ const tsGood = ts && townGood
     <div class="wrap tsvsrc" id="sources"><Sources sources={cm.d.sources} title={`Sources for ${cm.name}, ${cm.townName}, each with the date it was read`} /></div>
   </RulesDrawer>
 
-  <CtaBand title="Let’s walk your" payoff={`${cm.name} yard.`} town={cm.townName}
+  <CtaBand title="Let’s walk your" payoff="yard." town={cm.townName}
     lede={`Tell us what you want and how to reach you. We’ll set a time to see the yard.`} />
 </Base>
 )}

@@ -40,6 +40,8 @@ const block = z.object({
   paras: z.array(z.string()).min(1),
   layerRefs: z.array(z.string()).default([]),
   sources: z.array(z.string().url()).default([]),
+  /** A job or review block: what was built (a town × service page's proof must be its own use; src/lib/local-proof.mjs). */
+  use: z.enum(['lawn', 'pet', 'putting-green', 'playground', 'commercial', 'repair']).optional(),
 });
 
 const TOWN_SLUGS = NOCO_TOWNS.map((t) => t.slug) as [string, ...string[]];
@@ -64,7 +66,7 @@ const towns = defineCollection({
     sections: z.array(z.object({ name: z.string(), paras: z.array(z.string()).min(1), sources: z.array(z.string().url()).min(1) })).default([]),
     faq: z.array(qa).max(6).default([]),
     nearby: z.array(z.enum(TOWN_SLUGS)).min(2).max(6),
-    photo: z.string().optional(), // a path under src/assets/photos/ — required to publish (≥1 image per leaf)
+    photo: z.string().optional(), // a path under src/assets/photos/; not what the gate reads: it needs a photos.ts photo whose place names the town
     sources: z.array(source).min(2),
     checked: z.string(),
     /** Not rendered: what Brian still has to supply before this page can publish. */

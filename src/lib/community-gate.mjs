@@ -11,11 +11,14 @@
  *     own ledger, like on the town and town × service pages)
  *   - a real photograph from src/data/photos.ts that belongs here: its `community` is this community's id, or its
  *     `place` names this community. A photo from elsewhere in the town is not proof of work in this neighborhood.
+ *   - a job or a review from here, printed on the page: a job or review block that is own, runs to its word floor
+ *     and names the neighborhood (src/lib/local-proof.mjs proofBlocks; 2026-09-28 doorway review)
+ *   - and, to render at launch, a visible town page, which carries Brian's word that NoCo works the town
  *
  * Returns { pass, reasons[] } like the other gates: the reasons are the research to-do list for that page.
  * `photos` is src/data/photos.ts PHOTOS, or any list of { id, place, community? }, or a Map id → { place, community? }.
  */
-import { blockWords, SUBSTANTIVE_WORDS } from './town-service-gate.mjs';
+import { blockWords, SUBSTANTIVE_WORDS, namesPlace, proofBlocks } from './local-proof.mjs';
 import { isPublished } from './content-policy.mjs';
 import { townBySlug } from '../data/territory.mjs';
 import { communityId } from '../data/communities.mjs';
@@ -37,7 +40,7 @@ export function photoBelongs(p, data) {
   if (!p) return false;
   const place = String(p.place ?? '');
   return (!!data?.town && !!data?.slug && p.community === communityId(data.town, data.slug))
-    || (!!data?.name && place.includes(data.name));
+    || namesPlace({ place }, data?.name);
 }
 
 /** @param {any} data @param {PhotoPlaces} [photos] @returns {{ pass: boolean, reasons: string[] }} */
@@ -67,6 +70,7 @@ export function communityGate(data, photos = []) {
     if (!p) reasons.push(`photo "${data.photo}" is not in src/data/photos.ts`);
     else if (!photoBelongs(p, data)) reasons.push(`photo "${data.photo}" was taken ${p.place ?? 'somewhere unnamed'} — a ${name} page needs a photo whose place names ${name}, or tagged community ${data?.town && data?.slug ? communityId(data.town, data.slug) : ''}`);
   }
+  if (!proofBlocks(blocks, name).length) reasons.push(`no job or review from ${name} — needs a job block from Brian's ledger (own, ${SUBSTANTIVE_WORDS}+ words, naming ${name}; season and size in words, or cite the record that holds the numbers) or a review block that names ${name} and links to it`);
   return { pass: reasons.length === 0, reasons };
 }
 

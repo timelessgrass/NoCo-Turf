@@ -102,7 +102,17 @@ the community's record.
 
 ## Town records — `src/content/towns/{slug}.json`
 
-Schema: `src/content.config.ts` (`towns`). Gate: `src/lib/town-gate.mjs` (≥3 blocks, ≥2 `own`, a photo).
+Schema: `src/content.config.ts` (`towns`). Gate: `src/lib/town-gate.mjs`: ≥3 substantive blocks (30+ words), ≥2 `own`,
+every research block sourced, Brian's word that NoCo works the town (`.site/truth/brief.json` `service_areas`: status
+CLIENT_CONFIRMED with a client `source` and `source_detail`; the agency's `operator_decision` never counts), a
+`src/data/photos.ts` photo whose `place` names the town (whole name: Highland Meadows is not Mead), and a job or review
+block from the town. Shared rules: `src/lib/local-proof.mjs`; why: `.site/decisions/2026-09-28-publish-gates.md`.
+- A proof block (`kind` `job` or `review`) is `own`, names the place in its heading or text, runs to 30 words (a review
+  to 12) and, for a review, links to where it was posted in `sources`. Put a job's season and size in words, or cite the
+  layer record that holds the numbers: the numbers rule still applies. `use` names what was built.
+- `own` means true of this page alone. check-content flags an own research block whose town-scoped layer records and
+  links are all cited by another town's page, or that cites only statewide records, and FAILS a published record left
+  with fewer than 2 own blocks.
 Rules for writers:
 - Blocks are in the order the page shows them — lead with this town's strongest fact.
 - A layer fact used in a block is referenced by id in `layerRefs`; its source URL also goes in `sources`. A fact
@@ -157,9 +167,11 @@ its own `town` and `service` (check-content fails it; the routes throw).
 
 **Gate — `src/lib/town-service-gate.mjs` (`townServiceGate`).** A page passes with ≥3 substantive blocks (a block
 counts from 30 words of paragraphs and takeaway), ≥2 of those `own`, a source or layer reference on every block
-that is not a job, photo or review, and a real photo whose photos.ts `use` matches the service: putting-greens →
+that is not a job, photo or review, a real photo whose photos.ts `use` matches the service: putting-greens →
 `putting-green`, pet-turf → `pet`, playground-turf → `play`, commercial-turf → `commercial` (no photo carries that
-use yet; it arrives with Brian's own commercial photos). It returns `{ pass, reasons }` like the town gate.
+use yet; it arrives with Brian's own commercial photos) and whose `place` names the town, and a job or review block
+from the town whose `use` is the service's (`putting-green`, `pet`, `playground`, `commercial`). The own rule compares
+it with the other pages of its town. It returns `{ pass, reasons }` like the town gate.
 
 **Visibility (`townServiceVisibility`, one rule for the route, the links and the sitemap).** PRELAUNCH preview:
 every record renders, drafts with the ribbon, while its town page and service are visible. Launch: only a
@@ -222,8 +234,10 @@ is the file name, never the `slug` field alone).
 
 **Gate — `src/lib/community-gate.mjs` (`communityGate`).** A page passes with ≥3 substantive blocks (30 words of
 paragraphs and takeaway, the town × service rule), ≥2 of those `own`, a source or layer reference on every block
-that is not a job, photo or review, and a real photo from `src/data/photos.ts` that belongs here: its optional
-`community` is this community's id, or its `place` names the community or its town. Returns `{ pass, reasons }`.
+that is not a job, photo or review, a real photo from `src/data/photos.ts` that belongs here (its optional
+`community` is this community's id, or its `place` names the community; a photo from elsewhere in the town does not),
+and a job or review block that names the community. The own rule compares it with the other pages of its town.
+Returns `{ pass, reasons }`.
 
 **Visibility (`communityVisibility`, one rule for the route, the links in and the sitemap).** PRELAUNCH preview: every
 record renders, drafts with the ribbon, while its town page is visible. Launch: a published record that passes the
@@ -272,7 +286,9 @@ the title and the rest are the topic's defaults. An optional `photos` (up to thr
 as a restrained figure strip after the body (`GuidePhotos`), each with its own caption, place and month — Brian's
 putting greens on a putting-green design guide, say; check-content fails an id that isn't in photos.ts. The full field list is in docs/GUIDES.md ("Adding a guide").
 check-content also fails a guide that shares its title or its normalized `answer.question` with another, or
-more than 25% of its five-word runs (WARN above 15%). Answer first (the `answer` block is the page's first 60 words
+more than 25% of its five-word runs (WARN above 15%). A guide goes live only with one of Brian's job photos in
+`photos` and only about confirmed services (`related.services`, `src/data/services.ts`); its `needsFromBrian` list keeps
+printing after it ships (`.site/decisions/2026-09-28-publish-gates.md`). Release guides in batches as he answers them. Answer first (the `answer` block is the page's first 60 words
 in substance). Question-shaped H2s. Tables with real, dated numbers from layer records. Where law or a city
 rule is unsettled, hedge with "it depends … ask {the town's} Planning" — NOT "we confirm": that is a NoCo process
 claim and stays out of copy until Brian confirms NoCo checks each address (claims register). Titles carry the

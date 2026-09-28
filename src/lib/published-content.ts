@@ -8,6 +8,8 @@ import { communityVisibility } from './community-gate.mjs';
 import { communityId, communitySlugProblem } from '../data/communities.mjs';
 import { confirmedServices } from '../data/services';
 import { PHOTOS } from '../data/photos';
+import brief from '../data/brief';
+import { servedTowns } from './local-proof.mjs';
 
 /** Routes, hubs, related links and the sitemap all consume the same eligible records.
  *  A published town that fails territory or the differentiation gate stops the build — it does
@@ -21,7 +23,7 @@ export async function getPublishedCollection<C extends CollectionKey>(collection
       const data = entry.data as any;
       const t = townEligibility(data.slug);
       if (!t.eligible) throw new Error(`${entry.id}: ${t.reason}`);
-      const g = townGate(data);
+      const g = townGate(data, { photos: PHOTOS, served: SERVED_TOWNS });
       if (!g.pass) throw new Error(`${entry.id} is published but fails the town gate: ${g.reasons.join('; ')}`);
     }
   }
@@ -29,6 +31,9 @@ export async function getPublishedCollection<C extends CollectionKey>(collection
   if (collection === 'communities') for (const entry of entries) assertCommunityId(entry.id, entry.data as any);
   return entries;
 }
+
+/** The towns Brian has confirmed NoCo works, in his words (.site/truth/brief.json service_areas). */
+export const SERVED_TOWNS = servedTowns(brief);
 
 /** Whether any community record is on disk. Until the first one lands, the readers skip the collection rather than
  *  have Astro warn that it is empty once per page built. */
