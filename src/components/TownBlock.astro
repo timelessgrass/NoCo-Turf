@@ -6,11 +6,14 @@
  * a small "Only in {Town}" mark; inherited blocks (shared soil, climate or water layers) don't.
  */
 import TownEvidence from './TownEvidence.astro';
+import { inlineHtml, smartQuotes } from '../lib/inline-links';
 interface Block { kind: string; own: boolean; kicker: string; h2: string; takeaway?: string; paras: string[]; layerRefs: string[]; sources: string[] }
 /* `ownIn` names where an own block is true when that is not the town — a community page passes the community;
    the evidence panel still reads `town` (the soil sample is taken around the town centre). */
 interface Props { block: Block; no: number; id: string; town: string; ownIn?: string; sources: { label: string; url: string; checked: string }[]; asOf: string }
 const { block, no, id, town, ownIn = town, sources, asOf } = Astro.props;
+const take = block.takeaway ? await inlineHtml(block.takeaway) : '';
+const paras = await Promise.all(block.paras.map(inlineHtml));
 ---
 <section class="tb" id={id} aria-labelledby={`${id}-h`}>
   <div class="wrap tb__grid">
@@ -20,10 +23,10 @@ const { block, no, id, town, ownIn = town, sources, asOf } = Astro.props;
         <span class="label tb__kicker">{block.kicker}</span>
         {block.own && <span class="tb__own">Only in {ownIn}</span>}
       </p>
-      <h2 id={`${id}-h`} class="tb__h">{block.h2}</h2>
-      {block.takeaway && <p class="tb__take">{block.takeaway}</p>}
+      <h2 id={`${id}-h`} class="tb__h">{smartQuotes(block.h2)}</h2>
+      {take && <p class="tb__take" set:html={take} />}
       <div class="tb__paras">
-        {block.paras.map((p) => <p>{p}</p>)}
+        {paras.map((p) => <p set:html={p} />)}
       </div>
     </div>
     <aside class="tb__ev rise" aria-label={`${block.kicker}: the record`}>

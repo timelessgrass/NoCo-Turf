@@ -1,5 +1,6 @@
 /** Page-level JSON-LD nodes that reference the one #business entity. Never rating or review markup. */
 import { SITE } from '../data/site';
+import { plainText } from './inline-links';
 
 export const BUSINESS_REF = { '@id': `${SITE}/#business` };
 
@@ -7,7 +8,7 @@ export const BUSINESS_REF = { '@id': `${SITE}/#business` };
  *  kept because answer engines read it, never sold as a SERP feature. */
 export const faqGraph = (items: { q: string; a: string }[]) => items.length ? [{
   '@type': 'FAQPage',
-  mainEntity: items.map((it) => ({ '@type': 'Question', name: it.q, acceptedAnswer: { '@type': 'Answer', text: it.a } })),
+  mainEntity: items.map((it) => ({ '@type': 'Question', name: plainText(it.q), acceptedAnswer: { '@type': 'Answer', text: plainText(it.a) } })),
 }] : [];
 
 /** A town × service page's Service node: one service in one town, served by the one #business. */

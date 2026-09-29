@@ -39,11 +39,16 @@ interface Props {
   styles?: string[];
 }
 
-const { title, description, noindex = false, crumbs = [], graph = [], tone = 'ground', draft = false, ogImage, about, styles = [] } = Astro.props;
+const { title: rawTitle, description, noindex = false, crumbs = [], graph = [], tone = 'ground', draft = false, ogImage, about, styles = [] } = Astro.props;
 const canonical = new URL(Astro.url.pathname, SITE).href;
+/* Titles: Google cuts at about 60 characters, so the " | NoCo Turf Co." suffix rides only when the whole title fits
+   (Google prints the site name on its own line anyway). The home page always keeps it. */
+const BRAND = ' | NoCo Turf Co.';
+const bareTitle = rawTitle.replace(/\s*\|\s*NoCo Turf Co\.?\s*$/, '');
+const title = bareTitle === rawTitle || Astro.url.pathname === '/' || (bareTitle + BRAND).length <= 60 ? rawTitle : bareTitle;
 /* A utility page (thanks, review, 404) is noindex but its links are followed: "nofollow" there made every page it links
    to look half-nofollowed to crawlers (Ahrefs, 2026-09-29). PRELAUNCH still shut everything. */
-const robots = PRELAUNCH ? 'noindex, nofollow' : noindex ? 'noindex, follow' : 'index, follow';
+const robots = PRELAUNCH ? 'noindex, nofollow' : noindex ? 'noindex, follow' : 'index, follow, max-image-preview:large';
 /* Link previews: the page's own card (public/og/{route}.jpg, made by scripts/og-cards.py from the page's H1 and its
    photo), else the image the page passed, else the site card. */
 const ogSlug = Astro.url.pathname === '/' ? 'home' : Astro.url.pathname.replace(/^\/|\/$/g, '').replace(/\//g, '--');
@@ -65,10 +70,12 @@ const business = businessName && phone ? {
   name: businessName,
   ...(legalName ? { legalName } : {}),
   url: `${SITE}/`,
+  logo: { '@type': 'ImageObject', url: `${SITE}/icon-512.png`, width: 512, height: 512 },
+  image: `${SITE}/og/default.jpg`,
   telephone: phone,
   ...(email ? { email } : {}),
   ...(address ? { address: { '@type': 'PostalAddress', ...address } } : {}),
-  ...(areas.length ? { areaServed: areas.map((name: string) => ({ '@type': 'City', name })) } : {}),
+  ...(areas.length ? { areaServed: areas.map((name: string) => ({ '@type': 'City', name, containedInPlace: { '@type': 'State', name: 'Colorado' } })) } : {}),
   ...(hours ? { openingHoursSpecification: hours } : {}),
   ...(socialProfiles.length ? { sameAs: socialProfiles.map((p) => p.url) } : {}),
 } : null;
@@ -105,15 +112,15 @@ const jsonld = JSON.stringify({ '@context': 'https://schema.org', '@graph': node
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:site_name" content={businessName ?? 'NoCo Turf Co.'} />
-    <meta property="og:title" content={title} />
+    <meta property="og:title" content={bareTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
     <meta property="og:image" content={ogSrc} />
     {ogSized && <meta property="og:image:width" content="1200" />}
     {ogSized && <meta property="og:image:height" content="630" />}
-    <meta property="og:image:alt" content={title.replace(/\s*\|\s*NoCo Turf Co\.?$/, '')} />
+    <meta property="og:image:alt" content={bareTitle} />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content={title} />
+    <meta name="twitter:title" content={bareTitle} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogSrc} />
     <link rel="icon" href="/favicon.ico" sizes="48x48" />

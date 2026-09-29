@@ -45,7 +45,7 @@ const noun = NOUN[name] ?? name.toLowerCase();
         <li>
           <h3>{e.h}</h3>
           <p>{e.p}</p>
-          {expectHrefs[i] && <a href={expectHrefs[i]}>Read more <Icon name="arrow" size={15} /></a>}
+          {expectHrefs[i] && <a href={expectHrefs[i]} aria-label={`Read more: ${e.h}`}>Read more <Icon name="arrow" size={15} /></a>}
         </li>
       ))}
     </ul>

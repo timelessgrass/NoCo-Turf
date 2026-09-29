@@ -32,7 +32,8 @@ import { TOWN_SELL } from '../../data/town-sell';
 import { photo as photoById } from '../../data/photos';
 import TownCommunities from '../../components/TownCommunities.astro';
 import { visibleTowns, visibleTownServices, visibleCommunities } from '../../lib/visible';
-import { faqGraph } from '../../lib/schema';
+import { faqGraph, townServiceGraph } from '../../lib/schema';
+import { poss } from '../../lib/inline-links';
 import { REGIONS } from '../../data/territory.mjs';
 import { phoneHref, phoneDisplay } from '../../data/brief';
 import {
@@ -124,7 +125,7 @@ const byService = (await visibleTownServices()).filter((p) => p.town.slug === sl
 /* This town's community pages (/areas/{town}-co/{community}/) that exist in this build. */
 const neighborhoods = (await visibleCommunities()).filter((c) => c.town.slug === slug);
 ---
-<Base title={d.title} description={d.description} crumbs={crumbs} graph={faqGraph(d.faq)} draft={town.draft} ogImage={og}>
+<Base title={d.title} description={d.description} crumbs={crumbs} graph={[...townServiceGraph(`Artificial turf in ${name}, CO`, 'Artificial turf installation', `/areas/${slug}/`, d.description, name), ...faqGraph(d.faq)]} draft={town.draft} ogImage={og}>
   <PageHero label={`Artificial turf · ${name}, CO`} crumbs={crumbs} photo={heroPhoto} caption={heroCaption} lede={sell?.hook ?? d.lede}>
     Artificial turf in <PaintWord now>{name}.</PaintWord>
     <div slot="after" class="thero__acts">
@@ -158,7 +159,7 @@ const neighborhoods = (await visibleCommunities()).filter((c) => c.town.slug ===
 
   <TownNearby here={town} towns={towns} nearby={nearby} />
 
-  <RulesDrawer title={`${name}’s turf rules and water rates, in full`}>
+  <RulesDrawer title={`${poss(name)} turf rules and water rates, in full`}>
     <TownSheet town={name} county={countyLine(town.county)} region={{ label: REGIONS[town.region as keyof typeof REGIONS], href: `/areas/#region-${town.region}` }}
       rows={rows} checked={fmtDate(asOf)} sources={d.sources.length} />
     {items.map((it) => it.type === 'block'

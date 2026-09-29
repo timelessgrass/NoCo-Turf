@@ -24,10 +24,11 @@ import { visibleGuides, guideLabel } from '../../lib/visible';
 import { phoneHref, phoneDisplay } from '../../data/brief';
 
 const entries = await getCollection('services');
-/* "Read first": the rules, rebates and cost guides every service page leans on — at most six, however many
-   guides the site grows to (the rest are a click away on /guides/). */
-const READ_FIRST = ['rules-and-hoa', 'water', 'buying'];
-const guides = (await visibleGuides()).filter((g) => READ_FIRST.includes(g.topic.slug)).slice(0, 6);
+/* "Read first": the rules, rebates, water and cost guides every service page leans on, by name, in this order
+   (the rest are a click away on /guides/). One that isn't live is skipped. */
+const READ_FIRST = ['turf-rules-northern-colorado', 'hoa-turf-approval', 'turf-rebates-northern-colorado', 'water-savings', 'artificial-turf-cost', 'questions-to-ask-turf-installer'];
+const live = await visibleGuides();
+const guides = READ_FIRST.map((id) => live.find((g) => g.id === id)).filter((g) => g !== undefined);
 const draft = visibleServices.some((s) => !s.confirmed) || entries.some((e) => !isPublished(e.data));
 const crumbs = [{ name: 'Services', path: '/services/' }];
 const graph = [{
@@ -63,7 +64,7 @@ const general = SERVICE_SELL['artificial-turf-installation'];
     <section class="section section--tight ground-2 svx-read" aria-labelledby="svx-read-h">
       <div class="wrap svx-read__grid">
         <ServiceHead label="Before you decide" id="svx-read-h" lede="Rules, rebates and cost, explained plainly, with sources.">
-          The guides homeowners read first.
+          Read these before you decide.
         </ServiceHead>
         <ul class="svx-read__list" role="list">
           {guides.map((g) => {

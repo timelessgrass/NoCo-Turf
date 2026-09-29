@@ -80,6 +80,7 @@ import CommunityReview from '../../../components/CommunityReview.astro';
 import { visibleTownServices, visibleCommunities } from '../../../lib/visible';
 import { assertAreaChildren } from '../../../lib/content-policy.mjs';
 import { faqGraph, townServiceGraph, communityGraph } from '../../../lib/schema';
+import { poss } from '../../../lib/inline-links';
 import { photo as photoById } from '../../../data/photos';
 import { scene } from '../../../data/scenes';
 import { phoneHref, phoneDisplay } from '../../../data/brief';
@@ -147,7 +148,7 @@ async function townServicePage() {
   const numbered = blocks.map((b, i) => ({ b, no: i + 1, id: `${b.kind}-${i + 1}` }));
   const rows = [
     ...numbered.map(({ b, id: bid }) => ({ label: KIND_LABEL[b.kind] ?? b.kind, value: b.kicker, href: `#${bid}`, own: b.own })),
-    ...(codeRecs.length || lawRecs.length ? [{ label: 'Code', value: codeRecs.length ? `${name}’s turf code, quoted` : 'The Colorado rule', href: '#code', own: false }] : []),
+    ...(codeRecs.length || lawRecs.length ? [{ label: 'Code', value: codeRecs.length ? `${poss(name)} turf code, quoted` : 'The Colorado rule', href: '#code', own: false }] : []),
     ...(photo ? [{ label: 'Photo', value: photo.caption, href: '#photo', own: false }] : []),
   ];
 
@@ -297,7 +298,8 @@ const tsGood = ts && townGood
 
   <SellTrust town={name} />
 
-  {photo && <TownServicePhoto photo={photo} />}
+  {/* The hero already shows (and captions) the job photo: don't print it twice. */}
+  {photo && photo.src !== tsHero?.src && <TownServicePhoto photo={photo} />}
 
   <SellGood place={name} answer={d.answer} good={tsGood} />
   {golfHere.length > 0 && (
@@ -308,7 +310,10 @@ const tsGood = ts && townGood
 
   <TownServiceAround service={meta.crumb} town={name} nearby={nearby.map((n) => ({ ...n, line: '' }))} others={others.map((o, i) => ({ ...o, line: i === 0 ? (TOWN_SELL[town.slug]?.hook ?? '') : '' }))} />
 
-  <TownServiceGuides topic={meta.topic} />
+  {service.slug === 'playground-turf'
+    ? <TownServiceGuides topic={meta.topic} picks={['playground-turf-vs-mulch', 'swing-set-on-artificial-turf', 'how-hot-does-artificial-turf-get', 'is-artificial-turf-toxic']}
+        heading="Read up on turf under a play set." lede="What goes under a swing set, turf or mulch, how hot it gets, and what it’s made of." />
+    : <TownServiceGuides topic={meta.topic} />}
 
   {d.faq?.length > 0 && (
     <section class="section ground-2" id="faq" aria-labelledby="faq-h">
@@ -321,7 +326,7 @@ const tsGood = ts && townGood
     </section>
   )}
 
-  <RulesDrawer title={`${name}’s rules for ${meta.crumb.toLowerCase()}, in full`}>
+  <RulesDrawer title={`${poss(name)} rules for ${meta.crumb.toLowerCase()}, in full`}>
     <div class="wrap drawer__card">
       <TownServiceCard service={{ name: service.name, href: `/services/${service.slug}/` }}
         town={{ name, href: `/areas/${town.slug}/`, county: countyLine(town.county) }}
@@ -377,7 +382,7 @@ const tsGood = ts && townGood
     </section>
   )}
 
-  <RulesDrawer title={`${cm.name}’s design rules, in full`}>
+  <RulesDrawer title={`${poss(cm.name)} design rules, in full`}>
     <div class="wrap drawer__card">
       <TownServiceCard axis="Community" ownIn={cm.name} service={{ name: cm.name, href: '#facts' }}
         town={{ name: cm.townName, href: `/areas/${cm.town.slug}/`, county: cm.county }}

@@ -100,7 +100,7 @@ What helps:
 
 **Your HOA.** Colorado law says an HOA's landscaping rules may not prohibit artificial turf in the backyard of a detached single-family home, although the HOA can still adopt design and aesthetic guidelines. Colorado law also makes unenforceable any HOA covenant or special-district rule that prohibits artificial turf in the backyard of a residential property, except for attached homes and timeshare associations. On an attached home that shares a wall, the HOA may restrict artificial turf to rear yards.
 
-**Firestone.** The town requires a permit before artificial turf is installed, with no fee for single-family homes. It limits artificial turf on single-family lots to 75% of the rear or side yard and requires at least 25% of the yard to stay permeable living or organic landscape, so a whole-backyard dog yard there is planned around that.
+**Firestone.** The town requires a permit before artificial turf is installed, with no fee for single-family homes. It limits artificial turf on single-family lots to 75% of the rear or side yard and requires at least 25% of the yard to stay permeable living or organic landscape. It also requires half of the combined side and rear yards to be live plants, which turf can't count toward, so a whole-backyard dog yard there is planned around that.
 
 **The turf itself.** Since January 1, 2026, Colorado law bars anyone from installing artificial turf that contains intentionally added PFAS chemicals. Ask for the product's documentation before you sign.
 

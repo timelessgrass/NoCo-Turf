@@ -194,7 +194,7 @@ const sell = SERVICE_SELL[service.slug];
     </section>
   )}
 
-  <RulesDrawer title={`More about ${service.name.toLowerCase()}, with the rules and sources`} label="Go deeper">
+  <RulesDrawer title={`More about ${service.name.charAt(0).toLowerCase() + service.name.slice(1)}, with the rules and sources`} label="Go deeper">
     <div class="wrap svdeep">
       <article class="prose svprose">
         <Content />

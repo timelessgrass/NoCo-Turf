@@ -8,22 +8,23 @@
  * them visible, the hub's own first guides; with no hub visible either, nothing.
  */
 import Icon from './Icon.astro';
+import { smartQuotes as smart } from '../lib/inline-links';
 import { visibleTopics } from '../lib/visible';
-interface Props { topic: string; id?: string; picks?: string[] }
-const { topic, id = 'read', picks } = Astro.props;
+/* `heading` and `lede` replace the topic's when the picks come from several topics (the words must match the list). */
+interface Props { topic: string; id?: string; picks?: string[]; heading?: string; lede?: string }
+const { topic, id = 'read', picks, heading, lede } = Astro.props;
 const topics = await visibleTopics();
 const picked = picks ? picks.map((p) => topics.flatMap((x) => x.guides).find((g) => g.id === p)).filter((g) => !!g) : [];
 const t = topics.find((x) => x.slug === topic) ?? topics.find((x) => x.guides.some((g) => picked.includes(g)));
 const SHOW = 4;
 const list = (picked.length ? picked : t ? t.guides.slice(0, SHOW) : []).map((g) => ({ href: `/guides/${g!.id}/`, q: (g!.entry.data as any).answer.question as string }));
-const smart = (s: string) => s.replace(/(\w)'(\w)/g, '$1’$2');
 ---
 {t && (
   <section class="section section--tight tsvread" id={id} aria-labelledby={`${id}-h`}>
     <div class="wrap tsvread__grid">
       <header class="tsvread__head">
-        <h2 id={`${id}-h`} class="tsvread__h">Read up on {t.name.charAt(0).toLowerCase() + t.name.slice(1)}.</h2>
-        <p class="tsvread__lede">{t.lede}</p>
+        <h2 id={`${id}-h`} class="tsvread__h">{heading ?? `Read up on ${t.name.charAt(0).toLowerCase() + t.name.slice(1)}.`}</h2>
+        <p class="tsvread__lede">{lede ?? t.lede}</p>
         <a class="btn btn--line tsvread__all" href={`/guides/${t.slug}/`}>{t.guides.length === 1 ? 'The guide' : `All ${t.guides.length} guides`} <Icon name="arrow" /></a>
       </header>
       <ol class="tsvread__list" role="list">

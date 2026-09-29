@@ -29,7 +29,7 @@ export const TOWN_SELL: Record<string, TownSell> = {
   },
   'firestone-co': {
     hook: 'We build turf lawns, dog runs and putting greens in Firestone, a town with its own turf rules and permit.',
-    good: ['Every Firestone turf job needs a Town permit, free for houses.', 'Turf can cover up to 75% of a back or side yard, and in practice a little less.', 'Firestone sets minimums for the turf, base and infill. Ask any installer to show their spec meets them.'],
+    good: ['Every Firestone turf job needs a Town permit, free for houses.', 'Turf can cover up to 75% of a back or side yard, but half of those yards must stay live plants, so plan on about half.', 'Firestone sets minimums for the turf, base and infill. Ask any installer to show their spec meets them.'],
   },
   'fort-collins-co': {
     hook: 'We build turf lawns, dog runs and putting greens across Fort Collins, made for its clay and Front Range snow.',

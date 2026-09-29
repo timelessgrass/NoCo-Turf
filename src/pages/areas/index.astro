@@ -36,12 +36,12 @@ const N = numberWord(n);
 const countiesOf = (ts: typeof towns) => [...new Set(ts.flatMap((t) => t.county.split(/\s*&\s*/)))].map((c) => `${c} County`);
 
 const title = `Artificial Turf in ${n} Northern Colorado Towns | NoCo Turf Co.`;
-const description = `Artificial turf, putting greens and dog yards in ${n} Northern Colorado towns, Wellington to Dacono. Find your town, see what it allows, book a yard walk.`;
+const description = `Artificial turf, putting greens and dog yards in ${n} Northern Colorado towns, Wellington to Longmont. Find your town, see what it allows, book a yard walk.`;
 const crumbs = [{ name: 'Areas', path: '/areas/' }];
 ---
 <Base title={title} description={description} crumbs={crumbs}>
   <PageHero label="Where we work · Northern Colorado" crumbs={crumbs}
-    lede={`${N} towns from Wellington to Dacono. Pick yours to see what we build there, what your town and HOA allow, and how to get started.`}>
+    lede={`${N} towns from Wellington to Longmont. Pick yours to see what we build there, what your town and HOA allow, and how to get started.`}>
     Turf and putting greens across <PaintWord now>Northern Colorado.</PaintWord>
     <div slot="after" class="hub__after">
       <div class="hub__acts">

@@ -121,7 +121,7 @@ What that means for a lawn:
 - **The base has to be flat before the turf is.** Crushed rock, spread and compacted, is what the turf lies on. Every dip in it shows through.
 - **Edges and seams have to hold.** Turf moves at its edges first: along concrete, rock borders and the fence line.
 
-Platteville's town code reads like a list of what goes wrong. It calls artificial turf a public nuisance when it wasn't installed professionally to the manufacturer's specifications: seams that aren't tight, edges that aren't fastened, no aggregate base, or turf that isn't laid flat and has waves.
+One nearby town's code, Platteville's, reads like a list of what goes wrong. It calls artificial turf a public nuisance when it wasn't installed professionally to the manufacturer's specifications: seams that aren't tight, edges that aren't fastened, no aggregate base, or turf that isn't laid flat and has waves.
 
 ## How does a lawn replacement go, from old grass to infill?
 
@@ -135,7 +135,7 @@ Every install follows roughly the same order. What happens inside each step chan
 6. **Lay the turf.** Rolls go down with the blades running one way, seams are joined, and the edges are secured against concrete, rock or header.
 7. **Infill and brush.** Infill is spread and worked in with a power broom, which stands the blades up and weighs the turf down.
 
-The cross-section further down this page shows those layers in order, from the clay up.
+The cross-section higher up this page shows those layers in order, from the clay up.
 
 ## Can I put turf in the front yard?
 

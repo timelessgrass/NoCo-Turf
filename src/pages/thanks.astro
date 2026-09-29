@@ -29,7 +29,7 @@ const n = { reply: 2, photos: responseTime ? 3 : 2, call: (responseTime ? 3 : 2)
 const crumbs = [{ name: 'Thanks', path: '/thanks/' }];
 ---
 <Base
-  title="Thanks — we've got your request | NoCo Turf Co."
+  title="Thanks, we’ve got your request | NoCo Turf Co."
   description="Your yard walk request reached NoCo Turf Co. Here's what happens next, how to send photos of the yard by text, and the number to call if you'd rather talk now."
   noindex
   crumbs={crumbs}
@@ -66,7 +66,7 @@ const crumbs = [{ name: 'Thanks', path: '/thanks/' }];
       </div>
 
       <aside class="th-read" aria-labelledby="read-h">
-        <p class="label" id="read-h">While you wait</p>
+        <p class="label" id="read-h">Worth a read</p>
         <ul role="list">
           {reads.map((r) => (
             <li><a class="th-read__link" href={r.href}><span class="label">{r.k}</span><span class="th-read__t">{r.t}</span><Icon name="arrow" size={18} /></a></li>

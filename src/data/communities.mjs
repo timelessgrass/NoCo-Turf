@@ -67,7 +67,7 @@ export function parseCommunityId(id) {
 export const communityPath = (town, slug) => `/areas/${town}/${slug}/`;
 
 /** The guides a community page recommends, each only while visible, then the topic hub (src/data/guide-topics.ts). */
-export const COMMUNITY_GUIDES = ['putting-green-design-ideas', 'outdoor-living-with-artificial-turf'];
+export const COMMUNITY_GUIDES = ['putting-green-design-ideas', 'backyard-putting-green-size'];
 export const COMMUNITY_TOPIC = 'putting-greens';
 /** The town × service pages a community page links under "Around", each only while visible. */
 export const COMMUNITY_SERVICES = ['putting-greens', 'pet-turf'];

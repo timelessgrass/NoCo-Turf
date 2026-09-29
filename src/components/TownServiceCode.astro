@@ -6,13 +6,14 @@
  * putting green or a playground). The page passes only records its blocks have not already shown, so a rule
  * is never printed twice; with none left, the section is not drawn.
  */
+import { poss } from '../lib/inline-links';
 import TownCode from './TownCode.astro';
 import TownStatute from './TownStatute.astro';
 import type { LayerRecord } from './TownData';
 interface Props { town: string; code: LayerRecord[]; law: LayerRecord[]; lawLine?: string; asOf: string; id?: string }
 const { town, code, law, lawLine = '', asOf, id = 'code' } = Astro.props;
-const heading = code.length && law.length ? `${town}’s turf code, and the Colorado rule under it.`
-  : code.length ? `${town}’s turf code, word for word.`
+const heading = code.length && law.length ? `${poss(town)} turf code, and the Colorado rule under it.`
+  : code.length ? `${poss(town)} turf code, word for word.`
   : 'What Colorado law says about this use.';
 ---
 {(code.length > 0 || law.length > 0) && (

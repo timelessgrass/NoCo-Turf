@@ -38,7 +38,7 @@ const crumbs = [{ name: 'Terms', path: '/terms/' }];
   description="The terms for using nocoturf.com, in plain English: what the site promises and what it doesn't, where warranties live, and why Colorado law applies to it."
   crumbs={crumbs}
 >
-  <PageHero label="Terms" crumbs={crumbs} compact lede={`The terms for using ${name}’s website. They cover the site — the pages, the guides and the estimate form — not the work on your yard, which is agreed separately.`}>
+  <PageHero label="Terms" crumbs={crumbs} compact lede={`The terms for using ${name}’s website. They cover the site (the pages, the guides and the estimate form), not the work on your yard, which is agreed separately.`}>
     Using this site: what it promises, and <PaintWord now>what it doesn’t.</PaintWord>
   </PageHero>
 
@@ -48,14 +48,14 @@ const crumbs = [{ name: 'Terms', path: '/terms/' }];
       <ul>
         <li>The site is general information. It isn’t a quote, a contract or legal advice.</li>
         <li>Prices, schedules and any warranty for your project are agreed with {name} in writing.</li>
-        <li>Local rules change — check with your town or HOA before you rely on a summary.</li>
+        <li>Local rules change, so check with your town or HOA before you rely on a summary.</li>
         <li>Colorado law applies.</li>
       </ul>
     </div>
 
     <section id="who" aria-labelledby="who-h">
       <h2 id="who-h">This site is run by {name} in Colorado.</h2>
-      <p>www.nocoturf.com is run by {name} — the trading name of {legal}, a Colorado limited liability company{reg && <> (<a href={reg.lookup_url} rel="noopener">Colorado Secretary of State ID {reg.sos_id}</a>)</>}. “We” and “us” here mean {name}; “you” means anyone using the site. By using the site you agree to these terms.</p>
+      <p>www.nocoturf.com is run by {name}, the trading name of {legal}, a Colorado limited liability company{reg && <> (<a href={reg.lookup_url} rel="noopener">Colorado Secretary of State ID {reg.sos_id}</a>)</>}. “We” and “us” here mean {name}; “you” means anyone using the site. By using the site you agree to these terms.</p>
     </section>
 
     <section id="not-a-quote" aria-labelledby="not-a-quote-h">
@@ -72,7 +72,7 @@ const crumbs = [{ name: 'Terms', path: '/terms/' }];
 
     <section id="warranty" aria-labelledby="warranty-h">
       <h2 id="warranty-h">Warranties live in writing between you and {name}, not on this site.</h2>
-      <p>This website doesn’t promise anything about a product or an installation. Any warranty on turf or workmanship is a matter between you and {name} — and, for the turf itself, its manufacturer — set out in writing for your project.</p>
+      <p>This website doesn’t promise anything about a product or an installation. Any warranty on turf or workmanship is a matter between you and {name} (and, for the turf itself, its manufacturer), set out in writing for your project.</p>
     </section>
 
     <section id="as-is" aria-labelledby="as-is-h">
@@ -117,7 +117,7 @@ const crumbs = [{ name: 'Terms', path: '/terms/' }];
     form={false}
     title="Here about a yard, not the"
     payoff="fine print?"
-    lede="Book a yard walk and tell us what the yard is for — or call and talk it through."
+    lede="Book a yard walk and tell us what the yard is for, or call and talk it through."
   />
 </Base>
 

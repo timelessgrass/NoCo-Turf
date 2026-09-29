@@ -54,7 +54,7 @@ const providers = order.map((name) => {
         );
       })}
       {p.notes.map((r) => (
-        <p class="twat__note">{r.fact} <a href={r.source_url} rel="noopener">Source<Icon name="external" size={12} /></a></p>
+        <p class="twat__note">{r.fact} <a href={r.source_url} rel="noopener" aria-label={`Source: ${r.source_label ?? r.provider ?? 'water provider'}`}>Source<Icon name="external" size={12} /></a></p>
       ))}
     </div>
   ))}

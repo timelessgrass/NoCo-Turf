@@ -81,7 +81,7 @@ export const PHOTOS: Photo[] = [
   { id: 'playset', src: playset, caption: 'Turf lawn with a play set', place: 'Near Windsor', month: '2025-08',
     alt: 'A curving artificial turf lawn edged by a concrete curb, with a wooden playset and river rock, near Windsor, Colorado',
     use: 'play', original: 'IMG_0794.HEIC', focus: '45% 65%' },
-  { id: 'side-yard', src: sideYard, caption: 'Side-yard turf along the walkway', place: 'Greeley', month: '2025-08',
+  { id: 'side-yard', src: sideYard, caption: 'Side-yard turf along the walkway', place: 'Near Greeley', month: '2025-08',
     alt: 'A strip of artificial turf running down a side yard between a white gate and a concrete walk, in west Greeley, Colorado',
     use: 'lawn', original: 'IMG_0769.HEIC', focus: '45% 55%' },
   { id: 'rock-border', src: rockBorder, caption: 'Turf lawn edged with river rock', place: 'Near Berthoud', month: '2025-09',

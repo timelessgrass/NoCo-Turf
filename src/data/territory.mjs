@@ -20,7 +20,7 @@
 
 export const REGIONS = {
   'poudre': 'Fort Collins & the Poudre',
-  'windsor-johnstown': 'Windsor, Timnath & Johnstown',
+  'windsor-johnstown': 'Windsor, Timnath, Johnstown & Severance',
   'loveland-berthoud': 'Loveland & Berthoud',
   'greeley-east-weld': 'Greeley & East Weld',
   'carbon-valley-longmont': 'Longmont & Carbon Valley',

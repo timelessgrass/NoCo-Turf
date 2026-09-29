@@ -45,7 +45,7 @@ const crumbs = [{ name: 'Privacy', path: '/privacy/' }];
   description="What nocoturf.com collects and why, in plain English: no ad cookies, no analytics yet, and an estimate form that emails your answers to NoCo Turf Co."
   crumbs={crumbs}
 >
-  <PageHero label="Privacy" crumbs={crumbs} compact lede={`How ${name}’s website handles what you type into it — written to match what the site actually does today.`}>
+  <PageHero label="Privacy" crumbs={crumbs} compact lede={`How ${name}’s website handles what you type into it, written to match what the site actually does today.`}>
     What happens to what you type into this site, in <PaintWord now>plain English.</PaintWord>
   </PageHero>
 
@@ -55,7 +55,7 @@ const crumbs = [{ name: 'Privacy', path: '/privacy/' }];
       <ul>
         <li>Reading the site sends only what every browser sends to any website.</li>
         <li>No advertising cookies, and no analytics installed.</li>
-        <li>The estimate form sends your answers to {name} — nothing is sold.</li>
+        <li>The estimate form sends your answers to {name}. Nothing is sold.</li>
         <li>Texts only if you ask for a text.</li>
         {call && <li>Questions? Call <a href={call.href} data-cta="privacy-tldr-call">{call.label}</a>.</li>}
       </ul>
@@ -63,8 +63,8 @@ const crumbs = [{ name: 'Privacy', path: '/privacy/' }];
 
     <section id="who" aria-labelledby="who-h">
       <h2 id="who-h">This page covers this website and its estimate form.</h2>
-      <p>This website, www.nocoturf.com, is run by {name} — the trading name of {legal}, a Colorado limited liability company{reg && <> (<a href={reg.lookup_url} rel="noopener">Colorado Secretary of State ID {reg.sos_id}</a>)</>}. On this page, {name} is “we” and “us”.</p>
-      <p>It covers what happens when you read the site and when you send the estimate form. It doesn’t cover the Google, Facebook or Instagram pages we link to — those companies’ own policies apply there.</p>
+      <p>This website, www.nocoturf.com, is run by {name}, the trading name of {legal}, a Colorado limited liability company{reg && <> (<a href={reg.lookup_url} rel="noopener">Colorado Secretary of State ID {reg.sos_id}</a>)</>}. On this page, {name} is “we” and “us”.</p>
+      <p>It covers what happens when you read the site and when you send the estimate form. It doesn’t cover the Google, Facebook or Instagram pages we link to. Those companies’ own policies apply there.</p>
       <p>The site is meant for adults planning work on a property. It isn’t aimed at children under 13, and we don’t knowingly collect their information.</p>
     </section>
 
@@ -82,19 +82,19 @@ const crumbs = [{ name: 'Privacy', path: '/privacy/' }];
 
     <section id="form" aria-labelledby="form-h">
       <h2 id="form-h">The estimate form sends your answers to {name} by email.</h2>
-      <p>When you press <strong>Book a yard walk</strong> on the form, it sends:</p>
+      <p>When you press <strong>Book my yard walk</strong> on the form, it sends:</p>
       <dl>
         <dt>Your answers</dt>
         <dd>What the yard is for, your town, your ZIP code if you add it, the rough size, whether there’s an HOA, and the timing.</dd>
         <dt>How to reach you</dt>
         <dd>Your name, phone number, email if you add it, whether you’d like a call or a text, and how you heard about us if you say.</dd>
         <dt>Two things the page adds</dt>
-        <dd>The address of the page you sent it from, and how long the form was open — a simple check that a person, not a program, filled it in.</dd>
+        <dd>The address of the page you sent it from, and how long the form was open: a simple check that a person, not a program, filled it in.</dd>
       </dl>
       <p>There’s also a hidden box that people never see. If something fills it in, the request is treated as spam and isn’t passed on.</p>
       <h3>How it travels</h3>
       <p>The form goes to a small program on Netlify’s servers (a Netlify Function), which passes it to <a href="https://www.make.com/en/privacy-notice" rel="noopener">Make</a>, an automation service. Make emails the request to {name} and keeps a record of it so it can be followed up.</p>
-      <p>The Netlify function doesn’t store your answers. If a request can’t be passed on, it logs that the send failed — without your details — and the page asks you to call instead, so nothing is lost without you knowing.</p>
+      <p>The Netlify function doesn’t store your answers. If a request can’t be passed on, it logs that the send failed, without your details, and the page asks you to call instead, so nothing is lost without you knowing.</p>
       <p>There’s no file upload, no account and no payment anywhere on this site.</p>
     </section>
 
@@ -133,7 +133,7 @@ const crumbs = [{ name: 'Privacy', path: '/privacy/' }];
 
     <section id="changes" aria-labelledby="changes-h">
       <h2 id="changes-h">If the site changes, this page changes with it.</h2>
-      <p>When the site starts doing something new with information — adding analytics, for example — this page will be updated and re-dated. The rules for using the site itself are on the <a href="/terms/">terms page</a>.</p>
+      <p>When the site starts doing something new with information (adding analytics, for example), this page will be updated and re-dated. The rules for using the site itself are on the <a href="/terms/">terms page</a>.</p>
       <p class="co-legal-dated">Effective {DATED}.</p>
     </section>
   </CoLegal>
