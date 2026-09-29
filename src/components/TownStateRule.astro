@@ -8,6 +8,7 @@
  *   extra  — HB21-1229's history line, only where a town record cites it
  * `heading` lets a town's own hoa block (own: false) title the band where that block stood; the body never changes.
  */
+import { liveHref } from '../lib/live';
 import Icon from './Icon.astro';
 import PaintWord from './PaintWord.astro';
 import { rec, cite, fmtDate, HOA_CORE, type LayerRecord } from './TownData';
@@ -24,6 +25,8 @@ const CLAUSE: Record<string, string> = {
 };
 const clauses = [...HOA_CORE.slice(1), ...extra].map((id) => rec(id)).filter((r): r is LayerRecord => !!r && !!CLAUSE[r.id]);
 const bill = lead?.source_label.match(/\b(?:added|amended) by ([HS]B\d{2}-\d{3,4})/)?.[1] ?? null;
+/* The HOA approval guide, while it is live (src/lib/live.ts). */
+const hoaGuide = await liveHref('/guides/hoa-turf-approval/');
 ---
 {lead && (
   <section class="tsr on-slab" id="state-rule" aria-labelledby="state-rule-h">
@@ -35,9 +38,9 @@ const bill = lead?.source_label.match(/\b(?:added|amended) by ([HS]B\d{2}-\d{3,4
             ? <h2 id="state-rule-h" class="tsr__h">{heading}</h2>
             : <h2 id="state-rule-h" class="tsr__h">On a detached home, an HOA can shape backyard turf. <PaintWord text>It can’t ban it.</PaintWord></h2>}
           <p class="lede tsr__lede">{lead.fact}</p>
-          <p class="tsr__acts">
-            <a class="btn btn--line tsr__btn" href="/guides/hoa-turf-approval/">How HOA approval works <Icon name="arrow" /></a>
-          </p>
+          {hoaGuide && <p class="tsr__acts">
+            <a class="btn btn--line tsr__btn" href={hoaGuide}>How HOA approval works <Icon name="arrow" /></a>
+          </p>}
         </div>
         <figure class="tsr__statute rise">
           <figcaption class="tsr__cite">

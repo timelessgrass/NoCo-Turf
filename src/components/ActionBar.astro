@@ -1,23 +1,53 @@
 ---
 /** Spine beat 10: the persistent mobile conversion layer. Visible without JS, 44px+ targets,
- *  clears the home indicator, and its height is reserved (body padding-bottom: var(--bar-h)). */
+ *  clears the home indicator, and its height is reserved (body padding-bottom: var(--bar-h)).
+ *  While the hero's own Book and Call buttons are on screen the bar steps aside, so a phone never shows the
+ *  same two buttons twice (Ty, 2026-09-29); it slides in once they scroll away. A page with no hero buttons,
+ *  or a browser without JS or IntersectionObserver, just shows it. */
 import Icon from './Icon.astro';
 import { phoneHref, phoneDisplay } from '../data/brief';
 ---
-<div class="abar" role="region" aria-label="Call or book">
+<div class="abar" role="region" aria-label="Call or book" data-abar>
   {phoneHref && <a class="abar__btn abar__btn--call" href={phoneHref} data-cta="bar-call"><Icon name="phone" size={19} /><span>Call</span></a>}
   <a class="abar__btn abar__btn--quote" href="/contact/#estimate" data-cta="bar-quote">Book a yard walk</a>
 </div>
+<script is:inline>
+  // Inline, right after the bar (Base puts it after <main>, so the hero is already parsed): the bar is set before the
+  // first paint, never shown and then slid away. Only button-styled Call and Book links in the hero count, so a plain
+  // "Call us" text link doesn't hide the bar's Book button.
+  (() => {
+    const bar = document.currentScript && document.currentScript.previousElementSibling;
+    const hero = [...document.querySelectorAll(':is(.hero, .ph) :is(a.btn[href^="tel:"], a.btn[href*="#estimate"])')];
+    if (!bar || !hero.length || !('IntersectionObserver' in window)) return;
+    bar.setAttribute('data-away', '');
+    const onScreen = new Set();
+    const io = new IntersectionObserver((entries) => {
+      for (const e of entries) {
+        if (e.isIntersecting) onScreen.add(e.target);
+        else onScreen.delete(e.target);
+      }
+      bar.toggleAttribute('data-away', onScreen.size > 0);
+      if (!bar.hasAttribute('data-ready')) requestAnimationFrame(() => bar.setAttribute('data-ready', ''));
+    });
+    hero.forEach((el) => io.observe(el));
+  })();
+</script>
 <style>
   .abar { display: none; }
   @media (max-width: 899px) {
     .abar { display: grid; grid-template-columns: auto 1fr; gap: 8px; position: fixed; inset: auto 0 0; z-index: 45;
       padding: 8px 10px calc(8px + env(safe-area-inset-bottom)); background: rgb(19 18 15 / 0.94); box-shadow: 0 -1px 0 rgb(var(--bone-rgb) / 0.1); }
+    .abar[data-away] { transform: translateY(calc(100% + 2px)); visibility: hidden; }
     @supports (backdrop-filter: blur(1px)) { .abar { background: rgb(19 18 15 / 0.82); backdrop-filter: blur(14px) saturate(1.3); } }
     .abar__btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 52px; padding: 0 20px; border-radius: var(--r-control);
       font-family: var(--font-display); font-weight: 740; font-stretch: 108%; text-decoration: none; transition: transform var(--t1) var(--ease); }
     .abar__btn:active { transform: scale(0.97); }
     .abar__btn--call { color: var(--bone); box-shadow: inset 0 0 0 1.5px rgb(var(--bone-rgb) / 0.5); }
     .abar__btn--quote { background: var(--paint); color: var(--ink); }
+  }
+  /* Slide, don't pop: in on the way down, out (after the slide) on the way back up. Never on the first paint. */
+  @media (max-width: 899px) and (prefers-reduced-motion: no-preference) {
+    .abar[data-ready] { transition: transform var(--t3) var(--ease), visibility 0s linear 0s; }
+    .abar[data-ready][data-away] { transition: transform var(--t3) var(--ease), visibility 0s linear var(--t3); }
   }
 </style>

@@ -1,6 +1,6 @@
 ---
 /**
- * The legal document frame for /privacy/ and /terms/: the "Draft for owner review" note first, then a
+ * The legal document frame for /privacy/ and /terms/: the effective-date note first, then a
  * numbered contents list beside the text, like the schedule on a spec sheet. Each <section> in the slot
  * carries an id and an <h2>; the numbers come from a CSS counter so they can't drift from the contents list.
  *
@@ -10,13 +10,13 @@
  *
  * Inline helpers for the slot (styled here):
  *   <div class="co-tldr">…</div>                     the short version, in a panel
- *   <span class="co-confirm">Owner to confirm</span>  a line NoCo has not yet approved
+ *   <span class="co-confirm">Owner to confirm</span>  a line NoCo has not yet approved (none since adoption, 2026-09-29)
  */
 interface Props {
   sections: { id: string; title: string }[];
-  /** 'September 24, 2026' — the date of this draft */
+  /** 'September 29, 2026': the date the page took effect (adopted for launch, Ty for Brian) */
   dated: string;
-  /** what the note says the draft covers */
+  /** one plain line on what the page covers */
   what: string;
 }
 const { sections, dated, what } = Astro.props;
@@ -25,8 +25,8 @@ const { sections, dated, what } = Astro.props;
   <div class="co-legal__note" role="note">
     <svg class="co-legal__mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 27.5C5 14 12 5.5 27 5" /></svg>
     <div>
-      <p class="label">Draft for owner review · {dated}</p>
-      <p class="co-legal__note-text">{what} NoCo Turf Co. has not yet reviewed or adopted this draft, and it is not legal advice. Lines marked <span class="co-confirm">Owner to confirm</span> are decisions only NoCo can make.</p>
+      <p class="label">Effective {dated}</p>
+      <p class="co-legal__note-text">{what}</p>
     </div>
   </div>
 

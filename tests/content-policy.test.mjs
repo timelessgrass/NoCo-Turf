@@ -115,7 +115,9 @@ test('a clean draft passes, and its unmet gate is a warning that prints what Bri
   write('src/content/towns/fort-collins-co.json', town('fort-collins-co'));
   const r = run();
   assert.equal(r.status, 0, r.out);
-  assert.match(r.out, /town gate not met yet \(draft\): .*Brian hasn't confirmed NoCo works Fort Collins.*no photograph from Fort Collins.*no job or review from Fort Collins/);
+  assert.match(r.out, /town gate not met yet \(draft\): .*Brian hasn't confirmed NoCo works Fort Collins/);
+  assert.match(r.out, /no photo from Fort Collins yet/, 'a photo is a to-do, not the gate');
+  assert.match(r.out, /no job or review from Fort Collins yet/, 'so is a job');
   assert.match(r.out, /needs from Brian: One Fort Collins job with before and after photos/);
   assert.match(r.out, /fort-collins-co\s+draft\s+3 blocks · 0 own · not confirmed · no local photo — gate not yet/, 'own counts substantive blocks only, as the gate does');
   assert.match(r.out, /windsor-co\s+—\s+no record yet/);
@@ -145,7 +147,7 @@ test('a published town that fails the gate fails the check', (t) => {
   write('src/content/towns/fort-collins-co.json', town('fort-collins-co', { status: 'published' }));
   const r = run();
   assert.equal(r.status, 1, r.out);
-  assert.match(r.out, /published but fails the town gate: .*no photograph from Fort Collins/);
+  assert.match(r.out, /published but fails the town gate: .*Brian hasn't confirmed NoCo works Fort Collins/);
 });
 
 test('"Erie" fails — NoCo never names a TIMELESS town, even hidden behind a soft hyphen', (t) => {
@@ -317,11 +319,11 @@ const GUIDE = {
 test('a published guide needs one of Brian\'s job photos and only confirmed related services; his open questions stay listed', (t) => {
   const { write, run } = fixture(t);
   const body = '## Does Fort Collins allow turf?\n\nOn existing lots, yes.';
-  write('src/content/guides/turf-rules-northern-colorado.md', guide({ ...GUIDE, status: 'published' }, body));
+  write('src/content/guides/turf-rules-northern-colorado.md', guide({ ...GUIDE, status: 'published', related: { services: ['turf-repair'], towns: ['fort-collins-co'] } }, body));
   const bare = run();
   assert.equal(bare.status, 1, bare.out);
   assert.match(bare.out, /published with no job photo of Brian's/);
-  assert.match(bare.out, /its related service pet-turf is not confirmed in src\/data\/services\.ts/);
+  assert.match(bare.out, /its related service turf-repair is not confirmed in src\/data\/services\.ts/);
 
   write('src/content/guides/turf-rules-northern-colorado.md', guide({ ...GUIDE, status: 'published', photos: ['dusk'], related: { services: [], towns: ['fort-collins-co'] }, needsFromBrian: ['How deep he digs in clay'] }, body));
   const ok = run();

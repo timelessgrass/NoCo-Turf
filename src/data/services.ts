@@ -30,13 +30,14 @@ export const SERVICES: Service[] = [
     slug: 'artificial-turf-installation',
     name: 'Artificial turf installation',
     formUse: 'Lawn replacement',
-    confirmed: false,
+    confirmed: true,
     preview: true,
     short: 'Front, back and side-yard lawns.',
     underneath: 'Green all year with no mowing or watering, on a base built to stay flat on our clay.',
     photo: 'fenced-yard',
     why: 'Head term in Colorado ("artificial turf" Trends avg 24 vs "fake grass" 3) — research/seo.md; carries The Build base cross-section',
     legacy: [
+      '/maintenance-services/',
       // '/services/artificial-turf-installation/' itself keeps its URL — never list a page as its own legacy path.
       '/services/artificial-turf-installation/residential-artificial-turf-installation/',
       '/services/artificial-turf-installation/site-preparation-for-turf/',
@@ -55,7 +56,7 @@ export const SERVICES: Service[] = [
     slug: 'pet-turf',
     name: 'Pet turf and dog runs',
     formUse: 'Pet turf',
-    confirmed: false,
+    confirmed: true,
     preview: true,
     short: 'Dog yards and runs that drain.',
     underneath: 'Drains fast and rinses clean, so there’s no mud, no yellow spots and no lingering smell.',
@@ -67,7 +68,7 @@ export const SERVICES: Service[] = [
     slug: 'putting-greens',
     name: 'Backyard putting greens',
     formUse: 'Putting green',
-    confirmed: false,
+    confirmed: true,
     preview: true,
     short: 'Backyard greens with cups and fringe.',
     underneath: 'A smooth, true roll, with the break and cups set where you want them.',
@@ -79,7 +80,7 @@ export const SERVICES: Service[] = [
     slug: 'playground-turf',
     name: 'Playground turf',
     formUse: 'Play area',
-    confirmed: false,
+    confirmed: true,
     preview: true,
     short: 'Play areas under swings and play sets.',
     underneath: 'Soft, clean and mud-free, with padding underneath matched to the height of the set.',
@@ -91,7 +92,7 @@ export const SERVICES: Service[] = [
     slug: 'commercial-turf',
     name: 'Commercial, HOA and sports turf',
     formUse: 'Commercial, HOA or sports',
-    confirmed: false,
+    confirmed: true,
     preview: true,
     short: 'HOA, park, school and sports turf.',
     underneath: 'Play areas, dog parks and fields that stay usable all year and stand up to heavy use.',
@@ -114,7 +115,9 @@ export const SERVICES: Service[] = [
     underneath: 'Flat, matted or smelly turf can often be brought back without replacing it.',
     photo: null,
     why: 'Legacy /maintenance-services/ URL; turf cleaner queries rising in Colorado — research/seo.md. Only if Brian still offers it',
-    legacy: ['/maintenance-services/'],
+    // At launch (2026-09-29) turf repair is unconfirmed, so its old URL lives with installation (docs/REDIRECTS.md
+    // holds). Move '/maintenance-services/' back here when Brian confirms repair and this page ships.
+    legacy: [],
   },
 ];
 

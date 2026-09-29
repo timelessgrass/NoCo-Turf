@@ -1,8 +1,8 @@
 /**
  * The differentiation gate (src/lib/town-gate.mjs, from ~/.claude/skills/site/reference/programmatic.md):
  * a town page publishes only with ≥3 substantive blocks, ≥2 of them true only of that town, every block other than
- * a job, photo or review sourced, Brian's word that NoCo works the town, a real photo from the town and a job or
- * review from it printed on the page (src/lib/local-proof.mjs, the 2026-09-28 doorway review).
+ * a job, photo or review sourced, and Brian's word that NoCo works the town. A photo and a job from the town are
+ * to-dos since the 2026-09-29 launch decision; they still gate the town × service and community pages.
  */
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -76,38 +76,30 @@ test('a place is named whole: Highland Meadows is not Mead', () => {
   assert.equal(namesPlace({ place: 'Near Mead and Firestone' }, 'Mead'), true);
   assert.equal(namesPlace({ place: 'Near Mead and Firestone' }, 'Firestone'), true);
   assert.equal(namesPlace({ place: '' }, 'Mead'), false);
-  const g = townGate(town(good(), 'mead-co'), { photos: [{ id: 'hm', place: 'Highland Meadows, Windsor' }], served: new Set(['mead-co']) });
-  assert.ok(g.reasons.some((r) => /no photograph from Mead/.test(r)), 'a Windsor neighborhood photo does not unlock Mead');
 });
 
-test('the photo must be from the town, the one the page shows: a Berthoud green is not proof of work in Windsor', () => {
-  const none = townGate(town(good(), 'mead-co'), { photos: PHOTOS, served: new Set(['mead-co']) });
-  assert.ok(none.reasons.some((r) => /no photograph from Mead/.test(r)), none.reasons.join('; '));
-  const unnamed = townGate(town(good()), { photos: [PHOTOS[1], PHOTOS[2]], served: SERVED });
-  assert.ok(unnamed.reasons.some((r) => /no photograph from Windsor/.test(r)), 'a photo with no place, or another town\'s, does not count');
-  const map = townGate(town(good()), { photos: new Map([['dusk', { use: 'putting-green', place: 'Near Windsor' }]]), served: SERVED });
-  assert.equal(map.pass, true, 'a Map of id → { place } works too (check-content reads photos.ts as text)');
-});
-
-test('a job or a review from the town is required, and it has to be real: own, substantive, naming the town', () => {
+test('a town page publishes on its research and Brian\'s word: a local photo and a job are to-dos, not the gate (2026-09-29)', () => {
   const research = [block('ordinance', true), block('utility', true), block('drought', false)];
-  const g = townGate(town(research), CTX);
-  assert.ok(g.reasons.some((r) => /no job or review from Windsor/.test(r)), g.reasons.join('; '));
-  assert.equal(townGate(town([...research, JOB]), CTX).pass, true);
-  const stub = (over) => townGate(town([...research, { ...JOB, ...over }]), CTX).pass;
-  assert.equal(stub({ paras: ['TBD.'] }), false, 'a placeholder job block');
-  assert.equal(stub({ own: false }), false, 'a job block not marked own');
-  assert.equal(stub({ h2: 'A backyard', paras: [WORDS.replace('Windsor', 'The')] }), false, 'a job block that never names the town');
+  assert.deepEqual(townGate(town(research, 'mead-co'), { served: new Set(['mead-co']) }), { pass: true, reasons: [] });
+  assert.equal(townGate(town(research), { photos: [], served: SERVED }).pass, true, 'no photo from the town');
+});
+
+test('a proof block has to be real: own, substantive, naming the place, a review linked (the rule for child pages)', () => {
+  const ok = (over) => proofBlocks([{ ...JOB, ...over }], 'Windsor').length === 1;
+  assert.equal(ok({}), true);
+  assert.equal(ok({ paras: ['TBD.'] }), false, 'a placeholder job block');
+  assert.equal(ok({ own: false }), false, 'a job block not marked own');
+  assert.equal(ok({ h2: 'A backyard', paras: [WORDS.replace('Windsor', 'The')] }), false, 'a job block that never names the town');
   const review = { ...JOB, kind: 'review', h2: 'Kim R. in Windsor', paras: ['Brian and his crew showed up on time and the new lawn looks great, the whole street has asked.'] };
-  assert.equal(stub(review), false, 'a review block with no link to where it was posted');
-  assert.equal(stub({ ...review, sources: ['https://g.page/r/example'] }), true, 'a linked review from the town counts');
+  assert.equal(ok(review), false, 'a review block with no link to where it was posted');
+  assert.equal(ok({ ...review, sources: ['https://g.page/r/example'] }), true, 'a linked review from the town counts');
   assert.equal(proofBlocks([JOB, { ...JOB, use: 'pet' }], 'Windsor', 'pet').length, 1, 'proofBlocks filters by use when given');
 });
 
 test('every missing piece is listed, so the reasons are the research to-do list', () => {
   const g = townGate({ slug: 'mead-co', blocks: [block('climate', false, { sources: [], layerRefs: [] })] }, { photos: PHOTOS });
   assert.equal(g.pass, false);
-  assert.equal(g.reasons.length, 6, g.reasons.join('; '));
+  assert.equal(g.reasons.length, 4, g.reasons.join('; '));
 });
 
 test('an empty or missing record, or no evidence at all, fails without throwing', () => {

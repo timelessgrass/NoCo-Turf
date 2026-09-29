@@ -104,9 +104,11 @@ the community's record.
 
 Schema: `src/content.config.ts` (`towns`). Gate: `src/lib/town-gate.mjs`: ≥3 substantive blocks (30+ words), ≥2 `own`,
 every research block sourced, Brian's word that NoCo works the town (`.site/truth/brief.json` `service_areas`: status
-CLIENT_CONFIRMED with a client `source` and `source_detail`; the agency's `operator_decision` never counts), a
-`src/data/photos.ts` photo whose `place` names the town (whole name: Highland Meadows is not Mead), and a job or review
-block from the town. Shared rules: `src/lib/local-proof.mjs`; why: `.site/decisions/2026-09-28-publish-gates.md`.
+CLIENT_CONFIRMED with a client `source` and `source_detail`; the agency's `operator_decision` never counts). Since
+launch (2026-09-29) a `src/data/photos.ts` photo whose `place` names the town (whole name: Highland Meadows is not
+Mead) and a job or review block from the town are to-dos check-content lists, not the town gate; they still gate the
+town × service and community pages. Shared rules: `src/lib/local-proof.mjs`; why:
+`.site/decisions/2026-09-28-publish-gates.md`.
 - A proof block (`kind` `job` or `review`) is `own`, names the place in its heading or text, runs to 30 words (a review
   to 12) and, for a review, links to where it was posted in `sources`. Put a job's season and size in words, or cite the
   layer record that holds the numbers: the numbers rule still applies. `use` names what was built.

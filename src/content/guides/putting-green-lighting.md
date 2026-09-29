@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: putting-greens
 kind: guide
 title: "Putting Green Lighting: Night Putting and Local Rules | NoCo Turf Co."
@@ -174,11 +174,11 @@ Outside the putting surface, and under the base before the turf goes down.
 
 - **Fixtures stand in the beds, boulders or hardscape beyond the fringe,** never in the putting surface or the fringe, where a stake means a hole in the turf and a fixture is something to trip on or putt into.
 - **Wire runs in conduit or sleeves laid before the base is compacted,** with the ends capped and marked on a drawing. Once the turf is seamed and infilled, getting a wire under it means cutting the green open.
-- **A wired cup light needs its sleeve and wire set with the cup,** because cups are set into the base ([how cups are placed](/guides/backyard-putting-green-size/)); one cup light sold for greens sets into a brass pour sleeve ([Main Place Lighting](https://shopmpl.com/products/usa-made-golf-cup-light-1)).
+- **A wired cup light needs its sleeve and wire set with the cup,** because cups are set into the base; one cup light sold for greens sets into a brass pour sleeve ([Main Place Lighting](https://shopmpl.com/products/usa-made-golf-cup-light-1)).
 - **Get a locate before trenching.** Colorado 811 says digging of any size needs a locate first and that privately owned lines aren't marked ([Colorado 811](https://colorado811.org/)), so an old sprinkler or landscape-light wire won't show up. Find those on the builder's drawings or from the sprinkler controller.
 - **Leave room for snow.** Fort Collins averages 51.4 inches of snow a year (NOAA climate normals), so keep short fixtures out of the spots where snow off the patio gets piled.
 
-On a new build or a full landscape job, the conduit belongs in the same step as the irrigation sleeves and the [base under the turf](/guides/what-base-goes-under-artificial-turf/); [the custom-home turf guide](/guides/custom-home-landscape-turf/) covers how that sequence fits the plan the town and HOA approve.
+On a new build or a full landscape job, the conduit belongs in the same step as the irrigation sleeves and the base under the turf, so it fits the plan the town and HOA approve.
 
 ## Does lighting a green need an electrical permit?
 
@@ -199,7 +199,7 @@ Every code below asks for shielded light; the details differ by town:
 | Unincorporated Larimer County | New and replacement exterior fixtures fully shielded so the lighting element can't be seen from on or beyond the property line, with a cut-off no more than 90 degrees from vertical ([R325.9](https://www.larimer.gov/sites/default/files/1-2024-building-code-amendments-final0.pdf)) | Ask Larimer County Building |
 | Unincorporated Weld County | In the A and E zones, light sources shielded so beams don't shine directly onto adjacent properties, and no colored lights that could pass for traffic signals ([Sec. 23-3-70](https://library.municode.com/co/weld_county/codes/charter_and_county_code?nodeId=CH23ZO_ARTIIIZODI_DIV1AAGZODI_S23-3-70BURE)) | Ask Weld County Planning |
 
-For a town not in the table, it depends on that town's code; ask its Planning department before buying fixtures. On an acreage lot, [where turf fits on a county lot](/guides/artificial-turf-on-acreage-lots/) covers the rest of the county picture.
+For a town not in the table, it depends on that town's code; ask its Planning department before buying fixtures.
 
 ## What will an HOA or metro district ask for?
 
@@ -215,7 +215,7 @@ Often approval first, and sometimes a curfew, a height limit or a wattage cap. F
 | Falcon Point (Firestone) | Small, low-wattage lights in the builder's style and aimed toward the home need no approval; high-wattage spotlights or floodlights do |
 | Spring Valley at Ute Creek (Longmont) | Lamps no brighter than a 100-watt incandescent; low landscape lighting used sparingly; security floodlighting and LED lighting called unacceptable |
 
-The rules differ enough that one fixture can pass in one place and fail in another: Timnath's code requires LED, while Spring Valley at Ute Creek's guidelines reject it. A lighting request usually goes in with the green's paperwork: each fixture's cut sheet (color temperature, lumens, shielding), a plan showing where each fixture stands and which way it aims, the timer setting, and the wire route. The rest of an architectural review packet is in [the HOA turf approval guide](/guides/hoa-turf-approval/).
+The rules differ enough that one fixture can pass in one place and fail in another: Timnath's code requires LED, while Spring Valley at Ute Creek's guidelines reject it. A lighting request usually goes in with the green's paperwork: each fixture's cut sheet (color temperature, lumens, shielding), a plan showing where each fixture stands and which way it aims, the timer setting, and the wire route.
 
 ## What should I ask whoever designs and wires the lights?
 
@@ -225,4 +225,4 @@ The rules differ enough that one fixture can pass in one place and fail in anoth
 - **"What color temperature, lumens and shielding does each fixture have?"** A good answer is a cut sheet that meets the town's code and the HOA's rule.
 - **"What turns the lights off?"** A good answer is a switch for the green and a timer set to the town's or the HOA's cutoff.
 
-More questions for the turf side are in [what to ask a turf installer](/guides/questions-to-ask-turf-installer/); the green itself is on the [putting greens page](/services/putting-greens/).
+The green itself is on the [putting greens page](/services/putting-greens/).

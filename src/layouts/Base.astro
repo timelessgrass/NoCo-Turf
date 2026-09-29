@@ -14,7 +14,7 @@ import '../styles/global.css';
 import SiteHeader from '../components/SiteHeader.astro';
 import SiteFooter from '../components/SiteFooter.astro';
 import ActionBar from '../components/ActionBar.astro';
-import { SITE, PRELAUNCH } from '../data/site';
+import { SITE, PRELAUNCH, SHOW_DRAFTS } from '../data/site';
 import brief, { fact, businessName, legalName, phone, email, socialProfiles, location } from '../data/brief';
 
 interface Props {
@@ -108,7 +108,7 @@ const jsonld = JSON.stringify({ '@context': 'https://schema.org', '@graph': node
   <body>
     <a class="skip" href="#main">Skip to content</a>
     <SiteHeader tone={tone} />
-    {draft && <p class="draft-ribbon" role="note">Draft preview — not published. Facts pending Brian's confirmation.</p>}
+    {draft && SHOW_DRAFTS && <p class="draft-ribbon" role="note">Draft preview — not published. Facts pending Brian's confirmation.</p>}
     <main id="main" class:list={{ 'main--under': tone !== 'photo' }}>
       <slot />
     </main>

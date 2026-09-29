@@ -1,6 +1,6 @@
 ---
 /**
- * /terms/ — DRAFT FOR OWNER REVIEW. Plain-English terms of use for the website only, under Colorado law.
+ * /terms/ — adopted for launch 2026-09-29 (Ty, for Brian). Plain-English terms of use for the website only, under Colorado law.
  * No warranty statement about products or installs: any warranty is between the customer and NoCo, in writing,
  * for their project (claims.json "NoCo's written warranty" is UNKNOWN — nothing here may imply its terms).
  * No invented address or email; contact is the phone (brief) and the form. Business name from the brief.
@@ -15,7 +15,7 @@ import brief, { fact, businessName, legalName, phoneHref, phoneDisplay } from '.
 const name = businessName ?? 'NoCo Turf Co.';
 const legal = legalName ?? 'NOCO Turf Co. LLC';
 const reg = fact<{ sos_id: string; lookup_url: string }>(brief.identity?.registration);
-const DATED = 'September 24, 2026';
+const DATED = 'September 29, 2026';
 
 const sections = [
   { id: 'who', title: 'Who we are' },
@@ -37,13 +37,12 @@ const crumbs = [{ name: 'Terms', path: '/terms/' }];
   title="Terms of Use: Plain-English Rules for This Site | NoCo Turf Co."
   description="The terms for using nocoturf.com, in plain English: what the site promises and what it doesn't, where warranties live, and why Colorado law applies to it."
   crumbs={crumbs}
-  draft
 >
-  <PageHero label="Terms · Draft for owner review" crumbs={crumbs} compact lede={`The terms for using ${name}’s website. They cover the site — the pages, the guides and the estimate form — not the work on your yard, which is agreed separately.`}>
+  <PageHero label="Terms" crumbs={crumbs} compact lede={`The terms for using ${name}’s website. They cover the site — the pages, the guides and the estimate form — not the work on your yard, which is agreed separately.`}>
     Using this site: what it promises, and <PaintWord now>what it doesn’t.</PaintWord>
   </PageHero>
 
-  <CoLegal sections={sections} dated={DATED} what="These terms were drafted by the studio that built the site, to match how the site works today.">
+  <CoLegal sections={sections} dated={DATED} what="These terms cover this website. The work on your yard is agreed separately, in writing.">
     <div class="co-tldr">
       <p class="label">The short version</p>
       <ul>
@@ -104,13 +103,13 @@ const crumbs = [{ name: 'Terms', path: '/terms/' }];
 
     <section id="law" aria-labelledby="law-h">
       <h2 id="law-h">Colorado law applies.</h2>
-      <p>These terms are governed by the laws of the State of Colorado. Any dispute about this website will be handled in the courts of Colorado. <span class="co-confirm">Owner to confirm</span></p>
+      <p>These terms are governed by the laws of the State of Colorado. Any dispute about this website will be handled in the courts of Colorado.</p>
     </section>
 
     <section id="changes" aria-labelledby="changes-h">
       <h2 id="changes-h">If these terms change, the date changes too.</h2>
       <p>We may update these terms as the site changes. The version on this page, with its date, is the one that applies.{call && <> Questions? Call <a href={call.href} data-cta="terms-call">{call.label}</a>.</>}</p>
-      <p class="co-legal-dated">Draft of {DATED}.</p>
+      <p class="co-legal-dated">Effective {DATED}.</p>
     </section>
   </CoLegal>
 

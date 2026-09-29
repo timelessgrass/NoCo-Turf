@@ -1,6 +1,6 @@
 ---
 /**
- * /privacy/ — DRAFT FOR OWNER REVIEW. Plain English, and accurate to what the site does TODAY:
+ * /privacy/ — adopted for launch 2026-09-29 (Ty, for Brian). Plain English, and accurate to what the site does TODAY:
  *   - static Astro site on Netlify (server logs); fonts, photos and the clip are self-hosted — no third-party
  *     requests while reading (Base.astro loads no outside script, font or embed)
  *   - no cookies of its own, no advertising cookies, no analytics installed (Plausible is planned —
@@ -10,7 +10,7 @@
  *     Fields per docs/CONTRACTS.md "Lead path"; `page` and `elapsed_ms` are added by the page; `company` is
  *     the honeypot.
  *   - SMS only when the visitor picks Text as contact_pref.
- * Lines marked "Owner to confirm" are decisions only NoCo can make (retention, referrals outside the area).
+ * The retention and out-of-area referral lines were adopted as drafted (2026-09-29).
  * No invented address or email: contact is the phone (brief) and the form.
  */
 import Base from '../layouts/Base.astro';
@@ -23,7 +23,7 @@ import brief, { fact, businessName, legalName, phoneHref, phoneDisplay } from '.
 const name = businessName ?? 'NoCo Turf Co.';
 const legal = legalName ?? 'NOCO Turf Co. LLC';
 const reg = fact<{ sos_id: string; lookup_url: string }>(brief.identity?.registration);
-const DATED = 'September 24, 2026';
+const DATED = 'September 29, 2026';
 
 const sections = [
   { id: 'who', title: 'Who this covers' },
@@ -44,13 +44,12 @@ const crumbs = [{ name: 'Privacy', path: '/privacy/' }];
   title="Privacy: What This Site Collects and Where It Goes | NoCo Turf Co."
   description="What nocoturf.com collects and why, in plain English: no ad cookies, no analytics yet, and an estimate form that emails your answers to NoCo Turf Co."
   crumbs={crumbs}
-  draft
 >
-  <PageHero label="Privacy · Draft for owner review" crumbs={crumbs} compact lede={`How ${name}’s website handles what you type into it — written to match what the site actually does today.`}>
+  <PageHero label="Privacy" crumbs={crumbs} compact lede={`How ${name}’s website handles what you type into it — written to match what the site actually does today.`}>
     What happens to what you type into this site, in <PaintWord now>plain English.</PaintWord>
   </PageHero>
 
-  <CoLegal sections={sections} dated={DATED} what="This privacy page was drafted by the studio that built the site, to describe how the site works today.">
+  <CoLegal sections={sections} dated={DATED} what="This page describes how the site works today. If that changes, we update the page and the date above.">
     <div class="co-tldr">
       <p class="label">The short version</p>
       <ul>
@@ -113,12 +112,12 @@ const crumbs = [{ name: 'Privacy', path: '/privacy/' }];
         <li><strong>The studio that maintains this website</strong> for {name} and runs its lead system.</li>
       </ul>
       <p>{name} doesn’t sell or rent your information and doesn’t share it with advertisers. We may disclose information when the law requires it.</p>
-      <p>If you’re outside the towns {name} works in, we may pass your request to an installer who works where you are, so you still get an answer. <span class="co-confirm">Owner to confirm</span></p>
+      <p>If you’re outside the towns {name} works in, we may pass your request to an installer who works where you are, so you still get an answer.</p>
     </section>
 
     <section id="keeping" aria-labelledby="keeping-h">
       <h2 id="keeping-h">Requests are kept as business records.</h2>
-      <p>{name} keeps estimate requests for as long as it needs them to follow up on your project and keep its business records, then deletes them. <span class="co-confirm">Owner to confirm</span></p>
+      <p>{name} keeps estimate requests for as long as it needs them to follow up on your project and keep its business records, then deletes them.</p>
       <p>Netlify’s server logs are kept for Netlify’s own retention period, not ours.</p>
     </section>
 
@@ -135,7 +134,7 @@ const crumbs = [{ name: 'Privacy', path: '/privacy/' }];
     <section id="changes" aria-labelledby="changes-h">
       <h2 id="changes-h">If the site changes, this page changes with it.</h2>
       <p>When the site starts doing something new with information — adding analytics, for example — this page will be updated and re-dated. The rules for using the site itself are on the <a href="/terms/">terms page</a>.</p>
-      <p class="co-legal-dated">Draft of {DATED}.</p>
+      <p class="co-legal-dated">Effective {DATED}.</p>
     </section>
   </CoLegal>
 

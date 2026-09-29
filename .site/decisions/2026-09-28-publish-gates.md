@@ -21,3 +21,18 @@
   crumbs and next to real local facts.
 - Consequence: today no town, town x service, community page or guide can publish. Each unlocks with Brian's
   confirmation, a photo and a job; guides go live in batches as he answers their needsFromBrian lists.
+
+## Amended at launch, 2026-09-29 (Ty)
+
+- Brian confirmed all 17 towns and the 5 services (installation, pet, putting greens, playground, commercial) to Ty;
+  brief.json `service_areas` and `services`, and `confirmed` in src/data/services.ts, record it. Turf repair and turf
+  supply stay unconfirmed.
+- Town pages publish on their research and Brian's word: a local photo and a job are to-dos (check-content lists
+  them), not the town gate. The review rated town pages borderline, not doorway, and they keep the old site's
+  ranking town URLs. Town × service and community pages keep the photo and job rules.
+- Launch set: home, the 5 services, about, contact, work, privacy, terms, /areas/ and the 17 towns, and the 3 guides
+  that carry Brian's photos with their topic hubs. Everything else waits for its gate.
+- Links to pages that are not live: components drop them (src/lib/live.ts); links inside record text become plain
+  text after the build (scripts/unlink-unpublished.mjs). Old URLs whose target isn't live follow docs/REDIRECTS.md
+  holds (cost guide, turf repair, the store and 6 old blog posts → the nearest live service page).
+

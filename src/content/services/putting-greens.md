@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 slug: putting-greens
 title: "Backyard Putting Greens in Northern Colorado | NoCo Turf Co."
 description: "Backyard putting greens in Northern Colorado: how break, speed, fringe and cups are set, what winter does to a green, and real greens near Windsor and Berthoud."
@@ -64,6 +64,8 @@ photos:
   - gbp-lawn-green
   - street-view
 guides:
+  - putting-green-design-ideas
+  - putting-green-lighting
   - hoa-turf-approval
   - turf-rules-northern-colorado
   - artificial-turf-cost
@@ -112,4 +114,3 @@ Spring is a good time to brush the surface up and top off the sand where the mos
 
 **Town codes can be stricter.** Windsor's landscape code bars artificial turf from any landscape plan for new development or major redevelopment, allowing only functional artificial turf by the Director's exception. Fort Collins' Land Use Code bars artificial turf from development landscape plans, though development on existing single- and two-unit home lots is exempt from that section. In Firestone, a town permit comes before any artificial turf is installed.
 
-More in [how HOA approval works](/guides/hoa-turf-approval/) and the [town-by-town turf rules](/guides/turf-rules-northern-colorado/).

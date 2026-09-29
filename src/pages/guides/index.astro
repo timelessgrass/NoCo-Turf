@@ -51,8 +51,13 @@ const { rows } = buildRows(new Map((providers as any[]).map((r) => [r.id, r]))) 
 const filter = guides.length >= GUIDE_FILTER_FROM;
 const index = topics.map((t) => ({ slug: t.slug, name: t.name, no: t.no, count: t.guides.length, href: `#t-${t.slug}` }));
 
-const title = 'Northern Colorado Turf Guides: Rules, Rebates, Water | NoCo Turf Co.';
-const description = 'Artificial turf rules town by town, HOA rights, rebates, water savings and what moves a quote in Northern Colorado. Every guide cites its sources, dated.';
+/* While the set is small (the launch set, 2026-09-29), the title, description and lede name only the live topics. */
+const few = guides.length < GUIDE_FILTER_FROM;
+const topicList = topics.map((t) => t.label.toLowerCase()).join(' and ');
+const title = few ? `Turf Guides: ${topics.map((t) => t.label.replace(/\b\w/g, (c) => c.toUpperCase())).join(' and ')} | NoCo Turf Co.` : 'Northern Colorado Turf Guides: Rules, Rebates, Water | NoCo Turf Co.';
+const description = few
+  ? `Guides for Northern Colorado homeowners on ${topicList}, each opening with the short answer. Every guide cites its sources, dated.`
+  : 'Artificial turf rules town by town, HOA rights, rebates, water savings and what moves a quote in Northern Colorado. Every guide cites its sources, dated.';
 const crumbs = [{ name: 'Guides', path: '/guides/' }];
 const entity = businessName && phone ? { publisher: BUSINESS_REF } : {};
 const graph = items.length === 0 ? [] : [
@@ -69,9 +74,9 @@ const graph = items.length === 0 ? [] : [
 ---
 <Base title={title} description={description} crumbs={crumbs} graph={graph}>
   <PageHero label="Guides · Northern Colorado" crumbs={crumbs} compact lede={items.length
-    ? `${count} straight-answer guides for Northern Colorado homeowners: cost, HOA and town rules, pets, putting greens, heat, snow and more. Each one opens with the short answer.`
+    ? (few ? `${count} straight-answer guides for Northern Colorado homeowners, on ${topicList}. Each one opens with the short answer.` : `${count} straight-answer guides for Northern Colorado homeowners: cost, HOA and town rules, pets, putting greens, heat, snow and more. Each one opens with the short answer.`)
     : 'The guides to turf rules, HOA approval, rebates, water savings and cost are being checked against their sources before they go up.'}>
-    Everything you need to decide on <PaintWord now>artificial turf.</PaintWord>
+    {few ? <>Guides for planning <PaintWord now>your yard.</PaintWord></> : <>Everything you need to decide on <PaintWord now>artificial turf.</PaintWord></>}
     <div class="hrec" slot="after">
       {phoneHref && <p class="hrec__call">{items.length ? "A question these don’t answer?" : "A question about your yard?"} <a href={phoneHref} data-cta="guides-call">Call <span class="num">{phoneDisplay}</span></a></p>}
     </div>

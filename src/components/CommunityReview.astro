@@ -14,6 +14,7 @@
  * No <style> here on purpose — see src/styles/community.css (this renders in the route the town × service pages
  * share, and a scoped style would change the stylesheet those pages link).
  */
+import { liveHref } from '../lib/live';
 import Icon from './Icon.astro';
 import { cite, labelHead, fmtDate, type LayerRecord } from './TownData';
 
@@ -32,6 +33,8 @@ const pad = (n: number) => String(n).padStart(2, '0');
 const heading = none ? `No design guidelines turned up for ${name}.`
   : rules.length ? 'What the guidelines say about turf and the backyard.'
   : `${governing.name} reviews a yard’s design.`;
+/* The HOA approval guide, while it is live (src/lib/live.ts). */
+const hoaGuide = await liveHref('/guides/hoa-turf-approval/');
 ---
 <section class="section section--tight cmr" id={id} aria-labelledby={`${id}-h`}>
   <div class="wrap cmr__grid">
@@ -47,7 +50,7 @@ const heading = none ? `No design guidelines turned up for ${name}.`
         {state && <>Colorado’s backyard rule sits over all of them: <a href="#state-rule">what the law says</a>.</>}
       </p>
       <p class="cmr__acts">
-        <a class="btn btn--line" href="/guides/hoa-turf-approval/">How HOA approval works <Icon name="arrow" /></a>
+        {hoaGuide && <a class="btn btn--line" href={hoaGuide}>How HOA approval works <Icon name="arrow" /></a>}
         {!none && governing.url && <a class="cmr__src" href={governing.url} rel="noopener">Read the guidelines<Icon name="external" size={14} /></a>}
       </p>
     </header>

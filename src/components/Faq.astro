@@ -2,11 +2,14 @@
 /**
  * FAQ as native <details> (works without JS; exclusive-open via `name`). Answers lead with the direct answer.
  * The page mirrors the SAME items verbatim into FAQPage JSON-LD via faqGraph() — never different text.
- * Answers may carry a trailing link (href) rendered after the text; the JSON-LD gets the text only.
+ * Answers may carry a trailing link (href) rendered after the text; the JSON-LD gets the text only. A link to a page
+ * that is not live in this build (a guide still unpublished) is left off (src/lib/live.ts).
  */
+import { liveHref } from '../lib/live';
 interface Item { q: string; a: string; href?: string; hrefLabel?: string }
 interface Props { items: Item[]; name?: string; }
 const { items, name = 'faq' } = Astro.props;
+const hrefs = await Promise.all(items.map((it) => liveHref(it.href)));
 ---
 <div class="faq">
   {items.map((it, i) => (
@@ -14,7 +17,7 @@ const { items, name = 'faq' } = Astro.props;
       <summary class="faq__q"><span>{it.q}</span><span class="faq__x" aria-hidden="true"></span></summary>
       <div class="faq__a">
         <p>{it.a}</p>
-        {it.href && <p class="faq__more"><a href={it.href}>{it.hrefLabel ?? 'Read more'} →</a></p>}
+        {hrefs[i] && <p class="faq__more"><a href={hrefs[i]}>{it.hrefLabel ?? 'Read more'} →</a></p>}
       </div>
     </details>
   ))}

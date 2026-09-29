@@ -6,8 +6,11 @@
  */
 import Icon from './Icon.astro';
 import type { ServiceSell } from '../data/service-sell';
+import { liveHref } from '../lib/live';
 interface Props { s: ServiceSell; name: string }
 const { s, name } = Astro.props;
+/* A guide that isn't live yet gets no link (src/lib/live.ts). */
+const expectHrefs = await Promise.all(s.expect.map((e) => liveHref(e.href)));
 const NOUN: Record<string, string> = {
   'Artificial turf installation': 'a turf lawn', 'Pet turf and dog runs': 'pet turf', 'Backyard putting greens': 'a backyard green',
   'Playground turf': 'playground turf', 'Commercial, HOA and sports turf': 'commercial turf',
@@ -38,11 +41,11 @@ const noun = NOUN[name] ?? name.toLowerCase();
       <h2 id="expect-h">What it’s like to live with.</h2>
     </header>
     <ul class="dc__expect stagger" role="list">
-      {s.expect.map((e) => (
+      {s.expect.map((e, i) => (
         <li>
           <h3>{e.h}</h3>
           <p>{e.p}</p>
-          <a href={e.href}>Read more <Icon name="arrow" size={15} /></a>
+          {expectHrefs[i] && <a href={expectHrefs[i]}>Read more <Icon name="arrow" size={15} /></a>}
         </li>
       ))}
     </ul>

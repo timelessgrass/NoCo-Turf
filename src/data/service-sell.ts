@@ -33,7 +33,7 @@ export const SERVICE_SELL: Record<string, ServiceSell> = {
     expect: [
       { h: 'Upkeep', p: 'Rinse it, blow off leaves, and brush it now and then so the blades stand up. Top up infill where it wears.', href: '/guides/does-artificial-turf-need-maintenance/' },
       { h: 'Summer heat', p: 'In full sun, turf gets hotter than grass. Shade, a lighter infill or a quick rinse helps on the hottest days.', href: '/guides/how-hot-does-artificial-turf-get/' },
-      { h: 'Winter', p: 'Snow can melt off on its own or be cleared with care. The winter guide covers which tools and de-icers are safe.', href: '/guides/artificial-turf-snow-removal/' },
+      { h: 'Winter', p: 'Snow can melt off on its own or be cleared with care.', href: '/guides/artificial-turf-snow-removal/' },
       { h: 'How long it lasts', p: 'That depends on the product, the sun, pets and traffic. Get any warranty in writing before you sign.', href: '/guides/how-long-does-artificial-turf-last/' },
     ],
     price: ['The size of the area and how easy it is to reach', 'Taking out the old lawn and grading', 'Base depth and drainage for your soil', 'Edging where turf meets rock, beds and concrete', 'The turf and infill you choose', 'Extras like a putting green, dog area or play area'],
@@ -125,7 +125,7 @@ export const SERVICE_SELL: Record<string, ServiceSell> = {
       { h: 'The rules', p: 'Functional turf, like play areas, fields and dog areas, is still allowed. Decorative turf in new development is not.', href: '/guides/turf-rules-northern-colorado/' },
       { h: 'Dog areas', p: 'Dog parks and daycares need drainage and a cleaning routine built in from day one.', href: '/guides/dog-daycare-artificial-turf/' },
       { h: 'Fields', p: 'Synthetic fields need grooming, infill top-ups and regular testing.', href: '/guides/synthetic-turf-field-maintenance/' },
-      { h: 'Water', p: 'See what a lawn’s water is worth at your provider’s rates.', href: '/guides/water-savings/' },
+      { h: 'Water', p: 'What a lawn’s water is worth depends on your provider’s rates.', href: '/guides/water-savings/' },
     ],
     price: ['The area and its use: play, dogs, sports or common ground', 'Base, drainage and any shock pad', 'Access, staging and working around residents', 'Permits and town requirements', 'Product and infill specs'],
   },

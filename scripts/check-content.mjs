@@ -92,7 +92,7 @@ import { TOWN_SERVICES, TOWN_SERVICE_SLUGS, townServiceBySlug, NOT_TOWN_SERVICES
 import { CONTENT_STATUSES, isPublished } from '../src/lib/content-policy.mjs';
 import { GUIDE_TOPICS, topicBySlug } from '../src/data/guide-topics.ts';
 import { communityGate } from '../src/lib/community-gate.mjs';
-import { servedTowns, namesPlace } from '../src/lib/local-proof.mjs';
+import { servedTowns, namesPlace, proofBlocks } from '../src/lib/local-proof.mjs';
 import { communityId, parseCommunityId, communitySlugProblem, COMMUNITY_PUFFERY } from '../src/data/communities.mjs';
 import { checkRecord, checkOwnedFile, loadLayerFiles, todayISO, GUIDE_LAYER_DIR, LOCAL_LAYER_DIR, COMMUNITY_LAYER_DIR } from './check-layers.mjs';
 
@@ -835,6 +835,9 @@ export async function run({ root = REPO, files = [], log = console.log } = {}) {
       checkSources(d.sources, out);
       const g = townGate(d, { photos: photoMeta, served });
       const localPhotos = [...photoMeta].filter(([, p]) => namesPlace(p, town?.name)).length;
+      // Not the town gate's any more (2026-09-29), but what the page should grow into: a photo and a job from the town.
+      if (town && !localPhotos) out.push(['WARN', `no photo from ${town.name} yet — add Brian's own, with a place that names ${town.name}, to src/data/photos.ts`]);
+      if (town && !proofBlocks(d.blocks, town.name).length) out.push(['WARN', `no job or review from ${town.name} yet — a job block from Brian's ledger, or a linked review that names ${town.name}`]);
       const townOwn = (d.blocks ?? []).filter((b) => b.own && blockWords(b) >= SUBSTANTIVE_WORDS).length;
       gate[d.slug ?? id] = { status, blocks: (d.blocks ?? []).length, own: townOwn, photos: localPhotos, served: served.has(d.slug), pass: g.pass, reasons: g.reasons, needs: d.needsFromBrian ?? [], file: id };
       if (!g.pass) {
@@ -1163,7 +1166,7 @@ export async function run({ root = REPO, files = [], log = console.log } = {}) {
       else if (s > 0.15) { log(`! WARN similarity ${pair} (warn above 15%)`); warns++; }
     }
 
-    log(`\nTown gate — src/lib/town-gate.mjs: ≥3 substantive blocks (${SUBSTANTIVE_WORDS}+ words), ≥2 own, every block sourced, Brian's word that NoCo works the town, a photo from the town, a job or review from it`);
+    log(`\nTown gate — src/lib/town-gate.mjs: ≥3 substantive blocks (${SUBSTANTIVE_WORDS}+ words), ≥2 own, every block sourced, Brian's word that NoCo works the town (a photo and a job from it are to-dos, not the gate)`);
     for (const t of NOCO_TOWNS) {
       const g = gate[t.slug];
       if (!g) { log(`  ${t.slug.padEnd(16)} —          no record yet (${t.tier})`); continue; }

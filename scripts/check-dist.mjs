@@ -33,6 +33,7 @@
  *   IMG-1      FAIL  an <img> without width, height or alt
  *   TITLE-1    FAIL  no <title>;  TITLE-2 WARN over 70 characters;  DESC-1 WARN an indexable page with no
  *                    meta description;  BOUNDARY-2 WARN more than one data-boundary element on a page
+ *   DRAFT-1    FAIL a "Draft preview" ribbon on a page after launch (PRELAUNCH false)
  *   ROBOTSTXT-1 FAIL robots.txt missing, not blocking everything in PRELAUNCH, or blocking everything /
  *                    not naming the sitemap after launch
  *   SITEMAP-1..5 FAIL a sitemap URL off-host or without its slash, one with no built page, a noindex page
@@ -258,6 +259,7 @@ export function checkPage(route, html, { prelaunch, site, brief }) {
   if (robots.length > 1) add('FAIL', 'ROBOTS-1', `has ${robots.length} robots meta tags`);
   if (mustNoindex && !noindex) add('FAIL', 'ROBOTS-1', `must be noindex (${prelaunch ? 'PRELAUNCH is true' : 'utility page'}) but is not`);
   if (!mustNoindex && noindex) add('FAIL', 'ROBOTS-1', 'is noindex but is neither a utility page nor PRELAUNCH — a page that should not be indexed should not exist');
+  if (!prelaunch && /class="draft-ribbon"/.test(html)) add('FAIL', 'DRAFT-1', 'shows the "Draft preview" ribbon after launch');
   if (!noindex && !meta(root, 'description').some((el) => (el.attrs.content || '').trim())) add('WARN', 'DESC-1', 'has no meta description');
 
   // one form, posting to the lead function

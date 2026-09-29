@@ -11,7 +11,7 @@ export const SITE = 'https://www.nocoturf.com';
  * this to false AND delete the [[headers]] X-Robots-Tag block in netlify.toml, in the same commit;
  * tests/prelaunch.test.mjs fails if only one of the two changes.
  */
-export const PRELAUNCH = true;
+export const PRELAUNCH = false; // launched 2026-09-29 (Ty's go)
 
 /**
  * PREVIEW: while PRELAUNCH is on, draft towns/guides and unconfirmed-but-previewable services render so Ty and

@@ -7,23 +7,23 @@
  *     swapped phone number is not a block
  *   - a source or a layer reference on every block other than a job, photo or review
  *   - Brian's own word that NoCo works the town (.site/truth/brief.json service_areas, src/lib/local-proof.mjs)
- *   - a real photograph from the town: a src/data/photos.ts entry whose place names it, which is also what the
- *     page shows (TownData.ts townPhotos)
- *   - a job or a review from the town, printed on the page: a job or review block that is own, runs to its word
- *     floor and names the town (src/lib/local-proof.mjs proofBlocks)
+ *
+ * Launch decision (Ty, 2026-09-29): a town page publishes on its own research and Brian's word. A photo from the
+ * town and a job there are what the page should grow into, and check-content reports both as a to-do, but they
+ * gate the town × service and community pages (the doorway risk), not the town page, which the 2026-09-28 review
+ * rated borderline and which keeps the old site's ranking town URLs alive.
  *
  * Returns { pass, reasons[] } so the checker can print exactly what is missing — the reasons are
  * the research to-do list for that town, not a verdict on the town.
  *
- * ctx: { photos } src/data/photos.ts PHOTOS (or a Map, see local-proof.mjs photoList); { served } the set of
- * confirmed town slugs (servedTowns(brief)). Each defaults to nothing, so a caller that passes no evidence gets a
- * closed gate.
+ * ctx: { served } the set of confirmed town slugs (servedTowns(brief)); it defaults to none, so a caller that
+ * passes no evidence gets a closed gate. { photos } is accepted for the report and ignored by the gate.
  */
 import { townBySlug } from '../data/territory.mjs';
-import { blockWords, SUBSTANTIVE_WORDS, namesPlace, photoList, proofBlocks } from './local-proof.mjs';
+import { blockWords, SUBSTANTIVE_WORDS } from './local-proof.mjs';
 
 /** @param {any} data @param {{ photos?: ReadonlyArray<any> | Map<string, any>, served?: Set<string> }} [ctx] @returns {{ pass: boolean, reasons: string[] }} */
-export function townGate(data, { photos = [], served = new Set() } = {}) {
+export function townGate(data, { served = new Set() } = {}) {
   const reasons = [];
   const blocks = data?.blocks ?? [];
   const name = townBySlug[data?.slug]?.name ?? data?.name ?? 'this town';
@@ -41,7 +41,5 @@ export function townGate(data, { photos = [], served = new Set() } = {}) {
     }
   }
   if (!served.has(data?.slug)) reasons.push(`Brian hasn't confirmed NoCo works ${name} — his words go in .site/truth/brief.json service_areas (status CLIENT_CONFIRMED, source and source_detail naming where he said it)`);
-  if (!photoList(photos).some((p) => namesPlace(p, name))) reasons.push(`no photograph from ${name} — needs a real photo in src/data/photos.ts whose place names ${name}`);
-  if (!proofBlocks(blocks, name).length) reasons.push(`no job or review from ${name} — needs a job block from Brian's ledger (own, ${SUBSTANTIVE_WORDS}+ words, naming ${name}; season and size in words, or cite the record that holds the numbers) or a review block that names ${name} and links to it`);
   return { pass: reasons.length === 0, reasons };
 }

@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 slug: playground-turf
 title: "Playground Turf and Fall Zones in Northern Colorado | NoCo Turf Co."
 description: "Playground turf over a pad matched to fall height, for backyard playsets, daycares and HOA parks in Northern Colorado, and what Colorado law still allows."
@@ -131,4 +131,3 @@ Some town codes go further:
 
 **At home.** Colorado law says an HOA's landscaping rules may not prohibit artificial turf in the backyard of a detached single-family home, although the HOA can still adopt design and aesthetic guidelines.
 
-More in the [town-by-town turf rules](/guides/turf-rules-northern-colorado/) and [how HOA approval works](/guides/hoa-turf-approval/).

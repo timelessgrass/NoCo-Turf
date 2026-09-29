@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: yard-design
 kind: guide
 title: "Outdoor Living Around Turf: Layout and Build Order | NoCo Turf Co."
@@ -195,16 +195,16 @@ Give each use the surface that suits it: anything hot or heavy on hardscape, the
 |---|---|---|
 | Dining and lounge | Patio: pavers, flagstone or concrete | Furniture weight and spills |
 | Outdoor kitchen | Patio, with the counter on its own base | Grease and heat; gas, power and water come up here |
-| Fire feature | A noncombustible pad or the patio, turf stopping at its edge | Distances are your fire district's: [fire pits and grills on turf](/guides/fire-pit-on-artificial-turf/) |
+| Fire feature | A noncombustible pad or the patio, turf stopping at its edge | Your fire district sets the distances |
 | Shade | A pergola or patio cover over the seating | Afternoon sun on the seating |
 | Open lawn and play | [Turf](/services/artificial-turf-installation/) | The space that used to take the water |
 | Putting | A [putting green](/services/putting-greens/) | Shaping, cups and fringe: [putting green design](/guides/putting-green-design-ideas/) |
 
 Then place the rooms:
 
-- **Patio against the house, turf beyond it.** The 2021 International Residential Code wants the ground to fall at least 6 inches in the first 10 feet from a foundation, and hard surfaces within 10 feet to slope at least 2 percent away ([IRC R401.3](https://up.codes/viewer/colorado/irc-2021/chapter/4/foundations)); ask your town which edition it enforces. The Colorado Geological Survey also flags poor drainage and watered plantings against foundations on expansive clay ([CGS](https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/)). A sloped patio at the back door answers both, and keeps turf back from [window glare that can melt it](/guides/artificial-turf-melting-from-windows/).
-- **Shade the seating.** Fort Collins averages 29.5 days a year at or above 90°F (NOAA's 1991–2020 normals); see [how hot artificial turf gets](/guides/how-hot-does-artificial-turf-get/).
-- **Keep shoveled paths hard:** [turf between pavers](/guides/artificial-turf-between-pavers/). The turf-to-bed split is in [mixing turf, rock and plant beds](/guides/mixing-turf-rock-and-plant-beds/); pools in [turf around a pool](/guides/artificial-turf-around-pool/).
+- **Patio against the house, turf beyond it.** The 2021 International Residential Code wants the ground to fall at least 6 inches in the first 10 feet from a foundation, and hard surfaces within 10 feet to slope at least 2 percent away ([IRC R401.3](https://up.codes/viewer/colorado/irc-2021/chapter/4/foundations)); ask your town which edition it enforces. The Colorado Geological Survey also flags poor drainage and watered plantings against foundations on expansive clay ([CGS](https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/)). A sloped patio at the back door answers both, and keeps turf back from window glare that can melt it.
+- **Shade the seating.** Fort Collins averages 29.5 days a year at or above 90°F (NOAA's 1991–2020 normals).
+- **Keep shoveled paths hard.** Put pavers or concrete where you'll shovel in winter, and turf where you won't.
 
 On a golf-course lot, [The Masters at Mariana Butte](/areas/loveland-co/mariana-butte/) in Loveland encourages trees and shrubs for golf-ball protection, names pergola-type structures as another option and will likely reject poles with netting ([Deer Meadows guidelines](https://deermeadows.specialdistrict.org/files/9ab8cd02c/DMMD+Architectural+and+Design+Guidelines+-Updated+6.27.2023.pdf)), so one pergola can be both shade and ball stop.
 
@@ -223,12 +223,12 @@ From the ground up, turf last. Select Surfaces' installation guide wants drainag
 | 7. Turf | Base, turf, seams, infill, edges | The last trade on the ground |
 | 8. Finishing | Light fixtures, furniture, grill | Carried across the patio, not dragged over the lawn |
 
-- **Private lines.** Colorado 811 doesn't mark private lines such as gas lines to backyard grills ([Colorado 811](https://www.colorado811.org/resources/find-a-private-locating-company)), so keep an as-built drawing of every line you add, with its depth: [preparing for installation day](/guides/preparing-for-turf-installation-day/).
-- **Lines under the lawn.** Integriturf's installation guide runs planter water and power below the subgrade and suggests spare conduit sleeves for future access ([Integriturf](https://integriturf.com/wp-content/uploads/2019/02/Installation-Guide.pdf)). Retired lawn zones: [your sprinklers after turf](/guides/sprinkler-system-after-artificial-turf/). A new lot's grades: [a new-build dirt backyard](/guides/new-build-backyard-turf/).
+- **Private lines.** Colorado 811 doesn't mark private lines such as gas lines to backyard grills ([Colorado 811](https://www.colorado811.org/resources/find-a-private-locating-company)), so keep an as-built drawing of every line you add, with its depth.
+- **Lines under the lawn.** Integriturf's installation guide runs planter water and power below the subgrade and suggests spare conduit sleeves for future access ([Integriturf](https://integriturf.com/wp-content/uploads/2019/02/Installation-Guide.pdf)). Cap the sprinkler zones the turf retires.
 
 ## Which parts need a town permit?
 
-Mostly the structures, gas and wiring, as read in September 2026; the turf's own rules are in [artificial turf rules in Northern Colorado](/guides/turf-rules-northern-colorado/).
+Mostly the structures, gas and wiring, as read in September 2026; the turf's own rules are on each [town's page](/areas/).
 
 - **[Fort Collins](/areas/fort-collins-co/).** A pergola or patio cover needs a permit if it is attached to the house, taller than 8 feet, over 120 square feet or within 3 feet of a lot line ([pergola guide](https://www.fortcollins.gov/files/sharedassets/city/v/2/planning-development-amp-transportation/permitting/residential-pergola-guide.pdf), [patio cover guide](https://www.fortcollins.gov/files/sharedassets/city/v/2/planning-development-amp-transportation/permitting/residential-patio-cover-guide.pdf)), and exempt work still has to meet code. New outlets and light fixtures need an electrical permit, and a job mixing trades files as one remodel/alteration permit ([Building Permits](https://www.fortcollins.gov/Business/Permits-and-Licensing/Building-Permits)); ask Building Services how that applies to an outdoor kitchen. Built-in wood-burning fire pits aren't allowed; a gas one needs a permit and a piping inspection, installed by the homeowner or a licensed plumber or HVAC contractor ([Fire Pit Policy](https://www.fortcollins.gov/files/sharedassets/city/v/1/planning-development-amp-transportation/permitting/fire-pit-handout1.pdf)). A permitted project adding more than 350 square feet of hard surface, such as a patio roof, must include drainage information ([Fort Collins Utilities](https://www.fortcollins.gov/files/sharedassets/city/v/2/planning-development-amp-transportation/permitting/grading-plan-requirements.pdf)).
 - **[Loveland](/areas/loveland-co/).** Plan review is estimated at 20 to 30 working days per round ([Loveland](https://www.lovgov.org/services/development-services/building-division/permitting)). A fire pit on a permanent gas line needs a building permit ([LFRA](https://lfra.org/DocumentCenter/View/563)). The city designs for a 30 psf ground snow load and 130 mph gusts ([design criteria](https://www.lovgov.org/services/development-services/building-division/loveland-building-code)), which a solid patio cover has to carry.
@@ -249,10 +249,10 @@ The committee reviews the whole yard first; the town then permits the parts that
 
 - **One submittal for the whole yard.** Monte Cielo in [Longmont](/areas/longmont-co/) wants one landscape plan showing turf, patios, built-in barbecues and pools ([Monte Cielo guidelines](https://flagstaffmanagement.com/s/MC-Design-Guidelines-sy8w.pdf)). Separate packets mean separate reviews and conditions.
 - **Committee approval isn't a permit.** Harvest in Berthoud and Waters Edge in Fort Collins say so on their request forms, and Water Valley in Windsor sends a new deck to its office first, then to the Town for a building permit ([Water Valley guidelines](https://web.archive.org/web/20240627145626/https://www.watervalley.com/wp-content/uploads/2022/05/03-Design-Guidelines-and-Architectural-Standards-updated-for-posting.pdf)).
-- **The grading is often fixed.** The Masters at Mariana Butte bars landscape elements that disturb a lot's engineered grading or change its drainage swales. [Highland Meadows](/areas/windsor-co/highland-meadows/)' recorded declaration bars grading changes from the Town-approved plans and asks owners to keep sprinkler piping within 5 feet of foundations to a minimum ([Highland Meadows covenants](https://www.windsorhighlandsmetrodistrict.com/files/628d25f70/WHMD+Covenants+Recorded+04-21-04.pdf)). A sunken fire pit or raised terrace needs that approval first: [turf on a slope](/guides/artificial-turf-on-a-slope/).
+- **The grading is often fixed.** The Masters at Mariana Butte bars landscape elements that disturb a lot's engineered grading or change its drainage swales. [Highland Meadows](/areas/windsor-co/highland-meadows/)' recorded declaration bars grading changes from the Town-approved plans and asks owners to keep sprinkler piping within 5 feet of foundations to a minimum ([Highland Meadows covenants](https://www.windsorhighlandsmetrodistrict.com/files/628d25f70/WHMD+Covenants+Recorded+04-21-04.pdf)). A sunken fire pit or raised terrace needs that approval first.
 - **District utilities stay reachable.** Raindance Metropolitan District in Windsor wants each non-potable meter pit and curb stop kept clear of rock, decks and patios ([Raindance Metropolitan District](https://www.raindancemetrodistrict.org/non-potable-irrigation-water)).
 
-Colorado law bars an HOA from prohibiting artificial turf in the backyard of a detached single-family home, though it may still apply design and aesthetic guidelines ([C.R.S. 38-33.3-106.5](https://leg.colorado.gov/bill_files/92307/download)). The statute speaks to the turf, not the pergola, kitchen or fire feature beside it. Not legal advice. The packet: [HOA approval for artificial turf](/guides/hoa-turf-approval/); a house still being built: [custom home landscape turf](/guides/custom-home-landscape-turf/).
+Colorado law bars an HOA from prohibiting artificial turf in the backyard of a detached single-family home, though it may still apply design and aesthetic guidelines ([C.R.S. 38-33.3-106.5](https://leg.colorado.gov/bill_files/92307/download)). The statute speaks to the turf, not the pergola, kitchen or fire feature beside it. Not legal advice. Send the committee the whole plan, turf and all, in one packet.
 
 ## How do you keep later work from damaging finished turf?
 
@@ -264,5 +264,5 @@ When a trade has to come back after the turf:
 ## What should I ask the turf installer about the rest of the project?
 
 1. **"What has to be finished before you start?"** A good answer: grading, every gas, power and irrigation line, footings and hardscape, with inspections passed.
-2. **"How will the turf meet the patio, the kitchen base and the fire pad?"** A good answer names each edge detail: [turf edging options](/guides/artificial-turf-edging-options/).
+2. **"How will the turf meet the patio, the kitchen base and the fire pad?"** A good answer names each edge detail.
 3. **"Where do the sleeves go?"** A good answer puts them on the drawing the HOA approved.

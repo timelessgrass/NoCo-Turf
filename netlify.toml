@@ -33,9 +33,6 @@
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "SAMEORIGIN"
     Referrer-Policy = "strict-origin-when-cross-origin"
-    # PRELAUNCH — delete this line at launch, in the same commit that sets PRELAUNCH = false in
-    # src/data/site.ts (tests/prelaunch.test.mjs fails if only one of the two changes).
-    X-Robots-Tag = "noindex, nofollow"
 
 # Astro fingerprints every file in /_astro/: cache for a year.
 [[headers]]

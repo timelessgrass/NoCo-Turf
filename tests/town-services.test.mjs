@@ -332,7 +332,7 @@ test('a published page that fails the gate fails the check; a passing one warns 
   const ok = run();
   assert.match(ok.out, /windsor-co--putting-greens\s+published\s+.*— gate PASS/);
   assert.match(ok.out, /its town page windsor-co is not published — this page renders only once the town page does/);
-  assert.match(ok.out, /service putting-greens is not confirmed in src\/data\/services\.ts/);
+  assert.doesNotMatch(ok.out, /service putting-greens is not confirmed/, 'Brian confirmed it, 2026-09-29');
 });
 
 test('the file name is {town}--{service}.json and must match the record; installation and turf-repair get no page', (t) => {

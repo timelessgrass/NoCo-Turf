@@ -155,7 +155,7 @@ if (isWater) {
 const graph = [article, ...(dataset ? [dataset] : []), ...faqGraph(faq)];
 ---
 <Base title={d.title} description={d.description} crumbs={crumbs} graph={graph} draft={g.draft}>
-  <PageHero label={`${kind} · ${topic.label} · ${pad(index + 1)} of ${pad(siblings.length)}`} crumbs={crumbs} lede={smart(d.description)} compact>
+  <PageHero label={siblings.length > 1 ? `${kind} · ${topic.label} · ${pad(index + 1)} of ${pad(siblings.length)}` : `${kind} · ${topic.label}`} crumbs={crumbs} lede={smart(d.description)} compact>
     <span class="gh1__main">{mainP ? <>{mainP[0]}<PaintWord now>{mainP[1]}</PaintWord>{mainP[2]}</> : main}</span>
     {deck && <>{' '}<span class="gh1__deck">{deckP ? <>{deckP[0]}<PaintWord now>{deckP[1]}</PaintWord>{deckP[2]}</> : deck}</span></>}
     <div class="grec" slot="after">
@@ -230,7 +230,7 @@ const graph = [article, ...(dataset ? [dataset] : []), ...faqGraph(faq)];
                     <li><a class="grel__a" href={`/guides/${o.id}/`}><span><span class="grel__kind">{gkind(o)}</span><strong>{guideLabel((o.entry.data as any).title)}</strong></span><Icon name="arrow" size={18} /></a></li>
                   ))}
                 </ul>
-                <a class="grel__all" href={topicHref}>All {siblings.length} {topicWord} in {topic.label}<Icon name="arrow" size={16} /></a>
+                <a class="grel__all" href={topicHref}>{siblings.length === 2 ? 'Both' : `All ${siblings.length}`} {topicWord} in {topic.label}<Icon name="arrow" size={16} /></a>
               </div>
             )}
             {otherTopics.length > 0 && (

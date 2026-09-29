@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: putting-greens
 kind: guide
 title: "Backyard Putting Green Design: Contours, Cups, Fringe | NoCo Turf Co."
@@ -221,7 +221,7 @@ needsFromBrian:
   - "Whether you check for Low-E window reflection on site before placing a green, and any green you have moved or re-edged because of it."
 ---
 
-A custom green is designed from the ground up: the break lives in the base, the cups sit where you practice, and the edges decide how it meets the yard. Sizing is in our [guide to backyard putting green size](/guides/backyard-putting-green-size/), and cost in our [guide to backyard putting green cost](/guides/backyard-putting-green-cost/).
+A custom green is designed from the ground up: the break lives in the base, the cups sit where you practice, and the edges decide how it meets the yard.
 
 ## How is break built into a green, and what does Northern Colorado ground do to it?
 
@@ -235,7 +235,7 @@ Then Northern Colorado ground works on it:
 - **Frost goes deep.** Larimer and Weld County building departments design footings for a 30-inch frost depth, far below a green's base. NOAA's Fort Collins station averages 150 nights a year at or below 32°F, and on about 135 of those days it thaws again (1991–2020 normals).
 - **That is how greens fail.** Synthetic Grass Warehouse's installer columnist lists settlement and frost heave among the ways putting surfaces fail, and recommends shaping contours in 3/8-inch minus over at least 6 inches of compacted rock ([SGW](https://syntheticgrasswarehouse.com/blog/how-to-make-your-backyard-putting-green-pga-level-quality/)).
 
-A ridge mounded from loose soil can settle into a different putt after a winter or two, so ask what each contour is built from and how it is compacted; see [artificial turf on clay soil](/guides/artificial-turf-on-clay-soil/).
+A ridge mounded from loose soil can settle into a different putt after a winter or two, so ask what each contour is built from and how it is compacted.
 
 ## Where should the cups go?
 
@@ -253,7 +253,7 @@ On a course, the collar is the intermediate surface between green and rough, so 
 
 | The green meets | Plan between them |
 |---|---|
-| Pavers, flagstone or concrete | Fringe wide enough to stop a putt before the stone, and an edge that holds turf against the slab. See [edging options](/guides/artificial-turf-edging-options/) and [turf between pavers](/guides/artificial-turf-between-pavers/). |
+| Pavers, flagstone or concrete | Fringe wide enough to stop a putt before the stone, and an edge that holds turf against the slab. |
 | Rock or mulch beds | A firm edge and a band of fringe, so rock kicked or blown out lands off the putting line. |
 | Boulders | Fringe between rock and green, so a long putt doesn't carom. Heron Lakes in [Berthoud](/areas/berthoud-co/) has its McNeil Reservoir Peninsula lots edged in sandstone boulders and strongly encourages putting greens there. |
 | A fence or property line | Room to stand and swing, plus any neighborhood setback (below). |
@@ -268,7 +268,6 @@ On a course, the collar is the intermediate surface between green and rough, so 
 
 SYNLawn Golf's SYNSport White is a sand-colored turf it says replicates sand traps without the mess or maintenance ([SYNLawn Golf](https://www.synlawngolf.com/products/)). LaFoy also counts grass hollows as part of a green complex: a turf-lined dip gives you something to chip out of with nothing to blow away. Try a shot from a sample of either first.
 
-Chipping spots and tees are in our [guide to chipping onto a putting green](/guides/chipping-onto-artificial-putting-green/).
 
 ## Where does the water go when it runs off the contours?
 
@@ -276,16 +275,16 @@ Turf drains through its backing, but a hard storm still runs across it, and cont
 
 It also flags a cold-climate problem: on a green that drains back to front, snow melting at the back on a warm afternoon runs across the green and refreezes as ice by evening. With the freeze-thaw rhythm above, that happens here.
 
-- **Shed away from the house and patio.** The residential code wants the ground to fall at least 6 inches in the first 10 feet from a foundation; our [guide to a putting green on a slope](/guides/putting-green-on-a-slope/) keeps cups out of that band.
+- **Shed away from the house and patio.** The residential code wants the ground to fall at least 6 inches in the first 10 feet from a foundation; keep cups out of that band.
 - **Split the runoff.** Two or three low edges beat one, and none should sit where you stand to putt.
-- **Expect sand to follow the water.** The Synthetic Turf Council advises checking infill after heavy rain in case it migrated with the slope. See our [putting green maintenance guide](/guides/artificial-putting-green-maintenance/).
-- **Give soaked-in water a way out.** Course greens run drains along the lines of maximum fall; ask where water under a green on clay goes, and see [does artificial turf drain?](/guides/does-artificial-turf-drain/)
+- **Expect sand to follow the water.** The Synthetic Turf Council advises checking infill after heavy rain in case it migrated with the slope.
+- **Give soaked-in water a way out.** Course greens run drains along the lines of maximum fall; ask where water under a green on clay goes.
 
 ## How should the green look from the house, the patio and next door?
 
 LaFoy notes that architects often view a green site from where the approach shot lands. At home that spot is the kitchen window, patio or deck: lay a hose along the outline and look from each before the contours are set.
 
-- **Window reflection.** The Synthetic Turf Council reports random cases of polyethylene fibers melting from heat reflected off Low-E glass; check where south-facing Low-E windows reflect on a hot, sunny day, and put plantings or hardscape there if screening isn't practical ([STC](https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf)). See [why turf melts near windows](/guides/artificial-turf-melting-from-windows/).
+- **Window reflection.** The Synthetic Turf Council reports random cases of polyethylene fibers melting from heat reflected off Low-E glass; check where south-facing Low-E windows reflect on a hot, sunny day, and put plantings or hardscape there if screening isn't practical ([STC](https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf)).
 - **Evening.** Heron Lakes requires Dark Sky landscape lighting; see our [guide to lighting a putting green](/guides/putting-green-lighting/).
 
 On a golf-course lot the view runs both ways: Heron Lakes asks course-side lots to consider views to and from the course, the Masters at Mariana Butte in [Loveland](/areas/loveland-co/) wants them to blend into it, and Windsor Highlands, around Highland Meadows, says views of the course are not protected.
@@ -298,4 +297,4 @@ On a golf-course lot the view runs both ways: Heron Lakes asks course-side lots 
 - **Grading and drainage.** Highland Meadows in [Windsor](/areas/windsor-co/) wants a drainage and grading plan matching the builder's, and its declaration bars changes to the Town-approved grading; Kitchel Lake in [Timnath](/areas/timnath-co/) treats a lot's drainage as its Town-approved grading plan, and Heron Lakes requires approval for any drainage change.
 - **Setbacks.** RainDance in Windsor reviews putting greens as play equipment: back yard only, at least 6 feet from any property line, with more screening possible ([RainDance guidelines](https://irp-cdn.multiscreensite.com/3d7c42c9/files/uploaded/rain_dance_community_association_-_guidelines_and_standards_for_architectural_design_review-march_27_2019_update.pdf)). Waters Edge in [Fort Collins](/areas/fort-collins-co/) waives review for a green no more than 4 feet high, in the back yard and 6 feet from any property line.
 
-Shaping a mound or swale can count as a grading change, depending on the neighborhood's documents; ask the committee before the base is shaped. The packet is in our [guide to HOA approval for artificial turf](/guides/hoa-turf-approval/), and the green itself on our [putting greens page](/services/putting-greens/).
+Shaping a mound or swale can count as a grading change, depending on the neighborhood's documents; ask the committee before the base is shaped. The green itself is on our [putting greens page](/services/putting-greens/).

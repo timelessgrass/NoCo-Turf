@@ -79,7 +79,7 @@
 # ── 2024–26 WordPress and GoDaddy-builder core pages (apex) ─────────────────────────────────────────────
 # /, /about/, /contact/ and /services/ keep their URLs (no line).
 /installation-services/                                                            https://www.nocoturf.com/services/artificial-turf-installation/  301
-/maintenance-services/                                                             https://www.nocoturf.com/services/turf-repair/              301
+/maintenance-services/                                                             https://www.nocoturf.com/services/artificial-turf-installation/              301
 /why-noco-turf-co                                                                  https://www.nocoturf.com/about/                             301
 /financing-options                                                                 https://www.nocoturf.com/contact/                           301
 /privacy-policy                                                                    https://www.nocoturf.com/privacy/                           301
@@ -87,53 +87,54 @@
 /terms-and-conditions/                                                             https://www.nocoturf.com/terms/                             301
 
 # ── 2024 WordPress blog posts (apex) → the planned guide or service that answers the same question ─────
-/noco-turf-co-breaks-down-residential-synthetic-grass-cost/                        https://www.nocoturf.com/guides/artificial-turf-cost/       301
-/is-artificial-grass-safe-for-cats-what-pet-owners-should-know/                    https://www.nocoturf.com/guides/is-artificial-turf-safe-for-pets/                 301
+/noco-turf-co-breaks-down-residential-synthetic-grass-cost/                        https://www.nocoturf.com/services/artificial-turf-installation/       301
+/is-artificial-grass-safe-for-cats-what-pet-owners-should-know/                    https://www.nocoturf.com/services/pet-turf/                                       301
 /paw-perfect-artificial-grass-the-eco-friendly-lawn-for-pet-lovers/                https://www.nocoturf.com/services/pet-turf/                 301
-/synthetic-grass-safe-for-dogs/                                                    https://www.nocoturf.com/guides/is-artificial-turf-safe-for-pets/                 301
-/how-to-clean-synthetic-grass-noco-turf-co-dives-in-deep/                          https://www.nocoturf.com/guides/how-to-clean-artificial-turf/              301
-/can-you-lay-synthetic-grass-on-concrete/                                          https://www.nocoturf.com/guides/artificial-turf-over-concrete/   301
+/synthetic-grass-safe-for-dogs/                                                    https://www.nocoturf.com/services/pet-turf/                                       301
+/how-to-clean-synthetic-grass-noco-turf-co-dives-in-deep/                          https://www.nocoturf.com/services/artificial-turf-installation/              301
+/can-you-lay-synthetic-grass-on-concrete/                                          https://www.nocoturf.com/services/artificial-turf-installation/   301
 /get-the-best-artificial-grass-in-colorado/                                        https://www.nocoturf.com/services/artificial-turf-installation/  301
-/how-long-does-synthetic-grass-last-a-guide/                                       https://www.nocoturf.com/guides/how-long-does-artificial-turf-last/  301
-/is-synthetic-grass-hot-in-the-sun-colorado-is-hot/                                https://www.nocoturf.com/guides/how-hot-does-artificial-turf-get/  301
+/how-long-does-synthetic-grass-last-a-guide/                                       https://www.nocoturf.com/services/artificial-turf-installation/      301
+/is-synthetic-grass-hot-in-the-sun-colorado-is-hot/                                https://www.nocoturf.com/services/artificial-turf-installation/    301
 /what-is-synthetic-grass/                                                          https://www.nocoturf.com/services/artificial-turf-installation/  301
-/what-is-synthetic-grass-made-of/                                                  https://www.nocoturf.com/guides/nylon-vs-polyethylene-turf/      301
-/where-can-i-buy-synthetic-grass/                                                  https://www.nocoturf.com/turf-supply/                       301
-/where-to-buy-synthetic-grass-the-noco-turf-co-storefront/                         https://www.nocoturf.com/turf-supply/                       301
+/what-is-synthetic-grass-made-of/                                                  https://www.nocoturf.com/services/artificial-turf-installation/      301
+/where-can-i-buy-synthetic-grass/                                                  https://www.nocoturf.com/services/artificial-turf-installation/                       301
+/where-to-buy-synthetic-grass-the-noco-turf-co-storefront/                         https://www.nocoturf.com/services/artificial-turf-installation/                       301
 /category/*                                                                        https://www.nocoturf.com/guides/                            301
 
 # ── 2024–25 WooCommerce store (apex) → /turf-supply/ ────────────────────────────────────────────────────
-# HOLD: /turf-supply/ exists only if the Windsor store still sells retail (services.ts TURF_SUPPLY). If it
-# does not, every /turf-supply/ target in this file becomes /services/artificial-turf-installation/.
-/shop/                                                                             https://www.nocoturf.com/turf-supply/                       301
-/new-shop/                                                                         https://www.nocoturf.com/turf-supply/                       301
-/product/bayhill-blend/                                                            https://www.nocoturf.com/turf-supply/                       301
-/product/bethpage-blend/                                                           https://www.nocoturf.com/turf-supply/                       301
-/product/broadmoor/                                                                https://www.nocoturf.com/turf-supply/                       301
-/product/cypress/                                                                  https://www.nocoturf.com/turf-supply/                       301
-/product/lakota/                                                                   https://www.nocoturf.com/turf-supply/                       301
-/product/pebble-forest-2/                                                          https://www.nocoturf.com/turf-supply/                       301
-/product/pebble-olive/                                                             https://www.nocoturf.com/turf-supply/                       301
-/product/pebble-spring-2/                                                          https://www.nocoturf.com/turf-supply/                       301
-/product/pinehurst-forest/                                                         https://www.nocoturf.com/turf-supply/                       301
-/product/pinehurst-olive/                                                          https://www.nocoturf.com/turf-supply/                       301
-/product/sawgrass/                                                                 https://www.nocoturf.com/turf-supply/                       301
-/product/scottsdale/                                                               https://www.nocoturf.com/turf-supply/                       301
-/product/spyglass/                                                                 https://www.nocoturf.com/turf-supply/                       301
-/product/t-cool/                                                                   https://www.nocoturf.com/turf-supply/                       301
-/product/torrey/                                                                   https://www.nocoturf.com/turf-supply/                       301
-/product/troon/                                                                    https://www.nocoturf.com/turf-supply/                       301
-/product/turnberry/                                                                https://www.nocoturf.com/turf-supply/                       301
-/product/westmoor/                                                                 https://www.nocoturf.com/turf-supply/                       301
-/product/wonderfill/                                                               https://www.nocoturf.com/turf-supply/                       301
-/product/zeodorizer/                                                               https://www.nocoturf.com/turf-supply/                       301
-/product/*                                                                         https://www.nocoturf.com/turf-supply/                       301
-/product-category/commercial/                                                      https://www.nocoturf.com/turf-supply/                       301
-/product-category/infills/                                                         https://www.nocoturf.com/turf-supply/                       301
-/product-category/landscape/                                                       https://www.nocoturf.com/turf-supply/                       301
-/product-category/pet-friendly/                                                    https://www.nocoturf.com/turf-supply/                       301
-/product-category/putting-green/                                                   https://www.nocoturf.com/turf-supply/                       301
-/product-category/*                                                                https://www.nocoturf.com/turf-supply/                       301
+# HOLD applied at launch (2026-09-29): the Windsor store is not a page (services.ts TURF_SUPPLY), so these go to
+# the installation service, and the three matching categories to their own service. When /turf-supply/ ships,
+# point them back.
+/shop/                                                                             https://www.nocoturf.com/services/artificial-turf-installation/                       301
+/new-shop/                                                                         https://www.nocoturf.com/services/artificial-turf-installation/                       301
+/product/bayhill-blend/                                                            https://www.nocoturf.com/services/artificial-turf-installation/                       301
+/product/bethpage-blend/                                                           https://www.nocoturf.com/services/artificial-turf-installation/                       301
+/product/broadmoor/                                                                https://www.nocoturf.com/services/artificial-turf-installation/                       301
+/product/cypress/                                                                  https://www.nocoturf.com/services/artificial-turf-installation/                       301
+/product/lakota/                                                                   https://www.nocoturf.com/services/artificial-turf-installation/                       301
+/product/pebble-forest-2/                                                          https://www.nocoturf.com/services/artificial-turf-installation/                       301
+/product/pebble-olive/                                                             https://www.nocoturf.com/services/artificial-turf-installation/                       301
+/product/pebble-spring-2/                                                          https://www.nocoturf.com/services/artificial-turf-installation/                       301
+/product/pinehurst-forest/                                                         https://www.nocoturf.com/services/artificial-turf-installation/                       301
+/product/pinehurst-olive/                                                          https://www.nocoturf.com/services/artificial-turf-installation/                       301
+/product/sawgrass/                                                                 https://www.nocoturf.com/services/artificial-turf-installation/                       301
+/product/scottsdale/                                                               https://www.nocoturf.com/services/artificial-turf-installation/                       301
+/product/spyglass/                                                                 https://www.nocoturf.com/services/artificial-turf-installation/                       301
+/product/t-cool/                                                                   https://www.nocoturf.com/services/artificial-turf-installation/                       301
+/product/torrey/                                                                   https://www.nocoturf.com/services/artificial-turf-installation/                       301
+/product/troon/                                                                    https://www.nocoturf.com/services/artificial-turf-installation/                       301
+/product/turnberry/                                                                https://www.nocoturf.com/services/artificial-turf-installation/                       301
+/product/westmoor/                                                                 https://www.nocoturf.com/services/artificial-turf-installation/                       301
+/product/wonderfill/                                                               https://www.nocoturf.com/services/artificial-turf-installation/                       301
+/product/zeodorizer/                                                               https://www.nocoturf.com/services/artificial-turf-installation/                       301
+/product/*                                                                         https://www.nocoturf.com/services/artificial-turf-installation/                       301
+/product-category/commercial/                                                      https://www.nocoturf.com/services/commercial-turf/                       301
+/product-category/infills/                                                         https://www.nocoturf.com/services/artificial-turf-installation/                       301
+/product-category/landscape/                                                       https://www.nocoturf.com/services/artificial-turf-installation/                       301
+/product-category/pet-friendly/                                                    https://www.nocoturf.com/services/pet-turf/                       301
+/product-category/putting-green/                                                   https://www.nocoturf.com/services/putting-greens/                       301
+/product-category/*                                                                https://www.nocoturf.com/services/artificial-turf-installation/                       301
 
 # ── Old platform sitemaps (apex) → the one sitemap ──────────────────────────────────────────────────────
 /sitemap_index.xml                                                                 https://www.nocoturf.com/sitemap.xml                        301

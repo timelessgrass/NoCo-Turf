@@ -173,11 +173,11 @@
    "slug": "artificial-turf-installation",
    "name": {
     "value": "Artificial turf installation",
-    "status": "INFERENCE",
-    "source": "derived",
-    "source_detail": "src/data/services.ts (research-led service plan). Brian's general list on the 2026-09-04 sister-brand call (00:45:51) names putting greens, residential landscape turf, commercial, pet turf and indoor work, not stated for NoCo specifically.",
-    "date": "2026-09-24",
-    "note": "pending Brian (Appendix A #4)",
+    "status": "CLIENT_CONFIRMED",
+    "source": "client_confirmed",
+    "source_detail": "Brian confirmed to Ty that NoCo offers this service (Ty, 2026-09-29, approving the site for launch after Brian reviewed the preview)",
+    "date": "2026-09-29",
+    "note": "confirmed by Brian 2026-09-29, via Ty",
     "render": false
    }
   },
@@ -185,11 +185,11 @@
    "slug": "pet-turf",
    "name": {
     "value": "Pet turf and dog runs",
-    "status": "INFERENCE",
-    "source": "derived",
-    "source_detail": "src/data/services.ts (research-led service plan). Brian's general list on the 2026-09-04 sister-brand call (00:45:51) names putting greens, residential landscape turf, commercial, pet turf and indoor work, not stated for NoCo specifically.",
-    "date": "2026-09-24",
-    "note": "pending Brian (Appendix A #4)",
+    "status": "CLIENT_CONFIRMED",
+    "source": "client_confirmed",
+    "source_detail": "Brian confirmed to Ty that NoCo offers this service (Ty, 2026-09-29, approving the site for launch after Brian reviewed the preview)",
+    "date": "2026-09-29",
+    "note": "confirmed by Brian 2026-09-29, via Ty",
     "render": false
    }
   },
@@ -197,11 +197,11 @@
    "slug": "putting-greens",
    "name": {
     "value": "Backyard putting greens",
-    "status": "INFERENCE",
-    "source": "derived",
-    "source_detail": "src/data/services.ts (research-led service plan). Brian's general list on the 2026-09-04 sister-brand call (00:45:51) names putting greens, residential landscape turf, commercial, pet turf and indoor work, not stated for NoCo specifically.",
-    "date": "2026-09-24",
-    "note": "pending Brian (Appendix A #4)",
+    "status": "CLIENT_CONFIRMED",
+    "source": "client_confirmed",
+    "source_detail": "Brian confirmed to Ty that NoCo offers this service (Ty, 2026-09-29, approving the site for launch after Brian reviewed the preview)",
+    "date": "2026-09-29",
+    "note": "confirmed by Brian 2026-09-29, via Ty",
     "render": false
    }
   },
@@ -209,11 +209,11 @@
    "slug": "playground-turf",
    "name": {
     "value": "Playground turf",
-    "status": "INFERENCE",
-    "source": "derived",
-    "source_detail": "src/data/services.ts (research-led service plan). Brian's general list on the 2026-09-04 sister-brand call (00:45:51) names putting greens, residential landscape turf, commercial, pet turf and indoor work, not stated for NoCo specifically.",
-    "date": "2026-09-24",
-    "note": "pending Brian (Appendix A #4)",
+    "status": "CLIENT_CONFIRMED",
+    "source": "client_confirmed",
+    "source_detail": "Brian confirmed to Ty that NoCo offers this service (Ty, 2026-09-29, approving the site for launch after Brian reviewed the preview)",
+    "date": "2026-09-29",
+    "note": "confirmed by Brian 2026-09-29, via Ty",
     "render": false
    }
   },
@@ -221,11 +221,11 @@
    "slug": "commercial-turf",
    "name": {
     "value": "Commercial, HOA and sports turf",
-    "status": "INFERENCE",
-    "source": "derived",
-    "source_detail": "src/data/services.ts (research-led service plan). Brian's general list on the 2026-09-04 sister-brand call (00:45:51) names putting greens, residential landscape turf, commercial, pet turf and indoor work, not stated for NoCo specifically.",
-    "date": "2026-09-24",
-    "note": "pending Brian (Appendix A #4)",
+    "status": "CLIENT_CONFIRMED",
+    "source": "client_confirmed",
+    "source_detail": "Brian confirmed to Ty that NoCo offers this service (Ty, 2026-09-29, approving the site for launch after Brian reviewed the preview)",
+    "date": "2026-09-29",
+    "note": "confirmed by Brian 2026-09-29, via Ty",
     "render": false
    }
   },
@@ -274,11 +274,11 @@
    "slug": "windsor-co",
    "name": {
     "value": "Windsor",
-    "status": "INFERENCE",
-    "source": "operator_decision",
-    "source_detail": "src/data/territory.mjs NOCO_TOWNS; .site/decisions/2026-09-24-territory.md",
-    "date": "2026-09-24",
-    "note": "territory decided by Ty 2026-09-24; Brian to confirm the towns in his words",
+    "status": "CLIENT_CONFIRMED",
+    "source": "client_confirmed",
+    "source_detail": "Brian confirmed to Ty that NoCo works all 17 towns (Ty, 2026-09-29, approving the site for launch after Brian reviewed the preview: \"Love it. Just remove this one line.\")",
+    "date": "2026-09-29",
+    "note": "confirmed by Brian 2026-09-29, via Ty",
     "render": false
    }
   },
@@ -286,11 +286,11 @@
    "slug": "fort-collins-co",
    "name": {
     "value": "Fort Collins",
-    "status": "INFERENCE",
-    "source": "operator_decision",
-    "source_detail": "src/data/territory.mjs NOCO_TOWNS; .site/decisions/2026-09-24-territory.md",
-    "date": "2026-09-24",
-    "note": "territory decided by Ty 2026-09-24; Brian to confirm the towns in his words",
+    "status": "CLIENT_CONFIRMED",
+    "source": "client_confirmed",
+    "source_detail": "Brian confirmed to Ty that NoCo works all 17 towns (Ty, 2026-09-29, approving the site for launch after Brian reviewed the preview: \"Love it. Just remove this one line.\")",
+    "date": "2026-09-29",
+    "note": "confirmed by Brian 2026-09-29, via Ty",
     "render": false
    }
   },
@@ -298,11 +298,11 @@
    "slug": "loveland-co",
    "name": {
     "value": "Loveland",
-    "status": "INFERENCE",
-    "source": "operator_decision",
-    "source_detail": "src/data/territory.mjs NOCO_TOWNS; .site/decisions/2026-09-24-territory.md",
-    "date": "2026-09-24",
-    "note": "territory decided by Ty 2026-09-24; Brian to confirm the towns in his words",
+    "status": "CLIENT_CONFIRMED",
+    "source": "client_confirmed",
+    "source_detail": "Brian confirmed to Ty that NoCo works all 17 towns (Ty, 2026-09-29, approving the site for launch after Brian reviewed the preview: \"Love it. Just remove this one line.\")",
+    "date": "2026-09-29",
+    "note": "confirmed by Brian 2026-09-29, via Ty",
     "render": false
    }
   },
@@ -310,11 +310,11 @@
    "slug": "greeley-co",
    "name": {
     "value": "Greeley",
-    "status": "INFERENCE",
-    "source": "operator_decision",
-    "source_detail": "src/data/territory.mjs NOCO_TOWNS; .site/decisions/2026-09-24-territory.md",
-    "date": "2026-09-24",
-    "note": "territory decided by Ty 2026-09-24; Brian to confirm the towns in his words",
+    "status": "CLIENT_CONFIRMED",
+    "source": "client_confirmed",
+    "source_detail": "Brian confirmed to Ty that NoCo works all 17 towns (Ty, 2026-09-29, approving the site for launch after Brian reviewed the preview: \"Love it. Just remove this one line.\")",
+    "date": "2026-09-29",
+    "note": "confirmed by Brian 2026-09-29, via Ty",
     "render": false
    }
   },
@@ -322,11 +322,11 @@
    "slug": "timnath-co",
    "name": {
     "value": "Timnath",
-    "status": "INFERENCE",
-    "source": "operator_decision",
-    "source_detail": "src/data/territory.mjs NOCO_TOWNS; .site/decisions/2026-09-24-territory.md",
-    "date": "2026-09-24",
-    "note": "territory decided by Ty 2026-09-24; Brian to confirm the towns in his words",
+    "status": "CLIENT_CONFIRMED",
+    "source": "client_confirmed",
+    "source_detail": "Brian confirmed to Ty that NoCo works all 17 towns (Ty, 2026-09-29, approving the site for launch after Brian reviewed the preview: \"Love it. Just remove this one line.\")",
+    "date": "2026-09-29",
+    "note": "confirmed by Brian 2026-09-29, via Ty",
     "render": false
    }
   },
@@ -334,11 +334,11 @@
    "slug": "johnstown-co",
    "name": {
     "value": "Johnstown",
-    "status": "INFERENCE",
-    "source": "operator_decision",
-    "source_detail": "src/data/territory.mjs NOCO_TOWNS; .site/decisions/2026-09-24-territory.md",
-    "date": "2026-09-24",
-    "note": "territory decided by Ty 2026-09-24; Brian to confirm the towns in his words",
+    "status": "CLIENT_CONFIRMED",
+    "source": "client_confirmed",
+    "source_detail": "Brian confirmed to Ty that NoCo works all 17 towns (Ty, 2026-09-29, approving the site for launch after Brian reviewed the preview: \"Love it. Just remove this one line.\")",
+    "date": "2026-09-29",
+    "note": "confirmed by Brian 2026-09-29, via Ty",
     "render": false
    }
   },
@@ -346,11 +346,11 @@
    "slug": "berthoud-co",
    "name": {
     "value": "Berthoud",
-    "status": "INFERENCE",
-    "source": "operator_decision",
-    "source_detail": "src/data/territory.mjs NOCO_TOWNS; .site/decisions/2026-09-24-territory.md",
-    "date": "2026-09-24",
-    "note": "territory decided by Ty 2026-09-24; Brian to confirm the towns in his words",
+    "status": "CLIENT_CONFIRMED",
+    "source": "client_confirmed",
+    "source_detail": "Brian confirmed to Ty that NoCo works all 17 towns (Ty, 2026-09-29, approving the site for launch after Brian reviewed the preview: \"Love it. Just remove this one line.\")",
+    "date": "2026-09-29",
+    "note": "confirmed by Brian 2026-09-29, via Ty",
     "render": false
    }
   },
@@ -358,11 +358,11 @@
    "slug": "firestone-co",
    "name": {
     "value": "Firestone",
-    "status": "INFERENCE",
-    "source": "operator_decision",
-    "source_detail": "src/data/territory.mjs NOCO_TOWNS; .site/decisions/2026-09-24-territory.md",
-    "date": "2026-09-24",
-    "note": "territory decided by Ty 2026-09-24; Brian to confirm the towns in his words",
+    "status": "CLIENT_CONFIRMED",
+    "source": "client_confirmed",
+    "source_detail": "Brian confirmed to Ty that NoCo works all 17 towns (Ty, 2026-09-29, approving the site for launch after Brian reviewed the preview: \"Love it. Just remove this one line.\")",
+    "date": "2026-09-29",
+    "note": "confirmed by Brian 2026-09-29, via Ty",
     "render": false
    }
   },
@@ -370,11 +370,11 @@
    "slug": "mead-co",
    "name": {
     "value": "Mead",
-    "status": "INFERENCE",
-    "source": "operator_decision",
-    "source_detail": "src/data/territory.mjs NOCO_TOWNS; .site/decisions/2026-09-24-territory.md",
-    "date": "2026-09-24",
-    "note": "territory decided by Ty 2026-09-24; Brian to confirm the towns in his words",
+    "status": "CLIENT_CONFIRMED",
+    "source": "client_confirmed",
+    "source_detail": "Brian confirmed to Ty that NoCo works all 17 towns (Ty, 2026-09-29, approving the site for launch after Brian reviewed the preview: \"Love it. Just remove this one line.\")",
+    "date": "2026-09-29",
+    "note": "confirmed by Brian 2026-09-29, via Ty",
     "render": false
    }
   },
@@ -382,11 +382,11 @@
    "slug": "frederick-co",
    "name": {
     "value": "Frederick",
-    "status": "INFERENCE",
-    "source": "operator_decision",
-    "source_detail": "src/data/territory.mjs NOCO_TOWNS; .site/decisions/2026-09-24-territory.md",
-    "date": "2026-09-24",
-    "note": "territory decided by Ty 2026-09-24; Brian to confirm the towns in his words",
+    "status": "CLIENT_CONFIRMED",
+    "source": "client_confirmed",
+    "source_detail": "Brian confirmed to Ty that NoCo works all 17 towns (Ty, 2026-09-29, approving the site for launch after Brian reviewed the preview: \"Love it. Just remove this one line.\")",
+    "date": "2026-09-29",
+    "note": "confirmed by Brian 2026-09-29, via Ty",
     "render": false
    }
   },
@@ -394,11 +394,11 @@
    "slug": "longmont-co",
    "name": {
     "value": "Longmont",
-    "status": "INFERENCE",
-    "source": "operator_decision",
-    "source_detail": "src/data/territory.mjs NOCO_TOWNS; .site/decisions/2026-09-24-territory.md",
-    "date": "2026-09-24",
-    "note": "territory decided by Ty 2026-09-24; Brian to confirm the towns in his words",
+    "status": "CLIENT_CONFIRMED",
+    "source": "client_confirmed",
+    "source_detail": "Brian confirmed to Ty that NoCo works all 17 towns (Ty, 2026-09-29, approving the site for launch after Brian reviewed the preview: \"Love it. Just remove this one line.\")",
+    "date": "2026-09-29",
+    "note": "confirmed by Brian 2026-09-29, via Ty",
     "render": false
    }
   },
@@ -406,11 +406,11 @@
    "slug": "wellington-co",
    "name": {
     "value": "Wellington",
-    "status": "INFERENCE",
-    "source": "operator_decision",
-    "source_detail": "src/data/territory.mjs NOCO_TOWNS; .site/decisions/2026-09-24-territory.md",
-    "date": "2026-09-24",
-    "note": "territory decided by Ty 2026-09-24; Brian to confirm the towns in his words",
+    "status": "CLIENT_CONFIRMED",
+    "source": "client_confirmed",
+    "source_detail": "Brian confirmed to Ty that NoCo works all 17 towns (Ty, 2026-09-29, approving the site for launch after Brian reviewed the preview: \"Love it. Just remove this one line.\")",
+    "date": "2026-09-29",
+    "note": "confirmed by Brian 2026-09-29, via Ty",
     "render": false
    }
   },
@@ -418,11 +418,11 @@
    "slug": "severance-co",
    "name": {
     "value": "Severance",
-    "status": "INFERENCE",
-    "source": "operator_decision",
-    "source_detail": "src/data/territory.mjs NOCO_TOWNS; .site/decisions/2026-09-24-territory.md",
-    "date": "2026-09-24",
-    "note": "territory decided by Ty 2026-09-24; Brian to confirm the towns in his words",
+    "status": "CLIENT_CONFIRMED",
+    "source": "client_confirmed",
+    "source_detail": "Brian confirmed to Ty that NoCo works all 17 towns (Ty, 2026-09-29, approving the site for launch after Brian reviewed the preview: \"Love it. Just remove this one line.\")",
+    "date": "2026-09-29",
+    "note": "confirmed by Brian 2026-09-29, via Ty",
     "render": false
    }
   },
@@ -430,11 +430,11 @@
    "slug": "evans-co",
    "name": {
     "value": "Evans",
-    "status": "INFERENCE",
-    "source": "operator_decision",
-    "source_detail": "src/data/territory.mjs NOCO_TOWNS; .site/decisions/2026-09-24-territory.md",
-    "date": "2026-09-24",
-    "note": "territory decided by Ty 2026-09-24; Brian to confirm the towns in his words",
+    "status": "CLIENT_CONFIRMED",
+    "source": "client_confirmed",
+    "source_detail": "Brian confirmed to Ty that NoCo works all 17 towns (Ty, 2026-09-29, approving the site for launch after Brian reviewed the preview: \"Love it. Just remove this one line.\")",
+    "date": "2026-09-29",
+    "note": "confirmed by Brian 2026-09-29, via Ty",
     "render": false
    }
   },
@@ -442,11 +442,11 @@
    "slug": "eaton-co",
    "name": {
     "value": "Eaton",
-    "status": "INFERENCE",
-    "source": "operator_decision",
-    "source_detail": "src/data/territory.mjs NOCO_TOWNS; .site/decisions/2026-09-24-territory.md",
-    "date": "2026-09-24",
-    "note": "territory decided by Ty 2026-09-24; Brian to confirm the towns in his words",
+    "status": "CLIENT_CONFIRMED",
+    "source": "client_confirmed",
+    "source_detail": "Brian confirmed to Ty that NoCo works all 17 towns (Ty, 2026-09-29, approving the site for launch after Brian reviewed the preview: \"Love it. Just remove this one line.\")",
+    "date": "2026-09-29",
+    "note": "confirmed by Brian 2026-09-29, via Ty",
     "render": false
    }
   },
@@ -454,11 +454,11 @@
    "slug": "milliken-co",
    "name": {
     "value": "Milliken",
-    "status": "INFERENCE",
-    "source": "operator_decision",
-    "source_detail": "src/data/territory.mjs NOCO_TOWNS; .site/decisions/2026-09-24-territory.md",
-    "date": "2026-09-24",
-    "note": "territory decided by Ty 2026-09-24; Brian to confirm the towns in his words",
+    "status": "CLIENT_CONFIRMED",
+    "source": "client_confirmed",
+    "source_detail": "Brian confirmed to Ty that NoCo works all 17 towns (Ty, 2026-09-29, approving the site for launch after Brian reviewed the preview: \"Love it. Just remove this one line.\")",
+    "date": "2026-09-29",
+    "note": "confirmed by Brian 2026-09-29, via Ty",
     "render": false
    }
   },
@@ -466,11 +466,11 @@
    "slug": "dacono-co",
    "name": {
     "value": "Dacono",
-    "status": "INFERENCE",
-    "source": "operator_decision",
-    "source_detail": "src/data/territory.mjs NOCO_TOWNS; .site/decisions/2026-09-24-territory.md",
-    "date": "2026-09-24",
-    "note": "territory decided by Ty 2026-09-24; Brian to confirm the towns in his words",
+    "status": "CLIENT_CONFIRMED",
+    "source": "client_confirmed",
+    "source_detail": "Brian confirmed to Ty that NoCo works all 17 towns (Ty, 2026-09-29, approving the site for launch after Brian reviewed the preview: \"Love it. Just remove this one line.\")",
+    "date": "2026-09-29",
+    "note": "confirmed by Brian 2026-09-29, via Ty",
     "render": false
    }
   }

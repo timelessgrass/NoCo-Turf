@@ -13,11 +13,12 @@ const { guides, sources, title, id = 'read-next' } = Astro.props;
 const all = await visibleGuides();
 const list = guides.map((g) => all.find((x) => x.id === g)).filter((g): g is (typeof all)[number] => Boolean(g));
 ---
-<section class="section section--tight svrel" aria-labelledby={`${id}-h`}>
+<section class="section section--tight svrel" aria-labelledby={list.length > 0 ? `${id}-h` : undefined} aria-label={list.length > 0 ? undefined : 'Sources'}>
   <div class="wrap svrel__grid">
-    <div>
+    {/* No live guide to point to: no "Read next" heading over an empty list, just the sources. */}
+    {list.length > 0 && <div>
       <ServiceHead label="Read next" id={`${id}-h`}>{title}</ServiceHead>
-      {list.length > 0 && (
+      {(
         <ul class="svrel__list" role="list">
           {list.map((g) => {
             const d = g.entry.data as { title: string; description: string };
@@ -33,7 +34,7 @@ const list = guides.map((g) => all.find((x) => x.id === g)).filter((g): g is (ty
           })}
         </ul>
       )}
-    </div>
+    </div>}
     <div class="svrel__src">
       <Sources sources={sources} title="Sources for this page" />
     </div>

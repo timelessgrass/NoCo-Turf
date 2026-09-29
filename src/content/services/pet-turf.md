@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 slug: pet-turf
 title: "Pet Turf and Dog Runs in Northern Colorado | NoCo Turf Co."
 description: "Dog runs and pet turf that drain instead of holding odor: what the backing, base and infill decide, how hot turf gets for paws, and what your HOA can't ban."
@@ -104,4 +104,3 @@ What helps:
 
 **The turf itself.** Since January 1, 2026, Colorado law bars anyone from installing artificial turf that contains intentionally added PFAS chemicals. Ask for the product's documentation before you sign.
 
-More in [how HOA approval works](/guides/hoa-turf-approval/) and the [town-by-town turf rules](/guides/turf-rules-northern-colorado/).

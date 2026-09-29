@@ -376,9 +376,10 @@ describe('decisions', () => {
     '/thank-you/': '/thanks/',
     '/index.html': '/',
     '/artificial-grass-installation-evans-co/': '/areas/evans-co/',
-    '/noco-turf-co-breaks-down-residential-synthetic-grass-cost/': '/guides/artificial-turf-cost/',
+    // launch (2026-09-29): the cost guide and turf repair aren't live, so their docs/REDIRECTS.md holds apply
+    '/noco-turf-co-breaks-down-residential-synthetic-grass-cost/': '/services/artificial-turf-installation/',
     '/installation-services/': '/services/artificial-turf-installation/',
-    '/maintenance-services/': '/services/turf-repair/',
+    '/maintenance-services/': '/services/artificial-turf-installation/',
     '/why-noco-turf-co': '/about/',
     '/privacy-policy-2/': '/privacy/',
     '/terms-and-conditions/': '/terms/',
@@ -397,9 +398,12 @@ describe('decisions', () => {
     assert.equal(resolve('/review'), null);
   });
 
-  test(`store URLs go to /${TURF_SUPPLY}/ (services.ts TURF_SUPPLY)`, () => {
+  // The store isn't a page at launch (services.ts TURF_SUPPLY, 2026-09-29): its URLs go to installation, and the three
+  // categories that match a service go to it (docs/REDIRECTS.md holds). When /turf-supply/ ships, point them back.
+  const STORE_FINER = { '/product-category/putting-green/': '/services/putting-greens/', '/product-category/pet-friendly/': '/services/pet-turf/', '/product-category/commercial/': '/services/commercial-turf/' };
+  test(`store URLs go to the installation service while /${TURF_SUPPLY}/ is not a page`, () => {
     for (const p of INVENTORY.filter((x) => /^\/(product|product-category|shop|new-shop)\//.test(x))) {
-      assert.equal(toPath(resolve(p)?.to ?? ''), `/${TURF_SUPPLY}/`, p);
+      assert.equal(toPath(resolve(p)?.to ?? ''), STORE_FINER[p] ?? '/services/artificial-turf-installation/', p);
     }
   });
 });

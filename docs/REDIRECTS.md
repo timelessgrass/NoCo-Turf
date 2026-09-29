@@ -273,6 +273,12 @@ one row here. A commercial-turf page can't pass its gate until Brian supplies a 
 `LAUNCH_CHECK=1` fails while any 301 target is missing from `dist/`. For each target that does not ship, repoint its lines
 as below (still one hop), update this table, and run the test.
 
+**Applied at launch, 2026-09-29:** `/turf-supply/` (every store line → installation; the putting-green, pet-friendly and
+commercial categories → their service), `/services/turf-repair/` (`/maintenance-services/` → installation, moved into
+installation's `legacy`), `/guides/artificial-turf-cost/` → installation, and the old blog posts whose guides aren't
+live (pet safety → pet turf; cleaning, concrete, lifespan, heat, materials → installation). Point each back when its
+page ships.
+
 | Target | Ships when | If it doesn't ship, repoint to |
 |---|---|---|
 | `/turf-supply/` | Brian confirms the Windsor store still sells to the public (`TURF_SUPPLY.confirmed` in services.ts; Appendix A question 1) | `/services/artificial-turf-installation/` for every `/turf-supply/` line: 2 store pages, 20 products, 5 categories, 2 splats and the 2 "where to buy" posts. services.ts already names this fallback. Optional, finer: `/product-category/putting-green/` → `/services/putting-greens/`, `/product-category/pet-friendly/` → `/services/pet-turf/`, `/product-category/commercial/` → `/services/commercial-turf/` |
