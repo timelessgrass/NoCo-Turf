@@ -376,9 +376,9 @@ describe('decisions', () => {
     '/thank-you/': '/thanks/',
     '/index.html': '/',
     '/artificial-grass-installation-evans-co/': '/areas/evans-co/',
-    // launch (2026-09-29): the cost guide and turf repair aren't live, so their docs/REDIRECTS.md holds apply
-    '/noco-turf-co-breaks-down-residential-synthetic-grass-cost/': '/services/artificial-turf-installation/',
+    '/noco-turf-co-breaks-down-residential-synthetic-grass-cost/': '/guides/artificial-turf-cost/',
     '/installation-services/': '/services/artificial-turf-installation/',
+    // turf repair isn't confirmed, so its docs/REDIRECTS.md hold applies (2026-09-29)
     '/maintenance-services/': '/services/artificial-turf-installation/',
     '/why-noco-turf-co': '/about/',
     '/privacy-policy-2/': '/privacy/',

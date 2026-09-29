@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: pets
 kind: guide
 title: "Is Artificial Turf Safe for Dogs and Cats? | NoCo Turf Co."
@@ -17,11 +17,11 @@ answer:
   answer: "Mostly, with a few things to manage. In full sun, turf runs 35 to 55°F hotter than grass and can burn paws, so give shade and let pets out early or late. Fasten edges so blades can't be pulled up and swallowed. Keep pets off cleaners until dry, and pick cat droppings out of sand infill daily."
 faq:
   - q: "Is ice melt near the turf a problem for paws?"
-    a: "It can be. The ASPCA says pets usually take in ice melt by licking their feet after walking through a treated area, or by eating snow that holds it, and advises wiping paws with a damp cloth as soon as they come inside. What each kind of melt does to the turf itself is in our guide to [clearing snow off artificial turf](/guides/artificial-turf-snow-removal/)."
+    a: "It can be. The ASPCA says pets usually take in ice melt by licking their feet after walking through a treated area, or by eating snow that holds it, and advises wiping paws with a damp cloth as soon as they come inside."
   - q: "Can my dog pick up worms from droppings left on the turf?"
     a: "From dog or cat poop left long enough, yes. The CDC says roundworm eggs take 2 to 4 weeks outdoors to become infective, can then survive for months or even years, and advises picking up pet waste daily. The cleanup routine is in [dog poop on artificial turf](/guides/dog-poop-on-artificial-turf/)."
   - q: "Will artificial turf give my dog fleas?"
-    a: "Not by itself. Colorado State University says fleas are rarely a problem in Colorado's dry climate, because cat flea eggs need more than 50% relative humidity to hatch. Ticks, ants and mosquitoes are in [does artificial turf attract bugs](/guides/does-artificial-turf-attract-bugs/)."
+    a: "Not by itself. Colorado State University says fleas are rarely a problem in Colorado's dry climate, because cat flea eggs need more than 50% relative humidity to hatch."
   - q: "My dog licked a turf cleaner. Who do I call?"
     a: "Your veterinarian or the ASPCA Animal Poison Control Center, which says to contact one of them if you suspect a pet was exposed to a poisonous substance. Keep the bottle. If the product disinfects, its label carries an EPA registration number, which EPA calls the only accurate way to identify a product."
 layerRefs:
@@ -152,6 +152,11 @@ related:
   towns:
     - greeley-co
     - fort-collins-co
+photos:
+  - gbp-dog-yard
+reviews:
+  - ally
+  - kevin
 needsFromBrian:
   - "Whether any customer's dog has chewed turf, pulled up an edge or seam, or eaten infill, or a cat has used the infill as a litter box, and what changed afterward (the edge detail, the infill, the layout)."
   - "The cleaners and enzyme products you recommend for dog and cat yards, by product name, with the EPA registration number of any that disinfects, so the cleaner section can say what a Northern Colorado customer is actually told to use."
@@ -190,7 +195,7 @@ CSU's everyday rule fits a turf yard: fresh water and shade, especially in the h
 
 ## What if my dog chews the turf or eats the infill?
 
-Start with the edges. K9Grass, a pet-turf maker, says turf held down only by spikes or infill weight leaves edges a dog can lift, after which the blades and spikes become things it can swallow; it adds that tufted blades can be pulled out, a pitch for its own knitted turf ([K9Grass](https://k9grass.com/faq/do-dogs-chew-on-dog-friendly-turf/)). Block off a lifted edge or seam until it is fixed ([how to repair artificial turf](/guides/how-to-repair-artificial-turf/)), and see [can dogs dig through artificial turf](/guides/can-dogs-dig-through-artificial-turf/) for a dog that works at it.
+Start with the edges. K9Grass, a pet-turf maker, says turf held down only by spikes or infill weight leaves edges a dog can lift, after which the blades and spikes become things it can swallow; it adds that tufted blades can be pulled out, a pitch for its own knitted turf ([K9Grass](https://k9grass.com/faq/do-dogs-chew-on-dog-friendly-turf/)). Block off a lifted edge or seam until it is fixed, and see [can dogs dig through artificial turf](/guides/can-dogs-dig-through-artificial-turf/) for a dog that works at it.
 
 Plastic is on VCA's list of things dogs with pica eat, and the most common result is a gastrointestinal obstruction, which can cause pain, reduced appetite and vomiting ([VCA](https://vcahospitals.com/know-your-pet/pica-in-dogs)). A dog that vomits or goes off its food after chewing turf needs a vet.
 
@@ -219,7 +224,7 @@ Cats need the closer read:
 
 Whatever the product, the National Pesticide Information Center's routine fits: move pets, toys and bowls out first, and keep pets off until the treated area is completely dry ([NPIC](https://npic.orst.edu/faq/pets.html)).
 
-Then mind the rinse water. In Fort Collins, storm sewers carry runoff to the creeks and the Poudre River without treatment, and driveways drain to creeks ([Fort Collins Utilities](https://www.fortcollins.gov/Services/Utilities/Other-Utilities-Pages/Water/Stormwater)), so rinse toward the middle of the turf. Each town's stormwater rules are in [how to clean artificial turf](/guides/how-to-clean-artificial-turf/); odor is in [dog urine smell in artificial turf](/guides/dog-urine-smell-artificial-turf/).
+Then mind the rinse water. In Fort Collins, storm sewers carry runoff to the creeks and the Poudre River without treatment, and driveways drain to creeks ([Fort Collins Utilities](https://www.fortcollins.gov/Services/Utilities/Other-Utilities-Pages/Water/Stormwater)), so rinse toward the middle of the turf.
 
 ## Will cats use the infill as a litter box?
 

@@ -196,6 +196,9 @@ const guides = defineCollection({
      *  (check-content fails an id that isn't there). For guides a photo honestly illustrates — a putting-green
      *  design guide with Brian's own greens; never a stand-in. */
     photos: z.array(z.string()).max(3).default([]),
+    /** Up to two src/data/reviews.ts QUOTES ids whose words speak to this guide's subject, printed as quote cards
+     *  (GuideReviews). With `photos`, the first-hand part a published guide needs (scripts/check-content.mjs). */
+    reviews: z.array(z.string()).max(2).default([]),
     needsFromBrian: z.array(z.string()).default([]),
   }),
 });

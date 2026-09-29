@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: buying
 kind: guide
 title: "How Much Artificial Turf, Base and Infill Do I Need? | NoCo Turf Co."
@@ -109,6 +109,9 @@ related:
     - wellington-co
     - frederick-co
     - windsor-co
+photos:
+  - gbp-winding
+  - gbp-curved-border
 needsFromBrian:
   - "The roll widths you order (12, 13 or 15 feet) and the waste allowance you plan on a typical Northern Colorado backyard, so the page can say what a real layout wastes instead of quoting manufacturers."
   - "One real takeoff drawing, address withheld: the yard's square footage, the turf ordered, the strips and seam lines, and which way the grain leans, with a sentence on how you plan seams to limit waste on a curved or narrow yard."
@@ -143,7 +146,7 @@ The percentages and the turned layout are our arithmetic. What they show:
 - **Rules of thumb assume the layout suits the roll.** Shaw suggests about 10% extra where the design has curves, SYNLawn 10 to 20% for many curves and irregular shapes. A 20-foot-wide yard in 15-foot rolls wastes far more.
 - **Turning the rolls can save turf.** Turned, the 20 by 25 yard needs 150 square feet less, but its grain leans across the yard instead of toward the street. SYNLawn says a less-than-ideal direction sometimes makes sense to cut waste; where the yard is seen from decides.
 - **Length needs slack too.** Integriturf adds 1 to 2 feet to each piece, and Shaw plans on about 18 inches of waste at the roll's core, where turf can be too wrinkled to use.
-- **Every extra strip is a seam.** Where seams should go is in our guide to [visible seams](/guides/visible-seams-in-artificial-turf/).
+- **Every extra strip is a seam.**
 
 ## How many tons of base rock does a turf area take?
 
@@ -161,7 +164,7 @@ Three things move the order:
 - **A fines cap is its own layer.** At Pioneer's 1.35 tons per cubic yard, a 1-inch cap of crusher fines over 1,000 square feet is about 3.1 cubic yards, roughly 4.2 tons. Either rock comes to about 4 tons per inch of depth per 1,000 square feet.
 - **Firestone sets a floor:** a compacted, porous aggregate base at least 3 inches deep ([Firestone Development Code 16.6.4](https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE)).
 
-SYNLawn counts 13 to 16 wheelbarrow loads per ton: 130 to 160 trips from the driveway for 10 tons, so whether a machine fits through the side gate matters as much as the tonnage. Which rock suits your soil is in [what base goes under artificial turf](/guides/what-base-goes-under-artificial-turf/).
+SYNLawn counts 13 to 16 wheelbarrow loads per ton: 130 to 160 trips from the driveway for 10 tons, so whether a machine fits through the side gate matters as much as the tonnage.
 
 ## How much infill goes into the turf?
 
@@ -186,7 +189,7 @@ Less than the headline 75%. Firestone applies its turf rules to lots that existe
 The live-plant rule decides: 800 square feet, a third of the yard, or 1,200 with no patio. Two more rules shape where it goes:
 
 - **A 3-foot buffer.** Turf must stop at least 3 feet from any property line, with permeable, living landscape between. On a backyard 60 feet wide and 40 feet deep, with property lines on three sides, that strip is about 400 square feet. A narrow side yard may have no room left for turf; see [turf in a side yard](/guides/artificial-turf-side-yard/).
-- **Slopes.** No turf on a slope steeper than 5:1; see [turf on a slope](/guides/artificial-turf-on-a-slope/).
+- **Slopes.** No turf on a slope steeper than 5:1.
 
 Whether a planted buffer counts toward the live-plant half, and how the Town measures your yards, depends on Firestone's reading: ask Firestone Planning. The code's rear yard runs across the lot between the side lot lines, from the rear lot line to the back of the house ([16.11.3](https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH11DE_16.11.3TEDE)). Front yards need 75% live plants, leaving little room for turf. Not legal advice: this is our reading of the code on September 25, 2026.
 

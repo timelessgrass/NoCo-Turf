@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: safety
 kind: guide
 title: "Is Artificial Turf Toxic? Lead, PFAS and Kids | NoCo Turf Co."
@@ -128,6 +128,8 @@ related:
   towns:
     - firestone-co
     - fort-collins-co
+photos:
+  - playset
 needsFromBrian:
   - "For each turf and infill product NoCo installs today (lawn, pet, play, putting green): the maker's dated PFAS statement naming the product, any PFAS lab report with its method and detection limit, and a total-lead result for the fiber. The page names no product and makes no PFAS-free claim until these are in hand (claims.json: the PFAS-free claim)."
   - "Which yarns you install, blade and thatch: all polyethylene or polypropylene, or any nylon? One sentence in your words would let the page say what homeowners get from NoCo."
@@ -157,7 +159,7 @@ The Northern Colorado factor is sun. EPA's rule of about 6% more UV per kilomete
 - If the dust holds more than 400 ppm lead, keep children under 6 off it.
 - Replace worn, dusty turf of that kind as soon as practicable.
 
-Firestone's code draws the same line: blades and backing must be lead-free polyethylene, polypropylene, a vegetable-based product or a blend, and "Nylon or other plastic shall be prohibited" ([Firestone Development Code 16.6.4](https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE)); the town's other rules are on the [Firestone area page](/areas/firestone-co/). Old field rolls raise the same question: see [used turf](/guides/used-artificial-turf/) and [nylon vs polyethylene](/guides/nylon-vs-polyethylene-turf/).
+Firestone's code draws the same line: blades and backing must be lead-free polyethylene, polypropylene, a vegetable-based product or a blend, and "Nylon or other plastic shall be prohibited" ([Firestone Development Code 16.6.4](https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE)); the town's other rules are on the [Firestone area page](/areas/firestone-co/). Old field rolls raise the same question.
 
 ## What should I ask for about PFAS?
 
@@ -174,17 +176,17 @@ The papers to ask for:
 - **A total-fluorine screen, not only a short list.** TURI warns that missing a few named PFAS doesn't make a material PFAS-free; a total fluorine test or TOP assay shows whether PFAS are likely present. The Synthetic Turf Council told DTSC its members pair individual-PFAS tests with a total organic fluorine test.
 - **Where to ask.** Colorado's health department lists the turf ban among the state's PFAS laws and takes questions about its consumer-product bans at cdphe_pfas@state.co.us ([CDPHE](https://cdphe.colorado.gov/pfas/health/consumer-products)).
 
-Fort Collins raised the concern early. At a January 10, 2023 work session, City Council did not support synthetic turf, "citing the potential for PFAS to leach into our waterways" ([City of Fort Collins](https://ourcity.fcgov.com/xsa)). The Land Use Code it adopted in 2025 keeps artificial turf out of development landscape plans, though existing single- and two-unit home lots are exempt ([Ordinance No. 008, 2025](https://mccmeetingspublic.blob.core.usgovcloudapi.net/fortcollco-meet-0538ebaac95447ff8c4f53ebc4c0adf8/ITEM-Attachment-004-785f079234b4438a8e8675d01d6f3bd4.pdf); [Fort Collins area page](/areas/fort-collins-co/)). Runoff and plastic bits are covered in does turf shed microplastics and [is turf bad for the environment](/guides/is-artificial-turf-bad-for-environment/).
+Fort Collins raised the concern early. At a January 10, 2023 work session, City Council did not support synthetic turf, "citing the potential for PFAS to leach into our waterways" ([City of Fort Collins](https://ourcity.fcgov.com/xsa)). The Land Use Code it adopted in 2025 keeps artificial turf out of development landscape plans, though existing single- and two-unit home lots are exempt ([Ordinance No. 008, 2025](https://mccmeetingspublic.blob.core.usgovcloudapi.net/fortcollco-meet-0538ebaac95447ff8c4f53ebc4c0adf8/ITEM-Attachment-004-785f079234b4438a8e8675d01d6f3bd4.pdf); [Fort Collins area page](/areas/fort-collins-co/)). Runoff and plastic bits are covered in [is turf bad for the environment](/guides/is-artificial-turf-bad-for-environment/).
 
 ## What about crumb rubber?
 
-Crumb rubber, the ground-tire infill on many sports fields, contains metals and organic compounds, and CPSC staff read the federal research as showing limited exposure on fields through breathing and skin ([EPA](https://www.epa.gov/chemical-research/federal-research-recycled-tire-crumb-used-playing-fields-and-playgrounds), [CPSC](https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Crumb-Rubber-Safety-Information-Center)). Firestone's code prohibits it as turf infill, and the rest of the evidence, cancer questions included, is in [is crumb rubber safe](/guides/is-crumb-rubber-safe/).
+Crumb rubber, the ground-tire infill on many sports fields, contains metals and organic compounds, and CPSC staff read the federal research as showing limited exposure on fields through breathing and skin ([EPA](https://www.epa.gov/chemical-research/federal-research-recycled-tire-crumb-used-playing-fields-and-playgrounds), [CPSC](https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Crumb-Rubber-Safety-Information-Center)). Firestone's code prohibits it as turf infill.
 
 ## Is the new-turf smell off-gassing, and does it matter?
 
 The air testing we found was done on crumb-rubber sports fields, not new residential polyethylene lawns. On those fields, New York State, New York City and Connecticut sampled the air during play and found inhalation exposure insignificant and no different from grass ([NYSDOH](https://www.health.ny.gov/environmental/outdoors/synthetic_turf/crumb-rubber_infilled/fact_sheet.htm)). An indoor Connecticut field ran higher, with its exhaust system off, and the authors recommended ventilating indoor fields.
 
-So plan for indoor turf. EPA says many volatile organic compounds run consistently higher indoors, up to ten times the outdoor level ([EPA](https://www.epa.gov/indoor-air-quality-iaq/volatile-organic-compounds-impact-indoor-air-quality)). Keep a basement putting green or garage gym ventilated while the turf is new; see [indoor putting greens](/guides/indoor-putting-green-for-home/) and turf on a garage or basement floor.
+So plan for indoor turf. EPA says many volatile organic compounds run consistently higher indoors, up to ten times the outdoor level ([EPA](https://www.epa.gov/indoor-air-quality-iaq/volatile-organic-compounds-impact-indoor-air-quality)). Keep a basement putting green or garage gym ventilated while the turf is new.
 
 ## What if my toddler gets infill or turf dust in their mouth?
 
@@ -196,7 +198,7 @@ Ordinary habits cut exposure:
 - Keep snacks off the turf. CDC discouraged eating on turf fields, and CPSC advises against mouthing, chewing or swallowing playground rubber.
 - Know the infill. Firestone requires a non-toxic, anti-microbial infill such as silica sand or acrylic-coated sand, and says turf and infill may not be toxic to people or pets. Options are compared in [turf infill types](/guides/artificial-turf-infill-types/).
 
-CDC adds that lead safety at home counts whatever the playing surface: have a house built before 1978 inspected for lead. Rinse-safe cleaners are in [how to clean artificial turf](/guides/how-to-clean-artificial-turf/).
+CDC adds that lead safety at home counts whatever the playing surface: have a house built before 1978 inspected for lead.
 
 ## Which papers should I ask an installer for?
 

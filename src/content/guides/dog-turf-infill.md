@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: pets
 kind: comparison
 title: "Dog Turf Infill: Zeolite vs Coated Sand vs Silica | NoCo Turf Co."
@@ -21,11 +21,11 @@ faq:
   - q: "Does zeolite keep dog turf cooler?"
     a: "Its maker says so, through moisture the granules hold and give off, and quotes two figures: up to 30°F on the product page and up to 32°F in its FAQ. Dry granules have little to give, and the Greeley UNC station averages 58.3 days a year at or above 90°F. Our guide to how hot artificial turf gets covers what cools it."
   - q: "Can I sprinkle zeolite onto turf that already smells?"
-    a: "You can brush it in, but Motz, a coated-sand maker, warns that adding an odor-fighting infill over old, smelly infill won't fix the smell by itself. Clean first; our guide to getting dog urine smell out of turf walks through it."
+    a: "You can brush it in, but Motz, a coated-sand maker, warns that adding an odor-fighting infill over old, smelly infill won't fix the smell by itself. Clean the turf first."
   - q: "Does it matter how many dogs I have, or how big they are?"
     a: "Yes. Motz lists the number of dogs, their size and sex, their food, and how much sun, rain and humidity the yard gets among the things that decide how likely urine is to smell. Several big dogs on a small patch point to the heavy end of the pound ranges and more rinsing."
   - q: "Is rubber infill an option for a dog yard?"
-    a: "Not in Firestone, whose code prohibits crumb rubber filler. The health questions about rubber infill are in our guide to crumb rubber safety."
+    a: "Not in Firestone, whose code prohibits crumb rubber filler."
 layerRefs:
   - dog-turf-infill.zeofill-ammonia-hold
   - dog-turf-infill.zeofill-rain-recharge
@@ -109,6 +109,11 @@ related:
     - firestone-co
     - milliken-co
     - johnstown-co
+photos:
+  - gbp-dog-yard
+reviews:
+  - ally
+  - kirk
 needsFromBrian:
   - "Which infill or infills you put under dogs, and why: zeolite, coated sand, plain silica or a layer of each, with product names."
   - "Your pounds per square foot for each layer on a dog yard, and whether it changes with the number or size of dogs."
@@ -129,7 +134,7 @@ The smell is ammonia. Motz, the maker of Envirofill coated sand, puts it plainly
 | **Acrylic-coated sand with an antimicrobial** | Slows the bacteria that turn urine into ammonia; its maker claims up to 99% less ammonia odor | Rinsing at least monthly, per the maker | Only as good as the antimicrobial in the coating |
 | **Plain silica sand** | Nothing beyond weight: no odor treatment | Rinsing | A coated-sand maker says it traps urine; angular grains compact |
 
-For getting a smell out of turf you already have, see our [guide to dog urine smell in artificial turf](/guides/dog-urine-smell-artificial-turf/). The wider range of infills, including organic and cooling products, is in our [guide to artificial turf infill types](/guides/artificial-turf-infill-types/).
+The wider range of infills, including organic and cooling products, is in our [guide to artificial turf infill types](/guides/artificial-turf-infill-types/).
 
 ## How does zeolite hold the smell, and what lets it go?
 
@@ -173,7 +178,7 @@ Motz advises checking depth once a year, or every six months in heavy-use areas;
 
 Firestone's development code spells out what goes in the turf: infill "shall be a non-toxic anti-microbial material such as silica sand or acrylic coated sand to prevent odors and bacteria formation," and "Crumb rubber filler shall be prohibited" ([Firestone Development Code 16.6.4](https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE)). The same section lists odors among the kinds of deterioration a turf area may not have, next to stains, holes and seam separations. A permit comes first, with no fee for single-family homes.
 
-Zeolite isn't named. "Such as" leaves room, but whether a zeolite layer under the sand meets the rule is Firestone's call. It depends on how the town applies that wording; ask Firestone Planning before the permit goes in. Not legal advice. Other towns' turf rules are in our [guide to artificial turf rules in Northern Colorado](/guides/turf-rules-northern-colorado/), and the health questions about rubber infill are in our [guide to crumb rubber safety](/guides/is-crumb-rubber-safe/).
+Zeolite isn't named. "Such as" leaves room, but whether a zeolite layer under the sand meets the rule is Firestone's call. It depends on how the town applies that wording; ask Firestone Planning before the permit goes in. Not legal advice. Other towns' turf rules are in our [guide to artificial turf rules in Northern Colorado](/guides/turf-rules-northern-colorado/).
 
 ## Will rinsing the infill run into watering rules?
 

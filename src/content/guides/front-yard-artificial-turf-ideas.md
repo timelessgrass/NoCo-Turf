@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: yard-design
 kind: guide
 title: "Front Yard Artificial Turf Ideas for Northern Colorado | NoCo Turf Co."
@@ -243,8 +243,8 @@ CSU's design notes say water-wise landscaping "is not necessarily anti-turf": it
 
 1. **One framed panel.** A single rectangle or one bold curve of turf, bordered by beds, reads as a lawn; thin strips and leftover corners read as carpet. CSU advises one style, rectilinear, curvilinear or angular, with features of the house as size references: line the panel up with the porch, the entry walk or the front windows. CSU also asks whether a plan should match the neighborhood's style; a panel sized like the lawns next door stands out less than wall-to-wall turf.
 2. **Beds along the house, the walk and the street.** Some HOAs spell this out: Harvest in Berthoud asks for foundation plantings along street frontages at 10 plants per 40 linear feet ([Harvest Declaration](https://berthoudharvest.com/s/07-01-2021-Harvest-HOA-CCRs-As-Recorded.pdf)), and Heron Lakes wants two specimen trees in the front yard on top of the Town's street trees ([Heron Lakes rules](https://www.berthoudheritagemd.live/s/Heron-Lakes-Design-Rules-and-Regulations-June-1-2026.pdf)).
-3. **Beds wide enough to water well.** CSU says to avoid irrigated areas less than about eight feet wide or irregularly shaped, and to put any you can't avoid on drip or hand-watering. Converting the spray zones is covered in [your sprinklers after turf](/guides/sprinkler-system-after-artificial-turf/).
-4. **A clean line between turf and plants.** Barefoot Lakes' guidelines in Firestone keep trees, shrubs and perennials out of the turf and at least half their mature spread from its edge, and conceal every edge with bender board, concrete curbing or similar ([Barefoot Lakes guidelines](https://www.stvrainmd.live/files/5457a4faf/SVLMD+-+2026+08+07+-+Amended+%26+Restated+Residential+Improvement+Guidelines+%26+Site+Restrictions+for+Barefoot.pdf)). Edge materials are in [turf edging options](/guides/artificial-turf-edging-options/), trees in [turf around trees](/guides/artificial-turf-around-trees/).
+3. **Beds wide enough to water well.** CSU says to avoid irrigated areas less than about eight feet wide or irregularly shaped, and to put any you can't avoid on drip or hand-watering.
+4. **A clean line between turf and plants.** Barefoot Lakes' guidelines in Firestone keep trees, shrubs and perennials out of the turf and at least half their mature spread from its edge, and conceal every edge with bender board, concrete curbing or similar ([Barefoot Lakes guidelines](https://www.stvrainmd.live/files/5457a4faf/SVLMD+-+2026+08+07+-+Amended+%26+Restated+Residential+Improvement+Guidelines+%26+Site+Restrictions+for+Barefoot.pdf)). Edge materials are in [turf edging options](/guides/artificial-turf-edging-options/).
 
 ## Can the strip between the sidewalk and the street be turf?
 
@@ -262,9 +262,9 @@ Elsewhere, it depends on the local code: ask the town's planning or public works
 ## What else at the front of the lot changes the plan?
 
 - **The water meter.** A meter pit in the yard has to stay reachable. Longmont makes residents keep a clear line of access, remove landscaping that blocks an outdoor meter, sod and yard edging included, and keep the meter at finished ground level ([City of Longmont](https://longmontcolorado.gov/water/water-meter-maintenance-program/)). Cut the turf around the lid, never over it, and ask your water provider for its own rule.
-- **Sidewalk snow.** Windsor requires sidewalks cleared within 24 hours after a storm ends, asks residents to pile the snow in the yard, and says to apply de-icer to an icy walk ([Town of Windsor](https://www.windsorgov.com/Faq.aspx?QID=206)). The turf right behind the walk takes that salted snow, so a rock band or planted bed there gives it somewhere to go. Clearing and de-icers are in [snow removal on turf](/guides/artificial-turf-snow-removal/).
+- **Sidewalk snow.** Windsor requires sidewalks cleared within 24 hours after a storm ends, asks residents to pile the snow in the yard, and says to apply de-icer to an icy walk ([Town of Windsor](https://www.windsorgov.com/Faq.aspx?QID=206)). The turf right behind the walk takes that salted snow, so a rock band or planted bed there gives it somewhere to go.
 - **Winter color.** Neighbors' bluegrass goes dormant in dry spells, thanks to what CSU calls its "excellent dormancy mechanism" ([PlantTalk Colorado](https://planttalk.colostate.edu/topics/lawns/1540-drought-tolerance-kentucky-bluegrass/)), while turf stays green. Blends, placement and grain direction for a street view are in [what makes turf look real](/guides/most-realistic-artificial-turf/).
-- **Passing dogs.** The corner by the walk and the mailbox post get the neighborhood's dogs; see [dog urine smell on turf](/guides/dog-urine-smell-artificial-turf/).
+- **Passing dogs.** The corner by the walk and the mailbox post get the neighborhood's dogs.
 
 ## What should a front-yard plan show before it goes to review?
 

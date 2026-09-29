@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: products
 kind: guide
 title: "Artificial Turf Pile Height: Blade Length by Use | NoCo Turf Co."
@@ -140,6 +140,12 @@ related:
     - firestone-co
     - windsor-co
     - frederick-co
+photos:
+  - gbp-lawn-green
+  - gbp-green-flag
+reviews:
+  - ally
+  - kirk
 needsFromBrian:
   - "Which pile heights you recommend for dog yards, play areas and front yards, and why, with the product names and spec sheets you install for each."
   - "A photo from a real Northern Colorado install of a ruler standing in the turf from the backing to a blade tip, with the infill line visible, so the page can show how much blade shows above the infill."
@@ -178,7 +184,7 @@ It usually looks more natural. The STC says longer, denser synthetic grass "will
 
 The STC also advises choosing turf that replicates the grass varieties common where you live. For scale, CSU Extension's preferred mowing height for Colorado lawns is 2.5 to 3 inches ([CSU Extension](https://extension.colostate.edu/resource/lawn-care-basics/)), so typical 1.5 to 2 inch turf stands shorter than a neighbor's mowed lawn before any infill goes in. That gap shows most in a front yard beside real grass.
 
-Then there is winter. NOAA's stations average 51.4 inches of snow a year at Fort Collins, 47.0 at Loveland 2N and 34.9 at Greeley UNC (1991–2020 normals). Motz says snow "can lay heavily" on turf, flattening the blades and sometimes matting them ([Motz](https://themotzgroup.com/infill_blog/our-guide-to-protecting-your-artificial-turf-in-the-winter-motz/)). Synthetic Grass Warehouse says the blades should bounce back over time, faster with cross-brushing ([SGW](https://syntheticgrasswarehouse.com/blog/how-to-care-for-artificial-grass-in-snowy-weather/)). Put that beside the resilience point and a long pile is the one more likely to need a brush after a snowy stretch. That is our reading of the sources, not a test result. Fixes are in [matted artificial turf](/guides/matted-artificial-turf/); clearing snow is in [artificial turf snow removal](/guides/artificial-turf-snow-removal/).
+Then there is winter. NOAA's stations average 51.4 inches of snow a year at Fort Collins, 47.0 at Loveland 2N and 34.9 at Greeley UNC (1991–2020 normals). Motz says snow "can lay heavily" on turf, flattening the blades and sometimes matting them ([Motz](https://themotzgroup.com/infill_blog/our-guide-to-protecting-your-artificial-turf-in-the-winter-motz/)). Synthetic Grass Warehouse says the blades should bounce back over time, faster with cross-brushing ([SGW](https://syntheticgrasswarehouse.com/blog/how-to-care-for-artificial-grass-in-snowy-weather/)). Put that beside the resilience point and a long pile is the one more likely to need a brush after a snowy stretch. That is our reading of the sources, not a test result. Fixes are in [matted artificial turf](/guides/matted-artificial-turf/).
 
 ## What pile height suits dogs, play areas and putting greens?
 
@@ -199,7 +205,7 @@ Published figures by use, with Firestone's rule and a mowed lawn for comparison:
 
 - **Dogs.** K9Grass lists a "shorter pile height to make solid waste removal easier" among what dog turf should have ([K9Grass](https://k9grass.com/faq/)), and FusionTurf says longer blades "can fold over under paw traffic and infill weight" ([FusionTurf](https://find.fusionturf.com/answers/shorter-or-longer-pile-better-for-dogs-on-artificial-turf/)). In Firestone and Barefoot Lakes the 1.75-inch floor still applies; the exception Barefoot makes for a pet-only area is less secondary thatch, not a shorter blade. More in [pet turf vs regular turf](/guides/pet-turf-vs-regular-turf/) and on our [pet turf page](/services/pet-turf/).
 - **Play areas.** Blade length is not fall protection. The CPSC says carpeting and mats are not appropriate playground surfacing unless tested to ASTM F1292 ([CPSC](https://www.cpsc.gov/s3fs-public/325.pdf)), and [Frederick](/areas/frederick-co/)'s park standards accept playground turf only as a system of turf, shock pad and infill that meets Head Impact Criteria ([Town of Frederick](https://www.frederickco.gov/DocumentCenter/View/33243/POST-Design-Standards)). See [playground turf vs mulch](/guides/playground-turf-vs-mulch/) and our [playground turf page](/services/playground-turf/).
-- **Putting greens.** The putting surface is far shorter than lawn turf, and SYNLawn Golf's fringe sits "slightly higher than the putting green" ([SYNLawn Golf](https://www.synlawngolf.com/golf-turf/fringe/)). SYNLawn sells SYNAugustine 847 for golf fringe and chipping ([SYNLawn](https://www.synlawn.com/product/synaugustine-847/)). Because Firestone's code sets one pile range for all artificial turf, a half-inch putting surface there is unsettled: it depends on how the town reads it, so ask Firestone Planning before ordering. See [sand-filled vs non-infilled putting greens](/guides/sand-filled-vs-non-infilled-putting-green/) and our [putting greens page](/services/putting-greens/).
+- **Putting greens.** The putting surface is far shorter than lawn turf, and SYNLawn Golf's fringe sits "slightly higher than the putting green" ([SYNLawn Golf](https://www.synlawngolf.com/golf-turf/fringe/)). SYNLawn sells SYNAugustine 847 for golf fringe and chipping ([SYNLawn](https://www.synlawn.com/product/synaugustine-847/)). Because Firestone's code sets one pile range for all artificial turf, a half-inch putting surface there is unsettled: it depends on how the town reads it, so ask Firestone Planning before ordering. See our [putting greens page](/services/putting-greens/).
 - **Front yards.** First check that turf is allowed there at all; some HOA rules, New Windsor's among them, keep it to back yards. Where it is allowed, looks count most and traffic is usually light, which suits a longer pile. See [front yard artificial turf ideas](/guides/front-yard-artificial-turf-ideas/).
 
 ## How does infill change the height you see?

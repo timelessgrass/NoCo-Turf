@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: weather
 kind: guide
 title: "How Hot Does Artificial Turf Get in Northern Colorado? | NoCo Turf Co."
@@ -25,7 +25,7 @@ faq:
   - q: "Is there a surface temperature where turf is too hot to use?"
     a: "We found no heat limit written for home yards. For its synthetic field, Brigham Young University's guideline, as Penn State reports it, was no use above 120°F, and Penn State suggests mornings and evenings for practice. For paws and children, see the [pet turf](/services/pet-turf/) and [playground turf](/services/playground-turf/) pages."
   - q: "Why is my turf warping or melting near the house?"
-    a: "Look at the windows before blaming the weather. Warped or melted streaks close to a house point to sunlight reflected off glass, a separate problem with its own fixes: see [turf melting from window reflection](/guides/artificial-turf-melting-from-windows/)."
+    a: "Look at the windows before blaming the weather. Warped or melted streaks close to a house point to sunlight reflected off glass."
 layerRefs:
   - how-hot-does-artificial-turf-get.review-surface-range
   - how-hot-does-artificial-turf-get.review-overcast
@@ -117,6 +117,8 @@ related:
     - loveland-co
     - fort-collins-co
     - johnstown-co
+photos:
+  - gbp-hot-tub
 needsFromBrian:
   - "Infrared thermometer readings from NoCo jobs: turf, a neighbor's bluegrass and a concrete patio in the same sun on one July afternoon, with the town, time, air temperature and the thermometer model. Readings from a shaded and an unshaded part of the same lawn would be even better."
   - "A before-and-after reading from one of your yards: the surface just before a hose-down, then 5, 20 and 60 minutes after, so the page can show how long a rinse lasts here instead of in Pennsylvania or Utah."
@@ -178,7 +180,7 @@ Northern Colorado summers bring all of them. The Colorado Climate Center describ
 - **Greeley 4 station, June through August 2025:** 135 hours averaged 90°F or hotter, and relative humidity in those hours averaged 16.6%, from 9.6% to 26.0% ([CoAgMET, Greeley](https://coagmet.colostate.edu/data/hourly/gly04.csv?header=yes&fields=t,rh&from=2025-06-01&to=2025-08-31&tz=co&dateFmt=iso)).
 - **Fort Collins station, on the CSU campus:** 144 such hours, at an average 15.9% humidity, from 8.3% to 29.2% ([CoAgMET, Fort Collins](https://coagmet.colostate.edu/data/hourly/fcl01.csv?header=yes&fields=t,rh&from=2025-06-01&to=2025-08-31&tz=co&dateFmt=iso)).
 
-For comparison, Penn State ran its watering tests on days with 33 to 39% humidity ([McNitt et al.](https://plantscience.psu.edu/research/centers/ssrc/documents/temperature-irrigation.pdf)). The same strong sun also fades turf over the years; see [does artificial turf fade](/guides/does-artificial-turf-fade/).
+For comparison, Penn State ran its watering tests on days with 33 to 39% humidity ([McNitt et al.](https://plantscience.psu.edu/research/centers/ssrc/documents/temperature-irrigation.pdf)). The same strong sun also fades turf over the years.
 
 ## What cools artificial turf down without buying anything?
 

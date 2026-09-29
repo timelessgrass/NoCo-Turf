@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: buying
 kind: guide
 title: "How Much Maintenance Does Artificial Turf Need? | NoCo Turf Co."
@@ -128,6 +128,10 @@ related:
     - windsor-co
     - johnstown-co
     - firestone-co
+photos:
+  - crew
+  - gbp-dog-yard
+  - gbp-hot-tub
 needsFromBrian:
   - "The maintenance routine you hand customers when the job is done, in your own words: what they should do weekly, monthly and each spring, and what you tell dog owners."
   - "Whether NoCo offers maintenance or cleaning visits and, if it does, what a visit includes and how often you recommend one. Until you confirm, the page describes services only in general."
@@ -146,7 +150,7 @@ Turf makers' care guides agree on the routine. FieldTurf Landscape, a turf maker
 |---|---|---|---|
 | Walk the lawn, clear leaves and twigs, brush the paths people use, rinse if it's dusty | Weekly | 15 to 30 minutes | [Leaves and debris](/guides/leaves-on-artificial-turf/) |
 | Brush the whole lawn in both directions, pull weeds along the edges, wash it all down | Monthly | Not given | [Matted turf](/guides/matted-artificial-turf/) |
-| Deep clean with a turf-safe sanitizer | 2 to 4 times a year | The sanitizer sits 10 to 15 minutes before the rinse | [Cleaning turf](/guides/how-to-clean-artificial-turf/) |
+| Deep clean with a turf-safe sanitizer | 2 to 4 times a year | The sanitizer sits 10 to 15 minutes before the rinse | Let the sanitizer sit, then rinse |
 | Check seams and infill | Each spring, and after hail | Not given | [Adding infill](/guides/how-often-to-add-infill-to-artificial-turf/) |
 | Professional deep clean, seam check and infill top-up | Once or twice a year; quarterly with dogs | Not given | See the service section below |
 
@@ -160,14 +164,14 @@ The care guides are written for everywhere. Here the extra jobs come in a set or
 
 | Months | What happens here | The turf job |
 |---|---|---|
-| November to April | NOAA's Fort Collins station averages 51.4 inches of snow a year: 7.6 in November, 7.5 in December, 6.7 in January and 7.6 in February. March is the snowiest month at 9.4 inches, and April still averages 6.2. | Mostly let it melt. Clear a dog path with a plastic shovel, and skip rock salt and chemical de-icers, which SYNLawn says can degrade fibers and backing. [Snow on turf](/guides/artificial-turf-snow-removal/) |
+| November to April | NOAA's Fort Collins station averages 51.4 inches of snow a year: 7.6 in November, 7.5 in December, 6.7 in January and 7.6 in February. March is the snowiest month at 9.4 inches, and April still averages 6.2. | Mostly let it melt. Clear a dog path with a plastic shovel, and skip rock salt and chemical de-icers, which SYNLawn says can degrade fibers and backing. |
 | After the last spring snow (May still averages 1.6 inches) | Months of snow leave matted blades, winter dust and, now and then, a loosened seam. | The spring cleanup: rinse off the dust, cross-brush flat areas, and check seams and infill, as SYNLawn advises after a harsh winter. [Matted turf](/guides/matted-artificial-turf/) |
 | June | CSU Extension says female cottonwoods shed their cotton in June, often enough to turn nearby lawns white ([PlantTalk Colorado](https://planttalk.colostate.edu/topics/trees-shrubs-vines/1758-cottonwood-cotton/)). | Blow it off on a low setting as often as it piles up. [Cottonwood cotton and leaves](/guides/leaves-on-artificial-turf/) |
 | May to September | NOAA logged 536 hail reports in Weld County from 2011 through 2025: 486 of them May through August, 161 in June alone. All 253 it logged in Larimer County fell May through September ([NOAA Storm Events](https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/)). | After a storm, part the blades in low spots and on slopes to see whether infill washed out, and photograph any damage. [Hail and turf](/guides/does-hail-damage-artificial-turf/) |
-| July and August | Days at or above 90°F average 13.0 in July at NOAA's Fort Collins station and 20.0 at Greeley UNC. | Rinse dog areas more often. For hot surfaces and melt marks, see [how hot turf gets](/guides/how-hot-does-artificial-turf-get/) and [melting near windows](/guides/artificial-turf-melting-from-windows/). |
+| July and August | Days at or above 90°F average 13.0 in July at NOAA's Fort Collins station and 20.0 at Greeley UNC. | Rinse dog areas more often. For hot surfaces and melt marks, see [how hot turf gets](/guides/how-hot-does-artificial-turf-get/). |
 | October and November | Leaves come down, and Fort Collins averages 4.1 inches of snow in October. | Clear leaves before snow pins them: FieldTurf Landscape says leaves left over winter rot into a layer that slows drainage. SYNLawn adds that any drainage problem should be fixed before winter. [Leaves](/guides/leaves-on-artificial-turf/) |
 
-Rinses land in the outdoor watering season, so time them like watering. Fort Collins' voluntary Water Shortage Watch, in effect from May 1, 2026, asks for no watering between 10 a.m. and 6 p.m. and lawn watering no more than 2 days a week ([City of Fort Collins](https://www.fortcollins.gov/News-Articles/News/2026-Q2/Voluntary-Water-Shortage-Watch)); Windsor's standing lawn rule uses the same 10-to-6 window. Johnstown's 2026 outdoor season ends October 15, and Greeley's normal watering guidelines run through October 31. Whether a hose rinse counts as watering in your town is covered in our [guide to cleaning turf](/guides/how-to-clean-artificial-turf/).
+Rinses land in the outdoor watering season, so time them like watering. Fort Collins' voluntary Water Shortage Watch, in effect from May 1, 2026, asks for no watering between 10 a.m. and 6 p.m. and lawn watering no more than 2 days a week ([City of Fort Collins](https://www.fortcollins.gov/News-Articles/News/2026-Q2/Voluntary-Water-Shortage-Watch)); Windsor's standing lawn rule uses the same 10-to-6 window. Johnstown's 2026 outdoor season ends October 15, and Greeley's normal watering guidelines run through October 31.
 
 ## What do dogs add to the routine?
 
@@ -177,7 +181,7 @@ The daily part: pick up solids right away and hose down each spot where the dog 
 - **More brushing** along the routes the dogs run.
 - **More professional visits:** SYNLawn recommends quarterly service for pet owners, against once or twice a year for most lawns.
 
-The how-to for each: [dog waste](/guides/dog-poop-on-artificial-turf/), [urine smell](/guides/dog-urine-smell-artificial-turf/) and [infill for dogs](/guides/dog-turf-infill/). If the dog run is still at the planning stage, see [pet turf](/services/pet-turf/).
+For the how-to, see [dog waste](/guides/dog-poop-on-artificial-turf/) and [infill for dogs](/guides/dog-turf-infill/). If the dog run is still at the planning stage, see [pet turf](/services/pet-turf/).
 
 ## What does a turf maintenance service include, and what does it cost?
 
@@ -195,22 +199,22 @@ What moves a service quote: square footage, how many dogs use the turf, how much
 
 - Which tasks each visit includes, and which cost extra, such as seam or edge repairs and infill beyond a top-up.
 - Which infill goes back, and whether it matches what is in the turf now.
-- Which cleaners they use and where the rinse water goes; our [cleaning guide](/guides/how-to-clean-artificial-turf/) covers what town stormwater codes let run into the gutter.
+- Which cleaners they use and where the rinse water goes.
 - How they brush; our [guide to matted turf](/guides/matted-artificial-turf/) lists the brushing questions to ask.
 - A dated note or photos from each visit.
 
 ## What does "low maintenance" leave out?
 
-- **Records.** SYNLawn's care manual says a customer must be able to show they followed its installation and care guidelines to make a claim under its written coverage. Keep dated photos and receipts; our guide to [what turf coverage includes](/guides/artificial-turf-warranty/) goes further.
+- **Records.** SYNLawn's care manual says a customer must be able to show they followed its installation and care guidelines to make a claim under its written coverage. Keep dated photos and receipts.
 - **Other trades on the lawn.** SYNLawn warns that landscape crews often set equipment down on turf and melt it, naming tree trimming and leaf blowing as common examples, and that utility locators have painted gas and water marks on top of turf. Brief anyone who works over it.
-- **Weeds at the edges.** Weeds can't grow through the backing, but FieldTurf Landscape says airborne seeds sprout in the infill and around the edges. See [weeds in turf](/guides/weeds-growing-through-artificial-turf/).
+- **Weeds at the edges.** Weeds can't grow through the backing, but FieldTurf Landscape says airborne seeds sprout in the infill and around the edges.
 - **A code standard, in Firestone.** Firestone's development code requires turf to be cleaned and groomed and kept free of weeds, holes, tears, stains, seam separations, depressions, odors and excessive wear ([Firestone Development Code 16.6.4](https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE)). Not legal advice. Elsewhere, an HOA's covenants may set a standard of their own; read yours, and see our [guide to HOA turf approval](/guides/hoa-turf-approval/).
 
 ## Does a putting green, pool or large lawn change the upkeep?
 
 Yes. Each brings jobs of its own:
 
-- **Putting green:** FieldTurf Landscape advises blowing a green off on a low setting daily or before each use, because even seeds or small twigs change a putt. The season-by-season routine is in our [putting green maintenance guide](/guides/artificial-putting-green-maintenance/); for a new green, see [putting greens](/services/putting-greens/).
+- **Putting green:** FieldTurf Landscape advises blowing a green off on a low setting daily or before each use, because even seeds or small twigs change a putt. For a new green, see [putting greens](/services/putting-greens/).
 - **Pool deck, outdoor kitchen or fire feature:** SYNLawn says barbecue, pool-chemical and sunscreen spills leave residues that should come off quickly with mild detergent and water, and that grills, fire pits or other heat sources set on the turf might warp its fibers. See [turf around a pool](/guides/artificial-turf-around-pool/), [fire pits on turf](/guides/fire-pit-on-artificial-turf/) and planning turf with a patio, kitchen or fire feature.
 - **Large lawn:** FieldTurf Landscape suggests a walk-behind power brush for larger lawns or heavy foot traffic. Whether to own, rent or hire one is in the [matted turf guide](/guides/matted-artificial-turf/); for an estate or acreage lot, see [turf on acreage lots](/guides/artificial-turf-on-acreage-lots/).
-- **Mature trees:** the more canopy over the turf, the more of the calendar above is debris. See [turf around trees](/guides/artificial-turf-around-trees/).
+- **Mature trees:** the more canopy over the turf, the more of the calendar above is debris.

@@ -1,5 +1,5 @@
 {
-  "status": "draft",
+  "status": "published",
   "town": "berthoud-co",
   "service": "putting-greens",
   "title": "Backyard Putting Greens in Berthoud, CO | NoCo Turf Co.",
@@ -14,6 +14,18 @@
     "answer": "Usually, yes. NoCo Turf Co. builds backyard putting greens in Berthoud. The town code has no artificial-turf provision, and its landscape guidelines for new Suburban and Old Town Residential projects keep artificial turf to private backyards or sports fields. In Heron Lakes, the Architectural Control Committee must approve all landscaping in writing; its rules allow non-irrigated artificial turf."
   },
   "blocks": [
+    {
+      "kind": "job",
+      "own": true,
+      "use": "putting-green",
+      "kicker": "Our job",
+      "h2": "A backyard putting green near Berthoud",
+      "paras": [
+        "This green near Berthoud curves behind a stone seat wall with built-in lights, next to a boulder fire pit on the stamped-concrete patio. Blue flags mark the cups along its length, a block retaining wall holds the far side, and river rock and plantings fill the beds around it, with the mountains beyond."
+      ],
+      "layerRefs": [],
+      "sources": []
+    },
     {
       "kind": "hoa",
       "own": true,

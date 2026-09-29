@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: products
 kind: guide
 title: "Artificial Turf Face Weight: What the Ounces Mean | NoCo Turf Co."
@@ -110,6 +110,9 @@ related:
     - fort-collins-co
     - loveland-co
     - greeley-co
+reviews:
+  - kevin
+  - kirk
 needsFromBrian:
   - "Face weight and total weight, with pile height and tuft gauge, from the manufacturer's sheet for each turf product you install today, so the table can show a product you actually put down beside the published examples."
   - "Whether you have pulled Firestone turf permits, and what Firestone's online application asked you to attach (spec sheet, layout, anything else), so that section can say it from experience instead of 'ask Firestone Planning'."
@@ -158,26 +161,26 @@ Face weight grows with blade length as well as with how tightly the tufts are pa
 
 The table shows what that means in practice. Summer Gold 96 and Viridian Turf 96 carry the same 70 ounces of yarn, one on a 1.75-inch pile and one on 1.18 inches. The shorter product packs its yarn into less height, so by weight it is the denser of the two. The two 91s work the same way. A higher number on a taller turf can mean longer blades rather than more of them.
 
-So compare face weights only between products of about the same pile height, and read the gauge line beside it: SYNAugustine 847 lists a 3/8-inch gauge. Choosing the height itself is in our [pile height guide](/guides/artificial-turf-pile-height/), and yarn type in [nylon vs polyethylene turf](/guides/nylon-vs-polyethylene-turf/).
+So compare face weights only between products of about the same pile height, and read the gauge line beside it: SYNAugustine 847 lists a 3/8-inch gauge. Choosing the height itself is in our [pile height guide](/guides/artificial-turf-pile-height/).
 
 ## Does more face weight help under snow and dogs?
 
 **Snow.** The nearest NOAA stations average 51.4 inches of snow a year in [Fort Collins](/areas/fort-collins-co/), 47.0 at Loveland 2N outside [Loveland](/areas/loveland-co/) and 34.9 at Greeley UNC in [Greeley](/areas/greeley-co/) (1991–2020 normals). Motz, an infill maker, says snow can lie heavily on turf, flattening the blades and in some cases matting them ([Motz](https://themotzgroup.com/infill_blog/our-guide-to-protecting-your-artificial-turf-in-the-winter-motz/)). Synthetic Grass Warehouse says light matting after a melt should bounce back over time, faster with cross-brushing ([SGW](https://syntheticgrasswarehouse.com/blog/how-to-care-for-artificial-grass-in-snowy-weather/)).
 
-What resists matting isn't weight on its own. The same distributor defines resilience as resisting matting and says shorter pile heights are generally much more resilient ([SGW](https://syntheticgrasswarehouse.com/resources/terminology/pile-height-face-weight/)). Ounces that come from longer blades work against that; the same ounces on a shorter pile work with it. Snow care itself is in [clearing snow off artificial turf](/guides/artificial-turf-snow-removal/) and [fixing matted turf](/guides/matted-artificial-turf/).
+What resists matting isn't weight on its own. The same distributor defines resilience as resisting matting and says shorter pile heights are generally much more resilient ([SGW](https://syntheticgrasswarehouse.com/resources/terminology/pile-height-face-weight/)). Ounces that come from longer blades work against that; the same ounces on a shorter pile work with it. Brushing blades back up after snow is covered in [fixing matted turf](/guides/matted-artificial-turf/).
 
 **Dogs.** More yarn does help with wear. Synthetic Grass Warehouse says a higher face weight generally means a sturdier material that better withstands heavy foot traffic, and MSI ties a higher face weight to greater density and durability. But turf sold for dogs is often lighter on paper, because it is short:
 
 - ForeverLawn's K9Grass Classic+ and K9Grass Elite list 65 and 60 ounces of pile weight on a 7/8-inch pile ([Classic+](https://k9grass.com/wp-content/uploads/2022/06/K9Grass-Classic-Plus-Outdoor-CSI-M1266-0322.pdf), [Elite](https://k9grass.com/wp-content/uploads/2022/06/K9GrassOutdoor-Elite-CSI-M683-1220.pdf)).
 - MSI points high-traffic and pet areas to piles of 0.79 to 1.18 inches, saying a shorter pile resists wear and gives dogs better traction.
 
-For a dog yard, then, read face weight together with pile height, not on its own. If your dog pulls at turf, look at tuft bind, the force it takes to pull a tuft out: the STC recommends 6.8 pounds and says higher is better. Digging is covered in [can dogs dig through artificial turf](/guides/can-dogs-dig-through-artificial-turf/), odor in [dog urine smell](/guides/dog-urine-smell-artificial-turf/), and what a "pet" label changes in [pet turf vs regular turf](/guides/pet-turf-vs-regular-turf/). Dog runs are on our [pet turf page](/services/pet-turf/).
+For a dog yard, then, read face weight together with pile height, not on its own. If your dog pulls at turf, look at tuft bind, the force it takes to pull a tuft out: the STC recommends 6.8 pounds and says higher is better. Digging is covered in [can dogs dig through artificial turf](/guides/can-dogs-dig-through-artificial-turf/), and what a "pet" label changes in [pet turf vs regular turf](/guides/pet-turf-vs-regular-turf/). Dog runs are on our [pet turf page](/services/pet-turf/).
 
 ## When is a heavier face weight not worth paying for?
 
 - **When the extra weight is only length.** The same yarn on a taller pile is less dense, and by the distributor's account above, less resilient.
 - **When the budget is tight.** Synthetic Grass Warehouse says face weight drives cost as well as durability, and ASTM describes the measurement as part of cost control in manufacturing. More yarn is more material. What else moves a quote is in [artificial turf cost](/guides/artificial-turf-cost/).
-- **For drainage.** Water passes through the backing and the base, and a sheet gives drainage its own line: SYNAugustine 847 lists permeability over 1,000 inches an hour, apart from its face weight. The STC says permeable systems are typically designed to drain 25 inches an hour. On clay soil, what's under the turf matters more; see [does artificial turf drain](/guides/does-artificial-turf-drain/).
+- **For drainage.** Water passes through the backing and the base, and a sheet gives drainage its own line: SYNAugustine 847 lists permeability over 1,000 inches an hour, apart from its face weight. The STC says permeable systems are typically designed to drain 25 inches an hour. On clay soil, what's under the turf matters more.
 - **For heat.** Face weight measures mass, not temperature. What makes turf hot, and what cools it, is in [how hot artificial turf gets](/guides/how-hot-does-artificial-turf-get/).
 - **Past the minimum your yard needs.** The STC calls its specifications minimum guidelines and says a product below them may still suit its use. Above what the yard and any town or HOA rule require, extra ounces mostly change look and feel: Synthetic Grass Warehouse says turf over about 80 ounces is thicker and softer to the touch. More on looks is in [what makes artificial turf look real](/guides/most-realistic-artificial-turf/).
 

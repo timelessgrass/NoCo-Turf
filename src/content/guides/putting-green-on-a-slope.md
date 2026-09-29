@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: putting-greens
 kind: guide
 title: "How Much Slope Can a Backyard Putting Green Have? | NoCo Turf Co."
@@ -23,9 +23,9 @@ faq:
   - q: "Can more break be added after the green is built?"
     a: "Only by lifting the turf. Break is shaped in the base underneath, so changing it means pulling the turf back, reshaping and recompacting, then relaying it. Settle the break and the cup spots on the bare base, before any turf goes down."
   - q: "Is a sloped green more work to look after?"
-    a: "A little. After a hard rain, sand infill can drift toward the low side, and on a putting green the sand level helps set the speed, so the two ends can roll differently until it is brushed back and topped up. Our guide to putting green maintenance covers the routine."
+    a: "A little. After a hard rain, sand infill can drift toward the low side, and on a putting green the sand level helps set the speed, so the two ends can roll differently until it is brushed back and topped up."
   - q: "Do I need a retaining wall to put a green on a hillside?"
-    a: "Sometimes, but that is a hillside question more than a putting one. Walls, permits for them, town limits on turf slopes and water running down from above are in our guide to artificial turf on a slope."
+    a: "Sometimes, but that is a hillside question more than a putting one, about walls, permits for them, town limits on turf slopes and water running down from above."
 layerRefs:
   - putting-green-on-a-slope.usga-major-portion-3-percent
   - putting-green-on-a-slope.usga-3-percent-at-stimp-10
@@ -92,6 +92,11 @@ related:
     - loveland-co
     - berthoud-co
     - firestone-co
+photos:
+  - gbp-green-contours
+reviews:
+  - tamara
+  - kevin
 needsFromBrian:
   - "Sloped-yard greens you have built: the yard's slope before, how you handled the cut and fill, where the extra fall went (fringe, bank, wall or tier), and before-and-after photos with a level or string line in the shot."
   - "The slope you aim for around a cup and the Stimpmeter speed your greens usually run, in your words, so this page can say what a Northern Colorado installer actually builds to."
@@ -148,15 +153,13 @@ A 10-foot stretch of 5 percent ground falls 6 inches. At 3 percent it would fall
 
 Golf courses fix greens that are too steep the same way. A 2003 Green Section Record case study describes greens with slopes over 8 percent that, rolling above 10 on the Stimpmeter, had only two or three usable hole positions. The club raised the fronts with soil, in places 9 to 14 inches, lowered the backs up to 4 inches, and called compacting that soil against settling a critically important step ([Graves and Kennelly, USGA Green Section Record, 2003](https://gsrpdf.lib.msu.edu/?file=/2000s/2003/030918.pdf)).
 
-What happens outside the green, such as retaining walls, their permits and water coming down the hill, is in our guide to [artificial turf on a slope](/guides/artificial-turf-on-a-slope/). The layers under the turf are in [what base goes under artificial turf](/guides/what-base-goes-under-artificial-turf/).
-
 ## What changes next to the house and on Northern Colorado clay?
 
 Two things work against a flat green here.
 
 **The ground by the foundation has to fall.** The 2021 International Residential Code requires the grade to drop at least 6 inches within the first 10 feet from the foundation, a 5 percent slope, or drains and swales where the lot can't manage that ([IRC R401.3, UpCodes](https://up.codes/viewer/colorado/irc-2021/chapter/4/foundations)). That is steeper than a cup should sit, so the cups belong beyond that first 10 feet, with an apron or fringe taking the fall. Towns adopt their own code editions and amendments, so ask your town's building department which applies; this is not legal advice. The Colorado Geological Survey also lists poorly managed surface drainage near foundations among the landscaping problems on expansive soils.
 
-**Clay moves.** The Colorado Geological Survey says expansive clays can swell up to 20 percent by volume when wet ([CGS](https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/)). Federal soil surveys rate the Nunn and Weld soils common around Loveland and Berthoud as limited by shrink-swell. The soil unit mapped most widely around central Berthoud is Nunn clay loam on 1 to 3 percent slopes: ground that is already near the range a green can use, on a clay that can settle or heave a carefully set cup pocket out of true. How the fill is compacted matters as much as the number on the plan. See [artificial turf on clay soil](/guides/artificial-turf-on-clay-soil/), and if a finished green dips, [why artificial turf sinks in low spots](/guides/artificial-turf-sinking-low-spots/).
+**Clay moves.** The Colorado Geological Survey says expansive clays can swell up to 20 percent by volume when wet ([CGS](https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/)). Federal soil surveys rate the Nunn and Weld soils common around Loveland and Berthoud as limited by shrink-swell. The soil unit mapped most widely around central Berthoud is Nunn clay loam on 1 to 3 percent slopes: ground that is already near the range a green can use, on a clay that can settle or heave a carefully set cup pocket out of true. How the fill is compacted matters as much as the number on the plan.
 
 ## What should I ask an installer about slope?
 

@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: pets
 kind: problem
 title: "Can Dogs Dig Through Turf? How to Stop a Digger | NoCo Turf Co."
@@ -98,6 +98,11 @@ related:
     - pet-turf
   towns:
     - firestone-co
+photos:
+  - gbp-dog-yard
+reviews:
+  - ally
+  - kirk
 needsFromBrian:
   - "Photos of digger damage you have repaired (a dug-up edge, a pulled seam, a fence-line hole), each with the fix and what you think started it: heat, voles or gophers, escape, or boredom."
   - "The edge detail you use along a fence for a dog that digs: the border, how the turf is fastened to it, and whether wire goes under the fence line. A photo before the turf goes down would anchor the fence-line section."
@@ -160,7 +165,7 @@ Soon, and from the bottom up.
 2. **Look underneath first.** A runway, a burrow or soft ground means an animal is still down there, and the dog will be back at the same spot.
 3. **Rebuild what the dog removed.** Fold the turf back past the damage, clear out the churned soil and base, then refill and compact the base to grade. Don't leave it open on clay: the Colorado Geological Survey says expansive clays can swell up to 20% by volume when wet, and snowmelt runs straight into an opened edge. The Fort Collins station averages about 150 days a year with a low at or below 32°F, so a wet, open edge freezes and thaws all winter.
 4. **Fix the edge, not just the hole.** If the edge was soft or pinned only into soil, give it a solid border before the turf goes back; see [turf edges that lift or curl](/guides/turf-edges-lifting/).
-5. **Patch what's torn.** Pulled tufts and torn backing need a patch; see [how to repair artificial turf](/guides/how-to-repair-artificial-turf/).
+5. **Patch what's torn.** Pulled tufts and torn backing need a patch.
 6. **Put the infill back and brush it in.** A digger throws it well beyond the hole; see [infill for dogs](/guides/dog-turf-infill/).
 
 In Firestone this is not optional: the code says turf may not have holes, tears, seam separations or uplifted surfaces, and damaged areas must be repaired or replaced to match the rest.
@@ -171,6 +176,6 @@ In Firestone this is not optional: the code says turf may not have holes, tears,
 - **"Where will the seams fall?"** Out of the fence strip and the dog's running path, where possible.
 - **"Is this turf tufted or knitted, and can I have a sample?"** Pull on a tuft yourself. One maker advises exactly that: request a sample and test it.
 - **"What goes under the fence line?"** Wire along the fence for an escape artist, and rodent wire under the whole area if there are voles or gophers.
-- **"What happens if my dog digs up an edge in the first year?"** Get the answer in writing, and check it against our guide to [what turf coverage includes](/guides/artificial-turf-warranty/).
+- **"What happens if my dog digs up an edge in the first year?"** Get the answer in writing.
 
 More in [questions to ask a turf installer](/guides/questions-to-ask-turf-installer/) and on the [pet turf](/services/pet-turf/) page.

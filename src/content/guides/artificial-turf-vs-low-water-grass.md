@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: comparisons
 kind: comparison
 title: "Buffalograss or Artificial Turf in Northern Colorado | NoCo Turf Co."
@@ -147,6 +147,11 @@ related:
     - firestone-co
     - wellington-co
     - greeley-co
+photos:
+  - gbp-dog-yard
+  - playset
+reviews:
+  - kevin
 needsFromBrian:
   - "Customers who tried buffalograss, blue grama or clover before they called you: what happened (the brown months, weeds, dogs, shade, a lawn that never filled in), the town and the year."
   - "Yards where you told someone to keep or plant a low-water grass instead of turf, and why. The last section of this page is written from CSU sources until you do."
@@ -189,7 +194,7 @@ Turf needs no water to grow; the rinsing question is in [do you have to water ar
 | Mowing | Infrequent | Infrequent | Often, or it grows into ordinary white clover | None |
 | Fertilizer | Low; too much invites weeds | Low | Little; root bacteria fix nitrogen | None |
 | Summer water | About an inch a week to stay green | Excellent drought tolerance | Close to bluegrass in peak heat | None to grow |
-| Watch for | Weeds, its main problem; many store-bought weed killers injure it | Costly, fluffy seed that is hard to sow | Lawn weed killers damage it; reseeding every 2 to 3 years to stay even | Weeds at edges and seams ([why](/guides/weeds-growing-through-artificial-turf/)) |
+| Watch for | Weeds, its main problem; many store-bought weed killers injure it | Costly, fluffy seed that is hard to sow | Lawn weed killers damage it; reseeding every 2 to 3 years to stay even | Weeds at edges and seams |
 
 **Buffalograss** is among the grasses CSU ranks first, with blue grama, for persisting under low maintenance ([GardenNotes #561](https://cmg.extension.colostate.edu/Gardennotes/561.pdf)). The catch is looks and use: in eastern Colorado it is green mid-May through September, while bluegrass is usually green from March to November, and a shaded stand goes thin, patchy and weedy ([CSU Extension](https://engagement.source.colostate.edu/3-things-you-need-to-know-before-growing-a-buffalograss-lawn-in-colorado/)). CSU also rules it out on saline soils and on small lawns where traffic is both concentrated and constant, and warns that watering and feeding a native lawn to look like bluegrass brings weeds ([Native Lawn Establishment](https://planttalk.colostate.edu/wp-content/uploads/2023/03/Native-Lawn-Establishment.pdf)).
 

@@ -114,3 +114,5 @@ Spring is a good time to brush the surface up and top off the sand where the mos
 
 **Town codes can be stricter.** Windsor's landscape code bars artificial turf from any landscape plan for new development or major redevelopment, allowing only functional artificial turf by the Director's exception. Fort Collins' Land Use Code bars artificial turf from development landscape plans, though development on existing single- and two-unit home lots is exempt from that section. In Firestone, a town permit comes before any artificial turf is installed.
 
+More in [how HOA approval works](/guides/hoa-turf-approval/) and the [town-by-town turf rules](/guides/turf-rules-northern-colorado/).
+

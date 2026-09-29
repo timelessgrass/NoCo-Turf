@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: products
 kind: guide
 title: "Artificial Turf Spec Sheet Checklist for Colorado | NoCo Turf Co."
@@ -119,6 +119,9 @@ related:
   towns:
     - firestone-co
     - greeley-co
+reviews:
+  - lane
+  - ally
 needsFromBrian:
   - "The spec sheet for each product you install today (lawn, pet, play and putting green), with the maker's PFAS statement and written coverage terms for each, so the page can show one real sheet marked up line by line."
   - "Your rule of thumb for lawn, dog and play specs in your own words: the pile, face weight, yarn, backing and infill you steer each job toward, and which line you read first on a product you haven't used before."
@@ -137,18 +140,18 @@ Each measured line should carry its test method beside the value, as SYNLawn's p
 | Product | Maker, product name, SKU and a revision date | The exact product, not a product family | — |
 | Pile height | Inches, with the method | STC: most lawn turf runs 1½ to 2 in. Firestone: 1.75 to 3 in | [pile height](/guides/artificial-turf-pile-height/) |
 | Face weight | Ounces per square yard above the backing, apart from total weight | STC: 40 to 100 oz is typical. Firestone: at least 70 | [face weight](/guides/artificial-turf-face-weight/) |
-| Yarn | The polymer for blades and thatch, and the denier | STC: 8,000 total denier per bundle (ASTM D1577) | [nylon vs polyethylene](/guides/nylon-vs-polyethylene-turf/) |
+| Yarn | The polymer for blades and thatch, and the denier | STC: 8,000 total denier per bundle (ASTM D1577) | Firestone section |
 | Primary backing | Layers and weight | STC: dual primary, at least 7 oz per square yard | — |
 | Coating | Polyurethane or polyolefin, and its weight | STC: heavy enough to meet its tuft bind minimum | — |
 | Tuft bind | Pounds, under ASTM D1335 | STC: 6.8 lb, and higher is better | — |
-| Drainage | Hole spacing or flow-through, plus a tested rate | STC: typically 25 in of water an hour. Firestone: holes at most 4 by 6 in on center | [does turf drain](/guides/does-artificial-turf-drain/) |
-| UV weathering | An independent lab report on this yarn | STC: after 3,000 hours of UVA, color better than Gray Scale 3 and at most 50% of strength lost | [does turf fade](/guides/does-artificial-turf-fade/) |
+| Drainage | Hole spacing or flow-through, plus a tested rate | STC: typically 25 in of water an hour. Firestone: holes at most 4 by 6 in on center | Firestone section |
+| UV weathering | An independent lab report on this yarn | STC: after 3,000 hours of UVA, color better than Gray Scale 3 and at most 50% of strength lost | sun and hail section |
 | Heavy metals | Lead and other metals, with the test | STC: compliant with state and ASTM standards. Firestone: lead-free | [is turf toxic](/guides/is-artificial-turf-toxic/) |
 | Flammability | The test named, and the result | Firestone: non-flammable | [is turf flammable](/guides/is-artificial-turf-flammable/) |
 | Infill | Required, optional or none, and which kind | Firestone: silica or acrylic-coated sand, no crumb rubber | [infill types](/guides/artificial-turf-infill-types/) |
 | Origin | Country of manufacture | Matches the roll labels on delivery | last section |
 | PFAS | A written statement for this product | Colorado law | PFAS section |
-| Coverage terms | Years, pro-rating, exclusions, who answers a claim | Firestone: at least 8 years | [coverage terms](/guides/artificial-turf-warranty/) |
+| Coverage terms | Years, pro-rating, exclusions, who answers a claim | Firestone: at least 8 years | sun and hail section |
 
 Two cautions. The STC's figures date from 2013; the council says a product can miss them and still suit its use, and that they are neither manufacturing minimums nor safety standards ([Synthetic Turf Council](https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf)). And don't skip tuft bind, the force needed to pull a tuft out: ASTM notes that weak tuft bind in cut pile "may result in complete loss of pile in areas exposed to severe wear" ([ASTM D1335](https://www.astm.org/d1335.html)).
 
@@ -195,7 +198,7 @@ What PFAS are, and what a lab test can and can't show, is in [is artificial turf
 
 Two local facts make the written terms worth reading:
 
-- **Sun.** The EPA says UV intensity rises about 6% per kilometer of elevation above sea level ([EPA](https://www.epa.gov/sunsafety/learn-about-uv-index)), which comes to roughly 9% more UV at Northern Colorado's elevation than at sea level. The UV lab line is where a product answers for that; the test itself is explained in [does artificial turf fade](/guides/does-artificial-turf-fade/).
+- **Sun.** The EPA says UV intensity rises about 6% per kilometer of elevation above sea level ([EPA](https://www.epa.gov/sunsafety/learn-about-uv-index)), which comes to roughly 9% more UV at Northern Colorado's elevation than at sea level. The UV lab line is where a product answers for that.
 - **Hail.** NOAA's storm database logged 253 hail reports in Larimer County and 536 in Weld from 2011 through 2025 ([NOAA NCEI](https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/)). What hail does to turf, and whether a homeowners policy pays, is in [does hail damage artificial turf](/guides/does-hail-damage-artificial-turf/).
 
 What the STC says to understand in those terms:
@@ -212,7 +215,7 @@ How many years turf actually gets here is in [how long artificial turf lasts](/g
 Read the sheet against the use the maker states for the product, then these lines:
 
 - **Dogs:** backing and drainage, infill and yarn. A pet product with nylon yarn fails Firestone's yarn line. See [pet turf vs regular turf](/guides/pet-turf-vs-regular-turf/), [dog turf infill](/guides/dog-turf-infill/) and our [pet turf page](/services/pet-turf/).
-- **Kids:** heavy metals and infill; Firestone's code bars crumb rubber (see [is crumb rubber safe](/guides/is-crumb-rubber-safe/)). Under a swing set or climber, the line that matters is a critical-height rating: the CPSC's playground handbook says a surface's ASTM F1292 rating should be at least the fall height of the highest equipment, and that carpeting and mats aren't appropriate unless tested to F1292 ([CPSC](https://www.cpsc.gov/s3fs-public/325.pdf)). Ask for the rating of the whole surface at your equipment's height; see [playground turf vs mulch](/guides/playground-turf-vs-mulch/) and our [playground turf page](/services/playground-turf/). Summer surface heat is in [how hot artificial turf gets](/guides/how-hot-does-artificial-turf-get/).
+- **Kids:** heavy metals and infill; Firestone's code bars crumb rubber. Under a swing set or climber, the line that matters is a critical-height rating: the CPSC's playground handbook says a surface's ASTM F1292 rating should be at least the fall height of the highest equipment, and that carpeting and mats aren't appropriate unless tested to F1292 ([CPSC](https://www.cpsc.gov/s3fs-public/325.pdf)). Ask for the rating of the whole surface at your equipment's height; see [playground turf vs mulch](/guides/playground-turf-vs-mulch/) and our [playground turf page](/services/playground-turf/). Summer surface heat is in [how hot artificial turf gets](/guides/how-hot-does-artificial-turf-get/).
 - **Front yard:** the appearance lines, meaning blade colors, thatch, pile and face weight, read beside a sample in daylight. The town rule comes before the sheet, as in Greeley; see [front yard turf ideas](/guides/front-yard-artificial-turf-ideas/) and [what makes turf look real](/guides/most-realistic-artificial-turf/).
 
 ## How do I check that the rolls delivered match the sheet?

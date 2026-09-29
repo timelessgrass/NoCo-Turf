@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: care-and-repair
 kind: problem
 title: "How to Fix Matted, Flattened Artificial Turf | NoCo Turf Co."
@@ -21,9 +21,9 @@ faq:
   - q: "How do I get the dent out where a planter, hose or chair sat?"
     a: "Brush the spot against the grain, work a little infill in, and move whatever sat there. Motz says heavy objects left in one place flatten turf and leave imprints, and suggests filling infill to the top of the fibers where furniture will stay. Synthetic Grass Warehouse says a hose left lying on turf presses a dent that is very hard to brush out, so keep hoses coiled off it."
   - q: "Does brushing make the seams less visible?"
-    a: "It helps. SYNLawn's installation guidelines say seams should be cross-brushed in both directions to make them less visible. If a seam still shows after brushing, our guide to visible seams covers the causes and fixes."
+    a: "It helps. SYNLawn's installation guidelines say seams should be cross-brushed in both directions to make them less visible."
   - q: "Does a backyard putting green need brushing like a lawn?"
-    a: "Not in the same way: greens are rolled as well as topped up. Synthetic Grass Warehouse's columnist recommends replenishing the infill and rolling a green in spring after snow, and monthly upkeep for a green used for regular practice. Our putting green maintenance guide has the full routine."
+    a: "Not in the same way: greens are rolled as well as topped up. Synthetic Grass Warehouse's columnist recommends replenishing the infill and rolling a green in spring after snow, and monthly upkeep for a green used for regular practice."
   - q: "Can brushing too hard affect my turf's written coverage?"
     a: "It can. Synthetic Grass Warehouse's power broom column says over-brooming may void the maker's coverage, besides shortening fiber life. Before you rent a machine, read the maintenance section of your turf's written terms, or ask your installer which tools and settings it allows."
 layerRefs:
@@ -137,6 +137,8 @@ related:
     - fort-collins-co
     - loveland-co
     - greeley-co
+photos:
+  - crew
 needsFromBrian:
   - "Whether NoCo offers power brooming or a spring brush-out (it ties to the planned turf-repair service page), what the visit includes, and whether it measures and tops up infill."
   - "How often you tell customers to brush, with which tool, and whether you think a homeowner should ever own a power broom or just rent one."
@@ -159,7 +161,7 @@ Matted turf also looks shiny and artificial, Motz says; SGW's power broom column
 
 ## How do I brush matted turf back up?
 
-Pick a dry day: the STC says brushing is most effective on a dry surface. After snow, wait for a thaw too, since frozen blades go brittle, SGW warns ([SGW](https://syntheticgrasswarehouse.com/blog/how-to-care-for-artificial-grass-in-snowy-weather/)). Clearing the snow itself is in [artificial turf snow removal](/guides/artificial-turf-snow-removal/).
+Pick a dry day: the STC says brushing is most effective on a dry surface. After snow, wait for a thaw too, since frozen blades go brittle, SGW warns ([SGW](https://syntheticgrasswarehouse.com/blog/how-to-care-for-artificial-grass-in-snowy-weather/)).
 
 1. **Clear debris first,** so the broom isn't grinding grit into the fibers. Leaves, cottonwood fluff and needles are covered in [getting leaves off turf](/guides/leaves-on-artificial-turf/).
 2. **Brush against the lean.** Look at which way the blades lie and push the other way. SGW calls this cross-brushing: use a broom with synthetic bristles, and avoid metal prongs.
@@ -169,7 +171,7 @@ Pick a dry day: the STC says brushing is most effective on a dry surface. After 
 
 **Time the spring brush-out.** March is the snowiest month on average at Fort Collins, with 9.4 inches, yet snow an inch deep covers the ground only about 3.9 days that month. April still averages 6.2 inches there, 5.7 at Loveland 2N and 3.7 at Greeley UNC; May averages 1.6, 1.1 and 0.5 (NOAA monthly normals, 1991–2020: [Fort Collins](https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-monthly-1991-2020&stations=USC00053005&dataTypes=MLY-SNOW-NORMAL,MLY-SNWD-AVGNDS-GE001WI&format=json), [Loveland 2N](https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-monthly-1991-2020&stations=USC00055236&dataTypes=MLY-SNOW-NORMAL,MLY-SNWD-AVGNDS-GE001WI&format=json), [Greeley UNC](https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-monthly-1991-2020&stations=USC00053553&dataTypes=MLY-SNOW-NORMAL,MLY-SNWD-AVGNDS-GE001WI&format=json)). Storms keep coming into April, so one whole-yard brushing in late April or May, after the last big one, saves doing it twice. That is our reading of the normals, for [Fort Collins](/areas/fort-collins-co/), [Loveland](/areas/loveland-co/) and [Greeley](/areas/greeley-co/) alike.
 
-SGW's spring checklist adds loose seams, lifted edges, broken blades and sagging spots, which brushing won't fix: see [how to repair turf](/guides/how-to-repair-artificial-turf/), [turf edges lifting](/guides/turf-edges-lifting/) and [sinking or low spots](/guides/artificial-turf-sinking-low-spots/).
+SGW's spring checklist adds loose seams, lifted edges, broken blades and sagging spots, which brushing won't fix: see [turf edges lifting](/guides/turf-edges-lifting/).
 
 ## Do I need a power broom or a turf sweeper?
 
@@ -218,7 +220,7 @@ When brushing and fresh infill no longer bring it back. Signs:
 - **Blades split into thin strands,** the over-brooming damage SGW describes on slit-film fibers.
 - **Creases.** The STC lists fibers that are "significantly bent, creased and flat" among the conditions that call for deeper work.
 
-A worn path isn't a brushing problem. SYNLawn recommends stepping stones or pavers on high-traffic paths ([SYNLawn DIY guidelines](https://pdf.lowes.com/productdocuments/240a8581-4267-4cdf-aa5f-d4d1e250fec6/44269346.pdf)), and SGW's column suggests concrete, pavers or stepping stones instead of turf at entrances and exits. For a new yard, the same column says high-traffic areas may need a textured or grooved fiber; ask for it on the [turf spec sheet](/guides/turf-spec-sheet-for-colorado/). When the whole yard is past saving, [when to replace artificial turf](/guides/when-to-replace-artificial-turf/) weighs repair against replacement.
+A worn path isn't a brushing problem. SYNLawn recommends stepping stones or pavers on high-traffic paths ([SYNLawn DIY guidelines](https://pdf.lowes.com/productdocuments/240a8581-4267-4cdf-aa5f-d4d1e250fec6/44269346.pdf)), and SGW's column suggests concrete, pavers or stepping stones instead of turf at entrances and exits. For a new yard, the same column says high-traffic areas may need a textured or grooved fiber; ask for it on the [turf spec sheet](/guides/turf-spec-sheet-for-colorado/).
 
 ## What should I ask a turf-care service before it brushes my yard?
 

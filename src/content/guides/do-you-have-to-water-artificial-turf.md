@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: water
 kind: guide
 title: "Do You Have to Water Artificial Turf? Hose Rules | NoCo Turf Co."
@@ -23,7 +23,7 @@ faq:
       - do-you-have-to-water-artificial-turf.greeley-2026-restrictions
       - do-you-have-to-water-artificial-turf.johnstown-level-3-hose-rules
   - q: "Does a sprinkler zone kept over the turf follow the same rules as a hose?"
-    a: "Plan on treating it as a sprinkler, the stricter case wherever a town tells the two apart. Milliken's hand-watering allowance leaves out a hose with a sprinkler on it and an irrigation controller run by hand, so a kept zone gets no hose exemption there; plan around the 9 a.m. to 7 p.m. and Sunday limits. Whether a zone is worth keeping is in our guide to sprinklers after turf."
+    a: "Plan on treating it as a sprinkler, the stricter case wherever a town tells the two apart. Milliken's hand-watering allowance leaves out a hose with a sprinkler on it and an irrigation controller run by hand, so a kept zone gets no hose exemption there; plan around the 9 a.m. to 7 p.m. and Sunday limits."
     layerRefs:
       - do-you-have-to-water-artificial-turf.milliken-hand-watering-exempt
   - q: "What happens if someone reports me for rinsing turf?"
@@ -219,7 +219,7 @@ needsFromBrian:
 
 Never to stay alive. CSU Extension counts watering, with mowing and fertilizing, among the jobs artificial turf doesn't need ([PlantTalk Colorado](https://planttalk.colostate.edu/topics/lawns/1537-artificial-turf-lawns/)). A hose earns its place for four jobs:
 
-- **Where a dog pees.** CSU notes that turf doesn't break down pet waste the way a living lawn does. One maker's routine is to hose each spot after use, which dilutes the urine and carries it down through the drainage ([FieldTurf Landscape](https://fieldturflandscape.com/maintenance/artificial-turf-maintenance-guide/)); another says to rinse pet areas more often in warm weather ([SYNLawn](https://www.synlawn.com/articles/how-to-maintain-artificial-grass/)). When a rinse isn't enough: [dog urine smell in turf](/guides/dog-urine-smell-artificial-turf/) and [dog poop on artificial turf](/guides/dog-poop-on-artificial-turf/).
+- **Where a dog pees.** CSU notes that turf doesn't break down pet waste the way a living lawn does. One maker's routine is to hose each spot after use, which dilutes the urine and carries it down through the drainage ([FieldTurf Landscape](https://fieldturflandscape.com/maintenance/artificial-turf-maintenance-guide/)); another says to rinse pet areas more often in warm weather ([SYNLawn](https://www.synlawn.com/articles/how-to-maintain-artificial-grass/)). For poop and residue, see [dog poop on artificial turf](/guides/dog-poop-on-artificial-turf/).
 - **Dust and pollen.** Turf collects wind-blown dirt (CSU), and SYNLawn suggests an occasional rinse so dust doesn't clog the drainage. Plains winters more often bring "dry air and strong winds" ([Colorado Climate Center](https://climate.colostate.edu/climate_long.html)), so spring is when a whole-yard rinse pays off.
 - **Heat, briefly.** In Penn State's tests, water cooled every synthetic surface, but temperatures started climbing again after about 15 minutes ([Penn State](https://plantscience.psu.edu/research/centers/ssrc/documents/temperature-irrigation.pdf)), and dry Colorado air favors "rapid evaporation." Expect minutes of relief. Heat by town: [how hot artificial turf gets](/guides/how-hot-does-artificial-turf-get/).
 - **A cooling infill.** HydroChill and similar infills store moisture in coated sand and release it as the surface heats ([Shaw](https://shawgrass.com/en-us/innovation/hydrochill)). With no rain or rinse there is nothing to release; ask how often the maker expects it wetted. Compare infills in [artificial turf infill types](/guides/artificial-turf-infill-types/).
@@ -264,7 +264,7 @@ One routine fits every rule in the table: rinse on your assigned day, inside you
 
 The winter limits in the table name lawns and sprinklers: Severance's lawn ban, Greeley's variance rule ([City of Greeley](https://greeleyco.gov/government/city-administration/city-departments/water-and-sewer/save-water/restrictions-violations-variances)) and Milliken's stop on automatic sprinklers. Johnstown's schedule, once the season ends October 15, lists only hand watering of trees and shrubs on Saturdays and Sundays ([2026 schedule](https://www.johnstownco.gov/665/2026-Watering-Schedule)).
 
-None names artificial turf, yet a dog area can need a rinse after a thaw. It depends on the town; ask before a winter rinse. For frozen infill, see [does artificial turf freeze](/guides/does-artificial-turf-freeze/); for trees, [watering trees with artificial turf](/guides/watering-trees-with-artificial-turf/).
+None names artificial turf, yet a dog area can need a rinse after a thaw. It depends on the town; ask before a winter rinse. For trees, see [watering trees with artificial turf](/guides/watering-trees-with-artificial-turf/).
 
 ## Who do I ask when the rule is unclear?
 
@@ -282,6 +282,6 @@ The other splits, in Windsor, Fort Collins and Mead, are in [which water provide
 - **Time your hose once.** Count the seconds to fill a 5-gallon bucket; that's your real rate at your pressure.
 - **Rinse the spots, not the yard.** Rinse where the dog goes, and save the whole-yard rinse for pollen season and early spring.
 - **Sweep or blow first.** Johnstown steers hard surfaces toward sweeping, and Little Thompson asks for dry methods ([water shortage plan](https://www.littlethompsonwd.gov/water-shortage-contingency-plan)). Leaves and loose dust come off turf the same way.
-- **Keep the water on the turf.** North Weld asks that water not pool on patios, driveways, streets or sidewalks ([May newsletter](https://www.nwcwd.org/files/f055ec287/May+2026+Newsletter.pdf)), and Wellington's guidelines bar washing paved areas ([Town of Wellington](https://www.wellingtoncolorado.gov/211/Water-Efficiency-Program)). Stop before the rinse sheets onto concrete. Cleaners and runoff: [how to clean artificial turf](/guides/how-to-clean-artificial-turf/).
+- **Keep the water on the turf.** North Weld asks that water not pool on patios, driveways, streets or sidewalks ([May newsletter](https://www.nwcwd.org/files/f055ec287/May+2026+Newsletter.pdf)), and Wellington's guidelines bar washing paved areas ([Town of Wellington](https://www.wellingtoncolorado.gov/211/Water-Efficiency-Program)). Stop before the rinse sheets onto concrete.
 
-A kept sprinkler zone is the other way to rinse: [sprinklers after artificial turf](/guides/sprinkler-system-after-artificial-turf/). How a dog area drains what you rinse through it is on our [pet turf](/services/pet-turf/) page.
+A kept sprinkler zone is the other way to rinse. How a dog area drains what you rinse through it is on our [pet turf](/services/pet-turf/) page.

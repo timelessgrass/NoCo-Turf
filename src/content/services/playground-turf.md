@@ -131,3 +131,5 @@ Some town codes go further:
 
 **At home.** Colorado law says an HOA's landscaping rules may not prohibit artificial turf in the backyard of a detached single-family home, although the HOA can still adopt design and aesthetic guidelines.
 
+More in the [town-by-town turf rules](/guides/turf-rules-northern-colorado/) and [how HOA approval works](/guides/hoa-turf-approval/).
+

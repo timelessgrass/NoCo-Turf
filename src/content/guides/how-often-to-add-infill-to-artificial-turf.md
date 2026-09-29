@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: care-and-repair
 kind: guide
 title: "Adding Infill to Artificial Turf: How Often, How Much | NoCo Turf Co."
@@ -19,13 +19,13 @@ faq:
   - q: "Can I top up with play sand from the hardware store?"
     a: "Only if it matches what's already there, and most bagged sand won't. A civil engineer writing for facility managers says turf infill sand is specialized: rounded, sized between 0.6 and 0.85 millimeters and washed of fines, because rounded, uniform sand resists compaction and drains. Ask what the turf was built with and buy that."
   - q: "Will adding infill fix a dog-urine smell?"
-    a: "Not by itself. Motz, which sells an odor-fighting coated sand, says adding such an infill on top of old, smelly infill won't fix the smell; the old infill should come out first. Our guide to dog urine smell in artificial turf walks through the cleaning."
+    a: "Not by itself. Motz, which sells an odor-fighting coated sand, says adding such an infill on top of old, smelly infill won't fix the smell; the old infill should come out first."
   - q: "Do I have to pull up the turf to replace old infill?"
     a: "Usually not. Motz says old infill comes out with a vacuum made for artificial turf or a wet/dry shop vacuum, never a household one, and that the turf itself stays unless it's in poor condition and due for replacement."
   - q: "When in the year is a good time to top up?"
     a: "Fall, before the snow, is a natural moment: Motz's winter checklist includes making sure there's enough infill, spread evenly, to keep the turf stable. The Fort Collins station averages 150 days a year with a low at or below 32°F, so pick a thawed, sunny afternoon over a frosty morning."
   - q: "Does a putting green need infill topped up the same way?"
-    a: "No. FieldTurf Landscape says the amount and condition of a green's infill directly affect how the ball rolls, so a green gets brushed regularly and topped off to hold its speed. Our putting green maintenance guide covers that routine."
+    a: "No. FieldTurf Landscape says the amount and condition of a green's infill directly affect how the ball rolls, so a green gets brushed regularly and topped off to hold its speed."
 layerRefs:
   - how-often-to-add-infill-to-artificial-turf.motz-check-interval
   - how-often-to-add-infill-to-artificial-turf.motz-spot-fill
@@ -130,6 +130,8 @@ related:
   towns:
     - firestone-co
     - fort-collins-co
+photos:
+  - crew
 needsFromBrian:
   - "The infill you put down by use (lawn, dog run, play area), by product name, and your pounds per square foot for each, so the table can show a Northern Colorado installer's numbers next to the makers'."
   - "Whether NoCo sells top-up infill or does top-ups and depth checks as a service, and for whose turf, so the page can say so (claims register first)."
@@ -145,7 +147,7 @@ Infill is the sand or granules brushed down between the blades. The Synthetic Tu
 - **Blades that stay down.** Press a patch lightly. Motz, an infill maker, says blades should bounce straight back, and spots that stay flat or matted may need more infill ([Motz](https://themotzgroup.com/infill_blog/how-to-get-turf-fibers-in-artificial-grass-to-stand-up-tall-when-theyre-flat/)). If brushing alone stands them up, it was matting; see our [guide to matted turf](/guides/matted-artificial-turf/).
 - **Backing you can see.** Part the blades with your fingers. FieldTurf Landscape, a turf maker, says infill should clearly cover the backing ([FieldTurf Landscape](https://fieldturflandscape.com/maintenance/artificial-turf-maintenance-guide/)).
 - **Too much blade showing.** Shaw's guidelines finish with ½ to ¾ inch of blade above the infill and warn that more exposed fiber mats or crushes under heavy traffic and wears early ([Shaw](https://qmsview.shawinc.com/QMS_View/files/e5/e52baf26-71b9-4b41-beb0-101543c846f2.pdf)).
-- **Turf that moves.** Synthetic Grass Warehouse, a distributor, says turf short of infill can wrinkle, rupture seams or split its backing ([SGW](https://syntheticgrasswarehouse.com/company/ask-an-expert/ask-jw/thermal-expansion-contraction-in-synthetic-turf/)). See our guides to [wrinkles](/guides/artificial-turf-wrinkles-ripples/) and [lifting edges](/guides/turf-edges-lifting/).
+- **Turf that moves.** Synthetic Grass Warehouse, a distributor, says turf short of infill can wrinkle, rupture seams or split its backing ([SGW](https://syntheticgrasswarehouse.com/company/ask-an-expert/ask-jw/thermal-expansion-contraction-in-synthetic-turf/)). See our guide to [lifting edges](/guides/turf-edges-lifting/).
 - **Sand somewhere else.** The STC's maintenance guidelines note that infill collects at the edges ([STC maintenance guidelines](https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guidelines_for_Maintenan.pdf)). A drift along a border or the low side moved there.
 
 On new turf, the STC says infill settles over the first several months of use and rain, and Motz says installers often put in too little: check depth once it has settled.
@@ -176,9 +178,9 @@ Motz ties the interval to the infill type, how hard the area is used, the climat
 ## What moves infill in a Northern Colorado yard?
 
 - **Storms.** In heavy rain a small part of any infill floats and shifts, says Amorim, a cork infill maker ([Amorim](https://amorimcorksolutions.com/media/5552/e-book_infills_us_v4.pdf)). Plains thunderstorms sometimes drop more than 4 inches in a few hours ([Colorado Climate Center](https://climate.colostate.edu/climate_long.html)), and NOAA logged 536 hail reports in Weld County from 2011 through 2025, on 156 separate days ([NOAA Storm Events](https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/)). The STC advises checking infill after heavy rain in case it has migrated downslope. For hail damage, see our [hail guide](/guides/does-hail-damage-artificial-turf/).
-- **Snow clearing.** The Fort Collins station, nearest to [Fort Collins](/areas/fort-collins-co/) and Wellington, averages 51.4 inches of snow a year ([NOAA normals](https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053005&format=json), 1991–2020). Amorim estimates 1 to 4 percent of a sports field's infill can go in snow clearing in colder countries, and the STC warns that brushing off the last snow may remove infill too. See our [snow removal guide](/guides/artificial-turf-snow-removal/).
+- **Snow clearing.** The Fort Collins station, nearest to [Fort Collins](/areas/fort-collins-co/) and Wellington, averages 51.4 inches of snow a year ([NOAA normals](https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053005&format=json), 1991–2020). Amorim estimates 1 to 4 percent of a sports field's infill can go in snow clearing in colder countries, and the STC warns that brushing off the last snow may remove infill too.
 - **Chinook thaws and foothill wind.** The Climate Center describes chinook winds raising temperatures 25 to 35°F in a short time, and periodic, severe turbulent winds very near the mountains. Our reading, not theirs: a fast melt runs across turf like a heavy rain, so check the low edge after one, and check light organic infills, which Motz says migrate easily, more often.
-- **Blowers and hoses.** Motz says a leaf blower held about 12 to 18 inches above the turf shouldn't move infill ([Motz](https://themotzgroup.com/infill_blog/how-to-rake-leaves-on-artificial-turf-without-causing-damage/)); the STC adds minimal throttle, nozzle never pointed straight in. FieldTurf Landscape keeps a pressure washer below 1500 PSI, sprayed at an angle. Rinsing a dog area? See our [dog urine smell guide](/guides/dog-urine-smell-artificial-turf/).
+- **Blowers and hoses.** Motz says a leaf blower held about 12 to 18 inches above the turf shouldn't move infill ([Motz](https://themotzgroup.com/infill_blog/how-to-rake-leaves-on-artificial-turf-without-causing-damage/)); the STC adds minimal throttle, nozzle never pointed straight in. FieldTurf Landscape keeps a pressure washer below 1500 PSI, sprayed at an angle.
 - **Feet and paws.** Motz says running children and pets move infill, and regions with four seasons and lots of precipitation see more movement. Here it's more season than rain: the Fort Collins station averages 15.88 inches of precipitation a year.
 
 ## How much infill does turf need per square foot?
@@ -214,7 +216,7 @@ As a rule, the same infill that's already there. FieldTurf Landscape says to buy
 
 1. **Pick a dry day.** Motz says turf should be completely dry when infill goes down, so it doesn't clump on the fibers ([Motz](https://themotzgroup.com/infill_blog/our-guide-to-protecting-your-artificial-turf-in-the-winter-motz/)).
 2. **Spot-fill by hand.** For a few low spots Motz uses handfuls, a thin layer at a time, brushed in. For a bigger area FieldTurf Landscape uses a drop spreader and a broom. Brushing technique is in our [matted turf guide](/guides/matted-artificial-turf/).
-3. **Gauge again and stop in range.** Motz says excess infill can impede drainage and leave the surface uncomfortably hard. Water sitting on top? See our [drainage guide](/guides/does-artificial-turf-drain/).
+3. **Gauge again and stop in range.** Motz says excess infill can impede drainage and leave the surface uncomfortably hard.
 4. **Get help for a yard-wide refill.** Motz suggests an expert when infill is extremely low throughout.
 
 Before buying bags, ask whoever installed the turf:

@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: pets
 kind: comparison
 title: "Pet Turf vs Regular Turf: What the Label Changes | NoCo Turf Co."
@@ -21,7 +21,7 @@ faq:
   - q: "Does pet turf need infill?"
     a: "It depends on the product. ForeverLawn's K9Grass specification says no infill is to be used with it, while other makers pair their pet turf with one. Firestone's code calls for a non-toxic, anti-microbial infill such as silica sand or acrylic-coated sand, so a no-infill product there is a question for Firestone Planning. Our dog turf infill guide compares the options."
   - q: "Will pet turf keep my yard from smelling?"
-    a: "Not by itself. Urine that stays in the base smells whatever the label says, and in Firestone the code lists odors among the kinds of deterioration a turf area may not have. Rinsing and drainage do most of the work; our guide to dog urine smell covers both."
+    a: "Not by itself. Urine that stays in the base smells whatever the label says, and in Firestone the code lists odors among the kinds of deterioration a turf area may not have. Rinsing and drainage do most of the work."
   - q: "Can the dog's corner get pet turf and the rest of the yard regular turf?"
     a: "Yes, and Barefoot Lakes' guidelines in Firestone allow for it: a pet-only area may use a product with less secondary thatch, though the same blade-height and face-weight minimums still apply."
   - q: "Does pet turf have to be PFAS-free in Colorado?"
@@ -115,6 +115,11 @@ related:
     - firestone-co
     - longmont-co
     - greeley-co
+photos:
+  - gbp-dog-yard
+reviews:
+  - kirk
+  - kevin
 needsFromBrian:
   - "The pet products you install today, with their spec sheets (pile height, face weight, yarn, backing type) and PFAS documentation, so the table can show a product you actually put down beside the published examples."
   - "What you change for a dog yard versus a lawn, in your own words: the turf, the backing, the infill, the base, and what you do when the clay under a run doesn't drain. Say how the number of dogs and the size of the run changes your pick."
@@ -129,7 +134,7 @@ needsFromBrian:
 Depending on the maker, one or more of these:
 
 - **The backing.** Most turf has a coated backing punched with drain holes; the distributor Synthetic Grass Warehouse calls hole-punch "the industry standard for most synthetic grass products" ([SGW](https://syntheticgrasswarehouse.com/blog/how-does-backing-quality-affect-your-artificial-turfs-drainage/)). Some dog-specific products, the K9Grass line among them, use a knitted backing that lets liquid through across the whole sheet instead.
-- **The yarn.** Some pet products use nylon: K9Grass Elite is all nylon, and K9Grass Classic+ mixes nylon with polyethylene. Our [nylon vs polyethylene guide](/guides/nylon-vs-polyethylene-turf/) covers the trade-offs.
+- **The yarn.** Some pet products use nylon: K9Grass Elite is all nylon, and K9Grass Classic+ mixes nylon with polyethylene.
 - **The pile.** Both K9Grass products are 7/8 inch, well under the 1 1/4 to 1 1/2 inches on the SYNLawn sheets below. Our [pile height guide](/guides/artificial-turf-pile-height/) covers what length does in a yard.
 - **An antimicrobial in the yarn.** What that does, and doesn't do, is further down.
 - **Infill.** Some dog products are made to go down with none; others expect one.
@@ -153,7 +158,7 @@ Often not, by one distributor's own account. Synthetic Grass Warehouse's install
 
 The reason it gives is the gap between holes: when liquid can't flow, "contaminants may remain between drainage holes" and linger as odor. That matters most where urine keeps landing on the same few square feet: a side-yard potty strip, a small run, several dogs. One to three dogs is the case the distributor sells its ordinary landscape turf for.
 
-How backings work, and what drain rates on a sheet do and don't mean, are in [does artificial turf drain](/guides/does-artificial-turf-drain/). How a dog run is built around them is on our [pet turf and dog runs page](/services/pet-turf/).
+How a dog run is built around these backings is on our [pet turf and dog runs page](/services/pet-turf/).
 
 ## What does an antimicrobial in the yarn actually do?
 
@@ -162,7 +167,7 @@ It protects the turf. Under EPA's treated-articles exemption, a product with a b
 Under that exemption, "antimicrobial" on a turf sheet is a claim about the turf itself, not a promise that the turf protects your family from germs. Two more things to know:
 
 - **It isn't a pet-only feature.** SYNLawn builds Sanitized antimicrobial into SYNAugustine 847, which it also sells for lawns ([SYNLawn](https://www.synlawn.com/product/synaugustine-847/)).
-- **Ask where the treatment is.** On the K9Grass sheets it is "manufactured into yarn." Urine that has drained through the backing is below the yarn, in the base, where rinsing and drainage do the work. Our [guide to dog urine smell](/guides/dog-urine-smell-artificial-turf/) covers that part.
+- **Ask where the treatment is.** On the K9Grass sheets it is "manufactured into yarn." Urine that has drained through the backing is below the yarn, in the base, where rinsing and drainage do the work.
 
 ## Will a short pet turf pass Firestone's rules, or an HOA's?
 
@@ -188,7 +193,7 @@ That is a common Northern Colorado yard:
 - [Greeley](/areas/greeley-co/)'s water department says local soils are shallow, with hard clay "sometimes just inches below the surface" ([City of Greeley](https://greeleyco.gov/government/city-administration/city-departments/water-and-sewer/save-water/waterwise-landscapes)).
 - Federal soil surveys flag the Nunn and Weld soils, common around the Larimer foothill towns, Longmont and Frederick–Dacono, for shrink-swell (USDA-NRCS soil survey data).
 
-A backing that passes urine anywhere still hands it to the base. On slow clay, that moves where the urine sits, not whether it leaves. What goes under the turf is in [what base goes under artificial turf](/guides/what-base-goes-under-artificial-turf/) and [artificial turf on clay soil](/guides/artificial-turf-on-clay-soil/). If you are still deciding between turf and grass for the dogs at all, start with [artificial turf vs grass for dogs](/guides/artificial-turf-vs-grass-for-dogs/).
+A backing that passes urine anywhere still hands it to the base. On slow clay, that moves where the urine sits, not whether it leaves. If you are still deciding between turf and grass for the dogs at all, start with [artificial turf vs grass for dogs](/guides/artificial-turf-vs-grass-for-dogs/).
 
 ## What should I ask before paying more for pet turf?
 

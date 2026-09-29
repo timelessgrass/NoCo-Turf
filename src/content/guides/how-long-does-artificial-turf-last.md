@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: buying
 kind: guide
 title: "How Long Does Artificial Turf Last in Colorado? | NoCo Turf Co."
@@ -18,11 +18,11 @@ answer:
   answer: "Turf sellers quote 10 to 25 years for a backyard: 12 to 20 from one maker, 15 to 25 from one distributor, 10 to 15 with dogs. Written coverage from makers commonly runs 10 to 15 years. In Northern Colorado, freeze-thaw on clay, dog and play paths, altitude sun and hail decide where in that range a yard lands."
 faq:
   - q: "Does turf in the shade last longer than turf in full sun?"
-    a: "It should. FusionTurf says high UV and heat speed up aging and that shade extends turf life. A strip along a north fence or under a deck edge takes far less sun than the open lawn, which also makes it a handy color reference as the rest of the yard ages. Our guide to turf fading has the UV detail."
+    a: "It should. FusionTurf says high UV and heat speed up aging and that shade extends turf life. A strip along a north fence or under a deck edge takes far less sun than the open lawn, which also makes it a handy color reference as the rest of the yard ages."
   - q: "Do kids and backyard games wear turf out faster?"
     a: "Along the routes they use, yes. Synthetic Grass Warehouse says a backyard that hosts kids, parties and daily play ages faster in its high-traffic paths. FusionTurf puts turf over a playground pad at 8 to 12 years, longer with consistent grooming. Play areas are on our playground turf page."
   - q: "How long does a backyard putting green last?"
-    a: "FusionTurf puts putting greens at 10 to 15 years, depending on brushing and traffic. A green has a job a lawn doesn't: the ball has to roll true, so it can be done for putting while it still looks fine from the patio. Year-round care is in our putting green maintenance guide."
+    a: "FusionTurf puts putting greens at 10 to 15 years, depending on brushing and traffic. A green has a job a lawn doesn't: the ball has to roll true, so it can be done for putting while it still looks fine from the patio."
   - q: "What happens to turf once it's worn out?"
     a: "It comes out, and it rarely gets recycled. California's toxics regulator reports that most end-of-life turf there goes to landfills, and that only 10% of the world's end-of-life turf was recycled in 2021. Our guide to getting rid of old turf covers Larimer and Weld County options."
   - q: "Should I keep the paperwork from the install?"
@@ -111,6 +111,11 @@ related:
     - pet-turf
   towns:
     - firestone-co
+photos:
+  - gbp-dog-yard
+reviews:
+  - kevin
+  - kirk
 needsFromBrian:
   - "The oldest Northern Colorado yards you installed that are still in the ground: the town, the install year, the product, and current photos of the paths, seams and edges. This is the number the page is missing, and only you have it."
   - "Turf you've pulled out or rebuilt, yours or another company's: its age, the town, and what failed first (the base, the seams, the fibers, or a smell), so the page can put local numbers next to the sellers' ranges."
@@ -140,17 +145,17 @@ Read the table with two cautions:
 - **Nobody has measured backyard turf over its whole life.** A 2020 review of turf-fiber research for NTNU, Norway's university of science and technology, found "no previous research on the long-term effect of degradation" and treats accelerated lab results as a worst case. The year ranges are field experience and sales estimates, not test results.
 - **The one regulator in the table leans the other way.** In a report on PFAS in turf, right after giving sports fields 5 to 15 years, California's DTSC says turf "for leisure and landscaping is less durable," and that any installation's life depends on "installation quality, maintenance, climate, and intensity of use." The sellers rank yards above fields; the regulator ranks them below.
 
-What makers put in writing is shorter than what they quote. FusionTurf says makers' limited coverage commonly runs 10 to 15 years, SGW says top manufacturers back turf for up to 15, and SYNLawn's residential terms, effective January 1, 2024, run on a 10-year schedule ([SYNLawn](https://lowes.synlawn.com/wp-content/uploads/2024/06/SY24247_Lowes_ProductWarranty_v1.pdf)). The written term is the part of the estimate a maker stands behind. How that coverage steps down year by year is in [what a turf maker's written terms cover](/guides/artificial-turf-warranty/).
+What makers put in writing is shorter than what they quote. FusionTurf says makers' limited coverage commonly runs 10 to 15 years, SGW says top manufacturers back turf for up to 15, and SYNLawn's residential terms, effective January 1, 2024, run on a 10-year schedule ([SYNLawn](https://lowes.synlawn.com/wp-content/uploads/2024/06/SY24247_Lowes_ProductWarranty_v1.pdf)). The written term is the part of the estimate a maker stands behind.
 
 ## What wears out first in a Northern Colorado yard?
 
 Usually the ground under the turf, before the blades. FusionTurf says "Freeze-thaw is manageable with proper base prep and drainage," which also says where the trouble starts when either is missing.
 
-- **The base, through freeze-thaw.** NOAA's Fort Collins station averages 150 nights a year at or below 32°F, and on about 135 of those days it climbs back above freezing ([NOAA, Fort Collins](https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053005&format=json)); Longmont 2 ESE averages 177.7 freezing nights ([NOAA, Longmont](https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00055116&format=json)). The Colorado Geological Survey says the state's expansive clays can swell "up to 20% by volume" when wet ([CGS](https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/)), and FusionTurf says a well-compacted, free-draining aggregate base "minimizes frost heave" ([FusionTurf](https://find.fusionturf.com/answers/does-snow-or-freezing-damage-artificial-grass/)). When the ground moves, the turf ripples, dips or opens at the seams. More in [does artificial turf freeze](/guides/does-artificial-turf-freeze/), [turf on clay soil](/guides/artificial-turf-on-clay-soil/) and [sinking and low spots](/guides/artificial-turf-sinking-low-spots/).
+- **The base, through freeze-thaw.** NOAA's Fort Collins station averages 150 nights a year at or below 32°F, and on about 135 of those days it climbs back above freezing ([NOAA, Fort Collins](https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053005&format=json)); Longmont 2 ESE averages 177.7 freezing nights ([NOAA, Longmont](https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00055116&format=json)). The Colorado Geological Survey says the state's expansive clays can swell "up to 20% by volume" when wet ([CGS](https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/)), and FusionTurf says a well-compacted, free-draining aggregate base "minimizes frost heave" ([FusionTurf](https://find.fusionturf.com/answers/does-snow-or-freezing-damage-artificial-grass/)). When the ground moves, the turf ripples, dips or opens at the seams.
 - **A rushed install.** SGW says poorly prepared ground leads to "wrinkles, low spots, drainage problems, and seams that separate," which shorten turf life "no matter how good the synthetic turf is." How to confirm what went under yours: [checking the base you paid for](/guides/check-turf-base-was-installed/).
 - **The paths.** Fibers flatten first, then wear, wherever feet and paws take the same line every day.
-- **Frozen fibers.** The NTNU review says below freezing the fibers turn "stiffer and have more brittle behavior," so force on them is more likely to break them. FusionTurf warns against metal shovels or scrapers that "can nick fibers or backing"; [snow removal](/guides/artificial-turf-snow-removal/) covers the safer way.
-- **Sun.** At the corridor's elevation, the EPA's rule of about 6% more UV per kilometer works out to roughly 9% more UV than at sea level ([EPA](https://www.epa.gov/sunsafety/learn-about-uv-index)); [does artificial turf fade](/guides/does-artificial-turf-fade/) has the rest.
+- **Frozen fibers.** The NTNU review says below freezing the fibers turn "stiffer and have more brittle behavior," so force on them is more likely to break them. FusionTurf warns against metal shovels or scrapers that "can nick fibers or backing."
+- **Sun.** At the corridor's elevation, the EPA's rule of about 6% more UV per kilometer works out to roughly 9% more UV than at sea level ([EPA](https://www.epa.gov/sunsafety/learn-about-uv-index)).
 - **Hail.** NOAA logged 536 hail reports in Weld County and 253 in Larimer from 2011 through 2025 ([NOAA Storm Events](https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/)); what a storm does, and what insurance says, is in [hail and turf insurance](/guides/does-hail-damage-artificial-turf/).
 
 ## How long does artificial turf last with dogs?
@@ -160,7 +165,7 @@ Not as long as a yard without them. FusionTurf says most pet turf systems last "
 Dogs shorten turf life in ways people don't:
 
 - **Worn lines.** The route from the back door, the fence a dog patrols, the corner it circles: that is where fibers compress and stay down. Brush those first; [matted turf](/guides/matted-artificial-turf/) covers how.
-- **Urine.** It doesn't wear the plastic the way paws do, but it builds up. The Motz Group, a field builder that also sells infill, says that when a dog uses the same stretch as its toilet, urine "can build up in the turf’s individual layers" and releases ammonia over time ([Motz](https://themotzgroup.com/infill_blog/my-artificial-turf-smells-like-dog-pee-what-should-i-do/)). FusionTurf counts "persistent odor even after cleaning and enzyme treatment" as a sign pet turf is due for a refresh. The fixes are in [dog urine smell](/guides/dog-urine-smell-artificial-turf/), [dog turf infill](/guides/dog-turf-infill/) and [how to clean artificial turf](/guides/how-to-clean-artificial-turf/).
+- **Urine.** It doesn't wear the plastic the way paws do, but it builds up. The Motz Group, a field builder that also sells infill, says that when a dog uses the same stretch as its toilet, urine "can build up in the turf’s individual layers" and releases ammonia over time ([Motz](https://themotzgroup.com/infill_blog/my-artificial-turf-smells-like-dog-pee-what-should-i-do/)). FusionTurf counts "persistent odor even after cleaning and enzyme treatment" as a sign pet turf is due for a refresh. Some of the fixes are in [dog turf infill](/guides/dog-turf-infill/).
 - **Edges and digging.** FusionTurf calls for "secured borders so dogs cannot pry up the perimeter." An edge that stays lifted gets worse; see [can dogs dig through turf](/guides/can-dogs-dig-through-artificial-turf/).
 
 Whether a pet label earns its price is in [pet turf vs regular turf](/guides/pet-turf-vs-regular-turf/). Dog yards are on our [pet turf page](/services/pet-turf/).
@@ -171,8 +176,6 @@ One Northern Colorado town writes an answer into its code. [Firestone's](/areas/
 
 So the replacement interval is set by condition, not the calendar, and Firestone's list works as a checklist anywhere: seams opening, lifted edges or patches, heat damage, dips, a smell that won't clean out, wear down to the backing. Turf past its written term with none of those still has life in it. Turf showing several in its first few years is failing early; look at the base and the install first.
 
-Whether worn turf gets a repair or a replacement is its own decision, covered in [repair or replace artificial turf](/guides/when-to-replace-artificial-turf/).
-
 ## How can I judge how long a turf will last before I buy it?
 
 Four checks before you sign:
@@ -180,7 +183,7 @@ Four checks before you sign:
 - **Look at old yards.** The Synthetic Turf Council tells buyers to visit an installer's past jobs, "particularly those that are several years old" ([STC](https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf)). Ask for a few yards in your part of Northern Colorado that have been through five or more winters, and look at the paths, seams and edges.
 - **Read the spec sheet.** FusionTurf says higher face weight and stitch density "generally mean better wear resistance," and SGW that bargain turf "often fades, flattens, and fails a decade sooner" than premium turf. See [turf face weight](/guides/artificial-turf-face-weight/) and [what a turf spec sheet should say](/guides/turf-spec-sheet-for-colorado/).
 - **Set the written term against the quoted life.** If a seller quotes 20 years and the paperwork covers 10, the second decade is on you.
-- **Ask how the base handles a freeze.** A good answer names the dig depth, the base material, how it's compacted and where the water goes on clay. More in [questions to ask a turf installer](/guides/questions-to-ask-turf-installer/) and [what base goes under turf](/guides/what-base-goes-under-artificial-turf/).
+- **Ask how the base handles a freeze.** A good answer names the dig depth, the base material, how it's compacted and where the water goes on clay. More in [questions to ask a turf installer](/guides/questions-to-ask-turf-installer/).
 
 ## What makes artificial turf last longer?
 
@@ -190,7 +193,7 @@ Mostly by keeping the fibers standing and the infill in place:
 - **Brush the paths, without overdoing it.** The same guidelines say flattened fibers "can create a possible acceleration of wear," and that excessive brushing damages fibers too.
 - **Clear leaves and debris** before they break down, as SGW advises; cottonwood fluff and needles are in [leaves on artificial turf](/guides/leaves-on-artificial-turf/).
 - **Get ready for winter.** FusionTurf says to top off infill before the first freeze.
-- **Keep heat away.** Firestone's list includes heat degradation. Two common sources are reflected window glare and fire pits: see [turf melting near the house](/guides/artificial-turf-melting-from-windows/) and [fire pits on turf](/guides/fire-pit-on-artificial-turf/).
+- **Keep heat away.** Firestone's list includes heat degradation. Two common sources are reflected window glare and fire pits; [fire pits on turf](/guides/fire-pit-on-artificial-turf/) covers the second.
 - **Plan a yearly check.** SYNLawn's residential terms require an annual maintenance program, and SYNLawn recommends one "as this will prolong the life of your investment." How much upkeep turf really takes here is in [does artificial turf need maintenance](/guides/does-artificial-turf-need-maintenance/).
 
 A new install is on our [artificial turf installation page](/services/artificial-turf-installation/).

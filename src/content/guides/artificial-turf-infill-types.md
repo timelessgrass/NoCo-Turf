@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: products
 kind: comparison
 title: "Artificial Turf Infill Types for Northern Colorado | NoCo Turf Co."
@@ -19,11 +19,11 @@ faq:
   - q: "Can I use play sand or all-purpose sand as infill?"
     a: "It isn't the same product. Turf sand is \"specialized for turf; not just any sand can be used,\" an engineer writing for facility managers says: rounded, graded to between 0.6 and 0.85 millimeters and washed of dust, so it resists compaction and drains. Bagged sand sold for other jobs isn't graded that way."
   - q: "Does a backyard putting green need infill?"
-    a: "Many do, and more of it than a lawn. Motz's guidelines say most bent-grass-style greens are backfilled with about 5 to 6 pounds of raw sand per square foot, then top-dressed with about 1 pound of coated sand. Others are built with none; our guide to sand-filled and non-infilled putting greens compares the two."
+    a: "Many do, and more of it than a lawn. Motz's guidelines say most bent-grass-style greens are backfilled with about 5 to 6 pounds of raw sand per square foot, then top-dressed with about 1 pound of coated sand. Others are built with none."
   - q: "How many pounds of infill does a lawn take?"
     a: "The turf maker's sheet decides, by pile height. As a rule of thumb, Motz gives about 2 to 3 pounds of silica sand per square foot for a 1 to 2 inch pile, more in high-use areas. How often it needs topping up is in our guide to adding infill."
   - q: "Will clearing snow pull infill out of the turf?"
-    a: "Some. A cork infill maker estimates that 1 to 4 percent of a sports field's infill can be lost to snow clearing in cold countries. On a home lawn, Motz says a leaf blower held about 12 to 18 inches above the turf shouldn't move infill. Our snow removal guide covers shovels and ice melt."
+    a: "Some. A cork infill maker estimates that 1 to 4 percent of a sports field's infill can be lost to snow clearing in cold countries. On a home lawn, Motz says a leaf blower held about 12 to 18 inches above the turf shouldn't move infill."
   - q: "Which infill should I use with dogs?"
     a: "That turns on what each infill does with urine: zeolite, antimicrobial coated sand and plain silica sand behave differently. Our dog turf infill guide compares them and the pounds each takes."
 layerRefs:
@@ -139,6 +139,8 @@ related:
     - firestone-co
     - longmont-co
     - frederick-co
+photos:
+  - crew
 needsFromBrian:
   - "Which infill you put down on lawns, dog areas and putting greens, by product name, and your pounds per square foot for each at the pile heights you install."
   - "Whether you have seen cork, coconut or other light infill wash out, blow off or freeze solid in a Northern Colorado yard, with the town, the month and photos."
@@ -155,10 +157,10 @@ Most turf does. The Synthetic Turf Council, the industry's trade association, sa
 
 Motz, a coated-sand maker, lists what enough infill does on a lawn: cushion underfoot, ballast against "unwanted movement or wrinkling of the turf," support for the blades and "UV protection of the primary backing" ([Motz installation guidelines](https://themotzgroup.com/wp-content/uploads/2023/03/Envirofill-Installation-Guidelines-for-Landscape-Applications.pdf)). Two of those count for more here:
 
-- **Temperature swings.** The Colorado Climate Center describes the plains as having "a large daily and seasonal range in temperature" ([Colorado Climate Center](https://climate.colostate.edu/climate_long.html)). Even weight helps keep turf flat as it warms and cools; for ripples, see [why turf wrinkles](/guides/artificial-turf-wrinkles-ripples/).
+- **Temperature swings.** The Colorado Climate Center describes the plains as having "a large daily and seasonal range in temperature" ([Colorado Climate Center](https://climate.colostate.edu/climate_long.html)). Even weight helps keep turf flat as it warms and cools.
 - **Sun.** The same source says Colorado's thin atmosphere "allows greater penetration of solar radiation." Infill covers the backing between the blades.
 
-Some products are designed to go without. ForeverLawn's specification for its knitted K9Grass Classic+ dog turf says "No infill material is to be used" ([K9Grass specification](https://k9grass.com/wp-content/uploads/2022/06/K9Grass-Classic-Plus-Outdoor-CSI-M1266-0322.pdf)); see [pet turf and regular turf](/guides/pet-turf-vs-regular-turf/). Some putting greens skip it too ([sand-filled or non-infilled greens](/guides/sand-filled-vs-non-infilled-putting-green/)). For any product, its spec sheet settles it; [what a turf spec sheet should say](/guides/turf-spec-sheet-for-colorado/) explains how to read one.
+Some products are designed to go without. ForeverLawn's specification for its knitted K9Grass Classic+ dog turf says "No infill material is to be used" ([K9Grass specification](https://k9grass.com/wp-content/uploads/2022/06/K9Grass-Classic-Plus-Outdoor-CSI-M1266-0322.pdf)); see [pet turf and regular turf](/guides/pet-turf-vs-regular-turf/). Some putting greens skip it too. For any product, its spec sheet settles it; [what a turf spec sheet should say](/guides/turf-spec-sheet-for-colorado/) explains how to read one.
 
 ## What are the main kinds of infill?
 
@@ -187,15 +189,15 @@ Neither needs water to work, which is why sand suits a dry climate.
 Not easily. Most of them work by holding water, and this climate takes it away.
 
 - **They need moisture.** Perry writes that "some of the organic infills are required to maintain a certain moisture content, and irrigation may be required," though rarely in a place like New England. GreenPlay, which sells a coconut-and-cork blend, says its coconut fibers absorb moisture "from the air resulting from ambient humidity, rainfall or irrigation" ([GreenPlay](https://www.greenplayusa.com/corkonut-infill/)). Here, the Climate Center says, "Humidity is generally quite low," and the Greeley UNC station averages 14.65 inches of precipitation a year (NOAA 1991–2020 normals). Keeping it damp means running water onto turf; see [do you have to water artificial turf](/guides/do-you-have-to-water-artificial-turf/).
-- **The water they hold can freeze.** "Because these fields hold moisture, they can be prone to freezing," Perry says. NOAA's normals count 150 nights a year at or below 32°F at Fort Collins and 177.7 at Longmont 2 ESE. More in [does artificial turf freeze](/guides/does-artificial-turf-freeze/).
+- **The water they hold can freeze.** "Because these fields hold moisture, they can be prone to freezing," Perry says. NOAA's normals count 150 nights a year at or below 32°F at Fort Collins and 177.7 at Longmont 2 ESE.
 - **They are light.** Amorim, a cork maker, says any infill can float in heavy rain, when "a small part of the infill floats and is shifted by rain water." The Climate Center says a plains thunderstorm sometimes drops more than 4 inches of rain on one spot in a few hours, and that the plains get "moderate to high wind movement," with "periodic, severe turbulent winds" near the mountains. No maker we found rates its infill for wind; weight is the closest guide, and organics are the lightest.
-- **They break down.** Perry reports organic-infill fields that "need to be replenished every two to three years" and organic infill that grows weeds (see [weeds in artificial turf](/guides/weeds-growing-through-artificial-turf/)). Motz, which sells a walnut infill, says many organics "can decompose, settle, and compact over time" ([Motz](https://themotzgroup.com/infill_blog/organic-infill-can-make-your-artificial-turf-more-sustainable-7-things-to-know/)).
+- **They break down.** Perry reports organic-infill fields that "need to be replenished every two to three years" and organic infill that grows weeds. Motz, which sells a walnut infill, says many organics "can decompose, settle, and compact over time" ([Motz](https://themotzgroup.com/infill_blog/organic-infill-can-make-your-artificial-turf-more-sustainable-7-things-to-know/)).
 
 Walnut shell is the exception on water: Perry says crushed walnut shells "do not require an irrigation system," and Motz says its own "never has to be watered." Either way, on fields organic infill is "typically a mix of 30 percent organic material and 70 percent sand by weight," so the sand still does most of the holding down.
 
 ## Where do rubber and cooling infills fit?
 
-**Rubber.** On athletic fields, "the most commonly used artificial turf infill is made from recycled tires," known as crumb rubber or SBR, according to the Toxics Use Reduction Institute at UMass Lowell ([TURI](https://www.uml.edu/docs/Infills-Overview-2017_tcm18-386050.pdf)). Longmont chose otherwise for its Dry Creek fields, which use "coated sand in lieu of rubber infill," and the city credits sand with "lower heat retention" ([City of Longmont](https://longmontcolorado.gov/facility/dry-creek-community-park/)). Why fields use rubber pellets, and what the health research says, is in [is crumb rubber safe](/guides/is-crumb-rubber-safe/).
+**Rubber.** On athletic fields, "the most commonly used artificial turf infill is made from recycled tires," known as crumb rubber or SBR, according to the Toxics Use Reduction Institute at UMass Lowell ([TURI](https://www.uml.edu/docs/Infills-Overview-2017_tcm18-386050.pdf)). Longmont chose otherwise for its Dry Creek fields, which use "coated sand in lieu of rubber infill," and the city credits sand with "lower heat retention" ([City of Longmont](https://longmontcolorado.gov/facility/dry-creek-community-park/)).
 
 **Cooling infills.** Shaw describes HydroChill as "a pre-coated infill that bonds to sand," whose stored moisture evaporates as the surface heats, and notes that "any wet surface can provide short-term cooling" ([Shaw](https://shawgrass.com/en-us/innovation/hydrochill)). Like organic infill, it has to be wet to work, and the Greeley UNC station averages 58.3 days a year at or above 90°F. Measured results are in [how hot does artificial turf get](/guides/how-hot-does-artificial-turf-get/).
 

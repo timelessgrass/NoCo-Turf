@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: buying
 kind: problem
 title: "Signs of a Bad Turf Install and How to Check the Base | NoCo Turf Co."
@@ -19,7 +19,7 @@ faq:
   - q: "Should I pay the final invoice on install day?"
     a: "Not before you've walked it. The FTC's advice is never to make the final payment until the work is done and you're satisfied with it. Check the seams, edges and infill bags that day, and ask in writing what the installer will do about problems that only show up after the first hot spell or the first heavy rain."
   - q: "If weeds come up through my turf, does that prove the barrier was skipped?"
-    a: "No. SYNLawn's own installation guide says a weed barrier can lower the risk but may not completely prevent weed growth. Where the weeds come up says more. TigerTurf, a turf maker, reads weeds along the edges as roots creeping in under the edging, and weeds across the whole surface as a membrane that failed or was poorly overlapped. That second pattern is the one to check against your install photos; our guide to weeds growing through artificial turf covers the rest."
+    a: "No. SYNLawn's own installation guide says a weed barrier can lower the risk but may not completely prevent weed growth. Where the weeds come up says more. TigerTurf, a turf maker, reads weeds along the edges as roots creeping in under the edging, and weeds across the whole surface as a membrane that failed or was poorly overlapped. That second pattern is the one to check against your install photos."
   - q: "I'm buying a house that already has turf. What paperwork should I ask for?"
     a: "The install contract or quote with the layers listed, any photos from the install, the turf's product sheet, the turf maker's coverage terms and whether they pass to a new owner, the HOA or metro-district approval, and in Firestone the town permit. Missing paperwork doesn't mean a bad install, but it leaves you only the surface signs to judge by."
   - q: "Will an installer mind if I watch and take photos?"
@@ -114,6 +114,9 @@ related:
     - firestone-co
     - windsor-co
     - greeley-co
+reviews:
+  - lane
+  - lanelle
 needsFromBrian:
   - "Whether you photograph each layer (the dig, the fabric, the compacted base with a tape in it, the seams, the infill bags) and give those photos to the customer. If you do, a sample set from a real job with the town and month."
   - "What your quotes list line by line: dig depth, rock product and compacted depth, fabric and where it goes, pad, seam method, fastener spacing, infill type and pounds per square foot. It stays off this page until you approve it (claims.json: the base-spec claim)."
@@ -123,7 +126,7 @@ needsFromBrian:
   - "Photos of an install you replaced that was missing a layer (no installer named), showing what was and wasn't under it, with the owner's permission."
 ---
 
-The base, the fabric and any pad disappear the moment the turf rolls out, and the Synthetic Turf Council's base guidelines are blunt about what follows: once the turf is down, "there is little that can be done to correct base defects" ([STC](https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guidelines_for_Base_Syst.pdf)). So most of the checking happens on paper and during the job. What the base should be made of is in our guide to [what goes under artificial turf](/guides/what-base-goes-under-artificial-turf/); what to ask before you hire is in [questions to ask a turf installer](/guides/questions-to-ask-turf-installer/).
+The base, the fabric and any pad disappear the moment the turf rolls out, and the Synthetic Turf Council's base guidelines are blunt about what follows: once the turf is down, "there is little that can be done to correct base defects" ([STC](https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guidelines_for_Base_Syst.pdf)). So most of the checking happens on paper and during the job. What to ask before you hire is in [questions to ask a turf installer](/guides/questions-to-ask-turf-installer/).
 
 ## What should the quote say about each layer?
 
@@ -148,7 +151,7 @@ On a lot with architectural review, from a golf-course home to a lake neighborho
 
 Each layer, dated, with a tape measure standing in the shot, from the same spot each time. Field builders keep compaction test results because they help "assess the likely cause of the failure" later, in the STC's words. On a backyard, photos do that job.
 
-1. **The dig,** with a tape from a string line or a slab edge down to the soil, at the edges and the middle. Photograph anything unexpected before rock covers it. Greeley's water department says local soils can hold hard clay "sometimes just inches below the surface" ([City of Greeley](https://greeleyco.gov/government/city-administration/city-departments/water-and-sewer/save-water/waterwise-landscapes)); see our [clay soil guide](/guides/artificial-turf-on-clay-soil/).
+1. **The dig,** with a tape from a string line or a slab edge down to the soil, at the edges and the middle. Photograph anything unexpected before rock covers it. Greeley's water department says local soils can hold hard clay "sometimes just inches below the surface" ([City of Greeley](https://greeleyco.gov/government/city-administration/city-departments/water-and-sewer/save-water/waterwise-landscapes)).
 2. **Anything buried:** capped sprinkler heads, drip lines to trees, lighting conduit, downspout drains. On a custom build these often come from other trades, and they belong under the base, not trenched through it later. The sprinkler test is in our [install-day checklist](/guides/preparing-for-turf-installation-day/).
 3. **The fabric,** laid out before the rock, or on top of the base if that's the plan.
 4. **The base,** wetted and compacted, with the tape at an edge and the plate compactor in the frame.
@@ -159,7 +162,7 @@ Each layer, dated, with a tape measure standing in the shot, from the same spot 
 
 ## How can I check the base before the turf covers it?
 
-Ask for a pause between compaction and the first roll of turf, and walk the base with the crew lead. The STC's field guidance formalizes this: the builder inspects the base, and the owner's representative, such as the architect or engineer, approves it against the documents ([STC, 2011](https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Suggested_Guidelines_for.pdf)). On a custom home, that's your landscape architect or builder; see [turf on a custom home](/guides/custom-home-landscape-turf/).
+Ask for a pause between compaction and the first roll of turf, and walk the base with the crew lead. The STC's field guidance formalizes this: the builder inspects the base, and the owner's representative, such as the architect or engineer, approves it against the documents ([STC, 2011](https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Suggested_Guidelines_for.pdf)). On a custom home, that's your landscape architect or builder.
 
 - **Depth.** Measure at several edges, and ask how the middle compares.
 - **Firmness.** ForeverLawn's guidelines say a compacted base "needs to be firm" and warn that turf "will reveal the base, not hide it" ([ForeverLawn](https://www.landscapesbyforeverlawn.com/wp-content/uploads/2023/07/DIY-Landscape-Installation-Guidelines-.pdf)). Heel prints, loose rock or a soft spot will show through.
@@ -174,13 +177,13 @@ Platteville's code lists them and calls such turf a public nuisance: seams that 
 
 | When | What to check | What it can point to |
 |---|---|---|
-| Last day | Part the blades at each seam; the STC says the gap shouldn't exceed the tufting gauge, the spacing between rows | A poor seam; see [visible seams](/guides/visible-seams-in-artificial-turf/) |
+| Last day | Part the blades at each seam; the STC says the gap shouldn't exceed the tufting gauge, the spacing between rows | A poor seam |
 | Last day | Tug lightly along the perimeter | Too few fasteners; see [nails or staples](/guides/artificial-turf-nails-vs-staples/) |
 | Last day | Square feet × the sheet's infill rate ÷ bag weight, against the empty bags | Short infill (SYNLawn's guide calls for about 1 to 2 pounds of sand per square foot) |
-| First hot weeks | Ripples | Turf not stretched, or infill short; see [wrinkles](/guides/artificial-turf-wrinkles-ripples/) |
-| First heavy rain | Water that sits | A base graded wrong or not porous; see [drainage](/guides/does-artificial-turf-drain/) |
+| First hot weeks | Ripples | Turf not stretched, or infill short |
+| First heavy rain | Water that sits | A base graded wrong or not porous |
 | First windy season | Edges lifting in chinook winds off the mountains | Edge fastening; see [lifting edges](/guides/turf-edges-lifting/) |
-| After the first winter | Dips, humps, soft spots | A thin or loose base, or trapped water; see [sinking turf](/guides/artificial-turf-sinking-low-spots/) |
+| After the first winter | Dips, humps, soft spots | A thin or loose base, or trapped water |
 
 ForeverLawn's bag math: most bags weigh 50 pounds, so at 1 pound per square foot one bag covers 50 square feet. To check depth instead, the STC measures from the top of the backing to the top of the infill; see [adding infill](/guides/how-often-to-add-infill-to-artificial-turf/).
 
@@ -194,7 +197,7 @@ Only by opening something. Ask the installer to fold back a corner or a stretch 
 
 1. **Put it in writing.** Name the contract line, attach the photo or ticket, and ask for a date. The FTC says to go to the contractor first, follow calls with a letter sent with a return receipt, and keep copies.
 2. **Ask for the layer, not a discount.** Fixing a missing base or barrier means lifting the turf, showing you the layer and rebuilding it. Infill brushed over a dip is not a fix.
-3. **Don't expect the turf maker to pay.** SYNLawn's residential terms, for one, exclude "failure as a result of improper subsurface preparation or drainage" and leave workmanship between you and the installer ([SYNLawn terms](https://lowes.synlawn.com/wp-content/uploads/2024/06/SY24247_Lowes_ProductWarranty_v1.pdf)). See [what turf coverage includes](/guides/artificial-turf-warranty/).
+3. **Don't expect the turf maker to pay.** SYNLawn's residential terms, for one, exclude "failure as a result of improper subsurface preparation or drainage" and leave workmanship between you and the installer ([SYNLawn terms](https://lowes.synlawn.com/wp-content/uploads/2024/06/SY24247_Lowes_ProductWarranty_v1.pdf)).
 4. **Mind your review committee.** New Windsor wants work finished as described in your formal submittal, and its committee has 60 days after your written notice of completion to raise non-compliance ([New Windsor guidelines](https://www.newwindsormetro.org/files/72102649d/New+Windsor_Brunner+Farm+Design+Guidelines+-+5-16-24+-+Final.pdf)). In Barefoot Lakes, a notice of non-compliance goes to the owner, so settle it with the installer before the committee inspects.
 5. **Check the town.** Firestone makes the base a code requirement and wants a permit first. It depends on the permit whether an inspection follows; ask Firestone Planning.
 6. **Know the state options.** Not legal advice: Colorado's Attorney General takes consumer complaints and mediates some through its Consumer Mediation Program, though it can't take on your individual case ([Colorado AG](https://coag.gov/file-complaint/)), and small claims court hears claims up to $7,500 ([C.R.S. 13-6-403](https://colorado.public.law/statutes/crs_13-6-403)). A bigger job is a conversation with a Colorado attorney.

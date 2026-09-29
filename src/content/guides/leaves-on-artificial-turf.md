@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: care-and-repair
 kind: guide
 title: "Leaves, Cottonwood Fluff and Pine Needles on Turf | NoCo Turf Co."
@@ -19,11 +19,11 @@ faq:
   - q: "Do sticks and seed pods need picking up by hand?"
     a: "Yes, before you blow or rake. Motz says to walk the yard and pick up the larger sticks first, and the Synthetic Turf Council says any loose object, however small, can abrade turf fibers or contaminate the infill. Here that means the pencil-sized twigs cottonwoods shed in hot, dry summers and the long, twisted pods of honeylocusts that aren't fruitless varieties."
   - q: "Is cottonwood cotton what's making me sneeze in June?"
-    a: "Probably not. CSU Extension says the cotton has no allergenic properties and that symptoms during the June cotton season more likely come from grass, weed or tree pollen. What turf changes for allergies, and what it doesn't, is in our guide to artificial turf and allergies."
+    a: "Probably not. CSU Extension says the cotton has no allergenic properties and that symptoms during the June cotton season more likely come from grass, weed or tree pollen."
   - q: "What should I ask an installer if the turf will sit under a big tree?"
     a: "Ask which cleanup tools the turf maker's care instructions allow, whether the infill stays put under a blower on low, how the pile height holds leaves and needles, and where leaves from nearby beds will blow. A good answer names tools and settings for your tree, not just that turf is low maintenance."
   - q: "Does a backyard putting green need different leaf care?"
-    a: "It can. A putting surface is shorter and denser than lawn turf, and greens differ in whether they carry sand infill, so ask the green's maker which tools it takes. Our putting green maintenance guide covers greens through the year."
+    a: "It can. A putting surface is shorter and denser than lawn turf, and greens differ in whether they carry sand infill, so ask the green's maker which tools it takes."
 layerRefs:
   - leaves-on-artificial-turf.motz-blower-height
   - leaves-on-artificial-turf.motz-rake-broom
@@ -109,6 +109,8 @@ related:
     - artificial-turf-installation
   towns:
     - fort-collins-co
+photos:
+  - gbp-hot-tub
 needsFromBrian:
   - "The blower, broom or sweeper you tell customers to use for leaves and needles: the model, the setting, how high you hold it, and whether the answer changes with the infill."
   - "Whether NoCo does seasonal cleanups (fall leaves, June cottonwood cotton, spring elm seed), in which towns, and what a visit includes."
@@ -139,7 +141,7 @@ A few habits keep the infill where it belongs:
 - **Start where the wind piles it.** Leaves and cotton collect against fences, walls and edges first.
 - **Watch the ends of your passes.** If little drifts of sand or granules show up, brush them back across the area. If the infill looks thin in spots, see [how often turf needs more infill](/guides/how-often-to-add-infill-to-artificial-turf/).
 
-Leaves that sat long enough to flatten the blades need a brushing too; that is in [fixing matted artificial turf](/guides/matted-artificial-turf/). Dust, pollen and spills are in [how to clean artificial turf](/guides/how-to-clean-artificial-turf/).
+Leaves that sat long enough to flatten the blades need a brushing too; that is in [fixing matted artificial turf](/guides/matted-artificial-turf/).
 
 ## What falls on Northern Colorado turf, and when?
 
@@ -169,9 +171,9 @@ They stop being a surface problem and become an infill problem:
 - FieldTurf says leaves left over winter can decompose into a layer of organic matter that impedes drainage and encourages moss.
 - Motz says leaves and twigs can block the holes in the turf's backing.
 
-The council's advice for sports fields is that leafy trees shouldn't stand next to one at all, if possible. A yard doesn't get that choice, so the answer is frequency. FieldTurf says to remove fall leaves regularly; Motz says a few times a year, especially in autumn. Under a big ash or cottonwood at peak drop, that can mean more than once a week. Get the last of them off before snow covers the yard, because anything under the snow sits there until it melts; clearing the snow itself is in [snow on artificial turf](/guides/artificial-turf-snow-removal/).
+The council's advice for sports fields is that leafy trees shouldn't stand next to one at all, if possible. A yard doesn't get that choice, so the answer is frequency. FieldTurf says to remove fall leaves regularly; Motz says a few times a year, especially in autumn. Under a big ash or cottonwood at peak drop, that can mean more than once a week. Get the last of them off before snow covers the yard, because anything under the snow sits there until it melts.
 
-If the turf already puddles or shows a green film, the debris may have done its work. See [how artificial turf drains](/guides/does-artificial-turf-drain/) and [moss and mold on turf](/guides/does-artificial-turf-get-moldy/).
+If the turf already puddles or shows a green film, the debris may have done its work.
 
 ## Why are tree seedlings sprouting in my turf?
 
@@ -185,8 +187,6 @@ On turf, that becomes a routine:
 - **Pull seedlings young, after a rain or a rinse.** FieldTurf says seed-grown weeds in infill have shallow roots and usually come out by hand.
 - **Check edges and corners first.** FieldTurf says airborne seed sprouts in the infill and around the edges, which is also where blown seed collects.
 - **Treat June cotton the same way.** It carries cottonwood seed, so don't leave drifts sitting in damp corners.
-
-Bindweed, goatheads and weeds that come up from below are in [weeds growing through artificial turf](/guides/weeds-growing-through-artificial-turf/). Turf near trunks and roots is in [artificial turf around trees](/guides/artificial-turf-around-trees/).
 
 ## Where do the leaves go once they're off the turf?
 

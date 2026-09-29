@@ -319,16 +319,29 @@ const GUIDE = {
 test('a published guide needs one of Brian\'s job photos and only confirmed related services; his open questions stay listed', (t) => {
   const { write, run } = fixture(t);
   const body = '## Does Fort Collins allow turf?\n\nOn existing lots, yes.';
-  write('src/content/guides/turf-rules-northern-colorado.md', guide({ ...GUIDE, status: 'published', related: { services: ['turf-repair'], towns: ['fort-collins-co'] } }, body));
+  write('src/content/guides/fixture-turf-guide.md', guide({ ...GUIDE, status: 'published', related: { services: ['turf-repair'], towns: ['fort-collins-co'] } }, body));
   const bare = run();
   assert.equal(bare.status, 1, bare.out);
-  assert.match(bare.out, /published with no job photo of Brian's/);
+  assert.match(bare.out, /published with nothing first-hand/);
   assert.match(bare.out, /its related service turf-repair is not confirmed in src\/data\/services\.ts/);
 
-  write('src/content/guides/turf-rules-northern-colorado.md', guide({ ...GUIDE, status: 'published', photos: ['dusk'], related: { services: [], towns: ['fort-collins-co'] }, needsFromBrian: ['How deep he digs in clay'] }, body));
+  write('src/content/guides/fixture-turf-guide.md', guide({ ...GUIDE, status: 'published', photos: ['dusk'], related: { services: [], towns: ['fort-collins-co'] }, needsFromBrian: ['How deep he digs in clay'] }, body));
   const ok = run();
-  assert.doesNotMatch(ok.out, /published with no job photo|is not confirmed in src\/data\/services/, ok.out);
+  assert.doesNotMatch(ok.out, /published with nothing first-hand|is not confirmed in src\/data\/services/, ok.out);
   assert.match(ok.out, /published with open questions for Brian: How deep he digs in clay/);
+
+  // an approved customer quote that speaks to the subject is first-hand too; an unknown quote id fails
+  write('src/content/guides/fixture-turf-guide.md', guide({ ...GUIDE, status: 'published', reviews: ['lane'], related: { services: [], towns: ['fort-collins-co'] } }, body));
+  assert.doesNotMatch(run().out, /published with nothing first-hand/);
+  write('src/content/guides/fixture-turf-guide.md', guide({ ...GUIDE, reviews: ['nobody'] }, body));
+  assert.match(run().out, /reviews: "nobody" is not a quote id in src\/data\/reviews\.ts/);
+
+  // a guide the doorway review cleared on original research publishes without either (check-content RESEARCH_CLEARED)
+  write('src/content/guides/fixture-turf-guide.md', guide(GUIDE, body));
+  write('src/content/guides/turf-rules-northern-colorado.md', guide({ ...GUIDE, status: 'published', related: { services: [], towns: ['fort-collins-co'] } }, body));
+  const sec = run().out.split(/\n(?=(?:ok|! WARN|x FAIL)\s)/).find((x) => /^\S+(?:\s\S+)?\s+turf-rules-northern-colorado \[guide/.test(x)) ?? '';
+  assert.ok(sec, 'the research-cleared guide is reported');
+  assert.doesNotMatch(sec, /nothing first-hand/);
 });
 
 test('guides: frontmatter is validated, links must be sources, related slugs must exist', (t) => {

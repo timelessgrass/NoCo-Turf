@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: buying
 kind: guide
 title: "Does Turf Help or Hurt Resale in Northern Colorado? | NoCo Turf Co."
@@ -147,18 +147,18 @@ The base is buried and the install date is not printed on the turf, so records a
 | Photos of the dig and the base | How deep the excavation went and what base went in | The seller or the installer |
 | Written repair terms | What is still covered, and whether it passes to a new owner | The installer or the manufacturer |
 
-What a spec sheet should say is in our [guide to turf spec sheets for Colorado](/guides/turf-spec-sheet-for-colorado/). A buyer with no base photos can use our [guide to checking that the base went in](/guides/check-turf-base-was-installed/), and our [guide to what installer and manufacturer coverage includes](/guides/artificial-turf-warranty/) explains the repair terms. Without records, the buyer judges the turf by eye and prices in the doubt.
+What a spec sheet should say is in our [guide to turf spec sheets for Colorado](/guides/turf-spec-sheet-for-colorado/). A buyer with no base photos can use our [guide to checking that the base went in](/guides/check-turf-base-was-installed/). Without records, the buyer judges the turf by eye and prices in the doubt.
 
 ## How old is the turf, and does it show?
 
 Walk it the way a buyer will, on a warm afternoon after a few dry days:
 
-- **Seams and edges:** seam lines you can see from the patio, or edges lifting where turf meets rock or concrete. See [visible seams](/guides/visible-seams-in-artificial-turf/) and [lifting edges](/guides/turf-edges-lifting/).
-- **The surface:** ripples, low spots, and flattened lanes where people and dogs walk. See [wrinkles and ripples](/guides/artificial-turf-wrinkles-ripples/), [sinking and low spots](/guides/artificial-turf-sinking-low-spots/) and [matted turf](/guides/matted-artificial-turf/).
-- **Sun and heat:** melted streaks near windows and a faded side of the yard. See [melting from window reflection](/guides/artificial-turf-melting-from-windows/) and [fading in the Colorado sun](/guides/does-artificial-turf-fade/).
-- **The dog area:** any smell once the turf warms up. See [getting dog urine smell out of turf](/guides/dog-urine-smell-artificial-turf/).
+- **Seams and edges:** seam lines you can see from the patio, or edges lifting where turf meets rock or concrete. See [lifting edges](/guides/turf-edges-lifting/).
+- **The surface:** ripples, low spots, and flattened lanes where people and dogs walk. See [matted turf](/guides/matted-artificial-turf/).
+- **Sun and heat:** melted streaks near windows and a faded side of the yard.
+- **The dog area:** any smell once the turf warms up.
 
-Then set the turf's age against a realistic life under Northern Colorado's altitude sun, hail and freeze-thaw, which our [guide to how long artificial turf lasts](/guides/how-long-does-artificial-turf-last/) covers. Turf near the end of its life is a replacement a buyer may subtract from an offer. If that is your yard, our [guide to repairing or replacing worn turf](/guides/when-to-replace-artificial-turf/) helps decide which to do before listing.
+Then set the turf's age against a realistic life under Northern Colorado's altitude sun, hail and freeze-thaw, which our [guide to how long artificial turf lasts](/guides/how-long-does-artificial-turf-last/) covers. Turf near the end of its life is a replacement a buyer may subtract from an offer. If that is your yard, decide whether to repair or replace it before listing.
 
 ## How do water bills figure in?
 

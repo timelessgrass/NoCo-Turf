@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: yard-design
 kind: guide
 title: "Swing Set or Trampoline on Artificial Turf: Anchoring | NoCo Turf Co."
@@ -25,7 +25,7 @@ faq:
   - q: "Which way should the slide face?"
     a: "North, if the yard allows. The CPSC says to keep bare metal slides and platforms out of direct sunlight to lower the risk of serious burns, and that a north-facing slide gets the least direct sun. Turf in full sun heats up too; our guide to how hot artificial turf gets covers that."
   - q: "Can a swing set go on turf laid over a concrete patio?"
-    a: "Not for climbing or swinging equipment. The CPSC's home handbook says not to install home playground equipment over concrete, asphalt or any other hard surface, and that carpeting and thin mats are generally not adequate surfacing. Turf laid over a slab falls in that group. Our guide to turf over concrete covers the patio itself."
+    a: "Not for climbing or swinging equipment. The CPSC's home handbook says not to install home playground equipment over concrete, asphalt or any other hard surface, and that carpeting and thin mats are generally not adequate surfacing. Turf laid over a slab falls in that group."
 layerRefs:
   - swing-set-on-artificial-turf.cpsc-324-anchoring
   - swing-set-on-artificial-turf.cpsc-324-level-site
@@ -154,6 +154,8 @@ related:
     - firestone-co
     - timnath-co
     - wellington-co
+photos:
+  - playset
 needsFromBrian:
   - "Playsets and trampolines you have put turf under or around in Northern Colorado: town, month, and a photo of the anchor or footing at one leg with the turf cut around it."
   - "How you anchor through turf in practice: auger anchors or concrete, before or after the base goes down, how deep on clay, and how you cut and secure the turf around each leg."
@@ -169,7 +171,7 @@ A swing set or trampoline can stand on artificial turf, but the turf can't hold 
 Yes. Springfree Trampoline, a trampoline maker, says a trampoline can go on artificial grass: it isn't as soft as natural grass, but anchors can still secure it to the ground ([Springfree](https://www.springfreetrampoline.com/blogs/beyond-the-bounce/does-a-trampoline-need-to-be-on-grass)). Three things change on turf:
 
 - **The ground stays level.** The CPSC says a level spot lowers the chance of a play set tipping over ([CPSC home playground handbook](https://www.cpsc.gov/s3fs-public/324.pdf)), and a turf base is compacted flat before the turf goes down.
-- **Anchors go through two layers.** The turf backing, then the base, before they reach soil. The base is covered in [what goes under artificial turf](/guides/what-base-goes-under-artificial-turf/).
+- **Anchors go through two layers.** The turf backing, then the base, before they reach soil.
 - **The use zone still applies.** The CPSC wants protective surfacing at least 6 feet out on every side, and in front of and behind a swing to twice the height of the top bar. Turf alone isn't that surfacing; the pad under it is.
 
 ## How do you anchor a swing set through artificial turf?
@@ -190,7 +192,7 @@ For augers through finished turf, EcoGrass, a turf company, spreads the blades, 
 
 Yes. Larimer County sets a minimum frost depth of 30 inches below grade for footings ([Larimer County](https://www.larimer.gov/sites/default/files/uploads/2022/structural_design_information.pdf)), and Weld County designs to the same 30 inches ([Weld County](https://www.weld.gov/files/sharedassets/public/v/7/departments/building/documents/design-criteria.pdf)). Those are building values, not a measured freeze in your yard, but the ground treats a swing set footing the same way:
 
-- **Frost lifts wet, fine soil.** Frost heave needs soil with plenty of fine particles, freezing that reaches into it, and water ([Pavement Interactive](https://pavementinteractive.org/reference-desk/design/design-parameters/frost-action/)). Clay qualifies; see [artificial turf on clay soil](/guides/artificial-turf-on-clay-soil/).
+- **Frost lifts wet, fine soil.** Frost heave needs soil with plenty of fine particles, freezing that reaches into it, and water ([Pavement Interactive](https://pavementinteractive.org/reference-desk/design/design-parameters/frost-action/)). Clay qualifies.
 - **Clay moves on its own.** The [Colorado Geological Survey](https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/) says some clays swell up to 20% by volume when wet.
 - **Freezing nights are common.** NOAA's Fort Collins station averages 150 days a year with a low at or below 32°F (1991–2020 normals).
 
@@ -228,7 +230,7 @@ Keep an offcut from the same roll so a worn patch can be [replaced to match](/gu
 
 ## What has to happen before anyone digs or drills?
 
-- **Call 811.** Colorado 811 says state law requires property owners to contact it at least two full business days before digging, not counting the day of notice, and lists digging holes for swing sets and driving landscaping stakes among its examples ([Colorado 811](https://www.colorado811.org/residential-digging)). It doesn't mark private lines such as sprinkler lines, which a turf yard may still have; see [your sprinkler system after turf](/guides/sprinkler-system-after-artificial-turf/). Rainbow Play Systems says utilities in the play zone must be located before an anchored set is assembled ([Rainbow Play Systems](https://www.rainbowplay.com/create-a-safe-play-set-area-2/)). Not legal advice.
+- **Call 811.** Colorado 811 says state law requires property owners to contact it at least two full business days before digging, not counting the day of notice, and lists digging holes for swing sets and driving landscaping stakes among its examples ([Colorado 811](https://www.colorado811.org/residential-digging)). It doesn't mark private lines such as sprinkler lines, which a turf yard may still have. Rainbow Play Systems says utilities in the play zone must be located before an anchored set is assembled ([Rainbow Play Systems](https://www.rainbowplay.com/create-a-safe-play-set-area-2/)). Not legal advice.
 - **Check the permit rule.** [Fort Collins](/areas/fort-collins-co/) exempts swings, playhouses and other play equipment from a residential permit when the total area is 120 square feet or less, with no more than one elevated playhouse, of at most 64 square feet and 6 feet high ([City of Fort Collins](https://www.fortcollins.gov/Business/Permits-and-Licensing/Building-Permits)). Elsewhere it depends on the town's adopted building code: ask the town's Planning or Building office.
 - **Check the HOA.** Barefoot Lakes in [Firestone](/areas/firestone-co/) keeps play structures to rear or side yards, at least 5 feet from the property line and no taller than 12 feet ([Barefoot Lakes guidelines](https://www.stvrainmd.live/files/5457a4faf/SVLMD+-+2026+08+07+-+Amended+%26+Restated+Residential+Improvement+Guidelines+%26+Site+Restrictions+for+Barefoot.pdf)). Buffalo Creek in [Wellington](/areas/wellington-co/) doesn't allow metal A-frame swing sets ([Buffalo Creek guidelines](https://www.buffalocreekhoa.com/_files/ugd/393016_c765f78371fa41c08df663199318a09e.pdf)). Turf approval is its own step: [HOA approval for artificial turf](/guides/hoa-turf-approval/).
 

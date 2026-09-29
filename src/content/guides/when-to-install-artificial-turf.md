@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: installation
 kind: guide
 title: "When to Install Artificial Turf in Northern Colorado | NoCo Turf Co."
@@ -23,7 +23,7 @@ faq:
   - q: "When do Northern Colorado lawn-watering seasons end?"
     a: "It depends on the provider and the year. In 2026, Johnstown's outdoor watering season ends October 15, Greeley's normal watering guidelines run through October 31, and Fort Collins-Loveland Water District says its season has already ended. Those dates decide whether new sod can be watered in; artificial turf needs no water to establish."
   - q: "Why can turf look wavy after a cold-weather install?"
-    a: "Synthetic Grass Warehouse says turf expands and contracts as the temperature rises through the day, so turf laid on a cold morning can move by afternoon. What ripples mean and when they need fixing is in our guide to wrinkled or rippled turf."
+    a: "Synthetic Grass Warehouse says turf expands and contracts as the temperature rises through the day, so turf laid on a cold morning can move by afternoon."
   - q: "Where can I look up freeze dates for my town?"
     a: "The Colorado Climate Center maps first-fall and last-spring freeze dates for Colorado weather stations, from NOAA's 1991–2020 normals, at thresholds from 20°F to 36°F. Pick the station nearest you; the four on this page cover most of Northern Colorado."
 layerRefs:
@@ -144,6 +144,10 @@ related:
     - longmont-co
     - greeley-co
     - loveland-co
+photos:
+  - gbp-winding
+reviews:
+  - tim
 needsFromBrian:
   - "Whether NoCo installs from November through March, and the conditions you won't work in: frozen ground (how deep, and how you check), rain or saturated clay, a temperature floor for gluing seams."
   - "Which seam adhesive and seam tape you use, with its data sheet, and how you protect seams overnight in cold weather (weights, covers, a heater), so the winter section can say what a careful install looks like from a real crew."
@@ -180,7 +184,7 @@ Approvals come before any of this: an HOA or metro district review, Firestone's 
 
 On many winter days, yes. Two things decide it: whether the ground is frozen, and whether the seams can cure.
 
-**Frozen ground.** A turf base is compacted rock laid over the soil. The street standards Larimer County, Loveland and Fort Collins share say work "shall not occur on the subgrade in freezing conditions, or when the subgrade is frozen," and no base course goes on "a soft, spongy, or frozen subgrade" ([Larimer County Urban Area Street Standards, Chapter 22](https://larimer.gov/sites/default/files/uploads/2023/ch22_-_construction_specifications_0.pdf)). Those rules are written for streets, not backyards, but the reason carries over: when ice in the soil melts, the water can't drain out fast enough and the soil loses bearing capacity ([Pavement Interactive](https://pavementinteractive.org/reference-desk/design/design-parameters/frost-action/)). A base compacted over frozen clay sits on ground that will soften when it thaws. What winter does to a finished yard is covered in [does artificial turf freeze](/guides/does-artificial-turf-freeze/).
+**Frozen ground.** A turf base is compacted rock laid over the soil. The street standards Larimer County, Loveland and Fort Collins share say work "shall not occur on the subgrade in freezing conditions, or when the subgrade is frozen," and no base course goes on "a soft, spongy, or frozen subgrade" ([Larimer County Urban Area Street Standards, Chapter 22](https://larimer.gov/sites/default/files/uploads/2023/ch22_-_construction_specifications_0.pdf)). Those rules are written for streets, not backyards, but the reason carries over: when ice in the soil melts, the water can't drain out fast enough and the soil loses bearing capacity ([Pavement Interactive](https://pavementinteractive.org/reference-desk/design/design-parameters/frost-action/)). A base compacted over frozen clay sits on ground that will soften when it thaws.
 
 **Seam glue.** Where two rolls meet, they are glued to seam tape. Adhesives have temperature limits, and they differ:
 
@@ -205,7 +209,7 @@ About two winter afternoons in three reach 40°F, and nearly every winter night 
 
 Not well. Three parts of the job need dry conditions.
 
-- **The clay.** CSU Extension says soils compact more when wet because water "acts as a lubricant," and it warns never to work clayey soil wet. Its test: squeeze a handful. If it crumbles, it's dry enough; if the ball only reshapes, it's too wet. On some clays only a few days, or hours, separate too wet from too hard ([CSU Extension GardenNotes #215](https://cmg.extension.colostate.edu/Gardennotes/215.pdf)). That was written for gardens, but a turf base is compacted clay too. Greeley's water department describes hard clay sometimes inches below the surface ([City of Greeley](https://greeleyco.gov/government/city-administration/city-departments/water-and-sewer/save-water/waterwise-landscapes)), and Longmont says its clay soils absorb water slowly ([City of Longmont](https://longmontcolorado.gov/water/water-conservation/conserving-water-outdoors/)). More in [artificial turf on clay soil](/guides/artificial-turf-on-clay-soil/).
+- **The clay.** CSU Extension says soils compact more when wet because water "acts as a lubricant," and it warns never to work clayey soil wet. Its test: squeeze a handful. If it crumbles, it's dry enough; if the ball only reshapes, it's too wet. On some clays only a few days, or hours, separate too wet from too hard ([CSU Extension GardenNotes #215](https://cmg.extension.colostate.edu/Gardennotes/215.pdf)). That was written for gardens, but a turf base is compacted clay too. Greeley's water department describes hard clay sometimes inches below the surface ([City of Greeley](https://greeleyco.gov/government/city-administration/city-departments/water-and-sewer/save-water/waterwise-landscapes)), and Longmont says its clay soils absorb water slowly ([City of Longmont](https://longmontcolorado.gov/water/water-conservation/conserving-water-outdoors/)).
 - **The seams.** SRW wants surfaces completely dry and 12 hours without rain after gluing; TEC says not to apply its adhesive in wet, raining or misty conditions.
 - **The infill.** Synthetic Grass Warehouse says the turf must be dry when infill goes down, or the infill sticks to the blades instead of settling to the base of the fibers.
 
@@ -226,7 +230,7 @@ Artificial turf needs none of that. October is dry at Fort Collins, 1.25 inches 
 ## What should I ask an installer about timing?
 
 - **"What happens if the ground is frozen or soaked on install day?"** A good answer: they check it (a test hole, the squeeze test) and move the date rather than compact over frozen or wet clay.
-- **"Which seam adhesive do you use, and what does its data sheet say about temperature?"** A good answer names the product, its minimum temperature, and how long seams are kept from rain, frost and foot traffic. Seam trouble after the fact is covered in [visible seams](/guides/visible-seams-in-artificial-turf/).
+- **"Which seam adhesive do you use, and what does its data sheet say about temperature?"** A good answer names the product, its minimum temperature, and how long seams are kept from rain, frost and foot traffic.
 - **"If it's a winter job, how do you keep seams warm and flat?"** Listen for midday gluing, weights on the seams, a heater or cover when needed, and rolls and adhesive stored out of the cold.
 - **"Do you spread infill the same day if the turf is wet?"** The answer you want is no.
 - **"How far out are you booking right now?"** Search interest peaks in April, so ask early if you want a May date.

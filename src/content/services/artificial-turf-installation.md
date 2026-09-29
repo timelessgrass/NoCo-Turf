@@ -141,7 +141,7 @@ The cross-section further down this page shows those layers in order, from the c
 
 Backyards are mostly settled. Front yards go town by town, and your HOA is a separate question.
 
-**Your HOA.** Colorado law says an HOA's landscaping rules may not prohibit artificial turf in the backyard of a detached single-family home, although the HOA can still adopt design and aesthetic guidelines. The law requires each HOA to pre-approve at least 3 water-wise garden designs for front yards, while its artificial-turf protection covers backyards only. On an attached home that shares a wall, such as a townhome, the HOA may restrict artificial turf to rear yards.
+**Your HOA.** Colorado law says an HOA's landscaping rules may not prohibit artificial turf in the backyard of a detached single-family home, although the HOA can still adopt design and aesthetic guidelines. The law requires each HOA to pre-approve at least 3 water-wise garden designs for front yards, while its artificial-turf protection covers backyards only. On an attached home that shares a wall, such as a townhome, the HOA may restrict artificial turf to rear yards. [How HOA approval works](/guides/hoa-turf-approval/).
 
 **Your town.** A few codes in the corridor speak to front yards directly:
 
@@ -154,10 +154,10 @@ Backyards are mostly settled. Front yards go town by town, and your HOA is a sep
 | Windsor | Detached houses and duplexes are exempt from the town's landscape article, except that the tree lawn rule applies and at least 25% of each front yard must be landscaped. |
 | Fort Collins | The Land Use Code bars artificial turf from development landscape plans, but development on existing single- and two-unit home lots is exempt from that section. |
 
-Each town's page lists its own rules, each with its source and the date it was checked.
+The rest of the corridor is in the [town-by-town turf rules](/guides/turf-rules-northern-colorado/), each with its source and the date it was checked.
 
 ## Will a rebate or the state help pay for it?
 
 Not for the turf itself. Windsor's 2026 lawn-replacement rebate says artificial turf is not eligible; the program pays for front-yard lawn replaced with living plants. Colorado's state turf-replacement grant money may not be used to replace lawn with artificial turf either.
 
-What a turf lawn does change is the water bill, and by how much depends on your provider and your rate tier.
+What a turf lawn does change is the water bill, and by how much depends on your provider and your rate tier. The [water savings guide](/guides/water-savings/) works it out by provider, the [rebate guide](/guides/turf-rebates-northern-colorado/) lists each provider's program, and the [cost guide](/guides/artificial-turf-cost/) explains what moves a quote up or down.

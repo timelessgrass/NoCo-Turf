@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: buying
 kind: guide
 title: "What Drives Artificial Turf Cost in Northern Colorado | NoCo Turf Co."
@@ -66,6 +66,12 @@ related:
     - pet-turf
     - putting-greens
     - playground-turf
+photos:
+  - gbp-winding
+  - gbp-lawn-green
+reviews:
+  - johnny
+  - mike
 needsFromBrian:
   - "Price bands you approve for publication (lawn, pet, putting green) and your minimum job, with your name and the date (claims.json: Published price bands). Until then this page carries no numbers and the estimator stays dormant."
   - "Your base spec by use (dig depth, base material, compaction, weed barrier, drainage on clay, infill) and a trench photo with a tape measure from a real job (claims.json: the base-spec claim)."

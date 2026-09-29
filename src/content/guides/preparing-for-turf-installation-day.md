@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: installation
 kind: guide
 title: "Preparing for Turf Install Day: Homeowner Checklist | NoCo Turf Co."
@@ -123,6 +123,10 @@ related:
     - firestone-co
     - johnstown-co
     - fort-collins-co
+photos:
+  - gbp-winding
+reviews:
+  - melissa
 needsFromBrian:
   - "Who places the Colorado 811 ticket on a NoCo job, and whether you share the ticket number with the homeowner. The page tells homeowners to ask; it can say what NoCo does once you confirm it."
   - "Whether NoCo hires a private locator or asks the homeowner to, and how you handle sprinkler lines, landscape lighting and dog-fence wire you find during the dig (who repairs a cut line, and whether a buried dog-fence loop goes back under the turf or along the edge)."
@@ -167,8 +171,6 @@ Because the pipe and heads sit where the dig happens. Tarkett's installation man
 - Mark the valve boxes, the backflow device and the controller's zone numbers.
 - Photograph the flagged yard; the flags come out when the sod does.
 
-What gets capped, rerouted or turned into drip is covered in our guide to [what happens to your sprinkler system](/guides/sprinkler-system-after-artificial-turf/).
-
 Your 2026 watering rules decide when you can run the zones:
 
 - **Johnstown** is on its Level 3 schedule: 2 assigned days a week, no watering from 10 a.m. to 6 p.m., and the outdoor season ends October 15. The Town says servicing that can't fit the assigned days should be raised with its conservation staff first ([Johnstown water FAQs](https://www.johnstownco.gov/m/faq?cat=37); [2026 schedule](https://www.johnstownco.gov/665/2026-Watering-Schedule)).
@@ -181,7 +183,7 @@ A fall install also meets the winter blowout. At NOAA's Fort Collins station the
 
 Measure the narrowest point between the street and the turf: a gate, a side yard, an air-conditioner pad. For scale, Toro says its narrow-track Dingo TX 1000 compact loader is under 35 inches wide, enough for a standard 36-inch gate, and weighs 2,826 pounds ([Toro](https://www.toro.com/en/product/22587)); Ryan's Jr. Sod Cutter is 25 inches wide. A narrower opening means wheelbarrows or a fence panel coming out. Ask the installer which, and ask the neighbor first if the fence is shared.
 
-- **The path.** CSU Extension says there should be no grading, trenching, parking or stockpiling of materials inside a tree's protected root zone, which starts at the dripline and needs more room on clay ([CSU Extension](https://extension.colostate.edu/resource/tree-preservation-during-construction/)). Keep the route and the rock pile away from trees you're keeping; see our guide to [turf around trees](/guides/artificial-turf-around-trees/).
+- **The path.** CSU Extension says there should be no grading, trenching, parking or stockpiling of materials inside a tree's protected root zone, which starts at the dripline and needs more room on clay ([CSU Extension](https://extension.colostate.edu/resource/tree-preservation-during-construction/)). Keep the route and the rock pile away from trees you're keeping.
 - **The driveway.** Base rock, turf rolls and the old sod need somewhere to sit, usually the driveway. Move the cars out the night before. If a pile or trailer will sit in the street, ask your town and your HOA or metro district whether that needs a permit.
 - **Water.** Tarkett's manual has the area lightly wetted before the base is compacted. Show the crew a working outdoor tap, and check it hasn't been shut off for winter.
 - **Photos.** Photograph the driveway, fences, gate and lawn edges the day before, so any damage is easy to show.
@@ -213,4 +215,4 @@ Tarkett's manual has the irrigation turned on once the turf is down, to check th
 - Leftover rock and old sod are gone, and the driveway and street are swept.
 - Your sprinkler map is updated to show what was capped and what now runs under the turf, so the next fence post or tree planting misses it.
 
-What you can't see, such as the base and weed barrier, is in our guide to [checking the base was installed](/guides/check-turf-base-was-installed/); ripples in the first warm weeks, in our guide to [turf wrinkles](/guides/artificial-turf-wrinkles-ripples/).
+What you can't see, such as the base and weed barrier, is in our guide to [checking the base was installed](/guides/check-turf-base-was-installed/).

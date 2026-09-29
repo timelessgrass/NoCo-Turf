@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: installation
 kind: guide
 title: "How Long Does Artificial Turf Installation Take? | NoCo Turf Co."
@@ -129,6 +129,12 @@ related:
     - milliken-co
     - longmont-co
     - fort-collins-co
+photos:
+  - gbp-winding
+  - crew
+reviews:
+  - mike
+  - michele
 needsFromBrian:
   - "Typical crew days from your own jobs, by kind of job and size: a small and a large lawn, a dog run, a putting green, each with and without machine access through the gate. This page publishes no crew-day numbers until you supply them."
   - "Your current lead time from a signed quote to the first crew day, season by season, and how far ahead you are booking right now."
@@ -194,8 +200,8 @@ It depends on the yard. Here is what moves the number of days on any job:
 - **Size and shape.** One open rectangle goes faster than the same area broken up by beds, curves and trees.
 - **The way in.** A machine that fits through the gate moves soil and rock far faster than wheelbarrows through a narrow side gate.
 - **What comes out.** Sod and roots, old rock or mulch, buried landscape fabric, and every load that has to be hauled away.
-- **The ground.** Clay that needs more digging or a drainage fix; see [artificial turf on clay soil](/guides/artificial-turf-on-clay-soil/) and [what base goes under artificial turf](/guides/what-base-goes-under-artificial-turf/).
-- **Sprinklers.** Capping heads under the new turf and rerouting lines that still water trees and beds; see [what happens to your sprinkler system](/guides/sprinkler-system-after-artificial-turf/).
+- **The ground.** Clay that needs more digging or a drainage fix.
+- **Sprinklers.** Capping heads under the new turf and rerouting lines that still water trees and beds.
 - **Features.** A [putting green](/services/putting-greens/) needs shaping and cups; a [dog area](/services/pet-turf/) may need drainage work and a rinse spot.
 - **What the dig turns up.** Buried concrete, rubble or an unmarked line can stop work until it's sorted out.
 

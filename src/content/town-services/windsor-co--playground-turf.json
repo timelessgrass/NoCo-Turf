@@ -1,5 +1,5 @@
 {
-  "status": "draft",
+  "status": "published",
   "town": "windsor-co",
   "service": "playground-turf",
   "title": "Playground Turf Under Swing Sets in Windsor, CO | NoCo Turf Co.",
@@ -14,6 +14,18 @@
     "answer": "Behind an existing detached house or duplex, the Town's landscape article doesn't apply, though a metro district may review the playset. NoCo Turf Co. installs playground turf in Windsor. For a new park, HOA play area or child care center, the code counts a playground as functional turf yet still requires the Director's exception, written on the landscape plan."
   },
   "blocks": [
+    {
+      "kind": "job",
+      "own": true,
+      "use": "playground",
+      "kicker": "Our job",
+      "h2": "Turf around a play set near Windsor",
+      "paras": [
+        "Near Windsor, this turf lawn runs up to a wooden play set with a slide, inside a curved concrete border that keeps it apart from the dry field beyond. A sandbox and rock beds sit between the play area and the house, so the kids have a soft green place to run that stays clean."
+      ],
+      "layerRefs": [],
+      "sources": []
+    },
     {
       "kind": "ordinance",
       "own": true,

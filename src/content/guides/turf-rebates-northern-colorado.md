@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: water
 kind: guide
 title: "Artificial Turf Rebates in Northern Colorado (2026) | NoCo Turf Co."

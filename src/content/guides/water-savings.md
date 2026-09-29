@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: water
 kind: tool
 title: "Artificial Turf Water Savings in Northern Colorado | NoCo Turf Co."

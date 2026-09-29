@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: putting-greens
 kind: guide
 title: "Putting Green Stimp Speed: Target and How to Measure | NoCo Turf Co."
@@ -25,7 +25,7 @@ faq:
   - q: "Why does my green feel different from the course when the numbers match?"
     a: "A stimp reading is a straight putt on one level stretch, and the USGA says the Stimpmeter is not intended for comparing one course with another. Break, the length of your putts and where the cups sit all change how a green plays at the same number, so use the course's figure as a starting point and adjust from there."
   - q: "Can I measure an indoor green in a basement or garage?"
-    a: "Yes, with the half-length notch on a Stimpmeter made after 2012, which was designed for short level areas. If your rolls still can't stay inside its tighter limits, the USGA says a valid reading is unlikely, which usually points to a platform that isn't level. Our guide to an indoor putting green covers building one for the winter."
+    a: "Yes, with the half-length notch on a Stimpmeter made after 2012, which was designed for short level areas. If your rolls still can't stay inside its tighter limits, the USGA says a valid reading is unlikely, which usually points to a platform that isn't level."
 layerRefs:
   - putting-green-stimp-speed.usga-stimpmeter-device
   - putting-green-stimp-speed.usga-stimpmeter-history
@@ -92,6 +92,10 @@ related:
   services:
     - putting-greens
   towns: []
+photos:
+  - gbp-green-flag
+reviews:
+  - kevin
 needsFromBrian:
   - "The stimp range your greens run, and whether a customer can choose the speed. Nothing about NoCo's own speeds goes on this page until you say it in your words."
   - "Whether you measure each green with a Stimpmeter at handover and give the owner the number and the test stretch, and a photo of that test on one of your greens (the Windsor or Berthoud greens would do)."
@@ -160,7 +164,7 @@ The USGA also has a [video of the whole test](https://www.usga.org/content/usga/
 On grass, mowing and watering move the number. On a synthetic green, these do:
 
 - **The surface.** Each putting turf has a speed range built in. The two ratings in the table above, from one maker's two nylon surfaces, run from 9 to 12.5.
-- **The infill.** Synthetic Grass Warehouse, a turf distributor, says a synthetic green's stimp speed "can be adjusted by varying the type and amount of infill used," with denser infill rolling faster than looser infill ([Synthetic Grass Warehouse](https://syntheticgrasswarehouse.com/blog/infill-matters-when-installing-artificial-grass-putting-greens-heres-why/)). Too much or too little leaves an uneven surface that affects the roll ([Synthetic Grass Warehouse](https://syntheticgrasswarehouse.com/blog/expert-tips-to-prevent-common-synthetic-grass-putting-green-installation-mistakes/)). Whether a green takes sand at all is covered in [sand-filled vs non-infilled putting greens](/guides/sand-filled-vs-non-infilled-putting-green/).
+- **The infill.** Synthetic Grass Warehouse, a turf distributor, says a synthetic green's stimp speed "can be adjusted by varying the type and amount of infill used," with denser infill rolling faster than looser infill ([Synthetic Grass Warehouse](https://syntheticgrasswarehouse.com/blog/infill-matters-when-installing-artificial-grass-putting-greens-heres-why/)). Too much or too little leaves an uneven surface that affects the roll ([Synthetic Grass Warehouse](https://syntheticgrasswarehouse.com/blog/expert-tips-to-prevent-common-synthetic-grass-putting-green-installation-mistakes/)).
 - **Rolling.** The same company's installer column recommends pressure rolling after the infill goes in, which presses the fibers down to the infill height and evens out Stimpmeter speeds ([Ask JW](https://syntheticgrasswarehouse.com/company/ask-an-expert/ask-jw/perfecting-putting-green-surfaces-part-2-infill-placement/)).
 - **Water.** The USGA says moist turf is slower than dry turf, and even a small amount of surface moisture slows the roll. Synthetic Grass Warehouse says moisture that can't drain off a synthetic green changes its speed as well.
 - **Wind.** The USGA sets a green's baseline speed on a calm day and treats windy-day readings as a separate condition.
@@ -171,8 +175,8 @@ Take the baseline once, in the USGA's conditions: a dry, smooth surface on a cal
 
 - **Pick a still morning.** The [Colorado Climate Center](https://climate.colostate.edu/climate_long.html) describes the plains as having "moderate to high wind movement." A reading taken in a gusty afternoon belongs in the windy-day column, not the baseline.
 - **Let the green dry after a storm.** The Climate Center says hot summer days on the plains "are often relieved by afternoon thundershowers," and that Colorado's generally low humidity "favors rapid evaporation." That suggests a soaked green dries quickly here, but nobody has measured how quickly, so check the surface is dry before you roll.
-- **File winter numbers as winter numbers.** The nearest NOAA station, Fort Collins, averages 150 nights a year at or below 32°F (1991–2020 normals). A reading on a frosty or frozen green is an unusual condition in the USGA's sense: log it, but don't change the sand to chase it. What freezing does to the base and drainage is in [does artificial turf freeze](/guides/does-artificial-turf-freeze/).
-- **Re-measure after the spring brush-out.** The same station averages 51.4 inches of snow a year, and spring is when a green gets brushed up and sand is topped off where it has thinned. The amount of infill sets the speed, so October's number may not be May's. Spread sand only on dry turf: Synthetic Grass Warehouse's column says infill placed into turf holding any moisture affects the roll and the Stimpmeter speed. The spring routine is in [backyard putting green care through the year](/guides/artificial-putting-green-maintenance/).
+- **File winter numbers as winter numbers.** The nearest NOAA station, Fort Collins, averages 150 nights a year at or below 32°F (1991–2020 normals). A reading on a frosty or frozen green is an unusual condition in the USGA's sense: log it, but don't change the sand to chase it.
+- **Re-measure after the spring brush-out.** The same station averages 51.4 inches of snow a year, and spring is when a green gets brushed up and sand is topped off where it has thinned. The amount of infill sets the speed, so October's number may not be May's. Spread sand only on dry turf: Synthetic Grass Warehouse's column says infill placed into turf holding any moisture affects the roll and the Stimpmeter speed.
 
 ## What should you ask an installer about speed?
 

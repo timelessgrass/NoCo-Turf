@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: comparisons
 kind: comparison
 title: "Playground Turf vs Mulch, Wood Chips and Pea Gravel | NoCo Turf Co."
@@ -25,7 +25,7 @@ faq:
   - q: "Does padded play turf need infill?"
     a: "It depends on the system, so ask what infill the pad's test was run with. Frederick's park design standards treat playground turf as one system of turf, shock pad and infill, and bar rubber infill in it. Our infill guide compares the other kinds."
   - q: "Can padded turf go straight over the wood chips already there?"
-    a: "No. Turf and its pad need a firm, drained base to stay flat, and a layer of chips is neither; the CPSC also warns that loose fill compacts and decomposes where water stands. The old fill comes out first. Our base guide covers what goes in instead."
+    a: "No. Turf and its pad need a firm, drained base to stay flat, and a layer of chips is neither; the CPSC also warns that loose fill compacts and decomposes where water stands. The old fill comes out first."
 layerRefs:
   - playground-turf-vs-mulch.cpsc-home-handbook-scope
   - playground-turf-vs-mulch.cpsc-home-loose-fill-depth
@@ -144,6 +144,8 @@ related:
     - frederick-co
     - greeley-co
     - johnstown-co
+photos:
+  - playset
 needsFromBrian:
   - "The shock pads you put under play turf, each with its ASTM F1292 critical-height report for the turf, pad and infill together, and any wet or frozen-condition results. The page names no fall height for any pad until it has those documents."
   - "What you find when you pull out old wood chips or rubber mulch from a Northern Colorado backyard set: how deep it still is, how packed, whether it holds water on clay. Photos with a tape measure in the pit would make the winter section first-hand."
@@ -192,7 +194,7 @@ In practice: mark the target depth on the playset posts, as the CPSC suggests, a
 
 For falls, it holds up: the CPSC credits 6 compressed inches of rubber mulch with a 10-foot critical height, and rubber doesn't compress the way wood does. The open question is chemical. The CPSC's 2025 handbook says untested rubber mulch made from recycled tires may contain hazardous metals or other substances of concern, should be kept off toddler playgrounds, and should be used only if it meets ASTM F3012.
 
-[EPA says](https://www.epa.gov/chemical-research/federal-research-recycled-tire-crumb-used-playing-fields-and-playgrounds) the CPSC will carry out a risk assessment of children's exposure to playground surfaces made of tire rubber; none had been posted as of this page's check date. What the sports-field research found is in our guide to [crumb rubber](/guides/is-crumb-rubber-safe/).
+[EPA says](https://www.epa.gov/chemical-research/federal-research-recycled-tire-crumb-used-playing-fields-and-playgrounds) the CPSC will carry out a risk assessment of children's exposure to playground surfaces made of tire rubber; none had been posted as of this page's check date.
 
 ## What does padded turf do better, and what should you check?
 

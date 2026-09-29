@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: buying
 kind: guide
 title: "Questions to Ask a Turf Installer Before You Hire | NoCo Turf Co."
@@ -164,6 +164,9 @@ related:
     - berthoud-co
     - loveland-co
     - windsor-co
+reviews:
+  - ally
+  - lane
 needsFromBrian:
   - "Your own honest answer to each question on this page, in your words: whose crews do the work, when a subcontractor is used, who files the Firestone permit and the Colorado 811 ticket, and who arranges the private locate. Until you confirm them, the page only tells buyers what to ask."
   - "Two or three Northern Colorado installs, at least three winters old, that prospects may visit with the owners' permission (a golf-community backyard or putting green, an acreage lawn, a dog run), with the install year and a current photo of each."
@@ -183,7 +186,7 @@ Some landscape companies lay turf alongside sod, rock and planting. What decides
 - Who draws the turf layout, and how does it fit the rest of the plan: patio and pool edges, lighting, drainage swales, trees?
 - If a landscape architect, pool builder or hardscape crew is on the project, where does turf fall in the order of trades, and who protects it once it's down?
 
-A good answer is specific: a count of jobs, a named crew lead, photos of their own seams and base. For how the trades line up, see planning a backyard around turf and turf on a custom home; for greens, designing a backyard putting green.
+A good answer is specific: a count of jobs, a named crew lead, photos of their own seams and base. For how the trades line up, see planning a backyard around turf; for greens, designing a backyard putting green.
 
 ## Whose crew will be in my yard, and who files the permit and the 811 ticket?
 
@@ -207,8 +210,8 @@ Not legal advice. Colorado's Attorney General tells homeowners to check local li
 
 - **Firestone** won't issue a contractor license without a liability insurance certificate that lists the Town; ask for this year's.
 - **Greeley's** new rule is tied to Building Inspection permits, and the city's announcement doesn't mention turf or landscaping ([City of Greeley](https://greeleyco.gov/news/2026/20260810-contractor-license-required-for-permits-in-greeley-starting-january-1-2027/)). It depends on whether part of your job needs a building permit: ask Greeley Building Inspection. The front-yard change Greeley is drafting would require an installer who is licensed or certified, but as of September 24, 2026 no ordinance had been adopted ([council status report](https://greeleyco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=9580,plainText=false))).
-- **Weed spraying:** CDA says pesticide applications made for hire require a commercial applicator license ([CDA](https://ag.colorado.gov/press-release/hiring-pest-control-for-mountain-pine-beetles-or-other-forest-pests-beware-of)). See [weeds growing through turf](/guides/weeds-growing-through-artificial-turf/).
-- **Backflow:** Colorado's plumbing law exempts testing and repairing a backflow device, and work on lawn sprinkler systems past it, but not installing or removing one ([C.R.S. 12-155-118](https://drive.google.com/file/d/0B-K5DhxXxJZbdy1qVnlSa1p4MDA/view?usp=drive_link&resourcekey=0-viNI7fd50n4OeOn-lFkiFA)). A hired plumbing contractor is responsible for the plumbing permit ([Division of Professions and Occupations](https://dpo.colorado.gov/ElectricalPlumbingPermits)). In [Windsor](/areas/windsor-co/), modifying a sprinkler system with an unapproved backflow device means upgrading the device ([Town of Windsor](https://www.windsorco.gov/m/faq?cat=34)). See [sprinklers after turf](/guides/sprinkler-system-after-artificial-turf/).
+- **Weed spraying:** CDA says pesticide applications made for hire require a commercial applicator license ([CDA](https://ag.colorado.gov/press-release/hiring-pest-control-for-mountain-pine-beetles-or-other-forest-pests-beware-of)).
+- **Backflow:** Colorado's plumbing law exempts testing and repairing a backflow device, and work on lawn sprinkler systems past it, but not installing or removing one ([C.R.S. 12-155-118](https://drive.google.com/file/d/0B-K5DhxXxJZbdy1qVnlSa1p4MDA/view?usp=drive_link&resourcekey=0-viNI7fd50n4OeOn-lFkiFA)). A hired plumbing contractor is responsible for the plumbing permit ([Division of Professions and Occupations](https://dpo.colorado.gov/ElectricalPlumbingPermits)). In [Windsor](/areas/windsor-co/), modifying a sprinkler system with an unapproved backflow device means upgrading the device ([Town of Windsor](https://www.windsorco.gov/m/faq?cat=34)).
 
 ## Can I see a job of yours that has been through a few winters here?
 
@@ -220,13 +223,13 @@ Ask for a job like yours, visited with the owner's permission: a putting green, 
 - Ask the owner how it drained through spring melt, and whether the installer came back when called.
 - On a green, roll a few putts from different sides.
 
-Our [guide to checking what went under the turf](/guides/check-turf-base-was-installed/) covers what a sound job shows; [visible seams](/guides/visible-seams-in-artificial-turf/), [lifting edges](/guides/turf-edges-lifting/) and [low spots](/guides/artificial-turf-sinking-low-spots/) explain the failures.
+Our [guide to checking what went under the turf](/guides/check-turf-base-was-installed/) covers what a sound job shows; [lifting edges](/guides/turf-edges-lifting/) explains one of the failures.
 
 ## What documents come with the turf itself?
 
 - **The spec sheet** for the exact product, before you sign. Our [guide to turf spec sheets](/guides/turf-spec-sheet-for-colorado/) lists what it should state. In Firestone the code sets minimums, among them a 1.75 to 3 inch pile and at least 70 ounces of face weight.
 - **A PFAS statement.** Since January 1, 2026, Colorado has barred installing artificial turf with intentionally added PFAS ([SB24-081](https://leg.colorado.gov/bills/sb24-081)). The statute names no certificate or test ([C.R.S. 25-15-605](https://leg.colorado.gov/bill_files/46185/download)), so ask for the maker's written PFAS statement for that product and the testing behind it. California's toxics agency notes that makers' lab reports often detect only down to tens of parts per million, so lower levels can go undetected ([DTSC](https://web.archive.org/web/20260326043412/https://dtsc.ca.gov/wp-content/uploads/sites/31/2026/02/TechnicalDocument_PFASs-in-Artificial-Turf_accessible.pdf)). More in [is artificial turf toxic](/guides/is-artificial-turf-toxic/).
-- **The written terms** from the turf's maker and the installer's own terms for workmanship, before you pay. See [what those terms cover](/guides/artificial-turf-warranty/).
+- **The written terms** from the turf's maker and the installer's own terms for workmanship, before you pay.
 
 ## Who prepares the HOA or metro district submittal?
 

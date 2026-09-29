@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: yard-design
 kind: guide
 title: "Turf Strips Between Pavers and Flagstone | NoCo Turf Co."
@@ -21,7 +21,7 @@ faq:
   - q: "Can a driveway have turf strips between concrete slabs?"
     a: "Carefully. CMHA rates slabs on a gravel base and bedding sand for pedestrians or light automobile traffic, wants a concrete or asphalt base under heavier traffic, and, in permeable paving with wide joints, keeps slabs 16 by 16 inches and larger to foot traffic because under vehicles they risk tipping and cracking. Ask what the slabs will sit on and where the tires will run."
   - q: "My flagstone is mortared onto a concrete slab. Can turf go in the joints?"
-    a: "Only as turf over concrete. SGW's article glues turf to hardscape such as concrete instead of nailing it, and has a concrete area graded or drilled so water can get out. CMHA adds that mortar under slabs in a freezing climate needs a latex or epoxy additive, because de-icers damage plain mortar. [Artificial turf over concrete](/guides/artificial-turf-over-concrete/) covers the slab side."
+    a: "Only as turf over concrete. SGW's article glues turf to hardscape such as concrete instead of nailing it, and has a concrete area graded or drilled so water can get out. CMHA adds that mortar under slabs in a freezing climate needs a latex or epoxy additive, because de-icers damage plain mortar."
   - q: "What should I check after the first winter?"
     a: "Walk it in spring. Look for a stone standing proud of its neighbors or of the turf, a turf edge that has ridden up onto a stone, low spots in the joints, and nail heads backing out. PolyTurf's manual says nails should be checked routinely for working out from traffic or earth movement and driven back in. Lifted edges are covered in [why turf edges lift](/guides/turf-edges-lifting/)."
   - q: "How wide should the turf joints be?"
@@ -140,6 +140,10 @@ related:
     - firestone-co
     - berthoud-co
     - fort-collins-co
+photos:
+  - gbp-winding
+reviews:
+  - lanelle
 needsFromBrian:
   - "Paver-and-turf jobs you have built (turf joints, stepping stones in turf, flagstone with turf between), with photos: one wide shot, one close-up of a joint with a tape measure across it, the town and the month, and the same joint after its first winter if you have it."
   - "In your own words: whether you build the base under the joints yourselves or the hardscape contractor does, how deep, with what material, and how you keep the joint base draining on clay."
@@ -174,7 +178,7 @@ Turf asks something different of the same ground: a base that drains. The Synthe
 - **Stones first, then joints.** Synthetic Grass Warehouse (SGW), a turf distributor, says in its installer column that the fill in each joint must finish no more than 1/2 inch below the hardscape and be compacted to at least 80%, or the ribbons settle ([SGW Ask JW](https://syntheticgrasswarehouse.com/company/ask-an-expert/ask-jw/installing-artificial-grass-between-pavers/)). Its article says narrow gaps are harder to compact, suggests a stamp compactor or a block of wood and a hammer, and starts with a hose test for puddles ([SGW](https://syntheticgrasswarehouse.com/blog/critical-steps-for-installing-artificial-turf-between-pavers/)).
 - **Nothing hidden under the stones.** SGW's column notes that stone setters often bed hardscape on concrete or pour a concrete edge, leaving no depth for base and nothing to nail into.
 
-In [Firestone](/areas/firestone-co/), the code requires a compacted, porous aggregate base at least 3 inches deep under turf, never compacted dirt ([Firestone Development Code 16.6.4](https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE)); an inch of fill over native clay in each joint doesn't meet it. More in [what base goes under artificial turf](/guides/what-base-goes-under-artificial-turf/).
+In [Firestone](/areas/firestone-co/), the code requires a compacted, porous aggregate base at least 3 inches deep under turf, never compacted dirt ([Firestone Development Code 16.6.4](https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE)); an inch of fill over native clay in each joint doesn't meet it.
 
 ## What does a Northern Colorado winter do to stones and turf side by side?
 
@@ -187,7 +191,7 @@ It works on the joints, where the water goes. Stone sheds rain and snowmelt; tur
 
 A slab rises as one rigid piece and tips; turf flexes with its base. When it goes wrong, a stone stands proud of the turf, or a turf edge rides up over a stone. CMHA says heaves in paving are typically frost heave, and that stones can be lifted, the base corrected and the same stones relaid ([CMHA PAV-TEC-006](https://www.cmha.org/resource/pav-tec-006/)).
 
-Drainage keeps it flat. Ground thaws from the top down, and the frozen layer traps meltwater so it can only move sideways, so the whole area needs fall, the joint base needs a way out at a lower edge, and no spray heads or drip emitters should wet the joints. SGW's column warns that ribbons in flat or level hardscape with little or no positive drainage can flood. See [artificial turf on clay soil](/guides/artificial-turf-on-clay-soil/).
+Drainage keeps it flat. Ground thaws from the top down, and the frozen layer traps meltwater so it can only move sideways, so the whole area needs fall, the joint base needs a way out at a lower edge, and no spray heads or drip emitters should wet the joints. SGW's column warns that ribbons in flat or level hardscape with little or no positive drainage can flood.
 
 ## How do you shovel a walk with turf joints?
 
@@ -199,7 +203,7 @@ Ice melt is harder, because whatever goes on the stones ends up in the turf:
 - SGW advises against salt on turf because it can clog the backing's holes and slow drainage ([SGW](https://syntheticgrasswarehouse.com/blog/how-to-care-for-artificial-grass-in-snowy-weather/)).
 - CMHA's order for pavers is sand for traction first, de-icer only as needed, and no salty snow stored on them.
 
-So make the route you clear after every storm solid stone, and keep turf joints to patios and garden paths you can leave to the sun. Clearing turf is in [snow removal on artificial turf](/guides/artificial-turf-snow-removal/).
+So make the route you clear after every storm solid stone, and keep turf joints to patios and garden paths you can leave to the sun.
 
 ## How are narrow strips cut and fastened?
 
@@ -212,7 +216,7 @@ Usually not as strips. SGW's column says turf between concrete, pavers, traverti
 5. **Fasten every edge.** Ribbon edges take many nails, with small heads that hide in the fibers; types and spacing are in [nails vs staples](/guides/artificial-turf-nails-vs-staples/).
 6. **Infill slowly, by hand,** with a smaller infill, and brush with a stiff hand brush. Heavy brushing lifts ribbon edges and pulls out edge nails.
 
-Firestone requires turf anchored at all edges and seams, with seams taped or glued, and rules out seam separations and uplifted surfaces; a joint layout is almost all edges and seams. See [visible seams in artificial turf](/guides/visible-seams-in-artificial-turf/).
+Firestone requires turf anchored at all edges and seams, with seams taped or glued, and rules out seam separations and uplifted surfaces; a joint layout is almost all edges and seams.
 
 ## Who has to approve a stone-and-turf design?
 

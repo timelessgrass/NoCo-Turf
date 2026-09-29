@@ -34,5 +34,18 @@
   that carry Brian's photos with their topic hubs. Everything else waits for its gate.
 - Links to pages that are not live: components drop them (src/lib/live.ts); links inside record text become plain
   text after the build (scripts/unlink-unpublished.mjs). Old URLs whose target isn't live follow docs/REDIRECTS.md
-  holds (cost guide, turf repair, the store and 6 old blog posts → the nearest live service page).
+  holds (cost guide, turf repair, the store and 7 old blog posts → the nearest live service page).
+
+## Unblocked with what we have, 2026-09-29 (Ty: "Figure out a way to unblock what blocks them with what you have")
+
+- Guides: a published guide's first-hand part may be one of Brian's job photos or up to two approved Google review
+  quotes (`reviews`, src/data/reviews.ts, printed by GuideReviews) that speak to its subject. A 12-agent pass matched
+  the 25 photos and 14 quotes to all 106 held guides, and a skeptic per topic removed every weak match; 53 publish.
+- Guides the doorway review rated clear on original research (the rules survey, HOA packet, rebates, water data and
+  8 local-research guides) publish without either: RESEARCH_CLEARED in scripts/check-content.mjs, a named list.
+  Still held: 41 guides with nothing first-hand that honestly fits, the do-people-regret tally (not re-counted), two
+  Firestone greens readings (Planning to confirm), and work NoCo hasn't confirmed (rooftops, indoor, used turf).
+- Town × service: Windsor putting greens, Berthoud putting greens and Windsor playground turf publish with a job block
+  written only from what Brian's own photo from that town shows (no dates or numbers invented).
+- Neighborhood pages stay held: no photo is placed inside a neighborhood (GPS was never kept).
 

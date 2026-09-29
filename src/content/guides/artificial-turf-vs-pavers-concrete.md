@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: comparisons
 kind: comparison
 title: "Turf, Pavers or Concrete for a Patio or Side Yard | NoCo Turf Co."
@@ -19,7 +19,7 @@ faq:
   - q: "Is artificial turf cheaper than pavers or concrete?"
     a: "It depends on the yard: how much has to come out, how deep the base goes on your clay, access and edges. Get quotes for the same area and compare what each one removes and puts back. Our [artificial turf cost guide](/guides/artificial-turf-cost/) lists what moves a turf quote."
   - q: "Can turf go right over my old concrete patio?"
-    a: "Sometimes. SYNLawn's installation guide says turf over concrete may be glued down with no base, and FieldTurf Landscape notes that water can pool on top of turf laid straight onto a solid surface like concrete, so the slab's slope and cracks matter. [Artificial turf over concrete](/guides/artificial-turf-over-concrete/) covers when the slab stays and when it comes out."
+    a: "Sometimes. SYNLawn's installation guide says turf over concrete may be glued down with no base, and FieldTurf Landscape notes that water can pool on top of turf laid straight onto a solid surface like concrete, so the slab's slope and cracks matter."
   - q: "My concrete patio is flaking on top. Can it be saved?"
     a: "Often, if the flaking is light. NRMCA calls minor scaling cosmetic and says light to moderate scaling can be resurfaced, though the repair won't match the old color; heavy scaling that keeps spreading may not be worth repairing. The Colorado Geological Survey lists de-icing chemicals among the causes of flaking concrete, along with poor-quality concrete."
   - q: "Is fall a good time to pour a new patio?"
@@ -136,6 +136,12 @@ related:
     - firestone-co
     - loveland-co
     - windsor-co
+photos:
+  - gbp-side-walk
+  - side-yard
+  - gbp-new-patio
+reviews:
+  - lanelle
 needsFromBrian:
   - "Side-yard and patio jobs where you recommended pavers or concrete instead of turf, or a mix of the two, and why (daily foot traffic, a grill, snow, shade), with before and after photos."
   - "Photos of turf meeting a slab or pavers after a Northern Colorado winter: the edge, any salt damage along it, and any heave or gap where the two surfaces meet."
@@ -165,7 +171,7 @@ How the three compare:
 
 ## What does expansive clay do to a slab, pavers and turf?
 
-The Colorado Geological Survey (CGS) says expansive clays can swell up to 20% by volume when wet, and names "cracked and heaved sidewalks, patios, driveways, and garage and basement floor slabs" as very common signs of them across Colorado ([CGS](https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/)). Its homeowner guide, SP-14, explains why patios suffer most: outdoor flatwork is too light to resist the clay's uplift once it gets wet ([CGS SP-14](https://coloradogeologicalsurvey.org/wp-content/uploads/woocommerce_uploads/SP-14.pdf)). Whether your lot is clay at all is in [artificial turf on clay soil](/guides/artificial-turf-on-clay-soil/).
+The Colorado Geological Survey (CGS) says expansive clays can swell up to 20% by volume when wet, and names "cracked and heaved sidewalks, patios, driveways, and garage and basement floor slabs" as very common signs of them across Colorado ([CGS](https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/)). Its homeowner guide, SP-14, explains why patios suffer most: outdoor flatwork is too light to resist the clay's uplift once it gets wet ([CGS SP-14](https://coloradogeologicalsurvey.org/wp-content/uploads/woocommerce_uploads/SP-14.pdf)).
 
 **Concrete moves as one piece, then cracks.** SP-14's advice for slabs on swelling soil:
 
@@ -178,7 +184,7 @@ Side yards add a risk: the strip along a foundation is backfill, and SP-14 warns
 
 **Pavers move in pieces and go back down.** The Concrete Masonry & Hardscapes Association (CMHA), the paver industry's trade association, says a heave in pavers is typically frost heave in the soil below, and that pavers in a shallow dip can be lifted, the settlement corrected and the same pavers relaid "with no wasted paving materials or unsightly patches" ([CMHA](https://www.cmha.org/resource/pav-tec-006/)). Its construction guide sets a minimum compacted base of 4 inches under a patio on well-drained soil and says continually wet or weak soils in cold climates need a thicker one ([CMHA](https://www.cmha.org/resource/pav-tec-002/)).
 
-**Turf moves with its base and gets fixed much like pavers.** A hump or dip is repaired by folding the turf back and rebuilding the base under it in thin compacted layers; [why turf sinks and how it's leveled](/guides/artificial-turf-sinking-low-spots/) has the steps, and [what a Northern Colorado winter does to turf](/guides/does-artificial-turf-freeze/) covers frost.
+**Turf moves with its base and gets fixed much like pavers.** A hump or dip is repaired by folding the turf back and rebuilding the base under it in thin compacted layers.
 
 Whichever you pick, ask the installer how deep the base goes on your soil and which way the finished surface falls. A good answer names a depth chosen for your clay rather than a stock figure, and a fall away from the house.
 
@@ -188,11 +194,11 @@ Turf, in the one field study we found that measured turf and concrete side by si
 
 Concrete isn't cool, either. EPA's cool-pavements compendium says conventional concrete and asphalt can reach peak summer surface temperatures of 120–150°F, and that pavement stores heat and releases it at night ([EPA](https://www.epa.gov/sites/default/files/2017-05/documents/reducing_urban_heat_islands_ch_5.pdf)). New concrete reflects much of the sun, but foot and vehicle traffic dirty it and it darkens over time. Conventional paving reflects only 5 to 40 percent of sunlight, and EPA says a change in reflectance alone can shift surface temperature significantly, so a light-colored paver generally stays cooler than a dark one.
 
-The nearest NOAA stations average 29.5 days a year at or above 90°F in [Fort Collins](/areas/fort-collins-co/) and 58.3 in [Greeley](/areas/greeley-co/) (1991–2020 normals). For a seat people use on July afternoons, that favors light concrete or pavers with shade. For turf, see [how hot artificial turf gets](/guides/how-hot-does-artificial-turf-get/) and [turf melting from window reflection](/guides/artificial-turf-melting-from-windows/).
+The nearest NOAA stations average 29.5 days a year at or above 90°F in [Fort Collins](/areas/fort-collins-co/) and 58.3 in [Greeley](/areas/greeley-co/) (1991–2020 normals). For a seat people use on July afternoons, that favors light concrete or pavers with shade. For turf, see [how hot artificial turf gets](/guides/how-hot-does-artificial-turf-get/).
 
 ## Which one handles snow, shovels and ice melt?
 
-The hard surfaces are easier to clear. CMHA says snow comes off pavers with "shovels, snow blowers or snowplows like any other type of pavement," worked diagonally to the joints so a blade doesn't catch an edge, and wants any paver standing more than 1/8 inch proud reset before winter. Concrete takes any shovel. Turf takes a plastic shovel or a broom; SYNLawn, a turf maker, warns that metal tools damage the fibers ([SYNLawn](https://www.synlawn.com/articles/how-to-maintain-artificial-grass/)). With 51.4 inches of snow a year at the Fort Collins station, make the walk you shovel a hard surface. For turf, see [snow removal on artificial turf](/guides/artificial-turf-snow-removal/).
+The hard surfaces are easier to clear. CMHA says snow comes off pavers with "shovels, snow blowers or snowplows like any other type of pavement," worked diagonally to the joints so a blade doesn't catch an edge, and wants any paver standing more than 1/8 inch proud reset before winter. Concrete takes any shovel. Turf takes a plastic shovel or a broom; SYNLawn, a turf maker, warns that metal tools damage the fibers ([SYNLawn](https://www.synlawn.com/articles/how-to-maintain-artificial-grass/)). With 51.4 inches of snow a year at the Fort Collins station, make the walk you shovel a hard surface.
 
 Ice melt is where the three disagree:
 
@@ -231,4 +237,4 @@ Fort Collins Utilities bills stormwater each month by lot area times a runoff fa
 
 A lot pushed from 50% to 51% impervious goes from 0.4 to 0.6, half again the charge. The rates page doesn't say how pavers, gravel or turf are counted, or when a lot is re-measured. It depends on how the utility has your lot on file: ask Fort Collins Utilities before a large patio or paver job.
 
-[Firestone](/areas/firestone-co/) weighs patios against turf. Its code caps turf at 75% of a single-family rear or side yard, and turf plus patios and walkways must still leave at least 25% of the yard as permeable, living landscape. A separate rule wants 50% of the combined side and rear yards in live plants, and turf can't count toward it ([Firestone Development Code 16.6.4](https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE)). In Firestone, a bigger patio leaves less room for turf. How turf itself is classified is in [does artificial turf drain](/guides/does-artificial-turf-drain/); other towns' limits are in [artificial turf rules in Northern Colorado](/guides/turf-rules-northern-colorado/). This is general information, not legal advice.
+[Firestone](/areas/firestone-co/) weighs patios against turf. Its code caps turf at 75% of a single-family rear or side yard, and turf plus patios and walkways must still leave at least 25% of the yard as permeable, living landscape. A separate rule wants 50% of the combined side and rear yards in live plants, and turf can't count toward it ([Firestone Development Code 16.6.4](https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE)). In Firestone, a bigger patio leaves less room for turf. Other towns' limits are in [artificial turf rules in Northern Colorado](/guides/turf-rules-northern-colorado/). This is general information, not legal advice.

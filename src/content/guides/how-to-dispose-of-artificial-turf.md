@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: care-and-repair
 kind: guide
 title: "Getting Rid of Old Artificial Turf in Larimer & Weld | NoCo Turf Co."
@@ -24,9 +24,9 @@ faq:
   - q: "Can I burn old artificial turf?"
     a: "Don't. California's Department of Toxic Substances Control calls incinerating used turf problematic because the fluoropolymers in turf blades can form toxic combustion products. Haul it instead."
   - q: "What happens to the rock base when the turf comes out?"
-    a: "It depends on what goes in next. A lawn needs it gone; see our guide to replacing artificial turf with grass. In Fort Collins, the city's recycling guide lists drop-off sites, including the City's Crushing Operations Facility, that take rock and gravel for reuse and resale, and suggests posting it online for reuse too."
+    a: "It depends on what goes in next. A lawn needs it gone. In Fort Collins, the city's recycling guide lists drop-off sites, including the City's Crushing Operations Facility, that take rock and gravel for reuse and resale, and suggests posting it online for reuse too."
   - q: "What should I do with the infill from a dog run?"
-    a: "Bag it apart from everything else and send it to the landfill instead of giving it away, because it has been soaking up urine for as long as the turf was down. If odor is why the turf is coming out, our guide to dog urine smell explains what went wrong."
+    a: "Bag it apart from everything else and send it to the landfill instead of giving it away, because it has been soaking up urine for as long as the turf was down."
 layerRefs:
   - how-to-dispose-of-artificial-turf.larimer-az-carpet-no-turf-entry
   - how-to-dispose-of-artificial-turf.larimer-north-landfill-wind-closures
@@ -172,7 +172,7 @@ Around [Greeley](/areas/greeley-co/) and the rest of Weld, those landfills are t
 
 Reused, sometimes. Recycled, rarely.
 
-**Reuse.** Turf in decent shape has takers. FairWarning found a niche trade selling pieces of old field turf to homeowners for landscaping, batting cages and dog kennels, and noted that the pieces end up in the dumpster eventually. Fort Collins's recycling guide has no turf entry; for carpet it points gently used pieces to thrift stores or to Nextdoor, Craigslist and Facebook Marketplace ([City of Fort Collins](https://apps.fcgov.com/recycling/items?item=182)). If you list turf, shake it out, cut it into usable pieces, and describe its age, pile height and any pet use. What a buyer should check is in our [used turf guide](/guides/used-artificial-turf/).
+**Reuse.** Turf in decent shape has takers. FairWarning found a niche trade selling pieces of old field turf to homeowners for landscaping, batting cages and dog kennels, and noted that the pieces end up in the dumpster eventually. Fort Collins's recycling guide has no turf entry; for carpet it points gently used pieces to thrift stores or to Nextdoor, Craigslist and Facebook Marketplace ([City of Fort Collins](https://apps.fcgov.com/recycling/items?item=182)). If you list turf, shake it out, cut it into usable pieces, and describe its age, pile height and any pet use.
 
 **Recycling.** Thin on the ground, and thinner for one yard:
 
@@ -194,4 +194,4 @@ When old turf comes out because new turf is going in, the tear-out belongs in th
 4. **Do the old nails all come out?** Nails left in the base get in the way of the new job.
 5. **Does the old base stay?** A good answer explains why, after looking at it.
 
-Whether it's time to replace at all is in [repair or replace](/guides/when-to-replace-artificial-turf/). Going back to grass is in replacing turf with a lawn, and more for an installer is in [questions to ask a turf installer](/guides/questions-to-ask-turf-installer/). New turf still goes through the town's rules and any HOA review: see [turf rules in Northern Colorado](/guides/turf-rules-northern-colorado/) and [HOA approval](/guides/hoa-turf-approval/). The [artificial turf installation page](/services/artificial-turf-installation/) walks through what a new install involves.
+More for an installer is in [questions to ask a turf installer](/guides/questions-to-ask-turf-installer/). New turf still goes through the town's rules and any HOA review: see [turf rules in Northern Colorado](/guides/turf-rules-northern-colorado/) and [HOA approval](/guides/hoa-turf-approval/). The [artificial turf installation page](/services/artificial-turf-installation/) walks through what a new install involves.

@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: yard-design
 kind: guide
 title: "Artificial Turf Around a Hot Tub or Pool | NoCo Turf Co."
@@ -159,6 +159,9 @@ related:
     - loveland-co
     - windsor-co
     - firestone-co
+photos:
+  - gbp-hot-tub
+  - gbp-backyard
 needsFromBrian:
   - "Any hot tub or pool jobs, yours or ones you were called to fix: photos of the turf-to-pad edge, the grading away from the tub, and the path from the door, with the town and month."
   - "How you finish turf at a spa pad or pool coping in your own words: the edging, how far fasteners stay from the slab edge, and whether you leave a hard landing at the step."
@@ -174,7 +177,7 @@ No. The tub goes on its own pad, and the turf meets the pad's edge.
 
 - **The weight.** Hot Spring's Grandee holds 455 gallons and weighs 5,810 pounds filled, counting the people in it. The maker requires a reinforced concrete pad at least 4 inches thick, or a deck rated for more than 125 pounds per square foot ([Hot Spring pre-delivery instructions](https://www.hotspring.com/wp-content/uploads/2026/08/hot-spring-highlife-collection-pre-delivery-instruction-2026.pdf)). Bullfrog Spas puts a portable spa's filled weight at 6,000 to 20,000 pounds before anyone gets in, and doesn't recommend grass ([Bullfrog Spas](https://www.bullfrogspas.com/hot-tub-foundation/)).
 - **Level, and staying level.** Bullfrog allows half an inch of slope over an 8-foot run, and no shims. Hot Spring says a spa set on the ground, even on stepping stones, "will inevitably settle and become unlevel." A turf base is built to keep turf flat, not to carry a spa.
-- **The clay underneath.** The Colorado Geological Survey says swelling clay can push with up to 30,000 pounds per square foot, against the 115 to 130 pounds per square foot Hot Spring lists for its spas, and that water added after construction is what sets it off. It calls cracked and heaved patios "very common indicators of expansive clay" ([CGS](https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/)). Ask whoever builds the pad what they found in the soil and how the pad answers it. More in [artificial turf on clay soil](/guides/artificial-turf-on-clay-soil/); turf over an existing slab is in [artificial turf over concrete](/guides/artificial-turf-over-concrete/).
+- **The clay underneath.** The Colorado Geological Survey says swelling clay can push with up to 30,000 pounds per square foot, against the 115 to 130 pounds per square foot Hot Spring lists for its spas, and that water added after construction is what sets it off. It calls cracked and heaved patios "very common indicators of expansive clay" ([CGS](https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/)). Ask whoever builds the pad what they found in the soil and how the pad answers it.
 
 ## Is turf a good winter path to the hot tub?
 
@@ -189,7 +192,7 @@ FieldTurf Landscape calls turf "a safer, non-slip surface" for pools ([FieldTurf
 
 - A short route on the sunny side of the house, where frost leaves first.
 - A hard landing at the tub's step that sheds water to somewhere it can drain.
-- Snow cleared with a plastic shovel, and the landing's ice melt kept off the turf: [snow removal on artificial turf](/guides/artificial-turf-snow-removal/) and [what winter does to turf](/guides/does-artificial-turf-freeze/).
+- Snow cleared with a plastic shovel, and the landing's ice melt kept off the turf.
 
 ## Where can hot tub and pool water be drained in Northern Colorado?
 
@@ -216,13 +219,13 @@ Away from the tub, away from the house, and never into a flat pocket of turf.
 - The Colorado Geological Survey lists poor surface drainage among the landscaping problems on expansive soils; splash soaking in beside a foundation is that problem.
 - Turf drains fast: the Synthetic Turf Council says permeable systems are typically designed for 25 inches of water an hour ([STC](https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf)). The ground under it may not. PolyTurf's installation manual says turf over clay or hard-packed soil "will not drain on a level surface," and Greeley's water department says hard clay can sit "sometimes just inches below the surface."
 
-So grade the turf away from the house like the rest of the yard, and let the pad's low edge hand its water to something that carries it on. More in [what happens to artificial turf when it rains](/guides/does-artificial-turf-drain/).
+So grade the turf away from the house like the rest of the yard, and let the pad's low edge hand its water to something that carries it on.
 
 ## What do pool chemicals and summer sun do to turf beside a pool?
 
-**Chlorine and bromine.** Makers don't agree in print. FieldTurf Landscape says artificial grass is "highly resistant to chlorine and other pool chemicals," but that they "can accumulate on the turf surface" and should be rinsed off regularly. SYNLawn's residential terms exclude damage from exposure to halogen chemicals, naming chlorine and bromine ([SYNLawn terms](https://lowes.synlawn.com/wp-content/uploads/2024/06/SY24247_Lowes_ProductWarranty_v1.pdf)), the sanitizers the state's pool guidance names. Ask for the maker's written terms on pool and spa chemicals before choosing a product ([what turf coverage leaves out](/guides/artificial-turf-warranty/)), and dose the tub away from the turf: Hot Spring says not to let chemicals "get on surrounding surfaces or landscaping."
+**Chlorine and bromine.** Makers don't agree in print. FieldTurf Landscape says artificial grass is "highly resistant to chlorine and other pool chemicals," but that they "can accumulate on the turf surface" and should be rinsed off regularly. SYNLawn's residential terms exclude damage from exposure to halogen chemicals, naming chlorine and bromine ([SYNLawn terms](https://lowes.synlawn.com/wp-content/uploads/2024/06/SY24247_Lowes_ProductWarranty_v1.pdf)), the sanitizers the state's pool guidance names. Ask for the maker's written terms on pool and spa chemicals before choosing a product, and dose the tub away from the turf: Hot Spring says not to let chemicals "get on surrounding surfaces or landscaping."
 
-**Salt systems.** Turf makers' salt warnings were written about de-icers. FieldTurf says regular salt "dries into hard, abrasive crystals that can scuff the fibers," and Synthetic Grass Warehouse says salt can clog the holes in the backing. Salt-pool splash dries the same way, fast in air the Colorado Climate Center calls "generally quite low" in humidity. Rinse with fresh water; cleaners are in [how to clean artificial turf](/guides/how-to-clean-artificial-turf/).
+**Salt systems.** Turf makers' salt warnings were written about de-icers. FieldTurf says regular salt "dries into hard, abrasive crystals that can scuff the fibers," and Synthetic Grass Warehouse says salt can clog the holes in the backing. Salt-pool splash dries the same way, fast in air the Colorado Climate Center calls "generally quite low" in humidity. Rinse with fresh water.
 
 **Heat.** Greeley's NOAA station averages 58.3 days a year at or above 90°F, and Fort Collins' 29.5. Penn State researchers say synthetic turf generally runs 35 to 55°F hotter than natural grass ([Penn State](https://plantscience.psu.edu/research/centers/ssrc/documents/temperature.pdf/@@download/file/temperature.pdf)), and in one playground study turf averaged about 136°F in sun and 90°F in shade. Splash cools it only for minutes: in a BYU test, 30 minutes of water took turf from 174°F to 85°F, and it was back to 120°F five minutes later. Put lounging turf in afternoon shade, and give the barefoot route to the water a surface people can cross at midday. More in [how hot artificial turf gets](/guides/how-hot-does-artificial-turf-get/).
 
@@ -234,6 +237,6 @@ Pad and wiring go first, then grading, then base and turf. The plan shows:
 - **The spa's electrical run.** Hot Spring says not to bury a power cord unless it is direct-burial cable. Colorado 811's free locates don't mark privately owned lines ([Colorado 811](https://colorado811.org/homeowners/)), so draw the spa's feed on the plan and keep turf nails and edging stakes clear of it.
 - **Where the water goes:** splash, snowmelt and the drain hose, away from the house and off the turf.
 - **Shade and the winter route:** where people lounge in July and walk in January.
-- **Design review.** Barefoot's guidelines in Firestone want a hot tub to be "an integral part of the patio, rear yard or side yard area," not immediately visible to neighbors, and applied for with a water usage calculation ([Barefoot guidelines](https://www.stvrainmd.live/files/5457a4faf/SVLMD+-+2026+08+07+-+Amended+%26+Restated+Residential+Improvement+Guidelines+%26+Site+Restrictions+for+Barefoot.pdf)). The turf side of an HOA packet is in our [guide to HOA approval](/guides/hoa-turf-approval/), and the order of trades in planning a backyard around turf.
+- **Design review.** Barefoot's guidelines in Firestone want a hot tub to be "an integral part of the patio, rear yard or side yard area," not immediately visible to neighbors, and applied for with a water usage calculation ([Barefoot guidelines](https://www.stvrainmd.live/files/5457a4faf/SVLMD+-+2026+08+07+-+Amended+%26+Restated+Residential+Improvement+Guidelines+%26+Site+Restrictions+for+Barefoot.pdf)). The turf side of an HOA packet is in our [guide to HOA approval](/guides/hoa-turf-approval/), and the order of trades in [planning a backyard around turf](/guides/outdoor-living-with-artificial-turf/).
 
 Done well, the tub sits level on its own pad, water leaves the pad toward somewhere it can go, the turf starts at a clean edge, and the drain hose has a route that isn't the lawn. More to ask: [questions to ask a turf installer](/guides/questions-to-ask-turf-installer/) and [artificial turf installation](/services/artificial-turf-installation/).

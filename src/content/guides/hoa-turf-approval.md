@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: rules-and-hoa
 kind: tool
 title: "Colorado HOA Turf Approval: Your Rights and Packet | NoCo Turf Co."
@@ -123,7 +123,7 @@ Common areas are different. Since January 1, 2026, a local government may not in
 
 Often. Many newer Northern Colorado neighborhoods are run by a metro district, alone or alongside an HOA, and some districts review yard plans the way an HOA does. Timnath Ranch's district, for example, charges a $150 fee to review a landscape application ([Timnath Ranch Metropolitan District](https://www.timnathranchmd.live/architectural-review)).
 
-The backyard protection reaches districts too: Colorado law makes a special district's rule that prohibits artificial turf in a backyard unenforceable, except on attached homes. Submit to the district the same way you would to an HOA, with the same packet.
+Colorado law also makes a special district's rule that prohibits artificial turf in a backyard unenforceable, except on attached homes. Whether that reaches your metro district is a question for the district or a lawyer. Either way, submit to the district the same way you would to an HOA, with the same packet.
 
 ## What goes in an ARC packet for artificial turf?
 

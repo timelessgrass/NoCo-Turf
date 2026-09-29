@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: yard-design
 kind: guide
 title: "Artificial Turf on Acreage Lots in Larimer and Weld | NoCo Turf Co."
@@ -147,6 +147,8 @@ related:
     - severance-co
     - eaton-co
     - milliken-co
+photos:
+  - playset
 needsFromBrian:
   - "Acreage or estate-lot jobs you have done in unincorporated Larimer or Weld: the area, the month, the size of the turf against the size of the lot, and photos that show the house, the turf and the native grass beyond it."
   - "How you hold turf down on an open, windy lot: perimeter fastening, where you place turf relative to the house, a barn or a windbreak, and any job where wind lifted an edge."
@@ -205,7 +207,7 @@ Turf is not on Larimer's list for that band, and the Insurance Institute for Bus
 
 **Wind.** NOAA's [Storm Events database](https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/) logged 48 High Wind events, sustained winds of 40 mph for an hour or gusts of 58 mph by the [National Weather Service's definition](https://forecast.weather.gov/glossary.php?word=high+wind), from 2011 through 2025 in the forecast zone for Larimer County below 6,000 feet and northwest Weld, and 30 in central and southern Weld, most between October and April. On an open lot, set the turf in the lee of the house, a barn or a windbreak, and fasten every edge and seam ([turf edges lifting](/guides/turf-edges-lifting/)).
 
-**Wildlife.** CSU Extension says the black-tailed prairie dog is the most common prairie dog along the Front Range ([Fact Sheet 6.521](https://www.extension.colostate.edu/docs/pubs/natres/06521.pdf)), and that prairie dog burrows run 3 to 14 feet deep and 10 to more than 100 feet long ([Fact Sheet 6.506](https://www.extension.colostate.edu/docs/pubs/natres/06506.pdf)), long enough to reach a yard from the next field. If mounds or runways show up nearby, plan wire before the dig: [gopher and vole wire](/guides/gopher-wire-under-artificial-turf/).
+**Wildlife.** CSU Extension says the black-tailed prairie dog is the most common prairie dog along the Front Range ([Fact Sheet 6.521](https://www.extension.colostate.edu/docs/pubs/natres/06521.pdf)), and that prairie dog burrows run 3 to 14 feet deep and 10 to more than 100 feet long ([Fact Sheet 6.506](https://www.extension.colostate.edu/docs/pubs/natres/06506.pdf)), long enough to reach a yard from the next field. If mounds or runways show up nearby, plan wire before the dig.
 
 ## Which county rules apply to turf in unincorporated Larimer and Weld?
 
@@ -221,6 +223,6 @@ The countryside around [Wellington](/areas/wellington-co/) is unincorporated Lar
 - **What does my water source allow?** A good answer comes from your well permit or tap terms.
 - **Where are the well, tank, field and ports, and how will machines reach the yard?** A good answer marks each on the plan, with the machine route.
 - **Where does the turf start, and how is its edge held down?** A good answer puts it outside the first 5 feet and names the edge material and fastening.
-- **In what order do the trades work?** On a new build, a written sequence; see [custom-home landscaping with turf](/guides/custom-home-landscape-turf/) and [outdoor living around turf](/guides/outdoor-living-with-artificial-turf/).
+- **In what order do the trades work?** On a new build, a written sequence; see [outdoor living around turf](/guides/outdoor-living-with-artificial-turf/).
 
 More in [questions to ask a turf installer](/guides/questions-to-ask-turf-installer/). For the work itself: [artificial turf installation](/services/artificial-turf-installation/), [pet turf](/services/pet-turf/) and [putting greens](/services/putting-greens/).

@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: products
 kind: comparison
 title: "Home Depot or Costco Turf vs Installer Turf | NoCo Turf Co."
@@ -121,6 +121,9 @@ related:
     - artificial-turf-installation
   towns:
     - firestone-co
+reviews:
+  - lane
+  - lanelle
 needsFromBrian:
   - "Whether NoCo lays turf a customer bought at Home Depot, Costco or Lowe's, and on what terms: does NoCo's own workmanship coverage apply to it, and who handles a product claim? The page only tells buyers what to ask until you answer."
   - "What goes wrong with store rolls you have replaced or repaired (seams, backing, face weight, base), with photos and the product name if you know it."
@@ -128,7 +131,7 @@ needsFromBrian:
   - "Whether you have seen a store roll go through Barefoot Lakes' review committee or Firestone's permit desk, and how it was treated."
 ---
 
-Store listings and makers' terms change without notice, so treat the figures here as a snapshot and read the live listing and its current spec sheet before you buy. Used, remnant and liquidator rolls are a different question, covered in our [guide to used and remnant turf](/guides/used-artificial-turf/).
+Store listings and makers' terms change without notice, so treat the figures here as a snapshot and read the live listing and its current spec sheet before you buy. Used, remnant and liquidator rolls are a different question, not covered here.
 
 ## Do Home Depot and Costco rolls meet a real turf spec?
 
@@ -164,7 +167,7 @@ Most of a buyer's checklist. The Synthetic Turf Council's landscape buying guide
 
 The Costco listings give face weight, pile height and size, and a few add total weight, backing or a drainage rate; none lists tuft bind or a UV test. The 2021 TrafficMaster sheets do list tuft bind: 15.9 lbs for the 72, 10.4 for the 94 and 11.5 for the 108.
 
-The UV line matters more at this altitude. EPA says UV intensity rises about 6% per kilometer of elevation ([EPA](https://www.epa.gov/sunsafety/learn-about-uv-index)), and NOAA's Northern Colorado stations sit between 1.44 and 1.55 kilometers up, roughly 9% more UV than at sea level. What that does to the yarn is in [does artificial turf fade](/guides/does-artificial-turf-fade/).
+The UV line matters more at this altitude. EPA says UV intensity rises about 6% per kilometer of elevation ([EPA](https://www.epa.gov/sunsafety/learn-about-uv-index)), and NOAA's Northern Colorado stations sit between 1.44 and 1.55 kilometers up, roughly 9% more UV than at sea level.
 
 None of the listings or makers' terms read for this page mentions PFAS. Since January 1, 2026, Colorado law has barred "a person" from installing artificial turf that contains intentionally added PFAS, wording that isn't limited to contractors ([SB24-081](https://leg.colorado.gov/bills/sb24-081)). Not legal advice: ask the seller for the product's PFAS documentation before you buy.
 
@@ -182,12 +185,12 @@ The yarn and backing, against sun damage, on a sliding scale. Not the labor. Thr
 Read against a store roll, three parts of that fine print matter most:
 
 - **Who lays it changes the term.** PreGra's scale stops at 4 years for a self-installed lawn ([PreGra terms](https://www.pregra.com/warranty/)). SYNLawn's terms pull both ways: one section allows installation to its guidelines, another says "properties opting to install product themselves will nullify this warranty" ([SYNLawn terms](https://lowes.synlawn.com/wp-content/uploads/2024/06/SY24247_Lowes_ProductWarranty_v1.pdf)). Get the seller's answer in writing before you buy.
-- **The exclusions land on Northern Colorado's usual problems.** PreGra excludes heat from window reflection, improper installation and low infill. SYNLawn excludes failures from "improper subsurface preparation or drainage," meaning the base under the turf. See [why turf melts near windows](/guides/artificial-turf-melting-from-windows/), [what base goes under turf](/guides/what-base-goes-under-artificial-turf/) and [turf on clay soil](/guides/artificial-turf-on-clay-soil/). SYNLawn also excludes "Acts of God"; how hail fits in is covered in [does hail damage artificial turf](/guides/does-hail-damage-artificial-turf/).
+- **The exclusions land on Northern Colorado's usual problems.** PreGra excludes heat from window reflection, improper installation and low infill. SYNLawn excludes failures from "improper subsurface preparation or drainage," meaning the base under the turf. SYNLawn also excludes "Acts of God"; how hail fits in is covered in [does hail damage artificial turf](/guides/does-hail-damage-artificial-turf/).
 - **In Firestone, the term is a code item.** The town requires turf materials to be "protected with a minimum of an eight (8) year warranty." Does a self-installed roll whose maker's scale stops at 4 years meet that? It depends on how the town reads a prorated term, so ask Firestone Planning before you buy.
 
 ## Who lays it, and what does that change?
 
-- **Seams.** PreGra and SYNLawn both sell by the linear foot off a 15-foot-wide roll, so most lawns need a seam. SYNLawn's own DIY guide warns that "non-professional installations could result in more visibility to the seams," and its materials list estimates adhesive in quarts of Henry's glue or tubes of Liquid Nails ([SYNLawn DIY guide](https://pdf.lowes.com/productdocuments/240a8581-4267-4cdf-aa5f-d4d1e250fec6/44269346.pdf)). The Synthetic Turf Council asks buyers to confirm an industrial synthetic-grass seam adhesive, "a product usually not found in home supply stores." More in [visible seams in artificial turf](/guides/visible-seams-in-artificial-turf/).
+- **Seams.** PreGra and SYNLawn both sell by the linear foot off a 15-foot-wide roll, so most lawns need a seam. SYNLawn's own DIY guide warns that "non-professional installations could result in more visibility to the seams," and its materials list estimates adhesive in quarts of Henry's glue or tubes of Liquid Nails ([SYNLawn DIY guide](https://pdf.lowes.com/productdocuments/240a8581-4267-4cdf-aa5f-d4d1e250fec6/44269346.pdf)). The Synthetic Turf Council asks buyers to confirm an industrial synthetic-grass seam adhesive, "a product usually not found in home supply stores."
 - **Workmanship.** None of the three makers pays for labor, so workmanship coverage exists only if an installer writes it. SYNLawn's terms leave it "between end user and installer" and recommend 3 years. A roll you lay yourself has none.
 - **Local rules on who installs.** Firestone requires turf to be "installed in accordance with manufacturer specifications," so a shortcut past the maker's guide is a code problem there as well as a coverage one. The Barefoot Lakes guidelines go further: "Professional installation is required," with a weed barrier and a porous aggregate base ([St. Vrain Lakes Metropolitan Districts](https://www.stvrainmd.live/files/5457a4faf/SVLMD+-+2026+08+07+-+Amended+%26+Restated+Residential+Improvement+Guidelines+%26+Site+Restrictions+for+Barefoot.pdf)). Other HOAs and metro districts set their own terms.
 
@@ -203,4 +206,4 @@ Ask before the roll ships, not once it's on the driveway, and get the answers in
 4. Does the product meet my town's and my HOA's spec, and who prepares that paperwork?
 5. Who supplies the base, infill and seam materials?
 
-A good answer names what is covered, for how long, and who pays the labor if a seam opens or the base settles. More questions are in our [guide to questions to ask a turf installer](/guides/questions-to-ask-turf-installer/), and what makers' terms usually leave out is in our [guide to turf coverage terms](/guides/artificial-turf-warranty/).
+A good answer names what is covered, for how long, and who pays the labor if a seam opens or the base settles. More questions are in our [guide to questions to ask a turf installer](/guides/questions-to-ask-turf-installer/).

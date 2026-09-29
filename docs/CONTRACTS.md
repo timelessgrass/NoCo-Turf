@@ -289,7 +289,8 @@ as a restrained figure strip after the body (`GuidePhotos`), each with its own c
 putting greens on a putting-green design guide, say; check-content fails an id that isn't in photos.ts. The full field list is in docs/GUIDES.md ("Adding a guide").
 check-content also fails a guide that shares its title or its normalized `answer.question` with another, or
 more than 25% of its five-word runs (WARN above 15%). A guide goes live only with one of Brian's job photos in
-`photos` and only about confirmed services (`related.services`, `src/data/services.ts`); its `needsFromBrian` list keeps
+`photos`, or an approved customer quote in `reviews` (src/data/reviews.ts ids, printed by GuideReviews) that speaks to
+its subject, or a place on check-content's RESEARCH_CLEARED list, and only about confirmed services (`related.services`, `src/data/services.ts`); its `needsFromBrian` list keeps
 printing after it ships (`.site/decisions/2026-09-28-publish-gates.md`). Release guides in batches as he answers them. Answer first (the `answer` block is the page's first 60 words
 in substance). Question-shaped H2s. Tables with real, dated numbers from layer records. Where law or a city
 rule is unsettled, hedge with "it depends … ask {the town's} Planning" — NOT "we confirm": that is a NoCo process

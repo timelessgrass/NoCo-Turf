@@ -33,6 +33,8 @@ import GuideWaterSavings from '../../components/GuideWaterSavings.astro';
 import GuideHoaLetter from '../../components/GuideHoaLetter.astro';
 import GuideGlyph from '../../components/GuideGlyph.astro';
 import GuidePhotos from '../../components/GuidePhotos.astro';
+import GuideReviews from '../../components/GuideReviews.astro';
+import { QUOTES, GOOGLE_URL } from '../../data/reviews';
 import { visibleGuides, visibleTowns, visibleTopics, guideLabel } from '../../lib/visible';
 import { assertGuideNamespace } from '../../lib/content-policy.mjs';
 import { TOPIC_SLUGS } from '../../data/guide-topics';
@@ -191,6 +193,14 @@ const graph = [article, ...(dataset ? [dataset] : []), ...faqGraph(faq)];
         </GuideProse>
 
         <GuidePhotos photos={photos} />
+
+        {GOOGLE_URL && (d.reviews ?? []).some((r: string) => QUOTES[r]) && (
+          <section class="gpart" id="customers" aria-labelledby="customers-h">
+            <p class="label">From our customers</p>
+            <h2 id="customers-h" class="gpart__h">What our customers say.</h2>
+            <GuideReviews ids={d.reviews} />
+          </section>
+        )}
 
         {d.faq.length > 0 && (
           <section class="gpart" id="questions" aria-labelledby="questions-h">

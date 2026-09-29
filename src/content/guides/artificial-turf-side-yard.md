@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: yard-design
 kind: guide
 title: "Artificial Turf in a Side Yard or Along the House | NoCo Turf Co."
@@ -143,6 +143,9 @@ related:
     - severance-co
     - greeley-co
     - timnath-co
+photos:
+  - gbp-side-patio
+  - gbp-side-walk
 needsFromBrian:
   - "Before-and-after photos of side-yard jobs with the builder's swale visible: where the low line ran before, and where water runs under and off the finished turf."
   - "In your own words: how you keep a side-yard swale working under turf (how the subgrade is shaped, where the water leaves, what edging you use or leave out across the flow line)."
@@ -170,7 +173,7 @@ Turf sits on the swale; it doesn't replace it. Firestone's code says the lot's d
 - **Nothing crosses the flow line.** The Colorado Geological Survey counts patios, fences and "other obstructions that dam and pond water" among homeowner mistakes on swelling soil ([CGS SP-14](https://coloradogeologicalsurvey.org/wp-content/uploads/woocommerce_uploads/SP-14.pdf)). An edging board laid across a swale is one.
 - **The neighbor stays dry.** The same guide says water carried off one house must not be "directed against a neighboring structure," which in a side yard stands a few feet away.
 
-Water's path through turf and base: [what happens to artificial turf when it rains](/guides/does-artificial-turf-drain/). Reading a grading plan: [new-build backyard turf](/guides/new-build-backyard-turf/).
+Reading a grading plan: [new-build backyard turf](/guides/new-build-backyard-turf/).
 
 ## How close can turf come to the foundation and siding?
 
@@ -188,7 +191,7 @@ Measure the gap before anyone digs, and keep it: a higher grade at the wall isn'
 
 **Water.** The Colorado Geological Survey lists poor surface drainage, and planting by foundations so irrigation water soaks in, among landscaping problems on expansive soils ([CGS](https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/)). Turf removes the sprinkler. But turf and its porous base pass water down, and CGS's advice for the band beside a house runs the other way: gravel over non-woven fabric, at least 5 feet out, the fabric lapped onto the foundation, "to prevent percolation of water into the soils next to the foundation." Turf tight to the wall works only when the ground under the base falls away from the house, as R401.3 asks, so water leaves instead of soaking in at the footing.
 
-In a 5-foot side yard, that edging is the whole yard. On some lots the honest layout is rock along the house and turf where the yard opens up; [turf, pavers or concrete](/guides/artificial-turf-vs-pavers-concrete/) compares hard surfaces. On a newer house the backfill is still settling; see [why artificial turf sinks](/guides/artificial-turf-sinking-low-spots/).
+In a 5-foot side yard, that edging is the whole yard. On some lots the honest layout is rock along the house and turf where the yard opens up; [turf, pavers or concrete](/guides/artificial-turf-vs-pavers-concrete/) compares hard surfaces. On a newer house the backfill is still settling.
 
 ## What about window wells, downspouts and the air conditioner?
 
@@ -217,9 +220,9 @@ State law helps less than it seems. Colorado's [SB23-178](https://leg.colorado.g
 
 ## What else does a strip between two houses ask of turf?
 
-- **Reflected heat.** NAHB says closeness to a neighboring structure is a factor in damage from sunlight reflected off Low-E windows; a builders' survey found most siding damage within 30 feet of the window ([NAHB](https://www.nahb.org/-/media/NAHB/advocacy/docs/legal-issues/construction-liability/builder-resources/sunlight-double-paned-low-e-windows-2014.pdf)). A side yard sits well inside that. Fixes: [why turf melts near the house](/guides/artificial-turf-melting-from-windows/).
-- **Shade and snow.** A north side yard holds both longest: see [turf in a shady, north-facing yard](/guides/artificial-turf-shady-north-facing-yard/), [what winter does to turf](/guides/does-artificial-turf-freeze/) and [clearing snow off turf](/guides/artificial-turf-snow-removal/).
-- **Dogs.** Some communities send dog runs here: [Timnath](/areas/timnath-co/) Lakes puts a run in the rear or side yard, against the home ([Timnath Lakes rules](https://web.archive.org/web/20240527033949/https://timnathlakesmetrodistricts1-6.com/uploads/tlmd-rules-and-regs-final-version-ratified-1.28.22-.pdf)). A potty strip along the wall puts rinse water beside the foundation, where CSU says water should be carefully regulated. Rinse toward the swale; see [urine smell in turf](/guides/dog-urine-smell-artificial-turf/) and [pet turf](/services/pet-turf/).
+- **Reflected heat.** NAHB says closeness to a neighboring structure is a factor in damage from sunlight reflected off Low-E windows; a builders' survey found most siding damage within 30 feet of the window ([NAHB](https://www.nahb.org/-/media/NAHB/advocacy/docs/legal-issues/construction-liability/builder-resources/sunlight-double-paned-low-e-windows-2014.pdf)). A side yard sits well inside that.
+- **Shade and snow.** A north side yard holds both longest: see [turf in a shady, north-facing yard](/guides/artificial-turf-shady-north-facing-yard/).
+- **Dogs.** Some communities send dog runs here: [Timnath](/areas/timnath-co/) Lakes puts a run in the rear or side yard, against the home ([Timnath Lakes rules](https://web.archive.org/web/20240527033949/https://timnathlakesmetrodistricts1-6.com/uploads/tlmd-rules-and-regs-final-version-ratified-1.28.22-.pdf)). A potty strip along the wall puts rinse water beside the foundation, where CSU says water should be carefully regulated. Rinse toward the swale; see [pet turf](/services/pet-turf/).
 - **Access.** Toro sells a narrow-track loader under 35 inches wide, made for a standard 36-inch gate ([Toro](https://www.toro.com/en/product/22587)). Measure your gate; see [getting ready for install day](/guides/preparing-for-turf-installation-day/).
 
 ## What should I ask before turf goes in along the house?

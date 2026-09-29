@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: pets
 kind: comparison
 title: "Pea Gravel vs Artificial Turf for a Dog Run | NoCo Turf Co."
@@ -135,6 +135,11 @@ related:
     - greeley-co
     - wellington-co
     - windsor-co
+photos:
+  - gbp-dog-yard
+reviews:
+  - sharon
+  - kirk
 needsFromBrian:
   - "Dog runs you have converted from pea gravel to turf: before-and-after photos, the town, and in the owner's own words why they switched (tracking, smell, snow, cleanup). One real conversion would replace the checklist in the last section."
   - "What you do with the old pea gravel on a conversion (haul it off, reuse it somewhere, or something else) and why, in your words."
@@ -173,7 +178,7 @@ Shelter veterinarians have a standard for exactly this. The Association of Shelt
 
 Parasites are why it matters. The Companion Animal Parasite Council says most roundworm eggs need 2 to 4 weeks in the environment to become infective, that common disinfectants don't kill them, and that once they are in the ground only extreme measures get rid of them: paving, removing the topsoil, burning or steam ([CAPC](https://capcvet.org/guidelines/ascarid/)). Its answer is prompt pickup, before the feces break down and scatter. The shelter standard puts it the same way: removing feces daily is acceptable and immediately is preferred. Both are easier on a surface where nothing falls between the stones.
 
-On turf, waste stays on the surface: pick it up, then rinse the spot. How to do both well is in [dog poop on artificial turf](/guides/dog-poop-on-artificial-turf/), and odor is in [getting dog urine smell out of turf](/guides/dog-urine-smell-artificial-turf/). Turf is not a sealed floor, though. Urine and rinse water still pass through it into the base and the soil below, which is why the base under a run has to drain.
+On turf, waste stays on the surface: pick it up, then rinse the spot. How to do both well is in [dog poop on artificial turf](/guides/dog-poop-on-artificial-turf/). Turf is not a sealed floor, though. Urine and rinse water still pass through it into the base and the soil below, which is why the base under a run has to drain.
 
 Where the rinse water ends up matters with either surface:
 
@@ -192,7 +197,7 @@ The run gets used on snow days too. The nearest NOAA station to Greeley averages
 
 A shovel pushed across pea gravel scoops up stones with the snow, and they end up in the pile, then on the patio or the lawn when it melts. A snowblower is worse: Toro's manual for its Power Clear snowthrower says the machine is not "designed for clearing gravel surfaces" ([Toro manual](https://manuals.toro.com/153265/index.html)). Leave the run unshoveled and a winter's worth of waste sits on and in the snow, then settles into the gravel at the thaw.
 
-Turf can be shoveled or blown. How to do it without harming the turf, and whether ice melt is safe on it, is in [clearing snow off artificial turf](/guides/artificial-turf-snow-removal/); what a freeze does to it is in [does artificial turf freeze](/guides/does-artificial-turf-freeze/). On either surface, pick up waste before the next snow buries it.
+Turf can be shoveled or blown. On either surface, pick up waste before the next snow buries it.
 
 ## What about heat, digging and a dog that eats rocks?
 
@@ -202,11 +207,11 @@ Turf can be shoveled or blown. How to do it without harming the turf, and whethe
 
 ## Can an existing gravel run be turned into turf?
 
-Usually, and the first question is what happens to the gravel. Whether turf can go straight over pea gravel or the gravel has to come out is answered in [can artificial turf go over grass, dirt or old rock](/guides/can-you-put-artificial-turf-over-grass-or-dirt/). Before you take a quote, ask:
+Usually, and the first question is what happens to the gravel. Before you take a quote, ask:
 
 1. **Does the pea gravel come out, and what goes in instead?** A good answer names the base material, how deep it goes and how it is compacted, and why that suits your soil.
 2. **Where does the rinse water go?** A good answer follows it from the turf through the base to a spot on your lot, not onto the neighbor's yard or into the gutter.
 3. **How is the turf held down along the fence?** That is where dogs pace and dig. A good answer describes the edge, not just the fasteners.
 4. **Which infill, and why for a dog?** See the infill guide linked above.
 
-Town rules can change the plan. In Firestone, turf needs a town permit first, with no fee for a single-family home. The code allows turf on up to 75% of the rear or side yard, but it also requires 50% of the combined side and rear yards to be live plants and says turf can't count toward that, so turf is usually held to about half. It also requires a buffer of at least 3 feet of living, permeable landscape between turf and any property line ([Firestone Development Code 16.6.4](https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE)). A run along a lot-line fence can't be turf all the way to the fence, and a strip of gravel isn't living or organic material either. It depends on how the Town reads your plan: ask Firestone Planning. This is general information, not legal advice. More on dog runs in Firestone is on our [Firestone pet turf page](/areas/firestone-co/pet-turf/).
+Town rules can change the plan. In Firestone, turf needs a town permit first, with no fee for a single-family home. The code allows turf on up to 75% of the rear or side yard, but it also requires 50% of the combined side and rear yards to be live plants and says turf can't count toward that, so turf is usually held to about half. It also requires a buffer of at least 3 feet of living, permeable landscape between turf and any property line ([Firestone Development Code 16.6.4](https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE)). A run along a lot-line fence can't be turf all the way to the fence, and a strip of gravel isn't living or organic material either. It depends on how the Town reads your plan: ask Firestone Planning. This is general information, not legal advice.

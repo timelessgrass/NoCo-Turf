@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: installation
 kind: comparison
 title: "Artificial Turf Nails vs Staples: Specs and Frost | NoCo Turf Co."
@@ -19,13 +19,13 @@ faq:
   - q: "Can I use U-shaped landscape staples or sod staples instead of nails?"
     a: "Shaw's installation guidelines list sod staples alongside landscape and timber spikes as edge fasteners. The other guides we read call for 5- or 6-inch nails or spikes. Whatever the fastener, ask how long it is and how much of it reaches past the base into the soil, because that is the part frost can grip."
   - q: "Is turf laid on a concrete patio nailed down?"
-    a: "Not necessarily. SYNLawn's guide says turf over concrete may be glued down instead, with no base under it. Whether the concrete should stay at all is covered in our guide to artificial turf over concrete."
+    a: "Not necessarily. SYNLawn's guide says turf over concrete may be glued down instead, with no base under it."
   - q: "Can a turf nail hit my sprinkler or drip lines?"
-    a: "It can if a live line runs shallow under an edge. SYNLawn's guide has the sprinklers in the turf area removed and capped before the base goes in, and reminds installers to run drip lines to the trees and plants that zone watered. Ask where every line that stays live runs, and keep nails off it. Our guides to sprinkler systems after turf and to watering trees in a turf yard cover the rest."
+    a: "It can if a live line runs shallow under an edge. SYNLawn's guide has the sprinklers in the turf area removed and capped before the base goes in, and reminds installers to run drip lines to the trees and plants that zone watered. Ask where every line that stays live runs, and keep nails off it. Our guide to watering trees in a turf yard covers the drip lines for trees."
   - q: "Are putting greens nailed like a lawn?"
     a: "Not always. Watersavers Turf says its putting greens are installed differently, with no surface or perimeter nails. Ask how a green's edges and cups are held, and what keeps the surface true through a freeze. Our putting greens page covers how a backyard green is built."
   - q: "Does turf on a slope need nails through the middle?"
-    a: "PolyTurf's manual uses optional 6-inch galvanized nails in the field to pin turf on sloping areas, and Integriturf nails the field every 2 to 3 feet as standard. Watersavers Turf doesn't require nails through the middle at all. Our guide to artificial turf on a slope covers when a slope needs a wall instead."
+    a: "PolyTurf's manual uses optional 6-inch galvanized nails in the field to pin turf on sloping areas, and Integriturf nails the field every 2 to 3 feet as standard. Watersavers Turf doesn't require nails through the middle at all."
 layerRefs:
   - artificial-turf-nails-vs-staples.synlawn-nails
   - artificial-turf-nails-vs-staples.synlawn-base-depth
@@ -122,6 +122,8 @@ related:
     - firestone-co
     - fort-collins-co
     - longmont-co
+reviews:
+  - lanelle
 needsFromBrian:
   - "Your fastener spec, edge by edge: the nail or spike you use (length, galvanized or plain, smooth or twisted shaft), the spacing on edges, seams and through the middle, and where you use a board with staples or screws instead (the board material and how it is anchored)."
   - "Whether you fasten differently in dog runs, play areas and commercial jobs, and why, in your own words."
@@ -138,7 +140,7 @@ What does the holding.
 
 - **Nails into the base.** A long nail goes through the backing into the crushed rock, and the base and the soil below grip it. SYNLawn's DIY guide uses 6-inch (60d) galvanized nails ([SYNLawn](https://pdf.lowes.com/productdocuments/240a8581-4267-4cdf-aa5f-d4d1e250fec6/44269346.pdf)); ForeverLawn uses 6-inch 60D galvanized spikes with a twisted shaft ([ForeverLawn](https://www.landscapesbyforeverlawn.com/wp-content/uploads/2023/07/DIY-Landscape-Installation-Guidelines-.pdf)). Integriturf calls nailing the most common method ([Integriturf](https://integriturf.com/wp-content/uploads/2019/02/Installation-Guide.pdf)).
 - **Staples into a board.** A pneumatic stapler fixes the turf to a board set along the perimeter. ForeverLawn stands pressure-treated 2x4s on edge and staples into them every 2 to 3 inches with galvanized staples 1 inch long. A staple that short holds only in wood or plastic, so the board carries the load: ForeverLawn pins a free-standing board with 1/2-inch rebar 18 to 24 inches long about every 2 feet, and screws or anchors a board beside a sidewalk or foundation into the concrete.
-- **Screws into a board.** PolyTurf screws edges to a perimeter edging board with 1-inch screws, because a screw comes out more easily than a nail when turf has to be re-stretched to take out ripples ([PolyTurf](https://polyturf.com/uploads/files/polyturf_installation_manual_landscape_only.pdf)). More on that in [why turf wrinkles or ripples](/guides/artificial-turf-wrinkles-ripples/).
+- **Screws into a board.** PolyTurf screws edges to a perimeter edging board with 1-inch screws, because a screw comes out more easily than a nail when turf has to be re-stretched to take out ripples ([PolyTurf](https://polyturf.com/uploads/files/polyturf_installation_manual_landscape_only.pdf)).
 
 ForeverLawn recommends boards around commercial installations and allows boards or spikes at a house. Integriturf switches to a nailer board with 3/8-by-1-inch galvanized staples for playground areas and wherever nails aren't advised, the kind of area our [playground turf](/services/playground-turf/) page covers.
 
@@ -156,7 +158,7 @@ Most guides call for 5 or 6 inches. Spacing varies more:
 
 Where they agree: heads sit flush with the backing, because overdriving leaves a dimple or dip (Shaw, ForeverLawn, Watersavers), and no blades get pinned under a head (SYNLawn, ForeverLawn). Shaw leaves the choice of nail to local soils and the application, so ask for the installation guide from the maker of the turf you are buying. It belongs with the [turf spec sheet](/guides/turf-spec-sheet-for-colorado/).
 
-Length only means something next to base depth. SYNLawn digs 3 to 4 inches for the base; ForeverLawn lays about 3 inches of crushed stone under an inch of fines. A 6-inch nail through 4 inches of base leaves its last 2 inches in the native soil, and in a clay yard that is the layer winter moves. Base depth is covered in [what base goes under artificial turf](/guides/what-base-goes-under-artificial-turf/).
+Length only means something next to base depth. SYNLawn digs 3 to 4 inches for the base; ForeverLawn lays about 3 inches of crushed stone under an inch of fines. A 6-inch nail through 4 inches of base leaves its last 2 inches in the native soil, and in a clay yard that is the layer winter moves.
 
 ## Can frost push turf nails back up?
 
@@ -169,7 +171,7 @@ Northern Colorado runs that cycle often:
 - **Frost depth.** Larimer County designs footings for a 30-inch frost depth ([Larimer County](https://www.larimer.gov/sites/default/files/uploads/2022/structural_design_information.pdf)). A footing reaches below that; a nail sits wholly inside it.
 - **Clay.** Frost heave takes fine-grained soil, freezing and water; clean sand and gravel don't heave ([Pavement Interactive](https://pavementinteractive.org/reference-desk/design/design-parameters/frost-action/)). The Colorado Geological Survey says expansive clays can swell up to 20% by volume when wet ([CGS](https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/)). Soil changes by town: federal soil surveys map central [Longmont](/areas/longmont-co/) mostly as Nunn clay loam, a high shrink-swell soil, and central Firestone mostly as Vona loamy sand.
 
-The digest's first remedy is a drained zone of gravel or crushed stone around the post to take up the uplift, with a catch: if it stops draining, the stone freezes into one solid mass. The turf version is a clean, compacted rock base with somewhere for water to go. Where water sits in winter is in [does artificial turf freeze](/guides/does-artificial-turf-freeze/); clay yards have their own guide, [artificial turf on clay soil](/guides/artificial-turf-on-clay-soil/).
+The digest's first remedy is a drained zone of gravel or crushed stone around the post to take up the uplift, with a catch: if it stops draining, the stone freezes into one solid mass. The turf version is a clean, compacted rock base with somewhere for water to go.
 
 ## Do boards and staples hold up better in winter?
 
@@ -194,7 +196,7 @@ Once the ground has thawed and dried, walk every edge and seam:
 - **Nail heads standing proud of the backing:** tap them back flush, as PolyTurf advises. Paws find them before feet do.
 - **The same nails rising every year:** that points to water sitting around them. Fix where it goes, or ask about a board on that edge.
 - **Turf pulling off a board,** or staples that have let go.
-- **Seams opening:** see [visible seams in artificial turf](/guides/visible-seams-in-artificial-turf/).
+- **Seams opening** between rolls.
 
 ## What should a turf quote say about fasteners?
 

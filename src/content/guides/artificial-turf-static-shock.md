@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: weather
 kind: problem
 title: "Static Shocks From Artificial Turf: Causes and Fixes | NoCo Turf Co."
@@ -23,7 +23,7 @@ faq:
   - q: "Can I use fabric softener on turf to stop static?"
     a: "On your clothes, yes: Advanced Bionics suggests fabric softener in the wash to cut static. On the turf, anything sprayed on is a topical treatment that rain washes off into the yard where dogs and children play. Ask the turf's maker before you put anything on the blades."
   - q: "Does turf static happen indoors too?"
-    a: "Yes. Nothing about the charge depends on being outdoors, and the ESD Association's voltage figures on this page are for carpet and vinyl tile. For turf on a basement or garage floor, see our guides to turf for a home gym or golf simulator and to an indoor putting green."
+    a: "Yes. Nothing about the charge depends on being outdoors, and the ESD Association's voltage figures on this page are for carpet and vinyl tile."
 layerRefs:
   - artificial-turf-static-shock.esda-contact-charging
   - artificial-turf-static-shock.esda-insulators-hold-charge
@@ -94,6 +94,8 @@ related:
     - fort-collins-co
     - greeley-co
     - windsor-co
+photos:
+  - playset
 needsFromBrian:
   - "Whether customers report static shocks on turf, in which towns and seasons, and what you tell them, in your own words."
   - "Whether any turf you install has static-dissipative yarn (a conductive filament or an additive in the yarn), with its spec sheet, so the 'what to ask' section can show a real example."
@@ -135,7 +137,7 @@ What those numbers mean for static:
 
 - **It peaks in the afternoon.** The day's low humidity came between late morning and early evening on 88% of days in Fort Collins and 91% in Greeley; the high came overnight or near dawn. A yard that starts the day in the humid column of the voltage table ends it in the dry one, so a dewy morning is the least likely time for a zap.
 - **It isn't only a winter problem.** Every month of 2025 had afternoons at 25% humidity or less at both stations, and March had the most.
-- **Winter brings dry wind.** The Climate Center says winter on the plains "more often" brings dry air and strong winds, and the National Weather Service defines the chinook as a warm, dry wind in the lee of the Rockies, fairly common in winter ([National Weather Service](https://forecast.weather.gov/glossary.php?word=chinook)). What winter does to the turf itself is in [does artificial turf freeze](/guides/does-artificial-turf-freeze/).
+- **Winter brings dry wind.** The Climate Center says winter on the plains "more often" brings dry air and strong winds, and the National Weather Service defines the chinook as a warm, dry wind in the lee of the Rockies, fairly common in winter ([National Weather Service](https://forecast.weather.gov/glossary.php?word=chinook)).
 
 One caution before blaming the weather for everything. A white paper by one of that patent's inventors says humidity "does not seem to play as important a role in synthetic turf" as it does in carpet, and that static builds in low and high humidity alike ([Static Dissipative Turf](https://web.archive.org/web/20251118135150/https://www.foreverlawn.com/wp-content/uploads/2022/05/WhitePaper-Static-Dissipative-Turf-rev-IA-before-EA-2.pdf)). Dry air helps; it is not the whole cause.
 
@@ -166,7 +168,7 @@ Watering hours matter too. Windsor's standing rule is no lawn watering from 10 a
 
 **Change what's on your feet.** Advanced Bionics' static advice for families applies to anyone: leather soles instead of rubber, and natural fibers such as cotton. The patent's test walker, for comparison, wore rubber-soled sneakers.
 
-**Go carefully with sprays.** Royal Grass notes antistatic products sold at DIY stores. The patent says chemicals sprayed on turf work in some situations but "are not substantive solutions for outdoor environments, especially in the presence of rain," and the white paper says they wash off with rain and wear off under foot traffic. Whatever goes on the blades ends up in the yard. Read the label, ask the turf's maker, and see [how to clean artificial turf](/guides/how-to-clean-artificial-turf/) for what is safe to rinse off in Northern Colorado.
+**Go carefully with sprays.** Royal Grass notes antistatic products sold at DIY stores. The patent says chemicals sprayed on turf work in some situations but "are not substantive solutions for outdoor environments, especially in the presence of rain," and the white paper says they wash off with rain and wear off under foot traffic. Whatever goes on the blades ends up in the yard. Read the label and ask the turf's maker.
 
 ## What should I ask for if static matters, as under a play set?
 

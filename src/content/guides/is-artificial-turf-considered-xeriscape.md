@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: rules-and-hoa
 kind: guide
 title: "Is Artificial Turf Xeriscape? Town Codes and HOA Rules | NoCo Turf Co."

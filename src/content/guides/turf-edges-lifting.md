@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: care-and-repair
 kind: problem
 title: "Why Artificial Turf Edges Lift, and How to Fix Them | NoCo Turf Co."
@@ -147,6 +147,12 @@ related:
     - greeley-co
     - longmont-co
     - severance-co
+photos:
+  - gbp-side-walk
+  - side-yard
+  - gbp-curved-curb
+reviews:
+  - lanelle
 needsFromBrian:
   - "Your edge detail, border by border: nails into the base, a board with staples or screws, or a buried edge, and whether you change it on clay lots or along walks that get shoveled. The re-secure section can then say what a good answer sounds like from you."
   - "Your fastener choice for re-securing an edge that has already lifted once (same nail, longer nail, or a board), and why."
@@ -171,11 +177,11 @@ Where the edge failed, and when, usually names the cause.
 | A chewed or pulled edge along the fence or at a corner | A dog | See the dog guide linked below |
 | An edge that rolls up with nothing loose under it | Roll memory, slack, or turf cut long | Relax, re-stretch and trim |
 
-An edge up within days of installation points at the install; see when a turf installer won't come back.
+An edge up within days of installation points at the install.
 
 ## Can frost push turf nails back up?
 
-Yes, and winter here gives it many chances. The nearest NOAA station in Fort Collins averages 150 nights a year at or below 32°F, and on about 135 of those days the air climbs back above freezing; Longmont 2 ESE averages 177.7 freezing nights (1991–2020 normals). Frost heave needs a fine-grained soil, freezing that reaches into it, and water ([Pavement Interactive](https://pavementinteractive.org/reference-desk/design/design-parameters/frost-action/)). How that grips a nail is covered in [nails vs staples](/guides/artificial-turf-nails-vs-staples/); what winter does to the rest of the turf, in [does artificial turf freeze](/guides/does-artificial-turf-freeze/).
+Yes, and winter here gives it many chances. The nearest NOAA station in Fort Collins averages 150 nights a year at or below 32°F, and on about 135 of those days the air climbs back above freezing; Longmont 2 ESE averages 177.7 freezing nights (1991–2020 normals). Frost heave needs a fine-grained soil, freezing that reaches into it, and water ([Pavement Interactive](https://pavementinteractive.org/reference-desk/design/design-parameters/frost-action/)). How that grips a nail is covered in [nails vs staples](/guides/artificial-turf-nails-vs-staples/).
 
 The repair:
 
@@ -187,11 +193,11 @@ The repair:
 
 Because the edge is where the water is. The [Colorado Geological Survey](https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/) says expansive clays can swell up to 20% by volume when wet, and counts planting beside a foundation, where irrigation water soaks in, among the landscaping mistakes on those soils. Turf edges often sit beside the same thing: a drip-watered bed, a downspout, snowmelt off a walk. Our reading: the bed side wets and dries with every watering while the turf side stays drier on its rock base, so the border moves.
 
-[Greeley's water department](https://greeleyco.gov/government/city-administration/city-departments/water-and-sewer/save-water/waterwise-landscapes) finds hard clay sometimes just inches down in [Greeley](/areas/greeley-co/), and [Longmont](https://longmontcolorado.gov/water/water-conservation/conserving-water-outdoors/) tells residents its clay soils absorb water slowly. To check your own lot, see [artificial turf on clay soil](/guides/artificial-turf-on-clay-soil/).
+[Greeley's water department](https://greeleyco.gov/government/city-administration/city-departments/water-and-sewer/save-water/waterwise-landscapes) finds hard clay sometimes just inches down in [Greeley](/areas/greeley-co/), and [Longmont](https://longmontcolorado.gov/water/water-conservation/conserving-water-outdoors/) tells residents its clay soils absorb water slowly.
 
 To fix it, in order:
 
-1. **Move the water.** Turn emitters and spray heads away from the edge line and carry downspouts past the turf. Rerouting old zones is in [what happens to your sprinkler system](/guides/sprinkler-system-after-artificial-turf/).
+1. **Move the water.** Turn emitters and spray heads away from the edge line and carry downspouts past the turf.
 2. **Rebuild the base at the edge.** Fold the turf back, dig out what has gone soft, refill and compact. PolyTurf wants the ground under turf firm enough not to move, or it makes humps and valleys.
 3. **Re-fasten** into that firm base, or to a board anchored deeper than the old nails reached.
 
@@ -203,13 +209,13 @@ Between the fasteners, infill does the holding. PolyTurf calls its sand infill "
 
 After a big wind:
 
-- **Walk the upwind edges and seams** and re-fasten any loose flap before the next blow. Seams: [visible seams in artificial turf](/guides/visible-seams-in-artificial-turf/).
+- **Walk the upwind edges and seams** and re-fasten any loose flap before the next blow.
 - **Top up bare spots.** Where blade tips stand clear of infill, the ballast is gone; see [how often to add infill](/guides/how-often-to-add-infill-to-artificial-turf/).
-- **Fasten small pieces all the way round.** A strip between stepping stones or a ring around a tree carries little infill weight in total. See [artificial turf between pavers](/guides/artificial-turf-between-pavers/), and for decks and roofs, [turf on a balcony or rooftop](/guides/artificial-turf-balcony-rooftop/).
+- **Fasten small pieces all the way round.** A strip between stepping stones or a ring around a tree carries little infill weight in total. See [artificial turf between pavers](/guides/artificial-turf-between-pavers/).
 
 ## Do snow shovels and dogs pull edges up?
 
-Both work on an edge that stands proud of its neighbor, and a shovel leaving a walk hits the turf edge first. [ForeverLawn](https://www.landscapesbyforeverlawn.com/wp-content/uploads/2023/07/DIY-Landscape-Installation-Guidelines-.pdf) sets the turf's backing 3/4 to 1 inch below a sidewalk's edge, on a board fastened to the concrete, and [Sure-loc](https://surelocedging.com/pdf/Alum_Edge_Install_Instructions.pdf) keeps the top of its edging no more than 1/2 inch above finish grade, which leaves a blade little to hook. On the turf itself use a plastic shovel; [SYNLawn](https://www.synlawn.com/articles/how-to-maintain-artificial-grass/) says metal tools can damage the fibers. Blowers and de-icers are in [clearing snow off artificial turf](/guides/artificial-turf-snow-removal/).
+Both work on an edge that stands proud of its neighbor, and a shovel leaving a walk hits the turf edge first. [ForeverLawn](https://www.landscapesbyforeverlawn.com/wp-content/uploads/2023/07/DIY-Landscape-Installation-Guidelines-.pdf) sets the turf's backing 3/4 to 1 inch below a sidewalk's edge, on a board fastened to the concrete, and [Sure-loc](https://surelocedging.com/pdf/Alum_Edge_Install_Instructions.pdf) keeps the top of its edging no more than 1/2 inch above finish grade, which leaves a blade little to hook. On the turf itself use a plastic shovel; [SYNLawn](https://www.synlawn.com/articles/how-to-maintain-artificial-grass/) says metal tools can damage the fibers.
 
 When an edge along a walk keeps getting caught, reset it lower rather than nailing it harder: fold it back, take the base down, fasten it to a board set below the concrete, and trim so the turf stops a few millimeters short of the walk, as ForeverLawn cuts it.
 
@@ -223,8 +229,6 @@ Usually because it remembers the roll, or was never stretched. [Shaw's guideline
 - **Old curl:** [Synthetic Grass Warehouse](https://syntheticgrasswarehouse.com/company/ask-an-expert/ask-jw/preventing-wrinkles-in-turf/) warns that once turf has been down more than 3 months, pulling a wrinkle out may do more damage, and suggests adding ballast or cutting it out. At an edge, that means trimming the curl off or setting in a new strip.
 - **Turf cut long:** Integriturf trims cleanly along the border to avoid "long over lap." An edge riding up onto a curb or board needs trimming, not more nails.
 
-Ripples in the lawn itself: [why turf wrinkles or ripples](/guides/artificial-turf-wrinkles-ripples/).
-
 ## How is a lifted edge re-secured?
 
 1. **Brush the infill out of the edge** to reach the fasteners, as Synthetic Grass Warehouse's installer column does.
@@ -237,6 +241,6 @@ Ripples in the lawn itself: [why turf wrinkles or ripples](/guides/artificial-tu
    - **A buried edge.** Shaw digs a narrow trench along the border, tucks the turf in, nails it, backfills and compacts, then hides the edge under mulch or rock.
 6. **Brush the infill back in** to the same depth as the turf around it.
 
-A torn edge needs a patch (PolyTurf advises keeping your installation scraps for it): see [how to repair artificial turf](/guides/how-to-repair-artificial-turf/). If edges lift all round on worn turf, weigh [repairing or replacing it](/guides/when-to-replace-artificial-turf/). New turf: see [installation](/services/artificial-turf-installation/) and [pet turf](/services/pet-turf/).
+A torn edge needs a patch (PolyTurf advises keeping your installation scraps for it). If edges lift all round on worn turf, weigh [repairing or replacing it](/guides/when-to-replace-artificial-turf/). New turf: see [installation](/services/artificial-turf-installation/) and [pet turf](/services/pet-turf/).
 
 **In Firestone.** Not legal advice. Firestone's maintenance standard says turf areas shall not contain "uplifted surfaces," and damaged areas must be repaired or replaced to match the existing turf ([Firestone Development Code 16.6.4](https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE)). Whether one lifted edge breaks that rule depends on how the town reads it, so ask Firestone Planning. The rest of the standard is in our [turf spec sheet guide](/guides/turf-spec-sheet-for-colorado/).

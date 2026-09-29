@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: rules-and-hoa
 kind: guide
 title: "Artificial Turf Over a Septic Drain Field or Tank | NoCo Turf Co."
@@ -137,7 +137,7 @@ None of these rules mentions artificial turf. The one line that sounds like a ba
 
 ## Why is the turf base, not the turf, the real conflict?
 
-Because of what an install does to the ground under it. Writing in the trade magazine [Onsite Installer](https://www.onsiteinstaller.com/editorial/2024/10/artificial-turf-over-septic-systems), onsite wastewater educator Sara Heger describes the usual steps: remove the vegetation to a depth of 2 to 4 inches, lay a geotextile and a weed barrier that "could impact the oxygen transfer to the system," then compact a base, which "can also compact the underlying natural soil and damage shallow components." Her conclusion is that turf should not go over a soil treatment area at all. Our guide to [what base goes under artificial turf](/guides/what-base-goes-under-artificial-turf/) has the layers; over a drain field, each one runs into the county rules:
+Because of what an install does to the ground under it. Writing in the trade magazine [Onsite Installer](https://www.onsiteinstaller.com/editorial/2024/10/artificial-turf-over-septic-systems), onsite wastewater educator Sara Heger describes the usual steps: remove the vegetation to a depth of 2 to 4 inches, lay a geotextile and a weed barrier that "could impact the oxygen transfer to the system," then compact a base, which "can also compact the underlying natural soil and damage shallow components." Her conclusion is that turf should not go over a soil treatment area at all. Over a drain field, each step of building a turf base runs into the county rules:
 
 - **Digging out** takes soil from a cover that may only have been built to the 10-inch minimum. Taking 2 to 4 inches off that leaves less than the rule requires.
 - **Crushed rock** replaces the soil suitable for vegetation that the rule asks for, and nothing grows up through turf.

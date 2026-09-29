@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: yard-design
 kind: guide
 title: "Turf, Rock and Plant Beds: How to Split a Backyard | NoCo Turf Co."
@@ -139,6 +139,9 @@ related:
     - timnath-co
     - berthoud-co
     - johnstown-co
+photos:
+  - gbp-curved-curb
+  - fenced-yard
 needsFromBrian:
   - "Photos of mixed turf, rock and bed layouts you have built, before and after, with the rough split for each: square feet of turf, planted beds and rock, and why you drew the lines where you did."
   - "Your rule for the ground next to the house: how far you keep turf from the foundation and from south- or west-facing windows, and what you put in that band, with one example."
@@ -155,7 +158,7 @@ Start from what the turf is for, not the outline of the old lawn. Draw each use 
 
 CSU Extension's list of lawn that is hardest to water and maintain doubles as a list of places turf seldom pays off: along fences, on slopes, in corners, in narrow strips beside a walk, and in irregular shapes ([CSU Fact Sheet 7.234](https://extension.colostate.edu/resource/xeriscaping-retrofit-your-yard/)). CSU means living grass, but the same spots turn artificial turf into long edges and slivers to cut and anchor. The Colorado Geological Survey's guide for homes on swelling soil recommends much the same mix: rock "only in selected areas of the yard," gravel edgings, groundcover, and "perhaps a limited central area of lawn" ([CGS SP-14](https://coloradogeologicalsurvey.org/wp-content/uploads/woocommerce_uploads/SP-14.pdf)).
 
-The turf is probably too big if it runs right to the fence, fills corners nobody walks to, reaches south- or west-facing windows where reflected sun can melt fibers ([turf melting near windows](/guides/artificial-turf-melting-from-windows/)), or runs under a tree's canopy ([turf around trees](/guides/artificial-turf-around-trees/)). Measuring and the Firestone arithmetic are in [how much artificial turf you need](/guides/how-much-artificial-turf-do-i-need/); front yards follow their own rules ([front-yard design with turf](/guides/front-yard-artificial-turf-ideas/)).
+The turf is probably too big if it runs right to the fence, fills corners nobody walks to, reaches south- or west-facing windows where reflected sun can melt fibers, or runs under a tree's canopy. Measuring and the Firestone arithmetic are in [how much artificial turf you need](/guides/how-much-artificial-turf-do-i-need/); front yards follow their own rules ([front-yard design with turf](/guides/front-yard-artificial-turf-ideas/)).
 
 ## What goes in the first 5 feet around the house?
 
@@ -172,9 +175,9 @@ Keep the band a band: CSU advises against "large areas of unshaded rock next to 
 - **Along property lines in Firestone, by code.** Turf must stop at least 3 feet from any property line, with permeable, living and organic landscape in between ([Firestone Development Code 16.6.4](https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE)). Draw that strip as a real bed, not a leftover.
 - **Five feet out from hot south and west walls.** The U.S. EPA says vegetation lowers surface and air temperatures by shading and evapotranspiration ([EPA](https://www.epa.gov/heatislands/benefits-trees-and-vegetation)); turf in the same spot takes the reflected heat ([how hot artificial turf gets](/guides/how-hot-does-artificial-turf-get/)).
 - **Where the yard needs screening, shelter or a view.** Heron Lakes' rules say most beds should do a job: screening, privacy, framing views, defining outdoor spaces, blocking wind or sun, holding soil. They want perimeter planting with openings, not a "wall" of vegetation, and golf-course lots landscaped for the view from the course.
-- **Around trees,** whose roots and water have their own guides: [turf around trees](/guides/artificial-turf-around-trees/) and [watering trees after turf](/guides/watering-trees-with-artificial-turf/).
+- **Around trees,** whose watering has its own guide: [watering trees after turf](/guides/watering-trees-with-artificial-turf/).
 
-Fewer, larger beds mean fewer turf edges. CSU says plants with different water needs shouldn't share an irrigation zone, so group beds into hydrozones, each on its own drip schedule, and warns that new xeriscapes need regular weeding. Old spray zones: see [sprinklers after artificial turf](/guides/sprinkler-system-after-artificial-turf/).
+Fewer, larger beds mean fewer turf edges. CSU says plants with different water needs shouldn't share an irrigation zone, so group beds into hydrozones, each on its own drip schedule, and warns that new xeriscapes need regular weeding.
 
 ## Where does rock earn its place?
 
@@ -214,6 +217,6 @@ One dimensioned plan that the turf installer, the landscaper and the review comm
 - **Every edge and its material.** Firestone requires bender board, concrete curbing or similar between turf and other landscape areas; see [artificial turf edging](/guides/artificial-turf-edging-options/).
 - **Drip zones by water need,** and which sprinkler zones get capped.
 - **Downspout outlets and swales, kept open.** The geology survey lists patios, fences and other obstructions that dam and pond water among the mistakes behind swelling-soil damage.
-- **The order of work** when several trades share the yard: see outdoor living around turf and custom-home landscaping with turf.
+- **The order of work** when several trades share the yard: see outdoor living around turf.
 
 A good answer is a drawing with the percentages on it; a lone square-foot figure for the turf leaves the rest to guesswork. For the turf itself, see [artificial turf installation](/services/artificial-turf-installation/).

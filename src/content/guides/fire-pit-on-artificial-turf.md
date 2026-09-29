@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: safety
 kind: guide
 title: "Fire Pits, Grills and Fireworks on Artificial Turf | NoCo Turf Co."
@@ -130,6 +130,11 @@ related:
     - greeley-co
     - windsor-co
     - timnath-co
+photos:
+  - fire-pit
+  - gbp-side-patio
+reviews:
+  - lanelle
 needsFromBrian:
   - "Photos of fire-pit pads or paver surrounds you have built inside turf areas (town, month, pit type, wood or gas), with the pad size and where the turf stops and what edging holds it."
   - "Any ember, grill or firework damage you have repaired: before-and-after photos, the town, the month, and what caused it (a popping log, a dropped coal, a sparkler, a fountain)."
@@ -146,9 +151,9 @@ Mostly it melts. The blades are plastic, so a spark or a hot object usually leav
 
 - **Embers and ash.** SYNLawn's care manual says a lit cigarette "cannot ignite the turf" but fuses the tips of the fibers together, and tells owners to keep cigarettes, fireworks and open flames away from it ([SYNLawn](https://www.synlawn.com/wp-content/uploads/2024/04/SYNLawn-Care-and-Maintenance-ENG.pdf)).
 - **Hot things set down.** Integriturf's installation guide warns against setting hot tools or other hot items on turf, because they melt the fibers ([Integriturf](https://integriturf.com/wp-content/uploads/2019/02/Installation-Guide.pdf)). A portable fire pit's base, a grill lid or an ash tray does the same.
-- **Drips.** Grease and coals fall straight down from a grill. Getting grease out is covered in [how to clean artificial turf](/guides/how-to-clean-artificial-turf/).
+- **Drips.** Grease and coals fall straight down from a grill.
 
-How turf behaves in an open flame, what the flammability line on a spec sheet means, and turf near the house on a wildfire-prone lot are in [is artificial turf flammable](/guides/is-artificial-turf-flammable/). One local note: [Firestone](/areas/firestone-co/)'s turf standard requires all turf materials to be non-flammable, without naming a test ([Firestone Development Code 16.6.4](https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE)). A spot that has already melted gets patched as in [how to patch a burn, hole or tear](/guides/how-to-repair-artificial-turf/).
+How turf behaves in an open flame, what the flammability line on a spec sheet means, and turf near the house on a wildfire-prone lot are in [is artificial turf flammable](/guides/is-artificial-turf-flammable/). One local note: [Firestone](/areas/firestone-co/)'s turf standard requires all turf materials to be non-flammable, without naming a test ([Firestone Development Code 16.6.4](https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE)). A spot that has already melted gets patched.
 
 ## How far from the house does a fire pit have to be?
 
@@ -189,7 +194,7 @@ Something that can't melt, with the turf stopping at its edge. The fire codes ab
 - **The patio or a pad for the grill,** so ash and drips never reach turf.
 - **A spark screen.** LFRA, Berthoud Fire and WSFR all want a screen or spark arrestor on wood-burning pits.
 - **Gas lines.** In LFRA's area, a fire pit on a permanent gas line needs a building permit. Colorado 811 doesn't mark private lines such as gas lines to backyard grills ([Colorado 811](https://www.colorado811.org/resources/find-a-private-locating-company)), so mark any gas run before turf work starts; see [preparing for turf installation day](/guides/preparing-for-turf-installation-day/).
-- **The join.** Where turf meets the pad it needs an edge that holds: [edging options](/guides/artificial-turf-edging-options/). For an existing slab, see [turf over concrete](/guides/artificial-turf-over-concrete/); for turf strips set between pavers, [turf between pavers](/guides/artificial-turf-between-pavers/); for how much of the yard goes to hardscape, [mixing turf, rock and plant beds](/guides/mixing-turf-rock-and-plant-beds/).
+- **The join.** Where turf meets the pad it needs an edge that holds: [edging options](/guides/artificial-turf-edging-options/). For turf strips set between pavers, see [turf between pavers](/guides/artificial-turf-between-pavers/); for how much of the yard goes to hardscape, [mixing turf, rock and plant beds](/guides/mixing-turf-rock-and-plant-beds/).
 
 If a fire feature is in the plan, ask the installer:
 
@@ -208,4 +213,4 @@ It depends on the town. Statewide, Loveland Fire Rescue Authority sums it up: fi
 - **Berthoud** allows only permissible fireworks to be set off ([Town Code](https://library.municode.com/co/berthoud/codes/municipal_code?nodeId=CH17GEOFAGMUHESAWE_17.18FI)).
 - **Elsewhere,** read your town's code, and remember a fire ban can stop legal fireworks too.
 
-Where they're legal, keep them off the lawn. Greeley's fire department asks for a clear area at least ten feet across "made of mineral soil or pavement" around fireworks ([Greeley Fire](https://greeleyco.gov/news/2026/20260617-greeley-fire-department-urges-fireworks-safety)), and turf is neither. Use the driveway, keep a hose ready, skip fireworks entirely under a Red Flag Warning or Fire Weather Watch, and soak spent ones in a pail of water. The next morning, walk the lawn for melted spots; a small one is a patch job, as in [how to patch a burn, hole or tear](/guides/how-to-repair-artificial-turf/).
+Where they're legal, keep them off the lawn. Greeley's fire department asks for a clear area at least ten feet across "made of mineral soil or pavement" around fireworks ([Greeley Fire](https://greeleyco.gov/news/2026/20260617-greeley-fire-department-urges-fireworks-safety)), and turf is neither. Use the driveway, keep a hose ready, skip fireworks entirely under a Red Flag Warning or Fire Weather Watch, and soak spent ones in a pail of water. The next morning, walk the lawn for melted spots; a small one is a patch job.

@@ -1,5 +1,5 @@
 {
-  "status": "draft",
+  "status": "published",
   "town": "windsor-co",
   "service": "putting-greens",
   "title": "Backyard Putting Greens in Windsor, CO | NoCo Turf Co.",
@@ -14,6 +14,18 @@
     "answer": "The Town sets no size for a detached home's green. NoCo Turf Co. builds backyard putting greens in Windsor. Some metro districts set limits: Ptarmigan West Metro District No. 2's posted guidelines allow artificial turf in rear yards only, up to 25% of the rear yard, and New Windsor's committee considers turf in back yards only. Check your district's guidelines."
   },
   "blocks": [
+    {
+      "kind": "job",
+      "own": true,
+      "use": "putting-green",
+      "kicker": "Our job",
+      "h2": "A backyard putting green near Windsor",
+      "paras": [
+        "This green near Windsor wraps around a planted island of boulders, spruce and tall ornamental grasses, with cups flagged in red and blue on both sides of the island so every putt breaks a little differently. A concrete border holds the edge where the green meets the natural-grass lawn, and the patio and pergola sit right beside it."
+      ],
+      "layerRefs": [],
+      "sources": []
+    },
     {
       "kind": "hoa",
       "own": true,

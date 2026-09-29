@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: comparisons
 kind: comparison
 title: "Is Artificial Turf Bad for the Environment? | NoCo Turf Co."
@@ -142,6 +142,8 @@ related:
   services: []
   towns:
     - fort-collins-co
+reviews:
+  - kirk
 needsFromBrian:
   - "Your honest view, in your own words, on where turf is the right call and where it isn't: the yards you would steer toward plants, a low-water grass or keeping the lawn, and why. The last section of this page is written from public sources until you do."
   - "Where the old sod and soil from a NoCo job go today (landfill, a compost or topsoil yard, reuse), and what happens to turf NoCo tears out on a replacement job."
@@ -169,7 +171,7 @@ It saves the irrigation water, and that is the main reason manufacturers promote
 
 - **It is plastic.** The blades are polyethylene, polypropylene or nylon fibers tufted or woven into a backing (DTSC).
 - **Heat.** A 2024 systematic review found synthetic grass surfaces consistently hotter than natural grass, by 17 to 61°F across the studies it covered, and the air just above them about 1 to 2°F warmer ([International Journal of Biometeorology](https://pmc.ncbi.nlm.nih.gov/articles/PMC11272752/)). Our guide to [how hot artificial turf gets](/guides/how-hot-does-artificial-turf-get/) has the Northern Colorado summer numbers.
-- **Microplastics.** Blades and backing break down into microplastics with weather and wear, and in most California cities stormwater carries them into rivers and lakes untreated (DTSC). Whether that happens in Northern Colorado rivers is the question our guide to artificial turf and microplastics takes on.
+- **Microplastics.** Blades and backing break down into microplastics with weather and wear, and in most California cities stormwater carries them into rivers and lakes untreated (DTSC).
 - **PFAS.** Colorado has barred installing artificial turf with intentionally added PFAS since January 1, 2026 ([SB24-081](https://leg.colorado.gov/bills/sb24-081)). What the ban leaves open is in our guide to [whether artificial turf is toxic](/guides/is-artificial-turf-toxic/).
 - **The end of its life.** Only 10% of the world's worn-out artificial turf was recycled in 2021, and landfill is where it most often goes (DTSC). Larimer County's disposal list has no entry for turf at all; the nearest thing, carpet, goes to the Central Diversion and Transfer Station or the North Landfill ([Larimer County](https://www.larimer.gov/solidwaste/disposal/a-z)). See [getting rid of old artificial turf](/guides/how-to-dispose-of-artificial-turf/).
 - **A little water after all.** Pet areas still get rinsed; [do you have to water artificial turf](/guides/do-you-have-to-water-artificial-turf/) covers how much.

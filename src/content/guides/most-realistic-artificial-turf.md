@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: products
 kind: guide
 title: "What Makes Artificial Turf Look Real, Not Like Carpet | NoCo Turf Co."
@@ -23,7 +23,7 @@ faq:
   - q: "Is there turf made to copy bluegrass?"
     a: "Some product names point at a grass, SYNLawn's SYNAugustine for one. A name tells you less than the spec sheet's blade and thatch colors and a sample laid beside a bluegrass lawn."
   - q: "Is there turf that goes brown in winter, like a real lawn?"
-    a: "None that we found. Turf keeps the color it was made with, apart from slow fading under ultraviolet light, which our guide to turf fading covers."
+    a: "None that we found. Turf keeps the color it was made with, apart from slow fading under ultraviolet light."
   - q: "Will turf pass for grass up close?"
     a: "Not to everyone. Kneel down and part the blades and you will find plastic and backing in any product. The realistic aim is turf that reads as a lawn from where you usually stand or sit."
 layerRefs:
@@ -105,6 +105,9 @@ related:
   towns:
     - firestone-co
     - greeley-co
+reviews:
+  - kevin
+  - ally
 needsFromBrian:
   - "Side-by-side photos of two or three turf samples laid on a real Northern Colorado bluegrass lawn, once in summer and once in winter after the lawn has gone dormant, shot from a patio and from the street, with the product names."
   - "The same turf photographed into the grain and with the grain, in low afternoon sun, so the page can show the sheen difference instead of describing it."
@@ -121,7 +124,7 @@ A lawn is uneven in ways a cheap roll isn't. Real grass varies in shade, carries
 - **One flat green.** Every blade the same shade, often brighter than any lawn on the street.
 - **Shine.** Flat plastic blades have a sheen that grass doesn't, which is why makers reshape blades (more below).
 - **Thin or flattened pile.** The Synthetic Turf Council says "longer pile and denser synthetic grass will look more natural" ([Synthetic Turf Council](https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf)). The numbers behind that are in [pile height](/guides/artificial-turf-pile-height/) and [face weight](/guides/artificial-turf-face-weight/).
-- **Hard lines.** Seams you can see from the patio and edges that end in a raw cut. Those fixes live in [visible seams](/guides/visible-seams-in-artificial-turf/) and [edging options](/guides/artificial-turf-edging-options/).
+- **Hard lines.** Seams you can see from the patio and edges that end in a raw cut. Edge fixes live in [edging options](/guides/artificial-turf-edging-options/).
 
 ## What does thatch do, and why is it tan?
 
@@ -135,7 +138,7 @@ Turf makers copy it with a second yarn that sits low in the pile, often textured
 | SYNAugustine 847 ([SYNLawn](https://www.synlawn.com/wp-content/uploads/2025/02/SYNLawn-SYNAugustine-847-S847B-USA.pdf)) | Sport green, apple, olive | Field green, beige | Biomimetic U |
 | Majestic, TigerTurf ([Synthetic Grass Warehouse](https://syntheticgrasswarehouse.com/product/tigerturf/majestic/)) | Field green, lime green, tan | Green and tan | 3D curvy W and oval |
 
-A sheet with one blade color and no thatch color is the carpet look on paper. Tan down in the pile is there on purpose; pale, brittle blade tips are a different problem, covered in [does artificial turf fade](/guides/does-artificial-turf-fade/).
+A sheet with one blade color and no thatch color is the carpet look on paper. Tan down in the pile is there on purpose; pale, brittle blade tips are a different problem.
 
 ## Which greens fit a Northern Colorado lawn?
 

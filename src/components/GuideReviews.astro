@@ -1,0 +1,35 @@
+---
+/**
+ * GuideReviews: a guide's `reviews` (up to two src/data/reviews.ts QUOTES ids) as quote cards inside the reading
+ * column. Brian's customers, verbatim, first name and last initial, each linked to the Google listing; no stars, no
+ * count and no review markup (the Reviews rule). Picked only where the words speak to the guide's subject: they are
+ * the first-hand part beside the research, like GuidePhotos (the guide gate in scripts/check-content.mjs).
+ */
+import Icon from './Icon.astro';
+import { QUOTES, GOOGLE_URL } from '../data/reviews';
+interface Props { ids: string[] }
+const quotes = Astro.props.ids.map((i) => QUOTES[i]).filter(Boolean);
+---
+{GOOGLE_URL && quotes.length > 0 && (
+  <ul class="grv" role="list">
+    {quotes.map((q) => (
+      <li class="grv__card">
+        <svg class="grv__mark" viewBox="0 0 32 24" aria-hidden="true"><path d="M0 24V14C0 6 4.5 1.3 12 0l1.3 3.4C8.7 5 6.8 8 6.6 11.5H13V24Zm19 0V14c0-8 4.5-12.7 12-14l1 3.4c-4.6 1.6-6.5 4.6-6.7 8.1H32V24Z" /></svg>
+        <blockquote class="grv__q"><p>{q.text}</p></blockquote>
+        <p class="grv__by"><strong>{q.name}</strong><span>{q.job} · <a href={GOOGLE_URL} rel="noopener" data-cta="guide-review">Google review <Icon name="external" size={13} /></a></span></p>
+      </li>
+    ))}
+  </ul>
+)}
+
+<style>
+  .grv { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: clamp(14px, 2vw, 22px); }
+  .grv__card { display: grid; grid-template-rows: auto 1fr auto; gap: 14px; padding: clamp(20px, 2.4vw, 28px); border-radius: var(--r-panel); background: var(--ground-2); }
+  .grv__mark { width: 26px; height: 20px; fill: var(--paint); }
+  .grv__q { margin: 0; }
+  .grv__q p { margin: 0; font-size: 1.05rem; line-height: 1.5; color: var(--ink); }
+  .grv__by { margin: 0; display: grid; gap: 2px; padding-top: 12px; border-top: 1px solid var(--line); }
+  .grv__by strong { font-family: var(--font-display); font-weight: 720; }
+  .grv__by span { font-size: 0.9rem; color: var(--ink-2); }
+  .grv__by a { color: inherit; display: inline-flex; align-items: center; gap: 4px; min-height: 44px; text-decoration-color: var(--paint); }
+</style>

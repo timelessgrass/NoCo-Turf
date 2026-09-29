@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: comparisons
 kind: comparison
 title: "Artificial Turf vs Sod in Northern Colorado | NoCo Turf Co."
@@ -25,7 +25,7 @@ faq:
   - q: "Should I resod the whole yard or fix the thin spots?"
     a: "If the soil is sound and the lawn is only thin, CSU Extension describes a partial renovation instead: core aerate thoroughly, overseed, and keep the seed moist while it sprouts. It calls September a good time to overseed along the Front Range. If the same spots thin out every summer, find the cause (shade, traffic, dogs, packed clay) before you buy seed or sod."
   - q: "If I choose turf and change my mind, can I go back to grass?"
-    a: "Yes, but it is a project: the turf and the base under it come out, and the soil is prepared as for any new lawn, under the same watering rules. Our guide to replacing artificial turf with grass covers it."
+    a: "Yes, but it is a project: the turf and the base under it come out, and the soil is prepared as for any new lawn, under the same watering rules."
 layerRefs:
   - artificial-turf-vs-sod.csu-sod-rooting
   - artificial-turf-vs-sod.csu-sod-soil-prep
@@ -155,6 +155,11 @@ related:
     - firestone-co
     - wellington-co
     - timnath-co
+photos:
+  - side-yard
+  - gbp-side-patio
+reviews:
+  - kirk
 needsFromBrian:
   - "Why the lawns you replace failed, in your own words: dogs, shade, packed clay, a new-build lot sodded over builder fill, or plain wear. And how old those lawns usually are when the owner calls."
   - "Jobs where you told a homeowner to keep the grass or lay sod instead of turf, and why (a big tree, a sunny play lawn, a front-yard rule). The page's sod list should come from your calls, not only from CSU."
@@ -211,7 +216,7 @@ CSU's own note on artificial turf is even-handed: it needs no mowing, fertilizin
 
 ## When is new sod the better call?
 
-- **A big tree shares the lawn.** CSU says that in clay soil half of a tree's roots often grow in the top 4 inches, along the surface of the lawn ([PlantTalk Colorado 1507](https://planttalk.colostate.edu/topics/lawns/1507-tree-roots/)), and it says those roots share the lawn's water ([Lawn Care Basics](https://extension.colostate.edu/resource/lawn-care-basics/)). Take the sprinklers away and the tree needs its own. Read [turf around trees](/guides/artificial-turf-around-trees/) and [watering trees after the lawn becomes turf](/guides/watering-trees-with-artificial-turf/) first.
+- **A big tree shares the lawn.** CSU says that in clay soil half of a tree's roots often grow in the top 4 inches, along the surface of the lawn ([PlantTalk Colorado 1507](https://planttalk.colostate.edu/topics/lawns/1507-tree-roots/)), and it says those roots share the lawn's water ([Lawn Care Basics](https://extension.colostate.edu/resource/lawn-care-basics/)). Take the sprinklers away and the tree needs its own. Read [watering trees after the lawn becomes turf](/guides/watering-trees-with-artificial-turf/) first.
 - **A sunny lawn where kids play barefoot.** CSU says turf lacks the cooling effect of a living lawn and becomes quite warm on a sunny day, and Greeley's NOAA station averages 58.3 days a year at or above 90°F. Our guide to [how hot turf gets here](/guides/how-hot-does-artificial-turf-get/) covers what cools it down.
 - **A front yard your town or HOA wants living.** Greeley prohibits artificial turf in the front yards of houses. Firestone requires live plants on 75% of a single-family front yard, and turf doesn't count toward it. Wellington requires 75% live materials in front of houses on new subdivision lots. In Timnath, the December 2025 code says no artificial turf may be installed outside an athletic field; it depends on how the Town applies that to your lot, so ask Timnath Planning. Colorado law stops an HOA from banning turf in the backyard of a detached home, not in the front ([C.R.S. 38-33.3-106.5, SB23-178](https://leg.colorado.gov/bill_files/92307/download); not legal advice). Every town is in our [turf rules guide](/guides/turf-rules-northern-colorado/).
 - **You want grass and don't mind the work.** CSU calls bluegrass the standard home lawn for its color and "its high tolerance for wear" ([CSU Extension](https://extension.colostate.edu/resource/water-wise-landscape-design-selecting-turf-options/)). If you want grass on less water, compare [low-water grasses with turf](/guides/artificial-turf-vs-low-water-grass/).
@@ -223,7 +228,7 @@ Shade is not a clean win for either. CSU says grass does better in sun, that som
 - **Traffic wears the grass out faster than it heals.** That is the case CSU itself calls legitimate. If the traffic is dogs, read [turf or grass for dogs](/guides/artificial-turf-vs-grass-for-dogs/).
 - **The spot is hard to water or mow:** a narrow [side yard](/guides/artificial-turf-side-yard/), a [slope](/guides/artificial-turf-on-a-slope/), a strip along the fence.
 - **You are done mowing, feeding and aerating.** The table above is the list of what stops.
-- **The lawn is mud.** Check first whether that is a drainage problem turf won't solve: muddy backyards and turf.
+- **The lawn is mud.** Check first whether that is a drainage problem turf won't solve.
 
 ## Is artificial turf worth it over time?
 
@@ -233,7 +238,6 @@ It depends on numbers only your yard can supply. Work through these in order:
 2. **What does turf cost for this yard,** including the base work clay needs? Our [cost guide](/guides/artificial-turf-cost/) lists what moves a quote. Get a sod quote for the same area, with soil prep, so you compare like with like.
 3. **How long will the turf last** in your sun and traffic, and what happens at the end? See [how long turf lasts](/guides/how-long-does-artificial-turf-last/) and [getting rid of old turf](/guides/how-to-dispose-of-artificial-turf/).
 4. **Is anything on the sod list above true of your yard?** A big tree, a sunny play lawn or a front-yard rule outweighs the water math.
-5. **Would a lawn left to brown in July do?** Our guide to letting bluegrass go dormant weighs that option.
-6. **What goes wrong for people who switch?** Read [do people regret artificial turf?](/guides/do-people-regret-artificial-turf/) before you sign.
+5. **Would a lawn left to brown in July do?**
 
 If you get turf quotes, ask each installer how deep they dig on your soil, what base goes in, and where the water goes; a good answer names all three for your yard. Our list of [questions to ask a turf installer](/guides/questions-to-ask-turf-installer/) has the rest, and our [artificial turf installation](/services/artificial-turf-installation/) page describes the service.

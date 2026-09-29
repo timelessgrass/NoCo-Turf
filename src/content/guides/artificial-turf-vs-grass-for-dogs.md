@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: pets
 kind: comparison
 title: "Artificial Turf vs Grass for Dogs in Northern Colorado | NoCo Turf Co."
@@ -121,6 +121,11 @@ related:
     - johnstown-co
     - evans-co
     - greeley-co
+photos:
+  - gbp-dog-yard
+reviews:
+  - kirk
+  - kevin
 needsFromBrian:
   - "Before-and-after photos of dog yards you have turfed: the mud path along the fence, then the finished yard, with the town and the month each was taken."
   - "Your honest list, in your own words, of when you tell a dog owner to keep the grass or patch it instead of turfing."
@@ -150,7 +155,7 @@ Bluegrass does heal well. CSU lists "high recuperative potential" among its stre
 
 Turf takes away both lawn problems. Nothing dies, and the fence line has no grass to wear through to mud. It adds two chores in their place.
 
-**Urine has to leave.** It no longer soaks into living roots; it passes through the turf's backing into the base below. A turf manufacturer's care guide tells pet owners to hose down each spot where the dog urinates, which "washes it through the turf's drainage system" ([FieldTurf Landscape](https://fieldturflandscape.com/maintenance/artificial-turf-maintenance-guide/)), and to use an enzyme deodorizer about once or twice a month where odor persists. If a yard already smells, see [how to get the urine smell out](/guides/dog-urine-smell-artificial-turf/); for solids, [dogs pooping on turf](/guides/dog-poop-on-artificial-turf/); for what goes between the blades, [infill for dogs](/guides/dog-turf-infill/).
+**Urine has to leave.** It no longer soaks into living roots; it passes through the turf's backing into the base below. A turf manufacturer's care guide tells pet owners to hose down each spot where the dog urinates, which "washes it through the turf's drainage system" ([FieldTurf Landscape](https://fieldturflandscape.com/maintenance/artificial-turf-maintenance-guide/)), and to use an enzyme deodorizer about once or twice a month where odor persists. For solids, see [dogs pooping on turf](/guides/dog-poop-on-artificial-turf/); for what goes between the blades, [infill for dogs](/guides/dog-turf-infill/).
 
 **Heat.** Penn State's sports-surface researchers report that synthetic turf generally runs 35 to 55°F hotter than natural grass, which commonly measures 75 to 95°F on a hot day and very rarely tops 100°F ([Penn State](https://plantscience.psu.edu/research/centers/ssrc/documents/temperature.pdf/@@download/file/temperature.pdf)). Their figures come from sports fields, but the reason carries over to a yard: grass leaves release water vapor and cool themselves, and plastic blades don't. Surfaces get hot on sunny, clear, low-humidity afternoons, and hosing turf down helps only briefly: in Penn State's tests, temperatures rebounded 20 minutes after watering. The plains towns get more hot afternoons: the NOAA station at Greeley averages 58.3 days a year at or above 90°F, against 29.5 at Fort Collins. More in [how hot turf gets](/guides/how-hot-does-artificial-turf-get/) and [whether turf is safe for dogs and cats](/guides/is-artificial-turf-safe-for-pets/).
 

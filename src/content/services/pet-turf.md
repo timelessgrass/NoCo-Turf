@@ -104,3 +104,5 @@ What helps:
 
 **The turf itself.** Since January 1, 2026, Colorado law bars anyone from installing artificial turf that contains intentionally added PFAS chemicals. Ask for the product's documentation before you sign.
 
+More in [how HOA approval works](/guides/hoa-turf-approval/) and the [town-by-town turf rules](/guides/turf-rules-northern-colorado/).
+

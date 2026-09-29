@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: installation
 kind: guide
 title: "Artificial Turf Edging: Rock, Beds, Concrete, Lawn | NoCo Turf Co."
@@ -23,7 +23,7 @@ faq:
   - q: "Is wood edging a bad idea next to turf?"
     a: "Not always, but it has a lifespan. The Concrete Masonry & Hardscapes Association doesn't recommend timber to hold pavers because it warps and eventually rots. ForeverLawn picks pressure-treated boards because they resist degradation. If a board is quoted, ask whether it is pressure-treated wood or a plastic or composite board."
   - q: "What edge goes around a tree?"
-    a: "A ring of edging with a bed inside, handled like any other turf-to-bed edge. Firestone's code asks that turf placed under a tree's dripline not harm the tree, now or over its life. Our guide to artificial turf around trees covers the rest."
+    a: "A ring of edging with a bed inside, handled like any other turf-to-bed edge. Firestone's code asks that turf placed under a tree's dripline not harm the tree, now or over its life."
   - q: "My dog digs. Does that change the edge?"
     a: "Yes. K9Grass, ForeverLawn's pet-turf line, warns that turf held down only by spikes or the weight of its infill leaves edges a dog can pull up, and then the blades and spikes become things a dog can swallow. With a digger, skip the no-border edge and fasten to something solid. Our guide to dogs that dig at artificial turf covers the rest."
 layerRefs:
@@ -145,6 +145,12 @@ related:
     - loveland-co
     - berthoud-co
     - timnath-co
+photos:
+  - gbp-curved-border
+  - side-yard
+  - gbp-winding
+reviews:
+  - lanelle
 needsFromBrian:
   - "Your edge method for each kind of border (rock bed, planting bed, concrete walk, foundation, lawn, fence), with photos from real Northern Colorado jobs and the town each is in. The old site's bender-board preference stays off this page until you confirm it."
   - "The edging materials, stakes or rebar you use on clay, their lengths, and whether you have seen an edge heave or crack over a Northern Colorado winter (where, what material, how long after install)."
@@ -174,19 +180,19 @@ The no-border option: for a residential lawn, [ForeverLawn's installation guidel
 
 **Rock.** The border's first job is holding the rock back; [K-State Research and Extension](https://www.johnson.k-state.edu/programs/lawn-garden/agent-articles-fact-sheets-and-more/agent-articles/garden-maintenance-docs/All%20About%20Edging%20REV%202022.pdf) lists keeping pathway materials out of lawns among edging's jobs. ForeverLawn fills stone up to the edge but not above the yard's finish grade, so rock heaped higher than the border spills across it.
 
-**Planting beds.** Beds bring soil, mulch and water. K-State says a raised edge keeps soil and mulch from washing out in heavy rain, and Greenline frames turf with a board to protect it from soil and debris. Frost heave needs three things at once: a soil with many fine particles, freezing that reaches into it, and water ([Pavement Interactive](https://pavementinteractive.org/reference-desk/design/design-parameters/frost-action/)). A clay bed on drip or spray, right against the edge, supplies all three, so keep emitters and spray off the edge line. See [what happens to your sprinkler system](/guides/sprinkler-system-after-artificial-turf/) for rerouting zones, and [mixing turf, rock and plant beds](/guides/mixing-turf-rock-and-plant-beds/) for how much of the yard each should get.
+**Planting beds.** Beds bring soil, mulch and water. K-State says a raised edge keeps soil and mulch from washing out in heavy rain, and Greenline frames turf with a board to protect it from soil and debris. Frost heave needs three things at once: a soil with many fine particles, freezing that reaches into it, and water ([Pavement Interactive](https://pavementinteractive.org/reference-desk/design/design-parameters/frost-action/)). A clay bed on drip or spray, right against the edge, supplies all three, so keep emitters and spray off the edge line. See [mixing turf, rock and plant beds](/guides/mixing-turf-rock-and-plant-beds/) for how much of the yard each should get.
 
 ## What happens where turf meets concrete or pavers?
 
 **Existing concrete is the edge.** ForeverLawn cuts the turf from the back so it stops "just short (we're talking millimeters)" of the concrete. The base is set low: SYNLawn's [DIY guidelines](https://pdf.lowes.com/productdocuments/240a8581-4267-4cdf-aa5f-d4d1e250fec6/44269346.pdf) put it 1 to 1.5 inches below a walk or slab, depending on pile height, and ForeverLawn sets the backing 3/4 to 1 inch below a sidewalk's edge, on a board fixed to the concrete with concrete screws or wedge anchors. That leaves no raised lip at the walk.
 
-**Along the house,** the edge must not hold water against the foundation. The [Colorado Geological Survey](https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/) lists poor surface drainage near foundations among the landscaping problems on expansive clay. How the base sheds water is in [what happens to artificial turf when it rains](/guides/does-artificial-turf-drain/).
+**Along the house,** the edge must not hold water against the foundation. The [Colorado Geological Survey](https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/) lists poor surface drainage near foundations among the landscaping problems on expansive clay.
 
 **A paver border** makes a finished edge, but the pavers must be held in place themselves. The [Concrete Masonry & Hardscapes Association](https://www.cmha.org/resource/pav-tec-003/) says flat metal or plastic landscape edging around beds is not an acceptable paver restraint, soil backfill never is, and timber warps and eventually rots. So a paver border needs a real restraint of its own; the turf beside it and the soil behind it don't count. Turf strips between pavers are in [artificial turf between pavers](/guides/artificial-turf-between-pavers/).
 
 ## Where turf meets a lawn, what keeps the bluegrass out?
 
-A barrier in the soil and a mow strip on top. [CSU Extension](https://cmg.extension.colostate.edu/Gardennotes/561.pdf) says Kentucky bluegrass is sod-forming, with underground rhizomes, and will invade flower and vegetable gardens. [Penn State Extension](https://extension.psu.edu/the-cool-season-turfgrasses-basic-structures-growth-and-development) says those rhizomes grow beneath the surface, then turn up to form new shoots. One that slips under a shallow edge surfaces in the turf's perimeter as a weed; see [why weeds grow through artificial turf](/guides/weeds-growing-through-artificial-turf/).
+A barrier in the soil and a mow strip on top. [CSU Extension](https://cmg.extension.colostate.edu/Gardennotes/561.pdf) says Kentucky bluegrass is sod-forming, with underground rhizomes, and will invade flower and vegetable gardens. [Penn State Extension](https://extension.psu.edu/the-cool-season-turfgrasses-basic-structures-growth-and-development) says those rhizomes grow beneath the surface, then turn up to form new shoots. One that slips under a shallow edge surfaces in the turf's perimeter as a weed.
 
 - **A continuous barrier.** K-State says metal and hard plastic strips give an underground barrier. Its simplest bed edge, a trench 4 to 6 inches deep angled so roots cannot easily cross, needs re-cutting once or twice a season.
 - **A flush mow strip.** Pavers or brick set flush, or cement curbing, make a mowing strip that removes the need for a trimmer along that edge, K-State says. The mower wheel runs on the strip, not the turf.
@@ -196,7 +202,7 @@ CSU says buffalograss's aggressive stolons may invade neighboring lawns too. A d
 
 ## How do freeze-thaw and snow shovels test an edge here?
 
-The nearest NOAA station to Fort Collins averages 150 nights a year at or below freezing, and on about 135 of those days the air climbs back above freezing; the Longmont station averages about 178 freezing nights (1991–2020 normals). Clay is common: [Longmont](https://longmontcolorado.gov/water/water-conservation/conserving-water-outdoors/) says its clay soils absorb water slowly, and [Greeley's water department](https://greeleyco.gov/government/city-administration/city-departments/water-and-sewer/save-water/waterwise-landscapes) finds hard clay sometimes just inches down. Wet clay at an edge is the fine soil frost heave needs. What winter does to the turf itself is in [does artificial turf freeze](/guides/does-artificial-turf-freeze/).
+The nearest NOAA station to Fort Collins averages 150 nights a year at or below freezing, and on about 135 of those days the air climbs back above freezing; the Longmont station averages about 178 freezing nights (1991–2020 normals). Clay is common: [Longmont](https://longmontcolorado.gov/water/water-conservation/conserving-water-outdoors/) says its clay soils absorb water slowly, and [Greeley's water department](https://greeleyco.gov/government/city-administration/city-departments/water-and-sewer/save-water/waterwise-landscapes) finds hard clay sometimes just inches down. Wet clay at an edge is the fine soil frost heave needs.
 
 An edge that holds is anchored against that lift:
 
@@ -206,7 +212,7 @@ An edge that holds is anchored against that lift:
 
 None of that reaches below frost: Larimer County designs building footings for frost 30 inches down ([Larimer County](https://www.larimer.gov/sites/default/files/uploads/2022/structural_design_information.pdf)). The anchoring, and keeping the ground at the edge from staying wet, decide whether an edge stays put.
 
-Snow is the second test. Windsor asks residents to clear sidewalks within 24 hours of a storm and pile the snow in the yard ([Town of Windsor](https://www.windsorgov.com/Faq.aspx?QID=206)), so the turf edge along a walk takes the pile and any de-icer in it. A flush edge gives a plastic shovel nothing to catch; Sure-loc keeps the top of its edging no more than 1/2 inch above finish grade ([installation instructions](https://surelocedging.com/pdf/Alum_Edge_Install_Instructions.pdf)). Clearing technique is in [clearing snow off artificial turf](/guides/artificial-turf-snow-removal/).
+Snow is the second test. Windsor asks residents to clear sidewalks within 24 hours of a storm and pile the snow in the yard ([Town of Windsor](https://www.windsorgov.com/Faq.aspx?QID=206)), so the turf edge along a walk takes the pile and any de-icer in it. A flush edge gives a plastic shovel nothing to catch; Sure-loc keeps the top of its edging no more than 1/2 inch above finish grade ([installation instructions](https://surelocedging.com/pdf/Alum_Edge_Install_Instructions.pdf)).
 
 ## Can my town or HOA tell me what edging to use?
 

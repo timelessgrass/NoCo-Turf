@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: yard-design
 kind: guide
 title: "Artificial Turf for a Shady or North-Facing Yard | NoCo Turf Co."
@@ -18,15 +18,15 @@ answer:
   answer: "Often, yes. Turf needs no sun, and shade keeps it far cooler than turf in full sun. The trade-offs: a north-side strip holds snow and ice longest and dries slowest, and trees drop leaves, needles and sticky honeydew on it. Plan the drainage, downspouts and cleanup. In light shade, fine fescue is the grass worth trying first."
 faq:
   - q: "Will artificial turf fade more slowly in the shade?"
-    a: "Probably. A 2020 review of turf-fiber breakdown from NTNU says UV radiation combined with surface heating is believed to be the most damaging cause, and shade cuts both. How Northern Colorado's high-altitude sun ages turf in the open is covered in [does artificial turf fade](/guides/does-artificial-turf-fade/)."
+    a: "Probably. A 2020 review of turf-fiber breakdown from NTNU says UV radiation combined with surface heating is believed to be the most damaging cause, and shade cuts both."
   - q: "Should I trim the tree so the turf or the grass gets more sun?"
-    a: "Where you can, it helps either one. FieldTurf's care guide suggests trimming overhanging branches to let more sun reach damp, shaded turf where moss shows up, and more light is exactly what a shade grass is short of. Keep the turf and its base well back from the trunk; our guide to [turf around trees](/guides/artificial-turf-around-trees/) explains why."
+    a: "Where you can, it helps either one. FieldTurf's care guide suggests trimming overhanging branches to let more sun reach damp, shaded turf where moss shows up, and more light is exactly what a shade grass is short of. Keep the turf and its base well back from the trunk."
   - q: "Should I shovel snow off a shaded strip of turf?"
-    a: "Only where you need a path, such as to the dog's spot. SIS Pitches, which builds synthetic sports surfaces, says snow and ice are not harmful to synthetic grass and should generally be left to melt and drain off. How to clear a path without damage is in [clearing snow off artificial turf](/guides/artificial-turf-snow-removal/)."
+    a: "Only where you need a path, such as to the dog's spot. SIS Pitches, which builds synthetic sports surfaces, says snow and ice are not harmful to synthetic grass and should generally be left to melt and drain off."
   - q: "Can I use turf in the shade and grass in the sun?"
     a: "Yes, and CSU's advice points that way: no grass species is perfect for all situations, and the first step is picking one for the lawn's use and the site. One way to split it: turf where the shade and the foot traffic are, and grass, rock or planting beds where the sun is. Our guide to [mixing turf, rock and plant beds](/guides/mixing-turf-rock-and-plant-beds/) covers the layout."
   - q: "Is a shady corner a good place for a putting green?"
-    a: "It's a risky one. Synthetic Grass Warehouse's installer column says most putting green turf has no drainage holes in its backing, so moisture stays in the fibers, and that most mossy greens its author has seen were installed in shade. If the shady corner is the only spot, plan how water leaves it; see [putting green maintenance](/guides/artificial-putting-green-maintenance/) and our [putting greens](/services/putting-greens/) page."
+    a: "It's a risky one. Synthetic Grass Warehouse's installer column says most putting green turf has no drainage holes in its backing, so moisture stays in the fibers, and that most mossy greens its author has seen were installed in shade. If the shady corner is the only spot, plan how water leaves it; see our [putting greens](/services/putting-greens/) page."
 layerRefs:
   - artificial-turf-shady-north-facing-yard.pt1521-bluegrass-sun-or-shade
   - artificial-turf-shady-north-facing-yard.gn561-shade-by-species
@@ -161,6 +161,8 @@ related:
     - greeley-co
     - firestone-co
     - wellington-co
+photos:
+  - gbp-hot-tub
 needsFromBrian:
   - "Shady and north-side yards you have turfed: the town, which side of the house, what cast the shade (house, fence, spruce, linden, cottonwood), and how each held up through its first winter. Photos of the same spot in July and in January would anchor the page."
   - "What you change on a shady or north-side install, in your own words: slope, drainage, where the downspouts go, infill choice, how far you stop from trees. Until you confirm it, the page only says what to ask an installer."
@@ -214,7 +216,7 @@ Snow and ice stay there longest.
 - **Aspect.** In a Front Range foothills catchment, USGS-led researchers found north-facing slopes hold a seasonal snowpack while south-facing slopes get snow that comes and goes through winter and spring ([USGS](https://pubs.usgs.gov/publication/70208439)). A north-side yard is the same effect, small.
 - **Freezing nights.** The Longmont 2 ESE station, nearest [Longmont](/areas/longmont-co/), averages 177.7 nights a year at or below 32°F, and the Fort Collins station 150. Meltwater running onto the shaded strip has plenty of nights to freeze.
 
-Plan for the ice more than the snow. Send downspouts past the turf, and be wary of a water-holding infill in a strip that dries slowly: a turf-field engineer notes that organic infills hold moisture and can be prone to freezing ([Gale Associates](https://galeassociates.com/wp-content/uploads/2019/02/Alternative-Infills-for-Synthetic-Turf-Fields-JMP.pdf)). More in [does artificial turf freeze](/guides/does-artificial-turf-freeze/) and [turf infill types](/guides/artificial-turf-infill-types/).
+Plan for the ice more than the snow. Send downspouts past the turf, and be wary of a water-holding infill in a strip that dries slowly: a turf-field engineer notes that organic infills hold moisture and can be prone to freezing ([Gale Associates](https://galeassociates.com/wp-content/uploads/2019/02/Alternative-Infills-for-Synthetic-Turf-Fields-JMP.pdf)). More in [turf infill types](/guides/artificial-turf-infill-types/).
 
 ## What do the trees overhead drop on the turf?
 
@@ -222,12 +224,12 @@ The tree that makes the shade also makes the mess. CSU notes that artificial tur
 
 - **Leaves, seeds and twigs.** Tools and timing are in [clearing leaves off turf](/guides/leaves-on-artificial-turf/).
 - **Needles.** Evergreens shade all year, and CSU says Front Range pines, spruces and firs often drop needles heavily ([PlantTalk Colorado 1760](https://planttalk.colostate.edu/topics/trees-shrubs-vines/1760-excessive-fall-needle-drop/)).
-- **Honeydew.** Aphids feeding in a tree excrete a sticky waste that may coat "anything that lies beneath an infested plant," CSU says. Sooty mold grows on it, and it draws ants, yellowjackets, flies and bees; CSU's example is a walkway under an aphid-infested linden ([CSU Extension](https://extension.colostate.edu/resource/aphids-on-shade-trees-and-ornamentals/)). Which cleaners are safe to rinse off is in [how to clean artificial turf](/guides/how-to-clean-artificial-turf/).
-- **Roots.** Where turf meets a tree, the dig matters more than the shade; see [turf around trees](/guides/artificial-turf-around-trees/).
+- **Honeydew.** Aphids feeding in a tree excrete a sticky waste that may coat "anything that lies beneath an infested plant," CSU says. Sooty mold grows on it, and it draws ants, yellowjackets, flies and bees; CSU's example is a walkway under an aphid-infested linden ([CSU Extension](https://extension.colostate.edu/resource/aphids-on-shade-trees-and-ornamentals/)).
+- **Roots.** Where turf meets a tree, the dig matters more than the shade.
 
 ## Will a shady spot grow moss or turn slick?
 
-Where shade and water meet, it can. The Synthetic Turf Council says moss, mold or algae may appear "particularly if it is in shade and damp," and TigerTurf, a turf maker, tells homeowners to check for moss or algae especially in damp weather and in shaded areas ([TigerTurf](https://tigerturf.com/us/maintaining-your-synthetic-grass-lawn/)). In Northern Colorado's dry air, shade alone rarely does it; a shaded spot that holds old leaves and gets steady water does. The slick spot most north-side yards actually get is winter ice. What the growth is and how to get it off: [mold and moss on artificial turf](/guides/does-artificial-turf-get-moldy/).
+Where shade and water meet, it can. The Synthetic Turf Council says moss, mold or algae may appear "particularly if it is in shade and damp," and TigerTurf, a turf maker, tells homeowners to check for moss or algae especially in damp weather and in shaded areas ([TigerTurf](https://tigerturf.com/us/maintaining-your-synthetic-grass-lawn/)). In Northern Colorado's dry air, shade alone rarely does it; a shaded spot that holds old leaves and gets steady water does. The slick spot most north-side yards actually get is winter ice.
 
 ## What should a turf plan for a shady spot include?
 
@@ -242,4 +244,4 @@ Ask the installer, and listen for answers about this spot rather than the yard i
 | How far back from the trunk does the turf stop? | A mulched ring sized to the tree, not turf to the bark. |
 | How will leaves and needles come off? | Edges that hold up to a blower, and a way to reach every corner. |
 
-For the sprinkler question, see [what happens to the sprinkler system](/guides/sprinkler-system-after-artificial-turf/). The installation steps themselves are on our [artificial turf installation](/services/artificial-turf-installation/) page.
+The installation steps are on our [artificial turf installation](/services/artificial-turf-installation/) page.

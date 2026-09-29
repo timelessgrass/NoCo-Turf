@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: putting-greens
 kind: guide
 title: "Backyard Putting and Chipping Green Layout | NoCo Turf Co."
@@ -125,6 +125,12 @@ related:
   services:
     - putting-greens
   towns: []
+photos:
+  - gbp-chipping-path
+  - gbp-green-bunker
+  - gbp-green-flag
+reviews:
+  - tamara
 needsFromBrian:
   - "Whether the greens you build are set up for chipping, and how: sand-filled or nylon on a pad, which fringe and rough turf, and how wide the fringe runs on the chipping side. Photos of a Northern Colorado green with its fringe, rough and chipping spot."
   - "A finished green a buyer could hit chips on (no address on the page), so this page can tell readers to ask for one and mean it."
@@ -139,7 +145,7 @@ A backyard green can take a chip, but the putting surface is only one part of a 
 
 It holds when something under the ball absorbs the landing. On a sand-filled green that is the sand packed between the fibers and rolled firm; Southwest Greens says it rolls its finished greens to simulate the response of a bent grass green. On SYNLawn Golf's nylon greens it is a pad under the turf, an underlayment called TrueStop that SYNLawn says gives "accurate bounce, check, and roll."
 
-Which of the two holds better depends on whom you ask. [Southwest Greens](https://www.southwestgreens.com/about-us/faqs), which builds sand-filled greens, says a ball won't bounce or flutter on its greens the way it does on nylon. [SYNLawn Golf](https://www.synlawngolf.com/the-nylon-advantage/), which sells nylon, says a chip slows abruptly on a sand-filled polypropylene green. Neither publishes a test method, so chip onto a finished green of the same system before you choose. The two systems are compared in our [guide to sand-filled and non-infilled putting greens](/guides/sand-filled-vs-non-infilled-putting-green/).
+Which of the two holds better depends on whom you ask. [Southwest Greens](https://www.southwestgreens.com/about-us/faqs), which builds sand-filled greens, says a ball won't bounce or flutter on its greens the way it does on nylon. [SYNLawn Golf](https://www.synlawngolf.com/the-nylon-advantage/), which sells nylon, says a chip slows abruptly on a sand-filled polypropylene green. Neither publishes a test method, so chip onto a finished green of the same system before you choose.
 
 Expect the response to drift over time, too. SYNLawn, a competitor of sand-filled greens, says the sand in them gets harder the longer the green is used, and a harder surface lets a chip release further. Keeping the infill even is part of [putting green maintenance](/guides/artificial-putting-green-maintenance/), and winter changes things again, as below.
 
@@ -171,7 +177,7 @@ Every chip from your usual spot lands in roughly the same few square feet of gre
 - **Water gets in from the side.** Synthetic Grass Warehouse's columnist says runoff from outside a green often seeps in below it and causes settling and depressions. The column lists frost heave, poor compaction, leaky irrigation and poor subsurface soil among the reasons greens fail, and recommends a compacted rock base at least 6 inches deep, shaped on top with finer 3/8-inch minus.
 - **The base has to be firm and even before the turf goes on.** PolyTurf's manual says ground that moves under turf creates "humps and valleys," and Shaw's installation guidelines call for compacting to 95% or more so the base is smooth and firm, with no bumps under the turf.
 
-On a quote, that means asking how deep the base goes on your soil, how it is compacted, and where water from sprinklers, downspouts and the rest of the yard goes instead of under the landing area. Our guides to [what base goes under turf](/guides/what-base-goes-under-artificial-turf/) and [turf on clay soil](/guides/artificial-turf-on-clay-soil/) cover the base itself. If a dip has already formed, see [sinking and low spots](/guides/artificial-turf-sinking-low-spots/); for contours, see [a putting green on a slope](/guides/putting-green-on-a-slope/).
+On a quote, that means asking how deep the base goes on your soil, how it is compacted, and where water from sprinklers, downspouts and the rest of the yard goes instead of under the landing area. For contours, see [a putting green on a slope](/guides/putting-green-on-a-slope/).
 
 ## Do chips play differently in a Northern Colorado winter?
 
@@ -182,8 +188,6 @@ What that likely means on a green, as an inference rather than a measured test: 
 - **Chip on thawed afternoons if you want practice that matches summer.** SIS also says frozen fibre is relatively brittle, so go easy on a green that is still frozen.
 - **Watch for standing water after a thaw.** SIS says rain or a quick thaw can flood frozen turf, because the sand in the infill is still frozen; it drains once the infill thaws.
 - **Check the landing area in spring.** Synthetic Grass Warehouse recommends replenishing infill and rolling putting greens in spring after snow and winter weather. Frost heave is on its list of how greens fail, so spring is also when new humps show.
-
-For what winter does to turf and base in general, see [does artificial turf freeze?](/guides/does-artificial-turf-freeze/)
 
 ## What should I ask an installer about a chipping green?
 

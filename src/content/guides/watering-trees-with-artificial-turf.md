@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: water
 kind: guide
 title: "Watering Trees After Artificial Turf Goes In | NoCo Turf Co."
@@ -148,6 +148,8 @@ related:
     - milliken-co
     - firestone-co
     - longmont-co
+photos:
+  - gbp-hot-tub
 needsFromBrian:
   - "Whether you run tree drip under the turf, keep it in an open ring or bed beside it, or both, and why, in your words, with a photo (town and month) of a tree ring you have built."
   - "What you tell customers about watering trees in winter once the lawn zones are off: hose on the turf, how often, and which trees you worry about most."
@@ -160,7 +162,7 @@ A tree in a lawn drinks the lawn's water. When the grass becomes artificial turf
 
 ## Why do trees in a new turf yard suddenly need their own water?
 
-Because the sprinklers were watering them too. CSU Extension's GardenNotes #657 says a lawn sprinkler system is an easy way to water mature trees in or near a lawn, since the grass and the tree roots share one rooting area ([GardenNotes #657](https://cmg.extension.colostate.edu/Gardennotes/657.pdf)). On clay, 90–95% of a tree's roots sit in the top 12 inches; what digging a turf base does to them is in [artificial turf around trees](/guides/artificial-turf-around-trees/).
+Because the sprinklers were watering them too. CSU Extension's GardenNotes #657 says a lawn sprinkler system is an easy way to water mature trees in or near a lawn, since the grass and the tree roots share one rooting area ([GardenNotes #657](https://cmg.extension.colostate.edu/Gardennotes/657.pdf)). On clay, 90–95% of a tree's roots sit in the top 12 inches.
 
 Take that water away at once and the tree is in drought. Utah State University Extension says yellowing can show the first season after the lawn's irrigation stops, and crown dieback within two to three years ([USU Extension](https://extension.usu.edu/cwel/research/preserving-trees-during-and-after-lawn-removal)). A turf distributor's guidance for installers says trees inside a turf area must keep getting irrigation or they will be stressed and die ([Synthetic Grass Warehouse](https://syntheticgrasswarehouse.com/blog/irrigation/)).
 
@@ -181,7 +183,7 @@ The Synthetic Turf Council says permeable turf systems are typically designed to
 
 ## How do you set up a drip ring and a tree zone?
 
-Give the trees a zone of their own. The sprinklers-to-dripline guide the City of Longmont posts says tree drip lines must be on their own zone, because tree zones run much longer than beds of perennials and shrubs ([Longmont guide](https://longmontcolorado.gov/wp-content/uploads/2025/12/4-Transition-your-Irrigation-ada.pdf)). Converting an old lawn zone is covered in [your sprinkler system after turf](/guides/sprinkler-system-after-artificial-turf/).
+Give the trees a zone of their own. The sprinklers-to-dripline guide the City of Longmont posts says tree drip lines must be on their own zone, because tree zones run much longer than beds of perennials and shrubs ([Longmont guide](https://longmontcolorado.gov/wp-content/uploads/2025/12/4-Transition-your-Irrigation-ada.pdf)).
 
 Then lay the ring:
 

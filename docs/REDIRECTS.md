@@ -275,9 +275,9 @@ as below (still one hop), update this table, and run the test.
 
 **Applied at launch, 2026-09-29:** `/turf-supply/` (every store line → installation; the putting-green, pet-friendly and
 commercial categories → their service), `/services/turf-repair/` (`/maintenance-services/` → installation, moved into
-installation's `legacy`), `/guides/artificial-turf-cost/` → installation, and the old blog posts whose guides aren't
-live (pet safety → pet turf; cleaning, concrete, lifespan, heat, materials → installation). Point each back when its
-page ships.
+installation's `legacy`), and the old blog posts whose guides aren't live (cleaning, concrete, materials → installation). Point each back when
+its page ships. The cost, pet-safety, lifespan and heat posts went back to their guides the same day, once those
+guides were live.
 
 | Target | Ships when | If it doesn't ship, repoint to |
 |---|---|---|

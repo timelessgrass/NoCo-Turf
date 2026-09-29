@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: putting-greens
 kind: guide
 title: "Backyard Putting Green Cost: What Moves the Price | NoCo Turf Co."
@@ -137,6 +137,13 @@ related:
     - firestone-co
     - windsor-co
     - berthoud-co
+photos:
+  - gbp-green-contours
+  - gbp-green-bunker
+  - dusk
+reviews:
+  - corbin
+  - johnny
 needsFromBrian:
   - "Whether to publish price bands for greens by size (for example under 400, around 500 and over 1,000 square feet), with your name and the date, per claims.json \"Published price bands\". Until then this page stays numberless on NoCo pricing."
   - "From your Windsor and Berthoud greens: which features added the most to the final price (depth of base, shaped break, number of cups, fringe and rough cuts, chipping area, access), in your own ranking."
@@ -172,11 +179,11 @@ What that difference means for 500 square feet, worked from published rules of t
 
 Inputs: SYNLawn's 1 ton of rock per 100 square feet at 3 inches, 13 to 16 barrow loads a ton and its lawn infill rate; Motz's 2 to 4 pounds of infill per square foot for a recreational green and 5 to 7 for a professional-style one.
 
-What goes under turf on clay is in our guides to [artificial turf on clay soil](/guides/artificial-turf-on-clay-soil/) and [what base goes under artificial turf](/guides/what-base-goes-under-artificial-turf/). How much tilt a green can carry is in [putting green on a slope](/guides/putting-green-on-a-slope/).
+How much tilt a green can carry is in [putting green on a slope](/guides/putting-green-on-a-slope/).
 
 ## Which surface, fringe and extras add the most?
 
-- **The putting surface.** Motz says the type of turf is often the biggest cost difference after the level of detail, and that nylon, which resists abrasion better than polypropylene, costs more. A professional-style, sand-filled green also takes more infill (see the table) and more install work: SGW's columnist says its all-infill True Putt, which holds a shot from 100 yards, is more complex to install. Our [comparison of sand-filled and non-infilled greens](/guides/sand-filled-vs-non-infilled-putting-green/) weighs the two.
+- **The putting surface.** Motz says the type of turf is often the biggest cost difference after the level of detail, and that nylon, which resists abrasion better than polypropylene, costs more. A professional-style, sand-filled green also takes more infill (see the table) and more install work: SGW's columnist says its all-infill True Putt, which holds a shot from 100 yards, is more complex to install.
 - **Fringe and rough.** Tour Greens, a putting green maker, says many owners add several cuts of fringe and fairway turf so they can practice every kind of shot ([Tour Greens](https://www.tourgreens.com/backyard-putting-green-cost.html)).
 - **A chipping area.** A green that has to hold chips asks more of the surface; see [chipping onto an artificial putting green](/guides/chipping-onto-artificial-putting-green/).
 - **Bunkers, creeks and lights.** Tour Greens says features such as bunkers, tee boxes, dry creeks and water hazards may not change what the green costs but do change what the project costs. Lighting and layout ideas are in our guides to [putting green lighting](/guides/putting-green-lighting/) and [putting green design](/guides/putting-green-design-ideas/).
@@ -185,7 +192,7 @@ What goes under turf on clay is in our guides to [artificial turf on clay soil](
 
 Tour Greens says costs rise when machines can't reach the space and the crew works with wheelbarrows and small equipment, and that significant grading, retaining walls or other landscaping to prepare and finish the ground have a major effect on price. In the table, a green with no machine access means 130 to 160 barrow loads of rock going in, with the dug soil going out the same way.
 
-Then the soil has to go somewhere. Larimer County's 2026 fee schedule, which covers its landfills and transfer station, prices dirt and sod as rubble at $40 a cubic yard plus the state surcharge ([Larimer County](https://www.larimer.gov/solidwaste/fees)). Other routes for an old lawn are in our guide to [turf over grass or dirt](/guides/can-you-put-artificial-turf-over-grass-or-dirt/).
+Then the soil has to go somewhere. Larimer County's 2026 fee schedule, which covers its landfills and transfer station, prices dirt and sod as rubble at $40 a cubic yard plus the state surcharge ([Larimer County](https://www.larimer.gov/solidwaste/fees)).
 
 Golf communities add their own site rules. Heron Lakes in Berthoud makes landscape contractors reach a lot from the front only, bars dumping excavated soil or materials in the street or on a neighbor's lot, and allows no outside construction during the week of the golf tournament, normally held in July ([Heron Lakes rules](https://www.berthoudheritagemd.live/s/Heron-Lakes-Design-Rules-and-Regulations-June-1-2026.pdf)). Those rules shape where rock is staged and when the dig can happen.
 
@@ -202,9 +209,9 @@ Mostly time, plus a few fees:
 
 ## Is a kit a cheaper way in, and what does a green take to keep up?
 
-A kit skips the base, which is both its saving and its limit. Tour Greens sells DIY kits on interlocking base panels, from about 200 to 500 square feet, and SYNLawn Golf's GreenMaker kits sit on foam panels on any flat surface ([SYNLawn Golf](https://www.synlawngolf.com/products/)). In a Northern Colorado backyard, a flat surface means a patio, a slab or a base someone builds first. See [DIY or professional installation](/guides/diy-artificial-turf-vs-professional/) and the [indoor putting green guide](/guides/indoor-putting-green-for-home/).
+A kit skips the base, which is both its saving and its limit. Tour Greens sells DIY kits on interlocking base panels, from about 200 to 500 square feet, and SYNLawn Golf's GreenMaker kits sit on foam panels on any flat surface ([SYNLawn Golf](https://www.synlawngolf.com/products/)). In a Northern Colorado backyard, a flat surface means a patio, a slab or a base someone builds first. See [DIY or professional installation](/guides/diy-artificial-turf-vs-professional/).
 
-Upkeep follows the surface you chose. Motz says a recreational green's crimped fibers need no routine rolling, while a professional-level green needs more grooming, brushing and leveling of its infill over time. The season-by-season routine is in our [putting green maintenance guide](/guides/artificial-putting-green-maintenance/).
+Upkeep follows the surface you chose. Motz says a recreational green's crimped fibers need no routine rolling, while a professional-level green needs more grooming, brushing and leveling of its infill over time.
 
 ## What should a putting green quote spell out?
 

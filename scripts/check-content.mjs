@@ -164,6 +164,19 @@ export const PLACEHOLDERS = [
   [/unsplash\.com/i, 'unsplash.com'], [/LandscapeService/, 'LandscapeService'], [/\bTODO\b|\bTBD\b|\bFIXME\b|\bXXX\b/, 'TODO/TBD'],
 ];
 
+/** Guides the 2026-09-28 doorway review rated clear on original local research: the town-by-town rules survey, the HOA
+ *  packet and letter, the rebate survey, the water-rate dataset and calculator, and local-research guides (fire code,
+ *  septic, disposal, xeriscape definitions, front-yard codes, watering rules, NOAA hail counts, sale records). Their
+ *  research is the part no one else publishes, so they go live without a job photo or quote. Every other guide needs
+ *  Brian's first-hand material (Ty, 2026-09-29: "unblock what blocks them with what you have"). Adding a guide here
+ *  takes the same review, never a self-declared flag. */
+const RESEARCH_CLEARED = new Set([
+  'turf-rules-northern-colorado', 'hoa-turf-approval', 'turf-rebates-northern-colorado', 'water-savings',
+  'is-artificial-turf-flammable', 'artificial-turf-over-septic-field', 'how-to-dispose-of-artificial-turf',
+  'is-artificial-turf-considered-xeriscape', 'front-yard-artificial-turf-ideas', 'do-you-have-to-water-artificial-turf',
+  'does-hail-damage-artificial-turf', 'does-artificial-turf-increase-home-value',
+]);
+
 /** Claims about the business. Each renders only with an approved claims.json entry behind it. */
 export const CLAIMS = [
   /\blicen[sc]ed\b/i, /\binsured\b/i, /\bbonded\b/i, /\bcertified\b/i, /\bwarrant(?:y|ies|eed)\b/i, /\bguarantee[ds]?\b/i,
@@ -695,6 +708,8 @@ export async function run({ root = REPO, files = [], log = console.log } = {}) {
       community: m[2].match(/\bcommunity:\s*'([^']*)'/)?.[1],
     }]));
   const guideIds = new Set(listDir(path.join(content, 'guides'), '.md').map((f) => path.basename(f, '.md')));
+  /** src/data/reviews.ts QUOTES ids, read as text (the file imports the brief). */
+  const quoteIds = new Set([...read(path.join(REPO, 'src/data/reviews.ts')).matchAll(/^\s{2}([a-z]+): \{ text: /gm)].map((m) => m[1]));
 
   // The town gate's evidence (src/lib/local-proof.mjs): the towns Brian has confirmed in his own words.
   let served = new Set();
@@ -965,8 +980,9 @@ export async function run({ root = REPO, files = [], log = console.log } = {}) {
       // The guide gate (2026-09-28 doorway review): 109 guides drafted at once read as scaled content unless each
       // one that goes live carries something first-hand. A published guide needs at least one of Brian's own job
       // photos, and may point only at services he has confirmed. His open questions stay listed after it ships.
+      for (const r of d.reviews ?? []) if (!quoteIds.has(r)) out.push(['FAIL', `reviews: "${r}" is not a quote id in src/data/reviews.ts`]);
       if (published) {
-        if (!(d.photos ?? []).some((ph) => photoIds.has(ph))) out.push(['FAIL', 'published with no job photo of Brian\'s — a guide goes live with at least one photos.ts id in `photos`, first-hand proof beside the research (its needsFromBrian list says what to ask him)']);
+        if (!RESEARCH_CLEARED.has(id) && !(d.photos ?? []).some((ph) => photoIds.has(ph)) && !(d.reviews ?? []).some((r) => quoteIds.has(r))) out.push(['FAIL', 'published with nothing first-hand — a guide goes live with at least one of Brian\'s job photos (`photos`) or an approved customer quote (`reviews`) that speaks to its subject (its needsFromBrian list says what to ask him)']);
         for (const sv of d.related?.services ?? []) if (serviceSlugs.has(sv) && serviceConfirmed.get(sv) !== true) out.push(['FAIL', `published, but its related service ${sv} is not confirmed in src/data/services.ts — a guide goes live only about work NoCo confirms it does`]);
       }
       if ((d.needsFromBrian ?? []).length) out.push(['WARN', `${published ? 'published with open questions for Brian' : 'needs from Brian'}: ${d.needsFromBrian.join(' | ')}`]);

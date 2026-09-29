@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: safety
 kind: guide
 title: "Is Artificial Turf Flammable? What Fire Tests Show | NoCo Turf Co."
@@ -179,7 +179,7 @@ Both, depending on the heat.
 - **A real fire can burn it.** The Insurance Institute for Business & Home Safety (IBHS) defines combustible as "materials that can ignite and burn" and lists artificial turf among combustible groundcovers, with wood and rubber mulch ([IBHS standard](https://wildfireprepared.org/wp-content/uploads/WFPH-Technical-Standard-12-25.pdf)). The Colorado State Forest Service (CSFS) says some decks are readily combustible "whether made of synthetic (plastic/composite) or natural materials" ([CSFS guide](https://csfs.colostate.edu/wp-content/uploads/2021/04/2021_CSFS_HIZGuide_Web.pdf)).
 - **Wind decides how far a fire goes.** The Colorado Climate Center describes "moderate to high wind movement" on the plains, winter "dry air and strong winds," and severe turbulent winds near the foothills, called chinooks when they warm ([Climate of Colorado](https://climate.colostate.edu/climate_long.html)).
 
-Everyday melting: [fire pits and grills](/guides/fire-pit-on-artificial-turf/), [reflected sun from windows](/guides/artificial-turf-melting-from-windows/) and [patching a melted spot](/guides/how-to-repair-artificial-turf/).
+Everyday melting: [fire pits and grills](/guides/fire-pit-on-artificial-turf/).
 
 ## What does "passed D2859" on a spec sheet mean?
 
@@ -204,7 +204,7 @@ It changes what sits between the blades, not what the blades are made of.
 - **Crumb rubber** is ground-up scrap tire ([EPA](https://www.epa.gov/chemical-research/tire-crumb-questions-and-answers)). EPA says tires are difficult to ignite but, once burning, very hard to put out, with water often futile ([EPA, on tire piles](https://archive.epa.gov/epawaste/conserve/materials/tires/web/html/fires.html)), and IBHS lists rubber mulch with turf among the groundcovers to clear from the first 5 feet. Few yards have it: the federal crumb rubber study says home turf doesn't typically include it ([EPA and CDC/ATSDR](https://www.epa.gov/system/files/documents/2024-04/tcrs-exposure-characterization-volume-1.pdf)), and [Firestone](/areas/firestone-co/)'s code prohibits it.
 - **Cork, coconut fiber and walnut shell** infills are typically about 30 percent plant material and 70 percent sand by weight, and some need watering to hold their moisture ([Gale Associates](https://galeassociates.com/wp-content/uploads/2019/02/Alternative-Infills-for-Synthetic-Turf-Fields-JMP.pdf)). Colorado's low humidity "favors rapid evaporation," and CSFS wants mulch and other organic debris out of the first 5 feet. Treat plant-based infill like mulch there.
 
-More on choosing infill: [infill types](/guides/artificial-turf-infill-types/) and [is crumb rubber safe](/guides/is-crumb-rubber-safe/).
+More on choosing infill: [infill types](/guides/artificial-turf-infill-types/).
 
 ## How close to the house can turf go on a wildfire-prone lot?
 

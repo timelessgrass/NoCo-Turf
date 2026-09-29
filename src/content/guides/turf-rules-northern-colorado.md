@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: rules-and-hoa
 kind: guide
 title: "Artificial Turf Rules in Northern Colorado, by Town | NoCo Turf Co."

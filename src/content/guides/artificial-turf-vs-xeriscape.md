@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: comparisons
 kind: comparison
 title: "Artificial Turf vs Xeriscape or Rock: Which Goes Where | NoCo Turf Co."
@@ -178,6 +178,12 @@ related:
     - firestone-co
     - frederick-co
     - windsor-co
+photos:
+  - gbp-side-patio
+  - playset
+  - gbp-dog-yard
+reviews:
+  - kevin
 needsFromBrian:
   - "Two or three mixed yards you have built (turf plus planted beds or rock), with before and after photos and the rough split: how much turf, how much bed, what mulch, and why you drew the line where you did."
   - "Where you tell people not to put turf: against south- or west-facing windows, under messy trees, in narrow strips, in a front yard under a live-plant rule. In your own words, with an example."
@@ -206,7 +212,7 @@ Many Coloradans say "xeriscape" and picture a yard of rock, so this page compare
 
 Planted beds. Turf and bare rock both run hot, in different ways: turf heats up at the surface, while rock stores heat and passes it to the soil and nearby walls. The Fort Collins station averages 29.5 days a year at or above 90°F and Greeley UNC 58.3 (NOAA 1991–2020 normals).
 
-- **Turf.** Penn State's sports-surface researchers put synthetic turf 35 to 55°F above natural grass on a hot day ([how hot artificial turf gets](/guides/how-hot-does-artificial-turf-get/)), and the Synthetic Turf Council reports occasional cases of fibers melting from sun reflected off Low-E windows ([turf melting near windows](/guides/artificial-turf-melting-from-windows/)).
+- **Turf.** Penn State's sports-surface researchers put synthetic turf 35 to 55°F above natural grass on a hot day ([how hot artificial turf gets](/guides/how-hot-does-artificial-turf-get/)), and the Synthetic Turf Council reports occasional cases of fibers melting from sun reflected off Low-E windows.
 - **Rock.** CSU's PlantTalk says stone mulches "store and radiate heat" and warns against large areas of unshaded rock next to a house ([PlantTalk 1905](https://planttalk.colostate.edu/topics/water-wise-xeriscape/1905-xeriscape-mulches/)). CSU's mulching guide adds that gravel passes more heat into the soil than wood chips and can pass it on to buildings ([CSU Extension](https://extension.colostate.edu/resource/mulching/)).
 - **Planted beds.** The EPA says vegetation lowers surface and air temperatures by shading the ground and evaporating water through its leaves. The mulch between plants matters less: CSU says gravel-mulched beds stay cooler on the surface than paving, and sunny wood mulch can run hotter than gravel.
 
@@ -216,7 +222,7 @@ None is weed-free; they differ in where weeds start and whether that improves.
 
 - **Rock on its own.** Fabric underneath doesn't fix it: CSU says weeds germinate on top of woven fabric and root into or through it ([GardenNotes #245](https://cmg.extension.colostate.edu/Gardennotes/245.pdf)), and that weed fabric doesn't prevent weeds in permanent plantings. Rock larger than about half an inch across does little against weeds.
 - **Planted xeriscape.** More weeding at first, less later. PlantTalk says mulch holds weeds down until maturing plants cover the soil and leave weeds little light ([PlantTalk 1910](https://planttalk.colostate.edu/topics/water-wise-xeriscape/1910-xeriscape-maintenance/)). A rock-only yard never reaches that shaded stage.
-- **Turf.** FieldTurf Landscape, a turf maker, says weeds can't grow up through the backing but airborne seed can sprout in the infill, mostly near the edges. TigerTurf, another maker, says roots from neighboring beds can creep under the edging and up through the backing, which matters wherever turf meets planting. See [why weeds grow through artificial turf](/guides/weeds-growing-through-artificial-turf/).
+- **Turf.** FieldTurf Landscape, a turf maker, says weeds can't grow up through the backing but airborne seed can sprout in the infill, mostly near the edges. TigerTurf, another maker, says roots from neighboring beds can creep under the edging and up through the backing, which matters wherever turf meets planting.
 
 ## What happens to each one under snow and de-icer?
 
@@ -225,7 +231,7 @@ The Loveland 2N station averages 47.0 inches of snow a year, and Fort Collins an
 - **Planted beds** welcome it. PlantTalk calls heavy Front Range snow welcome moisture that cuts the need for winter watering, though small shrubs flattened by snow piles may need pruning ([PlantTalk 1754](https://planttalk.colostate.edu/topics/trees-shrubs-vines/1754-snow-impacts-woody-herbaceous-plants/)).
 - **De-icer is the planted beds' weak spot.** CSU says granular magnesium chloride is commonly spread on sidewalks and driveways, that along roads it moves into the soil with precipitation, and that woody plants taking it up burn at the leaf edges and needle tips ([CSU Fact Sheet 7.425](https://extension.colostate.edu/resource/magnesium-chloride-toxicity-in-trees/)). FieldTurf says magnesium chloride won't harm turf, while regular salt can scuff the fibers.
 - **Rock** is hard to clear: Toro's single-stage snowblower manual says the machine isn't designed for gravel and can throw stones.
-- **Turf** can wait for the melt or be cleared with plastic tools: see [snow removal on artificial turf](/guides/artificial-turf-snow-removal/).
+- **Turf** can wait for the melt or be cleared with plastic tools.
 
 ## How do they handle water on clay, and how much do new plants need?
 
@@ -233,7 +239,7 @@ The Loveland 2N station averages 47.0 inches of snow a year, and Fort Collins an
 - **Timing.** CSU says to weigh water availability before converting; with Johnstown on a 2026 Level 3 schedule of 2 assigned days a week, ask your provider about new plantings first.
 - **Beds near the house.** CSU notes that Colorado clay can stay waterlogged under a dry-looking surface, and advises keeping sprinkler spray at least five feet from the foundation ([PlantTalk 1617](https://planttalk.colostate.edu/topics/soils-amendments-composting/1617-expansive-soils/)). The Colorado Geological Survey lists planting against a foundation so irrigation water soaks in among the problems on expansive soil ([CGS](https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/)).
 - **Rock** needs no water. CSU says pea gravel improves infiltration in thunderstorms, while larger rocks increase runoff.
-- **Turf** needs no irrigation; its zones get capped or become drip for the beds ([sprinklers after turf](/guides/sprinkler-system-after-artificial-turf/)). On clay, the grade and base decide whether it drains: see [does artificial turf drain](/guides/does-artificial-turf-drain/) and [artificial turf on clay soil](/guides/artificial-turf-on-clay-soil/).
+- **Turf** needs no irrigation; its zones get capped or become drip for the beds. On clay, the grade and base decide whether it drains.
 
 ## Why can't a front yard be all turf or all rock in some towns?
 

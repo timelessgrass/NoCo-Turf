@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: putting-greens
 kind: guide
 title: "Backyard Putting Green Size and How Many Cups | NoCo Turf Co."
@@ -106,6 +106,12 @@ related:
   towns:
     - firestone-co
     - johnstown-co
+photos:
+  - gbp-green-flag
+  - gbp-lawn-green
+  - boulders
+reviews:
+  - tamara
 needsFromBrian:
   - "The sizes and cup counts of greens you have built, with the Windsor and Berthoud photos: overall dimensions, the fringe width, and where the cups went. One or two real layouts would replace the general sizing on this page."
   - "How you set cups (concrete, sleeves, something else) and what you have seen happen to cups after a Northern Colorado freeze-thaw winter, so the cups section can speak from your jobs."
@@ -165,7 +171,7 @@ Mostly the town code and the lot lines. In Firestone, three rules shape a green 
 - **Coverage.** Turf may cover up to 75% of the rear or side yard, with at least 25% left as permeable living landscape. But 50% of the combined side and rear yards must be live plants, and turf can't count toward that, so in practice turf is held to about half.
 - **A buffer.** At least 3 feet of permeable, living landscape has to separate turf from any property line, so a green and its fringe can't run to the fence.
 
-The code doesn't mention putting greens, so plan as though the green and its fringe both count toward those limits. It depends how the town applies them to a green; ask Firestone Planning before you settle the size. Firestone's turf material rules, such as its minimum pile height, raise their own questions for a putting surface; see our [comparison of sand-filled and non-infilled greens](/guides/sand-filled-vs-non-infilled-putting-green/).
+The code doesn't mention putting greens, so plan as though the green and its fringe both count toward those limits. It depends how the town applies them to a green; ask Firestone Planning before you settle the size. Firestone's turf material rules, such as its minimum pile height, raise their own questions for a putting surface.
 
 In Johnstown, on single-family lots platted since January 1, 2024, the land use code limits "turf and spray-irrigated areas" to 50% of the rear yard, up to 2,000 square feet ([Johnstown code, Sec. 17-8-4](https://www.johnstownco.gov/DocumentCenter/View/1403/Land-Use-And-Development-Code)). It doesn't say whether artificial turf counts, so it depends; ask Johnstown Planning. Other towns are in our [guide to artificial turf rules in Northern Colorado](/guides/turf-rules-northern-colorado/).
 

@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: pets
 kind: guide
 title: "Dog Poop on Artificial Turf: Potty Spots and Cleanup | NoCo Turf Co."
@@ -109,6 +109,11 @@ related:
     - windsor-co
     - loveland-co
     - greeley-co
+photos:
+  - gbp-dog-yard
+reviews:
+  - sharon
+  - kirk
 needsFromBrian:
   - "The cleanup routine you give dog owners when a pet yard is finished, in your own words: how often to pick up, whether to rinse after each pickup, which enzyme cleaner you point people to, and anything you tell them never to use on the turf."
   - "Whether you design a potty spot into pet yards: where it goes relative to the back door and the hose bib, how big, and what infill and base drainage go under it. A photo of one from a real Northern Colorado job, with the town."
@@ -116,7 +121,7 @@ needsFromBrian:
   - "Whether you ever add a hose bib, a drain or a separate base section for a dog run, and what that changes in the job."
 ---
 
-Dogs can go on artificial turf, and picking up after them works much as it does on grass. What changes is what happens to the leftovers: turf has no soil life to break them down, so a set potty spot and a short routine have to do that work. Urine smell has its own page, [how to get dog urine smell out of artificial turf](/guides/dog-urine-smell-artificial-turf/); this one is about poop.
+Dogs can go on artificial turf, and picking up after them works much as it does on grass. What changes is what happens to the leftovers: turf has no soil life to break them down, so a set potty spot and a short routine have to do that work. This page is about poop, not urine smell.
 
 ## Does dog poop ruin artificial turf?
 
@@ -140,7 +145,7 @@ Where to put the spot in a Northern Colorado yard:
 | Where rinse water soaks in, not where it runs to the driveway or gutter | In Fort Collins, storm sewers carry runoff to the creeks and the Poudre River untreated (more below). |
 | Out of full afternoon sun, if the yard allows | The Fort Collins station averages 29.5 days a year at or above 90°F and Greeley's 58.3. A smear left in that sun dries onto the blades. |
 | With room to walk a few steps | Ohio State notes that some dogs need to move around, even walk a little, before they defecate. |
-| On a path you will clear after snow | The Fort Collins station averages 51.4 inches of snow a year, and a dog that can't reach its spot picks another. [Clearing snow off turf](/guides/artificial-turf-snow-removal/) has the method. |
+| On a path you will clear after snow | The Fort Collins station averages 51.4 inches of snow a year, and a dog that can't reach its spot picks another. |
 
 On a summer afternoon the turf around the spot matters to paws as well; see [how hot artificial turf gets](/guides/how-hot-does-artificial-turf-get/).
 
@@ -152,13 +157,13 @@ If the turf isn't in yet, draw the potty spot on the plan before the base goes i
 2. **Look at the blades.** If the pile came up clean, you're done.
 3. **If it smeared,** the same instructions say to "pick up all that you can, rinse with a hose, and treat with a bacterial enzyme." Get the solids off first: they also say not to rinse solid waste into the grass.
 4. **Let the enzyme sit.** The enzyme works better the longer it stays on, the maker says, and early evening is a good time to treat outdoor turf. Treat after 6 p.m. and you are also outside the 10 a.m. to 6 p.m. window that Fort Collins' voluntary 2026 Water Shortage Watch asked residents to keep lawn watering out of. Whether a turf rinse counts as watering is in [do you have to water artificial turf](/guides/do-you-have-to-water-artificial-turf/).
-5. **Keep the rinse on the turf.** Which cleaners are safe to rinse off, and where rinse water may go, are in [how to clean artificial turf](/guides/how-to-clean-artificial-turf/).
+5. **Keep the rinse on the turf.**
 
 ## What about diarrhea, baked-on residue and frozen piles?
 
-- **Diarrhea.** Lift everything you can with bags or paper towels before any water touches it; water spreads loose stool through the blades and down into the infill. Then rinse, apply the enzyme, leave it on, and rinse again. If the spot still smells after a few rounds, the deeper cleaning in the cleaning guide linked above is the next step.
+- **Diarrhea.** Lift everything you can with bags or paper towels before any water touches it; water spreads loose stool through the blades and down into the infill. Then rinse, apply the enzyme, leave it on, and rinse again. If the spot still smells after a few rounds, a deeper cleaning is the next step.
 - **Baked on.** A smear missed on a hot afternoon dries hard onto the blades. Soak it with the hose and give it a few minutes to soften before you lift it, then treat it with the enzyme like any other spot.
-- **Frozen.** The Fort Collins station averages 150 days a year with a low at or below 32°F. A frozen pile usually comes up whole, but a rinse on a freezing evening turns to ice in the turf, so save rinsing for a day above freezing. Piles buried by a snowfall reappear at the thaw; pick up before a storm when you can. What winter does to the turf itself is in [does artificial turf freeze](/guides/does-artificial-turf-freeze/).
+- **Frozen.** The Fort Collins station averages 150 days a year with a low at or below 32°F. A frozen pile usually comes up whole, but a rinse on a freezing evening turns to ice in the turf, so save rinsing for a day above freezing. Piles buried by a snowfall reappear at the thaw; pick up before a storm when you can.
 
 ## Where does the bagged poop go?
 

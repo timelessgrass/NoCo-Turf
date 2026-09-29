@@ -148,7 +148,7 @@ State law sets the floor. These town codes in the corridor say more:
 | Wellington | Doesn't permit nonfunctional artificial turf in new development or redevelopment; turf installed before January 1, 2026 may be maintained. |
 | Loveland | Updated its development code in March 2026 to apply the state nonfunctional-turf law; the city says that law does not apply to single-family lots or private lots in duplex, condo and townhome developments. |
 
-Before a board votes, read the town's current code and your HOA or district's own rules. Each town's page lists its rules, with sources and dates.
+Before a board votes, read the town's current code and your HOA or district's own rules. The [town-by-town turf rules](/guides/turf-rules-northern-colorado/) keep the sources and dates.
 
 ## What decides whether a common-area field lasts?
 
@@ -158,4 +158,4 @@ Common-area and sports turf takes more traffic than any backyard, and it takes i
 - **The right surface for the use.** A sports field, a playground and a putting green are three different builds, with different turf, infill and padding.
 - **Documents for the board.** Spec sheets, and PFAS documentation: since January 1, 2026, Colorado law bars anyone from installing artificial turf that contains intentionally added PFAS chemicals.
 - **A maintenance plan.** Brushing, infill top-ups and debris removal on a schedule, with someone named to do it.
-- **Who pays.** Colorado's state turf-replacement grant money may not be used to replace lawn with artificial turf. The Colorado Water Conservation Board's grant last closed on February 28, 2025, and HOAs and businesses were never eligible to apply for it directly.
+- **Who pays.** Colorado's state turf-replacement grant money may not be used to replace lawn with artificial turf. The Colorado Water Conservation Board's grant last closed on February 28, 2025, and HOAs and businesses were never eligible to apply for it directly. More in the [rebate guide](/guides/turf-rebates-northern-colorado/).

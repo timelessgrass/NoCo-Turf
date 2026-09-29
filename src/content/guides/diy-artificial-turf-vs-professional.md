@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: buying
 kind: comparison
 title: "DIY Artificial Turf or Hire a Pro: What It Takes | NoCo Turf Co."
@@ -17,13 +17,13 @@ answer:
   answer: "Yourself, if the area is small and simple: one 15-foot-wide piece, no seam, dug by hand. Past that, the hard parts are a compacted base on Northern Colorado clay and seams that don't show. A DIY job still needs a Colorado 811 locate, any town permit and HOA approval, and some metro districts require professional installation."
 faq:
   - q: "How much extra turf should I order for a DIY job?"
-    a: "SYNLawn's DIY guide suggests 10 to 20 percent more than the area's square footage when the layout has curves or odd shapes, and says to over-measure a little when cutting so no piece comes up short. Keep the grain running one way on every piece; our [guide to visible seams](/guides/visible-seams-in-artificial-turf/) explains why."
+    a: "SYNLawn's DIY guide suggests 10 to 20 percent more than the area's square footage when the layout has curves or odd shapes, and says to over-measure a little when cutting so no piece comes up short. Keep the grain running one way on every piece."
   - q: "Can I glue seams on a cold fall day?"
     a: "Read the adhesive's sheet first. One turf seam adhesive's maker says surfaces must be completely dry and above 40°F, and the turf kept from rain and freezing for 12 hours afterward. Our [guide to when to install turf](/guides/when-to-install-artificial-turf/) covers fall and winter installs."
   - q: "What if I hit a line while digging?"
     a: "Colorado 811's instructions are to get to safety, call 911 in an emergency, and report the damage to Colorado 811 right away. A cut sprinkler or low-voltage line is yours to find and repair, because 811 doesn't mark private lines."
   - q: "Do I have to touch the backflow device when I cap sprinkler zones myself?"
-    a: "In Windsor it can come to that. The Town's water FAQ says repairing, expanding or modifying a sprinkler system that has an unapproved backflow device means upgrading the device to current standards. Ask your water provider before you cut into the system; our [guide to sprinklers after turf](/guides/sprinkler-system-after-artificial-turf/) covers capping zones and keeping trees watered."
+    a: "In Windsor it can come to that. The Town's water FAQ says repairing, expanding or modifying a sprinkler system that has an unapproved backflow device means upgrading the device to current standards. Ask your water provider before you cut into the system."
   - q: "Can I give the old sod away instead of paying to dump it?"
     a: "If it's healthy, often. CSU Extension notes that a sod cutter lifts a lawn in rolled strips you can give away. Its other option, flipping the sod over to rot in place, suits a garden bed, not ground that turf will cover."
 layerRefs:
@@ -143,6 +143,11 @@ related:
     - firestone-co
     - greeley-co
     - windsor-co
+photos:
+  - crew
+reviews:
+  - mike
+  - lanelle
 needsFromBrian:
   - "Whether NoCo sells turf, seam tape, adhesive and infill to homeowners who install their own (old listings say the Windsor location did; unverified), and on what terms. The page only tells DIYers what to ask a supplier until you answer."
   - "Whether NoCo will quote base-only work (dig, haul-off, base and compaction) for a homeowner who lays the turf, or seam-only work on turf a homeowner has laid out, and who answers for the result in each case."
@@ -167,9 +172,9 @@ The stages run in the order the makers' own DIY guides give them ([SYNLawn's DIY
 
 Two of those stages decide how the yard looks in five years.
 
-**The base.** Turf shows every dip under it, and much of Northern Colorado sits on clay. The Colorado Geological Survey says expansive clays can swell up to 20% by volume when wet ([CGS](https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/)), and the Synthetic Turf Council says base rock should never be bone-dry when it is compacted ([STC base guidelines](https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guidelines_for_Base_Syst.pdf)). Judging that moisture, in the clay and in the rock, is what a first-timer lacks. See [what base goes under turf](/guides/what-base-goes-under-artificial-turf/) and [artificial turf on clay soil](/guides/artificial-turf-on-clay-soil/).
+**The base.** Turf shows every dip under it, and much of Northern Colorado sits on clay. The Colorado Geological Survey says expansive clays can swell up to 20% by volume when wet ([CGS](https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/)), and the Synthetic Turf Council says base rock should never be bone-dry when it is compacted ([STC base guidelines](https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guidelines_for_Base_Syst.pdf)). Judging that moisture, in the clay and in the rock, is what a first-timer lacks.
 
-**The seams.** SYNLawn's own DIY guide concedes that a homeowner's seams can show more than a professional's. The Synthetic Turf Council adds that the industrial turf adhesive a seam should get is usually not sold in home stores ([STC buying guide](https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf)). More in [visible seams in artificial turf](/guides/visible-seams-in-artificial-turf/).
+**The seams.** SYNLawn's own DIY guide concedes that a homeowner's seams can show more than a professional's. The Synthetic Turf Council adds that the industrial turf adhesive a seam should get is usually not sold in home stores ([STC buying guide](https://cdn.ymaws.com/www.syntheticturfcouncil.org/resource/resmgr/guidelines/STC_Considerations_When_Buyi.pdf)).
 
 ## What equipment and hauling does a DIY job take?
 
@@ -178,7 +183,7 @@ SYNLawn's guide draws the line at 150 square feet: above that, it highly recomme
 Then the material moves by the ton:
 
 - **Rock in.** SYNLawn's rule of thumb is about 1 ton of base for every 100 square feet at 3 inches deep, so a 600-square-foot yard takes about 6 tons. The rock yard dumps it in the street or driveway, and the guide counts 13 to 16 wheelbarrow loads to the ton: roughly 78 to 96 trips for that yard. Before a load sits in the street, ask your town's public works office whether that's allowed.
-- **Old lawn out.** Larimer County's 2026 landfill fee schedule prices sod and dirt as rubble at $40 per cubic yard plus the state surcharge ([Larimer County](https://www.larimer.gov/solidwaste/fees)). Where else sod and soil can go is in our [guide to turf over grass or dirt](/guides/can-you-put-artificial-turf-over-grass-or-dirt/).
+- **Old lawn out.** Larimer County's 2026 landfill fee schedule prices sod and dirt as rubble at $40 per cubic yard plus the state surcharge ([Larimer County](https://www.larimer.gov/solidwaste/fees)).
 
 ## Which rules still apply when I install it myself?
 
@@ -203,8 +208,6 @@ It usually shrinks, and it never paid for labor anyway.
 - PreGra, the maker behind Costco's turf, prorates its fade and UV coverage over 0 to 4 years for a self-installed lawn, against 0 to 10 years through its own installer program ([PreGra](https://www.pregra.com/warranty/)).
 - SYNLawn's Lowe's-channel terms say properties "opting to install product themselves will nullify this warranty" ([SYNLawn terms](https://lowes.synlawn.com/wp-content/uploads/2024/06/SY24247_Lowes_ProductWarranty_v1.pdf)), and its consumer page excludes damage "caused by improper installation" ([SYNLawn](https://www.synlawn.com/resources/warranty/)). On a DIY job, the installation in question is yours.
 - Makers cover the turf, not the labor to replace it. SYNLawn leaves workmanship coverage between the owner and the installer, and ForeverLawn says each of its dealers gives at least two years on the installation ([ForeverLawn](https://www.foreverlawn.com/warranty/)). Lay it yourself and there is no installer to call back.
-
-What coverage terms usually leave out is in our [guide to turf coverage terms](/guides/artificial-turf-warranty/).
 
 ## Can I do part of the job and hire out the rest?
 

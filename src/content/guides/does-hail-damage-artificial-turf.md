@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: weather
 kind: guide
 title: "Is Artificial Turf Covered by Home Insurance for Hail? | NoCo Turf Co."
@@ -25,7 +25,7 @@ faq:
   - q: "How big does hail have to be to hurt artificial turf?"
     a: "Nobody we found has published a size. NOAA's National Severe Storms Laboratory counts quarter-size hail, 1 inch across, as severe, so that is a sensible point to walk the yard. Walk it after any storm that brings down branches too, whatever the hail size."
   - q: "Does the turf maker's written coverage pay for hail?"
-    a: "Read the document before you count on it. It is separate from your homeowners policy, and product terms can exclude weather: SYNLawn's residential terms, for one, exclude damages caused by 'Acts of God.' Our guide to what a turf maker's written coverage leaves out goes through the usual exclusions."
+    a: "Read the document before you count on it. It is separate from your homeowners policy, and product terms can exclude weather: SYNLawn's residential terms, for one, exclude damages caused by 'Acts of God.'"
 layerRefs:
   - noaa-hail-weld-2011-2025
   - noaa-hail-larimer-2011-2025
@@ -137,9 +137,9 @@ Less is known than turf advertising suggests. The turf makers' pages and sports-
 
 - **Debris.** Shredded leaves, twigs, branches, shingle grit and gutter parts. The Synthetic Turf Council says every loose foreign object can damage turf "by abrading the grass fibers and/or contaminating the infill," and that debris left on the surface works its way in and slows drainage ([STC guidelines](https://cdn.ymaws.com/staging-stc.site-ym.com/resource/resmgr/guidelines/STC_Guidelines_for_Maintenan.pdf)). See [getting leaves and debris off turf](/guides/leaves-on-artificial-turf/).
 - **Moved infill.** Look for sand or granules washed into low spots or off the edges. Thin-looking patches point to [how often to add infill](/guides/how-often-to-add-infill-to-artificial-turf/).
-- **Flattened blades, tears, holes, open seams or lifted edges.** Flat spots are a brushing job ([matted turf](/guides/matted-artificial-turf/)); a tear or hole is a patch ([how to repair artificial turf](/guides/how-to-repair-artificial-turf/)); edges have their own fixes ([turf edges lifting](/guides/turf-edges-lifting/)).
-- **Standing water** a day after the storm, which is a drainage question: [what happens to turf when it rains](/guides/does-artificial-turf-drain/).
-- **A putting green that rolls differently.** Putt your usual lines and check the cups and fringe; see [putting green maintenance](/guides/artificial-putting-green-maintenance/) and our [putting greens](/services/putting-greens/) page.
+- **Flattened blades, tears, holes, open seams or lifted edges.** Flat spots are a brushing job ([matted turf](/guides/matted-artificial-turf/)); a tear or hole is a patch; edges have their own fixes ([turf edges lifting](/guides/turf-edges-lifting/)).
+- **Standing water** a day after the storm, which is a drainage question.
+- **A putting green that rolls differently.** Putt your usual lines and check the cups and fringe; see our [putting greens](/services/putting-greens/) page.
 
 ### After the storm: the roof crew
 
@@ -168,7 +168,7 @@ Questions for your agent or insurer, answered in writing:
 - Is my hail deductible a fixed amount or a percentage of the dwelling limit, and how much is that in dollars?
 - Would turf damage go on the same claim as roof damage from the same storm?
 
-The turf maker's written coverage is a separate document; see [what a turf maker's written coverage leaves out](/guides/artificial-turf-warranty/).
+The turf maker's written coverage is a separate document.
 
 ## How do the deductible and the claim change the math?
 
@@ -179,7 +179,7 @@ Two lines of the ISO form matter after a big storm:
 - **One total, one deductible.** The deductible comes off "the total of all loss payable" under the property section, not off each item. If the roof claim already clears it, turf damage from the same storm isn't facing a second one, as long as your policy reads the same way and covers the turf at all.
 - **Repairs you document.** The form asks you to protect the property from further damage and to "keep an accurate record of repair expenses."
 
-Before deciding whether to file, get a written repair estimate for the turf alone; if it comes in under your deductible, the question answers itself. For older turf, weigh [repair or replace](/guides/when-to-replace-artificial-turf/) and [how long artificial turf lasts](/guides/how-long-does-artificial-turf-last/).
+Before deciding whether to file, get a written repair estimate for the turf alone; if it comes in under your deductible, the question answers itself. For older turf, weigh a repair against [how long artificial turf lasts](/guides/how-long-does-artificial-turf-last/).
 
 ## What should I photograph and check after a hailstorm?
 

@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: yard-design
 kind: guide
 title: "Turf in a New-Build Dirt Backyard: Grading and Rules | NoCo Turf Co."
@@ -170,6 +170,8 @@ related:
     - johnstown-co
     - firestone-co
     - frederick-co
+photos:
+  - gbp-new-patio
 needsFromBrian:
   - "Two or three new-build jobs in Windsor, Timnath, Severance or Johnstown subdivisions, with the subdivision named if the owner agrees, the month, and photos taken the same way: the dirt yard before, the cut along the house with a tape measure in it, and the base shaped through the side swale."
   - "How you handle a builder swale and the backfill band along the foundation, in wording you approve: how you find the swale's low line, how you check and compact soft backfill, and how you confirm the fall away from the house before the base goes on."
@@ -178,13 +180,13 @@ needsFromBrian:
   - "How often you find settled backfill or a reversed grade on a house under two or three years old, and what you tell the owner to raise with the builder before you start."
 ---
 
-A new build's dirt backyard looks easy, with nothing to tear out. But the builder shaped it to a drainage plan, the soil against the house is still settling, and the town and HOA or metro district may already have rules and a clock running. It's a common yard here: in the Census Bureau's 2020–2024 survey, homes built in 2010 or later make up 85.1% of the housing in [Timnath](/areas/timnath-co/), 69.2% in [Severance](/areas/severance-co/), 55.5% in [Berthoud](/areas/berthoud-co/), 50.3% in [Wellington](/areas/wellington-co/), 46.6% in [Windsor](/areas/windsor-co/) and 41.4% in [Johnstown](/areas/johnstown-co/) ([ACS Table B25034](https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B25034&geo_ids=16000US0877510,16000US0869150,16000US0806255,16000US0883230,16000US0885485,16000US0839855,16000US0826600,16000US0828360)). Why bare dirt isn't a base: [can turf go over grass or dirt](/guides/can-you-put-artificial-turf-over-grass-or-dirt/).
+A new build's dirt backyard looks easy, with nothing to tear out. But the builder shaped it to a drainage plan, the soil against the house is still settling, and the town and HOA or metro district may already have rules and a clock running. It's a common yard here: in the Census Bureau's 2020–2024 survey, homes built in 2010 or later make up 85.1% of the housing in [Timnath](/areas/timnath-co/), 69.2% in [Severance](/areas/severance-co/), 55.5% in [Berthoud](/areas/berthoud-co/), 50.3% in [Wellington](/areas/wellington-co/), 46.6% in [Windsor](/areas/windsor-co/) and 41.4% in [Johnstown](/areas/johnstown-co/) ([ACS Table B25034](https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B25034&geo_ids=16000US0877510,16000US0869150,16000US0806255,16000US0883230,16000US0885485,16000US0839855,16000US0826600,16000US0828360)).
 
 ## What should I read before anyone digs?
 
 Three documents:
 
-1. **The soils report summary.** Colorado requires the builder to give the buyer a summary of the soils analysis and site recommendations at least 14 days before closing ([C.R.S. 6-6.5-101](https://colorado.public.law/statutes/crs_6-6.5-101); not legal advice). Look for fill, swell tests and the engineer's notes on grading. Reading it is covered in [artificial turf on clay soil](/guides/artificial-turf-on-clay-soil/).
+1. **The soils report summary.** Colorado requires the builder to give the buyer a summary of the soils analysis and site recommendations at least 14 days before closing ([C.R.S. 6-6.5-101](https://colorado.public.law/statutes/crs_6-6.5-101); not legal advice). Look for fill, swell tests and the engineer's notes on grading.
 2. **The lot's grading and drainage plan.** Swales are engineered: Windsor's drainage criteria require a subdivision's plans to show its swales, "including side/rear yard swales," with lengths, widths and cross-sections, and a copy goes to the Town's file ([Town of Windsor](https://windsorgov.com/DocumentCenter/View/23471/Storm-Drainage-Design-Criteria---Revised-July-2020)). Ask the builder for your lot's plan and any drainage certificate. In Berthoud's Heron Lakes, the builder must supply a certificate of drainage and topographical accuracy before a landscape contractor may start, and after that the owner and contractor are responsible for keeping the grading intact ([Heron Lakes rules](https://www.berthoudheritagemd.live/s/Heron-Lakes-Design-Rules-and-Regulations-June-1-2026.pdf)).
 3. **The HOA or metro district's design guidelines,** for the deadline and the submittal. Severance Shores asks for a drainage and grading plan showing it matches the town-approved one ([Severance Shores guidelines](https://ssmd.specialdistrict.org/files/3cc9774d3/SSMD+-+Amended+RIGSR+09.05.24.pdf)). Johnstown posts its subdivisions' guidelines on one [PUD and design guidelines page](https://johnstownco.gov/286/Planned-Unit-Development-PUD-Design-Guid).
 
@@ -209,19 +211,19 @@ Swales are the other half. The Colorado Geological Survey calls them shallow dep
 - **[Firestone](/areas/firestone-co/):** the drainage pattern "shall not be impeded or altered by the installation of artificial turf" ([Firestone Development Code 16.6.4](https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE)).
 - **Johnstown:** [North Ridge](https://www.johnstownco.gov/DocumentCenter/View/1215/North-Ridge-Design-Guidelines-0324-PDF-STAMPED) runs drainage in swales along property lines and allows no grading past a lot's limits unless the neighbors agree. The Town keeps new patios and walks 3 feet off property lines "for required drainage" ([Town of Johnstown](https://johnstownco.gov/212/Building-Permits)).
 
-So the dig for the base follows the builder's grade down rather than flattening it, and the swale's low line stays where it was. Turf in a side-yard swale or against the foundation is in [artificial turf along the side of the house](/guides/artificial-turf-side-yard/); water below the base, in [what happens to artificial turf when it rains](/guides/does-artificial-turf-drain/).
+So the dig for the base follows the builder's grade down rather than flattening it, and the swale's low line stays where it was. Turf in a side-yard swale or against the foundation is in [artificial turf along the side of the house](/guides/artificial-turf-side-yard/).
 
 ## Will the dirt along the house settle after the turf goes in?
 
 It can, and a new house is when it happens. The excavation around the foundation is refilled with loose soil, and the Colorado Geological Survey says that backfill settles over the first few months or years, often enough to flatten or reverse the slope next to the house so water ponds there ([CGS SP-14](https://coloradogeologicalsurvey.org/wp-content/uploads/woocommerce_uploads/SP-14.pdf)). An older survey guide says downspouts should carry roof runoff at least 10 feet from the house ([CGS SP-11](https://coloradogeologicalsurvey.org/wp-content/uploads/woocommerce_uploads/SP-11.pdf)).
 
-Under turf, that shows as a dip or standing water along the house: see [why artificial turf sinks](/guides/artificial-turf-sinking-low-spots/). If water already stands against the foundation, raise it with the builder in writing before turf work starts, while the grade is plainly theirs.
+Under turf, that shows as a dip or standing water along the house. If water already stands against the foundation, raise it with the builder in writing before turf work starts, while the grade is plainly theirs.
 
 Ask whoever quotes the job:
 
 - **"How will you check the backfill along the house?"** Good answer: they probe or dig it, compact what's soft, and restore the fall away from the foundation before any rock goes on.
 - **"Where will the downspouts empty?"** Good answer: at the end of an extension that carries water past the turf and down the grade.
-- **"What in my soils report changes the base?"** Compare with [what base goes under artificial turf](/guides/what-base-goes-under-artificial-turf/); more in [questions to ask a turf installer](/guides/questions-to-ask-turf-installer/).
+- **"What in my soils report changes the base?"** More questions are in [questions to ask a turf installer](/guides/questions-to-ask-turf-installer/).
 
 ## Which town and subdivision rules apply to a new lot?
 
@@ -254,7 +256,7 @@ Often within months:
 
 Review time comes out of that window: Timnath Lakes tells owners to allow up to 45 days. If the deadline lands in winter or before an installer can start, ask the committee for an extension in writing before it passes; see [when to install artificial turf](/guides/when-to-install-artificial-turf/) and [how long installation takes](/guides/how-long-does-turf-installation-take/).
 
-A blank lot is also the one chance to plan the whole yard at once. The order of trades is in planning a backyard around artificial turf, and a custom home's plan in turf in a custom-home landscape.
+A blank lot is also the one chance to plan the whole yard at once.
 
 ## Should a blank lot get sod first, or go straight to turf?
 
