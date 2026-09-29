@@ -138,7 +138,7 @@ sources:
     url: "https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/"
     checked: "2026-09-24"
   - label: "USDA-NRCS Soil Data Access (SSURGO) interpretation: Dwellings Without Basements"
-    url: "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest"
+    url: "https://sdmdataaccess.nrcs.usda.gov/"
     checked: "2026-09-24"
   - label: "Pavement Interactive, Frost Action"
     url: "https://pavementinteractive.org/reference-desk/design/design-parameters/frost-action/"

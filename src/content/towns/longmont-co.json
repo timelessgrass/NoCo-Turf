@@ -39,7 +39,7 @@
       "layerRefs": ["longmont-clay-soils-city", "nrcs-soil-longmont"],
       "sources": [
         "https://longmontcolorado.gov/water/water-conservation/conserving-water-outdoors/",
-        "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest"
+        "https://sdmdataaccess.nrcs.usda.gov/"
       ]
     },
     {
@@ -109,7 +109,7 @@
     { "label": "Longmont Land Development Code Sec. 15.05.040.C.4.a.i (codified through Ord. No. O-2026-39, June 23, 2026)", "url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT15LADECO_CH15.05DEST_S15.05.040LACOARST", "checked": "2026-09-24" },
     { "label": "C.R.S. 37-99-102(6.5), added by HB25-1113 (signed act)", "url": "https://leg.colorado.gov/bill_files/40673/download", "checked": "2026-09-24" },
     { "label": "City of Longmont, Conserving Water Outdoors", "url": "https://longmontcolorado.gov/water/water-conservation/conserving-water-outdoors/", "checked": "2026-09-24" },
-    { "label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Longmont", "url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest", "checked": "2026-09-24" },
+    { "label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Longmont", "url": "https://sdmdataaccess.nrcs.usda.gov/", "checked": "2026-09-24" },
     { "label": "City of Longmont, Rates and Fees – Water, Storm, Sewer (Municipal Code 14.04)", "url": "https://longmontcolorado.gov/water/rates-and-fees-water-storm-sewer/", "checked": "2026-09-24" },
     { "label": "Resource Central, Lawn Replacement program page", "url": "https://resourcecentral.org/lawn/", "checked": "2026-09-24" },
     { "label": "Boulder County parcels (PARCELS_OWNER): Longmont house lots, median about 7,220 sq ft; original town 919, Meadowlark 909, Renaissance 814, Park Ridge 780, Longmont Estates 739", "url": "https://maps.bouldercounty.org/arcgis/rest/services/PARCELS/PARCELS_OWNER/MapServer/0/query", "checked": "2026-09-24" },

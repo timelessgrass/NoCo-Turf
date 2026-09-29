@@ -107,7 +107,7 @@
       ],
       "layerRefs": ["nrcs-soil-fort-collins", "cgs-expansive-soil", "noaa-normals-fort-collins", "noaa-hail-max-fort-collins"],
       "sources": [
-        "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+        "https://sdmdataaccess.nrcs.usda.gov/",
         "https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/",
         "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053005&format=json",
         "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/"
@@ -171,7 +171,7 @@
     { "label": "City of Fort Collins news release, April 30, 2026: Voluntary Water Shortage Watch", "url": "https://www.fortcollins.gov/News-Articles/News/2026-Q2/Voluntary-Water-Shortage-Watch", "checked": "2026-09-24" },
     { "label": "Fort Collins-Loveland Water District, Watering Restrictions", "url": "https://fclwd.com/watering-restrictions/", "checked": "2026-09-24" },
     { "label": "ELCO Water District, Voluntary Watering Restrictions and Recommendations", "url": "https://www.elcowater.org/voluntary-watering-restrictions-and-recommendations", "checked": "2026-09-24" },
-    { "label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Fort Collins", "url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest", "checked": "2026-09-24" },
+    { "label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Fort Collins", "url": "https://sdmdataaccess.nrcs.usda.gov/", "checked": "2026-09-24" },
     { "label": "Colorado Geological Survey, Expansive Soil & Rock", "url": "https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/", "checked": "2026-09-24" },
     { "label": "NOAA NCEI U.S. Climate Normals 1991–2020, station FT COLLINS (USC00053005)", "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053005&format=json", "checked": "2026-09-24" },
     { "label": "NOAA NCEI Storm Events Database, hail reports at the Fort Collins reference point, 2011–2025", "url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/", "checked": "2026-09-24" },

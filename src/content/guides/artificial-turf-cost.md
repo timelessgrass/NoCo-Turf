@@ -41,7 +41,7 @@ sources:
     url: "https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/"
     checked: "2026-09-24"
   - label: "USDA-NRCS Soil Data Access (SSURGO) interpretation: Dwellings Without Basements"
-    url: "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest"
+    url: "https://sdmdataaccess.nrcs.usda.gov/"
     checked: "2026-09-24"
   - label: "City of Greeley Water & Sewer, Waterwise Landscapes"
     url: "https://greeleyco.gov/government/city-administration/city-departments/water-and-sewer/save-water/waterwise-landscapes"

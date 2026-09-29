@@ -71,7 +71,7 @@ sources:
     url: "https://coloradogeologicalsurvey.org/hazards/collapsible-soils/"
     checked: "2026-09-25"
   - label: "USDA-NRCS Soil Data Access (SSURGO) interpretation: Dwellings Without Basements"
-    url: "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest"
+    url: "https://sdmdataaccess.nrcs.usda.gov/"
     checked: "2026-09-24"
   - label: "FusionTurf, Can I use a plate compactor when repairing my turf base?"
     url: "https://find.fusionturf.com/answers/can-i-use-a-plate-compactor-when-repairing-my-turf-base/"

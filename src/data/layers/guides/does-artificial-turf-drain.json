@@ -271,7 +271,7 @@
     ],
     "fact": "In NRCS soil survey data for Larimer and Weld counties and the Longmont area, the slowest layer of Nunn clay loam passes water at about 0.13 inches an hour once saturated and its surface layer at about 0.2 to 0.4, while Olney fine sandy loam passes about 1.3 in its slowest layer and about 3.3 at the surface.",
     "quote": "SSURGO major components, survey areas CO644, CO617, CO618 and CO643 (hydgrp · ksat_r of the slowest horizon · ksat_r of the surface horizon, micrometers per second): Nunn clay loam (CO644 73, 74, 75; CO618 41, 42; CO643 NuA, NuB, NuC; CO617 41) — C · 0.915 · 1.41 to 2.82; Olney fine sandy loam (CO617 44, 45; CO618 46, 47, 48) — B · 9 · 23",
-    "source_url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+    "source_url": "https://sdmdataaccess.nrcs.usda.gov/",
     "source_label": "USDA-NRCS Soil Data Access (SSURGO), component hydrologic group and saturated hydraulic conductivity (ksat_r), survey areas CO644, CO617, CO618 and CO643",
     "reachable": true,
     "status": "VERIFIED",

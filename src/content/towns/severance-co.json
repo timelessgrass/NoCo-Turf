@@ -68,7 +68,7 @@
       ],
       "layerRefs": ["nrcs-soil-severance", "noaa-hail-max-severance", "noaa-normals-greeley-unc"],
       "sources": [
-        "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+        "https://sdmdataaccess.nrcs.usda.gov/",
         "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/",
         "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053553&format=json"
       ]
@@ -100,7 +100,7 @@
     { "label": "North Weld County Water District, Service Area", "url": "https://www.nwcwd.org/service-area", "checked": "2026-09-24" },
     { "label": "U.S. Census Bureau, Vintage 2025 city estimates (Severance 11,841; 2020 Census 7,683)", "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/cities/totals/sub-est2025.csv", "checked": "2026-09-24" },
     { "label": "ACS 2020–2024 via Census Reporter: Severance housing (97.4% single-family detached; 69.2% built 2010 or later; median year built 2014)", "url": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B25035,B25003,B25024,B25034&geo_ids=16000US0827425,16000US0846465,16000US0885485,16000US0877510,16000US0883230,16000US0806255,16000US0839855,16000US0825115,16000US0843220,16000US0869150", "checked": "2026-09-24" },
-    { "label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Severance", "url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest", "checked": "2026-09-24" },
+    { "label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Severance", "url": "https://sdmdataaccess.nrcs.usda.gov/", "checked": "2026-09-24" },
     { "label": "NOAA NCEI Storm Events Database, hail reports referenced to Severance, 2011–2025", "url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/", "checked": "2026-09-24" },
     { "label": "NOAA NCEI U.S. Climate Normals 1991–2020, station GREELEY UNC (USC00053553)", "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053553&format=json", "checked": "2026-09-24" },
     { "label": "Severance Municipal Code Sec. 7-5-10 (definitions; codified through Ord. No. 2025-27, Dec. 9, 2025)", "url": "https://library.municode.com/co/severance/codes/municipal_code?nodeId=CH7HESAAN_ART5TRST_S7-5-10DE", "checked": "2026-09-24" }

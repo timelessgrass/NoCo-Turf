@@ -100,7 +100,7 @@ sources:
     url: "https://greeleyco.gov/government/city-administration/city-departments/water-and-sewer/save-water/waterwise-landscapes"
     checked: "2026-09-25"
   - label: "USDA-NRCS Soil Data Access (SSURGO) interpretation: Dwellings Without Basements"
-    url: "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest"
+    url: "https://sdmdataaccess.nrcs.usda.gov/"
     checked: "2026-09-24"
   - label: "SB24-081 bill summary (as enacted), Colorado General Assembly"
     url: "https://leg.colorado.gov/bills/sb24-081"

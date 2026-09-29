@@ -34,7 +34,7 @@
         "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT6AN_CH6.04ANCO_6.04.140NUANDE",
         "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT18LADECO_CH18.02ZO_18.02.040ACUS",
         "https://www.evanscolorado.gov/media/yjuhcvyg/07212026-ordinance-867-26-2nd-reading.docx",
-        "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest"
+        "https://sdmdataaccess.nrcs.usda.gov/"
       ]
     },
     {
@@ -165,7 +165,7 @@
     },
     {
       "label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Evans",
-      "url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+      "url": "https://sdmdataaccess.nrcs.usda.gov/",
       "checked": "2026-09-25"
     },
     {

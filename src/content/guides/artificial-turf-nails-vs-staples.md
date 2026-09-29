@@ -105,7 +105,7 @@ sources:
     url: "https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/"
     checked: "2026-09-25"
   - label: "USDA-NRCS Soil Data Access (SSURGO) queries around central Longmont and Firestone"
-    url: "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest"
+    url: "https://sdmdataaccess.nrcs.usda.gov/"
     checked: "2026-09-24"
   - label: "Firestone Development Code 16.6.4.F.2.e.iv (codified through Ord. No. 1072, Dec. 10, 2025)"
     url: "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE"

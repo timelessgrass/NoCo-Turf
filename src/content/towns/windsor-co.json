@@ -122,7 +122,7 @@
       ],
       "layerRefs": ["nrcs-soil-windsor", "noaa-hail-max-windsor", "noaa-normals-greeley-unc"],
       "sources": [
-        "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+        "https://sdmdataaccess.nrcs.usda.gov/",
         "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/",
         "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053553&format=json"
       ]
@@ -166,7 +166,7 @@
     { "label": "Town of Windsor, Lawn Replacement Program (2026)", "url": "https://www.windsorco.gov/1451/Lawn-Replacement-Program", "checked": "2026-09-24" },
     { "label": "Resource Central, Lawn Replacement program page", "url": "https://resourcecentral.org/lawn/", "checked": "2026-09-24" },
     { "label": "C.R.S. 37-60-126(11)(a.5), 38-33.3-106.5(1)(i)(I)(A) and 38-33.3-106.5(1)(i.5), added or amended by SB23-178 (signed act)", "url": "https://leg.colorado.gov/bill_files/92307/download", "checked": "2026-09-24" },
-    { "label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Windsor", "url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest", "checked": "2026-09-24" },
+    { "label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Windsor", "url": "https://sdmdataaccess.nrcs.usda.gov/", "checked": "2026-09-24" },
     { "label": "NOAA NCEI Storm Events Database, hail reports near Windsor, 2011–2025", "url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/", "checked": "2026-09-24" },
     { "label": "NOAA NCEI U.S. Climate Normals 1991–2020, station GREELEY UNC (USC00053553)", "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053553&format=json", "checked": "2026-09-24" }
   ],

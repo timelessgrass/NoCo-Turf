@@ -90,7 +90,7 @@
       ],
       "layerRefs": ["nrcs-soil-evans", "noaa-hail-max-evans", "noaa-normals-greeley-unc"],
       "sources": [
-        "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+        "https://sdmdataaccess.nrcs.usda.gov/",
         "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/",
         "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053553&format=json"
       ]
@@ -121,7 +121,7 @@
     { "label": "City of Evans, Water Conservation Programs", "url": "https://www.evanscolorado.gov/living-here/water-and-utilities/water-conservation/water-conservation-programs/", "checked": "2026-09-24" },
     { "label": "Colorado Public Parcels (statewide parcel file): Evans house lots, median about 6,768 sq ft; Ashcroft Heights 533, Willowbrook 393, original Evans plats 333, Ridge at Prairie View 305", "url": "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query", "checked": "2026-09-24" },
     { "label": "Colorado DOLA special-district boundaries: 15 metro districts in Evans, 11 formed 2018 or later", "url": "https://data.colorado.gov/resource/szft-nc4z.geojson", "checked": "2026-09-24" },
-    { "label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Evans", "url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest", "checked": "2026-09-24" },
+    { "label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Evans", "url": "https://sdmdataaccess.nrcs.usda.gov/", "checked": "2026-09-24" },
     { "label": "NOAA NCEI Storm Events Database, hail reports near Evans, 2011–2025", "url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/", "checked": "2026-09-24" },
     { "label": "NOAA NCEI U.S. Climate Normals 1991–2020, station GREELEY UNC (USC00053553)", "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053553&format=json", "checked": "2026-09-24" }
   ],

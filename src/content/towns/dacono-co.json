@@ -44,7 +44,7 @@
       ],
       "layerRefs": ["nrcs-soil-dacono", "nrcs-nunn-weld-shrink-swell", "cgs-landscaping-near-foundations", "noaa-hail-max-dacono"],
       "sources": [
-        "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+        "https://sdmdataaccess.nrcs.usda.gov/",
         "https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/",
         "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/"
       ]
@@ -103,7 +103,7 @@
     { "label": "Dacono Municipal Code Sec. 16-651, Application (Ord. No. 787, 2014; codified through Ord. No. 1011, March 9, 2026)", "url": "https://library.municode.com/co/dacono/codes/municipal_code?nodeId=CH16ZO_ART28LADEST_S16-651AP", "checked": "2026-09-25" },
     { "label": "Dacono Ordinance No. 1016, amending Municipal Code Sec. 16-656(d) (City Council packet, May 11, 2026, item GB-D)", "url": "https://www.daconoco.gov/AgendaCenter/ViewFile/Agenda/_05112026-528?packet=true", "checked": "2026-09-25" },
     { "label": "City of Dacono City Council minutes, May 11, 2026: Ordinance 1016 adopted on second reading, unanimous", "url": "https://www.daconoco.gov/AgendaCenter/ViewFile/Minutes/_05112026-528", "checked": "2026-09-25" },
-    { "label": "USDA-NRCS Soil Data Access (SSURGO), central Dacono sample and Weld series shrink-swell interpretation", "url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest", "checked": "2026-09-24" },
+    { "label": "USDA-NRCS Soil Data Access (SSURGO), central Dacono sample and Weld series shrink-swell interpretation", "url": "https://sdmdataaccess.nrcs.usda.gov/", "checked": "2026-09-24" },
     { "label": "Colorado Geological Survey, Expansive Soil & Rock", "url": "https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/", "checked": "2026-09-24" },
     { "label": "NOAA NCEI Storm Events Database, hail reports near Dacono, 2011–2025", "url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/", "checked": "2026-09-24" },
     { "label": "Colorado Public Parcels (statewide parcel file): Dacono house lots, median about 6,218 sq ft; Glens at Dacono 758 (median about 5,569); Eagle Meadow median about 26,894", "url": "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query", "checked": "2026-09-24" },

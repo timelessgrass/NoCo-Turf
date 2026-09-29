@@ -102,7 +102,7 @@
         "noaa-hail-max-frederick"
       ],
       "sources": [
-        "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+        "https://sdmdataaccess.nrcs.usda.gov/",
         "https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/",
         "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/"
       ]
@@ -167,7 +167,7 @@
     },
     {
       "label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Frederick",
-      "url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+      "url": "https://sdmdataaccess.nrcs.usda.gov/",
       "checked": "2026-09-24"
     },
     {

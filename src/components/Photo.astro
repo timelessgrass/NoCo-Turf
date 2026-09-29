@@ -20,11 +20,12 @@ interface Props {
   vt?: string; // view-transition-name
   quality?: number;
 }
-const { photo, sizes = '100vw', eager = false, class: cls, focus, widths = [480, 800, 1200, 1600, 1920], vt, quality = 66 } = Astro.props;
+const { photo, sizes = '100vw', eager = false, class: cls, focus, widths = [480, 800, 1200, 1600], vt, quality = 60 } = Astro.props;
 const w = widths.filter((x) => x <= photo.src.width);
-/* The <img> fallback (what crawlers and old browsers load) is a 1200px JPEG, never the camera-size original:
-   the Google-listing uploads are about 1 MB each at full size (Ahrefs "image file size too large", 2026-09-29). */
-const fallbackWidth = Math.min(1200, photo.src.width);
+/* The <img> fallback (what crawlers and old browsers load; every current browser takes the WebP srcset) is a 480px
+   JPEG, under 100 KB: grass texture compresses badly, and at 1200px the fallbacks ran 200-480 KB (Ahrefs "image file
+   size too large", 2026-09-29). Widths stop at 1600 and quality at 60 for the same reason. */
+const fallbackWidth = Math.min(480, photo.src.width);
 ---
 <Picture
   src={photo.src}

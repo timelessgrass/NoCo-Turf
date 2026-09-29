@@ -65,7 +65,7 @@
       ],
       "layerRefs": ["nrcs-soil-milliken", "noaa-normals-greeley-unc"],
       "sources": [
-        "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+        "https://sdmdataaccess.nrcs.usda.gov/",
         "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053553&format=json"
       ]
     }
@@ -93,7 +93,7 @@
     { "label": "Milliken Municipal Code Secs. 16-3-303 (Ord. 831, 2025-12-22) and 16-3-305(c) (codified through Ord. No. 838, March 25, 2026)", "url": "https://library.municode.com/co/milliken/codes/municipal_code?nodeId=CH16LAUSCO_ARTIIIGESTAPALDI_DIV3LABUFEWAST_S16-3-303NOTUNOARTUINPLTRSHGRSP", "checked": "2026-09-24" },
     { "label": "Colorado Public Parcels (statewide parcel file): Milliken 3,077 house lots; Settlers Village 742 (median about 6,051 sq ft); Mad Russian Estates median about 13,772; Blehm Waterway Estates median about 18,009", "url": "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query", "checked": "2026-09-24" },
     { "label": "Colorado DOLA special-district boundaries: 6 metro districts in Milliken, none formed since 2018", "url": "https://data.colorado.gov/resource/szft-nc4z.geojson", "checked": "2026-09-24" },
-    { "label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Milliken", "url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest", "checked": "2026-09-24" },
+    { "label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Milliken", "url": "https://sdmdataaccess.nrcs.usda.gov/", "checked": "2026-09-24" },
     { "label": "NOAA NCEI U.S. Climate Normals 1991–2020, station GREELEY UNC (USC00053553)", "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053553&format=json", "checked": "2026-09-24" }
   ],
   "checked": "2026-09-24",

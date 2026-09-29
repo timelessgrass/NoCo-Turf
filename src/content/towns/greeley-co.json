@@ -71,7 +71,7 @@
       "layerRefs": ["greeley-hard-clay-city", "nrcs-soil-greeley"],
       "sources": [
         "https://greeleyco.gov/government/city-administration/city-departments/water-and-sewer/save-water/waterwise-landscapes",
-        "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest"
+        "https://sdmdataaccess.nrcs.usda.gov/"
       ]
     },
     {
@@ -161,7 +161,7 @@
     { "label": "North Weld County Water District, May 2026 Newsletter", "url": "https://www.nwcwd.org/files/f055ec287/May+2026+Newsletter.pdf", "checked": "2026-09-24" },
     { "label": "City of Greeley, Residential Water Rebates", "url": "https://greeleyco.gov/water-and-sewer/save-water/residential-rebates/", "checked": "2026-09-24" },
     { "label": "City of Greeley Water & Sewer, Waterwise Landscapes", "url": "https://greeleyco.gov/government/city-administration/city-departments/water-and-sewer/save-water/waterwise-landscapes", "checked": "2026-09-24" },
-    { "label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Greeley", "url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest", "checked": "2026-09-24" },
+    { "label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Greeley", "url": "https://sdmdataaccess.nrcs.usda.gov/", "checked": "2026-09-24" },
     { "label": "Colorado DOLA special-district boundaries: 53 metro districts inside Greeley, 48 formed 2018 or later", "url": "https://data.colorado.gov/resource/szft-nc4z.geojson", "checked": "2026-09-24" },
     { "label": "Colorado Public Parcels (statewide parcel file): Greeley house lots, median about 7,511 sq ft; largest subdivisions Weber West, Rolling Hills, Country Club West, Farr's", "url": "https://gis.colorado.gov/public/rest/services/Address_and_Parcel/Colorado_Public_Parcels/FeatureServer/0/query", "checked": "2026-09-24" },
     { "label": "NOAA NCEI U.S. Climate Normals 1991–2020, station GREELEY UNC (USC00053553)", "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053553&format=json", "checked": "2026-09-24" },

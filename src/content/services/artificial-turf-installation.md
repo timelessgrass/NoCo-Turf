@@ -45,7 +45,7 @@ sources:
     url: "https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/"
     checked: "2026-09-24"
   - label: "USDA-NRCS Soil Data Access (SSURGO) interpretation \"ENG - Dwellings W/O Basements\""
-    url: "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest"
+    url: "https://sdmdataaccess.nrcs.usda.gov/"
     checked: "2026-09-24"
   - label: "Platteville Code of Ordinances Sec. 7-1-30(s) (codified through Ord. No. 2025-851, Dec. 16, 2025)"
     url: "https://library.municode.com/co/platteville/codes/code_of_ordinances?nodeId=CH7HESAAN_ARTINU_S7-1-30ENNU"

@@ -105,7 +105,7 @@ sources:
     url: "https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/"
     checked: "2026-09-25"
   - label: "USDA-NRCS Soil Data Access (SSURGO) interpretation: Dwellings Without Basements"
-    url: "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest"
+    url: "https://sdmdataaccess.nrcs.usda.gov/"
     checked: "2026-09-24"
   - label: "PolyTurf, Installation and Maintenance Instructions: Synthetic Grass for Landscaping (PDF)"
     url: "https://polyturf.com/uploads/files/polyturf_installation_manual_landscape_only.pdf"

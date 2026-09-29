@@ -68,7 +68,7 @@
       ],
       "layerRefs": ["nrcs-soil-eaton", "noaa-hail-max-eaton", "noaa-normals-greeley-unc"],
       "sources": [
-        "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+        "https://sdmdataaccess.nrcs.usda.gov/",
         "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/",
         "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053553&format=json"
       ]
@@ -98,7 +98,7 @@
     { "label": "Town of Eaton news, May 18, 2022: Governor's Ranch and Aspen Meadows non-potable irrigation system (Wayback copy)", "url": "https://web.archive.org/web/20230324065536/https://townofeaton.colorado.gov/news-article/5/18/22-update-on-governors-ranch-and-aspen-meadows-non-potable-irrigation-system", "checked": "2026-09-24" },
     { "label": "Eaton Municipal Code Sec. 7-13-2 (Ord. 668, 2025; codified through Nov. 20, 2025)", "url": "https://library.municode.com/co/eaton/codes/municipal_code?nodeId=CHVIIPLZORE_SXIIINOTUNOARTUINPLSP_S7-13-2PR", "checked": "2026-09-24" },
     { "label": "C.R.S. 37-99-102(6.5), added by HB25-1113 (signed act)", "url": "https://leg.colorado.gov/bill_files/40673/download", "checked": "2026-09-24" },
-    { "label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Eaton", "url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest", "checked": "2026-09-24" },
+    { "label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Eaton", "url": "https://sdmdataaccess.nrcs.usda.gov/", "checked": "2026-09-24" },
     { "label": "NOAA NCEI Storm Events Database, hail reports at Eaton, 2011–2025", "url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/", "checked": "2026-09-24" },
     { "label": "NOAA NCEI U.S. Climate Normals 1991–2020, station GREELEY UNC (USC00053553)", "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053553&format=json", "checked": "2026-09-24" },
     { "label": "Wikipedia, Eaton, Colorado (on US 85 about 7 mi north of Greeley)", "url": "https://en.wikipedia.org/wiki/Eaton,_Colorado", "checked": "2026-09-24" }

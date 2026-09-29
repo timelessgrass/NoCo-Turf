@@ -90,7 +90,7 @@
       ],
       "layerRefs": ["nrcs-soil-timnath", "noaa-normals-fort-collins-4e", "noaa-hail-max-timnath"],
       "sources": [
-        "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+        "https://sdmdataaccess.nrcs.usda.gov/",
         "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053006&format=json",
         "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/"
       ]
@@ -123,7 +123,7 @@
     { "label": "Fort Collins-Loveland Water District, Back of Water Bill 2026 (rates)", "url": "https://fclwd.com/wp-content/uploads/2026/01/Back-of-Water-Bill-2026.pdf", "checked": "2026-09-24" },
     { "label": "Fort Collins-Loveland Water District, Watering Restrictions", "url": "https://fclwd.com/watering-restrictions/", "checked": "2026-09-24" },
     { "label": "Resource Central, Lawn Replacement program page", "url": "https://resourcecentral.org/lawn/", "checked": "2026-09-24" },
-    { "label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Timnath", "url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest", "checked": "2026-09-24" },
+    { "label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Timnath", "url": "https://sdmdataaccess.nrcs.usda.gov/", "checked": "2026-09-24" },
     { "label": "NOAA NCEI U.S. Climate Normals 1991–2020, station FT COLLINS 4E (USC00053006)", "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053006&format=json", "checked": "2026-09-24" },
     { "label": "NOAA NCEI Storm Events Database, hail reports near Timnath, 2011–2025", "url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/", "checked": "2026-09-24" }
   ],

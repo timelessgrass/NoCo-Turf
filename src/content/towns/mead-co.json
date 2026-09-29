@@ -75,7 +75,7 @@
       ],
       "layerRefs": ["nrcs-soil-mead", "nrcs-nunn-weld-shrink-swell", "noaa-hail-max-mead", "noaa-normals-longmont-2ese"],
       "sources": [
-        "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+        "https://sdmdataaccess.nrcs.usda.gov/",
         "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/",
         "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00055116&format=json"
       ]
@@ -110,7 +110,7 @@
     { "label": "Little Thompson Water District, Quarterly News – Summer 2026", "url": "https://www.littlethompsonwd.gov/quarterly-news-from-ltwd-summer-2026", "checked": "2026-09-24" },
     { "label": "Little Thompson Water District, Lawn Replacement", "url": "https://www.ltwd.org/lawn-replacement", "checked": "2026-09-24" },
     { "label": "Resource Central, Lawn Replacement program page", "url": "https://resourcecentral.org/lawn/", "checked": "2026-09-24" },
-    { "label": "USDA-NRCS Soil Data Access (SSURGO), central Mead sample and Nunn series shrink-swell interpretation", "url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest", "checked": "2026-09-24" },
+    { "label": "USDA-NRCS Soil Data Access (SSURGO), central Mead sample and Nunn series shrink-swell interpretation", "url": "https://sdmdataaccess.nrcs.usda.gov/", "checked": "2026-09-24" },
     { "label": "NOAA NCEI Storm Events Database, hail reports near Mead, 2011–2025", "url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/", "checked": "2026-09-24" },
     { "label": "NOAA NCEI U.S. Climate Normals 1991–2020, station LONGMONT 2 ESE (USC00055116)", "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00055116&format=json", "checked": "2026-09-24" },
     { "label": "Mead Municipal Code on Municode (codified through Ord. No. 1075, April 14, 2025)", "url": "https://library.municode.com/co/mead/codes/municipal_code", "checked": "2026-09-24" }

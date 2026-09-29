@@ -77,7 +77,7 @@ sources:
     url: "https://efotg.sc.egov.usda.gov/references/Public/CA/4j-SectionIIengininterp.pdf"
     checked: "2026-09-25"
   - label: "USDA-NRCS Soil Data Access (SSURGO and Web Soil Survey rating tables), queried September 25, 2026"
-    url: "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest"
+    url: "https://sdmdataaccess.nrcs.usda.gov/"
     checked: "2026-09-25"
   - label: "C.R.S. 6-6.5-101 (text via Colorado.Public.Law)"
     url: "https://colorado.public.law/statutes/crs_6-6.5-101"
@@ -142,7 +142,7 @@ Clay doesn't rule out artificial turf. It changes how the ground is prepared, an
 4. Open **Soil Data Explorer**, then **Soil Properties and Qualities**. In the Soil Physical Properties folder, run **Linear Extensibility**, NRCS's measure of shrink-swell.
 5. In the Soil Qualities and Features folder, run **Hydrologic Soil Group**, which rates how fast water soaks in.
 
-What the results mean, in NRCS's own classes ([NRCS technical guide](https://efotg.sc.egov.usda.gov/references/Public/CA/4j-SectionIIengininterp.pdf); [Soil Data Access](https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest)):
+What the results mean, in NRCS's own classes ([NRCS technical guide](https://efotg.sc.egov.usda.gov/references/Public/CA/4j-SectionIIengininterp.pdf); [Soil Data Access](https://sdmdataaccess.nrcs.usda.gov/)):
 
 | Rating | Result | NRCS class |
 |---|---|---|
@@ -212,7 +212,7 @@ In Greeley, the city's water department warns of hard clay a few inches down, un
 
 **It moves with water.** The Colorado Geological Survey says expansive clays can swell up to 20% by volume when wet, and that clay subsoils, usually fairly dry, swell once construction lets water in ([CGS](https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/)). Turf stays flat only while the ground under its base does, so the aim is steady moisture in the clay. Winter adds frost heave: [what a Northern Colorado winter does to turf](/guides/does-artificial-turf-freeze/).
 
-**Water gets through the turf, then slows.** Every Nunn and Weld soil mapped in the area is NRCS hydrologic group C, slow infiltration ([Soil Data Access](https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest)). So the clay has to be shaped to shed water sideways, to somewhere it can go, before any rock goes on it. Puddles and their fixes: [what happens to artificial turf when it rains](/guides/does-artificial-turf-drain/).
+**Water gets through the turf, then slows.** Every Nunn and Weld soil mapped in the area is NRCS hydrologic group C, slow infiltration ([Soil Data Access](https://sdmdataaccess.nrcs.usda.gov/)). So the clay has to be shaped to shed water sideways, to somewhere it can go, before any rock goes on it. Puddles and their fixes: [what happens to artificial turf when it rains](/guides/does-artificial-turf-drain/).
 
 **It compacts only at the right moisture.** Ground must be at or near its optimum moisture content to reach full density, and ground left short of it keeps compressing and deforming after the job ([Pavement Interactive](https://pavementinteractive.org/reference-desk/construction/site-preparation/subgrade-preparation-for-new-pavements/)). Clay is the fussy case: compaction-equipment maker Mikasa says it is plastic when wet, very hard when dry, and needs even moisture plus impact or pressure ([Mikasa](https://www.mikasas.com/assets/service/pdf/tech/20161212About_Soil_Compaction.pdf)). Snowmelt and summer storms move that window; see [when to install artificial turf](/guides/when-to-install-artificial-turf/).
 

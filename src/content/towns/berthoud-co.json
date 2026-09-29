@@ -39,7 +39,7 @@
       ],
       "layerRefs": ["nrcs-soil-berthoud", "cgs-landscaping-near-foundations"],
       "sources": [
-        "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+        "https://sdmdataaccess.nrcs.usda.gov/",
         "https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/"
       ]
     },
@@ -109,7 +109,7 @@
   "sources": [
     { "label": "TPC Colorado at Heron Lakes (par 72, over 7,991 yards; host of the Korn Ferry Tour's The Blue Championship)", "url": "https://tpc.com/colorado/", "checked": "2026-09-24" },
     { "label": "Larimer County parcel GIS: Berthoud plats (Heron Lakes 914 ac; Ludlow Farms 305 ac, platted 2024; Vantage 238 ac)", "url": "https://maps1.larimer.org/arcgis/rest/services/MapServices/Parcels/MapServer", "checked": "2026-09-24" },
-    { "label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Berthoud", "url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest", "checked": "2026-09-24" },
+    { "label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Berthoud", "url": "https://sdmdataaccess.nrcs.usda.gov/", "checked": "2026-09-24" },
     { "label": "Colorado Geological Survey, Expansive Soil & Rock", "url": "https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/", "checked": "2026-09-24" },
     { "label": "Town of Berthoud, Water Supply & Distribution", "url": "https://www.berthoud.org/1406/Water-Supply-Distribution", "checked": "2026-09-24" },
     { "label": "City of Greeley news release, April 17, 2026 (Northern Water's 2026 C-BT quota)", "url": "https://greeleyco.gov/news/2026/20260417-greeley-water-and-sewer-board-declares-adequate-water-year-urges-wise-stewardship/", "checked": "2026-09-24" },

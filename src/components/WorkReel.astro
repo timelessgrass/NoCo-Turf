@@ -11,7 +11,7 @@ import { monthLabel, type Photo as P } from '../data/photos';
 
 interface Props { photos: P[]; layout?: 'sheet' | 'strip'; }
 const { photos, layout = 'sheet' } = Astro.props;
-const full = await Promise.all(photos.map((p) => getImage({ src: p.src, width: Math.min(2000, p.src.width), format: 'webp', quality: 78 })));
+const full = await Promise.all(photos.map((p) => getImage({ src: p.src, width: Math.min(1600, p.src.width), format: 'webp', quality: 62 })));
 const spans = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i'];
 ---
 <div class:list={['reel', `reel--${layout}`]} data-reel>
@@ -35,7 +35,8 @@ const spans = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i'];
 
   <dialog class="lb" data-lb aria-label="Photo viewer">
     <figure class="lb__fig">
-      <img data-lb-img alt="" src={full[0].src} width={full[0].attributes.width} height={full[0].attributes.height} loading="lazy" decoding="async" />
+      {/* The script sets the photo on open; a blank pixel until then, so crawlers don't count a 400 KB image on the page. */}
+      <img data-lb-img alt="" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width={full[0].attributes.width} height={full[0].attributes.height} loading="lazy" decoding="async" />
       <figcaption data-lb-cap></figcaption>
     </figure>
     <div class="lb__ctl">

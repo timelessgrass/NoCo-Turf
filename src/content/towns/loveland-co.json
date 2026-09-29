@@ -85,7 +85,7 @@
       ],
       "layerRefs": ["nrcs-soil-loveland", "noaa-normals-loveland-2n", "noaa-hail-max-loveland"],
       "sources": [
-        "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+        "https://sdmdataaccess.nrcs.usda.gov/",
         "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00055236&format=json",
         "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/"
       ]
@@ -122,7 +122,7 @@
     { "label": "Loveland Reporter-Herald, April 5, 2026: Loveland watering restrictions", "url": "https://www.reporterherald.com/2026/04/05/loveland-watering-restrictions/", "checked": "2026-09-24" },
     { "label": "Fort Collins-Loveland Water District, Who We Are", "url": "https://fclwd.com/who-we-are/", "checked": "2026-09-24" },
     { "label": "Resource Central, Lawn Replacement program page", "url": "https://resourcecentral.org/lawn/", "checked": "2026-09-24" },
-    { "label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Loveland", "url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest", "checked": "2026-09-24" },
+    { "label": "USDA-NRCS Soil Data Access (SSURGO), area-weighted query around central Loveland", "url": "https://sdmdataaccess.nrcs.usda.gov/", "checked": "2026-09-24" },
     { "label": "NOAA NCEI U.S. Climate Normals 1991–2020, station LOVELAND 2N (USC00055236)", "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00055236&format=json", "checked": "2026-09-24" },
     { "label": "NOAA NCEI Storm Events Database, hail reports referenced to Loveland, 2011–2025", "url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/", "checked": "2026-09-24" }
   ],

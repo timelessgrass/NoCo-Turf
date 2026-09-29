@@ -70,7 +70,7 @@
       ],
       "layerRefs": ["nrcs-soil-wellington", "nrcs-nunn-weld-shrink-swell", "noaa-hail-max-wellington", "noaa-normals-fort-collins"],
       "sources": [
-        "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest",
+        "https://sdmdataaccess.nrcs.usda.gov/",
         "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/",
         "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053005&format=json"
       ]
@@ -99,7 +99,7 @@
     { "label": "Town of Wellington, Water Efficiency Program (Resolution No. 15-2025 guidelines)", "url": "https://www.wellingtoncolorado.gov/211/Water-Efficiency-Program", "checked": "2026-09-24" },
     { "label": "ACS 2020–2024 via Census Reporter: Wellington housing (50.3% built 2010 or later)", "url": "https://api.censusreporter.org/1.0/data/show/acs2024_5yr?table_ids=B25035,B25003,B25024,B25034&geo_ids=16000US0827425,16000US0846465,16000US0885485,16000US0877510,16000US0883230,16000US0806255,16000US0839855,16000US0825115,16000US0843220,16000US0869150", "checked": "2026-09-24" },
     { "label": "Larimer County parcel GIS: Wellington plats (Wellington Place, Buffalo Creek, Sage Meadows with plats recorded 2026, Sundance at Daubert Farm)", "url": "https://maps1.larimer.org/arcgis/rest/services/MapServices/Parcels/MapServer", "checked": "2026-09-24" },
-    { "label": "USDA-NRCS Soil Data Access (SSURGO), central Wellington sample and Nunn series shrink-swell interpretation", "url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest", "checked": "2026-09-24" },
+    { "label": "USDA-NRCS Soil Data Access (SSURGO), central Wellington sample and Nunn series shrink-swell interpretation", "url": "https://sdmdataaccess.nrcs.usda.gov/", "checked": "2026-09-24" },
     { "label": "NOAA NCEI Storm Events Database, hail reports near Wellington, 2011–2025", "url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/", "checked": "2026-09-24" },
     { "label": "NOAA NCEI U.S. Climate Normals 1991–2020, station FT COLLINS (USC00053005)", "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053005&format=json", "checked": "2026-09-24" }
   ],

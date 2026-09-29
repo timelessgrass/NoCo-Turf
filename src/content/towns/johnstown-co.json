@@ -77,7 +77,7 @@
       "sources": [
         "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/",
         "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053553&format=json",
-        "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest"
+        "https://sdmdataaccess.nrcs.usda.gov/"
       ]
     }
   ],
@@ -106,7 +106,7 @@
     { "label": "Larimer County parcel GIS: Johnstown plats (Thompson River Ranch 493 ac; 2534 380 ac in 51 plats, latest 2026; Larimer-side median lot about 5,986 sq ft)", "url": "https://maps1.larimer.org/arcgis/rest/services/MapServices/Parcels/MapServer", "checked": "2026-09-24" },
     { "label": "NOAA NCEI Storm Events Database, hail reports near Johnstown, 2011–2025", "url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/", "checked": "2026-09-24" },
     { "label": "NOAA NCEI U.S. Climate Normals 1991–2020, station GREELEY UNC (USC00053553)", "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053553&format=json", "checked": "2026-09-24" },
-    { "label": "USDA-NRCS Soil Data Access (SSURGO), central Johnstown sample and Nunn series shrink-swell interpretation", "url": "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest", "checked": "2026-09-24" }
+    { "label": "USDA-NRCS Soil Data Access (SSURGO), central Johnstown sample and Nunn series shrink-swell interpretation", "url": "https://sdmdataaccess.nrcs.usda.gov/", "checked": "2026-09-24" }
   ],
   "checked": "2026-09-24",
   "needsFromBrian": [

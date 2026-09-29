@@ -112,7 +112,7 @@ sources:
     url: "https://coloradogeologicalsurvey.org/wp-content/uploads/woocommerce_uploads/SP-11.pdf"
     checked: "2026-09-25"
   - label: "USDA-NRCS Soil Data Access (SSURGO), queried around central Berthoud"
-    url: "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest"
+    url: "https://sdmdataaccess.nrcs.usda.gov/"
     checked: "2026-09-25"
   - label: "City of Fort Collins, Building Permits: permit exemptions and retaining wall permits"
     url: "https://www.fortcollins.gov/Business/Permits-and-Licensing/Building-Permits"

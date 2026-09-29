@@ -101,7 +101,7 @@ sources:
     url: "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053005,USC00053553&dataTypes=ANN-SNWD-AVGNDS-GE001WI,ANN-SNWD-AVGNDS-GE005WI,ANN-SNOW-NORMAL&format=json"
     checked: "2026-09-25"
   - label: "USDA-NRCS Soil Data Access (SSURGO), map units around central Windsor, Greeley and Firestone"
-    url: "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest"
+    url: "https://sdmdataaccess.nrcs.usda.gov/"
     checked: "2026-09-25"
   - label: "Firestone Development Code 16.6.4.F.2 (codified through Ord. No. 1072, Dec. 10, 2025)"
     url: "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE"

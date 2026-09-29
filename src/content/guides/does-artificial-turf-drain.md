@@ -77,7 +77,7 @@ sources:
     url: "https://k9grass.com/wp-content/uploads/2022/06/K9Grass-Classic-Plus-Outdoor-CSI-M1266-0322.pdf"
     checked: "2026-09-25"
   - label: "USDA-NRCS Soil Data Access (SSURGO): hydrologic group and saturated hydraulic conductivity"
-    url: "https://sdmdataaccess.sc.egov.usda.gov/Tabular/post.rest"
+    url: "https://sdmdataaccess.nrcs.usda.gov/"
     checked: "2026-09-25"
   - label: "CSU Extension, Soil Drainage (CMG GardenNotes #219)"
     url: "https://extension.colostate.edu/resource/soil-drainage/"
