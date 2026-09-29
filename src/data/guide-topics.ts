@@ -149,7 +149,7 @@ export const GUIDE_TOPICS: GuideTopic[] = [
     paint: 'who decides',
     lede: 'Colorado law, town codes and HOA rules each have a say. What they allow, and who to ask about your address.',
     faqH2: 'Questions about the rules.',
-    cta: { title: 'Not sure what your town or HOA allows?', payoff: 'We’ll check before we quote.' },
+    cta: { title: 'Ready to plan your yard?', payoff: 'Let’s walk it together.' },
   },
   {
     slug: 'water',

@@ -251,7 +251,7 @@ const SERVICE_HOOK: Record<string, (t: string) => string> = {
   'putting-greens': (t) => `We build backyard putting greens with the cups and the break where you want them, on a base that holds up to our freeze and thaw.`,
   'pet-turf': (t) => `We build dog runs that drain fast and rinse clean. No more mud or dead spots.`,
   'playground-turf': (t) => `We put soft, clean turf under swing sets and play sets, with padding matched to how high the kids climb.`,
-  'commercial-turf': (t) => `We build turf for HOA common areas, parks, schools and fields, within Colorado’s rules for new landscapes.`,
+  'commercial-turf': (t) => `We build turf for HOA common areas, parks, schools and fields.`,
 };
 const SERVICE_FALLBACK: Record<string, string> = { 'putting-greens': 'fire-pit', 'playground-turf': 'playset', 'pet-turf': 'gbp-dog-yard' };
 /* No job photo of this kind yet: a scene of the kind of yard (scenes.ts), uncaptioned; commercial pages rotate three. */
@@ -343,7 +343,7 @@ const tsGood = ts && townGood
 {cm && (
 <Base title={cm.d.title} description={cm.d.description} crumbs={cm.crumbs} graph={cm.graph} draft={cm.c.draft} ogImage={cm.og ?? cmOg} about={cm.placeRef} styles={[communityCss]}>
   <PageHero label={`${cm.name} · ${cm.townName}, CO`} crumbs={cm.crumbs} photo={cmHero} caption={Boolean(cm.photo)}
-    lede={`We’ll design your turf or putting green around ${({ hoa: 'your HOA’s rules', 'metro-district': 'your metro district’s rules', both: 'your HOA’s and metro district’s rules' } as Record<string, string>)[cm.governing?.type ?? ''] ?? 'the rules that apply here'}, so you know what’s allowed before you start.`}>
+    lede="What the neighborhood’s own rules say about turf and putting greens. When you’re ready, we’ll walk the yard with you.">
     Turf and putting greens in <PaintWord now>{cm.name}.</PaintWord>
     <div slot="after" class="tsvtop__acts">
       <a class="btn btn--paint" href="#estimate" data-cta="community-hero-quote">Book a yard walk <Icon name="arrow" /></a>

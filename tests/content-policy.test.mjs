@@ -567,3 +567,20 @@ test('the real repo passes (towns, guides and work may not exist yet)', () => {
   assert.equal(r.status, 0, r.stdout + r.stderr);
   assert.match(r.stdout, /Town gate/);
 });
+
+test('Brian\'s no stands: no page promises that NoCo checks town or HOA rules (claims register, 2026-09-29)', () => {
+  const no = JSON.parse(read('.site/truth/claims.json')).claims.find((c) => c.claim === 'We check your town and HOA rules before we quote');
+  assert.ok(no, 'the protective claims entry is in .site/truth/claims.json');
+  assert.equal(no.approved, false);
+  const norm = (s) => ` ${s.toLowerCase().replace(/[’']/g, ' ').replace(/[^a-z0-9]+/g, ' ').trim()} `;
+  const phrases = [no.claim, ...no.aliases].map(norm);
+  // check-content holds records to the register; the templates, sales copy and registries are held here.
+  const files = fs.readdirSync(path.join(root, 'src'), { recursive: true })
+    .map((f) => path.join('src', String(f)))
+    .filter((f) => /\.(astro|ts|mjs|md|json)$/.test(f) && !f.startsWith(path.join('src', 'data', 'layers')));
+  assert.ok(files.length > 100, `scanned ${files.length} files`);
+  for (const f of files) {
+    const t = norm(read(f));
+    for (const p of phrases) assert.ok(!t.includes(p), `${f} says "${p.trim()}"`);
+  }
+});

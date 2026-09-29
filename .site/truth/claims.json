@@ -309,6 +309,38 @@
       "aliases": [],
       "checked": "2026-09-28",
       "note": "src/data/reviews.ts is the one source for the rating and the quotes."
+    },
+    {
+      "claim": "We check your town and HOA rules before we quote",
+      "status": "UNKNOWN",
+      "source": null,
+      "source_detail": null,
+      "approved": false,
+      "approved_by": null,
+      "receipt": null,
+      "receipt_needed": "Nothing: Brian asked for this off the site. It returns only if he asks for it in his own words.",
+      "aliases": [
+        "we check the rules",
+        "check the rules first",
+        "rules checked first",
+        "we check your town",
+        "we check each town",
+        "we check your hoa",
+        "check before we quote",
+        "check what your town and hoa allow",
+        "design your turf or putting green around",
+        "we have read its design rules",
+        "we ve read its design rules",
+        "we know the rules",
+        "we handle hoa approval",
+        "we handle the hoa",
+        "planned around colorado",
+        "planned around the town",
+        "planned around your town",
+        "putting greens that meet them"
+      ],
+      "checked": "2026-09-29",
+      "note": "Declined by Brian, 2026-09-29 (text to Ty about the preview's trust strip: \"Love it. Just remove this one line.\" — the line was \"We check the rules first\"). Protective entry: rule facts stay as information for the homeowner; NoCo never promises to check them. tests/content-policy.test.mjs scans the templates for these phrases too."
     }
   ]
 }

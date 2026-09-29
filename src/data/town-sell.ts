@@ -28,7 +28,7 @@ export const TOWN_SELL: Record<string, TownSell> = {
     good: ['Evans keeps turf out of public and common areas, not your own yard.', 'Evans declared a drought emergency in April 2026. Turf stays green without the sprinklers.', 'Evans’ water programs cover plants and sprinkler checks, not turf.'],
   },
   'firestone-co': {
-    hook: 'Firestone has its own turf rules and a permit. We build lawns, dog runs and putting greens that meet them.',
+    hook: 'We build turf lawns, dog runs and putting greens in Firestone, a town with its own turf rules and permit.',
     good: ['Every Firestone turf job needs a Town permit, free for houses.', 'Turf can cover up to 75% of a back or side yard, and in practice a little less.', 'Firestone sets minimums for the turf, base and infill. Ask any installer to show their spec meets them.'],
   },
   'fort-collins-co': {
@@ -36,7 +36,7 @@ export const TOWN_SELL: Record<string, TownSell> = {
     good: ['Fort Collins’ turf ban covers new development. Existing house lots are exempt.', HOA, 'The city’s Xeriscape rebate pays for plants, not turf.'],
   },
   'frederick-co': {
-    hook: 'We build turf, dog runs and putting greens in Frederick, planned around the town’s 2026 rules.',
+    hook: 'We build turf, dog runs and putting greens in Frederick, where 2026 rules limit where turf can go.',
     good: ['Since June 1, 2026, Frederick allows turf only where it’s functional. How that applies to a backyard isn’t settled, so ask Frederick Planning.', 'Frederick’s lawn rebate pays for plants, never for turf.', HOA],
   },
   'greeley-co': {
