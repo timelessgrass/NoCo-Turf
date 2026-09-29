@@ -22,11 +22,16 @@ interface Props {
 }
 const { photo, sizes = '100vw', eager = false, class: cls, focus, widths = [480, 800, 1200, 1600, 1920], vt, quality = 66 } = Astro.props;
 const w = widths.filter((x) => x <= photo.src.width);
+/* The <img> fallback (what crawlers and old browsers load) is a 1200px JPEG, never the camera-size original:
+   the Google-listing uploads are about 1 MB each at full size (Ahrefs "image file size too large", 2026-09-29). */
+const fallbackWidth = Math.min(1200, photo.src.width);
 ---
 <Picture
   src={photo.src}
   alt={photo.alt}
   widths={w.length ? w : [photo.src.width]}
+  width={fallbackWidth}
+  height={Math.round((fallbackWidth / photo.src.width) * photo.src.height)}
   sizes={sizes}
   formats={['webp']}
   fallbackFormat="jpg"

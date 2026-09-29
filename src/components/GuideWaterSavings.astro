@@ -249,11 +249,16 @@ const json = JSON.stringify({ gps: GPS, inch: IRRIGATION_IN, gpi: GAL_PER_SQFT_I
         say = `${a === b ? money(a) : `${money(a)} to ${money(b)}`} a year at ${r.name} rates.`;
         src = '';
       }
-      if (r) src = `Source: <a href="${esc(r.url)}" rel="noopener">${esc(r.src)}</a> · checked ${esc(r.checked)} · rates ${esc(r.eff)}. Base charges and sewer are not counted.`;
       $('[data-gws-usd]').textContent = big;
       $('[data-gws-usd-u]').hidden = big === 'Not published';
       $('[data-gws-why]').innerHTML = why;
-      $('[data-gws-src]').innerHTML = src;
+      // The source line is built with the DOM: an href template in this inlined script reads as a broken link to crawlers.
+      const srcEl = $('[data-gws-src]');
+      if (r) {
+        const a = document.createElement('a');
+        a.href = r.url; a.rel = 'noopener'; a.textContent = r.src;
+        srcEl.replaceChildren('Source: ', a, ` · checked ${r.checked} · rates ${r.eff}. Base charges and sewer are not counted.`);
+      } else srcEl.innerHTML = src; // src0 is the server-built line, or empty
       clearTimeout(timer);
       timer = window.setTimeout(() => { live.textContent = `${n(gal)} gallons a year for ${n(feet)} square feet. ${say}`; }, 700);
     };

@@ -371,7 +371,14 @@ const STEPS = ['Your project', 'Your town', 'Size', 'HOA and timing', 'Contact']
         const out = await res.json().catch(() => ({}));
         if (res.ok && out.ok) { location.href = '/thanks/'; return; }
         if (res.status === 422) { status.textContent = 'Add a phone number or email so we can reach you.'; tel.focus(); }
-        else status.innerHTML = phoneLink ? `We couldn't send that just now, but your answers are still here. <a href="${phoneLink.href}">Call ${phoneLink.textContent?.replace(/^Call\s*/, '')}</a> and we'll take it by phone.` : "We couldn't send that just now, but your answers are still here. Please try again.";
+        else if (phoneLink) {
+          // Built with the DOM, not an HTML string: an href template in the inlined script reads as a
+          // broken link to crawlers (Ahrefs flagged it on every page, 2026-09-29).
+          const call = document.createElement('a');
+          call.href = phoneLink.href;
+          call.textContent = `Call ${phoneLink.textContent?.replace(/^Call\s*/, '') ?? ''}`;
+          status.replaceChildren("We couldn't send that just now, but your answers are still here. ", call, " and we'll take it by phone.");
+        } else status.textContent = "We couldn't send that just now, but your answers are still here. Please try again.";
       } catch {
         status.textContent = "We couldn't reach the server, but your answers are still here. Please try again, or call us.";
       } finally {
