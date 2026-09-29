@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: yard-design
 kind: guide
 title: "Turf Over a Concrete Patio: Keep the Slab or Pull It? | NoCo Turf Co."

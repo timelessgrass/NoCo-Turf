@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: yard-design
 kind: guide
 title: "Backyard Sports Area on Artificial Turf: What It Needs | NoCo Turf Co."

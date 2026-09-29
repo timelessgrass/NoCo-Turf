@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: weather
 kind: guide
 title: "Artificial Turf Snow Removal and Ice Melt | NoCo Turf Co."

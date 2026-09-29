@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: commercial
 kind: guide
 title: "Golf Club Synthetic Turf: Tee Lines, Practice Greens | NoCo Turf Co."

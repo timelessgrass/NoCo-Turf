@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: installation
 kind: guide
 title: "What Goes Under Artificial Turf: Base, Depth, Class 6 | NoCo Turf Co."

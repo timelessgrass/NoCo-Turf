@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: buying
 kind: guide
 title: 'What a "Limited Warranty" on Turf Leaves Out | NoCo Turf Co.'

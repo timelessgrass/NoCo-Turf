@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: installation
 kind: guide
 title: "Turf on a Custom Home Build: Plans, Approvals, Timing | NoCo Turf Co."

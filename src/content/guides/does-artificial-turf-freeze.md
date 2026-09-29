@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: weather
 kind: guide
 title: "Does Artificial Turf Freeze? What Winter Does to It | NoCo Turf Co."

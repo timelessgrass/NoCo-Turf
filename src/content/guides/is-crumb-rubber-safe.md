@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: safety
 kind: guide
 title: "Is Crumb Rubber Turf Safe? What the Research Found | NoCo Turf Co."

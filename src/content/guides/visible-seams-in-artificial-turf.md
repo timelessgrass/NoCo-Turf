@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: care-and-repair
 kind: problem
 title: "Visible Seams in Artificial Turf: Causes and Fixes | NoCo Turf Co."

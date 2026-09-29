@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: installation
 kind: guide
 title: "Artificial Turf on Clay Soil in Northern Colorado | NoCo Turf Co."

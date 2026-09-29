@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: yard-design
 kind: guide
 title: "Artificial Turf Around Trees Without Hurting Them | NoCo Turf Co."

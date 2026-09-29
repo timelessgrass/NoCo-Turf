@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: care-and-repair
 kind: problem
 title: "Artificial Turf Sinking or Uneven: Causes and Fixes | NoCo Turf Co."

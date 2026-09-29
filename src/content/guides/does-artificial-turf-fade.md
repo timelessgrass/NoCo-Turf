@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: weather
 kind: guide
 title: "Does Artificial Turf Fade in the Colorado Sun? | NoCo Turf Co."

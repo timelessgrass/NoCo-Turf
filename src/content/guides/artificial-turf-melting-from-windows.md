@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: weather
 kind: problem
 title: "Artificial Turf Melting From Window Reflection | NoCo Turf Co."
@@ -212,7 +212,7 @@ Because a double-pane window can act like a shallow curved mirror.
 - **Low-E reflects more.** A Department of Energy spokesperson quoted by NAHB put clear glass at about 10 percent of the sun's energy reflected and Low-E glass at 30 to 50 percent. NAHB adds that argon-filled Low-E windows bow more often, because argon slowly escapes through the seal.
 - **Clear glass isn't off the hook.** At a grazing angle, under 10 degrees, clear glass reflects about as much as Low-E, according to Cardinal.
 
-Polyethylene is the yarn the council's warning names. Which yarn handles heat better is in our [guide to nylon and polyethylene turf](/guides/nylon-vs-polyethylene-turf/); how hot turf gets in plain sun is in [how hot artificial turf gets](/guides/how-hot-does-artificial-turf-get/).
+Polyethylene is the yarn the council's warning names. How hot turf gets in plain sun is in [how hot artificial turf gets](/guides/how-hot-does-artificial-turf-get/).
 
 ## Does Northern Colorado's altitude change the odds?
 

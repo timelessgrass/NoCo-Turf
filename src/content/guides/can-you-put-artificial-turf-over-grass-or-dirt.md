@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: installation
 kind: problem
 title: "Can Artificial Turf Go Over Grass, Dirt or Rock? | NoCo Turf Co."

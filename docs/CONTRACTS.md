@@ -236,9 +236,9 @@ is the file name, never the `slug` field alone).
 
 **Gate — `src/lib/community-gate.mjs` (`communityGate`).** A page passes with ≥3 substantive blocks (30 words of
 paragraphs and takeaway, the town × service rule), ≥2 of those `own`, a source or layer reference on every block
-that is not a job, photo or review, a real photo from `src/data/photos.ts` that belongs here (its optional
-`community` is this community's id, or its `place` names the community; a photo from elsewhere in the town does not),
-and a job or review block that names the community. The own rule compares it with the other pages of its town.
+that is not a job, photo or review. Since 2026-09-29 a photo that belongs here (its optional `community` is this
+community's id, or its `place` names the community) and a job or review block that names the community are to-dos,
+not the gate. The own rule compares it with the other pages of its town.
 Returns `{ pass, reasons }`.
 
 **Visibility (`communityVisibility`, one rule for the route, the links in and the sitemap).** PRELAUNCH preview: every
@@ -290,7 +290,8 @@ putting greens on a putting-green design guide, say; check-content fails an id t
 check-content also fails a guide that shares its title or its normalized `answer.question` with another, or
 more than 25% of its five-word runs (WARN above 15%). A guide goes live only with one of Brian's job photos in
 `photos`, or an approved customer quote in `reviews` (src/data/reviews.ts ids, printed by GuideReviews) that speaks to
-its subject, or a place on check-content's RESEARCH_CLEARED list, and only about confirmed services (`related.services`, `src/data/services.ts`); its `needsFromBrian` list keeps
+its subject, or a place on check-content's RESEARCH_CLEARED list (since 2026-09-29 missing first-hand material is a WARN, not
+a FAIL), and only about confirmed services (`related.services`, `src/data/services.ts`); its `needsFromBrian` list keeps
 printing after it ships (`.site/decisions/2026-09-28-publish-gates.md`). Release guides in batches as he answers them. Answer first (the `answer` block is the page's first 60 words
 in substance). Question-shaped H2s. Tables with real, dated numbers from layer records. Where law or a city
 rule is unsettled, hedge with "it depends … ask {the town's} Planning" — NOT "we confirm": that is a NoCo process

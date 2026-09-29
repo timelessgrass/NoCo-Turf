@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: care-and-repair
 kind: problem
 title: "Repair or Replace Artificial Turf: Signs It's Worn Out | NoCo Turf Co."
@@ -26,7 +26,7 @@ faq:
   - q: "What time of year works for replacing turf?"
     a: "The same seasons as a new install, since that is what a replacement is once the old turf is out. Our guide to when to install artificial turf in Northern Colorado covers cold-weather stretching and seaming."
   - q: "Should I go back to real grass instead?"
-    a: "It's an option, but the aggregate base that suits turf won't grow a lawn, so most of it comes out and the soil gets rebuilt. Our guide to replacing artificial turf with grass covers the base, the soil and the watering rules for new sod."
+    a: "It's an option, but the aggregate base that suits turf won't grow a lawn, so most of it comes out and the soil gets rebuilt."
 layerRefs:
   - when-to-replace-artificial-turf.fusionturf-rehab-or-replace
   - when-to-replace-artificial-turf.fusionturf-refresh-signs

@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: installation
 kind: problem
 title: "Does Artificial Turf Drain? Rain, Puddles and Clay | NoCo Turf Co."

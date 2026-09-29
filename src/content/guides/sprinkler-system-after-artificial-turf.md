@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: installation
 kind: guide
 title: "Sprinklers After Artificial Turf: Cap, Convert or Keep | NoCo Turf Co."

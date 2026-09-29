@@ -49,3 +49,14 @@
   written only from what Brian's own photo from that town shows (no dates or numbers invented).
 - Neighborhood pages stay held: no photo is placed inside a neighborhood (GPS was never kept).
 
+## Maximum safe set, 2026-09-29 (Ty: "make as many pages as possible without violating Google's policies")
+
+- Neighborhood pages publish on their own rules research, like town pages; a photo and a job there are to-dos
+  (src/lib/community-gate.mjs). 26 of 30 publish. Held: Bella Ridge (no home lots yet), Hawkstone, Harmony Club and
+  Mad Russian (no posted rules to quote: a page for a place name with nothing to say is the doorway pattern).
+- Guides: first-hand material is a to-do (check-content WARN), not a block; every guide is still sourced and only
+  about confirmed services. 102 of 109 publish. Held: rooftops, garage/basement and indoor greens, used turf (work NoCo
+  doesn't confirm), the do-people-regret tally (not re-counted), and two Firestone greens readings (Planning to confirm).
+- Town × service pages stay held but for the 3 with local jobs: as a 17 × 4 set they are the pattern Google's doorway
+  policy names, and their local rules already live on the town pages. Each unlocks with a real job there.
+

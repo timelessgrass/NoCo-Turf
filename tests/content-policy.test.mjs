@@ -322,7 +322,7 @@ test('a published guide needs one of Brian\'s job photos and only confirmed rela
   write('src/content/guides/fixture-turf-guide.md', guide({ ...GUIDE, status: 'published', related: { services: ['turf-repair'], towns: ['fort-collins-co'] } }, body));
   const bare = run();
   assert.equal(bare.status, 1, bare.out);
-  assert.match(bare.out, /published with nothing first-hand/);
+  assert.match(bare.out, /! published with nothing first-hand/, 'a warning since 2026-09-29, not a fail');
   assert.match(bare.out, /its related service turf-repair is not confirmed in src\/data\/services\.ts/);
 
   write('src/content/guides/fixture-turf-guide.md', guide({ ...GUIDE, status: 'published', photos: ['dusk'], related: { services: [], towns: ['fort-collins-co'] }, needsFromBrian: ['How deep he digs in clay'] }, body));

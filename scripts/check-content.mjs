@@ -982,7 +982,8 @@ export async function run({ root = REPO, files = [], log = console.log } = {}) {
       // photos, and may point only at services he has confirmed. His open questions stay listed after it ships.
       for (const r of d.reviews ?? []) if (!quoteIds.has(r)) out.push(['FAIL', `reviews: "${r}" is not a quote id in src/data/reviews.ts`]);
       if (published) {
-        if (!RESEARCH_CLEARED.has(id) && !(d.photos ?? []).some((ph) => photoIds.has(ph)) && !(d.reviews ?? []).some((r) => quoteIds.has(r))) out.push(['FAIL', 'published with nothing first-hand — a guide goes live with at least one of Brian\'s job photos (`photos`) or an approved customer quote (`reviews`) that speaks to its subject (its needsFromBrian list says what to ask him)']);
+        // Ty, 2026-09-29: publish every sourced guide on a confirmed service; first-hand material is the to-do that strengthens it.
+        if (!RESEARCH_CLEARED.has(id) && !(d.photos ?? []).some((ph) => photoIds.has(ph)) && !(d.reviews ?? []).some((r) => quoteIds.has(r))) out.push(['WARN', 'published with nothing first-hand — a guide goes live with at least one of Brian\'s job photos (`photos`) or an approved customer quote (`reviews`) that speaks to its subject (its needsFromBrian list says what to ask him)']);
         for (const sv of d.related?.services ?? []) if (serviceSlugs.has(sv) && serviceConfirmed.get(sv) !== true) out.push(['FAIL', `published, but its related service ${sv} is not confirmed in src/data/services.ts — a guide goes live only about work NoCo confirms it does`]);
       }
       if ((d.needsFromBrian ?? []).length) out.push(['WARN', `${published ? 'published with open questions for Brian' : 'needs from Brian'}: ${d.needsFromBrian.join(' | ')}`]);

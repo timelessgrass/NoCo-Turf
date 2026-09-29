@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: safety
 kind: guide
 title: "Does Artificial Turf Attract Bugs or Mosquitoes? | NoCo Turf Co."

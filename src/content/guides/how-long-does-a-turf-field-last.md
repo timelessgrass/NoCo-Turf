@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: commercial
 kind: guide
 title: "How Long a Synthetic Turf Sports Field Lasts | NoCo Turf Co."
@@ -32,7 +32,7 @@ faq:
     layerRefs:
       - longmont-co.dry-creek-turf-care
   - q: "Can pieces of an old field go into a backyard or a batting cage?"
-    a: "Often, yes. The Synthetic Turf Council lists residential landscapes, pet parks and batting cages among common second uses for old field turf. SportsField Management cautions that the most-played areas of a worn-out field may be too worn to reuse. What to check before laying a used roll in a yard is in our [guide to used artificial turf](/guides/used-artificial-turf/)."
+    a: "Often, yes. The Synthetic Turf Council lists residential landscapes, pet parks and batting cages among common second uses for old field turf. SportsField Management cautions that the most-played areas of a worn-out field may be too worn to reuse."
     layerRefs:
       - how-long-does-a-turf-field-last.stc-eol-repurpose-turf
       - how-long-does-a-turf-field-last.sfm-2022-worn-areas

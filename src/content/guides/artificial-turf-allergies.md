@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: safety
 kind: guide
 title: "Artificial Turf and Allergies in Northern Colorado | NoCo Turf Co."

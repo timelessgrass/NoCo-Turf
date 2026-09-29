@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: care-and-repair
 kind: guide
 title: "How to Clean Artificial Turf, and What Can Rinse Off | NoCo Turf Co."

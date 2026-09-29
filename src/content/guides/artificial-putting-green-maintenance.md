@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: putting-greens
 kind: guide
 title: "Backyard Putting Green Maintenance, Season by Season | NoCo Turf Co."

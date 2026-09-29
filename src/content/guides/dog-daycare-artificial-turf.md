@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: commercial
 kind: guide
 title: "Turf for Dog Daycares, Kennels and Dog Parks | NoCo Turf Co."

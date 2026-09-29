@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: yard-design
 kind: guide
 title: "Artificial Turf on Slopes, Hillsides and Terraces | NoCo Turf Co."

@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: installation
 kind: guide
 title: "Gopher and Vole Wire Under Artificial Turf | NoCo Turf Co."

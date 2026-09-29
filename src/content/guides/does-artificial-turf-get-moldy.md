@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: care-and-repair
 kind: problem
 title: "Does Artificial Turf Get Moldy or Grow Moss? | NoCo Turf Co."

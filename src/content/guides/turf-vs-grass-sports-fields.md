@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: commercial
 kind: comparison
 title: "Synthetic or Grass Sports Field in Northern Colorado | NoCo Turf Co."

@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: care-and-repair
 kind: problem
 title: "Artificial Turf Wrinkles and Ripples After Install | NoCo Turf Co."

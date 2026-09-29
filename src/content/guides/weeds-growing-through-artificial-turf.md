@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: care-and-repair
 kind: problem
 title: "Why Weeds Grow Through Artificial Turf | NoCo Turf Co."

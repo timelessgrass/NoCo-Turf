@@ -61,16 +61,9 @@ export function communityGate(data, photos = []) {
     }
   }
 
-  const name = data?.name ?? 'this community';
-  const town = townBySlug[data?.town]?.name ?? 'its town';
-  if (!data?.photo) {
-    reasons.push(`no photograph — needs a real photo from src/data/photos.ts whose place names ${name} (or whose community is ${data?.town && data?.slug ? communityId(data.town, data.slug) : 'this community'})`);
-  } else {
-    const p = photoOf(photos, data.photo);
-    if (!p) reasons.push(`photo "${data.photo}" is not in src/data/photos.ts`);
-    else if (!photoBelongs(p, data)) reasons.push(`photo "${data.photo}" was taken ${p.place ?? 'somewhere unnamed'} — a ${name} page needs a photo whose place names ${name}, or tagged community ${data?.town && data?.slug ? communityId(data.town, data.slug) : ''}`);
-  }
-  if (!proofBlocks(blocks, name).length) reasons.push(`no job or review from ${name} — needs a job block from Brian's ledger (own, ${SUBSTANTIVE_WORDS}+ words, naming ${name}; season and size in words, or cite the record that holds the numbers) or a review block that names ${name} and links to it`);
+  // Ty, 2026-09-29: "You don't need a specific photo for each neighborhood page." A photo from the neighborhood and a
+  // job there are to-dos (scripts/check-content.mjs lists them), not the gate; the page publishes on its own rules
+  // research, like a town page.
   return { pass: reasons.length === 0, reasons };
 }
 

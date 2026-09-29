@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: pets
 kind: problem
 title: "Dog Urine Smell in Artificial Turf: Fixes in Order | NoCo Turf Co."

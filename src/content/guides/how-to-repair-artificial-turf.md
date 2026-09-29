@@ -1,5 +1,5 @@
 ---
-status: draft
+status: published
 topic: care-and-repair
 kind: guide
 title: "How to Patch a Burn, Hole or Tear in Artificial Turf | NoCo Turf Co."
