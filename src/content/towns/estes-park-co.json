@@ -1,0 +1,170 @@
+{
+  "status": "published",
+  "slug": "estes-park-co",
+  "name": "Estes Park",
+  "region": "loveland-berthoud",
+  "title": "Artificial Turf in Estes Park, CO | NoCo Turf Co.",
+  "description": "Artificial turf in Estes Park, CO: no Town turf rule, wells that can’t water a lawn, 104 inches of snow and rocky ground. What it means for your yard.",
+  "h1": "Estes Park has no town rule on artificial turf",
+  "lede": "Neither of the Town’s codes mentions artificial turf. What shapes a turf yard here is the rock, the snow and, outside town water, what a well permit allows.",
+  "answer": {
+    "question": "Can you put artificial turf in a yard in Estes Park?",
+    "answer": "Yes. NoCo Turf Co. installs artificial turf in Estes Park, Colorado, where neither the development code nor the municipal code has a rule on artificial turf, and the landscape standards are written for new subdivisions and development plans. Bedrock can sit about a foot down, and the nearest weather station averages 104 inches of snow a year."
+  },
+  "blocks": [
+    {
+      "kind": "ordinance",
+      "own": true,
+      "kicker": "Town code",
+      "h2": "Estes Park’s codes don’t mention artificial turf.",
+      "paras": [
+        "We searched both of the Town’s codes, the Estes Park Development Code and the Municipal Code, for artificial turf, synthetic turf and artificial grass, and neither has a rule about them. The only place the word turf comes up is the irrigation standard for newly installed landscapes, which asks for drip lines in the areas that aren’t turf.",
+        "The development code’s landscape standards, in Section 7.5, apply to residential subdivisions created after the code was adopted and to development that needs a development plan review. If your yard isn’t part of either, they aren’t written for it, and Community Development can confirm. The Town is updating its development code through 2025 and 2026, so it’s worth a call before you plan."
+      ],
+      "layerRefs": [
+        "estes-park-codes-no-turf-provision",
+        "estes-park-epdc-7-5-applicability"
+      ],
+      "sources": [
+        "https://library.municode.com/co/estes_park/codes/development_code?nodeId=CH7GEDEST_S7.5LABU",
+        "https://library.municode.com/co/estes_park/codes/municipal_code",
+        "https://estespark.colorado.gov/developmentcode"
+      ]
+    },
+    {
+      "kind": "utility",
+      "own": true,
+      "kicker": "Water",
+      "h2": "Town water ends at a mapped edge, and a well may not water a lawn at all.",
+      "paras": [
+        "The Town of Estes Park’s Water Division serves about 5,000 accounts. Its area runs from the east edge of town to the turn-in to Eagle Rock School on Dry Gulch Road, McCreery Lane on Devil’s Gulch Road, the southwest side of Carriage Hills off Highway 7, the Fish Hatchery area off Fall River Road and the Thunder Mountain Subdivision.",
+        "Outside that area, a home’s water comes from another provider or its own well. CSU Extension notes that most private wells drilled since May 8, 1972 on lots under 35 acres are permitted for household use only, and that their water can’t be used for any outside use. If your permit says household use only, a watered lawn isn’t allowed, and turf needs no watering."
+      ],
+      "layerRefs": [
+        "estes-park-water-division",
+        "estes-park-co.household-use-wells"
+      ],
+      "sources": [
+        "https://estespark.colorado.gov/water",
+        "https://extension.colostate.edu/gilpin/?p=472"
+      ]
+    },
+    {
+      "kind": "climate",
+      "own": true,
+      "kicker": "Mountain weather",
+      "h2": "Estes Park averages 104 inches of snow and a frost-free season of about 109 days.",
+      "paras": [
+        "The nearest NOAA station averages 104 inches of snow and 17.42 inches of precipitation a year, with 183.6 nights at or below freezing (1991–2020 normals). In a typical year the last spring freeze comes around May 30 and the first fall freeze around September 17, a frost-free season of about 109 days.",
+        "That is a short window to get sod or seed to take, and a long season of snow on the yard. Turf has nothing to establish, and summer heat is rarely the issue it is on the plains: the same station averages 1.7 days a year at or above 90°F."
+      ],
+      "layerRefs": [
+        "noaa-normals-estes-park"
+      ],
+      "sources": [
+        "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00052761&format=json"
+      ]
+    },
+    {
+      "kind": "soil",
+      "own": true,
+      "kicker": "Rock and slope",
+      "h2": "Much of central Estes Park sits on shallow, rocky soil over bedrock.",
+      "paras": [
+        "Soil surveys around central Estes Park map mostly Cathedral-Ratake complexes on 5 to 35 percent slopes, where bedrock can sit about 10 to 15 inches down, and rock-outcrop complexes over about a quarter of the area sampled.",
+        "On the plains the problem is clay that swells. Here it is rock and grade: a crew can meet rock before it reaches a normal base depth, and on a slope the turf has to be fastened so it doesn’t creep. Soils change from lot to lot, which is why the yard walk comes first."
+      ],
+      "layerRefs": [
+        "nrcs-soil-estes-park"
+      ],
+      "sources": [
+        "https://sdmdataaccess.nrcs.usda.gov/"
+      ]
+    },
+    {
+      "kind": "housing",
+      "own": true,
+      "kicker": "Empty weeks",
+      "h2": "More than a third of Estes Park homes sat empty on Census day.",
+      "paras": [
+        "On Census day in April 2020, 1,587 of Estes Park’s 4,378 homes were vacant, about 36%. In a town where so many houses sit empty for weeks at a time, a lawn still needs water and mowing while nobody is there to do it. Turf doesn’t, and it looks the same the day you come back."
+      ],
+      "layerRefs": [
+        "estes-park-co.census-2020-vacancy"
+      ],
+      "sources": [
+        "https://www2.census.gov/programs-surveys/decennial/2020/data/01-Redistricting_File--PL_94-171/Colorado/co2020.pl.zip"
+      ]
+    }
+  ],
+  "sections": [],
+  "faq": [
+    {
+      "q": "Can I put artificial turf in my yard in Estes Park?",
+      "a": "We found no Town rule against it: neither the Estes Park Development Code nor the Municipal Code mentions artificial turf, and the development code’s landscape standards are written for new subdivisions and development plans. If you’re in an HOA, its design review still applies, and Colorado law bars an HOA from banning turf in the backyard of a detached home."
+    },
+    {
+      "q": "My house is on a well. Can I water a lawn?",
+      "a": "Check your well permit. CSU Extension notes that most wells drilled since May 8, 1972 on lots under 35 acres are permitted for household use only, which rules out any outside use. Turf needs no watering, but on a household-use well even rinsing it counts as outside use, so read the permit first."
+    },
+    {
+      "q": "What happens to artificial turf under Estes Park snow?",
+      "a": "It sits under the snow the way a lawn does and is there when it melts. If you clear a path or a dog spot, use a plastic shovel or a leaf blower and leave a thin layer; our [snow removal guide](/guides/artificial-turf-snow-removal/) covers the rest, including which ice melts to keep off it."
+    }
+  ],
+  "nearby": [
+    "loveland-co",
+    "berthoud-co",
+    "fort-collins-co",
+    "windsor-co"
+  ],
+  "sources": [
+    {
+      "label": "Estes Park Development Code §7.5.B, Landscaping and Buffers (codified through Ord. No. 09-25, June 24, 2025)",
+      "url": "https://library.municode.com/co/estes_park/codes/development_code?nodeId=CH7GEDEST_S7.5LABU",
+      "checked": "2026-09-30"
+    },
+    {
+      "label": "Estes Park Municipal Code on Municode (Supplement 35 Update 3, May 26, 2026)",
+      "url": "https://library.municode.com/co/estes_park/codes/municipal_code",
+      "checked": "2026-09-30"
+    },
+    {
+      "label": "Town of Estes Park, Estes Park Development Code and Comprehensive Plan (Development Code Updates 2025-2026)",
+      "url": "https://estespark.colorado.gov/developmentcode",
+      "checked": "2026-09-30"
+    },
+    {
+      "label": "Town of Estes Park, Water Division",
+      "url": "https://estespark.colorado.gov/water",
+      "checked": "2026-09-30"
+    },
+    {
+      "label": "CSU Extension, Gilpin County: Colorado Water Law and How to Garden Anyway (Irene Shonle)",
+      "url": "https://extension.colostate.edu/gilpin/?p=472",
+      "checked": "2026-09-30"
+    },
+    {
+      "label": "NOAA NCEI U.S. Climate Normals 1991–2020, station ESTES PARK 3 SSE (USC00052761)",
+      "url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00052761&format=json",
+      "checked": "2026-09-30"
+    },
+    {
+      "label": "USDA-NRCS Soil Data Access (SSURGO), point-grid query around central Estes Park",
+      "url": "https://sdmdataaccess.nrcs.usda.gov/",
+      "checked": "2026-09-30"
+    },
+    {
+      "label": "U.S. Census Bureau, 2020 Census Redistricting Data (P.L. 94-171), Colorado, Table H1: Estes Park 4,378 housing units, 1,587 vacant",
+      "url": "https://www2.census.gov/programs-surveys/decennial/2020/data/01-Redistricting_File--PL_94-171/Colorado/co2020.pl.zip",
+      "checked": "2026-09-24"
+    }
+  ],
+  "checked": "2026-09-30",
+  "needsFromBrian": [
+    "Named or described Estes Park jobs: month, rough size, use",
+    "Camera-original photos of an Estes Park job, before and after",
+    "How far into the Estes Valley NoCo goes (Glen Haven, Allenspark, Drake) and any trip minimum",
+    "Google reviews from Estes Park customers that name the town, with consent to quote first name and last initial"
+  ]
+}

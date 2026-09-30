@@ -329,7 +329,7 @@ test('the CLI exits 1 on a failing fixture and 0 on a clean one', () => {
     fs.writeFileSync(path.join(dir, 'city-codes.json'), JSON.stringify(all));
     const ok = cli(TODAY);
     assert.equal(ok.status, 0, ok.stdout);
-    assert.match(ok.stdout, new RegExp(`check-layers: 17 records in ${LAYER_FILES.length} files`));
+    assert.match(ok.stdout, new RegExp(`check-layers: 18 records in ${LAYER_FILES.length} files`));
     assert.equal(cli('2027-10-01').status, 1, 'a year later every record is stale');
   } finally {
     fs.rmSync(dir, { recursive: true, force: true });

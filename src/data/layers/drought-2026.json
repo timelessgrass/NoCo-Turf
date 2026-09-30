@@ -478,5 +478,29 @@
       "403"
     ],
     "notes": "A June 2024 archived copy said: no watering 10 a.m.–6 p.m.; even/odd days; HOA common areas every other day; 30-day new-lawn permit; the rules apply to potable and non-potable (Governor's Ranch/Aspen Meadows) customers. Re-check the live page before rendering."
+  },
+  {
+    "id": "estes-park-no-2026-stage-posted",
+    "layer": "drought",
+    "applies_to": [
+      "estes-park-co"
+    ],
+    "fact": "The Town of Estes Park's water pages showed no 2026 drought stage or watering restriction on September 30, 2026; the Town's water conservation page describes the conservation plan the state requires of water suppliers.",
+    "quote": "The Town's Water Conservation Plan is designed to promote water efficiency through improved practices, techniques and technologies by both the system demands and customer water demands. Under Colorado Revised Statute 37-60-126(2), The State of Colorado Water Conservation Board requires water suppliers to develop, adopt and implement a water conservation plan to help identify where future planning efforts need to be focused and to encourage its customers to use water more efficiently.",
+    "source_url": "https://estespark.colorado.gov/waterconservation",
+    "source_label": "Town of Estes Park, Water Conservation (and the Water Division page, read September 30, 2026)",
+    "checked": "2026-09-30",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-04-15",
+    "numbers": [
+      "2026",
+      "30",
+      "37",
+      "60",
+      "126",
+      "2"
+    ],
+    "notes": "Absence on the Town's own water pages only (estespark.colorado.gov/water and /waterconservation, read with a browser user agent). Homes on wells or other providers follow their own rules. Recheck at the start of the 2027 watering season."
   }
 ]

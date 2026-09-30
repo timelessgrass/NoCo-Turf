@@ -1,9 +1,8 @@
 ---
 /**
  * "Where we do this" on a service page: every visible town as a chip, grouped by region, beside the
- * compact corridor map. The Route (motion system M5) is wired to the chips too: hover or focus a chip and
- * the painted route draws out to that town on the map, exactly as it does from the map's own list on the
- * homepage. No JS; with reduced motion or on touch the map shows every route faintly (CorridorMap's rules).
+ * compact corridor map. Hover or focus a chip to highlight its town on the map.
+ * The chips provide the map's accessible town navigation without duplicating the full list.
  * The map is the page's one data-boundary element.
  */
 import CorridorMap from './CorridorMap.astro';
@@ -14,7 +13,7 @@ interface Town { slug: string; name: string; region: string; tier: string; lat: 
 interface Props { towns: Town[]; title: string; lede: string; label?: string; id?: string; }
 const { towns, title, lede, label = 'Where we do this', id = 'where' } = Astro.props;
 const regions = townsByRegion(towns);
-const routeCss = towns.map((t) => `.svwhere:has(.svwhere__town[data-town="${t.slug}"]:is(:hover,:focus-visible)) [data-route="${t.slug}"]{stroke-dashoffset:0;opacity:1}.svwhere:has(.svwhere__town[data-town="${t.slug}"]:is(:hover,:focus-visible)) [data-dot="${t.slug}"]{fill:var(--paint);r:8}`).join('');
+const highlightCss = towns.map((t) => `.svwhere:has(.svwhere__town[data-town="${t.slug}"]:is(:hover,:focus-visible)) [data-dot="${t.slug}"]{fill:var(--paint);stroke:var(--ink)}.svwhere:has(.svwhere__town[data-town="${t.slug}"]:is(:hover,:focus-visible)) .cmap__town[data-town="${t.slug}"] text{fill:var(--paint-ink);text-decoration:underline}`).join('');
 ---
 <section class="section svwhere" aria-labelledby={`${id}-h`} id={id}>
   <div class="wrap svwhere__grid">
@@ -36,7 +35,7 @@ const routeCss = towns.map((t) => `.svwhere:has(.svwhere__town[data-town="${t.sl
     </div>
   </div>
 </section>
-<style set:html={routeCss}></style>
+<style set:html={highlightCss}></style>
 
 <style>
   .svwhere { border-top: 1px solid var(--line); }

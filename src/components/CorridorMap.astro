@@ -1,116 +1,177 @@
 ---
-/**
- * The Route (motion system M5): Northern Colorado drawn from real coordinates, with the complete town list
- * as its accessible equivalent. Hover or focus a town — in the list or on the map — and a painted route
- * draws out to it from Windsor; with JS off or reduced motion, every route shows faintly and nothing moves.
- * Replaces the old site's card grid, which truncated neighbour lists and put Denver towns next to Fort Collins.
- *
- * Coordinates: Census 2024 Gazetteer internal points (territory.mjs). I-25 and US 34 are schematic lines
- * through their real corridor — this is a locator, not a road map. The boundary note is the ONLY element
- * allowed to name a Denver-metro place (data-boundary; docs/CONTRACTS.md).
+/** Towns keep their Census coordinates. Roads are schematic orientation aids;
+ * no polygon or border implies coverage beyond the approved town list.
+ * HTML town links remain the accessible equivalent; compact callers supply their own list.
  */
 import { REGIONS } from '../data/territory.mjs';
 
 interface Town { slug: string; name: string; region: string; tier: string; lat: number; lng: number; draft?: boolean }
-interface Props { towns: Town[]; current?: string; compact?: boolean; /** false where the page already carries its own boundary note */ boundaryLabel?: boolean; }
+interface Props { towns: Town[]; current?: string; compact?: boolean; /** false where the page carries its own boundary note */ boundaryLabel?: boolean; }
 const { towns, current, compact = false, boundaryLabel = true } = Astro.props;
 
-const box = { latMax: 40.76, latMin: 40.0, lngMin: -105.22, lngMax: -104.64 };
+// Extra room around the real positions separates labels without moving the towns.
+const box = { latMax: 40.74, latMin: 40.035, lngMin: -105.32, lngMax: -104.55 };
 const K = Math.cos((40.4 * Math.PI) / 180);
-const W = 560;
+const W = 640;
 const scale = W / ((box.lngMax - box.lngMin) * K);
 const H = Math.round((box.latMax - box.latMin) * scale);
 const px = (lng: number, lat: number) => [+((lng - box.lngMin) * K * scale).toFixed(1), +((box.latMax - lat) * scale).toFixed(1)] as const;
 const line = (pts: [number, number][]) => pts.map(([lng, lat], i) => `${i ? 'L' : 'M'}${px(lng, lat).join(' ')}`).join(' ');
+const hub = towns.find((t) => t.tier === 'hub');
+/* A town beyond the western edge (Estes Park, up US 34 from Loveland) keeps its true latitude and sits on the edge
+   with an arrow pointing west, the usual off-map mark, rather than stretching the map for one mountain town. */
+const EDGE_X = 22;
+const off = (t: Town) => t.lng < box.lngMin;
+const at = (t: Town) => (off(t) ? [EDGE_X, px(t.lng, t.lat)[1]] as const : px(t.lng, t.lat));
+const mapId = `cmap-${current ?? 'all'}`;
 
-const hub = towns.find((t) => t.tier === 'hub') ?? towns[0];
-const [hx, hy] = px(hub.lng, hub.lat);
-const route = (t: Town) => {
-  const [x, y] = px(t.lng, t.lat);
-  const mx = (hx + x) / 2, my = (hy + y) / 2;
-  const dx = x - hx, dy = y - hy; const len = Math.hypot(dx, dy) || 1;
-  const bend = Math.min(60, len * 0.22);
-  return `M${hx} ${hy} Q${(mx - (dy / len) * bend).toFixed(1)} ${(my + (dx / len) * bend).toFixed(1)} ${x} ${y}`;
+// Phones show the main orientation towns; the list below links every served town.
+const leftLabels = new Set(['fort-collins-co', 'loveland-co', 'johnstown-co', 'berthoud-co', 'mead-co', 'longmont-co', 'frederick-co']);
+const mobileLabels = new Set(['wellington-co', 'fort-collins-co', 'windsor-co', 'loveland-co', 'greeley-co', 'berthoud-co', 'longmont-co', 'dacono-co']);
+const labelOffset: Record<string, number> = { 'johnstown-co': -8, 'berthoud-co': 8, 'severance-co': -4 };
+const label = (t: Town) => {
+  const [x, y] = at(t);
+  const left = leftLabels.has(t.slug) && !off(t);
+  return { x: x + (left ? -18 : 18), y: y + (labelOffset[t.slug] ?? 0), anchor: left ? 'end' : 'start' };
 };
-/* Label side per town, worked out from the projected coordinates so neighbours never collide
-   (Johnstown/Milliken, Longmont/Firestone, Fort Collins/Timnath are the tight pairs). */
-const RIGHT = ['Wellington', 'Timnath', 'Loveland', 'Milliken', 'Berthoud', 'Mead', 'Longmont', 'Firestone', 'Frederick', 'Dacono'];
-const labelSide = (t: Town) => (RIGHT.includes(t.name) ? 'start' : 'end');
-
-const i25 = line([[-104.986, 40.76], [-104.99, 40.6], [-104.985, 40.42], [-104.98, 40.3], [-104.985, 40.16], [-104.99, 40.0]]);
-const us34 = line([[-105.22, 40.403], [-105.06, 40.408], [-104.98, 40.41], [-104.78, 40.415], [-104.64, 40.42]]);
-const ridge = line([[-105.2, 40.76], [-105.17, 40.66], [-105.19, 40.58], [-105.16, 40.5], [-105.18, 40.42], [-105.15, 40.33], [-105.17, 40.24], [-105.14, 40.14], [-105.16, 40.0]]);
-const [, by] = px(-104.9, 40.035);
-const regions = Object.entries(REGIONS).map(([key, label]) => ({ key, label, towns: towns.filter((t) => t.region === key) })).filter((r) => r.towns.length);
-const routeCss = towns.map((t) => `.cmap:has([data-town="${t.slug}"]:is(:hover,:focus-visible)) [data-route="${t.slug}"]{stroke-dashoffset:0;opacity:1}.cmap:has([data-town="${t.slug}"]:is(:hover,:focus-visible)) [data-dot="${t.slug}"]{fill:var(--paint);r:8}`).join('');
+const i25 = line([[-104.986, 40.74], [-104.99, 40.6], [-104.985, 40.42], [-104.98, 40.3], [-104.985, 40.16], [-104.99, 40.035]]);
+const us34 = line([[-105.32, 40.39], [-105.24, 40.403], [-105.06, 40.408], [-104.98, 40.41], [-104.78, 40.415], [-104.59, 40.42]]);
+const regionLabels: Record<string, string> = {
+  'poudre': 'Fort Collins area',
+  'windsor-johnstown': 'Windsor area',
+  'loveland-berthoud': 'Loveland area',
+  'greeley-east-weld': 'Greeley area',
+  'carbon-valley-longmont': 'Longmont & Carbon Valley',
+};
+const regions = Object.entries(REGIONS).map(([key, name]) => ({
+  key, name: regionLabels[key] ?? name,
+  towns: towns.filter((t) => t.region === key).sort((a, b) => a.name.localeCompare(b.name)),
+})).filter((r) => r.towns.length);
+const highlightCss = towns.map((t) => `.cmap:has(.cmap__list [data-town="${t.slug}"]:is(:hover,:focus-visible)) .cmap__town[data-town="${t.slug}"] .cmap__dot{fill:var(--paint);stroke:var(--ink)}.cmap:has(.cmap__list [data-town="${t.slug}"]:is(:hover,:focus-visible)) .cmap__town[data-town="${t.slug}"] text{fill:var(--paint-ink);text-decoration:underline}`).join('');
 ---
-<div class:list={['cmap', { 'cmap--compact': compact }]} style={`--map-ar:${W}/${H}`}>
-  <svg class="cmap__svg" viewBox={`0 0 ${W} ${H}`} role="img" aria-labelledby="cmap-title">
-    <title id="cmap-title">Map of the Northern Colorado towns NoCo Turf Co. covers, from Wellington in the north to Longmont and Dacono in the south</title>
-    <path class="cmap__ridge" d={ridge} />
-    <text class="cmap__note" x={px(-105.205, 40.63)[0]} y={px(-105.2, 40.63)[1]} transform={`rotate(-90 ${px(-105.205, 40.63).join(' ')})`}>Foothills</text>
-    <path class="cmap__road" d={i25} /><text class="cmap__road-label" x={px(-104.982, 40.73)[0] + 6} y={px(-104.982, 40.73)[1]}>I-25</text>
-    <path class="cmap__road cmap__road--minor" d={us34} /><text class="cmap__road-label" x={px(-104.68, 40.42)[0] - 30} y={px(-104.68, 40.42)[1] - 8}>US 34</text>
-    <line class="cmap__boundary" x1="0" x2={W} y1={by} y2={by} />
-    {boundaryLabel && <g data-boundary><text class="cmap__note" x={W / 2} y={by + 22} text-anchor="middle">Denver metro · not covered</text></g>}
-    {towns.map((t) => <path class="cmap__route" data-route={t.slug} d={route(t)} pathLength="1" />)}
-    {towns.map((t) => {
-      const [x, y] = px(t.lng, t.lat);
-      return (
-        <a href={`/areas/${t.slug}/`} data-town={t.slug} class:list={['cmap__town', { 'is-hub': t.tier === 'hub', 'is-current': t.slug === current }]}>
-          <circle data-dot={t.slug} cx={x} cy={y} r={t.tier === 'hub' ? 8 : 5.5} />
-          <text x={labelSide(t) === 'start' ? x + 12 : x - 12} y={y + 4.5} text-anchor={labelSide(t)}>{t.name}</text>
-        </a>
-      );
-    })}
-  </svg>
-  {!compact && (
-    <div class="cmap__list">
+{towns.length > 0 && (
+  <div class:list={['cmap', { 'cmap--compact': compact }]}>
+    <figure class="cmap__figure">
+      <div class="cmap__key">
+        {hub && <span><i class="cmap__key-base" aria-hidden="true"></i>Based in {hub.name}</span>}
+        <span><i class="cmap__key-town" aria-hidden="true"></i>Towns we serve</span>
+      </div>
+      <svg class="cmap__svg" viewBox={`0 0 ${W} ${H}`} role="img" aria-labelledby={`${mapId}-title ${mapId}-desc`}>
+        <title id={`${mapId}-title`}>Northern Colorado service towns, from Wellington to Longmont and Dacono</title>
+        <desc id={`${mapId}-desc`}>North is at the top. Windsor is our base. I-25 runs north to south, and US 34 runs between Loveland and Greeley.{towns.some(off) && ' Estes Park is off the map to the west, up US 34 from Loveland.'} All {towns.length} towns we serve are linked in the town list.</desc>
+        <g aria-hidden="true">
+          <path class="cmap__road-edge" d={i25} />
+          <path class="cmap__road" d={i25} />
+          <path class="cmap__road-edge cmap__road-edge--minor" d={us34} />
+          <path class="cmap__road cmap__road--minor" d={us34} />
+          <g class="cmap__road-tag" transform={`translate(${px(-104.99, 40.645)[0]} ${px(-104.99, 40.645)[1]})`}>
+            <rect x="-30" y="-16" width="60" height="32" rx="6" />
+            <text text-anchor="middle" dominant-baseline="central">I-25</text>
+          </g>
+          <g class="cmap__road-tag cmap__road-tag--minor" transform={`translate(565 ${px(-104.59, 40.42)[1] - 24})`}>
+            <rect x="-36" y="-16" width="72" height="32" rx="6" />
+            <text text-anchor="middle" dominant-baseline="central">US 34</text>
+          </g>
+          <g class="cmap__north" transform="translate(572 62)">
+            <path d="M0 -27 L-8 -5 L0 -10 L8 -5 Z" />
+            <text y="20" text-anchor="middle">N</text>
+          </g>
+        </g>
+        {towns.map((t) => {
+          const [x, y] = at(t);
+          const pos = label(t);
+          return (
+            <a href={`/areas/${t.slug}/`} tabindex="-1" aria-hidden="true" data-town={t.slug}
+              class:list={['cmap__town', { 'is-hub': t.tier === 'hub', 'is-current': t.slug === current, 'is-mobile-label': mobileLabels.has(t.slug) || t.slug === current }]}>
+              <circle class="cmap__hit" cx={x} cy={y} r="22" />
+              {t.tier === 'hub' && <circle class="cmap__hub-ring" cx={x} cy={y} r="18" />}
+              <circle class="cmap__dot" data-dot={t.slug} cx={x} cy={y} r={t.tier === 'hub' ? 11 : 7} />
+              {off(t) && <path class="cmap__west" d={`M${x - 12} ${y} l7 -5 v10 z`} />}
+              <text x={pos.x} y={pos.y} text-anchor={pos.anchor} dominant-baseline="central">{t.name}</text>
+            </a>
+          );
+        })}
+      </svg>
+      <figcaption class="cmap__caption">
+        <span class="cmap__caption-desktop">Select a town on the map or in the list.</span>
+        <span class="cmap__caption-mobile">{compact ? `All ${towns.length} towns are listed on this page.` : `Find all ${towns.length} towns in the list below.`}</span>
+        {boundaryLabel && <span class="cmap__boundary" data-boundary>Denver metro is outside our service area.</span>}
+      </figcaption>
+    </figure>
+    {!compact && <div class="cmap__list" aria-label="Towns served, grouped by area">
       {regions.map((r) => (
         <div class="cmap__region">
-          <p class="label">{r.label}</p>
-          <ul>
-            {r.towns.map((t) => <li><a href={`/areas/${t.slug}/`} data-town={t.slug} class:list={{ 'is-current': t.slug === current }}>{t.name}</a></li>)}
+          <h3>{r.name}</h3>
+          <ul role="list">
+            {r.towns.map((t) => <li><a href={`/areas/${t.slug}/`} data-town={t.slug} aria-current={t.slug === current ? 'page' : undefined} class:list={{ 'is-current': t.slug === current }}>{t.name}<span aria-hidden="true">↗</span></a></li>)}
           </ul>
         </div>
       ))}
-    </div>
-  )}
-</div>
-<style set:html={routeCss}></style>
+    </div>}
+  </div>
+)}
+<style set:html={highlightCss}></style>
 <style>
-  .cmap { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); gap: clamp(28px, 4vw, 64px); align-items: start; }
+  .cmap__west { fill: currentColor; opacity: 0.55; }
+  .cmap { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: clamp(28px, 3.5vw, 48px); align-items: start; }
   .cmap--compact { grid-template-columns: 1fr; }
-  .cmap__svg { width: 100%; height: auto; max-height: min(88vh, 980px); overflow: visible; background: var(--ground-2); border-radius: var(--r-panel); padding: 18px 10px; }
-  .on-slab .cmap__svg { background: var(--slab-2); }
-  .cmap__ridge { fill: none; stroke: rgb(var(--ink-rgb) / 0.22); stroke-width: 1.4; stroke-dasharray: 2 5; }
-  .cmap__road { fill: none; stroke: rgb(var(--ink-rgb) / 0.3); stroke-width: 3; stroke-linecap: round; }
-  .cmap__road--minor { stroke-width: 1.8; stroke: rgb(var(--ink-rgb) / 0.2); }
-  .cmap__road-label, .cmap__note { font-family: var(--font-display); font-stretch: 78%; font-weight: 640; font-size: 10px; letter-spacing: 0.16em; text-transform: uppercase; fill: rgb(var(--ink-rgb) / 0.45); }
-  .cmap__boundary { stroke: rgb(var(--ink-rgb) / 0.35); stroke-width: 1.2; stroke-dasharray: 6 6; }
-  .cmap__route { fill: none; stroke: var(--paint); stroke-width: 2.6; stroke-linecap: round; stroke-dasharray: 1; stroke-dashoffset: 1; opacity: 0;
-    transition: stroke-dashoffset var(--t5) var(--ease), opacity var(--t2) var(--ease); }
+  .cmap__figure { margin: 0; overflow: hidden; border: 1px solid var(--line); border-radius: var(--r-panel); background: var(--ground-2); }
+  .on-slab .cmap__figure { background: var(--slab-2); }
+  .cmap__key { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 24px; padding: 18px 22px; border-bottom: 1px solid var(--line); font-size: 0.9rem; font-weight: 600; }
+  .cmap__key span { display: inline-flex; align-items: center; gap: 10px; }
+  .cmap__key i { display: block; flex: none; border-radius: 50%; }
+  .cmap__key-base { width: 12px; height: 12px; background: var(--paint); outline: 1.5px solid var(--ink); outline-offset: 3px; }
+  .cmap__key-town { width: 8px; height: 8px; background: var(--ink); }
+  .cmap__svg { display: block; width: 100%; height: auto; }
+  .cmap__road-edge { fill: none; stroke: rgb(var(--ink-rgb) / 0.18); stroke-width: 12; }
+  .cmap__road { fill: none; stroke: var(--ground); stroke-width: 8; }
+  .cmap__road-edge--minor { stroke-width: 8; }
+  .cmap__road--minor { stroke-width: 5; }
+  .cmap__road-tag rect { fill: var(--ground); stroke: rgb(var(--ink-rgb) / 0.35); stroke-width: 1.5; }
+  .cmap__road-tag text { font-family: var(--font-body); font-size: 18px; font-weight: 700; fill: var(--ink-2); }
+  .cmap__north { fill: var(--ink-2); }
+  .cmap__north text { font-family: var(--font-body); font-size: 21px; font-weight: 650; }
   .cmap__town { cursor: pointer; }
-  /* On a phone the drawn labels shrink to about 9px: the grouped list under the map carries the taps there. */
-  @media (max-width: 699px) { .cmap__town { pointer-events: none; } }
-  .cmap__town circle { fill: var(--ink); stroke: var(--ground-2); stroke-width: 2.5; transition: r var(--t2) var(--ease), fill var(--t2) var(--ease); }
-  .cmap__town.is-hub circle { fill: var(--paint); stroke: var(--ink); stroke-width: 2.5; }
-  .cmap__town text { font-family: var(--font-display); font-weight: 680; font-stretch: 96%; font-size: 13.5px; fill: var(--ink); paint-order: stroke; stroke: var(--ground-2); stroke-width: 4px; stroke-linejoin: round; }
-  .cmap__town.is-hub text { font-weight: 820; font-size: 15px; }
-  .cmap__town.is-current circle { fill: var(--paint); r: 8; }
-  .cmap__town:focus-visible { outline: none; }
-  .cmap__town:focus-visible text { text-decoration: underline; }
-  @media (prefers-reduced-motion: reduce) { .cmap__route { transition: none; opacity: 0.35; stroke-dashoffset: 0; } }
-  @media (hover: none) { .cmap__route { opacity: 0.4; stroke-dashoffset: 0; } }
-
-  .cmap__list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 32px; align-content: start; position: sticky; top: calc(var(--header-h) + 24px); }
-  .cmap__region ul { list-style: none; margin-top: 10px; display: grid; }
-  .cmap__region a { display: flex; align-items: center; justify-content: space-between; min-height: 44px; border-bottom: 1px solid var(--line);
-    font-family: var(--font-display); font-weight: 700; font-stretch: 106%; font-size: 1.12rem; letter-spacing: -0.015em; text-decoration: none;
-    transition: padding var(--t2) var(--ease), color var(--t2) var(--ease); }
-  .cmap__region a::after { content: ''; width: 14px; height: 2px; background: var(--paint); transform-origin: right; scale: 0 1; transition: scale var(--t2) var(--ease); }
-  .cmap__region a:hover, .cmap__region a:focus-visible { padding-left: 6px; }
-  .cmap__region a:hover::after, .cmap__region a:focus-visible::after, .cmap__region a.is-current::after { scale: 1 1; }
-  @media (max-width: 899px) { .cmap { grid-template-columns: 1fr; } .cmap__svg { max-width: 520px; margin-inline: auto; } }
-  @media (max-width: 480px) { .cmap__list { grid-template-columns: 1fr; } }
+  .cmap__hit { fill: transparent; stroke: none; }
+  .cmap__dot { fill: var(--ink); stroke: var(--ground-2); stroke-width: 3; transition: fill var(--t2) var(--ease); }
+  .cmap__town.is-hub .cmap__dot, .cmap__town.is-current .cmap__dot { fill: var(--paint); stroke: var(--ink); stroke-width: 2; }
+  .cmap__hub-ring { fill: none; stroke: var(--paint-ink); stroke-width: 1.5; }
+  .cmap__town text { font-family: var(--font-display); font-weight: 650; font-size: 20px; fill: var(--ink); paint-order: stroke; stroke: var(--ground-2); stroke-width: 6px; stroke-linejoin: round; }
+  .cmap__town.is-hub text { font-weight: 800; font-size: 22px; }
+  .cmap__town:hover .cmap__dot { fill: var(--paint); stroke: var(--ink); }
+  .cmap__town:hover text { text-decoration: underline; }
+  .cmap--compact .cmap__town text { display: none; }
+  .cmap--compact .cmap__town.is-mobile-label text { display: block; font-size: 30px; }
+  .cmap--compact .cmap__town.is-hub text { font-size: 32px; }
+  .cmap__caption { display: grid; gap: 6px; padding: 16px 22px 18px; border-top: 1px solid var(--line); font-size: 0.875rem; line-height: 1.5; color: var(--ink-2); }
+  .cmap__caption-mobile { display: none; }
+  .cmap__boundary { font-size: 0.8125rem; }
+  .cmap__list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; }
+  .cmap__region h3 { margin: 0 0 10px; padding-bottom: 12px; border-bottom: 2px solid var(--ink); font-family: var(--font-body); font-size: 1rem; line-height: 1.45; font-weight: 700; letter-spacing: 0; }
+  .cmap__region ul { list-style: none; display: grid; }
+  .cmap__region a { display: flex; align-items: center; justify-content: space-between; gap: 8px; min-height: 48px; padding: 9px 0; border-bottom: 1px solid var(--line); font-family: var(--font-display); font-weight: 650; font-size: 1.0625rem; letter-spacing: -0.015em; text-decoration: none; }
+  .cmap__region a span { font-family: var(--font-body); color: var(--ink-3); font-size: 0.9rem; }
+  .cmap__region a:hover, .cmap__region a:focus-visible, .cmap__region a.is-current { color: var(--paint-ink); text-decoration: underline; text-underline-offset: 4px; }
+  .cmap__region a:focus-visible { outline: 2px solid var(--paint-ink); outline-offset: 3px; border-radius: 2px; }
+  .cmap__region:last-child:nth-child(odd) { grid-column: 1 / -1; }
+  .cmap__region:last-child:nth-child(odd) ul { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 28px; }
+  @media (max-width: 1049px) { .cmap { grid-template-columns: 1fr; } .cmap__figure { width: 100%; max-width: 640px; margin-inline: auto; } }
+  @media (max-width: 699px) {
+    .cmap__key { padding: 16px; gap: 10px 18px; font-size: 0.8125rem; }
+    .cmap__town { pointer-events: none; }
+    .cmap__town text { display: none; }
+    .cmap__town.is-mobile-label text { display: block; font-size: 30px; }
+    .cmap__town.is-hub text { font-size: 32px; }
+    .cmap__road-tag text { font-size: 24px; }
+    .cmap__road-tag--minor { display: none; }
+    .cmap__north text { font-size: 28px; }
+    .cmap__caption { padding: 14px 16px 16px; }
+    .cmap__caption-desktop { display: none; }
+    .cmap__caption-mobile { display: block; }
+    .cmap__list { gap: 24px 20px; }
+    .cmap__region h3 { font-size: 0.9375rem; }
+    .cmap__region a { min-height: 48px; font-size: 1rem; }
+    .cmap__region:last-child:nth-child(odd) ul { column-gap: 20px; }
+  }
+  @media (prefers-reduced-motion: reduce) { .cmap__dot { transition: none; } }
 </style>

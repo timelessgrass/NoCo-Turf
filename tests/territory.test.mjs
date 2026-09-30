@@ -1,6 +1,6 @@
 /**
  * The territory split with TIMELESS Grass & Greens (.site/decisions/2026-09-24-territory.md): NoCo is the
- * 17 towns in src/data/territory.mjs; Erie, Brighton, Thornton, Broomfield and the Denver metro are
+ * 18 towns in src/data/territory.mjs (Estes Park added 2026-09-30); Erie, Brighton, Thornton, Broomfield and the Denver metro are
  * TIMELESS's. A town on both lists is the multi-domain doorway pattern (site skill NEVER #11).
  */
 import test from 'node:test';
@@ -11,8 +11,8 @@ import { timelessTownHits } from '../scripts/check-content.mjs';
 const lower = (s) => s.toLowerCase();
 const kebab = (s) => s.toLowerCase().replace(/[^a-z]+/g, '-').replace(/^-|-$/g, '');
 
-test('NoCo is the 17 decided towns, each with a unique /^[a-z-]+-co$/ slug built from its name', () => {
-  assert.equal(NOCO_TOWNS.length, 17, 'the territory decision lists 17 towns — change .site/decisions first');
+test('NoCo is the 18 decided towns, each with a unique /^[a-z-]+-co$/ slug built from its name', () => {
+  assert.equal(NOCO_TOWNS.length, 18, 'the territory decision lists 18 towns — change .site/decisions first');
   const slugs = NOCO_TOWNS.map((t) => t.slug);
   assert.equal(new Set(slugs).size, slugs.length, 'duplicate slug');
   for (const t of NOCO_TOWNS) {

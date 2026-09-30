@@ -312,10 +312,10 @@ test('a clean draft passes; its gate report names the page and what Brian must s
   assert.match(r.out, /windsor-co--pet-turf \[townService · draft\]/);
   assert.match(r.out, /town × service gate not met yet \(draft\): no photograph/);
   assert.match(r.out, /Town × service gate — src\/lib\/town-service-gate\.mjs/);
-  assert.match(r.out, /pet-turf\s+1 of 17 towns written · a photo with use "pet"/);
+  assert.match(r.out, /pet-turf\s+1 of 18 towns written · a photo with use "pet"/);
   assert.match(r.out, /windsor-co--pet-turf\s+draft\s+3 blocks \(3 substantive\) · 2 own · no photo — gate not yet/);
   assert.match(r.out, /needs from Brian: A named job in this town/);
-  assert.match(r.out, /putting-greens\s+0 of 17 towns written/);
+  assert.match(r.out, /putting-greens\s+0 of 18 towns written/);
 });
 
 test('a published page that fails the gate fails the check; a passing one warns while its town or service can\'t render', (t) => {

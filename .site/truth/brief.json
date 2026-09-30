@@ -473,6 +473,18 @@
     "note": "confirmed by Brian 2026-09-29, via Ty",
     "render": false
    }
+  },
+  {
+   "slug": "estes-park-co",
+   "name": {
+    "value": "Estes Park",
+    "status": "CLIENT_CONFIRMED",
+    "source": "client_confirmed",
+    "source_detail": "Ty, 2026-09-30, relaying Brian: \"He wants to do Estes Park\"",
+    "date": "2026-09-30",
+    "note": "added by Brian 2026-09-30, via Ty",
+    "render": false
+   }
   }
  ],
  "conversion": {

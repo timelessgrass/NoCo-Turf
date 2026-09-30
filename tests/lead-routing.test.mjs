@@ -63,14 +63,14 @@ test('the contested ZIPs land where the territory decision says', () => {
   assert.match(resolveArea({ zip: '80503' }).note, /Niwot/);
 });
 
-test('every ZIP of the 17 towns is served (Census 2020 ZCTAs + USPS PO-box/unique ZIPs)', () => {
+test('every ZIP of the towns is served (Census 2020 ZCTAs + USPS PO-box/unique ZIPs)', () => {
   const expected = {
     'Fort Collins': ['80521', '80522', '80523', '80524', '80525', '80526', '80527', '80528'],
     Windsor: ['80550', '80551'], Loveland: ['80537', '80538', '80539'],
     Greeley: ['80631', '80632', '80633', '80634', '80638', '80639'], Longmont: ['80501', '80502', '80503', '80504'],
     Johnstown: ['80534'], Berthoud: ['80513'], Timnath: ['80547'], Wellington: ['80549'], Severance: ['80550', '80546'],
     Mead: ['80542'], Firestone: ['80504', '80520'], Frederick: ['80530', '80504'], Dacono: ['80514'], Evans: ['80620'],
-    Eaton: ['80615'], Milliken: ['80543'], LaSalle: ['80645'], Platteville: ['80651'], Laporte: ['80535'],
+    Eaton: ['80615'], Milliken: ['80543'], 'Estes Park': ['80517', '80511'], LaSalle: ['80645'], Platteville: ['80651'], Laporte: ['80535'],
   };
   for (const [town, zips] of Object.entries(expected)) {
     for (const zip of zips) {
@@ -120,7 +120,7 @@ test('a town the Census puts inside a shared ZIP wins; a town that contradicts t
 test('other Colorado ZIPs are checked, with the place named from the Census', () => {
   assert.equal(status('', '80610'), 'outside');
   assert.match(resolveArea({ zip: '80610' }).note, /Ault/);
-  assert.match(resolveArea({ zip: '80517' }).note, /Estes Park.*on purpose/);
+  assert.equal(status('', '80517'), 'served', 'Estes Park joined 2026-09-30');
   assert.equal(status('', '80903'), 'outside');
   assert.equal(laneOf({ town: '', zip: '80903' }), 'check-area');
 });
@@ -146,7 +146,7 @@ test('without a ZIP, the town decides: every NoCo town is served, every Denver-m
   assert.equal(status('La Porte'), 'served');
   assert.equal(status('Niwot'), 'unassigned');
   assert.equal(status('Fort Lupton'), 'unassigned');
-  assert.equal(status('Estes Park'), 'outside');
+  assert.equal(status('Estes Park'), 'served');
   assert.equal(status('Kersey'), 'outside');
   assert.equal(status('somewhere'), 'unknown');
   assert.equal(status(''), 'unknown');

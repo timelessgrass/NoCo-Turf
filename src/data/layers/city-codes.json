@@ -555,5 +555,56 @@
       "8"
     ],
     "notes": "Only relevant to addresses outside town limits. Inside a town, the town code governs."
+  },
+  {
+    "id": "estes-park-epdc-7-5-applicability",
+    "layer": "ordinance",
+    "applies_to": [
+      "estes-park-co"
+    ],
+    "fact": "Estes Park's development code applies its landscape standards to residential subdivisions created after the code's adoption and to development that needs a development plan review.",
+    "quote": "These landscape and buffer standards shall apply to residential subdivisions created after the adoption of this Code, and to all development where development plan review is required by §3.8 of this Code. (Ord. 8-05 #1)",
+    "source_url": "https://library.municode.com/co/estes_park/codes/development_code?nodeId=CH7GEDEST_S7.5LABU",
+    "source_label": "Estes Park Development Code §7.5.B, Landscaping and Buffers (codified through Ord. No. 09-25, June 24, 2025)",
+    "checked": "2026-09-30",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-30",
+    "numbers": [
+      "3.8",
+      "8",
+      "05",
+      "1"
+    ],
+    "notes": "Read 2026-09-30 through Municode's content API (product 18060, job 463957 = Supplement 23). The Town is rewriting the code ('Development Code Updates 2025-2026' on estespark.colorado.gov/developmentcode), so recheck. Whether a given yard project needs development plan review (§3.8) is the Town's call: say 'Community Development can confirm'."
+  },
+  {
+    "id": "estes-park-codes-no-turf-provision",
+    "layer": "ordinance",
+    "applies_to": [
+      "estes-park-co"
+    ],
+    "fact": "No artificial-turf provision was found in the Estes Park Development Code or the Estes Park Municipal Code (searched September 30, 2026).",
+    "quote": "Municode full-text search of the Estes Park Development Code (codified through Ord. No. 09-25, June 24, 2025) and Municipal Code (Supplement 35 Update 3, May 26, 2026) for \"artificial turf\", \"synthetic turf\", \"artificial grass\" and \"turf\": no provision about artificial turf; the only hit is §7.5.D.5, \"All newly installed landscapes shall include a properly functioning automated sprinkler system with individual drip lines for nonturf areas.\"",
+    "source_url": "https://library.municode.com/co/estes_park/codes/development_code?nodeId=CH7GEDEST_S7.5LABU",
+    "source_label": "Estes Park Development Code and Municipal Code on Municode (development code through Ord. No. 09-25, June 24, 2025; municipal code Supplement 35 Update 3, May 26, 2026)",
+    "checked": "2026-09-30",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2026-12-30",
+    "numbers": [
+      "30",
+      "2026",
+      "09",
+      "25",
+      "24",
+      "2025",
+      "35",
+      "3",
+      "26",
+      "7.5",
+      "5"
+    ],
+    "notes": "Municipal code: https://library.municode.com/co/estes_park/codes/municipal_code (product 18057, job 493420). Development code: product 18060, job 463957. Every chapter of both read through Municode's content API 2026-09-30."
   }
 ]

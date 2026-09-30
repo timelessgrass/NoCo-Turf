@@ -9,8 +9,8 @@
  * tests/lead-routing.test.mjs covers every branch.
  *
  * Lanes:
- *   home        a home project in the 17 towns (src/data/territory.mjs NOCO_TOWNS)
- *   bid         commercial, HOA or sports turf in the 17 towns
+ *   home        a home project in NoCo’s towns (src/data/territory.mjs NOCO_TOWNS)
+ *   bid         commercial, HOA or sports turf in NoCo’s towns
  *   timeless    a Denver-metro ZIP or town (Erie, Brighton, Thornton, Broomfield and south): a note
  *               to forward the lead to the sister brand. NoCo never books these.
  *   check-area  anywhere else: other Colorado, out of state, unassigned (Fort Lupton, Niwot), a ZIP
@@ -23,7 +23,7 @@
  *   use (multi) · town · zip · size · hoa · timeline · name · phone · email · contact_pref · heard ·
  *   page · company (honeypot) · elapsed_ms · utm_source/medium/campaign/term/content · gclid · fbclid
  */
-import { SERVED_ZIPS, TIMELESS_ZIP_RANGES, UNASSIGNED_ZIPS, ZCTA_PLACES, PLACES, classOfPlace, excludedReason, spellings } from './places.mjs';
+import { SERVED_ZIPS, TIMELESS_ZIP_RANGES, UNASSIGNED_ZIPS, ZCTA_PLACES, PLACES, classOfPlace, excludedReason, spellings, TOWN_COUNT } from './places.mjs';
 import { renderEmail } from './lead-email.mjs';
 
 export const SITE = 'www.nocoturf.com';
@@ -95,7 +95,7 @@ export const AREA_LABELS = {
   served: MARKET.label,
   timeless: 'Denver metro (forward)',
   unassigned: 'Not assigned yet',
-  outside: 'Outside the 17 towns',
+  outside: `Outside the ${TOWN_COUNT} towns`,
   'out-of-state': 'Outside Colorado',
   mismatch: 'ZIP and town disagree',
   unknown: 'Not clear yet',
@@ -187,8 +187,8 @@ function zipNote(zip, z) {
     case 'outside': {
       const why = safeReason(z.place);
       return z.place
-        ? `ZIP ${zip} is ${z.place}, outside the 17 towns.${why ? ` Left out on purpose: ${why}.` : ''} Confirm it’s a trip you make.`
-        : `ZIP ${zip} is in Colorado, outside the 17 towns. Confirm where it is and whether it’s a trip you make.`;
+        ? `ZIP ${zip} is ${z.place}, outside the ${TOWN_COUNT} towns.${why ? ` Left out on purpose: ${why}.` : ''} Confirm it’s a trip you make.`
+        : `ZIP ${zip} is in Colorado, outside the ${TOWN_COUNT} towns. Confirm where it is and whether it’s a trip you make.`;
     }
     case 'out-of-state': return `ZIP ${zip} is outside Colorado.`;
     default: return '';
@@ -197,10 +197,10 @@ function zipNote(zip, z) {
 /** A ZIP class in a few words, for a note that sets it against what they typed. */
 function describeZip(z) {
   switch (z.cls) {
-    case 'served': return `${z.place}, in NoCo’s 17 towns`;
+    case 'served': return `${z.place}, in NoCo’s ${TOWN_COUNT} towns`;
     case 'timeless': return z.place ? `${z.place}, in the Denver metro` : 'in the Denver metro';
     case 'unassigned': return `${z.place}, which isn’t assigned yet`;
-    case 'outside': return z.place ? `${z.place}, outside the 17 towns` : 'in Colorado, outside the 17 towns';
+    case 'outside': return z.place ? `${z.place}, outside the ${TOWN_COUNT} towns` : `in Colorado, outside the ${TOWN_COUNT} towns`;
     default: return 'outside Colorado';
   }
 }
@@ -214,7 +214,7 @@ function townNote(t) {
     case 'unassigned': return `${t.name} isn’t assigned to NoCo or ${OTHER_BRAND} yet. You decide.`;
     case 'outside': {
       const why = safeReason(t.name);
-      return `${t.name} is outside the 17 towns.${why ? ` Left out on purpose: ${why}.` : ''} Confirm it’s a trip you make.`;
+      return `${t.name} is outside the ${TOWN_COUNT} towns.${why ? ` Left out on purpose: ${why}.` : ''} Confirm it’s a trip you make.`;
     }
     default: return '';
   }

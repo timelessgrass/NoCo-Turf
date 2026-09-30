@@ -3,11 +3,11 @@
  *
  * Town classes come from src/data/territory.mjs (the decided territory, 2026-09-24), so a town added
  * or moved there moves here too:
- *   served     — the 17 NOCO_TOWNS, plus the neighbourhoods folded into them (`sections`)
+ *   served     — the NOCO_TOWNS, plus the neighbourhoods folded into them (`sections`)
  *   timeless   — TIMELESS_TOWNS (Denver metro incl. Erie, Brighton, Thornton, Broomfield): the lead is
  *                forwarded to the Denver-metro sister brand, never booked for NoCo
  *   unassigned — EXCLUDED_TOWNS that Brian still has to assign (Fort Lupton, Niwot)
- *   outside    — Colorado places outside the 17 towns (incl. Estes Park, excluded on purpose)
+ *   outside    — Colorado places outside the towns
  *
  * ZIP sources (checked 2026-09-24):
  *   - Census 2020 ZCTA-to-place relationship file,
@@ -21,6 +21,9 @@
  *     ZIPS.CO.served, read 2026-09-24), minus 80544 (Niwot), which territory.mjs leaves unassigned.
  */
 import { NOCO_TOWNS, TIMELESS_TOWNS, EXCLUDED_TOWNS } from '../../../src/data/territory.mjs';
+
+/** How many towns NoCo serves, for the lead email's wording. */
+export const TOWN_COUNT = NOCO_TOWNS.length;
 
 /** ZIP → the NoCo town it belongs to (USPS city name, in territory.mjs spelling). */
 export const SERVED_ZIPS = {
@@ -50,6 +53,8 @@ export const SERVED_ZIPS = {
   '80546': 'Severance', // PO box; Severance street addresses mostly use 80550
   '80547': 'Timnath',
   '80549': 'Wellington',
+  '80517': 'Estes Park',
+  '80511': 'Estes Park', // PO box
   '80550': 'Windsor', // also most of Severance
   '80551': 'Windsor', // unique
   '80553': 'Fort Collins', // unique

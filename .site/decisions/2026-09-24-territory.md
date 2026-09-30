@@ -11,3 +11,12 @@
 - Consequence: NoCo's /areas/{erie,brighton,thornton,broomfield}-co/ 301 → /areas/ (boundary note routes Denver-metro
   visitors to TIMELESS); 6 ghost Denver-metro pages → 410; NoCo copy never names a TIMELESS town as served.
 - Why: same-owner, two-domain coverage of the same towns is the multi-domain doorway pattern (site skill NEVER #11).
+
+## Amendment, 2026-09-30: Estes Park added
+
+Ty, relaying Brian: "He wants to do Estes Park." Estes Park moves from EXCLUDED_TOWNS to NOCO_TOWNS (region
+loveland-berthoud, now labelled "Loveland, Berthoud & Estes Park"; tier lean). Its ZIPs 80517 and 80511 route to NoCo.
+The page publishes on its own research (both Town codes silent on turf, the Water Division's mapped edge and
+household-use wells, NOAA Estes Park 3 SSE normals, NRCS soils over shallow bedrock, the 2020 vacancy count) and
+Brian's word; a job and a photo there are still to-dos. The corridor map marks it on the western edge at its true
+latitude rather than widening the map.

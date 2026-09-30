@@ -989,5 +989,26 @@
       "2",
       "4.2"
     ]
+  },
+  {
+    "id": "estes-park-water-division",
+    "layer": "utility",
+    "applies_to": [
+      "estes-park-co"
+    ],
+    "provider": "Town of Estes Park Water Division",
+    "fact": "The Town of Estes Park's Water Division serves about 5,000 customer accounts, in an area bordered by the east edge of town, Dry Gulch Road, Devil's Gulch Road, Carriage Hills off Highway 7, the Fish Hatchery area off Fall River Road and the Thunder Mountain Subdivision.",
+    "quote": "Approximately 5,000 customer accounts are served by the Town of Estes Park's Water Division. The division's coverage area is bordered by the East edge of town, the turn-in to Eagle Rock School on Dry Gulch Road, McCreery Lane on Devil's Gulch Road, the Southwest side of Carriage Hills off Highway 7, the Fish Hatchery area off of Fall River Road, and the Thunder Mountain Subdivision on spur 66.",
+    "source_url": "https://estespark.colorado.gov/water",
+    "source_label": "Town of Estes Park, Water Division",
+    "checked": "2026-09-30",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5000",
+      "7",
+      "66"
+    ],
+    "notes": "The same page: 110 miles of main, two treatment plants, nine tanks; proposed rate increases at Town Board hearings Oct. 27 and Nov. 10 (year not printed). Cloudflare blocks plain curl; read with a browser user agent 2026-09-30."
   }
 ]

@@ -21,7 +21,7 @@
 export const REGIONS = {
   'poudre': 'Fort Collins & the Poudre',
   'windsor-johnstown': 'Windsor, Timnath, Johnstown & Severance',
-  'loveland-berthoud': 'Loveland & Berthoud',
+  'loveland-berthoud': 'Loveland, Berthoud & Estes Park',
   'greeley-east-weld': 'Greeley & East Weld',
   'carbon-valley-longmont': 'Longmont & Carbon Valley',
 };
@@ -45,6 +45,8 @@ export const NOCO_TOWNS = [
   { slug: 'eaton-co', name: 'Eaton', county: 'Weld', region: 'greeley-east-weld', tier: 'lean', live: false, lat: 40.5257, lng: -104.713 },
   { slug: 'milliken-co', name: 'Milliken', county: 'Weld', region: 'greeley-east-weld', tier: 'lean', live: false, lat: 40.3105, lng: -104.8584 },
   { slug: 'dacono-co', name: 'Dacono', county: 'Weld', region: 'carbon-valley-longmont', tier: 'lean', live: true, lat: 40.0635, lng: -104.9468 },
+  /* Added 2026-09-30: Brian wants the work (Ty). Census 2024 Gazetteer internal point. */
+  { slug: 'estes-park-co', name: 'Estes Park', county: 'Larimer', region: 'loveland-berthoud', tier: 'lean', live: false, lat: 40.367, lng: -105.5339 },
 ];
 
 /** TIMELESS Grass & Greens territory. NoCo never builds a page for these, and the lead router sends
@@ -59,7 +61,6 @@ export const TIMELESS_TOWNS = [
 /** Places we researched and deliberately left out, with the reason — so nobody "adds" them later
  *  without new material. */
 export const EXCLUDED_TOWNS = {
-  'Estes Park': '43.5 mi of mountain road, 36% seasonal housing, no NoCo jobs on record — needs Brian to name jobs first',
   'Fort Lupton': 'unassigned between NoCo and TIMELESS — Brian decides (Appendix A)',
   'Niwot': 'unassigned between NoCo and TIMELESS — Brian decides (Appendix A)',
 };

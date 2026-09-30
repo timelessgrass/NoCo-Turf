@@ -19,6 +19,10 @@ export const TOWN_SELL: Record<string, TownSell> = {
     hook: 'We build turf lawns, dog runs and putting greens in Dacono, on a base made for ground that shrinks and swells.',
     good: ['Dacono’s landscape rules don’t cover existing houses, so turf in your yard is up to you and your HOA.', 'Turf doesn’t count toward the landscaping Dacono requires on new development.', 'Much of Dacono sits on clay that shrinks and swells, so base prep matters most.'],
   },
+  'estes-park-co': {
+    hook: 'We build turf lawns, dog runs and putting greens in Estes Park, on a base made for rocky, sloped ground and a long snowy winter.',
+    good: ['Estes Park’s codes have no turf rule, so turf in your yard is up to you and your HOA.', 'On a household-use well, you can’t water a lawn at all. Turf needs no watering.', 'Bedrock can sit a foot down, so the base is built around the rock.'],
+  },
   'eaton-co': {
     hook: 'We build turf lawns and putting greens on Eaton’s bigger lots, from Governor’s Ranch to Hawkstone by the Eaton Country Club.',
     good: ['Eaton’s 2026 turf rule is aimed at commercial and common land, not your house.', HOA, 'Eaton lots run big, and turf takes the mowing and watering off your list.'],

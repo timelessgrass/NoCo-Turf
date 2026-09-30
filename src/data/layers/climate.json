@@ -693,5 +693,41 @@
       "8"
     ],
     "notes": "Recomputed 2026-09-24 from the full StormEvents_details CSVs (STATE = COLORADO, EVENT_TYPE = Hail). A \"reference point\" report can be a few miles from town — counts reflect spotter density, not area-normalised risk."
+  },
+  {
+    "id": "noaa-normals-estes-park",
+    "layer": "climate",
+    "applies_to": [
+      "estes-park-co"
+    ],
+    "fact": "The nearest NOAA station, Estes Park 3 SSE, averages 17.42 inches of precipitation and 104 inches of snow a year, with 183.6 nights at or below 32°F, 1.7 days at or above 90°F and a median frost-free season of 109 days, from about May 30 to September 17 (1991–2020 normals).",
+    "quote": "USC00052761 ESTES PARK 3 SSE — ANN-PRCP-NORMAL 17.42 · ANN-SNOW-NORMAL 104.0 · ANN-TMIN-AVGNDS-LSTH032 183.6 · ANN-TMAX-AVGNDS-GRTH090 1.7 · JJA-TMAX-NORMAL 77.3 · ANN-TMIN-PRBLST-T32FP50 05/30 · ANN-TMIN-PRBFST-T32FP50 09/17 · ANN-TMIN-PRBGSL-T32FP50 109.0",
+    "source_url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00052761&format=json",
+    "source_label": "NOAA NCEI U.S. Climate Normals 1991–2020, annual/seasonal, station ESTES PARK 3 SSE (USC00052761)",
+    "checked": "2026-09-30",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "17.42",
+      "104",
+      "104.0",
+      "183.6",
+      "32",
+      "1.7",
+      "90",
+      "109",
+      "109.0",
+      "30",
+      "17",
+      "1991",
+      "2020",
+      "77.3",
+      "05",
+      "09",
+      "3",
+      "05/30",
+      "09/17"
+    ],
+    "notes": "Station name and position from ghcnd-stations.txt (40.3489, -105.5200, 2,381 m). PRBLST/PRBFST T32FP50 are the dates by which a 32°F freeze has a 50% chance; PRBGSL the 50%-probability season length. Say 'the nearest NOAA station'."
   }
 ]

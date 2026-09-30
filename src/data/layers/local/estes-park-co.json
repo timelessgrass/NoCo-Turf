@@ -1,0 +1,47 @@
+[
+  {
+    "id": "estes-park-co.household-use-wells",
+    "layer": "utility",
+    "applies_to": [
+      "estes-park-co"
+    ],
+    "fact": "CSU Extension says most private wells drilled on or after May 8, 1972 on properties under 35 acres are permitted for household use only, and their water cannot be used for any outside use.",
+    "quote": "Most private wells drilled on or after May 8, 1972 on properties less than 35 acres are permitted for household-use only. … Water cannot be used to irrigate gardens, windbreaks, livestock, or any other outside use.",
+    "source_url": "https://extension.colostate.edu/gilpin/?p=472",
+    "source_label": "CSU Extension, Gilpin County: Colorado Water Law and How to Garden Anyway (Irene Shonle)",
+    "checked": "2026-09-30",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "8",
+      "1972",
+      "35"
+    ],
+    "notes": "A statewide rule, filed here because Estes Park is the one NoCo town with homes outside a water district's mapped area (estes-park-water-division). What a given well may do is on its own permit: say 'check your well permit'."
+  },
+  {
+    "id": "estes-park-co.census-2020-vacancy",
+    "layer": "housing",
+    "applies_to": [
+      "estes-park-co"
+    ],
+    "fact": "On Census day 2020, 1,587 of Estes Park's 4,378 housing units were vacant, about 36%.",
+    "quote": "2020 Census Redistricting Data (P.L. 94-171), Table H1 Occupancy Status, Estes Park town, Colorado: Total 4,378; Vacant 1,587 (36.2%)",
+    "source_url": "https://www2.census.gov/programs-surveys/decennial/2020/data/01-Redistricting_File--PL_94-171/Colorado/co2020.pl.zip",
+    "source_label": "U.S. Census Bureau, 2020 Census Redistricting Data (P.L. 94-171), Colorado, Table H1",
+    "checked": "2026-09-24",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2020",
+      "94",
+      "171",
+      "1",
+      "4378",
+      "1587",
+      "36",
+      "36.2"
+    ],
+    "notes": "From the 2026-09-24 towns-larimer research pass. H1 counts seasonal, recreational and occasional-use homes as vacant but doesn't split them out, so don't call them second homes: say the homes 'sat empty'."
+  }
+]

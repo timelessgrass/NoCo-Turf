@@ -547,5 +547,43 @@
       "1.5"
     ],
     "notes": "Queried 2026-09-24 (box ≈ 4.4 × 3.4 km around a town-center point; methodology choice, not an NRCS statement). Linear extensibility (LEP) ≥ 6 is high shrink-swell; ≈1.5 is low. Soils vary lot to lot — present as \"soil surveys map…\", never as a site finding."
+  },
+  {
+    "id": "nrcs-soil-estes-park",
+    "layer": "soil",
+    "applies_to": [
+      "estes-park-co"
+    ],
+    "fact": "Soil surveys around central Estes Park map mostly Cathedral-Ratake complexes on 5 to 35 percent slopes, where bedrock can sit 26 to 37 centimeters (about 10 to 15 inches) down, and rock-outcrop complexes over about a quarter of the area sampled.",
+    "quote": "SSURGO map units at an 81-point grid over a ±0.02° box around central Estes Park (share of points · muaggatt minimum depth to bedrock): Cathedral-Ratake complex 5–15% slopes 23.5% (37 cm) · Cathedral-Ratake complex 15–35% slopes 22.2% (26 cm) · Bullwark-Catamount families-Rock outcrop complex 40–150% slopes 11.1% (0 cm) · Chasmfalls coarse sandy loam 1–15% slopes 7.4% (53 cm) · Rock outcrop-Cathedral complex 20–100% slopes 6.2% (0 cm); rock-outcrop complexes together 24.7%",
+    "source_url": "https://sdmdataaccess.nrcs.usda.gov/",
+    "source_label": "USDA-NRCS Soil Data Access (SSURGO), point-grid query around central Estes Park",
+    "checked": "2026-09-30",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5",
+      "35",
+      "26",
+      "37",
+      "10",
+      "15",
+      "81",
+      "0.02",
+      "23.5",
+      "22.2",
+      "40",
+      "150",
+      "11.1",
+      "0",
+      "1",
+      "7.4",
+      "53",
+      "20",
+      "100",
+      "6.2",
+      "24.7"
+    ],
+    "notes": "Queried 2026-09-30: 9 x 9 point grid over ±0.02° around the Census internal point (40.367046, -105.533861), SDA_Get_Mukey_from_intersection_with_WktWgs84 per point, muaggatt.brockdepmin (cm). Point share approximates area share (methodology choice, not an NRCS statement). Soils vary lot to lot — present as 'soil surveys map…', never as a site finding."
   }
 ]
