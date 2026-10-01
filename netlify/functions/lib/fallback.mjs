@@ -21,7 +21,7 @@ export function fact(node) {
   return node.value;
 }
 
-/** { display: '720-630-0108', href: 'tel:+17206300108' } from the brief, or null. */
+/** { display: '970-528-1076', href: 'tel:+19705281076' } from the brief, or null. */
 export function fallbackPhone(b = brief) {
   const identity = b?.identity ?? {};
   const location = (identity.locations ?? b?.locations ?? [])[0] ?? {};

@@ -19,7 +19,7 @@ OUT = os.path.join(ROOT, 'public', 'og')
 FONTS = os.path.join(ROOT, 'scripts', 'og-fonts')
 W, H = 1200, 630
 INK, BONE, PAINT = (19, 18, 15), (243, 240, 232), (71, 150, 13)
-PHONE = '720-630-0108'
+PHONE = '970-528-1076'
 
 
 def font(name, size, weight, width=None):

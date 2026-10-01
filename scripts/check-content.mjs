@@ -101,9 +101,10 @@ export const REPO = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '
 // ───────────────────────────── shared text rules (check-dist.mjs imports these) ─────────────────────────────
 
 /** TIMELESS Grass & Greens numbers: never on a NoCo page, in any spelling. */
-export const TIMELESS_PHONES = ['3033492368', '8542049227'];
+/* 720-630-0108 was NoCo's number until 2026-10-01 and is TIMELESS Grand Strand's: never on a NoCo page again. */
+export const TIMELESS_PHONES = ['3033492368', '8542049227', '7206300108'];
 /** NoCo's one public number (.site/decisions/2026-09-24-phone.md). It renders from the brief, never typed. */
-export const NOCO_PHONE = '7206300108';
+export const NOCO_PHONE = '9705281076';
 
 /** Characters by code point, so no invisible character ever sits in this source file. */
 const cp = (...codes) => codes.map((c) => String.fromCodePoint(c)).join('');

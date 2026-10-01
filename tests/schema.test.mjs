@@ -17,7 +17,7 @@ import { run as mirrors, buildLlms } from '../scripts/md-mirrors.mjs';
 const root = fileURLToPath(new URL('../', import.meta.url));
 const dist = path.join(root, 'dist');
 const SITE = 'https://www.nocoturf.com';
-const BRIEF = { name: 'NoCo Turf Co.', phoneDigits: '7206300108' };
+const BRIEF = { name: 'NoCo Turf Co.', phoneDigits: '9705281076' };
 const LAUNCHED = { prelaunch: false, site: SITE, brief: BRIEF };
 
 test('the built site passes every check-dist rule', (t) => {
@@ -38,13 +38,13 @@ test('no rating or review markup anywhere in the build', (t) => {
 
 // ───────────────────────────── the rules on fixture pages ─────────────────────────────
 
-const business = (extra = {}) => ({ '@type': 'HomeAndConstructionBusiness', '@id': `${SITE}/#business`, name: 'NoCo Turf Co.', telephone: '+1 720-630-0108', ...extra });
+const business = (extra = {}) => ({ '@type': 'HomeAndConstructionBusiness', '@id': `${SITE}/#business`, name: 'NoCo Turf Co.', telephone: '+1 970-528-1076', ...extra });
 function page({ route = '/services/pet-turf/', robots = 'index, follow', graph = [business()], body = '<h1>Pet turf</h1><p>Drains fast.</p>', head = '' } = {}) {
   const ld = JSON.stringify({ '@context': 'https://schema.org', '@graph': graph });
   return `<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Pet turf | NoCo Turf Co.</title><meta name="description" content="Pet turf that drains."><link rel="canonical" href="${SITE}${route}">
 <meta name="robots" content="${robots}">${head}<script type="application/ld+json">${ld}</script></head>
-<body><main id="main">${body}</main><footer><a href="tel:+17206300108" data-cta="footer-call">720-630-0108</a></footer></body></html>`;
+<body><main id="main">${body}</main><footer><a href="tel:+19705281076" data-cta="footer-call">970-528-1076</a></footer></body></html>`;
 }
 const codes = (html, ctx = LAUNCHED, route = '/services/pet-turf/') => checkPage(route, html, ctx).issues.map(([lvl, code]) => `${lvl} ${code}`);
 const fails = (html, ctx, route) => codes(html, ctx, route).filter((c) => c.startsWith('FAIL'));
@@ -104,7 +104,7 @@ test('robots meta: noindex iff PRELAUNCH or a utility page (ROBOTS-1)', () => {
 test('forms, tel links and images (FORM-1, TEL-1, IMG-1)', () => {
   assert.ok(fails(page({ body: '<h1>x</h1><form action="/.netlify/functions/lead"></form><form></form>' })).includes('FAIL FORM-1'));
   assert.ok(fails(page({ body: '<h1>x</h1><form action="/api/lead"></form>' })).includes('FAIL FORM-2'));
-  assert.ok(fails(page({ body: '<h1>x</h1><a href="tel:720-630-0108">call</a>' })).includes('FAIL TEL-1'));
+  assert.ok(fails(page({ body: '<h1>x</h1><a href="tel:970-528-1076">call</a>' })).includes('FAIL TEL-1'));
   assert.ok(fails(page({ body: '<h1>x</h1><a href="tel:+1720630010">call</a>' })).includes('FAIL TEL-1'));
   assert.ok(fails(page(), { ...LAUNCHED, brief: { name: null, phoneDigits: null }, }).includes('FAIL TEL-2'), 'a tel: the brief does not hold');
   assert.ok(fails(page({ body: '<h1>x</h1><img src="/a.webp" width="800" height="600">' })).includes('FAIL IMG-1'));
@@ -208,7 +208,7 @@ const unknown = (value) => ({ value, status: 'UNKNOWN', source: null });
 
 test('llms.txt says only what the brief can render', () => {
   const brief = {
-    identity: { display_name: renderable('NoCo Turf Co.'), locations: [{ phone: renderable('+1 720-630-0108'), hours: unknown('Mon-Fri') }] },
+    identity: { display_name: renderable('NoCo Turf Co.'), locations: [{ phone: renderable('+1 970-528-1076'), hours: unknown('Mon-Fri') }] },
     service_areas: [{ slug: 'windsor-co', name: renderable('Windsor') }, { slug: 'erie-co', name: { value: 'Erie', status: 'INFERENCE', source: 'x' } }],
     services: [{ name: renderable('Pet turf'), client_description: unknown('Guaranteed forever') }],
     faq_harvest: [{ question: renderable('Does it drain?'), client_answer: unknown('Yes') }],
@@ -219,7 +219,7 @@ test('llms.txt says only what the brief can render', () => {
   const live = buildLlms({ brief, site: SITE, prelaunch: false, pages: [] });
   assert.match(live, /^# NoCo Turf Co\./);
   assert.match(live, /Service area: Windsor$/m);
-  assert.match(live, /Phone: \+1 720-630-0108/);
+  assert.match(live, /Phone: \+1 970-528-1076/);
   assert.match(live, /- \*\*Pet turf\*\*$/m);
   for (const hidden of ['Erie', 'Mon-Fri', 'Guaranteed', 'Does it drain']) assert.doesNotMatch(live, new RegExp(hidden));
   const anon = buildLlms({ brief: {}, site: SITE, prelaunch: false, pages: [] });

@@ -95,10 +95,11 @@ export function renderEmail(lead, { kicker = '', prep = [], timelineLine = '', h
       ${prep.map((q) => `<p style="margin:0 0 8px;padding-left:16px;text-indent:-16px;font-family:${SANS};font-size:14px;line-height:21px;color:${C.ink};">&bull;&nbsp;&nbsp;${esc(q)}</p>`).join('')}
     </td></tr></table>
   </td></tr>
-  ${/* Brian's crew reads this, not TTM: no portal line (Ty, 2026-09-30). Only the out-of-area note stays. */ ''}
-  ${lead.lane === 'timeless' ? `<tr><td style="padding:14px 28px 24px;">
-    <p style="margin:0;font-family:${SANS};font-size:13px;line-height:20px;color:${C.dim};">This project is outside NoCo’s area. Forward it rather than booking it.</p>
-  </td></tr>` : ''}
+  <tr><td style="padding:14px 28px 24px;">
+    <p style="margin:0;font-family:${SANS};font-size:13px;line-height:20px;color:${C.dim};">${lead.lane === 'timeless'
+      ? 'This project is outside NoCo’s area. Forward it rather than booking it.'
+      : `This lead is also in your TTM portal under My Leads, as a ${esc(lead.campaignName)}. Mark it won or lost there once it’s decided.`}</p>
+  </td></tr>
   <tr><td style="background:${C.panel};border-top:1px solid ${C.rule};padding:18px 28px 22px;">
     ${micro('Lead record')}
     <p style="margin:0;font-family:${SANS};font-size:12px;line-height:19px;color:${C.dim};word-break:break-all;">

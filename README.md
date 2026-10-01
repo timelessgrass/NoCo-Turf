@@ -51,7 +51,7 @@ Netlify builds on every push to `main`, on Brian's account. Commit locally; push
 
 ## Before launch (gates 10–12 — see the plan's Phase 6)
 
-- TIMELESS Grand Strand moves off 720-630-0108 (its pages and its GBP); NoCo's GBP phone becomes 720-630-0108.
+- NoCo's number is 970-528-1076 (2026-10-01); its GBP phone must match. 720-630-0108 stays with TIMELESS Grand Strand and is banned on NoCo pages.
 - GBP address model decided (storefront vs service-area); NAP byte-identical across GBP, site, JSON-LD, listings.
 - A live test lead reaches Brian's inbox, the portal and the notification — confirmed by Brian.
 - `PRELAUNCH = false` + delete the X-Robots-Tag line; Netlify access control scoped to non-production.

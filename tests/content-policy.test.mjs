@@ -182,7 +182,7 @@ test('a TIMELESS phone fails in any spelling', (t) => {
 test('"Timeless" and NoCo\'s own typed phone fail', (t) => {
   const { write, run } = fixture(t);
   const rec = town('fort-collins-co');
-  rec.lede = 'Ask our friends at TIMELESS, or call 720-630-0108.';
+  rec.lede = 'Ask our friends at TIMELESS, or call 970-528-1076.';
   write('src/content/towns/fort-collins-co.json', rec);
   const r = run();
   assert.equal(r.status, 1, r.out);

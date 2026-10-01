@@ -336,10 +336,10 @@ test('phone numbers become a readable number and a dialable link', () => {
 /* ---- the fallback page ------------------------------------------------------------------ */
 
 const briefWith = (phone, name) => ({ identity: { display_name: name, locations: phone ? [{ phone }] : [] } });
-const P = (status, source = 'operator_decision') => ({ value: '+1 720-630-0108', status, source });
+const P = (status, source = 'operator_decision') => ({ value: '+1 970-528-1076', status, source });
 
 test('the fallback number renders only with a renderable status and a source', () => {
-  assert.deepEqual(fallbackPhone(briefWith(P('CLIENT_STATED'))), { display: '720-630-0108', href: 'tel:+17206300108' });
+  assert.deepEqual(fallbackPhone(briefWith(P('CLIENT_STATED'))), { display: '970-528-1076', href: 'tel:+19705281076' });
   for (const s of ['VERIFIED', 'CLIENT_CONFIRMED', 'EXTERNAL_SOURCE']) assert.ok(fallbackPhone(briefWith(P(s))), s);
   assert.equal(fallbackPhone(briefWith(P('INFERENCE'))), null);
   assert.equal(fallbackPhone(briefWith(P('UNKNOWN'))), null);
@@ -357,7 +357,7 @@ test('the fallback page is a 502 that says "Please call us" when the brief has n
   assert.doesNotMatch(html, /tel:/);
   assert.match(html, /noindex/);
   const withPhone = await callUsPage({ brief: briefWith(P('CLIENT_STATED')), back: '//evil.example/' }).text();
-  assert.match(withPhone, /href="tel:\+17206300108"/);
+  assert.match(withPhone, /href="tel:\+19705281076"/);
   assert.match(withPhone, /href="\/contact\/"/, 'an off-site "back" link falls back to /contact/');
   noBannedPhone(withPhone, 'fallback page');
 });

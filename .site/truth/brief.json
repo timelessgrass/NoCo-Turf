@@ -49,12 +49,12 @@
   "locations": [
    {
     "phone": {
-     "value": "+1 720-630-0108",
+     "value": "+1 970-528-1076",
      "status": "EXTERNAL_SOURCE",
      "source": "operator_decision",
-     "source_detail": "Ty 2026-09-24 (.site/decisions/2026-09-24-phone.md): the number printed on the current nocoturf.com; Brian to confirm. Also TIMELESS Grand Strand's number until it moves (launch dependency)",
-     "date": "2026-09-24",
-     "note": "tel: href +17206300108; printed 720-630-0108. Gate 11: the other brand must move off this number and the GBP phone must change to it before launch. No call-tracking numbers."
+     "source_detail": "Ty 2026-10-01: \"(970) 528-1076 is NoCo number\" (.site/decisions/2026-09-24-phone.md, amended). Replaces 720-630-0108, which stays with TIMELESS Grand Strand",
+     "date": "2026-10-01",
+     "note": "tel: href +19705281076; printed 970-528-1076. NoCo's Google Business Profile phone must match it. No call-tracking numbers."
     },
     "email": {
      "value": null,
