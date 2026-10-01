@@ -27,7 +27,7 @@ const mapId = `cmap-${current ?? 'all'}`;
 
 // Phones show the main orientation towns; the list below links every served town.
 const leftLabels = new Set(['fort-collins-co', 'loveland-co', 'johnstown-co', 'berthoud-co', 'mead-co', 'longmont-co', 'frederick-co']);
-const mobileLabels = new Set(['wellington-co', 'fort-collins-co', 'windsor-co', 'loveland-co', 'greeley-co', 'berthoud-co', 'longmont-co', 'dacono-co']);
+const mobileLabels = new Set(['wellington-co', 'fort-collins-co', 'windsor-co', 'loveland-co', 'greeley-co', 'berthoud-co', 'longmont-co', 'dacono-co', 'estes-park-co']);
 const labelOffset: Record<string, number> = { 'johnstown-co': -8, 'berthoud-co': 8, 'severance-co': -4 };
 const label = (t: Town) => {
   const [x, y] = at(t);
