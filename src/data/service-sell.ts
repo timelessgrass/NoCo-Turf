@@ -10,7 +10,7 @@ export interface ServiceSell {
   lede: string;
   good: string[];
   think: string[];
-  expect: { h: string; p: string; href: string }[];
+  expect: { h: string; p: string; href: string; linkLabel?: string }[];
   price: string[];
 }
 
@@ -31,10 +31,10 @@ export const SERVICE_SELL: Record<string, ServiceSell> = {
       'You’re counting on a water rebate. No Northern Colorado provider we checked pays for artificial turf.',
     ],
     expect: [
-      { h: 'Upkeep', p: 'Rinse it, blow off leaves, and brush it now and then so the blades stand up. Top up infill where it wears.', href: '/guides/does-artificial-turf-need-maintenance/' },
-      { h: 'Summer heat', p: 'In full sun, turf gets hotter than grass. Shade, a lighter infill or a quick rinse helps on the hottest days.', href: '/guides/how-hot-does-artificial-turf-get/' },
-      { h: 'Winter', p: 'Snow can melt off on its own or be cleared with care.', href: '/guides/artificial-turf-snow-removal/' },
-      { h: 'How long it lasts', p: 'That depends on the product, the sun, pets and traffic. Get any warranty in writing before you sign.', href: '/guides/how-long-does-artificial-turf-last/' },
+      { h: 'Upkeep', p: 'Rinse it, blow off leaves, and brush it now and then so the blades stand up. Top up infill where it wears.', href: '/guides/does-artificial-turf-need-maintenance/', linkLabel: 'Turf upkeep guide' },
+      { h: 'Summer heat', p: 'In full sun, turf gets hotter than grass. Shade, a lighter infill or a quick rinse helps on the hottest days.', href: '/guides/how-hot-does-artificial-turf-get/', linkLabel: 'Artificial turf heat guide' },
+      { h: 'Winter', p: 'Snow can melt off on its own or be cleared with care.', href: '/guides/artificial-turf-snow-removal/', linkLabel: 'Winter turf care guide' },
+      { h: 'How long it lasts', p: 'That depends on the product, the sun, pets and traffic. Get any warranty in writing before you sign.', href: '/guides/how-long-does-artificial-turf-last/', linkLabel: 'Turf lifespan guide' },
     ],
     price: ['The size of the area and how easy it is to reach', 'Taking out the old lawn and grading', 'Base depth and drainage for your soil', 'Edging where turf meets rock, beds and concrete', 'The turf and infill you choose', 'Extras like a putting green, dog area or play area'],
   },
