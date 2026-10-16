@@ -1,0 +1,88 @@
+# Publishes the week's blog post.
+#
+# Posts are merged ahead of time with a future `published` date (src/lib/content-policy.mjs). The
+# site only shows a post from the first build on or after that date, so each
+# Monday something has to cause a build. This job does, by adding one line to
+# blog/PUBLISHED.md and pushing it: Netlify rebuilds the site on every push to
+# main, so no Netlify credentials or build hook are needed. It only commits in
+# a week with a post due, so a quiet week costs no build.
+#
+# After pushing it checks the live site until the new post answers, and fails
+# if it never does. GitHub emails a failed scheduled run to whoever last edited
+# the schedule below, so a post that did not go out is never silent.
+#
+# Run it by hand from the Actions tab (workflow_dispatch):
+#   - check_only = true: tests that the job can push, publishes nothing.
+#   - check_only = false: publishes any post due this week now, e.g. if Monday's
+#     run failed.
+name: Weekly blog publish
+
+on:
+  schedule:
+    # Mondays 11:00 UTC: 7am in Myrtle Beach in summer, 6am in winter.
+    - cron: '0 11 * * 1'
+  workflow_dispatch:
+    inputs:
+      check_only:
+        description: 'Only test that this job can push to main; publish nothing'
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-blog-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - id: due
+        run: node scripts/post-due.mjs | tee /dev/stderr | grep -E '^(due|slugs)=' >> "$GITHUB_OUTPUT"
+
+      - name: Check this job can push (publishes nothing)
+        if: github.event_name == 'workflow_dispatch' && inputs.check_only
+        run: |
+          git push --dry-run origin HEAD:main
+          echo "Push access OK. Due this week: '${{ steps.due.outputs.slugs }}'"
+
+      - name: Publish this week's post
+        if: steps.due.outputs.due == 'true' && !(github.event_name == 'workflow_dispatch' && inputs.check_only)
+        env:
+          SLUGS: ${{ steps.due.outputs.slugs }}
+        run: |
+          mkdir -p blog
+          [ -f blog/PUBLISHED.md ] || printf '# Weekly blog: when each post was sent live\n\nOne line per publish, written by .github/workflows/weekly-publish.yml.\n\n' > blog/PUBLISHED.md
+          for s in $SLUGS; do
+            if grep -q " $s\$" blog/PUBLISHED.md; then echo "$s already logged"; else echo "$(TZ=America/Denver date +%F) $s" >> blog/PUBLISHED.md; fi
+          done
+          if git diff --quiet; then echo "Already published this week, nothing to do."; exit 0; fi
+          git config user.name "NoCo Turf weekly blog"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add blog/PUBLISHED.md
+          git commit -m "Publish this week's blog post: $SLUGS"
+          git push origin HEAD:main
+
+      - name: Check the post is live
+        if: steps.due.outputs.due == 'true' && !(github.event_name == 'workflow_dispatch' && inputs.check_only)
+        env:
+          SLUGS: ${{ steps.due.outputs.slugs }}
+        run: |
+          for s in $SLUGS; do
+            url="https://www.nocoturf.com/guides/$s/"
+            for i in $(seq 1 30); do
+              code=$(curl -s -o /dev/null -w '%{http_code}' "$url?cb=$RANDOM")
+              if [ "$code" = "200" ]; then echo "LIVE: $url"; continue 2; fi
+              sleep 20
+            done
+            echo "::error::$url was not live 10 minutes after the push. Check the Netlify deploy for this commit."
+            exit 1
+          done
