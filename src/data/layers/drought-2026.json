@@ -30,10 +30,10 @@
     "source_url": "https://greeleyco.gov/news/2026/20260417-greeley-water-and-sewer-board-declares-adequate-water-year-urges-wise-stewardship/",
     "source_label": "City of Greeley news release, April 17, 2026",
     "effective": "2026-04-15",
-    "checked": "2026-09-24",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-11-01",
+    "recheck": "2026-11-23",
     "numbers": [
       "2026",
       "15",
@@ -47,22 +47,23 @@
     "applies_to": [
       "johnstown-co"
     ],
-    "fact": "Johnstown is on a Level 3 drought watering schedule for 2026: 2 assigned days a week by address, no watering from 10 a.m. to 6 p.m., and the outdoor season ends October 15.",
-    "quote": "Level 3 Drought Watering Schedule: Even Addresses Ending in 0, 2, 4, 6, 8: Mondays & Thursdays … Odd Addresses Ending in 1, 3, 5, 7, 9: Tuesdays & Fridays … No watering shall occur between 10am and 6pm. … October 15 is the end of outdoor watering season.",
-    "source_url": "https://www.johnstownco.gov/665/2026-Watering-Schedule",
-    "source_label": "Town of Johnstown, 2026 Watering Schedule (site alert: \"Level 3 Drought Watering Schedule in Effect\")",
+    "fact": "Johnstown's 2026 watering schedule ran at Water Conservation Level 3 from April 20 to October 15, with 2 assigned days a week by address and no watering from 10 a.m. to 6 p.m.; since the outdoor irrigation season ended October 15, it allows only hand watering of trees and shrubs on Saturdays and Sundays.",
+    "quote": "The Johnstown watering schedule is in effect from April 20th - October 15th … Addresses that end in 0, 2, 4, 6, or 8 … HOA common spaces/metro districts … Addresses that end in 1, 3, 5, 7, or 9 … Town-owned parks … BEGIN WATER CONSERVATION LEVEL 3 … No watering shall occur between 10am and 6pm. Watering is only permitted on the properties designated watering day … OUTDOOR IRRIGATION SEASON ENDS! … HAND WATERING ONLY: SATURDAY & SUNDAY TREES & SHRUBS",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/2348/2026-Johnstown-Watering-Schedule-Downloadable-PDF",
+    "source_label": "Town of Johnstown, 2026 Watering Schedule calendar (PDF linked from the Town's 2026 Watering Schedule page)",
     "effective": "2026-04-20",
-    "checked": "2026-09-24",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-10-16",
+    "recheck": "2027-03-01",
     "numbers": [
-      "3",
       "2026",
+      "3",
+      "20",
+      "15",
       "2",
       "10",
       "6",
-      "15",
       "0",
       "4",
       "8",
@@ -71,7 +72,7 @@
       "7",
       "9"
     ],
-    "notes": "Level 3 since 2026-04-20 (Johnstown alert, per towns-larimer research). New lawns need a Town permit (johnstown-code-13-151-new-lawn-permit)."
+    "notes": "Re-read 2026-10-16: the 2026 Watering Schedule page (/665/2026-Watering-Schedule) no longer carries the schedule text, only FAQ links and this PDF, so the record now cites the PDF (pdftotext and page images). The calendar marks assigned days with symbols: addresses ending 0, 2, 4, 6, 8 and HOA common spaces/metro districts on Mondays and Thursdays, 1, 3, 5, 7, 9 and Town parks on Tuesdays and Fridays. October 15 reads 'OUTDOOR IRRIGATION SEASON ENDS!'; the November and December pages still print 'Water Conservation Level 3 Moderate' and the 10am-6pm line. The Town's alert of Oct. 9, 2026 (AlertCenter.aspx?AID=End-of-Watering-Season-October-15th-13) says hand watering of trees and shrubs on Saturdays and Sundays only until April 15, 2027. New lawns need a Town permit (johnstown-code-13-151-new-lawn-permit). Recheck when the 2027 schedule is posted."
   },
   {
     "id": "evans-drought-emergency-2026",
@@ -79,20 +80,24 @@
     "applies_to": [
       "evans-co"
     ],
-    "fact": "The Evans City Council unanimously declared a drought emergency on April 21, 2026, and outdoor watering restrictions remain in place.",
-    "quote": "The Evans City Council declared by unanimous vote on April 21 a drought emergency in the City of Evans. In order to make the best, most efficient use of precious water resources, outdoor watering restrictions are in place and will be enforced in accordance with the Evans Municipal Code.",
+    "fact": "On April 21, 2026, the Evans City Council unanimously approved a drought emergency declaration and an emergency ordinance expanding outdoor watering restrictions for the 2026 irrigation season, which ran April 15 through October 15 with no watering from 10 a.m. to 6 p.m. and assigned days by address.",
+    "quote": "At the April 21 meeting, the Evans City Council unanimously approved a drought emergency declaration and an emergency ordinance to expand outdoor watering restrictions for the 2026 irrigation season. Effective immediately, outdoor watering is prohibited between 10:00 a.m. and 6:00 p.m ., an expansion from the previous noon to 5:00 p.m. restriction. … The City of Evans’ seasonal outdoor watering policies remain in effect April 15 through October 15 , with watering allowed only on designated days outside restricted hours: Even-numbered addresses: Sunday, Tuesday, Thursday Odd-numbered addresses: Monday, Wednesday, Saturday",
     "source_url": "https://www.evanscolorado.gov/news/posts/city-of-evans-declares-drought-emergency-expanded-watering-restrictions-now-in-effect/",
-    "source_label": "City of Evans news post, April 28, 2026 (site-wide alert still shown on 2026-09-24)",
+    "source_label": "City of Evans news post, April 28, 2026: drought emergency and expanded watering restrictions",
     "effective": "2026-04-21",
-    "checked": "2026-09-24",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-10-16",
+    "recheck": "2027-03-01",
     "numbers": [
       "21",
-      "2026"
+      "2026",
+      "10",
+      "6",
+      "5",
+      "15"
     ],
-    "notes": "Research: no watering 10 a.m.–6 p.m., watering season Apr 15–Oct 15, even addresses Su/Tu/Th, odd M/W/Sa (not re-read on the restrictions page today)."
+    "notes": "Re-read 2026-10-16: the post's opening was reworded (it no longer says restrictions 'will be enforced in accordance with the Evans Municipal Code'); the declaration, hours, season and days are unchanged. The City's Oct. 14, 2026 post (Citywide Non-Potable Water System Shutdown Scheduled for October 15) says the non-potable system shut down October 15, 'marking the end of the 2026 irrigation season', and asks residents to limit outdoor irrigation for the rest of the year. Re-check in spring for the 2027 season."
   },
   {
     "id": "evans-glic-cutover-2026",
@@ -105,10 +110,10 @@
     "source_url": "https://www.evanscolorado.gov/news/posts/some-city-neighborhoods-to-transition-to-potable-water-for-irrigation-on-aug-28/",
     "source_label": "City of Evans news post, Aug. 24, 2026",
     "effective": "2026-08-28",
-    "checked": "2026-09-25",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-10-16",
+    "recheck": "2026-11-15",
     "numbers": [
       "28",
       "2026"
@@ -126,10 +131,10 @@
     "source_url": "https://www.firestoneco.gov/1883/Current-Water-Conditions-Stage-1-Drought",
     "source_label": "Town of Firestone, Current Water Conditions: Stage 1 Drought (Resolution 26-34)",
     "effective": "2026-04-16",
-    "checked": "2026-09-24",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-10-24",
+    "recheck": "2026-11-15",
     "numbers": [
       "1",
       "16",
@@ -148,10 +153,10 @@
     "source_url": "https://www.frederickco.gov/1260/Water-Use-Guidance-and-Current-Condition",
     "source_label": "Town of Frederick, Water Use Guidance and Current Conditions",
     "effective": "2026-05-20",
-    "checked": "2026-09-24",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-10-24",
+    "recheck": "2026-11-15",
     "numbers": [
       "1",
       "20",
@@ -173,10 +178,10 @@
     "quote": "Left Hand has declared a Stage 1 (Mild) Water Shortage. Stage 1 Guidelines and Actions : Voluntary Conservation: Customers are requested to reduce water use and follow recommended restrictions on certain water uses.",
     "source_url": "https://www.frederickco.gov/1260/Water-Use-Guidance-and-Current-Condition",
     "source_label": "Town of Frederick, Water Use Guidance and Current Conditions (Left Hand Water District summary)",
-    "checked": "2026-09-24",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-10-24",
+    "recheck": "2026-11-15",
     "numbers": [
       "25",
       "1"
@@ -192,10 +197,10 @@
     "quote": "Current Status: Mild Drought Response The City of Longmont is under a Mild Drought Response Level. In response to a dry winter and low snowpack, the City will reduce water consumption by 10% on City-owned greenways, parks, golf courses and other facilities. Residents are encouraged, not required, to do the same.",
     "source_url": "https://longmontcolorado.gov/water/water-conservation/conserving-water-outdoors/",
     "source_label": "City of Longmont, Conserving Water Outdoors",
-    "checked": "2026-09-24",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-10-24",
+    "recheck": "2026-11-15",
     "numbers": [
       "10"
     ]
@@ -212,10 +217,10 @@
     "quote": "LTWD remains at the Watch status under our Water Shortage Contingency Plan. This is the first and lowest action level in our plan, meaning no mandatory watering restrictions are in place but voluntary conservation remains important.",
     "source_url": "https://www.littlethompsonwd.gov/quarterly-news-from-ltwd-summer-2026",
     "source_label": "Little Thompson Water District, Quarterly News – Summer 2026",
-    "checked": "2026-09-24",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-10-24",
+    "recheck": "2026-11-15",
     "numbers": [
       "2026"
     ],
@@ -231,13 +236,14 @@
     "quote": "While there are currently no mandatory water restrictions in Berthoud, residents' HOAs and businesses are encouraged to observe voluntary water restrictions and use water sparingly.",
     "source_url": "https://www.berthoud.org/1639/Drought-Water-Usage",
     "source_label": "Town of Berthoud, Drought Water Usage",
-    "checked": "2026-09-24",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-10-24",
+    "recheck": "2026-11-23",
     "numbers": [
       "2026"
-    ]
+    ],
+    "notes": "Re-read 2026-10-16: unchanged. The page HTML writes the apostrophe in \"residents' HOAs\" as &apos;, which recheck-sources does not decode, so its run reported the quote as changed."
   },
   {
     "id": "dacono-no-mandatory-2026",
@@ -246,15 +252,15 @@
       "dacono-co"
     ],
     "fact": "Dacono has no mandatory watering restrictions in place and asks residents to use water efficiently.",
-    "quote": "While there are currently no mandatory restrictions in place at the moment, residents are encouraged to use water efficiently and avoid unnecessary waste.",
+    "quote": "While there are no mandatory restrictions in place at the moment, residents are encouraged to use water efficiently and avoid unnecessary waste.",
     "source_url": "https://www.daconoco.gov/885/Water-Conservation",
     "source_label": "City of Dacono, Water Conservation",
-    "checked": "2026-09-24",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-10-24",
+    "recheck": "2026-11-23",
     "numbers": [],
-    "notes": "The page also introduces the City's 2026 Water Efficiency Plan."
+    "notes": "The page also introduces the City's 2026 Water Efficiency Plan. Re-read 2026-10-16: the sentence dropped the word 'currently'; the City also says water supplies are more limited this year and that conserving now may reduce the need for stricter measures later in the season."
   },
   {
     "id": "severance-mandatory-schedule",
@@ -266,10 +272,10 @@
     "quote": "The Town of Severance has a mandatory watering schedule. All Severance water users must follow the schedule and refrain from watering between 11:00 A.M. and 5:00 P.M. The Town allows three days for flexibility. … There shall be no lawn watering from December 1st thru March 31st of any year.",
     "source_url": "https://www.townofseverance.org/396/Watering-Guidelines-and-Restrictions",
     "source_label": "Town of Severance, Watering Guidelines and Restrictions",
-    "checked": "2026-09-24",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-10-24",
+    "recheck": "2026-11-15",
     "numbers": [
       "11",
       "5",
@@ -289,10 +295,10 @@
     "quote": "Town-treated water shall not be used for lawn sprinkler irrigation between 9 am and 7 pm daily and all day on Sunday … When drought conditions are declared, the Town will establish the respective drought levels (1, 2, 3 or 4) and impose the following restrictions and drought conservation surcharges",
     "source_url": "https://millikenco.gov/194/Watering-Schedule",
     "source_label": "Town of Milliken, Watering Schedule",
-    "checked": "2026-09-24",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-10-24",
+    "recheck": "2026-11-15",
     "numbers": [
       "9",
       "7",
@@ -313,10 +319,10 @@
     "quote": "Between April and October, limit outdoor watering to between the hours of 7 p.m. and 8 a.m. Outdoor watering of turf grass should be limited to no more than 2 days per week.",
     "source_url": "https://www.wellingtoncolorado.gov/211/Water-Efficiency-Program",
     "source_label": "Town of Wellington, Water Efficiency Program (Resolution No. 15-2025 guidelines)",
-    "checked": "2026-09-24",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-10-24",
+    "recheck": "2026-11-15",
     "numbers": [
       "7",
       "8",
@@ -335,10 +341,10 @@
     "source_url": "https://www.fortcollins.gov/News-Articles/News/2026-Q2/Voluntary-Water-Shortage-Watch",
     "source_label": "City of Fort Collins news release, April 30, 2026",
     "effective": "2026-05-01",
-    "checked": "2026-09-24",
+    "checked": "2026-10-16",
     "reachable": false,
     "status": "VERIFIED",
-    "recheck": "2026-10-24",
+    "recheck": "2026-11-15",
     "numbers": [
       "1",
       "2026",
@@ -402,10 +408,10 @@
     "quote": "VOLUNTARY WATERING RESTRICTIONS … Water no more than three days a week. • Water before 10:00 a.m. and after 6:00 p.m. when temperatures are cooler.",
     "source_url": "https://www.nwcwd.org/files/f055ec287/May+2026+Newsletter.pdf",
     "source_label": "North Weld County Water District, May 2026 Newsletter",
-    "checked": "2026-09-24",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-10-24",
+    "recheck": "2026-11-15",
     "numbers": [
       "2026",
       "3",
@@ -420,21 +426,21 @@
     "applies_to": [
       "windsor-co"
     ],
-    "fact": "Windsor lists a standing lawn-watering rule of no watering from 10 a.m. to 6 p.m., and its website showed no 2026 drought stage on September 24, 2026.",
+    "fact": "Windsor lists a standing lawn-watering rule of no watering from 10 a.m. to 6 p.m., and its Efficiency page showed no 2026 drought stage on October 16, 2026.",
     "quote": "Lawn watering restrictions (No watering from 10am-6pm daily)",
     "source_url": "https://www.windsorco.gov/1222/Efficiency",
     "source_label": "Town of Windsor, Efficiency (Water Resources)",
-    "checked": "2026-09-24",
-    "reachable": true,
+    "checked": "2026-10-16",
+    "reachable": false,
     "status": "VERIFIED",
-    "recheck": "2026-10-24",
+    "recheck": "2026-11-16",
     "numbers": [
       "10",
       "6",
       "2026",
-      "24"
+      "16"
     ],
-    "notes": "Searched windsorco.gov (site search and Water Resources page) on 2026-09-24: no 2026 stage declaration found. A secondary site claimed \"Drought Watch\" — not confirmed. Windsor buys mostly from NWCWD (see nwcwd-voluntary-2026)."
+    "notes": "windsorco.gov returns 403 to curl and to the Monday recheck. Read in a browser 2026-10-16: the Efficiency page still lists 'Lawn watering restrictions (No watering from 10am-6pm daily)' and posts no drought stage. On 2026-09-24 a search of windsorco.gov (site search and Water Resources page) found no 2026 stage declaration; a secondary site's \"Drought Watch\" claim was not confirmed. Windsor buys mostly from NWCWD (see nwcwd-voluntary-2026)."
   },
   {
     "id": "loveland-voluntary-2026",
@@ -446,17 +452,17 @@
     "quote": "city of Loveland Utilities is unlikely to impose mandatory water usage restrictions this summer. … The city is currently in the \"voluntary response level\" of its drought response plan … Under the voluntary response level, customers are encouraged to limit outdoor watering to three days per week, avoid watering between 10 a.m. and 6 p.m.",
     "source_url": "https://www.reporterherald.com/2026/04/05/loveland-watering-restrictions/",
     "source_label": "Loveland Reporter-Herald, April 5, 2026",
-    "checked": "2026-09-24",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "EXTERNAL_SOURCE",
-    "recheck": "2026-10-24",
+    "recheck": "2027-03-01",
     "numbers": [
       "2026",
       "3",
       "10",
       "6"
     ],
-    "notes": "News source; the City's own pages (lovelandwaterandpower.org, lovgov.org) return 403 to curl and WebFetch. Status after April not confirmed."
+    "notes": "News source; the City's own pages (lovelandwaterandpower.org, lovgov.org) return 403 to curl and WebFetch. Status after April not confirmed. Re-read 2026-10-16 in a browser and by the recheck fetch (curl gets 403): unchanged. The April article is history; re-check in spring for the 2027 response level."
   },
   {
     "id": "eaton-2026-status-unverified",

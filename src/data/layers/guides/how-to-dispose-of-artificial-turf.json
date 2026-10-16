@@ -91,20 +91,20 @@
       "milliken-co",
       "dacono-co"
     ],
-    "fact": "Weld County's health department offers a limited number of Large Item Disposal Vouchers, valid March 2 to October 31, 2026, each good for one free trip to the North Weld Landfill in Ault, the Buffalo Ridge Landfill in Keenesburg or the Front Range Landfill, covering one truckload level with the bed rails or one trailer load, each up to one ton, with extra weight or volume billed at disposal; vouchers are picked up at the county's household hazardous waste facilities in Greeley and Dacono or its health department office in Greeley, and questions about acceptable items go to each landfill.",
+    "fact": "Weld County's health department offered a limited number of 2026 Large Item Disposal Vouchers, valid March 2 to October 31, 2026, each good for one free trip to the North Weld Landfill in Ault, the Buffalo Ridge Landfill in Keenesburg or the Front Range Landfill, covering one truckload level with the bed rails or one trailer load, each up to one ton, with extra weight or volume billed at disposal; vouchers were picked up at the county's household hazardous waste facilities in Greeley and Dacono or its health department office in Greeley, and questions about acceptable items went to each landfill.",
     "quote": "The Weld County Department of Public Health and Environment is offering a limited number of vouchers for one free trip to the North Weld Landfill in Ault, Buffalo Ridge Landfill in Keenesburg, or the Front Range Landfill … This is a great opportunity for residents to responsibly dispose of large items, such as mattresses, couches, tables, etc., at no cost. … Voucher Valid Dates: March 2, 2026 – October 31, 2026 … Voucher Covers: One truckload, level with the bed rails (up to one ton), or one trailer load (up to one ton). Any additional weight or volume will incur fees, payable by the resident at the time of disposal. … For details about acceptable items, landfill hours, and other questions, visit: … Vouchers can be picked up at one of the following locations: Greeley Household Hazardous Waste Facility … Dacono Household Hazardous Waste Facility … Weld County Department of Public Health and Environment",
     "source_url": "https://www.weld.gov/Government/Departments/Health-and-Environment/Environmental-Health-Services/Household-Hazardous-Waste-Disposal/Large-Item-Disposal-Voucher",
     "source_label": "Weld County Department of Public Health and Environment, Large Item Disposal Voucher",
     "checked": "2026-09-25",
     "reachable": false,
     "status": "VERIFIED",
-    "recheck": "2026-11-01",
+    "recheck": "2027-03-01",
     "numbers": [
       "2",
       "31",
       "2026"
     ],
-    "notes": "weld.gov returns 403 (Akamai) to curl. Live page read 2026-09-25 through WebFetch (same dates, landfills and load limits); the verbatim text was read in the Wayback capture https://web.archive.org/web/20260513210929/https://www.weld.gov/Government/Departments/Health-and-Environment/Environmental-Health-Services/Household-Hazardous-Waste-Disposal/Large-Item-Disposal-Voucher. The quote stops before the Front Range Landfill's town, which is in the sister brand's territory and is never named in NoCo copy. The page does not name artificial turf either way. The 2026 program ends Oct. 31: re-read for a 2027 program after the recheck date."
+    "notes": "weld.gov returns 403 (Akamai) to curl. Live page read 2026-09-25 through WebFetch (same dates, landfills and load limits); the verbatim text was read in the Wayback capture https://web.archive.org/web/20260513210929/https://www.weld.gov/Government/Departments/Health-and-Environment/Environmental-Health-Services/Household-Hazardous-Waste-Disposal/Large-Item-Disposal-Voucher. The quote stops before the Front Range Landfill's town, which is in the sister brand's territory and is never named in NoCo copy. The page does not name artificial turf either way. The 2026 program ends Oct. 31: re-read for a 2027 program after the recheck date. 2026-10-16: the Monday recheck read the live page and found one of the quote's eight segments changed; the page then refused this machine (Akamai 403 to curl, the browser pane and Chrome), and a WebFetch summary showed the same dates, landfills, one-ton limits and pickup sites but not the verbatim wording. The fact now reads in the past tense so it holds after October 31; checked stays at the last verbatim read."
   },
   {
     "id": "how-to-dispose-of-artificial-turf.fort-collins-carpet-no-local-recycling",

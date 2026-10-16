@@ -77,9 +77,9 @@ sources:
   - label: "Larimer County, first human case of West Nile virus in 2026 (June 25, 2026)"
     url: "https://www.larimer.gov/spotlights/2026/06/25/larimer-county-reports-first-human-case-west-nile-virus-2026-launches-new-data-dashboard"
     checked: "2026-09-25"
-  - label: "Larimer County West Nile Virus Surveillance Dashboard (as of Sept. 23, 2026)"
+  - label: "Larimer County West Nile Virus Surveillance Dashboard (as of Oct. 14, 2026)"
     url: "https://apps.larimer.org/api/health/west-nile/"
-    checked: "2026-09-25"
+    checked: "2026-10-16"
   - label: "Larimer County, West Nile Virus"
     url: "https://www.larimer.gov/health/communicable-disease/west-nile-virus"
     checked: "2026-09-25"
@@ -138,7 +138,7 @@ sources:
     url: "https://extension.colostate.edu/resource/flies-in-the-home/"
     checked: "2026-09-25"
 published: "2026-09-25"
-updated: "2026-09-25"
+updated: "2026-10-16"
 related:
   services:
     - artificial-turf-installation
@@ -188,7 +188,7 @@ Some every summer. Larimer County says the virus "is likely already circulating 
 | | Larimer County | Weld County |
 |---|---|---|
 | First human case of 2026 | An adult in [Loveland](/areas/loveland-co/), announced June 25, who may have been infected while traveling ([Larimer County](https://www.larimer.gov/spotlights/2026/06/25/larimer-county-reports-first-human-case-west-nile-virus-2026-launches-new-data-dashboard)) | Announced Aug. 31, a month later than in 2025 ([Weld County](https://www.weld.gov/Newsroom/2026-News/First-positive-case-of-West-Nile-Virus-in-Weld-County)) |
-| The 2026 season so far | 5 confirmed cases and 3 hospitalizations as of Sept. 23 ([dashboard](https://apps.larimer.org/api/health/west-nile/)) | Culex numbers below the 5-year average, but infected mosquitoes in all three trapping zones |
+| The 2026 season so far | 8 confirmed cases and 4 hospitalizations as of Oct. 14 ([dashboard](https://apps.larimer.org/api/health/west-nile/)) | Culex numbers below the 5-year average, but infected mosquitoes in all three trapping zones |
 | Recent seasons | Infected mosquitoes every year since 2003 | 34 human cases in 2025, 15 in 2024, 52 in 2023 ([Weld County](https://www.weld.gov/Government/Departments/Health-and-Environment/Environmental-Health-Services/Animal-Related-Diseases/Zoonotic-Diseases-Seasonal-Updates/West-Nile-Virus)) |
 
 Weld's trapping zones take in Greeley and [Evans](/areas/evans-co/), [Johnstown](/areas/johnstown-co/) and [Milliken](/areas/milliken-co/), and [Firestone](/areas/firestone-co/) and [Dacono](/areas/dacono-co/). Culex bite most from dusk to dawn, and CSU says the West Nile carriers peak in July and August: midsummer evenings on the patio are when Larimer County's advice to wear an EPA-registered repellent counts. Its dashboard draws a 1-mile circle around every trap that tests positive, so you can see whether your address falls inside one.

@@ -106,9 +106,9 @@ sources:
   - label: "Town of Windsor, Efficiency (Water Resources)"
     url: "https://www.windsorco.gov/1222/Efficiency"
     checked: "2026-09-24"
-  - label: "Town of Johnstown, 2026 Watering Schedule"
-    url: "https://www.johnstownco.gov/665/2026-Watering-Schedule"
-    checked: "2026-09-24"
+  - label: "Town of Johnstown, 2026 Watering Schedule calendar (PDF)"
+    url: "https://www.johnstownco.gov/DocumentCenter/View/2348/2026-Johnstown-Watering-Schedule-Downloadable-PDF"
+    checked: "2026-10-16"
   - label: "City of Greeley news release, April 17, 2026: adequate water year"
     url: "https://greeleyco.gov/news/2026/20260417-greeley-water-and-sewer-board-declares-adequate-water-year-urges-wise-stewardship/"
     checked: "2026-09-24"
@@ -116,7 +116,7 @@ sources:
     url: "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053005&format=json"
     checked: "2026-09-24"
 published: "2026-09-25"
-updated: "2026-09-25"
+updated: "2026-10-16"
 related:
   services:
     - artificial-turf-installation
@@ -171,7 +171,7 @@ The care guides are written for everywhere. Here the extra jobs come in a set or
 | July and August | Days at or above 90°F average 13.0 in July at NOAA's Fort Collins station and 20.0 at Greeley UNC. | Rinse dog areas more often. For hot surfaces and melt marks, see [how hot turf gets](/guides/how-hot-does-artificial-turf-get/). |
 | October and November | Leaves come down, and Fort Collins averages 4.1 inches of snow in October. | Clear leaves before snow pins them: FieldTurf Landscape says leaves left over winter rot into a layer that slows drainage. SYNLawn adds that any drainage problem should be fixed before winter. [Leaves](/guides/leaves-on-artificial-turf/) |
 
-Rinses land in the outdoor watering season, so time them like watering. Fort Collins' voluntary Water Shortage Watch, in effect from May 1, 2026, asks for no watering between 10 a.m. and 6 p.m. and lawn watering no more than 2 days a week ([City of Fort Collins](https://www.fortcollins.gov/News-Articles/News/2026-Q2/Voluntary-Water-Shortage-Watch)); Windsor's standing lawn rule uses the same 10-to-6 window. Johnstown's 2026 outdoor season ends October 15, and Greeley's normal watering guidelines run through October 31.
+Rinses land in the outdoor watering season, so time them like watering. Fort Collins' voluntary Water Shortage Watch, in effect from May 1, 2026, asks for no watering between 10 a.m. and 6 p.m. and lawn watering no more than 2 days a week ([City of Fort Collins](https://www.fortcollins.gov/News-Articles/News/2026-Q2/Voluntary-Water-Shortage-Watch)); Windsor's standing lawn rule uses the same 10-to-6 window. Johnstown's 2026 outdoor season ended October 15, and Greeley's normal watering guidelines run through October 31.
 
 ## What do dogs add to the routine?
 

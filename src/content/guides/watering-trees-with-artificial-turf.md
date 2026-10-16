@@ -117,12 +117,12 @@ sources:
   - label: "Fort Collins Utilities, Current Water Status and Restrictions"
     url: "https://www.fortcollins.gov/Services/Utilities/Programs-and-Rebates/Water-Programs"
     checked: "2026-09-25"
-  - label: "Town of Johnstown, 2026 Watering Schedule"
-    url: "https://www.johnstownco.gov/665/2026-Watering-Schedule"
-    checked: "2026-09-25"
+  - label: "Town of Johnstown, 2026 Watering Schedule calendar (PDF)"
+    url: "https://www.johnstownco.gov/DocumentCenter/View/2348/2026-Johnstown-Watering-Schedule-Downloadable-PDF"
+    checked: "2026-10-16"
   - label: "Town of Johnstown, Water Conservation Schedule FAQs"
     url: "https://www.johnstownco.gov/Faq.aspx?TID=37"
-    checked: "2026-09-25"
+    checked: "2026-10-16"
   - label: "Town of Severance, Watering Guidelines and Restrictions"
     url: "https://www.townofseverance.org/396/Watering-Guidelines-and-Restrictions"
     checked: "2026-09-25"
@@ -136,7 +136,7 @@ sources:
     url: "https://longmontcolorado.gov/water/water-conservation/conserving-water-outdoors/"
     checked: "2026-09-25"
 published: "2026-09-25"
-updated: "2026-09-25"
+updated: "2026-10-16"
 related:
   services:
     - artificial-turf-installation
@@ -230,13 +230,13 @@ The tree zone is blown out before the first fall frost, so winter water comes fr
 
 ## What do 2026 town watering rules allow for trees?
 
-Several rules treat hand-watering and drip for trees apart from lawn sprinklers. As posted on September 25, 2026 (a summary, not legal advice):
+Several rules treat hand-watering and drip for trees apart from lawn sprinklers. As posted when last checked, September 25 to October 16, 2026 (a summary, not legal advice):
 
 | Where your water comes from | Trees | Winter |
 |---|---|---|
 | [Fort Collins](/areas/fort-collins-co/) Utilities | [Voluntary Watch](https://www.fortcollins.gov/Services/Utilities/Programs-and-Rebates/Water-Programs): by hand, drip or deep-root fork any time; by sprinkler 2 days a week, not 10 a.m. to 6 p.m. | City Forestry: 1 to 2 times a month |
 | [Greeley](/areas/greeley-co/) | No watering 10 a.m. to 6 p.m. | Trees allowed October through March; no lawn watering November 1 to April 14 without a variance |
-| [Johnstown](/areas/johnstown-co/) | [Level 3](https://www.johnstownco.gov/Faq.aspx?TID=37) to October 15: hand-water on your assigned day with a shutoff nozzle; none 10 a.m. to 6 p.m. | [After October 15](https://www.johnstownco.gov/665/2026-Watering-Schedule), hand-water trees and shrubs Saturdays and Sundays |
+| [Johnstown](/areas/johnstown-co/) | [Level 3](https://www.johnstownco.gov/DocumentCenter/View/2348/2026-Johnstown-Watering-Schedule-Downloadable-PDF) to October 15: hand-water on your assigned day with a shutoff nozzle; none 10 a.m. to 6 p.m. | [Since October 15](https://www.johnstownco.gov/Faq.aspx?TID=37), trees and shrubs by hand on Saturdays and Sundays, when it is above 40 degrees |
 | [Severance](/areas/severance-co/) Town water | [Hand-watering trees](https://www.townofseverance.org/396/Watering-Guidelines-and-Restrictions) every day with a shut-off hose; no outdoor water 11 a.m. to 5 p.m. | No lawn watering December 1 to March 31; the tree rule names no season |
 | [Milliken](/areas/milliken-co/) | [Hand-watering and drip](https://millikenco.gov/194/Watering-Schedule) every day; a hose with a sprinkler doesn't count | No automatic sprinklers November 1 to March 1 |
 | [Firestone](/areas/firestone-co/) Town water | [Stage 1](https://www.firestoneco.gov/1883/Current-Water-Conditions-Stage-1-Drought) through 2026: lawn and landscape watering on assigned days | No separate tree rule |
@@ -244,7 +244,7 @@ Several rules treat hand-watering and drip for trees apart from lawn sprinklers.
 
 Where the rules leave a gap:
 
-- **Hour bans against a midday soak.** Severance's 11 a.m. to 5 p.m. ban names no season, so a winter soak there goes in before 11. Greeley doesn't say whether its 10 a.m. to 6 p.m. ban covers winter tree watering, nor Johnstown whether its ban outlasts October 15. It depends on each town's reading: ask Greeley's Water Efficiency office or Johnstown's conservation staff.
+- **Hour bans against a midday soak.** Severance's 11 a.m. to 5 p.m. ban names no season, so a winter soak there goes in before 11. Greeley doesn't say whether its 10 a.m. to 6 p.m. ban covers winter tree watering. Johnstown's 2026 calendar still prints its 10 a.m. to 6 p.m. line on the November and December pages, and its FAQs say to water trees only when it is above 40 degrees, which leaves little room on a cold day. It depends on each town's reading: ask Greeley's Water Efficiency office or Johnstown's conservation staff.
 - **Firestone.** Whether hand-watering a tree counts as landscape watering under Stage 1 is the Town's call; ask its water department.
 - **Severance's other water.** Non-potable systems and North Weld County Water District customers follow their own rules.
 

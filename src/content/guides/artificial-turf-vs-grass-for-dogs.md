@@ -21,7 +21,7 @@ faq:
   - q: "Can I turf only the dogs' area and keep the rest of the lawn?"
     a: "Yes. Put the turf where the dogs actually go, usually the fence line and the path to the back door, and keep grass or beds where they don't. Our guide to [mixing turf, rock and plant beds](/guides/mixing-turf-rock-and-plant-beds/) covers the layout."
   - q: "Do I need a permit to resod the dead spots?"
-    a: "In Johnstown, watering newly planted grass needs a Town permit under the municipal code. Elsewhere it depends on your water provider's rules, so ask them before you buy sod. Our [sod or artificial turf guide](/guides/artificial-turf-vs-sod/) has the detail."
+    a: "In Johnstown, while the town is at water conservation Level 2 or 3, as it was in 2026, watering newly planted grass needs a Town permit under the municipal code. Elsewhere it depends on your water provider's rules, so ask them before you buy sod. Our [sod or artificial turf guide](/guides/artificial-turf-vs-sod/) has the detail."
   - q: "Can my HOA stop me from putting turf in the backyard for my dogs?"
     a: "Not on a detached single-family home: Colorado law ([SB23-178](https://leg.colorado.gov/bill_files/92307/download)) says an HOA's landscaping rules may not prohibit artificial turf in the backyard, though it can still set design guidelines. Not legal advice. Our [HOA approval guide](/guides/hoa-turf-approval/) covers front yards, townhomes and the packet."
   - q: "Do watering restrictions apply when I hose off the dog area?"
@@ -87,15 +87,15 @@ sources:
   - label: "City of Fort Collins news release, April 30, 2026: Voluntary Water Shortage Watch"
     url: "https://www.fortcollins.gov/News-Articles/News/2026-Q2/Voluntary-Water-Shortage-Watch"
     checked: "2026-09-24"
-  - label: "Town of Johnstown, 2026 Watering Schedule"
-    url: "https://www.johnstownco.gov/665/2026-Watering-Schedule"
-    checked: "2026-09-24"
-  - label: "Town of Johnstown, New Lawn Permit (quoting Municipal Code Sec. 13-151(c)(6))"
-    url: "https://www.johnstownco.gov/689/New-Lawn-Permit"
-    checked: "2026-09-24"
+  - label: "Town of Johnstown, 2026 Watering Schedule calendar (PDF)"
+    url: "https://www.johnstownco.gov/DocumentCenter/View/2348/2026-Johnstown-Watering-Schedule-Downloadable-PDF"
+    checked: "2026-10-16"
+  - label: "Johnstown Municipal Code Sec. 13-151, Levels of water conservation (eCode360)"
+    url: "https://ecode360.com/48626381"
+    checked: "2026-10-16"
   - label: "City of Evans news post, April 28, 2026: drought emergency declared"
     url: "https://www.evanscolorado.gov/news/posts/city-of-evans-declares-drought-emergency-expanded-watering-restrictions-now-in-effect/"
-    checked: "2026-09-24"
+    checked: "2026-10-16"
   - label: "City of Greeley news release, April 17, 2026: adequate water year"
     url: "https://greeleyco.gov/news/2026/20260417-greeley-water-and-sewer-board-declares-adequate-water-year-urges-wise-stewardship/"
     checked: "2026-09-24"
@@ -112,7 +112,7 @@ sources:
     url: "https://leg.colorado.gov/bill_files/92307/download"
     checked: "2026-09-24"
 published: "2026-09-25"
-updated: "2026-09-25"
+updated: "2026-10-16"
 related:
   services:
     - pet-turf
@@ -143,8 +143,8 @@ Two kinds of damage, and this climate slows the repair of both.
 **Urine spots.** CSU Extension says the straw-colored spots with dark green borders come from the concentrated salts in dog urine, particularly from female dogs ([PlantTalk Colorado](https://planttalk.colostate.edu/topics/lawns/1503-dog-spots/)). It says water is the only thing that reverses the damage. That runs into this year's watering rules:
 
 - **Fort Collins** asked residents from May 1, 2026 to water lawns no more than 2 days a week and never between 10 a.m. and 6 p.m., under a voluntary Water Shortage Watch.
-- **Johnstown** is on a Level 3 schedule: 2 assigned days a week, and the outdoor season ends October 15 ([Town of Johnstown](https://www.johnstownco.gov/665/2026-Watering-Schedule)).
-- **Evans** declared a drought emergency on April 21, 2026, and its outdoor watering restrictions are enforced.
+- **Johnstown** ran a Level 3 schedule of 2 assigned days a week until its outdoor season ended October 15, and its code allows no lawn watering from then through April 15 ([Town of Johnstown](https://www.johnstownco.gov/DocumentCenter/View/2348/2026-Johnstown-Watering-Schedule-Downloadable-PDF)).
+- **Evans** declared a drought emergency on April 21, 2026, and expanded its outdoor watering restrictions for a season that ran to October 15.
 - **Greeley** went the other way and declared 2026 an adequate water year, so residents water under normal guidelines through October 31.
 
 Bluegrass does heal well. CSU lists "high recuperative potential" among its strengths ([GardenNotes #561](https://cmg.extension.colostate.edu/Gardennotes/561.pdf)), and says homeowners found twice-weekly watering still produced healthy bluegrass lawns. The trouble is the ratio: more dogs on less lawn make new spots faster than old ones fill in.

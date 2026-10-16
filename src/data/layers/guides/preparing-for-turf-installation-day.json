@@ -172,7 +172,7 @@
     "id": "preparing-for-turf-installation-day.johnstown-irrigation-servicing",
     "layer": "drought",
     "applies_to": ["johnstown-co"],
-    "fact": "Under Johnstown's 2026 Level 3 schedule (2 watering days a week, none from 10 a.m. to 6 p.m., April 20 to October 15), the Town says sprinkler servicing that can't fit the assigned days should be raised with its conservation staff ahead of time.",
+    "fact": "During Johnstown's 2026 Level 3 schedule (2 watering days a week, none from 10 a.m. to 6 p.m., April 20 to October 15), the Town's FAQs said sprinkler servicing that couldn't fit the assigned days should be raised with its conservation staff ahead of time.",
     "quote": "Under Level 3, the Level 2 standards restrictions and exemptions still apply, with the addition that the property's designated watering day are reduced to 2 times a week. These restrictions are in place from April 20 to October 15, 2026. Watering between the hours of 10 a.m. - 6 p.m., is NOT permitted at any time. … It is understood that system servicing or reactivation may prevent full alignment with the assigned watering schedule. If you anticipate any issues meeting your designated watering days, please contact conserve@johnstownco.gov to discuss your situation.",
     "source_url": "https://www.johnstownco.gov/m/faq?cat=37",
     "source_label": "Town of Johnstown, Water FAQs: Water Conservation Schedule (What if I need to service my irrigation system?)",
@@ -180,8 +180,9 @@
     "checked": "2026-09-25",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-10-16",
-    "numbers": ["3", "2", "20", "15", "2026", "10", "6"]
+    "recheck": "2027-03-01",
+    "numbers": ["3", "2", "20", "15", "2026", "10", "6"],
+    "notes": "2026-10-16: the FAQ page no longer carries this question or the Level 3 text (the season ended October 15), so the fact reads in the past tense and checked stays at the last read. Re-check in spring for the 2027 season's FAQs."
   },
   {
     "id": "preparing-for-turf-installation-day.tarkett-locate-and-test",

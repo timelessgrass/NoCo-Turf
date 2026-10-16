@@ -110,14 +110,11 @@ sources:
   - label: "Town of Severance, Watering Guidelines and Restrictions"
     url: "https://www.townofseverance.org/396/Watering-Guidelines-and-Restrictions"
     checked: "2026-09-25"
-  - label: "Town of Johnstown, Water FAQs: Water Conservation Level 3"
+  - label: "Town of Johnstown, Water FAQs: Water Conservation Schedule"
     url: "https://www.johnstownco.gov/m/faq?cat=37"
-    checked: "2026-09-25"
-  - label: "Town of Johnstown, 2026 Watering Schedule"
-    url: "https://www.johnstownco.gov/665/2026-Watering-Schedule"
-    checked: "2026-09-25"
+    checked: "2026-10-16"
 published: "2026-09-25"
-updated: "2026-09-25"
+updated: "2026-10-16"
 related:
   services:
     - pet-turf
@@ -207,4 +204,4 @@ Greeley's code, for one, says little about urine. In [Greeley](/areas/greeley-co
 
 ## Do watering restrictions cover hosing off turf?
 
-None of the three towns below names artificial turf in its watering rules, so the wording decides. Milliken's is explicit: hand-watering, meaning a hose held in the hand with a positive shutoff nozzle, or a bucket, is allowed every day and isn't bound by the sprinkler hours ([Town of Milliken](https://millikenco.gov/194/Watering-Schedule)). Severance makes it unlawful to use any outside water source between 11 a.m. and 5 p.m. ([Town of Severance](https://www.townofseverance.org/396/Watering-Guidelines-and-Restrictions)), so rinse before or after. Johnstown's Level 3 rules bar watering from 10 a.m. to 6 p.m. and ask for hand watering on your assigned day with an automatic shutoff nozzle ([Johnstown water FAQs](https://www.johnstownco.gov/m/faq?cat=37)); after the season ends October 15, 2026, the schedule lists only trees and shrubs for weekend hand watering ([2026 schedule](https://www.johnstownco.gov/665/2026-Watering-Schedule)). Neither page mentions turf, so it depends on how Johnstown reads its rules; ask the town's water conservation staff before rinsing a dog run on an off day. Every town's 2026 rules are in [do you have to water artificial turf](/guides/do-you-have-to-water-artificial-turf/).
+None of the three towns below names artificial turf in its watering rules, so the wording decides. Milliken's is explicit: hand-watering, meaning a hose held in the hand with a positive shutoff nozzle, or a bucket, is allowed every day and isn't bound by the sprinkler hours ([Town of Milliken](https://millikenco.gov/194/Watering-Schedule)). Severance makes it unlawful to use any outside water source between 11 a.m. and 5 p.m. ([Town of Severance](https://www.townofseverance.org/396/Watering-Guidelines-and-Restrictions)), so rinse before or after. Johnstown's water FAQs ask for hand watering on your assigned day with an automatic shutoff nozzle, and since the season ended October 15, 2026, they allow only trees and shrubs to be hand watered, on Saturdays and Sundays when it is above 40 degrees ([Johnstown water FAQs](https://www.johnstownco.gov/m/faq?cat=37)). They don't mention turf, so it depends on how Johnstown reads its rules; ask the town's water conservation staff before rinsing a dog run. Every town's 2026 rules are in [do you have to water artificial turf](/guides/do-you-have-to-water-artificial-turf/).

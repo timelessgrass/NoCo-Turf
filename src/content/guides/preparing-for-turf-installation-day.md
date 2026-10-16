@@ -78,9 +78,9 @@ sources:
   - label: "Town of Johnstown, Water FAQs: Water Conservation Schedule"
     url: "https://www.johnstownco.gov/m/faq?cat=37"
     checked: "2026-09-25"
-  - label: "Town of Johnstown, 2026 Watering Schedule"
-    url: "https://www.johnstownco.gov/665/2026-Watering-Schedule"
-    checked: "2026-09-24"
+  - label: "Town of Johnstown, 2026 Watering Schedule calendar (PDF)"
+    url: "https://www.johnstownco.gov/DocumentCenter/View/2348/2026-Johnstown-Watering-Schedule-Downloadable-PDF"
+    checked: "2026-10-16"
   - label: "City of Fort Collins news release, April 30, 2026: Voluntary Water Shortage Watch"
     url: "https://www.fortcollins.gov/News-Articles/News/2026-Q2/Voluntary-Water-Shortage-Watch"
     checked: "2026-09-24"
@@ -112,7 +112,7 @@ sources:
     url: "https://extension.colostate.edu/resource/tree-preservation-during-construction/"
     checked: "2026-09-25"
 published: "2026-09-25"
-updated: "2026-09-25"
+updated: "2026-10-16"
 related:
   services:
     - artificial-turf-installation
@@ -173,7 +173,7 @@ Because the pipe and heads sit where the dig happens. Tarkett's installation man
 
 Your 2026 watering rules decide when you can run the zones:
 
-- **Johnstown** is on its Level 3 schedule: 2 assigned days a week, no watering from 10 a.m. to 6 p.m., and the outdoor season ends October 15. The Town says servicing that can't fit the assigned days should be raised with its conservation staff first ([Johnstown water FAQs](https://www.johnstownco.gov/m/faq?cat=37); [2026 schedule](https://www.johnstownco.gov/665/2026-Watering-Schedule)).
+- **Johnstown** ran a Level 3 schedule until its outdoor season ended October 15: 2 assigned days a week, no watering from 10 a.m. to 6 p.m. ([2026 schedule](https://www.johnstownco.gov/DocumentCenter/View/2348/2026-Johnstown-Watering-Schedule-Downloadable-PDF)). During the season the Town said servicing that couldn't fit the assigned days should be raised with its conservation staff first; for a spring start-up, ask them before running zones.
 - **Fort Collins** asked residents under its voluntary Water Shortage Watch to water lawns no more than 2 days a week and not from 10 a.m. to 6 p.m. ([City of Fort Collins](https://www.fortcollins.gov/News-Articles/News/2026-Q2/Voluntary-Water-Shortage-Watch)).
 - **Little Thompson Water District** is at Watch, its lowest level, with no mandatory restrictions ([LTWD](https://www.littlethompsonwd.gov/quarterly-news-from-ltwd-summer-2026)).
 

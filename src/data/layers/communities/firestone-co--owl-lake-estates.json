@@ -333,19 +333,22 @@
     "applies_to": [
       "firestone-co"
     ],
-    "fact": "By September 1, 2026 the Owl Lake HOA was running on leased restricted water it cannot store, could lease no more for the year, reported use outrunning supply, and relayed the ditch rider's warning that the ditch could stop at any moment.",
-    "quote": "After talking to the ditch rider today on water status, his update was “You’re lucky the ditch is still alive, it can cease at any moment!” … Our water situation is not keeping up with usage. Once we are out of water, we are done for the season. … Restricted water is a careful calculation of water availability, but the water can not be stored. … we can not request or lease any more water for 2026",
+    "fact": "The Owl Lake HOA's 2026 log records restricted water leases in May, use exceeding expectations on September 1, when the ditch rider said they were lucky to be still running, and water levels too low to run with the ditch shut down on October 11; the HOA planned to shut down its irrigation system on Saturday, October 17, 2026, depending on water and weather.",
+    "quote": "Irrigation System Shutdown – Saturday morning, Oct. 17 … The HOA plans on shutting down the HOA irrigation system Saturday, October 17, 2026 . This is highly dependent on water availability and weather conditions. … Oct 11 – Water levels too low to run, ditch is shutdown, future status unknown … Sept 1 – HOA notes water usage is exceeding expectations. Adds status message. Check in with ditch rider. Says we are lucky to be still running. … May 7 – Entered agreement for CR restricted leases, limited water access",
     "source_url": "https://www.owllake.com/",
-    "source_label": "Owl Lake Estates HOA, home page, Supplemental Irrigation Water status (update of Sept 1, 2026)",
-    "checked": "2026-09-26",
+    "source_label": "Owl Lake Estates HOA, home page: Supplemental Irrigation Water status and 2026 log (read Oct. 16, 2026)",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-11-15",
+    "recheck": "2027-03-01",
     "numbers": [
+      "2026",
       "1",
-      "2026"
+      "11",
+      "17",
+      "7"
     ],
-    "notes": "The irrigation status on the page read System is ON on 2026-09-26. Re-read after the season closes."
+    "notes": "Re-read 2026-10-16: the Sept. 1 status message quoted earlier (the ditch rider's \"it can cease at any moment!\", restricted water that \"can not be stored\", \"we can not request or lease any more water for 2026\") is gone; the page now shows 'System is ON', 'Watering restrictions are still in place!' and the planned Oct. 17 shutdown. Re-read when the HOA posts its 2027 season."
   },
   {
     "id": "firestone-co--owl-lake-estates.restrictions-2026",
@@ -353,21 +356,21 @@
     "applies_to": [
       "firestone-co"
     ],
-    "fact": "For 2026 the Owl Lake HOA limits lake watering to 5 p.m. to 10 a.m. on alternating days by address and no more than 20 minutes per zone, in line with the Town's restrictions, and says leniency will be given for brown and stressed lawns.",
-    "quote": "the HOA board has enabled the same watering restrictions that aligns with the Town of Firestone recently enacted watering restrictions … Continue to maintain your properties, leniency will give given for brown and stressed lawns. … Any type of lake watering is limited between 5:00 p.m. and 10:00 a.m. … NO MORE THAN 20 MINUTES PER ZONE!",
+    "fact": "In 2026 the Owl Lake HOA limited lake watering to 5 p.m. to 10 a.m., on four set days a week for even and odd addresses, and to no more than 20 minutes per zone.",
+    "quote": "Any type of lake watering is limited between 5:00 p.m. and 10:00 a.m. … Even-numbered addresses may water on Mondays, Wednesdays, Fridays, and Sundays . … Odd-numbered addresses may water on Tuesdays, Thursdays, Saturdays, and Sundays. … NO MORE THAN 20 MINUTES PER ZONE!",
     "source_url": "https://www.owllake.com/",
-    "source_label": "Owl Lake Estates HOA, home page, Important 2026 Owl Lake Water Restrictions",
-    "checked": "2026-09-26",
+    "source_label": "Owl Lake Estates HOA, home page, Important 2026 Owl Lake Water Restrictions (read Oct. 16, 2026)",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-11-15",
+    "recheck": "2027-03-01",
     "numbers": [
       "2026",
       "5",
       "10",
       "20"
     ],
-    "notes": "Even-numbered addresses water Mon, Wed, Fri and Sun; odd-numbered Tue, Thu, Sat and Sun. The quote keeps the page's typo (will give given)."
+    "notes": "Re-read 2026-10-16: the lines tying the HOA's rules to the Town of Firestone's restrictions and promising leniency for brown and stressed lawns are gone. A Sept. 26, 2026 update asks owners to keep to 5PM-10AM and every-other-day watering. Even-numbered addresses water Mon, Wed, Fri and Sun; odd-numbered Tue, Thu, Sat and Sun."
   },
   {
     "id": "firestone-co--owl-lake-estates.backflow-dual-systems",

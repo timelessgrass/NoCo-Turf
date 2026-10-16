@@ -24,7 +24,7 @@ faq:
   - q: "Will my sewer bill go down too?"
     a: "We do not count sewer, because we have not checked how each Northern Colorado provider bills it. Ask your provider whether sewer charges follow your summer water use."
   - q: "Does a drought watering schedule change the math?"
-    a: "It changes how often you may water, not the rate you pay. Johnstown's 2026 Level 3 schedule, for example, allows 2 assigned days a week and no watering from 10 a.m. to 6 p.m. A turf area needs no watering days at all."
+    a: "It changes how often you may water, not the rate you pay. Johnstown's 2026 Level 3 schedule, for example, allowed 2 assigned days a week and no watering from 10 a.m. to 6 p.m. until its season ended October 15. A turf area needs no watering days at all."
   - q: "Is there a rebate for artificial turf that would add to these savings?"
     a: "No Northern Colorado water-provider program we checked pays for artificial turf. Our guide to turf rebates in Northern Colorado quotes each program in its own words."
   - q: "Can I reuse this data?"
@@ -117,16 +117,16 @@ sources:
   - label: "Town of Frederick, Water Use Guidance and Current Conditions"
     url: "https://www.frederickco.gov/1260/Water-Use-Guidance-and-Current-Condition"
     checked: "2026-09-24"
-  - label: "Town of Johnstown, 2026 Watering Schedule"
-    url: "https://www.johnstownco.gov/665/2026-Watering-Schedule"
-    checked: "2026-09-24"
+  - label: "Town of Johnstown, 2026 Watering Schedule calendar (PDF)"
+    url: "https://www.johnstownco.gov/DocumentCenter/View/2348/2026-Johnstown-Watering-Schedule-Downloadable-PDF"
+    checked: "2026-10-16"
   # build-water-rates:source:start
   - label: "NoCo Turf Co. water-rates dataset 2026 (CSV, CC BY 4.0), derived by scripts/build-water-rates.mjs: 24 in × 144 cu in ÷ 231 = 14.961 gal per sq ft (0.623 gal per inch), 14,961 gal a year per 1,000 sq ft; US dollars a year per 1,000 sq ft, 45 to 278: Fort Collins Utilities 53–71; FCLWD 45–102; FCLWD City IGA 75–172; NWCWD 78; Greeley 92–195; Windsor 125–278; RainDance 68; Loveland 64; Longmont 72–196; Little Thompson 60–155 (+150 above the allotment)"
     url: "https://www.nocoturf.com/data/noco-water-rates-2026.csv"
-    checked: "2026-09-24"
+    checked: "2026-10-16"
   # build-water-rates:source:end
 published: "2026-09-24"
-updated: "2026-09-24"
+updated: "2026-10-16"
 related:
   services:
     - artificial-turf-installation

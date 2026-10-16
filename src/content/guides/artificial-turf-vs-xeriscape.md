@@ -154,9 +154,9 @@ sources:
   - label: "Town of Windsor FAQ: snow and ice removal (Municipal Code Sec. 11-7-10)"
     url: "https://www.windsorgov.com/Faq.aspx?QID=206"
     checked: "2026-09-25"
-  - label: "Town of Johnstown, 2026 Watering Schedule"
-    url: "https://www.johnstownco.gov/665/2026-Watering-Schedule"
-    checked: "2026-09-24"
+  - label: "Town of Johnstown, 2026 Watering Schedule calendar (PDF)"
+    url: "https://www.johnstownco.gov/DocumentCenter/View/2348/2026-Johnstown-Watering-Schedule-Downloadable-PDF"
+    checked: "2026-10-16"
   - label: "Fort Collins City Code Sec. 12-120 (codified through Ord. No. 078, 2026)"
     url: "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH12HEEN_ARTVIIRECO_DIV1GE_S12-120DE"
     checked: "2026-09-24"
@@ -167,7 +167,7 @@ sources:
     url: "https://www.windsorco.gov/1451/Lawn-Replacement-Program"
     checked: "2026-09-24"
 published: "2026-09-25"
-updated: "2026-09-25"
+updated: "2026-10-16"
 related:
   services:
     - artificial-turf-installation
@@ -236,7 +236,7 @@ The Loveland 2N station averages 47.0 inches of snow a year, and Fort Collins an
 ## How do they handle water on clay, and how much do new plants need?
 
 - **Planted beds** keep needing water, most of it early. CSU says even drought-tolerant plants need regular, relatively heavy watering until they establish, from days to years depending on plant size, and new flowers may need water daily for two weeks ([CSU Fact Sheet 7.240](https://extension.colostate.edu/resource/watering-a-home-landscape-during-drought/)). PlantTalk says watering can drop after one or two years. Some favorite perennials, CSU warns, use as much water as a lawn or more.
-- **Timing.** CSU says to weigh water availability before converting; with Johnstown on a 2026 Level 3 schedule of 2 assigned days a week, ask your provider about new plantings first.
+- **Timing.** CSU says to weigh water availability before converting; with Johnstown on a 2026 Level 3 schedule of 2 assigned days a week until October 15, ask your provider about new plantings first.
 - **Beds near the house.** CSU notes that Colorado clay can stay waterlogged under a dry-looking surface, and advises keeping sprinkler spray at least five feet from the foundation ([PlantTalk 1617](https://planttalk.colostate.edu/topics/soils-amendments-composting/1617-expansive-soils/)). The Colorado Geological Survey lists planting against a foundation so irrigation water soaks in among the problems on expansive soil ([CGS](https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/)).
 - **Rock** needs no water. CSU says pea gravel improves infiltration in thunderstorms, while larger rocks increase runoff.
 - **Turf** needs no irrigation; its zones get capped or become drip for the beds. On clay, the grade and base decide whether it drains.

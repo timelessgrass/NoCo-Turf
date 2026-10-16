@@ -4,27 +4,27 @@
   "name": "Johnstown",
   "region": "windsor-johnstown",
   "title": "Artificial Turf in Johnstown, CO | NoCo Turf Co.",
-  "description": "Johnstown is on a Level 3 drought schedule until October 15, and new grass needs a Town watering permit. Its lawn rebate excludes turf and closed June 15.",
-  "h1": "Johnstown's Level 3 drought schedule makes new sod the hard option this year",
-  "lede": "Johnstown straddles Weld and Larimer counties and treats its own reservoir water, and in 2026 it is rationing it: a Level 3 drought schedule, two watering days a week and a permit to water new grass.",
+  "description": "Johnstown's 2026 Level 3 watering season ended October 15; lawns get no water until April 15, and new grass needs a Town permit. Its rebate excludes turf.",
+  "h1": "Johnstown's Level 3 drought schedule made new sod the hard option this year",
+  "lede": "Johnstown straddles Weld and Larimer counties and treats its own reservoir water, and in 2026 it rationed it: a Level 3 drought schedule, two watering days a week until October 15 and a permit to water new grass.",
   "answer": {
     "question": "What are Johnstown's 2026 watering rules for a new lawn?",
-    "answer": "Tight. Johnstown is on a Level 3 drought schedule in 2026: two assigned days a week, no watering from 10 a.m. to 6 p.m., and the season ends October 15, with new grass watered only under a Town permit. NoCo Turf Co. installs artificial turf in Johnstown, Colorado, and turf needs none of that watering."
+    "answer": "Tight. Johnstown ran a Level 3 drought schedule in 2026: two assigned days a week and no watering from 10 a.m. to 6 p.m. until the season ended October 15. Until April 15, only trees and shrubs may be hand watered, on weekends, and new grass is watered only under a Town permit. NoCo Turf Co. installs artificial turf in Johnstown, Colorado, and turf needs none of that watering."
   },
   "blocks": [
     {
       "kind": "drought",
       "own": true,
       "kicker": "Level 3",
-      "h2": "Two watering days a week, and none after October 15.",
+      "h2": "Two watering days a week in 2026, and none for lawns from October 15 to April 15.",
       "paras": [
-        "Johnstown moved to a Level 3 drought watering schedule for 2026. Even addresses, HOAs and greenbelts water Mondays and Thursdays; odd addresses water Tuesdays and Fridays; nobody waters from 10 a.m. to 6 p.m.; and October 15 ends the outdoor season.",
-        "Section 13-151 of the town code lets newly planted grass be watered only under a permit issued by the Town. A new sod lawn this year means an application, an assigned schedule and a hard stop in mid-October; an artificial turf area needs no establishment watering at all."
+        "Johnstown moved to a Level 3 drought watering schedule for 2026. From April 20 to October 15, even addresses and HOA common spaces watered Mondays and Thursdays, odd addresses Tuesdays and Fridays, and nobody watered from 10 a.m. to 6 p.m. Since the outdoor season ended October 15, the schedule allows only hand watering of trees and shrubs on Saturdays and Sundays.",
+        "At Levels 2 and 3, Section 13-151 of the town code allows no outdoor watering from October 15 through April 15 except hand watering of trees and shrubs, and lets newly planted grass be watered only under a permit issued by the Town. A new sod lawn means an application, an assigned schedule and a hard stop in mid-October; an artificial turf area needs no establishment watering at all."
       ],
       "layerRefs": ["johnstown-level-3-2026", "johnstown-code-13-151-new-lawn-permit"],
       "sources": [
-        "https://www.johnstownco.gov/665/2026-Watering-Schedule",
-        "https://www.johnstownco.gov/689/New-Lawn-Permit"
+        "https://www.johnstownco.gov/DocumentCenter/View/2348/2026-Johnstown-Watering-Schedule-Downloadable-PDF",
+        "https://ecode360.com/48626381"
       ]
     },
     {
@@ -85,7 +85,7 @@
   "faq": [
     {
       "q": "Do I need a permit to water new sod in Johnstown?",
-      "a": "Yes. The town code lets newly planted grass be watered only under a Town permit, and the Level 3 schedule ends outdoor watering on October 15."
+      "a": "Yes, at Levels 2 and 3, and Johnstown was at Level 3 in 2026. The town code then lets newly planted grass be watered only under a Town permit and allows no lawn watering from October 15 through April 15."
     },
     {
       "q": "Will Johnstown's rebate pay for artificial turf?",
@@ -93,13 +93,13 @@
     },
     {
       "q": "Does the Level 3 schedule apply to my HOA's common areas?",
-      "a": "Yes. Even addresses, HOAs and greenbelts share the Monday and Thursday slot, and no one waters between 10 a.m. and 6 p.m."
+      "a": "Yes. In 2026, HOA common spaces and metro districts shared the even addresses' Monday and Thursday slot until October 15, and no one watered between 10 a.m. and 6 p.m."
     }
   ],
   "nearby": ["windsor-co", "milliken-co", "loveland-co", "berthoud-co", "mead-co"],
   "sources": [
-    { "label": "Town of Johnstown, 2026 Watering Schedule (site alert: Level 3 Drought Watering Schedule in Effect)", "url": "https://www.johnstownco.gov/665/2026-Watering-Schedule", "checked": "2026-09-24" },
-    { "label": "Town of Johnstown, New Lawn Permit page (quoting Municipal Code Sec. 13-151(c)(6))", "url": "https://www.johnstownco.gov/689/New-Lawn-Permit", "checked": "2026-09-24" },
+    { "label": "Town of Johnstown, 2026 Watering Schedule calendar (PDF; Level 3 from April 20, season ended October 15)", "url": "https://www.johnstownco.gov/DocumentCenter/View/2348/2026-Johnstown-Watering-Schedule-Downloadable-PDF", "checked": "2026-10-16" },
+    { "label": "Johnstown Municipal Code Sec. 13-151, Levels of water conservation (eCode360)", "url": "https://ecode360.com/48626381", "checked": "2026-10-16" },
     { "label": "Town of Johnstown, Lawn Replacement Resources", "url": "https://www.johnstownco.gov/663/Lawn-Replacement-Resources", "checked": "2026-09-24" },
     { "label": "EPA SDWIS water-system facilities, Town of Johnstown (CO0162418)", "url": "https://data.epa.gov/efservice/WATER_SYSTEM_FACILITY/PWSID/CO0162418/JSON", "checked": "2026-09-24" },
     { "label": "Town of Johnstown, Planned Unit Development (PUD) design guidelines, including 2534 and Thompson River Ranch", "url": "https://johnstownco.gov/286/Planned-Unit-Development-PUD-Design-Guid", "checked": "2026-09-24" },

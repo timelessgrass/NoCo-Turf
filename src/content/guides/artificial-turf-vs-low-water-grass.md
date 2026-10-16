@@ -105,9 +105,12 @@ sources:
   - label: "SB23-178 signed act: C.R.S. 37-60-126(11)(a.5)"
     url: "https://leg.colorado.gov/bill_files/92307/download"
     checked: "2026-09-25"
-  - label: "Town of Johnstown, New Lawn Permit (quoting Municipal Code Sec. 13-151(c)(6))"
+  - label: "Town of Johnstown, 2026 New Lawn Permit page (read September 25, 2026; taken down after the season)"
     url: "https://www.johnstownco.gov/689/New-Lawn-Permit"
     checked: "2026-09-25"
+  - label: "Johnstown Municipal Code Sec. 13-151, Levels of water conservation (eCode360)"
+    url: "https://ecode360.com/48626381"
+    checked: "2026-10-16"
   - label: "Johnstown Land Use and Development Code Sec. 17-8-4(E) (Town PDF)"
     url: "https://www.johnstownco.gov/DocumentCenter/View/1403/Land-Use-And-Development-Code"
     checked: "2026-09-25"
@@ -136,7 +139,7 @@ sources:
     url: "https://epqs.nationalmap.gov/v1/json?x=-105.0085856&y=40.7038712&units=Feet&wkid=4326"
     checked: "2026-09-25"
 published: "2026-09-25"
-updated: "2026-09-25"
+updated: "2026-10-16"
 related:
   services:
     - artificial-turf-installation
@@ -209,7 +212,7 @@ Savings come later. CSU says establishing buffalograss from seed, sod or plugs t
 - **Timing.** Seed buffalograss from spring through late July. Seed sown between August 1 and October 1 can sprout and then die over winter; seed sown October through December waits for spring. Plugs set 12 to 18 inches apart need at least 6 weeks before the first fall frost and can cover in 6 to 12 weeks. In late September, that leaves dormant seeding or waiting for spring.
 - **Sod** is quickest, but CSU says buffalograss sod costs significantly more than bluegrass sod and is much harder to find.
 - **Seed.** Mixes labeled "native" often hold little truly native grass, CSU warns. Its guide lists sources without endorsing them, among them two Greeley seed companies, Pawnee Buttes Seed and Buffalo Brand Seed.
-- **Johnstown.** Newly planted grass may be watered only under a Town permit, and the permit doesn't lift the 10 a.m. to 6 p.m. watering ban, so CSU's daytime schedule won't fit. Our [guide to sod or turf](/guides/artificial-turf-vs-sod/) covers the permit. Elsewhere, check your town's watering hours against that schedule before buying seed.
+- **Johnstown.** At water conservation Levels 2 and 3, newly planted grass may be watered only under a Town permit, and the 2026 permit didn't lift the 10 a.m. to 6 p.m. watering ban, so CSU's daytime schedule wouldn't fit. Our [guide to sod or turf](/guides/artificial-turf-vs-sod/) covers the permit. Elsewhere, check your town's watering hours against that schedule before buying seed.
 
 Turf skips the grow-in stage; [when to install artificial turf](/guides/when-to-install-artificial-turf/) covers the season.
 

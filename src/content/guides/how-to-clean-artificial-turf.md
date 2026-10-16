@@ -78,12 +78,12 @@ sources:
   - label: "City of Fort Collins news release, April 30, 2026: Voluntary Water Shortage Watch"
     url: "https://www.fortcollins.gov/News-Articles/News/2026-Q2/Voluntary-Water-Shortage-Watch"
     checked: "2026-09-24"
-  - label: "Town of Johnstown, Water FAQs: Water Conservation Level 3"
+  - label: "Town of Johnstown, Water FAQs: Water Conservation Schedule"
     url: "https://www.johnstownco.gov/m/faq?cat=37"
-    checked: "2026-09-25"
-  - label: "Town of Johnstown, 2026 Watering Schedule"
-    url: "https://www.johnstownco.gov/665/2026-Watering-Schedule"
-    checked: "2026-09-25"
+    checked: "2026-10-16"
+  - label: "Town of Johnstown, 2026 Watering Schedule calendar (PDF)"
+    url: "https://www.johnstownco.gov/DocumentCenter/View/2348/2026-Johnstown-Watering-Schedule-Downloadable-PDF"
+    checked: "2026-10-16"
   - label: "City of Fort Collins Utilities, Stormwater"
     url: "https://www.fortcollins.gov/Services/Utilities/Other-Utilities-Pages/Water/Stormwater"
     checked: "2026-09-25"
@@ -124,7 +124,7 @@ sources:
     url: "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053005&format=json"
     checked: "2026-09-24"
 published: "2026-09-25"
-updated: "2026-09-25"
+updated: "2026-10-16"
 related:
   services:
     - playground-turf
@@ -159,7 +159,7 @@ Do it when the turf feels gritty or after a dusty windstorm.
 Watering rules were written for sprinklers and rarely mention turf, so the hour and the wording decide.
 
 - **Fort Collins.** The voluntary Water Shortage Watch, effective May 1, 2026, asked residents to water lawns no more than 2 days a week and not between 10 a.m. and 6 p.m. ([City of Fort Collins](https://www.fortcollins.gov/News-Articles/News/2026-Q2/Voluntary-Water-Shortage-Watch)). Rinsing before 10 or after 6 sidesteps the question.
-- **Johnstown.** Level 3 keeps watering out of the 10-to-6 window, wants hand watering on the property's scheduled day through a self-closing nozzle, and says hardscapes "should not be spray-washed," suggesting "sweeping or spot cleaning" ([Johnstown water FAQs](https://www.johnstownco.gov/m/faq?cat=37)). Turf isn't named; brushing and spot-rinsing fits. The season ends October 15 ([2026 schedule](https://www.johnstownco.gov/665/2026-Watering-Schedule)); for a whole-yard rinse after that or on an off day, it depends on how the town reads its rules, so ask Johnstown's water conservation staff.
+- **Johnstown.** Its 2026 Level 3 schedule kept watering out of the 10-to-6 window until the season ended October 15 ([2026 schedule](https://www.johnstownco.gov/DocumentCenter/View/2348/2026-Johnstown-Watering-Schedule-Downloadable-PDF)). Its water FAQs want hand watering on the property's scheduled day through a self-closing nozzle and say hardscapes "should not be spray-washed," suggesting "sweeping or spot cleaning" ([Johnstown water FAQs](https://www.johnstownco.gov/m/faq?cat=37)). Turf isn't named; brushing and spot-rinsing fits. Since October 15 the FAQs allow only weekend hand watering of trees and shrubs, so for a rinse before spring or on an off day, it depends on how the town reads its rules: ask Johnstown's water conservation staff.
 
 Every town's rule is in [do you have to water artificial turf](/guides/do-you-have-to-water-artificial-turf/).
 

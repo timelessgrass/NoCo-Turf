@@ -96,9 +96,9 @@ sources:
   - label: "NOAA NCEI U.S. Climate Normals 1991–2020, annual/seasonal, station FT COLLINS (USC00053005)"
     url: "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053005&format=json"
     checked: "2026-09-24"
-  - label: "Town of Johnstown, 2026 Watering Schedule"
-    url: "https://www.johnstownco.gov/665/2026-Watering-Schedule"
-    checked: "2026-09-25"
+  - label: "Town of Johnstown, 2026 Watering Schedule calendar (PDF)"
+    url: "https://www.johnstownco.gov/DocumentCenter/View/2348/2026-Johnstown-Watering-Schedule-Downloadable-PDF"
+    checked: "2026-10-16"
   - label: "Town of Windsor, Efficiency (Water Resources)"
     url: "https://www.windsorco.gov/1222/Efficiency"
     checked: "2026-09-25"
@@ -106,7 +106,7 @@ sources:
     url: "https://www.fortcollins.gov/News-Articles/News/2026-Q2/Voluntary-Water-Shortage-Watch"
     checked: "2026-09-24"
 published: "2026-09-25"
-updated: "2026-09-25"
+updated: "2026-10-16"
 related:
   services:
     - pet-turf
@@ -197,7 +197,7 @@ Don't expect a rinse to last longer here than in Penn State's plots. Their tests
 
 Often not. Penn State's hot window, noon to 3 p.m., falls inside the no-watering hours several Northern Colorado towns set:
 
-- Johnstown's 2026 Level 3 drought schedule says "No watering shall occur between 10am and 6pm" ([Town of Johnstown](https://www.johnstownco.gov/665/2026-Watering-Schedule)).
+- Johnstown's 2026 Level 3 drought schedule says "No watering shall occur between 10am and 6pm" ([Town of Johnstown](https://www.johnstownco.gov/DocumentCenter/View/2348/2026-Johnstown-Watering-Schedule-Downloadable-PDF)).
 - Windsor lists a standing rule of no lawn watering from 10 a.m. to 6 p.m. ([Town of Windsor](https://www.windsorco.gov/1222/Efficiency)).
 - Fort Collins' voluntary Water Shortage Watch asks residents not to water between 10 a.m. and 6 p.m. ([City of Fort Collins](https://www.fortcollins.gov/News-Articles/News/2026-Q2/Voluntary-Water-Shortage-Watch)).
 

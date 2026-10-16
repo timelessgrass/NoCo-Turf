@@ -408,10 +408,10 @@
     "quote": "Infill material shall be a non-toxic anti-microbial material such as silica sand or acrylic coated sand to prevent odors and bacteria formation. Crumb rubber filler shall be prohibited.",
     "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
     "source_label": "Firestone Development Code 16.6.4.F.2.f.v (codified through Ord. No. 1072, Dec. 10, 2025)",
-    "checked": "2026-09-25",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-12-24",
+    "recheck": "2027-01-14",
     "numbers": [],
     "notes": "Read 2026-09-25 through the Municode content API (jobId 488870, productId 18062) for the same node. Zeolite is not named; whether it qualifies under 'such as' is the town's call."
   },
@@ -425,10 +425,10 @@
     "quote": "Artificial turf areas shall not contain weeds, holes, tears, stains, discolorations, seam separations, uplifted surfaces, heat degradation, depressions, odors, excessive wear, or similar deformities and measures of deterioration.",
     "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE",
     "source_label": "Firestone Development Code 16.6.4.F.2.f.iii (codified through Ord. No. 1072, Dec. 10, 2025)",
-    "checked": "2026-09-25",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-12-24",
+    "recheck": "2027-01-14",
     "numbers": [],
     "notes": "Read 2026-09-25 through the Municode content API for the same node."
   },
@@ -442,10 +442,10 @@
     "quote": "Hand-watering and drip irrigation shall be permitted Monday through Sunday and not be restricted by the above-mentioned lawn-sprinkling restrictions. Hand-watering shall mean holding in the hand a hose with an attached positive shutoff nozzle or a bucket and does not include operating a hose with a sprinkler or manually operating an irrigation controller.",
     "source_url": "https://millikenco.gov/194/Watering-Schedule",
     "source_label": "Town of Milliken, Watering Schedule",
-    "checked": "2026-09-25",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-10-24",
+    "recheck": "2026-11-15",
     "numbers": [],
     "notes": "The page does not mention artificial turf. Declared drought levels (1-4) can add restrictions; the page says to contact Town Hall for the current level."
   },
@@ -455,17 +455,15 @@
     "applies_to": [
       "johnstown-co"
     ],
-    "fact": "Under Johnstown's Level 3 rules, hardscapes should be swept rather than spray-washed, and hand watering belongs on the property's watering day with an automatic shutoff nozzle; artificial turf is not mentioned.",
-    "quote": "Hardscapes (driveways, sidewalks, patios, etc.) should not be spray-washed. Use dry-cleaning methods such as sweeping or spot cleaning when possible. … Hand watering and supplemental irrigation for items such as vegetable gardens, decorative pots, hanging baskets, and similar plantings should be done on-site and in a water-efficient manner on the properties' scheduled watering day with an automatic shutoff nozzle to prevent water waste.",
+    "fact": "Johnstown's water FAQs say hardscapes should be swept rather than spray-washed and that hand watering belongs on the property's scheduled watering day with an automatic shutoff nozzle; artificial turf is not mentioned.",
+    "quote": "To support community-wide water efficiency efforts the following uses are not permitted or have limitations: Hardscapes (driveways, sidewalks, patios, etc.) should not be spray-washed. Use dry-cleaning methods such as sweeping or spot cleaning when possible. … Hand watering and supplemental irrigation for items such as vegetable gardens, decorative pots, hanging baskets, and similar plantings should be done on-site and in a water-efficient manner on the properties' scheduled watering day with an automatic shutoff nozzle to prevent water waste.",
     "source_url": "https://www.johnstownco.gov/Faq.aspx?QID=240",
-    "source_label": "Town of Johnstown, Water Conservation Schedule FAQ: What other impacts are there under Water Conservation Level 3?",
-    "checked": "2026-09-25",
+    "source_label": "Town of Johnstown, Water Conservation Schedule FAQ: Are there additional restrictions that are still in effect?",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-10-16",
-    "numbers": [
-      "3"
-    ],
-    "notes": "Level 3 runs April 20 to October 15, 2026 (johnstown-level-3-2026). The FAQ's only schedule exemption is for establishing new turf (live grass)."
+    "recheck": "2026-11-23",
+    "numbers": [],
+    "notes": "Faq.aspx?QID=240 shows the same Water Conservation Schedule FAQ page as /m/faq?cat=37 (read 2026-10-16): the question's old Level 3 heading is gone, and the hardscape and hand-watering lines are unchanged. The 2026 Level 3 schedule (April 20 to October 15) is johnstown-level-3-2026. The FAQ's only exemption answer now reads 'There are currently no exemptions at this time.' The page HTML writes the apostrophe in \"properties' scheduled\" as &apos;."
   }
 ]

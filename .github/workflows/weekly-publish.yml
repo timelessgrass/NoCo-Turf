@@ -7,6 +7,15 @@
 # main, so no Netlify credentials or build hook are needed. It only commits in
 # a week with a post due, so a quiet week costs no build.
 #
+# NoCo's build refuses to run while any fact in src/data/layers has passed its
+# recheck date (scripts/check-layers.mjs). So first, every Monday, this job
+# re-reads each fact due in the next 14 days from its source
+# (scripts/recheck-sources.mjs) and moves the date on for every fact whose exact
+# quote is still there; those moves ride in the same commit as the post. If a
+# fact has changed, cannot be read, or would block today's build, the job fails
+# loudly with the list (and holds the post rather than push a build that would
+# fail), so a person rewrites it during the week.
+#
 # After pushing it checks the live site until the new post answers, and fails
 # if it never does. GitHub emails a failed scheduled run to whoever last edited
 # the schedule below, so a post that did not go out is never silent.
@@ -43,7 +52,18 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
+
+      - name: Re-check facts due in the next 14 days
+        id: facts
+        run: |
+          sudo apt-get install -y -qq poppler-utils >/dev/null 2>&1 || true
+          node scripts/recheck-sources.mjs --by "$(date -u -d '+14 days' +%F)" --apply | tee recheck-report.txt
+          # The water-rates table and CSV print each fact's checked date; regenerate them or the build's --check fails.
+          node scripts/build-water-rates.mjs
+          if node scripts/check-layers.mjs --quiet > layers-today.txt 2>&1; then echo "build_ok=true" >> "$GITHUB_OUTPUT"; else echo "build_ok=false" >> "$GITHUB_OUTPUT"; fi
+          if node scripts/check-layers.mjs --quiet --today "$(date -u -d '+7 days' +%F)" > layers-next-week.txt 2>&1; then echo "next_ok=true" >> "$GITHUB_OUTPUT"; else echo "next_ok=false" >> "$GITHUB_OUTPUT"; fi
+          rm -f recheck-report.txt
 
       - id: due
         run: node scripts/post-due.mjs | tee /dev/stderr | grep -E '^(due|slugs)=' >> "$GITHUB_OUTPUT"
@@ -55,7 +75,7 @@ jobs:
           echo "Push access OK. Due this week: '${{ steps.due.outputs.slugs }}'"
 
       - name: Publish this week's post
-        if: steps.due.outputs.due == 'true' && !(github.event_name == 'workflow_dispatch' && inputs.check_only)
+        if: steps.due.outputs.due == 'true' && steps.facts.outputs.build_ok == 'true' && !(github.event_name == 'workflow_dispatch' && inputs.check_only)
         env:
           SLUGS: ${{ steps.due.outputs.slugs }}
         run: |
@@ -67,12 +87,12 @@ jobs:
           if git diff --quiet; then echo "Already published this week, nothing to do."; exit 0; fi
           git config user.name "NoCo Turf weekly blog"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add blog/PUBLISHED.md
-          git commit -m "Publish this week's blog post: $SLUGS"
+          git add blog/PUBLISHED.md src/data/layers public/data src/content/guides/water-savings.md
+          git commit -m "Publish this week's blog post: $SLUGS" -m "Facts whose exact quote is still on their source have their checked and recheck dates moved (scripts/recheck-sources.mjs)."
           git push origin HEAD:main
 
       - name: Check the post is live
-        if: steps.due.outputs.due == 'true' && !(github.event_name == 'workflow_dispatch' && inputs.check_only)
+        if: steps.due.outputs.due == 'true' && steps.facts.outputs.build_ok == 'true' && !(github.event_name == 'workflow_dispatch' && inputs.check_only)
         env:
           SLUGS: ${{ steps.due.outputs.slugs }}
         run: |
@@ -86,3 +106,15 @@ jobs:
             echo "::error::$url was not live 10 minutes after the push. Check the Netlify deploy for this commit."
             exit 1
           done
+
+      - name: Facts that need a person
+        if: always() && (steps.facts.outputs.build_ok == 'false' || steps.facts.outputs.next_ok == 'false')
+        run: |
+          if [ "${{ steps.facts.outputs.build_ok }}" = "false" ]; then
+            echo "::error::A fact has passed its recheck date, so today's build would fail. This week's post was held. Rewrite or re-verify these, then run this job by hand with check_only off:"
+            grep FAIL layers-today.txt || true
+          else
+            echo "::error::Published, but these facts expire within 7 days and could not be re-verified automatically. Fix them before next Monday:"
+            grep FAIL layers-next-week.txt || true
+          fi
+          exit 1

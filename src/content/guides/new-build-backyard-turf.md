@@ -153,11 +153,14 @@ sources:
   - label: "CSU Extension, CMG GardenNotes #551, Basic Turf Management"
     url: "https://cmg.extension.colostate.edu/Gardennotes/551.pdf"
     checked: "2026-09-25"
-  - label: "Town of Johnstown, New Lawn Permit (2026 program page and application form)"
+  - label: "Town of Johnstown, 2026 New Lawn Permit page and application form (read September 25, 2026; taken down after the season)"
     url: "https://www.johnstownco.gov/689/New-Lawn-Permit"
     checked: "2026-09-25"
+  - label: "Johnstown Municipal Code Sec. 13-151, Levels of water conservation (eCode360)"
+    url: "https://ecode360.com/48626381"
+    checked: "2026-10-16"
 published: "2026-09-25"
-updated: "2026-09-25"
+updated: "2026-10-16"
 related:
   services:
     - artificial-turf-installation
@@ -260,4 +263,4 @@ A blank lot is also the one chance to plan the whole yard at once.
 
 ## Should a blank lot get sod first, or go straight to turf?
 
-Both start with the same ground work. CSU Extension says to finish grade changes and loosen compacted soil 12 inches deep before sodding ([CSU Extension](https://planttalk.colostate.edu/topics/lawns/1517-sodding-lawn/)), and that sod over compacted soil develops a thatch problem within a couple of years ([GardenNotes #551](https://cmg.extension.colostate.edu/Gardennotes/551.pdf)). Sod laid now and traded for turf later has to be cut back out. In Johnstown, watering new grass takes a Town permit, and no new lawn may be established after October 15 ([Town of Johnstown](https://www.johnstownco.gov/689/New-Lawn-Permit)). The full comparison: [new sod or artificial turf](/guides/artificial-turf-vs-sod/). The installation itself: [artificial turf installation](/services/artificial-turf-installation/).
+Both start with the same ground work. CSU Extension says to finish grade changes and loosen compacted soil 12 inches deep before sodding ([CSU Extension](https://planttalk.colostate.edu/topics/lawns/1517-sodding-lawn/)), and that sod over compacted soil develops a thatch problem within a couple of years ([GardenNotes #551](https://cmg.extension.colostate.edu/Gardennotes/551.pdf)). Sod laid now and traded for turf later has to be cut back out. In Johnstown, while the town is at water conservation Level 2 or 3, as it was in 2026, watering new grass takes a Town permit and no lawn may be watered from October 15 through April 15 ([Johnstown code](https://ecode360.com/48626381)); the 2026 permit also barred any new lawn after October 15. The full comparison: [new sod or artificial turf](/guides/artificial-turf-vs-sod/). The installation itself: [artificial turf installation](/services/artificial-turf-installation/).

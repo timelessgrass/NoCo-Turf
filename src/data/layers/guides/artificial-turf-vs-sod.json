@@ -5,19 +5,20 @@
     "applies_to": [
       "johnstown-co"
     ],
-    "fact": "Johnstown's New Lawn Permit frees a new lawn from the property's assigned watering days but not from the ban on watering between 10 a.m. and 6 p.m.",
+    "fact": "Johnstown's 2026 New Lawn Permit freed a new lawn from the property's assigned watering days but not from the ban on watering between 10 a.m. and 6 p.m.",
     "quote": "The permit only provides a variance from the property's assigned watering days and does not exempt participants from the Town's watering window restrictions. … Irrigation from the times of 10 am - 6 pm during any day is prohibited.",
     "source_url": "https://www.johnstownco.gov/689/New-Lawn-Permit",
     "source_label": "Town of Johnstown, New Lawn Permit (2026 program page and application form)",
     "checked": "2026-09-25",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-10-16",
+    "recheck": "2027-03-01",
     "numbers": [
+      "2026",
       "10",
       "6"
     ],
-    "notes": "Read with curl on 2026-09-25; the page banner read \"Level 3 Drought Watering Schedule in Effect\". The permit itself is required by Municipal Code Sec. 13-151(c)(6) (record johnstown-code-13-151-new-lawn-permit)."
+    "notes": "Read with curl on 2026-09-25; the page banner read \"Level 3 Drought Watering Schedule in Effect\". The permit itself is required by Municipal Code Sec. 13-151(c)(6) (record johnstown-code-13-151-new-lawn-permit). 2026-10-16: the New Lawn Permit page returns 404 (taken down after the 2026 season), so the fact now reads in the past tense and checked stays at the last read. Re-check in spring for the 2027 program; the permit requirement itself is in johnstown-code-13-151-new-lawn-permit."
   },
   {
     "id": "artificial-turf-vs-sod.johnstown-permit-45-days",
@@ -25,17 +26,19 @@
     "applies_to": [
       "johnstown-co"
     ],
-    "fact": "A Johnstown New Lawn Permit expires 45 days after the installation date or at the end of the mandated watering schedule.",
+    "fact": "A 2026 Johnstown New Lawn Permit expired 45 days after the installation date or at the end of the mandated watering schedule.",
     "quote": "Permit expires within 45 days of installation date or at the end of the mandated watering schedule.",
     "source_url": "https://www.johnstownco.gov/689/New-Lawn-Permit",
     "source_label": "Town of Johnstown, New Lawn Permit (2026 program page and application form)",
     "checked": "2026-09-25",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-10-16",
+    "recheck": "2027-03-01",
     "numbers": [
+      "2026",
       "45"
-    ]
+    ],
+    "notes": "2026-10-16: the New Lawn Permit page returns 404 (taken down after the 2026 season), so the fact now reads in the past tense and checked stays at the last read. Re-check in spring for the 2027 program; the permit requirement itself is in johnstown-code-13-151-new-lawn-permit."
   },
   {
     "id": "artificial-turf-vs-sod.johnstown-no-establishment-after-oct-15",
@@ -43,18 +46,19 @@
     "applies_to": [
       "johnstown-co"
     ],
-    "fact": "In Johnstown no new lawn may be established after October 15, permit or not, and after that date watering is limited to hand-watering trees and shrubs.",
+    "fact": "Johnstown's 2026 New Lawn Permit said no new lawn could be established after October 15, permit or not, and that after that date watering was limited to hand-watering trees and shrubs.",
     "quote": "All watering is restricted to hand watering only of trees and shrubs after October 15th regardless of permit status. I understand the New Turf Permit guidelines and regardless of the permit, no turf establishment shall occur after October 15th.",
     "source_url": "https://www.johnstownco.gov/689/New-Lawn-Permit",
     "source_label": "Town of Johnstown, New Lawn Permit (2026 program page and application form)",
     "checked": "2026-09-25",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-10-16",
+    "recheck": "2027-03-01",
     "numbers": [
+      "2026",
       "15"
     ],
-    "notes": "\"Turf\" in the Town's form means a live lawn (the form offers Seed, Sod or Other); nothing here is about artificial turf."
+    "notes": "\"Turf\" in the Town's form means a live lawn (the form offers Seed, Sod or Other); nothing here is about artificial turf. 2026-10-16: the New Lawn Permit page returns 404 (taken down after the 2026 season), so the fact now reads in the past tense and checked stays at the last read. Re-check in spring for the 2027 program; the permit requirement itself is in johnstown-code-13-151-new-lawn-permit."
   },
   {
     "id": "artificial-turf-vs-sod.johnstown-application-oct-12",
@@ -62,19 +66,19 @@
     "applies_to": [
       "johnstown-co"
     ],
-    "fact": "Johnstown's 2026 New Lawn Permit application, which asks whether the new lawn is seed, sod or other, is available until October 12, 2026.",
+    "fact": "Johnstown's 2026 New Lawn Permit application, which asks whether the new lawn is seed, sod or other, was available until October 12, 2026.",
     "quote": "New Lawn Permit Application - Available until October 12th, 2026 … Type of 'Turf' * Seed Sod Other",
     "source_url": "https://www.johnstownco.gov/689/New-Lawn-Permit",
     "source_label": "Town of Johnstown, New Lawn Permit (2026 program page and application form)",
     "checked": "2026-09-25",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-10-12",
+    "recheck": "2027-03-01",
     "numbers": [
       "12",
       "2026"
     ],
-    "notes": "\"Permit\" is split across two bold tags in the page source; it displays as one word. The form's field label is \"Type of 'Turf'\" with the options Seed, Sod and Other."
+    "notes": "\"Permit\" is split across two bold tags in the page source; it displays as one word. 2026-10-16: the October 12 deadline has passed, so the fact now reads in the past tense; the Town site refused the connection from here, so checked stays at the last read. Re-check in spring for the 2027 program. The form's field label is \"Type of 'Turf'\" with the options Seed, Sod and Other."
   },
   {
     "id": "artificial-turf-vs-sod.severance-new-lawn-variance",
@@ -86,10 +90,10 @@
     "quote": "In addition, the Town Manager may grant a variance to these restrictions for the establishment of new lawns or landscaping. A copy of the Water Restriction Resolution No. 2013-07R or the variance permits for non-potable systems, or newly seeded or sodded lawns can be requested at the Severance Town Hall",
     "source_url": "https://www.townofseverance.org/396/Watering-Guidelines-and-Restrictions",
     "source_label": "Town of Severance, Watering Guidelines and Restrictions",
-    "checked": "2026-09-25",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-10-24",
+    "recheck": "2026-11-15",
     "numbers": [
       "2013",
       "07"
@@ -105,10 +109,10 @@
     "quote": "There shall be no lawn watering from December 1st thru March 31st of any year. Lawn watering will be allowed from April 1st thru November 30th of any year.",
     "source_url": "https://www.townofseverance.org/396/Watering-Guidelines-and-Restrictions",
     "source_label": "Town of Severance, Watering Guidelines and Restrictions",
-    "checked": "2026-09-25",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-10-24",
+    "recheck": "2026-11-15",
     "numbers": [
       "1",
       "30",
@@ -126,10 +130,10 @@
     "quote": "Nothing herein shall apply to any approved non-potable water system or North Weld County Water District systems used by any property owner.",
     "source_url": "https://www.townofseverance.org/396/Watering-Guidelines-and-Restrictions",
     "source_label": "Town of Severance, Watering Guidelines and Restrictions",
-    "checked": "2026-09-25",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-10-24",
+    "recheck": "2026-11-15",
     "numbers": [],
     "notes": "The page names the non-potable subdivisions (Hunters Crossing, The Overlook, Severance Shores, The Reserve, Settler's Landing, Tailholt) and the North Weld County Water District subdivisions."
   },
@@ -143,10 +147,10 @@
     "quote": "Current water shortage action level: Water Shortage Watch … General Water Shortage Watch irrigation guidelines for lawns: Two days per week maximum One inch per week maximum total volume Set controllers to run between 6 p.m. and 10 a.m.",
     "source_url": "https://www.fortcollins.gov/Services/Utilities/Programs-and-Rebates/Water-Programs",
     "source_label": "Fort Collins Utilities, Water Conservation: Current Water Status and Restrictions",
-    "checked": "2026-09-25",
+    "checked": "2026-10-16",
     "reachable": false,
     "status": "VERIFIED",
-    "recheck": "2026-10-24",
+    "recheck": "2026-11-15",
     "numbers": [
       "2",
       "1",
@@ -167,10 +171,10 @@
     "quote": "These actions only apply to Fort Collins Utilities water customers. … This information is posted for reference in the event Utilities moves into mandatory restrictions. Exception Permits Permits are available to allow exceptions to assigned watering days and frequencies. Permits may be issued for individuals or businesses unable to comply with watering restrictions for the following conditions: New seed and sod establishment … Permits applications are available when a water shortage is declared.",
     "source_url": "https://www.fortcollins.gov/Services/Utilities/Programs-and-Rebates/Water-Programs",
     "source_label": "Fort Collins Utilities, Water Conservation: Current Water Status and Restrictions",
-    "checked": "2026-09-25",
+    "checked": "2026-10-16",
     "reachable": false,
     "status": "VERIFIED",
-    "recheck": "2026-10-24",
+    "recheck": "2026-11-15",
     "numbers": [],
     "notes": "Read in a browser on 2026-09-25 (curl is blocked). The Watch itself is voluntary, so no permit applies while it lasts."
   },
@@ -184,10 +188,10 @@
     "quote": "If you use well or raw water to irrigate grass, you are exempt from the water watch and restrictions.",
     "source_url": "https://www.fortcollins.gov/Services/Utilities/Programs-and-Rebates/Water-Programs",
     "source_label": "Fort Collins Utilities, Water Conservation: Current Water Status and Restrictions",
-    "checked": "2026-09-25",
+    "checked": "2026-10-16",
     "reachable": false,
     "status": "VERIFIED",
-    "recheck": "2026-10-24",
+    "recheck": "2026-11-15",
     "numbers": []
   },
   {

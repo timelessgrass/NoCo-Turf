@@ -834,10 +834,10 @@
     "source_url": "https://library.municode.com/co/timnath/codes/municipal_code?nodeId=CD_APXALAUSCO_ART4USRECO",
     "source_label": "Timnath Land Use Code Sec. 4.4.8.11 (Municode, codified through the Land Use Code effective May 12, 2025)",
     "effective": "2025-05-12",
-    "checked": "2026-09-25",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "UNVERIFIED",
-    "recheck": "2026-10-24",
+    "recheck": "2026-11-15",
     "numbers": [
       "2025"
     ],
@@ -854,10 +854,10 @@
     "source_url": "https://library.municode.com/co/timnath/codes/municipal_code?nodeId=CD_APXALAUSCO_ART5DEST_S5.7STDE",
     "source_label": "Timnath Land Use Code Sec. 5.7.6.2(B), Pocket parks (Municode, codified through the Land Use Code effective May 12, 2025)",
     "effective": "2025-05-12",
-    "checked": "2026-09-25",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "UNVERIFIED",
-    "recheck": "2026-10-24",
+    "recheck": "2026-11-15",
     "numbers": [
       "6",
       "2025"
@@ -875,15 +875,15 @@
     "source_url": "https://library.municode.com/co/timnath/ordinances/municipal_code?nodeId=1412646",
     "source_label": "Town of Timnath Ordinance No. 28, Series 2025, Land Use Code amendments (adopted Dec. 9, 2025), Exhibit A, Land Use Code Sec. 5.7.7.1(A)(4)",
     "effective": "2025-12-09",
-    "checked": "2026-09-25",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-10-24",
+    "recheck": "2027-01-14",
     "numbers": [
       "2025",
       "28"
     ],
-    "notes": "Read from the recorded ordinance PDF in Municode's OrdBank (https://mcclibraryfunctions.azurewebsites.us/api/ordinanceDownload/18279/1412646/pdf), pending codification; Municode's codified Land Use Code stops at the May 12, 2025 version. Strikethrough and insertions read from the page images. OrdBank's later Land Use Code ordinances (2026 Nos. 4, 6 and 9) do not touch these sections. Timnath's compiled Land Use Code Version 22 (timnath.org, effective March 2026) sits behind a Cloudflare challenge; confirm there in a browser. Sec. 5.7.7.1(A)(1) applies the section to all new construction 'Except as provided in Subsection A.4'; whether the artificial-turf line reaches a backyard on a detached single-family lot is the Town's call, not stated outright."
+    "notes": "Read from the recorded ordinance PDF in Municode's OrdBank (https://mcclibraryfunctions.azurewebsites.us/api/ordinanceDownload/18279/1412646/pdf), pending codification; Municode's codified Land Use Code stops at the May 12, 2025 version. Strikethrough and insertions read from the page images. OrdBank's later Land Use Code ordinances (2026 Nos. 4, 6 and 9) do not touch these sections. Timnath's compiled Land Use Code Version 22 (timnath.org, effective March 2026) sits behind a Cloudflare challenge; confirm there in a browser. Sec. 5.7.7.1(A)(1) applies the section to all new construction 'Except as provided in Subsection A.4'; whether the artificial-turf line reaches a backyard on a detached single-family lot is the Town's call, not stated outright. Re-read 2026-10-16 from the page images of the recorded ordinance PDF (pages 7 to 10): unchanged. Municode's codified Land Use Code still shows the pre-amendment text, and the OrdBank's later 2026 ordinances (Nos. 11 to 15, the last recorded Sept. 23, 2026) do not amend the Land Use Code. The OrdBank page itself has no API route, so the Monday recheck cannot read it."
   },
   {
     "id": "timnath-co.luc-ord-28-2025-disturbed-sites",
@@ -896,10 +896,10 @@
     "source_url": "https://library.municode.com/co/timnath/ordinances/municipal_code?nodeId=1412646",
     "source_label": "Town of Timnath Ordinance No. 28, Series 2025, Land Use Code amendments (adopted Dec. 9, 2025), Exhibit A, Land Use Code Sec. 5.7.7.1(A)(1)(d)-(3)",
     "effective": "2025-12-09",
-    "checked": "2026-09-25",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-10-24",
+    "recheck": "2027-01-14",
     "numbers": [
       "50",
       "2",
@@ -907,7 +907,7 @@
       "28",
       "2025"
     ],
-    "notes": "Read from the recorded ordinance PDF in Municode's OrdBank (https://mcclibraryfunctions.azurewebsites.us/api/ordinanceDownload/18279/1412646/pdf), pending codification; Municode's codified Land Use Code stops at the May 12, 2025 version. Strikethrough and insertions read from the page images. OrdBank's later Land Use Code ordinances (2026 Nos. 4, 6 and 9) do not touch these sections. Timnath's compiled Land Use Code Version 22 (timnath.org, effective March 2026) sits behind a Cloudflare challenge; confirm there in a browser."
+    "notes": "Read from the recorded ordinance PDF in Municode's OrdBank (https://mcclibraryfunctions.azurewebsites.us/api/ordinanceDownload/18279/1412646/pdf), pending codification; Municode's codified Land Use Code stops at the May 12, 2025 version. Strikethrough and insertions read from the page images. OrdBank's later Land Use Code ordinances (2026 Nos. 4, 6 and 9) do not touch these sections. Timnath's compiled Land Use Code Version 22 (timnath.org, effective March 2026) sits behind a Cloudflare challenge; confirm there in a browser. Re-read 2026-10-16 from the page images of the recorded ordinance PDF (pages 7 to 10): unchanged. Municode's codified Land Use Code still shows the pre-amendment text, and the OrdBank's later 2026 ordinances (Nos. 11 to 15, the last recorded Sept. 23, 2026) do not amend the Land Use Code. The OrdBank page itself has no API route, so the Monday recheck cannot read it."
   },
   {
     "id": "timnath-co.luc-ord-28-2025-nonfunctional-turf",
@@ -920,16 +920,16 @@
     "source_url": "https://library.municode.com/co/timnath/ordinances/municipal_code?nodeId=1412646",
     "source_label": "Town of Timnath Ordinance No. 28, Series 2025, Land Use Code amendments (adopted Dec. 9, 2025), Exhibit A, Land Use Code Sec. 5.7.7.1(C)(3) Turf Limitations",
     "effective": "2025-12-09",
-    "checked": "2026-09-25",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-10-24",
+    "recheck": "2027-01-14",
     "numbers": [
       "4.1",
       "28",
       "2025"
     ],
-    "notes": "Read from the recorded ordinance PDF in Municode's OrdBank (https://mcclibraryfunctions.azurewebsites.us/api/ordinanceDownload/18279/1412646/pdf), pending codification; Municode's codified Land Use Code stops at the May 12, 2025 version. Strikethrough and insertions read from the page images. OrdBank's later Land Use Code ordinances (2026 Nos. 4, 6 and 9) do not touch these sections. Timnath's compiled Land Use Code Version 22 (timnath.org, effective March 2026) sits behind a Cloudflare challenge; confirm there in a browser. 'Turf' here is living grass (Sec. 11.2: 'Continuous plant coverage consisting of grasses')."
+    "notes": "Read from the recorded ordinance PDF in Municode's OrdBank (https://mcclibraryfunctions.azurewebsites.us/api/ordinanceDownload/18279/1412646/pdf), pending codification; Municode's codified Land Use Code stops at the May 12, 2025 version. Strikethrough and insertions read from the page images. OrdBank's later Land Use Code ordinances (2026 Nos. 4, 6 and 9) do not touch these sections. Timnath's compiled Land Use Code Version 22 (timnath.org, effective March 2026) sits behind a Cloudflare challenge; confirm there in a browser. 'Turf' here is living grass (Sec. 11.2: 'Continuous plant coverage consisting of grasses'). Re-read 2026-10-16 from the page images of the recorded ordinance PDF (pages 7 to 10): unchanged. Municode's codified Land Use Code still shows the pre-amendment text, and the OrdBank's later 2026 ordinances (Nos. 11 to 15, the last recorded Sept. 23, 2026) do not amend the Land Use Code. The OrdBank page itself has no API route, so the Monday recheck cannot read it."
   },
   {
     "id": "timnath-co.luc-ord-28-2025-neighborhood-park-threshold",
@@ -942,16 +942,16 @@
     "source_url": "https://library.municode.com/co/timnath/ordinances/municipal_code?nodeId=1412646",
     "source_label": "Town of Timnath Ordinance No. 28, Series 2025, Land Use Code amendments (adopted Dec. 9, 2025), Exhibit A, Land Use Code Sec. 5.7.6.2(C) Neighborhood parks",
     "effective": "2025-12-09",
-    "checked": "2026-09-25",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-10-24",
+    "recheck": "2027-01-14",
     "numbers": [
       "300",
       "2025",
       "28"
     ],
-    "notes": "Read from the recorded ordinance PDF in Municode's OrdBank (https://mcclibraryfunctions.azurewebsites.us/api/ordinanceDownload/18279/1412646/pdf), pending codification; Municode's codified Land Use Code stops at the May 12, 2025 version. Strikethrough and insertions read from the page images. OrdBank's later Land Use Code ordinances (2026 Nos. 4, 6 and 9) do not touch these sections. Timnath's compiled Land Use Code Version 22 (timnath.org, effective March 2026) sits behind a Cloudflare challenge; confirm there in a browser."
+    "notes": "Read from the recorded ordinance PDF in Municode's OrdBank (https://mcclibraryfunctions.azurewebsites.us/api/ordinanceDownload/18279/1412646/pdf), pending codification; Municode's codified Land Use Code stops at the May 12, 2025 version. Strikethrough and insertions read from the page images. OrdBank's later Land Use Code ordinances (2026 Nos. 4, 6 and 9) do not touch these sections. Timnath's compiled Land Use Code Version 22 (timnath.org, effective March 2026) sits behind a Cloudflare challenge; confirm there in a browser. Re-read 2026-10-16 from the page images of the recorded ordinance PDF (pages 7 to 10): unchanged. Municode's codified Land Use Code still shows the pre-amendment text, and the OrdBank's later 2026 ordinances (Nos. 11 to 15, the last recorded Sept. 23, 2026) do not amend the Land Use Code. The OrdBank page itself has no API route, so the Monday recheck cannot read it."
   },
   {
     "id": "timnath-co.luc-ord-28-2025-neighborhood-park-turf-struck",
@@ -964,16 +964,16 @@
     "source_url": "https://library.municode.com/co/timnath/ordinances/municipal_code?nodeId=1412646",
     "source_label": "Town of Timnath Ordinance No. 28, Series 2025, Land Use Code amendments (adopted Dec. 9, 2025), Exhibit A, Land Use Code Sec. 5.7.6.2(C) Neighborhood parks (clause shown struck)",
     "effective": "2025-12-09",
-    "checked": "2026-09-25",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-10-24",
+    "recheck": "2027-01-14",
     "numbers": [
       "2025",
       "70",
       "28"
     ],
-    "notes": "Read from the recorded ordinance PDF in Municode's OrdBank (https://mcclibraryfunctions.azurewebsites.us/api/ordinanceDownload/18279/1412646/pdf), pending codification; Municode's codified Land Use Code stops at the May 12, 2025 version. Strikethrough and insertions read from the page images. OrdBank's later Land Use Code ordinances (2026 Nos. 4, 6 and 9) do not touch these sections. Timnath's compiled Land Use Code Version 22 (timnath.org, effective March 2026) sits behind a Cloudflare challenge; confirm there in a browser. The parenthetical from 'artificial turf' through 'Community Development Director' is printed in strikethrough in Exhibit A; the same exhibit strikes the matching case-by-case line in Sec. 5.7.8.1(B) (street landscaping), so the retired shared record timnath-luc-5.7-case-by-case is gone; Timnath's current rule is timnath-luc-5.7.7.1-artificial-turf. The amended 5.7.6.2(C) applies to residential developments of over 300 dwelling units."
+    "notes": "Read from the recorded ordinance PDF in Municode's OrdBank (https://mcclibraryfunctions.azurewebsites.us/api/ordinanceDownload/18279/1412646/pdf), pending codification; Municode's codified Land Use Code stops at the May 12, 2025 version. Strikethrough and insertions read from the page images. OrdBank's later Land Use Code ordinances (2026 Nos. 4, 6 and 9) do not touch these sections. Timnath's compiled Land Use Code Version 22 (timnath.org, effective March 2026) sits behind a Cloudflare challenge; confirm there in a browser. The parenthetical from 'artificial turf' through 'Community Development Director' is printed in strikethrough in Exhibit A; the same exhibit strikes the matching case-by-case line in Sec. 5.7.8.1(B) (street landscaping), so the retired shared record timnath-luc-5.7-case-by-case is gone; Timnath's current rule is timnath-luc-5.7.7.1-artificial-turf. The amended 5.7.6.2(C) applies to residential developments of over 300 dwelling units. Re-read 2026-10-16 from the page images of the recorded ordinance PDF (pages 7 to 10): unchanged. Municode's codified Land Use Code still shows the pre-amendment text, and the OrdBank's later 2026 ordinances (Nos. 11 to 15, the last recorded Sept. 23, 2026) do not amend the Land Use Code. The OrdBank page itself has no API route, so the Monday recheck cannot read it."
   },
   {
     "id": "timnath-co.luc-ord-28-2025-high-water-grass",
@@ -986,15 +986,15 @@
     "source_url": "https://library.municode.com/co/timnath/ordinances/municipal_code?nodeId=1412646",
     "source_label": "Town of Timnath Ordinance No. 28, Series 2025, Land Use Code amendments (adopted Dec. 9, 2025), Exhibit A, Land Use Code Sec. 5.7.8.1(D)",
     "effective": "2025-12-09",
-    "checked": "2026-09-25",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-10-24",
+    "recheck": "2027-01-14",
     "numbers": [
       "28",
       "2025"
     ],
-    "notes": "Read from the recorded ordinance PDF in Municode's OrdBank (https://mcclibraryfunctions.azurewebsites.us/api/ordinanceDownload/18279/1412646/pdf), pending codification; Municode's codified Land Use Code stops at the May 12, 2025 version. Strikethrough and insertions read from the page images. OrdBank's later Land Use Code ordinances (2026 Nos. 4, 6 and 9) do not touch these sections. Timnath's compiled Land Use Code Version 22 (timnath.org, effective March 2026) sits behind a Cloudflare challenge; confirm there in a browser."
+    "notes": "Read from the recorded ordinance PDF in Municode's OrdBank (https://mcclibraryfunctions.azurewebsites.us/api/ordinanceDownload/18279/1412646/pdf), pending codification; Municode's codified Land Use Code stops at the May 12, 2025 version. Strikethrough and insertions read from the page images. OrdBank's later Land Use Code ordinances (2026 Nos. 4, 6 and 9) do not touch these sections. Timnath's compiled Land Use Code Version 22 (timnath.org, effective March 2026) sits behind a Cloudflare challenge; confirm there in a browser. Re-read 2026-10-16 from the page images of the recorded ordinance PDF (pages 7 to 10): unchanged. Municode's codified Land Use Code still shows the pre-amendment text, and the OrdBank's later 2026 ordinances (Nos. 11 to 15, the last recorded Sept. 23, 2026) do not amend the Land Use Code. The OrdBank page itself has no API route, so the Monday recheck cannot read it."
   },
   {
     "id": "timnath-co.code-7-9-300-dog-parks",

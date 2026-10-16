@@ -538,10 +538,10 @@
     "quote": "Current water shortage action level: Water Shortage Watch … Starting May 1, Fort Collins Utilities water customers are in a Water Shortage Watch. … Trees … Limit watering by sprinkler to two days per week and not between 10 a.m. and 6 p.m., and by hand, drip system or deep root fork or needle at any time.",
     "source_url": "https://www.fortcollins.gov/Services/Utilities/Programs-and-Rebates/Water-Programs",
     "source_label": "Fort Collins Utilities, Current Water Status and Restrictions",
-    "checked": "2026-09-25",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-10-24",
+    "recheck": "2026-11-15",
     "numbers": [
       "1",
       "10",
@@ -560,10 +560,10 @@
     "quote": "2026 Watering Restrictions … No watering is allowed between 10 a.m. and 6 p.m. There is no lawn watering without a variance between November 1 and April 14 (see below on applying for a variance). We recommend stopping regular lawn watering in October. However, watering trees October through March is allowed.",
     "source_url": "https://greeleyco.gov/water-and-sewer/save-water/restrictions-violations-variances/",
     "source_label": "City of Greeley Water and Sewer, Water Restrictions, Violations, and Variances",
-    "checked": "2026-09-25",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-11-01",
+    "recheck": "2026-11-22",
     "numbers": [
       "2026",
       "10",
@@ -596,21 +596,21 @@
     "applies_to": [
       "johnstown-co"
     ],
-    "fact": "Johnstown's 2026 watering page says no watering from 10 a.m. to 6 p.m., October 15 ends the outdoor watering season, and after October 15 trees and shrubs may be hand watered on Saturdays and Sundays.",
-    "quote": "No watering shall occur between 10am and 6pm. Watering is only permitted on the properties designated watering day. October 15 is the end of outdoor watering season. After October 15, you may hand water trees and shrubs on Saturdays and Sundays.",
-    "source_url": "https://www.johnstownco.gov/665/2026-Watering-Schedule",
-    "source_label": "Town of Johnstown, 2026 Watering Schedule",
-    "checked": "2026-09-25",
+    "fact": "Johnstown's 2026 watering calendar ends the outdoor irrigation season on October 15, allows only hand watering of trees and shrubs on Saturdays and Sundays after that, and still prints its line against watering from 10 a.m. to 6 p.m. on the November and December pages.",
+    "quote": "OUTDOOR IRRIGATION SEASON ENDS! … HAND WATERING ONLY: SATURDAY & SUNDAY TREES & SHRUBS … No watering shall occur between 10am and 6pm. Watering is only permitted on the properties designated watering day",
+    "source_url": "https://www.johnstownco.gov/DocumentCenter/View/2348/2026-Johnstown-Watering-Schedule-Downloadable-PDF",
+    "source_label": "Town of Johnstown, 2026 Watering Schedule calendar (PDF)",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-10-16",
+    "recheck": "2027-03-01",
     "numbers": [
-      "10",
-      "6",
+      "2026",
       "15",
-      "2026"
+      "10",
+      "6"
     ],
-    "notes": "Read with curl on 2026-09-25. The downloadable 2026 calendar marks October through December 'HAND WATERING ONLY: SATURDAY & SUNDAY TREES & SHRUBS'. The page does not say whether the 10 a.m.–6 p.m. ban still applies after October 15."
+    "notes": "Moved 2026-10-16 from the 2026 Watering Schedule page (/665/), which now only links this PDF. Read with pdftotext and the page images: the October page marks Thursday, October 15 'OUTDOOR IRRIGATION SEASON ENDS!' and the weekends from October 17 'HAND WATERING ONLY'; the November and December pages repeat 'HAND WATERING ONLY: SATURDAY & SUNDAY TREES & SHRUBS' with the 10am-6pm line and 'Water Conservation Level 3 Moderate'. The Town's FAQ adds that trees and shrubs should be watered only when it is above 40 degrees (watering-trees-with-artificial-turf.johnstown-hand-water-level-3)."
   },
   {
     "id": "watering-trees-with-artificial-turf.johnstown-hand-water-level-3",
@@ -618,23 +618,19 @@
     "applies_to": [
       "johnstown-co"
     ],
-    "fact": "Johnstown's Level 3 restrictions run April 20 to October 15, 2026, bar watering from 10 a.m. to 6 p.m. at any time, and ask that hand watering be done on the property's scheduled watering day with an automatic shutoff nozzle.",
-    "quote": "These restrictions are in place from April 20 to October 15, 2026. Watering between the hours of 10 a.m. - 6 p.m., is NOT permitted at any time. … Hand watering and supplemental irrigation for items such as vegetable gardens, decorative pots, hanging baskets, and similar plantings should be done on-site and in a water-efficient manner on the properties' scheduled watering day with an automatic shutoff nozzle to prevent water waste.",
+    "fact": "Johnstown's water FAQs allow trees and shrubs to be watered after October 15 on Saturdays and Sundays, only by hand and only when it is above 40 degrees outside, and ask that other hand watering be done on the property's scheduled watering day with an automatic shutoff nozzle.",
+    "quote": "Yes, you can water your trees and shrubs after October 15th, on Saturdays and Sundays. Watering your trees and shrubs should only be done by hand and when the temperature outside is above 40 degrees. … Hand watering and supplemental irrigation for items such as vegetable gardens, decorative pots, hanging baskets, and similar plantings should be done on-site and in a water-efficient manner on the properties' scheduled watering day with an automatic shutoff nozzle to prevent water waste.",
     "source_url": "https://www.johnstownco.gov/Faq.aspx?TID=37",
     "source_label": "Town of Johnstown, Water Conservation Schedule FAQs",
-    "checked": "2026-09-25",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-10-16",
+    "recheck": "2026-11-23",
     "numbers": [
-      "20",
       "15",
-      "2026",
-      "10",
-      "6",
-      "3"
+      "40"
     ],
-    "notes": "Faq.aspx?TID=37 redirects to /m/faq?cat=37. Read with curl on 2026-09-25."
+    "notes": "Faq.aspx?TID=37 redirects to /m/faq?cat=37. Re-read 2026-10-16 (the day's saved copy): the Level 3 text (in place April 20 to October 15, 2026; no watering 10 a.m. - 6 p.m.) is gone; that history is in johnstown-level-3-2026. The page HTML writes the apostrophe in \"properties' scheduled\" as &apos;."
   },
   {
     "id": "watering-trees-with-artificial-turf.severance-hand-water-trees",
@@ -646,10 +642,10 @@
     "quote": "Hand watering of flowers, shrubs, and trees shall be allowed each day by hose during permitted hours, provided such hose has a shut-off valve attached which terminates flow when not manually activated. It is unlawful to use any outside water sources between 11:00 A.M. and 5:00 P.M. … Nothing herein shall apply to any approved non-potable water system or North Weld County Water District systems used by any property owner.",
     "source_url": "https://www.townofseverance.org/396/Watering-Guidelines-and-Restrictions",
     "source_label": "Town of Severance, Watering Guidelines and Restrictions",
-    "checked": "2026-09-25",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-12-24",
+    "recheck": "2027-01-14",
     "numbers": [
       "11",
       "5"
@@ -666,10 +662,10 @@
     "quote": "Town-treated water shall not be used for lawn sprinkler irrigation between 9 am and 7 pm daily and all day on Sunday; and no automatic sprinkler irrigation shall occur between November 1 and March 1 of each calendar year. … Hand-watering and drip irrigation shall be permitted Monday through Sunday and not be restricted by the above-mentioned lawn-sprinkling restrictions. Hand-watering shall mean holding in the hand a hose with an attached positive shutoff nozzle or a bucket and does not include operating a hose with a sprinkler or manually operating an irrigation controller.",
     "source_url": "https://millikenco.gov/194/Watering-Schedule",
     "source_label": "Town of Milliken, Watering Schedule",
-    "checked": "2026-09-25",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-12-24",
+    "recheck": "2027-01-14",
     "numbers": [
       "9",
       "7",
@@ -686,10 +682,10 @@
     "quote": "The restrictions take effect on April 16, 2026, and remain in place until the end of the year, unless lifted by the Board or water conditions improve. … To reduce water usage, the resolution limits lawn and landscape watering based on address numbers: Even-numbered addresses may water on Mondays, Wednesdays, Fridays, and Sundays. Odd-numbered addresses may water on Tuesdays, Thursdays, Saturdays, and Sundays. Watering is recommended between 6:00 p.m. and 10:00 a.m.",
     "source_url": "https://www.firestoneco.gov/1883/Current-Water-Conditions-Stage-1-Drought",
     "source_label": "Town of Firestone, Current Water Conditions: Stage 1 Drought",
-    "checked": "2026-09-25",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-10-24",
+    "recheck": "2026-11-15",
     "numbers": [
       "16",
       "2026",

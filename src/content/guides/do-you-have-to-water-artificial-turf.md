@@ -17,7 +17,7 @@ answer:
   answer: "No. Artificial turf needs no water to stay green. A rinse helps where dogs pee, when dust and pollen build up, to cool the surface for a few minutes, and to wet a cooling infill. No Northern Colorado provider's 2026 rules we read mention artificial turf, so rinse on your watering day, in allowed hours, with a shutoff nozzle."
 faq:
   - q: "Can I get a watering permit or variance to rinse turf more often?"
-    a: "Not one written for it. The permits and variances we found are for new seed or sod: Milliken's free watering permit, Greeley's lawn variance and Johnstown's new-lawn exemption. None of them mentions artificial turf. If a dog area needs more than your schedule allows, ask your provider in writing."
+    a: "Not one written for it. The permits and variances we found are for new seed or sod: Milliken's free watering permit and Greeley's lawn variance, and Johnstown's water FAQs now say there are no exemptions from its schedule. None of them mentions artificial turf. If a dog area needs more than your schedule allows, ask your provider in writing."
     layerRefs:
       - do-you-have-to-water-artificial-turf.milliken-winter-and-permits
       - do-you-have-to-water-artificial-turf.greeley-2026-restrictions
@@ -117,13 +117,13 @@ sources:
     checked: "2026-09-25"
   - label: "Town of Johnstown, Water Conservation Schedule FAQs"
     url: "https://www.johnstownco.gov/m/faq?cat=37"
-    checked: "2026-09-25"
-  - label: "Town of Johnstown, 2026 Watering Schedule"
-    url: "https://www.johnstownco.gov/665/2026-Watering-Schedule"
-    checked: "2026-09-25"
+    checked: "2026-10-16"
+  - label: "Town of Johnstown, 2026 Watering Schedule calendar (PDF)"
+    url: "https://www.johnstownco.gov/DocumentCenter/View/2348/2026-Johnstown-Watering-Schedule-Downloadable-PDF"
+    checked: "2026-10-16"
   - label: "City of Evans, drought emergency and expanded watering restrictions"
     url: "https://www.evanscolorado.gov/news/posts/city-of-evans-declares-drought-emergency-expanded-watering-restrictions-now-in-effect/"
-    checked: "2026-09-25"
+    checked: "2026-10-16"
   - label: "Evans Municipal Code 13.04.200, Water conservation measures"
     url: "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT13PUSE_CH13.04UTDEWASY_13.04.200WACOME"
     checked: "2026-09-25"
@@ -191,7 +191,7 @@ sources:
     url: "https://www.daconoco.gov/885/Water-Conservation"
     checked: "2026-09-25"
 published: "2026-09-25"
-updated: "2026-09-25"
+updated: "2026-10-16"
 related:
   services:
     - pet-turf
@@ -213,7 +213,7 @@ needsFromBrian:
   - "Whether you have installed a cooling infill here, and what its maker told you about wetting it."
 ---
 
-**Not legal advice:** the watering rules below come from each provider's own page or code as they read on September 25, 2026. Drought stages change, so each table row carries its recheck date.
+**Not legal advice:** the watering rules below come from each provider's own page or code as they read when last checked, between September 25 and October 16, 2026. Drought stages change, so each table row carries its recheck date.
 
 ## When does artificial turf actually need water?
 
@@ -232,21 +232,21 @@ None names artificial turf. Written for lawns and sprinklers, they split three w
 
 | Your water | 2026 rule | Hoses and hard surfaces | Recheck |
 |---|---|---|---|
-| [Johnstown](/areas/johnstown-co/) | Level 3, mandatory: 2 assigned days; no watering 10 a.m. to 6 p.m.; season ends October 15 | Hand watering on your day with an automatic shutoff nozzle; hardscapes "should not be spray-washed" | Oct 16, 2026 |
-| [Severance](/areas/severance-co/) Town water | Mandatory: 3 assigned days; no lawn watering December 1 to March 31 | No outside water at all 11 a.m. to 5 p.m.; flowers, shrubs and trees hand watered daily with a self-closing hose | Oct 24, 2026 |
-| [Milliken](/areas/milliken-co/) | No sprinklers 9 a.m. to 7 p.m. or Sundays; none automatic November 1 to March 1 | A hand-held hose with a positive shutoff nozzle is allowed every day | Oct 24, 2026 |
-| [Evans](/areas/evans-co/) | Drought emergency since April 21: nothing 10 a.m. to 6 p.m.; assigned days April 15 to October 15 | Code covers "sprinkling of lawns, gardens and trees"; hoses not named | Oct 16, 2026 |
-| [Firestone](/areas/firestone-co/) Town water | Mandatory Stage 1: lawn and landscape watering on address days; 6 p.m. to 10 a.m. recommended | Not mentioned | Oct 24, 2026 |
-| [Greeley](/areas/greeley-co/) | Adequate water year: nothing 10 a.m. to 6 p.m.; no lawn watering November 1 to April 14 without a variance | Not mentioned | Nov 1, 2026 |
-| [Windsor](/areas/windsor-co/) Town water | Code: no lawn watering 10 a.m. to 6 p.m., May 1 to September 30; no 2026 drought stage posted | No water through a hose "without nozzles or sprinklers attached" | Oct 24, 2026 |
-| Fort Collins Utilities ([Fort Collins](/areas/fort-collins-co/)) | Voluntary Watch from May 1: lawns 2 days, nothing 10 a.m. to 6 p.m. | Shutoff nozzle when hand watering; no citations | Oct 24, 2026 |
+| [Johnstown](/areas/johnstown-co/) | Level 3 in 2026: 2 assigned days and no watering 10 a.m. to 6 p.m. until the season ended October 15; since then, trees and shrubs by hand on weekends only | Hand watering on your day with an automatic shutoff nozzle; hardscapes "should not be spray-washed" | Nov 23, 2026 |
+| [Severance](/areas/severance-co/) Town water | Mandatory: 3 assigned days; no lawn watering December 1 to March 31 | No outside water at all 11 a.m. to 5 p.m.; flowers, shrubs and trees hand watered daily with a self-closing hose | Nov 15, 2026 |
+| [Milliken](/areas/milliken-co/) | No sprinklers 9 a.m. to 7 p.m. or Sundays; none automatic November 1 to March 1 | A hand-held hose with a positive shutoff nozzle is allowed every day | Nov 15, 2026 |
+| [Evans](/areas/evans-co/) | Drought emergency declared April 21: nothing 10 a.m. to 6 p.m. and assigned days, for a season that ran April 15 to October 15 | Code covers "sprinkling of lawns, gardens and trees"; hoses not named | Nov 15, 2026 |
+| [Firestone](/areas/firestone-co/) Town water | Mandatory Stage 1: lawn and landscape watering on address days; 6 p.m. to 10 a.m. recommended | Not mentioned | Nov 15, 2026 |
+| [Greeley](/areas/greeley-co/) | Adequate water year: nothing 10 a.m. to 6 p.m.; no lawn watering November 1 to April 14 without a variance | Not mentioned | Nov 22, 2026 |
+| [Windsor](/areas/windsor-co/) Town water | Code: no lawn watering 10 a.m. to 6 p.m., May 1 to September 30; no 2026 drought stage posted | No water through a hose "without nozzles or sprinklers attached" | Nov 15, 2026 |
+| Fort Collins Utilities ([Fort Collins](/areas/fort-collins-co/)) | Voluntary Watch from May 1: lawns 2 days, nothing 10 a.m. to 6 p.m. | Shutoff nozzle when hand watering; no citations | Nov 15, 2026 |
 | Fort Collins-Loveland Water District (parts of Fort Collins, [Loveland](/areas/loveland-co/), [Timnath](/areas/timnath-co/), Windsor) | Voluntary Watch; 2026 season over | Schedule is "only meant for turf irrigation," meaning grass; can't be enforced | Apr 15, 2027 |
-| North Weld County Water District ([Eaton](/areas/eaton-co/), Severance, north Windsor and Greeley, east Fort Collins) | Voluntary: 3 days at most, before 10 a.m. or after 6 p.m. | Positive shut-off nozzle; no pooling on patios or driveways | Oct 24, 2026 |
-| Loveland Water and Power | Voluntary in April: 3 days, nothing 10 a.m. to 6 p.m.; later status not confirmed | Not mentioned | Oct 24, 2026 |
+| North Weld County Water District ([Eaton](/areas/eaton-co/), Severance, north Windsor and Greeley, east Fort Collins) | Voluntary: 3 days at most, before 10 a.m. or after 6 p.m. | Positive shut-off nozzle; no pooling on patios or driveways | Nov 15, 2026 |
+| Loveland Water and Power | Voluntary in April: 3 days, nothing 10 a.m. to 6 p.m.; later status not confirmed | Not mentioned | Mar 1, 2027 |
 | ELCO Water District (north and east of Fort Collins) | Voluntary: lawns 2 days; nothing 10 a.m. to 6 p.m. | Keep sprinklers off sidewalks and driveways | Apr 15, 2027 |
-| [Wellington](/areas/wellington-co/) Town water | Guidelines: 7 p.m. to 8 a.m., April to October; grass 2 days | "No washing of outside paved or concrete areas" | Oct 24, 2026 |
-| Little Thompson Water District ([Mead](/areas/mead-co/), Barefoot Lakes, part of [Berthoud](/areas/berthoud-co/)) | Watch: before 10 a.m. or after 6 p.m., 3 days at most | Shut-off nozzle for car washing; dry methods on hard surfaces | Oct 24, 2026 |
-| Town of Berthoud, [Frederick](/areas/frederick-co/), [Longmont](/areas/longmont-co/), [Dacono](/areas/dacono-co/) | Nothing mandatory; Frederick asks for nothing 10 a.m. to 6 p.m., 3 days | Longmont suggests hand watering trees; others silent | Oct 24, 2026 |
+| [Wellington](/areas/wellington-co/) Town water | Guidelines: 7 p.m. to 8 a.m., April to October; grass 2 days | "No washing of outside paved or concrete areas" | Nov 15, 2026 |
+| Little Thompson Water District ([Mead](/areas/mead-co/), Barefoot Lakes, part of [Berthoud](/areas/berthoud-co/)) | Watch: before 10 a.m. or after 6 p.m., 3 days at most | Shut-off nozzle for car washing; dry methods on hard surfaces | Nov 15, 2026 |
+| Town of Berthoud, [Frederick](/areas/frederick-co/), [Longmont](/areas/longmont-co/), [Dacono](/areas/dacono-co/) | Nothing mandatory; Frederick asks for nothing 10 a.m. to 6 p.m., 3 days | Longmont suggests hand watering trees; others silent | Nov 15, 2026 |
 | Eaton Town water | Its 2026 page could not be read | Ask Eaton Town Hall | Not set |
 
 ## Can I rinse on a day that isn't my watering day?
@@ -255,14 +255,14 @@ Mostly, the rule doesn't say, so it depends on how your provider reads it:
 
 - **Milliken** defines hand-watering by the equipment, a hose held in the hand with a positive shutoff nozzle, not by what gets watered ([Town of Milliken](https://millikenco.gov/194/Watering-Schedule)). A turf rinse done that way fits the words, but turf isn't named; ask Town Hall.
 - **Severance** lists flowers, shrubs and trees for daily hand watering ([Town of Severance](https://www.townofseverance.org/396/Watering-Guidelines-and-Restrictions)). Turf isn't on the list; ask Severance Town Hall before an off-day rinse.
-- **Johnstown** wants hand watering on the property's scheduled day ([Johnstown water FAQs](https://www.johnstownco.gov/m/faq?cat=37)). Rinse on your day; ask the town's water conservation staff about any other.
+- **Johnstown** wants hand watering on the property's scheduled day, and since its season ended October 15 its FAQs list only weekend hand watering of trees and shrubs ([Johnstown water FAQs](https://www.johnstownco.gov/m/faq?cat=37)). Ask the town's water conservation staff before any rinse.
 - **Evans and Firestone** write their day schedules for lawns, gardens, trees and landscape ([Evans Municipal Code 13.04.200](https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT13PUSE_CH13.04UTDEWASY_13.04.200WACOME); [Town of Firestone](https://www.firestoneco.gov/1883/Current-Water-Conditions-Stage-1-Drought)). Neither mentions a hose; ask Evans Customer Service or Firestone's utility billing counter.
 
 One routine fits every rule in the table: rinse on your assigned day, inside your provider's allowed hours, with a nozzle that stops when you let go.
 
 ## What about rinsing turf in winter?
 
-The winter limits in the table name lawns and sprinklers: Severance's lawn ban, Greeley's variance rule ([City of Greeley](https://greeleyco.gov/government/city-administration/city-departments/water-and-sewer/save-water/restrictions-violations-variances)) and Milliken's stop on automatic sprinklers. Johnstown's schedule, once the season ends October 15, lists only hand watering of trees and shrubs on Saturdays and Sundays ([2026 schedule](https://www.johnstownco.gov/665/2026-Watering-Schedule)).
+The winter limits in the table name lawns and sprinklers: Severance's lawn ban, Greeley's variance rule ([City of Greeley](https://greeleyco.gov/government/city-administration/city-departments/water-and-sewer/save-water/restrictions-violations-variances)) and Milliken's stop on automatic sprinklers. Since Johnstown's season ended October 15, its FAQs allow only hand watering of trees and shrubs, on Saturdays and Sundays when it is above 40 degrees ([Johnstown water FAQs](https://www.johnstownco.gov/m/faq?cat=37)).
 
 None names artificial turf, yet a dog area can need a rinse after a thaw. It depends on the town; ask before a winter rinse. For trees, see [watering trees with artificial turf](/guides/watering-trees-with-artificial-turf/).
 

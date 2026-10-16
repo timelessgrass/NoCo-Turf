@@ -123,9 +123,9 @@ sources:
   - label: "Raindance Metropolitan District, Non-Potable Irrigation Water"
     url: "https://www.raindancemetrodistrict.org/non-potable-irrigation-water"
     checked: "2026-09-24"
-  - label: "Town of Johnstown, 2026 Watering Schedule"
-    url: "https://www.johnstownco.gov/665/2026-Watering-Schedule"
-    checked: "2026-09-24"
+  - label: "Town of Johnstown, 2026 Watering Schedule calendar (PDF)"
+    url: "https://www.johnstownco.gov/DocumentCenter/View/2348/2026-Johnstown-Watering-Schedule-Downloadable-PDF"
+    checked: "2026-10-16"
   - label: "Town of Severance, Watering Guidelines and Restrictions"
     url: "https://www.townofseverance.org/396/Watering-Guidelines-and-Restrictions"
     checked: "2026-09-24"
@@ -148,7 +148,7 @@ sources:
     url: "https://plantscience.psu.edu/research/centers/ssrc/documents/temperature-irrigation.pdf"
     checked: "2026-09-25"
 published: "2026-09-25"
-updated: "2026-09-25"
+updated: "2026-10-16"
 related:
   services:
     - artificial-turf-installation
@@ -225,7 +225,7 @@ A kept zone is still a live zone, with a valve, a backflow preventer and a fall 
 
 | Where your water comes from | 2026 rule for the zones that stay | Help with them |
 |---|---|---|
-| [Johnstown](/areas/johnstown-co/) | Level 3: 2 assigned days a week, none from 10 a.m. to 6 p.m.; outdoor season ends October 15 | None listed |
+| [Johnstown](/areas/johnstown-co/) | Level 3: 2 assigned days a week, none from 10 a.m. to 6 p.m., until the outdoor season ended October 15; since then, trees and shrubs by hand on weekends only | None listed |
 | [Severance](/areas/severance-co/) | Standing schedule: 3 assigned days, none from 11 a.m. to 5 p.m.; no lawn watering December 1 through March 31 | None listed |
 | [Windsor](/areas/windsor-co/) Town water | No watering from 10 a.m. to 6 p.m.; no 2026 drought stage posted | Homeowner backflow testing is voluntary |
 | Fort Collins-Loveland Water District (parts of [Fort Collins](/areas/fort-collins-co/), [Loveland](/areas/loveland-co/), Timnath and Windsor) | Voluntary Water Shortage Watch; its 2026 outdoor season has ended | Free 75-minute Slow the Flow sprinkler evaluation; $100 bill credit for a WaterSense smart controller bought in 2026 (receipt by November 30) |

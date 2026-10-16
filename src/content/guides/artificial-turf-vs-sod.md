@@ -17,7 +17,7 @@ answer:
   answer: "Sod for a sunny lawn, a big tree's root zone, or a front yard your town or HOA wants living, if you can keep it moist for three weeks. Turf where grass keeps wearing out, is hard to water or mow, or watering rules block new sod. Over time, sod needs water and weekly work; turf doesn't, but wears out."
 faq:
   - q: "Is seed easier than sod to get through watering limits?"
-    a: "Usually not. CSU Extension says bluegrass seed needs light watering, a minute or two several times a day, through a 21-day germination period, and then it still has to fill in. In Johnstown the New Lawn Permit covers seed and sod alike; the application asks which one you are planting."
+    a: "Usually not. CSU Extension says bluegrass seed needs light watering, a minute or two several times a day, through a 21-day germination period, and then it still has to fill in. In Johnstown the 2026 New Lawn Permit covered seed and sod alike; the application asked which one you were planting."
   - q: "Is there a rebate for new sod or for artificial turf?"
     a: "No Northern Colorado program we checked pays for artificial turf, and the lawn-replacement rebates pay to take lawn out, not to put it in. Windsor's 2026 rebate, for example, pays for front-yard lawn replaced with living plants and says artificial turf is not eligible. Our [rebates guide](/guides/turf-rebates-northern-colorado/) quotes each program."
   - q: "Will Colorado law stop me from putting in new sod?"
@@ -100,12 +100,15 @@ sources:
   - label: "CSU Extension PlantTalk Colorado 1550, Rejuvenating an Existing Lawn"
     url: "https://planttalk.colostate.edu/topics/lawns/1550-rejuvenating-existing-lawn/"
     checked: "2026-09-25"
-  - label: "Town of Johnstown, New Lawn Permit (2026 program page and application form, quoting Municipal Code Sec. 13-151(c)(6))"
+  - label: "Town of Johnstown, 2026 New Lawn Permit page and application form (read September 25, 2026; taken down after the season)"
     url: "https://www.johnstownco.gov/689/New-Lawn-Permit"
     checked: "2026-09-25"
-  - label: "Town of Johnstown, 2026 Watering Schedule"
-    url: "https://www.johnstownco.gov/665/2026-Watering-Schedule"
-    checked: "2026-09-24"
+  - label: "Johnstown Municipal Code Sec. 13-151, Levels of water conservation (eCode360)"
+    url: "https://ecode360.com/48626381"
+    checked: "2026-10-16"
+  - label: "Town of Johnstown, 2026 Watering Schedule calendar (PDF)"
+    url: "https://www.johnstownco.gov/DocumentCenter/View/2348/2026-Johnstown-Watering-Schedule-Downloadable-PDF"
+    checked: "2026-10-16"
   - label: "Town of Severance, Watering Guidelines and Restrictions"
     url: "https://www.townofseverance.org/396/Watering-Guidelines-and-Restrictions"
     checked: "2026-09-25"
@@ -143,7 +146,7 @@ sources:
     url: "https://www.windsorco.gov/1451/Lawn-Replacement-Program"
     checked: "2026-09-24"
 published: "2026-09-25"
-updated: "2026-09-25"
+updated: "2026-10-16"
 related:
   services:
     - artificial-turf-installation
@@ -188,13 +191,13 @@ A schedule of assigned days can't keep sod moist for three weeks, so these towns
 
 | Town | 2026 watering rule | What a new lawn gets | Where it stops |
 |---|---|---|---|
-| Johnstown | Level 3: 2 assigned days a week, no watering from 10 a.m. to 6 p.m. | A Town New Lawn Permit, which the municipal code requires before newly planted grass is watered. It lifts the assigned days, not the 10-to-6 ban, and expires 45 days after installation | Applications close October 12, 2026. No lawn may be established after October 15, when watering drops to hand-watering trees and shrubs |
+| Johnstown | Level 3 until the season ended October 15: 2 assigned days a week, no watering from 10 a.m. to 6 p.m. | A Town New Lawn Permit, which the municipal code requires before newly planted grass is watered. The 2026 permit lifted the assigned days, not the 10-to-6 ban, and expired 45 days after installation | Applications closed October 12, 2026, and no lawn could be established after October 15; from then through April 15 the code allows only hand-watering of trees and shrubs |
 | Severance | Standing schedule: 3 assigned days, no watering from 11 a.m. to 5 p.m. | A variance from the Town Manager for establishing a new lawn, requested at Town Hall | No lawn watering from December 1 through March 31 |
 | Fort Collins | Voluntary Water Shortage Watch, still the posted level on September 25: lawns 2 days and 1 inch of water a week, not from 10 a.m. to 6 p.m. | Nothing to apply for while the Watch is voluntary. Under mandatory restrictions, exception permits cover new seed and sod | The exception permits are posted for use only if mandatory restrictions begin |
 
 What that means on the ground:
 
-- **Johnstown.** Even with the permit, July sod gets no water in the heat of the day ([Town of Johnstown](https://www.johnstownco.gov/689/New-Lawn-Permit)), and late sod can't get the winter water CSU says it needs.
+- **Johnstown.** Even with the 2026 permit, July sod got no water in the heat of the day, and the town code allows no lawn watering from October 15 through April 15, so late sod can't get the winter water CSU says it needs ([Johnstown code](https://ecode360.com/48626381)).
 - **Severance.** Lawn watering ends November 30, so late-fall sod goes into winter on whatever water it got by then unless the Town grants a variance; ask Town Hall before you order ([Town of Severance](https://www.townofseverance.org/396/Watering-Guidelines-and-Restrictions)). The schedule doesn't apply to approved non-potable systems or North Weld County Water District systems, so check which one waters your lot.
 - **Fort Collins.** The Watch covers Fort Collins Utilities customers, and grass irrigated with well or raw water is exempt ([Fort Collins Utilities](https://www.fortcollins.gov/Services/Utilities/Programs-and-Rebates/Water-Programs)). If another provider serves your lot, ask it.
 

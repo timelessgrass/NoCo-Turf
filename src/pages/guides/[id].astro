@@ -155,6 +155,10 @@ if (isWater) {
   };
 }
 const graph = [article, ...(dataset ? [dataset] : []), ...faqGraph(faq)];
+/* A guide written ahead and published later (the weekly queue) must not claim its sources were read on the
+   publish day: the sources line uses the day they were last checked when that is earlier than `updated`. */
+const lastChecked = d.sources.map((x) => x.checked).sort().at(-1);
+const sourcesRead = lastChecked && lastChecked < d.updated ? lastChecked : d.updated;
 ---
 <Base title={d.title} description={d.description} crumbs={crumbs} graph={graph} draft={g.draft}>
   <PageHero label={siblings.length > 1 ? `${kind} · ${topic.label} · ${pad(index + 1)} of ${pad(siblings.length)}` : `${kind} · ${topic.label}`} crumbs={crumbs} lede={smart(d.description)} compact>
@@ -257,7 +261,7 @@ const graph = [article, ...(dataset ? [dataset] : []), ...faqGraph(faq)];
         <section class="gpart gpart--src" id="sources" aria-labelledby="sources-h">
           <p class="label">Sources</p>
           <h2 id="sources-h" class="gpart__h">Where this comes from.</h2>
-          <p class="gpart__lede">{legal && <strong>Not legal advice. </strong>}This page reflects its sources as they read on {long(d.updated)}. Rules, rates and programs change; each link goes to the public source it came from.</p>
+          <p class="gpart__lede">{legal && <strong>Not legal advice. </strong>}This page reflects its sources as they read on {long(sourcesRead)}. Rules, rates and programs change; each link goes to the public source it came from.</p>
           <Sources sources={d.sources} title="Show every source" />
         </section>
 

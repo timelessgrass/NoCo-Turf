@@ -21,7 +21,7 @@ faq:
   - q: "What happens to turf rolls left out in the cold?"
     a: "Synthetic Grass Warehouse, a turf supplier, says freezing temperatures can leave flat spots in a stored roll, and that a roll kept outside should be turned now and then. For a winter job, ask where the rolls will sit until install day."
   - q: "When do Northern Colorado lawn-watering seasons end?"
-    a: "It depends on the provider and the year. In 2026, Johnstown's outdoor watering season ends October 15, Greeley's normal watering guidelines run through October 31, and Fort Collins-Loveland Water District says its season has already ended. Those dates decide whether new sod can be watered in; artificial turf needs no water to establish."
+    a: "It depends on the provider and the year. In 2026, Johnstown's outdoor watering season ended October 15, Greeley's normal watering guidelines run through October 31, and Fort Collins-Loveland Water District says its season has already ended. Those dates decide whether new sod can be watered in; artificial turf needs no water to establish."
   - q: "Why can turf look wavy after a cold-weather install?"
     a: "Synthetic Grass Warehouse says turf expands and contracts as the temperature rises through the day, so turf laid on a cold morning can move by afternoon."
   - q: "Where can I look up freeze dates for my town?"
@@ -109,12 +109,12 @@ sources:
   - label: "CSU Extension, PlantTalk Colorado 1517: Sodding a Lawn"
     url: "https://planttalk.colostate.edu/topics/lawns/1517-sodding-lawn/"
     checked: "2026-09-25"
-  - label: "Town of Johnstown, 2026 New Lawn Permit"
+  - label: "Town of Johnstown, 2026 New Lawn Permit page (read September 25, 2026; taken down after the season)"
     url: "https://www.johnstownco.gov/689/New-Lawn-Permit"
     checked: "2026-09-25"
-  - label: "Town of Johnstown, 2026 Watering Schedule"
-    url: "https://www.johnstownco.gov/665/2026-Watering-Schedule"
-    checked: "2026-09-24"
+  - label: "Town of Johnstown, 2026 Watering Schedule calendar (PDF)"
+    url: "https://www.johnstownco.gov/DocumentCenter/View/2348/2026-Johnstown-Watering-Schedule-Downloadable-PDF"
+    checked: "2026-10-16"
   - label: "City of Greeley news release, April 17, 2026: adequate water year"
     url: "https://greeleyco.gov/news/2026/20260417-greeley-water-and-sewer-board-declares-adequate-water-year-urges-wise-stewardship/"
     checked: "2026-09-24"
@@ -134,7 +134,7 @@ sources:
     url: "https://trends.google.com/trends/explore?geo=US-CO&q=artificial%20turf&date=today%205-y"
     checked: "2026-09-25"
 published: "2026-09-25"
-updated: "2026-09-25"
+updated: "2026-10-16"
 related:
   services:
     - artificial-turf-installation
@@ -223,7 +223,7 @@ No, but heat changes how the seams are handled. SRW advises peeling a seam back 
 
 Because turf doesn't have to root. CSU Extension's PlantTalk Colorado says new sod should be well rooted within two to three weeks, kept moist until then, and "well established before freezing temperatures in the fall" ([PlantTalk Colorado](https://planttalk.colostate.edu/topics/lawns/1517-sodding-lawn/)). With the first fall freeze by early October in half of years, a late-September sod job is close to the line.
 
-Some towns close the door for sod outright. Johnstown's 2026 New Lawn Permit says that regardless of the permit, "no turf establishment shall occur after October 15th," meaning a live lawn, and applications close October 12, 2026 ([Town of Johnstown](https://www.johnstownco.gov/689/New-Lawn-Permit)). Johnstown's outdoor watering season, on its Level 3 drought schedule, also ends October 15 ([2026 Watering Schedule](https://www.johnstownco.gov/665/2026-Watering-Schedule)). Not legal advice: the rules are Johnstown's for 2026, and next year's may differ.
+Some towns close the door for sod outright. Johnstown's 2026 New Lawn Permit said that regardless of the permit, "no turf establishment shall occur after October 15th," meaning a live lawn, and applications closed October 12, 2026. Johnstown's outdoor watering season, on its Level 3 drought schedule, also ended October 15 ([2026 Watering Schedule](https://www.johnstownco.gov/DocumentCenter/View/2348/2026-Johnstown-Watering-Schedule-Downloadable-PDF)). Not legal advice: the rules are Johnstown's for 2026, and next year's may differ.
 
 Artificial turf needs none of that. October is dry at Fort Collins, 1.25 inches in an average year, and fewer people are searching for turf. Seams still get workable afternoons until November shortens them. If you're weighing the two, see [artificial turf vs sod](/guides/artificial-turf-vs-sod/).
 

@@ -79,9 +79,9 @@ sources:
   - label: "City of Fort Collins news release, April 30, 2026: Voluntary Water Shortage Watch"
     url: "https://www.fortcollins.gov/News-Articles/News/2026-Q2/Voluntary-Water-Shortage-Watch"
     checked: "2026-09-24"
-  - label: "Town of Johnstown, 2026 Watering Schedule"
-    url: "https://www.johnstownco.gov/665/2026-Watering-Schedule"
-    checked: "2026-09-25"
+  - label: "Town of Johnstown, 2026 Watering Schedule calendar (PDF)"
+    url: "https://www.johnstownco.gov/DocumentCenter/View/2348/2026-Johnstown-Watering-Schedule-Downloadable-PDF"
+    checked: "2026-10-16"
   - label: "Colorado Department of Public Health and Environment, Lawn and garden equipment requirements"
     url: "https://cdphe.colorado.gov/emissions-from-business-and-industry/lawn-and-garden-equipment-requirements"
     checked: "2026-09-25"
@@ -137,7 +137,7 @@ sources:
     url: "https://resourcecentral.org/lawn/"
     checked: "2026-09-24"
 published: "2026-09-25"
-updated: "2026-09-25"
+updated: "2026-10-16"
 related:
   services: []
   towns:
@@ -159,7 +159,7 @@ Both choices cost something. This page counts each side, with Northern Colorado 
 Mostly water, and the water here travels a long way.
 
 - **Water.** Fort Collins classes Kentucky bluegrass as a high-water grass, one that needs 10 or more gallons of supplemental water per square foot each season ([City of Fort Collins](https://ourcity.fcgov.com/xsa)). Statewide, cities and towns use less than 10% of Colorado's water, but landscape watering is half or more of what they use ([The Colorado Sun](https://coloradosun.com/2023/10/10/colorado-cities-turf-bans-grass-removal/)).
-- **Where it comes from.** Many of the region's towns get part of their water from the Colorado-Big Thompson Project: West Slope snowmelt sent through a tunnel under the Continental Divide to more than 1.1 million people in a region that gets only about 14.5 inches of precipitation a year ([Northern Water](https://www.northernwater.org/what-we-do/deliver-water/colorado-big-thompson-project)). Northern Water set the 2026 quota at 0.8 acre-feet per unit ([City of Greeley](https://greeleyco.gov/news/2026/20260417-greeley-water-and-sewer-board-declares-adequate-water-year-urges-wise-stewardship/)), and providers asked lawns to take less: Fort Collins declared a voluntary Water Shortage Watch asking residents to water lawns no more than 2 days a week ([City of Fort Collins](https://www.fortcollins.gov/News-Articles/News/2026-Q2/Voluntary-Water-Shortage-Watch)), and Johnstown's Level 3 schedule ends outdoor watering on October 15 ([Town of Johnstown](https://www.johnstownco.gov/665/2026-Watering-Schedule)).
+- **Where it comes from.** Many of the region's towns get part of their water from the Colorado-Big Thompson Project: West Slope snowmelt sent through a tunnel under the Continental Divide to more than 1.1 million people in a region that gets only about 14.5 inches of precipitation a year ([Northern Water](https://www.northernwater.org/what-we-do/deliver-water/colorado-big-thompson-project)). Northern Water set the 2026 quota at 0.8 acre-feet per unit ([City of Greeley](https://greeleyco.gov/news/2026/20260417-greeley-water-and-sewer-board-declares-adequate-water-year-urges-wise-stewardship/)), and providers asked lawns to take less: Fort Collins declared a voluntary Water Shortage Watch asking residents to water lawns no more than 2 days a week ([City of Fort Collins](https://www.fortcollins.gov/News-Articles/News/2026-Q2/Voluntary-Water-Shortage-Watch)), and Johnstown's Level 3 schedule ended outdoor watering on October 15 ([Town of Johnstown](https://www.johnstownco.gov/DocumentCenter/View/2348/2026-Johnstown-Watering-Schedule-Downloadable-PDF)).
 - **Mowing.** Colorado's health department estimates that, left unregulated, gas-powered lawn and garden equipment would produce about 11% of the emissions that form ground-level ozone in the northern Front Range in 2026 ([CDPHE](https://cdphe.colorado.gov/emissions-from-business-and-industry/lawn-and-garden-equipment-requirements)). The state already keeps government crews' small gas equipment parked from June 1 to August 31, and in November 2026 its Air Quality Control Commission considers extending that rule to commercial lawn equipment.
 - **Fertilizer and weed killer.** CSU Extension's schedule for a high-maintenance bluegrass lawn calls for nitrogen four times a year, usually about a pound per 1,000 square feet each time ([CMG GardenNotes #551](https://cmg.extension.colostate.edu/Gardennotes/551.pdf)). CSU puts the blame for lawn water pollution on how a lawn is managed, not on the lawn itself: fertilizer and pesticides that land on driveways and streets wash down the gutter into lakes and streams, untreated.
 

@@ -100,16 +100,16 @@
     "id": "does-artificial-turf-attract-bugs.larimer-dashboard-2026",
     "layer": "county",
     "applies_to": ["fort-collins-co", "loveland-co", "timnath-co", "wellington-co", "berthoud-co", "windsor-co", "johnstown-co"],
-    "fact": "Larimer County's West Nile dashboard reported 5 confirmed human cases and 3 hospitalizations for the 2026 season as of September 23, 2026, and draws a 1-mile radius around each positive mosquito trap as the immediate risk area.",
-    "quote": "As of September 23, 2026, we are reporting 5 confirmed human cases and 3 WNV related hospitalizations for the 2026 season. … There is a 1 mile radius (highlighted in red) from a mosquito trap which represents the immediate risk of being bitten by a mosquito infected with WNV.",
+    "fact": "Larimer County's West Nile dashboard reported 8 confirmed human cases and 4 hospitalizations for the 2026 season as of October 14, 2026, and draws a 1-mile radius around each positive mosquito trap as the immediate risk area.",
+    "quote": "As of October 14, 2026, we are reporting 8 confirmed human cases and 4 WNV related hospitalizations for the 2026 season. … There is a 1 mile radius (highlighted in red) from a mosquito trap which represents the immediate risk of being bitten by a mosquito infected with WNV.",
     "source_url": "https://apps.larimer.org/api/health/west-nile/",
-    "source_label": "Larimer County West Nile Virus Surveillance Dashboard (as of Sept. 23, 2026)",
-    "checked": "2026-09-25",
+    "source_label": "Larimer County West Nile Virus Surveillance Dashboard (as of Oct. 14, 2026)",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-11-02",
-    "numbers": ["5", "3", "2026", "23", "1"],
-    "notes": "Read in a browser (the case graph renders by script). Same page: 6 positive traps of 49 for week 38; the final week of trapping was Sept. 7-11. Update the case count once the season closes."
+    "recheck": "2026-11-23",
+    "numbers": ["8", "4", "2026", "14", "1"],
+    "notes": "Re-read 2026-10-16 from the dashboard HTML (the counts sit in its Human Case Data tab). The dashboard says Sept. 7 - 11 was the final week of mosquito surveillance for 2026 and updates begin again in early June 2027; confirmed cases can still be added. On 2026-09-25 it read 5 cases and 3 hospitalizations as of Sept. 23."
   },
   {
     "id": "does-artificial-turf-attract-bugs.larimer-2003-every-year",

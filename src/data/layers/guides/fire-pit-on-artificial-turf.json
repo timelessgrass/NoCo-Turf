@@ -91,10 +91,10 @@
     "quote": "The City of Fort Collins is in Stage 1 Fire Restrictions as of May 18, 2026. These will be in place until rescinded.",
     "source_url": "https://www.poudre-fire.org/programs-services/current-fire-bans-and-restrictions",
     "source_label": "Poudre Fire Authority, Current Fire Bans and Restrictions",
-    "checked": "2026-09-25",
+    "checked": "2026-10-16",
     "reachable": false,
     "status": "VERIFIED",
-    "recheck": "2026-10-25",
+    "recheck": "2026-11-15",
     "numbers": [
       "1",
       "18",
@@ -112,10 +112,10 @@
     "quote": "When Stage 1 fire restrictions are in place it shall be unlawful for any person to start, build, maintain, attend, or use an open fire or conduct open burning on public, private, state or federal lands within the City, except for the following activities: (1) fires within liquid- or gas-fueled appliances, including portable fireplaces, fire pits, grills, smokers, camp stoves, portable heaters, and tiki torches; and fires in permanently constructed, liquid-fueled or gas-fueled stationary masonry or metal fireplaces specifically designed for the purpose of combustion; (2) fires using clean, dry untreated wood, wood pellets, or charcoal within portable, solid-fuel burning fireplaces, fire pits, chimineas or other containers that are approved for such use and used for non-commercial or recreational purposes; and solid fuel grills or food smokers (commercial or non-commercial);",
     "source_url": "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH9FIPRPR_ARTIIOPFIBURE_S9-25ST1FIREPRPEAC",
     "source_label": "Fort Collins Municipal Code Sec. 9-25, Stage 1 fire restrictions (Ord. No. 085, 2023; Supplement 155)",
-    "checked": "2026-09-25",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-12-24",
+    "recheck": "2027-01-14",
     "numbers": [
       "9",
       "25",
@@ -164,20 +164,20 @@
       "windsor-co",
       "johnstown-co"
     ],
-    "fact": "On September 25, 2026, Larimer County's fire danger page said Stage 1 restrictions were in effect throughout unincorporated Larimer County, and that the county's restrictions cover unincorporated areas while cities and towns post their own.",
+    "fact": "On October 16, 2026, Larimer County's fire danger page said Stage 1 restrictions were in effect throughout unincorporated Larimer County, and that the county's restrictions cover unincorporated areas while cities and towns post their own.",
     "quote": "Information about Larimer County’s fire restrictions for unincorporated areas. … For information on the conditions of federal land or municipalities, please visit their websites. … Stage 1 Restrictions Are In Effect Throughout Unincorporated Larimer County",
     "source_url": "https://www.larimer.gov/emergency/mitigating-against-hazards/larimer-county-fire-restrictions-bans",
     "source_label": "Larimer County, Fire Restrictions and Bans (the county's Fire Danger page)",
-    "checked": "2026-09-25",
+    "checked": "2026-10-16",
     "reachable": false,
     "status": "VERIFIED",
-    "recheck": "2026-10-25",
+    "recheck": "2026-11-16",
     "numbers": [
       "1",
-      "25",
+      "16",
       "2026"
     ],
-    "notes": "larimer.gov returns 403 to curl; in a browser the URL redirects to an ArcGIS Experience page (experience.arcgis.com/experience/4cdd565d89044505b9e41042222e4e7c). Read in the browser and in the page's published configuration on 2026-09-25. Recheck monthly; stages change with the weather."
+    "notes": "larimer.gov returns 403 to curl; in a browser the URL redirects to an ArcGIS Experience 'Fire Danger' page (experience.arcgis.com/experience/4cdd565d89044505b9e41042222e4e7c). Re-read 2026-10-16 in a browser (Stage 1 in all three elevation bands) and in the page's published configuration (arcgis.com/sharing/rest/content/items/4cdd565d89044505b9e41042222e4e7c/data), which holds all three quoted lines. Recheck monthly; stages change with the weather."
   },
   {
     "id": "fire-pit-on-artificial-turf.larimer-stages-explained",

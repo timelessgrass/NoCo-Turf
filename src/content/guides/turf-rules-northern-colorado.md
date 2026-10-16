@@ -117,9 +117,9 @@ sources:
   - label: "Platteville Code of Ordinances Sec. 7-1-30(s) (codified through Ord. No. 2025-851, Dec. 16, 2025)"
     url: "https://library.municode.com/co/platteville/codes/code_of_ordinances?nodeId=CH7HESAAN_ARTINU_S7-1-30ENNU"
     checked: "2026-09-24"
-  - label: "Town of Johnstown, New Lawn Permit (quoting Municipal Code Sec. 13-151(c)(6))"
-    url: "https://www.johnstownco.gov/689/New-Lawn-Permit"
-    checked: "2026-09-24"
+  - label: "Johnstown Municipal Code Sec. 13-151, Levels of water conservation (eCode360)"
+    url: "https://ecode360.com/48626381"
+    checked: "2026-10-16"
   - label: "Berthoud Code of Ordinances on Municode (codified through Ord. No. 1367, Nov. 10, 2025)"
     url: "https://library.municode.com/co/berthoud/codes/code_of_ordinances"
     checked: "2026-09-24"
@@ -172,7 +172,7 @@ sources:
     url: "https://library.municode.com/co/weld_county/codes/charter_and_county_code"
     checked: "2026-09-24"
 published: "2026-09-24"
-updated: "2026-09-25"
+updated: "2026-10-16"
 related:
   services:
     - artificial-turf-installation
@@ -234,7 +234,7 @@ We read each town's published code on September 24 and 25, 2026. "No provision f
 | Greeley | In new development, artificial turf is acceptable as ground cover only where it is not visible from public rights-of-way and streets ([Sec. 24-802](https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH8LAST_S24-802LADE)). City staff put the current rule plainly: artificial turf is prohibited in front yards of houses. | Front yard: not allowed today. Out of view from the street: allowed. A draft change would allow front-yard turf with a permit, trees and live plantings, and an installer who is licensed or certified; as of September 24, 2026 no ordinance had been adopted. |
 | Platteville | Artificial turf not installed professionally to the manufacturer's specifications, such as loose seams, unfastened edges, no aggregate base or waves, is a public nuisance ([Sec. 7-1-30(s)](https://library.municode.com/co/platteville/codes/code_of_ordinances?nodeId=CH7HESAAN_ARTINU_S7-1-30ENNU)). | Applies to every property. |
 | Timnath | Since Ordinance No. 28, Series 2025, adopted December 9, 2025, no artificial turf may be included in any landscape plan or installed; the Community Development Director may allow it only on an athletic field of play ([Land Use Code 5.7.7.1, Ord. 28](https://library.municode.com/co/timnath/ordinances/municipal_code?nodeId=1412646)). | A building permit for a detached single-family lot needs no landscape plan, and landscaping there is only encouraged to follow the section. Whether the turf line reaches a backyard is the Town's call, so ask Timnath Planning. |
-| Johnstown | Since January 1, 2026, nonfunctional artificial turf is barred in new development and redevelopment on rights-of-way, commercial, institutional and industrial property and common interest community property, with multifamily property named for January 1, 2028 ([Sec. 17-8-2(E), Ord. 2025-279](https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=863,plainText=false))). Newly planted grass may be watered only under a town permit, a rule about live lawns ([Sec. 13-151(c)(6)](https://www.johnstownco.gov/689/New-Lawn-Permit)). | In single-family rear yards on lots platted on or after January 1, 2024, turf and spray-irrigated areas are capped at 50% of the yard, up to 2,000 square feet; the code doesn't say whether artificial turf counts ([Sec. 17-8-4](https://www.johnstownco.gov/DocumentCenter/View/1403/Land-Use-And-Development-Code)). Ask Johnstown Planning. |
+| Johnstown | Since January 1, 2026, nonfunctional artificial turf is barred in new development and redevelopment on rights-of-way, commercial, institutional and industrial property and common interest community property, with multifamily property named for January 1, 2028 ([Sec. 17-8-2(E), Ord. 2025-279](https://johnstownco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=863,plainText=false))). At water conservation Levels 2 and 3, newly planted grass may be watered only under a town permit, a rule about live lawns ([Sec. 13-151](https://ecode360.com/48626381)). | In single-family rear yards on lots platted on or after January 1, 2024, turf and spray-irrigated areas are capped at 50% of the yard, up to 2,000 square feet; the code doesn't say whether artificial turf counts ([Sec. 17-8-4](https://www.johnstownco.gov/DocumentCenter/View/1403/Land-Use-And-Development-Code)). Ask Johnstown Planning. |
 | Berthoud | No artificial-turf provision found ([code codified through Ord. 1367, Nov. 10, 2025](https://library.municode.com/co/berthoud/codes/code_of_ordinances)). | No town rule found. |
 | Firestone | A town permit comes first, with no fee for single-family homes. Turf is limited to 75% of the rear or side yard, with at least 25% of the yard left as permeable living or organic landscape; 75% of the front yard and 50% of the combined side and rear yards must be live plants, which turf can't count toward. Products need a 1.75 to 3 inch pile, at least 70 ounces of face weight, a compacted porous aggregate base at least 3 inches deep, and no crumb rubber ([Development Code 16.6.4](https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE)). | Applies to existing lots too. In practice the live-plant rule may hold turf to about half of the side and rear yards. |
 | Mead | No artificial-turf provision found, but the online code runs only through April 14, 2025, so a newer ordinance would not show ([Mead code](https://library.municode.com/co/mead/codes/municipal_code)). | No town rule found; ask the Town of Mead about anything adopted since. |

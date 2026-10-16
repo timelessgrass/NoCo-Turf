@@ -41,6 +41,7 @@ layerRefs:
   - artificial-turf-on-acreage-lots.csfs-hiz-zones
   - ltwd-allotment-overage-2026
   - is-artificial-turf-flammable.co-sb23-166-wrc
+  - colorado-wildfire-code-and-artificial-turf.sb25-142-nine-months
   - is-artificial-turf-flammable.larimer-wrc-adopted
   - is-artificial-turf-flammable.larimer-wrc-all-unincorporated
   - is-artificial-turf-flammable.larimer-wrc-zone-1
@@ -86,6 +87,9 @@ sources:
   - label: "SB23-166, Establishment of a Wildfire Resiliency Code Board (bill summary), Colorado General Assembly"
     url: "https://leg.colorado.gov/bills/sb23-166"
     checked: "2026-09-26"
+  - label: "SB25-142, Concerning Changes to the Wildfire Resiliency Code Board's Code Implementation Requirements, bill summary as enacted (signed June 3, 2025), Colorado General Assembly"
+    url: "https://leg.colorado.gov/bills/sb25-142"
+    checked: "2026-10-16"
   - label: "Larimer County, Building Codes (2025 Wildfire Resiliency Code, effective January 1, 2026)"
     url: "https://www.larimer.gov/building/building/codes"
     checked: "2026-09-26"
@@ -135,7 +139,7 @@ sources:
     url: "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/"
     checked: "2026-09-25"
 published: "2026-09-26"
-updated: "2026-09-26"
+updated: "2026-10-16"
 related:
   services:
     - artificial-turf-installation
@@ -191,7 +195,7 @@ Draw each use at its real size and join them into one or two shapes: turf that f
 
 ## What do wildfire rules say about the ground next to the house?
 
-CSFS counts a home in or near grasslands, shrublands, foothills or mountains as wildland-urban interface, plains acreage included. Under [SB23-166](https://leg.colorado.gov/bills/sb23-166), a state board adopts a minimum wildfire code, and a county or town with interface land and building- or fire-code authority must adopt one that meets or exceeds it within 3 months. The two counties differ:
+CSFS counts a home in or near grasslands, shrublands, foothills or mountains as wildland-urban interface, plains acreage included. Under [SB23-166](https://leg.colorado.gov/bills/sb23-166), a state board adopts a minimum wildfire code, and a county or town with interface land and building- or fire-code authority must adopt one that meets or exceeds it. The law first gave them 3 months; [SB25-142](https://leg.colorado.gov/bills/sb25-142) gave cities and towns 9 months instead. The two counties differ:
 
 - **Larimer County** adopted its amended code on September 22, 2025, effective January 1, 2026 ([building codes](https://www.larimer.gov/building/building/codes)), and deems all of unincorporated Larimer County wildland-urban interface. The first 5 feet around a structure and its decks take "noncombustible, hard surface materials" such as rock, gravel, sand, concrete, bare earth or pavers; the county struck the state exception for ignition-resistant plantings ([amended code](https://www.larimer.gov/sites/default/files/2025-wildfire-resiliency-code-w-lc-amendments.pdf)). Conditions that were legal at adoption may continue, so the code matters most when you build a house or an addition. Whether it reaches turf added beside an existing house is unsettled: ask Larimer County's building office first.
 - **Weld County** enforces the state code from July 1, 2026, but only on parcels the state map designates outside town limits and outside a fire protection district, and exempts a parcel of 35 acres or more with one house that doesn't abut a residential or commercial area ([Sec. 7-1-10](https://library.municode.com/co/weld_county/codes/charter_and_county_code?nodeId=CH7ADMISTCO_ARTICOWIRECO_S7-1-10ADCOWIRECOEFDAAP)). It depends on your parcel: ask Weld County's Building Department.

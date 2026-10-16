@@ -154,9 +154,9 @@ sources:
   - label: "City of Fort Collins news release, April 30, 2026"
     url: "https://www.fortcollins.gov/News-Articles/News/2026-Q2/Voluntary-Water-Shortage-Watch"
     checked: "2026-09-24"
-  - label: "Town of Johnstown, 2026 Watering Schedule"
-    url: "https://www.johnstownco.gov/665/2026-Watering-Schedule"
-    checked: "2026-09-24"
+  - label: "Town of Johnstown, 2026 Watering Schedule calendar (PDF)"
+    url: "https://www.johnstownco.gov/DocumentCenter/View/2348/2026-Johnstown-Watering-Schedule-Downloadable-PDF"
+    checked: "2026-10-16"
   - label: "John M. Perry, P.E. (Gale Associates), Alternative Infills for Synthetic Turf Fields, Facilities Manager (APPA), January/February 2019"
     url: "https://galeassociates.com/wp-content/uploads/2019/02/Alternative-Infills-for-Synthetic-Turf-Fields-JMP.pdf"
     checked: "2026-09-25"
@@ -176,7 +176,7 @@ sources:
     url: "https://web.archive.org/web/20260326043412/https://dtsc.ca.gov/wp-content/uploads/sites/31/2026/02/TechnicalDocument_PFASs-in-Artificial-Turf_accessible.pdf"
     checked: "2026-09-25"
 published: "2026-09-25"
-updated: "2026-09-25"
+updated: "2026-10-16"
 related:
   services:
     - commercial-turf
@@ -253,7 +253,7 @@ Mead High School's head football coach said in 2021 that they had recorded 130 d
 
 Water limits the rinsing:
 
-- **The supply.** The 2026 Colorado-Big Thompson quota is 0.8 acre-feet per unit ([City of Greeley](https://greeleyco.gov/news/2026/20260417-greeley-water-and-sewer-board-declares-adequate-water-year-urges-wise-stewardship/)). Fort Collins's voluntary Water Shortage Watch asks for lawn watering two days a week at most, never 10 a.m. to 6 p.m. ([City of Fort Collins](https://www.fortcollins.gov/News-Articles/News/2026-Q2/Voluntary-Water-Shortage-Watch)); [Johnstown](/areas/johnstown-co/)'s Level 3 schedule bars the same hours ([Town of Johnstown](https://www.johnstownco.gov/665/2026-Watering-Schedule)).
+- **The supply.** The 2026 Colorado-Big Thompson quota is 0.8 acre-feet per unit ([City of Greeley](https://greeleyco.gov/news/2026/20260417-greeley-water-and-sewer-board-declares-adequate-water-year-urges-wise-stewardship/)). Fort Collins's voluntary Water Shortage Watch asks for lawn watering two days a week at most, never 10 a.m. to 6 p.m. ([City of Fort Collins](https://www.fortcollins.gov/News-Articles/News/2026-Q2/Voluntary-Water-Shortage-Watch)); [Johnstown](/areas/johnstown-co/)'s 2026 Level 3 schedule barred the same hours ([Town of Johnstown](https://www.johnstownco.gov/DocumentCenter/View/2348/2026-Johnstown-Watering-Schedule-Downloadable-PDF)).
 - **Whether a rinse counts.** Those rules are written for lawn and landscape watering. Whether a cooling rinse on a synthetic field falls under them depends on the provider; ask the utility before relying on one. Our [guide to watering artificial turf](/guides/do-you-have-to-water-artificial-turf/) covers yards.
 - **The water and the infill.** The STC says only potable water should go on a synthetic field. A civil engineer writing for facility managers says some organic infills must hold a set moisture content and may need irrigation ([Gale Associates](https://galeassociates.com/wp-content/uploads/2019/02/Alternative-Infills-for-Synthetic-Turf-Fields-JMP.pdf)), a standing commitment in a short water year. [Longmont](/areas/longmont-co/)'s Dry Creek fields use coated sand, with quick couplers on an irrigation system for cleaning ([City of Longmont](https://longmontcolorado.gov/facility/dry-creek-community-park/)).
 

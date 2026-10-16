@@ -78,7 +78,7 @@ sources:
     checked: "2026-09-25"
   - label: "Larimer County, Fire Restrictions and Bans"
     url: "https://www.larimer.gov/emergency/mitigating-against-hazards/larimer-county-fire-restrictions-bans"
-    checked: "2026-09-25"
+    checked: "2026-10-16"
   - label: "Berthoud Fire Protection District, Larimer County Burn Restrictions (Fire Resolution effective 05-06-2026)"
     url: "https://www.berthoudfire.org/larimer-county-burn-restrictions"
     checked: "2026-09-25"
@@ -119,7 +119,7 @@ sources:
     url: "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT16FIDECO_CH6DEDEST_16.6.4LASCFE"
     checked: "2026-09-25"
 published: "2026-09-25"
-updated: "2026-09-25"
+updated: "2026-10-16"
 related:
   services:
     - artificial-turf-installation
@@ -180,7 +180,7 @@ Wind matters more here than the table suggests. NOAA's storm records list an 84 
 
 Gas usually keeps working longer than wood. The county sets restrictions for unincorporated land and each city or town sets its own inside its limits, and both change with the weather. Not legal advice; check on the day.
 
-- **Unincorporated Larimer County** was under Stage 1 on September 25, 2026. The county says Stage 1 may still allow fires in permanent fire pits and gas grills, while a fire ban prohibits all open burning, fire pits, fireworks and charcoal grills included ([Larimer County](https://www.larimer.gov/emergency/mitigating-against-hazards/larimer-county-fire-restrictions-bans)).
+- **Unincorporated Larimer County** was under Stage 1 on October 16, 2026. The county says Stage 1 may still allow fires in permanent fire pits and gas grills, while a fire ban prohibits all open burning, fire pits, fireworks and charcoal grills included ([Larimer County](https://www.larimer.gov/emergency/mitigating-against-hazards/larimer-county-fire-restrictions-bans)).
 - **Fort Collins** has been in Stage 1 since May 18, 2026, until rescinded ([PFA](https://www.poudre-fire.org/programs-services/current-fire-bans-and-restrictions)). Under Stage 1 the City's code still allows gas- or liquid-fueled fire pits, grills and heaters, and clean, dry wood or charcoal in approved portable fire pits and chimineas ([City Code](https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH9FIPRPR_ARTIIOPFIBURE_S9-25ST1FIREPRPEAC)).
 - **A tighter stage.** From May 6 to May 26, 2026, Larimer's increased restrictions for unincorporated areas banned charcoal, pellet and wood grills and wood fires in permanent fireplaces, while gas- and liquid-fueled fires, fire pits included, stayed allowed, as Berthoud Fire posted them ([Berthoud Fire](https://www.berthoudfire.org/larimer-county-burn-restrictions)).
 

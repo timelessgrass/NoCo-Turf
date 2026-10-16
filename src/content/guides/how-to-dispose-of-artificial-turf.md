@@ -94,7 +94,7 @@ sources:
     url: "https://integriturf.com/wp-content/uploads/2019/02/Installation-Guide.pdf"
     checked: "2026-09-25"
 published: "2026-09-25"
-updated: "2026-09-25"
+updated: "2026-10-16"
 related:
   services:
     - artificial-turf-installation
@@ -162,9 +162,9 @@ The North Landfill's own FAQ says it closes on high-wind days ([North Landfill F
 
 ## What about Weld County?
 
-Weld County's health department hands out a limited number of Large Item Disposal Vouchers. Each is good for one free trip, through October 31, 2026, to the North Weld Landfill in Ault, the Buffalo Ridge Landfill in Keenesburg, or the Front Range Landfill. A voucher covers one truckload level with the bed rails or one trailer load, each up to one ton, and anything over is billed at the gate. Pick one up at the county's household hazardous waste facilities in Greeley or Dacono, or at the health department office in Greeley ([Weld County](https://www.weld.gov/Government/Departments/Health-and-Environment/Environmental-Health-Services/Household-Hazardous-Waste-Disposal/Large-Item-Disposal-Voucher)).
+In 2026 Weld County's health department offered a limited number of Large Item Disposal Vouchers, valid March 2 through October 31, 2026, each good for one free trip to the North Weld Landfill in Ault, the Buffalo Ridge Landfill in Keenesburg, or the Front Range Landfill. A voucher covered one truckload level with the bed rails or one trailer load, each up to one ton, with anything over billed at the gate, and vouchers were picked up at the county's household hazardous waste facilities in Greeley or Dacono, or at the health department office in Greeley ([Weld County](https://www.weld.gov/Government/Departments/Health-and-Environment/Environmental-Health-Services/Household-Hazardous-Waste-Disposal/Large-Item-Disposal-Voucher)). Look for a 2027 program on the county's page in spring.
 
-The county's examples are mattresses, couches and tables, and it sends questions about acceptable items to each landfill. Call the landfill before you load turf and ask whether the voucher covers it. Mind the weight, too: the 500-square-foot lawn above comes to 1,566 to 2,066 pounds with its sand, right at or over one ton. Shaken out, the turf alone is about 316 pounds.
+The county's examples were mattresses, couches and tables, and it sent questions about acceptable items to each landfill. If a voucher program is running, call the landfill before you load turf and ask whether the voucher covers it. Mind the weight, too: the 500-square-foot lawn above comes to 1,566 to 2,066 pounds with its sand, right at or over one ton. Shaken out, the turf alone is about 316 pounds.
 
 Around [Greeley](/areas/greeley-co/) and the rest of Weld, those landfills are the options on the county's list. Windsor, Johnstown and Berthoud straddle the county line, so ask the Weld program whether your address qualifies.
 

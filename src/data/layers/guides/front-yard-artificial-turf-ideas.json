@@ -73,15 +73,15 @@
     "layer": "ordinance",
     "applies_to": ["greeley-co"],
     "fact": "Greeley planning staff summarize the current front-yard standard for houses as at most 50% hardscape with the rest in planting areas, 50% live planting coverage in those areas, no bare earth, one tree if space allows and no artificial turf, and say streetscape planters also need 50% plants, groundcover and trees every 25 to 35 feet.",
-    "quote": "Draft Landscape Code EXISTING • Front yards of houses • Maximum 50% hardscape, remainder must be planting areas • 50% live planting coverage in planting areas • No bare earth, all areas need covered with live plantings, mulch, rock, or hardscape • Artificial turf prohibited • One tree required if space allows • Streetscape planters also need 50% plants, groundcover, and trees every 25-35 feet",
+    "quote": "Draft Landscape Code EXISTING … • Front yards of houses … Maximum 50% hardscape, remainder must be planting areas • 50% live planting coverage in planting areas • No bare earth, all areas need covered with live plantings, mulch, rock, or hardscape • Artificial turf prohibited • One tree required if space allows • Streetscape planters also need 50% plants, groundcover, and trees every 25-35 feet",
     "source_url": "https://greeleyco.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=9205,plainText=false)",
     "source_label": "Greeley Planning Commission agenda packet, July 14, 2026, staff slide \"Draft Landscape Code\" (existing front-yard standards for houses)",
-    "checked": "2026-09-25",
+    "checked": "2026-10-16",
     "reachable": true,
     "status": "VERIFIED",
-    "recheck": "2026-10-14",
+    "recheck": "2026-11-18",
     "numbers": ["50", "25", "35"],
-    "notes": "Read from the packet PDF (pdftotext) 2026-09-25, the same file as greeley-front-yard-ban-city-summary. A staff summary slide, not code text; the same slide lists the proposed change ('Artificial turf with a permit'; 'Clarify that 50% live plantings must be perennial'). Re-check with the Greeley initiative records."
+    "notes": "Read from the packet PDF (pdftotext) 2026-09-25, the same file as greeley-front-yard-ban-city-summary. A staff summary slide, not code text; the same slide lists the proposed change ('Artificial turf with a permit'; 'Clarify that 50% live plantings must be perennial'). Re-check with the Greeley initiative records. Re-checked 2026-10-16 by hand: the July 14 slide text is unchanged in fileId 9205; the Oct 13, 2026 Planning Commission and Council work session agendas had no turf item, and the Oct 20, 2026 Council packet (fileId 9676) still lists 11-2023 as \"Come back to Council with a draft ordinance\" with staff incorporating feedback. No ordinance adopted. Re-check after the Nov 3 Council meeting. 2026-10-16: quote re-cut to the order pdftotext reads the slide in (two columns); the slide text is unchanged. Re-check after the Nov. 3 and Nov. 17 Council meetings."
   },
   {
     "id": "front-yard-artificial-turf-ideas.harvest-foundation-plantings",

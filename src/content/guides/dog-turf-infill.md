@@ -94,14 +94,14 @@ sources:
   - label: "Town of Milliken, Watering Schedule"
     url: "https://millikenco.gov/194/Watering-Schedule"
     checked: "2026-09-25"
-  - label: "Town of Johnstown, 2026 Watering Schedule"
-    url: "https://www.johnstownco.gov/665/2026-Watering-Schedule"
-    checked: "2026-09-25"
-  - label: "Town of Johnstown, Water Conservation Schedule FAQ (Level 3)"
+  - label: "Town of Johnstown, 2026 Watering Schedule calendar (PDF)"
+    url: "https://www.johnstownco.gov/DocumentCenter/View/2348/2026-Johnstown-Watering-Schedule-Downloadable-PDF"
+    checked: "2026-10-16"
+  - label: "Town of Johnstown, Water Conservation Schedule FAQ"
     url: "https://www.johnstownco.gov/Faq.aspx?QID=240"
-    checked: "2026-09-25"
+    checked: "2026-10-16"
 published: "2026-09-25"
-updated: "2026-09-25"
+updated: "2026-10-16"
 related:
   services:
     - pet-turf
@@ -185,7 +185,7 @@ Zeolite isn't named. "Such as" leaves room, but whether a zeolite layer under th
 Whatever the infill, dog turf needs rinsing. Motz advises rinsing at least once a month, and as often as weekly where little rain falls and big dogs share a small yard ([Motz](https://themotzgroup.com/infill_blog/my-artificial-turf-smells-like-dog-pee-what-should-i-do/)). Two towns' 2026 rules show how that can collide:
 
 - **Milliken** bars sprinkler irrigation with town water from 9 a.m. to 7 p.m. and all day Sunday, but allows hand-watering with a shutoff nozzle any day, outside the lawn-sprinkling limits ([Town of Milliken](https://millikenco.gov/194/Watering-Schedule)).
-- **Johnstown** is on a Level 3 schedule through October 15: two assigned days a week and no watering from 10 a.m. to 6 p.m. Its Level 3 guidance says hardscapes should be swept rather than spray-washed, and hand watering belongs on your watering day with an automatic shutoff nozzle ([Town of Johnstown](https://www.johnstownco.gov/Faq.aspx?QID=240)). Turf isn't mentioned. It depends on how the town reads it; ask the Town of Johnstown before rinsing off your assigned day.
+- **Johnstown** ran a Level 3 schedule until its season ended October 15: two assigned days a week and no watering from 10 a.m. to 6 p.m. Its water FAQs say hardscapes should be swept rather than spray-washed, and hand watering belongs on your watering day with an automatic shutoff nozzle ([Town of Johnstown](https://www.johnstownco.gov/Faq.aspx?QID=240)). Turf isn't mentioned. It depends on how the town reads it; ask the Town of Johnstown before rinsing off your assigned day or after the season.
 
 Our [guide to watering artificial turf](/guides/do-you-have-to-water-artificial-turf/) covers the other towns.
 
