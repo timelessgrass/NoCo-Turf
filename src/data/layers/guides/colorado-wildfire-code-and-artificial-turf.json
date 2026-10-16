@@ -1,0 +1,722 @@
+[
+  {
+    "id": "colorado-wildfire-code-and-artificial-turf.cwrc-immediate-zone",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado's Wildfire Resiliency Code calls the first 5 feet around a structure the Immediate Zone, meant to reduce or eliminate ember ignition and direct flame contact with the structure, decks, stairs and attachments, and requires noncombustible, hard surface materials there, such as rock, gravel, sand, concrete, bare earth or stone or concrete pavers, with an exception only for ignition-resistant plantings on an approved list that is not less than the Colorado State Forest Service's.",
+    "quote": "502.1 Structure Ignition Zone 1 (0-5 feet): Immediate Zone 502.1.1 Objective. This zone is designed to reduce or eliminate ember ignition and direct flame contact with the structure, decks, stairs, and attachments. 502.1.2 Materials. Use noncombustible, hard surface materials in this zone, such as rock, gravel, sand, concrete, bare earth or stone/concrete pavers. Exception: Ignition-resistant plantings, per an approved list by the AHJ that is not less than that created by the Colorado State Forest Service, are allowed in the Immediate Zone. 502.1.3 Plantings. Remove all plantings including shrubs, slash, combustible mulch and other woody debris, with the exception of ignition-resistant vegetation.",
+    "source_url": "https://dfpc.colorado.gov/colorado-wildfire-resiliency-code",
+    "source_label": "2025 Colorado Wildfire Resiliency Code (CWRC Version 1.0, June 1, 2025), Division of Fire Prevention and Control, Sec. 502.1, Class 1 site requirements",
+    "effective": "2025-07-01",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5",
+      "502.1",
+      "1"
+    ],
+    "notes": "Read on DFPC's code page with curl on 2026-10-16 and checked against the code PDF the board page links (drive.google.com file 1bhSESWE9pei6MMsv52VeGtC_WBgD7bVA, 43 pages, cover '01 June 2025, CWRC Version 1.0'). Section 503.1 makes Class 2 include all of 502.1 through 502.4, so the Immediate Zone applies at every fire intensity. Not legal advice."
+  },
+  {
+    "id": "colorado-wildfire-code-and-artificial-turf.cwrc-silent-on-turf",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The 2025 Colorado Wildfire Resiliency Code does not mention artificial turf, synthetic turf or lawns anywhere in its text, and the one plastic product its site and area chapter names is vinyl fencing, which may be allowed within 8 feet of a structure.",
+    "quote": "502.4.1 Fencing. Fencing within 8 feet of a structure regulated by this code or up to the property line when the property line is less than 8 feet away from the structure shall be constructed with noncombustible or ignition-resistant materials. Exception: Vinyl fencing. Vinyl fencing may be allowed.",
+    "source_url": "https://dfpc.colorado.gov/colorado-wildfire-resiliency-code",
+    "source_label": "2025 Colorado Wildfire Resiliency Code (CWRC Version 1.0, June 1, 2025), Division of Fire Prevention and Control, full text searched; Sec. 502.4.1, Fencing",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2025",
+      "8"
+    ],
+    "notes": "Searched the whole code on DFPC's page and in the 43-page PDF on 2026-10-16 for 'turf', 'artificial', 'synthetic', 'lawn', 'plastic' and 'grass'. No hit for turf, artificial, synthetic or lawn. 'Grasses' appears only as a fuel type in Sec. 303.2 (fire intensity classes); 'plastic' only in Ch. 4 decking rules (wood-plastic composite and plastic lumber, 402.4.3) and a UL 94 reference; Ch. 4 also allows vinyl siding under an exception (404.3). Chapter 5 (site and area) names vinyl fencing only."
+  },
+  {
+    "id": "colorado-wildfire-code-and-artificial-turf.cwrc-noncombustible",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The code defines a noncombustible building material as one of which no part will ignite and burn when subjected to fire, or any material conforming to ASTM E136.",
+    "quote": "Noncombustible As applied to building construction material means a material that, in the form in which it is used, is either one of the following: Material of which no part will ignite and burn when subjected to fire. Any material conforming to ASTM E136 shall be considered noncombustible within the meaning of this section.",
+    "source_url": "https://dfpc.colorado.gov/colorado-wildfire-resiliency-code",
+    "source_label": "2025 Colorado Wildfire Resiliency Code (CWRC Version 1.0, June 1, 2025), Division of Fire Prevention and Control, Sec. 202, Definitions",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "A third item (fire-rated gypsum board) follows and is not quoted."
+  },
+  {
+    "id": "colorado-wildfire-code-and-artificial-turf.cwrc-alternative-materials",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The code lets its code official approve a material it does not prescribe when a written request shows the alternative is at least equivalent for its purpose, fire safety included, and requires a written reason when an alternative is turned down.",
+    "quote": "104.2.2 Alternative materials, design and methods. The provisions of this code are not intended to prevent the installation of any material or to prohibit any design or method of construction not specifically prescribed by this code, provided that any such alternative has been approved. … 104.2.2.2 Application and disposition. Where required, a request to use an alternative material, design or method of construction shall be submitted in writing to the code official for approval. Where the alternative material, design or method of construction is not approved, the code official shall respond in writing, stating the reasons the alternative was not approved. … 104.2.2.4 Equivalency criteria. An alternative material, design or method of construction shall, for the purpose intended, be not less than the equivalent of that prescribed in this code with respect to all of the following, as applicable: Quality. Strength. Effectiveness. Durability. Safety, other than fire safety. Fire safety.",
+    "source_url": "https://dfpc.colorado.gov/colorado-wildfire-resiliency-code",
+    "source_label": "2025 Colorado Wildfire Resiliency Code (CWRC Version 1.0, June 1, 2025), Division of Fire Prevention and Control, Secs. 104.2.2, 104.2.2.2 and 104.2.2.4",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Sec. 104.2.1.4 also lets the code official require tests where evidence of compliance is insufficient. How any jurisdiction would treat a turf request is not stated anywhere read; pages say ask."
+  },
+  {
+    "id": "colorado-wildfire-code-and-artificial-turf.cwrc-existing-and-new-conditions",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The code lets buildings and conditions that were legal when it was adopted continue unless they are a distinct danger to life or property, and applies to conditions that arise after its adoption.",
+    "quote": "Buildings or conditions in existence at the time of the adoption of this code are allowed to have their use or occupancy continued, if such condition, use or occupancy was legal at the time of the adoption of this code, provided that such continued use does not constitute a distinct danger to life or property. … 101.4 Retroactivity. The provisions of the code shall apply to conditions arising after the adoption thereof, conditions not legally in existence at the adoption of this code and conditions that, in the opinion of the code official, constitute a distinct hazard to life or property.",
+    "source_url": "https://dfpc.colorado.gov/colorado-wildfire-resiliency-code",
+    "source_label": "2025 Colorado Wildfire Resiliency Code (CWRC Version 1.0, June 1, 2025), Division of Fire Prevention and Control, Secs. 101.2 and 101.4",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "101.4"
+    ],
+    "notes": "Whether new turf laid in the Immediate Zone of an existing house is a 'condition arising after the adoption' is not settled by anything read; DFPC calls the code 'not a retrofit code' (dfpc-not-retrofit). Pages say ask the building office."
+  },
+  {
+    "id": "colorado-wildfire-code-and-artificial-turf.cwrc-exempt-work",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The code does not apply to interior alterations, additions that add no more than 500 square feet of footprint, exterior wall work affecting less than 25 percent of the walls, painting and staining, or a 35-acre parcel with one home that does not abut a residential or commercial area.",
+    "quote": "Compliance with this code shall not be required for the following: Interior alterations of existing structures. Additions that do not increase the footprint of a structure by more than 500 square feet. The reconstruction, replacement, alteration, or repair of the exterior walls of an existing building, when less than 25 percent of the surface area of all exterior walls is affected. … Painting, staining and similar maintenance or restorative work. … Any thirty-five acre parcel with only one residential structure on it that does not abut a residential or commercial area.",
+    "source_url": "https://dfpc.colorado.gov/colorado-wildfire-resiliency-code",
+    "source_label": "2025 Colorado Wildfire Resiliency Code (CWRC Version 1.0, June 1, 2025), Division of Fire Prevention and Control, Sec. 102.10, Work exempt from permit under this code",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "500",
+      "25",
+      "35"
+    ],
+    "notes": "Other exemptions in the list (roof work under 25 percent, small sheds, Group U buildings over 50 feet away, fences over 8 feet away) are not quoted."
+  },
+  {
+    "id": "colorado-wildfire-code-and-artificial-turf.cwrc-walls-trigger-zone",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "When 25 percent or more of an existing building's exterior wall surface is replaced, the code requires the whole wall surface to meet new-construction materials and the immediate zone within 5 feet of the structure to be brought into compliance.",
+    "quote": "101.7 Exterior walls. The exterior walls of building or structures in existence prior to adoption of this code where 25 percent or more of the total exterior wall surface area is replaced, or where work to reconstruct, alter or repair the exterior walls effectively replaces the exterior wall material, shall require the entirety of the exterior wall surface area, including attachments, to be replaced with materials required for new construction specified in Section 404.3 through 404.3.2 and the immediate zone within 5 feet of the structure shall be made to comply with Section 503.1.",
+    "source_url": "https://dfpc.colorado.gov/colorado-wildfire-resiliency-code",
+    "source_label": "2025 Colorado Wildfire Resiliency Code (CWRC Version 1.0, June 1, 2025), Division of Fire Prevention and Control, Sec. 101.7",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "25",
+      "5",
+      "101.7"
+    ]
+  },
+  {
+    "id": "colorado-wildfire-code-and-artificial-turf.cwrc-maintenance",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The code requires the buildings, landscape materials, vegetation and defensible space it requires to be maintained to the code edition they were installed under, and makes the owner responsible.",
+    "quote": "101.8 Maintenance. Buildings, structures, landscape materials, vegetation, defensible space or other devices or safeguards required by this code shall be maintained in conformance to the code edition under which installed. The owner or the owner's authorized agent shall be responsible for the maintenance of buildings, structures, landscape materials and vegetation.",
+    "source_url": "https://dfpc.colorado.gov/colorado-wildfire-resiliency-code",
+    "source_label": "2025 Colorado Wildfire Resiliency Code (CWRC Version 1.0, June 1, 2025), Division of Fire Prevention and Control, Sec. 101.8",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "101.8"
+    ]
+  },
+  {
+    "id": "colorado-wildfire-code-and-artificial-turf.cwrc-fire-intensity-classes",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The code classes low fire intensity where fuels are light to medium, such as grasses, shrubs and scattered vegetation, moderate where there are dense shrubs, small trees and accumulated ground fuels, and high where there are dense forest canopies, thick understory and heavy dead or downed material.",
+    "quote": "303.2.1 Low Fire Intensity Classification. Low Fire Intensity Classification is identified in areas with light to medium surface fuels, such as grasses, shrubs, and scattered low-density vegetation. … 303.2.2 Moderate Fire Intensity Classification. Moderate Fire Intensity Classification is identified in areas with moderate to heavy fuel loads, such as dense shrubs, small trees, and accumulated ground fuels. … 303.2.3 High Fire Intensity Classification. High Fire Intensity Classification is identified in areas with heavy, continuous fuel loads, such as dense forest canopies, thick understory growth, and heavy dead/downed material.",
+    "source_url": "https://dfpc.colorado.gov/colorado-wildfire-resiliency-code",
+    "source_label": "2025 Colorado Wildfire Resiliency Code (CWRC Version 1.0, June 1, 2025), Division of Fire Prevention and Control, Sec. 303.2",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "colorado-wildfire-code-and-artificial-turf.cwrc-class-1-and-2",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Parcels mapped at low fire intensity follow the code's Class 1 requirements and parcels at moderate or high intensity follow Class 2, which adds an Intermediate Zone from 5 to 30 feet and an Expanded Zone from 30 to 100 feet to everything in Class 1.",
+    "quote": "Structures and parcels identified with low fire intensity classification shall be constructed and maintained in accordance with the provisions for Class 1 structure hardening and site and area requirements. Structures and parcels identified with moderate to high fire intensity classifications shall be constructed and maintained in accordance with the provisions for Class 2 structure hardening and site and area requirements. … 503.1 General. Class 2 site and area requirements shall be in accordance with Sections 503.2 through 503.3.2 and include all requirements of Class 1 in Sections 502.1 through 502.4. 503.2 Structure Ignition Zone 2 (5-30 feet) Intermediate Zone … 503.3 Structure Ignition Zone 3 (30-100 feet) Expanded Zone",
+    "source_url": "https://dfpc.colorado.gov/colorado-wildfire-resiliency-code",
+    "source_label": "2025 Colorado Wildfire Resiliency Code (CWRC Version 1.0, June 1, 2025), Division of Fire Prevention and Control, Secs. 303.3, 503.1, 503.2 and 503.3",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "2",
+      "5",
+      "30",
+      "100",
+      "503.1",
+      "502.4",
+      "503.2",
+      "503.3",
+      "3"
+    ]
+  },
+  {
+    "id": "colorado-wildfire-code-and-artificial-turf.cwrc-zone-2",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "In Class 2 areas, the code's Intermediate Zone from 5 to 30 feet is meant to give an approaching fire less fuel, and requires hazardous dead plant material removed and large accumulations of logs, branches, slash and combustible mulch avoided.",
+    "quote": "503.2 Structure Ignition Zone 2 (5-30 feet) Intermediate Zone 503.2.1 Objective. This zone is designed to give an approaching fire less fuel, which will help reduce its intensity as it gets nearer to structures. 503.2.2 Dead Materials. Within the fuel modification area, hazardous dead plant material must be removed from live vegetation. 503.2.3 Fuels Accumulation. Avoid large accumulations of surface fuels such as logs, branches, slash and combustible mulch.",
+    "source_url": "https://dfpc.colorado.gov/colorado-wildfire-resiliency-code",
+    "source_label": "2025 Colorado Wildfire Resiliency Code (CWRC Version 1.0, June 1, 2025), Division of Fire Prevention and Control, Sec. 503.2",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "5",
+      "30",
+      "503.2"
+    ],
+    "notes": "503.2.4 and 503.2.5 (tree crowns and shrub spacing) follow and are not quoted. Artificial turf is not named in Zone 2 or Zone 3 (cwrc-silent-on-turf)."
+  },
+  {
+    "id": "colorado-wildfire-code-and-artificial-turf.cwrc-ground-truthing",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "An owner can ask for a ground-truthing review of a property's mapped fire intensity classification, based on the vegetative fuels on the parcel and within 300 feet of its boundary, topography, weather and fire behavior modeling, documented by a qualified wildfire professional.",
+    "quote": "304.1 Purpose. This section establishes a process for owners or the owners authorized representative to request a ground-truthing review of their property's Wildfire Hazard or fire intensity classification as identified on state or locally adopted maps. … the fire intensity classification and associated requirements shall be based on a review of the vegetative fuels on the parcel and within 300' of the parcel boundary, topography, local weather patterns, and fire behavior modeling data … Technical documentation shall be submitted in support of such request by a qualified wildfire professional and in accordance with Section 104.2.",
+    "source_url": "https://dfpc.colorado.gov/colorado-wildfire-resiliency-code",
+    "source_label": "2025 Colorado Wildfire Resiliency Code (CWRC Version 1.0, June 1, 2025), Division of Fire Prevention and Control, Secs. 304.1 and 304.2",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "300",
+      "304.1"
+    ]
+  },
+  {
+    "id": "colorado-wildfire-code-and-artificial-turf.cwrc-hiz-reference",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The code tells its code official to refer to the Colorado State Forest Service's Home Ignition Zone Guide as needed, with the code governing where the two conflict.",
+    "quote": "501.2 Reference. As needed, the code official shall refer to the Home Ignition Zone (HIZ) Guide as developed by the Colorado State Forest Service. Where conflicts occur between provisions of this code and the HIZ Guide, the provisions of this code shall govern.",
+    "source_url": "https://dfpc.colorado.gov/colorado-wildfire-resiliency-code",
+    "source_label": "2025 Colorado Wildfire Resiliency Code (CWRC Version 1.0, June 1, 2025), Division of Fire Prevention and Control, Sec. 501.2",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "501.2"
+    ]
+  },
+  {
+    "id": "colorado-wildfire-code-and-artificial-turf.dfpc-code-established",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Division of Fire Prevention and Control says the 2025 Colorado Wildfire Resiliency Code was established on July 1, 2025, through the rule 8 CCR 1507-39, and that the Wildfire Resiliency Code Board directed a Fire Intensity Classification layer for the code's map.",
+    "quote": "The 2025 Colorado Wildfire Resiliency Code (CWRC), established on 1 July, 2025 through 8 CCR 1507-39, is one of the newly adopted codes. The WRCB has also directed the creation of a Fire Intensity Classification layer for the 2025 Colorado Wildfire Resiliency Code Map.",
+    "source_url": "https://dfpc.colorado.gov/sections/wildfire-resiliency-code-board",
+    "source_label": "Colorado Division of Fire Prevention and Control, Wildfire Resiliency Code Board page",
+    "effective": "2025-07-01",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2025",
+      "1",
+      "8"
+    ]
+  },
+  {
+    "id": "colorado-wildfire-code-and-artificial-turf.dfpc-not-retrofit",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Division of Fire Prevention and Control says the code is a state minimum code for new construction and significant exterior alterations and additions in the wildland-urban interface, and is not a retrofit code.",
+    "quote": "The code is a state minimum code applying to new construction and significant exterior alterations & additions within the Wildland-Urban Interface (WUI). This is not a retrofit code. Speak with your local code official if you have questions about the code and your permit.",
+    "source_url": "https://dfpc.colorado.gov/cwrc-what-and-why",
+    "source_label": "Colorado Division of Fire Prevention and Control, CWRC What and Why",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "colorado-wildfire-code-and-artificial-turf.dfpc-map-choice-colors",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Division of Fire Prevention and Control says a local government may adopt the official state map or develop its own, and that the map shows low fire intensity in yellow (Class 1) and moderate to high intensity in orange and red (Class 2).",
+    "quote": "Local governing bodies can either adopt the official state-provided map or develop a local map. Speak with your local code official for the map in use. … Class 1 Low Fire Intensity (Yellow) Baseline: minimum requirements for new construction and significant additions/alterations in the WUI. Class 2 Moderate to High Fire Intensity (Orange and Red) Cumulative: All Class 1 requirements plus additional requirements for higher fire intensity areas.",
+    "source_url": "https://dfpc.colorado.gov/cwrc-what-and-why",
+    "source_label": "Colorado Division of Fire Prevention and Control, CWRC What and Why",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-01",
+    "numbers": [
+      "1",
+      "2"
+    ],
+    "notes": "Map styling can change with the board's map updates; recheck."
+  },
+  {
+    "id": "colorado-wildfire-code-and-artificial-turf.dfpc-deadline-april-2026",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Division of Fire Prevention and Control wrote that the board adopted the code on July 1, 2025, that local governing bodies had to adopt it no later than April 1, 2026, and that each must begin enforcing it no later than 3 months after adopting.",
+    "quote": "The Board adopted the 2025 Colorado Wildfire Resiliency Code on July 1, 2025 and local governing bodies are required to make their adoption no later than April 1, 2026. Following their adoption, the adopting governing body must begin enforcing the code no later than 3 months after the adoption.",
+    "source_url": "https://dfpc.colorado.gov/sites/dfpc/files/documents/FLSNewsletterFall2025.pdf",
+    "source_label": "Colorado Division of Fire Prevention and Control, Fire and Life Safety Journal, Fall 2025: Another Update: Colorado's Wildfire Resiliency Code",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "2025",
+      "2026",
+      "3"
+    ],
+    "notes": "Read with curl and pdftotext on 2026-10-16 (two-column layout; the sentences are continuous in the right column). The April 1, 2026 date is nine months after July 1, 2025, the period SB25-142 set (sb25-142-nine-months). Not legal advice."
+  },
+  {
+    "id": "colorado-wildfire-code-and-artificial-turf.sb25-142-nine-months",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SB25-142, signed June 3, 2025, gave cities and towns with wildland-urban interface land 9 months instead of 3 after the board's adoption to adopt a code that meets or exceeds it, and let them enforce it through a cooperative agreement.",
+    "quote": "The act extends the time frame within which a governing body of a city, town, or city and county with jurisdiction in an area within the wildland-urban interface is required to adopt wildfire codes and standards that meet or exceed the wildfire resiliency code board's wildfire codes and standards from 3 to 9 months after the board's adoption of wildfire codes and standards. The act allows a governing body to enter into a cooperative agreement with another entity, such as a third-party contractor or another governing body, in order to enforce wildfire codes and standards.",
+    "source_url": "https://leg.colorado.gov/bills/sb25-142",
+    "source_label": "SB25-142, Concerning Changes to the Wildfire Resiliency Code Board's Code Implementation Requirements, bill summary as enacted (Governor signed June 3, 2025), Colorado General Assembly",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "2025",
+      "9"
+    ],
+    "notes": "The final act (leg.colorado.gov/bill_files/85683/download) amends C.R.S. 24-33.5-1237(2)(a) from 'within three' to 'NINE' months; (2)(b) keeps the period to comply at the governing body's rules or three months from its adoption, whichever is sooner. The site answers 406 to a bare curl; a browser user agent and Accept header read it. Not legal advice."
+  },
+  {
+    "id": "colorado-wildfire-code-and-artificial-turf.hb26-1334-postponed",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "HB26-1334, which would have moved the local adoption deadline to April 1, 2027, was postponed indefinitely by the House Transportation, Housing and Local Government Committee on April 7, 2026.",
+    "quote": "The bill requires the code board to establish a process by which a person impacted by the codes and standards may petition the code board for a modification to the code and extends the timeline by which a governing body is required to adopt a code that meets or exceeds the minimum standards set forth by the code board to April 1, 2027. … 04/07/2026 House House Committee on Transportation, Housing & Local Government Postpone Indefinitely",
+    "source_url": "https://leg.colorado.gov/bills/hb26-1334",
+    "source_label": "HB26-1334, Concerning Modifications to the Standards of the Wildfire Resiliency Code Board, bill page (status Lost), Colorado General Assembly",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "1",
+      "2027",
+      "7",
+      "2026",
+      "04/07"
+    ],
+    "notes": "Read 2026-10-16. The committee vote to postpone indefinitely passed 7 to 6 after a motion to refer the amended bill failed 6 to 7. A similar bill could return in the 2027 session; recheck after it ends."
+  },
+  {
+    "id": "colorado-wildfire-code-and-artificial-turf.sb23-166-governing-body",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Under SB23-166, the governing bodies that adopt the wildfire code are city and town councils or boards of trustees, fire protection district boards, improvement districts that provide fire protection, and county commissioners only for land outside town limits and outside fire protection districts.",
+    "quote": "\"GOVERNING BODY\" MEANS: (I) THE CITY COUNCIL, TOWN COUNCIL, BOARD OF TRUSTEES, OR OTHER GOVERNING BODY OF A CITY, TOWN, OR CITY AND COUNTY; (II) THE BOARD OF DIRECTORS OF A FIRE PROTECTION DISTRICT ORGANIZED PURSUANT TO PART 1 OF ARTICLE 1 OF TITLE 32; (III) THE GOVERNING BODY OF AN IMPROVEMENT DISTRICT THAT PROVIDES FIRE PROTECTION SERVICES ORGANIZED PURSUANT TO PART 5 OF ARTICLE 20 OF TITLE 30; OR (IV) THE BOARD OF COUNTY COMMISSIONERS WITH RESPECT TO THE AREA WITHIN A COUNTY THAT IS OUTSIDE THE CORPORATE LIMITS OF A CITY OR TOWN AND OUTSIDE THE BOUNDARIES OF A FIRE PROTECTION DISTRICT.",
+    "source_url": "https://leg.colorado.gov/bill_files/94092/download",
+    "source_label": "SB23-166 signed act (May 12, 2023): C.R.S. 24-33.5-1237(1)(d)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "1",
+      "5"
+    ],
+    "notes": "Read with pdftotext on 2026-10-16 (page 11 to 12). SB25-142 added the defined term 'adopting governing body' but left (1)(d) as quoted. Not legal advice."
+  },
+  {
+    "id": "colorado-wildfire-code-and-artificial-turf.state-map-hexagons",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The state's Wildfire Resiliency Code Map, built by the Division of Fire Prevention and Control and the Colorado State Forest Service, is meant to cover both current and potential wildland-urban interface, including every place in Colorado with combustible vegetative fuels, and shows low, moderate and high fire intensity as a layer of hexagons.",
+    "quote": "The Wildfire Resiliency Code - Fire Intensity Classification draft layer for the Colorado Wildfire Resiliency State Code Map was developed by the Division of Fire Prevention and Control (DFPC) and the Colorado State Forest Service (CSFS) at the direction of the Wildfire Resiliency Code Board (WRCB). This layer is meant to encompass both the current and potential Wildland Urban Interface (WUI) … As such, the primary focus of any layer must include all locations in Colorado where combustible vegetative fuels exist. … The final form illustrates only three levels of the original fire intensity (low, moderate, and high) for the purpose of code application, and appears as a hexagon layer, a GIS method that is useful for grouping geospatial data into hexagonal grids.",
+    "source_url": "https://www.arcgis.com/home/item.html?id=34c113129c044004bc672ca5493378de",
+    "source_label": "Colorado State Forest Service, 2025 Colorado Wildfire Resiliency Code Map (ArcGIS item description)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-01",
+    "numbers": [],
+    "notes": "Read through the ArcGIS REST item endpoint (sharing/rest/content/items/34c113129c044004bc672ca5493378de?f=json) on 2026-10-16; the item is owned by a CSFS account, last modified 2026-04-29, and its URL is the map DFPC links (experience.arcgis.com/experience/34c113129c044004bc672ca5493378de). The description still calls the layer a draft. The starting point is the 2022 Colorado Wildfire Risk Assessment Fire Intensity Scale. No per-town coverage was read or computed; pages tell readers to look up the address."
+  },
+  {
+    "id": "colorado-wildfire-code-and-artificial-turf.irlp-turf-grasses",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension and Colorado State Forest Service fact sheet 6.305 on ignition-resistant landscape plants, updated in July 2025, says no plant is fireproof, that moisture content matters most to a plant's volatility and that plants must be maintained to stay ignition resistant, scores plants from 0, the most ignitable, to 10, the least, recommends only plants scoring 8, 9 or 10 within the first 30 feet of a building, and lists mowed turf grasses among them, rating Kentucky bluegrass 10 and buffalograss 9.",
+    "quote": "There are no “fireproof” plant species. … A plant’s moisture content is the single most important factor governing its volatility. … Landscapes, and the plants in them, must be maintained to retain their ignition-resistant properties. … The methodology rates the ignitability of plants based on specific characteristics ranked on a scale of 0-10, with 0 the most ignitable and 10 the least ignitable. … To create the highest degree of protection for structures, only plant plants with scores of 8, 9 and 10 for zones 1 and 2 (within the first 30 feet from the building). … Turf grasses … buffalograss L FS mow to 4” n/a 5-6.5 n/a 9 … Kentucky bluegrass M FS mow to 4” n/a 5-9 n/a 10",
+    "source_url": "https://csfs.colostate.edu/wp-content/uploads/2025/08/CSFS_CSU-Ext_Fact-Sheets_IRLP_2025_081825-2_web_accessible.pdf",
+    "source_label": "CSU Extension and Colorado State Forest Service, Ignition-Resistant Landscape Plants, Fact Sheet 6.305 (updated 7/2025)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-08-01",
+    "numbers": [
+      "6.305",
+      "2025",
+      "0",
+      "10",
+      "8",
+      "9",
+      "30",
+      "1",
+      "2",
+      "4"
+    ],
+    "notes": "Read with pdftotext on 2026-10-16; identical to the copy DFPC links from its Code Adoption and Implementation Resources page. Table columns: water needs, sun, mature height, flower color, elevation in 1,000-foot increments, bloom time, ignitability rating (0 most ignitable, 10 least). The turf-grass table also rates blue grama, sheep fescue and Canada bluegrass 9 and perennial ryegrass 10. Artificial turf is not on the list."
+  },
+  {
+    "id": "colorado-wildfire-code-and-artificial-turf.dfpc-irlp-list",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Division of Fire Prevention and Control's summary of the code's site rules says the Immediate Zone exception covers ignition-resistant vegetation from the Colorado State Forest Service's list or a local list that meets or exceeds CSFS Fact Sheet 6.305, and that the 5-to-30-foot and 30-to-100-foot zones apply in Class 2.",
+    "quote": "Structure Ignition Zone 1 (0-5 feet): The Immediate Zone (Applies to Class 1 & 2) … Removal of all plantings including shrubs, slash, combustible mulch, and other woody debris, with an exception for ignition-resistant vegetation from an approved list either created by the Colorado State Forest Service or a list created by the AHJ that meets or exceeds CSFS Fact Sheet 6.305. … Structure Ignition Zone 2 (5-30 feet): The Intermediate Zone (Applies to Class 2) … Structure Ignition Zone 3 (30-100 feet): The Expanded Zone (Applies to Class 2)",
+    "source_url": "https://drive.google.com/file/d/1IEBV2iICJnv6mvtBrEwov2peQSuYyjtQ/view",
+    "source_label": "Colorado Division of Fire Prevention and Control, Key Requirements for Defensible Space and Site Management (linked from its Code Adoption and Implementation Resources page)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6.305",
+      "5",
+      "30",
+      "100",
+      "2",
+      "1",
+      "3"
+    ],
+    "notes": "Two-page PDF downloaded through Google Drive's export link on 2026-10-16. Bullet glyphs dropped."
+  },
+  {
+    "id": "colorado-wildfire-code-and-artificial-turf.csfs-hiz-zone-1",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado State Forest Service's Home Ignition Zone guide asks for nonflammable, hard surface materials in the first 5 feet, such as rock, gravel, sand, cement, bare earth or stone or concrete pavers, and does not mention artificial turf.",
+    "quote": "0-5 FEET FROM THE HOME ZONE 1 … ZONE 1 GOAL: This zone is designed to prevent flames from coming in direct contact with the structure. Use nonflammable, hard surface materials in this zone, such as rock, gravel, sand, cement, bare earth or stone/concrete pavers.",
+    "source_url": "https://csfs.colostate.edu/wp-content/uploads/2021/04/2021_CSFS_HIZGuide_Web.pdf",
+    "source_label": "Colorado State Forest Service, The Home Ignition Zone guide (2021), Zone 1",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5",
+      "1"
+    ],
+    "notes": "Read with curl and pdftotext on 2026-10-16; the text layer drops the fi and fl ligatures ('fames', 'nonfammable'); the quote restores the printed words. Searched for 'turf', 'artificial', 'lawn' and 'plastic': no artificial turf; 'plastic' appears only for decks and fences."
+  },
+  {
+    "id": "colorado-wildfire-code-and-artificial-turf.nfpa-immediate-zone",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "NFPA's Firewise guidance defines the Immediate Zone as the home and the area 0 to 5 feet from its furthest attached exterior point, calls it a non-combustible area and the most important zone to act on, and tells homeowners to move anything that can burn away from the walls.",
+    "quote": "Immediate zone The home and the area 0-5’ from the furthest attached exterior point of the home; defined as a non-combustible area. Science tells us this is the most important zone to take immediate action on as it is the most vulnerable to embers. … Move any flammable material away from wall exteriors … anything that can burn.",
+    "source_url": "https://www.nfpa.org/education-and-research/wildfire/preparing-homes-for-wildfire",
+    "source_label": "NFPA, Preparing homes for wildfire: What is the Home Ignition Zone?",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "0",
+      "5"
+    ],
+    "notes": "Read with curl on 2026-10-16 (the text sits in the page's embedded JSON). The page does not mention artificial turf. The elided list after 'wall exteriors' reads mulch, flammable plants, leaves and needles, firewood piles."
+  },
+  {
+    "id": "colorado-wildfire-code-and-artificial-turf.ibhs-zone-0",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "IBHS's Wildfire Prepared Home designation standard goes further than the state code in its first 5 feet: it removes all vegetation, grass included, removes combustible groundcover with artificial turf named, and removes combustible fencing, vinyl included.",
+    "quote": "Vegetation … Shall remove all vegetation (e.g., grass, weeds, flowers, succulents, cacti, plants, shrubs, bushes, and vegetative debris) within 5 feet to bare mineral soil. … Groundcover … Shall remove all combustible groundcover materials (e.g., wood and rubber mulch, artificial turf, and exposed weed cloth) within 5 feet to bare mineral soil. … Fencing and Retaining Walls … Shall remove combustible fencing materials (e.g., wood and vinyl), posts, gates, and retaining walls within 5 feet or replace with noncombustible material.",
+    "source_url": "https://wildfireprepared.org/wp-content/uploads/WFPH-Technical-Standard-12-25.pdf",
+    "source_label": "Insurance Institute for Business & Home Safety, Wildfire Prepared Home Technical Standard (December 2025), Sec. 2.2.1, the 0 to 5 Foot Noncombustible Zone",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-25",
+    "numbers": [
+      "5"
+    ],
+    "notes": "Read with pdftotext on 2026-10-16. Dashes after the headings and bullet glyphs dropped. 'Goes further than the state code' compares this text with cwrc-immediate-zone and cwrc-silent-on-turf (the state code allows listed ignition-resistant plantings and may allow vinyl fencing)."
+  },
+  {
+    "id": "colorado-wildfire-code-and-artificial-turf.larimer-all-unincorporated",
+    "layer": "county",
+    "applies_to": [
+      "fort-collins-co",
+      "loveland-co",
+      "berthoud-co",
+      "estes-park-co",
+      "timnath-co",
+      "wellington-co",
+      "windsor-co",
+      "johnstown-co"
+    ],
+    "fact": "Larimer County's amended Wildfire Resiliency Code deems all of unincorporated Larimer County a wildland-urban interface area.",
+    "quote": "Because of the history of and potential for large, destructive wildland fires, all of unincorporated Larimer County is deemed a wildland-urban interface area. Structures and parcels shall be constructed and maintained in accordance with the provisions for structure hardening of Chapter 4 and site and area requirements of Chapter 5.",
+    "source_url": "https://www.larimer.gov/sites/default/files/2025-wildfire-resiliency-code-w-lc-amendments.pdf",
+    "source_label": "Colorado Wildfire Resiliency Code as adopted by Larimer County, Sec. 302.1 as amended (recorded September 23, 2025)",
+    "checked": "2026-10-16",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2027-03-01",
+    "numbers": [],
+    "notes": "larimer.gov returns 403 to curl; read on 2026-10-16 from the Wayback capture of 2026-10-05 (web.archive.org/web/20261005041215id_/ the same URL), recorded pages 100 to 132, with pdftotext and the page image. Applies to unincorporated land only; cities and towns adopt their own codes."
+  },
+  {
+    "id": "colorado-wildfire-code-and-artificial-turf.larimer-no-planting-exception",
+    "layer": "county",
+    "applies_to": [
+      "fort-collins-co",
+      "loveland-co",
+      "berthoud-co",
+      "estes-park-co",
+      "timnath-co",
+      "wellington-co",
+      "windsor-co",
+      "johnstown-co"
+    ],
+    "fact": "Larimer County struck the state code's Immediate Zone exceptions for ignition-resistant plantings, so its first 5 feet take only noncombustible, hard surface materials such as rock, gravel, sand, concrete, bare earth or pavers, with all plantings removed.",
+    "quote": "The following section is hereby amended to read as follows: 502.1.2 Materials. Use noncombustible, hard surface materials in this zone, such as rock, gravel, sand, concrete, bare earth or stone/concrete pavers. … 502.1.3 Plantings. Remove all plantings including shrubs, slash, combustible mulch and other woody debris",
+    "source_url": "https://www.larimer.gov/sites/default/files/2025-wildfire-resiliency-code-w-lc-amendments.pdf",
+    "source_label": "Colorado Wildfire Resiliency Code as adopted by Larimer County, Secs. 502.1.2 and 502.1.3 as amended (recorded September 23, 2025)",
+    "checked": "2026-10-16",
+    "reachable": false,
+    "status": "VERIFIED",
+    "recheck": "2027-03-01",
+    "numbers": [
+      "5"
+    ],
+    "notes": "larimer.gov returns 403 to curl; read on 2026-10-16 from the Wayback capture of 2026-10-05 (web.archive.org/web/20261005041215id_/ the same URL), recorded pages 100 to 132, with pdftotext and the page image. Checked against the image of recorded page 122 of 132: the 502.1.2 exception ('Ignition resistant plantings, per an approved list by the AHJ … are allowed in the Immediate Zone') and ', with the exception of ignition resistant vegetation' in 502.1.3 are struck through, so the quote stops where the struck text begins. pdftotext prints struck text as plain text."
+  },
+  {
+    "id": "colorado-wildfire-code-and-artificial-turf.weld-state-map-scope",
+    "layer": "county",
+    "applies_to": [
+      "windsor-co",
+      "greeley-co",
+      "johnstown-co",
+      "berthoud-co",
+      "firestone-co",
+      "mead-co",
+      "frederick-co",
+      "longmont-co",
+      "severance-co",
+      "evans-co",
+      "eaton-co",
+      "milliken-co",
+      "dacono-co"
+    ],
+    "fact": "Weld County enforces the state code from July 1, 2026, only on parcels outside town limits and outside fire protection districts that the state map shows at high, moderate or low intensity, exempting a parcel of 35 acres or more with one home that does not abut a residential or commercial area.",
+    "quote": "B. The Effective Date of the Resiliency Code for the purpose of enforcement shall be July 1, 2026. C. The Resiliency Code shall apply to parcels located in Weld County outside the corporate limits of a city or town and outside the boundaries of a fire protection district, and which are shown on the State Map for the Application of the 2025 Colorado Wildfire Resiliency Code (or versions thereof subsequently adopted or amended by the Resiliency Code Board) and designated: 1. High Intensity Non-Federal; or 2. Moderate Intensity Non-Federal; or 3. Low Intensity Non-Federal. 4. Exempting therefrom any thirty-five (35) acre or larger parcel with only one (1) residential structure on it that does not abut a residential or commercial area.",
+    "source_url": "https://library.municode.com/co/weld_county/codes/charter_and_county_code?nodeId=CH7ADMISTCO_ARTICOWIRECO_S7-1-10ADCOWIRECOEFDAAP",
+    "source_label": "Weld County Code Sec. 7-1-10 (Ordinance 2026-06), Municode, Supplement 96 (August 24, 2026)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-01",
+    "numbers": [
+      "1",
+      "2026",
+      "35",
+      "2025",
+      "2",
+      "3",
+      "4"
+    ],
+    "notes": "Read through Municode's content API (job 499600, product 18090) on 2026-10-16. Sec. 7-1-20: DFPC enforces it at the county's request."
+  },
+  {
+    "id": "colorado-wildfire-code-and-artificial-turf.fort-collins-state-map",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins adopted the 2025 code in City Code Chapter 5 by Ordinance No. 220, 2025, bases its wildland-urban interface areas on the state CWRC Map, and deleted the code's Immediate Zone materials and plantings sections from that chapter.",
+    "quote": "there is hereby adopted by reference as the wildfire resiliency code of the City … the 2025 Colorado Wildfire Resiliency Code … 302.1 Declaration. The AHJ shall declare the wildland-urban interface areas within the jurisdiction as defined by this code. The wildland-urban interface areas shall be based on the CWRC Map. … Section 502.1.2 Materials is deleted in its entirety. … Section 502.1.3 Plantings is deleted in its entirety.",
+    "source_url": "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH5BUBURE_ARTIXWIREST",
+    "source_label": "Fort Collins City Code Secs. 5-370 and 5-371 (Ord. No. 220, 2025, December 16, 2025), Municode, Supplement 156 Update 1",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-01",
+    "numbers": [
+      "2025",
+      "302.1"
+    ],
+    "notes": "Read through Municode's content API (job 501629, product 18005) on 2026-10-16. The city's 5-foot landscaping rule is in the Land Use Code instead (fort-collins-luc-immediate-zone)."
+  },
+  {
+    "id": "colorado-wildfire-code-and-artificial-turf.fort-collins-luc-immediate-zone",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins says portions of the city are in the wildland-urban interface, and its Land Use Code lets only noncombustible hard surfaces and ignition-resistant plantings on the Director's list sit in a 5-foot Immediate Zone around structures in low, medium or high intensity areas of the state map.",
+    "quote": "Because portions of the city are located within the wildland-urban interface, the City is required to adopt code standards that meet or exceed the Wildfire Resiliency … (a) A minimum five (5) foot buffer (the “Immediate Zone’”) surrounding structures located within any area shown on the Resiliency Map as low, medium, or high fire intensity classification must be maintained as follows: … (II) Only the following landscaping materials and plantings may be located within the Immediate Zone: (i) Noncombustible hard surfaced materials such as rock, gravel, sand, concrete, bare earth, or stone/concrete pavers. (ii) Ignition resistant plantings set forth on the list maintained by the Director.",
+    "source_url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/fortcollco-meet-9b4e8e099e3f4e9cbeaa4a206b542f9a/ITEM-Attachment-004-241d5ceeae6f47f78fb732207afe77eb.pdf",
+    "source_label": "Fort Collins Ordinance No. 222, 2025, recital E and Land Use Code 5.10.1(L)(5)(a)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-01",
+    "numbers": [
+      "5"
+    ],
+    "notes": "Read with curl and pdftotext on 2026-10-16. The rule applies to building permit applications from April 1, 2026 (subsection (4)). Artificial turf is not named."
+  },
+  {
+    "id": "colorado-wildfire-code-and-artificial-turf.windsor-code-and-map",
+    "layer": "ordinance",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor adopted the 2025 code and its map by Ordinance 2026-1744 with a compliance date of July 1, 2026, and requires defensible space to be maintained after any work under it, a duty that runs with the land and falls on the owner, occupant, homeowners' association or metropolitan district.",
+    "quote": "The Colorado Wildfire Resiliency Code, 2025 Edition, as published by the Colorado Wildfire Resiliency Code Board, and the corresponding Colorado Wildfire Resiliency Code Map, as amended from time-to-time, are adopted by reference. … Upon the completion of any work subject to this Code, all required defensible space shall be continuously maintained in compliance with this Code. The duty to maintain defensible space shall run with the land and shall be the responsibility of the property owner, occupant, homeowners' association, metropolitan district, or other private entity having legal ownership or control of the property or common areas, as applicable. … The compliance date for this Code adoption is July 1, 2026.",
+    "source_url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH18BURE_ARTXIFIZO_S18-11-40ADCOWIRECO",
+    "source_label": "Windsor Municipal Code Secs. 18-11-40, 18-11-70 and 18-11-110 (Ord. 2026-1744), Municode, Supplement 24 Update 1 (July 13, 2026)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-01",
+    "numbers": [
+      "2025",
+      "1",
+      "2026"
+    ],
+    "notes": "Read through Municode's content API (job 500132, product 18093) on 2026-10-16. Sec. 18-11-80 says the town will not enforce after the certificate of occupancy and may leave defensible-space maintenance to the homeowner or the state. Sec. 15-3-20(m) adds that the property owner is responsible for complying with the code."
+  },
+  {
+    "id": "colorado-wildfire-code-and-artificial-turf.greeley-local-map",
+    "layer": "ordinance",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley adopted the Colorado Wildfire Resiliency Code by Ordinance No. 7, 2026, on March 17, 2026, and will develop and adopt its own local map of wildland-urban interface areas and fire intensity classes.",
+    "quote": "The Colorado Wildfire Resiliency Code is hereby adopted by reference for the city, except as amended in this chapter, and is hereinafter referred to as the \"CWRC\". … (Ord. No. 7, 2026, § 1, 3-17-2026) … The city will develop and adopt a local map designating Wildfire-Urban Interface (WUI) areas and fire intensity classifications within its jurisdictional boundaries.",
+    "source_url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT22BUCO_CH17WIRECO",
+    "source_label": "Greeley Municipal Code Secs. 22-700 and 22-703 (Ord. No. 7, 2026), Municode, Supplement 6 Update 1 (April 21, 2026)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-01",
+    "numbers": [
+      "2026",
+      "17"
+    ],
+    "notes": "Read through Municode's content API (job 493697, product 18000) on 2026-10-16. Whether Greeley has adopted its local map yet was not found; recheck."
+  },
+  {
+    "id": "colorado-wildfire-code-and-artificial-turf.longmont-local-map",
+    "layer": "ordinance",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Longmont adopted the June 1, 2025 edition of the code by Ordinance No. O-2026-11 on March 24, 2026, and has its Chief Fire Marshal adopt and maintain the map of the city's wildland-urban interface.",
+    "quote": "there is adopted as the wildfire resiliency code of the city, by reference thereto, the Colorado Wildfire Resiliency Code, June 1, 2025 edition … (Ord. No. O-2026-11, § 1, 3-24-2026) … The Chief Fire Marshal, or designee, shall adopt and maintain a map, in compliance with Section 303 of this Code, designating said geographical area within the City of Longmont, Colorado that comprises the wildland-urban interface.",
+    "source_url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT16BUCO_CH16.54COWIRECO",
+    "source_label": "Longmont Municipal Code Secs. 16.54.010 and 16.54.050 (Ord. No. O-2026-11), Municode, Supplement 9",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-01",
+    "numbers": [
+      "1",
+      "2025",
+      "24",
+      "2026"
+    ],
+    "notes": "Read through Municode's content API (job 494949, product 14590) on 2026-10-16. The city's building codes page says the code applies as of July 1, 2026."
+  },
+  {
+    "id": "colorado-wildfire-code-and-artificial-turf.wellington-adopted",
+    "layer": "ordinance",
+    "applies_to": [
+      "wellington-co"
+    ],
+    "fact": "Wellington adopted the 2025 Colorado Wildfire Resiliency Code, version 1.0, by Ordinance No. 15-2025, effective January 1, 2026, and makes it a public nuisance to maintain property in violation of it.",
+    "quote": "there is adopted as the wildfire resiliency code of the Town, by reference thereto, The 2025 Colorado Wildfire Resiliency Code version 1.0, Chapters 1 through 5 inclusive … (Ord. No. 15-2025, § 7, 11-12-25, eff. 1-1-26) … It is unlawful and constitutes a public nuisance for any person to maintain any property, building or any other structure in the Town in a condition which is in violation of the Wildfire Resiliency Code or this Chapter.",
+    "source_url": "https://library.municode.com/co/wellington/codes/municipal_code?nodeId=CH18BURE_ART7.52025COWIRECO",
+    "source_label": "Wellington Municipal Code Secs. 18-7.5-10 and 18-7.5-40 (Ord. No. 15-2025), Municode, Supplement 9 Update 2 (July 14, 2026)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-01",
+    "numbers": [
+      "2025",
+      "1.0",
+      "1",
+      "2026",
+      "5"
+    ],
+    "notes": "Read through Municode's content API (job 500257, product 18291) on 2026-10-16. Which map Wellington uses is not stated in the article; Sec. 18-7.5-30 (amendments) is reserved."
+  }
+]

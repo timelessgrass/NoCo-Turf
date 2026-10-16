@@ -1,0 +1,638 @@
+[
+  {
+    "id": "hot-tub-on-artificial-turf.masterspas-grass-load",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Master Spas says a filled hot tub can weigh more than 5,000 pounds, that grass and bare soil can't carry that load and can shift or settle under it, and that a tub belongs on a concrete slab, a reinforced deck, a properly prepared gravel base, or a spa pad laid on compacted gravel or sand after the grass or sod is removed.",
+    "quote": "Afterall, you can’t just place your new hot tub on a swath of grass in your backyard. … When filled, a hot tub can weigh more than 5,000 pounds. Grass and bare soil simply can’t support that kind of load. Over time, the ground can shift or settle, leading to an uneven surface that can damage your spa or create safety issues. Instead, choose a stable surface such as a concrete slab, a reinforced deck, or a properly prepared gravel base. … To install a spa pad, start by selecting a flat, level area and removing any grass or sod. Dig down a few inches, then spread and compact a layer of gravel or sand to form a stable base.",
+    "source_url": "https://www.masterspas.com/blog/hot-tub-installation-questions/",
+    "source_label": "Master Spas, Can you put a hot tub on grass? Installation FAQs (May 15, 2025; updated Jan. 7, 2026)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5000"
+    ],
+    "notes": "Read through the WordPress REST API (wp-json/wp/v2/posts/871) on 2026-10-16; published 2025-05-15, modified 2026-01-07. A hot tub maker, not a turf source: it says what goes under a tub."
+  },
+  {
+    "id": "hot-tub-on-artificial-turf.masterspas-permits",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Master Spas says many areas don't require a permit to install a hot tub, but some require one for the electrical connection or regulate setbacks, safety barriers or fencing, so the local building department should be asked first.",
+    "quote": "In many areas, a permit is not required to install a hot tub. However, it’s still important to check with your local building department to be sure. Some municipalities require permits for the electrical connection, while others have regulations related to setbacks, safety barriers, or fencing.",
+    "source_url": "https://www.masterspas.com/blog/hot-tub-installation-questions/",
+    "source_label": "Master Spas, Can you put a hot tub on grass? Installation FAQs (May 15, 2025; updated Jan. 7, 2026)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "hot-tub-on-artificial-turf.masterspas-pad-spec",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Master Spas' pre-installation guide says a hot tub must sit on a uniformly firm, continuous and level surface, recommends a concrete pad at least four inches thick with steel reinforcement bars crossed throughout, and says the ground around an outdoor tub should drain well and slope away from it, with the equipment placed where it can't flood.",
+    "quote": "The hot tub must be on a uniformly firm, continuous and level surface. The recommended foundation is a concrete pad with a minimum thickness of four inches with steel reinforcement bars crossed throughout the pad. … If located outside, the area around your hot tub should drain well and slope away from the hot tub. Be sure to position it so that the equipment is not subject to flooding.",
+    "source_url": "https://www.masterspas.com/documents/pre-installation-guides/hot-tub-pre-installation-guide.pdf",
+    "source_label": "Master Spas, Pre-Installation Guide: How to prepare for your hot tub installation (PDF, 2020)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl and pdftotext on 2026-10-16; the PDF carries a 2020 creation date."
+  },
+  {
+    "id": "hot-tub-on-artificial-turf.masterspas-model-chart",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Master Spas' model chart runs from the HL 628L, holding 170 gallons and weighing 2,575 pounds filled, to the CLS Balance 9, holding 615 gallons and weighing 7,825 pounds filled.",
+    "quote": "MODEL DIMENSIONS WATER CAPACITY DRY WEIGHT FULL WEIGHT … HL 628L 66”x 78”x 32” (168 cm x 199 cm x 82 cm) 170 gal (644 L) 600 lbs (272 kg) 2,575 lbs (1,168 kg) … CLS Balance 9 94” x 108” x 38” (239 cm x 275 cm x 97cm) 615 gal (2,328 L) 1,215 lbs (551 kg) 7,825 lbs (3,550 kg)",
+    "source_url": "https://www.masterspas.com/documents/pre-installation-guides/hot-tub-pre-installation-guide.pdf",
+    "source_label": "Master Spas, Pre-Installation Guide: How to prepare for your hot tub installation (PDF, 2020), Model Specifications",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "170",
+      "2575",
+      "9",
+      "615",
+      "7825",
+      "66",
+      "78",
+      "32",
+      "168",
+      "199",
+      "82",
+      "644",
+      "600",
+      "272",
+      "1168",
+      "94",
+      "108",
+      "38",
+      "239",
+      "275",
+      "97",
+      "2328",
+      "1215",
+      "551",
+      "3550"
+    ],
+    "notes": "The smallest and largest rows of the chart on the guide's last page, read with pdftotext -layout. The narrative on page 9 says \"approx. 2,000 to 6,000 lbs.\"; the chart's largest model is heavier, so the guide uses the chart."
+  },
+  {
+    "id": "hot-tub-on-artificial-turf.masterspas-service-overhead",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Master Spas says a dealer needs at least three feet of clearance around the perimeter of a hot tub to service it, and that no overhead power lines should be within 15 feet of the tub.",
+    "quote": "In the event that service is required, your dealer will need at least three feet of clearance around the perimeter of the hot tub. … Be sure there are no overhead power lines located within 15 feet of the hot tub.",
+    "source_url": "https://www.masterspas.com/documents/pre-installation-guides/hot-tub-pre-installation-guide.pdf",
+    "source_label": "Master Spas, Pre-Installation Guide: How to prepare for your hot tub installation (PDF, 2020)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "15"
+    ]
+  },
+  {
+    "id": "hot-tub-on-artificial-turf.masterspas-gfci-breaker",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Master Spas says every hot tub needs a GFCI circuit breaker, recommends that breaker be no more than 25 feet from the tub, and recommends putting it outside for ease of service.",
+    "quote": "All hot tubs require a high-quality Ground Fault Circuit Interrupter (GFCI) circuit breaker. The GFCI is required by the National Electrician Code (NEC) for your protection. • It is recommended that the GFCI breaker be no more than 25 feet from the hot tub to reduce intermittent tripping of the breaker. It is recommended that a standard breaker be used at the internal breaker box and the GFCI breaker be located outside for ease of service should the hot tub require service or repair.",
+    "source_url": "https://www.masterspas.com/documents/pre-installation-guides/hot-tub-pre-installation-guide.pdf",
+    "source_label": "Master Spas, Pre-Installation Guide: How to prepare for your hot tub installation (PDF, 2020)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "25"
+    ],
+    "notes": "\"National Electrician Code\" is the source's wording."
+  },
+  {
+    "id": "hot-tub-on-artificial-turf.masterspas-no-winterizing",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Master Spas does not recommend winterizing a hot tub, because water left in the plumbing can freeze, expand and crack the plumbing, fittings and equipment housings.",
+    "quote": "Master Spas does not recommend that owners winterize their hot tub. Because of the amount of plumbing, it can be tough to remove all of the water. And, simply put, it’s a risk. If too much water is left in the plumbing and it freezes, this expansion of the water as it freezes could stress and crack the plumbing, fittings, and equipment housings (“freeze damage”).",
+    "source_url": "https://www.masterspas.com/blog/hot-tub-questions-iii/",
+    "source_label": "Master Spas, How to winterize a hot tub? Answers to your questions! (Feb. 14, 2020; updated Sept. 25, 2024)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read through the WordPress REST API (posts/1445) on 2026-10-16."
+  },
+  {
+    "id": "hot-tub-on-artificial-turf.masterspas-winter-approach",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Master Spas advises leaving at least three feet of clearance on every accessible side of a hot tub for service and cover removal, planning how people will walk to it in winter and where they will step out, and using pavers, decking or gravel where that route crosses lawn or mulch.",
+    "quote": "Before choosing plants or finishes, measure the hot tub footprint and add at least three feet of clearance on all accessible sides. That extra space matters for service access, cover removal, and comfortable movement around the spa. Then map the approach. How will you walk to the hot tub in winter? Where will people step out? If the route crosses lawn or mulch, consider pavers, decking, or gravel to prevent worn paths and muddy edges.",
+    "source_url": "https://www.masterspas.com/blog/hot-tub-landscaping/",
+    "source_label": "Master Spas, Hot tub landscaping ideas for 2026 (Feb. 10, 2026)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read through the WordPress REST API (posts/3350) on 2026-10-16. \"Lawn\" in the source means a lawn in general, not artificial turf."
+  },
+  {
+    "id": "hot-tub-on-artificial-turf.masterspas-winter-slips",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Master Spas calls getting in and out one of the biggest winter hot tub safety concerns, because snow, ice and freezing temperatures make surfaces slippery, and advises keeping the area clear of snow and ice, a non-slip mat or outdoor rug near the entrance, and slip-resistant footwear to and from the tub.",
+    "quote": "One of the biggest winter safety concerns is getting in and out of the hot tub. Snow, ice, and freezing temperatures can create slippery surfaces, increasing the risk of falls. … Keep the area around your hot tub clear of snow and ice. Use a non-slip mat or outdoor rug near the entrance. Wear sturdy, slip-resistant footwear when walking to and from the hot tub.",
+    "source_url": "https://www.masterspas.com/blog/should-you-use-a-hot-tub-in-the-winter/",
+    "source_label": "Master Spas, Should you use a hot tub in the winter? (Feb. 13, 2025)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read through the WordPress REST API (posts/5124) on 2026-10-16."
+  },
+  {
+    "id": "hot-tub-on-artificial-turf.masterspas-steps-chemicals",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Master Spas recommends non-slip spa steps and a handrail for anyone worried about falling, adding hot tub chemicals one at a time without mixing or premixing them, and storing them in a cool, dry, well-ventilated place out of reach of children and pets.",
+    "quote": "Non-slip spa steps will make it easy to enter and exit the spa. If you struggle with balance or are worried about falling, consider installing a handrail to prevent falls. … Products should be added one at a time and not mixed together. Also, do not premix dry products in water before adding them to the spa. … Chemicals and other supplies should be kept in a cool, dry location that has good ventilation. Be sure that they are out of reach from children and any pets.",
+    "source_url": "https://www.masterspas.com/blog/hot-tub-safety/",
+    "source_label": "Master Spas, Do's and don'ts of hot tub safety (Jan. 3, 2022)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read through the WordPress REST API (posts/3634) on 2026-10-16."
+  },
+  {
+    "id": "hot-tub-on-artificial-turf.jacuzzi-foundations",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Jacuzzi says a fully loaded hot tub can weigh more than 4,000 pounds, names a poured concrete slab, an inspected and properly supported deck, or a prefabricated spa pad as foundations, and says the grass and topsoil still have to be cleared for a spa pad.",
+    "quote": "A poured concrete slab is an excellent base for your hot tub as this material is extremely sturdy and long-lasting. … Most well-built decks can handle a hot tub, but make sure you have proper supports, as a fully loaded hot tub can weigh more than 4,000 pounds. You should always have an existing deck inspected before your hot tub is installed. … You will still need to clear the area of grass and topsoil, but laying a spa pad is an easy way to get a luxurious-looking base.",
+    "source_url": "https://www.jacuzzi.com/en-us/3-FOUNDATION-TYPES-FOR-HOT-TUBS.html",
+    "source_label": "Jacuzzi, 3 Foundation Types for Hot Tubs",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4000"
+    ],
+    "notes": "Read with curl on 2026-10-16; the page carries no publication date."
+  },
+  {
+    "id": "hot-tub-on-artificial-turf.caldera-foundation-debris",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Caldera Spas recommends a reinforced concrete pad at least four inches thick, or a deck able to carry the spa's dead weight, and warns that grass or dirt around a spa adds debris carried into the water on users' feet.",
+    "quote": "A reinforced concrete pad at least four inches (10 cm) thick or structurally sound deck able to support the “dead weight” (found in the Spa Specification Chart on back page) is recommended for your CALDERA spa. … Remember, placing the spa around grass or dirt may increase the amount of debris which is inadvertently brought into the spa water on the user’s feet.",
+    "source_url": "https://www.calderaspas.com/wp-content/uploads/2024/03/caldera-spas-vacanza-pre-delivery-instructions.pdf",
+    "source_label": "Caldera Spas (Watkins Wellness), Vacanza Series Pre-Delivery Instructions (2024)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "10"
+    ],
+    "notes": "Read with curl and pdftotext on 2026-10-16. Caldera and Hot Spring are both Watkins Wellness brands and share this wording."
+  },
+  {
+    "id": "hot-tub-on-artificial-turf.caldera-subpanel",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Caldera's instructions for its 230-volt spas say a qualified electrician makes the connections under the National Electrical Code and local codes, and that the GFCI subpanel goes no closer than five feet from the spa's water edge, within sight of the spa and no more than 50 feet from it.",
+    "quote": "IMPORTANT NOTE: All electrical connections to the control box must be accomplished by a qualified electrician in accordance with the National Electrical Code and in accordance with any local electrical codes in effect at the time and place of installation. … Your electrician should mount the subpanel in the vicinity of the spa but it should not be closer than five feet (1.5 m) from the spa water edge (NEC 680-38 to 41-A-3). … MORE THAN 5 FEET THE SUB-PANEL MUST BE WITHIN SIGHT OF THE SPA DO NOT EXCEED 50 FEET",
+    "source_url": "https://www.calderaspas.com/wp-content/uploads/2024/03/caldera-spas-vacanza-pre-delivery-instructions.pdf",
+    "source_label": "Caldera Spas (Watkins Wellness), Vacanza Series Pre-Delivery Instructions (2024), 230 Volt Installation",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "230",
+      "50",
+      "1.5",
+      "41",
+      "3",
+      "5"
+    ],
+    "notes": "The last segment is the label text of the 230-volt wiring diagram on page 11, read in order."
+  },
+  {
+    "id": "hot-tub-on-artificial-turf.caldera-plug-in",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "For its 115-volt cord-connected spas, Caldera says the outlet should be 6 to 10 feet from the spa, the GFCI sits at the end of the power cord, the cord is about 15 feet long, which it calls the most the National Electrical Code allows, and the spa must never be plugged into an extension cord.",
+    "quote": "For your safety, if you are having an electrician install an electric outlet for the spa it should be no closer than 6 feet (1.8 m) and no further than 10 feet (3 m) from the spa. … One GFCI is used in the cord-connected 20 amp configuration. The GFCI module is located at the end of the power cord. … NEVER CONNECT THE SPA TO AN EXTENSION CORD AS THIS WILL VOID THE WARRANTY! … The TARINO, CELIO and AVENTINE spas come equipped with approximately 15 feet (4.5 m) of usable power cord (this is the maximum length allowed by regulatory standards and the National Electric Code).",
+    "source_url": "https://www.calderaspas.com/wp-content/uploads/2024/03/caldera-spas-vacanza-pre-delivery-instructions.pdf",
+    "source_label": "Caldera Spas (Watkins Wellness), Vacanza Series Pre-Delivery Instructions (2024), 115 Volt Electrical Requirements",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "115",
+      "6",
+      "10",
+      "15",
+      "1.8",
+      "3",
+      "20",
+      "4.5"
+    ]
+  },
+  {
+    "id": "hot-tub-on-artificial-turf.caldera-permits",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Caldera says that in most cities and counties a permit is required to install a spa's electrical circuit or build decks and gazebos, and that the local building department reports any barrier requirements when that electrical permit is issued.",
+    "quote": "In most cities and counties, permits will be required for the installation of electrical circuits or the construction of exterior surfaces (decks and gazebos). … As a general practice, your local Building Department will inform you of any applicable barrier requirements at the time a permit is obtained for the installation of an electrical circuit.",
+    "source_url": "https://www.calderaspas.com/wp-content/uploads/2024/03/caldera-spas-vacanza-pre-delivery-instructions.pdf",
+    "source_label": "Caldera Spas (Watkins Wellness), Vacanza Series Pre-Delivery Instructions (2024)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "hot-tub-on-artificial-turf.cdc-hot-tub-sanitizer",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The CDC recommends that hot tub water carry at least 3 ppm of chlorine, with a reading above 10 ppm worth raising with the owner, or 4 to 8 ppm of bromine.",
+    "quote": "Chlorine: at least 3 parts per million (ppm or mg/L). If the reading is above 10ppm, talk to the operator or owner. Bromine: 4–8 ppm. If the reading is above 8ppm, talk to the operator or owner.",
+    "source_url": "https://www.cdc.gov/healthy-swimming/safety/what-you-can-do-to-stay-healthy-in-hot-tubs.html",
+    "source_label": "CDC, What You Can Do to Stay Healthy in Hot Tubs (last reviewed May 20, 2025)",
+    "checked": "2026-10-16",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "10",
+      "4",
+      "8"
+    ],
+    "notes": "cdc.gov returns 403 to curl; read in a browser on 2026-10-16 (page metadata: first published May 15, 2024, last reviewed May 20, 2025). Written for hot tub users in general, public and home."
+  },
+  {
+    "id": "hot-tub-on-artificial-turf.foreverlawn-care",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "ForeverLawn tells owners of its landscape turf to avoid harsh chemicals on it, says an occasional rinse with water helps keep it clean, and says to clean a spill quickly with water, mild detergent and a stiff-bristled nylon brush.",
+    "quote": "In order to maintain the integrity of your synthetic grass, it is best to avoid mowing or using other power lawn equipment on the turf, use of fertilizer and/or harsh chemicals, and directly exposing the turf to excessive heat (e.g., fire, coals, hot equipment). … While not required, an occasional rinse with water will help keep your synthetic grass clean. … If a spill occurs, clean up quickly with water, mild detergent, and a stiff-bristled nylon brush (if needed).",
+    "source_url": "https://www.foreverlawn.com/wp-content/uploads/2026/06/M0945-Landscape-Maintenance-Sheet-1.pdf.pdf",
+    "source_label": "ForeverLawn, Landscape Maintenance Guidelines (M0945, Rev. 08/24)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl and pdftotext on 2026-10-16 (the PDF file is dated 2026-06-29). It names no pool or spa chemical; the guide does not say it does."
+  },
+  {
+    "id": "hot-tub-on-artificial-turf.longmont-14-26-050",
+    "layer": "ordinance",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Longmont bans non-stormwater discharges to its storm sewer system but exempts water from swimming pools, spas and hot tubs that carries no detectable residual chlorine or other chemicals that could harm aquatic life, unless the discharge causes a public nuisance or safety concern.",
+    "quote": "A. Non-stormwater discharges to the city's MS4 are prohibited. … B. The following discharges to the MS4 are exempt from the discharge prohibitions in subsection A of this section, unless the discharge, either by itself or in combination with other actual or potential discharges, unduly restricts the capacity of the MS4 to carry design storm flows, or causes a public nuisance or safety concern: … 7. Discharges from swimming pools, spas and hot tubs if the discharges contain no detectable residual chlorine or other chemicals that could endanger aquatic life or cause pollution of surface waters;",
+    "source_url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT14PUSE_CH14.26STQU_S14.26.050ILDIPREX",
+    "source_label": "Longmont Municipal Code Sec. 14.26.050, Illegal discharge prohibitions and exemptions (Ord. O-2020-01; Municode, Supp. No. 9)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-01",
+    "numbers": [
+      "7"
+    ],
+    "notes": "Read through the Municode API (ClientContent, Jobs/latest, CodesContent) on 2026-10-16. Code codified through Ord. O-2026-39 (June 23, 2026). MS4 is the city's municipal separate storm sewer system (Sec. 14.26.020)."
+  },
+  {
+    "id": "hot-tub-on-artificial-turf.longmont-ice-condition",
+    "layer": "ordinance",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Longmont's exemption for sump-pump and footing-drain water holds only if that water doesn't flow onto sidewalks or cause nuisance or safety conditions such as ice formation in gutters or on sidewalks and streets.",
+    "quote": "4. Uncontaminated pumped groundwater from foundation or footing drains or sump pumps, provided such water does not flow onto sidewalks, cause nuisance or public safety conditions such as algae growth, ice formation, or sediment buildup in gutters or on sidewalks, streets, or other surfaces,",
+    "source_url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT14PUSE_CH14.26STQU_S14.26.050ILDIPREX",
+    "source_label": "Longmont Municipal Code Sec. 14.26.050(B)(4), Illegal discharge prohibitions and exemptions (Municode, Supp. No. 9)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-01",
+    "numbers": [
+      "4"
+    ],
+    "notes": "Read through the Municode API (ClientContent, Jobs/latest, CodesContent) on 2026-10-16. The ice condition is written for groundwater and (in item 13) irrigation water, not for spa water; the guide says so."
+  },
+  {
+    "id": "hot-tub-on-artificial-turf.evans-13-17-050",
+    "layer": "ordinance",
+    "applies_to": [
+      "evans-co"
+    ],
+    "fact": "Evans' stormwater quality chapter exempts swimming pool water from its illicit discharge ban only if it is dechlorinated to less than 0.05 ppm chlorine, and separately exempts discharges that fully follow the state health department's low risk guidance.",
+    "quote": "No person shall discharge or cause to be discharged into the MS4 or watercourses any illicit discharge, including, but not limited to, the following: … B. Exemptions. The following discharges, when not otherwise enumerated as illicit above, are exempt from the discharge prohibitions established by this Chapter: 1. Waterline flushing or other potable water sources, … swimming pools (if dechlorinated, less than 0.05 ppm chlorine). … 5. Any non-stormwater discharge permitted in accordance with CDPHE's current policies and guidance regarding low risk discharges, provided that such discharge is in full compliance with all requirements of such policies and guidance and all other applicable orders, laws, and regulations.",
+    "source_url": "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT13PUSE_CH13.17STQU_13.17.050ILDIPREX",
+    "source_label": "Evans Municipal Code 13.17.050, Illicit discharge prohibited; exemptions (Ord. 703-19; Municode)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-01",
+    "numbers": [
+      "0.05",
+      "1",
+      "5"
+    ],
+    "notes": "Read through the Municode API (ClientContent, Jobs/latest, CodesContent) on 2026-10-16. Code codified through Ord. No. 855-26 (January 6, 2026). The exemption names swimming pools, not hot tubs."
+  },
+  {
+    "id": "hot-tub-on-artificial-turf.evans-13-32-060",
+    "layer": "ordinance",
+    "applies_to": [
+      "evans-co"
+    ],
+    "fact": "Evans' older chapter on illicit discharges into its storm drains exempts swimming pool water if dechlorinated, typically to less than one ppm of chlorine, a looser figure than the stormwater quality chapter's.",
+    "quote": "The following discharges are exempt from discharge prohibitions established by this chapter: water line flushing or other potable water sources, … swimming pools (if dechlorinated - typically less than one PPM chlorine), firefighting activities, and any other water source not containing Pollutants.",
+    "source_url": "https://library.municode.com/co/evans/codes/municipal_code?nodeId=MUCO_TIT13PUSE_CH13.32ILDIINEVSTDRSY_13.32.060DIPR",
+    "source_label": "Evans Municipal Code 13.32.060, Discharge prohibitions (Ord. 404-07; Municode)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-01",
+    "numbers": [],
+    "notes": "Read through the Municode API (ClientContent, Jobs/latest, CodesContent) on 2026-10-16. Both Evans chapters are in force in the same supplement; the guide shows both figures and points the reader to the city."
+  },
+  {
+    "id": "hot-tub-on-artificial-turf.berthoud-8-3-7",
+    "layer": "ordinance",
+    "applies_to": [
+      "berthoud-co"
+    ],
+    "fact": "Berthoud bans discharging materials or polluted water other than storm water into its storm drains, but exempts listed flows that include swimming pool water if de-chlorinated, typically to less than one ppm of chlorine; the list names swimming pools, not hot tubs.",
+    "quote": "No person shall discharge or cause in be discharged into the municipal storm drain system or watercourses any materials, including but not limited to, pollutants or waters containing any pollutants that cause or contribute to a violation of applicable water quality standards, other than storm water. … The following discharges are exempt from discharge prohibitions established by this Section: water line flushing or other potable water sources, … swimming pools (if de-chlorinated typically less than one PPM chlorine), firefighting activities, and any other water source not containing pollutants.",
+    "source_url": "https://library.municode.com/co/berthoud/codes/code_of_ordinances?nodeId=CH8HESA_8.3NORWASTDRSY",
+    "source_label": "Berthoud Municipal Code 8.3-7, Discharge Prohibitions (Non-Storm Water in Storm Drainage System; Municode, Supp. No. 20)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-01",
+    "numbers": [],
+    "notes": "Read through the Municode API (ClientContent, Jobs/latest, CodesContent) on 2026-10-16. Code codified through Ord. No. 1385 (June 9, 2026). \"cause in be discharged\" is the source's wording."
+  },
+  {
+    "id": "hot-tub-on-artificial-turf.firestone-13-13-050",
+    "layer": "ordinance",
+    "applies_to": [
+      "firestone-co"
+    ],
+    "fact": "Firestone makes it unlawful to discharge anything but naturally occurring stormwater runoff into its storm sewer system; its exclusions don't name pools or hot tubs but include discharges that follow the state Water Quality Control Division's low risk guidance, and a discharger stays liable for any damage the discharge causes.",
+    "quote": "A. It is unlawful and constitutes a public nuisance for any person to discharge or cause to be discharged or spilled, or to maintain a condition upon any property that may result in the discharge of, any substance other than naturally occurring stormwater runoff into the Town's MS4. B. Discharges from the following activities, when properly managed, are excluded from the prohibitions established by this chapter: … 21. Discharges in accordance with the CDPHE Water Quality Control Division's Low Risk Policy guidance documents. C. Nothing contained in this section shall be construed to relieve any person discharging or causing to be discharged any substance into the Town's MS4 from any liability for damage caused by the quantity, quality, or manner of discharge.",
+    "source_url": "https://library.municode.com/co/firestone/codes/municipal_code?nodeId=TIT13PUSE_CH13.13STQU_13.13.050ILDIPR",
+    "source_label": "Firestone Municipal Code 13.13.050, Illicit discharges prohibited (Ord. 969, 2020; Municode, Supp. No. 38)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-03-01",
+    "numbers": [
+      "21"
+    ],
+    "notes": "Read through the Municode API (ClientContent, Jobs/latest, CodesContent) on 2026-10-16. Code codified through Ord. No. 1072 (December 10, 2025)."
+  },
+  {
+    "id": "hot-tub-on-artificial-turf.cgs-water-swells-clay",
+    "layer": "soil",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Geological Survey says water added during or after construction makes expansive soils swell, and lists water ponding near a foundation and poorly managed surface drainage among the causes of expansive-soil damage.",
+    "quote": "Exposure to natural or human-sourced water during or after development results in expansion. … Allowing clays to dry excessively before pouring concrete and permitting the ponding of water near a foundation during and after construction also contribute to expansive-soil related construction problems. Building without allowance for basement or ground floor movement in known expansive soils areas is a very common source of property damage. Improper landscaping problems include inadequate management of surface drainage and planting vegetation next to the foundation so irrigation water enters the soil.",
+    "source_url": "https://coloradogeologicalsurvey.org/hazards/expansive-soil-rock/",
+    "source_label": "Colorado Geological Survey, Expansive Soil & Rock",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl on 2026-10-16."
+  },
+  {
+    "id": "hot-tub-on-artificial-turf.noaa-snow-fort-collins",
+    "layer": "climate",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "The Fort Collins NOAA station averages 51.4 inches of snow a year and 43.6 days with at least an inch of snow on the ground (1991 to 2020 normals).",
+    "quote": "USC00053005 FT COLLINS: ANN-SNOW-NORMAL 51.4; ANN-SNWD-AVGNDS-GE001WI 43.6",
+    "source_url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053005&format=json",
+    "source_label": "NOAA NCEI U.S. Climate Normals 1991-2020, annual/seasonal, station FT COLLINS (USC00053005)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "51.4",
+      "43.6",
+      "1991",
+      "2020"
+    ],
+    "notes": "ANN-SNWD-AVGNDS-GE001WI is the average number of days a year with snow depth of at least 1 inch. Read from the NCEI data service JSON on 2026-10-16."
+  },
+  {
+    "id": "hot-tub-on-artificial-turf.noaa-snow-greeley",
+    "layer": "climate",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "The Greeley UNC NOAA station averages 34.9 inches of snow a year and 39.3 days with at least an inch of snow on the ground (1991 to 2020 normals).",
+    "quote": "USC00053553 GREELEY UNC: ANN-SNOW-NORMAL 34.9; ANN-SNWD-AVGNDS-GE001WI 39.3",
+    "source_url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053553&format=json",
+    "source_label": "NOAA NCEI U.S. Climate Normals 1991-2020, annual/seasonal, station GREELEY UNC (USC00053553)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "34.9",
+      "39.3",
+      "1991",
+      "2020"
+    ],
+    "notes": "ANN-SNWD-AVGNDS-GE001WI is the average number of days a year with snow depth of at least 1 inch. Read from the NCEI data service JSON on 2026-10-16."
+  },
+  {
+    "id": "hot-tub-on-artificial-turf.co-nec-2026",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado's State Electrical Board made the 2026 edition of the National Electrical Code (NFPA 70) the state's minimum standard for electrical installations, effective August 1, 2026.",
+    "quote": "A. The Board hereby incorporates by reference the National Fire Protection Association standard number 70, hereafter known as the National Electrical Code, 2026 Edition. These standards are incorporated by reference as the minimum standards governing the planning, laying out, and installing or the making of additions, alterations, and repairs in the installation of wiring apparatus and equipment for electric light, heat, and power in this state. This Rule does not include later amendments to or editions of the National Electrical Code, 2026 Edition. The effective date shall be August 1, 2026.",
+    "source_url": "https://www.sos.state.co.us/CCR/GenerateRulePdf.do?ruleVersionId=12606&fileName=3%20CCR%20710-1",
+    "source_label": "Colorado State Electrical Board Rules, 3 CCR 710-1, Rule 1.5 Incorporation by Reference (rule version effective July 15, 2026)",
+    "effective": "2026-08-01",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2026",
+      "70",
+      "1"
+    ],
+    "notes": "Read with curl and pdftotext on 2026-10-16 from the Secretary of State's Code of Colorado Regulations; the Board adopted the rule on May 27, 2026 (dpo.colorado.gov/Electrical lists the hearing). Larimer County's older notice of the 2023 NEC is superseded."
+  },
+  {
+    "id": "hot-tub-on-artificial-turf.irc-spa-disconnect",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The residential code's pool and spa chapter, which restates NEC Article 680 for houses, requires a readily accessible disconnect within sight of the spa equipment and at least 5 feet horizontally from the tub's inside walls, unless a permanent barrier makes the reach path 5 feet or more.",
+    "quote": "E4201.1 Scope The provisions of this chapter shall apply to the construction and installation of electric wiring and equipment associated with all swimming pools, wading pools, decorative pools, hot tubs and spas, and hydromassage bathtubs, whether permanently installed or storable, … E4203.3 Disconnecting Means One or more means to simultaneously disconnect all ungrounded conductors for all utilization equipment other than lighting shall be provided. Each of such means shall be readily accessible and within sight from the equipment it serves and shall be located at least 5 feet (1524 mm) horizontally from the inside walls of a pool, spa, or hot tub unless separated from the open water by a permanently installed barrier that provides a 5-foot (1524 mm) or greater reach path. This horizontal distance shall be measured from the water's edge along the shortest path required to reach the disconnect. (680.13) … E4207.6 Disconnecting Means Disconnecting means for storable pools and storable/portable spas and hot tubs shall comply with Section E4203.3.",
+    "source_url": "https://up.codes/viewer/colorado/irc-2021/chapter/42/swimming-pools",
+    "source_label": "International Residential Code 2021, Chapter 42 Swimming Pools (Colorado DFPC Residential Code 2021, which adopts the IRC without amendments), read on UpCodes, Sec. E4203.3",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5",
+      "1",
+      "3",
+      "1524",
+      "680.13",
+      "6"
+    ],
+    "notes": "Read on UpCodes, a third-party copy, on 2026-10-16. The IRC chapter restates NEC Article 680 for one- and two-family dwellings and cites the NEC section in brackets after each rule; the 2021 IRC tracks an earlier NEC edition than the 2026 NEC Colorado enforces since August 1, 2026 (see the co-nec-2026 record), so the guide presents these as the residential code's figures and sends the reader to the electrician and inspector for the current text."
+  },
+  {
+    "id": "hot-tub-on-artificial-turf.irc-spa-gfci-receptacles",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The residential code requires GFCI protection on the outlet that supplies a spa or hot tub unless the unit is listed with its own, Class A GFCI protection on 15- and 20-amp, 125-volt receptacles within 20 feet of the tub, other receptacles at least 6 feet away, and at least one general-purpose receptacle 6 to 20 feet from the tub's inside wall.",
+    "quote": "E4208.1 Ground-Fault Circuit Interrupters The outlet (s) that supplies a self-contained spa or hot tub, or a packaged spa or hot tub equipment assembly, or a field-assembled spa or hot tub shall be protected by a ground-fault circuit interrupter. (680.44) A listed self-contained unit or listed packaged equipment assembly marked to indicate that integral ground-fault circuit-interrupter protection is provided for all electrical parts within the unit or assembly, including pumps, air blowers, heaters, lights, controls, sanitizer generators and wiring, shall not require that the outlet supply be protected by a ground-fault circuit interrupter. [680.44(A)] … E4203.1.2 Other Receptacles Other receptacles on the property shall be located not less than 6 feet (1829 mm) from the inside walls of pools and outdoor spas and hot tubs. [680.22 (A)(3)] E4203.1.3 Where Required No less than one 125-volt, 15- or 20-ampere receptacle supplied by a general-purpose branch circuit shall be located not less than 6 feet (1829 mm) from and not more than 20 feet (6096 mm) from the inside wall of permanently installed pools and outdoor spas and hot tubs. … E4203.1.4 GFCI Protection All 15- and 20-ampere, single phase, 125-volt receptacles located within 20 feet (6096 mm) of the inside walls of pools and outdoor spas and hot tubs shall be protected by a Class A ground-fault circuit interrupter.",
+    "source_url": "https://up.codes/viewer/colorado/irc-2021/chapter/42/swimming-pools",
+    "source_label": "International Residential Code 2021, Chapter 42 Swimming Pools (Colorado DFPC Residential Code 2021, which adopts the IRC without amendments), read on UpCodes, Secs. E4203.1 and E4208.1",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "15",
+      "20",
+      "125",
+      "6",
+      "1",
+      "680.44",
+      "1829",
+      "680.22",
+      "6096"
+    ],
+    "notes": "Read on UpCodes, a third-party copy, on 2026-10-16. The IRC chapter restates NEC Article 680 for one- and two-family dwellings and cites the NEC section in brackets after each rule; the 2021 IRC tracks an earlier NEC edition than the 2026 NEC Colorado enforces since August 1, 2026 (see the co-nec-2026 record), so the guide presents these as the residential code's figures and sends the reader to the electrician and inspector for the current text."
+  },
+  {
+    "id": "hot-tub-on-artificial-turf.irc-underground-wiring",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The residential code permits underground wiring within 5 feet of a pool or spa's inside wall and requires that underground wiring to be in rigid metal, intermediate metal, rigid PVC or reinforced thermosetting resin conduit or Type MC cable, at the code's minimum cover depth.",
+    "quote": "E4203.8 Underground Wiring Underground wiring within 5 feet (1524 mm) horizontally from the inside wall of the pool shall be permitted. Underground wiring shall not be installed under the pool except where this wiring is necessary to supply pool equipment permitted by this chapter. Underground wiring shall be installed in rigid metal conduit, intermediate metal conduit, rigid polyvinyl chloride conduit, reinforced thermosetting resin conduit or Type MC cable, suitable for the conditions subject to that location. The minimum cover depth shall be in accordance with Table E3803.1. (680.11) … E4207.5 Clearances Overhead conductor installations shall comply with Section E4203.7 and underground conductor installations shall comply with Section E4203.8.",
+    "source_url": "https://up.codes/viewer/colorado/irc-2021/chapter/42/swimming-pools",
+    "source_label": "International Residential Code 2021, Chapter 42 Swimming Pools (Colorado DFPC Residential Code 2021, which adopts the IRC without amendments), read on UpCodes, Sec. E4203.8",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5",
+      "8",
+      "1524",
+      "1",
+      "680.11",
+      "7"
+    ],
+    "notes": "Read on UpCodes, a third-party copy, on 2026-10-16. The IRC chapter restates NEC Article 680 for one- and two-family dwellings and cites the NEC section in brackets after each rule; the 2021 IRC tracks an earlier NEC edition than the 2026 NEC Colorado enforces since August 1, 2026 (see the co-nec-2026 record), so the guide presents these as the residential code's figures and sends the reader to the electrician and inspector for the current text."
+  },
+  {
+    "id": "hot-tub-on-artificial-turf.irc-burial-depth",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The residential code's minimum cover over buried wiring in a yard is 24 inches for direct-burial cable, 18 inches for listed nonmetallic raceway, 12 inches for a 120-volt GFCI-protected branch circuit of 20 amps or less, and 6 inches for rigid or intermediate metal conduit, measured from the top of the cable or conduit to finished grade.",
+    "quote": "TABLE E3803.1 (Table 300.5) MINIMUM COVER REQUIREMENTS, BURIAL IN INCHES … 1 Direct burial cables or conductors 2 Rigid metal conduit or intermediate metal conduit 3 Nonmetallic raceways listed for direct burial without concrete encasement or other approved raceways 4 Residential branch circuits rated 120 volts or less with GFCI protection and maximum overcurrent protection of 20 amperes 5 Circuits for control of irrigation and landscape lighting limited to not more than 30 volts and installed with Type UF or in other identified cable or raceway All locations not specified below 24 6 18 12 6 … Cover is defined as the shortest distance in inches (millimeters) measured between a point on the top surface of any direct-buried conductor, cable, conduit or other raceway and the top surface of finished grade, concrete, or similar cover.",
+    "source_url": "https://up.codes/viewer/colorado/irc-2021/chapter/38/wiring-methods",
+    "source_label": "International Residential Code 2021, Chapter 38 Wiring Methods, Table E3803.1 (Colorado DFPC Residential Code 2021), read on UpCodes",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "24",
+      "18",
+      "12",
+      "120",
+      "20",
+      "6",
+      "1",
+      "300.5",
+      "2",
+      "3",
+      "4",
+      "5",
+      "30"
+    ],
+    "notes": "Read on UpCodes, a third-party copy, on 2026-10-16. The IRC chapter restates NEC Article 680 for one- and two-family dwellings and cites the NEC section in brackets after each rule; the 2021 IRC tracks an earlier NEC edition than the 2026 NEC Colorado enforces since August 1, 2026 (see the co-nec-2026 record), so the guide presents these as the residential code's figures and sends the reader to the electrician and inspector for the current text. The table's columns are numbered 1 to 5; the \"All locations not specified below\" row reads 24, 6, 18, 12 and 6 inches across them."
+  },
+  {
+    "id": "hot-tub-on-artificial-turf.co811-private-lines",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado 811 does not mark private utility lines, meaning lines on a property that no public utility owns; the owner has to have them marked before digging.",
+    "quote": "Private Utilities are lines on your property not owned by a public utility company. It is your responsibility to have private utilities marked before digging. Colorado 811 does not mark private utility lines.",
+    "source_url": "https://www.colorado811.org/residential-digging",
+    "source_label": "Colorado 811, Residential Property: Planning to Dig on Your Property?",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "811"
+    ],
+    "notes": "Read with curl on 2026-10-16 (colorado811.org/homeowners/ redirects here). A hot tub feed run from the house panel is the owner's line, which is the guide's reading, not the page's words."
+  }
+]

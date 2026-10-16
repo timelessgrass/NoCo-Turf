@@ -1,0 +1,520 @@
+[
+  {
+    "id": "home-golf-simulator-turf.trackman-io-room",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Trackman recommends a room at least 10 feet high and 15 feet wide for its ceiling-mounted Trackman iO, with at least 10 feet from the screen to the ball plus enough room behind the ball for a comfortable swing.",
+    "quote": "Recommended dimensions for Trackman iO · Ceiling height: 3.0 m / 10 ft + · Room width: 4.6 m / 15 ft + · Screen to ball: 3.0 m / 10 ft + · Behind the ball: Enough for a comfortable swing",
+    "source_url": "https://www.trackman.com/blog/golf/how-much-room-for-a-golf-simulator",
+    "source_label": "Trackman, How much room do you need for a golf simulator? (Trackman Editorial Team, January 28, 2026)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3.0",
+      "10",
+      "4.6",
+      "15"
+    ],
+    "notes": "Read with curl on 2026-10-16. The page prints the four dimensions as a list; the quote joins the list items with ' · '. A maker's recommendation for its own product."
+  },
+  {
+    "id": "home-golf-simulator-turf.trackman-4-room",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "For Trackman 4, which sits behind the ball, Trackman recommends the same 10-foot ceiling and 15-foot width plus at least 18 feet from the screen to the unit, and says that space behind the ball is not optional if accuracy is the priority.",
+    "quote": "Recommended dimensions for Trackman 4 · Ceiling height: 3.0 m / 10 ft + · Room width: 4.6 m / 15 ft + · Screen to unit distance: 5.5 m / 18 ft + … The key distinction here is that Trackman 4 requires space behind the ball for radar tracking. That space is not optional if accuracy is the priority.",
+    "source_url": "https://www.trackman.com/blog/golf/how-much-room-for-a-golf-simulator",
+    "source_label": "Trackman, How much room do you need for a golf simulator? (Trackman Editorial Team, January 28, 2026)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4",
+      "3.0",
+      "10",
+      "4.6",
+      "15",
+      "5.5",
+      "18"
+    ],
+    "notes": "Same page as trackman-io-room; list items joined with ' · '."
+  },
+  {
+    "id": "home-golf-simulator-turf.trackman-ceiling-swing-test",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Trackman calls 10 feet of ceiling the practical minimum for most golfers, says an 8-foot ceiling is not recommended for full swings and long-term use, and advises making full swings in the room with your longest club, slowly and then at speed, before buying equipment.",
+    "quote": "For most golfers, 3.0 meters (10 feet)+ is the practical minimum to swing comfortably. … Take your longest club and make full swings in the room before committing to equipment. Do it slowly at first, then at speed. … Can you use a simulator with 8-foot ceilings? In rare cases and with modified swings, yes. For full swings and long-term use, it’s not recommended.",
+    "source_url": "https://www.trackman.com/blog/golf/how-much-room-for-a-golf-simulator",
+    "source_label": "Trackman, How much room do you need for a golf simulator? (Trackman Editorial Team, January 28, 2026)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3.0",
+      "10",
+      "8"
+    ],
+    "notes": "Same page; the 8-foot answer is from its FAQ."
+  },
+  {
+    "id": "home-golf-simulator-turf.trackman-garage-mat-and-room",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Trackman's garage setup guide says a hitting mat is required, that it should be level and stable, that the ceiling, walls and floor should be clear of obstructions, that reflective surfaces such as glass, big fans or polished metal can interfere with radar readings, and that a simulator room should have as few windows as possible.",
+    "quote": "Remember to limit the amount of windows in your golf simulator space. Your golf balls will be flying! … Make sure you keep your ceiling, walls, and floor clear of obstructions. The sensors in your Trackman will need an unobstructed view to gain accurate data. … Ensure the mat is level and stable enough, so it won’t disrupt your swing. … Make sure there’s no reflective surfaces nearby, such as glass, big fans or polished metal. These surfaces can interfere with your radar readings. … A hitting mat is required to protect your swing and setup.",
+    "source_url": "https://www.trackman.com/blog/garage-golf-simulator",
+    "source_label": "Trackman, Garage golf simulator: The complete guide to building your home setup with Trackman (Trackman Editorial Team, February 27, 2026)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl on 2026-10-16. The same guide gives a 9 to 10 foot ceiling minimum in its setup steps, a little below the 10 feet in Trackman's room-size article; the page uses the room-size article's figures."
+  },
+  {
+    "id": "home-golf-simulator-turf.foresight-room-size",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Foresight Sports recommends a 10-foot ceiling for a home simulator, says 9 feet works for many golfers and 8.5 feet for irons only, and recommends a room 12 to 15 feet wide and 15 to 18 feet deep, with depth depending on the launch monitor.",
+    "quote": "Ceiling Height · 10 feet (3.0m) · 9 feet works for many; 8.5 feet for irons only · Room Width · 12 to 15 feet · More width supports both right and left handed players · Room Depth · 15 to 18 feet · Depends on launch monitor and tracking technology",
+    "source_url": "https://www.foresightsports.com/blogs/golf-tips/complete-golf-simulator-room-setup",
+    "source_label": "Foresight Sports, Complete Golf Simulator Room Setup Guide: All Equipment and Real Costs (July 6, 2026)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "10",
+      "3.0",
+      "9",
+      "8.5",
+      "12",
+      "15",
+      "18"
+    ],
+    "notes": "Read with curl on 2026-10-16. The figures are a table on the page ('Recommended Dimensions'); the quote joins the cells with ' · '. The page also lists prices; the guide uses none of them."
+  },
+  {
+    "id": "home-golf-simulator-turf.foresight-garage-removable-turf",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Foresight Sports says garage simulators are common and that many use removable turf and mats so the space can still be used for parking or storage.",
+    "quote": "Garage setups are common and practical. They provide enough space while staying close to the house for power and internet access. Many garage simulators use removable turf and mats so the space can still be used for parking or storage.",
+    "source_url": "https://www.foresightsports.com/blogs/golf-tips/complete-golf-simulator-room-setup",
+    "source_label": "Foresight Sports, Complete Golf Simulator Room Setup Guide: All Equipment and Real Costs (July 6, 2026)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "home-golf-simulator-turf.foresight-falcon-layout",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Foresight's quick start guide for its ceiling-mounted Falcon says the ceiling should ideally be 9.5 to 10.5 feet, with the center of the hitting mat 10 to 12 feet from the screen and 4 feet from the Falcon, and room to swing for both left- and right-handed golfers.",
+    "quote": "Ideally, the ceiling should be 9.5 to 10.5 feet tall, and the center of the hitting mat should be placed 10 to 12 feet from the screen and 4 feet away from the Falcon. There should be room to swing for both a left-handed and right-handed golfer.",
+    "source_url": "https://support.foresightsports.com/sites/default/files/downloads/2024/Falcon%20QS%20Guide.pdf",
+    "source_label": "Foresight Sports, Falcon Quick Start Guide (PDF, January 2024), Installation Layout",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "9.5",
+      "10.5",
+      "10",
+      "12",
+      "4"
+    ],
+    "notes": "Downloaded with curl and read with pdftotext on 2026-10-16 (page 2, Installation Layout). The PDF's metadata dates it 2024-01-02."
+  },
+  {
+    "id": "home-golf-simulator-turf.foresight-putting-options",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Foresight Sports says you can putt on a simulator by putting a real ball at the sensor, using auto putt, or putting on a separate green and logging the result, that most simulators read the initial launch of the ball, and that a putt rolled to stop at a screen 15 feet away which the simulator reads as 15 feet means a 1:1 ratio.",
+    "quote": "There are several different ways that you can putt using a golf simulator. First, you can use the sensor and putt a real ball. Another option is to use auto putt. … Or, finally, you can use a separate putting green, placing the ball appropriately, putting it, and then logging that information. … This is because most simulators read the initial launch of the ball. … If your screen is placed 15 feet away from where you putt the ball on the simulator, hit the ball to stop right at the screen. You’ll then want to check the feedback from the system and see what the putt distance is converted to. If your screen is 15 feet away and the simulator says that the ball went 15 feet, you’re working with a 1:1 ratio.",
+    "source_url": "https://www.foresightsports.com/blogs/golf-tips/how-does-putting-work-golf-simulator",
+    "source_label": "Foresight Sports blog, How Does Putting Work on a Golf Simulator? (Dec. 2, 2020)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "15",
+      "1"
+    ],
+    "notes": "Read with curl on 2026-10-16 (the old URL foresightsports.com/how-does-putting-work-golf-simulator redirects here). A 2020 post; the same page's 9 by 12 by 12 foot room figure is older than the 2026 setup guide and is not used."
+  },
+  {
+    "id": "home-golf-simulator-turf.uneekor-room-width",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Uneekor says the room should be at least 13 feet from wall to wall for full driver swings, at least 15 feet for golfers 6 feet or taller, and recommends at least 12 feet from the impact screen to the tee area, with 10 feet as a minimum.",
+    "quote": "When looking at the impact screen, the distance from the room's left wall to right wall should be at least 13 ft to allow for full driver swings (at least 15 ft for golfers 6 ft or taller). The distance from the impact screen to the tee area is recommended to be at least 12 ft for safety purposes, but if this cannot be met, a minimum of 10 ft may suffice",
+    "source_url": "https://uneekor.com/en-us/help-center/pre-purchase-and-setup/how-much-space-is-needed-for-setup",
+    "source_label": "Uneekor Help Center, How much space is needed for setup?",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "13",
+      "15",
+      "6",
+      "12",
+      "10"
+    ],
+    "notes": "Read with curl on 2026-10-16. The sentence continues with a warning about ball bounce-back after a dash; the quote stops before it."
+  },
+  {
+    "id": "home-golf-simulator-turf.uneekor-overhead-height",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Uneekor says its overhead launch monitors need at least 9 feet of height and are designed to be mounted 9 to 10 feet up, measured from the top of the hitting area to the bottom of the mounting bracket, and that it cannot vouch for data accuracy outside that range.",
+    "quote": "For overhead launch monitors, a minimum height of 9 ft is required, as they are designed to be mounted between 9 ft - 10 ft off the ground. We cannot guarantee their data accuracy if mounted outside of this range, as the cameras are focused for this specific range. Specifically, the height is measured from the top of the hitting area (intersection of the red lines during calibration) to the bottom of the launch monitor's mounting bracket.",
+    "source_url": "https://uneekor.com/en-us/help-center/pre-purchase-and-setup/how-much-space-is-needed-for-setup",
+    "source_label": "Uneekor Help Center, How much space is needed for setup?",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "9",
+      "10"
+    ],
+    "notes": "Same page. The page copy paraphrases 'cannot guarantee' as 'cannot vouch for'; the word guarantee stays out of the guide."
+  },
+  {
+    "id": "home-golf-simulator-turf.synlawn-simulator-zones",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn Golf, a putting and golf turf maker, sells different turfs for different parts of a simulator: its Tee Strike for hitting areas, Precision Putt and Classic Pitch for receiving areas and SYNSport for fringe areas, and says its simulator turf mimics a tee line, rough or fringe.",
+    "quote": "SYNLawn’s Golf simulator turf replicates the look and feel of an actual golf course tee line, rough, or fringe, allowing golfers to practice and play indoors. … Yes. SYNLawn Golf has artificial turf solutions for golf-launch monitors and simulators, including Tee Strike for hitting areas, Precision Putt® and Classic Pitch for receiving areas, and SYNSport for fringe areas.",
+    "source_url": "https://www.synlawngolf.com/golf-simulator-turf/",
+    "source_label": "SYNLawn Golf, Golf Simulator Turf",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl on 2026-10-16. The second sentence is the page's FAQ answer; an invisible variation-selector character after '®' on the page is left out. The page's ranking and 'most realistic' claims are the maker's and are not repeated."
+  },
+  {
+    "id": "home-golf-simulator-turf.synlawn-tee-strike-mat-thickness",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn Golf says its Tee Strike Golf Mat is 1 5/8 inches thick, nylon turf over a 5/8-inch foam pad.",
+    "quote": "The SYNLawn Tee Strike Golf Mat is 1 5/8″ thick utilizing our premium proprietery 100% nylon turf with a 5/8″ premium foam pad backing.",
+    "source_url": "https://www.synlawngolf.com/golf-turf-products/tee-strike-golf-mat-5x5/",
+    "source_label": "SYNLawn Golf, Tee Strike Golf Mat 5′x5′ product page",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "5/8",
+      "100"
+    ],
+    "notes": "Read with curl on 2026-10-16. 'proprietery' is the page's spelling. One maker's mat, used to show how far a mat stands above the floor; other mats differ."
+  },
+  {
+    "id": "home-golf-simulator-turf.synlawn-hitting-mat-wear",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn Golf says its hitting mats have replaceable hitting inserts, that rotating a mat after extended use or noticeable wear extends its life, and that heavier use means replacing the surface sooner to keep a smooth swing-through and accurate results and feedback.",
+    "quote": "With replaceable hitting inserts and multiple tee positions, our mats offer versatile and customizable practice options. … Hitting mats include four recessed holes for rubber tees, so rotating the hitting mat after extended use or noticeable wear will extend the life of the mat. … The lifespan of artificial SYNLawn Golf's tee lines and hitting mats depends on their use and environmental conditions. Higher traffic and use will require replacement sooner to ensure its smooth swing through and accurate results and feedback.",
+    "source_url": "https://www.synlawngolf.com/golf-turf/hitting-mats/",
+    "source_label": "SYNLawn Golf, Pro Series Hitting Mats",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl on 2026-10-16; the last two sentences are from the page's FAQ. The maker gives no shot count or year figure for its mats."
+  },
+  {
+    "id": "home-golf-simulator-turf.synlawn-tee-strike-drag",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn Golf says its Tee Strike hitting turf is built to reduce club head drag through the impact zone.",
+    "quote": "At 120 oz and 1 inch of dense nylon, it holds your tee true, reduces club head drag, and cushions every stance, delivering fatigue-free practice from the first swing to the last.",
+    "source_url": "https://www.synlawngolf.com/golf-turf-products/tee-strike/",
+    "source_label": "SYNLawn Golf, Tee Strike Artificial Turf Tee Line product page",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "120",
+      "1"
+    ],
+    "notes": "Read with curl on 2026-10-16 (the product summary at the top of the page)."
+  },
+  {
+    "id": "home-golf-simulator-turf.fiberbuilt-panel-rotation",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Fiberbuilt Golf, a hitting mat maker, says changing the ball position spreads wear on its hitting panels, that panels can be rotated 180 degrees as wear emerges on one side, and that on double-hitting mats the left and right panels can be swapped or the worn one replaced.",
+    "quote": "Player Preferred Series - Regularly changing the ball position for hitting on the 2'x4' Pure Impact Turf hitting panels will optimize the patterns of wear on the panels. These panels can also be rotated 180º to increase their lives. Fiberbuilt Grass Series - Hitting surface panels can be rotated 180º as wear emerges on one side. In the case of Fiberbuilt Grass tee lines or double-hitting mats, you can swap the left side panel for the right side panel to maximize the overall life of the hitting surfaces, or just replace the one that is worn.",
+    "source_url": "https://fiberbuiltgolf.com/pages/product-care",
+    "source_label": "Fiberbuilt Golf, Product Care",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "4",
+      "180"
+    ],
+    "notes": "Read with curl on 2026-10-16. A double space before 'panel' on the page is closed up."
+  },
+  {
+    "id": "home-golf-simulator-turf.fiberbuilt-grit-damages-nylon",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Fiberbuilt Golf says sand and dirt that collect in nylon turf fibers deteriorate and damage the nylon, so it pressure-washes its hitting panels once a year and lifts its stance turf off the rubber base to wash it every few months.",
+    "quote": "Cleaning: Fiberbuilt Grass and Player Preferred Series hitting surfaces should be pressure washed once per year to remove any sand or dirt that has accumulated in the fibers. … Cleaning: Sand and dirt collects in the nylon fibers of Performance Turf and will deteriorate and damage the nylon if it is not washed regularly. Whether it's in Performance Turf Series Tee Boxes or stance and spacer mats in Fiberbuilt Grass Series mats, the turf should be removed from the rubber foundation and pressure washed every few months.",
+    "source_url": "https://fiberbuiltgolf.com/pages/product-care",
+    "source_label": "Fiberbuilt Golf, Product Care",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Same page as fiberbuilt-panel-rotation."
+  },
+  {
+    "id": "home-golf-simulator-turf.fiberbuilt-slide-through",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Fiberbuilt Golf says its Fiberbuilt Grass hitting surface is built to let the clubhead slide through to minimize wear, with low-friction fibers that let the club hit down and through.",
+    "quote": "Fiberbuilt Grass is built to let the clubhead slide through to minimize wear and its nylon fibers are coated with UV inhibitors to provide an unmatched level of durability. … Low-friction Fiberbuilt Grass fibers let the club hit down and through, eliminating the impact experienced with unforgiving traditional golf mats and preserving players' joints.",
+    "source_url": "https://fiberbuiltgolf.com/pages/fiberbuilt-grass-series",
+    "source_label": "Fiberbuilt Golf, Fiberbuilt Grass Series",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl on 2026-10-16. The durability superlative is the maker's and is not repeated."
+  },
+  {
+    "id": "home-golf-simulator-turf.fiberbuilt-indoor-floors",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Fiberbuilt Golf says its mats can go on indoor concrete or carpet, that on carpet a mat can move slightly with the grain while you hit unless two-way carpet tape anchors its frame, and that it is worth checking the layout with your launch monitor maker before the base is pinned together.",
+    "quote": "Fiberbuilt golf mats and putting greens can be installed on indoor surfaces including concrete or carpeted floors. If installing on carpet you may notice that your mat will move slightly with the grain of the carpet while you are hitting. If this is the case, you will need to install some light duty two-way carpet tape underneath the frame of your mat to anchor it down. … We recommend that you do not connect base pieces with connectors or pins at this stage so it's still easy to move the pieces around until you've nailed down the final locations. (Tech Tip: It's best to connect with your flight tracking technology provider ahead of time to ensure everything lines up with the new practice spaces.)",
+    "source_url": "https://fiberbuiltgolf.com/pages/installation-recommendations",
+    "source_label": "Fiberbuilt Golf, Installation Recommendations",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl on 2026-10-16. 'best' is the maker's word inside the quote; the page copy does not use it."
+  },
+  {
+    "id": "home-golf-simulator-turf.fiberbuilt-combo-mats",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Fiberbuilt Golf's combo mats put a hitting surface and a putting green on one rubber base, with hitting areas generally 4 feet deep, a putting portion that can be customized, and turf components that can be rotated or replaced.",
+    "quote": "Fiberbuilt’s Combo Mats combine our world-class Studio Mats and hitting surfaces with a premium putting green for practice with every club in the bag … FLEXIBLE DIMENSIONS - Hitting areas of our Combo Mats are generally 4 feet deep, while the putting portion comes in a range of standard depths and can be customized as desired … LONG LIFE - The mats’ modularity allows for rotating or removing and replacing turf components to maximize the lifetime of the mats",
+    "source_url": "https://fiberbuiltgolf.com/pages/combo-mats",
+    "source_label": "Fiberbuilt Golf, Combo Mats",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4"
+    ],
+    "notes": "Read with curl on 2026-10-16. The page lists prices; the guide uses none."
+  },
+  {
+    "id": "home-golf-simulator-turf.fiberbuilt-putting-turf-stimp",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Fiberbuilt Golf says the putting turf on its putting greens runs at a stimpmeter speed of 9, with metal cups.",
+    "quote": "TRUE, NATURAL ROLL - Realistic practice on commercial-grade putting turf, running at a stimpmeter speed of 9 … METAL CUPS - Accurate targets with authentic sound for auditory feedback",
+    "source_url": "https://fiberbuiltgolf.com/pages/putting-greens",
+    "source_label": "Fiberbuilt Golf, Putting Greens",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "9"
+    ],
+    "notes": "Read with curl on 2026-10-16. A maker's own speed figure for its own turf."
+  },
+  {
+    "id": "home-golf-simulator-turf.irc-2021-r305-ceiling",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The 2021 International Residential Code sets a 7-foot minimum ceiling for basement living space and lets beams, girders and ducts hang to within 6 feet 4 inches of the finished floor.",
+    "quote": "Habitable space, hallways and portions of basements containing these spaces shall have a ceiling height of not less than 7 feet (2134 mm). … Beams, girders, ducts or other obstructions in basements containing habitable space shall be permitted to project to within 6 feet 4 inches (1931 mm) of the finished floor.",
+    "source_url": "https://codes.iccsafe.org/content/IRC2021P2/chapter-3-building-planning",
+    "source_label": "International Code Council, 2021 International Residential Code, Chapter 3, Sec. R305.1",
+    "checked": "2026-10-16",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "2021",
+      "7",
+      "2134",
+      "6",
+      "4",
+      "1931"
+    ],
+    "notes": "Read in a browser on ICC Digital Codes (the publisher's free view) on 2026-10-16; the page renders its text by script, so curl returns none (hence reachable false). The same text was matched on UpCodes' copy of the Colorado DFPC Residential Code 2021. Towns adopt their own edition and amendments; the page tells readers to ask their building department."
+  },
+  {
+    "id": "home-golf-simulator-turf.irc-2021-r310-escape-opening",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The 2021 International Residential Code requires a basement to have at least one operable emergency escape and rescue opening that works from inside without keys, tools or special knowledge, with the bottom of the opening no more than 44 inches above the floor.",
+    "quote": "Basements, habitable attics and every sleeping room shall have not less than one operable emergency escape and rescue opening. … Emergency escape and rescue openings shall be operational from the inside of the room without the use of keys, tools or special knowledge. … Emergency escape and rescue openings shall have the bottom of the clear opening not greater than 44 inches (1118 mm) above the floor.",
+    "source_url": "https://codes.iccsafe.org/content/IRC2021P2/chapter-3-building-planning",
+    "source_label": "International Code Council, 2021 International Residential Code, Chapter 3, Secs. R310.1, R310.1.1 and R310.2.3",
+    "checked": "2026-10-16",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "2021",
+      "44",
+      "1118"
+    ],
+    "notes": "Read in a browser on ICC Digital Codes on 2026-10-16 (script-rendered; see irc-2021-r305-ceiling)."
+  },
+  {
+    "id": "home-golf-simulator-turf.irc-2021-r310-7-existing-basement",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Under the 2021 International Residential Code, altering an existing basement does not by itself require a new escape opening; a new sleeping room in it does.",
+    "quote": "New sleeping rooms created in an existing basement shall be provided with emergency escape and rescue openings in accordance with Section R310.1. Other than new sleeping rooms, where existing basements undergo alterations or repairs, an emergency escape and rescue opening is not required.",
+    "source_url": "https://codes.iccsafe.org/content/IRC2021P2/chapter-3-building-planning",
+    "source_label": "International Code Council, 2021 International Residential Code, Chapter 3, Sec. R310.7",
+    "checked": "2026-10-16",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "2021",
+      "1"
+    ],
+    "notes": "Read in a browser on ICC Digital Codes on 2026-10-16. The section has an exception for an existing operable window (R310.7.1) that the page does not need. The '1' in numbers is the checker reading 'Section R310.1'; the record states no figure."
+  },
+  {
+    "id": "home-golf-simulator-turf.irc-2021-r314-smoke-alarms",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The 2021 International Residential Code requires smoke alarms on each story including basements, and when alterations needing a permit are made, the home must have smoke alarms where a new home would need them.",
+    "quote": "Where alterations, repairs or additions requiring a permit occur, the individual dwelling unit shall be equipped with smoke alarms located as required for new dwellings. … Smoke alarms shall be installed in the following locations: … On each additional story of the dwelling, including basements and habitable attics and not including crawl spaces and uninhabitable attics.",
+    "source_url": "https://codes.iccsafe.org/content/IRC2021P2/chapter-3-building-planning",
+    "source_label": "International Code Council, 2021 International Residential Code, Chapter 3, Secs. R314.2.2 and R314.3",
+    "checked": "2026-10-16",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "2021"
+    ],
+    "notes": "Read in a browser on ICC Digital Codes on 2026-10-16. R314.2.2 has exceptions for exterior work and plumbing or mechanical work that the page does not need."
+  },
+  {
+    "id": "home-golf-simulator-turf.irc-2021-r302-13-floor-membrane",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The 2021 International Residential Code requires a 1/2-inch gypsum or 5/8-inch wood structural panel membrane under floor framing, with exceptions that include floors over a sprinklered space, unprotected areas up to 80 square feet per story ringed with fireblocking, and floors framed with dimension lumber of 2 by 10 inches or larger.",
+    "quote": "Floor assemblies that are not required elsewhere in this code to be fire-resistance rated, shall be provided with a 1/2-inch (12.7 mm) gypsum wallboard membrane, 5/8-inch (16 mm) wood structural panel membrane, or equivalent on the underside of the floor framing member. … Floor assemblies located directly over a space protected by an automatic sprinkler system in accordance with Section P2904, NFPA 13D, or other approved equivalent sprinkler system. … The aggregate area of the unprotected portions does not exceed 80 square feet (7.4 m2) per story. Fireblocking in accordance with Section R302.11.1 is installed along the perimeter of the unprotected portion to separate the unprotected portion from the remainder of the floor assembly. … Wood floor assemblies using dimension lumber or structural composite lumber equal to or greater than 2-inch by 10-inch (50.8 mm by 254 mm) nominal dimension, or other approved floor assemblies demonstrating equivalent fire performance.",
+    "source_url": "https://codes.iccsafe.org/content/IRC2021P2/chapter-3-building-planning",
+    "source_label": "International Code Council, 2021 International Residential Code, Chapter 3, Sec. R302.13",
+    "checked": "2026-10-16",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "2021",
+      "1/2",
+      "12.7",
+      "5/8",
+      "16",
+      "80",
+      "7.4",
+      "2",
+      "10",
+      "50.8",
+      "254"
+    ],
+    "notes": "Read in a browser on ICC Digital Codes on 2026-10-16. The quoted exceptions are R302.13 items 1, 3.1, 3.2 and 4; item 2 (crawl spaces) is left out. Used only to say: ask before taking a basement ceiling down to the joists for swing room."
+  },
+  {
+    "id": "home-golf-simulator-turf.noaa-greeley-unc-winter",
+    "layer": "climate",
+    "applies_to": [
+      "greeley-co",
+      "windsor-co",
+      "johnstown-co",
+      "severance-co",
+      "evans-co",
+      "eaton-co",
+      "milliken-co"
+    ],
+    "fact": "At NOAA's Greeley UNC station the high stays at or below 32°F on 19.1 days of an average year, the low reaches 32°F or colder on 152.7 nights, snow totals 34.9 inches, and in half of years the first 32°F night comes by October 8 and the last comes after May 2 (1991 to 2020 normals).",
+    "quote": "GREELEY UNC, CO US (USC00053553) · ANN-TMAX-AVGNDS-LSTH032 19.1 · ANN-TMIN-AVGNDS-LSTH032 152.7 · ANN-SNOW-NORMAL 34.9 · ANN-TMIN-PRBFST-T32FP50 10/08 · ANN-TMIN-PRBLST-T32FP50 05/02",
+    "source_url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053553&format=json&includeStationName=true",
+    "source_label": "NOAA NCEI U.S. Climate Normals 1991 to 2020, annual/seasonal, station GREELEY UNC (USC00053553): freezing days and nights, snow, freeze dates",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "32",
+      "19.1",
+      "152.7",
+      "34.9",
+      "8",
+      "2",
+      "10/08",
+      "05/02",
+      "1991",
+      "2020"
+    ],
+    "notes": "Read from the NCEI data service JSON on 2026-10-16 (NAME 'GREELEY UNC, CO US'). TMAX LSTH032 = days with a high at or below 32°F; TMIN LSTH032 = days with a low at or below 32°F; PRBFST/PRBLST T32FP50 = the date by which the first fall 32°F night has come, and after which the last spring one comes, in 50% of years. The shared record noaa-normals-greeley-unc holds this station's heat and precipitation figures. Station-to-town assignment by proximity (INFERENCE): say 'the nearest NOAA station'."
+  }
+]

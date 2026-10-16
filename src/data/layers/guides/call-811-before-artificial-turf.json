@@ -1,0 +1,748 @@
+[
+  {
+    "id": "call-811-before-artificial-turf.crs-9-1.5-102-excavation",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado law defines excavation as any operation that moves or removes earth with any tool, equipment or explosive, names backfilling, grading, scraping, trenching and postholing among its examples, and leaves out routine maintenance on existing planted landscapes.",
+    "quote": "\"Excavation\" means any operation in which earth is moved or removed by means of any tools, equipment, or explosives and includes augering, backfilling, boring, ditching, drilling, grading, plowing-in, pulling-in, ripping, scraping, trenching, hydro excavating, postholing, and tunneling. \"Excavation\" does not include: (a) Routine maintenance on existing planted landscapes; or …",
+    "source_url": "https://drive.google.com/file/d/192Up_49_YWPEwfY7kZq6pR3JpVprUYah/view?usp=sharing",
+    "source_label": "C.R.S. 9-1.5-102(3), Colorado Revised Statutes 2026, uncertified copy linked from the Colorado Division of Oil and Public Safety",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [],
+    "notes": "Read 2026-10-16 in the 2026 uncertified copy linked from ops.colorado.gov/RegulationsStatutes (\"Underground Damage Prevention Safety Commission Statutes 2026\"). Same text as the 2022 printout at ops.colorado.gov (UDPSafetyCommissionStatutes010623.pdf). Re-read after the 2027 legislative session."
+  },
+  {
+    "id": "call-811-before-artificial-turf.crs-9-1.5-102-routine-maintenance",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado law limits routine maintenance to a regular activity, at least once a year, on an existing planted landscape that disturbs earth no deeper than 12 inches by hand or 4 inches by machine and is not meant to permanently lessen the ground cover or lower the existing ground contours, and it names lawn edgers among that work's machines.",
+    "quote": "\"Routine maintenance\" means a regular activity that happens at least once per year on an existing planted landscape if earth is not disturbed at a depth of more than twelve inches by nonmechanical means or four inches by mechanical means and if the activities are not intended to permanently lessen the ground cover or lower the existing ground contours. Mechanical equipment used for routine maintenance tasks shall be defined as aerators, hand-held rototillers, soil injection needles, lawn edgers, overseeders, and hand tools.",
+    "source_url": "https://drive.google.com/file/d/192Up_49_YWPEwfY7kZq6pR3JpVprUYah/view?usp=sharing",
+    "source_label": "C.R.S. 9-1.5-102(6.5), Colorado Revised Statutes 2026, uncertified copy linked from the Colorado Division of Oil and Public Safety",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "12",
+      "4"
+    ],
+    "notes": "Read 2026-10-16 in the 2026 uncertified copy linked from ops.colorado.gov/RegulationsStatutes (\"Underground Damage Prevention Safety Commission Statutes 2026\"). Same text as the 2022 printout at ops.colorado.gov (UDPSafetyCommissionStatutes010623.pdf). Re-read after the 2027 legislative session."
+  },
+  {
+    "id": "call-811-before-artificial-turf.crs-9-1.5-103-notice",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado law says a person may not begin excavation without first notifying Colorado 811, at least two business days ahead not counting the day of notice, and the notice must give the name and phone number of the person filing it and of the excavator, plus the dig's location, start date and description.",
+    "quote": "… a person shall not make or begin excavation without first notifying the notification association. … (b) Notice of the commencement, extent, and duration of the excavation work shall be given at least two business days prior thereto not including the day of actual notice. (c) (I) Any notice given pursuant to subsection (3)(b) of this section must include the following: (A) The name and telephone number of the person who is giving the notice; (B) The name and telephone number of the excavator; and (C) The specific location, starting date, and description of the intended excavation activity.",
+    "source_url": "https://drive.google.com/file/d/192Up_49_YWPEwfY7kZq6pR3JpVprUYah/view?usp=sharing",
+    "source_label": "C.R.S. 9-1.5-103(3), Colorado Revised Statutes 2026, uncertified copy linked from the Colorado Division of Oil and Public Safety",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "811"
+    ],
+    "notes": "Read 2026-10-16 in the 2026 uncertified copy linked from ops.colorado.gov/RegulationsStatutes (\"Underground Damage Prevention Safety Commission Statutes 2026\"). Same text as the 2022 printout at ops.colorado.gov (UDPSafetyCommissionStatutes010623.pdf). Re-read after the 2027 legislative session."
+  },
+  {
+    "id": "call-811-before-artificial-turf.crs-9-1.5-103-white-marks",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado law says that when a dig area cannot be described accurately on the locate request, the excavator shows it to the utilities with white marks on a hard surface, a marked map, plan or aerial photograph, or an on-site meeting.",
+    "quote": "(II) If an area of excavation cannot be accurately described on the locate request, the excavator shall notify the owner or operator of the area of excavation using one or more of the following methods: (A) Physical delineation with white marks on a hard surface area; (B) Electronic delineation on a map, plan sheet, or aerial photograph that can be transmitted electronically from the excavator to the facility owner or operator through the notification association; or (C) Scheduling an on-site meeting between the excavator and the owner or operator.",
+    "source_url": "https://drive.google.com/file/d/192Up_49_YWPEwfY7kZq6pR3JpVprUYah/view?usp=sharing",
+    "source_label": "C.R.S. 9-1.5-103(3)(c)(II), Colorado Revised Statutes 2026, uncertified copy linked from the Colorado Division of Oil and Public Safety",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [],
+    "notes": "Read 2026-10-16 in the 2026 uncertified copy linked from ops.colorado.gov/RegulationsStatutes (\"Underground Damage Prevention Safety Commission Statutes 2026\"). Same text as the 2022 printout at ops.colorado.gov (UDPSafetyCommissionStatutes010623.pdf). Re-read after the 2027 legislative session."
+  },
+  {
+    "id": "call-811-before-artificial-turf.crs-9-1.5-103-marking",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado law gives each utility two business days after the notice, not counting the day of notice, to mark its lines at no cost to the excavator within 18 inches horizontally of each side, with the depth if known, in the American Public Works Association's uniform color code.",
+    "quote": "Any owner or operator receiving notice pursuant to subsection (3) of this section shall, at no cost to the excavator and within two business days, not including the day of actual notice, use reasonable care to advise the excavator of the location, number, and size of any underground facilities in the proposed excavation area … by marking the location of the facilities with clearly identifiable markings within eighteen inches horizontally from the exterior sides of the facilities. The markings must include the depth, if known, and shall be made pursuant to the uniform color code as approved by the American Public Works Association.",
+    "source_url": "https://drive.google.com/file/d/192Up_49_YWPEwfY7kZq6pR3JpVprUYah/view?usp=sharing",
+    "source_label": "C.R.S. 9-1.5-103(4)(a)(I), Colorado Revised Statutes 2026, uncertified copy linked from the Colorado Division of Oil and Public Safety",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "18"
+    ],
+    "notes": "Read 2026-10-16 in the 2026 uncertified copy linked from ops.colorado.gov/RegulationsStatutes (\"Underground Damage Prevention Safety Commission Statutes 2026\"). Same text as the 2022 printout at ops.colorado.gov (UDPSafetyCommissionStatutes010623.pdf). Re-read after the 2027 legislative session."
+  },
+  {
+    "id": "call-811-before-artificial-turf.crs-9-1.5-103-marks-30-days",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado law treats locate marks as valid only while clearly visible and for no more than 30 calendar days after the request's due date, requires an excavator still digging to notify Colorado 811 at least two business days before that period ends, and makes willfully or maliciously removing a mark, outside the ordinary course of excavation, a petty offense.",
+    "quote": "(b) The marking of underground facilities shall be considered valid so long as the markings are clearly visible, but not for more than thirty calendar days following the due date of the locate request initiated pursuant to subsection (3) of this section. If an excavation has not been completed within the thirty-day period, the excavator shall notify the notification association at least two business days, not including the day of actual notice, before the end of the thirty-day period. (b.5) Any person who willfully or maliciously removes a marking used by an owner or operator to mark the location of any underground facility, except in the ordinary course of excavation, commits a petty offense.",
+    "source_url": "https://drive.google.com/file/d/192Up_49_YWPEwfY7kZq6pR3JpVprUYah/view?usp=sharing",
+    "source_label": "C.R.S. 9-1.5-103(4)(b) and (b.5), Colorado Revised Statutes 2026, uncertified copy linked from the Colorado Division of Oil and Public Safety",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "30",
+      "811"
+    ],
+    "notes": "Read 2026-10-16 in the 2026 uncertified copy linked from ops.colorado.gov/RegulationsStatutes (\"Underground Damage Prevention Safety Commission Statutes 2026\"). Same text as the 2022 printout at ops.colorado.gov (UDPSafetyCommissionStatutes010623.pdf). Re-read after the 2027 legislative session."
+  },
+  {
+    "id": "call-811-before-artificial-turf.crs-9-1.5-103-tolerance-records",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado law requires anyone digging within 18 inches horizontally of a marked line to use nondestructive means, requires the excavator to keep photographs, video or sketches of the marked lines at the site and adequate marks for the whole dig, and, if the marks or records are lost, to stop digging there and ask through Colorado 811 for the lines to be reverified.",
+    "quote": "(c) (I) (A) When a person excavates within eighteen inches horizontally from the exterior sides of any marked underground facility, the person shall use nondestructive means of excavation to identify underground facilities and shall otherwise exercise reasonable care to protect any underground facility in or near the excavation area. … (B) The excavator shall maintain adequate and accurate documentation, including photographs, video, or sketches and documentation obtained through the notification association, at the excavation site on the location and identification of any underground facility and shall maintain adequate markings of any underground facility throughout the excavation period. … (II) (A) If the documentation or markings maintained pursuant to subsection (4)(c)(I) of this section become lost or invalid, the excavator shall notify the notification association or the affected owner or operator through the notification association and request an immediate reverification of the location of any underground facility. … The excavator shall cease excavation activities at the affected location until the location of any underground facilities has been reverified.",
+    "source_url": "https://drive.google.com/file/d/192Up_49_YWPEwfY7kZq6pR3JpVprUYah/view?usp=sharing",
+    "source_label": "C.R.S. 9-1.5-103(4)(c), Colorado Revised Statutes 2026, uncertified copy linked from the Colorado Division of Oil and Public Safety",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "18",
+      "811"
+    ],
+    "notes": "Read 2026-10-16 in the 2026 uncertified copy linked from ops.colorado.gov/RegulationsStatutes (\"Underground Damage Prevention Safety Commission Statutes 2026\"). Same text as the 2022 printout at ops.colorado.gov (UDPSafetyCommissionStatutes010623.pdf). Re-read after the 2027 legislative session."
+  },
+  {
+    "id": "call-811-before-artificial-turf.crs-9-1.5-103-no-response",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado law says that if a utility's marks do not arrive within two business days, not counting the day of notice, or do not identify its lines, the excavator must immediately notify the utility through Colorado 811, may then proceed, and is not liable for damage to that line unless it failed to use reasonable care.",
+    "quote": "(6) If documentation or markings requested and needed by an excavator pursuant to subsection (4) of this section are not provided by the owner or operator within two business days, not including the day of actual notice, or such later time as agreed upon by the excavator and the owner or operator, or, if the documentation or markings provided fail to identify the location of the underground facilities, the excavator shall immediately give notice through the notification association to the owner or operator, may proceed with the excavation, and is not liable for such damage except upon proof of the excavator's lack of reasonable care.",
+    "source_url": "https://drive.google.com/file/d/192Up_49_YWPEwfY7kZq6pR3JpVprUYah/view?usp=sharing",
+    "source_label": "C.R.S. 9-1.5-103(6), Colorado Revised Statutes 2026, uncertified copy linked from the Colorado Division of Oil and Public Safety",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "811"
+    ],
+    "notes": "Read 2026-10-16 in the 2026 uncertified copy linked from ops.colorado.gov/RegulationsStatutes (\"Underground Damage Prevention Safety Commission Statutes 2026\"). Same text as the 2022 printout at ops.colorado.gov (UDPSafetyCommissionStatutes010623.pdf). Re-read after the 2027 legislative session."
+  },
+  {
+    "id": "call-811-before-artificial-turf.crs-9-1.5-103-damage",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado law requires an excavator who damages an underground line to tell the line's owner and Colorado 811 immediately where the damage is and how extensive it is, to cooperate with the owner to limit the damage, and to report escaping gas or hazardous liquid by calling 911.",
+    "quote": "In the event of damage to any underground facility, the excavator shall immediately notify the affected owner or operator and the notification association of the location and extent of such damage. … (7) (a) In the event of damage to an underground facility, the excavator, owner, and operator shall cooperate to mitigate damages to the extent reasonably possible … (9) If damage results in the escape of any interstate or intrastate natural gas or other gas or hazardous liquid, the excavator or person that caused the damage shall promptly report to the owner and operator and the appropriate authorities by calling the 911 emergency telephone number or another emergency telephone number.",
+    "source_url": "https://drive.google.com/file/d/192Up_49_YWPEwfY7kZq6pR3JpVprUYah/view?usp=sharing",
+    "source_label": "C.R.S. 9-1.5-103(5), (7) and (9), Colorado Revised Statutes 2026, uncertified copy linked from the Colorado Division of Oil and Public Safety",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "811",
+      "911"
+    ],
+    "notes": "Read 2026-10-16 in the 2026 uncertified copy linked from ops.colorado.gov/RegulationsStatutes (\"Underground Damage Prevention Safety Commission Statutes 2026\"). Same text as the 2022 printout at ops.colorado.gov (UDPSafetyCommissionStatutes010623.pdf). Re-read after the 2027 legislative session."
+  },
+  {
+    "id": "call-811-before-artificial-turf.crs-9-1.5-103-permits",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado law says a permit from a government agency does not relieve an excavator of the excavation law's duties, including the 811 notice, and leaves local permit requirements in place.",
+    "quote": "Nothing in this article 1.5 affects or impairs any local ordinances or other provisions of law requiring permits to be obtained before an excavation. A permit issued by a government agency does not relieve an excavator from complying with this article 1.5.",
+    "source_url": "https://drive.google.com/file/d/192Up_49_YWPEwfY7kZq6pR3JpVprUYah/view?usp=sharing",
+    "source_label": "C.R.S. 9-1.5-103(11), Colorado Revised Statutes 2026, uncertified copy linked from the Colorado Division of Oil and Public Safety",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "811"
+    ],
+    "notes": "Read 2026-10-16 in the 2026 uncertified copy linked from ops.colorado.gov/RegulationsStatutes (\"Underground Damage Prevention Safety Commission Statutes 2026\"). Same text as the 2022 printout at ops.colorado.gov (UDPSafetyCommissionStatutes010623.pdf). Re-read after the 2027 legislative session."
+  },
+  {
+    "id": "call-811-before-artificial-turf.crs-9-1.5-104.5-civil-penalties",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado law makes anyone other than a homeowner, rancher or farmer working on their own property liable for a $200 civil penalty for digging without notifying Colorado 811, and, if that dig damages a line, for $5,000 on a first offense and up to $25,000 for each later one within 12 months.",
+    "quote": "(b) Any person, other than a homeowner, rancher, or farmer, … working on such homeowner's, rancher's, or farmer's property, who fails to notify the notification association or the affected owner or operator pursuant to paragraph (a) of this subsection (2) shall be liable for a civil penalty in the amount of two hundred dollars. (c) (I) If any person, other than a homeowner, rancher, or farmer, … working on such homeowner's, rancher's, or farmer's property, fails to comply with paragraph (a) of this subsection (2) and damages an underground facility during excavation, such person shall be liable for a civil penalty in the amount of five thousand dollars for the first offense and up to twenty-five thousand dollars for each subsequent offense within a twelve-month period after the first offense.",
+    "source_url": "https://drive.google.com/file/d/192Up_49_YWPEwfY7kZq6pR3JpVprUYah/view?usp=sharing",
+    "source_label": "C.R.S. 9-1.5-104.5(2)(b) and (c), Colorado Revised Statutes 2026, uncertified copy linked from the Colorado Division of Oil and Public Safety",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "200",
+      "811",
+      "5000",
+      "25000",
+      "12"
+    ],
+    "notes": "Read 2026-10-16 in the 2026 uncertified copy linked from ops.colorado.gov/RegulationsStatutes (\"Underground Damage Prevention Safety Commission Statutes 2026\"). Same text as the 2022 printout at ops.colorado.gov (UDPSafetyCommissionStatutes010623.pdf). Re-read after the 2027 legislative session."
+  },
+  {
+    "id": "call-811-before-artificial-turf.crs-9-1.5-104.5-presumed-liability",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado law presumes that a person other than a homeowner, rancher or farmer working on their own property who skips the 811 notice, or digs without reasonable care, and damages a line is liable for the owner's repair costs and any resulting injury or property damage, unless the line's owner failed to use reasonable care in marking it.",
+    "quote": "(d) If any person, other than a homeowner, rancher, or farmer, … working on such homeowner's, rancher's, or farmer's property, fails to comply with paragraph (a) of this subsection (2) or fails to exercise reasonable care in excavating or performing routine maintenance and damages an underground facility during such excavation or routine maintenance, such person shall be presumably liable for: (I) Any cost or damage incurred by the owner or operator in restoring, repairing, or replacing its damaged underground facility, together with reasonable costs and expenses of suit, including reasonable attorney fees; and (II) Any injury or damage to persons or property resulting from the damage to the underground facility. … (e) Paragraph (d) of this subsection (2) shall not apply to a person who commences excavation affecting an underground facility if the owner or operator of the underground facility has failed to comply with paragraph (a) of subsection (1) of this section or has failed to use reasonable care in the marking of the affected underground facility.",
+    "source_url": "https://drive.google.com/file/d/192Up_49_YWPEwfY7kZq6pR3JpVprUYah/view?usp=sharing",
+    "source_label": "C.R.S. 9-1.5-104.5(2)(d) and (e), Colorado Revised Statutes 2026, uncertified copy linked from the Colorado Division of Oil and Public Safety",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "811"
+    ],
+    "notes": "Read 2026-10-16 in the 2026 uncertified copy linked from ops.colorado.gov/RegulationsStatutes (\"Underground Damage Prevention Safety Commission Statutes 2026\"). Same text as the 2022 printout at ops.colorado.gov (UDPSafetyCommissionStatutes010623.pdf). Re-read after the 2027 legislative session."
+  },
+  {
+    "id": "call-811-before-artificial-turf.crs-9-1.5-104.5-other-remedies",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado law says the excavation law's penalties and remedies come in addition to any other remedy at law or equity available to an excavator or to the owner of a damaged line.",
+    "quote": "(c) The penalties and remedies provided in this article 1.5 are in addition to any other remedy at law or equity available to an excavator or to the owner or operator of a damaged underground facility …",
+    "source_url": "https://drive.google.com/file/d/192Up_49_YWPEwfY7kZq6pR3JpVprUYah/view?usp=sharing",
+    "source_label": "C.R.S. 9-1.5-104.5(3)(c), Colorado Revised Statutes 2026, uncertified copy linked from the Colorado Division of Oil and Public Safety",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [],
+    "notes": "Read 2026-10-16 in the 2026 uncertified copy linked from ops.colorado.gov/RegulationsStatutes (\"Underground Damage Prevention Safety Commission Statutes 2026\"). Same text as the 2022 printout at ops.colorado.gov (UDPSafetyCommissionStatutes010623.pdf). Re-read after the 2027 legislative session."
+  },
+  {
+    "id": "call-811-before-artificial-turf.crs-9-1.5-104.4-fines",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado law lets the Underground Damage Prevention Safety Commission fine a violator up to $5,000 for a first violation and up to $75,000 for each later one within 12 months, exempts a homeowner working on their own property from a fine for failing to notify and damaging a line, and repeals that fine section on September 1, 2028, after a sunset review.",
+    "quote": "(1) A person who violates this article 1.5 is subject to a fine of not more than five thousand dollars for an initial violation and not more than seventy-five thousand dollars for each subsequent violation within a twelve-month period. … (4) The following are not subject to a fine otherwise authorized pursuant to this section: … (b) With regard to a failure to notify the notification association or the affected owner or operator and to damage to an underground facility during excavation, a homeowner, rancher, or farmer, … working on the homeowner's, rancher's, or farmer's property. … Editor's note: This section is repealed, effective September 1, 2028, pursuant to § 9-1.5-108. … Before the repeal, the functions of the underground damage prevention safety commission related to underground facilities specified in sections 9-1.5-104.2, 9-1.5-104.4, 9-1.5-104.7, and 9-1.5-104.8 are scheduled for review in accordance with section 24-34-104.",
+    "source_url": "https://drive.google.com/file/d/192Up_49_YWPEwfY7kZq6pR3JpVprUYah/view?usp=sharing",
+    "source_label": "C.R.S. 9-1.5-104.4 and 9-1.5-108, Colorado Revised Statutes 2026, uncertified copy linked from the Colorado Division of Oil and Public Safety",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [
+      "5000",
+      "75000",
+      "12",
+      "1",
+      "2028"
+    ],
+    "notes": "Read 2026-10-16 in the 2026 uncertified copy linked from ops.colorado.gov/RegulationsStatutes (\"Underground Damage Prevention Safety Commission Statutes 2026\"). Same text as the 2022 printout at ops.colorado.gov (UDPSafetyCommissionStatutes010623.pdf). Re-read after the 2027 legislative session."
+  },
+  {
+    "id": "call-811-before-artificial-turf.crs-9-1.5-104.2-complaints",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado law places the Underground Damage Prevention Safety Commission in the Colorado Department of Labor and Employment and lets any person bring it a complaint of an alleged violation of the excavation law.",
+    "quote": "(1) (a) There is created the underground damage prevention safety commission in the department of labor and employment. … (4) The safety commission may review complaints of alleged violations of this article 1.5. Any person may bring a complaint to the safety commission regarding an alleged violation.",
+    "source_url": "https://drive.google.com/file/d/192Up_49_YWPEwfY7kZq6pR3JpVprUYah/view?usp=sharing",
+    "source_label": "C.R.S. 9-1.5-104.2(1) and (4), Colorado Revised Statutes 2026, uncertified copy linked from the Colorado Division of Oil and Public Safety",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-15",
+    "numbers": [],
+    "notes": "Read 2026-10-16 in the 2026 uncertified copy linked from ops.colorado.gov/RegulationsStatutes (\"Underground Damage Prevention Safety Commission Statutes 2026\"). Same text as the 2022 printout at ops.colorado.gov (UDPSafetyCommissionStatutes010623.pdf). Re-read after the 2027 legislative session."
+  },
+  {
+    "id": "call-811-before-artificial-turf.co811-landscaping-stakes",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado 811 says every Colorado property owner must contact it at least 48 hours ahead, not counting weekends, the day of notice or legal holidays, before any excavation, lists landscaping, planting shrubs and trees, driving landscaping stakes and installing a retaining wall among the examples, and tells homeowners not to rely only on a landscaper.",
+    "quote": "All Colorado property owners must contact Colorado 811 at least 48 hours (excluding weekends, the day of the notification, and legal holidays) before beginning any excavation project – as required by Colorado law. Examples of work are: Landscaping (Don’t just rely on your landscaper to do it, if in doubt, contact 811 yourself). … Planting shrubs and trees and removing tree roots … Driving landscaping stakes into the ground … Installing a retaining wall",
+    "source_url": "https://www.colorado811.org/residential-digging",
+    "source_label": "Colorado 811, Residential Property: Planning to Dig on Your Property?",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "48",
+      "811"
+    ]
+  },
+  {
+    "id": "call-811-before-artificial-turf.co811-shallow-digging",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado 811 says shallow digging is still digging, that underground utilities are often very close to the surface, and that any excavation, including digging by hand, grading and scraping, needs a request to 811 first.",
+    "quote": "Shallow digging is still digging … Underground utilities are often located very close to the surface. No matter how shallow or how deep you are digging, you must contact 811 first for any excavation including digging by hand, digging with machinery, grading, scraping, trenching, tunnelling, plowing—and more.",
+    "source_url": "https://www.colorado811.org/residential-digging",
+    "source_label": "Colorado 811, Residential Property: Planning to Dig on Your Property?",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "811"
+    ]
+  },
+  {
+    "id": "call-811-before-artificial-turf.co811-when-to-start",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado 811 tells homeowners that state law requires contacting it at least two full business days before digging, not counting the day of notice, to wait at least 3 full business days and track the request, and to start only once every utility in the area has posted an all clear and the marks are clearly visible.",
+    "quote": "State law requires you to contact Colorado 811 at least two full business days before you dig (not including the day of notification). … Wait at least 3 full business days and track your request on colorado811.org. … You can start digging once all markings or flags are clearly visible on the ground of your excavation areas and you receive a status update from all utilities located in your excavation area indicating an all clear.",
+    "source_url": "https://www.colorado811.org/residential-digging",
+    "source_label": "Colorado 811, Residential Property: Planning to Dig on Your Property?",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "811",
+      "3"
+    ]
+  },
+  {
+    "id": "call-811-before-artificial-turf.co811-hit-a-line",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado 811 says that if you hit a utility line you should get to safety, call 911 in an emergency, and report the damage to Colorado 811 right away by calling 811.",
+    "quote": "I hit a utility line! What do I do now? Get to safety and call 911 in an emergency. Report a utility line damage to Colorado 811 right away by calling 811 …",
+    "source_url": "https://www.colorado811.org/residential-digging",
+    "source_label": "Colorado 811, Residential Property: Planning to Dig on Your Property?",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "911",
+      "811"
+    ]
+  },
+  {
+    "id": "call-811-before-artificial-turf.co811-private-locate-fees",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado 811 says utilities mark only the lines they own, that private lines such as sprinkler and gas lines are the property owner's to have marked before digging, and that private locates average $100 to $350 depending on the company and the property's type and size.",
+    "quote": "There may be private utilities within your dig area such as sprinkler lines, gas lines, or a BBQ, that require you to higher a private locating company in addition to calling 811. … It is your responsibility to have private utilities marked before digging. Colorado 811 does not mark private utility lines. … Public utility companies will mark only the lines that they own. … Fees for private locate services in average range from $100 to $350, depending on the company you use and the property type and size located.",
+    "source_url": "https://www.colorado811.org/residential-digging",
+    "source_label": "Colorado 811, Residential Property: Planning to Dig on Your Property?",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-04-30",
+    "numbers": [
+      "811",
+      "100",
+      "350"
+    ],
+    "notes": "The fee range is a price average Colorado 811 publishes; re-read it each April (Dig Safely Month), when 811 refreshes its homeowner material."
+  },
+  {
+    "id": "call-811-before-artificial-turf.co811-own-name",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado 811 says the party doing the actual excavation, whether homeowner, contractor or landscaper, must submit the locate request in their own name, that a residential request may not extend beyond a single address, and that private lines are not marked as part of it.",
+    "quote": "The party performing the actual excavation (homeowner, contractor, landscaper, etc.) must submit the locate request in their own name. … Requests to extend public utility marking beyond the boundaries of a single address/property are not permitted. … Private underground lines are owned by the owner of the property and will not be located or marked by 811 as part of this request. It is the responsibility of the excavator to have private utility lines located separately from the Colorado 811 locate request service.",
+    "source_url": "https://www.colorado811.org/residential-digging/residential-requests",
+    "source_label": "Colorado 811, Residential and Private Property Requests",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "811"
+    ]
+  },
+  {
+    "id": "call-811-before-artificial-turf.co811-request-timing",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado 811 says a request is not valid until its email confirmation arrives, that utilities then respond within two business days not counting that day, that the area must stay fully accessible, with no locked gates or animals, for two full business days, and that requests received after 2 p.m. Mountain Time may be processed the next business day.",
+    "quote": "Your request is not valid until an email confirmation has been sent and is received. After receiving your email confirmation, utility companies will respond within two business days (not including the day you receive your confirmation) with either the status of your request or by marking the property. … The area must be fully accessible – with no locked gates or animals — for two full business days, not including the day the email confirmation is received. … Requests received after 2:00 pm MT may be processed on the next business day.",
+    "source_url": "https://www.colorado811.org/residential-digging/residential-requests",
+    "source_label": "Colorado 811, Residential and Private Property Requests",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "811",
+      "2"
+    ]
+  },
+  {
+    "id": "call-811-before-artificial-turf.co811-ticket-status",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado 811 lets anyone check the responses on a locate ticket without logging in, using the ticket number and phone number, and says an excavator must file an excavator re-notification before digging if a utility has not responded by the due date.",
+    "quote": "You can check response without logging into the system by clicking the ‘Check Ticket Response’ button below and entering the ticket number and phone number or simply login by clicking the ‘Ticket System’ button. … Prior to excavating an excavator must process an “Excavator Re-notification” (formerly known as a Second Notice) if there is no response from the facility owner beyond the due date.",
+    "source_url": "https://www.colorado811.org/residential-digging/residential-requests",
+    "source_label": "Colorado 811, Residential and Private Property Requests",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "811"
+    ]
+  },
+  {
+    "id": "call-811-before-artificial-turf.co811-damage-by-phone",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado 811 says emergency and damage tickets cannot be filed online, and that anyone reporting damage to an underground line should call 911 for medical help if needed and then call 811.",
+    "quote": "IMPORTANT! Emergency and damage tickets cannot be processed through an online ticket submission-you have to place a phone call! If you are experiencing an emergency or need to report a damage to an underground utility line, please call 911 for medical attention and 911 assistance if needed, and then call us 811 …",
+    "source_url": "https://www.colorado811.org/residential-digging/residential-requests",
+    "source_label": "Colorado 811, Residential and Private Property Requests",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "911",
+      "811"
+    ]
+  },
+  {
+    "id": "call-811-before-artificial-turf.co811-tolerance-depth",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado 811 calls the area within 18 inches of a utility mark in every direction the tolerance zone, where you dig only by hand if at all, and says utility depths vary, can change through erosion or leveling, and are shown only when the locator knows them.",
+    "quote": "The area within 18 inches of utility marks in every direction is called the tolerance zone. In this zone, dig only by hand, if at all. … Underground utilities, pipes, or cables are buried at different depths depending on the location and type of utility. Over time, depth can change because of erosion or leveling. You’ll see an indication of depth only if the utility locator actually knows that information.",
+    "source_url": "https://www.colorado811.org/residential-digging/what-you-need-to-know",
+    "source_label": "Colorado 811, What to Know Before You Dig",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "18",
+      "811"
+    ]
+  },
+  {
+    "id": "call-811-before-artificial-turf.co811-private-after-confirmation",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado 811 tells homeowners with private lines to contact a private locate company after the public locate ticket is confirmed, and says utility locators mark public lines within 3 business days and post a Positive Response status on the ticket.",
+    "quote": "If so, contact a private locate company after you receive confirmation of your public locate utility ticket from Colorado 811. … Utility company locators will mark your lines within 3 business days. … Utility companies update your online ticket with a Positive Response status message",
+    "source_url": "https://www.colorado811.org/residential-digging/what-you-need-to-know",
+    "source_label": "Colorado 811, What to Know Before You Dig",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "811",
+      "3"
+    ]
+  },
+  {
+    "id": "call-811-before-artificial-turf.co811-private-utilities",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado 811 says private utilities, such as sprinkler systems, gas lines to backyard grills, invisible fences, septic systems, buried water tanks and service lines, are not registered with it, are not part of an 811 locate, and must be located at the owner's expense by a private locating company, and it lists private locating companies on that page as a courtesy without vouching for their information.",
+    "quote": "Private Utilities: Often owned and operated by property owners, such as homeowners. These private utilities serve individual properties and include systems like sprinkler systems, gas lines to backyard grills, invisible fences, septic systems, buried water tanks and service lines. Private utilities are not registered with Colorado 811, are not part of an 811 locate request, and must be located at the owner's expense by a private locating company. … Private Locate Company Directory Colorado 811 provides the displayed contact information of entities listed on this page for private locating companies as a courtesy and is not responsible for the accuracy and totality of the information.",
+    "source_url": "https://www.colorado811.org/resources/find-a-private-locating-company",
+    "source_label": "Colorado 811, Private Underground Utility Information",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "811"
+    ]
+  },
+  {
+    "id": "call-811-before-artificial-turf.co811-blog-private-examples",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado 811 lists electric lines to a detached garage or shop, gas lines for grills and outdoor fire pits, lines to a propane tank or septic system and electric dog fences as private utilities, and says the customer owns all gas pipe and electric wire after the meter and the water line from the meter, property line or stop box to the building.",
+    "quote": "Common examples of private utilities include: Private property sprinkler or irrigation systems … Electric running to a detached garage or shop … Lines connected to a propane tank or septic system … Gas lines under for grills and outdoor fire pits … Electric dog fence … Water – Customer owns the water line from the meter, property line or stop box to the building. … Gas – Customer owns all the gas pipe after the meter. … Electric – Customer owns all the electric wires after the meter",
+    "source_url": "https://www.colorado811.org/resources/blog/private-v-public-utilities-whats-the-difference",
+    "source_label": "Colorado 811 blog, Private vs. Public Utilities: What’s the Difference?",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "811"
+    ]
+  },
+  {
+    "id": "call-811-before-artificial-turf.co811-brochure-projects",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado 811's homeowner brochure says to contact it at least three business days before any project that requires digging, lists landscaping, a dog fence, a patio, a walkway and irrigation among those projects, and says private lines such as a sprinkler system or gas lines for barbecues or fire pits are not marked.",
+    "quote": "Contact Colorado 811 at least three business days before you start any project that requires digging, which includes: • Landscaping … • Dog Fence … • Patio • Walkway • Irrigation … Your property may have private lines underground like a sprinkler system or gas lines for barbecues or fire pits, the marking of these private lines are not provided in this service. We recommend hiring a private locating service separately to avoid damage.",
+    "source_url": "https://46178072.fs1.hubspotusercontent-na1.net/hubfs/46178072/CO811_2024_Homeowener_Bro_F2_HR-1.pdf",
+    "source_label": "Colorado 811 Homeowner Brochure (2024)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "811"
+    ]
+  },
+  {
+    "id": "call-811-before-artificial-turf.puc-mark-colors",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado's Public Utilities Commission lists the 811 mark colors as red for electric, yellow for gas, blue for potable water, orange for communication lines such as cable TV or internet, purple for reclaimed water, irrigation and slurry lines, green for sewers and drain lines, white for proposed excavation and pink for temporary survey markings.",
+    "quote": "Markings will be placed via paint or flags. The following colors indicate what type of public utility is below: Red = Electric Yellow = Gas Blue = Potable Water Orange = Communication lines such as cable TV or Internet Purple = Reclaimed Water, Irrigation and Slurry Lines Green = Sewers and Drain lines White = Proposed excavation Pink = Temporary Survey Markings",
+    "source_url": "https://puc.colorado.gov/press-release/governor-jared-polis-declares-april-2026-dig-safely-month",
+    "source_label": "Colorado Public Utilities Commission, press release, March 31, 2026: Governor Jared Polis Declares April 2026 Dig Safely Month",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "811"
+    ]
+  },
+  {
+    "id": "call-811-before-artificial-turf.puc-tolerance-potholing",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado's Public Utilities Commission says no mechanical excavation is permitted within the tolerance zone, typically 18 inches horizontally from each side of a mark, and that hand digging or vacuum excavation must expose a line before machines work near it.",
+    "quote": "Respect the Tolerance Zone: No mechanical excavation is permitted within the defined tolerance zone (typically 18 inches horizontally from each side of the facility mark). Mandatory Potholing: Hand digging or vacuum excavation (potholing) must be used to physically expose the facility before proceeding with mechanical means in the area of the utility.",
+    "source_url": "https://puc.colorado.gov/press-release/governor-jared-polis-declares-april-2026-dig-safely-month",
+    "source_label": "Colorado Public Utilities Commission, press release, March 31, 2026: Governor Jared Polis Declares April 2026 Dig Safely Month",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "18"
+    ]
+  },
+  {
+    "id": "call-811-before-artificial-turf.puc-shallow-lines",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado 811's executive director, quoted by the Public Utilities Commission, says even small projects such as planting shrubs or building fences can strike lines just inches below the surface, and that lines can shift or become shallow over time, so contacting 811 is needed even when earlier projects showed where the lines were.",
+    "quote": "Even shallow, small projects—such as planting shrubs, installing mailboxes, or building fences—can strike utility lines located just inches below the surface. Underground lines can shift or become shallow over time, making contacting 811 necessary for all excavation even if you think the location of lines are known from previous projects,",
+    "source_url": "https://puc.colorado.gov/press-release/governor-jared-polis-declares-april-2026-dig-safely-month",
+    "source_label": "Colorado Public Utilities Commission, press release, March 31, 2026: Governor Jared Polis Declares April 2026 Dig Safely Month",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "811"
+    ]
+  },
+  {
+    "id": "call-811-before-artificial-turf.longmont-white-paint-access",
+    "layer": "utility",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Longmont Power & Communications recommends marking the planned dig area with white paint for the locators, and says that when a dog in the yard or a locked gate keeps them out, the locator emails that the work could not be done and the customer must call for a fresh locate.",
+    "quote": "It is recommended that you use white paint to show the area where the digging will occur to help the locaters. … If access is an issue, such as a dog in the yard, locked gate, etc., the locater will respond by email to indicate that the locating work could not be completed and why; the customer must then call for a fresh locate when the condition has been addressed.",
+    "source_url": "https://longmontcolorado.gov/longmont-power-communications/electric-power-line-safety/before-you-dig/",
+    "source_label": "Longmont Power & Communications, Before You Dig",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "call-811-before-artificial-turf.longmont-private-lines",
+    "layer": "utility",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Longmont Power & Communications says that when the electric meter is not attached to the house, the line from the meter to the home is private, and that sewer, water and storm drainage lines have private parts, typically from the curbstop to the house, which the utility will not mark.",
+    "quote": "If your electric meter is not attached to the house, then your property contains private electric lines that run from the meter to the home. In addition, sewer, water, and storm drainage lines all have private components to them, typically from the curbstop to the house. In order to have these marked or flagged, you must hire a private locating company – these lines will not be marked by the utility.",
+    "source_url": "https://longmontcolorado.gov/longmont-power-communications/electric-power-line-safety/before-you-dig/",
+    "source_label": "Longmont Power & Communications, Before You Dig",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "call-811-before-artificial-turf.longmont-flags",
+    "layer": "utility",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Longmont Power & Communications says painted locate marks are required and that flags help keep a locate in place if snow covers the mark, painted grass gets cut or a painted rock gets moved.",
+    "quote": "Painted marks are also used – in fact, they’re required – but a flag helps keep the “locate” in place if snow covers the mark, or painted grass gets cut, or a painted rock gets moved.",
+    "source_url": "https://longmontcolorado.gov/longmont-power-communications/electric-power-line-safety/before-you-dig/",
+    "source_label": "Longmont Power & Communications, Before You Dig",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "call-811-before-artificial-turf.foreverlawn-ground-clearing",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "ForeverLawn's landscape installation guidelines clear sod, stone, mulch and organic debris to a consistent 3 to 4 inches below the finished turf level, and say ground that drains poorly may need more soil removed, larger gravel and drainpipe at the sub-base level.",
+    "quote": "Clear the area of sod, stone, mulch, organic debris, etc., down to a consistent 3”–4” below the desired finish level of the ForeverLawn synthetic grass. … If the area has poor percolation, it may require more of the soil/base to be removed and/or more (larger) gravel brought in. If doing this, it is also recommended that some type of drainage system be installed to pull the water or liquids out of the area. Perforated drainpipes, and/or other drainage solutions can be installed at the sub-base level.",
+    "source_url": "https://www.landscapesbyforeverlawn.com/wp-content/uploads/2023/07/DIY-Landscape-Installation-Guidelines-.pdf",
+    "source_label": "ForeverLawn General Landscape Installation Guidelines (PDF)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "4"
+    ]
+  },
+  {
+    "id": "call-811-before-artificial-turf.foreverlawn-anchors",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "ForeverLawn's guidelines hold free-standing perimeter boards with 1/2-inch rebar, typically 18 to 24 inches long, pounded through holes about every 2 feet into the base beneath, and hold turf without boards using 6-inch 60D galvanized landscape spikes.",
+    "quote": "Rebar–typically 1/2” that are 18”–24” in length if using rebar to secure board. 6” 60D twisted shaft galvanized landscape spikes if not using perimeter boards. … These holes are typically every 2’ on center. Rebar should then be pounded through the hole into the base beneath.",
+    "source_url": "https://www.landscapesbyforeverlawn.com/wp-content/uploads/2023/07/DIY-Landscape-Installation-Guidelines-.pdf",
+    "source_label": "ForeverLawn General Landscape Installation Guidelines (PDF)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1/2",
+      "18",
+      "24",
+      "6",
+      "2"
+    ]
+  },
+  {
+    "id": "call-811-before-artificial-turf.synlawn-excavation-nails",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's DIY installation guidelines remove 3 to 4 inches of grass, dirt or rock for the drainage base, recommend a sod cutter for any project over 150 square feet, and secure every turf edge with 6-inch (60d) galvanized nails every 8 to 12 inches, through the turf into the base.",
+    "quote": "You will need to remove the grass, dirt, rock, or whatever is in the area the SYNLawn will be installed. Depending on your area, you will need to remove between 3”- 4” to create an adequate drainage base. Use a sod cutter or flat shovel and haul away material. … Note: It is highly recommended for any projects over 150 sq. ft. to use a sod cutter to remove existing sod. … Using 6” (60d) galvanized nails, nail one end of the turf section, tightly pulling other end in place. … All turf edges should be secured with nails every 8” to 12”, nailing through the turf and into the base.",
+    "source_url": "https://pdf.lowes.com/productdocuments/240a8581-4267-4cdf-aa5f-d4d1e250fec6/44269346.pdf",
+    "source_label": "SYNLawn DIY Installation Guidelines (PDF hosted by Lowe's)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "4",
+      "150",
+      "6",
+      "60",
+      "8",
+      "12"
+    ]
+  },
+  {
+    "id": "call-811-before-artificial-turf.synlawn-sprinklers",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's DIY installation guidelines have every sprinkler in the turf area removed and capped, or the irrigation valves cut, before the install starts.",
+    "quote": "Irrigation modifications: If you have irrigation lines existing in the area you will be installing turf, make sure all the project site’s sprinklers are removed and capped off or cut the irrigation valves.",
+    "source_url": "https://pdf.lowes.com/productdocuments/240a8581-4267-4cdf-aa5f-d4d1e250fec6/44269346.pdf",
+    "source_label": "SYNLawn DIY Installation Guidelines (PDF hosted by Lowe's)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "call-811-before-artificial-turf.sureloc-long-stakes",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Sure-loc, an aluminum edging maker, sells extra-long stakes in 12-inch or 18-inch lengths for where extra depth is needed, such as sandy soil, and says its long grooved stakes help reduce frost heaving.",
+    "quote": "Long and wide grooved stakes help reduce the effects of frost heaving. … Extra Long Stakes are available where extra depth is required such as sandy soil. Available in 12” or 18” lengths in all colors and sizes.",
+    "source_url": "https://surelocedging.com/aluminum-edging/",
+    "source_label": "Sure-loc Edging, Aluminum Edging",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "12",
+      "18"
+    ]
+  },
+  {
+    "id": "call-811-before-artificial-turf.volt-cable-depth",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "VOLT Lighting's install guide says homeowners can install low-voltage landscape lighting themselves, running and burying the wire to a transformer, and that the cable is typically buried at least 6 inches deep, depending on local electrical code.",
+    "quote": "Yes, you can install low voltage (12V) landscape lighting yourself. The process involves mounting your fixtures, running and burying wire, connecting everything to a transformer, and testing the system before final adjustments. … Low voltage cable is typically buried at least 6 inches deep, though exact requirements depend on your local electrical code.",
+    "source_url": "https://www.voltlighting.com/learn/how-to-install-landscape-lighting",
+    "source_label": "VOLT Lighting, How to Install Landscape Lighting",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6"
+    ]
+  }
+]

@@ -1,0 +1,741 @@
+[
+  {
+    "id": "backyard-ice-rink-on-artificial-turf.noaa-winter-fort-collins",
+    "layer": "climate",
+    "applies_to": [
+      "fort-collins-co",
+      "wellington-co"
+    ],
+    "fact": "At NOAA's Fort Collins station, the 90 days of December through February average 85.2 nights at or below 32°F but only 12.1 days (about 12) whose high stays at or below 32°F, while 33.8 (about 34) reach 50°F or warmer (1991 to 2020 normals).",
+    "quote": "USC00053005 FT COLLINS: DJF-TMIN-AVGNDS-LSTH032 85.2; DJF-TMAX-AVGNDS-LSTH032 12.1; DJF-TMAX-AVGNDS-GRTH050 33.8",
+    "source_url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053005&format=json",
+    "source_label": "NOAA NCEI U.S. Climate Normals 1991-2020, annual/seasonal, station FT COLLINS (USC00053005): winter (DJF) temperature counts",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "90",
+      "85.2",
+      "32",
+      "12.1",
+      "12",
+      "33.8",
+      "50",
+      "1991",
+      "2020",
+      "34"
+    ],
+    "notes": "Element definitions, NOAA NCEI Normals_ANN_Documentation_1991-2020.pdf: DJF = December, January, February (Winter); djf-tmin-avgnds-lsth032 = Winter number of days with minimum temperature <= 32F; djf-tmax-avgnds-lsth032 = Winter number of days with maximum temperature <= 32F; djf-tmax-avgnds-grth050 = Winter number of days with maximum temperature >= 50F. The 90 days are the calendar days of December, January and February (31 + 31 + 28); the 'about' figures are our rounding. Station-to-town assignment is by proximity (INFERENCE): say 'the nearest NOAA station'. Read from the API JSON on 2026-10-16."
+  },
+  {
+    "id": "backyard-ice-rink-on-artificial-turf.noaa-winter-loveland",
+    "layer": "climate",
+    "applies_to": [
+      "loveland-co",
+      "berthoud-co"
+    ],
+    "fact": "At NOAA's Loveland 2N station, the 90 days of December through February average 88.0 nights at or below 32°F but only 15.5 days (about 16) whose high stays at or below 32°F, while 33.3 (about 33) reach 50°F or warmer (1991 to 2020 normals).",
+    "quote": "USC00055236 LOVELAND 2N: DJF-TMIN-AVGNDS-LSTH032 88.0; DJF-TMAX-AVGNDS-LSTH032 15.5; DJF-TMAX-AVGNDS-GRTH050 33.3",
+    "source_url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00055236&format=json",
+    "source_label": "NOAA NCEI U.S. Climate Normals 1991-2020, annual/seasonal, station LOVELAND 2N (USC00055236): winter (DJF) temperature counts",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "90",
+      "88.0",
+      "32",
+      "15.5",
+      "16",
+      "33.3",
+      "50",
+      "1991",
+      "2020",
+      "33"
+    ],
+    "notes": "Element definitions, NOAA NCEI Normals_ANN_Documentation_1991-2020.pdf: DJF = December, January, February (Winter); djf-tmin-avgnds-lsth032 = Winter number of days with minimum temperature <= 32F; djf-tmax-avgnds-lsth032 = Winter number of days with maximum temperature <= 32F; djf-tmax-avgnds-grth050 = Winter number of days with maximum temperature >= 50F. The 90 days are the calendar days of December, January and February (31 + 31 + 28); the 'about' figures are our rounding. Station-to-town assignment is by proximity (INFERENCE): say 'the nearest NOAA station'. Read from the API JSON on 2026-10-16."
+  },
+  {
+    "id": "backyard-ice-rink-on-artificial-turf.noaa-winter-greeley",
+    "layer": "climate",
+    "applies_to": [
+      "greeley-co",
+      "windsor-co",
+      "johnstown-co",
+      "severance-co",
+      "evans-co",
+      "eaton-co",
+      "milliken-co"
+    ],
+    "fact": "At NOAA's Greeley UNC station, the 90 days of December through February average 86.0 nights at or below 32°F but only 15.1 days (about 15) whose high stays at or below 32°F, while 33.0 reach 50°F or warmer (1991 to 2020 normals).",
+    "quote": "USC00053553 GREELEY UNC: DJF-TMIN-AVGNDS-LSTH032 86.0; DJF-TMAX-AVGNDS-LSTH032 15.1; DJF-TMAX-AVGNDS-GRTH050 33.0",
+    "source_url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053553&format=json",
+    "source_label": "NOAA NCEI U.S. Climate Normals 1991-2020, annual/seasonal, station GREELEY UNC (USC00053553): winter (DJF) temperature counts",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "90",
+      "86.0",
+      "32",
+      "15.1",
+      "15",
+      "33.0",
+      "50",
+      "1991",
+      "2020"
+    ],
+    "notes": "Element definitions, NOAA NCEI Normals_ANN_Documentation_1991-2020.pdf: DJF = December, January, February (Winter); djf-tmin-avgnds-lsth032 = Winter number of days with minimum temperature <= 32F; djf-tmax-avgnds-lsth032 = Winter number of days with maximum temperature <= 32F; djf-tmax-avgnds-grth050 = Winter number of days with maximum temperature >= 50F. The 90 days are the calendar days of December, January and February (31 + 31 + 28); the 'about' figures are our rounding. Station-to-town assignment is by proximity (INFERENCE): say 'the nearest NOAA station'. Read from the API JSON on 2026-10-16."
+  },
+  {
+    "id": "backyard-ice-rink-on-artificial-turf.noaa-winter-longmont",
+    "layer": "climate",
+    "applies_to": [
+      "longmont-co",
+      "mead-co",
+      "firestone-co",
+      "frederick-co",
+      "dacono-co"
+    ],
+    "fact": "At NOAA's Longmont 2 ESE station, the 90 days of December through February average 88.7 nights at or below 32°F but only 12.7 days (about 13) whose high stays at or below 32°F, while 38.4 (about 38) reach 50°F or warmer (1991 to 2020 normals).",
+    "quote": "USC00055116 LONGMONT 2 ESE: DJF-TMIN-AVGNDS-LSTH032 88.7; DJF-TMAX-AVGNDS-LSTH032 12.7; DJF-TMAX-AVGNDS-GRTH050 38.4",
+    "source_url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00055116&format=json",
+    "source_label": "NOAA NCEI U.S. Climate Normals 1991-2020, annual/seasonal, station LONGMONT 2 ESE (USC00055116): winter (DJF) temperature counts",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "90",
+      "88.7",
+      "32",
+      "12.7",
+      "13",
+      "38.4",
+      "50",
+      "1991",
+      "2020",
+      "38",
+      "2"
+    ],
+    "notes": "Element definitions, NOAA NCEI Normals_ANN_Documentation_1991-2020.pdf: DJF = December, January, February (Winter); djf-tmin-avgnds-lsth032 = Winter number of days with minimum temperature <= 32F; djf-tmax-avgnds-lsth032 = Winter number of days with maximum temperature <= 32F; djf-tmax-avgnds-grth050 = Winter number of days with maximum temperature >= 50F. The 90 days are the calendar days of December, January and February (31 + 31 + 28); the 'about' figures are our rounding. Station-to-town assignment is by proximity (INFERENCE): say 'the nearest NOAA station'. Read from the API JSON on 2026-10-16."
+  },
+  {
+    "id": "backyard-ice-rink-on-artificial-turf.noaa-winter-estes-park",
+    "layer": "climate",
+    "applies_to": [
+      "estes-park-co"
+    ],
+    "fact": "At NOAA's Estes Park 3 SSE station, the 90 days of December through February average 81.2 nights at or below 32°F but only 31.3 days (about 31) whose high stays at or below 32°F, while 5.5 reach 50°F or warmer (1991 to 2020 normals).",
+    "quote": "USC00052761 ESTES PARK 3 SSE: DJF-TMIN-AVGNDS-LSTH032 81.2; DJF-TMAX-AVGNDS-LSTH032 31.3; DJF-TMAX-AVGNDS-GRTH050 5.5",
+    "source_url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00052761&format=json",
+    "source_label": "NOAA NCEI U.S. Climate Normals 1991-2020, annual/seasonal, station ESTES PARK 3 SSE (USC00052761): winter (DJF) temperature counts",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "90",
+      "81.2",
+      "32",
+      "31.3",
+      "31",
+      "5.5",
+      "50",
+      "1991",
+      "2020",
+      "3"
+    ],
+    "notes": "Element definitions, NOAA NCEI Normals_ANN_Documentation_1991-2020.pdf: DJF = December, January, February (Winter); djf-tmin-avgnds-lsth032 = Winter number of days with minimum temperature <= 32F; djf-tmax-avgnds-lsth032 = Winter number of days with maximum temperature <= 32F; djf-tmax-avgnds-grth050 = Winter number of days with maximum temperature >= 50F. The 90 days are the calendar days of December, January and February (31 + 31 + 28); the 'about' figures are our rounding. Station-to-town assignment is by proximity (INFERENCE): say 'the nearest NOAA station'. Read from the API JSON on 2026-10-16."
+  },
+  {
+    "id": "backyard-ice-rink-on-artificial-turf.ccc-chinook-rises",
+    "layer": "climate",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Climate Center says chinook winds bring large, sudden temperature rises to the high plains, and rises of 25 to 35°F within a short time are not uncommon.",
+    "quote": "Warmed by rapid descent from higher levels, these winds bring large and sudden temperature rises. This phenomenon is the \"chinook;\" of the high plains and temperature rises of 25 to 35°F within a short time are not uncommon.",
+    "source_url": "https://climate.colostate.edu/climate_long.html",
+    "source_label": "Colorado Climate Center (Colorado State University), Climate of Colorado",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "25",
+      "35"
+    ],
+    "notes": "The page renders the degree sign as an HTML entity. Do not quote the page's comparison sentences that name places outside Northern Colorado."
+  },
+  {
+    "id": "backyard-ice-rink-on-artificial-turf.ccc-winter-sun",
+    "layer": "climate",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Climate Center says Colorado's thin atmosphere lets more solar radiation through, making daytime conditions pleasant even in winter.",
+    "quote": "The thin atmosphere allows greater penetration of solar radiation and results in pleasant daytime conditions even during the winter.",
+    "source_url": "https://climate.colostate.edu/climate_long.html",
+    "source_label": "Colorado Climate Center (Colorado State University), Climate of Colorado",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "backyard-ice-rink-on-artificial-turf.ezice-fill-and-freeze",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "EZ ICE, a backyard rink kit maker, says to fill a rink when outside temperatures, especially overnight, are forecast to stay below freezing, and that the water normally takes 2 to 3 days to freeze, longer in deeper rinks.",
+    "quote": "It is best to fill your rink when the outside temperatures, especially overnight temperatures, are forecasted to be consistently below freezing. … Wait for the water to freeze. This timeframe can vary depending on the size of your rink and the temperatures, but should normally take 2-3 days. Deeper rinks may take longer.",
+    "source_url": "https://cdn.shopify.com/s/files/1/0021/5623/2816/files/PDF_Classic_Square.pdf",
+    "source_label": "EZ ICE, PRO Home Arena System Assembly Guide, Classic Height Rink with Square Corners (PDF)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "3"
+    ]
+  },
+  {
+    "id": "backyard-ice-rink-on-artificial-turf.ezice-depth-and-slope",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "EZ ICE says its rinks belong on ground with no more than nine inches of slope and should hold no more than 12 inches and no less than three inches of water.",
+    "quote": "You are responsible for checking that the space on which you assemble your rink is suitable in accordance with the Assembly Instructions, and that it does not have more than nine inches of slope. Do not put more than 12 inches of water or less than three inches of water in your rink.",
+    "source_url": "https://ezicerinks.com/pages/ez-ice-pro-home-arena-system-assembly",
+    "source_label": "EZ ICE, PRO Home Arena System Assembly Guide page: important safety information and warnings",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "12"
+    ],
+    "notes": "The same page: 'EZ ICE® Rinks freeze naturally due to the temperature of the surrounding air and underlying ground.'"
+  },
+  {
+    "id": "backyard-ice-rink-on-artificial-turf.ezice-average-three-inches",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "EZ ICE recommends filling until the shallowest part of the rink has 2 to 3 inches of water and says an average of 3 inches minimizes the potential for cracking.",
+    "quote": "We recommend filling until the depth of the most shallow part of the rink reaches 2-3”. The depth may vary depending on the contour and slope of your yard, but an average of 3” will minimize the potential for cracking.",
+    "source_url": "https://ezicerinks.com/pages/faqs",
+    "source_label": "EZ ICE, Frequently Asked Questions",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "3"
+    ]
+  },
+  {
+    "id": "backyard-ice-rink-on-artificial-turf.ezice-straps-no-tools",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "EZ ICE says its rinks assemble on any flat surface without tools, held by straps that clip into the brackets on either side, with brackets reaching about 15 inches past the rink so the footprint grows 2.5 feet in length and width.",
+    "quote": "All EZ ICE Rinks are designed for assembly on any flat surface without the use of tools. … Note that the PRO Brackets extend about 15 inches beyond the rink. This will add extra space to the rink’s perimeter. We recommend factoring in an additional 2.5 feet to the total length and width of your rink to account for the PRO Brackets on all sides. … Step 3: Begin laying out your Straps. Each Strap clips in to the Bracket Buckles on either side of the rink.",
+    "source_url": "https://cdn.shopify.com/s/files/1/0021/5623/2816/files/PDF_Classic_Square.pdf",
+    "source_label": "EZ ICE, PRO Home Arena System Assembly Guide, Classic Height Rink with Square Corners (PDF)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "15",
+      "2.5",
+      "3"
+    ]
+  },
+  {
+    "id": "backyard-ice-rink-on-artificial-turf.ezice-no-stakes",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "EZ ICE advertises its rinks as needing no tools and no stakes.",
+    "quote": "No tools. No Stakes. Assemble in 60 Minutes or Less!",
+    "source_url": "https://ezicerinks.com/",
+    "source_label": "EZ ICE, home page",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "60"
+    ],
+    "notes": "Marketing banner on the home page; the assembly guide's strap system (ezice-straps-no-tools) is the substance."
+  },
+  {
+    "id": "backyard-ice-rink-on-artificial-turf.ezice-white-liner",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "EZ ICE says all its rink liners are 6 mil bright white poly.",
+    "quote": "All of our liners are made from 6 mil bright white poly.",
+    "source_url": "https://ezicerinks.com/pages/faqs",
+    "source_label": "EZ ICE, Frequently Asked Questions",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6"
+    ]
+  },
+  {
+    "id": "backyard-ice-rink-on-artificial-turf.ezice-snow-and-leaves-melt",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "EZ ICE says snow left on a rink insulates the ice and makes it melt, and leaves frozen into the ice attract sunlight and melt holes in it.",
+    "quote": "Leaving snow on the rink for an extended period of time will insulate the ice, which will cause it to melt. … Even if they have frozen into your ice, it is best to dig them out. Otherwise, they will attract sunlight and melt a hole in your ice.",
+    "source_url": "https://cdn.shopify.com/s/files/1/0021/5623/2816/files/PDF_Classic_Square.pdf",
+    "source_label": "EZ ICE, PRO Home Arena System Assembly Guide, Classic Height Rink with Square Corners (PDF)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "backyard-ice-rink-on-artificial-turf.ezice-check-frozen",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "EZ ICE warns that a person can drown in a small amount of standing water, that a rink must be checked to be completely frozen before each use because skating on one that has not frozen, or froze and melted, risks damage and serious injury, and that children should not be on or around a rink unsupervised.",
+    "quote": "It is possible to drown in a small amount of standing water. User must verify that the rink is completely frozen over before use and monitor the rink and environmental conditions to make sure the rink is frozen and safe for use each time before skating. Attempting to skate on a rink that has not yet frozen over, or was frozen and melted, may cause damage to the rink, as well as serious injury or death. … Caution: Do not allow children on or around the ice rink unsupervised.",
+    "source_url": "https://ezicerinks.com/pages/ez-ice-pro-home-arena-system-assembly",
+    "source_label": "EZ ICE, PRO Home Arena System Assembly Guide page: important safety information and warnings",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "backyard-ice-rink-on-artificial-turf.ezice-synthetic-ice-firm-flat",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "EZ ICE says its synthetic ice panels must be installed on a firm, flat surface.",
+    "quote": "Caution: Failure to install EZ ICE Synthetic Ice on a firm, flat surface can lead to injury.",
+    "source_url": "https://ezicerinks.com/pages/ez-ice-pro-home-arena-system-assembly",
+    "source_label": "EZ ICE, PRO Home Arena System Assembly Guide page: important safety information and warnings",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "backyard-ice-rink-on-artificial-turf.ezice-hose-or-truck",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "EZ ICE says a garden hose is usually all it takes to fill a rink, over several hours or longer, and that a local water company can fill one faster by truck.",
+    "quote": "In most situations, all you need is a garden hose to fill your rink. Simply place the hose inside the rink and turn it on. It may take several hours or longer to fill. If you want a faster fill, hire a local water company to fill your rink with a truck.",
+    "source_url": "https://cdn.shopify.com/s/files/1/0021/5623/2816/files/PDF_Classic_Square.pdf",
+    "source_label": "EZ ICE, PRO Home Arena System Assembly Guide, Classic Height Rink with Square Corners (PDF)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "backyard-ice-rink-on-artificial-turf.ezice-grass-liner-timing",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "EZ ICE says a rink won't harm grass as long as the liner goes down after the first frost and comes up early in spring.",
+    "quote": "As long as you do not lay down your liner until after the first frost, and remove it early in the Spring, your grass will be fine.",
+    "source_url": "https://ezicerinks.com/pages/faqs",
+    "source_label": "EZ ICE, Frequently Asked Questions",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "backyard-ice-rink-on-artificial-turf.ironsleek-brackets-in-ground",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Iron Sleek, a backyard rink hardware maker, says its brackets are hammered into relatively solid ground, with a 1-foot ground stake added in soft soil or where the water is deeper than 12 inches.",
+    "quote": "You need relatively solid ground to install any bracket into the ground. DO NOT LET YOUR RINK WATER SPILL OVER! It will soften the dirt and potentially result in a loose installation. … By hand, wiggle and push the bracket into the ground, along the board line, until it is self-supported. Then, place the Iron Sleek™Installation Tool on top of the Iron Sleek™ and hammer down directly above the bracket until the black part of the bracket is firm into the ground. … If your rink location has soft soil or your rink water level is above 12”, it is recommended to insert our ½” by 1 foot Epoxy Coated Ground Stake into the hole closest to the board.",
+    "source_url": "https://ironsleek.com/pdf/SleekInstructionsv6_71912.pdf",
+    "source_label": "Iron Sleek, Backyard Ice Rink Systems: Read This Before You Start and installation instructions (PDF)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "12"
+    ]
+  },
+  {
+    "id": "backyard-ice-rink-on-artificial-turf.ironsleek-bracket-removal",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Iron Sleek says that in spring its brackets are rocked loose, pulled straight up out of the ground, and the divots they leave are filled.",
+    "quote": "To remove an Iron Sleek bracket, tip the bracket forward and backward a just a bit to loosen the dirt. … After the dirt is loosened, pull the bracket STRAIGHT UP out of the ground. … Remove dirt from the bracket and fill divots in the grass.",
+    "source_url": "https://blog.ironsleek.com/2016/02/backyard-rink-time-to-tear-it-down-for.html",
+    "source_label": "Iron Sleek blog, Backyard Rink, Time to tear it down for Spring! (February 19, 2016)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "backyard-ice-rink-on-artificial-turf.ironsleek-white-liner",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Iron Sleek says white liners help keep rink ice from melting by reflecting radiant heat away on sunny winter days.",
+    "quote": "White liners will help keep the ice from melting by reflecting radiant heat away from the rink on sunny winter days.",
+    "source_url": "https://ironsleek.com/use-a-liner",
+    "source_label": "Iron Sleek, Selecting Ice Rink Liner",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "backyard-ice-rink-on-artificial-turf.ironsleek-clear-liner",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Iron Sleek says clear liners absorb heat from the grass underneath and break the ice down more quickly.",
+    "quote": "Other clear liners won’t work as well either; see-through liners actually absorb heat from the grass underneath and will break down the ice more quickly.",
+    "source_url": "https://blog.ironsleek.com/2015/08/top-ways-iron-sleeks-ice-rink-liners.html",
+    "source_label": "Iron Sleek blog, Top Ways Iron Sleek's Ice Rink Liners Stand Apart From Other Products (August 4, 2015)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "backyard-ice-rink-on-artificial-turf.ironsleek-liner-rides-out-thaws",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Iron Sleek says a lined rink rides out thaws, its water leveling itself and sometimes skating again after a single cold evening, while an unlined rink's water drains away through the lawn in a thaw.",
+    "quote": "A lined rink withstands freeze/thaw scenarios with ease. A thaw actually improves the rink surface as the water finds its own level and naturally smooths itself out. When the cold comes back, it could take as little as a single evening to the have the rink back up and running. Without a liner, a thaw can mean that you will need to start over because water will drain away through the lawn.",
+    "source_url": "https://ironsleek.com/use-a-liner",
+    "source_label": "Iron Sleek, Selecting Ice Rink Liner",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "backyard-ice-rink-on-artificial-turf.ironsleek-5000-gallons",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Iron Sleek says a small residential rink takes as little as 5,000 gallons of water to fill.",
+    "quote": "A small residential rink takes as little as 5000 gallons of water to fill while a larger community rink could take over 100,000 gallons.",
+    "source_url": "https://ironsleek.com/use-a-liner",
+    "source_label": "Iron Sleek, Selecting Ice Rink Liner",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5000",
+      "5,000",
+      "100000"
+    ]
+  },
+  {
+    "id": "backyard-ice-rink-on-artificial-turf.ironsleek-liner-smothers-active-grass",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Iron Sleek says water left under a liner can trick grass into growing, and a liner covering growing grass can suffocate the lawn.",
+    "quote": "Water under the liner for an extended period of time can trick the grass into becoming active. A liner covering active grass can suffocate the lawn.",
+    "source_url": "https://blog.ironsleek.com/2016/02/backyard-rink-time-to-tear-it-down-for.html",
+    "source_label": "Iron Sleek blog, Backyard Rink, Time to tear it down for Spring! (February 19, 2016)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "backyard-ice-rink-on-artificial-turf.ironsleek-pump-it-out",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Iron Sleek says the best way to empty a rink in spring is a rented electric or gas pump with a discharge hose aimed where the water can drain, that a 30-gallon-a-minute pump empties a 20 by 46 foot rink in 2 to 3 hours, and that a slower siphon gives the ground a better chance to absorb the water.",
+    "quote": "The key here is to get the water away from the rink and not to flood you or your neighbor’s home. … The best way to remove water is with an electric or gas pump that has a discharge hose. Your local home improvement store usually rents them out. As a reference point, a 30 GPM pump will empty a 20×46 rink in 2-3 hours. With a pump arrangement, you have full freedom to direct the water to areas that are suited for drainage…like the city sewer. … A benefit of siphoning is that the low flow rate gives the ground a better chance to absorb the water.",
+    "source_url": "https://blog.ironsleek.com/2016/02/backyard-rink-time-to-tear-it-down-for.html",
+    "source_label": "Iron Sleek blog, Backyard Rink, Time to tear it down for Spring! (February 19, 2016)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "30",
+      "20",
+      "46",
+      "2",
+      "3"
+    ],
+    "notes": "The page's 'city sewer' example is not repeated in the guide: where rink water may legally go is a town question we did not research."
+  },
+  {
+    "id": "backyard-ice-rink-on-artificial-turf.ironsleek-dont-dump-or-puncture",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Iron Sleek says opening a rink to let all its water out at once floods the ground and, repeated, can lower the grade, and that punching holes in the liner floods the ground under it.",
+    "quote": "At the high water corner you can open your rink to let all of the water flow out. This is the fastest way to drain your rink. I have done it this way for years, but I did notice that is has some negative effects. Over flooding the grass can damage the grass roots. Also, repeated flooding can lower your ground’s grade. … Do not puncture holes in your liner. We have seen customers do this just to find out that they flood their grass root and had some dead spots on their grass.",
+    "source_url": "https://blog.ironsleek.com/2016/02/backyard-rink-time-to-tear-it-down-for.html",
+    "source_label": "Iron Sleek blog, Backyard Rink, Time to tear it down for Spring! (February 19, 2016)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "backyard-ice-rink-on-artificial-turf.ironsleek-35000-pounds-of-ice",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Iron Sleek warns against chipping out a full sheet of rink ice, noting that a 20 by 46 foot rink could hold 35,000 pounds of it.",
+    "quote": "Do not attempt chipping out a full sheet of ice. That is a job for a Bobcat. To put this in perspective, a 20×46 rink could have 35,000 lbs. of ice in it!",
+    "source_url": "https://blog.ironsleek.com/2016/02/backyard-rink-time-to-tear-it-down-for.html",
+    "source_label": "Iron Sleek blog, Backyard Rink, Time to tear it down for Spring! (February 19, 2016)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "20",
+      "46",
+      "35000",
+      "35,000"
+    ]
+  },
+  {
+    "id": "backyard-ice-rink-on-artificial-turf.ccgrass-stakes-puncture-backing",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CCGrass, an artificial turf maker, says metal rakes, cleats or stakes can cut turf blades and puncture the turf backing.",
+    "quote": "Metal rakes, cleats, or stakes can cut the blades and puncture the turf backing, especially during intense sports activity or gardening.",
+    "source_url": "https://www.ccgrass.com/what-can-damage-artificial-grass/",
+    "source_label": "CCGrass, What Can Damage Artificial Grass? (published September 30, 2025)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "backyard-ice-rink-on-artificial-turf.ccgrass-weight-flattens",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CCGrass says weight left in one spot compresses turf fibers and may leave lasting dents, advises against long-term heavy pressure, and lifts flattened turf by topping up low infill and brushing with a stiff synthetic-bristle brush or power broom.",
+    "quote": "Weight left in one spot on the turf compresses fibers and may leave lasting dents. … First, check and add infill if low. Use a stiff synthetic-bristle brush or power broom to lift fibers, brushing mainly against the grain and in varied directions. Avoid long-term heavy pressure …",
+    "source_url": "https://www.ccgrass.com/what-can-damage-artificial-grass/",
+    "source_label": "CCGrass, What Can Damage Artificial Grass? (published September 30, 2025)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The last sentence is cut where the source continues after a dash ('Avoid long-term heavy pressure' then 'regular brushing restores bounce and keeps it looking natural')."
+  },
+  {
+    "id": "backyard-ice-rink-on-artificial-turf.ccgrass-free-draining-base",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CCGrass says turf goes over a compacted, free-draining gravel base, that a poorly compacted base leads to uneven surfaces and poor drainage, and that liquid drains through turf's perforated backing.",
+    "quote": "Start with a professional installation that includes a high-quality weed barrier and a well-prepared, free-draining base. … Failing to properly compact the base or prepare the gravel layers can lead to uneven surfaces, poor drainage, and turf shifting over time. … dog urine drains through the perforated backing without staining or killing fibers, unlike natural grass.",
+    "source_url": "https://www.ccgrass.com/what-can-damage-artificial-grass/",
+    "source_label": "CCGrass, What Can Damage Artificial Grass? (published September 30, 2025)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "backyard-ice-rink-on-artificial-turf.fieldturf-tarp-condensation",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "FieldTurf, a synthetic sports-turf maker, says a tarp over a turf field in winter is permitted but has caused more condensation and freezing, with unfavorable results.",
+    "quote": "Installing a field tarp is permitted but has demonstrated to cause enhanced condensation and freezing leading to unfavorable results.",
+    "source_url": "https://fieldturf.com/en/articles/detail/everything-you-need-snow-removal/",
+    "source_label": "FieldTurf, Everything You Need to Know About Snow Removal",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Written for sports fields under the heading 'WHAT ABOUT TARP?'. A rink liner is a sheet over the turf for the winter, so the guide applies it with that caveat."
+  },
+  {
+    "id": "backyard-ice-rink-on-artificial-turf.sis-frozen-infill-floods",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SIS Pitches, a synthetic sports-surface builder, says heavy rain or a quick thaw on frozen synthetic turf can flood it because the frozen sand infill stops water draining until it thaws.",
+    "quote": "If heavy rain falls on a frozen pitch, or the snow and ice thaw quickly, the field may become flooded. This is because the sand in the infill is still frozen and prevents the water draining. This is not a problem, as the field will drain properly once the infill has thawed.",
+    "source_url": "https://www.sispitches.com/news/winter-pitch-maintenance/",
+    "source_label": "SIS Pitches, Winter maintenance advice for synthetic pitches",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "backyard-ice-rink-on-artificial-turf.usgs-water-weight",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "USGS lists water at 32°F as weighing 62.416 pounds per cubic foot, so each inch of rink water puts about 5.2 pounds on a square foot: about 15.6 pounds at 3 inches and 62.4 at 12 inches (our arithmetic).",
+    "quote": "Water's density varies with temperature … Temperature (°F/°C) Density (grams/cm3) Weight (pounds/ft3) … 32°F/0°C 0.99987 62.416",
+    "source_url": "https://www.usgs.gov/water-science-school/science/water-density",
+    "source_label": "U.S. Geological Survey, Water Science School: Water Density",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "32",
+      "0",
+      "0.99987",
+      "62.416",
+      "5.2",
+      "15.6",
+      "3",
+      "62.4",
+      "12"
+    ],
+    "notes": "Arithmetic: 62.416 / 12 = 5.201 pounds per square foot per inch of depth; x 3 = 15.604; x 12 = 62.416. The USGS table credits the U.S. Bureau of Reclamation Ground Water Manual (1977). Ice weighs less than water (USGS: about 9 percent less dense), so the liquid figure is the upper bound."
+  },
+  {
+    "id": "backyard-ice-rink-on-artificial-turf.nist-rink-volume",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "NIST counts 7.481 gallons in a cubic foot, so a 20 by 40 foot rink filled to an average 3 inches holds about 1,500 gallons that weigh about 12,500 pounds at the USGS weight (our arithmetic).",
+    "quote": "1 cubic foot (ft3) … 7.481 gallons … 1 gallon (gal) (U.S.) … 231 cubic inches (exactly)",
+    "source_url": "https://www.nist.gov/document/2026-nist-handbook-44-appendix-c",
+    "source_label": "NIST Handbook 44 (2026), Appendix C: General Tables of Units of Measurement",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "7.481",
+      "231",
+      "20",
+      "40",
+      "3",
+      "1500",
+      "1,500",
+      "12500",
+      "12,500"
+    ],
+    "notes": "Arithmetic: 20 x 40 = 800 square feet; 3 inches = 0.25 foot; 800 x 0.25 = 200 cubic feet; 200 x 7.481 = 1496.2 gallons; 200 x 62.416 (USGS, 32F) = 12483.2 pounds. The 20 by 40 size is the smallest size EZ ICE's FAQ says most families choose ('between 20’ x 40’ and 60’ x 100’'). The URL redirects to the PDF appc-26-HB44-20251222.pdf."
+  },
+  {
+    "id": "backyard-ice-rink-on-artificial-turf.greeley-2026-watering-rules",
+    "layer": "utility",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley's 2026 watering rules bar watering between 10 a.m. and 6 p.m. and allow no lawn watering without a variance from November 1 to April 14, while allowing tree watering October through March.",
+    "quote": "2026 Watering Restrictions … For all Greeley water customers: No watering is allowed between 10 a.m. and 6 p.m. There is no lawn watering without a variance between November 1 and April 14 (see below on applying for a variance). We recommend stopping regular lawn watering in October. However, watering trees October through March is allowed.",
+    "source_url": "https://greeleyco.gov/government/city-administration/city-departments/water-and-sewer/save-water/restrictions-violations-variances",
+    "source_label": "City of Greeley Water and Sewer, Water Restrictions, Violations, and Variances (2026 Watering Restrictions)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-04-30",
+    "numbers": [
+      "2026",
+      "10",
+      "6",
+      "1",
+      "14"
+    ],
+    "notes": "The page says restrictions are decided each spring at the April Water and Sewer Board meeting, so the 2027 rules land in April 2027. The page says nothing about filling a rink, pool or other container; the guide says so and sends readers to Greeley Water."
+  },
+  {
+    "id": "backyard-ice-rink-on-artificial-turf.greeley-disconnect-hoses",
+    "layer": "utility",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Greeley's water department says to disconnect and drain outdoor hoses for winter, because a single hard overnight freeze can burst the faucet or the pipe.",
+    "quote": "It is important to disconnect and drain outdoor hoses. Detaching the hose allows water to drain from the pipe. Otherwise, a single hard, overnight freeze can burst either the faucet or the pipe.",
+    "source_url": "https://greeleyco.gov/water-and-sewer/about/news/2024/time-to-winterize-4-things-to-add-to-your-to-do-list/",
+    "source_label": "City of Greeley Water and Sewer, Time to Winterize: 4 Things to Add to Your To-Do List (2024)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Greeley's advice, but the physics holds at any NoCo outdoor faucet; the guide attributes it to Greeley."
+  },
+  {
+    "id": "backyard-ice-rink-on-artificial-turf.windsor-code-13-2-180-hose-nozzle",
+    "layer": "ordinance",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor's code says water may not be used through hoses without a nozzle or sprinkler attached, a rule that applies to all users of the town's water service.",
+    "quote": "Water shall not be used through hoses or pipes without nozzles or sprinklers attached thereto. This regulation shall apply to all users of water service.",
+    "source_url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH13MUUT_ARTIIWA_S13-2-180REWAUS",
+    "source_label": "Windsor Municipal Code Sec. 13-2-180(a), Restrictions on water use (Municode, version Sep 8, 2026)",
+    "checked": "2026-10-16",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Municode renders with JavaScript; read in a browser on 2026-10-16. Applies to Town of Windsor water customers; parts of Windsor are served by other water providers."
+  },
+  {
+    "id": "backyard-ice-rink-on-artificial-turf.windsor-code-13-2-420-season",
+    "layer": "ordinance",
+    "applies_to": [
+      "windsor-co"
+    ],
+    "fact": "Windsor's code limits lawn watering hours only from May 1 through September 30, when no lawn watering is allowed between 10:00 a.m. and 6:00 p.m.",
+    "quote": "From May 1 through September 30 of each year, no lawn watering shall be permitted between the hours of 10:00 a.m. and 6:00 p.m.",
+    "source_url": "https://library.municode.com/co/windsor/codes/charter_and_municipal_code?nodeId=WI_CH13MUUT_ARTIIWA_S13-2-420LAWARE",
+    "source_label": "Windsor Municipal Code Sec. 13-2-420(a), Lawn watering restrictions (Municode, version Sep 8, 2026)",
+    "checked": "2026-10-16",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "30",
+      "10",
+      "6"
+    ],
+    "notes": "Municode renders with JavaScript; read in a browser on 2026-10-16."
+  }
+]

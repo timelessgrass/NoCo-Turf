@@ -1,0 +1,366 @@
+[
+  {
+    "id": "trampoline-on-artificial-turf.cpsc-085-how-injuries-happen",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The CPSC estimated 104,691 emergency-room-treated trampoline injuries in 2014 and lists colliding with another jumper, landing wrong, falling or jumping off the trampoline, and falling on its springs or frame as the ways injuries and deaths happen.",
+    "quote": "CPSC estimates that in 2014 there were 104,691 hospital emergency room-treated injuries associated with trampolines. … Injuries and deaths can be caused by: • Colliding with another person on the trampoline • Landing improperly while jumping or doing stunts on the trampoline • Falling or jumping off of the trampoline • Falling on the trampoline springs or frame",
+    "source_url": "https://www.cpsc.gov/s3fs-public/085%20Trampoline%20Safety.pdf",
+    "source_label": "U.S. Consumer Product Safety Commission, Trampoline Safety (Publication 085)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2014",
+      "104,691",
+      "104691"
+    ],
+    "notes": "PDF downloaded and converted with pdftotext on 2026-10-16. The four causes are bullets in the source, joined here with \"•\". The 2014 estimate is the newest count in this publication; the page uses the AAP's yearly figure instead."
+  },
+  {
+    "id": "trampoline-on-artificial-turf.cpsc-085-prevention-steps",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The CPSC advises one person on a trampoline at a time, no somersaults, shock-absorbing pads that completely cover the springs, hooks and frame, placing the trampoline away from structures, trees and other play areas, no child under 6 on a full-size trampoline, no ladder, and supervision, and says enclosures can help prevent injuries from falls off trampolines.",
+    "quote": "Allow only one person on the trampoline at a time. • Do not attempt or allow somersaults, because landing on the head or neck can cause paralysis. • Do not use the trampoline without shock-absorbing pads that completely cover its springs, hooks and frame. • Place the trampoline away from structures, trees and other play areas. • No child under 6 years of age should use a full-size trampoline. Do not use a ladder with the trampoline, because it provides unsupervised access by small children. • Always supervise children who use a trampoline. • Trampoline enclosures can help prevent injuries from falls off trampolines.",
+    "source_url": "https://www.cpsc.gov/s3fs-public/085%20Trampoline%20Safety.pdf",
+    "source_label": "U.S. Consumer Product Safety Commission, Trampoline Safety (Publication 085)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6"
+    ],
+    "notes": "Bullets in the source, joined here with \"•\". The CPSC gives no distance for \"away from structures\"; the page says so."
+  },
+  {
+    "id": "trampoline-on-artificial-turf.cpsc-nsn-high-wind",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A CPSC trampoline tip sheet says not to use a trampoline in high wind because it can shift, move or blow away, and to inspect it regularly for missing parts and rips or tears in the pad.",
+    "quote": "Place the trampoline away from structures, trees, and other play areas … Do not use if there is high wind because the trampoline can shift, move, or blow away … Inspect the trampoline regularly to make sure nothing is missing and there are no rips or tears in the pad",
+    "source_url": "https://www.cpsc.gov/s3fs-public/Trampoline%20Safety_Eng01.pdf",
+    "source_label": "U.S. Consumer Product Safety Commission, Neighborhood Safety Network, Jumping with Safety: Trampoline Safety Tips",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "A one-page CPSC Neighborhood Safety Network poster (NSN 16-06), read with pdftotext on 2026-10-16; the tips are bullets with no closing periods in the source."
+  },
+  {
+    "id": "trampoline-on-artificial-turf.cpsc-325-trampolines-not-recommended",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The CPSC's 2025 Public Playground Safety Handbook lists trampolines among the equipment it does not recommend for public playgrounds.",
+    "quote": "Some playground equipment is not recommended for use on public playgrounds, including: … • Trampolines.",
+    "source_url": "https://www.cpsc.gov/s3fs-public/325_PublicPlaygroundSafetyHandbook2025_7-30-25_1.pdf",
+    "source_label": "U.S. Consumer Product Safety Commission, Public Playground Safety Handbook (Publication 325, July 2025), section 2.3.1 Equipment not recommended",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2025"
+    ],
+    "notes": "Read 2026-10-16 in the PDF at cpsc.gov. The fragment skipped by the ellipsis is the first bullet (swinging elements that fail ASTM F1487 impact testing). Because the CPSC does not recommend trampolines for playgrounds, its playground surfacing tables do not address them; the page says no published depth exists for a trampoline's surround."
+  },
+  {
+    "id": "trampoline-on-artificial-turf.astm-f381-scope",
+    "layer": "standard",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "ASTM F381, the U.S. safety specification for consumer trampolines, covers trampolines used at home by a single user, says trampolines that meet it are not recommended for children under six, and requires each one sold to come with an information packet that includes assembly and installation instructions and warning information.",
+    "quote": "This safety specification covers the components, the assembly, and the use of consumer trampolines. … for trampolines used in a home environment by a single user; … Trampolines that adhere to this specification are not recommended for use by children under six years of age. … When a trampoline is offered for sale, it shall include a frame, a bed, a suspension system, frame padding, information packet and suitable markings. … Information Packet: … Assembly and Installation Instructions … Warning Information",
+    "source_url": "https://store.astm.org/f0381-24.html",
+    "source_label": "ASTM F381-24, Standard Safety Specification for Components, Assembly, Use, and Labeling of Consumer Trampolines (active; ASTM store page, last updated July 17, 2024)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read on the ASTM store page (abstract, scope and section list), which is free; the full text is sold. The last two fragments are section titles in the standard's table of contents (sections 7.2 and 7.4). The clearance figures families see come from makers' manuals that follow it, not from this page."
+  },
+  {
+    "id": "trampoline-on-artificial-turf.aap-keep-away-home-rules",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The American Academy of Pediatrics recommends keeping children away from trampolines except with professional coaches and specialized equipment, says children under 6 should never jump, and for a home trampoline advises one jumper at a time, an adult watching, the safety net zipped shut, the ladder removed when no one is jumping, and the bouncing surface as close to the ground as possible, far from trees, walls, buildings and other play areas.",
+    "quote": "These facts explain why the American Academy of Pediatrics (AAP) recommends keeping kids away from trampolines, except in settings with professional coaches and specialized equipment. … Because toddlers and preschoolers face the greatest risks for trampoline injuries, kids under 6 should NEVER jump. … Only one child jumps at a time. There's always a grownup watching. … The safety net around the jumping surface stays zipped shut while they jump. The ladder comes down when no one's bouncing so that little kids can't climb up alone. If you decide to get a home trampoline: Install the bouncing surface as close to the ground as possible. Position it far away from trees, walls, buildings and other play areas. Every time your kids jump, check the protective pads that surround springs, hooks, support bars and other hard surfaces.",
+    "source_url": "https://www.healthychildren.org/English/safety-prevention/at-play/Pages/Trampolines-What-You-Need-to-Know.aspx",
+    "source_label": "American Academy of Pediatrics, HealthyChildren.org: Are Trampolines Safe for Kids? (Susannah M. Briskin, MD, FAAP; last updated Sept. 3, 2024)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6"
+    ],
+    "notes": "The page's title changed from \"Trampolines: What You Need to Know\" to \"Are Trampolines Safe for Kids?\"; the URL is the same. List items run together in the extracted text."
+  },
+  {
+    "id": "trampoline-on-artificial-turf.aap-how-kids-get-hurt",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The AAP puts trampoline-linked emergency room visits in the U.S. at about 110,000 a year and lists falling from the jumping surface to the ground and falling on the springs, hooks or frame among the ways children get hurt.",
+    "quote": "But of the 110,000 or so emergency room visits linked with trampoline accidents in the U.S. each year, thousands involve serious damage to a child's arms, legs, collarbone, back or neck … Kids typically get injured on trampolines when they: … Unintentionally fall from the surface to the ground … Fall on the springs, hooks or frame",
+    "source_url": "https://www.healthychildren.org/English/safety-prevention/at-play/Pages/Trampolines-What-You-Need-to-Know.aspx",
+    "source_label": "American Academy of Pediatrics, HealthyChildren.org: Are Trampolines Safe for Kids? (Susannah M. Briskin, MD, FAAP; last updated Sept. 3, 2024)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "110,000",
+      "110000"
+    ]
+  },
+  {
+    "id": "trampoline-on-artificial-turf.jumpsport-placement",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "JumpSport's trampoline manual calls lateral clearance essential, tells owners to keep the trampoline and enclosure away from walls, structures, fences and other play areas with clear space on all sides, recommends at least 24 feet of overhead clearance, a level surface and nothing underneath, prefers dirt or grass underneath, and calls for dense foam under each leg on a very hard surface such as concrete.",
+    "quote": "Overhead Clearance Adequate overhead clearance is essential. A minimum of 24 feet from ground level is recommended. Provide clearance for wires, tree limbs, and other possible hazards. … Lateral Clearance Lateral clearance is essential. Place the trampoline and trampoline enclosure away from walls, structures, fences, and other play areas. Maintain a clear space on all sides of the trampoline and trampoline enclosure. … Level Surface Place the trampoline and trampoline enclosure on a level surface before use. … Ground Clearance Remove any obstructions from beneath the trampoline and trampoline enclosure. … IMPORTANT: The best surface on which to place your trampoline is dirt or grass. However, if you plan to install the trampoline on a very hard surface such as concrete or asphalt, a dense foam … should be installed under each leg.",
+    "source_url": "https://pdf.lowes.com/productdocuments/a337c920-14f2-40bc-a243-63b1aa925eb4/50272407.pdf",
+    "source_label": "JumpSport, 14ft JumpSport Elite Trampoline System User’s Manual (P/N INS-P-11600-03H), as posted by Lowe’s",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "24"
+    ],
+    "notes": "PDF read with pdftotext on 2026-10-16 (copyright 2009-2017). The second ellipsis drops an aside comparing the foam to public-playground foam. A maker's manual for one model; the page presents it as one maker's instructions."
+  },
+  {
+    "id": "trampoline-on-artificial-turf.jumpsport-wind",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "JumpSport's manual says high wind can blow a trampoline about, tells owners to secure the frame with an anchor kit when high winds are expected and to move it to shelter or take it apart before severe winds, warns that even anchored trampolines can become airborne, and suggests asking a qualified contractor which anchor works in their location.",
+    "quote": "It is possible for the trampoline to be blown about by a high wind. If you anticipate high winds, the frame should be secured to the ground with the use of a JumpSport Trampoline Anchor Kit. If you anticipate severe winds, the trampoline should be moved to a sheltered location or completely disassembled. … WARNING: Do Not use or stand near the trampoline in windy or gusty conditions. A trampoline can become airborne when exposed to sustained wind or gusting wind conditions. … Anchoring a trampoline frame may prevent the trampoline from moving as a result of the wind, but even anchored trampolines can become airborne or damaged. Consult a qualified contractor to determine what type of anchor works best in your location.",
+    "source_url": "https://pdf.lowes.com/productdocuments/a337c920-14f2-40bc-a243-63b1aa925eb4/50272407.pdf",
+    "source_label": "JumpSport, 14ft JumpSport Elite Trampoline System User’s Manual (P/N INS-P-11600-03H), as posted by Lowe’s",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "trampoline-on-artificial-turf.jumpsport-moving",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "JumpSport's manual says to move a trampoline with at least two people, keeping it horizontal and lifting and turning one end about five feet at a time, and to take it apart for any move of more than a few feet.",
+    "quote": "If you need to move your trampoline periodically, it should be moved by at least two people and kept horizontal during the move. Stand together holding on to one section of the rail and lift one side of the trampoline. Rotate that end of the trampoline about five feet, then go to the opposite end of the trampoline, and do the same thing. … Disassemble the trampoline for any move greater than a few feet.",
+    "source_url": "https://pdf.lowes.com/productdocuments/a337c920-14f2-40bc-a243-63b1aa925eb4/50272407.pdf",
+    "source_label": "JumpSport, 14ft JumpSport Elite Trampoline System User’s Manual (P/N INS-P-11600-03H), as posted by Lowe’s",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "trampoline-on-artificial-turf.jumpsport-cold-weather",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "JumpSport's manual recommends that, where snow and ice are common, owners remove the mat, springs, frame pad and net and store them in a dry place out of the sun, and warns against clearing ice or snow off the mat with a shovel, hoe or garden rake.",
+    "quote": "However, in climates of cold weather where snow and ice are common, we recommend the trampoline mat, springs, frame pad, and net be removed and stored in a dry area out of the sun. … Do not use a sharp object - such as a shovel, hoe, or garden rake - to remove ice or snow as this may damage the mat.",
+    "source_url": "https://pdf.lowes.com/productdocuments/a337c920-14f2-40bc-a243-63b1aa925eb4/50272407.pdf",
+    "source_label": "JumpSport, 14ft JumpSport Elite Trampoline System User’s Manual (P/N INS-P-11600-03H), as posted by Lowe’s",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "trampoline-on-artificial-turf.springfree-space",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Springfree Trampoline says makers typically recommend 3 to 5 feet of clear space around a trampoline, recommends at least 5 feet from a wall, works out that a 14-foot trampoline with 5 feet on each side needs a 24-by-24-foot area, recommends at least 24 feet of overhead clearance citing ASTM F2225, and asks for ground that rises no more than three degrees across the space.",
+    "quote": "It’s also based on ASTM Standards (the leader in trampoline standards) which states that “lateral clearance space is essential,” and that the trampoline should be placed away from “walls, structures, fences and other play areas. … Manufacturers typically recommend 3-5 ft of clearance space for a trampoline. … For overhead clearance, a minimum of 24 ft from ground level is recommended, according to ASTM F2225 . … Note: If the space isn’t flat, make sure the rise/gradient is no more than three degrees across the whole space. … A 14-foot trampoline will take up a lot of room. If you add 5 ft of clearance space to each side of the trampoline, you’re looking at space requirements of 24 ft x 24 ft. … Based on our expertise, we recommend placing a trampoline at least 5 ft from a wall. At the very least, aim for 3 ft.",
+    "source_url": "https://www.springfreetrampoline.com/blogs/beyond-the-bounce/how-much-space-do-you-need-for-a-trampoline",
+    "source_label": "Springfree Trampoline, How Much Space Do You Need for a Trampoline? (And How to Measure) (May 6, 2024)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "5",
+      "24",
+      "14"
+    ],
+    "notes": "A trampoline maker's blog. The ASTM wording it quotes matches the clearance lines in JumpSport's manual. The page treats the 3 to 5 feet as Springfree's summary of makers' figures, not a standard."
+  },
+  {
+    "id": "trampoline-on-artificial-turf.springfree-surface",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Springfree Trampoline says a trampoline can go on artificial grass, which won't be as soft as natural grass but lets anchors hold it down, that harsher surfaces can raise the chance of damage to the legs and that a surface like concrete would not absorb a fall well, suggests rubber mats or padding around the base, and does not recommend burying an above-ground trampoline.",
+    "quote": "In fact, hard surfacing can increase the chances of damage to key trampoline components, like the legs. In a worst-case scenario, a surface like concrete would also not absorb a fall from the trampoline very well. … Consider adding rubber mats or padding around the base for additional structural support. … Use trampoline anchors (on turf or fake grass) or sandbags (on concrete) to anchor down your trampoline so it stays steady while in use and during storms. … Yes, you can put a trampoline on artificial grass. It won’t be as soft as natural grass but would likely serve as a better option than concrete since you can use anchors to secure the trampoline to the ground. … We don’t recommend burying an above-ground trampoline , as this could compromise the safety of your jumpers.",
+    "source_url": "https://www.springfreetrampoline.com/blogs/beyond-the-bounce/does-a-trampoline-need-to-be-on-grass",
+    "source_label": "Springfree Trampoline, Does a Trampoline Need to Be on Grass? (Nov. 27, 2024)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "trampoline-on-artificial-turf.springfree-anchors",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Springfree Trampoline says anchors keep a trampoline from blowing away in strong winds and from tilting when jumped on, warns owners to check for underground utility lines before installing them, says to inspect them periodically because soil conditions change, suggests lowering the enclosure, moving the trampoline to shelter or taking it apart before severe weather, and says sandbags on the legs can add weight.",
+    "quote": "Keeps the trampoline from blowing away under strong winds. … Adds another layer of stability so it doesn’t tilt when jumped on. … WARNING - Before installation, check for underground power, gas, telephone, water, or other utility lines and pipes. Failure to do so could result in serious or fatal injury. … If you anticipate severe weather, consider lowering the enclosure, moving the trampoline to a sheltered location or disassembling the trampoline completely. … Finally, once you install the anchors to the trampoline, you will need to periodically inspect the anchors to make sure they are secure to the ground , as soil conditions might change over time. … You may also want to put sandbags on the trampoline’s legs to provide extra weight if you’re worried the anchors won’t be enough.",
+    "source_url": "https://www.springfreetrampoline.com/blogs/beyond-the-bounce/how-to-anchor-a-trampoline",
+    "source_label": "Springfree Trampoline, How to Anchor a Trampoline: A Step-By-Step Guide (Sept. 8, 2023)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "The same page prices Springfree's anchor kits and other brands'; the guide carries no prices."
+  },
+  {
+    "id": "trampoline-on-artificial-turf.springfree-grass-under",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Springfree Trampoline says grass under a trampoline yellows and dies mainly because the mat blocks sunlight and the legs compact the soil, suggests moving the trampoline two to three feet every couple of weeks so the grass can recover, says synthetic grass under a trampoline requires no sunlight, and says flat pads or paving stones under each leg spread the weight.",
+    "quote": "A trampoline mat blocks a significant amount of direct sunlight from reaching the lawn below. Over weeks and months, reduced light slows photosynthesis, causing blades to yellow, thin out, and eventually die. … The legs of a trampoline concentrate hundreds of pounds of weight onto a few small contact points. … Over time, the constant pressure compresses the soil, squeezing out air pockets and restricting water absorption. … Relocating the trampoline just two to three feet every couple of weeks gives shaded grass time to recover and absorb sunlight. … A patch of synthetic grass underneath the trampoline looks green year-round, requires no sunlight, and eliminates every lawn care concern. … Placing flat pads or paving stones under each leg distributes the weight and prevents sinking.",
+    "source_url": "https://www.springfreetrampoline.com/blogs/beyond-the-bounce/will-a-trampoline-kill-your-grass",
+    "source_label": "Springfree Trampoline, Will a Trampoline Kill Your Grass? (July 6, 2026)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "trampoline-on-artificial-turf.springfree-snow",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Springfree Trampoline says its trampolines can stay outdoors year-round, even in snowy climates, and that snow on the mat should be cleared with a soft-bristled broom or brush rather than a shovel.",
+    "quote": "Springfree Trampolines are engineered with all-weather materials and can remain outdoors year-round, even in snowy climates. If snow accumulates on the mat, remove it regularly with a soft-bristled broom or brush rather than a shovel, which can damage the mat or enclosure.",
+    "source_url": "https://www.springfreetrampoline.com/blogs/beyond-the-bounce/will-a-trampoline-kill-your-grass",
+    "source_label": "Springfree Trampoline, Will a Trampoline Kill Your Grass? (July 6, 2026)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "trampoline-on-artificial-turf.ecograss-anchors-in-turf",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "EcoGrass, an artificial turf company, says ground anchors screw into the base material under turf and go in through a small X cut in the backing, with a drill for twist-in anchors, that a little infill around each anchor and brushing the fibers keep the spot level and unmatted, that anchors should be inspected after severe weather or heavy use, and that unused anchor holes should be covered with plugs.",
+    "quote": "Ground anchors are ideal for high-traffic areas or regions with strong winds. These screw into the base material, providing a sturdy attachment point for the turf. … Cut a small X in the backing, being careful not to damage the visible grass blades. This creates an opening for your anchor or stake. … Hammer stakes carefully into place or use a power drill for twist-in anchors. … For artificial turf, add a small amount of infill material around each anchor to further secure it and maintain a level surface. … Regularly inspect your anchors, especially after severe weather or heavy use. … Brush artificial turf fibers periodically to prevent matting around anchor points. … When not in use, cover anchor holes in artificial turf with plugs to keep out debris and maintain appearance.",
+    "source_url": "https://www.ecograssus.com/blog/2020/1/30/inserting-anchor-or-stake-into-turf",
+    "source_label": "EcoGrass, Inserting Anchor or Stake into Turf (Aug. 7, 2024)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "A turf seller's how-to written for swing sets and turf edges; the page applies only its points about cutting the backing, the base, infill, brushing and plugging holes, and defers to the trampoline maker's anchor instructions."
+  },
+  {
+    "id": "trampoline-on-artificial-turf.jumpking-auger-kit",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "JumpKing's trampoline tie-down kit uses four 13-inch auger stakes, each turned into the ground about 6 inches outside a leg, says the ground should be soft and may need softening with water first, and says to make sure the area is free of underground utilities, sprinkler lines included, before installing them.",
+    "quote": "(4) Four 13” auger stakes … Make sure the area is free of underground utilities (electrical, gas, phone, water, sprinkler) before installing the auger stakes. … Install an auger stake at the mid point of each leg, about 6 inches from the outside of the leg base, by rotating the stake and pushing it into the ground. The ground should be soft, and it may be necessary to pre-soften this area with some water before beginning.",
+    "source_url": "https://images.homedepot-static.com/catalog/pdfImages/67/67ae0f30-acce-4603-875e-168e1f889c7b.pdf",
+    "source_label": "JumpKing, Trampoline Tie Down Anchor Kit instructions (part ACC-AK)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4",
+      "13",
+      "6"
+    ],
+    "notes": "Instruction sheet hosted on homedepot-static.com, read with pdftotext on 2026-10-16. One maker's kit; other kits differ in length and design, which the page says."
+  },
+  {
+    "id": "trampoline-on-artificial-turf.integriturf-base-layers",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Integriturf's installation guide builds a turf base by digging out at least 3 to 4 inches, compacting the native soil, then spreading and compacting about 3 inches of class II road base and 1 to 2 inches of decomposed granite.",
+    "quote": "Excavate the area: Dig up the area to a depth of at least 3-4 inches. … Compact the soil: Use a plate compactor and/or hand tamper to compact the native soil. The goal is to create a firm, even surface that will provide a stable base for the artificial turf. … Base Prep: Add a layer of approximately 3 inches of class II road base over the compacted soil. Use a rake to spread the base evenly (contouring for drainage and aesthetic slopes if desired), compact the base using the plate compactor and/or hand tamper. … Decomposed Granite: Add a layer of 1 to 2 inches of DG over the compacted class II base.",
+    "source_url": "https://integriturf.com/wp-content/uploads/2019/02/Installation-Guide.pdf",
+    "source_label": "Integriturf, Synthetic Turf Installation Guide (PDF)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "4",
+      "1",
+      "2"
+    ],
+    "notes": "One turf maker's published method, read with pdftotext on 2026-10-16; base depth varies by installer and soil, which the page says. The step numbers in the source are left out."
+  },
+  {
+    "id": "trampoline-on-artificial-turf.nws-cold-season-wind",
+    "layer": "climate",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The National Weather Service office for northeast Colorado ties Colorado's high winds to the cold season, when winds aloft are much stronger than in the warm season, and says that winds of 60 to near 100 mph reach the foothill areas such as Fort Collins and that lightweight objects should be brought indoors or tied down when high winds are forecast.",
+    "quote": "The two main causes of high winds in Colorado during the cold season are the air pressure difference between strong low pressure and cold high pressure systems, and Chinook winds developing across the Front Range and other mountain ranges. … Mid and upper level winds over Colorado are much stronger in the winter than in the warm season, because of the huge difference in temperature from north to south across North America. … Winds of 60 to near 100 mph will occur in and near the foothills in areas such as Fort Collins … If high winds are forecast for your area, you should bring lightweight objects indoors or tie them down so they do not become dangerous missiles.",
+    "source_url": "https://www.weather.gov/bou/highwind",
+    "source_label": "National Weather Service forecast office for northeast Colorado, High Wind Safety",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "60",
+      "100"
+    ],
+    "notes": "The source's list of foothill places continues past Fort Collins with metro-area and southern Colorado towns; the quote stops at Fort Collins. \"Winds aloft\" in the fact is the source's \"mid and upper level winds\"."
+  },
+  {
+    "id": "trampoline-on-artificial-turf.co811-before-stakes",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado 811 says state law requires contacting it at least two full business days before digging, not counting the day of notice, lists driving landscaping stakes among the examples, and says it does not mark private lines such as sprinkler lines.",
+    "quote": "All Colorado property owners must contact Colorado 811 at least 48 hours (excluding weekends, the day of the notification, and legal holidays) before beginning any excavation project … Driving landscaping stakes into the ground … State law requires you to contact Colorado 811 at least two full business days before you dig (not including the day of notification). … There may be private utilities within your dig area such as sprinkler lines, gas lines, or a BBQ, that require you to higher a private locating company in addition to calling 811. … Colorado 811 does not mark private utility lines.",
+    "source_url": "https://www.colorado811.org/residential-digging",
+    "source_label": "Colorado 811, Residential Property: Planning to Dig on Your Property?",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "811",
+      "48"
+    ],
+    "notes": "\"higher\" is the page's spelling. The statute behind it is C.R.S. 9-1.5. Not legal advice."
+  }
+]

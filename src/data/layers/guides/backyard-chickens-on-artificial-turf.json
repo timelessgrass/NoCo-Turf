@@ -1,0 +1,611 @@
+[
+  {
+    "id": "backyard-chickens-on-artificial-turf.aces-foraging",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Alabama Cooperative Extension says chickens spend around 61 percent of their active time foraging and feeding, pecking and scratching at the ground, and that a chicken unable to forage can turn to feather pecking, egg eating and cannibalism.",
+    "quote": "Chickens spend around 61 percent of their active time on foraging and feeding behavior. Foraging behaviors include pecking and scratching at the ground to find food sources. … If a chicken cannot perform foraging behaviors, it can become frustrated and exhibit unwanted abnormal behaviors, such as aggressive feather pecking, egg eating, and cannibalism.",
+    "source_url": "https://www.aces.edu/blog/topics/poultry/common-backyard-chicken-behaviors/",
+    "source_label": "Alabama Cooperative Extension System (Auburn University), Common Backyard Chicken Behaviors, ANR-2936 (2022)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "61"
+    ],
+    "notes": "Auburn University poultry scientists (Brigid McCrea, Bethany Baker), New October 2022, posted November 2, 2022. Copy calls it Alabama Cooperative Extension (Auburn University)."
+  },
+  {
+    "id": "backyard-chickens-on-artificial-turf.aces-dust-bathing",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same Alabama Extension page says a dust-bathing chicken digs a small hollow, rolls in the dirt and shakes it off, and that a chicken kept from dust bathing can pace, sham dust bathe with no substrate, and peck at other birds.",
+    "quote": "When dust bathing, the chicken digs a small hollow, then lays down and rolls around in the dirt (or other substrate), rubbing it into its feathers. It then stands up and shakes all the substrate from its feathers. … If chickens are prevented from performing these behaviors, frustration and behavioral issues can ensue. These can include pacing back and forth, sham dust bathing (imitation dust bathing when no substrate is present), repetitive pecking at one spot, pecking and pulling at feathers from other birds in the flock, and gakel calls.",
+    "source_url": "https://www.aces.edu/blog/topics/poultry/common-backyard-chicken-behaviors/",
+    "source_label": "Alabama Cooperative Extension System (Auburn University), Common Backyard Chicken Behaviors, ANR-2936 (2022)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "backyard-chickens-on-artificial-turf.aces-exploring",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same page says exploratory behavior in chickens is pecking at objects and the environment with the beak and scratching the floor.",
+    "quote": "Exploratory behavior consists of pecking at objects and the environment with the beak and scratching the floor. The main chicken exploratory organ is the beak.",
+    "source_url": "https://www.aces.edu/blog/topics/poultry/common-backyard-chicken-behaviors/",
+    "source_label": "Alabama Cooperative Extension System (Auburn University), Common Backyard Chicken Behaviors, ANR-2936 (2022)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "backyard-chickens-on-artificial-turf.csu-soil-or-sand",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension advises about 10 square feet per chicken in a coop or run, with access to soil or sand.",
+    "quote": "If you have a chicken coop or run area, aim for 10 square feet per chicken, and make sure they have access to soil or sand.",
+    "source_url": "https://extension.colostate.edu/resource/poultry/",
+    "source_label": "CSU Extension, Poultry: backyard poultry",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "10"
+    ]
+  },
+  {
+    "id": "backyard-chickens-on-artificial-turf.csu-night-droppings",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says chickens poop a lot at night, so nesting boxes should not sit directly below the roosts.",
+    "quote": "Do not place nesting boxes directly below roosting areas. Chickens poop a lot at night, designating a different space for roosting will ensure your eggs are kept cleaner.",
+    "source_url": "https://extension.colostate.edu/resource/poultry/",
+    "source_label": "CSU Extension, Poultry: backyard poultry",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "backyard-chickens-on-artificial-turf.csu-boulder-run",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A CSU Extension county poultry brochure says a run needs 6 to 10 square feet per bird, should be easy to clean with its material cleaned out to avoid smell and contamination, needs summer shade and a well-drained spot where you know where runoff goes, and should be covered against raptors with fencing buried up to 12 inches against diggers.",
+    "quote": "Area needed per bird- 6 – 10 sq. ft. per bird based on breed size • Easy to clean; material will need cleaned out to help avoid smell, contamination, etc. • Consider shade for the birds, especially in the summer. You can put up shade cloth over run when the hot months come. • Well-drained area be cognizant of where runoff goes in a major rain/seasonal runoff event • Consider overhead protection from raptors. The fence/run needs to be raccoon/weasel/ skunk resistant. These animals can also dig, so consider burying fencing material into the ground up to 12”deep.",
+    "source_url": "https://boulder.extension.colostate.edu/wp-content/uploads/sites/7/2020/04/Poultry-brochure-2020.pdf",
+    "source_label": "CSU Extension in Boulder County, Backyard and Small Flock Poultry in Boulder County (brochure, Revision 1, 2020)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6",
+      "10",
+      "12"
+    ],
+    "notes": "Read as a PDF (pdftotext) on 2026-10-16. Boulder County is outside NoCo's territory; copy cites it as CSU Extension guidance, not as a place."
+  },
+  {
+    "id": "backyard-chickens-on-artificial-turf.csu-boulder-coop",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same brochure says a coop should be easy to clean to prevent mites, lice, rodents and odor, suggests a deep litter of pine (not cedar) shavings, notes that a concrete floor is easier to disinfect than wood or dirt, and calls for ventilation to minimize ammonia buildup.",
+    "quote": "Easy to clean, a clean coop will help prevent issues such as mites and lice, attracting rodents and odor issues. … Deep-litter method – Use pine (not cedar) shavings on the floor … Concrete versus wood or dirt floor – concrete easier to disinfect … Free of drafts but ability to be well-ventilated to minimize ammonia buildup, especially in hot months.",
+    "source_url": "https://boulder.extension.colostate.edu/wp-content/uploads/sites/7/2020/04/Poultry-brochure-2020.pdf",
+    "source_label": "CSU Extension in Boulder County, Backyard and Small Flock Poultry in Boulder County (brochure, Revision 1, 2020)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "backyard-chickens-on-artificial-turf.csu-boulder-roost",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same brochure advises 6 to 12 inches of roost per bird and says a roost over a screen with a removable area below keeps the coop cleaner.",
+    "quote": "Roosts are an important part of your coop/house design. Poultry have a basic instinct to roost at night. You should allow for 6 - 12” per bird (based on breed size) when designing your roosts. Having the roost over a screen with a removeable area below will help keep the coop cleaner.",
+    "source_url": "https://boulder.extension.colostate.edu/wp-content/uploads/sites/7/2020/04/Poultry-brochure-2020.pdf",
+    "source_label": "CSU Extension in Boulder County, Backyard and Small Flock Poultry in Boulder County (brochure, Revision 1, 2020)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6",
+      "12"
+    ]
+  },
+  {
+    "id": "backyard-chickens-on-artificial-turf.csu-boulder-dust-baths",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same brochure says a clean coop, dust baths and treating infected birds can limit lice and mites.",
+    "quote": "Keeping the coop clean (critical), providing dust baths and treating infected birds can limit problems with lice and mites.",
+    "source_url": "https://boulder.extension.colostate.edu/wp-content/uploads/sites/7/2020/04/Poultry-brochure-2020.pdf",
+    "source_label": "CSU Extension in Boulder County, Backyard and Small Flock Poultry in Boulder County (brochure, Revision 1, 2020)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "backyard-chickens-on-artificial-turf.csu-boulder-waste",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The same brochure says coop and run waste can go on an active compost pile, in non-food landscaped areas or to a commercial compost facility, but fresh manure should not go in a food crop area because it may carry diseases such as salmonella.",
+    "quote": "If you have an active compost pile, you can add coop and run waste materials to the pile. Otherwise, use the material in non-food landscaped areas or send it to a commercial compost facility. Do not use fresh manure and waste materials in a food crop area. The waste may carry diseases such as salmonella which can contaminate your food.",
+    "source_url": "https://boulder.extension.colostate.edu/wp-content/uploads/sites/7/2020/04/Poultry-brochure-2020.pdf",
+    "source_label": "CSU Extension in Boulder County, Backyard and Small Flock Poultry in Boulder County (brochure, Revision 1, 2020)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "backyard-chickens-on-artificial-turf.csu-poultry-manure-nitrogen",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says poultry manure is particularly high in ammonia and burns plants if over-applied, more so fresh than aged, and its manure table lists poultry manure at 1.7 to 2.8 percent nitrogen against 1.1 percent for beef and 0.7 percent for horse manure.",
+    "quote": "Table 1. Approximate macronutrient amounts in manure … Beef: With bedding, Without bedding 1.1%, 1.1% … Horse: With bedding 0.7% … Poultry: With litter, Without litter 2.8%, 1.7% … Poultry manure is particularly high in ammonia and readily burns if over-applied. The ammonia content will be higher in fresh manure compared to aged manure.",
+    "source_url": "https://extension.colostate.edu/resource/using-manure-in-colorado-gardens/",
+    "source_label": "CSU Extension, CMG GardenNotes #242: Using Manure in Colorado Gardens (reviewed June 2023)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "1.1",
+      "0.7",
+      "2.8",
+      "1.7"
+    ],
+    "notes": "Table 1 columns are N, P2O5, K2O; the figures quoted are the nitrogen column only. Table sources: CSU Extension Bulletin 552A and the Western Fertilizer Handbook."
+  },
+  {
+    "id": "backyard-chickens-on-artificial-turf.csu-planttalk-no-disinfect",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension's PlantTalk Colorado says pet feces and urine on artificial turf are problematic because artificial surfaces do not disinfect themselves biologically the way a living lawn does.",
+    "quote": "Pet feces and urine deposits are problematic. These artificial surfaces do not naturally disinfect themselves by biological means like a living lawn does.",
+    "source_url": "https://planttalk.colostate.edu/topics/lawns/1537-artificial-turf-lawns/",
+    "source_label": "CSU Extension, PlantTalk Colorado 1537: Artificial Turf for Lawns",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "An older script that also quotes install costs and rubber infill; use it only for the waste sentence. Copy says it was written about pet waste."
+  },
+  {
+    "id": "backyard-chickens-on-artificial-turf.cdc-salmonella-droppings",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The CDC says Salmonella outbreaks linked to backyard poultry are common, that poultry shed germs in their droppings and can spread them while looking healthy and clean, and advises wearing gloves to clean poultry houses.",
+    "quote": "Outbreaks of Salmonella linked to backyard poultry are common. … Poultry can shed germs in their droppings (poop). Wear gloves when cleaning bird cages and poultry houses. … Remember that poultry can appear healthy and clean, but still spread harmful germs that make people sick.",
+    "source_url": "https://www.cdc.gov/healthy-pets/about/backyard-poultry.html",
+    "source_label": "CDC, Backyard Poultry (Healthy Pets, Healthy People, July 18, 2025)",
+    "effective": "2025-07-18",
+    "checked": "2026-10-16",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "cdc.gov returns 403 to curl; read in a browser on 2026-10-16."
+  },
+  {
+    "id": "backyard-chickens-on-artificial-turf.cdc-where-they-roam",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The CDC advises washing hands after touching poultry or anything where they live and roam, not eating or drinking where poultry live or roam, keeping dedicated poultry shoes outside, and keeping poultry out of the house and off outdoor patios where food is served.",
+    "quote": "Wash your hands with soap and running water after touching backyard poultry or anything in the area where they live and roam. … Don't eat or drink in areas where poultry live or roam. … Set aside a pair of shoes to wear while taking care of poultry and keep those shoes outside of the house. … Don't allow poultry or waterfowl inside your home for any reason. This includes areas where food or drink is prepared, served, or stored, such as kitchens or outdoor patios.",
+    "source_url": "https://www.cdc.gov/healthy-pets/about/backyard-poultry.html",
+    "source_label": "CDC, Backyard Poultry (Healthy Pets, Healthy People, July 18, 2025)",
+    "effective": "2025-07-18",
+    "checked": "2026-10-16",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "cdc.gov returns 403 to curl; read in a browser on 2026-10-16."
+  },
+  {
+    "id": "backyard-chickens-on-artificial-turf.cdc-under-five",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The CDC says children younger than 5 should not handle or touch chicks or other poultry, because young children are more likely to get sick from germs like Salmonella.",
+    "quote": "Don't let children younger than 5 years old handle or touch chicks, ducklings, or other poultry. Young children are more likely to get sick from germs like Salmonella.",
+    "source_url": "https://www.cdc.gov/healthy-pets/about/backyard-poultry.html",
+    "source_label": "CDC, Backyard Poultry (Healthy Pets, Healthy People, July 18, 2025)",
+    "effective": "2025-07-18",
+    "checked": "2026-10-16",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "5"
+    ],
+    "notes": "cdc.gov returns 403 to curl; read in a browser on 2026-10-16."
+  },
+  {
+    "id": "backyard-chickens-on-artificial-turf.cdc-cleaning-steps",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The CDC's steps for cleaning poultry equipment are to work outdoors, remove droppings and dirt with soap and warm water first because most disinfectants only work on clean surfaces, leave the disinfectant on for the label's time (usually 30 seconds to 10 minutes), then rinse and let it dry.",
+    "quote": "Go outside to clean any equipment or materials used to raise or care for live poultry. … Remove debris (manure, broken egg material, droppings, dirt) by wiping the equipment with a brush soaked in warm water and soap. Once most of the debris is removed and the surface is generally clean, then apply the disinfectant. … Most disinfectants only work on clean surfaces and don't work if they are applied directly to a dirty surface. Leave the disinfectant on the surface for the amount of time listed on the label (usually anywhere from 30 seconds to 10 minutes). Rinse and allow the surface to dry before reuse.",
+    "source_url": "https://www.cdc.gov/healthy-pets/about/backyard-poultry.html",
+    "source_label": "CDC, Backyard Poultry (Healthy Pets, Healthy People, July 18, 2025)",
+    "effective": "2025-07-18",
+    "checked": "2026-10-16",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [
+      "30",
+      "10"
+    ],
+    "notes": "cdc.gov returns 403 to curl; read in a browser on 2026-10-16. The page's steps are written for cages, enclosures and equipment; it also names a diluted bleach solution, which turf makers rule out (see how-to-clean-artificial-turf)."
+  },
+  {
+    "id": "backyard-chickens-on-artificial-turf.cdc-droppings-buildup",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The CDC advises keeping coops and enclosures clean so droppings don't build up and attract insects, rodents and wildlife, wearing gloves to clean droppings, and never picking them up bare-handed.",
+    "quote": "Keep coops and enclosures clean to prevent the build-up of animal droppings. These droppings could attract insects, rodents, and wildlife that carry disease. When you clean droppings and cages, wear work or utility gloves. Don't pick up droppings with your bare hands and wash your hands thoroughly afterwards.",
+    "source_url": "https://www.cdc.gov/healthy-pets/about/backyard-poultry.html",
+    "source_label": "CDC, Backyard Poultry (Healthy Pets, Healthy People, July 18, 2025)",
+    "effective": "2025-07-18",
+    "checked": "2026-10-16",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "cdc.gov returns 403 to curl; read in a browser on 2026-10-16."
+  },
+  {
+    "id": "backyard-chickens-on-artificial-turf.cdc-roosters-noise",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The CDC advises checking state and local laws before buying poultry and says many cities have rules against roosters because their crowing violates noise ordinances.",
+    "quote": "Check your state and local laws before selecting or buying baby chicks, adult poultry (hens, roosters), or waterfowl. Many cities have rules against owning roosters because their crowing violates noise ordinances.",
+    "source_url": "https://www.cdc.gov/healthy-pets/about/backyard-poultry.html",
+    "source_label": "CDC, Backyard Poultry (Healthy Pets, Healthy People, July 18, 2025)",
+    "effective": "2025-07-18",
+    "checked": "2026-10-16",
+    "reachable": false,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "cdc.gov returns 403 to curl; read in a browser on 2026-10-16."
+  },
+  {
+    "id": "backyard-chickens-on-artificial-turf.noaa-90-degree-days",
+    "layer": "climate",
+    "applies_to": [
+      "greeley-co",
+      "fort-collins-co"
+    ],
+    "fact": "The nearest NOAA stations average 58.3 days a year at or above 90°F at Greeley UNC and 29.5 at Fort Collins (1991 to 2020 normals).",
+    "quote": "USC00053553 GREELEY UNC · ANN-TMAX-AVGNDS-GRTH090 58.3 · JJA-TMAX-NORMAL 88.9 · USC00053005 FT COLLINS · ANN-TMAX-AVGNDS-GRTH090 29.5 · JJA-TMAX-NORMAL 84.7",
+    "source_url": "https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-annualseasonal-1991-2020&stations=USC00053553,USC00053005&format=json",
+    "source_label": "NOAA NCEI U.S. Climate Normals 1991 to 2020, annual/seasonal, stations GREELEY UNC (USC00053553) and FT COLLINS (USC00053005)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "58.3",
+      "90",
+      "29.5",
+      "1991",
+      "2020",
+      "88.9",
+      "84.7"
+    ],
+    "notes": "Station-to-town assignment is by proximity, not a NOAA statement: say 'the nearest NOAA station'. Read from the NCEI data API on 2026-10-16."
+  },
+  {
+    "id": "backyard-chickens-on-artificial-turf.fc-code-4-117-hens",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Where farm animals are not otherwise allowed, Fort Collins City Code 4-117 allows chicken or duck hens only, never roosters or drakes, under a Humane Society permit issued after a site inspection: up to 8 on a lot under half an acre, 12 on a half acre to an acre, and 6 more for each extra half acre beyond that.",
+    "quote": "In those zone districts where the keeping of farm animals (as that term is defined in Article 7 of the Land Use Code) is not otherwise allowed, the keeping of chickens and/or ducks (poultry) shall be permitted subject to the following requirements and subject to all other applicable provisions of this Chapter. … Any person keeping poultry pursuant to these provisions must first have been issued a permit by the Humane Society and have received such information or training pertaining to the keeping of poultry as said agency deems appropriate; … The keeping of roosters or drakes (male ducks) is prohibited; only chicken or duck hens shall be permitted … On lots less than one-half (½) acre in size, up to eight (8) chickens and/or ducks may be kept; … On lots one-half (½) acre to one (1) acre in size, up to a total of twelve (12) chickens and/or ducks may be kept; and … On lots more than one (1) acre in size, up to six (6) additional chickens and/or ducks may be kept for every additional one-half (½) acre; provided, however, that if more than twelve (12) chickens and/or ducks, combined, are to be kept, all property owners abutting the parcel where the poultry will be housed must be notified in writing prior to obtaining a permit for said number of poultry; … Prior to the issuance of said permit, a site inspection shall be conducted by the Humane Society to verify compliance with the requirements of this Subsection",
+    "source_url": "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH4ANIN_ARTIIAN_DIV6RE_S4-117SACHDUQUREKECHDU",
+    "source_label": "Fort Collins City Code Sec. 4-117, Sale of chickens and ducklings; quantity restricted; keeping of chickens and ducks",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-04-16",
+    "numbers": [
+      "4",
+      "117",
+      "8",
+      "1",
+      "12",
+      "6"
+    ],
+    "notes": "Applies in zone districts where farm animals are not otherwise allowed. Last amended by Ord. No. 090, 2026 (8-18-26); Municode codified through Ord. No. 096, 2026. Read through the Municode API on 2026-10-16."
+  },
+  {
+    "id": "backyard-chickens-on-artificial-turf.fc-code-4-117-house-enclosure",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins City Code 4-117 requires a covered, predator-resistant poultry house with at least 4 square feet per hen, a fenced outdoor enclosure for daylight hours, hens shut in from dusk to dawn, and the house and enclosure at least 15 feet from any abutting property line unless those owners consent in writing.",
+    "quote": "The poultry must be provided with a covered, predator-resistant poultry house that is properly ventilated, designed to be easily accessed, cleaned and maintained, and must consist of at least four (4) square feet per chicken hen or duck; … During daylight hours, the poultry must have access to the poultry house and also have access to an outdoor enclosure that is adequately fenced to protect them from predators; … The poultry must be further protected from predators by being closed in the poultry house from dusk to dawn; … Neither the poultry house nor the outdoor enclosure may be located less than fifteen (15) feet from any abutting property line unless the owner or keeper of the poultry obtains the written consent of the owners of all abutting properties to which the enclosure is proposed to be more closely located",
+    "source_url": "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH4ANIN_ARTIIAN_DIV6RE_S4-117SACHDUQUREKECHDU",
+    "source_label": "Fort Collins City Code Sec. 4-117, Sale of chickens and ducklings; quantity restricted; keeping of chickens and ducks",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-04-16",
+    "numbers": [
+      "4",
+      "117",
+      "15"
+    ]
+  },
+  {
+    "id": "backyard-chickens-on-artificial-turf.fc-code-4-1-humane-society",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins City Code 4-1 defines the Humane Society named in its animal chapter as the Larimer Humane Society.",
+    "quote": "Humane Society shall mean the Larimer Humane Society, Fort Collins, Colorado.",
+    "source_url": "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH4ANIN_ARTIINGE_S4-1DE",
+    "source_label": "Fort Collins City Code Sec. 4-1, Definitions",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-04-16",
+    "numbers": [
+      "4",
+      "1"
+    ]
+  },
+  {
+    "id": "backyard-chickens-on-artificial-turf.loveland-code-6-28-020-fowl",
+    "layer": "ordinance",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "Loveland Municipal Code 6.28.020 permits chickens subject to the limit in 6.28.010, which sets no number (no more than can be kept healthy without a health or safety hazard or a nuisance to neighbors), and the animal code (Title 6) names no chicken permit or rooster rule.",
+    "quote": "No person shall keep, pasture, house, or maintain on any parcel of land in the city any livestock, except: … Chickens, ducks, geese and other domesticated fowl are permitted subject to the numerical limitations in Section 6.28.010. … 6.28.010 - Limitations on the number of household pets. No person shall keep, house or maintain in or upon the premises of any residential dwelling unit more pet animals than can be properly maintained in a healthy condition without presenting a health or safety hazard to the owner or keeper, to the pets, or to any others or more pet animals than can be properly maintained without constituting a nuisance to the occupants of neighboring properties.",
+    "source_url": "https://library.municode.com/co/loveland/codes/code_of_ordinances?nodeId=PTIILOCOMUCO_TIT6AN_CH6.28KEAN_6.28.020LILI",
+    "source_label": "Loveland Municipal Code 6.28.020, Limitations on livestock (with 6.28.010, Limitations on the number of household pets)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-04-16",
+    "numbers": [
+      "6.28",
+      "020",
+      "20",
+      "010",
+      "10"
+    ],
+    "notes": "Title 6 names no hen count, permit or rooster rule for chickens (search of the Loveland code for rooster: 0 hits). Codified through Ord. No. 6804, Dec. 16, 2025. Loveland's zoning rules for coops (accessory structures) were not read; copy sends readers to Loveland Planning."
+  },
+  {
+    "id": "backyard-chickens-on-artificial-turf.loveland-code-6-20-020-noise",
+    "layer": "ordinance",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "Loveland Municipal Code 6.20.020 requires an animal's owner to keep it from disturbing anyone's peace with noise that is excessive, continuous or untimely.",
+    "quote": "No owner, keeper or person in charge of an animal shall fail to prevent it from disturbing the peace and quiet of any other person by loud and persistent barking, baying, howling, yipping, crying, yelping, whining, or making any other noise in an excessive, continuous or untimely fashion, whether the animal is on or off the owner's premises.",
+    "source_url": "https://library.municode.com/co/loveland/codes/code_of_ordinances?nodeId=PTIILOCOMUCO_TIT6AN_CH6.20CO_6.20.020DIPEQU",
+    "source_label": "Loveland Municipal Code 6.20.020, Disturbance of peace and quiet",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-04-16",
+    "numbers": [
+      "6.20",
+      "020",
+      "20"
+    ],
+    "notes": "Loveland 6.04.010 defines an animal as any live, vertebrate creature, domesticated or wild, excluding fish, so the rule reaches poultry. A charge needs a prior written warning within 12 months (6.20.020 C)."
+  },
+  {
+    "id": "backyard-chickens-on-artificial-turf.loveland-code-6-20-040-odor",
+    "layer": "ordinance",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "Loveland Municipal Code 6.20.040 counts an animal that creates offensive odors interfering with a neighbor at home as a public nuisance.",
+    "quote": "It shall be unlawful for any owner or keeper of an animal to fail to exercise proper care and control of his or her animal to prevent it from becoming a public nuisance. For the purposes of this section, a public nuisance includes an animal which is a safety or health hazard, injures a person or another animal in any manner, damages or destroys public property or the property of another, or creates offensive odors which materially interfere with or disrupt another person in the conduct of lawful activities at such person's home.",
+    "source_url": "https://library.municode.com/co/loveland/codes/code_of_ordinances?nodeId=PTIILOCOMUCO_TIT6AN_CH6.20CO_6.20.040PUNU",
+    "source_label": "Loveland Municipal Code 6.20.040, Public nuisance",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-04-16",
+    "numbers": [
+      "6.20",
+      "040",
+      "40"
+    ]
+  },
+  {
+    "id": "backyard-chickens-on-artificial-turf.greeley-code-24-403-chickens",
+    "layer": "ordinance",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley's development code limits chickens kept as livestock alongside a home to 10 per acre in most zones and 20 per acre in the H-A zone, where per acre means the area specifically devoted to animal use.",
+    "quote": "Livestock. The limitations in table 24-4-3: Animal unit equivalency chart shall apply to the keeping of livestock as an accessory use to farming, residential uses, or any other use involving livestock. … Table 24-4-3: Animal Unit Equivalency Chart · Animal Species · Max Animals Per Acre (by species) · Animal Unit Equivalent · H-A Zone · Other Zone … Chickens, broiler & layer; rabbits · 20 · 10 · 0.1 … \"Per acre\" refers to areas specifically devoted for animal use.",
+    "source_url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH4ZODIUS_S24-403ACUS",
+    "source_label": "Greeley Municipal Code Sec. 24-403, Accessory uses (Table 24-4-3: Animal Unit Equivalency Chart)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-04-16",
+    "numbers": [
+      "24",
+      "403",
+      "4",
+      "3",
+      "20",
+      "10",
+      "0.1"
+    ],
+    "notes": "Columns: Max Animals Per Acre in the H-A zone (20) and other zones (10), then the animal unit equivalent (0.1). H-A is Holding-Agriculture (Sec. 24-401). The code does not say how 'areas specifically devoted for animal use' is measured on a city lot; copy sends readers to Greeley Planning. Codified through Ord. No. 16, 2026."
+  },
+  {
+    "id": "backyard-chickens-on-artificial-turf.greeley-code-24-1301-livestock",
+    "layer": "ordinance",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley's development code defines livestock to include chickens.",
+    "quote": "Livestock. Animals typically related to agricultural or farming uses, including, but not limited to, chickens, swine, sheep, goats, horses, cattle, yaks, alpacas, and emus.",
+    "source_url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH13DETE_S24-1301DE",
+    "source_label": "Greeley Municipal Code Sec. 24-1301, Definitions",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-04-16",
+    "numbers": [
+      "24",
+      "1301"
+    ]
+  },
+  {
+    "id": "backyard-chickens-on-artificial-turf.greeley-code-24-403-odor",
+    "layer": "ordinance",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley's development code bars any accessory use from producing noise or noxious odor that is harmful, damaging or disturbing to the adjacent property.",
+    "quote": "No use or structure may be constructed, maintained, or conducted in a way that produces noise, vibration, noxious odor or material, any visible light, glare or other visible impacts that are harmful, damaging or disturbing to the adjacent property.",
+    "source_url": "https://library.municode.com/co/greeley/codes/municipal_code?nodeId=PTIICOOR_TIT24DECO_CH4ZODIUS_S24-403ACUS",
+    "source_label": "Greeley Municipal Code Sec. 24-403, Accessory uses",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-04-16",
+    "numbers": [
+      "24",
+      "403"
+    ]
+  },
+  {
+    "id": "backyard-chickens-on-artificial-turf.greeley-code-no-hen-rule",
+    "layer": "ordinance",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "A full-text search of Greeley's municipal code found no rule written for backyard hens, roosters or coops (searched October 16, 2026).",
+    "quote": "Municode full-text search of the Greeley Municipal Code (codified through Ord. No. 16, 2026, enacted April 21, 2026): \"hens\" 0 hits; \"hen\" 0; \"rooster\" 0; \"roosters\" 0; \"coop\" 0; \"backyard chickens\" 0; \"chickens\" 10 hits, all in definitions (Secs. 10-1, 12-69, 24-1301), the shipping of live fowl (Secs. 10-270 to 10-274) and the livestock table in Sec. 24-403.",
+    "source_url": "https://library.municode.com/co/greeley/codes/municipal_code",
+    "source_label": "Greeley Municipal Code on Municode (codified through Ord. No. 16, 2026, enacted April 21, 2026)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-04-16",
+    "numbers": [
+      "16",
+      "2026",
+      "21",
+      "0",
+      "10"
+    ],
+    "notes": "Honest NOT FOUND for a hen-specific rule. Greeley's Title 10 (animals) excludes fowl from its definition of animal (Sec. 10-1). A city page on chickens was searched for and not found."
+  },
+  {
+    "id": "backyard-chickens-on-artificial-turf.longmont-code-7-04-130-hens",
+    "layer": "ordinance",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Longmont City Code 7.04.130 allows no more than four chicken hens per parcel and no roosters or other fowl outside agricultural zoning, kept in the rear yard and restricted to the coop and run unless every abutting owner gives written permission to free-range.",
+    "quote": "Backyard chicken hens. a. Other poultry or fowl prohibited. No person may own or keep any other fowl, including ducks, quail, geese, turkeys, or pigeons, in districts not zoned agricultural. b. No more than four chicken hens are permitted per parcel. c. Roosters prohibited. Except as provided in section 15.04.040, no person may own or keep a rooster in any district not zoned agricultural. d. Backyard chicken hens are restricted to the rear or backyard of any lot in a residential zoning district or the rear or backyard of a residential use in all other zoning districts. e. Backyard chicken hens may not free range and are restricted to the coop and run. The restriction on free-ranging may be waived with written permission from all abutting property owners.",
+    "source_url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT7AN_CH7.04AN_S7.04.130PRKEAN",
+    "source_label": "Longmont City Code Sec. 7.04.130, Prohibited keeping of animals",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-04-16",
+    "numbers": [
+      "7.04",
+      "130"
+    ],
+    "notes": "Last amended by Ord. No. O-2024-35 (5-28-2024); Municode codified through Ord. No. O-2026-39. Read through the Municode API on 2026-10-16."
+  },
+  {
+    "id": "backyard-chickens-on-artificial-turf.longmont-code-7-04-130-coop",
+    "layer": "ordinance",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Longmont City Code 7.04.130 caps a coop and its run together at 120 square feet, with at least four square feet per chicken, a predator-proof solid top, water at all times, a height of no more than seven feet, no spot between the back of the house and the front lot line, and at least six feet from other structures and from side and rear property lines.",
+    "quote": "All backyard chicken hen coops shall meet the following requirements: i. Be predator-proof with a solid top. ii. Provide water at all times. iii. Are limited to a maximum of 120 square feet (includes coop space and chicken run). iv. Provide at least four square feet of space per chicken for the coop and run. v. Be no taller than seven feet at the highest point of the roof. vi. Not be located between the rear of the structure and the front yard lot line. vii. Be at least six feet from any other structure and at least six feet from any side or rear property line, except that any coop in existence as of February 1, 2009, shall be exempt from this setback requirement",
+    "source_url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT7AN_CH7.04AN_S7.04.130PRKEAN",
+    "source_label": "Longmont City Code Sec. 7.04.130, Prohibited keeping of animals",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-04-16",
+    "numbers": [
+      "7.04",
+      "130",
+      "120",
+      "1",
+      "2009"
+    ]
+  },
+  {
+    "id": "backyard-chickens-on-artificial-turf.longmont-code-7-04-130-permit",
+    "layer": "ordinance",
+    "applies_to": [
+      "longmont-co"
+    ],
+    "fact": "Longmont City Code 7.04.130 requires a city permit for every backyard chicken coop, one per household, with a $30.00 fee, and requires coops to be cleaned regularly to control dust, odor and waste.",
+    "quote": "All coops shall be regularly cleaned to control dust, odor, and waste and not constitute a nuisance, safety hazard, or health problem to surrounding properties. … k. A city permit is required for all chicken hen coops, and no more than one permit per household shall be issued. l. The fee for a backyard chicken permit is $30.00.",
+    "source_url": "https://library.municode.com/co/longmont/codes/code_of_ordinances?nodeId=PTIICOOR_TIT7AN_CH7.04AN_S7.04.130PRKEAN",
+    "source_label": "Longmont City Code Sec. 7.04.130, Prohibited keeping of animals",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-04-16",
+    "numbers": [
+      "7.04",
+      "130",
+      "30.00",
+      "30"
+    ]
+  }
+]

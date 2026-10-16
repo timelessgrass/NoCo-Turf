@@ -1,0 +1,754 @@
+[
+  {
+    "id": "elk-and-deer-on-artificial-turf.cpw-elk-grazers",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado Parks and Wildlife says elk are grazers that eat mostly grass when they can get it, up to 80 to 90 percent of the summer diet, while bark and twigs of trees and shrubs may make up half of what they eat in winter.",
+    "quote": "Wapiti are grazers; that is, they eat mostly grasses, when available. In summer, the diet may be 80 to 90 percent grasses. Bark and twigs of trees and shrubs may contribute half the winter diet. Wapiti sometimes congregate at haystacks in severe weather.",
+    "source_url": "https://cpw.state.co.us/species/elk",
+    "source_label": "Colorado Parks and Wildlife, Elk species profile",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "80",
+      "90"
+    ],
+    "notes": "Read with curl 2026-10-16 (Diet section). CPW uses wapiti and elk for the same animal."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.cpw-elk-rut-over-mid-october",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado Parks and Wildlife says elk mating is over by mid-October, and that in the fall rut bulls spar for dominance and for harems of several cows.",
+    "quote": "Mating is over by mid-October. Usually a single, obscurely spotted calf is born in May or June, after a gestation period of 8 1/2 months. … In the fall rut, bulls spar for dominance and possession of harems of several cows.",
+    "source_url": "https://cpw.state.co.us/species/elk",
+    "source_label": "Colorado Parks and Wildlife, Elk species profile",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "8",
+      "1/2"
+    ],
+    "notes": "Read with curl 2026-10-16 (Reproduction section)."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.cpw-mule-deer-browsers",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado Parks and Wildlife says mule deer live in any edge habitat, suburban neighborhoods included, and are browsers that eat mostly twigs and leaves of shrubs and trees, ornamentals included, and little grass.",
+    "quote": "Mule deer occupy any \"edge\" habitat, including suburban residential areas. … Deer are browsers, feeding mostly on woody vegetation, including twigs and leaves of shrubs and trees, including ornamentals. They also forage on crops, especially corn. Because they eat little grass, they tend not to compete seriously with livestock or elk. … Mule deer mate in the fall during the rut, where bucks fight for the right to pair with does.",
+    "source_url": "https://cpw.state.co.us/species/mule-deer",
+    "source_label": "Colorado Parks and Wildlife, Mule Deer species profile",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl 2026-10-16 (Habitat, Diet and Reproduction sections)."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.cpw-deer-size-breeding",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado Parks and Wildlife says large deer bucks can weigh over 400 pounds, does about half that, and that deer breed from October to December.",
+    "quote": "They are four to six feet long and stand three feet or more high at the shoulder. Weights of large bucks range over 400 pounds, but does are only half that size. Adult males begin to grow antlers in spring, used in a clash for dominance and breeding rights in autumn. … Deer breed from October to December.",
+    "source_url": "https://cpw.state.co.us/species/white-tailed-deer",
+    "source_label": "Colorado Parks and Wildlife, White-Tailed Deer species profile",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "400"
+    ],
+    "notes": "Read with curl 2026-10-16. The same page says 'Both species of deer are four to six feet long' and gives the same weights; the October-to-December breeding line sits in its Reproduction section."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.nps-elk-diet-weights",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Rocky Mountain National Park says bull elk weigh 700 to 1,000 pounds and cows about 300 to 500, that elk mainly graze grasses and forbs but also browse shrubs, feed mostly in the morning and evening, and eat about 20 pounds of plants a day.",
+    "quote": "Large males, called bulls, can weigh 700-1000 pounds and stand five feet at the shoulder. … Females are called cows. They weigh around 300-500 pounds, stand about 4 1/2 feet tall at the shoulder and are approximately 6 feet long from nose to tail. … Elk primarily graze on grasses and forbs but they also browse shrubs. They feed mostly in the morning and evening, and seek sheltered areas during the middle of the day to digest. They eat an average of 20 pounds of vegetation daily.",
+    "source_url": "https://www.nps.gov/romo/learn/nature/elk.htm",
+    "source_label": "National Park Service, Rocky Mountain National Park: Elk (last updated September 23, 2026)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "700",
+      "1000",
+      "1,000",
+      "300",
+      "500",
+      "4",
+      "1/2",
+      "6",
+      "20"
+    ],
+    "notes": "Read with curl 2026-10-16."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.nps-elk-rut-winter",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Rocky Mountain National Park says rutting bulls weigh up to 1,100 pounds, and that elk herds move down to lower elevations and into the Front Range in winter.",
+    "quote": "In the summer, herds move to higher elevations to feed on tundra vegetation, while in the winter they move down to lower elevations of the park and down into the Front Range. … Every autumn, elk descend from the high country to montane meadows for the annual breeding season. Within the gathering herds, the larger antlered males, now weighing up to 1,100 pounds move nervously among the bands of smaller females.",
+    "source_url": "https://www.nps.gov/romo/learn/nature/elk.htm",
+    "source_label": "National Park Service, Rocky Mountain National Park: Elk (last updated September 23, 2026)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1,100",
+      "1100"
+    ],
+    "notes": "Read with curl 2026-10-16."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.nps-elk-75-feet",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Rocky Mountain National Park tells visitors to keep at least 75 feet from elk, to back away if one approaches, and that an animal changing its behavior because of you means you are too close.",
+    "quote": "When viewing wildlife, follow the \"Rule of Thumb.\" When viewing wildlife, make a thumbs up; extend your arm all the way; close one eye and see if you can hide the animal with your thumb. If you can still see the animal, you are too close. … If wildlife approaches you, back away and maintain a safe distance. If a wild animal changes its behavior due to your presence, you are too close. For animals like elk and bighorn sheep, keep back at least 75 feet, or two bus lengths.",
+    "source_url": "https://www.nps.gov/romo/learn/nature/elk.htm",
+    "source_label": "National Park Service, Rocky Mountain National Park: Elk (last updated September 23, 2026)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "75"
+    ],
+    "notes": "Read with curl 2026-10-16. The distance is the park's viewing rule; the guide presents it as the park's advice, not as a law that reaches private yards."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.csu-no-deer-proof-plant",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says no plant is deer proof because a hungry deer will eat almost anything, that home landscapes can become a main food source in towns, and that susceptible plants belong near the house, in a fenced area or inside a ring of less-preferred plants.",
+    "quote": "Although browsing deer are charming to watch, they can cause extensive damage by feeding on plants and rubbing antlers against trees. In urban areas, home landscapes may become the major source of food. … Damage is most commonly noticed in spring on new, succulent growth. … Plant more susceptible species near the home, in a fenced area, or inside a protective ring of less-preferred species. Table 1 lists plants and their susceptibility to deer damage. A hungry deer will find almost any plant palatable, so no plant is “deer proof.”",
+    "source_url": "https://extension.colostate.edu/resource/preventing-deer-damage/",
+    "source_label": "CSU Extension, Preventing Deer Damage (C.E. Swift and M.K. Gross; published May 2025, reviewed August 2025)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1"
+    ],
+    "notes": "Read with curl 2026-10-16. This is the current web version of the fact sheet formerly numbered 6.520."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.csu-browse-table-trees-shrubs",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension lists apples, aspen, mugo pine, Rocky Mountain juniper, roses and wild raspberry as often browsed by deer, and Apache plume, blue mist spiraea, common juniper, Douglas-fir, hawthorn, mountain mahogany, pinon pine, potentilla and rabbitbrush as rarely browsed.",
+    "quote": "Table 1c. Trees and shrubs and their relative susceptibility to deer browsing. Often browsed: Apples (Malus cvv.); Aspen (Populus tremuloides); Mugo pine (Pinus mugo); Rocky Mountain juniper (Juniperus scopulorum); Roses (Rosa spp.); Wild raspberry (Rubus idaeus). … Rarely browsed: Apache plume (Fallugia paradoxa); Blue mist spiraea (Caryopteris x clandonensis); Common juniper (Juniperus communis); Douglas-fir (Pseudotsuga menziesii); Hawthorn (Crataegus spp.); Mountain mahogany (Cercocarpus montanus); Pinon pine (Pinus edulis); Potentilla/cinquefoil (Potentilla spp.); Rabbit brush (Chrysothamnus spp.)",
+    "source_url": "https://extension.colostate.edu/resource/preventing-deer-damage/",
+    "source_label": "CSU Extension, Preventing Deer Damage (C.E. Swift and M.K. Gross; published May 2025, reviewed August 2025)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1"
+    ],
+    "notes": "Read with curl 2026-10-16; table cells read column by column from the page's HTML table. The quote lists the cells with their column headings; the 'Sometimes browsed' column is left out."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.csu-browse-table-flowers",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension lists tulips, strawberries and wild geranium among flowers often browsed by deer, and Russian sage, lavender, purple coneflower, daffodils, yarrow and blanketflower among those rarely browsed.",
+    "quote": "Table 1a. Flowers and their relative susceptibility to deer browsing. Often browsed: Geranium, wild (Geranium fremontii); … Strawberry (Fragaria spp.); Tulips (Tulipa spp.). … Rarely browsed: Black-eyed susan (Rudbeckia spp.); … Daffodils (Narcissus cvv.); Gaillardia/blanketflower (Gaillardia aristata); … Lavender (Lavandula spp.); … Purple coneflower (Echinacea purpurea); Russian sage (Perovskia atriplicifolia); Thyme (Thymus spp.); Yarrow (Achillea spp.)",
+    "source_url": "https://extension.colostate.edu/resource/preventing-deer-damage/",
+    "source_label": "CSU Extension, Preventing Deer Damage (C.E. Swift and M.K. Gross; published May 2025, reviewed August 2025)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1"
+    ],
+    "notes": "Read with curl 2026-10-16; table cells read column by column from the page's HTML table."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.csu-antler-rubs",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says trunk tubes help protect larger trees but may not stop bucks scraping the velvet off their antlers on the trunk, and fencing may be needed.",
+    "quote": "Tubes placed around the trunks of larger trees will help prevent trunk damage. Tubes may not, however, protect trunks from damage when bucks use the trees to scrape the velvet off their antlers. Fencing may be required.",
+    "source_url": "https://extension.colostate.edu/resource/preventing-deer-damage/",
+    "source_label": "CSU Extension, Preventing Deer Damage (C.E. Swift and M.K. Gross; published May 2025, reviewed August 2025)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl 2026-10-16."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.csu-fence-8-feet",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says fencing deer out is the only sure way to control deer damage, and that the conventional deer-proof fence is 8 feet of woven wire.",
+    "quote": "Adequate fencing to exclude deer is the only sure way to control deer damage. The conventional deer-proof fence is 8 feet high and made of woven wire. Electric fences also can be used.",
+    "source_url": "https://extension.colostate.edu/resource/preventing-deer-damage/",
+    "source_label": "CSU Extension, Preventing Deer Damage (C.E. Swift and M.K. Gross; published May 2025, reviewed August 2025)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "8"
+    ],
+    "notes": "Read with curl 2026-10-16."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.csu-repellents",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says to apply deer repellents on a dry day above freezing, up to 6 feet above the deepest expected snow, rates a spray of 20 percent whole eggs in water high against deer and medium against elk in Colorado tests, and says the egg spray needs reapplying in about 30 days.",
+    "quote": "Apply repellents on a dry day with temperatures above freezing. Treat young trees completely. Older trees may be treated only on their new growth. Treat to a height 6 feet above the maximum expected snow depth. Deer browse from the top down. … A spray of 20 percent whole eggs and 80 percent water is one of the most effective repellents. … The egg mixture is weather resistant but must be reapplied in about 30 days. … Table 2. Relative effectiveness of repellents tested on hungry, captive mule deer and elk in Colorado during 1989, 1991 and 1992. … Chicken eggs (20% eggs, 80% water) High Medium … Coyote urine (100% urine) High High",
+    "source_url": "https://extension.colostate.edu/resource/preventing-deer-damage/",
+    "source_label": "CSU Extension, Preventing Deer Damage (C.E. Swift and M.K. Gross; published May 2025, reviewed August 2025)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "6",
+      "20",
+      "80",
+      "30",
+      "2",
+      "1989",
+      "1991",
+      "1992",
+      "100"
+    ],
+    "notes": "Read with curl 2026-10-16. Table 2's columns are effectiveness on deer, then on elk."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.csu-scare-tactics-temporary",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says frightening deer with noise makers, strobe lights or tethered dogs usually gives only temporary relief.",
+    "quote": "It is difficult to move deer out of areas where they are not wanted. Not all strategies are practical for every homeowner. Frightening deer with gas exploders, strobe lights, pyrotechnics or tethered dogs typically provides only temporary relief.",
+    "source_url": "https://extension.colostate.edu/resource/preventing-deer-damage/",
+    "source_label": "CSU Extension, Preventing Deer Damage (C.E. Swift and M.K. Gross; published May 2025, reviewed August 2025)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl 2026-10-16."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.cpw-home-fence-six-feet",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado Parks and Wildlife's advice to homeowners calls a fence six feet or taller the most effective way to keep deer off a property.",
+    "quote": "Fencing six-feet and taller will keep most wild animals like deer, skunks and coyotes out of your property. … A fence six-feet or taller is the most effective way to keep deer off of your property.",
+    "source_url": "https://cpw.state.co.us/protect-your-home-wildlife",
+    "source_label": "Colorado Parks and Wildlife, Keep Your Home Safer Near Wildlife",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl 2026-10-16 (Fences section and the Dealing with Deer list)."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.cpw-home-yard-attractants",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado Parks and Wildlife tells homeowners to pick fruit before it ripens and clean up what falls, fence gardens and net fruit trees, not leave out water, and keep the ground under bird feeders clear of seed.",
+    "quote": "Pick fruit before it ripens and clean up fallen fruit to avoid luring wildlife to your yard. Fence gardens and cover fruit trees with commercially available netting to protect your harvest. … Don’t leave out water. … Keep the area underneath feeders clean and free of bird seed and hull.",
+    "source_url": "https://cpw.state.co.us/protect-your-home-wildlife",
+    "source_label": "Colorado Parks and Wildlife, Keep Your Home Safer Near Wildlife",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl 2026-10-16 (Remove Easy Access to Food list)."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.cpw-home-native-plants",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado Parks and Wildlife says deer often prefer non-native shrubs and plants, suggests landscaping with natives, and says it is illegal to feed deer in Colorado because crowding them spreads disease and draws predators.",
+    "quote": "Landscape with native plants and shrubs. Deer often prefer to eat non-native shrubs and plants, which may in turn lead to predators visiting your property. … It is illegal to provide food for deer in Colorado. Attracting deer can concentrate them in small spaces, making disease easier to spread, attracting predators, and causing them to lose their natural fear of people.",
+    "source_url": "https://cpw.state.co.us/protect-your-home-wildlife",
+    "source_label": "Colorado Parks and Wildlife, Keep Your Home Safer Near Wildlife",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl 2026-10-16 (Landscaping and Vegetation list; Dealing with Deer)."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.cpw-fencing-exclusion",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado Parks and Wildlife's fencing guide says a permanent non-electric fence to keep deer and elk out should be seven to eight feet high, built close around the thing it protects, such as a garden, rather than around all the habitat.",
+    "quote": "If you must exclude wildlife, avoid fencing a large area that includes all wildlife habitat. Focus exclusion fences on small areas for specific purposes, such as fencing around gardens, beehives, calving and lambing areas, or haystacks. Keep exclusion fence close to the activity you need protected, and allow wildlife to use other parts of the property or pass through. … A permanent non-electric exclusion fence for deer and elk should be seven to eight feet high. … For gardens, vineyards and other agricultural plots, 8’ woven-wire fence is often used with posts set at 8 to 20’ intervals, and the wire is brought tight to the ground. Make the top highly visible by using a top rail, high-visibility wire or flagging. Place gates at corners where an accidentally trapped animal is more likely to find an escape.",
+    "source_url": "https://cpw.widen.net/s/2r8zzcwk7b/fencingwithwildlifeinmind",
+    "source_label": "Colorado Parks and Wildlife, Fencing with Wildlife in Mind (Hanophy, 2009; reprinted March 2021), Exclusion Fencing",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "8",
+      "20"
+    ],
+    "notes": "Read 2026-10-16: the share link opens a viewer; the PDF behind it was read with pdftotext (pages 29 to 31)."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.cpw-fencing-residential",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado Parks and Wildlife's fencing guide says solid wood, iron, steel and chain-link fences around homes can be a complete barrier to wildlife and belong on small enclosures, and that yard and play-area fences often need not be over 4 feet high.",
+    "quote": "Wooden fence that animals can’t see through, iron or steel fencing, and chain link fence are typically used around housing areas. These fences are especially dangerous to wildlife and can create a complete barrier to animals of all sizes, from turtles to moose. If you must use chain link, metal or plank fences, limit their use to small enclosures. Yard fences and play area fences often do not need to be more than 4’ high. If higher, be sure gates are kept secured to prevent animals from finding their way in. … Unnecessary, poorly designed, or poorly placed fence in residential areas can be lethal to deer, elk, and other wildlife.",
+    "source_url": "https://cpw.widen.net/s/2r8zzcwk7b/fencingwithwildlifeinmind",
+    "source_label": "Colorado Parks and Wildlife, Fencing with Wildlife in Mind (Hanophy, 2009; reprinted March 2021), Excluding Deer and Elk in Residential Areas",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "4"
+    ],
+    "notes": "Read with pdftotext 2026-10-16 (page 31; the last sentence is that page's photo caption)."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.cpw-fencing-depth",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado Parks and Wildlife's fencing guide says deer avoid jumping a fence with both height and depth, so a staggered or leaning fence, plantings along a fence, or two parallel fences 36 to 38 inches apart can keep deer and elk out of gardens.",
+    "quote": "Deer are not comfortable jumping fences with both height and depth, and are wary of fences that are not flat and regular. A staggered picket fence or leaning fence can be an effective deer deterrent. Tall perennials, shrubs and trees can also be placed along a fence to increase the perceived depth of the barrier. … A 3-D electric deer fence is an effective alternative to wood, chain link, or iron fence for keeping deer and elk out of orchards and vegetable gardens. This fence is basically two parallel fences only 36 to 38” apart, the outside slightly shorter than the inside fence.",
+    "source_url": "https://cpw.widen.net/s/2r8zzcwk7b/fencingwithwildlifeinmind",
+    "source_label": "Colorado Parks and Wildlife, Fencing with Wildlife in Mind (Hanophy, 2009; reprinted March 2021), Excluding Deer and Elk in Residential Areas",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "36",
+      "38"
+    ],
+    "notes": "Read with pdftotext 2026-10-16 (page 31; the 3-D fence text runs down a narrow column and was rejoined in reading order)."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.cpw-fencing-wildlife-friendly",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado Parks and Wildlife recommends that a fence meant to let wildlife pass keep its top rail or wire at 42 inches or less, with at least 16 inches between the bottom wire or rail and the ground.",
+    "quote": "The “friendliest” fences for wildlife are very visible and allow wild animals to easily jump over or slip under the wires or rails. The Colorado Division of Parks and Wildlife recommends: … Smooth wire or rounded rail for the top, smooth wire on the bottom; Height of top rail or wire should be 42” or less; At least 12” between the top two wires; At least 16” between the bottom wire or rail and the ground;",
+    "source_url": "https://cpw.widen.net/s/2r8zzcwk7b/fencingwithwildlifeinmind",
+    "source_label": "Colorado Parks and Wildlife, Fencing with Wildlife in Mind (Hanophy, 2009; reprinted March 2021), Wildlife-Friendly Fencing",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "42",
+      "12",
+      "16"
+    ],
+    "notes": "Read with pdftotext 2026-10-16 (page 6)."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.cpw-reg-021-feeding",
+    "layer": "state",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado Parks and Wildlife's feeding rule bars anyone from putting out grain, hay, minerals, salt or other food they know or reasonably should know will lure big game, and bars salt or minerals that lure wildlife, with exceptions for normal agricultural practice.",
+    "quote": "A. Except as provided in subsections (A)(1-4) of this regulation no person shall place, deposit, distribute, or scatter grain, hay, minerals, salt, or other foods the person knows or reasonably should know constitute a lure, attraction or enticement for big game not lawfully held in captivity. 1. Crops and crop aftermath, including hay, alfalfa and grains, produced, harvested, stored or fed to domestic livestock in accordance with normal agricultural practices shall not be subject to this regulation. … B. No person shall place or deposit minerals or salt the person knows or reasonably should know constitute a lure or attractant for wildlife. Nothing in this regulation shall restrict the use of salt or mineral blocks in normal agricultural practices.",
+    "source_url": "https://cpw.widen.net/s/zvhkgggcgh/chapter-w-0---general-provisions",
+    "source_label": "Colorado Parks and Wildlife regulations, Chapter W-0 General Provisions, #021 Feeding or Attracting Wildlife (revision dated 05/06/2026)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-06-01",
+    "numbers": [
+      "1",
+      "4",
+      "021",
+      "21",
+      "2026"
+    ],
+    "notes": "Read with pdftotext 2026-10-16 from the PDF linked on cpw.state.co.us/rules-and-regulations (page 49). The 'knows or reasonably should know' wording replaced an intent standard; CPW's Feeding Wildlife web page still says 'intentionally feeding', so the guide quotes the rule. Subsections A(2) to A(4) are the Director's feeding exceptions. Not legal advice."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.cpw-feeding-page",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado Parks and Wildlife says feeding deer and elk crowds them into small areas where dogs chase them, cars hit them and disease spreads, and names salt and mineral blocks, corn, grain and pumpkins among foods that spread disease.",
+    "quote": "Intentional or inadvertent feeding is the major cause of many wildlife problems. Under Colorado law, intentionally feeding deer, elk, pronghorn, mountain goats, bighorn sheep, mountain lions and bears is illegal. … Leaving pumpkins out for wildlife might seem harmless, but it can lead to unintended consequences and put humans and animals at risk. … Artificial feeding disrupts grazing behavior and prompts deer to crowd together in small areas where they are more likely to be chased by dogs, hit by cars and spread disease. … Salt and mineral blocks, corn, grain and pumpkins all facilitate disease transmission.",
+    "source_url": "https://cpw.state.co.us/feeding-wildlife",
+    "source_label": "Colorado Parks and Wildlife, Feeding Wildlife",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl 2026-10-16."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.cpw-acidosis",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado Parks and Wildlife says corn, birdseed, apples, grain and other high-carbohydrate foods give deer and elk acidosis, a disease that kills many of them quickly.",
+    "quote": "Deer and elk eat wild grasses, forbs and shrubs, and have specialized stomachs for getting nutrients out of these tough-to-digest foods. When they eat corn, bird seed, apples, grain or other high-carbohydrate foods, their stomachs produce too much acid, causing a disease known as acidosis. … Many animals die quickly from the acid’s immediate effects; others may live longer but eventually die from liver or brain damage",
+    "source_url": "https://cpw.state.co.us/feeding-wildlife",
+    "source_label": "Colorado Parks and Wildlife, Feeding Wildlife",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl 2026-10-16."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.cpw-cwd-feces",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado Parks and Wildlife says chronic wasting disease is always fatal to deer, elk and moose, and that the prions that cause it are in the saliva and feces of infected animals.",
+    "quote": "Chronic wasting disease (CWD) is an always-fatal neurological disease that affects deer, elk and moose. “Prions” (pree-ons), the proteins that cause the disease, are in the saliva, feces and carcasses of infected animals, meaning the disease can spread by direct or indirect contact with an infected animal.",
+    "source_url": "https://cpw.state.co.us/feeding-wildlife",
+    "source_label": "Colorado Parks and Wildlife, Feeding Wildlife",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl 2026-10-16. The page's HTML puts zero-width spaces inside 'deer' and 'elk'; they are left out of the quote. The guide uses this only for why CPW discourages crowding deer and elk, and says nothing about risk to people (the CDC page on that refused this machine with a 403)."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.cpw-too-close-signs",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado Parks and Wildlife says an animal with its head up, ears pointed at you or acting jumpy means you are probably too close, that people should not approach animals that are feeding or with young, and should give them an opening to leave.",
+    "quote": "Don’t approach any wild animal, especially one that is feeding or with young or behaving abnormally or aggressively. Most animals will try to avoid a confrontation. Give them an opening to leave the area. … If the animals you are observing have their heads up, ears pointed toward you, or appear “jumpy” or nervous when you move, you are probably too close. … Animals at rest need to remain at rest. Don't do anything that might make them move. … If a wildlife conflict poses immediate danger for the animal or people in the area, call your local CPW office or law enforcement agency.",
+    "source_url": "https://cpw.state.co.us/crossing-paths-wildlife",
+    "source_label": "Colorado Parks and Wildlife, Crossing Paths with Wildlife",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl 2026-10-16."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.cpw-cow-elk-calving",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Colorado Parks and Wildlife says cow elk commonly charge anything they see as a threat to a newborn calf during calving season, late spring through early summer, and can be especially aggressive toward dogs, so pets should stay leashed.",
+    "quote": "Late spring through early summer is considered calving season for elk and moose. Cow elk will commonly charge and chase any perceived threats to their newborns. Please give elk a wide berth to avoid conflicts. Pets should be kept on-leash at all times as cow elk can be especially aggressive towards dogs. … While a calf may be unattended, the cow is most likely nearby gathering food.",
+    "source_url": "https://cpw.state.co.us/news/06072024/cpw-responding-unprecedented-third-cow-elk-attack-estes-park",
+    "source_label": "Colorado Parks and Wildlife news release, CPW responding to unprecedented third cow elk attack in Estes Park (June 7, 2024)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl 2026-10-16. CPW's own disclaimer says dated releases may hold historical information; the calving advice matches its Feeding Wildlife page ('elk, moose and deer with calves and fawns can become aggressive')."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.cpw-estes-park-2024-attacks",
+    "layer": "research",
+    "applies_to": [
+      "estes-park-co"
+    ],
+    "fact": "In June 2024 Colorado Parks and Wildlife investigated a third cow elk attack in Estes Park that year, on a woman walking a leashed dog who startled a cow whose calf was later seen nearby.",
+    "quote": "ESTES PARK, Colo. - Colorado Parks and Wildlife is investigating an unprecedented third cow elk attack in Estes Park early Friday morning. The victim, an adult woman, was walking a dog on-leash … when she startled a cow elk from about 20 yards away. The woman tried to run behind a tree for safety, but the elk knocked her to the ground, stomping and kicking her several times. … The cow’s calf was later spotted nearby. “Cow elk with young calves are known to be aggressive, however we’ve never seen a year like this,” said Jason Duetsch, CPW Area Wildlife Manager.",
+    "source_url": "https://cpw.state.co.us/news/06072024/cpw-responding-unprecedented-third-cow-elk-attack-estes-park",
+    "source_label": "Colorado Parks and Wildlife news release, CPW responding to unprecedented third cow elk attack in Estes Park (June 7, 2024)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2024",
+      "20"
+    ],
+    "notes": "Read with curl 2026-10-16. The street location in the release is left out of the quote."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.estes-park-7-20-wildlife-chapter",
+    "layer": "ordinance",
+    "applies_to": [
+      "estes-park-co"
+    ],
+    "fact": "Estes Park's Wildlife Protection chapter requires refuse kept outside to be in a wildlife-resistant container or enclosure, and requires bird feeders from April 1 to December 1 to hang out of bears' reach.",
+    "quote": "Wildlife means any undomesticated animal, including, but not limited to, birds, elk, deer, bighorn sheep, lynx, skunks, magpies, crows, bears, raccoons, coyotes, beavers, porcupines, mountain lions, bobcats and foxes. … All refuse located outside an enclosed structure shall be contained in a wildlife resistant container or a wildlife resistant enclosure. … Bird feeders are allowed. However, between April 1 and December 1 of each year, all bird feeders must be suspended on a cable or other device at a height above the ground or structure so they are inaccessible to bears.",
+    "source_url": "https://library.municode.com/co/estes_park/codes/municipal_code?nodeId=TIT7AN_CH7.20WIPR",
+    "source_label": "Estes Park Municipal Code Chapter 7.20, Wildlife Protection, Secs. 7.20.010, 7.20.040 and 7.20.080 (codified through Ord. No. 08-26, May 12, 2026)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-04-16",
+    "numbers": [
+      "1"
+    ],
+    "notes": "Read through Municode's content API 2026-10-16 (client 8541, product 18057, job 493420, Supp. No. 35 Update 3)."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.estes-park-no-feeding-ban-found",
+    "layer": "ordinance",
+    "applies_to": [
+      "estes-park-co"
+    ],
+    "fact": "We found no section of the Estes Park Municipal Code that bans feeding wildlife; its wildlife chapter regulates trash containers and bird feeders, so the state feeding rule is the one that applies.",
+    "quote": "Full-text search of the Estes Park Municipal Code through Municode's content API (codified through Ord. No. 08-26, adopted May 12, 2026), all fourteen titles, for \"feed\", \"feeding\", \"fed\", \"bait\", \"lure\" and \"attract\": no provision on feeding wildlife; the hits are impound care-and-feeding fees in Chapter 7.12, the refuse definition and bird-feeder rule in Chapter 7.20, and vermin and attractive-nuisance language elsewhere.",
+    "source_url": "https://library.municode.com/co/estes_park/codes/municipal_code",
+    "source_label": "Estes Park Municipal Code on Municode (codified through Ord. No. 08-26, May 12, 2026)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-04-16",
+    "numbers": [
+      "2026",
+      "12"
+    ],
+    "notes": "Searched 2026-10-16 (594 sections across the code's titles). The Estes Park Development Code was searched for 'feed' too, with no wildlife-feeding provision. Re-search when the code is next supplemented."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.estes-park-devcode-7-8-fencing",
+    "layer": "ordinance",
+    "applies_to": [
+      "estes-park-co"
+    ],
+    "fact": "On development applications for a site with important wildlife habitat, Estes Park's Development Code caps fences at 40 inches unless staff approve a taller one for animals or gardens, requires 6-foot openings every 50 feet in taller fence lines, bans barbed wire, and exempts lots already approved for single-family homes before the code took effect.",
+    "quote": "This Section shall apply to all applications for review of development plans, subdivision plats, planned unit developments, special review uses and rezonings. This Section shall not apply to development on lots that were approved for single-family residential use prior to the effective date of this Code. … No fencing on a site containing important wildlife habitat shall exceed forty (40) inches in height, except to the extent that such fencing is approved by Staff to confine permitted domestic animals or to protect permitted ornamental landscaping or gardens. … Fences higher than forty (40) inches may be allowed if adequate openings are provided for the passage of deer, elk or other identified wildlife. These openings shall be at least six (6) feet wide and spaced a maximum of fifty (50) feet apart along continuous fence lines exceeding this length. … No fencing using barbed wire shall be allowed.",
+    "source_url": "https://library.municode.com/co/estes_park/codes/development_code?nodeId=CH7GEDEST_S7.8WIHAPR",
+    "source_label": "Estes Park Development Code Sec. 7.8, Wildlife Habitat Protection, B and G.1.c (codified through Ord. No. 09-25, June 24, 2025)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-04-16",
+    "numbers": [
+      "40",
+      "6",
+      "50"
+    ],
+    "notes": "Read through Municode's content API 2026-10-16 (product 18060, job 463957, Supp. No. 23). The code ties 'important wildlife habitat' to its habitat maps and CPW maps (7.8.E). No general residential fence-height cap turned up in the Development Code chapters read."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.loveland-6-28-045-feeding",
+    "layer": "ordinance",
+    "applies_to": [
+      "loveland-co"
+    ],
+    "fact": "Loveland's code makes it unlawful to knowingly give deer anything to eat or drink in the city, bones, salt licks and water included, and covers any other wild animal when the feeding becomes a nuisance to neighbors.",
+    "quote": "No person shall knowingly provide edible or drinkable material, including, without limitation, bones, salt licks, and water, within the city to any of the following animals: A. Bears of any species; B. Deer of any species; … F. Any other wild animal to the extent that such feeding constitutes a nuisance to the occupants of neighboring properties. … It shall be a defense to a charge of violating this section that a person is feeding only squirrels and birds other than wild ducks or geese.",
+    "source_url": "https://library.municode.com/co/loveland/codes/code_of_ordinances?nodeId=PTIILOCOMUCO_TIT6AN_CH6.28KEAN_6.28.045LIKNFEWIAN",
+    "source_label": "Loveland Municipal Code Sec. 6.28.045, Limitations on knowingly feeding wild animals (codified through Ord. No. 6804, December 16, 2025)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-04-16",
+    "numbers": [],
+    "notes": "Read through Municode's content API 2026-10-16 (product 15738, job 488583, Supp. No. 13). Ord. 6120 (2017) and Ord. 4804 (2003). Elk are not named; they fall under F only when the feeding is a nuisance, and under the state rule regardless."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.fort-collins-4-73-feeding",
+    "layer": "ordinance",
+    "applies_to": [
+      "fort-collins-co"
+    ],
+    "fact": "Fort Collins' code bars anyone from feeding deer in the city and defines feeding to include water and salt licks, with an exception for feeding only squirrels and birds other than wild ducks and geese.",
+    "quote": "Notwithstanding the foregoing, in no event shall any person keep or feed the following within the City: … Deer; … For the purpose of this Section, to feed shall mean all provision of edible or drinkable material, including without limitation bones, salt licks and water. … It shall be a defense to a charge of violating this Section … that a person is feeding only squirrels or birds, other than wild ducks or geese.",
+    "source_url": "https://library.municode.com/co/fort_collins/codes/municipal_code?nodeId=CH4ANIN_ARTIIAN_DIV4CATRAN_S4-73LIPOFEWIEXAN",
+    "source_label": "Fort Collins Municipal Code Sec. 4-73, Limitation on possession and feeding of wild or exotic animals (codified through Ord. No. 096, 2026)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "recheck": "2027-04-16",
+    "numbers": [],
+    "notes": "Read through Municode's content API 2026-10-16 (product 18005, job 501629, Supp. No. 156 Update 1). Last amended by Ord. No. 090, 2026 (August 18, 2026). A first or second violation is a civil infraction. Elk are not named in the section."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.csu-turf-no-self-disinfect",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says animal waste on artificial turf is a problem because turf does not disinfect itself biologically the way a living lawn does.",
+    "quote": "Pet feces and urine deposits are problematic. These artificial surfaces do not naturally disinfect themselves by biological means like a living lawn does.",
+    "source_url": "https://planttalk.colostate.edu/topics/lawns/1537-artificial-turf-lawns/",
+    "source_label": "CSU Extension, PlantTalk Colorado 1537: Artificial Turf for Lawns",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl 2026-10-16. The script speaks of pet waste; the guide applies it to droppings in general only as CSU's point that turf does not break waste down."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.k9grass-solid-waste",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "A pet-turf maker's care steps say to remove solid waste soon, and for messy waste to pick up all you can, rinse with a hose and treat with a bacterial enzyme, without rinsing solids into the turf.",
+    "quote": "Debris such as leaves and sticks should be removed regularly. Leaf rakes and blowers are great tools to accomplish this. Solid pet waste is easy to locate and should be removed frequently (the sooner the better). The more dogs there are, the more important this is. If the solid waste is messy, pick up all that you can, rinse with a hose, and treat with a bacterial enzyme. Do not rinse solid waste into the grass.",
+    "source_url": "https://k9grass.com/faq/how-do-you-clean-artificial-grass-for-dogs/",
+    "source_label": "K9Grass, How to clean artificial grass for dogs?",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl 2026-10-16. 'Grass' in the quote is the maker's turf."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.cdc-feces-handwashing",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The CDC, on its page about pet roundworms and hookworms, advises keeping play areas, lawns and gardens around the home free of animal feces and washing hands with soap and water after outdoor activities.",
+    "quote": "Wash your and your children’s hands with soap and water after playing with pets or other animals, after outdoor activities, and before handling food or eating. … Keep play areas, lawns, and gardens around your home free of animal feces.",
+    "source_url": "https://archive.cdc.gov/www_cdc_gov/parasites/resources/roundworms_hookworms.html",
+    "source_label": "CDC (archived page), Roundworms and Hookworms: pets and parasites",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl 2026-10-16. The page is about parasites of dogs and cats; the guide uses only its general advice on animal feces and hand-washing and says nothing about what deer or elk droppings carry."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.motz-plastic-rake",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Motz, an infill maker, says metal rakes are the tool most likely to damage turf and recommends a lightweight plastic or bamboo rake with curved tines, or a broom.",
+    "quote": "Heavy metal rakes with metal tines aren’t a good option because they’re the most likely to damage your turf. Instead, look for lightweight plastic or bamboo rakes with curved tines. Some homeowners opt to use a simple broom for this task, which can also work well.",
+    "source_url": "https://themotzgroup.com/infill_blog/how-to-rake-leaves-on-artificial-turf-without-causing-damage/",
+    "source_label": "Motz, How to Rake Leaves on Artificial Turf Without Causing Damage",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl 2026-10-16. Written about leaves; the guide uses it for the choice of rake."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.synlawn-300-psi",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "SYNLawn's care manual warns that water spray stronger than 300 psi can severely damage turf and displace its infill.",
+    "quote": "Caution! Do not use high-pressure water spray with stream force in excess of 300 psi as this can severely damage the turf and displace any infill material.",
+    "source_url": "https://www.synlawn.com/wp-content/uploads/2024/04/SYNLawn-Care-and-Maintenance-ENG.pdf",
+    "source_label": "SYNLawn Care and Maintenance Manual (SCM.v230517, May 17, 2023)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "300"
+    ],
+    "notes": "Read with pdftotext 2026-10-16."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.msi-no-power-washer",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "MSI's Evergrass care sheet says never to use a power washer on its turf and to rinse with a hose and a sprinkler or spray nozzle so the water can drain.",
+    "quote": "Never use a power washer. It is recommended to use a hose with sprinkler or spray nozzle, this will allow the water to drain.",
+    "source_url": "https://cdn.msisurfaces.com/files/flyers/turf-care-and-maintenance.pdf",
+    "source_label": "MSI, Evergrass Artificial Turf Care and Maintenance",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with pdftotext 2026-10-16."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.motz-punctures-imprints",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Motz says furniture with sharp edges will puncture turf and that bulky or heavy objects left in one place flatten it and leave imprints.",
+    "quote": "Many heavy items, like lawn chairs, are commonly placed on synthetic turf yards, and that’s OK. However, furniture with sharp edges will puncture the turf. And if you leave bulky or heavy objects in the same place over extended periods, it will cause the turf to lay flat, and the objects will leave imprints.",
+    "source_url": "https://themotzgroup.com/infill_blog/how-to-get-turf-fibers-in-artificial-grass-to-stand-up-tall-when-theyre-flat/",
+    "source_label": "Motz, How to Get Turf to Stand Up Tall When Flat",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl 2026-10-16. Motz says nothing about hooves; the guide says so."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.motz-brush-flat-spot",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Motz's fix for flattened turf is to brush against the grain first and then in every direction, and says blades pressed lightly should bounce straight back, while a spot that stays flat may need more infill.",
+    "quote": "After more infill is added, use your broom, Grandi Groom, or a small artificial grass brush to work it into the turf. As you do this, brush or drag your chosen tool against the grain of the fibers first to help lift them and allow more infill to get securely to the base. Then, brush in all different directions to give your outdoor artificial grass a natural and fluffed-up look and to ensure the infill is evenly distributed. … if you press down lightly on them, the blades should bounce back up immediately when you release pressure. If you do this and are left with flat artificial grass in that spot, or if some areas of your turf system still appear flat or matted, more infill may be needed.",
+    "source_url": "https://themotzgroup.com/infill_blog/how-to-get-turf-fibers-in-artificial-grass-to-stand-up-tall-when-theyre-flat/",
+    "source_label": "Motz, How to Get Turf to Stand Up Tall When Flat",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl 2026-10-16."
+  },
+  {
+    "id": "elk-and-deer-on-artificial-turf.motz-spot-fill",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Motz says to fix a few low-infill spots by adding handfuls of infill a thin layer at a time and brushing it in, because too much infill causes trouble as well as too little.",
+    "quote": "If you only have a few low-infill areas, start by adding handfuls of infill directly into those spots. Apply a thin layer at a time to avoid overfilling, as both too little and too much infill can lead to matting and cosmetic issues, not to mention a loss of turf’s cushioning and drainage. After more infill is added, you can use your broom, Grandi Groom, or a small artificial grass brush to work it into the turf.",
+    "source_url": "https://themotzgroup.com/infill_blog/how-many-pounds-of-infill-do-you-need-per-square-foot-of-turf/",
+    "source_label": "Motz, Calculating How Much Artificial Turf Infill You Need: A Guide",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [],
+    "notes": "Read with curl 2026-10-16."
+  }
+]

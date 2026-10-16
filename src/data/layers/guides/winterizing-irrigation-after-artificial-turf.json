@@ -1,0 +1,710 @@
+[
+  {
+    "id": "winterizing-irrigation-after-artificial-turf.csu-freeze-expands",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says winterizing a sprinkler system means getting all the water out, because water grows by about one-eleventh as it freezes, so 11 cubic feet of water makes about 12 of ice, enough to break pipes, fittings, valves and sprinklers.",
+    "quote": "The process consists of expelling all the water from the irrigation system and equipment. This is necessary because water freezing in the irrigation system will break pipes, fittings, valves, sprinklers, pumps, and other system components. … Water expands and increases in volume by one-eleventh, so 11 cubic feet of water will form approximately 12 cubic feet of ice.",
+    "source_url": "https://extension.colostate.edu/resource/home-sprinkler-systems-preparing-your-sprinkler-system-for-winter/",
+    "source_label": "CSU Extension, Home Sprinkler Systems: Preparing Your Sprinkler System for Winter, Fact Sheet 4.719 (reviewed August 2025)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "11",
+      "12"
+    ]
+  },
+  {
+    "id": "winterizing-irrigation-after-artificial-turf.csu-drain-valves-electric",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension does not recommend relying on drain valves, because buried pipe shifts and can trap water where no one can check it, and says a system with electric valves has to be blown out with air because nothing else clears the water sitting on top of the valve diaphragm.",
+    "quote": "This method is not recommended since sub-surface pipes have a tendency to shift with time and there is no way to visually inspect lines once draining is complete. The only positive way to be sure enough water has been expelled from the system is by using compressed air to “blow” the water out. Systems with electric valves must be blown out with pressurized air. There is no other way to drain the water off the top of the diaphragm of the valve.",
+    "source_url": "https://extension.colostate.edu/resource/home-sprinkler-systems-preparing-your-sprinkler-system-for-winter/",
+    "source_label": "CSU Extension, Home Sprinkler Systems: Preparing Your Sprinkler System for Winter, Fact Sheet 4.719 (reviewed August 2025)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "winterizing-irrigation-after-artificial-turf.csu-air-pressure",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension puts blowout air at 40 to 80 psi, with 80 psi the most for rigid PVC pipe and 50 psi the most for flexible black polyethylene pipe, set at the compressor's own pressure regulator.",
+    "quote": "Ideal pressures are in the range of 40 to 80 pounds per square inch (psi) for the air compressor, with 80 psi being the maximum for rigid PVC pipe and 50 psi for polyethylene pipe (flexible black pipe). Set the pressure regulator on the air compressor accordingly.",
+    "source_url": "https://extension.colostate.edu/resource/home-sprinkler-systems-preparing-your-sprinkler-system-for-winter/",
+    "source_label": "CSU Extension, Home Sprinkler Systems: Preparing Your Sprinkler System for Winter, Fact Sheet 4.719 (reviewed August 2025)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "40",
+      "80",
+      "50"
+    ]
+  },
+  {
+    "id": "winterizing-irrigation-after-artificial-turf.csu-air-volume",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says too little air rides over the water and leaves it to drain into low spots, and sizes the compressor by dividing a zone's flow in gallons per minute by 7.5, so a zone designed for 30 psi and 20 gallons per minute needs 2.66 cubic feet per minute of air at 30 psi.",
+    "quote": "Air volume is as critical as air pressure. If an insufficient volume of air is used, after forcing some water out, the air will ride over the top of the water. This will result in the remaining water draining into low spots and subjecting the system to freeze damage. … Divide GPM by 7.5 to determine the cubic feet per minute (CFM) needed. … For example, if the system is designed for 30 psi and 20 gallons per minute per zone, divide 20 by 7.5. The answer is 2.66 cubic feet per minute. A compressor capable of providing 2.66 cfm (cubic feet per minute) at 30 psi (pounds per square inch) will be required.",
+    "source_url": "https://extension.colostate.edu/resource/home-sprinkler-systems-preparing-your-sprinkler-system-for-winter/",
+    "source_label": "CSU Extension, Home Sprinkler Systems: Preparing Your Sprinkler System for Winter, Fact Sheet 4.719 (reviewed August 2025)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "7.5",
+      "30",
+      "20",
+      "2.66"
+    ],
+    "notes": "20 ÷ 7.5 = 2.666…; the sheet writes 2.66."
+  },
+  {
+    "id": "winterizing-irrigation-after-artificial-turf.csu-one-zone-twice",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says to blow out one zone at a time, as the system normally runs, twice in short cycles and then not again, because air moving fast through dry pipe heats the pipe and fittings.",
+    "quote": "If you normally run one zone at a time when irrigating, the system should blow out the same way. If you try to do more, the excess velocity of flow and added friction will heat up the pipe and fittings to a point where they could possibly melt. … Each zone/station should be blown out twice to make sure all the water is purged from the system. It is better to use two short cycles per station/zone than to have one long cycle. Once a zone is “blown out”, avoid blowing that zone out again.",
+    "source_url": "https://extension.colostate.edu/resource/home-sprinkler-systems-preparing-your-sprinkler-system-for-winter/",
+    "source_label": "CSU Extension, Home Sprinkler Systems: Preparing Your Sprinkler System for Winter, Fact Sheet 4.719 (reviewed August 2025)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "winterizing-irrigation-after-artificial-turf.csu-stop-and-waste",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says the job starts by turning off the stop-and-waste valve or drain between the water supply and the backflow device, which may be in a basement, a crawlspace or an underground box as much as 5 feet down, turned with a long key and never forced.",
+    "quote": "Start by turning off the water supply to your system. A stop and waste valve or drain of some type should have been installed between the water supply and the backflow device. Turn this off. This may be located in a basement, crawlspace, or valve box underground. In many cases, a stop and waste valve will be installed below ground. The stop and waste may be 5 feet down, so a long key may be necessary. Do not force this valve while opening or closing it.",
+    "source_url": "https://extension.colostate.edu/resource/home-sprinkler-systems-preparing-your-sprinkler-system-for-winter/",
+    "source_label": "CSU Extension, Home Sprinkler Systems: Preparing Your Sprinkler System for Winter, Fact Sheet 4.719 (reviewed August 2025)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5"
+    ]
+  },
+  {
+    "id": "winterizing-irrigation-after-artificial-turf.csu-backflow-no-air",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says a pressure vacuum breaker or reduced-pressure backflow device must never have compressed air blown through it because its rubber seals can melt, that the compressor connects to the blowout fitting downstream of the device, and that a device without that fitting needs one added first.",
+    "quote": "Pressure Vacuum Breaker (PVB) or Reduced Pressure (RP) backflow prevention devices must never be blown out with compressed air. The rubber seals inside can easily melt from the heat of the air. … To blow out the irrigation system, connect the compressor to the downstream blowout fitting. Ensure the isolation ball cock on the downstream side of the backflow device is closed. … If the backflow device does not have a blowout fitting on the downstream side, one will need to be added before the irrigation system can be blown out.",
+    "source_url": "https://extension.colostate.edu/resource/home-sprinkler-systems-preparing-your-sprinkler-system-for-winter/",
+    "source_label": "CSU Extension, Home Sprinkler Systems: Preparing Your Sprinkler System for Winter, Fact Sheet 4.719 (reviewed August 2025)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "winterizing-irrigation-after-artificial-turf.csu-backflow-half-open",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says to leave a backflow device's ball valves and test cocks half open for the winter, because a ball valve left fully open or fully closed can trap water that freezes and damages it.",
+    "quote": "After the system is blown out, both ball valves and test cocks (these protrude from the side) should be exercised back and forth several times. Leave these in a half-open position for the winter. Ball valves that are either fully closed or fully open tend to trap water, expand and cause damage.",
+    "source_url": "https://extension.colostate.edu/resource/home-sprinkler-systems-preparing-your-sprinkler-system-for-winter/",
+    "source_label": "CSU Extension, Home Sprinkler Systems: Preparing Your Sprinkler System for Winter, Fact Sheet 4.719 (reviewed August 2025)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "winterizing-irrigation-after-artificial-turf.csu-spring-start",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says that in spring the backflow device's test cocks and ball valves are closed before the water goes back on, and the ball valves are then opened slowly so water hammer does not damage the system.",
+    "quote": "In the spring, close the test cocks and ball valves before pressurizing the system. Once the water supply to the PVB is turned on, open the ball valves slowly to pressurize the rest of the irrigation system. Opening the ball valves slowly will prevent damage to the system that can be caused by water hammer.",
+    "source_url": "https://extension.colostate.edu/resource/home-sprinkler-systems-preparing-your-sprinkler-system-for-winter/",
+    "source_label": "CSU Extension, Home Sprinkler Systems: Preparing Your Sprinkler System for Winter, Fact Sheet 4.719 (reviewed August 2025)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "winterizing-irrigation-after-artificial-turf.csu-controller-powered",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says to leave the irrigation controller powered all winter, because the transformer's heat keeps moisture and corrosion down, and to have it run a minimum cycle once a week so the valve solenoids do not stick.",
+    "quote": "The irrigation controller should remain powered during the winter. Do not unplug the controller. Heat from the transformer can help reduce moisture and protect components in the controller from corrosion. The controller should be programmed to run through a minimum cycle once a week to help keep solenoid plungers from sticking.",
+    "source_url": "https://extension.colostate.edu/resource/home-sprinkler-systems-preparing-your-sprinkler-system-for-winter/",
+    "source_label": "CSU Extension, Home Sprinkler Systems: Preparing Your Sprinkler System for Winter, Fact Sheet 4.719 (reviewed August 2025)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "winterizing-irrigation-after-artificial-turf.csu-pets-eyes",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says the whistling of a blowout can upset pets enough to run off, and that anyone doing it should wear eye protection.",
+    "quote": "Blowing out sprinkler systems can occasionally upset pets due to “whistling.” Care should be taken to protect pets from running off during winterization. … CAUTION! Wear proper eye protection.",
+    "source_url": "https://extension.colostate.edu/resource/home-sprinkler-systems-preparing-your-sprinkler-system-for-winter/",
+    "source_label": "CSU Extension, Home Sprinkler Systems: Preparing Your Sprinkler System for Winter, Fact Sheet 4.719 (reviewed August 2025)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "winterizing-irrigation-after-artificial-turf.csu-drip-winter",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension calls winterizing a drip system minimal: the head assembly (a portable control valve, backflow device, filter and pressure regulator) comes indoors and the mainline is uncapped to drain, since poly mainline is not damaged by freezing, but lines with many right-angle fittings or with check valves need to be blown out with air.",
+    "quote": "Winterization tasks for drip systems are minimal. Detach the head assembly, which consists of the control valve (if portable), backflow prevention device, filter and pressure regulator and store indoors for winter. Uncap the mainline to drain, especially if an emitter is not located at the low point in the system, then re-cap. Poly mainline will not be damaged by freezing. Systems with many right-angle fittings may retain water and require pressurized air to blow out. … If check valves are present, use care to drain the system and blow it out.",
+    "source_url": "https://extension.colostate.edu/resource/drip-irrigation-for-home-gardens/",
+    "source_label": "CSU Extension, Drip Irrigation for Home Gardens, Fact Sheet 4.702 (reviewed August 2025)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "winterizing-irrigation-after-artificial-turf.rainbird-xf-air",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Rain Bird says to follow each maker's winterizing steps for valves, filters and backflow devices, and allows compressed air through its XF dripline only with the flush valves open and at 40 psi or less, because its insert fittings are rated to 50 psi, notes that the drip zone's own pressure regulator controls water and not air, and says to blow until no water leaves the flush valves, then close them.",
+    "quote": "Check the manufacturer’s instructions for winterizing the valves, filters and backflow prevention devices … If compressed air is used to blowout the lines: • Compressed air may only be used with the flush valve open and with the air pressure at 40 psi (2.76 bar) or less • XF Dripline Insert Fittings are rated to 50 psi (3.45 bar), so the air pressure must be adjusted below this pressure • It is air volume, not pressure, which is effective when blowing out the lines • The pressure-regulating valve that is part of the control zone regulates water, not air pressure • With all flush valves open, compressed air should be applied until no water is seen exiting the flush valves • After turning off the air, close all flush valves",
+    "source_url": "https://www.rainbird.com/sites/default/files/media/documents/2022-01/d40024c-xf-series-dripline-design-installation-and-maintenance-guide-011022.pdf",
+    "source_label": "Rain Bird, XF Series Dripline Design, Installation and Maintenance Guide (D40024C, PDF)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "40",
+      "50",
+      "2.76",
+      "3.45"
+    ],
+    "notes": "Section \"Preventative Maintenance: Flushing / Winterizing\" of D40024C (© 2020, PDF dated January 2022)."
+  },
+  {
+    "id": "winterizing-irrigation-after-artificial-turf.rainbird-xf-flush-point",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Rain Bird says a dripline zone needs a manual flush point to be emptied for winter, set in a valve box with a gravel sump and normally as far from the water source as possible.",
+    "quote": "The flush point is also necessary when emptying the system for winter. • Install the manual flush at a low point in the exhaust header of a grid layout, or at the mid-point of a Loop Layout. (see pages 15,16) • Install a flush port with a threaded plug or a manual flushing valve in a valve box with a gravel sump adequate to drain approximately one gallon of water • Manual flush points are normally installed as far away from the water source as possible",
+    "source_url": "https://www.rainbird.com/sites/default/files/media/documents/2022-01/d40024c-xf-series-dripline-design-installation-and-maintenance-guide-011022.pdf",
+    "source_label": "Rain Bird, XF Series Dripline Design, Installation and Maintenance Guide (D40024C, PDF)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "15",
+      "16"
+    ]
+  },
+  {
+    "id": "winterizing-irrigation-after-artificial-turf.rainbird-home-50-pro",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Rain Bird's homeowner winterization guide says blowout air must not exceed 50 psi, and that depending on the size of the system and its equipment a homeowner may want a professional who is fully equipped for it.",
+    "quote": "Air pressure must not exceed 50 pounds per square inch (psi). Local irrigation contractors usually offer this service for a reasonable fee which may also include start-up in the Spring. Depending on how extensive your system is and what type of equipment you have installed, you may want to choose a professional who is fully equipped to provide this service.",
+    "source_url": "https://www.rainbird.com/sites/default/files/media/documents/2017-06/WinterizationGuide.pdf",
+    "source_label": "Rain Bird, Homeowner's Guide to Winterization (PDF)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "50"
+    ]
+  },
+  {
+    "id": "winterizing-irrigation-after-artificial-turf.rainbird-home-compressor",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Rain Bird's homeowner guide calls for a compressor that delivers 10 to 25 cubic feet per minute, says a small 2 hp shop compressor may not be enough and a high-pressure (120 psi), low-volume one should not be used, and says to call an irrigation contractor when the right compressor is not available.",
+    "quote": "To obtain proper air volume, you will need to rent or buy a compressor capable of providing 10 to 25 cubic feet per minute (CFM) of air volume. … It is very important to select the right air compressor for the job. Some small shop compressors (2 hp) may not be adequate to complete the winterization procedure properly. If the appropriate air compressor is not available, please call an irrigation contractor. Do not try to use an air compressor with high pressure (120 psi) and low volume to evacuate water from the system.",
+    "source_url": "https://www.rainbird.com/sites/default/files/media/documents/2017-06/WinterizationGuide.pdf",
+    "source_label": "Rain Bird, Homeowner's Guide to Winterization (PDF)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "10",
+      "25",
+      "2",
+      "120"
+    ]
+  },
+  {
+    "id": "winterizing-irrigation-after-artificial-turf.rainbird-home-out-through-heads",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Rain Bird's homeowner guide says a blowout forces water through the mainline, valves and lateral pipes and out through the sprinkler heads, that the compressor should never run without at least one zone valve open, and that no zone should take air for more than 2 minutes at a time.",
+    "quote": "Compressed air is used to force water through all of the irrigation system components including the mainline pipe, sprinkler control valves, lateral pipes, and out through the sprinkler heads. … Do not run the compressor without at least one sprinkler control valve open. This lessens the chance that the system could overpressurize. … Do not blow any circuit more than 2 minutes at a time.",
+    "source_url": "https://www.rainbird.com/sites/default/files/media/documents/2017-06/WinterizationGuide.pdf",
+    "source_label": "Rain Bird, Homeowner's Guide to Winterization (PDF)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2"
+    ]
+  },
+  {
+    "id": "winterizing-irrigation-after-artificial-turf.rainbird-home-valves",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Rain Bird's homeowner guide says gravity draining leaves water inside the valves, and that a diaphragm valve that is not blown out with air should be taken apart and drained.",
+    "quote": "Gravity draining of the system will not remove water captured inside the valves. … Valves that are not blown out with air must follow this procedure: Any diaphragm style such as the DAS-075, DAS-100, CP-075, CP-100, CPF-075, CPF-100, and EV-100 should be disassembled and drained.",
+    "source_url": "https://www.rainbird.com/sites/default/files/media/documents/2017-06/WinterizationGuide.pdf",
+    "source_label": "Rain Bird, Homeowner's Guide to Winterization (PDF)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "075",
+      "100"
+    ]
+  },
+  {
+    "id": "winterizing-irrigation-after-artificial-turf.rainbird-home-backflow",
+    "layer": "product",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "Rain Bird's homeowner guide says to follow the backflow preventer maker's winterizing steps, leave ball-type shutoff valves at a 45-degree angle after draining, and in extreme conditions insulate the device or use heat tape.",
+    "quote": "Backflow Preventer: Please check with the manufacturer for specific winterization techniques. Leave the shutoff valves open after draining the unit. “Ball” type shutoff valves should be left at a 45 degree angle to prevent water from entering the seal. Under extreme conditions, insulate the device or use “heat tape” to prevent damage.",
+    "source_url": "https://www.rainbird.com/sites/default/files/media/documents/2017-06/WinterizationGuide.pdf",
+    "source_label": "Rain Bird, Homeowner's Guide to Winterization (PDF)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "45"
+    ]
+  },
+  {
+    "id": "winterizing-irrigation-after-artificial-turf.greeley-mid-october",
+    "layer": "utility",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley's water department says the city usually gets its first freeze in October and recommends stopping lawn watering and winterizing the sprinkler system in mid-October.",
+    "quote": "Greeley usually receives its first freeze in October. It is recommended that you stop watering your lawn and winterize your sprinkler system mid-month. It is the optimal time to shut down all outdoor water connections. … It is a good idea to have the system winterized in October.",
+    "source_url": "https://greeleyco.gov/water-and-sewer/about/news/2024/time-to-winterize-4-things-to-add-to-your-to-do-list/",
+    "source_label": "City of Greeley Water and Sewer, Time to Winterize: 4 Things to Add to Your To-Do List (2024)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "winterizing-irrigation-after-artificial-turf.greeley-self-draining",
+    "layer": "utility",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley's water department says even a self-draining sprinkler system should be blown out as a precaution, because there is no telling whether it drained until spring.",
+    "quote": "Winterizing a sprinkler system is the simple act of shutting off the water and using compressed air to force the water from the lines to ensure no freeze damage will occur over the winter. Even if you have a self-draining system, you should consider doing this as a precaution. It is impossible to tell if a self-draining system has functioned properly or not until spring when it is too late, and freeze damage may have occurred.",
+    "source_url": "https://greeleyco.gov/water-and-sewer/about/news/2024/time-to-winterize-4-things-to-add-to-your-to-do-list/",
+    "source_label": "City of Greeley Water and Sewer, Time to Winterize: 4 Things to Add to Your To-Do List (2024)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "winterizing-irrigation-after-artificial-turf.greeley-backflow-house-line",
+    "layer": "utility",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley's water department says to shut off the sprinkler water, drain the backflow assembly and the line back into the house, turn the assembly's shutoff valves and test ports to 45 degrees, and connect the compressor after the backflow assembly, never through it.",
+    "quote": "Shut off the water to the sprinkler system. Drain the backflow assembly and the line going back into the house. The shut-off valves and test ports on the backflow assembly should be turned at a 45-degree angle to ensure they do not freeze and burst during the winter. Connect an air compressor to the system after the backflow assembly; forcing compressed air through the backflow assembly can damage internal parts that will need to be replaced in the spring.",
+    "source_url": "https://greeleyco.gov/water-and-sewer/about/news/2024/time-to-winterize-4-things-to-add-to-your-to-do-list/",
+    "source_label": "City of Greeley Water and Sewer, Time to Winterize: 4 Things to Add to Your To-Do List (2024)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "45"
+    ]
+  },
+  {
+    "id": "winterizing-irrigation-after-artificial-turf.greeley-compressor",
+    "layer": "utility",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley's water department says the compressor should be set no higher than 70 psi and deliver at least 100 cubic feet per minute, because less air leaves water in the lines while seeming to clear them.",
+    "quote": "Make sure the compressor is set no higher than 70 psi (pounds per square inch) and can deliver at least 100 cfm (cubic feet per minute). Using over 70 psi can damage valves lines and heads, while using anything less than 100 cfm will not have the volume to force all the water out and much of the water stays in the lines while the air travels above it, giving the impression that the lines are clear of water when they are not.",
+    "source_url": "https://greeleyco.gov/water-and-sewer/about/news/2024/time-to-winterize-4-things-to-add-to-your-to-do-list/",
+    "source_label": "City of Greeley Water and Sewer, Time to Winterize: 4 Things to Add to Your To-Do List (2024)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "70",
+      "100"
+    ]
+  },
+  {
+    "id": "winterizing-irrigation-after-artificial-turf.greeley-hire",
+    "layer": "utility",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley's water department says to hire a company for the blowout if the process makes you uncomfortable, and to ask first whether it has a compressor that can handle the job and references.",
+    "quote": "If you are uncomfortable with the sprinkler system blow-out process, please hire a company to winterize your system for you. Many companies offer this service this time of year and if you choose to use one, consider asking these questions first: … Do they have a compressor that can handle the job? Do they have references?",
+    "source_url": "https://greeleyco.gov/water-and-sewer/about/news/2024/time-to-winterize-4-things-to-add-to-your-to-do-list/",
+    "source_label": "City of Greeley Water and Sewer, Time to Winterize: 4 Things to Add to Your To-Do List (2024)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "winterizing-irrigation-after-artificial-turf.greeley-hoses-trees",
+    "layer": "utility",
+    "applies_to": [
+      "greeley-co"
+    ],
+    "fact": "Greeley's water department says to disconnect and drain outdoor hoses, since one hard overnight freeze can burst the faucet or the pipe, and to keep a hose handy to water trees in a long warm, dry winter spell.",
+    "quote": "It is important to disconnect and drain outdoor hoses. Detaching the hose allows water to drain from the pipe. Otherwise, a single hard, overnight freeze can burst either the faucet or the pipe. Keep a hose handy to water trees during an extended warm and dry period in the winter.",
+    "source_url": "https://greeleyco.gov/water-and-sewer/about/news/2024/time-to-winterize-4-things-to-add-to-your-to-do-list/",
+    "source_label": "City of Greeley Water and Sewer, Time to Winterize: 4 Things to Add to Your To-Do List (2024)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": []
+  },
+  {
+    "id": "winterizing-irrigation-after-artificial-turf.nws-hard-freeze",
+    "layer": "climate",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The National Weather Service defines a hard freeze as surface air at 28°F or lower for an extended time, enough to kill most vegetation.",
+    "quote": "A hard freeze occurs when the surface air temperature reaches 28°F or lower for an extended period of time, killing most types of vegetation.",
+    "source_url": "https://forecast.weather.gov/glossary.php?word=hard%20freeze",
+    "source_label": "National Weather Service Glossary, Hard Freeze",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "28"
+    ]
+  },
+  {
+    "id": "winterizing-irrigation-after-artificial-turf.ccc-freeze-map",
+    "layer": "climate",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Climate Center publishes first fall and last spring freeze dates for Colorado weather stations at several temperature thresholds and percentiles, from NOAA's 1991 to 2020 climate normals.",
+    "quote": "Station Normals: Frost/Freeze dates … Choose whether you want to see first freezes in the fall or last freezes in the spring. Then choose a temperature threshold and a percentile. … Data source: NOAA 1991-2020 climate normals.",
+    "source_url": "https://climate.colostate.edu/normals_stn_select_freeze.html",
+    "source_label": "Colorado Climate Center, Station Normals: Frost/Freeze dates",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1991",
+      "2020"
+    ]
+  },
+  {
+    "id": "winterizing-irrigation-after-artificial-turf.ccc-percentiles",
+    "layer": "climate",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Climate Center explains that only 1 year in 10 has a first freeze as early as the 10th-percentile date, and only 1 year in 10 has one as late as the 90th-percentile date.",
+    "quote": "The 10th percentile means that only one out of 10 years would have a freeze that early, and the 90th percentile means that only one out of ten years would have a freeze that late.",
+    "source_url": "https://climate.colostate.edu/blog/index.php/2024/09/20/first-fall-freezes/",
+    "source_label": "Colorado Climate Center, Colorado Climate Blog: First fall freezes (Russ Schumacher, September 20, 2024)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1",
+      "10"
+    ]
+  },
+  {
+    "id": "winterizing-irrigation-after-artificial-turf.ccc-trend-later",
+    "layer": "climate",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "The Colorado Climate Center says first freezes along the Front Range and eastern plains have generally shifted one to two weeks later since 1980, but that the shift does not rule out an extremely early cold front like eastern Colorado's in September 2020.",
+    "quote": "For example, in Grand Junction and Palisade, which has been one of the fastest-warming regions in the state overall, the average date of the first freeze has actually creeped over a week earlier since 1980. In contrast, Front Range and eastern plains locations have generally shifted one to two weeks later. And even with an average shift toward later freezes, it doesn’t completely rule out something like the extremely early cold front that crashed through eastern Colorado in September 2020.",
+    "source_url": "https://climate.colostate.edu/blog/index.php/2024/09/20/first-fall-freezes/",
+    "source_label": "Colorado Climate Center, Colorado Climate Blog: First fall freezes (Russ Schumacher, September 20, 2024)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1980",
+      "2020"
+    ]
+  },
+  {
+    "id": "winterizing-irrigation-after-artificial-turf.ccc-fort-collins-28",
+    "layer": "climate",
+    "applies_to": [
+      "fort-collins-co",
+      "timnath-co",
+      "wellington-co"
+    ],
+    "fact": "At the Fort Collins station, the Colorado Climate Center's 1991 to 2020 normals put the first fall low of 28°F or colder by October 2 in 1 year in 10, by October 17 in half of years and by October 28 in 9 years in 10.",
+    "quote": "\"FT COLLINS, CO US\",USC00053005 · first_28_pct10 1900-10-02 · first_28_pct50 1900-10-17 · first_28_pct90 1900-10-28",
+    "source_url": "https://climate.colostate.edu/normals/freeze_prob_normals.csv",
+    "source_label": "Colorado Climate Center, freeze probability data file behind its Station Normals: Frost/Freeze dates map (NOAA 1991 to 2020 normals)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1991",
+      "2020",
+      "28",
+      "2",
+      "1",
+      "10",
+      "17",
+      "9",
+      "1900-10-02",
+      "1900-10-17",
+      "1900-10-28",
+      "50",
+      "90"
+    ],
+    "notes": "Read from the CSV on 2026-10-16. Columns per the map page script: first_{T}_pct{P} is the first fall date at or below T°F at the P-th percentile; 1900 is the file's placeholder year (month and day only). The 10th percentile is the date only 1 year in 10 is as early as; the 90th, the date only 1 year in 10 is later than (Colorado Climate Blog). Station-to-town assignment by proximity (INFERENCE): say \"the nearest station\"."
+  },
+  {
+    "id": "winterizing-irrigation-after-artificial-turf.ccc-greeley-28",
+    "layer": "climate",
+    "applies_to": [
+      "greeley-co",
+      "evans-co",
+      "windsor-co",
+      "eaton-co",
+      "severance-co",
+      "milliken-co",
+      "johnstown-co"
+    ],
+    "fact": "At the Greeley UNC station, the Colorado Climate Center's 1991 to 2020 normals put the first fall low of 28°F or colder by October 4 in 1 year in 10, by October 18 in half of years and by November 1 in 9 years in 10.",
+    "quote": "\"GREELEY UNC, CO US\",USC00053553 · first_28_pct10 1900-10-04 · first_28_pct50 1900-10-18 · first_28_pct90 1900-11-01",
+    "source_url": "https://climate.colostate.edu/normals/freeze_prob_normals.csv",
+    "source_label": "Colorado Climate Center, freeze probability data file behind its Station Normals: Frost/Freeze dates map (NOAA 1991 to 2020 normals)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1991",
+      "2020",
+      "28",
+      "4",
+      "1",
+      "10",
+      "18",
+      "9",
+      "1900-10-04",
+      "1900-10-18",
+      "1900-11-01",
+      "50",
+      "90"
+    ],
+    "notes": "Read from the CSV on 2026-10-16. Columns per the map page script: first_{T}_pct{P} is the first fall date at or below T°F at the P-th percentile; 1900 is the file's placeholder year (month and day only). The 10th percentile is the date only 1 year in 10 is as early as; the 90th, the date only 1 year in 10 is later than (Colorado Climate Blog). Station-to-town assignment by proximity (INFERENCE): say \"the nearest station\"."
+  },
+  {
+    "id": "winterizing-irrigation-after-artificial-turf.ccc-longmont-28",
+    "layer": "climate",
+    "applies_to": [
+      "longmont-co",
+      "mead-co",
+      "firestone-co",
+      "frederick-co",
+      "dacono-co"
+    ],
+    "fact": "At the Longmont 2 ESE station, the Colorado Climate Center's 1991 to 2020 normals put the first fall low of 28°F or colder by September 30 in 1 year in 10, by October 12 in half of years and by October 25 in 9 years in 10.",
+    "quote": "\"LONGMONT 2 ESE, CO US\",USC00055116 · first_28_pct10 1900-09-30 · first_28_pct50 1900-10-12 · first_28_pct90 1900-10-25",
+    "source_url": "https://climate.colostate.edu/normals/freeze_prob_normals.csv",
+    "source_label": "Colorado Climate Center, freeze probability data file behind its Station Normals: Frost/Freeze dates map (NOAA 1991 to 2020 normals)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "2",
+      "1991",
+      "2020",
+      "28",
+      "30",
+      "1",
+      "10",
+      "12",
+      "25",
+      "9",
+      "1900-09-30",
+      "1900-10-12",
+      "1900-10-25",
+      "50",
+      "90"
+    ],
+    "notes": "Read from the CSV on 2026-10-16. Columns per the map page script: first_{T}_pct{P} is the first fall date at or below T°F at the P-th percentile; 1900 is the file's placeholder year (month and day only). The 10th percentile is the date only 1 year in 10 is as early as; the 90th, the date only 1 year in 10 is later than (Colorado Climate Blog). Station-to-town assignment by proximity (INFERENCE): say \"the nearest station\"."
+  },
+  {
+    "id": "winterizing-irrigation-after-artificial-turf.ccc-loveland-28",
+    "layer": "climate",
+    "applies_to": [
+      "loveland-co",
+      "berthoud-co"
+    ],
+    "fact": "At the Loveland 2N station, the Colorado Climate Center's 1991 to 2020 normals put the first fall low of 28°F or colder by September 22 in 1 year in 10, by October 10 in half of years and by October 22 in 9 years in 10.",
+    "quote": "\"LOVELAND 2N, CO US\",USC00055236 · first_28_pct10 1900-09-22 · first_28_pct50 1900-10-10 · first_28_pct90 1900-10-22",
+    "source_url": "https://climate.colostate.edu/normals/freeze_prob_normals.csv",
+    "source_label": "Colorado Climate Center, freeze probability data file behind its Station Normals: Frost/Freeze dates map (NOAA 1991 to 2020 normals)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "1991",
+      "2020",
+      "28",
+      "22",
+      "1",
+      "10",
+      "9",
+      "1900-09-22",
+      "1900-10-10",
+      "1900-10-22",
+      "50",
+      "90"
+    ],
+    "notes": "Read from the CSV on 2026-10-16. Columns per the map page script: first_{T}_pct{P} is the first fall date at or below T°F at the P-th percentile; 1900 is the file's placeholder year (month and day only). The 10th percentile is the date only 1 year in 10 is as early as; the 90th, the date only 1 year in 10 is later than (Colorado Climate Blog). Station-to-town assignment by proximity (INFERENCE): say \"the nearest station\"."
+  },
+  {
+    "id": "winterizing-irrigation-after-artificial-turf.ccc-estes-park-28",
+    "layer": "climate",
+    "applies_to": [
+      "estes-park-co"
+    ],
+    "fact": "At the Estes Park 3 SSE station, the Colorado Climate Center's 1991 to 2020 normals put the first fall low of 28°F or colder by September 12 in 1 year in 10, by September 28 in half of years and by October 12 in 9 years in 10.",
+    "quote": "\"ESTES PARK 3 SSE, CO US\",USC00052761 · first_28_pct10 1900-09-12 · first_28_pct50 1900-09-28 · first_28_pct90 1900-10-12",
+    "source_url": "https://climate.colostate.edu/normals/freeze_prob_normals.csv",
+    "source_label": "Colorado Climate Center, freeze probability data file behind its Station Normals: Frost/Freeze dates map (NOAA 1991 to 2020 normals)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "3",
+      "1991",
+      "2020",
+      "28",
+      "12",
+      "1",
+      "10",
+      "9",
+      "1900-09-12",
+      "1900-09-28",
+      "1900-10-12",
+      "50",
+      "90"
+    ],
+    "notes": "Read from the CSV on 2026-10-16. Columns per the map page script: first_{T}_pct{P} is the first fall date at or below T°F at the P-th percentile; 1900 is the file's placeholder year (month and day only). The 10th percentile is the date only 1 year in 10 is as early as; the 90th, the date only 1 year in 10 is later than (Colorado Climate Blog). Station-to-town assignment by proximity (INFERENCE): say \"the nearest station\"."
+  },
+  {
+    "id": "winterizing-irrigation-after-artificial-turf.csu-winter-water-when",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says to water trees, shrubs and perennials in long dry fall and winter spells only when air and soil are above 40°F with no snow cover, at midday so it soaks in before the night freeze, about once or twice a month.",
+    "quote": "Water only when air and soil temperatures are above 40 degrees F with no snow cover. … Apply water during midday, so it will have time to soak in before possible freezing at night. … Monitor weather conditions and water during extended dry periods without snow cover, about once or twice each month.",
+    "source_url": "https://extension.colostate.edu/resource/fall-and-winter-watering-of-plants-and-trees/",
+    "source_label": "CSU Extension, Fall and Winter Watering of Plants and Trees, Fact Sheet 7.211 (reviewed August 2025)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "40"
+    ]
+  },
+  {
+    "id": "winterizing-irrigation-after-artificial-turf.csu-winter-trees",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension names birches, maples, lindens and other shallow-rooted woody plants as needing water in dry fall and winter spells, and gives trees 10 gallons per inch of trunk diameter, measured 6 inches above the ground, spread under the canopy and beyond.",
+    "quote": "Woody plants with shallow root systems require supplemental watering during extended dry fall and winter periods. These include: … European white and paper birches … Norway, silver, red, Rocky Mountain, and hybrid maples … Lindens, alders, hornbeams, dogwoods, willows, and mountain ashes … Apply water to many locations under the dripline and beyond if possible. … As a general survival rule, apply 10 gallons of water for each diameter inch of the tree. … Use a ruler to measure your tree’s diameter at 6″ above ground level.",
+    "source_url": "https://extension.colostate.edu/resource/fall-and-winter-watering-of-plants-and-trees/",
+    "source_label": "CSU Extension, Fall and Winter Watering of Plants and Trees, Fact Sheet 7.211 (reviewed August 2025)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "10",
+      "6"
+    ]
+  },
+  {
+    "id": "winterizing-irrigation-after-artificial-turf.csu-winter-shrubs",
+    "layer": "research",
+    "applies_to": [
+      "*"
+    ],
+    "fact": "CSU Extension says shrubs benefit from water October through March in dry winters: 5 gallons twice a month for a newly planted shrub, 5 gallons a month for an established one under 3 feet and 18 gallons a month for one over 6 feet, less after precipitation.",
+    "quote": "In dry winters, all shrubs benefit from winter watering from October through March. Apply 5 gallons two times per month for a newly planted shrub. Small established shrubs (less than 3 feet tall) should receive 5 gallons monthly. Large established shrubs (more than 6 feet) require 18 gallons monthly. Decrease amounts to account for precipitation.",
+    "source_url": "https://extension.colostate.edu/resource/fall-and-winter-watering-of-plants-and-trees/",
+    "source_label": "CSU Extension, Fall and Winter Watering of Plants and Trees, Fact Sheet 7.211 (reviewed August 2025)",
+    "checked": "2026-10-16",
+    "reachable": true,
+    "status": "VERIFIED",
+    "numbers": [
+      "5",
+      "3",
+      "18",
+      "6"
+    ]
+  }
+]
