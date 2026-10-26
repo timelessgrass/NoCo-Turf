@@ -2,3 +2,4 @@
 
 One line per publish, written by .github/workflows/weekly-publish.yml.
 
+2026-10-26 winterizing-irrigation-after-artificial-turf
