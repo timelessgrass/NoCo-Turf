@@ -194,10 +194,10 @@
     "quote": "Sod (no large rocks or foreign debris, attached dirt okay) - $8.50 per cubic yard … City residents must present their yard debris permit at the gate to drop off organics and clean lumber, or be charged the non-residential/commercial fees. … Sod (attached dirt ok, no large rocks or foreign debris) … No root balls",
     "source_url": "https://www.lovgov.org/services/public-works/trash-recycling/recycling-center",
     "source_label": "City of Loveland, Recycling Center (400 N. Wilson Ave.)",
-    "checked": "2026-10-16",
+    "checked": "2026-11-02",
     "reachable": false,
     "status": "EXTERNAL_SOURCE",
-    "recheck": "2026-11-15",
+    "recheck": "2026-12-02",
     "numbers": ["8.50", "400"],
     "notes": "lovgov.org returns 403 to curl and to WebFetch. Read verbatim in the Wayback capture https://web.archive.org/web/20260501195810/https://www.lovgov.org/services/public-works/trash-recycling/recycling-center (the capture lists 2026 holiday closures, so it is the 2026 page). The fee line is headed 'Fees for all non-residents and commercial businesses:'; the page also says 'City residents may use their current Yard Waste Permit to gain entry and drop off non fee-based items.' Re-read the live page in a browser by the recheck date, then set VERIFIED."
   },
